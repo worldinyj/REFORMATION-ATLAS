@@ -145,3 +145,10 @@
 - `ILL-V03-01/02-R2C01` 2종은 AI 생성 회화 시트에서 추출한 **16:9 독립 크롭 후보**, 대화 ZIP에서만 제공. 정확한 후스 설교 공간/특정 공의회 회의 장면 고증 아님.
 - [GitHub 정본 유래 MAP02-R3C01](../../../assets/maps/candidates/MAP-V03-02-R3C01_oxford_prague_research_links.svg) · [MAP04-R3C01](../../../assets/maps/candidates/MAP-V03-04-R3C01_waldensian_exchange.svg): 기존 지도 정본을 기준으로 범례만 수정한 DRAFT 후보, 본래 지도는 보존.
 - 기존 인물화 4종 R2C01 후보 및 원래 이미지·지도 10개는 승격하지 않음. `main` 미병합 및 `approved=false,can_ship=false`.
+
+## V1.3 · 본문 및 역사 시각자료 위험 검토 (2026-10-25)
+- CH 01/02/03/04/09에 원전·당대 건축·생전 초상·1435 협상 문안의 접근 한계를 추가.
+- [06 연대표](06_TIMELINE.md)에 1432/1433/1435/1436/1437 구분과 날짜 정확도 규정 추가. [07 사실검증](07_FACTCHECK_MATRIX.md)에 시각자료 오인 위험 추가.
+- [28 V1.3 편집·이미지 최종 검토 게이트](28_V13_HISTORICAL_VISUAL_FINAL_EDITORIAL_GATE.md) 및 [V1.3 데이터 판정](../../../data/vol03_v13_review_gates.json) 참조.
+- 후보 이미지 6점의 로컬 설치 ZIP은 해시/CRC/설치/재실행/변조 차단 실험을 통과했으나, 실제 사용자 Mac·GitHub 바이너리 저장은 아직 미수행.
+- DRAFT · 전문 역사학 승인 0건 · 게시 0건 · main 미병합.
