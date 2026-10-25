@@ -1,4 +1,4 @@
-# VOL-03 · 종교개혁의 선구자 | Deep Research V0.3
+# VOL-03 · 종교개혁의 선구자 | Deep Research V0.4
 **상태: DRAFT** (기초 공개 학술자료를 토대로 한 심화 연구 초안, 사람의 역사학 감수 전)
 
 ## 읽는 순서
@@ -16,7 +16,7 @@
 12. [05_SOURCE_REGISTER.md](05_SOURCE_REGISTER.md): 학술·전시 출처 35건과 실제 접근 범위
 
 ## 연결 산출물
-- [볼륨 3 구조화 확장 데이터](../../../data/vol03_extension.json): 추가 인물 6명, 운동 4개, 위치 8곳, 사건 14건, 관계 7개
+- [볼륨 3 구조화 확장 데이터](../../../data/vol03_extension.json): 추가 인물 6명, 운동 4개, 위치 8곳, 사건 16건, 관계 7개
 - [자체 제작 편집 가능한 SVG 관계도](../../../assets/diagrams/AST-0002_vol03_movement-pathways.svg)
 - [원본 매체 관리대장](../../../assets/asset_manifest.json)
 - [VOL-03 검증 스크립트](../../../scripts/validate_vol03.py)
@@ -47,3 +47,10 @@
 - **1433년 핵심 문안 3개와 2019 비평판 수록 문서 10개**를 분리하여 설명(원문 전문 직접 대조는 미완료).
 - 후스와 루터 활동 시기 차이를 '한 세대 이상'에서 '약 100년'으로 표현 교정.
 - 신규 원전 검증 항목은 [11_PRIMARY_SOURCE_AUDIT_V03.md](11_PRIMARY_SOURCE_AUDIT_V03.md)에 연결.
+
+## V0.4 문헌 판본 및 사료 계보
+- [13_DOCUMENT_PROVENANCE_AND_EDITION_V04.md](13_DOCUMENT_PROVENANCE_AND_EDITION_V04.md): 프라하 4개조 1844/1937 편집본 구분 및 콤팍타타 1433 핵심 3문안/2019 학술판 10문서 구분.
+- [문헌-판본 JSON](../../../data/vol03_document_witnesses.json): 8개 역사 문헌 및 온라인 전사/현대 학술판 객체.
+- [역사 주장 카드](../../../data/vol03_primary_claims.json): 기존 11건에서 14건으로 확장.
+- 1433-11-30의 잠정 합의와 1437-12-23의 후속 조치를 사건 ID EVT-0019·0020으로 추가하되, 원전 미대조임을 명시.
+- 1436년 이흘라바 선포와 1433년 프라하 합의는 서로 다른 사건.
