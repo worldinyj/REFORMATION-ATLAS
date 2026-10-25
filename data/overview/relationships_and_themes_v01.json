@@ -1,0 +1,610 @@
+{
+  "schema_version": "0.1",
+  "stage": "CONTENT_PREPARATION",
+  "date": "2026-10-25",
+  "publication_gate": {
+    "approved": false,
+    "can_ship": false
+  },
+  "relationships": [
+    {
+      "id": "OV-R-001",
+      "from_id": "OV-P-008",
+      "to_id": "OV-E-010",
+      "type": "associated_with",
+      "source_ids": [
+        "SRC-O-015"
+      ],
+      "note_ko": "창시 단일 원인으로 환원하지 않는다.",
+      "certainty": "OVERVIEW",
+      "review_status": "DRAFT",
+      "public_visible": false
+    },
+    {
+      "id": "OV-R-002",
+      "from_id": "OV-P-009",
+      "to_id": "OV-E-011",
+      "type": "associated_with",
+      "source_ids": [
+        "SRC-O-003"
+      ],
+      "note_ko": "번역은 여러 참여자의 작업으로 다룬다.",
+      "certainty": "OVERVIEW",
+      "review_status": "DRAFT",
+      "public_visible": false
+    },
+    {
+      "id": "OV-R-003",
+      "from_id": "OV-P-010",
+      "to_id": "OV-E-012",
+      "type": "historical_participant",
+      "source_ids": [
+        "SRC-O-016"
+      ],
+      "note_ko": "공의회 사건을 인물의 생애와 연결",
+      "certainty": "OVERVIEW",
+      "review_status": "DRAFT",
+      "public_visible": false
+    },
+    {
+      "id": "OV-R-004",
+      "from_id": "OV-P-010",
+      "to_id": "OV-D-005",
+      "type": "author_of",
+      "source_ids": [
+        "SRC-O-016"
+      ],
+      "note_ko": "1413 라틴 원저술과 1915 영어 번역본 구별",
+      "certainty": "OVERVIEW",
+      "review_status": "DRAFT",
+      "public_visible": false
+    },
+    {
+      "id": "OV-R-005",
+      "from_id": "OV-P-009",
+      "to_id": "OV-P-010",
+      "type": "textual_influence",
+      "source_ids": [
+        "SRC-O-003",
+        "SRC-O-016"
+      ],
+      "note_ko": "문헌 영향이며 직접 사제관계가 아니다.",
+      "certainty": "INTERPRETIVE",
+      "review_status": "DRAFT",
+      "public_visible": false
+    },
+    {
+      "id": "OV-R-006",
+      "from_id": "OV-P-010",
+      "to_id": "OV-P-013",
+      "type": "later_reception",
+      "source_ids": [
+        "SRC-O-002",
+        "SRC-O-017"
+      ],
+      "note_ko": "루터가 후대를 살았으며 개인적 직접 만남 불가능",
+      "certainty": "INTERPRETIVE",
+      "review_status": "DRAFT",
+      "public_visible": false
+    },
+    {
+      "id": "OV-R-007",
+      "from_id": "OV-P-013",
+      "to_id": "OV-E-015",
+      "type": "historical_participant",
+      "source_ids": [
+        "SRC-O-004"
+      ],
+      "note_ko": "문서 게시 방식의 세부 전승은 별도 고증",
+      "certainty": "OVERVIEW",
+      "review_status": "DRAFT",
+      "public_visible": false
+    },
+    {
+      "id": "OV-R-008",
+      "from_id": "OV-P-013",
+      "to_id": "OV-D-008",
+      "type": "author_of",
+      "source_ids": [
+        "SRC-O-004"
+      ],
+      "note_ko": "1517 역사 자료의 개요",
+      "certainty": "OVERVIEW",
+      "review_status": "DRAFT",
+      "public_visible": false
+    },
+    {
+      "id": "OV-R-009",
+      "from_id": "OV-P-013",
+      "to_id": "OV-E-016",
+      "type": "historical_participant",
+      "source_ids": [
+        "SRC-O-002"
+      ],
+      "note_ko": "1521 회의와 저술 논쟁",
+      "certainty": "OVERVIEW",
+      "review_status": "DRAFT",
+      "public_visible": false
+    },
+    {
+      "id": "OV-R-010",
+      "from_id": "OV-P-014",
+      "to_id": "OV-D-011",
+      "type": "contributor_to",
+      "source_ids": [
+        "SRC-O-002"
+      ],
+      "note_ko": "멜란히톤의 주요 작성 기여",
+      "certainty": "OVERVIEW",
+      "review_status": "DRAFT",
+      "public_visible": false
+    },
+    {
+      "id": "OV-R-011",
+      "from_id": "OV-P-014",
+      "to_id": "OV-P-013",
+      "type": "collaborator_of",
+      "source_ids": [
+        "SRC-O-002"
+      ],
+      "note_ko": "협력과 견해 차이가 병존",
+      "certainty": "OVERVIEW",
+      "review_status": "DRAFT",
+      "public_visible": false
+    },
+    {
+      "id": "OV-R-012",
+      "from_id": "OV-P-015",
+      "to_id": "OV-E-018",
+      "type": "historical_participant",
+      "source_ids": [
+        "SRC-O-005"
+      ],
+      "note_ko": "성찬론 차이를 둘러싼 대화",
+      "certainty": "OVERVIEW",
+      "review_status": "DRAFT",
+      "public_visible": false
+    },
+    {
+      "id": "OV-R-013",
+      "from_id": "OV-P-013",
+      "to_id": "OV-E-018",
+      "type": "historical_participant",
+      "source_ids": [
+        "SRC-O-005"
+      ],
+      "note_ko": "양측의 성찬 신학은 같은 체계가 아님",
+      "certainty": "OVERVIEW",
+      "review_status": "DRAFT",
+      "public_visible": false
+    },
+    {
+      "id": "OV-R-014",
+      "from_id": "OV-P-016",
+      "to_id": "OV-D-012",
+      "type": "author_of",
+      "source_ids": [
+        "SRC-O-013"
+      ],
+      "note_ko": "1536 초판과 후대 판본을 구별",
+      "certainty": "OVERVIEW",
+      "review_status": "DRAFT",
+      "public_visible": false
+    },
+    {
+      "id": "OV-R-015",
+      "from_id": "OV-P-021",
+      "to_id": "OV-E-021",
+      "type": "historical_context",
+      "source_ids": [
+        "SRC-O-021"
+      ],
+      "note_ko": "예수회와 공의회는 동시대 가톨릭 개혁의 다른 과정",
+      "certainty": "INTERPRETIVE",
+      "review_status": "DRAFT",
+      "public_visible": false
+    },
+    {
+      "id": "OV-R-016",
+      "from_id": "OV-P-023",
+      "to_id": "OV-D-016",
+      "type": "author_of",
+      "source_ids": [
+        "SRC-O-006"
+      ],
+      "note_ko": "1675 저술",
+      "certainty": "OVERVIEW",
+      "review_status": "DRAFT",
+      "public_visible": false
+    },
+    {
+      "id": "OV-R-017",
+      "from_id": "OV-P-024",
+      "to_id": "OV-E-027",
+      "type": "associated_with",
+      "source_ids": [
+        "SRC-O-006",
+        "SRC-O-007"
+      ],
+      "note_ko": "감리교는 웨슬리 개인만의 운동으로 환원하지 않는다.",
+      "certainty": "OVERVIEW",
+      "review_status": "DRAFT",
+      "public_visible": false
+    },
+    {
+      "id": "OV-R-018",
+      "from_id": "OV-P-025",
+      "to_id": "OV-E-027",
+      "type": "associated_with",
+      "source_ids": [
+        "SRC-O-007"
+      ],
+      "note_ko": "찬송과 모임 실천의 역할",
+      "certainty": "OVERVIEW",
+      "review_status": "DRAFT",
+      "public_visible": false
+    },
+    {
+      "id": "OV-R-019",
+      "from_id": "OV-P-026",
+      "to_id": "OV-E-026",
+      "type": "historical_participant",
+      "source_ids": [
+        "SRC-O-014"
+      ],
+      "note_ko": "영국·식민지 북미의 다양한 부흥을 하나의 지도자로 환원하지 않는다.",
+      "certainty": "OVERVIEW",
+      "review_status": "DRAFT",
+      "public_visible": false
+    },
+    {
+      "id": "OV-R-020",
+      "from_id": "OV-P-028",
+      "to_id": "OV-E-029",
+      "type": "historical_participant",
+      "source_ids": [
+        "SRC-O-008"
+      ],
+      "note_ko": "한국 천주교 공동체의 자생적 형성 과정 포함",
+      "certainty": "OVERVIEW",
+      "review_status": "DRAFT",
+      "public_visible": false
+    },
+    {
+      "id": "OV-R-021",
+      "from_id": "OV-P-029",
+      "to_id": "OV-E-029",
+      "type": "intellectual_context",
+      "source_ids": [
+        "SRC-O-018"
+      ],
+      "note_ko": "서학 연구 공동체는 개별 세례 행위와 구분",
+      "certainty": "OVERVIEW",
+      "review_status": "DRAFT",
+      "public_visible": false
+    },
+    {
+      "id": "OV-R-022",
+      "from_id": "OV-P-030",
+      "to_id": "OV-E-030",
+      "type": "historical_context",
+      "source_ids": [
+        "SRC-O-009"
+      ],
+      "note_ko": "한국인 초기 신자의 활동은 해외 선교사 도착 이전에도 있었다.",
+      "certainty": "INTERPRETIVE",
+      "review_status": "DRAFT",
+      "public_visible": false
+    },
+    {
+      "id": "OV-R-023",
+      "from_id": "OV-P-031",
+      "to_id": "OV-E-031",
+      "type": "historical_participant",
+      "source_ids": [
+        "SRC-O-019"
+      ],
+      "note_ko": "1884 의료 선교와 역사적 정착의 한 국면",
+      "certainty": "OVERVIEW",
+      "review_status": "DRAFT",
+      "public_visible": false
+    },
+    {
+      "id": "OV-R-024",
+      "from_id": "OV-P-032",
+      "to_id": "OV-E-032",
+      "type": "historical_participant",
+      "source_ids": [
+        "SRC-O-010"
+      ],
+      "note_ko": "1885 입국",
+      "certainty": "OVERVIEW",
+      "review_status": "DRAFT",
+      "public_visible": false
+    },
+    {
+      "id": "OV-R-025",
+      "from_id": "OV-P-033",
+      "to_id": "OV-E-032",
+      "type": "historical_participant",
+      "source_ids": [
+        "SRC-O-010"
+      ],
+      "note_ko": "1885 입국",
+      "certainty": "OVERVIEW",
+      "review_status": "DRAFT",
+      "public_visible": false
+    },
+    {
+      "id": "OV-R-026",
+      "from_id": "OV-E-003",
+      "to_id": "OV-L-003",
+      "type": "associated_place",
+      "source_ids": [
+        "SRC-O-001"
+      ],
+      "note_ko": "현재 이즈니크의 대표 지명이지 특정 건물 좌표 아님",
+      "certainty": "OVERVIEW",
+      "review_status": "DRAFT",
+      "public_visible": false
+    },
+    {
+      "id": "OV-R-027",
+      "from_id": "OV-E-012",
+      "to_id": "OV-L-012",
+      "type": "associated_place",
+      "source_ids": [
+        "SRC-O-016"
+      ],
+      "note_ko": "실제 처형 지점 좌표 미확정",
+      "certainty": "OVERVIEW",
+      "review_status": "DRAFT",
+      "public_visible": false
+    },
+    {
+      "id": "OV-R-028",
+      "from_id": "OV-E-015",
+      "to_id": "OV-L-013",
+      "type": "associated_place",
+      "source_ids": [
+        "SRC-O-004"
+      ],
+      "note_ko": "교회문에 못박았다는 전승은 별도 사료판정 사항",
+      "certainty": "OVERVIEW",
+      "review_status": "DRAFT",
+      "public_visible": false
+    },
+    {
+      "id": "OV-R-029",
+      "from_id": "OV-E-020",
+      "to_id": "OV-P-016",
+      "type": "associated_with",
+      "source_ids": [
+        "SRC-O-013"
+      ],
+      "note_ko": "1536 판본을 1559판과 혼동 금지",
+      "certainty": "OVERVIEW",
+      "review_status": "DRAFT",
+      "public_visible": false
+    },
+    {
+      "id": "OV-R-030",
+      "from_id": "OV-E-021",
+      "to_id": "OV-L-018",
+      "type": "associated_place",
+      "source_ids": [
+        "SRC-O-021"
+      ],
+      "note_ko": "회의는 여러 회기로 나뉨",
+      "certainty": "OVERVIEW",
+      "review_status": "DRAFT",
+      "public_visible": false
+    },
+    {
+      "id": "OV-R-031",
+      "from_id": "OV-E-033",
+      "to_id": "OV-L-021",
+      "type": "associated_place",
+      "source_ids": [
+        "SRC-O-020"
+      ],
+      "note_ko": "현재 도시 좌표는 집회 위치의 정밀 좌표와 다름",
+      "certainty": "OVERVIEW",
+      "review_status": "DRAFT",
+      "public_visible": false
+    },
+    {
+      "id": "OV-R-032",
+      "from_id": "OV-E-034",
+      "to_id": "OV-L-022",
+      "type": "associated_place",
+      "source_ids": [
+        "SRC-O-012"
+      ],
+      "note_ko": "1948 창립 총회 개최 도시",
+      "certainty": "OVERVIEW",
+      "review_status": "DRAFT",
+      "public_visible": false
+    }
+  ],
+  "ideas": [
+    {
+      "id": "TOP-01",
+      "title": "성경의 권위",
+      "volume_id": "VOL-08",
+      "summary": "성경 해석과 교회 권위, 번역 전통을 시대별로 비교한다.",
+      "related_volumes": [
+        "VOL-02",
+        "VOL-03",
+        "VOL-04"
+      ],
+      "source_ids": [
+        "SRC-O-003",
+        "SRC-O-002"
+      ],
+      "review_status": "DRAFT",
+      "public_visible": false,
+      "deep_study_status": "FUTURE_PHASE"
+    },
+    {
+      "id": "TOP-02",
+      "title": "교회론",
+      "volume_id": "VOL-08",
+      "summary": "교회·직분·공의회·교황·공동체의 권위를 서로 다른 전통에서 비교한다.",
+      "related_volumes": [
+        "VOL-01",
+        "VOL-03",
+        "VOL-04",
+        "VOL-05"
+      ],
+      "source_ids": [
+        "SRC-O-001",
+        "SRC-O-016"
+      ],
+      "review_status": "DRAFT",
+      "public_visible": false,
+      "deep_study_status": "FUTURE_PHASE"
+    },
+    {
+      "id": "TOP-03",
+      "title": "성찬론",
+      "volume_id": "VOL-08",
+      "summary": "위클리프·후스·루터·츠빙글리·칼뱅의 입장을 하나의 기념설로 단순화하지 않는다.",
+      "related_volumes": [
+        "VOL-03",
+        "VOL-04",
+        "VOL-05"
+      ],
+      "source_ids": [
+        "SRC-O-003",
+        "SRC-O-013"
+      ],
+      "review_status": "DRAFT",
+      "public_visible": false,
+      "deep_study_status": "FUTURE_PHASE"
+    },
+    {
+      "id": "TOP-04",
+      "title": "은총·칭의",
+      "volume_id": "VOL-08",
+      "summary": "아우구스티누스부터 16세기 개혁 및 후대 전통의 의미 차이를 기록한다.",
+      "related_volumes": [
+        "VOL-01",
+        "VOL-04",
+        "VOL-06"
+      ],
+      "source_ids": [
+        "SRC-O-001",
+        "SRC-O-002"
+      ],
+      "review_status": "DRAFT",
+      "public_visible": false,
+      "deep_study_status": "FUTURE_PHASE"
+    },
+    {
+      "id": "TOP-05",
+      "title": "교회 개혁과 권력",
+      "volume_id": "VOL-08",
+      "summary": "영적 쇄신과 정치 권력·교육·사회적 갈등의 관계를 구분한다.",
+      "related_volumes": [
+        "VOL-02",
+        "VOL-03",
+        "VOL-04",
+        "VOL-05"
+      ],
+      "source_ids": [
+        "SRC-O-005",
+        "SRC-O-017"
+      ],
+      "review_status": "DRAFT",
+      "public_visible": false,
+      "deep_study_status": "FUTURE_PHASE"
+    },
+    {
+      "id": "TOP-06",
+      "title": "공의회와 신앙고백",
+      "volume_id": "VOL-08",
+      "summary": "니케아·트리엔트·아우크스부르크 등 문헌의 제정 맥락과 법적 지위를 구분한다.",
+      "related_volumes": [
+        "VOL-01",
+        "VOL-04",
+        "VOL-05"
+      ],
+      "source_ids": [
+        "SRC-O-001",
+        "SRC-O-002"
+      ],
+      "review_status": "DRAFT",
+      "public_visible": false,
+      "deep_study_status": "FUTURE_PHASE"
+    },
+    {
+      "id": "TOP-07",
+      "title": "성경 번역과 전파",
+      "volume_id": "VOL-08",
+      "summary": "라틴어·민중어·한글 번역의 기획, 협력자, 판본, 유통을 연결한다.",
+      "related_volumes": [
+        "VOL-03",
+        "VOL-04",
+        "VOL-07"
+      ],
+      "source_ids": [
+        "SRC-O-009",
+        "SRC-O-003"
+      ],
+      "review_status": "DRAFT",
+      "public_visible": false,
+      "deep_study_status": "FUTURE_PHASE"
+    },
+    {
+      "id": "TOP-08",
+      "title": "경건·부흥·선교",
+      "volume_id": "VOL-08",
+      "summary": "경건주의·감리교·대각성·현지 교회의 주체적 성장을 함께 기술한다.",
+      "related_volumes": [
+        "VOL-06",
+        "VOL-07"
+      ],
+      "source_ids": [
+        "SRC-O-006",
+        "SRC-O-014"
+      ],
+      "review_status": "DRAFT",
+      "public_visible": false,
+      "deep_study_status": "FUTURE_PHASE"
+    },
+    {
+      "id": "TOP-09",
+      "title": "동서 교회의 차이",
+      "volume_id": "VOL-08",
+      "summary": "권위·예전·역사의 관점과 1054년 전후의 긴 과정을 비교한다.",
+      "related_volumes": [
+        "VOL-01",
+        "VOL-02"
+      ],
+      "source_ids": [
+        "SRC-O-001"
+      ],
+      "review_status": "DRAFT",
+      "public_visible": false,
+      "deep_study_status": "FUTURE_PHASE"
+    },
+    {
+      "id": "TOP-10",
+      "title": "한국 교회사 서술의 관점",
+      "volume_id": "VOL-08",
+      "summary": "한국인 신자의 서학 수용·번역 활동과 해외 선교의 상호작용을 함께 다룬다.",
+      "related_volumes": [
+        "VOL-07"
+      ],
+      "source_ids": [
+        "SRC-O-008",
+        "SRC-O-011"
+      ],
+      "review_status": "DRAFT",
+      "public_visible": false,
+      "deep_study_status": "FUTURE_PHASE"
+    }
+  ],
+  "editorial_note": "Relations are links for future information organization; not proof of personal travel, teacher-student contact, identity of doctrines or scholarly approval."
+}
