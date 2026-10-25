@@ -166,6 +166,39 @@ for point in maps["points"]:
         check(mid in map_ids, f"{point['key']}: unknown map {mid}")
 check(maps["map_kind"] == "modern_reference_points_historical_education", "Maps must be flagged as modern-coordinate schematics")
 
+
+# V0.6 GIS-style schematic map metadata: 4 maps, city-center approximations.
+maps = load("assets/maps/MAP_DATA_V01.json")
+map_points = maps.get("points", [])
+map_defs = maps.get("maps", [])
+map_point_keys = [p["key"] for p in map_points]
+check(len(map_point_keys) == len(set(map_point_keys)), "Duplicate conceptual map point keys")
+known_map_keys = set(map_point_keys)
+map_only_prefix = "MAP-LOC-"
+known_assets = {a["asset_id"] for a in manifest}
+for point in map_points:
+    place_id = point.get("location_id", "")
+    check(place_id in all_locs or place_id.startswith(map_only_prefix),
+          f"{point['key']}: unknown location {place_id}")
+    check(-180 <= point["longitude"] <= 180 and -90 <= point["latitude"] <= 90,
+          f"{point['key']}: invalid lon/lat")
+    check(point.get("coordinates_verified") is False,
+          f"{point['key']}: misleading coordinate verification flag")
+map_ids = [m["id"] for m in map_defs]
+check(len(map_ids) == len(set(map_ids)), "Duplicate conceptual map IDs")
+check(len(map_ids) == 4, "Expected exactly four VOL03 maps")
+for item in map_defs:
+    check(item["id"] in known_assets, f"{item['id']}: missing asset_manifest entry")
+    check((ROOT / item["file"]).is_file(), f"{item['id']}: missing SVG file")
+    for key in item.get("points", []):
+        check(key in known_map_keys, f"{item['id']}: missing map point {key}")
+    for link in item.get("links", []):
+        check(len(link) == 2 and all(key in known_map_keys for key in link),
+              f"{item['id']}: invalid schematic relation {link}")
+    for source in item.get("source_ids", []):
+        check(source in source_ids | base_sources,
+              f"{item['id']}: unregistered map source {source}")
+
 if errors:
     print("FAIL: " + str(len(errors)) + " source claim issue(s)")
     for issue in errors:
