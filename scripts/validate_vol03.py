@@ -126,6 +126,7 @@ for doc in documents:
         check(parent in all_doc_ids, f"{doc['id']}: unknown based_on_id {parent}")
         check(parent != doc["id"], f"{doc['id']}: self reference")
     ref_ids(doc, "event_ids", all_events)
+    ref_ids(doc, "related_document_ids", all_doc_ids)
 # A 1433 original agreement and a 2019 edition cannot silently become the same source object.
 check("DOC-V03-002" in all_doc_ids and "EDN-V03-003" in all_doc_ids, "Agreement and edited collection must remain distinct")
 
