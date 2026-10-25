@@ -1,0 +1,175 @@
+{
+  "version": "1.0",
+  "volume": "VOL-03",
+  "status": "DRAFT",
+  "coord_system": "WGS84",
+  "map_kind": "modern_reference_points_historical_education",
+  "caveat_ko": "현대 도시·지자체 대표 좌표를 사용한 교육용 위치도. 해당 중세 시대의 건물·전투 지점 실측값이나 역사적 국경 좌표가 아니다.",
+  "points": [
+    {
+      "key": "lyon",
+      "name_ko": "리옹",
+      "location_id": "LOC-0006",
+      "latitude": 45.764,
+      "longitude": 4.8357,
+      "coordinate_status": "city_center_approx",
+      "source_url": "https://www.coordmap.com/cities/lyon",
+      "maps": [
+        "MAP-V03-01"
+      ]
+    },
+    {
+      "key": "angrogna",
+      "name_ko": "앙그로냐",
+      "location_id": "LOC-0009",
+      "latitude": 44.8445,
+      "longitude": 7.2253,
+      "coordinate_status": "municipality_center_approx",
+      "source_url": "https://www.tuttitalia.it/piemonte/39-angrogna/",
+      "maps": [
+        "MAP-V03-01",
+        "MAP-V03-04"
+      ]
+    },
+    {
+      "key": "oxford",
+      "name_ko": "옥스퍼드",
+      "location_id": "LOC-0001",
+      "latitude": 51.752,
+      "longitude": -1.2577,
+      "coordinate_status": "city_center_approx",
+      "source_url": "https://mapcarta.com/Oxford",
+      "maps": [
+        "MAP-V03-02"
+      ]
+    },
+    {
+      "key": "prague",
+      "name_ko": "프라하",
+      "location_id": "LOC-0002",
+      "latitude": 50.0755,
+      "longitude": 14.4378,
+      "coordinate_status": "city_center_approx",
+      "source_url": "https://www.coordmap.com/cities/prague",
+      "maps": [
+        "MAP-V03-02",
+        "MAP-V03-03"
+      ]
+    },
+    {
+      "key": "konstanz",
+      "name_ko": "콘스탄츠",
+      "location_id": "LOC-0005",
+      "latitude": 47.6592,
+      "longitude": 9.1751,
+      "coordinate_status": "city_center_approx",
+      "source_url": "https://mapcarta.com/Konstanz",
+      "maps": [
+        "MAP-V03-02"
+      ]
+    },
+    {
+      "key": "tabor",
+      "name_ko": "타보르",
+      "location_id": "LOC-0007",
+      "latitude": 49.4142,
+      "longitude": 14.6587,
+      "coordinate_status": "city_center_approx",
+      "source_url": "https://mapcarta.com/T%C3%A1bor",
+      "maps": [
+        "MAP-V03-03"
+      ]
+    },
+    {
+      "key": "lipany",
+      "name_ko": "리파니 전투터",
+      "location_id": "LOC-0011",
+      "latitude": 50.0288,
+      "longitude": 14.936,
+      "coordinate_status": "battlefield_vicinity_modern",
+      "source_url": "https://mapcarta.com/N7391917196",
+      "maps": [
+        "MAP-V03-03"
+      ]
+    },
+    {
+      "key": "kutna",
+      "name_ko": "쿠트나호라",
+      "location_id": "LOC-0014",
+      "latitude": 49.9487,
+      "longitude": 15.2681,
+      "coordinate_status": "city_center_approx",
+      "source_url": "https://mapcarta.com/Kutn%C3%A1_Hora",
+      "maps": [
+        "MAP-V03-03"
+      ]
+    },
+    {
+      "key": "jihlava",
+      "name_ko": "이흘라바",
+      "location_id": "LOC-0013",
+      "latitude": 49.3961,
+      "longitude": 15.5903,
+      "coordinate_status": "city_center_approx",
+      "source_url": "https://mapcarta.com/Jihlava",
+      "maps": [
+        "MAP-V03-03"
+      ]
+    },
+    {
+      "key": "basel",
+      "name_ko": "바젤",
+      "location_id": "LOC-0010",
+      "latitude": 47.5596,
+      "longitude": 7.5886,
+      "coordinate_status": "city_center_approx",
+      "source_url": "https://en.wikipedia.org/wiki/Basel",
+      "maps": [
+        "MAP-V03-04"
+      ]
+    },
+    {
+      "key": "strasbourg",
+      "name_ko": "슈트라스부르",
+      "location_id": "LOC-0015",
+      "latitude": 48.5734,
+      "longitude": 7.7521,
+      "coordinate_status": "city_center_approx",
+      "source_url": "https://en.wikipedia.org/wiki/Strasbourg",
+      "maps": [
+        "MAP-V03-04"
+      ]
+    },
+    {
+      "key": "bern",
+      "name_ko": "베른",
+      "location_id": "LOC-0016",
+      "latitude": 46.948,
+      "longitude": 7.4474,
+      "coordinate_status": "city_center_approx",
+      "source_url": "https://en.wikipedia.org/wiki/Bern",
+      "maps": [
+        "MAP-V03-04"
+      ]
+    },
+    {
+      "key": "neuchatel",
+      "name_ko": "뇌샤텔",
+      "location_id": "LOC-0017",
+      "latitude": 46.9929,
+      "longitude": 6.9307,
+      "coordinate_status": "city_center_approx",
+      "source_url": "https://en.wikipedia.org/wiki/Neuch%C3%A2tel",
+      "maps": [
+        "MAP-V03-04"
+      ]
+    }
+  ],
+  "illustration_rules": {
+    "historical_borders": "omitted_pending_historical_atlas_evidence",
+    "travel_routes": "conceptual_only_not_verified_itinerary",
+    "dimensions": "1500x900",
+    "historical_figures": "not_depicted",
+    "source_asset_licenses": "all_svg_paths_and_graphics_original"
+  }
+}

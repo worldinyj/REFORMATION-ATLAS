@@ -1,0 +1,269 @@
+{
+  "schema_version": "0.1",
+  "contract_id": "ATLAS-G4-CROSS-VOLUME-01",
+  "authored_date": "2026-10-25",
+  "status": "DRAFT",
+  "lifecycle": "design_contract_only_no_migration",
+  "release_gate": {
+    "approved": false,
+    "can_ship": false,
+    "requires_human_approval": true
+  },
+  "source_of_truth": {
+    "canonical_content": "Markdown and existing JSON in GitHub research branch",
+    "canonical_illustrations": "project original SVG; PNG/WebP local staged assets pending authenticated import",
+    "projected_index": "data/vol03_integrated_catalog_v08.json",
+    "canonical_claims": "data/vol03_primary_claims.json",
+    "editorial_overlay": "data/vol03_editorial_overlay_v09_p4.json",
+    "read_only_adapter": true
+  },
+  "volumes": [
+    {
+      "volume_id": "VOL-01",
+      "title_ko": "초대교회와 고대교회",
+      "content_scope": "apostolic_patristic_councils",
+      "status": "PLANNED_OR_RESEARCH_DRAFT",
+      "may_overlap_people": true
+    },
+    {
+      "volume_id": "VOL-02",
+      "title_ko": "중세교회와 개혁의 배경",
+      "content_scope": "medieval_institutions_scholasticism",
+      "status": "PLANNED_OR_RESEARCH_DRAFT",
+      "may_overlap_people": true
+    },
+    {
+      "volume_id": "VOL-03",
+      "title_ko": "종교개혁의 선구자",
+      "content_scope": "waldensians_wyclif_hus",
+      "status": "PLANNED_OR_RESEARCH_DRAFT",
+      "may_overlap_people": true
+    },
+    {
+      "volume_id": "VOL-04",
+      "title_ko": "16세기 종교개혁",
+      "content_scope": "sixteenth_century_reformations",
+      "status": "PLANNED_OR_RESEARCH_DRAFT",
+      "may_overlap_people": true
+    },
+    {
+      "volume_id": "VOL-05",
+      "title_ko": "가톨릭 개혁과 종교적 갈등",
+      "content_scope": "catholic_reform_confessional_conflict",
+      "status": "PLANNED_OR_RESEARCH_DRAFT",
+      "may_overlap_people": true
+    },
+    {
+      "volume_id": "VOL-06",
+      "title_ko": "부흥과 세계선교",
+      "content_scope": "revival_mission",
+      "status": "PLANNED_OR_RESEARCH_DRAFT",
+      "may_overlap_people": true
+    },
+    {
+      "volume_id": "VOL-07",
+      "title_ko": "세계와 한국 교회사",
+      "content_scope": "global_korea_history",
+      "status": "PLANNED_OR_RESEARCH_DRAFT",
+      "may_overlap_people": true
+    },
+    {
+      "volume_id": "VOL-08",
+      "title_ko": "사상과 문헌 아카이브",
+      "content_scope": "transversal_ideas_documents",
+      "status": "PLANNED_OR_RESEARCH_DRAFT",
+      "may_overlap_people": true
+    }
+  ],
+  "entity_key_rules": {
+    "global_entity_prefixes": [
+      "PER",
+      "MOV",
+      "EVT",
+      "LOC",
+      "REL"
+    ],
+    "source_prefixes": [
+      "SRC",
+      "Vxx-Syy"
+    ],
+    "per_volume_prefixes": [
+      "CLM-Vxx",
+      "MAP-Vxx",
+      "PRT-Vxx",
+      "ILL-Vxx",
+      "DOC-Vxx",
+      "EDN-Vxx",
+      "TRN-Vxx",
+      "EVR-Vxx"
+    ],
+    "stable_ids": true,
+    "no_reuse": true,
+    "no_reindex_on_volume_move": true,
+    "authority_rule_ko": "하나의 역사 인물은 각 권에서 재생성하지 않고 기존 글로벌 ID를 참조한다.",
+    "relation_identity_ko": "원본 관계 ID는 독립 레코드로 남기며 직접 사제 관계와 수용·문헌 영향은 구분한다."
+  },
+  "normalized_projection_v01": {
+    "purpose": "forward-compatible read-only view, not automatic replacement of current JSON",
+    "required": [
+      "id",
+      "type",
+      "title_ko",
+      "volume_ids",
+      "source_ids",
+      "review_status",
+      "public_visible"
+    ],
+    "optional": [
+      "date",
+      "certainty",
+      "statement_access",
+      "entity_links",
+      "asset_state",
+      "caption_ko",
+      "rights_status",
+      "human_approval_ref"
+    ],
+    "date": {
+      "required_when_timeline": true,
+      "fields": [
+        "date_label",
+        "date_precision",
+        "year_start",
+        "year_end"
+      ],
+      "precision_values": [
+        "day",
+        "month",
+        "year",
+        "range",
+        "approximate_year",
+        "approximate_period",
+        "undated"
+      ],
+      "render_rule": "Only date_label is user-facing; sorting years cannot invent month/day.",
+      "normalization_note_ko": "원본 approximate_year(예: 1402년경)는 approximate_period로 뭉개지 않고 별도 날짜 정밀도로 보존한다."
+    },
+    "evidence": {
+      "source_ids_required_for_claims": true,
+      "access_tiers": [
+        "T1",
+        "T2",
+        "T3",
+        "S1",
+        "S2",
+        "HOLD"
+      ],
+      "distinct_axes": [
+        "historical_certainty",
+        "text_access_tier",
+        "editorial_review_status",
+        "publication_permission"
+      ]
+    },
+    "media": {
+      "rights_status_required": true,
+      "alt_ko_required": true,
+      "disclosure_required_for_ai": true,
+      "staged_file_not_present_in_git": true,
+      "safe_to_display_requires_human_approval": true
+    },
+    "link_semantics": [
+      "textual_influence",
+      "later_reception",
+      "movement_origin",
+      "associated_place",
+      "grounded_in",
+      "claim_about",
+      "imagines",
+      "based_on"
+    ],
+    "relationship_guard": "Neither influence nor later reception implies direct personal contact, physical travel or doctrinal identity."
+  },
+  "read_paths": {
+    "timeline": "event records with explicit date_precision and source_ids; no fabricated dates",
+    "people": "PER global ID to events and claims",
+    "geography": "WGS84 modern reference coordinate separate from medieval historical site assertion",
+    "ideas": "theological-axis notes with evidence and competing views",
+    "documents": "original text, print edition, translation/transcription and academic commentary are distinct witnesses"
+  },
+  "sample_projection": [
+    {
+      "id": "PER-0001",
+      "type": "person",
+      "title_ko": "존 위클리프",
+      "volume_ids": [
+        "VOL-03",
+        "VOL-04"
+      ],
+      "source_ids": [
+        "SRC-0001",
+        "SRC-0002"
+      ],
+      "review_status": "DRAFT",
+      "public_visible": false,
+      "note_ko": "VOL-04는 후대 논쟁에서의 수용 관점 링크 후보이며 소속/승인 확정이 아님."
+    },
+    {
+      "id": "PER-0002",
+      "type": "person",
+      "title_ko": "얀 후스",
+      "volume_ids": [
+        "VOL-03",
+        "VOL-04"
+      ],
+      "source_ids": [
+        "SRC-0001",
+        "SRC-0003",
+        "SRC-0010"
+      ],
+      "review_status": "DRAFT",
+      "public_visible": false,
+      "note_ko": "역사 인물 ID는 한 번만 유지"
+    },
+    {
+      "id": "REL-0001",
+      "type": "relationship_record",
+      "title_ko": "위클리프 저술이 후스에게 준 영향",
+      "volume_ids": [
+        "VOL-03"
+      ],
+      "source_ids": [
+        "SRC-0001",
+        "SRC-0003"
+      ],
+      "review_status": "DRAFT",
+      "public_visible": false,
+      "from_id": "PER-0001",
+      "to_id": "PER-0002",
+      "relationship_type": "textual_influence",
+      "note_ko": "책/사상 영향, 직접 사제관계 아님."
+    }
+  ],
+  "implementation_stages": [
+    {
+      "id": "G4A",
+      "name": "vol03_readonly_adapter",
+      "requires": "existing graph and claims",
+      "status": "DESIGN_ONLY"
+    },
+    {
+      "id": "G4B",
+      "name": "versioned_8vol_index",
+      "requires": "stable IDs and editorial evidence tier",
+      "status": "DRAFT"
+    },
+    {
+      "id": "G4C",
+      "name": "gate_enforced_media_adapter",
+      "requires": "local image install and human review",
+      "status": "BLOCKED"
+    },
+    {
+      "id": "G5",
+      "name": "PRD_TRD_UXUI_TASKLIST",
+      "requires": "human source/media and contract approval",
+      "status": "NOT_APPROVED"
+    }
+  ]
+}

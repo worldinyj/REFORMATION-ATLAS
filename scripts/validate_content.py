@@ -38,14 +38,24 @@ for name, items in sets.items():
     for item in items:
         if item.get("publication_status", "DRAFT") not in {"DRAFT", "REVIEWED", "APPROVED", "PUBLISHED", "RETIRED"}:
             fail(f"{name}: invalid publication_status {item.get('id')}")
-        if not item.get("id") or not item.get("name_ko"):
-            fail(f"{name}: id/name_ko missing")
+        if not item.get("id"):
+            fail(f"{name}: id missing")
+        elif name == "relations":
+            if not item.get("summary_ko"):
+                fail(f"{name}: summary_ko missing for {item['id']}")
+        elif not item.get("name_ko"):
+            fail(f"{name}: name_ko missing for {item['id']}")
     for entity_id in values:
         if not re.fullmatch({"people":r"PER-\d{4}","events":r"EVT-\d{4}","relations":r"REL-\d{4}","locations":r"LOC-\d{4}"}[name],str(entity_id)):
             fail(f"{name}: malformed ID {entity_id}")
 
 source_text = SOURCES.read_text(encoding="utf-8")
 source_ids = set(re.findall(r"SRC-\d{4}", source_text))
+extension_path = DATA / "vol03_extension.json"
+extension = json.loads(extension_path.read_text(encoding="utf-8")) if extension_path.exists() else None
+if extension is not None:
+    vol03_register = (ROOT / "docs/01_CONTENT/VOL03/05_SOURCE_REGISTER.md").read_text(encoding="utf-8")
+    source_ids |= set(re.findall(r"V03-S\d{2}", vol03_register))
 
 def check_refs(parent: dict, key: str, known: set) -> None:
     for value in parent.get(key, []):
@@ -78,6 +88,9 @@ try:
     if len({a["asset_id"] for a in assets}) != len(assets):
         fail("assets: duplicate asset IDs")
     all_entity_ids = set().union(*ids.values())
+    if extension is not None:
+        for family in ("actors", "locations", "events", "relationships"):
+            all_entity_ids |= {item["id"] for item in extension.get(family, [])}
     for a in assets:
         if not (ROOT/a["relative_path"]).is_file():
             fail(f"{a['asset_id']}: missing asset file")

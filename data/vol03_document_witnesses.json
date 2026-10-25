@@ -1,0 +1,127 @@
+{
+  "schema_version": "0.1",
+  "volume_id": "VOL-03",
+  "status": "DRAFT",
+  "about": "historical_text, edited text, transcription, scholarly interpretation and events are separate objects. This is a provenance pilot, not a complete manuscript catalogue.",
+  "objects": [
+    {
+      "id": "DOC-V03-001",
+      "kind": "historical_text",
+      "title_ko": "프라하 4개조의 1420년경 문안",
+      "date_label": "1420년경",
+      "event_ids": [
+        "EVT-0013"
+      ],
+      "source_ids": [
+        "V03-S23",
+        "V03-S32"
+      ],
+      "direct_text_read": false,
+      "review_status": "DRAFT",
+      "notes_ko": "개별 필사본과 이문 대조 미완료"
+    },
+    {
+      "id": "EDN-V03-001",
+      "kind": "later_edited_text",
+      "title_ko": "프라하 4개조 1844년 팔라츠키 출판본",
+      "date_label": "1844년",
+      "based_on_id": "DOC-V03-001",
+      "source_ids": [
+        "V03-S23"
+      ],
+      "direct_text_read": false,
+      "review_status": "DRAFT",
+      "notes_ko": "1844년 문안 존재에 대한 외부 페이지 메타데이터 확인, 원본 판면 직접 대조 미실시"
+    },
+    {
+      "id": "EDN-V03-002",
+      "kind": "historical_print_edition",
+      "title_ko": "프라하 4개조 1937년 판본",
+      "date_label": "1937년",
+      "based_on_id": "DOC-V03-001",
+      "source_ids": [
+        "V03-S32"
+      ],
+      "direct_text_read": false,
+      "review_status": "DRAFT",
+      "notes_ko": "1937년판을 근거로 한 인터넷 전사 열람, 인쇄 원본 판면 미확인"
+    },
+    {
+      "id": "TRN-V03-001",
+      "kind": "online_transcription",
+      "title_ko": "체코어 위키문헌의 프라하 4개조 전사",
+      "date_label": "온라인 전사",
+      "based_on_id": "EDN-V03-002",
+      "source_ids": [
+        "V03-S32"
+      ],
+      "direct_text_read": true,
+      "review_status": "DRAFT",
+      "notes_ko": "네 조항의 어휘·주체 확인, 1937년판과 전체 대조 미실시"
+    },
+    {
+      "id": "DOC-V03-002",
+      "kind": "historical_agreement",
+      "title_ko": "1433년 프라하의 핵심 합의 문안 3건",
+      "date_label": "1433년 11월 30일",
+      "event_ids": [
+        "EVT-0019"
+      ],
+      "source_ids": [
+        "V03-S34"
+      ],
+      "direct_text_read": false,
+      "review_status": "DRAFT",
+      "notes_ko": "3건은 Fudge 학술 서평에 따른 설명; 3개 원문을 직접 읽지 않음"
+    },
+    {
+      "id": "EVR-V03-001",
+      "kind": "historical_event_record",
+      "title_ko": "1436년 이흘라바 콤팍타타 공적 선포",
+      "date_label": "1436년 7월",
+      "event_ids": [
+        "EVT-0016"
+      ],
+      "source_ids": [
+        "V03-S33",
+        "V03-S34"
+      ],
+      "direct_text_read": false,
+      "review_status": "DRAFT",
+      "notes_ko": "선포라는 역사 사건의 기록; 특정 원문 1개와 동일하지 않음"
+    },
+    {
+      "id": "DOC-V03-003",
+      "kind": "historical_decree",
+      "title_ko": "바젤 공의회의 Ut lucidius videatur",
+      "date_label": "1437년 12월 23일",
+      "event_ids": [
+        "EVT-0020"
+      ],
+      "source_ids": [
+        "V03-S34"
+      ],
+      "direct_text_read": false,
+      "review_status": "DRAFT",
+      "notes_ko": "서평 통한 후속 문서 언급, 원문 미확인"
+    },
+    {
+      "id": "EDN-V03-003",
+      "kind": "scholarly_critical_edition",
+      "title_ko": "Šmahel, Die Basler Kompaktaten mit den Hussiten (1436)",
+      "date_label": "2019년",
+      "source_ids": [
+        "V03-S33",
+        "V03-S34"
+      ],
+      "direct_text_read": false,
+      "review_status": "DRAFT",
+      "notes_ko": "2019 비평판은 1433년 3개 문안뿐 아니라 형성·승인에 관련된 공식 문서 총 10건을 수록한 범위가 더 넓은 학술 편집본. 필사본 24개 활용. 원문 본문 미열람.",
+      "related_document_ids": [
+        "DOC-V03-002",
+        "EVR-V03-001"
+      ]
+    }
+  ],
+  "editorial_note": "The edition includes 10 related records, whereas the original 1433 agreement comprises 3 key texts according to a review; do not infer all 10 were agreed on 1433-11-30."
+}

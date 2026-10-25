@@ -24,5 +24,140 @@
     ],
     "review_status": "DRAFT",
     "alt_ko": "영국 위클리프가 보헤미아 후스에게 저술로 영향을 주고, 후스의 사상은 1519년 이후 루터 시대 논쟁에서 후대 수용된 관계로 제시된 세 인물의 도식."
+  },
+  {
+    "asset_id": "AST-0002",
+    "type": "svg_relation_diagram",
+    "title_ko": "12~16세기 여러 중세 개혁운동의 관계",
+    "relative_path": "assets/diagrams/AST-0002_vol03_movement-pathways.svg",
+    "linked_entity_ids": [
+      "PER-0004",
+      "MOV-0001",
+      "PER-0001",
+      "PER-0002",
+      "PER-0003",
+      "MOV-0003",
+      "MOV-0004"
+    ],
+    "creator_method": "original_editable_svg",
+    "tool": "authored SVG",
+    "created_date": "2026-10-25",
+    "rights_status": "original_project_asset",
+    "ai_disclosure": "not_applicable_data_diagram",
+    "historical_accuracy_note": "개념도이며 지리적 정확지도 또는 한 조직의 직계 계보가 아니다. 개혁 운동과 후대 수용 구별; 발도→위클리프 직접 화살표 없음.",
+    "source_ids": [
+      "V03-S01",
+      "V03-S05",
+      "V03-S09",
+      "V03-S11",
+      "V03-S15"
+    ],
+    "review_status": "DRAFT",
+    "alt_ko": "위클리프의 저술 영향은 후스에게 이어지고, 후스의 역사는 후스파와 보헤미아 형제단으로 발전한다. 별도 왈도파는 1530~32년 개혁파와 교류한다. 후스에서 루터로 점선은 후대 수용을 뜻한다."
+  },
+  {
+    "asset_id": "MAP-V03-01",
+    "type": "svg_historical_educational_point_map",
+    "title_ko": "청빈과 설교, 리옹에서 시작된 질문",
+    "relative_path": "assets/maps/MAP-V03-01_waldensians_lyon.svg",
+    "linked_entity_ids": [
+      "LOC-0006",
+      "LOC-0009",
+      "PER-0004",
+      "MOV-0001"
+    ],
+    "creator_method": "original_editable_svg",
+    "tool": "programmatic SVG authored by project",
+    "created_date": "2026-10-25",
+    "rights_status": "original_project_asset",
+    "ai_disclosure": "not_applicable_data_diagram",
+    "review_status": "DRAFT",
+    "source_ids": [
+      "V03-S01",
+      "V03-S02",
+      "V03-S26"
+    ],
+    "alt_ko": "1170년대 리옹에 발생한 왈도파 청빈·설교 운동과, 비교 용도로 함께 표시한 1532년 앙그로냐를 현대 좌표상에 배치한 개념 지도.",
+    "historical_accuracy_note": "현대 도시 중심·리파니 전장 근처의 대표 좌표. 당대 국경·길·전투 이동·중세 건물 실제 위치를 복원하지 않음. 화살표/점선은 개념 연결; SVG 독자 제작. 지형·경계 고증 미완료."
+  },
+  {
+    "asset_id": "MAP-V03-02",
+    "type": "svg_historical_educational_point_map",
+    "title_ko": "옥스퍼드에서 프라하로 전해진 책",
+    "relative_path": "assets/maps/MAP-V03-02_oxford_prague.svg",
+    "linked_entity_ids": [
+      "LOC-0001",
+      "LOC-0002",
+      "LOC-0005",
+      "PER-0001",
+      "PER-0002"
+    ],
+    "creator_method": "original_editable_svg",
+    "tool": "programmatic SVG authored by project",
+    "created_date": "2026-10-25",
+    "rights_status": "original_project_asset",
+    "ai_disclosure": "not_applicable_data_diagram",
+    "review_status": "DRAFT",
+    "source_ids": [
+      "V03-S05",
+      "V03-S09",
+      "V03-S48"
+    ],
+    "alt_ko": "옥스퍼드와 프라하 사이 문헌 영향 점선, 콘스탄츠의 후스 재판·처형 지점을 도시 대표 좌표로 그린 지도. 점선은 실제 여정이 아님.",
+    "historical_accuracy_note": "현대 도시 중심·리파니 전장 근처의 대표 좌표. 당대 국경·길·전투 이동·중세 건물 실제 위치를 복원하지 않음. 화살표/점선은 개념 연결; SVG 독자 제작. 지형·경계 고증 미완료."
+  },
+  {
+    "asset_id": "MAP-V03-03",
+    "type": "svg_historical_educational_point_map",
+    "title_ko": "보헤미아의 도시, 전쟁과 협상",
+    "relative_path": "assets/maps/MAP-V03-03_bohemia_hussite.svg",
+    "linked_entity_ids": [
+      "LOC-0002",
+      "LOC-0007",
+      "LOC-0011",
+      "LOC-0013",
+      "LOC-0014",
+      "MOV-0003"
+    ],
+    "creator_method": "original_editable_svg",
+    "tool": "programmatic SVG authored by project",
+    "created_date": "2026-10-25",
+    "rights_status": "original_project_asset",
+    "ai_disclosure": "not_applicable_data_diagram",
+    "review_status": "DRAFT",
+    "source_ids": [
+      "V03-S11",
+      "V03-S14",
+      "V03-S34"
+    ],
+    "alt_ko": "프라하 타보르 쿠트나호라 리파니 전장 근처 이흘라바를 현대 좌표로 표시한 1414~1436년 후스파 사건 개념 위치도.",
+    "historical_accuracy_note": "현대 도시 중심·리파니 전장 근처의 대표 좌표. 당대 국경·길·전투 이동·중세 건물 실제 위치를 복원하지 않음. 화살표/점선은 개념 연결; SVG 독자 제작. 지형·경계 고증 미완료."
+  },
+  {
+    "asset_id": "MAP-V03-04",
+    "type": "svg_historical_educational_point_map",
+    "title_ko": "왈도파와 종교개혁자들의 대화망",
+    "relative_path": "assets/maps/MAP-V03-04_waldensian_reform_network.svg",
+    "linked_entity_ids": [
+      "LOC-0009",
+      "LOC-0010",
+      "LOC-0015",
+      "LOC-0016",
+      "LOC-0017",
+      "MOV-0001"
+    ],
+    "creator_method": "original_editable_svg",
+    "tool": "programmatic SVG authored by project",
+    "created_date": "2026-10-25",
+    "rights_status": "original_project_asset",
+    "ai_disclosure": "not_applicable_data_diagram",
+    "review_status": "DRAFT",
+    "source_ids": [
+      "V03-S26",
+      "V03-S27",
+      "V03-S42"
+    ],
+    "alt_ko": "앙그로냐 바젤 슈트라스부르 베른 뇌샤텔을 연결하는 1530~1532년 신학적 교류 개념도. 점선은 실제 순서나 이동로가 아님.",
+    "historical_accuracy_note": "현대 도시 중심·리파니 전장 근처의 대표 좌표. 당대 국경·길·전투 이동·중세 건물 실제 위치를 복원하지 않음. 화살표/점선은 개념 연결; SVG 독자 제작. 지형·경계 고증 미완료."
   }
 ]

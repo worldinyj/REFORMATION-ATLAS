@@ -1,0 +1,106 @@
+{
+  "schema_version": "0.1",
+  "milestone": "V1.2-R3C01",
+  "volume_id": "VOL-03",
+  "created_at": "2026-10-25",
+  "status": "DRAFT",
+  "publication_gate": {
+    "approved": false,
+    "can_ship": false
+  },
+  "policy": "Reference-only candidate composition. No existing canonical ID, artifact, asset manifest, original historical claim, or publication flag changed.",
+  "inherited_portrait_candidates": [
+    {
+      "candidate_id": "PRT-V03-01-R2C01",
+      "canonical_id": "PRT-V03-01",
+      "sha256_webp": "85bc0f3f235f96a6c0f57338ea9582dd4c8960860c0fa01e3206d2ddccfee36e",
+      "source": "V1.1 user ZIP only",
+      "review_status": "DRAFT"
+    },
+    {
+      "candidate_id": "PRT-V03-02-R2C01",
+      "canonical_id": "PRT-V03-02",
+      "sha256_webp": "c0d3c2ee233a10b6fe1cd34c35f41b1f8a4221b856b169cda6566e7cc2a771e4",
+      "source": "V1.1 user ZIP only",
+      "review_status": "DRAFT"
+    },
+    {
+      "candidate_id": "PRT-V03-03-R2C01",
+      "canonical_id": "PRT-V03-03",
+      "sha256_webp": "1074703f78158165e6f942e77185b4644def596d55415d1f4fe189fe73749282",
+      "source": "V1.1 user ZIP only",
+      "review_status": "DRAFT"
+    },
+    {
+      "candidate_id": "PRT-V03-04-R2C01",
+      "canonical_id": "PRT-V03-04",
+      "sha256_webp": "371535561b1386bc90e8e834b08bb639ce763543dc9645919e0fafe7f96c9cb4",
+      "source": "V1.1 user ZIP only",
+      "review_status": "DRAFT"
+    }
+  ],
+  "scene_candidates": [
+    {
+      "id": "ILL-V03-01-R2C01",
+      "original_id": "ILL-V03-01",
+      "title_ko": "프라하 설교의 상상 장면",
+      "webp_sha256": "70b112716d792e519f16209a2f5838aa9ec9639370161ecb76798e4367647c11",
+      "png_sha256": "6307c356b4275598d9594adfc5e2be4f3502b6ffdde07e67d570a819275ec82a",
+      "note_ko": "얀 후스 시대 프라하 설교의 교육적 상상화. 베들레헴 예배당의 당시 내부/후스 외모 복원 아님.",
+      "dimensions": "1280x720",
+      "source": "V1.2 crop from ImageGen montages, not independently generated scene",
+      "file_state": "LOCAL_ZIP_ONLY",
+      "review_status": "DRAFT",
+      "public_visible": false
+    },
+    {
+      "id": "ILL-V03-02-R2C01",
+      "original_id": "ILL-V03-02",
+      "title_ko": "15세기 교회·보헤미아 대표들의 협상 분위기",
+      "webp_sha256": "b7cbb54d061adf90eeda165ad2c661f23f99335152cbebf9307af2a58d15b04e",
+      "png_sha256": "e903f5fe22904b97b3d1d022cb19df1a8bf7d974a6f37c62b3fbb54c7fdce5ff",
+      "note_ko": "특정 1433 프라하·1435 브르노·1436 이흘라바 회의를 가리키지 않는 상상 장면. 복식/상징/공간 고증 전.",
+      "dimensions": "1280x720",
+      "source": "V1.2 crop from ImageGen montages, not independently generated scene",
+      "file_state": "LOCAL_ZIP_ONLY",
+      "review_status": "DRAFT",
+      "public_visible": false
+    }
+  ],
+  "scene_zip": {
+    "name": "REFORMATION_ATLAS_VOL03_V12_SCENE_CANDIDATES.zip",
+    "sha256": "6a1f27c8fc998e1961e15324f550702ca74287009f24468e95f5b8189dbc42d3",
+    "zip_crc_verified": true
+  },
+  "maps": [
+    {
+      "id": "MAP-V03-02-R3C01",
+      "original_id": "MAP-V03-02",
+      "git_path": "assets/maps/candidates/MAP-V03-02-R3C01_oxford_prague_research_links.svg",
+      "baseline": "GitHub current canonical SVG in research branch, not former ZIP",
+      "change_scope": "three explanatory labels and draft XML comment only",
+      "original_unmodified": true,
+      "status": "DRAFT",
+      "public_visible": false
+    },
+    {
+      "id": "MAP-V03-04-R3C01",
+      "original_id": "MAP-V03-04",
+      "git_path": "assets/maps/candidates/MAP-V03-04-R3C01_waldensian_exchange.svg",
+      "baseline": "GitHub current canonical SVG in research branch, not former ZIP",
+      "change_scope": "three explanatory labels and draft XML comment only",
+      "original_unmodified": true,
+      "status": "DRAFT",
+      "public_visible": false
+    }
+  ],
+  "qa": {
+    "scene_images": 2,
+    "portrait_images_inherited": 4,
+    "map_svg_candidates_derived_from_git": 2,
+    "canonical_nodes": 182,
+    "canonical_edges": 365,
+    "publication": false
+  },
+  "historical_status": "Human period-specialist review remains required; no depiction establishes a precise date, face, costume, chapel room or legal negotiation witness."
+}

@@ -1,0 +1,141 @@
+{
+  "schema_version": "0.1",
+  "volume": "VOL-03",
+  "version": "0.3",
+  "reviewed_on": "2026-10-25",
+  "publication_status": "DRAFT",
+  "evidence_tiers": {
+    "P2": "historical_critical_edition_or_later_edition_transcription_checked_not_medieval_manuscript",
+    "P3": "historical_translation_text_checked_original_language_not_verified",
+    "S2": "scholarly_metadata_review_or_abstract_only_original_full_text_not_accessed"
+  },
+  "claims": [
+    {
+      "id": "CLM-V03-001",
+      "subject_ids": [
+        "PER-0001"
+      ],
+      "summary_ko": "위클리프는 축성 후 빵과 포도주의 실체가 남는다고 논하면서 그리스도의 성사적 현존도 논한다.",
+      "locator": "Loserth (1892) De eucharistia, Ch. IV p.108–109; Ch. V p.141",
+      "source_ids": [
+        "V03-S29"
+      ],
+      "evidence_tier": "P2",
+      "certainty": "supported_with_context",
+      "pending": "인쇄판 이미지와 중세 필사본 교감"
+    },
+    {
+      "id": "CLM-V03-002",
+      "subject_ids": [
+        "PER-0001"
+      ],
+      "summary_ko": "Fordham의 On the Sacrament of Communion은 De eucharistia가 아니라 Trialogus의 부분 발췌다.",
+      "locator": "Fordham Medieval Sourcebook page intro",
+      "source_ids": [
+        "V03-S30"
+      ],
+      "evidence_tier": "P3",
+      "certainty": "established",
+      "pending": "인용문을 다른 저술로 잘못 귀속하지 않기"
+    },
+    {
+      "id": "CLM-V03-003",
+      "subject_ids": [
+        "PER-0002"
+      ],
+      "summary_ko": "후스는 보편교회의 머리가 그리스도라고 주장한다.",
+      "locator": "Schaff trans. De ecclesia (1915), Ch. IV, opening section",
+      "source_ids": [
+        "V03-S31"
+      ],
+      "evidence_tier": "P3",
+      "certainty": "supported_in_translation",
+      "pending": "라틴어 판본 원문 구절 대조"
+    },
+    {
+      "id": "CLM-V03-004",
+      "subject_ids": [
+        "PER-0002"
+      ],
+      "summary_ko": "후스는 교회라는 개념을 여러 뜻으로 설명하며 로마 교회의 범주와 보편교회 개념을 구분한다.",
+      "locator": "Schaff trans. De ecclesia (1915), Ch. I, II, VII",
+      "source_ids": [
+        "V03-S31"
+      ],
+      "evidence_tier": "P3",
+      "certainty": "supported_in_translation",
+      "pending": "역자의 주석과 원작자 주장 구별"
+    },
+    {
+      "id": "CLM-V03-005",
+      "subject_ids": [
+        "MOV-0003"
+      ],
+      "summary_ko": "프라하 4개조 첫 조항은 기독교 성직자의 말씀 선포를 요구한다.",
+      "locator": "Čtyři artikuly pražské, 1937 ed. based transcription, article 1",
+      "source_ids": [
+        "V03-S32"
+      ],
+      "evidence_tier": "P2",
+      "certainty": "supported_in_later_edition",
+      "pending": "1420년 이문 대조"
+    },
+    {
+      "id": "CLM-V03-006",
+      "subject_ids": [
+        "MOV-0003"
+      ],
+      "summary_ko": "양형성찬 조항에는 중대한 죄에 저촉되지 않는 합당한 신자라는 조건이 있다.",
+      "locator": "Čtyři artikuly pražské, 1937 ed. based transcription, article 2",
+      "source_ids": [
+        "V03-S32"
+      ],
+      "evidence_tier": "P2",
+      "certainty": "supported_in_later_edition",
+      "pending": "옛 체코어 전문가 번역 감수"
+    },
+    {
+      "id": "CLM-V03-007",
+      "subject_ids": [
+        "MOV-0003"
+      ],
+      "summary_ko": "제4조의 죄악에 대한 징계는 해당 직무 권한을 가진 자에 의해 이루어져야 한다.",
+      "locator": "Čtyři artikuly pražské, 1937 ed. based transcription, article 4",
+      "source_ids": [
+        "V03-S32"
+      ],
+      "evidence_tier": "P2",
+      "certainty": "supported_in_later_edition",
+      "pending": "형법·정치사 문맥 확인"
+    },
+    {
+      "id": "CLM-V03-008",
+      "subject_ids": [
+        "MOV-0003"
+      ],
+      "summary_ko": "1436년 콤팍타타는 단일 선언문보다 10개 공식 문서로 이뤄진 합의와 승인 체계로 연구된다.",
+      "locator": "Šmahel (2019) publisher monograph description; The Medieval Review (2020)",
+      "source_ids": [
+        "V03-S33",
+        "V03-S34"
+      ],
+      "evidence_tier": "S2",
+      "certainty": "supported_secondary_only",
+      "pending": "라틴어 문서 10건 원문 직접 열람"
+    },
+    {
+      "id": "CLM-V03-009",
+      "subject_ids": [
+        "MOV-0003"
+      ],
+      "summary_ko": "후스파와 공의회 측은 양형성찬 허용의 범위와 교회의 자치 권한에 서로 다른 해석을 남겼다.",
+      "locator": "Pálka (2023) Church History public abstract",
+      "source_ids": [
+        "V03-S35"
+      ],
+      "evidence_tier": "S2",
+      "certainty": "supported_secondary_only",
+      "pending": "학술 논문 본문 및 합의문 원전 대조"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "schema_version": "0.1",
+  "volume": "VOL-03",
+  "batch": "V0.9-P1A-D",
+  "created_at": "2026-10-25",
+  "status": "DRAFT",
+  "publication_gate": {
+    "approved": false,
+    "can_ship": false
+  },
+  "reference_policy": "Additive evidence log. Do not overwrite prior claims or mark manuscripts collated.",
+  "records": [
+    {
+      "id": "BATCH-V09-A01",
+      "domain": "wyclif",
+      "claim_ids": [
+        "CLM-V03-001",
+        "CLM-V03-002"
+      ],
+      "source_ids": [
+        "V03-S19",
+        "V03-S29",
+        "V03-S30"
+      ],
+      "access": "OCR edited 1892 print and university excerpt; SEP scholarly synthesis",
+      "confirmed": "Ch IV printed 108–109 and Ch V 141 OCR passages identified; Trialogus attribution confirmed",
+      "hold": "printed page image vs OCR, authorial position in Ch IV, medieval manuscript collation",
+      "document_path": "docs/01_CONTENT/VOL03/21_WYCLIF_TEXT_COLLATION_V09_P1A.md"
+    },
+    {
+      "id": "BATCH-V09-B01",
+      "domain": "hus",
+      "claim_ids": [
+        "CLM-V03-003",
+        "CLM-V03-004",
+        "CLM-V03-011"
+      ],
+      "source_ids": [
+        "V03-S31",
+        "V03-S21",
+        "V03-S22"
+      ],
+      "access": "Schaff 1915 English translation online chapters",
+      "confirmed": "Ch IV assertion of Christ as head of universal Church; Ch I multiple definitions",
+      "hold": "Latin edition correspondence, translator footnotes vs author",
+      "document_path": "docs/01_CONTENT/VOL03/22_HUS_LATIN_TRANSLATION_GATE_V09_P1B.md"
+    },
+    {
+      "id": "BATCH-V09-C01",
+      "domain": "prague_articles",
+      "claim_ids": [
+        "CLM-V03-005",
+        "CLM-V03-006",
+        "CLM-V03-007",
+        "CLM-V03-012"
+      ],
+      "source_ids": [
+        "V03-S23",
+        "V03-S32"
+      ],
+      "access": "1844 Archiv český III p214-215 digitized OCR and 1937 Palacky/Tschorn online transcription",
+      "confirmed": "same four broad program subjects; 1844 shows extended proof texts, 1937 concise wording; separate 1421 charter has fifth demand",
+      "hold": "physical print facsimile check, manuscript variants, entire clause IV 1844, Czech philology",
+      "document_path": "docs/01_CONTENT/VOL03/23_PRAGUE_1844_1937_TEXT_LAYERS_V09_P1C.md"
+    },
+    {
+      "id": "BATCH-V09-D01",
+      "domain": "compactata",
+      "claim_ids": [
+        "CLM-V03-008",
+        "CLM-V03-009",
+        "CLM-V03-010",
+        "CLM-V03-013",
+        "CLM-V03-014"
+      ],
+      "source_ids": [
+        "V03-S33",
+        "V03-S34"
+      ],
+      "access": "CMS institutional book description and Fudge scholarly review, not book full edition",
+      "confirmed": "1433 three original texts; 1436 public promulgation; 1437 follow-up; 2019 edition ten documents and 24 manuscripts",
+      "hold": "2019 Latin edition pp165-218 document-level review, legal force and primary decrees",
+      "document_path": "docs/01_CONTENT/VOL03/24_COMPACTATA_DOCUMENT_GATES_V09_P1D.md"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://archive.org/stream/latinworks13wycl/latinworks13wycl_djvu.txt",
+      "type": "historical_edition_OCR"
+    },
+    {
+      "url": "https://plato.stanford.edu/entries/wyclif/",
+      "type": "scholarly_encyclopedia"
+    },
+    {
+      "url": "https://en.wikisource.org/wiki/De_Ecclesia._The_Church/Chapter_4",
+      "type": "historic_translation_transcription"
+    },
+    {
+      "url": "https://www.rbmonline.cz/portal/book/794?lpage=214",
+      "type": "1844_edition_OCR"
+    },
+    {
+      "url": "https://cs.wikisource.org/wiki/%C4%8Cty%C5%99i_artikuly_pra%C5%BEsk%C3%A9",
+      "type": "1937_edition_transcription"
+    },
+    {
+      "url": "https://cms.flu.cas.cz/en/publications/monographs/die-basler-kompaktaten-mit-den-hussiten-1436-2.html",
+      "type": "scholarly_edition_catalogue"
+    },
+    {
+      "url": "https://scholarworks.iu.edu/journals/index.php/tmr/article/view/31313",
+      "type": "scholarly_book_review"
+    }
+  ]
+}

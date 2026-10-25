@@ -1,0 +1,113 @@
+{
+  "schema_version": "0.1",
+  "volume_id": "VOL-03",
+  "stage": "V1.0-P1E",
+  "examined_date": "2026-10-25",
+  "status": "DRAFT",
+  "description_ko": "2019 유료 학술 비평판 전문을 읽었다는 주장이 아닌, 1844년 공개 역사 편집본의 라틴-체코 병기 원문 OCR을 새로 확인한 보충 증거 색인.",
+  "source_of_truth": "기존 CLM와 182노드/365관계 통합 색인을 수정하거나 승인하지 않음",
+  "publication_gate": {
+    "approved": false,
+    "can_ship": false
+  },
+  "source_witnesses": [
+    {
+      "id": "SUP-V03-001",
+      "kind": "historical_print_edition_OCR",
+      "title": "František Palacký (ed.), Archiv český III (1844), pp.421–425",
+      "uri": "https://www.rbmonline.cz/portal/book/794?lpage=421",
+      "access": "online OCR text excerpt p421–425 verified; original manuscript not accessed",
+      "date_status": "editorial heading says Brno undated, conjecture July 1435",
+      "rights_status": "link_and_summary_only",
+      "graph_source_id": null
+    },
+    {
+      "id": "SUP-V03-002",
+      "kind": "research_institution_witness_catalogue",
+      "title": "Herder-Institut primary-source module: old Czech versions of Compactata",
+      "uri": "https://dbs.herder-institut.de/digitale-angebote/dokumente-und-materialien/themenmodule/quelle/3255/details/4733.html",
+      "access": "source-study explanatory webpage accessed; cited manuscript images not inspected",
+      "date_status": "webpage contextualizes vernacular reading at Iglau on 6 July 1436",
+      "rights_status": "link_and_summary_only",
+      "graph_source_id": null
+    },
+    {
+      "id": "SUP-V03-003",
+      "kind": "academic_publisher_summary",
+      "title": "František Šmahel, Die Basler Kompaktaten mit den Hussiten (1436), 2019",
+      "uri": "https://cms.flu.cas.cz/en/publications/monographs/die-basler-kompaktaten-mit-den-hussiten-1436-2.html",
+      "access": "institutional publication summary, not critical Latin edition full text",
+      "date_status": "2019 publication date, subject 1433–1436",
+      "rights_status": "link_and_summary_only",
+      "graph_source_id": "V03-S33"
+    },
+    {
+      "id": "SUP-V03-004",
+      "kind": "scholarly_book_review",
+      "title": "Thomas A. Fudge (2020), review of Šmahel 2019 in The Medieval Review",
+      "uri": "https://scholarworks.iu.edu/journals/index.php/tmr/article/view/31313",
+      "access": "book review full public text; book critical edition not accessed",
+      "date_status": "2020 scholarly review",
+      "rights_status": "link_and_summary_only",
+      "graph_source_id": "V03-S34"
+    }
+  ],
+  "provisional_document": {
+    "id": "WIT-V03-SUP01",
+    "title_ko": "1435년 브르노 콤팍타타 협의 문안 — 1844년 라틴어·체코어 병기 편집본",
+    "is_new_canonical_document": false,
+    "editorial_source_id": "SUP-V03-001",
+    "based_on_historical_manuscripts_read_directly": false,
+    "print_location": "Archiv český III (1844) pp.421–425, likely continues p426; printed heading on p421",
+    "historical_date_label": "브르노, 원문 무날짜; 팔라츠키가 1435년 7월로 추정",
+    "historical_date_precision": "editorial_estimate_not_exact_day",
+    "date_start": null,
+    "author_or_authority": "바젤 공의회 특사들과 보헤미아 왕국 측; 구체 원문 속 서명·봉인은 미대조",
+    "document_type": "negotiation_or_compactata_draft_witness",
+    "linked_claim_ids": [
+      "CLM-V03-008",
+      "CLM-V03-009",
+      "CLM-V03-010",
+      "CLM-V03-013",
+      "CLM-V03-014"
+    ],
+    "related_event_ids": [
+      "EVT-0016",
+      "EVT-0019",
+      "EVT-0020"
+    ],
+    "relation_to_events": "context_only_not_identical",
+    "four_passage_notes": [
+      {
+        "page": "421",
+        "observation_ko": "제목은 브르노의 공의회 사절–보헤미아 왕국 콤팍타타 협의 문안이며 라틴어와 체코어를 병기. 원문 무날짜, 1435년 7월은 편집자 판단."
+      },
+      {
+        "page": "422",
+        "observation_ko": "교회적 일치·평화, 과거 제재 철회, 보헤미아와 모라비아 신자의 관계를 다루는 협상 문안."
+      },
+      {
+        "page": "423",
+        "observation_ko": "양형성찬을 허용하는 조건 및 이에 대한 공의회 토론·후속 절차가 표현됨. 무조건·보편적 의무라는 취지가 아님."
+      },
+      {
+        "page": "424–425",
+        "observation_ko": "성찬 각 형상과 그리스도의 현존, 사제에게 지시하는 양형성찬 집전 규정을 다룸. 활자/OCR의 정확한 라틴 문자 대조는 HOLD."
+      }
+    ],
+    "manuscript_or_edition_variants": {
+      "background": "Herder-Institut states a 15th-century Old Czech translation witness differs from Palacký's Archiv český III text.",
+      "primary_manuscript_direct_collation": false,
+      "printed_edition_text_direct_access": true,
+      "assert_equivalent_to_smahel_ten_documents": false,
+      "assert_same_text_as_1436_promulgation": false
+    },
+    "status": "DRAFT"
+  },
+  "outstanding": [
+    "Determine which of the ten items of Šmahel 2019 critical Latin corpus, if any, corresponds exactly to the 1844 p421 witness",
+    "Check facsimile of 1844 print and original medieval manuscript(s), including editor's inferred 1435 date",
+    "Compare the selected Old Czech manuscript witness reported by Herder Institut to Palacký 1844 without assuming line identity",
+    "Review ecclesiastical law and Catholic/Utraquist interpretations with scholars"
+  ]
+}

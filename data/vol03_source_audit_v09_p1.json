@@ -1,0 +1,193 @@
+{
+  "schema_version": "0.1",
+  "volume_id": "VOL-03",
+  "milestone": "V0.9-P1",
+  "verified_at": "2026-10-25",
+  "status": "DRAFT",
+  "source_of_truth": "data/vol03_primary_claims.json",
+  "note_ko": "이 파일은 기존 CLM 14건의 참고 판본 재검증 부속색인이다. 기존 주장·통합 노드 182/에지 365의 상태 또는 수량을 변경하지 않는다.",
+  "tiers": {
+    "T1": "중세 필사본 또는 원본 직접 대조",
+    "T2": "역사 원전 인쇄판 혹은 그 직접 전사 확인",
+    "T3": "역사적 번역판 또는 발췌 직접 확인",
+    "S1": "비평판 기관 소개·출판 서지",
+    "S2": "학술백과·학술서평·논문 초록",
+    "HOLD": "원문 판면·이문 대조 미완료"
+  },
+  "publication_gate": {
+    "approved": false,
+    "can_ship": false
+  },
+  "audits": [
+    {
+      "id": "AUD-V09-001",
+      "claim_ids": [
+        "CLM-V03-001"
+      ],
+      "source_ids": [
+        "V03-S29",
+        "V03-S19"
+      ],
+      "access_tiers": [
+        "T2",
+        "S2"
+      ],
+      "finding_ko": "위클리프의 빵 실체 존속 및 그리스도 현존의 구별은 학술백과에서 교차 확인. Loserth 1892 Ch IV/V OCR은 인쇄면 재대조 전.",
+      "limitations_ko": "정확한 라틴 문맥, 인쇄면과 OCR 오류, 중세 필사본 이문 미확인",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "AUD-V09-002",
+      "claim_ids": [
+        "CLM-V03-002"
+      ],
+      "source_ids": [
+        "V03-S30"
+      ],
+      "access_tiers": [
+        "T3"
+      ],
+      "finding_ko": "Fordham의 성찬 발췌는 Trialogus 출처로 페이지에 명시; De eucharistia 번역으로 간주하면 오류.",
+      "limitations_ko": "Trialogus 전체 문맥 별도 대조 필요",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "AUD-V09-003",
+      "claim_ids": [
+        "CLM-V03-003",
+        "CLM-V03-004"
+      ],
+      "source_ids": [
+        "V03-S31"
+      ],
+      "access_tiers": [
+        "T3"
+      ],
+      "finding_ko": "후스 De ecclesia의 Ch IV 핵심 교회론 및 Ch I/XVII의 개념·권위 논의는 1915 영어 번역 전사에서 확인.",
+      "limitations_ko": "라틴 비평판과 Schaff 번역의 문장별 교감은 미완료",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "AUD-V09-004",
+      "claim_ids": [
+        "CLM-V03-005",
+        "CLM-V03-006",
+        "CLM-V03-007"
+      ],
+      "source_ids": [
+        "V03-S32"
+      ],
+      "access_tiers": [
+        "T2"
+      ],
+      "finding_ko": "프라하 4개조 1937 계열 체코어 전사에서 설교 주체·양형성찬 조건·징계 주체를 확인.",
+      "limitations_ko": "1420 당대 문안 직접 검증 및 옛 체코어 전문가 감수 미완료",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "AUD-V09-005",
+      "claim_ids": [
+        "CLM-V03-012"
+      ],
+      "source_ids": [
+        "V03-S23",
+        "V03-S32"
+      ],
+      "access_tiers": [
+        "S2",
+        "T2"
+      ],
+      "finding_ko": "1844 및 1937 편집 계열의 서지상 차이를 유지하고 텍스트 동일성은 보류.",
+      "limitations_ko": "양 판본의 실제 행별 이문 대조 미완료",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "AUD-V09-006",
+      "claim_ids": [
+        "CLM-V03-008",
+        "CLM-V03-013"
+      ],
+      "source_ids": [
+        "V03-S34"
+      ],
+      "access_tiers": [
+        "S2"
+      ],
+      "finding_ko": "Fudge 서평은 프라하 1433-11-30 양측 확인 3개 핵심 문안과 1433-12-11 최종 판본의 지속성을 별도 기술.",
+      "limitations_ko": "세 문서 원문과 날짜별 기록 직접 열람 미완료",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "AUD-V09-007",
+      "claim_ids": [
+        "CLM-V03-009"
+      ],
+      "source_ids": [
+        "V03-S33",
+        "V03-S34"
+      ],
+      "access_tiers": [
+        "S1",
+        "S2"
+      ],
+      "finding_ko": "2019 Šmahel 비평판은 관련 문서 10건을 수록하며 Fudge 서평은 24개 필사본을 언급.",
+      "limitations_ko": "실제 편집 라틴어 pp.165–218 전문 직접 열람 미완료",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "AUD-V09-008",
+      "claim_ids": [
+        "CLM-V03-010"
+      ],
+      "source_ids": [
+        "V03-S33",
+        "V03-S34"
+      ],
+      "access_tiers": [
+        "S1",
+        "S2"
+      ],
+      "finding_ko": "1436년 7월 이흘라바의 공적 선포는 학술 기관 개요·서평에서 재확인.",
+      "limitations_ko": "정확한 의전 날짜와 효력 발생·문구는 원문 미검증",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "AUD-V09-009",
+      "claim_ids": [
+        "CLM-V03-014"
+      ],
+      "source_ids": [
+        "V03-S34"
+      ],
+      "access_tiers": [
+        "S2"
+      ],
+      "finding_ko": "1437-12-23 Ut lucidius videatur에 관한 서평은 평신도의 잔 수령을 의무로 보지 않았다고 설명.",
+      "limitations_ko": "라틴어 교령·교회법적 효력 미확인",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "AUD-V09-010",
+      "claim_ids": [
+        "CLM-V03-011"
+      ],
+      "source_ids": [
+        "V03-S21",
+        "V03-S22"
+      ],
+      "access_tiers": [
+        "S2"
+      ],
+      "finding_ko": "후스 교회론 수용과 위클리프 성찬론 전면 수용을 별개 명제로 관리.",
+      "limitations_ko": "논문 초록·서지 수준, 후스 성찬론 원문 및 논문 전문 미대조",
+      "review_status": "DRAFT"
+    }
+  ],
+  "future_gates": [
+    "Loserth_print_vs_OCR",
+    "Hus_Latin_vs_Schaff",
+    "Prague_1844_vs_1937",
+    "Smahel_2019_ten_documents",
+    "External_expert_review"
+  ]
+}

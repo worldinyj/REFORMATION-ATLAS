@@ -1,0 +1,28 @@
+name: VOL03 Draft Consistency QA
+on:
+  push:
+    branches:
+      - docs/vol03-deep-research-v0-1
+  pull_request:
+    paths:
+      - 'data/**'
+      - 'assets/**'
+      - 'scripts/**'
+      - 'docs/**'
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout research sources
+        uses: actions/checkout@v5
+      - name: Validate standard-library sources and candidate gates
+        run: |
+          python3 scripts/validate_content.py
+          python3 scripts/validate_vol03.py
+          python3 scripts/validate_vol03_catalog.py
+          python3 scripts/validate_vol03_v09_batch.py
+          python3 scripts/validate_vol03_v12_candidates.py
+          python3 scripts/validate_vol03_v13_editorial.py
+          python3 scripts/build_vol03_g4_projection.py

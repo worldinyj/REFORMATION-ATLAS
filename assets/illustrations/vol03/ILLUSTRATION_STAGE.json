@@ -1,0 +1,213 @@
+{
+  "schema_version": "0.1",
+  "volume": "VOL-03",
+  "created_at": "2026-10-25",
+  "state": "BINARY_PENDING_LOCAL_IMPORT",
+  "note_ko": "실제 PNG/WebP는 이 브랜치에 아직 올라가지 않았다. 대화 내 별도 ZIP과 검수용 파일을 배포하였으며, 로컬 동기화 시 설치 스크립트가 SHA256을 확인한 뒤 canonical asset_manifest.json에 반영한다.",
+  "source_gen_ids": [
+    "8dec246b-bffd-4307-8d7f-125a94551e92",
+    "5f5c7a4b-e60e-4983-b02e-7cf81bd0818c"
+  ],
+  "download_archive": "REFORMATION_ATLAS_VOL03_ILLUSTRATIONS_V01.zip",
+  "zip_sha256": "571d80c7ee3f0722bc07c76e5760aeac2795d67c4bc96d000d699bda65ac35a3",
+  "target_directory": "assets/illustrations/vol03/",
+  "ai_disclosure": "AI 생성 역사 재현 이미지 — 실제 초상 또는 확정 역사 현장 재구성 아님.",
+  "assets": [
+    {
+      "id": "PRT-V03-01",
+      "name": "Valdes / Waldo",
+      "ko": "발도(발데스)",
+      "file": "PRT-V03-01_valdes_waldo.webp",
+      "sha": "69dffe34c80d018344c3ee0695ddc3ac369862acfc25ca64c147f4dd261c7127",
+      "linked": [
+        "PER-0004",
+        "LOC-0006"
+      ],
+      "sources": [
+        "V03-S01",
+        "V03-S51"
+      ],
+      "limit": "12세기 인물의 얼굴·정확한 도시 건축이 고증된 것이 아니며 'Peter'는 후대 인명 가능성",
+      "type": "ai_generated_historical_portrait",
+      "webp_sha256": "69dffe34c80d018344c3ee0695ddc3ac369862acfc25ca64c147f4dd261c7127",
+      "relative_path": "assets/illustrations/vol03/PRT-V03-01_valdes_waldo.webp",
+      "status": "PENDING_BINARY_COMMIT",
+      "historical_limitation_ko": "12세기 인물의 얼굴·정확한 도시 건축이 고증된 것이 아니며 'Peter'는 후대 인명 가능성",
+      "description_ko": "발도(발데스)",
+      "source_ids": [
+        "V03-S01",
+        "V03-S51"
+      ],
+      "linked_entity_ids": [
+        "PER-0004",
+        "LOC-0006"
+      ],
+      "rights_status": "ai_generated_original_draft",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "PRT-V03-02",
+      "name": "John Wyclif",
+      "ko": "존 위클리프",
+      "file": "PRT-V03-02_john_wyclif.webp",
+      "sha": "371962bc9e743b90c6e89bd944ec8e700b52828fed8d0146959db3ffc209a494",
+      "linked": [
+        "PER-0001",
+        "LOC-0001"
+      ],
+      "sources": [
+        "V03-S05",
+        "V03-S29"
+      ],
+      "limit": "실제 생전 초상이라는 근거 없으며 필사서·책·복식 세부는 시각적 재현",
+      "type": "ai_generated_historical_portrait",
+      "webp_sha256": "371962bc9e743b90c6e89bd944ec8e700b52828fed8d0146959db3ffc209a494",
+      "relative_path": "assets/illustrations/vol03/PRT-V03-02_john_wyclif.webp",
+      "status": "PENDING_BINARY_COMMIT",
+      "historical_limitation_ko": "실제 생전 초상이라는 근거 없으며 필사서·책·복식 세부는 시각적 재현",
+      "description_ko": "존 위클리프",
+      "source_ids": [
+        "V03-S05",
+        "V03-S29"
+      ],
+      "linked_entity_ids": [
+        "PER-0001",
+        "LOC-0001"
+      ],
+      "rights_status": "ai_generated_original_draft",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "PRT-V03-03",
+      "name": "Jan Hus",
+      "ko": "얀 후스",
+      "file": "PRT-V03-03_jan_hus.webp",
+      "sha": "6738734737a9a5eb0067791dd188b82d5ffa57bff319aad17709792059f5b73f",
+      "linked": [
+        "PER-0002",
+        "LOC-0002"
+      ],
+      "sources": [
+        "V03-S09",
+        "V03-S50",
+        "V03-S52"
+      ],
+      "limit": "수염·검은 학자 모자는 후대 관습 도상이며 실제 얼굴 고증 아님",
+      "type": "ai_generated_historical_portrait",
+      "webp_sha256": "6738734737a9a5eb0067791dd188b82d5ffa57bff319aad17709792059f5b73f",
+      "relative_path": "assets/illustrations/vol03/PRT-V03-03_jan_hus.webp",
+      "status": "PENDING_BINARY_COMMIT",
+      "historical_limitation_ko": "수염·검은 학자 모자는 후대 관습 도상이며 실제 얼굴 고증 아님",
+      "description_ko": "얀 후스",
+      "source_ids": [
+        "V03-S09",
+        "V03-S50",
+        "V03-S52"
+      ],
+      "linked_entity_ids": [
+        "PER-0002",
+        "LOC-0002"
+      ],
+      "rights_status": "ai_generated_original_draft",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "PRT-V03-04",
+      "name": "Jan Žižka",
+      "ko": "얀 지슈카",
+      "file": "PRT-V03-04_jan_zizka.webp",
+      "sha": "366a147f7559cd563d28bc1877188763ae962853a2f0df96d83d5c7992d1a2d9",
+      "linked": [
+        "PER-0007",
+        "LOC-0007"
+      ],
+      "sources": [
+        "V03-S49",
+        "V03-S53"
+      ],
+      "limit": "어느 눈을 다쳤는지조차 확정되지 않음; 생전 초상 부재, 붕대는 상징적",
+      "type": "ai_generated_historical_portrait",
+      "webp_sha256": "366a147f7559cd563d28bc1877188763ae962853a2f0df96d83d5c7992d1a2d9",
+      "relative_path": "assets/illustrations/vol03/PRT-V03-04_jan_zizka.webp",
+      "status": "PENDING_BINARY_COMMIT",
+      "historical_limitation_ko": "어느 눈을 다쳤는지조차 확정되지 않음; 생전 초상 부재, 붕대는 상징적",
+      "description_ko": "얀 지슈카",
+      "source_ids": [
+        "V03-S49",
+        "V03-S53"
+      ],
+      "linked_entity_ids": [
+        "PER-0007",
+        "LOC-0007"
+      ],
+      "rights_status": "ai_generated_original_draft",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "ILL-V03-01",
+      "name": "Prague sermon - educational reconstruction",
+      "ko": "후스의 프라하 설교 장면",
+      "file": "ILL-V03-01_hus_preaching_prague_concept.webp",
+      "sha": "e6f9bee9e8a8d70e5097f457dde5cad049c007a4362a369967810ecba58ea5b0",
+      "linked": [
+        "PER-0002",
+        "LOC-0002"
+      ],
+      "sources": [
+        "V03-S09",
+        "V03-S52"
+      ],
+      "limit": "베들레헴 예배당 실내 구조·청중·복식을 1402년의 현장으로 정확히 복원한 것은 아님",
+      "type": "ai_generated_historical_scene",
+      "webp_sha256": "e6f9bee9e8a8d70e5097f457dde5cad049c007a4362a369967810ecba58ea5b0",
+      "relative_path": "assets/illustrations/vol03/ILL-V03-01_hus_preaching_prague_concept.webp",
+      "status": "PENDING_BINARY_COMMIT",
+      "historical_limitation_ko": "베들레헴 예배당 실내 구조·청중·복식을 1402년의 현장으로 정확히 복원한 것은 아님",
+      "description_ko": "후스의 프라하 설교 장면",
+      "source_ids": [
+        "V03-S09",
+        "V03-S52"
+      ],
+      "linked_entity_ids": [
+        "PER-0002",
+        "LOC-0002"
+      ],
+      "rights_status": "ai_generated_original_draft",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "ILL-V03-02",
+      "name": "Compactata negotiation - conceptual illustration",
+      "ko": "바젤 공의회·보헤미아 대표단의 협상",
+      "file": "ILL-V03-02_basel_prague_negotiation_concept.webp",
+      "sha": "24afecb06a6803695a86bf28c83062c7b437bff86c8f84e31aa399dc5c98bc46",
+      "linked": [
+        "MOV-0003",
+        "LOC-0010",
+        "LOC-0002"
+      ],
+      "sources": [
+        "V03-S34",
+        "V03-S35"
+      ],
+      "limit": "협상 당일 참가자 복장·자리·건물은 가상 연출. 한 회의를 확정 재현한 이미지가 아님",
+      "type": "ai_generated_historical_scene",
+      "webp_sha256": "24afecb06a6803695a86bf28c83062c7b437bff86c8f84e31aa399dc5c98bc46",
+      "relative_path": "assets/illustrations/vol03/ILL-V03-02_basel_prague_negotiation_concept.webp",
+      "status": "PENDING_BINARY_COMMIT",
+      "historical_limitation_ko": "협상 당일 참가자 복장·자리·건물은 가상 연출. 한 회의를 확정 재현한 이미지가 아님",
+      "description_ko": "바젤 공의회·보헤미아 대표단의 협상",
+      "source_ids": [
+        "V03-S34",
+        "V03-S35"
+      ],
+      "linked_entity_ids": [
+        "MOV-0003",
+        "LOC-0010",
+        "LOC-0002"
+      ],
+      "rights_status": "ai_generated_original_draft",
+      "review_status": "DRAFT"
+    }
+  ]
+}

@@ -1,0 +1,560 @@
+{
+  "schema_version": "0.1",
+  "volume": "VOL-03",
+  "status": "DRAFT",
+  "notes": [
+    "기존 data/people.json과 별도인 심화용 확장 초안. 통합 전 참조 검증과 스키마 이관이 필요하다.",
+    "가상 정확일자를 만들지 않는다. approximate_period는 date_label, 범위는 year_start/year_end 사용.",
+    "인물 및 운동의 관계유형은 직접 사제 관계와 구별한다."
+  ],
+  "actors": [
+    {
+      "id": "PER-0004",
+      "name_ko": "발도",
+      "name_en": "Valdes / Waldo",
+      "kind": "person",
+      "life_date_label": "12세기 후반~13세기 초",
+      "locations": [
+        "LOC-0006"
+      ],
+      "source_ids": [
+        "V03-S01",
+        "V03-S02"
+      ]
+    },
+    {
+      "id": "PER-0005",
+      "name_ko": "프라하의 예로니모",
+      "name_en": "Jerome of Prague",
+      "kind": "person",
+      "life_date_label": "약 1378–1416",
+      "locations": [
+        "LOC-0002",
+        "LOC-0005"
+      ],
+      "source_ids": [
+        "V03-S17"
+      ]
+    },
+    {
+      "id": "PER-0006",
+      "name_ko": "야쿠베크 드 스트르지브로",
+      "name_en": "Jakoubek of Stříbro",
+      "kind": "person",
+      "life_date_label": "약 1372–1429 이후",
+      "locations": [
+        "LOC-0002"
+      ],
+      "source_ids": [
+        "V03-S13"
+      ]
+    },
+    {
+      "id": "PER-0007",
+      "name_ko": "얀 지슈카",
+      "name_en": "Jan Žižka",
+      "kind": "person",
+      "life_date_label": "약 1360–1424",
+      "locations": [
+        "LOC-0007"
+      ],
+      "source_ids": [
+        "V03-S11",
+        "V03-S18"
+      ]
+    },
+    {
+      "id": "PER-0008",
+      "name_ko": "초기 형제단의 그레고리",
+      "name_en": "Gregory the Patriarch",
+      "kind": "person",
+      "life_date_label": "15세기 활동",
+      "locations": [
+        "LOC-0012"
+      ],
+      "source_ids": [
+        "V03-S15",
+        "V03-S16"
+      ]
+    },
+    {
+      "id": "PER-0009",
+      "name_ko": "페트르 헬치츠키",
+      "name_en": "Petr Chelčický",
+      "kind": "person",
+      "life_date_label": "약 1390–1460 무렵",
+      "locations": [],
+      "source_ids": [
+        "V03-S11",
+        "V03-S15"
+      ]
+    },
+    {
+      "id": "MOV-0001",
+      "name_ko": "왈도파",
+      "name_en": "Waldensians",
+      "kind": "movement",
+      "source_ids": [
+        "V03-S01",
+        "V03-S04"
+      ]
+    },
+    {
+      "id": "MOV-0002",
+      "name_ko": "롤라드파",
+      "name_en": "Lollards",
+      "kind": "movement",
+      "source_ids": [
+        "V03-S06"
+      ]
+    },
+    {
+      "id": "MOV-0003",
+      "name_ko": "후스파",
+      "name_en": "Hussites",
+      "kind": "movement",
+      "source_ids": [
+        "V03-S11"
+      ]
+    },
+    {
+      "id": "MOV-0004",
+      "name_ko": "보헤미아 형제단",
+      "name_en": "Unity of the Brethren",
+      "kind": "movement",
+      "source_ids": [
+        "V03-S15",
+        "V03-S16"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "id": "LOC-0006",
+      "name_ko": "리옹",
+      "name_en": "Lyon",
+      "present_country": "France",
+      "historical_note": "12세기 리옹"
+    },
+    {
+      "id": "LOC-0007",
+      "name_ko": "타보르",
+      "name_en": "Tábor",
+      "present_country": "Czechia",
+      "historical_note": "15세기 보헤미아"
+    },
+    {
+      "id": "LOC-0008",
+      "name_ko": "러터워스",
+      "name_en": "Lutterworth",
+      "present_country": "United Kingdom",
+      "historical_note": "14세기 잉글랜드"
+    },
+    {
+      "id": "LOC-0009",
+      "name_ko": "앙그로냐",
+      "name_en": "Angrogna",
+      "present_country": "Italy",
+      "historical_note": "16세기 알프스 인접 지역"
+    },
+    {
+      "id": "LOC-0010",
+      "name_ko": "바젤",
+      "name_en": "Basel",
+      "present_country": "Switzerland",
+      "historical_note": "15세기 공의회 도시"
+    },
+    {
+      "id": "LOC-0011",
+      "name_ko": "리파니",
+      "name_en": "Lipany",
+      "present_country": "Czechia",
+      "historical_note": "1434년 전투 장소"
+    },
+    {
+      "id": "LOC-0012",
+      "name_ko": "쿤발트",
+      "name_en": "Kunvald",
+      "present_country": "Czechia",
+      "historical_note": "15세기 형제단의 역사적 거점; 장소 확인 추가 필요"
+    },
+    {
+      "id": "LOC-0013",
+      "name_ko": "이흘라바",
+      "name_en": "Jihlava (Iglau)",
+      "present_country": "Czechia",
+      "historical_note": "1436년 콤팍타타의 공적 선포·승인과 연결된 지역"
+    },
+    {
+      "id": "LOC-0014",
+      "name_ko": "쿠트나호라",
+      "name_en": "Kutná Hora",
+      "present_country": "Czechia",
+      "historical_note": "15세기 보헤미아 왕국의 도시; 지도는 현대 도시 중심 좌표"
+    },
+    {
+      "id": "LOC-0015",
+      "name_ko": "슈트라스부르",
+      "name_en": "Strasbourg",
+      "present_country": "France",
+      "historical_note": "1530년대 신성로마제국 도시; 지도는 현대 도시 중심 좌표"
+    },
+    {
+      "id": "LOC-0016",
+      "name_ko": "베른",
+      "name_en": "Bern",
+      "present_country": "Switzerland",
+      "historical_note": "16세기 초 개혁사 교류; 지도는 현대 도시 중심 좌표"
+    },
+    {
+      "id": "LOC-0017",
+      "name_ko": "뇌샤텔",
+      "name_en": "Neuchâtel",
+      "present_country": "Switzerland",
+      "historical_note": "16세기 초 개혁사 교류; 지도는 현대 도시 중심 좌표"
+    }
+  ],
+  "events": [
+    {
+      "id": "EVT-0005",
+      "title_ko": "리옹의 청빈·설교 운동",
+      "date_label": "1170년대 후반",
+      "year_start": 1175,
+      "date_precision": "approximate_period",
+      "actor_ids": [
+        "PER-0004",
+        "MOV-0001"
+      ],
+      "location_ids": [
+        "LOC-0006"
+      ],
+      "source_ids": [
+        "V03-S01",
+        "V03-S02"
+      ]
+    },
+    {
+      "id": "EVT-0006",
+      "title_ko": "발도파와 교회 당국의 설교권 갈등",
+      "date_label": "1179~1184년",
+      "year_start": 1179,
+      "year_end": 1184,
+      "date_precision": "range",
+      "actor_ids": [
+        "PER-0004",
+        "MOV-0001"
+      ],
+      "location_ids": [
+        "LOC-0006"
+      ],
+      "source_ids": [
+        "V03-S01",
+        "V03-S02"
+      ]
+    },
+    {
+      "id": "EVT-0007",
+      "title_ko": "위클리프 생전 종교적 단죄",
+      "date_label": "1382년",
+      "year_start": 1382,
+      "date_precision": "year",
+      "actor_ids": [
+        "PER-0001"
+      ],
+      "location_ids": [
+        "LOC-0001"
+      ],
+      "source_ids": [
+        "V03-S05"
+      ]
+    },
+    {
+      "id": "EVT-0008",
+      "title_ko": "후스 베들레헴 예배당 설교",
+      "date_label": "1402년경",
+      "year_start": 1402,
+      "date_precision": "approximate_year",
+      "actor_ids": [
+        "PER-0002"
+      ],
+      "location_ids": [
+        "LOC-0002"
+      ],
+      "source_ids": [
+        "V03-S09"
+      ]
+    },
+    {
+      "id": "EVT-0009",
+      "title_ko": "후스의 프라하 면벌부 논쟁",
+      "date_label": "1412년",
+      "year_start": 1412,
+      "date_precision": "year",
+      "actor_ids": [
+        "PER-0002"
+      ],
+      "location_ids": [
+        "LOC-0002"
+      ],
+      "source_ids": [
+        "V03-S09"
+      ]
+    },
+    {
+      "id": "EVT-0010",
+      "title_ko": "프라하 양형성찬의 부흥",
+      "date_label": "1414년",
+      "year_start": 1414,
+      "date_precision": "year",
+      "actor_ids": [
+        "PER-0006"
+      ],
+      "location_ids": [
+        "LOC-0002"
+      ],
+      "source_ids": [
+        "V03-S13"
+      ]
+    },
+    {
+      "id": "EVT-0011",
+      "title_ko": "프라하의 예로니모 처형",
+      "date_label": "1416년",
+      "year_start": 1416,
+      "date_precision": "year",
+      "actor_ids": [
+        "PER-0005"
+      ],
+      "location_ids": [
+        "LOC-0005"
+      ],
+      "source_ids": [
+        "V03-S17"
+      ]
+    },
+    {
+      "id": "EVT-0012",
+      "title_ko": "프라하 창밖 투척 사건",
+      "date_label": "1419년 7월 30일",
+      "date_start": "1419-07-30",
+      "date_precision": "day",
+      "actor_ids": [
+        "MOV-0003"
+      ],
+      "location_ids": [
+        "LOC-0002"
+      ],
+      "source_ids": [
+        "V03-S12"
+      ]
+    },
+    {
+      "id": "EVT-0013",
+      "title_ko": "프라하 4개조",
+      "date_label": "1420년 전후",
+      "year_start": 1420,
+      "date_precision": "approximate_year",
+      "actor_ids": [
+        "MOV-0003",
+        "PER-0006"
+      ],
+      "location_ids": [
+        "LOC-0002"
+      ],
+      "source_ids": [
+        "V03-S11",
+        "V03-S13"
+      ]
+    },
+    {
+      "id": "EVT-0014",
+      "title_ko": "후스 전쟁",
+      "date_label": "1420~1436년",
+      "year_start": 1420,
+      "year_end": 1436,
+      "date_precision": "range",
+      "actor_ids": [
+        "MOV-0003",
+        "PER-0007"
+      ],
+      "location_ids": [
+        "LOC-0002",
+        "LOC-0007"
+      ],
+      "source_ids": [
+        "V03-S12",
+        "V03-S18"
+      ]
+    },
+    {
+      "id": "EVT-0015",
+      "title_ko": "리파니 전투",
+      "date_label": "1434년 5월 30일",
+      "date_start": "1434-05-30",
+      "date_precision": "day",
+      "actor_ids": [
+        "MOV-0003"
+      ],
+      "location_ids": [
+        "LOC-0011"
+      ],
+      "source_ids": [
+        "V03-S14"
+      ]
+    },
+    {
+      "id": "EVT-0016",
+      "title_ko": "콤팍타타 승인",
+      "date_label": "1436년",
+      "year_start": 1436,
+      "date_precision": "year",
+      "actor_ids": [
+        "MOV-0003"
+      ],
+      "location_ids": [
+        "LOC-0013"
+      ],
+      "source_ids": [
+        "V03-S14"
+      ]
+    },
+    {
+      "id": "EVT-0017",
+      "title_ko": "보헤미아 형제단 형성",
+      "date_label": "1457년 무렵",
+      "year_start": 1457,
+      "date_precision": "approximate_year",
+      "actor_ids": [
+        "MOV-0004",
+        "PER-0008"
+      ],
+      "location_ids": [
+        "LOC-0012"
+      ],
+      "source_ids": [
+        "V03-S15",
+        "V03-S16"
+      ]
+    },
+    {
+      "id": "EVT-0018",
+      "title_ko": "왈도파·개혁파의 찬포랑 회합",
+      "date_label": "1532년",
+      "year_start": 1532,
+      "date_precision": "year",
+      "actor_ids": [
+        "MOV-0001"
+      ],
+      "location_ids": [
+        "LOC-0009"
+      ],
+      "source_ids": [
+        "V03-S03",
+        "V03-S04"
+      ]
+    },
+    {
+      "id": "EVT-0019",
+      "title_ko": "프라하의 콤팍타타 핵심 합의 문안 확인",
+      "date_label": "1433년 11월 30일",
+      "date_start": "1433-11-30",
+      "date_precision": "day",
+      "actor_ids": [
+        "MOV-0003"
+      ],
+      "location_ids": [
+        "LOC-0002"
+      ],
+      "source_ids": [
+        "V03-S34"
+      ],
+      "summary_ko": "학술 서평에 따르면 프라하에서 양측이 확인한 핵심 합의 문안 3건. 원문 직접 대조는 미완료.",
+      "publication_status": "DRAFT"
+    },
+    {
+      "id": "EVT-0020",
+      "title_ko": "바젤 공의회 Ut lucidius videatur",
+      "date_label": "1437년 12월 23일",
+      "date_start": "1437-12-23",
+      "date_precision": "day",
+      "actor_ids": [
+        "MOV-0003"
+      ],
+      "location_ids": [
+        "LOC-0010"
+      ],
+      "source_ids": [
+        "V03-S34"
+      ],
+      "summary_ko": "평신도에게 성찬의 잔이 보편적 의무가 아니라는 논의를 포함한 후속 공의회 조치. 학술 서평 수준 확인.",
+      "publication_status": "DRAFT"
+    }
+  ],
+  "relationships": [
+    {
+      "id": "REL-0003",
+      "from": "PER-0004",
+      "to": "MOV-0001",
+      "type": "movement_origin",
+      "source_ids": [
+        "V03-S01"
+      ]
+    },
+    {
+      "id": "REL-0004",
+      "from": "PER-0001",
+      "to": "MOV-0002",
+      "type": "intellectual_inspiration",
+      "source_ids": [
+        "V03-S06"
+      ]
+    },
+    {
+      "id": "REL-0005",
+      "from": "PER-0001",
+      "to": "PER-0005",
+      "type": "textual_reception",
+      "source_ids": [
+        "V03-S05",
+        "V03-S17"
+      ]
+    },
+    {
+      "id": "REL-0006",
+      "from": "PER-0002",
+      "to": "MOV-0003",
+      "type": "historical_inspiration",
+      "source_ids": [
+        "V03-S11"
+      ]
+    },
+    {
+      "id": "REL-0007",
+      "from": "MOV-0003",
+      "to": "MOV-0004",
+      "type": "movement_emergence",
+      "source_ids": [
+        "V03-S15"
+      ]
+    },
+    {
+      "id": "REL-0008",
+      "from": "MOV-0001",
+      "to": "EVT-0018",
+      "type": "reform_alignment",
+      "source_ids": [
+        "V03-S03",
+        "V03-S04"
+      ]
+    },
+    {
+      "id": "REL-0009",
+      "from": "PER-0006",
+      "to": "EVT-0010",
+      "type": "theological_and_liturgical_leadership",
+      "source_ids": [
+        "V03-S13"
+      ]
+    }
+  ]
+}

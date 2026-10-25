@@ -1,0 +1,78 @@
+{
+  "schema_version": "0.1",
+  "volume_id": "VOL-03",
+  "revision": "V1.1-R2C01",
+  "status": "DRAFT_CANDIDATE",
+  "created_at": "2026-10-25",
+  "publication_gate": {
+    "approved": false,
+    "can_ship": false
+  },
+  "file_mode": "LOCAL_REVIEW_ZIP_ONLY_NO_GITHUB_BINARIES_OR_CANDIDATE_SVG_UPLOAD",
+  "archive_filename": "REFORMATION_ATLAS_VOL03_V11_CANDIDATES.zip",
+  "archive_sha256": "8ae5c9e1a96fa0813ed157eab2ad57fdaaddcb02d0dee787ed0ef0ff3c9e6930",
+  "original_ai_sheet_sha256": "c828a1ab87d8bad62b570eecb9f288631de41015355fa630a10883bed5b4dd80",
+  "contact_sheet_sha256": "c1901cf70c9743e9bf43f71657bf0ca5f5a2ac1fe8bf50a02ffaad1dbec907e4",
+  "original_svg_base": "REFORMATION_ATLAS_VOL03_MAPS_V01_SVG_PNG.zip (previous conversation artifact); DO NOT assume byte-equivalent to current GitHub SVG because trailing explanatory text differs",
+  "committed_canonical_ids_unchanged": true,
+  "planned_revisions": [
+    {
+      "id": "PRT-V03-01-R2C01",
+      "original_id": "PRT-V03-01",
+      "risk_before": "HIGH",
+      "type": "ai_portrait",
+      "sha256_webp": "85bc0f3f235f96a6c0f57338ea9582dd4c8960860c0fa01e3206d2ddccfee36e",
+      "review_ko": "평신도 설교자의 상상 그림. 실제 발도 얼굴·리옹 거리·12세기 소품의 고증 필요"
+    },
+    {
+      "id": "PRT-V03-02-R2C01",
+      "original_id": "PRT-V03-02",
+      "risk_before": "HIGH",
+      "type": "ai_portrait",
+      "sha256_webp": "c0d3c2ee233a10b6fe1cd34c35f41b1f8a4221b856b169cda6566e7cc2a771e4",
+      "review_ko": "후대 대학탑 배경 대신 익명 서재로 변경. 서적·의복의 정확한 연대는 미검증"
+    },
+    {
+      "id": "PRT-V03-03-R2C01",
+      "original_id": "PRT-V03-03",
+      "risk_before": "MEDIUM",
+      "type": "ai_portrait",
+      "sha256_webp": "1074703f78158165e6f942e77185b4644def596d55415d1f4fe189fe73749282",
+      "review_ko": "특정 예배당 건축을 제거한 설교 상상화. 실제 초상·베들레헴 예배당 복원 아님"
+    },
+    {
+      "id": "PRT-V03-04-R2C01",
+      "original_id": "PRT-V03-04",
+      "risk_before": "HIGH",
+      "type": "ai_portrait",
+      "sha256_webp": "371535561b1386bc90e8e834b08bb639ce763543dc9645919e0fafe7f96c9cb4",
+      "review_ko": "후면 작전 지휘 구도로 정확한 부상 눈·얼굴 확정 회피. 갑옷·무기·천막은 가상"
+    },
+    {
+      "id": "MAP-V03-02-R2C01",
+      "original_id": "MAP-V03-02",
+      "risk_before": "HIGH",
+      "type": "svg_educational_map",
+      "sha256_svg": "adf87c8c3162c6a18ec9c0ff9772da48bd4504896a52d9d7aea01da7d6841362",
+      "review_ko": "옥스퍼드→프라하 점선에 저술 영향(사람의 여행로 아님)을 명시. 기존 보관 ZIP을 바탕으로 만든 후보"
+    },
+    {
+      "id": "MAP-V03-04-R2C01",
+      "original_id": "MAP-V03-04",
+      "risk_before": "HIGH",
+      "type": "svg_educational_map",
+      "sha256_svg": "0d388a0e7217d48e6fb91fa7c0b91fa51532e4be6f8e18a159361663deb7b6cb",
+      "review_ko": "교류망 점선이 실제 방문 순서/여행로가 아님을 명시. 기존 보관 ZIP을 바탕으로 만든 후보"
+    }
+  ],
+  "pending_revisions": [
+    "ILL-V03-01",
+    "ILL-V03-02"
+  ],
+  "invalid_generation_outputs_excluded": 2,
+  "declarations": [
+    "No period portrait or exact 12th/14th/15th century building reconstruction certified.",
+    "Original artwork and map manifest, web content index and project release gate untouched.",
+    "These are proposed changes for later editorial approval, not accepted or published historical assets."
+  ]
+}

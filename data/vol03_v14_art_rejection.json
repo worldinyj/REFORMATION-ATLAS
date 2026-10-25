@@ -1,0 +1,58 @@
+{
+  "schema_version": "0.1",
+  "volume": "VOL-03",
+  "milestone": "V1.4",
+  "date": "2026-10-25",
+  "state": "DRAFT",
+  "target_original": "ILL-V03-02",
+  "previous_candidate": "ILL-V03-02-R2C01",
+  "outcome": "NO_REPLACEMENT_ACCEPTED",
+  "rejection_reason": "The two new generation attempts returned multi-panel infographic/storyboard posters containing labels, maps, flags and even historical chronology instead of one neutral negotiation painting.",
+  "failed_attempts": [
+    {
+      "id": "ILL-V03-02-R3_ATTEMPT01",
+      "sha256_local_output": "be93bb239f4fdcd14a791fee41c4cefbf049eb68276e52e81e7262a94e9b262d",
+      "filename_local": "a_wide_infographic_collage_storyboard_style_imag.png",
+      "verdict": "REJECTED_NOT_SINGLE_SCENE"
+    },
+    {
+      "id": "ILL-V03-02-R3_ATTEMPT02",
+      "sha256_local_output": "a700f4ca3648836d153f9c1e405106359ef0f23d5b7a880ed08d3e25ad8fdf44",
+      "filename_local": "a_large_infographic_collage_in_a_realistic_histori.png",
+      "verdict": "REJECTED_NOT_SINGLE_SCENE"
+    }
+  ],
+  "rights_and_publish": {
+    "original_preserved": true,
+    "candidate_accepted": false,
+    "new_binary_in_git": false,
+    "approved": false,
+    "can_ship": false,
+    "show_in_public": false
+  },
+  "acceptance": {
+    "aspect_ratio": "16:9",
+    "image_count": 1,
+    "positive": [
+      "Single historical oil-painting-like scene",
+      "Unnamed scholars and civic representatives discussing unmarked parchment at a plain wooden table",
+      "Neutral late-medieval interior, no identifiable landmark or historical badges",
+      "Documentary atmosphere without claiming exact 1433/1435/1436 venue"
+    ],
+    "negatives": [
+      "No infographic, poster, triptych, chart, timeline, map or collage",
+      "No Korean/English text, title, caption or legend in image",
+      "No heraldic shields, flags, seals, eagles, lions or chalice emblems",
+      "No red cardinal robes or unmistakable bishop mitres",
+      "No recognizable historical people or falsely exact manuscripts"
+    ],
+    "tests": [
+      "one continuous frame",
+      "zero overlaid text",
+      "zero heraldic marks",
+      "no story panels or small maps",
+      "external historical costume and architecture review",
+      "human approval before public use"
+    ]
+  }
+}
