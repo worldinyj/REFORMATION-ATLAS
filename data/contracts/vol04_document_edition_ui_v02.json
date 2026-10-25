@@ -1,0 +1,98 @@
+{
+  "schema_version": "0.2",
+  "contract_id": "VOL04-DOCUMENT-EDITION-PROJECTION",
+  "supersedes": "data/contracts/vol04_document_edition_ui_v01.json",
+  "status": "DESIGN_AND_READ_ONLY_REVIEW_IMPLEMENTATION",
+  "public_release_authorized": false,
+  "compatibility": {
+    "global_contract": "data/contracts/atlas_contract_v01.json",
+    "existing_document_route": "/documents/:documentId",
+    "stable_work_ids": [
+      "OV-D-011",
+      "OV-D-012"
+    ],
+    "no_canonical_id_minting": true
+  },
+  "inputs": {
+    "bibliography": "data/deep/vol04_witness_bibliography_v02.json",
+    "split_registry": "data/deep/vol04_split_proposals_v01.json",
+    "research_comparisons": "data/deep/vol04_edition_comparison_v01.json",
+    "source_copy_evidence": "data/deep/vol04_copy_evidence_v01.json"
+  },
+  "output_modes": {
+    "review": {
+      "kind": "RESEARCH_REVIEW_ONLY",
+      "may_write_outside_repo_only": true,
+      "contains_unapproved_observations": true,
+      "must_never_ship": true
+    },
+    "public": {
+      "kind": "PUBLIC_PROJECTION",
+      "records_expected": 0,
+      "allowed_generation": false,
+      "why": "No signed/independently approved release manifest exists; not implemented. Publishing requires separate reviewed release pipeline."
+    }
+  },
+  "view": {
+    "tabs": [
+      {
+        "id": "structure",
+        "label_ko": "구성 변화"
+      },
+      {
+        "id": "textual_wording",
+        "label_ko": "본문 차이"
+      },
+      {
+        "id": "iconography",
+        "label_ko": "삽화 차이"
+      }
+    ],
+    "empty_state_ko": "승인된 판본 비교 자료가 없습니다.",
+    "date_precision": [
+      "year",
+      "month"
+    ],
+    "material_types": [
+      "submitted_text_tradition",
+      "authorized_print_edition",
+      "printed_edition",
+      "translation_edition",
+      "modern_reprint",
+      "historical_edition_unspecified"
+    ],
+    "provenance_badges": [
+      "SOURCE_HOLDING_VERIFIED",
+      "SCHOLARLY_SUMMARY",
+      "ORIGINAL_TEXT_NOT_COLLATED",
+      "COPY_SHELFMARK_UNKNOWN"
+    ],
+    "accessibility": {
+      "timeline_text_alternative": true,
+      "keyboard_tabs": true,
+      "source_links_descriptive": true,
+      "media_alt_required": true,
+      "no_color_only_distinction": true
+    }
+  },
+  "guardrails": {
+    "fail_closed": true,
+    "research_case_keys_not_routes": true,
+    "proposal_keys_not_routes": true,
+    "no_import_of_research_files_in_web_bundle": true,
+    "no_original_image_reuse": true,
+    "assert_no_approval_from_link_alone": true,
+    "missing_source_id_blocks_promotion": true,
+    "original_not_collated_blocks_wording_approval": true,
+    "requires_explicit_separate_human_release_manifest": true,
+    "never_autogenerate_unknown_historical_dates": true
+  },
+  "review_counts": {
+    "parent_candidates": 17,
+    "split_parent_candidates": 5,
+    "split_child_candidates": 10,
+    "comparison_cases": 3,
+    "approved_cases": 0
+  },
+  "editorial_release": "HOLD"
+}
