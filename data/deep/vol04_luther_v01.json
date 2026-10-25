@@ -1,0 +1,691 @@
+{
+  "schema_version": "0.1",
+  "dataset": "VOL04_LUTHER_DEPTH",
+  "date": "2026-10-25",
+  "research_branch": "research/vol04-luther-deep-v01",
+  "parent_person_id": "OV-P-013",
+  "parent_volume_id": "VOL-04",
+  "source_footprint": "data/overview/*.json read-only; no mutation to original person/event/document records",
+  "content_block": {
+    "id": "DEPTH-V04-P013-001",
+    "entity_id": "OV-P-013",
+    "depth": "DEEP_RESEARCH",
+    "language": "ko",
+    "title": "마르틴 루터 — 신학·사건·문헌의 형성과 갈등",
+    "body_path": "docs/01_CONTENT/VOL04/LUTHER_DEEP_RESEARCH_V01.md",
+    "availability": "DRAFT_RESEARCH_NOT_PUBLIC",
+    "version": "0.1",
+    "source_ids": [
+      "SRC-V04-L-001",
+      "SRC-V04-L-002",
+      "SRC-V04-L-003",
+      "SRC-V04-L-004",
+      "SRC-V04-L-005",
+      "SRC-V04-L-006",
+      "SRC-V04-L-007",
+      "SRC-V04-L-008",
+      "SRC-V04-L-009",
+      "SRC-V04-L-010",
+      "SRC-V04-L-011",
+      "SRC-V04-L-012",
+      "SRC-V04-L-013",
+      "SRC-V04-L-014",
+      "SRC-V04-L-015",
+      "SRC-V04-L-016",
+      "SRC-V04-L-017"
+    ],
+    "claim_ids": [
+      "CLM-V04-L-001",
+      "CLM-V04-L-002",
+      "CLM-V04-L-003",
+      "CLM-V04-L-004",
+      "CLM-V04-L-005",
+      "CLM-V04-L-006",
+      "CLM-V04-L-007",
+      "CLM-V04-L-008",
+      "CLM-V04-L-009",
+      "CLM-V04-L-010",
+      "CLM-V04-L-011",
+      "CLM-V04-L-012",
+      "CLM-V04-L-013",
+      "CLM-V04-L-014",
+      "CLM-V04-L-015",
+      "CLM-V04-L-016"
+    ],
+    "approved": false,
+    "publication_approved": false
+  },
+  "sources": [
+    {
+      "id": "SRC-V04-L-001",
+      "title": "Martin Luther",
+      "publisher": "Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/luther/",
+      "source_kind": "scholarly_secondary",
+      "scope": "article sections on life/works, grace, disputations, politics, anti-Jewish writings",
+      "access_status": "OPEN_ARTICLE_SECTION_CHECKED",
+      "rights": "LINK_AND_OWN_SUMMARY_ONLY",
+      "full_text_copied": false,
+      "historic_original_access": false
+    },
+    {
+      "id": "SRC-V04-L-002",
+      "title": "VI.4 The founding event: a university disputation",
+      "publisher": "Oxford Cabinet (University of Oxford)",
+      "url": "https://www.cabinet.ox.ac.uk/vi4-founding-event-university-disputation",
+      "source_kind": "university_exhibition_commentary",
+      "scope": "1517 thesis print, 1617 retrospective image, thesis posting traditions",
+      "access_status": "EXHIBITION_METADATA_CHECKED",
+      "rights": "LINK_AND_OWN_SUMMARY_ONLY",
+      "full_text_copied": false,
+      "historic_original_access": false
+    },
+    {
+      "id": "SRC-V04-L-003",
+      "title": "Martin Luther’s Disputations",
+      "publisher": "Oxford Research Encyclopedia of Religion",
+      "url": "https://academic.oup.com/edited-volume/62249/chapter-abstract/551406642",
+      "source_kind": "academic_abstract",
+      "scope": "disputation genre and scholarly context; not full text",
+      "access_status": "ABSTRACT_ONLY",
+      "rights": "LINK_AND_OWN_SUMMARY_ONLY",
+      "full_text_copied": false,
+      "historic_original_access": false
+    },
+    {
+      "id": "SRC-V04-L-004",
+      "title": "On the Freedom of a Christian (1520)",
+      "publisher": "Project Wittenberg via Concordia Theological Seminary",
+      "url": "https://www.ctsfw.edu/etext/luther/freedom/",
+      "source_kind": "later_primary_translation_and_transcription",
+      "scope": "links to original German and later historical English translation",
+      "access_status": "TRANSLATION_CATALOGUE_NOT_ORIGINAL_CRITICAL_EDIT",
+      "rights": "LINK_AND_OWN_SUMMARY_ONLY",
+      "full_text_copied": false,
+      "historic_original_access": false
+    },
+    {
+      "id": "SRC-V04-L-005",
+      "title": "Address to the Christian Nobility of the German Nation (1520)",
+      "publisher": "German History Intersections / GHI",
+      "url": "https://germanhistory-intersections.org/en/germanness/ghis%3Adocument-253",
+      "source_kind": "historical_primary_in_later_translation",
+      "scope": "excerpt and references to original 1520 print Heidelberg digital edition",
+      "access_status": "PRIMARY_TRANSLATION_EXCERPT_CHECKED",
+      "rights": "LINK_AND_OWN_SUMMARY_ONLY",
+      "full_text_copied": false,
+      "historic_original_access": false
+    },
+    {
+      "id": "SRC-V04-L-006",
+      "title": "Martin Luther's Life, 1517–1525",
+      "publisher": "Oxford Research Encyclopedia of Religion / Christopher Boyd Brown",
+      "url": "https://academic.oup.com/edited-volume/62249/chapter-abstract/551367225?login=false",
+      "source_kind": "academic_abstract",
+      "scope": "1517 to 1525 career, print, New Testament",
+      "access_status": "ABSTRACT_ONLY",
+      "rights": "LINK_AND_OWN_SUMMARY_ONLY",
+      "full_text_copied": false,
+      "historic_original_access": false
+    },
+    {
+      "id": "SRC-V04-L-007",
+      "title": "Luther’s Sendbrief vom Dolmetschen, 1530",
+      "publisher": "Oxford History of the Book",
+      "url": "https://historyofthebook.mml.ox.ac.uk/luthers-sendbrief-vom-dolmetschen-1530/",
+      "source_kind": "university_book_history_commentary",
+      "scope": "1522 September NT, 1534 complete Bible, editorial revisions and translation method",
+      "access_status": "OPEN_ARTICLE_CHECKED",
+      "rights": "LINK_AND_OWN_SUMMARY_ONLY",
+      "full_text_copied": false,
+      "historic_original_access": false
+    },
+    {
+      "id": "SRC-V04-L-008",
+      "title": "The Luther Bible (1534)",
+      "publisher": "German History in Documents and Images",
+      "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/ghdi%3Aimage-5348",
+      "source_kind": "primary_artifact_catalogue",
+      "scope": "1534 title page, collaborators, 1541 revision",
+      "access_status": "ARTIFACT_DESCRIPTION_ONLY_NO_IMAGE_REUSE",
+      "rights": "LINK_AND_OWN_SUMMARY_ONLY",
+      "full_text_copied": false,
+      "historic_original_access": false
+    },
+    {
+      "id": "SRC-V04-L-009",
+      "title": "The Marburg Colloquy—Report by a Lutheran Eyewitness (1529)",
+      "publisher": "German History in Documents and Images",
+      "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/ghdi%3Adocument-4284",
+      "source_kind": "primary_eyewitness_later_translation",
+      "scope": "Osiander's Lutheran-side report; narrative participant bias",
+      "access_status": "ENGLISH_TRANSLATION_EXCERPT_CHECKED",
+      "rights": "LINK_AND_OWN_SUMMARY_ONLY",
+      "full_text_copied": false,
+      "historic_original_access": false
+    },
+    {
+      "id": "SRC-V04-L-010",
+      "title": "The Marburg Colloquy—Ulrich Zwingli’s Report (Oct 20 1529)",
+      "publisher": "German History in Documents and Images",
+      "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/ghdi%3Adocument-4300",
+      "source_kind": "primary_eyewitness_later_translation",
+      "scope": "Zwingli perspective, not neutral consensus transcript",
+      "access_status": "ENGLISH_TRANSLATION_EXCERPT_CHECKED",
+      "rights": "LINK_AND_OWN_SUMMARY_ONLY",
+      "full_text_copied": false,
+      "historic_original_access": false
+    },
+    {
+      "id": "SRC-V04-L-011",
+      "title": "The Marburg Colloquy—The Marburg Articles (1529)",
+      "publisher": "German History in Documents and Images",
+      "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/ghdi%3Adocument-4311",
+      "source_kind": "primary_agreement_later_translation",
+      "scope": "15 articles including recorded disagreement over bodily presence",
+      "access_status": "ENGLISH_TRANSLATION_EXCERPT_CHECKED",
+      "rights": "LINK_AND_OWN_SUMMARY_ONLY",
+      "full_text_copied": false,
+      "historic_original_access": false
+    },
+    {
+      "id": "SRC-V04-L-012",
+      "title": "Against the attacking peasants: digital edition (1525)",
+      "publisher": "Taylor Editions / Bodleian Libraries, Oxford",
+      "url": "https://editions.mml.ox.ac.uk/editions/peasants-erfurt/",
+      "source_kind": "historical_print_digital_edition",
+      "scope": "1525 Erfurt print; TEI transcription; image licensing differs from text",
+      "access_status": "EDITION_DESCRIPTION_CHECKED",
+      "rights": "LINK_AND_OWN_SUMMARY_ONLY",
+      "full_text_copied": false,
+      "historic_original_access": false
+    },
+    {
+      "id": "SRC-V04-L-013",
+      "title": "Luther’s Response, from Luther and the Peasants (2025)",
+      "publisher": "Oxford University Press / Kenneth G. Appold",
+      "url": "https://academic.oup.com/book/59785/chapter-abstract/511062426",
+      "source_kind": "academic_book_chapter_abstract",
+      "scope": "contextual evaluation of Luther pamphlets on Peasants' War; full chapter not read",
+      "access_status": "ABSTRACT_ONLY_NOT_FULL_CHAPTER",
+      "rights": "LINK_AND_OWN_SUMMARY_ONLY",
+      "full_text_copied": false,
+      "historic_original_access": false
+    },
+    {
+      "id": "SRC-V04-L-014",
+      "title": "Antisemitism",
+      "publisher": "United States Holocaust Memorial Museum",
+      "url": "https://encyclopedia.ushmm.org/content/en/article/antisemitism",
+      "source_kind": "museum_education_reference",
+      "scope": "context of Christian anti-Jewish tradition and Luther's 1543 offensive treatise",
+      "access_status": "OPEN_ARTICLE_CHECKED",
+      "rights": "LINK_AND_OWN_SUMMARY_ONLY",
+      "full_text_copied": false,
+      "historic_original_access": false
+    },
+    {
+      "id": "SRC-V04-L-015",
+      "title": "On the Jews and Their Lies, excerpt (1543)",
+      "publisher": "Council of Centers on Jewish-Christian Relations / Dialogika",
+      "url": "https://www.ccjr.us/dialogika-resources/primary-texts-from-the-history-of-the-relationship/luther-1543",
+      "source_kind": "primary_text_in_modern_translation",
+      "scope": "sensitive antisemitic incitement; posthumous English scholarly translation excerpt only",
+      "access_status": "MODERN_TRANSLATION_EXCERPT_NO_QUOTING",
+      "rights": "LINK_AND_OWN_SUMMARY_ONLY",
+      "full_text_copied": false,
+      "historic_original_access": false
+    },
+    {
+      "id": "SRC-V04-L-016",
+      "title": "Martin Luther, Internet Encyclopedia of Philosophy",
+      "publisher": "Internet Encyclopedia of Philosophy",
+      "url": "https://iep.utm.edu/luther/",
+      "source_kind": "academic_encyclopedia",
+      "scope": "historical works and bibliography with WA/LW references",
+      "access_status": "OPEN_ARTICLE_CHECKED",
+      "rights": "LINK_AND_OWN_SUMMARY_ONLY",
+      "full_text_copied": false,
+      "historic_original_access": false
+    },
+    {
+      "id": "SRC-V04-L-017",
+      "title": "Turbulence and the German Peasants' War of 1524–6",
+      "publisher": "History Workshop Journal / Oxford Academic",
+      "url": "https://academic.oup.com/hwj/article/100/1/134/8324539",
+      "source_kind": "academic_article",
+      "scope": "1525 rebellion, struggle over interpretation and Luther's language",
+      "access_status": "OPEN_ARTICLE_EXCERPT_CHECKED",
+      "rights": "LINK_AND_OWN_SUMMARY_ONLY",
+      "full_text_copied": false,
+      "historic_original_access": false
+    }
+  ],
+  "claims": [
+    {
+      "id": "CLM-V04-L-001",
+      "slug": "L-01",
+      "statement_ko": "루터의 95개 논제는 1517년 면벌부와 참회에 관한 대학식 논쟁 제안이며, 인쇄를 통해 빠르게 전파되었다.",
+      "source_ids": [
+        "SRC-V04-L-001",
+        "SRC-V04-L-002",
+        "SRC-V04-L-003"
+      ],
+      "related_ids": [
+        "OV-E-015",
+        "OV-D-008"
+      ],
+      "confidence_level": "supported",
+      "caution_ko": "게시 장소와 세부 방식은 별도",
+      "review_status": "DRAFT_EDITORIAL",
+      "approved": false,
+      "publication_approved": false
+    },
+    {
+      "id": "CLM-V04-L-002",
+      "slug": "L-02",
+      "statement_ko": "1517년 10월 31일 교회문에 직접 못 박았다는 이야기는 후대의 유명한 전승이며 구체적 행위의 사실 여부는 논쟁적이다.",
+      "source_ids": [
+        "SRC-V04-L-001",
+        "SRC-V04-L-002"
+      ],
+      "related_ids": [
+        "OV-E-015"
+      ],
+      "confidence_level": "contested_detail",
+      "caution_ko": "'못 박았다'는 단정 이미지/캡션 금지",
+      "review_status": "DRAFT_EDITORIAL",
+      "approved": false,
+      "publication_approved": false
+    },
+    {
+      "id": "CLM-V04-L-003",
+      "slug": "L-03",
+      "statement_ko": "루터의 1518년 하이델베르크 논쟁은 행위로 획득하는 의와 은총, 십자가의 신학을 둘러싼 해석을 선명히 드러냈다.",
+      "source_ids": [
+        "SRC-V04-L-001",
+        "SRC-V04-L-003"
+      ],
+      "related_ids": [
+        "OV-P-013"
+      ],
+      "confidence_level": "supported_interpretation",
+      "caution_ko": "논제 원문은 WA/LW로 추후 재검증",
+      "review_status": "DRAFT_EDITORIAL",
+      "approved": false,
+      "publication_approved": false
+    },
+    {
+      "id": "CLM-V04-L-004",
+      "slug": "L-04",
+      "statement_ko": "1519년 라이프치히 논쟁과 1520년의 파문 위협은 교황 권위 및 교회와의 충돌이 확대되는 중요한 과정이었다.",
+      "source_ids": [
+        "SRC-V04-L-001",
+        "SRC-V04-L-006"
+      ],
+      "related_ids": [
+        "OV-P-013"
+      ],
+      "confidence_level": "supported",
+      "caution_ko": "1520년 파문 경고와 1521년 파문 실행 구별",
+      "review_status": "DRAFT_EDITORIAL",
+      "approved": false,
+      "publication_approved": false
+    },
+    {
+      "id": "CLM-V04-L-005",
+      "slug": "L-05",
+      "statement_ko": "1520년 루터는 독일 귀족에게 보내는 개혁 요청, 성례 비판, 그리스도인의 자유에 관한 서로 다른 저술을 발표했다.",
+      "source_ids": [
+        "SRC-V04-L-001",
+        "SRC-V04-L-004",
+        "SRC-V04-L-005"
+      ],
+      "related_ids": [
+        "OV-D-009"
+      ],
+      "confidence_level": "supported",
+      "caution_ko": "세 문헌을 동일 제목·목적으로 합치지 않음",
+      "review_status": "DRAFT_EDITORIAL",
+      "approved": false,
+      "publication_approved": false
+    },
+    {
+      "id": "CLM-V04-L-006",
+      "slug": "L-06",
+      "statement_ko": "1521년 보름스 제국의회 이후 루터는 바르트부르크에 머물며 성경 번역에 집중하였다.",
+      "source_ids": [
+        "SRC-V04-L-001",
+        "SRC-V04-L-006"
+      ],
+      "related_ids": [
+        "OV-E-016"
+      ],
+      "confidence_level": "supported",
+      "caution_ko": "전승 속 직접 발언의 문구는 확정 발언으로 인용하지 않음",
+      "review_status": "DRAFT_EDITORIAL",
+      "approved": false,
+      "publication_approved": false
+    },
+    {
+      "id": "CLM-V04-L-007",
+      "slug": "L-07",
+      "statement_ko": "1522년 독일어 신약 번역·출판은 인쇄·재판을 통해 확산했으며 독일어 성경 번역 자체의 최초 사례는 아니다.",
+      "source_ids": [
+        "SRC-V04-L-007",
+        "SRC-V04-L-006"
+      ],
+      "related_ids": [
+        "OV-P-013"
+      ],
+      "confidence_level": "supported",
+      "caution_ko": "독일 최초 번역/혼자 번역이라는 표현 금지",
+      "review_status": "DRAFT_EDITORIAL",
+      "approved": false,
+      "publication_approved": false
+    },
+    {
+      "id": "CLM-V04-L-008",
+      "slug": "L-08",
+      "statement_ko": "1534년 완역 성경은 루터의 이름으로 출판됐으나 멜란히톤 등 협력자들이 번역에 참여했고 이후에도 수정됐다.",
+      "source_ids": [
+        "SRC-V04-L-007",
+        "SRC-V04-L-008"
+      ],
+      "related_ids": [
+        "OV-P-013",
+        "OV-P-014"
+      ],
+      "confidence_level": "supported",
+      "caution_ko": "후속 판본과 1534 초판 구분",
+      "review_status": "DRAFT_EDITORIAL",
+      "approved": false,
+      "publication_approved": false
+    },
+    {
+      "id": "CLM-V04-L-009",
+      "slug": "L-09",
+      "statement_ko": "1525년 농민전쟁 과정에서 루터는 농민 봉기에 매우 폭력적인 진압을 정당화하는 글을 발표하였다.",
+      "source_ids": [
+        "SRC-V04-L-012",
+        "SRC-V04-L-013",
+        "SRC-V04-L-017"
+      ],
+      "related_ids": [
+        "OV-P-013"
+      ],
+      "confidence_level": "supported",
+      "caution_ko": "원문 증오 표현을 선정적으로 인용하지 않음",
+      "review_status": "DRAFT_EDITORIAL",
+      "approved": false,
+      "publication_approved": false
+    },
+    {
+      "id": "CLM-V04-L-010",
+      "slug": "L-10",
+      "statement_ko": "1529년 마르부르크 회담에서 루터와 츠빙글리 측은 성찬에서 그리스도의 현존 문제를 두고 완전한 일치에 이르지 못했다.",
+      "source_ids": [
+        "SRC-V04-L-009",
+        "SRC-V04-L-010",
+        "SRC-V04-L-011"
+      ],
+      "related_ids": [
+        "OV-E-018",
+        "OV-P-013",
+        "OV-P-015"
+      ],
+      "confidence_level": "supported",
+      "caution_ko": "루터를 단순 기념설 지지자로 기재 금지",
+      "review_status": "DRAFT_EDITORIAL",
+      "approved": false,
+      "publication_approved": false
+    },
+    {
+      "id": "CLM-V04-L-011",
+      "slug": "L-11",
+      "statement_ko": "마르부르크 조항의 제15항은 성찬에 관한 남은 차이와 상호 신앙적 태도에 대한 합의 범위를 기록한다.",
+      "source_ids": [
+        "SRC-V04-L-011"
+      ],
+      "related_ids": [
+        "OV-E-018"
+      ],
+      "confidence_level": "primary_translation_checked",
+      "caution_ko": "완전 합의/결정적 연합으로 단정 금지",
+      "review_status": "DRAFT_EDITORIAL",
+      "approved": false,
+      "publication_approved": false
+    },
+    {
+      "id": "CLM-V04-L-012",
+      "slug": "L-12",
+      "statement_ko": "1529년 마르부르크 회담에 관한 루터파 목격자 보고와 츠빙글리의 보고는 각기 다른 당사자 관점을 반영하므로 함께 읽어야 한다.",
+      "source_ids": [
+        "SRC-V04-L-009",
+        "SRC-V04-L-010"
+      ],
+      "related_ids": [
+        "OV-E-018"
+      ],
+      "confidence_level": "methodological",
+      "caution_ko": "당파적 당대 증언을 중립 속기로 설명하지 않음",
+      "review_status": "DRAFT_EDITORIAL",
+      "approved": false,
+      "publication_approved": false
+    },
+    {
+      "id": "CLM-V04-L-013",
+      "slug": "L-13",
+      "statement_ko": "1530년 아우크스부르크 신앙고백의 작성에는 멜란히톤의 역할이 중요하며 루터 개인 저작으로 환원할 수 없다.",
+      "source_ids": [
+        "SRC-V04-L-001",
+        "SRC-V04-L-016"
+      ],
+      "related_ids": [
+        "OV-E-019",
+        "OV-D-011",
+        "OV-P-014"
+      ],
+      "confidence_level": "supported_synthesis",
+      "caution_ko": "루터파 공개 문헌과 개인 사상 구분",
+      "review_status": "DRAFT_EDITORIAL",
+      "approved": false,
+      "publication_approved": false
+    },
+    {
+      "id": "CLM-V04-L-014",
+      "slug": "L-14",
+      "statement_ko": "루터의 신학적 중심 쟁점에는 은총·믿음과 의롭다 하심, 성경 권위, 자유·의지, 성례, 정치적 권위가 포함된다.",
+      "source_ids": [
+        "SRC-V04-L-001",
+        "SRC-V04-L-016"
+      ],
+      "related_ids": [
+        "OV-P-013"
+      ],
+      "confidence_level": "synthesis",
+      "caution_ko": "교단별 전승과 시대별 루터 자신의 변화 구분",
+      "review_status": "DRAFT_EDITORIAL",
+      "approved": false,
+      "publication_approved": false
+    },
+    {
+      "id": "CLM-V04-L-015",
+      "slug": "L-15",
+      "statement_ko": "루터의 1543년 반유대주의 저술은 유대인에 대한 비방과 강압·폭력을 정당화하는 제안을 포함하며 비판적 맥락을 반드시 함께 제시해야 한다.",
+      "source_ids": [
+        "SRC-V04-L-014",
+        "SRC-V04-L-015"
+      ],
+      "related_ids": [
+        "OV-P-013"
+      ],
+      "confidence_level": "supported_sensitive",
+      "caution_ko": "반유대 선동 구절의 재현·미화 금지",
+      "review_status": "DRAFT_EDITORIAL",
+      "approved": false,
+      "publication_approved": false
+    },
+    {
+      "id": "CLM-V04-L-016",
+      "slug": "L-16",
+      "statement_ko": "위클리프·후스·루터는 세기와 문헌 수용으로 연결되지만 직접 동일 교리·직계 사제관계로 단순화할 수 없다.",
+      "source_ids": [
+        "SRC-V04-L-001",
+        "SRC-V04-L-016"
+      ],
+      "related_ids": [
+        "OV-P-013",
+        "OV-P-010",
+        "OV-P-009"
+      ],
+      "confidence_level": "interpretive_pending_comparative_study",
+      "caution_ko": "상호 문헌 전승은 VOL03 심층 증거와 교차 재검토",
+      "review_status": "DRAFT_EDITORIAL",
+      "approved": false,
+      "publication_approved": false
+    }
+  ],
+  "timeline": [
+    {
+      "id": "DEEP-V04-E-001",
+      "date_label": "1517",
+      "year_start": 1517,
+      "date_precision": "year",
+      "title_ko": "95개 논제",
+      "summary_ko": "면벌부와 참회 논의가 학문적 논제·인쇄 유통을 거쳐 교회 권위 논쟁으로 확산",
+      "claim_id": "CLM-V04-L-001",
+      "review_status": "DRAFT",
+      "public_visible": false
+    },
+    {
+      "id": "DEEP-V04-E-002",
+      "date_label": "1518",
+      "year_start": 1518,
+      "date_precision": "year",
+      "title_ko": "하이델베르크 논쟁",
+      "summary_ko": "십자가 신학, 은총과 행위의 관계를 둘러싼 논제가 제시됨",
+      "claim_id": "CLM-V04-L-003",
+      "review_status": "DRAFT",
+      "public_visible": false
+    },
+    {
+      "id": "DEEP-V04-E-003",
+      "date_label": "1519",
+      "year_start": 1519,
+      "date_precision": "year",
+      "title_ko": "라이프치히 논쟁",
+      "summary_ko": "교황권과 전통의 권위가 주요 쟁점으로 부각",
+      "claim_id": "CLM-V04-L-004",
+      "review_status": "DRAFT",
+      "public_visible": false
+    },
+    {
+      "id": "DEEP-V04-E-004",
+      "date_label": "1520",
+      "year_start": 1520,
+      "date_precision": "year",
+      "title_ko": "세 가지 주요 저술",
+      "summary_ko": "귀족에게 보내는 글·성례론·그리스도인의 자유를 구분",
+      "claim_id": "CLM-V04-L-005",
+      "review_status": "DRAFT",
+      "public_visible": false
+    },
+    {
+      "id": "DEEP-V04-E-005",
+      "date_label": "1521",
+      "year_start": 1521,
+      "date_precision": "year",
+      "title_ko": "보름스 제국의회",
+      "summary_ko": "제국·교회 권위와의 논쟁, 뒤이은 바르트부르크 체류",
+      "claim_id": "CLM-V04-L-006",
+      "review_status": "DRAFT",
+      "public_visible": false
+    },
+    {
+      "id": "DEEP-V04-E-006",
+      "date_label": "1522",
+      "year_start": 1522,
+      "date_precision": "year",
+      "title_ko": "독일어 신약성경",
+      "summary_ko": "Septembertestament 출판, 인쇄·번역·공동체 교육의 전환",
+      "claim_id": "CLM-V04-L-007",
+      "review_status": "DRAFT",
+      "public_visible": false
+    },
+    {
+      "id": "DEEP-V04-E-007",
+      "date_label": "1525",
+      "year_start": 1525,
+      "date_precision": "year",
+      "title_ko": "농민전쟁에 대한 대응",
+      "summary_ko": "폭력적 진압 지지 문헌을 비판적 관점에서 검토",
+      "claim_id": "CLM-V04-L-009",
+      "review_status": "DRAFT",
+      "public_visible": false
+    },
+    {
+      "id": "DEEP-V04-E-008",
+      "date_label": "1529",
+      "year_start": 1529,
+      "date_precision": "year",
+      "title_ko": "마르부르크 성찬 회담",
+      "summary_ko": "일부 신앙 일치와 성찬 현존에 관한 핵심 불일치 병존",
+      "claim_id": "CLM-V04-L-010",
+      "review_status": "DRAFT",
+      "public_visible": false
+    },
+    {
+      "id": "DEEP-V04-E-009",
+      "date_label": "1530",
+      "year_start": 1530,
+      "date_precision": "year",
+      "title_ko": "아우크스부르크 신앙고백",
+      "summary_ko": "멜란히톤 중심의 루터파 공적 신앙 정리",
+      "claim_id": "CLM-V04-L-013",
+      "review_status": "DRAFT",
+      "public_visible": false
+    },
+    {
+      "id": "DEEP-V04-E-010",
+      "date_label": "1534",
+      "year_start": 1534,
+      "date_precision": "year",
+      "title_ko": "독일어 성경 완역 출판",
+      "summary_ko": "협업 번역 및 후속 수정판 구분",
+      "claim_id": "CLM-V04-L-008",
+      "review_status": "DRAFT",
+      "public_visible": false
+    },
+    {
+      "id": "DEEP-V04-E-011",
+      "date_label": "1543",
+      "year_start": 1543,
+      "date_precision": "year",
+      "title_ko": "반유대주의 논박 저술",
+      "summary_ko": "폭력적 혐오 표현과 역사적 영향에 관한 비판적 설명 필수",
+      "claim_id": "CLM-V04-L-015",
+      "review_status": "DRAFT",
+      "public_visible": false
+    }
+  ],
+  "public_release": {
+    "approved": false,
+    "can_ship": false,
+    "media_approved": false,
+    "full_text_copied": false
+  },
+  "media_policy": {
+    "images": [],
+    "map_pins": [],
+    "unverified_pins_forbidden": true
+  },
+  "citations_policy": "Use each claim source_ids; primary originals vs translated excerpts vs abstracts flagged. Do not claim complete critical-edition comparison.",
+  "ui_handoff": {
+    "no_web_push": true,
+    "pending_source_review": true,
+    "can_attach_to_existing_url_after_editorial_approval": true,
+    "route_intent": "/people/OV-P-013",
+    "do_not_create_duplicate_person": true
+  }
+}
