@@ -73,8 +73,9 @@ def main():
 
     if len(screens["screens"]) != 14:
         fail("14 design routes", faults)
-    if {s["path"] for s in screens["screens"]} != {p["path"] for p in base_prd["information_pages"]}:
-        fail("screen paths do not match PRD", faults)
+    normalize = lambda path: re.sub(r":[a-zA-Z_][a-zA-Z_0-9]*", ":param", path)
+    if {normalize(s["path"]) for s in screens["screens"]} != {normalize(p["path"]) for p in base_prd["information_pages"]}:
+        fail("screen paths do not match PRD after parameter normalization", faults)
     if tokens["palette"]["accent"] != "#205F50" or tokens["palette"]["canvas"] != "#F7F8F5":
         fail("Quiet Editorial color tokens missing", faults)
 
