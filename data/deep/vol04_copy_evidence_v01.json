@@ -1,0 +1,89 @@
+{
+  "schema_version": "0.1",
+  "date": "2026-10-25",
+  "status": "CATALOG_AND_EXHIBITION_EVIDENCE_ONLY",
+  "publication_approved": false,
+  "full_text_collation_completed": false,
+  "review_targets": [
+    {
+      "split_key": "EDN-PROP-V04-002-S01",
+      "evidence": [
+        {
+          "institution": "Bridwell Library Special Collections",
+          "holding": "BRA2651/A-B",
+          "url": "https://bridwell.omeka.net/exhibits/show/luther/controversies/augsburgconfession",
+          "finding": "1531 Wittenberg Georg Rhaw printing; Latin Augsburg Confession with Latin Apology; contemporary binding includes German publication",
+          "limit": "Binding and catalog description do not demonstrate the precise relationship between 1530 submitted drafts and 1531 printed wording."
+        }
+      ]
+    },
+    {
+      "split_key": "EDN-PROP-V04-002-S02",
+      "evidence": [
+        {
+          "institution": "Bridwell Library Special Collections",
+          "holding": "BRA2651/A-B",
+          "url": "https://bridwell.omeka.net/exhibits/show/luther/item/1003",
+          "finding": "German Augsburg Confession and Justus Jonas translation of Apology appear as distinct texts within the historical bound volume",
+          "limit": "Do not infer identical pagination or production sequence from binding."
+        },
+        {
+          "institution": "Gruber Rare Books Collection",
+          "holding": "Gruber 7",
+          "url": "https://gruber.lstc.edu/confessions/augs_apol.php",
+          "finding": "German edition colophon dated November 1531; Jonas translated Latin Apology into German.",
+          "limit": "Individual exemplars and imprints require separate copy-level confirmation."
+        }
+      ]
+    },
+    {
+      "split_key": "DOC-PROP-V04-010-S02",
+      "evidence": [
+        {
+          "institution": "Gruber Rare Books Collection",
+          "holding": "Gruber 7",
+          "url": "https://gruber.lstc.edu/confessions/augs_apol.php",
+          "finding": "German translation of Apology by Justus Jonas recorded in 1531 print.",
+          "limit": "Exact Latin source printing for translation has not been collated."
+        }
+      ]
+    },
+    {
+      "split_key": "DOC-PROP-V04-008-S02",
+      "evidence": [
+        {
+          "institution": "Bridwell Library Special Collections",
+          "holding": "BRA0930",
+          "url": "https://bridwell.omeka.net/exhibits/show/luther/lutherbibles/dezembertestament",
+          "finding": "December Testament, Wittenberg, Melchior Lotter the Younger, 1522; altered Revelation 17–18 woodcut omits papal triple tiara present in September edition.",
+          "limit": "Exhibition description, not an independent line-by-line physical collation."
+        },
+        {
+          "institution": "Morgan Library & Museum exhibition",
+          "holding": "Exhibited December Testament held by Luther Memorials Foundation of Saxony-Anhalt",
+          "url": "https://www.themorgan.org/exhibitions/online/word-and-image/7",
+          "finding": "September and December 1522 editions are distinct; Morgan labels December printing by Melchior Lotter the Younger.",
+          "limit": "Exhibition display is not permission to reproduce its images."
+        }
+      ]
+    },
+    {
+      "split_key": "DOC-PROP-V04-008-S01",
+      "evidence": [
+        {
+          "institution": "Morgan Library & Museum",
+          "holding": "Heineman 741",
+          "url": "https://www.themorgan.org/printed-books/145785",
+          "finding": "Catalog item is a 1918 Berlin edition based on Luther's September Testament.",
+          "limit": "1918 object MUST NOT be identified as an extant 1522 printed exemplar."
+        }
+      ]
+    }
+  ],
+  "remaining": [
+    "Find verified actual September 1522 exemplar shelfmark and compare impression evidence.",
+    "Independently identify German and Latin 1530 submitted manuscript witness descriptions.",
+    "Check first-hand page-level variant readings in 1522 September/December and 1531 Augsburg witnesses.",
+    "Seek human editorial and rights approval before assigning canonical or displaying scans."
+  ]
+}
