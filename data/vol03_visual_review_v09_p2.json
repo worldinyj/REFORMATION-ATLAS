@@ -1,0 +1,149 @@
+{
+  "schema_version": "0.1",
+  "volume": "VOL-03",
+  "review_batch": "V0.9-P2",
+  "date": "2026-10-25",
+  "status": "DRAFT",
+  "basis": "6 actual WebP images visually inspected using a contact sheet; 4 map PNG previews visually inspected; filename/ID mapping from existing repository stage and asset manifest.",
+  "rights_note": "Original AI imagery staged outside GitHub; not verified contemporary portraits or documentary photographs. Maps are project-authored editable SVGs.",
+  "binary_state": "PENDING_LOCAL_INSTALL",
+  "original_image_zip": "REFORMATION_ATLAS_VOL03_ILLUSTRATIONS_V01.zip",
+  "original_image_zip_sha256": "571d80c7ee3f0722bc07c76e5760aeac2795d67c4bc96d000d699bda65ac35a3",
+  "local_zip_crc_pass": true,
+  "webp_sha256_verified": true,
+  "reviewed_visuals": [
+    {
+      "id": "PRT-V03-01",
+      "name_ko": "발도·왈도파 시작",
+      "kind": "ai_portrait",
+      "risk": "HIGH",
+      "decision": "REVISE_BEFORE_PUBLICATION",
+      "issue_ko": "리옹 배경의 대형 고딕 성당·도시 조망은 12세기 실경임을 입증하지 못함. 실제 발도 얼굴·복장 미상. 성직자처럼 보이는 옷차림이 평신도 운동의 성격을 오인시킬 수 있음.",
+      "action_ko": "사람 얼굴은 명시적 재현으로만 유지. 건축물 제거 또는 비식별 거리 배경으로 재제작. '발도/발데스' 표기 사용, 'Peter' 생전 호칭 단정 금지.",
+      "safe_alt_ko": "성경책을 든 중세 설교자를 상상해 그린 현대 AI 이미지. 발도의 실제 외모와 리옹 12세기 건물은 복원하지 않았다.",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "PRT-V03-02",
+      "name_ko": "존 위클리프",
+      "kind": "ai_portrait",
+      "risk": "HIGH",
+      "decision": "REVISE_BEFORE_PUBLICATION",
+      "issue_ko": "창 밖의 옥스퍼드 대형 탑·대학 건물은 후기 건립 가능성을 배제하지 못함. 복식·학자모·얼굴은 생전 초상 아님. 필사본 독서 장면은 교육 모티브.",
+      "action_ko": "확인 가능한 14세기 건축 없이 석재 벽/필사본 위주의 중립 실내로 수정. 창 밖 특정 건물 명칭을 캡션에 부여하지 않음.",
+      "safe_alt_ko": "필사본을 연구하는 위클리프를 상상한 역사 재현 이미지. 당시 대학 실내와 얼굴은 역사적으로 검증되지 않았다.",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "PRT-V03-03",
+      "name_ko": "얀 후스",
+      "kind": "ai_portrait",
+      "risk": "MEDIUM",
+      "decision": "CONCEPTUAL_ONLY_PENDING_REVIEW",
+      "issue_ko": "검은 학자모·수염은 후대 도상과 유사하지만 생전 모습임을 입증하지 못함. 설교대와 고딕 창문의 구체적 예배당 위치 불명.",
+      "action_ko": "실제 초상 아님 캡션을 눈에 띄게 유지하고 특정 교회 실내로 단정하지 말 것. 배경을 중립화한 후보 제작.",
+      "safe_alt_ko": "프라하에서 설교한 얀 후스의 활동을 상상해 그린 장면. 얼굴·복식은 생전 모습으로 확인되지 않았다.",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "PRT-V03-04",
+      "name_ko": "얀 지슈카",
+      "kind": "ai_portrait",
+      "risk": "HIGH",
+      "decision": "REVISE_BEFORE_PUBLICATION",
+      "issue_ko": "붕대의 위치 및 눈 부상의 실제 방향이 학술적으로 확정되지 않음. 회화적 갑옷·폐허·도시 전경은 특정 전투를 고증한 것 아님.",
+      "action_ko": "눈 붕대의 좌우 또는 상처 위치를 역사 사실처럼 보이지 않게 처리. 무기·갑옷·도시·전투 날짜를 캡션에서 분리.",
+      "safe_alt_ko": "후스파 군사 지휘자 얀 지슈카를 상상한 역사 이미지. 눈 부상의 모습과 전투 현장은 고증되지 않았다.",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "ILL-V03-01",
+      "name_ko": "후스의 프라하 설교",
+      "kind": "ai_scene",
+      "risk": "HIGH",
+      "decision": "CONCEPTUAL_ONLY_PENDING_REVIEW",
+      "issue_ko": "높고 장식적인 고딕 창문과 설교대·십자가·좌석·청중 배치를 베들레헴 예배당 1402년 실측 내부로 볼 수 없음. 배경에 현대 복원 상태가 섞였는지도 불확실.",
+      "action_ko": "베들레헴 예배당의 역사적 내부 복원이라고 표시하지 말고 '프라하 설교 장면의 상상 재현'으로 표기. 건축 고증 자료 입수 후 배경 후보 재제작.",
+      "safe_alt_ko": "중세 프라하 설교와 청중을 묘사한 AI 상상 삽화. 베들레헴 예배당의 실제 당시 실내는 아니다.",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "ILL-V03-02",
+      "name_ko": "바젤·보헤미아 협상",
+      "kind": "ai_scene",
+      "risk": "HIGH",
+      "decision": "REVISE_BEFORE_PUBLICATION",
+      "issue_ko": "붉은 예복을 입은 인물·협상석·회의장·상징 조명은 특정 1433년 회의를 복원한 것이 아님. 1433의 문안 합의/1436 이흘라바 선포/1437 후속 교령을 한 장면으로 합치면 역사 왜곡.",
+      "action_ko": "중립적인 토론 장면으로 수정하거나 개념 삽화임을 캡션에 표시. 특정 참가자 이름·장소·일시 단정 금지.",
+      "safe_alt_ko": "15세기 공의회 및 보헤미아 대표들의 협상 분위기를 상상한 AI 이미지. 특정 회의·참석자를 정확히 재현하지 않았다.",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "MAP-V03-01",
+      "name_ko": "리옹과 앙그로냐",
+      "kind": "editable_svg_map",
+      "risk": "MEDIUM",
+      "decision": "EDUCATIONAL_SCHEMATIC_ONLY",
+      "issue_ko": "1170년대 리옹과 1532년 앙그로냐는 서로 시대가 크게 다름. 현대 도시 중심 좌표를 운동의 당대 시작점이나 실제 회합 위치로 오독할 위험.",
+      "action_ko": "12세기와 16세기 사건을 구획하여 시대층 표기; 중세 국경·이동 복원 아님을 지도 바로 아래 표기.",
+      "safe_alt_ko": "현대 도시 대표 좌표에 표시한 리옹과 앙그로냐의 시대별 개념 비교 지도.",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "MAP-V03-02",
+      "name_ko": "옥스퍼드·프라하 문헌 영향",
+      "kind": "editable_svg_map",
+      "risk": "HIGH",
+      "decision": "EDUCATIONAL_SCHEMATIC_ONLY",
+      "issue_ko": "옥스퍼드–프라하 점선은 위클리프 본인의 여행 경로도 후스의 직접 사제 관계도 아니다. 1415 콘스탄츠 사건과 책의 전파를 혼합하기 쉬움.",
+      "action_ko": "점선에 '저술 영향(이동 경로 아님)' 라벨, 역사 사건 도시 마커와 문헌 영향선을 다른 범례로 분리.",
+      "safe_alt_ko": "옥스퍼드에서 프라하로의 저술 수용을 개념적 점선으로 나타내고 콘스탄츠를 별도 사건으로 표시한 현대 좌표도.",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "MAP-V03-03",
+      "name_ko": "보헤미아 도시와 후스파 역사",
+      "kind": "editable_svg_map",
+      "risk": "MEDIUM",
+      "decision": "EDUCATIONAL_SCHEMATIC_ONLY",
+      "issue_ko": "리파니 전투 인근 현대 좌표는 병력 배치·전장 범위가 아니며 1414~1436의 여러 사건이 동시에 발생했다고 오해할 수 있음.",
+      "action_ko": "사건 연도별 개별 마커 범례 유지, 리파니 위치는 '전장 인근 대표점'으로 표시, 정밀 전투 지도는 별도 증거 수집.",
+      "safe_alt_ko": "프라하·타보르·쿠트나호라·리파니 인근·이흘라바를 현대 좌표에 표시한 후스파 사건 위치도.",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "MAP-V03-04",
+      "name_ko": "왈도파·개혁파 교류망",
+      "kind": "editable_svg_map",
+      "risk": "HIGH",
+      "decision": "EDUCATIONAL_SCHEMATIC_ONLY",
+      "issue_ko": "앙그로냐와 스위스·알자스 도시를 잇는 점선은 문헌·신학적 교류 관계를 시각화할 뿐 실제 사절 이동의 순서·방문 여부를 입증하지 않음.",
+      "action_ko": "모든 연결에 '개념적 교류(검증된 여행로 아님)' 범례 추가, 문헌별 확인 수준과 시기층을 분리.",
+      "safe_alt_ko": "1530~1532년 왈도파와 개혁자 교류를 도시 위치와 개념적 연결선으로 나타낸 도식.",
+      "review_status": "DRAFT"
+    }
+  ],
+  "summary": {
+    "total": 10,
+    "portraits": 4,
+    "scenes": 2,
+    "maps": 4,
+    "high_risk": 7,
+    "medium_risk": 3,
+    "source_editable_svg_maps": 4,
+    "staged_binary_illustrations": 6,
+    "publication_approved": 0
+  },
+  "publication_gate": {
+    "approved": false,
+    "can_ship": false,
+    "requires_human_acceptance": true
+  },
+  "required_next_qa": [
+    "Historical architectural references per asset",
+    "Full origin-based historiographic review",
+    "Human-approved replacement images where necessary",
+    "Map legend wording",
+    "No publishing until binary provenance and copyright gate"
+  ]
+}
