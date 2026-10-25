@@ -1,0 +1,263 @@
+{
+  "schema_version": "0.1",
+  "volume": "VOL-03",
+  "status": "DRAFT",
+  "created_on": "2026-10-25",
+  "disclaimer_ko": "쟁점 비교와 인과관계의 일부는 해석이다. 지지 출처와 교단별 관점을 분리하며 자동 승인하지 않는다.",
+  "axes": [
+    {
+      "axis_id": "AX-V03-01",
+      "label_ko": "성경과 신앙의 규범",
+      "subject_ids": [
+        "PER-0001",
+        "PER-0002",
+        "MOV-0003"
+      ],
+      "sources": [
+        "V03-S05",
+        "V03-S09",
+        "V03-S36"
+      ],
+      "uncertainty": "interpretation_varies",
+      "website_view": "theology_comparison"
+    },
+    {
+      "axis_id": "AX-V03-02",
+      "label_ko": "공적 설교의 권한",
+      "subject_ids": [
+        "MOV-0001",
+        "PER-0002",
+        "MOV-0003"
+      ],
+      "sources": [
+        "V03-S41",
+        "V03-S32",
+        "V03-S37"
+      ],
+      "uncertainty": "document_specific",
+      "website_view": "authority"
+    },
+    {
+      "axis_id": "AX-V03-03",
+      "label_ko": "교회론과 그리스도의 머리됨",
+      "subject_ids": [
+        "PER-0001",
+        "PER-0002"
+      ],
+      "sources": [
+        "V03-S31",
+        "V03-S36"
+      ],
+      "uncertainty": "translation_only_for_hus",
+      "website_view": "ecclesiology"
+    },
+    {
+      "axis_id": "AX-V03-04",
+      "label_ko": "재산과 세속 지배권",
+      "subject_ids": [
+        "MOV-0001",
+        "PER-0001",
+        "MOV-0003"
+      ],
+      "sources": [
+        "V03-S05",
+        "V03-S32",
+        "V03-S41"
+      ],
+      "uncertainty": "regional_and_period_variation",
+      "website_view": "church_state"
+    },
+    {
+      "axis_id": "AX-V03-05",
+      "label_ko": "성찬 실체·현존",
+      "subject_ids": [
+        "PER-0001",
+        "PER-0002",
+        "PER-0006"
+      ],
+      "sources": [
+        "V03-S19",
+        "V03-S21",
+        "V03-S38"
+      ],
+      "uncertainty": "unread_primary_latin_for_hus",
+      "website_view": "sacraments"
+    },
+    {
+      "axis_id": "AX-V03-06",
+      "label_ko": "성찬 수령과 양형성찬",
+      "subject_ids": [
+        "PER-0002",
+        "PER-0006",
+        "MOV-0003"
+      ],
+      "sources": [
+        "V03-S13",
+        "V03-S32",
+        "V03-S38"
+      ],
+      "uncertainty": "multiple_factions",
+      "website_view": "sacraments"
+    },
+    {
+      "axis_id": "AX-V03-07",
+      "label_ko": "폭력·공권력·종교적 공존",
+      "subject_ids": [
+        "MOV-0003",
+        "MOV-0004"
+      ],
+      "sources": [
+        "V03-S35",
+        "V03-S39",
+        "V03-S43"
+      ],
+      "uncertainty": "legitimacy_contested",
+      "website_view": "political_history"
+    }
+  ],
+  "cases": [
+    {
+      "id": "CASE-V03-01",
+      "label_ko": "리옹의 초기 왈도파",
+      "period_label": "1170~1184",
+      "event_ids": [
+        "EVT-0005",
+        "EVT-0006"
+      ],
+      "actors": [
+        "PER-0004",
+        "MOV-0001"
+      ],
+      "causal_factors": [
+        "voluntary_apostolic_poverty",
+        "preaching_license_rules",
+        "continued_lay_preaching"
+      ],
+      "outcomes": [
+        "conflict_with_ecclesiastical_authority",
+        "separate_movement_history"
+      ],
+      "source_ids": [
+        "V03-S41",
+        "V03-S02"
+      ],
+      "interpretation_status": "DRAFT"
+    },
+    {
+      "id": "CASE-V03-02",
+      "label_ko": "옥스퍼드 학술 논쟁의 프라하 수용",
+      "period_label": "14~15세기",
+      "event_ids": [
+        "EVT-0007",
+        "EVT-0008"
+      ],
+      "actors": [
+        "PER-0001",
+        "PER-0002",
+        "PER-0005"
+      ],
+      "causal_factors": [
+        "university_exchange",
+        "manuscript_transmission",
+        "local_reinterpretation"
+      ],
+      "outcomes": [
+        "bohemian_ecclesiology_discussions"
+      ],
+      "source_ids": [
+        "V03-S05",
+        "V03-S09"
+      ],
+      "interpretation_status": "DRAFT"
+    },
+    {
+      "id": "CASE-V03-03",
+      "label_ko": "프라하 면벌부 논쟁과 후스의 처형",
+      "period_label": "1412~1415",
+      "event_ids": [
+        "EVT-0009",
+        "EVT-0002"
+      ],
+      "actors": [
+        "PER-0002"
+      ],
+      "causal_factors": [
+        "western_schism",
+        "indulgence_dispute",
+        "church_and_political_authorities"
+      ],
+      "outcomes": [
+        "hus_trial_execution",
+        "later_hussite_memory"
+      ],
+      "source_ids": [
+        "V03-S37",
+        "V03-S10"
+      ],
+      "interpretation_status": "DRAFT"
+    },
+    {
+      "id": "CASE-V03-04",
+      "label_ko": "후스파 분화와 콤팍타타",
+      "period_label": "1419~1437",
+      "event_ids": [
+        "EVT-0012",
+        "EVT-0013",
+        "EVT-0014",
+        "EVT-0015",
+        "EVT-0019",
+        "EVT-0016",
+        "EVT-0020"
+      ],
+      "actors": [
+        "MOV-0003",
+        "PER-0007"
+      ],
+      "causal_factors": [
+        "political_vacuum",
+        "shared_four_articles",
+        "factional_disagreement",
+        "external_military_pressure",
+        "diplomatic_negotiations"
+      ],
+      "outcomes": [
+        "lipany_military_realignment",
+        "limited_religious_compromise",
+        "ongoing_legal_interpretation_conflicts"
+      ],
+      "source_ids": [
+        "V03-S35",
+        "V03-S39",
+        "V03-S43"
+      ],
+      "interpretation_status": "DRAFT"
+    },
+    {
+      "id": "CASE-V03-05",
+      "label_ko": "왈도파와 개혁파의 장기 접촉",
+      "period_label": "1530~1559",
+      "event_ids": [
+        "EVT-0018"
+      ],
+      "actors": [
+        "MOV-0001"
+      ],
+      "causal_factors": [
+        "reformer_correspondence",
+        "internal_discussion",
+        "local_institutional_change"
+      ],
+      "outcomes": [
+        "growing_reformed_links",
+        "later_chanforan_commemoration"
+      ],
+      "source_ids": [
+        "V03-S26",
+        "V03-S27",
+        "V03-S42"
+      ],
+      "interpretation_status": "DRAFT"
+    }
+  ],
+  "reader_rule_ko": "인과관계 요인은 연구에 근거한 분석항목이다. 사건별 사실과 같은 수준의 확정 기록으로 표시하지 않는다."
+}
