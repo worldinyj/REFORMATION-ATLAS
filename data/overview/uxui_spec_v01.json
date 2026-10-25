@@ -1,0 +1,239 @@
+{
+  "schema_version": "0.1",
+  "milestone": "S4_UXUI_DRAFT",
+  "created": "2026-10-25",
+  "status": "DRAFT",
+  "publication_gate": {
+    "approved": false,
+    "can_ship": false
+  },
+  "source_prd": "docs/03_PRODUCT/ATLAS_PRD_V01.md",
+  "source_trd": "docs/03_PRODUCT/ATLAS_TRD_V01.md",
+  "site_sections": [
+    {
+      "key": "home",
+      "label": "홈",
+      "root": "/"
+    },
+    {
+      "key": "volumes",
+      "label": "8권 탐색",
+      "root": "/volumes",
+      "children": [
+        "/volumes/:volumeId"
+      ]
+    },
+    {
+      "key": "people",
+      "label": "인물",
+      "root": "/people",
+      "children": [
+        "/people/:personId"
+      ]
+    },
+    {
+      "key": "timeline",
+      "label": "연대표",
+      "root": "/timeline",
+      "children": [
+        "/events/:eventId"
+      ]
+    },
+    {
+      "key": "documents",
+      "label": "문헌",
+      "root": "/documents",
+      "children": [
+        "/documents/:documentId"
+      ]
+    },
+    {
+      "key": "topics",
+      "label": "사상·주제",
+      "root": "/topics",
+      "children": [
+        "/topics/:topicId"
+      ]
+    },
+    {
+      "key": "places",
+      "label": "역사 장소",
+      "root": "/places"
+    },
+    {
+      "key": "search",
+      "label": "검색",
+      "root": "/search"
+    },
+    {
+      "key": "about",
+      "label": "자료 안내",
+      "root": "/about"
+    }
+  ],
+  "responsive_breakpoints": {
+    "mobile_min": "320px",
+    "mobile_max": "767px",
+    "tablet_min": "768px",
+    "desktop_min": "1024px",
+    "manual_test_widths": [
+      320,
+      390,
+      768,
+      1024,
+      1440
+    ]
+  },
+  "core_templates": [
+    "home",
+    "volume-list",
+    "volume-detail",
+    "entity-list",
+    "person-detail",
+    "timeline",
+    "event-detail",
+    "document-detail",
+    "topic-detail",
+    "places-list",
+    "search",
+    "about"
+  ],
+  "component_contract": [
+    {
+      "id": "CMP-01",
+      "name": "SiteHeader",
+      "role": "전역 내비게이션·검색 바로가기",
+      "prio": "P0"
+    },
+    {
+      "id": "CMP-02",
+      "name": "VolumeCard",
+      "role": "권/시대/주제 소개·권 상세 이동",
+      "prio": "P0"
+    },
+    {
+      "id": "CMP-03",
+      "name": "EntityCard",
+      "role": "인물·사건·문헌 요약 및 출처 개수",
+      "prio": "P0"
+    },
+    {
+      "id": "CMP-04",
+      "name": "EvidencePanel",
+      "role": "자료 출처/서지/근거 접근 수준",
+      "prio": "P0"
+    },
+    {
+      "id": "CMP-05",
+      "name": "ResearchStatus",
+      "role": "개요/심층/검증 대기와 이미지 상상 고지",
+      "prio": "P0"
+    },
+    {
+      "id": "CMP-06",
+      "name": "RelatedItems",
+      "role": "타입이 있는 인물/사건/문헌 연결",
+      "prio": "P0"
+    },
+    {
+      "id": "CMP-07",
+      "name": "TimelineEntry",
+      "role": "date_label 보존·정밀도·사건 연결",
+      "prio": "P0"
+    },
+    {
+      "id": "CMP-08",
+      "name": "FilterSearch",
+      "role": "한국어·원어별칭, 유형/권 필터",
+      "prio": "P0"
+    },
+    {
+      "id": "CMP-09",
+      "name": "EmptyState",
+      "role": "현재 자료 없음·검증 대기·오류와 대체 탐색",
+      "prio": "P0"
+    },
+    {
+      "id": "CMP-10",
+      "name": "Breadcrumbs",
+      "role": "이동 경로·현재 페이지 표시",
+      "prio": "P0"
+    },
+    {
+      "id": "CMP-11",
+      "name": "DeepResearchSections",
+      "role": "같은 URL에 추가되는 심층 연구 섹션",
+      "prio": "P1"
+    },
+    {
+      "id": "CMP-12",
+      "name": "EvidenceMap",
+      "role": "검증된 좌표만 표시하는 지도",
+      "prio": "P1"
+    }
+  ],
+  "journeys": [
+    {
+      "id": "JRN-01",
+      "from": "/",
+      "through": [
+        "/volumes",
+        "/volumes/VOL-04",
+        "/people/:personId",
+        "/documents/:documentId"
+      ],
+      "goal": "루터 개요부터 면벌부 문헌까지 이동",
+      "blocked_by_unapproved_data": true
+    },
+    {
+      "id": "JRN-02",
+      "from": "/search",
+      "through": [
+        "/topics/:topicId",
+        "/people/:personId"
+      ],
+      "goal": "성찬론 관련 인물/관점 비교",
+      "blocked_by_unapproved_data": true
+    },
+    {
+      "id": "JRN-03",
+      "from": "/volumes/VOL-07",
+      "through": [
+        "/timeline",
+        "/events/:eventId"
+      ],
+      "goal": "한국 교회사 1784/1884/1885 등 연대 구별",
+      "blocked_by_unapproved_data": true
+    },
+    {
+      "id": "JRN-04",
+      "from": "/places",
+      "through": [
+        "/volumes/VOL-03"
+      ],
+      "goal": "현대 도시 목록 이해와 미검증 지도 핀 비표시",
+      "blocked_by_unapproved_data": true
+    },
+    {
+      "id": "JRN-05",
+      "from": "/people/:personId",
+      "through": [
+        "/documents/:documentId"
+      ],
+      "goal": "후스 원저작과 후대 번역의 근거 구분",
+      "blocked_by_unapproved_data": true
+    }
+  ],
+  "display_policy": {
+    "source_footer_required": true,
+    "depth_label_required": true,
+    "approved_only_public": true,
+    "draft_preview_only_with_auth": true,
+    "maps_only_verified_location": true,
+    "unapproved_portraits_hidden": true,
+    "no_source_full_copy": true,
+    "date_precision_visible": true,
+    "relationship_type_explained": true,
+    "vol08_is_topic_archive": true
+  }
+}
