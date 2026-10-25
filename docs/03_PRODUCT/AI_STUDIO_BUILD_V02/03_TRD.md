@@ -2,6 +2,14 @@
 
 > 2026-10-25 · DRAFT · [PROJECT PLAN](01_PROJECT_PLAN.md) · [PRD](02_PRD.md) · [공식 Build 문서](https://ai.google.dev/gemini-api/docs/aistudio-build-mode)
 
+
+## 0. AI Studio Build 필수 사전 조건 및 콘텐츠 확장 기술 계약
+- **GitHub First:** 앱 코드를 쓰기 전에 [00 선행 설계 감사](00_GITHUB_DESIGN_PREFLIGHT.md)를 수행해 브랜치 파일의 존재, 5대 설계의 FR/화면/Task 연결(18/14/36), 토큰, 한국어/영문 프롬프트, 역사 출처·ID를 검증한다. 불일치를 발견하면 설계파일 최소 수정과 실제 재검증부터 한다. 저장소 접근/승인 불가나 BLOCKER면 `NO BUILD`.
+- **콘텐츠 depth 분리:** 초기 OVERVIEW는 개요 JSON을 읽는 영역, 후속 DEEP_RESEARCH는 canonical person/event/document ID에 종속된 별도 revision 블록, PRIMARY_WITNESS는 원전·권리 확인 후 별도 레이어. 신규 블록은 기존 permalink와 개요 텍스트/관계·출처를 보존하며, 미승인 블록은 공용 빌드에 제외.
+- **mobile-first 기술:** 320/360/375/390/430px 단일열·20px padding·16px 이상 텍스트·long-title wrap, 모바일에서 검색/사건/문헌/근거 접근 모두 유지. 메뉴 aria-expanded/Escape·포커스 복귀·safe-area·touch target 약 44px·reduced-motion. 768/1024px, 1440px의 2/4열에서도 핵심 기능 동등. iOS Safari/Android Chrome 실기기/에뮬레이터 검증 결과를 남기고 미시험은 NOT TESTED.
+- **빌드 전 QA:** GitHub `PREBUILD_GATE` 감사 결과·설계 diff·자동검사 증거를 기록. 승인 0건이면 PUBLIC 스냅샷 0건. `noindex`나 클라이언트 CSS 숨김은 권한 검증 대체 불가.
+
+
 ## 1. 구현 전제
 **Google AI Studio Build의 웹앱**을 사용한다. 공식 기본 프런트엔드는 React이고, 필요 시 Node.js 서버 런타임을 이용할 수 있다. **React + TypeScript**로 앱 코드를 생성하도록 프롬프트에 명시하며, 실제 생성물의 번들러·Node 버전·패키지 및 의존성은 **생성 후 확인**한다. AI Studio 기본 구성을 무조건 Vite라고 단정하지 않는다.
 
