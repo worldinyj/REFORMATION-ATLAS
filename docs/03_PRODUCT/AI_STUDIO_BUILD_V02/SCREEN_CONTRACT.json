@@ -1,0 +1,95 @@
+{
+  "schema_version": "0.2",
+  "status": "DRAFT",
+  "design": "Quiet Editorial Atlas",
+  "screens": [
+    {
+      "id": "HOME",
+      "path": "/",
+      "stage": "design_only"
+    },
+    {
+      "id": "VOLUMES",
+      "path": "/volumes",
+      "stage": "design_only"
+    },
+    {
+      "id": "VOLUME_DETAIL",
+      "path": "/volumes/:id",
+      "stage": "design_only"
+    },
+    {
+      "id": "PEOPLE",
+      "path": "/people",
+      "stage": "design_only"
+    },
+    {
+      "id": "PERSON_DETAIL",
+      "path": "/people/:id",
+      "stage": "design_only"
+    },
+    {
+      "id": "TIMELINE",
+      "path": "/timeline",
+      "stage": "design_only"
+    },
+    {
+      "id": "EVENT_DETAIL",
+      "path": "/events/:id",
+      "stage": "design_only"
+    },
+    {
+      "id": "DOCUMENTS",
+      "path": "/documents",
+      "stage": "design_only"
+    },
+    {
+      "id": "DOCUMENT_DETAIL",
+      "path": "/documents/:id",
+      "stage": "design_only"
+    },
+    {
+      "id": "PLACES",
+      "path": "/places",
+      "stage": "design_only"
+    },
+    {
+      "id": "TOPICS",
+      "path": "/topics",
+      "stage": "design_only"
+    },
+    {
+      "id": "TOPIC_DETAIL",
+      "path": "/topics/:id",
+      "stage": "design_only"
+    },
+    {
+      "id": "SEARCH",
+      "path": "/search",
+      "stage": "design_only"
+    },
+    {
+      "id": "ABOUT",
+      "path": "/about",
+      "stage": "design_only"
+    }
+  ],
+  "responsive": [
+    320,
+    375,
+    768,
+    1024,
+    1440
+  ],
+  "tokens_file": "DESIGN_TOKENS.json",
+  "user_journeys": [
+    "home-volume-person",
+    "timeline-event-document",
+    "search-topic-person",
+    "volume7-early-korea",
+    "document-witness-context",
+    "person-overview-depth"
+  ],
+  "historical_media_public": false,
+  "release_approved": false
+}
