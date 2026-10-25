@@ -116,9 +116,11 @@ def validate(overview, bib, source_ids, report, spec):
           new["DOC-PROP-V04-006"]["imprint_or_provenance"]["approved"]=="1541-11-20")
     check("1522 New Testament two-print distinction retained",
           len(new["DOC-PROP-V04-008"]["imprint_or_provenance"]["known_editions"])==2)
-    check("No AI Studio app import and manuscript explicitly not for publication",
+    check("No AI Studio app import and publication approval blocked",
           "공개" in report and "승인" in spec and
-          "can_ship" in spec and "DO_NOT_SHIP" not in report.upper())
+          bib["release"]["web_code_modified"] is False and
+          bib["release"]["can_ship"] is False and
+          "CAN_PUBLISH=false" in spec)
     check("17 proposals are all in the human review report",
           all(pid in report for pid in new))
     check("17 bibliography stages include human approval before IDs",
@@ -134,7 +136,7 @@ def main():
     report=(ROOT/"docs/01_CONTENT/VOL04/WITNESS_EDITION_BIBLIOGRAPHY_V02.md").read_text(encoding="utf-8")
     spec=(ROOT/"docs/01_CONTENT/VOL04/EDITION_ID_MIGRATION_CONTRACT_V02.md").read_text(encoding="utf-8")
     errors=validate(overview,bib,source_ids,report,spec)
-    print("RESULT",f"{25-len(errors)}/25" if len(errors)<=25 else "FAILED",
+    print("RESULT",f"{26-len(errors)}/26" if len(errors)<=26 else "FAILED",
           "— DRAFT ONLY; does not authorize publication or IDs")
     return int(bool(errors))
 
