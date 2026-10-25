@@ -85,7 +85,7 @@ claim_ids = [x["id"] for x in claims.get("claims", [])]
 check(len(claim_ids) == len(set(claim_ids)), "Duplicate primary claim IDs")
 check(claims.get("publication_status") == "DRAFT", "Source claims unexpectedly published")
 for claim in claims.get("claims", []):
-    check(bool(re.fullmatch(r"CLM-V03-\\d{3}", claim.get("id", ""))), f"Malformed claim ID {claim.get('id')}")
+    check(bool(re.fullmatch(r"CLM-V03-\d{3}", claim.get("id", ""))), f"Malformed claim ID {claim.get('id')}")
     check(claim.get("evidence_tier") in claims.get("evidence_tiers", {}), f"Unknown tier: {claim.get('id')}")
     check(bool(claim.get("locator")), f"Missing edition locator {claim.get('id')}")
     check(bool(claim.get("pending")), f"Missing limitations {claim.get('id')}")
