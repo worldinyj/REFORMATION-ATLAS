@@ -167,37 +167,38 @@ for point in maps["points"]:
 check(maps["map_kind"] == "modern_reference_points_historical_education", "Maps must be flagged as modern-coordinate schematics")
 
 
-# V0.6 GIS-style schematic map metadata: 4 maps, city-center approximations.
-maps = load("assets/maps/MAP_DATA_V01.json")
-map_points = maps.get("points", [])
-map_defs = maps.get("maps", [])
-map_point_keys = [p["key"] for p in map_points]
-check(len(map_point_keys) == len(set(map_point_keys)), "Duplicate conceptual map point keys")
-known_map_keys = set(map_point_keys)
-map_only_prefix = "MAP-LOC-"
-known_assets = {a["asset_id"] for a in manifest}
-for point in map_points:
-    place_id = point.get("location_id", "")
-    check(place_id in all_locs or place_id.startswith(map_only_prefix),
-          f"{point['key']}: unknown location {place_id}")
+# V0.6 canonical map points dataset and four registered SVG maps.
+geo = load("data/vol03_map_points.json")
+points = geo.get("points", [])
+map_ids = {f"MAP-V03-{i:02d}" for i in range(1, 5)}
+known_assets = {item["asset_id"]: item for item in manifest}
+pointkeys = [point["key"] for point in points]
+check(len(pointkeys) == len(set(pointkeys)), "Duplicate map point key")
+check(len(points) == 13, "Expected 13 approximate map reference points")
+for point in points:
+    check(point.get("location_id") in all_locs,
+          f"{point['key']}: unknown canonical location ID")
     check(-180 <= point["longitude"] <= 180 and -90 <= point["latitude"] <= 90,
-          f"{point['key']}: invalid lon/lat")
-    check(point.get("coordinates_verified") is False,
-          f"{point['key']}: misleading coordinate verification flag")
-map_ids = [m["id"] for m in map_defs]
-check(len(map_ids) == len(set(map_ids)), "Duplicate conceptual map IDs")
-check(len(map_ids) == 4, "Expected exactly four VOL03 maps")
-for item in map_defs:
-    check(item["id"] in known_assets, f"{item['id']}: missing asset_manifest entry")
-    check((ROOT / item["file"]).is_file(), f"{item['id']}: missing SVG file")
-    for key in item.get("points", []):
-        check(key in known_map_keys, f"{item['id']}: missing map point {key}")
-    for link in item.get("links", []):
-        check(len(link) == 2 and all(key in known_map_keys for key in link),
-              f"{item['id']}: invalid schematic relation {link}")
-    for source in item.get("source_ids", []):
-        check(source in source_ids | base_sources,
-              f"{item['id']}: unregistered map source {source}")
+          f"{point['key']}: invalid lat/lon")
+    check("approx" in point.get("coordinate_status", "") or
+          "vicinity" in point.get("coordinate_status", ""),
+          f"{point['key']}: overly precise site claim")
+    for map_id in point.get("maps", []):
+        check(map_id in map_ids, f"{point['key']}: unknown map {map_id}")
+for map_id in map_ids:
+    check(map_id in known_assets, f"Missing map manifest ID {map_id}")
+    if map_id in known_assets:
+        asset = known_assets[map_id]
+        check(asset.get("review_status") == "DRAFT", f"{map_id}: unexpectedly approved")
+        check(asset.get("rights_status") == "original_project_asset",
+              f"{map_id}: original asset rights missing")
+        svg_file = ROOT / asset["relative_path"]
+        check(svg_file.is_file(), f"{map_id}: SVG file missing")
+        if svg_file.is_file():
+            try:
+                ElementTree.parse(svg_file)
+            except ElementTree.ParseError as exc:
+                errors.append(f"{map_id}: SVG XML malformed: {exc}")
 
 if errors:
     print("FAIL: " + str(len(errors)) + " source claim issue(s)")
