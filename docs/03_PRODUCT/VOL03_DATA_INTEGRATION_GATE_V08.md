@@ -54,3 +54,10 @@ python3 scripts/install_vol03_illustrations.py \
 - 개발기획 문서(PRD/TRD/UX/UI/TASKLIST)는 8권 연구 구조·공통 데이터 계약 승인 후 착수.
 
 GitHub 연결로 참조 관계는 독립 점검했으나 GitHub Actions와 실제 로컬 전체 테스트를 **실행했다고 주장하지 않습니다**.
+
+## 6. 아티팩트 품질 및 해시 기록 (2026-10-25)
+- Word: `REFORMATION_ATLAS_VOL03_Illustrated_Research_Review_V08.docx`, **32페이지**, SHA256 `5a9f0f211bee97aad47d33697ac6b1b78b0ec27e0dbb86eca403980454275989`.
+- 검토 묶음: `REFORMATION_ATLAS_VOL03_V08_REVIEW_BUNDLE.zip`, SHA256 `1abed4eadba035ddc827bd9fbc955a78d741d79e71cff5497d6141f9660d75c6`. Word 1점, 지도 SVG 4점, 지도 PNG 4점, 기존 AI 이미지 ZIP 1점, 검토 시트 2점, 체크섬 목록·안내 포함.
+- ZIP 무결성 및 각 항목 SHA256 교차 검증 통과. 이미지 ZIP은 해시 변형 없이 중첩 포함.
+- Word 편집: A4 세로 본문→A4 가로 도록→A4 세로 QA, **전체 32쪽 렌더링 후 육안 검토**. 지도 첫머리의 불필요한 분리 페이지를 수정하고 다시 렌더링.
+- 문서·아트 ZIP은 ChatGPT 대화 아티팩트로만 전달. GitHub 바이너리 업로드/로컬 Git 동기화는 미실시.
