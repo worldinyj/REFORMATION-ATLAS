@@ -1,0 +1,22 @@
+name: AI Studio GitHub Repository Preflight
+on:
+  push:
+    branches:
+      - chore/ai-studio-github-readiness-v01
+  pull_request:
+    branches:
+      - plan/atlas-ai-studio-build-v02
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  repository-preflight:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Python and repository readiness contract
+        run: python3 scripts/validate_ai_studio_repo_preflight.py
+      - name: AI Studio design traceability
+        run: python3 scripts/validate_ai_studio_design_v02.py
+      - name: Eight-volume content structural QA
+        run: python3 scripts/validate_atlas_overview_v01.py
