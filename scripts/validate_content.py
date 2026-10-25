@@ -38,8 +38,13 @@ for name, items in sets.items():
     for item in items:
         if item.get("publication_status", "DRAFT") not in {"DRAFT", "REVIEWED", "APPROVED", "PUBLISHED", "RETIRED"}:
             fail(f"{name}: invalid publication_status {item.get('id')}")
-        if not item.get("id") or not item.get("name_ko"):
-            fail(f"{name}: id/name_ko missing")
+        if not item.get("id"):
+            fail(f"{name}: id missing")
+        elif name == "relations":
+            if not item.get("summary_ko"):
+                fail(f"{name}: summary_ko missing for {item['id']}")
+        elif not item.get("name_ko"):
+            fail(f"{name}: name_ko missing for {item['id']}")
     for entity_id in values:
         if not re.fullmatch({"people":r"PER-\d{4}","events":r"EVT-\d{4}","relations":r"REL-\d{4}","locations":r"LOC-\d{4}"}[name],str(entity_id)):
             fail(f"{name}: malformed ID {entity_id}")
