@@ -1,4 +1,4 @@
-# VOL-03 · 종교개혁의 선구자 | Deep Research V0.1
+# VOL-03 · 종교개혁의 선구자 | Deep Research V0.3
 **상태: DRAFT** (기초 공개 학술자료를 토대로 한 심화 연구 초안, 사람의 역사학 감수 전)
 
 ## 읽는 순서
@@ -13,7 +13,7 @@
 9. [10_WALDENSIAN_MEMORY_AND_SOURCES.md](10_WALDENSIAN_MEMORY_AND_SOURCES.md): 1532년과 후대 역사 기억
 10. [06_TIMELINE.md](06_TIMELINE.md): 날짜 정확도를 함께 표시한 연대표
 11. [07_FACTCHECK_MATRIX.md](07_FACTCHECK_MATRIX.md): 단정 금지와 검증 과제
-12. [05_SOURCE_REGISTER.md](05_SOURCE_REGISTER.md): 학술·전시 출처 28건과 실제 접근 범위
+12. [05_SOURCE_REGISTER.md](05_SOURCE_REGISTER.md): 학술·전시 출처 35건과 실제 접근 범위
 
 ## 연결 산출물
 - [볼륨 3 구조화 확장 데이터](../../../data/vol03_extension.json): 추가 인물 6명, 운동 4개, 위치 8곳, 사건 14건, 관계 7개
@@ -35,3 +35,7 @@
 - [ ] 검증된 좌표·시점별 경계에 근거한 실제 역사 지도 별도 제작
 - [ ] AI 생성 역사 재현 인물화의 정확성·표현 검수 및 승인
 - [ ] 이후 16세기 종교개혁(VOL-04)과 교차 링크
+
+## 원전 대조 V0.3
+- [11_PRIMARY_SOURCE_AUDIT_V03.md](11_PRIMARY_SOURCE_AUDIT_V03.md): 직접 확인한 판본·장·쪽수·편집본 제한을 구분한 사료 검증 기록.
+- 다음 원문 검증의 미완료 항목(후스 라틴어 비평판 및 콤팍타타 공식 문서 전문)은 **미확인** 상태 유지.
