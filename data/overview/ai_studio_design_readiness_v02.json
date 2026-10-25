@@ -1,0 +1,47 @@
+{
+  "schema_version": "0.2",
+  "milestone": "GOOGLE_AI_STUDIO_DESIGN_PACKAGE",
+  "date": "2026-10-25",
+  "repo": "worldinyj/REFORMATION-ATLAS",
+  "branch": "plan/atlas-ai-studio-build-v02",
+  "contents": [
+    "01_PROJECT_PLAN.md",
+    "02_PRD.md",
+    "03_TRD.md",
+    "04_UXUI.md",
+    "05_TASKLIST.md",
+    "06_AI_STUDIO_MASTER_PROMPT.md",
+    "07_AI_STUDIO_ITERATION_PROMPTS.md",
+    "08_BUILD_CHECKLIST.md",
+    "DESIGN_TOKENS.json",
+    "SCREEN_CONTRACT.json",
+    "README.md"
+  ],
+  "architecture": "Google AI Studio Build Web (React+TypeScript preferred, optional Node.js runtime)",
+  "content_inventory": {
+    "volumes": 8,
+    "people": 33,
+    "events": 34,
+    "documents": 20,
+    "places": 22,
+    "topics": 10,
+    "relations": 32,
+    "source_id_count": 23
+  },
+  "requirements": 18,
+  "tasks": 34,
+  "task_priority": {
+    "P0": 30,
+    "P1": 4
+  },
+  "design_style": "quiet_editorial_atlas",
+  "all_docs_draft": true,
+  "approved_by_user": false,
+  "website_built": false,
+  "cloud_run_deployed": false,
+  "publication_gate": {
+    "approved": false,
+    "can_ship": false
+  },
+  "next_step": "Review batch docs then manually paste B1 master prompt into Google AI Studio Build. Do not publish without explicit approval."
+}

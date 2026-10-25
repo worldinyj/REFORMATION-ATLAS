@@ -1,6 +1,6 @@
 # 01 · PROJECT PLAN V0.2 — REFORMATION ATLAS / Google AI Studio Build
 > 2026-10-25 · **DRAFT / 설계문서 일괄 개정** · 제품 원칙: **웹 골격 먼저 → 역사 연구를 지속 증분 반영**
-> 소스: Google AI Studio Build ([공식 사용법](https://ai.google.dev/gemini-api/docs/aistudio-build-mode?hl=ko)), 기존 [개요 원본](../../../01_CONTENT/OVERVIEW/EDITORIAL_AUDIT_V02.md). 이 문서는 사이트가 이미 생성됐음을 의미하지 않는다.
+> 소스: Google AI Studio Build ([공식 사용법](https://ai.google.dev/gemini-api/docs/aistudio-build-mode?hl=ko)), 기존 [개요 원본](../../01_CONTENT/OVERVIEW/EDITORIAL_AUDIT_V02.md). 이 문서는 사이트가 이미 생성됐음을 의미하지 않는다.
 
 ## 1. 목적
 누구나 초기 교회사에서 한국 교회사까지 전체 흐름을 이해하고, 인물·사건·문헌·주제 사이를 자연스럽게 탐색하는 **미니멀 역사 아틀라스**. 처음에는 개요 수준의 잘 연결된 정보를 제공하고 이후 위클리프·얀 후스·루터 등의 깊은 연구를 **같은 URL의 상세 블록에 추가**한다.
