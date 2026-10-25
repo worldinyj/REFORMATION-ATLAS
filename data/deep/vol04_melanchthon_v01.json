@@ -1,0 +1,579 @@
+{
+  "schema_version": "0.1",
+  "date": "2026-10-25",
+  "project": "REFORMATION_ATLAS",
+  "volume_id": "VOL-04",
+  "person_id": "OV-P-014",
+  "depth_block": {
+    "id": "DEPTH-V04-P014-001",
+    "kind": "DEEP_RESEARCH",
+    "language": "ko",
+    "body_path": "docs/01_CONTENT/VOL04/MELANCHTHON_DEEP_RESEARCH_V01.md",
+    "review_status": "DRAFT",
+    "publication_approved": false
+  },
+  "sources": [
+    {
+      "id": "SRC-V04-ME-001",
+      "title": "Deutsche Biographie: Melanchthon, Philipp",
+      "url": "https://www.deutsche-biographie.de/sfz61348.html",
+      "source_kind": "academic_biography",
+      "scope": "1518 appointment; Augsburg preparation; debate & historiography",
+      "access_level": "OPEN_ARTICLE",
+      "rights_policy": "LINK_AND_ORIGINAL_KOREAN_SUMMARY_ONLY",
+      "full_text_copied": false,
+      "editorial_status": "DRAFT"
+    },
+    {
+      "id": "SRC-V04-ME-002",
+      "title": "Lutherstadt Wittenberg: Philipp Melanchthon",
+      "url": "https://lutherstadt-wittenberg.de/en/see-discover/famous-personalities/philipp-melanchthon",
+      "source_kind": "city_historical_institution",
+      "scope": "biography, 1518 speech (28 Aug), educational reforms",
+      "access_level": "OPEN_ARTICLE_DATE_DISAGREEMENT",
+      "rights_policy": "LINK_AND_ORIGINAL_KOREAN_SUMMARY_ONLY",
+      "full_text_copied": false,
+      "editorial_status": "DRAFT"
+    },
+    {
+      "id": "SRC-V04-ME-003",
+      "title": "I. Walser-Bürgler, A Question of Genre: Philip Melanchthon's Oratorical Debut",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/rest.12894",
+      "source_kind": "peer_reviewed_research",
+      "scope": "academic genre and 29 Aug 1518 inaugural oration",
+      "access_level": "OPEN_ABSTRACT_REVIEW_DATE_DISAGREEMENT",
+      "rights_policy": "LINK_AND_ORIGINAL_KOREAN_SUMMARY_ONLY",
+      "full_text_copied": false,
+      "editorial_status": "DRAFT"
+    },
+    {
+      "id": "SRC-V04-ME-004",
+      "title": "Book of Concord: Augsburg Confession",
+      "url": "https://thebookofconcord.org/augsburg-confession/",
+      "source_kind": "confessional_primary_in_later_edition",
+      "scope": "article divisions and later edition",
+      "access_level": "MODERN_CONFESSIONAL_READER_NOT_1530_MANUSCRIPT",
+      "rights_policy": "LINK_AND_ORIGINAL_KOREAN_SUMMARY_ONLY",
+      "full_text_copied": false,
+      "editorial_status": "DRAFT"
+    },
+    {
+      "id": "SRC-V04-ME-005",
+      "title": "Book of Concord: Apology of the Augsburg Confession",
+      "url": "https://thebookofconcord.org/apology-of-the-augsburg-confession/",
+      "source_kind": "confessional_primary_in_later_edition",
+      "scope": "Melanchthon's 1530-1531 defense and article numbering",
+      "access_level": "MODERN_CONFESSIONAL_READER_NOT_ORIGINAL",
+      "rights_policy": "LINK_AND_ORIGINAL_KOREAN_SUMMARY_ONLY",
+      "full_text_copied": false,
+      "editorial_status": "DRAFT"
+    },
+    {
+      "id": "SRC-V04-ME-006",
+      "title": "The Augsburg Confession — Historical Introduction",
+      "url": "https://thebookofconcord.org/introductory-materials/historical-introductions/the-augsburg-confession/",
+      "source_kind": "denominational_historical_introduction",
+      "scope": "June 25 1530 reading, drafting history, written opinions",
+      "access_level": "HISTORICAL_COMMENTARY_NEEDS_HISTORIOGRAPHY_COUNTERCHECK",
+      "rights_policy": "LINK_AND_ORIGINAL_KOREAN_SUMMARY_ONLY",
+      "full_text_copied": false,
+      "editorial_status": "DRAFT"
+    },
+    {
+      "id": "SRC-V04-ME-007",
+      "title": "Melanchthon's Alterations to the Augsburg Confession",
+      "url": "https://thebookofconcord.org/introductory-materials/historical-introductions/melanchthons-alterations-to-the-augsburg-confession/",
+      "source_kind": "denominational_historical_introduction",
+      "scope": "1540 Variata against 1530 text and later editorial revisions",
+      "access_level": "CONFESSIONAL_INTERPRETIVE_PERSPECTIVE",
+      "rights_policy": "LINK_AND_ORIGINAL_KOREAN_SUMMARY_ONLY",
+      "full_text_copied": false,
+      "editorial_status": "DRAFT"
+    },
+    {
+      "id": "SRC-V04-ME-008",
+      "title": "Lutherstadt Wittenberg: Melanchthon House",
+      "url": "https://www.luthermuseen.de/en/museen/melanchthon-house",
+      "source_kind": "museum_institution",
+      "scope": "house from 1536, students, teaching, lived there until 1560",
+      "access_level": "OPEN_MUSEUM_INFORMATION",
+      "rights_policy": "LINK_AND_ORIGINAL_KOREAN_SUMMARY_ONLY",
+      "full_text_copied": false,
+      "editorial_status": "DRAFT"
+    },
+    {
+      "id": "SRC-V04-ME-009",
+      "title": "Heidelberg Academy of Sciences: Melanchthon Correspondence overview",
+      "url": "https://www.hadw-bw.de/en/mbw",
+      "source_kind": "primary_correspondence_scholarly_regesta",
+      "scope": "contemporary correspondence project chronology, 1527-29 visitations, 1536 Wittenberg Concord",
+      "access_level": "SCHOLARLY_REGESTA_NOT_ALL_LETTERS_READ",
+      "rights_policy": "LINK_AND_ORIGINAL_KOREAN_SUMMARY_ONLY",
+      "full_text_copied": false,
+      "editorial_status": "DRAFT"
+    },
+    {
+      "id": "SRC-V04-ME-010",
+      "title": "Melanchthon Correspondence: 1548 Leipzig memorandum no. 5386",
+      "url": "https://melanchthon.hadw-bw.de/regest.html?reg_nr=5386",
+      "source_kind": "scholarly_primary_regest",
+      "scope": "Leipzig Interim/adiaphora 22 Dec [1548] reconstructed dating",
+      "access_level": "PRIMARY_SUMMARY_NOT_FULL_TEXT",
+      "rights_policy": "LINK_AND_ORIGINAL_KOREAN_SUMMARY_ONLY",
+      "full_text_copied": false,
+      "editorial_status": "DRAFT"
+    },
+    {
+      "id": "SRC-V04-ME-011",
+      "title": "Melanchthon Correspondence: 1548 Leipzig recommendations no. 5387",
+      "url": "https://melanchthon.hadw-bw.de/regest.html?reg_nr=5387",
+      "source_kind": "scholarly_primary_regest",
+      "scope": "24 Dec [1548], differing manuscripts/prints; dated by editor",
+      "access_level": "PRIMARY_SUMMARY_NOT_FULL_TEXT",
+      "rights_policy": "LINK_AND_ORIGINAL_KOREAN_SUMMARY_ONLY",
+      "full_text_copied": false,
+      "editorial_status": "DRAFT"
+    },
+    {
+      "id": "SRC-V04-ME-012",
+      "title": "Melanchthon biography in Korean Catholic Encyclopedia",
+      "url": "https://encyclopedia.catholic.or.kr/entry/1979",
+      "source_kind": "cross_tradition_encyclopedia",
+      "scope": "Korean Catholic perspective, education & theology",
+      "access_level": "OPEN_ENTRY",
+      "rights_policy": "LINK_AND_ORIGINAL_KOREAN_SUMMARY_ONLY",
+      "full_text_copied": false,
+      "editorial_status": "DRAFT"
+    },
+    {
+      "id": "SRC-V04-ME-013",
+      "title": "Robert Kolb, Philip Melanchthon: Confessor of the Faith",
+      "url": "https://witness.lcms.org/2010/philip-melanchthon-confessor-of-the-faith-2-2010/",
+      "source_kind": "denominational_scholar_article",
+      "scope": "1497/1518/1521/1530/1531/1548/1560 timeline; Lutheran interpretive context",
+      "access_level": "OPEN_ARTICLE",
+      "rights_policy": "LINK_AND_ORIGINAL_KOREAN_SUMMARY_ONLY",
+      "full_text_copied": false,
+      "editorial_status": "DRAFT"
+    },
+    {
+      "id": "SRC-V04-ME-014",
+      "title": "Cranach Digital Archive: Portrait of Philipp Melanchthon",
+      "url": "https://lucascranach.org/en/PRIVATE_NONE-P267/",
+      "source_kind": "historical_art_object_catalogue",
+      "scope": "1543 contemporary workshop likeness; reference only, do not copy image",
+      "access_level": "CATALOGUE_ONLY",
+      "rights_policy": "LINK_AND_ORIGINAL_KOREAN_SUMMARY_ONLY",
+      "full_text_copied": false,
+      "editorial_status": "DRAFT"
+    },
+    {
+      "id": "SRC-V04-ME-015",
+      "title": "B. Dingel, Philipp Melanchthon and the Establishment of a Lutheran corpus doctrinae",
+      "url": "https://bibliographie.uni-tuebingen.de/xmlui/bitstream/handle/10900/150384/Dingel_162.pdf?sequence=1",
+      "source_kind": "scholarly_article_pdf",
+      "scope": "1533, 1542 confession recensions and 16th-century Lutheran doctrinal collections",
+      "access_level": "PDF_OPEN_ACCESS_SUMMARY_NO_REPRODUCTION",
+      "rights_policy": "LINK_AND_ORIGINAL_KOREAN_SUMMARY_ONLY",
+      "full_text_copied": false,
+      "editorial_status": "DRAFT"
+    },
+    {
+      "id": "SRC-V04-ME-016",
+      "title": "Melanchthon and the Reformation: Humanism and education",
+      "url": "https://www.melanchthon.de/e/reform/reform1.html",
+      "source_kind": "memorial_institution",
+      "scope": "August 1518 arrival, university curriculum, Greek, humanism",
+      "access_level": "OPEN_ARTICLE",
+      "rights_policy": "LINK_AND_ORIGINAL_KOREAN_SUMMARY_ONLY",
+      "full_text_copied": false,
+      "editorial_status": "DRAFT"
+    },
+    {
+      "id": "SRC-V04-ME-017",
+      "title": "Melanchthon and the Reformation: Theological collaboration",
+      "url": "https://www.melanchthon.de/e/reform/reform2.html",
+      "source_kind": "memorial_institution",
+      "scope": "Luther partnership, Loci communes and translation collaboration",
+      "access_level": "OPEN_ARTICLE",
+      "rights_policy": "LINK_AND_ORIGINAL_KOREAN_SUMMARY_ONLY",
+      "full_text_copied": false,
+      "editorial_status": "DRAFT"
+    }
+  ],
+  "claims": [
+    {
+      "id": "CLM-V04-ME-001",
+      "statement_ko": "1497년 브레텐 출생 멜란히톤은 그리스어와 인문주의 학문을 배경으로 1518년 비텐베르크 대학에 부임했다.",
+      "source_ids": [
+        "SRC-V04-ME-001",
+        "SRC-V04-ME-002",
+        "SRC-V04-ME-016"
+      ],
+      "evidence_status": "SUPPORTED",
+      "review_status": "DRAFT",
+      "approved": false,
+      "publication_approved": false
+    },
+    {
+      "id": "CLM-V04-ME-002",
+      "statement_ko": "1518년 취임 연설의 정확한 날짜는 도시 안내(8월 28일)와 최근 논문(8월 29일)의 기술이 달라 원자료 확인 전 확정하지 않는다.",
+      "source_ids": [
+        "SRC-V04-ME-002",
+        "SRC-V04-ME-003"
+      ],
+      "evidence_status": "DATE_CONFLICT_HOLD",
+      "review_status": "DRAFT",
+      "approved": false,
+      "publication_approved": false
+    },
+    {
+      "id": "CLM-V04-ME-003",
+      "statement_ko": "인문주의의 언어·논리·고전 학문과 교육개혁은 멜란히톤의 핵심 기여이며 신학사뿐 아니라 학문사로 다뤄야 한다.",
+      "source_ids": [
+        "SRC-V04-ME-002",
+        "SRC-V04-ME-016",
+        "SRC-V04-ME-012"
+      ],
+      "evidence_status": "SUPPORTED_SYNTHESIS",
+      "review_status": "DRAFT",
+      "approved": false,
+      "publication_approved": false
+    },
+    {
+      "id": "CLM-V04-ME-004",
+      "statement_ko": "1521년 『Loci communes』는 초기 루터파 신학 논의를 체계화한 중요한 책이지만 여러 차례 개정됐으므로 모든 판본이 동일하지 않다.",
+      "source_ids": [
+        "SRC-V04-ME-013",
+        "SRC-V04-ME-017",
+        "SRC-V04-ME-015"
+      ],
+      "evidence_status": "SUPPORTED_VERSIONS_NEED_WITNESS_COMPARISON",
+      "review_status": "DRAFT",
+      "approved": false,
+      "publication_approved": false
+    },
+    {
+      "id": "CLM-V04-ME-005",
+      "statement_ko": "루터와 멜란히톤은 서로의 성경·언어 연구와 신학 작업을 도왔지만 루터 저술 전부를 멜란히톤이 공동 집필한 것으로 확대하면 안 된다.",
+      "source_ids": [
+        "SRC-V04-ME-017",
+        "SRC-V04-ME-001"
+      ],
+      "evidence_status": "SUPPORTED_INTERPRETATION",
+      "review_status": "DRAFT",
+      "approved": false,
+      "publication_approved": false
+    },
+    {
+      "id": "CLM-V04-ME-006",
+      "statement_ko": "1528년 무렵 작센 교회 시찰과 학교·대학 개혁은 멜란히톤의 신학과 도시·영방 정치의 결합을 보여준다.",
+      "source_ids": [
+        "SRC-V04-ME-009",
+        "SRC-V04-ME-012",
+        "SRC-V04-ME-002"
+      ],
+      "evidence_status": "SUPPORTED_WITH_DETAILS_PENDING",
+      "review_status": "DRAFT",
+      "approved": false,
+      "publication_approved": false
+    },
+    {
+      "id": "CLM-V04-ME-007",
+      "statement_ko": "1530년 6월 25일 아우크스부르크에서 제출·낭독된 신앙고백의 주요 문안 작성자는 멜란히톤이며 개인 작품이 아닌 영방·도시 대표들의 공적 문서다.",
+      "source_ids": [
+        "SRC-V04-ME-001",
+        "SRC-V04-ME-004",
+        "SRC-V04-ME-006"
+      ],
+      "evidence_status": "SUPPORTED",
+      "review_status": "DRAFT",
+      "approved": false,
+      "publication_approved": false
+    },
+    {
+      "id": "CLM-V04-ME-008",
+      "statement_ko": "아우크스부르크 신앙고백의 28개 조항은 신앙 관련 부분과 남용·관행 문제를 구별해 읽을 필요가 있다.",
+      "source_ids": [
+        "SRC-V04-ME-001",
+        "SRC-V04-ME-004"
+      ],
+      "evidence_status": "SUPPORTED",
+      "review_status": "DRAFT",
+      "approved": false,
+      "publication_approved": false
+    },
+    {
+      "id": "CLM-V04-ME-009",
+      "statement_ko": "1531년 『신앙고백 변증서』는 가톨릭 측 반박서에 대한 대응이지만 원초고·후속 라틴어·독일어 번역의 저작권·판본 관계를 구분해야 한다.",
+      "source_ids": [
+        "SRC-V04-ME-005",
+        "SRC-V04-ME-013"
+      ],
+      "evidence_status": "SUPPORTED_WITH_EDITION_CAVEAT",
+      "review_status": "DRAFT",
+      "approved": false,
+      "publication_approved": false
+    },
+    {
+      "id": "CLM-V04-ME-010",
+      "statement_ko": "1536년 비텐베르크 합의는 성찬 논쟁을 협상한 문서 맥락으로 다루되 1529년 마르부르크 불일치가 그대로 없어졌다고 쓰면 안 된다.",
+      "source_ids": [
+        "SRC-V04-ME-009",
+        "SRC-V04-ME-001"
+      ],
+      "evidence_status": "SUPPORTED_CONTEXT",
+      "review_status": "DRAFT",
+      "approved": false,
+      "publication_approved": false
+    },
+    {
+      "id": "CLM-V04-ME-011",
+      "statement_ko": "1540년 변형 아우크스부르크 신앙고백(Variata)과 1530년 원문은 문구·신학적 해석 차이가 있으며 제10조 성찬 논쟁에서 특히 중요하다.",
+      "source_ids": [
+        "SRC-V04-ME-007",
+        "SRC-V04-ME-015"
+      ],
+      "evidence_status": "EDITION_DIFFERENCE_INTERPRETIVE",
+      "review_status": "DRAFT",
+      "approved": false,
+      "publication_approved": false
+    },
+    {
+      "id": "CLM-V04-ME-012",
+      "statement_ko": "1548년 라이프치히 중간협약의 신학적 조언은 강압 상황에서 무엇을 양보할 수 있는지를 둘러싼 논쟁을 낳았고 멜란히톤에게 거센 비판이 제기되었다.",
+      "source_ids": [
+        "SRC-V04-ME-010",
+        "SRC-V04-ME-011"
+      ],
+      "evidence_status": "PRIMARY_REGEST_CONFIRMED",
+      "review_status": "DRAFT",
+      "approved": false,
+      "publication_approved": false
+    },
+    {
+      "id": "CLM-V04-ME-013",
+      "statement_ko": "1548년 라이프치히 문서의 12월 22일·24일 날짜는 서지 편집자의 재구성 표기이며 모든 현존 필사본의 명확한 작성일이라고 주장하면 안 된다.",
+      "source_ids": [
+        "SRC-V04-ME-010",
+        "SRC-V04-ME-011"
+      ],
+      "evidence_status": "EDITED_DATE_HOLD",
+      "review_status": "DRAFT",
+      "approved": false,
+      "publication_approved": false
+    },
+    {
+      "id": "CLM-V04-ME-014",
+      "statement_ko": "멜란히톤의 교육자 명칭 'Praeceptor Germaniae'는 그의 광범위한 학문·교회 교육 조직 활동과 연결된다.",
+      "source_ids": [
+        "SRC-V04-ME-002",
+        "SRC-V04-ME-008",
+        "SRC-V04-ME-016"
+      ],
+      "evidence_status": "SUPPORTED",
+      "review_status": "DRAFT",
+      "approved": false,
+      "publication_approved": false
+    },
+    {
+      "id": "CLM-V04-ME-015",
+      "statement_ko": "1546년 루터 사후 멜란히톤의 역할과 논쟁은 개인적 의존을 넘어 루터파 안의 신학적 긴장을 드러낸다.",
+      "source_ids": [
+        "SRC-V04-ME-013",
+        "SRC-V04-ME-010",
+        "SRC-V04-ME-015"
+      ],
+      "evidence_status": "SUPPORTED_WITH_TRADITIONAL_BIAS_CAVEAT",
+      "review_status": "DRAFT",
+      "approved": false,
+      "publication_approved": false
+    },
+    {
+      "id": "CLM-V04-ME-016",
+      "statement_ko": "그가 1560년 비텐베르크에서 사망했다는 사실과 1536년부터 살았던 현 멜란히톤 하우스는 지역 박물관 자료로 뒷받침된다.",
+      "source_ids": [
+        "SRC-V04-ME-002",
+        "SRC-V04-ME-008"
+      ],
+      "evidence_status": "SUPPORTED",
+      "review_status": "DRAFT",
+      "approved": false,
+      "publication_approved": false
+    }
+  ],
+  "events": [
+    {
+      "id": "DEEP-V04-ME-E-001",
+      "date_label": "1497년 2월 16일",
+      "year_start": 1497,
+      "date_precision": "day",
+      "title_ko": "브레텐 출생",
+      "claim_id": "CLM-V04-ME-001",
+      "public_visible": false
+    },
+    {
+      "id": "DEEP-V04-ME-E-002",
+      "date_label": "1518년 8월경",
+      "year_start": 1518,
+      "date_precision": "approximate_period",
+      "title_ko": "비텐베르크 대학 부임 및 인문주의 교육개혁 연설",
+      "claim_id": "CLM-V04-ME-002",
+      "public_visible": false
+    },
+    {
+      "id": "DEEP-V04-ME-E-003",
+      "date_label": "1521년",
+      "year_start": 1521,
+      "date_precision": "year",
+      "title_ko": "『Loci communes』 초판 출판",
+      "claim_id": "CLM-V04-ME-004",
+      "public_visible": false
+    },
+    {
+      "id": "DEEP-V04-ME-E-004",
+      "date_label": "1528년경",
+      "year_start": 1528,
+      "date_precision": "approximate_year",
+      "title_ko": "작센 교회 시찰·교육개혁",
+      "claim_id": "CLM-V04-ME-006",
+      "public_visible": false
+    },
+    {
+      "id": "DEEP-V04-ME-E-005",
+      "date_label": "1530년 6월 25일",
+      "year_start": 1530,
+      "date_precision": "day",
+      "title_ko": "아우크스부르크 신앙고백 공적 제출·낭독",
+      "claim_id": "CLM-V04-ME-007",
+      "public_visible": false
+    },
+    {
+      "id": "DEEP-V04-ME-E-006",
+      "date_label": "1531년",
+      "year_start": 1531,
+      "date_precision": "year",
+      "title_ko": "『아우크스부르크 신앙고백 변증서』",
+      "claim_id": "CLM-V04-ME-009",
+      "public_visible": false
+    },
+    {
+      "id": "DEEP-V04-ME-E-007",
+      "date_label": "1536년",
+      "year_start": 1536,
+      "date_precision": "year",
+      "title_ko": "비텐베르크 합의",
+      "claim_id": "CLM-V04-ME-010",
+      "public_visible": false
+    },
+    {
+      "id": "DEEP-V04-ME-E-008",
+      "date_label": "1540년",
+      "year_start": 1540,
+      "date_precision": "year",
+      "title_ko": "아우크스부르크 신앙고백 개정판(Variata)",
+      "claim_id": "CLM-V04-ME-011",
+      "public_visible": false
+    },
+    {
+      "id": "DEEP-V04-ME-E-009",
+      "date_label": "1546년",
+      "year_start": 1546,
+      "date_precision": "year",
+      "title_ko": "루터 사망과 멜란히톤의 주요 대표 역할",
+      "claim_id": "CLM-V04-ME-015",
+      "public_visible": false
+    },
+    {
+      "id": "DEEP-V04-ME-E-010",
+      "date_label": "1548년 12월경",
+      "year_start": 1548,
+      "date_precision": "approximate_period",
+      "title_ko": "라이프치히 중간협약을 둘러싼 논쟁",
+      "claim_id": "CLM-V04-ME-012",
+      "public_visible": false
+    },
+    {
+      "id": "DEEP-V04-ME-E-011",
+      "date_label": "1560년 4월 19일",
+      "year_start": 1560,
+      "date_precision": "day",
+      "title_ko": "비텐베르크에서 사망",
+      "claim_id": "CLM-V04-ME-016",
+      "public_visible": false
+    }
+  ],
+  "visual_candidates": [
+    {
+      "id": "PRT-V04-ME-01",
+      "role": "portrait",
+      "filename_stem": "PRT-V04-ME-01_melanchthon_imaginative_portrait",
+      "formats": [
+        "PNG",
+        "WebP"
+      ],
+      "disclaimer": "현대 AI 상상 인물화이며 크라나흐의 역사적 초상을 복제하지 않음",
+      "origin": "ORIGINAL_AI_IMAGINATIVE",
+      "approved": false,
+      "publication_approved": false,
+      "binary_in_github": false,
+      "local_zip": "REFORMATION_ATLAS_VOL04_MELANCHTHON_VISUAL_V01.zip"
+    },
+    {
+      "id": "ILL-V04-ME-01",
+      "role": "scene",
+      "filename_stem": "ILL-V04-ME-01_wittenberg_theologians_imaginative",
+      "formats": [
+        "PNG",
+        "WebP"
+      ],
+      "disclaimer": "학자들의 토론 장면을 상상한 것으로 1530년 아우크스부르크 회의실 기록이 아님",
+      "origin": "ORIGINAL_AI_IMAGINATIVE",
+      "approved": false,
+      "publication_approved": false,
+      "binary_in_github": false,
+      "local_zip": "REFORMATION_ATLAS_VOL04_MELANCHTHON_VISUAL_V01.zip"
+    },
+    {
+      "id": "MAP-V04-ME-01",
+      "role": "schematic_map",
+      "filename_stem": "MAP-V04-ME-01_education_confession_network",
+      "formats": [
+        "SVG",
+        "PNG"
+      ],
+      "disclaimer": "실제 위치/축척/국경/여행경로가 아닌 도시·학문·문헌 연결 개념도",
+      "origin": "ORIGINAL_EDITABLE_SVG",
+      "approved": false,
+      "publication_approved": false,
+      "binary_in_github": false,
+      "local_zip": "REFORMATION_ATLAS_VOL04_MELANCHTHON_VISUAL_V01.zip"
+    }
+  ],
+  "media_archive_sha256": "d514372f07ae78380f2de63f4dcfbbf81b159b8406d448df90dc77df60f8c1fb",
+  "human_review_issues": [
+    "1518 inaugural oration 28 vs 29 August",
+    "1530 vs 1540 Confessio Augustana textual recensions",
+    "1548 Dec 22/24 memoir source editing dating",
+    "1530 ecclesial and political actors",
+    "color/rights/historical accuracy of new visual work"
+  ],
+  "release_gate": {
+    "approved": false,
+    "can_ship": false,
+    "images_approved": false,
+    "map_verified": false
+  },
+  "web_handoff": {
+    "app_modified": false,
+    "person_url_stable": true,
+    "attach_to_id": "OV-P-014",
+    "requires_publication_approved": true
+  },
+  "media_rendering_qc": {
+    "png_korean_font_corrected": true,
+    "svg_editable": true,
+    "complete_png_jpg_webp_revision": "V01",
+    "verified_locally": true
+  }
+}
