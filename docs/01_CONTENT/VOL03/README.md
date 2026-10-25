@@ -21,9 +21,12 @@
 - [원본 매체 관리대장](../../../assets/asset_manifest.json)
 - [VOL-03 검증 스크립트](../../../scripts/validate_vol03.py)
 
+- [검증 수준별 주장 카드](../../../data/vol03_primary_claims.json): V0.3 원전 검증 11건, DRAFT
+- [주장 카드 스키마 해설](12_CLAIM_DATA_GUIDE.md): 서지·번역·원문 접근 수준 구분
+
 ## 스코프와 권한
 - 이 저장소에는 **원고 Markdown과 JSON/SVG가 기준 자산**이다.
-- Word A4 15페이지 V0.2 검토본은 대화에서 별도 다운로드로 제공되며, 현재 GitHub의 바이너리 자산으로 커밋되지 않았다.
+- Word V0.2 검토본 및 갱신된 V0.3 원전 검증 증보본은 대화에서 별도 다운로드로 제공되며, 현재 GitHub의 바이너리 자산으로 커밋되지 않았다.
 - 기존 `docs/foundation-v0-1` 브랜치를 기반으로 한 후속 작업이다. `main`은 변하지 않았다.
 - `PR`을 `DRAFT`로 유지한다. 검토 완료 전 발표·공개 승인 금지.
 
