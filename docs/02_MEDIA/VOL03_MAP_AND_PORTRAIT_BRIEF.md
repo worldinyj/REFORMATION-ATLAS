@@ -18,7 +18,7 @@
 
 ## 현재 완료
 - AST-0002: 역사적 관계를 단일 직접 계보로 오인하지 않도록 만든 **원본 SVG 설명도**.
-- **지도 V0.1 4종 SVG 제작·저장 완료:** [assets/maps/README.md](../../assets/maps/README.md), [지도 QA](VOL03_MAP_QA_V01.md).
+- **지도 V0.1 4종 SVG 제작·저장 완료:** [assets/maps/README.md](../../assets/maps/README.md), [지도 QA](VOL03_MAP_QA_GATE_V01.md).
 - 현 좌표는 현대 도시의 대략적 중심점만 사용. **당대 국경 복원/지리 고증/공개 승인 미완료**.
 - 인물화·사건 삽화는 아직 생성·승인되지 않음.
 
