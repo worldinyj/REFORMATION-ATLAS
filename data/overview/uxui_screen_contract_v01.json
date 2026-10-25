@@ -1,0 +1,326 @@
+{
+  "schema_version": "0.1",
+  "milestone": "S4_UXUI",
+  "date": "2026-10-25",
+  "status": "DRAFT",
+  "routes": [
+    {
+      "id": "SC-01",
+      "page_key": "home",
+      "route_pattern": "/",
+      "purpose": "8권 개요와 시작할 탐색 경로",
+      "components": [
+        "HeroIntro",
+        "VolumeGrid",
+        "FeaturedTimeline",
+        "SourceMethodNote"
+      ],
+      "empty": "승인된 콘텐츠가 없으면 비공개 로컬 검토 안내",
+      "primary": "volume_or_search",
+      "status": "DESIGN_DRAFT"
+    },
+    {
+      "id": "SC-02",
+      "page_key": "volumes",
+      "route_pattern": "/volumes",
+      "purpose": "8권 전체 구조 및 제8권의 자료실 성격",
+      "components": [
+        "VolumeGrid",
+        "VolumeSearch",
+        "PeriodVsArchiveLabels"
+      ],
+      "empty": "권 데이터 오류를 표시하고 임의 권 생성 금지",
+      "primary": "choose_volume",
+      "status": "DESIGN_DRAFT"
+    },
+    {
+      "id": "SC-03",
+      "page_key": "volume",
+      "route_pattern": "/volumes/:volumeId",
+      "purpose": "권별 개요·관련 인물·사건·문헌·주제",
+      "components": [
+        "Breadcrumb",
+        "VolumeHeading",
+        "OverviewText",
+        "LinkedEntityTabs",
+        "Sources"
+      ],
+      "empty": "개요 및 승인된 링크 없을 시 준비 중",
+      "primary": "choose_linked_item",
+      "status": "DESIGN_DRAFT"
+    },
+    {
+      "id": "SC-04",
+      "page_key": "people",
+      "route_pattern": "/people",
+      "purpose": "인물 카드 검색·권별 필터",
+      "components": [
+        "SearchField",
+        "VolumeFilter",
+        "PersonCardGrid",
+        "PaginationIfNeeded"
+      ],
+      "empty": "검색 결과 없음과 자료 자체 없음 구별",
+      "primary": "open_person",
+      "status": "DESIGN_DRAFT"
+    },
+    {
+      "id": "SC-05",
+      "page_key": "person",
+      "route_pattern": "/people/:personId",
+      "purpose": "인물 개요, 관련 사건·문헌 및 심층 확장 공간",
+      "components": [
+        "Breadcrumb",
+        "PersonHeader",
+        "TimelineSnippet",
+        "RelatedDocuments",
+        "DepthSections",
+        "Provenance"
+      ],
+      "empty": "심층 자료 준비 중; 개요와 출처는 보존",
+      "primary": "follow_relationship",
+      "status": "DESIGN_DRAFT"
+    },
+    {
+      "id": "SC-06",
+      "page_key": "timeline",
+      "route_pattern": "/timeline",
+      "purpose": "사건 정렬·권 필터, 연대 정확성 안내",
+      "components": [
+        "EraFilter",
+        "DatePrecisionLegend",
+        "EventTimeline",
+        "SourceDrawer"
+      ],
+      "empty": "검색 조건에 맞는 사건 없음",
+      "primary": "open_event",
+      "status": "DESIGN_DRAFT"
+    },
+    {
+      "id": "SC-07",
+      "page_key": "events",
+      "route_pattern": "/events/:eventId",
+      "purpose": "사건 상세 개요·관련 인물/문헌",
+      "components": [
+        "EventDateAndPrecision",
+        "EventNarrative",
+        "RelatedEntities",
+        "Provenance"
+      ],
+      "empty": "사료/관련 항목 미비는 구체적으로 표시",
+      "primary": "open_related",
+      "status": "DESIGN_DRAFT"
+    },
+    {
+      "id": "SC-08",
+      "page_key": "documents",
+      "route_pattern": "/documents",
+      "purpose": "문헌 제목/판본/저술연대 기준 탐색",
+      "components": [
+        "DocumentFilter",
+        "WitnessTypeLegend",
+        "DocumentList"
+      ],
+      "empty": "검증/공개 가능한 문헌 없음",
+      "primary": "open_document",
+      "status": "DESIGN_DRAFT"
+    },
+    {
+      "id": "SC-09",
+      "page_key": "document",
+      "route_pattern": "/documents/:documentId",
+      "purpose": "저술·편집판·번역/요약 출처를 정확히 구별",
+      "components": [
+        "BibliographyHeader",
+        "WitnessLayers",
+        "Summary",
+        "AccessLink",
+        "Provenance"
+      ],
+      "empty": "원문 미열람/번역 준비 중을 명시",
+      "primary": "open_source",
+      "status": "DESIGN_DRAFT"
+    },
+    {
+      "id": "SC-10",
+      "page_key": "places",
+      "route_pattern": "/places",
+      "purpose": "현대 도시 지명과 역사적 맥락의 텍스트 목록",
+      "components": [
+        "PlaceList",
+        "VolumeFilter",
+        "GeolocationDisclaimer"
+      ],
+      "empty": "좌표 미검증으로 지도 없음 (지도 빈 화면 아닌 목록)",
+      "primary": "open_related_event",
+      "status": "DESIGN_DRAFT"
+    },
+    {
+      "id": "SC-11",
+      "page_key": "topics",
+      "route_pattern": "/topics",
+      "purpose": "10개 시대 횡단 핵심 주제",
+      "components": [
+        "TopicGrid",
+        "CrossVolumeLabels",
+        "SourceNote"
+      ],
+      "empty": "내용이 없는 주제는 자료 준비 중",
+      "primary": "open_topic",
+      "status": "DESIGN_DRAFT"
+    },
+    {
+      "id": "SC-12",
+      "page_key": "topic",
+      "route_pattern": "/topics/:topicId",
+      "purpose": "관련 권·인물·사건·문헌으로 가는 주제 허브",
+      "components": [
+        "TopicIntro",
+        "ComparisonSummary",
+        "RelatedEntities",
+        "SourceNotes"
+      ],
+      "empty": "학술 논쟁 부분은 후속 연구",
+      "primary": "follow_topic",
+      "status": "DESIGN_DRAFT"
+    },
+    {
+      "id": "SC-13",
+      "page_key": "search",
+      "route_pattern": "/search",
+      "purpose": "한국어·영문·라틴어 별칭 통합 검색",
+      "components": [
+        "QueryInput",
+        "TypeFilters",
+        "SearchResults",
+        "ZeroResults"
+      ],
+      "empty": "일치 항목 없음/비공개 항목 검색 제외",
+      "primary": "open_result",
+      "status": "DESIGN_DRAFT"
+    },
+    {
+      "id": "SC-14",
+      "page_key": "about",
+      "route_pattern": "/about",
+      "purpose": "프로젝트 범위·출처·역사학/AI 이미지 고지",
+      "components": [
+        "Methodology",
+        "EditorialStatus",
+        "VersionNotice",
+        "ContactLater"
+      ],
+      "empty": "출처·라이선스 미확인 정보는 공개하지 않음",
+      "primary": "understand_limits",
+      "status": "DESIGN_DRAFT"
+    }
+  ],
+  "journeys": [
+    {
+      "id": "FLOW-01",
+      "name": "처음 방문 → 인물",
+      "steps": [
+        "home",
+        "volumes",
+        "volume",
+        "person",
+        "events",
+        "document"
+      ],
+      "test": "권→인물→사건→문헌으로 탐색"
+    },
+    {
+      "id": "FLOW-02",
+      "name": "검색 → 역사 주제",
+      "steps": [
+        "search",
+        "topics",
+        "topic",
+        "person"
+      ],
+      "test": "루터, Luther, 성찬론 별칭"
+    },
+    {
+      "id": "FLOW-03",
+      "name": "연대의 불확실성 이해",
+      "steps": [
+        "timeline",
+        "events",
+        "document"
+      ],
+      "test": "1420년 전후/1436-07-05/06 구분"
+    },
+    {
+      "id": "FLOW-04",
+      "name": "한국인 초기 신앙사",
+      "steps": [
+        "volumes",
+        "volume",
+        "timeline",
+        "people"
+      ],
+      "test": "VOL-07의 1784/1880년대 차이"
+    },
+    {
+      "id": "FLOW-05",
+      "name": "문헌 판본 한계 알기",
+      "steps": [
+        "documents",
+        "document",
+        "about"
+      ],
+      "test": "원저작/번역/서평 구별"
+    },
+    {
+      "id": "FLOW-06",
+      "name": "개요에서 심층 확장",
+      "steps": [
+        "people",
+        "person",
+        "document"
+      ],
+      "test": "깊이 블록 추가 시 URL·ID 유지"
+    }
+  ],
+  "navigation": {
+    "desktop": [
+      "8권",
+      "인물",
+      "연대표",
+      "문헌",
+      "사상/주제",
+      "검색"
+    ],
+    "mobile": "single menu + search, visible breadcrumbs",
+    "special_vol08": "transversal thematic archive, not ninth/extra period"
+  },
+  "layout": {
+    "mobile_min": 320,
+    "tablet": 768,
+    "desktop": 1200,
+    "large_test": 1440,
+    "breakpoints_provisional": true,
+    "reading_max_width_rem": 46,
+    "wide_grid_max_width_rem": 76
+  },
+  "tokens": {
+    "style": "quiet editorial, contemporary historical atlas",
+    "colors": "neutral paper/ink; one restrained accent (to be usability-tested)",
+    "type": "Korean sans for body; optional restrained display serif for main editorial heading",
+    "spacing": "4 or 8 pixel grid proposal",
+    "focus": "visible keyboard focus indicator; do not rely on color alone"
+  },
+  "content_disclosure": {
+    "show_source_tier": true,
+    "show_approximate_dates": true,
+    "show_draft_only_in_local_preview": true,
+    "hide_unapproved_from_public": true,
+    "unverified_place_pins": 0,
+    "ai_portrait_public_count": 0
+  },
+  "release_gate": {
+    "approved": false,
+    "can_ship": false,
+    "wireframes_reviewed_by_human": false
+  }
+}

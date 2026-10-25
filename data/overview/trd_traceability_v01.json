@@ -1,0 +1,242 @@
+{
+  "schema_version": "0.1",
+  "milestone": "S3_TRD",
+  "date": "2026-10-25",
+  "status": "DRAFT",
+  "branch": "plan/atlas-design-v01",
+  "parent_requirements": "data/overview/prd_acceptance_v01.json",
+  "proposed_stack": {
+    "frontend": "Astro + TypeScript (preferred proposal, not approved)",
+    "styles": "CSS custom properties + small accessible components",
+    "runtime": "static output for P0",
+    "data": "JSON/Markdown in Git (no mandatory database)",
+    "search": "build-time searchable static approved-only index",
+    "hosting": "Cloudflare Pages candidate after approval; not configured",
+    "admin": "Git PR review initially; CMS deferred",
+    "maps": "P1 after coordinate verification"
+  },
+  "contracts": {
+    "canonical_id": {
+      "people": "stable canonical person ID (prefer existing PER for matched 3)",
+      "relationship": "typed OV-R references resolved through alias mapping",
+      "deep": "same entity ID, separate content depth block",
+      "no_silent_rewrite": true
+    },
+    "evidence": {
+      "source_id_required": true,
+      "access_class_required": true,
+      "rights_separate": true,
+      "editorial_status_separate": true
+    },
+    "publish": {
+      "required_flags": [
+        "editorial_approved",
+        "rights_cleared_if_media",
+        "publication_approved"
+      ],
+      "draft_in_public": false,
+      "deny_by_default": true,
+      "preview": "local-only or verified authenticated access; robots noindex alone insufficient"
+    },
+    "date": {
+      "display_from": "date_label",
+      "sort_from": "year_start",
+      "precision_preserved": true,
+      "approximate_day_invention_forbidden": true
+    },
+    "geo": {
+      "place_name_can_render": true,
+      "coordinates_allowed_only_when": "source-linked_and_human_verified",
+      "currently_verified_count": 0,
+      "disable_map_initially": true
+    }
+  },
+  "routes": [
+    {
+      "key": "home",
+      "path": "/",
+      "title_ko": "홈"
+    },
+    {
+      "key": "volumes",
+      "path": "/volumes",
+      "title_ko": "8권 탐색"
+    },
+    {
+      "key": "volume",
+      "path": "/volumes/:volumeId",
+      "title_ko": "권 상세"
+    },
+    {
+      "key": "people",
+      "path": "/people",
+      "title_ko": "인물 목록"
+    },
+    {
+      "key": "person",
+      "path": "/people/:personId",
+      "title_ko": "인물 상세"
+    },
+    {
+      "key": "timeline",
+      "path": "/timeline",
+      "title_ko": "연대표"
+    },
+    {
+      "key": "events",
+      "path": "/events/:eventId",
+      "title_ko": "사건 상세"
+    },
+    {
+      "key": "documents",
+      "path": "/documents",
+      "title_ko": "문헌 목록"
+    },
+    {
+      "key": "document",
+      "path": "/documents/:documentId",
+      "title_ko": "문헌 상세"
+    },
+    {
+      "key": "places",
+      "path": "/places",
+      "title_ko": "장소 목록"
+    },
+    {
+      "key": "topics",
+      "path": "/topics",
+      "title_ko": "주제 목록"
+    },
+    {
+      "key": "topic",
+      "path": "/topics/:topicId",
+      "title_ko": "주제 상세"
+    },
+    {
+      "key": "search",
+      "path": "/search",
+      "title_ko": "통합 검색"
+    },
+    {
+      "key": "about",
+      "path": "/about",
+      "title_ko": "자료·출처 안내"
+    }
+  ],
+  "tests": [
+    {
+      "req": "FR-001",
+      "domain": "DOM-VOLUME",
+      "route": "ROUTE-VOLUME",
+      "test": "TEST-VOLUMES"
+    },
+    {
+      "req": "FR-002",
+      "domain": "DOM-VOLUME",
+      "route": "ROUTE-VOLUME-DETAIL",
+      "test": "TEST-VOLUME-DETAIL"
+    },
+    {
+      "req": "FR-003",
+      "domain": "DOM-PERSON",
+      "route": "ROUTE-PERSON",
+      "test": "TEST-PERSON"
+    },
+    {
+      "req": "FR-004",
+      "domain": "DOM-EVENT",
+      "route": "ROUTE-TIMELINE",
+      "test": "TEST-DATE"
+    },
+    {
+      "req": "FR-005",
+      "domain": "DOM-DOCUMENT",
+      "route": "ROUTE-DOC",
+      "test": "TEST-WITNESS"
+    },
+    {
+      "req": "FR-006",
+      "domain": "DOM-TOPIC",
+      "route": "ROUTE-TOPIC",
+      "test": "TEST-TOPICS"
+    },
+    {
+      "req": "FR-007",
+      "domain": "DOM-PLACE",
+      "route": "ROUTE-PLACES",
+      "test": "TEST-UNVERIFIED-PLACE"
+    },
+    {
+      "req": "FR-008",
+      "domain": "DOM-SEARCH",
+      "route": "ROUTE-SEARCH",
+      "test": "TEST-SEARCH"
+    },
+    {
+      "req": "FR-009",
+      "domain": "DOM-RELATION",
+      "route": "ROUTE-DETAIL-LINK",
+      "test": "TEST-RELATION"
+    },
+    {
+      "req": "FR-010",
+      "domain": "DOM-SOURCE",
+      "route": "UI-PROVENANCE",
+      "test": "TEST-SOURCE"
+    },
+    {
+      "req": "FR-011",
+      "domain": "DOM-APPROVAL",
+      "route": "BUILD-PUBLIC",
+      "test": "TEST-NONPUBLIC"
+    },
+    {
+      "req": "FR-012",
+      "domain": "DOM-ACCESS",
+      "route": "UI-RESPONSIVE",
+      "test": "TEST-A11Y"
+    },
+    {
+      "req": "FR-013",
+      "domain": "DOM-EMPTY",
+      "route": "UI-EMPTY",
+      "test": "TEST-EMPTY"
+    },
+    {
+      "req": "FR-014",
+      "domain": "DOM-VERSION",
+      "route": "PIPELINE-CONTENT",
+      "test": "TEST-REPLACE"
+    },
+    {
+      "req": "FR-015",
+      "domain": "DOM-ROUTE",
+      "route": "UI-NAVIGATION",
+      "test": "TEST-NAV"
+    },
+    {
+      "req": "FR-016",
+      "domain": "DOM-GEO",
+      "route": "FUTURE-MAP",
+      "test": "TEST-NO-COORDINATES"
+    },
+    {
+      "req": "FR-017",
+      "domain": "DOM-DEPTH",
+      "route": "FUTURE-DEEP",
+      "test": "TEST-OVERVIEW-DEPTH"
+    },
+    {
+      "req": "FR-018",
+      "domain": "DOM-EDGES",
+      "route": "FUTURE-VISUAL",
+      "test": "TEST-TYPED-RELATION"
+    }
+  ],
+  "release_gate": {
+    "approved": false,
+    "can_ship": false,
+    "implementation_started": false,
+    "user_approval_required": true
+  }
+}

@@ -24,3 +24,8 @@
 - 글로벌 인물·사건·관계·장소 ID를 유지하고, 원전 접근 범위·역사적 확실성·편집 리뷰·공개 승인을 독립 상태로 분리.
 - 제3권 V0.9-P4의 10점 이미지·지도 안전 캡션/14개 주장 링크로 시범 연결했다. **읽기 전용 projection 계약**이며 원본 데이터 이관 및 웹 구현은 미수행.
 - G3 역사학 감수, G4 정본 검증과 Human Approver 승인 완료 전에는 G5/PRD/TRD/UXUI/TASKLIST에 '확정' 상태를 부여하지 않는다.
+
+## 8권 공통 웹 MVP 설계 패키지 V0.1 (2026-10-25)
+- [문서 패키지 목차](ATLAS_DESIGN_HANDOFF_V01.md) · [교차검증](ATLAS_DESIGN_QA_V01.md) · [기계 판독용 게이트](../../data/overview/design_readiness_v01.json).
+- PROJECT PLAN → PRD → TRD → UX/UI → TASKLIST 모두 **DRAFT 초안 작성**. PRD 18기능, TRD 매핑 18/18, UX/UI 14화면, TASKLIST 30개.
+- 사용자 승인/웹 앱 구현/운영 배포는 미실행, 제3권 연구 및 `main` 미변경.
