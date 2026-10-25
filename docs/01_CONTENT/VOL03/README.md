@@ -139,3 +139,9 @@
 - [수정 후보 4인물 + 2지도 검토](../../02_MEDIA/VOL03_VISUAL_CANDIDATES_V11.md) · [후보/ZIP 해시 데이터](../../../data/vol03_visual_candidates_v11.json).
 - PNG/WebP·후보 SVG/PNG 파일은 대화 ZIP에만 있으며 GitHub 바이너리 또는 후보 SVG 업로드는 아직 실시하지 않았다. 후보 지도는 과거 ZIP 원본과 현 GitHub SVG의 설명 텍스트 차이 때문에 비교 후 설치해야 한다.
 - 고위험 7점 중 5점에 대해 시각 후보 제작(인물3, 지도2)만 완료, 사건 삽화2 미완료. 최종 고증/배포 승인 대기.
+
+## V1.2 · 사건 삽화 2점 후보와 GitHub 원본 기반 지도 교정 (2026-10-25)
+- [사건 삽화·지도 재검토 보고서](../../02_MEDIA/VOL03_SCENES_AND_MAPS_V12.md) · [후보 색인·해시](../../../data/vol03_visual_candidates_v12.json).
+- `ILL-V03-01/02-R2C01` 2종은 AI 생성 회화 시트에서 추출한 **16:9 독립 크롭 후보**, 대화 ZIP에서만 제공. 정확한 후스 설교 공간/특정 공의회 회의 장면 고증 아님.
+- [GitHub 정본 유래 MAP02-R3C01](../../../assets/maps/candidates/MAP-V03-02-R3C01_oxford_prague_research_links.svg) · [MAP04-R3C01](../../../assets/maps/candidates/MAP-V03-04-R3C01_waldensian_exchange.svg): 기존 지도 정본을 기준으로 범례만 수정한 DRAFT 후보, 본래 지도는 보존.
+- 기존 인물화 4종 R2C01 후보 및 원래 이미지·지도 10개는 승격하지 않음. `main` 미병합 및 `approved=false,can_ship=false`.
