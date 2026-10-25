@@ -78,8 +78,17 @@
       "person_id": "OV-P-016",
       "volume_id": "VOL-04",
       "name_ko": "장 칼뱅",
-      "status": "QUEUED",
-      "priority": 3
+      "status": "DRAFT_CHAPTER_AND_VISUAL_CANDIDATES_COMPLETED",
+      "priority": 3,
+      "block_id": "DEPTH-V04-P016-001",
+      "article": "docs/01_CONTENT/VOL04/CALVIN_DEEP_RESEARCH_V01.md",
+      "metadata": "data/deep/vol04_calvin_v01.json",
+      "sources": 16,
+      "claims": 16,
+      "timeline_anchors": 12,
+      "visual_candidates": 3,
+      "visual_archive_sha256": "d291d8e0f2fed404d7423764500790d313d438fc143d9337cf2a4c97be204be4",
+      "public_visible": false
     }
   ],
   "review_gate": "Research draft creation does not authorize site publication. Require citation, historical review, media rights and user approval."
