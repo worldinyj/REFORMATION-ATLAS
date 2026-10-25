@@ -8,9 +8,12 @@
 4. [03_HUS_AND_PRAGUE.md](03_HUS_AND_PRAGUE.md): 후스와 프라하의 개혁
 5. [04_HUSSITE_MOVEMENTS.md](04_HUSSITE_MOVEMENTS.md): 후스파 전쟁·프라하 4개조·형제단
 6. [05_SYNTHESIS_AND_PITFALLS.md](05_SYNTHESIS_AND_PITFALLS.md): 계보·신학 차이·후대 수용
-7. [06_TIMELINE.md](06_TIMELINE.md): 날짜 정확도를 함께 표시한 연대표
-8. [07_FACTCHECK_MATRIX.md](07_FACTCHECK_MATRIX.md): 단정 금지와 검증 과제
-9. [05_SOURCE_REGISTER.md](05_SOURCE_REGISTER.md): 학술·전시 출처 18건과 실제 접근 범위
+7. [08_THEOLOGY_EUCHARIST_COMPARE.md](08_THEOLOGY_EUCHARIST_COMPARE.md): 위클리프·후스·야쿠베크 성찬론 비교
+8. [09_PRAGUE_ARTICLES_AND_COMPACTATA.md](09_PRAGUE_ARTICLES_AND_COMPACTATA.md): 1420~1437 협상의 역사
+9. [10_WALDENSIAN_MEMORY_AND_SOURCES.md](10_WALDENSIAN_MEMORY_AND_SOURCES.md): 1532년과 후대 역사 기억
+10. [06_TIMELINE.md](06_TIMELINE.md): 날짜 정확도를 함께 표시한 연대표
+11. [07_FACTCHECK_MATRIX.md](07_FACTCHECK_MATRIX.md): 단정 금지와 검증 과제
+12. [05_SOURCE_REGISTER.md](05_SOURCE_REGISTER.md): 학술·전시 출처 28건과 실제 접근 범위
 
 ## 연결 산출물
 - [볼륨 3 구조화 확장 데이터](../../../data/vol03_extension.json): 추가 인물 6명, 운동 4개, 위치 8곳, 사건 14건, 관계 7개
