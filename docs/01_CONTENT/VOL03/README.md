@@ -122,3 +122,9 @@
 - 과거 바이너리·기존 본문·원래 182/365 통합색인은 불변, Draft PR #2 유지, `main` 미병합 및 공개 승인 금지.
 
 - V0.9 사용자용 Word `REFORMATION_ATLAS_VOL03_V09_BATCH_REVIEW.docx` (12쪽, SHA256 `44467b08b3e6a4263fd2a3e68c2561c0d858c37f5444679b0529e3689b2860c5`), 교육 지도·기존 AI 그림 ZIP이 함께 포함된 `REFORMATION_ATLAS_VOL03_V09_BATCH_REVIEW_BUNDLE.zip` (SHA256 `c730b1d1db34828b37b64398e41319515a1a982b4dfb5417b40c84e31e6a68b2`). 대화 다운로드 전용, GitHub 바이너리 미수록.
+
+## V0.9-P4 — 독자 표시·안전 캡션과 데이터 연결 (2026-10-25)
+- [25_READER_DISPLAY_AND_CAPTION_V09_P4.md](25_READER_DISPLAY_AND_CAPTION_V09_P4.md): AI 인물화 4·사건 장면 2·SVG 지도 4의 역사 고증 문구, 독자용 설명, 대체 텍스트, 실제 이동 경로 오인 방지.
+- [10점 미디어/14개 역사 주장 연결 오버레이](../../../data/vol03_editorial_overlay_v09_p4.json): 출처/대상 누락 0건, `show_in_public=false` 및 승인 대기 유지. 기존 Markdown·통합 그래프·이미지 바이너리 수정 없음.
+- [G4 8권 공통 데이터 계약 연구용 초안](../../03_PRODUCT/G4_ATLAS_DATA_CONTRACT_V01.md) · [계약 JSON](../../../data/contracts/atlas_contract_v01.json) · [검증 상태](../../03_PRODUCT/G4_DATA_READINESS_V01.md). 글로벌 ID를 재활용하고 원전/편집본/번역, 역사 확실성/공개 승인을 서로 구분. **정식 G4 및 G5 승인 아님**.
+- 원전 원문 교감·7개 HIGH 시각자료의 전문가 고증, 사용자 승인과 로컬 전체 Python 테스트는 여전히 별도 게이트.
