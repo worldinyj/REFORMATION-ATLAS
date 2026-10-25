@@ -1,0 +1,107 @@
+{
+  "schema_version": "1.0",
+  "volume": "VOL-03",
+  "milestone": "V1.3",
+  "date": "2026-10-25",
+  "review_status": "EDITORIAL_REVISED_EXPERT_PENDING",
+  "candidates": [
+    {
+      "id": "PRT-V03-01-R2C01",
+      "decision": "REVIEW_PENDING",
+      "unresolved_ko": "생전 얼굴·평신도 복식·12세기 리옹 건축",
+      "editorial_reviewed": true,
+      "historian_approved": false,
+      "public_visible": false
+    },
+    {
+      "id": "PRT-V03-02-R2C01",
+      "decision": "REVIEW_PENDING",
+      "unresolved_ko": "14세기 옥스퍼드 의복·필사본·학술 공간",
+      "editorial_reviewed": true,
+      "historian_approved": false,
+      "public_visible": false
+    },
+    {
+      "id": "PRT-V03-03-R2C01",
+      "decision": "REVIEW_PENDING",
+      "unresolved_ko": "후스의 생전 초상·수염·모자·설교대",
+      "editorial_reviewed": true,
+      "historian_approved": false,
+      "public_visible": false
+    },
+    {
+      "id": "PRT-V03-04-R2C01",
+      "decision": "REVIEW_PENDING",
+      "unresolved_ko": "지슈카 군장·장비·눈 부상 방향",
+      "editorial_reviewed": true,
+      "historian_approved": false,
+      "public_visible": false
+    },
+    {
+      "id": "ILL-V03-01-R2C01",
+      "decision": "REVIEW_PENDING",
+      "unresolved_ko": "당시 베들레헴 예배당 원형과 청중 배치",
+      "editorial_reviewed": true,
+      "historian_approved": false,
+      "public_visible": false
+    },
+    {
+      "id": "ILL-V03-02-R2C01",
+      "decision": "REVISE_HIGH",
+      "unresolved_ko": "붉은 성직자 예복과 문장·회의 참가자·장소의 오인 가능성",
+      "editorial_reviewed": true,
+      "historian_approved": false,
+      "public_visible": false
+    },
+    {
+      "id": "MAP-V03-02-R3C01",
+      "decision": "REVIEW_PENDING",
+      "unresolved_ko": "텍스트 영향과 여행 경로의 혼동",
+      "editorial_reviewed": true,
+      "historian_approved": false,
+      "public_visible": false
+    },
+    {
+      "id": "MAP-V03-04-R3C01",
+      "decision": "REVIEW_PENDING",
+      "unresolved_ko": "문헌 교류와 실제 방문 장소·순서의 혼동",
+      "editorial_reviewed": true,
+      "historian_approved": false,
+      "public_visible": false
+    }
+  ],
+  "publication_gate": {
+    "approved": false,
+    "can_ship": false,
+    "accepted_candidate_count": 0
+  },
+  "installation": {
+    "filename": "REFORMATION_ATLAS_VOL03_V13_INSTALL_PACKAGE.zip",
+    "sha256": "b29df503033edc4f77b9c98a5154edb1549b8d1e48687b241eea64368d37bce7",
+    "file_count": 6,
+    "install_location": "assets/illustrations/vol03/candidates/",
+    "user_local_synchronized": false,
+    "git_binary_committed": false,
+    "isolated_tests": [
+      "verify_only_pass",
+      "six_copy_pass",
+      "idempotent_repeat_pass",
+      "tamper_rejected_pass"
+    ]
+  },
+  "canonical_invariants": {
+    "nodes": 182,
+    "edges": 365,
+    "claims": 14,
+    "media_manifest_unchanged": true,
+    "original_sources_unchanged": true
+  },
+  "expert_gates": [
+    "medieval_civilian_and_clerical_dress",
+    "Jan_Zizka_face_and_military_equipment",
+    "Bethlehem_Chapel_architecture",
+    "Basilian_and_Bohemian_heraldry",
+    "1433_1435_1436_provenance",
+    "human_final_publication_review"
+  ]
+}
