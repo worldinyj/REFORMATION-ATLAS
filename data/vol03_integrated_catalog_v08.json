@@ -1618,6 +1618,76 @@
       "source_path": "docs/01_CONTENT/VOL03/16_CAUSAL_CASE_STUDIES_V05.md",
       "review_status": "DRAFT",
       "publication_allowed": false
+    },
+    {
+      "id": "SRC-0001",
+      "type": "source_reference",
+      "title": "SRC-0001",
+      "source_path": "docs/01_CONTENT/RESEARCH_SOURCES.md",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "SRC-0002",
+      "type": "source_reference",
+      "title": "SRC-0002",
+      "source_path": "docs/01_CONTENT/RESEARCH_SOURCES.md",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "SRC-0003",
+      "type": "source_reference",
+      "title": "SRC-0003",
+      "source_path": "docs/01_CONTENT/RESEARCH_SOURCES.md",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "SRC-0004",
+      "type": "source_reference",
+      "title": "SRC-0004",
+      "source_path": "docs/01_CONTENT/RESEARCH_SOURCES.md",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "SRC-0005",
+      "type": "source_reference",
+      "title": "SRC-0005",
+      "source_path": "docs/01_CONTENT/RESEARCH_SOURCES.md",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "SRC-0006",
+      "type": "source_reference",
+      "title": "SRC-0006",
+      "source_path": "docs/01_CONTENT/RESEARCH_SOURCES.md",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "SRC-0007",
+      "type": "source_reference",
+      "title": "SRC-0007",
+      "source_path": "docs/01_CONTENT/RESEARCH_SOURCES.md",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "SRC-0008",
+      "type": "source_reference",
+      "title": "SRC-0008",
+      "source_path": "docs/01_CONTENT/RESEARCH_SOURCES.md",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "SRC-0009",
+      "type": "source_reference",
+      "title": "SRC-0009",
+      "source_path": "docs/01_CONTENT/RESEARCH_SOURCES.md",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "SRC-0010",
+      "type": "source_reference",
+      "title": "SRC-0010",
+      "source_path": "docs/01_CONTENT/RESEARCH_SOURCES.md",
+      "review_status": "DRAFT"
     }
   ],
   "edges": [
@@ -3698,6 +3768,138 @@
       "from": "MV-V03-04",
       "to": "MAP-V03-04",
       "type": "points_to_map",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "PER-0001",
+      "to": "SRC-0001",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "PER-0001",
+      "to": "SRC-0002",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "PER-0002",
+      "to": "SRC-0001",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "PER-0002",
+      "to": "SRC-0003",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "PER-0002",
+      "to": "SRC-0010",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "PER-0003",
+      "to": "SRC-0005",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "PER-0003",
+      "to": "SRC-0006",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "PER-0003",
+      "to": "SRC-0007",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "PER-0003",
+      "to": "SRC-0008",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "EVT-0001",
+      "to": "SRC-0002",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "EVT-0002",
+      "to": "SRC-0010",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "EVT-0003",
+      "to": "SRC-0005",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "EVT-0003",
+      "to": "SRC-0006",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "EVT-0003",
+      "to": "SRC-0008",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "EVT-0004",
+      "to": "SRC-0004",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "EVT-0004",
+      "to": "SRC-0007",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "REL-0001",
+      "to": "SRC-0001",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "REL-0001",
+      "to": "SRC-0003",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "REL-0002",
+      "to": "SRC-0004",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "AST-0001",
+      "to": "SRC-0001",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "AST-0001",
+      "to": "SRC-0003",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "AST-0001",
+      "to": "SRC-0004",
+      "type": "grounded_in",
       "evidence_source_ids": []
     }
   ]
