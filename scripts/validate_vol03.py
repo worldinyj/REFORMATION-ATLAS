@@ -112,4 +112,21 @@ if errors:
     for issue in errors:
         print(" -", issue)
     sys.exit(1)
+claims = load("data/vol03_primary_claims.json")["claims"]
+claim_ids = [item["id"] for item in claims]
+check(len(claim_ids) == len(set(claim_ids)), "Duplicate source claim IDs")
+known_subject_ids = all_actors | all_events
+for claim in claims:
+    check(claim.get("subject_id") in known_subject_ids, f"{claim['id']}: unknown subject")
+    source_check(claim)
+    check(bool(claim.get("textual_basis")), f"{claim['id']}: missing textual_basis")
+    check(bool(claim.get("evidence_tier")), f"{claim['id']}: missing evidence_tier")
+    check(bool(claim.get("limitations_ko")), f"{claim['id']}: missing limitations")
+    check(claim.get("review_status") == "DRAFT", f"{claim['id']}: cannot auto-approve claims")
+if errors:
+    print("FAIL: " + str(len(errors)) + " source claim issue(s)")
+    for issue in errors:
+        print(" -", issue)
+    sys.exit(1)
+print(f"PASS: {len(claims)} provenance claim cards checked")
 print(f"PASS: Vol03 {len(ext['actors'])} actors, {len(ext['events'])} events, {len(ext['relationships'])} relations, {len(ext['locations'])} locations, {len(source_ids)} sources, {len(manifest)} assets, {len(claims["claims"])} claims.")
