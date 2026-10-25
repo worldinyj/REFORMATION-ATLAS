@@ -22,7 +22,7 @@ def load(relpath):
 ext = load("data/vol03_extension.json")
 base = {k: load(f"data/{k}.json") for k in ["people", "events", "locations", "relations"]}
 sources_text = (VOL / "05_SOURCE_REGISTER.md").read_text(encoding="utf-8")
-source_ids = {f"V03-S{i:02}" for i in range(1, 19)}
+source_ids = {f"V03-S{i:02}" for i in range(1, 36)}
 found = set(re.findall(r"V03-S\d{2}", sources_text))
 check(source_ids <= found, "Missing source IDs in VOL03 register")
 base_sources = set(re.findall(r"SRC-\d{4}", (ROOT / "docs/01_CONTENT/RESEARCH_SOURCES.md").read_text(encoding="utf-8")))
@@ -80,6 +80,19 @@ for relation in ext["relationships"]:
     check(relation.get("to") in all_actors | all_events, f"{relation['id']}: invalid target")
     source_check(relation)
 
+claims = load("data/vol03_source_claims.json")
+claim_ids = [x["id"] for x in claims.get("claims", [])]
+check(len(claim_ids) == len(set(claim_ids)), "Duplicate primary claim IDs")
+check(claims.get("publication_status") == "DRAFT", "Source claims unexpectedly published")
+for claim in claims.get("claims", []):
+    check(bool(re.fullmatch(r"CLM-V03-\\d{3}", claim.get("id", ""))), f"Malformed claim ID {claim.get('id')}")
+    check(claim.get("evidence_tier") in claims.get("evidence_tiers", {}), f"Unknown tier: {claim.get('id')}")
+    check(bool(claim.get("locator")), f"Missing edition locator {claim.get('id')}")
+    check(bool(claim.get("pending")), f"Missing limitations {claim.get('id')}")
+    for ref in claim.get("subject_ids", []):
+        check(ref in all_actors, f"Unknown claim subject {claim.get('id')} -> {ref}")
+    source_check(claim)
+
 manifest = load("assets/asset_manifest.json")
 for asset in manifest:
     check(bool(asset.get("rights_status")), f"{asset['asset_id']}: rights missing")
@@ -99,4 +112,4 @@ if errors:
     for issue in errors:
         print(" -", issue)
     sys.exit(1)
-print(f"PASS: Vol03 {len(ext['actors'])} actors, {len(ext['events'])} events, {len(ext['relationships'])} relations, {len(ext['locations'])} locations, {len(source_ids)} sources, {len(manifest)} assets.")
+print(f"PASS: Vol03 {len(ext['actors'])} actors, {len(ext['events'])} events, {len(ext['relationships'])} relations, {len(ext['locations'])} locations, {len(source_ids)} sources, {len(manifest)} assets, {len(claims["claims"])} claims.")
