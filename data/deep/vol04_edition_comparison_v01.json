@@ -1,0 +1,92 @@
+{
+  "schema_version": "0.1",
+  "status": "RESEARCH_COMPARISON_DRAFT",
+  "publication_approved": false,
+  "source_text_collated": false,
+  "comparison_cases": [
+    {
+      "case_id": "VOL04-CMP-001",
+      "work_family": "OV-D-012",
+      "type": "STRUCTURAL",
+      "editions": [
+        {
+          "year": 1536,
+          "language": "la",
+          "chapters": 6,
+          "books": 1
+        },
+        {
+          "year": 1539,
+          "language": "la",
+          "chapters": 17,
+          "books": 1
+        },
+        {
+          "year": 1559,
+          "language": "la",
+          "chapters": 80,
+          "books": 4
+        }
+      ],
+      "observation_ko": "1539년에 신학 교재형 확장과 그리스도인의 삶에 관한 독립 장이 추가되었으며 1559년 네 권으로 재배열되었다.",
+      "interpretation_ko": "교리 문답적 개관에서 조직적 신학 교육을 위한 배치로 발전하였으나 원래 교리가 전면 폐기되었다는 뜻은 아니다.",
+      "evidence_level": "SCHOLARLY_STRUCTURE_SUMMARY",
+      "sources": [
+        "https://academic.oup.com/book/50318/chapter-abstract/422710493",
+        "https://learn.ligonier.org/articles/savoring-institutes",
+        "https://www.crossway.org/articles/an-important-chapter-that-calvin-added-to-the-second-edition-of-his-institutes/"
+      ]
+    },
+    {
+      "case_id": "VOL04-CMP-002",
+      "work_family": "WORK-PROP-V04-LUTHER-NT",
+      "type": "ICONOGRAPHIC_VARIANT",
+      "editions": [
+        {
+          "year": 1522,
+          "month": 9,
+          "language": "de",
+          "kind": "September Testament"
+        },
+        {
+          "year": 1522,
+          "month": 12,
+          "language": "de",
+          "kind": "December Testament",
+          "holding": "Bridwell BRA0930"
+        }
+      ],
+      "observation_ko": "계시록 17~18장 목판의 교황 삼중관 묘사가 12월판에서 제거되었다는 소장기관 전시 설명이 있다.",
+      "interpretation_ko": "도상 수정 사례이며 신약 본문 구절의 이문 대조 결과로 표시하지 않는다.",
+      "evidence_level": "INSTITUTIONAL_EXHIBITION_DESCRIPTION",
+      "sources": [
+        "https://bridwell.omeka.net/exhibits/show/luther/lutherbibles/dezembertestament",
+        "https://www.themorgan.org/exhibitions/online/word-and-image/7"
+      ]
+    },
+    {
+      "case_id": "VOL04-CMP-003",
+      "work_family": "OV-D-011",
+      "type": "DOCTRINAL_WORDING_DISPUTE",
+      "editions": [
+        {
+          "year": 1530,
+          "language": "la",
+          "kind": "submitted tradition"
+        },
+        {
+          "year": 1540,
+          "language": "la",
+          "kind": "Variata"
+        }
+      ],
+      "observation_ko": "1540년 수정판 성찬론 제10조의 성찬에서 그리스도의 몸과 피를 표현하는 문구가 1530년 형태와 다르다.",
+      "interpretation_ko": "변경의 교리적 귀결에 대해서는 상이한 루터교·개혁파 및 역사학적 해석을 구분하고 어느 한 해석을 확정하지 않는다.",
+      "evidence_level": "SECONDARY_COMPARISON_UNCOLLATED",
+      "sources": [
+        "https://www.augsburg1540.com/1530-1540-comparison-text.html",
+        "https://www.augsburg1540.com/history.html"
+      ]
+    }
+  ]
+}
