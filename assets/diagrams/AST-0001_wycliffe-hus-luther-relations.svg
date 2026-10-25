@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="580" viewBox="0 0 1280 580" role="img" aria-labelledby="title desc">
+  <title id="title">위클리프, 얀 후스, 루터: 서로 다른 두 가지 역사적 연결</title>
+  <desc id="desc">위클리프에서 후스로 이어진 저술 영향은 실선으로, 후스의 선례가 루터 시대에 재해석된 관계는 점선으로 구분한 자체 제작 개념도이다. 후스가 루터를 직접 가르친 것은 아니다.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#355d73" stroke-width="2"/></marker>
+  </defs>
+  <rect width="1280" height="580" fill="#f7f3e8"/>
+  <rect x="28" y="25" width="1224" height="527" rx="18" fill="#fffdf8" stroke="#d5cabc" stroke-width="2"/>
+  <text x="64" y="87" font-size="31" font-family="Noto Sans KR, Apple SD Gothic Neo, sans-serif" font-weight="700" fill="#172f40">종교개혁 사상의 연결: 선구자에서 후대 수용까지</text>
+  <text x="64" y="120" font-size="18" font-family="Noto Sans KR, Apple SD Gothic Neo, sans-serif" fill="#56636c">정확한 역사 관계는 ‘직접 영향’과 ‘후대의 재해석’을 구분해야 합니다.</text>
+  <g font-family="Noto Sans KR, Apple SD Gothic Neo, sans-serif">
+    <rect x="68" y="189" rx="12" width="315" height="205" fill="#eff3f1" stroke="#a8bdb6" stroke-width="2"/>
+    <text x="92" y="239" font-size="15" font-weight="600" fill="#557269">PER-0001 · 잉글랜드</text>
+    <text x="92" y="292" font-size="36" font-weight="750" fill="#172f40">존 위클리프</text>
+    <text x="92" y="330" font-size="20" fill="#405965">약 1320년대 ~ 1384</text>
+    <text x="92" y="366" font-size="16" fill="#405965">성경과 교회 권위의 논쟁</text>
+    <rect x="485" y="189" rx="12" width="315" height="205" fill="#edf2f7" stroke="#b4c4d5" stroke-width="2"/>
+    <text x="509" y="239" font-size="15" font-weight="600" fill="#557269">PER-0002 · 보헤미아</text>
+    <text x="509" y="292" font-size="36" font-weight="750" fill="#172f40">얀 후스</text>
+    <text x="509" y="330" font-size="20" fill="#405965">약 1372 ~ 1415</text>
+    <text x="509" y="366" font-size="16" fill="#405965">프라하의 교회 개혁과 설교</text>
+    <rect x="902" y="189" rx="12" width="315" height="205" fill="#f5f0e7" stroke="#cbbda7" stroke-width="2"/>
+    <text x="926" y="239" font-size="15" font-weight="600" fill="#557269">PER-0003 · 독일 지역</text>
+    <text x="926" y="292" font-size="36" font-weight="750" fill="#172f40">마르틴 루터</text>
+    <text x="926" y="330" font-size="20" fill="#405965">1483 ~ 1546</text>
+    <text x="926" y="366" font-size="16" fill="#405965">1517년 이후 개혁 논쟁 확대</text>
+    <path d="M385 290 H477" stroke="#355d73" stroke-width="4" marker-end="url(#arrow)" fill="none"/>
+    <path d="M801 290 H893" stroke="#355d73" stroke-width="4" stroke-dasharray="12 8" marker-end="url(#arrow)" fill="none"/>
+    <text x="430" y="265" font-size="14" text-anchor="middle" fill="#355d73">저술 영향</text>
+    <text x="847" y="265" font-size="14" text-anchor="middle" fill="#355d73">후대 수용</text>
+    <path d="M77 441 H1210" stroke="#d4dcd9" stroke-width="1.5"/>
+    <path d="M85 479 H142" stroke="#355d73" stroke-width="3"/><text x="152" y="486" font-size="17" fill="#394d57">문헌을 통한 사상 영향</text>
+    <path d="M454 479 H511" stroke="#355d73" stroke-width="3" stroke-dasharray="8 6"/><text x="520" y="486" font-size="17" fill="#394d57">후대의 역사적 재평가·수용</text>
+    <text x="86" y="521" font-size="14" fill="#61717a">역사주의: 후스와 루터는 직접 사제 관계가 아닙니다. 출처 SRC-0001, SRC-0003, SRC-0004.</text>
+  </g>
+</svg>
