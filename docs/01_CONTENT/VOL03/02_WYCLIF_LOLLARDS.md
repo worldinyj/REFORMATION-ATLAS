@@ -32,3 +32,7 @@
 4. 후대 개신교인들이 롤라드파를 기억한 방식은 당대의 실제 모습과 어떤 차이가 있는가?
 
 참고: V03-S05~S09. 관련 자료: PER-0001, EVT-0001, REL-0001. 후속 과제: 1차 라틴 문헌의 특정 문장과 현대 번역본 비교.
+
+## 원전 직접 대조 보완 (2026-10-25 · V0.3)
+Loserth 편 『De eucharistia』 1892년판의 OCR 전사 Ch. IV 말미(p.108~109)와 Ch. V(p.141)를 확인했다. 위클리프의 논지는 **축성 뒤에도 빵의 실체가 남는다는 주장과 그리스도의 성사적 현존**을 함께 설명해야 한다. Fordham Medieval Sourcebook의 `On the Sacrament of Communion`은 『De eucharistia』가 아니라 『Trialogus』 발췌이므로 문헌 표제를 혼용하지 않는다. [V03-S29,V03-S30]
+세부 인용 및 원전 대조 상태: [11_PRIMARY_SOURCE_AUDIT_V03.md](11_PRIMARY_SOURCE_AUDIT_V03.md) A항.
