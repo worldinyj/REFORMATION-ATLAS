@@ -204,10 +204,47 @@ for entry in art_items:
     else:
         check(False, f"{entry['id']}: invalid pending image state {st}")
 
+
+# V0.7 presentation/UX index is non-published; unresolved image binaries must never
+# be mistakenly marked safe to display.
+presentation = load("data/vol03_presentation_index.json")
+stage_ids = {entry["id"] for entry in art_stage["assets"]}
+map_ids = {"MAP-V03-01", "MAP-V03-02", "MAP-V03-03", "MAP-V03-04"}
+for page in presentation["people_pages"]:
+    check(page["person_id"] in all_actors, f"{page['id']}: unknown person ID")
+    check(page["media_id"] in stage_ids, f"{page['id']}: missing portrait staging ID")
+    check(page["map_id"] in map_ids, f"{page['id']}: unknown map ID")
+    check((ROOT / page["chapter_path"]).is_file(),
+          f"{page['id']}: missing chapter")
+    for source in page["source_ids"]:
+        check(source in source_ids, f"{page['id']}: missing research source {source}")
+    check(not page["media_safe_to_display"] and not page["is_published"],
+          f"{page['id']}: cannot display unpublished AI portrait")
+for page in presentation["visual_story_pages"]:
+    check(page["media_id"] in stage_ids,
+          f"{page['card_id']}: unknown historical reconstruction")
+    check((ROOT / page["chapter_path"]).is_file(),
+          f"{page['card_id']}: missing chapter")
+    ref_ids({"id": page["card_id"], "linked_entity_ids":page["linked_entity_ids"]},
+            "linked_entity_ids", all_actors | all_locs | all_events)
+    check(not page["media_safe_to_display"],
+          f"{page['card_id']}: cannot display unpublished reconstruction")
+for item in presentation["map_views"]:
+    check(item["asset_id"] in map_ids and item["asset_id"] in registered_assets,
+          f"{item['id']}: map SVG not registered")
+for item in presentation["research_views"]:
+    check((ROOT / item["document_path"]).is_file(),
+          f"{item['view_id']}: research document not found")
+    check((ROOT / item["data_path"]).is_file(),
+          f"{item['view_id']}: research JSON not found")
+check(not presentation["publication_gate"]["approved"] and
+      not presentation["publication_gate"]["can_ship"],
+      "Published flags not authorized")
+
 if errors:
     print("FAIL: " + str(len(errors)) + " source claim issue(s)")
     for issue in errors:
         print(" -", issue)
     sys.exit(1)
 print(f"PASS: {len(claims)} provenance claim cards checked")
-print(f"PASS: Vol03 {len(ext['actors'])} actors, {len(ext['events'])} events, {len(ext['relationships'])} relations, {len(ext['locations'])} locations, {len(source_ids)} sources, {len(manifest)} assets, {len(claims)} claims, {len(documents)} provenance objects, {len(axes)} theological axes, {len(cases)} causal cases, {len(maps['points'])} mapped coordinate points, {len(art_items)} staged AI illustrations.")
+print(f"PASS: Vol03 {len(ext['actors'])} actors, {len(ext['events'])} events, {len(ext['relationships'])} relations, {len(ext['locations'])} locations, {len(source_ids)} sources, {len(manifest)} assets, {len(claims)} claims, {len(documents)} provenance objects, {len(axes)} theological axes, {len(cases)} causal cases, {len(maps['points'])} mapped coordinate points, {len(art_items)} staged AI illustrations, {len(presentation["people_pages"])} persona pages.")
