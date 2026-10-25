@@ -1,0 +1,176 @@
+{
+  "schema_version": "0.1",
+  "status": "SPLIT_PROPOSAL_ONLY_NOT_CANONICAL",
+  "date": "2026-10-25",
+  "parent_registry": "data/deep/vol04_witness_bibliography_v02.json",
+  "publication_approved": false,
+  "canonical_ids_issued": 0,
+  "policy": "Split children are research identities only. A textual tradition is not necessarily an extant physical witness. No automated assignment of EDN/TRN/WIT/DOC identifiers.",
+  "groups": [
+    {
+      "parent_proposal_id": "DOC-PROP-V04-004",
+      "work_family": "WORK-PROP-V04-ZWINGLI-ARTICLES",
+      "review": "NEEDS_SOURCE_COLLATION_AND_HUMAN_APPROVAL",
+      "children": [
+        {
+          "split_key": "DOC-PROP-V04-004-S01",
+          "label": "1523 disputation report in composite printing",
+          "kind": "report_component",
+          "language": "de",
+          "year": 1523,
+          "canonical_id": null,
+          "source_copy_shelfmark": null,
+          "source_copy_verified": false,
+          "text_collated": false,
+          "rights_approved": false,
+          "publication_approved": false
+        },
+        {
+          "split_key": "DOC-PROP-V04-004-S02",
+          "label": "1523 67 Articles in composite printing",
+          "kind": "articles_component",
+          "language": "de",
+          "year": 1523,
+          "canonical_id": null,
+          "source_copy_shelfmark": null,
+          "source_copy_verified": false,
+          "text_collated": false,
+          "rights_approved": false,
+          "publication_approved": false
+        }
+      ]
+    },
+    {
+      "parent_proposal_id": "DOC-PROP-V04-008",
+      "work_family": "WORK-PROP-V04-LUTHER-NT",
+      "review": "NEEDS_SOURCE_COLLATION_AND_HUMAN_APPROVAL",
+      "children": [
+        {
+          "split_key": "DOC-PROP-V04-008-S01",
+          "label": "September Testament",
+          "kind": "printed_edition",
+          "language": "de",
+          "year": 1522,
+          "canonical_id": null,
+          "source_copy_shelfmark": null,
+          "source_copy_verified": false,
+          "text_collated": false,
+          "rights_approved": false,
+          "publication_approved": false
+        },
+        {
+          "split_key": "DOC-PROP-V04-008-S02",
+          "label": "December Testament",
+          "kind": "revised_printed_edition",
+          "language": "de",
+          "year": 1522,
+          "canonical_id": null,
+          "source_copy_shelfmark": null,
+          "source_copy_verified": false,
+          "text_collated": false,
+          "rights_approved": false,
+          "publication_approved": false
+        }
+      ]
+    },
+    {
+      "parent_proposal_id": "EDN-PROP-V04-001",
+      "work_family": "OV-D-011",
+      "review": "NEEDS_SOURCE_COLLATION_AND_HUMAN_APPROVAL",
+      "children": [
+        {
+          "split_key": "EDN-PROP-V04-001-S01",
+          "label": "1530 German presentation textual tradition",
+          "kind": "submitted_text_tradition",
+          "language": "de",
+          "year": 1530,
+          "canonical_id": null,
+          "source_copy_shelfmark": null,
+          "source_copy_verified": false,
+          "text_collated": false,
+          "rights_approved": false,
+          "publication_approved": false
+        },
+        {
+          "split_key": "EDN-PROP-V04-001-S02",
+          "label": "1530 Latin submitted textual tradition",
+          "kind": "submitted_text_tradition",
+          "language": "la",
+          "year": 1530,
+          "canonical_id": null,
+          "source_copy_shelfmark": null,
+          "source_copy_verified": false,
+          "text_collated": false,
+          "rights_approved": false,
+          "publication_approved": false
+        }
+      ]
+    },
+    {
+      "parent_proposal_id": "EDN-PROP-V04-002",
+      "work_family": "OV-D-011",
+      "review": "NEEDS_SOURCE_COLLATION_AND_HUMAN_APPROVAL",
+      "children": [
+        {
+          "split_key": "EDN-PROP-V04-002-S01",
+          "label": "1531 authorized Latin printing",
+          "kind": "authorized_print_edition",
+          "language": "la",
+          "year": 1531,
+          "canonical_id": null,
+          "source_copy_shelfmark": null,
+          "source_copy_verified": false,
+          "text_collated": false,
+          "rights_approved": false,
+          "publication_approved": false
+        },
+        {
+          "split_key": "EDN-PROP-V04-002-S02",
+          "label": "1531 authorized German printing",
+          "kind": "authorized_print_edition",
+          "language": "de",
+          "year": 1531,
+          "canonical_id": null,
+          "source_copy_shelfmark": null,
+          "source_copy_verified": false,
+          "text_collated": false,
+          "rights_approved": false,
+          "publication_approved": false
+        }
+      ]
+    },
+    {
+      "parent_proposal_id": "DOC-PROP-V04-010",
+      "work_family": "WORK-PROP-V04-AUGSBURG-APOLOGY",
+      "review": "NEEDS_SOURCE_COLLATION_AND_HUMAN_APPROVAL",
+      "children": [
+        {
+          "split_key": "DOC-PROP-V04-010-S01",
+          "label": "1531 Latin Apology",
+          "kind": "original_print_edition",
+          "language": "la",
+          "year": 1531,
+          "canonical_id": null,
+          "source_copy_shelfmark": null,
+          "source_copy_verified": false,
+          "text_collated": false,
+          "rights_approved": false,
+          "publication_approved": false
+        },
+        {
+          "split_key": "DOC-PROP-V04-010-S02",
+          "label": "1531 German Apology by Justus Jonas",
+          "kind": "translation_edition",
+          "language": "de",
+          "year": 1531,
+          "canonical_id": null,
+          "source_copy_shelfmark": null,
+          "source_copy_verified": false,
+          "text_collated": false,
+          "rights_approved": false,
+          "publication_approved": false
+        }
+      ]
+    }
+  ]
+}
