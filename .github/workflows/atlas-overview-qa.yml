@@ -1,0 +1,14 @@
+name: Eight-Volume Overview QA
+on:
+  push:
+    branches: ['content/atlas-overview-8vol-v01']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  overview-validation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run standard-library overview content checks
+        run: python3 scripts/validate_atlas_overview_v01.py
