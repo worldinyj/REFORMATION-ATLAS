@@ -4,6 +4,12 @@
 > 1차 목표: AI Studio 내부에서 8권의 **현대적 미니멀 웹 골격** 생성·검증 → 제3권/루터 심층 콘텐츠는 추후 점진적으로 추가.
 > 일괄 생성된 이 Tasklist의 모든 개발 Task는 `NOT_STARTED`이며, GitHub에 문서가 있다는 이유로 자동 완료하지 않는다.
 
+## 0. 웹 개발 전에 먼저 수행해야 하는 공통 필수 작업
+- **AT-001은 GitHub 실물 설계 자료 검토가 먼저**: [00 사전 감사](00_GITHUB_DESIGN_PREFLIGHT.md)로 PROJECT PLAN→PRD→TRD→UXUI→TASKLIST, 디자인 토큰, 한국어·영문 프롬프트, 입력 JSON 사이의 일관성·유기성·통일성을 확인한다. 작은 모순은 diff로 수정·재검증하고, GitHub에 접근 불가 또는 중대 모순이면 `PREBUILD_GATE=BLOCKED`로 앱 생성 금지.
+- **AT-004 최초 앱 생성은 AT-001~003 완료 및 설계 범위 승인 후에만** 시작. 첫 앱은 역사 **OVERVIEW 개요**와 8권·공통 상세 뼈대, 이후 위클리프·얀 후스·루터 등 **DEEP_RESEARCH**가 준비되면 동일 ID/URL의 상세 섹션만 증분 추가.
+- **AT-026/029 핵심 검수는 모바일 우선**: 320/360/375/390/430px + 태블릿 768/1024px + 데스크톱 1440px. 모바일 검색·연대표·문헌·출처·필터 등 기능 축소 금지. 실제 검증 전 PASS 처리하지 않는다.
+- **작업 수량과 상태 불변**: 36개 Task(AT-001~036, P0 33/P1 3), 전부 `NOT_STARTED`이며 웹 코드/공개 배포 미실행. 이번 변경은 완료 기준을 강화한 설계 업데이트다.
+
 ## 1. 단계
 - G0 **사람 검토/설계 결정**: 디자인·범위/AI Studio 연결·출판 게이트, 브랜치 고정
 - G1 **AI Studio 첫 생성 + 데이터 정규화**: React TS, 토큰, ID/출처/권리 계약
@@ -56,8 +62,8 @@
 ### AT-001 · 설계/개발 범위 결정 기록
 - 상태: **NOT_STARTED** · G0/P0
 - 선행: 없음
-- 인수 조건: 사용자가 V0.2 화면·기술·데이터·프리뷰 범위를 승인하거나 보완하고 기록
-- QA: design-review sign-off; 승인 전 배포 금지
+- 인수 조건: GitHub에서 5대 설계 문서·토큰·한국어/영문 생성 프롬프트·개요 JSON의 접근 여부와 일관성/유기성/통일성을 먼저 점검하고 FR18·화면14·Task36·ID·게이트·모바일 항목의 PREBUILD_GATE=PASS 감사표와 사용자의 설계 범위 승인 기록을 확보. 접근 불가/BLOCKER면 NO BUILD.
+- QA: inspected branch/paths + consistency matrix(PASS/WARN/BLOCKER) + 최소 수정 diff + 실제 실행 QA + 사용자 승인; GitHub 미연결 시 STOP
 - PRD 추적: FR-011, FR-015
 
 ### AT-002 · 원본 저장소/분기 정책 확정
@@ -70,15 +76,15 @@
 ### AT-003 · AI Studio 연결·프리뷰 접근 안전 점검
 - 상태: **NOT_STARTED** · G0/P0
 - 선행: AT-001, AT-002
-- 인수 조건: AI Studio GitHub 연결 선택, 앱 공유·Publish 미실행 확인
-- QA: 공유 대상 0, 배포 0, 비밀키·권한 확인
+- 인수 조건: AI Studio 연결·권한 확인 및 모바일 핵심 경로의 테스트 장치/브라우저 조건(320/360/375/390/430/768/1024/1440, Safari/Chrome)을 기록하고 공유/Publish 미실행 확인
+- QA: 브랜치·접근권한·비밀키·모바일 테스트 계획 및 Publish=0
 - PRD 추적: FR-011
 
 ### AT-004 · Google AI Studio 초기 Build 프롬프트 적용
 - 상태: **NOT_STARTED** · G1/P0
 - 선행: AT-001, AT-002, AT-003
-- 인수 조건: React+TS 단일 일관 디자인의 홈·내비게이션 초기 코드
-- QA: AI Studio 내부 미리보기 렌더, Git diff
+- 인수 조건: AT-001 PREBUILD_GATE=PASS/사용자 검토 후 Google AI Studio B1 React+TS 앱 골격 생성, OVERVIEW 기반 8권/상세 템플릿과 미래 DEEP_RESEARCH 슬롯·모바일 동등 UX 확보
+- QA: 깃허브 감사 PASS 증거, 홈·권·모바일 320/375/390/430/데스크톱 1440 실측 또는 NOT TESTED, Git diff
 - PRD 추적: FR-001, FR-012
 
 ### AT-005 · 디자인 토큰과 전역 CSS 단일화
@@ -112,8 +118,8 @@
 ### AT-009 · 개요/심층 콘텐츠 DepthBlock 스키마
 - 상태: **NOT_STARTED** · G1/P0
 - 선행: AT-007, AT-008
-- 인수 조건: OVERVIEW와 후속 DEEP_RESEARCH 모듈의 별도 메타정보
-- QA: 기존 URL 유지 + 새 블록만 추가 fixture
+- 인수 조건: OVERVIEW 콘텐츠를 유지한 동일 canonical ID/URL의 후속 DEEP_RESEARCH/PRIMARY_WITNESS 블록 및 승인·개정 이력 스키마
+- QA: 후스/루터 샘플 fixture 추가 전후 URL·관계·개요 보존, 공개 승인 없는 블록 제외
 - PRD 추적: FR-014, FR-017
 
 ### AT-010 · 승인 별도 PUBLIC snapshot 빌더
@@ -231,8 +237,8 @@
 ### AT-026 · 반응형·키보드 사용성·대비 검사
 - 상태: **NOT_STARTED** · G4/P0
 - 선행: AT-012, AT-013, AT-014, AT-015, AT-016, AT-018, AT-020, AT-021, AT-023, AT-024, AT-025
-- 인수 조건: 320/375/768/1024/1440, WCAG 2.2 AA 목표
-- QA: keyboard, focus, reduced motion
+- 인수 조건: 모바일 320/360/375/390/430px과 태블릿 768/1024px, 데스크톱 1440px에서 홈·8권·인물·연대표·문헌·검색·출처의 동일 기능과 가독성, 키보드/터치/포커스/가로넘침 0 검증
+- QA: 모바일 화면별 기록 및 iOS Safari/Android Chrome 실행 여부, 44px 터치 권장, 16px 본문·safe-area·메뉴 Escape/focus·reduced-motion
 - PRD 추적: FR-012
 
 ### AT-027 · PUBLIC 아티팩트 전체 비공개 누출 검사
@@ -252,8 +258,8 @@
 ### AT-029 · UI 밀도·여백·마이크로인터랙션 리뷰
 - 상태: **NOT_STARTED** · G4/P0
 - 선행: AT-026
-- 인수 조건: 이미지 없는 미니멀 랜딩 완성, 오버디자인 요소 제거
-- QA: 8px spacing, hero/sections visual review
+- 인수 조건: Quiet Editorial Atlas의 모바일 20px 여백·단일 열·48~64px 섹션과 데스크톱 4열/최대1200px의 여백과 가독성 품질 동시 평가
+- QA: 320/390/430/1440 스크린샷 비교, 사용성/접근성 미수행 항목 NOT TESTED
 - PRD 추적: FR-012
 
 ### AT-030 · 전체 딥링크/라우팅/검색 회귀 QA
@@ -294,8 +300,8 @@
 ### AT-035 · 심층 연구 블록/주석 점진 추가
 - 상태: **NOT_STARTED** · P1/P1
 - 선행: AT-009, AT-015, AT-033
-- 인수 조건: 루터/위클리프/후스 등 개요 ID 유지, 증분 승인 반영
-- QA: same ID/URL, version rollback
+- 인수 조건: 위클리프·얀 후스·루터 등 인물/사건/문헌별 심층 연구가 준비될 때 같은 canonical ID/URL의 기존 OVERVIEW 아래 DEEP_RESEARCH 블록·원전 층위·개정·출처·승인 필드 추가
+- QA: 심층 도착 전/후 같은 permalink와 관련 링크 유지, 개요 존재, 승인되지 않은 새 블록 공용 제외
 - PRD 추적: FR-017
 
 ### AT-036 · 관계도/학습경로
