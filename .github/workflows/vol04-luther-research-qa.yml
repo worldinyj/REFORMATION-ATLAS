@@ -1,0 +1,17 @@
+name: VOL-04 Luther Research QA
+on:
+  push:
+    branches:
+      - research/vol04-luther-deep-v01
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  research-qa:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check existing eight-volume baseline
+        run: python3 scripts/validate_atlas_overview_v01.py
+      - name: Validate deep-research IDs, sources and publication gates
+        run: python3 scripts/validate_vol04_luther_deep_v01.py

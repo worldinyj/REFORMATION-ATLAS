@@ -1,0 +1,68 @@
+{
+  "schema_version": "0.1",
+  "date": "2026-10-25",
+  "project": "REFORMATION_ATLAS",
+  "purpose": "Independent deep-content research track. Web app is not part of this branch.",
+  "release": {
+    "approved": false,
+    "can_ship": false,
+    "web_sync_authorized": false
+  },
+  "tracks": [
+    {
+      "id": "TRACK-V03-WYCLIF",
+      "person_id": "OV-P-009",
+      "volume_id": "VOL-03",
+      "name_ko": "존 위클리프",
+      "status": "EXISTING_VOL03_RESEARCH_SEPARATE_BRANCH",
+      "note": "Existing deeper VOL-03 research preserved, not imported or approved by this manifest"
+    },
+    {
+      "id": "TRACK-V03-HUS",
+      "person_id": "OV-P-010",
+      "volume_id": "VOL-03",
+      "name_ko": "얀 후스",
+      "status": "EXISTING_VOL03_RESEARCH_SEPARATE_BRANCH",
+      "note": "Existing deeper VOL-03 research preserved, not imported or approved by this manifest"
+    },
+    {
+      "id": "TRACK-V04-LUTHER",
+      "person_id": "OV-P-013",
+      "volume_id": "VOL-04",
+      "name_ko": "마르틴 루터",
+      "status": "DRAFT_CHAPTER_AND_CLAIMS_COMPLETED",
+      "block_id": "DEPTH-V04-P013-001",
+      "article": "docs/01_CONTENT/VOL04/LUTHER_DEEP_RESEARCH_V01.md",
+      "metadata": "data/deep/vol04_luther_v01.json",
+      "sources": 17,
+      "claims": 16,
+      "timeline_anchors": 11,
+      "public_visible": false
+    },
+    {
+      "id": "TRACK-V04-ZWINGLI",
+      "person_id": "OV-P-015",
+      "volume_id": "VOL-04",
+      "name_ko": "훌드리히 츠빙글리",
+      "status": "QUEUED",
+      "priority": 1
+    },
+    {
+      "id": "TRACK-V04-MELANCHTHON",
+      "person_id": "OV-P-014",
+      "volume_id": "VOL-04",
+      "name_ko": "필리프 멜란히톤",
+      "status": "QUEUED",
+      "priority": 2
+    },
+    {
+      "id": "TRACK-V04-CALVIN",
+      "person_id": "OV-P-016",
+      "volume_id": "VOL-04",
+      "name_ko": "장 칼뱅",
+      "status": "QUEUED",
+      "priority": 3
+    }
+  ],
+  "review_gate": "Research draft creation does not authorize site publication. Require citation, historical review, media rights and user approval."
+}
