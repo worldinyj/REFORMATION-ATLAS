@@ -1,0 +1,74 @@
+[
+  {
+    "id": "EVT-0001",
+    "name_ko": "위클리프 관련 영어 성경 번역 운동",
+    "date_start": "1380-01-01",
+    "date_precision": "approximate_decade",
+    "location_ids": [
+      "LOC-0001"
+    ],
+    "person_ids": [
+      "PER-0001"
+    ],
+    "summary_ko": "14세기 후반 위클리프 관련 공동체의 중세 영어 성경 번역 활동",
+    "source_ids": [
+      "SRC-0002"
+    ],
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "EVT-0002",
+    "name_ko": "얀 후스의 콘스탄츠 처형",
+    "date_start": "1415-07-06",
+    "date_precision": "day",
+    "location_ids": [
+      "LOC-0005"
+    ],
+    "person_ids": [
+      "PER-0002"
+    ],
+    "summary_ko": "콘스탄츠 공의회의 이단 판결 이후 화형",
+    "source_ids": [
+      "SRC-0010"
+    ],
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "EVT-0003",
+    "name_ko": "루터의 95개조 논제",
+    "date_start": "1517-10-31",
+    "date_precision": "day",
+    "location_ids": [
+      "LOC-0003"
+    ],
+    "person_ids": [
+      "PER-0003"
+    ],
+    "summary_ko": "면벌부 관련 학문적 논제가 공표되고 서한이 발송되었다. 교회 문 못박기 일화는 논쟁적이다.",
+    "source_ids": [
+      "SRC-0005",
+      "SRC-0006",
+      "SRC-0008"
+    ],
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "EVT-0004",
+    "name_ko": "라이프치히 논쟁",
+    "date_start": "1519-06-27",
+    "date_end": "1519-07-13",
+    "date_precision": "range",
+    "location_ids": [
+      "LOC-0004"
+    ],
+    "person_ids": [
+      "PER-0003"
+    ],
+    "summary_ko": "교회·교황의 권위가 논의되었고 후스의 선례를 둘러싼 논쟁이 나타났다.",
+    "source_ids": [
+      "SRC-0004",
+      "SRC-0007"
+    ],
+    "publication_status": "DRAFT"
+  }
+]
