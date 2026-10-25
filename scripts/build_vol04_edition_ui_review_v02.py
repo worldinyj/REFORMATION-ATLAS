@@ -54,6 +54,12 @@ def validate_sources(d: dict) -> None:
     children = [ch for g in groups for ch in g["children"]]
     if len(children) != 10 or len({ch["split_key"] for ch in children}) != 10:
         raise ValueError("split child integrity")
+    for group in groups:
+        actual_keys = {ch["split_key"] for ch in group["children"]}
+        expected_keys = {group["parent_proposal_id"] + "-S" + f"{index:02d}"
+                         for index in range(1, len(group["children"]) + 1)}
+        if actual_keys != expected_keys:
+            raise ValueError("split child parent identity / ordinal integrity")
     if any(ch["canonical_id"] is not None or ch["publication_approved"] for ch in children):
         raise ValueError("candidate illegally promoted")
     if any(x["canonical_id"] is not None or x["publish"] for x in parents.values()):
@@ -115,7 +121,12 @@ def make_review_view(d: dict) -> dict:
                 "date_label": date,
                 "date_precision": "month" if "month" in ed else "year",
                 "language": ed["language"],
-                "material_type_review_only": ed.get("kind", "historical_edition_unspecified"),
+                "material_type_review_only": {
+                    "submitted tradition":"submitted_text_tradition",
+                    "September Testament":"printed_edition",
+                    "December Testament":"printed_edition",
+                    "Variata":"historical_edition_unspecified",
+                }.get(ed.get("kind"), "historical_edition_unspecified"),
                 "copy_holding_if_reported": ed.get("holding"),
                 "canonical_edition_id": None,
             })
