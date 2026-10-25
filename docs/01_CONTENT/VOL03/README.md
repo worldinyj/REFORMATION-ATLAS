@@ -110,3 +110,13 @@
 - [QA 기록](../../03_PRODUCT/VOL03_SOURCE_REAUDIT_QA_V09P1.md): 고아 출처/주장 ID 0건 및 Word 검토본 렌더·접근성 결과.
 - 독립 Word 검토본: `REFORMATION_ATLAS_VOL03_Source_Audit_V09P1.docx` (8쪽, SHA256 `eafde01842216663576731791227ba863cdc2ad645d7f00a72f5936527492f0a`). ChatGPT 대화 아티팩트만 제공, GitHub 바이너리 미수록.
 - **DRAFT / 미출판.** 라틴어 필사본 교감·1844/1937 비교·2019 비평판 전문·인간 학술감수 미완료. Draft PR #2 유지, `main` 미병합.
+
+## V0.9-P1 A~D · V0.9-P2 시각자료 및 P3 데이터 연결 (2026-10-25)
+- [P1A 위클리프 원전·OCR 대조](21_WYCLIF_TEXT_COLLATION_V09_P1A.md): 1892년 Loserth OCR Ch IV/V, Trialogus 저작 귀속 구분; 원판 이미지와 중세 필사본 직접 교감 미완료.
+- [P1B 후스 라틴-영어 대조 게이트](22_HUS_LATIN_TRANSLATION_GATE_V09_P1B.md): Schaff 1915 영어 번역 확인, 라틴어판 장·절 직접 비교 HOLD.
+- [P1C 프라하 4개조 1844/1937 비교](23_PRAGUE_1844_1937_TEXT_LAYERS_V09_P1C.md): Archiv český III pp.213–216 온라인 OCR과 1937 전사 비교. 인접한 1421 다른 다섯 요구 문서를 1420 프라하 4개조로 오인하지 않음.
+- [P1D 콤팍타타 문서·승인 연대](24_COMPACTATA_DOCUMENT_GATES_V09_P1D.md): 1433 3개 원 문안 / 2019 10개 비평 문서 / 24개 필사본 구분, 법적 효력 교감 미완료.
+- [P1A-D 근거 등급 JSON](../../../data/vol03_batch_source_review_v09.json): 4개 검토 레코드와 기존 14개 CLM 전체 연결.
+- [P2 이미지·지도 10점 검수 기록](../../02_MEDIA/VOL03_VISUAL_QA_V09_P2.md): 원본 그림 6점과 지도 4종, 7점 HIGH·3점 MEDIUM. [기계 판정용 JSON](../../../data/vol03_visual_review_v09_p2.json).
+- [P3 저장소 관계/게시 게이트 QA](../../03_PRODUCT/VOL03_BATCH_QA_V09_P3.md): 182노드·365에지·14개 주장·10시각자료, 누락 ID 0건. [독립 검증 스크립트](../../../scripts/validate_vol03_v09_batch.py).
+- 과거 바이너리·기존 본문·원래 182/365 통합색인은 불변, Draft PR #2 유지, `main` 미병합 및 공개 승인 금지.
