@@ -1,0 +1,16 @@
+name: AI Studio Design V0.2 QA
+on:
+  push:
+    branches:
+      - plan/atlas-ai-studio-build-v02
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate-ai-studio-design:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout design branch
+        uses: actions/checkout@v4
+      - name: Validate architecture/UI/task consistency
+        run: python3 scripts/validate_ai_studio_design_v02.py

@@ -1,0 +1,82 @@
+{
+  "schema_version": "0.2",
+  "milestone": "GOOGLE_AI_STUDIO_DESIGN_PACKAGE",
+  "date": "2026-10-25",
+  "repo": "worldinyj/REFORMATION-ATLAS",
+  "branch": "plan/atlas-ai-studio-build-v02",
+  "contents": [
+    "00_GITHUB_DESIGN_PREFLIGHT.md",
+    "01_PROJECT_PLAN.md",
+    "02_PRD.md",
+    "03_TRD.md",
+    "04_UXUI.md",
+    "05_TASKLIST.md",
+    "06_AI_STUDIO_MASTER_PROMPT.md",
+    "07_AI_STUDIO_ITERATION_PROMPTS.md",
+    "08_BUILD_CHECKLIST.md",
+    "DESIGN_TOKENS.json",
+    "SCREEN_CONTRACT.json",
+    "README.md",
+    "TASKLIST.json"
+  ],
+  "architecture": "Google AI Studio Build Web (React+TypeScript preferred, optional Node.js runtime)",
+  "content_inventory": {
+    "volumes": 8,
+    "people": 33,
+    "events": 34,
+    "documents": 20,
+    "places": 22,
+    "topics": 10,
+    "relations": 32,
+    "source_id_count": 23
+  },
+  "requirements": 18,
+  "tasks": 36,
+  "task_priority": {
+    "P0": 33,
+    "P1": 3
+  },
+  "design_style": "quiet_editorial_atlas",
+  "all_docs_draft": true,
+  "approved_by_user": false,
+  "website_built": false,
+  "cloud_run_deployed": false,
+  "publication_gate": {
+    "approved": false,
+    "can_ship": false
+  },
+  "next_step": "FIRST run 00_GITHUB_DESIGN_PREFLIGHT prompt against actual GitHub files, fix verified contradictions and obtain PREBUILD_GATE=PASS/human scope approval; only THEN B1 master app generation. No Publish/Share.",
+  "quality_note": "Official task set: 36 AT-001..AT-036. data/overview/ai_studio_tasklist_v02.json is a mirrored compatibility index; bundle TASKLIST.json is authoritative.",
+  "verified_scope": "Machine-readable design structure and consistency, not a historical fact-check nor running web app.",
+  "prebuild_gate": {
+    "required": true,
+    "audit_file": "docs/03_PRODUCT/AI_STUDIO_BUILD_V02/00_GITHUB_DESIGN_PREFLIGHT.md",
+    "status": "NOT_RUN_IN_AI_STUDIO",
+    "requires": "actual GitHub access + consistency correction/retest + human scope approval",
+    "blocked_if_unavailable": true
+  },
+  "content_expansion": {
+    "initial": "OVERVIEW",
+    "later": "DEEP_RESEARCH",
+    "preserve_existing_urls_and_ids": true,
+    "scholarly_claims_must_not_be_fabricated": true
+  },
+  "mobile_first": {
+    "mobile_widths_px": [
+      320,
+      360,
+      375,
+      390,
+      430
+    ],
+    "tablet_widths_px": [
+      768,
+      1024
+    ],
+    "desktop_widths_px": [
+      1440
+    ],
+    "feature_parity_required": true,
+    "device_qa_completed": false
+  }
+}

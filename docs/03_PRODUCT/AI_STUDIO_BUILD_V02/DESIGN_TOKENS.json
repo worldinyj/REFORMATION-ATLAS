@@ -1,0 +1,123 @@
+{
+  "schema_version": "1.0",
+  "product": "REFORMATION_ATLAS",
+  "concept": "Quiet Editorial Atlas",
+  "status": "DRAFT",
+  "palette": {
+    "canvas": "#F7F8F5",
+    "surface": "#FFFFFF",
+    "ink": "#1C2925",
+    "muted": "#4B6058",
+    "accent": "#205F50",
+    "border": "#DDE5DF",
+    "subtle": "#EAF1EC"
+  },
+  "contrast_notes": {
+    "ink_on_canvas": "14.14:1",
+    "muted_on_canvas": "6.33:1",
+    "accent_on_canvas": "7.00:1",
+    "ratios_are_calculated_color_pairs": "full component accessibility requires manual review"
+  },
+  "typography": {
+    "body": [
+      "Pretendard",
+      "Noto Sans KR",
+      "system-ui"
+    ],
+    "display": [
+      "Noto Serif KR",
+      "serif"
+    ],
+    "title_desktop_px": [
+      56,
+      68
+    ],
+    "title_mobile_px": [
+      36,
+      42
+    ],
+    "body_px": [
+      16,
+      18
+    ],
+    "body_line_height": 1.7,
+    "editorial_reading_max_px": 720,
+    "interface_weight": 400
+  },
+  "spacing": {
+    "unit_px": 8,
+    "scale_px": [
+      4,
+      8,
+      12,
+      16,
+      24,
+      32,
+      48,
+      64,
+      80,
+      96,
+      120
+    ],
+    "page_horizontal_mobile_px": 20,
+    "page_horizontal_tablet_px": 32,
+    "page_horizontal_desktop_px": 64,
+    "section_vertical_desktop_px": [
+      80,
+      120
+    ],
+    "section_vertical_mobile_px": [
+      48,
+      64
+    ],
+    "site_max_width_px": 1200,
+    "mobile_safe_area_support": true
+  },
+  "layout": {
+    "columns_desktop": 4,
+    "columns_tablet": 2,
+    "columns_mobile": 1,
+    "breakpoints_preview_px": [
+      320,
+      360,
+      375,
+      390,
+      430,
+      768,
+      1024,
+      1440
+    ],
+    "mobile_primary": true,
+    "require_feature_parity_on_mobile": true,
+    "minimum_recommended_tap_target_px": 44,
+    "prevent_horizontal_overflow": true
+  },
+  "radii": {
+    "card_px": 14,
+    "button_px": 9,
+    "inputs_px": 10
+  },
+  "borders": {
+    "color": "#DDE5DF",
+    "width_px": 1
+  },
+  "shadows": "none_or_very_subtle",
+  "animation": {
+    "duration_ms": [
+      120,
+      200
+    ],
+    "reduce_motion": true
+  },
+  "prohibit": [
+    "glassmorphism_overuse",
+    "purple_AI_gradients",
+    "large_stock_hero",
+    "decorative_medieval_paper",
+    "fake_heraldry",
+    "historic_portraits_without_review",
+    "busy_dashboard_tiles",
+    "repetitive_badges",
+    "vertical_scroll_jacking"
+  ]
+}
