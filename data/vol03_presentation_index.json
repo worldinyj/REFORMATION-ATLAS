@@ -1,0 +1,239 @@
+{
+  "schema_version": "0.1",
+  "volume": "VOL-03",
+  "stage": "V0.7",
+  "state": "DRAFT",
+  "purpose_ko": "연구 원고·인물/사건 엔터티·문헌 주장·역사 지도·원본 미디어 스테이징의 웹 뷰 연결 시범. 정식 UX·PRD 승인 이전.",
+  "global_disclosure_ko": "AI 생성 역사 재현 이미지. 실제 초상 또는 사건 현장의 정확한 복원이 아닙니다.",
+  "core_datasets": [
+    "data/people.json",
+    "data/events.json",
+    "data/locations.json",
+    "data/relations.json",
+    "data/vol03_extension.json",
+    "data/vol03_primary_claims.json",
+    "data/vol03_document_witnesses.json",
+    "data/vol03_theology_causality.json",
+    "data/vol03_map_points.json"
+  ],
+  "people_pages": [
+    {
+      "id": "ENTRY-V03-WALDO",
+      "person_id": "PER-0004",
+      "title_ko": "발도와 왈도파",
+      "period_ko": "12세기 후반",
+      "chapter_path": "docs/01_CONTENT/VOL03/01_WALDENSIANS.md",
+      "media_id": "PRT-V03-01",
+      "map_id": "MAP-V03-01",
+      "source_ids": [
+        "V03-S01",
+        "V03-S02",
+        "V03-S51"
+      ],
+      "caution_ko": "발도의 정확한 모습과 'Peter'라는 이름의 당대 사용 여부는 불확실하다",
+      "media_state": "binary_pending_install",
+      "media_safe_to_display": false,
+      "map_state": "svg_committed_draft",
+      "is_published": false,
+      "route_status": "not_approved"
+    },
+    {
+      "id": "ENTRY-V03-WYCLIF",
+      "person_id": "PER-0001",
+      "title_ko": "존 위클리프",
+      "period_ko": "14세기",
+      "chapter_path": "docs/01_CONTENT/VOL03/02_WYCLIF_LOLLARDS.md",
+      "media_id": "PRT-V03-02",
+      "map_id": "MAP-V03-02",
+      "source_ids": [
+        "V03-S05",
+        "V03-S29"
+      ],
+      "caution_ko": "저술 영향과 직접 사사 관계는 구별하며 번역 주체는 공동체적·문헌학적으로 설명한다",
+      "media_state": "binary_pending_install",
+      "media_safe_to_display": false,
+      "map_state": "svg_committed_draft",
+      "is_published": false,
+      "route_status": "not_approved"
+    },
+    {
+      "id": "ENTRY-V03-HUS",
+      "person_id": "PER-0002",
+      "title_ko": "얀 후스",
+      "period_ko": "14세기 말~1415년",
+      "chapter_path": "docs/01_CONTENT/VOL03/03_HUS_AND_PRAGUE.md",
+      "media_id": "PRT-V03-03",
+      "map_id": "MAP-V03-02",
+      "source_ids": [
+        "V03-S09",
+        "V03-S31",
+        "V03-S50"
+      ],
+      "caution_ko": "후스의 성찬론은 위클리프와 달랐고 수염·학자 모자 이미지는 후대 전승 가능성이 높다",
+      "media_state": "binary_pending_install",
+      "media_safe_to_display": false,
+      "map_state": "svg_committed_draft",
+      "is_published": false,
+      "route_status": "not_approved"
+    },
+    {
+      "id": "ENTRY-V03-ZIZKA",
+      "person_id": "PER-0007",
+      "title_ko": "얀 지슈카",
+      "period_ko": "15세기 전반",
+      "chapter_path": "docs/01_CONTENT/VOL03/04_HUSSITE_MOVEMENTS.md",
+      "media_id": "PRT-V03-04",
+      "map_id": "MAP-V03-03",
+      "source_ids": [
+        "V03-S18",
+        "V03-S49",
+        "V03-S53"
+      ],
+      "caution_ko": "눈 부상 방향과 외모는 확정되지 않으며 실제 역사 초상으로 사용하면 안 된다",
+      "media_state": "binary_pending_install",
+      "media_safe_to_display": false,
+      "map_state": "svg_committed_draft",
+      "is_published": false,
+      "route_status": "not_approved"
+    }
+  ],
+  "visual_story_pages": [
+    {
+      "card_id": "STORY-V03-SERMON",
+      "title_ko": "프라하 예배당 설교",
+      "media_id": "ILL-V03-01",
+      "media_state": "binary_pending_install",
+      "media_safe_to_display": false,
+      "chapter_path": "docs/01_CONTENT/VOL03/03_HUS_AND_PRAGUE.md",
+      "linked_entity_ids": [
+        "PER-0002",
+        "LOC-0002"
+      ],
+      "source_ids": [
+        "V03-S09",
+        "V03-S52"
+      ],
+      "historical_accuracy_ko": "예배당 내부와 청중의 세부는 실제 사료 복원 아님"
+    },
+    {
+      "card_id": "STORY-V03-COMPACTATA",
+      "title_ko": "바젤과 보헤미아의 협상",
+      "media_id": "ILL-V03-02",
+      "media_state": "binary_pending_install",
+      "media_safe_to_display": false,
+      "chapter_path": "docs/01_CONTENT/VOL03/09_PRAGUE_ARTICLES_AND_COMPACTATA.md",
+      "linked_entity_ids": [
+        "MOV-0003",
+        "LOC-0002",
+        "LOC-0010"
+      ],
+      "source_ids": [
+        "V03-S34",
+        "V03-S35"
+      ],
+      "historical_accuracy_ko": "1433/1436 특정 날짜의 협상실 실제 기록 사진처럼 소개 금지"
+    }
+  ],
+  "map_views": [
+    {
+      "id": "MV-V03-01",
+      "asset_id": "MAP-V03-01",
+      "title_ko": "발도와 리옹",
+      "source_ids": [
+        "V03-S01",
+        "V03-S02"
+      ],
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "MV-V03-02",
+      "asset_id": "MAP-V03-02",
+      "title_ko": "옥스퍼드–프라하 문헌 영향",
+      "source_ids": [
+        "V03-S05",
+        "V03-S48"
+      ],
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "MV-V03-03",
+      "asset_id": "MAP-V03-03",
+      "title_ko": "후스파의 도시·협상",
+      "source_ids": [
+        "V03-S11",
+        "V03-S34"
+      ],
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "MV-V03-04",
+      "asset_id": "MAP-V03-04",
+      "title_ko": "왈도파·개혁자 대화망",
+      "source_ids": [
+        "V03-S26",
+        "V03-S27"
+      ],
+      "review_status": "DRAFT"
+    }
+  ],
+  "research_views": [
+    {
+      "view_id": "RESEARCH-V03-PRIMARY",
+      "title_ko": "원전과 번역 대조",
+      "document_path": "docs/01_CONTENT/VOL03/11_PRIMARY_SOURCE_AUDIT_V03.md",
+      "data_path": "data/vol03_primary_claims.json",
+      "state": "DRAFT"
+    },
+    {
+      "view_id": "RESEARCH-V03-EDITION",
+      "title_ko": "문헌·판본 추적",
+      "document_path": "docs/01_CONTENT/VOL03/13_DOCUMENT_PROVENANCE_AND_EDITION_V04.md",
+      "data_path": "data/vol03_document_witnesses.json",
+      "state": "DRAFT"
+    },
+    {
+      "view_id": "RESEARCH-V03-THEOLOGY",
+      "title_ko": "교리 7축 비교",
+      "document_path": "docs/01_CONTENT/VOL03/15_THEOLOGICAL_COMPARISON_V05.md",
+      "data_path": "data/vol03_theology_causality.json",
+      "state": "DRAFT"
+    },
+    {
+      "view_id": "RESEARCH-V03-CAUSAL",
+      "title_ko": "사건 인과 5사례",
+      "document_path": "docs/01_CONTENT/VOL03/16_CAUSAL_CASE_STUDIES_V05.md",
+      "data_path": "data/vol03_theology_causality.json",
+      "state": "DRAFT"
+    }
+  ],
+  "asset_policy": {
+    "ready_in_git": [
+      "MAP-V03-01",
+      "MAP-V03-02",
+      "MAP-V03-03",
+      "MAP-V03-04"
+    ],
+    "binary_pending": [
+      "PRT-V03-01",
+      "PRT-V03-02",
+      "PRT-V03-03",
+      "PRT-V03-04",
+      "ILL-V03-01",
+      "ILL-V03-02"
+    ],
+    "fallback_behavior": "no_image_placeholder_with_disclaimer",
+    "human_review_required": true
+  },
+  "publication_gate": {
+    "approved": false,
+    "can_ship": false,
+    "main_merged": false,
+    "unresolved": [
+      "primary_source_full_collation",
+      "historic_costume_review",
+      "historic_architecture_review",
+      "ai_portrait_face_uncertainty",
+      "binary_github_import"
+    ]
+  }
+}
