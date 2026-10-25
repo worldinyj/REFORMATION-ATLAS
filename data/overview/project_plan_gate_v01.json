@@ -1,0 +1,51 @@
+{
+  "schema_version": "0.1",
+  "milestone": "S1_PROJECT_PLAN",
+  "date": "2026-10-25",
+  "status": "DRAFT",
+  "branch": "plan/atlas-project-plan-v01",
+  "content_snapshot": {
+    "volumes": 8,
+    "people": 33,
+    "events": 34,
+    "documents": 20,
+    "places": 22,
+    "topics": 10,
+    "relationships": 32,
+    "registered_sources": 23,
+    "web_checked_sources": 11,
+    "duplicate_aliases": 2,
+    "unverified_location_points": 22
+  },
+  "planning_milestones": [
+    "PROJECT_PLAN",
+    "PRD",
+    "TRD",
+    "UXUI",
+    "TASKLIST",
+    "WEB_MVP",
+    "DEEP_CONTENT_ITERATIONS"
+  ],
+  "completed": [
+    "OVERVIEW_CONTENT_CATALOGUED",
+    "OVERVIEW_DATA_INTEGRITY_QA_PASSED",
+    "PROJECT_PLAN_DRAFT_AUTHORED"
+  ],
+  "not_started": [
+    "PRD",
+    "TRD",
+    "UXUI",
+    "TASKLIST",
+    "WEB_MVP"
+  ],
+  "human_approval": {
+    "project_plan_approved": false,
+    "publication_approved": false,
+    "design_approved": false
+  },
+  "release_gate": {
+    "approved": false,
+    "can_ship": false
+  },
+  "publication_note": "No website code generated or deployed. Overview is research DRAFT, not public content."
+}
