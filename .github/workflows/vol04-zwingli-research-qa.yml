@@ -1,0 +1,19 @@
+name: VOL-04 Zwingli research and visuals QA
+on:
+  push:
+    branches:
+      - research/vol04-zwingli-deep-v01
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  research-qa:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate overview data structure
+        run: python3 scripts/validate_atlas_overview_v01.py
+      - name: Validate Luther preceding research
+        run: python3 scripts/validate_vol04_luther_deep_v01.py
+      - name: Validate Zwingli sources, claims and visual publication gates
+        run: python3 scripts/validate_vol04_zwingli_deep_v01.py

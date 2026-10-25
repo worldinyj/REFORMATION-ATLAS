@@ -1,0 +1,436 @@
+{
+  "schema_version": "0.1",
+  "volume_id": "VOL-04",
+  "person_id": "OV-P-015",
+  "depth_block": {
+    "id": "DEPTH-V04-P015-001",
+    "kind": "DEEP_RESEARCH",
+    "document": "docs/01_CONTENT/VOL04/ZWINGLI_DEEP_RESEARCH_V01.md",
+    "review_status": "DRAFT",
+    "approved": false,
+    "publication_approved": false
+  },
+  "sources": [
+    {
+      "id": "SRC-V04-ZW-001",
+      "title": "Zentralbibliothek Zürich — Reformation",
+      "url": "https://www.zb.uzh.ch/en/fokus/beitrag/reformation",
+      "evidence_type": "institutional_archival_exhibition",
+      "scope": "1519-1531 Zurich chronology, 1522 sausage, 1523 disputations, 1525/27 Baptists and Kappel",
+      "review_status": "OPEN_ARTICLE_REVIEWED",
+      "full_text_copied": false,
+      "publication_permission": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "SRC-V04-ZW-002",
+      "title": "Stadt Zürich — Beginn und Durchsetzung der Reformation in Zürich",
+      "url": "https://www.stadt-zuerich.ch/de/stadtleben/stadtportraet/zuerichs-geschichte/stadtarchiv/wissensportal/reformation-in-zuerich.html",
+      "evidence_type": "municipal_historical_essay",
+      "scope": "city council, 1523 disputations, liturgy, imagery, secular governance and Marburg",
+      "review_status": "OPEN_ARTICLE_REVIEWED",
+      "full_text_copied": false,
+      "publication_permission": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "SRC-V04-ZW-003",
+      "title": "Pitts Theology Library, Emory — Verwenung der disputatz zü Zürich (1523)",
+      "url": "https://digital.pitts.emory.edu/s/digital-collections/item/14023",
+      "evidence_type": "primary_print_catalogue",
+      "scope": "first edition 1523, 67 Articles bibliographical witness; catalogue says Jan 27 reading",
+      "review_status": "ORIGINAL_PRINT_METADATA_ONLY",
+      "full_text_copied": false,
+      "publication_permission": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "SRC-V04-ZW-004",
+      "title": "German History in Documents and Images — The Marburg Colloquy: Zwingli's report (1529)",
+      "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/ghdi:document-4300",
+      "evidence_type": "primary_eyewitness_modern_translation",
+      "scope": "Zwingli report to Vadian, parties and route via Strasbourg; partisan eyewitness",
+      "review_status": "TRANSLATION_WITH_INTRO_REVIEWED",
+      "full_text_copied": false,
+      "publication_permission": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "SRC-V04-ZW-005",
+      "title": "German History in Documents and Images — Lutheran Eyewitness report (1529)",
+      "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/ghdi:document-4284",
+      "evidence_type": "primary_eyewitness_modern_translation",
+      "scope": "Andreas Osiander's partisan Lutheran eyewitness report",
+      "review_status": "TRANSLATION_WITH_INTRO_REVIEWED",
+      "full_text_copied": false,
+      "publication_permission": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "SRC-V04-ZW-006",
+      "title": "German History in Documents and Images — Marburg Articles (1529)",
+      "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/ghdi:document-4311",
+      "evidence_type": "primary_agreement_modern_translation",
+      "scope": "agreement and unclosed Eucharistic disagreement",
+      "review_status": "TRANSLATION_WITH_INTRO_REVIEWED",
+      "full_text_copied": false,
+      "publication_permission": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "SRC-V04-ZW-007",
+      "title": "German History in Documents and Images — Early Zurich rebaptisms (1525)",
+      "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/ghdi:document-4312",
+      "evidence_type": "primary_account_modern_translation",
+      "scope": "Grebel Blaurock Manz early adult baptism history, context of persecution",
+      "review_status": "TRANSLATION_WITH_INTRO_REVIEWED",
+      "full_text_copied": false,
+      "publication_permission": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "SRC-V04-ZW-008",
+      "title": "Swiss National Museum — The Second War of Kappel",
+      "url": "https://blog.nationalmuseum.ch/en/2021/10/the-second-war-of-kappel/",
+      "evidence_type": "national_museum_historical_article",
+      "scope": "1531-10-11 battle and death, 1529 first conflict distinction",
+      "review_status": "OPEN_ARTICLE_REVIEWED",
+      "full_text_copied": false,
+      "publication_permission": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "SRC-V04-ZW-009",
+      "title": "Musée protestant — The Religious Wars in Switzerland",
+      "url": "https://museeprotestant.org/en/notice/the-religious-wars-in-switzerland/",
+      "evidence_type": "museum_historical_article",
+      "scope": "1529 and 1531 Kappel, embargo and cantonal politics",
+      "review_status": "OPEN_ARTICLE_REVIEWED",
+      "full_text_copied": false,
+      "publication_permission": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "SRC-V04-ZW-010",
+      "title": "Swiss Federal Department of Foreign Affairs — The Reformation",
+      "url": "https://www.aboutswitzerland.eda.admin.ch/dam/es/sd-web/B7P1BfXwCFFo/die-reformation_EN.pdf",
+      "evidence_type": "government_educational_essay",
+      "scope": "council collaboration, multi-city reform, mercenaries, translation",
+      "review_status": "PDF_OVERVIEW_NEEDS_PAGE_LEVEL_RECHECK",
+      "full_text_copied": false,
+      "publication_permission": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "SRC-V04-ZW-011",
+      "title": "Swissinfo — How a couple of sausages triggered the Swiss Reformation",
+      "url": "https://www.swissinfo.ch/eng/culture/fasting-and-furious_how-a-couple-of-sausages-triggered-the-swiss-reformation/43049172",
+      "evidence_type": "historical_journalism",
+      "scope": "1522 sausage meal, participants, fasting conflict",
+      "review_status": "OPEN_ARTICLE_REVIEWED",
+      "full_text_copied": false,
+      "publication_permission": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    }
+  ],
+  "claims": [
+    {
+      "id": "CLM-V04-ZW-001",
+      "statement_ko": "1519년 1월 1일 츠빙글리는 취리히 그로스뮌스터에서 설교 사역을 시작했다.",
+      "source_ids": [
+        "SRC-V04-ZW-001"
+      ],
+      "confidence": "DIRECT_INSTITUTIONAL_CHRONOLOGY",
+      "review_status": "DRAFT",
+      "approved": false,
+      "publication_approved": false
+    },
+    {
+      "id": "CLM-V04-ZW-002",
+      "statement_ko": "1522년 사순절 소시지 사건에서 츠빙글리는 참석했지만 실제로 소시지를 먹었다고 단정하면 안 되며, 금식 규정 문제를 신학적으로 변호했다.",
+      "source_ids": [
+        "SRC-V04-ZW-001",
+        "SRC-V04-ZW-011"
+      ],
+      "confidence": "CROSS_SOURCE_SUPPORTED",
+      "review_status": "DRAFT",
+      "approved": false,
+      "publication_approved": false
+    },
+    {
+      "id": "CLM-V04-ZW-003",
+      "statement_ko": "1523년 취리히 첫 공개 신학 논쟁에서 성경의 권위와 개혁이 쟁점이 됐으며 도시 의회가 제도 개혁에 관여했다.",
+      "source_ids": [
+        "SRC-V04-ZW-001",
+        "SRC-V04-ZW-002",
+        "SRC-V04-ZW-003"
+      ],
+      "confidence": "CROSS_SOURCE_SUPPORTED",
+      "review_status": "DRAFT",
+      "approved": false,
+      "publication_approved": false
+    },
+    {
+      "id": "CLM-V04-ZW-004",
+      "statement_ko": "1523년 67개 조항에 관한 Emory 서지의 1월 27일 표현과 취리히 중앙도서관의 첫 논쟁일 1월 29일은 동일한 사건의 정확 날짜로 자동 병합할 수 없다.",
+      "source_ids": [
+        "SRC-V04-ZW-001",
+        "SRC-V04-ZW-003"
+      ],
+      "confidence": "SOURCE_DATE_CONFLICT_HOLD",
+      "review_status": "DRAFT",
+      "approved": false,
+      "publication_approved": false
+    },
+    {
+      "id": "CLM-V04-ZW-005",
+      "statement_ko": "츠빙글리 개혁은 성직자 개인의 신학 변화뿐 아니라 취리히 시 의회의 정치적 결정과 예배/시각물/금식 규정 변경을 포함한다.",
+      "source_ids": [
+        "SRC-V04-ZW-001",
+        "SRC-V04-ZW-002"
+      ],
+      "confidence": "SUPPORTED_SYNTHESIS",
+      "review_status": "DRAFT",
+      "approved": false,
+      "publication_approved": false
+    },
+    {
+      "id": "CLM-V04-ZW-006",
+      "statement_ko": "1525년 취리히 재세례파의 성인 신자세례 주장과 도시 교회 제도 갈등이 심화됐고, 1527년 펠릭스 만츠가 시의회 결정으로 처형됐다.",
+      "source_ids": [
+        "SRC-V04-ZW-001",
+        "SRC-V04-ZW-007"
+      ],
+      "confidence": "SUPPORTED_WITH_ETHICAL_CONTEXT",
+      "review_status": "DRAFT",
+      "approved": false,
+      "publication_approved": false
+    },
+    {
+      "id": "CLM-V04-ZW-007",
+      "statement_ko": "재세례파의 강압적 박해는 예배 자유의 역사에서 다뤄야 할 문제이며 츠빙글리 개혁의 긍정적 성과로만 설명하면 안 된다.",
+      "source_ids": [
+        "SRC-V04-ZW-001",
+        "SRC-V04-ZW-007"
+      ],
+      "confidence": "EDITORIAL_EVALUATION",
+      "review_status": "DRAFT",
+      "approved": false,
+      "publication_approved": false
+    },
+    {
+      "id": "CLM-V04-ZW-008",
+      "statement_ko": "츠빙글리의 성찬 신학은 루터의 실제 현존 강조와 달랐으나 '성찬을 아무 의미 없는 기념으로 여겼다'는 단순화는 부적절하다.",
+      "source_ids": [
+        "SRC-V04-ZW-002",
+        "SRC-V04-ZW-004",
+        "SRC-V04-ZW-005",
+        "SRC-V04-ZW-006"
+      ],
+      "confidence": "COMPARTIVE_INTERPRETATION",
+      "review_status": "DRAFT",
+      "approved": false,
+      "publication_approved": false
+    },
+    {
+      "id": "CLM-V04-ZW-009",
+      "statement_ko": "1529년 마르부르크 회담은 완전한 신학적 일치에 도달하지 못했으며, 양측 보고는 편향된 목격자의 해석을 반영한다.",
+      "source_ids": [
+        "SRC-V04-ZW-004",
+        "SRC-V04-ZW-005",
+        "SRC-V04-ZW-006"
+      ],
+      "confidence": "TWO_SIDED_PRIMARY_REPORTS",
+      "review_status": "DRAFT",
+      "approved": false,
+      "publication_approved": false
+    },
+    {
+      "id": "CLM-V04-ZW-010",
+      "statement_ko": "1529년 첫 카펠 갈등과 1531년 두 번째 카펠 전쟁은 다른 사건으로, 1531년 10월 11일 전투에서 츠빙글리가 사망했다.",
+      "source_ids": [
+        "SRC-V04-ZW-001",
+        "SRC-V04-ZW-008",
+        "SRC-V04-ZW-009"
+      ],
+      "confidence": "MUSEUM_CROSSCHECK",
+      "review_status": "DRAFT",
+      "approved": false,
+      "publication_approved": false
+    },
+    {
+      "id": "CLM-V04-ZW-011",
+      "statement_ko": "취리히의 개혁은 종교문제만이 아니라 용병제 반대와 도시 간 동맹 및 구 스위스 연방의 정치적 갈등을 동반했다.",
+      "source_ids": [
+        "SRC-V04-ZW-001",
+        "SRC-V04-ZW-002",
+        "SRC-V04-ZW-009",
+        "SRC-V04-ZW-010"
+      ],
+      "confidence": "SYNTHESIS",
+      "review_status": "DRAFT",
+      "approved": false,
+      "publication_approved": false
+    },
+    {
+      "id": "CLM-V04-ZW-012",
+      "statement_ko": "1531년 이후 츠빙글리 유산은 하인리히 불링거 등 후임자의 제도와 문헌을 통해 이어졌으며 칼뱅의 후대 입장으로 소급하면 안 된다.",
+      "source_ids": [
+        "SRC-V04-ZW-001",
+        "SRC-V04-ZW-002"
+      ],
+      "confidence": "FOLLOWUP_COMPARATIVE_REVIEW",
+      "review_status": "DRAFT",
+      "approved": false,
+      "publication_approved": false
+    },
+    {
+      "id": "CLM-V04-ZW-013",
+      "statement_ko": "인쇄물 서지·당대 목격자 번역·1605년 불링거 삽화·19세기 역사화는 서로 다른 역사적 증거 층위에 속한다.",
+      "source_ids": [
+        "SRC-V04-ZW-001",
+        "SRC-V04-ZW-003",
+        "SRC-V04-ZW-004",
+        "SRC-V04-ZW-005"
+      ],
+      "confidence": "EVIDENCE_HIERARCHY",
+      "review_status": "DRAFT",
+      "approved": false,
+      "publication_approved": false
+    }
+  ],
+  "events": [
+    {
+      "id": "DEEP-V04-ZW-E-001",
+      "date_label": "1519년 1월 1일",
+      "year_start": 1519,
+      "date_precision": "day",
+      "title_ko": "그로스뮌스터 설교 시작",
+      "related_claim_id": "CLM-V04-ZW-001",
+      "public_visible": false
+    },
+    {
+      "id": "DEEP-V04-ZW-E-002",
+      "date_label": "1522년",
+      "year_start": 1522,
+      "date_precision": "year",
+      "title_ko": "금식·소시지 논쟁",
+      "related_claim_id": "CLM-V04-ZW-002",
+      "public_visible": false
+    },
+    {
+      "id": "DEEP-V04-ZW-E-003",
+      "date_label": "1523년 1월",
+      "year_start": 1523,
+      "date_precision": "approximate_period",
+      "title_ko": "67개 조항과 첫 취리히 논쟁 — 날짜 차이 보류",
+      "related_claim_id": "CLM-V04-ZW-004",
+      "public_visible": false
+    },
+    {
+      "id": "DEEP-V04-ZW-E-004",
+      "date_label": "1523년 10월",
+      "year_start": 1523,
+      "date_precision": "approximate_period",
+      "title_ko": "둘째 취리히 논쟁과 예배 이미지 문제",
+      "related_claim_id": "CLM-V04-ZW-005",
+      "public_visible": false
+    },
+    {
+      "id": "DEEP-V04-ZW-E-005",
+      "date_label": "1525년",
+      "year_start": 1525,
+      "date_precision": "year",
+      "title_ko": "재세례파와 제도 갈등",
+      "related_claim_id": "CLM-V04-ZW-006",
+      "public_visible": false
+    },
+    {
+      "id": "DEEP-V04-ZW-E-006",
+      "date_label": "1527년 1월 5일",
+      "year_start": 1527,
+      "date_precision": "day",
+      "title_ko": "펠릭스 만츠 처형",
+      "related_claim_id": "CLM-V04-ZW-006",
+      "public_visible": false
+    },
+    {
+      "id": "DEEP-V04-ZW-E-007",
+      "date_label": "1529년",
+      "year_start": 1529,
+      "date_precision": "year",
+      "title_ko": "마르부르크 성찬 회담",
+      "related_claim_id": "CLM-V04-ZW-009",
+      "public_visible": false
+    },
+    {
+      "id": "DEEP-V04-ZW-E-008",
+      "date_label": "1529년",
+      "year_start": 1529,
+      "date_precision": "year",
+      "title_ko": "첫 카펠 갈등",
+      "related_claim_id": "CLM-V04-ZW-010",
+      "public_visible": false
+    },
+    {
+      "id": "DEEP-V04-ZW-E-009",
+      "date_label": "1531년 10월 11일",
+      "year_start": 1531,
+      "date_precision": "day",
+      "title_ko": "두 번째 카펠 전투·츠빙글리 사망",
+      "related_claim_id": "CLM-V04-ZW-010",
+      "public_visible": false
+    }
+  ],
+  "visual_candidates": [
+    {
+      "id": "PRT-V04-ZW-01",
+      "format": [
+        "PNG",
+        "WEBP"
+      ],
+      "filename_stem": "PRT-V04-ZW-01_zwingli_imaginative_portrait",
+      "role": "portrait",
+      "alt_ko": "검은 르네상스 복장의 개혁가를 상상하여 그린 현대 창작 역사화",
+      "provenance": "AI_ORIGINAL_IMAGINATIVE",
+      "portrayal": "NOT_AUTHENTIC_LIFETIME_PORTRAIT",
+      "approved": false,
+      "publication_approved": false,
+      "binary_in_github": false,
+      "archive_name": "REFORMATION_ATLAS_VOL04_ZWINGLI_VISUAL_V01.zip"
+    },
+    {
+      "id": "ILL-V04-ZW-01",
+      "format": [
+        "PNG",
+        "WEBP"
+      ],
+      "filename_stem": "ILL-V04-ZW-01_zurich_disputation_imaginative",
+      "role": "scene",
+      "alt_ko": "16세기 취리히의 종교 논쟁 분위기를 재현한 현대 창작 회의 장면",
+      "provenance": "AI_ORIGINAL_IMAGINATIVE",
+      "portrayal": "NOT_RECONSTRUCTED_SPECIFIC_VENUE",
+      "approved": false,
+      "publication_approved": false,
+      "binary_in_github": false,
+      "archive_name": "REFORMATION_ATLAS_VOL04_ZWINGLI_VISUAL_V01.zip"
+    },
+    {
+      "id": "MAP-V04-ZW-01",
+      "format": [
+        "SVG",
+        "PNG"
+      ],
+      "filename_stem": "MAP-V04-ZW-01_concept_network",
+      "role": "schematic_map",
+      "alt_ko": "취리히, 카펠, 마르부르크 등 관련 도시들의 정치·신학 관계 개념도",
+      "provenance": "ORIGINAL_EDITABLE_SVG",
+      "portrayal": "NOT_ACCURATE_COORDINATES_OR_TRAVEL_ROUTES",
+      "approved": false,
+      "publication_approved": false,
+      "binary_in_github": false,
+      "archive_name": "REFORMATION_ATLAS_VOL04_ZWINGLI_VISUAL_V01.zip"
+    }
+  ],
+  "context": {
+    "marburg_source_person": "OV-P-013",
+    "background": "Zürich Swiss Reformation",
+    "disputed_date": "Emory first-edition catalogue Jan 27 vs Zürich Central Library first disputation Jan 29; distinguish documentary date and event date"
+  },
+  "release_gate": {
+    "approved": false,
+    "can_ship": false,
+    "unapproved_media_excluded": true
+  },
+  "media_manifest_local_sha256": "d8c9a3580704e5c329de9d5d11a94e05af08c28d66ce5d5faf83f797874ff25a",
+  "media_note": "Full original image binaries only in separate downloadable conversation ZIP. Do not claim GitHub upload."
+}
