@@ -56,7 +56,7 @@ def main() -> int:
 
     for item in all_content:
         refs = item.get("source_ids", [])
-        check(bool(refs) and all(r in source_ids for r in refs), "source links " + item["id"])
+        if item["id"].startswith("OV-L-"):\n            check(item["evidence_status"] == "LOCATION_REFERENCE_NOT_YET_VERIFIED" and refs == [], "unverified places clearly flagged " + item["id"])\n        else:\n            check(bool(refs) and all(r in source_ids for r in refs), "source links " + item["id"])
         for volume in item.get("volume_ids", []):
             check(volume in vol_ids, "volume link " + item["id"] + ":" + volume)
         if item["id"].startswith(("OV-", "TOP-")) and "public_visible" in item:
