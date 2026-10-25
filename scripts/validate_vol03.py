@@ -22,7 +22,7 @@ def load(relpath):
 ext = load("data/vol03_extension.json")
 base = {k: load(f"data/{k}.json") for k in ["people", "events", "locations", "relations"]}
 sources_text = (VOL / "05_SOURCE_REGISTER.md").read_text(encoding="utf-8")
-source_ids = {f"V03-S{i:02}" for i in range(1, 48)}
+source_ids = {f"V03-S{i:02}" for i in range(1, 49)}
 found = set(re.findall(r"V03-S\d{2}", sources_text))
 check(source_ids <= found, "Missing source IDs in VOL03 register")
 base_sources = set(re.findall(r"SRC-\d{4}", (ROOT / "docs/01_CONTENT/RESEARCH_SOURCES.md").read_text(encoding="utf-8")))
@@ -151,10 +151,25 @@ for case in cases:
     check(bool(case.get("causal_factors")), f"{case['id']}: missing causal factors")
     check(case.get("interpretation_status") == "DRAFT", f"{case['id']}: not human approved")
 
+
+# Map coordinate provenance and historical cartography guards.
+maps = load("data/vol03_map_points.json")
+map_ids = {"MAP-V03-01","MAP-V03-02","MAP-V03-03","MAP-V03-04"}
+map_assets = {asset["asset_id"] for asset in manifest if asset.get("type") == "svg_historical_educational_point_map"}
+check(map_ids <= map_assets, f"Missing registered map assets: {map_ids - map_assets}")
+for point in maps["points"]:
+    check(point["location_id"] in all_locs, f"map point {point['key']}: unknown location")
+    check(-90 <= point["latitude"] <= 90 and -180 <= point["longitude"] <= 180, f"{point['key']}: bad coordinates")
+    check(bool(point.get("source_url")), f"{point['key']}: missing coordinate provenance")
+    check("approx" in point["coordinate_status"] or "vicinity" in point["coordinate_status"], f"{point['key']}: false precision")
+    for mid in point.get("maps",[]):
+        check(mid in map_ids, f"{point['key']}: unknown map {mid}")
+check(maps["map_kind"] == "modern_reference_points_historical_education", "Maps must be flagged as modern-coordinate schematics")
+
 if errors:
     print("FAIL: " + str(len(errors)) + " source claim issue(s)")
     for issue in errors:
         print(" -", issue)
     sys.exit(1)
 print(f"PASS: {len(claims)} provenance claim cards checked")
-print(f"PASS: Vol03 {len(ext['actors'])} actors, {len(ext['events'])} events, {len(ext['relationships'])} relations, {len(ext['locations'])} locations, {len(source_ids)} sources, {len(manifest)} assets, {len(claims)} claims, {len(documents)} provenance objects, {len(axes)} theological axes, {len(cases)} causal cases.")
+print(f"PASS: Vol03 {len(ext['actors'])} actors, {len(ext['events'])} events, {len(ext['relationships'])} relations, {len(ext['locations'])} locations, {len(source_ids)} sources, {len(manifest)} assets, {len(claims)} claims, {len(documents)} provenance objects, {len(axes)} theological axes, {len(cases)} causal cases, {len(maps['points'])} mapped coordinate points.")
