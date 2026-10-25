@@ -31,3 +31,5 @@ jobs:
           python3 scripts/validate_vol04_manuscript_edition_reaudit_v02.py
           python3 scripts/validate_vol04_edition_comparison_v01.py
           python3 scripts/validate_vol04_document_edition_ui_v01.py
+          python3 scripts/build_vol04_edition_ui_review_v02.py
+          python3 scripts/validate_vol04_edition_ui_projection_v02.py
