@@ -29,3 +29,9 @@
 - [문서 패키지 목차](ATLAS_DESIGN_HANDOFF_V01.md) · [교차검증](ATLAS_DESIGN_QA_V01.md) · [기계 판독용 게이트](../../data/overview/design_readiness_v01.json).
 - PROJECT PLAN → PRD → TRD → UX/UI → TASKLIST 모두 **DRAFT 초안 작성**. PRD 18기능, TRD 매핑 18/18, UX/UI 14화면, TASKLIST 30개.
 - 사용자 승인/웹 앱 구현/운영 배포는 미실행, 제3권 연구 및 `main` 미변경.
+
+## Google AI Studio Build 맞춤 8권 웹 MVP 설계 V0.2 (2026-10-25)
+- [설계 패키지 목차](AI_STUDIO_BUILD_V02/README.md) · [프로젝트 계획](AI_STUDIO_BUILD_V02/01_PROJECT_PLAN.md) → [PRD](AI_STUDIO_BUILD_V02/02_PRD.md) → [TRD](AI_STUDIO_BUILD_V02/03_TRD.md) → [UX/UI](AI_STUDIO_BUILD_V02/04_UXUI.md) → [TASKLIST](AI_STUDIO_BUILD_V02/05_TASKLIST.md).
+- Google AI Studio Build **React+TypeScript** 기반 설계. **Quiet Editorial Atlas** 미니멀 에디토리얼 스타일(여백·타이포 중심)과 토큰 사용. 기존 Astro 추천 V0.1 대신 이 문서를 AI Studio 구현 시 우선 참조.
+- [한국어 마스터 앱 생성 프롬프트](AI_STUDIO_BUILD_V02/06_MASTER_BUILD_PROMPT.md), [7단계 후속 프롬프트](AI_STUDIO_BUILD_V02/07_ITERATION_PROMPTS.md), [GitHub 안전 동기화](AI_STUDIO_BUILD_V02/08_GITHUB_HANDOFF.md), [QA 15/15](AI_STUDIO_BUILD_V02/DESIGN_QA_V02.md).
+- 36 Task (P0 33 / P1 3) 전부 NOT_STARTED. 설계 DRAFT, 웹앱 실제 생성/외부 공유/배포/메인 병합 **미실행**.
