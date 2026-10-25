@@ -10,6 +10,17 @@
 
 You are a senior React/TypeScript engineer and an award-winning editorial product designer. Build the FIRST MILESTONE of a modern Korean-language historical exploration web app called **REFORMATION ATLAS / 종교개혁 아틀라스**.
 
+### Mandatory GitHub-first design audit — BEFORE coding
+**Do not generate the app first.** Inspect the real `worldinyj/REFORMATION-ATLAS` GitHub repo on `plan/atlas-ai-studio-build-v02` and follow `docs/03_PRODUCT/AI_STUDIO_BUILD_V02/00_GITHUB_DESIGN_PREFLIGHT.md`.
+Cross-check PROJECT PLAN, PRD, TRD, UX/UI, TASKLIST, design tokens, route contracts, Korean and English build prompts, and source JSON. Verify 18 FRs, 14 screens, 36 tasks (33 P0/3 P1), stable person IDs, depth stages, mobile-first rules, copyright, and publication gates. Report PASS/WARN/BLOCKER with files, fixes/diffs and ACTUALLY RUN tests. Correct minor authorized design contradictions before coding.
+If GitHub is inaccessible or essential conflicts remain, report **PREBUILD_GATE=BLOCKED / NO BUILD** and STOP; never pretend GitHub was inspected, fabricate data, push main, or publish. Continue to B1 only after audit PASS and human scope authorization.
+
+### Overview-first and depth-later progression
+The first site is an **OVERVIEW** browsing skeleton. When research on Wyclif, Jan Hus, Luther, and others is completed and approved, append **DEEP_RESEARCH** blocks to the SAME stable entity IDs, page components and URLs. Keep overview text and links; do not invent depth or rebuild the entire site each time. Primary sources and media have independent review and release gates.
+
+### Mobile is a primary surface, not a desktop afterthought
+Design 320/360/375/390/430px mobile FIRST and 768/1024px tablet plus 1440px desktop. Full navigation, volumes, people, timeline, documents, search, sources and filters work on all screens. Mobile: single column, 20px gutters, readable >=16px body, natural Korean/Latin wrapping, approximately 44px touch targets, zero horizontal overflow, ESC/focus return on navigation, keyboard and assistive labels, reduced motion. Test iOS Safari and Android Chrome when possible; report NOT TESTED if unrun.
+
 ### Product vision
 A calm, beautifully typeset, modern web atlas that helps Korean readers explore the history of Christianity and the Reformation across 8 thematic volumes. The first milestone is a **functional UI skeleton** with real navigation; subsequent milestones will connect source-verified content records and progressively add deeper research without changing entity URLs.
 
@@ -68,8 +79,8 @@ Important: VOL-08 is NOT another chronological historical era. It is a cross-per
 ### Before you finish
 1. Generate code files and show a working preview.
 2. Verify the home, /volumes and /volumes/VOL-04 routes.
-3. Verify viewport widths 375px and 1440px, and mobile navigation.
-4. Provide a concise change summary: files created, routes implemented, which items are DEMO, known limitations.
+3. Verify mobile widths 320px, 360px, 375px, 390px, 430px, tablet 768px/1024px and desktop 1440px, keyboard/mobile navigation and overflow; do not claim tests unrun.
+4. Include PREBUILD_GATE findings and design diffs, then provide files created, routes implemented, which items are DEMO and limitations.
 5. Explicitly confirm: no external deployment; no Gemini inference; no images or unreviewed historical data exposed.
 6. Stop after B1. Do NOT try to implement all features at once.
 
