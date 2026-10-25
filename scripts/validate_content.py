@@ -50,7 +50,7 @@ extension_path = DATA / "vol03_extension.json"
 extension = json.loads(extension_path.read_text(encoding="utf-8")) if extension_path.exists() else None
 if extension is not None:
     vol03_register = (ROOT / "docs/01_CONTENT/VOL03/05_SOURCE_REGISTER.md").read_text(encoding="utf-8")
-    source_ids |= set(re.findall(r"V03-S\\d{2}", vol03_register))
+    source_ids |= set(re.findall(r"V03-S\d{2}", vol03_register))
 
 def check_refs(parent: dict, key: str, known: set) -> None:
     for value in parent.get(key, []):
