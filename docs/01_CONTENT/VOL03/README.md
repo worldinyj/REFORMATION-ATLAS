@@ -120,3 +120,5 @@
 - [P2 이미지·지도 10점 검수 기록](../../02_MEDIA/VOL03_VISUAL_QA_V09_P2.md): 원본 그림 6점과 지도 4종, 7점 HIGH·3점 MEDIUM. [기계 판정용 JSON](../../../data/vol03_visual_review_v09_p2.json).
 - [P3 저장소 관계/게시 게이트 QA](../../03_PRODUCT/VOL03_BATCH_QA_V09_P3.md): 182노드·365에지·14개 주장·10시각자료, 누락 ID 0건. [독립 검증 스크립트](../../../scripts/validate_vol03_v09_batch.py).
 - 과거 바이너리·기존 본문·원래 182/365 통합색인은 불변, Draft PR #2 유지, `main` 미병합 및 공개 승인 금지.
+
+- V0.9 사용자용 Word `REFORMATION_ATLAS_VOL03_V09_BATCH_REVIEW.docx` (12쪽, SHA256 `44467b08b3e6a4263fd2a3e68c2561c0d858c37f5444679b0529e3689b2860c5`), 교육 지도·기존 AI 그림 ZIP이 함께 포함된 `REFORMATION_ATLAS_VOL03_V09_BATCH_REVIEW_BUNDLE.zip` (SHA256 `c730b1d1db34828b37b64398e41319515a1a982b4dfb5417b40c84e31e6a68b2`). 대화 다운로드 전용, GitHub 바이너리 미수록.

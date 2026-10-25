@@ -34,3 +34,13 @@
 5. 이후 8권 데이터 계약을 기준으로 PRD/TRD/UXUI/TASKLIST 착수 여부 판단.
 
 본 산출물의 단계 완료는 **자료·기술 검토 기록의 완료**이고 **공개·학술 승인 완료가 아니다.**
+
+## V0.9 Word·ZIP 독립 사용자 검토 패키지 (2026-10-25)
+- Word `REFORMATION_ATLAS_VOL03_V09_BATCH_REVIEW.docx`: **12쪽** A4 검토본, 인물·사건 AI 이미지 **6점** 및 기존 교육 개념 지도 **4점** 내장.
+- Word SHA256: `44467b08b3e6a4263fd2a3e68c2561c0d858c37f5444679b0529e3689b2860c5`.
+- Word의 12쪽을 PNG로 렌더링하여 시각 검토함. 접근성 자동 감사: **high 0 / medium 0 / low 0** (10개 이미지 대체텍스트 + 6개 표 헤더 부여).
+- 사용자용 ZIP `REFORMATION_ATLAS_VOL03_V09_BATCH_REVIEW_BUNDLE.zip`: Word 1, 편집형 SVG 지도 4, 지도 PNG 4, 기존 원본 AI 그림 ZIP 1, README 1, SHA256SUMS JSON 1 (총 12개 ZIP 엔트리).
+- ZIP SHA256: `c730b1d1db34828b37b64398e41319515a1a982b4dfb5417b40c84e31e6a68b2`.
+- ZIP 전체 CRC 및 포함 10개 바이너리의 SHA256 자체 검증 PASS. 이미지 ZIP의 이전 SHA256도 직접 재검증.
+- 두 사용자 파일은 **ChatGPT 대화의 독립 다운로드 아티팩트**이며 GitHub에 바이너리로 저장되지 않는다.
+- 이미지 내용의 역사 고증은 QA로 승인된 것이 아니며, 전체 연구·표현은 계속 DRAFT이다.
