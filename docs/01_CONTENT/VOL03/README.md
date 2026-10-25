@@ -134,3 +134,8 @@
 - [보충 원전 증거 JSON](../../../data/vol03_supplemental_witnesses_v10.json): 임시 출처 4건과 보충 문헌 1건. 원래 182/365 연구 인덱스·63개 출처·14개 주장은 불변.
 - [실물 매체 파일 기술 재검증](../../03_PRODUCT/VOL03_OFFLINE_ASSET_QA_V10.md): ZIP SHA/CRC, WebP 6건, SVG 4건, Word 15쪽/이미지 10개 기록 재확인. Git 전체 체크아웃은 불가하여 저장소 Python 스크립트 실행은 보류.
 - 외부 역사학자/문헌학자 심사·현장 초상 및 이미지 승인·`main` 병합은 미완료, Draft PR 유지.
+
+## V1.1 · 역사 시각자료 수정 후보 6점 (R2C01)
+- [수정 후보 4인물 + 2지도 검토](../../02_MEDIA/VOL03_VISUAL_CANDIDATES_V11.md) · [후보/ZIP 해시 데이터](../../../data/vol03_visual_candidates_v11.json).
+- PNG/WebP·후보 SVG/PNG 파일은 대화 ZIP에만 있으며 GitHub 바이너리 또는 후보 SVG 업로드는 아직 실시하지 않았다. 후보 지도는 과거 ZIP 원본과 현 GitHub SVG의 설명 텍스트 차이 때문에 비교 후 설치해야 한다.
+- 고위험 7점 중 5점에 대해 시각 후보 제작(인물3, 지도2)만 완료, 사건 삽화2 미완료. 최종 고증/배포 승인 대기.
