@@ -1,0 +1,90 @@
+{
+  "schema_version": "0.2",
+  "status": "DRAFT",
+  "date": "2026-10-25",
+  "branch": "plan/atlas-ai-studio-build-v02",
+  "checks": [
+    {
+      "name": "PRD 18/18 traced",
+      "pass": true
+    },
+    {
+      "name": "36 work packages",
+      "pass": true
+    },
+    {
+      "name": "33 P0 and 3 P1",
+      "pass": true
+    },
+    {
+      "name": "all unstarted",
+      "pass": true
+    },
+    {
+      "name": "all task refs exist",
+      "pass": true
+    },
+    {
+      "name": "dependency graph acyclic",
+      "pass": true
+    },
+    {
+      "name": "14 unique screen routes",
+      "pass": true
+    },
+    {
+      "name": "14 screens match existing PRD routes",
+      "pass": true
+    },
+    {
+      "name": "screen state design_only",
+      "pass": true
+    },
+    {
+      "name": "8 volume 33 people 34 events 20 docs",
+      "pass": true
+    },
+    {
+      "name": "22 places 10 topics 32 relations",
+      "pass": true
+    },
+    {
+      "name": "22 historical sites unverified",
+      "pass": true
+    },
+    {
+      "name": "tokens match visual system",
+      "pass": true
+    },
+    {
+      "name": "publication approval off",
+      "pass": true
+    },
+    {
+      "name": "GitHub Build scaffold not claimed complete",
+      "pass": true
+    }
+  ],
+  "quality_check_passed": true,
+  "counts": {
+    "design_documents": 5,
+    "task_count": 36,
+    "p0_tasks": 33,
+    "p1_tasks": 3,
+    "prd_requirements": 18,
+    "screens": 14,
+    "content_records": 127,
+    "relations": 32
+  },
+  "build_environment": "Google AI Studio Build Web app - React/TypeScript requested",
+  "design_style": "Quiet Editorial Atlas",
+  "approval": {
+    "design": false,
+    "public_release": false
+  },
+  "release": {
+    "can_ship": false,
+    "web_built": false,
+    "main_merged": false
+  }
+}
