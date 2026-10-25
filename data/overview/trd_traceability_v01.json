@@ -1,0 +1,174 @@
+{
+  "schema_version": "0.1",
+  "document": "ATLAS_TRD_V01",
+  "status": "DRAFT",
+  "date": "2026-10-25",
+  "source_prd": "data/overview/prd_acceptance_v01.json",
+  "mapping": [
+    {
+      "id": "FR-001",
+      "subsystem": "SSR/static pages",
+      "contract": "volumes read model",
+      "test": "volume enumeration/links"
+    },
+    {
+      "id": "FR-002",
+      "subsystem": "static volume route",
+      "contract": "cross referenced people/events/docs",
+      "test": "foreign-key and empty states"
+    },
+    {
+      "id": "FR-003",
+      "subsystem": "person route",
+      "contract": "global Person + alias mapping",
+      "test": "crosswalk and deep migration"
+    },
+    {
+      "id": "FR-004",
+      "subsystem": "timeline route",
+      "contract": "Event.date_label + date_precision",
+      "test": "approximate labels vs sorting"
+    },
+    {
+      "id": "FR-005",
+      "subsystem": "document route",
+      "contract": "Document+witness access tier",
+      "test": "no full copyrighted text leakage"
+    },
+    {
+      "id": "FR-006",
+      "subsystem": "theme route",
+      "contract": "Topic links and related volumes",
+      "test": "VOL-08 thematic only"
+    },
+    {
+      "id": "FR-007",
+      "subsystem": "place route",
+      "contract": "text-only location reference",
+      "test": "zero false map coordinates"
+    },
+    {
+      "id": "FR-008",
+      "subsystem": "client search",
+      "contract": "approved-only SearchDocument fields",
+      "test": "Korean/English search and zero leaks"
+    },
+    {
+      "id": "FR-009",
+      "subsystem": "linked cards",
+      "contract": "Relation: from/to/type/evidence",
+      "test": "no untyped personal contact"
+    },
+    {
+      "id": "FR-010",
+      "subsystem": "provenance",
+      "contract": "SourceRef + verification scope",
+      "test": "metadata vs primary original"
+    },
+    {
+      "id": "FR-011",
+      "subsystem": "build-time visibility gate",
+      "contract": "approved public catalogue vs local review-only data",
+      "test": "unapproved excluded from HTML/JS/JSON/media"
+    },
+    {
+      "id": "FR-012",
+      "subsystem": "responsive styles",
+      "contract": "semantic HTML + progressive enhancement",
+      "test": "keyboard/mobile/a11y"
+    },
+    {
+      "id": "FR-013",
+      "subsystem": "empty and pending states",
+      "contract": "content status enum per record",
+      "test": "no fabricated content"
+    },
+    {
+      "id": "FR-014",
+      "subsystem": "revision trail",
+      "contract": "Git SHA and content version fields",
+      "test": "stable URL after increment"
+    },
+    {
+      "id": "FR-015",
+      "subsystem": "navigation",
+      "contract": "typed routes and breadcrumbs",
+      "test": "direct link and back navigation"
+    },
+    {
+      "id": "FR-016",
+      "subsystem": "future map module",
+      "contract": "verified coordinates in geodata extension only",
+      "test": "P1 no fake pins"
+    },
+    {
+      "id": "FR-017",
+      "subsystem": "deep content block adapter",
+      "contract": "same global identity and content-depth sections",
+      "test": "no route rewrite"
+    },
+    {
+      "id": "FR-018",
+      "subsystem": "future graph visualization",
+      "contract": "typed, cited relations only",
+      "test": "P1 do not infer travel"
+    }
+  ],
+  "architecture": "STATIC_FIRST_PROVISIONAL",
+  "publication_gate": {
+    "approved": false,
+    "can_ship": false,
+    "dev_preview_only": true
+  },
+  "draft_warning": "Architectural choices are for review, not executed as site code",
+  "adr": [
+    {
+      "id": "ADR-001",
+      "issue": "Web rendering",
+      "recommendation": "Astro + TypeScript, pre-render static-first",
+      "alternative": "Django templates or Next.js runtime rendering",
+      "rationale": "Small initial catalogue; pages and cross-links, low cost; no login/transaction in P0; future deep content remains Markdown/JSON",
+      "status": "PROVISIONAL_TDR_DRAFT"
+    },
+    {
+      "id": "ADR-002",
+      "issue": "Storage",
+      "recommendation": "Git-managed Markdown/JSON + build-time generated read model, no DB in P0",
+      "alternative": "Django/SQLite then Postgres; CMS",
+      "rationale": "Current GitHub data and Python validators are ready; editorial traceability via Git; DB is warranted only for multi-author workflows/user data",
+      "status": "PROVISIONAL_TDR_DRAFT"
+    },
+    {
+      "id": "ADR-003",
+      "issue": "Search",
+      "recommendation": "Static client-side index, deterministic Korean/Latin normalized title and aliases",
+      "alternative": "Backend full-text API/hosted search",
+      "rationale": "127 introductory records, no need remote service; type-scoped queries; avoid leaking draft records in index",
+      "status": "PROVISIONAL_TDR_DRAFT"
+    },
+    {
+      "id": "ADR-004",
+      "issue": "Hosting",
+      "recommendation": "Cloudflare Pages as optional static host only after release-gate decision",
+      "alternative": "GitHub Pages / another static host",
+      "rationale": "Candidate only. Preview deployments are public by default and must not contain draft data unless protected with Access",
+      "status": "PROVISIONAL_TDR_DRAFT"
+    },
+    {
+      "id": "ADR-005",
+      "issue": "Places and maps",
+      "recommendation": "Text-only places in P0; verified geodata and map provider P1",
+      "alternative": "Unverified geocoder pins",
+      "rationale": "22 places are unverified named locations and have zero confirmed coordinates. False historical precision is disallowed",
+      "status": "PROVISIONAL_TDR_DRAFT"
+    },
+    {
+      "id": "ADR-006",
+      "issue": "Images",
+      "recommendation": "No unapproved historic portraits in P0 public build; optional verified licensed assets later",
+      "alternative": "Immediate AI image upload",
+      "rationale": "Old VOL03 historic study/candidate 8 visuals still require human scholarly and rights approval",
+      "status": "PROVISIONAL_TDR_DRAFT"
+    }
+  ]
+}
