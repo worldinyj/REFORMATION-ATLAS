@@ -137,10 +137,12 @@
         "month",
         "year",
         "range",
+        "approximate_year",
         "approximate_period",
         "undated"
       ],
-      "render_rule": "Only date_label is user-facing; sorting years cannot invent month/day."
+      "render_rule": "Only date_label is user-facing; sorting years cannot invent month/day.",
+      "normalization_note_ko": "원본 approximate_year(예: 1402년경)는 approximate_period로 뭉개지 않고 별도 날짜 정밀도로 보존한다."
     },
     "evidence": {
       "source_ids_required_for_claims": true,
