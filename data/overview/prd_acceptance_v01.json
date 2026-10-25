@@ -1,0 +1,336 @@
+{
+  "schema_version": "0.1",
+  "document": "ATLAS_PRD_V01",
+  "status": "DRAFT",
+  "date": "2026-10-25",
+  "planning_branch": "plan/atlas-prd-v01",
+  "source_plan": "docs/03_PRODUCT/ATLAS_PROJECT_PLAN_V01.md",
+  "target_users": [
+    "general_readers",
+    "church_education_starters",
+    "teachers"
+  ],
+  "researchers": "future_expansion",
+  "content_snapshot": {
+    "volumes": 8,
+    "people": 33,
+    "events": 34,
+    "documents": 20,
+    "places": 22,
+    "themes": 10,
+    "relationships": 32,
+    "sources": 23
+  },
+  "release": {
+    "project_plan_approved": false,
+    "prd_approved": false,
+    "public_data_approved": false,
+    "web_build_started": false,
+    "can_ship": false
+  },
+  "requirements": [
+    {
+      "id": "FR-001",
+      "priority": "P0",
+      "title": "8권 홈 탐색",
+      "description": "홈에서 8권 카드가 권 번호·시대/주제·개요 문구와 함께 표시되고, 선택하면 권 상세로 이동",
+      "test_key": "all_volumes_visible",
+      "acceptance": "VOL-01~08 각각 카드 1개, VOL-08 시대순 예외, 출처·검토 상태 제공",
+      "status": "DRAFT",
+      "public_safe_only_after_approval": true
+    },
+    {
+      "id": "FR-002",
+      "priority": "P0",
+      "title": "권별 상세 페이지",
+      "description": "권별 개요와 인물/사건/문헌/주제 섹션을 연결하고 빈 카테고리는 거짓 자료를 만들지 않음",
+      "test_key": "volume_detail",
+      "acceptance": "8/8 권별 개요 페이지와 올바른 필터링",
+      "status": "DRAFT",
+      "public_safe_only_after_approval": true
+    },
+    {
+      "id": "FR-003",
+      "priority": "P0",
+      "title": "인물 목록·개요 상세",
+      "description": "초기 인물 33명의 이름/시대/활동 개요/출처/연관 기록을 필터·상세로 제공",
+      "test_key": "people_browse",
+      "acceptance": "33 초기 레코드 접근, 동일 인물의 다중 권 링크는 한 인물로 처리",
+      "status": "DRAFT",
+      "public_safe_only_after_approval": true
+    },
+    {
+      "id": "FR-004",
+      "priority": "P0",
+      "title": "시간순 사건 탐색",
+      "description": "연대표에서 34개 사건을 권·시대·연대별로 탐색하되 연대 정밀도와 설명을 표시",
+      "test_key": "timeline_browse",
+      "acceptance": "34건 접근, 근사 연대를 특정 월일로 위조하지 않음",
+      "status": "DRAFT",
+      "public_safe_only_after_approval": true
+    },
+    {
+      "id": "FR-005",
+      "priority": "P0",
+      "title": "문헌 목록·상세",
+      "description": "20문헌의 원어명, 시대/판본, 자체 요약, 출처 및 전문 이용 제한을 노출",
+      "test_key": "documents_browse",
+      "acceptance": "문헌 20건 링크, 원저술/번역/편집/연구 분리, 유료 전문 미복제",
+      "status": "DRAFT",
+      "public_safe_only_after_approval": true
+    },
+    {
+      "id": "FR-006",
+      "priority": "P0",
+      "title": "주제·사상 탐색",
+      "description": "시대를 가로지르는 주제 10개를 관련 권과 연결하여 탐색 가능",
+      "test_key": "themes_browse",
+      "acceptance": "VOL-08 별도 시간축 생성 금지, 주제 10개 접근",
+      "status": "DRAFT",
+      "public_safe_only_after_approval": true
+    },
+    {
+      "id": "FR-007",
+      "priority": "P0",
+      "title": "장소 목록",
+      "description": "장소 22곳의 현대 지명, 역사 설명, 연결된 사건을 목록 형태로 보여줌",
+      "test_key": "places_list",
+      "acceptance": "검증 전 역사 건축물 좌표/지도 핀 미표시",
+      "status": "DRAFT",
+      "public_safe_only_after_approval": true
+    },
+    {
+      "id": "FR-008",
+      "priority": "P0",
+      "title": "통합 검색",
+      "description": "한국어 제목·영문/라틴어 별칭을 대상으로 인물·사건·문헌·권을 검색하고 유형별 결과 제공",
+      "test_key": "search",
+      "acceptance": "빈 검색 결과와 결과 없음 상태, 유형 필터, 의미가 동일한 별칭 테스트",
+      "status": "DRAFT",
+      "public_safe_only_after_approval": true
+    },
+    {
+      "id": "FR-009",
+      "priority": "P0",
+      "title": "관련 항목 이동",
+      "description": "32개 관계를 이용해 연관 인물·사건·문헌을 이동 가능하게 하며 관계 유형을 명시",
+      "test_key": "related_content",
+      "acceptance": "textual_influence를 direct_contact로 잘못 표시하지 않음; 출처 연결 포함",
+      "status": "DRAFT",
+      "public_safe_only_after_approval": true
+    },
+    {
+      "id": "FR-010",
+      "priority": "P0",
+      "title": "자료 출처와 확실성 표시",
+      "description": "상세 페이지에 개요 출처, 접근 수준, 연구 상태와 사실/해석 차이를 표시",
+      "test_key": "provenance",
+      "acceptance": "이용자가 모든 중요 사실의 출처 페이지로 이동 가능",
+      "status": "DRAFT",
+      "public_safe_only_after_approval": true
+    },
+    {
+      "id": "FR-011",
+      "priority": "P0",
+      "title": "비공개 콘텐츠 보호",
+      "description": "DRAFT·미승인 원고/이미지·지도는 공용 라우트/검색/API에 실리지 않고 내부 프리뷰에서만 접근",
+      "test_key": "publication_gate",
+      "acceptance": "공개 콘텐츠 승인 0건인 초기 상태에서 공개 응답 0건; 내부 프리뷰는 DRAFT 경고",
+      "status": "DRAFT",
+      "public_safe_only_after_approval": true
+    },
+    {
+      "id": "FR-012",
+      "priority": "P0",
+      "title": "반응형·접근성",
+      "description": "모바일·데스크톱 탐색, 키보드 조작, 대비와 alt/대체 설명, 포커스 지원",
+      "test_key": "responsive_a11y",
+      "acceptance": "320px 모바일·태블릿·1440px 데스크톱 검토, 키보드 전체 주요 여정",
+      "status": "DRAFT",
+      "public_safe_only_after_approval": true
+    },
+    {
+      "id": "FR-013",
+      "priority": "P0",
+      "title": "자료 없음을 정직하게 표시",
+      "description": "심층 연구나 고증 이미지가 없으면 '준비 중/검증 대기' 상태를 명확하게 표시",
+      "test_key": "empty_state",
+      "acceptance": "빈 장문 콘텐츠와 누락 지도에 대해 임의 텍스트·정확 좌표 미생성",
+      "status": "DRAFT",
+      "public_safe_only_after_approval": true
+    },
+    {
+      "id": "FR-014",
+      "priority": "P0",
+      "title": "버전·개정 이력 추적",
+      "description": "상세 항목의 버전, 마지막 편집, 출처 및 공개 판단 이력을 데이터 수준에서 기록",
+      "test_key": "change_tracking",
+      "acceptance": "심층 내용 갱신 후 같은 항목 ID 유지 및 기존 버전 조회/롤백 가능하도록 설계",
+      "status": "DRAFT",
+      "public_safe_only_after_approval": true
+    },
+    {
+      "id": "FR-015",
+      "priority": "P0",
+      "title": "기본 탐색 경로",
+      "description": "전역 내비게이션과 현재 위치를 제공하고 뒤로가기/직접 링크가 유지",
+      "test_key": "navigation",
+      "acceptance": "홈→권→인물→관련 사건→문헌→권 흐름 이동 가능",
+      "status": "DRAFT",
+      "public_safe_only_after_approval": true
+    },
+    {
+      "id": "FR-016",
+      "priority": "P1",
+      "title": "검증된 지도 시각화",
+      "description": "위치/고증 승인 완료한 장소만 지도에 핀 표시; 여행로와 사상 관계를 구분",
+      "test_key": "map_later",
+      "acceptance": "검증 좌표 0인 상태에서 지도 핀 0, 서술 페이지는 장소 목록으로 이동",
+      "status": "DRAFT",
+      "public_safe_only_after_approval": true
+    },
+    {
+      "id": "FR-017",
+      "priority": "P1",
+      "title": "심층 연구 탭",
+      "description": "개요 이후 DEEP_RESEARCH/판본 비교/쟁점/시각자료 섹션을 추가",
+      "test_key": "deep_content",
+      "acceptance": "동일 글로벌 ID·URL 유지, 추가 전 화면 재개발 없이 연구 단위 삽입",
+      "status": "DRAFT",
+      "public_safe_only_after_approval": true
+    },
+    {
+      "id": "FR-018",
+      "priority": "P1",
+      "title": "관계 시각화와 교육 경로",
+      "description": "검증된 관계만 도식으로 시각화하고 권별 학습 경로/질문을 제공",
+      "test_key": "relationship_visualization",
+      "acceptance": "관계 유형/참조/검토 상태 표시, 미확인 직접 교류 추론 금지",
+      "status": "DRAFT",
+      "public_safe_only_after_approval": true
+    }
+  ],
+  "acceptance_suites": [
+    {
+      "id": "AC-CONTENT",
+      "test": "overview inventory coverage, 8 volumes, 33 people, 34 events, 20 docs, 10 themes, 22 text-only places; count differences must be versioned"
+    },
+    {
+      "id": "AC-EVIDENCE",
+      "test": "every presented claim cites an appropriate source and source access tier; metadata pages are not presented as full-text collation"
+    },
+    {
+      "id": "AC-DATE",
+      "test": "approximate and range labels preserved; timeline order uses sort year only, no fake day"
+    },
+    {
+      "id": "AC-MAP",
+      "test": "all 22 unverified places remain unpinned until coordinate evidence and human gate"
+    },
+    {
+      "id": "AC-ASSET",
+      "test": "none of the candidate AI images or unapproved SVGs is in public media list"
+    },
+    {
+      "id": "AC-VOL08",
+      "test": "VOL-08 functions as thematic/cross-volume archive, not a fictional eighth period"
+    },
+    {
+      "id": "AC-ID",
+      "test": "legacy VOL-03 person crosswalk links Valdes/Wyclif/Hus without duplicated published IDs"
+    },
+    {
+      "id": "AC-A11Y",
+      "test": "keyboard/reading order/alt/error/contrast manual checks on mobile & desktop"
+    },
+    {
+      "id": "AC-SEARCH",
+      "test": "queries return expected records for Luther, 루터, Hus, 후스, 1517, 성찬론"
+    },
+    {
+      "id": "AC-UPDATE",
+      "test": "overview to deep narrative update retains persistent entity identity and link locations"
+    }
+  ],
+  "quality_targets": {
+    "accessibility": "WCAG 2.2 AA design target (to be verified at implementation)",
+    "mobile_width_min_px": 320,
+    "desktop_test_width_px": 1440,
+    "search_response_target_ms": 600,
+    "core_page_lcp_target_s": 2.5,
+    "targets_are_design_assumptions": true
+  },
+  "information_pages": [
+    {
+      "key": "home",
+      "path": "/",
+      "title_ko": "홈"
+    },
+    {
+      "key": "volumes",
+      "path": "/volumes",
+      "title_ko": "8권 탐색"
+    },
+    {
+      "key": "volume",
+      "path": "/volumes/:volumeId",
+      "title_ko": "권 상세"
+    },
+    {
+      "key": "people",
+      "path": "/people",
+      "title_ko": "인물 목록"
+    },
+    {
+      "key": "person",
+      "path": "/people/:personId",
+      "title_ko": "인물 상세"
+    },
+    {
+      "key": "timeline",
+      "path": "/timeline",
+      "title_ko": "연대표"
+    },
+    {
+      "key": "events",
+      "path": "/events/:eventId",
+      "title_ko": "사건 상세"
+    },
+    {
+      "key": "documents",
+      "path": "/documents",
+      "title_ko": "문헌 목록"
+    },
+    {
+      "key": "document",
+      "path": "/documents/:documentId",
+      "title_ko": "문헌 상세"
+    },
+    {
+      "key": "places",
+      "path": "/places",
+      "title_ko": "장소 목록"
+    },
+    {
+      "key": "topics",
+      "path": "/topics",
+      "title_ko": "주제 목록"
+    },
+    {
+      "key": "topic",
+      "path": "/topics/:topicId",
+      "title_ko": "주제 상세"
+    },
+    {
+      "key": "search",
+      "path": "/search",
+      "title_ko": "통합 검색"
+    },
+    {
+      "key": "about",
+      "path": "/about",
+      "title_ko": "자료·출처 안내"
+    }
+  ],
+  "blocked_until": "TRD architecture and UXUI approval, rights and publication approval for any public dataset"
+}

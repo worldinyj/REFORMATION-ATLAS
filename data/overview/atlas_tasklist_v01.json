@@ -1,0 +1,626 @@
+{
+  "schema_version": "0.1",
+  "status": "DRAFT_TASKLIST",
+  "created_at": "2026-10-25",
+  "source_documents": [
+    "docs/03_PRODUCT/ATLAS_PROJECT_PLAN_V01.md",
+    "docs/03_PRODUCT/ATLAS_PRD_V01.md",
+    "docs/03_PRODUCT/ATLAS_TRD_V01.md",
+    "docs/04_UXUI/ATLAS_UXUI_V01.md"
+  ],
+  "approval_gate": {
+    "plan": false,
+    "prd": false,
+    "trd": false,
+    "uxui": false,
+    "tasklist": false,
+    "website_developed": false,
+    "public_release": false
+  },
+  "status_meanings": {
+    "NOT_STARTED": "기획만 되어 있으며 코드/파일 구현 미시작",
+    "IN_PROGRESS": "실제 개발 중",
+    "DONE": "수용시험 근거 확보 후 완료",
+    "BLOCKED": "사람 승인/자료가 없을 때만"
+  },
+  "tasks": [
+    {
+      "id": "AT-001",
+      "phase": "A_CONTENT",
+      "title": "기존 JSON·개요 소스 고정 및 도메인 필드 정리",
+      "depends_on": [],
+      "requirement_ids": [
+        "FR-014"
+      ],
+      "acceptance": "8권/127개 항목·32관계·23출처 재현; 출처 범위/검토 상태 보존",
+      "owner_role": "Content",
+      "priority": "P0",
+      "size": "S",
+      "status": "NOT_STARTED",
+      "publication_approval_not_implied": true
+    },
+    {
+      "id": "AT-002",
+      "phase": "A_CONTENT",
+      "title": "PER·OV-P 글로벌 ID 대응표의 정식 마이그레이션 설계",
+      "depends_on": [
+        "AT-001"
+      ],
+      "requirement_ids": [
+        "FR-003",
+        "FR-014"
+      ],
+      "acceptance": "발도/위클리프/후스 3명 중복 없이 연결, 33명 전체 충돌 없는 ID 수립",
+      "owner_role": "Data",
+      "priority": "P0",
+      "size": "M",
+      "status": "NOT_STARTED",
+      "publication_approval_not_implied": true
+    },
+    {
+      "id": "AT-003",
+      "phase": "A_CONTENT",
+      "title": "문헌 원전/번역/판본 및 출처 등급 정규화",
+      "depends_on": [
+        "AT-001"
+      ],
+      "requirement_ids": [
+        "FR-005",
+        "FR-010"
+      ],
+      "acceptance": "문헌 20건 정보 분리, 메타데이터를 원전 직독이라고 표시 금지",
+      "owner_role": "Content",
+      "priority": "P0",
+      "size": "M",
+      "status": "NOT_STARTED",
+      "publication_approval_not_implied": true
+    },
+    {
+      "id": "AT-004",
+      "phase": "A_CONTENT",
+      "title": "연대표 날짜 정밀도/장소 좌표 검증 규약",
+      "depends_on": [
+        "AT-001"
+      ],
+      "requirement_ids": [
+        "FR-004",
+        "FR-007"
+      ],
+      "acceptance": "정밀도 6종 보존, 미고증 장소 22건 pin=0",
+      "owner_role": "Data",
+      "priority": "P0",
+      "size": "S",
+      "status": "NOT_STARTED",
+      "publication_approval_not_implied": true
+    },
+    {
+      "id": "AT-005",
+      "phase": "B_PIPELINE",
+      "title": "읽기 전용 승인 데이터 모델과 파서",
+      "depends_on": [
+        "AT-002",
+        "AT-003",
+        "AT-004"
+      ],
+      "requirement_ids": [
+        "FR-001",
+        "FR-002",
+        "FR-014"
+      ],
+      "acceptance": "원본 비파괴 정규화, 필수 키/관계 정합 확인",
+      "owner_role": "Data",
+      "priority": "P0",
+      "size": "L",
+      "status": "NOT_STARTED",
+      "publication_approval_not_implied": true
+    },
+    {
+      "id": "AT-006",
+      "phase": "B_PIPELINE",
+      "title": "공개 전용 exporter / 내부 검토 loader 분리",
+      "depends_on": [
+        "AT-005"
+      ],
+      "requirement_ids": [
+        "FR-011",
+        "FR-013"
+      ],
+      "acceptance": "DRAFT만 있을 때 공개 데이터/검색/이미지 0건, 내부에서만 검토 가능",
+      "owner_role": "Security",
+      "priority": "P0",
+      "size": "L",
+      "status": "NOT_STARTED",
+      "publication_approval_not_implied": true
+    },
+    {
+      "id": "AT-007",
+      "phase": "B_PIPELINE",
+      "title": "출처·라이선스·이미지 권리 게이트",
+      "depends_on": [
+        "AT-003",
+        "AT-006"
+      ],
+      "requirement_ids": [
+        "FR-010",
+        "FR-011"
+      ],
+      "acceptance": "원전/판본/이미지의 승인/근거 부족 시 공용 빌드 차단",
+      "owner_role": "QA",
+      "priority": "P0",
+      "size": "M",
+      "status": "NOT_STARTED",
+      "publication_approval_not_implied": true
+    },
+    {
+      "id": "AT-008",
+      "phase": "B_PIPELINE",
+      "title": "정적 검색 데이터 및 별칭 생성",
+      "depends_on": [
+        "AT-005",
+        "AT-006"
+      ],
+      "requirement_ids": [
+        "FR-008"
+      ],
+      "acceptance": "한국어/영어 인명 별칭; 유형별 색인, 미승인 항목 누출 0",
+      "owner_role": "Data",
+      "priority": "P0",
+      "size": "M",
+      "status": "NOT_STARTED",
+      "publication_approval_not_implied": true
+    },
+    {
+      "id": "AT-009",
+      "phase": "C_SCAFFOLD",
+      "title": "웹 프로젝트 기초/라우터/SSG 빌드 설정",
+      "depends_on": [
+        "AT-006"
+      ],
+      "requirement_ids": [
+        "FR-015",
+        "FR-012"
+      ],
+      "acceptance": "프레임워크 선택 기록 및 내부에서 14 화면 라우트 빌드, 운영 배포 없음",
+      "owner_role": "Frontend",
+      "priority": "P0",
+      "size": "M",
+      "status": "NOT_STARTED",
+      "publication_approval_not_implied": true
+    },
+    {
+      "id": "AT-010",
+      "phase": "C_SCAFFOLD",
+      "title": "디자인 토큰·공통 시멘틱 컴포넌트",
+      "depends_on": [
+        "AT-009"
+      ],
+      "requirement_ids": [
+        "FR-012"
+      ],
+      "acceptance": "모바일 최소 320px·글자 크기·대비·포커스 구조, 인물 이미지 없이 동작",
+      "owner_role": "Design",
+      "priority": "P0",
+      "size": "M",
+      "status": "NOT_STARTED",
+      "publication_approval_not_implied": true
+    },
+    {
+      "id": "AT-011",
+      "phase": "C_SCAFFOLD",
+      "title": "전역 헤더/내비게이션/브레드크럼",
+      "depends_on": [
+        "AT-009",
+        "AT-010"
+      ],
+      "requirement_ids": [
+        "FR-015"
+      ],
+      "acceptance": "14 라우트 간 이동, 직접 링크/브라우저 뒤로가기/키보드 탐색",
+      "owner_role": "Frontend",
+      "priority": "P0",
+      "size": "M",
+      "status": "NOT_STARTED",
+      "publication_approval_not_implied": true
+    },
+    {
+      "id": "AT-012",
+      "phase": "D_PAGES",
+      "title": "홈·8권 카드 목록",
+      "depends_on": [
+        "AT-005",
+        "AT-011"
+      ],
+      "requirement_ids": [
+        "FR-001"
+      ],
+      "acceptance": "VOL-01~08 카드, VOL-08은 시간대 아닌 주제 아카이브",
+      "owner_role": "Frontend",
+      "priority": "P0",
+      "size": "M",
+      "status": "NOT_STARTED",
+      "publication_approval_not_implied": true
+    },
+    {
+      "id": "AT-013",
+      "phase": "D_PAGES",
+      "title": "권 상세 템플릿과 섹션",
+      "depends_on": [
+        "AT-012"
+      ],
+      "requirement_ids": [
+        "FR-002"
+      ],
+      "acceptance": "8권 요약/인물·사건·문헌·주제 관계, 없는 항목은 명시",
+      "owner_role": "Frontend",
+      "priority": "P0",
+      "size": "M",
+      "status": "NOT_STARTED",
+      "publication_approval_not_implied": true
+    },
+    {
+      "id": "AT-014",
+      "phase": "D_PAGES",
+      "title": "인물 목록·개요 상세",
+      "depends_on": [
+        "AT-002",
+        "AT-011"
+      ],
+      "requirement_ids": [
+        "FR-003",
+        "FR-013"
+      ],
+      "acceptance": "33개 인물 카드/개요, 안정된 ID 사용, 심층 준비 중 상태",
+      "owner_role": "Frontend",
+      "priority": "P0",
+      "size": "M",
+      "status": "NOT_STARTED",
+      "publication_approval_not_implied": true
+    },
+    {
+      "id": "AT-015",
+      "phase": "D_PAGES",
+      "title": "연대표·사건 상세",
+      "depends_on": [
+        "AT-004",
+        "AT-011"
+      ],
+      "requirement_ids": [
+        "FR-004"
+      ],
+      "acceptance": "34개 사건, 연대 근사/범위 텍스트 보존, 필터 정상",
+      "owner_role": "Frontend",
+      "priority": "P0",
+      "size": "L",
+      "status": "NOT_STARTED",
+      "publication_approval_not_implied": true
+    },
+    {
+      "id": "AT-016",
+      "phase": "D_PAGES",
+      "title": "문헌 목록·상세",
+      "depends_on": [
+        "AT-003",
+        "AT-011"
+      ],
+      "requirement_ids": [
+        "FR-005"
+      ],
+      "acceptance": "20문헌, 서지·원어명·출처·판본 계층, 유료 전문 비노출",
+      "owner_role": "Frontend",
+      "priority": "P0",
+      "size": "M",
+      "status": "NOT_STARTED",
+      "publication_approval_not_implied": true
+    },
+    {
+      "id": "AT-017",
+      "phase": "D_PAGES",
+      "title": "주제/사상 목록·상세 및 VOL08 네비게이션",
+      "depends_on": [
+        "AT-013",
+        "AT-011"
+      ],
+      "requirement_ids": [
+        "FR-006"
+      ],
+      "acceptance": "10개 주제/관련 권, 제8권은 시대 오인 금지",
+      "owner_role": "Frontend",
+      "priority": "P0",
+      "size": "M",
+      "status": "NOT_STARTED",
+      "publication_approval_not_implied": true
+    },
+    {
+      "id": "AT-018",
+      "phase": "D_PAGES",
+      "title": "장소 현대 지명 목록·상세 링크",
+      "depends_on": [
+        "AT-004",
+        "AT-011"
+      ],
+      "requirement_ids": [
+        "FR-007",
+        "FR-013"
+      ],
+      "acceptance": "22개 지명 목록, 고증 좌표 없음 고지, 지도 오픈 금지",
+      "owner_role": "Frontend",
+      "priority": "P0",
+      "size": "S",
+      "status": "NOT_STARTED",
+      "publication_approval_not_implied": true
+    },
+    {
+      "id": "AT-019",
+      "phase": "D_PAGES",
+      "title": "기본 검색 페이지·유형 필터",
+      "depends_on": [
+        "AT-008",
+        "AT-011"
+      ],
+      "requirement_ids": [
+        "FR-008"
+      ],
+      "acceptance": "루터/Martin Luther·후스/Jan Hus·1517 검색, 빈 결과 안내",
+      "owner_role": "Frontend",
+      "priority": "P0",
+      "size": "L",
+      "status": "NOT_STARTED",
+      "publication_approval_not_implied": true
+    },
+    {
+      "id": "AT-020",
+      "phase": "D_PAGES",
+      "title": "출처/근거 패널과 검증 상태 설명",
+      "depends_on": [
+        "AT-007",
+        "AT-010"
+      ],
+      "requirement_ids": [
+        "FR-010"
+      ],
+      "acceptance": "직접 원전/번역/서평/기관해설·DRAFT 상태를 정보로 표현",
+      "owner_role": "Frontend",
+      "priority": "P0",
+      "size": "M",
+      "status": "NOT_STARTED",
+      "publication_approval_not_implied": true
+    },
+    {
+      "id": "AT-021",
+      "phase": "D_PAGES",
+      "title": "관계 기반 관련 항목 카드",
+      "depends_on": [
+        "AT-005",
+        "AT-014",
+        "AT-016"
+      ],
+      "requirement_ids": [
+        "FR-009"
+      ],
+      "acceptance": "32관계 참조 고아 0, 사상 영향=여행 오인 금지",
+      "owner_role": "Frontend",
+      "priority": "P0",
+      "size": "M",
+      "status": "NOT_STARTED",
+      "publication_approval_not_implied": true
+    },
+    {
+      "id": "AT-022",
+      "phase": "D_PAGES",
+      "title": "깊이 블록 빈 슬롯/연구 대기 화면",
+      "depends_on": [
+        "AT-014",
+        "AT-020"
+      ],
+      "requirement_ids": [
+        "FR-013",
+        "FR-014"
+      ],
+      "acceptance": "심층 자료 미존재시 안내, 후속 승인 블록 삽입 후 URL 불변",
+      "owner_role": "Frontend",
+      "priority": "P0",
+      "size": "S",
+      "status": "NOT_STARTED",
+      "publication_approval_not_implied": true
+    },
+    {
+      "id": "AT-023",
+      "phase": "E_QA",
+      "title": "라우트·교차 링크·검색 통합 테스트",
+      "depends_on": [
+        "AT-013",
+        "AT-014",
+        "AT-015",
+        "AT-016",
+        "AT-017",
+        "AT-018",
+        "AT-019",
+        "AT-021"
+      ],
+      "requirement_ids": [
+        "FR-001",
+        "FR-002",
+        "FR-003",
+        "FR-004",
+        "FR-005",
+        "FR-006",
+        "FR-007",
+        "FR-008",
+        "FR-009",
+        "FR-015"
+      ],
+      "acceptance": "총 14 경로/8권·33인물·34사건·20문헌·10주제·22지명 등 카탈로그 연결 정상",
+      "owner_role": "QA",
+      "priority": "P0",
+      "size": "L",
+      "status": "NOT_STARTED",
+      "publication_approval_not_implied": true
+    },
+    {
+      "id": "AT-024",
+      "phase": "E_QA",
+      "title": "320px~1440px 반응형 및 WCAG 접근성 점검",
+      "depends_on": [
+        "AT-011",
+        "AT-020",
+        "AT-023"
+      ],
+      "requirement_ids": [
+        "FR-012"
+      ],
+      "acceptance": "키보드/포커스/읽기 순서/대비/alt/모바일 흐름 검증",
+      "owner_role": "QA",
+      "priority": "P0",
+      "size": "L",
+      "status": "NOT_STARTED",
+      "publication_approval_not_implied": true
+    },
+    {
+      "id": "AT-025",
+      "phase": "E_QA",
+      "title": "검색 인덱스·정적 산출물 DRAFT 노출 검사",
+      "depends_on": [
+        "AT-006",
+        "AT-008",
+        "AT-023"
+      ],
+      "requirement_ids": [
+        "FR-011"
+      ],
+      "acceptance": "HTML/JSON/JS/media/sitemap 어디에도 비승인 연구 원본 없음",
+      "owner_role": "Security",
+      "priority": "P0",
+      "size": "L",
+      "status": "NOT_STARTED",
+      "publication_approval_not_implied": true
+    },
+    {
+      "id": "AT-026",
+      "phase": "E_QA",
+      "title": "기본 성능·보안 헤더·회귀/롤백 계획",
+      "depends_on": [
+        "AT-023",
+        "AT-025"
+      ],
+      "requirement_ids": [
+        "FR-012",
+        "FR-014"
+      ],
+      "acceptance": "성능 측정 기록, 배포 재현·이전 버전 복구 시나리오",
+      "owner_role": "QA",
+      "priority": "P0",
+      "size": "M",
+      "status": "NOT_STARTED",
+      "publication_approval_not_implied": true
+    },
+    {
+      "id": "AT-027",
+      "phase": "F_RELEASE",
+      "title": "비공개 프리뷰 접근통제 및 배포 설정 검토",
+      "depends_on": [
+        "AT-025",
+        "AT-026"
+      ],
+      "requirement_ids": [
+        "FR-011"
+      ],
+      "acceptance": "Cloudflare Pages 등 적용 시 preview 기본 공개 차단; 인증 확인 전 DRAFT 배포 금지",
+      "owner_role": "Security",
+      "priority": "P0",
+      "size": "M",
+      "status": "NOT_STARTED",
+      "publication_approval_not_implied": true
+    },
+    {
+      "id": "AT-028",
+      "phase": "F_RELEASE",
+      "title": "사람 승인·출판 가능한 콘텐츠의 독립 게시 게이트",
+      "depends_on": [
+        "AT-027"
+      ],
+      "requirement_ids": [
+        "FR-011",
+        "FR-010"
+      ],
+      "acceptance": "승인된 콘텐츠만 릴리스 후보에 포함; 인간 승인 없이 main/공개 배포 없음",
+      "owner_role": "Human",
+      "priority": "P0",
+      "size": "S",
+      "status": "NOT_STARTED",
+      "publication_approval_not_implied": true
+    },
+    {
+      "id": "AT-029",
+      "phase": "G_DEEP",
+      "title": "개요→심층 ContentBlock 통합/버전 기록",
+      "depends_on": [
+        "AT-002",
+        "AT-022",
+        "AT-028"
+      ],
+      "requirement_ids": [
+        "FR-017",
+        "FR-014"
+      ],
+      "acceptance": "기존 ID/URL 불변, DEEP_RESEARCH 추가/롤백 테스트",
+      "owner_role": "Content",
+      "priority": "P1",
+      "size": "L",
+      "status": "NOT_STARTED",
+      "publication_approval_not_implied": true
+    },
+    {
+      "id": "AT-030",
+      "phase": "G_DEEP",
+      "title": "전문 검증된 좌표 기반 지도 P1",
+      "depends_on": [
+        "AT-004",
+        "AT-028"
+      ],
+      "requirement_ids": [
+        "FR-016"
+      ],
+      "acceptance": "위경도/시대와 출처·정밀도 검증 후 핀 노출",
+      "owner_role": "Frontend",
+      "priority": "P1",
+      "size": "L",
+      "status": "NOT_STARTED",
+      "publication_approval_not_implied": true
+    },
+    {
+      "id": "AT-031",
+      "phase": "G_DEEP",
+      "title": "관계 그래프·주제별 교육 독해 경로 P1",
+      "depends_on": [
+        "AT-021",
+        "AT-028"
+      ],
+      "requirement_ids": [
+        "FR-018"
+      ],
+      "acceptance": "영향/직접 교류 등 관계 타입·원출처를 잃지 않는 그래프",
+      "owner_role": "Frontend",
+      "priority": "P1",
+      "size": "L",
+      "status": "NOT_STARTED",
+      "publication_approval_not_implied": true
+    },
+    {
+      "id": "AT-032",
+      "phase": "G_DEEP",
+      "title": "위클리프·후스·루터 등 심층 연구 검토 게이트",
+      "depends_on": [
+        "AT-029"
+      ],
+      "requirement_ids": [
+        "FR-017"
+      ],
+      "acceptance": "원전/후대 판본/번역/연구 해석 분리, 전문가·권리 승인 블록만 서비스 반영",
+      "owner_role": "Content",
+      "priority": "P1",
+      "size": "L",
+      "status": "NOT_STARTED",
+      "publication_approval_not_implied": true
+    }
+  ]
+}
