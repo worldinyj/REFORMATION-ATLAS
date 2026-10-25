@@ -1,4 +1,4 @@
-# VOL-03 연구 출처 대장 V0.1
+# VOL-03 연구 출처 대장 V0.3
 > 2026-10-25 수집 · 모든 출처는 실제 열람 범위 명시 · `DRAFT`
 
 **중요**: 유료 문헌의 비공개 장/본문을 열람한 것으로 간주하지 않는다. 공개 초록·서평은 연구 내용을 소개하는 2차 단서이며 중요한 논쟁적 주장에는 후속 1차 사료 교차검증이 필요하다. 해당 출처 내용은 자체 문장으로 재구성한다.
@@ -35,6 +35,14 @@
 | V03-S27 | 개신교 역사 박물관 공개 개설 | [Musée Protestant, A History of the Waldensians](https://museeprotestant.org/en/notice/a-history-of-the-waldensians/) | n.d. | 1532 이후 개혁파 연대와 지역 확산·박해 역사 | 공개 전문 |
 | V03-S28 | 학술 논문 검색 초록·서지 | [Oliviero Palombaro, From Heretical Beggars to Protestant Organizers](https://www.mdpi.com/2077-1444/14/1/4) | 2022/2023 issue | 찬포랑 회합을 일회적 개종으로 묘사하는 관점 비판 | 검색 요약만 확인; 웹 본문 접근 실패 |
 
+| V03-S29 | 1차 저술의 역사 비평판 전사 | [Johann Loserth (ed.), Iohannis Wyclif De eucharistia tractatus maior, Wyclif Society](https://archive.org/stream/latinworks13wycl/latinworks13wycl_djvu.txt) | 1892 | Ch. IV pp.108~109, Ch. V p.141: 실체변화 논박과 그리스도 현존 | 라틴어 OCR 전사 대조; 인쇄 판면 이미지·중세 사본 교감 미실시 |
+| V03-S30 | 1차 저술 번역 발췌 | [Fordham Medieval Sourcebook, John Wyclif: On the Sacrament of Communion (from Trialogus)](https://sourcebooks.web.fordham.edu/source/wyclif-euch.asp) | 온라인 | Trialogus 발췌를 De eucharistia와 혼동 금지 | 공개 HTML 직접 확인 |
+| V03-S31 | 1차 저술 역사 번역본 전사 | [David S. Schaff trans., Jan Hus, De Ecclesia: The Church](https://en.wikisource.org/wiki/De_Ecclesia._The_Church) | 1915 | Ch. I, II, IV, VII, XVII 교회 정의·그리스도 머리·권위 | 영어 번역본 직접 확인; 라틴어 저술 판면 미확인 |
+| V03-S32 | 역사 문헌의 후대 편집 텍스트 전사 | [Čtyři artikuly pražské, based on Palacký/Tschorn, Dějiny národu českého, vol. 3, p.225](https://cs.wikisource.org/wiki/%C4%8Cty%C5%99i_artikuly_pra%C5%BEsk%C3%A9) | 1937판 | 1420년경 네 요구의 정확한 대상·조건 확인 | 옛 체코어 후대 편집본 직접 확인; 1420년 원고와 이문 미확인 |
+| V03-S33 | 비평판 출판기관 서지 | [František Šmahel, Die Basler Kompaktaten mit den Hussiten (1436), MGH Studien und Texte 65](https://cms.flu.cas.cz/en/publications/monographs/die-basler-kompaktaten-mit-den-hussiten-1436.html) | 2019 | 콤팍타타는 라틴어 공식 문서 10건으로 구성 | 서지와 책 소개 직접 확인; 유료 책 비공개 본문 미열람 |
+| V03-S34 | 비평판 공개 학술 서평 | [Thomas A. Fudge, Review of Šmahel, Die Basler Kompaktaten, The Medieval Review](https://scholarworks.iu.edu/journals/index.php/tmr/article/view/31313) | 2020 | 10문서·24필사본·pp.165–218, 1432~37 협상 경과 | 서평 전문 직접 확인, 비평판 원문 미열람 |
+| V03-S35 | 동료심사 논문 공개 초록 | [Adam Pálka, The Basel Compactata and the Limits of Religious Coexistence, Church History](https://www.cambridge.org/core/journals/church-history/article/abs/basel-compactata-and-the-limits-of-religious-coexistence-in-the-age-of-conciliarism-and-beyond/33D199CEC2369561444EE2CF10B7754A) | 2023 | 가톨릭·양형성찬파 사이의 합의문 해석 차이 | 초록만 직접 확인, 논문 전체 미열람 |
+
 ## 아직 완료되지 않은 자료 검증
 1. 1532년 찬포랑 회합 원사료의 번역/판본 비교.
 2. 위클리프 성찬론과 정치적 지배권 이론의 라틴어 텍스트 정밀 대조.
@@ -44,4 +52,4 @@
 6. 관점 차이 검증을 위한 가톨릭 교회사·체코 지역사 전문 연구 추가.
 
 ## 인용 편집 규칙
-원고에 쓰인 `[V03-Snn]`는 링크와 접근 범위를 포함한 출처 ID로 유지. 사실 주장마다 가장 가까운 문단에 부착한다. 참조 IDs는 01~28이며 기존 `SRC-0001` 체계와 충돌하지 않도록 별도 볼륨 로컬 출처 네임스페이스로 시작했다. 차후 통합 데이터베이스 시 영구 SRC ID를 부여할 것.
+원고에 쓰인 `[V03-Snn]`는 링크와 접근 범위를 포함한 출처 ID로 유지. 사실 주장마다 가장 가까운 문단에 부착한다. 참조 IDs는 01~35이며 기존 `SRC-0001` 체계와 충돌하지 않도록 별도 볼륨 로컬 출처 네임스페이스로 시작했다. 차후 통합 데이터베이스 시 영구 SRC ID를 부여할 것.
