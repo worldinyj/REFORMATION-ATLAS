@@ -1,4 +1,4 @@
-# VOL-03 · 종교개혁의 선구자 | Deep Research V0.4
+# VOL-03 · 종교개혁의 선구자 | Deep Research V0.5
 **상태: DRAFT** (기초 공개 학술자료를 토대로 한 심화 연구 초안, 사람의 역사학 감수 전)
 
 ## 읽는 순서
@@ -13,7 +13,7 @@
 9. [10_WALDENSIAN_MEMORY_AND_SOURCES.md](10_WALDENSIAN_MEMORY_AND_SOURCES.md): 1532년과 후대 역사 기억
 10. [06_TIMELINE.md](06_TIMELINE.md): 날짜 정확도를 함께 표시한 연대표
 11. [07_FACTCHECK_MATRIX.md](07_FACTCHECK_MATRIX.md): 단정 금지와 검증 과제
-12. [05_SOURCE_REGISTER.md](05_SOURCE_REGISTER.md): 학술·전시 출처 35건과 실제 접근 범위
+12. [05_SOURCE_REGISTER.md](05_SOURCE_REGISTER.md): 학술·전시 출처 47건과 실제 접근 범위
 
 ## 연결 산출물
 - [볼륨 3 구조화 확장 데이터](../../../data/vol03_extension.json): 추가 인물 6명, 운동 4개, 위치 8곳, 사건 16건, 관계 7개
@@ -54,3 +54,12 @@
 - [역사 주장 카드](../../../data/vol03_primary_claims.json): 기존 11건에서 14건으로 확장.
 - 1433-11-30의 잠정 합의와 1437-12-23의 후속 조치를 사건 ID EVT-0019·0020으로 추가하되, 원전 미대조임을 명시.
 - 1436년 이흘라바 선포와 1433년 프라하 합의는 서로 다른 사건.
+
+## V0.5 — 2순위 신학·역사 해설 보강
+- [15 신학 7축 비교](15_THEOLOGICAL_COMPARISON_V05.md): 성경·설교·교회론·재산·성찬·양형성찬·강제력.
+- [16 인과 사례 5건](16_CAUSAL_CASE_STUDIES_V05.md): 리옹·옥스퍼드/프라하·후스·후스파·왈도파 연대.
+- [17 교단과 지역사의 관점](17_HISTORIOGRAPHY_PERSPECTIVES_V05.md): 가톨릭·개신교·체코 지역사, 실제 콤팍타타 해석 논쟁.
+- [18 용어집과 학습문항](18_GLOSSARY_AND_LEARNING_V05.md): 역사 용어 20개, 독자 질문 10개.
+- [쟁점/인과 JSON](../../../data/vol03_theology_causality.json): 7개 신학 축/5개 인과 사례, DRAFT.
+- 제3권 지역 출처 `V03-S01~S47` 47건. 1순위 원전 심층 검증의 남은 과제는 미완료로 유지한다.
+- 정식 인물화·역사 지도와 PRD·TRD 본격 개발은 다음 게이트. `main` 미병합.
