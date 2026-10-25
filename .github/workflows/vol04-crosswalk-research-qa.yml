@@ -1,0 +1,26 @@
+name: VOL-04 four-reformer integrated evidence QA
+on:
+  push:
+    branches:
+      - research/vol04-crosswalk-evidence-v01
+  pull_request:
+    branches:
+      - research/vol04-calvin-deep-v01
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  research-crosswalk:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate eight-volume baseline
+        run: python3 scripts/validate_atlas_overview_v01.py
+      - name: Validate four research chapters
+        run: |
+          python3 scripts/validate_vol04_luther_deep_v01.py
+          python3 scripts/validate_vol04_zwingli_deep_v01.py
+          python3 scripts/validate_vol04_melanchthon_deep_v01.py
+          python3 scripts/validate_vol04_calvin_deep_v01.py
+      - name: Check source, witness and event integration
+        run: python3 scripts/validate_vol04_crosswalk_v01.py
