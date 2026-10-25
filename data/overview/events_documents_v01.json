@@ -1,0 +1,965 @@
+{
+  "schema_version": "0.1",
+  "stage": "CONTENT_PREPARATION",
+  "date": "2026-10-25",
+  "publication_gate": {
+    "approved": false,
+    "can_ship": false
+  },
+  "events": [
+    {
+      "id": "OV-E-001",
+      "volume_ids": [
+        "VOL-01"
+      ],
+      "date_label": "2세기 전후",
+      "date_precision": "period",
+      "year_start": 100,
+      "year_end": 199,
+      "title": "초기 공동체·서신 전통의 확산",
+      "summary": "지역 교회의 조직·예배·신앙 교육이 다양한 방식으로 정착한다.",
+      "source_ids": [
+        "SRC-O-001"
+      ],
+      "review_status": "DRAFT",
+      "public_visible": false,
+      "date_caution": "연도·기간은 근사 표기, 임의의 정확한 일자 생성 금지"
+    },
+    {
+      "id": "OV-E-002",
+      "volume_ids": [
+        "VOL-01"
+      ],
+      "date_label": "313년",
+      "date_precision": "year",
+      "year_start": 313,
+      "year_end": null,
+      "title": "밀라노 관용 정책",
+      "summary": "로마 제국에서 그리스도교에 대한 공적 관용이 확대되는 전환점이다.",
+      "source_ids": [
+        "SRC-O-001"
+      ],
+      "review_status": "DRAFT",
+      "public_visible": false,
+      "date_caution": null
+    },
+    {
+      "id": "OV-E-003",
+      "volume_ids": [
+        "VOL-01"
+      ],
+      "date_label": "325년",
+      "date_precision": "year",
+      "year_start": 325,
+      "year_end": null,
+      "title": "제1차 니케아 공의회",
+      "summary": "그리스도론 및 신앙고백 논쟁에 중요한 공의회이다.",
+      "source_ids": [
+        "SRC-O-001"
+      ],
+      "review_status": "DRAFT",
+      "public_visible": false,
+      "date_caution": null
+    },
+    {
+      "id": "OV-E-004",
+      "volume_ids": [
+        "VOL-01"
+      ],
+      "date_label": "381년",
+      "date_precision": "year",
+      "year_start": 381,
+      "year_end": null,
+      "title": "콘스탄티노폴리스 공의회",
+      "summary": "니케아 전통의 삼위일체 신앙 이해를 정리한 중요한 회의이다.",
+      "source_ids": [
+        "SRC-O-001"
+      ],
+      "review_status": "DRAFT",
+      "public_visible": false,
+      "date_caution": null
+    },
+    {
+      "id": "OV-E-005",
+      "volume_ids": [
+        "VOL-01"
+      ],
+      "date_label": "451년",
+      "date_precision": "year",
+      "year_start": 451,
+      "year_end": null,
+      "title": "칼케돈 공의회",
+      "summary": "그리스도의 신성과 인성에 관한 논의의 대표적 분기점이다.",
+      "source_ids": [
+        "SRC-O-001"
+      ],
+      "review_status": "DRAFT",
+      "public_visible": false,
+      "date_caution": null
+    },
+    {
+      "id": "OV-E-006",
+      "volume_ids": [
+        "VOL-02"
+      ],
+      "date_label": "6세기",
+      "date_precision": "period",
+      "year_start": 500,
+      "year_end": 599,
+      "title": "서방 수도원 규칙의 확산",
+      "summary": "수도원 공동체의 규율과 교육·사본 제작 전통이 정리된다.",
+      "source_ids": [
+        "SRC-O-001"
+      ],
+      "review_status": "DRAFT",
+      "public_visible": false,
+      "date_caution": "연도·기간은 근사 표기, 임의의 정확한 일자 생성 금지"
+    },
+    {
+      "id": "OV-E-007",
+      "volume_ids": [
+        "VOL-02"
+      ],
+      "date_label": "1054년 전후",
+      "date_precision": "approximate_period",
+      "year_start": 1000,
+      "year_end": 1099,
+      "title": "동서 교회 분열의 역사적 과정",
+      "summary": "1054년의 상호 파문을 상징적 분기점으로 보되 긴 분화의 과정을 함께 설명한다.",
+      "source_ids": [
+        "SRC-O-001"
+      ],
+      "review_status": "DRAFT",
+      "public_visible": false,
+      "date_caution": "연도·기간은 근사 표기, 임의의 정확한 일자 생성 금지"
+    },
+    {
+      "id": "OV-E-008",
+      "volume_ids": [
+        "VOL-02"
+      ],
+      "date_label": "11~13세기",
+      "date_precision": "period",
+      "year_start": 1000,
+      "year_end": 1299,
+      "title": "대학과 스콜라 신학의 성장",
+      "summary": "교회·학문·철학의 관계를 토론하는 중세 대학 전통이 발전한다.",
+      "source_ids": [
+        "SRC-O-021"
+      ],
+      "review_status": "DRAFT",
+      "public_visible": false,
+      "date_caution": "연도·기간은 근사 표기, 임의의 정확한 일자 생성 금지"
+    },
+    {
+      "id": "OV-E-009",
+      "volume_ids": [
+        "VOL-02"
+      ],
+      "date_label": "1378~1417년",
+      "date_precision": "range",
+      "year_start": 1378,
+      "year_end": 1417,
+      "title": "서방 교회의 대분열",
+      "summary": "복수 교황 주장과 권위 문제를 둘러싼 위기가 전개된다.",
+      "source_ids": [
+        "SRC-O-001"
+      ],
+      "review_status": "DRAFT",
+      "public_visible": false,
+      "date_caution": null
+    },
+    {
+      "id": "OV-E-010",
+      "volume_ids": [
+        "VOL-03"
+      ],
+      "date_label": "12세기 후반",
+      "date_precision": "approximate_period",
+      "year_start": 1170,
+      "year_end": 1199,
+      "title": "리옹의 발도와 왈도파 운동",
+      "summary": "청빈과 평신도 설교를 둘러싼 긴장이 나타난다.",
+      "source_ids": [
+        "SRC-O-015"
+      ],
+      "review_status": "DRAFT",
+      "public_visible": false,
+      "date_caution": "연도·기간은 근사 표기, 임의의 정확한 일자 생성 금지"
+    },
+    {
+      "id": "OV-E-011",
+      "volume_ids": [
+        "VOL-03"
+      ],
+      "date_label": "14세기 후반",
+      "date_precision": "approximate_period",
+      "year_start": 1370,
+      "year_end": 1399,
+      "title": "위클리프와 영어 성경 번역 운동",
+      "summary": "성경의 영어 전승 및 권위 논쟁이 위클리프 관련 네트워크에서 확산한다.",
+      "source_ids": [
+        "SRC-O-003"
+      ],
+      "review_status": "DRAFT",
+      "public_visible": false,
+      "date_caution": "연도·기간은 근사 표기, 임의의 정확한 일자 생성 금지"
+    },
+    {
+      "id": "OV-E-012",
+      "volume_ids": [
+        "VOL-03"
+      ],
+      "date_label": "1415년 7월 6일",
+      "date_precision": "day",
+      "year_start": 1415,
+      "year_end": null,
+      "title": "얀 후스의 콘스탄츠 처형",
+      "summary": "공의회의 이단 판단 이후 후스가 처형되어 보헤미아 역사에 큰 영향을 주었다.",
+      "source_ids": [
+        "SRC-O-016"
+      ],
+      "review_status": "DRAFT",
+      "public_visible": false,
+      "date_caution": null
+    },
+    {
+      "id": "OV-E-013",
+      "volume_ids": [
+        "VOL-03"
+      ],
+      "date_label": "1420년 전후",
+      "date_precision": "approximate_year",
+      "year_start": 1420,
+      "year_end": null,
+      "title": "프라하 4개조",
+      "summary": "설교·양형성찬·성직자 권력·공개적 죄의 교정을 둘러싼 공동 요구가 제시된다.",
+      "source_ids": [
+        "SRC-O-017"
+      ],
+      "review_status": "DRAFT",
+      "public_visible": false,
+      "date_caution": "연도·기간은 근사 표기, 임의의 정확한 일자 생성 금지"
+    },
+    {
+      "id": "OV-E-014",
+      "volume_ids": [
+        "VOL-03"
+      ],
+      "date_label": "1433~1436년",
+      "date_precision": "range",
+      "year_start": 1433,
+      "year_end": 1436,
+      "title": "바젤 콤팍타타 협상·선포",
+      "summary": "서로 다른 합의 문안·교섭·공적 선포 단계가 이어졌다.",
+      "source_ids": [
+        "SRC-O-017"
+      ],
+      "review_status": "DRAFT",
+      "public_visible": false,
+      "date_caution": null
+    },
+    {
+      "id": "OV-E-015",
+      "volume_ids": [
+        "VOL-04"
+      ],
+      "date_label": "1517년",
+      "date_precision": "year",
+      "year_start": 1517,
+      "year_end": null,
+      "title": "루터의 95개조 논제",
+      "summary": "면벌부 관행 비판이 신학과 교회 권위 논쟁으로 확산되는 계기이다.",
+      "source_ids": [
+        "SRC-O-004"
+      ],
+      "review_status": "DRAFT",
+      "public_visible": false,
+      "date_caution": null
+    },
+    {
+      "id": "OV-E-016",
+      "volume_ids": [
+        "VOL-04"
+      ],
+      "date_label": "1521년",
+      "date_precision": "year",
+      "year_start": 1521,
+      "year_end": null,
+      "title": "보름스 제국의회",
+      "summary": "루터의 저술과 제국 권위를 둘러싼 논쟁이 진행된다.",
+      "source_ids": [
+        "SRC-O-002"
+      ],
+      "review_status": "DRAFT",
+      "public_visible": false,
+      "date_caution": null
+    },
+    {
+      "id": "OV-E-017",
+      "volume_ids": [
+        "VOL-04"
+      ],
+      "date_label": "1527년",
+      "date_precision": "year",
+      "year_start": 1527,
+      "year_end": null,
+      "title": "슐라이트하임 신앙고백",
+      "summary": "일부 재세례파 공동체의 교회·세례·윤리 입장이 문서화된다.",
+      "source_ids": [
+        "SRC-O-005"
+      ],
+      "review_status": "DRAFT",
+      "public_visible": false,
+      "date_caution": null
+    },
+    {
+      "id": "OV-E-018",
+      "volume_ids": [
+        "VOL-04"
+      ],
+      "date_label": "1529년",
+      "date_precision": "year",
+      "year_start": 1529,
+      "year_end": null,
+      "title": "마르부르크 회담",
+      "summary": "루터와 츠빙글리 측이 성찬 이해 등을 논의했으나 중요한 차이가 남았다.",
+      "source_ids": [
+        "SRC-O-005"
+      ],
+      "review_status": "DRAFT",
+      "public_visible": false,
+      "date_caution": null
+    },
+    {
+      "id": "OV-E-019",
+      "volume_ids": [
+        "VOL-04"
+      ],
+      "date_label": "1530년",
+      "date_precision": "year",
+      "year_start": 1530,
+      "year_end": null,
+      "title": "아우크스부르크 신앙고백 제출",
+      "summary": "멜란히톤이 중심적으로 정리한 루터파 신앙의 공적 표명이다.",
+      "source_ids": [
+        "SRC-O-002"
+      ],
+      "review_status": "DRAFT",
+      "public_visible": false,
+      "date_caution": null
+    },
+    {
+      "id": "OV-E-020",
+      "volume_ids": [
+        "VOL-04"
+      ],
+      "date_label": "1536년",
+      "date_precision": "year",
+      "year_start": 1536,
+      "year_end": null,
+      "title": "칼뱅 『기독교강요』 초판",
+      "summary": "개혁파 신학을 체계적으로 설명하는 저작이 출판된다.",
+      "source_ids": [
+        "SRC-O-013"
+      ],
+      "review_status": "DRAFT",
+      "public_visible": false,
+      "date_caution": null
+    },
+    {
+      "id": "OV-E-021",
+      "volume_ids": [
+        "VOL-05"
+      ],
+      "date_label": "1545~1563년",
+      "date_precision": "range",
+      "year_start": 1545,
+      "year_end": 1563,
+      "title": "트리엔트 공의회",
+      "summary": "가톨릭 교리·예전·성직 규율과 개혁을 다룬 장기 공의회이다.",
+      "source_ids": [
+        "SRC-O-021"
+      ],
+      "review_status": "DRAFT",
+      "public_visible": false,
+      "date_caution": null
+    },
+    {
+      "id": "OV-E-022",
+      "volume_ids": [
+        "VOL-05"
+      ],
+      "date_label": "1555년",
+      "date_precision": "year",
+      "year_start": 1555,
+      "year_end": null,
+      "title": "아우크스부르크 화의",
+      "summary": "제국의 일부 지역에서 종교와 통치권의 관계를 재조정했다.",
+      "source_ids": [
+        "SRC-O-005"
+      ],
+      "review_status": "DRAFT",
+      "public_visible": false,
+      "date_caution": null
+    },
+    {
+      "id": "OV-E-023",
+      "volume_ids": [
+        "VOL-05"
+      ],
+      "date_label": "1618~1648년",
+      "date_precision": "range",
+      "year_start": 1618,
+      "year_end": 1648,
+      "title": "30년 전쟁",
+      "summary": "종교·정치·왕조적 요인이 복합적으로 작용한 유럽의 장기 전쟁이다.",
+      "source_ids": [
+        "SRC-O-005"
+      ],
+      "review_status": "DRAFT",
+      "public_visible": false,
+      "date_caution": null
+    },
+    {
+      "id": "OV-E-024",
+      "volume_ids": [
+        "VOL-05"
+      ],
+      "date_label": "1648년",
+      "date_precision": "year",
+      "year_start": 1648,
+      "year_end": null,
+      "title": "베스트팔렌 조약",
+      "summary": "여러 정치 주체 간 평화 합의로 중부유럽의 질서가 재편되었다.",
+      "source_ids": [
+        "SRC-O-005"
+      ],
+      "review_status": "DRAFT",
+      "public_visible": false,
+      "date_caution": null
+    },
+    {
+      "id": "OV-E-025",
+      "volume_ids": [
+        "VOL-06"
+      ],
+      "date_label": "1675년",
+      "date_precision": "year",
+      "year_start": 1675,
+      "year_end": null,
+      "title": "『경건한 열망』 출간",
+      "summary": "슈페너의 저작이 경건주의 운동의 대표적 출발 문헌이 되었다.",
+      "source_ids": [
+        "SRC-O-006"
+      ],
+      "review_status": "DRAFT",
+      "public_visible": false,
+      "date_caution": null
+    },
+    {
+      "id": "OV-E-026",
+      "volume_ids": [
+        "VOL-06"
+      ],
+      "date_label": "1730~1740년대",
+      "date_precision": "approximate_period",
+      "year_start": 1730,
+      "year_end": 1749,
+      "title": "영미 부흥 및 대각성",
+      "summary": "영국·북미에서 복음주의 설교와 공동체 쇄신 운동이 확산된다.",
+      "source_ids": [
+        "SRC-O-014"
+      ],
+      "review_status": "DRAFT",
+      "public_visible": false,
+      "date_caution": "연도·기간은 근사 표기, 임의의 정확한 일자 생성 금지"
+    },
+    {
+      "id": "OV-E-027",
+      "volume_ids": [
+        "VOL-06"
+      ],
+      "date_label": "18세기 중엽",
+      "date_precision": "approximate_period",
+      "year_start": 1740,
+      "year_end": 1760,
+      "title": "감리교 운동의 성장",
+      "summary": "웨슬리 형제를 포함한 다양한 설교자와 모임이 참여했다.",
+      "source_ids": [
+        "SRC-O-006"
+      ],
+      "review_status": "DRAFT",
+      "public_visible": false,
+      "date_caution": "연도·기간은 근사 표기, 임의의 정확한 일자 생성 금지"
+    },
+    {
+      "id": "OV-E-028",
+      "volume_ids": [
+        "VOL-06"
+      ],
+      "date_label": "1792년",
+      "date_precision": "year",
+      "year_start": 1792,
+      "year_end": null,
+      "title": "침례교선교회 조직",
+      "summary": "영국 침례교도들의 근대 해외선교 조직화에 주요 계기가 된다.",
+      "source_ids": [
+        "SRC-O-006"
+      ],
+      "review_status": "DRAFT",
+      "public_visible": false,
+      "date_caution": null
+    },
+    {
+      "id": "OV-E-029",
+      "volume_ids": [
+        "VOL-07"
+      ],
+      "date_label": "1784년",
+      "date_precision": "year",
+      "year_start": 1784,
+      "year_end": null,
+      "title": "이승훈의 세례와 조선 천주교 공동체 형성",
+      "summary": "서학 학습을 바탕으로 한국인들의 초기 신앙 공동체가 성장한다.",
+      "source_ids": [
+        "SRC-O-008"
+      ],
+      "review_status": "DRAFT",
+      "public_visible": false,
+      "date_caution": null
+    },
+    {
+      "id": "OV-E-030",
+      "volume_ids": [
+        "VOL-07"
+      ],
+      "date_label": "1880년대 초",
+      "date_precision": "approximate_period",
+      "year_start": 1880,
+      "year_end": 1889,
+      "title": "한글 성경 번역과 한국인 초기 개신교 공동체",
+      "summary": "만주·일본 등지에서 한국인 신자의 번역·전도가 해외 선교사 입국보다 앞서 전개됐다.",
+      "source_ids": [
+        "SRC-O-009"
+      ],
+      "review_status": "DRAFT",
+      "public_visible": false,
+      "date_caution": "연도·기간은 근사 표기, 임의의 정확한 일자 생성 금지"
+    },
+    {
+      "id": "OV-E-031",
+      "volume_ids": [
+        "VOL-07"
+      ],
+      "date_label": "1884년",
+      "date_precision": "year",
+      "year_start": 1884,
+      "year_end": null,
+      "title": "앨런의 조선 입국",
+      "summary": "의료 분야와 연결되는 장기 거주 개신교 선교의 중요한 분기점이다.",
+      "source_ids": [
+        "SRC-O-019"
+      ],
+      "review_status": "DRAFT",
+      "public_visible": false,
+      "date_caution": null
+    },
+    {
+      "id": "OV-E-032",
+      "volume_ids": [
+        "VOL-07"
+      ],
+      "date_label": "1885년",
+      "date_precision": "year",
+      "year_start": 1885,
+      "year_end": null,
+      "title": "언더우드·아펜젤러 등의 조선 입국",
+      "summary": "교육·의료·교회 활동과 결합한 선교의 확장에 영향을 주었다.",
+      "source_ids": [
+        "SRC-O-010"
+      ],
+      "review_status": "DRAFT",
+      "public_visible": false,
+      "date_caution": null
+    },
+    {
+      "id": "OV-E-033",
+      "volume_ids": [
+        "VOL-07"
+      ],
+      "date_label": "1907년",
+      "date_precision": "year",
+      "year_start": 1907,
+      "year_end": null,
+      "title": "평양 대부흥",
+      "summary": "한국 개신교 공동체의 종교적 생활에 큰 영향을 끼친 부흥운동이다.",
+      "source_ids": [
+        "SRC-O-020"
+      ],
+      "review_status": "DRAFT",
+      "public_visible": false,
+      "date_caution": null
+    },
+    {
+      "id": "OV-E-034",
+      "volume_ids": [
+        "VOL-07"
+      ],
+      "date_label": "1948년 8월 23일",
+      "date_precision": "day",
+      "year_start": 1948,
+      "year_end": null,
+      "title": "세계교회협의회(WCC) 창립",
+      "summary": "암스테르담 총회에서 세계적 에큐메니컬 기구가 공식 창립되었다.",
+      "source_ids": [
+        "SRC-O-012"
+      ],
+      "review_status": "DRAFT",
+      "public_visible": false,
+      "date_caution": null
+    }
+  ],
+  "documents": [
+    {
+      "id": "OV-D-001",
+      "volume_ids": [
+        "VOL-01"
+      ],
+      "title": "『디다케』",
+      "original_title": "Didache",
+      "period": "1~2세기 추정",
+      "summary": "초기 공동체의 교육과 생활 지침을 보여주는 문헌",
+      "source_ids": [
+        "SRC-O-001"
+      ],
+      "witness_level": "INTRODUCTORY_DESCRIPTION_ONLY",
+      "review_status": "DRAFT",
+      "public_visible": false,
+      "full_text_included": false
+    },
+    {
+      "id": "OV-D-002",
+      "volume_ids": [
+        "VOL-01"
+      ],
+      "title": "니케아 신앙고백",
+      "original_title": "Nicene Creed",
+      "period": "325년; 후대 개정 전승 구별",
+      "summary": "그리스도론·신앙고백 역사의 핵심 문안",
+      "source_ids": [
+        "SRC-O-001"
+      ],
+      "witness_level": "INTRODUCTORY_DESCRIPTION_ONLY",
+      "review_status": "DRAFT",
+      "public_visible": false,
+      "full_text_included": false
+    },
+    {
+      "id": "OV-D-003",
+      "volume_ids": [
+        "VOL-02"
+      ],
+      "title": "『베네딕투스 규칙』",
+      "original_title": "Rule of Saint Benedict",
+      "period": "6세기",
+      "summary": "서방 수도원 공동체 질서에 관한 대표 문헌",
+      "source_ids": [
+        "SRC-O-001"
+      ],
+      "witness_level": "INTRODUCTORY_DESCRIPTION_ONLY",
+      "review_status": "DRAFT",
+      "public_visible": false,
+      "full_text_included": false
+    },
+    {
+      "id": "OV-D-004",
+      "volume_ids": [
+        "VOL-02"
+      ],
+      "title": "『신학대전』",
+      "original_title": "Summa Theologiae",
+      "period": "13세기",
+      "summary": "아퀴나스의 신학·철학 체계",
+      "source_ids": [
+        "SRC-O-021"
+      ],
+      "witness_level": "INTRODUCTORY_DESCRIPTION_ONLY",
+      "review_status": "DRAFT",
+      "public_visible": false,
+      "full_text_included": false
+    },
+    {
+      "id": "OV-D-005",
+      "volume_ids": [
+        "VOL-03"
+      ],
+      "title": "『교회론』",
+      "original_title": "De ecclesia",
+      "period": "1413년",
+      "summary": "후스의 교회 이해와 권위를 둘러싼 논쟁을 보여준다",
+      "source_ids": [
+        "SRC-O-016"
+      ],
+      "witness_level": "INTRODUCTORY_DESCRIPTION_ONLY",
+      "review_status": "DRAFT",
+      "public_visible": false,
+      "full_text_included": false
+    },
+    {
+      "id": "OV-D-006",
+      "volume_ids": [
+        "VOL-03"
+      ],
+      "title": "프라하 4개조",
+      "original_title": "Four Articles of Prague",
+      "period": "1420년 전후",
+      "summary": "보헤미아 후스파의 공동 요구를 제시한 문안",
+      "source_ids": [
+        "SRC-O-017"
+      ],
+      "witness_level": "INTRODUCTORY_DESCRIPTION_ONLY",
+      "review_status": "DRAFT",
+      "public_visible": false,
+      "full_text_included": false
+    },
+    {
+      "id": "OV-D-007",
+      "volume_ids": [
+        "VOL-03"
+      ],
+      "title": "바젤 콤팍타타",
+      "original_title": "Basel Compactata",
+      "period": "1433~1436년 협의와 선포 구별",
+      "summary": "양형성찬과 보헤미아 관계에 관한 복합 문서군",
+      "source_ids": [
+        "SRC-O-017"
+      ],
+      "witness_level": "INTRODUCTORY_DESCRIPTION_ONLY",
+      "review_status": "DRAFT",
+      "public_visible": false,
+      "full_text_included": false
+    },
+    {
+      "id": "OV-D-008",
+      "volume_ids": [
+        "VOL-04"
+      ],
+      "title": "95개조 논제",
+      "original_title": "Ninety-Five Theses",
+      "period": "1517년",
+      "summary": "면벌부의 관행을 둘러싼 논쟁용 논제",
+      "source_ids": [
+        "SRC-O-004"
+      ],
+      "witness_level": "INTRODUCTORY_DESCRIPTION_ONLY",
+      "review_status": "DRAFT",
+      "public_visible": false,
+      "full_text_included": false
+    },
+    {
+      "id": "OV-D-009",
+      "volume_ids": [
+        "VOL-04"
+      ],
+      "title": "『그리스도인의 자유』",
+      "original_title": "On the Freedom of a Christian",
+      "period": "1520년",
+      "summary": "신앙과 그리스도인의 자유를 다룬 루터의 저술",
+      "source_ids": [
+        "SRC-O-002"
+      ],
+      "witness_level": "INTRODUCTORY_DESCRIPTION_ONLY",
+      "review_status": "DRAFT",
+      "public_visible": false,
+      "full_text_included": false
+    },
+    {
+      "id": "OV-D-010",
+      "volume_ids": [
+        "VOL-04"
+      ],
+      "title": "슐라이트하임 신앙고백",
+      "original_title": "Schleitheim Confession",
+      "period": "1527년",
+      "summary": "일부 재세례파 공동체의 신앙과 공동체 규율",
+      "source_ids": [
+        "SRC-O-005"
+      ],
+      "witness_level": "INTRODUCTORY_DESCRIPTION_ONLY",
+      "review_status": "DRAFT",
+      "public_visible": false,
+      "full_text_included": false
+    },
+    {
+      "id": "OV-D-011",
+      "volume_ids": [
+        "VOL-04"
+      ],
+      "title": "아우크스부르크 신앙고백",
+      "original_title": "Augsburg Confession",
+      "period": "1530년",
+      "summary": "루터파 신앙을 공적으로 정리한 신앙고백",
+      "source_ids": [
+        "SRC-O-002"
+      ],
+      "witness_level": "INTRODUCTORY_DESCRIPTION_ONLY",
+      "review_status": "DRAFT",
+      "public_visible": false,
+      "full_text_included": false
+    },
+    {
+      "id": "OV-D-012",
+      "volume_ids": [
+        "VOL-04"
+      ],
+      "title": "『기독교강요』",
+      "original_title": "Institutes of the Christian Religion",
+      "period": "1536년 초판",
+      "summary": "칼뱅의 개혁파 신학 저술, 판본마다 발전",
+      "source_ids": [
+        "SRC-O-013"
+      ],
+      "witness_level": "INTRODUCTORY_DESCRIPTION_ONLY",
+      "review_status": "DRAFT",
+      "public_visible": false,
+      "full_text_included": false
+    },
+    {
+      "id": "OV-D-013",
+      "volume_ids": [
+        "VOL-04"
+      ],
+      "title": "공동기도서",
+      "original_title": "Book of Common Prayer",
+      "period": "1549년 초판",
+      "summary": "영국교회의 공예배와 예전 전통에 영향",
+      "source_ids": [
+        "SRC-O-005"
+      ],
+      "witness_level": "INTRODUCTORY_DESCRIPTION_ONLY",
+      "review_status": "DRAFT",
+      "public_visible": false,
+      "full_text_included": false
+    },
+    {
+      "id": "OV-D-014",
+      "volume_ids": [
+        "VOL-05"
+      ],
+      "title": "트리엔트 공의회 교령",
+      "original_title": "Decrees of the Council of Trent",
+      "period": "1545~1563년",
+      "summary": "가톨릭 교리와 교회 규율의 공적 문헌",
+      "source_ids": [
+        "SRC-O-021"
+      ],
+      "witness_level": "INTRODUCTORY_DESCRIPTION_ONLY",
+      "review_status": "DRAFT",
+      "public_visible": false,
+      "full_text_included": false
+    },
+    {
+      "id": "OV-D-015",
+      "volume_ids": [
+        "VOL-05"
+      ],
+      "title": "베스트팔렌 평화 조약문",
+      "original_title": "Peace of Westphalia texts",
+      "period": "1648년",
+      "summary": "신성로마제국·유럽 정세 관련 정치·종교 합의",
+      "source_ids": [
+        "SRC-O-005"
+      ],
+      "witness_level": "INTRODUCTORY_DESCRIPTION_ONLY",
+      "review_status": "DRAFT",
+      "public_visible": false,
+      "full_text_included": false
+    },
+    {
+      "id": "OV-D-016",
+      "volume_ids": [
+        "VOL-06"
+      ],
+      "title": "『경건한 열망』",
+      "original_title": "Pia Desideria",
+      "period": "1675년",
+      "summary": "개인·공동체 경건을 강조한 슈페너의 저술",
+      "source_ids": [
+        "SRC-O-006"
+      ],
+      "witness_level": "INTRODUCTORY_DESCRIPTION_ONLY",
+      "review_status": "DRAFT",
+      "public_visible": false,
+      "full_text_included": false
+    },
+    {
+      "id": "OV-D-017",
+      "volume_ids": [
+        "VOL-06"
+      ],
+      "title": "웨슬리의 설교 및 공동체 규칙",
+      "original_title": "Sermons and societies of Wesley",
+      "period": "18세기",
+      "summary": "감리교 부흥 운동의 신학과 조직을 이해할 자료",
+      "source_ids": [
+        "SRC-O-007"
+      ],
+      "witness_level": "INTRODUCTORY_DESCRIPTION_ONLY",
+      "review_status": "DRAFT",
+      "public_visible": false,
+      "full_text_included": false
+    },
+    {
+      "id": "OV-D-018",
+      "volume_ids": [
+        "VOL-07"
+      ],
+      "title": "한글 성경 초기 번역본",
+      "original_title": "Early Korean Scripture Translations",
+      "period": "19세기 후반",
+      "summary": "한국인 번역자·유통 경로가 중요한 사료군",
+      "source_ids": [
+        "SRC-O-009"
+      ],
+      "witness_level": "INTRODUCTORY_DESCRIPTION_ONLY",
+      "review_status": "DRAFT",
+      "public_visible": false,
+      "full_text_included": false
+    },
+    {
+      "id": "OV-D-019",
+      "volume_ids": [
+        "VOL-07"
+      ],
+      "title": "세계교회협의회 첫 총회 기록",
+      "original_title": "WCC First Assembly Documents",
+      "period": "1948년",
+      "summary": "세계적 에큐메니컬 운동의 출범 문서군",
+      "source_ids": [
+        "SRC-O-012"
+      ],
+      "witness_level": "INTRODUCTORY_DESCRIPTION_ONLY",
+      "review_status": "DRAFT",
+      "public_visible": false,
+      "full_text_included": false
+    },
+    {
+      "id": "OV-D-020",
+      "volume_ids": [
+        "VOL-08"
+      ],
+      "title": "성경번역·교회권위·성찬론 비교 문헌군",
+      "original_title": "Cross-period primary text collection",
+      "period": "시대 횡단",
+      "summary": "원저작·번역본·편집본·후대 연구를 구별한 주제별 색인",
+      "source_ids": [
+        "SRC-O-001"
+      ],
+      "witness_level": "INTRODUCTORY_DESCRIPTION_ONLY",
+      "review_status": "DRAFT",
+      "public_visible": false,
+      "full_text_included": false
+    }
+  ]
+}
