@@ -5,613 +5,675 @@
   "date": "2026-10-25",
   "tasks": [
     {
-      "id": "T-001",
-      "phase": "S0",
+      "id": "AT-001",
+      "phase": "G0",
       "priority": "P0",
-      "title": "설계 5문서/디자인 토큰과 사용 승인 범위 대조",
+      "title": "설계/개발 범위 결정 기록",
       "depends_on": [],
       "fr_ids": [
         "FR-011",
         "FR-015"
       ],
-      "definition_of_done": "사용자 수정사항 및 구상 확정 기록",
-      "verification": "AI Studio preview + repository diff + checklist evidence (stage-specific)",
+      "definition_of_done": "사용자가 V0.2 화면·기술·데이터·프리뷰 범위를 승인하거나 보완하고 기록",
+      "verification": "design-review sign-off; 승인 전 배포 금지",
       "status": "NOT_STARTED",
-      "human_approval": false
+      "human_approval": true
     },
     {
-      "id": "T-002",
-      "phase": "S0",
+      "id": "AT-002",
+      "phase": "G0",
       "priority": "P0",
-      "title": "Google AI Studio Build Web 모드 및 프로젝트 생성 준비",
+      "title": "원본 저장소/분기 정책 확정",
       "depends_on": [
-        "T-001"
+        "AT-001"
       ],
       "fr_ids": [
-        "FR-015"
+        "FR-014",
+        "FR-011"
       ],
-      "definition_of_done": "계정/프로젝트/생성 모드 실제 확인, Publish 금지",
-      "verification": "AI Studio preview + repository diff + checklist evidence (stage-specific)",
+      "definition_of_done": "GitHub 작업용 브랜치와 apps/web 경계, 충돌 해결 방식 확정",
+      "verification": "원본 연구 8권·제3권 파일 diff 0",
       "status": "NOT_STARTED",
-      "human_approval": false
+      "human_approval": true
     },
     {
-      "id": "T-003",
-      "phase": "S0",
+      "id": "AT-003",
+      "phase": "G0",
       "priority": "P0",
-      "title": "GitHub 기능 브랜치·동기화 방식 확인",
+      "title": "AI Studio 연결·프리뷰 접근 안전 점검",
       "depends_on": [
-        "T-002"
-      ],
-      "fr_ids": [
-        "FR-014"
-      ],
-      "definition_of_done": "main 보호, 정본/생성 코드 충돌 계획과 diff 기록",
-      "verification": "AI Studio preview + repository diff + checklist evidence (stage-specific)",
-      "status": "NOT_STARTED",
-      "human_approval": false
-    },
-    {
-      "id": "T-004",
-      "phase": "S0",
-      "priority": "P0",
-      "title": "개요 데이터 127건·관계 32건/출처 23건 실제 읽기 진단",
-      "depends_on": [
-        "T-003"
-      ],
-      "fr_ids": [
-        "FR-001",
-        "FR-010"
-      ],
-      "definition_of_done": "8/33/34/20/22/10/32/23 숫자 검증. 미조회 시 DEMO 명시",
-      "verification": "AI Studio preview + repository diff + checklist evidence (stage-specific)",
-      "status": "NOT_STARTED",
-      "human_approval": false
-    },
-    {
-      "id": "T-005",
-      "phase": "S0",
-      "priority": "P0",
-      "title": "DRAFT/시연용 데이터 경계·접근제어 계획",
-      "depends_on": [
-        "T-001"
+        "AT-001",
+        "AT-002"
       ],
       "fr_ids": [
         "FR-011"
       ],
-      "definition_of_done": "허가 없는 외부 공유·배포·원전/AI 미디어 사용 금지",
-      "verification": "AI Studio preview + repository diff + checklist evidence (stage-specific)",
+      "definition_of_done": "AI Studio GitHub 연결 선택, 앱 공유·Publish 미실행 확인",
+      "verification": "공유 대상 0, 배포 0, 비밀키·권한 확인",
       "status": "NOT_STARTED",
-      "human_approval": false
+      "human_approval": true
     },
     {
-      "id": "T-006",
-      "phase": "B1_UI",
+      "id": "AT-004",
+      "phase": "G1",
       "priority": "P0",
-      "title": "첫 Build 프롬프트로 React TypeScript 앱 골격 생성",
+      "title": "Google AI Studio 초기 Build 프롬프트 적용",
       "depends_on": [
-        "T-001",
-        "T-002",
-        "T-005"
+        "AT-001",
+        "AT-002",
+        "AT-003"
       ],
       "fr_ids": [
-        "FR-012",
-        "FR-015"
+        "FR-001",
+        "FR-012"
       ],
-      "definition_of_done": "실행 가능한 앱/코드 확인, 배포는 미실시",
-      "verification": "AI Studio preview + repository diff + checklist evidence (stage-specific)",
+      "definition_of_done": "React+TS 단일 일관 디자인의 홈·내비게이션 초기 코드",
+      "verification": "AI Studio 내부 미리보기 렌더, Git diff",
       "status": "NOT_STARTED",
       "human_approval": false
     },
     {
-      "id": "T-007",
-      "phase": "B1_UI",
+      "id": "AT-005",
+      "phase": "G1",
       "priority": "P0",
-      "title": "토큰/CSS/읽기 폭/헤더·모바일 메뉴",
+      "title": "디자인 토큰과 전역 CSS 단일화",
       "depends_on": [
-        "T-006"
-      ],
-      "fr_ids": [
-        "FR-012",
-        "FR-015"
-      ],
-      "definition_of_done": "배경/색/폰트/여백 일관, keyboard menu",
-      "verification": "AI Studio preview + repository diff + checklist evidence (stage-specific)",
-      "status": "NOT_STARTED",
-      "human_approval": false
-    },
-    {
-      "id": "T-008",
-      "phase": "B1_UI",
-      "priority": "P0",
-      "title": "홈 편집형 Hero/8권 카드·CTA",
-      "depends_on": [
-        "T-007"
-      ],
-      "fr_ids": [
-        "FR-001"
-      ],
-      "definition_of_done": "8개 카드와 01~08 정확한 권명, 볼륨8 자료실 고지",
-      "verification": "AI Studio preview + repository diff + checklist evidence (stage-specific)",
-      "status": "NOT_STARTED",
-      "human_approval": false
-    },
-    {
-      "id": "T-009",
-      "phase": "B1_UI",
-      "priority": "P0",
-      "title": "권 목록·권 상세 기본 템플릿",
-      "depends_on": [
-        "T-008"
-      ],
-      "fr_ids": [
-        "FR-002"
-      ],
-      "definition_of_done": "8개 권 상세와 내부 경로 작동",
-      "verification": "AI Studio preview + repository diff + checklist evidence (stage-specific)",
-      "status": "NOT_STARTED",
-      "human_approval": false
-    },
-    {
-      "id": "T-010",
-      "phase": "B1_UI",
-      "priority": "P0",
-      "title": "로컬 데모 상태/404/빈 상태",
-      "depends_on": [
-        "T-006",
-        "T-009"
-      ],
-      "fr_ids": [
-        "FR-013",
-        "FR-015"
-      ],
-      "definition_of_done": "DEMO와 실제 연구 구분, 존재하지 않는 ID 안내",
-      "verification": "AI Studio preview + repository diff + checklist evidence (stage-specific)",
-      "status": "NOT_STARTED",
-      "human_approval": false
-    },
-    {
-      "id": "T-011",
-      "phase": "B1_UI",
-      "priority": "P0",
-      "title": "모바일 320/375/768/1440 디자인 1차 검수",
-      "depends_on": [
-        "T-007",
-        "T-008",
-        "T-009"
+        "AT-004"
       ],
       "fr_ids": [
         "FR-012"
       ],
-      "definition_of_done": "텍스트 오버플로 0, focus/hover/scroll 확인",
-      "verification": "AI Studio preview + repository diff + checklist evidence (stage-specific)",
+      "definition_of_done": "01~08권 전체 동일 색상·타이포·폭·간격",
+      "verification": "320/375/768/1440px 확인",
       "status": "NOT_STARTED",
       "human_approval": false
     },
     {
-      "id": "T-012",
-      "phase": "B2_DATA",
+      "id": "AT-006",
+      "phase": "G1",
       "priority": "P0",
-      "title": "Git JSON/Markdown read-only 어댑터·타입 검사",
+      "title": "공통 Header Footer BreadCrumb EmptyState",
       "depends_on": [
-        "T-004",
-        "T-006"
+        "AT-004",
+        "AT-005"
+      ],
+      "fr_ids": [
+        "FR-012",
+        "FR-015",
+        "FR-013"
+      ],
+      "definition_of_done": "접근성 헤더·내비·페이지 컨테이너·404·빈 화면",
+      "verification": "keyboard tab order, skip link",
+      "status": "NOT_STARTED",
+      "human_approval": false
+    },
+    {
+      "id": "AT-007",
+      "phase": "G1",
+      "priority": "P0",
+      "title": "JSON 소스 loader와 타입 검증",
+      "depends_on": [
+        "AT-004"
       ],
       "fr_ids": [
         "FR-001",
         "FR-002",
-        "FR-014"
+        "FR-003"
       ],
-      "definition_of_done": "정본 수정 없이 127객체+32관계 연결",
-      "verification": "AI Studio preview + repository diff + checklist evidence (stage-specific)",
+      "definition_of_done": "기존 127개 JSON 항목·32관계 소스에서 읽기",
+      "verification": "count assertion + no source edits",
       "status": "NOT_STARTED",
       "human_approval": false
     },
     {
-      "id": "T-013",
-      "phase": "B2_DATA",
+      "id": "AT-008",
+      "phase": "G1",
       "priority": "P0",
-      "title": "인물 3건 OV-P ↔ PER 글로벌 ID 대응",
+      "title": "OV-P↔PER 글로벌 인물 ID alias 해석",
       "depends_on": [
-        "T-012"
+        "AT-007"
       ],
       "fr_ids": [
         "FR-003",
         "FR-014"
       ],
-      "definition_of_done": "발도/위클리프/후스 동일 엔터티 매핑, 링크 안정",
-      "verification": "AI Studio preview + repository diff + checklist evidence (stage-specific)",
+      "definition_of_done": "발도·위클리프·후스 3인 동일 인물/안정된 URL",
+      "verification": "crosswalk 3/3, duplicate link 0",
       "status": "NOT_STARTED",
       "human_approval": false
     },
     {
-      "id": "T-014",
-      "phase": "B2_DATA",
+      "id": "AT-009",
+      "phase": "G1",
       "priority": "P0",
-      "title": "문헌·출처 계층/URL·라이선스 분리",
+      "title": "개요/심층 콘텐츠 DepthBlock 스키마",
       "depends_on": [
-        "T-012"
+        "AT-007",
+        "AT-008"
       ],
       "fr_ids": [
-        "FR-005",
-        "FR-010"
+        "FR-014",
+        "FR-017"
       ],
-      "definition_of_done": "번역/편집/서평 구분, 유료 원문 전문 미복제",
-      "verification": "AI Studio preview + repository diff + checklist evidence (stage-specific)",
+      "definition_of_done": "OVERVIEW와 후속 DEEP_RESEARCH 모듈의 별도 메타정보",
+      "verification": "기존 URL 유지 + 새 블록만 추가 fixture",
       "status": "NOT_STARTED",
       "human_approval": false
     },
     {
-      "id": "T-015",
-      "phase": "B2_DATA",
+      "id": "AT-010",
+      "phase": "G1",
       "priority": "P0",
-      "title": "34개 사건 정밀도·정렬·연대표 어댑터",
+      "title": "승인 별도 PUBLIC snapshot 빌더",
       "depends_on": [
-        "T-012"
-      ],
-      "fr_ids": [
-        "FR-004"
-      ],
-      "definition_of_done": "dateLabel 보존, approximate를 day로 바꾸지 않음",
-      "verification": "AI Studio preview + repository diff + checklist evidence (stage-specific)",
-      "status": "NOT_STARTED",
-      "human_approval": false
-    },
-    {
-      "id": "T-016",
-      "phase": "B2_DATA",
-      "priority": "P0",
-      "title": "출판 allowlist와 빌드 결과 누출 검사",
-      "depends_on": [
-        "T-005",
-        "T-012"
+        "AT-003",
+        "AT-007"
       ],
       "fr_ids": [
         "FR-011"
       ],
-      "definition_of_done": "미승인 원고/이미지/좌표 검색색인·HTML·JSON·dist 0",
-      "verification": "AI Studio preview + repository diff + checklist evidence (stage-specific)",
+      "definition_of_done": "미승인 원고·이미지를 html/js/json/search에서 제외",
+      "verification": "승인 0 → 공용 데이터 0 / 실패 시 block",
       "status": "NOT_STARTED",
       "human_approval": false
     },
     {
-      "id": "T-017",
-      "phase": "B3_PAGES",
+      "id": "AT-011",
+      "phase": "G1",
       "priority": "P0",
-      "title": "인물 목록/상세/관련 항목 연결",
+      "title": "자료 출처/판본/권리 Badge 아닌 메타텍스트 계약",
       "depends_on": [
-        "T-013",
-        "T-016",
-        "T-009"
+        "AT-007"
+      ],
+      "fr_ids": [
+        "FR-010",
+        "FR-005"
+      ],
+      "definition_of_done": "출처 23, 별칭 2, 원본/번역/서평, DRAFT 표기",
+      "verification": "11 rechecked vs others clearly labelled",
+      "status": "NOT_STARTED",
+      "human_approval": false
+    },
+    {
+      "id": "AT-012",
+      "phase": "G2",
+      "priority": "P0",
+      "title": "홈 히어로·8권 카드",
+      "depends_on": [
+        "AT-005",
+        "AT-006",
+        "AT-007",
+        "AT-010"
+      ],
+      "fr_ids": [
+        "FR-001"
+      ],
+      "definition_of_done": "타이포 중심 미니멀 홈, 8권 4×2/2×4/1열",
+      "verification": "권 카드 8/8 및 VOL-08 횡단 자료실",
+      "status": "NOT_STARTED",
+      "human_approval": false
+    },
+    {
+      "id": "AT-013",
+      "phase": "G2",
+      "priority": "P0",
+      "title": "권 전체 목록과 권별 상세 화면",
+      "depends_on": [
+        "AT-012"
+      ],
+      "fr_ids": [
+        "FR-002"
+      ],
+      "definition_of_done": "8권 개요, 핵심 인물·사건·문헌·주제 링크",
+      "verification": "8 상세 직접 URL·필터",
+      "status": "NOT_STARTED",
+      "human_approval": false
+    },
+    {
+      "id": "AT-014",
+      "phase": "G2",
+      "priority": "P0",
+      "title": "인물 목록·권/이름 필터",
+      "depends_on": [
+        "AT-006",
+        "AT-007",
+        "AT-008",
+        "AT-013"
+      ],
+      "fr_ids": [
+        "FR-003"
+      ],
+      "definition_of_done": "33 인물, 한글/영어 이름, 사전 알파벳 결합 아닌 정렬",
+      "verification": "33 entries local review, zero duplication",
+      "status": "NOT_STARTED",
+      "human_approval": false
+    },
+    {
+      "id": "AT-015",
+      "phase": "G2",
+      "priority": "P0",
+      "title": "인물 상세 공통 템플릿",
+      "depends_on": [
+        "AT-009",
+        "AT-011",
+        "AT-014"
       ],
       "fr_ids": [
         "FR-003",
-        "FR-009"
+        "FR-009",
+        "FR-014"
       ],
-      "definition_of_done": "33명(내부 검토) 중 주요 인물 라우트",
-      "verification": "AI Studio preview + repository diff + checklist evidence (stage-specific)",
+      "definition_of_done": "개요·활동·관련 사건·문헌·출처·심화 공간",
+      "verification": "루터/후스/발도 상세 + empty depth",
       "status": "NOT_STARTED",
       "human_approval": false
     },
     {
-      "id": "T-018",
-      "phase": "B3_PAGES",
+      "id": "AT-016",
+      "phase": "G2",
       "priority": "P0",
-      "title": "사건 상세·연대표 화면",
+      "title": "사건 목록·연대표",
       "depends_on": [
-        "T-015",
-        "T-016",
-        "T-009"
+        "AT-007",
+        "AT-013"
+      ],
+      "fr_ids": [
+        "FR-004"
+      ],
+      "definition_of_done": "34사건, dateLabel/datePrecision 유지",
+      "verification": "1420 전후·1435 편집 추정 위조 금지",
+      "status": "NOT_STARTED",
+      "human_approval": false
+    },
+    {
+      "id": "AT-017",
+      "phase": "G2",
+      "priority": "P0",
+      "title": "사건 상세 및 관련 콘텐츠",
+      "depends_on": [
+        "AT-016",
+        "AT-015"
       ],
       "fr_ids": [
         "FR-004",
         "FR-009"
       ],
-      "definition_of_done": "34사건 필터, 날짜 표시·관계 정확",
-      "verification": "AI Studio preview + repository diff + checklist evidence (stage-specific)",
+      "definition_of_done": "연대·문헌·인물 연결, 출처 링크",
+      "verification": "deep URL/return navigation",
       "status": "NOT_STARTED",
       "human_approval": false
     },
     {
-      "id": "T-019",
-      "phase": "B3_PAGES",
+      "id": "AT-018",
+      "phase": "G2",
       "priority": "P0",
-      "title": "문헌 목록/상세·판본 상태",
+      "title": "문헌 목록·판본 필터",
       "depends_on": [
-        "T-014",
-        "T-016",
-        "T-009"
+        "AT-007",
+        "AT-011",
+        "AT-013"
+      ],
+      "fr_ids": [
+        "FR-005"
+      ],
+      "definition_of_done": "20문헌, 원작/번역/편집과 자체 개요",
+      "verification": "유료 문헌 본문 없음",
+      "status": "NOT_STARTED",
+      "human_approval": false
+    },
+    {
+      "id": "AT-019",
+      "phase": "G2",
+      "priority": "P0",
+      "title": "문헌 상세·사료 증거 수준",
+      "depends_on": [
+        "AT-018",
+        "AT-015"
       ],
       "fr_ids": [
         "FR-005",
         "FR-010"
       ],
-      "definition_of_done": "20문헌, 출처와 열람 한계",
-      "verification": "AI Studio preview + repository diff + checklist evidence (stage-specific)",
+      "definition_of_done": "원어 제목·판본·접근 범위·외부 출처",
+      "verification": "후스 1915 영어 번역=원어 원전 아님",
       "status": "NOT_STARTED",
       "human_approval": false
     },
     {
-      "id": "T-020",
-      "phase": "B3_PAGES",
+      "id": "AT-020",
+      "phase": "G2",
       "priority": "P0",
-      "title": "주제 10개·VOL-08 횡단 자료실",
+      "title": "VOL-08 및 주제 10건 목록·상세",
       "depends_on": [
-        "T-016",
-        "T-009"
+        "AT-013",
+        "AT-015"
       ],
       "fr_ids": [
-        "FR-006",
-        "FR-009"
+        "FR-006"
       ],
-      "definition_of_done": "아카이브의 시대 비종속성",
-      "verification": "AI Studio preview + repository diff + checklist evidence (stage-specific)",
+      "definition_of_done": "성경·교회론·성찬론 등 10개 cross-volume 탐색",
+      "verification": "VOL-08 not eighth chronological era",
       "status": "NOT_STARTED",
       "human_approval": false
     },
     {
-      "id": "T-021",
-      "phase": "B3_PAGES",
+      "id": "AT-021",
+      "phase": "G2",
       "priority": "P0",
-      "title": "현대 지명 22곳 텍스트 목록",
+      "title": "장소 22건 텍스트 목록",
       "depends_on": [
-        "T-016",
-        "T-009"
+        "AT-007",
+        "AT-013"
       ],
       "fr_ids": [
         "FR-007"
       ],
-      "definition_of_done": "좌표 핀 0, 역사 현장 거짓 복원 0",
-      "verification": "AI Studio preview + repository diff + checklist evidence (stage-specific)",
+      "definition_of_done": "현대 지명 기반 설명과 관련 사건, 고증 안된 지도 없음",
+      "verification": "지도 핀/좌표 0",
       "status": "NOT_STARTED",
       "human_approval": false
     },
     {
-      "id": "T-022",
-      "phase": "B3_PAGES",
+      "id": "AT-022",
+      "phase": "G3",
       "priority": "P0",
-      "title": "별칭 검색·유형 필터·빈 결과",
+      "title": "관계 32건 링크 의미 시각적으로 표시",
       "depends_on": [
-        "T-017",
-        "T-018",
-        "T-019",
-        "T-020"
+        "AT-008",
+        "AT-015",
+        "AT-017",
+        "AT-019",
+        "AT-020"
       ],
       "fr_ids": [
-        "FR-008",
+        "FR-009"
+      ],
+      "definition_of_done": "문헌 영향/후대 수용/공동 활동 구별",
+      "verification": "textual_influence≠direct mentor",
+      "status": "NOT_STARTED",
+      "human_approval": false
+    },
+    {
+      "id": "AT-023",
+      "phase": "G3",
+      "priority": "P0",
+      "title": "한국어/원어/영문 단순 검색 인덱스",
+      "depends_on": [
+        "AT-007",
+        "AT-010",
+        "AT-014",
+        "AT-016",
+        "AT-018",
+        "AT-020"
+      ],
+      "fr_ids": [
+        "FR-008"
+      ],
+      "definition_of_done": "승인된 데이터만 PUBLIC 색인, 내부 프리뷰는 DRAFT 고지",
+      "verification": "루터/Luther/Hus/후스/1517/성찬론",
+      "status": "NOT_STARTED",
+      "human_approval": false
+    },
+    {
+      "id": "AT-024",
+      "phase": "G3",
+      "priority": "P0",
+      "title": "상태·출처·저작권 표시 UI 일괄 적용",
+      "depends_on": [
+        "AT-011",
+        "AT-015",
+        "AT-017",
+        "AT-019",
+        "AT-022"
+      ],
+      "fr_ids": [
+        "FR-010",
         "FR-013"
       ],
-      "definition_of_done": "루터/Luther/후스/Hus/1517/성찬론 검색",
-      "verification": "AI Studio preview + repository diff + checklist evidence (stage-specific)",
+      "definition_of_done": "페이지에 검증 한계·원전 층위·출처 링크",
+      "verification": "source links live, badges not overused",
       "status": "NOT_STARTED",
       "human_approval": false
     },
     {
-      "id": "T-023",
-      "phase": "B3_PAGES",
+      "id": "AT-025",
+      "phase": "G3",
       "priority": "P0",
-      "title": "관계 타입·사실/해석·출처 UI",
+      "title": "빈 데이터·없는 URL·검색 결과 없음",
       "depends_on": [
-        "T-014",
-        "T-017",
-        "T-020"
+        "AT-006",
+        "AT-023"
       ],
       "fr_ids": [
-        "FR-009",
-        "FR-010"
-      ],
-      "definition_of_done": "문헌 영향과 실제 직접 교류 분리",
-      "verification": "AI Studio preview + repository diff + checklist evidence (stage-specific)",
-      "status": "NOT_STARTED",
-      "human_approval": false
-    },
-    {
-      "id": "T-024",
-      "phase": "B3_PAGES",
-      "priority": "P0",
-      "title": "개요/심층 블록 확장과 수정 이력 모델",
-      "depends_on": [
-        "T-013",
-        "T-017"
-      ],
-      "fr_ids": [
-        "FR-014",
-        "FR-017"
-      ],
-      "definition_of_done": "같은 인물 URL 아래 새 연구 블록 삽입 가능",
-      "verification": "AI Studio preview + repository diff + checklist evidence (stage-specific)",
-      "status": "NOT_STARTED",
-      "human_approval": false
-    },
-    {
-      "id": "T-025",
-      "phase": "B4_QA",
-      "priority": "P0",
-      "title": "14개 라우트/6개 대표 사용자 경로 회귀 검증",
-      "depends_on": [
-        "T-017",
-        "T-018",
-        "T-019",
-        "T-020",
-        "T-021",
-        "T-022"
-      ],
-      "fr_ids": [
+        "FR-013",
         "FR-015"
       ],
-      "definition_of_done": "페이지 직접 접근, 뒤로가기, 404",
-      "verification": "AI Studio preview + repository diff + checklist evidence (stage-specific)",
+      "definition_of_done": "404/미검토/심층 준비중/0건 결과 구별",
+      "verification": "screen reader result summary",
       "status": "NOT_STARTED",
       "human_approval": false
     },
     {
-      "id": "T-026",
-      "phase": "B4_QA",
+      "id": "AT-026",
+      "phase": "G4",
       "priority": "P0",
-      "title": "모바일·접근성·reduced-motion 전체 QA",
+      "title": "반응형·키보드 사용성·대비 검사",
       "depends_on": [
-        "T-025",
-        "T-011"
+        "AT-012",
+        "AT-013",
+        "AT-014",
+        "AT-015",
+        "AT-016",
+        "AT-018",
+        "AT-020",
+        "AT-021",
+        "AT-023",
+        "AT-024",
+        "AT-025"
       ],
       "fr_ids": [
         "FR-012"
       ],
-      "definition_of_done": "320/375/768/1024/1440 및 키보드·스크린리더",
-      "verification": "AI Studio preview + repository diff + checklist evidence (stage-specific)",
+      "definition_of_done": "320/375/768/1024/1440, WCAG 2.2 AA 목표",
+      "verification": "keyboard, focus, reduced motion",
       "status": "NOT_STARTED",
       "human_approval": false
     },
     {
-      "id": "T-027",
-      "phase": "B4_QA",
+      "id": "AT-027",
+      "phase": "G4",
       "priority": "P0",
-      "title": "공개 권리/출처·역사 왜곡·미승인 미디어 자동검사",
+      "title": "PUBLIC 아티팩트 전체 비공개 누출 검사",
       "depends_on": [
-        "T-016",
-        "T-023",
-        "T-025"
-      ],
-      "fr_ids": [
-        "FR-010",
-        "FR-011"
-      ],
-      "definition_of_done": "공개 가능 레코드 0이면 공개 데이터 0, 가짜 지도 0",
-      "verification": "AI Studio preview + repository diff + checklist evidence (stage-specific)",
-      "status": "NOT_STARTED",
-      "human_approval": false
-    },
-    {
-      "id": "T-028",
-      "phase": "B4_QA",
-      "priority": "P0",
-      "title": "프로젝트 빌드·성능·GitHub 기능 브랜치 동기화",
-      "depends_on": [
-        "T-025",
-        "T-026",
-        "T-027"
-      ],
-      "fr_ids": [
-        "FR-014",
-        "FR-015"
-      ],
-      "definition_of_done": "프로젝트 빌드 PASS, lockfile/커밋/재현 경로",
-      "verification": "AI Studio preview + repository diff + checklist evidence (stage-specific)",
-      "status": "NOT_STARTED",
-      "human_approval": false
-    },
-    {
-      "id": "T-029",
-      "phase": "B4_QA",
-      "priority": "P0",
-      "title": "내부 시각검토·사용자 최종 수정 판정",
-      "depends_on": [
-        "T-028"
-      ],
-      "fr_ids": [
-        "FR-012",
-        "FR-015"
-      ],
-      "definition_of_done": "승인/반려/추가 수정 결정, 외부 Deploy 없음",
-      "verification": "AI Studio preview + repository diff + checklist evidence (stage-specific)",
-      "status": "NOT_STARTED",
-      "human_approval": false
-    },
-    {
-      "id": "T-030",
-      "phase": "B4_QA",
-      "priority": "P0",
-      "title": "최초 공개 범위·접근 제어/배포별도 승인",
-      "depends_on": [
-        "T-029"
+        "AT-010",
+        "AT-023",
+        "AT-024"
       ],
       "fr_ids": [
         "FR-011"
       ],
-      "definition_of_done": "명시적 승인 없으면 Cloud Run Publish 금지",
-      "verification": "AI Studio preview + repository diff + checklist evidence (stage-specific)",
+      "definition_of_done": "dist, json, JS, sitemap, assets에서 DRAFT/AI 이미지 제외",
+      "verification": "approved 0 → public records 0",
       "status": "NOT_STARTED",
       "human_approval": false
     },
     {
-      "id": "T-031",
-      "phase": "P1",
-      "priority": "P1",
-      "title": "심층 연구 블록 증분 추가(후스/위클리프/루터)",
+      "id": "AT-028",
+      "phase": "G4",
+      "priority": "P0",
+      "title": "문헌 원문·이미지 권리 점검",
       "depends_on": [
-        "T-024",
-        "T-029"
+        "AT-011",
+        "AT-019",
+        "AT-027"
       ],
       "fr_ids": [
-        "FR-017"
+        "FR-005",
+        "FR-011"
       ],
-      "definition_of_done": "ID/URL 유지, 사료/판본별 승인",
-      "verification": "AI Studio preview + repository diff + checklist evidence (stage-specific)",
+      "definition_of_done": "유료 전문 미복제, 미승인 역사화, 출처 종류 분리",
+      "verification": "22 unverified place pins and candidate assets 0",
       "status": "NOT_STARTED",
       "human_approval": false
     },
     {
-      "id": "T-032",
+      "id": "AT-029",
+      "phase": "G4",
+      "priority": "P0",
+      "title": "UI 밀도·여백·마이크로인터랙션 리뷰",
+      "depends_on": [
+        "AT-026"
+      ],
+      "fr_ids": [
+        "FR-012"
+      ],
+      "definition_of_done": "이미지 없는 미니멀 랜딩 완성, 오버디자인 요소 제거",
+      "verification": "8px spacing, hero/sections visual review",
+      "status": "NOT_STARTED",
+      "human_approval": false
+    },
+    {
+      "id": "AT-030",
+      "phase": "G4",
+      "priority": "P0",
+      "title": "전체 딥링크/라우팅/검색 회귀 QA",
+      "depends_on": [
+        "AT-015",
+        "AT-017",
+        "AT-019",
+        "AT-023",
+        "AT-025",
+        "AT-026"
+      ],
+      "fr_ids": [
+        "FR-008",
+        "FR-015"
+      ],
+      "definition_of_done": "14개 화면 URL, 브레드크럼/뒤로가기, 검색 무결성",
+      "verification": "no broken routes",
+      "status": "NOT_STARTED",
+      "human_approval": false
+    },
+    {
+      "id": "AT-031",
+      "phase": "G4",
+      "priority": "P0",
+      "title": "AI Studio→GitHub 동기화 diff 점검",
+      "depends_on": [
+        "AT-002",
+        "AT-030"
+      ],
+      "fr_ids": [
+        "FR-014"
+      ],
+      "definition_of_done": "apps/web 경로 중심, 연구 데이터 변경 없음",
+      "verification": "user approves push on isolated branch",
+      "status": "NOT_STARTED",
+      "human_approval": false
+    },
+    {
+      "id": "AT-032",
+      "phase": "G4",
+      "priority": "P0",
+      "title": "로컬 비공개 프리뷰 및 최종 수용 기록",
+      "depends_on": [
+        "AT-026",
+        "AT-027",
+        "AT-028",
+        "AT-029",
+        "AT-030",
+        "AT-031"
+      ],
+      "fr_ids": [
+        "FR-001",
+        "FR-011",
+        "FR-012"
+      ],
+      "definition_of_done": "14화면/6여정/10수용 항목 검토 기록",
+      "verification": "human review; no publish",
+      "status": "NOT_STARTED",
+      "human_approval": false
+    },
+    {
+      "id": "AT-033",
+      "phase": "G4",
+      "priority": "P0",
+      "title": "외부 배포 승인/호스팅 비용 검토",
+      "depends_on": [
+        "AT-032"
+      ],
+      "fr_ids": [
+        "FR-011"
+      ],
+      "definition_of_done": "별도 콘텐츠·권리·코드 게이트; Cloud Run 가능성 검토",
+      "verification": "명시적 승인 전 Deploy=NO",
+      "status": "NOT_STARTED",
+      "human_approval": true
+    },
+    {
+      "id": "AT-034",
       "phase": "P1",
       "priority": "P1",
-      "title": "지리학 고증 완료 좌표만 지도화",
+      "title": "역사 지리 좌표 검증 후 지도 기능",
       "depends_on": [
-        "T-021",
-        "T-030"
+        "AT-021",
+        "AT-033"
       ],
       "fr_ids": [
         "FR-016"
       ],
-      "definition_of_done": "근거 좌표 0이면 지도 핀 0",
-      "verification": "AI Studio preview + repository diff + checklist evidence (stage-specific)",
+      "definition_of_done": "실제 근거 있는 지점만 pin, 사상 관계는 경로 아님",
+      "verification": "무증거 지명으로 지도 제작 0",
       "status": "NOT_STARTED",
       "human_approval": false
     },
     {
-      "id": "T-033",
+      "id": "AT-035",
       "phase": "P1",
       "priority": "P1",
-      "title": "관계도·학습 흐름/동선 강화",
+      "title": "심층 연구 블록/주석 점진 추가",
       "depends_on": [
-        "T-023",
-        "T-030"
+        "AT-009",
+        "AT-015",
+        "AT-033"
+      ],
+      "fr_ids": [
+        "FR-017"
+      ],
+      "definition_of_done": "루터/위클리프/후스 등 개요 ID 유지, 증분 승인 반영",
+      "verification": "same ID/URL, version rollback",
+      "status": "NOT_STARTED",
+      "human_approval": false
+    },
+    {
+      "id": "AT-036",
+      "phase": "P1",
+      "priority": "P1",
+      "title": "관계도/학습경로",
+      "depends_on": [
+        "AT-022",
+        "AT-033"
       ],
       "fr_ids": [
         "FR-018"
       ],
-      "definition_of_done": "관계 의미/접근성 보존",
-      "verification": "AI Studio preview + repository diff + checklist evidence (stage-specific)",
-      "status": "NOT_STARTED",
-      "human_approval": false
-    },
-    {
-      "id": "T-034",
-      "phase": "P1",
-      "priority": "P1",
-      "title": "새 권/신학 주제·참고 문헌 증분 갱신 루틴",
-      "depends_on": [
-        "T-031",
-        "T-030"
-      ],
-      "fr_ids": [
-        "FR-014",
-        "FR-017"
-      ],
-      "definition_of_done": "데이터만 바꾸고 기본 컴포넌트 재개발 불필요",
-      "verification": "AI Studio preview + repository diff + checklist evidence (stage-specific)",
+      "definition_of_done": "교파별 이견, 직계/영향 구별, 접근성 있는 관계도",
+      "verification": "evidence labels + keyboard fallback",
       "status": "NOT_STARTED",
       "human_approval": false
     }
   ],
   "statistics": {
-    "total": 34,
-    "p0": 30,
-    "p1": 4,
-    "requirements_covered": 18,
-    "all_not_started": true,
-    "acyclic": true
+    "tasks": 36,
+    "p0": 33,
+    "p1": 3,
+    "covered_prd_requirements": 18
   },
   "publication": {
     "approved": false,
-    "can_ship": false
-  }
+    "can_ship": false,
+    "web_implemented": false
+  },
+  "canonical_source": "docs/03_PRODUCT/AI_STUDIO_BUILD_V02/TASKLIST.json",
+  "mirror_sync_rule": "Task ID, priority, FR, dependencies and status must exactly match the bundle's TASKLIST.json"
 }

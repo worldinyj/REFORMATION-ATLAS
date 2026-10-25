@@ -32,6 +32,7 @@ def main():
     if faults:
         return 1
     data = load(ROOT / "data/overview/ai_studio_tasklist_v02.json")
+    canonical = load(BUNDLE / "TASKLIST.json")
     base_prd = load(ROOT / "data/overview/prd_acceptance_v01.json")
     screens = load(BUNDLE / "SCREEN_CONTRACT.json")
     tokens = load(BUNDLE / "DESIGN_TOKENS.json")
@@ -39,10 +40,25 @@ def main():
     task_ids = [task["id"] for task in tasks]
     fr_ids = {req["id"] for req in base_prd["requirements"]}
     present_fr = {rid for task in tasks for rid in task["fr_ids"]}
-    if len(tasks) != 34 or len(set(task_ids)) != 34:
-        fail("34 unique task IDs", faults)
+    if len(tasks) != 36 or len(set(task_ids)) != 36:
+        fail("36 unique task IDs", faults)
     if len(fr_ids) != 18 or not fr_ids.issubset(present_fr):
         fail("PRD FR-001 through FR-018 fully traced", faults)
+    if len(canonical["tasks"]) != 36 or canonical["stats"]["p0"] != 33 or canonical["stats"]["p1"] != 3:
+        fail("canonical 36-task package mismatch", faults)
+    if data["statistics"]["tasks"] != len(tasks):
+        fail("mirror count mismatched", faults)
+    if data["statistics"]["p0"] != sum(t["priority"] == "P0" for t in tasks):
+        fail("mirror P0 count mismatched", faults)
+    if data["statistics"]["p1"] != sum(t["priority"] == "P1" for t in tasks):
+        fail("mirror P1 count mismatched", faults)
+    canonical_index = {t["id"]:t for t in canonical["tasks"]}
+    for task in tasks:
+        mirror = canonical_index.get(task["id"])
+        if not mirror or task["fr_ids"] != mirror["prd_ids"] or task["depends_on"] != mirror["depends_on"] or task["priority"] != mirror["priority"] or task["status"] != mirror["status"]:
+            fail("canonical-vs-mirror task divergence " + task["id"], faults)
+    if data.get("canonical_source") != "docs/03_PRODUCT/AI_STUDIO_BUILD_V02/TASKLIST.json":
+        fail("mirror has no canonical source", faults)
     if any(task["status"] != "NOT_STARTED" for task in tasks):
         fail("all implementation tasks initially unstarted", faults)
     if any(task["priority"] not in ("P0","P1") for task in tasks):
@@ -99,6 +115,10 @@ def main():
     status = load(ROOT / "data/overview/ai_studio_design_readiness_v02.json")
     if status["publication_gate"]["can_ship"] or status["website_built"] or status["approved_by_user"]:
         fail("design package incorrectly marked published/approved", faults)
+    if status["tasks"] != 36 or status["task_priority"] != {"P0":33,"P1":3}:
+        fail("readiness file has outdated task count", faults)
+    if (ROOT / "apps/web").exists():
+        fail("app code detected despite design-only scope", faults)
     print("PASS" if not faults else "FAIL","AI Studio V0.2 package",len(tasks),"tasks",len(screens["screens"]),"screens",len(faults),"issues")
     return bool(faults)
 

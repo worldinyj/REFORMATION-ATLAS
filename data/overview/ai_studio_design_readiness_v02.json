@@ -15,7 +15,8 @@
     "08_BUILD_CHECKLIST.md",
     "DESIGN_TOKENS.json",
     "SCREEN_CONTRACT.json",
-    "README.md"
+    "README.md",
+    "TASKLIST.json"
   ],
   "architecture": "Google AI Studio Build Web (React+TypeScript preferred, optional Node.js runtime)",
   "content_inventory": {
@@ -29,10 +30,10 @@
     "source_id_count": 23
   },
   "requirements": 18,
-  "tasks": 34,
+  "tasks": 36,
   "task_priority": {
-    "P0": 30,
-    "P1": 4
+    "P0": 33,
+    "P1": 3
   },
   "design_style": "quiet_editorial_atlas",
   "all_docs_draft": true,
@@ -43,5 +44,7 @@
     "approved": false,
     "can_ship": false
   },
-  "next_step": "Review batch docs then manually paste B1 master prompt into Google AI Studio Build. Do not publish without explicit approval."
+  "next_step": "Review batch docs then manually paste B1 master prompt into Google AI Studio Build. Do not publish without explicit approval.",
+  "quality_note": "Official task set: 36 AT-001..AT-036. data/overview/ai_studio_tasklist_v02.json is a mirrored compatibility index; bundle TASKLIST.json is authoritative.",
+  "verified_scope": "Machine-readable design structure and consistency, not a historical fact-check nor running web app."
 }

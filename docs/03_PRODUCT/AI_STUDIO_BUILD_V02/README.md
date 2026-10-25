@@ -10,7 +10,7 @@
 2. [PRD V0.2](02_PRD.md) — 사용자 여정·14개 화면·FR 18개·디자인 요구/수용기준
 3. [TRD V0.2](03_TRD.md) — React+TypeScript 데이터/컴포넌트·출처/공개 게이트·실제 개발 순서
 4. [UX/UI V0.2](04_UXUI.md) — Quiet Editorial Atlas, 8권 사이트맵·홈/상세 텍스트 와이어프레임·모바일
-5. [TASKLIST V0.2](05_TASKLIST.md) — 34개 작업(P0 30 / P1 4), 선행·완료·검증 기준
+5. [TASKLIST V0.2](05_TASKLIST.md) — 36개 작업(P0 33 / P1 3), 선행·완료·검증 기준
 
 ## Google AI Studio에서 사용할 때
 6. [AI Studio FIRST MASTER PROMPT](06_AI_STUDIO_MASTER_PROMPT.md) — **처음 한 번 붙여 넣는 B1 생성 지시문**
@@ -20,7 +20,7 @@
 ## 기계 판독용 규격
 - [디자인 토큰 JSON](DESIGN_TOKENS.json)
 - [14개 화면 계약 JSON](SCREEN_CONTRACT.json)
-- [34개 작업 JSON](../../../data/overview/ai_studio_tasklist_v02.json)
+- [36개 작업 기준 JSON](TASKLIST.json) · [콘텐츠 관리용 미러 JSON](../../../data/overview/ai_studio_tasklist_v02.json)
 - [설계 QA 판정 JSON](../../../data/overview/ai_studio_design_readiness_v02.json)
 - [읽기 전용 설계 QA 스크립트](../../../scripts/validate_ai_studio_design_v02.py)
 
@@ -44,3 +44,8 @@
 - V0.2 (AI Studio Build / React 가정) 설계 문서는 **새 별도 브랜치/폴더**.
 - PROJECT PLAN/PRD/TRD/UXUI/TASKLIST: 작성됨(DRAFT).
 - 웹 구축: 0건, 앱 미리보기 검증: 미실행, 서비스 공개: 미승인.
+
+### 기계 판독 기준 안내
+- `TASKLIST.json`의 36개 `AT-001~036`이 V0.2 정식 작업 ID다.
+- `data/overview/ai_studio_tasklist_v02.json`은 같은 36개 작업을 참조하는 호환용 미러. 서로 다른 수량/의존성이 되면 자동 검증이 실패한다.
+- 아직 앱 개발은 시작하지 않았으며, AI Studio 앱 생성/동기화 시 PRD 18요구사항·14화면의 범위를 다시 점검한다.
