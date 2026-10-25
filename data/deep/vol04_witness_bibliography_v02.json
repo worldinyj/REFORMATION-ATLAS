@@ -1,0 +1,845 @@
+{
+  "schema_version": "0.2",
+  "prepared_date": "2026-10-25",
+  "volume_id": "VOL-04",
+  "review_branch": "research/vol04-bibliography-editions-v02",
+  "source_crosswalk_file": "data/deep/vol04_four_reformers_crosswalk_v01.json",
+  "status": "BIBLIOGRAPHIC_REVIEW_DRAFT",
+  "inventory": {
+    "proposals": 17,
+    "split_required": 5,
+    "approved": 0,
+    "can_migrate": 0,
+    "existing_overview_work_families": [
+      "OV-D-011",
+      "OV-D-012"
+    ],
+    "original_texts_collated": 0
+  },
+  "relation_model": {
+    "work": "stable canonical work identity; existing OV-D is primary key",
+    "edition": "distinct historical text/print manifestation; no same work same wording inference",
+    "translation": "language + source edition relationship, including authorial recasting",
+    "document_witness": "archival manuscript, print copy, reproduction, modern editorial text tracked separately",
+    "commentary": "secondary scholarly article, historical introduction or museum label, NOT a primary manuscript"
+  },
+  "stages": [
+    {
+      "stage": "1",
+      "status": "COMPLETE_FOR_DRAFT",
+      "action": "17 legacy proposals receive bibliographic metadata and an authoritative or labeled secondary link"
+    },
+    {
+      "stage": "2",
+      "status": "OPEN",
+      "action": "Split six composite entries by language, date, or physical witness before minting individual edition keys"
+    },
+    {
+      "stage": "3",
+      "status": "OPEN",
+      "action": "Verify exact original imprint/shelfmark + language + modern source provenance; compare collated passages for disputed claims"
+    },
+    {
+      "stage": "4",
+      "status": "OPEN",
+      "action": "Human review to authorize canonical ID assignment; do not reuse proposal ID as final ID"
+    },
+    {
+      "stage": "5",
+      "status": "BLOCKED",
+      "action": "Build separately approved/public snapshot, ensuring rejected DRAFT files are omitted from web bundle"
+    }
+  ],
+  "id_migration_gate": {
+    "requirement_1": "canonical work parent already exists (OV-D-011 or OV-D-012) or has separately approved new work",
+    "requirement_2": "each candidate has object type, text date, language, imprint/holding reference, witness provenance and owner",
+    "requirement_3": "document editions and translations get their own IDs after human approval; never overwrite OV-D work",
+    "requirement_4": "no ID assignment until split-required candidates are separated and no collision with existing IDs",
+    "requirement_5": "rights, historical review, media authenticity and web publication approval are independent gates",
+    "proposed_namespace_rules": {
+      "work": "DOC-V04-XXXX (only after review)",
+      "edition": "EDN-V04-XXXX (only after review)",
+      "translation": "TRN-V04-XXXX (only after review)",
+      "witness": "WIT-V04-XXXX (only after review)"
+    },
+    "current_new_approved_ids": []
+  },
+  "explicit_holds": [
+    {
+      "id": "HOLD-EDN-01",
+      "issue": "1530 Augsburg is two language source traditions not a single printed edition",
+      "proposal_ids": [
+        "EDN-PROP-V04-001"
+      ]
+    },
+    {
+      "id": "HOLD-EDN-02",
+      "issue": "1531 Augsburg authorized Latin and German prints and separate Apology must not collapse",
+      "proposal_ids": [
+        "EDN-PROP-V04-002",
+        "DOC-PROP-V04-010"
+      ]
+    },
+    {
+      "id": "HOLD-EDN-03",
+      "issue": "First Zurich 1523 print is composite disputation report + 67 articles",
+      "proposal_ids": [
+        "DOC-PROP-V04-004"
+      ]
+    },
+    {
+      "id": "HOLD-EDN-04",
+      "issue": "Luther 1522 September and December Testaments are distinct editions",
+      "proposal_ids": [
+        "DOC-PROP-V04-008"
+      ]
+    },
+    {
+      "id": "HOLD-EDN-05",
+      "issue": "1536/1559 Calvin Latin and 1541/1560 French editions are distinct records",
+      "proposal_ids": [
+        "EDN-PROP-V04-004",
+        "EDN-PROP-V04-005",
+        "EDN-PROP-V04-006",
+        "EDN-PROP-V04-007"
+      ]
+    },
+    {
+      "id": "HOLD-EDN-06",
+      "issue": "Marburg manuscripts differ from translations and six original source registry entries represent 3 documents",
+      "proposal_ids": [
+        "DOC-PROP-V04-001",
+        "DOC-PROP-V04-002",
+        "DOC-PROP-V04-003"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "proposal_id": "DOC-PROP-V04-001",
+      "title_ko": "마르부르크 15개 조항",
+      "overview_work_id": null,
+      "witness_role": "distinct_primary_witness",
+      "year_start": 1529,
+      "source_ids": [
+        "SRC-V04-L-011",
+        "SRC-V04-ZW-006"
+      ],
+      "related_event_ids": [
+        "OV-E-018"
+      ],
+      "approval": "DRAFT",
+      "create_canonical_record": false,
+      "full_text_included": false,
+      "publish": false,
+      "display_order": 1,
+      "work_family": "WORK-PROP-V04-MARBURG-ARTICLES",
+      "material_kind": "SIGNED_ARCHIVAL_WITNESS",
+      "languages": [
+        "de"
+      ],
+      "imprint_or_provenance": {
+        "document_date": "1529-10-03",
+        "production_place": "Marburg",
+        "repository": "Staatsarchiv Zürich",
+        "shelfmark": "E I 3.1 Nr. 54"
+      },
+      "verification_status": "ARCHIVE_HOLDING_METADATA_CHECKED",
+      "verified_catalog_or_study_links": [
+        "https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=618165",
+        "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/ghdi%3Adocument-4311"
+      ],
+      "editorial_note_ko": "취리히 보존 원본에는 헤센본에 없는 7·13·15조 추가 문구가 있는 것으로 소장 목록에 기록. 1529년 인쇄본 및 영문 번역은 다른 증인이다.",
+      "split_required_before_promotion": false,
+      "original_full_text_collated": false,
+      "translation_checked_against_original": false,
+      "media_rights_checked": false,
+      "approved": false,
+      "canonical_id": null,
+      "proposed_promotion_class": "WORK_OR_WITNESS_CANDIDATE",
+      "promotion_allowed": false
+    },
+    {
+      "proposal_id": "DOC-PROP-V04-002",
+      "title_ko": "오지안더의 마르부르크 보고",
+      "overview_work_id": null,
+      "witness_role": "party_eyewitness_report",
+      "year_start": 1529,
+      "source_ids": [
+        "SRC-V04-L-009",
+        "SRC-V04-ZW-005"
+      ],
+      "related_event_ids": [
+        "OV-E-018"
+      ],
+      "approval": "DRAFT",
+      "create_canonical_record": false,
+      "full_text_included": false,
+      "publish": false,
+      "display_order": 2,
+      "work_family": "WORK-PROP-V04-OSIANDER-REPORT",
+      "material_kind": "PARTISAN_EYEWITNESS_TEXT",
+      "languages": [
+        "de"
+      ],
+      "imprint_or_provenance": {
+        "original_date": "1529",
+        "critical_edit": "WA Band 30 Teil 3 (1910) pp.144–151",
+        "modern_translation": "English: Ellen Yutzy Glebe, GHDI"
+      },
+      "verification_status": "MODERN_TRANSLATION_WITH_CRITICAL_EDITION_REFERENCE",
+      "verified_catalog_or_study_links": [
+        "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/ghdi%3Adocument-4284"
+      ],
+      "editorial_note_ko": "루터파 측 보고. 영문 번역 페이지를 1529년 원본 인쇄물이라고 표시하지 않을 것. 원본 당시 필사/전달 판본 미검증.",
+      "split_required_before_promotion": false,
+      "original_full_text_collated": false,
+      "translation_checked_against_original": false,
+      "media_rights_checked": false,
+      "approved": false,
+      "canonical_id": null,
+      "proposed_promotion_class": "WORK_OR_WITNESS_CANDIDATE",
+      "promotion_allowed": false
+    },
+    {
+      "proposal_id": "DOC-PROP-V04-003",
+      "title_ko": "츠빙글리의 마르부르크 보고",
+      "overview_work_id": null,
+      "witness_role": "party_eyewitness_report",
+      "year_start": 1529,
+      "source_ids": [
+        "SRC-V04-L-010",
+        "SRC-V04-ZW-004"
+      ],
+      "related_event_ids": [
+        "OV-E-018"
+      ],
+      "approval": "DRAFT",
+      "create_canonical_record": false,
+      "full_text_included": false,
+      "publish": false,
+      "display_order": 3,
+      "work_family": "WORK-PROP-V04-ZWINGLI-REPORT",
+      "material_kind": "PARTISAN_EYEWITNESS_LETTER",
+      "languages": [
+        "la"
+      ],
+      "imprint_or_provenance": {
+        "letter_date": "1529-10-20",
+        "recipient": "Joachim Vadian",
+        "english_source": "Jackson ed. 1901, pp.319–322; GHDI edited translation"
+      },
+      "verification_status": "MODERN_TRANSLATION_WITH_EARLIER_TRANSLATION_REFERENCE",
+      "verified_catalog_or_study_links": [
+        "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/ghdi%3Adocument-4300"
+      ],
+      "editorial_note_ko": "발신자는 츠빙글리, 상대방은 바디안. 1529년 10월 회담과 편지 작성일은 다르다. GHDI 역사 소개 문장 중 1520년 초청 표기는 주변 사건 연대와 불일치하므로 차용 금지.",
+      "split_required_before_promotion": false,
+      "original_full_text_collated": false,
+      "translation_checked_against_original": false,
+      "media_rights_checked": false,
+      "approved": false,
+      "canonical_id": null,
+      "proposed_promotion_class": "WORK_OR_WITNESS_CANDIDATE",
+      "promotion_allowed": false
+    },
+    {
+      "proposal_id": "DOC-PROP-V04-004",
+      "title_ko": "츠빙글리 67개 조항",
+      "overview_work_id": null,
+      "witness_role": "original_print_catalogue",
+      "year_start": 1523,
+      "source_ids": [
+        "SRC-V04-ZW-003"
+      ],
+      "related_event_ids": [],
+      "approval": "DRAFT",
+      "create_canonical_record": false,
+      "full_text_included": false,
+      "publish": false,
+      "display_order": 4,
+      "work_family": "WORK-PROP-V04-ZWINGLI-ARTICLES",
+      "material_kind": "EARLY_PRINT_COMPOSITE_REPORT_PLUS_ARTICLES",
+      "languages": [
+        "de"
+      ],
+      "imprint_or_provenance": {
+        "year": 1523,
+        "printed_at": "Augsburg",
+        "printer": "Melchior Ramminger",
+        "institution": "Emory University Pitts Theology Library",
+        "shelfmark": "1523 ZWIN A",
+        "print_scope": "16 unnumbered pages, first Zurich disputation report followed by 67 Articles"
+      },
+      "verification_status": "EARLY_PRINT_CATALOG_METADATA_CHECKED",
+      "verified_catalog_or_study_links": [
+        "https://digital.pitts.emory.edu/s/digital-collections/item/14023"
+      ],
+      "editorial_note_ko": "저술/논제(67 articles)와 이 서지에서 확인한 '논쟁 보고+논제'의 1523년 복합 인쇄물은 동일 객체가 아님. 1월 27일 낭독과 1월 29일 공식 논쟁의 날짜 차이를 유지.",
+      "split_required_before_promotion": true,
+      "original_full_text_collated": false,
+      "translation_checked_against_original": false,
+      "media_rights_checked": false,
+      "approved": false,
+      "canonical_id": null,
+      "proposed_promotion_class": "WORK_OR_WITNESS_CANDIDATE",
+      "promotion_allowed": false
+    },
+    {
+      "proposal_id": "DOC-PROP-V04-005",
+      "title_ko": "멜란히톤 『Loci communes』",
+      "overview_work_id": null,
+      "witness_role": "independent_work",
+      "year_start": 1521,
+      "source_ids": [
+        "SRC-V04-ME-013",
+        "SRC-V04-ME-017"
+      ],
+      "related_event_ids": [],
+      "approval": "DRAFT",
+      "create_canonical_record": false,
+      "full_text_included": false,
+      "publish": false,
+      "display_order": 5,
+      "work_family": "WORK-PROP-V04-LOCI",
+      "material_kind": "EARLY_PRINT_EDITION",
+      "languages": [
+        "la"
+      ],
+      "imprint_or_provenance": {
+        "year": 1521,
+        "place": "Basel",
+        "printer": "Adam Petri",
+        "repository": "Universitätsbibliothek Basel",
+        "shelfmark": "FM1 XI 1:1",
+        "vd16": "M 3583",
+        "digital_catalog_id": "e-rara 137152"
+      },
+      "verification_status": "FIRST_YEAR_PRINT_CATALOG_METADATA_CHECKED",
+      "verified_catalog_or_study_links": [
+        "https://www.e-rara.ch/bau_1/content/titleinfo/137152",
+        "https://catalog.etoncollege.com/B18145"
+      ],
+      "editorial_note_ko": "Basel Adam Petri 소장본은 1521년 인쇄 증인. 다른 1521년 Wittenberg 인쇄본과 혼합해 단일 first-edition 고유 인쇄자로 단정하지 않는다.",
+      "split_required_before_promotion": false,
+      "original_full_text_collated": false,
+      "translation_checked_against_original": false,
+      "media_rights_checked": false,
+      "approved": false,
+      "canonical_id": null,
+      "proposed_promotion_class": "WORK_OR_WITNESS_CANDIDATE",
+      "promotion_allowed": false
+    },
+    {
+      "proposal_id": "DOC-PROP-V04-006",
+      "title_ko": "제네바 교회규정",
+      "overview_work_id": null,
+      "witness_role": "independent_work",
+      "year_start": 1541,
+      "source_ids": [
+        "SRC-V04-CA-002"
+      ],
+      "related_event_ids": [],
+      "approval": "DRAFT",
+      "create_canonical_record": false,
+      "full_text_included": false,
+      "publish": false,
+      "display_order": 6,
+      "work_family": "WORK-PROP-V04-GENEVA-ORDINANCES",
+      "material_kind": "CITY_COUNCIL_LEGISLATIVE_TEXT",
+      "languages": [
+        "fr"
+      ],
+      "imprint_or_provenance": {
+        "year": 1541,
+        "repository": "Archives d'État de Genève",
+        "shelfmark": "AEG Cp Past. R 1, p.1",
+        "draft_submitted": "1541-09-26",
+        "approved": "1541-11-20"
+      },
+      "verification_status": "STATE_ARCHIVE_HOLDING_AND_TRANSCRIPTION_CHECKED",
+      "verified_catalog_or_study_links": [
+        "https://archives-etat-ge.ch/page_de_base/5-la-reforme/"
+      ],
+      "editorial_note_ko": "도시 평의회 법규 텍스트; '칼뱅이 혼자 작성한 개인 선언문' 아님. 제안일과 승인일은 다름.",
+      "split_required_before_promotion": false,
+      "original_full_text_collated": false,
+      "translation_checked_against_original": false,
+      "media_rights_checked": false,
+      "approved": false,
+      "canonical_id": null,
+      "proposed_promotion_class": "WORK_OR_WITNESS_CANDIDATE",
+      "promotion_allowed": false
+    },
+    {
+      "proposal_id": "DOC-PROP-V04-007",
+      "title_ko": "1549 취리히 합의",
+      "overview_work_id": null,
+      "witness_role": "independent_work",
+      "year_start": 1549,
+      "source_ids": [
+        "SRC-V04-CA-006",
+        "SRC-V04-CA-008"
+      ],
+      "related_event_ids": [],
+      "approval": "DRAFT",
+      "create_canonical_record": false,
+      "full_text_included": false,
+      "publish": false,
+      "display_order": 7,
+      "work_family": "WORK-PROP-V04-CONSENSUS-TIGURINUS",
+      "material_kind": "AGREEMENT_AND_LATER_TRANSLATION",
+      "languages": [
+        "la"
+      ],
+      "imprint_or_provenance": {
+        "year": 1549,
+        "imprint_place": "Zürich",
+        "latin_short_title": "Consensio Mutua in re Sacramentaria",
+        "modern_translation": "Torrance Kirby, Reformation & Renaissance Review 18:1 (2016), pp.34–44"
+      },
+      "verification_status": "SCHOLARLY_TRANSLATION_BIBLIOGRAPHY_CHECKED_ORIGINAL_PRINT_NOT_COLLATED",
+      "verified_catalog_or_study_links": [
+        "https://www.tandfonline.com/doi/full/10.1080/14622459.2016.1157344",
+        "https://ccel.org/ccel/schaff/creeds1/creeds1.ix.ii.ix.html"
+      ],
+      "editorial_note_ko": "1549년 취리히 합의는 칼뱅·불링거가 연결된 문헌. 1531년에 사망한 츠빙글리를 원문 서명 당사자로 추가 금지.",
+      "split_required_before_promotion": false,
+      "original_full_text_collated": false,
+      "translation_checked_against_original": false,
+      "media_rights_checked": false,
+      "approved": false,
+      "canonical_id": null,
+      "proposed_promotion_class": "WORK_OR_WITNESS_CANDIDATE",
+      "promotion_allowed": false
+    },
+    {
+      "proposal_id": "DOC-PROP-V04-008",
+      "title_ko": "루터 독일어 신약 출판",
+      "overview_work_id": null,
+      "witness_role": "independent_work",
+      "year_start": 1522,
+      "source_ids": [
+        "SRC-V04-L-007"
+      ],
+      "related_event_ids": [],
+      "approval": "DRAFT",
+      "create_canonical_record": false,
+      "full_text_included": false,
+      "publish": false,
+      "display_order": 8,
+      "work_family": "WORK-PROP-V04-LUTHER-NT",
+      "material_kind": "TRANSLATION_PRINT_EDITION_FAMILY",
+      "languages": [
+        "de"
+      ],
+      "imprint_or_provenance": {
+        "year": 1522,
+        "original_title": "Das Newe Testament Deutzsch",
+        "known_editions": [
+          "September 1522",
+          "December 1522"
+        ]
+      },
+      "verification_status": "MUSEUM_EDITION_CHRONOLOGY_CHECKED_EXACT_COPY_NOT_IDENTIFIED",
+      "verified_catalog_or_study_links": [
+        "https://www.themorgan.org/exhibitions/online/word-and-image/7",
+        "https://gruber.lstc.edu/luthers_bible/1522.php"
+      ],
+      "editorial_note_ko": "'1522 독일어 신약'은 저작/번역 계열이고 실제 9월판과 12월판은 분리해야 한다. 박물관의 1918 재판본을 1522 원본 소장본으로 혼동 금지.",
+      "split_required_before_promotion": true,
+      "original_full_text_collated": false,
+      "translation_checked_against_original": false,
+      "media_rights_checked": false,
+      "approved": false,
+      "canonical_id": null,
+      "proposed_promotion_class": "WORK_OR_WITNESS_CANDIDATE",
+      "promotion_allowed": false
+    },
+    {
+      "proposal_id": "DOC-PROP-V04-009",
+      "title_ko": "루터 독일어 성경 완역본",
+      "overview_work_id": null,
+      "witness_role": "independent_work",
+      "year_start": 1534,
+      "source_ids": [
+        "SRC-V04-L-008"
+      ],
+      "related_event_ids": [],
+      "approval": "DRAFT",
+      "create_canonical_record": false,
+      "full_text_included": false,
+      "publish": false,
+      "display_order": 9,
+      "work_family": "WORK-PROP-V04-LUTHER-BIBLE",
+      "material_kind": "TRANSLATION_PRINT_EDITION",
+      "languages": [
+        "de"
+      ],
+      "imprint_or_provenance": {
+        "year": 1534,
+        "place": "Wittenberg",
+        "printer": "Hans Lufft",
+        "original_title": "Biblia, das ist, die gantze Heilige Schrifft Deudsch"
+      },
+      "verification_status": "PRINT_HISTORY_AND_REPRODUCTION_CATALOG_CHECKED",
+      "verified_catalog_or_study_links": [
+        "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/the-luther-bible-1534",
+        "https://iucat.iu.edu/iub/2788844"
+      ],
+      "editorial_note_ko": "1534 전체 성경 첫 출판과 1541 전면 개정판 구별. IUCAT의 해당 항목은 마이크로피시 재현본 서지이므로 원본 소장이라고 주장하면 안 된다.",
+      "split_required_before_promotion": false,
+      "original_full_text_collated": false,
+      "translation_checked_against_original": false,
+      "media_rights_checked": false,
+      "approved": false,
+      "canonical_id": null,
+      "proposed_promotion_class": "WORK_OR_WITNESS_CANDIDATE",
+      "promotion_allowed": false
+    },
+    {
+      "proposal_id": "EDN-PROP-V04-001",
+      "title_ko": "1530 아우크스부르크 제출 문안",
+      "overview_work_id": "OV-D-011",
+      "witness_role": "work_edition",
+      "year_start": 1530,
+      "source_ids": [
+        "SRC-V04-ME-004",
+        "SRC-V04-ME-006"
+      ],
+      "related_event_ids": [
+        "OV-E-019"
+      ],
+      "approval": "DRAFT",
+      "create_canonical_record": false,
+      "full_text_included": false,
+      "publish": false,
+      "display_order": 10,
+      "work_family": "OV-D-011",
+      "material_kind": "SUBMITTED_CONFESSION_TEXT_VERSIONS",
+      "languages": [
+        "de",
+        "la"
+      ],
+      "imprint_or_provenance": {
+        "event_date": "1530-06-25",
+        "event_place": "Augsburg",
+        "spoken_version": "German was read to assembly",
+        "parallel_text": "Latin version also submitted"
+      },
+      "verification_status": "HISTORICAL_PRIMARY_WITNESS_FAMILY_NOT_COLLATION",
+      "verified_catalog_or_study_links": [
+        "https://gruber.lstc.edu/confessions/augs_apol.php",
+        "https://bridwell.omeka.net/exhibits/show/luther/controversies/augsburgconfession"
+      ],
+      "editorial_note_ko": "1530년 실제 제출 독일어·라틴어 계열 각각의 서명·필사/초판 인쇄 사료를 분리하고, 이 입력 자체를 인쇄 판본으로 간주하지 않음.",
+      "split_required_before_promotion": true,
+      "original_full_text_collated": false,
+      "translation_checked_against_original": false,
+      "media_rights_checked": false,
+      "approved": false,
+      "canonical_id": null,
+      "proposed_promotion_class": "EDITION_OR_TRANSLATION_CANDIDATE",
+      "promotion_allowed": false
+    },
+    {
+      "proposal_id": "EDN-PROP-V04-002",
+      "title_ko": "1531 아우크스부르크 신앙고백 초판 인쇄본",
+      "overview_work_id": "OV-D-011",
+      "witness_role": "work_edition",
+      "year_start": 1531,
+      "source_ids": [
+        "SRC-V04-ME-007"
+      ],
+      "related_event_ids": [
+        "OV-E-019"
+      ],
+      "approval": "DRAFT",
+      "create_canonical_record": false,
+      "full_text_included": false,
+      "publish": false,
+      "display_order": 11,
+      "work_family": "OV-D-011",
+      "material_kind": "AUTHORIZED_PRINT_EDITION_FAMILY",
+      "languages": [
+        "la",
+        "de"
+      ],
+      "imprint_or_provenance": {
+        "year": 1531,
+        "place": "Wittenberg",
+        "printer": "Georg Rhau",
+        "authorized": "editio princeps (not first-ever unauthorized impression)"
+      },
+      "verification_status": "HISTORIC_PRINTING_CATALOG_VERIFIED_REQUIRES_LANGUAGE_SPLIT",
+      "verified_catalog_or_study_links": [
+        "https://bridwell.omeka.net/exhibits/show/luther/controversies/augsburgconfession",
+        "https://gruber.lstc.edu/confessions/augs_apol.php"
+      ],
+      "editorial_note_ko": "1531년 '공인 초판'은 1530년 비공인 초기 인쇄물보다 오래된 모든 인쇄를 뜻하지 않는다. 라틴어·독일어 본문과 변증서 합철은 각각 독립 문헌관계 확인.",
+      "split_required_before_promotion": true,
+      "original_full_text_collated": false,
+      "translation_checked_against_original": false,
+      "media_rights_checked": false,
+      "approved": false,
+      "canonical_id": null,
+      "proposed_promotion_class": "EDITION_OR_TRANSLATION_CANDIDATE",
+      "promotion_allowed": false
+    },
+    {
+      "proposal_id": "EDN-PROP-V04-003",
+      "title_ko": "1540 아우크스부르크 신앙고백 Variata",
+      "overview_work_id": "OV-D-011",
+      "witness_role": "work_edition",
+      "year_start": 1540,
+      "source_ids": [
+        "SRC-V04-ME-007"
+      ],
+      "related_event_ids": [],
+      "approval": "DRAFT",
+      "create_canonical_record": false,
+      "full_text_included": false,
+      "publish": false,
+      "display_order": 12,
+      "work_family": "OV-D-011",
+      "material_kind": "REVISED_PRINT_VARIATA",
+      "languages": [
+        "la"
+      ],
+      "imprint_or_provenance": {
+        "year": 1540,
+        "place": "Wittenberg",
+        "printer": "Georg Rhau",
+        "variant": "Variata"
+      },
+      "verification_status": "ORIGINAL_PRINT_DIGITAL_CATALOG_METADATA_CHECKED",
+      "verified_catalog_or_study_links": [
+        "https://dia.pitts.emory.edu/image_details.cfm?ID=6759",
+        "https://brill.com/display/book/edcoll/9789004341052/B9789004341052_004.xml"
+      ],
+      "editorial_note_ko": "제10조 성찬 문구 등 변화, 1531년 공인 초판과 차이. 실물 표지의 도상(삼손/골리앗 등)을 라이선스 없이 사용자 미디어로 복제 금지.",
+      "split_required_before_promotion": false,
+      "original_full_text_collated": false,
+      "translation_checked_against_original": false,
+      "media_rights_checked": false,
+      "approved": false,
+      "canonical_id": null,
+      "proposed_promotion_class": "EDITION_OR_TRANSLATION_CANDIDATE",
+      "promotion_allowed": false
+    },
+    {
+      "proposal_id": "EDN-PROP-V04-004",
+      "title_ko": "1536 『기독교강요』 라틴어 초판",
+      "overview_work_id": "OV-D-012",
+      "witness_role": "work_edition",
+      "year_start": 1536,
+      "source_ids": [
+        "SRC-V04-CA-004",
+        "SRC-V04-CA-005"
+      ],
+      "related_event_ids": [
+        "OV-E-020"
+      ],
+      "approval": "DRAFT",
+      "create_canonical_record": false,
+      "full_text_included": false,
+      "publish": false,
+      "display_order": 13,
+      "work_family": "OV-D-012",
+      "material_kind": "LATIN_FIRST_EDITION",
+      "languages": [
+        "la"
+      ],
+      "imprint_or_provenance": {
+        "year": 1536,
+        "place": "Basel",
+        "structure": "6 chapters"
+      },
+      "verification_status": "NATIONAL_LIBRARY_WORK_AUTHORITY_AND_INSTITUTIONAL_COPY_CHECKED",
+      "verified_catalog_or_study_links": [
+        "https://catalogue.bnf.fr/ark%3A/12148/cb11963198n",
+        "https://calvin.edu/news-stories/institutes-display-3"
+      ],
+      "editorial_note_ko": "BnF는 저작 표목과 초판 1536년을 증명; 이 서지 서술이 특정 1536 원본의 전 문장 비교를 뜻하지 않는다.",
+      "split_required_before_promotion": false,
+      "original_full_text_collated": false,
+      "translation_checked_against_original": false,
+      "media_rights_checked": false,
+      "approved": false,
+      "canonical_id": null,
+      "proposed_promotion_class": "EDITION_OR_TRANSLATION_CANDIDATE",
+      "promotion_allowed": false
+    },
+    {
+      "proposal_id": "EDN-PROP-V04-005",
+      "title_ko": "1559 『기독교강요』 라틴어 최종판",
+      "overview_work_id": "OV-D-012",
+      "witness_role": "work_edition",
+      "year_start": 1559,
+      "source_ids": [
+        "SRC-V04-CA-004",
+        "SRC-V04-CA-005"
+      ],
+      "related_event_ids": [],
+      "approval": "DRAFT",
+      "create_canonical_record": false,
+      "full_text_included": false,
+      "publish": false,
+      "display_order": 14,
+      "work_family": "OV-D-012",
+      "material_kind": "LATIN_AUTHOR_FINAL_EDITION",
+      "languages": [
+        "la"
+      ],
+      "imprint_or_provenance": {
+        "year": 1559,
+        "structure": "4 books 80 chapters"
+      },
+      "verification_status": "LIBRARY_WORK_AUTHORITY_AND_LATER_DIGITAL_EDITION_CHECKED",
+      "verified_catalog_or_study_links": [
+        "https://catalogue.bnf.fr/ark%3A/12148/cb11963198n",
+        "https://www.ccel.org/institutes",
+        "https://bridwell.omeka.net/exhibits/show/calvin/1562institutes"
+      ],
+      "editorial_note_ko": "1559년 최종 라틴어판은 1536 초판의 단순 추가 페이지가 아닌 전면 재배열. 라틴어 웹 전사는 원본 제본 사료가 아님.",
+      "split_required_before_promotion": false,
+      "original_full_text_collated": false,
+      "translation_checked_against_original": false,
+      "media_rights_checked": false,
+      "approved": false,
+      "canonical_id": null,
+      "proposed_promotion_class": "EDITION_OR_TRANSLATION_CANDIDATE",
+      "promotion_allowed": false
+    },
+    {
+      "proposal_id": "EDN-PROP-V04-006",
+      "title_ko": "1541 『기독교강요』 첫 프랑스어판",
+      "overview_work_id": "OV-D-012",
+      "witness_role": "work_translation_edition",
+      "year_start": 1541,
+      "source_ids": [
+        "SRC-V04-CA-001",
+        "SRC-V04-CA-005"
+      ],
+      "related_event_ids": [],
+      "approval": "DRAFT",
+      "create_canonical_record": false,
+      "full_text_included": false,
+      "publish": false,
+      "display_order": 15,
+      "work_family": "OV-D-012",
+      "material_kind": "AUTHORIAL_FRENCH_TRANSLATION_EDITION",
+      "languages": [
+        "fr"
+      ],
+      "imprint_or_provenance": {
+        "year": 1541,
+        "translation_relation": "French version based on evolving Latin work"
+      },
+      "verification_status": "BNF_WORK_AUTHORITY_WITH_HISTORIC_SECONDARY_TEXT",
+      "verified_catalog_or_study_links": [
+        "https://catalogue.bnf.fr/ark%3A/12148/cb11963198n",
+        "https://www.ccel.org/ccel/schaff/history/8_ch09.htm"
+      ],
+      "editorial_note_ko": "1541년 프랑스어 첫 판본은 후대 1560년 번역과 다른 텍스트. 엄밀한 모본/번역 관계는 서문·비평판 확인 전 확정하지 않음.",
+      "split_required_before_promotion": false,
+      "original_full_text_collated": false,
+      "translation_checked_against_original": false,
+      "media_rights_checked": false,
+      "approved": false,
+      "canonical_id": null,
+      "proposed_promotion_class": "EDITION_OR_TRANSLATION_CANDIDATE",
+      "promotion_allowed": false
+    },
+    {
+      "proposal_id": "EDN-PROP-V04-007",
+      "title_ko": "1560 『기독교강요』 후기 프랑스어판",
+      "overview_work_id": "OV-D-012",
+      "witness_role": "work_translation_edition",
+      "year_start": 1560,
+      "source_ids": [
+        "SRC-V04-CA-014"
+      ],
+      "related_event_ids": [],
+      "approval": "DRAFT",
+      "create_canonical_record": false,
+      "full_text_included": false,
+      "publish": false,
+      "display_order": 16,
+      "work_family": "OV-D-012",
+      "material_kind": "AUTHORIAL_LATE_FRENCH_EDITION",
+      "languages": [
+        "fr"
+      ],
+      "imprint_or_provenance": {
+        "year": 1560,
+        "translation_relation": "Late French version following 1559 Latin restructuring"
+      },
+      "verification_status": "HISTORIC_SECONDARY_AND_DIGITAL_TEXT_CATALOG_CHECKED",
+      "verified_catalog_or_study_links": [
+        "https://www.ccel.org/institutes",
+        "https://www.ccel.org/ccel/schaff/history/8_ch09.htm"
+      ],
+      "editorial_note_ko": "1560 프랑스어 판본과 1541 프랑스어 판본 구분. 후대 웹 전사를 1560년 인쇄본 원본 사진으로 잘못 표시하지 않음.",
+      "split_required_before_promotion": false,
+      "original_full_text_collated": false,
+      "translation_checked_against_original": false,
+      "media_rights_checked": false,
+      "approved": false,
+      "canonical_id": null,
+      "proposed_promotion_class": "EDITION_OR_TRANSLATION_CANDIDATE",
+      "promotion_allowed": false
+    },
+    {
+      "proposal_id": "DOC-PROP-V04-010",
+      "title_ko": "1531 아우크스부르크 신앙고백 변증서",
+      "overview_work_id": null,
+      "witness_role": "independent_work_not_same_as_confession",
+      "year_start": 1531,
+      "source_ids": [
+        "SRC-V04-ME-005"
+      ],
+      "related_event_ids": [
+        "OV-E-019"
+      ],
+      "approval": "DRAFT",
+      "create_canonical_record": false,
+      "full_text_included": false,
+      "publish": false,
+      "display_order": 17,
+      "work_family": "WORK-PROP-V04-AUGSBURG-APOLOGY",
+      "material_kind": "INDEPENDENT_WORK_WITH_LATIN_AND_GERMAN_WITNESSES",
+      "languages": [
+        "la",
+        "de"
+      ],
+      "imprint_or_provenance": {
+        "year": 1531,
+        "latin_edition": "Spring 1531",
+        "german_translation": "Justus Jonas, fall 1531"
+      },
+      "verification_status": "HISTORICAL_AND_COLLECTION_CATALOG_DETAILS_CHECKED",
+      "verified_catalog_or_study_links": [
+        "https://gruber.lstc.edu/confessions/augs_apol.php",
+        "https://thebookofconcord.org/introductory-materials/historical-introductions/the-apology-of-the-augsburg-confession/"
+      ],
+      "editorial_note_ko": "1531년 멜란히톤 라틴어 변증서와 유스투스 요나스 독일어 번역은 다른 판본·언어 증인. '아우크스부르크 신앙고백' 그 자체와 동일한 저작 아님.",
+      "split_required_before_promotion": true,
+      "original_full_text_collated": false,
+      "translation_checked_against_original": false,
+      "media_rights_checked": false,
+      "approved": false,
+      "canonical_id": null,
+      "proposed_promotion_class": "WORK_OR_WITNESS_CANDIDATE",
+      "promotion_allowed": false
+    }
+  ],
+  "release": {
+    "approved": false,
+    "can_ship": false,
+    "web_code_modified": false,
+    "media_added_to_public": false,
+    "original_copyright_images_reused": false
+  },
+  "methods_note": "Verified identifiers/metadata from archives, museums, institutional libraries and selected modern editions. Bibliographic level only; full primary texts not collated and quotes not reproduced."
+}
