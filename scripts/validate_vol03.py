@@ -110,10 +110,29 @@ for claim in claims:
     check(bool(claim.get("evidence_tier")), f"{claim['id']}: missing evidence_tier")
     check(bool(claim.get("limitations_ko")), f"{claim['id']}: missing limitations")
     check(claim.get("review_status") == "DRAFT", f"{claim['id']}: cannot auto-approve claims")
+
+# V0.4 provenance object validation (historical texts are separate from later editions).
+documents = load("data/vol03_document_witnesses.json")["objects"]
+doc_ids = [doc["id"] for doc in documents]
+check(len(doc_ids) == len(set(doc_ids)), "Duplicate document/edition IDs")
+all_doc_ids = set(doc_ids)
+for doc in documents:
+    check(bool(doc.get("kind")), f"{doc['id']}: missing provenance kind")
+    check(bool(doc.get("date_label")), f"{doc['id']}: missing historical/edition date")
+    check(doc.get("review_status") == "DRAFT", f"{doc['id']}: publication not approved")
+    source_check(doc)
+    parent = doc.get("based_on_id")
+    if parent:
+        check(parent in all_doc_ids, f"{doc['id']}: unknown based_on_id {parent}")
+        check(parent != doc["id"], f"{doc['id']}: self reference")
+    ref_ids(doc, "event_ids", all_events)
+# A 1433 original agreement and a 2019 edition cannot silently become the same source object.
+check("DOC-V03-002" in all_doc_ids and "EDN-V03-003" in all_doc_ids, "Agreement and edited collection must remain distinct")
+
 if errors:
     print("FAIL: " + str(len(errors)) + " source claim issue(s)")
     for issue in errors:
         print(" -", issue)
     sys.exit(1)
 print(f"PASS: {len(claims)} provenance claim cards checked")
-print(f"PASS: Vol03 {len(ext['actors'])} actors, {len(ext['events'])} events, {len(ext['relationships'])} relations, {len(ext['locations'])} locations, {len(source_ids)} sources, {len(manifest)} assets, {len(claims)} claims.")
+print(f"PASS: Vol03 {len(ext['actors'])} actors, {len(ext['events'])} events, {len(ext['relationships'])} relations, {len(ext['locations'])} locations, {len(source_ids)} sources, {len(manifest)} assets, {len(claims)} claims, {len(documents)} provenance objects.")
