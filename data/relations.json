@@ -1,0 +1,27 @@
+[
+  {
+    "id": "REL-0001",
+    "from_id": "PER-0001",
+    "to_id": "PER-0002",
+    "type": "textual_influence",
+    "summary_ko": "위클리프 저술이 프라하에 전해져 후스의 사상 형성에 영향을 미침",
+    "source_ids": [
+      "SRC-0001",
+      "SRC-0003"
+    ],
+    "certainty": "established",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "REL-0002",
+    "from_id": "PER-0002",
+    "to_id": "PER-0003",
+    "type": "later_reception",
+    "summary_ko": "루터는 1519년 후스의 역사적·신학적 선례와 마주하고, 후스의 의미는 16세기 논쟁 속에서 재해석됨",
+    "source_ids": [
+      "SRC-0004"
+    ],
+    "certainty": "established",
+    "publication_status": "DRAFT"
+  }
+]
