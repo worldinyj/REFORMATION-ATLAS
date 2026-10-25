@@ -152,3 +152,8 @@
 - [28 V1.3 편집·이미지 최종 검토 게이트](28_V13_HISTORICAL_VISUAL_FINAL_EDITORIAL_GATE.md) 및 [V1.3 데이터 판정](../../../data/vol03_v13_review_gates.json) 참조.
 - 후보 이미지 6점의 로컬 설치 ZIP은 해시/CRC/설치/재실행/변조 차단 실험을 통과했으나, 실제 사용자 Mac·GitHub 바이너리 저장은 아직 미수행.
 - DRAFT · 전문 역사학 승인 0건 · 게시 0건 · main 미병합.
+
+## V1.3 · 역사 고증 및 안전한 미디어 설치 계약
+- [고증 심사 8종](../../02_MEDIA/VOL03_HISTORICAL_IMAGE_REVIEW_V13.md) · [검토 데이터](../../../data/vol03_editorial_review_v13.json).
+- [1436년 7월 5/6일 행위 구분 연표](06_TIMELINE.md) · [보완 사실검증표](07_FACTCHECK_MATRIX.md).
+- 원본 182노드/365에지·주장 14건 불변. 후보 WebP 6점 ZIP은 사용자 대화 아티팩트만 제공, 공개 원본은 미변경.

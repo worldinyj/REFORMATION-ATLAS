@@ -1,0 +1,189 @@
+{
+  "schema_version": "1.0",
+  "volume_id": "VOL-03",
+  "milestone": "V1.3",
+  "date": "2026-10-25",
+  "status": "DRAFT",
+  "technical_install_test": {
+    "zip_name": "REFORMATION_ATLAS_VOL03_V13_INSTALL_PACKAGE.zip",
+    "zip_sha256": "b29df503033edc4f77b9c98a5154edb1549b8d1e48687b241eea64368d37bce7",
+    "zip_crc_pass": true,
+    "verify_only_pass": true,
+    "temp_repository_first_install_count": 6,
+    "temp_repository_second_install_count": 0,
+    "installed_to_real_user_checkout": false,
+    "image_binaries_committed_to_github": false
+  },
+  "publication_gate": {
+    "approved": false,
+    "can_ship": false,
+    "requires_human_expert_review": true
+  },
+  "sources": [
+    {
+      "id": "EXT-V03-01",
+      "url": "https://www.waldensian.org/history/myths-surrounding-the-waldensian-story/",
+      "note": "발도의 Peter 호칭 후대 귀속"
+    },
+    {
+      "id": "EXT-V03-02",
+      "url": "https://www.arup.cas.cz/en/statement-aru-arub/",
+      "note": "지슈카의 얼굴·눈 부상 복원 한계"
+    },
+    {
+      "id": "EXT-V03-03",
+      "url": "https://www.cvut.cz/en/the-bethlehem-chapel",
+      "note": "베들레헴 예배당 재건 내부 원형과 다름"
+    },
+    {
+      "id": "EXT-V03-04",
+      "url": "https://prague.eu/en/objevujte/bethlehem-chapel-betlemska-kaple/",
+      "note": "후스 설교기 1402~1413"
+    },
+    {
+      "id": "EXT-V03-05",
+      "url": "https://cms.flu.cas.cz/wp-content/uploads/2022/03/SMB_11_177-212-0a0.pdf",
+      "note": "Pálka 2019: 1436년 7월 5일 콤팍타타 선포"
+    },
+    {
+      "id": "EXT-V03-06",
+      "url": "https://dbs.herder-institut.de/digitale-angebote/dokumente-und-materialien/themenmodule/quelle/3255/details/4733.html",
+      "note": "1436년 7월 6일 옛 체코어 문안 낭독"
+    },
+    {
+      "id": "EXT-V03-07",
+      "url": "https://www.rbmonline.cz/portal/book/1199?lpage=445",
+      "note": "브르노 1435년 7월 편집자 추정·원문 무날짜"
+    },
+    {
+      "id": "EXT-V03-08",
+      "url": "https://scholarworks.iu.edu/journals/index.php/tmr/article/view/31313",
+      "note": "1433 합의와 2019 비평판 10문서 구별"
+    }
+  ],
+  "assets": [
+    {
+      "id": "PRT-V03-01-R2C01",
+      "canonical_id": "PRT-V03-01",
+      "prior_risk": "HIGH",
+      "caption_ko": "발도의 실제 외모·거리·복식은 확인되지 않았다. 평신도 설교를 묘사한 상상화다.",
+      "source_ids": [
+        "EXT-V03-01"
+      ],
+      "review_status": "DRAFT",
+      "historically_authenticated": false,
+      "human_expert_approved": false,
+      "rights_cleared_for_public": false,
+      "public_visible": false
+    },
+    {
+      "id": "PRT-V03-02-R2C01",
+      "canonical_id": "PRT-V03-02",
+      "prior_risk": "HIGH",
+      "caption_ko": "위클리프의 실재 얼굴과 14세기 서재·필사본의 모습은 미확인이다.",
+      "source_ids": [
+        "V03-S19"
+      ],
+      "review_status": "DRAFT",
+      "historically_authenticated": false,
+      "human_expert_approved": false,
+      "rights_cleared_for_public": false,
+      "public_visible": false
+    },
+    {
+      "id": "PRT-V03-03-R2C01",
+      "canonical_id": "PRT-V03-03",
+      "prior_risk": "MEDIUM",
+      "caption_ko": "얀 후스의 상상 초상이며 설교 배경은 당시 예배당 실측 복원이 아니다.",
+      "source_ids": [
+        "EXT-V03-03",
+        "EXT-V03-04"
+      ],
+      "review_status": "DRAFT",
+      "historically_authenticated": false,
+      "human_expert_approved": false,
+      "rights_cleared_for_public": false,
+      "public_visible": false
+    },
+    {
+      "id": "PRT-V03-04-R2C01",
+      "canonical_id": "PRT-V03-04",
+      "prior_risk": "HIGH",
+      "caption_ko": "지슈카의 실제 얼굴·눈 부상 방향·당시 장비는 확정할 수 없다.",
+      "source_ids": [
+        "EXT-V03-02"
+      ],
+      "review_status": "DRAFT",
+      "historically_authenticated": false,
+      "human_expert_approved": false,
+      "rights_cleared_for_public": false,
+      "public_visible": false
+    },
+    {
+      "id": "ILL-V03-01-R2C01",
+      "canonical_id": "ILL-V03-01",
+      "prior_risk": "HIGH",
+      "caption_ko": "프라하 설교 분위기의 AI 상상 장면. 베들레헴 예배당 내부 복원 아님.",
+      "source_ids": [
+        "EXT-V03-03",
+        "EXT-V03-04"
+      ],
+      "review_status": "DRAFT",
+      "historically_authenticated": false,
+      "human_expert_approved": false,
+      "rights_cleared_for_public": false,
+      "public_visible": false
+    },
+    {
+      "id": "ILL-V03-02-R2C01",
+      "canonical_id": "ILL-V03-02",
+      "prior_risk": "HIGH",
+      "caption_ko": "공의회·보헤미아 협상의 일반적 상상 장면. 1433/1435/1436의 특정 회의 재현 아님.",
+      "source_ids": [
+        "EXT-V03-05",
+        "EXT-V03-07",
+        "EXT-V03-08"
+      ],
+      "review_status": "DRAFT",
+      "historically_authenticated": false,
+      "human_expert_approved": false,
+      "rights_cleared_for_public": false,
+      "public_visible": false
+    },
+    {
+      "id": "MAP-V03-02-R3C01",
+      "canonical_id": "MAP-V03-02",
+      "prior_risk": "HIGH",
+      "caption_ko": "저술 영향의 개념적 연결. 직접 여행로나 직접 사제관계 아님.",
+      "source_ids": [
+        "V03-S09"
+      ],
+      "review_status": "DRAFT",
+      "historically_authenticated": false,
+      "human_expert_approved": false,
+      "rights_cleared_for_public": false,
+      "public_visible": false
+    },
+    {
+      "id": "MAP-V03-04-R3C01",
+      "canonical_id": "MAP-V03-04",
+      "prior_risk": "HIGH",
+      "caption_ko": "문헌·신학 교류의 개념적 연결. 실제 방문 순서·여정 아님.",
+      "source_ids": [
+        "V03-S26",
+        "V03-S27"
+      ],
+      "review_status": "DRAFT",
+      "historically_authenticated": false,
+      "human_expert_approved": false,
+      "rights_cleared_for_public": false,
+      "public_visible": false
+    }
+  ],
+  "unresolved": [
+    "중세의 실제 얼굴·복식·예배당 실내·문장(紋章)·무기 고증",
+    "15세기 필사본 및 Šmahel(2019) 비평판 전문 대조",
+    "AI 이미지의 최종 공개 권리·외부 유사성 검토",
+    "사용자 최종 승인 및 지역별 신학 해석 감수"
+  ]
+}
