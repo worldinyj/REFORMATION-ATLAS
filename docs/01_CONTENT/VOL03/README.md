@@ -103,3 +103,10 @@
 - 지도 4 SVG/PNG·역사 재현 AI 이미지 6 PNG/WebP·Word 포함 검토 패키지: `REFORMATION_ATLAS_VOL03_V08_REVIEW_BUNDLE.zip`, **SHA256 `1abed4eadba035ddc827bd9fbc955a78d741d79e71cff5497d6141f9660d75c6`**.
 - Word 32쪽 전체 렌더 검사 및 역사 재현 표시. 패키지 내부 파일 SHA256 검사·ZIP CRC 통과. **바이너리 Word/PNG/WebP는 GitHub에 미커밋**.
 - `main` 병합·전문가 검수·역사적 승인·사이트 공개는 보류. 
+
+## V0.9-P1 — 원전·판본 심층 재검증 (2026-10-25)
+- [20_PRIMARY_TEXT_REAUDIT_V09_P1.md](20_PRIMARY_TEXT_REAUDIT_V09_P1.md): 위클리프·후스·프라하 4개조·바젤 콤팍타타의 **원전/후대 편집/번역/서평** 근거 등급을 분리한 검토 보고서.
+- [증거 등급 JSON](../../../data/vol03_source_audit_v09_p1.json): 신규 감사 레코드 10건, 기존 주장 CLM-V03-001~014 전체를 참조하며 기존 주장 14건 및 통합 그래프 182/365의 원본은 변경하지 않음.
+- [QA 기록](../../03_PRODUCT/VOL03_SOURCE_REAUDIT_QA_V09P1.md): 고아 출처/주장 ID 0건 및 Word 검토본 렌더·접근성 결과.
+- 독립 Word 검토본: `REFORMATION_ATLAS_VOL03_Source_Audit_V09P1.docx` (8쪽, SHA256 `eafde01842216663576731791227ba863cdc2ad645d7f00a72f5936527492f0a`). ChatGPT 대화 아티팩트만 제공, GitHub 바이너리 미수록.
+- **DRAFT / 미출판.** 라틴어 필사본 교감·1844/1937 비교·2019 비평판 전문·인간 학술감수 미완료. Draft PR #2 유지, `main` 미병합.
