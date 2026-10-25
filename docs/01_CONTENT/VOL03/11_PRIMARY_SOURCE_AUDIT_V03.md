@@ -10,7 +10,7 @@
 | 위클리프 『De eucharistia』 | 1892년 Loserth 편집 라틴 비평판의 Internet Archive OCR 전사 (Ch. IV–V, 후반 부분) | **P2: 역사 비평판 전사에 직접 접근** | 축성 후 빵의 실체가 남는다는 주장, 성찬에서 그리스도 현존 논의 | 중세 필사본 직접 대조·전사 OCR 교감 |
 | 후스 『De ecclesia』 | David S. Schaff 1915년 영어 번역판 전사, Ch. I·II·IV·VII·XVII | **P3: 역사 번역 전사에 직접 접근** | 교회 정의, 예정된 신자, 그리스도가 보편교회의 머리라는 주장, 교황·성직권 논쟁 | 라틴 비평판과 번역 문구의 직접 교감 |
 | 프라하 4개조 | 체코어 Wikizdroje의 1937년 편집본을 이용한 옛 체코어 전사 | **P2: 후대 역사 편집 문헌에 직접 접근** | 네 조항에 담긴 구체적인 주체와 조건 | 1420년 최초 필사본·편집 이문 직접 교감 |
-| 콤팍타타 | Šmahel(2019) 원문 비평판의 학술 출판 안내와 연구 서평, Pálka(2023) 학술 초록 | **S2: 학술 2차 자료 대조** | 10개 공식 문서의 집합, 1433~1436 협상, 상충하는 합의 해석 | 10건의 라틴어 비평판 전문·필사본 직접 대조 |
+| 콤팍타타 | Šmahel(2019) 원문 비평판의 학술 출판 안내와 연구 서평, Pálka(2023) 학술 초록 | **S2: 학술 2차 자료 대조** | 1433년 핵심 합의문 3건과 관련 공식 문서 10건의 비평판 구성, 1433~1436 협상, 상충하는 합의 해석 | 10건의 라틴어 비평판 전문·필사본 직접 대조 |
 
 '원문 검증 완료'는 **문장·판본 수준에서 자신이 본 텍스트의 범위**를 반드시 함께 기록할 때만 쓴다. 전체 원전 검증 완료로 표시하지 않는다.
 
@@ -88,7 +88,7 @@ Fordham Medieval Sourcebook에 실린 `On the Sacrament of Communion`은 **『De
 
 ## D. 1436년 콤팍타타: 역사적 문서 세트를 기준으로 다시 정의
 ### D-1. 가장 중요한 사실 교정
-종종 '1436년의 콤팍타타 문서 한 장'으로 소개하지만 František Šmahel의 2019년 역사 비평판은 **10개 공식 문서**의 라틴어 텍스트를 편집·대조한다. 연구서의 소개와 서평에 따르면 이 비평판은 **24개 필사본**을 사용했다. 전체가 단일 선언문만으로 구성된 합의라고 소개하면 자료의 실제 구성에 맞지 않는다. [V03-S33, V03-S34]
+종종 '1436년의 콤팍타타 문서 한 장'으로 소개하지만 František Šmahel의 2019년 역사 비평판은 **관련 라틴어 공식 문서 10건**을 편집·대조한다. 이는 **1433년 11월 30일 프라하에서 양측이 확인한 핵심 합의 문안 3건**과 동일한 수량을 뜻하지 않는다. 연구서의 소개와 서평에 따르면 이 비평판은 **24개 필사본**을 사용했다. 전체를 단일 선언문 한 장으로만 소개하는 것도, 반대로 10건 모두가 동시에 같은 날 합의된 것처럼 기술하는 것도 부정확하다. [V03-S33, V03-S34]
 
 ### D-2. 협상의 시간과 장소
 - **1432 체브(Cheb/Eger)**: 후스파와 공의회 대표들 사이에 성경과 논쟁의 기준을 둘러싼 협상.
@@ -132,3 +132,7 @@ Fordham Medieval Sourcebook에 실린 `On the Sacrament of Communion`은 **『De
 - [V03-S33] Academy of Sciences of the Czech Republic, Šmahel (2019) 책 안내. https://cms.flu.cas.cz/en/publications/monographs/die-basler-kompaktaten-mit-den-hussiten-1436.html
 - [V03-S34] *The Medieval Review*, Šmahel 책 검토, 문서 10건·24개 필사본·pp.165–218. https://scholarworks.iu.edu/journals/index.php/tmr/article/view/31313
 - [V03-S35] Adam Pálka, *The Basel Compactata and the Limits of Religious Coexistence* (2023), 논문 공개 초록. https://www.cambridge.org/core/journals/church-history/article/abs/basel-compactata-and-the-limits-of-religious-coexistence-in-the-age-of-conciliarism-and-beyond/33D199CEC2369561444EE2CF10B7754A
+
+
+## H. 추가 교정 기록 — 합의의 3개 핵심 문안과 비평판 10개 문서 구분
+Fudge가 쓴 2020년 학술서평 [V03-S34]은 양측이 **1433년 11월 30일 프라하에서 확언한 3개의 합의 문안**을 핵심 합의로 설명한다. 동시에 Šmahel의 비평판이 **24개 필사본을 대조한 10개 라틴어 공식 문서**를 싣는다고 밝힌다. 이는 서로 충돌하는 숫자가 아니라 **서로 다른 문서 범주와 단계**다. 따라서 사이트 데이터에서는 `original_agreement_texts = 3 (secondary scholarship)`와 `documents_in_critical_edition = 10`을 분리한다. 법적 형성·후속 승인 과정의 세부 단계는 비평판 전문 대조 전까지 가설이 아닌 '미확인'으로 유지한다.
