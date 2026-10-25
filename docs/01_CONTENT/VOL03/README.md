@@ -1,4 +1,4 @@
-# VOL-03 · 종교개혁의 선구자 | Deep Research V0.7
+# VOL-03 · 종교개혁의 선구자 | Deep Research V0.8
 **상태: DRAFT** (기초 공개 학술자료를 토대로 한 심화 연구 초안, 사람의 역사학 감수 전)
 
 ## 읽는 순서
@@ -94,3 +94,12 @@
 - [안전한 웹 연결·접근성·미디어 게시 제약](../../02_MEDIA/VOL03_WEB_PRESENTATION_BRIDGE_V01.md).
 - 이미지 6점은 아직 GitHub 실물 바이너리가 없으므로 `media_safe_to_display=false`, 모든 게시 상태는 `DRAFT` 및 `can_ship=false` 유지.
 - 검증 스크립트가 각 인물·장소·원고·출처·이미지 스테이지를 검토. 이 자료는 정식 PRD/TRD/UX/UI 승인이 아니며 향후 프로젝트 기획 문서 작성의 근거가 된다.
+
+## V0.8 — 5순위 통합 데이터 모델 + 6순위 도록 포함 Word
+- [통합 연구 그래프 182항목/365관계](../../../data/vol03_integrated_catalog_v08.json): 기초 SRC 10건·제3권 V03-S 53건도 독립 소스 노드로 포함.
+- [통합 데이터 모델 검증 도구](../../../scripts/validate_vol03_catalog.py): 그래프·출처·GitHub 자산 경로·미설치 이미지·배포 금지 게이트 검사.
+- [검수/설계 경계 기록](../../03_PRODUCT/VOL03_DATA_INTEGRATION_GATE_V08.md): 5순위 통합 초안과 6순위 Word 제작 범위·남은 연구 과제.
+- 외부 다운로드 전용 Word: `REFORMATION_ATLAS_VOL03_Illustrated_Research_Review_V08.docx` · **32쪽, SHA256 `5a9f0f211bee97aad47d33697ac6b1b78b0ec27e0dbb86eca403980454275989`**.
+- 지도 4 SVG/PNG·역사 재현 AI 이미지 6 PNG/WebP·Word 포함 검토 패키지: `REFORMATION_ATLAS_VOL03_V08_REVIEW_BUNDLE.zip`, **SHA256 `1abed4eadba035ddc827bd9fbc955a78d741d79e71cff5497d6141f9660d75c6`**.
+- Word 32쪽 전체 렌더 검사 및 역사 재현 표시. 패키지 내부 파일 SHA256 검사·ZIP CRC 통과. **바이너리 Word/PNG/WebP는 GitHub에 미커밋**.
+- `main` 병합·전문가 검수·역사적 승인·사이트 공개는 보류. 
