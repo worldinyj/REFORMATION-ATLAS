@@ -1,0 +1,1385 @@
+{
+  "schema_version": "0.1",
+  "authored_date": "2026-10-25",
+  "branch": "research/vol04-crosswalk-evidence-v01",
+  "status": "DRAFT_INTEGRATION_REVIEW",
+  "public_release": {
+    "approved": false,
+    "can_ship": false,
+    "webapp_modified": false,
+    "copy_to_public_bundle": false
+  },
+  "approach": "Read-only mapping of four original deep research files; no canonical IDs minted, no changes to overview",
+  "canonical_people": [
+    {
+      "id": "OV-P-013",
+      "slug": "luther",
+      "name_ko": "마르틴 루터",
+      "depth_block_id": "DEPTH-V04-P013-001"
+    },
+    {
+      "id": "OV-P-014",
+      "slug": "melanchthon",
+      "name_ko": "필리프 멜란히톤",
+      "depth_block_id": "DEPTH-V04-P014-001"
+    },
+    {
+      "id": "OV-P-015",
+      "slug": "zwingli",
+      "name_ko": "훌드리히 츠빙글리",
+      "depth_block_id": "DEPTH-V04-P015-001"
+    },
+    {
+      "id": "OV-P-016",
+      "slug": "calvin",
+      "name_ko": "장 칼뱅",
+      "depth_block_id": "DEPTH-V04-P016-001"
+    }
+  ],
+  "input_files": [
+    "data/deep/vol04_luther_v01.json",
+    "data/deep/vol04_zwingli_v01.json",
+    "data/deep/vol04_melanchthon_v01.json",
+    "data/deep/vol04_calvin_v01.json"
+  ],
+  "inventory": {
+    "people": 4,
+    "deep_sources_registered": 61,
+    "claims": 61,
+    "deep_timeline_anchors": 43,
+    "matches_existing_event": 7,
+    "new_event_candidates": 36,
+    "source_alias_groups": 3,
+    "document_witness_proposals": 17,
+    "relation_proposals": 2
+  },
+  "event_crosswalk": [
+    {
+      "deep_event_id": "DEEP-V04-E-001",
+      "person_id": "OV-P-013",
+      "depth_block_id": "DEPTH-V04-P013-001",
+      "title_ko": "95개 논제",
+      "date_label": "1517",
+      "date_precision": "year",
+      "year_start": 1517,
+      "claim_id": "CLM-V04-L-001",
+      "source_ids": [
+        "SRC-V04-L-001",
+        "SRC-V04-L-002",
+        "SRC-V04-L-003"
+      ],
+      "canonical_event_id": "OV-E-015",
+      "decision": "REFERENCE_EXISTING_OVERVIEW_EVENT",
+      "relation_to_canonical": "SAME_HISTORICAL_OCCURRENCE",
+      "app_timeline_policy": "SHOW_OVERVIEW_ONLY_APPEND_DEPTH_IF_APPROVED",
+      "review_status": "DRAFT",
+      "publish": false
+    },
+    {
+      "deep_event_id": "DEEP-V04-E-002",
+      "person_id": "OV-P-013",
+      "depth_block_id": "DEPTH-V04-P013-001",
+      "title_ko": "하이델베르크 논쟁",
+      "date_label": "1518",
+      "date_precision": "year",
+      "year_start": 1518,
+      "claim_id": "CLM-V04-L-003",
+      "source_ids": [
+        "SRC-V04-L-001",
+        "SRC-V04-L-003"
+      ],
+      "canonical_event_id": null,
+      "decision": "RESEARCH_ONLY_EVENT_CANDIDATE",
+      "relation_to_canonical": "NO_ASSUMED_EQUIVALENCE",
+      "app_timeline_policy": "DO_NOT_PUBLISH_UNREVIEWED_CANDIDATE",
+      "review_status": "DRAFT",
+      "publish": false
+    },
+    {
+      "deep_event_id": "DEEP-V04-E-003",
+      "person_id": "OV-P-013",
+      "depth_block_id": "DEPTH-V04-P013-001",
+      "title_ko": "라이프치히 논쟁",
+      "date_label": "1519",
+      "date_precision": "year",
+      "year_start": 1519,
+      "claim_id": "CLM-V04-L-004",
+      "source_ids": [
+        "SRC-V04-L-001",
+        "SRC-V04-L-006"
+      ],
+      "canonical_event_id": null,
+      "decision": "RESEARCH_ONLY_EVENT_CANDIDATE",
+      "relation_to_canonical": "NO_ASSUMED_EQUIVALENCE",
+      "app_timeline_policy": "DO_NOT_PUBLISH_UNREVIEWED_CANDIDATE",
+      "review_status": "DRAFT",
+      "publish": false
+    },
+    {
+      "deep_event_id": "DEEP-V04-E-004",
+      "person_id": "OV-P-013",
+      "depth_block_id": "DEPTH-V04-P013-001",
+      "title_ko": "세 가지 주요 저술",
+      "date_label": "1520",
+      "date_precision": "year",
+      "year_start": 1520,
+      "claim_id": "CLM-V04-L-005",
+      "source_ids": [
+        "SRC-V04-L-001",
+        "SRC-V04-L-004",
+        "SRC-V04-L-005"
+      ],
+      "canonical_event_id": null,
+      "decision": "RESEARCH_ONLY_EVENT_CANDIDATE",
+      "relation_to_canonical": "NO_ASSUMED_EQUIVALENCE",
+      "app_timeline_policy": "DO_NOT_PUBLISH_UNREVIEWED_CANDIDATE",
+      "review_status": "DRAFT",
+      "publish": false
+    },
+    {
+      "deep_event_id": "DEEP-V04-E-005",
+      "person_id": "OV-P-013",
+      "depth_block_id": "DEPTH-V04-P013-001",
+      "title_ko": "보름스 제국의회",
+      "date_label": "1521",
+      "date_precision": "year",
+      "year_start": 1521,
+      "claim_id": "CLM-V04-L-006",
+      "source_ids": [
+        "SRC-V04-L-001",
+        "SRC-V04-L-006"
+      ],
+      "canonical_event_id": "OV-E-016",
+      "decision": "REFERENCE_EXISTING_OVERVIEW_EVENT",
+      "relation_to_canonical": "SAME_HISTORICAL_OCCURRENCE",
+      "app_timeline_policy": "SHOW_OVERVIEW_ONLY_APPEND_DEPTH_IF_APPROVED",
+      "review_status": "DRAFT",
+      "publish": false
+    },
+    {
+      "deep_event_id": "DEEP-V04-E-006",
+      "person_id": "OV-P-013",
+      "depth_block_id": "DEPTH-V04-P013-001",
+      "title_ko": "독일어 신약성경",
+      "date_label": "1522",
+      "date_precision": "year",
+      "year_start": 1522,
+      "claim_id": "CLM-V04-L-007",
+      "source_ids": [
+        "SRC-V04-L-007",
+        "SRC-V04-L-006"
+      ],
+      "canonical_event_id": null,
+      "decision": "RESEARCH_ONLY_EVENT_CANDIDATE",
+      "relation_to_canonical": "NO_ASSUMED_EQUIVALENCE",
+      "app_timeline_policy": "DO_NOT_PUBLISH_UNREVIEWED_CANDIDATE",
+      "review_status": "DRAFT",
+      "publish": false
+    },
+    {
+      "deep_event_id": "DEEP-V04-E-007",
+      "person_id": "OV-P-013",
+      "depth_block_id": "DEPTH-V04-P013-001",
+      "title_ko": "농민전쟁에 대한 대응",
+      "date_label": "1525",
+      "date_precision": "year",
+      "year_start": 1525,
+      "claim_id": "CLM-V04-L-009",
+      "source_ids": [
+        "SRC-V04-L-012",
+        "SRC-V04-L-013",
+        "SRC-V04-L-017"
+      ],
+      "canonical_event_id": null,
+      "decision": "RESEARCH_ONLY_EVENT_CANDIDATE",
+      "relation_to_canonical": "NO_ASSUMED_EQUIVALENCE",
+      "app_timeline_policy": "DO_NOT_PUBLISH_UNREVIEWED_CANDIDATE",
+      "review_status": "DRAFT",
+      "publish": false
+    },
+    {
+      "deep_event_id": "DEEP-V04-E-008",
+      "person_id": "OV-P-013",
+      "depth_block_id": "DEPTH-V04-P013-001",
+      "title_ko": "마르부르크 성찬 회담",
+      "date_label": "1529",
+      "date_precision": "year",
+      "year_start": 1529,
+      "claim_id": "CLM-V04-L-010",
+      "source_ids": [
+        "SRC-V04-L-009",
+        "SRC-V04-L-010",
+        "SRC-V04-L-011"
+      ],
+      "canonical_event_id": "OV-E-018",
+      "decision": "REFERENCE_EXISTING_OVERVIEW_EVENT",
+      "relation_to_canonical": "SAME_HISTORICAL_OCCURRENCE",
+      "app_timeline_policy": "SHOW_OVERVIEW_ONLY_APPEND_DEPTH_IF_APPROVED",
+      "review_status": "DRAFT",
+      "publish": false
+    },
+    {
+      "deep_event_id": "DEEP-V04-E-009",
+      "person_id": "OV-P-013",
+      "depth_block_id": "DEPTH-V04-P013-001",
+      "title_ko": "아우크스부르크 신앙고백",
+      "date_label": "1530",
+      "date_precision": "year",
+      "year_start": 1530,
+      "claim_id": "CLM-V04-L-013",
+      "source_ids": [
+        "SRC-V04-L-001",
+        "SRC-V04-L-016"
+      ],
+      "canonical_event_id": "OV-E-019",
+      "decision": "REFERENCE_EXISTING_OVERVIEW_EVENT",
+      "relation_to_canonical": "SAME_HISTORICAL_OCCURRENCE",
+      "app_timeline_policy": "SHOW_OVERVIEW_ONLY_APPEND_DEPTH_IF_APPROVED",
+      "review_status": "DRAFT",
+      "publish": false
+    },
+    {
+      "deep_event_id": "DEEP-V04-E-010",
+      "person_id": "OV-P-013",
+      "depth_block_id": "DEPTH-V04-P013-001",
+      "title_ko": "독일어 성경 완역 출판",
+      "date_label": "1534",
+      "date_precision": "year",
+      "year_start": 1534,
+      "claim_id": "CLM-V04-L-008",
+      "source_ids": [
+        "SRC-V04-L-007",
+        "SRC-V04-L-008"
+      ],
+      "canonical_event_id": null,
+      "decision": "RESEARCH_ONLY_EVENT_CANDIDATE",
+      "relation_to_canonical": "NO_ASSUMED_EQUIVALENCE",
+      "app_timeline_policy": "DO_NOT_PUBLISH_UNREVIEWED_CANDIDATE",
+      "review_status": "DRAFT",
+      "publish": false
+    },
+    {
+      "deep_event_id": "DEEP-V04-E-011",
+      "person_id": "OV-P-013",
+      "depth_block_id": "DEPTH-V04-P013-001",
+      "title_ko": "반유대주의 논박 저술",
+      "date_label": "1543",
+      "date_precision": "year",
+      "year_start": 1543,
+      "claim_id": "CLM-V04-L-015",
+      "source_ids": [
+        "SRC-V04-L-014",
+        "SRC-V04-L-015"
+      ],
+      "canonical_event_id": null,
+      "decision": "RESEARCH_ONLY_EVENT_CANDIDATE",
+      "relation_to_canonical": "NO_ASSUMED_EQUIVALENCE",
+      "app_timeline_policy": "DO_NOT_PUBLISH_UNREVIEWED_CANDIDATE",
+      "review_status": "DRAFT",
+      "publish": false
+    },
+    {
+      "deep_event_id": "DEEP-V04-ZW-E-001",
+      "person_id": "OV-P-015",
+      "depth_block_id": "DEPTH-V04-P015-001",
+      "title_ko": "그로스뮌스터 설교 시작",
+      "date_label": "1519년 1월 1일",
+      "date_precision": "day",
+      "year_start": 1519,
+      "claim_id": "CLM-V04-ZW-001",
+      "source_ids": [
+        "SRC-V04-ZW-001"
+      ],
+      "canonical_event_id": null,
+      "decision": "RESEARCH_ONLY_EVENT_CANDIDATE",
+      "relation_to_canonical": "NO_ASSUMED_EQUIVALENCE",
+      "app_timeline_policy": "DO_NOT_PUBLISH_UNREVIEWED_CANDIDATE",
+      "review_status": "DRAFT",
+      "publish": false
+    },
+    {
+      "deep_event_id": "DEEP-V04-ZW-E-002",
+      "person_id": "OV-P-015",
+      "depth_block_id": "DEPTH-V04-P015-001",
+      "title_ko": "금식·소시지 논쟁",
+      "date_label": "1522년",
+      "date_precision": "year",
+      "year_start": 1522,
+      "claim_id": "CLM-V04-ZW-002",
+      "source_ids": [
+        "SRC-V04-ZW-001",
+        "SRC-V04-ZW-011"
+      ],
+      "canonical_event_id": null,
+      "decision": "RESEARCH_ONLY_EVENT_CANDIDATE",
+      "relation_to_canonical": "NO_ASSUMED_EQUIVALENCE",
+      "app_timeline_policy": "DO_NOT_PUBLISH_UNREVIEWED_CANDIDATE",
+      "review_status": "DRAFT",
+      "publish": false
+    },
+    {
+      "deep_event_id": "DEEP-V04-ZW-E-003",
+      "person_id": "OV-P-015",
+      "depth_block_id": "DEPTH-V04-P015-001",
+      "title_ko": "67개 조항과 첫 취리히 논쟁 — 날짜 차이 보류",
+      "date_label": "1523년 1월",
+      "date_precision": "approximate_period",
+      "year_start": 1523,
+      "claim_id": "CLM-V04-ZW-004",
+      "source_ids": [
+        "SRC-V04-ZW-001",
+        "SRC-V04-ZW-003"
+      ],
+      "canonical_event_id": null,
+      "decision": "RESEARCH_ONLY_EVENT_CANDIDATE",
+      "relation_to_canonical": "NO_ASSUMED_EQUIVALENCE",
+      "app_timeline_policy": "DO_NOT_PUBLISH_UNREVIEWED_CANDIDATE",
+      "review_status": "DRAFT",
+      "publish": false
+    },
+    {
+      "deep_event_id": "DEEP-V04-ZW-E-004",
+      "person_id": "OV-P-015",
+      "depth_block_id": "DEPTH-V04-P015-001",
+      "title_ko": "둘째 취리히 논쟁과 예배 이미지 문제",
+      "date_label": "1523년 10월",
+      "date_precision": "approximate_period",
+      "year_start": 1523,
+      "claim_id": "CLM-V04-ZW-005",
+      "source_ids": [
+        "SRC-V04-ZW-001",
+        "SRC-V04-ZW-002"
+      ],
+      "canonical_event_id": null,
+      "decision": "RESEARCH_ONLY_EVENT_CANDIDATE",
+      "relation_to_canonical": "NO_ASSUMED_EQUIVALENCE",
+      "app_timeline_policy": "DO_NOT_PUBLISH_UNREVIEWED_CANDIDATE",
+      "review_status": "DRAFT",
+      "publish": false
+    },
+    {
+      "deep_event_id": "DEEP-V04-ZW-E-005",
+      "person_id": "OV-P-015",
+      "depth_block_id": "DEPTH-V04-P015-001",
+      "title_ko": "재세례파와 제도 갈등",
+      "date_label": "1525년",
+      "date_precision": "year",
+      "year_start": 1525,
+      "claim_id": "CLM-V04-ZW-006",
+      "source_ids": [
+        "SRC-V04-ZW-001",
+        "SRC-V04-ZW-007"
+      ],
+      "canonical_event_id": null,
+      "decision": "RESEARCH_ONLY_EVENT_CANDIDATE",
+      "relation_to_canonical": "NO_ASSUMED_EQUIVALENCE",
+      "app_timeline_policy": "DO_NOT_PUBLISH_UNREVIEWED_CANDIDATE",
+      "review_status": "DRAFT",
+      "publish": false
+    },
+    {
+      "deep_event_id": "DEEP-V04-ZW-E-006",
+      "person_id": "OV-P-015",
+      "depth_block_id": "DEPTH-V04-P015-001",
+      "title_ko": "펠릭스 만츠 처형",
+      "date_label": "1527년 1월 5일",
+      "date_precision": "day",
+      "year_start": 1527,
+      "claim_id": "CLM-V04-ZW-006",
+      "source_ids": [
+        "SRC-V04-ZW-001",
+        "SRC-V04-ZW-007"
+      ],
+      "canonical_event_id": null,
+      "decision": "RESEARCH_ONLY_EVENT_CANDIDATE",
+      "relation_to_canonical": "NO_ASSUMED_EQUIVALENCE",
+      "app_timeline_policy": "DO_NOT_PUBLISH_UNREVIEWED_CANDIDATE",
+      "review_status": "DRAFT",
+      "publish": false
+    },
+    {
+      "deep_event_id": "DEEP-V04-ZW-E-007",
+      "person_id": "OV-P-015",
+      "depth_block_id": "DEPTH-V04-P015-001",
+      "title_ko": "마르부르크 성찬 회담",
+      "date_label": "1529년",
+      "date_precision": "year",
+      "year_start": 1529,
+      "claim_id": "CLM-V04-ZW-009",
+      "source_ids": [
+        "SRC-V04-ZW-004",
+        "SRC-V04-ZW-005",
+        "SRC-V04-ZW-006"
+      ],
+      "canonical_event_id": "OV-E-018",
+      "decision": "REFERENCE_EXISTING_OVERVIEW_EVENT",
+      "relation_to_canonical": "SAME_HISTORICAL_OCCURRENCE",
+      "app_timeline_policy": "SHOW_OVERVIEW_ONLY_APPEND_DEPTH_IF_APPROVED",
+      "review_status": "DRAFT",
+      "publish": false
+    },
+    {
+      "deep_event_id": "DEEP-V04-ZW-E-008",
+      "person_id": "OV-P-015",
+      "depth_block_id": "DEPTH-V04-P015-001",
+      "title_ko": "첫 카펠 갈등",
+      "date_label": "1529년",
+      "date_precision": "year",
+      "year_start": 1529,
+      "claim_id": "CLM-V04-ZW-010",
+      "source_ids": [
+        "SRC-V04-ZW-001",
+        "SRC-V04-ZW-008",
+        "SRC-V04-ZW-009"
+      ],
+      "canonical_event_id": null,
+      "decision": "RESEARCH_ONLY_EVENT_CANDIDATE",
+      "relation_to_canonical": "NO_ASSUMED_EQUIVALENCE",
+      "app_timeline_policy": "DO_NOT_PUBLISH_UNREVIEWED_CANDIDATE",
+      "review_status": "DRAFT",
+      "publish": false
+    },
+    {
+      "deep_event_id": "DEEP-V04-ZW-E-009",
+      "person_id": "OV-P-015",
+      "depth_block_id": "DEPTH-V04-P015-001",
+      "title_ko": "두 번째 카펠 전투·츠빙글리 사망",
+      "date_label": "1531년 10월 11일",
+      "date_precision": "day",
+      "year_start": 1531,
+      "claim_id": "CLM-V04-ZW-010",
+      "source_ids": [
+        "SRC-V04-ZW-001",
+        "SRC-V04-ZW-008",
+        "SRC-V04-ZW-009"
+      ],
+      "canonical_event_id": null,
+      "decision": "RESEARCH_ONLY_EVENT_CANDIDATE",
+      "relation_to_canonical": "NO_ASSUMED_EQUIVALENCE",
+      "app_timeline_policy": "DO_NOT_PUBLISH_UNREVIEWED_CANDIDATE",
+      "review_status": "DRAFT",
+      "publish": false
+    },
+    {
+      "deep_event_id": "DEEP-V04-ME-E-001",
+      "person_id": "OV-P-014",
+      "depth_block_id": "DEPTH-V04-P014-001",
+      "title_ko": "브레텐 출생",
+      "date_label": "1497년 2월 16일",
+      "date_precision": "day",
+      "year_start": 1497,
+      "claim_id": "CLM-V04-ME-001",
+      "source_ids": [
+        "SRC-V04-ME-001",
+        "SRC-V04-ME-002",
+        "SRC-V04-ME-016"
+      ],
+      "canonical_event_id": null,
+      "decision": "RESEARCH_ONLY_EVENT_CANDIDATE",
+      "relation_to_canonical": "NO_ASSUMED_EQUIVALENCE",
+      "app_timeline_policy": "DO_NOT_PUBLISH_UNREVIEWED_CANDIDATE",
+      "review_status": "DRAFT",
+      "publish": false
+    },
+    {
+      "deep_event_id": "DEEP-V04-ME-E-002",
+      "person_id": "OV-P-014",
+      "depth_block_id": "DEPTH-V04-P014-001",
+      "title_ko": "비텐베르크 대학 부임 및 인문주의 교육개혁 연설",
+      "date_label": "1518년 8월경",
+      "date_precision": "approximate_period",
+      "year_start": 1518,
+      "claim_id": "CLM-V04-ME-002",
+      "source_ids": [
+        "SRC-V04-ME-002",
+        "SRC-V04-ME-003"
+      ],
+      "canonical_event_id": null,
+      "decision": "RESEARCH_ONLY_EVENT_CANDIDATE",
+      "relation_to_canonical": "NO_ASSUMED_EQUIVALENCE",
+      "app_timeline_policy": "DO_NOT_PUBLISH_UNREVIEWED_CANDIDATE",
+      "review_status": "DRAFT",
+      "publish": false
+    },
+    {
+      "deep_event_id": "DEEP-V04-ME-E-003",
+      "person_id": "OV-P-014",
+      "depth_block_id": "DEPTH-V04-P014-001",
+      "title_ko": "『Loci communes』 초판 출판",
+      "date_label": "1521년",
+      "date_precision": "year",
+      "year_start": 1521,
+      "claim_id": "CLM-V04-ME-004",
+      "source_ids": [
+        "SRC-V04-ME-013",
+        "SRC-V04-ME-017",
+        "SRC-V04-ME-015"
+      ],
+      "canonical_event_id": null,
+      "decision": "RESEARCH_ONLY_EVENT_CANDIDATE",
+      "relation_to_canonical": "NO_ASSUMED_EQUIVALENCE",
+      "app_timeline_policy": "DO_NOT_PUBLISH_UNREVIEWED_CANDIDATE",
+      "review_status": "DRAFT",
+      "publish": false
+    },
+    {
+      "deep_event_id": "DEEP-V04-ME-E-004",
+      "person_id": "OV-P-014",
+      "depth_block_id": "DEPTH-V04-P014-001",
+      "title_ko": "작센 교회 시찰·교육개혁",
+      "date_label": "1528년경",
+      "date_precision": "approximate_year",
+      "year_start": 1528,
+      "claim_id": "CLM-V04-ME-006",
+      "source_ids": [
+        "SRC-V04-ME-009",
+        "SRC-V04-ME-012",
+        "SRC-V04-ME-002"
+      ],
+      "canonical_event_id": null,
+      "decision": "RESEARCH_ONLY_EVENT_CANDIDATE",
+      "relation_to_canonical": "NO_ASSUMED_EQUIVALENCE",
+      "app_timeline_policy": "DO_NOT_PUBLISH_UNREVIEWED_CANDIDATE",
+      "review_status": "DRAFT",
+      "publish": false
+    },
+    {
+      "deep_event_id": "DEEP-V04-ME-E-005",
+      "person_id": "OV-P-014",
+      "depth_block_id": "DEPTH-V04-P014-001",
+      "title_ko": "아우크스부르크 신앙고백 공적 제출·낭독",
+      "date_label": "1530년 6월 25일",
+      "date_precision": "day",
+      "year_start": 1530,
+      "claim_id": "CLM-V04-ME-007",
+      "source_ids": [
+        "SRC-V04-ME-001",
+        "SRC-V04-ME-004",
+        "SRC-V04-ME-006"
+      ],
+      "canonical_event_id": "OV-E-019",
+      "decision": "REFERENCE_EXISTING_OVERVIEW_EVENT",
+      "relation_to_canonical": "SAME_HISTORICAL_OCCURRENCE",
+      "app_timeline_policy": "SHOW_OVERVIEW_ONLY_APPEND_DEPTH_IF_APPROVED",
+      "review_status": "DRAFT",
+      "publish": false
+    },
+    {
+      "deep_event_id": "DEEP-V04-ME-E-006",
+      "person_id": "OV-P-014",
+      "depth_block_id": "DEPTH-V04-P014-001",
+      "title_ko": "『아우크스부르크 신앙고백 변증서』",
+      "date_label": "1531년",
+      "date_precision": "year",
+      "year_start": 1531,
+      "claim_id": "CLM-V04-ME-009",
+      "source_ids": [
+        "SRC-V04-ME-005",
+        "SRC-V04-ME-013"
+      ],
+      "canonical_event_id": null,
+      "decision": "RESEARCH_ONLY_EVENT_CANDIDATE",
+      "relation_to_canonical": "NO_ASSUMED_EQUIVALENCE",
+      "app_timeline_policy": "DO_NOT_PUBLISH_UNREVIEWED_CANDIDATE",
+      "review_status": "DRAFT",
+      "publish": false
+    },
+    {
+      "deep_event_id": "DEEP-V04-ME-E-007",
+      "person_id": "OV-P-014",
+      "depth_block_id": "DEPTH-V04-P014-001",
+      "title_ko": "비텐베르크 합의",
+      "date_label": "1536년",
+      "date_precision": "year",
+      "year_start": 1536,
+      "claim_id": "CLM-V04-ME-010",
+      "source_ids": [
+        "SRC-V04-ME-009",
+        "SRC-V04-ME-001"
+      ],
+      "canonical_event_id": null,
+      "decision": "RESEARCH_ONLY_EVENT_CANDIDATE",
+      "relation_to_canonical": "NO_ASSUMED_EQUIVALENCE",
+      "app_timeline_policy": "DO_NOT_PUBLISH_UNREVIEWED_CANDIDATE",
+      "review_status": "DRAFT",
+      "publish": false
+    },
+    {
+      "deep_event_id": "DEEP-V04-ME-E-008",
+      "person_id": "OV-P-014",
+      "depth_block_id": "DEPTH-V04-P014-001",
+      "title_ko": "아우크스부르크 신앙고백 개정판(Variata)",
+      "date_label": "1540년",
+      "date_precision": "year",
+      "year_start": 1540,
+      "claim_id": "CLM-V04-ME-011",
+      "source_ids": [
+        "SRC-V04-ME-007",
+        "SRC-V04-ME-015"
+      ],
+      "canonical_event_id": null,
+      "decision": "RESEARCH_ONLY_EVENT_CANDIDATE",
+      "relation_to_canonical": "NO_ASSUMED_EQUIVALENCE",
+      "app_timeline_policy": "DO_NOT_PUBLISH_UNREVIEWED_CANDIDATE",
+      "review_status": "DRAFT",
+      "publish": false
+    },
+    {
+      "deep_event_id": "DEEP-V04-ME-E-009",
+      "person_id": "OV-P-014",
+      "depth_block_id": "DEPTH-V04-P014-001",
+      "title_ko": "루터 사망과 멜란히톤의 주요 대표 역할",
+      "date_label": "1546년",
+      "date_precision": "year",
+      "year_start": 1546,
+      "claim_id": "CLM-V04-ME-015",
+      "source_ids": [
+        "SRC-V04-ME-013",
+        "SRC-V04-ME-010",
+        "SRC-V04-ME-015"
+      ],
+      "canonical_event_id": null,
+      "decision": "RESEARCH_ONLY_EVENT_CANDIDATE",
+      "relation_to_canonical": "NO_ASSUMED_EQUIVALENCE",
+      "app_timeline_policy": "DO_NOT_PUBLISH_UNREVIEWED_CANDIDATE",
+      "review_status": "DRAFT",
+      "publish": false
+    },
+    {
+      "deep_event_id": "DEEP-V04-ME-E-010",
+      "person_id": "OV-P-014",
+      "depth_block_id": "DEPTH-V04-P014-001",
+      "title_ko": "라이프치히 중간협약을 둘러싼 논쟁",
+      "date_label": "1548년 12월경",
+      "date_precision": "approximate_period",
+      "year_start": 1548,
+      "claim_id": "CLM-V04-ME-012",
+      "source_ids": [
+        "SRC-V04-ME-010",
+        "SRC-V04-ME-011"
+      ],
+      "canonical_event_id": null,
+      "decision": "RESEARCH_ONLY_EVENT_CANDIDATE",
+      "relation_to_canonical": "NO_ASSUMED_EQUIVALENCE",
+      "app_timeline_policy": "DO_NOT_PUBLISH_UNREVIEWED_CANDIDATE",
+      "review_status": "DRAFT",
+      "publish": false
+    },
+    {
+      "deep_event_id": "DEEP-V04-ME-E-011",
+      "person_id": "OV-P-014",
+      "depth_block_id": "DEPTH-V04-P014-001",
+      "title_ko": "비텐베르크에서 사망",
+      "date_label": "1560년 4월 19일",
+      "date_precision": "day",
+      "year_start": 1560,
+      "claim_id": "CLM-V04-ME-016",
+      "source_ids": [
+        "SRC-V04-ME-002",
+        "SRC-V04-ME-008"
+      ],
+      "canonical_event_id": null,
+      "decision": "RESEARCH_ONLY_EVENT_CANDIDATE",
+      "relation_to_canonical": "NO_ASSUMED_EQUIVALENCE",
+      "app_timeline_policy": "DO_NOT_PUBLISH_UNREVIEWED_CANDIDATE",
+      "review_status": "DRAFT",
+      "publish": false
+    },
+    {
+      "deep_event_id": "DEEP-V04-CA-E-001",
+      "person_id": "OV-P-016",
+      "depth_block_id": "DEPTH-V04-P016-001",
+      "title_ko": "프랑스 누아용 출생",
+      "date_label": "1509년 7월 10일",
+      "date_precision": "day",
+      "year_start": 1509,
+      "claim_id": "CLM-V04-CA-001",
+      "source_ids": [
+        "SRC-V04-CA-001",
+        "SRC-V04-CA-011"
+      ],
+      "canonical_event_id": null,
+      "decision": "RESEARCH_ONLY_EVENT_CANDIDATE",
+      "relation_to_canonical": "NO_ASSUMED_EQUIVALENCE",
+      "app_timeline_policy": "DO_NOT_PUBLISH_UNREVIEWED_CANDIDATE",
+      "review_status": "DRAFT",
+      "publish": false
+    },
+    {
+      "deep_event_id": "DEEP-V04-CA-E-002",
+      "person_id": "OV-P-016",
+      "depth_block_id": "DEPTH-V04-P016-001",
+      "title_ko": "바젤에서 『기독교강요』 초판 출판",
+      "date_label": "1536년",
+      "date_precision": "year",
+      "year_start": 1536,
+      "claim_id": "CLM-V04-CA-002",
+      "source_ids": [
+        "SRC-V04-CA-004",
+        "SRC-V04-CA-005",
+        "SRC-V04-CA-014"
+      ],
+      "canonical_event_id": "OV-E-020",
+      "decision": "REFERENCE_EXISTING_OVERVIEW_EVENT",
+      "relation_to_canonical": "SAME_HISTORICAL_OCCURRENCE",
+      "app_timeline_policy": "SHOW_OVERVIEW_ONLY_APPEND_DEPTH_IF_APPROVED",
+      "review_status": "DRAFT",
+      "publish": false
+    },
+    {
+      "deep_event_id": "DEEP-V04-CA-E-003",
+      "person_id": "OV-P-016",
+      "depth_block_id": "DEPTH-V04-P016-001",
+      "title_ko": "파렐의 요청으로 제네바 개혁 합류",
+      "date_label": "1536년",
+      "date_precision": "year",
+      "year_start": 1536,
+      "claim_id": "CLM-V04-CA-004",
+      "source_ids": [
+        "SRC-V04-CA-001",
+        "SRC-V04-CA-011",
+        "SRC-V04-CA-016"
+      ],
+      "canonical_event_id": null,
+      "decision": "RESEARCH_ONLY_EVENT_CANDIDATE",
+      "relation_to_canonical": "NO_ASSUMED_EQUIVALENCE",
+      "app_timeline_policy": "DO_NOT_PUBLISH_UNREVIEWED_CANDIDATE",
+      "review_status": "DRAFT",
+      "publish": false
+    },
+    {
+      "deep_event_id": "DEEP-V04-CA-E-004",
+      "person_id": "OV-P-016",
+      "depth_block_id": "DEPTH-V04-P016-001",
+      "title_ko": "제네바 추방, 슈트라스부르 목회 시작",
+      "date_label": "1538년",
+      "date_precision": "year",
+      "year_start": 1538,
+      "claim_id": "CLM-V04-CA-004",
+      "source_ids": [
+        "SRC-V04-CA-001",
+        "SRC-V04-CA-011",
+        "SRC-V04-CA-016"
+      ],
+      "canonical_event_id": null,
+      "decision": "RESEARCH_ONLY_EVENT_CANDIDATE",
+      "relation_to_canonical": "NO_ASSUMED_EQUIVALENCE",
+      "app_timeline_policy": "DO_NOT_PUBLISH_UNREVIEWED_CANDIDATE",
+      "review_status": "DRAFT",
+      "publish": false
+    },
+    {
+      "deep_event_id": "DEEP-V04-CA-E-005",
+      "person_id": "OV-P-016",
+      "depth_block_id": "DEPTH-V04-P016-001",
+      "title_ko": "제네바 귀환과 교회규정 제정",
+      "date_label": "1541년",
+      "date_precision": "year",
+      "year_start": 1541,
+      "claim_id": "CLM-V04-CA-006",
+      "source_ids": [
+        "SRC-V04-CA-002",
+        "SRC-V04-CA-003"
+      ],
+      "canonical_event_id": null,
+      "decision": "RESEARCH_ONLY_EVENT_CANDIDATE",
+      "relation_to_canonical": "NO_ASSUMED_EQUIVALENCE",
+      "app_timeline_policy": "DO_NOT_PUBLISH_UNREVIEWED_CANDIDATE",
+      "review_status": "DRAFT",
+      "publish": false
+    },
+    {
+      "deep_event_id": "DEEP-V04-CA-E-006",
+      "person_id": "OV-P-016",
+      "depth_block_id": "DEPTH-V04-P016-001",
+      "title_ko": "『기독교강요』 첫 프랑스어판",
+      "date_label": "1541년",
+      "date_precision": "year",
+      "year_start": 1541,
+      "claim_id": "CLM-V04-CA-003",
+      "source_ids": [
+        "SRC-V04-CA-001",
+        "SRC-V04-CA-005",
+        "SRC-V04-CA-014"
+      ],
+      "canonical_event_id": null,
+      "decision": "RESEARCH_ONLY_EVENT_CANDIDATE",
+      "relation_to_canonical": "NO_ASSUMED_EQUIVALENCE",
+      "app_timeline_policy": "DO_NOT_PUBLISH_UNREVIEWED_CANDIDATE",
+      "review_status": "DRAFT",
+      "publish": false
+    },
+    {
+      "deep_event_id": "DEEP-V04-CA-E-007",
+      "person_id": "OV-P-016",
+      "depth_block_id": "DEPTH-V04-P016-001",
+      "title_ko": "칼뱅·불링거 취리히 성찬 합의",
+      "date_label": "1549년",
+      "date_precision": "year",
+      "year_start": 1549,
+      "claim_id": "CLM-V04-CA-010",
+      "source_ids": [
+        "SRC-V04-CA-006",
+        "SRC-V04-CA-007",
+        "SRC-V04-CA-008"
+      ],
+      "canonical_event_id": null,
+      "decision": "RESEARCH_ONLY_EVENT_CANDIDATE",
+      "relation_to_canonical": "NO_ASSUMED_EQUIVALENCE",
+      "app_timeline_policy": "DO_NOT_PUBLISH_UNREVIEWED_CANDIDATE",
+      "review_status": "DRAFT",
+      "publish": false
+    },
+    {
+      "deep_event_id": "DEEP-V04-CA-E-008",
+      "person_id": "OV-P-016",
+      "depth_block_id": "DEPTH-V04-P016-001",
+      "title_ko": "세르베투스 처형 — 제네바 시정부 사법 사건",
+      "date_label": "1553년 10월 27일",
+      "date_precision": "day",
+      "year_start": 1553,
+      "claim_id": "CLM-V04-CA-011",
+      "source_ids": [
+        "SRC-V04-CA-009",
+        "SRC-V04-CA-010"
+      ],
+      "canonical_event_id": null,
+      "decision": "RESEARCH_ONLY_EVENT_CANDIDATE",
+      "relation_to_canonical": "NO_ASSUMED_EQUIVALENCE",
+      "app_timeline_policy": "DO_NOT_PUBLISH_UNREVIEWED_CANDIDATE",
+      "review_status": "DRAFT",
+      "publish": false
+    },
+    {
+      "deep_event_id": "DEEP-V04-CA-E-009",
+      "person_id": "OV-P-016",
+      "depth_block_id": "DEPTH-V04-P016-001",
+      "title_ko": "『기독교강요』 최종 라틴어판(4권·80장)",
+      "date_label": "1559년",
+      "date_precision": "year",
+      "year_start": 1559,
+      "claim_id": "CLM-V04-CA-002",
+      "source_ids": [
+        "SRC-V04-CA-004",
+        "SRC-V04-CA-005",
+        "SRC-V04-CA-014"
+      ],
+      "canonical_event_id": null,
+      "decision": "RESEARCH_ONLY_EVENT_CANDIDATE",
+      "relation_to_canonical": "NO_ASSUMED_EQUIVALENCE",
+      "app_timeline_policy": "DO_NOT_PUBLISH_UNREVIEWED_CANDIDATE",
+      "review_status": "DRAFT",
+      "publish": false
+    },
+    {
+      "deep_event_id": "DEEP-V04-CA-E-010",
+      "person_id": "OV-P-016",
+      "depth_block_id": "DEPTH-V04-P016-001",
+      "title_ko": "제네바 아카데미 개교",
+      "date_label": "1559년",
+      "date_precision": "year",
+      "year_start": 1559,
+      "claim_id": "CLM-V04-CA-014",
+      "source_ids": [
+        "SRC-V04-CA-012",
+        "SRC-V04-CA-014"
+      ],
+      "canonical_event_id": null,
+      "decision": "RESEARCH_ONLY_EVENT_CANDIDATE",
+      "relation_to_canonical": "NO_ASSUMED_EQUIVALENCE",
+      "app_timeline_policy": "DO_NOT_PUBLISH_UNREVIEWED_CANDIDATE",
+      "review_status": "DRAFT",
+      "publish": false
+    },
+    {
+      "deep_event_id": "DEEP-V04-CA-E-011",
+      "person_id": "OV-P-016",
+      "depth_block_id": "DEPTH-V04-P016-001",
+      "title_ko": "『기독교강요』 후기 프랑스어판",
+      "date_label": "1560년",
+      "date_precision": "year",
+      "year_start": 1560,
+      "claim_id": "CLM-V04-CA-003",
+      "source_ids": [
+        "SRC-V04-CA-001",
+        "SRC-V04-CA-005",
+        "SRC-V04-CA-014"
+      ],
+      "canonical_event_id": null,
+      "decision": "RESEARCH_ONLY_EVENT_CANDIDATE",
+      "relation_to_canonical": "NO_ASSUMED_EQUIVALENCE",
+      "app_timeline_policy": "DO_NOT_PUBLISH_UNREVIEWED_CANDIDATE",
+      "review_status": "DRAFT",
+      "publish": false
+    },
+    {
+      "deep_event_id": "DEEP-V04-CA-E-012",
+      "person_id": "OV-P-016",
+      "depth_block_id": "DEPTH-V04-P016-001",
+      "title_ko": "제네바에서 사망",
+      "date_label": "1564년 5월 27일",
+      "date_precision": "day",
+      "year_start": 1564,
+      "claim_id": "CLM-V04-CA-016",
+      "source_ids": [
+        "SRC-V04-CA-001",
+        "SRC-V04-CA-012",
+        "SRC-V04-CA-014"
+      ],
+      "canonical_event_id": null,
+      "decision": "RESEARCH_ONLY_EVENT_CANDIDATE",
+      "relation_to_canonical": "NO_ASSUMED_EQUIVALENCE",
+      "app_timeline_policy": "DO_NOT_PUBLISH_UNREVIEWED_CANDIDATE",
+      "review_status": "DRAFT",
+      "publish": false
+    }
+  ],
+  "document_witness_proposals": [
+    {
+      "proposal_id": "DOC-PROP-V04-001",
+      "title_ko": "마르부르크 15개 조항",
+      "overview_work_id": null,
+      "witness_role": "distinct_primary_witness",
+      "year_start": 1529,
+      "source_ids": [
+        "SRC-V04-L-011",
+        "SRC-V04-ZW-006"
+      ],
+      "related_event_ids": [
+        "OV-E-018"
+      ],
+      "approval": "DRAFT",
+      "create_canonical_record": false,
+      "full_text_included": false,
+      "publish": false
+    },
+    {
+      "proposal_id": "DOC-PROP-V04-002",
+      "title_ko": "오지안더의 마르부르크 보고",
+      "overview_work_id": null,
+      "witness_role": "party_eyewitness_report",
+      "year_start": 1529,
+      "source_ids": [
+        "SRC-V04-L-009",
+        "SRC-V04-ZW-005"
+      ],
+      "related_event_ids": [
+        "OV-E-018"
+      ],
+      "approval": "DRAFT",
+      "create_canonical_record": false,
+      "full_text_included": false,
+      "publish": false
+    },
+    {
+      "proposal_id": "DOC-PROP-V04-003",
+      "title_ko": "츠빙글리의 마르부르크 보고",
+      "overview_work_id": null,
+      "witness_role": "party_eyewitness_report",
+      "year_start": 1529,
+      "source_ids": [
+        "SRC-V04-L-010",
+        "SRC-V04-ZW-004"
+      ],
+      "related_event_ids": [
+        "OV-E-018"
+      ],
+      "approval": "DRAFT",
+      "create_canonical_record": false,
+      "full_text_included": false,
+      "publish": false
+    },
+    {
+      "proposal_id": "DOC-PROP-V04-004",
+      "title_ko": "츠빙글리 67개 조항",
+      "overview_work_id": null,
+      "witness_role": "original_print_catalogue",
+      "year_start": 1523,
+      "source_ids": [
+        "SRC-V04-ZW-003"
+      ],
+      "related_event_ids": [],
+      "approval": "DRAFT",
+      "create_canonical_record": false,
+      "full_text_included": false,
+      "publish": false
+    },
+    {
+      "proposal_id": "DOC-PROP-V04-005",
+      "title_ko": "멜란히톤 『Loci communes』",
+      "overview_work_id": null,
+      "witness_role": "independent_work",
+      "year_start": 1521,
+      "source_ids": [
+        "SRC-V04-ME-013",
+        "SRC-V04-ME-017"
+      ],
+      "related_event_ids": [],
+      "approval": "DRAFT",
+      "create_canonical_record": false,
+      "full_text_included": false,
+      "publish": false
+    },
+    {
+      "proposal_id": "DOC-PROP-V04-006",
+      "title_ko": "제네바 교회규정",
+      "overview_work_id": null,
+      "witness_role": "independent_work",
+      "year_start": 1541,
+      "source_ids": [
+        "SRC-V04-CA-002"
+      ],
+      "related_event_ids": [],
+      "approval": "DRAFT",
+      "create_canonical_record": false,
+      "full_text_included": false,
+      "publish": false
+    },
+    {
+      "proposal_id": "DOC-PROP-V04-007",
+      "title_ko": "1549 취리히 합의",
+      "overview_work_id": null,
+      "witness_role": "independent_work",
+      "year_start": 1549,
+      "source_ids": [
+        "SRC-V04-CA-006",
+        "SRC-V04-CA-008"
+      ],
+      "related_event_ids": [],
+      "approval": "DRAFT",
+      "create_canonical_record": false,
+      "full_text_included": false,
+      "publish": false
+    },
+    {
+      "proposal_id": "DOC-PROP-V04-008",
+      "title_ko": "루터 독일어 신약 출판",
+      "overview_work_id": null,
+      "witness_role": "independent_work",
+      "year_start": 1522,
+      "source_ids": [
+        "SRC-V04-L-007"
+      ],
+      "related_event_ids": [],
+      "approval": "DRAFT",
+      "create_canonical_record": false,
+      "full_text_included": false,
+      "publish": false
+    },
+    {
+      "proposal_id": "DOC-PROP-V04-009",
+      "title_ko": "루터 독일어 성경 완역본",
+      "overview_work_id": null,
+      "witness_role": "independent_work",
+      "year_start": 1534,
+      "source_ids": [
+        "SRC-V04-L-008"
+      ],
+      "related_event_ids": [],
+      "approval": "DRAFT",
+      "create_canonical_record": false,
+      "full_text_included": false,
+      "publish": false
+    },
+    {
+      "proposal_id": "EDN-PROP-V04-001",
+      "title_ko": "1530 아우크스부르크 제출 문안",
+      "overview_work_id": "OV-D-011",
+      "witness_role": "work_edition",
+      "year_start": 1530,
+      "source_ids": [
+        "SRC-V04-ME-004",
+        "SRC-V04-ME-006"
+      ],
+      "related_event_ids": [
+        "OV-E-019"
+      ],
+      "approval": "DRAFT",
+      "create_canonical_record": false,
+      "full_text_included": false,
+      "publish": false
+    },
+    {
+      "proposal_id": "EDN-PROP-V04-002",
+      "title_ko": "1531 아우크스부르크 신앙고백 초판 인쇄본",
+      "overview_work_id": "OV-D-011",
+      "witness_role": "work_edition",
+      "year_start": 1531,
+      "source_ids": [
+        "SRC-V04-ME-007"
+      ],
+      "related_event_ids": [
+        "OV-E-019"
+      ],
+      "approval": "DRAFT",
+      "create_canonical_record": false,
+      "full_text_included": false,
+      "publish": false
+    },
+    {
+      "proposal_id": "EDN-PROP-V04-003",
+      "title_ko": "1540 아우크스부르크 신앙고백 Variata",
+      "overview_work_id": "OV-D-011",
+      "witness_role": "work_edition",
+      "year_start": 1540,
+      "source_ids": [
+        "SRC-V04-ME-007"
+      ],
+      "related_event_ids": [],
+      "approval": "DRAFT",
+      "create_canonical_record": false,
+      "full_text_included": false,
+      "publish": false
+    },
+    {
+      "proposal_id": "EDN-PROP-V04-004",
+      "title_ko": "1536 『기독교강요』 라틴어 초판",
+      "overview_work_id": "OV-D-012",
+      "witness_role": "work_edition",
+      "year_start": 1536,
+      "source_ids": [
+        "SRC-V04-CA-004",
+        "SRC-V04-CA-005"
+      ],
+      "related_event_ids": [
+        "OV-E-020"
+      ],
+      "approval": "DRAFT",
+      "create_canonical_record": false,
+      "full_text_included": false,
+      "publish": false
+    },
+    {
+      "proposal_id": "EDN-PROP-V04-005",
+      "title_ko": "1559 『기독교강요』 라틴어 최종판",
+      "overview_work_id": "OV-D-012",
+      "witness_role": "work_edition",
+      "year_start": 1559,
+      "source_ids": [
+        "SRC-V04-CA-004",
+        "SRC-V04-CA-005"
+      ],
+      "related_event_ids": [],
+      "approval": "DRAFT",
+      "create_canonical_record": false,
+      "full_text_included": false,
+      "publish": false
+    },
+    {
+      "proposal_id": "EDN-PROP-V04-006",
+      "title_ko": "1541 『기독교강요』 첫 프랑스어판",
+      "overview_work_id": "OV-D-012",
+      "witness_role": "work_translation_edition",
+      "year_start": 1541,
+      "source_ids": [
+        "SRC-V04-CA-001",
+        "SRC-V04-CA-005"
+      ],
+      "related_event_ids": [],
+      "approval": "DRAFT",
+      "create_canonical_record": false,
+      "full_text_included": false,
+      "publish": false
+    },
+    {
+      "proposal_id": "EDN-PROP-V04-007",
+      "title_ko": "1560 『기독교강요』 후기 프랑스어판",
+      "overview_work_id": "OV-D-012",
+      "witness_role": "work_translation_edition",
+      "year_start": 1560,
+      "source_ids": [
+        "SRC-V04-CA-014"
+      ],
+      "related_event_ids": [],
+      "approval": "DRAFT",
+      "create_canonical_record": false,
+      "full_text_included": false,
+      "publish": false
+    },
+    {
+      "proposal_id": "DOC-PROP-V04-010",
+      "title_ko": "1531 아우크스부르크 신앙고백 변증서",
+      "overview_work_id": null,
+      "witness_role": "independent_work_not_same_as_confession",
+      "year_start": 1531,
+      "source_ids": [
+        "SRC-V04-ME-005"
+      ],
+      "related_event_ids": [
+        "OV-E-019"
+      ],
+      "approval": "DRAFT",
+      "create_canonical_record": false,
+      "full_text_included": false,
+      "publish": false
+    }
+  ],
+  "proposed_relations": [
+    {
+      "proposal_id": "REL-PROP-V04-001",
+      "from_id": "OV-P-014",
+      "to_id": "OV-E-018",
+      "type": "historical_participant",
+      "source_ids": [
+        "SRC-V04-L-011",
+        "SRC-V04-ZW-006"
+      ],
+      "claim_ids": [
+        "CLM-V04-L-012",
+        "CLM-V04-ZW-009"
+      ],
+      "review_status": "CANDIDATE_STRONG_NEEDS_EDITORIAL_APPROVAL",
+      "note_ko": "마르부르크 조항에 멜란히톤 서명. 일차 목격 보고에도 참석·논쟁 확인; 기존 OV-R-012/013과 보완 관계",
+      "create_ov_r_now": false,
+      "publish": false
+    },
+    {
+      "proposal_id": "REL-PROP-V04-002",
+      "from_id": "OV-P-016",
+      "to_id": "OV-P-014",
+      "type": "historical_contact",
+      "source_ids": [
+        "SRC-V04-CA-013"
+      ],
+      "claim_ids": [
+        "CLM-V04-CA-015"
+      ],
+      "review_status": "HOLD_SOURCE_COUNTERCHECK",
+      "note_ko": "칼뱅–멜란히톤의 1539년 교류; 동시대 서신 및 도시 행사 기록으로 재검증 후 반영",
+      "create_ov_r_now": false,
+      "publish": false
+    }
+  ],
+  "shared_source_aliases": [
+    {
+      "label": "1529_LUTHERAN_EYEWITNESS",
+      "registrations": [
+        "SRC-V04-L-009",
+        "SRC-V04-ZW-005"
+      ],
+      "canonicalization": "SAME_DOCUMENT_DIFFERENT_RESEARCH_REGISTRATION"
+    },
+    {
+      "label": "1529_ZWINGLI_EYEWITNESS",
+      "registrations": [
+        "SRC-V04-L-010",
+        "SRC-V04-ZW-004"
+      ],
+      "canonicalization": "SAME_DOCUMENT_DIFFERENT_RESEARCH_REGISTRATION"
+    },
+    {
+      "label": "1529_MARBURG_ARTICLES",
+      "registrations": [
+        "SRC-V04-L-011",
+        "SRC-V04-ZW-006"
+      ],
+      "canonicalization": "SAME_DOCUMENT_DIFFERENT_RESEARCH_REGISTRATION"
+    }
+  ],
+  "scholarly_holds": [
+    {
+      "id": "HOLD-V04-01",
+      "issue": "1517 church-door posting not asserted as certain",
+      "refs": [
+        "CLM-V04-L-002"
+      ],
+      "action": "NO_AUTHENTIC_POSTING_SCENE"
+    },
+    {
+      "id": "HOLD-V04-02",
+      "issue": "1518 Melanchthon inaugural 28 vs 29 August",
+      "refs": [
+        "CLM-V04-ME-002"
+      ],
+      "action": "KEEP_1518_AUGUST_APPROXIMATE"
+    },
+    {
+      "id": "HOLD-V04-03",
+      "issue": "1523 Zurich first disputation 27 vs 29 January",
+      "refs": [
+        "CLM-V04-ZW-004"
+      ],
+      "action": "KEEP_1523_JANUARY_APPROXIMATE"
+    },
+    {
+      "id": "HOLD-V04-04",
+      "issue": "1527 Felix Manz death not the Schleitheim Confession event OV-E-017",
+      "refs": [
+        "OV-E-017",
+        "DEEP-V04-ZW-E-006"
+      ],
+      "action": "PROHIBIT_AUTO_MERGE"
+    },
+    {
+      "id": "HOLD-V04-05",
+      "issue": "1530 Augsburg original, 1531 print, 1540 Variata are different textual witnesses",
+      "refs": [
+        "OV-D-011",
+        "CLM-V04-ME-011"
+      ],
+      "action": "LINK_EDITIONS_NOT_IDENTICAL_TEXT"
+    },
+    {
+      "id": "HOLD-V04-06",
+      "issue": "1536 Institutes first edition vs 1559 four-book final edition",
+      "refs": [
+        "OV-E-020",
+        "OV-D-012",
+        "CLM-V04-CA-002"
+      ],
+      "action": "PROHIBIT_1559_EVENT_MERGE_TO_1536_EVENT"
+    },
+    {
+      "id": "HOLD-V04-07",
+      "issue": "1549 Zurich Consensus signatories Calvin and Bullinger, not Zwingli who died 1531",
+      "refs": [
+        "CLM-V04-CA-010",
+        "CLM-V04-ZW-012"
+      ],
+      "action": "NO_ZWINGLI_PARTICIPANT_RELATION"
+    },
+    {
+      "id": "HOLD-V04-08",
+      "issue": "1553 Servetus execution city judicial authority versus Calvin theology",
+      "refs": [
+        "CLM-V04-CA-011",
+        "CLM-V04-CA-012"
+      ],
+      "action": "NO_CALVIN_ONLY_JUDGE_RELATION"
+    },
+    {
+      "id": "HOLD-V04-09",
+      "issue": "Marburg 1529 three original witness objects—joint articles, Zwingli account, Osiander account—must remain distinct",
+      "refs": [
+        "OV-E-018",
+        "SRC-V04-L-009",
+        "SRC-V04-L-010",
+        "SRC-V04-L-011"
+      ],
+      "action": "THREE_WITNESSES_ONE_EVENT"
+    },
+    {
+      "id": "HOLD-V04-10",
+      "issue": "Luther in 1530 Augsburg confession: context and influence not physical Diet attendance",
+      "refs": [
+        "DEEP-V04-E-009",
+        "OV-E-019"
+      ],
+      "action": "NO_LUTHER_HISTORICAL_PARTICIPANT_FROM_TIMELINE_ASSOCIATION"
+    }
+  ],
+  "route_contract": {
+    "person_template": "/people/:personId",
+    "canonical_people_ids": {
+      "luther": "OV-P-013",
+      "melanchthon": "OV-P-014",
+      "zwingli": "OV-P-015",
+      "calvin": "OV-P-016"
+    },
+    "deep_blocks_must_be_approved": true,
+    "no_overview_mutation": true,
+    "publication_approved": false,
+    "can_import_research_json_to_public_web": false
+  },
+  "notes": "61 source registrations include three duplicate registration pairs representing the same primary documents; 61 is not a count of unique independent scholarly works."
+}
