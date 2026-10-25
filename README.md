@@ -32,3 +32,15 @@ Python 3 환경에서 `python3 scripts/validate_content.py`로 JSON 참조, 출�
 - AI 재현 인물화는 사료 사진이나 실존 인물의 확정적 생김새로 표시하지 않습니다.
 - 유료 출판물 전문을 복제하지 않고, 공개적으로 확인 가능한 내용과 적법하게 확인한 연구를 독자적으로 요약·해설합니다.
 - 교단별 관점과 역사적 논쟁은 출처 및 불확실성을 병기합니다.
+
+## AI Studio GitHub 연결 준비 (2026-10-25)
+Google AI Studio Build로 **웹사이트 뼈대를 먼저 만들고**, 이 저장소의 8권 역사 개요를 검증 후 연결합니다.
+
+- [GitHub 연결/동기화 실행 안내](docs/03_PRODUCT/AI_STUDIO_BUILD_V02/09_GITHUB_CONNECTION_SETUP.md)
+- [AI Studio용 설계 패키지](docs/03_PRODUCT/AI_STUDIO_BUILD_V02/README.md) 및 [첫 Build 프롬프트](docs/03_PRODUCT/AI_STUDIO_BUILD_V02/06_MASTER_BUILD_PROMPT.md)
+- [저장소 사전 점검 스크립트](scripts/validate_ai_studio_repo_preflight.py): `python3 scripts/validate_ai_studio_repo_preflight.py`
+- [웹 코드 동기화 전 변경 경로 검사](scripts/check_ai_studio_sync_paths.py): 앱 코드가 생긴 뒤 사용
+
+**중요:** 이 GitHub 저장소는 역사 원본 중심의 **public 자료 저장소이며 아직 React 앱은 없습니다.** AI Studio에서는 새 앱을 생성하고 **별도 웹앱 저장소(예: REFORMATION-ATLAS-WEB)**에 연결하는 방식을 권장합니다. 기존 저장소를 바로 Import하면 앱 루트가 없고 역사 자료가 섞여 있어 충돌 위험이 있습니다.
+
+`main`은 2026-10-25 점검 당시 GitHub API에서 **protected=false**로 확인됐습니다. 웹앱 양방향 Sync를 시작하기 전에 [GitHub Ruleset/브랜치 보호 설정](docs/03_PRODUCT/AI_STUDIO_BUILD_V02/09_GITHUB_CONNECTION_SETUP.md#3-깃허브에서-사람이-직접-해야-하는-보호-설정)을 직접 완료해야 합니다. 이 문서와 QA 준비만으로 브랜치 보호가 설정되지는 않습니다.

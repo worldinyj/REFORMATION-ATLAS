@@ -8,3 +8,20 @@ node_modules/
 .env
 .env.*
 !.env.example
+
+# Node / React build outputs (future AI Studio-generated app)
+dist/
+build/
+coverage/
+.vite/
+.next/
+.astro/
+.turbo/
+.parcel-cache/
+*.tsbuildinfo
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.local
+.idea/
+.vscode/.history/
