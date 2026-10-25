@@ -39,7 +39,7 @@ worldinyj/REFORMATION-ATLAS-WEB      [권장 새 저장소 · 생성/연결은 �
 
 ### 첫 연결 순서
 1. [Google AI Studio](https://aistudio.google.com/)에 로그인 → **Build → Web app**.
-2. [06_MASTER_BUILD_PROMPT.md](06_MASTER_BUILD_PROMPT.md)의 최초 생성 지시문 입력. **홈·8권·공통 라우트 뼈대**만 생성.
+2. 연결된 연구 브랜치가 실제로 보이는 경우 [00_GITHUB_DESIGN_PREFLIGHT.md](00_GITHUB_DESIGN_PREFLIGHT.md)의 **설계 사전 감사**를 먼저 수행. GitHub 접근이 안 된다면 이 단계가 통과했다고 가정하지 않는다. 이후 [06_MASTER_BUILD_PROMPT.md](06_MASTER_BUILD_PROMPT.md)의 최초 생성 지시문 입력. **홈·8권·공통 라우트 뼈대**만 생성.
 3. Code/Preview에서 **실제로 생성된 `package.json`/코드/디자인 토큰**과 모바일 메뉴 동작 점검.
 4. AI Studio **Settings → GitHub**에서 GitHub 계정 연결(최소 권한 검토) 후 **새 저장소 만들기** 또는 기존 앱용 별도 저장소 연결. 이름 후보 `REFORMATION-ATLAS-WEB`; 가능하면 Private로 시작. 저장소 소유자가 로그인한 `worldinyj` 계정인지 확인.
 5. AI Studio가 처음 Push하려는 변경 파일·대상 저장소·브랜치를 검토한다. **연구 저장소 `main`이면 Push 중단**.
@@ -85,7 +85,7 @@ python3 scripts/validate_atlas_overview_v01.py
 - [ ] AI Studio 앱이 실제로 생성되었고 내부 미리보기가 동작한다.
 - [ ] 연결한 저장소가 **앱 전용 저장소**인지, 연구 저장소의 기능 브랜치인지 정확히 확인한다.
 - [ ] `main` 보호 Ruleset을 실제로 활성화했다.
-- [ ] 변경된 파일이 연구 원본을 수정하지 않았는지 diff와 [경로 검사](../../../../scripts/check_ai_studio_sync_paths.py) 확인.
+- [ ] 변경된 파일이 연구 원본을 수정하지 않았는지 diff와 [경로 검사](../../../scripts/check_ai_studio_sync_paths.py) 확인.
 - [ ] GitHub에 `.env`, API 키, 비밀 토큰, 미승인 역사 원전/이미지가 추가되지 않았다.
 - [ ] Cloud Run/Publish/Share 등 **외부 공개 실행 없음**.
 - [ ] React UI 디자인이 Quiet Editorial Atlas와 일치하고 모바일 320~430px에서도 정상.
