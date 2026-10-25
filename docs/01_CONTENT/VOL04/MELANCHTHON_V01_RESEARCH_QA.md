@@ -7,8 +7,11 @@
 - [구조화 데이터](../../../data/deep/vol04_melanchthon_v01.json) · 출처 17건, 주장 16건, 연대 항목 11건
 - [자동검증](../../../scripts/validate_vol04_melanchthon_deep_v01.py) · GitHub Actions `.github/workflows/vol04-melanchthon-research-qa.yml`
 - 인물화 1종(현대 상상화), 토론 삽화 1종(현대 상상화), 개념지도 1종(SVG 편집 가능), 모두 별도 ZIP.
-- ZIP: `REFORMATION_ATLAS_VOL04_MELANCHTHON_VISUAL_V01.zip`; SHA256 `e5d96d1d1df86d6e0ed954faa9e49b3188acb5c354f962fc3f4c1612d903c176`
+- ZIP: `REFORMATION_ATLAS_VOL04_MELANCHTHON_VISUAL_V01.zip`; SHA256 `d514372f07ae78380f2de63f4dcfbbf81b159b8406d448df90dc77df60f8c1fb`
 - **이미지 바이너리는 GitHub에 저장되지 않았음.** 모든 media 후보 `binary_in_github=false`, `approved=false`.
+
+## 한국어 시각자료 변환 점검
+- 초기 PNG 렌더에서 미설치 한글 폰트 때문에 자형이 깨진 문제를 확인하고 **NanumSquare** 계열로 수정하여 PNG를 다시 생성했다. SVG 편집본과 변환 PNG를 실제로 열어 육안 확인했다.
 
 ## 역사와 저작권 품질
 - 참고한 1543년 크라나흐 공방의 멜란히톤 초상은 `SRC-V04-ME-014`로 **설명 자료 링크**만 등록. 저작권 및 디지털 이미지 권리 미확인 상태에서 도판 파일을 무단 복제하지 않는다.

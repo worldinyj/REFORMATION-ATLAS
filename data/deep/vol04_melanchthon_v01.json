@@ -550,7 +550,7 @@
       "local_zip": "REFORMATION_ATLAS_VOL04_MELANCHTHON_VISUAL_V01.zip"
     }
   ],
-  "media_archive_sha256": "e5d96d1d1df86d6e0ed954faa9e49b3188acb5c354f962fc3f4c1612d903c176",
+  "media_archive_sha256": "d514372f07ae78380f2de63f4dcfbbf81b159b8406d448df90dc77df60f8c1fb",
   "human_review_issues": [
     "1518 inaugural oration 28 vs 29 August",
     "1530 vs 1540 Confessio Augustana textual recensions",
@@ -569,5 +569,11 @@
     "person_url_stable": true,
     "attach_to_id": "OV-P-014",
     "requires_publication_approved": true
+  },
+  "media_rendering_qc": {
+    "png_korean_font_corrected": true,
+    "svg_editable": true,
+    "complete_png_jpg_webp_revision": "V01",
+    "verified_locally": true
   }
 }
