@@ -18,5 +18,14 @@
 
 ## 자동 검증 경계
 - `scripts/validate_vol03_v12_candidates.py`는 연구 브랜치 체크아웃에서 `python3 scripts/validate_vol03_v12_candidates.py`로 실행. 선택적으로 `--scene-zip <ZIP 경로>`를 전달하면 원본 ZIP CRC와 두 PNG/WebP의 해시를 검사한다.
-- GitHub Actions 워크플로를 연구 브랜치에 추가할 수 있지만, 실제 CI 성공 또는 로컬 체크아웃 검증은 **그 결과를 확인하기 전에는 통과로 보고하지 않는다**.
+- GitHub Actions 워크플로를 연구 브랜치에 추가해 실제 실행을 확인했으며, 그 결과는 아래 실행 기록에서 구분한다.
 - 역사학 전문가 및 사람 승인·미디어 정식 원본 승격 전 `DRAFT` 유지.
+
+## 실제 GitHub Actions 체크아웃 검증 (실행 확인)
+- 첫 실행 `40178049479`은 실패. 원인: `scripts/validate_content.py`가 관계 레코드에 존재하지 않는 `name_ko`를 요구하여 2건 오류. 실제 관계 스키마의 `summary_ko`를 검사하도록 검증기를 수정한 후 재실행.
+- `80a6362b3be877d6ce5deeb96a0da408f859c925` 커밋의 GitHub Actions 실행 **40178144052, completed / success**. 확인 URL: https://github.com/worldinyj/REFORMATION-ATLAS/actions/runs/40178144052
+- 동일 실행 로그에서 `validate_content.py`, `validate_vol03.py`, `validate_vol03_catalog.py`, `validate_vol03_v09_batch.py`, `validate_vol03_v12_candidates.py` 총 **5개 검증 명령을 모두 실행·통과**. V0.9-P3 `issues=0` 및 V1.2 `issues=0` 확인.
+- 해당 CI 작업은 ZIP을 포함하지 않은 저장소 검사. 실제 V1.2 ZIP SHA256/CRC·WebP PNG 파일 검사 및 Word 7쪽 렌더·접근성 QA는 **별도의 현재 대화 로컬 파일 확인** 결과다.
+- 이 QA 기록 갱신 커밋의 워크플로는 별도 실행으로 표시된다. 위 성공을 아직 실행되지 않은 미래 커밋의 성공으로 치환하지 않는다.
+
+**남은 제한:** 중세 사료의 전문 교감과 복식·건축·지슈카 도상의 전문가 고증은 여전히 미완료. `approved=false`, `can_ship=false`.
