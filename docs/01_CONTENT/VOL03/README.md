@@ -157,3 +157,9 @@
 - [고증 심사 8종](../../02_MEDIA/VOL03_HISTORICAL_IMAGE_REVIEW_V13.md) · [검토 데이터](../../../data/vol03_editorial_review_v13.json).
 - [1436년 7월 5/6일 행위 구분 연표](06_TIMELINE.md) · [보완 사실검증표](07_FACTCHECK_MATRIX.md).
 - 원본 182노드/365에지·주장 14건 불변. 후보 WebP 6점 ZIP은 사용자 대화 아티팩트만 제공, 공개 원본은 미변경.
+
+## V1.4 · 실패 시각물 반려와 G4-A 읽기 전용 데이터 변환 (2026-10-25)
+- [협상 장면 2개 오생성 반려와 단일 프레임 제작 기준](../../02_MEDIA/VOL03_V14_IMAGE_REJECTION_AND_REDIRECTION.md) 및 [불합격 생성 기록](../../../data/vol03_v14_art_rejection.json): 두 신규 출력은 포스터/지도/다중 장면이므로 사용자 승인 후보로 **채택하지 않음**. 기존 `ILL-V03-02-R2C01`은 `REVISE_HIGH` 유지.
+- [G4-A 읽기 전용 제3권 변환기](../../../scripts/build_vol03_g4_projection.py) 및 [데이터 계약 해설](../../03_PRODUCT/G4_VOL03_READONLY_ADAPTER_V02.md): 원본 182노드/365관계/14주장 불변. 기존 3개 사건의 `approximate_year`가 G4 enum 초안에서 누락된 점을 수정.
+- [V1.4 QA 및 Word 등록](../../03_PRODUCT/VOL03_V14_G4_ART_QA.md): CI 성공 및 3쪽 검토 Word SHA. Word는 ChatGPT 사용자 다운로드만 제공, GitHub 바이너리 미업로드.
+- `approved=false`, `can_ship=false`, `main` 미병합, Draft PR #2 유지. 전문가 고증과 로컬 이미지 설치는 여전히 별도 작업.
