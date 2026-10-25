@@ -1,0 +1,3704 @@
+{
+  "schema_version": "0.2",
+  "project": "REFORMATION-ATLAS",
+  "volume": "VOL-03",
+  "created_at": "2026-10-25",
+  "status": "DRAFT",
+  "catalog_type": "read_only_index",
+  "meaning": "Derived references, does not replace source JSON or imply historical approval",
+  "publication_gate": {
+    "approved": false,
+    "can_ship": false
+  },
+  "binary_disclosure": "All 6 staged portraits and scene illustration WebP files are not present in the branch",
+  "nodes": [
+    {
+      "id": "PER-0001",
+      "type": "person",
+      "title": "존 위클리프",
+      "source_path": "data/people.json",
+      "review_status": "DRAFT",
+      "source_ids": [
+        "SRC-0001",
+        "SRC-0002"
+      ]
+    },
+    {
+      "id": "PER-0002",
+      "type": "person",
+      "title": "얀 후스",
+      "source_path": "data/people.json",
+      "review_status": "DRAFT",
+      "source_ids": [
+        "SRC-0001",
+        "SRC-0003",
+        "SRC-0010"
+      ]
+    },
+    {
+      "id": "PER-0003",
+      "type": "person",
+      "title": "마르틴 루터",
+      "source_path": "data/people.json",
+      "review_status": "DRAFT",
+      "source_ids": [
+        "SRC-0005",
+        "SRC-0006",
+        "SRC-0007",
+        "SRC-0008"
+      ]
+    },
+    {
+      "id": "PER-0004",
+      "type": "person",
+      "title": "발도",
+      "source_path": "data/vol03_extension.json",
+      "review_status": "DRAFT",
+      "source_ids": [
+        "V03-S01",
+        "V03-S02"
+      ]
+    },
+    {
+      "id": "PER-0005",
+      "type": "person",
+      "title": "프라하의 예로니모",
+      "source_path": "data/vol03_extension.json",
+      "review_status": "DRAFT",
+      "source_ids": [
+        "V03-S17"
+      ]
+    },
+    {
+      "id": "PER-0006",
+      "type": "person",
+      "title": "야쿠베크 드 스트르지브로",
+      "source_path": "data/vol03_extension.json",
+      "review_status": "DRAFT",
+      "source_ids": [
+        "V03-S13"
+      ]
+    },
+    {
+      "id": "PER-0007",
+      "type": "person",
+      "title": "얀 지슈카",
+      "source_path": "data/vol03_extension.json",
+      "review_status": "DRAFT",
+      "source_ids": [
+        "V03-S11",
+        "V03-S18"
+      ]
+    },
+    {
+      "id": "PER-0008",
+      "type": "person",
+      "title": "초기 형제단의 그레고리",
+      "source_path": "data/vol03_extension.json",
+      "review_status": "DRAFT",
+      "source_ids": [
+        "V03-S15",
+        "V03-S16"
+      ]
+    },
+    {
+      "id": "PER-0009",
+      "type": "person",
+      "title": "페트르 헬치츠키",
+      "source_path": "data/vol03_extension.json",
+      "review_status": "DRAFT",
+      "source_ids": [
+        "V03-S11",
+        "V03-S15"
+      ]
+    },
+    {
+      "id": "MOV-0001",
+      "type": "movement",
+      "title": "왈도파",
+      "source_path": "data/vol03_extension.json",
+      "review_status": "DRAFT",
+      "source_ids": [
+        "V03-S01",
+        "V03-S04"
+      ]
+    },
+    {
+      "id": "MOV-0002",
+      "type": "movement",
+      "title": "롤라드파",
+      "source_path": "data/vol03_extension.json",
+      "review_status": "DRAFT",
+      "source_ids": [
+        "V03-S06"
+      ]
+    },
+    {
+      "id": "MOV-0003",
+      "type": "movement",
+      "title": "후스파",
+      "source_path": "data/vol03_extension.json",
+      "review_status": "DRAFT",
+      "source_ids": [
+        "V03-S11"
+      ]
+    },
+    {
+      "id": "MOV-0004",
+      "type": "movement",
+      "title": "보헤미아 형제단",
+      "source_path": "data/vol03_extension.json",
+      "review_status": "DRAFT",
+      "source_ids": [
+        "V03-S15",
+        "V03-S16"
+      ]
+    },
+    {
+      "id": "EVT-0001",
+      "type": "event",
+      "title": "위클리프 관련 영어 성경 번역 운동",
+      "source_path": "data/events.json",
+      "review_status": "DRAFT",
+      "source_ids": [
+        "SRC-0002"
+      ]
+    },
+    {
+      "id": "EVT-0002",
+      "type": "event",
+      "title": "얀 후스의 콘스탄츠 처형",
+      "source_path": "data/events.json",
+      "review_status": "DRAFT",
+      "source_ids": [
+        "SRC-0010"
+      ]
+    },
+    {
+      "id": "EVT-0003",
+      "type": "event",
+      "title": "루터의 95개조 논제",
+      "source_path": "data/events.json",
+      "review_status": "DRAFT",
+      "source_ids": [
+        "SRC-0005",
+        "SRC-0006",
+        "SRC-0008"
+      ]
+    },
+    {
+      "id": "EVT-0004",
+      "type": "event",
+      "title": "라이프치히 논쟁",
+      "source_path": "data/events.json",
+      "review_status": "DRAFT",
+      "source_ids": [
+        "SRC-0004",
+        "SRC-0007"
+      ]
+    },
+    {
+      "id": "EVT-0005",
+      "type": "event",
+      "title": "리옹의 청빈·설교 운동",
+      "source_path": "data/vol03_extension.json",
+      "review_status": "DRAFT",
+      "source_ids": [
+        "V03-S01",
+        "V03-S02"
+      ]
+    },
+    {
+      "id": "EVT-0006",
+      "type": "event",
+      "title": "발도파와 교회 당국의 설교권 갈등",
+      "source_path": "data/vol03_extension.json",
+      "review_status": "DRAFT",
+      "source_ids": [
+        "V03-S01",
+        "V03-S02"
+      ]
+    },
+    {
+      "id": "EVT-0007",
+      "type": "event",
+      "title": "위클리프 생전 종교적 단죄",
+      "source_path": "data/vol03_extension.json",
+      "review_status": "DRAFT",
+      "source_ids": [
+        "V03-S05"
+      ]
+    },
+    {
+      "id": "EVT-0008",
+      "type": "event",
+      "title": "후스 베들레헴 예배당 설교",
+      "source_path": "data/vol03_extension.json",
+      "review_status": "DRAFT",
+      "source_ids": [
+        "V03-S09"
+      ]
+    },
+    {
+      "id": "EVT-0009",
+      "type": "event",
+      "title": "후스의 프라하 면벌부 논쟁",
+      "source_path": "data/vol03_extension.json",
+      "review_status": "DRAFT",
+      "source_ids": [
+        "V03-S09"
+      ]
+    },
+    {
+      "id": "EVT-0010",
+      "type": "event",
+      "title": "프라하 양형성찬의 부흥",
+      "source_path": "data/vol03_extension.json",
+      "review_status": "DRAFT",
+      "source_ids": [
+        "V03-S13"
+      ]
+    },
+    {
+      "id": "EVT-0011",
+      "type": "event",
+      "title": "프라하의 예로니모 처형",
+      "source_path": "data/vol03_extension.json",
+      "review_status": "DRAFT",
+      "source_ids": [
+        "V03-S17"
+      ]
+    },
+    {
+      "id": "EVT-0012",
+      "type": "event",
+      "title": "프라하 창밖 투척 사건",
+      "source_path": "data/vol03_extension.json",
+      "review_status": "DRAFT",
+      "source_ids": [
+        "V03-S12"
+      ]
+    },
+    {
+      "id": "EVT-0013",
+      "type": "event",
+      "title": "프라하 4개조",
+      "source_path": "data/vol03_extension.json",
+      "review_status": "DRAFT",
+      "source_ids": [
+        "V03-S11",
+        "V03-S13"
+      ]
+    },
+    {
+      "id": "EVT-0014",
+      "type": "event",
+      "title": "후스 전쟁",
+      "source_path": "data/vol03_extension.json",
+      "review_status": "DRAFT",
+      "source_ids": [
+        "V03-S12",
+        "V03-S18"
+      ]
+    },
+    {
+      "id": "EVT-0015",
+      "type": "event",
+      "title": "리파니 전투",
+      "source_path": "data/vol03_extension.json",
+      "review_status": "DRAFT",
+      "source_ids": [
+        "V03-S14"
+      ]
+    },
+    {
+      "id": "EVT-0016",
+      "type": "event",
+      "title": "콤팍타타 승인",
+      "source_path": "data/vol03_extension.json",
+      "review_status": "DRAFT",
+      "source_ids": [
+        "V03-S14"
+      ]
+    },
+    {
+      "id": "EVT-0017",
+      "type": "event",
+      "title": "보헤미아 형제단 형성",
+      "source_path": "data/vol03_extension.json",
+      "review_status": "DRAFT",
+      "source_ids": [
+        "V03-S15",
+        "V03-S16"
+      ]
+    },
+    {
+      "id": "EVT-0018",
+      "type": "event",
+      "title": "왈도파·개혁파의 찬포랑 회합",
+      "source_path": "data/vol03_extension.json",
+      "review_status": "DRAFT",
+      "source_ids": [
+        "V03-S03",
+        "V03-S04"
+      ]
+    },
+    {
+      "id": "EVT-0019",
+      "type": "event",
+      "title": "프라하의 콤팍타타 핵심 합의 문안 확인",
+      "source_path": "data/vol03_extension.json",
+      "review_status": "DRAFT",
+      "source_ids": [
+        "V03-S34"
+      ]
+    },
+    {
+      "id": "EVT-0020",
+      "type": "event",
+      "title": "바젤 공의회 Ut lucidius videatur",
+      "source_path": "data/vol03_extension.json",
+      "review_status": "DRAFT",
+      "source_ids": [
+        "V03-S34"
+      ]
+    },
+    {
+      "id": "LOC-0001",
+      "type": "place",
+      "title": "옥스퍼드",
+      "source_path": "data/locations.json",
+      "review_status": "DRAFT",
+      "source_ids": []
+    },
+    {
+      "id": "LOC-0002",
+      "type": "place",
+      "title": "프라하",
+      "source_path": "data/locations.json",
+      "review_status": "DRAFT",
+      "source_ids": []
+    },
+    {
+      "id": "LOC-0003",
+      "type": "place",
+      "title": "비텐베르크",
+      "source_path": "data/locations.json",
+      "review_status": "DRAFT",
+      "source_ids": []
+    },
+    {
+      "id": "LOC-0004",
+      "type": "place",
+      "title": "라이프치히",
+      "source_path": "data/locations.json",
+      "review_status": "DRAFT",
+      "source_ids": []
+    },
+    {
+      "id": "LOC-0005",
+      "type": "place",
+      "title": "콘스탄츠",
+      "source_path": "data/locations.json",
+      "review_status": "DRAFT",
+      "source_ids": []
+    },
+    {
+      "id": "LOC-0006",
+      "type": "place",
+      "title": "리옹",
+      "source_path": "data/vol03_extension.json",
+      "review_status": "DRAFT",
+      "source_ids": []
+    },
+    {
+      "id": "LOC-0007",
+      "type": "place",
+      "title": "타보르",
+      "source_path": "data/vol03_extension.json",
+      "review_status": "DRAFT",
+      "source_ids": []
+    },
+    {
+      "id": "LOC-0008",
+      "type": "place",
+      "title": "러터워스",
+      "source_path": "data/vol03_extension.json",
+      "review_status": "DRAFT",
+      "source_ids": []
+    },
+    {
+      "id": "LOC-0009",
+      "type": "place",
+      "title": "앙그로냐",
+      "source_path": "data/vol03_extension.json",
+      "review_status": "DRAFT",
+      "source_ids": []
+    },
+    {
+      "id": "LOC-0010",
+      "type": "place",
+      "title": "바젤",
+      "source_path": "data/vol03_extension.json",
+      "review_status": "DRAFT",
+      "source_ids": []
+    },
+    {
+      "id": "LOC-0011",
+      "type": "place",
+      "title": "리파니",
+      "source_path": "data/vol03_extension.json",
+      "review_status": "DRAFT",
+      "source_ids": []
+    },
+    {
+      "id": "LOC-0012",
+      "type": "place",
+      "title": "쿤발트",
+      "source_path": "data/vol03_extension.json",
+      "review_status": "DRAFT",
+      "source_ids": []
+    },
+    {
+      "id": "LOC-0013",
+      "type": "place",
+      "title": "이흘라바",
+      "source_path": "data/vol03_extension.json",
+      "review_status": "DRAFT",
+      "source_ids": []
+    },
+    {
+      "id": "LOC-0014",
+      "type": "place",
+      "title": "쿠트나호라",
+      "source_path": "data/vol03_extension.json",
+      "review_status": "DRAFT",
+      "source_ids": []
+    },
+    {
+      "id": "LOC-0015",
+      "type": "place",
+      "title": "슈트라스부르",
+      "source_path": "data/vol03_extension.json",
+      "review_status": "DRAFT",
+      "source_ids": []
+    },
+    {
+      "id": "LOC-0016",
+      "type": "place",
+      "title": "베른",
+      "source_path": "data/vol03_extension.json",
+      "review_status": "DRAFT",
+      "source_ids": []
+    },
+    {
+      "id": "LOC-0017",
+      "type": "place",
+      "title": "뇌샤텔",
+      "source_path": "data/vol03_extension.json",
+      "review_status": "DRAFT",
+      "source_ids": []
+    },
+    {
+      "id": "REL-0001",
+      "type": "relationship_record",
+      "title": "위클리프 저술이 프라하에 전해져 후스의 사상 형성에 영향을 미침",
+      "source_path": "data/relations.json",
+      "review_status": "DRAFT",
+      "source_ids": [
+        "SRC-0001",
+        "SRC-0003"
+      ]
+    },
+    {
+      "id": "REL-0002",
+      "type": "relationship_record",
+      "title": "루터는 1519년 후스의 역사적·신학적 선례와 마주하고, 후스의 의미는 16세기 논쟁 속에서 재해석됨",
+      "source_path": "data/relations.json",
+      "review_status": "DRAFT",
+      "source_ids": [
+        "SRC-0004"
+      ]
+    },
+    {
+      "id": "REL-0003",
+      "type": "relationship_record",
+      "title": "REL-0003",
+      "source_path": "data/vol03_extension.json",
+      "review_status": "DRAFT",
+      "source_ids": [
+        "V03-S01"
+      ]
+    },
+    {
+      "id": "REL-0004",
+      "type": "relationship_record",
+      "title": "REL-0004",
+      "source_path": "data/vol03_extension.json",
+      "review_status": "DRAFT",
+      "source_ids": [
+        "V03-S06"
+      ]
+    },
+    {
+      "id": "REL-0005",
+      "type": "relationship_record",
+      "title": "REL-0005",
+      "source_path": "data/vol03_extension.json",
+      "review_status": "DRAFT",
+      "source_ids": [
+        "V03-S05",
+        "V03-S17"
+      ]
+    },
+    {
+      "id": "REL-0006",
+      "type": "relationship_record",
+      "title": "REL-0006",
+      "source_path": "data/vol03_extension.json",
+      "review_status": "DRAFT",
+      "source_ids": [
+        "V03-S11"
+      ]
+    },
+    {
+      "id": "REL-0007",
+      "type": "relationship_record",
+      "title": "REL-0007",
+      "source_path": "data/vol03_extension.json",
+      "review_status": "DRAFT",
+      "source_ids": [
+        "V03-S15"
+      ]
+    },
+    {
+      "id": "REL-0008",
+      "type": "relationship_record",
+      "title": "REL-0008",
+      "source_path": "data/vol03_extension.json",
+      "review_status": "DRAFT",
+      "source_ids": [
+        "V03-S03",
+        "V03-S04"
+      ]
+    },
+    {
+      "id": "REL-0009",
+      "type": "relationship_record",
+      "title": "REL-0009",
+      "source_path": "data/vol03_extension.json",
+      "review_status": "DRAFT",
+      "source_ids": [
+        "V03-S13"
+      ]
+    },
+    {
+      "id": "V03-S01",
+      "type": "source_reference",
+      "title": "V03-S01",
+      "source_path": "docs/01_CONTENT/VOL03/05_SOURCE_REGISTER.md",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "V03-S02",
+      "type": "source_reference",
+      "title": "V03-S02",
+      "source_path": "docs/01_CONTENT/VOL03/05_SOURCE_REGISTER.md",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "V03-S03",
+      "type": "source_reference",
+      "title": "V03-S03",
+      "source_path": "docs/01_CONTENT/VOL03/05_SOURCE_REGISTER.md",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "V03-S04",
+      "type": "source_reference",
+      "title": "V03-S04",
+      "source_path": "docs/01_CONTENT/VOL03/05_SOURCE_REGISTER.md",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "V03-S05",
+      "type": "source_reference",
+      "title": "V03-S05",
+      "source_path": "docs/01_CONTENT/VOL03/05_SOURCE_REGISTER.md",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "V03-S06",
+      "type": "source_reference",
+      "title": "V03-S06",
+      "source_path": "docs/01_CONTENT/VOL03/05_SOURCE_REGISTER.md",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "V03-S07",
+      "type": "source_reference",
+      "title": "V03-S07",
+      "source_path": "docs/01_CONTENT/VOL03/05_SOURCE_REGISTER.md",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "V03-S08",
+      "type": "source_reference",
+      "title": "V03-S08",
+      "source_path": "docs/01_CONTENT/VOL03/05_SOURCE_REGISTER.md",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "V03-S09",
+      "type": "source_reference",
+      "title": "V03-S09",
+      "source_path": "docs/01_CONTENT/VOL03/05_SOURCE_REGISTER.md",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "V03-S10",
+      "type": "source_reference",
+      "title": "V03-S10",
+      "source_path": "docs/01_CONTENT/VOL03/05_SOURCE_REGISTER.md",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "V03-S11",
+      "type": "source_reference",
+      "title": "V03-S11",
+      "source_path": "docs/01_CONTENT/VOL03/05_SOURCE_REGISTER.md",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "V03-S12",
+      "type": "source_reference",
+      "title": "V03-S12",
+      "source_path": "docs/01_CONTENT/VOL03/05_SOURCE_REGISTER.md",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "V03-S13",
+      "type": "source_reference",
+      "title": "V03-S13",
+      "source_path": "docs/01_CONTENT/VOL03/05_SOURCE_REGISTER.md",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "V03-S14",
+      "type": "source_reference",
+      "title": "V03-S14",
+      "source_path": "docs/01_CONTENT/VOL03/05_SOURCE_REGISTER.md",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "V03-S15",
+      "type": "source_reference",
+      "title": "V03-S15",
+      "source_path": "docs/01_CONTENT/VOL03/05_SOURCE_REGISTER.md",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "V03-S16",
+      "type": "source_reference",
+      "title": "V03-S16",
+      "source_path": "docs/01_CONTENT/VOL03/05_SOURCE_REGISTER.md",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "V03-S17",
+      "type": "source_reference",
+      "title": "V03-S17",
+      "source_path": "docs/01_CONTENT/VOL03/05_SOURCE_REGISTER.md",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "V03-S18",
+      "type": "source_reference",
+      "title": "V03-S18",
+      "source_path": "docs/01_CONTENT/VOL03/05_SOURCE_REGISTER.md",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "V03-S19",
+      "type": "source_reference",
+      "title": "V03-S19",
+      "source_path": "docs/01_CONTENT/VOL03/05_SOURCE_REGISTER.md",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "V03-S20",
+      "type": "source_reference",
+      "title": "V03-S20",
+      "source_path": "docs/01_CONTENT/VOL03/05_SOURCE_REGISTER.md",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "V03-S21",
+      "type": "source_reference",
+      "title": "V03-S21",
+      "source_path": "docs/01_CONTENT/VOL03/05_SOURCE_REGISTER.md",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "V03-S22",
+      "type": "source_reference",
+      "title": "V03-S22",
+      "source_path": "docs/01_CONTENT/VOL03/05_SOURCE_REGISTER.md",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "V03-S23",
+      "type": "source_reference",
+      "title": "V03-S23",
+      "source_path": "docs/01_CONTENT/VOL03/05_SOURCE_REGISTER.md",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "V03-S24",
+      "type": "source_reference",
+      "title": "V03-S24",
+      "source_path": "docs/01_CONTENT/VOL03/05_SOURCE_REGISTER.md",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "V03-S25",
+      "type": "source_reference",
+      "title": "V03-S25",
+      "source_path": "docs/01_CONTENT/VOL03/05_SOURCE_REGISTER.md",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "V03-S26",
+      "type": "source_reference",
+      "title": "V03-S26",
+      "source_path": "docs/01_CONTENT/VOL03/05_SOURCE_REGISTER.md",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "V03-S27",
+      "type": "source_reference",
+      "title": "V03-S27",
+      "source_path": "docs/01_CONTENT/VOL03/05_SOURCE_REGISTER.md",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "V03-S28",
+      "type": "source_reference",
+      "title": "V03-S28",
+      "source_path": "docs/01_CONTENT/VOL03/05_SOURCE_REGISTER.md",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "V03-S29",
+      "type": "source_reference",
+      "title": "V03-S29",
+      "source_path": "docs/01_CONTENT/VOL03/05_SOURCE_REGISTER.md",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "V03-S30",
+      "type": "source_reference",
+      "title": "V03-S30",
+      "source_path": "docs/01_CONTENT/VOL03/05_SOURCE_REGISTER.md",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "V03-S31",
+      "type": "source_reference",
+      "title": "V03-S31",
+      "source_path": "docs/01_CONTENT/VOL03/05_SOURCE_REGISTER.md",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "V03-S32",
+      "type": "source_reference",
+      "title": "V03-S32",
+      "source_path": "docs/01_CONTENT/VOL03/05_SOURCE_REGISTER.md",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "V03-S33",
+      "type": "source_reference",
+      "title": "V03-S33",
+      "source_path": "docs/01_CONTENT/VOL03/05_SOURCE_REGISTER.md",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "V03-S34",
+      "type": "source_reference",
+      "title": "V03-S34",
+      "source_path": "docs/01_CONTENT/VOL03/05_SOURCE_REGISTER.md",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "V03-S35",
+      "type": "source_reference",
+      "title": "V03-S35",
+      "source_path": "docs/01_CONTENT/VOL03/05_SOURCE_REGISTER.md",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "V03-S36",
+      "type": "source_reference",
+      "title": "V03-S36",
+      "source_path": "docs/01_CONTENT/VOL03/05_SOURCE_REGISTER.md",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "V03-S37",
+      "type": "source_reference",
+      "title": "V03-S37",
+      "source_path": "docs/01_CONTENT/VOL03/05_SOURCE_REGISTER.md",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "V03-S38",
+      "type": "source_reference",
+      "title": "V03-S38",
+      "source_path": "docs/01_CONTENT/VOL03/05_SOURCE_REGISTER.md",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "V03-S39",
+      "type": "source_reference",
+      "title": "V03-S39",
+      "source_path": "docs/01_CONTENT/VOL03/05_SOURCE_REGISTER.md",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "V03-S40",
+      "type": "source_reference",
+      "title": "V03-S40",
+      "source_path": "docs/01_CONTENT/VOL03/05_SOURCE_REGISTER.md",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "V03-S41",
+      "type": "source_reference",
+      "title": "V03-S41",
+      "source_path": "docs/01_CONTENT/VOL03/05_SOURCE_REGISTER.md",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "V03-S42",
+      "type": "source_reference",
+      "title": "V03-S42",
+      "source_path": "docs/01_CONTENT/VOL03/05_SOURCE_REGISTER.md",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "V03-S43",
+      "type": "source_reference",
+      "title": "V03-S43",
+      "source_path": "docs/01_CONTENT/VOL03/05_SOURCE_REGISTER.md",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "V03-S44",
+      "type": "source_reference",
+      "title": "V03-S44",
+      "source_path": "docs/01_CONTENT/VOL03/05_SOURCE_REGISTER.md",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "V03-S45",
+      "type": "source_reference",
+      "title": "V03-S45",
+      "source_path": "docs/01_CONTENT/VOL03/05_SOURCE_REGISTER.md",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "V03-S46",
+      "type": "source_reference",
+      "title": "V03-S46",
+      "source_path": "docs/01_CONTENT/VOL03/05_SOURCE_REGISTER.md",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "V03-S47",
+      "type": "source_reference",
+      "title": "V03-S47",
+      "source_path": "docs/01_CONTENT/VOL03/05_SOURCE_REGISTER.md",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "V03-S48",
+      "type": "source_reference",
+      "title": "V03-S48",
+      "source_path": "docs/01_CONTENT/VOL03/05_SOURCE_REGISTER.md",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "V03-S49",
+      "type": "source_reference",
+      "title": "V03-S49",
+      "source_path": "docs/01_CONTENT/VOL03/05_SOURCE_REGISTER.md",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "V03-S50",
+      "type": "source_reference",
+      "title": "V03-S50",
+      "source_path": "docs/01_CONTENT/VOL03/05_SOURCE_REGISTER.md",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "V03-S51",
+      "type": "source_reference",
+      "title": "V03-S51",
+      "source_path": "docs/01_CONTENT/VOL03/05_SOURCE_REGISTER.md",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "V03-S52",
+      "type": "source_reference",
+      "title": "V03-S52",
+      "source_path": "docs/01_CONTENT/VOL03/05_SOURCE_REGISTER.md",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "V03-S53",
+      "type": "source_reference",
+      "title": "V03-S53",
+      "source_path": "docs/01_CONTENT/VOL03/05_SOURCE_REGISTER.md",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "DOC-V03-001",
+      "type": "document_historical_text",
+      "title": "프라하 4개조의 1420년경 문안",
+      "source_path": "data/vol03_document_witnesses.json",
+      "review_status": "DRAFT",
+      "source_ids": [
+        "V03-S23",
+        "V03-S32"
+      ]
+    },
+    {
+      "id": "EDN-V03-001",
+      "type": "document_later_edited_text",
+      "title": "프라하 4개조 1844년 팔라츠키 출판본",
+      "source_path": "data/vol03_document_witnesses.json",
+      "review_status": "DRAFT",
+      "source_ids": [
+        "V03-S23"
+      ]
+    },
+    {
+      "id": "EDN-V03-002",
+      "type": "document_historical_print_edition",
+      "title": "프라하 4개조 1937년 판본",
+      "source_path": "data/vol03_document_witnesses.json",
+      "review_status": "DRAFT",
+      "source_ids": [
+        "V03-S32"
+      ]
+    },
+    {
+      "id": "TRN-V03-001",
+      "type": "document_online_transcription",
+      "title": "체코어 위키문헌의 프라하 4개조 전사",
+      "source_path": "data/vol03_document_witnesses.json",
+      "review_status": "DRAFT",
+      "source_ids": [
+        "V03-S32"
+      ]
+    },
+    {
+      "id": "DOC-V03-002",
+      "type": "document_historical_agreement",
+      "title": "1433년 프라하의 핵심 합의 문안 3건",
+      "source_path": "data/vol03_document_witnesses.json",
+      "review_status": "DRAFT",
+      "source_ids": [
+        "V03-S34"
+      ]
+    },
+    {
+      "id": "EVR-V03-001",
+      "type": "document_historical_event_record",
+      "title": "1436년 이흘라바 콤팍타타 공적 선포",
+      "source_path": "data/vol03_document_witnesses.json",
+      "review_status": "DRAFT",
+      "source_ids": [
+        "V03-S33",
+        "V03-S34"
+      ]
+    },
+    {
+      "id": "DOC-V03-003",
+      "type": "document_historical_decree",
+      "title": "바젤 공의회의 Ut lucidius videatur",
+      "source_path": "data/vol03_document_witnesses.json",
+      "review_status": "DRAFT",
+      "source_ids": [
+        "V03-S34"
+      ]
+    },
+    {
+      "id": "EDN-V03-003",
+      "type": "document_scholarly_critical_edition",
+      "title": "Šmahel, Die Basler Kompaktaten mit den Hussiten (1436)",
+      "source_path": "data/vol03_document_witnesses.json",
+      "review_status": "DRAFT",
+      "source_ids": [
+        "V03-S33",
+        "V03-S34"
+      ]
+    },
+    {
+      "id": "CLM-V03-001",
+      "type": "claim",
+      "title": "위클리프는 축성 뒤 빵 실체가 지속된다는 견해를 논하면서 그리스도의 성사적 현존에 관한 언어도 사용한다.",
+      "source_path": "data/vol03_primary_claims.json",
+      "review_status": "DRAFT",
+      "source_ids": [
+        "V03-S29",
+        "V03-S19"
+      ]
+    },
+    {
+      "id": "CLM-V03-002",
+      "type": "claim",
+      "title": "Fordham의 'On the Sacrament of Communion'은 『De eucharistia』 자체가 아니라 『Trialogus』의 발췌다.",
+      "source_path": "data/vol03_primary_claims.json",
+      "review_status": "DRAFT",
+      "source_ids": [
+        "V03-S30"
+      ]
+    },
+    {
+      "id": "CLM-V03-003",
+      "type": "claim",
+      "title": "후스는 『De ecclesia』 4장에서 그리스도를 보편교회의 유일한 머리로 강조한다.",
+      "source_path": "data/vol03_primary_claims.json",
+      "review_status": "DRAFT",
+      "source_ids": [
+        "V03-S31"
+      ]
+    },
+    {
+      "id": "CLM-V03-004",
+      "type": "claim",
+      "title": "후스는 『De ecclesia』에서 교회에 쓰이는 여러 의미와 교황·성직권의 구별을 논한다.",
+      "source_path": "data/vol03_primary_claims.json",
+      "review_status": "DRAFT",
+      "source_ids": [
+        "V03-S31"
+      ]
+    },
+    {
+      "id": "CLM-V03-005",
+      "type": "claim",
+      "title": "프라하 4개조 첫 조항의 설교 주체는 '기독교 성직자'로 표현된다.",
+      "source_path": "data/vol03_primary_claims.json",
+      "review_status": "DRAFT",
+      "source_ids": [
+        "V03-S32"
+      ]
+    },
+    {
+      "id": "CLM-V03-006",
+      "type": "claim",
+      "title": "프라하 4개조 둘째 조항은 성찬을 받는 신자에게 죄와 관련된 조건을 두고 있다.",
+      "source_path": "data/vol03_primary_claims.json",
+      "review_status": "DRAFT",
+      "source_ids": [
+        "V03-S32"
+      ]
+    },
+    {
+      "id": "CLM-V03-007",
+      "type": "claim",
+      "title": "프라하 4개조 넷째 조항은 공개적 죄의 교정을 맡는 적법한 직무 권한을 언급한다.",
+      "source_path": "data/vol03_primary_claims.json",
+      "review_status": "DRAFT",
+      "source_ids": [
+        "V03-S32"
+      ]
+    },
+    {
+      "id": "CLM-V03-008",
+      "type": "claim",
+      "title": "1433년 11월 30일 프라하에서 양측이 확인한 핵심 합의 문안은 3건으로 연구된다.",
+      "source_path": "data/vol03_primary_claims.json",
+      "review_status": "DRAFT",
+      "source_ids": [
+        "V03-S34"
+      ]
+    },
+    {
+      "id": "CLM-V03-009",
+      "type": "claim",
+      "title": "2019년 Šmahel 비평판은 24개 필사본을 바탕으로 관련 라틴어 문서 10건을 수록한다.",
+      "source_path": "data/vol03_primary_claims.json",
+      "review_status": "DRAFT",
+      "source_ids": [
+        "V03-S33",
+        "V03-S34"
+      ]
+    },
+    {
+      "id": "CLM-V03-010",
+      "type": "claim",
+      "title": "1436년 7월 이흘라바에서 콤팍타타가 공적으로 선포되었다.",
+      "source_path": "data/vol03_primary_claims.json",
+      "review_status": "DRAFT",
+      "source_ids": [
+        "V03-S33"
+      ]
+    },
+    {
+      "id": "CLM-V03-011",
+      "type": "claim",
+      "title": "후스의 교회론 수용은 위클리프의 성찬론 전면 수용을 뜻하지 않는다.",
+      "source_path": "data/vol03_primary_claims.json",
+      "review_status": "DRAFT",
+      "source_ids": [
+        "V03-S21",
+        "V03-S22"
+      ]
+    },
+    {
+      "id": "CLM-V03-012",
+      "type": "claim",
+      "title": "프라하 4개조의 1844년 팔라츠키 편집본과 1937년 계열 전사는 동일한 당대 필사본이라는 보증이 없다.",
+      "source_path": "data/vol03_primary_claims.json",
+      "review_status": "DRAFT",
+      "source_ids": [
+        "V03-S23",
+        "V03-S32"
+      ]
+    },
+    {
+      "id": "CLM-V03-013",
+      "type": "claim",
+      "title": "1433년 11월 30일 프라하에서 양측이 확인한 콤팍타타 핵심 합의 문안은 세 개로 설명된다.",
+      "source_path": "data/vol03_primary_claims.json",
+      "review_status": "DRAFT",
+      "source_ids": [
+        "V03-S34"
+      ]
+    },
+    {
+      "id": "CLM-V03-014",
+      "type": "claim",
+      "title": "1437년 12월 23일 바젤 공의회에서 관련 후속 교령이 발표되어 평신도의 잔 수령을 보편 의무라고 보지 않았다.",
+      "source_path": "data/vol03_primary_claims.json",
+      "review_status": "DRAFT",
+      "source_ids": [
+        "V03-S34"
+      ]
+    },
+    {
+      "id": "AX-V03-01",
+      "type": "theological_axis",
+      "title": "성경과 신앙의 규범",
+      "source_path": "data/vol03_theology_causality.json",
+      "review_status": "DRAFT",
+      "source_ids": [
+        "V03-S05",
+        "V03-S09",
+        "V03-S36"
+      ]
+    },
+    {
+      "id": "AX-V03-02",
+      "type": "theological_axis",
+      "title": "공적 설교의 권한",
+      "source_path": "data/vol03_theology_causality.json",
+      "review_status": "DRAFT",
+      "source_ids": [
+        "V03-S41",
+        "V03-S32",
+        "V03-S37"
+      ]
+    },
+    {
+      "id": "AX-V03-03",
+      "type": "theological_axis",
+      "title": "교회론과 그리스도의 머리됨",
+      "source_path": "data/vol03_theology_causality.json",
+      "review_status": "DRAFT",
+      "source_ids": [
+        "V03-S31",
+        "V03-S36"
+      ]
+    },
+    {
+      "id": "AX-V03-04",
+      "type": "theological_axis",
+      "title": "재산과 세속 지배권",
+      "source_path": "data/vol03_theology_causality.json",
+      "review_status": "DRAFT",
+      "source_ids": [
+        "V03-S05",
+        "V03-S32",
+        "V03-S41"
+      ]
+    },
+    {
+      "id": "AX-V03-05",
+      "type": "theological_axis",
+      "title": "성찬 실체·현존",
+      "source_path": "data/vol03_theology_causality.json",
+      "review_status": "DRAFT",
+      "source_ids": [
+        "V03-S19",
+        "V03-S21",
+        "V03-S38"
+      ]
+    },
+    {
+      "id": "AX-V03-06",
+      "type": "theological_axis",
+      "title": "성찬 수령과 양형성찬",
+      "source_path": "data/vol03_theology_causality.json",
+      "review_status": "DRAFT",
+      "source_ids": [
+        "V03-S13",
+        "V03-S32",
+        "V03-S38"
+      ]
+    },
+    {
+      "id": "AX-V03-07",
+      "type": "theological_axis",
+      "title": "폭력·공권력·종교적 공존",
+      "source_path": "data/vol03_theology_causality.json",
+      "review_status": "DRAFT",
+      "source_ids": [
+        "V03-S35",
+        "V03-S39",
+        "V03-S43"
+      ]
+    },
+    {
+      "id": "CASE-V03-01",
+      "type": "causal_study",
+      "title": "리옹의 초기 왈도파",
+      "source_path": "data/vol03_theology_causality.json",
+      "review_status": "DRAFT",
+      "source_ids": [
+        "V03-S41",
+        "V03-S02"
+      ]
+    },
+    {
+      "id": "CASE-V03-02",
+      "type": "causal_study",
+      "title": "옥스퍼드 학술 논쟁의 프라하 수용",
+      "source_path": "data/vol03_theology_causality.json",
+      "review_status": "DRAFT",
+      "source_ids": [
+        "V03-S05",
+        "V03-S09"
+      ]
+    },
+    {
+      "id": "CASE-V03-03",
+      "type": "causal_study",
+      "title": "프라하 면벌부 논쟁과 후스의 처형",
+      "source_path": "data/vol03_theology_causality.json",
+      "review_status": "DRAFT",
+      "source_ids": [
+        "V03-S37",
+        "V03-S10"
+      ]
+    },
+    {
+      "id": "CASE-V03-04",
+      "type": "causal_study",
+      "title": "후스파 분화와 콤팍타타",
+      "source_path": "data/vol03_theology_causality.json",
+      "review_status": "DRAFT",
+      "source_ids": [
+        "V03-S35",
+        "V03-S39",
+        "V03-S43"
+      ]
+    },
+    {
+      "id": "CASE-V03-05",
+      "type": "causal_study",
+      "title": "왈도파와 개혁파의 장기 접촉",
+      "source_path": "data/vol03_theology_causality.json",
+      "review_status": "DRAFT",
+      "source_ids": [
+        "V03-S26",
+        "V03-S27",
+        "V03-S42"
+      ]
+    },
+    {
+      "id": "AST-0001",
+      "type": "asset_committed",
+      "title": "위클리프·후스·루터의 사상 영향과 후대 수용",
+      "source_path": "assets/diagrams/AST-0001_wycliffe-hus-luther-relations.svg",
+      "review_status": "DRAFT",
+      "exists_in_git": true,
+      "source_ids": [
+        "SRC-0001",
+        "SRC-0003",
+        "SRC-0004"
+      ],
+      "public_visible": false,
+      "rights_status": "original_project_asset"
+    },
+    {
+      "id": "AST-0002",
+      "type": "asset_committed",
+      "title": "12~16세기 여러 중세 개혁운동의 관계",
+      "source_path": "assets/diagrams/AST-0002_vol03_movement-pathways.svg",
+      "review_status": "DRAFT",
+      "exists_in_git": true,
+      "source_ids": [
+        "V03-S01",
+        "V03-S05",
+        "V03-S09",
+        "V03-S11",
+        "V03-S15"
+      ],
+      "public_visible": false,
+      "rights_status": "original_project_asset"
+    },
+    {
+      "id": "MAP-V03-01",
+      "type": "asset_committed",
+      "title": "청빈과 설교, 리옹에서 시작된 질문",
+      "source_path": "assets/maps/MAP-V03-01_waldensians_lyon.svg",
+      "review_status": "DRAFT",
+      "exists_in_git": true,
+      "source_ids": [
+        "V03-S01",
+        "V03-S02",
+        "V03-S26"
+      ],
+      "public_visible": false,
+      "rights_status": "original_project_asset"
+    },
+    {
+      "id": "MAP-V03-02",
+      "type": "asset_committed",
+      "title": "옥스퍼드에서 프라하로 전해진 책",
+      "source_path": "assets/maps/MAP-V03-02_oxford_prague.svg",
+      "review_status": "DRAFT",
+      "exists_in_git": true,
+      "source_ids": [
+        "V03-S05",
+        "V03-S09",
+        "V03-S48"
+      ],
+      "public_visible": false,
+      "rights_status": "original_project_asset"
+    },
+    {
+      "id": "MAP-V03-03",
+      "type": "asset_committed",
+      "title": "보헤미아의 도시, 전쟁과 협상",
+      "source_path": "assets/maps/MAP-V03-03_bohemia_hussite.svg",
+      "review_status": "DRAFT",
+      "exists_in_git": true,
+      "source_ids": [
+        "V03-S11",
+        "V03-S14",
+        "V03-S34"
+      ],
+      "public_visible": false,
+      "rights_status": "original_project_asset"
+    },
+    {
+      "id": "MAP-V03-04",
+      "type": "asset_committed",
+      "title": "왈도파와 종교개혁자들의 대화망",
+      "source_path": "assets/maps/MAP-V03-04_waldensian_reform_network.svg",
+      "review_status": "DRAFT",
+      "exists_in_git": true,
+      "source_ids": [
+        "V03-S26",
+        "V03-S27",
+        "V03-S42"
+      ],
+      "public_visible": false,
+      "rights_status": "original_project_asset"
+    },
+    {
+      "id": "PRT-V03-01",
+      "type": "asset_pending_binary",
+      "title": "발도(발데스)",
+      "source_path": "assets/illustrations/vol03/PRT-V03-01_valdes_waldo.webp",
+      "review_status": "DRAFT",
+      "exists_in_git": false,
+      "source_ids": [
+        "V03-S01",
+        "V03-S51"
+      ],
+      "sha256_expected": "69dffe34c80d018344c3ee0695ddc3ac369862acfc25ca64c147f4dd261c7127",
+      "public_visible": false
+    },
+    {
+      "id": "PRT-V03-02",
+      "type": "asset_pending_binary",
+      "title": "존 위클리프",
+      "source_path": "assets/illustrations/vol03/PRT-V03-02_john_wyclif.webp",
+      "review_status": "DRAFT",
+      "exists_in_git": false,
+      "source_ids": [
+        "V03-S05",
+        "V03-S29"
+      ],
+      "sha256_expected": "371962bc9e743b90c6e89bd944ec8e700b52828fed8d0146959db3ffc209a494",
+      "public_visible": false
+    },
+    {
+      "id": "PRT-V03-03",
+      "type": "asset_pending_binary",
+      "title": "얀 후스",
+      "source_path": "assets/illustrations/vol03/PRT-V03-03_jan_hus.webp",
+      "review_status": "DRAFT",
+      "exists_in_git": false,
+      "source_ids": [
+        "V03-S09",
+        "V03-S50",
+        "V03-S52"
+      ],
+      "sha256_expected": "6738734737a9a5eb0067791dd188b82d5ffa57bff319aad17709792059f5b73f",
+      "public_visible": false
+    },
+    {
+      "id": "PRT-V03-04",
+      "type": "asset_pending_binary",
+      "title": "얀 지슈카",
+      "source_path": "assets/illustrations/vol03/PRT-V03-04_jan_zizka.webp",
+      "review_status": "DRAFT",
+      "exists_in_git": false,
+      "source_ids": [
+        "V03-S49",
+        "V03-S53"
+      ],
+      "sha256_expected": "366a147f7559cd563d28bc1877188763ae962853a2f0df96d83d5c7992d1a2d9",
+      "public_visible": false
+    },
+    {
+      "id": "ILL-V03-01",
+      "type": "asset_pending_binary",
+      "title": "후스의 프라하 설교 장면",
+      "source_path": "assets/illustrations/vol03/ILL-V03-01_hus_preaching_prague_concept.webp",
+      "review_status": "DRAFT",
+      "exists_in_git": false,
+      "source_ids": [
+        "V03-S09",
+        "V03-S52"
+      ],
+      "sha256_expected": "e6f9bee9e8a8d70e5097f457dde5cad049c007a4362a369967810ecba58ea5b0",
+      "public_visible": false
+    },
+    {
+      "id": "ILL-V03-02",
+      "type": "asset_pending_binary",
+      "title": "바젤 공의회·보헤미아 대표단의 협상",
+      "source_path": "assets/illustrations/vol03/ILL-V03-02_basel_prague_negotiation_concept.webp",
+      "review_status": "DRAFT",
+      "exists_in_git": false,
+      "source_ids": [
+        "V03-S34",
+        "V03-S35"
+      ],
+      "sha256_expected": "24afecb06a6803695a86bf28c83062c7b437bff86c8f84e31aa399dc5c98bc46",
+      "public_visible": false
+    },
+    {
+      "id": "ENTRY-V03-WALDO",
+      "type": "page_draft",
+      "title": "발도와 왈도파",
+      "source_path": "docs/01_CONTENT/VOL03/01_WALDENSIANS.md",
+      "review_status": "DRAFT",
+      "publication_allowed": false
+    },
+    {
+      "id": "ENTRY-V03-WYCLIF",
+      "type": "page_draft",
+      "title": "존 위클리프",
+      "source_path": "docs/01_CONTENT/VOL03/02_WYCLIF_LOLLARDS.md",
+      "review_status": "DRAFT",
+      "publication_allowed": false
+    },
+    {
+      "id": "ENTRY-V03-HUS",
+      "type": "page_draft",
+      "title": "얀 후스",
+      "source_path": "docs/01_CONTENT/VOL03/03_HUS_AND_PRAGUE.md",
+      "review_status": "DRAFT",
+      "publication_allowed": false
+    },
+    {
+      "id": "ENTRY-V03-ZIZKA",
+      "type": "page_draft",
+      "title": "얀 지슈카",
+      "source_path": "docs/01_CONTENT/VOL03/04_HUSSITE_MOVEMENTS.md",
+      "review_status": "DRAFT",
+      "publication_allowed": false
+    },
+    {
+      "id": "STORY-V03-SERMON",
+      "type": "page_draft",
+      "title": "프라하 예배당 설교",
+      "source_path": "docs/01_CONTENT/VOL03/03_HUS_AND_PRAGUE.md",
+      "review_status": "DRAFT",
+      "publication_allowed": false
+    },
+    {
+      "id": "STORY-V03-COMPACTATA",
+      "type": "page_draft",
+      "title": "바젤과 보헤미아의 협상",
+      "source_path": "docs/01_CONTENT/VOL03/09_PRAGUE_ARTICLES_AND_COMPACTATA.md",
+      "review_status": "DRAFT",
+      "publication_allowed": false
+    },
+    {
+      "id": "MV-V03-01",
+      "type": "map_view",
+      "title": "발도와 리옹",
+      "source_path": "data/vol03_presentation_index.json",
+      "review_status": "DRAFT",
+      "publication_allowed": false
+    },
+    {
+      "id": "MV-V03-02",
+      "type": "map_view",
+      "title": "옥스퍼드–프라하 문헌 영향",
+      "source_path": "data/vol03_presentation_index.json",
+      "review_status": "DRAFT",
+      "publication_allowed": false
+    },
+    {
+      "id": "MV-V03-03",
+      "type": "map_view",
+      "title": "후스파의 도시·협상",
+      "source_path": "data/vol03_presentation_index.json",
+      "review_status": "DRAFT",
+      "publication_allowed": false
+    },
+    {
+      "id": "MV-V03-04",
+      "type": "map_view",
+      "title": "왈도파·개혁자 대화망",
+      "source_path": "data/vol03_presentation_index.json",
+      "review_status": "DRAFT",
+      "publication_allowed": false
+    },
+    {
+      "id": "RESEARCH-V03-PRIMARY",
+      "type": "research_view",
+      "title": "원전과 번역 대조",
+      "source_path": "docs/01_CONTENT/VOL03/11_PRIMARY_SOURCE_AUDIT_V03.md",
+      "review_status": "DRAFT",
+      "publication_allowed": false
+    },
+    {
+      "id": "RESEARCH-V03-EDITION",
+      "type": "research_view",
+      "title": "문헌·판본 추적",
+      "source_path": "docs/01_CONTENT/VOL03/13_DOCUMENT_PROVENANCE_AND_EDITION_V04.md",
+      "review_status": "DRAFT",
+      "publication_allowed": false
+    },
+    {
+      "id": "RESEARCH-V03-THEOLOGY",
+      "type": "research_view",
+      "title": "교리 7축 비교",
+      "source_path": "docs/01_CONTENT/VOL03/15_THEOLOGICAL_COMPARISON_V05.md",
+      "review_status": "DRAFT",
+      "publication_allowed": false
+    },
+    {
+      "id": "RESEARCH-V03-CAUSAL",
+      "type": "research_view",
+      "title": "사건 인과 5사례",
+      "source_path": "docs/01_CONTENT/VOL03/16_CAUSAL_CASE_STUDIES_V05.md",
+      "review_status": "DRAFT",
+      "publication_allowed": false
+    }
+  ],
+  "edges": [
+    {
+      "from": "PER-0004",
+      "to": "V03-S01",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "PER-0004",
+      "to": "V03-S02",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "PER-0005",
+      "to": "V03-S17",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "PER-0006",
+      "to": "V03-S13",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "PER-0007",
+      "to": "V03-S11",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "PER-0007",
+      "to": "V03-S18",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "PER-0008",
+      "to": "V03-S15",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "PER-0008",
+      "to": "V03-S16",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "PER-0009",
+      "to": "V03-S11",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "PER-0009",
+      "to": "V03-S15",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "MOV-0001",
+      "to": "V03-S01",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "MOV-0001",
+      "to": "V03-S04",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "MOV-0002",
+      "to": "V03-S06",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "MOV-0003",
+      "to": "V03-S11",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "MOV-0004",
+      "to": "V03-S15",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "MOV-0004",
+      "to": "V03-S16",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "EVT-0005",
+      "to": "V03-S01",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "EVT-0005",
+      "to": "V03-S02",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "EVT-0006",
+      "to": "V03-S01",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "EVT-0006",
+      "to": "V03-S02",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "EVT-0007",
+      "to": "V03-S05",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "EVT-0008",
+      "to": "V03-S09",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "EVT-0009",
+      "to": "V03-S09",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "EVT-0010",
+      "to": "V03-S13",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "EVT-0011",
+      "to": "V03-S17",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "EVT-0012",
+      "to": "V03-S12",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "EVT-0013",
+      "to": "V03-S11",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "EVT-0013",
+      "to": "V03-S13",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "EVT-0014",
+      "to": "V03-S12",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "EVT-0014",
+      "to": "V03-S18",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "EVT-0015",
+      "to": "V03-S14",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "EVT-0016",
+      "to": "V03-S14",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "EVT-0017",
+      "to": "V03-S15",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "EVT-0017",
+      "to": "V03-S16",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "EVT-0018",
+      "to": "V03-S03",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "EVT-0018",
+      "to": "V03-S04",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "EVT-0019",
+      "to": "V03-S34",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "EVT-0020",
+      "to": "V03-S34",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "REL-0003",
+      "to": "V03-S01",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "REL-0004",
+      "to": "V03-S06",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "REL-0005",
+      "to": "V03-S05",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "REL-0005",
+      "to": "V03-S17",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "REL-0006",
+      "to": "V03-S11",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "REL-0007",
+      "to": "V03-S15",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "REL-0008",
+      "to": "V03-S03",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "REL-0008",
+      "to": "V03-S04",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "REL-0009",
+      "to": "V03-S13",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "DOC-V03-001",
+      "to": "V03-S23",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "DOC-V03-001",
+      "to": "V03-S32",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "EDN-V03-001",
+      "to": "V03-S23",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "EDN-V03-002",
+      "to": "V03-S32",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "TRN-V03-001",
+      "to": "V03-S32",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "DOC-V03-002",
+      "to": "V03-S34",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "EVR-V03-001",
+      "to": "V03-S33",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "EVR-V03-001",
+      "to": "V03-S34",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "DOC-V03-003",
+      "to": "V03-S34",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "EDN-V03-003",
+      "to": "V03-S33",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "EDN-V03-003",
+      "to": "V03-S34",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "CLM-V03-001",
+      "to": "V03-S29",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "CLM-V03-001",
+      "to": "V03-S19",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "CLM-V03-002",
+      "to": "V03-S30",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "CLM-V03-003",
+      "to": "V03-S31",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "CLM-V03-004",
+      "to": "V03-S31",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "CLM-V03-005",
+      "to": "V03-S32",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "CLM-V03-006",
+      "to": "V03-S32",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "CLM-V03-007",
+      "to": "V03-S32",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "CLM-V03-008",
+      "to": "V03-S34",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "CLM-V03-009",
+      "to": "V03-S33",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "CLM-V03-009",
+      "to": "V03-S34",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "CLM-V03-010",
+      "to": "V03-S33",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "CLM-V03-011",
+      "to": "V03-S21",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "CLM-V03-011",
+      "to": "V03-S22",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "CLM-V03-012",
+      "to": "V03-S23",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "CLM-V03-012",
+      "to": "V03-S32",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "CLM-V03-013",
+      "to": "V03-S34",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "CLM-V03-014",
+      "to": "V03-S34",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "AX-V03-01",
+      "to": "V03-S05",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "AX-V03-01",
+      "to": "V03-S09",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "AX-V03-01",
+      "to": "V03-S36",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "AX-V03-02",
+      "to": "V03-S41",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "AX-V03-02",
+      "to": "V03-S32",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "AX-V03-02",
+      "to": "V03-S37",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "AX-V03-03",
+      "to": "V03-S31",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "AX-V03-03",
+      "to": "V03-S36",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "AX-V03-04",
+      "to": "V03-S05",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "AX-V03-04",
+      "to": "V03-S32",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "AX-V03-04",
+      "to": "V03-S41",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "AX-V03-05",
+      "to": "V03-S19",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "AX-V03-05",
+      "to": "V03-S21",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "AX-V03-05",
+      "to": "V03-S38",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "AX-V03-06",
+      "to": "V03-S13",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "AX-V03-06",
+      "to": "V03-S32",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "AX-V03-06",
+      "to": "V03-S38",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "AX-V03-07",
+      "to": "V03-S35",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "AX-V03-07",
+      "to": "V03-S39",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "AX-V03-07",
+      "to": "V03-S43",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "CASE-V03-01",
+      "to": "V03-S41",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "CASE-V03-01",
+      "to": "V03-S02",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "CASE-V03-02",
+      "to": "V03-S05",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "CASE-V03-02",
+      "to": "V03-S09",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "CASE-V03-03",
+      "to": "V03-S37",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "CASE-V03-03",
+      "to": "V03-S10",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "CASE-V03-04",
+      "to": "V03-S35",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "CASE-V03-04",
+      "to": "V03-S39",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "CASE-V03-04",
+      "to": "V03-S43",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "CASE-V03-05",
+      "to": "V03-S26",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "CASE-V03-05",
+      "to": "V03-S27",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "CASE-V03-05",
+      "to": "V03-S42",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "AST-0002",
+      "to": "V03-S01",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "AST-0002",
+      "to": "V03-S05",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "AST-0002",
+      "to": "V03-S09",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "AST-0002",
+      "to": "V03-S11",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "AST-0002",
+      "to": "V03-S15",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "MAP-V03-01",
+      "to": "V03-S01",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "MAP-V03-01",
+      "to": "V03-S02",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "MAP-V03-01",
+      "to": "V03-S26",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "MAP-V03-02",
+      "to": "V03-S05",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "MAP-V03-02",
+      "to": "V03-S09",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "MAP-V03-02",
+      "to": "V03-S48",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "MAP-V03-03",
+      "to": "V03-S11",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "MAP-V03-03",
+      "to": "V03-S14",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "MAP-V03-03",
+      "to": "V03-S34",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "MAP-V03-04",
+      "to": "V03-S26",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "MAP-V03-04",
+      "to": "V03-S27",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "MAP-V03-04",
+      "to": "V03-S42",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "PRT-V03-01",
+      "to": "V03-S01",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "PRT-V03-01",
+      "to": "V03-S51",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "PRT-V03-02",
+      "to": "V03-S05",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "PRT-V03-02",
+      "to": "V03-S29",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "PRT-V03-03",
+      "to": "V03-S09",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "PRT-V03-03",
+      "to": "V03-S50",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "PRT-V03-03",
+      "to": "V03-S52",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "PRT-V03-04",
+      "to": "V03-S49",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "PRT-V03-04",
+      "to": "V03-S53",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "ILL-V03-01",
+      "to": "V03-S09",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "ILL-V03-01",
+      "to": "V03-S52",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "ILL-V03-02",
+      "to": "V03-S34",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "ILL-V03-02",
+      "to": "V03-S35",
+      "type": "grounded_in",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "REL-0001",
+      "to": "PER-0001",
+      "type": "relation_origin",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "REL-0001",
+      "to": "PER-0002",
+      "type": "relation_target",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "PER-0001",
+      "to": "PER-0002",
+      "type": "textual_influence",
+      "evidence_source_ids": [
+        "SRC-0001",
+        "SRC-0003"
+      ]
+    },
+    {
+      "from": "REL-0002",
+      "to": "PER-0002",
+      "type": "relation_origin",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "REL-0002",
+      "to": "PER-0003",
+      "type": "relation_target",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "PER-0002",
+      "to": "PER-0003",
+      "type": "later_reception",
+      "evidence_source_ids": [
+        "SRC-0004"
+      ]
+    },
+    {
+      "from": "REL-0003",
+      "to": "PER-0004",
+      "type": "relation_origin",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "REL-0003",
+      "to": "MOV-0001",
+      "type": "relation_target",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "PER-0004",
+      "to": "MOV-0001",
+      "type": "movement_origin",
+      "evidence_source_ids": [
+        "V03-S01"
+      ]
+    },
+    {
+      "from": "REL-0004",
+      "to": "PER-0001",
+      "type": "relation_origin",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "REL-0004",
+      "to": "MOV-0002",
+      "type": "relation_target",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "PER-0001",
+      "to": "MOV-0002",
+      "type": "intellectual_inspiration",
+      "evidence_source_ids": [
+        "V03-S06"
+      ]
+    },
+    {
+      "from": "REL-0005",
+      "to": "PER-0001",
+      "type": "relation_origin",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "REL-0005",
+      "to": "PER-0005",
+      "type": "relation_target",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "PER-0001",
+      "to": "PER-0005",
+      "type": "textual_reception",
+      "evidence_source_ids": [
+        "V03-S05",
+        "V03-S17"
+      ]
+    },
+    {
+      "from": "REL-0006",
+      "to": "PER-0002",
+      "type": "relation_origin",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "REL-0006",
+      "to": "MOV-0003",
+      "type": "relation_target",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "PER-0002",
+      "to": "MOV-0003",
+      "type": "historical_inspiration",
+      "evidence_source_ids": [
+        "V03-S11"
+      ]
+    },
+    {
+      "from": "REL-0007",
+      "to": "MOV-0003",
+      "type": "relation_origin",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "REL-0007",
+      "to": "MOV-0004",
+      "type": "relation_target",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "MOV-0003",
+      "to": "MOV-0004",
+      "type": "movement_emergence",
+      "evidence_source_ids": [
+        "V03-S15"
+      ]
+    },
+    {
+      "from": "REL-0008",
+      "to": "MOV-0001",
+      "type": "relation_origin",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "REL-0008",
+      "to": "EVT-0018",
+      "type": "relation_target",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "MOV-0001",
+      "to": "EVT-0018",
+      "type": "reform_alignment",
+      "evidence_source_ids": [
+        "V03-S03",
+        "V03-S04"
+      ]
+    },
+    {
+      "from": "REL-0009",
+      "to": "PER-0006",
+      "type": "relation_origin",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "REL-0009",
+      "to": "EVT-0010",
+      "type": "relation_target",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "PER-0006",
+      "to": "EVT-0010",
+      "type": "theological_and_liturgical_leadership",
+      "evidence_source_ids": [
+        "V03-S13"
+      ]
+    },
+    {
+      "from": "PER-0004",
+      "to": "LOC-0006",
+      "type": "associated_place",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "PER-0005",
+      "to": "LOC-0002",
+      "type": "associated_place",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "PER-0005",
+      "to": "LOC-0005",
+      "type": "associated_place",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "PER-0006",
+      "to": "LOC-0002",
+      "type": "associated_place",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "PER-0007",
+      "to": "LOC-0007",
+      "type": "associated_place",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "PER-0008",
+      "to": "LOC-0012",
+      "type": "associated_place",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "EVT-0005",
+      "to": "PER-0004",
+      "type": "involves_actor",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "EVT-0005",
+      "to": "MOV-0001",
+      "type": "involves_actor",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "EVT-0005",
+      "to": "LOC-0006",
+      "type": "associated_place",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "EVT-0006",
+      "to": "PER-0004",
+      "type": "involves_actor",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "EVT-0006",
+      "to": "MOV-0001",
+      "type": "involves_actor",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "EVT-0006",
+      "to": "LOC-0006",
+      "type": "associated_place",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "EVT-0007",
+      "to": "PER-0001",
+      "type": "involves_actor",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "EVT-0007",
+      "to": "LOC-0001",
+      "type": "associated_place",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "EVT-0008",
+      "to": "PER-0002",
+      "type": "involves_actor",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "EVT-0008",
+      "to": "LOC-0002",
+      "type": "associated_place",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "EVT-0009",
+      "to": "PER-0002",
+      "type": "involves_actor",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "EVT-0009",
+      "to": "LOC-0002",
+      "type": "associated_place",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "EVT-0010",
+      "to": "PER-0006",
+      "type": "involves_actor",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "EVT-0010",
+      "to": "LOC-0002",
+      "type": "associated_place",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "EVT-0011",
+      "to": "PER-0005",
+      "type": "involves_actor",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "EVT-0011",
+      "to": "LOC-0005",
+      "type": "associated_place",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "EVT-0012",
+      "to": "MOV-0003",
+      "type": "involves_actor",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "EVT-0012",
+      "to": "LOC-0002",
+      "type": "associated_place",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "EVT-0013",
+      "to": "MOV-0003",
+      "type": "involves_actor",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "EVT-0013",
+      "to": "PER-0006",
+      "type": "involves_actor",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "EVT-0013",
+      "to": "LOC-0002",
+      "type": "associated_place",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "EVT-0014",
+      "to": "MOV-0003",
+      "type": "involves_actor",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "EVT-0014",
+      "to": "PER-0007",
+      "type": "involves_actor",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "EVT-0014",
+      "to": "LOC-0002",
+      "type": "associated_place",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "EVT-0014",
+      "to": "LOC-0007",
+      "type": "associated_place",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "EVT-0015",
+      "to": "MOV-0003",
+      "type": "involves_actor",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "EVT-0015",
+      "to": "LOC-0011",
+      "type": "associated_place",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "EVT-0016",
+      "to": "MOV-0003",
+      "type": "involves_actor",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "EVT-0016",
+      "to": "LOC-0013",
+      "type": "associated_place",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "EVT-0017",
+      "to": "MOV-0004",
+      "type": "involves_actor",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "EVT-0017",
+      "to": "PER-0008",
+      "type": "involves_actor",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "EVT-0017",
+      "to": "LOC-0012",
+      "type": "associated_place",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "EVT-0018",
+      "to": "MOV-0001",
+      "type": "involves_actor",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "EVT-0018",
+      "to": "LOC-0009",
+      "type": "associated_place",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "EVT-0019",
+      "to": "MOV-0003",
+      "type": "involves_actor",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "EVT-0019",
+      "to": "LOC-0002",
+      "type": "associated_place",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "EVT-0020",
+      "to": "MOV-0003",
+      "type": "involves_actor",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "EVT-0020",
+      "to": "LOC-0010",
+      "type": "associated_place",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "CLM-V03-001",
+      "to": "PER-0001",
+      "type": "claim_about",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "CLM-V03-002",
+      "to": "PER-0001",
+      "type": "claim_about",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "CLM-V03-003",
+      "to": "PER-0002",
+      "type": "claim_about",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "CLM-V03-004",
+      "to": "PER-0002",
+      "type": "claim_about",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "CLM-V03-005",
+      "to": "EVT-0013",
+      "type": "claim_about",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "CLM-V03-006",
+      "to": "EVT-0013",
+      "type": "claim_about",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "CLM-V03-007",
+      "to": "EVT-0013",
+      "type": "claim_about",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "CLM-V03-008",
+      "to": "EVT-0016",
+      "type": "claim_about",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "CLM-V03-009",
+      "to": "EVT-0016",
+      "type": "claim_about",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "CLM-V03-010",
+      "to": "EVT-0016",
+      "type": "claim_about",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "CLM-V03-011",
+      "to": "PER-0002",
+      "type": "claim_about",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "CLM-V03-012",
+      "to": "EVT-0013",
+      "type": "claim_about",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "CLM-V03-013",
+      "to": "EVT-0019",
+      "type": "claim_about",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "CLM-V03-014",
+      "to": "EVT-0020",
+      "type": "claim_about",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "DOC-V03-001",
+      "to": "EVT-0013",
+      "type": "documents_event",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "EDN-V03-001",
+      "to": "DOC-V03-001",
+      "type": "based_on",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "EDN-V03-002",
+      "to": "DOC-V03-001",
+      "type": "based_on",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "TRN-V03-001",
+      "to": "EDN-V03-002",
+      "type": "based_on",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "DOC-V03-002",
+      "to": "EVT-0019",
+      "type": "documents_event",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "EVR-V03-001",
+      "to": "EVT-0016",
+      "type": "documents_event",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "DOC-V03-003",
+      "to": "EVT-0020",
+      "type": "documents_event",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "EDN-V03-003",
+      "to": "DOC-V03-002",
+      "type": "related_document",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "EDN-V03-003",
+      "to": "EVR-V03-001",
+      "type": "related_document",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "AX-V03-01",
+      "to": "PER-0001",
+      "type": "compares",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "AX-V03-01",
+      "to": "PER-0002",
+      "type": "compares",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "AX-V03-01",
+      "to": "MOV-0003",
+      "type": "compares",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "AX-V03-02",
+      "to": "MOV-0001",
+      "type": "compares",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "AX-V03-02",
+      "to": "PER-0002",
+      "type": "compares",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "AX-V03-02",
+      "to": "MOV-0003",
+      "type": "compares",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "AX-V03-03",
+      "to": "PER-0001",
+      "type": "compares",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "AX-V03-03",
+      "to": "PER-0002",
+      "type": "compares",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "AX-V03-04",
+      "to": "MOV-0001",
+      "type": "compares",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "AX-V03-04",
+      "to": "PER-0001",
+      "type": "compares",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "AX-V03-04",
+      "to": "MOV-0003",
+      "type": "compares",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "AX-V03-05",
+      "to": "PER-0001",
+      "type": "compares",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "AX-V03-05",
+      "to": "PER-0002",
+      "type": "compares",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "AX-V03-05",
+      "to": "PER-0006",
+      "type": "compares",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "AX-V03-06",
+      "to": "PER-0002",
+      "type": "compares",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "AX-V03-06",
+      "to": "PER-0006",
+      "type": "compares",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "AX-V03-06",
+      "to": "MOV-0003",
+      "type": "compares",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "AX-V03-07",
+      "to": "MOV-0003",
+      "type": "compares",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "AX-V03-07",
+      "to": "MOV-0004",
+      "type": "compares",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "CASE-V03-01",
+      "to": "PER-0004",
+      "type": "studies_actor",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "CASE-V03-01",
+      "to": "MOV-0001",
+      "type": "studies_actor",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "CASE-V03-01",
+      "to": "EVT-0005",
+      "type": "examines_event",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "CASE-V03-01",
+      "to": "EVT-0006",
+      "type": "examines_event",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "CASE-V03-02",
+      "to": "PER-0001",
+      "type": "studies_actor",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "CASE-V03-02",
+      "to": "PER-0002",
+      "type": "studies_actor",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "CASE-V03-02",
+      "to": "PER-0005",
+      "type": "studies_actor",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "CASE-V03-02",
+      "to": "EVT-0007",
+      "type": "examines_event",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "CASE-V03-02",
+      "to": "EVT-0008",
+      "type": "examines_event",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "CASE-V03-03",
+      "to": "PER-0002",
+      "type": "studies_actor",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "CASE-V03-03",
+      "to": "EVT-0009",
+      "type": "examines_event",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "CASE-V03-03",
+      "to": "EVT-0002",
+      "type": "examines_event",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "CASE-V03-04",
+      "to": "MOV-0003",
+      "type": "studies_actor",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "CASE-V03-04",
+      "to": "PER-0007",
+      "type": "studies_actor",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "CASE-V03-04",
+      "to": "EVT-0012",
+      "type": "examines_event",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "CASE-V03-04",
+      "to": "EVT-0013",
+      "type": "examines_event",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "CASE-V03-04",
+      "to": "EVT-0014",
+      "type": "examines_event",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "CASE-V03-04",
+      "to": "EVT-0015",
+      "type": "examines_event",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "CASE-V03-04",
+      "to": "EVT-0019",
+      "type": "examines_event",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "CASE-V03-04",
+      "to": "EVT-0016",
+      "type": "examines_event",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "CASE-V03-04",
+      "to": "EVT-0020",
+      "type": "examines_event",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "CASE-V03-05",
+      "to": "MOV-0001",
+      "type": "studies_actor",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "CASE-V03-05",
+      "to": "EVT-0018",
+      "type": "examines_event",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "AST-0001",
+      "to": "PER-0001",
+      "type": "illustrates",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "AST-0001",
+      "to": "PER-0002",
+      "type": "illustrates",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "AST-0001",
+      "to": "PER-0003",
+      "type": "illustrates",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "AST-0001",
+      "to": "REL-0001",
+      "type": "illustrates",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "AST-0001",
+      "to": "REL-0002",
+      "type": "illustrates",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "AST-0002",
+      "to": "PER-0004",
+      "type": "illustrates",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "AST-0002",
+      "to": "MOV-0001",
+      "type": "illustrates",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "AST-0002",
+      "to": "PER-0001",
+      "type": "illustrates",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "AST-0002",
+      "to": "PER-0002",
+      "type": "illustrates",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "AST-0002",
+      "to": "PER-0003",
+      "type": "illustrates",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "AST-0002",
+      "to": "MOV-0003",
+      "type": "illustrates",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "AST-0002",
+      "to": "MOV-0004",
+      "type": "illustrates",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "MAP-V03-01",
+      "to": "LOC-0006",
+      "type": "illustrates",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "MAP-V03-01",
+      "to": "LOC-0009",
+      "type": "illustrates",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "MAP-V03-01",
+      "to": "PER-0004",
+      "type": "illustrates",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "MAP-V03-01",
+      "to": "MOV-0001",
+      "type": "illustrates",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "MAP-V03-02",
+      "to": "LOC-0001",
+      "type": "illustrates",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "MAP-V03-02",
+      "to": "LOC-0002",
+      "type": "illustrates",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "MAP-V03-02",
+      "to": "LOC-0005",
+      "type": "illustrates",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "MAP-V03-02",
+      "to": "PER-0001",
+      "type": "illustrates",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "MAP-V03-02",
+      "to": "PER-0002",
+      "type": "illustrates",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "MAP-V03-03",
+      "to": "LOC-0002",
+      "type": "illustrates",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "MAP-V03-03",
+      "to": "LOC-0007",
+      "type": "illustrates",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "MAP-V03-03",
+      "to": "LOC-0011",
+      "type": "illustrates",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "MAP-V03-03",
+      "to": "LOC-0013",
+      "type": "illustrates",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "MAP-V03-03",
+      "to": "LOC-0014",
+      "type": "illustrates",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "MAP-V03-03",
+      "to": "MOV-0003",
+      "type": "illustrates",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "MAP-V03-04",
+      "to": "LOC-0009",
+      "type": "illustrates",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "MAP-V03-04",
+      "to": "LOC-0010",
+      "type": "illustrates",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "MAP-V03-04",
+      "to": "LOC-0015",
+      "type": "illustrates",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "MAP-V03-04",
+      "to": "LOC-0016",
+      "type": "illustrates",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "MAP-V03-04",
+      "to": "LOC-0017",
+      "type": "illustrates",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "MAP-V03-04",
+      "to": "MOV-0001",
+      "type": "illustrates",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "PRT-V03-01",
+      "to": "PER-0004",
+      "type": "imagines",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "PRT-V03-01",
+      "to": "LOC-0006",
+      "type": "imagines",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "PRT-V03-02",
+      "to": "PER-0001",
+      "type": "imagines",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "PRT-V03-02",
+      "to": "LOC-0001",
+      "type": "imagines",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "PRT-V03-03",
+      "to": "PER-0002",
+      "type": "imagines",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "PRT-V03-03",
+      "to": "LOC-0002",
+      "type": "imagines",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "PRT-V03-04",
+      "to": "PER-0007",
+      "type": "imagines",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "PRT-V03-04",
+      "to": "LOC-0007",
+      "type": "imagines",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "ILL-V03-01",
+      "to": "PER-0002",
+      "type": "imagines",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "ILL-V03-01",
+      "to": "LOC-0002",
+      "type": "imagines",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "ILL-V03-02",
+      "to": "MOV-0003",
+      "type": "imagines",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "ILL-V03-02",
+      "to": "LOC-0010",
+      "type": "imagines",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "ILL-V03-02",
+      "to": "LOC-0002",
+      "type": "imagines",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "ENTRY-V03-WALDO",
+      "to": "PER-0004",
+      "type": "focus_person",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "ENTRY-V03-WALDO",
+      "to": "PRT-V03-01",
+      "type": "staged_portrait",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "ENTRY-V03-WALDO",
+      "to": "MAP-V03-01",
+      "type": "context_map",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "ENTRY-V03-WYCLIF",
+      "to": "PER-0001",
+      "type": "focus_person",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "ENTRY-V03-WYCLIF",
+      "to": "PRT-V03-02",
+      "type": "staged_portrait",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "ENTRY-V03-WYCLIF",
+      "to": "MAP-V03-02",
+      "type": "context_map",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "ENTRY-V03-HUS",
+      "to": "PER-0002",
+      "type": "focus_person",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "ENTRY-V03-HUS",
+      "to": "PRT-V03-03",
+      "type": "staged_portrait",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "ENTRY-V03-HUS",
+      "to": "MAP-V03-02",
+      "type": "context_map",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "ENTRY-V03-ZIZKA",
+      "to": "PER-0007",
+      "type": "focus_person",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "ENTRY-V03-ZIZKA",
+      "to": "PRT-V03-04",
+      "type": "staged_portrait",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "ENTRY-V03-ZIZKA",
+      "to": "MAP-V03-03",
+      "type": "context_map",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "STORY-V03-SERMON",
+      "to": "ILL-V03-01",
+      "type": "staged_illustration",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "STORY-V03-SERMON",
+      "to": "PER-0002",
+      "type": "related_to",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "STORY-V03-SERMON",
+      "to": "LOC-0002",
+      "type": "related_to",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "STORY-V03-COMPACTATA",
+      "to": "ILL-V03-02",
+      "type": "staged_illustration",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "STORY-V03-COMPACTATA",
+      "to": "MOV-0003",
+      "type": "related_to",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "STORY-V03-COMPACTATA",
+      "to": "LOC-0002",
+      "type": "related_to",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "STORY-V03-COMPACTATA",
+      "to": "LOC-0010",
+      "type": "related_to",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "MV-V03-01",
+      "to": "MAP-V03-01",
+      "type": "points_to_map",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "MV-V03-02",
+      "to": "MAP-V03-02",
+      "type": "points_to_map",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "MV-V03-03",
+      "to": "MAP-V03-03",
+      "type": "points_to_map",
+      "evidence_source_ids": []
+    },
+    {
+      "from": "MV-V03-04",
+      "to": "MAP-V03-04",
+      "type": "points_to_map",
+      "evidence_source_ids": []
+    }
+  ]
+}
