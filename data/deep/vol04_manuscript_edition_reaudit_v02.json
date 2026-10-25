@@ -1,0 +1,73 @@
+{
+  "schema_version": "0.2",
+  "status": "RESEARCH_ONLY",
+  "publication_approved": false,
+  "manuscript_1530": {
+    "original_german": "LOST_OR_UNLOCATED",
+    "original_latin": "LOST_OR_UNLOCATED",
+    "support": "HISTORIOGRAPHY_ONLY",
+    "distinct_from_printed_copies": true
+  },
+  "printed_1530": [
+    {
+      "name": "Gruber 162",
+      "lang": "de",
+      "kind": "unofficial_print",
+      "verification": "CATALOG_CONFIRMED"
+    },
+    {
+      "name": "Gruber 175",
+      "lang": "de",
+      "kind": "second_german_print",
+      "verification": "CATALOG_CONFIRMED"
+    },
+    {
+      "name": "Gruber 176",
+      "lang": "de",
+      "kind": "incomplete_print_copy",
+      "verification": "CATALOG_CONFIRMED"
+    },
+    {
+      "name": "Gruber 163",
+      "lang": "la",
+      "kind": "latin_early_print",
+      "verification": "CATALOG_CONFIRMED"
+    }
+  ],
+  "printed_1531": [
+    {
+      "name": "BSB 4 H.ref. 205 b",
+      "lang": "la",
+      "kind": "print_copy",
+      "verification": "CATALOG_CONFIRMED"
+    }
+  ],
+  "luther_1522": {
+    "september_original_copy_shelfmark": null,
+    "december_copy_shelfmark": "BRA0930",
+    "same_edition": false
+  },
+  "calvin": {
+    "work_id": "OV-D-012",
+    "latin_editions": [
+      1536,
+      1539,
+      1543,
+      1550,
+      1559
+    ],
+    "french_editions": [
+      1541,
+      1545,
+      1551,
+      1560
+    ],
+    "text_collated": false
+  },
+  "sources": [
+    "https://gruber.lstc.edu/confessions/augs_apol.php",
+    "https://www.bavarikon.de/object/bav%3ABSB-CMS-0000000000001353?lang=en",
+    "https://catalogue.bnf.fr/ark%3A/12148/cb11963198n",
+    "https://calvin.edu/sites/default/files/migrated/centers-institutes-meeter-center-files-microform-collection-Works-of-John-Calvin-Titlelist.pdf"
+  ]
+}
