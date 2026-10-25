@@ -1,4 +1,4 @@
-# VOL-03 연구 출처 대장 V0.6
+# VOL-03 연구 출처 대장 V0.7
 > 2026-10-25 수집 · 모든 출처는 실제 열람 범위 명시 · `DRAFT`
 
 **중요**: 유료 문헌의 비공개 장/본문을 열람한 것으로 간주하지 않는다. 공개 초록·서평은 연구 내용을 소개하는 2차 단서이며 중요한 논쟁적 주장에는 후속 1차 사료 교차검증이 필요하다. 해당 출처 내용은 자체 문장으로 재구성한다.
@@ -58,6 +58,12 @@
 
 | V03-S48 | 학술 논문 공개 본문/초록 | [Ralph Hanna, Oxford to Prague: Orthodox Insular Texts in Bohemia, The Library 24(3)](https://academic.oup.com/library/article/24/3/302/7280415) | 2023 | 옥스퍼드 자료의 프라하 필사본 전파; 정확한 개별 전달 경로는 불확실 | 공개 논문 웹페이지 및 본문 일부 확인, 지도는 **개념적 영향선**만 사용 |
 
+| V03-S49 | 국가 학술기관 역사 고증 보고 | [Czech Academy of Sciences, archaeological institutes: Jan Žižka facial reconstruction criticism](https://www.arup.cas.cz/en/statement-aru-arub/) | 2024 | 지슈카 얼굴 재현·눈 부상 방향 불확실, 고고학적 증거의 한계 | 공개 기관 보고서 본문 확인 |
+| V03-S50 | 동료심사 역사학 연구 공개 발췌 | [Phillip N. Haberkern, Patron Saint and Prophet, Oxford Academic](https://academic.oup.com/book/26934/chapter-abstract/196064960) | 2016 | 후스의 초기 처형 도상과 후대 대표 이미지의 차이 | 결론부 공개 발췌, 전체 유료 저작 미열람 |
+| V03-S51 | 학술 백과 항목 공개 초록 | [Jason K. Lee, Waldo, Peter (1140–1217), Wiley](https://onlinelibrary.wiley.com/doi/10.1002/9780470670606.wbecc1449) | 2011 | ‘Peter’ 이름의 후대 귀속·Valdes/Valdesius 등 인명 논쟁 | 공개 초록만, 학술 본문 미열람 |
+| V03-S52 | 국가 학술기관 필사본 해설 | [Austrian Academy of Sciences, Translated and transformed: Latin adaptation of Jan Hus's Czech sermons](https://www.oeaw.ac.at/en/imafo/read/translated-and-transformed-latin-adaptation-of-jan-huss-czech-sermons) | n.d. | 1448~1460년경 후스 설교 라틴어 번역 필사본과 설교 장면의 후대 도상 | 기관의 공개 설명 및 이미지 해설; 이미지는 참고만, 복제 금지 |
+| V03-S53 | 국가 학술기관 인물 역사 서술 | [Czech Academy of Sciences, Jan Žižka anniversary historian account](https://www.avcr.cz/cs/veda-a-vyzkum/biologicko-ekologicke-vedy/Pred-600-lety-zemrel-husitsky-vojevudce-Jan-Zizka.-Jeho-pribeh-dodnes-budi-vasne/) | 2024 | 생전 초상 존재 여부, 외모 및 한쪽 눈 부상 상세 불확실 | 기관 기사 본문 확인 |
+
 ## 아직 완료되지 않은 자료 검증
 1. 1532년 찬포랑 회합 원사료의 번역/판본 비교.
 2. 위클리프 성찬론과 정치적 지배권 이론의 라틴어 텍스트 정밀 대조.
@@ -67,4 +73,4 @@
 6. 관점 차이 검증을 위한 가톨릭 교회사·체코 지역사 전문 연구 추가.
 
 ## 인용 편집 규칙
-원고에 쓰인 `[V03-Snn]`는 링크와 접근 범위를 포함한 출처 ID로 유지. 사실 주장마다 가장 가까운 문단에 부착한다. 참조 IDs는 01~48이며 기존 `SRC-0001` 체계와 충돌하지 않도록 별도 볼륨 로컬 출처 네임스페이스로 시작했다. 차후 통합 데이터베이스 시 영구 SRC ID를 부여할 것.
+원고에 쓰인 `[V03-Snn]`는 링크와 접근 범위를 포함한 출처 ID로 유지. 사실 주장마다 가장 가까운 문단에 부착한다. 참조 IDs는 01~53이며 기존 `SRC-0001` 체계와 충돌하지 않도록 별도 볼륨 로컬 출처 네임스페이스로 시작했다. 차후 통합 데이터베이스 시 영구 SRC ID를 부여할 것.
