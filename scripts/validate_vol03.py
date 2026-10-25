@@ -22,7 +22,7 @@ def load(relpath):
 ext = load("data/vol03_extension.json")
 base = {k: load(f"data/{k}.json") for k in ["people", "events", "locations", "relations"]}
 sources_text = (VOL / "05_SOURCE_REGISTER.md").read_text(encoding="utf-8")
-source_ids = {f"V03-S{i:02}" for i in range(1, 49)}
+source_ids = {f"V03-S{i:02}" for i in range(1, 54)}
 found = set(re.findall(r"V03-S\d{2}", sources_text))
 check(source_ids <= found, "Missing source IDs in VOL03 register")
 base_sources = set(re.findall(r"SRC-\d{4}", (ROOT / "docs/01_CONTENT/RESEARCH_SOURCES.md").read_text(encoding="utf-8")))
@@ -169,10 +169,45 @@ for point in maps["points"]:
 check(maps["map_kind"] == "modern_reference_points_historical_education", "Maps must be flagged as modern-coordinate schematics")
 
 
+
+# V0.7 six binary illustrations: validate staging without pretending absent files were committed.
+art_stage = load("assets/illustrations/vol03/ILLUSTRATION_STAGE.json")
+art_items = art_stage["assets"]
+art_ids = [entry["id"] for entry in art_items]
+check(len(art_items) == 6 and len(art_ids) == len(set(art_ids)),
+      "Expected six unique staged illustrations")
+check(bool(re.fullmatch(r"[0-9a-f]{64}", art_stage.get("zip_sha256", ""))),
+      "Invalid artwork ZIP checksum")
+registered_assets = {item["asset_id"] for item in manifest}
+for entry in art_items:
+    srcs = entry.get("source_ids", [])
+    check(bool(srcs), f"{entry['id']}: illustration lacks source")
+    for source in srcs:
+        check(source in source_ids | base_sources, f"{entry['id']}: unregistered visual source {source}")
+    check(bool(re.fullmatch(r"[0-9a-f]{64}", entry.get("webp_sha256", ""))),
+          f"{entry['id']}: invalid WebP SHA256")
+    check(bool(entry.get("historical_limitation_ko")),
+          f"{entry['id']}: missing reconstruction limitations")
+    st = entry.get("status")
+    if st == "PENDING_BINARY_COMMIT":
+        check(entry["id"] not in registered_assets,
+              f"{entry['id']}: manifest pretends uncommitted file is present")
+    elif st == "IN_WORKTREE_PENDING_GIT_COMMIT":
+        check(entry["id"] in registered_assets,
+              f"{entry['id']}: locally installed image lacks manifest entry")
+        webp_path = ROOT / entry["relative_path"]
+        check(webp_path.is_file(), f"{entry['id']}: installed image missing")
+        if webp_path.is_file():
+            from hashlib import sha256
+            check(sha256(webp_path.read_bytes()).hexdigest() == entry["webp_sha256"],
+                  f"{entry['id']}: installed image SHA256 mismatch")
+    else:
+        check(False, f"{entry['id']}: invalid pending image state {st}")
+
 if errors:
     print("FAIL: " + str(len(errors)) + " source claim issue(s)")
     for issue in errors:
         print(" -", issue)
     sys.exit(1)
 print(f"PASS: {len(claims)} provenance claim cards checked")
-print(f"PASS: Vol03 {len(ext['actors'])} actors, {len(ext['events'])} events, {len(ext['relationships'])} relations, {len(ext['locations'])} locations, {len(source_ids)} sources, {len(manifest)} assets, {len(claims)} claims, {len(documents)} provenance objects, {len(axes)} theological axes, {len(cases)} causal cases, {len(maps['points'])} mapped coordinate points.")
+print(f"PASS: Vol03 {len(ext['actors'])} actors, {len(ext['events'])} events, {len(ext['relationships'])} relations, {len(ext['locations'])} locations, {len(source_ids)} sources, {len(manifest)} assets, {len(claims)} claims, {len(documents)} provenance objects, {len(axes)} theological axes, {len(cases)} causal cases, {len(maps['points'])} mapped coordinate points, {len(art_items)} staged AI illustrations.")
