@@ -40,3 +40,10 @@
 - [기계판독 서지](../../../data/deep/vol04_witness_bibliography_v02.json), [자동검증](../../../scripts/validate_vol04_witness_bibliography_v02.py).
 - 17개 후보 중 **5개가 복합 문헌이므로 분리 필요**, 정식 ID 발급·원전 전문 대조·이미지 권리 승인 **미완료**.
 - 이전 '다음 연구' 목록은 당시 계획으로 남겨 두었으며, 이번 이력에 따라 루터/츠빙글리/멜란히톤/칼뱅 V0.1을 추가 작업 완료로 기록함.
+
+## 판본 상세 화면 데이터 연결 V0.2 (2026-10-25)
+- [설계 및 검증 가이드](../../03_PRODUCT/VOL04_DOCUMENT_EDITION_UI_PROJECTION_V02.md) · [기계판독 계약](../../../data/contracts/vol04_document_edition_ui_v02.json).
+- [읽기 전용 변환 스크립트](../../../scripts/build_vol04_edition_ui_review_v02.py): 기존 서지 17개·임시 하위 구분 10개·비교 사례 3개를 검토. 기본 실행은 파일 생성하지 않음.
+- [부정 경로 검증](../../../scripts/validate_vol04_edition_ui_projection_v02.py): 기존 저작 연결/연도/언어/승인 차단을 점검.
+- **공개 건수 0건**; 연구 시안은 Google AI Studio 앱에서 직접 import하거나 퍼블릭 파일로 배포하지 않음. 이미지 권리·사료 고증·사람 승인이 끝난 별도 릴리스 생성기 필요.
+
