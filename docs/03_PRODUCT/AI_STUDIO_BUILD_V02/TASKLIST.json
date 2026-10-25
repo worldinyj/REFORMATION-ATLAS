@@ -87,7 +87,7 @@
         "AT-003"
       ],
       "acceptance": "AT-001 PREBUILD_GATE=PASS/사용자 검토 후 Google AI Studio B1 React+TS 앱 골격 생성, OVERVIEW 기반 8권/상세 템플릿과 미래 DEEP_RESEARCH 슬롯·모바일 동등 UX 확보",
-      "verification": "깃허브 감사 PASS 증거, 홈·권·모바일 320/375/390/430/데스크톱 1440 실측 또는 NOT TESTED, Git diff",
+      "verification": "PREBUILD_GATE=PASS GitHub 사전 감사 및 사용자 범위 승인 기록 확인, 홈·권·모바일 320/375/390/430/데스크톱 1440 실측 또는 NOT TESTED, Git diff",
       "status": "NOT_STARTED",
       "human_required": false
     },

@@ -4,6 +4,7 @@
 
 
 ## 0. 앱 생성 전 반드시 통과할 설계 통일성 게이트
+**판정 형식:** `PREBUILD_GATE=PASS`가 기록되기 전에는 앱 코드를 생성하지 않으며, 연결/문서 충돌이 있으면 `PREBUILD_GATE=BLOCKED`로 중지한다.
 - Google AI Studio Build는 **[00 GitHub 선행 설계 감사](00_GITHUB_DESIGN_PREFLIGHT.md) → 설계 불일치 보완·재검증 → 사용자 범위 승인 → B1 앱 생성** 순서로 진행한다. GitHub 파일을 확인하지 못했으면 `NO BUILD`이며 확인하지 않은 자료를 검토했다고 보고하지 않는다.
 - PROJECT PLAN·PRD·TRD·UXUI·TASKLIST와 디자인 토큰·화면·인물/원전 콘텐츠·한국어/영문 프롬프트 간 목적, FR 18건, 화면 14개, Task 36개(P0 33/P1 3), 참조/승인 상태를 먼저 교차 검토한다.
 - **개요를 기반으로 웹사이트 뼈대를 빠르게 구축**하고, 후일 위클리프·후스·루터 등 심층 연구가 완성되면 같은 ID·URL의 상세 화면에 `DEEP_RESEARCH` 블록을 차례로 붙인다. 기존 개요와 외부 링크를 보존한다.
