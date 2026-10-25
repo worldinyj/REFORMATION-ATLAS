@@ -1,0 +1,573 @@
+{
+  "schema_version": "0.1",
+  "date": "2026-10-25",
+  "project": "REFORMATION_ATLAS",
+  "volume_id": "VOL-04",
+  "person_id": "OV-P-016",
+  "depth_block": {
+    "id": "DEPTH-V04-P016-001",
+    "kind": "DEEP_RESEARCH",
+    "language": "ko",
+    "body_path": "docs/01_CONTENT/VOL04/CALVIN_DEEP_RESEARCH_V01.md",
+    "review_status": "DRAFT",
+    "approved": false,
+    "publication_approved": false
+  },
+  "sources": [
+    {
+      "id": "SRC-V04-CA-001",
+      "title": "Musée protestant — Jean Calvin (1509–1564)",
+      "url": "https://museeprotestant.org/en/notice/jean-calvin-1509-1564/",
+      "kind": "museum_history",
+      "scope": "Early career, 1538 exile/Strasbourg, Bucer, 1541 return, French Institutes",
+      "access_status": "OPEN_INSTITUTIONAL_OVERVIEW",
+      "rights_policy": "LINK_AND_OWN_KOREAN_SUMMARY_ONLY",
+      "full_text_copied": false,
+      "editorial_status": "DRAFT"
+    },
+    {
+      "id": "SRC-V04-CA-002",
+      "title": "Musée protestant — The ecclesiastical ordinances (1541)",
+      "url": "https://museeprotestant.org/en/notice/the-ecclesiastical-ordinances-1541/",
+      "kind": "museum_documentary_explanation",
+      "scope": "Four ministries, Company of Pastors, consistory, council jurisdiction",
+      "access_status": "OPEN_INSTITUTIONAL_OVERVIEW",
+      "rights_policy": "LINK_AND_OWN_KOREAN_SUMMARY_ONLY",
+      "full_text_copied": false,
+      "editorial_status": "DRAFT"
+    },
+    {
+      "id": "SRC-V04-CA-003",
+      "title": "Scott Manetsch — Geneva and Her Reformation",
+      "url": "https://academic.oup.com/book/9201/chapter-abstract/155838117",
+      "kind": "academic_book_abstract",
+      "scope": "Geneva 1541 church offices, city-council governance, pastoral practice",
+      "access_status": "ABSTRACT_ONLY_BOOK_FULL_TEXT_NOT_READ",
+      "rights_policy": "LINK_AND_OWN_KOREAN_SUMMARY_ONLY",
+      "full_text_copied": false,
+      "editorial_status": "DRAFT"
+    },
+    {
+      "id": "SRC-V04-CA-004",
+      "title": "John Calvin’s Institutes of the Christian Religion: A Biography",
+      "url": "https://www.jstor.org/stable/j.ctv7h0s71",
+      "kind": "academic_monograph_preview",
+      "scope": "1536 reception, 1559 reshaping and edition history",
+      "access_status": "PREVIEW_ONLY",
+      "rights_policy": "LINK_AND_OWN_KOREAN_SUMMARY_ONLY",
+      "full_text_copied": false,
+      "editorial_status": "DRAFT"
+    },
+    {
+      "id": "SRC-V04-CA-005",
+      "title": "Philip Schaff — §79 Calvin's Institutes",
+      "url": "https://www.uecf.net/books/history-of-the-christian-church/chapter1161.html",
+      "kind": "historic_scholarship_public_domain",
+      "scope": "1536 first Latin print, 1541 French, 1559 Latin edition structure",
+      "access_status": "HISTORIC_SECONDARY_VERIFY_MODERN_EDITOR",
+      "rights_policy": "LINK_AND_OWN_KOREAN_SUMMARY_ONLY",
+      "full_text_copied": false,
+      "editorial_status": "DRAFT"
+    },
+    {
+      "id": "SRC-V04-CA-006",
+      "title": "Reformation & Renaissance Review — Emidio Campi, Consensus Tigurinus",
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/14622459.2016.1157336",
+      "kind": "peer_reviewed_article_abstract",
+      "scope": "1549 Bullinger Calvin negotiations & Eucharistic agreement",
+      "access_status": "ABSTRACT_ONLY",
+      "rights_policy": "LINK_AND_OWN_KOREAN_SUMMARY_ONLY",
+      "full_text_copied": false,
+      "editorial_status": "DRAFT"
+    },
+    {
+      "id": "SRC-V04-CA-007",
+      "title": "Reformation & Renaissance Review — R. Ward Holder, The pain of agreement",
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/14622459.2016.1157351",
+      "kind": "peer_reviewed_article_abstract",
+      "scope": "1549 Calvin signed formulations novel to his earlier public statements",
+      "access_status": "ABSTRACT_ONLY",
+      "rights_policy": "LINK_AND_OWN_KOREAN_SUMMARY_ONLY",
+      "full_text_copied": false,
+      "editorial_status": "DRAFT"
+    },
+    {
+      "id": "SRC-V04-CA-008",
+      "title": "Consensus Tigurinus (1549), translated public edition",
+      "url": "https://thebookofconcord.org/sources-and-context/consensus-tigurinus/",
+      "kind": "primary_document_in_modern_translation",
+      "scope": "Document wording in later translation and Lutheran editorial framing",
+      "access_status": "PARTISAN_TRANSLATED_TEXT_NO_CRITICAL_WITNESS_CHECK",
+      "rights_policy": "LINK_AND_OWN_KOREAN_SUMMARY_ONLY",
+      "full_text_copied": false,
+      "editorial_status": "DRAFT"
+    },
+    {
+      "id": "SRC-V04-CA-009",
+      "title": "Nicholas Thompson — Castellio and Calvin debate the execution of Servetus",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/9781119100072.ch16",
+      "kind": "peer_reviewed_book_chapter_summary",
+      "scope": "Servetus 1553 trial and Castellio’s dissenting position",
+      "access_status": "SUMMARY_ONLY_FULL_CHAPTER_NOT_READ",
+      "rights_policy": "LINK_AND_OWN_KOREAN_SUMMARY_ONLY",
+      "full_text_copied": false,
+      "editorial_status": "DRAFT"
+    },
+    {
+      "id": "SRC-V04-CA-010",
+      "title": "Calvin University Meeter Center — Servetus Controversy",
+      "url": "https://calvin.edu/sites/default/files/migrated/centers-institutes-meeter-center-files-resources-page-TheServetusControversy.pdf",
+      "kind": "academic_center_public_brief",
+      "scope": "Debate over judicial authority, Calvin’s involvement, historical context",
+      "access_status": "PDF_LINK_ONLY_NEEDS_PAGE_QA",
+      "rights_policy": "LINK_AND_OWN_KOREAN_SUMMARY_ONLY",
+      "full_text_copied": false,
+      "editorial_status": "DRAFT"
+    },
+    {
+      "id": "SRC-V04-CA-011",
+      "title": "Musée protestant — Calvin and Geneva",
+      "url": "https://museeprotestant.org/notice/qui-est-jean-calvin/",
+      "kind": "museum_history",
+      "scope": "Geneva/Strasbourg chronology, France exile, Geneva influence",
+      "access_status": "OPEN_INSTITUTIONAL_OVERVIEW",
+      "rights_policy": "LINK_AND_OWN_KOREAN_SUMMARY_ONLY",
+      "full_text_copied": false,
+      "editorial_status": "DRAFT"
+    },
+    {
+      "id": "SRC-V04-CA-012",
+      "title": "Université de Genève — University History",
+      "url": "https://www.unige.ch/en/university/history",
+      "kind": "university_institutional_history",
+      "scope": "Geneva Academy 1559 origin and modern university relation",
+      "access_status": "OPEN_OFFICIAL_UNIVERSITY",
+      "rights_policy": "LINK_AND_OWN_KOREAN_SUMMARY_ONLY",
+      "full_text_copied": false,
+      "editorial_status": "DRAFT"
+    },
+    {
+      "id": "SRC-V04-CA-013",
+      "title": "Musée protestant — Calvin and Melanchthon",
+      "url": "https://museeprotestant.org/en/notice/jean-calvin-3/",
+      "kind": "museum_transnational_history",
+      "scope": "Calvin—Melanchthon interactions, 1539 Frankfurt meeting, theological correspondence",
+      "access_status": "OPEN_MUSEUM_WITH_INTERPRETIVE_QUALIFIER",
+      "rights_policy": "LINK_AND_OWN_KOREAN_SUMMARY_ONLY",
+      "full_text_copied": false,
+      "editorial_status": "DRAFT"
+    },
+    {
+      "id": "SRC-V04-CA-014",
+      "title": "The Geneva Academy and death of Calvin — Church Heritage",
+      "url": "https://churchheritage.org/history/event/calvin-death-geneva-academy-1559?lang=en",
+      "kind": "compiled_educational_history",
+      "scope": "1559 final Latin Institutes, 1560 French edition, Calvin death 1564",
+      "access_status": "COMPILED_SECONDARY_WITH_BIBLIOGRAPHY",
+      "rights_policy": "LINK_AND_OWN_KOREAN_SUMMARY_ONLY",
+      "full_text_copied": false,
+      "editorial_status": "DRAFT"
+    },
+    {
+      "id": "SRC-V04-CA-015",
+      "title": "Bibliothèque de Genève — Jean Calvin à l'âge de 53 ans",
+      "url": "https://www.bge-geneve.ch/iconographie/oeuvre/icon-p-doum-115",
+      "kind": "archival_illustration_catalog",
+      "scope": "Historical attributed portrait reference, NOT media license nor contemporary photo",
+      "access_status": "CATALOG_METADATA_ONLY_NO_REUSE",
+      "rights_policy": "LINK_AND_OWN_KOREAN_SUMMARY_ONLY",
+      "full_text_copied": false,
+      "editorial_status": "DRAFT"
+    },
+    {
+      "id": "SRC-V04-CA-016",
+      "title": "Musée protestant — The Reformation in Alsace",
+      "url": "https://museeprotestant.org/en/notice/the-reformation-in-alsace/",
+      "kind": "museum_regional_history",
+      "scope": "Strasbourg and Bucer’s ecclesiology; Calvin 1538–1541",
+      "access_status": "OPEN_INSTITUTIONAL_OVERVIEW",
+      "rights_policy": "LINK_AND_OWN_KOREAN_SUMMARY_ONLY",
+      "full_text_copied": false,
+      "editorial_status": "DRAFT"
+    }
+  ],
+  "claims": [
+    {
+      "id": "CLM-V04-CA-001",
+      "statement_ko": "1509년 누아용에서 태어난 칼뱅은 프랑스 인문주의·법학 교육을 경험했고 회심의 정확한 시점은 논쟁적이다.",
+      "source_ids": [
+        "SRC-V04-CA-001",
+        "SRC-V04-CA-011"
+      ],
+      "evidence_status": "SUPPORTED_WITH_DATE_CAUTION",
+      "review_status": "DRAFT",
+      "approved": false,
+      "publication_approved": false
+    },
+    {
+      "id": "CLM-V04-CA-002",
+      "statement_ko": "1536년 바젤 라틴어 『기독교강요』 초판은 6장 체제이고, 1559년 라틴어 최종판은 네 권 80장 체제로 재구성되었다.",
+      "source_ids": [
+        "SRC-V04-CA-004",
+        "SRC-V04-CA-005",
+        "SRC-V04-CA-014"
+      ],
+      "evidence_status": "SUPPORTED_EDITION_DISTINCTION",
+      "review_status": "DRAFT",
+      "approved": false,
+      "publication_approved": false
+    },
+    {
+      "id": "CLM-V04-CA-003",
+      "statement_ko": "1541년 첫 프랑스어판과 1560년 후대 프랑스어판을 하나의 동일 원문처럼 취급하면 안 된다.",
+      "source_ids": [
+        "SRC-V04-CA-001",
+        "SRC-V04-CA-005",
+        "SRC-V04-CA-014"
+      ],
+      "evidence_status": "SUPPORTED_EDITION_DISTINCTION",
+      "review_status": "DRAFT",
+      "approved": false,
+      "publication_approved": false
+    },
+    {
+      "id": "CLM-V04-CA-004",
+      "statement_ko": "칼뱅은 1536년 파렐의 요청으로 제네바 개혁에 합류했으나 1538년에 추방됐고 1541년 귀환했다.",
+      "source_ids": [
+        "SRC-V04-CA-001",
+        "SRC-V04-CA-011",
+        "SRC-V04-CA-016"
+      ],
+      "evidence_status": "SUPPORTED",
+      "review_status": "DRAFT",
+      "approved": false,
+      "publication_approved": false
+    },
+    {
+      "id": "CLM-V04-CA-005",
+      "statement_ko": "1538–1541년 슈트라스부르의 목회와 마르틴 부처와의 교류는 칼뱅의 예배와 교회제도 생각에 영향을 미쳤다.",
+      "source_ids": [
+        "SRC-V04-CA-001",
+        "SRC-V04-CA-016"
+      ],
+      "evidence_status": "SUPPORTED",
+      "review_status": "DRAFT",
+      "approved": false,
+      "publication_approved": false
+    },
+    {
+      "id": "CLM-V04-CA-006",
+      "statement_ko": "1541년 제네바 교회규정은 목사·교사·장로·집사의 네 직분 및 목사회·당회를 제도화했다.",
+      "source_ids": [
+        "SRC-V04-CA-002",
+        "SRC-V04-CA-003"
+      ],
+      "evidence_status": "SUPPORTED",
+      "review_status": "DRAFT",
+      "approved": false,
+      "publication_approved": false
+    },
+    {
+      "id": "CLM-V04-CA-007",
+      "statement_ko": "제네바 제도에서 시의회와 교회 당회가 권력을 나누고 다퉜으므로 '칼뱅의 절대 신정독재'도 '근대 정교분리'도 과도한 단순화이다.",
+      "source_ids": [
+        "SRC-V04-CA-002",
+        "SRC-V04-CA-003"
+      ],
+      "evidence_status": "INTERPRETIVE_WITH_PERSPECTIVES",
+      "review_status": "DRAFT",
+      "approved": false,
+      "publication_approved": false
+    },
+    {
+      "id": "CLM-V04-CA-008",
+      "statement_ko": "칼뱅의 예정·섭리·칭의·그리스도인의 삶 등 신학을 하나의 후대 '칼뱅주의 5대 교리'로만 환원하면 저작의 시대별 발전이 가려진다.",
+      "source_ids": [
+        "SRC-V04-CA-004",
+        "SRC-V04-CA-005"
+      ],
+      "evidence_status": "EDITORIAL_SYNTHESIS",
+      "review_status": "DRAFT",
+      "approved": false,
+      "publication_approved": false
+    },
+    {
+      "id": "CLM-V04-CA-009",
+      "statement_ko": "칼뱅은 루터의 성찬 현존 강조와 츠빙글리의 해석을 단순히 중간값으로 택한 것이 아니라 성령과 그리스도와의 영적 교제 문제를 독자적으로 설명했다.",
+      "source_ids": [
+        "SRC-V04-CA-001",
+        "SRC-V04-CA-006",
+        "SRC-V04-CA-007",
+        "SRC-V04-CA-008"
+      ],
+      "evidence_status": "COMPARATIVE_INTERPRETATION",
+      "review_status": "DRAFT",
+      "approved": false,
+      "publication_approved": false
+    },
+    {
+      "id": "CLM-V04-CA-010",
+      "statement_ko": "1549년 칼뱅과 불링거의 취리히 합의는 협상의 결과이며 그 성찬 조항에 대한 루터파 해석과 개혁파 해석이 다르다.",
+      "source_ids": [
+        "SRC-V04-CA-006",
+        "SRC-V04-CA-007",
+        "SRC-V04-CA-008"
+      ],
+      "evidence_status": "SUPPORTED_CONTESTED_RECEPTION",
+      "review_status": "DRAFT",
+      "approved": false,
+      "publication_approved": false
+    },
+    {
+      "id": "CLM-V04-CA-011",
+      "statement_ko": "1553년 세르베투스가 제네바에서 이단 혐의로 처형된 것은 종교 강제와 양심의 자유를 검토해야 할 중대한 사건이다.",
+      "source_ids": [
+        "SRC-V04-CA-009",
+        "SRC-V04-CA-010"
+      ],
+      "evidence_status": "SUPPORTED_SENSITIVE",
+      "review_status": "DRAFT",
+      "approved": false,
+      "publication_approved": false
+    },
+    {
+      "id": "CLM-V04-CA-012",
+      "statement_ko": "세르베투스의 재판은 제네바 시당국의 사법권과 칼뱅의 신학적 논박·개입을 구별해야 하며 '칼뱅 혼자 판결' 혹은 '칼뱅 무관' 양쪽을 피한다.",
+      "source_ids": [
+        "SRC-V04-CA-009",
+        "SRC-V04-CA-010",
+        "SRC-V04-CA-002"
+      ],
+      "evidence_status": "SCHOLARLY_DEBATE",
+      "review_status": "DRAFT",
+      "approved": false,
+      "publication_approved": false
+    },
+    {
+      "id": "CLM-V04-CA-013",
+      "statement_ko": "세르베투스 처형을 비판한 세바스티안 카스텔리오는 동일 시대에도 강제 처형을 반대하는 신학적 견해가 있었음을 보여준다.",
+      "source_ids": [
+        "SRC-V04-CA-009"
+      ],
+      "evidence_status": "SUPPORTED",
+      "review_status": "DRAFT",
+      "approved": false,
+      "publication_approved": false
+    },
+    {
+      "id": "CLM-V04-CA-014",
+      "statement_ko": "1559년 제네바 아카데미 개교는 칼뱅이 추진한 신학과 인문주의 교육 체계를 제도화한 사건이다.",
+      "source_ids": [
+        "SRC-V04-CA-012",
+        "SRC-V04-CA-014"
+      ],
+      "evidence_status": "SUPPORTED",
+      "review_status": "DRAFT",
+      "approved": false,
+      "publication_approved": false
+    },
+    {
+      "id": "CLM-V04-CA-015",
+      "statement_ko": "칼뱅과 멜란히톤은 인문주의와 개혁의 공통 문제를 논의하고 교류했으나 양자의 교리를 완전 동일시할 근거는 아니다.",
+      "source_ids": [
+        "SRC-V04-CA-013"
+      ],
+      "evidence_status": "SUPPORTED_WITH_SCOPE",
+      "review_status": "DRAFT",
+      "approved": false,
+      "publication_approved": false
+    },
+    {
+      "id": "CLM-V04-CA-016",
+      "statement_ko": "칼뱅은 1564년 5월 27일 제네바에서 사망했으며, 후대 제네바 신학 유산은 동시대의 정치·인쇄·교육 네트워크를 통해 확산되었다.",
+      "source_ids": [
+        "SRC-V04-CA-001",
+        "SRC-V04-CA-012",
+        "SRC-V04-CA-014"
+      ],
+      "evidence_status": "SUPPORTED",
+      "review_status": "DRAFT",
+      "approved": false,
+      "publication_approved": false
+    }
+  ],
+  "events": [
+    {
+      "id": "DEEP-V04-CA-E-001",
+      "date_label": "1509년 7월 10일",
+      "year_start": 1509,
+      "date_precision": "day",
+      "title_ko": "프랑스 누아용 출생",
+      "claim_id": "CLM-V04-CA-001",
+      "public_visible": false
+    },
+    {
+      "id": "DEEP-V04-CA-E-002",
+      "date_label": "1536년",
+      "year_start": 1536,
+      "date_precision": "year",
+      "title_ko": "바젤에서 『기독교강요』 초판 출판",
+      "claim_id": "CLM-V04-CA-002",
+      "public_visible": false
+    },
+    {
+      "id": "DEEP-V04-CA-E-003",
+      "date_label": "1536년",
+      "year_start": 1536,
+      "date_precision": "year",
+      "title_ko": "파렐의 요청으로 제네바 개혁 합류",
+      "claim_id": "CLM-V04-CA-004",
+      "public_visible": false
+    },
+    {
+      "id": "DEEP-V04-CA-E-004",
+      "date_label": "1538년",
+      "year_start": 1538,
+      "date_precision": "year",
+      "title_ko": "제네바 추방, 슈트라스부르 목회 시작",
+      "claim_id": "CLM-V04-CA-004",
+      "public_visible": false
+    },
+    {
+      "id": "DEEP-V04-CA-E-005",
+      "date_label": "1541년",
+      "year_start": 1541,
+      "date_precision": "year",
+      "title_ko": "제네바 귀환과 교회규정 제정",
+      "claim_id": "CLM-V04-CA-006",
+      "public_visible": false
+    },
+    {
+      "id": "DEEP-V04-CA-E-006",
+      "date_label": "1541년",
+      "year_start": 1541,
+      "date_precision": "year",
+      "title_ko": "『기독교강요』 첫 프랑스어판",
+      "claim_id": "CLM-V04-CA-003",
+      "public_visible": false
+    },
+    {
+      "id": "DEEP-V04-CA-E-007",
+      "date_label": "1549년",
+      "year_start": 1549,
+      "date_precision": "year",
+      "title_ko": "칼뱅·불링거 취리히 성찬 합의",
+      "claim_id": "CLM-V04-CA-010",
+      "public_visible": false
+    },
+    {
+      "id": "DEEP-V04-CA-E-008",
+      "date_label": "1553년 10월 27일",
+      "year_start": 1553,
+      "date_precision": "day",
+      "title_ko": "세르베투스 처형 — 제네바 시정부 사법 사건",
+      "claim_id": "CLM-V04-CA-011",
+      "public_visible": false
+    },
+    {
+      "id": "DEEP-V04-CA-E-009",
+      "date_label": "1559년",
+      "year_start": 1559,
+      "date_precision": "year",
+      "title_ko": "『기독교강요』 최종 라틴어판(4권·80장)",
+      "claim_id": "CLM-V04-CA-002",
+      "public_visible": false
+    },
+    {
+      "id": "DEEP-V04-CA-E-010",
+      "date_label": "1559년",
+      "year_start": 1559,
+      "date_precision": "year",
+      "title_ko": "제네바 아카데미 개교",
+      "claim_id": "CLM-V04-CA-014",
+      "public_visible": false
+    },
+    {
+      "id": "DEEP-V04-CA-E-011",
+      "date_label": "1560년",
+      "year_start": 1560,
+      "date_precision": "year",
+      "title_ko": "『기독교강요』 후기 프랑스어판",
+      "claim_id": "CLM-V04-CA-003",
+      "public_visible": false
+    },
+    {
+      "id": "DEEP-V04-CA-E-012",
+      "date_label": "1564년 5월 27일",
+      "year_start": 1564,
+      "date_precision": "day",
+      "title_ko": "제네바에서 사망",
+      "claim_id": "CLM-V04-CA-016",
+      "public_visible": false
+    }
+  ],
+  "visual_candidates": [
+    {
+      "id": "PRT-V04-CA-01",
+      "role": "portrait",
+      "filename_stem": "PRT-V04-CA-01_calvin_imaginative_portrait",
+      "formats": [
+        "PNG",
+        "WebP"
+      ],
+      "disclaimer": "현대 창작 칼뱅 상상화. 생전 초상/실제 얼굴의 복원 아님.",
+      "origin": "ORIGINAL_AI_IMAGINATIVE",
+      "approved": false,
+      "publication_approved": false,
+      "binary_in_github": false,
+      "local_zip": "REFORMATION_ATLAS_VOL04_CALVIN_VISUAL_V01.zip"
+    },
+    {
+      "id": "ILL-V04-CA-01",
+      "role": "scene",
+      "filename_stem": "ILL-V04-CA-01_geneva_consultation_imaginative",
+      "formats": [
+        "PNG",
+        "WebP"
+      ],
+      "disclaimer": "제네바 신학 협의의 일반적 분위기를 상상한 장면. 1541 특정 회의/인물 참석 확인 장면 아님.",
+      "origin": "ORIGINAL_AI_IMAGINATIVE",
+      "approved": false,
+      "publication_approved": false,
+      "binary_in_github": false,
+      "local_zip": "REFORMATION_ATLAS_VOL04_CALVIN_VISUAL_V01.zip"
+    },
+    {
+      "id": "MAP-V04-CA-01",
+      "role": "schematic_map",
+      "filename_stem": "MAP-V04-CA-01_calvin_reform_concept",
+      "formats": [
+        "SVG",
+        "PNG"
+      ],
+      "disclaimer": "바젤·슈트라스부르·제네바·취리히 관계도. 실제 지도 축척/좌표/이동로 아님.",
+      "origin": "ORIGINAL_EDITABLE_SVG",
+      "approved": false,
+      "publication_approved": false,
+      "binary_in_github": false,
+      "local_zip": "REFORMATION_ATLAS_VOL04_CALVIN_VISUAL_V01.zip"
+    }
+  ],
+  "media_archive_sha256": "d291d8e0f2fed404d7423764500790d313d438fc143d9337cf2a4c97be204be4",
+  "editorial_holds": [
+    "1536 vs 1559 Institutes versions and 1541/1560 French textual witnesses",
+    "Calvin Farel Bucer Geneva/Strasbourg governance",
+    "Genevan consistory and council differentiated",
+    "1549 Consensus Tigurinus confessional interpretations",
+    "1553 Servetus arrest/judicial sentencing Calvin role and Castellio dissent",
+    "AI portrait and manuscript scene not original historical documents"
+  ],
+  "release_gate": {
+    "approved": false,
+    "can_ship": false,
+    "media_rights_approved": false,
+    "map_geography_approved": false
+  },
+  "web_handoff": {
+    "app_modified": false,
+    "attach_to_existing_person": "OV-P-016",
+    "url_stable": true,
+    "editorial_review_required": true,
+    "no_auto_publish": true
+  }
+}
