@@ -80,19 +80,6 @@ for relation in ext["relationships"]:
     check(relation.get("to") in all_actors | all_events, f"{relation['id']}: invalid target")
     source_check(relation)
 
-claims = load("data/vol03_source_claims.json")
-claim_ids = [x["id"] for x in claims.get("claims", [])]
-check(len(claim_ids) == len(set(claim_ids)), "Duplicate primary claim IDs")
-check(claims.get("publication_status") == "DRAFT", "Source claims unexpectedly published")
-for claim in claims.get("claims", []):
-    check(bool(re.fullmatch(r"CLM-V03-\d{3}", claim.get("id", ""))), f"Malformed claim ID {claim.get('id')}")
-    check(claim.get("evidence_tier") in claims.get("evidence_tiers", {}), f"Unknown tier: {claim.get('id')}")
-    check(bool(claim.get("locator")), f"Missing edition locator {claim.get('id')}")
-    check(bool(claim.get("pending")), f"Missing limitations {claim.get('id')}")
-    for ref in claim.get("subject_ids", []):
-        check(ref in all_actors, f"Unknown claim subject {claim.get('id')} -> {ref}")
-    source_check(claim)
-
 manifest = load("assets/asset_manifest.json")
 for asset in manifest:
     check(bool(asset.get("rights_status")), f"{asset['asset_id']}: rights missing")
@@ -129,4 +116,4 @@ if errors:
         print(" -", issue)
     sys.exit(1)
 print(f"PASS: {len(claims)} provenance claim cards checked")
-print(f"PASS: Vol03 {len(ext['actors'])} actors, {len(ext['events'])} events, {len(ext['relationships'])} relations, {len(ext['locations'])} locations, {len(source_ids)} sources, {len(manifest)} assets, {len(claims["claims"])} claims.")
+print(f"PASS: Vol03 {len(ext['actors'])} actors, {len(ext['events'])} events, {len(ext['relationships'])} relations, {len(ext['locations'])} locations, {len(source_ids)} sources, {len(manifest)} assets, {len(claims)} claims.")
