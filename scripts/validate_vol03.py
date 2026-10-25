@@ -22,7 +22,7 @@ def load(relpath):
 ext = load("data/vol03_extension.json")
 base = {k: load(f"data/{k}.json") for k in ["people", "events", "locations", "relations"]}
 sources_text = (VOL / "05_SOURCE_REGISTER.md").read_text(encoding="utf-8")
-source_ids = {f"V03-S{i:02}" for i in range(1, 36)}
+source_ids = {f"V03-S{i:02}" for i in range(1, 48)}
 found = set(re.findall(r"V03-S\d{2}", sources_text))
 check(source_ids <= found, "Missing source IDs in VOL03 register")
 base_sources = set(re.findall(r"SRC-\d{4}", (ROOT / "docs/01_CONTENT/RESEARCH_SOURCES.md").read_text(encoding="utf-8")))
@@ -130,10 +130,31 @@ for doc in documents:
 # A 1433 original agreement and a 2019 edition cannot silently become the same source object.
 check("DOC-V03-002" in all_doc_ids and "EDN-V03-003" in all_doc_ids, "Agreement and edited collection must remain distinct")
 
+
+# V0.5 theological axis and event-causality reference validation.
+analysis = load("data/vol03_theology_causality.json")
+axes = analysis["axes"]
+cases = analysis["cases"]
+axis_ids = [item["axis_id"] for item in axes]
+case_ids = [item["id"] for item in cases]
+check(len(axis_ids) == len(set(axis_ids)), "Duplicate theological axis IDs")
+check(len(case_ids) == len(set(case_ids)), "Duplicate causal case IDs")
+for axis in axes:
+    ref_ids({"id":axis["axis_id"],"subject_ids":axis.get("subject_ids",[])}, "subject_ids", all_actors)
+    for sid in axis.get("sources", []):
+        check(sid in source_ids | base_sources, f"{axis['axis_id']}: missing source {sid}")
+    check(bool(axis.get("uncertainty")), f"{axis['axis_id']}: missing historical uncertainty")
+for case in cases:
+    ref_ids(case,"event_ids",all_events)
+    ref_ids(case,"actors",all_actors)
+    source_check(case)
+    check(bool(case.get("causal_factors")), f"{case['id']}: missing causal factors")
+    check(case.get("interpretation_status") == "DRAFT", f"{case['id']}: not human approved")
+
 if errors:
     print("FAIL: " + str(len(errors)) + " source claim issue(s)")
     for issue in errors:
         print(" -", issue)
     sys.exit(1)
 print(f"PASS: {len(claims)} provenance claim cards checked")
-print(f"PASS: Vol03 {len(ext['actors'])} actors, {len(ext['events'])} events, {len(ext['relationships'])} relations, {len(ext['locations'])} locations, {len(source_ids)} sources, {len(manifest)} assets, {len(claims)} claims, {len(documents)} provenance objects.")
+print(f"PASS: Vol03 {len(ext['actors'])} actors, {len(ext['events'])} events, {len(ext['relationships'])} relations, {len(ext['locations'])} locations, {len(source_ids)} sources, {len(manifest)} assets, {len(claims)} claims, {len(documents)} provenance objects, {len(axes)} theological axes, {len(cases)} causal cases.")
