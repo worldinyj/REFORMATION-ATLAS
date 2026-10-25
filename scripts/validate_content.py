@@ -46,6 +46,11 @@ for name, items in sets.items():
 
 source_text = SOURCES.read_text(encoding="utf-8")
 source_ids = set(re.findall(r"SRC-\d{4}", source_text))
+extension_path = DATA / "vol03_extension.json"
+extension = json.loads(extension_path.read_text(encoding="utf-8")) if extension_path.exists() else None
+if extension is not None:
+    vol03_register = (ROOT / "docs/01_CONTENT/VOL03/05_SOURCE_REGISTER.md").read_text(encoding="utf-8")
+    source_ids |= set(re.findall(r"V03-S\\d{2}", vol03_register))
 
 def check_refs(parent: dict, key: str, known: set) -> None:
     for value in parent.get(key, []):
@@ -78,6 +83,9 @@ try:
     if len({a["asset_id"] for a in assets}) != len(assets):
         fail("assets: duplicate asset IDs")
     all_entity_ids = set().union(*ids.values())
+    if extension is not None:
+        for family in ("actors", "locations", "events", "relationships"):
+            all_entity_ids |= {item["id"] for item in extension.get(family, [])}
     for a in assets:
         if not (ROOT/a["relative_path"]).is_file():
             fail(f"{a['asset_id']}: missing asset file")
