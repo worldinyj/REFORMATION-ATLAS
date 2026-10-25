@@ -1,4 +1,5 @@
 # 06 · Google AI Studio Build — FIRST MASTER PROMPT
+> **영문 보조 프롬프트**. 기본안은 [한국어 마스터 지시문](06_MASTER_BUILD_PROMPT.md). 두 개를 한 번에 실행하지 않음.
 > 이 아래 **PROMPT START~END**를 Google AI Studio > Build > Web 앱 입력창에 복사한다.
 > 먼저 **B1 UI Skeleton만 생성**한다. 나머지 기능은 [07 단계별 프롬프트](07_AI_STUDIO_ITERATION_PROMPTS.md)로 수행.
 > 사용자는 배포가 아니라 **개인 프리뷰용** 초기 앱을 원한다.
@@ -30,7 +31,7 @@ Visually restrained, exceptionally spacious, a contemporary historical editorial
 - The beauty should come from typography, grid, whitespace, elegant spacing and careful content hierarchy.
 
 ### B1: generate only these pages and interactions
-1. Home / : a large typography-led hero (Korean headline: **시간을 따라, 사상을 건너, 사람을 만나다.**) and subheading (초대교회부터 한국 교회사까지. 인물과 사건, 문헌의 연결로 읽는 역사 아틀라스.), a primary link '8권 살펴보기', and a secondary link '연대표 탐색'.
+1. Home / : a large typography-led hero (Korean headline: **시간과 사람을 따라, 종교개혁을 읽다.**) and subheading (초대교회에서 현대 한국 교회사까지, 사람과 사건 그리고 문헌으로 이어지는 역사의 흐름을 탐색합니다.), a primary link '8권 살펴보기', and a secondary link '연대표 탐색'.
 2. A full 8-volume grid with working clickable cards and correct Korean titles.
 3. /volumes : eight-volume index.
 4. /volumes/:id : one reusable volume detail template with title, concise description, placeholder sections for people/events/documents/topics.

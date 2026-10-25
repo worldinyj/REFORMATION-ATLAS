@@ -26,3 +26,9 @@
 Google AI Studio → Build → Web app → **06_MASTER_BUILD_PROMPT** 입력 → 홈 디자인/권별 탐색 미리보기 → 자료 JSON 가져오기 → **07_ITERATION_PROMPTS** 단계별 진행 → GitHub 브랜치 연동 검수.
 
 **이 패키지의 문서 작성 완료가 웹 구현·외부 공유·운영 배포 승인인 것은 아닙니다.** 데이터 갱신과 코드/콘텐츠 공개는 별도 단계입니다.
+
+## 추가 보조 파일
+- [06_AI_STUDIO_MASTER_PROMPT.md](06_AI_STUDIO_MASTER_PROMPT.md): 영문 보조 지시문(한국어 기본 [06_MASTER_BUILD_PROMPT](06_MASTER_BUILD_PROMPT.md)과 동시에 실행하지 않음)
+- [07_AI_STUDIO_ITERATION_PROMPTS.md](07_AI_STUDIO_ITERATION_PROMPTS.md): 영문 후속 명령 대안. 기본 흐름은 [07_ITERATION_PROMPTS](07_ITERATION_PROMPTS.md)
+- [08_BUILD_CHECKLIST.md](08_BUILD_CHECKLIST.md): AI Studio 실제 수행 시 별도 사용자 검토표
+- [SCREEN_CONTRACT.json](SCREEN_CONTRACT.json): 14개 화면의 구조적 계약

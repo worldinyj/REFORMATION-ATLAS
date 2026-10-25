@@ -15,7 +15,7 @@
     },
     {
       "id": "VOLUME_DETAIL",
-      "path": "/volumes/:id",
+      "path": "/volumes/:volumeId",
       "stage": "design_only"
     },
     {
@@ -25,7 +25,7 @@
     },
     {
       "id": "PERSON_DETAIL",
-      "path": "/people/:id",
+      "path": "/people/:personId",
       "stage": "design_only"
     },
     {
@@ -35,7 +35,7 @@
     },
     {
       "id": "EVENT_DETAIL",
-      "path": "/events/:id",
+      "path": "/events/:eventId",
       "stage": "design_only"
     },
     {
@@ -45,7 +45,7 @@
     },
     {
       "id": "DOCUMENT_DETAIL",
-      "path": "/documents/:id",
+      "path": "/documents/:documentId",
       "stage": "design_only"
     },
     {
@@ -60,7 +60,7 @@
     },
     {
       "id": "TOPIC_DETAIL",
-      "path": "/topics/:id",
+      "path": "/topics/:topicId",
       "stage": "design_only"
     },
     {
