@@ -1,4 +1,4 @@
-# VOL-03 · 종교개혁의 선구자 | Deep Research V0.5
+# VOL-03 · 종교개혁의 선구자 | Deep Research V0.6
 **상태: DRAFT** (기초 공개 학술자료를 토대로 한 심화 연구 초안, 사람의 역사학 감수 전)
 
 ## 읽는 순서
@@ -13,7 +13,7 @@
 9. [10_WALDENSIAN_MEMORY_AND_SOURCES.md](10_WALDENSIAN_MEMORY_AND_SOURCES.md): 1532년과 후대 역사 기억
 10. [06_TIMELINE.md](06_TIMELINE.md): 날짜 정확도를 함께 표시한 연대표
 11. [07_FACTCHECK_MATRIX.md](07_FACTCHECK_MATRIX.md): 단정 금지와 검증 과제
-12. [05_SOURCE_REGISTER.md](05_SOURCE_REGISTER.md): 학술·전시 출처 47건과 실제 접근 범위
+12. [05_SOURCE_REGISTER.md](05_SOURCE_REGISTER.md): 학술·전시 출처 48건과 실제 접근 범위
 
 ## 연결 산출물
 - [볼륨 3 구조화 확장 데이터](../../../data/vol03_extension.json): 추가 인물 6명, 운동 4개, 위치 8곳, 사건 16건, 관계 7개
@@ -63,3 +63,12 @@
 - [쟁점/인과 JSON](../../../data/vol03_theology_causality.json): 7개 신학 축/5개 인과 사례, DRAFT.
 - 제3권 지역 출처 `V03-S01~S47` 47건. 1순위 원전 심층 검증의 남은 과제는 미완료로 유지한다.
 - 정식 인물화·역사 지도와 PRD·TRD 본격 개발은 다음 게이트. `main` 미병합.
+
+## V0.6 — 3순위 편집형 역사 지도 SVG 4종
+- [MAP-V03-01 · 리옹의 초기 왈도파](../../../assets/maps/MAP-V03-01_waldensians_lyon.svg)
+- [MAP-V03-02 · 옥스퍼드–프라하 문헌 영향](../../../assets/maps/MAP-V03-02_oxford_prague.svg)
+- [MAP-V03-03 · 1414~1436년 보헤미아 도시와 사건](../../../assets/maps/MAP-V03-03_bohemia_hussite.svg)
+- [MAP-V03-04 · 1530~1532년 왈도파–개혁자 교류망](../../../assets/maps/MAP-V03-04_waldensian_reform_network.svg)
+- [좌표 근거 및 역사적 정확성 한계](../../02_MEDIA/VOL03_MAP_SOURCES_V01.md) · [좌표 데이터](../../../data/vol03_map_points.json)
+- 자체 제작 16:9 SVG, 텍스트·도형 편집 가능. 현대 도시 좌표를 사용한 역사 교육 개념도이며 **중세 국경·실제 여정·군사 이동 복원 아님**.
+- 제3권 출처 `V03-S01~48` 등. 3순위 SVG 초안 완료, 역사 지리학 전문가 감수 및 정확한 옛 국경 지도는 별도 게이트.
