@@ -1,0 +1,238 @@
+{
+  "schema_version": "0.1",
+  "stage": "CONTENT_PREPARATION",
+  "date": "2026-10-25",
+  "public_release": false,
+  "sources": [
+    {
+      "id": "SRC-O-001",
+      "title": "초대교회와 신학 전통 개관",
+      "publisher": "St Andrews Encyclopaedia of Theology",
+      "url": "https://www.saet.ac.uk/Christianity/ChristianTheology",
+      "access_type": "academic_overview",
+      "rights": "link_and_summary_only",
+      "verified_scope": "public_overview_or_metadata",
+      "content_copied": false
+    },
+    {
+      "id": "SRC-O-002",
+      "title": "루터의 생애와 신학",
+      "publisher": "Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/luther/",
+      "access_type": "academic_encyclopedia",
+      "rights": "link_and_summary_only",
+      "verified_scope": "public_overview_or_metadata",
+      "content_copied": false
+    },
+    {
+      "id": "SRC-O-003",
+      "title": "위클리프의 사상",
+      "publisher": "Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/wyclif/",
+      "access_type": "academic_encyclopedia",
+      "rights": "link_and_summary_only",
+      "verified_scope": "public_overview_or_metadata",
+      "content_copied": false
+    },
+    {
+      "id": "SRC-O-004",
+      "title": "면벌부 논쟁과 95개조",
+      "publisher": "National Library of Scotland",
+      "url": "https://www.nls.uk/exhibitions/the-reformation/95-theses/",
+      "access_type": "national_library",
+      "rights": "link_and_summary_only",
+      "verified_scope": "public_overview_or_metadata",
+      "content_copied": false
+    },
+    {
+      "id": "SRC-O-005",
+      "title": "종교개혁의 시대적 흐름",
+      "publisher": "History.com",
+      "url": "https://www.history.com/articles/reformation",
+      "access_type": "general_reference",
+      "rights": "link_and_summary_only",
+      "verified_scope": "public_overview_or_metadata",
+      "content_copied": false
+    },
+    {
+      "id": "SRC-O-006",
+      "title": "웨슬리와 감리교 운동",
+      "publisher": "The Methodist Church (UK)",
+      "url": "https://www.methodist.org.uk/about/history/",
+      "access_type": "denominational_history",
+      "rights": "link_and_summary_only",
+      "verified_scope": "public_overview_or_metadata",
+      "content_copied": false
+    },
+    {
+      "id": "SRC-O-007",
+      "title": "감리교 신학과 웨슬리 유산",
+      "publisher": "St Andrews Encyclopaedia of Theology",
+      "url": "https://www.saet.ac.uk/Christianity/MethodistTheology",
+      "access_type": "academic_encyclopedia",
+      "rights": "link_and_summary_only",
+      "verified_scope": "public_overview_or_metadata",
+      "content_copied": false
+    },
+    {
+      "id": "SRC-O-008",
+      "title": "한국 초기 천주교 역사",
+      "publisher": "한국학중앙연구원 한국민족문화대백과사전",
+      "url": "https://encykorea.aks.ac.kr/Article/E0008156",
+      "access_type": "academic_national_encyclopedia",
+      "rights": "link_and_summary_only",
+      "verified_scope": "public_overview_or_metadata",
+      "content_copied": false
+    },
+    {
+      "id": "SRC-O-009",
+      "title": "한국 초기 기독교 선교",
+      "publisher": "한국학중앙연구원 한국민족문화대백과사전",
+      "url": "https://encykorea.aks.ac.kr/Article/E0028618",
+      "access_type": "academic_national_encyclopedia",
+      "rights": "link_and_summary_only",
+      "verified_scope": "public_overview_or_metadata",
+      "content_copied": false
+    },
+    {
+      "id": "SRC-O-010",
+      "title": "1885년 이후 한국 개신교 선교",
+      "publisher": "국사편찬위원회 우리역사넷",
+      "url": "https://contents.history.go.kr/mobile/nh/view.do?levelId=nh_046_0030_0040_0020_0020",
+      "access_type": "government_history",
+      "rights": "link_and_summary_only",
+      "verified_scope": "public_overview_or_metadata",
+      "content_copied": false
+    },
+    {
+      "id": "SRC-O-011",
+      "title": "한국 개신교 선교 시작에 대한 관점",
+      "publisher": "KCI 등재 학술 논문 초록",
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001920796",
+      "access_type": "academic_abstract",
+      "rights": "link_and_summary_only",
+      "verified_scope": "public_overview_or_metadata",
+      "content_copied": false
+    },
+    {
+      "id": "SRC-O-012",
+      "title": "세계교회협의회 제1차 총회와 창립",
+      "publisher": "World Council of Churches",
+      "url": "https://oikoumene.org/about-the-wcc/organizational-structure/assembly",
+      "access_type": "institutional_history",
+      "rights": "link_and_summary_only",
+      "verified_scope": "public_overview_or_metadata",
+      "content_copied": false
+    },
+    {
+      "id": "SRC-O-013",
+      "title": "스위스 츠빙글리·칼뱅 개관",
+      "publisher": "Switzerland Tourism",
+      "url": "https://www.myswitzerland.com/en-us/planning/about-switzerland/history-of-switzerland/two-reformers-zwingli-and-calvin/",
+      "access_type": "public_history",
+      "rights": "link_and_summary_only",
+      "verified_scope": "public_overview_or_metadata",
+      "content_copied": false
+    },
+    {
+      "id": "SRC-O-014",
+      "title": "북아메리카 대각성 운동",
+      "publisher": "University of Houston Digital History",
+      "url": "https://www.digitalhistory.uh.edu/disp_textbook.cfm?psid=3591&smtID=2",
+      "access_type": "university_history",
+      "rights": "link_and_summary_only",
+      "verified_scope": "public_overview_or_metadata",
+      "content_copied": false
+    },
+    {
+      "id": "SRC-O-015",
+      "title": "발도와 왈도파 역사",
+      "publisher": "American Waldensian Society",
+      "url": "https://www.waldensian.org/history/waldo/",
+      "access_type": "denominational_history",
+      "rights": "link_and_summary_only",
+      "verified_scope": "public_overview_or_metadata",
+      "content_copied": false
+    },
+    {
+      "id": "SRC-O-016",
+      "title": "후스 교회론 1915년 영어 번역",
+      "publisher": "Wikisource / Schaff 1915",
+      "url": "https://en.wikisource.org/wiki/De_Ecclesia._The_Church",
+      "access_type": "historical_translation",
+      "rights": "link_and_summary_only",
+      "verified_scope": "public_overview_or_metadata",
+      "content_copied": false
+    },
+    {
+      "id": "SRC-O-017",
+      "title": "바젤 콤팍타타 비평판 학술서평",
+      "publisher": "The Medieval Review",
+      "url": "https://scholarworks.iu.edu/journals/index.php/tmr/article/view/31313",
+      "access_type": "academic_review",
+      "rights": "link_and_summary_only",
+      "verified_scope": "public_overview_or_metadata",
+      "content_copied": false
+    },
+    {
+      "id": "SRC-O-018",
+      "title": "한국 천주교 첫 100년 연구",
+      "publisher": "Acta Koreana via KCI",
+      "url": "https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART001667406",
+      "access_type": "academic_article",
+      "rights": "link_and_summary_only",
+      "verified_scope": "public_overview_or_metadata",
+      "content_copied": false
+    },
+    {
+      "id": "SRC-O-019",
+      "title": "초기 한국 개신교 연구의 학술적 관점",
+      "publisher": "University of Hawaii Press / JSTOR",
+      "url": "https://www.jstor.org/stable/j.ctv1msswcg",
+      "access_type": "scholarly_book_description",
+      "rights": "link_and_summary_only",
+      "verified_scope": "public_overview_or_metadata",
+      "content_copied": false
+    },
+    {
+      "id": "SRC-O-020",
+      "title": "한국 개신교 선교 문헌 및 기록",
+      "publisher": "국사편찬위원회 한국사 DB",
+      "url": "https://db.history.go.kr/id/kn_073_0040_0030_0030",
+      "access_type": "government_archive",
+      "rights": "link_and_summary_only",
+      "verified_scope": "public_overview_or_metadata",
+      "content_copied": false
+    },
+    {
+      "id": "SRC-O-021",
+      "title": "가톨릭의 교의·공의회 전통",
+      "publisher": "St Andrews Encyclopaedia of Theology",
+      "url": "https://www.saet.ac.uk/Christianity/ChristianTheology",
+      "access_type": "academic_encyclopedia",
+      "rights": "link_and_summary_only",
+      "verified_scope": "public_overview_or_metadata",
+      "content_copied": false
+    },
+    {
+      "id": "SRC-O-022",
+      "title": "전통별 신학적 차이와 성례·예전",
+      "publisher": "St Andrews Encyclopaedia of Theology",
+      "url": "https://www.saet.ac.uk/Christianity/ChristianTheology",
+      "access_type": "academic_encyclopedia",
+      "rights": "link_and_summary_only",
+      "verified_scope": "public_overview_or_metadata",
+      "content_copied": false
+    },
+    {
+      "id": "SRC-O-023",
+      "title": "후스파/콤팍타타 연구의 문헌 계열",
+      "publisher": "Centre for Medieval Studies (Czech Academy)",
+      "url": "https://cms.flu.cas.cz/en/publications/monographs/die-basler-kompaktaten-mit-den-hussiten-1436-2.html",
+      "access_type": "scholarly_publication_catalogue",
+      "rights": "link_and_summary_only",
+      "verified_scope": "public_overview_or_metadata",
+      "content_copied": false
+    }
+  ]
+}

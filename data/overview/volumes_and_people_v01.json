@@ -1,0 +1,645 @@
+{
+  "schema_version": "0.1",
+  "stage": "CONTENT_PREPARATION",
+  "date": "2026-10-25",
+  "publication_gate": {
+    "approved": false,
+    "can_ship": false
+  },
+  "volumes": [
+    {
+      "id": "VOL-01",
+      "title": "초대교회와 고대교회",
+      "period": "1~5세기",
+      "topics": "사도 시대 이후 공동체, 박해, 교부, 공의회",
+      "summary": "그리스도교가 지중해 세계에 정착하며 공동체 질서와 교리 언어를 형성한 시기",
+      "source_ids": [
+        "SRC-O-001"
+      ],
+      "review_status": "OVERVIEW_DRAFT"
+    },
+    {
+      "id": "VOL-02",
+      "title": "중세교회와 개혁의 배경",
+      "period": "6~15세기",
+      "topics": "수도원·교황권·동서교회·대학·스콜라학·개혁의 요구",
+      "summary": "서방·동방 교회의 제도와 학문이 발전하는 동시에 쇄신과 권위 논쟁이 축적된 시기",
+      "source_ids": [
+        "SRC-O-001",
+        "SRC-O-021"
+      ],
+      "review_status": "OVERVIEW_DRAFT"
+    },
+    {
+      "id": "VOL-03",
+      "title": "종교개혁의 선구자",
+      "period": "12~15세기",
+      "topics": "왈도파·위클리프·후스·후스파·양형성찬 논쟁",
+      "summary": "16세기 이전의 개혁 전통을 단일한 직선적 기원으로 환원하지 않고 살펴본다",
+      "source_ids": [
+        "SRC-O-003",
+        "SRC-O-015",
+        "SRC-O-017"
+      ],
+      "review_status": "OVERVIEW_DRAFT"
+    },
+    {
+      "id": "VOL-04",
+      "title": "16세기 종교개혁",
+      "period": "16세기",
+      "topics": "독일·스위스·영국·스코틀랜드·급진적 개혁",
+      "summary": "성경과 은총·성례·교회제도를 둘러싼 지역별 개혁 흐름을 비교한다",
+      "source_ids": [
+        "SRC-O-002",
+        "SRC-O-004",
+        "SRC-O-013"
+      ],
+      "review_status": "OVERVIEW_DRAFT"
+    },
+    {
+      "id": "VOL-05",
+      "title": "가톨릭 개혁과 종교적 갈등",
+      "period": "16~17세기",
+      "topics": "트리엔트·예수회·종교 갈등과 공존",
+      "summary": "가톨릭 내부 개혁과 신앙고백 시대의 종교·정치 갈등 및 공존을 균형 있게 다룬다",
+      "source_ids": [
+        "SRC-O-001",
+        "SRC-O-005"
+      ],
+      "review_status": "OVERVIEW_DRAFT"
+    },
+    {
+      "id": "VOL-06",
+      "title": "부흥과 세계선교",
+      "period": "17~19세기",
+      "topics": "경건주의·감리교·대각성·선교와 번역",
+      "summary": "경건 실천·설교 운동·국제 선교와 현지 공동체 형성이 서로 연결된 과정",
+      "source_ids": [
+        "SRC-O-006",
+        "SRC-O-007",
+        "SRC-O-014"
+      ],
+      "review_status": "OVERVIEW_DRAFT"
+    },
+    {
+      "id": "VOL-07",
+      "title": "세계와 한국 교회사",
+      "period": "18~20세기 중심",
+      "topics": "세계기독교·한국 천주교·개신교·교육·의료·토착화",
+      "summary": "유럽 외 지역의 주체성과 사회적 맥락을 포함해 신앙 공동체의 변화를 다룬다",
+      "source_ids": [
+        "SRC-O-008",
+        "SRC-O-009",
+        "SRC-O-010",
+        "SRC-O-012"
+      ],
+      "review_status": "OVERVIEW_DRAFT"
+    },
+    {
+      "id": "VOL-08",
+      "title": "사상과 문헌 아카이브",
+      "period": "전 시대",
+      "topics": "성경번역·교회권위·성례·은총·신앙고백·사료비교",
+      "summary": "원저작·번역·편집본·후대 해석을 구분하고 권별 논점을 가로질러 탐색한다",
+      "source_ids": [
+        "SRC-O-001",
+        "SRC-O-002",
+        "SRC-O-003"
+      ],
+      "review_status": "OVERVIEW_DRAFT"
+    }
+  ],
+  "people": [
+    {
+      "id": "OV-P-001",
+      "name_en": "Ignatius of Antioch",
+      "name_ko": "안디옥의 이그나티우스",
+      "volume_ids": [
+        "VOL-01"
+      ],
+      "period": "2세기 초",
+      "summary": "초기 공동체의 지도자·주교 관련 서신으로 알려짐",
+      "source_ids": [
+        "SRC-O-001"
+      ],
+      "claim_level": "OVERVIEW",
+      "review_status": "DRAFT",
+      "public_visible": false
+    },
+    {
+      "id": "OV-P-002",
+      "name_en": "Athanasius",
+      "name_ko": "아타나시우스",
+      "volume_ids": [
+        "VOL-01"
+      ],
+      "period": "4세기",
+      "summary": "니케아 신앙과 그리스도론 논쟁의 주요 인물",
+      "source_ids": [
+        "SRC-O-001"
+      ],
+      "claim_level": "OVERVIEW",
+      "review_status": "DRAFT",
+      "public_visible": false
+    },
+    {
+      "id": "OV-P-003",
+      "name_en": "Augustine of Hippo",
+      "name_ko": "아우구스티누스",
+      "volume_ids": [
+        "VOL-01"
+      ],
+      "period": "354~430",
+      "summary": "은총·교회·역사관을 다룬 북아프리카의 라틴 교부",
+      "source_ids": [
+        "SRC-O-001"
+      ],
+      "claim_level": "OVERVIEW",
+      "review_status": "DRAFT",
+      "public_visible": false
+    },
+    {
+      "id": "OV-P-004",
+      "name_en": "Benedict of Nursia",
+      "name_ko": "베네딕투스",
+      "volume_ids": [
+        "VOL-02"
+      ],
+      "period": "6세기",
+      "summary": "서방 수도원 규칙 전통의 중요한 인물",
+      "source_ids": [
+        "SRC-O-001"
+      ],
+      "claim_level": "OVERVIEW",
+      "review_status": "DRAFT",
+      "public_visible": false
+    },
+    {
+      "id": "OV-P-005",
+      "name_en": "Anselm of Canterbury",
+      "name_ko": "안셀무스",
+      "volume_ids": [
+        "VOL-02"
+      ],
+      "period": "1033경~1109",
+      "summary": "신앙과 이성, 구원론을 논한 중세 신학자",
+      "source_ids": [
+        "SRC-O-001"
+      ],
+      "claim_level": "OVERVIEW",
+      "review_status": "DRAFT",
+      "public_visible": false
+    },
+    {
+      "id": "OV-P-006",
+      "name_en": "Thomas Aquinas",
+      "name_ko": "토마스 아퀴나스",
+      "volume_ids": [
+        "VOL-02"
+      ],
+      "period": "1225경~1274",
+      "summary": "중세 스콜라 신학·철학에 큰 영향을 준 학자",
+      "source_ids": [
+        "SRC-O-021"
+      ],
+      "claim_level": "OVERVIEW",
+      "review_status": "DRAFT",
+      "public_visible": false
+    },
+    {
+      "id": "OV-P-007",
+      "name_en": "Catherine of Siena",
+      "name_ko": "시에나의 카타리나",
+      "volume_ids": [
+        "VOL-02"
+      ],
+      "period": "1347~1380",
+      "summary": "14세기 교회 개혁과 영성 논의에 참여한 평신도 신비가",
+      "source_ids": [
+        "SRC-O-001"
+      ],
+      "claim_level": "OVERVIEW",
+      "review_status": "DRAFT",
+      "public_visible": false
+    },
+    {
+      "id": "OV-P-008",
+      "name_en": "Valdes / Waldo",
+      "name_ko": "발도(발데스)",
+      "volume_ids": [
+        "VOL-03"
+      ],
+      "period": "12세기 후반",
+      "summary": "리옹의 청빈·설교 운동을 이끈 평신도",
+      "source_ids": [
+        "SRC-O-015"
+      ],
+      "claim_level": "OVERVIEW",
+      "review_status": "DRAFT",
+      "public_visible": false,
+      "legacy_entity_id": "PER-0004"
+    },
+    {
+      "id": "OV-P-009",
+      "name_en": "John Wyclif",
+      "name_ko": "존 위클리프",
+      "volume_ids": [
+        "VOL-03"
+      ],
+      "period": "14세기",
+      "summary": "성경·교회 권위·성찬론의 쟁점을 제기한 옥스퍼드 학자",
+      "source_ids": [
+        "SRC-O-003"
+      ],
+      "claim_level": "OVERVIEW",
+      "review_status": "DRAFT",
+      "public_visible": false,
+      "legacy_entity_id": "PER-0001"
+    },
+    {
+      "id": "OV-P-010",
+      "name_en": "Jan Hus",
+      "name_ko": "얀 후스",
+      "volume_ids": [
+        "VOL-03"
+      ],
+      "period": "1370경~1415",
+      "summary": "프라하 설교와 교회론 논쟁에 관련된 보헤미아 신학자",
+      "source_ids": [
+        "SRC-O-016"
+      ],
+      "claim_level": "OVERVIEW",
+      "review_status": "DRAFT",
+      "public_visible": false,
+      "legacy_entity_id": "PER-0002"
+    },
+    {
+      "id": "OV-P-011",
+      "name_en": "Jerome of Prague",
+      "name_ko": "프라하의 예로니모",
+      "volume_ids": [
+        "VOL-03"
+      ],
+      "period": "1378경~1416",
+      "summary": "후스와 같은 시대의 보헤미아 학문·개혁 운동 인물",
+      "source_ids": [
+        "SRC-O-017"
+      ],
+      "claim_level": "OVERVIEW",
+      "review_status": "DRAFT",
+      "public_visible": false
+    },
+    {
+      "id": "OV-P-012",
+      "name_en": "Jan Žižka",
+      "name_ko": "얀 지슈카",
+      "volume_ids": [
+        "VOL-03"
+      ],
+      "period": "1360경~1424",
+      "summary": "후스파 전쟁기의 군사 지도자",
+      "source_ids": [
+        "SRC-O-017"
+      ],
+      "claim_level": "OVERVIEW",
+      "review_status": "DRAFT",
+      "public_visible": false
+    },
+    {
+      "id": "OV-P-013",
+      "name_en": "Martin Luther",
+      "name_ko": "마르틴 루터",
+      "volume_ids": [
+        "VOL-04"
+      ],
+      "period": "1483~1546",
+      "summary": "1517년 면벌부 논쟁 이후 독일 개혁운동의 핵심 인물",
+      "source_ids": [
+        "SRC-O-002"
+      ],
+      "claim_level": "OVERVIEW",
+      "review_status": "DRAFT",
+      "public_visible": false
+    },
+    {
+      "id": "OV-P-014",
+      "name_en": "Philipp Melanchthon",
+      "name_ko": "필리프 멜란히톤",
+      "volume_ids": [
+        "VOL-04"
+      ],
+      "period": "1497~1560",
+      "summary": "루터파 신앙고백과 교육 정리에 참여",
+      "source_ids": [
+        "SRC-O-002"
+      ],
+      "claim_level": "OVERVIEW",
+      "review_status": "DRAFT",
+      "public_visible": false
+    },
+    {
+      "id": "OV-P-015",
+      "name_en": "Huldrych Zwingli",
+      "name_ko": "훌드리히 츠빙글리",
+      "volume_ids": [
+        "VOL-04"
+      ],
+      "period": "1484~1531",
+      "summary": "취리히의 예배·설교 개혁을 이끈 인물",
+      "source_ids": [
+        "SRC-O-013"
+      ],
+      "claim_level": "OVERVIEW",
+      "review_status": "DRAFT",
+      "public_visible": false
+    },
+    {
+      "id": "OV-P-016",
+      "name_en": "John Calvin",
+      "name_ko": "장 칼뱅",
+      "volume_ids": [
+        "VOL-04"
+      ],
+      "period": "1509~1564",
+      "summary": "제네바의 개혁과 개혁파 신학에 큰 영향을 준 인물",
+      "source_ids": [
+        "SRC-O-013"
+      ],
+      "claim_level": "OVERVIEW",
+      "review_status": "DRAFT",
+      "public_visible": false
+    },
+    {
+      "id": "OV-P-017",
+      "name_en": "Menno Simons",
+      "name_ko": "메노 시몬스",
+      "volume_ids": [
+        "VOL-04"
+      ],
+      "period": "1496~1561",
+      "summary": "재세례파·메노파 전통에서 중요한 인물",
+      "source_ids": [
+        "SRC-O-005"
+      ],
+      "claim_level": "OVERVIEW",
+      "review_status": "DRAFT",
+      "public_visible": false
+    },
+    {
+      "id": "OV-P-018",
+      "name_en": "William Tyndale",
+      "name_ko": "윌리엄 틴들",
+      "volume_ids": [
+        "VOL-04"
+      ],
+      "period": "1494경~1536",
+      "summary": "영어 성경 번역·보급의 주요 인물",
+      "source_ids": [
+        "SRC-O-005"
+      ],
+      "claim_level": "OVERVIEW",
+      "review_status": "DRAFT",
+      "public_visible": false
+    },
+    {
+      "id": "OV-P-019",
+      "name_en": "Thomas Cranmer",
+      "name_ko": "토머스 크랜머",
+      "volume_ids": [
+        "VOL-04"
+      ],
+      "period": "1489~1556",
+      "summary": "영국 국교회 예전과 공동기도서 형성에 관련된 인물",
+      "source_ids": [
+        "SRC-O-005"
+      ],
+      "claim_level": "OVERVIEW",
+      "review_status": "DRAFT",
+      "public_visible": false
+    },
+    {
+      "id": "OV-P-020",
+      "name_en": "John Knox",
+      "name_ko": "존 녹스",
+      "volume_ids": [
+        "VOL-04"
+      ],
+      "period": "1514경~1572",
+      "summary": "스코틀랜드 개혁 운동의 대표적 설교자",
+      "source_ids": [
+        "SRC-O-005"
+      ],
+      "claim_level": "OVERVIEW",
+      "review_status": "DRAFT",
+      "public_visible": false
+    },
+    {
+      "id": "OV-P-021",
+      "name_en": "Ignatius of Loyola",
+      "name_ko": "이냐시오 데 로욜라",
+      "volume_ids": [
+        "VOL-05"
+      ],
+      "period": "1491경~1556",
+      "summary": "예수회 창립과 영적 훈련 전통에 영향",
+      "source_ids": [
+        "SRC-O-021"
+      ],
+      "claim_level": "OVERVIEW",
+      "review_status": "DRAFT",
+      "public_visible": false
+    },
+    {
+      "id": "OV-P-022",
+      "name_en": "Teresa of Ávila",
+      "name_ko": "아빌라의 테레사",
+      "volume_ids": [
+        "VOL-05"
+      ],
+      "period": "1515~1582",
+      "summary": "가르멜회 개혁·영성 저술에 참여",
+      "source_ids": [
+        "SRC-O-021"
+      ],
+      "claim_level": "OVERVIEW",
+      "review_status": "DRAFT",
+      "public_visible": false
+    },
+    {
+      "id": "OV-P-023",
+      "name_en": "Philip Jakob Spener",
+      "name_ko": "필리프 야코프 슈페너",
+      "volume_ids": [
+        "VOL-06"
+      ],
+      "period": "1635~1705",
+      "summary": "독일 경건주의의 중요한 인물",
+      "source_ids": [
+        "SRC-O-006"
+      ],
+      "claim_level": "OVERVIEW",
+      "review_status": "DRAFT",
+      "public_visible": false
+    },
+    {
+      "id": "OV-P-024",
+      "name_en": "John Wesley",
+      "name_ko": "존 웨슬리",
+      "volume_ids": [
+        "VOL-06"
+      ],
+      "period": "1703~1791",
+      "summary": "감리교적 부흥·소그룹 훈련·설교 운동 지도자",
+      "source_ids": [
+        "SRC-O-006"
+      ],
+      "claim_level": "OVERVIEW",
+      "review_status": "DRAFT",
+      "public_visible": false
+    },
+    {
+      "id": "OV-P-025",
+      "name_en": "Charles Wesley",
+      "name_ko": "찰스 웨슬리",
+      "volume_ids": [
+        "VOL-06"
+      ],
+      "period": "1707~1788",
+      "summary": "감리교 운동과 찬송·영적 실천에 기여",
+      "source_ids": [
+        "SRC-O-007"
+      ],
+      "claim_level": "OVERVIEW",
+      "review_status": "DRAFT",
+      "public_visible": false
+    },
+    {
+      "id": "OV-P-026",
+      "name_en": "George Whitefield",
+      "name_ko": "조지 휫필드",
+      "volume_ids": [
+        "VOL-06"
+      ],
+      "period": "1714~1770",
+      "summary": "영국·북미의 부흥 설교와 대각성에 관련됨",
+      "source_ids": [
+        "SRC-O-014"
+      ],
+      "claim_level": "OVERVIEW",
+      "review_status": "DRAFT",
+      "public_visible": false
+    },
+    {
+      "id": "OV-P-027",
+      "name_en": "William Carey",
+      "name_ko": "윌리엄 캐리",
+      "volume_ids": [
+        "VOL-06"
+      ],
+      "period": "1761~1834",
+      "summary": "19세기 초 인도에서 번역·교육·선교 활동",
+      "source_ids": [
+        "SRC-O-007"
+      ],
+      "claim_level": "OVERVIEW",
+      "review_status": "DRAFT",
+      "public_visible": false
+    },
+    {
+      "id": "OV-P-028",
+      "name_en": "Yi Seung-hun",
+      "name_ko": "이승훈",
+      "volume_ids": [
+        "VOL-07"
+      ],
+      "period": "1756~1801",
+      "summary": "1784년 조선 천주교 공동체 형성과 연결된 초기 한국인 신자",
+      "source_ids": [
+        "SRC-O-008"
+      ],
+      "claim_level": "OVERVIEW",
+      "review_status": "DRAFT",
+      "public_visible": false
+    },
+    {
+      "id": "OV-P-029",
+      "name_en": "Yi Byeok",
+      "name_ko": "이벽",
+      "volume_ids": [
+        "VOL-07"
+      ],
+      "period": "1754~1785",
+      "summary": "초기 조선 서학 연구와 천주교 공동체 형성에 참여",
+      "source_ids": [
+        "SRC-O-018"
+      ],
+      "claim_level": "OVERVIEW",
+      "review_status": "DRAFT",
+      "public_visible": false
+    },
+    {
+      "id": "OV-P-030",
+      "name_en": "Seo Sang-ryun",
+      "name_ko": "서상륜",
+      "volume_ids": [
+        "VOL-07"
+      ],
+      "period": "1848~1926",
+      "summary": "한국인 초기 개신교 신앙 및 공동체 형성과 연결됨",
+      "source_ids": [
+        "SRC-O-009"
+      ],
+      "claim_level": "OVERVIEW",
+      "review_status": "DRAFT",
+      "public_visible": false
+    },
+    {
+      "id": "OV-P-031",
+      "name_en": "Horace N. Allen",
+      "name_ko": "호러스 알렌",
+      "volume_ids": [
+        "VOL-07"
+      ],
+      "period": "1858~1932",
+      "summary": "1884년 조선 입국, 근대 의료와 초기 개신교 선교사",
+      "source_ids": [
+        "SRC-O-020"
+      ],
+      "claim_level": "OVERVIEW",
+      "review_status": "DRAFT",
+      "public_visible": false
+    },
+    {
+      "id": "OV-P-032",
+      "name_en": "Horace G. Underwood",
+      "name_ko": "호러스 언더우드",
+      "volume_ids": [
+        "VOL-07"
+      ],
+      "period": "1859~1916",
+      "summary": "1885년 입국한 장로교 선교사, 교육·교회 형성에 참여",
+      "source_ids": [
+        "SRC-O-010"
+      ],
+      "claim_level": "OVERVIEW",
+      "review_status": "DRAFT",
+      "public_visible": false
+    },
+    {
+      "id": "OV-P-033",
+      "name_en": "Henry G. Appenzeller",
+      "name_ko": "헨리 아펜젤러",
+      "volume_ids": [
+        "VOL-07"
+      ],
+      "period": "1858~1902",
+      "summary": "1885년 입국한 감리교 선교사, 교육 활동과 연계",
+      "source_ids": [
+        "SRC-O-010"
+      ],
+      "claim_level": "OVERVIEW",
+      "review_status": "DRAFT",
+      "public_visible": false
+    }
+  ]
+}
