@@ -1,0 +1,88 @@
+{
+  "schema_version": "0.1",
+  "stage": "CONTENT_PREPARATION",
+  "status": "DRAFT",
+  "priority_levels": [
+    "P0_BEFORE_PUBLIC_WEB",
+    "P1_BEFORE_DEPTH",
+    "P2_OPTIONAL"
+  ],
+  "items": [
+    {
+      "id": "EDQ-001",
+      "priority": "P0_BEFORE_PUBLIC_WEB",
+      "volume_ids": [
+        "VOL-01",
+        "VOL-02",
+        "VOL-04",
+        "VOL-05"
+      ],
+      "task": "Replace generic Christianity historical citations for named event claims with event-specific scholarly or archival sources; add verification scope and dates",
+      "reason": "Encyclopaedia theology general overview is not primary event evidence"
+    },
+    {
+      "id": "EDQ-002",
+      "priority": "P0_BEFORE_PUBLIC_WEB",
+      "volume_ids": [
+        "VOL-05"
+      ],
+      "task": "Broaden overview coverage of Catholic reform including Trent/Jesuits and avoid treating 1555/1648 as modern freedom of religion",
+      "reason": "Volume 5 only two people and too few competing perspectives"
+    },
+    {
+      "id": "EDQ-003",
+      "priority": "P0_BEFORE_PUBLIC_WEB",
+      "volume_ids": [
+        "VOL-07"
+      ],
+      "task": "Validate early Korean Protestant translators and Catholic community descriptions with local academic sources",
+      "reason": "Avoid outsider-only/missionary-first narratives"
+    },
+    {
+      "id": "EDQ-004",
+      "priority": "P0_BEFORE_PUBLIC_WEB",
+      "volume_ids": [
+        "VOL-03"
+      ],
+      "task": "Maintain existing deeper sources as independent optional references; do not auto-display unapproved image binaries or claim full manuscript collation",
+      "reason": "Gated VOL-03 deep research preserved"
+    },
+    {
+      "id": "EDQ-005",
+      "priority": "P0_BEFORE_PUBLIC_WEB",
+      "volume_ids": [
+        "VOL-08"
+      ],
+      "task": "Provide cross-volume topic browsing without forging eighth chronological period; keep original text/editorial translation hierarchy",
+      "reason": "VOL-08 is thematic"
+    },
+    {
+      "id": "EDQ-006",
+      "priority": "P1_BEFORE_DEPTH",
+      "volume_ids": [
+        "VOL-04"
+      ],
+      "task": "Add differentiated Luther/Zwingli/Calvin eucharistic views and bibliographical witness distinctions",
+      "reason": "Avoid false doctrinal equivalence"
+    },
+    {
+      "id": "EDQ-007",
+      "priority": "P1_BEFORE_DEPTH",
+      "volume_ids": [
+        "VOL-06"
+      ],
+      "task": "Refine revival/mission timelines with community histories outside Euro-American institutional accounts",
+      "reason": "Multiple geographical perspectives"
+    },
+    {
+      "id": "EDQ-008",
+      "priority": "P2_OPTIONAL",
+      "volume_ids": [
+        "VOL-01",
+        "VOL-02"
+      ],
+      "task": "Create independently authored historical maps once source-grounded coordinate points verified",
+      "reason": "Current places are name-only"
+    }
+  ]
+}

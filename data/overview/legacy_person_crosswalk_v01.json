@@ -1,0 +1,45 @@
+{
+  "schema_version": "0.1",
+  "purpose": "Prevent duplicating VOL-03 persons in later application data model; preserve existing overview IDs for compatibility.",
+  "status": "EDITORIAL_DRAFT",
+  "no_database_migration": true,
+  "publication_gate": {
+    "approved": false,
+    "can_ship": false
+  },
+  "pairs": [
+    {
+      "overview_id": "OV-P-008",
+      "canonical_id": "PER-0004",
+      "name_ko": "발도(발데스)",
+      "verified_name_in_graph": "발도",
+      "identity": "SAME_HISTORICAL_PERSON",
+      "canonical_source": "data/vol03_integrated_catalog_v08.json",
+      "existing_overview_relationships_use_provisional_id": true
+    },
+    {
+      "overview_id": "OV-P-009",
+      "canonical_id": "PER-0001",
+      "name_ko": "존 위클리프",
+      "verified_name_in_graph": "존 위클리프",
+      "identity": "SAME_HISTORICAL_PERSON",
+      "canonical_source": "data/vol03_integrated_catalog_v08.json",
+      "existing_overview_relationships_use_provisional_id": true
+    },
+    {
+      "overview_id": "OV-P-010",
+      "canonical_id": "PER-0002",
+      "name_ko": "얀 후스",
+      "verified_name_in_graph": "얀 후스",
+      "identity": "SAME_HISTORICAL_PERSON",
+      "canonical_source": "data/vol03_integrated_catalog_v08.json",
+      "existing_overview_relationships_use_provisional_id": true
+    }
+  ],
+  "global_policy": {
+    "initial_ids": "OV-P-* provisional overview records until migration decision.",
+    "existing_VOL03": "Use PER- IDs from the canonical graph when a person is already present.",
+    "relation_policy": "Do not silently relabel OV-R references before migration and referential integrity validation.",
+    "no_stale_stories": true
+  }
+}
