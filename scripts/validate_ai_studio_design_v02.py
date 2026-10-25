@@ -19,7 +19,8 @@ def main():
     faults = []
     required = [
         "01_PROJECT_PLAN.md", "02_PRD.md", "03_TRD.md", "04_UXUI.md",
-        "05_TASKLIST.md", "06_AI_STUDIO_MASTER_PROMPT.md",
+        "05_TASKLIST.md", "00_GITHUB_DESIGN_PREFLIGHT.md",
+        "06_MASTER_BUILD_PROMPT.md", "06_AI_STUDIO_MASTER_PROMPT.md",
         "07_AI_STUDIO_ITERATION_PROMPTS.md", "08_BUILD_CHECKLIST.md",
         "DESIGN_TOKENS.json", "SCREEN_CONTRACT.json", "README.md",
     ]
@@ -115,6 +116,42 @@ def main():
     status = load(ROOT / "data/overview/ai_studio_design_readiness_v02.json")
     if status["publication_gate"]["can_ship"] or status["website_built"] or status["approved_by_user"]:
         fail("design package incorrectly marked published/approved", faults)
+    expected_widths = [320, 360, 375, 390, 430, 768, 1024, 1440]
+    if screens["responsive"] != expected_widths or tokens["layout"]["breakpoints_preview_px"] != expected_widths:
+        fail("responsive breakpoints must agree for mobile/tablet/desktop", faults)
+    if not screens.get("mobile_first") or not screens.get("parity_required") or not tokens["layout"].get("mobile_primary"):
+        fail("mobile-first and feature parity contract missing", faults)
+    if screens["content_update_contract"]["initial"] != "OVERVIEW" or screens["content_update_contract"]["follow_up"] != "DEEP_RESEARCH":
+        fail("overview-to-depth update contract missing", faults)
+    if not status["prebuild_gate"]["required"] or status["prebuild_gate"]["status"] != "NOT_RUN_IN_AI_STUDIO":
+        fail("prebuild audit incorrectly marked completed or missing", faults)
+    if status["content_expansion"]["initial"] != "OVERVIEW" or not status["content_expansion"]["preserve_existing_urls_and_ids"]:
+        fail("content depth stability missing", faults)
+    must_contain = {
+        "00_GITHUB_DESIGN_PREFLIGHT.md": ("PREBUILD_GATE", "NO BUILD", "36", "320/360/375/390/430", "DEEP_RESEARCH"),
+        "01_PROJECT_PLAN.md": ("PREBUILD_GATE", "DEEP_RESEARCH", "320/360/375/390/430"),
+        "02_PRD.md": ("PREBUILD_GATE", "DEEP_RESEARCH", "320/360/375/390/430"),
+        "03_TRD.md": ("PREBUILD_GATE", "DEEP_RESEARCH", "320/360/375/390/430"),
+        "04_UXUI.md": ("모바일", "DEEP_RESEARCH", "320/360/375/390/430"),
+        "05_TASKLIST.md": ("AT-001", "PREBUILD_GATE", "DEEP_RESEARCH", "320/360/375/390/430"),
+        "06_MASTER_BUILD_PROMPT.md": ("PREBUILD_GATE", "NO BUILD", "DEEP_RESEARCH", "320/360/375/390/430"),
+        "06_AI_STUDIO_MASTER_PROMPT.md": ("PREBUILD_GATE", "NO BUILD", "DEEP_RESEARCH", "320/360/375/390/430"),
+        "07_ITERATION_PROMPTS.md": ("PREBUILD_GATE", "DEEP_RESEARCH", "320/360/375/390/430"),
+        "07_AI_STUDIO_ITERATION_PROMPTS.md": ("PREBUILD_GATE", "DEEP_RESEARCH", "320/360/375/390/430"),
+        "08_BUILD_CHECKLIST.md": ("PREBUILD_GATE", "320/360/375/390/430"),
+        "08_GITHUB_HANDOFF.md": ("PREBUILD_GATE", "320/360/375/390/430"),
+    }
+    for name, markers in must_contain.items():
+        body = (BUNDLE / name).read_text(encoding="utf-8")
+        if not all(mark in body for mark in markers):
+            fail("inconsistent mandatory lifecycle/audit/mobile contract in " + name, faults)
+    by_id = {t["id"]: t for t in canonical["tasks"]}
+    if "PREBUILD_GATE" not in by_id["AT-001"]["acceptance"] or "PREBUILD_GATE" not in by_id["AT-004"]["verification"]:
+        fail("AT-001 / AT-004 not gated by GitHub prebuild audit", faults)
+    if not all(str(w) in by_id["AT-026"]["acceptance"] for w in expected_widths):
+        fail("AT-026 mobile and desktop acceptance widths missing", faults)
+    if "DEEP_RESEARCH" not in by_id["AT-035"]["acceptance"]:
+        fail("AT-035 must preserve incremental historical depth", faults)
     if status["tasks"] != 36 or status["task_priority"] != {"P0":33,"P1":3}:
         fail("readiness file has outdated task count", faults)
     if (ROOT / "apps/web").exists():

@@ -76,7 +76,10 @@
   ],
   "responsive": [
     320,
+    360,
     375,
+    390,
+    430,
     768,
     1024,
     1440
@@ -91,5 +94,41 @@
     "person-overview-depth"
   ],
   "historical_media_public": false,
-  "release_approved": false
+  "release_approved": false,
+  "mobile_first": true,
+  "parity_required": true,
+  "mobile_full_feature_routes": [
+    "/",
+    "/volumes",
+    "/volumes/:volumeId",
+    "/people",
+    "/people/:personId",
+    "/timeline",
+    "/documents",
+    "/documents/:documentId",
+    "/topics",
+    "/search"
+  ],
+  "accessibility_contract": [
+    "responsive_mobile_navigation",
+    "esc_to_close_and_focus_return",
+    "touch_target_at_least_44px_recommended",
+    "body_text_at_least_16px",
+    "zero_horizontal_overflow",
+    "long_korean_latin_name_wrap",
+    "keyboard_and_screen_reader",
+    "reduced_motion"
+  ],
+  "content_update_contract": {
+    "initial": "OVERVIEW",
+    "follow_up": "DEEP_RESEARCH",
+    "preserve": [
+      "canonical_entity_id",
+      "permalink",
+      "overview_text",
+      "related_links"
+    ],
+    "must_be_approved_for_publication": true
+  },
+  "prebuild_gate": "GitHub actual files inspected, design integrity check passed and human scope approval recorded before B1"
 }

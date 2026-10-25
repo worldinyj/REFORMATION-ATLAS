@@ -70,7 +70,8 @@
       48,
       64
     ],
-    "site_max_width_px": 1200
+    "site_max_width_px": 1200,
+    "mobile_safe_area_support": true
   },
   "layout": {
     "columns_desktop": 4,
@@ -78,11 +79,18 @@
     "columns_mobile": 1,
     "breakpoints_preview_px": [
       320,
+      360,
       375,
+      390,
+      430,
       768,
       1024,
       1440
-    ]
+    ],
+    "mobile_primary": true,
+    "require_feature_parity_on_mobile": true,
+    "minimum_recommended_tap_target_px": 44,
+    "prevent_horizontal_overflow": true
   },
   "radii": {
     "card_px": 14,
