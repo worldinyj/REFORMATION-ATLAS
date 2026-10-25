@@ -1,4 +1,4 @@
-# VOL-03 연구 출처 대장 V0.3
+# VOL-03 연구 출처 대장 V0.5
 > 2026-10-25 수집 · 모든 출처는 실제 열람 범위 명시 · `DRAFT`
 
 **중요**: 유료 문헌의 비공개 장/본문을 열람한 것으로 간주하지 않는다. 공개 초록·서평은 연구 내용을 소개하는 2차 단서이며 중요한 논쟁적 주장에는 후속 1차 사료 교차검증이 필요하다. 해당 출처 내용은 자체 문장으로 재구성한다.
@@ -43,6 +43,19 @@
 | V03-S34 | 비평판 공개 학술 서평 | [Thomas A. Fudge, Review of Šmahel, Die Basler Kompaktaten, The Medieval Review](https://scholarworks.iu.edu/journals/index.php/tmr/article/view/31313) | 2020 | 10문서·24필사본·pp.165–218, 1432~37 협상 경과 | 서평 전문 직접 확인, 비평판 원문 미열람 |
 | V03-S35 | 동료심사 논문 공개 초록 | [Adam Pálka, The Basel Compactata and the Limits of Religious Coexistence, Church History](https://www.cambridge.org/core/journals/church-history/article/abs/basel-compactata-and-the-limits-of-religious-coexistence-in-the-age-of-conciliarism-and-beyond/33D199CEC2369561444EE2CF10B7754A) | 2023 | 가톨릭·양형성찬파 사이의 합의문 해석 차이 | 초록만 직접 확인, 논문 전체 미열람 |
 
+| V03-S36 | 학술서 공개 개요 | [John Wyclif (Oxford University Press), 2008, Oxford Academic](https://academic.oup.com/book/34847) | 2026-10-25 확인 | 위클리프 신학은 옥스퍼드 후기 스콜라 철학과 함께 이해해야 함 | 출판사 소개/요약, 전권 미열람 |
+| V03-S37 | 학술 참고문헌 개설 | [Craig Atwood, Jan Hus, Oxford Bibliographies](https://academic.oup.com/reference/62416/reference-article-abstract/555947093) | 2026-10-25 확인 | 1412년 면벌부 논쟁과 체코어 설교·교회론, 루터 이전 맥락 | 공개 학술 개요, 전체 참고문헌 미열람 |
+| V03-S38 | 동료심사 논문 공개 초록·각주 | [Ian Christopher Levy, John Wyclif and the Eucharistic Words of Institution (2021)](https://www.cambridge.org/core/journals/church-history/article/john-wyclif-and-the-eucharistic-words-of-institution-context-and-aftermath/7A3B350A2B409E97F900FC95F51D1AE6) | 2026-10-25 확인 | 후스의 전통적 실체변화 수용, 야쿠베크 등 성찬 논쟁의 분화 | 초록 및 공개 각주, 유료 본문 전문 미열람 |
+| V03-S39 | 학술서 장 공개 초록 | [Hus, the Hussites and Bohemia, The New Cambridge Medieval History (1998)](https://www.cambridge.org/core/books/abs/new-cambridge-medieval-history/hus-the-hussites-and-bohemia/7626BCFD4A5528999F442CE8F6539820) | 2026-10-25 확인 | 후스파의 사회·정치적 변화와 1434년 분열 | 초록, 유료 장 본문 미열람 |
+| V03-S40 | 대학 학술 출판 서지·초록 | [Josef Válka, Compactata and Capitulations: The Charter of Estate Freedoms? (2010)](https://www.muni.cz/en/research/publications/928360) | 2026-10-25 확인 | 성직·사회 타협 콤팍타타와 정치적 제후·신분제 계약의 구별 | 대학 학술 메타데이터의 연구 요약, 본문 미열람 |
+| V03-S41 | 동료심사 연구 공개 본문 | ['Sunt quadraginta anni vel circa': Southern French Waldensians and the Albigensian Crusade, French History (2018)](https://academic.oup.com/fh/article/32/3/327/5091977) | 2026-10-25 확인 | 1179 청빈 인정과 공적 설교 인가 분리 및 초기 왈도파 | 제공된 공개 본문 일부 |
+| V03-S42 | 동료심사 논문 공개 초록 | [Morné Diedericks, Perspective on the Waldensians of the 16th Century from the Letters of John Calvin (2023)](https://journals.sagepub.com/doi/10.1177/00145246231172980) | 2026-10-25 확인 | 1532년 회합 이후의 장기적인 관계, 낭만화된 일회적 전환 서사 비판 | 공개 초록만, 유료 본문 미열람 |
+| V03-S43 | 대학 학술 출판 서지·초록 | [Klára Hübnerová, Giving the Heretics a Stand (2025)](https://www.muni.cz/en/research/publications/2544397) | 2026-10-25 확인 | 1436년 이흘라바 협약·별도 콩코르다트·1462년 정치적 한계 | 대학 출판 서지/연구 설명, 장 본문 미열람 |
+| V03-S44 | 역사적 교단 백과 | [Catholic Encyclopedia, Hussites (early 20th century)](https://www.newadvent.org/cathen/07585a.htm) | 2026-10-25 확인 | 과거 가톨릭 내부 종교사 서술 및 4개조 설명 | 역사적 관점의 공개 전문. 현대 교단 공식 견해와 동일시 금지 |
+| V03-S45 | 학술 논문 공개 초록 | [Adam Pálka, Papoušek versus Lupáč (2016), Studia mediaevalia Bohemica 8(1)](https://www.ceeol.com/search/article-detail?id=560797) | 2026-10-25 확인 | 1436년 이후 합의문 기한·사제 의무·어린이 성찬 논쟁 | 공개 초록만, 유료 체코어 논문 본문 미열람 |
+| V03-S46 | 대학 학술 출판 메타데이터 | [Kamila Veverková, The Four Articles of Prague within the Public Sphere (2021)](https://explorer.cuni.cz/publication/606550) | 2026-10-25 확인 | 후스파 공공영역·4개조, 1485년 쿠트나호라 제한적 법적 공존 | 대학 공개 요약만 |
+| V03-S47 | 교단의 역사 설명 | [American Waldensian Society, Role of Women in the Middle Ages](https://www.waldensian.org/history/role-of-women-in-the-middle-ages/) | 2026-10-25 확인 | 초기 여성 설교 및 이후 기능 변화에 관한 교단 당사자 서사 | 교단 자료 공개 전문, 독립된 중세 심문자료 대조는 미완료 |
+
 ## 아직 완료되지 않은 자료 검증
 1. 1532년 찬포랑 회합 원사료의 번역/판본 비교.
 2. 위클리프 성찬론과 정치적 지배권 이론의 라틴어 텍스트 정밀 대조.
@@ -52,4 +65,4 @@
 6. 관점 차이 검증을 위한 가톨릭 교회사·체코 지역사 전문 연구 추가.
 
 ## 인용 편집 규칙
-원고에 쓰인 `[V03-Snn]`는 링크와 접근 범위를 포함한 출처 ID로 유지. 사실 주장마다 가장 가까운 문단에 부착한다. 참조 IDs는 01~35이며 기존 `SRC-0001` 체계와 충돌하지 않도록 별도 볼륨 로컬 출처 네임스페이스로 시작했다. 차후 통합 데이터베이스 시 영구 SRC ID를 부여할 것.
+원고에 쓰인 `[V03-Snn]`는 링크와 접근 범위를 포함한 출처 ID로 유지. 사실 주장마다 가장 가까운 문단에 부착한다. 참조 IDs는 01~47이며 기존 `SRC-0001` 체계와 충돌하지 않도록 별도 볼륨 로컬 출처 네임스페이스로 시작했다. 차후 통합 데이터베이스 시 영구 SRC ID를 부여할 것.
