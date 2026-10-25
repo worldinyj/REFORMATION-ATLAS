@@ -150,6 +150,46 @@
       ],
       "limitations_ko": "후스 성찬 저술의 라틴 원전 전체 대조 전",
       "review_status": "DRAFT"
+    },
+    {
+      "id": "CLM-V03-012",
+      "subject_id": "EVT-0013",
+      "claim_ko": "프라하 4개조의 1844년 팔라츠키 편집본과 1937년 계열 전사는 동일한 당대 필사본이라는 보증이 없다.",
+      "textual_basis": "Different editions and online provenance: Archiv český III (1844) vs edited 1937 text/Wikizdroje",
+      "evidence_tier": "edition_bibliography_comparison",
+      "certainty": "established_provenance_difference",
+      "source_ids": [
+        "V03-S23",
+        "V03-S32"
+      ],
+      "limitations_ko": "두 판면의 전체 이문 대조는 아직 수행하지 않음",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "CLM-V03-013",
+      "subject_id": "EVT-0019",
+      "claim_ko": "1433년 11월 30일 프라하에서 양측이 확인한 콤팍타타 핵심 합의 문안은 세 개로 설명된다.",
+      "textual_basis": "Fudge (2020) review of Šmahel (2019), section on original documents",
+      "evidence_tier": "scholarly_review",
+      "certainty": "supported_secondary_only",
+      "source_ids": [
+        "V03-S34"
+      ],
+      "limitations_ko": "원본 3개 문안 직접 열람 전",
+      "review_status": "DRAFT"
+    },
+    {
+      "id": "CLM-V03-014",
+      "subject_id": "EVT-0020",
+      "claim_ko": "1437년 12월 23일 바젤 공의회에서 관련 후속 교령이 발표되어 평신도의 잔 수령을 보편 의무라고 보지 않았다.",
+      "textual_basis": "Fudge (2020) review, paragraph on Ut lucidius videatur",
+      "evidence_tier": "scholarly_review",
+      "certainty": "supported_secondary_only",
+      "source_ids": [
+        "V03-S34"
+      ],
+      "limitations_ko": "실제 라틴어 교령의 전문 직접 열람/법적 의미 정밀 검증 미완료",
+      "review_status": "DRAFT"
     }
   ]
 }
