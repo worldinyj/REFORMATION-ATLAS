@@ -24,4 +24,6 @@ jobs:
       - name: Cross-reformer events and claims QA
         run: python3 scripts/validate_vol04_crosswalk_v01.py
       - name: Editions, source witnesses and publication gate QA
-        run: python3 scripts/validate_vol04_witness_bibliography_v02.py
+        run: |
+          python3 scripts/validate_vol04_witness_bibliography_v02.py
+          python3 scripts/validate_vol04_split_proposals_v01.py
