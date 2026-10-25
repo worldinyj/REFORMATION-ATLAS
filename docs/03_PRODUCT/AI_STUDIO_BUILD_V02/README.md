@@ -17,6 +17,9 @@
 7. [AI Studio ITERATION PROMPTS](07_AI_STUDIO_ITERATION_PROMPTS.md) — 데이터/검색/인물/QA/동기화 등 B2~B4 프롬프트
 8. [AI Studio 실행 전·진행 체크리스트](08_BUILD_CHECKLIST.md) — 실제 시연 확인과 배포 방지 점검
 
+## 한국어 버전 마스터 프롬프트
+- [첫 실행용 한국어 지시문](06_MASTER_BUILD_PROMPT.md)도 제공한다. **06_AI_STUDIO_MASTER_PROMPT.md 또는 한국어 지시문 중 하나만 골라 처음 실행**한다. 두 프롬프트를 연달아 넣어 기존 앱을 재생성하지 않는다. 두 문서는 동일한 B1 목적의 선택지다.
+
 ## 기계 판독용 규격
 - [디자인 토큰 JSON](DESIGN_TOKENS.json)
 - [14개 화면 계약 JSON](SCREEN_CONTRACT.json)
