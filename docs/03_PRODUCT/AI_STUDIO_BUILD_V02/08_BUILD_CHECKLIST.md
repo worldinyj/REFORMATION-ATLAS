@@ -1,12 +1,27 @@
 # 08 · AI Studio Build 실행 전 점검
 > DRAFT / 작업 후 증빙해야 할 체크리스트. 현재 체크박스는 실제 작업을 수행했다는 기록이 아님.
 
+## 시작 순서 및 GitHub 설계 감사 — 반드시 B1 전에
+- [ ] GitHub `plan/atlas-ai-studio-build-v02`에서 5대 설계/토큰/두 언어 06·07 프롬프트와 역사 개요 JSON **실제 파일 접근** 확인
+- [ ] [00 감사 지시문](00_GITHUB_DESIGN_PREFLIGHT.md) 수행: FR 18 / 화면 14 / Task 36(P0 33/P1 3), 기간·ID·권리·모바일 규칙 일관성 점검
+- [ ] PASS/WARN/BLOCKER 및 사소한 불일치 수정 diff와 재검증 기록. GitHub 미연결이면 **NO BUILD**
+- [ ] `PREBUILD_GATE=PASS` 및 설계 범위 승인 뒤에만 06 한국어 B1 생성 지시문 입력
+- [ ] 초기 **OVERVIEW** 구축 → 후속 **DEEP_RESEARCH**가 준비되면 동일 canonical ID·URL에서 증분 삽입하는 계약 확인
+
 ## 원본 준비
 - [ ] GitHub에 이 01~08 패키지와 개요 자료가 존재함 확인
 - [ ] 현재 Google AI Studio Build > Web 에서 프로젝트를 열 수 있음
 - [ ] AI Studio가 React/TS 빌드 구조를 실제 어떻게 생성했는지 확인
 - [ ] GitHub 동기화 시 저장소/브랜치를 직접 확인, main 보호
 - [ ] 디자인 토큰/마스터 프롬프트를 모델에 제공
+
+## 모바일 우선·데스크톱 동등 수용
+- [ ] 모바일 320/360/375/390/430px에서 8권·인물·연대표·문헌·검색·출처/필터의 정보와 기능 손실 없음
+- [ ] 1열·20px 좌우 패딩·16px 이상 본문·가로 넘침 0·길고 혼합된 한글/라틴어 자동 줄바꿈
+- [ ] 모바일 메뉴 open/close/ESC/focus 복귀, 스크린리더 레이블, 44px 내외 터치 대상, safe-area, reduced-motion
+- [ ] 태블릿 768/1024px 2열·데스크톱 1440px 4열과 여백/본문 가독성 확인
+- [ ] iOS Safari/Android Chrome에서 검증하거나 실제 검사하지 않은 경우 NOT TESTED로 기록
+- [ ] 개요→심층 업데이트 테스트 시 동일 URL/ID/OVERVIEW 유지 확인
 
 ## 첫 화면 검수(B1)
 - [ ] 홈 H1, 큰 여백, 8권 카드 8장과 정확한 제목

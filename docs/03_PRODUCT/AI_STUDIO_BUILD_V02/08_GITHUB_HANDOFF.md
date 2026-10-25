@@ -2,6 +2,13 @@
 
 > DRAFT / 2026-10-25 · 공식 설명: [Build](https://ai.google.dev/gemini-api/docs/aistudio-build-mode), [Full-stack](https://ai.google.dev/gemini-api/docs/aistudio-fullstack), [Deploy](https://ai.google.dev/gemini-api/docs/aistudio-deploying).
 
+## 0. 개발보다 먼저 GitHub 설계 감사
+Google AI Studio에는 처음부터 개발을 지시하지 않는다. 먼저 [00 GitHub 사전 감사](00_GITHUB_DESIGN_PREFLIGHT.md)를 전달해 **실제 저장소를 읽을 수 있는지**와 5대 설계, FR18/화면14/TASK36, 출처·토큰·양언어 프롬프트 간 일관성·연결성·통일성을 점검하고 필요시 설계 변경 diff/QA를 확보한다. 접근 실패 또는 BLOCKER면 **PREBUILD_GATE=BLOCKED / NO BUILD**.
+
+**다음 순서:** 00 설계 감사 → PASS/사용자 검토 → 06 한국어 앱 골격(B1) → 07 개요 JSON 연결·세부 기능 → 모바일 먼저/데스크톱 함께 QA → GitHub 코드 diff 검토 → 별도 배포 승인.
+
+**구현 시 불변 조건:** 처음에는 OVERVIEW 기반 웹 골격, 심층 후속 연구(DEEP_RESEARCH)는 같은 ID·URL의 인물/사건/문헌에 증분 추가한다. 모바일 320/360/375/390/430px과 태블릿 768/1024px·데스크톱 1440px의 기능 동등성을 지킨다. `main` 자동 푸시·Share/Publish 금지.
+
 ## 1. 권장 개발 순서
 1. Google AI Studio → **Build** → Web app 선택.
 2. [06_MASTER_BUILD_PROMPT.md](06_MASTER_BUILD_PROMPT.md) 원문을 붙여넣어 **홈·8권·공통 템플릿** 생성.

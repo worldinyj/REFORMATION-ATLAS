@@ -2,6 +2,14 @@
 > 06 마스터 프롬프트의 B1 코드가 실제 생성·확인된 뒤, 아래 프롬프트를 **하나씩** 입력한다.
 > 한 단계씩 빌드 결과와 실패 로그를 확인하고 다음 프롬프트로 이동. 이 문서는 코드 실행 결과가 아니다.
 
+
+## 0. Mandatory recurring checks
+Before B1, **run [GitHub First Audit](00_GITHUB_DESIGN_PREFLIGHT.md) on real connected repository files**, reconcile 5 design docs, 18 FRs, 14 screens, 36 tasks, source IDs, tokens and Korean/English build instructions. If access is absent or a major contradiction remains, report `PREBUILD_GATE=BLOCKED / NO BUILD` and STOP; never pretend the scan ran.
+
+Across B2/B3/B4, preserve **OVERVIEW first, DEEP_RESEARCH later**. When reviewed Wyclif/Hus/Luther content arrives, append depth blocks to the SAME canonical entity ID and URL without losing the overview, connections or citations.
+
+Mobile is an equal primary surface. Verify **320/360/375/390/430px mobile**, tablet **768/1024px**, desktop **1440px**; all navigation, timeline, search, documents, sources and filters must remain usable. Check menu Escape/focus return, touch targets (~44px), >=16px text, long Latin/Korean wrapping, zero overflow and reduced motion. Report unrun checks as NOT TESTED.
+
 ## B1-FIX — 디자인 점검 (필요할 때)
 PROMPT:
 > Keep the existing React/TypeScript app and all routes. Refine only the design to strictly follow Quiet Editorial Atlas: more generous whitespace, Korean editorial typography, warm off-white #F7F8F5 canvas, ink #1C2925, muted #4B6058, forest accent #205F50, 1200px max layout, ~720px reading width, 4/2/1 responsive volume cards. Remove heavy shadows, unnecessary gradients, giant images and any fake historical portraits. Verify at 375px and 1440px. Summarize what you changed.
