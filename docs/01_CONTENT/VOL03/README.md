@@ -128,3 +128,9 @@
 - [10점 미디어/14개 역사 주장 연결 오버레이](../../../data/vol03_editorial_overlay_v09_p4.json): 출처/대상 누락 0건, `show_in_public=false` 및 승인 대기 유지. 기존 Markdown·통합 그래프·이미지 바이너리 수정 없음.
 - [G4 8권 공통 데이터 계약 연구용 초안](../../03_PRODUCT/G4_ATLAS_DATA_CONTRACT_V01.md) · [계약 JSON](../../../data/contracts/atlas_contract_v01.json) · [검증 상태](../../03_PRODUCT/G4_DATA_READINESS_V01.md). 글로벌 ID를 재활용하고 원전/편집본/번역, 역사 확실성/공개 승인을 서로 구분. **정식 G4 및 G5 승인 아님**.
 - 원전 원문 교감·7개 HIGH 시각자료의 전문가 고증, 사용자 승인과 로컬 전체 Python 테스트는 여전히 별도 게이트.
+
+## V1.0 · 브르노 1435 보충 원전 및 로컬 매체 실물 검증 (2026-10-25)
+- [26 브르노 1435 라틴·체코어 역사 편집본 대조](26_BRNO_1435_SUPPLEMENTAL_WITNESS_V10.md): 1844년 팔라츠키 출판본 pp.421–425 OCR 직접 확인, 원문 무날짜/1435년 7월은 후대 편집자 추정. 1433/1436/1437 문서와 동일시 금지.
+- [보충 원전 증거 JSON](../../../data/vol03_supplemental_witnesses_v10.json): 임시 출처 4건과 보충 문헌 1건. 원래 182/365 연구 인덱스·63개 출처·14개 주장은 불변.
+- [실물 매체 파일 기술 재검증](../../03_PRODUCT/VOL03_OFFLINE_ASSET_QA_V10.md): ZIP SHA/CRC, WebP 6건, SVG 4건, Word 15쪽/이미지 10개 기록 재확인. Git 전체 체크아웃은 불가하여 저장소 Python 스크립트 실행은 보류.
+- 외부 역사학자/문헌학자 심사·현장 초상 및 이미지 승인·`main` 병합은 미완료, Draft PR 유지.
