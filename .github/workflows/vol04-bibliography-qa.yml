@@ -1,0 +1,38 @@
+name: VOL-04 bibliographic witnesses and edition migration QA
+on:
+  push:
+    branches:
+      - research/vol04-bibliography-editions-v02
+  pull_request:
+    branches:
+      - research/vol04-crosswalk-evidence-v01
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  bibliography-readonly-qa:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Overview and four reformers structural QA
+        run: |
+          python3 scripts/validate_atlas_overview_v01.py
+          python3 scripts/validate_vol04_luther_deep_v01.py
+          python3 scripts/validate_vol04_zwingli_deep_v01.py
+          python3 scripts/validate_vol04_melanchthon_deep_v01.py
+          python3 scripts/validate_vol04_calvin_deep_v01.py
+      - name: Cross-reformer events and claims QA
+        run: python3 scripts/validate_vol04_crosswalk_v01.py
+      - name: Editions, source witnesses and publication gate QA
+        run: |
+          python3 scripts/validate_vol04_witness_bibliography_v02.py
+          python3 scripts/validate_vol04_split_proposals_v01.py
+          python3 scripts/validate_vol04_copy_evidence_v01.py
+          python3 scripts/validate_vol04_manuscript_edition_reaudit_v02.py
+          python3 scripts/validate_vol04_edition_comparison_v01.py
+          python3 scripts/validate_vol04_document_edition_ui_v01.py
+          python3 scripts/build_vol04_edition_ui_review_v02.py
+          python3 scripts/validate_vol04_edition_ui_projection_v02.py
+          python3 scripts/build_vol04_provenance_graph_v03.py
+          python3 scripts/validate_vol04_provenance_graph_v03.py
+          python3 scripts/guard_vol04_public_bundle_v01.py --self-test

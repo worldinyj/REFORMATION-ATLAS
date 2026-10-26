@@ -33,3 +33,17 @@
 5. **VOL-03 ↔ VOL-04 교차 비교** — 위클리프·후스·루터 사이의 실제 문헌·수용 관계를 검증.
 
 순서대로 원고/출처·주장 JSON/검증 자료를 추가하며 **웹 디자인/React 코드 변경 없이 콘텐츠 연구를 계속한다**.
+
+## 제4권 네 인물 심층 연구 및 문헌·판본 단계 업데이트 (2026-10-25)
+- [루터](LUTHER_DEEP_RESEARCH_V01.md), [츠빙글리](ZWINGLI_DEEP_RESEARCH_V01.md), [멜란히톤](MELANCHTHON_DEEP_RESEARCH_V01.md), [칼뱅](CALVIN_DEEP_RESEARCH_V01.md) 심층 초안이 모두 DRAFT로 준비됨.
+- [4인 비교 검토](REFORMERS_CROSS_REVIEW_V01.md) → [61 주장/43 사건 대응표](FOUR_REFORMERS_EVIDENCE_CROSSWALK_V01.md) → [17개 판본·원전 서지 V0.2](WITNESS_EDITION_BIBLIOGRAPHY_V02.md) → [정본 ID 이관 계약](EDITION_ID_MIGRATION_CONTRACT_V02.md).
+- [기계판독 서지](../../../data/deep/vol04_witness_bibliography_v02.json), [자동검증](../../../scripts/validate_vol04_witness_bibliography_v02.py).
+- 17개 후보 중 **5개가 복합 문헌이므로 분리 필요**, 정식 ID 발급·원전 전문 대조·이미지 권리 승인 **미완료**.
+- 이전 '다음 연구' 목록은 당시 계획으로 남겨 두었으며, 이번 이력에 따라 루터/츠빙글리/멜란히톤/칼뱅 V0.1을 추가 작업 완료로 기록함.
+
+## 판본 상세 화면 데이터 연결 V0.2 (2026-10-25)
+- [설계 및 검증 가이드](../../03_PRODUCT/VOL04_DOCUMENT_EDITION_UI_PROJECTION_V02.md) · [기계판독 계약](../../../data/contracts/vol04_document_edition_ui_v02.json).
+- [읽기 전용 변환 스크립트](../../../scripts/build_vol04_edition_ui_review_v02.py): 기존 서지 17개·임시 하위 구분 10개·비교 사례 3개를 검토. 기본 실행은 파일 생성하지 않음.
+- [부정 경로 검증](../../../scripts/validate_vol04_edition_ui_projection_v02.py): 기존 저작 연결/연도/언어/승인 차단을 점검.
+- **공개 건수 0건**; 연구 시안은 Google AI Studio 앱에서 직접 import하거나 퍼블릭 파일로 배포하지 않음. 이미지 권리·사료 고증·사람 승인이 끝난 별도 릴리스 생성기 필요.
+

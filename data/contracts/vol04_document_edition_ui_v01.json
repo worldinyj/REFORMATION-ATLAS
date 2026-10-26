@@ -1,0 +1,121 @@
+{
+  "schema_version": "0.1",
+  "contract_id": "VOL04-DOCUMENT-DETAIL-EDITION-COMPARISON",
+  "status": "DESIGN_ONLY",
+  "public_projection_generated": false,
+  "compatibility": {
+    "global_contract": "data/contracts/atlas_contract_v01.json",
+    "stable_work_ids": [
+      "OV-D-011",
+      "OV-D-012"
+    ],
+    "route_template": "/documents/:documentId",
+    "no_routing_for_proposals": true
+  },
+  "view": {
+    "sections": [
+      "work_heading",
+      "edition_timeline",
+      "comparison_tabs",
+      "source_provenance",
+      "limitations",
+      "related_people_events"
+    ],
+    "comparison_tabs": [
+      "structure",
+      "textual_wording",
+      "iconography"
+    ],
+    "allowed_date_precision": [
+      "year",
+      "month",
+      "day",
+      "unknown"
+    ],
+    "ui_labels_ko": {
+      "structure": "구성 변화",
+      "textual_wording": "본문 차이",
+      "iconography": "삽화 차이",
+      "uncollated": "원문 대조 전",
+      "draft": "연구 중"
+    },
+    "accessibility": {
+      "alternative_text_required_for_media": true,
+      "chronology_text_alternative": true,
+      "keyboard_navigation_required": true
+    }
+  },
+  "source_data": {
+    "research_only": [
+      "data/deep/vol04_witness_bibliography_v02.json",
+      "data/deep/vol04_split_proposals_v01.json",
+      "data/deep/vol04_edition_comparison_v01.json"
+    ],
+    "never_import_directly": true
+  },
+  "fields": {
+    "work": [
+      "id",
+      "title_ko",
+      "approval_reference"
+    ],
+    "edition": [
+      "edition_id",
+      "work_id",
+      "year",
+      "language",
+      "date_precision",
+      "material_type",
+      "approved"
+    ],
+    "comparison": [
+      "comparison_id",
+      "work_id",
+      "edition_ids",
+      "comparison_type",
+      "observation_ko",
+      "interpretation_ko",
+      "evidence_level",
+      "source_ids",
+      "text_collated",
+      "human_approval_ref"
+    ],
+    "media": [
+      "id",
+      "rights_status",
+      "provenance",
+      "alt_ko",
+      "approved"
+    ]
+  },
+  "publication_gate": {
+    "default_deny": true,
+    "required": [
+      "work_approved",
+      "all_editions_approved",
+      "comparison_approved",
+      "source_evidence_approved",
+      "rights_approved",
+      "human_approval_ref",
+      "release_approved"
+    ],
+    "build_time_filter": true,
+    "no_css_only_hiding": true,
+    "no_client_side_import_of_research_json": true,
+    "missing_field_is_false": true
+  },
+  "research_examples": [
+    {
+      "research_case_id": "VOL04-CMP-001",
+      "public_visible": false
+    },
+    {
+      "research_case_id": "VOL04-CMP-002",
+      "public_visible": false
+    },
+    {
+      "research_case_id": "VOL04-CMP-003",
+      "public_visible": false
+    }
+  ]
+}

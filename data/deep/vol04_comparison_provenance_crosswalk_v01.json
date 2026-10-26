@@ -1,0 +1,155 @@
+{
+  "schema_version": "0.1",
+  "status": "UNAPPROVED_PROVENANCE_CROSSWALK",
+  "publication_approved": false,
+  "access_verified_this_revision": false,
+  "source_text_collated": false,
+  "source_registry_note": "These research-only IDs organize URLs previously referenced in edition comparison v01. They are not approved canonical source IDs, original manuscript witnesses, or evidence of full-text comparison.",
+  "source_records": [
+    {
+      "research_source_key": "CMP-SRC-PROP-001",
+      "url": "https://academic.oup.com/book/50318/chapter-abstract/422710493",
+      "classification": "academic_chapter_abstract",
+      "label_ko": "옥스퍼드 아카데믹 출판 장 초록",
+      "verification_state": "LINK_REGISTERED_NOT_RECHECKED",
+      "original_witness": false,
+      "rights_approved": false,
+      "publication_approved": false,
+      "canonical_source_id": null
+    },
+    {
+      "research_source_key": "CMP-SRC-PROP-002",
+      "url": "https://learn.ligonier.org/articles/savoring-institutes",
+      "classification": "confessional_commentary",
+      "label_ko": "Ligonier의 기독교강요 해설",
+      "verification_state": "LINK_REGISTERED_NOT_RECHECKED",
+      "original_witness": false,
+      "rights_approved": false,
+      "publication_approved": false,
+      "canonical_source_id": null
+    },
+    {
+      "research_source_key": "CMP-SRC-PROP-003",
+      "url": "https://www.crossway.org/articles/an-important-chapter-that-calvin-added-to-the-second-edition-of-his-institutes/",
+      "classification": "publisher_commentary",
+      "label_ko": "Crossway 칼뱅 1539년 개정판 해설",
+      "verification_state": "LINK_REGISTERED_NOT_RECHECKED",
+      "original_witness": false,
+      "rights_approved": false,
+      "publication_approved": false,
+      "canonical_source_id": null
+    },
+    {
+      "research_source_key": "CMP-SRC-PROP-004",
+      "url": "https://bridwell.omeka.net/exhibits/show/luther/lutherbibles/dezembertestament",
+      "classification": "institutional_exhibition",
+      "label_ko": "Bridwell 1522년 12월 신약성경 소장 전시",
+      "verification_state": "LINK_REGISTERED_NOT_RECHECKED",
+      "original_witness": false,
+      "rights_approved": false,
+      "publication_approved": false,
+      "canonical_source_id": null
+    },
+    {
+      "research_source_key": "CMP-SRC-PROP-005",
+      "url": "https://www.themorgan.org/exhibitions/online/word-and-image/7",
+      "classification": "institutional_exhibition",
+      "label_ko": "Morgan Library 1522년 신약성경 전시",
+      "verification_state": "LINK_REGISTERED_NOT_RECHECKED",
+      "original_witness": false,
+      "rights_approved": false,
+      "publication_approved": false,
+      "canonical_source_id": null
+    },
+    {
+      "research_source_key": "CMP-SRC-PROP-006",
+      "url": "https://www.augsburg1540.com/1530-1540-comparison-text.html",
+      "classification": "secondary_text_comparison_site",
+      "label_ko": "1530/1540년 신앙고백 비교 웹사이트",
+      "verification_state": "LINK_REGISTERED_NOT_RECHECKED",
+      "original_witness": false,
+      "rights_approved": false,
+      "publication_approved": false,
+      "canonical_source_id": null
+    },
+    {
+      "research_source_key": "CMP-SRC-PROP-007",
+      "url": "https://www.augsburg1540.com/history.html",
+      "classification": "secondary_historical_overview_site",
+      "label_ko": "1540년 신앙고백 해설 웹사이트",
+      "verification_state": "LINK_REGISTERED_NOT_RECHECKED",
+      "original_witness": false,
+      "rights_approved": false,
+      "publication_approved": false,
+      "canonical_source_id": null
+    }
+  ],
+  "comparisons": [
+    {
+      "case_id": "VOL04-CMP-001",
+      "work_reference": "OV-D-012",
+      "source_keys": [
+        "CMP-SRC-PROP-001",
+        "CMP-SRC-PROP-002",
+        "CMP-SRC-PROP-003"
+      ],
+      "related_people": [
+        {
+          "id": "OV-P-016",
+          "relation": "author"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "OV-E-020",
+          "relation": "context_1536_first_edition_only"
+        }
+      ],
+      "caution_ko": "1539년·1559년 사건까지 1536년 사건 ID에 병합하지 않는다."
+    },
+    {
+      "case_id": "VOL04-CMP-002",
+      "work_reference": "WORK-PROP-V04-LUTHER-NT",
+      "source_keys": [
+        "CMP-SRC-PROP-004",
+        "CMP-SRC-PROP-005"
+      ],
+      "related_people": [
+        {
+          "id": "OV-P-013",
+          "relation": "translator"
+        }
+      ],
+      "related_events": [],
+      "caution_ko": "현재 개요 사건에서 1522년 신약 출간에 해당하는 독립 사건 ID가 확정되지 않았다."
+    },
+    {
+      "case_id": "VOL04-CMP-003",
+      "work_reference": "OV-D-011",
+      "source_keys": [
+        "CMP-SRC-PROP-006",
+        "CMP-SRC-PROP-007"
+      ],
+      "related_people": [
+        {
+          "id": "OV-P-014",
+          "relation": "confession_drafting_context"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "OV-E-019",
+          "relation": "context_1530_submission_only"
+        }
+      ],
+      "caution_ko": "1530년 제출 사건이 1540년 수정판 자체를 뜻하지 않으며 멜란히톤만의 단독 저작도 아니다."
+    }
+  ],
+  "human_approved": false,
+  "release_gate": {
+    "can_ship": false,
+    "allow_web_import": false,
+    "requires_primary_source_collation": true,
+    "requires_separate_manifest": true
+  }
+}
