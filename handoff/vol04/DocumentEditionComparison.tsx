@@ -1,94 +1,73 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from 'react';
+import { getApprovedDocumentEdition } from './approvedEditions';
+import { validatedPublicPayload, type ComparisonKind } from './editionPolicy';
 
-/** PUBLIC APPROVED DATA ONLY. Do not import data/deep or research projections. */
-export type ApprovedEdition = Readonly<{
-  id: string;
-  label: string;
-  yearLabel: string;
-  language: string;
-  materialKind: string;
-  approved: true;
-  publicationApproved: true;
-}>;
-export type ApprovedEditionComparison = Readonly<{
-  id: string;
-  kind: "structure" | "textual_wording" | "iconography";
-  observationKo: string;
-  interpretationKo?: string;
-  sourceLabels: readonly string[];
-  approved: true;
-  publicationApproved: true;
-  textCollated: boolean;
-}>;
-export type ApprovedDocumentEditionPayload = Readonly<{
-  workId: string;
-  releaseManifestId: string;
-  releaseApproved: true;
-  editions: readonly ApprovedEdition[];
-  comparisons: readonly ApprovedEditionComparison[];
-}>;
-type Props = Readonly<{
-  documentId: string;
-  /** Supply only from a separately generated, signed-off public snapshot. */
-  approvedPayload?: ApprovedDocumentEditionPayload | null;
-}>;
-const TABS = [
-  { id: "structure", label: "구성 변화" },
-  { id: "textual_wording", label: "본문 차이" },
-  { id: "iconography", label: "삽화 차이" },
-] as const;
-const EMPTY = "승인된 판본 비교 자료가 없습니다.";
+const tabs: ReadonlyArray<{ id: ComparisonKind; label: string }> = [
+  { id: 'structure', label: '구성 변화' },
+  { id: 'textual_wording', label: '본문 차이' },
+  { id: 'iconography', label: '삽화 차이' },
+];
+const EMPTY = '승인된 판본 비교 자료가 없습니다.';
 
-function isSafe(payload: ApprovedDocumentEditionPayload | null | undefined, documentId: string): payload is ApprovedDocumentEditionPayload {
-  if (!payload || payload.workId !== documentId || payload.releaseApproved !== true ||
-      !payload.releaseManifestId || !Array.isArray(payload.editions) || !Array.isArray(payload.comparisons)) return false;
-  // REVIEW-ONLY identifiers must never be public route identifiers.
-  if (/(?:-PROP-|VOL04-CMP-|CMP-SRC-PROP-)/.test(payload.workId)) return false;
-  if (!payload.editions.every(e => e.approved === true && e.publicationApproved === true &&
-      !!e.id && !!e.yearLabel && !!e.language)) return false;
-  if (!payload.comparisons.every(c => c.approved === true && c.publicationApproved === true &&
-      !!c.id && !!c.observationKo && Array.isArray(c.sourceLabels) &&
-      (c.kind !== "textual_wording" || c.textCollated === true))) return false;
-  return true;
-}
+/** Add to existing DocumentDetailPage only. No research data is loaded here. */
+export default function DocumentEditionComparison({ documentId }: { documentId: string }) {
+  const [active, setActive] = useState<ComparisonKind>('structure');
+  const refs = useRef<(HTMLButtonElement | null)[]>([]);
+  const payload = validatedPublicPayload(getApprovedDocumentEdition(documentId), documentId);
 
-/** Non-public template: deliberately renders empty state until an approved payload is provided. */
-export default function DocumentEditionComparison({ documentId, approvedPayload }: Props) {
-  const [active, setActive] = useState<(typeof TABS)[number]["id"]>("structure");
-  const safe = isSafe(approvedPayload, documentId);
-  if (!safe) return (
-    <section aria-labelledby="editions-heading" className="edition-comparison">
-      <h2 id="editions-heading">판본 비교</h2>
-      <p role="status">{EMPTY}</p>
+  function selectByKeyboard(event: React.KeyboardEvent<HTMLButtonElement>, index: number) {
+    let next: number;
+    if (event.key === 'ArrowRight') next = (index + 1) % tabs.length;
+    else if (event.key === 'ArrowLeft') next = (index + tabs.length - 1) % tabs.length;
+    else if (event.key === 'Home') next = 0;
+    else if (event.key === 'End') next = tabs.length - 1;
+    else return;
+    event.preventDefault();
+    setActive(tabs[next].id);
+    refs.current[next]?.focus();
+  }
+
+  if (!payload) return (
+    <section aria-labelledby="edition-comparison-heading" className="edition-comparison">
+      <h2 id="edition-comparison-heading">판본 비교</h2>
+      <p role="status" className="edition-comparison__empty">{EMPTY}</p>
     </section>
   );
-  const comparisons = approvedPayload.comparisons.filter(c => c.kind === active);
+
+  const selected = payload.comparisons.filter(item => item.kind === active);
   return (
-    <section aria-labelledby="editions-heading" className="edition-comparison">
-      <h2 id="editions-heading">판본 비교</h2>
-      <ol aria-label="승인된 판본 연표" className="edition-timeline">
-        {approvedPayload.editions.map(e => (
-          <li key={e.id}>
-            <strong>{e.yearLabel}</strong> — {e.label}
-            <span> · {e.language} · {e.materialKind}</span>
+    <section aria-labelledby="edition-comparison-heading" className="edition-comparison">
+      <h2 id="edition-comparison-heading">판본 비교</h2>
+      <ol aria-label="판본 연대표" className="edition-comparison__timeline">
+        {payload.editions.map(edition => (
+          <li key={edition.id}>
+            <strong>{edition.yearLabel}</strong> — {edition.label}
+            <span> · {edition.language} · {edition.materialKind}</span>
           </li>
         ))}
       </ol>
-      <div role="tablist" aria-label="판본 비교 유형">
-        {TABS.map(t => <button key={t.id} role="tab" type="button"
-          aria-selected={active === t.id} id={"edition-tab-"+t.id}
-          aria-controls={"edition-panel-"+t.id}
-          onClick={() => setActive(t.id)}>{t.label}</button>)}
+      <div role="tablist" aria-label="판본 비교 유형" className="edition-comparison__tabs">
+        {tabs.map((tab, index) => (
+          <button type="button" role="tab" key={tab.id} id={`edition-tab-${tab.id}`}
+            aria-controls={`edition-panel-${tab.id}`} aria-selected={active === tab.id}
+            tabIndex={active === tab.id ? 0 : -1}
+            ref={el => { refs.current[index] = el; }}
+            onClick={() => setActive(tab.id)}
+            onKeyDown={event => selectByKeyboard(event, index)}>{tab.label}</button>
+        ))}
       </div>
-      <div role="tabpanel" id={"edition-panel-"+active}
-        aria-labelledby={"edition-tab-"+active} tabIndex={0}>
-        {comparisons.length === 0 ? <p>{EMPTY}</p> :
-          comparisons.map(c => <article key={c.id}>
-            <p>{c.observationKo}</p>
-            {c.interpretationKo && <p><strong>해석:</strong> {c.interpretationKo}</p>}
-            <p><strong>검토된 출처:</strong> {c.sourceLabels.join(" · ")}</p>
-          </article>)}
-      </div>
+      {tabs.map(tab => (
+        <div role="tabpanel" key={tab.id} id={`edition-panel-${tab.id}`}
+          aria-labelledby={`edition-tab-${tab.id}`}
+          hidden={active !== tab.id} tabIndex={active === tab.id ? 0 : -1}>
+          {active === tab.id && (selected.length === 0 ? <p>{EMPTY}</p> :
+            selected.map(item => <article key={item.id}>
+              <p>{item.observationKo}</p>
+              {item.interpretationKo && <p><strong>역사적 해석:</strong> {item.interpretationKo}</p>}
+              <p><strong>검토된 출처:</strong> {item.sourceLabels.join(' · ')}</p>
+            </article>))}
+        </div>
+      ))}
     </section>
   );
 }
