@@ -1,0 +1,29 @@
+name: VOL-04 Event Narratives Research QA
+on:
+  push:
+    branches:
+      - research/vol04-event-narratives-v01
+  pull_request:
+    branches:
+      - research/vol04-readable-depth-v02
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  event-narrative-qa:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check four-reformer source and canonical event crosswalk
+        run: |
+          python3 scripts/validate_atlas_overview_v01.py
+          python3 scripts/validate_vol04_luther_deep_v01.py
+          python3 scripts/validate_vol04_zwingli_deep_v01.py
+          python3 scripts/validate_vol04_melanchthon_deep_v01.py
+          python3 scripts/validate_vol04_calvin_deep_v01.py
+          python3 scripts/validate_vol04_crosswalk_v01.py
+          python3 scripts/validate_vol04_readable_depth_v02.py
+      - name: Five historical event episodes and publication controls
+        run: |
+          python3 scripts/validate_vol04_event_narratives_v01.py
+          python3 scripts/test_vol04_event_narratives_negative_v01.py
