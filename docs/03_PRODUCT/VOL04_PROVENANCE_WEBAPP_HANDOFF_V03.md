@@ -54,3 +54,13 @@ python3 scripts/build_vol04_provenance_graph_v03.py --review-output /tmp/vol04_p
 - 현재는 **RESEARCH ONLY / PUBLIC 0건**. 공개 결과가 없다는 것은 빈 서비스 데이터가 정상이란 의미이며 누락 오류가 아니다.
 
 관련 파일: `data/deep/vol04_comparison_provenance_crosswalk_v01.json`, `scripts/build_vol04_provenance_graph_v03.py`, `scripts/validate_vol04_provenance_graph_v03.py`.
+
+## 정적 웹 번들 사전 검사
+
+실제 프런트엔드 빌드 산출물이 생성된 별도 웹앱 CI에서 다음을 실행한다.
+
+```sh
+python3 scripts/guard_vol04_public_bundle_v01.py --bundle path/to/dist
+```
+
+이 검사는 연구용 키·출처 레코드 및 리뷰용 JSON 흔적이 HTML/JS/JSON/CSS/소스맵에 포함되면 실패한다. 연구 브랜치 CI는 `--self-test`로 탐지 로직을 검증한다. **정적 문자열 탐지는 승인 매니페스트, 근거 심사, 이미지 저작권 검토의 대체가 아니며** 실제 웹앱 번들을 검사했다는 의미도 아니다.
