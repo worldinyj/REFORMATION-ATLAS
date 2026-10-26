@@ -48,4 +48,12 @@
 - <https://editions.mml.ox.ac.uk/editions/peasants-erfurt/> — 1525 에르푸르트 재판본(현대 교정판/번역/도판), `ARCH.8°.G.1525(28)`.
 - <https://editions.mml.ox.ac.uk/editions/peasants-nuremberg/> — 뉘른베르크 재판본, `ARCH.8°.G.1525(27)`.
 
+### 새로 확인한 1525년 실제 인쇄본의 소장 근거
+
+멤밍겐 시립기록관의 『12개 조항』 소장 소개는 **아우크스부르크 멜히오르 라밍거(Melchior Ramminger) 인쇄본(1525, `VD 16 G 3540`)**과 **슈트라스부르크 볼프강 쾨펠(Wolfgang Köpfel) 인쇄본(1525)**을 구분한다. 인쇄소가 다른 두 증인이라는 사실은 판본 연구의 출발점이 된다. 관련 실물 예시로 아우크스부르크 Staats- und Stadtbibliothek 소장번호 `4 Th H 1355`가 명시되어 있다. **이 번호는 인쇄된 12개 조항 실물의 소장번호이지 멤밍겐 시립기록관 내 서가번호라는 뜻이 아니다.**
+
+기관 근거: <https://stadtarchiv.memmingen.de/quellen/reformation-und-bauernaufstand/zwoelf-artikel-der-bauernschaft-augsburger-erstdruck.html>
+
+`VD 16 G 3540`은 서지 데이터베이스 식별자이며 해당 판본의 모든 실물 소장처를 뜻하지 않는다. 서로 다른 인쇄본을 동일 본문·동일 판면이라 가정하지 않는다. 해당 기관이 사진을 제공하는 것과 상업적/웹앱 이미지 재사용 권리가 승인된 것은 다르다.
+
 **역사 검증 보류:** 농민 지역별 요구·전쟁 수치, 진압 촉구문 두 재판본의 원독일어 문구 비교, 서적과 실물 도상 권리. 기존 개요에는 해당 사건의 정식 `OV-E` ID가 없으므로 신규 정본 ID를 발급하지 않는다.
