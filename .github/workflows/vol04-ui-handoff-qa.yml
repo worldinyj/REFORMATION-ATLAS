@@ -1,0 +1,33 @@
+name: VOL-04 React Edition UI Handoff QA
+on:
+  push:
+    branches:
+      - feat/vol04-document-ui-handoff-v01
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  typescript-and-policy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install isolated React TypeScript tooling
+        working-directory: handoff/vol04
+        run: npm install --no-audit --no-fund
+      - name: Compile JSX and run policy negative tests
+        working-directory: handoff/vol04
+        run: npm test
+      - name: Ensure approved public source is intentionally empty
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          p = Path('handoff/vol04/approvedEditions.ts').read_text()
+          assert 'Object.freeze({})' in p, 'Approved source must stay empty until editorial release'
+          x = Path('handoff/vol04/DocumentEditionComparison.tsx').read_text()
+          assert 'getApprovedDocumentEdition' in x
+          assert 'data/deep/' not in x
+          print('PASS empty release source; no research JSON import')
+          PY
