@@ -36,3 +36,20 @@ Share, Publish, Cloud Run, GitHub main push는 하지 마세요.
 ## 확인 범위
 - 현재 GitHub의 `feat/atlas-web-overview-mvp` 및 `plan/atlas-ai-studio-build-v02`에서는 UI `src/`와 package.json이 발견되지 않았다.
 - AI Studio 브라우저 탭에서 React 앱 소스 파일 목록과 Built 로그는 확인했지만 실 파일 내용은 확보·변경하지 않았다.
+
+## V0.2 안전성·재현 검사 업데이트 (2026-10-26)
+
+V0.1의 참고 TSX는 다음과 같이 보완되었다.
+- `handoff/vol04/editionPolicy.ts`: 승인 상태, 정식 ID 문법, 문헌 일치, 각 판본의 승인 상태, 비교 근거 존재, **본문 원전 대조와 이미지 권리 조건** 검사. 브라우저 검사는 서명 검증/편집 승인의 대체가 아님.
+- `handoff/vol04/approvedEditions.ts`: `Object.freeze({})`로 고정된 **빈 승인본 공급원**. 현재 자료 0건이 정상.
+- `handoff/vol04/DocumentEditionComparison.tsx`: 외부에서 임의 payload를 받는 방식을 폐기하고, 전용 승인 공급원만 조회. 탭은 ArrowLeft/ArrowRight/Home/End 및 스크린리더 상태 지원.
+- `handoff/vol04/DocumentEditionComparison.css`: Quiet Editorial Atlas 팔레트·모바일 터치 목표·focus-visible·줄바꿈·reduced-motion.
+- `handoff/vol04/package.json` 및 `tests/policy.test.cjs`: 독립 React/TS 설정과 양성·음성 회귀 테스트.
+
+**앱 파일 적용 순서**: 기존 앱 소스가 GitHub로 export된 후 세 TS/TSX 파일을 `src/components/vol04/`에 넣고 CSS를 기존 글로벌 스타일에 import한다. `DocumentDetailPage.tsx`에 `<DocumentEditionComparison documentId={document.id} />`를 추가하되 문헌 객체 ID 필드 이름이 다른 경우 실제 타입에 맞춘다. 14개 라우트를 새로 만들지 않는다.
+
+**개발 검사**: `cd handoff/vol04 && npm install --no-audit --no-fund && npm test`. 제공한 source와 순수 정책 로직은 로컬 `tsc -p tsconfig.policy.json` 및 Node test 6건 통과. 별도의 GitHub Actions 워크플로 `.github/workflows/vol04-ui-handoff-qa.yml`을 구성해 JSX 타입검사를 요청했다. GitHub CI 결과는 실행된 경우에만 PASS로 보고한다.
+
+**출판 검사**: 이 컴포넌트의 런타임 타입 검사만으로 퍼블릭 승인이 성립하지 않는다. 향후 독립된 사람 승인 릴리스 매니페스트에서만 `approvedEditions.ts`의 공급원을 빌드 시 생성해야 하며, 미승인 research JSON, 미검증 이미지, 원전 본문을 앱 import·번들에 넣지 않는다.
+
+**현재 상태**: HANDOFF_IMPLEMENTED / REACT_APP_INTEGRATION_PENDING / PUBLIC_RELEASE_BLOCKED.
