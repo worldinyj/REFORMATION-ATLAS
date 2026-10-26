@@ -105,7 +105,7 @@ def check(data: dict | None = None) -> dict:
         body = (ROOT / p).read_text(encoding="utf-8")
         if len(body) < 3100 or body.count("\n## ") < 4:
             reject("episode lacks developed reader narrative: " + str(p))
-        if "**DRAFT" not in body or "비공개" not in body:
+        if "**DRAFT" not in body or not ("비공개" in body or "공개 불가" in body):
             reject("episode missing editorial draft disclosure")
         if expcanonical:
             if expcanonical not in body:
