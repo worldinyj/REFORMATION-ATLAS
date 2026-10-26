@@ -1,0 +1,366 @@
+{
+  "schema_version": "0.2",
+  "kind": "READABLE_DEEP_RESEARCH_REGISTRY",
+  "authored_date": "2026-10-26",
+  "status": "RESEARCH_DRAFT",
+  "publication_gate": {
+    "approved": false,
+    "can_ship": false,
+    "rights_approved": false,
+    "human_editorial_approval": false
+  },
+  "existing_overview_unchanged": true,
+  "canonical_ids_minted": 0,
+  "records": [
+    {
+      "person_id": "OV-P-013",
+      "slug": "luther",
+      "title_ko": "마르틴 루터",
+      "depth_block_id": "DEPTH-V04-P013-001",
+      "body_path": "docs/01_CONTENT/VOL04/LUTHER_NARRATIVE_DEPTH_V02.md",
+      "source_dataset": "data/deep/vol04_luther_v01.json",
+      "volume_id": "VOL-04",
+      "review_status": "DRAFT_RESEARCH_NOT_PUBLIC",
+      "approved": false,
+      "publication_approved": false,
+      "inherit_existing_person_id": true,
+      "inherit_existing_depth_block_id": true,
+      "sections": [
+        {
+          "section_key": "L2-01",
+          "title_ko": "학문과 1517년 공개 논쟁",
+          "claim_ids": [
+            "CLM-V04-L-001",
+            "CLM-V04-L-002",
+            "CLM-V04-L-003"
+          ],
+          "source_ids_resolved_by": "parent_claim_source_ids",
+          "review_status": "DRAFT",
+          "text_collated": false,
+          "public_visible": false
+        },
+        {
+          "section_key": "L2-02",
+          "title_ko": "1520~1522년 저작과 번역",
+          "claim_ids": [
+            "CLM-V04-L-005",
+            "CLM-V04-L-006",
+            "CLM-V04-L-007",
+            "CLM-V04-L-008"
+          ],
+          "source_ids_resolved_by": "parent_claim_source_ids",
+          "review_status": "DRAFT",
+          "text_collated": false,
+          "public_visible": false
+        },
+        {
+          "section_key": "L2-03",
+          "title_ko": "1525년 농민전쟁과 자유의 긴장",
+          "claim_ids": [
+            "CLM-V04-L-009",
+            "CLM-V04-L-014"
+          ],
+          "source_ids_resolved_by": "parent_claim_source_ids",
+          "review_status": "DRAFT",
+          "text_collated": false,
+          "public_visible": false
+        },
+        {
+          "section_key": "L2-04",
+          "title_ko": "마르부르크 성찬 논쟁",
+          "claim_ids": [
+            "CLM-V04-L-010",
+            "CLM-V04-L-011",
+            "CLM-V04-L-012"
+          ],
+          "source_ids_resolved_by": "parent_claim_source_ids",
+          "review_status": "DRAFT",
+          "text_collated": false,
+          "public_visible": false
+        },
+        {
+          "section_key": "L2-05",
+          "title_ko": "유산과 반유대주의 기록",
+          "claim_ids": [
+            "CLM-V04-L-015",
+            "CLM-V04-L-016"
+          ],
+          "source_ids_resolved_by": "parent_claim_source_ids",
+          "review_status": "DRAFT",
+          "text_collated": false,
+          "public_visible": false
+        }
+      ]
+    },
+    {
+      "person_id": "OV-P-015",
+      "slug": "zwingli",
+      "title_ko": "울리히 츠빙글리",
+      "depth_block_id": "DEPTH-V04-P015-001",
+      "body_path": "docs/01_CONTENT/VOL04/ZWINGLI_NARRATIVE_DEPTH_V02.md",
+      "source_dataset": "data/deep/vol04_zwingli_v01.json",
+      "volume_id": "VOL-04",
+      "review_status": "DRAFT_RESEARCH_NOT_PUBLIC",
+      "approved": false,
+      "publication_approved": false,
+      "inherit_existing_person_id": true,
+      "inherit_existing_depth_block_id": true,
+      "sections": [
+        {
+          "section_key": "Z2-01",
+          "title_ko": "취리히의 개혁과 소시지 사건",
+          "claim_ids": [
+            "CLM-V04-ZW-001",
+            "CLM-V04-ZW-002"
+          ],
+          "source_ids_resolved_by": "parent_claim_source_ids",
+          "review_status": "DRAFT",
+          "text_collated": false,
+          "public_visible": false
+        },
+        {
+          "section_key": "Z2-02",
+          "title_ko": "1523년 의회와 67개 조항",
+          "claim_ids": [
+            "CLM-V04-ZW-003",
+            "CLM-V04-ZW-004",
+            "CLM-V04-ZW-005"
+          ],
+          "source_ids_resolved_by": "parent_claim_source_ids",
+          "review_status": "DRAFT",
+          "text_collated": false,
+          "public_visible": false
+        },
+        {
+          "section_key": "Z2-03",
+          "title_ko": "재세례파 탄압과 도시 교회",
+          "claim_ids": [
+            "CLM-V04-ZW-006",
+            "CLM-V04-ZW-007"
+          ],
+          "source_ids_resolved_by": "parent_claim_source_ids",
+          "review_status": "DRAFT",
+          "text_collated": false,
+          "public_visible": false
+        },
+        {
+          "section_key": "Z2-04",
+          "title_ko": "1529년 마르부르크 복수 증인",
+          "claim_ids": [
+            "CLM-V04-ZW-008",
+            "CLM-V04-ZW-009"
+          ],
+          "source_ids_resolved_by": "parent_claim_source_ids",
+          "review_status": "DRAFT",
+          "text_collated": false,
+          "public_visible": false
+        },
+        {
+          "section_key": "Z2-05",
+          "title_ko": "카펠 전쟁과 사후 계승",
+          "claim_ids": [
+            "CLM-V04-ZW-010",
+            "CLM-V04-ZW-011",
+            "CLM-V04-ZW-012"
+          ],
+          "source_ids_resolved_by": "parent_claim_source_ids",
+          "review_status": "DRAFT",
+          "text_collated": false,
+          "public_visible": false
+        }
+      ]
+    },
+    {
+      "person_id": "OV-P-014",
+      "slug": "melanchthon",
+      "title_ko": "필리프 멜란히톤",
+      "depth_block_id": "DEPTH-V04-P014-001",
+      "body_path": "docs/01_CONTENT/VOL04/MELANCHTHON_NARRATIVE_DEPTH_V02.md",
+      "source_dataset": "data/deep/vol04_melanchthon_v01.json",
+      "volume_id": "VOL-04",
+      "review_status": "DRAFT_RESEARCH_NOT_PUBLIC",
+      "approved": false,
+      "publication_approved": false,
+      "inherit_existing_person_id": true,
+      "inherit_existing_depth_block_id": true,
+      "sections": [
+        {
+          "section_key": "M2-01",
+          "title_ko": "인문주의 학자와 교사",
+          "claim_ids": [
+            "CLM-V04-ME-001",
+            "CLM-V04-ME-002",
+            "CLM-V04-ME-003"
+          ],
+          "source_ids_resolved_by": "parent_claim_source_ids",
+          "review_status": "DRAFT",
+          "text_collated": false,
+          "public_visible": false
+        },
+        {
+          "section_key": "M2-02",
+          "title_ko": "신학 교과서 Loci의 개정",
+          "claim_ids": [
+            "CLM-V04-ME-004",
+            "CLM-V04-ME-014"
+          ],
+          "source_ids_resolved_by": "parent_claim_source_ids",
+          "review_status": "DRAFT",
+          "text_collated": false,
+          "public_visible": false
+        },
+        {
+          "section_key": "M2-03",
+          "title_ko": "1530~1540년 신앙고백과 판본",
+          "claim_ids": [
+            "CLM-V04-ME-007",
+            "CLM-V04-ME-008",
+            "CLM-V04-ME-009",
+            "CLM-V04-ME-011"
+          ],
+          "source_ids_resolved_by": "parent_claim_source_ids",
+          "review_status": "DRAFT",
+          "text_collated": false,
+          "public_visible": false
+        },
+        {
+          "section_key": "M2-04",
+          "title_ko": "1548년 강압 상황의 양보 논쟁",
+          "claim_ids": [
+            "CLM-V04-ME-012",
+            "CLM-V04-ME-013",
+            "CLM-V04-ME-015"
+          ],
+          "source_ids_resolved_by": "parent_claim_source_ids",
+          "review_status": "DRAFT",
+          "text_collated": false,
+          "public_visible": false
+        },
+        {
+          "section_key": "M2-05",
+          "title_ko": "개혁의 장기적 교육 유산",
+          "claim_ids": [
+            "CLM-V04-ME-003",
+            "CLM-V04-ME-006",
+            "CLM-V04-ME-014"
+          ],
+          "source_ids_resolved_by": "parent_claim_source_ids",
+          "review_status": "DRAFT",
+          "text_collated": false,
+          "public_visible": false
+        }
+      ]
+    },
+    {
+      "person_id": "OV-P-016",
+      "slug": "calvin",
+      "title_ko": "장 칼뱅",
+      "depth_block_id": "DEPTH-V04-P016-001",
+      "body_path": "docs/01_CONTENT/VOL04/CALVIN_NARRATIVE_DEPTH_V02.md",
+      "source_dataset": "data/deep/vol04_calvin_v01.json",
+      "volume_id": "VOL-04",
+      "review_status": "DRAFT_RESEARCH_NOT_PUBLIC",
+      "approved": false,
+      "publication_approved": false,
+      "inherit_existing_person_id": true,
+      "inherit_existing_depth_block_id": true,
+      "sections": [
+        {
+          "section_key": "C2-01",
+          "title_ko": "기독교강요 성장과 망명",
+          "claim_ids": [
+            "CLM-V04-CA-002",
+            "CLM-V04-CA-003",
+            "CLM-V04-CA-004",
+            "CLM-V04-CA-005"
+          ],
+          "source_ids_resolved_by": "parent_claim_source_ids",
+          "review_status": "DRAFT",
+          "text_collated": false,
+          "public_visible": false
+        },
+        {
+          "section_key": "C2-02",
+          "title_ko": "1541년 제네바 규칙과 권력",
+          "claim_ids": [
+            "CLM-V04-CA-006",
+            "CLM-V04-CA-007"
+          ],
+          "source_ids_resolved_by": "parent_claim_source_ids",
+          "review_status": "DRAFT",
+          "text_collated": false,
+          "public_visible": false
+        },
+        {
+          "section_key": "C2-03",
+          "title_ko": "1549년 취리히 합의",
+          "claim_ids": [
+            "CLM-V04-CA-009",
+            "CLM-V04-CA-010"
+          ],
+          "source_ids_resolved_by": "parent_claim_source_ids",
+          "review_status": "DRAFT",
+          "text_collated": false,
+          "public_visible": false
+        },
+        {
+          "section_key": "C2-04",
+          "title_ko": "1553년 세르베투스와 강제",
+          "claim_ids": [
+            "CLM-V04-CA-011",
+            "CLM-V04-CA-012",
+            "CLM-V04-CA-013"
+          ],
+          "source_ids_resolved_by": "parent_claim_source_ids",
+          "review_status": "DRAFT",
+          "text_collated": false,
+          "public_visible": false
+        },
+        {
+          "section_key": "C2-05",
+          "title_ko": "1559년 교육과 사후 수용",
+          "claim_ids": [
+            "CLM-V04-CA-014",
+            "CLM-V04-CA-016"
+          ],
+          "source_ids_resolved_by": "parent_claim_source_ids",
+          "review_status": "DRAFT",
+          "text_collated": false,
+          "public_visible": false
+        }
+      ]
+    }
+  ],
+  "known_source_cautions": [
+    {
+      "id": "HOLD-V04-N2-01",
+      "scope": "calvin",
+      "issue": "Geneva Archives shows 1541 ordinance approval as 20 Nov vs 30 Nov across separate archive pages; determine action/date distinction in original registers",
+      "state": "OPEN"
+    },
+    {
+      "id": "HOLD-V04-N2-02",
+      "scope": "zwingli",
+      "issue": "1523 Zurich first disputation vs document print/related date 27/29 January distinct evidence",
+      "state": "OPEN"
+    },
+    {
+      "id": "HOLD-V04-N2-03",
+      "scope": "melanchthon",
+      "issue": "1518 inaugural oration 28 vs 29 August institutional and academic descriptions",
+      "state": "OPEN"
+    },
+    {
+      "id": "HOLD-V04-N2-04",
+      "scope": "luther",
+      "issue": "1525 peasant writings still require print witness/translation line alignment",
+      "state": "OPEN"
+    },
+    {
+      "id": "HOLD-V04-N2-05",
+      "scope": "multi",
+      "issue": "Marburg Zurich Z witness supplements in articles 7, 13 and 15 absent Hessian K; compare primary documents",
+      "state": "OPEN"
+    }
+  ]
+}
