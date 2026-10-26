@@ -35,3 +35,4 @@ jobs:
           python3 scripts/validate_vol04_edition_ui_projection_v02.py
           python3 scripts/build_vol04_provenance_graph_v03.py
           python3 scripts/validate_vol04_provenance_graph_v03.py
+          python3 scripts/guard_vol04_public_bundle_v01.py --self-test
