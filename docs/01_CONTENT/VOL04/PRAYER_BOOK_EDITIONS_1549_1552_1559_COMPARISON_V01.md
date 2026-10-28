@@ -41,12 +41,14 @@
 | 증거 | 소장·식별 정보 | 확인된 서지 의미 | 아직 확인하지 못한 것 |
 |---|---|---|---|
 | 1549 휘처치 인쇄본 | Chetham's Library, 1549, London: Edward Whitchurch | 해당 기관의 역사적 초판 계열 소장 안내 | 구체 서가번호·성찬문 페이지별 면식 |
-| 1549 휘처치 첫 판쇄 | New College Oxford `BT1.131.19` | 첫 에드워드 기도서의 특정 물리 실물 | 다른 1549 인쇄본과의 개별 이문 |
+| 1549 **초기 공동 인쇄 상태** | New College Oxford `BT1.131.19`(복수 part 표기) | 인쇄사 연구가 그래프턴·휘처치의 분담 제작과 조기 인쇄 상태를 제시하는 특정 물리 실물 | 초판 우선순위의 모든 학설이 일치한다는 주장 금지 |
 | 1549 그래프턴 인쇄본 | Eton College `Sa2.3.08(01)`, `STC 16269`, `ESTC S113625` | 출판자 Richard Grafton의 다른 1549 인쇄본 | 위 휘처치 인쇄본과 동일 조판 여부 |
 | 1549 그래프턴 인쇄본 다른 예 | Boston Public Library `Benton 1.1 FOLIO`는 1549 **초판 소장 실물** | BPL 소장에 대한 총괄 기록 | 'Eton 그래프턴본과 동일 판쇄' 여부 미확인 |
 | 1552 개정본 | Chetham's Library, 1552 본 소장 | 개정본 계열의 실물 소장 확인 | 정확한 판쇄·검은 루브릭 물리 포함 여부 |
 | 1559 제3차 개정 | BPL Benton Collection, 1559판 초판 소장 안내 | 1559판 실물의 존재와 도서관 컬렉션 | 해당 실물의 세부 서가번호·배분문 실물 면 |
 | 1559 통일령 | Parliamentary Archives `HL/PO/PU/1/1558/1Eliz1n2` | 법률 원문 증인 | 1559 기도서 인쇄본 자체라고 표기 금지 |
+
+**초판 우선순위의 연구 쟁점:** 2022년 Cambridge University Press의 Peter Blayney 인쇄사 연구는 전통적으로 휘처치의 `STC 16267`을 1549년 최초 판으로 우선시하던 분류를 재검토하고, 그래프턴과 휘처치가 제작을 분담한 일련의 초기 판쇄를 설명한다. New College의 `BT1.131.19`는 바로 이 연구에서 분석하는 실물이다. 한 출판자 또는 한 날짜를 임의로 최초 판쇄의 확정적 저자·인쇄자로 재지정하지 않는다. [Cambridge 2022, `From Henry VIII to the First Edwardian Prayer Book`; New College Oxford]
 
 **주요 경고:** 각 도서관에서 서로 다른 실물의 제목을 동일하게 쓰더라도 하나의 사본으로 병합하면 안 된다. 또한 보존기관이 웹 이미지를 제공하더라도 웹앱 복제 권리를 자동으로 인정할 수 없다.
 
@@ -66,6 +68,7 @@
 - 1559 법률과 전례: https://www.parliament.uk/about/living-heritage/transformingsociety/private-lives/religion/collections/common-prayer/act-of-uniformity-1559/
 - Charles Hefling, 1549/1552 성찬의 역사(초록): https://academic.oup.com/book/33491/chapter-abstract/287791768
 - Bryan D. Spinks, 전례 언어의 해석 다원성(초록): https://academic.oup.com/edited-volume/62371/chapter-abstract/554768687
+- Cambridge, 1549 초판 우선순위 재검토(초록): https://www.cambridge.org/core/books/abs/printing-and-the-printers-of-the-book-of-common-prayer-15491561/from-henry-viii-to-the-first-edwardian-prayer-book/29C5E352678E9C9FF89A3CE097FE6E79
 - Cambridge, `The Printing and the Printers...` 1552 인쇄(초록): https://www.cambridge.org/core/books/abs/printing-and-the-printers-of-the-book-of-common-prayer-15491561/second-edwardian-prayer-book/1C7E3202D0EF8792A1E5C097A3BE1D78
 
 **편집 보류:** 사료 학자와 함께 세 판본의 정확한 면·행 대조, 1552 검은 루브릭의 실제 판쇄별 포함 목록, 성찬 신학 해석의 교파별 견해 수집, 법령 전문 및 이미지 권리 검토. 출판 승인·정식 하위판본 ID 발급 없음.
