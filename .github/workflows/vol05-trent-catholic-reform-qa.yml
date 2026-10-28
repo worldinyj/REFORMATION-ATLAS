@@ -1,0 +1,25 @@
+name: VOL-05 Trent Catholic Reform Research QA
+on:
+  push:
+    branches:
+      - research/vol05-trent-catholic-reform-v01
+  pull_request:
+    branches:
+      - research/vol04-cranmer-prayerbook-v01
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  council-evidence-and-publication-gate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Existing Atlas overview and previous Cranmer research
+        run: |
+          python3 scripts/validate_atlas_overview_v01.py
+          python3 scripts/validate_vol04_prayerbook_research_v01.py
+          python3 scripts/test_vol04_prayerbook_negative_v01.py
+      - name: Trent council history and theology comparison checks
+        run: |
+          python3 scripts/validate_vol05_trent_research_v01.py
+          python3 scripts/test_vol05_trent_negative_v01.py
