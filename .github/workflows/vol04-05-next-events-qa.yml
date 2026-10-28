@@ -1,0 +1,26 @@
+name: VOL-04-05 Next Event Narratives QA
+on:
+  push:
+    branches:
+      - research/vol04-05-next-events-v01
+  pull_request:
+    branches:
+      - research/vol04-event-narratives-v01
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  next-episode-integrity:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Existing overview and event research integrity
+        run: |
+          python3 scripts/validate_atlas_overview_v01.py
+          python3 scripts/validate_vol04_crosswalk_v01.py
+          python3 scripts/validate_vol04_event_narratives_v01.py
+          python3 scripts/test_vol04_event_narratives_negative_v01.py
+      - name: New VOL-04 and VOL-05 narratives and fail-closed gate
+        run: |
+          python3 scripts/validate_vol04_05_next_events_v01.py
+          python3 scripts/test_vol04_05_next_events_negative_v01.py
