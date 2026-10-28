@@ -1,0 +1,496 @@
+{
+  "schema_version": "0.1",
+  "kind": "VOL05_WAR_WESTPHALIA_RESEARCH_ONLY",
+  "created_date": "2026-10-28",
+  "status": "DRAFT_RESEARCH_NOT_PUBLIC",
+  "volume_id": "VOL-05",
+  "existing_event_ids": [
+    "OV-E-022",
+    "OV-E-023",
+    "OV-E-024"
+  ],
+  "existing_document_id": "OV-D-015",
+  "canonical_ids_minted": 0,
+  "ai_studio_modified": false,
+  "overview_modified": false,
+  "release_gate": {
+    "human_approval": false,
+    "historical_editorial_approval": false,
+    "original_treaty_text_collated": false,
+    "rights_approval": false,
+    "publication_approved": false,
+    "can_ship": false
+  },
+  "narratives": [
+    {
+      "research_key": "WAR-NARR-1618-1648",
+      "event_id": "OV-E-023",
+      "path": "docs/01_CONTENT/VOL05/EVENT_1618_1648_THIRTY_YEARS_WAR_V01.md",
+      "source_keys": [
+        "WAR-SRC-01",
+        "WAR-SRC-02",
+        "WAR-SRC-03"
+      ]
+    },
+    {
+      "research_key": "WAR-NARR-1648-PEACE",
+      "event_id": "OV-E-024",
+      "path": "docs/01_CONTENT/VOL05/EVENT_1648_WESTPHALIA_PEACE_V01.md",
+      "source_keys": [
+        "WAR-SRC-03",
+        "WAR-SRC-04",
+        "WAR-SRC-05",
+        "WAR-SRC-07",
+        "WAR-SRC-08",
+        "WAR-SRC-09"
+      ]
+    },
+    {
+      "research_key": "WAR-NARR-1555-1648",
+      "event_id": "OV-E-022",
+      "path": "docs/01_CONTENT/VOL05/AUGSBURG_1555_WESTPHALIA_1648_LEGAL_COMPARE_V01.md",
+      "source_keys": [
+        "WAR-SRC-04",
+        "WAR-SRC-06",
+        "WAR-SRC-07"
+      ]
+    }
+  ],
+  "source_records": [
+    {
+      "source_key": "WAR-SRC-01",
+      "url": "https://www.cambridge.org/core/books/abs/german-histories-in-the-age-of-reformations-14001650/thirty-years-war/046175AF1B80F6C44DA893A6E91FC184",
+      "kind": "ACADEMIC_CHAPTER_PREVIEW",
+      "evidence_level": "SUMMARY_ONLY",
+      "canonical_source_id": null,
+      "complete_original_text_collated": false,
+      "reuse_rights_approved": false,
+      "public_visible": false
+    },
+    {
+      "source_key": "WAR-SRC-02",
+      "url": "https://academic.oup.com/book/44700/chapter-abstract/378811559",
+      "kind": "ACADEMIC_CHAPTER_ABSTRACT",
+      "evidence_level": "ABSTRACT_ONLY",
+      "canonical_source_id": null,
+      "complete_original_text_collated": false,
+      "reuse_rights_approved": false,
+      "public_visible": false
+    },
+    {
+      "source_key": "WAR-SRC-03",
+      "url": "https://www.lwl.org/westfaelischer-friede-download/wfe-t/wfe-txt1-38.htm",
+      "kind": "SCHOLARLY_EXHIBITION_ESSAY",
+      "evidence_level": "FULL_OPEN_ACCESS_SECONDARY",
+      "canonical_source_id": null,
+      "complete_original_text_collated": false,
+      "reuse_rights_approved": false,
+      "public_visible": false
+    },
+    {
+      "source_key": "WAR-SRC-04",
+      "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/peace-treaties-of-westphalia-october-14-24-1648",
+      "kind": "MODERN_ENGLISH_TREATY_EXCERPTS",
+      "evidence_level": "EXCERPT_AND_EDITORIAL_INTRO",
+      "canonical_source_id": null,
+      "complete_original_text_collated": false,
+      "reuse_rights_approved": false,
+      "public_visible": false
+    },
+    {
+      "source_key": "WAR-SRC-05",
+      "url": "https://www.ieg-friedensvertraege.de/---_site.popup..html_dir._treaty.1361_comment.2836_notrans.1_likecms.html",
+      "kind": "CRITICAL_TREATY_EDITION_INDEX",
+      "evidence_level": "CATALOG_EDITION_LINKS_NOT_COLLATED",
+      "canonical_source_id": null,
+      "complete_original_text_collated": false,
+      "reuse_rights_approved": false,
+      "public_visible": false
+    },
+    {
+      "source_key": "WAR-SRC-06",
+      "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/ghdi:document-4386",
+      "kind": "MODERN_ENGLISH_1555_LAW",
+      "evidence_level": "EXCERPT_AND_EDITORIAL_INTRO",
+      "canonical_source_id": null,
+      "complete_original_text_collated": false,
+      "reuse_rights_approved": false,
+      "public_visible": false
+    },
+    {
+      "source_key": "WAR-SRC-07",
+      "url": "https://blogs.loc.gov/law/2017/10/the-peace-of-westphalia/",
+      "kind": "LIBRARY_OF_CONGRESS_EXPLANATION",
+      "evidence_level": "INSTITUTIONAL_LEGAL_SUMMARY",
+      "canonical_source_id": null,
+      "complete_original_text_collated": false,
+      "reuse_rights_approved": false,
+      "public_visible": false
+    },
+    {
+      "source_key": "WAR-SRC-08",
+      "url": "https://www.nationalgallery.org.uk/paintings/gerard-ter-borch-the-ratification-of-the-treaty-of-munster",
+      "kind": "MUSEUM_OBJECT_CATALOG",
+      "evidence_level": "PRIMARY_ARTWORK_DESCRIPTION",
+      "canonical_source_id": null,
+      "complete_original_text_collated": false,
+      "reuse_rights_approved": false,
+      "public_visible": false
+    },
+    {
+      "source_key": "WAR-SRC-09",
+      "url": "https://www.rijksmuseum.nl/en/collection/object/The-Ratification-of-the-Treaty-of-Munster--e60c0795fb382742305dce66375a935d",
+      "kind": "MUSEUM_OBJECT_CATALOG",
+      "evidence_level": "DISPLAY_OBJECT_CONTEXT",
+      "canonical_source_id": null,
+      "complete_original_text_collated": false,
+      "reuse_rights_approved": false,
+      "public_visible": false
+    },
+    {
+      "source_key": "WAR-SRC-10",
+      "url": "https://www.w3ltfrieden.de/en/frieden/wie-kriege-endeten/westfaelischer-friede",
+      "kind": "HISTORICAL_EXHIBITION_INTRO",
+      "evidence_level": "SEARCH_DESCRIPTION_ONLY",
+      "canonical_source_id": null,
+      "complete_original_text_collated": false,
+      "reuse_rights_approved": false,
+      "public_visible": false
+    },
+    {
+      "source_key": "WAR-SRC-11",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/01916599.2022.2077401",
+      "kind": "SCHOLARLY_ARTICLE",
+      "evidence_level": "OPEN_ACCESS_SECONDARY",
+      "canonical_source_id": null,
+      "complete_original_text_collated": false,
+      "reuse_rights_approved": false,
+      "public_visible": false
+    }
+  ],
+  "conflict_periods": [
+    {
+      "phase_key": "WAR-PHASE-01",
+      "year_start": 1618,
+      "year_end": 1623,
+      "classification": "BOHEMIAN_PALATINATE",
+      "title_ko": "보헤미아-팔츠 국면",
+      "milestones_en": [
+        "1618 Prague Defenestration",
+        "1620 Battle of White Mountain",
+        "Palatinate campaigns"
+      ],
+      "analytical_periodization": true,
+      "no_claim_of_armistice_between_phases": true,
+      "source_keys": [
+        "WAR-SRC-01",
+        "WAR-SRC-02"
+      ]
+    },
+    {
+      "phase_key": "WAR-PHASE-02",
+      "year_start": 1625,
+      "year_end": 1629,
+      "classification": "DANISH",
+      "title_ko": "덴마크 개입 국면",
+      "milestones_en": [
+        "Christian IV of Denmark",
+        "1629 Edict of Restitution"
+      ],
+      "analytical_periodization": true,
+      "no_claim_of_armistice_between_phases": true,
+      "source_keys": [
+        "WAR-SRC-01",
+        "WAR-SRC-02"
+      ]
+    },
+    {
+      "phase_key": "WAR-PHASE-03",
+      "year_start": 1630,
+      "year_end": 1635,
+      "classification": "SWEDISH",
+      "title_ko": "스웨덴 개입 국면",
+      "milestones_en": [
+        "1631 Breitenfeld",
+        "1632 Lützen",
+        "1635 Peace of Prague"
+      ],
+      "analytical_periodization": true,
+      "no_claim_of_armistice_between_phases": true,
+      "source_keys": [
+        "WAR-SRC-01",
+        "WAR-SRC-02"
+      ]
+    },
+    {
+      "phase_key": "WAR-PHASE-04",
+      "year_start": 1635,
+      "year_end": 1648,
+      "classification": "FRANCO_SWEDISH",
+      "title_ko": "프랑스·스웨덴 국면",
+      "milestones_en": [
+        "French intervention",
+        "Westphalian negotiations",
+        "1648 treaties"
+      ],
+      "analytical_periodization": true,
+      "no_claim_of_armistice_between_phases": true,
+      "source_keys": [
+        "WAR-SRC-01",
+        "WAR-SRC-02"
+      ]
+    }
+  ],
+  "treaty_instruments": [
+    {
+      "treaty_key": "WAR-TREATY-IPO-1648",
+      "document_kind": "IPO",
+      "signing_date": "1648-10-24",
+      "old_style_date": "1648-10-14",
+      "signatories_context": "Holy Roman Emperor and Sweden and their allies",
+      "site": "Osnabrück",
+      "topics": [
+        "religious settlement",
+        "territorial rights",
+        "imperial estates"
+      ],
+      "source_keys": [
+        "WAR-SRC-04",
+        "WAR-SRC-05",
+        "WAR-SRC-07"
+      ],
+      "same_legal_instrument_as": [
+        "WAR-TREATY-IPO-1648"
+      ],
+      "not_same_as": [
+        "WAR-TREATY-IPM-1648",
+        "WAR-TREATY-DUTCH-SPAIN-1648"
+      ],
+      "primary_full_text_collated": false
+    },
+    {
+      "treaty_key": "WAR-TREATY-IPM-1648",
+      "document_kind": "IPM",
+      "signing_date": "1648-10-24",
+      "old_style_date": "1648-10-14",
+      "signatories_context": "Holy Roman Emperor and France and their allies",
+      "site": "Münster",
+      "topics": [
+        "territorial settlements",
+        "Franco-imperial peace"
+      ],
+      "source_keys": [
+        "WAR-SRC-04",
+        "WAR-SRC-07",
+        "WAR-SRC-03"
+      ],
+      "not_same_as": [
+        "WAR-TREATY-IPO-1648",
+        "WAR-TREATY-DUTCH-SPAIN-1648"
+      ],
+      "primary_full_text_collated": false
+    },
+    {
+      "treaty_key": "WAR-TREATY-DUTCH-SPAIN-1648",
+      "document_kind": "MUNSTER_DUTCH_SPANISH",
+      "signing_date": "1648-01-30",
+      "ratification_oath_date": "1648-05-15",
+      "signatories_context": "Spain and Dutch Republic",
+      "site": "Münster",
+      "topics": [
+        "Dutch Spanish peace",
+        "recognition of Dutch independence"
+      ],
+      "source_keys": [
+        "WAR-SRC-03",
+        "WAR-SRC-08",
+        "WAR-SRC-09"
+      ],
+      "not_same_as": [
+        "WAR-TREATY-IPO-1648",
+        "WAR-TREATY-IPM-1648"
+      ],
+      "primary_full_text_collated": false
+    }
+  ],
+  "article_anchors": [
+    {
+      "clause_key": "WAR-CL-IPO-V-1",
+      "treaty_key": "WAR-TREATY-IPO-1648",
+      "article": "V",
+      "section": "1",
+      "summary_ko": "기존 1552 파사우 협약 및 1555 종교화의 재확인·보완",
+      "interpretation_label": "NOT_ABROGATION_OF_1555",
+      "source_keys": [
+        "WAR-SRC-04"
+      ],
+      "direct_original_language_collated": false,
+      "public_visible": false
+    },
+    {
+      "clause_key": "WAR-CL-IPO-V-2",
+      "treaty_key": "WAR-TREATY-IPO-1648",
+      "article": "V",
+      "section": "2",
+      "summary_ko": "교회재산과 종교적 권리 회복을 위한 1624년 1월 1일 기준시점",
+      "interpretation_label": "NORMAL_YEAR_1624_01_01",
+      "source_keys": [
+        "WAR-SRC-04"
+      ],
+      "direct_original_language_collated": false,
+      "public_visible": false
+    },
+    {
+      "clause_key": "WAR-CL-IPO-V-3",
+      "treaty_key": "WAR-TREATY-IPO-1648",
+      "article": "V",
+      "section": "3",
+      "summary_ko": "일부 제국도시의 공직·종교적 권한 배분",
+      "interpretation_label": "IMPERIAL_CITIES",
+      "source_keys": [
+        "WAR-SRC-04"
+      ],
+      "direct_original_language_collated": false,
+      "public_visible": false
+    },
+    {
+      "clause_key": "WAR-CL-IPO-V-34",
+      "treaty_key": "WAR-TREATY-IPO-1648",
+      "article": "V",
+      "section": "34",
+      "summary_ko": "영주의 신민에 대한 종교적 강제·이주 선택권 관련 제한",
+      "interpretation_label": "CONFESSIONAL_MIGRATION_LIMITS",
+      "source_keys": [
+        "WAR-SRC-04"
+      ],
+      "direct_original_language_collated": false,
+      "public_visible": false
+    },
+    {
+      "clause_key": "WAR-CL-IPO-VI",
+      "treaty_key": "WAR-TREATY-IPO-1648",
+      "article": "VI",
+      "section": null,
+      "summary_ko": "스위스 연방의 제국 재판 관할 관련 지위 규정",
+      "interpretation_label": "SWISS_IMPERIAL_STATUS",
+      "source_keys": [
+        "WAR-SRC-04"
+      ],
+      "direct_original_language_collated": false,
+      "public_visible": false
+    },
+    {
+      "clause_key": "WAR-CL-IPO-VII-1",
+      "treaty_key": "WAR-TREATY-IPO-1648",
+      "article": "VII",
+      "section": "1",
+      "summary_ko": "개혁파를 제국의 공인된 세 번째 신앙고백으로 포함",
+      "interpretation_label": "REFORMED_CONFESSION_INCLUSION",
+      "source_keys": [
+        "WAR-SRC-04"
+      ],
+      "direct_original_language_collated": false,
+      "public_visible": false
+    },
+    {
+      "clause_key": "WAR-CL-IPO-VII-2",
+      "treaty_key": "WAR-TREATY-IPO-1648",
+      "article": "VII",
+      "section": "2",
+      "summary_ko": "신앙고백 간 법적 보호의 공직·집단 관련 제한과 타 신앙 집단의 배제",
+      "interpretation_label": "RELIGIOUS_TOLERATION_LIMIT",
+      "source_keys": [
+        "WAR-SRC-04"
+      ],
+      "direct_original_language_collated": false,
+      "public_visible": false
+    },
+    {
+      "clause_key": "WAR-CL-IPO-VIII-2",
+      "treaty_key": "WAR-TREATY-IPO-1648",
+      "article": "VIII",
+      "section": "2",
+      "summary_ko": "제국 신분의 대외 동맹 권한, 황제·제국·조약에 반할 수 없는 조건",
+      "interpretation_label": "CONSTRAINED_ALLIANCE_RIGHT",
+      "source_keys": [
+        "WAR-SRC-04"
+      ],
+      "direct_original_language_collated": false,
+      "public_visible": false
+    }
+  ],
+  "media_research_only": [
+    {
+      "media_key": "WAR-MEDIA-TERBORCH-1648",
+      "artist": "Gerard ter Borch",
+      "title": "The Ratification of the Treaty of Münster",
+      "year": 1648,
+      "event_date": "1648-05-15",
+      "actual_event_treaty_key": "WAR-TREATY-DUTCH-SPAIN-1648",
+      "does_not_depict": [
+        "WAR-TREATY-IPO-1648",
+        "WAR-TREATY-IPM-1648"
+      ],
+      "national_gallery_inventory": "NG896",
+      "rijksmuseum_display_inventory": "SK-C-1683",
+      "source_keys": [
+        "WAR-SRC-08",
+        "WAR-SRC-09"
+      ],
+      "image_downloaded": false,
+      "reproduction_rights_approved": false
+    }
+  ],
+  "historical_holds": [
+    {
+      "key": "WAR-HOLD-001",
+      "issue": "30 Years War four periods are heuristic; local wars do not cleanly end at phase boundaries",
+      "state": "OPEN"
+    },
+    {
+      "key": "WAR-HOLD-002",
+      "issue": "War mortality must be sourced by region/denominator and cannot use unsourced continental percentage",
+      "state": "OPEN"
+    },
+    {
+      "key": "WAR-HOLD-003",
+      "issue": "IPO original Latin/German witness full text and IPM separate text not collated",
+      "state": "OPEN"
+    },
+    {
+      "key": "WAR-HOLD-004",
+      "issue": "January 30 vs May 15 Netherlands-Spain signing and ratification; must not confuse with October IPO/IPM",
+      "state": "OPEN"
+    },
+    {
+      "key": "WAR-HOLD-005",
+      "issue": "GHDI overview labels Reformed acceptance as Art II but embedded treaty excerpt places it at Article VII; use actual Article VII pending source editorial clarification",
+      "state": "OPEN"
+    },
+    {
+      "key": "WAR-HOLD-006",
+      "issue": "Westphalian sovereignty thesis not settled, especially imperial estates foreign alliances subject to restrictions",
+      "state": "OPEN"
+    },
+    {
+      "key": "WAR-HOLD-007",
+      "issue": "1624 normal-year implementation and 1648 religious law practice requires territorial archival evidence",
+      "state": "OPEN"
+    },
+    {
+      "key": "WAR-HOLD-008",
+      "issue": "Iconographic source license and painting original/copy/loan context not cleared for public bundle",
+      "state": "OPEN"
+    },
+    {
+      "key": "WAR-HOLD-009",
+      "issue": "French-Spanish war continued to Pyrenees 1659; cannot describe all Europe as at peace in 1648",
+      "state": "OPEN"
+    }
+  ],
+  "notes": [
+    "Source web excerpts are not full textual collation.",
+    "Subtreaty IDs are temporary research object keys; they are not additional canonical OV-D IDs.",
+    "No website or image assets changed."
+  ]
+}
