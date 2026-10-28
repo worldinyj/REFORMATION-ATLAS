@@ -1,0 +1,25 @@
+name: VOL-04 Cranmer and Prayer Book Research QA
+on:
+  push:
+    branches:
+      - research/vol04-cranmer-prayerbook-v01
+  pull_request:
+    branches:
+      - research/vol04-05-next-events-v01
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  cranmer-prayerbook-evidence:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Existing overview and cross-volume narrative QA
+        run: |
+          python3 scripts/validate_atlas_overview_v01.py
+          python3 scripts/validate_vol04_05_next_events_v01.py
+          python3 scripts/test_vol04_05_next_events_negative_v01.py
+      - name: Cranmer history and Prayer Book print witness inventory
+        run: |
+          python3 scripts/validate_vol04_prayerbook_research_v01.py
+          python3 scripts/test_vol04_prayerbook_negative_v01.py

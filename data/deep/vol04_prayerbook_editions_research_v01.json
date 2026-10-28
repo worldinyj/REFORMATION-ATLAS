@@ -1,0 +1,333 @@
+{
+  "schema_version": "0.1",
+  "record_id": "VOL04_PRAYERBOOK_1549_1552_1559",
+  "status": "RESEARCH_NOT_PUBLIC",
+  "created_at": "2026-10-28",
+  "volume_id": "VOL-04",
+  "canonical_work_id": "OV-D-013",
+  "canonical_person_id": "OV-P-019",
+  "source_text_fully_collated": false,
+  "release_gate": {
+    "editorial_approved": false,
+    "scholarly_approved": false,
+    "source_text_approved": false,
+    "rights_approved": false,
+    "publication_approved": false,
+    "can_ship": false
+  },
+  "chapters": [
+    "docs/01_CONTENT/VOL04/CRANMER_NARRATIVE_DEPTH_V01.md",
+    "docs/01_CONTENT/VOL04/PRAYER_BOOK_EDITIONS_1549_1552_1559_COMPARISON_V01.md"
+  ],
+  "sources": [
+    {
+      "research_source_key": "PRB-SRC-PROP-01",
+      "url": "https://library.chethams.com/collections/101-treasures-of-chethams/book-of-common-prayer/",
+      "source_class": "INSTITUTIONAL_COLLECTION",
+      "access_level": "INSTITUTIONAL_WEB_DESCRIPTION_CHECKED",
+      "canonical_source_id": null,
+      "full_text_collated": false,
+      "reuse_rights_approved": false
+    },
+    {
+      "research_source_key": "PRB-SRC-PROP-02",
+      "url": "https://www.new.ox.ac.uk/node/2215",
+      "source_class": "INSTITUTIONAL_COLLECTION",
+      "access_level": "INSTITUTIONAL_WEB_DESCRIPTION_CHECKED",
+      "canonical_source_id": null,
+      "full_text_collated": false,
+      "reuse_rights_approved": false
+    },
+    {
+      "research_source_key": "PRB-SRC-PROP-03",
+      "url": "https://catalog.etoncollege.com/B26053",
+      "source_class": "INSTITUTIONAL_CATALOG",
+      "access_level": "INSTITUTIONAL_CATALOG_ENTRY_CHECKED",
+      "canonical_source_id": null,
+      "full_text_collated": false,
+      "reuse_rights_approved": false
+    },
+    {
+      "research_source_key": "PRB-SRC-PROP-04",
+      "url": "https://www.bpl.org/archival_post/benton-josiah-1843-1917-collection-of-the-book-of-common-prayer/",
+      "source_class": "INSTITUTIONAL_COLLECTION",
+      "access_level": "INSTITUTIONAL_SEARCH_SNIPPET_CHECKED",
+      "canonical_source_id": null,
+      "full_text_collated": false,
+      "reuse_rights_approved": false
+    },
+    {
+      "research_source_key": "PRB-SRC-PROP-05",
+      "url": "https://www.nationalarchives.gov.uk/education/resources/the-english-reformation-c1527-1590/cranmer-on-religious-practice/",
+      "source_class": "ARCHIVAL_LETTER_DESCRIPTION",
+      "access_level": "INSTITUTIONAL_SEARCH_SNIPPET_CHECKED",
+      "canonical_source_id": null,
+      "full_text_collated": false,
+      "reuse_rights_approved": false
+    },
+    {
+      "research_source_key": "PRB-SRC-PROP-06",
+      "url": "https://www.parliament.uk/about/living-heritage/transformingsociety/private-lives/religion/collections/common-prayer/act-of-uniformity-1559/",
+      "source_class": "PARLIAMENTARY_ARCHIVE",
+      "access_level": "INSTITUTIONAL_WEB_DESCRIPTION_CHECKED",
+      "canonical_source_id": null,
+      "full_text_collated": false,
+      "reuse_rights_approved": false
+    },
+    {
+      "research_source_key": "PRB-SRC-PROP-07",
+      "url": "https://academic.oup.com/book/33491/chapter-abstract/287791768",
+      "source_class": "ACADEMIC_BOOK_CHAPTER",
+      "access_level": "ABSTRACT_ONLY",
+      "canonical_source_id": null,
+      "full_text_collated": false,
+      "reuse_rights_approved": false
+    },
+    {
+      "research_source_key": "PRB-SRC-PROP-08",
+      "url": "https://www.cambridge.org/core/books/abs/printing-and-the-printers-of-the-book-of-common-prayer-15491561/second-edwardian-prayer-book/1C7E3202D0EF8792A1E5C097A3BE1D78",
+      "source_class": "ACADEMIC_BOOK_CHAPTER",
+      "access_level": "ABSTRACT_ONLY",
+      "canonical_source_id": null,
+      "full_text_collated": false,
+      "reuse_rights_approved": false
+    },
+    {
+      "research_source_key": "PRB-SRC-PROP-09",
+      "url": "https://www.cambridge.org/core/books/abs/printing-and-the-printers-of-the-book-of-common-prayer-15491561/from-henry-viii-to-the-first-edwardian-prayer-book/29C5E352678E9C9FF89A3CE097FE6E79",
+      "source_class": "ACADEMIC_BOOK_CHAPTER",
+      "access_level": "ABSTRACT_ONLY",
+      "canonical_source_id": null,
+      "full_text_collated": false,
+      "reuse_rights_approved": false
+    },
+    {
+      "research_source_key": "PRB-SRC-PROP-10",
+      "url": "https://academic.oup.com/edited-volume/62371/chapter-abstract/554768687",
+      "source_class": "ACADEMIC_BOOK_CHAPTER",
+      "access_level": "ABSTRACT_ONLY",
+      "canonical_source_id": null,
+      "full_text_collated": false,
+      "reuse_rights_approved": false
+    },
+    {
+      "research_source_key": "PRB-SRC-PROP-11",
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/13574175.2021.1898235",
+      "source_class": "ACADEMIC_JOURNAL",
+      "access_level": "ABSTRACT_ONLY",
+      "canonical_source_id": null,
+      "full_text_collated": false,
+      "reuse_rights_approved": false
+    },
+    {
+      "research_source_key": "PRB-SRC-PROP-12",
+      "url": "https://bl.iro.bl.uk/entities/publication/37e92089-ad72-40f6-9512-df4331e46212",
+      "source_class": "INSTITUTIONAL_RESEARCH",
+      "access_level": "INSTITUTIONAL_ABSTRACT_CHECKED",
+      "canonical_source_id": null,
+      "full_text_collated": false,
+      "reuse_rights_approved": false
+    },
+    {
+      "research_source_key": "PRB-SRC-PROP-13",
+      "url": "https://www.jesus.cam.ac.uk/college/about-us/history/people-note/thomas-cranmer",
+      "source_class": "INSTITUTIONAL_BIOGRAPHY",
+      "access_level": "INSTITUTIONAL_WEB_DESCRIPTION_CHECKED",
+      "canonical_source_id": null,
+      "full_text_collated": false,
+      "reuse_rights_approved": false
+    }
+  ],
+  "edition_families": [
+    {
+      "research_edition_key": "PRB-EDN-PROP-1549",
+      "year": 1549,
+      "language": "en",
+      "reign": "Edward VI",
+      "compiled_by_cranmer": true,
+      "posthumous_to_cranmer": false,
+      "work_id": "OV-D-013",
+      "approved": false,
+      "print_witnesses": [
+        {
+          "witness_key": "PRB-WIT-PROP-1549-CHE",
+          "repository": "Chetham's Library",
+          "printer_context": "Edward Whitchurch",
+          "shelfmark": null,
+          "source_keys": [
+            "PRB-SRC-PROP-01"
+          ],
+          "physical_object_confirmed_by_institution": true
+        },
+        {
+          "witness_key": "PRB-WIT-PROP-1549-OXC",
+          "repository": "New College Library Oxford",
+          "printer_context": "Richard Grafton and Edward Whitchurch collaborated in original issue according to modern printing study",
+          "shelfmark": "BT1.131.19",
+          "source_keys": [
+            "PRB-SRC-PROP-02",
+            "PRB-SRC-PROP-09"
+          ],
+          "physical_object_confirmed_by_institution": true
+        },
+        {
+          "witness_key": "PRB-WIT-PROP-1549-ETO",
+          "repository": "Eton College",
+          "printer_context": "Richard Grafton, a distinct 1549 impression",
+          "shelfmark": "Sa2.3.08(01)",
+          "stc": "16269",
+          "estc": "S113625",
+          "source_keys": [
+            "PRB-SRC-PROP-03"
+          ],
+          "physical_object_confirmed_by_institution": true
+        },
+        {
+          "witness_key": "PRB-WIT-PROP-1549-BOS",
+          "repository": "Boston Public Library",
+          "printer_context": "1549 first-edition holding, exact issue not independently collated",
+          "shelfmark": "Benton 1.1 FOLIO",
+          "source_keys": [
+            "PRB-SRC-PROP-04"
+          ],
+          "physical_object_confirmed_by_institution": true
+        }
+      ]
+    },
+    {
+      "research_edition_key": "PRB-EDN-PROP-1552",
+      "year": 1552,
+      "language": "en",
+      "reign": "Edward VI",
+      "compiled_by_cranmer": true,
+      "posthumous_to_cranmer": false,
+      "work_id": "OV-D-013",
+      "approved": false,
+      "print_witnesses": [
+        {
+          "witness_key": "PRB-WIT-PROP-1552-CHE",
+          "repository": "Chetham's Library",
+          "printer_context": "1552 second Prayer Book held; specific impression not independently collated",
+          "shelfmark": null,
+          "source_keys": [
+            "PRB-SRC-PROP-01",
+            "PRB-SRC-PROP-08"
+          ],
+          "physical_object_confirmed_by_institution": true
+        }
+      ]
+    },
+    {
+      "research_edition_key": "PRB-EDN-PROP-1559",
+      "year": 1559,
+      "language": "en",
+      "reign": "Elizabeth I",
+      "compiled_by_cranmer": false,
+      "posthumous_to_cranmer": true,
+      "work_id": "OV-D-013",
+      "approved": false,
+      "print_witnesses": [
+        {
+          "witness_key": "PRB-WIT-PROP-1559-BOS",
+          "repository": "Boston Public Library",
+          "printer_context": "Benton collection includes a 1559 first edition; individual shelfmark not independently verified",
+          "shelfmark": null,
+          "source_keys": [
+            "PRB-SRC-PROP-04",
+            "PRB-SRC-PROP-06"
+          ],
+          "physical_object_confirmed_by_institution": true
+        }
+      ]
+    }
+  ],
+  "comparisons": [
+    {
+      "research_comparison_key": "PRB-CMP-PROP-01",
+      "comparison_type": "COMMUNION_DISTRIBUTION_FORMULA",
+      "edition_keys": [
+        "PRB-EDN-PROP-1549",
+        "PRB-EDN-PROP-1552",
+        "PRB-EDN-PROP-1559"
+      ],
+      "observation_ko": "1549 축원형, 1552 기억·믿음 권면형, 1559 두 배분문 결합",
+      "interpretation_ko": "본문과 교리 해석의 차이를 구분해야 하며 1559의 문구 결합이 모든 신학적 이견 해결을 뜻하지 않음",
+      "evidence_level": "SECONDARY_HISTORICAL_COMPARISON_UNCOLLATED",
+      "source_keys": [
+        "PRB-SRC-PROP-01",
+        "PRB-SRC-PROP-06",
+        "PRB-SRC-PROP-07",
+        "PRB-SRC-PROP-10"
+      ],
+      "original_edition_text_collated": false
+    },
+    {
+      "research_comparison_key": "PRB-CMP-PROP-02",
+      "comparison_type": "KNEELING_BLACK_RUBRIC",
+      "edition_keys": [
+        "PRB-EDN-PROP-1552",
+        "PRB-EDN-PROP-1559"
+      ],
+      "observation_ko": "1552 인쇄 중 무릎 꿇음 의미 규정 삽입; 1559 판에서 생략",
+      "interpretation_ko": "1552 판쇄별 포함 상태 및 1662 재등장과 문구 차이는 별도 증인 검토 필요",
+      "evidence_level": "CONTEMPORARY_LETTER_DESCRIPTION_AND_MODERN_PRINT_HISTORY",
+      "source_keys": [
+        "PRB-SRC-PROP-05",
+        "PRB-SRC-PROP-08"
+      ],
+      "original_edition_text_collated": false,
+      "printing_variation_hold": true
+    },
+    {
+      "research_comparison_key": "PRB-CMP-PROP-03",
+      "comparison_type": "1549_PRINTING_ISSUE_PRIORITY",
+      "edition_keys": [
+        "PRB-EDN-PROP-1549"
+      ],
+      "observation_ko": "최초 판쇄의 인쇄자·우선순위는 휘처치 단독 초판이라는 전통적 기술이 현대 인쇄사 연구에서 재검토됨",
+      "interpretation_ko": "뉴칼리지 복합 인쇄 상태와 다른 1549 인쇄자를 분리해 조사",
+      "evidence_level": "CATALOG_AND_MODERN_PRINTING_STUDY_ABSTRACT",
+      "source_keys": [
+        "PRB-SRC-PROP-02",
+        "PRB-SRC-PROP-03",
+        "PRB-SRC-PROP-09"
+      ],
+      "original_edition_text_collated": false
+    },
+    {
+      "research_comparison_key": "PRB-CMP-PROP-04",
+      "comparison_type": "STATE_LAW_VS_LITURGICAL_TEXT",
+      "edition_keys": [
+        "PRB-EDN-PROP-1549",
+        "PRB-EDN-PROP-1552",
+        "PRB-EDN-PROP-1559"
+      ],
+      "observation_ko": "각 판본과 통일령은 다른 법률/책 객체; 1559 법률 원문 소장번호를 기도서 실물 번호로 오기하지 않음",
+      "interpretation_ko": "공식 사용 강제와 실질 교리 변화는 일치하지 않을 수 있음",
+      "evidence_level": "INSTITUTIONAL_LEGAL_RECORD",
+      "source_keys": [
+        "PRB-SRC-PROP-06"
+      ],
+      "original_edition_text_collated": false
+    }
+  ],
+  "person_historical_hold": {
+    "research_person_key": "OV-P-019",
+    "claim": "1556년 크랜머는 여러 차례 철회문을 발표한 뒤 마지막에 공개적으로 철회를 거부했으며 1559년판을 직접 편찬하지 않았다.",
+    "source_keys": [
+      "PRB-SRC-PROP-11",
+      "PRB-SRC-PROP-13"
+    ],
+    "note": "Cambridge short biography simplifies recantations and mentions posthumous 39 Articles; avoid unqualified direct authorship of 1563 articles.",
+    "full_source_collation_complete": false
+  },
+  "witness_warning": "Official 1559 Act of Uniformity shelfmark HL/PO/PU/1/1558/1Eliz1n2 belongs to Parliament Act, not to BCP printed witness.",
+  "editorial_holds": [
+    "Original print copy page-by-page Communion wording collation",
+    "1552 Black Rubric issue-state variation",
+    "1549 original printing priority (Grafton/Whitchurch shared work)",
+    "1559 prayer book physical witness holding details",
+    "Cranmer 1556 recantation printing and publication chain",
+    "Source text and illustration reproduction permission"
+  ]
+}
