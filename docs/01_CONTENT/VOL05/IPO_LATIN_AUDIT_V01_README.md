@@ -7,7 +7,7 @@
 이번 작업은 30년 전쟁과 베스트팔렌 평화의 기존 한국어 서술에서 **오스나브뤼크 평화조약(IPO) 자체의 라틴어 조항 위치를 확인**하고, 잘못된 역사적 법률 요약을 방지한다.
 
 - [독자용 IPO 제5·7·8조 라틴어 고증 원고](IPO_1648_LATIN_CLAUSE_AUDIT_V01.md)
-- `data/deep/vol05_ipo_latin_clause_audit_v01.json` — **라틴어 조항 앵커 8건, 자료 출처 7건, 역사적 주의/정정 3건**, 원전 실물 교감 미완료 상태 명시.
+- `data/deep/vol05_ipo_latin_clause_audit_v01.json` — **라틴어 조항 앵커 8건, 자료 출처 8건, 역사적 주의/정정 3건**, 원전 실물 교감 미완료 상태 명시.
 - `scripts/validate_vol05_ipo_latin_audit_v01.py`: 1648 조약 신원·조항 번호·출처 접근 수준·기존 원고 정정과 공개차단 검증.
 - `scripts/test_vol05_ipo_latin_audit_negative_v01.py`: **29개 위험 변형**(공개 승인, 미검토 원전 교감, 잘못된 조약 번호, §34만 인용해 강제 이주 전면 폐지 주장 등)을 거부하는 회귀 검증.
 - 지난 원고 `EVENT_1648_WESTPHALIA_PEACE_V01.md`, `AUGSBURG_1555_WESTPHALIA_1648_LEGAL_COMPARE_V01.md`의 조건부 이주 서술을 **V §§34,36,37**에 맞게 수정.
@@ -27,6 +27,8 @@
 **GHDI의 개요 부분에서 개혁파 수용을 Article II로 기술한 구절이 있지만 실제 조약 발췌 및 라틴어 전사 본문은 Article VII이다.** 학술 감수 전까지 이런 편집상 불일치를 연구 메모로 보존한다.
 
 ## 확인한 것과 확인하지 못한 것
+
+**확인:** 오스트리아 국가기록보관소의 황제 측 조약 증인 `IPO-AK`에 대한 LWL 소장목록(<https://www.lwl.org/westfaelische-geschichte/portal/Internet/finde/langDatensatz.php?urlID=2599&url_tabelle=tab_quelle>)을 추가 확인했다. 원문 페이지 자체는 아직 읽지 않았으며, 목록 기록은 사료 진본 전체 교감과 다르다.
 
 **확인:** 라틴어 온라인 전사본의 해당 문단과 1648 IPO 고유 조항 번호, 영어 발췌의 논점, APW/IEG 편집 자료 제공 범위에 대한 대학도서관 설명. 이 검토를 위해 자료를 새로 공개/배포하거나 원문 전문을 GitHub에 복제하지 않았다.
 
