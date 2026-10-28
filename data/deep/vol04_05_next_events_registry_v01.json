@@ -1,0 +1,142 @@
+{
+  "schema_version": "0.1",
+  "kind": "REFORMATION_NEXT_EVENTS_RESEARCH_ONLY",
+  "authored_date": "2026-10-28",
+  "publication_gate": {
+    "approved": false,
+    "human_approval": false,
+    "rights_approval": false,
+    "can_ship": false
+  },
+  "overview_unchanged": true,
+  "ai_studio_unchanged": true,
+  "canonical_ids_issued": 0,
+  "cases": [
+    {
+      "episode_key": "EP-V04-WORMS-1521",
+      "volume_id": "VOL-04",
+      "title_ko": "1521년 보름스 제국의회",
+      "year_start": 1521,
+      "year_end": 1521,
+      "canonical_event_id": "OV-E-016",
+      "deep_event_ref": "DEEP-V04-E-005",
+      "existing_people": [
+        "OV-P-013"
+      ],
+      "existing_documents": [],
+      "body_path": "docs/01_CONTENT/VOL04/EVENT_1521_WORMS_DIET_V01.md",
+      "claim_ids": [
+        "CLM-V04-L-004",
+        "CLM-V04-L-005",
+        "CLM-V04-L-006"
+      ],
+      "source_urls": [
+        "https://www.worms.de/en/web/luther/Worms_1521/Reichstag/",
+        "https://www.dilibri.de/stbwo/content/titleinfo/2039194",
+        "https://www.lutherschriften1521.de/luther-schriften/exponate/Reichstag/1-die-gancz-handlung.php",
+        "https://tueditions.ulb.tu-darmstadt.de/v/pa000008-0107"
+      ],
+      "evidence_limit_ko": "보름스 답변 속기록·후대 추가 문구·5월 칙령의 날짜/공포 단계를 구분",
+      "status": "DRAFT_RESEARCH_NOT_PUBLIC",
+      "approved": false,
+      "release_approved": false,
+      "full_original_collation": false,
+      "media_reuse_approved": false,
+      "route_policy": "REFERENCE_EXISTING_OVERVIEW_EVENT"
+    },
+    {
+      "episode_key": "EP-V04-ZURICH-1523-27",
+      "volume_id": "VOL-04",
+      "title_ko": "1523~1527년 취리히 재세례파",
+      "year_start": 1523,
+      "year_end": 1527,
+      "canonical_event_id": null,
+      "deep_event_ref": "DEEP-V04-ZW-E-006",
+      "existing_people": [
+        "OV-P-015"
+      ],
+      "existing_documents": [
+        "OV-D-010"
+      ],
+      "body_path": "docs/01_CONTENT/VOL04/EVENT_1523_1527_ZURICH_ANABAPTISTS_V01.md",
+      "claim_ids": [
+        "CLM-V04-ZW-003",
+        "CLM-V04-ZW-005",
+        "CLM-V04-ZW-006",
+        "CLM-V04-ZW-007"
+      ],
+      "source_urls": [
+        "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/ghdi:document-4312",
+        "https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4301559",
+        "https://www.zb.uzh.ch/en/fokus/beitrag/reformation",
+        "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/ghdi:document-4315"
+      ],
+      "evidence_limit_ko": "기존 OV-E-017은 슐라이트하임 신앙고백 자체이며, 1527년 만츠 처형이나 재세례운동 전체와 동일한 사건이 아님",
+      "status": "DRAFT_RESEARCH_NOT_PUBLIC",
+      "approved": false,
+      "release_approved": false,
+      "full_original_collation": false,
+      "media_reuse_approved": false,
+      "route_policy": "NO_NEW_CANONICAL_EVENT_ROUTE"
+    },
+    {
+      "episode_key": "EP-V04-ENGLAND-1533-59",
+      "volume_id": "VOL-04",
+      "title_ko": "1533~1559년 영국 종교개혁",
+      "year_start": 1533,
+      "year_end": 1559,
+      "canonical_event_id": null,
+      "deep_event_ref": null,
+      "existing_people": [
+        "OV-P-019"
+      ],
+      "existing_documents": [
+        "OV-D-013"
+      ],
+      "body_path": "docs/01_CONTENT/VOL04/EVENT_ENGLISH_REFORMATION_1533_1559_V01.md",
+      "claim_ids": [],
+      "source_urls": [
+        "https://www.parliament.uk/about/living-heritage/transformingsociety/private-lives/religion/overview/reformation/",
+        "https://www.parliament.uk/about/living-heritage/transformingsociety/private-lives/religion/collections/common-prayer/act-of-uniformity-1559/",
+        "https://library.chethams.com/collections/101-treasures-of-chethams/book-of-common-prayer/"
+      ],
+      "evidence_limit_ko": "새 심층 사건 후보로만 관리. 1534 왕권, 1549/1552/1559 공동기도서와 1559 법률을 병합하지 않음",
+      "status": "DRAFT_RESEARCH_NOT_PUBLIC",
+      "approved": false,
+      "release_approved": false,
+      "full_original_collation": false,
+      "media_reuse_approved": false,
+      "route_policy": "NO_NEW_CANONICAL_EVENT_ROUTE"
+    },
+    {
+      "episode_key": "EP-V05-AUGSBURG-1555",
+      "volume_id": "VOL-05",
+      "title_ko": "1555년 아우크스부르크 종교화",
+      "year_start": 1555,
+      "year_end": 1555,
+      "canonical_event_id": "OV-E-022",
+      "deep_event_ref": null,
+      "existing_people": [],
+      "existing_documents": [
+        "OV-D-011"
+      ],
+      "body_path": "docs/01_CONTENT/VOL05/EVENT_1555_PEACE_AUGSBURG_V01.md",
+      "claim_ids": [],
+      "source_urls": [
+        "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/ghdi:document-4386",
+        "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/introduction",
+        "https://germanhistory-intersections.org/en/migration/ghis:document-58",
+        "https://cris.fau.de/publications/330883217/"
+      ],
+      "evidence_limit_ko": "기존 OV-E-022와 VOL-05 유지, 1530 신앙고백 제출 OV-E-019와 절대 동일시하지 않음; 1555 원법령 원어 미교감",
+      "status": "DRAFT_RESEARCH_NOT_PUBLIC",
+      "approved": false,
+      "release_approved": false,
+      "full_original_collation": false,
+      "media_reuse_approved": false,
+      "route_policy": "REFERENCE_EXISTING_OVERVIEW_EVENT"
+    }
+  ],
+  "original_text_collated": false,
+  "research_note": "Institutional web descriptions and translated selections; no first-hand comprehensive critical edition collation or reuse license. Cross-volume canonical IDs are existing overview references only."
+}
