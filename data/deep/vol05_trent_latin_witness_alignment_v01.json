@@ -1,0 +1,359 @@
+{
+  "schema_version": "0.1",
+  "kind": "VOL05_TRENT_LATIN_ANCHOR_AND_PRINT_WITNESSES",
+  "status": "DRAFT_RESEARCH_NOT_PUBLIC",
+  "created_at": "2026-10-28",
+  "work_id": "OV-D-014",
+  "event_id": "OV-E-021",
+  "volume_id": "VOL-05",
+  "created_canonical_ids": 0,
+  "ai_studio_modified": false,
+  "overview_modified": false,
+  "publication_gate": {
+    "human_approved": false,
+    "latin_print_collated": false,
+    "parallel_translation_collated": false,
+    "copy_image_rights_approved": false,
+    "can_ship": false
+  },
+  "source_records": [
+    {
+      "key": "TR-LAT-SRC-PROP-01",
+      "url": "https://www.themorgan.org/printed-books/112519",
+      "source_type": "HOLDING_CATALOG_1564_AUTHENTICATED_COPY",
+      "access": "INSTITUTIONAL_CATALOG_READ",
+      "bibliography_role": "PHYSICAL_PRINT_WITNESS",
+      "text_read": false,
+      "canonical_source_id": null,
+      "rights_approved": false,
+      "primary_print_folio_verified": false,
+      "public_visible": false
+    },
+    {
+      "key": "TR-LAT-SRC-PROP-02",
+      "url": "https://www.museodiocesanotridentino.it/articoli/edizione-dei-canoni-e-dei-decreti-conciliari",
+      "source_type": "MUSEUM_DESCRIPTION_1564_SECRETARY_ANNOTATED_COPY",
+      "access": "INSTITUTIONAL_DESCRIPTION_READ",
+      "bibliography_role": "PHYSICAL_PRINT_WITNESS",
+      "text_read": false,
+      "canonical_source_id": null,
+      "rights_approved": false,
+      "primary_print_folio_verified": false,
+      "public_visible": false
+    },
+    {
+      "key": "TR-LAT-SRC-PROP-03",
+      "url": "https://bivaldi.gva.es/en/consulta/registro.do?id=3984",
+      "source_type": "LIBRARY_CATALOG_1564_QUARTO",
+      "access": "INSTITUTIONAL_CATALOG_READ",
+      "bibliography_role": "PHYSICAL_PRINT_WITNESS",
+      "text_read": false,
+      "canonical_source_id": null,
+      "rights_approved": false,
+      "primary_print_folio_verified": false,
+      "public_visible": false
+    },
+    {
+      "key": "TR-LAT-SRC-PROP-04",
+      "url": "https://opac.bibliotecauniversitaria.pi.it/opacpisa/opaclib?brief=brief&db=solr_pisa&do_cmd=search_show_cmd&fname=none&from=1&nentries=50&refine=55%21%3A%21it%21%3A%21italia%21%3A%21Paese%4054%21%3A%21lat%21%3A%21latino%21%3A%21Lingua%4058%21%3A%21romae%21%3A%21romae%21%3A%21Luogo+di+pubblicazione&resultForward=opac%2Fpisa%2Ffull.jsp&rpnlabel=+Nomi+%3D++Manuzio%2C+Paolo+&rpnquery=%40attrset+bib-1++%40attr+1%3D1003+%40attr+4%3D1+%22+Manuzio%2C+Paolo%22&searchForm=opac%2Fpisa%2Ferror.jsp&select_db=solr_pisa&totalResult=9",
+      "source_type": "LIBRARY_OPAC_1564_QUARTO",
+      "access": "INSTITUTIONAL_CATALOG_READ",
+      "bibliography_role": "PHYSICAL_PRINT_WITNESS",
+      "text_read": false,
+      "canonical_source_id": null,
+      "rights_approved": false,
+      "primary_print_folio_verified": false,
+      "public_visible": false
+    },
+    {
+      "key": "TR-LAT-SRC-PROP-05",
+      "url": "https://digital.ub.uni-paderborn.de/eab/content/structure/2168013",
+      "source_type": "LIBRARY_DIGITAL_TOC_1621_GALLEMART",
+      "access": "DIGITAL_TABLE_OF_CONTENTS_READ_ONLY",
+      "bibliography_role": "LATER_ANNOTATED_EDITION",
+      "text_read": false,
+      "canonical_source_id": null,
+      "rights_approved": false,
+      "primary_print_folio_verified": false,
+      "public_visible": false
+    },
+    {
+      "key": "TR-LAT-SRC-PROP-06",
+      "url": "https://la.wikisource.org/wiki/Concilium_Tridentinum",
+      "source_type": "LATIN_DIGITAL_TRANSCRIPTION_UNCRITICAL",
+      "access": "DISPLAYED_LATIN_TEXT_READ",
+      "bibliography_role": "MODERN_DIGITAL_TRANSCRIPTION",
+      "text_read": true,
+      "canonical_source_id": null,
+      "rights_approved": false,
+      "primary_print_folio_verified": false,
+      "public_visible": false
+    },
+    {
+      "key": "TR-LAT-SRC-PROP-07",
+      "url": "https://theofons.net/la/ds/1500",
+      "source_type": "LATIN_DENZINGER_STYLE_EXCERPT",
+      "access": "SEARCH_EXCERPT_READ",
+      "bibliography_role": "MODERN_LATIN_EDITED_TEXT",
+      "text_read": false,
+      "canonical_source_id": null,
+      "rights_approved": false,
+      "primary_print_folio_verified": false,
+      "public_visible": false
+    },
+    {
+      "key": "TR-LAT-SRC-PROP-08",
+      "url": "https://adfonteslibrary.org/work-council-trent-session-06",
+      "source_type": "WATERWORTH_1848_ENGLISH_SESSION_06",
+      "access": "ONLINE_1848_TRANSLATION_READ",
+      "bibliography_role": "HISTORICAL_TRANSLATION",
+      "text_read": true,
+      "canonical_source_id": null,
+      "rights_approved": false,
+      "primary_print_folio_verified": false,
+      "public_visible": false
+    },
+    {
+      "key": "TR-LAT-SRC-PROP-09",
+      "url": "https://adfonteslibrary.org/work-council-trent-session-13",
+      "source_type": "WATERWORTH_1848_ENGLISH_SESSION_13",
+      "access": "ONLINE_TRANSLATION_REFERENCE",
+      "bibliography_role": "HISTORICAL_TRANSLATION",
+      "text_read": false,
+      "canonical_source_id": null,
+      "rights_approved": false,
+      "primary_print_folio_verified": false,
+      "public_visible": false
+    },
+    {
+      "key": "TR-LAT-SRC-PROP-10",
+      "url": "https://adfonteslibrary.org/work-council-trent-session-23",
+      "source_type": "WATERWORTH_1848_ENGLISH_SESSION_23",
+      "access": "ONLINE_TRANSLATION_READ",
+      "bibliography_role": "HISTORICAL_TRANSLATION",
+      "text_read": true,
+      "canonical_source_id": null,
+      "rights_approved": false,
+      "primary_print_folio_verified": false,
+      "public_visible": false
+    }
+  ],
+  "print_copies": [
+    {
+      "copy_key": "TR-COPY-PROP-MORGAN-1564",
+      "printing_year": 1564,
+      "imprint": "Romae, apud Paulum Manutium",
+      "repository": "Morgan Library & Museum, New York",
+      "shelfmark": "PML 1214",
+      "format": "folio",
+      "extent": "CCXXXIX p., 31 cm",
+      "features": [
+        "secretary_and_notarial_signatures",
+        "manuscript_interleaves"
+      ],
+      "source_key": "TR-LAT-SRC-PROP-01",
+      "status": "CATALOG_CONFIRMED_BUT_LEAVES_NOT_INSPECTED"
+    },
+    {
+      "copy_key": "TR-COPY-PROP-TRENTO-1564",
+      "printing_year": 1564,
+      "imprint": "Romae, Paolo Manuzio",
+      "repository": "Museo Diocesano Tridentino, Trento",
+      "shelfmark": null,
+      "format": "folio",
+      "extent": "239 numbered pages, catalog description",
+      "features": [
+        "Massarelli_secretarial_corrections",
+        "secretary_and_two_notaries_signatures"
+      ],
+      "source_key": "TR-LAT-SRC-PROP-02",
+      "status": "MUSEUM_DESCRIPTION_ONLY"
+    },
+    {
+      "copy_key": "TR-COPY-PROP-VALENCIA-1564",
+      "printing_year": 1564,
+      "imprint": "Romae, apud Paulum Manutium",
+      "repository": "Biblioteca Valenciana",
+      "shelfmark": "XVI/233",
+      "format": "quarto",
+      "extent": "284 p.; 4°",
+      "features": [
+        "printer_device"
+      ],
+      "source_key": "TR-LAT-SRC-PROP-03",
+      "status": "CATALOG_CONFIRMED_BUT_LEAVES_NOT_INSPECTED"
+    },
+    {
+      "copy_key": "TR-COPY-PROP-PISA-1564",
+      "printing_year": 1564,
+      "imprint": "Romae, apud Paulum Manutium",
+      "repository": "Biblioteca Universitaria di Pisa",
+      "shelfmark": "G h. 10. 48",
+      "format": "quarto",
+      "extent": "284 p.; 4°",
+      "features": [
+        "marginal_notes",
+        "ex_libris_Gori"
+      ],
+      "source_key": "TR-LAT-SRC-PROP-04",
+      "status": "CATALOG_CONFIRMED_BUT_LEAVES_NOT_INSPECTED"
+    },
+    {
+      "copy_key": "TR-COPY-PROP-PADERBORN-1621",
+      "printing_year": 1621,
+      "imprint": "Coloniae Agrippinae: Hieratus, Gallemart commentary edition",
+      "repository": "Erzbischöfliche Akademische Bibliothek Paderborn",
+      "shelfmark": null,
+      "format": "later_annotated_edition",
+      "extent": "Catalog table-of-contents navigation available",
+      "features": [
+        "cardinal_interpretations",
+        "scholarly_marginalia"
+      ],
+      "source_key": "TR-LAT-SRC-PROP-05",
+      "status": "TOC_ONLY_NOT_1564_ORIGINAL"
+    }
+  ],
+  "anchors": [
+    {
+      "anchor_key": "TR-TEXT-PROP-VI-7",
+      "session_number": 6,
+      "session_date": "1547-01-13",
+      "section_kind": "DOCTRINAL_DECREE_CHAPTER",
+      "section_number": 7,
+      "section_title_latin": "Quid sit iustificatio impii, et quae eius causae",
+      "latin_lemma": "non est sola peccatorum remissio",
+      "ko_gloss": "칭의는 죄의 사함만을 의미하지 않으며, 내적 성화와 새로움을 포함한다는 설명",
+      "interpretation_guard": "루터파 전체를 선행의 중요성을 부인한 집단으로 묘사하지 않음; 가톨릭도 은총 없이 인간이 칭의를 획득한다고 표현하지 않음",
+      "latin_display_source_key": "TR-LAT-SRC-PROP-06",
+      "translation_source_key": "TR-LAT-SRC-PROP-08",
+      "physical_copy_keys": [
+        "TR-COPY-PROP-MORGAN-1564",
+        "TR-COPY-PROP-VALENCIA-1564"
+      ],
+      "physical_text_line_verified": false,
+      "full_latin_english_parallel_collation": false,
+      "latin_lemma_kind": "BRIEF_SEARCH_ANCHOR",
+      "evidence_state": "EDITORIAL_CROSS_REFERENCE_ONLY",
+      "approved": false,
+      "public_visible": false
+    },
+    {
+      "anchor_key": "TR-TEXT-PROP-VI-8",
+      "session_number": 6,
+      "session_date": "1547-01-13",
+      "section_kind": "DOCTRINAL_DECREE_CHAPTER",
+      "section_number": 8,
+      "section_title_latin": "Quo modo intelligatur, impium per fidem, et gratis iustificari",
+      "latin_lemma": "fides est humanae salutis initium",
+      "ko_gloss": "믿음은 인간 구원의 시작·기초라는 해설이며, 은총을 앞선 공로를 주장하지 않는 문맥",
+      "interpretation_guard": "제6회기 8장을 칭의 교령 제9정죄조항의 단순 동의어로 쓰지 않음",
+      "latin_display_source_key": "TR-LAT-SRC-PROP-06",
+      "translation_source_key": "TR-LAT-SRC-PROP-08",
+      "physical_copy_keys": [
+        "TR-COPY-PROP-TRENTO-1564"
+      ],
+      "physical_text_line_verified": false,
+      "full_latin_english_parallel_collation": false,
+      "latin_lemma_kind": "BRIEF_SEARCH_ANCHOR",
+      "evidence_state": "EDITORIAL_CROSS_REFERENCE_ONLY",
+      "approved": false,
+      "public_visible": false
+    },
+    {
+      "anchor_key": "TR-TEXT-PROP-XIII-4",
+      "session_number": 13,
+      "session_date": "1551-10-11",
+      "section_kind": "DOCTRINAL_DECREE_CHAPTER",
+      "section_number": 4,
+      "section_title_latin": "De Transsubstantiatione",
+      "latin_lemma": "transsubstantiatio est appellata",
+      "ko_gloss": "빵과 포도주의 실체 변화를 가리켜 화체라는 명칭을 사용한다는 교령의 설명",
+      "interpretation_guard": "루터파 성찬 현존론을 화체설과 같은 내용이라고 단정하지 않음; 제22회기의 미사 제사 교령과 구별",
+      "latin_display_source_key": "TR-LAT-SRC-PROP-06",
+      "translation_source_key": "TR-LAT-SRC-PROP-09",
+      "physical_copy_keys": [
+        "TR-COPY-PROP-MORGAN-1564",
+        "TR-COPY-PROP-PADERBORN-1621"
+      ],
+      "physical_text_line_verified": false,
+      "full_latin_english_parallel_collation": false,
+      "latin_lemma_kind": "BRIEF_SEARCH_ANCHOR",
+      "evidence_state": "EDITORIAL_CROSS_REFERENCE_ONLY",
+      "approved": false,
+      "public_visible": false
+    },
+    {
+      "anchor_key": "TR-TEXT-PROP-XXIII-18",
+      "session_number": 23,
+      "session_date": "1563-07-15",
+      "section_kind": "DISCIPLINARY_REFORM_DECREE_CHAPTER",
+      "section_number": 18,
+      "section_title_latin": "De seminariis clericorum erigendis et educandis",
+      "latin_lemma": "perpetuum seminarium",
+      "ko_gloss": "교구 내 지속적인 사제 양성기관을 마련하도록 하는 규정",
+      "interpretation_guard": "동일 제23회기의 성품성사 교리 조항이 아니라 개혁 교령의 제18장. 제정이 즉시 보편적 신학교 설립을 입증하지 않음",
+      "latin_display_source_key": "TR-LAT-SRC-PROP-06",
+      "translation_source_key": "TR-LAT-SRC-PROP-10",
+      "physical_copy_keys": [
+        "TR-COPY-PROP-VALENCIA-1564",
+        "TR-COPY-PROP-PADERBORN-1621"
+      ],
+      "physical_text_line_verified": false,
+      "full_latin_english_parallel_collation": false,
+      "latin_lemma_kind": "BRIEF_SEARCH_ANCHOR",
+      "evidence_state": "EDITORIAL_CROSS_REFERENCE_ONLY",
+      "approved": false,
+      "public_visible": false
+    }
+  ],
+  "session_inventory": [
+    {
+      "number": 6,
+      "year": 1547,
+      "key": "TR-SESSION-PROP-06"
+    },
+    {
+      "number": 13,
+      "year": 1551,
+      "key": "TR-SESSION-PROP-13"
+    },
+    {
+      "number": 23,
+      "year": 1563,
+      "key": "TR-SESSION-PROP-23"
+    }
+  ],
+  "relation_issues": [
+    {
+      "issue_key": "TR-ISSUE-1564-FORMAT",
+      "status": "OPEN",
+      "description": "Morgan/Museo 239-page folio and Valencia/Pisa 284-page quarto 1564 imprints are distinguishable; edition/issue/stereotyped setting relationships must not be guessed from shared year and printer."
+    },
+    {
+      "issue_key": "TR-ISSUE-AUTHENTICATED",
+      "status": "OPEN",
+      "description": "Morgan and Museo describe secretary/notarial signatures, but those do not substitute for individual folio/line collation; verify signatures' object context and editions."
+    },
+    {
+      "issue_key": "TR-ISSUE-1621",
+      "status": "OPEN",
+      "description": "Paderborn 1621 Gallemart annotated printing with later declarations is NOT 1564 authentic first printing."
+    },
+    {
+      "issue_key": "TR-ISSUE-XXIII",
+      "status": "OPEN",
+      "description": "Latin digital transcription labels seminary section Canon XVIII while other editions/English translations call reform Chapter XVIII; confirm sectioning in selected print witness."
+    },
+    {
+      "issue_key": "TR-ISSUE-INTERPRETATION",
+      "status": "OPEN",
+      "description": "Original Latin word choices should be checked against selected 1564 print copies before theological claims are marked text-verified."
+    },
+    {
+      "issue_key": "TR-ISSUE-RIGHTS",
+      "status": "OPEN",
+      "description": "No institutional images, scholarly translations, or transcripts copied into a public bundle."
+    }
+  ]
+}
