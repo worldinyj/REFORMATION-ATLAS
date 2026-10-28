@@ -29,7 +29,7 @@ ACCESS_LEVELS = {
     "INSTITUTIONAL_CATALOG_READ", "INSTITUTIONAL_DESCRIPTION_READ",
     "DIGITAL_TABLE_OF_CONTENTS_READ_ONLY", "DISPLAYED_LATIN_TEXT_READ",
     "SEARCH_EXCERPT_READ", "ONLINE_1848_TRANSLATION_READ",
-    "ONLINE_TRANSLATION_REFERENCE",
+    "ONLINE_TRANSLATION_REFERENCE", "ONLINE_TRANSLATION_READ",
 }
 BIBLIO_ROLES = {
     "PHYSICAL_PRINT_WITNESS","LATER_ANNOTATED_EDITION",
@@ -83,7 +83,7 @@ def validate(data=None):
         if (s["canonical_source_id"] is not None or s["rights_approved"] is not False or
             s["primary_print_folio_verified"] is not False or s["public_visible"] is not False):
             bad("source prematurely authorized/verified")
-        if s["text_read"] and s["access"] not in {"DISPLAYED_LATIN_TEXT_READ","ONLINE_1848_TRANSLATION_READ"}:
+        if s["text_read"] and s["access"] not in {"DISPLAYED_LATIN_TEXT_READ","ONLINE_1848_TRANSLATION_READ","ONLINE_TRANSLATION_READ"}:
             bad("text read claim not substantiated by access class")
         index[key] = s
     if sum(s["bibliography_role"]=="PHYSICAL_PRINT_WITNESS" for s in sources) != 4:
