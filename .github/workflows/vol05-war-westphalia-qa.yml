@@ -1,0 +1,25 @@
+name: VOL-05 Thirty Years War and Westphalia Research QA
+on:
+  push:
+    branches:
+      - research/vol05-war-westphalia-v01
+  pull_request:
+    branches:
+      - research/vol05-trent-latin-witness-v01
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  historical-treaty-identity:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Existing overview and prior Trent source research
+        run: |
+          python3 scripts/validate_atlas_overview_v01.py
+          python3 scripts/validate_vol05_trent_latin_witness_v01.py
+          python3 scripts/test_vol05_trent_latin_witness_negative_v01.py
+      - name: 1555 to 1648 war, treaties, religious law and art provenance
+        run: |
+          python3 scripts/validate_vol05_war_westphalia_v01.py
+          python3 scripts/test_vol05_war_westphalia_negative_v01.py
