@@ -77,8 +77,9 @@ def validate(d=None):
             reject("wrong related treaty")
         if urlparse(x["source_url"]).scheme!="https":
             reject("unsecured supporting source")
-        status=x.get("crosswalk_status",x.get("relationship_to_direct_items"))
-        if status != "UNRESOLVED":
+        status_values=[v for k,v in x.items()
+                       if k=="crosswalk_status" or k.startswith("relationship_to_")]
+        if not status_values or any(v!="UNRESOLVED" for v in status_values):
             reject("physical witness relationship not yet proven")
     edition=d["critical_edition"]
     if (edition["key"],edition["editor"],edition["edition_year"],edition["ipo_page_span"])!=("IPO-EDN-APW-1998","Antje Oschmann",1998,"95–170"):
