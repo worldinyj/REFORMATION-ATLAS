@@ -1,0 +1,189 @@
+{
+  "schema_version": "0.4",
+  "kind": "VOL05_IPO_IPM_AUSTRIAN_DIRECT_CATALOG_EVIDENCE",
+  "status": "DRAFT_RESEARCH_NOT_PUBLIC",
+  "research_date": "2026-10-29",
+  "volume_id": "VOL-05",
+  "canonical_event_id": "OV-E-024",
+  "canonical_document_id": "OV-D-015",
+  "parent_research": "data/deep/vol05_ipo_archive_id_apw_page_leads_v03.json",
+  "app_modified": false,
+  "overview_modified": false,
+  "canonical_ids_minted": 0,
+  "publication_gate": {
+    "scholarly_approved": false,
+    "editorial_approved": false,
+    "physical_folios_collated": false,
+    "apw_original_page_collated": false,
+    "archive_photo_reuse_approved": false,
+    "publish_approved": false,
+    "can_ship": false
+  },
+  "direct_archival_catalogs": [
+    {
+      "source_key": "IPO-CAT-V04-IPO-IMPERIAL",
+      "archive_item_id": 2594303,
+      "uri": "https://www.archivinformationssystem.at/detail.aspx?ID=2594303",
+      "archive": "Österreichisches Staatsarchiv / HHStA",
+      "series_or_shared_signature": "AT-OeStA/HHStA UR AUR 1648 X 14/24",
+      "treaty_key": "WAR-TREATY-IPO-1648",
+      "original_catalog_date": "1648-10-14",
+      "historical_calendar_interpretation": "OLD_STYLE_LABEL_IN_ARCHIVE_LISTING",
+      "copy_designation": "Kaiserliches Exemplar",
+      "counterparty": "Queen Christina of Sweden",
+      "seal_count": 41,
+      "material": "Papier",
+      "listed_image_count": 117,
+      "record_page_direct_read": true,
+      "image_index_direct_read": true,
+      "image_pixels_read": false,
+      "text_from_original_manuscript_read": false,
+      "item_archival_id_uniquely_identifies_catalog_record": true,
+      "shared_signature_uniquely_identifies_physical_copy": false,
+      "rights_to_republish_images": false
+    },
+    {
+      "source_key": "IPO-CAT-V04-IPO-MAINZ",
+      "archive_item_id": 2594304,
+      "uri": "https://www.archivinformationssystem.at/detail.aspx?ID=2594304",
+      "archive": "Österreichisches Staatsarchiv / HHStA",
+      "series_or_shared_signature": "AT-OeStA/HHStA UR AUR 1648 X 14/24",
+      "treaty_key": "WAR-TREATY-IPO-1648",
+      "original_catalog_date": "1648-10-24",
+      "historical_calendar_interpretation": "NEW_STYLE_LABEL_IN_ARCHIVE_LISTING",
+      "copy_designation": "Mainzer Exemplar",
+      "counterparty": "Queen Christina of Sweden",
+      "seal_count": 35,
+      "material": "Papier",
+      "listed_image_count": 79,
+      "record_page_direct_read": true,
+      "image_index_direct_read": true,
+      "image_pixels_read": false,
+      "text_from_original_manuscript_read": false,
+      "item_archival_id_uniquely_identifies_catalog_record": true,
+      "shared_signature_uniquely_identifies_physical_copy": false,
+      "rights_to_republish_images": false
+    },
+    {
+      "source_key": "IPO-CAT-V04-IPM-MAINZ",
+      "archive_item_id": 2594302,
+      "uri": "https://www.archivinformationssystem.at/detail.aspx?ID=2594302",
+      "archive": "Österreichisches Staatsarchiv / HHStA",
+      "series_or_shared_signature": "AT-OeStA/HHStA UR AUR 1648 X 14/24",
+      "treaty_key": "WAR-TREATY-IPM-1648",
+      "original_catalog_date": "1648-10-24",
+      "historical_calendar_interpretation": "NEW_STYLE_LABEL_IN_ARCHIVE_LISTING",
+      "copy_designation": "Mainzer Exemplar",
+      "counterparty": "King Louis XIV of France",
+      "seal_count": 34,
+      "material": "Papier",
+      "listed_image_count": 51,
+      "record_page_direct_read": true,
+      "image_index_direct_read": true,
+      "image_pixels_read": false,
+      "text_from_original_manuscript_read": false,
+      "item_archival_id_uniquely_identifies_catalog_record": true,
+      "shared_signature_uniquely_identifies_physical_copy": false,
+      "rights_to_republish_images": false
+    }
+  ],
+  "indirect_catalogs_preserved": [
+    {
+      "key": "IPO-PARES-393786",
+      "prior_archive_numeric_id": 393786,
+      "related_treaty_key": "WAR-TREATY-IPO-1648",
+      "source_url": "https://pares.cultura.gob.es/ParesBusquedas20/catalogo/description/12894060",
+      "relationship_to_new_direct_item_2594304": "SUGGESTED_BY_MAINZER_TITLE_BUT_NOT_VERIFIED_SAME_OBJECT",
+      "crosswalk_status": "UNRESOLVED"
+    },
+    {
+      "key": "IPM-PARES-1252067",
+      "prior_archive_numeric_id": 1252067,
+      "related_treaty_key": "WAR-TREATY-IPM-1648",
+      "source_url": "https://pares.cultura.gob.es/ParesBusquedas20/catalogo/description/12894060",
+      "relationship_to_new_direct_item_2594302": "SUGGESTED_BY_MUNSTER_TITLE_BUT_NOT_VERIFIED_SAME_OBJECT",
+      "crosswalk_status": "UNRESOLVED"
+    },
+    {
+      "key": "IPO-LWL-QUE2599",
+      "archive_catalog_key": "LWL que2599 IPO-AK",
+      "related_treaty_key": "WAR-TREATY-IPO-1648",
+      "source_url": "https://www.lwl.org/westfaelische-geschichte/portal/Internet/finde/langDatensatz.php?urlID=2599&url_tabelle=tab_quelle",
+      "relationship_to_direct_items": "UNRESOLVED"
+    },
+    {
+      "key": "IPO-LWL-QUE2595",
+      "archive_catalog_key": "LWL que2595 Emperor's execution",
+      "related_treaty_key": "WAR-TREATY-IPO-1648",
+      "source_url": "https://www.lwl.org/westfaelische-geschichte/portal/Internet/finde/langDatensatz.php?urlID=2595&url_tabelle=tab_quelle",
+      "relationship_to_direct_items": "UNRESOLVED"
+    }
+  ],
+  "critical_edition": {
+    "key": "IPO-EDN-APW-1998",
+    "editor": "Antje Oschmann",
+    "series": "Acta Pacis Westphalicae III B 1/1",
+    "edition_year": 1998,
+    "ipo_page_span": "95–170",
+    "source_url": "https://www.lwl.org/westfaelische-geschichte/portal/Internet/finde/langDatensatz.php?urlID=1391&url_tabelle=tab_literatur",
+    "text_page_photographed_or_direct_read": false
+  },
+  "secondary_page_corroborations": [
+    {
+      "clause_anchor": "IPO-LAT-V-34",
+      "article": "V",
+      "paragraph": "34",
+      "reported_apw_page": 121,
+      "source_url": "https://www.ssoar.info/ssoar/bitstream/handle/document/79390/ssoar-2009-dingel_et_al-Das_Friedenspotenzial_von_Religion.pdf?sequence=1",
+      "level": "SECONDARY_PDF_SEARCH_EXCERPT_WITH_EXPLICIT_FOOTNOTE",
+      "apw_page_direct_read": false,
+      "original_latin_verified": false,
+      "footnote_quote_length": "SHORT_METADATA_ONLY"
+    },
+    {
+      "clause_anchor": "IPO-LAT-VII-1",
+      "article": "VII",
+      "paragraph": "1",
+      "reported_apw_page": 129,
+      "source_url": "https://www.degruyterbrill.com/document/doi/10.1515/9783110683868-015/pdf?licenseType=open-access",
+      "secondary_other_source": "https://advent.evangelisch.de/download/ekd_texte_103.pdf",
+      "level": "TWO_SECONDARY_PDF_SEARCH_EXCERPTS_WITH_EXPLICIT_FOOTNOTES",
+      "apw_page_direct_read": false,
+      "original_latin_verified": false,
+      "footnote_quote_length": "SHORT_METADATA_ONLY"
+    }
+  ],
+  "unresolved": [
+    {
+      "key": "U04-01",
+      "status": "OPEN",
+      "problem": "Find published original manuscript folio positions within 2594303 and 2594304 for IPO V §§1,2,34,36,37; VII §§1,2; VIII §2"
+    },
+    {
+      "key": "U04-02",
+      "status": "OPEN",
+      "problem": "Austrian image indices exposed but image byte contents could not be fetched/read via research browser"
+    },
+    {
+      "key": "U04-03",
+      "status": "OPEN",
+      "problem": "PARES ID 393786 and Austrian 2594304, plus LWL que2599 and que2595, require independent unique-item identity mapping"
+    },
+    {
+      "key": "U04-04",
+      "status": "OPEN",
+      "problem": "1998 APW pages 121/129 citations are secondary and critical-edition text pages not directly inspected"
+    },
+    {
+      "key": "U04-05",
+      "status": "OPEN",
+      "problem": "Archive individual documents accessible publicly does not automatically establish images' redistribution rights"
+    },
+    {
+      "key": "U04-06",
+      "status": "OPEN",
+      "problem": "1648/10/14 and 1648/10/24 record labels require careful old/new style calendar interpretation and do not imply separate peace conclusion dates"
+    }
+  ],
+  "release_rule": "Archive catalog direct observation authorizes catalog metadata only. Never set physical folio, 1998 critical-edition text, historical image use, or public release approval from a catalog record."
+}

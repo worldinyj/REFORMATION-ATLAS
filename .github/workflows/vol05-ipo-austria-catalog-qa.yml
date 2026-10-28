@@ -1,0 +1,25 @@
+name: VOL-05 IPO Austrian Original Catalog QA
+on:
+  push:
+    branches:
+      - research/vol05-ipo-austria-direct-catalog-v04
+  pull_request:
+    branches:
+      - research/vol05-ipo-archive-ids-v03
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  austrian-copy-provenance:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Previous IPO bibliography and archive ID research
+        run: |
+          python3 scripts/validate_atlas_overview_v01.py
+          python3 scripts/validate_vol05_ipo_archive_ids_v03.py
+          python3 scripts/test_vol05_ipo_archive_ids_negative_v03.py
+      - name: Direct official IPO/IPM catalog identities, cited APW pages and fail closed gates
+        run: |
+          python3 scripts/validate_vol05_ipo_austria_direct_catalog_v04.py
+          python3 scripts/test_vol05_ipo_austria_catalog_negative_v04.py
