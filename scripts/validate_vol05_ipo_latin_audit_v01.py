@@ -23,7 +23,7 @@ CLAUSES={
     "IPO-LAT-VIII-2":("VIII","2","CONSTRAINED_ALLIANCE"),
 }
 ACCESSES={
-    "LATIN_TEXT_READ_WEB","SELECTED_TRANSLATION_EXCERPTS_READ",
+    "LATIN_TEXT_READ_WEB","SELECTED_TRANSLATION_EXCERPTS_READ", "INSTITUTIONAL_ARCHIVE_CATALOG_READ",
     "INSTITUTIONAL_RESOURCE_DESCRIPTION_READ","PORTAL_REFERENCED_BUT_DIRECT_FETCH_TIMEOUT",
     "GERMAN_TEXT_EXCERPTS_READ","SEARCH_SNIPPET_ONLY","PRIOR_EXISTING_SUMMARY",
 }
@@ -65,7 +65,7 @@ def validate(data=None):
             if chapter not in body:
                 reject("key section omitted from reader research")
     sources=d["source_records"]
-    if len(sources)!=7:
+    if len(sources)!=8:
         reject("seven distinct evidence-level references required")
     idx={}
     for s in sources:
@@ -121,7 +121,7 @@ def validate(data=None):
         t=(ROOT/rel).read_text(encoding="utf-8")
         if not all(needle in t for needle in ["34","36","37"]):
             reject("old unqualified emigration narrative not amended")
-    return {"clauses":8,"sources":7,"review_corrections":3,"public_records":0}
+    return {"clauses":8,"sources":8,"review_corrections":3,"public_records":0}
 
 if __name__=="__main__":
     result=validate()
