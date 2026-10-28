@@ -1,0 +1,25 @@
+name: VOL-05 IPO Austrian Archive and APW Page-Lead QA
+on:
+  push:
+    branches:
+      - research/vol05-ipo-archive-ids-v03
+  pull_request:
+    branches:
+      - research/vol05-ipo-witness-apw-v02
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  archive-and-edition-integrity:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Previous IPO witness evidence
+        run: |
+          python3 scripts/validate_atlas_overview_v01.py
+          python3 scripts/validate_vol05_ipo_witness_apw_v02.py
+          python3 scripts/test_vol05_ipo_witness_apw_negative_v02.py
+      - name: Austrian archive record and tentative APW page leads
+        run: |
+          python3 scripts/validate_vol05_ipo_archive_ids_v03.py
+          python3 scripts/test_vol05_ipo_archive_ids_negative_v03.py
