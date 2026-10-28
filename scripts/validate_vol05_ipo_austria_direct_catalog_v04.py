@@ -77,10 +77,16 @@ def validate(d=None):
             reject("wrong related treaty")
         if urlparse(x["source_url"]).scheme!="https":
             reject("unsecured supporting source")
-        status_values=[v for k,v in x.items()
+        status_values=[(k,v) for k,v in x.items()
                        if k=="crosswalk_status" or k.startswith("relationship_to_")]
-        if not status_values or any(v!="UNRESOLVED" for v in status_values):
-            reject("physical witness relationship not yet proven")
+        if not status_values:
+            reject("physical crosswalk status missing")
+        for key,value in status_values:
+            if key.startswith("relationship_to_new_direct_item_"):
+                if not (value.startswith("SUGGESTED_BY_") and value.endswith("_BUT_NOT_VERIFIED_SAME_OBJECT")):
+                    reject("unverified title-similarity lead promoted as physical identity")
+            elif value!="UNRESOLVED":
+                reject("physical witness relationship not yet proven")
     edition=d["critical_edition"]
     if (edition["key"],edition["editor"],edition["edition_year"],edition["ipo_page_span"])!=("IPO-EDN-APW-1998","Antje Oschmann",1998,"95–170"):
         reject("critical book bibliography drift")
