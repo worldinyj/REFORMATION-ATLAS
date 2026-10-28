@@ -1,0 +1,374 @@
+{
+  "schema_version": "0.2",
+  "kind": "VOL05_IPO_ORIGINAL_WITNESS_APW_CROSSWALK",
+  "status": "DRAFT_RESEARCH_NOT_PUBLIC",
+  "authored_date": "2026-10-28",
+  "volume_id": "VOL-05",
+  "canonical_event_id": "OV-E-024",
+  "canonical_work_id": "OV-D-015",
+  "parent_clause_registry": "data/deep/vol05_ipo_latin_clause_audit_v01.json",
+  "new_canonical_ids": 0,
+  "overview_modified": false,
+  "ai_studio_modified": false,
+  "publication_gate": {
+    "original_manuscript_folios_collated": false,
+    "apw_primary_text_directly_compared": false,
+    "contemporary_print_verified": false,
+    "scholar_approved": false,
+    "editor_approved": false,
+    "media_reuse_approved": false,
+    "can_ship": false
+  },
+  "sources": [
+    {
+      "key": "IPO-WIT-SRC-01",
+      "url": "https://www.lwl.org/westfaelische-geschichte/portal/Internet/finde/langDatensatz.php?urlID=2599&url_tabelle=tab_quelle",
+      "kind": "REGIONAL_ARCHIVE_PORTAL_ITEM",
+      "access": "CATALOG_DESCRIPTION_READ",
+      "scope": "IPO-AK common negotiators' instrument for the emperor",
+      "text_collated": false,
+      "rights_verified": false,
+      "public_approved": false,
+      "authenticated_original_page_read": false
+    },
+    {
+      "key": "IPO-WIT-SRC-02",
+      "url": "https://www.lwl.org/westfaelische-geschichte/portal/Internet/finde/langDatensatz.php?urlID=2595&url_tabelle=tab_quelle",
+      "kind": "REGIONAL_ARCHIVE_PORTAL_ITEM",
+      "access": "CATALOG_AND_LINKED_LATER_PRINTED_PDF_READ",
+      "scope": "Imperial executed copy catalog and linked 42-page later scan, not a verified 1648 manuscript facsimile",
+      "text_collated": false,
+      "rights_verified": false,
+      "public_approved": false,
+      "authenticated_original_page_read": false
+    },
+    {
+      "key": "IPO-WIT-SRC-03",
+      "url": "https://www.archivinformationssystem.at/archivplansuche.aspx?ID=1891666",
+      "kind": "AUSTRIAN_ARCHIVE_GROUP_INDEX",
+      "access": "SEARCH_INDEX_DESCRIPTION_READ_NOT_EXACT_ITEM",
+      "scope": "HHStA General Urkundenreihe listing for 1648 treaties, separate Sweden and France catalog items",
+      "text_collated": false,
+      "rights_verified": false,
+      "public_approved": false,
+      "authenticated_original_page_read": false
+    },
+    {
+      "key": "IPO-WIT-SRC-04",
+      "url": "https://www.unesco.at/kommunikation/dokumentenerbe/memory-of-austria/verzeichnis/detail/article/westfaelische-friedensvertraege",
+      "kind": "AUSTRIAN_MEMORY_OF_AUSTRIA_RECORD",
+      "access": "OFFICIAL_SUMMARY_READ",
+      "scope": "Austrian State Archive's Westphalian treaty documents, selected 2016; broad heritage designation",
+      "text_collated": false,
+      "rights_verified": false,
+      "public_approved": false,
+      "authenticated_original_page_read": false
+    },
+    {
+      "key": "IPO-WIT-SRC-05",
+      "url": "https://www.zhf.uni-bonn.de/publikationen/apw",
+      "kind": "ACADEMIC_CRITICAL_EDITION_PROJECT",
+      "access": "PUBLISHER_PROJECT_DESCRIPTION_READ",
+      "scope": "Acta Pacis Westphalicae standard series, 48 published volumes",
+      "text_collated": false,
+      "rights_verified": false,
+      "public_approved": false,
+      "authenticated_original_page_read": false
+    },
+    {
+      "key": "IPO-WIT-SRC-06",
+      "url": "https://dbis.uni-regensburg.de/DBK/resources/100260",
+      "kind": "CRITICAL_EDITION_ELECTRONIC_SUPPLEMENT_INDEX",
+      "access": "DATABASE_DESCRIPTION_READ_NOT_TEXT",
+      "scope": "APW electronic supplement with Latin and historical translations of IPO/IPM",
+      "text_collated": false,
+      "rights_verified": false,
+      "public_approved": false,
+      "authenticated_original_page_read": false
+    },
+    {
+      "key": "IPO-WIT-SRC-07",
+      "url": "https://www.lwl.org/westfaelische-geschichte/que/normal/que2595.pdf",
+      "kind": "DIGITAL_SCANNED_LATER_PUBLISHED_EDITION",
+      "access": "PDF_TITLE_PAGE_VISUALLY_SEEN_TEXT_NOT_COLLATED",
+      "scope": "42-page scanned German historical publication introduced as Die Friedensverträge, linked by LWL 2595",
+      "text_collated": false,
+      "rights_verified": false,
+      "public_approved": false,
+      "authenticated_original_page_read": false
+    },
+    {
+      "key": "IPO-WIT-SRC-08",
+      "url": "https://redaktion.sehepunkte.org/2008/04/12361.html",
+      "kind": "SCHOLARLY_REVIEW_OF_PRINT_BIBLIOGRAPHY",
+      "access": "REVIEW_SUMMARY_READ",
+      "scope": "Review of print census distinguishing 1648 treaty prints and 1649 ratification prints",
+      "text_collated": false,
+      "rights_verified": false,
+      "public_approved": false,
+      "authenticated_original_page_read": false
+    },
+    {
+      "key": "IPO-WIT-SRC-09",
+      "url": "https://www.lwl.org/westfaelische-geschichte/portal/Internet/finde/langDatensatz.php?urlID=741&url_tabelle=tab_quelle",
+      "kind": "IPM_PARALLEL_DOCUMENT_CONTROL",
+      "access": "GERMAN_IPM_TRANSLATION_READ",
+      "scope": "Separate 1648 Emperor–France Münster treaty, not the IPO",
+      "text_collated": false,
+      "rights_verified": false,
+      "public_approved": false,
+      "authenticated_original_page_read": false
+    },
+    {
+      "key": "IPO-WIT-SRC-10",
+      "url": "https://www.pax-westphalica.de/ipmipo/index.html",
+      "kind": "APW_SUPPLEMENT_PRIMARY_PORTAL",
+      "access": "DIRECT_FETCH_TIMEOUT",
+      "scope": "Potential paragraph-wise Latin critical text and translations; not read or compared",
+      "text_collated": false,
+      "rights_verified": false,
+      "public_approved": false,
+      "authenticated_original_page_read": false
+    }
+  ],
+  "witnesses": [
+    {
+      "key": "IPO-WIT-AK-1648",
+      "witness_type": "IMPERIAL_COMMON_NEGOTIATORS_INSTRUMENT",
+      "title_original_de": "Ausfertigung der gemeinsamen Unterhändlerurkunde für den Kaiser (IPO-AK)",
+      "date": "1648-10-24",
+      "archival_institution": "Österreichisches Staatsarchiv / Haus-, Hof- und Staatsarchiv",
+      "exact_shelfmark": null,
+      "registry_url": "https://www.lwl.org/westfaelische-geschichte/portal/Internet/finde/langDatensatz.php?urlID=2599&url_tabelle=tab_quelle",
+      "record_id": "LWL:que2599",
+      "language": "la",
+      "relationship_status": "RELATION_TO_IMPERIAL_EXECUTION_NOT_PROVED",
+      "source_keys": [
+        "IPO-WIT-SRC-01"
+      ],
+      "page_or_folio_confirmed": false,
+      "physical_image_read": false,
+      "readability": "CATALOG_ONLY"
+    },
+    {
+      "key": "IPO-WIT-EMPEROR-1648",
+      "witness_type": "IMPERIAL_EXECUTION",
+      "title_original_de": "Osnabrücker Friedensvertrag, Ausfertigung für den Kaiser",
+      "date": "1648-10-24",
+      "archival_institution": "Österreichisches Staatsarchiv / Haus-, Hof- und Staatsarchiv",
+      "exact_shelfmark": null,
+      "registry_url": "https://www.lwl.org/westfaelische-geschichte/portal/Internet/finde/langDatensatz.php?urlID=2595&url_tabelle=tab_quelle",
+      "record_id": "LWL:que2595",
+      "language": "la",
+      "relationship_status": "RELATION_TO_IPO_AK_NOT_PROVED",
+      "source_keys": [
+        "IPO-WIT-SRC-02"
+      ],
+      "page_or_folio_confirmed": false,
+      "physical_image_read": false,
+      "readability": "CATALOG_AND_LATER_PDF_ONLY"
+    }
+  ],
+  "editions": [
+    {
+      "key": "IPO-EDN-APW-1998",
+      "kind": "HISTORICAL_CRITICAL_EDITION",
+      "title": "Die Friedensverträge mit Frankreich und Schweden, Band 1: Urkunden",
+      "editor": "Antje Oschmann",
+      "year": 1998,
+      "series": "Acta Pacis Westphalicae III B 1/1",
+      "target": "IPO treaty text",
+      "pages": "95–170",
+      "source_keys": [
+        "IPO-WIT-SRC-01",
+        "IPO-WIT-SRC-05"
+      ],
+      "direct_text_read": false,
+      "editorial_relationship": "LWL 2599 cites this edited text; no folio-by-folio collation this turn"
+    },
+    {
+      "key": "IPO-EDN-APW-SUPPLEMENT",
+      "kind": "SCHOLARLY_DIGITAL_TEXT_AND_TRANSLATION_RESOURCE",
+      "title": "Die Westfälischen Friedensverträge vom 24. Oktober 1648: Texte und Übersetzungen",
+      "editor": "APW Supplementa Electronica",
+      "year": null,
+      "series": "APW Supplementa Electronica 1",
+      "target": "IPO and IPM originals and 18 historical translations",
+      "pages": null,
+      "source_keys": [
+        "IPO-WIT-SRC-06",
+        "IPO-WIT-SRC-10"
+      ],
+      "direct_text_read": false,
+      "editorial_relationship": "DBIS resource description, portal direct fetch timeout"
+    },
+    {
+      "key": "IPO-EDN-LWL-PDF",
+      "kind": "DIGITAL_SCAN_OF_LATER_HISTORICAL_PUBLICATION",
+      "title": "Die Friedensverträge",
+      "editor": null,
+      "year": null,
+      "series": "Der Westfälische Friede, LWL pdf que2595",
+      "target": "Later publication linked to original-catalog page",
+      "pages": "LWL reference 33–71; 42-page digital object",
+      "source_keys": [
+        "IPO-WIT-SRC-02",
+        "IPO-WIT-SRC-07"
+      ],
+      "direct_text_read": false,
+      "editorial_relationship": "Title page screenshot viewed; not an image of the 1648 parchment and not APW 1998"
+    }
+  ],
+  "clause_links": [
+    {
+      "old_anchor_key": "IPO-LAT-V-1",
+      "article": "V",
+      "paragraph": "1",
+      "ko_summary": "1555 종교화의 재확인",
+      "reference_edition": "IPO-EDN-APW-1998",
+      "witness_key_for_future": "IPO-WIT-AK-1648",
+      "folio": null,
+      "line": null,
+      "apw_edition_page": null,
+      "critical_edition_directly_compared": false,
+      "original_document_directly_compared": false,
+      "source_status": "RESEARCH_LINK_ONLY"
+    },
+    {
+      "old_anchor_key": "IPO-LAT-V-2",
+      "article": "V",
+      "paragraph": "2",
+      "ko_summary": "1624년 정상년",
+      "reference_edition": "IPO-EDN-APW-1998",
+      "witness_key_for_future": "IPO-WIT-AK-1648",
+      "folio": null,
+      "line": null,
+      "apw_edition_page": null,
+      "critical_edition_directly_compared": false,
+      "original_document_directly_compared": false,
+      "source_status": "RESEARCH_LINK_ONLY"
+    },
+    {
+      "old_anchor_key": "IPO-LAT-V-34",
+      "article": "V",
+      "paragraph": "34",
+      "ko_summary": "사적 신앙 및 양심 보호",
+      "reference_edition": "IPO-EDN-APW-1998",
+      "witness_key_for_future": "IPO-WIT-AK-1648",
+      "folio": null,
+      "line": null,
+      "apw_edition_page": null,
+      "critical_edition_directly_compared": false,
+      "original_document_directly_compared": false,
+      "source_status": "RESEARCH_LINK_ONLY"
+    },
+    {
+      "old_anchor_key": "IPO-LAT-V-36",
+      "article": "V",
+      "paragraph": "36",
+      "ko_summary": "조건부 이주와 영주 명령",
+      "reference_edition": "IPO-EDN-APW-1998",
+      "witness_key_for_future": "IPO-WIT-AK-1648",
+      "folio": null,
+      "line": null,
+      "apw_edition_page": null,
+      "critical_edition_directly_compared": false,
+      "original_document_directly_compared": false,
+      "source_status": "RESEARCH_LINK_ONLY"
+    },
+    {
+      "old_anchor_key": "IPO-LAT-V-37",
+      "article": "V",
+      "paragraph": "37",
+      "ko_summary": "5년/3년 최소 유예",
+      "reference_edition": "IPO-EDN-APW-1998",
+      "witness_key_for_future": "IPO-WIT-AK-1648",
+      "folio": null,
+      "line": null,
+      "apw_edition_page": null,
+      "critical_edition_directly_compared": false,
+      "original_document_directly_compared": false,
+      "source_status": "RESEARCH_LINK_ONLY"
+    },
+    {
+      "old_anchor_key": "IPO-LAT-VII-1",
+      "article": "VII",
+      "paragraph": "1",
+      "ko_summary": "개혁파 공인",
+      "reference_edition": "IPO-EDN-APW-1998",
+      "witness_key_for_future": "IPO-WIT-AK-1648",
+      "folio": null,
+      "line": null,
+      "apw_edition_page": null,
+      "critical_edition_directly_compared": false,
+      "original_document_directly_compared": false,
+      "source_status": "RESEARCH_LINK_ONLY"
+    },
+    {
+      "old_anchor_key": "IPO-LAT-VII-2",
+      "article": "VII",
+      "paragraph": "2",
+      "ko_summary": "세 신앙고백 밖 집단의 배제",
+      "reference_edition": "IPO-EDN-APW-1998",
+      "witness_key_for_future": "IPO-WIT-AK-1648",
+      "folio": null,
+      "line": null,
+      "apw_edition_page": null,
+      "critical_edition_directly_compared": false,
+      "original_document_directly_compared": false,
+      "source_status": "RESEARCH_LINK_ONLY"
+    },
+    {
+      "old_anchor_key": "IPO-LAT-VIII-2",
+      "article": "VIII",
+      "paragraph": "2",
+      "ko_summary": "제약된 동맹권",
+      "reference_edition": "IPO-EDN-APW-1998",
+      "witness_key_for_future": "IPO-WIT-AK-1648",
+      "folio": null,
+      "line": null,
+      "apw_edition_page": null,
+      "critical_edition_directly_compared": false,
+      "original_document_directly_compared": false,
+      "source_status": "RESEARCH_LINK_ONLY"
+    }
+  ],
+  "unresolved": [
+    {
+      "key": "IPO-OPEN-AK-EMPEROR",
+      "status": "OPEN",
+      "issue": "IPO-AK and LWL 2595 imperial execution relation / whether distinct physical copies not determined by catalog titles alone"
+    },
+    {
+      "key": "IPO-OPEN-AUSTRIAN-SHELF",
+      "status": "OPEN",
+      "issue": "Exact Austrian archive item signature for each LWL entry not confirmed; parent AUR index is not an item shelfmark"
+    },
+    {
+      "key": "IPO-OPEN-APW-TEXT",
+      "status": "OPEN",
+      "issue": "Oschmann APW III B 1/1 pp 95–170 identified by source listing; chapter/paragraph words not directly inspected in critical edition"
+    },
+    {
+      "key": "IPO-OPEN-FOLIOS",
+      "status": "OPEN",
+      "issue": "No V §§1,2,34,36,37, VII §§1,2, VIII §2 physical folio, line, or variants verified"
+    },
+    {
+      "key": "IPO-OPEN-PRINTS",
+      "status": "OPEN",
+      "issue": "The 1648 print census and 1649 ratification documents are separate text object families and require copy-level provenance"
+    },
+    {
+      "key": "IPO-OPEN-PDF",
+      "status": "OPEN",
+      "issue": "LWL 42-page link is later published text; visual title page only, not authenticated original manuscript scans"
+    },
+    {
+      "key": "IPO-OPEN-RIGHTS",
+      "status": "OPEN",
+      "issue": "No archive photograph rights / reproduction permission or critical edition redistribution permission"
+    }
+  ],
+  "hardened_classification": "CATALOG_WITNESS_LINKS_ONLY_NO_FULL_TEXT_COMPARISON"
+}

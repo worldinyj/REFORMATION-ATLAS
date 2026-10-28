@@ -1,0 +1,27 @@
+name: VOL-05 IPO Original Witness and APW Crosswalk QA
+on:
+  push:
+    branches:
+      - research/vol05-ipo-witness-apw-v02
+  pull_request:
+    branches:
+      - research/vol05-ipo-latin-audit-v01
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  original-witness-identity:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Existing volume and IPO Latin clause research
+        run: |
+          python3 scripts/validate_atlas_overview_v01.py
+          python3 scripts/validate_vol05_war_westphalia_v01.py
+          python3 scripts/test_vol05_war_westphalia_negative_v01.py
+          python3 scripts/validate_vol05_ipo_latin_audit_v01.py
+          python3 scripts/test_vol05_ipo_latin_audit_negative_v01.py
+      - name: Archive catalog and APW provenance research
+        run: |
+          python3 scripts/validate_vol05_ipo_witness_apw_v02.py
+          python3 scripts/test_vol05_ipo_witness_apw_negative_v02.py
