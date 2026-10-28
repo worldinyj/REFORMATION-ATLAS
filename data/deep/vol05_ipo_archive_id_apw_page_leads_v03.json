@@ -1,0 +1,251 @@
+{
+  "schema_version": "0.3",
+  "kind": "VOL05_IPO_ARCHIVAL_ID_AND_APW_PAGE_LEADS",
+  "status": "DRAFT_RESEARCH_NOT_PUBLIC",
+  "date": "2026-10-28",
+  "volume_id": "VOL-05",
+  "canonical_work_id": "OV-D-015",
+  "canonical_event_id": "OV-E-024",
+  "parent": "data/deep/vol05_ipo_original_witness_apw_crosswalk_v02.json",
+  "publication_gate": {
+    "human_scholarly_approved": false,
+    "original_item_verified": false,
+    "physical_foil_read": false,
+    "apw_1998_direct_text_read": false,
+    "rights_approved": false,
+    "can_publish": false
+  },
+  "new_canonical_ids": 0,
+  "existing_app_changed": false,
+  "source_records": [
+    {
+      "key": "ARCH-IPO-V03-S01",
+      "url": "https://pares.cultura.gob.es/ParesBusquedas20/catalogo/description/12894060",
+      "kind": "SPANISH_NATIONAL_ARCHIVE_CROSS_REFERENCE",
+      "access": "RELATED_RECORD_CROSS_REFERENCE_READ",
+      "text_completely_collated": false,
+      "publication_rights_approved": false
+    },
+    {
+      "key": "ARCH-IPO-V03-S02",
+      "url": "https://www.archivinformationssystem.at/detail.aspx?ID=393786",
+      "kind": "AUSTRIAN_ARCHIVE_INDIVIDUAL_ITEM_LINK",
+      "access": "URL_CITED_BY_GOVERNMENT_BUT_DIRECT_FETCH_BLOCKED",
+      "text_completely_collated": false,
+      "publication_rights_approved": false
+    },
+    {
+      "key": "ARCH-IPO-V03-S03",
+      "url": "https://www.archivinformationssystem.at/detail.aspx?ID=1252067",
+      "kind": "AUSTRIAN_ARCHIVE_DIFFERENT_TREATY_LINK",
+      "access": "URL_CITED_BY_GOVERNMENT_BUT_DIRECT_FETCH_BLOCKED",
+      "text_completely_collated": false,
+      "publication_rights_approved": false
+    },
+    {
+      "key": "ARCH-IPO-V03-S04",
+      "url": "https://www.lwl.org/westfaelische-geschichte/portal/Internet/finde/langDatensatz.php?urlID=2599&url_tabelle=tab_quelle",
+      "kind": "LWL_IPO_AK_CATALOG",
+      "access": "CATALOG_DESCRIPTION_READ",
+      "text_completely_collated": false,
+      "publication_rights_approved": false
+    },
+    {
+      "key": "ARCH-IPO-V03-S05",
+      "url": "https://www.lwl.org/westfaelische-geschichte/portal/Internet/finde/langDatensatz.php?urlID=2595&url_tabelle=tab_quelle",
+      "kind": "LWL_IMPERIAL_EXECUTION_CATALOG",
+      "access": "CATALOG_DESCRIPTION_READ",
+      "text_completely_collated": false,
+      "publication_rights_approved": false
+    },
+    {
+      "key": "ARCH-IPO-V03-S06",
+      "url": "https://www.lwl.org/westfaelische-geschichte/portal/Internet/finde/langDatensatz.php?urlID=1391&url_tabelle=tab_literatur",
+      "kind": "APW_OSCHMANN_BIBLIOGRAPHY",
+      "access": "BIBLIOGRAPHIC_RECORD_READ",
+      "text_completely_collated": false,
+      "publication_rights_approved": false
+    },
+    {
+      "key": "ARCH-IPO-V03-S07",
+      "url": "https://www.zhf.uni-bonn.de/publikationen/apw",
+      "kind": "APW_EDITORIAL_PROJECT",
+      "access": "ACADEMIC_PROJECT_DESCRIPTION_READ",
+      "text_completely_collated": false,
+      "publication_rights_approved": false
+    },
+    {
+      "key": "ARCH-IPO-V03-S08",
+      "url": "https://dbis.ur.de/ALL/resources/100282",
+      "kind": "APW_DIGITAL_COLLECTION_ACCESS_RECORD",
+      "access": "INSTITUTIONAL_COLLECTION_DESCRIPTION_READ",
+      "text_completely_collated": false,
+      "publication_rights_approved": false
+    },
+    {
+      "key": "ARCH-IPO-V03-S09",
+      "url": "https://dbis.uni-regensburg.de/DBK/resources/100260",
+      "kind": "APW_MULTILINGUAL_SUPPLEMENT_ACCESS_RECORD",
+      "access": "INSTITUTIONAL_COLLECTION_DESCRIPTION_READ",
+      "text_completely_collated": false,
+      "publication_rights_approved": false
+    },
+    {
+      "key": "ARCH-IPO-V03-S10",
+      "url": "https://www.ssoar.info/ssoar/bitstream/handle/document/79390/ssoar-2009-dingel_et_al-Das_Friedenspotenzial_von_Religion.pdf?sequence=1",
+      "kind": "ACADEMIC_SECONDARY_CITATION",
+      "access": "SEARCH_SNIPPET_PAGE_REFERENCE_PDF_DIRECT_BLOCKED",
+      "text_completely_collated": false,
+      "publication_rights_approved": false
+    },
+    {
+      "key": "ARCH-IPO-V03-S11",
+      "url": "https://advent.evangelisch.de/download/ekd_texte_103.pdf",
+      "kind": "ACADEMIC_CHURCH_REPORT_CITATION",
+      "access": "SEARCH_SNIPPET_PAGE_REFERENCE_PDF_DIRECT_BLOCKED",
+      "text_completely_collated": false,
+      "publication_rights_approved": false
+    },
+    {
+      "key": "ARCH-IPO-V03-S12",
+      "url": "https://oa-kommentar.de/de/kommentierungen/artikel-4",
+      "kind": "LEGAL_HISTORICAL_COMMENTARY",
+      "access": "OPEN_WEB_BODY_READ",
+      "text_completely_collated": false,
+      "publication_rights_approved": false
+    },
+    {
+      "key": "ARCH-IPO-V03-S13",
+      "url": "https://www.digitale-sammlungen.de/de/acta-pacis-westphalicae-apw-digital",
+      "kind": "APW_DIGITAL_LANDING_PAGE",
+      "access": "CATALOG_LANDING_JS_REQUIRES_CLIENT",
+      "text_completely_collated": false,
+      "publication_rights_approved": false
+    }
+  ],
+  "archive_reference_group": {
+    "referenced_fonds_or_group": "AT-OeStA/HHStA UR AUR 1648 X 24",
+    "granularity": "DATE_AND_SERIES_REFERENCE_SHARED_BY_SEPARATE_TREATY_RECORDS",
+    "institution": "Österreichisches Staatsarchiv, Haus-, Hof- und Staatsarchiv",
+    "found_via_source": "ARCH-IPO-V03-S01",
+    "is_unique_physical_copy_signature": false,
+    "assurance": "GOVERNMENT_CROSS_REFERENCE_NOT_DIRECT_AUSTRIAN_ITEM_READ",
+    "caveat": "Both IPO and IPM are referenced with this same date-level signature; never identify separate physical specimens solely by it."
+  },
+  "archival_item_leads": [
+    {
+      "key": "ARCH-IPO-ITEM-393786",
+      "registry_numeric_id": 393786,
+      "record_title": "Westfälischer Friede – Mainzer Exemplar (Tratado de Osnabrück)",
+      "treaty_key": "WAR-TREATY-IPO-1648",
+      "url": "https://www.archivinformationssystem.at/detail.aspx?ID=393786",
+      "source_keys": [
+        "ARCH-IPO-V03-S01",
+        "ARCH-IPO-V03-S02"
+      ],
+      "direct_record_read": false,
+      "original_image_found": false,
+      "original_text_read": false,
+      "connected_to_lwl_ipo_ak": "UNRESOLVED"
+    },
+    {
+      "key": "ARCH-IPM-ITEM-1252067",
+      "registry_numeric_id": 1252067,
+      "record_title": "Westfälischer Friede – Münsteraner Exemplar (Tratado de Münster)",
+      "treaty_key": "WAR-TREATY-IPM-1648",
+      "url": "https://www.archivinformationssystem.at/detail.aspx?ID=1252067",
+      "source_keys": [
+        "ARCH-IPO-V03-S01",
+        "ARCH-IPO-V03-S03"
+      ],
+      "direct_record_read": false,
+      "original_image_found": false,
+      "original_text_read": false,
+      "connected_to_lwl_ipo_ak": "NOT_APPLICABLE_DIFFERENT_TREATY"
+    }
+  ],
+  "lwl_registrations": [
+    {
+      "reference": "LWL:que2599",
+      "label": "IPO-AK",
+      "source_key": "ARCH-IPO-V03-S04",
+      "same_as_austrian_393786": "UNRESOLVED"
+    },
+    {
+      "reference": "LWL:que2595",
+      "label": "Imperial execution catalog",
+      "source_key": "ARCH-IPO-V03-S05",
+      "same_as_austrian_393786": "UNRESOLVED"
+    }
+  ],
+  "critical_edition": {
+    "key": "IPO-EDN-APW-1998",
+    "editor": "Antje Oschmann",
+    "year": 1998,
+    "pages_range": "95–170",
+    "series": "Acta Pacis Westphalicae III B 1/1",
+    "source_keys": [
+      "ARCH-IPO-V03-S06",
+      "ARCH-IPO-V03-S07"
+    ],
+    "primary_latin_page_directly_inspected": false
+  },
+  "apw_indirect_page_leads": [
+    {
+      "old_anchor_key": "IPO-LAT-V-34",
+      "article": "V",
+      "paragraph": "34",
+      "reported_printed_page": 121,
+      "reference_edition": "IPO-EDN-APW-1998",
+      "evidence_source_key": "ARCH-IPO-V03-S10",
+      "evidence_level": "SECONDARY_SEARCH_SNIPPET_ONLY_PDF_FETCH_BLOCKED",
+      "direct_page_inspected": false,
+      "verified_latin_words": false,
+      "editorial_status": "UNVERIFIED_CANDIDATE"
+    },
+    {
+      "old_anchor_key": "IPO-LAT-VII-1",
+      "article": "VII",
+      "paragraph": "1",
+      "reported_printed_page": 129,
+      "reference_edition": "IPO-EDN-APW-1998",
+      "evidence_source_key": "ARCH-IPO-V03-S11",
+      "evidence_level": "SECONDARY_SEARCH_SNIPPET_ONLY_PDF_FETCH_BLOCKED",
+      "direct_page_inspected": false,
+      "verified_latin_words": false,
+      "editorial_status": "UNVERIFIED_CANDIDATE"
+    }
+  ],
+  "unresolved": [
+    {
+      "key": "U01",
+      "status": "OPEN",
+      "text": "Direct Austrian State Archive detail pages ID 393786/1252067 not accessible in this research; no item-level archival fields beyond cross-reference confirmed."
+    },
+    {
+      "key": "U02",
+      "status": "OPEN",
+      "text": "Date-series 1648 X 24 is cited for both IPO and IPM; not unique physical copy signature."
+    },
+    {
+      "key": "U03",
+      "status": "OPEN",
+      "text": "IPO-AK LWL que2599, LWL que2595 and Austrian Mainzer Exemplar ID 393786 require object identity reconciliation."
+    },
+    {
+      "key": "U04",
+      "status": "OPEN",
+      "text": "APW Oschmann 1998 pp. 95-170 verified as bibliographic corpus only; no direct clause pages read."
+    },
+    {
+      "key": "U05",
+      "status": "OPEN",
+      "text": "V §34 page 121 and VII §1 page 129 are secondary search snippet citations, not first-hand page readings."
+    },
+    {
+      "key": "U06",
+      "status": "OPEN",
+      "text": "Original manuscripts/photos, edition variants, and image redistribution rights all unverified."
+    }
+  ]
+}
