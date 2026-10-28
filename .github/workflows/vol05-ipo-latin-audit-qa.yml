@@ -1,0 +1,25 @@
+name: VOL-05 IPO Latin Clause Audit QA
+on:
+  push:
+    branches:
+      - research/vol05-ipo-latin-audit-v01
+  pull_request:
+    branches:
+      - research/vol05-war-westphalia-v01
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  ipo-latin-source-qa:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Existing overview and war-Westphalia narrative QA
+        run: |
+          python3 scripts/validate_atlas_overview_v01.py
+          python3 scripts/validate_vol05_war_westphalia_v01.py
+          python3 scripts/test_vol05_war_westphalia_negative_v01.py
+      - name: Latin IPO source/wording corrections and failure-closed evidence checks
+        run: |
+          python3 scripts/validate_vol05_ipo_latin_audit_v01.py
+          python3 scripts/test_vol05_ipo_latin_audit_negative_v01.py
