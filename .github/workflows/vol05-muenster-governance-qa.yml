@@ -1,0 +1,25 @@
+name: VOL-05 Münster Civic Governance Guild and Franchise QA
+on:
+  push:
+    branches:
+      - research/vol05-muenster-guild-council-v12
+  pull_request:
+    branches:
+      - research/vol05-muenster-archive-crosswalk-v11
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  civic-original-vs-scholar-qa:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Existing overview and V1.1 archival research QA
+        run: |
+          python3 scripts/validate_atlas_overview_v01.py
+          python3 scripts/validate_vol05_muenster_archive_crosswalk_v11.py
+          python3 scripts/test_vol05_muenster_archive_crosswalk_negative_v11.py
+      - name: V1.2 distinct 1657/1661 history, guild supervision and conditional 1681 elections
+        run: |
+          python3 scripts/validate_vol05_muenster_governance_v12.py
+          python3 scripts/test_vol05_muenster_governance_negative_v12.py
