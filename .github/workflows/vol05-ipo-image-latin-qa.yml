@@ -1,0 +1,25 @@
+name: VOL-05 IPO Image Access and Latin Text Research QA
+on:
+  push:
+    branches:
+      - research/vol05-ipo-image-text-audit-v05
+  pull_request:
+    branches:
+      - research/vol05-ipo-austria-direct-catalog-v04
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  image-text-evidence:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Existing V0.4 Austrian original catalog checks
+        run: |
+          python3 scripts/validate_atlas_overview_v01.py
+          python3 scripts/validate_vol05_ipo_austria_direct_catalog_v04.py
+          python3 scripts/test_vol05_ipo_austria_catalog_negative_v04.py
+      - name: IPO web Latin clause, manuscript photo and critical edition access checks
+        run: |
+          python3 scripts/validate_vol05_ipo_image_latin_v05.py
+          python3 scripts/test_vol05_ipo_image_latin_negative_v05.py
