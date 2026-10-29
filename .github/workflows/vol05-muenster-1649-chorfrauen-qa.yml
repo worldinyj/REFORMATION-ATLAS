@@ -1,0 +1,25 @@
+name: VOL05 Münster 1649 Canonesses and Guild Municipal Rights QA
+on:
+  push:
+    branches:
+      - research/vol05-1649-chorfrauen-guild-v18
+  pull_request:
+    branches:
+      - research/vol05-kramergilde-named-admissions-v17
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  council-guild-rights-and-original-folios:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Overview and V1.7 historical person source regression
+        run: |
+          python3 scripts/validate_atlas_overview_v01.py
+          python3 scripts/validate_vol05_kramergilde_three_people_v17.py
+          python3 scripts/test_vol05_kramergilde_three_people_negative_v17.py
+      - name: V1.8 actual 1649 council and guild source locators, documentary evidence boundaries
+        run: |
+          python3 scripts/validate_vol05_muenster_1649_chorfrauen_v18.py
+          python3 scripts/test_vol05_muenster_1649_chorfrauen_negative_v18.py
