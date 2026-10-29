@@ -1,0 +1,25 @@
+name: VOL-05 Münster 1661 Guild Rule and 1681 Election Original Research QA
+on:
+  push:
+    branches:
+      - research/vol05-muenster-guild-regulament-v13
+  pull_request:
+    branches:
+      - research/vol05-muenster-guild-council-v12
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  guild-and-conditional-elections-evidence:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Previous overview and V1.2 civic rights QA
+        run: |
+          python3 scripts/validate_atlas_overview_v01.py
+          python3 scripts/validate_vol05_muenster_governance_v12.py
+          python3 scripts/test_vol05_muenster_governance_negative_v12.py
+      - name: V1.3 dated guild regulation, election folios, negative tests and release gates
+        run: |
+          python3 scripts/validate_vol05_muenster_guild_regulament_v13.py
+          python3 scripts/test_vol05_muenster_guild_regulament_negative_v13.py

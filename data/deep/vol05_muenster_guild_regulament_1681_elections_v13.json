@@ -1,0 +1,282 @@
+{
+  "schema_version": "1.3",
+  "kind": "VOL05_MUENSTER_GUILD_1661_REGULAMENT_AND_1681_ELECTION_SOURCES",
+  "status": "DRAFT_RESEARCH_NOT_PUBLIC",
+  "date": "2026-10-29",
+  "volume_id": "VOL-05",
+  "parent_registry": "data/deep/vol05_muenster_1648_1681_governance_v12.json",
+  "canonical_event_id": "OV-E-024",
+  "canonical_document_id": "OV-D-015",
+  "new_canonical_ids": 0,
+  "main_modified": false,
+  "ai_studio_modified": false,
+  "release_gate": {
+    "historian_signed_off": false,
+    "original_1661_guild_regulament_read": false,
+    "original_1681_council_edict_read": false,
+    "modern_1926_Bischof_original_read": false,
+    "post_1648_individual_v35_case_verified": false,
+    "artwork_rights_cleared": false,
+    "can_publish": false
+  },
+  "sources": [
+    {
+      "key": "V13-S01",
+      "url": "https://forhistiur.net/1999-09-deter/?l=de",
+      "kind": "DETER_1999_FULL_HTML_LEGAL_HISTORY",
+      "access_level": "FULL_SCHOLARLY_ARTICLE_HTML_READ_NOT_ORIGINAL_NORM",
+      "claim_scope": "1661-08-22 trade masters regulation, 1690 first-instance guild disputes, 1536/1553 comparisons, 1731/32 later law",
+      "primary_1661_or_1681_manuscript_read": false,
+      "cleared_for_image_reuse": false,
+      "approved_public_content": false
+    },
+    {
+      "key": "V13-S02",
+      "url": "https://www.lwl.org/westfaelische-geschichte/txt/normal/txt1213.pdf",
+      "kind": "WEIDNER_2000_CHAPTER2_ACADEMIC_PDF",
+      "access_level": "SEARCHABLE_PDF_TEXT_READ_SCREENSHOT_CACHE_MISS",
+      "claim_scope": "1661 MLA 413–4 draft; 1681 election 10 Oct in council election book AA II 0 fol96r; 1661 interruption last 18 Jan fol92v-93r",
+      "primary_1661_or_1681_manuscript_read": false,
+      "cleared_for_image_reuse": false,
+      "approved_public_content": false
+    },
+    {
+      "key": "V13-S03",
+      "url": "https://www.stadt-muenster.de/museum/museum/33-kabinette/1-obergeschoss/13-stadt-des-adels-und-der-kloester",
+      "kind": "MUENSTER_CITY_MUSEUM_EXHIBIT",
+      "access_level": "FULL_PUBLIC_MUSEUM_PAGE_READ",
+      "claim_scope": "1681 prince bishop Ferdinand allowed city council elections, judge oversight and prince-bishop officials continued",
+      "primary_1661_or_1681_manuscript_read": false,
+      "cleared_for_image_reuse": false,
+      "approved_public_content": false
+    },
+    {
+      "key": "V13-S04",
+      "url": "https://www.stadt-muenster.de/archiv/archivalien-digital/ratsprotokolle-1564-1802",
+      "kind": "MUENSTER_CITY_ARCHIVE_FINDING_AID",
+      "access_level": "OFFICIAL_ARCHIVE_SERIES_GUIDE_NOT_INDIVIDUAL_FOLIO",
+      "claim_scope": "A II Nr20 volumes and missing 1648; A II Nr23 1660-75 provisional records",
+      "primary_1661_or_1681_manuscript_read": false,
+      "cleared_for_image_reuse": false,
+      "approved_public_content": false
+    },
+    {
+      "key": "V13-S05",
+      "url": "https://www.lwl.org/westfaelische-geschichte/portal/Internet/urkunden_datenbank/suche/regest_detail.php?regest=112845&url_history_back=2&url_zaehler_blaettern=9",
+      "kind": "LWL_REGEST_1661_JUDGE_NORM_COPY",
+      "access_level": "18TH_CENTURY_COPY_REGEST_ONLY",
+      "claim_scope": "1661-08-13 judge regulation, copy Nr 1626, non-Catholic reporting",
+      "primary_1661_or_1681_manuscript_read": false,
+      "cleared_for_image_reuse": false,
+      "approved_public_content": false
+    },
+    {
+      "key": "V13-S06",
+      "url": "https://www.lwl.org/westfaelische-geschichte/portal/Internet/urkunden_datenbank/suche/regest_detail.php?regest=112846&url_history_back=1&url_zaehler_blaettern=9",
+      "kind": "LWL_REGEST_1661_COUNCIL_NORM_COPY",
+      "access_level": "18TH_CENTURY_COPY_REGEST_ONLY",
+      "claim_scope": "1661-08-18 municipal instructions, copy Nr 1627, hospital/death officers",
+      "primary_1661_or_1681_manuscript_read": false,
+      "cleared_for_image_reuse": false,
+      "approved_public_content": false
+    },
+    {
+      "key": "V13-S07",
+      "url": "https://www.lwl.org/westfaelische-geschichte/portal/Internet/finde/langDatensatz.php?urlID=1213&url_tabelle=tab_texte",
+      "kind": "LWL_SCHOLARLY_BOOK_BIBLIOGRAPHY",
+      "access_level": "PUBLIC_BOOK_CATALOG_AND_PAGE_RANGE",
+      "claim_scope": "Weidner 2000 chapter 2 pp 34-315 (printed pagination)",
+      "primary_1661_or_1681_manuscript_read": false,
+      "cleared_for_image_reuse": false,
+      "approved_public_content": false
+    },
+    {
+      "key": "V13-S08",
+      "url": "https://www.lwl.org/westfaelische-geschichte/txt/beitrwff-9745.pdf",
+      "kind": "GIMPEL_1982_CITIZENSHIP_STUDY",
+      "access_level": "SEARCH_INDEX_EXCERPT_NOT_FULL_PDF_FOLIOS",
+      "claim_scope": "1677-05-15 Greiteke Brinkmans citizen letter previously identified; original not inspected",
+      "primary_1661_or_1681_manuscript_read": false,
+      "cleared_for_image_reuse": false,
+      "approved_public_content": false
+    }
+  ],
+  "chronology": [
+    {
+      "key": "VG13-E1536",
+      "date": "1536",
+      "claim": "1536 guild political exclusion after Anabaptist defeat",
+      "classification": "GUILD_POLITICAL_HISTORY",
+      "source_key": "V13-S01",
+      "actual_dated_primary_text_read": false
+    },
+    {
+      "key": "VG13-E1553",
+      "date": "1553",
+      "claim": "1553 guild collective privileges and representation re-established",
+      "classification": "GUILD_POLITICAL_HISTORY",
+      "source_key": "V13-S01",
+      "actual_dated_primary_text_read": false
+    },
+    {
+      "key": "VG13-E1661C",
+      "date": "1661-01-18",
+      "claim": "1661 last council election entry before long interruption, fol92v/93r",
+      "classification": "COUNCIL_ELECTION_BOOK_CITED_FOLIO_NOT_READ",
+      "source_key": "V13-S02",
+      "actual_dated_primary_text_read": false
+    },
+    {
+      "key": "VG13-E1661R",
+      "date": "1661-08-22",
+      "claim": "Bishop Christoph Bernhard von Galen issues regulation for Alder and Meisterleute",
+      "classification": "GUILD_REGULAMENT_REPORTED_IN_SCHOLARLY_FULLTEXT",
+      "source_key": "V13-S01",
+      "actual_dated_primary_text_read": false
+    },
+    {
+      "key": "VG13-E1681",
+      "date": "1681-10-10",
+      "claim": "Prince Bishop Ferdinand restores council election privilege conditionally, entered Oct13",
+      "classification": "CONDITIONAL_COUNCIL_ELECTION_CONCESSION",
+      "source_key": "V13-S02",
+      "actual_dated_primary_text_read": false
+    },
+    {
+      "key": "VG13-E1690",
+      "date": "1690-08-30",
+      "claim": "Municipal magistrate granted first-instance jurisdiction over contested crafts disputes",
+      "classification": "SUBSEQUENT_GUILD_LEGAL_INSTITUTION",
+      "source_key": "V13-S01",
+      "actual_dated_primary_text_read": false
+    },
+    {
+      "key": "VG13-E1731",
+      "date": "1731-08-14",
+      "claim": "Imperial trade guild Reichszunftordnung legal reform",
+      "classification": "EMPIRE_CRAFT_POLICY_LATER_HISTORY",
+      "source_key": "V13-S01",
+      "actual_dated_primary_text_read": false
+    },
+    {
+      "key": "VG13-E1732",
+      "date": "1732-01-04",
+      "claim": "Münster territory publishes implementation of 1731 imperial guild law",
+      "classification": "TERRITORIAL_IMPLEMENTATION_NOT_1648_TREATY",
+      "source_key": "V13-S01",
+      "actual_dated_primary_text_read": false
+    }
+  ],
+  "primary_witness_leads": [
+    {
+      "key": "VG13-W1661G",
+      "event_key": "VG13-E1661R",
+      "act_date": "1661-08-22",
+      "label": "Regulament, wonach sich Alder- und Meisterleute der Stat Münster zu richten",
+      "provenance": "Deter 1999 section VI quoting Franz Bischof 1926 p22",
+      "actual_17th_century_archive_shelfmark": null,
+      "secondhand_original_excerpt": true,
+      "original_firsthand_transcription": false,
+      "full_regulation_read": false,
+      "source_key": "V13-S01"
+    },
+    {
+      "key": "VG13-W1661CR",
+      "event_key": "VG13-E1661C",
+      "act_date": "1661-01-18",
+      "label": "Münster Ratswahlbuch AA II 0, fol. 92v/93r",
+      "provenance": "Weidner 2000 chapter 2 p135 n81",
+      "actual_17th_century_archive_shelfmark": "AA II 0, fol. 92v/93r (scholar's citation, current item identifier not independently confirmed)",
+      "secondhand_original_excerpt": false,
+      "original_firsthand_transcription": false,
+      "full_regulation_read": false,
+      "source_key": "V13-S02"
+    },
+    {
+      "key": "VG13-W1681E",
+      "event_key": "VG13-E1681",
+      "act_date": "1681-10-10",
+      "label": "Münster Ratswahledikt in Ratswahlbuch AA II 0, fol. 96r",
+      "provenance": "Weidner 2000 chapter 2 p135 n81, entry in council minutes 1681-10-13 n77",
+      "actual_17th_century_archive_shelfmark": "AA II 0, fol. 96r (scholar's citation, current item identifier not independently confirmed)",
+      "secondhand_original_excerpt": false,
+      "original_firsthand_transcription": false,
+      "full_regulation_read": false,
+      "source_key": "V13-S02"
+    },
+    {
+      "key": "VG13-W1661D",
+      "event_key": "VG13-E1661R",
+      "act_date": "1661-08-18",
+      "label": "MLA 413–4 (Konzept) and MLA 413–5 (regulation) distinct from guild act dated 1661-08-22",
+      "provenance": "Weidner 2000 chapter 2 p132 n62; do not confuse council regulation with guild regulation",
+      "actual_17th_century_archive_shelfmark": "MLA 413–4 (cited draft only)",
+      "secondhand_original_excerpt": false,
+      "original_firsthand_transcription": false,
+      "full_regulation_read": false,
+      "source_key": "V13-S02"
+    }
+  ],
+  "legal_effects": [
+    {
+      "key": "VG13-G-NOPOLITICS",
+      "instrument": "1661-08-22 guild regulation",
+      "norm": "Craft masters prohibited from involvement in noncraft city political matters; political function of Gesamtgilde curtailed",
+      "source_key": "V13-S01",
+      "direct_original_confirmation": false
+    },
+    {
+      "key": "VG13-G-PERMISSION",
+      "instrument": "1661-08-22 guild regulation",
+      "norm": "Guild collective assemblies subject to prince-bishop permission",
+      "source_key": "V13-S01",
+      "direct_original_confirmation": false
+    },
+    {
+      "key": "VG13-G-OATH",
+      "instrument": "1661-08-22 guild regulation",
+      "norm": "Guild elders and master leaders require princely appointment confirmation and oath",
+      "source_key": "V13-S01",
+      "direct_original_confirmation": false
+    },
+    {
+      "key": "VG13-G-BOOKS",
+      "instrument": "1661-08-22 guild regulation",
+      "norm": "Guild books and statutes delivered to town judge; some guildhouses seized",
+      "source_key": "V13-S01",
+      "direct_original_confirmation": false
+    },
+    {
+      "key": "VG13-G-SURVIVAL",
+      "instrument": "1690-08-30 later judicial reform",
+      "norm": "City magistrate first-instance crafts dispute authority enabled guild influence despite loss of formal corporate political status",
+      "source_key": "V13-S01",
+      "direct_original_confirmation": false
+    },
+    {
+      "key": "VG13-ELECT-REVOCABLE",
+      "instrument": "1681-10-10 council election concession",
+      "norm": "Prince allowed election, reserved confirmation, loyalty oath and revocation; 1681 22 councilors and 1682 14 according to Weidner",
+      "source_key": "V13-S02",
+      "direct_original_confirmation": false
+    }
+  ],
+  "independent_check": {
+    "key": "VG13-INDEPENDENT-MUSEUM",
+    "source_key": "V13-S03",
+    "confirm_1681_council_elections": true,
+    "confirm_continued_princely_supervision": true,
+    "confirm_exact_1681_folio": false,
+    "confirm_full_1661_guild_law": false
+  },
+  "historical_legal_boundary": "Political control of corporate guilds after 1661 and the conditional municipal electoral concession in 1681 do not themselves prove any individual's confessional exclusion under IPO Article V §35.",
+  "unresolved": [
+    "1661-08-22 guild rule is quoted by Deter 1999 via Bischof 1926 p22; neither complete original 1661 text nor Bischof 1926 full volume independently reviewed.",
+    "No 1661-08-22 original guild regulamant file call number located; do not confuse with 1661-08-18 MLA 413–4 municipal regulations draft.",
+    "1681 AA II 0 fol96r council election edict and 1661 fol92v/93r election entry are cited by Weidner but physical folio images not inspected.",
+    "1681 prince-bishop formal supervision persisted even though Weidner reports judge's chairmanship of council discontinued; avoid treating the two statements as contradiction.",
+    "1690 craft dispute ruling is legal-historical secondary summary, not proof of an actual individual guild membership lawsuit.",
+    "Independent evidence for individual IPO V §35 guild admission cases remains unverified.",
+    "Relevant guild images and reproductions have no new license approval. Public manuscript/copyright gates remain false."
+  ]
+}
