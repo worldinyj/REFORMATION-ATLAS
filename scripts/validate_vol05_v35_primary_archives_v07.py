@@ -70,7 +70,7 @@ def validate(data=None):
         if not case["statement_ko"] or not case["context_article"] or not case["evidence_level"]:
             reject("history assertion without evidence class")
     augs=byid["VA7-F01-SERVATIUS"]
-    if augs["date"]!="1649" or augs["location"]!="Augsburg" or "IPO V §3" not in augs["context_article"]:
+    if augs["date"]!="1649" or augs["location"]!="Augsburg" or augs["context_article"]!="IPO V §3 and city charity institution":
         reject("1649 hospital management misdated or turned into V35 case")
     admin=byid["VA7-F02-AUGS-ARCHIVE"]
     if "1712" not in admin["statement_ko"] or "1757" not in admin["statement_ko"]:
