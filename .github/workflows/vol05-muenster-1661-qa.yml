@@ -1,0 +1,25 @@
+name: VOL-05 Münster 1661 Original vs Later Copy QA
+on:
+  push:
+    branches:
+      - research/vol05-muenster-1661-primary-documents-v08
+  pull_request:
+    branches:
+      - research/vol05-v35-primary-archive-leads-v07
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  documentary-provenance:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Prior canonical and source-regional QA
+        run: |
+          python3 scripts/validate_atlas_overview_v01.py
+          python3 scripts/validate_vol05_v35_primary_archives_v07.py
+          python3 scripts/test_vol05_v35_primary_archives_negative_v07.py
+      - name: Münster original parchment and two later-copy regests integrity
+        run: |
+          python3 scripts/validate_vol05_muenster_1661_v08.py
+          python3 scripts/test_vol05_muenster_1661_negative_v08.py
