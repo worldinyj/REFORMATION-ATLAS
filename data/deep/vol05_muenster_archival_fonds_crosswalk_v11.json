@@ -1,0 +1,305 @@
+{
+  "schema_version": "1.1",
+  "kind": "VOL05_MUENSTER_MLA_AND_1677_LETTER_CROSSWALK",
+  "status": "DRAFT_RESEARCH_NOT_PUBLIC",
+  "as_of": "2026-10-29",
+  "volume_id": "VOL-05",
+  "canonical_event_id": "OV-E-024",
+  "canonical_document_id": "OV-D-015",
+  "parent_registry": "data/deep/vol05_muenster_citizenship_1677_v10.json",
+  "new_canonical_ids": 0,
+  "main_modified": false,
+  "overview_modified": false,
+  "ai_studio_modified": false,
+  "publication_gate": {
+    "historian_approved": false,
+    "MLA_original_folio_read": false,
+    "Urkunden_1626_copy_read": false,
+    "original_1677_letter_located_currently": false,
+    "original_1677_letter_read": false,
+    "V35_individual_case_proven": false,
+    "images_rights_cleared": false,
+    "can_publish": false
+  },
+  "sources": [
+    {
+      "id": "M11-S01",
+      "url": "https://www.lwl.org/westfaelische-geschichte/txt/normal/txt1212.pdf",
+      "kind": "WEIDNER_2000_INTRO",
+      "access": "PDF_WEB_TEXT_READ_SCREENSHOT_FAILED",
+      "scope": "Münstersche Landesarchiv (MLA) expanded",
+      "original_physical_document_read": false,
+      "complete_PDF_visual_verified": false,
+      "redistribution_rights_cleared": false,
+      "public_approved": false
+    },
+    {
+      "id": "M11-S02",
+      "url": "https://www.lwl.org/westfaelische-geschichte/txt/normal/txt1213.pdf",
+      "kind": "WEIDNER_2000_RESEARCH_NOTES",
+      "access": "PDF_WEB_TEXT_READ_SCREENSHOT_FAILED",
+      "scope": "MLA 413–5 fol.126r–128r in p.131 n.60; AA II23 in p.130 n.57",
+      "original_physical_document_read": false,
+      "complete_PDF_visual_verified": false,
+      "redistribution_rights_cleared": false,
+      "public_approved": false
+    },
+    {
+      "id": "M11-S03",
+      "url": "https://www.lwl.org/westfaelische-geschichte/txt/normal/txt230.pdf",
+      "kind": "WEIDNER_INDEX",
+      "access": "PDF_SEARCH_EXCERPT_ONLY",
+      "scope": "MLA 413–5 indexed archival source",
+      "original_physical_document_read": false,
+      "complete_PDF_visual_verified": false,
+      "redistribution_rights_cleared": false,
+      "public_approved": false
+    },
+    {
+      "id": "M11-S04",
+      "url": "https://rep.adw-goe.de/bitstream/handle/11858/00-001S-0000-0003-16FE-9/NF%2037%2C1%20Kohl%20M%C3%BCnster.pdf?isAllowed=y&sequence=1",
+      "kind": "GERMANIA_SACRA_REFERENCE",
+      "access": "PDF_SEARCH_EXCERPT_ONLY",
+      "scope": "Fürstentum Münster Landesarchiv Bestand im StAM",
+      "original_physical_document_read": false,
+      "complete_PDF_visual_verified": false,
+      "redistribution_rights_cleared": false,
+      "public_approved": false
+    },
+    {
+      "id": "M11-S05",
+      "url": "https://www.lwl.org/westfaelische-geschichte/txt/beitrwff-9745.pdf",
+      "kind": "GIMPEL_1982_CITIZEN_LETTER",
+      "access": "SEARCH_EXCERPTS_BIG_PDF_UNAVAILABLE",
+      "scope": "1677 letter and note 16 StdAM Stiftungsarchiv Armenhaus Zumbusch unverzeichnet",
+      "original_physical_document_read": false,
+      "complete_PDF_visual_verified": false,
+      "redistribution_rights_cleared": false,
+      "public_approved": false
+    },
+    {
+      "id": "M11-S06",
+      "url": "https://www.deutsche-digitale-bibliothek.de/item/JWIHWII47UTT2DYXPIH7OFDP7NWHQV7X",
+      "kind": "DDB_MUENSTER_MODERN_FONDS",
+      "access": "PUBLIC_RECORD_READ",
+      "scope": "C-Arm Zumbusch Akten Nr.28 accounts 1661–1670, NOT letter",
+      "original_physical_document_read": false,
+      "complete_PDF_visual_verified": false,
+      "redistribution_rights_cleared": false,
+      "public_approved": false
+    },
+    {
+      "id": "M11-S07",
+      "url": "https://www.deutsche-digitale-bibliothek.de/item/KL76IKT27QSYF2HVMQUBBRE3MSYTEUD3",
+      "kind": "DDB_MUENSTER_MODERN_FONDS",
+      "access": "PUBLIC_RECORD_READ",
+      "scope": "C-Arm Zumbusch Urk. Nr.37 year 1412, NOT letter",
+      "original_physical_document_read": false,
+      "complete_PDF_visual_verified": false,
+      "redistribution_rights_cleared": false,
+      "public_approved": false
+    },
+    {
+      "id": "M11-S08",
+      "url": "https://www.stadt-muenster.de/ms/armut/4_1_5.html",
+      "kind": "CITY_FOUNDATION_HISTORY",
+      "access": "PUBLIC_OFFICIAL_STUDY_READ",
+      "scope": "Zumbusch-Üding founded 1337, located St Martini",
+      "original_physical_document_read": false,
+      "complete_PDF_visual_verified": false,
+      "redistribution_rights_cleared": false,
+      "public_approved": false
+    },
+    {
+      "id": "M11-S09",
+      "url": "https://www.stadt-muenster.de/ms/armut/quelle4.html",
+      "kind": "CITY_IMAGE_PROVENANCE",
+      "access": "PUBLIC_METADATA_READ",
+      "scope": "1930 Zumbusch building visual NOT 1677 original",
+      "original_physical_document_read": false,
+      "complete_PDF_visual_verified": false,
+      "redistribution_rights_cleared": false,
+      "public_approved": false
+    },
+    {
+      "id": "M11-S10",
+      "url": "https://www.lwl.org/westfaelische-geschichte/portal/Internet/urkunden_datenbank/suche/regest_detail.php?regest=112845&url_history_back=2&url_zaehler_blaettern=9",
+      "kind": "LWL_18TH_C_COPY_REGEST",
+      "access": "HTML_REGEST_READ",
+      "scope": "Urkunden Nr.1626 1661-08-13 legal rules, not original",
+      "original_physical_document_read": false,
+      "complete_PDF_visual_verified": false,
+      "redistribution_rights_cleared": false,
+      "public_approved": false
+    },
+    {
+      "id": "M11-S11",
+      "url": "https://www.stadt-muenster.de/archiv/archivalien-digital/ratsprotokolle-1564-1802",
+      "kind": "CITY_COUNCIL_HOLDINGS",
+      "access": "PUBLIC_HOLDINGS_GUIDE_READ",
+      "scope": "AA II Nr23 1661-08-19 minutes",
+      "original_physical_document_read": false,
+      "complete_PDF_visual_verified": false,
+      "redistribution_rights_cleared": false,
+      "public_approved": false
+    },
+    {
+      "id": "M11-S12",
+      "url": "https://www.lwl.org/westfaelische-geschichte/portal/Internet/finde/langDatensatz.php?auswahl=1980-1989&sortierung=jahr&urlID=51&url_history_back=1&url_tabelle=tab_periodika&url_zaehler_blaettern=",
+      "kind": "GIMPEL_JOURNAL_CONTENTS",
+      "access": "SEARCH_CATALOG_ONLY",
+      "scope": "1982 journal bibliographic index",
+      "original_physical_document_read": false,
+      "complete_PDF_visual_verified": false,
+      "redistribution_rights_cleared": false,
+      "public_approved": false
+    }
+  ],
+  "archive_links": [
+    {
+      "key": "M11-A-MLA",
+      "label": "MLA",
+      "expanded": "Münstersches Landesarchiv",
+      "historical_current_context": "Fürstentum Münster Landesarchiv, old StAM; now regional NRW archive, current item numbering needs checking",
+      "source_ids": [
+        "M11-S01",
+        "M11-S04"
+      ],
+      "abbreviation_resolved": true,
+      "original_folio_read": false
+    },
+    {
+      "key": "M11-A-4135",
+      "label": "MLA 413–5 fol. 126r–128r",
+      "document_topic": "1661 town-judge instruction",
+      "source_ids": [
+        "M11-S02",
+        "M11-S03"
+      ],
+      "witness_directly_read": false,
+      "identical_to_LWL1626": "UNRESOLVED"
+    },
+    {
+      "key": "M11-A-ZUMB-HISTORIC",
+      "label": "StdAM, Stiftungsarchiv Armenhaus Zumbusch unverzeichnet",
+      "year_referred": 1982,
+      "document_topic": "1677 Greiteke Brinkmans Bürgerbrief",
+      "source_ids": [
+        "M11-S05"
+      ],
+      "old_catalog_state": "UNLISTED_AT_PUBLICATION",
+      "current_individual_shelfmark": null,
+      "original_relocated_or_recataloged": "UNKNOWN"
+    },
+    {
+      "key": "M11-A-ZUMB-MODERN",
+      "label": "C-Arm Zumbusch / Armenhaus Zumbusch-Üding",
+      "archive": "Stadtarchiv Münster",
+      "source_ids": [
+        "M11-S06",
+        "M11-S07",
+        "M11-S08"
+      ],
+      "examples": [
+        {
+          "key": "Akten Nr. 28",
+          "date": "1661–1670",
+          "description": "Rechnungsregister",
+          "is_1677_letter": false
+        },
+        {
+          "key": "Urk. Nr. 37",
+          "date": "1412",
+          "description": "Rentenverkauf",
+          "is_1677_letter": false
+        }
+      ],
+      "specific_1677_letter_in_modern_catalog": "NOT_FOUND"
+    }
+  ],
+  "letter_metadata": {
+    "person": "Greiteke Brinkmans",
+    "alternate_name": "Grete Brinkmanns",
+    "date": "1677-05-15",
+    "printed_scholar": "Klaus Gimpel 1982",
+    "reported_material": "two folio-size paper leaves, written on one side",
+    "reported_seal": "applied paper seal, Christoph Bernhard von Galen arms before 1661 Corvey augmentation",
+    "reported_court_clerk": "Frantz Bernhard Oistendorpf",
+    "location_1982": "StdAM Stiftungsarchiv Armenhaus Zumbusch unverzeichnet",
+    "current_shelfmark": null,
+    "source_ids": [
+      "M11-S05"
+    ],
+    "secondary_claim_only": true,
+    "physical_original_read": false,
+    "manuscript_page_image_verified": false,
+    "unlawful_citizenship_denial_established": false,
+    "IPO_V35_cited": false
+  },
+  "crosswalk_tests": [
+    {
+      "from": "MLA 413–5 fol. 126r–128r",
+      "to": "Verein Urkunden Nr. 1626",
+      "source_ids": [
+        "M11-S02",
+        "M11-S10"
+      ],
+      "same_physical_copy": "UNRESOLVED",
+      "verbatim_collation": false
+    },
+    {
+      "from": "1982 Zumbusch unlisted letter",
+      "to": "modern C-Arm Zumbusch collection",
+      "source_ids": [
+        "M11-S05",
+        "M11-S06",
+        "M11-S07"
+      ],
+      "fonds_name_related": true,
+      "individual_letter_item_found": false
+    },
+    {
+      "from": "AA II Nr23 1661-08-19 council record",
+      "to": "MLA 413–5 judge regulation",
+      "source_ids": [
+        "M11-S02",
+        "M11-S11"
+      ],
+      "same_physical_record": false,
+      "primary_council_folio_read": false
+    }
+  ],
+  "next_target": [
+    {
+      "key": "M11-F-LETTER",
+      "institution": "Stadtarchiv Münster",
+      "target": "C-Arm Zumbusch Bürgerbrief Greiteke Brinkmans 1677-05-15, Gimpel 1982 note 16",
+      "ask": "Current identifier and existence after 1982; access to photographed letter / seals; rights",
+      "found": false
+    },
+    {
+      "key": "M11-F-MLA",
+      "institution": "Landesarchiv NRW Abteilung Westfalen",
+      "target": "Münstersches Landesarchiv MLA 413–5 fol.126r–128r",
+      "ask": "Current archival locator and text; relationship to Verein Urkunden Nr.1626",
+      "found": false
+    },
+    {
+      "key": "M11-F-COUNCIL",
+      "institution": "Stadtarchiv Münster",
+      "target": "AA II Nr23 RP 19.08.1661 (Vorform)",
+      "ask": "Identify scan and council membership appointment details",
+      "found": false
+    }
+  ],
+  "editorial_holds": [
+    "MLA acronym is resolved by Weidner and Germania Sacra but the physical 413–5 dossier was not read.",
+    "Historical 1982 note 'unverzeichnet' means no then-list number, not present-day loss or proof of modern new signature.",
+    "Modern C-Arm Zumbusch listing establishes fonds exists, but neither Akten 28 nor Urk 37 is the 1677 citizen letter.",
+    "The 1661 town-judge copy in Verein Urkunden Nr1626 must not automatically be merged with MLA 413–5.",
+    "Gimpel's descriptions of the 1677 letter paper, court-clerk signature and seal are printed secondary scholarship, not firsthand original inspection.",
+    "1677 approved citizen Greiteke is not a verified example of Protestant exclusion or an IPO Article V §35 judicial enforcement.",
+    "Digitized catalog images/modern historical photos are not cleared for redistribution here.",
+    "Web screenshot requests failed; the complete Gimpel article could not be accessed with the web reader, so confirm footnote in physical or accessible PDF if future access permits."
+  ]
+}
