@@ -1,0 +1,294 @@
+{
+  "schema_version": "1.0",
+  "kind": "VOL05_MUENSTER_1661_RULE_AND_1677_CITIZENSHIP_RECEPTION",
+  "status": "DRAFT_RESEARCH_NOT_PUBLIC",
+  "date": "2026-10-29",
+  "volume_id": "VOL-05",
+  "canonical_event_id": "OV-E-024",
+  "canonical_document_id": "OV-D-015",
+  "parent_research": "data/deep/vol05_muenster_reichshofrat_case_inventory_v09.json",
+  "new_canonical_ids": 0,
+  "overview_changed": false,
+  "ai_studio_changed": false,
+  "publication_gate": {
+    "human_scholar_approved": false,
+    "copy_1626_primary_transcribed": false,
+    "archival_MLA_413_5_identified": false,
+    "original_1677_citizen_letter_read": false,
+    "explicit_V35_case_adjudicated": false,
+    "contemporary_art_rights_verified": false,
+    "can_publish": false
+  },
+  "sources": [
+    {
+      "key": "MUE10-S01",
+      "url": "https://www.lwl.org/westfaelische-geschichte/portal/Internet/finde/langDatensatz.php?urlID=51&url_tabelle=tab_periodika",
+      "type": "PERIODICAL_BIBLIOGRAPHIC_INDEX",
+      "access": "HTML_BIBLIOGRAPHY_READ",
+      "scope": "Klaus Gimpel, Neubürger der Stadt Münster 1661–1815, Beiträge zur Westfälischen Familienforschung 40 (1982), pp. 199–256",
+      "primary_17th_century_object_read": false,
+      "full_secondary_pdf_verified": false,
+      "media_reuse_cleared": false,
+      "public_approved": false
+    },
+    {
+      "key": "MUE10-S02",
+      "url": "https://www.lwl.org/westfaelische-geschichte/txt/beitrwff-9745.pdf",
+      "type": "PUBLISHED_1982_GIMPEL_ARTICLE_WITH_TRANSCRIPTION",
+      "access": "INDEXED_PDF_TEXT_EXCERPTS_ONLY_DOWNLOAD_TOO_LARGE",
+      "scope": "1677 Greiteke Brinkmans Bürgerbrief discussed and short specimen transcribed; complete PDF not inspected",
+      "primary_17th_century_object_read": false,
+      "full_secondary_pdf_verified": false,
+      "media_reuse_cleared": false,
+      "public_approved": false
+    },
+    {
+      "key": "MUE10-S03",
+      "url": "https://www.lwl.org/westfaelische-geschichte/txt/normal/txt1213.pdf",
+      "type": "MARCUS_WEIDNER_2000_ACADEMIC_MONOGRAPH",
+      "access": "PDF_MACHINE_TEXT_P95_96_98_READ_SCREENSHOT_FAILED",
+      "scope": "1661-08-19 city council replacement; MLA 413–5 fol.126r–128r town judge instruction secondary citation",
+      "primary_17th_century_object_read": false,
+      "full_secondary_pdf_verified": false,
+      "media_reuse_cleared": false,
+      "public_approved": false
+    },
+    {
+      "key": "MUE10-S04",
+      "url": "https://www.lwl.org/westfaelische-geschichte/portal/Internet/urkunden_datenbank/suche/regest_detail.php?regest=112845&url_history_back=2&url_zaehler_blaettern=9",
+      "type": "DWUD_REGEST_18TH_C_COPY",
+      "access": "FULL_HTML_REGEST_READ_COPY_NOT_READ",
+      "scope": "1661-08-13 city judge instruction, report non-Catholic inhabitants, Verein Urkunden 1626",
+      "primary_17th_century_object_read": false,
+      "full_secondary_pdf_verified": false,
+      "media_reuse_cleared": false,
+      "public_approved": false
+    },
+    {
+      "key": "MUE10-S05",
+      "url": "https://www.lwl.org/westfaelische-geschichte/portal/Internet/urkunden_datenbank/suche/regest_detail.php?regest=112846&url_history_back=1&url_zaehler_blaettern=9",
+      "type": "DWUD_REGEST_18TH_C_COPY",
+      "access": "FULL_HTML_REGEST_READ_COPY_NOT_READ",
+      "scope": "1661-08-18 municipal instruction, Hospitalsherren and Sterbherren, Verein Urkunden 1627",
+      "primary_17th_century_object_read": false,
+      "full_secondary_pdf_verified": false,
+      "media_reuse_cleared": false,
+      "public_approved": false
+    },
+    {
+      "key": "MUE10-S06",
+      "url": "https://www.stadt-muenster.de/archiv/archivalien-digital/ratsprotokolle-1564-1802",
+      "type": "MUNICIPAL_COUNCIL_ARCHIVE_HOLDINGS_GUIDE",
+      "access": "HTML_GUIDE_READ_NOT_ACTUAL_1661_FOLIO",
+      "scope": "A II Nr 20 and post-conquest provisional A II Nr23, 1648 gap",
+      "primary_17th_century_object_read": false,
+      "full_secondary_pdf_verified": false,
+      "media_reuse_cleared": false,
+      "public_approved": false
+    },
+    {
+      "key": "MUE10-S07",
+      "url": "https://www.stadt-muenster.de/archiv/archivalien-digital/gerichtsakten",
+      "type": "MUNICIPAL_JUDICIAL_ARCHIVE_HOLDINGS_GUIDE",
+      "access": "HTML_GUIDE_READ_NOT_CASE_DOCUMENT",
+      "scope": "Council retains some civil jurisdiction despite 1661 princely judge",
+      "primary_17th_century_object_read": false,
+      "full_secondary_pdf_verified": false,
+      "media_reuse_cleared": false,
+      "public_approved": false
+    },
+    {
+      "key": "MUE10-S08",
+      "url": "https://www.rhrdigital.de/id/antiqua.4.858/akte.html",
+      "type": "RHR_VIENNA_ACCURATE_CASE_INVENTORY",
+      "access": "INDEX_SEARCH_RESULT_ONLY_FULL_CASE_PAID",
+      "scope": "1655–1661 city and Prince-bishop jurisdiction/garrison dispute not private citizen admission",
+      "primary_17th_century_object_read": false,
+      "full_secondary_pdf_verified": false,
+      "media_reuse_cleared": false,
+      "public_approved": false
+    },
+    {
+      "key": "MUE10-S09",
+      "url": "https://www.loc.gov/pictures/item/2016645785/",
+      "type": "LIBRARY_OF_CONGRESS_1661_CITY_SIEGE_PRINT",
+      "access": "PUBLIC_OBJECT_METADATA_AND_RIGHTS_ADVISORY_READ",
+      "scope": "1661 Münster siege print; rights advisory No known restrictions, not a 1661 court/citizenship photo",
+      "primary_17th_century_object_read": false,
+      "full_secondary_pdf_verified": false,
+      "media_reuse_cleared": false,
+      "public_approved": false
+    },
+    {
+      "key": "MUE10-S10",
+      "url": "https://api.pageplace.de/preview/DT0400.9783486832648_A23143835/preview-9783486832648_A23143835.pdf",
+      "type": "SCHOLARLY_MODERN_BOOK_PREVIEW_CITIZENSHIP",
+      "access": "SEARCH_EXCERPT_ONLY_PDF_DIRECT_CACHE_MISS",
+      "scope": "Susanne Kill book recites 1677 citizen letter, first-hand archival collated copy not read",
+      "primary_17th_century_object_read": false,
+      "full_secondary_pdf_verified": false,
+      "media_reuse_cleared": false,
+      "public_approved": false
+    },
+    {
+      "key": "MUE10-S11",
+      "url": "https://www.lwl.org/westfaelische-geschichte/portal/Internet/finde/langDatensatz.php?auswahl=1980-1989&sortierung=verfasser&urlID=51&url_tabelle=tab_periodika&url_zaehler_blaettern=",
+      "type": "PUBLISHER_PERIODICAL_AUTHOR_INDEX",
+      "access": "INDEXED_BIBLIOGRAPHY_READ",
+      "scope": "Gimpel article date 1982 and pagination confirmed",
+      "primary_17th_century_object_read": false,
+      "full_secondary_pdf_verified": false,
+      "media_reuse_cleared": false,
+      "public_approved": false
+    }
+  ],
+  "artifact_records": [
+    {
+      "key": "MUE10-A-1661-0813",
+      "original_act_date": "1661-08-13",
+      "modern_catalog_record": "LWL 112845",
+      "material_witness": "18TH_CENTURY_PAPER_COPY",
+      "holding": "Verein für Geschichte und Altertumskunde Westfalens, Abteilung Münster (Dep.) — Urkunden, Nr. 1626",
+      "description": "Town judge's regulation, municipal citizen admission review and reporting non-Catholic inhabitants",
+      "reporting_non_catholics": "IN_REGEST_SUMMARY",
+      "actual_noncatholic_person_sanctioned": false,
+      "citizenship_application_outcome_proved": false,
+      "full_witness_transcription_read": false,
+      "source_keys": [
+        "MUE10-S04"
+      ]
+    },
+    {
+      "key": "MUE10-A-1661-0819",
+      "original_act_date": "1661-08-19",
+      "modern_catalog_record": "Weidner 2000 academic monograph p.130 footnote 57",
+      "material_witness": "SCHOLAR_CITES_MUNICIPAL_PROVISIONAL_COUNCIL_MINUTES",
+      "holding": "AA II 23, RP 19.08.1661 (Vorform)",
+      "description": "Prince-bishop dissolved old council and installed lifetime Catholic and loyal councilors; citation points to provisional council records",
+      "reporting_non_catholics": "NO_CLAIM",
+      "actual_noncatholic_person_sanctioned": false,
+      "citizenship_application_outcome_proved": false,
+      "full_witness_transcription_read": false,
+      "source_keys": [
+        "MUE10-S03",
+        "MUE10-S06"
+      ]
+    },
+    {
+      "key": "MUE10-A-1661-MLA-413-5",
+      "original_act_date": "1661-08-13",
+      "modern_catalog_record": "Weidner 2000 monograph p.131 note 60",
+      "material_witness": "ACADEMIC_FOOTNOTE_TO_POSSIBLE_ADDITIONAL_ARCHIVE_WITNESS",
+      "holding": "MLA 413–5, fol. 126r–128r (institution expansion not yet checked)",
+      "description": "Additional scholarly archival reference for judge's regulation; archival abbreviation MLA not yet expanded or physically crosswalked to Urkunden 1626",
+      "reporting_non_catholics": "NOT_DIRECTLY_INSPECTED_IN_THIS_LOCUS",
+      "actual_noncatholic_person_sanctioned": false,
+      "citizenship_application_outcome_proved": false,
+      "full_witness_transcription_read": false,
+      "source_keys": [
+        "MUE10-S03"
+      ]
+    },
+    {
+      "key": "MUE10-A-1677-0515-CITIZEN",
+      "original_act_date": "1677-05-15",
+      "modern_catalog_record": "Gimpel 1982 pp 199–256; indexed section on 1677 Bürgerbrief",
+      "material_witness": "SECONDARY_SCHOLARLY_REPRODUCTION_OF_CITIZEN_LETTER_NOT_ORIGINAL_MANUSCRIPT",
+      "holding": null,
+      "description": "Greiteke Brinkmans widow of Jobsten Sestendrup receives civic admission in Münster after testimony and oath before town judge Johann Dietrich Rave",
+      "reporting_non_catholics": "NO_CLAIM",
+      "actual_noncatholic_person_sanctioned": false,
+      "citizenship_application_outcome_proved": true,
+      "full_witness_transcription_read": false,
+      "source_keys": [
+        "MUE10-S01",
+        "MUE10-S02",
+        "MUE10-S10"
+      ]
+    }
+  ],
+  "citizenship_1677": {
+    "person_name_original_reported": "Greiteke Brinkmans",
+    "secondary_spelling": "Grete Brinkmanns",
+    "date": "1677-05-15",
+    "citizen_status": "NEW_CITIZEN_ADMISSION_REPORTED_IN_PUBLISHED_HISTORICAL_SOURCE",
+    "person_gender_context": "widow of Jobsten Sestendrup",
+    "reported_magistrate": "Johann Dietrich Rave",
+    "witnesses_reported": [
+      "Henrich in den Busche",
+      "Henrich Schelckendrup"
+    ],
+    "conditions_interpreted": [
+      "witness testimony of lawful birth",
+      "reputation and good conduct",
+      "reported Catholic upbringing or education",
+      "oath before town judge",
+      "entry in municipal citizen register"
+    ],
+    "historical_context_1661_postrule": "TOWN_JUDGE_HANDLED_APPLICATIONS_WITHOUT_FORMER_COUNCIL_PARTICIPATION_PER_SCHOLARLY_REPORT",
+    "religious_exclusion_of_non_catholics_directly_proved": false,
+    "IPO_V35_explicitly_invoked": false,
+    "individual_folio_signature_verified": null,
+    "handwriting_or_seal_read": false,
+    "scholar_secondary_transcription_not_full_book_review": true,
+    "source_keys": [
+      "MUE10-S02",
+      "MUE10-S10"
+    ]
+  },
+  "archival_followups": [
+    {
+      "key": "MUE10-F-MLA",
+      "target": "MLA 413–5 fol. 126r–128r",
+      "source_key": "MUE10-S03",
+      "question": "Expand MLA abbreviation by checking Weidner bibliographic abbreviations; does this refer to original, copy or miscellany of the 1661 judge rule?",
+      "direct_source_read": false,
+      "copy_or_original_status": "UNKNOWN"
+    },
+    {
+      "key": "MUE10-F-AAII23",
+      "target": "AA II Nr23 provisional council minutes 1661-08-19",
+      "source_key": "MUE10-S06",
+      "question": "Identify actual digitally listed volume and image; check 1661-08-19 appointment decision versus secondary monograph",
+      "direct_source_read": false,
+      "copy_or_original_status": "MUNICIPAL_17TH_CENTURY_SERIES_CATALOG"
+    },
+    {
+      "key": "MUE10-F-BRINKMANS",
+      "target": "1677-05-15 Greiteke Brinkmans Bürgerbrief",
+      "source_key": "MUE10-S02",
+      "question": "Locate original physical citizen-letter shelfmark, read exact confession wording, witness names, civic oath and attached seal",
+      "direct_source_read": false,
+      "copy_or_original_status": "SCHOLARLY_PRINTED_SOURCE_ONLY"
+    },
+    {
+      "key": "MUE10-F-NR1626",
+      "target": "Landesarchiv NRW Verein Urkunden Nr.1626",
+      "source_key": "MUE10-S04",
+      "question": "Read eighteenth-century paper copy and compare verbatim with MLA 413–5 witness; record reporting procedure, exclusions and qualifications",
+      "direct_source_read": false,
+      "copy_or_original_status": "18TH_CENTURY_PAPER_COPY"
+    }
+  ],
+  "historical_interpretation": [
+    "1661 town judge reporting of non-Catholics is a normative category found in LWL regest, not evidence of an actual named person's arrest, removal, or denied citizenship.",
+    "Gimpel's 1982 article reports a positive 1677 citizen-admission case involving Catholic upbringing; a successful admission does not demonstrate a specific non-Catholic applicant was denied citizenship.",
+    "Weidner 2000 provides a manuscript locator MLA 413–5 fol.126r–128r for the judge's regulation; the relationship to LWL Urkunden Nr.1626 cannot yet be determined without examining both holdings.",
+    "Weidner cites AA II 23 RP 19.08.1661 Vorform for the new lifetime Catholic city council; the cited folio original has not been read in this research.",
+    "1661–1677 local citizenship policy is a distinct urban legal issue; do not conflate it with a verified IPO V §35 inheritance, guild, hospital or burial rights case.",
+    "Archive digitization and image rights labels are distinct from visual evidence/caption authority. LOC 1661 siege image depicts military conflict, not the 1677 widow's city admission.",
+    "Both Gimpel's large PDF and Weidner's scanned-page screenshot could not be directly visually inspected in the web environment; indexed text and machine-extracted secondary research can support candidate clues, but not authenticated line-level quotations.",
+    "Historical orthographic variants Greiteke/Grete and Brinkmans/Brinkmanns must remain separate spellings until original letter reviewed.",
+    "No original medieval/early modern witness images or modern publisher scans have been copied into the repo."
+  ],
+  "visual_reference_candidate": {
+    "url": "https://www.loc.gov/pictures/item/2016645785/",
+    "title": "Assedio della Citta di Mvnster Anno 1661",
+    "metadata_rights_advisory": "No known restrictions on publication",
+    "historical_event_year": 1661,
+    "linked_to_1677_civic_letter": false,
+    "downloaded": false,
+    "cleared_for_webapp": false
+  },
+  "research_certification": "PUBLISHED_SECONDARY_CITIZEN_LETTER_STUDY_AND_PRECISE_FOLIO_LEAD_NOT_ORIGINAL_TEXT_COLLATION"
+}
