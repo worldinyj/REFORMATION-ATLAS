@@ -1,0 +1,343 @@
+{
+  "schema_version": "1.5",
+  "kind": "VOL05_MUENSTER_KRAMERGILDE_ADMISSIONS_1662_1797_CROSSWALK",
+  "status": "DRAFT_RESEARCH_NOT_PUBLIC",
+  "date": "2026-10-29",
+  "volume_id": "VOL-05",
+  "parent_registry": "data/deep/vol05_muenster_bakers_guild_1639_1661_v14.json",
+  "canonical_event_id": "OV-E-024",
+  "canonical_document_id": "OV-D-015",
+  "new_canonical_ids": 0,
+  "main_modified": false,
+  "overview_modified": false,
+  "ai_studio_modified": false,
+  "publication_gate": {
+    "historian_approved": false,
+    "ketteler_1931_article_pages_read": false,
+    "original_kramergilde_member_book_read": false,
+    "anton_neuhaus_original_admission_read": false,
+    "confessional_exclusion_individual_verdict_verified": false,
+    "visual_reuse_rights_approved": false,
+    "can_publish": false
+  },
+  "sources": [
+    {
+      "id": "K15-S01",
+      "url": "https://www.lwl.org/hiko-download/HiKo-Schriftenverzeichnis_2025-12.pdf",
+      "kind": "2025_HISTORICAL_COMMISSION_BIBLIOGRAPHY",
+      "access": "SEARCHABLE_OFFICIAL_CATALOG_PDF_SCREENSHOT_CACHE_MISS",
+      "claim_scope": "Ketteler 1931 Vol4 article exact 1662–1797 p253–295; volume4 public Internet Archive viewer listed",
+      "original_guild_admissions_register_read": false,
+      "full_ketteler_1931_pages_read": false,
+      "source_image_reuse_cleared": false,
+      "public_content_approved": false
+    },
+    {
+      "id": "K15-S02",
+      "url": "https://www.lwl.org/westfaelische-geschichte/txt/beitrwff-9745.pdf",
+      "kind": "GIMPEL_1982_NEUBUERGER_PUBLISHED_STUDY",
+      "access": "INDEXED_EXCERPTS_NOT_COMPLETE_PDF_PAGE_VISUAL",
+      "claim_scope": "Guild entry prerequisite civic oath, entries up to 2 years before city treasury registers; 1670 prince-bishop instruction; 1777 eight Neukramer",
+      "original_guild_admissions_register_read": false,
+      "full_ketteler_1931_pages_read": false,
+      "source_image_reuse_cleared": false,
+      "public_content_approved": false
+    },
+    {
+      "id": "K15-S03",
+      "url": "https://www.saw-leipzig.de/de/projekte/edition-des-briefwechsels-von-johann-christoph-gottsched/gottsched-briefwechsel_bio-bibliographisches-korrespondentenverzeichnis-1-10.pdf",
+      "kind": "SAXON_ACADEMY_GOTTSCHED_PERSON_INDEX",
+      "access": "ACADEMY_INDEXED_PDF_TEXT_NOT_FULL_VISUAL_PAGE",
+      "claim_scope": "Anton Reinhard Neuhaus 1719 Amtsohn merchant guild membership citing Ketteler 1931 p270",
+      "original_guild_admissions_register_read": false,
+      "full_ketteler_1931_pages_read": false,
+      "source_image_reuse_cleared": false,
+      "public_content_approved": false
+    },
+    {
+      "id": "K15-S04",
+      "url": "https://www.uni-muenster.de/HausDerNiederlande/ueber/nutzung.shtml",
+      "kind": "UNIVERSITY_HISTORIC_GUILD_HOUSE_RESEARCH",
+      "access": "FULL_UNIVERSITY_HISTORY_HTML",
+      "claim_scope": "Krameramt legal dissolution 1810-02-20; 142 members reported for 1810 in 1823 survey; last 1823 meeting and 1824 sale",
+      "original_guild_admissions_register_read": false,
+      "full_ketteler_1931_pages_read": false,
+      "source_image_reuse_cleared": false,
+      "public_content_approved": false
+    },
+    {
+      "id": "K15-S05",
+      "url": "https://www.stadt-muenster.de/ms/kongress1648/02_stadt/stadt5_2.html",
+      "kind": "MUNICIPAL_1648_SITE_GUIDE",
+      "access": "FULL_CITY_HISTORY_HTML",
+      "claim_scope": "Krameramtshaus 1589 building, Dutch delegation quarters 1648, modern use",
+      "original_guild_admissions_register_read": false,
+      "full_ketteler_1931_pages_read": false,
+      "source_image_reuse_cleared": false,
+      "public_content_approved": false
+    },
+    {
+      "id": "K15-S06",
+      "url": "https://archive.org/details/quellen-und-forschungen-zur-geschichte-der-stadt-muenster-vol-3-vol-4",
+      "kind": "1931_VOL4_INTERNET_ARCHIVE_SCAN_VIEWER",
+      "access": "OFFICIAL_BIBLIOGRAPHY_SAYS_ONLINE_BUT_WEB_OPEN_ACCESS_FAILED",
+      "claim_scope": "Historical Commission lists combined volumes 3–4 digitization; Ketteler p253–295 not yet directly read",
+      "original_guild_admissions_register_read": false,
+      "full_ketteler_1931_pages_read": false,
+      "source_image_reuse_cleared": false,
+      "public_content_approved": false
+    },
+    {
+      "id": "K15-S07",
+      "url": "https://www.lwl.org/westfaelische-geschichte/txt/beitrwff-9469.pdf",
+      "kind": "KETTELER_BIOBIBLIOGRAPHY_PUBLISHED",
+      "access": "SEARCH_INDEXED_PDF_EXCERPT",
+      "claim_scope": "1931 article cited with date 1662–1797, some old pagination given as p253–296",
+      "original_guild_admissions_register_read": false,
+      "full_ketteler_1931_pages_read": false,
+      "source_image_reuse_cleared": false,
+      "public_content_approved": false
+    },
+    {
+      "id": "K15-S08",
+      "url": "https://www.stadt-muenster.de/archiv/service-angebote/auskuenfte",
+      "kind": "MUNICIPAL_GENEALOGICAL_ARCHIVE_GUIDE",
+      "access": "FULL_OFFICIAL_INVENTORY_GUIDE",
+      "claim_scope": "City archive persons card indexes, treasury/council/stiftungs documents for personal record cross-check",
+      "original_guild_admissions_register_read": false,
+      "full_ketteler_1931_pages_read": false,
+      "source_image_reuse_cleared": false,
+      "public_content_approved": false
+    }
+  ],
+  "bibliographic_correction": {
+    "author": "Josef Ketteler",
+    "title_original": "Die Aufnahmen in die Kramergilde 1662–1797",
+    "publication": "Quellen und Forschungen zur Geschichte der Stadt Münster i. W., Band IV",
+    "year": 1931,
+    "editor": "Eduard Schulte",
+    "pages_start": 253,
+    "pages_end": 295,
+    "start_year": 1662,
+    "end_year": 1797,
+    "erroneous_prior_end_year": 1779,
+    "official_bibliography_source": "K15-S01",
+    "secondary_biography_source": "K15-S07",
+    "minor_paginations_difference": "1931 editorial contents p253–295 versus posthumous Ketteler bibliography p253–296; exact last printed article page only checked from official volume contents",
+    "full_scanned_volume_4_source": "K15-S06",
+    "full_scanned_article_text_directly_read": false,
+    "direct_1931_article_person_level_transcription": false
+  },
+  "individual_candidates": [
+    {
+      "research_id": "K15-P-1719-NEUHAUS",
+      "name": "Anton Reinhard Neuhaus",
+      "variants": [
+        "Anton Niehauß",
+        "Anton Reinhard Niehues"
+      ],
+      "admission_year": 1719,
+      "admission_day": null,
+      "admission_mode_original_reported": "Amtsohn",
+      "admission_status": "REPORTED_ADMITTED_IN_SCHOLARLY_PERSON_BIOGRAPHY",
+      "occupation": "Kaufmann",
+      "reported_parent_names": [
+        "Franz Hermann Neuhaus",
+        "Anna Maria geb. Brintrup"
+      ],
+      "birth_or_baptism_event": "baptized 1699-11-05 in Münster",
+      "death_event": "1762-06-09 in Münster",
+      "reported_workplace": "A merchant Anton Niehauß at Prinzipalmarkt 48 between 1720 and 1760, identity link not independently corroborated",
+      "supporting_publication": "Saxon Academy Gottsched correspondence biographical register, cites Ketteler 1931 p270",
+      "source_ids": [
+        "K15-S03"
+      ],
+      "source_page_in_ketteler": 270,
+      "religious_confession": "UNKNOWN",
+      "religious_exclusion_claim": false,
+      "IPO_article_V35_invoked": false,
+      "original_1719_entry_read": false,
+      "original_shelfmark": null,
+      "bio_person_identity_still_to_compare": true
+    }
+  ],
+  "administrative_process": {
+    "research_topic": "Citizen oath and guild enrollment documented as connected but not necessarily recorded in the same year",
+    "citizen_oath_before_guild_membership": "REPORTED_AS_REQUIRED_BY_GIMPEL_1982",
+    "oath_admission_procedure_direct_read": false,
+    "guild_vs_treasury_register_timing_gap_years_max_reported": 2,
+    "interpretation": "Guild membership, city-citizen approval and treasury receipt date are separate data fields; the recorded lag is likely documentary/bureaucratic, not necessarily delayed actual admission",
+    "underlying_treasury_series_cited": "StdAM, A VIII, 277 (Kämmereirechnungen in Gimpel's note 6)",
+    "post_1670_citizen_register_requirement": "1670 prince-bishop instruction required city judge to maintain citizens arrival/departure registry, per Gimpel quoting Scotti",
+    "year_1777_eight_neukramer": "Gimpel reports eight new Kramer in city cash accounts 1777; cannot interpret as complete guild admission cohort",
+    "missing_original_official_citizen_register": "UNKNOWN_PRESERVATION",
+    "source_ids": [
+      "K15-S02"
+    ]
+  },
+  "chronology": [
+    {
+      "key": "K15-T-1589",
+      "date": "1589",
+      "label": "Krameramtshaus constructed as guild meeting and storage house",
+      "source_id": "K15-S05",
+      "primary_contemporary_text_read": false
+    },
+    {
+      "key": "K15-T-1648",
+      "date": "1648",
+      "label": "Dutch envoys lodged in Krameramtshaus during Westphalia peace negotiations",
+      "source_id": "K15-S05",
+      "primary_contemporary_text_read": false
+    },
+    {
+      "key": "K15-T-1662",
+      "date": "1662",
+      "label": "First year of entries covered by Ketteler's 1931 Kramergilde series",
+      "source_id": "K15-S01",
+      "primary_contemporary_text_read": false
+    },
+    {
+      "key": "K15-T-1670",
+      "date": "1670",
+      "label": "Prince-bishop town-judge instruction to keep citizen register, reported by Gimpel",
+      "source_id": "K15-S02",
+      "primary_contemporary_text_read": false
+    },
+    {
+      "key": "K15-T-1719",
+      "date": "1719",
+      "label": "Anton Reinhard Neuhaus joined as Amtsohn, via Saxon Academy bibliography",
+      "source_id": "K15-S03",
+      "primary_contemporary_text_read": false
+    },
+    {
+      "key": "K15-T-1777",
+      "date": "1777",
+      "label": "Eight newly entered Neukramer appear in treasury report according to Gimpel, not total admissions",
+      "source_id": "K15-S02",
+      "primary_contemporary_text_read": false
+    },
+    {
+      "key": "K15-T-1797",
+      "date": "1797",
+      "label": "Last year of Ketteler's published admission series",
+      "source_id": "K15-S01",
+      "primary_contemporary_text_read": false
+    },
+    {
+      "key": "K15-T-1810",
+      "date": "1810-02-20",
+      "label": "Corporate Kramergilde legally abolished",
+      "source_id": "K15-S04",
+      "primary_contemporary_text_read": false
+    },
+    {
+      "key": "K15-T-1823",
+      "date": "1823-06-12",
+      "label": "Meeting of former Krameramt members voted deputies to dispose of the house",
+      "source_id": "K15-S04",
+      "primary_contemporary_text_read": false
+    },
+    {
+      "key": "K15-T-1824",
+      "date": "1824-04-12",
+      "label": "Former guild house sale completed by ex-members",
+      "source_id": "K15-S04",
+      "primary_contemporary_text_read": false
+    }
+  ],
+  "research_schema_proposal": {
+    "grain": "ONE_PERSON_ONE_ADMISSION_ENTRY_WITH_SOURCE_RECORD_ID",
+    "fields": [
+      "person_original_spelling",
+      "normalized_name",
+      "admission_date_from_guild_register",
+      "admission_year_reported",
+      "admission_mode_Amtsohn_or_other",
+      "citizen_oath_date",
+      "treasury_entry_date",
+      "guild_membership_status",
+      "profession",
+      "sex_if_explicitly_recorded",
+      "confession_explicitly_documented",
+      "citizen_rights_evidence",
+      "religious_exclusion_evidence",
+      "legal_basis_explicit",
+      "appeal_and_decision",
+      "archive_shelfmark",
+      "folio_or_page",
+      "source_transmission_level",
+      "human_review_status"
+    ],
+    "prohibited_inferences": [
+      "No ethnicity or confession classification from names alone",
+      "An Amtsohn entry is not automatically proof of inheritance or universal hereditary privilege",
+      "Ketteler edited entries != original guild admission book photos",
+      "Receipt delay in city treasury accounts != exclusion by religion",
+      "Gimpel 1777 eight new Kramer != exhaustive 1777 guild admissions",
+      "Legal corporate abolition 1810 != last published admission 1797",
+      "No individual guild participant's IPO V §35 adjudication is yet established"
+    ]
+  },
+  "guild_house": {
+    "building": "Krameramtshaus",
+    "original_construction_year": 1589,
+    "modern_location": "Alter Steinweg 6/7, Münster",
+    "peace_treaty_context": "Dutch delegation accommodation during 1648 peace congress",
+    "abolition_date": "1810-02-20",
+    "number_members_1810_from_1823_list": 142,
+    "archive_1823_member_count_relation": "1823 roster retrospectively describes persons belonging in 1810, NOT 142 entrants in 1810",
+    "final_community_meeting": "1823-06-12",
+    "building_sale": "1824-04-12",
+    "source_ids": [
+      "K15-S04",
+      "K15-S05"
+    ],
+    "media_assets_downloaded": 0,
+    "visual_copyright_approved": false
+  },
+  "original_investigations": [
+    {
+      "key": "K15-N1",
+      "target": "Ketteler 1931 p253–295 archive.org combined Band III–IV",
+      "question": "Inspect printed p270 Anton Neuhaus and introduction; identify original Krameramt member book shelfmark and confession-related fields if any",
+      "access_status": "OFFICIAL_BIBLIOGRAPHY_LINK_FOUND_DIRECT_WEB_OPEN_FAILED"
+    },
+    {
+      "key": "K15-N2",
+      "target": "Original Münster Krameramt admissions book for 1662–1797",
+      "question": "Confirm present archival institution, accession code, scans of 1719 and sampled 1777 admissions",
+      "access_status": "NOT_LOCATED"
+    },
+    {
+      "key": "K15-N3",
+      "target": "Stadtarchiv Münster treasury accounts StdAM A VIII 277",
+      "question": "Test Gimpel's city treasury lag, 1777 eight Neukramer, and citizen oath link by yearly record",
+      "access_status": "SCHOLARLY_FOOTNOTE_ONLY"
+    },
+    {
+      "key": "K15-N4",
+      "target": "1719 Anton Neuhaus 1931 p270",
+      "question": "Check spelling, status Amtsohn, actual membership entry and possible original guild folio",
+      "access_status": "SCHOLARLY_BIOGRAPHY_SECONDHAND"
+    },
+    {
+      "key": "K15-N5",
+      "target": "IPO Article V §35 individual guild appeal",
+      "question": "Find an actually named non-Catholic and legal basis with original decision; not found here",
+      "access_status": "UNVERIFIED"
+    }
+  ],
+  "editorial_holds": [
+    "Research title is 1662–1797, not previously misstated 1662–1779. Gimpel 1982 note 11 can contain the 1779 variant but official Historical Commission contents take precedence.",
+    "Ketteler 1931 p270 has been cited by Saxon Academy but was not opened as a scanned page in this research. No firsthand original guild name list seen.",
+    "1719 Anton Reinhard Neuhaus was admitted, not rejected; religion/denomination UNKNOWN. Amtsohn is reported admission category, not evidence of a confessional exclusion.",
+    "Gimpel 1982 says citizen oath precondition and discrepancies up to two years between guild and treasury entries, but exact 1670 and 1777 archival leaves not read.",
+    "Original municipal 1662–1797 guild record shelfmark remains unknown; printed edition is a different source object.",
+    "Historic building the Dutch housed in 1648 is a contextual location, not proof any treaty clause was litigated by a later guild applicant.",
+    "1810 corporation abolition, 1823 meeting and 1824 property disposal are distinct events, as is 1797 published series endpoint.",
+    "142 members in an 1823 summary referring to 1810 is not annual admissions count; no full cohort or statistical series computed.",
+    "No public image, full modern book pages, original guild folios or photo rights published. Keep main/AI Studio unchanged."
+  ]
+}
