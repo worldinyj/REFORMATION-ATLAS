@@ -1,0 +1,25 @@
+name: VOL-05 Münster Citizenship 1677 and 1661 Judge Rule Evidence QA
+on:
+  push:
+    branches:
+      - research/vol05-muenster-citizenship-1677-v10
+  pull_request:
+    branches:
+      - research/vol05-muenster-rhr-cases-v09
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  named-citizen-original-access-guard:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Previous overview and Münster RHR provenance checks
+        run: |
+          python3 scripts/validate_atlas_overview_v01.py
+          python3 scripts/validate_vol05_muenster_rhr_v09.py
+          python3 scripts/test_vol05_muenster_rhr_negative_v09.py
+      - name: 1661 source comparison and named 1677 citizen evidence
+        run: |
+          python3 scripts/validate_vol05_muenster_citizenship_v10.py
+          python3 scripts/test_vol05_muenster_citizenship_negative_v10.py
