@@ -1,0 +1,228 @@
+{
+  "version": "1.6",
+  "kind": "VOL05_KRAMERGILDE_1931_EDITION_PRIMARY_SOURCE_ACCESS_AUDIT",
+  "status": "DRAFT_RESEARCH_NOT_PUBLIC",
+  "as_of": "2026-10-29",
+  "parent": "data/deep/vol05_kramergilde_membership_1662_1797_v15.json",
+  "volume_id": "VOL-05",
+  "canonical_event_id": "OV-E-024",
+  "canonical_document_id": "OV-D-015",
+  "new_canonical_ids": 0,
+  "main_modified": false,
+  "overview_modified": false,
+  "ai_studio_modified": false,
+  "publication_gate": {
+    "historian_approved": false,
+    "publisher_scan_p270_read": false,
+    "original_1719_guild_entry_read": false,
+    "current_kramergilde_register_shelfmark_confirmed": false,
+    "individual_confessional_V35_lawsuit_verified": false,
+    "original_image_rights_approved": false,
+    "can_publish": false
+  },
+  "bibliography": {
+    "author": "Josef Ketteler",
+    "title": "Die Aufnahmen in die Kramergilde 1662–1797",
+    "volume": 4,
+    "publication_year": 1931,
+    "printed_pages": [
+      253,
+      295
+    ],
+    "person_page_to_inspect": 270,
+    "implied_member_year_to_inspect": 1719,
+    "indirect_person": "Anton Reinhard Neuhaus",
+    "indirect_member_class": "Amtsohn",
+    "original_print_p270_read": false,
+    "original_member_register_read": false,
+    "main_source": "EA16-S01",
+    "secondary_bio_source": "EA16-S03"
+  },
+  "sources": [
+    {
+      "id": "EA16-S01",
+      "url": "https://www.lwl.org/hiko-download/HiKo-Schriftenverzeichnis_2025-12.pdf",
+      "type": "PUBLISHER_OFFICIAL_SERIES_CATALOG_P70",
+      "access": "WEB_PDF_TEXT_READ_SCREENSHOT_CACHE_MISS",
+      "supported": "1931 vol IV 369pp, Josef Ketteler membership paper p253–295, 1662–1797; Internet Archive combined vol III–IV linked",
+      "original_guild_read": false,
+      "ketteler_1931_p270_read": false
+    },
+    {
+      "id": "EA16-S02",
+      "url": "https://archive.org/details/quellen-und-forschungen-zur-geschichte-der-stadt-muenster-vol-3-vol-4",
+      "type": "OFFICIAL_LINKED_SCAN_VIEWER",
+      "access": "WEB_DIRECT_OPEN_FAILED",
+      "supported": "A scan URL is advertised by publisher, reader was inaccessible; not evidence of 1931 p270 content",
+      "original_guild_read": false,
+      "ketteler_1931_p270_read": false
+    },
+    {
+      "id": "EA16-S03",
+      "url": "https://www.saw-leipzig.de/de/projekte/edition-des-briefwechsels-von-johann-christoph-gottsched/bio-bibliographisches-korrespondentenverzeichnis-im-gottsched-briefwechsel-1-20.pdf/%40%40download/file/Bio-bibliographisches%20Korrespondentenverzeichnis%20im%20Gottsched-Briefwechsel%201-20%20.pdf",
+      "type": "SAXON_ACADEMY_ACADEMIC_PERSON_INDEX",
+      "access": "SEARCH_RESULT_INDEX_PDF_DIRECT_OPEN_CACHE_MISS",
+      "supported": "1719 Anton Reinhard Neuhaus as Amtsohn Kramergilde membership, explicitly cites Ketteler 1931 p270; Prinzipalmarkt48 identity should be independently verified",
+      "original_guild_read": false,
+      "ketteler_1931_p270_read": false
+    },
+    {
+      "id": "EA16-S04",
+      "url": "https://www.uni-muenster.de/EViR/transfer/ortedesrechts/stadtarchiv.html",
+      "type": "UNIVERSITY_INSTITUTIONAL_ARCHIVE_HISTORY",
+      "access": "FULL_HTML_READ",
+      "supported": "Josef Ketteler catalogued over 8000 historical judicial archive entities; old Loculamenta system; 1942 evacuation, 1953 return; interim archive housed Krameramtshaus",
+      "original_guild_read": false,
+      "ketteler_1931_p270_read": false
+    },
+    {
+      "id": "EA16-S05",
+      "url": "https://www.stadt-muenster.de/archiv/archivalien-digital",
+      "type": "CITY_ARCHIVE_DIGITAL_VIEWER_GUIDE",
+      "access": "FULL_HTML_READ",
+      "supported": "Digitized holdings offered through NRW Archive Viewer, scanning on demand began 2021; metadata not same as underlying folio",
+      "original_guild_read": false,
+      "ketteler_1931_p270_read": false
+    },
+    {
+      "id": "EA16-S06",
+      "url": "https://www.archive.nrw.de/stadtarchiv-muenster",
+      "type": "CITY_ARCHIVE_OFFICIAL_ORDER_POLICY",
+      "access": "FULL_HTML_READ",
+      "supported": "One can request via archiv@stadt-muenster.de specifying fonds and running number; no automatic photo rights",
+      "original_guild_read": false,
+      "ketteler_1931_p270_read": false
+    },
+    {
+      "id": "EA16-S07",
+      "url": "https://www.lwl.org/westfaelische-geschichte/txt/beitrwff-9745.pdf",
+      "type": "GIMPEL_1982_SECONDARY_CITIZEN_HISTORY",
+      "access": "INDEX_SEARCH_EXCERPTS_ONLY",
+      "supported": "Previously identified city treasury reference StdAM A VIII 277 and timing lag for guild member vs city cash records; original still not checked",
+      "original_guild_read": false,
+      "ketteler_1931_p270_read": false
+    },
+    {
+      "id": "EA16-S08",
+      "url": "https://www.stadt-muenster.de/archiv/service-angebote/auskuenfte",
+      "type": "CITY_ARCHIVE_RESEARCH_SERVICES",
+      "access": "FULL_HTML_READ",
+      "supported": "Personal historical resources include published citizen books, genealogy/person card collection; not a 1719 admission proof",
+      "original_guild_read": false,
+      "ketteler_1931_p270_read": false
+    }
+  ],
+  "reading_tasks": [
+    {
+      "id": "EA16-T-1931-P253",
+      "document": "Josef Ketteler 1931 editorial introduction p253ff",
+      "how_to_read": "Inspect title, provenance note and whether one or multiple guild books were transcribed",
+      "result": "NOT_READ",
+      "evidence_required": "PHOTO_OF_EXACT_PRINTED_PAGE",
+      "no_substitute": "2025 publisher bibliography only proves title and page range"
+    },
+    {
+      "id": "EA16-T-1931-P270",
+      "document": "Josef Ketteler 1931 p270 entry Anton Reinhard Neuhaus / Niehauß / Niehues",
+      "how_to_read": "Check spelling, 1719 date, Amtsohn wording, whether family link explicit and footnotes",
+      "result": "NOT_READ",
+      "evidence_required": "PHOTO_OR_FULL_DIGITAL_TEXT_OF_P270",
+      "no_substitute": "Saxon Academy indirect biography citation only"
+    },
+    {
+      "id": "EA16-T-ARCHIVE-REGISTER",
+      "document": "17th–18th c Münster Kramergilde entrance original record",
+      "how_to_read": "Get current Stadtarchiv item signature and original folio for sample 1719 and 1777 dates",
+      "result": "NOT_LOCATED",
+      "evidence_required": "OFFICIAL_CURRENT_ARCHIVAL_ITEM_AND_IMAGES",
+      "no_substitute": "1931 edited edition page not an original register folio"
+    },
+    {
+      "id": "EA16-T-TREASURY",
+      "document": "Münster treasury A VIII, 277 (Gimpel reference)",
+      "how_to_read": "Check annual cash record and oath/guild membership date independently",
+      "result": "NOT_READ",
+      "evidence_required": "CITY_TREASURY_ORIGINAL_OR_DIRECT_SCAN_WITH_DATE",
+      "no_substitute": "Secondary statement of up to two-year ledger lag"
+    }
+  ],
+  "provenance_edges": [
+    {
+      "edge": "1931 publisher catalog -> exact article bibliographic bounds",
+      "status": "VERIFIED",
+      "note": "published p253–295; admission span 1662–1797"
+    },
+    {
+      "edge": "Official series catalog -> Internet Archive volume URL",
+      "status": "VERIFIED_LINK_NOT_ACCESS",
+      "note": "Link exists, scanned article p270 could not be rendered"
+    },
+    {
+      "edge": "Saxon Academy biography -> 1719 Amtsohn via Ketteler p270",
+      "status": "INDIRECT_SECONDARY_CITATION",
+      "note": "does not prove the original member-register transcription or confession"
+    },
+    {
+      "edge": "Josef Ketteler -> Münster judicial archive sorting",
+      "status": "VERIFIED_UNIVERSITY_INSTITUTIONAL_HISTORY",
+      "note": "over 8000 old judicial catalog records in preexisting Loculamenta grouping, not proof he personally reclassified this specific guild admission book"
+    },
+    {
+      "edge": "1953 historical Stadtarchiv premises -> Krameramtshaus",
+      "status": "VERIFIED_UNIVERSITY_HISTORY",
+      "note": "archive stored there after 1942 evacuation and 1953 return, not evidence that a particular original guild book was housed there"
+    },
+    {
+      "edge": "Ketteler 1931 printed member names -> physical surviving original guild book current accession",
+      "status": "UNRESOLVED",
+      "note": "do not fabricate present-day accession or digital image frame"
+    },
+    {
+      "edge": "1719 Neuhaus admission -> confessional denial under IPO V §35",
+      "status": "NOT_PROVEN",
+      "note": "positive admission without documented confession/appeal/verdict"
+    }
+  ],
+  "archival_history": {
+    "historian": "Josef Ketteler",
+    "role": "Cataloged and arranged historical municipal judicial records",
+    "number_of_judicial_catalog_units_minimum": 8000,
+    "prior_schema": "Loculamenta",
+    "archive_evacuated_year": 1942,
+    "archive_returned_year": 1953,
+    "interim_city_archive_building": "Krameramtshaus (Alter Steinweg)",
+    "institutional_history_source": "EA16-S04",
+    "never_claimed_same_kramergilde_book_located": true
+  },
+  "access_channels": [
+    {
+      "id": "EA16-C-PUBLIC_SCAN",
+      "url": "https://archive.org/details/quellen-und-forschungen-zur-geschichte-der-stadt-muenster-vol-3-vol-4",
+      "task": "Read exact printed p270, including its footnote and introductory source note",
+      "status": "BLOCKED_BY_WEB_READER"
+    },
+    {
+      "id": "EA16-C-ARCHIVE_PORTAL",
+      "url": "https://www.stadt-muenster.de/archiv/archivalien-digital",
+      "task": "Use NRW Archive Viewer to find actual Kramergilde membership source and A VIII 277",
+      "status": "ENTRY_POINT_CONFIRMED_NOT_ITEM_LOCATED"
+    },
+    {
+      "id": "EA16-C-ARCHIVE_REQUEST",
+      "url": "https://www.archive.nrw.de/stadtarchiv-muenster",
+      "task": "Ask for modern fonds and running number, member book accession and 1719 original folio; do not presume reply",
+      "status": "CONTACT_VERIFIED_NOT_SENT"
+    }
+  ],
+  "editorial_limits": [
+    "Do not call the Archive.org item URL a visual reading of Ketteler 1931 p270.",
+    "Do not infer the city court records cataloged by Ketteler are identical with the Kramer guild admission book.",
+    "Josef Ketteler's 8000+ municipal judicial catalog units are a separate archivist achievement from his 1931 guild edition.",
+    "Archivgut returned to Krameramtshaus in 1953: this is postwar archival institutional history, not proof the 1719 entry survives.",
+    "One 1719 successful admitted Amtsohn is not evidence of an excluded non-Catholic person, religious status remains unknown.",
+    "Stadtarchiv 2021 scan-on-demand creates access possibilities, not proof that a particular scanned folio is currently viewable.",
+    "Ketteler 1931 editorial p270 cannot be used as physical original folio number or image index.",
+    "Public historical photographs/modern source page scans are not automatically authorized to republish.",
+    "An archive order is not made until an authorized outbound message is actually sent and acknowledged."
+  ]
+}
