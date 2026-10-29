@@ -1,0 +1,136 @@
+{
+  "schema_version": "1.14-draft",
+  "status": "DRAFT_RESEARCH_NOT_PUBLIC",
+  "publication_gate": {
+    "approved": false,
+    "can_ship": false
+  },
+  "locations": [
+    {
+      "id": "LOC-MUN",
+      "name_ko": "뮌스터",
+      "name_original": "Münster",
+      "latitude": 51.9607,
+      "longitude": 7.6261,
+      "coordinate_precision": "modern_city_centroid_approximation",
+      "historical_site_verified": false
+    },
+    {
+      "id": "LOC-ESS",
+      "name_ko": "에센",
+      "name_original": "Essen",
+      "latitude": 51.4566,
+      "longitude": 7.0123,
+      "coordinate_precision": "modern_city_centroid_approximation",
+      "historical_site_verified": false
+    },
+    {
+      "id": "LOC-PAD",
+      "name_ko": "파더보른",
+      "name_original": "Paderborn",
+      "latitude": 51.7189,
+      "longitude": 8.7575,
+      "coordinate_precision": "modern_city_centroid_approximation",
+      "historical_site_verified": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "SRC-ESS-HISTORY",
+      "url": "https://www.kloster-bmv.de/augustiner-chorfrauen/unsere-geschichte/",
+      "category": "institution_history",
+      "primary_source_verified": false
+    },
+    {
+      "id": "SRC-PAD-SCHOOL",
+      "url": "https://www.michaelsschule.de/index.php/unsere-schule/neun-gute-gruende-2",
+      "category": "institution_history",
+      "primary_source_verified": false
+    },
+    {
+      "id": "SRC-PAD-CLOISTER",
+      "url": "https://www.michaelskloster.de/michaelskloster/geschichte/",
+      "category": "institution_history",
+      "primary_source_verified": false
+    }
+  ],
+  "events": [
+    {
+      "id": "EV-ESS-1652",
+      "date": "1652",
+      "precision": "year",
+      "type": "movement_and_school_founding",
+      "from": "LOC-MUN",
+      "to": "LOC-ESS",
+      "person_count": 3,
+      "sources": [
+        "SRC-ESS-HISTORY"
+      ],
+      "historical_site_verified": false
+    },
+    {
+      "id": "EV-PAD-PERMIT-1652",
+      "date": "1652-10-21",
+      "precision": "day",
+      "type": "authorization",
+      "from": null,
+      "to": "LOC-PAD",
+      "person_count": null,
+      "sources": [
+        "SRC-PAD-SCHOOL"
+      ],
+      "historical_site_verified": false
+    },
+    {
+      "id": "EV-PAD-ARRIVAL-1658",
+      "date": "1658-03-28",
+      "precision": "day",
+      "type": "movement_and_teaching_start",
+      "from": "LOC-MUN",
+      "to": "LOC-PAD",
+      "person_count": 2,
+      "sources": [
+        "SRC-PAD-SCHOOL",
+        "SRC-PAD-CLOISTER"
+      ],
+      "historical_site_verified": false
+    },
+    {
+      "id": "EV-PAD-RELOCATION-1669",
+      "date": "1669-04",
+      "precision": "month",
+      "type": "local_relocation",
+      "from": "LOC-PAD",
+      "to": "LOC-PAD",
+      "person_count": null,
+      "sources": [
+        "SRC-PAD-CLOISTER",
+        "SRC-PAD-SCHOOL"
+      ],
+      "historical_site_verified": false
+    }
+  ],
+  "routes": [
+    {
+      "id": "ROUTE-MUN-ESS-1652",
+      "event_id": "EV-ESS-1652",
+      "from": "LOC-MUN",
+      "to": "LOC-ESS",
+      "geometry": "abstract_straight_line_not_historical_travel_route"
+    },
+    {
+      "id": "ROUTE-MUN-PAD-1658",
+      "event_id": "EV-PAD-ARRIVAL-1658",
+      "from": "LOC-MUN",
+      "to": "LOC-PAD",
+      "geometry": "abstract_straight_line_not_historical_travel_route"
+    }
+  ],
+  "display_rules": {
+    "show_modern_city_centers_only": true,
+    "do_not_claim_historical_travel_route": true,
+    "split_permission_and_arrival": true,
+    "show_source_provenance": true,
+    "show_original_folio_status": true
+  }
+}
