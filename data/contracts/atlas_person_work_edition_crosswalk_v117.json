@@ -1,0 +1,124 @@
+{
+  "schema_version": "1.17-draft",
+  "status": "DRAFT_RESEARCH_NOT_PUBLIC",
+  "publication_gate": {
+    "approved": false,
+    "can_ship": false
+  },
+  "source_files": [
+    "data/overview/volumes_and_people_v01.json",
+    "data/vol03_document_witnesses.json",
+    "data/deep/vol04_calvin_v01.json"
+  ],
+  "people": [
+    {
+      "id": "OV-P-016",
+      "display_name_ko": "장 칼뱅",
+      "volume_ids": [
+        "VOL-04"
+      ]
+    }
+  ],
+  "works": [
+    {
+      "id": "WRK-V04-CALVIN-INSTITUTES",
+      "title_ko": "기독교강요",
+      "author_id": "OV-P-016",
+      "edition_ids": [
+        "EDN-V04-CALVIN-1536-LAT",
+        "EDN-V04-CALVIN-1541-FRA",
+        "EDN-V04-CALVIN-1559-LAT",
+        "EDN-V04-CALVIN-1560-FRA"
+      ],
+      "provisional_id": true
+    }
+  ],
+  "editions": [
+    {
+      "id": "EDN-V04-CALVIN-1536-LAT",
+      "work_id": "WRK-V04-CALVIN-INSTITUTES",
+      "year": 1536,
+      "language": "la",
+      "description_ko": "바젤 라틴어 초판, 6장",
+      "claim_ids": [
+        "CLM-V04-CA-002"
+      ],
+      "direct_copy_collated": false
+    },
+    {
+      "id": "EDN-V04-CALVIN-1541-FRA",
+      "work_id": "WRK-V04-CALVIN-INSTITUTES",
+      "year": 1541,
+      "language": "fr",
+      "description_ko": "첫 프랑스어판",
+      "claim_ids": [
+        "CLM-V04-CA-003"
+      ],
+      "direct_copy_collated": false
+    },
+    {
+      "id": "EDN-V04-CALVIN-1559-LAT",
+      "work_id": "WRK-V04-CALVIN-INSTITUTES",
+      "year": 1559,
+      "language": "la",
+      "description_ko": "라틴어 최종 개정판, 4권 80장",
+      "claim_ids": [
+        "CLM-V04-CA-002"
+      ],
+      "direct_copy_collated": false
+    },
+    {
+      "id": "EDN-V04-CALVIN-1560-FRA",
+      "work_id": "WRK-V04-CALVIN-INSTITUTES",
+      "year": 1560,
+      "language": "fr",
+      "description_ko": "후대 프랑스어판",
+      "claim_ids": [
+        "CLM-V04-CA-003"
+      ],
+      "direct_copy_collated": false
+    }
+  ],
+  "vol03_document_map": [
+    {
+      "id": "DOC-V03-001",
+      "kind": "historical_text"
+    },
+    {
+      "id": "EDN-V03-001",
+      "kind": "later_edited_text",
+      "based_on_id": "DOC-V03-001"
+    },
+    {
+      "id": "EDN-V03-002",
+      "kind": "historical_print_edition",
+      "based_on_id": "DOC-V03-001"
+    },
+    {
+      "id": "TRN-V03-001",
+      "kind": "online_transcription",
+      "based_on_id": "EDN-V03-002"
+    },
+    {
+      "id": "DOC-V03-002",
+      "kind": "historical_agreement"
+    },
+    {
+      "id": "EVR-V03-001",
+      "kind": "historical_event_record"
+    },
+    {
+      "id": "DOC-V03-003",
+      "kind": "historical_decree"
+    },
+    {
+      "id": "EDN-V03-003",
+      "kind": "scholarly_critical_edition"
+    }
+  ],
+  "limits": [
+    "Provisional edition IDs are not canonical IDs",
+    "Reference to scholarly claims is not primary edition collation",
+    "No publication or mutation of source documents"
+  ]
+}
