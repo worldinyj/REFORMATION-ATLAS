@@ -1,0 +1,104 @@
+{
+  "schema_version": "1.15-draft",
+  "contract_id": "ATLAS-CROSS-VOLUME-COMPAT-V115",
+  "extends": "data/contracts/atlas_contract_v01.json",
+  "status": "DRAFT_RESEARCH_NOT_PUBLIC",
+  "migration_mode": "read_only_projection_no_source_mutation",
+  "release_gate": {
+    "approved": false,
+    "can_ship": false,
+    "requires_human_approval": true
+  },
+  "required_record_fields": [
+    "id",
+    "type",
+    "title_ko",
+    "volume_ids",
+    "source_ids",
+    "review_status",
+    "public_visible"
+  ],
+  "types": [
+    "person",
+    "institution",
+    "place",
+    "event",
+    "work",
+    "document",
+    "edition",
+    "claim",
+    "relationship",
+    "map_feature",
+    "media"
+  ],
+  "date_precisions": [
+    "day",
+    "month",
+    "year",
+    "range",
+    "approximate_year",
+    "approximate_period",
+    "period",
+    "undated"
+  ],
+  "evidence_fields": [
+    "historical_certainty",
+    "text_access_tier",
+    "editorial_review_status",
+    "publication_permission"
+  ],
+  "rights_fields": [
+    "rights_status",
+    "attribution",
+    "is_period_reconstruction"
+  ],
+  "id_policy": {
+    "retain_existing_ids": true,
+    "do_not_reindex": true,
+    "aliases_only_on_collision": true
+  },
+  "publication_policy": {
+    "default_visible": false,
+    "no_inferred_approval": true,
+    "requires_verified_source_and_rights": true
+  },
+  "projections": [
+    {
+      "source": "data/overview/events_documents_v01.json",
+      "collection": "events",
+      "map": {
+        "id": "id",
+        "title_ko": "title",
+        "volume_ids": "volume_ids",
+        "source_ids": "source_ids",
+        "review_status": "review_status",
+        "public_visible": "public_visible"
+      },
+      "type": "event"
+    },
+    {
+      "source": "data/deep/vol04_luther_v01.json",
+      "collection": "content_block",
+      "map": {
+        "id": "id",
+        "title_ko": "title",
+        "volume_ids": "parent_volume_id",
+        "source_ids": "source_ids"
+      },
+      "type": "document"
+    },
+    {
+      "source": "data/deep/vol05_education_map_timeline_v114.json",
+      "collection": "events",
+      "map": {
+        "id": "id",
+        "title_ko": "type",
+        "source_ids": "sources"
+      },
+      "type": "event",
+      "default_volume_ids": [
+        "VOL-05"
+      ]
+    }
+  ]
+}
