@@ -1,0 +1,25 @@
+name: VOL-05 IPO Regional Civic Rights Research QA
+on:
+  push:
+    branches:
+      - research/vol05-ipo-regional-reception-v06
+  pull_request:
+    branches:
+      - research/vol05-ipo-image-text-audit-v05
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  regional-reception-evidence:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Previous verified volume, Austrian archive, IPO web Latin research checks
+        run: |
+          python3 scripts/validate_atlas_overview_v01.py
+          python3 scripts/validate_vol05_ipo_image_latin_v05.py
+          python3 scripts/test_vol05_ipo_image_latin_negative_v05.py
+      - name: IPO V3 municipal parity versus V35 regional social rights QA
+        run: |
+          python3 scripts/validate_vol05_ipo_regional_reception_v06.py
+          python3 scripts/test_vol05_ipo_regional_reception_negative_v06.py
