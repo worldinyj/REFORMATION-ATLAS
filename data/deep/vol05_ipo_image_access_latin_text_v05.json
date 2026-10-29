@@ -1,0 +1,272 @@
+{
+  "schema_version": "0.5",
+  "kind": "VOL05_IPO_MANUSCRIPT_IMAGE_ACCESS_AND_ONLINE_LATIN_READING",
+  "status": "DRAFT_RESEARCH_NOT_PUBLIC",
+  "date": "2026-10-29",
+  "volume_id": "VOL-05",
+  "canonical_event_id": "OV-E-024",
+  "canonical_document_id": "OV-D-015",
+  "parent_registry": "data/deep/vol05_ipo_direct_austrian_catalog_v04.json",
+  "canonical_ids_created": 0,
+  "main_modified": false,
+  "ai_studio_modified": false,
+  "release_gate": {
+    "original_image_pixels_reviewed": false,
+    "original_manuscript_folios_collated": false,
+    "apw_1998_printed_pages_reviewed": false,
+    "scholar_signed_off": false,
+    "image_redistribution_licensed": false,
+    "publication_approved": false
+  },
+  "archive_image_access_tests": [
+    {
+      "test_key": "IMG-IPO-IMPERIAL-FIRST",
+      "archive_item_id": 2594303,
+      "original_archive_item_url": "https://www.archivinformationssystem.at/detail.aspx?ID=2594303",
+      "linked_preview_url_observed": "https://www.archivinformationssystem.at/getimage.aspx?deid=0&klid=9&sqnznr=1&veid=2594303&width=200",
+      "image_index_observed": 1,
+      "web_fetch_outcome": "CACHE_MISS",
+      "container_fetch_outcome": "CONTAINER_DNS_UNAVAILABLE",
+      "image_pixels_verified": false,
+      "clause_found_on_image": null,
+      "folio_number": null
+    },
+    {
+      "test_key": "IMG-IPO-IMPERIAL-31",
+      "archive_item_id": 2594303,
+      "original_archive_item_url": "https://www.archivinformationssystem.at/detail.aspx?ID=2594303",
+      "linked_preview_url_observed": "https://www.archivinformationssystem.at/getimage.aspx?deid=0&klid=9&sqnznr=31&veid=2594303&width=200",
+      "image_index_observed": 31,
+      "web_fetch_outcome": "CACHE_MISS",
+      "image_pixels_verified": false,
+      "clause_found_on_image": null,
+      "folio_number": null
+    },
+    {
+      "test_key": "IMG-IPO-IMPERIAL-66",
+      "archive_item_id": 2594303,
+      "original_archive_item_url": "https://www.archivinformationssystem.at/detail.aspx?ID=2594303",
+      "linked_preview_url_observed": "https://www.archivinformationssystem.at/getimage.aspx?deid=0&klid=9&sqnznr=66&veid=2594303&width=200",
+      "image_index_observed": 66,
+      "web_fetch_outcome": "CACHE_MISS",
+      "image_pixels_verified": false,
+      "clause_found_on_image": null,
+      "folio_number": null
+    }
+  ],
+  "edition_access_tests": [
+    {
+      "test_key": "APW-PORTAL-PRIMARY",
+      "url": "https://apw.digitale-sammlungen.de/",
+      "outcome": "ACCESS_DENIED_ANUBIS",
+      "printed_pages_read": []
+    },
+    {
+      "test_key": "APW-PORTAL-SUPPLEMENT",
+      "url": "https://www.pax-westphalica.de/ipmipo/index.html",
+      "outcome": "HTTP_TIMEOUT",
+      "printed_pages_read": []
+    },
+    {
+      "test_key": "APW-GOOGLE-BOOKS-1998",
+      "url": "https://books.google.com/books/about/Die_Friedensvertr%C3%A4ge_mit_Frankreich_und.html?id=xkY-aye9ijsC",
+      "outcome": "BIBLIOGRAPHIC_PAGE_ONLY",
+      "publisher": "Aschendorff",
+      "editor": "Antje Oschmann",
+      "year": 1998,
+      "reported_total_pages": 233,
+      "printed_pages_read": []
+    }
+  ],
+  "online_latin_source": {
+    "url": "https://la.wikisource.org/wiki/Instrumenta_pacis_Westphalicae",
+    "source_type": "UNKNOWN_EDITION_MODERN_VOLUNTEER_TRANSCRIPTION",
+    "text_access": "ONLINE_TEXT_READ",
+    "not_authenticated_1648_witness": true,
+    "not_apw_1998_text": true
+  },
+  "second_latin_source": {
+    "url": "https://peaceofwestphalia.org/everything-peace-of-westphalia/documents-and-sources/osnabruck-peace-instrument/",
+    "source_type": "HISTORICAL_TRANSCRIPTION_WITH_COMMENTARY",
+    "text_access": "SEARCH_EXCERPT_ONLY_AFTER_OPEN_502",
+    "excerpt_correlated_clause": "V §34",
+    "text_independence_unproven": true
+  },
+  "latin_clause_review": [
+    {
+      "key": "IPO-TEXT-V05-V-1",
+      "prior_anchor": "IPO-LAT-V-1",
+      "article": "V",
+      "paragraph": "1",
+      "short_latin": "pax Religionis",
+      "web_line_numbers": [
+        237,
+        238
+      ],
+      "interpretation_ko": "1555년 아우크스부르크 종교화와 파사우 합의의 법적 연속성 확인",
+      "status": "WEB_TRANSCRIPTION_READ_NOT_ORIGINAL_COLLATED",
+      "original_printed_text_checked": false,
+      "original_image_page": null,
+      "apw_edition_page_directly_read": null,
+      "original_witness_variants_checked": false,
+      "publication_approved": false
+    },
+    {
+      "key": "IPO-TEXT-V05-V-2",
+      "prior_anchor": "IPO-LAT-V-2",
+      "article": "V",
+      "paragraph": "2",
+      "short_latin": "dies prima Januarii",
+      "web_line_numbers": [
+        240,
+        241
+      ],
+      "interpretation_ko": "1624년 1월 1일을 교회재산·관련 권리의 회복 기준으로 채택",
+      "status": "WEB_TRANSCRIPTION_READ_NOT_ORIGINAL_COLLATED",
+      "original_printed_text_checked": false,
+      "original_image_page": null,
+      "apw_edition_page_directly_read": null,
+      "original_witness_variants_checked": false,
+      "publication_approved": false
+    },
+    {
+      "key": "IPO-TEXT-V05-V-34",
+      "prior_anchor": "IPO-LAT-V-34",
+      "article": "V",
+      "paragraph": "34",
+      "short_latin": "conscientia libera domi",
+      "web_line_numbers": [
+        294
+      ],
+      "interpretation_ko": "특정 종교적 소수 신민의 가정 내 사적 신앙·인근 지역 공적 예배 및 자녀 교육 관련 보호",
+      "status": "WEB_TRANSCRIPTION_READ_NOT_ORIGINAL_COLLATED",
+      "original_printed_text_checked": false,
+      "original_image_page": null,
+      "apw_edition_page_directly_read": null,
+      "original_witness_variants_checked": false,
+      "publication_approved": false
+    },
+    {
+      "key": "IPO-TEXT-V05-V-35",
+      "prior_anchor": null,
+      "article": "V",
+      "paragraph": "35",
+      "short_latin": "haereditatibus, legatis",
+      "web_line_numbers": [
+        295
+      ],
+      "interpretation_ko": "종교 차이로 인한 상인·길드 공동체, 상속·유증·병원·매장 권리 등의 배제 금지",
+      "status": "NEW_RESEARCH_CLAUSE_WEB_TRANSCRIPTION_NOT_CANONICAL",
+      "original_printed_text_checked": false,
+      "original_image_page": null,
+      "apw_edition_page_directly_read": null,
+      "original_witness_variants_checked": false,
+      "publication_approved": false
+    },
+    {
+      "key": "IPO-TEXT-V05-V-36",
+      "prior_anchor": "IPO-LAT-V-36",
+      "article": "V",
+      "paragraph": "36",
+      "short_latin": "a territorii domino iussus",
+      "web_line_numbers": [
+        296
+      ],
+      "interpretation_ko": "자발적 또는 영주의 명령에 따른 이주와 재산 소유·관리 권리 병존",
+      "status": "WEB_TRANSCRIPTION_READ_NOT_ORIGINAL_COLLATED",
+      "original_printed_text_checked": false,
+      "original_image_page": null,
+      "apw_edition_page_directly_read": null,
+      "original_witness_variants_checked": false,
+      "publication_approved": false
+    },
+    {
+      "key": "IPO-TEXT-V05-V-37",
+      "prior_anchor": "IPO-LAT-V-37",
+      "article": "V",
+      "paragraph": "37",
+      "short_latin": "non minor quinquennio",
+      "web_line_numbers": [
+        297,
+        298
+      ],
+      "interpretation_ko": "적용 상황에 따라 5년 또는 3년 이상의 이주 유예기간과 이동자 권리 규정",
+      "status": "WEB_TRANSCRIPTION_READ_NOT_ORIGINAL_COLLATED",
+      "original_printed_text_checked": false,
+      "original_image_page": null,
+      "apw_edition_page_directly_read": null,
+      "original_witness_variants_checked": false,
+      "publication_approved": false
+    },
+    {
+      "key": "IPO-TEXT-V05-VII-1",
+      "prior_anchor": "IPO-LAT-VII-1",
+      "article": "VII",
+      "paragraph": "1",
+      "short_latin": "Reformati vocantur",
+      "web_line_numbers": [
+        358,
+        359,
+        360,
+        361
+      ],
+      "interpretation_ko": "개혁파에 대한 보호 확대와 종교를 변경한 영주의 기존 예배·학교·재산 임의 변경 제한",
+      "status": "WEB_TRANSCRIPTION_READ_NOT_ORIGINAL_COLLATED",
+      "original_printed_text_checked": false,
+      "original_image_page": null,
+      "apw_edition_page_directly_read": null,
+      "original_witness_variants_checked": false,
+      "publication_approved": false
+    },
+    {
+      "key": "IPO-TEXT-V05-VII-2",
+      "prior_anchor": "IPO-LAT-VII-2",
+      "article": "VII",
+      "paragraph": "2",
+      "short_latin": "nulla alia",
+      "web_line_numbers": [
+        362,
+        363
+      ],
+      "interpretation_ko": "공공 신앙고백·교육기관 인사 및 그 밖의 신앙에 대한 법률상 보호의 한계",
+      "status": "WEB_TRANSCRIPTION_READ_NOT_ORIGINAL_COLLATED",
+      "original_printed_text_checked": false,
+      "original_image_page": null,
+      "apw_edition_page_directly_read": null,
+      "original_witness_variants_checked": false,
+      "publication_approved": false
+    },
+    {
+      "key": "IPO-TEXT-V05-VIII-2",
+      "prior_anchor": "IPO-LAT-VIII-2",
+      "article": "VIII",
+      "paragraph": "2",
+      "short_latin": "ius faciendi foedera",
+      "web_line_numbers": [
+        368,
+        369
+      ],
+      "interpretation_ko": "제국 신분의 의회 참여·동맹권에 황제·제국·평화 질서·기존 서약 준수 조건",
+      "status": "WEB_TRANSCRIPTION_READ_NOT_ORIGINAL_COLLATED",
+      "original_printed_text_checked": false,
+      "original_image_page": null,
+      "apw_edition_page_directly_read": null,
+      "original_witness_variants_checked": false,
+      "publication_approved": false
+    }
+  ],
+  "new_historical_insight": {
+    "key": "IPO-V-35-CIVIC-EQUALITY",
+    "old_canonical_article_modified": false,
+    "theme": "CONFESSIONAL_CIVIC_RIGHTS",
+    "reader_ko": "1648년 공존 규범은 예배만 아니라 길드·경제 활동·상속·구호 시설·장례와 묘지에서의 차별 금지를 포함했으며, 이것을 현대적 보편 인권과 동일시하지 않는다."
+  },
+  "unresolved": [
+    "Obtain original image pixels and locate article text in Austrian 2594303/2594304.",
+    "Compare Latin clause spellings with APW Oschmann 1998 and actual pages 121/129.",
+    "Distinguish second online transcription from first; no proof of independent edition families.",
+    "Do not infer manuscript folio count from web preview image counts.",
+    "Rights permission for public reproduction of archived images remains unverified.",
+    "V §35 provides rights limited by the treaty's defined subject categories, not universal modern human-rights code."
+  ]
+}
