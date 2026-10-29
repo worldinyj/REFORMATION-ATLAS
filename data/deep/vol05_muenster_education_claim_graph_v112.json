@@ -1,0 +1,151 @@
+{
+  "schema_version": "0.1-draft",
+  "content_status": "DRAFT_RESEARCH_NOT_PUBLIC",
+  "publication_gate": {
+    "approved": false,
+    "can_ship": false,
+    "reason": "Original folios and APW critical edition uncollated"
+  },
+  "entities": [
+    {
+      "id": "INST-MUENSTER-CHORFRAUEN",
+      "type": "institution",
+      "name_ko": "뮌스터 로렌 교육수녀회",
+      "name_original": "Lotharinger Chorfrauen"
+    },
+    {
+      "id": "LOC-MUENSTER",
+      "type": "place",
+      "name_ko": "뮌스터",
+      "name_original": "Münster"
+    },
+    {
+      "id": "LOC-PADERBORN",
+      "type": "place",
+      "name_ko": "파더보른",
+      "name_original": "Paderborn"
+    }
+  ],
+  "sources": [
+    {
+      "id": "SRC-KLOSTERBUCH-1994-2024",
+      "type": "scholarly_reference",
+      "title": "Westfälisches Klosterbuch, Teil 2",
+      "original_publication_year": 1994,
+      "digital_edition_year": 2024,
+      "url": "https://www.lwl.org/hiko-download/HiKo-Reihe_044_Band_2_Teil_2_%282024%29.pdf",
+      "pdf_page_index": 113,
+      "printed_page": 111,
+      "rights": "CC BY-SA-ND 3.0 DE (digital edition indication); no derivative reproduction of source pages",
+      "access": "text_extracted; screenshot_timed_out",
+      "is_primary": false
+    },
+    {
+      "id": "SRC-MUENSTER-2004",
+      "type": "municipal_history",
+      "title": "Lotharinger Kloster hatte bewegte Geschichte",
+      "url": "https://www.presse-service.de/data.aspx/static/592334.html",
+      "is_primary": false
+    },
+    {
+      "id": "SRC-JAKOBI-1998",
+      "type": "historical_study",
+      "title": "Westphaliae Metropolis Monasterium",
+      "url": "https://www.lwl.org/westfaelische-geschichte/portal/Internet/drucken.php?ID=445&tab=tex",
+      "is_primary": false
+    }
+  ],
+  "claims": [
+    {
+      "id": "CLM-1651-100",
+      "subject": "INST-MUENSTER-CHORFRAUEN",
+      "predicate": "female_students_exceeded",
+      "value": 100,
+      "operator": ">",
+      "as_of": "1651",
+      "sources": [
+        "SRC-KLOSTERBUCH-1994-2024"
+      ],
+      "evidence_level": "secondary_academic_text_verified",
+      "primary_collated": false,
+      "publication_approved": false
+    },
+    {
+      "id": "CLM-1651-FREE",
+      "subject": "INST-MUENSTER-CHORFRAUEN",
+      "predicate": "free_instruction_subjects",
+      "value": [
+        "reading",
+        "writing",
+        "arithmetic",
+        "handwork"
+      ],
+      "as_of": "1651",
+      "sources": [
+        "SRC-KLOSTERBUCH-1994-2024"
+      ],
+      "evidence_level": "secondary_academic_text_verified",
+      "primary_collated": false,
+      "publication_approved": false
+    },
+    {
+      "id": "CLM-1655-SITE",
+      "subject": "INST-MUENSTER-CHORFRAUEN",
+      "predicate": "acquired_site",
+      "value": "Hörstertor",
+      "as_of": "1655",
+      "sources": [
+        "SRC-MUENSTER-2004"
+      ],
+      "evidence_level": "municipal_retrospective",
+      "publication_approved": false
+    }
+  ],
+  "events": [
+    {
+      "id": "EVT-1649-02-25",
+      "date": "1649-02-25",
+      "event_type": "conditional_council_deliberation",
+      "location": "LOC-MUENSTER",
+      "actors": [
+        "INST-MUENSTER-CHORFRAUEN"
+      ],
+      "source_ids": [
+        "SRC-JAKOBI-1998"
+      ],
+      "original_folio_verified": false
+    },
+    {
+      "id": "EVT-1651-EDUCATION",
+      "date": "1651",
+      "event_type": "education_attendance",
+      "location": "LOC-MUENSTER",
+      "actors": [
+        "INST-MUENSTER-CHORFRAUEN"
+      ],
+      "claim_ids": [
+        "CLM-1651-100",
+        "CLM-1651-FREE"
+      ]
+    },
+    {
+      "id": "EVT-1655-SITE",
+      "date": "1655",
+      "event_type": "property_acquisition",
+      "location": "LOC-MUENSTER",
+      "actors": [
+        "INST-MUENSTER-CHORFRAUEN"
+      ],
+      "claim_ids": [
+        "CLM-1655-SITE"
+      ]
+    }
+  ],
+  "validation_rules": [
+    "each claim source_ids exists",
+    "do not collapse 1642 vs circa 1643 arrival",
+    "keep 1652 foundation stage separate from 1658 arrival",
+    "no release unless rights and evidence reviewed",
+    "no depiction labeled original period image without provenance"
+  ]
+}
