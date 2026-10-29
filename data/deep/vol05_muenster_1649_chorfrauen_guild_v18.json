@@ -1,0 +1,245 @@
+{
+  "version": "1.8",
+  "kind": "VOL05_MUENSTER_1649_CANONESSES_GUILD_AUTONOMY_CASE",
+  "status": "DRAFT_RESEARCH_NOT_PUBLIC",
+  "volume_id": "VOL-05",
+  "parent": "data/deep/vol05_kramergilde_three_people_v17.json",
+  "canonical_event_id": "OV-E-024",
+  "canonical_document_id": "OV-D-015",
+  "main_modified": false,
+  "overview_modified": false,
+  "ai_studio_modified": false,
+  "new_canonical_ids": 0,
+  "gates": {
+    "historian_review": false,
+    "council_1649_feb_original_read": false,
+    "guild_1649_mar_original_read": false,
+    "episcopal_1647_mandate_original_read": false,
+    "APW_III_D1_pages_original_read": false,
+    "red_book_original_read": false,
+    "individual_IPO_V35_lawsuit_confirmed": false,
+    "visual_rights_cleared": false,
+    "public_approved": false
+  },
+  "sources": [
+    {
+      "id": "JAKOBI1998",
+      "url": "https://www.lwl.org/westfaelische-geschichte/portal/Internet/finde/langDatensatz.php?urlID=445&url_tabelle=tab_texte",
+      "tier": "FULL_PUBLISHED_SCHOLARLY_HTML_READ",
+      "original_17c_document_read": false,
+      "media_rights_approved": false
+    },
+    {
+      "id": "CITY_ARCHIVE",
+      "url": "https://www.stadt-muenster.de/archiv/bestaende-recherche",
+      "tier": "OFFICIAL_ARCHIVE_GUIDE",
+      "original_17c_document_read": false,
+      "media_rights_approved": false
+    },
+    {
+      "id": "CITY_RAT",
+      "url": "https://www.stadt-muenster.de/archiv/archivalien-digital/ratsprotokolle-1564-1802",
+      "tier": "OFFICIAL_DIGITIZATION_GUIDE",
+      "original_17c_document_read": false,
+      "media_rights_approved": false
+    },
+    {
+      "id": "CITY_RED",
+      "url": "https://www.stadt-muenster.de/ms/kongress1648/exponate.html",
+      "tier": "OFFICIAL_MUSEUM_ITEM_INDEX",
+      "original_17c_document_read": false,
+      "media_rights_approved": false
+    },
+    {
+      "id": "OUP_CHAPTER",
+      "url": "https://academic.oup.com/book/35388/chapter-abstract/301955145",
+      "tier": "ABSTRACT_ONLY_MODERN_BOOK_FULL_CHAPTER_UNREAD",
+      "original_17c_document_read": false,
+      "media_rights_approved": false
+    },
+    {
+      "id": "UNI_BOOK",
+      "url": "https://research.birmingham.ac.uk/en/publications/women-and-the-counter-reformation-in-early-modern-m%C3%BCnster/",
+      "tier": "AUTHOR_INSTITUTION_BIBLIOGRAPHY",
+      "original_17c_document_read": false,
+      "media_rights_approved": false
+    },
+    {
+      "id": "NRW_ARCHIVE",
+      "url": "https://www.archive.nrw.de/stadtarchiv-muenster",
+      "tier": "OFFICIAL_ORDER_HELP",
+      "original_17c_document_read": false,
+      "media_rights_approved": false
+    },
+    {
+      "id": "CITY_HOUSE",
+      "url": "https://www.stadt-muenster.de/ms/kongress1648/02_stadt/stadt5_2.html",
+      "tier": "OFFICIAL_1589_HOUSE_HISTORY",
+      "original_17c_document_read": false,
+      "media_rights_approved": false
+    }
+  ],
+  "folios": [
+    {
+      "key": "FEB25",
+      "date": "1649-02-25",
+      "scholar_locator": "Stadtarchiv Münster A II 20 Bd. 79 fol. 5v",
+      "edition": "APW III D 1, pp. 237–238 (Lahrkamp, not read)",
+      "original_read": false,
+      "current_item_signature_confirmed": false,
+      "critical_edition_directly_read": false
+    },
+    {
+      "key": "MAR03",
+      "date": "1649-03-03",
+      "scholar_locator": "Stadtarchiv Münster A II 20 Bd. 79 fol. 13v",
+      "edition": null,
+      "original_read": false,
+      "current_item_signature_confirmed": false,
+      "critical_edition_directly_read": false
+    },
+    {
+      "key": "MANDATE",
+      "date": "1647-04-08",
+      "scholar_locator": "Stadtarchiv Münster A VIII 226, Beilage",
+      "edition": null,
+      "original_read": false,
+      "current_item_signature_confirmed": false,
+      "critical_edition_directly_read": false
+    },
+    {
+      "key": "RED_BOOK",
+      "date": "1410/1565",
+      "scholar_locator": "Stadtarchiv Münster A XI 53",
+      "edition": null,
+      "original_read": false,
+      "current_item_signature_confirmed": false,
+      "critical_edition_directly_read": false
+    }
+  ],
+  "events": [
+    {
+      "id": "E1643",
+      "date": "1643",
+      "summary": "Lotharinger Chorfrauen war refugees came to Münster, approximate date",
+      "dated_original_folio_read": false
+    },
+    {
+      "id": "E1647",
+      "date": "1647-04-08",
+      "summary": "Ferdinand supported settlement via Bonn mandate, historian cites city copy",
+      "dated_original_folio_read": false
+    },
+    {
+      "id": "E1648",
+      "date": "1648-10-24",
+      "summary": "Peace treaty, not same as 1649 municipal convent decision",
+      "dated_original_folio_read": false
+    },
+    {
+      "id": "E1649FEB",
+      "date": "1649-02-25",
+      "summary": "City council contemplated conditional approval subject to Gesamtgilde assent",
+      "dated_original_folio_read": false
+    },
+    {
+      "id": "E1649MAR",
+      "date": "1649-03-03",
+      "summary": "Guild leaders' refusal considered at council meeting",
+      "dated_original_folio_read": false
+    },
+    {
+      "id": "E1649AUT",
+      "date": "1649-autumn",
+      "summary": "The municipal dispute continued in summer/autumn in Jakobi's synthesis",
+      "dated_original_folio_read": false
+    },
+    {
+      "id": "E1661",
+      "date": "1661-08-22",
+      "summary": "Later guild governance restricted by prince bishop, distinct from 1649 council vote",
+      "dated_original_folio_read": false
+    }
+  ],
+  "positions": [
+    {
+      "actor": "City council",
+      "date": "1649-02-25",
+      "position": "CONDITIONAL_POSSIBLE_SETTLEMENT",
+      "source": "JAKOBI1998",
+      "original_read": false
+    },
+    {
+      "actor": "Gesamtgilde",
+      "date": "1649-03-03",
+      "position": "REJECTED_SETTLEMENT_AND_CIVIC_TAX_EXEMPTION",
+      "source": "JAKOBI1998",
+      "original_read": false
+    },
+    {
+      "actor": "Fabio Chigi and Alvise Contarini",
+      "date": "1649",
+      "position": "SUPPORTED_CANONESSES_RELOCATION",
+      "source": "JAKOBI1998",
+      "original_read": false
+    },
+    {
+      "actor": "Prince Bishop Ferdinand",
+      "date": "1647-04-08",
+      "position": "ISSUED_EARLIER_APPROVAL_MANDATE",
+      "source": "JAKOBI1998",
+      "original_read": false
+    }
+  ],
+  "guild_house_widow_participation": {
+    "inauguration": "1589-11-12",
+    "guild_members_present": 82,
+    "widows_of_masters_present": 24,
+    "source": "JAKOBI1998",
+    "independent_member_rights_proven": false,
+    "does_not_confirm_Maria_Schuerman_1670_membership": true
+  },
+  "legal_distinctions": [
+    {
+      "key": "LOCAL_GOV",
+      "topic": "civic approval of religious female teaching community under guild consultation",
+      "verified_as_regional_governance_case": true,
+      "individual_IPO_V35_case": false
+    },
+    {
+      "key": "IPO_V35",
+      "topic": "conditional private confessional rights in guilds, inheritance, charitable facilities and burial",
+      "verified_as_regional_governance_case": false,
+      "individual_IPO_V35_case": false
+    },
+    {
+      "key": "TEMP_CITY",
+      "topic": "congress-period temporary neutral status and expanded municipal self-government",
+      "verified_as_regional_governance_case": false,
+      "individual_IPO_V35_case": false
+    },
+    {
+      "key": "GUILD1661",
+      "topic": "later prince-bishop corporation political control not identical to 1649 guild veto",
+      "verified_as_regional_governance_case": false,
+      "individual_IPO_V35_case": false
+    }
+  ],
+  "caveats": [
+    "APW III D1 p237–238 edition cited by Jakobi has not been read; do not claim primary or editorial text collated.",
+    "1649 folios 5v and 13v only citation not contemporary autograph viewed.",
+    "Jacobi estimates early canoness arrival c1643; do not equate arrival with school opening 1644 or legal founding.",
+    "Opposition in March and summer/autumn 1649 does not prove permanent rejection or forced expulsion.",
+    "1589 guild feast widows attended but independent membership rights not proven, including 1670 Maria.",
+    "Gesamtgilde red book A XI 53 is separate from Kramergilde 1662–1797 membership registers.",
+    "1647 episcopal mandate and municipal council veto involve separate authorities; do not convert to IPO §35 individual legal case.",
+    "No separate source images or copyrighted academic chapters redistributed."
+  ],
+  "next_original_work": [
+    "Request A II 20 Bd.79 fol.5v for 1649 Feb 25 council text",
+    "Request A II 20 Bd.79 fol.13v for 1649 Mar3 guild response",
+    "Request A VIII 226 annex for 1647 Ferdinand mandate",
+    "Compare published APW III D1 pp237–238 with actual fol.5v",
+    "Confirm A XI 53 Red Book in current archive records, do not merge with Kramergilde admission book"
+  ]
+}
