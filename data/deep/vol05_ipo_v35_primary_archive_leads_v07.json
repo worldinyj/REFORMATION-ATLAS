@@ -1,0 +1,339 @@
+{
+  "schema_version": "0.7",
+  "kind": "VOL05_IPO_V35_LOCAL_ARCHIVE_FOLLOWUP",
+  "status": "DRAFT_RESEARCH_NOT_PUBLIC",
+  "as_of": "2026-10-29",
+  "volume_id": "VOL-05",
+  "canonical_event_id": "OV-E-024",
+  "canonical_document_id": "OV-D-015",
+  "parent_research": "data/deep/vol05_ipo_v35_regional_reception_v06.json",
+  "canonical_ids_minted": 0,
+  "main_modified": false,
+  "ai_studio_modified": false,
+  "publication_gate": {
+    "human_historian_approved": false,
+    "individual_local_original_read": false,
+    "actual_v35_enforcement_case_proven": false,
+    "original_treaty_collated": false,
+    "media_reuse_cleared": false,
+    "can_publish": false
+  },
+  "sources": [
+    {
+      "source_key": "VA7-S01",
+      "url": "https://www.stadtlexikon-augsburg.de/stadtlexikon-augsburg/artikel/stadtlexikon/st-servatius/5429",
+      "kind": "HISTORICAL_CITY_LEXICON",
+      "access": "ARTICLE_TEXT_SEARCH_RESULT_READ",
+      "scope": "St Servatius 1649 parity",
+      "physical_original_directly_read": false,
+      "individual_v35_case_confirmed": false,
+      "photo_redistribution_licensed": false,
+      "publication_approved": false
+    },
+    {
+      "source_key": "VA7-S02",
+      "url": "https://www.stadtlexikon-augsburg.de/stadtlexikon-augsburg/artikel/stadtlexikon/paritatische/4962",
+      "kind": "HISTORICAL_CITY_LEXICON",
+      "access": "ARTICLE_TEXT_READ",
+      "scope": "IPO V §§3-6 urban parity and hospitals",
+      "physical_original_directly_read": false,
+      "individual_v35_case_confirmed": false,
+      "photo_redistribution_licensed": false,
+      "publication_approved": false
+    },
+    {
+      "source_key": "VA7-S03",
+      "url": "https://www.augsburg.de/kultur/stadtarchiv-augsburg/aufgaben-und-geschichte",
+      "kind": "MUNICIPAL_ARCHIVE_INSTITUTIONAL_HISTORY",
+      "access": "PUBLIC_BODY_READ",
+      "scope": "1648 administrative parity; archival record stewardship",
+      "physical_original_directly_read": false,
+      "individual_v35_case_confirmed": false,
+      "photo_redistribution_licensed": false,
+      "publication_approved": false
+    },
+    {
+      "source_key": "VA7-S04",
+      "url": "https://recherche-stadtarchiv.augsburg.de/dls-1/uber-uns/das-stadtarchiv/",
+      "kind": "MUNICIPAL_ARCHIVE_NEW_DIGITAL_READING_ROOM",
+      "access": "PUBLIC_BODY_READ",
+      "scope": "1712 Evangelisches Wesensarchiv; 1757 Katholisches Wesensarchiv",
+      "physical_original_directly_read": false,
+      "individual_v35_case_confirmed": false,
+      "photo_redistribution_licensed": false,
+      "publication_approved": false
+    },
+    {
+      "source_key": "VA7-S05",
+      "url": "https://www.augsburg.de/kultur/stadtarchiv-augsburg/die-bestaende",
+      "kind": "MUNICIPAL_ARCHIVE_HOLDINGS_GUIDE",
+      "access": "PUBLIC_BODY_READ",
+      "scope": "older pre-1806 series, web catalog research limits",
+      "physical_original_directly_read": false,
+      "individual_v35_case_confirmed": false,
+      "photo_redistribution_licensed": false,
+      "publication_approved": false
+    },
+    {
+      "source_key": "VA7-S06",
+      "url": "https://www.stadt-muenster.de/archiv/archivalien-digital/ratsprotokolle-1564-1802",
+      "kind": "MUNICIPAL_ARCHIVE_DIGITAL_SERIES_DESCRIPTION",
+      "access": "ARCHIVAL_SERIES_DESCRIPTION_READ",
+      "scope": "A II Nr 20, 212 digitized council volumes; 1648 missing; A II Nr 23 provisional 1660–75",
+      "physical_original_directly_read": false,
+      "individual_v35_case_confirmed": false,
+      "photo_redistribution_licensed": false,
+      "publication_approved": false
+    },
+    {
+      "source_key": "VA7-S07",
+      "url": "https://www.stadt-muenster.de/archiv/archivalien-digital/gerichtsakten",
+      "kind": "MUNICIPAL_ARCHIVE_JUDICIAL_SERIES_DESCRIPTION",
+      "access": "ARCHIVAL_SERIES_DESCRIPTION_READ",
+      "scope": "Judicialakten 1161 files; Judicialprotokolle 65 volumes 1548–1661, civil inheritance suits",
+      "physical_original_directly_read": false,
+      "individual_v35_case_confirmed": false,
+      "photo_redistribution_licensed": false,
+      "publication_approved": false
+    },
+    {
+      "source_key": "VA7-S08",
+      "url": "https://www.uni-muenster.de/Staedtegeschichte/Forschung/einzelprojekte-laufend/muenster_nach_dem_dreissigjaehrigen_krieg.html",
+      "kind": "UNIVERSITY_RESEARCH_PROJECT_REPORT",
+      "access": "INSTITUTIONAL_PROJECT_OVERVIEW_READ",
+      "scope": "2022-23 postwar Münster council project and 2024 publication",
+      "physical_original_directly_read": false,
+      "individual_v35_case_confirmed": false,
+      "photo_redistribution_licensed": false,
+      "publication_approved": false
+    },
+    {
+      "source_key": "VA7-S09",
+      "url": "https://www.aschendorff-buchverlag.de/detailview?no=13126",
+      "kind": "ACADEMIC_PUBLISHER_BOOK_CATALOG",
+      "access": "CATALOG_SUMMARY_ONLY",
+      "scope": "Ludwig Hoffmann-Rehnitz eds Münster nach dem Dreißigjährigen Krieg (1648–1655), 2024",
+      "physical_original_directly_read": false,
+      "individual_v35_case_confirmed": false,
+      "photo_redistribution_licensed": false,
+      "publication_approved": false
+    },
+    {
+      "source_key": "VA7-S10",
+      "url": "https://www.stadt-muenster.de/archiv/archivalien-digital",
+      "kind": "MUNICIPAL_ARCHIVE_DIGITAL_ACCESS_GUIDE",
+      "access": "INSTITUTIONAL_DIGITAL_ACCESS_DESCRIPTION_READ",
+      "scope": "Archive.NRW digitized collections and DFG viewer",
+      "physical_original_directly_read": false,
+      "individual_v35_case_confirmed": false,
+      "photo_redistribution_licensed": false,
+      "publication_approved": false
+    },
+    {
+      "source_key": "VA7-S11",
+      "url": "https://www.bavarikon.de/object/bav%3AHVO-OBJ-00000HVBSA111702",
+      "kind": "INSTITUTIONAL_ARTWORK_CATALOG",
+      "access": "OBJECT_METADATA_READ_RIGHTS_LABEL_PDM",
+      "scope": "1742 Augsburg Hl Geist Spital engraving, NOT St Servatius",
+      "physical_original_directly_read": false,
+      "individual_v35_case_confirmed": false,
+      "photo_redistribution_licensed": false,
+      "publication_approved": false
+    },
+    {
+      "source_key": "VA7-S12",
+      "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/peace-treaties-of-westphalia-october-14-24-1648",
+      "kind": "MODERN_TRANSLATED_TREATY_EXCERPT",
+      "access": "IPO_SELECTED_ENGLISH_TRANSLATION_READ",
+      "scope": "Distinguishes V3 municipal parity from V35 individual civic protections",
+      "physical_original_directly_read": false,
+      "individual_v35_case_confirmed": false,
+      "photo_redistribution_licensed": false,
+      "publication_approved": false
+    },
+    {
+      "source_key": "VA7-S13",
+      "url": "https://www.stadtlexikon-augsburg.de/stadtlexikon-augsburg/artikel/stadtlexikon/rates/5105",
+      "kind": "HISTORICAL_CITY_LEXICON",
+      "access": "ARTICLE_TEXT_READ",
+      "scope": "1648 municipal council confessional parts and legal roles",
+      "physical_original_directly_read": false,
+      "individual_v35_case_confirmed": false,
+      "photo_redistribution_licensed": false,
+      "publication_approved": false
+    },
+    {
+      "source_key": "VA7-S14",
+      "url": "https://www.stadt-muenster.de/archiv/publikationen",
+      "kind": "MUNICIPAL_ARCHIVE_PUBLICATION_RECORD",
+      "access": "CATALOG_SUMMARY_ONLY",
+      "scope": "2024 scholarly Münster volume research context",
+      "physical_original_directly_read": false,
+      "individual_v35_case_confirmed": false,
+      "photo_redistribution_licensed": false,
+      "publication_approved": false
+    }
+  ],
+  "findings": [
+    {
+      "finding_id": "VA7-F01-SERVATIUS",
+      "location": "Augsburg",
+      "date": "1649",
+      "statement_ko": "성 세르바티우스 구호병원은 1649년부터 종파 균형의 원칙에 따라 운영됐다고 도시사전이 명시한다.",
+      "context_article": "IPO V §3 and city charity institution",
+      "not_proven": "IPO V §35 individual patient exclusion or admission decision",
+      "source_keys": [
+        "VA7-S01",
+        "VA7-S02"
+      ],
+      "evidence_level": "NAMED_INSTITUTION_AND_EXPLICIT_DATE_IN_SECONDARY_CITY_LEXICON",
+      "local_primary_case_file_read": false
+    },
+    {
+      "finding_id": "VA7-F02-AUGS-ARCHIVE",
+      "location": "Augsburg",
+      "date": "1648 onward",
+      "statement_ko": "1648년 이후 행정의 종파별 균형은 기록업무의 분화와 연결됐다. 새 시청 기록실 안내는 개신교 별도 기록실 1712년, 가톨릭 별도 기록실 1757년을 명시한다.",
+      "context_article": "IPO V §3 institutional administration",
+      "not_proven": "separate archive formally founded in the year 1648; V35 direct court application",
+      "source_keys": [
+        "VA7-S03",
+        "VA7-S04"
+      ],
+      "evidence_level": "TWO_OFFICIAL_ARCHIVE_HISTORY_PAGES_WITH_DISTINCT_ONSET_AND_FORMAL_FOUNDATION_DATES",
+      "local_primary_case_file_read": false
+    },
+    {
+      "finding_id": "VA7-F03-MUENSTER-COUNCIL",
+      "location": "Muenster",
+      "date": "1564–1802",
+      "statement_ko": "뮌스터 시의회 의사록 A II Nr.20은 212권이 디지털화돼 있으나 정확히 1648년 권은 결락한다.",
+      "context_article": "post-1648 investigative path for guild/burial/relief administrative decisions",
+      "not_proven": "a specific 1648 council minute, V35 judgment or named protestant burial claimant",
+      "source_keys": [
+        "VA7-S06",
+        "VA7-S10"
+      ],
+      "evidence_level": "PRIMARY_RECORD_SERIES_CATALOG_DIGITIZED_NOT_INDIVIDUAL_PAGES_INSPECTED",
+      "local_primary_case_file_read": false
+    },
+    {
+      "finding_id": "VA7-F04-MUENSTER-JUDICIAL",
+      "location": "Muenster",
+      "date": "1548–1661 and beyond",
+      "statement_ko": "뮌스터 Judicialprotokolle 65권(1548–1661)과 Judicialakten 약 1,161건의 보존·디지털 접근경로가 공개돼 있어 상속·재산·권리 분쟁을 조사할 수 있다.",
+      "context_article": "possible V35 litigation, if direct confessional facts and cited provision found",
+      "not_proven": "a concrete post-1648 religious burial or guild judgment",
+      "source_keys": [
+        "VA7-S07"
+      ],
+      "evidence_level": "PRIMARY_RECORD_SERIES_CATALOG_NOT_CASE_LEVEL_READ",
+      "local_primary_case_file_read": false
+    },
+    {
+      "finding_id": "VA7-F05-MUENSTER-BOOK",
+      "location": "Muenster",
+      "date": "2024 publication",
+      "statement_ko": "2024년 출판된 1648–1655년 뮌스터 전후 사회사 연구는 시의회 의사록·재정·혼례와 도시 정치에 주목하나, 소개문만으로 종교적 매장권 개별 판결을 확정할 수 없다.",
+      "context_article": "independent peer-reviewed secondary research path",
+      "not_proven": "book contains a certain V35 burial trial",
+      "source_keys": [
+        "VA7-S08",
+        "VA7-S09",
+        "VA7-S14"
+      ],
+      "evidence_level": "ACADEMIC_PROJECT_AND_PUBLISHER_SUMMARY_ONLY",
+      "local_primary_case_file_read": false
+    }
+  ],
+  "archival_target_series": [
+    {
+      "target_id": "VA7-AUG-CITY-COUNCIL",
+      "city": "Augsburg",
+      "repository": "Stadtarchiv Augsburg",
+      "series": "Stadtpfleger, Geheimer Rat und Rat; Acta privata; Bürgeraufnahmen",
+      "holdings_claim_source": "VA7-S05",
+      "topic": "city petitions/guild permits 1649–1680",
+      "exact_item_shelfmark": null,
+      "individual_item_read": false,
+      "query_keywords_de": [
+        "Zunftaufnahme",
+        "Religionsverwandt",
+        "Parität",
+        "Handwerker"
+      ]
+    },
+    {
+      "target_id": "VA7-AUG-HOSPITAL",
+      "city": "Augsburg",
+      "repository": "Stadtarchiv Augsburg",
+      "series": "Hospitäler/Stiftungen/St Servatius administration records (candidate research, no confirmed item signature)",
+      "holdings_claim_source": "VA7-S05",
+      "topic": "1649 parity governance and hospital-patient policies",
+      "exact_item_shelfmark": null,
+      "individual_item_read": false,
+      "query_keywords_de": [
+        "St. Servatius",
+        "Spital",
+        "Spitalpfleger",
+        "Hospitalordnung"
+      ]
+    },
+    {
+      "target_id": "VA7-MUE-RATS",
+      "city": "Muenster",
+      "repository": "Stadtarchiv Münster",
+      "series": "A II Nr. 20 Ratsprotokolle (digital; 1648 missing)",
+      "holdings_claim_source": "VA7-S06",
+      "topic": "1649–1655 municipal acts and individual supplications",
+      "exact_item_shelfmark": "A II Nr. 20 (series-level only; NOT a case file)",
+      "individual_item_read": false,
+      "query_keywords_de": [
+        "Begräbnis",
+        "Friedhof",
+        "Ketzerei",
+        "evangelisch",
+        "Supplik"
+      ]
+    },
+    {
+      "target_id": "VA7-MUE-JUD",
+      "city": "Muenster",
+      "repository": "Stadtarchiv Münster",
+      "series": "Acta Judicialia; Judicialprotokolle; archive-finding aids",
+      "holdings_claim_source": "VA7-S07",
+      "topic": "1649–1660 inheritance, burial and denominational civil disputes",
+      "exact_item_shelfmark": "B-Acta jud (collection-level, no individual case number)",
+      "individual_item_read": false,
+      "query_keywords_de": [
+        "Erbschaft",
+        "Testament",
+        "Religionsstreit",
+        "Begräbniss",
+        "Beisetzung"
+      ]
+    }
+  ],
+  "visual_reference_candidate": {
+    "object_id": "bav:HVO-OBJ-00000HVBSA111702",
+    "title": "Augsburg: Hl. Geist-Spital",
+    "year": 1742,
+    "source_key": "VA7-S11",
+    "institution_rights_statement": "PDM digital image; CC0 metadata (as stated in catalog)",
+    "not_st_servatius": true,
+    "not_1649_scene": true,
+    "downloaded": false,
+    "used_in_webapp": false
+  },
+  "unresolved": [
+    "Locate named 1649 St Servatius council or hospital minutes for parity implementation; city-lexicon report is not an inspected original.",
+    "Find a dated claimant, record, article invocation, outcome and archival call number for any post-1648 IPO V35 guild/hospital/inheritance/burial enforcement.",
+    "Münster A II Nr 20 council series is missing year 1648; do not invent minutes from that year.",
+    "Examine post-1648 Münster Judicialakten originals and index; finding aid is not a court judgment.",
+    "Augsburg 1648 administrative split is distinct from 1712 and 1757 formal Evangelisches/Katholisches Wesensarchiv dates in current city archives site.",
+    "2024 Münster book only read via summary, not complete pages; no named V35 burial trial is yet established.",
+    "Visual candidate depicts Hl Geist-Spital in 1742, not St Servatius in 1649; do not miscaption or republish without a separate editorial decision.",
+    "Original Austrian IPO manuscripts and APW 1998 specific printed pages remain uncollated."
+  ],
+  "query_method": "Study indexed finding aids, then directly read relevant contemporaneous council/judicial/hospital record and prove legal claim; do not equate postwar institutional confessional parity with individual V35 enforcement."
+}
