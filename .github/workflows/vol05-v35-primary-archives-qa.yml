@@ -1,0 +1,25 @@
+name: VOL-05 IPO Civic Rights Primary-Archive Leads QA
+on:
+  push:
+    branches:
+      - research/vol05-v35-primary-archive-leads-v07
+  pull_request:
+    branches:
+      - research/vol05-ipo-regional-reception-v06
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  first-hand-archive-evidence:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Existing canonical and VOL05 regional research checks
+        run: |
+          python3 scripts/validate_atlas_overview_v01.py
+          python3 scripts/validate_vol05_ipo_regional_reception_v06.py
+          python3 scripts/test_vol05_ipo_regional_reception_negative_v06.py
+      - name: Augsburg St Servatius, Muenster source series and release gates
+        run: |
+          python3 scripts/validate_vol05_v35_primary_archives_v07.py
+          python3 scripts/test_vol05_v35_primary_archives_negative_v07.py
