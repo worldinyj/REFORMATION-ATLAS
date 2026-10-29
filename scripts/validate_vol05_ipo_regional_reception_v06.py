@@ -91,7 +91,7 @@ def validate(d=None):
             wrong("invalid regional social-rights context")
     if d["core_method"]!="Separate IPO Article V §3 urban institutional parity from Article V §35 individual civic rights; pre-1648 antecedents and post-1648 retrospective reports are distinct evidence types.":
         wrong("methodological distinction silently erased")
-    if len(d["editorial_holds"])<9 or not any("pre-1648" in s or "PRE" in s for s in d["editorial_holds"]):
+    if len(d["editorial_holds"])<9 or not any("1587" in s or "pre-1648" in s for s in d["editorial_holds"]):
         wrong("critical history uncertainties removed")
     text=(ROOT/DOC).read_text(encoding="utf-8")
     if len(text)<5700 or text.count("\n## ")<8 or "DRAFT_RESEARCH_NOT_PUBLIC" not in text:
