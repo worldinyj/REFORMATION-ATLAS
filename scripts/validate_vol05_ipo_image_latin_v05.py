@@ -52,7 +52,7 @@ def validate(d=None):
     for x in images:
         if x["archive_item_id"]!=2594303 or x["web_fetch_outcome"]!="CACHE_MISS":
             bad("unverified original image fetch promoted")
-        url=urlparse(x["linked_preview_url"])
+        url=urlparse(x["linked_preview_url_observed"])
         if url.scheme!="https" or url.hostname!="www.archivinformationssystem.at" or url.path!="/getimage.aspx":
             bad("preview image URL changed")
         expected="sqnznr="+str(x["image_index_observed"])
