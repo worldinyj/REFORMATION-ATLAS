@@ -1,0 +1,25 @@
+name: VOL-05 Münster MLA and Zumbusch 1677 Archive Crosswalk QA
+on:
+  push:
+    branches:
+      - research/vol05-muenster-archive-crosswalk-v11
+  pull_request:
+    branches:
+      - research/vol05-muenster-citizenship-1677-v10
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  archive-identity-and-publication:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Previously accepted overview and named citizen evidence
+        run: |
+          python3 scripts/validate_atlas_overview_v01.py
+          python3 scripts/validate_vol05_muenster_citizenship_v10.py
+          python3 scripts/test_vol05_muenster_citizenship_negative_v10.py
+      - name: Current MLA acronym, historical Zumbusch provenance and negative mutations
+        run: |
+          python3 scripts/validate_vol05_muenster_archive_crosswalk_v11.py
+          python3 scripts/test_vol05_muenster_archive_crosswalk_negative_v11.py
