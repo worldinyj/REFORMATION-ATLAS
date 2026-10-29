@@ -1,0 +1,25 @@
+name: VOL-05 Münster Reichshofrat Case Inventory QA
+on:
+  push:
+    branches:
+      - research/vol05-muenster-rhr-cases-v09
+  pull_request:
+    branches:
+      - research/vol05-muenster-1661-primary-documents-v08
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  rhr-v09-research:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Previous Münster document history and release safeguards
+        run: |
+          python3 scripts/validate_atlas_overview_v01.py
+          python3 scripts/validate_vol05_muenster_1661_v08.py
+          python3 scripts/test_vol05_muenster_1661_negative_v08.py
+      - name: Münster Vienna court cases 858/871, index folios and 1661 copies
+        run: |
+          python3 scripts/validate_vol05_muenster_rhr_v09.py
+          python3 scripts/test_vol05_muenster_rhr_negative_v09.py
