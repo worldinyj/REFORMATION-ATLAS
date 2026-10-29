@@ -1,0 +1,25 @@
+name: VOL05 Kramergilde Printed Edition and Archive Source Access V1.6 QA
+on:
+  push:
+    branches:
+      - research/vol05-kramergilde-edition-archive-audit-v16
+  pull_request:
+    branches:
+      - research/vol05-kramergilde-membership-1662-1797-v15
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  literature-versus-manuscript-provenance:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Canonical overview and merchant membership V1.5 regression
+        run: |
+          python3 scripts/validate_atlas_overview_v01.py
+          python3 scripts/validate_vol05_kramergilde_membership_v15.py
+          python3 scripts/test_vol05_kramergilde_membership_negative_v15.py
+      - name: Direct-printed-page access tier and original 1719 guild folio V1.6
+        run: |
+          python3 scripts/validate_vol05_kramergilde_archive_audit_v16.py
+          python3 scripts/test_vol05_kramergilde_archive_audit_negative_v16.py
