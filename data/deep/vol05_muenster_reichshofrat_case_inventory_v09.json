@@ -1,0 +1,287 @@
+{
+  "schema_version": "0.9",
+  "kind": "VOL05_MUENSTER_REICHS_HOFRAT_CASE_INVENTORY_V09",
+  "status": "DRAFT_RESEARCH_NOT_PUBLIC",
+  "as_of": "2026-10-29",
+  "parent": "data/deep/vol05_muenster_1661_documents_v08.json",
+  "volume_id": "VOL-05",
+  "canonical_event_id": "OV-E-024",
+  "canonical_document_id": "OV-D-015",
+  "new_canonical_ids": 0,
+  "overview_modified": false,
+  "ai_studio_modified": false,
+  "publication_gate": {
+    "scholar_review": false,
+    "original_reichshofrat_case_text_read": false,
+    "copy1626_text_transcribed": false,
+    "copy1627_text_transcribed": false,
+    "v35_individual_case_proven": false,
+    "media_rights_approved": false,
+    "publication_approved": false
+  },
+  "sources": [
+    {
+      "source_key": "RHR09-S01",
+      "url": "https://www.rhrdigital.de/id/antiqua.4.858/akte.html",
+      "kind": "REICHSHOFRAT_DIGITAL_CASE_INVENTORY",
+      "access": "INDEXED_RESULT_READ_DIRECT_OPEN_CACHE_MISS",
+      "scope": "Antiqua volume 4 case 858, five K files, 1655–1661, 3429 folios",
+      "original_manuscript_pages_read": false,
+      "full_case_pdf_read": false,
+      "image_reuse_licensed": false,
+      "publish_approved": false
+    },
+    {
+      "source_key": "RHR09-S02",
+      "url": "https://www.rhrdigital.de/id/antiqua.4.871/akte.html",
+      "kind": "REICHSHOFRAT_DIGITAL_CASE_INVENTORY",
+      "access": "INDEXED_RESULT_READ_DIRECT_OPEN_CACHE_MISS",
+      "scope": "Antiqua volume 4 case 871, K.393 Nr.14, 1659–1660, 205 folios",
+      "original_manuscript_pages_read": false,
+      "full_case_pdf_read": false,
+      "image_reuse_licensed": false,
+      "publish_approved": false
+    },
+    {
+      "source_key": "RHR09-S03",
+      "url": "https://www.rhrdigital.de/band/4%2BAntiqua/field/entscheidungen/page/1/q/rat/truncation/0/suche.html",
+      "kind": "REICHSHOFRAT_INDEX_DECISION_EXCERPTS",
+      "access": "SEARCH_RESULTS_TEXT_READ_NO_CASE_MANUSCRIPT",
+      "scope": "Indexed dates for 1655 Reichshofrat opinion, 1659 bishop-favor judgment copy, 1660 parition and 1661 deliberation",
+      "original_manuscript_pages_read": false,
+      "full_case_pdf_read": false,
+      "image_reuse_licensed": false,
+      "publish_approved": false
+    },
+    {
+      "source_key": "RHR09-S04",
+      "url": "https://dbis.uni-regensburg.de/HSLU/resources/11615",
+      "kind": "ACADEMIC_DATABASE_ACCESS_DESCRIPTION",
+      "access": "INSTITUTIONAL_DESCRIPTION_READ",
+      "scope": "Public inventory search, original/digitized file full texts paid; catalog != folio images",
+      "original_manuscript_pages_read": false,
+      "full_case_pdf_read": false,
+      "image_reuse_licensed": false,
+      "publish_approved": false
+    },
+    {
+      "source_key": "RHR09-S05",
+      "url": "https://www.uni-muenster.de/Rechtalswissenschaft/doktorandInnen/Mika_Dahmer.html",
+      "kind": "UNIVERSITY_RESEARCH_PROPOSAL",
+      "access": "INSTITUTIONAL_PROJECT_SUMMARY_READ",
+      "scope": "1655–1661 judicial autonomy conflict, original Vienna records research",
+      "original_manuscript_pages_read": false,
+      "full_case_pdf_read": false,
+      "image_reuse_licensed": false,
+      "publish_approved": false
+    },
+    {
+      "source_key": "RHR09-S06",
+      "url": "https://www.lwl.org/westfaelische-geschichte/portal/Internet/urkunden_datenbank/suche/regest_detail.php?regest=112845&url_history_back=2&url_zaehler_blaettern=9",
+      "kind": "LWL_18TH_CENTURY_COPY_REGEST",
+      "access": "REGEST_HTML_READ_COPY_NOT_READ",
+      "scope": "1661-08-13 town judge instruction, reporting non-Catholic residents, Urkunden 1626",
+      "original_manuscript_pages_read": false,
+      "full_case_pdf_read": false,
+      "image_reuse_licensed": false,
+      "publish_approved": false
+    },
+    {
+      "source_key": "RHR09-S07",
+      "url": "https://www.lwl.org/westfaelische-geschichte/portal/Internet/urkunden_datenbank/suche/regest_detail.php?regest=112846&url_history_back=1&url_zaehler_blaettern=9",
+      "kind": "LWL_18TH_CENTURY_COPY_REGEST",
+      "access": "REGEST_HTML_READ_COPY_NOT_READ",
+      "scope": "1661-08-18 council instruction, hospital/death officials, Urkunden 1627",
+      "original_manuscript_pages_read": false,
+      "full_case_pdf_read": false,
+      "image_reuse_licensed": false,
+      "publish_approved": false
+    },
+    {
+      "source_key": "RHR09-S08",
+      "url": "https://www.stadt-muenster.de/archiv/archivalien-digital/gerichtsakten",
+      "kind": "MUNICIPAL_ARCHIVE_DESCRIPTION",
+      "access": "HOLDINGS_GUIDE_READ",
+      "scope": "1661 change in municipal judicial authority, civil cases still partly under city council",
+      "original_manuscript_pages_read": false,
+      "full_case_pdf_read": false,
+      "image_reuse_licensed": false,
+      "publish_approved": false
+    },
+    {
+      "source_key": "RHR09-S09",
+      "url": "https://www.stadt-muenster.de/archiv/archivalien-digital/ratsprotokolle-1564-1802",
+      "kind": "MUNICIPAL_ARCHIVE_COUNCIL_GUIDE",
+      "access": "HOLDINGS_GUIDE_READ",
+      "scope": "1648 year missing; post-1661 A II Nr23 provisional council records",
+      "original_manuscript_pages_read": false,
+      "full_case_pdf_read": false,
+      "image_reuse_licensed": false,
+      "publish_approved": false
+    },
+    {
+      "source_key": "RHR09-S10",
+      "url": "https://www.archive.nrw.de/landesarchiv-nrw/landesarchiv-nrw-abteilung-westfalen/kontrolle-durch-befestigung",
+      "kind": "STATE_ARCHIVE_HISTORICAL_CONTEXT",
+      "access": "SCHOLARLY_ARCHIVE_NOTE_READ",
+      "scope": "1650 bishop, siege and 1661 autonomy loss",
+      "original_manuscript_pages_read": false,
+      "full_case_pdf_read": false,
+      "image_reuse_licensed": false,
+      "publish_approved": false
+    }
+  ],
+  "court_case_catalogs": [
+    {
+      "key": "MUE-RHR-ANT4-858",
+      "case_number": 858,
+      "series": "Antiqua",
+      "catalog_volume": 4,
+      "citable_smartlink": "https://www.rhrdigital.de/antiqua.4.858",
+      "archive_subfile_signatures": [
+        "K. 389, Nr. 5",
+        "K. 390, Nr. 1",
+        "K. 391, Nr. 1",
+        "K. 392, Nr. 1",
+        "K. 393, Nr. 1"
+      ],
+      "years_start": 1655,
+      "years_end": 1661,
+      "folios_catalog_total": 3429,
+      "listed_parties": [
+        "Münster, Bischof Christoph Bernhard von Galen",
+        "Münster, Domkapitel",
+        "Münster, Stadt"
+      ],
+      "topic_key": "MUNICIPAL_VS_BISHOP_GARRISON_IUS_PRAESIDII",
+      "source_keys": [
+        "RHR09-S01",
+        "RHR09-S03"
+      ],
+      "description_ko": "도시의 병력 주둔권과 제후주교·주교좌 참사회 사이의 권한 분쟁",
+      "source_level": "CATALOG_SUMMARY_AND_SEARCH_EXCERPT_NOT_DIRECT_MANUSCRIPT",
+      "full_original_read": false,
+      "explicit_ipo_v35_adjudication_proved": false
+    },
+    {
+      "key": "MUE-RHR-ANT4-871",
+      "case_number": 871,
+      "series": "Antiqua",
+      "catalog_volume": 4,
+      "citable_smartlink": "https://www.rhrdigital.de/antiqua.4.871",
+      "archive_subfile_signatures": [
+        "K. 393, Nr. 14"
+      ],
+      "years_start": 1659,
+      "years_end": 1660,
+      "folios_catalog_total": 205,
+      "listed_parties": [
+        "Münster, Bischof Christoph Bernhard von Galen",
+        "Münster, Stadt"
+      ],
+      "topic_key": "DISOBEDIENCE_DUTCH_STATES_TROOP_RECRUITMENT",
+      "source_keys": [
+        "RHR09-S02",
+        "RHR09-S03"
+      ],
+      "description_ko": "도시의 불복종, 네덜란드 연방과의 접촉, 자체 병력 모집에 관한 명령 요청",
+      "source_level": "CATALOG_SUMMARY_AND_SEARCH_EXCERPT_NOT_DIRECT_MANUSCRIPT",
+      "full_original_read": false,
+      "explicit_ipo_v35_adjudication_proved": false
+    }
+  ],
+  "decision_index_leads": [
+    {
+      "key": "RHR09-L-1655-0812",
+      "case_key": "MUE-RHR-ANT4-858",
+      "date": "1655-08-12",
+      "description": "Reichshofrat legal opinion",
+      "subfile_signature": "K. 390, Nr. 1",
+      "reported_folio": "79r–86v",
+      "source_key": "RHR09-S03",
+      "evidence_tier": "SEARCH_EXCERPT_OF_CATALOG_DECISIONS",
+      "document_text_read": false
+    },
+    {
+      "key": "RHR09-L-1659-0709",
+      "case_key": "MUE-RHR-ANT4-858",
+      "date": "1659-07-09",
+      "description": "Judgment favorable to bishop, catalog labels document Abschrift (copy)",
+      "subfile_signature": null,
+      "reported_folio": "77r–79v",
+      "source_key": "RHR09-S03",
+      "evidence_tier": "SEARCH_EXCERPT_OF_CATALOG_DECISIONS",
+      "document_text_read": false
+    },
+    {
+      "key": "RHR09-L-1660-0523",
+      "case_key": "MUE-RHR-ANT4-858",
+      "date": "1660-05-23",
+      "description": "Paritionsurteil against city, Konz. draft; no complete folio range observed",
+      "subfile_signature": null,
+      "reported_folio": null,
+      "source_key": "RHR09-S03",
+      "evidence_tier": "SEARCH_EXCERPT_OF_CATALOG_DECISIONS",
+      "document_text_read": false
+    },
+    {
+      "key": "RHR09-L-1661-0307",
+      "case_key": "MUE-RHR-ANT4-858",
+      "date": "1661-03-07",
+      "description": "Reichshofrat opinion, approved with modifications 1661-03-17",
+      "subfile_signature": "K. 393, Nr. 1",
+      "reported_folio": "69r–88r",
+      "source_key": "RHR09-S03",
+      "evidence_tier": "SEARCH_EXCERPT_OF_CATALOG_DECISIONS",
+      "document_text_read": false
+    },
+    {
+      "key": "RHR09-L-1660-0103",
+      "case_key": "MUE-RHR-ANT4-871",
+      "date": "1660-01-03",
+      "description": "Mandate against city, catalog labels Konz. draft",
+      "subfile_signature": "K. 393, Nr. 14",
+      "reported_folio": "134r (start only; full range unknown)",
+      "source_key": "RHR09-S03",
+      "evidence_tier": "SEARCH_EXCERPT_OF_CATALOG_DECISIONS",
+      "document_text_read": false
+    }
+  ],
+  "later_copy_requests": [
+    {
+      "key": "RHR09-COPY-1626",
+      "act_date": "1661-08-13",
+      "witness_date": "18th century",
+      "holding_institution": "Landesarchiv NRW Abteilung Westfalen",
+      "shelfmark": "Verein für Geschichte und Altertumskunde Westfalens, Abteilung Münster (Dep.) - Urkunden, Nr. 1626",
+      "web_regest": "LWL 112845",
+      "request_subject_de": "Kopie (18. Jahrhundert) des Reglements für den münsterschen Stadtrichter vom 13.08.1661; Bitte um Digitalisat und Benutzungsbedingungen",
+      "original_copy_images_obtained": false,
+      "read_in_full": false,
+      "claims_allowed": "The regest indexes Anzeige nichtkatholischer Einwohner; not an individual expulsion"
+    },
+    {
+      "key": "RHR09-COPY-1627",
+      "act_date": "1661-08-18",
+      "witness_date": "18th century",
+      "holding_institution": "Landesarchiv NRW Abteilung Westfalen",
+      "shelfmark": "Verein für Geschichte und Altertumskunde Westfalens, Abteilung Münster (Dep.) - Urkunden, Nr. 1627",
+      "web_regest": "LWL 112846",
+      "request_subject_de": "Kopie (18. Jahrhundert) der Instruktion für Bürgermeister und Rat vom 18.08.1661; Bitte um Digitalisat, Hospitalsherren und Sterbherren betreffende Stellen",
+      "original_copy_images_obtained": false,
+      "read_in_full": false,
+      "claims_allowed": "The regest lists municipal officer roles; not an adjudicated hospital or burial claim"
+    }
+  ],
+  "research_conclusions": [
+    "Two distinct Vienna Reichshofrat cases have explicit catalog signatures and are NOT the same as one individual's denominational-rights case.",
+    "Antiqua Band 4 Akte 858 is listed with 3429 folios, across five K-number subfiles. Index folio positions belong to the respective subfiles and must not be treated as manuscript pages read.",
+    "Akte 871 is a separate 1659–1660 troop/Dutch contact related mandate request.",
+    "1661-08-13 non-Catholic reporting refers to a norm transmitted by an eighteenth-century copy. No actual arrest, expulsion or §35 individual ruling was confirmed.",
+    "1661-08-18 Hospitalsherren and Sterbherren are administrative roles from regest; no specific patient or burial legal verdict was observed.",
+    "Reichshofrat digital inventories may be searched for free, but full digitized texts need a subscription. No full-file text was copied.",
+    "1661-03-07 and 1661-03-17 indicate a legal opinion and its subsequent approval/modification, not an automatically executed judgment.",
+    "1648 Münster council volume is missing, not to be falsely reconstructed.",
+    "No source photo or archival image has been downloaded or released."
+  ]
+}
