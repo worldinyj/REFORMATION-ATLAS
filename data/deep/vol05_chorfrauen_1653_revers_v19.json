@@ -1,0 +1,230 @@
+{
+  "schema_version": "1.9",
+  "kind": "VOL05_CHORFRAUEN_1653_REVERS_AND_1655_SETTLEMENT_AUDIT",
+  "status": "DRAFT_RESEARCH_NOT_PUBLIC",
+  "parent": "data/deep/vol05_muenster_1649_chorfrauen_guild_v18.json",
+  "canonical_event_id": "OV-E-024",
+  "canonical_document_id": "OV-D-015",
+  "new_canonical_ids": 0,
+  "main_modified": false,
+  "overview_modified": false,
+  "ai_studio_modified": false,
+  "gates": {
+    "historian_approved": false,
+    "APW_pages_237_238_read": false,
+    "Feb1649_folio5v_read": false,
+    "Mar1649_folio13v_read": false,
+    "Sept1649_compromise_original_read": false,
+    "July1653_Revers_original_read": false,
+    "year1655_purchase_deed_read": false,
+    "IPO_V35_individual_verdict_found": false,
+    "media_rights_cleared": false,
+    "publish": false
+  },
+  "sources": [
+    {
+      "id": "JAKOBI",
+      "url": "https://www.lwl.org/westfaelische-geschichte/portal/Internet/finde/langDatensatz.php?urlID=445&url_tabelle=tab_texte",
+      "tier": "FULL_MODERN_SCHOLARLY_HTML_READ",
+      "scope": "1649 city-guild debate, exact 1649 folios, longer resistance",
+      "original_1649_or_1653_read": false,
+      "printed_APW_page_read": false,
+      "image_rights_approved": false
+    },
+    {
+      "id": "KLOSTERBUCH",
+      "url": "https://www.lwl.org/hiko-download/HiKo-Reihe_044_Band_2_Teil_2_%282024%29.pdf",
+      "tier": "1994_MONASTERY_LEXICON_2024_SCAN_SEARCH_EXCERPT_ONLY",
+      "scope": "1653-07-04 Revers, 12 cap, house/property, local sisters' inheritance, 1655 house, 1661 extension",
+      "original_1649_or_1653_read": false,
+      "printed_APW_page_read": false,
+      "image_rights_approved": false
+    },
+    {
+      "id": "PUBLISHER",
+      "url": "https://www.lwl.org/hiko-download/HiKo-Schriftenverzeichnis_2025-09.pdf",
+      "tier": "OFFICIAL_BIBLIOGRAPHY_PDF_SEARCH_INDEX",
+      "scope": "Hengst ed. 1994 Westfälisches Klosterbuch Band2 Teil2 online 2024; not a newly written 2024 original",
+      "original_1649_or_1653_read": false,
+      "printed_APW_page_read": false,
+      "image_rights_approved": false
+    },
+    {
+      "id": "CITY",
+      "url": "https://www.presse-service.de/data.aspx/static/592334.html",
+      "tier": "FULL_MUNICIPAL_HISTORY_HTML_READ",
+      "scope": "1642 arrival, cap12, 1655 Hörstertor house, subsequently 30 sisters and free school",
+      "original_1649_or_1653_read": false,
+      "printed_APW_page_read": false,
+      "image_rights_approved": false
+    },
+    {
+      "id": "APW_SITE",
+      "url": "https://apw.digitale-sammlungen.de/",
+      "tier": "DIRECT_ACCESS_DENIED_ANUBIS",
+      "scope": "APW III D1 p237–238 not read",
+      "original_1649_or_1653_read": false,
+      "printed_APW_page_read": false,
+      "image_rights_approved": false
+    },
+    {
+      "id": "BONN",
+      "url": "https://www.zhf.uni-bonn.de/publikationen/apw-digital",
+      "tier": "OFFICIAL_APW_DIGITAL_PLATFORM",
+      "scope": "APW 40 source-edition volumes accessible in principle",
+      "original_1649_or_1653_read": false,
+      "printed_APW_page_read": false,
+      "image_rights_approved": false
+    },
+    {
+      "id": "PRINT1964",
+      "url": "https://ci.nii.ac.jp/ncid/BA26359651",
+      "tier": "ACADEMIC_LIBRARY_BIBLIOGRAPHY",
+      "scope": "Helmut Lahrkamp, Stadtmünsterische Akten und Vermischtes 1964, Serie III D1",
+      "original_1649_or_1653_read": false,
+      "printed_APW_page_read": false,
+      "image_rights_approved": false
+    },
+    {
+      "id": "OUP",
+      "url": "https://academic.oup.com/book/35388/chapter-abstract/301955145",
+      "tier": "PUBLISHER_BOOK_CHAPTER_ABSTRACT",
+      "scope": "Simone Laqua-O'Donnell 2014 book abstract only",
+      "original_1649_or_1653_read": false,
+      "printed_APW_page_read": false,
+      "image_rights_approved": false
+    },
+    {
+      "id": "MIRROR",
+      "url": "https://paperzz.com/doc/8028905/women-and-the-counter-reformation-in-early-modern-m%C3%BCnster",
+      "tier": "UNOFFICIAL_TEXT_SEARCH_EXCERPT_ONLY",
+      "scope": "1649-09-20 provisional one-year compromise and 1653 permanent leave, both need authorized edition/source check",
+      "original_1649_or_1653_read": false,
+      "printed_APW_page_read": false,
+      "image_rights_approved": false
+    }
+  ],
+  "chronology": [
+    {
+      "id": "ARRIVE",
+      "date": "1642",
+      "description": "city/monastery handbook says war-displaced canonesses arrive, Jakobi approx 1643",
+      "original_record_read": false
+    },
+    {
+      "id": "SCHOOL",
+      "date": "1644",
+      "description": "small girls school opened (monastery handbook)",
+      "original_record_read": false
+    },
+    {
+      "id": "MANDATE",
+      "date": "1647-04-08",
+      "description": "episcopal permission in scholar-cited A VIII 226 Beilage",
+      "original_record_read": false
+    },
+    {
+      "id": "FEB49",
+      "date": "1649-02-25",
+      "description": "council conditional approval A II20 Bd79 fol5v, guild assent needed",
+      "original_record_read": false
+    },
+    {
+      "id": "MAR49",
+      "date": "1649-03-03",
+      "description": "guild refusal considered at council A II20 Bd79 fol13v",
+      "original_record_read": false
+    },
+    {
+      "id": "SEP49",
+      "date": "1649-09-20",
+      "description": "provisional one-year stay conditional, only unofficial mirror of scholarly book excerpt",
+      "original_record_read": false
+    },
+    {
+      "id": "REVERS",
+      "date": "1653-07-04",
+      "description": "formal undertaking limits 12 members and lands, inheritance and confessor",
+      "original_record_read": false
+    },
+    {
+      "id": "HOUSE",
+      "date": "1655",
+      "description": "Hörstertor house acquisition per official city and edited monastery history",
+      "original_record_read": false
+    },
+    {
+      "id": "EXPAND",
+      "date": "1661",
+      "description": "later convent extension, distinct from 1661 restriction of guild political rights",
+      "original_record_read": false
+    }
+  ],
+  "revers": {
+    "date": "1653-07-04",
+    "sisters_cap": 12,
+    "one_house_allowed": true,
+    "additional_land_restricted": true,
+    "local_sisters_inheritance_waiver_reported": true,
+    "German_secular_confessor_reported": true,
+    "papal_mendicant_order_condition_reported": true,
+    "source": "KLOSTERBUCH",
+    "contemporaneous_original_read": false,
+    "archive_shelfmark": null,
+    "identical_to_permanent_residence_act_proven": false
+  },
+  "edition": {
+    "title": "Stadtmünsterische Akten und Vermischtes",
+    "editor": "Helmut Lahrkamp",
+    "year": 1964,
+    "APW_series": "III D 1",
+    "pages": "237–238",
+    "original_city_folio": "A II 20 Bd.79 fol.5v",
+    "APW_full_text_read": false,
+    "digital_access": "ANUBIS_BLOCKED"
+  },
+  "original_leads": [
+    {
+      "date": "1649-02-25",
+      "locator": "A II 20 Bd.79 fol.5v",
+      "original_read": false
+    },
+    {
+      "date": "1649-03-03",
+      "locator": "A II 20 Bd.79 fol.13v",
+      "original_read": false
+    },
+    {
+      "date": "1647-04-08",
+      "locator": "A VIII 226 Beilage",
+      "original_read": false
+    },
+    {
+      "date": "1651-11-20",
+      "locator": "A II Nr.20 Bd.81 fol.138 (unofficial excerpt only)",
+      "original_read": false
+    },
+    {
+      "date": "1653-07-04",
+      "locator": null,
+      "original_read": false
+    }
+  ],
+  "legal_boundaries": [
+    "City-guild permission for Catholic teaching order is not individual IPO V §35 judicial adjudication",
+    "1653 Revers is an obligation with conditions, not proven identical text of permanent residence deed",
+    "Original 1649 and 1653 folios were not read",
+    "1649 one-year September compromise is a lower-confidence scholar-text mirror lead",
+    "1642 arrival vs Jakobi circa 1643 must be attributed to each source",
+    "1994 original edited monastery book digitized 2024, only indexed snippets inspected",
+    "1655 purchase does not falsify permission to acquire one house; ban concerns additional immovable assets",
+    "No photos or protected monograph text redistributed"
+  ],
+  "next_tasks": [
+    "Obtain printed APW III D 1 pp237-238 and compare A II 20 Bd79 fol5v",
+    "Verify official source/folio for 1649 Sep20 compromise and 1651 Nov20 council action",
+    "Locate 1653 July4 Revers exact original archival call number and read conditions",
+    "Read contemporary 1655 Hörstertor purchase act",
+    "Distinguish 1642 physical arrival, 1644 school opening, 1653 settlement terms, 1655 purchase, 1661 expansion"
+  ]
+}
