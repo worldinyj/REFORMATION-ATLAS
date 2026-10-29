@@ -1,0 +1,303 @@
+{
+  "schema_version": "0.8",
+  "kind": "VOL05_MUENSTER_POST_WESTPHALIA_DOCUMENT_LEVEL_CROSSWALK",
+  "status": "DRAFT_RESEARCH_NOT_PUBLIC",
+  "as_of": "2026-10-29",
+  "volume_id": "VOL-05",
+  "parent_registry": "data/deep/vol05_ipo_v35_primary_archive_leads_v07.json",
+  "canonical_event_id": "OV-E-024",
+  "canonical_document_id": "OV-D-015",
+  "new_canonical_ids": 0,
+  "overview_modified": false,
+  "ai_studio_modified": false,
+  "publication_gate": {
+    "historian_review": false,
+    "original_manuscripts_read": false,
+    "individual_V35_rights_enforcement_verified": false,
+    "original_IPO_latin_collated": false,
+    "media_rights_approved": false,
+    "can_publish": false
+  },
+  "sources": [
+    {
+      "source_key": "V08-S01",
+      "url": "https://www.deutsche-digitale-bibliothek.de/item/5S2DC42KLMFXCNUM2XIG3YXJIZ6RZNZQ",
+      "kind": "DDB_CATALOG_OF_ORIGINAL_PARCHMENT",
+      "access_level": "CATALOG_METADATA_READ_ORIGINAL_DIGITIZED_NOT_TEXT_READ",
+      "scope": "1661-03-26 jurisdiction conveyance, B 008u",
+      "direct_original_document_text_read": false,
+      "direct_17th_century_folio_collated": false,
+      "licensed_for_image_reuse": false,
+      "public_approved": false
+    },
+    {
+      "source_key": "V08-S02",
+      "url": "https://www.lwl.org/westfaelische-geschichte/portal/Internet/urkunden_datenbank/suche/regest_detail.php?regest=112845&url_history_back=2&url_zaehler_blaettern=9",
+      "kind": "LWL_REGEST_OF_18TH_C_COPY",
+      "access_level": "ARCHIVE_REGEST_READ_NO_MANUSCRIPT_IMAGE",
+      "scope": "1661-08-13 town judge regulation, non-Catholic residence reports, No 1626",
+      "direct_original_document_text_read": false,
+      "direct_17th_century_folio_collated": false,
+      "licensed_for_image_reuse": false,
+      "public_approved": false
+    },
+    {
+      "source_key": "V08-S03",
+      "url": "https://www.lwl.org/westfaelische-geschichte/portal/Internet/urkunden_datenbank/suche/regest_detail.php?regest=112846&url_history_back=1&url_zaehler_blaettern=9",
+      "kind": "LWL_REGEST_OF_18TH_C_COPY",
+      "access_level": "ARCHIVE_REGEST_READ_NO_MANUSCRIPT_IMAGE",
+      "scope": "1661-08-18 mayor/council instruction, hospital/death officers, No 1627",
+      "direct_original_document_text_read": false,
+      "direct_17th_century_folio_collated": false,
+      "licensed_for_image_reuse": false,
+      "public_approved": false
+    },
+    {
+      "source_key": "V08-S04",
+      "url": "https://www.stadt-muenster.de/museum/museum/33-kabinette/1-obergeschoss/12-fuerstbischof-christoph-bernhard-von-galen-1650-1678",
+      "kind": "MUNICIPAL_MUSEUM_HISTORICAL_EXPLANATION",
+      "access_level": "CITY_MUSEUM_SUMMARY_READ",
+      "scope": "Galen elected 1650, siege, 1661 loss of municipal autonomy",
+      "direct_original_document_text_read": false,
+      "direct_17th_century_folio_collated": false,
+      "licensed_for_image_reuse": false,
+      "public_approved": false
+    },
+    {
+      "source_key": "V08-S05",
+      "url": "https://www.archive.nrw.de/landesarchiv-nrw/landesarchiv-nrw-abteilung-westfalen/kontrolle-durch-befestigung",
+      "kind": "STATE_ARCHIVE_2026_EXHIBITION_INTERPRETATION",
+      "access_level": "REGIONAL_ARCHIVE_EXHIBITION_TEXT_READ",
+      "scope": "1650-61 autonomy conflict, siege, 1661 citadel",
+      "direct_original_document_text_read": false,
+      "direct_17th_century_folio_collated": false,
+      "licensed_for_image_reuse": false,
+      "public_approved": false
+    },
+    {
+      "source_key": "V08-S06",
+      "url": "https://www.uni-muenster.de/Rechtalswissenschaft/doktorandInnen/Mika_Dahmer.html",
+      "kind": "UNIVERSITY_DOCTORAL_RESEARCH_DESCRIPTION",
+      "access_level": "PROJECT_SUMMARY_ONLY_NOT_ORIGINAL_VIENNA_CASE_READ",
+      "scope": "1655–1661 Reichshofrat lawsuits on municipal vs prince-bishop jurisdiction",
+      "direct_original_document_text_read": false,
+      "direct_17th_century_folio_collated": false,
+      "licensed_for_image_reuse": false,
+      "public_approved": false
+    },
+    {
+      "source_key": "V08-S07",
+      "url": "https://www.stadt-muenster.de/archiv/archivalien-digital/ratsprotokolle-1564-1802",
+      "kind": "MUNICIPAL_ARCHIVE_COUNCIL_RECORD_FINDING_AID",
+      "access_level": "SERIES_FINDING_AID_READ_NOT_VOLUME_MANUSCRIPT",
+      "scope": "A II Nr20 1648 year missing; 1661 discontinuity and A II Nr23 excerpts",
+      "direct_original_document_text_read": false,
+      "direct_17th_century_folio_collated": false,
+      "licensed_for_image_reuse": false,
+      "public_approved": false
+    },
+    {
+      "source_key": "V08-S08",
+      "url": "https://www.stadt-muenster.de/archiv/archivalien-digital/gerichtsakten",
+      "kind": "MUNICIPAL_ARCHIVE_COURT_RECORD_FINDING_AID",
+      "access_level": "SERIES_FINDING_AID_READ_NOT_CASE_MANUSCRIPT",
+      "scope": "Acta Judicialia, Judicialprotokolle and 1661 judicial jurisdiction shift",
+      "direct_original_document_text_read": false,
+      "direct_17th_century_folio_collated": false,
+      "licensed_for_image_reuse": false,
+      "public_approved": false
+    },
+    {
+      "source_key": "V08-S09",
+      "url": "https://www.lwl.org/westfaelische-geschichte/portal/Internet/finde/langDatensatz.php?urlID=33&url_tabelle=tab_websegmente",
+      "kind": "LWL_REGIONAL_HISTORICAL_OVERVIEW",
+      "access_level": "REGIONAL_SECONDARY_CONTEXT_READ",
+      "scope": "Galen 1650 election and March 1661 capture",
+      "direct_original_document_text_read": false,
+      "direct_17th_century_folio_collated": false,
+      "licensed_for_image_reuse": false,
+      "public_approved": false
+    },
+    {
+      "source_key": "V08-S10",
+      "url": "https://www.stadt-muenster.de/archiv/service-angebote/scan-on-demand",
+      "kind": "MUNICIPAL_ARCHIVE_ON_DEMAND_ACCESS_INFO",
+      "access_level": "INSTITUTIONAL_ACCESS_GUIDE_READ",
+      "scope": "Request digitization by inventory + signature, rights may limit",
+      "direct_original_document_text_read": false,
+      "direct_17th_century_folio_collated": false,
+      "licensed_for_image_reuse": false,
+      "public_approved": false
+    }
+  ],
+  "document_records": [
+    {
+      "research_id": "MUE-DOC-1661-03-26-SENDEN",
+      "document_date": "1661-03-26",
+      "document_role": "CITY_TO_BISHOP_SPECIFIC_JUDICIAL_JURISDICTION_TRANSFER",
+      "title_ko": "뮌스터 시의 젠덴 Gogericht 재판 관할권 양도 문서",
+      "source_keys": [
+        "V08-S01"
+      ],
+      "repository": "Landesarchiv NRW Abteilung Westfalen",
+      "fonds": "B 008u Fürstbistum Münster, Hofkammer - Urkunden",
+      "legacy_signature": "Fb. Münster No. 4446",
+      "object_location": "DDB item 5S2DC42KLMFXCNUM2XIG3YXJIZ6RZNZQ",
+      "catalog_declared_witness_type": "ORIGINAL_PARCHMENT",
+      "digitization_reported": true,
+      "digitized_image_count": null,
+      "original_bytes_inspected": false,
+      "regest_or_catalog_read": true,
+      "original_witness_text_collated": false,
+      "legal_scope": "Gogericht zu Senden, NOT comprehensive all municipal rights",
+      "religious_subject_reporting": false,
+      "explicit_IPO_article_V35_in_document": false
+    },
+    {
+      "research_id": "MUE-DOC-1661-08-13-STADTRICHTER",
+      "document_date": "1661-08-13",
+      "document_role": "TOWN_JUDGE_ADMINISTRATIVE_REGULATION",
+      "title_ko": "뮌스터 시 판사 규정 — 비가톨릭 주민 신고 및 시민권 심사",
+      "source_keys": [
+        "V08-S02"
+      ],
+      "repository": "Landesarchiv NRW Abteilung Westfalen",
+      "fonds": "Verein für Geschichte und Altertumskunde Westfalens, Münster (Dep.) - Urkunden",
+      "legacy_signature": "Nr. 1626",
+      "object_location": "LWL regest 112845",
+      "catalog_declared_witness_type": "18TH_CENTURY_PAPER_COPY_OF_1661_REGULATION",
+      "digitization_reported": false,
+      "digitized_image_count": null,
+      "original_bytes_inspected": false,
+      "regest_or_catalog_read": true,
+      "original_witness_text_collated": false,
+      "legal_scope": "Judge's rights and duties, citizen admissions and reporting; not an individual prosecuted resident",
+      "religious_subject_reporting": true,
+      "explicit_IPO_article_V35_in_document": false
+    },
+    {
+      "research_id": "MUE-DOC-1661-08-18-RAT",
+      "document_date": "1661-08-18",
+      "document_role": "CITY_MAYOR_COUNCIL_ADMINISTRATIVE_INSTRUCTION",
+      "title_ko": "뮌스터 시장·시의회 업무 지침 — Hospitalsherren과 Sterbherren",
+      "source_keys": [
+        "V08-S03"
+      ],
+      "repository": "Landesarchiv NRW Abteilung Westfalen",
+      "fonds": "Verein für Geschichte und Altertumskunde Westfalens, Münster (Dep.) - Urkunden",
+      "legacy_signature": "Nr. 1627",
+      "object_location": "LWL regest 112846",
+      "catalog_declared_witness_type": "18TH_CENTURY_PAPER_COPY_OF_1661_INSTRUCTION",
+      "digitization_reported": false,
+      "digitized_image_count": null,
+      "original_bytes_inspected": false,
+      "regest_or_catalog_read": true,
+      "original_witness_text_collated": false,
+      "legal_scope": "municipal offices, hospital and death-related office functions, not a medical access ruling",
+      "religious_subject_reporting": false,
+      "explicit_IPO_article_V35_in_document": false
+    }
+  ],
+  "chronology": [
+    {
+      "phase_key": "MUE-V08-PHASE-1648",
+      "year": 1648,
+      "description_ko": "베스트팔렌 평화체제와 뮌스터 시의회 의사록 1648년분 결락",
+      "source_keys": [
+        "V08-S07"
+      ],
+      "archive_primary_case_read": false
+    },
+    {
+      "phase_key": "MUE-V08-PHASE-1650",
+      "year": 1650,
+      "description_ko": "크리스토프 베른하르트 폰 갈렌 주교 선출과 주교권·도시 자치의 긴장",
+      "source_keys": [
+        "V08-S04",
+        "V08-S09"
+      ],
+      "archive_primary_case_read": false
+    },
+    {
+      "phase_key": "MUE-V08-PHASE-1655-1661",
+      "year_start": 1655,
+      "year_end": 1661,
+      "description_ko": "양측이 빈 제국궁정법원(Reichshofrat)에서 제국도시 지위 및 권한을 다투었다는 대학 연구 계획",
+      "source_keys": [
+        "V08-S06"
+      ],
+      "archive_primary_case_read": false
+    },
+    {
+      "phase_key": "MUE-V08-PHASE-1661",
+      "year": 1661,
+      "description_ko": "군사적 복속과 재판권 이전, 시 판사 및 시의회 규칙 재조직",
+      "source_keys": [
+        "V08-S01",
+        "V08-S02",
+        "V08-S03",
+        "V08-S04"
+      ],
+      "archive_primary_case_read": false
+    }
+  ],
+  "archival_investigation_next": [
+    {
+      "target_key": "MUE-REICHS-1655-1661",
+      "target": "Reichshofrat Vienna case files identified at project level",
+      "source_keys": [
+        "V08-S06"
+      ],
+      "exact_case_signature": null,
+      "original_file_read": false,
+      "question": "Which litigation concerned municipal autonomy, denomination of residents, and how was law applied?"
+    },
+    {
+      "target_key": "MUE-1661-REG-1626",
+      "target": "1661-08-13 town judge regulation as recorded in an 18th-century copy",
+      "source_keys": [
+        "V08-S02"
+      ],
+      "exact_case_signature": "Münster Verein (Dep.) Urkunden 1626 (copy; not original 1661)",
+      "original_file_read": false,
+      "question": "Does the actual copy require reporting non-Catholics, in which legal terms and to whom?"
+    },
+    {
+      "target_key": "MUE-1661-REG-1627",
+      "target": "1661-08-18 mayor/council instruction, 18th-century copy",
+      "source_keys": [
+        "V08-S03"
+      ],
+      "exact_case_signature": "Münster Verein (Dep.) Urkunden 1627 (copy; not original 1661)",
+      "original_file_read": false,
+      "question": "What are Hospitalsherren/Sterbherren exact administrative competences; do they affect relief or burial?"
+    },
+    {
+      "target_key": "MUE-RATS-1650-1655",
+      "target": "A II Nr 20 surviving council protocols 1650–1655 (1648 missing)",
+      "source_keys": [
+        "V08-S07"
+      ],
+      "exact_case_signature": "A II Nr. 20 (series; no identified 1650 individual volume/folio)",
+      "original_file_read": false,
+      "question": "Look for dated petitions with recorded confession, legal provision, decision; crosscheck Judicialakten."
+    }
+  ],
+  "historical_interpretation_guardrails": [
+    "1661-03-26 original parchment is a transfer of Senden Gogericht, not blanket renunciation of all rights.",
+    "1661-08-13 and 1661-08-18 sources are summaries (Regesten) of 18th-century paper copies of 1661 norms, not direct 1661 originals.",
+    "Reporting non-Catholic residents is mentioned in a normative judge's instruction; it does NOT establish a documented arrest, expulsion or successful/failed V35 lawsuit.",
+    "Hospitalsherren and Sterbherren are official role titles in a catalog summary, not proof of an individual admission or burial case.",
+    "1655–1661 Imperial Aulic Council litigation described in a doctoral research summary, not a firsthand case manuscript read.",
+    "1661 prince-bishop conquest and loss of self-rule occurred after the 1648 peace; avoid reducing every local legal dispute to the IPO confessional clauses.",
+    "Prior Münster 1587/1590s burial disputes precede 1648 and remain background.",
+    "No evidence of a post-1648 individual IPO V §35 applied judgment has been verified.",
+    "No original image asset may be reused before rights verification."
+  ],
+  "representative_image_policy": {
+    "recommended_city_map_only_as_context": true,
+    "selected_artwork": null,
+    "avoid_ter_borch_dutch_spanish_1648_picture_as_1661_muenster_bishop_event": true,
+    "downloads": 0
+  }
+}
