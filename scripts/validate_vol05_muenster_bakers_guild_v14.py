@@ -78,8 +78,8 @@ def validate(d=None):
         if word not in claim[key]:
             err("source detail removed: "+key)
     b=d["bibliography"]
-    if (b["author"],b["year"],b["pages"],b["scholarly_quote_location"])!=(
-       "Franz Bischof",1926,82,"p.22, cited by Deter 1999 note 126"):
+    if (b["author"],b["year"],b["pages"],b["quoted_by"])!=(
+       "Franz Bischof",1926,82,"Gerhard Deter 1999 note 126, p.22"):
         err("Bischof 1926 reference lost")
     if b["book_1926_read"] is not False or b["original_1661_archival_signature"] is not None:
         err("Bischof original page or underlying seventeenth-century shelfmark invented")
