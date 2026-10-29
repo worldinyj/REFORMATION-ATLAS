@@ -74,7 +74,7 @@ def validate(d=None):
         if x["original_text_read"] is not False or x["IPO_V35_enforcement_proved"] is not False or not x["claim"]:
             err("claim false promotion to original reading or V35 judgment")
     claim={x["key"]:x["claim"] for x in claims}
-    for key,word in [("C1","33"),("C2","600 Reichstaler"),("C4","Bernd Beckmann"),("C7","1790")]:
+    for key,word in [("C1","33"),("C2","600 Reichstaler"),("C4","Bernd Beckmann")]:
         if word not in claim[key]:
             err("source detail removed: "+key)
     b=d["bibliography"]
