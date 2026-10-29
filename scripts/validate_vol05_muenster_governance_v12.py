@@ -42,6 +42,8 @@ def validate(d=None):
     for x in t:
         if x["date"]!=TIMES[x["key"]] or x["contemporaneous_manuscript_read"] is not False or not x["evidence"]:
             bad("date incorrect, manuscript falsely read or source kind omitted")
+    if next(x["label"] for x in t if x["key"]=="T1677")!="Greiteke Brinkmans granted city citizenship":
+        bad("1677 positive admission cannot be converted to a rejection")
     for id,term in (("T1657","first siege"),("T1661S","second siege"),
                     ("T1661G","Gesamtgilde"),("T1677","Greiteke"),("T1681","conditional")):
         if term not in next(x["label"] for x in t if x["key"]==id):
