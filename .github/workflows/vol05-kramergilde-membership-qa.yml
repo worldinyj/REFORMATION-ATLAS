@@ -1,0 +1,25 @@
+name: VOL-05 Münster Kramergilde Admissions V1.5 Research QA
+on:
+  push:
+    branches:
+      - research/vol05-kramergilde-membership-1662-1797-v15
+  pull_request:
+    branches:
+      - research/vol05-bakers-guild-primary-leads-v14
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  scholarship-vs-primary:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Overview and previous baker-guild evidence regressions
+        run: |
+          python3 scripts/validate_atlas_overview_v01.py
+          python3 scripts/validate_vol05_muenster_bakers_guild_v14.py
+          python3 scripts/test_vol05_muenster_bakers_guild_negative_v14.py
+      - name: 1662–1797 edition and named 1719 merchant plus 1810 legal closure
+        run: |
+          python3 scripts/validate_vol05_kramergilde_membership_v15.py
+          python3 scripts/test_vol05_kramergilde_membership_negative_v15.py
