@@ -1,0 +1,243 @@
+{
+  "version": "1.7",
+  "kind": "VOL05_MUENSTER_KRAMERGILDE_THREE_PERSON_CANDIDATES",
+  "status": "DRAFT_RESEARCH_NOT_PUBLIC",
+  "volume_id": "VOL-05",
+  "parent": "data/deep/vol05_kramergilde_1931_edition_access_audit_v16.json",
+  "canonical_event_id": "OV-E-024",
+  "canonical_document_id": "OV-D-015",
+  "new_canonical_ids": 0,
+  "main_modified": false,
+  "overview_modified": false,
+  "ai_studio_modified": false,
+  "publication_gate": {
+    "historian_approved": false,
+    "Ketteler_1931_p270_read": false,
+    "original_1719_register_read": false,
+    "Geisberg_1934_p256_direct_read": false,
+    "Geisberg_book_equated_to_Ketteler_original": false,
+    "individual_IPO_V35_case_verified": false,
+    "art_rights_approved": false,
+    "can_publish": false
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "url": "https://www.heimatvereinsendenhorst.de/fakten/quellen/gewerbe/",
+      "type": "LOCAL_HISTORICAL_SOCIETY",
+      "claim": "Names 1670 Maria Schürman widow of Johann Schwicker and 1720 Gerhard Henrich Bußman citing Ketteler 1931",
+      "direct_1931_page_read": false,
+      "direct_1719_original_read": false,
+      "media_rights_approved": false
+    },
+    {
+      "id": "S2",
+      "url": "https://www.saw-leipzig.de/de/projekte/edition-des-briefwechsels-von-johann-christoph-gottsched/gottsched-briefwechsel_bio-bibliographisches-korrespondentenverzeichnis-1-10.pdf",
+      "type": "SAXON_ACADEMY_BIOGRAPHY",
+      "claim": "1719 Anton Reinhard Neuhaus Amtsohn member, Ketteler p270 cited",
+      "direct_1931_page_read": false,
+      "direct_1719_original_read": false,
+      "media_rights_approved": false
+    },
+    {
+      "id": "S3",
+      "url": "https://www.lwl.org/hiko-download/HiKo-Schriftenverzeichnis_2025-12.pdf",
+      "type": "OFFICIAL_HISTORICAL_COMMISSION_CATALOG",
+      "claim": "Ketteler 1931 volIV pp253–295, years1662–1797; PDF screenshot cache miss",
+      "direct_1931_page_read": false,
+      "direct_1719_original_read": false,
+      "media_rights_approved": false
+    },
+    {
+      "id": "S4",
+      "url": "https://archive.org/details/quellen-und-forschungen-zur-geschichte-der-stadt-muenster-vol-3-vol-4",
+      "type": "1931_SCAN_ACCESS_ATTEMPT",
+      "claim": "Item not accessible to web reader",
+      "direct_1931_page_read": false,
+      "direct_1719_original_read": false,
+      "media_rights_approved": false
+    },
+    {
+      "id": "S5",
+      "url": "https://digital.ub.uni-paderborn.de/download/pdf/8315820.pdf",
+      "type": "GEISBERG_1934_SEARCHABLE_EXCERPT",
+      "claim": "p256 refers to Gildebuch der Kramergilde im Stadtarchive in 1589 guildhouse context; original page image unavailable",
+      "direct_1931_page_read": false,
+      "direct_1719_original_read": false,
+      "media_rights_approved": false
+    },
+    {
+      "id": "S6",
+      "url": "https://digital.ub.uni-paderborn.de/ihd/content/titleinfo/8282290",
+      "type": "UNIVERSITY_DIGITAL_BOOK_METADATA",
+      "claim": "Digitized Geisberg vol3, CC-BY 4.0 notice covers Paderborn reproduction not other original art",
+      "direct_1931_page_read": false,
+      "direct_1719_original_read": false,
+      "media_rights_approved": false
+    },
+    {
+      "id": "S7",
+      "url": "https://www.stadt-muenster.de/ms/kongress1648/exponate.html",
+      "type": "OFFICIAL_MUNICIPAL_EXHIBIT_LIST",
+      "claim": "Red Book Gesamtgilde ca1410/1565, 1598 guild arms, 1608 Kramer tankard and 1934 hall photo separate artifacts",
+      "direct_1931_page_read": false,
+      "direct_1719_original_read": false,
+      "media_rights_approved": false
+    },
+    {
+      "id": "S8",
+      "url": "https://www.stadt-muenster.de/archiv/bestaende-recherche",
+      "type": "CITY_ARCHIVAL_INVENTORY_GUIDE",
+      "claim": "Current item-level shelfmarks in finding aid; Kramergilde specific original unlocated",
+      "direct_1931_page_read": false,
+      "direct_1719_original_read": false,
+      "media_rights_approved": false
+    },
+    {
+      "id": "S9",
+      "url": "https://www.archive.nrw.de/stadtarchiv-muenster",
+      "type": "CITY_ARCHIVE_REQUEST_GUIDE",
+      "claim": "Request by fonds and number, archive email confirmed; no request sent",
+      "direct_1931_page_read": false,
+      "direct_1719_original_read": false,
+      "media_rights_approved": false
+    }
+  ],
+  "person_candidates": [
+    {
+      "id": "P1670",
+      "year": 1670,
+      "name": "Maria Schürman",
+      "context": "Wwe Kramer Johann Schwicker aus Sendenhorst",
+      "evidence_grade": "CANDIDATE_WIDOW_ROLE_UNCERTAIN",
+      "source_id": "S1",
+      "confession": "UNKNOWN",
+      "individual_IPO_V35_court_verdict": false,
+      "actual_original_member_row_read": false,
+      "printed_1931_member_row_read": false,
+      "original_archive_shelfmark": null
+    },
+    {
+      "id": "P1719",
+      "year": 1719,
+      "name": "Anton Reinhard Neuhaus",
+      "context": "1719 Amtsohn admitted, source Ketteler p270",
+      "evidence_grade": "REPORTED_ADMITTED_SECONDARY_ACADEMIC",
+      "source_id": "S2",
+      "confession": "UNKNOWN",
+      "individual_IPO_V35_court_verdict": false,
+      "actual_original_member_row_read": false,
+      "printed_1931_member_row_read": false,
+      "original_archive_shelfmark": null
+    },
+    {
+      "id": "P1720",
+      "year": 1720,
+      "name": "Gerhard Henrich Bußman",
+      "context": "aus Sendenhorst",
+      "evidence_grade": "CANDIDATE_LOCAL_HISTORICAL_EXTRACTION",
+      "source_id": "S1",
+      "confession": "UNKNOWN",
+      "individual_IPO_V35_court_verdict": false,
+      "actual_original_member_row_read": false,
+      "printed_1931_member_row_read": false,
+      "original_archive_shelfmark": null
+    }
+  ],
+  "archival_book_leads": [
+    {
+      "key": "L1",
+      "title": "Gildebuch der Kramergilde im Stadtarchive",
+      "source_id": "S5",
+      "context": "Geisberg 1934 p256 in 1589 guildhall history",
+      "modern_shelfmark": null,
+      "proven_same_as_Ketteler_original": false,
+      "book_directly_read": false
+    },
+    {
+      "key": "L2",
+      "title": "Ketteler 1931 Die Aufnahmen in die Kramergilde 1662–1797",
+      "source_id": "S3",
+      "context": "printed edition pp253–295 and indirectly cited p270",
+      "modern_shelfmark": null,
+      "proven_same_as_Ketteler_original": false,
+      "book_directly_read": false
+    },
+    {
+      "key": "L3",
+      "title": "Das Rote Buch der Gesamtgilde",
+      "source_id": "S7",
+      "context": "Different pre-1648 guild confederation c1410 revised1565",
+      "modern_shelfmark": null,
+      "proven_same_as_Ketteler_original": false,
+      "book_directly_read": false
+    }
+  ],
+  "museum_objects": [
+    {
+      "key": "M1",
+      "type": "Guild heraldic display 1598",
+      "source_id": "S7",
+      "downloaded": false,
+      "publishing_rights": false
+    },
+    {
+      "key": "M2",
+      "type": "Kramergilde beer vessel 1608",
+      "source_id": "S7",
+      "downloaded": false,
+      "publishing_rights": false
+    },
+    {
+      "key": "M3",
+      "type": "Krameramtshaus photograph 1934",
+      "source_id": "S7",
+      "downloaded": false,
+      "publishing_rights": false
+    }
+  ],
+  "remaining_checks": [
+    {
+      "key": "R1",
+      "target": "Ketteler 1931 p253–295",
+      "goal": "verify 1670 widow and 1720 named candidate, plus 1719 Neuhaus p270",
+      "completed": false
+    },
+    {
+      "key": "R2",
+      "target": "Geisberg 1934 p256",
+      "goal": "directly inspect context for Gildebuch and current shelfmark",
+      "completed": false
+    },
+    {
+      "key": "R3",
+      "target": "Münster Kramergilde original admissions book",
+      "goal": "identify current archive accession and read three entries",
+      "completed": false
+    },
+    {
+      "key": "R4",
+      "target": "1670 Maria Schürman",
+      "goal": "distinguish widow's direct guild admission from household/late husband reference",
+      "completed": false
+    },
+    {
+      "key": "R5",
+      "target": "IPO V35 lawsuit",
+      "goal": "identify actual named religious denial and ruling instead of extrapolation",
+      "completed": false
+    }
+  ],
+  "editorial_limits": [
+    "Local history society entries are secondhand Ketteler extracts without precise original entry locations.",
+    "Maria is called Wwe (widow) and her status as a personally admitted guild member is UNVERIFIED.",
+    "1719 Neuhaus Amtsohn entry is a reported positive admission not a religious rejection.",
+    "1934 Geisberg book notes a Gildebuch but its identity with 1931 edited membership source is unproven.",
+    "The Red Book of Gesamtgilde ca1410/1565 is separate from merchant guild admission registers.",
+    "University digitization CC-BY does not authorize unrelated museum artworks or old manuscript scans.",
+    "Religious confession of three individuals unknown, names must not be used to infer faith.",
+    "Original printed Ketteler p270 and original guild folios not directly read.",
+    "Old image catalog entries were not downloaded or published.",
+    "No external archive requests sent, no canonical/main/app publication approved."
+  ]
+}
