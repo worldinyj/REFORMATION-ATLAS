@@ -1,0 +1,25 @@
+name: VOL-05 Münster Bakers Guild Primary Record V1.4 QA
+on:
+  push:
+    branches:
+      - research/vol05-bakers-guild-primary-leads-v14
+  pull_request:
+    branches:
+      - research/vol05-muenster-guild-regulament-v13
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  dated-regests-and-intermediary-sources:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Existing overview and prior guild-regulation scholarly guard
+        run: |
+          python3 scripts/validate_atlas_overview_v01.py
+          python3 scripts/validate_vol05_muenster_guild_regulament_v13.py
+          python3 scripts/test_vol05_muenster_guild_regulament_negative_v13.py
+      - name: One 1639/1660 baker paper booklet, Bischof 1926 and 1718 regest gates
+        run: |
+          python3 scripts/validate_vol05_muenster_bakers_guild_v14.py
+          python3 scripts/test_vol05_muenster_bakers_guild_negative_v14.py

@@ -1,0 +1,231 @@
+{
+  "version": "1.4",
+  "kind": "VOL05_BAKERS_GUILD_ARCHIVE_V14",
+  "status": "DRAFT_RESEARCH_NOT_PUBLIC",
+  "volume_id": "VOL-05",
+  "parent": "data/deep/vol05_muenster_guild_regulament_1681_elections_v13.json",
+  "canonical_event_id": "OV-E-024",
+  "canonical_document_id": "OV-D-015",
+  "new_canonical_ids": 0,
+  "overview_modified": false,
+  "main_modified": false,
+  "ai_studio_modified": false,
+  "gate": {
+    "historian_approved": false,
+    "original_baker_book_read": false,
+    "original_1661_guild_regulament_found": false,
+    "Bischof_1926_p22_read": false,
+    "AAII0_1681_folio_read": false,
+    "individual_V35_case_proved": false,
+    "media_rights_approved": false,
+    "can_publish": false
+  },
+  "sources": [
+    {
+      "key": "S1",
+      "url": "https://www.lwl.org/westfaelische-geschichte/portal/Internet/urkunden_datenbank/suche/regest_detail.php?regest=112746&url_history_back=1&url_zaehler_blaettern=50",
+      "evidence_tier": "ARCHIVAL_REGEST_112746",
+      "scope": "1639 bakery guild book and two 1660 additions",
+      "original_document_read": false,
+      "media_rights_approved": false
+    },
+    {
+      "key": "S2",
+      "url": "https://forhistiur.net/1999-09-deter/?l=de",
+      "evidence_tier": "SCHOLARLY_ARTICLE_FULL_HTML",
+      "scope": "1661-08-22 guild rule via Bischof p22",
+      "original_document_read": false,
+      "media_rights_approved": false
+    },
+    {
+      "key": "S3",
+      "url": "https://digital.ub.uni-paderborn.de/download/pdf/6672126.pdf",
+      "evidence_tier": "BIBLIOGRAPHY_INDEX_SNIPPET",
+      "scope": "Bischof 1926 book 82 pages, Darpe, EAB 41,727",
+      "original_document_read": false,
+      "media_rights_approved": false
+    },
+    {
+      "key": "S4",
+      "url": "https://www.lwl.org/westfaelische-geschichte/txt/normal/txt1213.pdf",
+      "evidence_tier": "ACADEMIC_PDF_TEXT_SCREENSHOT_FAILED",
+      "scope": "AA II 0 fol92v/93r and fol96r",
+      "original_document_read": false,
+      "media_rights_approved": false
+    },
+    {
+      "key": "S5",
+      "url": "https://www.lwl.org/westfaelische-geschichte/portal/Internet/urkunden_datenbank/suche/regest_detail.php?regest=113079&url_history_back=2&url_zaehler_blaettern=23",
+      "evidence_tier": "ARCHIVAL_REGEST_113079",
+      "scope": "1718 guild legal jurisdiction rescript and later appellate copies",
+      "original_document_read": false,
+      "media_rights_approved": false
+    },
+    {
+      "key": "S6",
+      "url": "https://www.stadt-muenster.de/archiv/archivalien-digital/ratsprotokolle-1564-1802",
+      "evidence_tier": "OFFICIAL_CITY_FONDS_GUIDE",
+      "scope": "City record availability and incomplete post-1661 volumes",
+      "original_document_read": false,
+      "media_rights_approved": false
+    },
+    {
+      "key": "S7",
+      "url": "https://www.archive.nrw.de/stadtarchiv-muenster",
+      "evidence_tier": "OFFICIAL_CITY_ARCHIVE_ACCESS",
+      "scope": "Contact to request particular municipal item",
+      "original_document_read": false,
+      "media_rights_approved": false
+    },
+    {
+      "key": "S8",
+      "url": "https://www.stadt-muenster.de/museum/museum/33-kabinette/1-obergeschoss/13-stadt-des-adels-und-der-kloester",
+      "evidence_tier": "OFFICIAL_MUSEUM_SUMMARY",
+      "scope": "Conditional 1681 elections",
+      "original_document_read": false,
+      "media_rights_approved": false
+    },
+    {
+      "key": "S9",
+      "url": "https://www.lwl.org/westfaelische-geschichte/portal/Internet/urkunden_datenbank/suche/regest_detail.php?regest=112846&url_history_back=1&url_zaehler_blaettern=9",
+      "evidence_tier": "ARCHIVAL_REGEST_OF_18TH_C_COPY",
+      "scope": "1661-08-18 city council regulation distinct from Aug22 guild rule",
+      "original_document_read": false,
+      "media_rights_approved": false
+    }
+  ],
+  "documents": [
+    {
+      "key": "DOC1639",
+      "date": "1639-04-04",
+      "shelfmark": "Nr. 1527",
+      "provenance": "LWL REGEST 112746",
+      "witness_type": "ONE_PAPER_BOOKLET_WITH_1660_ADDITIONS",
+      "source_key": "S1",
+      "firsthand_original_read": false,
+      "individual_V35_suit_confirmed": false
+    },
+    {
+      "key": "DOC1661",
+      "date": "1661-08-22",
+      "shelfmark": null,
+      "provenance": "DETER VIA BISCHOF P22",
+      "witness_type": "ORIGINAL_GUILD_NORM_NOT_LOCATED",
+      "source_key": "S2",
+      "firsthand_original_read": false,
+      "individual_V35_suit_confirmed": false
+    },
+    {
+      "key": "DOC1681",
+      "date": "1681-10-10",
+      "shelfmark": "AA II 0 fol. 96r (SECONDARY_CITATION_ONLY)",
+      "provenance": "WEIDNER_2000_NOTE81",
+      "witness_type": "FOLIO_IMAGE_UNREAD",
+      "source_key": "S4",
+      "firsthand_original_read": false,
+      "individual_V35_suit_confirmed": false
+    },
+    {
+      "key": "DOC1718",
+      "date": "1718-02-18",
+      "shelfmark": "Nr. 1861",
+      "provenance": "LWL REGEST 113079",
+      "witness_type": "LATER_1790_APPEAL_CONTEXT_INCLUDED",
+      "source_key": "S5",
+      "firsthand_original_read": false,
+      "individual_V35_suit_confirmed": false
+    }
+  ],
+  "claims": [
+    {
+      "key": "C1",
+      "document_key": "DOC1639",
+      "date": "1639-04-04",
+      "claim": "33 guild rules including apprenticeship, master elections, eligibility and funeral-cross items 26–30",
+      "original_text_read": false,
+      "IPO_V35_enforcement_proved": false
+    },
+    {
+      "key": "C2",
+      "document_key": "DOC1639",
+      "date": "1660-01-12",
+      "claim": "Guild-master free election conditional on a one-time 600 Reichstaler payment",
+      "original_text_read": false,
+      "IPO_V35_enforcement_proved": false
+    },
+    {
+      "key": "C3",
+      "document_key": "DOC1639",
+      "date": "1660-01-18",
+      "claim": "Bakers guild members resolution on guild master selection procedures",
+      "original_text_read": false,
+      "IPO_V35_enforcement_proved": false
+    },
+    {
+      "key": "C4",
+      "document_key": "DOC1639",
+      "date": "1641-09-23",
+      "claim": "Bernd Beckmann dispute over being the son of a miller, NOT proven religious discrimination",
+      "original_text_read": false,
+      "IPO_V35_enforcement_proved": false
+    },
+    {
+      "key": "C5",
+      "document_key": "DOC1661",
+      "date": "1661-08-22",
+      "claim": "Princely restrictions on political guild organization described via Deter and Bischof",
+      "original_text_read": false,
+      "IPO_V35_enforcement_proved": false
+    },
+    {
+      "key": "C6",
+      "document_key": "DOC1681",
+      "date": "1681-10-10",
+      "claim": "Municipal council election edict cited by Weidner, primary folio unread",
+      "original_text_read": false,
+      "IPO_V35_enforcement_proved": false
+    },
+    {
+      "key": "C7",
+      "document_key": "DOC1718",
+      "date": "1718-02-18",
+      "claim": "Craft jurisdiction issue in later administrative regulation, not an IPO V35 lawsuit",
+      "original_text_read": false,
+      "IPO_V35_enforcement_proved": false
+    }
+  ],
+  "bibliography": {
+    "author": "Franz Bischof",
+    "title": "Der Anteil der Gilden am Stadtregiment in den westfälischen Städten",
+    "year": 1926,
+    "pages": 82,
+    "place": "Warendorf",
+    "publisher": "Darpe",
+    "quoted_by": "Gerhard Deter 1999 note 126, p.22",
+    "library_old_code": "EAB 41,727, not a current shelfmark",
+    "book_1926_read": false,
+    "original_1661_archival_signature": null,
+    "dissertation_faculty_unconfirmed": true
+  },
+  "grouping": {
+    "nr1527_physical_booklets": 1,
+    "appendix_dates": [
+      "1660-01-12",
+      "1660-01-18"
+    ],
+    "earlier_guild_self_governance": true,
+    "after_1661_princely_control": true,
+    "NOT_PROOF_OF_1648_V35_APPLICATION": true
+  },
+  "uncertainties": [
+    "No original manuscript physically read",
+    "Original guild regulation 1661-08-22 exact archival location unverified",
+    "Bischof 1926 original p22 unread; historic library code not current availability",
+    "1661 council regulation of Aug18 is a distinct act from Aug22 guild rule",
+    "Nr1527 contains one physical object with multiple dates, not three separate originals",
+    "1641 Beckmann parentage not Protestant confession",
+    "1639 burial cross guild rules predate 1648 IPO",
+    "1681 city election folio screenshot cache-miss",
+    "1718 guild adjudication and later 1790 copy do not prove individual IPO V35 trial"
+  ]
+}
