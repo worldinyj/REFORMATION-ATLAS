@@ -1,0 +1,109 @@
+{
+  "schema_version": "1.13-draft",
+  "publication_gate": {
+    "approved": false,
+    "can_ship": false
+  },
+  "institutions": [
+    {
+      "id": "MUN",
+      "name": "Lotharinger Chorfrauen Münster",
+      "city": "Münster"
+    },
+    {
+      "id": "ESS",
+      "name": "Kloster B.M.V. Essen",
+      "city": "Essen"
+    },
+    {
+      "id": "PAD",
+      "name": "Michaelskloster Paderborn",
+      "city": "Paderborn"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S-ESS",
+      "url": "https://www.kloster-bmv.de/augustiner-chorfrauen/unsere-geschichte/",
+      "kind": "institutional_history",
+      "original_document_verified": false
+    },
+    {
+      "id": "S-PAD",
+      "url": "https://www.michaelsschule.de/index.php/unsere-schule/neun-gute-gruende-2",
+      "kind": "institutional_school_history",
+      "original_document_verified": false
+    },
+    {
+      "id": "S-MIC",
+      "url": "https://www.michaelskloster.de/michaelskloster/geschichte/",
+      "kind": "institutional_history",
+      "original_document_verified": false
+    },
+    {
+      "id": "S-PAD-DETAIL",
+      "url": "https://www.michaelsschule.de/index.php/unsere-schule/neun-gute-gruende-2/ein-hauss-auff-der-pader",
+      "kind": "institutional_history",
+      "original_document_verified": false
+    }
+  ],
+  "events": [
+    {
+      "id": "E-ESS-1652",
+      "date": "1652",
+      "type": "founding_and_school_opening",
+      "from": "MUN",
+      "to": "ESS",
+      "persons_count": 3,
+      "source_ids": [
+        "S-ESS"
+      ],
+      "primary_verified": false
+    },
+    {
+      "id": "E-PAD-AUTH-1652",
+      "date": "1652-10-21",
+      "type": "authorization_document",
+      "from": "MUN",
+      "to": "PAD",
+      "persons_count": null,
+      "source_ids": [
+        "S-PAD"
+      ],
+      "primary_verified": false
+    },
+    {
+      "id": "E-PAD-ARRIVE-1658",
+      "date": "1658-03-28",
+      "type": "arrival_and_teaching",
+      "from": "MUN",
+      "to": "PAD",
+      "persons_count": 2,
+      "source_ids": [
+        "S-PAD",
+        "S-MIC"
+      ],
+      "primary_verified": false
+    },
+    {
+      "id": "E-PAD-MOVE-1669",
+      "date": "1669-04",
+      "type": "relocation_to_meyersches_haus",
+      "from": "PAD",
+      "to": "PAD",
+      "persons_count": null,
+      "source_ids": [
+        "S-MIC",
+        "S-PAD-DETAIL"
+      ],
+      "primary_verified": false
+    }
+  ],
+  "constraints": {
+    "historical_and_current_buildings_must_be_distinguished": true,
+    "authorization_is_not_arrival": true,
+    "education_is_not_universal_public_school": true,
+    "license_review_required_for_images": true
+  },
+  "status": "DRAFT_RESEARCH_NOT_PUBLIC"
+}
