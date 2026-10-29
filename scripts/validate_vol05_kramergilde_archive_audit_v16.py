@@ -57,7 +57,7 @@ def validate(d=None):
     if len(tasks)!=4 or {x["id"] for x in tasks}!=TASKS:
         bad("four exact primary or printed source tasks must remain")
     bytask={x["id"]:x for x in tasks}
-    if bytask["EA16-T-1931-P270"]["result"]!="NOT_READ" or "P270" not in bytask:
+    if bytask["EA16-T-1931-P270"]["result"]!="NOT_READ":
         bad("Ketteler 1931 p270 remains visually unverified")
     if bytask["EA16-T-ARCHIVE-REGISTER"]["result"]!="NOT_LOCATED" or bytask["EA16-T-TREASURY"]["result"]!="NOT_READ":
         bad("guild and treasury original not yet located/read")
