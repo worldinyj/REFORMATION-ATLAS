@@ -1,0 +1,220 @@
+{
+  "schema_version": "1.25",
+  "status": "DRAFT_RESEARCH_NOT_PUBLIC",
+  "publication_gate": {
+    "approved": false,
+    "can_ship": false
+  },
+  "adversarial_cases": [
+    {
+      "id": "N01",
+      "description": "reject invented folio for Genesis",
+      "dimension": "folio_not_verified",
+      "expected": "HOLD_OR_REJECT",
+      "status": "DESIGNED_NOT_EXECUTED"
+    },
+    {
+      "id": "N02",
+      "description": "reject invented folio for Exodus",
+      "dimension": "folio_not_verified",
+      "expected": "HOLD_OR_REJECT",
+      "status": "DESIGNED_NOT_EXECUTED"
+    },
+    {
+      "id": "N03",
+      "description": "reject invented folio for Lamentations",
+      "dimension": "folio_not_verified",
+      "expected": "HOLD_OR_REJECT",
+      "status": "DESIGNED_NOT_EXECUTED"
+    },
+    {
+      "id": "N04",
+      "description": "reject direct autograph attribution to 1869 print",
+      "dimension": "edition_not_autograph",
+      "expected": "HOLD_OR_REJECT",
+      "status": "DESIGNED_NOT_EXECUTED"
+    },
+    {
+      "id": "N05",
+      "description": "reject Egerton 617 as NT witness",
+      "dimension": "scope_mismatch",
+      "expected": "HOLD_OR_REJECT",
+      "status": "DESIGNED_NOT_EXECUTED"
+    },
+    {
+      "id": "N06",
+      "description": "reject Egerton 618 as OT witness",
+      "dimension": "scope_mismatch",
+      "expected": "HOLD_OR_REJECT",
+      "status": "DESIGNED_NOT_EXECUTED"
+    },
+    {
+      "id": "N07",
+      "description": "reject missing source id in claim",
+      "dimension": "referential_integrity",
+      "expected": "HOLD_OR_REJECT",
+      "status": "DESIGNED_NOT_EXECUTED"
+    },
+    {
+      "id": "N08",
+      "description": "reject duplicate claim ID",
+      "dimension": "id_uniqueness",
+      "expected": "HOLD_OR_REJECT",
+      "status": "DESIGNED_NOT_EXECUTED"
+    },
+    {
+      "id": "N09",
+      "description": "reject duplicate witness ID",
+      "dimension": "id_uniqueness",
+      "expected": "HOLD_OR_REJECT",
+      "status": "DESIGNED_NOT_EXECUTED"
+    },
+    {
+      "id": "N10",
+      "description": "reject unlicensed image publishing",
+      "dimension": "rights_gate",
+      "expected": "HOLD_OR_REJECT",
+      "status": "DESIGNED_NOT_EXECUTED"
+    },
+    {
+      "id": "N11",
+      "description": "reject unlicensed modern translation publishing",
+      "dimension": "rights_gate",
+      "expected": "HOLD_OR_REJECT",
+      "status": "DESIGNED_NOT_EXECUTED"
+    },
+    {
+      "id": "N12",
+      "description": "reject unilateral reclassification of mixed EV/LV",
+      "dimension": "classification",
+      "expected": "HOLD_OR_REJECT",
+      "status": "DESIGNED_NOT_EXECUTED"
+    },
+    {
+      "id": "N13",
+      "description": "reject collapsing hearings and sentence",
+      "dimension": "event_granularity",
+      "expected": "HOLD_OR_REJECT",
+      "status": "DESIGNED_NOT_EXECUTED"
+    },
+    {
+      "id": "N14",
+      "description": "reject collapsing supporter testimony with sentence",
+      "dimension": "genre_distinction",
+      "expected": "HOLD_OR_REJECT",
+      "status": "DESIGNED_NOT_EXECUTED"
+    },
+    {
+      "id": "N15",
+      "description": "reject exact date for unspecified retrospective note",
+      "dimension": "date_precision",
+      "expected": "HOLD_OR_REJECT",
+      "status": "DESIGNED_NOT_EXECUTED"
+    },
+    {
+      "id": "N16",
+      "description": "reject automatic public flag on draft card",
+      "dimension": "publication_gate",
+      "expected": "HOLD_OR_REJECT",
+      "status": "DESIGNED_NOT_EXECUTED"
+    },
+    {
+      "id": "N17",
+      "description": "reject main-branch merge without approval",
+      "dimension": "publication_gate",
+      "expected": "HOLD_OR_REJECT",
+      "status": "DESIGNED_NOT_EXECUTED"
+    },
+    {
+      "id": "N18",
+      "description": "reject unpublished screenshot as evidence of original",
+      "dimension": "evidence_level",
+      "expected": "HOLD_OR_REJECT",
+      "status": "DESIGNED_NOT_EXECUTED"
+    },
+    {
+      "id": "N19",
+      "description": "reject catalog description as folio transcription",
+      "dimension": "evidence_level",
+      "expected": "HOLD_OR_REJECT",
+      "status": "DESIGNED_NOT_EXECUTED"
+    },
+    {
+      "id": "N20",
+      "description": "reject full-source claims from abstract-only access",
+      "dimension": "access_tier",
+      "expected": "HOLD_OR_REJECT",
+      "status": "DESIGNED_NOT_EXECUTED"
+    },
+    {
+      "id": "N21",
+      "description": "reject direct quote from paraphrase",
+      "dimension": "quotation_integrity",
+      "expected": "HOLD_OR_REJECT",
+      "status": "DESIGNED_NOT_EXECUTED"
+    },
+    {
+      "id": "N22",
+      "description": "reject Wycliffe sole-translator claim",
+      "dimension": "authorship",
+      "expected": "HOLD_OR_REJECT",
+      "status": "DESIGNED_NOT_EXECUTED"
+    },
+    {
+      "id": "N23",
+      "description": "reject the claim that every EV witness is uniform",
+      "dimension": "classification",
+      "expected": "HOLD_OR_REJECT",
+      "status": "DESIGNED_NOT_EXECUTED"
+    },
+    {
+      "id": "N24",
+      "description": "reject all later versions as Purvey autograph",
+      "dimension": "authorship",
+      "expected": "HOLD_OR_REJECT",
+      "status": "DESIGNED_NOT_EXECUTED"
+    },
+    {
+      "id": "N25",
+      "description": "reject digital metadata license as scanning license",
+      "dimension": "rights_gate",
+      "expected": "HOLD_OR_REJECT",
+      "status": "DESIGNED_NOT_EXECUTED"
+    },
+    {
+      "id": "N26",
+      "description": "reject Latin clause assigned to wrong document",
+      "dimension": "document_identity",
+      "expected": "HOLD_OR_REJECT",
+      "status": "DESIGNED_NOT_EXECUTED"
+    },
+    {
+      "id": "N27",
+      "description": "reject Palacky editorial heading as original decree",
+      "dimension": "edition_vs_primary",
+      "expected": "HOLD_OR_REJECT",
+      "status": "DESIGNED_NOT_EXECUTED"
+    },
+    {
+      "id": "N28",
+      "description": "reject bibliographic page vs printed page conflation",
+      "dimension": "pagination",
+      "expected": "HOLD_OR_REJECT",
+      "status": "DESIGNED_NOT_EXECUTED"
+    },
+    {
+      "id": "N29",
+      "description": "reject full trial transcript unsupported by text",
+      "dimension": "historical_genre",
+      "expected": "HOLD_OR_REJECT",
+      "status": "DESIGNED_NOT_EXECUTED"
+    },
+    {
+      "id": "N30",
+      "description": "reject interpretive quote without reliable source",
+      "dimension": "provenance",
+      "expected": "HOLD_OR_REJECT",
+      "status": "DESIGNED_NOT_EXECUTED"
+    }
+  ]
+}
