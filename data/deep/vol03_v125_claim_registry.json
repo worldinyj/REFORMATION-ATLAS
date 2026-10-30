@@ -1,0 +1,210 @@
+{
+  "version": "1.25",
+  "status": "DRAFT_RESEARCH_NOT_PUBLIC",
+  "publication_gate": {
+    "approved": false,
+    "can_ship": false
+  },
+  "claims": [
+    {
+      "id": "V125-C01",
+      "statement": "Egerton MS617 starts with Proverbs, not Genesis",
+      "source_ids": [
+        "BL617"
+      ],
+      "verdict": "confirmed_catalog",
+      "primary_collation": false,
+      "public_approved": false
+    },
+    {
+      "id": "V125-C02",
+      "statement": "Egerton MS618 covers Matthew through Revelation",
+      "source_ids": [
+        "BL618"
+      ],
+      "verdict": "confirmed_catalog",
+      "primary_collation": false,
+      "public_approved": false
+    },
+    {
+      "id": "V125-C03",
+      "statement": "Lost opening volume Genesis through Psalms not extant within Egerton pair",
+      "source_ids": [
+        "BL618"
+      ],
+      "verdict": "confirmed_catalog",
+      "primary_collation": false,
+      "public_approved": false
+    },
+    {
+      "id": "V125-C04",
+      "statement": "Egerton 617 contains Isaiah and Jeremiah",
+      "source_ids": [
+        "BL617"
+      ],
+      "verdict": "confirmed_catalog",
+      "primary_collation": false,
+      "public_approved": false
+    },
+    {
+      "id": "V125-C05",
+      "statement": "Egerton 617 has no Genesis or Exodus",
+      "source_ids": [
+        "BL617"
+      ],
+      "verdict": "confirmed_catalog",
+      "primary_collation": false,
+      "public_approved": false
+    },
+    {
+      "id": "V125-C06",
+      "statement": "EV and LV derive from Latin Vulgate",
+      "source_ids": [
+        "LINCOLN"
+      ],
+      "verdict": "supported_secondary",
+      "primary_collation": false,
+      "public_approved": false
+    },
+    {
+      "id": "V125-C07",
+      "statement": "EV is generally more Latinate than LV",
+      "source_ids": [
+        "HUDSON"
+      ],
+      "verdict": "supported_secondary",
+      "primary_collation": false,
+      "public_approved": false
+    },
+    {
+      "id": "V125-C08",
+      "statement": "EV and LV have complex interrelated revisions",
+      "source_ids": [
+        "DOVE"
+      ],
+      "verdict": "supported_secondary",
+      "primary_collation": false,
+      "public_approved": false
+    },
+    {
+      "id": "V125-C09",
+      "statement": "EV/LV neat binary fully describes every surviving manuscript",
+      "source_ids": [
+        "HUDSON"
+      ],
+      "verdict": "rejected_overgeneralization",
+      "primary_collation": false,
+      "public_approved": false
+    },
+    {
+      "id": "V125-C10",
+      "statement": "Bible revision resulted in independent EV and LV lines",
+      "source_ids": [
+        "DOVE"
+      ],
+      "verdict": "scholarly_hypothesis_not_proven",
+      "primary_collation": false,
+      "public_approved": false
+    },
+    {
+      "id": "V125-C11",
+      "statement": "Palacky 1869 contents label Relatio beginning p235",
+      "source_ids": [
+        "AHISTO"
+      ],
+      "verdict": "confirmed_digital_edition",
+      "primary_collation": false,
+      "public_approved": false
+    },
+    {
+      "id": "V125-C12",
+      "statement": "Page 286 contains heading articles from Hus De Ecclesia",
+      "source_ids": [
+        "PAL286"
+      ],
+      "verdict": "confirmed_digital_text",
+      "primary_collation": false,
+      "public_approved": false
+    },
+    {
+      "id": "V125-C13",
+      "statement": "Page 286 wording is automatically the official 1415 sentence",
+      "source_ids": [
+        "PAL286"
+      ],
+      "verdict": "rejected_inference",
+      "primary_collation": false,
+      "public_approved": false
+    },
+    {
+      "id": "V125-C14",
+      "statement": "Palacky printed edition is identical to a 1415 manuscript autograph",
+      "source_ids": [
+        "PAL235"
+      ],
+      "verdict": "rejected_category_error",
+      "primary_collation": false,
+      "public_approved": false
+    },
+    {
+      "id": "V125-C15",
+      "statement": "Palacky p252 has Sigismund and Hus related narrative",
+      "source_ids": [
+        "PAL252"
+      ],
+      "verdict": "confirmed_digital_text",
+      "primary_collation": false,
+      "public_approved": false
+    },
+    {
+      "id": "V125-C16",
+      "statement": "Palacky p254 discusses safe conduct in trial account",
+      "source_ids": [
+        "PAL254"
+      ],
+      "verdict": "confirmed_digital_text",
+      "primary_collation": false,
+      "public_approved": false
+    },
+    {
+      "id": "V125-C17",
+      "statement": "Palacky p300 includes exchange about kingship",
+      "source_ids": [
+        "PAL300"
+      ],
+      "verdict": "confirmed_digital_text",
+      "primary_collation": false,
+      "public_approved": false
+    },
+    {
+      "id": "V125-C18",
+      "statement": "Every report of Hus trial was neutral verbatim transcript",
+      "source_ids": [
+        "COUNCIL"
+      ],
+      "verdict": "rejected_category_error",
+      "primary_collation": false,
+      "public_approved": false
+    },
+    {
+      "id": "V125-C19",
+      "statement": "1536 Calvin first edition and 1559 edition must remain distinct",
+      "source_ids": [
+        "AHISTO"
+      ],
+      "verdict": "out_of_scope_needs_earlier_crosswalk",
+      "primary_collation": false,
+      "public_approved": false
+    },
+    {
+      "id": "V125-C20",
+      "statement": "All Wycliffite passages directly manuscript-collated in V1.25",
+      "source_ids": [
+        "BL617"
+      ],
+      "verdict": "rejected_missing_evidence",
+      "primary_collation": false,
+      "public_approved": false
+    }
+  ]
+}
