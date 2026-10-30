@@ -1,0 +1,103 @@
+{
+  "version": "1.20-draft",
+  "status": "DRAFT_RESEARCH_NOT_PUBLIC",
+  "release_gate": {
+    "approved": false,
+    "can_ship": false
+  },
+  "records": [
+    {
+      "id": "WIT-V120-WYC-ECC-1886",
+      "person_id": "OV-P-009",
+      "document_id": "OV-D-005",
+      "type": "later_critical_edition",
+      "work": "Tractatus de ecclesia",
+      "date_of_work": "1378~1379 (approximate scholarly dating)",
+      "edition_year": 1886,
+      "editor": "Johann Loserth; English side-notes F. D. Matthew",
+      "bibliographic_source": "https://catalog.folger.edu/record/17976",
+      "access": "catalog_metadata_checked",
+      "original_manuscript_read": false,
+      "edition_full_text_read": false,
+      "caution": "1886 edition is not original fourteenth-century manuscript"
+    },
+    {
+      "id": "WIT-V120-WYC-BIBLE",
+      "person_id": "OV-P-009",
+      "document_id": null,
+      "type": "translation_tradition",
+      "work": "Wycliffite Bible (Early and Later Versions)",
+      "date_of_work": "late 14th century",
+      "bibliographic_source": "https://www.cambridge.org/core/journals/studies-in-church-history/article/abs/misleading-manuscripts-wyclif-and-the-nonwycliffite-bible/BE0F9222DFD99C2925107562DA38559B",
+      "access": "scholarly_abstract_checked",
+      "original_manuscript_read": false,
+      "edition_full_text_read": false,
+      "caution": "authorship disputed; do not credit sole translation to Wycliffe"
+    },
+    {
+      "id": "WIT-V120-HUS-LETTER-1415-06-09",
+      "person_id": "OV-P-010",
+      "document_id": null,
+      "type": "manuscript_witness_catalog",
+      "work": "Letter to friends in Constance (Consilium Domini diligo)",
+      "date_of_work": "1415-06-09",
+      "bibliographic_source": "https://digiscripta.phil.muni.cz/node/13060",
+      "archive_shelfmarks": [
+        "Praha Kapit. N 48 fol.78r-v",
+        "Wien ÖNB 4313 fol.283–284"
+      ],
+      "access": "scholarly_catalog_incipit_explicit_checked",
+      "original_manuscript_read": false,
+      "edition_full_text_read": false,
+      "caution": "catalog attests manuscript references; not direct manuscript collation"
+    },
+    {
+      "id": "WIT-V120-HUS-LETTER-1415-06-21",
+      "person_id": "OV-P-010",
+      "document_id": null,
+      "type": "manuscript_witness_catalog",
+      "work": "Letter to friends in Constance (Ista est)",
+      "date_of_work": "1415-06-21",
+      "bibliographic_source": "https://digiscripta.phil.muni.cz/cs/node/13072",
+      "archive_shelfmarks": [
+        "Praha Kapit. N 48 fol.74r-v",
+        "Wien ÖNB 4524 fol.80v–81v"
+      ],
+      "access": "scholarly_catalog_incipit_explicit_checked",
+      "original_manuscript_read": false,
+      "edition_full_text_read": false,
+      "caution": "historical letter, catalog descriptions not proof of every textual variant"
+    },
+    {
+      "id": "WIT-V120-HUS-LETTER-1415-06-30",
+      "person_id": "OV-P-010",
+      "document_id": null,
+      "type": "manuscript_witness_catalog",
+      "work": "Letter to friends in Constance (Cras hora sexta)",
+      "date_of_work": "1415-06-30",
+      "date_certainty": "uncertain",
+      "bibliographic_source": "https://digiscripta.phil.muni.cz/cs/node/13086",
+      "archive_shelfmarks": [
+        "Praha Kapit. N 48 fol.75r-v",
+        "Wien ÖNB 4524 fol.83r-v"
+      ],
+      "access": "scholarly_catalog_incipit_explicit_checked",
+      "original_manuscript_read": false,
+      "edition_full_text_read": false,
+      "caution": "source labels date uncertain; do not present as certain"
+    },
+    {
+      "id": "WIT-V120-HUS-LETTERS-TRANSLATION",
+      "person_id": "OV-P-010",
+      "document_id": null,
+      "type": "later_edited_translation",
+      "work": "The Letters of John Hus",
+      "bibliographic_source": "https://www.lutheranlibrary.org/443-workman-letters-john-hus/",
+      "edition_year": 2022,
+      "access": "publisher_metadata_checked",
+      "original_manuscript_read": false,
+      "edition_full_text_read": false,
+      "caution": "modern reissue of historical English translation, distinct from medieval manuscripts"
+    }
+  ]
+}
