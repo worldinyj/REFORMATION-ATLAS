@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.37",
+  "status": "DRAFT_RESEARCH_NOT_PUBLIC",
+  "publication_gate": {
+    "approved": false,
+    "can_ship": false
+  },
+  "sources": [
+    {
+      "id": "TRENT-VI",
+      "url": "https://adfonteslibrary.org/work-council-trent-session-06",
+      "kind": "historical_English_translation",
+      "latin_1564_collated": false
+    },
+    {
+      "id": "TRENT-XIII",
+      "url": "https://adfonteslibrary.org/work-council-trent-session-13",
+      "kind": "historical_English_translation",
+      "latin_1564_collated": false
+    },
+    {
+      "id": "TRENT-XXV",
+      "url": "https://en.wikisource.org/wiki/Canons_and_Decrees_of_the_Council_of_Trent/Session_XXV/Invocation%2C_Veneration%2C_and_on_Relics_of_Saints_and_Sacred_Images",
+      "kind": "historical_English_translation",
+      "latin_1564_collated": false
+    },
+    {
+      "id": "AUG-IV",
+      "url": "https://christian.net/pub/resources/text/wittenberg/concord/web/augs-004.html",
+      "kind": "1921_English_translation_of_1530_confession",
+      "original_1530_collated": false
+    },
+    {
+      "id": "AUG-1530",
+      "url": "https://en.wikisource.org/wiki/Augsburg_Confession",
+      "kind": "later_English_translation_of_1530_confession",
+      "original_1530_collated": false
+    },
+    {
+      "id": "CALVIN-1559",
+      "url": "https://ccel.org/ccel/calvin/institutes/institutes.toc.html",
+      "kind": "later_English_translation_of_1559_edition",
+      "original_1559_collated": false
+    }
+  ],
+  "comparisons": [
+    {
+      "id": "JUSTIFICATION",
+      "trent": "Session VI, Decree on Justification chapter 7 and canon 9 (1547)",
+      "augsburg": "Article IV (1530), distinguish Apology IV (1531)",
+      "calvin": "Institutes 1559 III.11–18",
+      "shared": "All address divine grace and Christ's work",
+      "difference": "Trent includes inward renewal in justification; Augsburg presents free justification for Christ's sake through faith; Calvin develops imputation and inseparability of sanctification",
+      "source_ids": [
+        "TRENT-VI",
+        "AUG-IV",
+        "CALVIN-1559"
+      ],
+      "status": "SOURCE_PASSAGE_REFERENCES_CHECKED"
+    },
+    {
+      "id": "EUCHARIST",
+      "trent": "Session XIII Eucharist decree (1551); Session XXII Mass (1562)",
+      "augsburg": "Article X Real Presence, Article XXII cup for laity, Article XXIV Mass (1530)",
+      "calvin": "Institutes 1559 IV.17 (supper), IV.18 (mass)",
+      "shared": "Eucharist important for all three traditions",
+      "difference": "Real presence formula and mass/sacrifice disputed; Lutheran and Reformed accounts must not be merged",
+      "source_ids": [
+        "TRENT-XIII",
+        "AUG-1530",
+        "CALVIN-1559"
+      ],
+      "status": "SOURCE_PASSAGE_REFERENCES_CHECKED"
+    },
+    {
+      "id": "SAINTS_IMAGES",
+      "trent": "Session XXV Saints, Relics, Sacred Images (1563)",
+      "augsburg": "Article XXI Invocation of Saints (1530); not a complete image doctrine",
+      "calvin": "Institutes 1559 I.11 on images, III.20 prayer, IV.9 councils context",
+      "shared": "Debate on legitimate worship and Christian remembrance",
+      "difference": "Trent sanctions veneration under limitations; Augsburg permits remembrance and opposes invocation without scriptural warrant; Calvin has more extensive critique of religious images",
+      "source_ids": [
+        "TRENT-XXV",
+        "AUG-1530",
+        "CALVIN-1559"
+      ],
+      "status": "PARTIAL_THEME_ALIGNMENT"
+    }
+  ],
+  "edition_policy": {
+    "augsburg": "1530 Confessio Augustana and 1531 Apology distinct",
+    "calvin": "1559 final Latin version; accessible English translation later",
+    "trent": "distinct 1547/1551/1562/1563 sessions and 1564 print"
+  },
+  "warning": "Side-by-side comparison is explanatory paraphrase not a word-for-word original-language collation"
+}
