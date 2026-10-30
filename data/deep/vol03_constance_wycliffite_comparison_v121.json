@@ -1,0 +1,90 @@
+{
+  "version": "1.21-draft",
+  "status": "DRAFT_RESEARCH_NOT_PUBLIC",
+  "publication_gate": {
+    "approved": false,
+    "can_ship": false
+  },
+  "witnesses": [
+    {
+      "id": "WIT-V121-WYC-EV-EGERTON",
+      "person_id": "OV-P-009",
+      "category": "manuscript_catalog",
+      "version": "Earlier Version",
+      "shelfmark": "British Library Egerton MS 617–618",
+      "url": "https://searcharchives.bl.uk/catalog/032-001983667",
+      "catalog_checked": true,
+      "manuscript_text_collated": false,
+      "attribution": "Wycliffe followers, not sole author"
+    },
+    {
+      "id": "WIT-V121-WYC-LV-ROYAL",
+      "person_id": "OV-P-009",
+      "category": "manuscript_catalog",
+      "version": "Later Version",
+      "shelfmark": "British Library Royal MS 1 C IX",
+      "url": "https://searcharchives.bl.uk/catalog/040-002105766",
+      "catalog_checked": true,
+      "manuscript_text_collated": false
+    },
+    {
+      "id": "WIT-V121-WYC-LV-HARLEY",
+      "person_id": "OV-P-009",
+      "category": "manuscript_catalog",
+      "version": "Later Version",
+      "shelfmark": "British Library Harley MS 5017",
+      "url": "https://searcharchives.bl.uk/catalog/040-002050861",
+      "catalog_checked": true,
+      "manuscript_text_collated": false,
+      "related_to": "WIT-V121-WYC-LV-ROYAL"
+    },
+    {
+      "id": "WIT-V121-WYC-FM-1850",
+      "person_id": "OV-P-009",
+      "category": "modern_edited_publication",
+      "version": "EV/LV editorial comparison",
+      "year": 1850,
+      "url": "https://www.cambridge.org/core/books/abs/medieval-and-early-modern-religious-cultures/earlier-versionlater-version-in-the-wycliffite-bible-is-that-the-only-choice/385F5DA77A04F55D4784F55A393CD5F1",
+      "catalog_checked": true,
+      "manuscript_text_collated": false
+    },
+    {
+      "id": "WIT-V121-HUS-RELATIO",
+      "person_id": "OV-P-010",
+      "category": "eyewitness_account_in_later_edition",
+      "title": "Relatio Petri de Mladenowic",
+      "edition_year": 1869,
+      "edition_pages": "235–324 (table of contents starts p235; secondary citation pp237–324)",
+      "url": "https://www.rbmonline.cz/portal/book/257?lpage=741",
+      "catalog_checked": true,
+      "manuscript_text_collated": false
+    },
+    {
+      "id": "WIT-V121-HUS-COUNCIL-SESSION15",
+      "person_id": "OV-P-010",
+      "category": "council_sentence_in_later_translation",
+      "date": "1415-07-06",
+      "title": "Council of Constance, Session XV",
+      "url": "https://www.oud.rkdocumenten.nl/rkdocs/index.php?doc=6733&mi=600",
+      "catalog_checked": true,
+      "manuscript_text_collated": false,
+      "translation_copyright_status": "requires_independent_review"
+    }
+  ],
+  "paired_comparisons": [
+    {
+      "type": "version_distinction",
+      "ids": [
+        "WIT-V121-WYC-EV-EGERTON",
+        "WIT-V121-WYC-LV-ROYAL"
+      ]
+    },
+    {
+      "type": "distinct_testimony",
+      "ids": [
+        "WIT-V121-HUS-RELATIO",
+        "WIT-V121-HUS-COUNCIL-SESSION15"
+      ]
+    }
+  ]
+}
