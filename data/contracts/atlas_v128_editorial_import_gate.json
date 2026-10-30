@@ -1,0 +1,28 @@
+{
+  "version": "1.28",
+  "status": "RESEARCH_ONLY",
+  "publication_gate": {
+    "approved": false,
+    "can_ship": false
+  },
+  "vol03_backlog": {
+    "source": "data/deep/vol03_v125_passage_plan.json",
+    "status": "UNVERIFIED_PHYSICAL_FOLIOS",
+    "release": "HOLD"
+  },
+  "vol04": {
+    "claim_register": "data/deep/atlas_v128_vol04_claim_source_audit.json",
+    "claim_count": 32,
+    "structure": "ID_REFERENCES_VERIFIED",
+    "semantics": "PENDING_CONTENT_REVIEW",
+    "release": "HOLD"
+  },
+  "vol05": {
+    "status": "NOT_AUDITED_IN_V128",
+    "release": "HOLD"
+  },
+  "ai_studio": {
+    "payload_allowed": false,
+    "reason": "No human editorial approval or source-level clearance"
+  }
+}
