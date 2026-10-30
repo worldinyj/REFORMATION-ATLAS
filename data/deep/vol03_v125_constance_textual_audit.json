@@ -1,0 +1,47 @@
+{
+  "version": "1.25",
+  "status": "DRAFT_RESEARCH_NOT_PUBLIC",
+  "publication_gate": {
+    "approved": false,
+    "can_ship": false
+  },
+  "panels": [
+    {
+      "id": "HUS-HEARING",
+      "event": "June 1415 hearings",
+      "genre": "proceedings_as_recounted",
+      "source_ids": [
+        "COUNCIL",
+        "PAL252",
+        "PAL254"
+      ],
+      "latin_council_text_collated": false
+    },
+    {
+      "id": "HUS-DECREE",
+      "event": "6 July 1415 sentence",
+      "genre": "official_condemnation",
+      "source_ids": [
+        "COUNCIL"
+      ],
+      "latin_council_text_collated": false
+    },
+    {
+      "id": "HUS-RELATIO",
+      "event": "narrative preserved in later editions",
+      "genre": "supporter_narrative",
+      "source_ids": [
+        "PAL235",
+        "PAL286",
+        "PAL300"
+      ],
+      "latin_council_text_collated": false
+    }
+  ],
+  "printed_edition": {
+    "year": 1869,
+    "contents_relatio_start": 235,
+    "section_at_286": "Articuli extracti de tractatu M. J. Hus de Ecclesia",
+    "edition_is_autograph": false
+  }
+}
