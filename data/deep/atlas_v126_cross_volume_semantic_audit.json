@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.26",
+  "status": "DRAFT_RESEARCH_NOT_PUBLIC",
+  "publication_gate": {
+    "approved": false,
+    "can_ship": false
+  },
+  "reviewed_cross_volume": [
+    {
+      "path": "data/contracts/atlas_person_document_witness_crosswalk_v119.json",
+      "risk": "one prior Vol04 Calvin source attribution in V1.25 cited unrelated Hus bibliography",
+      "resolution": "cross-volume person/document/edition IDs must be checked against their own source registry"
+    },
+    {
+      "path": "data/deep/vol03_v125_claim_registry.json",
+      "claim_id": "V125-C19",
+      "risk": "source AHISTO is Hus/Palacky, not Calvin Institutes evidence",
+      "decision": "HOLD_WRONG_SOURCE_DOMAIN",
+      "replacement_lead": "data/deep/vol04_calvin_v01.json claim CLM-V04-CA-002",
+      "requires_reaudit": true
+    }
+  ],
+  "test_dimensions": [
+    "folio_not_verified",
+    "edition_not_autograph",
+    "scope_mismatch",
+    "referential_integrity",
+    "id_uniqueness",
+    "rights_gate",
+    "classification",
+    "event_granularity",
+    "genre_distinction",
+    "date_precision",
+    "publication_gate",
+    "evidence_level",
+    "access_tier",
+    "quotation_integrity",
+    "authorship",
+    "document_identity",
+    "edition_vs_primary",
+    "pagination",
+    "historical_genre",
+    "provenance"
+  ],
+  "editorial_rules": [
+    "No implicit public approval from valid ID",
+    "Do not accept a source from another scholar/domain merely because identifier exists",
+    "No automatically promoted search snippet to folio collation",
+    "Original/published-edition/translation categories retained"
+  ],
+  "handoff_status": "research_only"
+}
