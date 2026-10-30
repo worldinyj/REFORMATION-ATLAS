@@ -18,9 +18,9 @@ def audit(root):
         if isinstance(v,list):
             for n,x in enumerate(v):walk(x,path,f"{loc}[{n}]")
         elif isinstance(v,dict):
-            if v.get("person_id")=="OV-P-009" and v.get("document_id")=="OV-D-005":
+            if path in {"data/contracts/atlas_person_document_witness_crosswalk_v119.json", "data/deep/vol03_wycliffe_hus_primary_witness_audit_v120.json"} and v.get("person_id")=="OV-P-009" and v.get("document_id")=="OV-D-005":
                 issues.append(dict(path=path,at=loc,rule="WYCLIFFE_HUS_DE_ECCLESIA_MIXUP"))
-            if v.get("person_id")=="OV-P-010" and v.get("document_id")=="OV-D-006" and v.get("relation") in ("authored","author","authored_work"):
+            if path in {"data/contracts/atlas_person_document_witness_crosswalk_v119.json", "data/deep/vol03_wycliffe_hus_primary_witness_audit_v120.json"} and v.get("person_id")=="OV-P-010" and v.get("document_id")=="OV-D-006" and v.get("relation") in ("authored","author","authored_work"):
                 issues.append(dict(path=path,at=loc,rule="HUS_FOUR_ARTICLES_MISATTRIBUTION"))
             for k,x in v.items():
                 if k in ("person_id","document_id","event_id") and isinstance(x,str) and x.startswith("OV-"):
