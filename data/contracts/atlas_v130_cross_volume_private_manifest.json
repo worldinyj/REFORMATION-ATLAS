@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.30",
+  "publication_gate": {
+    "approved": false,
+    "can_ship": false
+  },
+  "mode": "research_readonly",
+  "volumes": [
+    {
+      "id": "VOL-03",
+      "source": "data/deep/vol03_v125_passage_plan.json",
+      "status": "manuscript_collation_pending",
+      "public": false
+    },
+    {
+      "id": "VOL-04",
+      "source": "data/deep/atlas_v130_remaining_claim_review.json",
+      "status": "20_claims_semantic_review_pending",
+      "public": false
+    },
+    {
+      "id": "VOL-05",
+      "source": null,
+      "status": "not_audited_in_this_batch",
+      "public": false
+    }
+  ],
+  "rules": {
+    "auto_merge_main": false,
+    "ai_studio_auto_sync": false,
+    "display_unverified_as_fact": false,
+    "require_human_editor": true
+  },
+  "next_steps": [
+    "Review primary body text for remaining 20 claims",
+    "Audit actual VOL-05 source file inventory",
+    "Resolve original folio gaps in VOL-03",
+    "Approve own Korean summaries individually"
+  ]
+}
