@@ -1,0 +1,130 @@
+{
+  "schema_version": "1.38",
+  "publication_gate": {
+    "approved": false,
+    "can_ship": false
+  },
+  "mode": "EDITORIAL_REVIEW_ONLY",
+  "topics": [
+    {
+      "id": "JUSTIFICATION",
+      "title_ko": "의화·칭의",
+      "summary_ko": "그리스도를 통해 하나님과 올바른 관계를 맺는 일을 어떻게 설명하는가",
+      "terms": [
+        {
+          "term": "justificatio",
+          "description": "의롭다 하심 또는 의화; 교파별 의미 범위 차이를 명시"
+        },
+        {
+          "term": "imputatio",
+          "description": "의의 전가, 루터교·개혁파 저술 내 문맥을 따로 확인"
+        },
+        {
+          "term": "sanctificatio",
+          "description": "성화 또는 거룩해짐; 의화와의 관계를 구분"
+        }
+      ],
+      "primary_refs": [
+        "Trent VI ch.7 and canon 9",
+        "Augsburg Confession IV (1530)",
+        "Institutes 1559 III.11"
+      ],
+      "educational_caution": "가톨릭은 행위만, 개신교는 믿음만 강조한다는 이분법 회피"
+    },
+    {
+      "id": "EUCHARIST",
+      "title_ko": "성찬·성체성사",
+      "summary_ko": "성찬에서 그리스도의 현존과 참여를 어떤 방식으로 설명하는가",
+      "terms": [
+        {
+          "term": "praesentia realis",
+          "description": "실재적 현존 관련 표현; 루터교와 가톨릭의 개념을 자동 동일시 금지"
+        },
+        {
+          "term": "transsubstantiatio",
+          "description": "실체변화; 트리엔트 제13회기 원문 위치와 함께 해설"
+        },
+        {
+          "term": "sacrificium missae",
+          "description": "미사의 제사적 성격 논쟁"
+        }
+      ],
+      "primary_refs": [
+        "Trent XIII and XXII",
+        "Augsburg X, XXII, XXIV",
+        "Institutes IV.17–18"
+      ],
+      "educational_caution": "루터교 성찬을 상징설로 오해하거나 칼뱅을 단순 기념설로 단정 금지"
+    },
+    {
+      "id": "SAINTS_IMAGES",
+      "title_ko": "성인 공경·성화상",
+      "summary_ko": "성인의 기억, 중재, 예배 이미지에 관하여 무엇을 허용하거나 비판하는가",
+      "terms": [
+        {
+          "term": "invocatio sanctorum",
+          "description": "성인에게 도움을 청하는 관행에 대한 논쟁"
+        },
+        {
+          "term": "veneratio",
+          "description": "공경. 예배와의 구별은 문헌·전통별로 설명"
+        },
+        {
+          "term": "imago",
+          "description": "종교 이미지. 성인 호출과 성화상 규정은 서로 다른 논점"
+        }
+      ],
+      "primary_refs": [
+        "Trent XXV",
+        "Augsburg XXI",
+        "Institutes I.11"
+      ],
+      "educational_caution": "아우크스부르크 제21조를 성화상 전면 금지 규정으로 표현 금지"
+    }
+  ],
+  "sources": [
+    {
+      "id": "AUG-IV-CPH",
+      "url": "https://bookofconcord.cph.org/en/augsburg-confession/chief_articles/article_iv/",
+      "access": "later_translation",
+      "historical_original_collated": false
+    },
+    {
+      "id": "AUG-XXI-CPH",
+      "url": "https://bookofconcord.cph.org/en/augsburg-confession/chief_articles/article_xxi/",
+      "access": "later_translation",
+      "historical_original_collated": false
+    },
+    {
+      "id": "AUG-FULL",
+      "url": "https://thebookofconcord.org/augsburg-confession-single-page/",
+      "access": "later_translation",
+      "historical_original_collated": false
+    },
+    {
+      "id": "TRENT-VI",
+      "url": "https://adfonteslibrary.org/work-council-trent-session-06",
+      "access": "historical_english_translation",
+      "historical_original_collated": false
+    },
+    {
+      "id": "TRENT-XXV",
+      "url": "https://en.wikisource.org/wiki/Canons_and_Decrees_of_the_Council_of_Trent/Session_XXV/Invocation%2C_Veneration%2C_and_on_Relics_of_Saints_and_Sacred_Images",
+      "access": "historical_english_translation",
+      "historical_original_collated": false
+    },
+    {
+      "id": "CALVIN-1559",
+      "url": "https://ccel.org/ccel/calvin/institutes/institutes.toc.html",
+      "access": "later_english_translation",
+      "historical_original_collated": false
+    }
+  ],
+  "app_hand_off": {
+    "route": "/research/compare/confessions",
+    "public_visible": false,
+    "render_mode": "reviewer_preview_only",
+    "require_human_editorial_approval": true,
+    "may_show_scans": false
+  }
+}
