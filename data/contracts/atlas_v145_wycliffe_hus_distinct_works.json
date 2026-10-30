@@ -1,0 +1,33 @@
+{
+  "version": "1.45",
+  "status": "RESEARCH_ONLY",
+  "publication_gate": {
+    "approved": false,
+    "can_ship": false
+  },
+  "wycliffe": {
+    "person_id": "OV-P-009",
+    "work_id": "WRK-V03-WYCLIFFE-DE-ECCLESIA",
+    "canonical": false,
+    "editorial_status": "PROVISIONAL",
+    "title": "Tractatus de ecclesia",
+    "approximate_composition": "1378–1379",
+    "edition_1886": "Johann Loserth",
+    "manuscript_collated": false
+  },
+  "hus": {
+    "person_id": "OV-P-010",
+    "canonical_document_id": "OV-D-005",
+    "title": "De ecclesia",
+    "year": 1413
+  },
+  "repaired_paths": [
+    "data/contracts/atlas_person_document_witness_crosswalk_v119.json",
+    "data/deep/vol03_wycliffe_hus_primary_witness_audit_v120.json"
+  ],
+  "notes": [
+    "Do not equate medieval works of same title",
+    "Wycliffe provisional ID must not be published as a canonical overview identifier",
+    "Historical audit reports preserve old ID as cited issue"
+  ]
+}
