@@ -1,0 +1,53 @@
+{
+  "version": "1.22-draft",
+  "status": "DRAFT_RESEARCH_NOT_PUBLIC",
+  "publication_gate": {
+    "approved": false,
+    "can_ship": false
+  },
+  "comparisons": [
+    {
+      "id": "CMP-V122-GEN-1-3",
+      "passage": "Genesis 1:3",
+      "language": "Middle English",
+      "witness_type": "edited_texts_and_scholarly_transcriptions_not_autograph",
+      "earlier": {
+        "text": "And God seide, Be maad liȝt; and maad is liȝt",
+        "source": "https://langeslag.uni-goettingen.de/ling18/handouts/09_Genesis.pdf"
+      },
+      "later": {
+        "text": "And God seide, Liȝt be maad; and liȝt was maad",
+        "source": "https://helsinkicorpus.arts.gla.ac.uk/browse.py?format=html&fs=50&highlight=&params=true&pb=true&pln=true&text=wycold&toc=title"
+      },
+      "claims": [
+        "earlier closer to Latin word order",
+        "later uses a more idiomatic English structure"
+      ],
+      "medieval_manuscript_collated": false,
+      "publication_approved": false
+    },
+    {
+      "id": "CMP-V122-HUS-1415-07-06",
+      "event": "Council of Constance Session XV, 1415-07-06",
+      "comparison_mode": "document_purpose_and_position_not_sentence_collation",
+      "official": {
+        "genre": "council_judgment",
+        "purpose": "condemnation and ecclesiastical sentence",
+        "source": "https://www.newadvent.org/cathen/04288a.htm"
+      },
+      "eyewitness": {
+        "genre": "supporter_eyewitness_narrative",
+        "purpose": "report of hearing and last day from Hus circle",
+        "source": "https://christwiki.org/sources/mladonovice-relatio/"
+      },
+      "latin_text_collated": false,
+      "translation_rights_reviewed": false,
+      "publication_approved": false
+    }
+  ],
+  "source_caveats": [
+    "Neither EV/LV example was independently collated against 14th-century manuscript folios",
+    "Council verdict and supporter memoir differ in genre; no fabricated direct quotations",
+    "Short Middle English quotations retained only with attribution; no whole copyrighted translations"
+  ]
+}
