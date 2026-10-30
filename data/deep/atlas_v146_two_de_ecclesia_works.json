@@ -1,0 +1,38 @@
+{
+  "version": "1.46",
+  "status": "DRAFT_RESEARCH_NOT_PUBLIC",
+  "publication_gate": {
+    "approved": false,
+    "can_ship": false
+  },
+  "works": [
+    {
+      "id": "WRK-V03-WYCLIFFE-DE-ECCLESIA",
+      "author_id": "OV-P-009",
+      "canonical": false,
+      "date": "c.1378–1379",
+      "edition": {
+        "year": 1886,
+        "editor": "Johann Loserth",
+        "side_notes": "F. D. Matthew",
+        "catalog": "https://catalog.folger.edu/record/17976",
+        "original_manuscript_collated": false
+      }
+    },
+    {
+      "id": "OV-D-005",
+      "author_id": "OV-P-010",
+      "canonical": true,
+      "date": "1413",
+      "manuscript_catalog": "https://digiscripta.phil.muni.cz/cs/node/12908",
+      "mihoo": "XXIII",
+      "original_manuscript_collated": false
+    }
+  ],
+  "relationship": {
+    "type": "INTELLECTUAL_INFLUENCE_NOT_SAME_TEXT",
+    "from": "WRK-V03-WYCLIFFE-DE-ECCLESIA",
+    "to": "OV-D-005",
+    "scholarship": "https://academic.oup.com/reference/62416/reference-article-abstract/555947093?login=false"
+  }
+}
