@@ -1,0 +1,62 @@
+{
+  "version": "1.23-draft",
+  "status": "DRAFT_RESEARCH_NOT_PUBLIC",
+  "publication_gate": {
+    "approved": false,
+    "can_ship": false
+  },
+  "comparisons": [
+    {
+      "id": "CMP-V123-LAM-2-19",
+      "kind": "EV_LV_parallel",
+      "passage": "Lamentations 2:19",
+      "source": "https://ora.ox.ac.uk/objects/uuid%3A99c4ffc8-4cf4-4868-82dd-1e8ad0e71740/files/sgx41mk776",
+      "source_description": "Oxford repository academic comparison; link returned 403 on direct open; search-indexed excerpt used",
+      "earlier_excerpt": "Ris, preise thou in the nyyt, in the bigynnyng of wachchis",
+      "later_excerpt": "Rise thou togidere, herie thou in the nyyt, in the bigynnyng of wakyngis",
+      "evidence_access": "search_snippet_not_pdf_page_screened",
+      "manuscript_collated": false,
+      "rights": "short_excerpts_for_scholarly_comparison_only"
+    },
+    {
+      "id": "CMP-V123-EX-7-25",
+      "kind": "EV_LV_parallel",
+      "passage": "Exodus 7:25",
+      "source": "https://omu.repo.nii.ac.jp/record/9924/files/2009201271.pdf",
+      "source_description": "Aita comparative paper, Forshall & Madden 1850 readings",
+      "earlier_excerpt": "seuen dayes weren fulfillid",
+      "later_excerpt": "seuene daies weren fillid",
+      "evidence_access": "search_snippet_not_pdf_page_screened",
+      "manuscript_collated": false,
+      "rights": "short_excerpts_for_scholarly_comparison_only"
+    }
+  ],
+  "hus": [
+    {
+      "id": "HUS-V123-RELATIO-235",
+      "source": "https://www.rbmonline.cz/portal/book/257?lpage=235",
+      "print_page": 235,
+      "section": "Relatio Petri de Mladenowic",
+      "level": "digital_edition_table_of_contents_verified",
+      "latin_full_passage_collated": false
+    },
+    {
+      "id": "HUS-V123-RELATIO-286",
+      "source": "https://www.rbmonline.cz/portal/book/257?lpage=286",
+      "print_page": 286,
+      "section": "Articuli extracti de tractatu M. J. Hus de Ecclesia",
+      "short_latin_excerpt": "Tantum una est sancta universalis ecclesia",
+      "level": "digital_edition_text_view_checked",
+      "latin_full_passage_collated": false
+    },
+    {
+      "id": "HUS-V123-RELATIO-237-324",
+      "source": "https://geschichtsquellen.de/werk/3970",
+      "print_page_range": "237–324",
+      "level": "scholarly_bibliography",
+      "latin_full_passage_collated": false
+    }
+  ],
+  "historical_note": "Palacky 1869 contents begin Relatio at p235; scholarly bibliography cites pp237–324. Keep both without silently harmonizing.",
+  "no_public_release": true
+}
