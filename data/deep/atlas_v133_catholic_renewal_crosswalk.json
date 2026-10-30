@@ -1,0 +1,55 @@
+{
+  "version": "1.33",
+  "status": "DRAFT_RESEARCH_NOT_PUBLIC",
+  "publication_gate": {
+    "approved": false,
+    "can_ship": false
+  },
+  "persons": [
+    {
+      "id": "OV-P-021",
+      "theme": "Jesuit formation",
+      "key_date": "1540-09-27",
+      "document": "Regimini militantis Ecclesiae",
+      "relation": "PRECEDES_TRENT",
+      "source_keys": [
+        "TR-SRC-PROP-08",
+        "TR-SRC-PROP-09"
+      ],
+      "primary_text_collated": false
+    },
+    {
+      "id": "OV-P-022",
+      "theme": "Discalced Carmelite reform",
+      "key_date": "1562-08-24",
+      "institution": "St Joseph convent, Avila",
+      "relation": "PARALLEL_TO_TRENT",
+      "source_keys": [
+        "TR-SRC-PROP-10",
+        "TR-SRC-PROP-11"
+      ],
+      "primary_text_collated": false
+    }
+  ],
+  "council_periods": [
+    {
+      "span": "1545–1547",
+      "key": "TR-PHASE-PROP-1"
+    },
+    {
+      "span": "1551–1552",
+      "key": "TR-PHASE-PROP-2"
+    },
+    {
+      "span": "1562–1563",
+      "key": "TR-PHASE-PROP-3"
+    }
+  ],
+  "interpretive_rules": [
+    "Jesuit papal approval in 1540 predates Trent beginning 1545",
+    "Teresa Carmelite reform in 1562 runs alongside final phase, not as a decree of Trent",
+    "Do not conflate Society of Jesus with Discalced Carmelites",
+    "Separate decree sessions, 1564 editions and modern translations"
+  ],
+  "source": "data/deep/vol05_trent_catholic_reform_registry_v01.json"
+}
