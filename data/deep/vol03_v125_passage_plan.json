@@ -1,0 +1,77 @@
+{
+  "version": "1.25",
+  "status": "DRAFT_RESEARCH_NOT_PUBLIC",
+  "publication_gate": {
+    "approved": false,
+    "can_ship": false
+  },
+  "passages": [
+    {
+      "passage": "Genesis 1:3",
+      "families": [
+        "EV",
+        "LV"
+      ],
+      "needed": "two corresponding Genesis-containing manuscripts and folio images",
+      "current_source_tier": "modern_edited_examples",
+      "collated": false,
+      "disallowed_witness_ids": [
+        "MS-BL-617",
+        "MS-BL-618"
+      ]
+    },
+    {
+      "passage": "Exodus 7:25",
+      "families": [
+        "EV",
+        "LV"
+      ],
+      "needed": "Exodus-bearing manuscripts + academic paper page",
+      "current_source_tier": "search_snippet",
+      "collated": false,
+      "disallowed_witness_ids": [
+        "MS-BL-617",
+        "MS-BL-618"
+      ]
+    },
+    {
+      "passage": "Lamentations 2:19",
+      "families": [
+        "EV",
+        "LV"
+      ],
+      "needed": "full source-page view and exact exemplar references",
+      "current_source_tier": "search_snippet",
+      "collated": false,
+      "disallowed_witness_ids": [
+        "MS-BL-618"
+      ]
+    },
+    {
+      "passage": "John 1:1",
+      "families": [
+        "EV",
+        "LV"
+      ],
+      "needed": "identify EV/LV witness pair and verify text at both folios",
+      "current_source_tier": "later_version_digital_edition",
+      "collated": false,
+      "disallowed_witness_ids": [
+        "MS-BL-617"
+      ]
+    },
+    {
+      "passage": "Romans 1:17",
+      "families": [
+        "EV",
+        "LV"
+      ],
+      "needed": "identify witness pair, manuscript and edited text",
+      "current_source_tier": "not_checked",
+      "collated": false,
+      "disallowed_witness_ids": [
+        "MS-BL-617"
+      ]
+    }
+  ]
+}
