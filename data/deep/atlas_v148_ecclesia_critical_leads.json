@@ -1,0 +1,72 @@
+{
+  "version": "1.48",
+  "publication_gate": {
+    "approved": false,
+    "can_ship": false
+  },
+  "work_ids": [
+    "WRK-V03-WYCLIFFE-DE-ECCLESIA",
+    "OV-D-005"
+  ],
+  "wycliffe_textual_leads": [
+    {
+      "page_line": "257/1",
+      "printed_reference": "chapter 20",
+      "manuscript_reference": "chapter 22",
+      "manuscripts": "three complete manuscripts, unidentified shelfmarks",
+      "source": "https://www.cambridge.org/core/journals/studies-in-church-history-subsidia/article/abs/crossreferencing-in-wyclifs-latin-works/BD04CE54A2BCE5F2175F16D7E70CA378",
+      "evidence": "scholarly footnote 5",
+      "primary_copy_checked": false
+    },
+    {
+      "page_line": "467/29",
+      "printed_reference": "chapter 27",
+      "manuscript_reference": "chapter 25",
+      "manuscripts": "three complete manuscripts, unidentified shelfmarks",
+      "source": "https://www.cambridge.org/core/journals/studies-in-church-history-subsidia/article/abs/crossreferencing-in-wyclifs-latin-works/BD04CE54A2BCE5F2175F16D7E70CA378",
+      "evidence": "scholarly footnote 5",
+      "primary_copy_checked": false
+    }
+  ],
+  "hus_metadata": {
+    "catalog": "https://digiscripta.phil.muni.cz/cs/node/12908",
+    "work_catalog_id": "MIHOO XXIII",
+    "date": 1413,
+    "incipit": "Cum quilibet viator debet fideliter credere ecclesiam sanctam katholicam",
+    "latin_excerpt_is_catalog_metadata": true,
+    "manuscript_collated": false
+  },
+  "comparison_themes": [
+    {
+      "topic": "church_of_the_predestined",
+      "status": "secondary_scholarship_only"
+    },
+    {
+      "topic": "Christ_as_head",
+      "status": "secondary_scholarship_only"
+    },
+    {
+      "topic": "papal_authority",
+      "status": "secondary_scholarship_only"
+    },
+    {
+      "topic": "Wyclif_Hus_degree_of_agreement",
+      "status": "contested_scholarship_not_final"
+    }
+  ],
+  "scholarly_disagreement": [
+    {
+      "position": "older literature emphasizes substantial copying",
+      "source": "https://ccel.org/ccel/schaff/hcc6/hcc6.iii.vi.vii.html"
+    },
+    {
+      "position": "later scholarship notes important differences despite concordance",
+      "source": "https://starfos.tacr.cz/en/vysledky-vyzkumu/RIV%2F67985955%3A_____%2F02%3A36030042"
+    }
+  ],
+  "limits": [
+    "No original manuscript collation",
+    "Three manuscript shelfmarks not independently established",
+    "Historical chapter-number discrepancies are editorial clues, not independent proof of variants"
+  ]
+}
