@@ -1,0 +1,51 @@
+{
+  "version": "1.41",
+  "status": "RESEARCH_ONLY",
+  "publication_gate": {
+    "approved": false,
+    "can_ship": false
+  },
+  "findings": [
+    {
+      "id": "V141-F01",
+      "severity": "HIGH",
+      "path": "data/contracts/atlas_person_document_witness_crosswalk_v119.json",
+      "person_id": "OV-P-009",
+      "document_id": "OV-D-005",
+      "issue": "Wycliffe is associated with canonical Hus De ecclesia (1413)",
+      "action": "Remove/replace association after curator review; create separate Wycliffe work ID if needed",
+      "evidence": "data/overview/events_documents_v01.json",
+      "auto_apply": false
+    },
+    {
+      "id": "V141-F02",
+      "severity": "MEDIUM",
+      "path": "data/contracts/atlas_person_document_witness_crosswalk_v119.json",
+      "person_id": "OV-P-010",
+      "document_id": "OV-D-006",
+      "issue": "Four Articles of Prague is later Hussite movement text, not Jan Hus personally authored work",
+      "action": "Retain later_movement_document relation and prevent authored relation",
+      "auto_apply": false
+    },
+    {
+      "id": "V141-F03",
+      "severity": "MEDIUM",
+      "path": "data/contracts/atlas_v140_expanded_reform_network.json",
+      "issue": "Provisional work and topic node IDs mixed with canonical overview IDs",
+      "action": "Retain canonical:false and require migration mapping before import",
+      "auto_apply": false
+    }
+  ],
+  "guardrails": [
+    "Canonical work identity must combine author, original title and period",
+    "same-title texts with different authors must not be merged",
+    "later movement association must not be authored",
+    "unpublished IDs may not be exposed as canonical"
+  ],
+  "reviewed_files": [
+    "data/contracts/atlas_person_document_witness_crosswalk_v119.json",
+    "data/contracts/atlas_v140_expanded_reform_network.json",
+    "data/overview/events_documents_v01.json"
+  ],
+  "audit_scope": "Targeted three-file review; NOT comprehensive repository-wide audit"
+}
