@@ -1,0 +1,27 @@
+name: Atlas JSON identity audit (research)
+on:
+  push:
+    branches:
+      - 'research/**'
+    paths:
+      - 'data/**'
+      - 'scripts/audit_atlas_all_json_v143.py'
+      - '.github/workflows/atlas-v143-identity-audit.yml'
+  workflow_dispatch:
+jobs:
+  identity-audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Scan JSON and report
+        run: python3 scripts/audit_atlas_all_json_v143.py --root . --output atlas-v143-audit.json
+      - name: Archive audit report even on failure
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: atlas-v143-identity-audit
+          path: atlas-v143-audit.json
+          if-no-files-found: warn
