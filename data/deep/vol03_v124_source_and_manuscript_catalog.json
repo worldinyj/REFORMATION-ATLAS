@@ -1,0 +1,113 @@
+{
+  "schema_version": "1.24-research",
+  "status": "DRAFT_RESEARCH_NOT_PUBLIC",
+  "publication_gate": {
+    "approved": false,
+    "can_ship": false
+  },
+  "sources": [
+    {
+      "id": "BL-E617",
+      "title": "British Library Egerton MS 617",
+      "url": "https://searcharchives.bl.uk/catalog/040-001983668",
+      "kind": "institutional_manuscript_catalog",
+      "full_primary_text_collated": false
+    },
+    {
+      "id": "BL-E618",
+      "title": "British Library Egerton MS 618",
+      "url": "https://searcharchives.bl.uk/catalog/040-001983669",
+      "kind": "institutional_manuscript_catalog",
+      "full_primary_text_collated": false
+    },
+    {
+      "id": "MAN-E89",
+      "title": "University of Manchester English MS 89",
+      "url": "https://www.digitalcollections.manchester.ac.uk/view/MS-ENGLISH-00089/103",
+      "kind": "institutional_digitization_catalog",
+      "full_primary_text_collated": false
+    },
+    {
+      "id": "HUDSON-2021",
+      "title": "Anne Hudson EV/LV distinction",
+      "url": "https://www.cambridge.org/core/books/abs/medieval-and-early-modern-religious-cultures/earlier-versionlater-version-in-the-wycliffite-bible-is-that-the-only-choice/385F5DA77A04F55D4784F55A393CD5F1",
+      "kind": "scholarly_secondary",
+      "full_primary_text_collated": false
+    },
+    {
+      "id": "SOLOPOVA-2016",
+      "title": "Solopova Wycliffite Bible manuscript catalogue",
+      "url": "https://www.cambridge.org/core/books/manuscripts-of-the-wycliffite-bible-in-the-bodleian-and-oxford-college-libraries/9B746D61F4F108B35FDFE9C2317D95F6/listing",
+      "kind": "academic_catalogue",
+      "full_primary_text_collated": false
+    },
+    {
+      "id": "PAL-1869",
+      "title": "Palacky Documenta Hus 1869",
+      "url": "https://www.rbmonline.cz/portal/book/257?lpage=286",
+      "kind": "later_scholarly_edition",
+      "full_primary_text_collated": false
+    },
+    {
+      "id": "COUNCIL-HISTORY",
+      "title": "Council of Constance background",
+      "url": "https://www.newadvent.org/cathen/04288a.htm",
+      "kind": "historical_secondary",
+      "full_primary_text_collated": false
+    },
+    {
+      "id": "MLAD-INDEX",
+      "title": "Mladonovice Relatio catalog overview",
+      "url": "https://christwiki.org/sources/mladonovice-relatio/",
+      "kind": "secondary_guide",
+      "full_primary_text_collated": false
+    }
+  ],
+  "records": [
+    {
+      "id": "MS-E617",
+      "source_id": "BL-E617",
+      "version": "EV",
+      "books": "Proverbs through 2 Maccabees",
+      "genesis_present": false,
+      "exodus_present": false,
+      "manuscript_collated": false
+    },
+    {
+      "id": "MS-E618",
+      "source_id": "BL-E618",
+      "version": "EV",
+      "books": "Matthew through Revelation",
+      "genesis_present": false,
+      "exodus_present": false,
+      "manuscript_collated": false
+    },
+    {
+      "id": "MS-MAN-E89",
+      "source_id": "MAN-E89",
+      "version": "MIXED_EV_LV",
+      "books": "Ezekiel/Minor Prophets/Maccabees EV; Daniel LV",
+      "genesis_present": false,
+      "exodus_present": false,
+      "manuscript_collated": false
+    },
+    {
+      "id": "WIT-HUS-PAL",
+      "source_id": "PAL-1869",
+      "version": "1869 edited Latin",
+      "books": "Relatio and related Constance documents",
+      "manuscript_collated": false
+    }
+  ],
+  "negative_claims": [
+    "Egerton 617/618 physically contain Genesis or Exodus",
+    "All Wycliffite manuscripts are pure EV or pure LV",
+    "Palacky 1869 edition is a 1415 autograph",
+    "Council condemnation equals verbatim full judicial transcript"
+  ],
+  "rights": {
+    "images": "do_not_rehost",
+    "texts": "short_discussion_and_own_paraphrase_only",
+    "historical_copyright": "case_by_case_review"
+  }
+}
