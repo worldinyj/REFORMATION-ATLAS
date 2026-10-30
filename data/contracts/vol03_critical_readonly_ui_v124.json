@@ -1,0 +1,39 @@
+{
+  "id": "VOL03-CRITICAL-READONLY-V124",
+  "schema_version": "1.24",
+  "release_gate": {
+    "approved": false,
+    "can_ship": false
+  },
+  "data": {
+    "catalog": "data/deep/vol03_v124_source_and_manuscript_catalog.json",
+    "passage_audit": "data/deep/vol03_v124_passage_witness_matrix.json",
+    "hus_events": "data/deep/vol03_v124_hus_proceedings_crosswalk.json",
+    "claim_register": "data/deep/vol03_v124_claim_decision_register.json"
+  },
+  "ui_modules": [
+    {
+      "id": "source-comparison",
+      "heading_ko": "영어 성경 판본 비교",
+      "status": "RESEARCH_ONLY",
+      "show_texts": false,
+      "show_evidence_status": true
+    },
+    {
+      "id": "witness-provenance",
+      "heading_ko": "필사본과 편집본",
+      "status": "RESEARCH_ONLY",
+      "show_repository_links": true,
+      "show_images": false
+    },
+    {
+      "id": "council-perspectives",
+      "heading_ko": "후스 재판 기록 비교",
+      "status": "RESEARCH_ONLY",
+      "show_direct_quotes": false,
+      "show_genre_and_dates": true
+    }
+  ],
+  "fail_closed": true,
+  "requires_human_approval": true
+}
