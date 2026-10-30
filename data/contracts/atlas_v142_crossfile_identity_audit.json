@@ -1,0 +1,61 @@
+{
+  "version": "1.42",
+  "status": "DRAFT_RESEARCH_NOT_PUBLIC",
+  "publication_gate": {
+    "approved": false,
+    "can_ship": false
+  },
+  "repository_inventory": {
+    "total_tree_entries": 518,
+    "tracked_json_under_data": 94,
+    "files_content_inspected": 6,
+    "inventory_is_content_audit": false
+  },
+  "findings": [
+    {
+      "id": "F142-1",
+      "level": "CONFIRMED_CONFLICT",
+      "path": "data/contracts/atlas_person_document_witness_crosswalk_v119.json",
+      "identity": "OV-P-009 → OV-D-005",
+      "reason": "OV-D-005 is Hus De ecclesia 1413 in canonical overview",
+      "proposed": "Flag and replace with validated Wycliffe-specific ID; do not silently edit historical archive"
+    },
+    {
+      "id": "F142-2",
+      "level": "PRESERVE_CAUTION",
+      "path": "data/contracts/atlas_person_document_witness_crosswalk_v119.json",
+      "identity": "OV-P-010 → OV-D-006",
+      "reason": "Later Hussite movement document, not personally authored by Hus",
+      "proposed": "Retain later_movement_document, forbid authored conversion"
+    },
+    {
+      "id": "F142-3",
+      "level": "PROVISIONAL_ID",
+      "path": "data/contracts/atlas_person_work_edition_crosswalk_v117.json",
+      "identity": "WRK-V04-CALVIN-INSTITUTES",
+      "reason": "Work record is explicitly marked provisional_id=true",
+      "proposed": "Use existing document OV-D-012 and edition mapping for navigation; require curator approval before canonical promotion"
+    },
+    {
+      "id": "F142-4",
+      "level": "PROVISIONAL_GRAPH_NODES",
+      "path": "data/contracts/atlas_v140_expanded_reform_network.json",
+      "identity": "WORK-IGNATIUS-EXERCISES / WORK-TERESA-WAY / WORK-TERESA-CASTLE",
+      "reason": "Local exploration-only identifiers",
+      "proposed": "No automatic UI import of provisional objects"
+    }
+  ],
+  "files_examined": [
+    "data/contracts/atlas_person_document_witness_crosswalk_v119.json",
+    "data/contracts/atlas_person_work_edition_crosswalk_v117.json",
+    "data/contracts/atlas_v140_expanded_reform_network.json",
+    "data/deep/vol03_constance_wycliffite_comparison_v121.json",
+    "data/deep/vol03_wycliffe_hus_primary_witness_audit_v120.json",
+    "data/overview/events_documents_v01.json"
+  ],
+  "notes": [
+    "94 JSON files inventoried, not all opened",
+    "Findings are not 94-file exhaustive proof",
+    "Historical claims still require source-level verification"
+  ]
+}
