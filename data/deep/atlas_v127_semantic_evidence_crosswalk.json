@@ -1,0 +1,105 @@
+{
+  "version": "1.27",
+  "status": "DRAFT_RESEARCH_NOT_PUBLIC",
+  "publication_gate": {
+    "approved": false,
+    "can_ship": false
+  },
+  "sources": [
+    {
+      "id": "BRIDWELL-CALVIN",
+      "url": "https://bridwell.omeka.net/exhibits/show/calvin/1562institutes",
+      "genre": "library_exhibition_with_original_edition",
+      "supports": [
+        "1536_six_chapters",
+        "1559_four_books_eighty_chapters",
+        "1539_1543_1550_latin_editions"
+      ],
+      "primary_text_collated": false
+    },
+    {
+      "id": "OXFORD-1517",
+      "url": "https://www.cabinet.ox.ac.uk/node/9591",
+      "genre": "university_exhibition",
+      "supports": [
+        "1517_95_theses",
+        "later_posting_tradition"
+      ],
+      "primary_text_collated": false
+    },
+    {
+      "id": "JHU-1517",
+      "url": "https://timeline.press.jhu.edu/lut_reformation/1517-1617",
+      "genre": "academic_timeline",
+      "supports": [
+        "1517_95_theses",
+        "posting_evidence_disputed"
+      ],
+      "primary_text_collated": false
+    }
+  ],
+  "claims": [
+    {
+      "id": "V127-CALVIN-EDITION",
+      "legacy_claim_id": "CLM-V04-CA-002",
+      "source_ids": [
+        "BRIDWELL-CALVIN"
+      ],
+      "status": "supported_at_scholarly_exhibition_level",
+      "correction_of": "V125-C19",
+      "primary_edition_collated": false
+    },
+    {
+      "id": "V127-LUTHER-POSTING",
+      "legacy_claim_id": "CLM-V04-L-002",
+      "source_ids": [
+        "OXFORD-1517",
+        "JHU-1517"
+      ],
+      "status": "supported_contested_tradition",
+      "historical_event_certain": false
+    }
+  ],
+  "cross_volume_flags": [
+    {
+      "claim": "V125-C19",
+      "prior_source": "AHISTO",
+      "issue": "wrong_topic_and_person",
+      "verdict": "REJECT_AS_EVIDENCE",
+      "replacement": "BRIDWELL-CALVIN"
+    }
+  ],
+  "edition_leads": [
+    {
+      "year": 1536,
+      "lang": "Latin",
+      "structure": "six chapters"
+    },
+    {
+      "year": 1539,
+      "lang": "Latin",
+      "structure": "expanded"
+    },
+    {
+      "year": 1543,
+      "lang": "Latin",
+      "structure": "revised"
+    },
+    {
+      "year": 1550,
+      "lang": "Latin",
+      "structure": "revised"
+    },
+    {
+      "year": 1559,
+      "lang": "Latin",
+      "structure": "four books, eighty chapters"
+    }
+  ],
+  "unresolved": [
+    "original 1536 title-page direct image collation",
+    "original 1559 collation",
+    "Luther letter/posting historical testimonies collation",
+    "Vol03 Genesis/Exodus manuscript folio access"
+  ]
+}
