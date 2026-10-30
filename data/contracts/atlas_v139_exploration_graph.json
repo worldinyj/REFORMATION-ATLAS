@@ -1,0 +1,186 @@
+{
+  "version": "1.39",
+  "status": "DRAFT_RESEARCH_NOT_PUBLIC",
+  "publication_gate": {
+    "approved": false,
+    "can_ship": false
+  },
+  "nodes": [
+    {
+      "id": "OV-P-013",
+      "type": "person",
+      "label": "마르틴 루터",
+      "canonical": true
+    },
+    {
+      "id": "OV-P-016",
+      "type": "person",
+      "label": "장 칼뱅",
+      "canonical": true
+    },
+    {
+      "id": "OV-P-021",
+      "type": "person",
+      "label": "이냐시오 데 로욜라",
+      "canonical": true
+    },
+    {
+      "id": "OV-P-022",
+      "type": "person",
+      "label": "아빌라의 테레사",
+      "canonical": true
+    },
+    {
+      "id": "OV-E-015",
+      "type": "event",
+      "label": "1517년 95개 논제",
+      "canonical": true
+    },
+    {
+      "id": "OV-E-020",
+      "type": "event",
+      "label": "1536년 기독교강요 초판",
+      "canonical": true
+    },
+    {
+      "id": "OV-E-021",
+      "type": "event",
+      "label": "트리엔트 공의회",
+      "canonical": true
+    },
+    {
+      "id": "OV-D-008",
+      "type": "document",
+      "label": "95개 논제",
+      "canonical": true
+    },
+    {
+      "id": "OV-D-012",
+      "type": "document",
+      "label": "기독교강요",
+      "canonical": true
+    },
+    {
+      "id": "OV-D-014",
+      "type": "document",
+      "label": "트리엔트 교령",
+      "canonical": true
+    },
+    {
+      "id": "EDN-V04-CALVIN-1536-LAT",
+      "type": "edition",
+      "label": "1536 라틴어 초판",
+      "canonical": false
+    },
+    {
+      "id": "EDN-V04-CALVIN-1559-LAT",
+      "type": "edition",
+      "label": "1559 라틴어 최종판",
+      "canonical": false
+    },
+    {
+      "id": "TOPIC-JUSTIFICATION",
+      "type": "topic",
+      "label": "의화·칭의",
+      "canonical": false
+    },
+    {
+      "id": "TOPIC-EUCHARIST",
+      "type": "topic",
+      "label": "성찬",
+      "canonical": false
+    },
+    {
+      "id": "TOPIC-SAINTS-IMAGES",
+      "type": "topic",
+      "label": "성인·성화상",
+      "canonical": false
+    }
+  ],
+  "edges": [
+    {
+      "from": "OV-P-013",
+      "to": "OV-D-008",
+      "relation": "authored",
+      "approval": "RESEARCH_ONLY"
+    },
+    {
+      "from": "OV-D-008",
+      "to": "OV-E-015",
+      "relation": "associated_event",
+      "approval": "RESEARCH_ONLY"
+    },
+    {
+      "from": "OV-P-016",
+      "to": "OV-D-012",
+      "relation": "authored",
+      "approval": "RESEARCH_ONLY"
+    },
+    {
+      "from": "OV-D-012",
+      "to": "OV-E-020",
+      "relation": "first_edition_event",
+      "approval": "RESEARCH_ONLY"
+    },
+    {
+      "from": "OV-D-012",
+      "to": "EDN-V04-CALVIN-1536-LAT",
+      "relation": "has_edition",
+      "approval": "RESEARCH_ONLY"
+    },
+    {
+      "from": "OV-D-012",
+      "to": "EDN-V04-CALVIN-1559-LAT",
+      "relation": "has_edition",
+      "approval": "RESEARCH_ONLY"
+    },
+    {
+      "from": "OV-D-014",
+      "to": "OV-E-021",
+      "relation": "council_document",
+      "approval": "RESEARCH_ONLY"
+    },
+    {
+      "from": "OV-D-014",
+      "to": "TOPIC-JUSTIFICATION",
+      "relation": "discusses",
+      "approval": "RESEARCH_ONLY"
+    },
+    {
+      "from": "OV-D-014",
+      "to": "TOPIC-EUCHARIST",
+      "relation": "discusses",
+      "approval": "RESEARCH_ONLY"
+    },
+    {
+      "from": "OV-D-014",
+      "to": "TOPIC-SAINTS-IMAGES",
+      "relation": "discusses",
+      "approval": "RESEARCH_ONLY"
+    },
+    {
+      "from": "OV-D-012",
+      "to": "TOPIC-JUSTIFICATION",
+      "relation": "discusses",
+      "approval": "RESEARCH_ONLY"
+    },
+    {
+      "from": "OV-D-012",
+      "to": "TOPIC-EUCHARIST",
+      "relation": "discusses",
+      "approval": "RESEARCH_ONLY"
+    },
+    {
+      "from": "OV-D-012",
+      "to": "TOPIC-SAINTS-IMAGES",
+      "relation": "discusses",
+      "approval": "RESEARCH_ONLY"
+    }
+  ],
+  "constraints": [
+    "Graph node IDs retain existing canonical IDs where verified",
+    "Topic and edition nodes are provisional",
+    "Historical relationship requires different evidence than visual UI connectivity",
+    "Nonpublic; no automatic app sync"
+  ]
+}
