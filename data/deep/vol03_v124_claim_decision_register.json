@@ -1,0 +1,83 @@
+{
+  "schema_version": "1.24-research",
+  "publication_gate": {
+    "approved": false,
+    "can_ship": false
+  },
+  "items": [
+    {
+      "id": "V124-C01",
+      "statement": "Egerton 617 excludes Genesis/Exodus",
+      "sources": [
+        "BL-E617"
+      ],
+      "evidence": "institutional_catalog",
+      "claim_status": "supported_from_catalog"
+    },
+    {
+      "id": "V124-C02",
+      "statement": "Egerton 618 excludes Genesis/Exodus",
+      "sources": [
+        "BL-E618"
+      ],
+      "evidence": "institutional_catalog",
+      "claim_status": "supported_from_catalog"
+    },
+    {
+      "id": "V124-C03",
+      "statement": "Manchester English MS 89 combines EV and LV books",
+      "sources": [
+        "MAN-E89"
+      ],
+      "evidence": "institutional_digitization_catalog",
+      "claim_status": "supported_from_catalog"
+    },
+    {
+      "id": "V124-C04",
+      "statement": "EV/LV is a scholarly classification with limitations",
+      "sources": [
+        "HUDSON-2021"
+      ],
+      "evidence": "scholarly_secondary",
+      "claim_status": "supported_from_summary"
+    },
+    {
+      "id": "V124-C05",
+      "statement": "Constance hearings and final sentence belong to distinct dates",
+      "sources": [
+        "COUNCIL-HISTORY"
+      ],
+      "evidence": "historical_secondary",
+      "claim_status": "supported_from_secondary"
+    },
+    {
+      "id": "V124-C06",
+      "statement": "Palacky Relatio page 286 includes extracts from De Ecclesia",
+      "sources": [
+        "PAL-1869"
+      ],
+      "evidence": "digital_text",
+      "claim_status": "supported_from_transcription"
+    },
+    {
+      "id": "V124-C07",
+      "statement": "Genesis comparison directly collated against Egerton 617/618",
+      "sources": [
+        "BL-E617",
+        "BL-E618"
+      ],
+      "evidence": "catalog",
+      "claim_status": "rejected"
+    },
+    {
+      "id": "V124-C08",
+      "statement": "All Wycliffite manuscripts are pure EV or LV",
+      "sources": [
+        "MAN-E89",
+        "HUDSON-2021"
+      ],
+      "evidence": "catalog_and_scholarship",
+      "claim_status": "rejected"
+    }
+  ]
+}
