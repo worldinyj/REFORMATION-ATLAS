@@ -1,0 +1,73 @@
+{
+  "version": "1.19-draft",
+  "status": "DRAFT_RESEARCH_NOT_PUBLIC",
+  "publication_gate": {
+    "approved": false,
+    "can_ship": false
+  },
+  "links": [
+    {
+      "person_id": "OV-P-009",
+      "document_id": "OV-D-005",
+      "event_id": "OV-E-011",
+      "relation": "associated_research_context",
+      "notes": "『교회론』 저작과 영어 성경운동 사건은 별개. 개별 번역 소유권 주장 금지"
+    },
+    {
+      "person_id": "OV-P-010",
+      "document_id": "OV-D-006",
+      "event_id": "OV-E-012",
+      "relation": "later_movement_document",
+      "notes": "프라하 4개조는 후스 처형 이후 운동 문서로 후스 개인 저작이 아님",
+      "witness_ids": [
+        "DOC-V03-001",
+        "EDN-V03-001",
+        "EDN-V03-002",
+        "TRN-V03-001"
+      ]
+    },
+    {
+      "person_id": "OV-P-013",
+      "document_id": "OV-D-008",
+      "event_id": "OV-E-015",
+      "relation": "authored_document_event",
+      "claim_id": "CLM-V04-L-001"
+    },
+    {
+      "person_id": "OV-P-013",
+      "document_id": "OV-D-009",
+      "event_id": null,
+      "relation": "authored_work",
+      "claim_id": "CLM-V04-L-005"
+    },
+    {
+      "person_id": "OV-P-016",
+      "document_id": "OV-D-012",
+      "event_id": "OV-E-020",
+      "relation": "authored_work_first_edition_event",
+      "claim_id": "CLM-V04-CA-002",
+      "edition_ids": [
+        "EDN-V04-CALVIN-1536-LAT",
+        "EDN-V04-CALVIN-1541-FRA",
+        "EDN-V04-CALVIN-1559-LAT",
+        "EDN-V04-CALVIN-1560-FRA"
+      ]
+    }
+  ],
+  "provenance": {
+    "people": "data/overview/volumes_and_people_v01.json",
+    "documents_events": "data/overview/events_documents_v01.json",
+    "witnesses": "data/vol03_document_witnesses.json",
+    "luther": "data/deep/vol04_luther_v01.json",
+    "calvin": "data/deep/vol04_calvin_v01.json",
+    "editions": "data/contracts/atlas_person_work_edition_crosswalk_v117.json"
+  },
+  "rules": [
+    "No document authorship inferred from association",
+    "Later Husite documents not attributed directly to Jan Hus",
+    "Edited text and transcription not treated as original manuscript",
+    "Claim ids must resolve in respective deep dataset",
+    "Edition ids must resolve independently",
+    "Keep all objects nonpublic"
+  ]
+}
