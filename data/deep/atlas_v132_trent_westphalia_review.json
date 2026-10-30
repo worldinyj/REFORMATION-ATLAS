@@ -1,0 +1,188 @@
+{
+  "version": "1.32",
+  "status": "DRAFT_RESEARCH_NOT_PUBLIC",
+  "publication_gate": {
+    "approved": false,
+    "can_ship": false
+  },
+  "counts": {
+    "trent_sources": 11,
+    "trent_sessions": 8,
+    "latin_sources": 10,
+    "latin_anchors": 4,
+    "westphalia_sources": 11,
+    "treaty_instruments": 3
+  },
+  "sessions": [
+    {
+      "number": 4,
+      "date": "1546-04-08",
+      "key": "TR-SESSION-PROP-04",
+      "subject": "Scripture and tradition",
+      "source_keys": [
+        "TR-SRC-PROP-02",
+        "TR-SRC-PROP-03"
+      ],
+      "original_collated": false
+    },
+    {
+      "number": 6,
+      "date": "1547-01-13",
+      "key": "TR-SESSION-PROP-06",
+      "subject": "Justification",
+      "source_keys": [
+        "TR-SRC-PROP-04",
+        "TR-SRC-PROP-07"
+      ],
+      "original_collated": false
+    },
+    {
+      "number": 7,
+      "date": "1547-03-03",
+      "key": "TR-SESSION-PROP-07",
+      "subject": "Sacraments generally",
+      "source_keys": [
+        "TR-SRC-PROP-02",
+        "TR-SRC-PROP-03"
+      ],
+      "original_collated": false
+    },
+    {
+      "number": 13,
+      "date": "1551-10-11",
+      "key": "TR-SESSION-PROP-13",
+      "subject": "Eucharistic presence",
+      "source_keys": [
+        "TR-SRC-PROP-05"
+      ],
+      "original_collated": false
+    },
+    {
+      "number": 22,
+      "date": "1562-09-17",
+      "key": "TR-SESSION-PROP-22",
+      "subject": "Sacrifice of Mass",
+      "source_keys": [
+        "TR-SRC-PROP-02",
+        "TR-SRC-PROP-03"
+      ],
+      "original_collated": false
+    },
+    {
+      "number": 23,
+      "date": "1563-07-15",
+      "key": "TR-SESSION-PROP-23",
+      "subject": "Holy Orders and seminaries reform chapter 18",
+      "source_keys": [
+        "TR-SRC-PROP-06",
+        "TR-SRC-PROP-07"
+      ],
+      "original_collated": false
+    },
+    {
+      "number": 24,
+      "date": "1563-11-11",
+      "key": "TR-SESSION-PROP-24",
+      "subject": "Matrimony and reform",
+      "source_keys": [
+        "TR-SRC-PROP-02",
+        "TR-SRC-PROP-03"
+      ],
+      "original_collated": false
+    },
+    {
+      "number": 25,
+      "date": "1563-12-03/04",
+      "key": "TR-SESSION-PROP-25",
+      "subject": "Saints images relics, indulgences and reform",
+      "source_keys": [
+        "TR-SRC-PROP-02",
+        "TR-SRC-PROP-03"
+      ],
+      "original_collated": false
+    }
+  ],
+  "latin_anchors": [
+    {
+      "key": "TR-TEXT-PROP-VI-7",
+      "session_number": 6,
+      "lemma": "non est sola peccatorum remissio",
+      "section_kind": "DOCTRINAL_DECREE_CHAPTER",
+      "not_verified_against_print": true
+    },
+    {
+      "key": "TR-TEXT-PROP-VI-8",
+      "session_number": 6,
+      "lemma": "fides est humanae salutis initium",
+      "section_kind": "DOCTRINAL_DECREE_CHAPTER",
+      "not_verified_against_print": true
+    },
+    {
+      "key": "TR-TEXT-PROP-XIII-4",
+      "session_number": 13,
+      "lemma": "transsubstantiatio est appellata",
+      "section_kind": "DOCTRINAL_DECREE_CHAPTER",
+      "not_verified_against_print": true
+    },
+    {
+      "key": "TR-TEXT-PROP-XXIII-18",
+      "session_number": 23,
+      "lemma": "perpetuum seminarium",
+      "section_kind": "DISCIPLINARY_REFORM_DECREE_CHAPTER",
+      "not_verified_against_print": true
+    }
+  ],
+  "treaties": [
+    {
+      "key": "WAR-TREATY-IPO-1648",
+      "kind": "IPO",
+      "signing_date": "1648-10-24",
+      "source_keys": [
+        "WAR-SRC-04",
+        "WAR-SRC-05",
+        "WAR-SRC-07"
+      ],
+      "not_collated": true
+    },
+    {
+      "key": "WAR-TREATY-IPM-1648",
+      "kind": "IPM",
+      "signing_date": "1648-10-24",
+      "source_keys": [
+        "WAR-SRC-04",
+        "WAR-SRC-07",
+        "WAR-SRC-03"
+      ],
+      "not_collated": true
+    },
+    {
+      "key": "WAR-TREATY-DUTCH-SPAIN-1648",
+      "kind": "MUNSTER_DUTCH_SPANISH",
+      "signing_date": "1648-01-30",
+      "source_keys": [
+        "WAR-SRC-03",
+        "WAR-SRC-08",
+        "WAR-SRC-09"
+      ],
+      "not_collated": true
+    }
+  ],
+  "cross_volume_people": [
+    {
+      "id": "OV-P-021",
+      "name": "이냐시오 데 로욜라",
+      "volume": "VOL-05"
+    },
+    {
+      "id": "OV-P-022",
+      "name": "아빌라의 테레사",
+      "volume": "VOL-05"
+    }
+  ],
+  "limits": [
+    "Do not equate 1564 print with 1545-1563 council meetings",
+    "Do not collapse IPO and IPM instruments",
+    "No primary Latin printing independently collated",
+    "No new webapp publication"
+  ]
+}
