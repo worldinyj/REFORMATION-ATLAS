@@ -1,0 +1,100 @@
+{
+  "version": "1.35",
+  "status": "RESEARCH_ONLY",
+  "publication_gate": {
+    "approved": false,
+    "can_ship": false
+  },
+  "sessions": [
+    {
+      "session": "VI",
+      "date": "1547-01-13",
+      "subject_ko": "의화와 은총",
+      "topic": "faith_grace_justification",
+      "edition_status": "SESSION_DATE_SECONDARY_CHECK",
+      "latin_original_collated": false
+    },
+    {
+      "session": "VII",
+      "date": "1547-03-03",
+      "subject_ko": "성사 일반·세례·견진",
+      "topic": "sacraments",
+      "edition_status": "SESSION_DATE_SECONDARY_CHECK",
+      "latin_original_collated": false
+    },
+    {
+      "session": "XIII",
+      "date": "1551-10-11",
+      "subject_ko": "성체성사와 현존",
+      "topic": "eucharist_presence",
+      "edition_status": "SESSION_DATE_SECONDARY_CHECK",
+      "latin_original_collated": false
+    },
+    {
+      "session": "XXII",
+      "date": "1562-09-17",
+      "subject_ko": "미사 성제",
+      "topic": "mass_sacrifice",
+      "edition_status": "SESSION_DATE_SECONDARY_CHECK",
+      "latin_original_collated": false
+    },
+    {
+      "session": "XXIII",
+      "date": "1563-07-15",
+      "subject_ko": "성품성사·성직",
+      "topic": "holy_orders",
+      "edition_status": "SESSION_DATE_SECONDARY_CHECK",
+      "latin_original_collated": false
+    },
+    {
+      "session": "XXIV",
+      "date": "1563-11-11",
+      "subject_ko": "혼인·교회 규율",
+      "topic": "marriage",
+      "edition_status": "SESSION_DATE_SECONDARY_CHECK",
+      "latin_original_collated": false
+    },
+    {
+      "session": "XXV",
+      "date": "1563-12-03",
+      "subject_ko": "연옥·성인 공경·성화상·대사",
+      "topic": "purgatory_images_indulgences",
+      "edition_status": "SESSION_DATE_SECONDARY_CHECK",
+      "latin_original_collated": false
+    }
+  ],
+  "teresa": {
+    "person_id": "OV-P-022",
+    "work": "Castillo interior / Las moradas",
+    "composition": "1577",
+    "edition_1588": {
+      "editor": "Fray Luis de León",
+      "city": "Salamanca",
+      "source_url": "https://library.georgetown.edu/exhibition/500-years-teresa-de-avila",
+      "identified_as": "FIRST_COLLECTED_PRINT_OF_WORKS"
+    },
+    "manuscript": {
+      "reported_location": "Convent of San José, Seville",
+      "evidence": "early translation editorial introduction",
+      "source_url": "https://www.ccel.org/ccel/teresa/castle2.iii.html",
+      "facsimile_collated": false
+    },
+    "later_english_translation": "Benedictines of Stanbrook; Benedict Zimmerman introduction",
+    "translation_is_original": false
+  },
+  "source_types": [
+    "secondary_session_list",
+    "rare_book_exhibition",
+    "historical_translation_editorial_intro"
+  ],
+  "issues": [
+    "Session XXII date sources disagree: validate Sep 17 1562 rather than Sep 9",
+    "Session XXV opening versus decrees dating needs precise delineation",
+    "Original Latin 1564 print and Spanish autograph not collated"
+  ],
+  "source_urls": [
+    "https://www.fact-archive.com/encyclopedia/Council_of_Trent",
+    "https://library.georgetown.edu/exhibition/500-years-teresa-de-avila",
+    "https://www.ccel.org/ccel/teresa/castle2.iii.html"
+  ]
+}
