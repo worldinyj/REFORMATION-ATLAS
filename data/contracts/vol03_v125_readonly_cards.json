@@ -1,0 +1,43 @@
+{
+  "version": "1.25",
+  "status": "RESEARCH_ONLY",
+  "publication_gate": {
+    "approved": false,
+    "can_ship": false
+  },
+  "modules": [
+    {
+      "id": "ev-lv",
+      "title_ko": "성경 본문 계보 비교",
+      "inputs": [
+        "data/deep/vol03_v125_passage_plan.json"
+      ],
+      "public_visible": false
+    },
+    {
+      "id": "witnesses",
+      "title_ko": "필사본 수록 범위",
+      "inputs": [
+        "data/deep/vol03_v125_witness_registry.json"
+      ],
+      "public_visible": false
+    },
+    {
+      "id": "hus",
+      "title_ko": "후스 재판의 서로 다른 기록",
+      "inputs": [
+        "data/deep/vol03_v125_constance_textual_audit.json"
+      ],
+      "public_visible": false
+    },
+    {
+      "id": "confidence",
+      "title_ko": "주장·출처 신뢰도",
+      "inputs": [
+        "data/deep/vol03_v125_claim_registry.json"
+      ],
+      "public_visible": false
+    }
+  ],
+  "never_publish_raw_scans": true
+}
