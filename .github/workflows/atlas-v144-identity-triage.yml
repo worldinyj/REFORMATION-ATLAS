@@ -1,0 +1,27 @@
+name: Atlas V144 canonical identity triage
+on:
+  push:
+    branches:
+      - 'research/**'
+    paths:
+      - 'data/**'
+      - 'scripts/audit_atlas_identity_triage_v144.py'
+      - '.github/workflows/atlas-v144-identity-triage.yml'
+  workflow_dispatch:
+jobs:
+  triage:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Audit active author-work IDs
+        run: python3 scripts/audit_atlas_identity_triage_v144.py --root . --output atlas-v144-audit.json
+      - name: Upload report even on failure
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: atlas-v144-identity-report
+          path: atlas-v144-audit.json
+          if-no-files-found: warn
