@@ -1,0 +1,78 @@
+{
+  "version": "1.47",
+  "status": "DRAFT_RESEARCH_NOT_PUBLIC",
+  "publication_gate": {
+    "approved": false,
+    "can_ship": false
+  },
+  "works": [
+    {
+      "id": "OV-D-005",
+      "author_id": "OV-P-010",
+      "title": "Jan Hus De ecclesia (1413)",
+      "catalog_id": "MIHOO XXIII",
+      "catalog_url": "https://digiscripta.phil.muni.cz/cs/node/12908",
+      "witnesses": [
+        {
+          "repository": "Basel UB",
+          "shelfmark": "A VIII 16",
+          "folio": "145r–147r",
+          "level": "CATALOG_METADATA_ONLY"
+        },
+        {
+          "repository": "Bautzen StKrB",
+          "shelfmark": "4o 25",
+          "folio": "1r–88v",
+          "level": "CATALOG_METADATA_ONLY"
+        },
+        {
+          "repository": "Bautzen StKrB",
+          "shelfmark": "8o 6",
+          "folio": "1r–164r BA / 3r–167v HD",
+          "level": "CATALOG_METADATA_ONLY"
+        },
+        {
+          "repository": "Brno MZK",
+          "shelfmark": "Mk 109",
+          "folio": "94r, 95r–105v",
+          "level": "CATALOG_METADATA_ONLY"
+        },
+        {
+          "repository": "Klosterneuburg StiftsB",
+          "shelfmark": "356",
+          "folio": "105r",
+          "level": "CATALOG_METADATA_ONLY"
+        }
+      ]
+    },
+    {
+      "id": "WRK-V03-WYCLIFFE-DE-ECCLESIA",
+      "author_id": "OV-P-009",
+      "canonical": false,
+      "title": "Wyclif Tractatus de ecclesia",
+      "witnesses": [
+        {
+          "repository": "Folger Shakespeare Library",
+          "shelfmark": "BR75 .W8 1883 v.4",
+          "edition_year": 1886,
+          "editor": "Johann Loserth",
+          "english_side_notes": "F. D. Matthew",
+          "physical_description": "xxxii, 600 pages",
+          "level": "PRINTED_EDITION_CATALOG_ONLY",
+          "source": "https://catalog.folger.edu/record/17976"
+        }
+      ]
+    }
+  ],
+  "holds": [
+    "Folger call number is a printed edition, NOT medieval manuscript shelfmark",
+    "Hus Basel leaf range may be excerpt; do not presume complete work",
+    "Bautzen parallel BA/HD ranges must be interpreted with manuscript catalog",
+    "Wyclif three complete manuscripts mentioned in specialist research; shelfmarks not confirmed",
+    "No folio or Latin textual collation performed"
+  ],
+  "scholarship": [
+    "https://www.cambridge.org/core/journals/studies-in-church-history-subsidia/article/abs/crossreferencing-in-wyclifs-latin-works/BD04CE54A2BCE5F2175F16D7E70CA378",
+    "https://www.cambridge.org/core/books/abs/philosophy-and-politics-in-the-thought-of-john-wyclif/bibliography/C6D99AB0252D42336E2372E83291FC22"
+  ]
+}
