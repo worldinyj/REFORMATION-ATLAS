@@ -1,0 +1,40 @@
+{
+  "version": "1.25",
+  "status": "DRAFT_RESEARCH_NOT_PUBLIC",
+  "publication_gate": {
+    "approved": false,
+    "can_ship": false
+  },
+  "decisions": [
+    {
+      "id": "E1",
+      "rule": "No assignment of sole Wycliffe authorship to every translation",
+      "gate": "HOLD"
+    },
+    {
+      "id": "E2",
+      "rule": "No EV/LV phrase reported as direct manuscript transcription without image page",
+      "gate": "HOLD"
+    },
+    {
+      "id": "E3",
+      "rule": "Palacky 1869 remains an edited witness, not a manuscript autograph",
+      "gate": "HOLD"
+    },
+    {
+      "id": "E4",
+      "rule": "No secondary-source neutral-transcript claim for proceedings",
+      "gate": "HOLD"
+    },
+    {
+      "id": "E5",
+      "rule": "Copyright and image license review before surfacing any witness image",
+      "gate": "HOLD"
+    },
+    {
+      "id": "E6",
+      "rule": "Do not sync research branch to AI Studio without editorial approval",
+      "gate": "HOLD"
+    }
+  ]
+}
