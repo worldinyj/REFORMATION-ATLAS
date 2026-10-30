@@ -1,0 +1,72 @@
+{
+  "version": "1.36",
+  "status": "DRAFT_RESEARCH_NOT_PUBLIC",
+  "publication_gate": {
+    "approved": false,
+    "can_ship": false
+  },
+  "clauses": [
+    {
+      "id": "TRENT-VI-CH07",
+      "session": "VI",
+      "date": "1547-01-13",
+      "location": "Decree on Justification, Chapter VII",
+      "summary_ko": "의화는 단순한 죄의 용서만이 아니라 내적 성화와 갱신도 포함한다고 규정",
+      "source_url": "https://adfonteslibrary.org/work-council-trent-session-06",
+      "evidence": "HISTORIC_ENGLISH_TRANSLATION_FULL_SECTION",
+      "original_latin_print_collated": false
+    },
+    {
+      "id": "TRENT-VI-CAN09",
+      "session": "VI",
+      "date": "1547-01-13",
+      "location": "Canons on Justification, Canon IX",
+      "summary_ko": "신앙과 의화에 관한 공의회의 논쟁적 규정. 정확한 문구를 원전과 대조한 뒤 전시해야 함",
+      "source_url": "https://adfonteslibrary.org/work-council-trent-session-06",
+      "evidence": "HISTORIC_ENGLISH_TRANSLATION_FULL_SECTION",
+      "original_latin_print_collated": false
+    },
+    {
+      "id": "TRENT-XXV-SAINTS",
+      "session": "XXV",
+      "date": "1563-12-03",
+      "location": "Invocation/Veneration/Relics/Images decree",
+      "summary_ko": "성인 중재·유해·성화상 사용을 옹호하는 동시에 미신과 부당한 이익을 금지",
+      "source_url": "https://en.wikisource.org/wiki/Canons_and_Decrees_of_the_Council_of_Trent/Session_XXV/Invocation%2C_Veneration%2C_and_on_Relics_of_Saints_and_Sacred_Images",
+      "evidence": "HISTORIC_ENGLISH_TRANSLATION_FULL_SECTION",
+      "original_latin_print_collated": false
+    },
+    {
+      "id": "TRENT-XXV-INDULGENCES",
+      "session": "XXV",
+      "date": "1563-12-04",
+      "location": "Decree concerning Indulgences",
+      "summary_ko": "대사의 존속을 인정하면서 남용과 금전적 이득을 배제하도록 규정",
+      "source_url": "https://moralsofthechurch.com/manuals/trent/sess25",
+      "evidence": "HISTORIC_ENGLISH_TRANSLATION_FULL_SECTION",
+      "original_latin_print_collated": false
+    }
+  ],
+  "teresa": {
+    "work": "Castillo interior / Las moradas",
+    "composition_year": 1577,
+    "print_1588": "Luis de León edited collected works",
+    "autograph_directly_collated": false,
+    "variants_directly_collated": false,
+    "claim_status": "BIBLIOGRAPHIC_NOTE_NOT_VARIANT_COLLATION"
+  },
+  "comparative_axes": [
+    {
+      "axis": "justification",
+      "protestant": "Confessional Lutheran and Reformed texts require independent citations",
+      "catholic": "Trent VI chapter 7 and canon 9",
+      "status": "NO_FALSE_EQUIVALENCE"
+    },
+    {
+      "axis": "images_and_saints",
+      "protestant": "Divergent Lutheran/Reformed views; no single Protestant position",
+      "catholic": "Trent XXV decree",
+      "status": "CONTEXT_REQUIRED"
+    }
+  ]
+}
