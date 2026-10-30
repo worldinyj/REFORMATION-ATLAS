@@ -1,0 +1,38 @@
+{
+  "version": "1.25",
+  "status": "DRAFT_RESEARCH_NOT_PUBLIC",
+  "publication_gate": {
+    "approved": false,
+    "can_ship": false
+  },
+  "discrepancies": [
+    {
+      "id": "D1",
+      "topic": "Relatio starting page",
+      "a": "Palacky digital contents p235",
+      "b": "secondary academic citations p237-324",
+      "resolution": "keep page labels separate until image/critical edition collation"
+    },
+    {
+      "id": "D2",
+      "topic": "Egerton older trilogy",
+      "a": "surviving 617 Proverbs-Maccabees + 618 Matthew-Revelation",
+      "b": "lost Genesis-Psalms portion",
+      "resolution": "avoid Genesis and Exodus as Egerton witness"
+    },
+    {
+      "id": "D3",
+      "topic": "EV/LV characterization",
+      "a": "simple binary",
+      "b": "mixed and independent revisions",
+      "resolution": "retain manuscript-level classification and uncertainty"
+    },
+    {
+      "id": "D4",
+      "topic": "Hus narrative",
+      "a": "council sentence",
+      "b": "supporter retrospective",
+      "resolution": "store independent genre, date, editorial history"
+    }
+  ]
+}
