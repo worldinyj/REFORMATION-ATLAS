@@ -1,0 +1,221 @@
+{
+  "version": "1.26",
+  "status": "RESEARCH_ONLY",
+  "publication_gate": {
+    "approved": false,
+    "can_ship": false
+  },
+  "cases": [
+    {
+      "id": "N01",
+      "flag": "verified_folio",
+      "value": true,
+      "expected": "REJECT",
+      "scenario_kind": "synthetic_negative_fixture"
+    },
+    {
+      "id": "N02",
+      "flag": "verified_folio",
+      "value": true,
+      "expected": "REJECT",
+      "scenario_kind": "synthetic_negative_fixture"
+    },
+    {
+      "id": "N03",
+      "flag": "verified_folio",
+      "value": true,
+      "expected": "REJECT",
+      "scenario_kind": "synthetic_negative_fixture"
+    },
+    {
+      "id": "N04",
+      "flag": "edition_as_autograph",
+      "value": true,
+      "expected": "REJECT",
+      "scenario_kind": "synthetic_negative_fixture"
+    },
+    {
+      "id": "N05",
+      "flag": "scope_mismatch",
+      "value": true,
+      "expected": "REJECT",
+      "scenario_kind": "synthetic_negative_fixture"
+    },
+    {
+      "id": "N06",
+      "flag": "scope_mismatch",
+      "value": true,
+      "expected": "REJECT",
+      "scenario_kind": "synthetic_negative_fixture"
+    },
+    {
+      "id": "N07",
+      "flag": "unresolved_source",
+      "value": true,
+      "expected": "REJECT",
+      "scenario_kind": "synthetic_negative_fixture"
+    },
+    {
+      "id": "N08",
+      "flag": "duplicate_claim",
+      "value": true,
+      "expected": "REJECT",
+      "scenario_kind": "synthetic_negative_fixture"
+    },
+    {
+      "id": "N09",
+      "flag": "duplicate_witness",
+      "value": true,
+      "expected": "REJECT",
+      "scenario_kind": "synthetic_negative_fixture"
+    },
+    {
+      "id": "N10",
+      "flag": "image_rights_missing",
+      "value": true,
+      "expected": "REJECT",
+      "scenario_kind": "synthetic_negative_fixture"
+    },
+    {
+      "id": "N11",
+      "flag": "translation_rights_missing",
+      "value": true,
+      "expected": "REJECT",
+      "scenario_kind": "synthetic_negative_fixture"
+    },
+    {
+      "id": "N12",
+      "flag": "mixed_witness_reclassified",
+      "value": true,
+      "expected": "REJECT",
+      "scenario_kind": "synthetic_negative_fixture"
+    },
+    {
+      "id": "N13",
+      "flag": "hearing_sentence_collapsed",
+      "value": true,
+      "expected": "REJECT",
+      "scenario_kind": "synthetic_negative_fixture"
+    },
+    {
+      "id": "N14",
+      "flag": "testimony_sentence_collapsed",
+      "value": true,
+      "expected": "REJECT",
+      "scenario_kind": "synthetic_negative_fixture"
+    },
+    {
+      "id": "N15",
+      "flag": "date_precision_fabricated",
+      "value": true,
+      "expected": "REJECT",
+      "scenario_kind": "synthetic_negative_fixture"
+    },
+    {
+      "id": "N16",
+      "flag": "draft_public_visible",
+      "value": true,
+      "expected": "REJECT",
+      "scenario_kind": "synthetic_negative_fixture"
+    },
+    {
+      "id": "N17",
+      "flag": "merge_without_approval",
+      "value": true,
+      "expected": "REJECT",
+      "scenario_kind": "synthetic_negative_fixture"
+    },
+    {
+      "id": "N18",
+      "flag": "unexamined_image_as_folio",
+      "value": true,
+      "expected": "REJECT",
+      "scenario_kind": "synthetic_negative_fixture"
+    },
+    {
+      "id": "N19",
+      "flag": "catalog_as_transcription",
+      "value": true,
+      "expected": "REJECT",
+      "scenario_kind": "synthetic_negative_fixture"
+    },
+    {
+      "id": "N20",
+      "flag": "abstract_as_full_text",
+      "value": true,
+      "expected": "REJECT",
+      "scenario_kind": "synthetic_negative_fixture"
+    },
+    {
+      "id": "N21",
+      "flag": "paraphrase_as_quote",
+      "value": true,
+      "expected": "REJECT",
+      "scenario_kind": "synthetic_negative_fixture"
+    },
+    {
+      "id": "N22",
+      "flag": "sole_translator_unjustified",
+      "value": true,
+      "expected": "REJECT",
+      "scenario_kind": "synthetic_negative_fixture"
+    },
+    {
+      "id": "N23",
+      "flag": "all_ev_uniform",
+      "value": true,
+      "expected": "REJECT",
+      "scenario_kind": "synthetic_negative_fixture"
+    },
+    {
+      "id": "N24",
+      "flag": "purvey_autograph_unjustified",
+      "value": true,
+      "expected": "REJECT",
+      "scenario_kind": "synthetic_negative_fixture"
+    },
+    {
+      "id": "N25",
+      "flag": "metadata_license_as_image_license",
+      "value": true,
+      "expected": "REJECT",
+      "scenario_kind": "synthetic_negative_fixture"
+    },
+    {
+      "id": "N26",
+      "flag": "wrong_document_source",
+      "value": true,
+      "expected": "REJECT",
+      "scenario_kind": "synthetic_negative_fixture"
+    },
+    {
+      "id": "N27",
+      "flag": "edition_heading_as_decree",
+      "value": true,
+      "expected": "REJECT",
+      "scenario_kind": "synthetic_negative_fixture"
+    },
+    {
+      "id": "N28",
+      "flag": "pagination_conflated",
+      "value": true,
+      "expected": "REJECT",
+      "scenario_kind": "synthetic_negative_fixture"
+    },
+    {
+      "id": "N29",
+      "flag": "trial_as_verbatim_transcript",
+      "value": true,
+      "expected": "REJECT",
+      "scenario_kind": "synthetic_negative_fixture"
+    },
+    {
+      "id": "N30",
+      "flag": "interpretive_quote_without_source",
+      "value": true,
+      "expected": "REJECT",
+      "scenario_kind": "synthetic_negative_fixture"
+    }
+  ],
+  "semantic_scope": "rule-fixture acceptance only; not historical fact verification"
+}
