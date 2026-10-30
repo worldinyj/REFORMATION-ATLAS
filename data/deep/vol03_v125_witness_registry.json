@@ -1,0 +1,82 @@
+{
+  "version": "1.25",
+  "status": "DRAFT_RESEARCH_NOT_PUBLIC",
+  "publication_gate": {
+    "approved": false,
+    "can_ship": false
+  },
+  "witnesses": [
+    {
+      "id": "MS-BL-617",
+      "source_ids": [
+        "BL617"
+      ],
+      "version": "EV",
+      "contains": [
+        "Proverbs",
+        "Isaiah",
+        "Jeremiah",
+        "Ezekiel",
+        "Daniel",
+        "Maccabees"
+      ],
+      "excludes": [
+        "Genesis",
+        "Exodus",
+        "Matthew"
+      ],
+      "direct_folio_verified": false
+    },
+    {
+      "id": "MS-BL-618",
+      "source_ids": [
+        "BL618"
+      ],
+      "version": "EV",
+      "contains": [
+        "Matthew",
+        "Mark",
+        "Luke",
+        "John",
+        "Acts",
+        "Revelation"
+      ],
+      "excludes": [
+        "Genesis",
+        "Exodus",
+        "Jeremiah"
+      ],
+      "direct_folio_verified": false
+    },
+    {
+      "id": "MS-MAN-89",
+      "source_ids": [
+        "MAN89"
+      ],
+      "version": "MIXED_EV_LV",
+      "contains": [
+        "Ezekiel",
+        "Daniel",
+        "Minor Prophets"
+      ],
+      "excludes": [],
+      "direct_folio_verified": false
+    },
+    {
+      "id": "ED-PAL-1869",
+      "source_ids": [
+        "AHISTO",
+        "PAL235",
+        "PAL286"
+      ],
+      "version": "SCHOLARLY_PRINT_1869",
+      "contains": [
+        "Hus letters",
+        "accusations",
+        "Petr of Mladenowicz Relatio"
+      ],
+      "excludes": [],
+      "direct_folio_verified": false
+    }
+  ]
+}
