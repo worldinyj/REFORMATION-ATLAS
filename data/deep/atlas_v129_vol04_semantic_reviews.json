@@ -1,0 +1,151 @@
+{
+  "version": "1.29",
+  "status": "DRAFT_RESEARCH_NOT_PUBLIC",
+  "publication_gate": {
+    "approved": false,
+    "can_ship": false
+  },
+  "method": "selected semantic checks beyond 32/32 reference existence",
+  "reviewed_count": 12,
+  "cases": [
+    {
+      "id": "V129-L01",
+      "claim_id": "CLM-V04-L-001",
+      "question": "1517 thesis debate and print spread",
+      "url": "https://www.cabinet.ox.ac.uk/vi4-founding-event-university-disputation",
+      "source_type": "university_exhibition",
+      "verdict": "SUPPORTS_BROAD_CLAIM",
+      "notes": "disputation format; 1517 print",
+      "original_primary_text_collated": false,
+      "publication_approved": false
+    },
+    {
+      "id": "V129-L02",
+      "claim_id": "CLM-V04-L-002",
+      "question": "door nailing and retrospective story",
+      "url": "https://www.cabinet.ox.ac.uk/vi4-founding-event-university-disputation",
+      "source_type": "university_exhibition",
+      "verdict": "REQUIRES_QUALIFICATION",
+      "notes": "Oxford describes door posting as customary; the specific posting narrative rests on later testimony; do not imply disproved",
+      "original_primary_text_collated": false,
+      "publication_approved": false
+    },
+    {
+      "id": "V129-L03",
+      "claim_id": "CLM-V04-L-007",
+      "question": "1522 September and December New Testaments",
+      "url": "https://historyofthebook.mml.ox.ac.uk/luthers-sendbrief-vom-dolmetschen-1530/",
+      "source_type": "academic_book_history",
+      "verdict": "SUPPORTS_BROAD_CLAIM",
+      "notes": "printing history; 1522 editions distinct",
+      "original_primary_text_collated": false,
+      "publication_approved": false
+    },
+    {
+      "id": "V129-L04",
+      "claim_id": "CLM-V04-L-008",
+      "question": "1534 Bible and 1541 revision",
+      "url": "https://historyofthebook.mml.ox.ac.uk/luthers-sendbrief-vom-dolmetschen-1530/",
+      "source_type": "academic_book_history",
+      "verdict": "SUPPORTS_BROAD_CLAIM",
+      "notes": "full Bible published from 1534, later revised",
+      "original_primary_text_collated": false,
+      "publication_approved": false
+    },
+    {
+      "id": "V129-L05",
+      "claim_id": "CLM-V04-L-009",
+      "question": "1525 Peasants' War pamphlet",
+      "url": "https://editions.mml.ox.ac.uk/editions/peasants-erfurt/",
+      "source_type": "digitized_historical_print_transcription",
+      "verdict": "PRIMARY_EDITION_TRANSCRIPTION_AVAILABLE",
+      "notes": "1525 Erfurt reprint, not original Wittenberg impression; direct page images available; no independent collation performed",
+      "original_primary_text_collated": false,
+      "publication_approved": false
+    },
+    {
+      "id": "V129-L06",
+      "claim_id": "CLM-V04-L-015",
+      "question": "1543 anti-Jewish writings",
+      "url": "https://encyclopedia.ushmm.org/content/en/article/antisemitism",
+      "source_type": "historical_context_secondary",
+      "verdict": "CONTEXT_SOURCE_ONLY",
+      "notes": "never cite general antisemitism history as sufficient stand-alone proof of precise 1543 wording",
+      "original_primary_text_collated": false,
+      "publication_approved": false
+    },
+    {
+      "id": "V129-C01",
+      "claim_id": "CLM-V04-CA-002",
+      "question": "1536 first vs 1559 final Institutes",
+      "url": "https://bridwell.omeka.net/exhibits/show/calvin/1562institutes",
+      "source_type": "rare_book_exhibition",
+      "verdict": "SUPPORTS_BROAD_CLAIM",
+      "notes": "1536 six chapters; 1559 four books eighty chapters",
+      "original_primary_text_collated": false,
+      "publication_approved": false
+    },
+    {
+      "id": "V129-C02",
+      "claim_id": "CLM-V04-CA-003",
+      "question": "1541 and 1560 French edition distinction",
+      "url": "https://bridwell.omeka.net/exhibits/show/calvin/1562institutes",
+      "source_type": "rare_book_exhibition",
+      "verdict": "REQUIRES_EDITION_CATALOG",
+      "notes": "this page affirms French translations after Latin versions but not all year-specific collation",
+      "original_primary_text_collated": false,
+      "publication_approved": false
+    },
+    {
+      "id": "V129-C03",
+      "claim_id": "CLM-V04-CA-009",
+      "question": "1549 Zurich Consensus",
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/14622459.2016.1157336",
+      "source_type": "peer_reviewed_abstract",
+      "verdict": "SUPPORTS_BROAD_CLAIM",
+      "notes": "Calvin and Bullinger negotiated May 1549; full article not read",
+      "original_primary_text_collated": false,
+      "publication_approved": false
+    },
+    {
+      "id": "V129-C04",
+      "claim_id": "CLM-V04-CA-010",
+      "question": "Consensus doctrinal text and retrospective reception",
+      "url": "https://thebookofconcord.org/sources-and-context/consensus-tigurinus/",
+      "source_type": "later_english_translation",
+      "verdict": "REQUIRES_EDITION_DISTINCTION",
+      "notes": "agreement in 1549, text may be published subsequently; later translation must not be original 1549 witness",
+      "original_primary_text_collated": false,
+      "publication_approved": false
+    },
+    {
+      "id": "V129-C05",
+      "claim_id": "CLM-V04-CA-011",
+      "question": "Servetus trial and execution",
+      "url": "https://calvin.edu/sites/default/files/migrated/centers-institutes-meeter-center-files-resources-page-TheServetusControversy.pdf",
+      "source_type": "university_research_resource",
+      "verdict": "SUPPORTS_BROAD_CLAIM",
+      "notes": "1553 Oct 26 municipal sentence; Oct 27 execution; Geneva council not identical to Calvin",
+      "original_primary_text_collated": false,
+      "publication_approved": false
+    },
+    {
+      "id": "V129-C06",
+      "claim_id": "CLM-V04-CA-012",
+      "question": "Castellio and freedom of conscience",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/9781119100072.ch16",
+      "source_type": "academic_chapter_summary",
+      "verdict": "SUPPORTS_BROAD_CLAIM",
+      "notes": "disputes contemporary acceptance of execution for heresy; no full text read",
+      "original_primary_text_collated": false,
+      "publication_approved": false
+    }
+  ],
+  "cautions": [
+    "Selected 12 high-impact claims, not a complete semantic audit of all 32",
+    "Oxford 1525 Erfurt edition is historical print with modern TEI transcription",
+    "Modern translations and editions are not 16th-century originals",
+    "Claims of historical causation require more than metadata or abstract",
+    "Never publicly reproduce antisemitic invective without contextual review"
+  ]
+}
