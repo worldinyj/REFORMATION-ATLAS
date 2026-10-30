@@ -1,0 +1,34 @@
+{
+  "version": "1.31",
+  "publication_gate": {
+    "approved": false,
+    "can_ship": false
+  },
+  "vol05": {
+    "title": "가톨릭 개혁과 종교적 갈등",
+    "people_ids": [
+      "OV-P-021",
+      "OV-P-022"
+    ],
+    "research_files": [
+      "data/deep/vol05_trent_catholic_reform_registry_v01.json",
+      "data/deep/vol05_trent_latin_witness_alignment_v01.json",
+      "data/deep/vol05_war_westphalia_research_v01.json"
+    ]
+  },
+  "vol04_bridge": {
+    "person_ids": [
+      "OV-P-015",
+      "OV-P-017"
+    ],
+    "research_files": [
+      "data/deep/vol04_zwingli_v01.json"
+    ]
+  },
+  "correction": "Zwingli and Menno are VOL-04, not the core of VOL-05",
+  "notes": [
+    "Existing VOL-05 material should be reused",
+    "No claim of original Latin collation",
+    "No main branch or AI Studio modification"
+  ]
+}
