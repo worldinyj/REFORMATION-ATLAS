@@ -1,0 +1,312 @@
+{
+  "version": "1.40",
+  "publication_gate": {
+    "approved": false,
+    "can_ship": false
+  },
+  "nodes": [
+    {
+      "id": "OV-P-013",
+      "type": "person",
+      "label": "마르틴 루터",
+      "canonical": true
+    },
+    {
+      "id": "OV-P-016",
+      "type": "person",
+      "label": "장 칼뱅",
+      "canonical": true
+    },
+    {
+      "id": "OV-P-021",
+      "type": "person",
+      "label": "이냐시오 데 로욜라",
+      "canonical": true
+    },
+    {
+      "id": "OV-P-022",
+      "type": "person",
+      "label": "아빌라의 테레사",
+      "canonical": true
+    },
+    {
+      "id": "OV-E-015",
+      "type": "event",
+      "label": "1517년 95개 논제",
+      "canonical": true
+    },
+    {
+      "id": "OV-E-020",
+      "type": "event",
+      "label": "1536년 기독교강요 초판",
+      "canonical": true
+    },
+    {
+      "id": "OV-E-021",
+      "type": "event",
+      "label": "트리엔트 공의회",
+      "canonical": true
+    },
+    {
+      "id": "OV-D-008",
+      "type": "document",
+      "label": "95개 논제",
+      "canonical": true
+    },
+    {
+      "id": "OV-D-012",
+      "type": "document",
+      "label": "기독교강요",
+      "canonical": true
+    },
+    {
+      "id": "OV-D-014",
+      "type": "document",
+      "label": "트리엔트 교령",
+      "canonical": true
+    },
+    {
+      "id": "EDN-V04-CALVIN-1536-LAT",
+      "type": "edition",
+      "label": "1536 라틴어 초판",
+      "canonical": false
+    },
+    {
+      "id": "EDN-V04-CALVIN-1559-LAT",
+      "type": "edition",
+      "label": "1559 라틴어 최종판",
+      "canonical": false
+    },
+    {
+      "id": "TOPIC-JUSTIFICATION",
+      "type": "topic",
+      "label": "의화·칭의",
+      "canonical": false
+    },
+    {
+      "id": "TOPIC-EUCHARIST",
+      "type": "topic",
+      "label": "성찬",
+      "canonical": false
+    },
+    {
+      "id": "TOPIC-SAINTS-IMAGES",
+      "type": "topic",
+      "label": "성인·성화상",
+      "canonical": false
+    },
+    {
+      "id": "OV-P-009",
+      "type": "person",
+      "label": "존 위클리프",
+      "canonical": true
+    },
+    {
+      "id": "OV-P-010",
+      "type": "person",
+      "label": "얀 후스",
+      "canonical": true
+    },
+    {
+      "id": "OV-E-011",
+      "type": "event",
+      "label": "위클리프파 성경 번역 운동",
+      "canonical": true
+    },
+    {
+      "id": "OV-E-012",
+      "type": "event",
+      "label": "후스 처형",
+      "canonical": true
+    },
+    {
+      "id": "OV-D-005",
+      "type": "document",
+      "label": "후스 교회론 1413",
+      "canonical": true
+    },
+    {
+      "id": "OV-D-006",
+      "type": "document",
+      "label": "프라하 4개조",
+      "canonical": true
+    },
+    {
+      "id": "WORK-IGNATIUS-EXERCISES",
+      "type": "work_provisional",
+      "label": "영신수련",
+      "canonical": false
+    },
+    {
+      "id": "WORK-TERESA-WAY",
+      "type": "work_provisional",
+      "label": "완덕의 길",
+      "canonical": false
+    },
+    {
+      "id": "WORK-TERESA-CASTLE",
+      "type": "work_provisional",
+      "label": "영혼의 성",
+      "canonical": false
+    },
+    {
+      "id": "TOPIC-CATHOLIC-RENEWAL",
+      "type": "topic",
+      "label": "가톨릭 내부 개혁",
+      "canonical": false
+    }
+  ],
+  "edges": [
+    {
+      "from": "OV-P-013",
+      "to": "OV-D-008",
+      "relation": "authored",
+      "approval": "RESEARCH_ONLY"
+    },
+    {
+      "from": "OV-D-008",
+      "to": "OV-E-015",
+      "relation": "associated_event",
+      "approval": "RESEARCH_ONLY"
+    },
+    {
+      "from": "OV-P-016",
+      "to": "OV-D-012",
+      "relation": "authored",
+      "approval": "RESEARCH_ONLY"
+    },
+    {
+      "from": "OV-D-012",
+      "to": "OV-E-020",
+      "relation": "first_edition_event",
+      "approval": "RESEARCH_ONLY"
+    },
+    {
+      "from": "OV-D-012",
+      "to": "EDN-V04-CALVIN-1536-LAT",
+      "relation": "has_edition",
+      "approval": "RESEARCH_ONLY"
+    },
+    {
+      "from": "OV-D-012",
+      "to": "EDN-V04-CALVIN-1559-LAT",
+      "relation": "has_edition",
+      "approval": "RESEARCH_ONLY"
+    },
+    {
+      "from": "OV-D-014",
+      "to": "OV-E-021",
+      "relation": "council_document",
+      "approval": "RESEARCH_ONLY"
+    },
+    {
+      "from": "OV-D-014",
+      "to": "TOPIC-JUSTIFICATION",
+      "relation": "discusses",
+      "approval": "RESEARCH_ONLY"
+    },
+    {
+      "from": "OV-D-014",
+      "to": "TOPIC-EUCHARIST",
+      "relation": "discusses",
+      "approval": "RESEARCH_ONLY"
+    },
+    {
+      "from": "OV-D-014",
+      "to": "TOPIC-SAINTS-IMAGES",
+      "relation": "discusses",
+      "approval": "RESEARCH_ONLY"
+    },
+    {
+      "from": "OV-D-012",
+      "to": "TOPIC-JUSTIFICATION",
+      "relation": "discusses",
+      "approval": "RESEARCH_ONLY"
+    },
+    {
+      "from": "OV-D-012",
+      "to": "TOPIC-EUCHARIST",
+      "relation": "discusses",
+      "approval": "RESEARCH_ONLY"
+    },
+    {
+      "from": "OV-D-012",
+      "to": "TOPIC-SAINTS-IMAGES",
+      "relation": "discusses",
+      "approval": "RESEARCH_ONLY"
+    },
+    {
+      "from": "OV-P-009",
+      "to": "OV-E-011",
+      "relation": "associated_movement",
+      "approval": "RESEARCH_ONLY"
+    },
+    {
+      "from": "OV-P-010",
+      "to": "OV-D-005",
+      "relation": "authored",
+      "approval": "RESEARCH_ONLY"
+    },
+    {
+      "from": "OV-P-010",
+      "to": "OV-E-012",
+      "relation": "subject",
+      "approval": "RESEARCH_ONLY"
+    },
+    {
+      "from": "OV-D-006",
+      "to": "OV-E-012",
+      "relation": "later_movement_context",
+      "approval": "RESEARCH_ONLY"
+    },
+    {
+      "from": "OV-P-021",
+      "to": "WORK-IGNATIUS-EXERCISES",
+      "relation": "authored",
+      "approval": "RESEARCH_ONLY"
+    },
+    {
+      "from": "OV-P-022",
+      "to": "WORK-TERESA-WAY",
+      "relation": "authored",
+      "approval": "RESEARCH_ONLY"
+    },
+    {
+      "from": "OV-P-022",
+      "to": "WORK-TERESA-CASTLE",
+      "relation": "authored",
+      "approval": "RESEARCH_ONLY"
+    },
+    {
+      "from": "WORK-IGNATIUS-EXERCISES",
+      "to": "TOPIC-CATHOLIC-RENEWAL",
+      "relation": "topic",
+      "approval": "RESEARCH_ONLY"
+    },
+    {
+      "from": "WORK-TERESA-WAY",
+      "to": "TOPIC-CATHOLIC-RENEWAL",
+      "relation": "topic",
+      "approval": "RESEARCH_ONLY"
+    },
+    {
+      "from": "WORK-TERESA-CASTLE",
+      "to": "TOPIC-CATHOLIC-RENEWAL",
+      "relation": "topic",
+      "approval": "RESEARCH_ONLY"
+    },
+    {
+      "from": "OV-E-021",
+      "to": "TOPIC-CATHOLIC-RENEWAL",
+      "relation": "topic",
+      "approval": "RESEARCH_ONLY"
+    }
+  ],
+  "correction": {
+    "legacy": "data/contracts/atlas_person_document_witness_crosswalk_v119.json",
+    "document_id": "OV-D-005",
+    "wrong_person": "OV-P-009",
+    "correct_person": "OV-P-010",
+    "reason": "Overview identifies De ecclesia (1413) as Hus, not Wycliffe; distinct same-title works must not be conflated"
+  }
+}
