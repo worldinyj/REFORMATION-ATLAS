@@ -1,0 +1,78 @@
+{
+  "version": "1.18-draft",
+  "status": "DRAFT_RESEARCH_NOT_PUBLIC",
+  "publication_gate": {
+    "approved": false,
+    "can_ship": false
+  },
+  "people": [
+    {
+      "id": "OV-P-009",
+      "name_ko": "존 위클리프",
+      "volume_id": "VOL-03"
+    },
+    {
+      "id": "OV-P-010",
+      "name_ko": "얀 후스",
+      "volume_id": "VOL-03"
+    },
+    {
+      "id": "OV-P-013",
+      "name_ko": "마르틴 루터",
+      "volume_id": "VOL-04",
+      "depth_id": "DEPTH-V04-P013-001"
+    },
+    {
+      "id": "OV-P-016",
+      "name_ko": "장 칼뱅",
+      "volume_id": "VOL-04",
+      "depth_id": "DEPTH-V04-P016-001"
+    }
+  ],
+  "relations": [
+    {
+      "person_id": "OV-P-009",
+      "event_id": "OV-E-011",
+      "relationship": "associated_with_movement",
+      "caution": "translation movement not individual authorship"
+    },
+    {
+      "person_id": "OV-P-010",
+      "event_id": "OV-E-012",
+      "relationship": "subject_of_event"
+    },
+    {
+      "person_id": "OV-P-013",
+      "event_id": "OV-E-015",
+      "relationship": "author_subject"
+    },
+    {
+      "person_id": "OV-P-013",
+      "event_id": "OV-E-016",
+      "relationship": "participant"
+    },
+    {
+      "person_id": "OV-P-013",
+      "event_id": "OV-E-018",
+      "relationship": "participant"
+    },
+    {
+      "person_id": "OV-P-016",
+      "event_id": "OV-E-020",
+      "relationship": "author"
+    }
+  ],
+  "edition_crosswalk": "data/contracts/atlas_person_work_edition_crosswalk_v117.json",
+  "source_paths": [
+    "data/overview/volumes_and_people_v01.json",
+    "data/overview/events_documents_v01.json",
+    "data/deep/vol04_luther_v01.json",
+    "data/deep/vol04_calvin_v01.json"
+  ],
+  "limits": [
+    "No direct Wycliffe-to-Hus teacher-student assertion",
+    "No claim that Wycliffe individually translated every passage",
+    "Marburg meeting involved other reformers as well",
+    "Associations are editorial drafts, not new historical proof"
+  ]
+}
