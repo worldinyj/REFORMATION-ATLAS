@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.24-research",
+  "status": "DRAFT_RESEARCH_NOT_PUBLIC",
+  "publication_gate": {
+    "approved": false,
+    "can_ship": false
+  },
+  "events": [
+    {
+      "id": "HUS-HEARINGS-1415-06",
+      "date_precision": "range",
+      "date_label": "5, 7, 8 June 1415",
+      "genre": "hearings",
+      "source_ids": [
+        "COUNCIL-HISTORY"
+      ],
+      "verbatim_record_verified": false
+    },
+    {
+      "id": "HUS-SENTENCE-1415-07-06",
+      "date_precision": "day",
+      "date_label": "6 July 1415",
+      "genre": "official_sentence",
+      "source_ids": [
+        "COUNCIL-HISTORY"
+      ],
+      "latin_sentence_collated": false
+    },
+    {
+      "id": "HUS-RELATIO-1869",
+      "date_precision": "year",
+      "date_label": "1869 printed edition",
+      "genre": "edited_eyewitness_narrative",
+      "source_ids": [
+        "PAL-1869",
+        "MLAD-INDEX"
+      ],
+      "latin_sentence_collated": false
+    }
+  ],
+  "edition_page_leads": [
+    {
+      "page": 235,
+      "meaning": "Relatio heading / table of contents start",
+      "source_id": "PAL-1869"
+    },
+    {
+      "page": 286,
+      "meaning": "Extracted articles from De Ecclesia",
+      "source_id": "PAL-1869"
+    },
+    {
+      "page_range": "237–324",
+      "meaning": "secondary bibliographic citation range",
+      "source_id": "MLAD-INDEX"
+    }
+  ],
+  "do_not_confuse": [
+    "1415 hearing with 1415 formal sentence",
+    "15th-century record with 1869 edition",
+    "supporter narrative with neutral verbatim transcript"
+  ]
+}
