@@ -1,0 +1,58 @@
+{
+  "version": "1.49",
+  "status": "DRAFT_RESEARCH_NOT_PUBLIC",
+  "publication_gate": {
+    "approved": false,
+    "can_ship": false
+  },
+  "new_access_leads": [
+    {
+      "kind": "DIGITAL_EDITIONS_PORTAL",
+      "title": "SIEPM Medieval Philosophy Digital Resources",
+      "url": "https://siepm-digitalresources.bc.edu/books/",
+      "work_id": "WRK-V03-WYCLIFFE-DE-ECCLESIA",
+      "edition_year": 1886,
+      "access": "LISTED_AS_SEARCHABLE",
+      "page_images_checked": false,
+      "copyright_note": "Portal warns country-specific copyright and commercial reuse"
+    },
+    {
+      "kind": "PRINT_HOLDING",
+      "url": "https://catalog.folger.edu/record/17976",
+      "call_number": "BR75 .W8 1883 v.4",
+      "edition_year": 1886,
+      "manuscript": false
+    },
+    {
+      "kind": "SCHOLARLY_ARTICLE",
+      "url": "https://www.cambridge.org/core/journals/studies-in-church-history-subsidia/article/abs/crossreferencing-in-wyclifs-latin-works/BD04CE54A2BCE5F2175F16D7E70CA378",
+      "verified_footnote": 5
+    }
+  ],
+  "textual_probes": [
+    {
+      "edition_page": 257,
+      "line": 1,
+      "print_chapter": 20,
+      "reported_three_full_mss_chapter": 22,
+      "direct_images_checked": false
+    },
+    {
+      "edition_page": 467,
+      "line": 29,
+      "print_chapter": 27,
+      "reported_three_full_mss_chapter": 25,
+      "direct_images_checked": false
+    }
+  ],
+  "manuscript_shelfmarks": {
+    "three_complete_wyclif_manuscripts": [],
+    "state": "UNRESOLVED_NOT_INVENTED"
+  },
+  "next_step": "Follow searchable 1886 edition to page scans; document sigla from Loserth introduction, verify manuscript institutions, then compare images",
+  "notes": [
+    "Do not assign shelfmarks from footnotes for other Wyclif texts to De ecclesia",
+    "No page scan examined and no original manuscript collated",
+    "Topic comparison with Hus remains proposed, not sentence-level verified"
+  ]
+}
