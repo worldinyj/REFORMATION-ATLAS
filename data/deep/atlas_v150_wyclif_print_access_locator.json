@@ -1,0 +1,44 @@
+{
+  "version": "1.50",
+  "status": "DRAFT_RESEARCH_NOT_PUBLIC",
+  "publication_gate": {
+    "approved": false,
+    "can_ship": false
+  },
+  "work_id": "WRK-V03-WYCLIFFE-DE-ECCLESIA",
+  "edition_1886": {
+    "editor": "Johann Loserth",
+    "side_notes": "F. D. Matthew",
+    "pagination": "xxxii, 600 pages",
+    "catalog": "https://catalog.folger.edu/record/17976",
+    "openlibrary": "https://openlibrary.org/books/OL24355600M/Tractatus_de_ecclesia",
+    "internet_archive_item": "tractatusdeeccl00wycl",
+    "internet_archive_url": "https://archive.org/details/tractatusdeeccl00wycl",
+    "google_books": "https://play.google.com/store/books/details/Johannes_Wyclif_Johannis_Wyclif_tractatus_de_eccle?id=JAad-LddLx8C",
+    "siepmlist": "https://siepm-digitalresources.bc.edu/books/",
+    "access_verified": "BIBLIOGRAPHIC_AND_LINK_DISCOVERY",
+    "print_page_images_directly_read": false
+  },
+  "pagination_probes": [
+    {
+      "print_page": 257,
+      "line": 1,
+      "print_chapter": 20,
+      "secondary_manuscripts_chapter": 22,
+      "verified_by_direct_scan": false
+    },
+    {
+      "print_page": 467,
+      "line": 29,
+      "print_chapter": 27,
+      "secondary_manuscripts_chapter": 25,
+      "verified_by_direct_scan": false
+    }
+  ],
+  "critical_witness_status": {
+    "three_complete_manuscript_shelfmarks": [],
+    "loserth_introduction_examined": false,
+    "manuscript_folios_examined": false
+  },
+  "interpretation": "Direct 1886 edition identifiers located, but Archive.org request timed out and neither target page was directly inspected."
+}
