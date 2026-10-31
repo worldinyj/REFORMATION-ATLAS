@@ -1,0 +1,122 @@
+{
+  "version": "1.53",
+  "publication_gate": {
+    "approved": false,
+    "can_ship": false
+  },
+  "type": "EVENT_WORK_EXPLORATION",
+  "events": [
+    {
+      "year": 1377,
+      "label": "위클리프의 교회·권위 논쟁 격화",
+      "precision": "YEAR_APPROX",
+      "linked": [
+        "OV-P-009"
+      ]
+    },
+    {
+      "year": 1378,
+      "label": "서방 교회 교황권 분열 개시",
+      "precision": "YEAR",
+      "linked": [
+        "OV-P-009"
+      ]
+    },
+    {
+      "year": 1379,
+      "label": "위클리프 『교회론』 성립기의 종료 추정",
+      "precision": "APPROX",
+      "linked": [
+        "WRK-V03-WYCLIFFE-DE-ECCLESIA"
+      ]
+    },
+    {
+      "year": 1382,
+      "label": "위클리프 관련 명제에 대한 블랙프라이어스 회의의 조치",
+      "precision": "YEAR",
+      "linked": [
+        "OV-P-009"
+      ]
+    },
+    {
+      "year": 1384,
+      "label": "위클리프 사망",
+      "precision": "YEAR",
+      "linked": [
+        "OV-P-009"
+      ]
+    },
+    {
+      "year": 1403,
+      "label": "프라하 대학에서 위클리프 명제들에 관한 논쟁",
+      "precision": "YEAR",
+      "linked": [
+        "OV-P-010"
+      ]
+    },
+    {
+      "year": 1413,
+      "label": "후스 『교회론』 작성",
+      "precision": "YEAR",
+      "linked": [
+        "OV-P-010",
+        "OV-D-005"
+      ]
+    },
+    {
+      "year": 1415,
+      "label": "콘스탄츠 공의회에서 후스 처형",
+      "precision": "YEAR",
+      "linked": [
+        "OV-P-010",
+        "OV-E-012"
+      ]
+    },
+    {
+      "year": 1886,
+      "label": "Loserth가 편집한 위클리프 『교회론』 간행",
+      "precision": "YEAR",
+      "linked": [
+        "WRK-V03-WYCLIFFE-DE-ECCLESIA"
+      ]
+    },
+    {
+      "year": 1956,
+      "label": "후스 MIHOO XXIII 관련 비평판",
+      "precision": "YEAR",
+      "linked": [
+        "OV-D-005"
+      ]
+    },
+    {
+      "year": 1958,
+      "label": "후스 MIHOO XXIII 관련 비평판",
+      "precision": "YEAR",
+      "linked": [
+        "OV-D-005"
+      ]
+    }
+  ],
+  "paths": [
+    {
+      "from": "OV-P-009",
+      "to": "WRK-V03-WYCLIFFE-DE-ECCLESIA",
+      "kind": "AUTHORED"
+    },
+    {
+      "from": "OV-P-010",
+      "to": "OV-D-005",
+      "kind": "AUTHORED"
+    },
+    {
+      "from": "WRK-V03-WYCLIFFE-DE-ECCLESIA",
+      "to": "OV-D-005",
+      "kind": "INFLUENCE_NOT_IDENTICAL_WORK"
+    }
+  ],
+  "source_urls": [
+    "https://plato.stanford.edu/entries/wyclif/",
+    "https://digiscripta.phil.muni.cz/cs/node/12908",
+    "https://digiscripta.phil.muni.cz/mihoo-series"
+  ]
+}
