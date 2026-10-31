@@ -1,0 +1,126 @@
+{
+  "version": "1.62",
+  "publication_gate": {
+    "approved": false,
+    "can_ship": false
+  },
+  "work_ids": [
+    "WRK-V161-AUGSBURG-CONFESSION-PROVISIONAL",
+    "OV-D-012"
+  ],
+  "rows": [
+    {
+      "id": "AC-IV",
+      "work": "Augsburg Confession",
+      "topic": "의롭다 함",
+      "references": [
+        "EDN-V161-AC-1530",
+        "EDN-V161-AC-1531",
+        "EDN-V161-AC-1540"
+      ],
+      "difference": "1530/1531 계열의 신앙을 통한 의롭다 함 진술에 비해 1540 Variata는 조항 IV의 표현을 확장했다. 신학적 변화의 크기를 평가하려면 판본별 원문 대조가 필요하다.",
+      "evidence": "SECONDARY_EDITION_HISTORY",
+      "source_urls": [
+        "https://www.uecf.net/books/collected-works/chapter1319.html",
+        "https://www.augsburg1540.com/1530-1540-comparison-text.html"
+      ],
+      "collated": false
+    },
+    {
+      "id": "AC-X",
+      "work": "Augsburg Confession",
+      "topic": "성만찬과 그리스도의 임재",
+      "references": [
+        "EDN-V161-AC-1530",
+        "EDN-V161-AC-1531",
+        "EDN-V161-AC-1540"
+      ],
+      "difference": "1530 계열의 'vere adsint et distribuantur'(참으로 현존하며 나누어짐)와 1540년의 'vere exhibeantur'(참으로 제공됨) 표현이 대비된다. 두 라틴어 구문은 연구 문헌으로 확인했지만 개별 1530 원고·1531 인쇄본의 판면을 직접 교감하지 않았다.",
+      "evidence": "PRINTED_SECONDARY_LATIN_COMPARISON",
+      "source_urls": [
+        "https://www.uecf.net/books/collected-works/chapter1319.html",
+        "https://www.augsburg1540.com/uploads/1/3/8/9/138903771/1540_latin_text_from_corpus_reformandum.pdf"
+      ],
+      "collated": false
+    },
+    {
+      "id": "AC-EDITION",
+      "work": "Augsburg Confession",
+      "topic": "제출·인쇄·수정판의 지위",
+      "references": [
+        "EDN-V161-AC-1530",
+        "EDN-V161-AC-1531",
+        "EDN-V161-AC-1540"
+      ],
+      "difference": "1530년 제국의회 제출, 1531년 최초 인쇄, 1540년 개정이라는 판본 단계는 각각 분리하여 표시한다.",
+      "evidence": "BIBLIOGRAPHIC",
+      "source_urls": [
+        "https://www.uecf.net/books/collected-works/chapter1319.html"
+      ],
+      "collated": false
+    },
+    {
+      "id": "INST-STRUCTURE",
+      "work": "Institutes",
+      "topic": "편제",
+      "references": [
+        "EDN-V161-INST-1536",
+        "EDN-V161-INST-1559"
+      ],
+      "difference": "1536년 라틴어 초판 6장과 1559년 최종 라틴어판 4권 80장을 구별한다.",
+      "evidence": "BIBLIOGRAPHIC",
+      "source_urls": [
+        "https://churchheritage.org/history/event/institutes-christian-religion-1536?lang=en"
+      ],
+      "collated": false
+    },
+    {
+      "id": "INST-PURPOSE",
+      "work": "Institutes",
+      "topic": "목적과 저술의 성장",
+      "references": [
+        "EDN-V161-INST-1536",
+        "EDN-V161-INST-1559"
+      ],
+      "difference": "1536년 초판은 교리교육·변증의 성격을 강하게 가지며 이후 여러 개정 과정을 통해 더 폭넓은 신학 체계로 발전했다. 목적의 변화를 단순한 대체 관계로 표현하지 않는다.",
+      "evidence": "SCHOLARLY_SYNTHESIS",
+      "source_urls": [
+        "https://churchheritage.org/history/event/institutes-christian-religion-1536?lang=en"
+      ],
+      "collated": false
+    },
+    {
+      "id": "INST-INTERMEDIATE",
+      "work": "Institutes",
+      "topic": "중간 개정판",
+      "references": [
+        "EDN-V161-INST-1536",
+        "EDN-V161-INST-1559"
+      ],
+      "difference": "라틴어판 1539·1543·1550 등 중간 개정 단계를 기록하고 1536→1559의 단순한 한 번의 개정으로 서술하지 않는다.",
+      "evidence": "BIBLIOGRAPHIC",
+      "source_urls": [
+        "https://churchheritage.org/history/event/institutes-christian-religion-1536?lang=en"
+      ],
+      "collated": false
+    }
+  ],
+  "interface": {
+    "modes": [
+      "work_compare",
+      "article_compare",
+      "edition_timeline"
+    ],
+    "filters": [
+      "work",
+      "topic",
+      "source_confidence"
+    ],
+    "labels": {
+      "collated_false": "원본 판면 직접 대조 미완료",
+      "evidence": "근거 수준"
+    },
+    "hide_facs_without_rights": true
+  },
+  "validation_note": "Inferred textual similarities from modern editions are not manuscript collation"
+}
