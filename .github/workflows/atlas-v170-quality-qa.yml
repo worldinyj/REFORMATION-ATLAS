@@ -4,6 +4,7 @@ on:
     branches: ['research/**']
     paths:
       - 'integrations/atlas-quality-v170/**'
+      - 'integrations/atlas-explorer-v168/**'
       - 'scripts/audit_atlas_v170.py'
       - '.github/workflows/atlas-v170-quality-qa.yml'
   workflow_dispatch:
