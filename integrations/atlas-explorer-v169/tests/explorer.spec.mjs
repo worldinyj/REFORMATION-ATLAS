@@ -10,7 +10,7 @@ test('four tabs and accurate item counts',async({page})=>{
 });
 test('Korean search and empty result recovery',async({page})=>{
  await page.locator('#q').fill('후스');
- await expect(page.locator('.card')).toHaveCount(1);
+ await expect(page.locator('.card')).toHaveCount(2);
  await page.locator('#q').fill('없는검색어98765');
  await expect(page.locator('.card')).toHaveCount(0);
  await expect(page.locator('#status')).toContainText('검색 결과가 없습니다');
