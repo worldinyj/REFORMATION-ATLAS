@@ -1,0 +1,53 @@
+name: Atlas V170 UX Accessibility Content Audit
+on:
+  push:
+    branches: ['research/**']
+    paths:
+      - 'integrations/atlas-quality-v170/**'
+      - 'scripts/audit_atlas_v170.py'
+      - '.github/workflows/atlas-v170-quality-qa.yml'
+  workflow_dispatch:
+jobs:
+  editorial-integrity:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Deep content audit and report
+        run: python3 scripts/audit_atlas_v170.py
+      - name: Cross domain integration
+        run: python3 scripts/validate_atlas_v165.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: atlas-v170-editorial-audit
+          path: audit-v170.json
+          retention-days: 30
+  real-browser:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install Chromium and axe tools
+        working-directory: integrations/atlas-quality-v170
+        run: |
+          npm install --no-audit --no-fund
+          npx playwright install --with-deps chromium
+      - name: Eight checks by four viewports
+        run: integrations/atlas-quality-v170/node_modules/.bin/playwright test --config=integrations/atlas-quality-v170/playwright.config.mjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: atlas-v170-visual-and-accessibility
+          path: |
+            integrations/atlas-quality-v170/playwright-report
+            integrations/atlas-quality-v170/test-results
+          retention-days: 30
