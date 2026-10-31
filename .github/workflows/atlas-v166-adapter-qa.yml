@@ -1,0 +1,28 @@
+name: Atlas V166 read-only adapter QA
+on:
+  push:
+    branches: ['research/**']
+    paths:
+      - 'integrations/ai-studio-readonly-v166/**'
+      - 'scripts/validate_atlas_v166.py'
+      - '.github/workflows/atlas-v166-adapter-qa.yml'
+  workflow_dispatch:
+jobs:
+  adapter:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Actual adapter runtime tests
+        run: node --test integrations/ai-studio-readonly-v166/adapter.test.mjs
+      - name: Read-only contract checks
+        run: python3 scripts/validate_atlas_v166.py
+      - name: Integration readiness
+        run: python3 scripts/validate_atlas_v165.py
+      - name: Identity audit
+        run: python3 scripts/audit_atlas_all_json_v143.py --root .
