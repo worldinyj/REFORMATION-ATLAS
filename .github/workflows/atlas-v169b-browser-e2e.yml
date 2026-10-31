@@ -3,7 +3,7 @@ on:
   push:
     branches: ['research/**']
     paths:
-      - 'integrations/atlas-explorer-v169/playwright.fixed.config.mjs'
+      - 'integrations/atlas-explorer-v169/**'
       - '.github/workflows/atlas-v169b-browser-e2e.yml'
   workflow_dispatch:
 jobs:
