@@ -1,0 +1,19 @@
+name: Atlas V162 edition article matrix QA
+on:
+  push:
+    branches: ['research/**']
+    paths:
+      - 'data/contracts/atlas_v162_*'
+      - 'scripts/validate_atlas_v162.py'
+      - '.github/workflows/atlas-v162-matrix-qa.yml'
+  workflow_dispatch:
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 scripts/validate_atlas_v162.py
+      - run: python3 scripts/audit_atlas_all_json_v143.py --root .
