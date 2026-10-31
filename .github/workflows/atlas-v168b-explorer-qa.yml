@@ -1,0 +1,24 @@
+name: Atlas V168B corrected explorer UX QA
+on:
+  push:
+    branches: ['research/**']
+    paths:
+      - 'scripts/validate_atlas_v168b.py'
+      - '.github/workflows/atlas-v168b-explorer-qa.yml'
+  workflow_dispatch:
+jobs:
+  ux:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: node --check integrations/atlas-explorer-v168/explorer.mjs
+      - run: node --test integrations/atlas-explorer-v168/ux-helpers.test.mjs
+      - run: node --test integrations/ai-studio-readonly-v166/adapter.test.mjs
+      - run: python3 scripts/validate_atlas_v168b.py
+      - run: python3 scripts/validate_atlas_v165.py
