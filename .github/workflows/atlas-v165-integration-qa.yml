@@ -1,0 +1,24 @@
+name: Atlas V165 integration readiness
+on:
+  push:
+    branches: ['research/**']
+    paths:
+      - 'data/contracts/atlas_v165_*'
+      - 'scripts/validate_atlas_v165.py'
+      - '.github/workflows/atlas-v165-integration-qa.yml'
+  workflow_dispatch:
+jobs:
+  integrity:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: V165 cross-domain integration
+        run: python3 scripts/validate_atlas_v165.py
+      - name: All versioned data gates V153-V164
+        run: |
+          for n in $(seq 153 164); do python3 scripts/validate_atlas_v${n}.py; done
+      - name: Repository-wide JSON and identity audit
+        run: python3 scripts/audit_atlas_all_json_v143.py --root .
