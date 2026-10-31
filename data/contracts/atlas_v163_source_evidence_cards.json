@@ -1,0 +1,124 @@
+{
+  "version": "1.63",
+  "publication_gate": {
+    "approved": false,
+    "can_ship": false
+  },
+  "scope": "Augsburg AC IV/X; Institutes 1536/1539/1559",
+  "cards": [
+    {
+      "id": "EVD-V163-AC4-1530",
+      "matrix_id": "AC-IV",
+      "title": "의롭다 함—라틴어 본문 진술",
+      "claim": "현재 유통되는 1530 라틴어 본문 판독 경로를 식별한다. 제출 원본 필사본을 직접 열람한 것은 아니다.",
+      "proof_level": "EDITORIAL_TRANSCRIPTION_NOT_ORIGINAL",
+      "source_urls": [
+        "https://www.ctsfw.edu/etext/boc/ac/latin/",
+        "https://www.uecf.net/books/collected-works/chapter1319.html"
+      ],
+      "unverified": "1530 제국의회 제출 원고의 자필·원본 입증 불가",
+      "primary_original_folio_checked": false,
+      "release": "EDITORIAL_HOLD"
+    },
+    {
+      "id": "EVD-V163-AC4-1540",
+      "matrix_id": "AC-IV",
+      "title": "의롭다 함—Variata 변경",
+      "claim": "1540년 제4조의 어휘와 문맥이 조정된 것으로 판본사에 기록되어 있다. 문장 단위의 라틴어 직접 교감은 별도 작업이다.",
+      "proof_level": "SECONDARY_VARIANT_REPORT",
+      "source_urls": [
+        "https://www.uecf.net/books/collected-works/chapter1319.html",
+        "https://www.augsburg1540.com/1530-1540-comparison-text.html"
+      ],
+      "unverified": "원판 판면 또는 교감표에 따른 어절 정렬 없음",
+      "primary_original_folio_checked": false,
+      "release": "EDITORIAL_HOLD"
+    },
+    {
+      "id": "EVD-V163-AC10-1530",
+      "matrix_id": "AC-X",
+      "title": "성만찬—Invariata",
+      "claim": "후대 인쇄·전사본은 참된 현존과 분배 표현을 전한다. 1530년 당시의 제출 원고와 1531년 인쇄본은 하나의 물리적 자료가 아니다.",
+      "proof_level": "EDITED_TEXT_AND_CATALOG",
+      "source_urls": [
+        "https://www.ctsfw.edu/etext/boc/ac/latin/",
+        "https://gruber.lstc.edu/confessions/augs_apol.php"
+      ],
+      "unverified": "제출된 두 원고의 영인 직접 확인 불가",
+      "primary_original_folio_checked": false,
+      "release": "EDITORIAL_HOLD"
+    },
+    {
+      "id": "EVD-V163-AC10-1540",
+      "matrix_id": "AC-X",
+      "title": "성만찬—Variata",
+      "claim": "1540년 문구는 빵·포도주와 함께 그리스도의 몸과 피가 참으로 제공된다는 형태로 제시된다. 어휘 차이를 교리적 동일성·차이의 최종 판정으로 즉시 연결하지 않는다.",
+      "proof_level": "SECONDARY_PARALLEL_TEXT",
+      "source_urls": [
+        "https://www.augsburg1540.com/1530-1540-comparison-text.html",
+        "https://gruber.lstc.edu/confessions/augs_apol.php",
+        "https://www.uecf.net/books/collected-works/chapter1319.html"
+      ],
+      "unverified": "1540년 초판·1531년 인쇄본 두 영인 판면 직접 대조 안 됨",
+      "primary_original_folio_checked": false,
+      "release": "EDITORIAL_HOLD"
+    },
+    {
+      "id": "EVD-V163-AC-WITNESS",
+      "matrix_id": "AC-EDITION",
+      "title": "아우크스부르크 제출 원고와 판본",
+      "claim": "1530년 제국의회 제출본, 1531년 인쇄본, 1540년 수정판은 독립된 판본 증인으로 표현해야 한다.",
+      "proof_level": "SCHOLARLY_BIBLIOGRAPHY",
+      "source_urls": [
+        "https://www.uecf.net/books/collected-works/chapter1319.html",
+        "https://gruber.lstc.edu/confessions/augs_apol.php"
+      ],
+      "unverified": "1530 제국의회 제출 원본 현존 확인 안 됨",
+      "primary_original_folio_checked": false,
+      "release": "EDITORIAL_HOLD"
+    },
+    {
+      "id": "EVD-V163-INST-1536",
+      "matrix_id": "INST-STRUCTURE",
+      "title": "기독교강요 1536년 편제",
+      "claim": "1536년 초판은 여섯 장: 율법, 신앙, 기도, 성례, 거짓 성례, 교회와 시민 통치의 주제를 다룬다.",
+      "proof_level": "SECONDARY_CONTENTS_SUMMARY",
+      "source_urls": [
+        "https://cprc.co.uk/articles/calvinsinstitutescomparison/",
+        "https://churchheritage.org/history/event/institutes-christian-religion-1536?lang=en"
+      ],
+      "unverified": "1536년 초판 인쇄본 목차 직접 판독 안 됨",
+      "primary_original_folio_checked": false,
+      "release": "EDITORIAL_HOLD"
+    },
+    {
+      "id": "EVD-V163-INST-1559",
+      "matrix_id": "INST-STRUCTURE",
+      "title": "기독교강요 1559년 편제",
+      "claim": "1559년 최종 라틴어판은 네 권 80장으로 확대되며 창조주, 구속주, 그리스도의 은혜 수용, 교회와 외적 수단의 순서를 따른다.",
+      "proof_level": "SECONDARY_CONTENTS_SUMMARY",
+      "source_urls": [
+        "https://cprc.co.uk/articles/calvinsinstitutescomparison/",
+        "https://churchheritage.org/history/event/institutes-christian-religion-1536?lang=en"
+      ],
+      "unverified": "1559년 초판 인쇄본 목차 직접 판독 안 됨",
+      "primary_original_folio_checked": false,
+      "release": "EDITORIAL_HOLD"
+    },
+    {
+      "id": "EVD-V163-INST-CHRISTIAN-LIFE",
+      "matrix_id": "INST-INTERMEDIATE",
+      "title": "그리스도인의 삶—1539년에 추가된 장",
+      "claim": "1536년 초판에 독립된 그리스도인의 삶 장이 없었고 1539년 제2판에 새 장이 추가되었다는 연구자 Anthony N. S. Lane의 설명을 기록한다.",
+      "proof_level": "NAMED_SCHOLAR_SECONDARY",
+      "source_urls": [
+        "https://www.crossway.org/articles/an-important-chapter-that-calvin-added-to-the-second-edition-of-his-institutes/",
+        "https://churchheritage.org/history/event/institutes-christian-religion-1536?lang=en"
+      ],
+      "unverified": "1539년 라틴어 원본 장 제목과 1559년 3권 해당 절 직접 대조 안 됨",
+      "primary_original_folio_checked": false,
+      "release": "EDITORIAL_HOLD"
+    }
+  ],
+  "editorial_policy": "Keep original manuscript/early print examination distinct from scholarly edited text, transcript and secondary synthesis; never label indirect quotations as firsthand inspection."
+}
