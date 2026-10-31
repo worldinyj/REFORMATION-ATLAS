@@ -1,0 +1,19 @@
+name: Atlas V164 evidence navigation QA
+on:
+  push:
+    branches: ['research/**']
+    paths:
+      - 'data/contracts/atlas_v164_*'
+      - 'scripts/validate_atlas_v164.py'
+      - '.github/workflows/atlas-v164-evidence-navigation-qa.yml'
+  workflow_dispatch:
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 scripts/validate_atlas_v164.py
+      - run: python3 scripts/audit_atlas_all_json_v143.py --root .
