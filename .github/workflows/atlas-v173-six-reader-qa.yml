@@ -1,0 +1,21 @@
+name: Atlas V173 six reader chapters QA
+on:
+  push:
+    branches: ['research/**']
+    paths:
+      - 'data/deep/atlas_v173_*'
+      - 'scripts/validate_atlas_v173.py'
+      - '.github/workflows/atlas-v173-six-reader-qa.yml'
+  workflow_dispatch:
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 scripts/validate_atlas_v173.py
+      - run: python3 scripts/validate_atlas_v172.py
+      - run: python3 scripts/validate_atlas_v165.py
+      - run: python3 scripts/audit_atlas_all_json_v143.py --root .
