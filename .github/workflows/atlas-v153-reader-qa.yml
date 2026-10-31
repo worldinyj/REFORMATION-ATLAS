@@ -1,0 +1,21 @@
+name: Atlas V153 reader package QA
+on:
+  push:
+    branches:
+      - 'research/**'
+    paths:
+      - 'data/deep/atlas_v153*'
+      - 'docs/01_CONTENT/VOL03/V153*'
+      - 'scripts/validate_atlas_v153.py'
+      - '.github/workflows/atlas-v153-reader-qa.yml'
+  workflow_dispatch:
+jobs:
+  reader:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 scripts/validate_atlas_v153.py
+      - run: python3 scripts/audit_atlas_all_json_v143.py --root .
