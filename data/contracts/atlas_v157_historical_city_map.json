@@ -1,0 +1,133 @@
+{
+  "version": "1.57",
+  "status": "RESEARCH_DRAFT",
+  "publication_gate": {
+    "approved": false,
+    "can_ship": false
+  },
+  "places": [
+    {
+      "id": "oxford",
+      "name": "Oxford",
+      "country": "United Kingdom",
+      "lat": 51.752,
+      "lon": -1.2577,
+      "coordinate_scope": "CITY_CENTROID_APPROXIMATE",
+      "association": "Wycliffe academic context",
+      "reader_page_id": "V156-Wycliffe"
+    },
+    {
+      "id": "prague",
+      "name": "Prague",
+      "country": "Czechia",
+      "lat": 50.0875,
+      "lon": 14.4213,
+      "coordinate_scope": "CITY_CENTROID_APPROXIMATE",
+      "association": "Hus preaching and university",
+      "reader_page_id": "V156-Hus"
+    },
+    {
+      "id": "constance",
+      "name": "Konstanz",
+      "country": "Germany",
+      "lat": 47.6633,
+      "lon": 9.1753,
+      "coordinate_scope": "CITY_CENTROID_APPROXIMATE",
+      "association": "Council and Hus trial",
+      "reader_page_id": "V156-Hus"
+    },
+    {
+      "id": "wittenberg",
+      "name": "Lutherstadt Wittenberg",
+      "country": "Germany",
+      "lat": 51.8661,
+      "lon": 12.6497,
+      "coordinate_scope": "CITY_CENTROID_APPROXIMATE",
+      "association": "1517 theses context",
+      "reader_page_id": "V156-Luther1517"
+    },
+    {
+      "id": "worms",
+      "name": "Worms",
+      "country": "Germany",
+      "lat": 49.6341,
+      "lon": 8.3507,
+      "coordinate_scope": "CITY_CENTROID_APPROXIMATE",
+      "association": "1521 Imperial Diet",
+      "reader_page_id": "V156-Luther1521"
+    },
+    {
+      "id": "augsburg",
+      "name": "Augsburg",
+      "country": "Germany",
+      "lat": 48.3705,
+      "lon": 10.8978,
+      "coordinate_scope": "CITY_CENTROID_APPROXIMATE",
+      "association": "1530 confession submission",
+      "reader_page_id": "V156-Augsburg"
+    },
+    {
+      "id": "zurich",
+      "name": "Zürich",
+      "country": "Switzerland",
+      "lat": 47.3769,
+      "lon": 8.5417,
+      "coordinate_scope": "CITY_CENTROID_APPROXIMATE",
+      "association": "Zwingli reform",
+      "reader_page_id": "V156-Zwingli"
+    },
+    {
+      "id": "marburg",
+      "name": "Marburg",
+      "country": "Germany",
+      "lat": 50.8022,
+      "lon": 8.7668,
+      "coordinate_scope": "CITY_CENTROID_APPROXIMATE",
+      "association": "1529 colloquy",
+      "reader_page_id": "V156-Marburg"
+    },
+    {
+      "id": "basel",
+      "name": "Basel",
+      "country": "Switzerland",
+      "lat": 47.5596,
+      "lon": 7.5886,
+      "coordinate_scope": "CITY_CENTROID_APPROXIMATE",
+      "association": "1536 Institutes printing context",
+      "reader_page_id": "V156-Calvin1536"
+    },
+    {
+      "id": "geneva",
+      "name": "Geneva",
+      "country": "Switzerland",
+      "lat": 46.2044,
+      "lon": 6.1432,
+      "coordinate_scope": "CITY_CENTROID_APPROXIMATE",
+      "association": "Calvin reform and 1559 edition context",
+      "reader_page_id": "V156-Calvin1559"
+    },
+    {
+      "id": "trento",
+      "name": "Trento",
+      "country": "Italy",
+      "lat": 46.0679,
+      "lon": 11.1211,
+      "coordinate_scope": "CITY_CENTROID_APPROXIMATE",
+      "association": "Council of Trent sessions",
+      "reader_page_id": "V156-Trent"
+    }
+  ],
+  "coordinate_notice": "City center representative points, not exact historical buildings or event coordinates",
+  "sources": [
+    "https://www.cvut.cz/en/the-bethlehem-chapel",
+    "https://www.britannica.com/event/Diet-of-Worms-Germany-1521",
+    "https://www.britannica.com/event/Council-of-Trent",
+    "https://www.britannica.com/biography/John-Calvin"
+  ],
+  "media_policy": {
+    "images_embedded": 0,
+    "external_images_not_republished": true,
+    "portrait_rights": "REVIEW_REQUIRED",
+    "historical_maps_rights": "REVIEW_REQUIRED"
+  }
+}
