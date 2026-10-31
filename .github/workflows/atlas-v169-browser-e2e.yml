@@ -1,0 +1,38 @@
+name: Atlas V169 real browser E2E
+on:
+  push:
+    branches: ['research/**']
+    paths:
+      - 'integrations/atlas-explorer-v169/**'
+      - '.github/workflows/atlas-v169-browser-e2e.yml'
+  workflow_dispatch:
+jobs:
+  browser-e2e:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install browser testing dependencies
+        working-directory: integrations/atlas-explorer-v169
+        run: |
+          npm install --no-audit --no-fund
+          npx playwright install --with-deps chromium
+      - name: Run full real browser matrix
+        run: integrations/atlas-explorer-v169/node_modules/.bin/playwright test --config=integrations/atlas-explorer-v169/playwright.config.mjs
+      - name: Upload screenshots, traces, videos and JUnit results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: atlas-v169-browser-evidence
+          path: |
+            integrations/atlas-explorer-v169/playwright-report/
+            integrations/atlas-explorer-v169/test-results/
+          retention-days: 14
+      - name: Previous integration contract
+        run: python3 scripts/validate_atlas_v165.py
