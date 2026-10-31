@@ -24,7 +24,7 @@ jobs:
           npm install --no-audit --no-fund
           npx playwright install --with-deps chromium
       - name: Run full real browser matrix
-        run: integrations/atlas-explorer-v169/node_modules/.bin/playwright test --config=integrations/atlas-explorer-v169/playwright.config.mjs
+        run: integrations/atlas-explorer-v169/node_modules/.bin/playwright test --config=integrations/atlas-explorer-v169/playwright.fixed.config.mjs
       - name: Upload screenshots, traces, videos and JUnit results
         if: always()
         uses: actions/upload-artifact@v4
