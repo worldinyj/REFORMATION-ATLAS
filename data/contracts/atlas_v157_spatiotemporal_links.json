@@ -1,0 +1,98 @@
+{
+  "version": "1.57",
+  "publication_gate": {
+    "approved": false,
+    "can_ship": false
+  },
+  "links": [
+    {
+      "reader_page_id": "V156-Wycliffe",
+      "place_id": "oxford",
+      "period": "1378–1379",
+      "relation": "PERSON_WORK_CONTEXT",
+      "site_precision": "CITY_ONLY"
+    },
+    {
+      "reader_page_id": "V156-Hus",
+      "place_id": "prague",
+      "period": "1413",
+      "relation": "WORK_COMPOSITION_CONTEXT",
+      "site_precision": "CITY_ONLY"
+    },
+    {
+      "reader_page_id": "V156-Hus",
+      "place_id": "constance",
+      "period": "1415",
+      "relation": "TRIAL_CONTEXT",
+      "site_precision": "CITY_ONLY"
+    },
+    {
+      "reader_page_id": "V156-Luther1517",
+      "place_id": "wittenberg",
+      "period": "1517",
+      "relation": "EVENT_CONTEXT",
+      "site_precision": "CITY_ONLY"
+    },
+    {
+      "reader_page_id": "V156-Luther1521",
+      "place_id": "worms",
+      "period": "1521",
+      "relation": "EVENT_CONTEXT",
+      "site_precision": "CITY_ONLY"
+    },
+    {
+      "reader_page_id": "V156-Augsburg",
+      "place_id": "augsburg",
+      "period": "1530",
+      "relation": "DOCUMENT_PRESENTATION",
+      "site_precision": "CITY_ONLY"
+    },
+    {
+      "reader_page_id": "V156-Zwingli",
+      "place_id": "zurich",
+      "period": "1523",
+      "relation": "REFORM_CENTER",
+      "site_precision": "CITY_ONLY"
+    },
+    {
+      "reader_page_id": "V156-Marburg",
+      "place_id": "marburg",
+      "period": "1529",
+      "relation": "COLLOQUY",
+      "site_precision": "CITY_ONLY"
+    },
+    {
+      "reader_page_id": "V156-Calvin1536",
+      "place_id": "basel",
+      "period": "1536",
+      "relation": "PRINT_CONTEXT",
+      "site_precision": "CITY_ONLY"
+    },
+    {
+      "reader_page_id": "V156-Calvin1559",
+      "place_id": "geneva",
+      "period": "1559",
+      "relation": "REFORM_CENTER",
+      "site_precision": "CITY_ONLY"
+    },
+    {
+      "reader_page_id": "V156-Trent",
+      "place_id": "trento",
+      "period": "1545–1563",
+      "relation": "COUNCIL_SESSION_CONTEXT",
+      "site_precision": "CITY_ONLY"
+    }
+  ],
+  "display_modes": [
+    "timeline",
+    "city_map",
+    "person_work_document_links"
+  ],
+  "warning": "No inference of historical travel route or exact site from city anchor",
+  "timeline_sort": "year_start_ascending",
+  "rights": {
+    "portrait_cards": "ONLY_RIGHTS_CLEARED",
+    "map_tiles": "PROVIDER_TERMS_REQUIRED",
+    "manuscript_facs": "NO_EMBED_UNTIL_LICENSE_REVIEW"
+  }
+}
