@@ -1,0 +1,109 @@
+{
+  "version": "1.60",
+  "publication_gate": {
+    "approved": false,
+    "can_ship": false
+  },
+  "facsimiles": [
+    {
+      "id": "DOC-V160-AUG-1531",
+      "title": "Augsburg Confession",
+      "year": 1531,
+      "language": "Latin and German",
+      "repository": "Bridwell Library, SMU",
+      "shelfmark": "BRA2651/A-B",
+      "catalog_url": "https://bridwell.omeka.net/exhibits/show/luther/item/1003",
+      "rights": "CREDIT_BRIDWELL_REQUIRED_HIGH_RES_CONTACT",
+      "note": "1530 submission distinguished from 1531 Rhaw printing",
+      "scope": "ITEM_RECORD_AND_DISPLAY_IMAGE",
+      "image_approved": false,
+      "original_page_collated": false
+    },
+    {
+      "id": "DOC-V160-CAL-1536",
+      "title": "Calvin Institutes first Latin edition",
+      "year": 1536,
+      "language": "Latin",
+      "repository": "Internet Archive edition locator / academic bibliography",
+      "shelfmark": null,
+      "catalog_url": "https://archive.org/details/christianaerelig00calv",
+      "rights": "UNREVIEWED",
+      "note": "Basel 1536 edition candidate; confirm scan's edition colophon",
+      "scope": "DIGITAL_ITEM_CANDIDATE",
+      "image_approved": false,
+      "original_page_collated": false
+    },
+    {
+      "id": "DOC-V160-CAL-1559",
+      "title": "Calvin Institutes final Latin edition",
+      "year": 1559,
+      "language": "Latin",
+      "repository": "BnF title authority",
+      "shelfmark": null,
+      "catalog_url": "https://catalogue.bnf.fr/ark:/12148/cb11963198n",
+      "rights": "UNREVIEWED",
+      "note": "BnF confirms 1536 start and 1559 final work; no specific 1559 copy image identified",
+      "scope": "WORK_AUTHORITY_NOT_FACSIMILE",
+      "image_approved": false,
+      "original_page_collated": false
+    },
+    {
+      "id": "DOC-V160-TRE-1564",
+      "title": "Council of Trent decrees publication",
+      "year": 1564,
+      "language": "Latin",
+      "repository": "Reference identification pending",
+      "shelfmark": null,
+      "catalog_url": "https://www.britannica.com/event/Council-of-Trent",
+      "rights": "UNREVIEWED",
+      "note": "Council 1545–1563 vs later printed collection; first-edition copy not authenticated",
+      "scope": "HISTORICAL_CONTEXT_ONLY",
+      "image_approved": false,
+      "original_page_collated": false
+    }
+  ],
+  "portrait_card_spec": {
+    "fields": [
+      "name",
+      "portrait_source",
+      "creator",
+      "creation_date",
+      "historical_authenticity_label",
+      "rights_credit",
+      "rights_review_state"
+    ],
+    "required_content": [
+      "label contemporary or posthumous",
+      "explain uncertainty of life sitting",
+      "link individual item page",
+      "use neutral fallback if rights unapproved"
+    ],
+    "records": [
+      {
+        "person": "Wycliffe",
+        "caption": "Bernard Picart, 1714 — posthumous imagined portrait"
+      },
+      {
+        "person": "Hus",
+        "caption": "Jacques de Boucq, c.1570 — posthumous image"
+      },
+      {
+        "person": "Luther",
+        "caption": "Lucas Cranach the Elder, 1529 — contemporary portrait"
+      },
+      {
+        "person": "Zwingli",
+        "caption": "Hans Asper, 1531 — contemporary-period woodcut"
+      },
+      {
+        "person": "Calvin",
+        "caption": "Unknown artist, 16th century — sitting unverified"
+      }
+    ]
+  },
+  "review_notes": [
+    "Do not conflate 1530 Augsburg submission with 1531 edited printing",
+    "BnF work authority is not proof of specific facsimile access",
+    "Historic council decrees and later print compilation are distinct"
+  ]
+}
