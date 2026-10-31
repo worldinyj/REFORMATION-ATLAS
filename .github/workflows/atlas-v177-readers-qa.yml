@@ -1,0 +1,19 @@
+name: Atlas V177 unified readers QA
+on:
+  push:
+    branches: ['research/**']
+    paths:
+      - 'data/deep/atlas_v177_*'
+      - 'scripts/validate_atlas_v177.py'
+      - '.github/workflows/atlas-v177-readers-qa.yml'
+  workflow_dispatch:
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 scripts/validate_atlas_v177.py
+      - run: python3 scripts/validate_atlas_v176.py
