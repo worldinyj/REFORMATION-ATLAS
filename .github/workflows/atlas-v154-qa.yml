@@ -1,0 +1,22 @@
+name: Atlas V154 sixty chapters QA
+on:
+  push:
+    branches: ['research/**']
+    paths:
+      - 'data/deep/atlas_v154_*'
+      - 'data/contracts/atlas_v154_*'
+      - 'scripts/validate_atlas_v154.py'
+      - '.github/workflows/atlas-v154-qa.yml'
+  workflow_dispatch:
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate all 60 chapters
+        run: python3 scripts/validate_atlas_v154.py
+      - name: Repository identity audit
+        run: python3 scripts/audit_atlas_all_json_v143.py --root .
