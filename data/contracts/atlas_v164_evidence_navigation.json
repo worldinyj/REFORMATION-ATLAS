@@ -1,0 +1,180 @@
+{
+  "version": "1.64",
+  "publication_gate": {
+    "approved": false,
+    "can_ship": false
+  },
+  "interaction_path": [
+    "claim",
+    "evidence_card",
+    "edition",
+    "historical_reader"
+  ],
+  "claims": [
+    {
+      "claim_id": "EVD-V163-AC4-1530",
+      "title": "의롭다 함—라틴어 본문 진술",
+      "matrix_id": "AC-IV",
+      "edition_ids": [
+        "EDN-V161-AC-1530",
+        "EDN-V161-AC-1531",
+        "EDN-V161-AC-1540"
+      ],
+      "source_count": 2,
+      "proof_level": "EDITORIAL_TRANSCRIPTION_NOT_ORIGINAL",
+      "verified_primary": false,
+      "reader_page_id": "V156-Augsburg",
+      "display_status": "SECONDARY_OR_EDITED_SOURCE_NOT_ORIGINAL",
+      "original_folio_status": "NOT_VERIFIED"
+    },
+    {
+      "claim_id": "EVD-V163-AC4-1540",
+      "title": "의롭다 함—Variata 변경",
+      "matrix_id": "AC-IV",
+      "edition_ids": [
+        "EDN-V161-AC-1530",
+        "EDN-V161-AC-1531",
+        "EDN-V161-AC-1540"
+      ],
+      "source_count": 2,
+      "proof_level": "SECONDARY_VARIANT_REPORT",
+      "verified_primary": false,
+      "reader_page_id": "V156-Augsburg",
+      "display_status": "SECONDARY_OR_EDITED_SOURCE_NOT_ORIGINAL",
+      "original_folio_status": "NOT_VERIFIED"
+    },
+    {
+      "claim_id": "EVD-V163-AC10-1530",
+      "title": "성만찬—Invariata",
+      "matrix_id": "AC-X",
+      "edition_ids": [
+        "EDN-V161-AC-1530",
+        "EDN-V161-AC-1531",
+        "EDN-V161-AC-1540"
+      ],
+      "source_count": 2,
+      "proof_level": "EDITED_TEXT_AND_CATALOG",
+      "verified_primary": false,
+      "reader_page_id": "V156-Augsburg",
+      "display_status": "SECONDARY_OR_EDITED_SOURCE_NOT_ORIGINAL",
+      "original_folio_status": "NOT_VERIFIED"
+    },
+    {
+      "claim_id": "EVD-V163-AC10-1540",
+      "title": "성만찬—Variata",
+      "matrix_id": "AC-X",
+      "edition_ids": [
+        "EDN-V161-AC-1530",
+        "EDN-V161-AC-1531",
+        "EDN-V161-AC-1540"
+      ],
+      "source_count": 3,
+      "proof_level": "SECONDARY_PARALLEL_TEXT",
+      "verified_primary": false,
+      "reader_page_id": "V156-Augsburg",
+      "display_status": "SECONDARY_OR_EDITED_SOURCE_NOT_ORIGINAL",
+      "original_folio_status": "NOT_VERIFIED"
+    },
+    {
+      "claim_id": "EVD-V163-AC-WITNESS",
+      "title": "아우크스부르크 제출 원고와 판본",
+      "matrix_id": "AC-EDITION",
+      "edition_ids": [
+        "EDN-V161-AC-1530",
+        "EDN-V161-AC-1531",
+        "EDN-V161-AC-1540"
+      ],
+      "source_count": 2,
+      "proof_level": "SCHOLARLY_BIBLIOGRAPHY",
+      "verified_primary": false,
+      "reader_page_id": "V156-Augsburg",
+      "display_status": "SECONDARY_OR_EDITED_SOURCE_NOT_ORIGINAL",
+      "original_folio_status": "NOT_VERIFIED"
+    },
+    {
+      "claim_id": "EVD-V163-INST-1536",
+      "title": "기독교강요 1536년 편제",
+      "matrix_id": "INST-STRUCTURE",
+      "edition_ids": [
+        "EDN-V161-INST-1536",
+        "EDN-V161-INST-1559"
+      ],
+      "source_count": 2,
+      "proof_level": "SECONDARY_CONTENTS_SUMMARY",
+      "verified_primary": false,
+      "reader_page_id": "V156-Calvin1559",
+      "display_status": "SECONDARY_OR_EDITED_SOURCE_NOT_ORIGINAL",
+      "original_folio_status": "NOT_VERIFIED"
+    },
+    {
+      "claim_id": "EVD-V163-INST-1559",
+      "title": "기독교강요 1559년 편제",
+      "matrix_id": "INST-STRUCTURE",
+      "edition_ids": [
+        "EDN-V161-INST-1536",
+        "EDN-V161-INST-1559"
+      ],
+      "source_count": 2,
+      "proof_level": "SECONDARY_CONTENTS_SUMMARY",
+      "verified_primary": false,
+      "reader_page_id": "V156-Calvin1559",
+      "display_status": "SECONDARY_OR_EDITED_SOURCE_NOT_ORIGINAL",
+      "original_folio_status": "NOT_VERIFIED"
+    },
+    {
+      "claim_id": "EVD-V163-INST-CHRISTIAN-LIFE",
+      "title": "그리스도인의 삶—1539년에 추가된 장",
+      "matrix_id": "INST-INTERMEDIATE",
+      "edition_ids": [
+        "EDN-V161-INST-1536",
+        "EDN-V161-INST-1559"
+      ],
+      "source_count": 2,
+      "proof_level": "NAMED_SCHOLAR_SECONDARY",
+      "verified_primary": false,
+      "reader_page_id": "V156-Calvin1559",
+      "display_status": "SECONDARY_OR_EDITED_SOURCE_NOT_ORIGINAL",
+      "original_folio_status": "NOT_VERIFIED"
+    }
+  ],
+  "editions": [
+    {
+      "id": "EDN-V161-AC-1530",
+      "work_id": "WRK-V161-AUGSBURG-CONFESSION-PROVISIONAL",
+      "year": 1530,
+      "kind": "DIET_SUBMISSION_MANUSCRIPT"
+    },
+    {
+      "id": "EDN-V161-AC-1531",
+      "work_id": "WRK-V161-AUGSBURG-CONFESSION-PROVISIONAL",
+      "year": 1531,
+      "kind": "EDITIO_PRINCEPS"
+    },
+    {
+      "id": "EDN-V161-AC-1540",
+      "work_id": "WRK-V161-AUGSBURG-CONFESSION-PROVISIONAL",
+      "year": 1540,
+      "kind": "VARIATA"
+    },
+    {
+      "id": "EDN-V161-INST-1536",
+      "work_id": "OV-D-012",
+      "year": 1536,
+      "kind": "FIRST_LATIN_EDITION"
+    },
+    {
+      "id": "EDN-V161-INST-1559",
+      "work_id": "OV-D-012",
+      "year": 1559,
+      "kind": "FINAL_LATIN_EDITION"
+    }
+  ],
+  "ui_rules": {
+    "evidence_badge": "근거 수준",
+    "not_original": "원본 판면 직접 대조 미완료",
+    "if_source_missing": "출처 정보가 없어 공개하지 않음",
+    "no_permission": "이미지 미표시",
+    "no_inferred_citation": "직접 인용·원문 검증을 추정하지 않음"
+  },
+  "source_refs": "Use source URLs only from V1.63 evidence cards, not rewritten on this navigation layer"
+}
