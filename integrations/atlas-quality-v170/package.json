@@ -1,0 +1,6 @@
+{
+  "private": true,
+  "type": "module",
+  "scripts": {"test:a11y": "playwright test --config=playwright.config.mjs", "test:content": "python3 ../../scripts/audit_atlas_v170.py"},
+  "devDependencies": {"@playwright/test": "1.56.1", "@axe-core/playwright": "4.10.2"}
+}
