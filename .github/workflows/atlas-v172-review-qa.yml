@@ -1,0 +1,21 @@
+name: Atlas V172 roadmap and Lutheran reader QA
+on:
+  push:
+    branches: ['research/**']
+    paths:
+      - 'docs/00_GOVERNANCE/V172_*'
+      - 'docs/01_CONTENT/V172_*'
+      - 'scripts/validate_atlas_v172.py'
+      - '.github/workflows/atlas-v172-review-qa.yml'
+  workflow_dispatch:
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 scripts/validate_atlas_v172.py
+      - run: python3 scripts/validate_atlas_v171.py
+      - run: python3 scripts/validate_atlas_v165.py
