@@ -1,0 +1,110 @@
+{
+  "version": "1.65",
+  "status": "INTEGRATION_CANDIDATE_NOT_APPROVED",
+  "publication_gate": {
+    "approved": false,
+    "can_ship": false
+  },
+  "source_branch": "research/evidence-navigation-v164",
+  "domain_groups": [
+    {
+      "id": "reader",
+      "file_paths": [
+        "data/deep/atlas_v153_vol03_reader_modules.json",
+        "data/deep/atlas_v154_group_a.json",
+        "data/deep/atlas_v154_group_b.json",
+        "data/deep/atlas_v154_group_c.json",
+        "data/deep/atlas_v154_group_d.json",
+        "data/deep/atlas_v154_group_e.json",
+        "data/deep/atlas_v154_group_f.json",
+        "data/deep/atlas_v155_ten_reader_pages.json",
+        "data/deep/atlas_v156_extended_narratives.json"
+      ],
+      "integration": "STRUCTURE_READY_EDITORIAL_HOLD"
+    },
+    {
+      "id": "geospatial",
+      "file_paths": [
+        "data/contracts/atlas_v157_historical_city_map.json",
+        "data/contracts/atlas_v157_spatiotemporal_links.json"
+      ],
+      "integration": "CITY_LEVEL_ONLY"
+    },
+    {
+      "id": "visual",
+      "file_paths": [
+        "data/contracts/atlas_v158_visual_rights_registry.json",
+        "data/contracts/atlas_v159_portrait_item_provenance.json",
+        "data/contracts/atlas_v160_document_facsimile_review.json"
+      ],
+      "integration": "NO_ASSET_PUBLICATION_RIGHTS_APPROVAL"
+    },
+    {
+      "id": "edition_evidence",
+      "file_paths": [
+        "data/contracts/atlas_v161_edition_comparison_cards.json",
+        "data/contracts/atlas_v162_edition_article_matrix.json",
+        "data/contracts/atlas_v163_source_evidence_cards.json",
+        "data/contracts/atlas_v164_evidence_navigation.json"
+      ],
+      "integration": "SOURCE_CHAIN_READY_PRIMARY_UNCOLLATED"
+    }
+  ],
+  "blocking_issues": [
+    {
+      "id": "BLOCK-01",
+      "name": "historical_editorial_review",
+      "severity": "BLOCKER",
+      "resolution": "Scholar review and factual verification of narrative chapters"
+    },
+    {
+      "id": "BLOCK-02",
+      "name": "facsimile_and_portrait_rights",
+      "severity": "BLOCKER",
+      "resolution": "Object-level rights/license and attribution signoff"
+    },
+    {
+      "id": "BLOCK-03",
+      "name": "primary_edition_collation",
+      "severity": "BLOCKER",
+      "resolution": "Direct scans and passage/folio comparisons where claims depend on specific text"
+    },
+    {
+      "id": "BLOCK-04",
+      "name": "canonical_ids",
+      "severity": "BLOCKER",
+      "resolution": "Resolve provisional identifiers against app canonical registry before merge"
+    },
+    {
+      "id": "BLOCK-05",
+      "name": "ai_studio_schema",
+      "severity": "BLOCKER",
+      "resolution": "Verify UI app data schema and field migration under separate review"
+    }
+  ],
+  "release_policy": {
+    "main_untouched": true,
+    "ai_studio_untouched": true,
+    "automatic_publication": false,
+    "can_export_data_for_review": true
+  },
+  "integration_view": {
+    "entrypoints": [
+      "reader",
+      "timeline",
+      "map",
+      "work",
+      "edition",
+      "claim",
+      "evidence",
+      "visual"
+    ],
+    "claim_path": [
+      "claim",
+      "source_evidence",
+      "edition",
+      "reader"
+    ],
+    "release_gate_name": "human_editor_approval"
+  }
+}
