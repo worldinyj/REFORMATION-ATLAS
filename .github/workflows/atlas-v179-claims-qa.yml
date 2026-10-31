@@ -1,0 +1,19 @@
+name: Atlas V179 source mapping QA
+on:
+  push:
+    branches: ['research/**']
+    paths:
+      - 'data/contracts/atlas_v179_*'
+      - 'scripts/validate_atlas_v179.py'
+      - '.github/workflows/atlas-v179-claims-qa.yml'
+  workflow_dispatch:
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 scripts/validate_atlas_v179.py
+      - run: python3 scripts/validate_atlas_v178.py
