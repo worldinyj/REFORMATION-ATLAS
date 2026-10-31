@@ -1,0 +1,63 @@
+{
+  "version": "1.52",
+  "status": "RESEARCH_NOT_PUBLIC",
+  "publication_gate": {
+    "approved": false,
+    "can_ship": false
+  },
+  "work_id": "WRK-V03-WYCLIFFE-DE-ECCLESIA",
+  "confirmed_access": [
+    {
+      "provider": "SIEPM / Boston College",
+      "url": "https://siepm-digitalresources.bc.edu/books/",
+      "description": "1886 Tractatus de ecclesia marked searchable",
+      "page_images_read": false
+    },
+    {
+      "provider": "Google Play Books",
+      "url": "https://play.google.com/store/books/details/Johannes_Wyclif_Johannis_Wyclif_tractatus_de_eccle?id=JAad-LddLx8C",
+      "description": "1886 Wyclif Society 600 pages; free ebook listing",
+      "page_images_read": false
+    },
+    {
+      "provider": "Google Play Books alternative edition listing",
+      "url": "https://play.google.com/store/books/details/John_Wycliffe_Iohannis_Wyclif_Tractatus_de_ecclesi?id=XeVwL8XcARAC",
+      "description": "1886 volume 4; 600 pages; free ebook listing",
+      "page_images_read": false
+    },
+    {
+      "provider": "Folger",
+      "url": "https://catalog.folger.edu/record/17976",
+      "description": "1886 xxxii+600 printed edition",
+      "page_images_read": false
+    },
+    {
+      "provider": "CiNii",
+      "url": "https://ci.nii.ac.jp/ncid/BA18818050",
+      "description": "1966 reprint described as from Vienna manuscripts, provenance metadata not a verified manuscript list",
+      "page_images_read": false
+    }
+  ],
+  "priority_pages": [
+    {
+      "page": 257,
+      "line": 1,
+      "scan_verified": false
+    },
+    {
+      "page": 467,
+      "line": 29,
+      "scan_verified": false
+    }
+  ],
+  "loserth_introduction": {
+    "read": false,
+    "shelfmarks_confirmed": [],
+    "new_lead": "1966 reprint catalog describes Vienna manuscripts without individual shelfmarks"
+  },
+  "access_errors": [
+    "Independent local HTTP request cannot resolve SIEPM DNS",
+    "Public listings expose a portal or ebook catalog but not directly inspected page images"
+  ],
+  "editorial_gate": "Do not represent bibliographic listings as image or Latin-text collation"
+}
