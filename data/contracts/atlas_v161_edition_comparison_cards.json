@@ -1,0 +1,141 @@
+{
+  "version": "1.61",
+  "publication_gate": {
+    "approved": false,
+    "can_ship": false
+  },
+  "works": [
+    {
+      "work_id": "WRK-V161-AUGSBURG-CONFESSION-PROVISIONAL",
+      "canonical": false,
+      "title_ko": "아우크스부르크 신앙고백",
+      "editions": [
+        {
+          "id": "EDN-V161-AC-1530",
+          "year": 1530,
+          "kind": "DIET_SUBMISSION_MANUSCRIPT",
+          "language": [
+            "German",
+            "Latin"
+          ],
+          "label": "1530년 제국의회 제출",
+          "details": "1530-06-25 제출, 독일어본 낭독. 당대 제출 문서와 후대 인쇄본을 동일한 물리적 자료로 보지 않는다.",
+          "extant_original_submission_confirmed": false
+        },
+        {
+          "id": "EDN-V161-AC-1531",
+          "year": 1531,
+          "kind": "EDITIO_PRINCEPS",
+          "language": [
+            "Latin",
+            "German"
+          ],
+          "label": "1531년 멜란히톤 관여 인쇄본",
+          "details": "비텐베르크 Georg Rhau 인쇄. 1530년 제출 원고를 문자 그대로 재현한 판본이라는 주장은 하지 않는다.",
+          "extant_original_submission_confirmed": null
+        },
+        {
+          "id": "EDN-V161-AC-1540",
+          "year": 1540,
+          "kind": "VARIATA",
+          "language": [
+            "Latin"
+          ],
+          "label": "1540년 개정 라틴어판",
+          "details": "멜란히톤의 수정이 포함된 Variata. 성만찬 조항 X를 포함한 문구와 신학적 표현의 차이 검토 필요.",
+          "extant_original_submission_confirmed": null
+        }
+      ],
+      "comparison_axes": [
+        {
+          "id": "submission-vs-print",
+          "topic": "원고 제출 대 최초 공인 인쇄",
+          "status": "HISTORICAL_COMPARISON",
+          "source": "https://www.uecf.net/books/collected-works/chapter1319.html"
+        },
+        {
+          "id": "article10",
+          "topic": "성만찬에 관한 제10조",
+          "status": "PASSAGE_LEVEL_LATIN_COLLATION_REQUIRED",
+          "source": "https://www.uecf.net/books/collected-works/chapter1319.html"
+        }
+      ]
+    },
+    {
+      "work_id": "OV-D-012",
+      "canonical": true,
+      "title_ko": "칼뱅 『기독교강요』",
+      "editions": [
+        {
+          "id": "EDN-V161-INST-1536",
+          "year": 1536,
+          "kind": "FIRST_LATIN_EDITION",
+          "language": [
+            "Latin"
+          ],
+          "label": "1536년 바젤 라틴어 초판",
+          "details": "6장 구성. 국왕 프랑수아 1세에게 보낸 헌사. 초판을 1559년 최종판의 4권 80장 구성으로 표시하지 않는다.",
+          "chapter_count": 6
+        },
+        {
+          "id": "EDN-V161-INST-1559",
+          "year": 1559,
+          "kind": "FINAL_LATIN_EDITION",
+          "language": [
+            "Latin"
+          ],
+          "label": "1559년 최종 라틴어판",
+          "details": "4권 80장으로 전면 체계화. 창조주 하나님, 구속주 그리스도, 은혜의 수용, 교회의 외적 수단에 관한 큰 구조.",
+          "book_count": 4,
+          "chapter_count": 80
+        }
+      ],
+      "intermediate_editions": [
+        1539,
+        1543,
+        1550
+      ],
+      "comparison_axes": [
+        {
+          "id": "structure",
+          "topic": "6장 대 4권 80장",
+          "status": "BIBLIOGRAPHICALLY_SUPPORTED",
+          "source": "https://bridwell.omeka.net/exhibits/show/calvin/1562institutes"
+        },
+        {
+          "id": "doctrinal",
+          "topic": "교리·문장별 발전",
+          "status": "PRIMARY_TEXT_COLLATION_REQUIRED",
+          "source": "https://calvin.edu/sites/default/files/migrated/centers-institutes-meeter-center-files-microform-collection-Works-of-John-Calvin-Titlelist.pdf"
+        }
+      ]
+    }
+  ],
+  "interface_contract": {
+    "components": [
+      "document-card",
+      "edition-timeline",
+      "edition-compare-table",
+      "source-evidence-panel",
+      "verification-badge"
+    ],
+    "required_fields": [
+      "work_id",
+      "edition_id",
+      "year",
+      "edition_kind",
+      "language",
+      "verification_status"
+    ],
+    "release_rule": "Publication requires editorial approval, source rights review and accurate edition labels"
+  },
+  "verification": {
+    "bibliographic_sources": [
+      "https://bridwell.omeka.net/exhibits/show/calvin/1562institutes",
+      "https://www.uecf.net/books/collected-works/chapter1319.html",
+      "https://calvin.edu/sites/default/files/migrated/centers-institutes-meeter-center-files-microform-collection-Works-of-John-Calvin-Titlelist.pdf"
+    ],
+    "direct_primary_text_collation": false,
+    "rights_for_facsimile_images": false
+  }
+}
