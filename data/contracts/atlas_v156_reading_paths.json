@@ -1,0 +1,121 @@
+{
+  "version": "1.56",
+  "publication_gate": {
+    "approved": false,
+    "can_ship": false
+  },
+  "nodes": [
+    {
+      "id": "V156-Wycliffe",
+      "reader_route": "/deep/reformation/wycliffe"
+    },
+    {
+      "id": "V156-Hus",
+      "reader_route": "/deep/reformation/hus"
+    },
+    {
+      "id": "V156-Luther1517",
+      "reader_route": "/deep/reformation/luther1517"
+    },
+    {
+      "id": "V156-Luther1521",
+      "reader_route": "/deep/reformation/luther1521"
+    },
+    {
+      "id": "V156-Augsburg",
+      "reader_route": "/deep/reformation/augsburg"
+    },
+    {
+      "id": "V156-Zwingli",
+      "reader_route": "/deep/reformation/zwingli"
+    },
+    {
+      "id": "V156-Marburg",
+      "reader_route": "/deep/reformation/marburg"
+    },
+    {
+      "id": "V156-Calvin1536",
+      "reader_route": "/deep/reformation/calvin1536"
+    },
+    {
+      "id": "V156-Calvin1559",
+      "reader_route": "/deep/reformation/calvin1559"
+    },
+    {
+      "id": "V156-Trent",
+      "reader_route": "/deep/reformation/trent"
+    }
+  ],
+  "edges": [
+    {
+      "from": "V156-Wycliffe",
+      "to": "V156-Hus",
+      "label": "사상적 수용과 차이",
+      "kind": "INFLUENCE_NOT_IDENTITY",
+      "verified_as_direct_citation": false
+    },
+    {
+      "from": "V156-Hus",
+      "to": "V156-Luther1517",
+      "label": "중세 개혁의 유산과 새로운 논쟁",
+      "kind": "HISTORICAL_CONTEXT",
+      "verified_as_direct_citation": false
+    },
+    {
+      "from": "V156-Luther1517",
+      "to": "V156-Luther1521",
+      "label": "논제에서 제국의회로",
+      "kind": "CHRONOLOGY",
+      "verified_as_direct_citation": false
+    },
+    {
+      "from": "V156-Luther1521",
+      "to": "V156-Augsburg",
+      "label": "개인의 논박에서 공적 신앙고백으로",
+      "kind": "CHRONOLOGY",
+      "verified_as_direct_citation": false
+    },
+    {
+      "from": "V156-Luther1517",
+      "to": "V156-Zwingli",
+      "label": "독일과 스위스의 별개 개혁",
+      "kind": "PARALLEL_MOVEMENTS",
+      "verified_as_direct_citation": false
+    },
+    {
+      "from": "V156-Zwingli",
+      "to": "V156-Marburg",
+      "label": "성만찬 해석의 대립",
+      "kind": "DOCTRINAL_DISAGREEMENT",
+      "verified_as_direct_citation": false
+    },
+    {
+      "from": "V156-Marburg",
+      "to": "V156-Calvin1536",
+      "label": "다양한 개혁 신학의 발전",
+      "kind": "HISTORICAL_CONTEXT",
+      "verified_as_direct_citation": false
+    },
+    {
+      "from": "V156-Calvin1536",
+      "to": "V156-Calvin1559",
+      "label": "동일 저작의 확대·개정",
+      "kind": "EDITION_SEQUENCE",
+      "verified_as_direct_citation": false
+    },
+    {
+      "from": "V156-Augsburg",
+      "to": "V156-Trent",
+      "label": "교파적 신앙고백과 가톨릭의 응답",
+      "kind": "CONFESSIONAL_COMPARISON",
+      "verified_as_direct_citation": false
+    },
+    {
+      "from": "V156-Calvin1559",
+      "to": "V156-Trent",
+      "label": "16세기 교리적 입장 비교",
+      "kind": "PARALLEL_CONFESSIONAL_CONTEXT",
+      "verified_as_direct_citation": false
+    }
+  ]
+}
