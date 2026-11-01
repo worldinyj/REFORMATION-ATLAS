@@ -1,0 +1,56 @@
+{
+  "version": "1.86",
+  "release": {
+    "can_ship": false,
+    "original_16c_print_collated": false,
+    "academic_approved": false
+  },
+  "edition": "Corpus Reformatorum 26 (1858) edited Latin collation",
+  "source": "https://www.augsburg1540.com/uploads/1/3/8/9/138903771/1540_latin_text_from_corpus_reformandum.pdf",
+  "comparisons": [
+    {
+      "id": "AC-IV",
+      "location": {
+        "volume": 26,
+        "printed_pages": "352–353",
+        "editorial_note": "footnote 5, p.352",
+        "pdf_text_lines": "63–81"
+      },
+      "old_editorial_1531_reference": "Ed.1, CR26 p.275 lines 5–12",
+      "new_1540_excerpt": "Vt autem consequamur haec beneficia Christi, scilicet remissionem peccatorum, iustificationem, et vitam aeternam, dedit Christus Evangelium",
+      "translation_ko": "그리스도의 이 유익, 곧 죄 사함과 의롭다 하심과 영원한 생명을 얻도록 그리스도께서 복음을 주셨다.",
+      "note_interpretation": "CR26 편집 각주가 제4조 전체가 Ed.3·4에서 변경되었고 Ed.1·2와 다르다고 명시한다. 단순한 단어 교체로 축소하면 안 된다.",
+      "verified": "1858_EDITED_LATIN_PAGE_AND_APPARATUS",
+      "sixteenth_century_original_checked": false,
+      "full_1531_text_collated": false
+    },
+    {
+      "id": "AC-X",
+      "location": {
+        "article": "X"
+      },
+      "difference": "1530 adsint/distribuantur vs 1540 exhibeantur; opposition clause omitted",
+      "verified": "LATER_EDITORIAL_TEXT",
+      "sixteenth_century_original_checked": false
+    },
+    {
+      "id": "MAR-ZK",
+      "location": {
+        "archive": "Zurich E I 3.1 Nr.54",
+        "variants": [
+          "7",
+          "13",
+          "15"
+        ]
+      },
+      "difference": "Z additions reported but content untranscribed",
+      "verified": "ARCHIVE_METADATA_ONLY",
+      "sixteenth_century_original_checked": false
+    }
+  ],
+  "open_questions": [
+    "Obtain 1531 CR26 p.275 original edited Latin text and compare linewise with edited 1540 Article IV",
+    "Cross-check variants against 16th-century physical prints / facsimiles",
+    "Obtain Z/K critical edition differences for Marburg 7 13 15"
+  ]
+}
