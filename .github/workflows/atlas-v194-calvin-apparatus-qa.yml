@@ -1,0 +1,19 @@
+name: Atlas V194 Calvin apparatus QA
+on:
+  push:
+    branches: ['research/**']
+    paths:
+      - 'data/contracts/atlas_v194_*'
+      - 'scripts/validate_atlas_v194.py'
+      - '.github/workflows/atlas-v194-calvin-apparatus-qa.yml'
+  workflow_dispatch:
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 scripts/validate_atlas_v194.py
+      - run: python3 scripts/validate_atlas_v193.py
