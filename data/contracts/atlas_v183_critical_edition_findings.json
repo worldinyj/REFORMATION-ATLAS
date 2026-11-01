@@ -1,0 +1,168 @@
+{
+  "version": "1.83",
+  "release": {
+    "can_publish": false,
+    "original_witness_collated": false,
+    "peer_reviewed": false
+  },
+  "findings": [
+    {
+      "id": "AC-ORDER",
+      "reader": "AUGSBURG",
+      "question": "1530과 1540의 고해·회개 조항 대응은 무엇인가",
+      "result": "1530 XI Confession corresponds by topic to 1540 XII Confession; 1530 XII Repentance corresponds to 1540 XI Repentance. A number-only join would pair unlike subjects.",
+      "locations": [
+        {
+          "edition": "1530",
+          "article": "XI",
+          "topic": "Confession"
+        },
+        {
+          "edition": "1540",
+          "article": "XII",
+          "topic": "Confession"
+        },
+        {
+          "edition": "1530",
+          "article": "XII",
+          "topic": "Repentance"
+        },
+        {
+          "edition": "1540",
+          "article": "XI",
+          "topic": "Repentance"
+        }
+      ],
+      "source": "https://www.augsburg1540.com/1530-1540-comparison-text.html",
+      "source_class": "MODERN_EDITED_BILINGUAL_COMPARISON",
+      "confidence": "SOURCE_PAGE_EXPLICIT",
+      "original_folio_checked": false,
+      "implication": "Use topic-and-edition alignment, never raw article number alone"
+    },
+    {
+      "id": "AC-IV-X",
+      "reader": "AUGSBURG",
+      "question": "1540년 수정은 성만찬 제10조에만 국한되는가",
+      "result": "No. Schaff identifies alterations affecting Article IV and Article X among others, and separately warns German/Latin 1530 text differed.",
+      "locations": [
+        {
+          "edition": "1530/1540",
+          "article": "IV",
+          "topic": "Justification"
+        },
+        {
+          "edition": "1530/1540",
+          "article": "X",
+          "topic": "Lord's Supper"
+        }
+      ],
+      "source": "https://www.uecf.net/books/collected-works/chapter1319.html",
+      "source_class": "NINETEENTH_CENTURY_HISTORICAL_EDITORIAL_SUMMARY",
+      "confidence": "SOURCE_PAGE_EXPLICIT",
+      "original_folio_checked": false,
+      "implication": "Track language and witness in addition to year"
+    },
+    {
+      "id": "MAR-ZK",
+      "reader": "MARBURG",
+      "question": "취리히본(Z)과 헤센본(K)의 구체적 대조 위치",
+      "result": "Zurich archive documents three additions to articles 7, 13 and 15 in Z absent from K. It identifies the Hessian original as Hessisches StA Marburg Best. 3 Nr. 245 fol.60r–64v and edition references for Z/K comparison.",
+      "locations": [
+        {
+          "witness": "Z",
+          "shelfmark": "E I 3.1 Nr.54",
+          "articles": [
+            "7",
+            "13",
+            "15"
+          ]
+        },
+        {
+          "witness": "K",
+          "shelfmark": "Hessisches StA Marburg Best.3 Nr.245 fol.60r–64v"
+        }
+      ],
+      "edition_leads": [
+        {
+          "title": "Reformierte Bekenntnisschriften",
+          "locator": "Bd.1/1 Nr.11 pp.259–267",
+          "based_on": "Z"
+        },
+        {
+          "title": "MBW Texte",
+          "locator": "Bd.3 Nr.825",
+          "based_on": "K with Z variants"
+        },
+        {
+          "title": "Die Bekenntnisschriften der Evangelisch-Lutherischen Kirche: Quellen und Materialien",
+          "locator": "Bd.1 pp.43–46",
+          "based_on": "K"
+        }
+      ],
+      "source": "https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=618165",
+      "source_class": "HOLDING_ARCHIVE_OFFICIAL_CATALOGUE",
+      "confidence": "SOURCE_PAGE_EXPLICIT",
+      "original_folio_checked": false,
+      "implication": "Do not invent wording of Z additions before direct diplomatic comparison"
+    },
+    {
+      "id": "CALVIN-EDITIONS",
+      "reader": "CALVIN1559",
+      "question": "중간 라틴어판의 실제 구조 변화",
+      "result": "Lane describes 1539 as 17 chapters, 1543 as 21, 1550 as introducing sections and 1559 as thorough reorganization; Bridwell confirms Latin succession 1536/1539/1543/1550/1559 and English Norton 1562.",
+      "locations": [
+        {
+          "year": 1536,
+          "chapters": 6
+        },
+        {
+          "year": 1539,
+          "chapters": 17
+        },
+        {
+          "year": 1543,
+          "chapters": 21
+        },
+        {
+          "year": 1550,
+          "feature": "chapter sections"
+        },
+        {
+          "year": 1559,
+          "books": 4,
+          "chapters": 80
+        },
+        {
+          "year": 1562,
+          "language": "English",
+          "translator": "Thomas Norton"
+        }
+      ],
+      "sources": [
+        "https://cdn-static.supadu.com/baker-academic-us/pdf/Excerpt_9780801037313.pdf",
+        "https://bridwell.omeka.net/exhibits/show/calvin/1562institutes"
+      ],
+      "source_class": "SCHOLARLY_EDITION_HISTORY_PLUS_SPECIAL_COLLECTION_EXHIBITION",
+      "confidence": "EDITION_HISTORY_CONFIRMED_NO_PARAGRAPH_ALIGNMENT",
+      "original_folio_checked": false,
+      "implication": "Do not infer chapter equivalence across editions by numeric labels"
+    }
+  ],
+  "next_actions": [
+    {
+      "order": 1,
+      "task": "AC Article IV and X exact 1531 vs 1540 Latin transcription",
+      "blocker": "facsimile or authoritative diplomatic edition per witness"
+    },
+    {
+      "order": 2,
+      "task": "Marburg Z extra passages at Articles 7/13/15",
+      "blocker": "access to both archival witness texts or critical edition"
+    },
+    {
+      "order": 3,
+      "task": "Calvin 1539/1543/1550 paragraph alignment",
+      "blocker": "full comparable Latin texts and independent scholarly review"
+    }
+  ]
+}
