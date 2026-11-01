@@ -1,0 +1,93 @@
+{
+  "version": "1.91",
+  "status": "RESEARCH_ONLY",
+  "release": {
+    "can_ship": false,
+    "original_print_collated": false,
+    "scholarly_reviewed": false
+  },
+  "study": "Augsburg Confession Articles IV/V/X in Invariata and Variata",
+  "method": "Keep edition wording, theological interpretation, and reception history distinct",
+  "questions": [
+    {
+      "id": "IV",
+      "edition_ids": [
+        "EDN-V161-AC-1530",
+        "EDN-V161-AC-1540"
+      ],
+      "location": "Article IV",
+      "continuity": "Both present forgiveness/justification through Christ and faith rather than human merit.",
+      "revision": "1540 develops a longer exposition of gospel promise, repentance, assurance and Christian consolation.",
+      "interpretation_risk": "Do not equate expanded description with complete replacement of justification doctrine.",
+      "source_url": "https://www.augsburg1540.com/1530-1540-comparison-text.html",
+      "source_class": "MODERN_COMPARATIVE_EDITION",
+      "original_folio_checked": false
+    },
+    {
+      "id": "V",
+      "edition_ids": [
+        "EDN-V161-AC-1530",
+        "EDN-V161-AC-1540"
+      ],
+      "location": "Article V",
+      "continuity": "Gospel ministry, Word, sacraments, and the work of the Holy Spirit connect to faith.",
+      "revision": "Historical editors identify expanded formulations and differences regarding means of grace, including omission of 'ubi et quando visum est Deo' in 1540.",
+      "interpretation_risk": "Whether formulation changed the doctrine is contested; distinguish actual omission from confessional assessment.",
+      "source_url": "https://thebookofconcord.org/introductory-materials/historical-introductions/melanchthons-alterations-to-the-augsburg-confession/",
+      "source_class": "CONFESSIONAL_HISTORICAL_INTERPRETATION",
+      "original_folio_checked": false
+    },
+    {
+      "id": "X",
+      "edition_ids": [
+        "EDN-V161-AC-1530",
+        "EDN-V161-AC-1540"
+      ],
+      "location": "Article X",
+      "continuity": "Both confess Christ's body and blood in connection with the Lord's Supper.",
+      "revision": "1530: vere adsint et distribuantur; 1540: cum pane et vino vere exhibeantur; latter omits express rejection of differently teaching views.",
+      "interpretation_risk": "Reception by Lutheran and Reformed writers differed; 'exhibeantur' does not alone prove a single settled Calvinist doctrine.",
+      "source_url": "https://www.uecf.net/books/collected-works/chapter1319.html",
+      "source_class": "NINETEENTH_CENTURY_HISTORICAL_COMPARISON",
+      "original_folio_checked": false
+    }
+  ],
+  "connections": [
+    {
+      "from": "IV",
+      "to": "V",
+      "relationship": "justification and means through which faith is given",
+      "classification": "TEXTUAL_THEOLOGICAL_CONNECTION"
+    },
+    {
+      "from": "V",
+      "to": "X",
+      "relationship": "sacraments as means of grace and specific claim about Lord's Supper",
+      "classification": "INTERPRETIVE_BRIDGE_NOT_EXPLICIT_ASSERTION"
+    },
+    {
+      "from": "IV",
+      "to": "X",
+      "relationship": "shared confession but distinct controversies; justification and presence should not be collapsed",
+      "classification": "CONTEXTUAL_LIMIT"
+    }
+  ],
+  "reception_positions": [
+    {
+      "id": "LUTHERAN_CONFESSIONAL",
+      "position": "1540 changes raised later concerns about Eucharistic teaching and Article V phrasing",
+      "source_url": "https://thebookofconcord.org/introductory-materials/historical-introductions/melanchthons-alterations-to-the-augsburg-confession/"
+    },
+    {
+      "id": "HISTORICAL_SCHAFF",
+      "position": "1540 sought compromise and clearer common ground, yet was not universally received; Melanchthon's intention should not be collapsed to Zwinglian memorialism",
+      "source_url": "https://www.uecf.net/books/collected-works/chapter1319.html"
+    }
+  ],
+  "next_evidence": [
+    "CR XXVI 1531 printed p.275 vs 1540 pp.352-354 direct edited-page collation",
+    "1531 vs 1540 Article V Latin text full verification",
+    "First-imprint witness comparison for Articles IV/V/X",
+    "Independent confessional and nonconfessional specialist review"
+  ]
+}
