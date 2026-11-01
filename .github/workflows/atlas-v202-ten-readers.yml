@@ -1,0 +1,19 @@
+name: Atlas V202 ten unified reader revisions QA
+on:
+  push:
+    branches: ['research/**']
+    paths:
+      - 'data/deep/atlas_v202_*'
+      - 'scripts/validate_atlas_v202.py'
+      - '.github/workflows/atlas-v202-ten-readers.yml'
+  workflow_dispatch:
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 scripts/validate_atlas_v202.py
+      - run: python3 scripts/validate_atlas_v201.py
