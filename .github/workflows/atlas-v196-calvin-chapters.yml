@@ -1,0 +1,19 @@
+name: Atlas V196 Calvin III.6-10 audit
+on:
+  push:
+    branches: ['research/**']
+    paths:
+      - 'data/contracts/atlas_v196_*'
+      - 'scripts/validate_atlas_v196.py'
+      - '.github/workflows/atlas-v196-calvin-chapters.yml'
+  workflow_dispatch:
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 scripts/validate_atlas_v196.py
+      - run: python3 scripts/validate_atlas_v195.py
