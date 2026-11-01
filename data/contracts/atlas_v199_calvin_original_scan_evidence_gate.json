@@ -1,0 +1,80 @@
+{
+  "version": "1.99",
+  "status": "RESEARCH_ONLY",
+  "can_ship": false,
+  "project": "REFORMATION-ATLAS",
+  "target": {
+    "work": "Institutio Christianae Religionis",
+    "edition": 1559,
+    "book": "III",
+    "chapter": 8,
+    "section": 7
+  },
+  "evidence": [
+    {
+      "source_id": "CAL1559_SCAN",
+      "url": "https://commons.wikimedia.org/wiki/File:Institutio_christianae_religionis_.._(IA_institutiochrist1559calv).pdf",
+      "type": "SIXTEENTH_CENTURY_IMPRINT_DIGITIZATION",
+      "repository": "Princeton Theological Seminary / Internet Archive, Wikimedia Commons mirror",
+      "file_pages": 576,
+      "file_size_bytes": 53257642,
+      "copy_missing_printed_pages": "545–546",
+      "status": "METADATA_CONFIRMED_IMAGE_NOT_READ",
+      "access_barrier": "PDF original redirects to inaccessible host or >50MB content limit",
+      "folio_locator": null,
+      "verified_exact_reading": null
+    },
+    {
+      "source_id": "BARTH_NIESEL",
+      "url": "https://calvin.reformation.nl/872-Institutes%2Bof%2Bthe%2BChristian%2BReligion.%2BInstitutio%2Bchristianae%2Breligionis.%2BInstitution%2Bde%2Bla%2Breligion%2Bchrestienne/3/8",
+      "type": "TWENTIETH_CENTURY_CRITICAL_EDITION_DIGITAL_TEXT",
+      "status": "PASSAGE_AND_APPARATUS_ACCESSIBLE",
+      "target_section": "III.8.7",
+      "verified_from_edition": "si vexamur et contemnimur",
+      "critical_readings": [
+        {
+          "editions": "1539",
+          "word": "concutimur"
+        },
+        {
+          "editions": "1543–1545",
+          "word": "continemur",
+          "apparatus_comment": "male"
+        },
+        {
+          "editions": "1550–1561",
+          "word": "contemnimur",
+          "apparatus_comment": "ex coniectura"
+        }
+      ],
+      "warning": "These are editor-attested variant readings, not side-by-side collations of 16th-century physical prints"
+    }
+  ],
+  "scientific_decisions": [
+    {
+      "claim": "The 1559 original printed page of III.8.7 has been inspected",
+      "verdict": "NOT_ESTABLISHED"
+    },
+    {
+      "claim": "The 1559 original scanned item exists and lists missing pp.545–546",
+      "verdict": "CONFIRMED_METADATA"
+    },
+    {
+      "claim": "The critical edition records concutimur/continemur/contemnimur by edition",
+      "verdict": "CONFIRMED_EDITORIAL_APPARATUS"
+    },
+    {
+      "claim": "The variant proves a major change of Calvin's theology",
+      "verdict": "NOT_ESTABLISHED"
+    }
+  ],
+  "followup_protocol": {
+    "step1": "Obtain a per-page scan from the identified physical copy or authorized reader to stay within transfer limits",
+    "step2": "Identify III.8.7 on the printed-page image, record PDF index and printed page separately",
+    "step3": "Visually inspect words and immediate surrounding lines, check against Barth–Niesel critical apparatus",
+    "step4": "Find 1539 edition corresponding folio for actual direct witness comparison",
+    "step5": "Publish only after independent scholarly review"
+  },
+  "main_modified": false,
+  "ai_studio_modified": false
+}
