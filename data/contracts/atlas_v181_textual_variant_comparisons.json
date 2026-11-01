@@ -1,0 +1,82 @@
+{
+  "version": "1.81",
+  "publication_gate": {
+    "can_ship": false
+  },
+  "comparisons": [
+    {
+      "id": "CMP-V181-AC10",
+      "work": "Augsburg Confession",
+      "location": "Article X",
+      "witnesses": [
+        {
+          "edition_id": "EDN-V161-AC-1530",
+          "latin_key_phrases": [
+            "vere adsint",
+            "distribuantur vescentibus"
+          ],
+          "meaning_ko": "그리스도의 몸과 피가 참으로 현존하고 성찬을 받는 이들에게 분배된다는 표현"
+        },
+        {
+          "edition_id": "EDN-V161-AC-1540",
+          "latin_key_phrases": [
+            "cum pane et vino",
+            "vere exhibeantur"
+          ],
+          "meaning_ko": "떡과 포도주와 함께 몸과 피가 참으로 제시된다는 표현"
+        }
+      ],
+      "difference_ko": "1530년의 현존·분배 어휘가 1540년에는 떡·포도주와 함께 제공된다는 표현으로 바뀐다. 이것만으로 교리적 동일성이나 완전한 합의를 선언하지 않는다.",
+      "reference": "Schaff, Creeds of Christendom vol.1 §41, comparison of Article X",
+      "source_url": "https://www.uecf.net/books/collected-works/chapter1319.html",
+      "evidence_class": "NINETEENTH_CENTURY_EDITED_PRINT_COMPARISON",
+      "original_imprint_collated": false,
+      "verified_as_editorial_transcription": true
+    },
+    {
+      "id": "CMP-V181-MAR15",
+      "work": "Marburg Articles",
+      "location": "Article XV",
+      "witnesses": [
+        {
+          "label": "agreement",
+          "content_ko": "성만찬에 관한 다수의 공동 진술과 실제 공동 서명"
+        },
+        {
+          "label": "remaining_difference",
+          "content_ko": "떡과 포도주 안에 그리스도의 몸과 피가 육체적으로 현존하는지에 관해 현재 합의하지 못한다고 기록"
+        }
+      ],
+      "difference_ko": "합의한 조항과 남은 불일치를 한 문서 안에서 함께 읽어야 한다.",
+      "reference": "Weimarer Ausgabe, vol.30 part 3, pp.160–171, English translation by Ellen Yutzy Glebe",
+      "source_url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/ghdi%3Adocument-4311",
+      "evidence_class": "MODERN_EDITED_TRANSLATION",
+      "original_imprint_collated": false,
+      "verified_as_editorial_transcription": true
+    },
+    {
+      "id": "CMP-V181-INST",
+      "work": "Institutes of the Christian Religion",
+      "location": "Edition structure",
+      "witnesses": [
+        {
+          "edition_id": "EDN-V161-INST-1536",
+          "chapter_count": 6,
+          "organization": "six catechetical chapters"
+        },
+        {
+          "edition_id": "EDN-V161-INST-1559",
+          "book_count": 4,
+          "chapter_count": 80,
+          "organization": "four books of systematic exposition"
+        }
+      ],
+      "difference_ko": "1536년의 교리교육형 여섯 장에서 1559년 네 권 80장의 체계로 발전했다. 장절 간 직접 문장 대응은 미확인이다.",
+      "reference": "Bridwell Library Special Collections, Calvin exhibition",
+      "source_url": "https://bridwell.omeka.net/exhibits/show/calvin/1562institutes",
+      "evidence_class": "SPECIAL_COLLECTIONS_EDITION_HISTORY",
+      "original_imprint_collated": false,
+      "verified_as_editorial_transcription": false
+    }
+  ]
+}
