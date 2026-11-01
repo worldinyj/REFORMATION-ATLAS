@@ -1,0 +1,19 @@
+name: Atlas V201 substantive reader revisions QA
+on:
+  push:
+    branches: ['research/**']
+    paths:
+      - 'data/deep/atlas_v201_*'
+      - 'scripts/validate_atlas_v201.py'
+      - '.github/workflows/atlas-v201-p0-reader-qa.yml'
+  workflow_dispatch:
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 scripts/validate_atlas_v201.py
+      - run: python3 scripts/validate_atlas_v200.py
