@@ -1,0 +1,19 @@
+name: Atlas V192 Marburg-Calvin QA
+on:
+  push:
+    branches: ['research/**']
+    paths:
+      - 'data/contracts/atlas_v192_*'
+      - 'scripts/validate_atlas_v192.py'
+      - '.github/workflows/atlas-v192-marburg-calvin.yml'
+  workflow_dispatch:
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 scripts/validate_atlas_v192.py
+      - run: python3 scripts/validate_atlas_v191.py
