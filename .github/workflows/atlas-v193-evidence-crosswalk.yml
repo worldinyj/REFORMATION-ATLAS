@@ -1,0 +1,19 @@
+name: Atlas V193 Marburg-Calvin evidence QA
+on:
+  push:
+    branches: ['research/**']
+    paths:
+      - 'data/contracts/atlas_v193_*'
+      - 'scripts/validate_atlas_v193.py'
+      - '.github/workflows/atlas-v193-evidence-crosswalk.yml'
+  workflow_dispatch:
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 scripts/validate_atlas_v193.py
+      - run: python3 scripts/validate_atlas_v192.py
