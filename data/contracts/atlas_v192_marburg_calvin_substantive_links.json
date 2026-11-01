@@ -1,0 +1,164 @@
+{
+  "version": "1.92",
+  "publish_gate": {
+    "can_ship": false,
+    "original_witness_collated": false,
+    "expert_reviewed": false
+  },
+  "research": [
+    {
+      "id": "MAR-Z-7",
+      "work": "Marburg Articles",
+      "witness": "Z Zurich E I 3.1 Nr.54",
+      "location": "Article VII closing sentence",
+      "finding_ko": "취리히본에 제7조 마지막 추가 문장이 있다는 점을 현대 편집·주석에서 확인했다. 수도생활과 서원에 관한 조항 맥락이다.",
+      "support_level": "SECONDARY_ANNOTATED_TRANSLATION_AND_ARCHIVE_METADATA",
+      "sources": [
+        "https://reformeddogmatika.com/marburg-articles/",
+        "https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=618165"
+      ],
+      "editorial_loci": [
+        "Luther's Works 38:86",
+        "Weimarer Ausgabe 30/III:164"
+      ],
+      "exact_german_added_text": null,
+      "other_Z_additions": [
+        {
+          "article": "13",
+          "text": null
+        },
+        {
+          "article": "15",
+          "text": null
+        }
+      ],
+      "claim_boundary": "Do not characterize German exact wording or theological force until the Z critical edition itself is checked"
+    },
+    {
+      "id": "MAR-Z-K",
+      "work": "Marburg Articles",
+      "witness": "K Hessisches StA Marburg Best.3 Nr.245 fol.60r-64v",
+      "location": "Articles VII XIII XV",
+      "finding_ko": "취리히 기록관은 Z의 세 추가사항이 K에는 없다고 명시한다. 두 사본의 동일 조항을 비평판별로 구분한다.",
+      "support_level": "ARCHIVE_INVENTORY",
+      "sources": [
+        "https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=618165"
+      ],
+      "recommended_editions": [
+        {
+          "edition": "Reformierte Bekenntnisschriften",
+          "locus": "1/1 no.11 pp.259-267",
+          "base": "Z"
+        },
+        {
+          "edition": "MBW Texte",
+          "locus": "3 no.825",
+          "base": "K_WITH_Z_VARIANTS"
+        },
+        {
+          "edition": "Die Bekenntnisschriften... Quellen und Materialien",
+          "locus": "1 pp.43-46",
+          "base": "K"
+        }
+      ],
+      "transcription_complete": false
+    },
+    {
+      "id": "CAL-LIFE",
+      "work": "Institutes of Christian Religion",
+      "location": "1539 concluding chapter → 1559 III.6–10",
+      "finding_ko": "그리스도인의 삶에 관한 독립 장은 1536년 초판에는 없고 1539년판의 마지막 장으로 추가됐다. 1559년 최종판 제3권 6~10장에서는 생활 윤리의 다섯 주제로 재구성됐다.",
+      "support_level": "NAMED_SCHOLAR_EXPLICIT_HISTORICAL_MAPPING",
+      "sources": [
+        "https://www.crossway.org/articles/an-important-chapter-that-calvin-added-to-the-second-edition-of-his-institutes/",
+        "https://cdn-static.supadu.com/baker-academic-us/pdf/Excerpt_9780801037313.pdf"
+      ],
+      "trajectory": [
+        {
+          "year": 1536,
+          "state": "No separate Christian-life chapter"
+        },
+        {
+          "year": 1539,
+          "state": "A new concluding Christian-life chapter"
+        },
+        {
+          "year": 1550,
+          "state": "Also issued as standalone Latin and French booklet"
+        },
+        {
+          "year": 1559,
+          "state": "Book III chapters 6-10"
+        }
+      ],
+      "final_five_chapters": [
+        {
+          "locator": "III.6",
+          "theme_ko": "그리스도인의 삶의 기본 원리"
+        },
+        {
+          "locator": "III.7",
+          "theme_ko": "자기부인"
+        },
+        {
+          "locator": "III.8",
+          "theme_ko": "십자가를 짊어짐"
+        },
+        {
+          "locator": "III.9",
+          "theme_ko": "장래 생명에 관한 묵상"
+        },
+        {
+          "locator": "III.10",
+          "theme_ko": "현세의 삶과 그 유익을 바르게 사용함"
+        }
+      ],
+      "direct_paragraph_collation": false
+    },
+    {
+      "id": "CAL-FAMILY",
+      "work": "Institutes of Christian Religion",
+      "location": "Latin / French edition genealogy",
+      "finding_ko": "1539 라틴어판은 17장, 1543 라틴어판은 21장, 1550 라틴어판은 장 안에 절을 도입했다. 1541·1545·1551 프랑스어판을 별도 언어·판본으로 관리해야 한다.",
+      "support_level": "NAMED_SCHOLAR_EDITION_HISTORY",
+      "sources": [
+        "https://cdn-static.supadu.com/baker-academic-us/pdf/Excerpt_9780801037313.pdf"
+      ],
+      "latin_stages": [
+        {
+          "year": 1536,
+          "chapters": 6
+        },
+        {
+          "year": 1539,
+          "chapters": 17
+        },
+        {
+          "year": 1543,
+          "chapters": 21
+        },
+        {
+          "year": 1550,
+          "change": "section divisions"
+        },
+        {
+          "year": 1559,
+          "books": 4,
+          "chapters": 80
+        }
+      ],
+      "french_stages": [
+        1541,
+        1545,
+        1551,
+        1560
+      ],
+      "direct_paragraph_collation": false
+    }
+  ],
+  "qa_policy": {
+    "no_unverified_manuscript_quotes": true,
+    "no_invented_paragraph_alignment": true,
+    "source_type_visible": true
+  }
+}
