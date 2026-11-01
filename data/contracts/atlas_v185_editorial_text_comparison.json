@@ -1,0 +1,157 @@
+{
+  "version": "1.85",
+  "publication_gate": {
+    "can_ship": false,
+    "original_16c_witness_collated": false,
+    "scholarly_approved": false
+  },
+  "comparisons": [
+    {
+      "id": "AC-X-1530-1540",
+      "reader": "AUGSBURG",
+      "topic": "Article X: Eucharist",
+      "witnesses": [
+        {
+          "year": 1530,
+          "edition_id": "EDN-V161-AC-1530",
+          "attested_latin_fragments": [
+            "vere adsint et distribuantur",
+            "vescentibus",
+            "et improbant secus docentes"
+          ],
+          "translation_ko": "그리스도의 몸과 피가 참으로 현존하며 성찬을 받는 사람들에게 분배된다고 가르치고, 다르게 가르치는 이들을 인정하지 않는다.",
+          "text_level": "EXCERPT_FROM_LATER_EDITORIAL_SOURCE"
+        },
+        {
+          "year": 1540,
+          "edition_id": "EDN-V161-AC-1540",
+          "attested_latin_fragments": [
+            "cum pane et vino vere exhibeantur",
+            "vescentibus in Coena Domini"
+          ],
+          "translation_ko": "떡과 포도주와 함께 그리스도의 몸과 피가 성찬을 받는 사람들에게 참으로 제시된다고 가르친다.",
+          "text_level": "EXCERPT_FROM_LATER_EDITORIAL_SOURCE"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "VERB_CHANGE",
+          "from": "adsint et distribuantur",
+          "to": "exhibeantur",
+          "status": "EDITED_COMPARISON"
+        },
+        {
+          "kind": "QUALIFICATION_ADDED",
+          "from": "",
+          "to": "cum pane et vino",
+          "status": "EDITED_COMPARISON"
+        },
+        {
+          "kind": "CLAUSE_OMITTED",
+          "from": "et improbant secus docentes",
+          "to": null,
+          "status": "EDITED_COMPARISON"
+        }
+      ],
+      "source_urls": [
+        "https://ccel.org/ccel/schaff/hcc7/hcc7.ii.vii.xi.html",
+        "https://thebookofconcord.org/introductory-materials/historical-introductions/melanchthons-alterations-to-the-augsburg-confession/"
+      ],
+      "unverified": "1530 제국 제출 원고·1531 공인 인쇄본·1540 초판의 각 판면 직접 교감 미완료"
+    },
+    {
+      "id": "AC-IV-1530-1540",
+      "reader": "AUGSBURG",
+      "topic": "Article IV: Justification",
+      "witnesses": [
+        {
+          "year": 1530,
+          "edition_id": "EDN-V161-AC-1530",
+          "full_latin_transcript": null
+        },
+        {
+          "year": 1540,
+          "edition_id": "EDN-V161-AC-1540",
+          "full_latin_transcript": null
+        }
+      ],
+      "changes": [
+        {
+          "kind": "REPORTED_TEXTUAL_REVISION",
+          "status": "DIFFERENCE_REPORTED_PHRASES_UNCOLLATED"
+        }
+      ],
+      "source_urls": [
+        "https://www.uecf.net/books/collected-works/chapter1319.html",
+        "https://www.augsburg1540.com/1530-1540-comparison-text.html"
+      ],
+      "unverified": "제4조 라틴어 전체를 직접 대조하여 수정된 정확한 구절과 신학적 의미 확인 필요"
+    },
+    {
+      "id": "MAR-XV-1529",
+      "reader": "MARBURG",
+      "topic": "Article XV: agreement and residual disagreement",
+      "attested_document_structure": {
+        "articles_total": 15,
+        "articles_prior_agreement": 14,
+        "article_of_unresolved_difference": 15
+      },
+      "evidence_location": "Article XV, Weimarer Ausgabe 30/3 pp.160–171, modern English translation",
+      "analysis_ko": "동일 문서는 신앙의 공통 진술과 성만찬의 임재에 관한 미합의를 함께 기록한다. 합의가 완전한 교회 연합을 뜻하지 않는다는 점에 유의한다.",
+      "witnesses": [
+        {
+          "siglum": "Z",
+          "shelfmark": "Staatsarchiv Zürich E I 3.1 Nr.54",
+          "article_15_addendum_text": null
+        },
+        {
+          "siglum": "K",
+          "shelfmark": "Hessisches Staatsarchiv Marburg Best.3 Nr.245 fol.60r–64v",
+          "article_15_addendum_text": null
+        }
+      ],
+      "source_urls": [
+        "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/ghdi%3Adocument-4311",
+        "https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=618165"
+      ],
+      "unverified": "취리히 정본의 제7·13·15조 추가사항은 목록만 확인; 실제 독일어 문장은 미전사"
+    },
+    {
+      "id": "CAL-1536-1559",
+      "reader": "CALVIN1559",
+      "topic": "Institutes edition development",
+      "editions": [
+        {
+          "year": 1536,
+          "books": null,
+          "chapters": 6
+        },
+        {
+          "year": 1539,
+          "books": null,
+          "chapters": 17
+        },
+        {
+          "year": 1543,
+          "books": null,
+          "chapters": 21
+        },
+        {
+          "year": 1550,
+          "structural_change": "numbered sections introduced"
+        },
+        {
+          "year": 1559,
+          "books": 4,
+          "chapters": 80
+        }
+      ],
+      "paragraph_alignments": [],
+      "source_urls": [
+        "https://bridwell.omeka.net/exhibits/show/calvin/1562institutes",
+        "https://cdn-static.supadu.com/baker-academic-us/pdf/Excerpt_9780801037313.pdf"
+      ],
+      "unverified": "원문 판본 간 문장 또는 절 단위 논증 대응은 수행하지 않음"
+    }
+  ]
+}
