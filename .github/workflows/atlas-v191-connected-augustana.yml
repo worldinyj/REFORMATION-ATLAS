@@ -1,0 +1,19 @@
+name: Atlas V191 connected Augsburg reader QA
+on:
+  push:
+    branches: ['research/**']
+    paths:
+      - 'data/contracts/atlas_v191_*'
+      - 'scripts/validate_atlas_v191.py'
+      - '.github/workflows/atlas-v191-connected-augustana.yml'
+  workflow_dispatch:
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 scripts/validate_atlas_v191.py
+      - run: python3 scripts/validate_atlas_v190.py
