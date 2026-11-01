@@ -1,0 +1,276 @@
+{
+  "version": "2.00",
+  "source_versions": [
+    "1.78",
+    "1.79"
+  ],
+  "calculation_policy": "Mechanical counts and editorial priority are distinct. Length count excludes all whitespace; headings count ### tokens; URL count explicit http(s) in body. Priority is research sequencing, not a scholarly quality score.",
+  "publication_gate": {
+    "can_ship": false,
+    "expert_reviewed": false,
+    "originals_collated": false
+  },
+  "totals": {
+    "reader_count": 10,
+    "characters_no_whitespace": 21201,
+    "min_chars": 2003,
+    "human_review_pending": 10,
+    "original_folio_checked": 0
+  },
+  "reader_audits": [
+    {
+      "key": "WYCLIFFE",
+      "title": "I. 위클리프: 참된 교회는 누구의 공동체인가?",
+      "metrics": {
+        "body_length_threshold": true,
+        "heading_count": 9,
+        "explicit_web_urls_in_body": 2,
+        "representative_claim_source_count": 1,
+        "claim_human_review": "PENDING",
+        "original_folio_checked": false
+      },
+      "publication": "HOLD",
+      "priority": "P1",
+      "improvements": [
+        "후스와 동명 『De ecclesia』 저작 ID 분리",
+        "위클리프 저작 집필 시기·필사본 전승 경로 검증",
+        "중세와 16세기 종교개혁 사이의 시대착오 점검"
+      ],
+      "geographic_link_candidates": [
+        "Oxford",
+        "Prague"
+      ],
+      "evidence_gap": "위클리프 저술의 시기·교회론 설명은 연구 개설을 근거로 하며 문장 직접 교감은 미완료",
+      "representative_claim": "교회론의 성립 시기와 예정된 교회 논의"
+    },
+    {
+      "key": "HUS",
+      "title": "II. 후스: 보헤미아 개혁과 『교회론』의 문제",
+      "metrics": {
+        "body_length_threshold": true,
+        "heading_count": 9,
+        "explicit_web_urls_in_body": 2,
+        "representative_claim_source_count": 2,
+        "claim_human_review": "PENDING",
+        "original_folio_checked": false
+      },
+      "publication": "HOLD",
+      "priority": "P1",
+      "improvements": [
+        "1413 『De ecclesia』 출처 및 위클리프와 차이",
+        "콘스탄츠 심문·정죄의 사료 구분",
+        "프라하·콘스탄츠의 장소·시점 관계"
+      ],
+      "geographic_link_candidates": [
+        "Prague",
+        "Constance"
+      ],
+      "evidence_gap": "문헌 존재·개관 근거, 원문 인용이나 위클리프와의 문장 대응 미확인",
+      "representative_claim": "1413년 『De ecclesia』와 후대 수용"
+    },
+    {
+      "key": "LUTHER1517",
+      "title": "1장. 1517년, 면벌부 논쟁에서 종교개혁으로",
+      "metrics": {
+        "body_length_threshold": true,
+        "heading_count": 7,
+        "explicit_web_urls_in_body": 0,
+        "representative_claim_source_count": 1,
+        "claim_human_review": "PENDING",
+        "original_folio_checked": false
+      },
+      "publication": "HOLD",
+      "priority": "P1",
+      "improvements": [
+        "95개 논제 핵심 라틴어 논제 번호·원문 확인",
+        "문에 게시한 행위의 증거 수준 구분",
+        "면벌부와 회개의 당대 용어 설명"
+      ],
+      "geographic_link_candidates": [
+        "Wittenberg"
+      ],
+      "evidence_gap": "논제의 정확한 라틴어 구절 및 문 게시 행위 별도 검증 필요",
+      "representative_claim": "95개 논제의 면벌부와 회개 논쟁"
+    },
+    {
+      "key": "LUTHER1521",
+      "title": "2장. 1521년, 보름스 제국의회와 성경에 매인 양심",
+      "metrics": {
+        "body_length_threshold": true,
+        "heading_count": 9,
+        "explicit_web_urls_in_body": 0,
+        "representative_claim_source_count": 1,
+        "claim_human_review": "PENDING",
+        "original_folio_checked": false
+      },
+      "publication": "HOLD",
+      "priority": "P1",
+      "improvements": [
+        "4월 17·18일 심문 진술과 후대 유명 발언 전승 분리",
+        "보름스 칙령과 발언 사건의 시간 구분",
+        "1521 이후 성경 번역 연결"
+      ],
+      "geographic_link_candidates": [
+        "Worms",
+        "Wartburg"
+      ],
+      "evidence_gap": "심문 증언과 후대 명언 전승의 문구 대조 미완료",
+      "representative_claim": "보름스 심문과 양심의 역사적 맥락"
+    },
+    {
+      "key": "MARBURG",
+      "title": "마르부르크 회담—공동 신앙고백의 가능성과 성만찬의 경계",
+      "metrics": {
+        "body_length_threshold": true,
+        "heading_count": 2,
+        "explicit_web_urls_in_body": 0,
+        "representative_claim_source_count": 2,
+        "claim_human_review": "PENDING",
+        "original_folio_checked": false
+      },
+      "publication": "HOLD",
+      "priority": "P0",
+      "improvements": [
+        "1529년 제15조의 일치·이견 구분",
+        "취리히 Z·헤센 K의 제7·13·15조 이문: 목록 확인·원문 미전사",
+        "마르부르크·취리히·헤센 사료 위치 연결"
+      ],
+      "geographic_link_candidates": [
+        "Marburg",
+        "Zürich"
+      ],
+      "evidence_gap": "합의문 번역·편집 자료 확인 경로; 서명 정본 판면 직접 교감 미완료",
+      "representative_claim": "1529년 합의문 제15조에서 성만찬 이견 유지"
+    },
+    {
+      "key": "AUGSBURG",
+      "title": "아우크스부르크 신앙고백: 1530년의 공적 고백에서 1540년 수정판까지",
+      "metrics": {
+        "body_length_threshold": true,
+        "heading_count": 2,
+        "explicit_web_urls_in_body": 0,
+        "representative_claim_source_count": 2,
+        "claim_human_review": "PENDING",
+        "original_folio_checked": false
+      },
+      "publication": "HOLD",
+      "priority": "P0",
+      "improvements": [
+        "1530 제출·1531 인쇄·1540 수정판을 서로 다른 판본으로 표시",
+        "제4·5·10조 변화와 제11·12조 조항 순서 대응 반영",
+        "후대 편집본과 16세기 최초 인쇄본의 증거 등급 구분"
+      ],
+      "geographic_link_candidates": [
+        "Augsburg",
+        "Wittenberg"
+      ],
+      "evidence_gap": "라틴어 제4·10조 판본 대조 및 최초 제출본 판면 확인 미완료",
+      "representative_claim": "1530 제출·1531 인쇄·1540 Variata 구분"
+    },
+    {
+      "key": "CALVIN1536",
+      "title": "1536년 『기독교강요』: 박해받는 신앙을 변호한 여섯 장의 책",
+      "metrics": {
+        "body_length_threshold": true,
+        "heading_count": 2,
+        "explicit_web_urls_in_body": 0,
+        "representative_claim_source_count": 1,
+        "claim_human_review": "PENDING",
+        "original_folio_checked": false
+      },
+      "publication": "HOLD",
+      "priority": "P1",
+      "improvements": [
+        "1536 초판 6장·1539 확장 17장 구조",
+        "1539 그리스도인의 삶 장의 신설을 초판에 소급하지 않기",
+        "1536 라틴어 판본의 프랑스어 후대본 구분"
+      ],
+      "geographic_link_candidates": [
+        "Basel",
+        "Geneva"
+      ],
+      "evidence_gap": "초판 제목면·목차 원본 직접 대조 미완료",
+      "representative_claim": "1536년 라틴어 초판 여섯 장"
+    },
+    {
+      "key": "CALVIN1559",
+      "title": "1559년 『기독교강요』: 네 권과 80장으로 재배열된 신학",
+      "metrics": {
+        "body_length_threshold": true,
+        "heading_count": 3,
+        "explicit_web_urls_in_body": 0,
+        "representative_claim_source_count": 1,
+        "claim_human_review": "PENDING",
+        "original_folio_checked": false
+      },
+      "publication": "HOLD",
+      "priority": "P0",
+      "improvements": [
+        "1539 그리스도인의 삶 → III.6–10 대응",
+        "III.8.7 이문은 비평판 주석으로 분리하고 원판 직접 교감 미완료 표시",
+        "1539·1543·1550·1559 라틴어 판본과 프랑스어판 구분"
+      ],
+      "geographic_link_candidates": [
+        "Geneva",
+        "Strasbourg"
+      ],
+      "evidence_gap": "판본 간 문장 대응 및 원전 판면 직접 대조 미완료",
+      "representative_claim": "1559년 최종 라틴어판 네 권 80장"
+    },
+    {
+      "key": "ZWINGLI",
+      "title": "츠빙글리와 취리히: 설교, 시의회, 공공개혁",
+      "metrics": {
+        "body_length_threshold": true,
+        "heading_count": 2,
+        "explicit_web_urls_in_body": 0,
+        "representative_claim_source_count": 1,
+        "claim_human_review": "PENDING",
+        "original_folio_checked": false
+      },
+      "publication": "HOLD",
+      "priority": "P1",
+      "improvements": [
+        "취리히 시의회 1523 논쟁과 결정 주체",
+        "성찬 논쟁에서 루터·츠빙글리 차이 균형",
+        "취리히→마르부르크 연결 지도·사건 ID"
+      ],
+      "geographic_link_candidates": [
+        "Zürich",
+        "Marburg"
+      ],
+      "evidence_gap": "두 논쟁의 원문 조항과 도시의회 결정문 대조 미완료",
+      "representative_claim": "취리히 1523년 논쟁과 시의회 개혁"
+    },
+    {
+      "key": "TRENT",
+      "title": "트리엔트 공의회: 가톨릭 개혁의 교리와 제도",
+      "metrics": {
+        "body_length_threshold": true,
+        "heading_count": 3,
+        "explicit_web_urls_in_body": 0,
+        "representative_claim_source_count": 1,
+        "claim_human_review": "PENDING",
+        "original_folio_checked": false
+      },
+      "publication": "HOLD",
+      "priority": "P1",
+      "improvements": [
+        "1545–63 여러 회기와 중단을 분리",
+        "의롭다 함·성례 관련 교령에서 실제 반박명제 확인",
+        "선포·지역별 수용·집행 시차 설명"
+      ],
+      "geographic_link_candidates": [
+        "Trent",
+        "Bologna"
+      ],
+      "evidence_gap": "교령의 구체적인 회기와 인쇄본 원문 확인 미완료",
+      "representative_claim": "트리엔트 공의회 1545–1563년 회기별 결정"
+    }
+  ],
+  "next_batch": [
+    "Update three P0 readers with actual V1.80-1.99 research and evidence levels",
+    "Create explicit claim-to-location link IDs for 10 entries",
+    "Ensure map/portrait/license evidence not inferred from locality alone"
+  ]
+}
