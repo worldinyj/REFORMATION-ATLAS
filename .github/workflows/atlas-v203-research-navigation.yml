@@ -1,0 +1,19 @@
+name: Atlas V203 research reader navigation QA
+on:
+  push:
+    branches: ['research/**']
+    paths:
+      - 'data/contracts/atlas_v203_ten_reader_navigation.json'
+      - 'scripts/validate_atlas_v203.py'
+      - '.github/workflows/atlas-v203-research-navigation.yml'
+  workflow_dispatch:
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 scripts/validate_atlas_v202.py
+      - run: python3 scripts/validate_atlas_v203.py
