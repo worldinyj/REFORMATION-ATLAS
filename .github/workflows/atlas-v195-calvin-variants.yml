@@ -1,0 +1,19 @@
+name: Atlas V195 Calvin III variant QA
+on:
+  push:
+    branches: ['research/**']
+    paths:
+      - 'data/contracts/atlas_v195_*'
+      - 'scripts/validate_atlas_v195.py'
+      - '.github/workflows/atlas-v195-calvin-variants.yml'
+  workflow_dispatch:
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 scripts/validate_atlas_v195.py
+      - run: python3 scripts/validate_atlas_v194.py
