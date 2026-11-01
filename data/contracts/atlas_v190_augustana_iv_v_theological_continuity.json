@@ -1,0 +1,81 @@
+{
+  "version": "1.90",
+  "review_status": "RESEARCH_DRAFT",
+  "can_ship": false,
+  "original_print_collated": false,
+  "title": "Augsburg Articles IV–V, 1531 edition family and 1540 Variata: connected theological argument",
+  "sources": [
+    {
+      "kind": "EDITED_1531_LATIN",
+      "url": "https://www.uecf.net/books/collected-works/chapter1488.html",
+      "locator": "Latin text, Articles IV and V; editor identifies 1531 editio princeps tradition",
+      "verified": "WEB_TEXT_READ"
+    },
+    {
+      "kind": "MODERN_1530_1540_ENGLISH_COMPARISON",
+      "url": "https://www.augsburg1540.com/1530-1540-comparison-text.html",
+      "locator": "Articles IV and V paired",
+      "verified": "WEB_TEXT_READ"
+    },
+    {
+      "kind": "1858_EDITED_1540",
+      "url": "https://www.augsburg1540.com/uploads/1/3/8/9/138903771/1540_latin_text_from_corpus_reformandum.pdf",
+      "locator": "Corpus Reformatorum XXVI pp.352–353 Article IV",
+      "verified": "PREVIOUS_RESEARCH_EDITORIAL_SOURCE"
+    }
+  ],
+  "analysis": [
+    {
+      "id": "IV-1531",
+      "article": "IV",
+      "edition": "1531-LATIN-EDITION-FAMILY",
+      "logic": "Human powers, merits and works do not justify before God; justification freely for Christ through faith; God imputes faith for righteousness",
+      "latin_terms": [
+        "propriis viribus, meritis aut operibus",
+        "gratis justificentur propter Christum per fidem"
+      ],
+      "evidence": "EDITED_LATIN_TEXT"
+    },
+    {
+      "id": "V-1531",
+      "article": "V",
+      "edition": "1531-LATIN-EDITION-FAMILY",
+      "logic": "Teaching of the Gospel and administration of sacraments are appointed so that this faith may be received; Holy Spirit works faith through word and sacraments",
+      "latin_terms": [
+        "ministerium docendi Evangelii",
+        "per verbum et Sacramenta",
+        "donatur Spiritus Sanctus"
+      ],
+      "evidence": "EDITED_LATIN_TEXT"
+    },
+    {
+      "id": "IV-1540",
+      "article": "IV",
+      "edition": "1540-VARIATA",
+      "logic": "Expansion: promise of Gospel, repentance, remission of sins, justification and eternal life, certainty independent of personal worthiness",
+      "evidence": "MODERN_ENGLISH_PARALLEL_AND_1858_EDITED_LATIN"
+    },
+    {
+      "id": "V-1540",
+      "article": "V",
+      "edition": "1540-VARIATA",
+      "logic": "Expansion: ministry preaches repentance and forgiveness, comfort to disturbed conscience, Spirit through Word and sacraments; refusal of Wordless illumination",
+      "evidence": "MODERN_ENGLISH_PARALLEL"
+    }
+  ],
+  "interpretive_link": {
+    "hypothesis_ko": "1540년판에서는 제4조의 복음 약속·죄 사함의 확실성 설명과 제5조의 말씀·성례를 통한 믿음·성령의 역사 설명이 서로 더 밀접하게 이어진다.",
+    "support": "Article IV–V comparative text",
+    "limit": "Thematic interpretation; does not prove an entirely new doctrine or authorial motive"
+  },
+  "unverified": [
+    "CR26 volume XXVI printed p.275 direct facsimile screenshot and line-by-line check",
+    "1531 and 1540 first print originals",
+    "Independent expert theological review"
+  ],
+  "quality_rules": {
+    "no_first_print_claim": true,
+    "no_unsupported_verbatim_latin_for_1540_v": true,
+    "hold_publication": true
+  }
+}
