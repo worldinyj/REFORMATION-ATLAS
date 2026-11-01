@@ -1,0 +1,74 @@
+{
+  "version": "1.98",
+  "status": "SOURCE_ACCESS_RESEARCH_ONLY",
+  "publish": false,
+  "sources": [
+    {
+      "id": "CAL1539",
+      "kind": "original_print_catalogue",
+      "year": 1539,
+      "location": "Newberry Library VAULT folio Case 6A 224",
+      "url": "https://collections.newberry.org/archive/-2KXJ8Z65UCH7.html",
+      "access_observation": "Catalog visible; interface states no permission to view original image",
+      "images_verified": false,
+      "needed": "Obtain viewable leaf containing 1539 chapter De vita hominis christiani and locate matching paragraph"
+    },
+    {
+      "id": "CAL1559",
+      "kind": "original_print_scan",
+      "year": 1559,
+      "location": "Geneva Robert Estienne imprint, Princeton digitization",
+      "url": "https://commons.wikimedia.org/wiki/File:Institutio_christianae_religionis_.._(IA_institutiochrist1559calv).pdf",
+      "access_observation": "576-page PDF identified; catalogue states pp.545–546 missing in this copy",
+      "images_verified": false,
+      "needed": "Find 1559 III.8.7 printed folio and visually compare critical edition; avoid missing pages"
+    },
+    {
+      "id": "CAL_CRITICAL",
+      "kind": "modern_critical_edition",
+      "url": "https://calvin.reformation.nl/",
+      "access_observation": "Barth–Niesel apparatus available, not original imprint",
+      "images_verified": false,
+      "needed": "Resolve apparatus reading and editorial emendation at III.8.7"
+    },
+    {
+      "id": "MAR1883",
+      "kind": "published_facsimile_bibliography",
+      "year": 1883,
+      "location": "Theologische Studien und Kritiken 56 pp.409–413",
+      "url": "https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=618165",
+      "access_observation": "1883 Usteri facsimile cited independently in archive and scholarly bibliography; individual page images not located",
+      "images_verified": false,
+      "needed": "Acquire facsimile page images, inspect article 7/13/15 additions; no invented transcription"
+    }
+  ],
+  "comparative_workflow": [
+    {
+      "step": 1,
+      "task": "Identify III.8.7 1559 original-print page and record printed page number, digital PDF index, incipit, image evidence",
+      "done": false
+    },
+    {
+      "step": 2,
+      "task": "Obtain accessible 1539 original-print corresponding text and record folio/page",
+      "done": false
+    },
+    {
+      "step": 3,
+      "task": "Build three-column transcription 1539/1559/critical apparatus and adjudicate concutimur/continemur/contemnimur",
+      "done": false
+    },
+    {
+      "step": 4,
+      "task": "Acquire Marburg 1883 facsimile pp.409–413 and transcribe 7,13,15 separately",
+      "done": false
+    }
+  ],
+  "source_risks": [
+    "Princeton digitization may be missing pp.545–546",
+    "Newberry catalogue image restrictions should not be bypassed",
+    "Print facsimiles and later editorial transcriptions must remain separate"
+  ],
+  "main_untouched": true,
+  "ai_studio_untouched": true
+}
