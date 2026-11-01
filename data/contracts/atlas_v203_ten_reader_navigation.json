@@ -1,0 +1,1307 @@
+{
+  "version": "2.03",
+  "kind": "RESEARCH_NAVIGATION_PROVENANCE_BRIDGE",
+  "publication_gate": {
+    "can_ship": false,
+    "approved": false,
+    "expert_reviewed": false,
+    "original_witness_collated": false,
+    "media_rights_cleared": false,
+    "webapp_integrated": false
+  },
+  "origin": {
+    "repository": "worldinyj/REFORMATION-ATLAS",
+    "base_branch": "research/atlas-p1-seven-readers-v202",
+    "base_commit": "1eef207549ed04f65818e2bf76ddd52a6d6d1665",
+    "reader_version": "2.02",
+    "reader_file": "data/deep/atlas_v202_unified_ten_revised_readers.json",
+    "claim_file": "data/contracts/atlas_v179_ten_reader_claim_evidence.json"
+  },
+  "identity_policy": "REUSE_EXISTING_OVERVIEW_AND_CONTRACT_IDS; PROVISIONAL_WORK_IDS_NEVER_CANONICALIZED_BY_THIS_BRIDGE",
+  "semantics": {
+    "section_offsets": "Unicode code-point offsets; zero-based; [start_char,end_char) against exact V2.02 body. Version-specific anchors, not canonical cross-revision identifiers.",
+    "source_references": "Previously recorded literature leads, not new link checks or claim-level primary verification.",
+    "claim_coverage": "One legacy representative claim per reader, NOT all factual statements in the reader body.",
+    "city": "Approximate city-level context only; no confirmed site, journey or event coordinates.",
+    "visual": "Manifest candidates only; do not embed, generate, license, or publish.",
+    "documents": "Canonical IDs reused only where exact work identity is known. Blank means unresolved, not a missing event.",
+    "workflow": "Offline research bridge for the parallel Google AI Studio app; never import to public search or deployment without a separate approval gate."
+  },
+  "coverage": {
+    "reader_count": 10,
+    "representative_claim_count": 10,
+    "section_anchor_count": 70,
+    "city_context_count": 11,
+    "candidate_visual_count": 14
+  },
+  "readers": [
+    {
+      "key": "WYCLIFFE",
+      "reader_page_id": "V156-Wycliffe",
+      "title": "I. 위클리프: 참된 교회는 누구의 공동체인가?",
+      "source_content_version": "2.02",
+      "body_source_path": "data/deep/atlas_v202_unified_ten_revised_readers.json",
+      "body_length_chars": 3257,
+      "body_storage": "REFERENCED_NOT_COPIED",
+      "person_ids": [
+        "OV-P-009"
+      ],
+      "primary_event_ids": [
+        "OV-E-011"
+      ],
+      "canonical_document_ids": [],
+      "provisional_work_ids": [
+        "WRK-V03-WYCLIFFE-DE-ECCLESIA"
+      ],
+      "edition_ids": [],
+      "map_contexts": [
+        {
+          "city_map_id": "oxford",
+          "overview_place_id": "OV-L-010",
+          "relation": "PERSON_WORK_CONTEXT",
+          "period": "1378–1379",
+          "site_precision": "CITY_ONLY",
+          "geometry_publishable": false,
+          "editorial_link_status": "CONTEXT_ONLY"
+        }
+      ],
+      "visual_candidate_ids": [
+        "VIS-V158-01"
+      ],
+      "related_reader_keys": [
+        "HUS"
+      ],
+      "representative_claim_id": "CLM-V179-WYCLIFFE",
+      "section_anchors": [
+        {
+          "id": "SEC-V203-WYCLIFFE-01",
+          "heading": "I. 위클리프: 참된 교회는 누구의 공동체인가?",
+          "level": 2,
+          "start_char": 0,
+          "end_char": 31
+        },
+        {
+          "id": "SEC-V203-WYCLIFFE-02",
+          "heading": "중세 후기 영국이라는 무대",
+          "level": 3,
+          "start_char": 31,
+          "end_char": 388
+        },
+        {
+          "id": "SEC-V203-WYCLIFFE-03",
+          "heading": "『교회론』의 시대와 사상적 위치",
+          "level": 3,
+          "start_char": 388,
+          "end_char": 733
+        },
+        {
+          "id": "SEC-V203-WYCLIFFE-04",
+          "heading": "보이는 교회와 보이지 않는 교회의 긴장",
+          "level": 3,
+          "start_char": 733,
+          "end_char": 1084
+        },
+        {
+          "id": "SEC-V203-WYCLIFFE-05",
+          "heading": "성경과 권위의 문제",
+          "level": 3,
+          "start_char": 1084,
+          "end_char": 1353
+        },
+        {
+          "id": "SEC-V203-WYCLIFFE-06",
+          "heading": "성례 논쟁과 반발",
+          "level": 3,
+          "start_char": 1353,
+          "end_char": 1586
+        },
+        {
+          "id": "SEC-V203-WYCLIFFE-07",
+          "heading": "후스와의 관계를 확인하는 방법",
+          "level": 3,
+          "start_char": 1586,
+          "end_char": 1867
+        },
+        {
+          "id": "SEC-V203-WYCLIFFE-08",
+          "heading": "판본과 연구 방법",
+          "level": 3,
+          "start_char": 1867,
+          "end_char": 2112
+        },
+        {
+          "id": "SEC-V203-WYCLIFFE-09",
+          "heading": "역사적 의미와 읽기 질문",
+          "level": 3,
+          "start_char": 2112,
+          "end_char": 2523
+        },
+        {
+          "id": "SEC-V203-WYCLIFFE-10",
+          "heading": "주장과 증거를 연결하는 독서",
+          "level": 3,
+          "start_char": 2523,
+          "end_char": 2868
+        },
+        {
+          "id": "SEC-V203-WYCLIFFE-11",
+          "heading": "위클리프에서 후스로: 영향과 독자성",
+          "level": 3,
+          "start_char": 2868,
+          "end_char": 3257
+        }
+      ],
+      "editorial_status": "HOLD_REQUIRES_HUMAN_REVIEW",
+      "original_collated": false
+    },
+    {
+      "key": "HUS",
+      "reader_page_id": "V156-Hus",
+      "title": "II. 후스: 보헤미아 개혁과 『교회론』의 문제",
+      "source_content_version": "2.02",
+      "body_source_path": "data/deep/atlas_v202_unified_ten_revised_readers.json",
+      "body_length_chars": 3054,
+      "body_storage": "REFERENCED_NOT_COPIED",
+      "person_ids": [
+        "OV-P-010"
+      ],
+      "primary_event_ids": [
+        "OV-E-012"
+      ],
+      "canonical_document_ids": [
+        "OV-D-005"
+      ],
+      "provisional_work_ids": [],
+      "edition_ids": [],
+      "map_contexts": [
+        {
+          "city_map_id": "prague",
+          "overview_place_id": "OV-L-011",
+          "relation": "WORK_COMPOSITION_CONTEXT",
+          "period": "1413",
+          "site_precision": "CITY_ONLY",
+          "geometry_publishable": false,
+          "editorial_link_status": "CONTEXT_ONLY"
+        },
+        {
+          "city_map_id": "constance",
+          "overview_place_id": "OV-L-012",
+          "relation": "TRIAL_CONTEXT",
+          "period": "1415",
+          "site_precision": "CITY_ONLY",
+          "geometry_publishable": false,
+          "editorial_link_status": "CONTEXT_ONLY"
+        }
+      ],
+      "visual_candidate_ids": [
+        "VIS-V158-02",
+        "VIS-V158-07",
+        "VIS-V158-14"
+      ],
+      "related_reader_keys": [
+        "WYCLIFFE"
+      ],
+      "representative_claim_id": "CLM-V179-HUS",
+      "section_anchors": [
+        {
+          "id": "SEC-V203-HUS-01",
+          "heading": "II. 후스: 보헤미아 개혁과 『교회론』의 문제",
+          "level": 2,
+          "start_char": 0,
+          "end_char": 31
+        },
+        {
+          "id": "SEC-V203-HUS-02",
+          "heading": "프라하에서 시작하는 이야기",
+          "level": 3,
+          "start_char": 31,
+          "end_char": 281
+        },
+        {
+          "id": "SEC-V203-HUS-03",
+          "heading": "위클리프의 영향, 그리고 차이",
+          "level": 3,
+          "start_char": 281,
+          "end_char": 570
+        },
+        {
+          "id": "SEC-V203-HUS-04",
+          "heading": "1413년 『De ecclesia』",
+          "level": 3,
+          "start_char": 570,
+          "end_char": 893
+        },
+        {
+          "id": "SEC-V203-HUS-05",
+          "heading": "설교와 신앙 공동체",
+          "level": 3,
+          "start_char": 893,
+          "end_char": 1130
+        },
+        {
+          "id": "SEC-V203-HUS-06",
+          "heading": "콘스탄츠 공의회",
+          "level": 3,
+          "start_char": 1130,
+          "end_char": 1364
+        },
+        {
+          "id": "SEC-V203-HUS-07",
+          "heading": "보헤미아와 이후의 영향",
+          "level": 3,
+          "start_char": 1364,
+          "end_char": 1586
+        },
+        {
+          "id": "SEC-V203-HUS-08",
+          "heading": "원전 아카이브의 과제",
+          "level": 3,
+          "start_char": 1586,
+          "end_char": 1810
+        },
+        {
+          "id": "SEC-V203-HUS-09",
+          "heading": "독자가 가져갈 질문",
+          "level": 3,
+          "start_char": 1810,
+          "end_char": 2290
+        },
+        {
+          "id": "SEC-V203-HUS-10",
+          "heading": "콘스탄츠 이후의 수용을 읽는 관점",
+          "level": 3,
+          "start_char": 2290,
+          "end_char": 2672
+        },
+        {
+          "id": "SEC-V203-HUS-11",
+          "heading": "후스의 삶과 후스파의 역사 사이",
+          "level": 3,
+          "start_char": 2672,
+          "end_char": 3054
+        }
+      ],
+      "editorial_status": "HOLD_REQUIRES_HUMAN_REVIEW",
+      "original_collated": false
+    },
+    {
+      "key": "LUTHER1517",
+      "reader_page_id": "V156-Luther1517",
+      "title": "1장. 1517년, 면벌부 논쟁에서 종교개혁으로",
+      "source_content_version": "2.02",
+      "body_source_path": "data/deep/atlas_v202_unified_ten_revised_readers.json",
+      "body_length_chars": 3132,
+      "body_storage": "REFERENCED_NOT_COPIED",
+      "person_ids": [
+        "OV-P-013"
+      ],
+      "primary_event_ids": [
+        "OV-E-015"
+      ],
+      "canonical_document_ids": [
+        "OV-D-008"
+      ],
+      "provisional_work_ids": [],
+      "edition_ids": [],
+      "map_contexts": [
+        {
+          "city_map_id": "wittenberg",
+          "overview_place_id": "OV-L-013",
+          "relation": "EVENT_CONTEXT",
+          "period": "1517",
+          "site_precision": "CITY_ONLY",
+          "geometry_publishable": false,
+          "editorial_link_status": "CONTEXT_ONLY"
+        }
+      ],
+      "visual_candidate_ids": [
+        "VIS-V158-03",
+        "VIS-V158-06"
+      ],
+      "related_reader_keys": [
+        "LUTHER1521"
+      ],
+      "representative_claim_id": "CLM-V179-LUTHER1517",
+      "section_anchors": [
+        {
+          "id": "SEC-V203-LUTHER1517-01",
+          "heading": "1장. 1517년, 면벌부 논쟁에서 종교개혁으로",
+          "level": 2,
+          "start_char": 0,
+          "end_char": 31
+        },
+        {
+          "id": "SEC-V203-LUTHER1517-02",
+          "heading": "1. 질문의 출발점: 회개와 면벌부",
+          "level": 3,
+          "start_char": 31,
+          "end_char": 576
+        },
+        {
+          "id": "SEC-V203-LUTHER1517-03",
+          "heading": "2. 95개 논제는 무엇을 말했는가",
+          "level": 3,
+          "start_char": 576,
+          "end_char": 1024
+        },
+        {
+          "id": "SEC-V203-LUTHER1517-04",
+          "heading": "3. 토론 문서가 전 유럽의 논쟁으로 확대된 이유",
+          "level": 3,
+          "start_char": 1024,
+          "end_char": 1440
+        },
+        {
+          "id": "SEC-V203-LUTHER1517-05",
+          "heading": "4. 1517년을 '시작'이라고 부를 때의 유의점",
+          "level": 3,
+          "start_char": 1440,
+          "end_char": 1847
+        },
+        {
+          "id": "SEC-V203-LUTHER1517-06",
+          "heading": "5. 문헌 증거와 학습 질문",
+          "level": 3,
+          "start_char": 1847,
+          "end_char": 2181
+        },
+        {
+          "id": "SEC-V203-LUTHER1517-07",
+          "heading": "전승과 문서의 물질적 역사",
+          "level": 3,
+          "start_char": 2181,
+          "end_char": 2531
+        },
+        {
+          "id": "SEC-V203-LUTHER1517-08",
+          "heading": "교회의 목회와 논쟁의 언어",
+          "level": 3,
+          "start_char": 2531,
+          "end_char": 2739
+        },
+        {
+          "id": "SEC-V203-LUTHER1517-09",
+          "heading": "95개 논제를 원문으로 읽는 이유",
+          "level": 3,
+          "start_char": 2739,
+          "end_char": 3132
+        }
+      ],
+      "editorial_status": "HOLD_REQUIRES_HUMAN_REVIEW",
+      "original_collated": false
+    },
+    {
+      "key": "LUTHER1521",
+      "reader_page_id": "V156-Luther1521",
+      "title": "2장. 1521년, 보름스 제국의회와 성경에 매인 양심",
+      "source_content_version": "2.02",
+      "body_source_path": "data/deep/atlas_v202_unified_ten_revised_readers.json",
+      "body_length_chars": 3355,
+      "body_storage": "REFERENCED_NOT_COPIED",
+      "person_ids": [
+        "OV-P-013"
+      ],
+      "primary_event_ids": [
+        "OV-E-016"
+      ],
+      "canonical_document_ids": [],
+      "provisional_work_ids": [],
+      "edition_ids": [],
+      "map_contexts": [
+        {
+          "city_map_id": "worms",
+          "overview_place_id": "OV-L-014",
+          "relation": "EVENT_CONTEXT",
+          "period": "1521",
+          "site_precision": "CITY_ONLY",
+          "geometry_publishable": false,
+          "editorial_link_status": "CONTEXT_ONLY"
+        }
+      ],
+      "visual_candidate_ids": [
+        "VIS-V158-08"
+      ],
+      "related_reader_keys": [
+        "LUTHER1517"
+      ],
+      "representative_claim_id": "CLM-V179-LUTHER1521",
+      "section_anchors": [
+        {
+          "id": "SEC-V203-LUTHER1521-01",
+          "heading": "2장. 1521년, 보름스 제국의회와 성경에 매인 양심",
+          "level": 2,
+          "start_char": 0,
+          "end_char": 35
+        },
+        {
+          "id": "SEC-V203-LUTHER1521-02",
+          "heading": "1. 황제 앞에 선 신학자",
+          "level": 3,
+          "start_char": 35,
+          "end_char": 428
+        },
+        {
+          "id": "SEC-V203-LUTHER1521-03",
+          "heading": "2. 4월 17일과 18일의 심문",
+          "level": 3,
+          "start_char": 428,
+          "end_char": 803
+        },
+        {
+          "id": "SEC-V203-LUTHER1521-04",
+          "heading": "3. '양심'의 의미를 오해하지 않기",
+          "level": 3,
+          "start_char": 803,
+          "end_char": 1166
+        },
+        {
+          "id": "SEC-V203-LUTHER1521-05",
+          "heading": "4. 유명한 말과 실제 기록",
+          "level": 3,
+          "start_char": 1166,
+          "end_char": 1389
+        },
+        {
+          "id": "SEC-V203-LUTHER1521-06",
+          "heading": "5. 은신, 성경 번역과 제도 변화",
+          "level": 3,
+          "start_char": 1389,
+          "end_char": 1800
+        },
+        {
+          "id": "SEC-V203-LUTHER1521-07",
+          "heading": "6. 사료와 학습 질문",
+          "level": 3,
+          "start_char": 1800,
+          "end_char": 2083
+        },
+        {
+          "id": "SEC-V203-LUTHER1521-08",
+          "heading": "제국의 법질서와 저술의 운명",
+          "level": 3,
+          "start_char": 2083,
+          "end_char": 2399
+        },
+        {
+          "id": "SEC-V203-LUTHER1521-09",
+          "heading": "발언의 전승과 양심의 해석",
+          "level": 3,
+          "start_char": 2399,
+          "end_char": 2719
+        },
+        {
+          "id": "SEC-V203-LUTHER1521-10",
+          "heading": "독서의 연결",
+          "level": 3,
+          "start_char": 2719,
+          "end_char": 2980
+        },
+        {
+          "id": "SEC-V203-LUTHER1521-11",
+          "heading": "보름스의 발언과 후대의 명언",
+          "level": 3,
+          "start_char": 2980,
+          "end_char": 3355
+        }
+      ],
+      "editorial_status": "HOLD_REQUIRES_HUMAN_REVIEW",
+      "original_collated": false
+    },
+    {
+      "key": "MARBURG",
+      "reader_page_id": "V156-Marburg",
+      "title": "마르부르크 회담—공동 신앙고백의 가능성과 성만찬의 경계",
+      "source_content_version": "2.02",
+      "body_source_path": "data/deep/atlas_v202_unified_ten_revised_readers.json",
+      "body_length_chars": 3336,
+      "body_storage": "REFERENCED_NOT_COPIED",
+      "person_ids": [
+        "OV-P-013",
+        "OV-P-015"
+      ],
+      "primary_event_ids": [
+        "OV-E-018"
+      ],
+      "canonical_document_ids": [],
+      "provisional_work_ids": [],
+      "edition_ids": [],
+      "map_contexts": [
+        {
+          "city_map_id": "marburg",
+          "overview_place_id": null,
+          "relation": "COLLOQUY",
+          "period": "1529",
+          "site_precision": "CITY_ONLY",
+          "geometry_publishable": false,
+          "editorial_link_status": "CONTEXT_ONLY"
+        }
+      ],
+      "visual_candidate_ids": [
+        "VIS-V158-09"
+      ],
+      "related_reader_keys": [
+        "ZWINGLI",
+        "AUGSBURG"
+      ],
+      "representative_claim_id": "CLM-V179-MARBURG",
+      "section_anchors": [
+        {
+          "id": "SEC-V203-MARBURG-01",
+          "heading": "도입",
+          "level": 0,
+          "start_char": 0,
+          "end_char": 2091
+        },
+        {
+          "id": "SEC-V203-MARBURG-02",
+          "heading": "공동 조항과 개인 증언의 관계",
+          "level": 3,
+          "start_char": 2091,
+          "end_char": 2440
+        },
+        {
+          "id": "SEC-V203-MARBURG-03",
+          "heading": "통합의 조건을 묻다",
+          "level": 3,
+          "start_char": 2440,
+          "end_char": 2660
+        },
+        {
+          "id": "SEC-V203-MARBURG-04",
+          "heading": "취리히본과 헤센본: 합의문의 전승을 읽는 법",
+          "level": 3,
+          "start_char": 2660,
+          "end_char": 3336
+        }
+      ],
+      "editorial_status": "HOLD_REQUIRES_HUMAN_REVIEW",
+      "original_collated": false
+    },
+    {
+      "key": "AUGSBURG",
+      "reader_page_id": "V156-Augsburg",
+      "title": "아우크스부르크 신앙고백: 1530년의 공적 고백에서 1540년 수정판까지",
+      "source_content_version": "2.02",
+      "body_source_path": "data/deep/atlas_v202_unified_ten_revised_readers.json",
+      "body_length_chars": 3680,
+      "body_storage": "REFERENCED_NOT_COPIED",
+      "person_ids": [
+        "OV-P-014"
+      ],
+      "primary_event_ids": [
+        "OV-E-019"
+      ],
+      "canonical_document_ids": [
+        "OV-D-011"
+      ],
+      "provisional_work_ids": [
+        "WRK-V161-AUGSBURG-CONFESSION-PROVISIONAL"
+      ],
+      "edition_ids": [
+        "EDN-V161-AC-1530",
+        "EDN-V161-AC-1531",
+        "EDN-V161-AC-1540"
+      ],
+      "map_contexts": [
+        {
+          "city_map_id": "augsburg",
+          "overview_place_id": "OV-L-017",
+          "relation": "DOCUMENT_PRESENTATION",
+          "period": "1530",
+          "site_precision": "CITY_ONLY",
+          "geometry_publishable": false,
+          "editorial_link_status": "CONTEXT_ONLY"
+        }
+      ],
+      "visual_candidate_ids": [
+        "VIS-V158-10"
+      ],
+      "related_reader_keys": [
+        "MARBURG"
+      ],
+      "representative_claim_id": "CLM-V179-AUGSBURG",
+      "section_anchors": [
+        {
+          "id": "SEC-V203-AUGSBURG-01",
+          "heading": "도입",
+          "level": 0,
+          "start_char": 0,
+          "end_char": 2259
+        },
+        {
+          "id": "SEC-V203-AUGSBURG-02",
+          "heading": "제출된 고백과 인쇄된 고백 사이",
+          "level": 3,
+          "start_char": 2259,
+          "end_char": 2609
+        },
+        {
+          "id": "SEC-V203-AUGSBURG-03",
+          "heading": "역사 교육에서의 판본 표시",
+          "level": 3,
+          "start_char": 2609,
+          "end_char": 2798
+        },
+        {
+          "id": "SEC-V203-AUGSBURG-04",
+          "heading": "제4·5·10조를 이어 읽으면 보이는 변화",
+          "level": 3,
+          "start_char": 2798,
+          "end_char": 3298
+        },
+        {
+          "id": "SEC-V203-AUGSBURG-05",
+          "heading": "판본 비교는 번호가 아니라 주제로",
+          "level": 3,
+          "start_char": 3298,
+          "end_char": 3680
+        }
+      ],
+      "editorial_status": "HOLD_REQUIRES_HUMAN_REVIEW",
+      "original_collated": false
+    },
+    {
+      "key": "CALVIN1536",
+      "reader_page_id": "V156-Calvin1536",
+      "title": "1536년 『기독교강요』: 박해받는 신앙을 변호한 여섯 장의 책",
+      "source_content_version": "2.02",
+      "body_source_path": "data/deep/atlas_v202_unified_ten_revised_readers.json",
+      "body_length_chars": 3088,
+      "body_storage": "REFERENCED_NOT_COPIED",
+      "person_ids": [
+        "OV-P-016"
+      ],
+      "primary_event_ids": [
+        "OV-E-020"
+      ],
+      "canonical_document_ids": [
+        "OV-D-012"
+      ],
+      "provisional_work_ids": [],
+      "edition_ids": [
+        "EDN-V161-INST-1536"
+      ],
+      "map_contexts": [
+        {
+          "city_map_id": "basel",
+          "overview_place_id": null,
+          "relation": "PRINT_CONTEXT",
+          "period": "1536",
+          "site_precision": "CITY_ONLY",
+          "geometry_publishable": false,
+          "editorial_link_status": "CONTEXT_ONLY"
+        }
+      ],
+      "visual_candidate_ids": [
+        "VIS-V158-11"
+      ],
+      "related_reader_keys": [
+        "CALVIN1559"
+      ],
+      "representative_claim_id": "CLM-V179-CALVIN1536",
+      "section_anchors": [
+        {
+          "id": "SEC-V203-CALVIN1536-01",
+          "heading": "도입",
+          "level": 0,
+          "start_char": 0,
+          "end_char": 2114
+        },
+        {
+          "id": "SEC-V203-CALVIN1536-02",
+          "heading": "저작의 성장과 독자층의 변화",
+          "level": 3,
+          "start_char": 2114,
+          "end_char": 2448
+        },
+        {
+          "id": "SEC-V203-CALVIN1536-03",
+          "heading": "원문과 번역의 거리",
+          "level": 3,
+          "start_char": 2448,
+          "end_char": 2641
+        },
+        {
+          "id": "SEC-V203-CALVIN1536-04",
+          "heading": "여섯 장의 초판에서 열일곱 장의 개정판으로",
+          "level": 3,
+          "start_char": 2641,
+          "end_char": 3088
+        }
+      ],
+      "editorial_status": "HOLD_REQUIRES_HUMAN_REVIEW",
+      "original_collated": false
+    },
+    {
+      "key": "CALVIN1559",
+      "reader_page_id": "V156-Calvin1559",
+      "title": "1559년 『기독교강요』: 네 권과 80장으로 재배열된 신학",
+      "source_content_version": "2.02",
+      "body_source_path": "data/deep/atlas_v202_unified_ten_revised_readers.json",
+      "body_length_chars": 3853,
+      "body_storage": "REFERENCED_NOT_COPIED",
+      "person_ids": [
+        "OV-P-016"
+      ],
+      "primary_event_ids": [],
+      "canonical_document_ids": [
+        "OV-D-012"
+      ],
+      "provisional_work_ids": [],
+      "edition_ids": [
+        "EDN-V161-INST-1559"
+      ],
+      "map_contexts": [
+        {
+          "city_map_id": "geneva",
+          "overview_place_id": "OV-L-016",
+          "relation": "REFORM_CENTER",
+          "period": "1559",
+          "site_precision": "CITY_ONLY",
+          "geometry_publishable": false,
+          "editorial_link_status": "CONTEXT_ONLY"
+        }
+      ],
+      "visual_candidate_ids": [
+        "VIS-V158-05",
+        "VIS-V158-12"
+      ],
+      "related_reader_keys": [
+        "CALVIN1536"
+      ],
+      "representative_claim_id": "CLM-V179-CALVIN1559",
+      "section_anchors": [
+        {
+          "id": "SEC-V203-CALVIN1559-01",
+          "heading": "도입",
+          "level": 0,
+          "start_char": 0,
+          "end_char": 2084
+        },
+        {
+          "id": "SEC-V203-CALVIN1559-02",
+          "heading": "한 권의 배치를 바꾸는 이유",
+          "level": 3,
+          "start_char": 2084,
+          "end_char": 2374
+        },
+        {
+          "id": "SEC-V203-CALVIN1559-03",
+          "heading": "판본을 대조할 때 필요한 분류",
+          "level": 3,
+          "start_char": 2374,
+          "end_char": 2675
+        },
+        {
+          "id": "SEC-V203-CALVIN1559-04",
+          "heading": "번역본의 언어적 선택",
+          "level": 3,
+          "start_char": 2675,
+          "end_char": 2937
+        },
+        {
+          "id": "SEC-V203-CALVIN1559-05",
+          "heading": "1539년 새 장에서 1559년 다섯 장으로",
+          "level": 3,
+          "start_char": 2937,
+          "end_char": 3228
+        },
+        {
+          "id": "SEC-V203-CALVIN1559-06",
+          "heading": "수정된 글자를 어떻게 해석할 것인가",
+          "level": 3,
+          "start_char": 3228,
+          "end_char": 3853
+        }
+      ],
+      "editorial_status": "HOLD_REQUIRES_HUMAN_REVIEW",
+      "original_collated": false
+    },
+    {
+      "key": "ZWINGLI",
+      "reader_page_id": "V156-Zwingli",
+      "title": "츠빙글리와 취리히: 설교, 시의회, 공공개혁",
+      "source_content_version": "2.02",
+      "body_source_path": "data/deep/atlas_v202_unified_ten_revised_readers.json",
+      "body_length_chars": 3076,
+      "body_storage": "REFERENCED_NOT_COPIED",
+      "person_ids": [
+        "OV-P-015"
+      ],
+      "primary_event_ids": [],
+      "canonical_document_ids": [],
+      "provisional_work_ids": [],
+      "edition_ids": [],
+      "map_contexts": [
+        {
+          "city_map_id": "zurich",
+          "overview_place_id": "OV-L-015",
+          "relation": "REFORM_CENTER",
+          "period": "1523",
+          "site_precision": "CITY_ONLY",
+          "geometry_publishable": false,
+          "editorial_link_status": "CONTEXT_ONLY"
+        }
+      ],
+      "visual_candidate_ids": [
+        "VIS-V158-04"
+      ],
+      "related_reader_keys": [
+        "MARBURG"
+      ],
+      "representative_claim_id": "CLM-V179-ZWINGLI",
+      "section_anchors": [
+        {
+          "id": "SEC-V203-ZWINGLI-01",
+          "heading": "도입",
+          "level": 0,
+          "start_char": 0,
+          "end_char": 2147
+        },
+        {
+          "id": "SEC-V203-ZWINGLI-02",
+          "heading": "공적 개혁과 개인의 신앙",
+          "level": 3,
+          "start_char": 2147,
+          "end_char": 2490
+        },
+        {
+          "id": "SEC-V203-ZWINGLI-03",
+          "heading": "개혁의 날짜와 효과",
+          "level": 3,
+          "start_char": 2490,
+          "end_char": 2698
+        },
+        {
+          "id": "SEC-V203-ZWINGLI-04",
+          "heading": "취리히 시의회와 개혁의 단계",
+          "level": 3,
+          "start_char": 2698,
+          "end_char": 3076
+        }
+      ],
+      "editorial_status": "HOLD_REQUIRES_HUMAN_REVIEW",
+      "original_collated": false
+    },
+    {
+      "key": "TRENT",
+      "reader_page_id": "V156-Trent",
+      "title": "트리엔트 공의회: 가톨릭 개혁의 교리와 제도",
+      "source_content_version": "2.02",
+      "body_source_path": "data/deep/atlas_v202_unified_ten_revised_readers.json",
+      "body_length_chars": 3348,
+      "body_storage": "REFERENCED_NOT_COPIED",
+      "person_ids": [],
+      "primary_event_ids": [
+        "OV-E-021"
+      ],
+      "canonical_document_ids": [
+        "OV-D-014"
+      ],
+      "provisional_work_ids": [],
+      "edition_ids": [],
+      "map_contexts": [
+        {
+          "city_map_id": "trento",
+          "overview_place_id": "OV-L-018",
+          "relation": "COUNCIL_SESSION_CONTEXT",
+          "period": "1545–1563",
+          "site_precision": "CITY_ONLY",
+          "geometry_publishable": false,
+          "editorial_link_status": "CONTEXT_ONLY"
+        }
+      ],
+      "visual_candidate_ids": [
+        "VIS-V158-13"
+      ],
+      "related_reader_keys": [],
+      "representative_claim_id": "CLM-V179-TRENT",
+      "section_anchors": [
+        {
+          "id": "SEC-V203-TRENT-01",
+          "heading": "도입",
+          "level": 0,
+          "start_char": 0,
+          "end_char": 2129
+        },
+        {
+          "id": "SEC-V203-TRENT-02",
+          "heading": "회기의 연대가 중요한 이유",
+          "level": 3,
+          "start_char": 2129,
+          "end_char": 2406
+        },
+        {
+          "id": "SEC-V203-TRENT-03",
+          "heading": "반론을 정확하게 소개하는 방법",
+          "level": 3,
+          "start_char": 2406,
+          "end_char": 2672
+        },
+        {
+          "id": "SEC-V203-TRENT-04",
+          "heading": "결정이 실천으로 이어지는 과정",
+          "level": 3,
+          "start_char": 2672,
+          "end_char": 2939
+        },
+        {
+          "id": "SEC-V203-TRENT-05",
+          "heading": "교령과 실행을 구별하는 트리엔트 연구",
+          "level": 3,
+          "start_char": 2939,
+          "end_char": 3348
+        }
+      ],
+      "editorial_status": "HOLD_REQUIRES_HUMAN_REVIEW",
+      "original_collated": false
+    }
+  ],
+  "claims": [
+    {
+      "id": "CLM-V179-WYCLIFFE",
+      "reader_key": "WYCLIFFE",
+      "reader_page_id": "V156-Wycliffe",
+      "section_id": "SEC-V203-WYCLIFFE-03",
+      "claim_text": "교회론의 성립 시기와 예정된 교회 논의",
+      "source_class": "SECONDARY_SYNTHESIS",
+      "source_references": [
+        {
+          "url": "https://plato.stanford.edu/entries/wyclif/",
+          "overview_source_id": "SRC-O-003",
+          "claim_specific_web_rechecked": false,
+          "source_scope": "RESEARCH_LEAD_NOT_PASSAGE_PROOF"
+        }
+      ],
+      "preexisting_explicit_evidence_ids": [],
+      "related_evidence_cards": [],
+      "existing_unverified_note": "위클리프 저술의 시기·교회론 설명은 연구 개설을 근거로 하며 문장 직접 교감은 미완료",
+      "original_folio_checked": false,
+      "human_review": "PENDING",
+      "support_state": "BIBLIOGRAPHIC_LEAD_NOT_VERIFIED_AT_PASSAGE_LEVEL",
+      "can_publish": false
+    },
+    {
+      "id": "CLM-V179-HUS",
+      "reader_key": "HUS",
+      "reader_page_id": "V156-Hus",
+      "section_id": "SEC-V203-HUS-04",
+      "claim_text": "1413년 『De ecclesia』와 후대 수용",
+      "source_class": "CATALOGUE_PLUS_SECONDARY",
+      "source_references": [
+        {
+          "url": "https://digiscripta.phil.muni.cz/cs/node/12908",
+          "overview_source_id": null,
+          "claim_specific_web_rechecked": false,
+          "source_scope": "RESEARCH_LEAD_NOT_PASSAGE_PROOF"
+        },
+        {
+          "url": "https://www.britannica.com/biography/Jan-Hus",
+          "overview_source_id": null,
+          "claim_specific_web_rechecked": false,
+          "source_scope": "RESEARCH_LEAD_NOT_PASSAGE_PROOF"
+        }
+      ],
+      "preexisting_explicit_evidence_ids": [],
+      "related_evidence_cards": [],
+      "existing_unverified_note": "문헌 존재·개관 근거, 원문 인용이나 위클리프와의 문장 대응 미확인",
+      "original_folio_checked": false,
+      "human_review": "PENDING",
+      "support_state": "BIBLIOGRAPHIC_LEAD_NOT_VERIFIED_AT_PASSAGE_LEVEL",
+      "can_publish": false
+    },
+    {
+      "id": "CLM-V179-LUTHER1517",
+      "reader_key": "LUTHER1517",
+      "reader_page_id": "V156-Luther1517",
+      "section_id": "SEC-V203-LUTHER1517-03",
+      "claim_text": "95개 논제의 면벌부와 회개 논쟁",
+      "source_class": "SECONDARY_SYNTHESIS",
+      "source_references": [
+        {
+          "url": "https://www.britannica.com/event/Ninety-five-Theses",
+          "overview_source_id": null,
+          "claim_specific_web_rechecked": false,
+          "source_scope": "RESEARCH_LEAD_NOT_PASSAGE_PROOF"
+        }
+      ],
+      "preexisting_explicit_evidence_ids": [],
+      "related_evidence_cards": [],
+      "existing_unverified_note": "논제의 정확한 라틴어 구절 및 문 게시 행위 별도 검증 필요",
+      "original_folio_checked": false,
+      "human_review": "PENDING",
+      "support_state": "BIBLIOGRAPHIC_LEAD_NOT_VERIFIED_AT_PASSAGE_LEVEL",
+      "can_publish": false
+    },
+    {
+      "id": "CLM-V179-LUTHER1521",
+      "reader_key": "LUTHER1521",
+      "reader_page_id": "V156-Luther1521",
+      "section_id": "SEC-V203-LUTHER1521-03",
+      "claim_text": "보름스 심문과 양심의 역사적 맥락",
+      "source_class": "SECONDARY_SYNTHESIS",
+      "source_references": [
+        {
+          "url": "https://www.britannica.com/event/Diet-of-Worms-Germany-1521",
+          "overview_source_id": null,
+          "claim_specific_web_rechecked": false,
+          "source_scope": "RESEARCH_LEAD_NOT_PASSAGE_PROOF"
+        }
+      ],
+      "preexisting_explicit_evidence_ids": [],
+      "related_evidence_cards": [],
+      "existing_unverified_note": "심문 증언과 후대 명언 전승의 문구 대조 미완료",
+      "original_folio_checked": false,
+      "human_review": "PENDING",
+      "support_state": "BIBLIOGRAPHIC_LEAD_NOT_VERIFIED_AT_PASSAGE_LEVEL",
+      "can_publish": false
+    },
+    {
+      "id": "CLM-V179-MARBURG",
+      "reader_key": "MARBURG",
+      "reader_page_id": "V156-Marburg",
+      "section_id": "SEC-V203-MARBURG-04",
+      "claim_text": "1529년 합의문 제15조에서 성만찬 이견 유지",
+      "source_class": "EDITED_PRIMARY_TRANSLATION",
+      "source_references": [
+        {
+          "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/ghdi%3Adocument-4311",
+          "overview_source_id": null,
+          "claim_specific_web_rechecked": false,
+          "source_scope": "RESEARCH_LEAD_NOT_PASSAGE_PROOF"
+        },
+        {
+          "url": "https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=618165",
+          "overview_source_id": null,
+          "claim_specific_web_rechecked": false,
+          "source_scope": "RESEARCH_LEAD_NOT_PASSAGE_PROOF"
+        }
+      ],
+      "preexisting_explicit_evidence_ids": [],
+      "related_evidence_cards": [],
+      "existing_unverified_note": "합의문 번역·편집 자료 확인 경로; 서명 정본 판면 직접 교감 미완료",
+      "original_folio_checked": false,
+      "human_review": "PENDING",
+      "support_state": "BIBLIOGRAPHIC_LEAD_NOT_VERIFIED_AT_PASSAGE_LEVEL",
+      "can_publish": false
+    },
+    {
+      "id": "CLM-V179-AUGSBURG",
+      "reader_key": "AUGSBURG",
+      "reader_page_id": "V156-Augsburg",
+      "section_id": "SEC-V203-AUGSBURG-02",
+      "claim_text": "1530 제출·1531 인쇄·1540 Variata 구분",
+      "source_class": "EDITION_CATALOGUE_AND_TRANSCRIPTION",
+      "source_references": [
+        {
+          "url": "https://bookofconcord.org/augsburg-confession/",
+          "overview_source_id": null,
+          "claim_specific_web_rechecked": false,
+          "source_scope": "RESEARCH_LEAD_NOT_PASSAGE_PROOF"
+        },
+        {
+          "url": "https://www.ctsfw.edu/etext/boc/ac/latin/",
+          "overview_source_id": null,
+          "claim_specific_web_rechecked": false,
+          "source_scope": "RESEARCH_LEAD_NOT_PASSAGE_PROOF"
+        }
+      ],
+      "preexisting_explicit_evidence_ids": [
+        "EVD-V163-AC4-1530"
+      ],
+      "related_evidence_cards": [
+        {
+          "id": "EVD-V163-AC4-1530",
+          "primary_original_collated": false,
+          "scope": "TOPIC_RELATED_RESEARCH_EVIDENCE_NOT_DIRECT_PROOF"
+        },
+        {
+          "id": "EVD-V163-AC4-1540",
+          "primary_original_collated": false,
+          "scope": "TOPIC_RELATED_RESEARCH_EVIDENCE_NOT_DIRECT_PROOF"
+        },
+        {
+          "id": "EVD-V163-AC10-1530",
+          "primary_original_collated": false,
+          "scope": "TOPIC_RELATED_RESEARCH_EVIDENCE_NOT_DIRECT_PROOF"
+        },
+        {
+          "id": "EVD-V163-AC10-1540",
+          "primary_original_collated": false,
+          "scope": "TOPIC_RELATED_RESEARCH_EVIDENCE_NOT_DIRECT_PROOF"
+        },
+        {
+          "id": "EVD-V163-AC-WITNESS",
+          "primary_original_collated": false,
+          "scope": "TOPIC_RELATED_RESEARCH_EVIDENCE_NOT_DIRECT_PROOF"
+        }
+      ],
+      "existing_unverified_note": "라틴어 제4·10조 판본 대조 및 최초 제출본 판면 확인 미완료",
+      "original_folio_checked": false,
+      "human_review": "PENDING",
+      "support_state": "BIBLIOGRAPHIC_LEAD_NOT_VERIFIED_AT_PASSAGE_LEVEL",
+      "can_publish": false
+    },
+    {
+      "id": "CLM-V179-CALVIN1536",
+      "reader_key": "CALVIN1536",
+      "reader_page_id": "V156-Calvin1536",
+      "section_id": "SEC-V203-CALVIN1536-04",
+      "claim_text": "1536년 라틴어 초판 여섯 장",
+      "source_class": "SECONDARY_AND_BIBLIOGRAPHIC",
+      "source_references": [
+        {
+          "url": "https://www.britannica.com/topic/Institutes-of-the-Christian-Religion",
+          "overview_source_id": null,
+          "claim_specific_web_rechecked": false,
+          "source_scope": "RESEARCH_LEAD_NOT_PASSAGE_PROOF"
+        }
+      ],
+      "preexisting_explicit_evidence_ids": [],
+      "related_evidence_cards": [
+        {
+          "id": "EVD-V163-INST-1536",
+          "primary_original_collated": false,
+          "scope": "TOPIC_RELATED_RESEARCH_EVIDENCE_NOT_DIRECT_PROOF"
+        }
+      ],
+      "existing_unverified_note": "초판 제목면·목차 원본 직접 대조 미완료",
+      "original_folio_checked": false,
+      "human_review": "PENDING",
+      "support_state": "BIBLIOGRAPHIC_LEAD_NOT_VERIFIED_AT_PASSAGE_LEVEL",
+      "can_publish": false
+    },
+    {
+      "id": "CLM-V179-CALVIN1559",
+      "reader_key": "CALVIN1559",
+      "reader_page_id": "V156-Calvin1559",
+      "section_id": "SEC-V203-CALVIN1559-05",
+      "claim_text": "1559년 최종 라틴어판 네 권 80장",
+      "source_class": "SECONDARY_AND_BIBLIOGRAPHIC",
+      "source_references": [
+        {
+          "url": "https://www.britannica.com/topic/Institutes-of-the-Christian-Religion",
+          "overview_source_id": null,
+          "claim_specific_web_rechecked": false,
+          "source_scope": "RESEARCH_LEAD_NOT_PASSAGE_PROOF"
+        }
+      ],
+      "preexisting_explicit_evidence_ids": [],
+      "related_evidence_cards": [
+        {
+          "id": "EVD-V163-INST-1559",
+          "primary_original_collated": false,
+          "scope": "TOPIC_RELATED_RESEARCH_EVIDENCE_NOT_DIRECT_PROOF"
+        },
+        {
+          "id": "EVD-V163-INST-CHRISTIAN-LIFE",
+          "primary_original_collated": false,
+          "scope": "TOPIC_RELATED_RESEARCH_EVIDENCE_NOT_DIRECT_PROOF"
+        }
+      ],
+      "existing_unverified_note": "판본 간 문장 대응 및 원전 판면 직접 대조 미완료",
+      "original_folio_checked": false,
+      "human_review": "PENDING",
+      "support_state": "BIBLIOGRAPHIC_LEAD_NOT_VERIFIED_AT_PASSAGE_LEVEL",
+      "can_publish": false
+    },
+    {
+      "id": "CLM-V179-ZWINGLI",
+      "reader_key": "ZWINGLI",
+      "reader_page_id": "V156-Zwingli",
+      "section_id": "SEC-V203-ZWINGLI-04",
+      "claim_text": "취리히 1523년 논쟁과 시의회 개혁",
+      "source_class": "SECONDARY_SYNTHESIS",
+      "source_references": [
+        {
+          "url": "https://www.britannica.com/biography/Huldrych-Zwingli",
+          "overview_source_id": null,
+          "claim_specific_web_rechecked": false,
+          "source_scope": "RESEARCH_LEAD_NOT_PASSAGE_PROOF"
+        }
+      ],
+      "preexisting_explicit_evidence_ids": [],
+      "related_evidence_cards": [],
+      "existing_unverified_note": "두 논쟁의 원문 조항과 도시의회 결정문 대조 미완료",
+      "original_folio_checked": false,
+      "human_review": "PENDING",
+      "support_state": "BIBLIOGRAPHIC_LEAD_NOT_VERIFIED_AT_PASSAGE_LEVEL",
+      "can_publish": false
+    },
+    {
+      "id": "CLM-V179-TRENT",
+      "reader_key": "TRENT",
+      "reader_page_id": "V156-Trent",
+      "section_id": "SEC-V203-TRENT-02",
+      "claim_text": "트리엔트 공의회 1545–1563년 회기별 결정",
+      "source_class": "SECONDARY_SYNTHESIS",
+      "source_references": [
+        {
+          "url": "https://www.britannica.com/event/Council-of-Trent",
+          "overview_source_id": null,
+          "claim_specific_web_rechecked": false,
+          "source_scope": "RESEARCH_LEAD_NOT_PASSAGE_PROOF"
+        }
+      ],
+      "preexisting_explicit_evidence_ids": [],
+      "related_evidence_cards": [],
+      "existing_unverified_note": "교령의 구체적인 회기와 인쇄본 원문 확인 미완료",
+      "original_folio_checked": false,
+      "human_review": "PENDING",
+      "support_state": "BIBLIOGRAPHIC_LEAD_NOT_VERIFIED_AT_PASSAGE_LEVEL",
+      "can_publish": false
+    }
+  ],
+  "unresolved": [
+    {
+      "code": "PERSONAL_WORK_COLLATION",
+      "subject": "WYCLIFFE",
+      "detail": "WRK-V03-WYCLIFFE-DE-ECCLESIA remains provisional, distinct from Hus OV-D-005; manuscript/edition collation pending."
+    },
+    {
+      "code": "NO_CANONICAL_CITY",
+      "subject": "MARBURG",
+      "detail": "V1.57 city centroid 'marburg' has no matching canonical OV-L place ID."
+    },
+    {
+      "code": "NO_CANONICAL_CITY",
+      "subject": "CALVIN1536",
+      "detail": "V1.57 city centroid 'basel' has no matching canonical OV-L place ID."
+    },
+    {
+      "code": "NO_OVERVIEW_EVENT",
+      "subject": "ZWINGLI",
+      "detail": "1523 Zurich disputes have no exact matching overview event; 1529 Marburg is related but not a substitute."
+    },
+    {
+      "code": "NO_OVERVIEW_EVENT",
+      "subject": "CALVIN1559",
+      "detail": "1559 edition exists, but OV-E-020 is 1536 first edition and must not be reused as 1559 publication event."
+    },
+    {
+      "code": "NO_EXACT_DOCUMENT",
+      "subject": "LUTHER1521",
+      "detail": "No canonical direct Worms interrogation transcript in the overview document register."
+    },
+    {
+      "code": "NO_EXACT_DOCUMENT",
+      "subject": "MARBURG",
+      "detail": "No canonical Marburg Articles document ID in the overview document register; evidence remains source leads."
+    },
+    {
+      "code": "CLAIM_GRANULARITY",
+      "subject": "ALL",
+      "detail": "Only ten representative claims have pointers. Section/paragraph-level assertions still require human extraction and passage-specific evidence."
+    },
+    {
+      "code": "PRIMARY_AND_EXPERT_REVIEW",
+      "subject": "ALL",
+      "detail": "Original witnesses not collated, representative claims unapproved, historical narratives not peer/expert reviewed."
+    },
+    {
+      "code": "MEDIA_RIGHTS",
+      "subject": "ALL",
+      "detail": "14 visual candidate IDs exist; object-level reproduction rights and files are not approved for publication."
+    }
+  ]
+}
