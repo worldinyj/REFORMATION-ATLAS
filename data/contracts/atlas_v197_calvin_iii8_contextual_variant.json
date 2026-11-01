@@ -1,0 +1,62 @@
+{
+  "version": "1.97",
+  "release": {
+    "can_ship": false,
+    "scholarly_reviewed": false,
+    "original_1539_imprint_collated": false
+  },
+  "focused_case": {
+    "id": "CAL-III-8-7-K",
+    "edition": "1559 Book III chapter 8 section 7",
+    "text_locus": "III.8.7, persecution for righteousness, list of hardships and consolation",
+    "main_text_short": "si vexamur et contemnimur",
+    "translation_ko": "우리가 괴롭힘을 당하고 멸시받는다면",
+    "editorial_readings": [
+      {
+        "edition": "1539",
+        "reading": "concutimur",
+        "working_gloss_ko": "흔들림을 당한다"
+      },
+      {
+        "edition": "1543–1545",
+        "reading": "continemur",
+        "editorial_mark": "male",
+        "working_gloss_ko": "붙들리거나 억제된다"
+      },
+      {
+        "edition": "1550–1561",
+        "reading": "contemnimur",
+        "editorial_mark": "ex coniectura",
+        "working_gloss_ko": "멸시받는다"
+      }
+    ],
+    "surrounding_argument_ko": "칼뱅은 의를 위한 박해를 당할 때 재산·명예·생명의 손실을 세상의 판단으로만 보지 말고 그리스도의 증언과 하나님 앞의 복을 바라보라고 권고한다. 어휘 변화는 고난의 형태와 어조에 영향을 줄 수 있지만, 편집자의 추정 교정 가능성이 명시된 만큼 신학적 입장 변화의 증거로 단정하지 않는다.",
+    "variant_classification": "LEXICAL_DIFFERENCE_WITH_EDITORIAL_CONJECTURE",
+    "context_verified": "1559 Latin narrative with Barth/Niesel apparatus online",
+    "source": "https://calvin.reformation.nl/872-Institutes%2Bof%2Bthe%2BChristian%2BReligion.%2BInstitutio%2Bchristianae%2Breligionis.%2BInstitution%2Bde%2Bla%2Breligion%2Bchrestienne/3/8",
+    "original_1539_text_checked": false
+  },
+  "source_discovery": {
+    "id": "WEVERS_1988",
+    "name": "Institutes of the Christian religion of John Calvin: 1539: text and concordance",
+    "editor": "Richard F. Wevers",
+    "publisher": "Meeter Center for Calvin Studies",
+    "year": 1988,
+    "volumes": 4,
+    "repository": "CiNii Books",
+    "catalogue_url": "https://ci.nii.ac.jp/ncid/BA19194416",
+    "text_inspected": false,
+    "importance_ko": "1539년 라틴어 텍스트 및 색인을 독립적으로 확인할 수 있는 연구용 인쇄 자료로, 원판 이미지와 비평판의 교차 대조에 유용"
+  },
+  "marburg": {
+    "source": "https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=618165",
+    "usteri_1883_folio_pages": "409–413",
+    "direct_reading_complete": false,
+    "articles_7_13_15_original_text": null
+  },
+  "next_steps": [
+    "Identify complete 1539 context for the verb in Wevers edition or Newberry scan",
+    "Check whether emendation entered in 1550 and how Latin context changed",
+    "Acquire Z facsimile page images for Marburg additions 7/13/15"
+  ]
+}
