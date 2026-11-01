@@ -1,0 +1,94 @@
+{
+  "version": "1.89",
+  "ship": false,
+  "scope": "Augsburg Confession Article IV, edition-family comparison",
+  "sources": [
+    {
+      "id": "CR26_1530_TRANSCRIPTION",
+      "url": "https://www2.hs-augsburg.de/~harsch/Chronologia/Lspost16/Melanchthon/mel_ca04.html",
+      "locator": "CR XXVI pp.263-336, Article IV, original editorial pointer p.275 lines 5-12",
+      "tier": "MODERN_HTML_TRANSCRIPTION_OF_1858_CRITICAL_EDITION",
+      "verified": "OPENED_HTML_TEXT",
+      "first_print_collated": false
+    },
+    {
+      "id": "CR26_1540_EDITION",
+      "url": "https://www.augsburg1540.com/uploads/1/3/8/9/138903771/1540_latin_text_from_corpus_reformandum.pdf",
+      "locator": "CR XXVI printed pp.352–353, editorial note 5 p.352",
+      "tier": "1858_EDITED_LATIN_PDF_PAGE",
+      "verified": "PDF_PAGE_VISUALLY_INSPECTED",
+      "first_print_collated": false
+    }
+  ],
+  "editions": [
+    {
+      "edition_id": "EDN-V161-AC-1530",
+      "article": "IV",
+      "units": [
+        {
+          "n": 1,
+          "kind": "inability",
+          "latin_excerpt": "non possint iustificari coram deo propriis viribus, meritis aut operibus",
+          "meaning": "자신의 능력·공로나 행위로 하나님 앞에서 의롭다 함을 받을 수 없음"
+        },
+        {
+          "n": 2,
+          "kind": "faith",
+          "latin_excerpt": "sed gratis iustificenter propter Christum per fidem",
+          "meaning": "그리스도로 말미암아 믿음으로 값없이 의롭다 함"
+        },
+        {
+          "n": 3,
+          "kind": "imputation",
+          "latin_excerpt": "Hanc fidem imputat deus pro iustitia",
+          "meaning": "믿음을 의로 여기신다는 설명"
+        }
+      ],
+      "original_print_checked": false
+    },
+    {
+      "edition_id": "EDN-V161-AC-1540",
+      "article": "IV",
+      "units": [
+        {
+          "n": 1,
+          "kind": "gospel_promise",
+          "latin_excerpt": "Vt autem consequamur haec beneficia Christi",
+          "meaning": "그리스도의 유익을 얻는 길을 복음의 약속으로 설명"
+        },
+        {
+          "n": 2,
+          "kind": "grace_assurance",
+          "latin_excerpt": "non pendere ex conditione dignitatis nostrae",
+          "meaning": "용서가 우리의 합당함에 의존하지 않는다는 확신"
+        },
+        {
+          "n": 3,
+          "kind": "repentance_and_faith",
+          "latin_excerpt": "quamquam igitur Euangelium requirit poenitentiam",
+          "meaning": "복음, 회개, 은혜의 확실성을 관계 지어 설명"
+        }
+      ],
+      "original_print_checked": false
+    }
+  ],
+  "conclusions": [
+    {
+      "status": "EDITORIAL_TEXT_COMPARISON",
+      "finding": "1530 short Article IV articulates free justification by faith; 1540 Article IV expands its explanation by joining gospel preaching, repentance, forgiveness, and assurance"
+    },
+    {
+      "status": "EDITORIAL_APPARATUS",
+      "finding": "CR26 p.352 footnote 5 says Article IV entirely altered in editions 3/4 relative to editions 1/2"
+    },
+    {
+      "status": "NOT_PROVEN",
+      "finding": "Exact line-by-line collation of 1531 first Wittenberg imprint and 1540 first Variata imprint remains unfinished"
+    }
+  ],
+  "quality_gate": {
+    "no_16c_direct_collation_claim": true,
+    "no_release": true,
+    "source_class_required": true
+  }
+}
