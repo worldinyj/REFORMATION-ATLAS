@@ -1,0 +1,157 @@
+{
+  "version": "1.84",
+  "release": {
+    "can_ship": false,
+    "scholarly_approved": false,
+    "original_collation_complete": false
+  },
+  "comparisons": [
+    {
+      "id": "AC-IV",
+      "topic": "AUGSBURG",
+      "title": "Article IV justification",
+      "witnesses": [
+        {
+          "label": "1531 Latin first authorized print",
+          "edition_id": "EDN-V161-AC-1531",
+          "locator": "Article IV",
+          "text_transcribed": null
+        },
+        {
+          "label": "1540 Latin Variata",
+          "edition_id": "EDN-V161-AC-1540",
+          "locator": "Article IV",
+          "text_transcribed": null
+        }
+      ],
+      "source": "https://www.uecf.net/books/collected-works/chapter1319.html",
+      "editorial_observation": "Schaff lists changes to Article IV; actual complete lines remain uncollated",
+      "change_class": "KNOWN_DIFFERENCE_EXACT_WORDING_PENDING"
+    },
+    {
+      "id": "AC-X",
+      "topic": "AUGSBURG",
+      "title": "Article X Lord's Supper",
+      "witnesses": [
+        {
+          "label": "1531 editio princeps Latin via later edition",
+          "edition_id": "EDN-V161-AC-1531",
+          "locator": "Article X",
+          "key_phrases": [
+            "vere adsint",
+            "distribuantur vescentibus"
+          ],
+          "text_transcribed": null
+        },
+        {
+          "label": "1540 Variata Latin via later edited comparison",
+          "edition_id": "EDN-V161-AC-1540",
+          "locator": "Article X",
+          "key_phrases": [
+            "cum pane et vino",
+            "vere exhibeantur"
+          ],
+          "text_transcribed": null
+        }
+      ],
+      "source": "https://www.uecf.net/books/collected-works/chapter1319.html",
+      "editorial_observation": "Edited historical comparison records an altered presentation/distribution formula; first-print folios pending",
+      "change_class": "EDITED_TEXT_PHRASE_DIFFERENCE"
+    },
+    {
+      "id": "AC-ORDER",
+      "topic": "AUGSBURG",
+      "title": "Confession and Repentance numbering",
+      "witnesses": [
+        {
+          "label": "1530/1531",
+          "locator": "XI Confession ↔ XII Repentance"
+        },
+        {
+          "label": "1540",
+          "locator": "XII Confession ↔ XI Repentance"
+        }
+      ],
+      "source": "https://www.augsburg1540.com/1530-1540-comparison-text.html",
+      "editorial_observation": "Join by topic rather than ordinal number",
+      "change_class": "ARTICLE_REORDER"
+    },
+    {
+      "id": "MAR-ZK",
+      "topic": "MARBURG",
+      "title": "Zurich Z and Hessian K witness additions",
+      "witnesses": [
+        {
+          "label": "Z",
+          "shelfmark": "Staatsarchiv Zürich E I 3.1 Nr.54",
+          "locations": [
+            "7",
+            "13",
+            "15"
+          ],
+          "addition_transcribed": null
+        },
+        {
+          "label": "K",
+          "shelfmark": "Hessisches Staatsarchiv Marburg Best.3 Nr.245 fol.60r–64v",
+          "locations": [
+            "7",
+            "13",
+            "15"
+          ],
+          "addition_transcribed": null
+        }
+      ],
+      "critical_editions": [
+        "Reformierte Bekenntnisschriften 1/1 Nr.11 pp.259–267",
+        "Melanchthons Briefwechsel Texte 3 Nr.825",
+        "BSLK Quellen und Materialien 1 pp.43–46"
+      ],
+      "source": "https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=618165",
+      "editorial_observation": "Archive catalogue reports three Z additions absent in K; wording not yet extracted",
+      "change_class": "ARCHIVAL_VARIANT_LOCATION_ONLY"
+    },
+    {
+      "id": "CAL-TRANSITION",
+      "topic": "CALVIN",
+      "title": "1536–1559 argument organization",
+      "witnesses": [
+        {
+          "edition": "1536",
+          "chapters": 6,
+          "alignment_to_1559": null
+        },
+        {
+          "edition": "1539",
+          "chapters": 17,
+          "alignment_to_1559": null
+        },
+        {
+          "edition": "1543",
+          "chapters": 21,
+          "alignment_to_1559": null
+        },
+        {
+          "edition": "1550",
+          "structural_feature": "numbered sections",
+          "alignment_to_1559": null
+        },
+        {
+          "edition": "1559",
+          "books": 4,
+          "chapters": 80,
+          "alignment_to_1559": "SELF"
+        }
+      ],
+      "source": "https://cdn-static.supadu.com/baker-academic-us/pdf/Excerpt_9780801037313.pdf",
+      "editorial_observation": "Intermediate editions confirm changes in structure; paragraph-level equivalence not inferred",
+      "change_class": "EDITION_GENEALOGY_NOT_TEXTUAL_ALIGNMENT"
+    }
+  ],
+  "quality_rules": {
+    "never_autofill_missing_witness_text": true,
+    "never_treat_catalogue_as_folio": true,
+    "never_join_articles_by_number_alone": true,
+    "never_derive_interedition_paragraph_match_from_chapter_count": true
+  }
+}
