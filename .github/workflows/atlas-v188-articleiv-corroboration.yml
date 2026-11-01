@@ -1,0 +1,19 @@
+name: Atlas V188 source-tier and Article IV corroboration QA
+on:
+  push:
+    branches: ['research/**']
+    paths:
+      - 'data/contracts/atlas_v188_*'
+      - 'scripts/validate_atlas_v188.py'
+      - '.github/workflows/atlas-v188-articleiv-corroboration.yml'
+  workflow_dispatch:
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 scripts/validate_atlas_v188.py
+      - run: python3 scripts/validate_atlas_v187.py
