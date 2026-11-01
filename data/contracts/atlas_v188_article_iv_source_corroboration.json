@@ -1,0 +1,82 @@
+{
+  "version": "1.88",
+  "publication": {
+    "can_ship": false,
+    "scholarly_approved": false,
+    "original_1531_collated": false,
+    "original_1540_collated": false
+  },
+  "correction": {
+    "prior_version": "1.87",
+    "issue": "Project Gutenberg #607 is a modern transcription labeled 1530, not a witness-certified direct transcription of the first authorized 1531 printing.",
+    "fix": "Classify as MODERN_1530_LATIN_TRADITION_TRANSCRIPTION; keep separate 1531 first print collation outstanding."
+  },
+  "sources": [
+    {
+      "id": "S1530",
+      "url": "https://www.gutenberg.org/cache/epub/607/pg607.html",
+      "locator": "Latin Art. IV lines numbered 1–3; nearby Latin Art. V 1–3",
+      "class": "MODERN_DIGITAL_TRANSCRIPTION",
+      "status": "TEXT_INSPECTED_NOT_ORIGINAL_WITNESS"
+    },
+    {
+      "id": "S1540",
+      "url": "https://www.augsburg1540.com/1530-1540-comparison-text.html",
+      "locator": "side-by-side Article IV 1530/1540",
+      "class": "MODERN_ENGLISH_SIDE_BY_SIDE",
+      "status": "TEXT_INSPECTED_EDITORIAL"
+    },
+    {
+      "id": "SCR26",
+      "url": "https://www.augsburg1540.com/uploads/1/3/8/9/138903771/1540_latin_text_from_corpus_reformandum.pdf",
+      "locator": "CR26 1858 printed pp.352–353 Article IV; p.352 note 5; cited 1531 text at p.275 ll.5–12",
+      "class": "NINETEENTH_CENTURY_CRITICAL_EDITION",
+      "status": "1540_EDITED_TEXT_INSPECTED_1531_LOCATOR_ONLY"
+    }
+  ],
+  "claims": [
+    {
+      "id": "A",
+      "theme": "정당화의 기초",
+      "text_1530": "non possint iustificari coram Deo propriis viribus, meritis aut operibus",
+      "text_1540": "quia propter Christum gratis offeratur remissio peccatorum et iustificatio",
+      "explanation": "짧은 인간 공로의 부정과 그리스도에 의한 은혜가, 1540년의 복음 약속 설명 속으로 확장되어 배치된다.",
+      "certainty": "CONCEPTUAL_COMPARISON_NOT_DIPLOMATIC_COLLATION"
+    },
+    {
+      "id": "B",
+      "theme": "복음의 약속",
+      "text_1530": "sed gratis iustificentur propter Christum per fidem",
+      "text_1540": "Vt autem consequamur haec beneficia Christi ... dedit Christus Euangelium",
+      "explanation": "1540년판은 제4조 시작 부분에서 죄 사함·의롭다 함·영생이라는 유익과 복음의 선포를 연결한다.",
+      "certainty": "SOURCE_PASSAGE_IDENTIFIED"
+    },
+    {
+      "id": "C",
+      "theme": "양심의 위로",
+      "text_1530": "Hanc fidem imputat Deus pro iustitia",
+      "text_1540": "non pendere ex conditione dignitatis nostrae",
+      "explanation": "1540년판은 인간의 합당함에 의존하지 않는다는 설명을 통해 용서의 확실성과 불안한 양심의 위로를 확대한다.",
+      "certainty": "EDITORIAL_TRANSLATION_INTERPRETATION"
+    }
+  ],
+  "cannot_claim": [
+    "Phrases demonstrate direct 1531-to-1540 original-print line collation",
+    "The whole 1531 Article IV was verified at CR26 p.275",
+    "Article IV revision proves complete reversal of justification doctrine"
+  ],
+  "next_readings": [
+    {
+      "target": "CR26 p.275 ll.5–12",
+      "purpose": "Direct comparison within same scholarly edition"
+    },
+    {
+      "target": "1531 authorized Wittenberg Latin printing facsimile",
+      "purpose": "Confirm exact printed witness text"
+    },
+    {
+      "target": "1540 Wittenberg Variata original printing",
+      "purpose": "Confirm exact printed witness text"
+    }
+  ]
+}
