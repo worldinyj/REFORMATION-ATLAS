@@ -1,0 +1,19 @@
+name: Atlas V183 critical edition QA
+on:
+  push:
+    branches: ['research/**']
+    paths:
+      - 'data/contracts/atlas_v183_*'
+      - 'scripts/validate_atlas_v183.py'
+      - '.github/workflows/atlas-v183-critical-editions.yml'
+  workflow_dispatch:
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 scripts/validate_atlas_v183.py
+      - run: python3 scripts/validate_atlas_v182.py
