@@ -1,0 +1,103 @@
+{
+  "version": "1.82",
+  "can_ship": false,
+  "original_witness_collated": false,
+  "findings": [
+    {
+      "topic": "AC",
+      "location": "Article IV",
+      "finding": "1540 Variata also revised the justification article",
+      "source": "https://www.augsburg1540.com/1530-1540-comparison-text.html",
+      "evidence": "MODERN_SIDE_BY_SIDE_COMPARISON",
+      "id": "V182-01",
+      "original_witness_verified": false,
+      "editorial_review": "PENDING"
+    },
+    {
+      "topic": "AC",
+      "location": "Article X",
+      "finding": "1530 vere adsint et distribuantur / 1540 cum pane et vino vere exhibeantur",
+      "source": "https://ep.teologi.dk/Tidsskrifter/Logia/Vol-6-4.pdf",
+      "evidence": "SCHOLARLY_EDITED_COMPARISON",
+      "id": "V182-02",
+      "original_witness_verified": false,
+      "editorial_review": "PENDING"
+    },
+    {
+      "topic": "AC",
+      "location": "Article XI/XII",
+      "finding": "Modern side-by-side discussion flags a change in article heading sequence",
+      "source": "https://www.augsburg1540.com/1530-1540-comparison-text.html",
+      "evidence": "MODERN_SIDE_BY_SIDE_COMPARISON",
+      "id": "V182-03",
+      "original_witness_verified": false,
+      "editorial_review": "PENDING"
+    },
+    {
+      "topic": "MAR",
+      "location": "Zurich E I 3.1 Nr.54",
+      "finding": "Zurich copy Z records three additions on articles 7, 13, 15, not present in Hessian copy K",
+      "source": "https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=618165",
+      "evidence": "ARCHIVAL_CATALOGUE",
+      "id": "V182-04",
+      "original_witness_verified": false,
+      "editorial_review": "PENDING"
+    },
+    {
+      "topic": "MAR",
+      "location": "Article XV",
+      "finding": "15th article records the remaining difference on the Lord's Supper",
+      "source": "https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=618165",
+      "evidence": "ARCHIVAL_CATALOGUE",
+      "id": "V182-05",
+      "original_witness_verified": false,
+      "editorial_review": "PENDING"
+    }
+  ],
+  "calvin_timeline": [
+    {
+      "edition": "1536 Latin",
+      "chapters": 6,
+      "note": "first catechetical edition",
+      "source": "https://cdn-static.supadu.com/baker-academic-us/pdf/Excerpt_9780801037313.pdf",
+      "direct_text_alignment_verified": false
+    },
+    {
+      "edition": "1539 Latin",
+      "chapters": 17,
+      "note": "first major expansion",
+      "source": "https://cdn-static.supadu.com/baker-academic-us/pdf/Excerpt_9780801037313.pdf",
+      "direct_text_alignment_verified": false
+    },
+    {
+      "edition": "1543 Latin",
+      "chapters": 21,
+      "note": "revised expanded edition",
+      "source": "https://cdn-static.supadu.com/baker-academic-us/pdf/Excerpt_9780801037313.pdf",
+      "direct_text_alignment_verified": false
+    },
+    {
+      "edition": "1550 Latin",
+      "chapters": null,
+      "note": "division of chapters into sections",
+      "source": "https://cdn-static.supadu.com/baker-academic-us/pdf/Excerpt_9780801037313.pdf",
+      "direct_text_alignment_verified": false
+    },
+    {
+      "edition": "1559 Latin",
+      "chapters": 80,
+      "note": "four-book final Latin arrangement",
+      "source": "https://cdn-static.supadu.com/baker-academic-us/pdf/Excerpt_9780801037313.pdf",
+      "direct_text_alignment_verified": false
+    },
+    {
+      "edition": "1560 French",
+      "chapters": null,
+      "note": "separate final French edition",
+      "source": "https://cdn-static.supadu.com/baker-academic-us/pdf/Excerpt_9780801037313.pdf",
+      "direct_text_alignment_verified": false
+    }
+  ],
+  "secondary_confirmation": "https://bridwell.omeka.net/exhibits/show/calvin/1562institutes",
+  "notes": "Catalogues and editions history are evidence leads; no original folio or printed-imprint collation completed"
+}
