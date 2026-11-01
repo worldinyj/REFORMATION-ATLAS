@@ -1,0 +1,73 @@
+{
+  "version": "1.87",
+  "can_ship": false,
+  "scholarly_approved": false,
+  "original_16c_folio_checked": false,
+  "document": "Augsburg Confession Article IV",
+  "witnesses": [
+    {
+      "id": "AC1531",
+      "edition_id": "EDN-V161-AC-1531",
+      "source": "https://www.gutenberg.org/cache/epub/607/pg607.html",
+      "source_class": "MODERN_TRANSCRIPTION_1530_1531_TRADITION",
+      "location": "Art. IV De Iustificatione paragraphs 1-3",
+      "short_phrases": [
+        "non possint iustificari coram Deo propriis viribus",
+        "sed gratis iustificentur propter Christum per fidem",
+        "Hanc fidem imputat Deus pro iustitia"
+      ],
+      "full_text_collated_against_CR26_p275": false
+    },
+    {
+      "id": "AC1540",
+      "edition_id": "EDN-V161-AC-1540",
+      "source": "https://www.augsburg1540.com/uploads/1/3/8/9/138903771/1540_latin_text_from_corpus_reformandum.pdf",
+      "source_class": "CORPUS_REFORMATORUM_1858_EDITED_FACSIMILE",
+      "location": "CR26 printed pp.352-353 (PDF physical pages 2-3)",
+      "short_phrases": [
+        "Vt autem consequamur haec beneficia Christi",
+        "dedit Christus Euangelium",
+        "iustificatio per fidem",
+        "non pendere ex conditione dignitatis nostrae"
+      ],
+      "full_text_collated_against_CR26_p275": false
+    }
+  ],
+  "collation_points": [
+    {
+      "id": "P1",
+      "topic": "주장의 첫머리",
+      "before": "인간 자신의 능력·공로·행위로 의롭다 함을 받을 수 없음",
+      "after": "그리스도의 유익을 얻도록 복음이 주어졌다는 설명으로 시작",
+      "type": "ARGUMENT_REORGANIZED",
+      "certainty": "READABLE_EDITED_WITNESSES"
+    },
+    {
+      "id": "P2",
+      "topic": "믿음과 의롭다 함",
+      "before": "그리스도를 위한 믿음으로 값없이 의롭다 함",
+      "after": "복음의 약속, 회개, 죄 사함, 믿음과 확신의 관계를 설명",
+      "type": "EXPOSITION_EXPANDED",
+      "certainty": "READABLE_EDITED_WITNESSES"
+    },
+    {
+      "id": "P3",
+      "topic": "약속의 확실성",
+      "before": "로마서 3–4장에 근거한 믿음의 의로움",
+      "after": "용서가 자신의 합당함에 매이지 않으므로 확신할 수 있다는 논증",
+      "type": "PASTORAL_ARGUMENT_ADDED",
+      "certainty": "READABLE_EDITED_WITNESSES"
+    }
+  ],
+  "cr26_editorial_apparatus": {
+    "printed_page": 352,
+    "footnote": 5,
+    "statement": "sic totus hic art. in Editt. 3. 4. mutatus est; Ed. 2. = Ed. 1.",
+    "earlier_witness_pointer": "CR26 p.275 lines 5–12"
+  },
+  "restrictions": [
+    "Do not call modern transcription direct inspection of 1531 imprint",
+    "Do not declare complete line by line collation with CR26 p.275",
+    "Do not label theological position wholly replaced without contextual review"
+  ]
+}
