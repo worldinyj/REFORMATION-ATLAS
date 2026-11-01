@@ -1,0 +1,57 @@
+{
+  "version": "1.94",
+  "release": {
+    "can_ship": false,
+    "original_print_directly_collated": false,
+    "academic_reviewed": false
+  },
+  "calvin": {
+    "first_print_1539": {
+      "institution": "Newberry Library",
+      "title": "Institutio Christianae Religionis nunc vere demum suo titulo respondens",
+      "year": 1539,
+      "publisher": "Wendelinus Rihel",
+      "place": "Strasbourg",
+      "shelfmark": "VAULT folio Case 6A 224",
+      "url": "https://collections.newberry.org/archive/-2KXJ8Z65UCH7.html",
+      "source_level": "HOLDING_AND_DIGITIZATION_CATALOGUE",
+      "page_images_directly_read": false
+    },
+    "critical_apparatus": {
+      "edition": "Barth and Niesel, Ioannis Calvini Opera Selecta III-V (1926–1952), Latin 1559 text with variant apparatus",
+      "url": "https://calvin.reformation.nl/",
+      "source_level": "DIGITAL_CRITICAL_EDITED_TEXT",
+      "evidence_examples": [
+        {
+          "locus": "I.1",
+          "critical_indicator": "1539-54",
+          "reading_type": "COLLATED_EARLIER_EDITIONS",
+          "url": "https://calvin.reformation.nl/872-Institutes%2Bof%2Bthe%2BChristian%2BReligion.%2BInstitutio%2Bchristianae%2Breligionis.%2BInstitution%2Bde%2Bla%2Breligion%2Bchrestienne/1/1",
+          "meaning_ko": "이전 라틴어 판본의 이문이 1559년 본문 옆에 표시됨"
+        },
+        {
+          "locus": "I.2",
+          "critical_indicator": "1539/36; 1539-54",
+          "reading_type": "INTEREDITIONAL_VARIANT",
+          "url": "https://calvin.reformation.nl/872-Institutes%2Bof%2Bthe%2BChristian%2BReligion.%2BInstitutio%2Bchristianae%2Breligionis.%2BInstitution%2Bde%2Bla%2Breligion%2Bchrestienne/1/2",
+          "meaning_ko": "1536년·1539년·1559년 본문과 변형을 비평 주석이 구별함"
+        }
+      ]
+    },
+    "research_goal": "1539 Christian-life chapter vs 1559 III.6–10",
+    "direct_paragraph_alignment_completed": false
+  },
+  "marburg": {
+    "zurich_shelfmark": "Staatsarchiv Zürich E I 3.1 Nr.54",
+    "facsimile_bibliography": "Usteri 1883, Theologische Studien und Kritiken 56, pp.409-413",
+    "source": "https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=618165",
+    "facsimile_pages_directly_read": false,
+    "additions_7_13_15_transcribed": false
+  },
+  "quality_requirements": [
+    "An online critical apparatus is a later edition, not a 1539 original-print collation",
+    "Only label the loci inspected in a visible online edition as such",
+    "Do not infer content of Zurich additions from archive bibliographical notes",
+    "Do not release without textual and editorial review"
+  ]
+}
