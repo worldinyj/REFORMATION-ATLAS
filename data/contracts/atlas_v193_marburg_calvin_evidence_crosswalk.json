@@ -1,0 +1,142 @@
+{
+  "version": "1.93",
+  "publication": {
+    "can_ship": false,
+    "original_german_manuscripts_collated": false,
+    "calvin_latin_paragraphs_collated": false
+  },
+  "marburg": {
+    "date": "1529-10-03",
+    "zurich": {
+      "shelfmark": "E I 3.1 Nr.54",
+      "siglum": "Z",
+      "archive": "Staatsarchiv Zürich"
+    },
+    "hessian": {
+      "siglum": "K",
+      "shelfmark": "Hessisches Staatsarchiv Marburg Best.3 Nr.245 fol.60r–64v"
+    },
+    "archive_source": "https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=618165",
+    "archive_evidence": "Official inventory explicitly reports three Z additions absent from K, at articles 7, 13, 15.",
+    "articles": [
+      {
+        "article": 7,
+        "addition_in_Z": true,
+        "addition_in_K": false,
+        "exact_diplomatic_reading": null,
+        "translation_ko": null,
+        "evidence_level": "ARCHIVE_INVENTORY_ONLY",
+        "publication_status": "BLOCKED_PENDING_COLLATION"
+      },
+      {
+        "article": 13,
+        "addition_in_Z": true,
+        "addition_in_K": false,
+        "exact_diplomatic_reading": null,
+        "translation_ko": null,
+        "evidence_level": "ARCHIVE_INVENTORY_ONLY",
+        "publication_status": "BLOCKED_PENDING_COLLATION"
+      },
+      {
+        "article": 15,
+        "addition_in_Z": true,
+        "addition_in_K": false,
+        "exact_diplomatic_reading": null,
+        "translation_ko": null,
+        "evidence_level": "ARCHIVE_INVENTORY_ONLY",
+        "publication_status": "BLOCKED_PENDING_COLLATION"
+      }
+    ],
+    "critical_edition_targets": [
+      {
+        "title": "Reformierte Bekenntnisschriften",
+        "part": "1/1",
+        "locator": "Nr.11, pp.259–267",
+        "basis": "Z"
+      },
+      {
+        "title": "MBW Texte",
+        "part": "3",
+        "locator": "Nr.825",
+        "basis": "K with Z variants"
+      },
+      {
+        "title": "Die Bekenntnisschriften der Evangelisch-Lutherischen Kirche, Quellen und Materialien",
+        "part": "1",
+        "locator": "pp.43–46",
+        "basis": "K"
+      }
+    ],
+    "new_finding": "The archive also identifies an 1883 published facsimile of the rediscovered Zurich original in Theologische Studien und Kritiken vol.56 pp.409–413; locating and inspecting that facsimile is a priority.",
+    "facsimile_citation": "Johann Martin Usteri, in Theologische Studien und Kritiken 56 (1883), pp.400–413, facsimile pp.409–413"
+  },
+  "calvin": {
+    "source": "https://www.crossway.org/articles/an-important-chapter-that-calvin-added-to-the-second-edition-of-his-institutes/",
+    "author": "Anthony N. S. Lane",
+    "trajectory": [
+      {
+        "year": 1536,
+        "status": "No separate Christian-life chapter"
+      },
+      {
+        "year": 1539,
+        "status": "New final chapter on Christian life"
+      },
+      {
+        "year": 1550,
+        "status": "Standalone Latin and French booklet"
+      },
+      {
+        "year": 1559,
+        "status": "Book III chapters 6–10"
+      }
+    ],
+    "thematic_crosswalk": [
+      {
+        "to": "III.6",
+        "theme": "Christian life's scriptural principles and growth",
+        "subsection_examples": [
+          "3.6.1",
+          "3.6.5"
+        ],
+        "alignment": "THEMATIC_EDITORIAL"
+      },
+      {
+        "to": "III.7",
+        "theme": "Self-denial and submission to God's will",
+        "subsection_examples": [
+          "3.7.2",
+          "3.7.10"
+        ],
+        "alignment": "THEMATIC_EDITORIAL"
+      },
+      {
+        "to": "III.8",
+        "theme": "Bearing the cross, patience and discipline",
+        "subsection_examples": [
+          "3.8.7–8"
+        ],
+        "alignment": "THEMATIC_EDITORIAL"
+      },
+      {
+        "to": "III.9",
+        "theme": "Meditation on the future life",
+        "subsection_examples": [
+          "3.9.2",
+          "3.9.4"
+        ],
+        "alignment": "THEMATIC_EDITORIAL"
+      },
+      {
+        "to": "III.10",
+        "theme": "Right use of present life and possessions",
+        "subsection_examples": [
+          "3.10.1"
+        ],
+        "alignment": "THEMATIC_EDITORIAL"
+      }
+    ],
+    "paragraph_level_1539_to_1559_verified": false,
+    "editorial_caution": "Lane explicitly notes a small amount of additional material in 1559; do not claim all five chapters are verbatim 1539 content."
+  }
+}
