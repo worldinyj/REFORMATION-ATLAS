@@ -1,0 +1,20 @@
+name: Atlas V204 passage evidence triage QA
+on:
+  push:
+    branches: ['research/**']
+    paths:
+      - 'data/deep/atlas_v204_paragraph_review_units.json'
+      - 'scripts/validate_atlas_v204.py'
+      - '.github/workflows/atlas-v204-passage-evidence.yml'
+  workflow_dispatch:
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 scripts/validate_atlas_v202.py
+      - run: python3 scripts/validate_atlas_v203.py
+      - run: python3 scripts/validate_atlas_v204.py
