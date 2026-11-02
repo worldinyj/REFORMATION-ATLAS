@@ -3,5 +3,117 @@
   "parent_commit": "39512e84376bba2f67a64d669973be99e8ff3141",
   "publication_hold": true,
   "calendar": "Julian 1529",
-  "date_note": "original Am montag versus later editorial 5 October"
+  "date_note": "original Am montag versus later editorial 5 October",
+  "baseline": "data/deep/atlas_v234_k_two_original_photo_faces_and_15_article_korean_reader.json",
+  "publication_gate": {
+    "ship": false,
+    "k_original_full": false,
+    "z_original_full": false,
+    "jonas_original": false,
+    "cr1834_letter": false,
+    "photo_permissions": false,
+    "academic_review": false
+  },
+  "sources": [
+    {
+      "id": "osiander",
+      "url": "https://germanhistorydocs.org/de/von-den-reformationen-bis-zum-dreissigjaehrigen-krieg-1500-1648/die-marburger-religionsgespraeche-bericht-eines-lutherischen-augenzeugen-1529",
+      "evidence": "1529 eyewitness report edited from WA30/3, original uses Am montag without day number, Saturday morning recollection second-hand",
+      "autograph_folio_seen": false
+    },
+    {
+      "id": "modern",
+      "url": "https://www.hapuls.de/node/1762",
+      "evidence": "Modern edition after Oberman supplies [5. Oktober] for Monday; not wording of 1529 text",
+      "autograph_folio_seen": false
+    },
+    {
+      "id": "westerweg",
+      "url": "https://www.vhghessen.de/inhalt/zhg/ZHG_129/Westerweg_Theologen_ZHG_129_2024.pdf",
+      "evidence": "Matthias Westerweg 2024 ZHG129 pp9-31, printed p15, quotes contemporary Jonas letter with die lunae [4 Oktober], PDF text read but screenshot timeout",
+      "autograph_folio_seen": false
+    },
+    {
+      "id": "jonas_copy",
+      "url": "https://kalliope.staatsbibliothek-berlin.de/ead?ead.id=DE-611-HS-3422547",
+      "evidence": "Gotha B28 41v-43r later copy of Jonas 4 Oct letter",
+      "autograph_folio_seen": false
+    },
+    {
+      "id": "mbw825",
+      "url": "https://melanchthon.hadw-bw.de/regest.html?reg_nr=825",
+      "evidence": "Official regest dates signed 15 articles as 3.[4.] October",
+      "autograph_folio_seen": false
+    },
+    {
+      "id": "mbw826",
+      "url": "https://melanchthon.hadw-bw.de/regest.html?reg_nr=826",
+      "evidence": "Melanchthon 4/5 October report after signing",
+      "autograph_folio_seen": false
+    },
+    {
+      "id": "z",
+      "url": "https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=618165",
+      "evidence": "Z signed original additions 7 13 15; original image not read",
+      "autograph_folio_seen": false
+    },
+    {
+      "id": "hapuls_k",
+      "url": "https://www.hapuls.de/node/1472",
+      "evidence": "Claims complete originals online but page opening times out",
+      "autograph_folio_seen": false
+    },
+    {
+      "id": "osiander_ga",
+      "url": "https://www.hadw-bw.de/sites/default/files/documents/3.%20Osiander%20Schriften%20und%20Briefe%201528%20bis%20April%201530.pdf",
+      "evidence": "Osiander-GA chronology 2-4 Oct present, 5-6 Oct returning",
+      "autograph_folio_seen": false
+    },
+    {
+      "id": "zwingli",
+      "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/ghdi:document-4300",
+      "evidence": "20 Oct letter to Vadian, retrospective partisan stance",
+      "autograph_folio_seen": false
+    }
+  ],
+  "julian_dates": [
+    {
+      "date": "1529-09-30",
+      "day": "Thursday"
+    },
+    {
+      "date": "1529-10-01",
+      "day": "Friday"
+    },
+    {
+      "date": "1529-10-02",
+      "day": "Saturday"
+    },
+    {
+      "date": "1529-10-03",
+      "day": "Sunday"
+    },
+    {
+      "date": "1529-10-04",
+      "day": "Monday"
+    },
+    {
+      "date": "1529-10-05",
+      "day": "Tuesday"
+    }
+  ],
+  "weekday_correction": {
+    "original": "Am montag",
+    "original_has_numeric_day": false,
+    "modern_edition_bracket": "[5. Oktober]",
+    "jonas_scholarly_quote": "Hodie, die lunae [4. Oktober]",
+    "normalized_date": "1529-10-04",
+    "evidence_ids": [
+      "osiander",
+      "modern",
+      "westerweg",
+      "mbw825"
+    ],
+    "provenance": "Modern editorial date correction, not an emendation of original 1529 handwriting"
+  }
 }
