@@ -1,0 +1,202 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "edition": "2.13",
+    "publication": "RESEARCH_ONLY_HOLD",
+    "city_point_warning": "Approximate modern city coordinates, not actual rooms or execution spots"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.72317,
+          49.38989
+        ]
+      },
+      "properties": {
+        "id": "PLACE-V213-KOZI",
+        "label": "코지 흐라데크",
+        "precision": "REPORTED_HISTORIC_SITE",
+        "can_publish": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.176,
+          47.663
+        ]
+      },
+      "properties": {
+        "id": "PLACE-V213-KONSTANZ",
+        "label": "콘스탄츠",
+        "precision": "APPROXIMATE_CITY_CENTRE",
+        "can_publish": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.648,
+          51.868
+        ]
+      },
+      "properties": {
+        "id": "PLACE-V213-WITTENBERG",
+        "label": "비텐베르크",
+        "precision": "APPROXIMATE_CITY_CENTRE",
+        "can_publish": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.36,
+          49.63
+        ]
+      },
+      "properties": {
+        "id": "PLACE-V213-WORMS",
+        "label": "보름스",
+        "precision": "APPROXIMATE_CITY_CENTRE",
+        "can_publish": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.542,
+          47.376
+        ]
+      },
+      "properties": {
+        "id": "PLACE-V213-ZURICH",
+        "label": "취리히",
+        "precision": "APPROXIMATE_CITY_CENTRE",
+        "can_publish": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.77,
+          50.811
+        ]
+      },
+      "properties": {
+        "id": "PLACE-V213-MARBURG",
+        "label": "마르부르크",
+        "precision": "APPROXIMATE_CITY_CENTRE",
+        "can_publish": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.898,
+          48.371
+        ]
+      },
+      "properties": {
+        "id": "PLACE-V213-AUGSBURG",
+        "label": "아우크스부르크",
+        "precision": "APPROXIMATE_CITY_CENTRE",
+        "can_publish": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.589,
+          47.56
+        ]
+      },
+      "properties": {
+        "id": "PLACE-V213-BASEL",
+        "label": "바젤",
+        "precision": "APPROXIMATE_CITY_CENTRE",
+        "can_publish": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.752,
+          48.583
+        ]
+      },
+      "properties": {
+        "id": "PLACE-V213-STRASBOURG",
+        "label": "스트라스부르",
+        "precision": "APPROXIMATE_CITY_CENTRE",
+        "can_publish": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.122,
+          46.067
+        ]
+      },
+      "properties": {
+        "id": "PLACE-V213-TRENTO",
+        "label": "트렌토",
+        "precision": "APPROXIMATE_CITY_CENTRE",
+        "can_publish": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.144,
+          46.204
+        ]
+      },
+      "properties": {
+        "id": "PLACE-V213-GENEVA",
+        "label": "제네바",
+        "precision": "APPROXIMATE_CITY_CENTRE",
+        "can_publish": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.255,
+          51.752
+        ]
+      },
+      "properties": {
+        "id": "PLACE-V213-OXFORD",
+        "label": "옥스퍼드",
+        "precision": "APPROXIMATE_ACADEMIC_CONTEXT",
+        "can_publish": false
+      }
+    }
+  ]
+}
