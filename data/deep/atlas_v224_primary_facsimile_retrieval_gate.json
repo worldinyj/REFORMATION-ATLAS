@@ -1,0 +1,312 @@
+{
+  "version": "2.24",
+  "kind": "PRIMARY_FACSIMILE_RETRIEVAL_GATE_AND_TEXTUAL_VERIFICATION_QUEUE",
+  "parent_commit": "17b549ad755fd9d8a865f1342487736bb2af2310",
+  "parent_branch": "research/atlas-v223-marburg-critical-transcription-trace",
+  "base_dataset": "data/deep/atlas_v223_marburg_critical_text_and_date_provenance.json",
+  "publication_gate": {
+    "can_ship": false,
+    "original_page_inspection_completed": false,
+    "original_witness_text_collated": false,
+    "expert_approved": false,
+    "media_reuse_reviewed": false,
+    "webapp_integrated": false
+  },
+  "policy": {
+    "network_fetch_is_explicit_opt_in": true,
+    "default_dry_run": true,
+    "downloaded_originals_must_not_be_committed": true,
+    "direct_original_image_evidence_requires_visual_inspection": true,
+    "editorial_transcriptions_cannot_fill_z_k_variant_fields": true,
+    "document_date_must_not_replace_portal_event_date": true
+  },
+  "source_evidence": [
+    {
+      "id": "SRC-V224-ERARA-API",
+      "type": "INSTITUTIONAL_API_DOCUMENTATION",
+      "url": "https://www.e-rara.ch/wiki/apiinfo",
+      "claim": "e-rara whole-title PDF: /download/pdf/{VLID}.pdf; IIIF and OAI metadata interfaces documented",
+      "access_level": "WEB_READ",
+      "original_image_seen": false
+    },
+    {
+      "id": "SRC-V224-ERARA-W2119",
+      "type": "INSTITUTIONAL_1529_EDITION_RECORD",
+      "url": "https://www.e-rara.ch/zuz/content/titleinfo/170052",
+      "claim": "1529 Zurich Froschauer imprint, ZB Zürich 5.174,5, VD16 W2119, [4] Bl., Public Domain Mark; permalink doi:10.3931/e-rara-597",
+      "access_level": "SEARCH_INDEXED_INSTITUTIONAL_RECORD",
+      "original_image_seen": false
+    },
+    {
+      "id": "SRC-V224-ERARA-IIIFDOC",
+      "type": "INSTITUTIONAL_IIIF_INTERFACE_DOCUMENTATION",
+      "url": "https://data.zb.uzh.ch/map/books/data-map-der-zentralbibliothek-zurich/page/e-rara-iiif",
+      "claim": "IIIF Presentation API v2 manifest pattern /i3f/v20/{VLID}/manifest; per-image v21 requires individual image VLID",
+      "access_level": "WEB_READ",
+      "original_image_seen": false
+    },
+    {
+      "id": "SRC-V224-HAPULS-IMG",
+      "type": "HESSIAN_ORIGINAL_IMAGE_GALLERY_LANDING",
+      "url": "https://www.hapuls.de/node/1472",
+      "claim": "Originaldigitalisate komplett, Marburger Artikel; HStAM PA Nr. 245 Bl.60–63 label",
+      "access_level": "SEARCH_INDEXED_GALLERY_RECORD_ONLY",
+      "original_image_seen": false
+    },
+    {
+      "id": "SRC-V224-DIGIREF-K",
+      "type": "SCHOLARLY_MANUSCRIPT_CATALOGUE",
+      "url": "https://flugschriften.reformationsportal.de/recherche-im-gesamtbestand/listeneinstieg?cHash=b4cace5da9c214d4d23e5163b49d0c2c&tx_joreformation_pi1004listenuebersicht%5Baction%5D=detail&tx_joreformation_pi1004listenuebersicht%5Bcontroller%5D=Mapservice&tx_joreformation_pi1004listenuebersicht%5BjoDel%5D=1&tx_joreformation_pi1004listenuebersicht%5BjoDetailView%5D=stat_showcase_00000023",
+      "claim": "HStAM Best.3 Nr245 fol60r–64v; catalogue dates 4 October",
+      "access_level": "SEARCH_INDEXED_SCHOLARLY_RECORD",
+      "original_image_seen": false
+    },
+    {
+      "id": "SRC-V224-ZH-CAT",
+      "type": "OFFICIAL_ARCHIVE_CATALOGUE",
+      "url": "https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=618165",
+      "claim": "Z E I3.1 Nr54 includes additions in Articles 7/13/15 absent in K; documents 3 October; links two Zurich prints",
+      "access_level": "WEB_READ_CATALOGUE",
+      "original_image_seen": false
+    },
+    {
+      "id": "SRC-V224-MBW825",
+      "type": "SCHOLARLY_CRITICAL_REGEST",
+      "url": "https://melanchthon.hadw-bw.de/regest.html?reg_nr=825",
+      "claim": "Marburger Artikel dated 3.[4.] Oktober 1529, explicitly retaining editorial uncertainty",
+      "access_level": "WEB_READ",
+      "original_image_seen": false
+    },
+    {
+      "id": "SRC-V224-HEPPE1854",
+      "type": "PUBLIC_DOMAIN_HISTORICAL_FACSIMILE_BIBLIOGRAPHY",
+      "url": "https://play.google.com/store/books/details/Heinrich_Heppe_Die_f%C3%BCnfzehn_Marburger_Artikel_vom?id=L2b7YTiIyLwC",
+      "claim": "Google Books lists Heppe facsimile 1854, 23 pp., free ebook; original facsimile pages not directly read",
+      "access_level": "BOOK_BIBLIOGRAPHY",
+      "original_image_seen": false
+    },
+    {
+      "id": "SRC-V224-HEPPE1847",
+      "type": "HISTORIC_BIBLIOGRAPHIC_COUNTERRECORD",
+      "url": "https://de.wikisource.org/wiki/MKL1888%3AHeppe",
+      "claim": "Meyers 1888 biography lists Heppe Die 15 Marburger Artikel (Kassel 1847), so 1847 vs 1854 needs imprint examination",
+      "access_level": "NINETEENTH_CENTURY_REFERENCE_TRANSCRIPTION",
+      "original_image_seen": false
+    }
+  ],
+  "acquisition_targets": [
+    {
+      "id": "ACQ-V224-W2119-PDF",
+      "witness": "MAR-ZURICH-PRINT",
+      "parent_v221_accession": "ACC-V221-ZH1",
+      "kind": "OFFICIAL_ORIGINAL_1529_PRINT_FACSIMILE_PDF",
+      "url": "https://www.e-rara.ch/download/pdf/170052.pdf",
+      "source_ids": [
+        "SRC-V224-ERARA-API",
+        "SRC-V224-ERARA-W2119"
+      ],
+      "url_derivation": "INSTITUTIONAL_TEMPLATE_PLUS_CONFIRMED_VLID_NOT_FILE_FETCH",
+      "network_fetch_attempted": true,
+      "network_result": "WEB_UNAVAILABLE_AND_CONTAINER_DNS_FAILURE",
+      "bytes_saved": 0,
+      "verified_pdf_magic": false,
+      "page_count": null,
+      "page_image_visual_read": false,
+      "transcribed_articles": []
+    },
+    {
+      "id": "ACQ-V224-W2119-IIIF",
+      "witness": "MAR-ZURICH-PRINT",
+      "parent_v221_accession": "ACC-V221-ZH1",
+      "kind": "OFFICIAL_ORIGINAL_1529_PRINT_IIIF_MANIFEST",
+      "url": "https://www.e-rara.ch/i3f/v20/170052/manifest",
+      "source_ids": [
+        "SRC-V224-ERARA-IIIFDOC",
+        "SRC-V224-ERARA-W2119"
+      ],
+      "url_derivation": "INSTITUTIONAL_TEMPLATE_PLUS_CONFIRMED_VLID_NOT_MANIFEST_PARSE",
+      "network_fetch_attempted": true,
+      "network_result": "WEB_TOOL_ACCESS_RESTRICTED_AND_CONTAINER_DNS_FAILURE",
+      "bytes_saved": 0,
+      "verified_pdf_magic": false,
+      "page_count": null,
+      "page_image_visual_read": false,
+      "transcribed_articles": []
+    },
+    {
+      "id": "ACQ-V224-K-GALLERY",
+      "witness": "MAR-K",
+      "parent_v221_accession": "ACC-V221-K",
+      "kind": "ORIGINAL_MANUSCRIPT_IMAGE_GALLERY_LANDING",
+      "url": "https://www.hapuls.de/node/1472",
+      "source_ids": [
+        "SRC-V224-HAPULS-IMG",
+        "SRC-V224-DIGIREF-K"
+      ],
+      "url_derivation": "INDEXED_INSTITUTIONAL_PROJECT_GALLERY_NOT_DIRECT_IMAGE_ENDPOINT",
+      "network_fetch_attempted": true,
+      "network_result": "WEB_OPEN_TIMEOUT_AND_CONTAINER_DNS_FAILURE",
+      "bytes_saved": 0,
+      "verified_pdf_magic": false,
+      "page_count": null,
+      "page_image_visual_read": false,
+      "transcribed_articles": []
+    },
+    {
+      "id": "ACQ-V224-Z-ARCHIVE",
+      "witness": "MAR-Z",
+      "parent_v221_accession": "ACC-V221-Z",
+      "kind": "SIGNED_MANUSCRIPT_ARCHIVE_ENTRY",
+      "url": "https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=618165",
+      "source_ids": [
+        "SRC-V224-ZH-CAT"
+      ],
+      "url_derivation": "ARCHIVAL_DESCRIPTION_NOT_DIGITAL_PAGE",
+      "network_fetch_attempted": false,
+      "network_result": "NEED_MANUSCRIPT_IMAGE_URL_OR_ARCHIVE_REPRODUCTION",
+      "bytes_saved": 0,
+      "verified_pdf_magic": false,
+      "page_count": null,
+      "page_image_visual_read": false,
+      "transcribed_articles": []
+    }
+  ],
+  "image_readiness": [
+    {
+      "id": "IMAGE-GATE-W2119",
+      "target_ids": [
+        "ACQ-V224-W2119-PDF",
+        "ACQ-V224-W2119-IIIF"
+      ],
+      "expected_object": "4-leaf printed object; verify covers/blank leaves rather than presume exactly 8 digital pages",
+      "needed": [
+        "PDF_SIG_OR_IIIF_V2_JSON",
+        "STABLE_CANVAS_IDS_AND_IMAGE_ORDER",
+        "VISUAL_PAGE_7_13_15",
+        "PAGE_PROVENANCE",
+        "INDEPENDENT_TRANSCRIPTION"
+      ],
+      "completed": false
+    },
+    {
+      "id": "IMAGE-GATE-K",
+      "target_ids": [
+        "ACQ-V224-K-GALLERY"
+      ],
+      "expected_object": "Autograph best3 no245 fol60r-64v; reconcile PA Nr245 Bl60-63 label",
+      "needed": [
+        "ORIGINAL_PAGE_IMAGES",
+        "FOLIO_MAPPING",
+        "ORIGINAL_ART_7_13_15_LOCATIONS",
+        "PALEOGRAPHIC_TRANSCRIPTION",
+        "INDEPENDENT_REVIEW"
+      ],
+      "completed": false
+    },
+    {
+      "id": "IMAGE-GATE-Z",
+      "target_ids": [
+        "ACQ-V224-Z-ARCHIVE"
+      ],
+      "expected_object": "Z autograph E I3.1 Nr54, three catalogued additions",
+      "needed": [
+        "ORIGINAL_SCAN_OR_MICROFILM",
+        "FOLIO_MAPPING",
+        "MARKED_ADDITIONS_7_13_15",
+        "COMPARISON_TO_K",
+        "INDEPENDENT_REVIEW"
+      ],
+      "completed": false
+    }
+  ],
+  "original_variant_queue": [
+    {
+      "id": "VAR-V224-07",
+      "parent_v220_variant_id": "V220-MAR-07",
+      "article": "7",
+      "z_original_reading": null,
+      "k_original_reading": null,
+      "w2119_original_print_reading": null,
+      "folio_z": null,
+      "folio_k": null,
+      "printed_page": null,
+      "verification_status": "NOT_COLLATED"
+    },
+    {
+      "id": "VAR-V224-13",
+      "parent_v220_variant_id": "V220-MAR-13",
+      "article": "13",
+      "z_original_reading": null,
+      "k_original_reading": null,
+      "w2119_original_print_reading": null,
+      "folio_z": null,
+      "folio_k": null,
+      "printed_page": null,
+      "verification_status": "NOT_COLLATED"
+    },
+    {
+      "id": "VAR-V224-15",
+      "parent_v220_variant_id": "V220-MAR-15",
+      "article": "15",
+      "z_original_reading": null,
+      "k_original_reading": null,
+      "w2119_original_print_reading": null,
+      "folio_z": null,
+      "folio_k": null,
+      "printed_page": null,
+      "verification_status": "NOT_COLLATED"
+    }
+  ],
+  "date_alignment": {
+    "original_document_date": "1529-10-03",
+    "date_directly_read_from_original": false,
+    "scholarly_regest_label": "3.[4.] Oktober 1529",
+    "digital_portal_event_date": "1529-10-04",
+    "resolve_as_single_date": false,
+    "source_ids": [
+      "SRC-V224-ZH-CAT",
+      "SRC-V224-MBW825",
+      "SRC-V224-DIGIREF-K"
+    ]
+  },
+  "bibliographic_issues": [
+    {
+      "id": "BIB-V224-W2118",
+      "status": "UNRESOLVED",
+      "question": "Map VD16 W2118 to an exact item and shelfmark; do not assume Zwingli MvK A81,8"
+    },
+    {
+      "id": "BIB-V224-HEPPE-DATES",
+      "status": "UNRESOLVED",
+      "question": "Check title/colophon and edition history of Heppe 1847 vs Google Books 1854 facsimile; do not silently replace one date"
+    },
+    {
+      "id": "BIB-V224-K-FOLIO",
+      "status": "UNRESOLVED",
+      "question": "Reconcile HAPuls HStAM PA Bl60–63 with archive HStAM Best3 Nr245 fol60r–64v"
+    },
+    {
+      "id": "BIB-V224-PRINT-RELATION",
+      "status": "UNRESOLVED",
+      "question": "Do not infer printed W2119 reproduces Z additions absent K until images checked"
+    }
+  ],
+  "metrics": {
+    "source_records": 9,
+    "acquisition_targets": 4,
+    "image_readiness_gates": 3,
+    "variant_queue_items": 3,
+    "new_reproducible_official_pdf_pattern": 1,
+    "downloaded_verified_primary_files": 0,
+    "direct_original_pages_read": 0,
+    "actual_zk_variant_readings": 0,
+    "public_items": 0
+  },
+  "next_actions": [
+    "Run offline URL preview/validator script on local workstation; this is safe and does not claim retrieval.",
+    "With explicit --fetch flag request W2119 PDF or IIIF using a permitted network with bounded downloads and verify magic bytes and SHA256.",
+    "Visually inspect each original image/canvas; map articles 7,13,15 and assign folio before writing a single manuscript reading.",
+    "Acquire K signed original images via official repository and Z E I3.1 Nr54 scan; separate original image from nineteenth-century facsimiles.",
+    "Cross-check WA1910/GHDI editorial text against primary witnesses, never backfill unknown witness readings from editions."
+  ]
+}
