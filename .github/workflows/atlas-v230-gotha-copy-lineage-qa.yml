@@ -1,0 +1,53 @@
+name: Atlas V230 Gotha anonymous-copy lineage and Heppe editions QA
+on:
+  push:
+    branches: ['research/**']
+    paths:
+      - 'data/deep/atlas_v230_gotha_anonymous_manuscript_copies_heppe_lineage.json'
+      - 'docs/01_CONTENT/V230_GOTHA_ANONYMOUS_REPORT_COPIES_AND_HEPPE_EDITION_REPORT.md'
+      - 'docs/01_CONTENT/V230_GOTHA_REPRODUCTION_INQUIRY_DRAFT_DE.md'
+      - 'scripts/validate_atlas_v230.py'
+      - '.github/workflows/atlas-v230-gotha-copy-lineage-qa.yml'
+  pull_request:
+    branches: ['research/**']
+    paths:
+      - 'data/deep/atlas_v230_gotha_anonymous_manuscript_copies_heppe_lineage.json'
+      - 'docs/01_CONTENT/V230_GOTHA_ANONYMOUS_REPORT_COPIES_AND_HEPPE_EDITION_REPORT.md'
+      - 'docs/01_CONTENT/V230_GOTHA_REPRODUCTION_INQUIRY_DRAFT_DE.md'
+      - 'scripts/validate_atlas_v230.py'
+      - '.github/workflows/atlas-v230-gotha-copy-lineage-qa.yml'
+  workflow_dispatch:
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: V230 validator syntax
+        run: python3 -m py_compile scripts/validate_atlas_v230.py
+      - name: Validate V219
+        run: python3 scripts/validate_atlas_v219.py
+      - name: Validate V220
+        run: python3 scripts/validate_atlas_v220.py
+      - name: Validate V221
+        run: python3 scripts/validate_atlas_v221.py
+      - name: Validate V222
+        run: python3 scripts/validate_atlas_v222.py
+      - name: Validate V223
+        run: python3 scripts/validate_atlas_v223.py
+      - name: Validate V224
+        run: python3 scripts/validate_atlas_v224.py
+      - name: Validate V225
+        run: python3 scripts/validate_atlas_v225.py
+      - name: Validate V226
+        run: python3 scripts/validate_atlas_v226.py
+      - name: Validate V227
+        run: python3 scripts/validate_atlas_v227.py
+      - name: Validate V228
+        run: python3 scripts/validate_atlas_v228.py
+      - name: Validate V229
+        run: python3 scripts/validate_atlas_v229.py
+      - name: Validate V230
+        run: python3 scripts/validate_atlas_v230.py
