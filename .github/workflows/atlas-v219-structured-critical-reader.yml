@@ -1,0 +1,34 @@
+name: Atlas V219 structured reader QA
+on:
+  push:
+    branches: ['research/**']
+    paths:
+      - 'data/deep/atlas_v219_structured_ten_reader_critical_editions.json'
+      - 'scripts/validate_atlas_v219.py'
+      - '.github/workflows/atlas-v219-structured-critical-reader.yml'
+  workflow_dispatch:
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 scripts/validate_atlas_v202.py
+      - run: python3 scripts/validate_atlas_v203.py
+      - run: python3 scripts/validate_atlas_v204.py
+      - run: python3 scripts/validate_atlas_v205.py
+      - run: python3 scripts/validate_atlas_v206.py
+      - run: python3 scripts/validate_atlas_v207.py
+      - run: python3 scripts/validate_atlas_v208.py
+      - run: python3 scripts/validate_atlas_v209.py
+      - run: python3 scripts/validate_atlas_v210.py
+      - run: python3 scripts/validate_atlas_v211.py
+      - run: python3 scripts/validate_atlas_v212.py
+      - run: python3 scripts/validate_atlas_v214.py
+      - run: python3 scripts/validate_atlas_v215.py
+      - run: python3 scripts/validate_atlas_v216.py
+      - run: python3 scripts/validate_atlas_v217.py
+      - run: python3 scripts/validate_atlas_v218.py
+      - run: python3 scripts/validate_atlas_v219.py
