@@ -1,0 +1,24 @@
+name: Atlas V208 source passage research QA
+on:
+  push:
+    branches: ['research/**']
+    paths:
+      - 'data/deep/atlas_v208_critical_passage_dossiers.json'
+      - 'scripts/validate_atlas_v208.py'
+      - '.github/workflows/atlas-v208-source-passages.yml'
+  workflow_dispatch:
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 scripts/validate_atlas_v202.py
+      - run: python3 scripts/validate_atlas_v203.py
+      - run: python3 scripts/validate_atlas_v204.py
+      - run: python3 scripts/validate_atlas_v205.py
+      - run: python3 scripts/validate_atlas_v206.py
+      - run: python3 scripts/validate_atlas_v207.py
+      - run: python3 scripts/validate_atlas_v208.py
