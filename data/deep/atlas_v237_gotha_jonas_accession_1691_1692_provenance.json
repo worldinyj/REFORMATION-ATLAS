@@ -34,7 +34,62 @@
     "viewer_opened": false,
     "iiif_download_verified": false
   },
-  "sources": [],
+  "sources": [
+    {
+      "id": "GOTHA-FIND",
+      "url": "https://kalliope.staatsbibliothek-berlin.de/de/findingaid?fa.id=DE-611-BF-76744&fq=ead.pers.index%3A%28%22Fox%2C+Edward+%281496-%29%22%29&htmlFull=false&lang=de&lastparam=true",
+      "level": "DIRECT_FINDING_AID",
+      "finding": "Adjacent records: 4254430 1552 Menius extract fol24v; 4254434 Jonas letter fol24v–25v. Object-level accession must not be confused."
+    },
+    {
+      "id": "GOTHA-BLOG",
+      "url": "https://blog-fbg.uni-erfurt.de/2024/04/ein-wissenschaftliches-grossprojekt-in-laendlicher-abgeschiedenheit/",
+      "level": "FULL_INSTITUTIONAL_2024_ARTICLE",
+      "finding": "Daniel Gehrt: first book fall 1687; completed history fall 1691 and publisher Gleditsch anticipatorily dated 1692; 1688–1691 access to Weimar archives; more than 400 volumes transferred."
+    },
+    {
+      "id": "BSB-BOOK",
+      "url": "https://www.digitale-sammlungen.de/view/bsb10716130",
+      "level": "DIGITAL_OBJECT_IDENTIFIED_VIEWER_UNREACHABLE",
+      "finding": "Official Gotha library article points to full digitization bsb10716130 for 1692 title year. Target letter p139 not viewed."
+    },
+    {
+      "id": "BSB-URN",
+      "url": "https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb10716130-9",
+      "level": "INSTITUTIONAL_PERSISTENT_LINK_REDIRECT_UNREACHABLE",
+      "finding": "Gotha published URN of full book; redirects to BSB viewer, inaccessible in this environment."
+    },
+    {
+      "id": "BSB-IIIF",
+      "url": "https://digitale-sammlungen.de/en/interfaces",
+      "level": "INSTITUTIONAL_API_DOCUMENTATION",
+      "finding": "Official IIIF v2 manifest pattern; reconstructed candidate manifest for bsb10716130 failed to load, cannot infer images/pages."
+    },
+    {
+      "id": "GOTHA-B28",
+      "url": "https://kalliope.staatsbibliothek-berlin.de/ead?ead.id=DE-611-HS-3422547",
+      "level": "DIRECT_ARCHIVE_CATALOGUE",
+      "finding": "Meusel later copy Chart B28 f41v–43r, Aquila appears in title but controlled metadata reports Bezug nicht dokumentiert."
+    },
+    {
+      "id": "CR1834",
+      "url": "https://commons.ptsem.edu/id/philippimelantho01mela",
+      "level": "DIGITAL_BOOK_CATALOGUE_NOT_TARGET_TEXT",
+      "finding": "1834 corpus volume1 with Jonas col1097 and Melanchthon col1106f, printed columns not directly read."
+    },
+    {
+      "id": "FUDGE1997",
+      "url": "https://downloads.whitehorsetc.com/Icarus_of_Basel_Oecolampadius_and_the_Ea.pdf",
+      "level": "MODERN_1997_PDF_PREVIOUSLY_VISUALLY_CHECKED",
+      "finding": "p268 cites short Jonas favorable evaluation of Oecolampadius from CR I col1097; not independently 1529 autograph."
+    },
+    {
+      "id": "GOTHA-LICENSE",
+      "url": "https://blog-fbg.uni-erfurt.de/2024/04/ein-wissenschaftliches-grossprojekt-in-laendlicher-abgeschiedenheit/",
+      "level": "BLOG_LICENSE_ONLY",
+      "finding": "Gotha site blog under CC BY-SA 4.0; this does not automatically license embedded manuscript or digitized 1692 print scans."
+    }
+  ],
   "timeline": [],
   "witness_ladder": [],
   "reader_sections": [],
