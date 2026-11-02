@@ -1,0 +1,65 @@
+name: Atlas V236 Jonas double-copy and 1692/1834 textual transmission QA
+on:
+  push:
+    branches: ['research/**']
+    paths:
+      - 'data/deep/atlas_v236_jonas_1529_letter_double_copy_and_textual_transmission.json'
+      - 'docs/01_CONTENT/V236_JONAS_1529_LETTER_TWO_GOTHA_COPIES_AND_SCHOLARLY_TEXT_COLLATION.md'
+      - 'docs/01_CONTENT/V236_GOTHA_TWO_JONAS_COPIES_REPRODUCTION_REQUEST_DRAFT_DE.md'
+      - 'scripts/validate_atlas_v236.py'
+      - '.github/workflows/atlas-v236-jonas-copy-lineage-qa.yml'
+  pull_request:
+    branches: ['research/**']
+    paths:
+      - 'data/deep/atlas_v236_jonas_1529_letter_double_copy_and_textual_transmission.json'
+      - 'docs/01_CONTENT/V236_JONAS_1529_LETTER_TWO_GOTHA_COPIES_AND_SCHOLARLY_TEXT_COLLATION.md'
+      - 'docs/01_CONTENT/V236_GOTHA_TWO_JONAS_COPIES_REPRODUCTION_REQUEST_DRAFT_DE.md'
+      - 'scripts/validate_atlas_v236.py'
+      - '.github/workflows/atlas-v236-jonas-copy-lineage-qa.yml'
+  workflow_dispatch:
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Compile V236 source transmission validator
+        run: python3 -m py_compile scripts/validate_atlas_v236.py
+      - name: Historical research baseline V219
+        run: python3 scripts/validate_atlas_v219.py
+      - name: Historical research baseline V220
+        run: python3 scripts/validate_atlas_v220.py
+      - name: Historical research baseline V221
+        run: python3 scripts/validate_atlas_v221.py
+      - name: Historical research baseline V222
+        run: python3 scripts/validate_atlas_v222.py
+      - name: Historical research baseline V223
+        run: python3 scripts/validate_atlas_v223.py
+      - name: Historical research baseline V224
+        run: python3 scripts/validate_atlas_v224.py
+      - name: Historical research baseline V225
+        run: python3 scripts/validate_atlas_v225.py
+      - name: Historical research baseline V226
+        run: python3 scripts/validate_atlas_v226.py
+      - name: Historical research baseline V227
+        run: python3 scripts/validate_atlas_v227.py
+      - name: Historical research baseline V228
+        run: python3 scripts/validate_atlas_v228.py
+      - name: Historical research baseline V229
+        run: python3 scripts/validate_atlas_v229.py
+      - name: Historical research baseline V230
+        run: python3 scripts/validate_atlas_v230.py
+      - name: Historical research baseline V231
+        run: python3 scripts/validate_atlas_v231.py
+      - name: Historical research baseline V232
+        run: python3 scripts/validate_atlas_v232.py
+      - name: Historical research baseline V233
+        run: python3 scripts/validate_atlas_v233.py
+      - name: Historical research baseline V234
+        run: python3 scripts/validate_atlas_v234.py
+      - name: Historical research baseline V235
+        run: python3 scripts/validate_atlas_v235.py
+      - name: Historical research baseline V236
+        run: python3 scripts/validate_atlas_v236.py
