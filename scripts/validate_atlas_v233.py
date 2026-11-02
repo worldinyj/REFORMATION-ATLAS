@@ -39,7 +39,7 @@ assert obs["OBJ-V233-MBW825-K"]["original_hand_scholarly_attributed"] is False
 assert obs["OBJ-V233-CR1834"]["document_type"]=="1834_EDITORIAL_LETTER_PRINT"
 assert obs["OBJ-V233-MBWT3"]["document_type"]=="MODERN_CRITICAL_TEXT_EDITION_MBW_T3"
 assert set(phrases)=={"PHRASE-V233-CINGLII","PHRASE-V233-WORDS","PHRASE-V233-STRUGGLE","PHRASE-V233-PRESENCE"}
-assert sum(x["words"] for x in phrases.values())==16
+assert sum(x["words"] for x in phrases.values())==15
 assert all(len(x["latin"].split())==x["words"] for x in phrases.values())
 assert all(x["source_ids"]==["SRC-V233-ANDERSEN2011"] and x["status"]=="INDIRECT_CITATION_OF_MBW_T3" for x in phrases.values())
 assert phrases["PHRASE-V233-STRUGGLE"]["latin"]=="non sine maximo certamine"
@@ -58,11 +58,11 @@ assert protocol["critical_edition_e_t_w_q_apparatus_required_for_publish"] is Tr
 assert protocol["wlb_826_open_access_status"].startswith("NOT_ESTABLISHED")
 assert protocol["hessian_825_digital_link_target_status"].startswith("ACADEMY_DIGITIZATION_INDEX_CONFIRMED")
 assert d["metrics"]=={"source_records":9,"source_objects":4,"short_latin_anchors":4,
- "total_short_quoted_latin_words":16,"interpretive_claims":5,"reader_sections":3,
+ "total_short_quoted_latin_words":15,"interpretive_claims":5,"reader_sections":3,
  "open_issues":6,"autograph_826_image_pages_read":0,"mbw_t3_826_pages_read":0,
  "cr1834_original_pages_proofread":0,"autograph_825_k_images_read":0,
  "cumulative_other_original_1529_manuscript_image_pages":4,
  "new_primary_pages_read":0,"published_items":0}
-print("PASS V233: four short Latin anchors 16 words from later critical-text quotation; original letter unviewed")
+print("PASS V233: four short Latin anchors 15 words from later critical-text quotation; original letter unviewed")
 print("PASS V233: 1529 WLB author autograph vs 17c ownership marks, HAdW signed-K original index; no original/modern edition conflation")
 print("PASS V233: E/T/W/Q publication hold, 10-reader history corpus unchanged")
