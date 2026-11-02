@@ -14,7 +14,7 @@
   },
   "methods": {
     "history_vs_holding": "All 19 dated events attach to historic city or well documented site; copies' current library locations have null coordinates and no event pin.",
-    "coordinates": "11 sites: Kozí Hrádek coordinate from official heritage map; remaining 10 entries modern city-centre approximations for exploratory mapping, NOT original 16th-century rooms or presses.",
+    "coordinates": "11 sites: Kozí Hrádek coordinate from official heritage map; remaining 10 entries modern city-centre approximations for exploratory mapping, NOT original 16th-century rooms or presses. The mapped Kozí Hrádek castle site footprint is not a survey of the room where a work was composed.",
     "evidence": "Original-language critical transcription of Manz sentence accessed, not original archival manuscript photographic image.",
     "date": "Preserve YYYY precision from V212 for YEAR/MONTH/DAY; year-only bounds are not actual 1 January events.",
     "consistency": "No publishing to app, main, nor modifying V211 or V212 books."
@@ -188,9 +188,10 @@
         "SRC-V214-KOZI",
         "SRC-V214-HUS-CASTLE"
       ],
-      "site_building_or_room_verified": true,
+      "site_building_or_room_verified": false,
       "historian_approved": false,
-      "can_publish": false
+      "can_publish": false,
+      "site_footprint_location_documented": true
     },
     {
       "id": "PLACE-V214-KONSTANZ",
@@ -206,7 +207,8 @@
       ],
       "site_building_or_room_verified": false,
       "historian_approved": false,
-      "can_publish": false
+      "can_publish": false,
+      "site_footprint_location_documented": false
     },
     {
       "id": "PLACE-V214-WITTENBERG",
@@ -223,7 +225,8 @@
       ],
       "site_building_or_room_verified": false,
       "historian_approved": false,
-      "can_publish": false
+      "can_publish": false,
+      "site_footprint_location_documented": false
     },
     {
       "id": "PLACE-V214-WORMS",
@@ -239,7 +242,8 @@
       ],
       "site_building_or_room_verified": false,
       "historian_approved": false,
-      "can_publish": false
+      "can_publish": false,
+      "site_footprint_location_documented": false
     },
     {
       "id": "PLACE-V214-ZURICH",
@@ -257,7 +261,8 @@
       ],
       "site_building_or_room_verified": false,
       "historian_approved": false,
-      "can_publish": false
+      "can_publish": false,
+      "site_footprint_location_documented": false
     },
     {
       "id": "PLACE-V214-MARBURG",
@@ -273,7 +278,8 @@
       ],
       "site_building_or_room_verified": false,
       "historian_approved": false,
-      "can_publish": false
+      "can_publish": false,
+      "site_footprint_location_documented": false
     },
     {
       "id": "PLACE-V214-AUGSBURG",
@@ -289,7 +295,8 @@
       ],
       "site_building_or_room_verified": false,
       "historian_approved": false,
-      "can_publish": false
+      "can_publish": false,
+      "site_footprint_location_documented": false
     },
     {
       "id": "PLACE-V214-BASEL",
@@ -305,7 +312,8 @@
       ],
       "site_building_or_room_verified": false,
       "historian_approved": false,
-      "can_publish": false
+      "can_publish": false,
+      "site_footprint_location_documented": false
     },
     {
       "id": "PLACE-V214-STRASBOURG",
@@ -321,7 +329,8 @@
       ],
       "site_building_or_room_verified": false,
       "historian_approved": false,
-      "can_publish": false
+      "can_publish": false,
+      "site_footprint_location_documented": false
     },
     {
       "id": "PLACE-V214-GENEVA",
@@ -338,7 +347,8 @@
       ],
       "site_building_or_room_verified": false,
       "historian_approved": false,
-      "can_publish": false
+      "can_publish": false,
+      "site_footprint_location_documented": false
     },
     {
       "id": "PLACE-V214-TRENTO",
@@ -354,7 +364,8 @@
       ],
       "site_building_or_room_verified": false,
       "historian_approved": false,
-      "can_publish": false
+      "can_publish": false,
+      "site_footprint_location_documented": false
     }
   ],
   "persons": [
