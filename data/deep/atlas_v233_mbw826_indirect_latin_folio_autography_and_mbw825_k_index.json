@@ -1,0 +1,374 @@
+{
+  "version": "2.33",
+  "kind": "MBW826_1529_MELANCHTHON_AUTOGRAPH_LETTER_INDIRECT_LATIN_EXCERPT_SOURCE_CRITICISM_AND_MBW825_DIGITAL_INDEX",
+  "parent_commit": "d6395b62b1b88c164dba311dfbc468f5c0cb78ad",
+  "baseline_dataset": "data/deep/atlas_v232_marburg_1529_documentary_chronology_melanchthon_autograph.json",
+  "publication_gate": {
+    "ship": false,
+    "mbw826_original_folio_images_read": false,
+    "mbw826_diplomatic_transcription_verified": false,
+    "cr1834_corresponding_page_image_proofread": false,
+    "mbw_t3_original_edition_pages_read": false,
+    "signed_k_1529_folio_images_read": false,
+    "copyright_and_institutional_media_reuse_reviewed": false,
+    "scholarly_signoff": false,
+    "webapp_integrated": false
+  },
+  "sources": [
+    {
+      "id": "SRC-V233-WLB-KOTTMANN",
+      "class": "SCHOLARLY_2018_AUTOGRAPH_CATALOGUE",
+      "url": "https://journals.wlb-stuttgart.de/index.php/zwlg/article/download/554/645/1357",
+      "evidence": "Carsten Kottmann (2018) p119 item13 WLB Stuttgart Cod.hist.2 889-26 f36rv Melanchthon autograph addressed to Butzbach Alber Reiser 4/5 Oct 1529; 17th century provenance annotations 'Original-Schreiben' and 'Num[ero] 24' discussed",
+      "access": "EXTRACTED_PDF_TEXT_SCR_SCREENSHOT_ANTIBOT_DENIED",
+      "original_folio_read": false
+    },
+    {
+      "id": "SRC-V233-MBW826",
+      "class": "OFFICIAL_HISTORICAL_CRITICAL_REGEST",
+      "url": "https://melanchthon.hadw-bw.de/regest.html?reg_nr=826",
+      "evidence": "MBW826 official regest: after 4 Oct 15 Articles signature, Reutlingen recipients, agreement except Eucharist, Zwingli criticism, link to prior Oecolampadius letter MBW775",
+      "access": "DIRECT_INSTITUTIONAL_HTML_TEXT",
+      "original_folio_read": false
+    },
+    {
+      "id": "SRC-V233-ANDERSEN2011",
+      "class": "2011_SCHOLARLY_THESIS_INDIRECT_EXCERPT_OF_CRITICAL_TEXT",
+      "url": "https://www.fbb.nu/fileadmin/fbb/eksterneressurser/Andersen%20Ragnar%20Concordia%20Ecclesiae%20-%20Urevidert%20disputasversjon%202011.pdf",
+      "evidence": "Andersen Concordia Ecclesiae p103 footnote641 prints Latin MBW826 7-12 (not source original) mentioning Cinglii dogma vs words and fathers and 'non sine maximo certamine' and 'corpus Domini vere praesens in coena'; copyright reserved. Brief excerpts only; original translated into Korean as paraphrase",
+      "access": "PDF_EXTRACTED_TEXT_SCREENSHOT_404; MODERN_CITATION_NOT_ORIGINAL",
+      "original_folio_read": false
+    },
+    {
+      "id": "SRC-V233-CR1834",
+      "class": "PUBLIC_DOMAIN_19TH_CENTURY_CRITICAL_PRINT_CATALOGUE",
+      "url": "https://archive.org/details/philippimelantho01mela",
+      "evidence": "Corpus Reformatorum vol1 (1834) printed pp1106-1107 no639 identified by MBW; digital volume catalogue verified but printed p1106–1107 images not read",
+      "access": "INSTITUTIONAL_DIGITAL_BOOK_METADATA",
+      "original_folio_read": false
+    },
+    {
+      "id": "SRC-V233-CR1834-OCR",
+      "class": "PUBLIC_DOMAIN_1834_OCR_FULL_BOOK_UNLOCATED_PASSAGE",
+      "url": "https://archive.org/stream/philippimelantho01mela/philippimelantho01mela_djvu.txt",
+      "evidence": "Full OCR volume is accessible but find requests for target phrase timed out; did not directly verify CR1 p1106–1107. Do not claim exact text matched.",
+      "access": "DIGITAL_OCR_BOOK_LOADED_FIND_TARGET_TIMEOUT",
+      "original_folio_read": false
+    },
+    {
+      "id": "SRC-V233-HADW-EDITION",
+      "class": "ACADEMY_EDITION_POLICY",
+      "url": "https://www.hadw-bw.de/mbw",
+      "evidence": "Academy distinguishes regesta summaries from critical text editions and four apparatus types: genesis E, textual T, reception W, sources Q; editorial structure direct institutional read",
+      "access": "DIRECT_INSTITUTIONAL_HTML",
+      "original_folio_read": false
+    },
+    {
+      "id": "SRC-V233-HADW-DIGITIZED-LIST",
+      "class": "ACADEMY_AUTOGRAPH_DIGITIZATION_INDEX",
+      "url": "https://www.hadw-bw.de/sites/default/files/2026-03/Tabelle_Melanchthon-Autographen_MBW_2021.pdf",
+      "evidence": "List dated 20 October 2020, page index7 shows MBW825 signed Marburg HStAM Best3 Nr245 fol60r–64v with DigiRef access link; MBW826 absent from listed digitized autographs, absence not proof item is not digitized anywhere",
+      "access": "PDF_TEXT_PLUS_SCREENSHOT_P0; P7_SCREENSHOT_TIMEOUT",
+      "original_folio_read": false
+    },
+    {
+      "id": "SRC-V233-HESSIAN-K",
+      "class": "1529_SIGNED_K_AUTOGRAPH_CATALOGUE",
+      "url": "https://melanchthon.hadw-bw.de/regest.html?reg_nr=825",
+      "evidence": "Official MBW825 critical regest dates 3.[4.] Oct and identifies 15 articles, different document from letter MBW826; specialist digitization catalogue connects signed K",
+      "access": "DIRECT_REGEST_AND_CROSS_INDEX",
+      "original_folio_read": false
+    },
+    {
+      "id": "SRC-V233-WLB-AGGREGATOR",
+      "class": "DIGITAL_COLLECTION_METADATA_NOT_FOLIO_36_LINK",
+      "url": "https://www.leo-bw.de/en/detail/-/Detail/details/DOKUMENT/wlb_digitalisate/digibib-bsz4863146260/text",
+      "evidence": "LEO-BW lists umbrella catalog Cod.hist.fol.889 Frommann collection, but exact digitized WLB fol36r/v of subvolume 889-26 not reachable in web tool; collection URI != exact letter IIIF canvas",
+      "access": "INDEXED_SNIPPET_ONLY_403_DIRECT",
+      "original_folio_read": false
+    }
+  ],
+  "historical_objects": [
+    {
+      "id": "OBJ-V233-MBW826",
+      "document_type": "1529_CONTEMPORARY_AUTHOR_AUTOGRAPH_LETTER",
+      "date_range": [
+        "1529-10-04",
+        "1529-10-05"
+      ],
+      "author": "Philipp Melanchthon",
+      "recipients": [
+        "Johannes Butzbach",
+        "Matthäus Alber",
+        "Martin Reiser"
+      ],
+      "repository": "Württembergische Landesbibliothek Stuttgart",
+      "shelfmark": "Cod. hist. 2° 889–26, fol. 36r–36v",
+      "original_hand_scholarly_attributed": true,
+      "autograph_image_seen": false,
+      "mbw_number": 826,
+      "source_ids": [
+        "SRC-V233-WLB-KOTTMANN",
+        "SRC-V233-MBW826"
+      ]
+    },
+    {
+      "id": "OBJ-V233-MBW825-K",
+      "document_type": "1529_SIGNED_MARBURG_AGREEMENT_K",
+      "date_range": [
+        "1529-10-03",
+        "1529-10-04"
+      ],
+      "repository": "Hessisches Staatsarchiv Marburg",
+      "shelfmark": "Best. 3 Nr. 245, fol. 60r–64v",
+      "original_hand_scholarly_attributed": false,
+      "autograph_image_seen": false,
+      "mbw_number": 825,
+      "source_ids": [
+        "SRC-V233-HADW-DIGITIZED-LIST",
+        "SRC-V233-HESSIAN-K"
+      ]
+    },
+    {
+      "id": "OBJ-V233-CR1834",
+      "document_type": "1834_EDITORIAL_LETTER_PRINT",
+      "date_range": [
+        "1834",
+        "1834"
+      ],
+      "repository": "Corpus Reformatorum Bd1",
+      "shelfmark": "pp. 1106–1107 Nr. 639",
+      "original_hand_scholarly_attributed": false,
+      "autograph_image_seen": false,
+      "mbw_number": 826,
+      "source_ids": [
+        "SRC-V233-MBW826",
+        "SRC-V233-CR1834"
+      ]
+    },
+    {
+      "id": "OBJ-V233-MBWT3",
+      "document_type": "MODERN_CRITICAL_TEXT_EDITION_MBW_T3",
+      "date_range": [
+        null,
+        null
+      ],
+      "repository": "Melanchthons Briefwechsel Textband T3",
+      "shelfmark": "Nr. 826, referenced 7–12 in Andersen 2011",
+      "original_hand_scholarly_attributed": false,
+      "autograph_image_seen": false,
+      "mbw_number": 826,
+      "source_ids": [
+        "SRC-V233-ANDERSEN2011",
+        "SRC-V233-HADW-EDITION"
+      ]
+    }
+  ],
+  "short_philological_anchors": [
+    {
+      "id": "PHRASE-V233-CINGLII",
+      "latin": "Cinglii dogma",
+      "words": 2,
+      "ko": "츠빙글리의 가르침",
+      "theme": "Opponent_represented_by_Melanchthon",
+      "status": "INDIRECT_CITATION_OF_MBW_T3",
+      "source_ids": [
+        "SRC-V233-ANDERSEN2011"
+      ]
+    },
+    {
+      "id": "PHRASE-V233-WORDS",
+      "latin": "contra verborum proprietatem",
+      "words": 3,
+      "ko": "성경 말씀의 고유한 의미에 반하여",
+      "theme": "Biblical_wording",
+      "status": "INDIRECT_CITATION_OF_MBW_T3",
+      "source_ids": [
+        "SRC-V233-ANDERSEN2011"
+      ]
+    },
+    {
+      "id": "PHRASE-V233-STRUGGLE",
+      "latin": "non sine maximo certamine",
+      "words": 4,
+      "ko": "매우 큰 내적 갈등을 겪지 않고서는 아니었다",
+      "theme": "Self_described_reflective_struggle",
+      "status": "INDIRECT_CITATION_OF_MBW_T3",
+      "source_ids": [
+        "SRC-V233-ANDERSEN2011"
+      ]
+    },
+    {
+      "id": "PHRASE-V233-PRESENCE",
+      "latin": "corpus Domini vere praesens in coena",
+      "words": 6,
+      "ko": "주님의 몸이 성만찬에 참으로 임재한다",
+      "theme": "Real_presence",
+      "status": "INDIRECT_CITATION_OF_MBW_T3",
+      "source_ids": [
+        "SRC-V233-ANDERSEN2011"
+      ]
+    }
+  ],
+  "interpretive_claims": [
+    {
+      "id": "CLAIM-V233-INSIDER",
+      "claim_ko": "멜란히톤의 편지는 토론 직후 동역자들에게 보낸 당사자 보고다. 이 편지는 중립적인 회의록이 아니라 루터파 동역자를 설득하고 신학적 입장을 설명하는 사적 목적이 있다.",
+      "support_ids": [
+        "SRC-V233-MBW826",
+        "SRC-V233-ANDERSEN2011"
+      ],
+      "evidence_level": "CONTEMPORARY_AUTOGRAPH_IDENTIFIED_CONTENT_FROM_CRITICAL_REGEST_AND_LATER_QUOTE"
+    },
+    {
+      "id": "CLAIM-V233-STRUGGLE",
+      "claim_ko": "멜란히톤의 '큰 씨름을 거쳤다'는 자술은 그가 자신의 실제 임재 해석을 아무 숙고 없이 기계적으로 반복했다고 보기 어렵게 만든다. 그의 지적·신학적 경과를 설명하되 회담 당일의 직접 심리 증명으로 확장하지 않는다.",
+      "support_ids": [
+        "SRC-V233-ANDERSEN2011"
+      ],
+      "evidence_level": "LATER_SCHOLARLY_QUOTE_OF_CRITICAL_EDITION"
+    },
+    {
+      "id": "CLAIM-V233-CRITERIA",
+      "claim_ko": "그의 비판은 성경 표현의 고유한 의미 및 교부 전통을 중심으로 한다. 이를 루터 측 전체의 단일 결론으로 일반화하지 않는다.",
+      "support_ids": [
+        "SRC-V233-ANDERSEN2011",
+        "SRC-V233-MBW826"
+      ],
+      "evidence_level": "LATER_EXCERPT_AND_REGEST"
+    },
+    {
+      "id": "CLAIM-V233-AUTOGRAPH-VS-LATER",
+      "claim_ko": "2018년 연구에서 확인된 1529년 친필의 뒷면에는 17세기 서명·번호 등 후대 소장 경위를 알려주는 필기가 전해진다. 이들은 멜란히톤의 1529년 원문이 아니라 사후 소장 표식으로 별도 분리해야 한다.",
+      "support_ids": [
+        "SRC-V233-WLB-KOTTMANN"
+      ],
+      "evidence_level": "2018_SCHOLARLY_CATALOGUE_PROVENANCE"
+    },
+    {
+      "id": "CLAIM-V233-MBW825",
+      "claim_ko": "하이델베르크 학술원의 원본 디지털 목록은 1529년 마르부르크 합의문 K를 MBW825와 연결한다. MBW826의 편지 영상은 해당 목록에 나타나지 않으나 그것이 온라인에 존재하지 않는다는 결론은 아니다.",
+      "support_ids": [
+        "SRC-V233-HADW-DIGITIZED-LIST",
+        "SRC-V233-HESSIAN-K"
+      ],
+      "evidence_level": "2020_DIGITIZATION_INDEX_PLUS_CRITICAL_REGEST"
+    }
+  ],
+  "edition_research_protocol": {
+    "tiers": [
+      {
+        "id": "T1",
+        "name": "AUTOGRAPH_IMAGE",
+        "mbw": "826",
+        "required": "WLB f36r/f36v actual images + checksum + folio mapping; currently unavailable",
+        "completed": false
+      },
+      {
+        "id": "T2",
+        "name": "CRITICAL_TEXT_DIRECT",
+        "mbw": "826",
+        "required": "MBW T3 Nr826 original printed edition directly read and E/T apparatus verified",
+        "completed": false
+      },
+      {
+        "id": "T3",
+        "name": "OLD_PRINT_DIRECT",
+        "mbw": "826",
+        "required": "Corpus Reformatorum Bd1 printed pages1106–1107 visually read/checked against readable OCR",
+        "completed": false
+      },
+      {
+        "id": "T4",
+        "name": "INDIRECT_TEXT_QUOTE",
+        "mbw": "826",
+        "required": "2011 Andersen footnote641 short Latin passages extracted; source rights respected",
+        "completed": true
+      },
+      {
+        "id": "T5",
+        "name": "SUMMARY_REGEST",
+        "mbw": "826",
+        "required": "Official MBW826 direct HTML summary",
+        "completed": true
+      }
+    ],
+    "autograph_17c_reverse_annotations_are_not_1529_letter_text": true,
+    "critical_edition_e_t_w_q_apparatus_required_for_publish": true,
+    "hessian_825_digital_link_target_status": "ACADEMY_DIGITIZATION_INDEX_CONFIRMED; IMAGE_BYTES_NOT_ACQUIRED",
+    "wlb_826_open_access_status": "NOT_ESTABLISHED; HAdW_LIST_ABSENCE_NOT_PROOF"
+  },
+  "reader_draft": {
+    "title_ko": "마르부르크 직후의 편지: 멜란히톤도 쉽게 확신에 이른 것은 아니었다",
+    "sections": [
+      {
+        "id": "R-V233-A",
+        "title_ko": "합의문에 없는 한 사람의 목소리",
+        "summary_ko": "마르부르크에서 서명된 합의문은 참가자들이 공개적으로 함께 인정할 수 있는 문장을 담았다. 그러나 그 문서만으로는 각 인물이 스스로 무엇을 고민했는지 알 수 없다. 1529년 10월 4~5일 멜란히톤이 로이틀링겐의 동료들에게 보낸 짧은 친필 편지는 공동 문서의 이면에서 살아 있던 논쟁을 보여 준다.",
+        "supports": [
+          "CLAIM-V233-INSIDER"
+        ]
+      },
+      {
+        "id": "R-V233-B",
+        "title_ko": "‘큰 씨름 없이 믿게 된 것은 아니다’",
+        "summary_ko": "멜란히톤은 성만찬에서 주님의 몸이 실제로 임재한다는 신념에 이르기까지 매우 큰 내적 갈등이 있었다고 말한다. 자신이 숙고 끝에 선택했다고 느낀 해석을 그는 성경의 말과 교부들의 권위로 지지했다. 따라서 루터 측을 단순히 오래된 전통을 무비판적으로 유지한 사람들로 설명하는 것도 정확하지 않다.",
+        "supports": [
+          "CLAIM-V233-STRUGGLE",
+          "CLAIM-V233-CRITERIA"
+        ]
+      },
+      {
+        "id": "R-V233-C",
+        "title_ko": "역사가 남겨야 할 거리",
+        "summary_ko": "그러나 그 편지는 츠빙글리의 생각을 한쪽 당사자가 비판한 기록이다. 실제 토론의 모든 순간을 공평하게 전달한 중립 기록은 아니다. 더구나 오늘 우리가 확인한 라틴어 어구는 2011년 연구가 현대 비평판에서 다시 인용한 문장이지 슈투트가르트 친필 원본을 직접 판독한 결과는 아니다. 출처의 거리를 밝혀야 비로소 두 사람의 말을 제대로 들을 수 있다.",
+        "supports": [
+          "CLAIM-V233-AUTOGRAPH-VS-LATER",
+          "CLAIM-V233-INSIDER"
+        ]
+      }
+    ]
+  },
+  "unresolved": [
+    {
+      "id": "ISSUE-V233-WLB-IMG",
+      "question": "Find direct WLB Cod.hist.2 889-26 f36r/v full-resolution images + current catalogue and IIIF; umbrella collection page alone insufficient."
+    },
+    {
+      "id": "ISSUE-V233-CR-PRINT",
+      "question": "Locate the original printed CR 1 (1834) pages 1106-1107 Nr639 by page image and validate exact Latin against MBW T3 quotation."
+    },
+    {
+      "id": "ISSUE-V233-MBW-T3",
+      "question": "Access copyrighted scholarly MBW Textband T3 Nr826, E/T apparatus and critical emendations; quote only short excerpts."
+    },
+    {
+      "id": "ISSUE-V233-K",
+      "question": "Open specialist linked DigiRef HStAM Best3 Nr245 f60r-64v K original image, record page IDs not just PDF list."
+    },
+    {
+      "id": "ISSUE-V233-WLB-REVERSE",
+      "question": "Separate 17th-century 'Original-Schreiben' and 'Num 24' annotations on letter address side from the 1529 author text visually."
+    },
+    {
+      "id": "ISSUE-V233-ZW-CROSSCHECK",
+      "question": "Compare 1529 Melanchthon author letter directly with Zwingli's letter and signed Article 15 once originals are available."
+    }
+  ],
+  "metrics": {
+    "source_records": 9,
+    "source_objects": 4,
+    "short_latin_anchors": 4,
+    "total_short_quoted_latin_words": 15,
+    "interpretive_claims": 5,
+    "reader_sections": 3,
+    "open_issues": 6,
+    "autograph_826_image_pages_read": 0,
+    "mbw_t3_826_pages_read": 0,
+    "cr1834_original_pages_proofread": 0,
+    "autograph_825_k_images_read": 0,
+    "cumulative_other_original_1529_manuscript_image_pages": 4,
+    "new_primary_pages_read": 0,
+    "published_items": 0
+  }
+}
