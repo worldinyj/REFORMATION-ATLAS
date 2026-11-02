@@ -23,7 +23,8 @@ assert all(set(p["source_ids"])<=sources and p["source_ids"] and p["can_publish"
 assert sum(p["geographic_precision"]=="REPORTED_HISTORIC_SITE" for p in places.values())==1
 for p in places.values():
   assert -90<=p["latitude"]<=90 and -180<=p["longitude"]<=180
-  assert p["exact_16c_building_position_certified"] is False and p["modern_reference_not_historic_venue"] is True
+  assert p["exact_16c_building_position_certified"] is False
+  assert p["modern_reference_not_historic_venue"] is (p["id"]!="PLACE-V213-KOZI")
 for d in docs.values():
   assert d["source_ids"] and set(d["source_ids"])<=sources and d["can_publish"] is False
 old={x["id"]:x for x in b["chronology"]}
@@ -38,6 +39,8 @@ for k,e in mapped.items():
   assert set(e["source_ids"])<=sources and set(o["source_ids"])<=set(e["source_ids"])
   assert e["exact_site_or_print_shop_geocode_confirmed"] is False
   assert e["primary_historical_folio_checked"] is False and e["expert_approved"] is False and e["can_publish"] is False
+assert mapped["CHR-V212-06"]["source_ids"]==["SRC-V212-ZURICH"]
+assert mapped["CHR-V212-07"]["source_ids"]==["SRC-V212-ZURICH"]
 assert sum(e["historic_site_geo_precision"]=="REPORTED_SITE" for e in mapped.values())==1
 assert len(a["current_holding_records"])==7
 for h in a["current_holding_records"]:
