@@ -10,7 +10,7 @@ Sehr geehrte Damen und Herren,
 
 für das historische Forschungsvorhaben REFORMATION-ATLAS zur Überlieferung des Marburger Religionsgesprächs (1529) möchte ich zwei von Ihrer Bibliothek katalogisierte Abschriften eines Briefes von Justus Jonas an Wilhelm Reiffenstein vergleichen.
 
-**1. Chart. A 453, Bl. 24v–25v**, Kalliope DE-611-HS-4254430, drei lateinische Seiten, Abschrift des 17. Jahrhunderts, in der Sammlung Veit Ludwig von Seckendorff. Der Katalog nennt die Datierung „Lunae post Michaelis“ sowie Datierungsvermerke von Seckendorffs, rote Markierungen und eine Durchstreichung.
+**1. Chart. A 453, Bl. 24v–25v**, Kalliope DE-611-HS-4254434, drei lateinische Seiten, Abschrift des 17. Jahrhunderts, in der Sammlung Veit Ludwig von Seckendorff. Der Katalog nennt die Datierung „Lunae post Michaelis“ sowie Datierungsvermerke von Seckendorffs, rote Markierungen und eine Durchstreichung.
 
 **2. Chart. B 28, Bl. 41v–43r**, Kalliope DE-611-HS-3422547, drei Blätter, Abschrift von der Hand Konrad Meusels. Der Katalogtitel erwähnt Wilhelm Reiffenstein und Kaspar Aquila, während die normierten Personenfelder lediglich Reiffenstein als Adressaten und Aquila als „Bezug [nicht dokumentiert]“ ausweisen.
 
