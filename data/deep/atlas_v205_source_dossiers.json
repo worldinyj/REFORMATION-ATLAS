@@ -1,0 +1,1515 @@
+{
+  "version": "2.05",
+  "kind": "RESEARCH_SOURCE_TRIAGE_AND_ATOMIC_OBSERVATIONS",
+  "origin": {
+    "research_base_commit": "28b64aca7ae19b18e1d36a7c3e8b087b9bca8580",
+    "reader_file": "data/deep/atlas_v202_unified_ten_revised_readers.json",
+    "nav_file": "data/contracts/atlas_v203_ten_reader_navigation.json",
+    "workpack_file": "data/deep/atlas_v204_paragraph_review_units.json",
+    "reader_version": "2.02",
+    "workpack_version": "2.04"
+  },
+  "publication_gate": {
+    "can_ship": false,
+    "approved": false,
+    "original_witness_collated": false,
+    "expert_approved": false,
+    "media_rights_cleared": false,
+    "webapp_integrated": false
+  },
+  "epistemic_policy": {
+    "inspected_html_webpage": "The webpage or edited translated text was accessed. This does not prove its quoted content is the original witness or validate every claim made by the publisher.",
+    "search_result_excerpt": "Only the search result extract was seen; archival item page could not be opened. Must NEVER be represented as full catalogue or manuscript inspection.",
+    "source_types": "Keep institutional exhibit, archive-catalogue, nineteenth-century narrative, confessional interpretation, scholarly index, edited historical translation distinct.",
+    "observations": "34 research observations from inspected external sources, not 34 historically proven manuscript readings and not mechanically extracted atomic propositions of all V2.02 sentences.",
+    "claim_gate": "Each proposition and focus still requires a named human reviewer, precise original edition witness, location and original/translation comparisons for scholarly approval.",
+    "reader_policy": "V2.02 and V2.04 unchanged; proposals are isolated and not publicly imported."
+  },
+  "metrics": {
+    "total_reader_count": 10,
+    "v204_prose_review_units": 124,
+    "v204_focus_tasks": 30,
+    "focus_with_new_web_source_dossiers": 17,
+    "focus_without_new_web_review": 13,
+    "research_observations": 34,
+    "original_witness_collations": 0,
+    "human_specialist_approvals": 0,
+    "public_approved_claims": 0,
+    "source_records": 12,
+    "full_web_pages_opened": 11,
+    "search_excerpt_only_source_records": 1
+  },
+  "sources": [
+    {
+      "id": "SRC-V205-CUB",
+      "title": "University of Colorado Boulder, Provisionalia: Index of Scholastic Texts",
+      "url": "https://www.colorado.edu/project/provisionalia/index-scholastic-texts",
+      "source_class": "ACADEMIC_BIBLIOGRAPHIC_INDEX",
+      "access_status": "OPENED_HTML",
+      "location_note": "Entry 'John Wyclif': De ecclesia [1378] and edition Loserth/Matthew 1886",
+      "original_manuscript_read": false,
+      "original_print_folio_collated": false,
+      "rights_to_embed_image_confirmed": false
+    },
+    {
+      "id": "SRC-V205-WORMS",
+      "title": "Stadt Worms: Luther, Bishop's Palace (historical site)",
+      "url": "https://www.worms.de/en/web/luther/Tourismus/Luther-Rundgang/Bischofshof.php",
+      "source_class": "MUNICIPAL_HISTORICAL_EXHIBIT",
+      "access_status": "OPENED_HTML",
+      "location_note": "17–18 April 1521 hearing; retrospective addition to famous wording",
+      "original_manuscript_read": false,
+      "original_print_folio_collated": false,
+      "rights_to_embed_image_confirmed": false
+    },
+    {
+      "id": "SRC-V205-GOTHA",
+      "title": "Forschungsbibliothek Gotha, eyewitness report of the Worms diet",
+      "url": "https://blog-fbg.uni-erfurt.de/2021/04/augenzeugenbericht-der-luthersache-auf-dem-reichstag-zu-worms-1521/",
+      "source_class": "ARCHIVE_INTERPRETATION_WITH_SHELF_REFERENCE",
+      "access_status": "OPENED_HTML",
+      "location_note": "Chart. A 340; retrospective Spalatin narrative; DRA younger series vol 2 no 80, pp 581–582",
+      "original_manuscript_read": false,
+      "original_print_folio_collated": false,
+      "rights_to_embed_image_confirmed": false
+    },
+    {
+      "id": "SRC-V205-BPB",
+      "title": "Bundeszentrale für politische Bildung, Axel Gotthard: Luther und Karl V. in Worms",
+      "url": "https://www.bpb.de/themen/zeit-kulturgeschichte/reformation/235570/schlaglicht-1521-luther-und-karl-v-in-worms/",
+      "source_class": "HISTORIAN_SECONDARY_EXPLANATION",
+      "access_status": "OPENED_HTML",
+      "location_note": "Non-authentic wording 'Hier stehe ich'; early print editing issue",
+      "original_manuscript_read": false,
+      "original_print_folio_collated": false,
+      "rights_to_embed_image_confirmed": false
+    },
+    {
+      "id": "SRC-V205-MARB-GHDI",
+      "title": "German History in Documents and Images: Marburg Articles 1529",
+      "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/ghdi:document-4311",
+      "source_class": "EDITED_HISTORICAL_TEXT_ENGLISH_TRANSLATION",
+      "access_status": "OPENED_HTML",
+      "location_note": "October 3, 1529; Article 15; signed names; edition cited Weimar 1910 vol 30/3 pp 160–171",
+      "original_manuscript_read": false,
+      "original_print_folio_collated": false,
+      "rights_to_embed_image_confirmed": false
+    },
+    {
+      "id": "SRC-V205-MARB-ARCH",
+      "title": "Staatsarchiv Zürich: Marburger Artikel E I 3.1, Nr.54",
+      "url": "https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=618165",
+      "source_class": "ARCHIVE_CATALOGUE_SEARCH_EXCERPT",
+      "access_status": "SEARCH_RESULT_EXCERPT_ONLY",
+      "location_note": "Z version with supplementary notes to articles 7,13,15 absent in K; catalogue full page timed out",
+      "original_manuscript_read": false,
+      "original_print_folio_collated": false,
+      "rights_to_embed_image_confirmed": false
+    },
+    {
+      "id": "SRC-V205-SCHAFF",
+      "title": "Philip Schaff, Creeds of Christendom, historical text (hosted transcription)",
+      "url": "https://www.uecf.net/books/collected-works/chapter1319.html",
+      "source_class": "OLDER_SCHOLARLY_SYNTHESIS_DIGITAL_TRANSCRIPTION",
+      "access_status": "OPENED_HTML",
+      "location_note": "§41 The Text Invariata and Variata; unapproved Diet printings 1530 vs author-issued 1531",
+      "original_manuscript_read": false,
+      "original_print_folio_collated": false,
+      "rights_to_embed_image_confirmed": false
+    },
+    {
+      "id": "SRC-V205-AUG-HIST",
+      "title": "Augsburg 1540 history and chronology",
+      "url": "https://www.augsburg1540.com/history.html",
+      "source_class": "SPECIALIZED_EDITORIAL_HISTORY_SITE",
+      "access_status": "OPENED_HTML",
+      "location_note": "Authorized 1531 Rhau; revised 1540 Variata, not an original-print facsimile collation",
+      "original_manuscript_read": false,
+      "original_print_folio_collated": false,
+      "rights_to_embed_image_confirmed": false
+    },
+    {
+      "id": "SRC-V205-CALVIN",
+      "title": "Ligonier: Savoring the Institutes (Keith Mathison)",
+      "url": "https://learn.ligonier.org/articles/savoring-institutes",
+      "source_class": "SECONDARY_EDITION_OVERVIEW",
+      "access_status": "OPENED_HTML",
+      "location_note": "1536 six chapters, 1539 seventeen, 1559 eighty; no folio text examined",
+      "original_manuscript_read": false,
+      "original_print_folio_collated": false,
+      "rights_to_embed_image_confirmed": false
+    },
+    {
+      "id": "SRC-V205-CALVIN-COMP",
+      "title": "CPRC: Calvin's Institutes 1536 and 1559 comparison",
+      "url": "https://cprc.co.uk/articles/calvinsinstitutescomparison/",
+      "source_class": "CONFESSIONAL_SECONDARY_COMPARISON",
+      "access_status": "OPENED_HTML",
+      "location_note": "1536 six chapter thematic overview vs 1559 four books; confessional perspective noted",
+      "original_manuscript_read": false,
+      "original_print_folio_collated": false,
+      "rights_to_embed_image_confirmed": false
+    },
+    {
+      "id": "SRC-V205-ZB",
+      "title": "Zentralbibliothek Zürich: Reformation chronology",
+      "url": "https://www.zb.uzh.ch/de/fokus/beitrag/reformation",
+      "source_class": "HOLDING_INSTITUTION_HISTORICAL_GUIDE",
+      "access_status": "OPENED_HTML",
+      "location_note": "29 Jan 1523 first disputation; late Oct second; 5 Jan 1527 Felix Manz execution",
+      "original_manuscript_read": false,
+      "original_print_folio_collated": false,
+      "rights_to_embed_image_confirmed": false
+    },
+    {
+      "id": "SRC-V205-TRENT",
+      "title": "German History in Documents and Images: Council of Trent excerpts",
+      "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/ghdi:document-4336",
+      "source_class": "EDITED_HISTORICAL_TEXT_ENGLISH_TRANSLATION",
+      "access_status": "OPENED_HTML",
+      "location_note": "Session VI 13 Jan 1547 justification; Session XXIII 15 Jul 1563 seminary ordinance",
+      "original_manuscript_read": false,
+      "original_print_folio_collated": false,
+      "rights_to_embed_image_confirmed": false
+    }
+  ],
+  "dossiers": [
+    {
+      "id": "DOS-V205-WYCLIFFE-01",
+      "focus_task_id": "FOCUS-V204-WYCLIFFE-01",
+      "reader_key": "WYCLIFFE",
+      "passage_id": "PAR-V204-WYCLIFFE-002",
+      "source_excerpt": "위클리프의 라틴어 저술 『De ecclesia』는 대략 1378~1379년경에 집필되었다.",
+      "reviewed_source_ids": [
+        "SRC-V205-CUB"
+      ],
+      "source_assessment": "ACADEMIC_BIBLIOGRAPHIC_LEAD_REVIEWED",
+      "review_scope": "WEB_PAGE_OR_SEARCH_EXCERPT_NOT_ORIGINAL_WITNESS",
+      "findings_observation_ids": [
+        "OBS-V205-WYCLIFFE-01-01",
+        "OBS-V205-WYCLIFFE-01-02"
+      ],
+      "provisional_editorial_recommendation_ko": "본문의 '대략 1378~1379년경'은 이 색인만으로 두 연도 모두 확증했다고 쓰지 않는다. 1378년 중심 서지 견해와 1379년 가능성은 다른 전문 연구에서 별도 확인.",
+      "remaining_primary_verification_gap_ko": "중세 저작 사본·1886년 편집본의 실제 쪽과 필사본 이문 미교감",
+      "primary_folio_or_original_print_read": false,
+      "precise_original_page_passage_collated": false,
+      "human_specialist_decision": "PENDING",
+      "public_import_allowed": false
+    },
+    {
+      "id": "DOS-V205-LUTHER1521-01",
+      "focus_task_id": "FOCUS-V204-LUTHER1521-01",
+      "reader_key": "LUTHER1521",
+      "passage_id": "PAR-V204-LUTHER1521-003",
+      "source_excerpt": "보름스 시 역사 자료는 루터가 1521년 4월 17일과 18일",
+      "reviewed_source_ids": [
+        "SRC-V205-WORMS",
+        "SRC-V205-GOTHA"
+      ],
+      "source_assessment": "INSTITUTIONAL_SECONDARY_AND_CATALOGUE_REVIEWED",
+      "review_scope": "WEB_PAGE_OR_SEARCH_EXCERPT_NOT_ORIGINAL_WITNESS",
+      "findings_observation_ids": [
+        "OBS-V205-LUTHER1521-01-01",
+        "OBS-V205-LUTHER1521-01-02"
+      ],
+      "provisional_editorial_recommendation_ko": "4월 17·18일 심문과 20여 년 뒤 작성된 슈팔라틴 기록을 동일한 동시대 속기록으로 소개하지 않는다.",
+      "remaining_primary_verification_gap_ko": "제국의회 공식 기록 및 개별 발언의 원문 증인 직접 대조",
+      "primary_folio_or_original_print_read": false,
+      "precise_original_page_passage_collated": false,
+      "human_specialist_decision": "PENDING",
+      "public_import_allowed": false
+    },
+    {
+      "id": "DOS-V205-LUTHER1521-03",
+      "focus_task_id": "FOCUS-V204-LUTHER1521-03",
+      "reader_key": "LUTHER1521",
+      "passage_id": "PAR-V204-LUTHER1521-007",
+      "source_excerpt": "'나는 여기 서 있다'에 해당하는 문구는",
+      "reviewed_source_ids": [
+        "SRC-V205-BPB",
+        "SRC-V205-WORMS",
+        "SRC-V205-GOTHA"
+      ],
+      "source_assessment": "INSTITUTIONAL_INTERPRETATION_REVIEWED",
+      "review_scope": "WEB_PAGE_OR_SEARCH_EXCERPT_NOT_ORIGINAL_WITNESS",
+      "findings_observation_ids": [
+        "OBS-V205-LUTHER1521-03-01",
+        "OBS-V205-LUTHER1521-03-02"
+      ],
+      "provisional_editorial_recommendation_ko": "직접 발언 인용 대신 '후대에 널리 전승된 표현'으로 표기하고, 당대 심문 기록의 원문·판본을 별도로 연결.",
+      "remaining_primary_verification_gap_ko": "동시대 인쇄본·필사본의 원어 이문 및 원판 직접 교감",
+      "primary_folio_or_original_print_read": false,
+      "precise_original_page_passage_collated": false,
+      "human_specialist_decision": "PENDING",
+      "public_import_allowed": false
+    },
+    {
+      "id": "DOS-V205-MARBURG-01",
+      "focus_task_id": "FOCUS-V204-MARBURG-01",
+      "reader_key": "MARBURG",
+      "passage_id": "PAR-V204-MARBURG-002",
+      "source_excerpt": "마르부르크 조항은 1529년 10월 3일 작성·서명된 것으로",
+      "reviewed_source_ids": [
+        "SRC-V205-MARB-GHDI",
+        "SRC-V205-MARB-ARCH"
+      ],
+      "source_assessment": "EDITED_TRANSLATION_REVIEWED_CATALOGUE_EXCERPT_ONLY",
+      "review_scope": "WEB_PAGE_OR_SEARCH_EXCERPT_NOT_ORIGINAL_WITNESS",
+      "findings_observation_ids": [
+        "OBS-V205-MARBURG-01-01",
+        "OBS-V205-MARBURG-01-02"
+      ],
+      "provisional_editorial_recommendation_ko": "서명일은 편집 번역문의 표기 근거를 명시하고, 서명자·필사 상태는 목록에서 확인한 내용으로만 기재.",
+      "remaining_primary_verification_gap_ko": "취리히 Z 원본 및 헤센 K 판면에 대한 직접 판독",
+      "primary_folio_or_original_print_read": false,
+      "precise_original_page_passage_collated": false,
+      "human_specialist_decision": "PENDING",
+      "public_import_allowed": false
+    },
+    {
+      "id": "DOS-V205-MARBURG-02",
+      "focus_task_id": "FOCUS-V204-MARBURG-02",
+      "reader_key": "MARBURG",
+      "passage_id": "PAR-V204-MARBURG-002",
+      "source_excerpt": "그러나 제15조에서 성만찬의 빵과 포도주 안에 그리스도의 몸과 피가 육체적으로 현존하는가",
+      "reviewed_source_ids": [
+        "SRC-V205-MARB-GHDI",
+        "SRC-V205-MARB-ARCH"
+      ],
+      "source_assessment": "EDITED_TRANSLATION_REVIEWED_CATALOGUE_EXCERPT_ONLY",
+      "review_scope": "WEB_PAGE_OR_SEARCH_EXCERPT_NOT_ORIGINAL_WITNESS",
+      "findings_observation_ids": [
+        "OBS-V205-MARBURG-02-01",
+        "OBS-V205-MARBURG-02-02"
+      ],
+      "provisional_editorial_recommendation_ko": "제15조를 '전면적 불합의' 또는 '성만찬까지 합의'라는 단정으로 요약하지 않고 공통점과 논쟁점을 함께 표시.",
+      "remaining_primary_verification_gap_ko": "Z/K 7·13·15조의 독일어 문장별 이문 대조",
+      "primary_folio_or_original_print_read": false,
+      "precise_original_page_passage_collated": false,
+      "human_specialist_decision": "PENDING",
+      "public_import_allowed": false
+    },
+    {
+      "id": "DOS-V205-MARBURG-03",
+      "focus_task_id": "FOCUS-V204-MARBURG-03",
+      "reader_key": "MARBURG",
+      "passage_id": "PAR-V204-MARBURG-005",
+      "source_excerpt": "취리히 주립문서관의 목록은 마르부르크 조항 문서를 E I 3.1, Nr. 54로 기재한다.",
+      "reviewed_source_ids": [
+        "SRC-V205-MARB-ARCH"
+      ],
+      "source_assessment": "ARCHIVE_SEARCH_EXCERPT_LEAD_ONLY",
+      "review_scope": "WEB_PAGE_OR_SEARCH_EXCERPT_NOT_ORIGINAL_WITNESS",
+      "findings_observation_ids": [
+        "OBS-V205-MARBURG-03-01",
+        "OBS-V205-MARBURG-03-02"
+      ],
+      "provisional_editorial_recommendation_ko": "이 자료는 검색 결과 발췌로만 확인했으므로 '원본을 직접 열람하여 이문을 판정했다'라고 쓰지 않는다.",
+      "remaining_primary_verification_gap_ko": "목록 페이지 재접근, Z·K 원본 이미지 및 해당 조항 교감. 현재는 소장정보 참고 수준",
+      "primary_folio_or_original_print_read": false,
+      "precise_original_page_passage_collated": false,
+      "human_specialist_decision": "PENDING",
+      "public_import_allowed": false
+    },
+    {
+      "id": "DOS-V205-AUGSBURG-01",
+      "focus_task_id": "FOCUS-V204-AUGSBURG-01",
+      "reader_key": "AUGSBURG",
+      "passage_id": "PAR-V204-AUGSBURG-001",
+      "source_excerpt": "1530년 아우크스부르크 제국의회에서",
+      "reviewed_source_ids": [
+        "SRC-V205-SCHAFF",
+        "SRC-V205-AUG-HIST"
+      ],
+      "source_assessment": "HISTORIOGRAPHY_REVIEWED",
+      "review_scope": "WEB_PAGE_OR_SEARCH_EXCERPT_NOT_ORIGINAL_WITNESS",
+      "findings_observation_ids": [
+        "OBS-V205-AUGSBURG-01-01",
+        "OBS-V205-AUGSBURG-01-02"
+      ],
+      "provisional_editorial_recommendation_ko": "문헌 기록과 실물의 현존성은 별도 문제로 표시. 제출본이 직접 교감되었다는 의미로 '1530 원본 확인'을 쓰지 않는다.",
+      "remaining_primary_verification_gap_ko": "제국의회 서류 원본·제출 필사본·동시대 증언 대조",
+      "primary_folio_or_original_print_read": false,
+      "precise_original_page_passage_collated": false,
+      "human_specialist_decision": "PENDING",
+      "public_import_allowed": false
+    },
+    {
+      "id": "DOS-V205-AUGSBURG-02",
+      "focus_task_id": "FOCUS-V204-AUGSBURG-02",
+      "reader_key": "AUGSBURG",
+      "passage_id": "PAR-V204-AUGSBURG-002",
+      "source_excerpt": "1531년 비텐베르크에서 게오르크 라우가 인쇄한",
+      "reviewed_source_ids": [
+        "SRC-V205-SCHAFF",
+        "SRC-V205-AUG-HIST"
+      ],
+      "source_assessment": "HISTORIOGRAPHY_REVIEWED",
+      "review_scope": "WEB_PAGE_OR_SEARCH_EXCERPT_NOT_ORIGINAL_WITNESS",
+      "findings_observation_ids": [
+        "OBS-V205-AUGSBURG-02-01",
+        "OBS-V205-AUGSBURG-02-02"
+      ],
+      "provisional_editorial_recommendation_ko": "정밀 수정 필요: '1531 최초 인쇄'가 아니라 '1531 최초 승인 인쇄본(editio princeps)'으로 표시.",
+      "remaining_primary_verification_gap_ko": "1530 비공인 인쇄물별 VD16 서지·현존본 및 1531 Rhau 인쇄판 실물 미대조",
+      "primary_folio_or_original_print_read": false,
+      "precise_original_page_passage_collated": false,
+      "human_specialist_decision": "PENDING",
+      "public_import_allowed": false
+    },
+    {
+      "id": "DOS-V205-AUGSBURG-03",
+      "focus_task_id": "FOCUS-V204-AUGSBURG-03",
+      "reader_key": "AUGSBURG",
+      "passage_id": "PAR-V204-AUGSBURG-005",
+      "source_excerpt": "1540년판은 나중에 Variata라고 불렸다.",
+      "reviewed_source_ids": [
+        "SRC-V205-SCHAFF",
+        "SRC-V205-AUG-HIST"
+      ],
+      "source_assessment": "EDITION_HISTORY_SECONDARY_REVIEWED",
+      "review_scope": "WEB_PAGE_OR_SEARCH_EXCERPT_NOT_ORIGINAL_WITNESS",
+      "findings_observation_ids": [
+        "OBS-V205-AUGSBURG-03-01",
+        "OBS-V205-AUGSBURG-03-02"
+      ],
+      "provisional_editorial_recommendation_ko": "1540년 개정판의 존재·명칭 확인과 제4·10조의 실제 원어 변경을 서로 다른 검증 단계로 분리.",
+      "remaining_primary_verification_gap_ko": "1531·1540 인쇄본 제4·10조 어절 단위 직접 판독",
+      "primary_folio_or_original_print_read": false,
+      "precise_original_page_passage_collated": false,
+      "human_specialist_decision": "PENDING",
+      "public_import_allowed": false
+    },
+    {
+      "id": "DOS-V205-CALVIN1536-01",
+      "focus_task_id": "FOCUS-V204-CALVIN1536-01",
+      "reader_key": "CALVIN1536",
+      "passage_id": "PAR-V204-CALVIN1536-001",
+      "source_excerpt": "칼뱅이 1536년 바젤에서 펴낸 라틴어 『기독교강요』는 여섯 장으로 구성되었다.",
+      "reviewed_source_ids": [
+        "SRC-V205-CALVIN",
+        "SRC-V205-CALVIN-COMP"
+      ],
+      "source_assessment": "SECONDARY_STRUCTURE_REVIEWED",
+      "review_scope": "WEB_PAGE_OR_SEARCH_EXCERPT_NOT_ORIGINAL_WITNESS",
+      "findings_observation_ids": [
+        "OBS-V205-CALVIN1536-01-01",
+        "OBS-V205-CALVIN1536-01-02"
+      ],
+      "provisional_editorial_recommendation_ko": "1536년 여섯 장이라는 설명은 유지하되 1559년 네 권 80장을 초판에 소급하지 않는다.",
+      "remaining_primary_verification_gap_ko": "1536년 바젤판 인쇄 원본 제목면·목차의 직접 판독",
+      "primary_folio_or_original_print_read": false,
+      "precise_original_page_passage_collated": false,
+      "human_specialist_decision": "PENDING",
+      "public_import_allowed": false
+    },
+    {
+      "id": "DOS-V205-CALVIN1536-02",
+      "focus_task_id": "FOCUS-V204-CALVIN1536-02",
+      "reader_key": "CALVIN1536",
+      "passage_id": "PAR-V204-CALVIN1536-005",
+      "source_excerpt": "두 번째 라틴어판은 1539년에 나왔으며",
+      "reviewed_source_ids": [
+        "SRC-V205-CALVIN"
+      ],
+      "source_assessment": "SECONDARY_EDITION_SEQUENCE_REVIEWED",
+      "review_scope": "WEB_PAGE_OR_SEARCH_EXCERPT_NOT_ORIGINAL_WITNESS",
+      "findings_observation_ids": [
+        "OBS-V205-CALVIN1536-02-01",
+        "OBS-V205-CALVIN1536-02-02"
+      ],
+      "provisional_editorial_recommendation_ko": "1536→1539 변화는 판본 체계로 소개하고, 어떤 문장이 어느 장으로 이동했는지는 직접 교감 후에만 연결.",
+      "remaining_primary_verification_gap_ko": "1536/1539 목차와 각 장 원어 직접 비교",
+      "primary_folio_or_original_print_read": false,
+      "precise_original_page_passage_collated": false,
+      "human_specialist_decision": "PENDING",
+      "public_import_allowed": false
+    },
+    {
+      "id": "DOS-V205-CALVIN1559-01",
+      "focus_task_id": "FOCUS-V204-CALVIN1559-01",
+      "reader_key": "CALVIN1559",
+      "passage_id": "PAR-V204-CALVIN1559-001",
+      "source_excerpt": "1559년판 『기독교강요』는 네 권 80장으로 구성된 최종 라틴어판이다.",
+      "reviewed_source_ids": [
+        "SRC-V205-CALVIN",
+        "SRC-V205-CALVIN-COMP"
+      ],
+      "source_assessment": "SECONDARY_STRUCTURE_REVIEWED",
+      "review_scope": "WEB_PAGE_OR_SEARCH_EXCERPT_NOT_ORIGINAL_WITNESS",
+      "findings_observation_ids": [
+        "OBS-V205-CALVIN1559-01-01",
+        "OBS-V205-CALVIN1559-01-02"
+      ],
+      "provisional_editorial_recommendation_ko": "서지적 편제 비교만 준비하고, 모든 주제가 1:1로 이어진다는 자동 대응을 만들지 않는다.",
+      "remaining_primary_verification_gap_ko": "1559년 원본 인쇄판과 1536년 판본의 장절·판면 대조",
+      "primary_folio_or_original_print_read": false,
+      "precise_original_page_passage_collated": false,
+      "human_specialist_decision": "PENDING",
+      "public_import_allowed": false
+    },
+    {
+      "id": "DOS-V205-ZWINGLI-01",
+      "focus_task_id": "FOCUS-V204-ZWINGLI-01",
+      "reader_key": "ZWINGLI",
+      "passage_id": "PAR-V204-ZWINGLI-001",
+      "source_excerpt": "1523년 첫 취리히 논쟁에는",
+      "reviewed_source_ids": [
+        "SRC-V205-ZB"
+      ],
+      "source_assessment": "HOLDING_INSTITUTION_HISTORY_REVIEWED",
+      "review_scope": "WEB_PAGE_OR_SEARCH_EXCERPT_NOT_ORIGINAL_WITNESS",
+      "findings_observation_ids": [
+        "OBS-V205-ZWINGLI-01-01",
+        "OBS-V205-ZWINGLI-01-02"
+      ],
+      "provisional_editorial_recommendation_ko": "원고의 '1523년 첫 취리히 논쟁'을 1월 29일이라는 날짜 앵커에 연결할 수 있지만, 다른 문헌에 나타나는 1월 27일 서지 날짜와 같은 사건일로 단정하지 않는다.",
+      "remaining_primary_verification_gap_ko": "67개 조항 인쇄본의 판권·서문 날짜와 회의 개최일의 1차 사료 구별",
+      "primary_folio_or_original_print_read": false,
+      "precise_original_page_passage_collated": false,
+      "human_specialist_decision": "PENDING",
+      "public_import_allowed": false
+    },
+    {
+      "id": "DOS-V205-ZWINGLI-02",
+      "focus_task_id": "FOCUS-V204-ZWINGLI-02",
+      "reader_key": "ZWINGLI",
+      "passage_id": "PAR-V204-ZWINGLI-002",
+      "source_excerpt": "그해 10월의 두 번째 논쟁은",
+      "reviewed_source_ids": [
+        "SRC-V205-ZB"
+      ],
+      "source_assessment": "HOLDING_INSTITUTION_HISTORY_REVIEWED",
+      "review_scope": "WEB_PAGE_OR_SEARCH_EXCERPT_NOT_ORIGINAL_WITNESS",
+      "findings_observation_ids": [
+        "OBS-V205-ZWINGLI-02-01",
+        "OBS-V205-ZWINGLI-02-02"
+      ],
+      "provisional_editorial_recommendation_ko": "회의 시기·시의회 조치·현장 시행 시점을 하나의 날짜로 합치지 않는다.",
+      "remaining_primary_verification_gap_ko": "1523년 10월 시의회 원문 회의록과 교구 현장 시행 확인",
+      "primary_folio_or_original_print_read": false,
+      "precise_original_page_passage_collated": false,
+      "human_specialist_decision": "PENDING",
+      "public_import_allowed": false
+    },
+    {
+      "id": "DOS-V205-ZWINGLI-03",
+      "focus_task_id": "FOCUS-V204-ZWINGLI-03",
+      "reader_key": "ZWINGLI",
+      "passage_id": "PAR-V204-ZWINGLI-003",
+      "source_excerpt": "취리히 재세례파의 형성은",
+      "reviewed_source_ids": [
+        "SRC-V205-ZB"
+      ],
+      "source_assessment": "HOLDING_INSTITUTION_HISTORY_REVIEWED",
+      "review_scope": "WEB_PAGE_OR_SEARCH_EXCERPT_NOT_ORIGINAL_WITNESS",
+      "findings_observation_ids": [
+        "OBS-V205-ZWINGLI-03-01",
+        "OBS-V205-ZWINGLI-03-02"
+      ],
+      "provisional_editorial_recommendation_ko": "츠빙글리 개혁과 관련된 도시 권력의 종교 강제를 삭제하지 말고, 지도자 개인의 직접 명령과 시의회 법적 집행은 별도 검증한다.",
+      "remaining_primary_verification_gap_ko": "도시 의회 원문 결정문·기록의 개별 절차 확인",
+      "primary_folio_or_original_print_read": false,
+      "precise_original_page_passage_collated": false,
+      "human_specialist_decision": "PENDING",
+      "public_import_allowed": false
+    },
+    {
+      "id": "DOS-V205-TRENT-02",
+      "focus_task_id": "FOCUS-V204-TRENT-02",
+      "reader_key": "TRENT",
+      "passage_id": "PAR-V204-TRENT-002",
+      "source_excerpt": "의롭다 함에 관한 결정은",
+      "reviewed_source_ids": [
+        "SRC-V205-TRENT"
+      ],
+      "source_assessment": "EDITED_PRIMARY_TRANSLATION_REVIEWED",
+      "review_scope": "WEB_PAGE_OR_SEARCH_EXCERPT_NOT_ORIGINAL_WITNESS",
+      "findings_observation_ids": [
+        "OBS-V205-TRENT-02-01",
+        "OBS-V205-TRENT-02-02"
+      ],
+      "provisional_editorial_recommendation_ko": "의롭다 함 교령을 막연히 '1545년 공의회 결정'으로 일괄 표시하지 않고 제6회기·1547년 1월 13일을 병기.",
+      "remaining_primary_verification_gap_ko": "라틴어 원본 및 규정별 직접 교감. 번역 전문 사용권 별도 고려",
+      "primary_folio_or_original_print_read": false,
+      "precise_original_page_passage_collated": false,
+      "human_specialist_decision": "PENDING",
+      "public_import_allowed": false
+    },
+    {
+      "id": "DOS-V205-TRENT-03",
+      "focus_task_id": "FOCUS-V204-TRENT-03",
+      "reader_key": "TRENT",
+      "passage_id": "PAR-V204-TRENT-003",
+      "source_excerpt": "주교의 거주 의무, 사제 교육, 설교",
+      "reviewed_source_ids": [
+        "SRC-V205-TRENT"
+      ],
+      "source_assessment": "EDITED_PRIMARY_TRANSLATION_REVIEWED",
+      "review_scope": "WEB_PAGE_OR_SEARCH_EXCERPT_NOT_ORIGINAL_WITNESS",
+      "findings_observation_ids": [
+        "OBS-V205-TRENT-03-01",
+        "OBS-V205-TRENT-03-02"
+      ],
+      "provisional_editorial_recommendation_ko": "규율 시행의 실제 지역별 시점은 별도 사료 없이는 제23회기 선포 날짜와 동일시하지 않는다.",
+      "remaining_primary_verification_gap_ko": "해당 라틴어 법규 및 개별 교구 집행기록 직접 대조",
+      "primary_folio_or_original_print_read": false,
+      "precise_original_page_passage_collated": false,
+      "human_specialist_decision": "PENDING",
+      "public_import_allowed": false
+    }
+  ],
+  "atomic_research_observations": [
+    {
+      "id": "OBS-V205-WYCLIFFE-01-01",
+      "review_id": "DOS-V205-WYCLIFFE-01",
+      "focus_task_id": "FOCUS-V204-WYCLIFFE-01",
+      "reader_key": "WYCLIFFE",
+      "precise_research_observation_ko": "학술 텍스트 색인은 위클리프의 『De ecclesia』를 1378년으로 표시한다.",
+      "documentary_basis_source_ids": [
+        "SRC-V205-CUB"
+      ],
+      "observation_kind": "HISTORICAL_BIBLIOGRAPHY_OR_EDITED_SOURCE_NOTE",
+      "access_level": "ACADEMIC_BIBLIOGRAPHIC_LEAD_REVIEWED",
+      "editorial_use": "FOR_HUMAN_FACT_CHECK_AND_PROPOSED_WORDING_ONLY",
+      "page_line_or_folio_original": null,
+      "original_document_collated": false,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "OBS-V205-WYCLIFFE-01-02",
+      "review_id": "DOS-V205-WYCLIFFE-01",
+      "focus_task_id": "FOCUS-V204-WYCLIFFE-01",
+      "reader_key": "WYCLIFFE",
+      "precise_research_observation_ko": "같은 색인에서 Loserth·Matthew 1886년 편집본을 참조한다.",
+      "documentary_basis_source_ids": [
+        "SRC-V205-CUB"
+      ],
+      "observation_kind": "HISTORICAL_BIBLIOGRAPHY_OR_EDITED_SOURCE_NOTE",
+      "access_level": "ACADEMIC_BIBLIOGRAPHIC_LEAD_REVIEWED",
+      "editorial_use": "FOR_HUMAN_FACT_CHECK_AND_PROPOSED_WORDING_ONLY",
+      "page_line_or_folio_original": null,
+      "original_document_collated": false,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "OBS-V205-LUTHER1521-01-01",
+      "review_id": "DOS-V205-LUTHER1521-01",
+      "focus_task_id": "FOCUS-V204-LUTHER1521-01",
+      "reader_key": "LUTHER1521",
+      "precise_research_observation_ko": "보름스 시의 역사 현장 설명은 1521년 4월 17일과 18일의 심문을 분리하여 명시한다.",
+      "documentary_basis_source_ids": [
+        "SRC-V205-WORMS",
+        "SRC-V205-GOTHA"
+      ],
+      "observation_kind": "HISTORICAL_BIBLIOGRAPHY_OR_EDITED_SOURCE_NOTE",
+      "access_level": "INSTITUTIONAL_SECONDARY_AND_CATALOGUE_REVIEWED",
+      "editorial_use": "FOR_HUMAN_FACT_CHECK_AND_PROPOSED_WORDING_ONLY",
+      "page_line_or_folio_original": null,
+      "original_document_collated": false,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "OBS-V205-LUTHER1521-01-02",
+      "review_id": "DOS-V205-LUTHER1521-01",
+      "focus_task_id": "FOCUS-V204-LUTHER1521-01",
+      "reader_key": "LUTHER1521",
+      "precise_research_observation_ko": "고타 연구도서관은 슈팔라틴의 후대 회고를 당대 회의 문서와 구별하고 소장기호 Chart. A 340을 안내한다.",
+      "documentary_basis_source_ids": [
+        "SRC-V205-WORMS",
+        "SRC-V205-GOTHA"
+      ],
+      "observation_kind": "HISTORICAL_BIBLIOGRAPHY_OR_EDITED_SOURCE_NOTE",
+      "access_level": "INSTITUTIONAL_SECONDARY_AND_CATALOGUE_REVIEWED",
+      "editorial_use": "FOR_HUMAN_FACT_CHECK_AND_PROPOSED_WORDING_ONLY",
+      "page_line_or_folio_original": null,
+      "original_document_collated": false,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "OBS-V205-LUTHER1521-03-01",
+      "review_id": "DOS-V205-LUTHER1521-03",
+      "focus_task_id": "FOCUS-V204-LUTHER1521-03",
+      "reader_key": "LUTHER1521",
+      "precise_research_observation_ko": "독일 연방정치교육원의 역사 해설은 'Hier stehe ich' 문구가 당대 발언 원문으로 확정되지 않는다고 설명한다.",
+      "documentary_basis_source_ids": [
+        "SRC-V205-BPB",
+        "SRC-V205-WORMS",
+        "SRC-V205-GOTHA"
+      ],
+      "observation_kind": "HISTORICAL_BIBLIOGRAPHY_OR_EDITED_SOURCE_NOTE",
+      "access_level": "INSTITUTIONAL_INTERPRETATION_REVIEWED",
+      "editorial_use": "FOR_HUMAN_FACT_CHECK_AND_PROPOSED_WORDING_ONLY",
+      "page_line_or_folio_original": null,
+      "original_document_collated": false,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "OBS-V205-LUTHER1521-03-02",
+      "review_id": "DOS-V205-LUTHER1521-03",
+      "focus_task_id": "FOCUS-V204-LUTHER1521-03",
+      "reader_key": "LUTHER1521",
+      "precise_research_observation_ko": "보름스 시 역사 자료도 유명한 마무리 문구가 나중에 추가되었다고 명시한다.",
+      "documentary_basis_source_ids": [
+        "SRC-V205-BPB",
+        "SRC-V205-WORMS",
+        "SRC-V205-GOTHA"
+      ],
+      "observation_kind": "HISTORICAL_BIBLIOGRAPHY_OR_EDITED_SOURCE_NOTE",
+      "access_level": "INSTITUTIONAL_INTERPRETATION_REVIEWED",
+      "editorial_use": "FOR_HUMAN_FACT_CHECK_AND_PROPOSED_WORDING_ONLY",
+      "page_line_or_folio_original": null,
+      "original_document_collated": false,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "OBS-V205-MARBURG-01-01",
+      "review_id": "DOS-V205-MARBURG-01",
+      "focus_task_id": "FOCUS-V204-MARBURG-01",
+      "reader_key": "MARBURG",
+      "precise_research_observation_ko": "GHDI 편집 번역문은 마르부르크 조항의 작성·서명일을 1529년 10월 3일로 표시한다.",
+      "documentary_basis_source_ids": [
+        "SRC-V205-MARB-GHDI",
+        "SRC-V205-MARB-ARCH"
+      ],
+      "observation_kind": "HISTORICAL_BIBLIOGRAPHY_OR_EDITED_SOURCE_NOTE",
+      "access_level": "EDITED_TRANSLATION_REVIEWED_CATALOGUE_EXCERPT_ONLY",
+      "editorial_use": "FOR_HUMAN_FACT_CHECK_AND_PROPOSED_WORDING_ONLY",
+      "page_line_or_folio_original": null,
+      "original_document_collated": false,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "OBS-V205-MARBURG-01-02",
+      "review_id": "DOS-V205-MARBURG-01",
+      "focus_task_id": "FOCUS-V204-MARBURG-01",
+      "reader_key": "MARBURG",
+      "precise_research_observation_ko": "문서관 검색 목록에는 취리히본에 자필 서명자가 있는 합의문이 수록된 것으로 안내된다.",
+      "documentary_basis_source_ids": [
+        "SRC-V205-MARB-GHDI",
+        "SRC-V205-MARB-ARCH"
+      ],
+      "observation_kind": "HISTORICAL_BIBLIOGRAPHY_OR_EDITED_SOURCE_NOTE",
+      "access_level": "EDITED_TRANSLATION_REVIEWED_CATALOGUE_EXCERPT_ONLY",
+      "editorial_use": "FOR_HUMAN_FACT_CHECK_AND_PROPOSED_WORDING_ONLY",
+      "page_line_or_folio_original": null,
+      "original_document_collated": false,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "OBS-V205-MARBURG-02-01",
+      "review_id": "DOS-V205-MARBURG-02",
+      "focus_task_id": "FOCUS-V204-MARBURG-02",
+      "reader_key": "MARBURG",
+      "precise_research_observation_ko": "GHDI 제15조 번역은 성만찬에 관하여 그리스도의 몸과 피의 육체적 현존 문제를 합의하지 못했다고 기술한다.",
+      "documentary_basis_source_ids": [
+        "SRC-V205-MARB-GHDI",
+        "SRC-V205-MARB-ARCH"
+      ],
+      "observation_kind": "HISTORICAL_BIBLIOGRAPHY_OR_EDITED_SOURCE_NOTE",
+      "access_level": "EDITED_TRANSLATION_REVIEWED_CATALOGUE_EXCERPT_ONLY",
+      "editorial_use": "FOR_HUMAN_FACT_CHECK_AND_PROPOSED_WORDING_ONLY",
+      "page_line_or_folio_original": null,
+      "original_document_collated": false,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "OBS-V205-MARBURG-02-02",
+      "review_id": "DOS-V205-MARBURG-02",
+      "focus_task_id": "FOCUS-V204-MARBURG-02",
+      "reader_key": "MARBURG",
+      "precise_research_observation_ko": "같은 조항에는 상호 그리스도인다운 사랑을 보여 달라는 약속도 포함된다.",
+      "documentary_basis_source_ids": [
+        "SRC-V205-MARB-GHDI",
+        "SRC-V205-MARB-ARCH"
+      ],
+      "observation_kind": "HISTORICAL_BIBLIOGRAPHY_OR_EDITED_SOURCE_NOTE",
+      "access_level": "EDITED_TRANSLATION_REVIEWED_CATALOGUE_EXCERPT_ONLY",
+      "editorial_use": "FOR_HUMAN_FACT_CHECK_AND_PROPOSED_WORDING_ONLY",
+      "page_line_or_folio_original": null,
+      "original_document_collated": false,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "OBS-V205-MARBURG-03-01",
+      "review_id": "DOS-V205-MARBURG-03",
+      "focus_task_id": "FOCUS-V204-MARBURG-03",
+      "reader_key": "MARBURG",
+      "precise_research_observation_ko": "문서관 검색 결과는 소장기호 E I 3.1, Nr.54를 제시한다.",
+      "documentary_basis_source_ids": [
+        "SRC-V205-MARB-ARCH"
+      ],
+      "observation_kind": "HISTORICAL_BIBLIOGRAPHY_OR_EDITED_SOURCE_NOTE",
+      "access_level": "ARCHIVE_SEARCH_EXCERPT_LEAD_ONLY",
+      "editorial_use": "FOR_HUMAN_FACT_CHECK_AND_PROPOSED_WORDING_ONLY",
+      "page_line_or_folio_original": null,
+      "original_document_collated": false,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "OBS-V205-MARBURG-03-02",
+      "review_id": "DOS-V205-MARBURG-03",
+      "focus_task_id": "FOCUS-V204-MARBURG-03",
+      "reader_key": "MARBURG",
+      "precise_research_observation_ko": "검색 결과 설명에는 Z에 제7·13·15조의 추가 문구가 있고 K에는 없다고 기록된다.",
+      "documentary_basis_source_ids": [
+        "SRC-V205-MARB-ARCH"
+      ],
+      "observation_kind": "HISTORICAL_BIBLIOGRAPHY_OR_EDITED_SOURCE_NOTE",
+      "access_level": "ARCHIVE_SEARCH_EXCERPT_LEAD_ONLY",
+      "editorial_use": "FOR_HUMAN_FACT_CHECK_AND_PROPOSED_WORDING_ONLY",
+      "page_line_or_folio_original": null,
+      "original_document_collated": false,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "OBS-V205-AUGSBURG-01-01",
+      "review_id": "DOS-V205-AUGSBURG-01",
+      "focus_task_id": "FOCUS-V204-AUGSBURG-01",
+      "reader_key": "AUGSBURG",
+      "precise_research_observation_ko": "교회사 문헌은 1530년 제국의회에 독일어·라틴어 필사본이 제출되었다고 설명한다.",
+      "documentary_basis_source_ids": [
+        "SRC-V205-SCHAFF",
+        "SRC-V205-AUG-HIST"
+      ],
+      "observation_kind": "HISTORICAL_BIBLIOGRAPHY_OR_EDITED_SOURCE_NOTE",
+      "access_level": "HISTORIOGRAPHY_REVIEWED",
+      "editorial_use": "FOR_HUMAN_FACT_CHECK_AND_PROPOSED_WORDING_ONLY",
+      "page_line_or_folio_original": null,
+      "original_document_collated": false,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "OBS-V205-AUGSBURG-01-02",
+      "review_id": "DOS-V205-AUGSBURG-01",
+      "focus_task_id": "FOCUS-V204-AUGSBURG-01",
+      "reader_key": "AUGSBURG",
+      "precise_research_observation_ko": "1530년 제출 원고와 1531년 승인 인쇄본은 동일한 물리적 증인이 아니라는 판본 구분이 필요하다.",
+      "documentary_basis_source_ids": [
+        "SRC-V205-SCHAFF",
+        "SRC-V205-AUG-HIST"
+      ],
+      "observation_kind": "HISTORICAL_BIBLIOGRAPHY_OR_EDITED_SOURCE_NOTE",
+      "access_level": "HISTORIOGRAPHY_REVIEWED",
+      "editorial_use": "FOR_HUMAN_FACT_CHECK_AND_PROPOSED_WORDING_ONLY",
+      "page_line_or_folio_original": null,
+      "original_document_collated": false,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "OBS-V205-AUGSBURG-02-01",
+      "review_id": "DOS-V205-AUGSBURG-02",
+      "focus_task_id": "FOCUS-V204-AUGSBURG-02",
+      "reader_key": "AUGSBURG",
+      "precise_research_observation_ko": "1530년 제국의회 기간에 비공인 인쇄본들이 유통되었다는 19세기 교회사 기록이 존재한다.",
+      "documentary_basis_source_ids": [
+        "SRC-V205-SCHAFF",
+        "SRC-V205-AUG-HIST"
+      ],
+      "observation_kind": "HISTORICAL_BIBLIOGRAPHY_OR_EDITED_SOURCE_NOTE",
+      "access_level": "HISTORIOGRAPHY_REVIEWED",
+      "editorial_use": "FOR_HUMAN_FACT_CHECK_AND_PROPOSED_WORDING_ONLY",
+      "page_line_or_folio_original": null,
+      "original_document_collated": false,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "OBS-V205-AUGSBURG-02-02",
+      "review_id": "DOS-V205-AUGSBURG-02",
+      "focus_task_id": "FOCUS-V204-AUGSBURG-02",
+      "reader_key": "AUGSBURG",
+      "precise_research_observation_ko": "1531년 비텐베르크의 Georg Rhau 인쇄본은 멜란히톤이 관여한 승인 인쇄본으로 소개된다.",
+      "documentary_basis_source_ids": [
+        "SRC-V205-SCHAFF",
+        "SRC-V205-AUG-HIST"
+      ],
+      "observation_kind": "HISTORICAL_BIBLIOGRAPHY_OR_EDITED_SOURCE_NOTE",
+      "access_level": "HISTORIOGRAPHY_REVIEWED",
+      "editorial_use": "FOR_HUMAN_FACT_CHECK_AND_PROPOSED_WORDING_ONLY",
+      "page_line_or_folio_original": null,
+      "original_document_collated": false,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "OBS-V205-AUGSBURG-03-01",
+      "review_id": "DOS-V205-AUGSBURG-03",
+      "focus_task_id": "FOCUS-V204-AUGSBURG-03",
+      "reader_key": "AUGSBURG",
+      "precise_research_observation_ko": "두 서지 해설 모두 1540년에 멜란히톤의 수정본(Variata)이 나온 것으로 설명한다.",
+      "documentary_basis_source_ids": [
+        "SRC-V205-SCHAFF",
+        "SRC-V205-AUG-HIST"
+      ],
+      "observation_kind": "HISTORICAL_BIBLIOGRAPHY_OR_EDITED_SOURCE_NOTE",
+      "access_level": "EDITION_HISTORY_SECONDARY_REVIEWED",
+      "editorial_use": "FOR_HUMAN_FACT_CHECK_AND_PROPOSED_WORDING_ONLY",
+      "page_line_or_folio_original": null,
+      "original_document_collated": false,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "OBS-V205-AUGSBURG-03-02",
+      "review_id": "DOS-V205-AUGSBURG-03",
+      "focus_task_id": "FOCUS-V204-AUGSBURG-03",
+      "reader_key": "AUGSBURG",
+      "precise_research_observation_ko": "자료는 특히 제10조가 후대 신학적 논쟁의 주요 비교 대상이었다고 다룬다.",
+      "documentary_basis_source_ids": [
+        "SRC-V205-SCHAFF",
+        "SRC-V205-AUG-HIST"
+      ],
+      "observation_kind": "HISTORICAL_BIBLIOGRAPHY_OR_EDITED_SOURCE_NOTE",
+      "access_level": "EDITION_HISTORY_SECONDARY_REVIEWED",
+      "editorial_use": "FOR_HUMAN_FACT_CHECK_AND_PROPOSED_WORDING_ONLY",
+      "page_line_or_folio_original": null,
+      "original_document_collated": false,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "OBS-V205-CALVIN1536-01-01",
+      "review_id": "DOS-V205-CALVIN1536-01",
+      "focus_task_id": "FOCUS-V204-CALVIN1536-01",
+      "reader_key": "CALVIN1536",
+      "precise_research_observation_ko": "칼뱅 『기독교강요』 1536년 초판은 여섯 장으로 설명된다.",
+      "documentary_basis_source_ids": [
+        "SRC-V205-CALVIN",
+        "SRC-V205-CALVIN-COMP"
+      ],
+      "observation_kind": "HISTORICAL_BIBLIOGRAPHY_OR_EDITED_SOURCE_NOTE",
+      "access_level": "SECONDARY_STRUCTURE_REVIEWED",
+      "editorial_use": "FOR_HUMAN_FACT_CHECK_AND_PROPOSED_WORDING_ONLY",
+      "page_line_or_folio_original": null,
+      "original_document_collated": false,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "OBS-V205-CALVIN1536-01-02",
+      "review_id": "DOS-V205-CALVIN1536-01",
+      "focus_task_id": "FOCUS-V204-CALVIN1536-01",
+      "reader_key": "CALVIN1536",
+      "precise_research_observation_ko": "1536년 장 구조는 1559년의 네 권 체계와 동일한 권·장 구성으로 표기할 수 없다.",
+      "documentary_basis_source_ids": [
+        "SRC-V205-CALVIN",
+        "SRC-V205-CALVIN-COMP"
+      ],
+      "observation_kind": "HISTORICAL_BIBLIOGRAPHY_OR_EDITED_SOURCE_NOTE",
+      "access_level": "SECONDARY_STRUCTURE_REVIEWED",
+      "editorial_use": "FOR_HUMAN_FACT_CHECK_AND_PROPOSED_WORDING_ONLY",
+      "page_line_or_folio_original": null,
+      "original_document_collated": false,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "OBS-V205-CALVIN1536-02-01",
+      "review_id": "DOS-V205-CALVIN1536-02",
+      "focus_task_id": "FOCUS-V204-CALVIN1536-02",
+      "reader_key": "CALVIN1536",
+      "precise_research_observation_ko": "신학사 개설은 1539년 개정판을 17장 구성이라고 설명한다.",
+      "documentary_basis_source_ids": [
+        "SRC-V205-CALVIN"
+      ],
+      "observation_kind": "HISTORICAL_BIBLIOGRAPHY_OR_EDITED_SOURCE_NOTE",
+      "access_level": "SECONDARY_EDITION_SEQUENCE_REVIEWED",
+      "editorial_use": "FOR_HUMAN_FACT_CHECK_AND_PROPOSED_WORDING_ONLY",
+      "page_line_or_folio_original": null,
+      "original_document_collated": false,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "OBS-V205-CALVIN1536-02-02",
+      "review_id": "DOS-V205-CALVIN1536-02",
+      "focus_task_id": "FOCUS-V204-CALVIN1536-02",
+      "reader_key": "CALVIN1536",
+      "precise_research_observation_ko": "이는 1536년 여섯 장 초판 다음의 중요한 재구성 단계로 소개된다.",
+      "documentary_basis_source_ids": [
+        "SRC-V205-CALVIN"
+      ],
+      "observation_kind": "HISTORICAL_BIBLIOGRAPHY_OR_EDITED_SOURCE_NOTE",
+      "access_level": "SECONDARY_EDITION_SEQUENCE_REVIEWED",
+      "editorial_use": "FOR_HUMAN_FACT_CHECK_AND_PROPOSED_WORDING_ONLY",
+      "page_line_or_folio_original": null,
+      "original_document_collated": false,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "OBS-V205-CALVIN1559-01-01",
+      "review_id": "DOS-V205-CALVIN1559-01",
+      "focus_task_id": "FOCUS-V204-CALVIN1559-01",
+      "reader_key": "CALVIN1559",
+      "precise_research_observation_ko": "1559년 최종 라틴어판이 네 권·80장으로 구성됐다는 설명이 확인된다.",
+      "documentary_basis_source_ids": [
+        "SRC-V205-CALVIN",
+        "SRC-V205-CALVIN-COMP"
+      ],
+      "observation_kind": "HISTORICAL_BIBLIOGRAPHY_OR_EDITED_SOURCE_NOTE",
+      "access_level": "SECONDARY_STRUCTURE_REVIEWED",
+      "editorial_use": "FOR_HUMAN_FACT_CHECK_AND_PROPOSED_WORDING_ONLY",
+      "page_line_or_folio_original": null,
+      "original_document_collated": false,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "OBS-V205-CALVIN1559-01-02",
+      "review_id": "DOS-V205-CALVIN1559-01",
+      "focus_task_id": "FOCUS-V204-CALVIN1559-01",
+      "reader_key": "CALVIN1559",
+      "precise_research_observation_ko": "전문 비교 자료는 1536년 여섯 장의 주제와 1559년 네 권 재배열을 구별한다.",
+      "documentary_basis_source_ids": [
+        "SRC-V205-CALVIN",
+        "SRC-V205-CALVIN-COMP"
+      ],
+      "observation_kind": "HISTORICAL_BIBLIOGRAPHY_OR_EDITED_SOURCE_NOTE",
+      "access_level": "SECONDARY_STRUCTURE_REVIEWED",
+      "editorial_use": "FOR_HUMAN_FACT_CHECK_AND_PROPOSED_WORDING_ONLY",
+      "page_line_or_folio_original": null,
+      "original_document_collated": false,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "OBS-V205-ZWINGLI-01-01",
+      "review_id": "DOS-V205-ZWINGLI-01",
+      "focus_task_id": "FOCUS-V204-ZWINGLI-01",
+      "reader_key": "ZWINGLI",
+      "precise_research_observation_ko": "취리히 중앙도서관의 연표는 첫 공개 논쟁을 1523년 1월 29일로 기재한다.",
+      "documentary_basis_source_ids": [
+        "SRC-V205-ZB"
+      ],
+      "observation_kind": "HISTORICAL_BIBLIOGRAPHY_OR_EDITED_SOURCE_NOTE",
+      "access_level": "HOLDING_INSTITUTION_HISTORY_REVIEWED",
+      "editorial_use": "FOR_HUMAN_FACT_CHECK_AND_PROPOSED_WORDING_ONLY",
+      "page_line_or_folio_original": null,
+      "original_document_collated": false,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "OBS-V205-ZWINGLI-01-02",
+      "review_id": "DOS-V205-ZWINGLI-01",
+      "focus_task_id": "FOCUS-V204-ZWINGLI-01",
+      "reader_key": "ZWINGLI",
+      "precise_research_observation_ko": "참석 규모는 약 600명으로 소개한다.",
+      "documentary_basis_source_ids": [
+        "SRC-V205-ZB"
+      ],
+      "observation_kind": "HISTORICAL_BIBLIOGRAPHY_OR_EDITED_SOURCE_NOTE",
+      "access_level": "HOLDING_INSTITUTION_HISTORY_REVIEWED",
+      "editorial_use": "FOR_HUMAN_FACT_CHECK_AND_PROPOSED_WORDING_ONLY",
+      "page_line_or_folio_original": null,
+      "original_document_collated": false,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "OBS-V205-ZWINGLI-02-01",
+      "review_id": "DOS-V205-ZWINGLI-02",
+      "focus_task_id": "FOCUS-V204-ZWINGLI-02",
+      "reader_key": "ZWINGLI",
+      "precise_research_observation_ko": "취리히 중앙도서관은 두 번째 공개 논쟁을 1523년 10월 말로 설명한다.",
+      "documentary_basis_source_ids": [
+        "SRC-V205-ZB"
+      ],
+      "observation_kind": "HISTORICAL_BIBLIOGRAPHY_OR_EDITED_SOURCE_NOTE",
+      "access_level": "HOLDING_INSTITUTION_HISTORY_REVIEWED",
+      "editorial_use": "FOR_HUMAN_FACT_CHECK_AND_PROPOSED_WORDING_ONLY",
+      "page_line_or_folio_original": null,
+      "original_document_collated": false,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "OBS-V205-ZWINGLI-02-02",
+      "review_id": "DOS-V205-ZWINGLI-02",
+      "focus_task_id": "FOCUS-V204-ZWINGLI-02",
+      "reader_key": "ZWINGLI",
+      "precise_research_observation_ko": "도시의회가 츠빙글리의 지침을 공적 교회 질서로 적용하는 책임을 맡았다고 서술한다.",
+      "documentary_basis_source_ids": [
+        "SRC-V205-ZB"
+      ],
+      "observation_kind": "HISTORICAL_BIBLIOGRAPHY_OR_EDITED_SOURCE_NOTE",
+      "access_level": "HOLDING_INSTITUTION_HISTORY_REVIEWED",
+      "editorial_use": "FOR_HUMAN_FACT_CHECK_AND_PROPOSED_WORDING_ONLY",
+      "page_line_or_folio_original": null,
+      "original_document_collated": false,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "OBS-V205-ZWINGLI-03-01",
+      "review_id": "DOS-V205-ZWINGLI-03",
+      "focus_task_id": "FOCUS-V204-ZWINGLI-03",
+      "reader_key": "ZWINGLI",
+      "precise_research_observation_ko": "중앙도서관의 연표는 취리히의 재세례파 박해를 명시한다.",
+      "documentary_basis_source_ids": [
+        "SRC-V205-ZB"
+      ],
+      "observation_kind": "HISTORICAL_BIBLIOGRAPHY_OR_EDITED_SOURCE_NOTE",
+      "access_level": "HOLDING_INSTITUTION_HISTORY_REVIEWED",
+      "editorial_use": "FOR_HUMAN_FACT_CHECK_AND_PROPOSED_WORDING_ONLY",
+      "page_line_or_folio_original": null,
+      "original_document_collated": false,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "OBS-V205-ZWINGLI-03-02",
+      "review_id": "DOS-V205-ZWINGLI-03",
+      "focus_task_id": "FOCUS-V204-ZWINGLI-03",
+      "reader_key": "ZWINGLI",
+      "precise_research_observation_ko": "그 자료는 펠릭스 만츠가 1527년 1월 5일 리마트 강에서 처형됐다고 기록한다.",
+      "documentary_basis_source_ids": [
+        "SRC-V205-ZB"
+      ],
+      "observation_kind": "HISTORICAL_BIBLIOGRAPHY_OR_EDITED_SOURCE_NOTE",
+      "access_level": "HOLDING_INSTITUTION_HISTORY_REVIEWED",
+      "editorial_use": "FOR_HUMAN_FACT_CHECK_AND_PROPOSED_WORDING_ONLY",
+      "page_line_or_folio_original": null,
+      "original_document_collated": false,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "OBS-V205-TRENT-02-01",
+      "review_id": "DOS-V205-TRENT-02",
+      "focus_task_id": "FOCUS-V204-TRENT-02",
+      "reader_key": "TRENT",
+      "precise_research_observation_ko": "GHDI는 의롭다 함 교령을 트리엔트 공의회 제6회기, 1547년 1월 13일로 제시한다.",
+      "documentary_basis_source_ids": [
+        "SRC-V205-TRENT"
+      ],
+      "observation_kind": "HISTORICAL_BIBLIOGRAPHY_OR_EDITED_SOURCE_NOTE",
+      "access_level": "EDITED_PRIMARY_TRANSLATION_REVIEWED",
+      "editorial_use": "FOR_HUMAN_FACT_CHECK_AND_PROPOSED_WORDING_ONLY",
+      "page_line_or_folio_original": null,
+      "original_document_collated": false,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "OBS-V205-TRENT-02-02",
+      "review_id": "DOS-V205-TRENT-02",
+      "focus_task_id": "FOCUS-V204-TRENT-02",
+      "reader_key": "TRENT",
+      "precise_research_observation_ko": "자료는 해당 교령의 도입부와 장 구분을 영어 편집 번역문으로 제공한다.",
+      "documentary_basis_source_ids": [
+        "SRC-V205-TRENT"
+      ],
+      "observation_kind": "HISTORICAL_BIBLIOGRAPHY_OR_EDITED_SOURCE_NOTE",
+      "access_level": "EDITED_PRIMARY_TRANSLATION_REVIEWED",
+      "editorial_use": "FOR_HUMAN_FACT_CHECK_AND_PROPOSED_WORDING_ONLY",
+      "page_line_or_folio_original": null,
+      "original_document_collated": false,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "OBS-V205-TRENT-03-01",
+      "review_id": "DOS-V205-TRENT-03",
+      "focus_task_id": "FOCUS-V204-TRENT-03",
+      "reader_key": "TRENT",
+      "precise_research_observation_ko": "GHDI는 신학교 설립 지침을 제23회기, 1563년 7월 15일 자료로 명시한다.",
+      "documentary_basis_source_ids": [
+        "SRC-V205-TRENT"
+      ],
+      "observation_kind": "HISTORICAL_BIBLIOGRAPHY_OR_EDITED_SOURCE_NOTE",
+      "access_level": "EDITED_PRIMARY_TRANSLATION_REVIEWED",
+      "editorial_use": "FOR_HUMAN_FACT_CHECK_AND_PROPOSED_WORDING_ONLY",
+      "page_line_or_folio_original": null,
+      "original_document_collated": false,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "OBS-V205-TRENT-03-02",
+      "review_id": "DOS-V205-TRENT-03",
+      "focus_task_id": "FOCUS-V204-TRENT-03",
+      "reader_key": "TRENT",
+      "precise_research_observation_ko": "이는 1547년 의롭다 함 교령과 다른 회기에 속한 규율 개혁 문서다.",
+      "documentary_basis_source_ids": [
+        "SRC-V205-TRENT"
+      ],
+      "observation_kind": "HISTORICAL_BIBLIOGRAPHY_OR_EDITED_SOURCE_NOTE",
+      "access_level": "EDITED_PRIMARY_TRANSLATION_REVIEWED",
+      "editorial_use": "FOR_HUMAN_FACT_CHECK_AND_PROPOSED_WORDING_ONLY",
+      "page_line_or_folio_original": null,
+      "original_document_collated": false,
+      "expert_approved": false,
+      "can_publish": false
+    }
+  ],
+  "focus_coverage": [
+    {
+      "focus_task_id": "FOCUS-V204-WYCLIFFE-01",
+      "reader_key": "WYCLIFFE",
+      "passage_id": "PAR-V204-WYCLIFFE-002",
+      "v205_dossier_id": "DOS-V205-WYCLIFFE-01",
+      "research_stage": "WEB_SOURCE_TRIAGE_COMPLETE_OR_PARTIAL",
+      "source_access_is_original_folio": false,
+      "expert_verified": false,
+      "can_publish": false
+    },
+    {
+      "focus_task_id": "FOCUS-V204-WYCLIFFE-02",
+      "reader_key": "WYCLIFFE",
+      "passage_id": "PAR-V204-WYCLIFFE-005",
+      "v205_dossier_id": null,
+      "research_stage": "NO_NEW_EVIDENCE_REVIEW",
+      "source_access_is_original_folio": false,
+      "expert_verified": false,
+      "can_publish": false
+    },
+    {
+      "focus_task_id": "FOCUS-V204-WYCLIFFE-03",
+      "reader_key": "WYCLIFFE",
+      "passage_id": "PAR-V204-WYCLIFFE-006",
+      "v205_dossier_id": null,
+      "research_stage": "NO_NEW_EVIDENCE_REVIEW",
+      "source_access_is_original_folio": false,
+      "expert_verified": false,
+      "can_publish": false
+    },
+    {
+      "focus_task_id": "FOCUS-V204-HUS-01",
+      "reader_key": "HUS",
+      "passage_id": "PAR-V204-HUS-003",
+      "v205_dossier_id": null,
+      "research_stage": "NO_NEW_EVIDENCE_REVIEW",
+      "source_access_is_original_folio": false,
+      "expert_verified": false,
+      "can_publish": false
+    },
+    {
+      "focus_task_id": "FOCUS-V204-HUS-02",
+      "reader_key": "HUS",
+      "passage_id": "PAR-V204-HUS-005",
+      "v205_dossier_id": null,
+      "research_stage": "NO_NEW_EVIDENCE_REVIEW",
+      "source_access_is_original_folio": false,
+      "expert_verified": false,
+      "can_publish": false
+    },
+    {
+      "focus_task_id": "FOCUS-V204-HUS-03",
+      "reader_key": "HUS",
+      "passage_id": "PAR-V204-HUS-002",
+      "v205_dossier_id": null,
+      "research_stage": "NO_NEW_EVIDENCE_REVIEW",
+      "source_access_is_original_folio": false,
+      "expert_verified": false,
+      "can_publish": false
+    },
+    {
+      "focus_task_id": "FOCUS-V204-LUTHER1517-01",
+      "reader_key": "LUTHER1517",
+      "passage_id": "PAR-V204-LUTHER1517-003",
+      "v205_dossier_id": null,
+      "research_stage": "NO_NEW_EVIDENCE_REVIEW",
+      "source_access_is_original_folio": false,
+      "expert_verified": false,
+      "can_publish": false
+    },
+    {
+      "focus_task_id": "FOCUS-V204-LUTHER1517-02",
+      "reader_key": "LUTHER1517",
+      "passage_id": "PAR-V204-LUTHER1517-004",
+      "v205_dossier_id": null,
+      "research_stage": "NO_NEW_EVIDENCE_REVIEW",
+      "source_access_is_original_folio": false,
+      "expert_verified": false,
+      "can_publish": false
+    },
+    {
+      "focus_task_id": "FOCUS-V204-LUTHER1517-03",
+      "reader_key": "LUTHER1517",
+      "passage_id": "PAR-V204-LUTHER1517-001",
+      "v205_dossier_id": null,
+      "research_stage": "NO_NEW_EVIDENCE_REVIEW",
+      "source_access_is_original_folio": false,
+      "expert_verified": false,
+      "can_publish": false
+    },
+    {
+      "focus_task_id": "FOCUS-V204-LUTHER1521-01",
+      "reader_key": "LUTHER1521",
+      "passage_id": "PAR-V204-LUTHER1521-003",
+      "v205_dossier_id": "DOS-V205-LUTHER1521-01",
+      "research_stage": "WEB_SOURCE_TRIAGE_COMPLETE_OR_PARTIAL",
+      "source_access_is_original_folio": false,
+      "expert_verified": false,
+      "can_publish": false
+    },
+    {
+      "focus_task_id": "FOCUS-V204-LUTHER1521-02",
+      "reader_key": "LUTHER1521",
+      "passage_id": "PAR-V204-LUTHER1521-004",
+      "v205_dossier_id": null,
+      "research_stage": "NO_NEW_EVIDENCE_REVIEW",
+      "source_access_is_original_folio": false,
+      "expert_verified": false,
+      "can_publish": false
+    },
+    {
+      "focus_task_id": "FOCUS-V204-LUTHER1521-03",
+      "reader_key": "LUTHER1521",
+      "passage_id": "PAR-V204-LUTHER1521-007",
+      "v205_dossier_id": "DOS-V205-LUTHER1521-03",
+      "research_stage": "WEB_SOURCE_TRIAGE_COMPLETE_OR_PARTIAL",
+      "source_access_is_original_folio": false,
+      "expert_verified": false,
+      "can_publish": false
+    },
+    {
+      "focus_task_id": "FOCUS-V204-MARBURG-01",
+      "reader_key": "MARBURG",
+      "passage_id": "PAR-V204-MARBURG-002",
+      "v205_dossier_id": "DOS-V205-MARBURG-01",
+      "research_stage": "WEB_SOURCE_TRIAGE_COMPLETE_OR_PARTIAL",
+      "source_access_is_original_folio": false,
+      "expert_verified": false,
+      "can_publish": false
+    },
+    {
+      "focus_task_id": "FOCUS-V204-MARBURG-02",
+      "reader_key": "MARBURG",
+      "passage_id": "PAR-V204-MARBURG-002",
+      "v205_dossier_id": "DOS-V205-MARBURG-02",
+      "research_stage": "WEB_SOURCE_TRIAGE_COMPLETE_OR_PARTIAL",
+      "source_access_is_original_folio": false,
+      "expert_verified": false,
+      "can_publish": false
+    },
+    {
+      "focus_task_id": "FOCUS-V204-MARBURG-03",
+      "reader_key": "MARBURG",
+      "passage_id": "PAR-V204-MARBURG-005",
+      "v205_dossier_id": "DOS-V205-MARBURG-03",
+      "research_stage": "WEB_SOURCE_TRIAGE_COMPLETE_OR_PARTIAL",
+      "source_access_is_original_folio": false,
+      "expert_verified": false,
+      "can_publish": false
+    },
+    {
+      "focus_task_id": "FOCUS-V204-AUGSBURG-01",
+      "reader_key": "AUGSBURG",
+      "passage_id": "PAR-V204-AUGSBURG-001",
+      "v205_dossier_id": "DOS-V205-AUGSBURG-01",
+      "research_stage": "WEB_SOURCE_TRIAGE_COMPLETE_OR_PARTIAL",
+      "source_access_is_original_folio": false,
+      "expert_verified": false,
+      "can_publish": false
+    },
+    {
+      "focus_task_id": "FOCUS-V204-AUGSBURG-02",
+      "reader_key": "AUGSBURG",
+      "passage_id": "PAR-V204-AUGSBURG-002",
+      "v205_dossier_id": "DOS-V205-AUGSBURG-02",
+      "research_stage": "WEB_SOURCE_TRIAGE_COMPLETE_OR_PARTIAL",
+      "source_access_is_original_folio": false,
+      "expert_verified": false,
+      "can_publish": false
+    },
+    {
+      "focus_task_id": "FOCUS-V204-AUGSBURG-03",
+      "reader_key": "AUGSBURG",
+      "passage_id": "PAR-V204-AUGSBURG-005",
+      "v205_dossier_id": "DOS-V205-AUGSBURG-03",
+      "research_stage": "WEB_SOURCE_TRIAGE_COMPLETE_OR_PARTIAL",
+      "source_access_is_original_folio": false,
+      "expert_verified": false,
+      "can_publish": false
+    },
+    {
+      "focus_task_id": "FOCUS-V204-CALVIN1536-01",
+      "reader_key": "CALVIN1536",
+      "passage_id": "PAR-V204-CALVIN1536-001",
+      "v205_dossier_id": "DOS-V205-CALVIN1536-01",
+      "research_stage": "WEB_SOURCE_TRIAGE_COMPLETE_OR_PARTIAL",
+      "source_access_is_original_folio": false,
+      "expert_verified": false,
+      "can_publish": false
+    },
+    {
+      "focus_task_id": "FOCUS-V204-CALVIN1536-02",
+      "reader_key": "CALVIN1536",
+      "passage_id": "PAR-V204-CALVIN1536-005",
+      "v205_dossier_id": "DOS-V205-CALVIN1536-02",
+      "research_stage": "WEB_SOURCE_TRIAGE_COMPLETE_OR_PARTIAL",
+      "source_access_is_original_folio": false,
+      "expert_verified": false,
+      "can_publish": false
+    },
+    {
+      "focus_task_id": "FOCUS-V204-CALVIN1536-03",
+      "reader_key": "CALVIN1536",
+      "passage_id": "PAR-V204-CALVIN1536-001",
+      "v205_dossier_id": null,
+      "research_stage": "NO_NEW_EVIDENCE_REVIEW",
+      "source_access_is_original_folio": false,
+      "expert_verified": false,
+      "can_publish": false
+    },
+    {
+      "focus_task_id": "FOCUS-V204-CALVIN1559-01",
+      "reader_key": "CALVIN1559",
+      "passage_id": "PAR-V204-CALVIN1559-001",
+      "v205_dossier_id": "DOS-V205-CALVIN1559-01",
+      "research_stage": "WEB_SOURCE_TRIAGE_COMPLETE_OR_PARTIAL",
+      "source_access_is_original_folio": false,
+      "expert_verified": false,
+      "can_publish": false
+    },
+    {
+      "focus_task_id": "FOCUS-V204-CALVIN1559-02",
+      "reader_key": "CALVIN1559",
+      "passage_id": "PAR-V204-CALVIN1559-006",
+      "v205_dossier_id": null,
+      "research_stage": "NO_NEW_EVIDENCE_REVIEW",
+      "source_access_is_original_folio": false,
+      "expert_verified": false,
+      "can_publish": false
+    },
+    {
+      "focus_task_id": "FOCUS-V204-CALVIN1559-03",
+      "reader_key": "CALVIN1559",
+      "passage_id": "PAR-V204-CALVIN1559-001",
+      "v205_dossier_id": null,
+      "research_stage": "NO_NEW_EVIDENCE_REVIEW",
+      "source_access_is_original_folio": false,
+      "expert_verified": false,
+      "can_publish": false
+    },
+    {
+      "focus_task_id": "FOCUS-V204-ZWINGLI-01",
+      "reader_key": "ZWINGLI",
+      "passage_id": "PAR-V204-ZWINGLI-001",
+      "v205_dossier_id": "DOS-V205-ZWINGLI-01",
+      "research_stage": "WEB_SOURCE_TRIAGE_COMPLETE_OR_PARTIAL",
+      "source_access_is_original_folio": false,
+      "expert_verified": false,
+      "can_publish": false
+    },
+    {
+      "focus_task_id": "FOCUS-V204-ZWINGLI-02",
+      "reader_key": "ZWINGLI",
+      "passage_id": "PAR-V204-ZWINGLI-002",
+      "v205_dossier_id": "DOS-V205-ZWINGLI-02",
+      "research_stage": "WEB_SOURCE_TRIAGE_COMPLETE_OR_PARTIAL",
+      "source_access_is_original_folio": false,
+      "expert_verified": false,
+      "can_publish": false
+    },
+    {
+      "focus_task_id": "FOCUS-V204-ZWINGLI-03",
+      "reader_key": "ZWINGLI",
+      "passage_id": "PAR-V204-ZWINGLI-003",
+      "v205_dossier_id": "DOS-V205-ZWINGLI-03",
+      "research_stage": "WEB_SOURCE_TRIAGE_COMPLETE_OR_PARTIAL",
+      "source_access_is_original_folio": false,
+      "expert_verified": false,
+      "can_publish": false
+    },
+    {
+      "focus_task_id": "FOCUS-V204-TRENT-01",
+      "reader_key": "TRENT",
+      "passage_id": "PAR-V204-TRENT-001",
+      "v205_dossier_id": null,
+      "research_stage": "NO_NEW_EVIDENCE_REVIEW",
+      "source_access_is_original_folio": false,
+      "expert_verified": false,
+      "can_publish": false
+    },
+    {
+      "focus_task_id": "FOCUS-V204-TRENT-02",
+      "reader_key": "TRENT",
+      "passage_id": "PAR-V204-TRENT-002",
+      "v205_dossier_id": "DOS-V205-TRENT-02",
+      "research_stage": "WEB_SOURCE_TRIAGE_COMPLETE_OR_PARTIAL",
+      "source_access_is_original_folio": false,
+      "expert_verified": false,
+      "can_publish": false
+    },
+    {
+      "focus_task_id": "FOCUS-V204-TRENT-03",
+      "reader_key": "TRENT",
+      "passage_id": "PAR-V204-TRENT-003",
+      "v205_dossier_id": "DOS-V205-TRENT-03",
+      "research_stage": "WEB_SOURCE_TRIAGE_COMPLETE_OR_PARTIAL",
+      "source_access_is_original_folio": false,
+      "expert_verified": false,
+      "can_publish": false
+    }
+  ],
+  "editorial_priority_queue": [
+    {
+      "id": "EDIT-V205-01",
+      "focus_task_id": "FOCUS-V204-AUGSBURG-02",
+      "kind": "WORDING_PRECISION",
+      "proposed_ko": "1531년 게오르크 라우가 비텐베르크에서 출판한 멜란히톤 관여 최초의 승인 인쇄본(editio princeps)을 1530년 제국의회 기간의 비공인 인쇄물과 구별한다.",
+      "status": "PROPOSED_NOT_MERGED"
+    },
+    {
+      "id": "EDIT-V205-02",
+      "focus_task_id": "FOCUS-V204-LUTHER1521-03",
+      "kind": "QUOTE_PROVENANCE",
+      "proposed_ko": "'나는 여기 서 있다'는 루터의 1521년 보름스 연설과 관련하여 널리 전승되지만, 그 문구를 당대 발언의 확인된 직인용으로 단정하기는 어렵다.",
+      "status": "PROPOSED_NOT_MERGED"
+    },
+    {
+      "id": "EDIT-V205-03",
+      "focus_task_id": "FOCUS-V204-MARBURG-02",
+      "kind": "DOCTRINAL_NUANCE",
+      "proposed_ko": "마르부르크 조항 제15조는 성만찬의 실재적 현존을 둘러싼 이견을 남기면서도 두 진영이 그리스도인다운 사랑을 보여 주겠다고 서술한다.",
+      "status": "PROPOSED_NOT_MERGED"
+    },
+    {
+      "id": "EDIT-V205-04",
+      "focus_task_id": "FOCUS-V204-MARBURG-03",
+      "kind": "CATALOGUE_ACCESS_DISCLOSURE",
+      "proposed_ko": "취리히 주립문서관의 검색 가능한 목록 설명에 따르면 Z본에는 제7·13·15조의 추가 문구가 기록된다. 원본 판면의 직접 교감은 아직 수행하지 않았다.",
+      "status": "PROPOSED_NOT_MERGED"
+    },
+    {
+      "id": "EDIT-V205-05",
+      "focus_task_id": "FOCUS-V204-TRENT-02",
+      "kind": "SESSION_DATE",
+      "proposed_ko": "트리엔트 공의회의 의롭다 함에 관한 교령은 1547년 1월 13일 제6회기에 속하며, 1563년 제23회기의 성직자 교육 규율과 시기 및 문서 성격이 다르다.",
+      "status": "PROPOSED_NOT_MERGED"
+    },
+    {
+      "id": "EDIT-V205-06",
+      "focus_task_id": "FOCUS-V204-ZWINGLI-01",
+      "kind": "EVENT_VS_PUBLICATION_DATE",
+      "proposed_ko": "첫 취리히 공개 논쟁의 개최일은 취리히 중앙도서관 연표상 1523년 1월 29일이다. 관련 인쇄물의 문서 날짜는 개최일과 별도 표시한다.",
+      "status": "PROPOSED_NOT_MERGED"
+    }
+  ],
+  "blockers": [
+    "No original sixteenth-century printed folio or medieval manuscript has been collated; electronic secondary/edited sources only.",
+    "Staatsarchiv Zürich detail URL timed out on page open, so its original item metadata remains search-snippet evidence only.",
+    "Human scholar and rights reviewers have not signed off; do not set can_ship on any research observations.",
+    "Source-level findings do not settle original text variants (Marburg Z/K, Augsburg AC IV/X, Calvin 1536–1559).",
+    "Not all 30 focus tasks have newly inspected sources, and 124 body units still require sentence-level decomposition."
+  ]
+}
