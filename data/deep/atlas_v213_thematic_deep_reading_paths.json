@@ -1,0 +1,1016 @@
+{
+  "version": "2.13",
+  "kind": "READER_DISCOVERY_PATHS_AND_SOURCE_AWARE_DEEP_READING_GUIDES",
+  "lineage": {
+    "parent_commit": "095230bee9eeffc854ff5cd47814e9308f1c4cd2",
+    "source_reader_version": "2.11",
+    "reader_path": "data/deep/atlas_v211_ten_reader_hus_augsburg_revision.json",
+    "relationship_dataset_version": "2.12",
+    "relationship_path": "data/deep/atlas_v212_cross_reader_links_and_timeline.json"
+  },
+  "publication_gate": {
+    "can_ship": false,
+    "historian_approved": false,
+    "source_original_witness_collated": false,
+    "external_media_rights_cleared": false,
+    "webapp_integrated": false,
+    "public_navigation_generated": false
+  },
+  "design_intent": {
+    "outputs": "Four substantial editorial routes with 19 source text anchored stops, 15 explicit transitions and four learner case studies. No executable webapp components.",
+    "anchor": "All sentence excerpts are Unicode codepoint positions into immutable V2.11 reader body.",
+    "proof_boundary": "Source IDs are topic-level research leads to editions, archives, catalogues, and scholarly summaries; do not call them proof of the anchored Korean sentence.",
+    "relation_boundary": "Existing typed V2.12 relation IDs preserve relation semantics, while missing edges are explicit non-causal comparisons.",
+    "research_gate": "No content can ship or be served to public apps until human verification, evidence/edition identity, and media clearance."
+  },
+  "metrics": {
+    "themes": 4,
+    "reader_chapters": 10,
+    "route_stops": 19,
+    "transitions": 15,
+    "integrative_case_studies": 4,
+    "distinct_referenced_reader_chapters": 10,
+    "referenced_sources": 14,
+    "verified_original_folios": 0,
+    "historian_approvals": 0,
+    "public_published": 0
+  },
+  "source_register": [
+    {
+      "id": "SRC-V212-AC",
+      "title": "Bridwell: Augsburg Confession in Latin/German",
+      "url": "https://bridwell.omeka.net/exhibits/show/luther/controversies/augsburgconfession",
+      "source_level": "SPECIAL_COLLECTION_CATALOGUE",
+      "verified_to_exact_excerpts": false,
+      "historic_original_witness_collated": false,
+      "media_reuse_cleared": false
+    },
+    {
+      "id": "SRC-V212-CALVIN",
+      "title": "R A Muller: Organization of Calvin's Institutes",
+      "url": "https://academic.oup.com/book/50318/chapter-abstract/422710493",
+      "source_level": "SCHOLARLY_BOOK_ABSTRACT",
+      "verified_to_exact_excerpts": false,
+      "historic_original_witness_collated": false,
+      "media_reuse_cleared": false
+    },
+    {
+      "id": "SRC-V212-CITY",
+      "title": "Stadtarchiv Zürich: Reformation",
+      "url": "https://www.stadt-zuerich.ch/de/stadtleben/stadtportraet/zuerichs-geschichte/stadtarchiv/wissensportal/reformation-in-zuerich.html",
+      "source_level": "MUNICIPAL_RESEARCH",
+      "verified_to_exact_excerpts": false,
+      "historic_original_witness_collated": false,
+      "media_reuse_cleared": false
+    },
+    {
+      "id": "SRC-V212-HUS",
+      "title": "Oxford Bibliographies: Jan Hus",
+      "url": "https://academic.oup.com/reference/62416/reference-article-abstract/555947093",
+      "source_level": "ACADEMIC_BIBLIOGRAPHY",
+      "verified_to_exact_excerpts": false,
+      "historic_original_witness_collated": false,
+      "media_reuse_cleared": false
+    },
+    {
+      "id": "SRC-V212-HUSCAT",
+      "title": "Masaryk Digiscripta: De ecclesia",
+      "url": "https://digiscripta.phil.muni.cz/cs/node/12908",
+      "source_level": "UNIVERSITY_CATALOGUE",
+      "verified_to_exact_excerpts": false,
+      "historic_original_witness_collated": false,
+      "media_reuse_cleared": false
+    },
+    {
+      "id": "SRC-V212-L1517",
+      "title": "GHDI: Ninety-Five Theses",
+      "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/martin-luther-ninety-five-theses-october-31-1517",
+      "source_level": "EDITED_HISTORIC_TRANSLATION",
+      "verified_to_exact_excerpts": false,
+      "historic_original_witness_collated": false,
+      "media_reuse_cleared": false
+    },
+    {
+      "id": "SRC-V212-MARBURG",
+      "title": "GHDI: The Marburg Articles",
+      "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/ghdi:document-4311",
+      "source_level": "EDITED_HISTORIC_TRANSLATION",
+      "verified_to_exact_excerpts": false,
+      "historic_original_witness_collated": false,
+      "media_reuse_cleared": false
+    },
+    {
+      "id": "SRC-V212-MARL",
+      "title": "GHDI: Lutheran Eyewitness Marburg",
+      "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/ghdi:document-4284",
+      "source_level": "PARTICIPANT_REPORT_TRANSLATED",
+      "verified_to_exact_excerpts": false,
+      "historic_original_witness_collated": false,
+      "media_reuse_cleared": false
+    },
+    {
+      "id": "SRC-V212-MARZ",
+      "title": "GHDI: Zwingli Marburg report",
+      "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/ghdi:document-4300",
+      "source_level": "PARTICIPANT_REPORT_TRANSLATED",
+      "verified_to_exact_excerpts": false,
+      "historic_original_witness_collated": false,
+      "media_reuse_cleared": false
+    },
+    {
+      "id": "SRC-V212-TRENT",
+      "title": "St Andrews: Council of Trent",
+      "url": "https://www.saet.ac.uk/Christianity/CouncilofTrent",
+      "source_level": "SPECIALIST_SCHOLARLY_ENCYCLOPEDIA",
+      "verified_to_exact_excerpts": false,
+      "historic_original_witness_collated": false,
+      "media_reuse_cleared": false
+    },
+    {
+      "id": "SRC-V212-TRENTDOC",
+      "title": "GHDI: Council of Trent decrees",
+      "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/ghdi:document-4336",
+      "source_level": "EDITED_HISTORIC_TRANSLATION",
+      "verified_to_exact_excerpts": false,
+      "historic_original_witness_collated": false,
+      "media_reuse_cleared": false
+    },
+    {
+      "id": "SRC-V212-VAR",
+      "title": "Augsburg 1540: edition history",
+      "url": "https://www.augsburg1540.com/history.html",
+      "source_level": "CONFESSIONAL_SECONDARY_HISTORY",
+      "verified_to_exact_excerpts": false,
+      "historic_original_witness_collated": false,
+      "media_reuse_cleared": false
+    },
+    {
+      "id": "SRC-V212-WORMS",
+      "title": "DDE: Wormser Edikt",
+      "url": "https://tueditions.ulb.tu-darmstadt.de/v/pa000008-0107",
+      "source_level": "CRITICAL_DIGITAL_EDITION_INTRO",
+      "verified_to_exact_excerpts": false,
+      "historic_original_witness_collated": false,
+      "media_reuse_cleared": false
+    },
+    {
+      "id": "SRC-V212-ZURICH",
+      "title": "Zentralbibliothek Zürich: Reformation",
+      "url": "https://www.zb.uzh.ch/en/fokus/beitrag/reformation",
+      "source_level": "LIBRARY_EXHIBIT",
+      "verified_to_exact_excerpts": false,
+      "historic_original_witness_collated": false,
+      "media_reuse_cleared": false
+    }
+  ],
+  "thematic_paths": [
+    {
+      "id": "PATH-V213-AUTHORITY",
+      "slug": "authority",
+      "title_ko": "누가 교회를 대표하는가?",
+      "subtitle_ko": "교회론에서 개인의 양심, 도시 행정, 공의회까지",
+      "foundational_question_ko": "교회를 말할 권위는 어떤 기준으로 인정받을 수 있을까?",
+      "introduction_ko": "위클리프와 후스는 참된 교회를 설명하려고 했고, 루터는 제국 앞에서 자신의 양심과 성경 해석의 근거를 밝히려 했다. 취리히에서는 설교자의 주장이 시의회의 의결과 시행으로 옮겨졌으며, 트리엔트에서는 공의회의 결정과 주교의 지역적 실천이 결합했다. 모두 ‘권위’라는 단어를 사용하지만 누구의 무엇에 대한 권위인지는 서로 다르다. 이 경로는 교리적 정의에서 법적 집행으로 넘어갈 때 바뀌는 증거를 읽는다.",
+      "integrative_conclusion_ko": "위클리프·후스에게 중요한 ‘누가 참된 교회인가’라는 질문은 보름스의 ‘무엇을 철회할 것인가’라는 개인 심문, 취리히의 ‘누가 예배를 바꿀 권한이 있는가’라는 행정 문제, 트리엔트의 ‘누가 성직자를 교육·감독하는가’라는 교회 제도로 연결해서 비교할 수 있다. 그러나 하나가 다른 제도를 자동으로 만들었다는 인과 주장은 아니다. 각 사례에서 문서의 작성자와 이를 시행한 권한기관을 별도 노드로 유지할 때, 장구한 종교개혁사를 단순한 영웅의 계보로 줄이지 않을 수 있다.",
+      "stop_ids": [
+        "STP-V213-AUTHORITY-01",
+        "STP-V213-AUTHORITY-02",
+        "STP-V213-AUTHORITY-03",
+        "STP-V213-AUTHORITY-04",
+        "STP-V213-AUTHORITY-05"
+      ],
+      "reader_keys": [
+        "WYCLIFFE",
+        "HUS",
+        "LUTHER1521",
+        "ZWINGLI",
+        "TRENT"
+      ],
+      "estimated_reading_level": "GENERAL_READERS_PLUS_SOURCE_NOTES",
+      "route_approval": "RESEARCH_DRAFT_REQUIRES_EXPERT_QA",
+      "can_publish": false
+    },
+    {
+      "id": "PATH-V213-EUCHARIST",
+      "slug": "eucharist",
+      "title_ko": "같은 성찬, 왜 다른 결론에 이르렀나?",
+      "subtitle_ko": "중세 성찬 논쟁과 마르부르크·Variata·트리엔트의 문헌 비교",
+      "foundational_question_ko": "서로 같은 성경을 읽으면서도 성찬에서 무엇이 다르게 이해되었을까?",
+      "introduction_ko": "성찬을 둘러싼 논쟁을 1529년 루터와 츠빙글리가 처음 만들어 낸 것으로 설명할 수는 없다. 중세에도 실체·성례·현존을 둘러싼 철학적 논쟁이 존재했다. 하지만 위클리프의 논제와 마르부르크 제15조, 1540년 수정 고백서, 트리엔트 공의회의 성례 규정은 서로 다른 저자·언어·법적 지위의 자료다. 같은 주제를 다룬다는 이유만으로 문서의 직접 인용 관계를 만들어서는 안 된다.",
+      "integrative_conclusion_ko": "마르부르크 합의문은 제15조의 미합의만큼 앞선 공통 조항과 마지막의 상호 사랑 약속이 중요하다. 1540년 Variata와의 비교에서는 ‘신학적 표현 변화’가 무엇을 의미하는지 원래 인쇄본의 독일어·라틴어 차이를 확인해야 한다. 트리엔트의 성례 관련 결정은 개신교 내부의 대화와는 다른 공의회적 문서다. 독자는 네 자료를 한 문장으로 판정하기보다, 작성자·합의 범위·문서의 권한과 적용 대상을 나눠 읽을 필요가 있다.",
+      "stop_ids": [
+        "STP-V213-EUCHARIST-01",
+        "STP-V213-EUCHARIST-02",
+        "STP-V213-EUCHARIST-03",
+        "STP-V213-EUCHARIST-04",
+        "STP-V213-EUCHARIST-05"
+      ],
+      "reader_keys": [
+        "WYCLIFFE",
+        "ZWINGLI",
+        "MARBURG",
+        "AUGSBURG",
+        "TRENT"
+      ],
+      "estimated_reading_level": "GENERAL_READERS_PLUS_SOURCE_NOTES",
+      "route_approval": "RESEARCH_DRAFT_REQUIRES_EXPERT_QA",
+      "can_publish": false
+    },
+    {
+      "id": "PATH-V213-EDITIONS",
+      "slug": "editions",
+      "title_ko": "같은 책의 다른 판본을 읽는 법",
+      "subtitle_ko": "후스 필사본에서 종교개혁 인쇄·번역·수정판까지",
+      "foundational_question_ko": "어느 판본을 ‘원문’이라고 말할 수 있을까?",
+      "introduction_ko": "역사 자료는 제목 하나로 고정되는 물건이 아니다. 필사본은 서기·시대·소장처에 따라 다르고, 인쇄본에도 비공인본·저자 승인본·수정본이 있다. 현대 번역본은 언어 선택을 포함한 별도의 편집물이다. 이 경로는 후스의 필사본 목록에서 루터의 논제 전승, 아우크스부르크의 공인 인쇄, 칼뱅 저작의 중간·최종판으로 이동하며 ‘어떤 본문을 실제로 읽고 있는가’를 묻는다.",
+      "integrative_conclusion_ko": "후스의 목록상 `IV H 19`는 작품을 찾을 수 있는 단서이고 원어 문장이 존재하는 정확한 면을 검증했다는 뜻이 아니다. 1517년의 역사적 장면도 후대 도상과 당대 인쇄를 구별해야 한다. 아우크스부르크는 1530 제출문과 1531 공인 인쇄 및 1540 수정판을 갈라 관리하고, 칼뱅은 1536·1539·1559 라틴어 및 1560 프랑스어를 독립된 문헌 객체로 관리한다. 원문 비교를 위해서는 무엇보다 서지 ID와 해당 판면을 확정해야 한다.",
+      "stop_ids": [
+        "STP-V213-EDITIONS-01",
+        "STP-V213-EDITIONS-02",
+        "STP-V213-EDITIONS-03",
+        "STP-V213-EDITIONS-04",
+        "STP-V213-EDITIONS-05"
+      ],
+      "reader_keys": [
+        "HUS",
+        "LUTHER1517",
+        "AUGSBURG",
+        "CALVIN1536",
+        "CALVIN1559"
+      ],
+      "estimated_reading_level": "GENERAL_READERS_PLUS_SOURCE_NOTES",
+      "route_approval": "RESEARCH_DRAFT_REQUIRES_EXPERT_QA",
+      "can_publish": false
+    },
+    {
+      "id": "PATH-V213-IMPLEMENTATION",
+      "slug": "implementation",
+      "title_ko": "개혁은 선언 뒤에 누가 실행했나?",
+      "subtitle_ko": "제국법·시의회·고백서 제출·교구의 규정",
+      "foundational_question_ko": "신학적 결론이 현실의 제도로 바뀌는 과정에는 누가 등장했을까?",
+      "introduction_ko": "유명한 개혁자의 발언과 책은 관심을 끌지만, 실제 학교·예배·재산·성직자 제도는 또 다른 행정과 집행을 통해 바뀐다. 이 경로에서는 보름스 칙령, 취리히 시의회의 의사결정, 아우크스부르크 제국의회 신앙고백, 트리엔트의 교구 시행을 비교한다. 문헌의 영향력과 법률의 효력을 구분하는 관점은 ‘누가 결정했고 누가 집행했는가’를 세밀하게 묻도록 한다.",
+      "integrative_conclusion_ko": "보름스의 제국 칙령은 법령의 공표와 지역별 집행 사이에 차이가 있었음을 보여 준다. 취리히에서는 도시 정치권력이 교회 질서를 실제로 바꾸는 주체였다. 아우크스부르크에서는 영방과 도시가 제국 앞에서 공동의 신앙을 설명하는 고백서를 제출했다. 트리엔트의 제도 개혁은 각 교구의 주교와 교육체계를 통해 구현됐다. ‘개혁 선언’의 날짜 하나로 실제 사회 변화가 완성됐다고 그리기보다, 문서·의결기관·집행기관·실행의 증거를 서로 다른 자료로 연결해야 한다.",
+      "stop_ids": [
+        "STP-V213-IMPLEMENTATION-01",
+        "STP-V213-IMPLEMENTATION-02",
+        "STP-V213-IMPLEMENTATION-03",
+        "STP-V213-IMPLEMENTATION-04"
+      ],
+      "reader_keys": [
+        "LUTHER1521",
+        "ZWINGLI",
+        "AUGSBURG",
+        "TRENT"
+      ],
+      "estimated_reading_level": "GENERAL_READERS_PLUS_SOURCE_NOTES",
+      "route_approval": "RESEARCH_DRAFT_REQUIRES_EXPERT_QA",
+      "can_publish": false
+    }
+  ],
+  "reader_stop_cards": [
+    {
+      "id": "STP-V213-AUTHORITY-01",
+      "position": 1,
+      "reader_key": "WYCLIFFE",
+      "reader_title": "I. 위클리프: 참된 교회는 누구의 공동체인가?",
+      "section_id": "SEC-V211-WYCLIFFE-04",
+      "section_heading": "보이는 교회와 보이지 않는 교회의 긴장",
+      "paragraph_id": "PAR-V211-WYCLIFFE-003",
+      "sentence_id": "SNT-V211-WYCLIFFE-0013",
+      "anchor_start_char": 759,
+      "anchor_end_char": 818,
+      "anchor_text_exact": "이 논의는 흔히 '가시적 교회 대 비가시적 교회'라는 대비로 설명되지만, 당시의 실제 질문은 더 복잡했다.",
+      "guiding_question_ko": "교회의 이름과 참된 구성원은 같은가?",
+      "original_explanation_ko": "위클리프의 비판은 타락한 성직자 몇 명을 비난하는 선에서 멈추지 않았다. 제도가 교회라는 이름을 지녔다고 해서 그 제도와 구원의 공동체가 완전히 일치한다고 볼 수 있는지를 따졌다. 여기에 등장하는 중세 스콜라 철학의 교회론을 현대 종파 분류와 바로 같게 보면 안 된다.",
+      "overclaim_guard_ko": "오늘날의 종파 명칭을 14세기 저작의 직접적인 자기정의로 읽지 않는다.",
+      "source_lead_ids": [
+        "SRC-V212-HUS",
+        "SRC-V212-HUSCAT"
+      ],
+      "source_claim_level": "TOPIC_LEVEL_RESEARCH_LEAD_NOT_FOLIO_PROOF",
+      "historical_original_witness_verified": false,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "STP-V213-AUTHORITY-02",
+      "position": 2,
+      "reader_key": "HUS",
+      "reader_title": "II. 후스: 보헤미아 개혁과 『교회론』의 문제",
+      "section_id": "SEC-V211-HUS-04",
+      "section_heading": "1413년 『De ecclesia』",
+      "paragraph_id": "PAR-V211-HUS-003",
+      "sentence_id": "SNT-V211-HUS-0011",
+      "anchor_start_char": 659,
+      "anchor_end_char": 744,
+      "anchor_text_exact": "후스는 제도적으로 조직된 교회와 그리스도께 속한 참된 교회가 언제나 완전히 일치하는 것은 아니라고 보았으며, 교회의 궁극적인 머리를 그리스도에게 두었다.",
+      "guiding_question_ko": "그리스도의 머리 되심은 성직자 권위에 어떤 질문을 던지는가?",
+      "original_explanation_ko": "후스는 지도자들의 권위를 교회 제도의 존재 자체만으로 정당화할 수 있는지 질문했다. 그리스도에게 속한 참된 교회를 말하는 것은 공동체의 가시적 조직을 모두 부정한다는 단순 명제와 다르다. 위클리프의 영향을 말할 수 있지만 후스의 1413년 저작은 고유한 역사적 상황에서 나온 별도 문헌이다.",
+      "overclaim_guard_ko": "1413년 필사본 목록의 소장 범위를 특정 라틴어 문장의 증명 쪽수로 사용하지 않는다.",
+      "source_lead_ids": [
+        "SRC-V212-HUS",
+        "SRC-V212-HUSCAT"
+      ],
+      "source_claim_level": "TOPIC_LEVEL_RESEARCH_LEAD_NOT_FOLIO_PROOF",
+      "historical_original_witness_verified": false,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "STP-V213-AUTHORITY-03",
+      "position": 3,
+      "reader_key": "LUTHER1521",
+      "reader_title": "2장. 1521년, 보름스 제국의회와 성경에 매인 양심",
+      "section_id": "SEC-V211-LUTHER1521-04",
+      "section_heading": "3. '양심'의 의미를 오해하지 않기",
+      "paragraph_id": "PAR-V211-LUTHER1521-005",
+      "sentence_id": "SNT-V211-LUTHER1521-0016",
+      "anchor_start_char": 922,
+      "anchor_end_char": 986,
+      "anchor_text_exact": "루터가 자신의 양심을 언급했을 때, 이는 '무엇이든 개인이 믿는 대로 하면 된다'는 현대적 상대주의 선언과 다르다.",
+      "guiding_question_ko": "양심은 아무 근거 없는 자기 확신이었을까?",
+      "original_explanation_ko": "루터가 말한 양심은 ‘각자 마음대로 하면 된다’는 현대적 상대주의와 다르다. 자신의 저술을 철회하라는 요구 앞에서 성경과 이성적 확증의 문제를 제기한 것이다. 신학적 확신과 제국의 법적 권한이 부딪힌 장면으로 읽되, 유명한 문구의 후대 전승을 동시대 정확한 발언으로 꾸며내지 않는다.",
+      "overclaim_guard_ko": "1517 논제와 1521 심문, 후대 명언의 증거 등급을 각각 표시한다.",
+      "source_lead_ids": [
+        "SRC-V212-WORMS"
+      ],
+      "source_claim_level": "TOPIC_LEVEL_RESEARCH_LEAD_NOT_FOLIO_PROOF",
+      "historical_original_witness_verified": false,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "STP-V213-AUTHORITY-04",
+      "position": 4,
+      "reader_key": "ZWINGLI",
+      "reader_title": "츠빙글리와 취리히: 설교, 시의회, 공공개혁",
+      "section_id": "SEC-V211-ZWINGLI-04",
+      "section_heading": "취리히 시의회와 개혁의 단계",
+      "paragraph_id": "PAR-V211-ZWINGLI-012",
+      "sentence_id": "SNT-V211-ZWINGLI-0046",
+      "anchor_start_char": 2718,
+      "anchor_end_char": 2790,
+      "anchor_text_exact": "츠빙글리의 설교가 시의회의 공식 판단과 연결되면서 취리히의 개혁은 신학적 논쟁인 동시에 도시의 공적 질서를 바꾸는 과정이 되었다.",
+      "guiding_question_ko": "공적 개혁을 결정한 기관은 누구였나?",
+      "original_explanation_ko": "취리히에서는 츠빙글리의 성경 해석이 곧바로 법이 된 것이 아니라, 시의회의 공개 논쟁과 결정 및 집행의 단계를 거쳤다. 교회·예배·도시 행정이 연결되는 지점이다. 개혁의 결과를 설명할 때에는 개인 설교자의 입장과 반대자에 대한 시의회의 조치를 책임 주체별로 구분해야 한다.",
+      "overclaim_guard_ko": "시의회의 모든 조치를 츠빙글리 개인의 직접 명령이라고 쓰지 않는다.",
+      "source_lead_ids": [
+        "SRC-V212-ZURICH",
+        "SRC-V212-CITY"
+      ],
+      "source_claim_level": "TOPIC_LEVEL_RESEARCH_LEAD_NOT_FOLIO_PROOF",
+      "historical_original_witness_verified": false,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "STP-V213-AUTHORITY-05",
+      "position": 5,
+      "reader_key": "TRENT",
+      "reader_title": "트리엔트 공의회: 가톨릭 개혁의 교리와 제도",
+      "section_id": "SEC-V211-TRENT-04",
+      "section_heading": "결정이 실천으로 이어지는 과정",
+      "paragraph_id": "PAR-V211-TRENT-012",
+      "sentence_id": "SNT-V211-TRENT-0046",
+      "anchor_start_char": 2682,
+      "anchor_end_char": 2745,
+      "anchor_text_exact": "신학교와 성직자 교육, 주교의 거주와 교구 방문 같은 개혁은 선언문에 기록된 순간 모든 지역에서 완성되지 않았다.",
+      "guiding_question_ko": "공의회의 결정은 각 지역에서 곧바로 실행됐을까?",
+      "original_explanation_ko": "트리엔트 공의회가 교령을 확정한 때와 각 교구가 성직자 교육·주교 방문·교회 규율을 실제로 운영한 때는 다르다. 공의회는 교리와 제도의 방향을 제시했지만 현장 실행에는 별도의 인력과 권한, 시간이 필요했다. 취리히 도시행정과 공의회 권한을 비교할 수 있어도 동일한 제도라고 간주할 수 없다.",
+      "overclaim_guard_ko": "공의회 의결일을 모든 교구의 실제 시행일로 표시하지 않는다.",
+      "source_lead_ids": [
+        "SRC-V212-TRENT",
+        "SRC-V212-TRENTDOC"
+      ],
+      "source_claim_level": "TOPIC_LEVEL_RESEARCH_LEAD_NOT_FOLIO_PROOF",
+      "historical_original_witness_verified": false,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "STP-V213-EUCHARIST-01",
+      "position": 1,
+      "reader_key": "WYCLIFFE",
+      "reader_title": "I. 위클리프: 참된 교회는 누구의 공동체인가?",
+      "section_id": "SEC-V211-WYCLIFFE-06",
+      "section_heading": "성례 논쟁과 반발",
+      "paragraph_id": "PAR-V211-WYCLIFFE-005",
+      "sentence_id": "SNT-V211-WYCLIFFE-0023",
+      "anchor_start_char": 1367,
+      "anchor_end_char": 1406,
+      "anchor_text_exact": "위클리프의 후반기 저술은 성찬에서 떡의 실체에 관한 논의로도 발전했다.",
+      "guiding_question_ko": "마르부르크 전에도 성찬 해석은 논쟁적이었는가?",
+      "original_explanation_ko": "위클리프의 후기 성례 논쟁은 빵과 포도주의 실체를 어떻게 이해하는지가 중세 교회의 정통 판단과 직접 연결됐다는 사실을 보여 준다. 이 문제를 16세기 루터파·개혁파의 구분과 바로 동일시해서는 안 된다. 철학적 어휘와 제도적 정죄의 맥락이 달랐기 때문이다.",
+      "overclaim_guard_ko": "중세 실체론 논쟁과 1529년 신학자들의 합의문을 동일한 문장으로 단정하지 않는다.",
+      "source_lead_ids": [
+        "SRC-V212-HUS"
+      ],
+      "source_claim_level": "TOPIC_LEVEL_RESEARCH_LEAD_NOT_FOLIO_PROOF",
+      "historical_original_witness_verified": false,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "STP-V213-EUCHARIST-02",
+      "position": 2,
+      "reader_key": "ZWINGLI",
+      "reader_title": "츠빙글리와 취리히: 설교, 시의회, 공공개혁",
+      "section_id": "SEC-V211-ZWINGLI-01",
+      "section_heading": "도입",
+      "paragraph_id": "PAR-V211-ZWINGLI-004",
+      "sentence_id": "SNT-V211-ZWINGLI-0017",
+      "anchor_start_char": 819,
+      "anchor_end_char": 867,
+      "anchor_text_exact": "성만찬에 관한 츠빙글리의 해석은 루터와의 마르부르크 회담에서 결정적인 차이를 드러냈다.",
+      "guiding_question_ko": "취리히의 성찬 변화는 예배와 도시의 문제였나?",
+      "original_explanation_ko": "취리히의 성찬 논쟁은 교회 안의 교리 주장과 예배의 실제 집행을 동시에 포함했다. 츠빙글리의 해석이 시의회의 공적 결정과 만나면서 신자들이 경험하는 예배 자체가 변했다. 성찬의 의미를 비교할 때에는 신학적 표현뿐 아니라 이를 의결·시행한 도시의 제도적 맥락도 확인해야 한다.",
+      "overclaim_guard_ko": "교리적 해석과 특정 날짜의 예배 개편을 동의어로 다루지 않는다.",
+      "source_lead_ids": [
+        "SRC-V212-ZURICH",
+        "SRC-V212-CITY"
+      ],
+      "source_claim_level": "TOPIC_LEVEL_RESEARCH_LEAD_NOT_FOLIO_PROOF",
+      "historical_original_witness_verified": false,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "STP-V213-EUCHARIST-03",
+      "position": 3,
+      "reader_key": "MARBURG",
+      "reader_title": "마르부르크 회담—공동 신앙고백의 가능성과 성만찬의 경계",
+      "section_id": "SEC-V211-MARBURG-01",
+      "section_heading": "도입",
+      "paragraph_id": "PAR-V211-MARBURG-001",
+      "sentence_id": "SNT-V211-MARBURG-0005",
+      "anchor_start_char": 206,
+      "anchor_end_char": 269,
+      "anchor_text_exact": "성만찬은 교회 공동체가 그리스도의 약속을 경험하는 구체적 예배 행위였으므로 말의 차이를 임의로 덮어둘 수 없었다.",
+      "guiding_question_ko": "부분 합의가 있어도 왜 성만찬 이견은 남았나?",
+      "original_explanation_ko": "마르부르크 조항 앞부분은 많은 공통 신앙을 담고 있지만 제15조에서는 몸과 피의 육체적 현존에 대한 해석 차이를 남겼다. 동시에 합의문에는 상호 그리스도인다운 사랑을 보이고 하나님의 인도를 구하는 문장이 나타난다. 합의의 범위와 남은 이견을 함께 기록한 문서로 읽어야 한다.",
+      "overclaim_guard_ko": "비평판 WA 30/3 전체의 쪽수 범위를 제15조의 정확한 쪽수로 옮기지 않는다.",
+      "source_lead_ids": [
+        "SRC-V212-MARBURG",
+        "SRC-V212-MARL",
+        "SRC-V212-MARZ"
+      ],
+      "source_claim_level": "TOPIC_LEVEL_RESEARCH_LEAD_NOT_FOLIO_PROOF",
+      "historical_original_witness_verified": false,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "STP-V213-EUCHARIST-04",
+      "position": 4,
+      "reader_key": "AUGSBURG",
+      "reader_title": "아우크스부르크 신앙고백: 1530년의 공적 고백에서 1540년 수정판까지",
+      "section_id": "SEC-V211-AUGSBURG-04",
+      "section_heading": "제4·5·10조를 이어 읽으면 보이는 변화",
+      "paragraph_id": "PAR-V211-AUGSBURG-012",
+      "sentence_id": "SNT-V211-AUGSBURG-0055",
+      "anchor_start_char": 3186,
+      "anchor_end_char": 3318,
+      "anchor_text_exact": "제10조에서 초기의 `vere adsint et distribuantur`(참으로 현존하며 분배된다)라는 표현은 1540년 `cum pane et vino vere exhibeantur`(떡과 포도주와 함께 참으로 제시된다)로 바뀌었다.",
+      "guiding_question_ko": "제10조를 비교하려면 어떤 판본을 선택해야 하나?",
+      "original_explanation_ko": "1530년 계열과 1540년 Variata의 제10조는 성찬을 다루지만 문언과 논증의 맥락에 차이가 있다. 비교할 때 라틴어·독일어의 어떤 인쇄판인지, 현대 번역본에서 무엇을 보았는지 밝혀야 한다. 특히 1540년 표현의 해석을 두 진영이 완전히 일치했다는 증거로 곧장 바꾸어서는 안 된다.",
+      "overclaim_guard_ko": "현대 병렬 영어 번역의 차이만으로 16세기 인쇄본 이문을 직접 확인했다고 표시하지 않는다.",
+      "source_lead_ids": [
+        "SRC-V212-VAR",
+        "SRC-V212-AC"
+      ],
+      "source_claim_level": "TOPIC_LEVEL_RESEARCH_LEAD_NOT_FOLIO_PROOF",
+      "historical_original_witness_verified": false,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "STP-V213-EUCHARIST-05",
+      "position": 5,
+      "reader_key": "TRENT",
+      "reader_title": "트리엔트 공의회: 가톨릭 개혁의 교리와 제도",
+      "section_id": "SEC-V211-TRENT-01",
+      "section_heading": "도입",
+      "paragraph_id": "PAR-V211-TRENT-005",
+      "sentence_id": "SNT-V211-TRENT-0018",
+      "anchor_start_char": 979,
+      "anchor_end_char": 1027,
+      "anchor_text_exact": "의롭다 함에 관한 논의를 성례와 교회 규율의 모든 결정에 자동으로 적용해서는 안 된다.",
+      "guiding_question_ko": "공의회 교령은 앞선 개신교 회담과 같은 형식인가?",
+      "original_explanation_ko": "트리엔트의 성례론은 공의회의 교리 정의와 교회 규율이라는 형식으로 나타났다. 이는 마르부르크에서 서로 논쟁한 개혁자들의 합의문과 다른 권한과 독자를 가진다. 역사적 비교표는 교리의 쟁점을 나란히 보여 주되 교령의 제정·수용 시기와 지역별 실행은 따로 기록해야 한다.",
+      "overclaim_guard_ko": "가톨릭의 주장을 단순한 풍자나 개신교 내부 이견의 한 파벌로 취급하지 않는다.",
+      "source_lead_ids": [
+        "SRC-V212-TRENT",
+        "SRC-V212-TRENTDOC"
+      ],
+      "source_claim_level": "TOPIC_LEVEL_RESEARCH_LEAD_NOT_FOLIO_PROOF",
+      "historical_original_witness_verified": false,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "STP-V213-EDITIONS-01",
+      "position": 1,
+      "reader_key": "HUS",
+      "reader_title": "II. 후스: 보헤미아 개혁과 『교회론』의 문제",
+      "section_id": "SEC-V211-HUS-08",
+      "section_heading": "원전 아카이브의 과제",
+      "paragraph_id": "PAR-V211-HUS-007",
+      "sentence_id": "SNT-V211-HUS-0029",
+      "anchor_start_char": 1834,
+      "anchor_end_char": 1883,
+      "anchor_text_exact": "그러나 서지 기록의 존재만으로 본문 영인의 특정 쪽을 실제 읽었다고 주장해서는 안 된다.",
+      "guiding_question_ko": "필사본 소장기호는 무엇을 말해 주는가?",
+      "original_explanation_ko": "대학의 목록은 후스 『De ecclesia』의 저자·연대·필사본 위치를 찾는 출발점이다. 하지만 소장기호와 folio 범위만으로 특정 논증의 정확한 라틴어 원문을 대조했다고 볼 수 없다. 원본 이미지와 비평판을 직접 펼쳐서 본문 대응을 확인하는 추가 단계가 필요하다.",
+      "overclaim_guard_ko": "서지 목록의 접근 가능성과 개별 원문 문장의 검증을 구별한다.",
+      "source_lead_ids": [
+        "SRC-V212-HUSCAT"
+      ],
+      "source_claim_level": "TOPIC_LEVEL_RESEARCH_LEAD_NOT_FOLIO_PROOF",
+      "historical_original_witness_verified": false,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "STP-V213-EDITIONS-02",
+      "position": 2,
+      "reader_key": "LUTHER1517",
+      "reader_title": "1장. 1517년, 면벌부 논쟁에서 종교개혁으로",
+      "section_id": "SEC-V211-LUTHER1517-07",
+      "section_heading": "전승과 문서의 물질적 역사",
+      "paragraph_id": "PAR-V211-LUTHER1517-010",
+      "sentence_id": "SNT-V211-LUTHER1517-0033",
+      "anchor_start_char": 2200,
+      "anchor_end_char": 2248,
+      "anchor_text_exact": "1517년을 대표하는 그림에서는 루터가 교회 문에 논제를 붙이는 장면이 자주 나타난다.",
+      "guiding_question_ko": "1517년 사건의 그림은 원본 증거인가?",
+      "original_explanation_ko": "교회 문에 논제를 붙이는 장면은 종교개혁을 상징하지만 이미지가 제작된 시대와 묘사된 사건의 시대는 다를 수 있다. 1517년 논제집 자체의 내용과 인쇄·유통 기록, 게시 전승은 독립 자료로 평가해야 한다. 후대에 그린 이미지를 1517년 사건의 동시대 기록처럼 인용하지 않는다.",
+      "overclaim_guard_ko": "전승을 보여 주는 시각화와 직접 문헌 증언을 동일시하지 않는다.",
+      "source_lead_ids": [
+        "SRC-V212-L1517"
+      ],
+      "source_claim_level": "TOPIC_LEVEL_RESEARCH_LEAD_NOT_FOLIO_PROOF",
+      "historical_original_witness_verified": false,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "STP-V213-EDITIONS-03",
+      "position": 3,
+      "reader_key": "AUGSBURG",
+      "reader_title": "아우크스부르크 신앙고백: 1530년의 공적 고백에서 1540년 수정판까지",
+      "section_id": "SEC-V211-AUGSBURG-02",
+      "section_heading": "제출된 고백과 인쇄된 고백 사이",
+      "paragraph_id": "PAR-V211-AUGSBURG-009",
+      "sentence_id": "SNT-V211-AUGSBURG-0042",
+      "anchor_start_char": 2398,
+      "anchor_end_char": 2458,
+      "anchor_text_exact": "제국의회에서 문서를 제출한 행위는 특정 신앙 공동체가 정치적 권위 앞에서 자신의 가르침을 설명한 사건이었다.",
+      "guiding_question_ko": "제국에 제출한 문서와 인쇄된 책은 같은가?",
+      "original_explanation_ko": "1530년의 제출 원고, 같은 무렵 유통된 비공인 인쇄물, 1531년 게오르크 라우의 승인 인쇄판은 문서의 역사적 기능이 다르다. Bridwell 도서관은 1531년 인쇄본의 라틴어·독일어 자료를 서로 다른 소장본으로 설명한다. 어느 본문을 인용할지 정할 때 언어·출판 연도·인쇄업자를 함께 기록한다.",
+      "overclaim_guard_ko": "1531년 승인판을 역사상 모든 판본 가운데 최초의 인쇄라고 잘못 부르지 않는다.",
+      "source_lead_ids": [
+        "SRC-V212-AC"
+      ],
+      "source_claim_level": "TOPIC_LEVEL_RESEARCH_LEAD_NOT_FOLIO_PROOF",
+      "historical_original_witness_verified": false,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "STP-V213-EDITIONS-04",
+      "position": 4,
+      "reader_key": "CALVIN1536",
+      "reader_title": "1536년 『기독교강요』: 박해받는 신앙을 변호한 여섯 장의 책",
+      "section_id": "SEC-V211-CALVIN1536-04",
+      "section_heading": "여섯 장의 초판에서 열일곱 장의 개정판으로",
+      "paragraph_id": "PAR-V211-CALVIN1536-011",
+      "sentence_id": "SNT-V211-CALVIN1536-0048",
+      "anchor_start_char": 2669,
+      "anchor_end_char": 2728,
+      "anchor_text_exact": "1536년 초판은 단순한 교리 목록이 아니라 박해받는 개혁 신앙에 대한 변호와 교리교육을 결합한 책이었다.",
+      "guiding_question_ko": "여섯 장에서 열일곱 장으로 변하면 다른 작품인가?",
+      "original_explanation_ko": "칼뱅 『기독교강요』의 1536년 초판과 1539년 확대판은 같은 저작의 편집 역사에서 서로 다른 단계다. 분량이 늘었다고 해서 각 문단이 단순히 뒤로 밀렸다고 가정할 수 없다. 신학의 배열과 새로운 논증이 어떻게 바뀌었는지 보려면 두 판본을 장별로 대조해야 한다.",
+      "overclaim_guard_ko": "원판 대조 없이 중간판의 모든 변경을 한 방향의 교리 발전으로 해석하지 않는다.",
+      "source_lead_ids": [
+        "SRC-V212-CALVIN"
+      ],
+      "source_claim_level": "TOPIC_LEVEL_RESEARCH_LEAD_NOT_FOLIO_PROOF",
+      "historical_original_witness_verified": false,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "STP-V213-EDITIONS-05",
+      "position": 5,
+      "reader_key": "CALVIN1559",
+      "reader_title": "1559년 『기독교강요』: 네 권과 80장으로 재배열된 신학",
+      "section_id": "SEC-V211-CALVIN1559-03",
+      "section_heading": "판본을 대조할 때 필요한 분류",
+      "paragraph_id": "PAR-V211-CALVIN1559-010",
+      "sentence_id": "SNT-V211-CALVIN1559-0045",
+      "anchor_start_char": 2478,
+      "anchor_end_char": 2535,
+      "anchor_text_exact": "두 판본의 주제가 겉으로 같아 보여도 저자가 같은 문장을 같은 목적에 사용했는지는 따로 확인해야 한다.",
+      "guiding_question_ko": "최종 라틴어판과 프랑스어판을 합쳐도 되는가?",
+      "original_explanation_ko": "1559년 최종 라틴어판은 네 권 80장의 체계를 갖지만 1560년 프랑스어판은 다른 언어로 된 개별 판본이다. 같은 교리적 주제를 말해도 번역된 말의 선택과 문장 배열을 별도로 확인해야 한다. 인용문마다 원어·연도·판본을 부착하는 방식이 검색과 학술 검토 모두에 도움이 된다.",
+      "overclaim_guard_ko": "1559/1560을 하나의 ‘최종판’ 파일로 묶어 동일한 정확한 원문이라 주장하지 않는다.",
+      "source_lead_ids": [
+        "SRC-V212-CALVIN"
+      ],
+      "source_claim_level": "TOPIC_LEVEL_RESEARCH_LEAD_NOT_FOLIO_PROOF",
+      "historical_original_witness_verified": false,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "STP-V213-IMPLEMENTATION-01",
+      "position": 1,
+      "reader_key": "LUTHER1521",
+      "reader_title": "2장. 1521년, 보름스 제국의회와 성경에 매인 양심",
+      "section_id": "SEC-V211-LUTHER1521-08",
+      "section_heading": "제국의 법질서와 저술의 운명",
+      "paragraph_id": "PAR-V211-LUTHER1521-011",
+      "sentence_id": "SNT-V211-LUTHER1521-0036",
+      "anchor_start_char": 2197,
+      "anchor_end_char": 2253,
+      "anchor_text_exact": "보름스 심문을 다룰 때 1521년 4월의 심문과 그 이후 제국령의 법적 효과를 나누어 설명해야 한다.",
+      "guiding_question_ko": "제국 칙령과 각 지역의 처벌은 언제 일어났나?",
+      "original_explanation_ko": "루터의 저술을 금지하는 제국의 법적 제재는 한 날짜의 문서로 기록될 수 있지만, 각 영토가 이를 실제로 어떻게 집행했는지는 다른 정치적 기록이 필요하다. 칙령의 작성·서명·공표와 현장의 적용을 나눠야 제국 헌정의 구조를 제대로 이해할 수 있다.",
+      "overclaim_guard_ko": "법적 금지 문서가 모든 지역에서 같은 날 동일한 효과를 냈다고 단정하지 않는다.",
+      "source_lead_ids": [
+        "SRC-V212-WORMS"
+      ],
+      "source_claim_level": "TOPIC_LEVEL_RESEARCH_LEAD_NOT_FOLIO_PROOF",
+      "historical_original_witness_verified": false,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "STP-V213-IMPLEMENTATION-02",
+      "position": 2,
+      "reader_key": "ZWINGLI",
+      "reader_title": "츠빙글리와 취리히: 설교, 시의회, 공공개혁",
+      "section_id": "SEC-V211-ZWINGLI-04",
+      "section_heading": "취리히 시의회와 개혁의 단계",
+      "paragraph_id": "PAR-V211-ZWINGLI-012",
+      "sentence_id": "SNT-V211-ZWINGLI-0046",
+      "anchor_start_char": 2718,
+      "anchor_end_char": 2790,
+      "anchor_text_exact": "츠빙글리의 설교가 시의회의 공식 판단과 연결되면서 취리히의 개혁은 신학적 논쟁인 동시에 도시의 공적 질서를 바꾸는 과정이 되었다.",
+      "guiding_question_ko": "도시의 변화는 누구의 결의로 가능했나?",
+      "original_explanation_ko": "취리히에서는 신학적 주장의 설득력과 시의회의 공적 결정이 결합하며 예배와 도시 행정의 변화가 진행됐다. 개인의 설교를 곧바로 시민 전체가 동의한 명령이라고 취급할 수 없다. 시의회가 실행을 담당했기에 성과뿐 아니라 반대자의 억압도 정치사적으로 함께 다뤄야 한다.",
+      "overclaim_guard_ko": "설교자 개인과 도시 의회의 조치·책임 범위를 분리한다.",
+      "source_lead_ids": [
+        "SRC-V212-ZURICH",
+        "SRC-V212-CITY"
+      ],
+      "source_claim_level": "TOPIC_LEVEL_RESEARCH_LEAD_NOT_FOLIO_PROOF",
+      "historical_original_witness_verified": false,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "STP-V213-IMPLEMENTATION-03",
+      "position": 3,
+      "reader_key": "AUGSBURG",
+      "reader_title": "아우크스부르크 신앙고백: 1530년의 공적 고백에서 1540년 수정판까지",
+      "section_id": "SEC-V211-AUGSBURG-01",
+      "section_heading": "도입",
+      "paragraph_id": "PAR-V211-AUGSBURG-001",
+      "sentence_id": "SNT-V211-AUGSBURG-0001",
+      "anchor_start_char": 0,
+      "anchor_end_char": 65,
+      "anchor_text_exact": "1530년 아우크스부르크 제국의회에서 개혁을 지지하던 영방 군주와 도시들은 자신들의 신앙을 공개적으로 설명해야 했다.",
+      "guiding_question_ko": "고백서는 누가 누구에게 왜 제출했나?",
+      "original_explanation_ko": "아우크스부르크의 문헌은 여러 영방과 도시가 제국의 정치적·종교적 환경에서 자신의 신앙을 공개 설명한 결과다. 개인 신학자가 쓴 교리서와 달리 특정 제후·도시의 공적 입장으로 제출됐다는 점에서 문서의 기능이 달라진다. 제출과 인쇄가 서로 다른 단계라는 사실도 제도적 맥락을 만든다.",
+      "overclaim_guard_ko": "모든 개혁 도시·영방이 동일한 정치적 의도와 문장에 서명했다고 확대하지 않는다.",
+      "source_lead_ids": [
+        "SRC-V212-AC"
+      ],
+      "source_claim_level": "TOPIC_LEVEL_RESEARCH_LEAD_NOT_FOLIO_PROOF",
+      "historical_original_witness_verified": false,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "STP-V213-IMPLEMENTATION-04",
+      "position": 4,
+      "reader_key": "TRENT",
+      "reader_title": "트리엔트 공의회: 가톨릭 개혁의 교리와 제도",
+      "section_id": "SEC-V211-TRENT-05",
+      "section_heading": "교령과 실행을 구별하는 트리엔트 연구",
+      "paragraph_id": "PAR-V211-TRENT-013",
+      "sentence_id": "SNT-V211-TRENT-0052",
+      "anchor_start_char": 3114,
+      "anchor_end_char": 3185,
+      "anchor_text_exact": "주교의 거주와 성직자 교육, 교구 방문 등 개혁 조치 역시 교령의 선포와 각 지역에서의 실제 실행 사이에 시간적 차이가 있었다.",
+      "guiding_question_ko": "교령 이후 교구는 실제로 무엇을 바꾸었나?",
+      "original_explanation_ko": "트리엔트는 교리적 교령과 성직자 교육·감독 같은 내부 개혁 규정을 제시했지만, 각 교구의 실제 실행에는 주교와 교육기관, 재정 및 지역 정치가 관여했다. 이 과정은 취리히의 도시 행정과 비교할 수 있어도 제도적 권한은 달랐다. 선포와 시행의 증거를 별개로 추적해야 한다.",
+      "overclaim_guard_ko": "신학교 규정의 의결 날짜를 모든 지역의 신학교 실제 개설일로 표시하지 않는다.",
+      "source_lead_ids": [
+        "SRC-V212-TRENT",
+        "SRC-V212-TRENTDOC"
+      ],
+      "source_claim_level": "TOPIC_LEVEL_RESEARCH_LEAD_NOT_FOLIO_PROOF",
+      "historical_original_witness_verified": false,
+      "expert_approved": false,
+      "can_publish": false
+    }
+  ],
+  "route_transitions": [
+    {
+      "id": "TRN-V213-AUTHORITY-01",
+      "path_id": "PATH-V213-AUTHORITY",
+      "from_stop_id": "STP-V213-AUTHORITY-01",
+      "to_stop_id": "STP-V213-AUTHORITY-02",
+      "relationship_id": "REL-V212-01",
+      "edge_scope": "TYPED_PREEXISTING_RELATION",
+      "explanation_ko": "위클리프 저술의 후스 수용을 다룬 학술사",
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "TRN-V213-AUTHORITY-02",
+      "path_id": "PATH-V213-AUTHORITY",
+      "from_stop_id": "STP-V213-AUTHORITY-02",
+      "to_stop_id": "STP-V213-AUTHORITY-03",
+      "relationship_id": null,
+      "edge_scope": "PARALLEL_EDITORIAL_COMPARISON_NO_DIRECT_RECEPTION_ASSERTED",
+      "explanation_ko": "HUS과 LUTHER1521은 같은 독서 질문을 각각 다른 시기·장르에서 다루며 직접 영향 관계를 자동으로 추정하지 않는다.",
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "TRN-V213-AUTHORITY-03",
+      "path_id": "PATH-V213-AUTHORITY",
+      "from_stop_id": "STP-V213-AUTHORITY-03",
+      "to_stop_id": "STP-V213-AUTHORITY-04",
+      "relationship_id": null,
+      "edge_scope": "PARALLEL_EDITORIAL_COMPARISON_NO_DIRECT_RECEPTION_ASSERTED",
+      "explanation_ko": "LUTHER1521과 ZWINGLI은 같은 독서 질문을 각각 다른 시기·장르에서 다루며 직접 영향 관계를 자동으로 추정하지 않는다.",
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "TRN-V213-AUTHORITY-04",
+      "path_id": "PATH-V213-AUTHORITY",
+      "from_stop_id": "STP-V213-AUTHORITY-04",
+      "to_stop_id": "STP-V213-AUTHORITY-05",
+      "relationship_id": "REL-V212-10",
+      "edge_scope": "TYPED_PREEXISTING_RELATION",
+      "explanation_ko": "도시 시의회와 공의회의 제도화 방식 비교",
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "TRN-V213-EUCHARIST-01",
+      "path_id": "PATH-V213-EUCHARIST",
+      "from_stop_id": "STP-V213-EUCHARIST-01",
+      "to_stop_id": "STP-V213-EUCHARIST-02",
+      "relationship_id": null,
+      "edge_scope": "PARALLEL_EDITORIAL_COMPARISON_NO_DIRECT_RECEPTION_ASSERTED",
+      "explanation_ko": "WYCLIFFE과 ZWINGLI은 같은 독서 질문을 각각 다른 시기·장르에서 다루며 직접 영향 관계를 자동으로 추정하지 않는다.",
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "TRN-V213-EUCHARIST-02",
+      "path_id": "PATH-V213-EUCHARIST",
+      "from_stop_id": "STP-V213-EUCHARIST-02",
+      "to_stop_id": "STP-V213-EUCHARIST-03",
+      "relationship_id": "REL-V212-05",
+      "edge_scope": "TYPED_PREEXISTING_RELATION",
+      "explanation_ko": "츠빙글리의 1529 회담 참여",
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "TRN-V213-EUCHARIST-03",
+      "path_id": "PATH-V213-EUCHARIST",
+      "from_stop_id": "STP-V213-EUCHARIST-03",
+      "to_stop_id": "STP-V213-EUCHARIST-04",
+      "relationship_id": "REL-V212-07",
+      "edge_scope": "TYPED_PREEXISTING_RELATION",
+      "explanation_ko": "1529 제15조와 1540 Variata 제10조 비교",
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "TRN-V213-EUCHARIST-04",
+      "path_id": "PATH-V213-EUCHARIST",
+      "from_stop_id": "STP-V213-EUCHARIST-04",
+      "to_stop_id": "STP-V213-EUCHARIST-05",
+      "relationship_id": "REL-V212-11",
+      "edge_scope": "TYPED_PREEXISTING_RELATION",
+      "explanation_ko": "공적 고백과 공의회 교령의 신학적 주제 비교",
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "TRN-V213-EDITIONS-01",
+      "path_id": "PATH-V213-EDITIONS",
+      "from_stop_id": "STP-V213-EDITIONS-01",
+      "to_stop_id": "STP-V213-EDITIONS-02",
+      "relationship_id": "REL-V212-02",
+      "edge_scope": "TYPED_PREEXISTING_RELATION",
+      "explanation_ko": "교회 권위와 면벌부 비판을 시대별 비교",
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "TRN-V213-EDITIONS-02",
+      "path_id": "PATH-V213-EDITIONS",
+      "from_stop_id": "STP-V213-EDITIONS-02",
+      "to_stop_id": "STP-V213-EDITIONS-03",
+      "relationship_id": null,
+      "edge_scope": "PARALLEL_EDITORIAL_COMPARISON_NO_DIRECT_RECEPTION_ASSERTED",
+      "explanation_ko": "LUTHER1517과 AUGSBURG은 같은 독서 질문을 각각 다른 시기·장르에서 다루며 직접 영향 관계를 자동으로 추정하지 않는다.",
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "TRN-V213-EDITIONS-03",
+      "path_id": "PATH-V213-EDITIONS",
+      "from_stop_id": "STP-V213-EDITIONS-03",
+      "to_stop_id": "STP-V213-EDITIONS-04",
+      "relationship_id": null,
+      "edge_scope": "PARALLEL_EDITORIAL_COMPARISON_NO_DIRECT_RECEPTION_ASSERTED",
+      "explanation_ko": "AUGSBURG과 CALVIN1536은 같은 독서 질문을 각각 다른 시기·장르에서 다루며 직접 영향 관계를 자동으로 추정하지 않는다.",
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "TRN-V213-EDITIONS-04",
+      "path_id": "PATH-V213-EDITIONS",
+      "from_stop_id": "STP-V213-EDITIONS-04",
+      "to_stop_id": "STP-V213-EDITIONS-05",
+      "relationship_id": "REL-V212-09",
+      "edge_scope": "TYPED_PREEXISTING_RELATION",
+      "explanation_ko": "1536/1539/1559 칼뱅 저작의 판본 발전",
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "TRN-V213-IMPLEMENTATION-01",
+      "path_id": "PATH-V213-IMPLEMENTATION",
+      "from_stop_id": "STP-V213-IMPLEMENTATION-01",
+      "to_stop_id": "STP-V213-IMPLEMENTATION-02",
+      "relationship_id": null,
+      "edge_scope": "PARALLEL_EDITORIAL_COMPARISON_NO_DIRECT_RECEPTION_ASSERTED",
+      "explanation_ko": "LUTHER1521과 ZWINGLI은 같은 독서 질문을 각각 다른 시기·장르에서 다루며 직접 영향 관계를 자동으로 추정하지 않는다.",
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "TRN-V213-IMPLEMENTATION-02",
+      "path_id": "PATH-V213-IMPLEMENTATION",
+      "from_stop_id": "STP-V213-IMPLEMENTATION-02",
+      "to_stop_id": "STP-V213-IMPLEMENTATION-03",
+      "relationship_id": null,
+      "edge_scope": "PARALLEL_EDITORIAL_COMPARISON_NO_DIRECT_RECEPTION_ASSERTED",
+      "explanation_ko": "ZWINGLI과 AUGSBURG은 같은 독서 질문을 각각 다른 시기·장르에서 다루며 직접 영향 관계를 자동으로 추정하지 않는다.",
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "TRN-V213-IMPLEMENTATION-03",
+      "path_id": "PATH-V213-IMPLEMENTATION",
+      "from_stop_id": "STP-V213-IMPLEMENTATION-03",
+      "to_stop_id": "STP-V213-IMPLEMENTATION-04",
+      "relationship_id": "REL-V212-11",
+      "edge_scope": "TYPED_PREEXISTING_RELATION",
+      "explanation_ko": "공적 고백과 공의회 교령의 신학적 주제 비교",
+      "expert_approved": false,
+      "can_publish": false
+    }
+  ],
+  "interpretive_case_studies": [
+    {
+      "id": "CASE-V213-AUTHORITY",
+      "path_id": "PATH-V213-AUTHORITY",
+      "historical_comparison_question_ko": "교회를 말할 권위는 어떤 기준으로 인정받을 수 있을까?",
+      "recommended_analytical_answer_ko": "위클리프·후스에게 중요한 ‘누가 참된 교회인가’라는 질문은 보름스의 ‘무엇을 철회할 것인가’라는 개인 심문, 취리히의 ‘누가 예배를 바꿀 권한이 있는가’라는 행정 문제, 트리엔트의 ‘누가 성직자를 교육·감독하는가’라는 교회 제도로 연결해서 비교할 수 있다. 그러나 하나가 다른 제도를 자동으로 만들었다는 인과 주장은 아니다. 각 사례에서 문서의 작성자와 이를 시행한 권한기관을 별도 노드로 유지할 때, 장구한 종교개혁사를 단순한 영웅의 계보로 줄이지 않을 수 있다.",
+      "facts_to_verify_ko": [
+        "WYCLIFFE: 교회의 이름과 참된 구성원은 같은가?",
+        "HUS: 그리스도의 머리 되심은 성직자 권위에 어떤 질문을 던지는가?",
+        "LUTHER1521: 양심은 아무 근거 없는 자기 확신이었을까?",
+        "ZWINGLI: 공적 개혁을 결정한 기관은 누구였나?",
+        "TRENT: 공의회의 결정은 각 지역에서 곧바로 실행됐을까?"
+      ],
+      "intended_debate_ko": "이 경로의 공통 질문을 이해하되 같은 주제의 병렬 비교에서 직접 인과관계나 동일한 원문을 추론하지 않는다.",
+      "learner_prompt_ko": "각 단계의 출처 수준을 비교해 직접 확인된 문헌 정보와 해석적 설명을 구별하고, 그 한계를 근거와 함께 서술하시오.",
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "CASE-V213-EUCHARIST",
+      "path_id": "PATH-V213-EUCHARIST",
+      "historical_comparison_question_ko": "서로 같은 성경을 읽으면서도 성찬에서 무엇이 다르게 이해되었을까?",
+      "recommended_analytical_answer_ko": "마르부르크 합의문은 제15조의 미합의만큼 앞선 공통 조항과 마지막의 상호 사랑 약속이 중요하다. 1540년 Variata와의 비교에서는 ‘신학적 표현 변화’가 무엇을 의미하는지 원래 인쇄본의 독일어·라틴어 차이를 확인해야 한다. 트리엔트의 성례 관련 결정은 개신교 내부의 대화와는 다른 공의회적 문서다. 독자는 네 자료를 한 문장으로 판정하기보다, 작성자·합의 범위·문서의 권한과 적용 대상을 나눠 읽을 필요가 있다.",
+      "facts_to_verify_ko": [
+        "WYCLIFFE: 마르부르크 전에도 성찬 해석은 논쟁적이었는가?",
+        "ZWINGLI: 취리히의 성찬 변화는 예배와 도시의 문제였나?",
+        "MARBURG: 부분 합의가 있어도 왜 성만찬 이견은 남았나?",
+        "AUGSBURG: 제10조를 비교하려면 어떤 판본을 선택해야 하나?",
+        "TRENT: 공의회 교령은 앞선 개신교 회담과 같은 형식인가?"
+      ],
+      "intended_debate_ko": "이 경로의 공통 질문을 이해하되 같은 주제의 병렬 비교에서 직접 인과관계나 동일한 원문을 추론하지 않는다.",
+      "learner_prompt_ko": "각 단계의 출처 수준을 비교해 직접 확인된 문헌 정보와 해석적 설명을 구별하고, 그 한계를 근거와 함께 서술하시오.",
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "CASE-V213-EDITIONS",
+      "path_id": "PATH-V213-EDITIONS",
+      "historical_comparison_question_ko": "어느 판본을 ‘원문’이라고 말할 수 있을까?",
+      "recommended_analytical_answer_ko": "후스의 목록상 `IV H 19`는 작품을 찾을 수 있는 단서이고 원어 문장이 존재하는 정확한 면을 검증했다는 뜻이 아니다. 1517년의 역사적 장면도 후대 도상과 당대 인쇄를 구별해야 한다. 아우크스부르크는 1530 제출문과 1531 공인 인쇄 및 1540 수정판을 갈라 관리하고, 칼뱅은 1536·1539·1559 라틴어 및 1560 프랑스어를 독립된 문헌 객체로 관리한다. 원문 비교를 위해서는 무엇보다 서지 ID와 해당 판면을 확정해야 한다.",
+      "facts_to_verify_ko": [
+        "HUS: 필사본 소장기호는 무엇을 말해 주는가?",
+        "LUTHER1517: 1517년 사건의 그림은 원본 증거인가?",
+        "AUGSBURG: 제국에 제출한 문서와 인쇄된 책은 같은가?",
+        "CALVIN1536: 여섯 장에서 열일곱 장으로 변하면 다른 작품인가?",
+        "CALVIN1559: 최종 라틴어판과 프랑스어판을 합쳐도 되는가?"
+      ],
+      "intended_debate_ko": "이 경로의 공통 질문을 이해하되 같은 주제의 병렬 비교에서 직접 인과관계나 동일한 원문을 추론하지 않는다.",
+      "learner_prompt_ko": "각 단계의 출처 수준을 비교해 직접 확인된 문헌 정보와 해석적 설명을 구별하고, 그 한계를 근거와 함께 서술하시오.",
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "CASE-V213-IMPLEMENTATION",
+      "path_id": "PATH-V213-IMPLEMENTATION",
+      "historical_comparison_question_ko": "신학적 결론이 현실의 제도로 바뀌는 과정에는 누가 등장했을까?",
+      "recommended_analytical_answer_ko": "보름스의 제국 칙령은 법령의 공표와 지역별 집행 사이에 차이가 있었음을 보여 준다. 취리히에서는 도시 정치권력이 교회 질서를 실제로 바꾸는 주체였다. 아우크스부르크에서는 영방과 도시가 제국 앞에서 공동의 신앙을 설명하는 고백서를 제출했다. 트리엔트의 제도 개혁은 각 교구의 주교와 교육체계를 통해 구현됐다. ‘개혁 선언’의 날짜 하나로 실제 사회 변화가 완성됐다고 그리기보다, 문서·의결기관·집행기관·실행의 증거를 서로 다른 자료로 연결해야 한다.",
+      "facts_to_verify_ko": [
+        "LUTHER1521: 제국 칙령과 각 지역의 처벌은 언제 일어났나?",
+        "ZWINGLI: 도시의 변화는 누구의 결의로 가능했나?",
+        "AUGSBURG: 고백서는 누가 누구에게 왜 제출했나?",
+        "TRENT: 교령 이후 교구는 실제로 무엇을 바꾸었나?"
+      ],
+      "intended_debate_ko": "이 경로의 공통 질문을 이해하되 같은 주제의 병렬 비교에서 직접 인과관계나 동일한 원문을 추론하지 않는다.",
+      "learner_prompt_ko": "각 단계의 출처 수준을 비교해 직접 확인된 문헌 정보와 해석적 설명을 구별하고, 그 한계를 근거와 함께 서술하시오.",
+      "expert_approved": false,
+      "can_publish": false
+    }
+  ],
+  "chapter_coverage": [
+    {
+      "reader_key": "WYCLIFFE",
+      "used_as_stops": 2,
+      "source_chapter_unchanged": true
+    },
+    {
+      "reader_key": "HUS",
+      "used_as_stops": 2,
+      "source_chapter_unchanged": true
+    },
+    {
+      "reader_key": "LUTHER1517",
+      "used_as_stops": 1,
+      "source_chapter_unchanged": true
+    },
+    {
+      "reader_key": "LUTHER1521",
+      "used_as_stops": 2,
+      "source_chapter_unchanged": true
+    },
+    {
+      "reader_key": "MARBURG",
+      "used_as_stops": 1,
+      "source_chapter_unchanged": true
+    },
+    {
+      "reader_key": "AUGSBURG",
+      "used_as_stops": 3,
+      "source_chapter_unchanged": true
+    },
+    {
+      "reader_key": "CALVIN1536",
+      "used_as_stops": 1,
+      "source_chapter_unchanged": true
+    },
+    {
+      "reader_key": "CALVIN1559",
+      "used_as_stops": 1,
+      "source_chapter_unchanged": true
+    },
+    {
+      "reader_key": "ZWINGLI",
+      "used_as_stops": 3,
+      "source_chapter_unchanged": true
+    },
+    {
+      "reader_key": "TRENT",
+      "used_as_stops": 3,
+      "source_chapter_unchanged": true
+    }
+  ],
+  "blockers": [
+    "These are fully written research-only route explanations, not academically approved claims.",
+    "Source URLs provide topical provenance; no original source page/line was matched to each sentence.",
+    "Some links represent thematic comparison, not intellectual influence; see edge_scope.",
+    "Even V2.11 reader text offset changes would invalidate path anchors.",
+    "No right to reproduce facsimile, rare book scans, photographs or modern translated texts.",
+    "External web application and main remain unmodified."
+  ]
+}
