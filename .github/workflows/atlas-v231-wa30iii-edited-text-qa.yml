@@ -1,0 +1,53 @@
+name: Atlas V231 1910 WA critical edition reading and witness boundary QA
+on:
+  push:
+    branches: ['research/**']
+    paths:
+      - 'data/deep/atlas_v231_wa1910_critical_edition_and_marburg_witness_apparatus.json'
+      - 'docs/01_CONTENT/V231_WA1910_MARBURG_LATIN_REPORT_KZ_STEMMA_AND_SOURCE_COMPARISON.md'
+      - 'scripts/validate_atlas_v231.py'
+      - '.github/workflows/atlas-v231-wa30iii-edited-text-qa.yml'
+  pull_request:
+    branches: ['research/**']
+    paths:
+      - 'data/deep/atlas_v231_wa1910_critical_edition_and_marburg_witness_apparatus.json'
+      - 'docs/01_CONTENT/V231_WA1910_MARBURG_LATIN_REPORT_KZ_STEMMA_AND_SOURCE_COMPARISON.md'
+      - 'scripts/validate_atlas_v231.py'
+      - '.github/workflows/atlas-v231-wa30iii-edited-text-qa.yml'
+  workflow_dispatch:
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Compile V231 evidence checker
+        run: python3 -m py_compile scripts/validate_atlas_v231.py
+      - name: Research regression V219
+        run: python3 scripts/validate_atlas_v219.py
+      - name: Research regression V220
+        run: python3 scripts/validate_atlas_v220.py
+      - name: Research regression V221
+        run: python3 scripts/validate_atlas_v221.py
+      - name: Research regression V222
+        run: python3 scripts/validate_atlas_v222.py
+      - name: Research regression V223
+        run: python3 scripts/validate_atlas_v223.py
+      - name: Research regression V224
+        run: python3 scripts/validate_atlas_v224.py
+      - name: Research regression V225
+        run: python3 scripts/validate_atlas_v225.py
+      - name: Research regression V226
+        run: python3 scripts/validate_atlas_v226.py
+      - name: Research regression V227
+        run: python3 scripts/validate_atlas_v227.py
+      - name: Research regression V228
+        run: python3 scripts/validate_atlas_v228.py
+      - name: Research regression V229
+        run: python3 scripts/validate_atlas_v229.py
+      - name: Research regression V230
+        run: python3 scripts/validate_atlas_v230.py
+      - name: Research regression V231
+        run: python3 scripts/validate_atlas_v231.py
