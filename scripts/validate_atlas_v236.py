@@ -37,6 +37,8 @@ chapters=ix(d["reader_draft"]["chapters"])
 assert (len(sources),len(objects),len(latin),len(checks),len(chapters))==(11,5,3,6,5)
 assert all(x["url"].startswith("https://") and x["original_image_read"] is False for x in sources.values())
 assert sources["A453"]["access"]=="DIRECT_ARCHIVAL_HTML"
+assert sources["A453"]["url"].endswith("DE-611-HS-4254434")
+assert not sources["A453"]["url"].endswith("4254430")
 assert sources["B28"]["access"]=="DIRECT_ARCHIVAL_HTML"
 assert sources["FUDGE1997"]["access"]=="DIRECT_PDF_TEXT_AND_PAGE0_SCREENSHOT_PROOFREAD"
 assert sources["SECKENDORFF1692"]["access"]=="2024_DRESDEN_CHURCH_ARCHIVE_LIBRARY_CATALOGUE_NOT_1692_TEXT"
