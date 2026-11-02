@@ -1,0 +1,199 @@
+{
+  "type": "FeatureCollection",
+  "name": "ATLAS_V214_PRIVATE_RESEARCH_CITY_REFERENCE_POINTS",
+  "properties": {
+    "can_ship": false,
+    "not_public_map": true,
+    "source_version": "2.12",
+    "coordinate_caution": "City centre estimates are not exact medieval venues"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.7229983,
+          49.3898372
+        ]
+      },
+      "properties": {
+        "place_id": "PLACE-V214-KOZI",
+        "label": "코지 흐라데크",
+        "precision": "HISTORIC_SITE_COORD_FROM_HERITAGE_WEBSITE",
+        "status": "RESEARCH_PREVIEW_NOT_PUBLIC",
+        "can_publish": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.176,
+          47.663
+        ]
+      },
+      "properties": {
+        "place_id": "PLACE-V214-KONSTANZ",
+        "label": "콘스탄츠",
+        "precision": "MODERN_CITY_CENTROID_APPROXIMATE",
+        "status": "RESEARCH_PREVIEW_NOT_PUBLIC",
+        "can_publish": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.648,
+          51.868
+        ]
+      },
+      "properties": {
+        "place_id": "PLACE-V214-WITTENBERG",
+        "label": "비텐베르크",
+        "precision": "MODERN_CITY_CENTROID_APPROXIMATE",
+        "status": "RESEARCH_PREVIEW_NOT_PUBLIC",
+        "can_publish": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.36,
+          49.63
+        ]
+      },
+      "properties": {
+        "place_id": "PLACE-V214-WORMS",
+        "label": "보름스",
+        "precision": "MODERN_CITY_CENTROID_APPROXIMATE",
+        "status": "RESEARCH_PREVIEW_NOT_PUBLIC",
+        "can_publish": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.542,
+          47.376
+        ]
+      },
+      "properties": {
+        "place_id": "PLACE-V214-ZURICH",
+        "label": "취리히",
+        "precision": "MODERN_CITY_CENTROID_APPROXIMATE",
+        "status": "RESEARCH_PREVIEW_NOT_PUBLIC",
+        "can_publish": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.77,
+          50.811
+        ]
+      },
+      "properties": {
+        "place_id": "PLACE-V214-MARBURG",
+        "label": "마르부르크",
+        "precision": "MODERN_CITY_CENTROID_APPROXIMATE",
+        "status": "RESEARCH_PREVIEW_NOT_PUBLIC",
+        "can_publish": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.898,
+          48.371
+        ]
+      },
+      "properties": {
+        "place_id": "PLACE-V214-AUGSBURG",
+        "label": "아우크스부르크",
+        "precision": "MODERN_CITY_CENTROID_APPROXIMATE",
+        "status": "RESEARCH_PREVIEW_NOT_PUBLIC",
+        "can_publish": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.589,
+          47.56
+        ]
+      },
+      "properties": {
+        "place_id": "PLACE-V214-BASEL",
+        "label": "바젤",
+        "precision": "MODERN_CITY_CENTROID_APPROXIMATE",
+        "status": "RESEARCH_PREVIEW_NOT_PUBLIC",
+        "can_publish": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.752,
+          48.583
+        ]
+      },
+      "properties": {
+        "place_id": "PLACE-V214-STRASBOURG",
+        "label": "스트라스부르",
+        "precision": "MODERN_CITY_CENTROID_APPROXIMATE",
+        "status": "RESEARCH_PREVIEW_NOT_PUBLIC",
+        "can_publish": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.144,
+          46.204
+        ]
+      },
+      "properties": {
+        "place_id": "PLACE-V214-GENEVA",
+        "label": "제네바",
+        "precision": "MODERN_CITY_CENTROID_APPROXIMATE",
+        "status": "RESEARCH_PREVIEW_NOT_PUBLIC",
+        "can_publish": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.122,
+          46.067
+        ]
+      },
+      "properties": {
+        "place_id": "PLACE-V214-TRENTO",
+        "label": "트렌토",
+        "precision": "MODERN_CITY_CENTROID_APPROXIMATE",
+        "status": "RESEARCH_PREVIEW_NOT_PUBLIC",
+        "can_publish": false
+      }
+    }
+  ]
+}

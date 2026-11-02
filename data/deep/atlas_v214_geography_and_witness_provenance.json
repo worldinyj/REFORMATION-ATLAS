@@ -1,0 +1,1197 @@
+{
+  "version": "2.14",
+  "kind": "HISTORICAL_PLACE_EVENT_PERSON_WORK_PRINT_HOLDING_GAZETTEER_WITH_EXPLANATORY_CARDS",
+  "parent_commit": "71499b63595f5ac1fd93190682bdc3f14933cd44",
+  "base_research_branch": "research/atlas-v212-linked-historical-interpretations",
+  "conflict_avoidance_note": "Separate V213 thematic-reading branch was independently created; this branch does not modify or merge that work.",
+  "publication_gate": {
+    "can_ship": false,
+    "expert_approved": false,
+    "original_witness_scans_collated": false,
+    "location_precision_approved": false,
+    "image_rights_cleared": false,
+    "webapp_integrated": false
+  },
+  "methods": {
+    "history_vs_holding": "All 19 dated events attach to historic city or well documented site; copies' current library locations have null coordinates and no event pin.",
+    "coordinates": "11 sites: Kozí Hrádek coordinate from official heritage map; remaining 10 entries modern city-centre approximations for exploratory mapping, NOT original 16th-century rooms or presses.",
+    "evidence": "Original-language critical transcription of Manz sentence accessed, not original archival manuscript photographic image.",
+    "date": "Preserve YYYY precision from V212 for YEAR/MONTH/DAY; year-only bounds are not actual 1 January events.",
+    "consistency": "No publishing to app, main, nor modifying V211 or V212 books."
+  },
+  "metrics": {
+    "source_events": 19,
+    "event_location_links": 19,
+    "unique_places": 11,
+    "geojson_features": 11,
+    "historic_site_reported_coordinates": 1,
+    "modern_approximate_city_centres": 10,
+    "history_persons": 10,
+    "historical_document_objects": 14,
+    "modern_witness_holdings": 6,
+    "new_source_records": 15,
+    "site_essays": 11,
+    "inspected_original_language_critical_transcription_records": 1,
+    "source_original_folio_images_collated": 0,
+    "public_geocodes_verified": 0,
+    "human_scholar_approvals": 0,
+    "public_items": 0
+  },
+  "source_registry": [
+    {
+      "id": "SRC-V214-KOZI",
+      "title": "Kozí hrádek official map",
+      "url": "https://www.kozi-hradek.cz/mapa/",
+      "kind": "HERITAGE_SITE_OFFICIAL",
+      "scope": "49.3898372 N 14.7229983 E official site coordinate",
+      "original_image_inspected": false,
+      "rights_cleared": false
+    },
+    {
+      "id": "SRC-V214-HUS-CASTLE",
+      "title": "Radio Prague archive Jan Hus life",
+      "url": "https://archiv.radio.cz/cz/static/jan-hus/zivotopis",
+      "kind": "CZECH_PUBLIC_RADIO_HISTORICAL",
+      "scope": "Hus wrote O církvi (De ecclesia) during Kozí hrádek stay in 1413",
+      "original_image_inspected": false,
+      "rights_cleared": false
+    },
+    {
+      "id": "SRC-V214-HUS-CONST",
+      "title": "Oxford Jan Hus scholarly reference",
+      "url": "https://academic.oup.com/reference/62416/reference-article-abstract/555947093",
+      "kind": "SCHOLARLY_REFERENCE",
+      "scope": "1415 Constance martyrdom and work biography",
+      "original_image_inspected": false,
+      "rights_cleared": false
+    },
+    {
+      "id": "SRC-V214-WITT",
+      "title": "German History Documents Luther 95 Theses",
+      "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/martin-luther-ninety-five-theses-october-31-1517",
+      "kind": "EDITED_PRIMARY_TRANSLATION",
+      "scope": "1517 Luther academic disputation, no proof of door posting",
+      "original_image_inspected": false,
+      "rights_cleared": false
+    },
+    {
+      "id": "SRC-V214-WORMS",
+      "title": "TU Darmstadt European Religious Peace Edict",
+      "url": "https://tueditions.ulb.tu-darmstadt.de/v/pa000008-0107",
+      "kind": "SCHOLARLY_CRITICAL_EDITION",
+      "scope": "1521 Worms edict May 8 vs 26",
+      "original_image_inspected": false,
+      "rights_cleared": false
+    },
+    {
+      "id": "SRC-V214-ZURICH",
+      "title": "Zentralbibliothek Zürich Reformation overview",
+      "url": "https://www.zb.uzh.ch/de/fokus/beitrag/reformation",
+      "kind": "LIBRARY_HISTORICAL_OVERVIEW",
+      "scope": "1523 disputations and Zwingli Zurich context",
+      "original_image_inspected": false,
+      "rights_cleared": false
+    },
+    {
+      "id": "SRC-V214-MANZ-CATALOG",
+      "title": "Staatsarchiv Zürich B VI 251 fol 40r-41v",
+      "url": "https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4301559",
+      "kind": "GOVERNMENT_ARCHIVE_DOCUMENT_RECORD",
+      "scope": "1527-01-05 Felix Manz drowning verdict, written archival folios",
+      "original_image_inspected": false,
+      "rights_cleared": false
+    },
+    {
+      "id": "SRC-V214-MANZ-TRANS",
+      "title": "SSRQ ZH NF I/1/3 no.139 Manz sentence original German transcription",
+      "url": "https://editio.sds-online.ch/ZH/NF_I_1_3/139-1.html",
+      "kind": "SCHOLARLY_EARLY_MODERN_GERMAN_DOCUMENT_TRANSCRIPTION",
+      "scope": "Manz sentence fol 40r onward, transcript read; NOT original manuscript scan",
+      "original_image_inspected": false,
+      "rights_cleared": false
+    },
+    {
+      "id": "SRC-V214-MARBURG",
+      "title": "GHDI Marburg Articles 1529",
+      "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/ghdi:document-4311",
+      "kind": "EDITED_SOURCE_TRANSLATION",
+      "scope": "1529 Oct 3 articles, Marburg city, no exact room",
+      "original_image_inspected": false,
+      "rights_cleared": false
+    },
+    {
+      "id": "SRC-V214-AUGSBURG",
+      "title": "Bridwell Library Augsburg 1531 historical printing",
+      "url": "https://bridwell.omeka.net/exhibits/show/luther/controversies/augsburgconfession",
+      "kind": "RARE_BOOK_CATALOGUE",
+      "scope": "Augsburg 1530 submission and Wittenberg Georg Rhaw 1531 printing distinct",
+      "original_image_inspected": false,
+      "rights_cleared": false
+    },
+    {
+      "id": "SRC-V214-BASEL",
+      "title": "BnF Calvin work authority",
+      "url": "https://catalogue.bnf.fr/ark:/12148/cb11963198n",
+      "kind": "NATIONAL_LIBRARY_WORK_AUTHORITY",
+      "scope": "Calvin first Institutes 1536 Basel",
+      "original_image_inspected": false,
+      "rights_cleared": false
+    },
+    {
+      "id": "SRC-V214-STRASBOURG",
+      "title": "Schaff Institutes editions historical bibliography",
+      "url": "https://ccel.org/ccel/schaff/hcc8/hcc8.iv.ix.xi.html",
+      "kind": "HISTORICAL_SCHOLARLY_BIBLIOGRAPHY",
+      "scope": "1539 Calvin Strasbourg issue in edition sequence",
+      "original_image_inspected": false,
+      "rights_cleared": false
+    },
+    {
+      "id": "SRC-V214-GENEVA-1560",
+      "title": "University of Tours BVH French Institutes 1560",
+      "url": "https://www.bvh.univ-tours.fr/Consult/index.asp?numfiche=498",
+      "kind": "UNIVERSITY_RARE_BOOK_CATALOGUE",
+      "scope": "1560 Geneva Jean Crespin imprint, current Tours collection, shelf SR DB 2/14770",
+      "original_image_inspected": false,
+      "rights_cleared": false
+    },
+    {
+      "id": "SRC-V214-GENEVA-1559",
+      "title": "Princeton Theological Seminary digitized Calvin 1559",
+      "url": "https://commons.ptsem.edu/id/institutiochrist1559calv",
+      "kind": "THEOLOGICAL_LIBRARY_DIGITIZED_CATALOGUE",
+      "scope": "Geneva 1559 Institutes Latin edition, present Princeton holding",
+      "original_image_inspected": false,
+      "rights_cleared": false
+    },
+    {
+      "id": "SRC-V214-TRENT",
+      "title": "St Andrews Council of Trent study",
+      "url": "https://www.saet.ac.uk/Christianity/CouncilofTrent",
+      "kind": "ACADEMIC_THEOLOGY_ENCYCLOPEDIA",
+      "scope": "Council 1545-1563 doctrinal and disciplinary sessions",
+      "original_image_inspected": false,
+      "rights_cleared": false
+    }
+  ],
+  "places": [
+    {
+      "id": "PLACE-V214-KOZI",
+      "name": "Kozí hrádek",
+      "display_ko": "코지 흐라데크",
+      "modern_country": "Czech Republic",
+      "lat": 49.3898372,
+      "lon": 14.7229983,
+      "coordinate_precision": "HISTORIC_SITE_COORD_FROM_HERITAGE_WEBSITE",
+      "place_essay_ko": "후스가 1413년 집필 활동을 한 코지 흐라데크 성터다. 오늘날 보이는 유적의 안내 좌표와 15세기 저술의 정확한 필사 위치는 다르다. 프라하 국립도서관 IV H 19의 소장 주소를 이 장소로 옮기지 않는다.",
+      "source_ids": [
+        "SRC-V214-KOZI",
+        "SRC-V214-HUS-CASTLE"
+      ],
+      "site_building_or_room_verified": true,
+      "historian_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "PLACE-V214-KONSTANZ",
+      "name": "Konstanz",
+      "display_ko": "콘스탄츠",
+      "modern_country": "Germany",
+      "lat": 47.663,
+      "lon": 9.176,
+      "coordinate_precision": "MODERN_CITY_CENTROID_APPROXIMATE",
+      "place_essay_ko": "1415년 후스의 심리와 처형이 있었던 도시다. 후센슈타인과 같은 후대 기념물의 설치 지점은 처형 장소를 재현하려는 기억의 장소이지 1415년 정확한 현장 좌표라고 단정하지 않는다.",
+      "source_ids": [
+        "SRC-V214-HUS-CONST"
+      ],
+      "site_building_or_room_verified": false,
+      "historian_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "PLACE-V214-WITTENBERG",
+      "name": "Lutherstadt Wittenberg",
+      "display_ko": "비텐베르크",
+      "modern_country": "Germany",
+      "lat": 51.868,
+      "lon": 12.648,
+      "coordinate_precision": "MODERN_CITY_CENTROID_APPROXIMATE",
+      "place_essay_ko": "1517년의 루터 논제와 1531년 아우크스부르크 승인 인쇄판의 배경 도시는 비텐베르크다. 학술 논제의 성문 게시 행동 자체는 논쟁의 대상이므로 성당 문에 직접 핀을 고정하지 않는다. 1530년 문서 제출은 아우크스부르크에서 벌어졌다.",
+      "source_ids": [
+        "SRC-V214-WITT",
+        "SRC-V214-AUGSBURG"
+      ],
+      "site_building_or_room_verified": false,
+      "historian_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "PLACE-V214-WORMS",
+      "name": "Worms",
+      "display_ko": "보름스",
+      "modern_country": "Germany",
+      "lat": 49.63,
+      "lon": 8.36,
+      "coordinate_precision": "MODERN_CITY_CENTROID_APPROXIMATE",
+      "place_essay_ko": "1521년 루터 심문과 제국 칙령의 정치적 장소다. 디지털 비평판은 5월 8일 문안과 26일 서명·공표의 단계 차이를 다룬다. 도시 중심 좌표는 황제의 서명 장소나 심문 당시 특정 방을 보장하지 않는다.",
+      "source_ids": [
+        "SRC-V214-WORMS"
+      ],
+      "site_building_or_room_verified": false,
+      "historian_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "PLACE-V214-ZURICH",
+      "name": "Zürich",
+      "display_ko": "취리히",
+      "modern_country": "Switzerland",
+      "lat": 47.376,
+      "lon": 8.542,
+      "coordinate_precision": "MODERN_CITY_CENTROID_APPROXIMATE",
+      "place_essay_ko": "1523년 두 차례 종교 논쟁과 시의회 개혁이 이루어진 도시다. 1527년 펠릭스 만츠의 익사형 판결은 주립문서관 B VI 251에 남았으며 현대 비평 전사에서 원어 표현을 확인할 수 있다. 문서 소장처·도시 중심·리마트강 처형 지점을 각각 구분한다.",
+      "source_ids": [
+        "SRC-V214-ZURICH",
+        "SRC-V214-MANZ-CATALOG",
+        "SRC-V214-MANZ-TRANS"
+      ],
+      "site_building_or_room_verified": false,
+      "historian_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "PLACE-V214-MARBURG",
+      "name": "Marburg",
+      "display_ko": "마르부르크",
+      "modern_country": "Germany",
+      "lat": 50.811,
+      "lon": 8.77,
+      "coordinate_precision": "MODERN_CITY_CENTROID_APPROXIMATE",
+      "place_essay_ko": "1529년 루터와 츠빙글리 진영의 대화와 합의문이 작성된 도시다. 합의문 제15조의 성만찬 이견과 상호 사랑 약속을 함께 설명해야 한다. 후대 편집 문서에 적힌 10월 3일과 일부 서지 기록의 3·4일 표현 차이는 별도 대조가 필요하다.",
+      "source_ids": [
+        "SRC-V214-MARBURG"
+      ],
+      "site_building_or_room_verified": false,
+      "historian_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "PLACE-V214-AUGSBURG",
+      "name": "Augsburg",
+      "display_ko": "아우크스부르크",
+      "modern_country": "Germany",
+      "lat": 48.371,
+      "lon": 10.898,
+      "coordinate_precision": "MODERN_CITY_CENTROID_APPROXIMATE",
+      "place_essay_ko": "1530년 6월 25일 신앙고백이 제국의회에 제출된 도시다. 주교 궁전 건물 관련 역사 기록은 있어도 도시 중심 핀이 실제 문서 낭독 방의 위치를 뜻하지는 않는다. 이듬해 공인 인쇄본은 비텐베르크와 연결된다.",
+      "source_ids": [
+        "SRC-V214-AUGSBURG"
+      ],
+      "site_building_or_room_verified": false,
+      "historian_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "PLACE-V214-BASEL",
+      "name": "Basel",
+      "display_ko": "바젤",
+      "modern_country": "Switzerland",
+      "lat": 47.56,
+      "lon": 7.589,
+      "coordinate_precision": "MODERN_CITY_CENTROID_APPROXIMATE",
+      "place_essay_ko": "칼뱅의 『기독교강요』 1536년 라틴어 초판이 나온 인쇄 도시다. 프랑수아 1세에게 보내는 헌사 작성일이나 칼뱅이 머문 정확한 인쇄소 주소를 이 도시 좌표로 자동 확정하지 않는다.",
+      "source_ids": [
+        "SRC-V214-BASEL"
+      ],
+      "site_building_or_room_verified": false,
+      "historian_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "PLACE-V214-STRASBOURG",
+      "name": "Strasbourg",
+      "display_ko": "스트라스부르",
+      "modern_country": "France",
+      "lat": 48.583,
+      "lon": 7.752,
+      "coordinate_precision": "MODERN_CITY_CENTROID_APPROXIMATE",
+      "place_essay_ko": "1539년 칼뱅 『기독교강요』 확대판의 인쇄 도시다. 현대 소장 도서관의 주소나 비평판 인쇄사의 다른 도시를 이 사건의 실제 출판지로 대체해서는 안 된다.",
+      "source_ids": [
+        "SRC-V214-STRASBOURG"
+      ],
+      "site_building_or_room_verified": false,
+      "historian_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "PLACE-V214-GENEVA",
+      "name": "Genève",
+      "display_ko": "제네바",
+      "modern_country": "Switzerland",
+      "lat": 46.204,
+      "lon": 6.144,
+      "coordinate_precision": "MODERN_CITY_CENTROID_APPROXIMATE",
+      "place_essay_ko": "1559년 칼뱅 『기독교강요』 최종 라틴어판과 1560년 프랑스어판의 인쇄 도시다. 1560년 장 크레스팽 인쇄본의 현존 소장처는 투르로 확인되므로 제네바의 인쇄지와 프랑스 소장 기관을 별개 객체로 기록한다.",
+      "source_ids": [
+        "SRC-V214-GENEVA-1559",
+        "SRC-V214-GENEVA-1560"
+      ],
+      "site_building_or_room_verified": false,
+      "historian_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "PLACE-V214-TRENTO",
+      "name": "Trento",
+      "display_ko": "트렌토",
+      "modern_country": "Italy",
+      "lat": 46.067,
+      "lon": 11.122,
+      "coordinate_precision": "MODERN_CITY_CENTROID_APPROXIMATE",
+      "place_essay_ko": "1545년 공의회 개회, 1547년 제6회기 의롭다 함 교령, 1563년 제23회기 신학교 규정의 도시다. 도시 중심부를 세 회의의 특정 좌석 위치로 제시하지 않으며, 각 교구의 규정 시행 장소와 분리한다.",
+      "source_ids": [
+        "SRC-V214-TRENT"
+      ],
+      "site_building_or_room_verified": false,
+      "historian_approved": false,
+      "can_publish": false
+    }
+  ],
+  "persons": [
+    {
+      "id": "PERSON-V214-HUS",
+      "name": "Jan Hus",
+      "display_ko": "얀 후스",
+      "kind": "HISTORICAL_PERSON",
+      "unreviewed_biographical_details_omitted": true,
+      "expert_approved": false
+    },
+    {
+      "id": "PERSON-V214-LUTHER",
+      "name": "Martin Luther",
+      "display_ko": "마르틴 루터",
+      "kind": "HISTORICAL_PERSON",
+      "unreviewed_biographical_details_omitted": true,
+      "expert_approved": false
+    },
+    {
+      "id": "PERSON-V214-ZWINGLI",
+      "name": "Huldrych Zwingli",
+      "display_ko": "훌드리히 츠빙글리",
+      "kind": "HISTORICAL_PERSON",
+      "unreviewed_biographical_details_omitted": true,
+      "expert_approved": false
+    },
+    {
+      "id": "PERSON-V214-MANZ",
+      "name": "Felix Manz",
+      "display_ko": "펠릭스 만츠",
+      "kind": "HISTORICAL_PERSON",
+      "unreviewed_biographical_details_omitted": true,
+      "expert_approved": false
+    },
+    {
+      "id": "PERSON-V214-MELANCHTHON",
+      "name": "Philipp Melanchthon",
+      "display_ko": "필리프 멜란히톤",
+      "kind": "HISTORICAL_PERSON",
+      "unreviewed_biographical_details_omitted": true,
+      "expert_approved": false
+    },
+    {
+      "id": "PERSON-V214-RHAU",
+      "name": "Georg Rhau (Rhaw)",
+      "display_ko": "게오르크 라우",
+      "kind": "HISTORICAL_PERSON",
+      "unreviewed_biographical_details_omitted": true,
+      "expert_approved": false
+    },
+    {
+      "id": "PERSON-V214-CALVIN",
+      "name": "Jean Calvin",
+      "display_ko": "장 칼뱅",
+      "kind": "HISTORICAL_PERSON",
+      "unreviewed_biographical_details_omitted": true,
+      "expert_approved": false
+    },
+    {
+      "id": "PERSON-V214-CHARLES",
+      "name": "Emperor Charles V",
+      "display_ko": "카를 5세",
+      "kind": "HISTORICAL_PERSON",
+      "unreviewed_biographical_details_omitted": true,
+      "expert_approved": false
+    },
+    {
+      "id": "PERSON-V214-PHILIP",
+      "name": "Philip of Hesse",
+      "display_ko": "헤센 방백 필리프",
+      "kind": "HISTORICAL_PERSON",
+      "unreviewed_biographical_details_omitted": true,
+      "expert_approved": false
+    },
+    {
+      "id": "PERSON-V214-WYCLIFFE",
+      "name": "John Wyclif",
+      "display_ko": "존 위클리프",
+      "kind": "HISTORICAL_PERSON",
+      "unreviewed_biographical_details_omitted": true,
+      "expert_approved": false
+    }
+  ],
+  "document_objects": [
+    {
+      "id": "DOC-V214-HUS-1413",
+      "title_ko": "후스 『De ecclesia』 1413년",
+      "document_kind": "WORK_COMPOSITION",
+      "language": "LATIN",
+      "reader_key": "HUS",
+      "historical_print_or_manuscript_folio_collated": false,
+      "can_publish": false
+    },
+    {
+      "id": "DOC-V214-LUTHER1517",
+      "title_ko": "루터 95개 논제",
+      "document_kind": "ACADEMIC_DISPUTATION_TEXT",
+      "language": "LATIN",
+      "reader_key": "LUTHER1517",
+      "historical_print_or_manuscript_folio_collated": false,
+      "can_publish": false
+    },
+    {
+      "id": "DOC-V214-EDICT1521",
+      "title_ko": "1521 보름스 칙령",
+      "document_kind": "IMPERIAL_EDICT",
+      "language": "GERMAN_AND_LATIN_WITNESSES",
+      "reader_key": "LUTHER1521",
+      "historical_print_or_manuscript_folio_collated": false,
+      "can_publish": false
+    },
+    {
+      "id": "DOC-V214-MANZ1527",
+      "title_ko": "1527 만츠 익사형 판결",
+      "document_kind": "CITY_COURT_SENTENCE",
+      "language": "EARLY_MODERN_GERMAN",
+      "reader_key": "ZWINGLI",
+      "historical_print_or_manuscript_folio_collated": false,
+      "can_publish": false
+    },
+    {
+      "id": "DOC-V214-MARBURG1529",
+      "title_ko": "1529 마르부르크 합의문",
+      "document_kind": "AGREED_ARTICLES",
+      "language": "GERMAN",
+      "reader_key": "MARBURG",
+      "historical_print_or_manuscript_folio_collated": false,
+      "can_publish": false
+    },
+    {
+      "id": "DOC-V214-AUGSBURG1530",
+      "title_ko": "1530 아우크스부르크 제출 신앙고백",
+      "document_kind": "CONFESSIONAL_DIET_SUBMISSION",
+      "language": "GERMAN_AND_LATIN",
+      "reader_key": "AUGSBURG",
+      "historical_print_or_manuscript_folio_collated": false,
+      "can_publish": false
+    },
+    {
+      "id": "DOC-V214-AUGSBURG1531",
+      "title_ko": "1531 아우크스부르크 승인 인쇄판",
+      "document_kind": "APPROVED_PRINT",
+      "language": "LATIN_AND_GERMAN",
+      "reader_key": "AUGSBURG",
+      "historical_print_or_manuscript_folio_collated": false,
+      "can_publish": false
+    },
+    {
+      "id": "DOC-V214-CALVIN1536",
+      "title_ko": "1536 기독교강요 초판",
+      "document_kind": "LATIN_FIRST_EDITION",
+      "language": "LATIN",
+      "reader_key": "CALVIN1536",
+      "historical_print_or_manuscript_folio_collated": false,
+      "can_publish": false
+    },
+    {
+      "id": "DOC-V214-CALVIN1539",
+      "title_ko": "1539 기독교강요 확대판",
+      "document_kind": "LATIN_REVISED_EDITION",
+      "language": "LATIN",
+      "reader_key": "CALVIN1536",
+      "historical_print_or_manuscript_folio_collated": false,
+      "can_publish": false
+    },
+    {
+      "id": "DOC-V214-VARIATA1540",
+      "title_ko": "1540 Variata",
+      "document_kind": "REVISED_CONFESSION",
+      "language": "LATIN",
+      "reader_key": "AUGSBURG",
+      "historical_print_or_manuscript_folio_collated": false,
+      "can_publish": false
+    },
+    {
+      "id": "DOC-V214-TRENT1547",
+      "title_ko": "1547 트리엔트 칭의 교령",
+      "document_kind": "COUNCIL_DOCTRINAL_DECREE",
+      "language": "LATIN",
+      "reader_key": "TRENT",
+      "historical_print_or_manuscript_folio_collated": false,
+      "can_publish": false
+    },
+    {
+      "id": "DOC-V214-CALVIN1559",
+      "title_ko": "1559 기독교강요 최종 라틴어판",
+      "document_kind": "FINAL_LATIN_EDITION",
+      "language": "LATIN",
+      "reader_key": "CALVIN1559",
+      "historical_print_or_manuscript_folio_collated": false,
+      "can_publish": false
+    },
+    {
+      "id": "DOC-V214-CALVIN1560",
+      "title_ko": "1560 기독교강요 최종 프랑스어판",
+      "document_kind": "FINAL_FRENCH_EDITION",
+      "language": "FRENCH",
+      "reader_key": "CALVIN1559",
+      "historical_print_or_manuscript_folio_collated": false,
+      "can_publish": false
+    },
+    {
+      "id": "DOC-V214-TRENT1563",
+      "title_ko": "1563 트리엔트 신학교 규정",
+      "document_kind": "COUNCIL_DISCIPLINARY_DECREE",
+      "language": "LATIN",
+      "reader_key": "TRENT",
+      "historical_print_or_manuscript_folio_collated": false,
+      "can_publish": false
+    }
+  ],
+  "event_links": [
+    {
+      "id": "EVENT-GEO-V214-01",
+      "v212_event_id": "CHR-V212-01",
+      "history_date_start": "1413-01-01",
+      "history_date_end": "1413-12-31",
+      "date_precision": "YEAR",
+      "event_label_ko": "후스 『De ecclesia』 저술",
+      "reader_key": "HUS",
+      "historical_place_id": "PLACE-V214-KOZI",
+      "event_place_relation": "HISTORICAL_COMPOSITION_SITE",
+      "person_ids": [
+        "PERSON-V214-HUS"
+      ],
+      "document_ids": [
+        "DOC-V214-HUS-1413"
+      ],
+      "source_ids": [
+        "SRC-V212-HUS-MSS",
+        "SRC-V214-KOZI"
+      ],
+      "map_reference_precision": "REPORTED_HISTORIC_SITE_COORDINATE",
+      "exact_historic_event_spot_verified": false,
+      "document_current_holding_is_not_event_location": true,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "EVENT-GEO-V214-02",
+      "v212_event_id": "CHR-V212-02",
+      "history_date_start": "1415-07-06",
+      "history_date_end": "1415-07-06",
+      "date_precision": "DAY",
+      "event_label_ko": "후스 처형",
+      "reader_key": "HUS",
+      "historical_place_id": "PLACE-V214-KONSTANZ",
+      "event_place_relation": "EXECUTION_CITY",
+      "person_ids": [
+        "PERSON-V214-HUS"
+      ],
+      "document_ids": [],
+      "source_ids": [
+        "SRC-V212-HUS",
+        "SRC-V214-HUS-CONST"
+      ],
+      "map_reference_precision": "APPROXIMATE_CITY_CENTROID_NOT_HISTORIC_ROOM",
+      "exact_historic_event_spot_verified": false,
+      "document_current_holding_is_not_event_location": true,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "EVENT-GEO-V214-03",
+      "v212_event_id": "CHR-V212-03",
+      "history_date_start": "1517-10-31",
+      "history_date_end": "1517-10-31",
+      "date_precision": "DAY",
+      "event_label_ko": "루터 95개 논제 문헌일",
+      "reader_key": "LUTHER1517",
+      "historical_place_id": "PLACE-V214-WITTENBERG",
+      "event_place_relation": "ACADEMIC_DOCUMENT_CITY_NOT_PROVEN_POSTING_SITE",
+      "person_ids": [
+        "PERSON-V214-LUTHER"
+      ],
+      "document_ids": [
+        "DOC-V214-LUTHER1517"
+      ],
+      "source_ids": [
+        "SRC-V212-1517",
+        "SRC-V214-WITT"
+      ],
+      "map_reference_precision": "APPROXIMATE_CITY_CENTROID_NOT_HISTORIC_ROOM",
+      "exact_historic_event_spot_verified": false,
+      "document_current_holding_is_not_event_location": true,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "EVENT-GEO-V214-04",
+      "v212_event_id": "CHR-V212-04",
+      "history_date_start": "1521-05-08",
+      "history_date_end": "1521-05-08",
+      "date_precision": "DAY",
+      "event_label_ko": "보름스 칙령 문안 시점",
+      "reader_key": "LUTHER1521",
+      "historical_place_id": "PLACE-V214-WORMS",
+      "event_place_relation": "EDICT_PREPARATION_CITY",
+      "person_ids": [
+        "PERSON-V214-LUTHER",
+        "PERSON-V214-CHARLES"
+      ],
+      "document_ids": [
+        "DOC-V214-EDICT1521"
+      ],
+      "source_ids": [
+        "SRC-V212-WORMS",
+        "SRC-V214-WORMS"
+      ],
+      "map_reference_precision": "APPROXIMATE_CITY_CENTROID_NOT_HISTORIC_ROOM",
+      "exact_historic_event_spot_verified": false,
+      "document_current_holding_is_not_event_location": true,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "EVENT-GEO-V214-05",
+      "v212_event_id": "CHR-V212-05",
+      "history_date_start": "1521-05-26",
+      "history_date_end": "1521-05-26",
+      "date_precision": "DAY",
+      "event_label_ko": "보름스 칙령 서명·공표",
+      "reader_key": "LUTHER1521",
+      "historical_place_id": "PLACE-V214-WORMS",
+      "event_place_relation": "EDICT_ISSUANCE_CITY",
+      "person_ids": [
+        "PERSON-V214-CHARLES"
+      ],
+      "document_ids": [
+        "DOC-V214-EDICT1521"
+      ],
+      "source_ids": [
+        "SRC-V212-WORMS",
+        "SRC-V214-WORMS"
+      ],
+      "map_reference_precision": "APPROXIMATE_CITY_CENTROID_NOT_HISTORIC_ROOM",
+      "exact_historic_event_spot_verified": false,
+      "document_current_holding_is_not_event_location": true,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "EVENT-GEO-V214-06",
+      "v212_event_id": "CHR-V212-06",
+      "history_date_start": "1523-01-29",
+      "history_date_end": "1523-01-29",
+      "date_precision": "DAY",
+      "event_label_ko": "취리히 첫 논쟁",
+      "reader_key": "ZWINGLI",
+      "historical_place_id": "PLACE-V214-ZURICH",
+      "event_place_relation": "CIVIC_DISPUTATION_CITY",
+      "person_ids": [
+        "PERSON-V214-ZWINGLI"
+      ],
+      "document_ids": [],
+      "source_ids": [
+        "SRC-V212-ZURICH",
+        "SRC-V214-ZURICH"
+      ],
+      "map_reference_precision": "APPROXIMATE_CITY_CENTROID_NOT_HISTORIC_ROOM",
+      "exact_historic_event_spot_verified": false,
+      "document_current_holding_is_not_event_location": true,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "EVENT-GEO-V214-07",
+      "v212_event_id": "CHR-V212-07",
+      "history_date_start": "1523-10-01",
+      "history_date_end": "1523-10-31",
+      "date_precision": "MONTH",
+      "event_label_ko": "취리히 두 번째 논쟁",
+      "reader_key": "ZWINGLI",
+      "historical_place_id": "PLACE-V214-ZURICH",
+      "event_place_relation": "CIVIC_DISPUTATION_CITY",
+      "person_ids": [
+        "PERSON-V214-ZWINGLI"
+      ],
+      "document_ids": [],
+      "source_ids": [
+        "SRC-V212-ZURICH",
+        "SRC-V214-ZURICH"
+      ],
+      "map_reference_precision": "APPROXIMATE_CITY_CENTROID_NOT_HISTORIC_ROOM",
+      "exact_historic_event_spot_verified": false,
+      "document_current_holding_is_not_event_location": true,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "EVENT-GEO-V214-08",
+      "v212_event_id": "CHR-V212-08",
+      "history_date_start": "1527-01-05",
+      "history_date_end": "1527-01-05",
+      "date_precision": "DAY",
+      "event_label_ko": "펠릭스 만츠 처형",
+      "reader_key": "ZWINGLI",
+      "historical_place_id": "PLACE-V214-ZURICH",
+      "event_place_relation": "EXECUTION_CITY_NOT_EXACT_SPOT",
+      "person_ids": [
+        "PERSON-V214-MANZ"
+      ],
+      "document_ids": [
+        "DOC-V214-MANZ1527"
+      ],
+      "source_ids": [
+        "SRC-V212-ZURICH",
+        "SRC-V214-MANZ-CATALOG"
+      ],
+      "map_reference_precision": "APPROXIMATE_CITY_CENTROID_NOT_HISTORIC_ROOM",
+      "exact_historic_event_spot_verified": false,
+      "document_current_holding_is_not_event_location": true,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "EVENT-GEO-V214-09",
+      "v212_event_id": "CHR-V212-09",
+      "history_date_start": "1529-10-03",
+      "history_date_end": "1529-10-03",
+      "date_precision": "DAY",
+      "event_label_ko": "마르부르크 조항",
+      "reader_key": "MARBURG",
+      "historical_place_id": "PLACE-V214-MARBURG",
+      "event_place_relation": "COLLOQUY_ARTICLE_CITY",
+      "person_ids": [
+        "PERSON-V214-LUTHER",
+        "PERSON-V214-ZWINGLI",
+        "PERSON-V214-PHILIP"
+      ],
+      "document_ids": [
+        "DOC-V214-MARBURG1529"
+      ],
+      "source_ids": [
+        "SRC-V212-MARBURG",
+        "SRC-V214-MARBURG"
+      ],
+      "map_reference_precision": "APPROXIMATE_CITY_CENTROID_NOT_HISTORIC_ROOM",
+      "exact_historic_event_spot_verified": false,
+      "document_current_holding_is_not_event_location": true,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "EVENT-GEO-V214-10",
+      "v212_event_id": "CHR-V212-10",
+      "history_date_start": "1530-06-25",
+      "history_date_end": "1530-06-25",
+      "date_precision": "DAY",
+      "event_label_ko": "아우크스부르크 신앙고백 제출",
+      "reader_key": "AUGSBURG",
+      "historical_place_id": "PLACE-V214-AUGSBURG",
+      "event_place_relation": "CONFESSION_PRESENTATION_CITY",
+      "person_ids": [
+        "PERSON-V214-MELANCHTHON",
+        "PERSON-V214-CHARLES"
+      ],
+      "document_ids": [
+        "DOC-V214-AUGSBURG1530"
+      ],
+      "source_ids": [
+        "SRC-V212-AUGSBURG",
+        "SRC-V214-AUGSBURG"
+      ],
+      "map_reference_precision": "APPROXIMATE_CITY_CENTROID_NOT_HISTORIC_ROOM",
+      "exact_historic_event_spot_verified": false,
+      "document_current_holding_is_not_event_location": true,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "EVENT-GEO-V214-11",
+      "v212_event_id": "CHR-V212-11",
+      "history_date_start": "1531-01-01",
+      "history_date_end": "1531-12-31",
+      "date_precision": "YEAR",
+      "event_label_ko": "라우 승인 인쇄본",
+      "reader_key": "AUGSBURG",
+      "historical_place_id": "PLACE-V214-WITTENBERG",
+      "event_place_relation": "APPROVED_BOOK_PRINTING_CITY",
+      "person_ids": [
+        "PERSON-V214-MELANCHTHON",
+        "PERSON-V214-RHAU"
+      ],
+      "document_ids": [
+        "DOC-V214-AUGSBURG1531"
+      ],
+      "source_ids": [
+        "SRC-V212-AUGSBURG",
+        "SRC-V214-AUGSBURG"
+      ],
+      "map_reference_precision": "APPROXIMATE_CITY_CENTROID_NOT_HISTORIC_ROOM",
+      "exact_historic_event_spot_verified": false,
+      "document_current_holding_is_not_event_location": true,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "EVENT-GEO-V214-12",
+      "v212_event_id": "CHR-V212-12",
+      "history_date_start": "1536-01-01",
+      "history_date_end": "1536-12-31",
+      "date_precision": "YEAR",
+      "event_label_ko": "기독교강요 라틴어 초판",
+      "reader_key": "CALVIN1536",
+      "historical_place_id": "PLACE-V214-BASEL",
+      "event_place_relation": "BOOK_PRINTING_CITY",
+      "person_ids": [
+        "PERSON-V214-CALVIN"
+      ],
+      "document_ids": [
+        "DOC-V214-CALVIN1536"
+      ],
+      "source_ids": [
+        "SRC-V212-CALVIN",
+        "SRC-V214-BASEL"
+      ],
+      "map_reference_precision": "APPROXIMATE_CITY_CENTROID_NOT_HISTORIC_ROOM",
+      "exact_historic_event_spot_verified": false,
+      "document_current_holding_is_not_event_location": true,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "EVENT-GEO-V214-13",
+      "v212_event_id": "CHR-V212-13",
+      "history_date_start": "1539-01-01",
+      "history_date_end": "1539-12-31",
+      "date_precision": "YEAR",
+      "event_label_ko": "기독교강요 중간 확대판",
+      "reader_key": "CALVIN1536",
+      "historical_place_id": "PLACE-V214-STRASBOURG",
+      "event_place_relation": "BOOK_PRINTING_CITY",
+      "person_ids": [
+        "PERSON-V214-CALVIN"
+      ],
+      "document_ids": [
+        "DOC-V214-CALVIN1539"
+      ],
+      "source_ids": [
+        "SRC-V212-CALVIN",
+        "SRC-V214-STRASBOURG"
+      ],
+      "map_reference_precision": "APPROXIMATE_CITY_CENTROID_NOT_HISTORIC_ROOM",
+      "exact_historic_event_spot_verified": false,
+      "document_current_holding_is_not_event_location": true,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "EVENT-GEO-V214-14",
+      "v212_event_id": "CHR-V212-14",
+      "history_date_start": "1540-01-01",
+      "history_date_end": "1540-12-31",
+      "date_precision": "YEAR",
+      "event_label_ko": "Variata 수정판",
+      "reader_key": "AUGSBURG",
+      "historical_place_id": "PLACE-V214-WITTENBERG",
+      "event_place_relation": "REVISED_BOOK_PRINTING_CITY",
+      "person_ids": [
+        "PERSON-V214-MELANCHTHON"
+      ],
+      "document_ids": [
+        "DOC-V214-VARIATA1540"
+      ],
+      "source_ids": [
+        "SRC-V212-VARIATA",
+        "SRC-V214-AUGSBURG"
+      ],
+      "map_reference_precision": "APPROXIMATE_CITY_CENTROID_NOT_HISTORIC_ROOM",
+      "exact_historic_event_spot_verified": false,
+      "document_current_holding_is_not_event_location": true,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "EVENT-GEO-V214-15",
+      "v212_event_id": "CHR-V212-15",
+      "history_date_start": "1545-12-13",
+      "history_date_end": "1545-12-13",
+      "date_precision": "DAY",
+      "event_label_ko": "트리엔트 개회",
+      "reader_key": "TRENT",
+      "historical_place_id": "PLACE-V214-TRENTO",
+      "event_place_relation": "COUNCIL_OPENING_CITY",
+      "person_ids": [],
+      "document_ids": [],
+      "source_ids": [
+        "SRC-V212-TRENT",
+        "SRC-V214-TRENT"
+      ],
+      "map_reference_precision": "APPROXIMATE_CITY_CENTROID_NOT_HISTORIC_ROOM",
+      "exact_historic_event_spot_verified": false,
+      "document_current_holding_is_not_event_location": true,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "EVENT-GEO-V214-16",
+      "v212_event_id": "CHR-V212-16",
+      "history_date_start": "1547-01-13",
+      "history_date_end": "1547-01-13",
+      "date_precision": "DAY",
+      "event_label_ko": "제6회기 의롭다 함 교령",
+      "reader_key": "TRENT",
+      "historical_place_id": "PLACE-V214-TRENTO",
+      "event_place_relation": "COUNCIL_DOCTRINAL_DECREE_CITY",
+      "person_ids": [],
+      "document_ids": [
+        "DOC-V214-TRENT1547"
+      ],
+      "source_ids": [
+        "SRC-V212-TRENT-DEC",
+        "SRC-V214-TRENT"
+      ],
+      "map_reference_precision": "APPROXIMATE_CITY_CENTROID_NOT_HISTORIC_ROOM",
+      "exact_historic_event_spot_verified": false,
+      "document_current_holding_is_not_event_location": true,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "EVENT-GEO-V214-17",
+      "v212_event_id": "CHR-V212-17",
+      "history_date_start": "1559-01-01",
+      "history_date_end": "1559-12-31",
+      "date_precision": "YEAR",
+      "event_label_ko": "기독교강요 최종 라틴어판",
+      "reader_key": "CALVIN1559",
+      "historical_place_id": "PLACE-V214-GENEVA",
+      "event_place_relation": "LATIN_BOOK_PRINTING_CITY",
+      "person_ids": [
+        "PERSON-V214-CALVIN"
+      ],
+      "document_ids": [
+        "DOC-V214-CALVIN1559"
+      ],
+      "source_ids": [
+        "SRC-V212-CALVIN",
+        "SRC-V214-GENEVA-1559"
+      ],
+      "map_reference_precision": "APPROXIMATE_CITY_CENTROID_NOT_HISTORIC_ROOM",
+      "exact_historic_event_spot_verified": false,
+      "document_current_holding_is_not_event_location": true,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "EVENT-GEO-V214-18",
+      "v212_event_id": "CHR-V212-18",
+      "history_date_start": "1560-01-01",
+      "history_date_end": "1560-12-31",
+      "date_precision": "YEAR",
+      "event_label_ko": "기독교강요 프랑스어판",
+      "reader_key": "CALVIN1559",
+      "historical_place_id": "PLACE-V214-GENEVA",
+      "event_place_relation": "FRENCH_BOOK_PRINTING_CITY",
+      "person_ids": [
+        "PERSON-V214-CALVIN"
+      ],
+      "document_ids": [
+        "DOC-V214-CALVIN1560"
+      ],
+      "source_ids": [
+        "SRC-V212-CALVIN",
+        "SRC-V214-GENEVA-1560"
+      ],
+      "map_reference_precision": "APPROXIMATE_CITY_CENTROID_NOT_HISTORIC_ROOM",
+      "exact_historic_event_spot_verified": false,
+      "document_current_holding_is_not_event_location": true,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "EVENT-GEO-V214-19",
+      "v212_event_id": "CHR-V212-19",
+      "history_date_start": "1563-07-15",
+      "history_date_end": "1563-07-15",
+      "date_precision": "DAY",
+      "event_label_ko": "제23회기 신학교 규정",
+      "reader_key": "TRENT",
+      "historical_place_id": "PLACE-V214-TRENTO",
+      "event_place_relation": "COUNCIL_DISCIPLINARY_DECREE_CITY",
+      "person_ids": [],
+      "document_ids": [
+        "DOC-V214-TRENT1563"
+      ],
+      "source_ids": [
+        "SRC-V212-TRENT-DEC",
+        "SRC-V214-TRENT"
+      ],
+      "map_reference_precision": "APPROXIMATE_CITY_CENTROID_NOT_HISTORIC_ROOM",
+      "exact_historic_event_spot_verified": false,
+      "document_current_holding_is_not_event_location": true,
+      "expert_approved": false,
+      "can_publish": false
+    }
+  ],
+  "witness_holdings_without_event_pins": [
+    {
+      "id": "HOLD-V214-HUS-PRAHA",
+      "title_ko": "프라하 국립도서관 후스 『De ecclesia』 필사본",
+      "current_city": "Prague",
+      "institution": "National Library of Czech Republic",
+      "shelfmark": "IV H 19 fols 1r–95r",
+      "not_event_location_note_ko": "1413 저술장소 코지 흐라데크 아님",
+      "catalogue_url": "https://digiscripta.phil.muni.cz/cs/node/12908",
+      "has_event_map_pin": false,
+      "coordinates": null,
+      "historic_original_scan_checked": false,
+      "can_publish": false
+    },
+    {
+      "id": "HOLD-V214-WORMS-MUNICH",
+      "title_ko": "보름스 칙령 1521년 인쇄본",
+      "current_city": "Munich",
+      "institution": "Bayerische Staatsbibliothek",
+      "shelfmark": "Res/4 H.ref.287 (VD16 D 924)",
+      "not_event_location_note_ko": "보름스 1521 제국 정치 사건지와 구분",
+      "catalogue_url": "https://tueditions.ulb.tu-darmstadt.de/v/pa000008-0107",
+      "has_event_map_pin": false,
+      "coordinates": null,
+      "historic_original_scan_checked": false,
+      "can_publish": false
+    },
+    {
+      "id": "HOLD-V214-MANZ-ZURICH",
+      "title_ko": "만츠 익사형 판결문",
+      "current_city": "Zürich",
+      "institution": "Staatsarchiv Zürich",
+      "shelfmark": "B VI 251 fol 40r–41v",
+      "not_event_location_note_ko": "주립문서관은 판결문 소장기관이며 리마트강 처형지 아님",
+      "catalogue_url": "https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4301559",
+      "has_event_map_pin": false,
+      "coordinates": null,
+      "historic_original_scan_checked": false,
+      "can_publish": false
+    },
+    {
+      "id": "HOLD-V214-AUGSBURG-DALLAS",
+      "title_ko": "1531 게오르크 라우 승인 인쇄본",
+      "current_city": "Dallas",
+      "institution": "Bridwell Library",
+      "shelfmark": "BRA2651/A-B",
+      "not_event_location_note_ko": "비텐베르크 출판지·아우크스부르크 제출지 아님",
+      "catalogue_url": "https://bridwell.omeka.net/exhibits/show/luther/controversies/augsburgconfession",
+      "has_event_map_pin": false,
+      "coordinates": null,
+      "historic_original_scan_checked": false,
+      "can_publish": false
+    },
+    {
+      "id": "HOLD-V214-CALVIN1559-PRINCETON",
+      "title_ko": "1559 라틴어 기독교강요 인쇄본",
+      "current_city": "Princeton",
+      "institution": "Princeton Theological Seminary Library",
+      "shelfmark": "Digital collection record",
+      "not_event_location_note_ko": "제네바 인쇄지와 구분",
+      "catalogue_url": "https://commons.ptsem.edu/id/institutiochrist1559calv",
+      "has_event_map_pin": false,
+      "coordinates": null,
+      "historic_original_scan_checked": false,
+      "can_publish": false
+    },
+    {
+      "id": "HOLD-V214-CALVIN1560-TOURS",
+      "title_ko": "1560 프랑스어 기독교강요 인쇄본",
+      "current_city": "Tours",
+      "institution": "Centre d'Études Supérieures de la Renaissance",
+      "shelfmark": "SR DB 2/14770",
+      "not_event_location_note_ko": "제네바 장 크레스팽 인쇄지와 다른 현대 소장처",
+      "catalogue_url": "https://www.bvh.univ-tours.fr/Consult/index.asp?numfiche=498",
+      "has_event_map_pin": false,
+      "coordinates": null,
+      "historic_original_scan_checked": false,
+      "can_publish": false
+    }
+  ],
+  "source_reading_progress": [
+    {
+      "id": "DDE-WORMS-TRANSCRIPTION",
+      "source": "SRC-V212-WORMS",
+      "evidence_level": "SCHOLARLY_CRITICAL_EDITION_INTRODUCTION",
+      "primary_folio_image_read": false,
+      "original_language_critical_transcription_read": false,
+      "summary_ko": "1521년 5월 8일 문안 처리와 26일 공표의 차이를 비평판 해설에서 확인."
+    },
+    {
+      "id": "MANZ1527-GERMAN-EDITION",
+      "source": "SRC-V214-MANZ-TRANS",
+      "evidence_level": "ORIGINAL_LANGUAGE_SCHOLARLY_TRANSCRIPTION_READ",
+      "original_language_critical_transcription_read": true,
+      "primary_folio_image_read": false,
+      "location": "SSRQ ZH NF I/1/3 no.139, fol.40r onward",
+      "summary_ko": "원어 비평 전사본이 1527년 1월 5일 익사형 판결을 포함함. 기록의 원어 전사 읽기와 필사본 사진 직접 판독은 구분."
+    },
+    {
+      "id": "CALVIN1560-BOOK-CATALOGUE",
+      "source": "SRC-V214-GENEVA-1560",
+      "evidence_level": "PRINT_BIBLIOGRAPHIC_CATALOGUE",
+      "original_language_critical_transcription_read": false,
+      "primary_folio_image_read": false,
+      "location": "Tours CESR SR DB 2/14770; imprint Geneva Jean Crespin 1560",
+      "summary_ko": "인쇄지 제네바와 소장지 투르가 다름을 도서관 서지에서 확인."
+    }
+  ],
+  "pending_historical_geometry": [
+    {
+      "topic": "MANZ_RIVER",
+      "problem_ko": "리마트강 익사형의 실제 현장 좌표 미확정",
+      "map_policy": "Zürich city centre only"
+    },
+    {
+      "topic": "MARBURG_CASTLE",
+      "problem_ko": "1529년 회담 장소의 성 내부 지점 미검증",
+      "map_policy": "Marburg city centre only"
+    },
+    {
+      "topic": "AUGSBURG_PALACE",
+      "problem_ko": "1530 제국의회 문서 낭독실 좌표 미검증",
+      "map_policy": "Augsburg city centre only"
+    },
+    {
+      "topic": "KONSTANZ_MEMORIAL",
+      "problem_ko": "후대 기념비와 1415년 현장의 위치 차이",
+      "map_policy": "Konstanz city centre only"
+    },
+    {
+      "topic": "WITTENBERG_DOOR",
+      "problem_ko": "95개 논제 성문 게시 역사 전승 논쟁",
+      "map_policy": "Wittenberg city centre only"
+    },
+    {
+      "topic": "COPY_HOLDINGS",
+      "problem_ko": "프라하·뮌헨·댈러스·프린스턴·투르의 소장처와 인쇄/사건 장소 분리",
+      "map_policy": "Holdings separate tab and NO event pin"
+    }
+  ]
+}
