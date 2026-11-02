@@ -40,7 +40,7 @@ rule_signals=[
  ("HISTORICAL_NARRATIVE_OR_CONTEXT",r".*")
 ]
 assert [r["category"] for r in x["category_precedence"]]==[z[0] for z in rule_signals]
-assert [r["js_regex"] for r in x["category_precedence"]]==[z[1] for z in rule_signals]
+assert [r["js_regex"].removeprefix("(?:").removesuffix(")") for r in x["category_precedence"]]==[z[1] for z in rule_signals]
 def classify(t):
     return next(label for label,regex in rule_signals if re.search(regex,t))
 corrected=x["sentences"]
