@@ -1,0 +1,315 @@
+{
+  "version": "2.36",
+  "kind": "JONAS_1529_10_04_TWO_SEVENTEENTH_CENTURY_COPIES_1692_PRINT_1834_COLUMN_AND_PRAISE_OPPONENT_LATIN",
+  "parent_commit": "71fc367b927a5c387e4103da642df3c04eb4f0c5",
+  "baseline": "data/deep/atlas_v235_osiander_jonas_julian_weekday_eyewitness_comparison.json",
+  "publication_gate": {
+    "ship": false,
+    "jonas_1529_autograph_acquired": false,
+    "gotha_17c_copy_images_read": false,
+    "seckendorff_1692_pages_read": false,
+    "cr1834_columns_directly_proofread": false,
+    "mbw826_wlb_autograph_read": false,
+    "k_z_articles_directly_collated": false,
+    "expert_review": false,
+    "webapp_integrated": false
+  },
+  "sources": [
+    {
+      "id": "A453",
+      "type": "ARCHIVAL_CATALOGUE_OF_17C_LETTER_COPY",
+      "url": "https://kalliope-verbund.info/de/ead?ead.id=DE-611-HS-4254430",
+      "access": "DIRECT_ARCHIVAL_HTML",
+      "description": "Gotha Chart A453 f24v–25v, 3 Latin pages, Seckendorff collection, 17th-century Abschrift of Jonas letter, rubric 'Lunae post Michaelis'; red pencil deletion, Seckendorff's date annotations; cites 1692 edition II.17.47 additio pp139f",
+      "original_image_read": false
+    },
+    {
+      "id": "B28",
+      "type": "ARCHIVAL_CATALOGUE_OF_OTHER_LETTER_COPY",
+      "url": "https://kalliope.staatsbibliothek-berlin.de/ead?ead.id=DE-611-HS-3422547",
+      "access": "DIRECT_ARCHIVAL_HTML",
+      "description": "Gotha Chart B28 f41v–43r, three leaves, Conr. Meusel handwritten copy, Jonas to Reiffenstein, May1970 73–75 no13, catalogue heading adds Aquila while controlled addressee only Reiffenstein and Aquila relation undokumentiert",
+      "original_image_read": false
+    },
+    {
+      "id": "FUDGE1997",
+      "type": "1997_PEER_REVIEWED_HISTORICAL_SCHOLARSHIP",
+      "url": "https://downloads.whitehorsetc.com/Icarus_of_Basel_Oecolampadius_and_the_Ea.pdf",
+      "access": "DIRECT_PDF_TEXT_AND_PAGE0_SCREENSHOT_PROOFREAD",
+      "description": "Thomas A Fudge, Icarus of Basel, Journal of Religious History 21/3 (Oct 1997), printed p268 note3, quotes Jonas letter 'in Oecolampadio mira bonitas naturae et clementia' referencing CR I col1097",
+      "original_image_read": false
+    },
+    {
+      "id": "SCHAFF19C",
+      "type": "PUBLIC_DOMAIN_HISTORICAL_NARRATIVE",
+      "url": "https://www.ccel.org/ccel/s/schaff/hcc7/cache/hcc7.pdf",
+      "access": "PDF_TEXT_SEARCH_RESULT_NOT_ORIGINAL_1834_IMAGE",
+      "description": "Philip Schaff volVII translated Jonas descriptive judgments of Zwingli, Oecolampadius, Hedio and Bucer with reference to CR1 1097; interpret as 19c selection and rhetoric",
+      "original_image_read": false
+    },
+    {
+      "id": "WESTERWEG2024",
+      "type": "2024_SCHOLARLY_COMPARATIVE_HISTORY",
+      "url": "https://www.vhghessen.de/inhalt/zhg/ZHG_129/Westerweg_Theologen_ZHG_129_2024.pdf",
+      "access": "PDF_EXTRACTED_TEXT_PREVIOUS_VERSION_NO_PAGE_IMAGE",
+      "description": "Matthias Westerweg 2024 ZHG129 p15 cites Jonas same-day 'Hodie, die lunae [4. Oktober]' and princely attempts at agreement",
+      "original_image_read": false
+    },
+    {
+      "id": "SECKENDORFF1692",
+      "type": "1692_CONTEMPORARY_EARLY_MODERN_PRINT_REFERENCED_BY_ARCHIVE",
+      "url": "https://www.europeana.eu/en/item/9200235/BibliographicResource_3000124929555",
+      "access": "BIBLIOGRAPHIC_LEAD_NOT_TEXT_READ",
+      "description": "Seckendorff Commentarius historicus et apologeticus de Lutheranismo, 1692, Book II section17 §47 Additio printed pp139f according to A453 official catalogue. No page photo/text directly read",
+      "original_image_read": false
+    },
+    {
+      "id": "CR1834",
+      "type": "1834_EDITORIAL_PRINT_DIGITAL_BOOK_BIBLIOGRAPHY",
+      "url": "https://commons.ptsem.edu/id/philippimelantho01mela",
+      "access": "BOOK_METADATA_ONLY",
+      "description": "Bretschneider CR vol I (1834). Jonas letter col1097 No634 (source Westerweg and Fudge); Melanchthon MBW826 col1106f No639 in same volume; target original columns not visually seen",
+      "original_image_read": false
+    },
+    {
+      "id": "GOOGLECR1834",
+      "type": "1834_DIFFERENT_INSTITUTIONAL_BOOK_SCAN_CATALOGUE",
+      "url": "https://books.google.com/books?id=3rgWAAAAQAAJ",
+      "access": "GOOGLE_BOOKS_METADATA_NOT_TARGET_PAGE_VIEW",
+      "description": "Lausanne copy, 2008 digitization, displayed 1120 numbered units; direct target PA1097/PA1106 view inaccessible; do not claim column/page screenshot",
+      "original_image_read": false
+    },
+    {
+      "id": "MBW826",
+      "type": "OFFICIAL_CRITICAL_REGEST",
+      "url": "https://melanchthon.hadw-bw.de/regest.html?reg_nr=826",
+      "access": "DIRECT_ACADEMY_HTML",
+      "description": "MBW826 to Butzbach, Alber, Reiser on 4/5 Oct, edited CR1 1106f No639, post-4 Oct signed articles, more critical tone on Zwingli",
+      "original_image_read": false
+    },
+    {
+      "id": "GHDI-OSIANDER",
+      "type": "1529_EYEWITNESS_REPORT_EDITED_1910",
+      "url": "https://germanhistorydocs.org/de/von-den-reformationen-bis-zum-dreissigjaehrigen-krieg-1500-1648/die-marburger-religionsgespraeche-bericht-eines-lutherischen-augenzeugen-1529",
+      "access": "DIRECT_EDITORIAL_HTML",
+      "description": "Osiander records Monday without numeral; 1529 Julian Oct4 Monday established V235",
+      "original_image_read": false
+    },
+    {
+      "id": "HADW-T3",
+      "type": "OFFICIAL_CRITICAL_TEXT_EDITION_DESCRIPTION",
+      "url": "https://www.hadw-bw.de/en/mbw",
+      "access": "DIRECT_PUBLISHER_HTML",
+      "description": "Melanchthon critical texts T3 edited Richard Wetzel (2000), text nos 521–858; modern edition not directly read",
+      "original_image_read": false
+    }
+  ],
+  "witness_objects": [
+    {
+      "id": "COPY-A453",
+      "source_id": "A453",
+      "creator": "Justus Jonas",
+      "addressee_confirmed": "Wilhelm Reiffenstein",
+      "material": "seventeenth-century Latin copy",
+      "holding": "Forschungsbibliothek Gotha",
+      "shelfmark": "Chart. A 453, Bl. 24v–25v",
+      "physical_pages": 3,
+      "copyist": "unknown",
+      "copy_century": 17,
+      "dated_formula_in_catalogue": "Lunae post Michaelis",
+      "document_year_inferred": true,
+      "red_pencil_marks": "Seckendorff red markings noted",
+      "is_contemporary_original": false,
+      "image_read": false
+    },
+    {
+      "id": "COPY-B28",
+      "source_id": "B28",
+      "creator": "Justus Jonas",
+      "addressee_confirmed": "Wilhelm Reiffenstein",
+      "material": "later copy written by Konrad Meusel",
+      "holding": "Forschungsbibliothek Gotha",
+      "shelfmark": "Chart. B 28, Bl. 41v–43r",
+      "physical_leaves": 3,
+      "copyist": "Konrad Meusel",
+      "copy_century": null,
+      "date": "1529-10-04 refers to letter, not copy",
+      "aquila_title_mentioned": true,
+      "aquila_controlled_role": "Bezug [nicht dokumentiert]",
+      "is_contemporary_original": false,
+      "image_read": false
+    },
+    {
+      "id": "PRINT-1692",
+      "source_id": "SECKENDORFF1692",
+      "creator": "Veit Ludwig von Seckendorff (editor)",
+      "material": "early modern Latin printed historical edition",
+      "book": "Commentarius historicus et apologeticus de Lutheranismo",
+      "reference": "Lib. II, Sect. 17, § XLVII, Additio, S. 139f",
+      "date": "1692",
+      "image_read": false
+    },
+    {
+      "id": "PRINT-1834-JONAS",
+      "source_id": "CR1834",
+      "creator": "C. G. Bretschneider (editor)",
+      "material": "nineteenth-century edition of Jonas 1529 letter",
+      "date": "1834",
+      "reference": "CR I col. 1097, Nr. 634",
+      "image_read": false
+    },
+    {
+      "id": "PRINT-1834-MEL",
+      "source_id": "CR1834",
+      "creator": "C. G. Bretschneider (editor)",
+      "material": "nineteenth-century edition of Melanchthon MBW826",
+      "date": "1834",
+      "reference": "CR I col. 1106f, Nr. 639",
+      "image_read": false
+    }
+  ],
+  "latin_anchors": [
+    {
+      "id": "JONAS-OCOL",
+      "quote": "in Oecolampadio mira bonitas naturae et clementia",
+      "source_id": "FUDGE1997",
+      "source_level": "1997_QUOTE_REFERENCES_1834_NOT_DIRECT_1529",
+      "literal_ko": "외콜람파디우스에게는 놀라운 성품의 선함과 온유함이 있다",
+      "words": 7,
+      "original_manuscript_spelling_confirmed": false
+    },
+    {
+      "id": "JONAS-DATE",
+      "quote": "Lunae post Michaelis",
+      "source_id": "A453",
+      "source_level": "17C_CATALOGUE_LETTER_DATELINE",
+      "literal_ko": "미카엘 축일 다음 월요일",
+      "words": 3,
+      "original_manuscript_spelling_confirmed": false
+    },
+    {
+      "id": "JONAS-MONDAY",
+      "quote": "Hodie, die lunae",
+      "source_id": "WESTERWEG2024",
+      "source_level": "2024_SECONDARY_QUOTE_OF_EARLY_LETTER",
+      "literal_ko": "오늘은 월요일",
+      "words": 3,
+      "original_manuscript_spelling_confirmed": false
+    }
+  ],
+  "interpretive_checks": [
+    {
+      "id": "PERSONALRESPECT",
+      "result_ko": "1529-10-04 Jonas evaluated Oecolampadius positively while declining Eucharistic agreement; this prevents one-dimensional hostility caricature.",
+      "support_ids": [
+        "FUDGE1997",
+        "WESTERWEG2024"
+      ],
+      "status": "SUPPORTED_AS_1997_QUOTE_OF_CR"
+    },
+    {
+      "id": "LATIN-DATE",
+      "result_ko": "A453 has 'Lunae post Michaelis' (Monday following feast 29 Sep), cross validates Julian Oct4 from Jonas Monday and Osiander Monday.",
+      "support_ids": [
+        "A453",
+        "WESTERWEG2024",
+        "GHDI-OSIANDER"
+      ],
+      "status": "HIGH_CONFIDENCE_INTER_TEXT_DATE_CORROBORATION"
+    },
+    {
+      "id": "TWO-COPIES",
+      "result_ko": "A453 and B28 physical copies are different seventeenth-century archival objects, not necessarily textually independent or directly copied from each other.",
+      "support_ids": [
+        "A453",
+        "B28"
+      ],
+      "status": "PHYSICAL_DISTINCTION_CERTAIN_GENEALOGY_UNKNOWN"
+    },
+    {
+      "id": "AQUILA",
+      "result_ko": "B28 record heading includes Caspar Aquila, but controlled metadata labels Aquila Bezug [nicht dokumentiert]; treat Reiffenstein as identified addressee and Aquila as unresolved reference.",
+      "support_ids": [
+        "B28"
+      ],
+      "status": "CATALOGUE_INTERNAL_DISCREPANCY"
+    },
+    {
+      "id": "CR-PAGINATION",
+      "result_ko": "CR I col.1097 for Jonas and col.1106f for Melanchthon are column locators, not safely ordinary print page numbers and especially not digitized PDF page indices.",
+      "support_ids": [
+        "FUDGE1997",
+        "WESTERWEG2024",
+        "MBW826",
+        "CR1834"
+      ],
+      "status": "COLUMN_LOCATORS_SCHOLARLY_CITATION"
+    },
+    {
+      "id": "PERSPECTIVES",
+      "result_ko": "Jonas's praise of Oecolampadius is selective interpersonal evaluation; his wider evaluation of Zwingli and Bucer reported by 19c Schaff should be attributed to Jonas via edited tradition and not universal contemporaneous consensus.",
+      "support_ids": [
+        "FUDGE1997",
+        "SCHAFF19C"
+      ],
+      "status": "INTERPRETIVE_BALANCE"
+    }
+  ],
+  "reader_draft": {
+    "title_ko": "한 회담, 두 편지, 두 사본: 마르부르크의 마지막 월요일",
+    "chapters": [
+      {
+        "id": 1,
+        "title": "일요일이 지나서도 끝나지 않은 토론",
+        "body": "1529년 10월 4일 월요일에도 마르부르크에서 서로 다른 성찬 이해를 좁히는 대화가 이어졌다. 공동 조항 작성과 신학적 갈등은 서로를 완전히 지우지 않았다."
+      },
+      {
+        "id": 2,
+        "title": "요나스의 두 가지 눈: 의견 차이와 상대의 선량함",
+        "body": "요나스는 한쪽 교리 입장을 지지하면서도 외콜람파디우스의 성품을 높게 평가했다. 교리적 반대가 개인적 악의나 적대와 동일했다는 가정은 편지 기록으로 수정해야 한다."
+      },
+      {
+        "id": 3,
+        "title": "같은 문서가 서로 다른 두 보관철에서 발견되다",
+        "body": "고타에 남은 A453은 17세기 필사본이고 B28은 콘라트 모이젤의 자필 복사본이다. 동일 편지의 후대 보존 경로는 두 종류지만 독립 증언 두 개로 계산할 수는 없다."
+      },
+      {
+        "id": 4,
+        "title": "‘미카엘 축일 다음 월요일’이라는 날짜",
+        "body": "기록의 날짜가 숫자로만 전해지는 것은 아니다. 기념일 이후 첫 월요일이라는 상대적 시간 표현은 당대의 종교 달력, 율리우스력, 후대 편집 날짜를 교차 검증하게 해준다."
+      },
+      {
+        "id": 5,
+        "title": "원본 편지와 1692년·1834년 인쇄본 사이",
+        "body": "1529년의 말은 17세기 역사서와 1834년 편집판, 1997년 연구를 거쳐 오늘 독자에게 도달했다. 원문 한 구절을 인용할 때마다 어떤 손과 인쇄 단계를 통과했는지 밝혀야 한다."
+      }
+    ]
+  },
+  "open_issues": [
+    "Find actual A453 24v–25v 17th-century hand images and transcribe rubric and corrections",
+    "Find actual B28 41v–43r Meusel copy and compare text variants with A453; do not presume same Vorlage",
+    "Read 1692 Seckendorff II.17.47 Additio printed pp139f original scan to establish exact excerpt",
+    "Read 1834 CR I col1097 Jonas no634 and col1106f Melanchthon no639 as physical printed columns (PDF image indices TBD)",
+    "Find original 1529 Jonas autograph if extant, and original WLB 826 letter 36r/v",
+    "Resolve Aquila recipient metadata discrepancy with Gotha staff / editorial letter salutation",
+    "Compare Jonas praise, mediation assessment, and Melanchthon letter theological evaluation with date/context",
+    "Original K/Z Article7/13/15 folio collation remains independent task"
+  ],
+  "metrics": {
+    "source_records": 11,
+    "archival_jonas_copy_objects_newly_added": 1,
+    "archival_jonas_copy_objects_total": 2,
+    "source_witness_or_edition_objects": 5,
+    "indirect_latin_anchors": 3,
+    "brief_quotes_total_words": 13,
+    "interpretive_checks": 6,
+    "reader_chapters": 5,
+    "unresolved": 8,
+    "direct_original_1529_letter_pages_read": 0,
+    "original_17c_letter_copy_images_read": 0,
+    "direct_1692_or_1834_print_pages_read": 0,
+    "previous_k_official_photo_faces": 2,
+    "previous_1529_other_ms_pages": 4,
+    "published_items": 0
+  }
+}
