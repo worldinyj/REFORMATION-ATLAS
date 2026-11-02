@@ -64,7 +64,7 @@ assert all(len(x["quote"].split())==x["words"] and x["source_id"] in sources
 assert len(d["open_issues"])==8
 assert all(x["support_ids"] and set(x["support_ids"])<=sources.keys() for x in checks.values())
 assert checks["TWO-COPIES"]["status"]=="PHYSICAL_DISTINCTION_CERTAIN_GENEALOGY_UNKNOWN"
-assert {x["id"] for x in chapters}=={1,2,3,4,5}
+assert set(chapters)=={1,2,3,4,5}
 assert all(x["title"] and x["body"] for x in chapters.values())
 assert d["metrics"]=={
 "source_records":11,"archival_jonas_copy_objects_newly_added":1,
