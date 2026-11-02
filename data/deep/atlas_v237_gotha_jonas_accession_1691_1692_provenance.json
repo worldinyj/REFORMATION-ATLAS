@@ -191,9 +191,99 @@
       "read_pages": 0
     }
   ],
-  "reader_sections": [],
-  "open_issues": [],
-  "metrics": {},
+  "reader_sections": [
+    {
+      "id": 1,
+      "title_ko": "문서가 하나인데 식별번호를 잘못 쓰면",
+      "summary_ko": "같은 고타 필사집 24v에 요나스의 1529년 편지와 1552년 논쟁 문헌의 발췌가 이웃한 별개 문헌 객체로 목록화되어 있다. 같은 잎 번호를 공유한다고 문서의 정체성이 동일한 것은 아니다. 4254434를 4254430으로 잘못 연결하면 한 사람의 편지에서 전혀 다른 신학 논쟁으로 독자의 탐색이 이탈한다.",
+      "refs": [
+        "GOTHA-FIND"
+      ]
+    },
+    {
+      "id": 2,
+      "title_ko": "16세기 편지가 17세기 역사서에 도착하기까지",
+      "summary_ko": "요나스가 1529년 보낸 편지의 후대 사본이 제켄도르프의 수집자료에 남아 있다. 제켄도르프는 종교개혁을 가톨릭 측 역사 비판에 대응해 변호하려는 작업에서 신학자들의 편지를 수집하고 옮겨 썼다. 따라서 현대에 남은 인용문은 원작자의 의도와 후대 편집자의 선택이라는 두 층위를 통과한다.",
+      "refs": [
+        "GOTHA-BLOG",
+        "GOTHA-FIND"
+      ]
+    },
+    {
+      "id": 3,
+      "title_ko": "1692년이라고 적혔지만 1691년에 세상에 나온 책",
+      "summary_ko": "고타 연구도서관이 직접 발표한 출판 연구에 따르면 역사서 전체는 1691년 가을 완성·출판됐으나 출판사 글레디치가 서지상의 연도를 1692년으로 표시했다. 첫째 책은 이미 1687년에 출판됐다. 따라서 책의 첫 출판·전체 완성·표제지 날짜 세 가지를 구분해야 한다.",
+      "refs": [
+        "GOTHA-BLOG",
+        "BSB-BOOK"
+      ]
+    },
+    {
+      "id": 4,
+      "title_ko": "출판을 가능하게 한 숨은 편지와 서고들",
+      "summary_ko": "바이마르 기록을 뫼젤비츠로 전달한 사람들과 고타에서 연구를 도운 텐첼 같은 학자들은 제켄도르프의 역사서를 만드는 과정의 중요한 중재자였다. 2024년 고타의 정밀한 서지 연구는 단일 위대한 저술가의 이야기로 축소할 수 없는 문헌 생산의 네트워크를 드러냈다.",
+      "refs": [
+        "GOTHA-BLOG"
+      ]
+    },
+    {
+      "id": 5,
+      "title_ko": "역사가 읽은 한 줄과 원본에 있던 문장의 거리",
+      "summary_ko": "요나스가 외콜람파디우스의 온유함을 높이 평가했다는 구절은 1834년 CR을 통해 1997년 논문에 인용돼 있다. 제켄도르프의 1692년 표제 책에서 그 말의 어떤 범위가 인쇄되었는지, 고타 A453와 B28의 철자가 완전히 같은지는 원판이 확보되기 전에는 단정할 수 없다.",
+      "refs": [
+        "FUDGE1997",
+        "CR1834",
+        "GOTHA-FIND"
+      ]
+    }
+  ],
+  "open_issues": [
+    {
+      "id": "OPEN-A453",
+      "question": "Obtain Gotha A453 f24v–25v actual scans; determine whether 1552 excerpt and Jonas letter share same physical side and distinguish hands/text layout."
+    },
+    {
+      "id": "OPEN-B28",
+      "question": "Obtain Gotha B28 f41v–43r actual images; resolve Aquila addressee discrepancy from salutation."
+    },
+    {
+      "id": "OPEN-SECK",
+      "question": "Open BSB bsb10716130 facsimile p139f Lib II Sect 17 §47 and confirm letter wording; currently URI only."
+    },
+    {
+      "id": "OPEN-PUBLISH",
+      "question": "Check actual dated colophon/title page against Gotha claim autumn1691 vs 1692 imprint; state historical claim sourced to 2024 study meanwhile."
+    },
+    {
+      "id": "OPEN-CR-JONAS",
+      "question": "Read 1834 CR I column1097 original scan and compare to Fudge 1997 Latin excerpt."
+    },
+    {
+      "id": "OPEN-CR-MEL",
+      "question": "Read CR I column1106f original scan for MBW826 Melanchthon."
+    },
+    {
+      "id": "OPEN-STEMMA",
+      "question": "Compare A453 B28 1692 print CR1834 variants before drawing direct copying arrow; current network only candidate."
+    },
+    {
+      "id": "OPEN-RIGHTS",
+      "question": "Differentiate CC BY-SA Gotha blog text from archival facsimiles / BSB digitized old-print media rights."
+    }
+  ],
+  "metrics": {
+    "catalogue_id_fixes_in_parent_v236": 1,
+    "new_1529_manuscript_pages_seen": 0,
+    "source_records": 9,
+    "publication_timeline_events": 6,
+    "documentary_ladder_levels": 6,
+    "korean_scholarly_reader_sections": 5,
+    "original_1691_1692_book_pages_seen": 0,
+    "existing_k_official_photographed_faces": 2,
+    "existing_zwingli_melanchthon_original_pages": 4,
+    "open_issues": 8,
+    "webapp_publications": 0
+  },
   "digital_iiif": {
     "candidate_url": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10716130/manifest",
     "status": "CONSTRUCTED_FROM_OFFICIAL_BSB_PATTERN_NOT_RETRIEVED",
