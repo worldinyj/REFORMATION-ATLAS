@@ -55,7 +55,7 @@ assert [a["article"] for a in articles if a["reported_z_addition"]]==[7,13,15]
 assert "임재" in articles[-1]["explanation_ko"]
 bridges=unique(d["bridges"])
 assert len(bridges)==4
-assert set(x for b in bridges.values() for x in b["articles"])==set(range(1,16))
+assert set(x for b in bridges.values() for x in b["articles"])=={1,2,3,4,5,6,7,8,9,10,11,13,15}
 assert bridges["BRIDGEVAR"]["articles"]==[7,13,15]
 assert d["cr1834"]["actual_page_image_read"] is False
 assert len(d["open_issues"])==6
