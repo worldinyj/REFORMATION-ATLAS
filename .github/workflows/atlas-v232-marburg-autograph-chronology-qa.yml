@@ -1,0 +1,55 @@
+name: Atlas V232 Marburg original autograph documentary chronology QA
+on:
+  push:
+    branches: ['research/**']
+    paths:
+      - 'data/deep/atlas_v232_marburg_1529_documentary_chronology_melanchthon_autograph.json'
+      - 'docs/01_CONTENT/V232_MARBURG_1529_AUTOGRAPH_LETTER_AND_DOCUMENTARY_CHRONOLOGY_REPORT.md'
+      - 'scripts/validate_atlas_v232.py'
+      - '.github/workflows/atlas-v232-marburg-autograph-chronology-qa.yml'
+  pull_request:
+    branches: ['research/**']
+    paths:
+      - 'data/deep/atlas_v232_marburg_1529_documentary_chronology_melanchthon_autograph.json'
+      - 'docs/01_CONTENT/V232_MARBURG_1529_AUTOGRAPH_LETTER_AND_DOCUMENTARY_CHRONOLOGY_REPORT.md'
+      - 'scripts/validate_atlas_v232.py'
+      - '.github/workflows/atlas-v232-marburg-autograph-chronology-qa.yml'
+  workflow_dispatch:
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Compile V232 validator
+        run: python3 -m py_compile scripts/validate_atlas_v232.py
+      - name: Research baseline V219
+        run: python3 scripts/validate_atlas_v219.py
+      - name: Research baseline V220
+        run: python3 scripts/validate_atlas_v220.py
+      - name: Research baseline V221
+        run: python3 scripts/validate_atlas_v221.py
+      - name: Research baseline V222
+        run: python3 scripts/validate_atlas_v222.py
+      - name: Research baseline V223
+        run: python3 scripts/validate_atlas_v223.py
+      - name: Research baseline V224
+        run: python3 scripts/validate_atlas_v224.py
+      - name: Research baseline V225
+        run: python3 scripts/validate_atlas_v225.py
+      - name: Research baseline V226
+        run: python3 scripts/validate_atlas_v226.py
+      - name: Research baseline V227
+        run: python3 scripts/validate_atlas_v227.py
+      - name: Research baseline V228
+        run: python3 scripts/validate_atlas_v228.py
+      - name: Research baseline V229
+        run: python3 scripts/validate_atlas_v229.py
+      - name: Research baseline V230
+        run: python3 scripts/validate_atlas_v230.py
+      - name: Research baseline V231
+        run: python3 scripts/validate_atlas_v231.py
+      - name: Research baseline V232
+        run: python3 scripts/validate_atlas_v232.py
