@@ -1,0 +1,279 @@
+{
+  "version": "2.35",
+  "parent_commit": "39512e84376bba2f67a64d669973be99e8ff3141",
+  "publication_hold": true,
+  "calendar": "Julian 1529",
+  "date_note": "original Am montag versus later editorial 5 October",
+  "baseline": "data/deep/atlas_v234_k_two_original_photo_faces_and_15_article_korean_reader.json",
+  "publication_gate": {
+    "ship": false,
+    "k_original_full": false,
+    "z_original_full": false,
+    "jonas_original": false,
+    "cr1834_letter": false,
+    "photo_permissions": false,
+    "academic_review": false
+  },
+  "sources": [
+    {
+      "id": "osiander",
+      "url": "https://germanhistorydocs.org/de/von-den-reformationen-bis-zum-dreissigjaehrigen-krieg-1500-1648/die-marburger-religionsgespraeche-bericht-eines-lutherischen-augenzeugen-1529",
+      "evidence": "1529 eyewitness report edited from WA30/3, original uses Am montag without day number, Saturday morning recollection second-hand",
+      "autograph_folio_seen": false
+    },
+    {
+      "id": "modern",
+      "url": "https://www.hapuls.de/node/1762",
+      "evidence": "Modern edition after Oberman supplies [5. Oktober] for Monday; not wording of 1529 text",
+      "autograph_folio_seen": false
+    },
+    {
+      "id": "westerweg",
+      "url": "https://www.vhghessen.de/inhalt/zhg/ZHG_129/Westerweg_Theologen_ZHG_129_2024.pdf",
+      "evidence": "Matthias Westerweg 2024 ZHG129 pp9-31, printed p15, quotes contemporary Jonas letter with die lunae [4 Oktober], PDF text read but screenshot timeout",
+      "autograph_folio_seen": false
+    },
+    {
+      "id": "jonas_copy",
+      "url": "https://kalliope.staatsbibliothek-berlin.de/ead?ead.id=DE-611-HS-3422547",
+      "evidence": "Gotha B28 41v-43r later copy of Jonas 4 Oct letter",
+      "autograph_folio_seen": false
+    },
+    {
+      "id": "mbw825",
+      "url": "https://melanchthon.hadw-bw.de/regest.html?reg_nr=825",
+      "evidence": "Official regest dates signed 15 articles as 3.[4.] October",
+      "autograph_folio_seen": false
+    },
+    {
+      "id": "mbw826",
+      "url": "https://melanchthon.hadw-bw.de/regest.html?reg_nr=826",
+      "evidence": "Melanchthon 4/5 October report after signing",
+      "autograph_folio_seen": false
+    },
+    {
+      "id": "z",
+      "url": "https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=618165",
+      "evidence": "Z signed original additions 7 13 15; original image not read",
+      "autograph_folio_seen": false
+    },
+    {
+      "id": "hapuls_k",
+      "url": "https://www.hapuls.de/node/1472",
+      "evidence": "Claims complete originals online but page opening times out",
+      "autograph_folio_seen": false
+    },
+    {
+      "id": "osiander_ga",
+      "url": "https://www.hadw-bw.de/sites/default/files/documents/3.%20Osiander%20Schriften%20und%20Briefe%201528%20bis%20April%201530.pdf",
+      "evidence": "Osiander-GA chronology 2-4 Oct present, 5-6 Oct returning",
+      "autograph_folio_seen": false
+    },
+    {
+      "id": "zwingli",
+      "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/ghdi:document-4300",
+      "evidence": "20 Oct letter to Vadian, retrospective partisan stance",
+      "autograph_folio_seen": false
+    }
+  ],
+  "julian_dates": [
+    {
+      "date": "1529-09-30",
+      "day": "Thursday"
+    },
+    {
+      "date": "1529-10-01",
+      "day": "Friday"
+    },
+    {
+      "date": "1529-10-02",
+      "day": "Saturday"
+    },
+    {
+      "date": "1529-10-03",
+      "day": "Sunday"
+    },
+    {
+      "date": "1529-10-04",
+      "day": "Monday"
+    },
+    {
+      "date": "1529-10-05",
+      "day": "Tuesday"
+    }
+  ],
+  "weekday_correction": {
+    "original": "Am montag",
+    "original_has_numeric_day": false,
+    "modern_edition_bracket": "[5. Oktober]",
+    "jonas_scholarly_quote": "Hodie, die lunae [4. Oktober]",
+    "normalized_date": "1529-10-04",
+    "evidence_ids": [
+      "osiander",
+      "modern",
+      "westerweg",
+      "mbw825"
+    ],
+    "provenance": "Modern editorial date correction, not an emendation of original 1529 handwriting"
+  },
+  "witnesses": [
+    {
+      "id": "osiander",
+      "person": "Andreas Osiander",
+      "document_date": "after colloquy c.1529-10-05",
+      "audience": "Nuremberg council",
+      "firsthand_start": "1529-10-02 afternoon",
+      "earlier_recollections_secondhand": true,
+      "political_position": "Lutheran advocate",
+      "source_ids": [
+        "osiander",
+        "osiander_ga"
+      ]
+    },
+    {
+      "id": "jonas",
+      "person": "Justus Jonas",
+      "document_date": "1529-10-04",
+      "audience": "Wilhelm Reiffenstein",
+      "firsthand_start": null,
+      "earlier_recollections_secondhand": false,
+      "political_position": "Wittenberg side, same-day conciliation prognosis",
+      "source_ids": [
+        "westerweg",
+        "jonas_copy"
+      ]
+    },
+    {
+      "id": "melanchthon",
+      "person": "Philipp Melanchthon",
+      "document_date": "1529-10-04/05",
+      "audience": "Butzbach Alber Reiser",
+      "firsthand_start": "1529-09-30",
+      "earlier_recollections_secondhand": false,
+      "political_position": "Lutheran colleague after signed articles",
+      "source_ids": [
+        "mbw826"
+      ]
+    },
+    {
+      "id": "zwingli",
+      "person": "Huldrych Zwingli",
+      "document_date": "1529-10-20",
+      "audience": "Joachim Vadian",
+      "firsthand_start": "1529-09-30",
+      "earlier_recollections_secondhand": false,
+      "political_position": "Swiss reformer retrospective victory framing",
+      "source_ids": [
+        "zwingli"
+      ]
+    }
+  ],
+  "axes": [
+    {
+      "id": "date",
+      "subject_ko": "마지막 토론 및 공동 문서 날짜",
+      "evidence_ko": "원문은 월요일만 표기, 요나스는 10월 4일 월요일, 서명 합의문 비평판 3.[4.]일"
+    },
+    {
+      "id": "firsthand",
+      "subject_ko": "직접 목격과 전해 들은 보고",
+      "evidence_ko": "오지안더는 토요일 오후 도착해 오전 토론은 타인에게 질문"
+    },
+    {
+      "id": "sacrament",
+      "subject_ko": "성찬 합의 가능성",
+      "evidence_ko": "요나스는 월요일 오전에도 합의를 비관, 멜란히톤은 공동 문구와 미해결을 구별"
+    },
+    {
+      "id": "mediation",
+      "subject_ko": "필리프 영주의 중재",
+      "evidence_ko": "영주가 개별 상담과 학자 및 관리의 중재를 끝까지 추진"
+    },
+    {
+      "id": "fellowship",
+      "subject_ko": "공동 서명과 형제 인정",
+      "evidence_ko": "공동 서명은 이루어졌으나 상호 성찬 교제는 충분히 성립하지 않음"
+    }
+  ],
+  "hessian_participants": [
+    {
+      "id": "krafft",
+      "name": "Adam Krafft",
+      "status": "2024_STUDY_SUPPORTS_PRESENCE",
+      "role": "Local Hessian preacher and professor"
+    },
+    {
+      "id": "schnepf",
+      "name": "Erhard Schnepf",
+      "status": "2024_STUDY_SUPPORTS_PRESENCE",
+      "role": "Local Hessian preacher and professor"
+    },
+    {
+      "id": "lambert",
+      "name": "Franz Lambert",
+      "status": "POSSIBLE_ATTENDANCE",
+      "role": "Professor"
+    },
+    {
+      "id": "lonicerus",
+      "name": "Johannes Lonicerus",
+      "status": "2024_SCHOLARSHIP_JONAS_LETTER_MENTION",
+      "role": "Greek professor"
+    },
+    {
+      "id": "ibach",
+      "name": "Hartmann Ibach",
+      "status": "POST_COLLOQUY_CRITICISM_ONLY",
+      "role": "Marburg preacher, possible Zwingli sympathizer"
+    }
+  ],
+  "reader_chapters": [
+    {
+      "id": 1,
+      "title": "월요일을 화요일로 바꾼 대괄호",
+      "thesis": "1529 original weekday does not license later editorial Oct5 label"
+    },
+    {
+      "id": 2,
+      "title": "마지막 중재: 공동 문서가 나오기 전",
+      "thesis": "Jonas same-day letter and princely advisers"
+    },
+    {
+      "id": 3,
+      "title": "토요일 오후 도착한 증인의 기록",
+      "thesis": "eyewitness limits versus reported Saturday morning"
+    },
+    {
+      "id": 4,
+      "title": "공동 서명과 미해결 성찬 교제",
+      "thesis": "different success dimensions"
+    },
+    {
+      "id": 5,
+      "title": "후대 역사화 뒤편의 헤센 목회자",
+      "thesis": "local mediators with graded documentary status"
+    }
+  ],
+  "open_issues": [
+    "Inspect Westerweg 2024 print p15 PDF image if screenshot access restored",
+    "Read Jonas 1529 letter original or 1834 Corpus Reformatorum I col1097 No634",
+    "Open full HStAM K 60r-64v primary folios and map to K 2017 two-photo reproduction",
+    "Read Z E I3.1 No54 original handwritten Article7/13/15 additions",
+    "Open 1834 CR I pp1106-1107 Melanchthon letter no639",
+    "Cross-check Hessian attendee names against contemporaneous letters, not 1869 Noack painting alone"
+  ],
+  "metrics": {
+    "sources": 10,
+    "julian_dates": 6,
+    "editorial_date_corrections": 1,
+    "witness_accounts": 4,
+    "collation_axes": 5,
+    "local_historiographic_people": 5,
+    "reader_chapters": 5,
+    "new_original_manuscript_pages_read": 0,
+    "previous_k_photo_faces": 2,
+    "previous_other_1529_original_pages": 4,
+    "open_issues": 6,
+    "published_items": 0
+  }
+}
