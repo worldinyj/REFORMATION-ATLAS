@@ -1,0 +1,24 @@
+name: Atlas V221 Marburg source accession QA
+on:
+  push:
+    branches: ['research/**']
+    paths:
+      - 'data/deep/atlas_v221_marburg_witness_accession.json'
+      - 'scripts/validate_atlas_v221.py'
+      - 'docs/01_CONTENT/V221_MARBURG_ORIGINAL_WITNESS_ACCESSION_REPORT.md'
+      - '.github/workflows/atlas-v221-witness-accession.yml'
+  workflow_dispatch:
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check V219 original text and indices
+        run: python3 scripts/validate_atlas_v219.py
+      - name: Check V220 variants
+        run: python3 scripts/validate_atlas_v220.py
+      - name: Check V221 originals accession gates
+        run: python3 scripts/validate_atlas_v221.py
