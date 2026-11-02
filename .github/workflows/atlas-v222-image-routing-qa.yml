@@ -1,0 +1,26 @@
+name: Atlas V222 historical image-route evidence QA
+on:
+  push:
+    branches: ['research/**']
+    paths:
+      - 'data/deep/atlas_v222_original_image_routes_and_assertions.json'
+      - 'scripts/validate_atlas_v222.py'
+      - 'docs/01_CONTENT/V222_MARBURG_IMAGE_ROUTES_AND_TEXTUAL_RELATIONS.md'
+      - '.github/workflows/atlas-v222-image-routing-qa.yml'
+  workflow_dispatch:
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: V219 10-chapter immutable historical corpus
+        run: python3 scripts/validate_atlas_v219.py
+      - name: V220 variant source-tier evidence
+        run: python3 scripts/validate_atlas_v220.py
+      - name: V221 accession baseline
+        run: python3 scripts/validate_atlas_v221.py
+      - name: V222 routes and separate textual relations
+        run: python3 scripts/validate_atlas_v222.py
