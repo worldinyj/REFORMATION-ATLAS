@@ -1,0 +1,273 @@
+{
+  "version": "2.23",
+  "kind": "MARBURG_1529_EDITORIAL_TEXT_TRIANGULATION_AND_ORIGINAL_IMAGE_ATTEMPT_LOG",
+  "parent_commit": "8307bd49e8afc102a9e1cd9f0f0719ed4e776565",
+  "base_dataset": "data/deep/atlas_v222_original_image_routes_and_assertions.json",
+  "publication_gate": {
+    "can_ship": false,
+    "original_signed_manuscripts_collated": false,
+    "early_print_pages_collated": false,
+    "historian_approved": false,
+    "media_rights_review_completed": false,
+    "webapp_integrated": false
+  },
+  "methodology": {
+    "historical_validity": "Source wording must be tied to a specific textual witness or editorial edition. The GHDI wording is a reading of the 1910 Weimar editorial transcription, NOT an image-level K or Z transcription.",
+    "reproduction": "e-rara W2119 says Public Domain Mark and free downloads, which is distinct from manuscript image rights and does not complete a project-specific reuse review.",
+    "access": "Search-indexed metadata and open-page retrieval are independently tracked. A page advertising originals does not imply folio image access.",
+    "dates": "Track documentary explicit dates separately from repository/portal event date fields; do not flatten 3 October vs 4 October."
+  },
+  "sources": [
+    {
+      "id": "SRC-V223-GHDI-WA1910",
+      "class": "EDITED_ORIGINAL_LANGUAGE_TRANSCRIPTION",
+      "title": "German History in Documents and Images: Die Marburger Artikel (1529)",
+      "url": "https://germanhistorydocs.org/de/von-den-reformationen-bis-zum-dreissigjaehrigen-krieg-1500-1648/die-marburger-religionsgespraeche-die-marburger-artikel-1529",
+      "locator": "WA 30/3 (1910) pp 160–171, online edition lines Art.7, Art.13, Art.15 and incipit",
+      "retrieval": "DIRECT_HTML_TEXT_READ",
+      "original_folio_page_seen": false
+    },
+    {
+      "id": "SRC-V223-DIGIREF-K",
+      "class": "SCHOLARLY_ARCHIVAL_DIGITIZATION_INDEX",
+      "title": "Reformationsportal / DigiRef: Die Marburger Artikel",
+      "url": "https://flugschriften.reformationsportal.de/recherche-im-gesamtbestand/listeneinstieg?cHash=b4cace5da9c214d4d23e5163b49d0c2c&tx_joreformation_pi1004listenuebersicht%5Baction%5D=detail&tx_joreformation_pi1004listenuebersicht%5Bcontroller%5D=Mapservice&tx_joreformation_pi1004listenuebersicht%5BjoDel%5D=1&tx_joreformation_pi1004listenuebersicht%5BjoDetailView%5D=stat_showcase_00000023",
+      "locator": "StA MR Best.3 Nr.245, 60r–64v, portal dates 4 October 1529, editor Clemens Joos",
+      "retrieval": "INDEXED_FULL_METADATA_AND_DIRECT_PAGE_BLOCKED_BY_POW",
+      "original_folio_page_seen": false
+    },
+    {
+      "id": "SRC-V223-ERARA-W2119",
+      "class": "INSTITUTIONAL_1529_IMPRINT_METADATA_AND_RIGHTS",
+      "title": "ZB Zürich Froschauer 1529 print 5.174,5 / VD16 W2119",
+      "url": "https://www.e-rara.ch/zuz/content/titleinfo/170052",
+      "locator": "W2119; Public Domain Mark; 4 leaves; title includes dritten Tags Octobers; DOI 10.3931/e-rara-597",
+      "retrieval": "SEARCH_INDEXED_ITEM_RECORD_DIRECT_PAGE_404_IN_THIS_ENVIRONMENT",
+      "original_folio_page_seen": false
+    },
+    {
+      "id": "SRC-V223-ZARCH",
+      "class": "ARCHIVAL_WITNESS_CATALOGUE",
+      "title": "Staatsarchiv Zürich E I 3.1 Nr. 54",
+      "url": "https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=618165",
+      "locator": "Catalogue date 1529-10-03; Z additions 7/13/15 absent in K; original signatures; K 60r–64v",
+      "retrieval": "SEARCH_INDEXED_INSTITUTIONAL_CATALOGUE",
+      "original_folio_page_seen": false
+    },
+    {
+      "id": "SRC-V223-HAPULS-ORIG",
+      "class": "PUBLISHED_ORIGINAL_IMAGE_LANDING_PAGE",
+      "title": "HAPuls Marburger Artikel original digitals",
+      "url": "https://www.hapuls.de/node/1472",
+      "locator": "HStAM PA Nr 245 Bl 60–63, complete original digital images advertised",
+      "retrieval": "SEARCH_INDEXED_PAGE_DIRECT_OPEN_TIMEOUT",
+      "original_folio_page_seen": false
+    },
+    {
+      "id": "SRC-V223-DBIS-DIGIREF",
+      "class": "INSTITUTIONAL_PROJECT_DIRECTORY",
+      "title": "DBIS entry: Reformationsportal Mitteldeutschland / DigiRef",
+      "url": "https://dbis.ur.de/LKZBS/resources/101692",
+      "locator": "Participating archives digitized sources with transcription, translation and contextualization",
+      "retrieval": "SEARCH_INDEXED_PROJECT_DESCRIPTION",
+      "original_folio_page_seen": false
+    },
+    {
+      "id": "SRC-V223-HAPULS-TRANS",
+      "class": "MODERN_GERMAN_TRANSLATION_FROM_EDITORIAL_SOURCE",
+      "title": "HAPuls Marburg Articles transcription page",
+      "url": "https://www.hapuls.de/node/1473",
+      "locator": "States Heiko A. Oberman 1994 pp 159–161; May 1970 and Stupperich 1966 acknowledged",
+      "retrieval": "SEARCH_INDEXED_EDITION_CONTEXT_DIRECT_OPEN_TIMEOUT",
+      "original_folio_page_seen": false
+    }
+  ],
+  "critical_edition_passages": [
+    {
+      "id": "PASS-V223-ART07",
+      "article": "7",
+      "v220_variant_id": "V220-MAR-07",
+      "v219_sentence_ids": [
+        "SNT-V219-MARBURG-0056",
+        "SNT-V219-MARBURG-0058",
+        "SNT-V219-MARBURG-0059"
+      ],
+      "work_text": "Zum Siebenden",
+      "context_short": "glaube sey vnser gerechtigkeit fur got",
+      "semantic_outline_ko": "믿음이 하나님 앞의 의로 여겨진다는 진술; 그리스도로 인한 칭의와 구원의 논리가 이어짐",
+      "source_id": "SRC-V223-GHDI-WA1910",
+      "witness_assigned": "WA1910_EDITORIAL_TRANSCRIPTION_ONLY",
+      "z_added_wording": null,
+      "k_parallel_wording": null,
+      "manuscript_folio": null,
+      "read_status": "EDITORIAL_GERMAN_TEXT_READ_ORIGINAL_UNREAD"
+    },
+    {
+      "id": "PASS-V223-ART13",
+      "article": "13",
+      "v220_variant_id": "V220-MAR-13",
+      "v219_sentence_ids": [
+        "SNT-V219-MARBURG-0056",
+        "SNT-V219-MARBURG-0058",
+        "SNT-V219-MARBURG-0059"
+      ],
+      "work_text": "Zum Dreitzehendten",
+      "context_short": "mag man frey halten oder lassen",
+      "semantic_outline_ko": "교회 사무의 인간적 규정이 하나님의 말씀과 정면으로 충돌하지 않는 경우의 자유와 이웃에 대한 배려",
+      "source_id": "SRC-V223-GHDI-WA1910",
+      "witness_assigned": "WA1910_EDITORIAL_TRANSCRIPTION_ONLY",
+      "z_added_wording": null,
+      "k_parallel_wording": null,
+      "manuscript_folio": null,
+      "read_status": "EDITORIAL_GERMAN_TEXT_READ_ORIGINAL_UNREAD"
+    },
+    {
+      "id": "PASS-V223-ART15",
+      "article": "15",
+      "v220_variant_id": "V220-MAR-15",
+      "v219_sentence_ids": [
+        "SNT-V219-MARBURG-0055",
+        "SNT-V219-MARBURG-0056",
+        "SNT-V219-MARBURG-0059"
+      ],
+      "work_text": "Zum funfzehendten",
+      "context_short": "dißer Zeit nit vergleicht haben",
+      "semantic_outline_ko": "주님의 만찬에 대한 합의점과 그리스도의 몸·피가 빵과 포도주 안에 육체적으로 있는지에 대한 미합의, 상호 사랑의 약속",
+      "source_id": "SRC-V223-GHDI-WA1910",
+      "witness_assigned": "WA1910_EDITORIAL_TRANSCRIPTION_ONLY",
+      "z_added_wording": null,
+      "k_parallel_wording": null,
+      "manuscript_folio": null,
+      "read_status": "EDITORIAL_GERMAN_TEXT_READ_ORIGINAL_UNREAD"
+    }
+  ],
+  "date_evidence": [
+    {
+      "id": "DATE-V223-SIGNED-Z",
+      "date_label": "1529-10-03",
+      "evidence_type": "INSTITUTIONAL_DOCUMENT_DATE_METADATA",
+      "source_id": "SRC-V223-ZARCH",
+      "context": "Z original description: 1529.10.03",
+      "not_equated_with": "1529-10-04"
+    },
+    {
+      "id": "DATE-V223-GHDI-INCIPIT",
+      "date_label": "1529-10-03",
+      "evidence_type": "1910_EDITED_TEXT_INCIPIT",
+      "source_id": "SRC-V223-GHDI-WA1910",
+      "context": "Incipit Tertia Octobris M etc XX viiij",
+      "not_equated_with": "1529-10-04"
+    },
+    {
+      "id": "DATE-V223-W2119-PRINT",
+      "date_label": "1529-10-03",
+      "evidence_type": "IMPRINT_CATALOGUED_TITLE_DATE",
+      "source_id": "SRC-V223-ERARA-W2119",
+      "context": "1529 printed title: dritten Tags Octobers",
+      "not_equated_with": "1529-10-04"
+    },
+    {
+      "id": "DATE-V223-DIGIREF",
+      "date_label": "1529-10-04",
+      "evidence_type": "MODERN_SCHOLARLY_PORTAL_EVENT_DATE",
+      "source_id": "SRC-V223-DIGIREF-K",
+      "context": "DigiRef indexed item dates 4. Oktober 1529",
+      "not_equated_with": "1529-10-03"
+    }
+  ],
+  "image_access_attempts": [
+    {
+      "id": "ATTEMPT-V223-K-HAPULS",
+      "source_id": "SRC-V223-HAPULS-ORIG",
+      "url": "https://www.hapuls.de/node/1472",
+      "attempt_method": "WEB_OPEN",
+      "result": "TIMEOUT_PAGE_BYTES_NOT_OBTAINED",
+      "verified_image_count": 0,
+      "original_text_transcribed": false
+    },
+    {
+      "id": "ATTEMPT-V223-K-DIGIREF",
+      "source_id": "SRC-V223-DIGIREF-K",
+      "url": "https://flugschriften.reformationsportal.de/recherche-im-gesamtbestand/listeneinstieg",
+      "attempt_method": "WEB_OPEN",
+      "result": "POW_CHALLENGE_INSTEAD_OF_DOCUMENT_VIEWER",
+      "verified_image_count": 0,
+      "original_text_transcribed": false
+    },
+    {
+      "id": "ATTEMPT-V223-W2119-ITEM",
+      "source_id": "SRC-V223-ERARA-W2119",
+      "url": "https://www.e-rara.ch/zuz/content/titleinfo/170052",
+      "attempt_method": "WEB_OPEN",
+      "result": "FETCH_404_IN_THIS_TOOL_BUT_ITEM_METADATA_INDEXED",
+      "verified_image_count": 0,
+      "original_text_transcribed": false
+    },
+    {
+      "id": "ATTEMPT-V223-W2119-IIIF",
+      "source_id": "SRC-V223-ERARA-W2119",
+      "url": "https://www.e-rara.ch/i3f/v20/170052/manifest",
+      "attempt_method": "WEB_OPEN",
+      "result": "ACCESS_RESTRICTED_IN_THIS_TOOL; NO_MANIFEST_PARSED",
+      "verified_image_count": 0,
+      "original_text_transcribed": false
+    }
+  ],
+  "rights_decisions": [
+    {
+      "id": "RIGHTS-V223-W2119",
+      "source_id": "SRC-V223-ERARA-W2119",
+      "mark": "PUBLIC_DOMAIN_MARK",
+      "source_licence_metadata_checked": true,
+      "permitted_institutional_description": "Free download of 1529 digitized print, with requested scholarly attribution and notification",
+      "internal_reuse_review_completed": false,
+      "app_media_approved": false
+    },
+    {
+      "id": "RIGHTS-V223-KZ",
+      "source_id": "SRC-V223-ZARCH",
+      "mark": "NOT_ESTABLISHED",
+      "source_licence_metadata_checked": false,
+      "internal_reuse_review_completed": false,
+      "app_media_approved": false
+    }
+  ],
+  "remaining_issues": [
+    {
+      "id": "ISSUE-V223-ORIGINAL-IMAGE",
+      "status": "OPEN",
+      "description": "Retrieve original K and Z page image bytes and capture folio/line references before transcribing manuscript wording."
+    },
+    {
+      "id": "ISSUE-V223-IMPRINT-IMAGE",
+      "status": "OPEN",
+      "description": "Fetch W2119 IIIF manifest or institutionally supplied PDF and read 1529 actual page images; current metadata is not page verification."
+    },
+    {
+      "id": "ISSUE-V223-DATE",
+      "status": "OPEN",
+      "description": "Distinguish DigiRef 4 October from Z catalogue/printed title/edited incipit 3 October; locate editorial explanation and date conventions."
+    },
+    {
+      "id": "ISSUE-V223-W2118",
+      "status": "OPEN",
+      "description": "Confirm whether Zwingli MvK A 81,8 corresponds to W2118 via individual catalogue detail; do not infer mapping from search order."
+    },
+    {
+      "id": "ISSUE-V223-SIGNED-VARIANTS",
+      "status": "OPEN",
+      "description": "Do not fill Z added text or K counterpart from WA1910 GHDI or modern HAPuls translation. Obtain witness-level evidence."
+    }
+  ],
+  "metrics": {
+    "source_records": 7,
+    "edited_german_articles_context_checked": 3,
+    "distinct_date_metadata_observations": 4,
+    "original_image_access_attempts": 4,
+    "successful_original_image_page_reads": 0,
+    "verified_original_variant_wordings": 0,
+    "w2119_public_domain_metadata_confirmed": 1,
+    "release_gate_signoffs": 0,
+    "published_items": 0
+  }
+}
