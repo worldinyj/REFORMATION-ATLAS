@@ -1,0 +1,317 @@
+{
+  "version": "2.21",
+  "kind": "MARBURG_1529_WITNESS_ACCESSION_AND_DIGITAL_RETRIEVAL_LEDGER",
+  "parent_v220_commit": "8a77b9d2be532d1473358f320f6c77e358d338e1",
+  "baseline_dataset": "data/deep/atlas_v220_marburg_augsburg_variant_collation.json",
+  "publication_gate": {
+    "can_ship": false,
+    "expert_approved": false,
+    "original_witness_collation_complete": false,
+    "media_rights_cleared": false,
+    "webapp_integrated": false
+  },
+  "method": "Digital bibliographic discoverability is not physical page collation. Keep witness, edition, exemplar, facsimile and modern catalogue separate. Do not assign VD16 W2118/W2119 to shelfmarks by listing order.",
+  "source_records": [
+    {
+      "id": "SRC-V221-ZH-ARCH",
+      "type": "ARCHIVAL_CATALOGUE",
+      "url": "https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=618165",
+      "locator": "E I 3.1 Nr 54; Z three additions at 7,13,15; K missing; repro and digitalisat catalogue links",
+      "verified_as": "SEARCH_INDEXED_ARCHIVE_CATALOGUE",
+      "image_pages_inspected": 0
+    },
+    {
+      "id": "SRC-V221-ERARA",
+      "type": "DIGITAL_LIBRARY_SEARCH",
+      "url": "https://www.e-rara.ch/search/quick?facets=d100%3D%221500%22&max=100&query=zwingli&s=date",
+      "locator": "Two Zurich 1529 Froschauer bibliographic records with ZB Zürich shelfmarks",
+      "verified_as": "ERARA_SEARCH_RESULTS_BIBLIOGRAPHY",
+      "image_pages_inspected": 0
+    },
+    {
+      "id": "SRC-V221-SWISSCOLL",
+      "type": "LIBRARY_CATALOGUE",
+      "url": "https://swisscollections.ub.k8s-001.unibas.ch/Record/991011661549705501",
+      "locator": "Basel edition VD16 W2108, UBH Falk 2950:5, e-rara doi 10.3931/e-rara-5415",
+      "verified_as": "SWISSCOLLECTIONS_CATALOGUE",
+      "image_pages_inspected": 0
+    },
+    {
+      "id": "SRC-V221-ERARA-ZH-PID",
+      "type": "REPORTED_PERSISTENT_IDENTIFIER",
+      "url": "https://doi.org/10.3931/e-rara-597",
+      "locator": "Reported for ZB Zürich 5.174,5; direct DOI viewer access not confirmed in this session",
+      "verified_as": "SECONDARY_IDENTIFIER_TO_BE_RECONCILED",
+      "image_pages_inspected": 0
+    },
+    {
+      "id": "SRC-V221-ERARA-BS-PID",
+      "type": "CATALOGUED_PERSISTENT_IDENTIFIER",
+      "url": "https://doi.org/10.3931/e-rara-5415",
+      "locator": "Swisscollections digitalisat record for VD16 W2108",
+      "verified_as": "SWISSCOLLECTIONS_IDENTIFIER_NO_PAGE_VISUAL_QA",
+      "image_pages_inspected": 0
+    },
+    {
+      "id": "SRC-V221-USTERI-REF",
+      "type": "ARCHIVAL_BIBLIOGRAPHY",
+      "url": "https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=618165",
+      "locator": "Johann Martin Usteri in Theologische Studien und Kritiken 56 (1883) pp.400–413, especially 409–413; facsimile cited by archive",
+      "verified_as": "BIBLIOGRAPHIC_REFERENCE_NO_IMAGE_READ",
+      "image_pages_inspected": 0
+    },
+    {
+      "id": "SRC-V221-GHDI",
+      "type": "EDITED_GERMAN_TEXT",
+      "url": "https://germanhistorydocs.org/de/von-den-reformationen-bis-zum-dreissigjaehrigen-krieg-1500-1648/die-marburger-religionsgespraeche-die-marburger-artikel-1529",
+      "locator": "WA 30/3 (1910), 160–171; contextual text, not proof of Z/K variants",
+      "verified_as": "EDITED_TRANSCRIPTION",
+      "image_pages_inspected": 0
+    }
+  ],
+  "accession_targets": [
+    {
+      "id": "ACC-V221-Z",
+      "v220_witness_id": "MAR-Z",
+      "kind": "SIGNED_MANUSCRIPT",
+      "year": 1529,
+      "location": "Staatsarchiv Zürich",
+      "shelfmark": "E I 3.1 Nr 54",
+      "digital_availability": "ARCHIVE_RECORD_AND_MICROFILM_LISTED",
+      "stable_url": "https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=618165",
+      "source_ids": [
+        "SRC-V221-ZH-ARCH"
+      ],
+      "exemplar_direct_page_opened": false,
+      "sections_to_collate": [
+        "7",
+        "13",
+        "15"
+      ],
+      "manuscript_variant_text": null,
+      "access_task": "OBTAIN_Z_FOLIO_IMAGE_OR_MICROFILM"
+    },
+    {
+      "id": "ACC-V221-K",
+      "v220_witness_id": "MAR-K",
+      "kind": "SIGNED_MANUSCRIPT",
+      "year": 1529,
+      "location": "Hessisches Staatsarchiv Marburg",
+      "shelfmark": "Best. 3 Nr. 245 fol. 60r–64v",
+      "digital_availability": "ARCHIVE_CATALOGUE_DESCRIBES_DIGITALISAT_LINK_NOT_INDEPENDENTLY_OPENED",
+      "stable_url": "https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=618165",
+      "source_ids": [
+        "SRC-V221-ZH-ARCH"
+      ],
+      "exemplar_direct_page_opened": false,
+      "sections_to_collate": [
+        "7",
+        "13",
+        "15"
+      ],
+      "manuscript_variant_text": null,
+      "access_task": "OPEN_K_DIGITALISAT_AND_CAPTURE_ARTICLE_FOLIO_MAP"
+    },
+    {
+      "id": "ACC-V221-ZH1",
+      "v220_witness_id": "MAR-ZURICH-PRINT",
+      "kind": "SIXTEENTH_CENTURY_PRINT_EXEMPLAR",
+      "year": 1529,
+      "location": "Zentralbibliothek Zürich",
+      "shelfmark": "5.174,5",
+      "digital_availability": "ERARA_BIBLIOGRAPHIC_LISTING_FOUND_PID_REPORTED_SECONDARILY",
+      "stable_url": "https://doi.org/10.3931/e-rara-597",
+      "source_ids": [
+        "SRC-V221-ERARA",
+        "SRC-V221-ERARA-ZH-PID",
+        "SRC-V221-ZH-ARCH"
+      ],
+      "possible_vd16_ids": [
+        "W 2118",
+        "W 2119"
+      ],
+      "vd16_mapping_verified": false,
+      "exemplar_direct_page_opened": false,
+      "sections_to_collate": [
+        "7",
+        "13",
+        "15"
+      ],
+      "access_task": "OPEN_PERSISTENT_RECORD_VERIFY_VD16_AND_FIND_ARTICLE_PAGES"
+    },
+    {
+      "id": "ACC-V221-ZH2",
+      "v220_witness_id": "MAR-ZURICH-PRINT",
+      "kind": "SIXTEENTH_CENTURY_PRINT_EXEMPLAR",
+      "year": 1529,
+      "location": "Zentralbibliothek Zürich",
+      "shelfmark": "Zwingli MvK A 81,8",
+      "digital_availability": "ERARA_BIBLIOGRAPHIC_LISTING_FOUND_VIEWER_URL_NOT_RESOLVED",
+      "stable_url": "https://www.e-rara.ch/search/quick?facets=d100%3D%221500%22&max=100&query=zwingli&s=date",
+      "source_ids": [
+        "SRC-V221-ERARA",
+        "SRC-V221-ZH-ARCH"
+      ],
+      "possible_vd16_ids": [
+        "W 2118",
+        "W 2119"
+      ],
+      "vd16_mapping_verified": false,
+      "exemplar_direct_page_opened": false,
+      "sections_to_collate": [
+        "7",
+        "13",
+        "15"
+      ],
+      "access_task": "RESOLVE_ITEM_PID_AND_VD16_FOR_SECOND_ZURICH_EXEMPLAR"
+    },
+    {
+      "id": "ACC-V221-BS",
+      "v220_witness_id": null,
+      "kind": "SIXTEENTH_CENTURY_PRINT_EXEMPLAR",
+      "year": 1529,
+      "location": "Universitätsbibliothek Basel",
+      "shelfmark": "UBH Falk 2950:5",
+      "digital_availability": "SWISSCOLLECTIONS_HAS_ERARA_DIGITALISAT_IDENTIFIER",
+      "stable_url": "https://doi.org/10.3931/e-rara-5415",
+      "source_ids": [
+        "SRC-V221-SWISSCOLL",
+        "SRC-V221-ERARA-BS-PID"
+      ],
+      "vd16_id": "W 2108",
+      "printer": "Thomas Wolff",
+      "place": "Basel",
+      "exemplar_direct_page_opened": false,
+      "sections_to_collate": [
+        "7",
+        "13",
+        "15"
+      ],
+      "access_task": "OPEN_BASEL_1529_IMAGE_AND_COMPARE_TO_Z_K_WITHOUT_PRESUMING_COPY_RELATION"
+    },
+    {
+      "id": "ACC-V221-U1883",
+      "v220_witness_id": null,
+      "kind": "NINETEENTH_CENTURY_FACSIMILE_REPRODUCTION",
+      "year": 1883,
+      "location": "Theologische Studien und Kritiken 56",
+      "shelfmark": "pp.400–413, facsimile indicated by archive",
+      "digital_availability": "REFERENCE_IDENTIFIED_DIGITAL_COPY_NOT_YET_OPENED",
+      "stable_url": "https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=618165",
+      "source_ids": [
+        "SRC-V221-USTERI-REF"
+      ],
+      "exemplar_direct_page_opened": false,
+      "sections_to_collate": [
+        "7",
+        "13",
+        "15"
+      ],
+      "access_task": "LOCATE_1883_FACSIMILE_AND_ASSESS_REPRODUCTION_LIMITS"
+    }
+  ],
+  "variant_alignment_targets": [
+    {
+      "v220_variant_id": "V220-MAR-07",
+      "article": "7",
+      "witness_candidates": [
+        "ACC-V221-Z",
+        "ACC-V221-K",
+        "ACC-V221-ZH1",
+        "ACC-V221-ZH2",
+        "ACC-V221-BS"
+      ],
+      "z_added_text": null,
+      "k_parallel_text": null,
+      "print_variant_texts": [],
+      "editorial_interpretation": "Catalogued Z addition versus K absence; exact reading not yet established",
+      "status": "OPEN"
+    },
+    {
+      "v220_variant_id": "V220-MAR-13",
+      "article": "13",
+      "witness_candidates": [
+        "ACC-V221-Z",
+        "ACC-V221-K",
+        "ACC-V221-ZH1",
+        "ACC-V221-ZH2",
+        "ACC-V221-BS"
+      ],
+      "z_added_text": null,
+      "k_parallel_text": null,
+      "print_variant_texts": [],
+      "editorial_interpretation": "Catalogued Z addition versus K absence; exact reading not yet established",
+      "status": "OPEN"
+    },
+    {
+      "v220_variant_id": "V220-MAR-15",
+      "article": "15",
+      "witness_candidates": [
+        "ACC-V221-Z",
+        "ACC-V221-K",
+        "ACC-V221-ZH1",
+        "ACC-V221-ZH2",
+        "ACC-V221-BS"
+      ],
+      "z_added_text": null,
+      "k_parallel_text": null,
+      "print_variant_texts": [],
+      "editorial_interpretation": "Catalogued Z addition versus K absence; exact reading not yet established",
+      "status": "OPEN"
+    }
+  ],
+  "release_policy": {
+    "source_discovery_is_not_original_page_reading": true,
+    "third_party_handwriting_attribution_requires_primary_confirmation": true,
+    "publication_approved": false
+  },
+  "metrics": {
+    "source_records": 7,
+    "accession_targets": 6,
+    "original_manuscripts": 2,
+    "original_print_exemplars": 3,
+    "later_facsimile_references": 1,
+    "variant_alignment_targets": 3,
+    "original_exemplar_pages_read": 0,
+    "completed_variant_collations": 0,
+    "publication_items": 0
+  },
+  "next_work_order": [
+    {
+      "id": "V221-OPEN-01",
+      "target": "ACC-V221-K",
+      "priority": 1,
+      "gate": "actual source viewer URL, page sequence and folio labels"
+    },
+    {
+      "id": "V221-OPEN-02",
+      "target": "ACC-V221-Z",
+      "priority": 2,
+      "gate": "Z manuscript image with three article additions"
+    },
+    {
+      "id": "V221-OPEN-03",
+      "target": "ACC-V221-ZH1",
+      "priority": 3,
+      "gate": "VD16 and exemplar image checked; note possible printed marginal annotations separately"
+    },
+    {
+      "id": "V221-OPEN-04",
+      "target": "ACC-V221-ZH2",
+      "priority": 4,
+      "gate": "separate bibliographic ID and image viewer"
+    },
+    {
+      "id": "V221-OPEN-05",
+      "target": "ACC-V221-BS",
+      "priority": 5,
+      "gate": "independently examine W2108 image and compare each section"
+    },
+    {
+      "id": "V221-OPEN-06",
+      "target": "ACC-V221-U1883",
+      "priority": 6,
+      "gate": "assess historical facsimile reproduction versus original"
+    }
+  ]
+}
