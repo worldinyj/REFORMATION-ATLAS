@@ -1,0 +1,59 @@
+name: Atlas V234 Hessian original K two-folio photo and fifteen-article QA
+on:
+  push:
+    branches: ['research/**']
+    paths:
+      - 'data/deep/atlas_v234_k_two_original_photo_faces_and_15_article_korean_reader.json'
+      - 'docs/01_CONTENT/V234_K_ORIGINAL_ARCHIVAL_PHOTOS_AND_FIFTEEN_ARTICLE_READER_REPORT.md'
+      - 'scripts/validate_atlas_v234.py'
+      - '.github/workflows/atlas-v234-k-facsimile-fifteen-article-qa.yml'
+  pull_request:
+    branches: ['research/**']
+    paths:
+      - 'data/deep/atlas_v234_k_two_original_photo_faces_and_15_article_korean_reader.json'
+      - 'docs/01_CONTENT/V234_K_ORIGINAL_ARCHIVAL_PHOTOS_AND_FIFTEEN_ARTICLE_READER_REPORT.md'
+      - 'scripts/validate_atlas_v234.py'
+      - '.github/workflows/atlas-v234-k-facsimile-fifteen-article-qa.yml'
+  workflow_dispatch:
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Compile V234 source validation
+        run: python3 -m py_compile scripts/validate_atlas_v234.py
+      - name: V219 research regression
+        run: python3 scripts/validate_atlas_v219.py
+      - name: V220 research regression
+        run: python3 scripts/validate_atlas_v220.py
+      - name: V221 research regression
+        run: python3 scripts/validate_atlas_v221.py
+      - name: V222 research regression
+        run: python3 scripts/validate_atlas_v222.py
+      - name: V223 research regression
+        run: python3 scripts/validate_atlas_v223.py
+      - name: V224 research regression
+        run: python3 scripts/validate_atlas_v224.py
+      - name: V225 research regression
+        run: python3 scripts/validate_atlas_v225.py
+      - name: V226 research regression
+        run: python3 scripts/validate_atlas_v226.py
+      - name: V227 research regression
+        run: python3 scripts/validate_atlas_v227.py
+      - name: V228 research regression
+        run: python3 scripts/validate_atlas_v228.py
+      - name: V229 research regression
+        run: python3 scripts/validate_atlas_v229.py
+      - name: V230 research regression
+        run: python3 scripts/validate_atlas_v230.py
+      - name: V231 research regression
+        run: python3 scripts/validate_atlas_v231.py
+      - name: V232 research regression
+        run: python3 scripts/validate_atlas_v232.py
+      - name: V233 research regression
+        run: python3 scripts/validate_atlas_v233.py
+      - name: V234 research regression
+        run: python3 scripts/validate_atlas_v234.py

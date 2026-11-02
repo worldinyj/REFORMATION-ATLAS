@@ -1,0 +1,376 @@
+{
+  "version": "2.34",
+  "parent_commit": "754b17e4eed61c89d4bdbbeb0208ef400ad0e216",
+  "baseline": "data/deep/atlas_v233_mbw826_indirect_latin_folio_autography_and_mbw825_k_index.json",
+  "kind": "1529_HESSEN_K_PUBLISHED_ORIGINAL_PHOTOS_AND_FIFTEEN_ARTICLE_ORIGINAL_KOREAN_READERS",
+  "publication_gate": {
+    "can_ship": false,
+    "k_full_folios_directly_viewed": false,
+    "kz_7_13_15_collated": false,
+    "cr1834_letter_folios_read": false,
+    "reproduction_asset_reuse_rights_cleared": false,
+    "expert_review": false,
+    "webapp_integrated": false
+  },
+  "sources": [
+    {
+      "id": "HESSEN2017",
+      "url": "https://landesarchiv.hessen.de/sites/landesarchiv.hessen.de/files/2022-12/archivnachrichten_1-2017.pdf",
+      "type": "OFFICIAL_2017_ARCHIVE_PUBLICATION_K_ORIGINAL_PHOTOS",
+      "level": "PDF_SCREEN_PAGENO9_DIRECT_VISUAL",
+      "page": "printed 10; zero-based PDF 9"
+    },
+    {
+      "id": "GHDI1910",
+      "url": "https://germanhistorydocs.org/de/von-den-reformationen-bis-zum-dreissigjaehrigen-krieg-1500-1648/die-marburger-religionsgespraeche-die-marburger-artikel-1529",
+      "type": "1910_EDITED_GERMAN_TEXT_FULL_15_ARTICLES",
+      "level": "FULL_EDITORIAL_HTML_READ"
+    },
+    {
+      "id": "ZURICHZ",
+      "url": "https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=618165",
+      "type": "Z_SIGNED_COPY_CATALOGUE",
+      "level": "OFFICIAL_ARCHIVE_CATALOGUE_ART7_13_15_ADDITIONS"
+    },
+    {
+      "id": "HAPULSK",
+      "url": "https://www.hapuls.de/node/1472",
+      "type": "REGIONAL_HISTORY_PORTAL_K_FULL_ORIGINAL_IMAGE_LIST",
+      "level": "SEARCH_INDEX_ONLY_PAGE_OPEN_TIMEOUT"
+    },
+    {
+      "id": "HAPULSTEXT",
+      "url": "https://www.hapuls.de/node/1473",
+      "type": "MODERN_GERMAN_TRANSLATION_OF_15_ARTICLES",
+      "level": "SEARCH_INDEX_ONLY_PAGE_OPEN_TIMEOUT"
+    },
+    {
+      "id": "MBW826",
+      "url": "https://melanchthon.hadw-bw.de/regest.html?reg_nr=826",
+      "type": "CR1834_LETTER_NO639_CR1_1106F_REGEST",
+      "level": "OFFICIAL_EDITORIAL_REGEST"
+    },
+    {
+      "id": "CR1834",
+      "url": "https://commons.ptsem.edu/id/philippimelantho01mela",
+      "type": "1834_PRINTED_CR_VOLUME1_CATALOGUE",
+      "level": "DIGITAL_BOOK_METADATA_PDF_UNAVAILABLE"
+    },
+    {
+      "id": "KREGISTER",
+      "url": "https://flugschriften.reformationsportal.de/recherche-im-gesamtbestand/listeneinstieg?cHash=b4cace5da9c214d4d23e5163b49d0c2c&tx_joreformation_pi1004listenuebersicht%5Baction%5D=detail&tx_joreformation_pi1004listenuebersicht%5Bcontroller%5D=Mapservice&tx_joreformation_pi1004listenuebersicht%5BjoDel%5D=1&tx_joreformation_pi1004listenuebersicht%5BjoDetailView%5D=stat_showcase_00000023",
+      "type": "SIGNED_K_HISTORICAL_EXHIBIT_CATALOGUE",
+      "level": "SEARCH_INDEX_ONLY_SITE_PROTECTION"
+    }
+  ],
+  "k_image": {
+    "shelfmark": "Hessisches Staatsarchiv Marburg Best. 3 Nr.245 fol.60r–64v",
+    "source": "HESSEN2017",
+    "pdf_index": 9,
+    "printed_page": 10,
+    "faces_reproduced_and_visually_inspected": 2,
+    "actual_archive_iiif_folios_read": 0,
+    "image_in_github": false,
+    "rights_unreviewed": true,
+    "face_descriptions": [
+      {
+        "id": "FACE_A",
+        "description_ko": "1529년 10월 3일 날짜를 포함한 필사 문서 서두와 여러 줄의 본문·장식적인 문두 획",
+        "exact_original_folio_from_caption": null,
+        "full_text_read": false,
+        "article_7_13_15_read": false
+      },
+      {
+        "id": "FACE_B",
+        "description_ko": "세 묶음으로 배열된 회담 참석자 10명의 수기 이름과 서명 영역",
+        "exact_original_folio_from_caption": null,
+        "full_text_read": false,
+        "article_7_13_15_read": false
+      }
+    ]
+  },
+  "signatories": [
+    {
+      "order": 1,
+      "name_normalized": "Martin Luther",
+      "image_visualized": true,
+      "exact_spelling_diplomatically_proofread": false
+    },
+    {
+      "order": 2,
+      "name_normalized": "Justus Jonas",
+      "image_visualized": true,
+      "exact_spelling_diplomatically_proofread": false
+    },
+    {
+      "order": 3,
+      "name_normalized": "Philipp Melanchthon",
+      "image_visualized": true,
+      "exact_spelling_diplomatically_proofread": false
+    },
+    {
+      "order": 4,
+      "name_normalized": "Andreas Osiander",
+      "image_visualized": true,
+      "exact_spelling_diplomatically_proofread": false
+    },
+    {
+      "order": 5,
+      "name_normalized": "Stephan Agricola",
+      "image_visualized": true,
+      "exact_spelling_diplomatically_proofread": false
+    },
+    {
+      "order": 6,
+      "name_normalized": "Johannes Brenz",
+      "image_visualized": true,
+      "exact_spelling_diplomatically_proofread": false
+    },
+    {
+      "order": 7,
+      "name_normalized": "Johannes Oecolampadius",
+      "image_visualized": true,
+      "exact_spelling_diplomatically_proofread": false
+    },
+    {
+      "order": 8,
+      "name_normalized": "Huldrych Zwingli",
+      "image_visualized": true,
+      "exact_spelling_diplomatically_proofread": false
+    },
+    {
+      "order": 9,
+      "name_normalized": "Martin Bucer",
+      "image_visualized": true,
+      "exact_spelling_diplomatically_proofread": false
+    },
+    {
+      "order": 10,
+      "name_normalized": "Caspar Hedio",
+      "image_visualized": true,
+      "exact_spelling_diplomatically_proofread": false
+    }
+  ],
+  "articles": [
+    {
+      "article": 1,
+      "title_ko": "삼위일체 하나님",
+      "explanation_ko": "니케아 신경을 바탕으로 한 분 하나님과 성부·성자·성령을 함께 고백한다.",
+      "evidence": "GHDI edited WA30/3 (1910) pp160–171",
+      "original_k_article_read": false,
+      "original_z_article_read": false,
+      "reported_z_addition": false,
+      "publication_approved": false
+    },
+    {
+      "article": 2,
+      "title_ko": "성자의 성육신",
+      "explanation_ko": "성자가 성령의 역사로 마리아에게서 나셔 참된 인간이 되셨다는 공통 고백이다.",
+      "evidence": "GHDI edited WA30/3 (1910) pp160–171",
+      "original_k_article_read": false,
+      "original_z_article_read": false,
+      "reported_z_addition": false,
+      "publication_approved": false
+    },
+    {
+      "article": 3,
+      "title_ko": "죽음과 부활",
+      "explanation_ko": "그리스도의 십자가 죽음, 부활, 승천과 다시 오심을 구원 신앙의 중심에 둔다.",
+      "evidence": "GHDI edited WA30/3 (1910) pp160–171",
+      "original_k_article_read": false,
+      "original_z_article_read": false,
+      "reported_z_addition": false,
+      "publication_approved": false
+    },
+    {
+      "article": 4,
+      "title_ko": "원죄와 구원의 필요",
+      "explanation_ko": "죄로 인한 인간의 근본적 문제와 그리스도를 통한 구원의 필요를 인정한다.",
+      "evidence": "GHDI edited WA30/3 (1910) pp160–171",
+      "original_k_article_read": false,
+      "original_z_article_read": false,
+      "reported_z_addition": false,
+      "publication_approved": false
+    },
+    {
+      "article": 5,
+      "title_ko": "믿음으로 받는 구원",
+      "explanation_ko": "그리스도를 믿는 믿음을 인간의 공로나 종교적 신분과 구별한다.",
+      "evidence": "GHDI edited WA30/3 (1910) pp160–171",
+      "original_k_article_read": false,
+      "original_z_article_read": false,
+      "reported_z_addition": false,
+      "publication_approved": false
+    },
+    {
+      "article": 6,
+      "title_ko": "성령이 주시는 믿음",
+      "explanation_ko": "믿음은 사람이 공로로 얻는 것이 아니라 복음의 선포 속에서 성령이 주시는 선물이다.",
+      "evidence": "GHDI edited WA30/3 (1910) pp160–171",
+      "original_k_article_read": false,
+      "original_z_article_read": false,
+      "reported_z_addition": false,
+      "publication_approved": false
+    },
+    {
+      "article": 7,
+      "title_ko": "믿음과 의롭다 하심",
+      "explanation_ko": "하나님이 그리스도를 믿는 이에게 의를 인정하시는 은혜를 설명한다.",
+      "evidence": "GHDI edited WA30/3 (1910) pp160–171",
+      "original_k_article_read": false,
+      "original_z_article_read": false,
+      "reported_z_addition": true,
+      "publication_approved": false
+    },
+    {
+      "article": 8,
+      "title_ko": "복음 선포와 말씀",
+      "explanation_ko": "성령의 믿음 형성과 복음의 외적·구두 선포가 연결된다는 공통 이해다.",
+      "evidence": "GHDI edited WA30/3 (1910) pp160–171",
+      "original_k_article_read": false,
+      "original_z_article_read": false,
+      "reported_z_addition": false,
+      "publication_approved": false
+    },
+    {
+      "article": 9,
+      "title_ko": "세례와 약속",
+      "explanation_ko": "세례는 빈 표시가 아니라 하나님의 명령과 약속에 결부된 성례다.",
+      "evidence": "GHDI edited WA30/3 (1910) pp160–171",
+      "original_k_article_read": false,
+      "original_z_article_read": false,
+      "reported_z_addition": false,
+      "publication_approved": false
+    },
+    {
+      "article": 10,
+      "title_ko": "선행과 사랑",
+      "explanation_ko": "기도, 이웃 사랑, 어려움을 견디는 삶을 믿음에서 나타나는 열매로 이해한다.",
+      "evidence": "GHDI edited WA30/3 (1910) pp160–171",
+      "original_k_article_read": false,
+      "original_z_article_read": false,
+      "reported_z_addition": false,
+      "publication_approved": false
+    },
+    {
+      "article": 11,
+      "title_ko": "고백과 목회적 위로",
+      "explanation_ko": "죄와 근심을 나누는 고백은 강제가 아니라 복음의 위로를 위한 자유로운 실천이다.",
+      "evidence": "GHDI edited WA30/3 (1910) pp160–171",
+      "original_k_article_read": false,
+      "original_z_article_read": false,
+      "reported_z_addition": false,
+      "publication_approved": false
+    },
+    {
+      "article": 12,
+      "title_ko": "시민 질서와 세속 권력",
+      "explanation_ko": "사회 법과 통치는 선한 직분이 될 수 있으며 그리스도인의 신앙과 양립할 수 있다.",
+      "evidence": "GHDI edited WA30/3 (1910) pp160–171",
+      "original_k_article_read": false,
+      "original_z_article_read": false,
+      "reported_z_addition": false,
+      "publication_approved": false
+    },
+    {
+      "article": 13,
+      "title_ko": "교회 관습의 자유",
+      "explanation_ko": "성경 말씀과 충돌하지 않는 인간의 교회 관습은 사랑과 평화를 고려해 자유롭게 결정한다.",
+      "evidence": "GHDI edited WA30/3 (1910) pp160–171",
+      "original_k_article_read": false,
+      "original_z_article_read": false,
+      "reported_z_addition": true,
+      "publication_approved": false
+    },
+    {
+      "article": 14,
+      "title_ko": "유아세례",
+      "explanation_ko": "유아세례의 정당성과 아이가 교회의 은혜 공동체에 속한다는 견해를 인정한다.",
+      "evidence": "GHDI edited WA30/3 (1910) pp160–171",
+      "original_k_article_read": false,
+      "original_z_article_read": false,
+      "reported_z_addition": false,
+      "publication_approved": false
+    },
+    {
+      "article": 15,
+      "title_ko": "성만찬: 부분 합의와 남은 차이",
+      "explanation_ko": "성만찬의 중요성과 성령을 통한 믿음의 격려는 함께 고백했으나 몸과 피의 육체적 임재 여부에는 이견을 남겼다. 그럼에도 서로에 대한 사랑과 기도를 약속한다.",
+      "evidence": "GHDI edited WA30/3 (1910) pp160–171",
+      "original_k_article_read": false,
+      "original_z_article_read": false,
+      "reported_z_addition": true,
+      "publication_approved": false
+    }
+  ],
+  "bridges": [
+    {
+      "id": "BRIDGE7",
+      "articles": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "ko": "아우크스부르크 신앙고백 1530년의 기독론·죄·칭의 주제와 나란히 살펴볼 수 있으나 직접 문구 차용은 별도 검증이 필요하다."
+    },
+    {
+      "id": "BRIDGEWORD",
+      "articles": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "ko": "복음 선포, 세례, 믿음의 열매, 목회적 위로를 하나의 공동체 실천 구조로 읽을 수 있다."
+    },
+    {
+      "id": "BRIDGEVAR",
+      "articles": [
+        7,
+        13,
+        15
+      ],
+      "ko": "취리히 Z에는 K와 다른 추가 문구가 있다는 소장목록 정보가 있다. 1910년 비평판 텍스트를 K나 Z의 확정 필사 읽기로 간주하지 않는다."
+    },
+    {
+      "id": "BRIDGEEUC",
+      "articles": [
+        15
+      ],
+      "ko": "공통된 성찬 진술과 육체적 임재를 둘러싼 미해결 문제를 병행 설명한다. 서명이 곧 성찬 교제의 성립은 아니다."
+    }
+  ],
+  "cr1834": {
+    "edition": "Corpus Reformatorum I (1834)",
+    "target": "1106f Nr.639 MBW826",
+    "book_catalogue_found": true,
+    "actual_page_image_read": false,
+    "archive_pdf_attempt": "INTERNAL_ERROR",
+    "archive_ocr_attempt": "TIMEOUT"
+  },
+  "open_issues": [
+    "Locate full K folio series with stable 1529 direct repository images",
+    "Assign exact folio numbers to the two reproduced faces",
+    "Direct K/Z Art7,13,15 original handwritten variants",
+    "Open CR1834 letter 1106–1107 and proofread against MBW.T3",
+    "Check media rights before embedding archival image",
+    "Editorial review of 15 new Korean explanations"
+  ],
+  "metrics": {
+    "source_records": 8,
+    "official_k_1529_original_photographed_faces_visually_read": 2,
+    "official_2017_pages_read": 1,
+    "new_korean_article_summaries": 15,
+    "signature_names_crosschecked": 10,
+    "thematic_bridges": 4,
+    "original_k_iiif_folios_read": 0,
+    "kz_7_13_15_direct_collations": 0,
+    "cr1834_letter_pages_read": 0,
+    "prior_distinct_1529_conversation_pages": 4,
+    "published_items": 0
+  }
+}
