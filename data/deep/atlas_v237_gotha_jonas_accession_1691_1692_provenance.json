@@ -1,0 +1,308 @@
+{
+  "version": "2.37",
+  "parent_commit": "cb851cd310c596846ef8dac154b47f4570ec2c01",
+  "baseline": "data/deep/atlas_v236_jonas_1529_letter_double_copy_and_textual_transmission.json",
+  "kind": "JONAS_ACCESSION_ID_AND_SECKENDORFF_PUBLICATION_PROVENANCE_AUDIT",
+  "publication_gate": {
+    "can_ship": false,
+    "gotha_copy_images_read": false,
+    "seckendorff_1692_p139_image_read": false,
+    "cr1834_columns_read": false,
+    "k_z_original_variants_read": false,
+    "rights_checked": false,
+    "expert_reviewed": false,
+    "webapp_updated": false
+  },
+  "accession": {
+    "wrong_id": "DE-611-HS-4254430",
+    "correct_jonas_id": "DE-611-HS-4254434",
+    "wrong_work": "Justus Menius 1552 excerpt against Andreas Osiander",
+    "gotha_folio": "Chart. A 453, 24v–25v",
+    "repaired_in_v236_parent": true
+  },
+  "imprint": {
+    "first_book_publication": 1687,
+    "complete_publication": "autumn 1691",
+    "title_page_year": 1692,
+    "scholar": "Daniel Gehrt, 2024 Gotha library research",
+    "actual_1692_print_page_read": false
+  },
+  "digitized_1692": {
+    "object_id": "bsb10716130",
+    "persistent_url": "https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb10716130-9",
+    "viewer_url": "https://www.digitale-sammlungen.de/view/bsb10716130",
+    "viewer_opened": false,
+    "iiif_download_verified": false
+  },
+  "sources": [
+    {
+      "id": "GOTHA-FIND",
+      "url": "https://kalliope.staatsbibliothek-berlin.de/de/findingaid?fa.id=DE-611-BF-76744&fq=ead.pers.index%3A%28%22Fox%2C+Edward+%281496-%29%22%29&htmlFull=false&lang=de&lastparam=true",
+      "level": "DIRECT_FINDING_AID",
+      "finding": "Adjacent records: 4254430 1552 Menius extract fol24v; 4254434 Jonas letter fol24v–25v. Object-level accession must not be confused."
+    },
+    {
+      "id": "GOTHA-BLOG",
+      "url": "https://blog-fbg.uni-erfurt.de/2024/04/ein-wissenschaftliches-grossprojekt-in-laendlicher-abgeschiedenheit/",
+      "level": "FULL_INSTITUTIONAL_2024_ARTICLE",
+      "finding": "Daniel Gehrt: first book fall 1687; completed history fall 1691 and publisher Gleditsch anticipatorily dated 1692; 1688–1691 access to Weimar archives; more than 400 volumes transferred."
+    },
+    {
+      "id": "BSB-BOOK",
+      "url": "https://www.digitale-sammlungen.de/view/bsb10716130",
+      "level": "DIGITAL_OBJECT_IDENTIFIED_VIEWER_UNREACHABLE",
+      "finding": "Official Gotha library article points to full digitization bsb10716130 for 1692 title year. Target letter p139 not viewed."
+    },
+    {
+      "id": "BSB-URN",
+      "url": "https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb10716130-9",
+      "level": "INSTITUTIONAL_PERSISTENT_LINK_REDIRECT_UNREACHABLE",
+      "finding": "Gotha published URN of full book; redirects to BSB viewer, inaccessible in this environment."
+    },
+    {
+      "id": "BSB-IIIF",
+      "url": "https://digitale-sammlungen.de/en/interfaces",
+      "level": "INSTITUTIONAL_API_DOCUMENTATION",
+      "finding": "Official IIIF v2 manifest pattern; reconstructed candidate manifest for bsb10716130 failed to load, cannot infer images/pages."
+    },
+    {
+      "id": "GOTHA-B28",
+      "url": "https://kalliope.staatsbibliothek-berlin.de/ead?ead.id=DE-611-HS-3422547",
+      "level": "DIRECT_ARCHIVE_CATALOGUE",
+      "finding": "Meusel later copy Chart B28 f41v–43r, Aquila appears in title but controlled metadata reports Bezug nicht dokumentiert."
+    },
+    {
+      "id": "CR1834",
+      "url": "https://commons.ptsem.edu/id/philippimelantho01mela",
+      "level": "DIGITAL_BOOK_CATALOGUE_NOT_TARGET_TEXT",
+      "finding": "1834 corpus volume1 with Jonas col1097 and Melanchthon col1106f, printed columns not directly read."
+    },
+    {
+      "id": "FUDGE1997",
+      "url": "https://downloads.whitehorsetc.com/Icarus_of_Basel_Oecolampadius_and_the_Ea.pdf",
+      "level": "MODERN_1997_PDF_PREVIOUSLY_VISUALLY_CHECKED",
+      "finding": "p268 cites short Jonas favorable evaluation of Oecolampadius from CR I col1097; not independently 1529 autograph."
+    },
+    {
+      "id": "GOTHA-LICENSE",
+      "url": "https://blog-fbg.uni-erfurt.de/2024/04/ein-wissenschaftliches-grossprojekt-in-laendlicher-abgeschiedenheit/",
+      "level": "BLOG_LICENSE_ONLY",
+      "finding": "Gotha site blog under CC BY-SA 4.0; this does not automatically license embedded manuscript or digitized 1692 print scans."
+    }
+  ],
+  "timeline": [
+    {
+      "year": 1680,
+      "id": "E-1680",
+      "event": "Louis Maimbourg, Histoire du Lutheranisme",
+      "meaning_ko": "제켄도르프 역사서가 반박하려 했던 가톨릭 측 종교개혁 역사 해석",
+      "source_ids": [
+        "GOTHA-BLOG"
+      ]
+    },
+    {
+      "year": 1686,
+      "id": "E-1686",
+      "event": "Meuselwitz fire 9 June",
+      "meaning_ko": "사료 수집과 출판 준비에 타격을 준 화재",
+      "source_ids": [
+        "GOTHA-BLOG"
+      ]
+    },
+    {
+      "year": 1687,
+      "id": "E-1687",
+      "event": "First book of Historia Lutheranismi published",
+      "meaning_ko": "전체 책에 앞서 첫째 책이 가을에 출판됨",
+      "source_ids": [
+        "GOTHA-BLOG"
+      ]
+    },
+    {
+      "year": 1688,
+      "id": "E-1688",
+      "event": "Weimar archival access and scholarly network grows",
+      "meaning_ko": "제켄도르프가 바이마르 사료와 지역 협조자들의 도움으로 문헌 기반 확대",
+      "source_ids": [
+        "GOTHA-BLOG"
+      ]
+    },
+    {
+      "year": 1691,
+      "id": "E-1691",
+      "event": "Completed full work published autumn",
+      "meaning_ko": "고타 기관 연구에 따르면 완성본의 실제 공급은 1691년 가을",
+      "source_ids": [
+        "GOTHA-BLOG"
+      ]
+    },
+    {
+      "year": 1692,
+      "id": "E-1692",
+      "event": "Imprint/title-page year 1692",
+      "meaning_ko": "출판사 Gleditsch가 표제에 1692년을 부여, 실제 가을 1691년 출판과 구별",
+      "source_ids": [
+        "GOTHA-BLOG",
+        "BSB-BOOK"
+      ]
+    }
+  ],
+  "witness_ladder": [
+    {
+      "id": "L-1529",
+      "period": "1529",
+      "type": "Jonas original letter",
+      "evidence_status": "ORIGINAL_AUTOGRAPH_NOT_READ",
+      "read_pages": 0
+    },
+    {
+      "id": "L-17C",
+      "period": "17th century",
+      "type": "Gotha A453 and B28 distinct physical copied objects",
+      "evidence_status": "TWO_ARCHIVAL_CATALOGUE_ENTRIES_ONLY",
+      "read_pages": 0
+    },
+    {
+      "id": "L-1691",
+      "period": "1691/1692",
+      "type": "Seckendorff final book with 1692 imprint",
+      "evidence_status": "OFFICIAL_BOOK_OBJECT_IDENTIFIED_P139_UNREAD",
+      "read_pages": 0
+    },
+    {
+      "id": "L-1834",
+      "period": "1834",
+      "type": "Corpus Reformatorum vol1 edited letters",
+      "evidence_status": "BIBLIOGRAPHY_ONLY_COL1097_NOT_READ",
+      "read_pages": 0
+    },
+    {
+      "id": "L-1997",
+      "period": "1997",
+      "type": "Fudge academic essay quoting 1834 CR",
+      "evidence_status": "MODERN_PDF_P268_PREVIOUSLY_IMAGE_READ",
+      "read_pages": 1
+    },
+    {
+      "id": "L-2024",
+      "period": "2024",
+      "type": "Gotha scholarly historiography of Seckendorff publication network",
+      "evidence_status": "DIRECT_FULL_INSTITUTIONAL_ARTICLE_READ",
+      "read_pages": 0
+    }
+  ],
+  "reader_sections": [
+    {
+      "id": 1,
+      "title_ko": "문서가 하나인데 식별번호를 잘못 쓰면",
+      "summary_ko": "같은 고타 필사집 24v에 요나스의 1529년 편지와 1552년 논쟁 문헌의 발췌가 이웃한 별개 문헌 객체로 목록화되어 있다. 같은 잎 번호를 공유한다고 문서의 정체성이 동일한 것은 아니다. 4254434를 4254430으로 잘못 연결하면 한 사람의 편지에서 전혀 다른 신학 논쟁으로 독자의 탐색이 이탈한다.",
+      "refs": [
+        "GOTHA-FIND"
+      ]
+    },
+    {
+      "id": 2,
+      "title_ko": "16세기 편지가 17세기 역사서에 도착하기까지",
+      "summary_ko": "요나스가 1529년 보낸 편지의 후대 사본이 제켄도르프의 수집자료에 남아 있다. 제켄도르프는 종교개혁을 가톨릭 측 역사 비판에 대응해 변호하려는 작업에서 신학자들의 편지를 수집하고 옮겨 썼다. 따라서 현대에 남은 인용문은 원작자의 의도와 후대 편집자의 선택이라는 두 층위를 통과한다.",
+      "refs": [
+        "GOTHA-BLOG",
+        "GOTHA-FIND"
+      ]
+    },
+    {
+      "id": 3,
+      "title_ko": "1692년이라고 적혔지만 1691년에 세상에 나온 책",
+      "summary_ko": "고타 연구도서관이 직접 발표한 출판 연구에 따르면 역사서 전체는 1691년 가을 완성·출판됐으나 출판사 글레디치가 서지상의 연도를 1692년으로 표시했다. 첫째 책은 이미 1687년에 출판됐다. 따라서 책의 첫 출판·전체 완성·표제지 날짜 세 가지를 구분해야 한다.",
+      "refs": [
+        "GOTHA-BLOG",
+        "BSB-BOOK"
+      ]
+    },
+    {
+      "id": 4,
+      "title_ko": "출판을 가능하게 한 숨은 편지와 서고들",
+      "summary_ko": "바이마르 기록을 뫼젤비츠로 전달한 사람들과 고타에서 연구를 도운 텐첼 같은 학자들은 제켄도르프의 역사서를 만드는 과정의 중요한 중재자였다. 2024년 고타의 정밀한 서지 연구는 단일 위대한 저술가의 이야기로 축소할 수 없는 문헌 생산의 네트워크를 드러냈다.",
+      "refs": [
+        "GOTHA-BLOG"
+      ]
+    },
+    {
+      "id": 5,
+      "title_ko": "역사가 읽은 한 줄과 원본에 있던 문장의 거리",
+      "summary_ko": "요나스가 외콜람파디우스의 온유함을 높이 평가했다는 구절은 1834년 CR을 통해 1997년 논문에 인용돼 있다. 제켄도르프의 1692년 표제 책에서 그 말의 어떤 범위가 인쇄되었는지, 고타 A453와 B28의 철자가 완전히 같은지는 원판이 확보되기 전에는 단정할 수 없다.",
+      "refs": [
+        "FUDGE1997",
+        "CR1834",
+        "GOTHA-FIND"
+      ]
+    }
+  ],
+  "open_issues": [
+    {
+      "id": "OPEN-A453",
+      "question": "Obtain Gotha A453 f24v–25v actual scans; determine whether 1552 excerpt and Jonas letter share same physical side and distinguish hands/text layout."
+    },
+    {
+      "id": "OPEN-B28",
+      "question": "Obtain Gotha B28 f41v–43r actual images; resolve Aquila addressee discrepancy from salutation."
+    },
+    {
+      "id": "OPEN-SECK",
+      "question": "Open BSB bsb10716130 facsimile p139f Lib II Sect 17 §47 and confirm letter wording; currently URI only."
+    },
+    {
+      "id": "OPEN-PUBLISH",
+      "question": "Check actual dated colophon/title page against Gotha claim autumn1691 vs 1692 imprint; state historical claim sourced to 2024 study meanwhile."
+    },
+    {
+      "id": "OPEN-CR-JONAS",
+      "question": "Read 1834 CR I column1097 original scan and compare to Fudge 1997 Latin excerpt."
+    },
+    {
+      "id": "OPEN-CR-MEL",
+      "question": "Read CR I column1106f original scan for MBW826 Melanchthon."
+    },
+    {
+      "id": "OPEN-STEMMA",
+      "question": "Compare A453 B28 1692 print CR1834 variants before drawing direct copying arrow; current network only candidate."
+    },
+    {
+      "id": "OPEN-RIGHTS",
+      "question": "Differentiate CC BY-SA Gotha blog text from archival facsimiles / BSB digitized old-print media rights."
+    }
+  ],
+  "metrics": {
+    "catalogue_id_fixes_in_parent_v236": 1,
+    "new_1529_manuscript_pages_seen": 0,
+    "source_records": 9,
+    "publication_timeline_events": 6,
+    "documentary_ladder_levels": 6,
+    "korean_scholarly_reader_sections": 5,
+    "original_1691_1692_book_pages_seen": 0,
+    "existing_k_official_photographed_faces": 2,
+    "existing_zwingli_melanchthon_original_pages": 4,
+    "open_issues": 8,
+    "webapp_publications": 0
+  },
+  "digital_iiif": {
+    "candidate_url": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10716130/manifest",
+    "status": "CONSTRUCTED_FROM_OFFICIAL_BSB_PATTERN_NOT_RETRIEVED",
+    "attempt_web": "INTERNAL_ERROR",
+    "attempt_container": "DNS_FAILURE",
+    "canvas_ids_extracted": 0,
+    "original_images_1692_read": 0
+  },
+  "research_network": {
+    "phases": [
+      "1682–1684: preparatory contacts and scholarly/ducal archive permissions",
+      "1685–1687: interrupted collection with 9 June 1686 fire, first book published",
+      "1688–1691: Pfanner/Tentzel mediators, archival volumes transported to Meuselwitz, complete book published"
+    ],
+    "reported_400_volumes": "over 400 Weimar archival volumes according to Seckendorff as cited by Gehrt",
+    "gotha_df_project": "2024 Gotha DFG catalogue project exceeded 7900 documents in 32 archive/library collections",
+    "bias_limit": "Lutheran apologetic work countering Maimbourg, not assumption that all later Jonas citations are complete or impartial",
+    "source_ids": [
+      "GOTHA-BLOG"
+    ]
+  }
+}
