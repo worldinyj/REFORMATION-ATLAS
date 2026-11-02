@@ -1,0 +1,342 @@
+{
+  "version": "2.20",
+  "kind": "CRITICAL_VARIANT_COLLATION_RESEARCH_APPENDIX",
+  "base_v219_commit": "f865c18651b0e3a393fc80dfb1577c96dfdb5994",
+  "base_dataset": "data/deep/atlas_v219_structured_ten_reader_critical_editions.json",
+  "method": "V219 corpus unchanged. Text evidence distinguished by source level: archive catalogue, 1910 edited German transcription, 1858 critical print/apparel notes, and original 16c manuscript/edition. A note about a manuscript is not direct witness collation.",
+  "publication_gate": {
+    "can_ship": false,
+    "historian_approved": false,
+    "original_16c_witness_collation_complete": false,
+    "media_rights_cleared": false,
+    "webapp_integrated": false
+  },
+  "source_registry": [
+    {
+      "id": "V220-ZCAT",
+      "type": "ARCHIVAL_CATALOGUE",
+      "title": "Staatsarchiv Zürich E I 3.1, Nr. 54",
+      "url": "https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=618165",
+      "locator": "Überlieferung: Ausfertigung für Zürich (Z), Zusätze zu Artikel 7/13/15 fehlen in K",
+      "visually_read_original": false
+    },
+    {
+      "id": "V220-GHDI",
+      "type": "LATER_EDITORIAL_TRANSCRIPTION",
+      "title": "Marburger Artikel, GHDI transcription from WA 30/3 (1910), pp.160–171",
+      "url": "https://germanhistorydocs.org/de/von-den-reformationen-bis-zum-dreissigjaehrigen-krieg-1500-1648/die-marburger-religionsgespraeche-die-marburger-artikel-1529",
+      "locator": "Articles 7,13,15",
+      "visually_read_original": false
+    },
+    {
+      "id": "V220-CR1858",
+      "type": "NINETEENTH_CENTURY_CRITICAL_PRINT_SCAN",
+      "title": "Corpus Reformatorum 26 (1858), annotated Ed.1/2/3/4",
+      "url": "https://www.augsburg1540.com/uploads/1/3/8/9/138903771/1540_latin_text_from_corpus_reformandum.pdf",
+      "locator": "PDF p.1: Ed.1/2/3/4 metadata; PDF p.2 and p.3: printed pp.351–354, Article IV; PDF p.5: printed pp.357–358, Article X and apparatus n.34",
+      "visually_read_original": false,
+      "printed_pages_visually_checked": [
+        351,
+        352,
+        353,
+        354,
+        357,
+        358
+      ]
+    },
+    {
+      "id": "V220-SCHAFF",
+      "type": "NINETEENTH_CENTURY_LATIN_TRANSCRIPTION",
+      "title": "Schaff, Creeds of Christendom 1531 Latin transcription via online edition",
+      "url": "https://www.uecf.net/books/collected-works/chapter1488.html",
+      "locator": "Art.IV; textual descent claimed from 1531 editio princeps; independent 16c original not verified",
+      "visually_read_original": false
+    }
+  ],
+  "witness_registry": [
+    {
+      "id": "MAR-Z",
+      "year": "1529",
+      "role": "ZURICH_MANUSCRIPT_ORIGINAL",
+      "repository": "Staatsarchiv Zürich",
+      "shelfmark": "E I 3.1, Nr. 54",
+      "evidence": "CATALOGUED_NOT_DIRECTLY_COLLATED",
+      "source_ids": [
+        "V220-ZCAT"
+      ]
+    },
+    {
+      "id": "MAR-K",
+      "year": "1529",
+      "role": "HESSIAN_MANUSCRIPT_ORIGINAL",
+      "repository": "Hessisches Staatsarchiv Marburg",
+      "shelfmark": "Best. 3, Nr. 245, fol. 60r–64v",
+      "evidence": "CATALOGUED_NOT_DIRECTLY_COLLATED",
+      "source_ids": [
+        "V220-ZCAT"
+      ]
+    },
+    {
+      "id": "MAR-WA-GHDI",
+      "year": "1910/modern",
+      "role": "EDITED_GERMAN_TRANSCRIPTION",
+      "repository": "WA 30/3 via GHDI",
+      "shelfmark": "pp.160–171; Articles 7/13/15",
+      "evidence": "EDITORIAL_TEXT_READ_NOT_ZK_COLLATED",
+      "source_ids": [
+        "V220-GHDI"
+      ]
+    },
+    {
+      "id": "MAR-ZURICH-PRINT",
+      "year": "1529",
+      "role": "CONTEMPORARY_ZURICH_PRINT_CANDIDATES",
+      "repository": "Zentralbibliothek Zürich e-rara",
+      "shelfmark": "VD16 W 2119 / W 2118; catalogue only",
+      "evidence": "IDENTIFIED_NOT_VISUALLY_READ",
+      "source_ids": [
+        "V220-ZCAT"
+      ]
+    },
+    {
+      "id": "AUG-ED1",
+      "year": "1531",
+      "role": "AUTHOR_EDITION_4TO",
+      "repository": "Wittenberg Georg Rhau; represented in CR apparatus",
+      "shelfmark": "Ed. 1, 1531 quarto",
+      "evidence": "CR1858_INDIRECT_COLLATION_ONLY",
+      "source_ids": [
+        "V220-CR1858"
+      ]
+    },
+    {
+      "id": "AUG-ED2",
+      "year": "1531",
+      "role": "FIRST_VARIATA_8VO",
+      "repository": "Wittenberg; represented in CR apparatus",
+      "shelfmark": "Ed. 2, 1531 octavo",
+      "evidence": "CR1858_INDIRECT_COLLATION_ONLY",
+      "source_ids": [
+        "V220-CR1858"
+      ]
+    },
+    {
+      "id": "AUG-ED3",
+      "year": "1540",
+      "role": "SECOND_VARIATA_4TO",
+      "repository": "Wittenberg; text reprinted in CR",
+      "shelfmark": "Ed. 3, 1540 quarto (CR title); editor notes circa 1535–1540",
+      "evidence": "CR1858_PRINTED_BASE_TEXT_ONLY",
+      "source_ids": [
+        "V220-CR1858"
+      ]
+    },
+    {
+      "id": "AUG-ED4",
+      "year": "1541-1542",
+      "role": "THIRD_VARIATA_8VO",
+      "repository": "Wittenberg; represented in CR apparatus",
+      "shelfmark": "Ed. 4, 1541–1542 octavo",
+      "evidence": "CR1858_INDIRECT_COLLATION_ONLY",
+      "source_ids": [
+        "V220-CR1858"
+      ]
+    }
+  ],
+  "variant_units": [
+    {
+      "id": "V220-MAR-07",
+      "reader_key": "MARBURG",
+      "article": "7",
+      "source_note_id": "NOTE-V219-DRAFT-V217-01",
+      "v219_sentence_ids": [
+        "SNT-V219-MARBURG-0056",
+        "SNT-V219-MARBURG-0058",
+        "SNT-V219-MARBURG-0059"
+      ],
+      "witness_ids": [
+        "MAR-Z",
+        "MAR-K",
+        "MAR-WA-GHDI"
+      ],
+      "attested_difference": "Z contains an addition absent from K (catalogue assertion); precise added wording unverified",
+      "edited_text_keyword": "glaube sey vnser gerechtigkeit fur got",
+      "edited_text_status": "1910 WA edited witness transcription via GHDI, not assigned to Z or K",
+      "z_extra_text": null,
+      "k_counterpart_text": null,
+      "evidence_source_ids": [
+        "V220-ZCAT",
+        "V220-GHDI"
+      ],
+      "evidence_level": "CATALOGUE_VARIANT_RELATION_WITH_EDITORIAL_ARTICLE_CONTEXT",
+      "original_witness_collated": false,
+      "review_status": "PENDING_DUAL_WITNESS_IMAGES"
+    },
+    {
+      "id": "V220-MAR-13",
+      "reader_key": "MARBURG",
+      "article": "13",
+      "source_note_id": "NOTE-V219-DRAFT-V217-01",
+      "v219_sentence_ids": [
+        "SNT-V219-MARBURG-0056",
+        "SNT-V219-MARBURG-0058",
+        "SNT-V219-MARBURG-0059"
+      ],
+      "witness_ids": [
+        "MAR-Z",
+        "MAR-K",
+        "MAR-WA-GHDI"
+      ],
+      "attested_difference": "Z contains an addition absent from K (catalogue assertion); precise added wording unverified",
+      "edited_text_keyword": "mag man frey halten oder lassen",
+      "edited_text_status": "1910 WA edited witness transcription via GHDI, not assigned to Z or K",
+      "z_extra_text": null,
+      "k_counterpart_text": null,
+      "evidence_source_ids": [
+        "V220-ZCAT",
+        "V220-GHDI"
+      ],
+      "evidence_level": "CATALOGUE_VARIANT_RELATION_WITH_EDITORIAL_ARTICLE_CONTEXT",
+      "original_witness_collated": false,
+      "review_status": "PENDING_DUAL_WITNESS_IMAGES"
+    },
+    {
+      "id": "V220-MAR-15",
+      "reader_key": "MARBURG",
+      "article": "15",
+      "source_note_id": "NOTE-V219-DRAFT-V217-01",
+      "v219_sentence_ids": [
+        "SNT-V219-MARBURG-0055",
+        "SNT-V219-MARBURG-0056",
+        "SNT-V219-MARBURG-0059"
+      ],
+      "witness_ids": [
+        "MAR-Z",
+        "MAR-K",
+        "MAR-WA-GHDI"
+      ],
+      "attested_difference": "Z contains an addition absent from K (catalogue assertion); precise added wording unverified",
+      "edited_text_keyword": "nit vergleicht haben",
+      "edited_text_status": "1910 WA edited witness transcription via GHDI, not assigned to Z or K",
+      "z_extra_text": null,
+      "k_counterpart_text": null,
+      "evidence_source_ids": [
+        "V220-ZCAT",
+        "V220-GHDI"
+      ],
+      "evidence_level": "CATALOGUE_VARIANT_RELATION_WITH_EDITORIAL_ARTICLE_CONTEXT",
+      "original_witness_collated": false,
+      "review_status": "PENDING_DUAL_WITNESS_IMAGES"
+    },
+    {
+      "id": "V220-AUG-04",
+      "reader_key": "AUGSBURG",
+      "article": "IV",
+      "source_note_id": "NOTE-V219-DRAFT-V217-03",
+      "v219_sentence_ids": [
+        "SNT-V219-AUGSBURG-0068",
+        "SNT-V219-AUGSBURG-0069",
+        "SNT-V219-AUGSBURG-0070",
+        "SNT-V219-AUGSBURG-0072"
+      ],
+      "witness_ids": [
+        "AUG-ED1",
+        "AUG-ED2",
+        "AUG-ED3",
+        "AUG-ED4"
+      ],
+      "ed1_reading_excerpt": "Item docent, quod homines non possint justificari coram Deo propriis viribus, meritis aut operibus",
+      "ed3_reading_excerpt": "Vt autem consequamur haec beneficia Christi, scilicet remissionem peccatorum, iustificationem, et vitam aeternam",
+      "delta_class": "WHOLE_ARTICLE_REWRITE_NOT_SINGLE_WORD_SUBSTITUTION",
+      "edition_apparatus_note": "CR 26 printed p.352 n.5: sic totus hic art. in Editt. 3. 4. mutatus est; Ed.2 = Ed.1, with direction to p.275 lines 5–12.",
+      "evidence_source_ids": [
+        "V220-CR1858",
+        "V220-SCHAFF"
+      ],
+      "evidence_level": "CR1858_PAGE_AND_APPARATUS_VISUALLY_VERIFIED_16C_PRINT_UNREAD",
+      "original_witness_collated": false,
+      "review_status": "CR_PAGE_CHECKED_EARLY_PRINT_PENDING"
+    },
+    {
+      "id": "V220-AUG-10",
+      "reader_key": "AUGSBURG",
+      "article": "X",
+      "source_note_id": "NOTE-V219-DRAFT-V217-02",
+      "v219_sentence_ids": [
+        "SNT-V219-AUGSBURG-0063",
+        "SNT-V219-AUGSBURG-0064",
+        "SNT-V219-AUGSBURG-0065",
+        "SNT-V219-AUGSBURG-0066",
+        "SNT-V219-AUGSBURG-0067"
+      ],
+      "witness_ids": [
+        "AUG-ED1",
+        "AUG-ED2",
+        "AUG-ED3",
+        "AUG-ED4"
+      ],
+      "ed1_reading_excerpt": "quod corpus et sanguis Christi vere adsint, et distribuantur vescentibus in coena Domini",
+      "ed3_reading_excerpt": "quod cum pane et vino vere exhibeantur corpus et sanguis Christi, vescentibus in Coena Domini",
+      "delta_class": "PRESENCE_DISTRIBUTION_TO_WITH_BREAD_WINE_OFFERING_AND_CONDEMNATION_OMISSION",
+      "edition_apparatus_note": "CR 26 printed p.357 n.34 juxtaposes Ed.3/4 with Ed.1/2; Ed.1/2 retain et improbant secus docentes.",
+      "evidence_source_ids": [
+        "V220-CR1858"
+      ],
+      "evidence_level": "CR1858_PAGE_AND_APPARATUS_VISUALLY_VERIFIED_16C_PRINT_UNREAD",
+      "original_witness_collated": false,
+      "review_status": "CR_PAGE_CHECKED_EARLY_PRINT_PENDING"
+    }
+  ],
+  "preservation_baseline": {
+    "chapters": 10,
+    "sections": 74,
+    "paragraphs": 128,
+    "sentences": 543,
+    "focus_anchors": 30,
+    "journey_stage_bridges": 30,
+    "codepoints": 35102
+  },
+  "metrics": {
+    "comparison_units": 5,
+    "marburg_catalogue_differences": 3,
+    "augsburg_critical_print_collations": 2,
+    "direct_16c_witness_collations": 0,
+    "linked_v219_sentence_ids_unique": 13,
+    "expert_signoffs": 0,
+    "published_items": 0
+  },
+  "known_limitations": [
+    "Marburg Z/K additions are asserted by Zurich catalogue but their exact wordings remain NULL until both witness images are examined.",
+    "1530 Diet presentation copy must not be treated as identical to 1531 Ed.1; 1531 Ed.1 and Ed.2 are separate objects.",
+    "CR 26 printed 1858 page images are a later editorial witness, not photographed 1531 or 1540 imprints.",
+    "Schaff transcription is a later textual presentation and is not a photograph of 1531 Ed.1.",
+    "Original 16c evidence is not yet signoff-quality; original_witness_collated remains false."
+  ],
+  "next_evidence_tasks": [
+    {
+      "id": "TASK-V220-01",
+      "goal": "Obtain Zurich manuscript Z folio images for articles 7/13/15 and transcribe added words",
+      "status": "OPEN"
+    },
+    {
+      "id": "TASK-V220-02",
+      "goal": "Obtain Hessian K Best 3 Nr 245 fol.60r-64v facsimile and verify alignment with Z",
+      "status": "OPEN"
+    },
+    {
+      "id": "TASK-V220-03",
+      "goal": "Inspect e-rara 1529 Zurich Froschauer prints VD16 W2118 and W2119 against Z/K",
+      "status": "OPEN"
+    },
+    {
+      "id": "TASK-V220-04",
+      "goal": "Verify 1531 4to Ed.1, 1531 8vo Ed.2, and 1540 4to Ed.3 actual print facsimiles for articles IV and X",
+      "status": "OPEN"
+    },
+    {
+      "id": "TASK-V220-05",
+      "goal": "Historiographic and theological review including translation, ownership/rights; publication decision separately",
+      "status": "OPEN"
+    }
+  ]
+}
