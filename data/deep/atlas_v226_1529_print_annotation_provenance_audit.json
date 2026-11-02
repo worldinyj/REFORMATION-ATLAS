@@ -1,0 +1,265 @@
+{
+  "version": "2.26",
+  "kind": "MARBURG_1529_PRINT_ANNOTATIONS_AUTOGRAPHY_AUDIT",
+  "parent_commit": "00c245b03703f4d14244b382f41ddc7fbf018fba",
+  "base_dataset": "data/deep/atlas_v225_marburg_fair_copy_print_transmission.json",
+  "publication_gate": {
+    "can_ship": false,
+    "original_16c_pages_read": false,
+    "z_k_text_collated": false,
+    "annotations_autography_proved": false,
+    "expert_approved": false,
+    "media_reuse_reviewed": false,
+    "webapp_integrated": false
+  },
+  "method": {
+    "no_inferred_autography": true,
+    "do_not_equate_zk_variants_with_later_notes": true,
+    "do_not_equate_1910_ocr_to_autograph": true,
+    "do_not_assume_two_shelfmarks_same_edition": true
+  },
+  "sources": [
+    {
+      "id": "SRC-V226-ZARCH",
+      "kind": "ARCHIVE_CATALOGUE",
+      "url": "https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=618165",
+      "evidence": "Z addition Articles 7/13/15 versus K, explicitly W2119 and W2118 as separate 1529 print bibliographies",
+      "original_page_read": false
+    },
+    {
+      "id": "SRC-V226-PRINT",
+      "kind": "INSTITUTIONAL_PRINT_ITEM",
+      "url": "https://www.e-rara.ch/zuz/content/titleinfo/170052",
+      "evidence": "W2119; ZB Zürich 5.174,5; Froschauer [1529], [4] leaves; Public Domain Mark",
+      "original_page_read": false
+    },
+    {
+      "id": "SRC-V226-SECOND",
+      "kind": "INSTITUTIONAL_PRINT_SEARCH",
+      "url": "https://www.e-rara.ch/search/quick?facets=d100%3D%221500%22+and+d10%3D%221520%22&max=100&query=zwingli&s=date",
+      "evidence": "Distinct search record for Zwingli MvK A81,8 versus 5.174,5; A81,8 to W2118 mapping not confirmed by item details",
+      "original_page_read": false
+    },
+    {
+      "id": "SRC-V226-WA1910",
+      "kind": "HISTORICAL_CRITICAL_EDITION_OCR",
+      "url": "https://maartenluther.com/30-III_werkekritischege3003luthuoft_bw.pdf",
+      "evidence": "Weimar 1910 vol30/3 reports Sammelband Zürich G.V.174 annotations transcribed by Heinrich Utinger, apparently from Zwingli's own exemplar; mentions date 24 October printed and presented in church; web screenshot attempt failed oversized 44MB PDF, only OCR text viewed",
+      "original_page_read": false
+    },
+    {
+      "id": "SRC-V226-NOTAE",
+      "kind": "SPECIALIST_WORK_REFERENCE_UNOPENED",
+      "url": "https://www.irg.uzh.ch/static/zwingli-werke/index.php?n=Werk.148",
+      "evidence": "Notae Zuinglii work entry, source URL referenced by scholar; direct fetch returned 403",
+      "original_page_read": false
+    },
+    {
+      "id": "SRC-V226-BLOG",
+      "kind": "MODERN_BLOG_NOT_AUTHOGRAPH_AUTHORITY",
+      "url": "https://zwingliusredivivus.wordpress.com/2023/10/24/notae-zuinglii-randbemerkungen-zwinglis-zu-den-marburger-artikeln-von-1529/",
+      "evidence": "Reprints Latin marginal explanations for article15; claims 24 Oct printing and authorial annotations; must not extrapolate handwriting on specific 1529 exemplar",
+      "original_page_read": false
+    },
+    {
+      "id": "SRC-V226-REFORMFORUM",
+      "kind": "EDUCATIONAL_HISTORY_TIMELINE",
+      "url": "https://www.bucer.ch/fileadmin/_migrated/tx_org/mbstexte086.pdf",
+      "evidence": "Mentions Notae Zuinglii and limits of Eucharist agreement, secondary text",
+      "original_page_read": false
+    },
+    {
+      "id": "SRC-V226-HEPPE",
+      "kind": "MODERN_BIBLIOGRAPHY_OF_HISTORICAL_FACSIMILE",
+      "url": "https://mercaba.org/mediafire/jedin%2C%20hubert%20-%20manual%20de%20historia%20de%20la%20iglesia%2005-01.pdf",
+      "evidence": "Bibliography identifies Heppe 1854 edition as second (2nd) edition of facsimile; 1847 first issue remains to inspect",
+      "original_page_read": false
+    }
+  ],
+  "objects": [
+    {
+      "id": "OBJ-V226-K",
+      "type": "SIGNED_MANUSCRIPT",
+      "v225_object": "OBJ-V225-K",
+      "shelfmark": "HStAM Best3 Nr245",
+      "image_read": false
+    },
+    {
+      "id": "OBJ-V226-Z",
+      "type": "SIGNED_MANUSCRIPT",
+      "v225_object": "OBJ-V225-Z",
+      "shelfmark": "StAZ E I3.1 Nr54",
+      "image_read": false
+    },
+    {
+      "id": "OBJ-V226-W2119",
+      "type": "PRINTED_EXEMPLAR",
+      "v225_object": "OBJ-V225-W2119",
+      "shelfmark": "ZB Zürich 5.174,5",
+      "image_read": false
+    },
+    {
+      "id": "OBJ-V226-ZH2",
+      "type": "PRINTED_EXEMPLAR",
+      "v225_object": "OBJ-V225-ZH2",
+      "shelfmark": "ZB Zürich Zwingli MvK A81,8",
+      "image_read": false
+    },
+    {
+      "id": "OBJ-V226-GV174",
+      "type": "ANNOTATED_PRINT_REPORTED_BY_CRITICAL_EDITOR",
+      "v225_object": null,
+      "shelfmark": "Zürich historical G.V.174",
+      "scribal_note": "Heinrich Utinger handwriting according to WA1910",
+      "image_read": false
+    },
+    {
+      "id": "OBJ-V226-HAND",
+      "type": "REPORTED_ORIGINAL_ZWINGLI_ANNOTATED_EXEMPLAR",
+      "v225_object": null,
+      "shelfmark": null,
+      "image_read": false
+    }
+  ],
+  "relations": [
+    {
+      "id": "REL-V226-ZK",
+      "from": "OBJ-V226-Z",
+      "to": "OBJ-V226-K",
+      "relation": "SIGNED_COPY_ADDITIONS_IN_Z",
+      "article_ids": [
+        "7",
+        "13",
+        "15"
+      ],
+      "source_ids": [
+        "SRC-V226-ZARCH"
+      ],
+      "direct_collation": false
+    },
+    {
+      "id": "REL-V226-NOTES",
+      "from": "OBJ-V226-GV174",
+      "to": "OBJ-V226-HAND",
+      "relation": "REPORTS_UTINGER_COPIED_ZWINGLI_NOTES",
+      "article_ids": [
+        "1",
+        "5",
+        "7",
+        "8",
+        "15"
+      ],
+      "source_ids": [
+        "SRC-V226-WA1910"
+      ],
+      "direct_collation": false
+    },
+    {
+      "id": "REL-V226-PRINT",
+      "from": "OBJ-V226-W2119",
+      "to": "OBJ-V226-ZH2",
+      "relation": "DISTINCT_LIBRARY_ITEMS_NO_IMPRINT_TEXT_COLLATION",
+      "article_ids": [],
+      "source_ids": [
+        "SRC-V226-SECOND"
+      ],
+      "direct_collation": false
+    },
+    {
+      "id": "REL-V226-IDENTITY",
+      "from": "OBJ-V226-GV174",
+      "to": "OBJ-V226-W2119",
+      "relation": "ITEM_IDENTITY_NOT_DEMONSTRATED",
+      "article_ids": [],
+      "source_ids": [
+        "SRC-V226-WA1910",
+        "SRC-V226-PRINT"
+      ],
+      "direct_collation": false
+    }
+  ],
+  "glosses": [
+    {
+      "id": "GLOSS-V226-1",
+      "article": "15",
+      "latin_excerpt": "Sacramentum signum est veri corporis",
+      "ko_summary": "성례를 참된 몸의 표징으로 읽는 주석",
+      "source_ids": [
+        "SRC-V226-BLOG",
+        "SRC-V226-WA1910"
+      ],
+      "original_handwriting_seen": false,
+      "signed_common_article_wording": false
+    },
+    {
+      "id": "GLOSS-V226-2",
+      "article": "15",
+      "latin_excerpt": "Non est igitur verum corpus",
+      "ko_summary": "그러므로 그것이 몸 그 자체는 아니라고 풀이하는 주석",
+      "source_ids": [
+        "SRC-V226-BLOG",
+        "SRC-V226-WA1910"
+      ],
+      "original_handwriting_seen": false,
+      "signed_common_article_wording": false
+    },
+    {
+      "id": "GLOSS-V226-3",
+      "article": "15",
+      "latin_excerpt": "Principalis est manducatio spiritualis",
+      "ko_summary": "영적 먹음의 우선성을 강조하는 주석",
+      "source_ids": [
+        "SRC-V226-BLOG"
+      ],
+      "original_handwriting_seen": false,
+      "signed_common_article_wording": false
+    }
+  ],
+  "open_issues": [
+    {
+      "id": "ISSUE-V226-AUTOGRAPH",
+      "status": "OPEN",
+      "question": "Locate historical G.V.174 annotated exemplar and Zwingli's reported hand exemplar; do not equate copyist text with autograph."
+    },
+    {
+      "id": "ISSUE-V226-PRINT",
+      "status": "OPEN",
+      "question": "Read 1529 W2119 page images and map W2118 to A81,8 item via institutional bibliography."
+    },
+    {
+      "id": "ISSUE-V226-NOTAE",
+      "status": "OPEN",
+      "question": "Distinguish Zwingli note drafting/printing 24 Oct, later edition of Notae and Utinger's post facto copy."
+    },
+    {
+      "id": "ISSUE-V226-ZK",
+      "status": "OPEN",
+      "question": "Z/K 7,13,15 additions are separate from marginal annotations; verify autograph pages."
+    },
+    {
+      "id": "ISSUE-V226-HEPPE",
+      "status": "OPEN",
+      "question": "Check 1847/1854 title pages; 1854 appears second edition in later scholarly bibliography."
+    },
+    {
+      "id": "ISSUE-V226-WA-PAGES",
+      "status": "OPEN",
+      "question": "1910 WA PDF OCR text visible, PDF screenshots failed due 44MB source; verify against a small image/cropped scan."
+    }
+  ],
+  "primary_access": {
+    "w2119_pdf_download_success": false,
+    "wa1910_pdf_screenshot_success": false,
+    "primary_1529_pages_read": 0,
+    "original_z_k_insertions_transcribed": 0
+  },
+  "metrics": {
+    "source_records": 8,
+    "source_objects": 6,
+    "source_relations": 4,
+    "article15_annotation_glosses": 3,
+    "open_issues": 6,
+    "primary_pages_read": 0,
+    "published_items": 0
+  }
+}
