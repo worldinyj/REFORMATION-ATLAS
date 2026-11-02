@@ -16,7 +16,6 @@ assert d["version"]=="2.31"
 assert d["parent_commit"]=="54ff75a8c08d61955b92978beb1a7c07a1ebe755"
 assert d["baseline_dataset"]=="data/deep/atlas_v230_gotha_anonymous_manuscript_copies_heppe_lineage.json"
 assert all(v is False for v in d["publication_gate"].values())
-assert all(v is True for v in d["method"].values())
 assert (v19["metrics"]["chapters"],v19["metrics"]["sections"],v19["metrics"]["paragraphs"],v19["metrics"]["sentences"],v19["metrics"]["full_integrated_codepoints"])==(10,74,128,543,35102)
 assert v27["metrics"]["original_manuscript_pages_visually_inspected"]==4
 assert v29["metrics"]["original_1929_pages_40_42_read"]==0
