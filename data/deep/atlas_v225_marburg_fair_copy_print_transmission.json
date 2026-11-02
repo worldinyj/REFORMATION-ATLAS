@@ -1,0 +1,442 @@
+{
+  "version": "2.25",
+  "kind": "MARBURG_1529_FAIR_COPY_PRINT_TRANSMISSION_STEMMA_WITH_CRITICAL_DATE_PROVENANCE",
+  "parent_commit": "e811b6d29868e79a3af65a01999ca3909997bf21",
+  "base_dataset": "data/deep/atlas_v224_primary_facsimile_retrieval_gate.json",
+  "publication_gate": {
+    "can_ship": false,
+    "original_folio_read": false,
+    "zk_wordings_collated": false,
+    "edition_stemma_verified": false,
+    "expert_signed_off": false,
+    "media_reuse_reviewed": false,
+    "webapp_integrated": false
+  },
+  "methodology": {
+    "no_direct_manuscript_scan_claim": true,
+    "manuscript_z_to_print_w2119_copy_relationship_not_demonstrated": true,
+    "tenets": "scholarly account of transmission is not palaeographic manuscript collation or inferred direct copying; uncertainty in date and duplicate print identity kept."
+  },
+  "sources": [
+    {
+      "id": "SRC-V225-DIGIREF",
+      "kind": "SCHOLARLY_DIGITAL_ARCHIVAL_COMMENTARY",
+      "url": "https://flugschriften.reformationsportal.de/recherche-im-gesamtbestand/listeneinstieg?cHash=b4cace5da9c214d4d23e5163b49d0c2c&tx_joreformation_pi1004listenuebersicht%5Baction%5D=detail&tx_joreformation_pi1004listenuebersicht%5Bcontroller%5D=Mapservice&tx_joreformation_pi1004listenuebersicht%5BjoDel%5D=1&tx_joreformation_pi1004listenuebersicht%5BjoDetailView%5D=stat_showcase_00000023",
+      "source_section": "Institutional DigiRef historical commentary, indexed German paragraphs about 4 October exemplars and subsequent printings",
+      "read_method": "SEARCH_INDEXED_SCHOLARLY_DESCRIPTION",
+      "original_image_inspected": false
+    },
+    {
+      "id": "SRC-V225-Z-CAT",
+      "kind": "OFFICIAL_ARCHIVE_MANUSCRIPT_CATALOGUE",
+      "url": "https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=618165",
+      "source_section": "E I 3.1, Nr.54; Zürich signed original; additions Art 7,13,15; manuscript construction 3 double leaves+1 single leaf; historical editions",
+      "read_method": "SEARCH_INDEXED_FULL_CATALOGUE",
+      "original_image_inspected": false
+    },
+    {
+      "id": "SRC-V225-ERARA-SEARCH",
+      "kind": "INSTITUTIONAL_PRINT_EXEMPLAR_DISCOVERY_INDEX",
+      "url": "https://www.e-rara.ch/search/quick?facets=d100%3D%221500%22+and+d10%3D%221520%22&max=100&query=zwingli&s=date",
+      "source_section": "Two indexed Zurich 1529 Froschauer imprints with distinct shelfmarks and colophon descriptions",
+      "read_method": "SEARCH_INDEXED_PRINT_SEARCH",
+      "original_image_inspected": false
+    },
+    {
+      "id": "SRC-V225-ERARA-W2119",
+      "kind": "OFFICIAL_PRINT_ITEM_BIBLIOGRAPHY",
+      "url": "https://www.e-rara.ch/zuz/content/titleinfo/170052",
+      "source_section": "ZB Zurich 5.174,5 W2119, printer named Froschauer, printed title 3 October",
+      "read_method": "SEARCH_INDEXED_ITEM_METADATA",
+      "original_image_inspected": false
+    },
+    {
+      "id": "SRC-V225-MBW825",
+      "kind": "CRITICAL_EDITION_REGEST",
+      "url": "https://melanchthon.hadw-bw.de/regest.html?reg_nr=825",
+      "source_section": "Marburg 3.[4.] Oktober 1529 and works references CR26, WA30/3, MBW.T3",
+      "read_method": "DIRECT_WEB_READ",
+      "original_image_inspected": false
+    },
+    {
+      "id": "SRC-V225-GHDI",
+      "kind": "MODERN_ONLINE_1910_GERMAN_CRITICAL_TRANSCRIPTION",
+      "url": "https://germanhistorydocs.org/de/von-den-reformationen-bis-zum-dreissigjaehrigen-krieg-1500-1648/die-marburger-religionsgespraeche-die-marburger-artikel-1529",
+      "source_section": "Edited 1910 German 15 articles; doctrinal context for 7/13/15",
+      "read_method": "EDITORIAL_TEXT_READ_PREVIOUS",
+      "original_image_inspected": false
+    },
+    {
+      "id": "SRC-V225-HAPULS",
+      "kind": "MODERN_TRANSCRIPTION_EDITORIAL_RECEPTION",
+      "url": "https://www.hapuls.de/node/1473",
+      "source_section": "Contemporary translated summary by Oberman 1994/May 1970/Stupperich 1966; 3 October council",
+      "read_method": "SEARCH_INDEXED_EDITORIAL_TEXT",
+      "original_image_inspected": false
+    },
+    {
+      "id": "SRC-V225-HESSEN",
+      "kind": "INSTITUTIONAL_ARCHIVE_RESEARCH_NEWSLETTER",
+      "url": "https://landesarchiv.hessen.de/sites/landesarchiv.hessen.de/files/2022-11/newsletter_2015-2016.pdf",
+      "source_section": "DigiRef collaboration, over 100 documents / 43 Hessen, with facsimiles, transcription, modern German and commentary",
+      "read_method": "SEARCH_INDEXED_ORGANIZATIONAL_DESCRIPTION",
+      "original_image_inspected": false
+    },
+    {
+      "id": "SRC-V225-ERARA-API",
+      "kind": "INSTITUTIONAL_PDF_IIIF_DOCUMENTATION",
+      "url": "https://www.e-rara.ch/wiki/apiinfo",
+      "source_section": "Official PDF download pattern, IIIF manifest API",
+      "read_method": "WEB_RESEARCH_DOCUMENTATION",
+      "original_image_inspected": false
+    }
+  ],
+  "objects": [
+    {
+      "id": "OBJ-V225-AGREED-ARTICLES",
+      "type": "AGREED_ARTICLES_TEXT_EVENT",
+      "title_ko": "15개 조항의 합의 문안",
+      "date_label": "1529-10-03",
+      "date_assertion": "PRINTED_TITLE_AND_EDITORIAL_INCIPIT",
+      "survives_as_original_object": null
+    },
+    {
+      "id": "OBJ-V225-COPIES-THREE",
+      "type": "REPORTED_FAIR_COPIES_COUNT",
+      "title_ko": "10월 4일에 작성된 3부의 정서본",
+      "date_label": "1529-10-04",
+      "date_assertion": "DIGIREF_HISTORICAL_COMMENTARY",
+      "reported_made": 3,
+      "reported_extant": 2,
+      "third_identity": null
+    },
+    {
+      "id": "OBJ-V225-K",
+      "type": "SIGNED_SURVIVING_MANUSCRIPT",
+      "title_ko": "헤센 영주용 정서본 K",
+      "location": "Hessisches Staatsarchiv Marburg",
+      "shelfmark": "Best. 3 Nr. 245 fol.60r–64v",
+      "manuscript_image_inspected": false
+    },
+    {
+      "id": "OBJ-V225-Z",
+      "type": "SIGNED_SURVIVING_MANUSCRIPT",
+      "title_ko": "취리히용 정서본 Z",
+      "location": "Staatsarchiv Zürich",
+      "shelfmark": "E I 3.1 Nr.54",
+      "supplementary_leaf_cited": true,
+      "additions_reported_articles": [
+        "7",
+        "13",
+        "15"
+      ],
+      "manuscript_image_inspected": false
+    },
+    {
+      "id": "OBJ-V225-UNKNOWN-COPY",
+      "type": "REPORTED_THIRD_FAIR_COPY_NOT_LOCATED",
+      "title_ko": "제3정서본(생존·대상 불명)",
+      "known_provenance": null,
+      "document_image_inspected": false
+    },
+    {
+      "id": "OBJ-V225-RHODE",
+      "type": "MARBURG_CONTEMPORARY_PRINTING",
+      "title_ko": "프란츠 로데의 마르부르크 인쇄",
+      "date_label": "1529-10-05",
+      "date_assertion": "INFERRED_FROM_DIGIREF_NEXT_DAY_AFTER_OCT4_AND_NOT_IMPRINT_READ",
+      "original_image_inspected": false
+    },
+    {
+      "id": "OBJ-V225-W2119",
+      "type": "ZURICH_CONTEMPORARY_PRINT",
+      "title_ko": "1529년 취리히 프로샤우어 인쇄본 W2119",
+      "shelfmark": "ZB Zürich 5.174,5",
+      "vlid": "170052",
+      "vd16": "W 2119",
+      "date_label": "1529",
+      "original_image_inspected": false
+    },
+    {
+      "id": "OBJ-V225-ZH2",
+      "type": "ZURICH_CONTEMPORARY_PRINT_DISTINCT_RECORD",
+      "title_ko": "취리히 중앙도서관 다른 소장본",
+      "shelfmark": "Zwingli MvK A 81,8",
+      "vd16": null,
+      "possible_vd16": "W 2118",
+      "mapping_status": "UNVERIFIED_W2118",
+      "original_image_inspected": false
+    },
+    {
+      "id": "OBJ-V225-OSIANDER1530",
+      "type": "AUGSBURG_CONTEMPORARY_PRINTING",
+      "title_ko": "안드레아스 오지안더의 1530년 아우크스부르크 인쇄",
+      "date_label": "1530",
+      "specific_imprint_not_verified": true
+    },
+    {
+      "id": "OBJ-V225-PRINT-CHAIN",
+      "type": "REPORTED_REPRINT_TRADITION",
+      "title_ko": "마르부르크 인쇄 계열의 후속 전파",
+      "reported_reprints": 21,
+      "count_directly_verified": false
+    }
+  ],
+  "relations": [
+    {
+      "id": "EDG-V225-1",
+      "from": "OBJ-V225-AGREED-ARTICLES",
+      "to": "OBJ-V225-COPIES-THREE",
+      "relationship": "TEXT_AGREEMENT_TO_FAIR_COPIES",
+      "source_ids": [
+        "SRC-V225-DIGIREF",
+        "SRC-V225-MBW825"
+      ],
+      "certainty": "SCHOLARLY_DESCRIPTION"
+    },
+    {
+      "id": "EDG-V225-2",
+      "from": "OBJ-V225-COPIES-THREE",
+      "to": "OBJ-V225-K",
+      "relationship": "SURVIVING_COPY_OF_THREE",
+      "source_ids": [
+        "SRC-V225-DIGIREF",
+        "SRC-V225-Z-CAT"
+      ],
+      "certainty": "SCHOLARLY_DESCRIPTION"
+    },
+    {
+      "id": "EDG-V225-3",
+      "from": "OBJ-V225-COPIES-THREE",
+      "to": "OBJ-V225-Z",
+      "relationship": "SURVIVING_COPY_OF_THREE",
+      "source_ids": [
+        "SRC-V225-DIGIREF",
+        "SRC-V225-Z-CAT"
+      ],
+      "certainty": "SCHOLARLY_DESCRIPTION"
+    },
+    {
+      "id": "EDG-V225-4",
+      "from": "OBJ-V225-COPIES-THREE",
+      "to": "OBJ-V225-UNKNOWN-COPY",
+      "relationship": "REPORTED_THIRD_OBJECT_NOT_IDENTIFIED",
+      "source_ids": [
+        "SRC-V225-DIGIREF"
+      ],
+      "certainty": "INFERRED_FROM_REPORTED_COUNT_NOT_DOCUMENT_IDENTIFIED"
+    },
+    {
+      "id": "EDG-V225-5",
+      "from": "OBJ-V225-AGREED-ARTICLES",
+      "to": "OBJ-V225-RHODE",
+      "relationship": "EARLY_MARBURG_PRINT_OF_AGREEMENT",
+      "source_ids": [
+        "SRC-V225-DIGIREF"
+      ],
+      "certainty": "SCHOLARLY_DESCRIPTION_DATE_INFERRED"
+    },
+    {
+      "id": "EDG-V225-6",
+      "from": "OBJ-V225-AGREED-ARTICLES",
+      "to": "OBJ-V225-W2119",
+      "relationship": "ZURICH_PRINTING_OF_AGREEMENT_NOT_PROVEN_DIRECTLY_COPIED_FROM_Z",
+      "source_ids": [
+        "SRC-V225-DIGIREF",
+        "SRC-V225-ERARA-W2119"
+      ],
+      "certainty": "SCHOLARLY_DESCRIPTION_PLUS_CATALOGUE"
+    },
+    {
+      "id": "EDG-V225-7",
+      "from": "OBJ-V225-AGREED-ARTICLES",
+      "to": "OBJ-V225-ZH2",
+      "relationship": "ZURICH_PRINTING_OF_AGREEMENT_INDEPENDENT_ITEM_RECORD",
+      "source_ids": [
+        "SRC-V225-ERARA-SEARCH"
+      ],
+      "certainty": "CATALOGUE_RELATED_ONLY"
+    },
+    {
+      "id": "EDG-V225-8",
+      "from": "OBJ-V225-AGREED-ARTICLES",
+      "to": "OBJ-V225-OSIANDER1530",
+      "relationship": "AUGSBURG_RECEPTION_PRINT",
+      "source_ids": [
+        "SRC-V225-DIGIREF"
+      ],
+      "certainty": "SCHOLARLY_DESCRIPTION"
+    },
+    {
+      "id": "EDG-V225-9",
+      "from": "OBJ-V225-RHODE",
+      "to": "OBJ-V225-PRINT-CHAIN",
+      "relationship": "REPRINT_TALLY_CITED_BY_DIGIREF_NOT_BIBLIOGRAPHICALLY_ENUMERATED",
+      "source_ids": [
+        "SRC-V225-DIGIREF"
+      ],
+      "certainty": "REPORTED_COUNT_UNVALIDATED"
+    },
+    {
+      "id": "EDG-V225-10",
+      "from": "OBJ-V225-Z",
+      "to": "OBJ-V225-K",
+      "relationship": "MANUSCRIPT_WITNESS_COMPARISON_CATALOGUE_ADDITIONS",
+      "source_ids": [
+        "SRC-V225-Z-CAT"
+      ],
+      "certainty": "ARCHIVE_CATALOGUE_ARTICLES_ONLY_NOT_WORDING"
+    }
+  ],
+  "claims": [
+    {
+      "id": "CLM-V225-03",
+      "summary_ko": "합의문의 표제와 취리히 인쇄본은 10월 3일을 표기한다.",
+      "source_ids": [
+        "SRC-V225-ERARA-SEARCH",
+        "SRC-V225-MBW825",
+        "SRC-V225-Z-CAT"
+      ],
+      "date": "1529-10-03",
+      "certainty": "EDITORIAL_AND_CATALOGUE_TEXT"
+    },
+    {
+      "id": "CLM-V225-04",
+      "summary_ko": "DigiRef 해설은 정서본 3부가 10월 4일 만들어졌고 2부가 현존한다고 설명한다.",
+      "source_ids": [
+        "SRC-V225-DIGIREF"
+      ],
+      "date": "1529-10-04",
+      "certainty": "SECONDARY_CRITICAL_COMMENTARY"
+    },
+    {
+      "id": "CLM-V225-Z-LEAF",
+      "summary_ko": "취리히 Z에는 헤센 K에 없는 추가 잎이 있고, 취리히 문서관은 7·13·15조의 3개 추가를 기술한다. 이들이 동일한 면의 동일한 추가 구절인지 아직 직접 확인되지 않았다.",
+      "source_ids": [
+        "SRC-V225-DIGIREF",
+        "SRC-V225-Z-CAT"
+      ],
+      "date": null,
+      "certainty": "TWO_CATALOGUED_FACTS_NOT_FOLIO_COLLATED"
+    },
+    {
+      "id": "CLM-V225-SIGN",
+      "summary_ko": "DigiRef는 K에서 비텐베르크 측이 먼저 서명하고 Z에서는 마지막에 있던 그룹이 먼저 나온다고 설명한다.",
+      "source_ids": [
+        "SRC-V225-DIGIREF"
+      ],
+      "date": "1529-10-04",
+      "certainty": "SCHOLARLY_COMMENTARY_NOT_IMAGE_READ"
+    },
+    {
+      "id": "CLM-V225-PRINT",
+      "summary_ko": "DigiRef에 따르면 마르부르크의 프란츠 로데가 정서본 제작 다음날 인쇄했고, 츠빙글리 귀환 후 취리히 인쇄, 1530년 아우크스부르크 오지안더 인쇄가 뒤따랐다.",
+      "source_ids": [
+        "SRC-V225-DIGIREF"
+      ],
+      "date": null,
+      "certainty": "SCHOLARLY_COMMENTARY"
+    },
+    {
+      "id": "CLM-V225-21",
+      "summary_ko": "마르부르크 인쇄본이 21차례 재인쇄되었다는 수치는 DigiRef의 학술 해설에 따른 보고이며, 독립 판본 목록 대조가 필요하다.",
+      "source_ids": [
+        "SRC-V225-DIGIREF"
+      ],
+      "date": null,
+      "certainty": "SINGLE_SCHOLARLY_SOURCE_COUNT"
+    },
+    {
+      "id": "CLM-V225-PRINT2",
+      "summary_ko": "e-rara는 1529년 취리히 관련 별도 소장본 두 종을 검색 결과로 표시한다. 5.174,5는 W2119로 확인되었으나 Zwingli MvK A81,8을 W2118이라고 확정할 개별 상세서지는 미확인이다.",
+      "source_ids": [
+        "SRC-V225-ERARA-SEARCH",
+        "SRC-V225-ERARA-W2119"
+      ],
+      "date": "1529",
+      "certainty": "EXEMPLAR_RECORDS_MAPPED_PARTIAL"
+    }
+  ],
+  "reader_sections": [
+    {
+      "id": "READER-V225-1",
+      "name_ko": "10월 3일의 합의와 10월 4일의 정서본",
+      "linked_claim_ids": [
+        "CLM-V225-03",
+        "CLM-V225-04"
+      ]
+    },
+    {
+      "id": "READER-V225-2",
+      "name_ko": "한 합의문의 두 서명 원본 K와 Z",
+      "linked_claim_ids": [
+        "CLM-V225-Z-LEAF",
+        "CLM-V225-SIGN"
+      ]
+    },
+    {
+      "id": "READER-V225-3",
+      "name_ko": "도시를 따라 퍼지는 인쇄본",
+      "linked_claim_ids": [
+        "CLM-V225-PRINT",
+        "CLM-V225-21",
+        "CLM-V225-PRINT2"
+      ]
+    }
+  ],
+  "open_questions": [
+    {
+      "id": "ISSUE-V225-THIRD",
+      "status": "OPEN",
+      "question": "Third fair copy provenance, shelfmark, survival state: DigiRef says 3 executed/2 extant but does not identify third object."
+    },
+    {
+      "id": "ISSUE-V225-DATE",
+      "status": "OPEN",
+      "question": "Check original dates by folio; DigiRef states produced Oct 4 and 1910 edited text says Oct 3."
+    },
+    {
+      "id": "ISSUE-V225-ADDEDLEAF",
+      "status": "OPEN",
+      "question": "Map Z supplement leaf to three catalogue additions at Art 7/13/15; do not assume direct identity."
+    },
+    {
+      "id": "ISSUE-V225-COPYTEXT",
+      "status": "OPEN",
+      "question": "Do Froschauer W2119 and Z handwritten witness share exact additions? Compare images."
+    },
+    {
+      "id": "ISSUE-V225-W2118",
+      "status": "OPEN",
+      "question": "Identify exact e-rara item details for Zwingli MvK A81,8 and verify W2118 before mapping."
+    },
+    {
+      "id": "ISSUE-V225-REPRINT21",
+      "status": "OPEN",
+      "question": "Independent bibliography of 21 reprints is required."
+    },
+    {
+      "id": "ISSUE-V225-RHODEDATE",
+      "status": "OPEN",
+      "question": "Printed Marburg edition date inferred as Oct5 from DigiRef 'next day'; inspect printer/imprint."
+    }
+  ],
+  "access_summary": {
+    "new_original_files_downloaded": 0,
+    "new_original_pages_read": 0,
+    "original_manuscript_wordings_transcribed": 0,
+    "container_dns_available": false,
+    "e_rara_pdf_download_verified": false
+  },
+  "metrics": {
+    "source_records": 9,
+    "transmission_objects": 10,
+    "source_linked_relations": 10,
+    "critical_claims": 7,
+    "reader_sections": 3,
+    "open_questions": 7,
+    "original_page_reads": 0,
+    "zk_wordings_collated": 0,
+    "publication_items": 0
+  }
+}
