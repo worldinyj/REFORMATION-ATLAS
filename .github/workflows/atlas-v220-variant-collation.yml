@@ -7,6 +7,13 @@ on:
       - 'scripts/validate_atlas_v220.py'
       - 'docs/01_CONTENT/V220_MARBURG_AUGSBURG_WITNESS_COLLATION_REPORT.md'
       - '.github/workflows/atlas-v220-variant-collation.yml'
+  pull_request:
+    branches: ['research/**']
+    paths:
+      - 'data/deep/atlas_v220_marburg_augsburg_variant_collation.json'
+      - 'scripts/validate_atlas_v220.py'
+      - 'docs/01_CONTENT/V220_MARBURG_AUGSBURG_WITNESS_COLLATION_REPORT.md'
+      - '.github/workflows/atlas-v220-variant-collation.yml'
   workflow_dispatch:
 jobs:
   validate:
