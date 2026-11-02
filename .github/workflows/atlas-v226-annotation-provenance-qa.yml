@@ -1,0 +1,43 @@
+name: Atlas V226 Marburg annotated-print provenance QA
+on:
+  push:
+    branches: ['research/**']
+    paths:
+      - 'data/deep/atlas_v226_1529_print_annotation_provenance_audit.json'
+      - 'scripts/validate_atlas_v226.py'
+      - 'docs/01_CONTENT/V226_PRINTED_ARTICLES_ZWINGLI_NOTAE_UTINGER_AUTHORSHIP_REPORT.md'
+      - '.github/workflows/atlas-v226-annotation-provenance-qa.yml'
+  pull_request:
+    branches: ['research/**']
+    paths:
+      - 'data/deep/atlas_v226_1529_print_annotation_provenance_audit.json'
+      - 'scripts/validate_atlas_v226.py'
+      - 'docs/01_CONTENT/V226_PRINTED_ARTICLES_ZWINGLI_NOTAE_UTINGER_AUTHORSHIP_REPORT.md'
+      - '.github/workflows/atlas-v226-annotation-provenance-qa.yml'
+  workflow_dispatch:
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Compile new V226 validator
+        run: python3 -m py_compile scripts/validate_atlas_v226.py
+      - name: V219 structured corpus
+        run: python3 scripts/validate_atlas_v219.py
+      - name: V220 textual variants
+        run: python3 scripts/validate_atlas_v220.py
+      - name: V221 autograph access ledger
+        run: python3 scripts/validate_atlas_v221.py
+      - name: V222 witness route and edition distinctions
+        run: python3 scripts/validate_atlas_v222.py
+      - name: V223 edited text and dates
+        run: python3 scripts/validate_atlas_v223.py
+      - name: V224 W2119 retrieval QA
+        run: python3 scripts/validate_atlas_v224.py
+      - name: V225 fair copies and print chain
+        run: python3 scripts/validate_atlas_v225.py
+      - name: V226 personal annotations versus signed agreement
+        run: python3 scripts/validate_atlas_v226.py
