@@ -1,0 +1,318 @@
+{
+  "version": "2.27",
+  "kind": "MARBURG_SEPT30_ORIGINAL_CONVERSATION_MANUSCRIPT_AND_TWO_EYEWITNESS_SOURCE_CRITIQUE",
+  "parent_commit": "fb33bf1602395738b40801035716dcf4e124e252",
+  "base_dataset": "data/deep/atlas_v226_1529_print_annotation_provenance_audit.json",
+  "publication_gate": {
+    "can_ship": false,
+    "original_manuscript_full_text_transcribed": false,
+    "palaeographic_transcription_double_checked": false,
+    "marburg_kz_article_variants_collated": false,
+    "historical_expert_signed_off": false,
+    "asset_rights_review_done": false,
+    "webapp_integrated": false
+  },
+  "sources": [
+    {
+      "id": "SRC-V227-MS-ITEM",
+      "class": "PRIMARY_MANUSCRIPT_INSTITUTIONAL_METADATA",
+      "url": "https://www.e-manuscripta.ch/zuz/content/titleinfo/1379284",
+      "title": "[Aufzeichnung eines Gesprächs mit Philipp Melanchthon in Marburg]",
+      "repository": "Zentralbibliothek Zürich",
+      "shelfmark": "Ms Z XI 313.1",
+      "catalogued_author": "Huldrych Zwingli",
+      "catalogued_date": "1529-09-30",
+      "extent": "4 pages, Latin, 33 x 21 cm",
+      "persistent_id": "https://doi.org/10.7891/e-manuscripta-40226",
+      "rights_mark": "Public Domain Mark",
+      "read_level": "INSTITUTIONAL_METADATA_DIRECTLY_READ"
+    },
+    {
+      "id": "SRC-V227-MS-PDF",
+      "class": "PRIMARY_MANUSCRIPT_ORIGINAL_IMAGE_FACSIMILE",
+      "url": "https://www.e-manuscripta.ch/zuz/download/pdf/1379284",
+      "title": "e-manuscripta downloaded facsimile PDF",
+      "pdf_page_count": 5,
+      "cover_page_index": 0,
+      "manuscript_image_pages": 4,
+      "read_level": "FOUR_PAGES_VISUALLY_INSPECTED_BY_PDF_SCREENSHOTS_NOT_FULL_TEXT_TRANSCRIBED"
+    },
+    {
+      "id": "SRC-V227-MS-IIIF",
+      "class": "INSTITUTIONAL_IIIF_V2_MANIFEST",
+      "url": "https://www.e-manuscripta.ch/i3f/v20/1379284/manifest",
+      "title": "IIIF Presentation v2 manifest for Ms Z XI 313.1",
+      "canvas_count": 4,
+      "read_level": "DIRECTLY_OPENED_AND_PARSED_VISUAL_PAGE_ID_SEQUENCE"
+    },
+    {
+      "id": "SRC-V227-ZW-OCT20",
+      "class": "CONTEMPORARY_AUTHOR_EYEWITNESS_AS_LATER_ENGLISH_TRANSLATION",
+      "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/ghdi:document-4300",
+      "title": "Zwingli's report to Joachim Vadian, 20 Oct 1529",
+      "edition_notice": "Latin original; GHDI English translation after Jackson 1901 pp319-322, edited by GHI",
+      "read_level": "DIRECT_READ_OF_MODERN_ENGLISH_EDITORIAL_TRANSLATION_NOT_1529_LATIN_AUTOGRAPH"
+    },
+    {
+      "id": "SRC-V227-OSIANDER",
+      "class": "CONTEMPORARY_LUTHERAN_EYEWITNESS_AS_LATER_GERMAN_EDITION",
+      "url": "https://germanhistorydocs.org/de/von-den-reformationen-bis-zum-dreissigjaehrigen-krieg-1500-1648/die-marburger-religionsgespraeche-bericht-eines-lutherischen-augenzeugen-1529",
+      "title": "Andreas Osiander report to Nürnberg town council",
+      "edition_notice": "GHDI transcription from Weimarer Ausgabe WA30/3 (1910) pp144–151",
+      "read_level": "DIRECT_READ_OF_1910_EDITED_GERMAN_TEXT_NOT_1529_HANDWRITING"
+    },
+    {
+      "id": "SRC-V227-SIGNED",
+      "class": "SIGNED_ARTICLES_LATER_CRITICAL_TRANSCRIPTION",
+      "url": "https://germanhistorydocs.org/de/von-den-reformationen-bis-zum-dreissigjaehrigen-krieg-1500-1648/die-marburger-religionsgespraeche-die-marburger-artikel-1529",
+      "title": "Marburger Artikel (1529) German text",
+      "edition_notice": "GHDI WA30/3 (1910) pp160–171, common Article 15 explicitly reports remaining sacramental disagreement",
+      "read_level": "DIRECT_READ_OF_1910_EDITORIAL_GERMAN_TEXT"
+    },
+    {
+      "id": "SRC-V227-ZARCH",
+      "class": "INSTITUTIONAL_ARCHIVE_OF_DIFFERENT_SIGNED_WITNESS",
+      "url": "https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=618165",
+      "title": "Marburger Artikel signed Zürich manuscript Z E I3.1 Nr54",
+      "edition_notice": "Separate document from Ms Z XI313.1; Z/K text additions Art7/13/15 not transcribed",
+      "read_level": "INDEXED_OFFICIAL_CATALOGUE_NOT_MANUSCRIPT_IMAGE"
+    }
+  ],
+  "artifact": {
+    "id": "ARTIFACT-V227-ZW-MEL-1530SEP",
+    "type": "LATIN_CONVERSATION_NOTES_PHYSICAL_MANUSCRIPT",
+    "source_ids": [
+      "SRC-V227-MS-ITEM",
+      "SRC-V227-MS-PDF",
+      "SRC-V227-MS-IIIF"
+    ],
+    "shelfmark": "Zentralbibliothek Zürich Ms Z XI 313.1",
+    "manifest_id": "1379284",
+    "catalogue_page_count": 4,
+    "pdf_page_count": 5,
+    "date": "1529-09-30",
+    "language": "Latin",
+    "public_domain_mark_indicated_by_institution": true,
+    "exact_author_hand_authenticated_by_this_project": false,
+    "is_marburg_articles_k_or_z": false,
+    "full_manuscript_transcription": null,
+    "critical_interpretive_translation": null,
+    "canvas_pages": [
+      {
+        "manuscript_page": 1,
+        "pdf_page_index": 1,
+        "iiif_image_id": "1379285",
+        "iiif_canvas_id": "https://www.e-manuscripta.ch/i3f/v20/1379284/canvas/1379285",
+        "visual_inspected": true,
+        "legible_markers": [
+          "Philippus",
+          "Zuinglius"
+        ],
+        "visual_observations_ko": "라틴어 대화 기록 필기, 발언자 이름 표지, 일부 취소선, 좌측 상단 주기와 훼손된 종이 가장자리 확인",
+        "full_line_transcription_complete": false
+      },
+      {
+        "manuscript_page": 2,
+        "pdf_page_index": 2,
+        "iiif_image_id": "1379288",
+        "iiif_canvas_id": "https://www.e-manuscripta.ch/i3f/v20/1379284/canvas/1379288",
+        "visual_inspected": true,
+        "legible_markers": [],
+        "visual_observations_ko": "첫 면 뒷면으로 보이는 표면 대부분이 공백이며 상단에는 작은 메모가 남음; 글자가 희미해 정밀 전사 보류",
+        "full_line_transcription_complete": false
+      },
+      {
+        "manuscript_page": 3,
+        "pdf_page_index": 3,
+        "iiif_image_id": "1379289",
+        "iiif_canvas_id": "https://www.e-manuscripta.ch/i3f/v20/1379284/canvas/1379289",
+        "visual_inspected": true,
+        "legible_markers": [
+          "Philippus",
+          "Zuinglius",
+          "Concordia"
+        ],
+        "visual_observations_ko": "1면보다 밀도 높은 라틴어 대화 기록, 발언자 머리표, 취소선과 수정 흔적 확인; 성찬 관련 단어가 보이나 전문 해독·번역은 미완료",
+        "full_line_transcription_complete": false
+      },
+      {
+        "manuscript_page": 4,
+        "pdf_page_index": 4,
+        "iiif_image_id": "1379291",
+        "iiif_canvas_id": "https://www.e-manuscripta.ch/i3f/v20/1379284/canvas/1379291",
+        "visual_inspected": true,
+        "legible_markers": [
+          "Zuinglius"
+        ],
+        "visual_observations_ko": "상단에 짧은 대화 기록과 발언자 표지, 하단 대부분 공백",
+        "full_line_transcription_complete": false
+      }
+    ],
+    "collection_method": "web PDF open and screen zero-based indices 1,2,3,4; exact four source canvases read from institutional IIIF v2 manifest; no OCR or automated transcription; source media bytes not stored in repository",
+    "directly_observed_original_pages": 4,
+    "visual_page_count_verified": 4,
+    "kz_articles_original_pages_read": 0
+  },
+  "comparison_axes": [
+    {
+      "id": "CMP-V227-PRIVATE",
+      "topic_ko": "사전 비공개 대화와 참석 시점",
+      "source_ids": [
+        "SRC-V227-MS-ITEM",
+        "SRC-V227-ZW-OCT20",
+        "SRC-V227-OSIANDER"
+      ],
+      "zwingli_summary_ko": "10월 20일 츠빙글리는 자신과 멜란히톤의 예비 대화를 여섯 시간, 루터와 오이콜람파디우스의 대화를 세 시간이라고 회고한다.",
+      "osiander_summary_ko": "오지안더는 자신이 토요일 오후 마르부르크에 도착했다고 밝히며 당일 오전 내용은 다른 이들에게 전해 들었다고 구별한다.",
+      "interpretation_ko": "누가 어느 대화를 직접 보았는지 다르다. 9월 30일의 4면 기록이 10월 20일 편지에 등장하는 장시간 토론 전체와 일치한다고 단정할 수 없다.",
+      "evidence_level": "CONTEMPORARY_TEXTS_IN_LATER_EDITIONS_PLUS_PRIMARY_MANUSCRIPT_CATALOGUE",
+      "winner_claim_confirmed": false
+    },
+    {
+      "id": "CMP-V227-JOHN6",
+      "topic_ko": "요한복음 6장 63절의 해석",
+      "source_ids": [
+        "SRC-V227-ZW-OCT20",
+        "SRC-V227-OSIANDER"
+      ],
+      "zwingli_summary_ko": "츠빙글리는 루터가 이전보다 달리 설명했다고 비판하며 해당 구절의 해석 문제를 토론의 중심 쟁점으로 묘사한다.",
+      "osiander_summary_ko": "오지안더는 루터가 이 구절을 성만찬의 실체가 아니라 믿음과 인간의 육적 성향 문제로 논증했다고 서술한다.",
+      "interpretation_ko": "동일한 요한복음 본문을 읽었으나 적용 범위에 대한 입장이 달랐다. 당사자의 승리 서술은 별도로 남긴다.",
+      "evidence_level": "PARTISAN_1529_REPORTS_THROUGH_EDITORIAL_TEXTS",
+      "winner_claim_confirmed": false
+    },
+    {
+      "id": "CMP-V227-CHALK",
+      "topic_ko": "성만찬 제정문과 탁자에 적힌 구절",
+      "source_ids": [
+        "SRC-V227-OSIANDER"
+      ],
+      "zwingli_summary_ko": "츠빙글리의 10월 20일 서신에는 이 유명한 탁자 장면의 동일한 상세 설명을 확인하지 못했다.",
+      "osiander_summary_ko": "오지안더는 루터가 분필로 탁자에 성만찬 제정문을 적고 그 구절을 근거로 삼았다고 기술한다.",
+      "interpretation_ko": "교과서에 흔한 유명 장면도 먼저 특정 증인의 주장으로 소개해야 한다.",
+      "evidence_level": "SINGLE_PARTISAN_FIRSTHAND_REPORT_EDITORIALLY_TRANSMITTED",
+      "winner_claim_confirmed": false
+    },
+    {
+      "id": "CMP-V227-SIGN",
+      "topic_ko": "빵과 포도주가 몸과 피의 표징이라는 표현",
+      "source_ids": [
+        "SRC-V227-ZW-OCT20",
+        "SRC-V227-OSIANDER",
+        "SRC-V227-SIGNED"
+      ],
+      "zwingli_summary_ko": "츠빙글리는 루터가 성례를 표징이라고 부를 수 있다고 인정했다고 회고한다.",
+      "osiander_summary_ko": "오지안더는 루터가 빵을 몸의 표징이라고 말하는 것 자체는 인정하지만 그것이 실제 임재를 부정하는 뜻은 아니라고 설명한다.",
+      "interpretation_ko": "'표징'이라는 말의 사용 여부와 '그 말이 실제 임재를 배제하는가'를 별개 질문으로 다뤄야 한다.",
+      "evidence_level": "TWO_PARTISAN_REPORTS_PARTLY_CONVERGE_ON_TERM_BUT_DIVERGE_ON_MEANING",
+      "winner_claim_confirmed": false
+    },
+    {
+      "id": "CMP-V227-OUTCOME",
+      "topic_ko": "회담의 승패와 제15조 합의 범위",
+      "source_ids": [
+        "SRC-V227-ZW-OCT20",
+        "SRC-V227-OSIANDER",
+        "SRC-V227-SIGNED"
+      ],
+      "zwingli_summary_ko": "츠빙글리는 자신의 논증이 공개 토론에서 우세하고 헤센 궁정도 설득되었다고 자신의 편지에서 주장한다.",
+      "osiander_summary_ko": "오지안더는 반대로 루터가 논박에 성공했다고 평가하고, 마지막에는 여전히 성만찬 교리가 합치되지 않았다고 전한다.",
+      "interpretation_ko": "당사자 양측의 승리 선언은 이해관계 있는 증언이며, 공동 서명된 제15조의 '아직 완전 합의하지 못했다'는 문구를 결론의 중심에 두어야 한다.",
+      "evidence_level": "THREE_WAY_EDITION_COMPARISON_SIGNED_TEXT_BASELINE",
+      "winner_claim_confirmed": false
+    },
+    {
+      "id": "CMP-V227-AFTERMATH",
+      "topic_ko": "상호 인정과 공동 문서의 활용",
+      "source_ids": [
+        "SRC-V227-ZW-OCT20",
+        "SRC-V227-OSIANDER",
+        "SRC-V227-SIGNED"
+      ],
+      "zwingli_summary_ko": "츠빙글리는 인쇄될 합의 문서와 정치적으로 의미 있는 성과를 언급한다.",
+      "osiander_summary_ko": "오지안더는 서로 형제로 받아 달라는 요청과 성만찬 교제 문제의 갈등, 그 뒤 공동 조항 작성 시도를 기술한다.",
+      "interpretation_ko": "문서에 대한 서명과 성만찬 교제의 성립은 같은 사건이 아니다. 독자 설명에서 '서명=완전한 교회 일치'로 단순화하지 않는다.",
+      "evidence_level": "TWO_PARTISAN_REPORTS_PLUS_CRITICAL_TEXT",
+      "winner_claim_confirmed": false
+    }
+  ],
+  "reader_edition_draft": {
+    "title_ko": "마르부르크 회담은 왜 서로 다른 승리로 기억되었을까?",
+    "section_ids": [
+      "READER-V227-01",
+      "READER-V227-02",
+      "READER-V227-03"
+    ],
+    "sections": [
+      {
+        "id": "READER-V227-01",
+        "heading_ko": "합의 전에 오간 말",
+        "summary_ko": "1529년 9월 30일로 분류된 츠빙글리와 멜란히톤의 라틴어 대화 기록은 마르부르크의 최종 15개 조항과 별개인 협상·논쟁 단계의 1차 사료이다. 필기와 수정 흔적이 남아 있다는 사실은 이를 교정된 교리 문서가 아닌 토론 과정 자료로 읽게 한다.",
+        "support_ids": [
+          "SRC-V227-MS-ITEM",
+          "SRC-V227-MS-PDF",
+          "SRC-V227-MS-IIIF"
+        ]
+      },
+      {
+        "id": "READER-V227-02",
+        "heading_ko": "같은 회담, 다른 목격자의 눈",
+        "summary_ko": "츠빙글리는 자신의 논박이 설득력 있었다고 회고한다. 반면 오지안더는 루터 측의 논리가 타당했다고 서술한다. 서로에게 충성하는 보고자의 글을 비교하면, 동시대의 직접 증언도 동시에 이해관계의 산물임을 알 수 있다.",
+        "support_ids": [
+          "SRC-V227-ZW-OCT20",
+          "SRC-V227-OSIANDER"
+        ]
+      },
+      {
+        "id": "READER-V227-03",
+        "heading_ko": "역사가가 마지막으로 되돌아갈 문서",
+        "summary_ko": "정작 합의 조항 제15조는 성만찬에 관하여 중요한 공통점들을 인정했음에도 몸과 피의 육체적 임재라는 특정 문제에서는 합의가 완료되지 않았다고 기록한다. 따라서 '루터의 승리'나 '츠빙글리의 승리' 대신 공동으로 서명한 합의의 범위와 미해결 부분을 구분하는 것이 적절하다.",
+        "support_ids": [
+          "SRC-V227-SIGNED",
+          "SRC-V227-OSIANDER",
+          "SRC-V227-ZW-OCT20"
+        ]
+      }
+    ]
+  },
+  "open_issues": [
+    {
+      "id": "ISSUE-V227-AUTHOR",
+      "status": "OPEN",
+      "description_ko": "소장기관의 츠빙글리 저자 귀속을 존중하되 프로젝트에서 필적 감정/다른 수기와의 진위 대조는 수행하지 못함"
+    },
+    {
+      "id": "ISSUE-V227-TRANSCRIPT",
+      "status": "OPEN",
+      "description_ko": "9월 30일 라틴어 필사본 4면의 전문 외교적 전사와 독립 검수는 미실시"
+    },
+    {
+      "id": "ISSUE-V227-KZ",
+      "status": "OPEN",
+      "description_ko": "이 필사본은 1529년 마르부르크 합의문의 Z/K 정서본이 아님; 7,13,15조 원본 이문 판독 여전히 0"
+    },
+    {
+      "id": "ISSUE-V227-EVENTLINK",
+      "status": "OPEN",
+      "description_ko": "9월 30일 필기 초안과 츠빙글리의 10월 20일 회고 중 여섯 시간 멜란히톤 면담이 정확히 어느 부분에서 일치하는지 본문 전문 비교 필요"
+    },
+    {
+      "id": "ISSUE-V227-WITNESSBIAS",
+      "status": "OPEN",
+      "description_ko": "두 진영 보고는 편향 가능성. 해석 차이의 정도를 제3의 동시대 증언으로 검증 필요"
+    }
+  ],
+  "metrics": {
+    "new_primary_manuscript_items": 1,
+    "original_manuscript_pages_visually_inspected": 4,
+    "iiif_canvas_ids_verified": 4,
+    "source_records": 7,
+    "eye_witness_comparison_axes": 6,
+    "reader_sections": 3,
+    "open_issues": 5,
+    "full_manuscript_transcripts_approved": 0,
+    "marburg_kz_original_article_pages_read": 0,
+    "verified_kz_addition_readings": 0,
+    "published_items": 0
+  }
+}
