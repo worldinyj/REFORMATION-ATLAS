@@ -1,0 +1,360 @@
+{
+  "version": "2.08",
+  "kind": "SOURCE_SPECIFIC_EVIDENCE_AND_SEVEN_READER_REVISIONS",
+  "base_commit": "9d7a99519d81513c8b20977275990bf04ada761f",
+  "source_reader_file": "data/deep/atlas_v202_unified_ten_revised_readers.json",
+  "source_focus_file": "data/deep/atlas_v204_paragraph_review_units.json",
+  "source_claim_file": "data/deep/atlas_v207_sentence_classification_and_provisional_claims.json",
+  "publication_gate": {
+    "can_ship": false,
+    "expert_reviewed": false,
+    "original_witness_collated": false,
+    "rights_cleared": false,
+    "webapp_integrated": false,
+    "original_reader_edited": false
+  },
+  "evidence_policy": "Online scholarly transcriptions, edited translations, PDF editorial introduction and manuscript catalogues were inspected. Underlying medieval manuscript or 16th-century physical/imaged originals were not collated.",
+  "metrics": {
+    "priority_total": 30,
+    "source_checked_priority": 8,
+    "unique_draft_paragraphs": 7,
+    "source_records": 7,
+    "original_witnesses_collated": 0,
+    "human_approvals": 0
+  },
+  "sources": [
+    {
+      "id": "SRC-V208-HUS",
+      "url": "https://digiscripta.phil.muni.cz/cs/node/12908",
+      "kind": "UNIVERSITY_MANUSCRIPT_CATALOGUE",
+      "locator": "BS 70; MIHOO XXIII; 1413; Praha NK IV H 19 fols 1r–95r",
+      "edition_text_or_catalogue_scope_read": true,
+      "original_early_print_or_manuscript_image_read": false,
+      "original_text_variants_collated": false,
+      "image_rights_approved": false
+    },
+    {
+      "id": "SRC-V208-WORMS-INTRO",
+      "url": "https://tueditions.ulb.tu-darmstadt.de/v/pa000008-0107",
+      "kind": "SCHOLARLY_CRITICAL_EDITION_INTRO",
+      "locator": "Entstehung: 8/26 May 1521; Textvorlage Druck 1; German original autograph lost",
+      "edition_text_or_catalogue_scope_read": true,
+      "original_early_print_or_manuscript_image_read": false,
+      "original_text_variants_collated": false,
+      "image_rights_approved": false
+    },
+    {
+      "id": "SRC-V208-WORMS-TRANS",
+      "url": "https://tueditions.ulb.tu-darmstadt.de/v/pa000008-0108",
+      "kind": "ORIGINAL_LANGUAGE_PRINT_SCHOLARLY_TRANSCRIPTION",
+      "locator": "VD16 D 924; Munich BSB Res/4 H.ref.287; Blatt A1r lines 1–12",
+      "edition_text_or_catalogue_scope_read": true,
+      "original_early_print_or_manuscript_image_read": false,
+      "original_text_variants_collated": false,
+      "image_rights_approved": false
+    },
+    {
+      "id": "SRC-V208-MARBURG",
+      "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/ghdi:document-4311",
+      "kind": "EDITED_HISTORICAL_TEXT_ENGLISH_TRANSLATION",
+      "locator": "Intro date 3 October 1529, Article XV; WA 30/3 pp.160–171 whole-document scope",
+      "edition_text_or_catalogue_scope_read": true,
+      "original_early_print_or_manuscript_image_read": false,
+      "original_text_variants_collated": false,
+      "image_rights_approved": false
+    },
+    {
+      "id": "SRC-V208-AC-INTRO",
+      "url": "https://www.faithdc.org/uploads/1/4/3/0/14306368/the_augsburg_confession.pdf",
+      "kind": "SCHOLARLY_EDITED_PDF_WITH_HISTORIC_PREFACE",
+      "locator": "PDF screenshot page index 2, 1531 editio princeps; MBW 1103 / CR 2:445–47",
+      "edition_text_or_catalogue_scope_read": true,
+      "original_early_print_or_manuscript_image_read": false,
+      "original_text_variants_collated": false,
+      "image_rights_approved": false
+    },
+    {
+      "id": "SRC-V208-AC-IV-X",
+      "url": "https://www.augsburg1540.com/1530-1540-comparison-text.html",
+      "kind": "MODERN_SECONDARY_PARALLEL_ENGLISH_TRANSLATION",
+      "locator": "1530 vs 1540 Article IV and X; Latin keyword vere exhibeantur reported",
+      "edition_text_or_catalogue_scope_read": true,
+      "original_early_print_or_manuscript_image_read": false,
+      "original_text_variants_collated": false,
+      "image_rights_approved": false
+    },
+    {
+      "id": "SRC-V208-TRENT",
+      "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/ghdi:document-4336",
+      "kind": "EDITED_CONCILIAR_DECREES_ENGLISH_TRANSLATION",
+      "locator": "Session VI 13 Jan 1547 Chapters V/VII; Session XXIII 15 Jul 1563 seminaries F",
+      "edition_text_or_catalogue_scope_read": true,
+      "original_early_print_or_manuscript_image_read": false,
+      "original_text_variants_collated": false,
+      "image_rights_approved": false
+    }
+  ],
+  "source_passage_dossiers": [
+    {
+      "id": "COLLATION-V208-HUS-01",
+      "focus_id": "FOCUS-V204-HUS-01",
+      "v207_claim_id": "CLM-V207-HUS-01",
+      "reader_key": "HUS",
+      "passage_id": "PAR-V204-HUS-003",
+      "original_focus_text": "후스가 1413년에 작성한 『De ecclesia』는",
+      "source_ids": [
+        "SRC-V208-HUS"
+      ],
+      "inspected_source_locator": "Work metadata 1413; BS 70; MIHOO XXIII; Praha IV H 19 1r–95r is entire witness range",
+      "edited_digital_source_inspected": true,
+      "original_manuscript_or_print_image_collated": false,
+      "source_textual_authority": "LIMITED_TO_INSPECTED_EDITION_OR_CATALOGUE",
+      "missing_original_witness_verification": "Original manuscript image and line-specific collation absent",
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "COLLATION-V208-LUTHER1521-02",
+      "focus_id": "FOCUS-V204-LUTHER1521-02",
+      "v207_claim_id": "CLM-V207-LUTHER1521-02",
+      "reader_key": "LUTHER1521",
+      "passage_id": "PAR-V204-LUTHER1521-004",
+      "original_focus_text": "보름스 칙령은 루터의 저술을 금지",
+      "source_ids": [
+        "SRC-V208-WORMS-INTRO",
+        "SRC-V208-WORMS-TRANS"
+      ],
+      "inspected_source_locator": "8/26 May distinct; VD16 D924, BSB Res/4 H.ref.287, Blatt A1r 1–12 in digitized scholarly transcription",
+      "edited_digital_source_inspected": true,
+      "original_manuscript_or_print_image_collated": false,
+      "source_textual_authority": "LIMITED_TO_INSPECTED_EDITION_OR_CATALOGUE",
+      "missing_original_witness_verification": "Printed witness A1r facsimile and variant originals not viewed",
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "COLLATION-V208-MARBURG-01",
+      "focus_id": "FOCUS-V204-MARBURG-01",
+      "v207_claim_id": "CLM-V207-MARBURG-01",
+      "reader_key": "MARBURG",
+      "passage_id": "PAR-V204-MARBURG-002",
+      "original_focus_text": "마르부르크 조항은 1529년 10월 3일 작성·서명된 것으로",
+      "source_ids": [
+        "SRC-V208-MARBURG"
+      ],
+      "inspected_source_locator": "GHDI date 3 October 1529, first fourteen articles; WA 30/3 160–171 whole-document citation",
+      "edited_digital_source_inspected": true,
+      "original_manuscript_or_print_image_collated": false,
+      "source_textual_authority": "LIMITED_TO_INSPECTED_EDITION_OR_CATALOGUE",
+      "missing_original_witness_verification": "Z/K witnesses and signing details not directly collated",
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "COLLATION-V208-MARBURG-02",
+      "focus_id": "FOCUS-V204-MARBURG-02",
+      "v207_claim_id": "CLM-V207-MARBURG-02",
+      "reader_key": "MARBURG",
+      "passage_id": "PAR-V204-MARBURG-002",
+      "original_focus_text": "그러나 제15조에서 성만찬의 빵과 포도주 안에 그리스도의 몸과 피가 육체적으로 현존하는가",
+      "source_ids": [
+        "SRC-V208-MARBURG"
+      ],
+      "inspected_source_locator": "GHDI Article XV: corporeal presence difference and mutual Christian love; source WA 30/3 160–171 whole-document citation",
+      "edited_digital_source_inspected": true,
+      "original_manuscript_or_print_image_collated": false,
+      "source_textual_authority": "LIMITED_TO_INSPECTED_EDITION_OR_CATALOGUE",
+      "missing_original_witness_verification": "German Article XV additions in Z/K manuscripts not directly collated",
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "COLLATION-V208-AUGSBURG-02",
+      "focus_id": "FOCUS-V204-AUGSBURG-02",
+      "v207_claim_id": "CLM-V207-AUGSBURG-02",
+      "reader_key": "AUGSBURG",
+      "passage_id": "PAR-V204-AUGSBURG-002",
+      "original_focus_text": "1531년 비텐베르크에서 게오르크 라우가 인쇄한",
+      "source_ids": [
+        "SRC-V208-AC-INTRO"
+      ],
+      "inspected_source_locator": "Annotated Augsburg Confession PDF screenshot page index 2, 1531 editio princeps with Melanchthon preface referring to prior unauthorized printing",
+      "edited_digital_source_inspected": true,
+      "original_manuscript_or_print_image_collated": false,
+      "source_textual_authority": "LIMITED_TO_INSPECTED_EDITION_OR_CATALOGUE",
+      "missing_original_witness_verification": "1530 unauthorized and 1531 authorized historic print images not directly compared",
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "COLLATION-V208-AUGSBURG-03",
+      "focus_id": "FOCUS-V204-AUGSBURG-03",
+      "v207_claim_id": "CLM-V207-AUGSBURG-03",
+      "reader_key": "AUGSBURG",
+      "passage_id": "PAR-V204-AUGSBURG-005",
+      "original_focus_text": "1540년판은 나중에 Variata라고 불렸다.",
+      "source_ids": [
+        "SRC-V208-AC-IV-X"
+      ],
+      "inspected_source_locator": "Modern bilingual-style comparison page, Articles IV/X, 1530 vs 1540 English translations and reported Latin vere exhibeantur",
+      "edited_digital_source_inspected": true,
+      "original_manuscript_or_print_image_collated": false,
+      "source_textual_authority": "LIMITED_TO_INSPECTED_EDITION_OR_CATALOGUE",
+      "missing_original_witness_verification": "1531/1540 original Latin editions Arts IV/X not inspected",
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "COLLATION-V208-TRENT-02",
+      "focus_id": "FOCUS-V204-TRENT-02",
+      "v207_claim_id": "CLM-V207-TRENT-02",
+      "reader_key": "TRENT",
+      "passage_id": "PAR-V204-TRENT-002",
+      "original_focus_text": "의롭다 함에 관한 결정은",
+      "source_ids": [
+        "SRC-V208-TRENT"
+      ],
+      "inspected_source_locator": "GHDI Session VI 13 Jan 1547 Justification Decree Chapters V and VII",
+      "edited_digital_source_inspected": true,
+      "original_manuscript_or_print_image_collated": false,
+      "source_textual_authority": "LIMITED_TO_INSPECTED_EDITION_OR_CATALOGUE",
+      "missing_original_witness_verification": "Latin Council decrees and detailed canons not collated",
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "COLLATION-V208-TRENT-03",
+      "focus_id": "FOCUS-V204-TRENT-03",
+      "v207_claim_id": "CLM-V207-TRENT-03",
+      "reader_key": "TRENT",
+      "passage_id": "PAR-V204-TRENT-003",
+      "original_focus_text": "주교의 거주 의무, 사제 교육, 설교",
+      "source_ids": [
+        "SRC-V208-TRENT"
+      ],
+      "inspected_source_locator": "GHDI Session XXIII 15 July 1563 section F, seminary establishment and education",
+      "edited_digital_source_inspected": true,
+      "original_manuscript_or_print_image_collated": false,
+      "source_textual_authority": "LIMITED_TO_INSPECTED_EDITION_OR_CATALOGUE",
+      "missing_original_witness_verification": "Latin session 23 original printing and regional implementation records not collated",
+      "expert_approved": false,
+      "can_publish": false
+    }
+  ],
+  "reader_paragraph_drafts": [
+    {
+      "id": "REV-V208-HUS-003",
+      "reader_key": "HUS",
+      "passage_id": "PAR-V204-HUS-003",
+      "start_char": 594,
+      "end_char": 891,
+      "original_paragraph": "후스가 1413년에 작성한 『De ecclesia』는 교회의 본질과 머리, 성직자의 권위와 참된 교회에 속한다는 의미를 탐구했다. 이 책은 위클리프의 동명 저작과 구분되어야 한다. 특히 교회의 머리가 그리스도라는 신학적 명제와 실제 교회 행정의 정당성을 판단하는 기준 사이의 긴장이 핵심적이다. 여기서 논쟁은 '불의한 지도자를 무조건 거부할 수 있는가?'라는 질문에 그치지 않는다. 교회가 자기 자신을 어떻게 규정하며, 성직자가 잘못하더라도 성례와 가르침을 통해 지속되는 공동체를 어떻게 이해할 것인가라는 더 넓은 문제가 등장한다.",
+      "proposed_paragraph": "후스의 『De ecclesia』는 마사리크대학교 Digiscripta가 1413년 저작으로 분류하며 여러 필사본을 목록화한다. 그중 프라하 국립도서관의 IV H 19는 목록상 1r~95r 범위를 가진다. 이 범위는 필사본의 소장 정보이지 특정 역사 주장에 대한 원문 대조 위치가 아니다. 따라서 위클리프의 동명 저작과 구별하면서 교회의 본질과 권위를 다루는 후스의 문제의식을 서술해야 한다.",
+      "linked_focus_ids": [
+        "FOCUS-V204-HUS-01"
+      ],
+      "status": "PROPOSED_NOT_APPLIED",
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "REV-V208-LUTHER1521-004",
+      "reader_key": "LUTHER1521",
+      "passage_id": "PAR-V204-LUTHER1521-004",
+      "start_char": 665,
+      "end_char": 801,
+      "original_paragraph": "보름스 칙령은 루터의 저술을 금지하고 그를 제국법적으로 고립시켰다. 하지만 이 결정을 한순간에 모든 독일 지역이 똑같이 집행한 것은 아니었다. 제국의 정치적 분산 구조와 지역 제후의 선택은 이후 개혁 운동의 존속을 설명하는 중요한 조건이 된다.",
+      "proposed_paragraph": "보름스 칙령은 루터의 저술과 가르침 및 지지자에 대한 제국적 제재를 다뤘다. 디지털 비평판은 1521년 5월 8일의 문안 처리 과정과 5월 26일 황제의 서명·공표 명령을 구별한다. 학술 전사본은 1521년 인쇄본 VD16 D 924의 독일어 본문과 면·행 번호를 제공하지만, 이 텍스트가 황제 서명 원본과 문자별로 일치한다는 뜻은 아니다. 제국의 각 지역에서의 실제 시행도 별도 역사적 사건으로 취급해야 한다.",
+      "linked_focus_ids": [
+        "FOCUS-V204-LUTHER1521-02"
+      ],
+      "status": "PROPOSED_NOT_APPLIED",
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "REV-V208-MARBURG-002",
+      "reader_key": "MARBURG",
+      "passage_id": "PAR-V204-MARBURG-002",
+      "start_char": 314,
+      "end_char": 668,
+      "original_paragraph": "마르부르크 조항은 1529년 10월 3일 작성·서명된 것으로, 후대의 대중적 기억보다 훨씬 넓은 신학적 합의를 보여 준다. 앞선 조항에는 삼위일체, 그리스도의 성육신, 죽음과 부활, 죄와 신앙, 세례와 목회에 관한 공통적인 입장이 기록되어 있다. 이 사실은 회담이 처음부터 무의미했다는 해석을 약화시킨다. 그러나 제15조에서 성만찬의 빵과 포도주 안에 그리스도의 몸과 피가 육체적으로 현존하는가라는 문제에는 합의하지 못했다고 명시했다. 양측은 그리스도인으로서의 사랑을 보여 줄 것을 약속했지만, 그 약속이 곧 성찬 교리의 완전한 일치를 뜻하지는 않았다. 제15조는 예배 실천에 관한 공통점과 교리 해석의 차이를 함께 기록한 문장이다.",
+      "proposed_paragraph": "마르부르크에서 1529년 10월 초 작성된 조항들은 루터와 츠빙글리 진영의 폭넓은 공통 신앙을 보여 준다. 독일사료 아카이브의 현대 편집 번역은 10월 3일을 작성·서명 시점으로 소개하며, 삼위일체와 그리스도의 사역, 믿음과 세례에 관한 합의를 기록한다. 그러나 제15조에서 성만찬의 빵과 포도주 안에 그리스도의 몸과 피가 육체적으로 현존하는 문제에는 완전한 합의에 이르지 못했다고 명시한다. 동시에 양측은 상대에게 그리스도인다운 사랑을 보이고 하나님의 인도를 구하기로 했다. 이 두 측면을 함께 읽어야 하며, 현대 영어 번역과 당시 독일어 필사본의 직접 교감은 구분해야 한다.",
+      "linked_focus_ids": [
+        "FOCUS-V204-MARBURG-01",
+        "FOCUS-V204-MARBURG-02"
+      ],
+      "status": "PROPOSED_NOT_APPLIED",
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "REV-V208-AUGSBURG-002",
+      "reader_key": "AUGSBURG",
+      "passage_id": "PAR-V204-AUGSBURG-002",
+      "start_char": 298,
+      "end_char": 585,
+      "original_paragraph": "아우크스부르크에서 제출된 문서와 1531년 공인 인쇄본은 같은 역사적 사건의 연속이지만 동일한 물리적 유물이 아니다. 1531년 비텐베르크에서 게오르크 라우가 인쇄한 공인 판본은 고백의 텍스트가 더욱 널리 유통되게 했다. 초판이라는 용어를 사용할 때도 어떤 언어와 출판물을 가리키는지 명확히 해야 한다. 라틴어와 독일어 본문의 형성·출판 과정은 서지상 구분해야 하며, 현대에 인쇄된 신앙고백 문헌집을 1530년 제출 원고로 오해해서는 안 된다. 아카이브의 판본 ID는 독자에게 이러한 차이를 드러내는 장치가 된다.",
+      "proposed_paragraph": "1530년 제국의회에서 제출된 아우크스부르크 신앙고백과 1531년 승인 인쇄본은 같은 저술 전통에 속하더라도 동일한 문서 증인은 아니다. 현대 편집본에 소개된 멜란히톤의 1531년 서문은 앞서 허가 없이 유통된 인쇄물의 문제를 언급한다. 따라서 1531년판을 최초의 인쇄 자체가 아니라 최초의 승인 인쇄판이라는 의미에서 설명해야 한다. 제출 원고·인쇄본·현대 번역본은 언어와 서지상 구별해야 한다.",
+      "linked_focus_ids": [
+        "FOCUS-V204-AUGSBURG-02"
+      ],
+      "status": "PROPOSED_NOT_APPLIED",
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "REV-V208-AUGSBURG-005",
+      "reader_key": "AUGSBURG",
+      "passage_id": "PAR-V204-AUGSBURG-005",
+      "start_char": 1173,
+      "end_char": 1481,
+      "original_paragraph": "멜란히톤은 이후 고백의 라틴어 본문을 수정했고, 1540년판은 나중에 Variata라고 불렸다. 이 수정판은 특히 제4조와 제10조에 관하여 후대의 관심을 받았다. 제10조의 변화가 다른 개혁 진영과의 협의를 쉽게 하려는 표현상의 이동과 관련되어 있었다는 해석은 중요하지만, 그 변화가 정확히 어떤 교리적 결론을 뜻했는지는 문구의 판본별 대조와 당시의 논쟁을 함께 검토해야 한다. 특정 문구를 한 줄만 떼어 '교리적 배신' 또는 '완전한 합의'로 단정할 수 없다. 무엇이 실제 변경되었는지와 그 변경을 누가 어떻게 받아들였는지는 별개의 역사 질문이다.",
+      "proposed_paragraph": "1540년판 Variata는 아우크스부르크 신앙고백의 이전 본문과 구별해야 하는 수정판이다. 현대 병렬 번역은 제4조의 신학적 논증 분량·배열이 달라진 점과 제10조의 성만찬 표현 차이를 보여 준다. 제10조의 1540년 번역은 빵과 포도주와 함께 그리스도의 몸과 피가 참으로 제공된다는 설명을 제시하며, 자료에는 라틴어 표현 vere exhibeantur가 표시돼 있다. 그러나 이 비교는 현대 영어 번역에 의존하므로 1531년 및 1540년 인쇄본의 라틴어 이문을 직접 교감한 결과라고 할 수 없다.",
+      "linked_focus_ids": [
+        "FOCUS-V204-AUGSBURG-03"
+      ],
+      "status": "PROPOSED_NOT_APPLIED",
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "REV-V208-TRENT-002",
+      "reader_key": "TRENT",
+      "passage_id": "PAR-V204-TRENT-002",
+      "start_char": 238,
+      "end_char": 488,
+      "original_paragraph": "공의회는 성경과 전승, 원죄, 의롭다 함, 성례, 미사와 사제직 등을 다뤘다. 특히 의롭다 함에 관한 결정은 개신교의 신앙 이해에 대한 응답으로 자주 소개되지만, 가톨릭 입장을 단순히 사람의 공적으로 구원을 '구입한다'는 주장으로 표현해서는 안 된다. 정확한 비교는 당시 회기별 교령의 문장, 신학적 전제와 반대 입장의 실제 주장을 함께 읽을 때 가능하다. 반대로 개혁자들의 입장을 오직 윤리적 선행에 반대했다는 설명으로 요약하는 것도 부정확하다.",
+      "proposed_paragraph": "트리엔트 공의회의 의롭다 함 교령은 1547년 1월 13일 제6회기에 속한다. 편집 번역문의 제5장은 하나님의 선행하는 은혜와 인간의 응답을, 제7장은 죄 사함에 더해 내적 갱신과 의롭다 함의 원인을 다룬다. 이를 사람이 자신의 공로로 구원을 구매한다는 주장으로만 설명하면 당시의 가톨릭 논증을 왜곡하게 된다. 개혁자들의 가르침과 비교할 때에도 양측의 신학적 전제와 실제 문구를 함께 검토해야 한다.",
+      "linked_focus_ids": [
+        "FOCUS-V204-TRENT-02"
+      ],
+      "status": "PROPOSED_NOT_APPLIED",
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "REV-V208-TRENT-003",
+      "reader_key": "TRENT",
+      "passage_id": "PAR-V204-TRENT-003",
+      "start_char": 490,
+      "end_char": 691,
+      "original_paragraph": "공의회 이후의 가톨릭 개혁은 교리를 확정하는 데서 끝나지 않았다. 주교의 거주 의무, 사제 교육, 설교, 신학교와 지역 교회 규율과 관련한 개혁은 교회의 장기적 운영에 영향을 미쳤다. 이후 교황청과 지역 주교, 각국의 정치권력은 공의회의 결정을 서로 다른 속도로 시행했다. 따라서 결정과 실행의 결과를 같은 시점의 하나의 사건으로 합쳐서 이야기해서는 안 된다.",
+      "proposed_paragraph": "트리엔트 공의회의 가톨릭 개혁은 교리를 확정하는 작업에 그치지 않았다. 1563년 7월 15일 제23회기의 신학교 규정은 성직 후보자 선발, 교육과 훈련, 주교의 감독 책임을 구체적으로 다룬다. 이는 의롭다 함 교령이 발표된 1547년 제6회기와 별개의 역사적 조치다. 또한 규정의 선포 시점이 모든 교구의 현장 시행 시점과 일치했던 것은 아니므로 실제 이행은 지역별 자료로 살펴야 한다.",
+      "linked_focus_ids": [
+        "FOCUS-V204-TRENT-03"
+      ],
+      "status": "PROPOSED_NOT_APPLIED",
+      "expert_approved": false,
+      "can_publish": false
+    }
+  ],
+  "open_gaps": [
+    "Marburg WA 30/3 160–171 describes whole document, not exact Article XV folio.",
+    "DDE 1521 original-language transcription A1r is not physical print scan.",
+    "Augsburg 1530/1540 side-by-side table is modern English translation.",
+    "Hus IV H 19 folio range is holdings metadata, not a claim-specific folio.",
+    "Seven draft paragraphs are NOT merged into locked V2.02 source.",
+    "No humanities specialist and rights signoff; research publication remains blocked."
+  ]
+}
