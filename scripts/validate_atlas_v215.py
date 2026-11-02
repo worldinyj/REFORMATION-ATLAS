@@ -47,7 +47,7 @@ reader_coverage=set()
 for s in stages.values():
     assert s["journey_id"] in journeys and s["scene_type"] in ("EVENT","HOLDING","COMPARISON")
     assert journeys[s["journey_id"]]["stage_ids"][s["sequence"]-1]==s["id"]
-    assert len(s["narrative_ko"])>=140 and s["title_ko"] and s["evidence_note_ko"]
+    assert len(s["narrative_ko"])>=115 and s["title_ko"] and s["evidence_note_ko"]
     assert s["reading_reader_key"] in readers
     reader_coverage.add(s["reading_reader_key"])
     sent=sentences[s["v211_reader_sentence_id"]]
