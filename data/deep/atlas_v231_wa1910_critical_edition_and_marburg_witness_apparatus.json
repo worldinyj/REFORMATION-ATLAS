@@ -1,0 +1,218 @@
+{
+  "version": "2.31",
+  "kind": "WA_30_III_1910_CRITICAL_EDITED_REPORTS_AND_MARBURG_MANUSCRIPT_STEMMA",
+  "parent_commit": "54ff75a8c08d61955b92978beb1a7c07a1ebe755",
+  "baseline_dataset": "data/deep/atlas_v230_gotha_anonymous_manuscript_copies_heppe_lineage.json",
+  "publication_gate": {
+    "can_ship": false,
+    "original_1910_print_pages_visually_read": false,
+    "wa1910_ocr_human_proofread": false,
+    "gotha_original_folios_read": false,
+    "k_z_original_articles_direct_collated": false,
+    "koehler_1929_p40_read": false,
+    "expert_signoff": false,
+    "webapp_integrated": false
+  },
+  "sources": [
+    {
+      "id": "WA1910_BOOK",
+      "url": "https://archive.org/details/werkekritischege3003luthuoft",
+      "evidence": "1910 WA30/3 v30pt03 University of Toronto scanned 624 pages; print page images not read",
+      "original_page_image_read": false
+    },
+    {
+      "id": "WA1910_OCR",
+      "url": "https://archive.org/stream/werkekritischege3003luthuoft/werkekritischege3003luthuoft_djvu.txt",
+      "evidence": "direct OCR of printed critical edition preface and printed pages 107-109, 110-127; not diplomatic primary manuscript",
+      "original_page_image_read": false
+    },
+    {
+      "id": "WA1910_PDF",
+      "url": "https://maartenluther.com/30-III_werkekritischege3003luthuoft_bw.pdf",
+      "evidence": "44MB PDF blocked by web size limit, archive.org pdf unsafe redirect",
+      "original_page_image_read": false
+    },
+    {
+      "id": "SCHUBERT1908",
+      "url": "https://dlibra.bibliotekaelblaska.pl/Content/59249/03.pdf",
+      "evidence": "1908 p361 Z additions 7,13,15 between text and signatures; screenshot timeout but extracted text read",
+      "original_page_image_read": false
+    },
+    {
+      "id": "SILVA2014",
+      "url": "https://ub01.uni-tuebingen.de/xmlui/bitstream/handle/10900/95598/Silva_033.pdf?isAllowed=y&sequence=1",
+      "evidence": "2014 study fourteen agreed articles and 5 of 6 units Article 15; scholarly counting convention, not signatories count",
+      "original_page_image_read": false
+    },
+    {
+      "id": "GOTHA_A",
+      "url": "https://kalliope.staatsbibliothek-berlin.de/ead?ead.id=DE-611-HS-3411742",
+      "evidence": "Gotha A401 anonymous copy 10 leaves editorial range WA110-143",
+      "original_page_image_read": false
+    },
+    {
+      "id": "GOTHA_B",
+      "url": "https://kalliope.staatsbibliothek-berlin.de/ead?ead.id=DE-611-HS-3422809",
+      "evidence": "Gotha B1482 report copy 10 leaves editorial range WA92-143",
+      "original_page_image_read": false
+    },
+    {
+      "id": "GOTHA_C",
+      "url": "https://kalliope.staatsbibliothek-berlin.de/de/ead?ead.id=DE-611-HS-3427036",
+      "evidence": "Gotha B493 later Mattenberg copy 8 leaves WA92-144 second version",
+      "original_page_image_read": false
+    },
+    {
+      "id": "ZARCH",
+      "url": "https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=618165",
+      "evidence": "signed Zurich original Z art7,13,15 K discrepancies reported by archivist",
+      "original_page_image_read": false
+    }
+  ],
+  "reading_units": [
+    {
+      "id": "U1",
+      "source_ids": [
+        "WA1910_OCR"
+      ],
+      "print_page": 126,
+      "genre": "1529_EYEWITNESS_REPORT_EDITED_IN_1910",
+      "raw": "Tum Zwinglius: Philippus concessit, verba uihil aliud quam sigui-ficare",
+      "normalized": "Philippus concessit, verba nihil aliud quam significare",
+      "ko": "츠빙글리는 멜란히톤이 말은 의미를 나타내는 것이라고 양보했다고 주장",
+      "level": "1910_PRINT_OCR_NOT_ORIGINAL_MANUSCRIPT"
+    },
+    {
+      "id": "U2",
+      "source_ids": [
+        "WA1910_OCR"
+      ],
+      "print_page": 126,
+      "genre": "1529_EYEWITNESS_REPORT_EDITED_IN_1910",
+      "raw": "non solum significare, sed simul etiam efBcere",
+      "normalized": "non solum significare, sed simul etiam efficere",
+      "ko": "루터는 하나님의 명령으로 전달된 말씀은 뜻을 나타내는 데 그치지 않고 효력도 지닌다고 반박",
+      "level": "1910_PRINT_OCR_NOT_ORIGINAL_MANUSCRIPT"
+    },
+    {
+      "id": "U3",
+      "source_ids": [
+        "WA1910_OCR"
+      ],
+      "print_page": 126,
+      "genre": "CRITICAL_APPARATUS_OF_REPORT_VARIANTS",
+      "raw": "verba fehlt bei Wigand ... quam fehlt",
+      "normalized": null,
+      "ko": "비평판 각주는 특정 전승본에서 verba 및 quam 탈락을 기록. OCR 때문에 quam의 대상 판본은 확정하지 않음",
+      "level": "EDITORIAL_APPARATUS_OCR_FORMAT_AMBIGUOUS"
+    },
+    {
+      "id": "U4",
+      "source_ids": [
+        "WA1910_OCR"
+      ],
+      "print_page": 108,
+      "genre": "EDITORIAL_STEMMA_HYPOTHESIS",
+      "raw": "drei Reinschriften ... Zusätze ... K ... Z ... dritte Reinschrift",
+      "normalized": null,
+      "ko": "1910년 편집자는 K와 Z 외 잃어버린 제3 정서본을 인쇄 계통의 배후로 추정",
+      "level": "EDITOR_1910_HYPOTHESIS_OCR"
+    },
+    {
+      "id": "U5",
+      "source_ids": [
+        "WA1910_OCR"
+      ],
+      "print_page": 108,
+      "genre": "EDITORIAL_ARTICLE7_LEXICAL_VARIANT",
+      "raw": "Art.7 ... glauben an ... glauben in ... Z= K ...",
+      "normalized": null,
+      "ko": "glauben an 과 glauben in이라는 제7조 이문 후보. OCR 비교 기호가 불확실해 K/Z 특정 전사로 등록하지 않음",
+      "level": "EDITORIAL_APPARATUS_OCR_UNVERIFIED_SIGLA"
+    },
+    {
+      "id": "U6",
+      "source_ids": [
+        "SCHUBERT1908",
+        "ZARCH"
+      ],
+      "print_page": 361,
+      "genre": "SCHUBERT_1908_MANUSCRIPT_INTERPRETATION",
+      "raw": "Zusätze ... Züricher Original ... zwischen Text und Unterschriften",
+      "normalized": null,
+      "ko": "슈베르트는 제7·13·15조 추가 구절이 취리히 서명본 Z의 본문과 서명 사이에 있다고 주장",
+      "level": "1908_SCHOLAR_TEXT_NOT_1529_IMAGE"
+    },
+    {
+      "id": "U7",
+      "source_ids": [
+        "SILVA2014"
+      ],
+      "print_page": 213,
+      "genre": "MODERN_CONSENSUS_REVIEW",
+      "raw": "vierzehn Artikeln und in fünf der im fünfzehnten Artikel enthaltenen sechs Punkten",
+      "normalized": null,
+      "ko": "다 시우바는 14개 조와 제15조의 6개 세부 중 5개에서 합의를 보았다는 구도로 해석",
+      "level": "2014_SCHOLARLY_INTERPRETATION_NOT_1529_WITNESS"
+    }
+  ],
+  "chronology_cautions": {
+    "schubert_1908": "Physical location between text and signatures is argued",
+    "weimar_1910": "Some additions after signature argued; not necessarily same chronological claim",
+    "no_direct_1529_ink_date_inference": true
+  },
+  "report_vs_agreement_caution": "WA p126 An/Au report reading is not signed K/Z Art7/13/15. A critical edition is not a 1529 manuscript.",
+  "claim_latin1910": "Philippus concessit, verba nihil aliud quam significare",
+  "reply_latin1910": "non solum significare, sed simul etiam efficere",
+  "previous_koehler_indirect_reading": "Verba nihil aliud posse quam significare",
+  "conclusion_on_wording": "DIFFERENT_SOURCE_LAYER_NOT_SAME_WITNESS_VARIANT_YET",
+  "reader_sections": [
+    {
+      "id": "R1",
+      "title": "같은 회담의 서로 다른 기록",
+      "unit_ids": [
+        "U4",
+        "U6"
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "말은 뜻을 나타내는가, 실제로 작용하는가",
+      "unit_ids": [
+        "U1",
+        "U2",
+        "U3"
+      ]
+    },
+    {
+      "id": "R3",
+      "title": "서명과 합의의 경계",
+      "unit_ids": [
+        "U5",
+        "U7"
+      ]
+    }
+  ],
+  "open_issues": [
+    "Scan and inspect actual WA1910 printed pp107-109 and 125-127",
+    "Verify missing 'quam' siglum and verbatim report attribution from image",
+    "Inspect WA p108 legend before assigning glauben an/in to original K or Z",
+    "Compare 1908 Schubert and 1910 editor on date of additions versus physical location",
+    "Access Köhler 1929 p40-42 direct source",
+    "Get Gotha A401/B1482/B493 actual manuscripts",
+    "Access signed K/Z original Article7/13/15 pages"
+  ],
+  "metrics": {
+    "sources": 9,
+    "textual_reading_units": 7,
+    "wa1910_units": 5,
+    "independent_scholarship_units": 2,
+    "reader_sections": 3,
+    "open_issues": 7,
+    "printed_1910_images_seen": 0,
+    "new_1529_original_pages_seen": 0,
+    "original_zk_collations": 0,
+    "prior_unique_other_1529_manuscript_pages": 4,
+    "webapp_publications": 0
+  }
+}
