@@ -1,0 +1,28 @@
+name: Atlas V223 critical edition evidence and date QA
+on:
+  push:
+    branches: ['research/**']
+    paths:
+      - 'data/deep/atlas_v223_marburg_critical_text_and_date_provenance.json'
+      - 'scripts/validate_atlas_v223.py'
+      - 'docs/01_CONTENT/V223_MARBURG_EDITORIAL_TEXT_DATES_RIGHTS_AND_IMAGE_ACCESS_REPORT.md'
+      - '.github/workflows/atlas-v223-critical-source-text.yml'
+  workflow_dispatch:
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify V219 structured historical corpus
+        run: python3 scripts/validate_atlas_v219.py
+      - name: Verify V220 critical variant levels
+        run: python3 scripts/validate_atlas_v220.py
+      - name: Verify V221 accession target registry
+        run: python3 scripts/validate_atlas_v221.py
+      - name: Verify V222 image routing and textual assertions
+        run: python3 scripts/validate_atlas_v222.py
+      - name: Verify V223 edition context and divergent dates
+        run: python3 scripts/validate_atlas_v223.py
