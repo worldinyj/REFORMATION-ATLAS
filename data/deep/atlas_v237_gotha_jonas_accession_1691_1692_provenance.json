@@ -90,9 +90,129 @@
       "finding": "Gotha site blog under CC BY-SA 4.0; this does not automatically license embedded manuscript or digitized 1692 print scans."
     }
   ],
-  "timeline": [],
-  "witness_ladder": [],
+  "timeline": [
+    {
+      "year": 1680,
+      "id": "E-1680",
+      "event": "Louis Maimbourg, Histoire du Lutheranisme",
+      "meaning_ko": "제켄도르프 역사서가 반박하려 했던 가톨릭 측 종교개혁 역사 해석",
+      "source_ids": [
+        "GOTHA-BLOG"
+      ]
+    },
+    {
+      "year": 1686,
+      "id": "E-1686",
+      "event": "Meuselwitz fire 9 June",
+      "meaning_ko": "사료 수집과 출판 준비에 타격을 준 화재",
+      "source_ids": [
+        "GOTHA-BLOG"
+      ]
+    },
+    {
+      "year": 1687,
+      "id": "E-1687",
+      "event": "First book of Historia Lutheranismi published",
+      "meaning_ko": "전체 책에 앞서 첫째 책이 가을에 출판됨",
+      "source_ids": [
+        "GOTHA-BLOG"
+      ]
+    },
+    {
+      "year": 1688,
+      "id": "E-1688",
+      "event": "Weimar archival access and scholarly network grows",
+      "meaning_ko": "제켄도르프가 바이마르 사료와 지역 협조자들의 도움으로 문헌 기반 확대",
+      "source_ids": [
+        "GOTHA-BLOG"
+      ]
+    },
+    {
+      "year": 1691,
+      "id": "E-1691",
+      "event": "Completed full work published autumn",
+      "meaning_ko": "고타 기관 연구에 따르면 완성본의 실제 공급은 1691년 가을",
+      "source_ids": [
+        "GOTHA-BLOG"
+      ]
+    },
+    {
+      "year": 1692,
+      "id": "E-1692",
+      "event": "Imprint/title-page year 1692",
+      "meaning_ko": "출판사 Gleditsch가 표제에 1692년을 부여, 실제 가을 1691년 출판과 구별",
+      "source_ids": [
+        "GOTHA-BLOG",
+        "BSB-BOOK"
+      ]
+    }
+  ],
+  "witness_ladder": [
+    {
+      "id": "L-1529",
+      "period": "1529",
+      "type": "Jonas original letter",
+      "evidence_status": "ORIGINAL_AUTOGRAPH_NOT_READ",
+      "read_pages": 0
+    },
+    {
+      "id": "L-17C",
+      "period": "17th century",
+      "type": "Gotha A453 and B28 distinct physical copied objects",
+      "evidence_status": "TWO_ARCHIVAL_CATALOGUE_ENTRIES_ONLY",
+      "read_pages": 0
+    },
+    {
+      "id": "L-1691",
+      "period": "1691/1692",
+      "type": "Seckendorff final book with 1692 imprint",
+      "evidence_status": "OFFICIAL_BOOK_OBJECT_IDENTIFIED_P139_UNREAD",
+      "read_pages": 0
+    },
+    {
+      "id": "L-1834",
+      "period": "1834",
+      "type": "Corpus Reformatorum vol1 edited letters",
+      "evidence_status": "BIBLIOGRAPHY_ONLY_COL1097_NOT_READ",
+      "read_pages": 0
+    },
+    {
+      "id": "L-1997",
+      "period": "1997",
+      "type": "Fudge academic essay quoting 1834 CR",
+      "evidence_status": "MODERN_PDF_P268_PREVIOUSLY_IMAGE_READ",
+      "read_pages": 1
+    },
+    {
+      "id": "L-2024",
+      "period": "2024",
+      "type": "Gotha scholarly historiography of Seckendorff publication network",
+      "evidence_status": "DIRECT_FULL_INSTITUTIONAL_ARTICLE_READ",
+      "read_pages": 0
+    }
+  ],
   "reader_sections": [],
   "open_issues": [],
-  "metrics": {}
+  "metrics": {},
+  "digital_iiif": {
+    "candidate_url": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10716130/manifest",
+    "status": "CONSTRUCTED_FROM_OFFICIAL_BSB_PATTERN_NOT_RETRIEVED",
+    "attempt_web": "INTERNAL_ERROR",
+    "attempt_container": "DNS_FAILURE",
+    "canvas_ids_extracted": 0,
+    "original_images_1692_read": 0
+  },
+  "research_network": {
+    "phases": [
+      "1682–1684: preparatory contacts and scholarly/ducal archive permissions",
+      "1685–1687: interrupted collection with 9 June 1686 fire, first book published",
+      "1688–1691: Pfanner/Tentzel mediators, archival volumes transported to Meuselwitz, complete book published"
+    ],
+    "reported_400_volumes": "over 400 Weimar archival volumes according to Seckendorff as cited by Gehrt",
+    "gotha_df_project": "2024 Gotha DFG catalogue project exceeded 7900 documents in 32 archive/library collections",
+    "bias_limit": "Lutheran apologetic work countering Maimbourg, not assumption that all later Jonas citations are complete or impartial",
+    "source_ids": [
+      "GOTHA-BLOG"
+    ]
+  }
 }
