@@ -1,0 +1,47 @@
+name: Atlas V228 manuscript micro-reading source QA
+on:
+  push:
+    branches: ['research/**']
+    paths:
+      - 'data/deep/atlas_v228_manuscript_microtranscription_and_editorial_variant_audit.json'
+      - 'scripts/validate_atlas_v228.py'
+      - 'docs/01_CONTENT/V228_MELANCHTHON_ZWINGLI_1529_MANUSCRIPT_MICROTRANSCRIPTION_REPORT.md'
+      - '.github/workflows/atlas-v228-manuscript-microreading-qa.yml'
+  pull_request:
+    branches: ['research/**']
+    paths:
+      - 'data/deep/atlas_v228_manuscript_microtranscription_and_editorial_variant_audit.json'
+      - 'scripts/validate_atlas_v228.py'
+      - 'docs/01_CONTENT/V228_MELANCHTHON_ZWINGLI_1529_MANUSCRIPT_MICROTRANSCRIPTION_REPORT.md'
+      - '.github/workflows/atlas-v228-manuscript-microreading-qa.yml'
+  workflow_dispatch:
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Compile V228 validator
+        run: python3 -m py_compile scripts/validate_atlas_v228.py
+      - name: V219 corpus
+        run: python3 scripts/validate_atlas_v219.py
+      - name: V220 variants
+        run: python3 scripts/validate_atlas_v220.py
+      - name: V221 accession
+        run: python3 scripts/validate_atlas_v221.py
+      - name: V222 image routes
+        run: python3 scripts/validate_atlas_v222.py
+      - name: V223 source dates
+        run: python3 scripts/validate_atlas_v223.py
+      - name: V224 retrieval guards
+        run: python3 scripts/validate_atlas_v224.py
+      - name: V225 witnesses and print transmission
+        run: python3 scripts/validate_atlas_v225.py
+      - name: V226 gloss author attribution
+        run: python3 scripts/validate_atlas_v226.py
+      - name: V227 visual page and witnesses
+        run: python3 scripts/validate_atlas_v227.py
+      - name: V228 micro-reading and Latin witness correction
+        run: python3 scripts/validate_atlas_v228.py
