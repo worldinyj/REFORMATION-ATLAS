@@ -1,0 +1,41 @@
+name: Atlas V224 primary facsimile acquisition guard QA
+on:
+  push:
+    branches: ['research/**']
+    paths:
+      - 'data/deep/atlas_v224_primary_facsimile_retrieval_gate.json'
+      - 'scripts/fetch_atlas_v224_primary_facsimile.py'
+      - 'scripts/validate_atlas_v224.py'
+      - 'docs/01_CONTENT/V224_PRIMARY_IMAGE_ACQUISITION_AND_VALIDATION_GATE.md'
+      - '.github/workflows/atlas-v224-primary-facsimile-gate.yml'
+  pull_request:
+    branches: ['research/**']
+    paths:
+      - 'data/deep/atlas_v224_primary_facsimile_retrieval_gate.json'
+      - 'scripts/fetch_atlas_v224_primary_facsimile.py'
+      - 'scripts/validate_atlas_v224.py'
+      - 'docs/01_CONTENT/V224_PRIMARY_IMAGE_ACQUISITION_AND_VALIDATION_GATE.md'
+      - '.github/workflows/atlas-v224-primary-facsimile-gate.yml'
+  workflow_dispatch:
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Python source compiles
+        run: python3 -m py_compile scripts/fetch_atlas_v224_primary_facsimile.py scripts/validate_atlas_v224.py
+      - name: V219 original corpus regression
+        run: python3 scripts/validate_atlas_v219.py
+      - name: V220 textual variants regression
+        run: python3 scripts/validate_atlas_v220.py
+      - name: V221 physical witness accession regression
+        run: python3 scripts/validate_atlas_v221.py
+      - name: V222 image access and textual assertions regression
+        run: python3 scripts/validate_atlas_v222.py
+      - name: V223 edited texts and dates regression
+        run: python3 scripts/validate_atlas_v223.py
+      - name: V224 offline facsimile acquisition and evidence validation
+        run: python3 scripts/validate_atlas_v224.py
