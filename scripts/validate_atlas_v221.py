@@ -20,7 +20,8 @@ assert v20["metrics"]["comparison_units"] == 5 and v20["metrics"]["direct_16c_wi
 
 sources = {s["id"]: s for s in v21["source_records"]}
 targets = {t["id"]: t for t in v21["accession_targets"]}
-# V221 alignment entries use the V220 variant ID as their primary reference key.\nunits = {u["v220_variant_id"]: u for u in v21["variant_alignment_targets"]}
+# V221 alignment entries use the V220 variant ID as their primary reference key.
+units = {u["v220_variant_id"]: u for u in v21["variant_alignment_targets"]}
 parent_units = {u["id"]: u for u in v20["variant_units"]}
 assert len(sources) == len(v21["source_records"]) == 7
 assert len(targets) == len(v21["accession_targets"]) == 6
