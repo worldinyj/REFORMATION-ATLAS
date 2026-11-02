@@ -1,0 +1,349 @@
+{
+  "version": "2.28",
+  "kind": "MARBURG_1529_ZWINGLI_MELANCHTHON_MANUSCRIPT_SELECTIVE_READINGS_EDITION_CHECK",
+  "parent_commit": "41e1b605cb49957a3b71495a26d871f3d8eb15aa",
+  "baseline_dataset": "data/deep/atlas_v227_melanchthon_conversation_original_eyewitness_comparison.json",
+  "publication_gate": {
+    "can_ship": false,
+    "manuscript_full_transcription_approved": false,
+    "handwriting_authentication_completed": false,
+    "koehler_1929_pages_directly_read": false,
+    "z_k_signed_witness_collation_completed": false,
+    "historical_peer_review_completed": false,
+    "images_approved_for_webapp": false
+  },
+  "methods": {
+    "avoid_ocr_original_manuscript": true,
+    "transcribe_only_short_confident_image_tokens": true,
+    "editorial_quote_not_ascribed_to_original_diplomatic_reading": true,
+    "source_attribution_not_scholarly_endorsement": true,
+    "screenshot_original_4_of_4": true,
+    "read_and_transcribed_are_distinct": true
+  },
+  "sources": [
+    {
+      "id": "SRC-V228-MS-ITEM",
+      "type": "INSTITUTIONAL_MANUSCRIPT_CATALOGUE",
+      "url": "https://www.e-manuscripta.ch/zuz/content/titleinfo/1379284",
+      "read_level": "DIRECT_HTML",
+      "evidence": "Ms Z XI 313.1, Marburg 30 Sep 1529, Latin 4 pp, Public Domain Mark"
+    },
+    {
+      "id": "SRC-V228-MS-PDF",
+      "type": "INSTITUTIONAL_1529_MANUSCRIPT_FACSIMILE",
+      "url": "https://www.e-manuscripta.ch/zuz/download/pdf/1379284",
+      "read_level": "PDF_SCREENSHOTS_ALL_4_MANUSCRIPT_PAGES",
+      "evidence": "5 PDF pages incl cover; original page images at zero-indexed p1–p4, handwriting and revisions"
+    },
+    {
+      "id": "SRC-V228-KOEHLER-CAT",
+      "type": "RESEARCH_MONOGRAPH_BIBLIOGRAPHIC_CATALOGUE",
+      "url": "https://katalog.slub-dresden.de/id/0-1076138667",
+      "read_level": "DIRECT_LIBRARY_METADATA",
+      "evidence": "Walther Köhler, Das Marburger Religionsgespräch 1529: Versuch einer Rekonstruktion, 1929 Leipzig, 141 pp; original pp40–42 NOT read"
+    },
+    {
+      "id": "SRC-V228-FRENCH1950",
+      "type": "MID_TWENTIETH_CENTURY_THEOLOGY_REFERENCE_OCR_UNPROOFREAD",
+      "url": "https://fr.wikisource.org/wiki/Dictionnaire_de_th%C3%A9ologie_catholique/ZWINGLIANISME_II._Prol%C3%A9gom%C3%A8nes_:_sources_et_normes_de_la_croyance",
+      "read_level": "ONLINE_1950_REFERENCE_OCR_WITH_EXPLICIT_WIKISOURCE_UNCORRECTED_OCR_WARNING",
+      "evidence": "p195 in digitized text cites Köhler 1929 p40 as 'Verba nihil aliud posse quam significare', p42 on Verbum / divine meaning; Roman Catholic interpretive commentary, not critical edition itself"
+    },
+    {
+      "id": "SRC-V228-REVIEW1971",
+      "type": "LATER_REVIEW_OF_MARBURG_TREATMENT",
+      "url": "https://www.e-periodica.ch/cntmng?pid=smh-002%3A1971%3A51%3A%3A1255",
+      "read_level": "SEARCH_INDEXED_REVIEW_TEXT",
+      "evidence": "Describes Zwingli's meeting record beginning with 'Philippus concedit: Verba nihil aliud posse quam significare'; not original handwriting transcription proof"
+    },
+    {
+      "id": "SRC-V228-BETO1945",
+      "type": "HISTORICAL_SOURCE_CRITICAL_SCHOLARLY_ARTICLE",
+      "url": "https://scholar.csl.edu/ctm/vol16/iss1/8/",
+      "read_level": "DIRECT_INSTITUTIONAL_ABSTRACT",
+      "evidence": "Beto 1945: no official transcript of all Marburg proceedings; witnesses took notes and later supplemented memory; supports genre distinctions"
+    },
+    {
+      "id": "SRC-V228-ZWINGLI1529OCT",
+      "type": "CONTEMPORARY_REPORT_IN_MODERN_TRANSLATION",
+      "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/ghdi:document-4300",
+      "read_level": "DIRECT_ENGLISH_EDITORIAL_TRANSLATION",
+      "evidence": "Zwingli 20 Oct to Vadian claims he wrote notes with Melanchthon present and that Melanchthon dictated some words; links possible provenance but item identity not independently established"
+    },
+    {
+      "id": "SRC-V228-ZARCH",
+      "type": "SEPARATE_1529_SIGNED_DOCUMENT_CATALOGUE",
+      "url": "https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=618165",
+      "read_level": "ARCHIVE_INDEX_METADATA",
+      "evidence": "Z signed original E I 3.1 Nr54 and K signed original are not the Z XI313.1 conversation notes"
+    }
+  ],
+  "folio_assessment": [
+    {
+      "id": "PAGE-V228-1",
+      "image_id": "1379285",
+      "pdf_page_zero_index": 1,
+      "physical_page": 1,
+      "handwriting_areas": [
+        "upper_annotated_margin",
+        "upper_body",
+        "middle_corrections",
+        "lower_annotations"
+      ],
+      "main_text_present": true,
+      "visual_read": true,
+      "full_text_transcribed": false,
+      "high_confidence_short_tokens": [
+        "Philippus",
+        "Zuinglius",
+        "Verba nihil aliud"
+      ],
+      "unclear_readings_present": true,
+      "source_ids": [
+        "SRC-V228-MS-PDF"
+      ]
+    },
+    {
+      "id": "PAGE-V228-2",
+      "image_id": "1379288",
+      "pdf_page_zero_index": 2,
+      "physical_page": 2,
+      "handwriting_areas": [
+        "short_faint_topline"
+      ],
+      "main_text_present": false,
+      "visual_read": true,
+      "full_text_transcribed": false,
+      "high_confidence_short_tokens": [],
+      "unclear_readings_present": true,
+      "source_ids": [
+        "SRC-V228-MS-PDF"
+      ]
+    },
+    {
+      "id": "PAGE-V228-3",
+      "image_id": "1379289",
+      "pdf_page_zero_index": 3,
+      "physical_page": 3,
+      "handwriting_areas": [
+        "top_body",
+        "full_middle",
+        "lower_body",
+        "strikeouts"
+      ],
+      "main_text_present": true,
+      "visual_read": true,
+      "full_text_transcribed": false,
+      "high_confidence_short_tokens": [
+        "Philippus",
+        "Zuinglius",
+        "Concordia"
+      ],
+      "unclear_readings_present": true,
+      "source_ids": [
+        "SRC-V228-MS-PDF"
+      ]
+    },
+    {
+      "id": "PAGE-V228-4",
+      "image_id": "1379291",
+      "pdf_page_zero_index": 4,
+      "physical_page": 4,
+      "handwriting_areas": [
+        "upper_body"
+      ],
+      "main_text_present": true,
+      "visual_read": true,
+      "full_text_transcribed": false,
+      "high_confidence_short_tokens": [
+        "Zuinglius"
+      ],
+      "unclear_readings_present": true,
+      "source_ids": [
+        "SRC-V228-MS-PDF"
+      ]
+    }
+  ],
+  "micro_readings": [
+    {
+      "id": "READ-V228-P1-PHILIPPUS",
+      "page": "PAGE-V228-1",
+      "token": "Philippus",
+      "status": "DIRECT_IMAGE_TOKEN_OBSERVED",
+      "confidence": "HIGH",
+      "text_is_full_sentence": false,
+      "interpretation_ko": "멜란히톤(필리프)을 가리키는 라틴어 발언자 표지",
+      "source_ids": [
+        "SRC-V228-MS-PDF"
+      ]
+    },
+    {
+      "id": "READ-V228-P1-ZUINGLIUS",
+      "page": "PAGE-V228-1",
+      "token": "Zuinglius",
+      "status": "DIRECT_IMAGE_TOKEN_OBSERVED",
+      "confidence": "HIGH",
+      "text_is_full_sentence": false,
+      "interpretation_ko": "츠빙글리를 가리키는 라틴어 발언자 표지",
+      "source_ids": [
+        "SRC-V228-MS-PDF"
+      ]
+    },
+    {
+      "id": "READ-V228-P1-VERBA",
+      "page": "PAGE-V228-1",
+      "token": "Verba nihil aliud",
+      "status": "DIRECT_IMAGE_PARTIAL_PHRASE",
+      "confidence": "HIGH",
+      "text_is_full_sentence": false,
+      "interpretation_ko": "'말들은 ... 다른 어떤 것을 ...'의 문두. 보이는 어구만 판독, 문장 뒤는 후대 문헌 대조 필요",
+      "source_ids": [
+        "SRC-V228-MS-PDF"
+      ]
+    },
+    {
+      "id": "READ-V228-P3-CONCORDIA",
+      "page": "PAGE-V228-3",
+      "token": "Concordia",
+      "status": "DIRECT_IMAGE_TOKEN_OBSERVED",
+      "confidence": "HIGH",
+      "text_is_full_sentence": false,
+      "interpretation_ko": "'합의·일치'라는 어휘; 대화의 실제 합의 성공을 뜻한다고 단정하지 않음",
+      "source_ids": [
+        "SRC-V228-MS-PDF"
+      ]
+    },
+    {
+      "id": "READ-V228-P3-PHILIPPUS",
+      "page": "PAGE-V228-3",
+      "token": "Philippus",
+      "status": "DIRECT_IMAGE_TOKEN_OBSERVED",
+      "confidence": "HIGH",
+      "text_is_full_sentence": false,
+      "interpretation_ko": "발언자 또는 인물 표지",
+      "source_ids": [
+        "SRC-V228-MS-PDF"
+      ]
+    },
+    {
+      "id": "READ-V228-P4-ZUINGLIUS",
+      "page": "PAGE-V228-4",
+      "token": "Zuinglius",
+      "status": "DIRECT_IMAGE_TOKEN_OBSERVED",
+      "confidence": "HIGH",
+      "text_is_full_sentence": false,
+      "interpretation_ko": "4면 첫 상단 부분의 인물·발언 표지",
+      "source_ids": [
+        "SRC-V228-MS-PDF"
+      ]
+    }
+  ],
+  "editorial_variants": [
+    {
+      "id": "ED-V228-1950",
+      "candidate_full_phrase": "Verba nihil aliud posse quam significare",
+      "source_ids": [
+        "SRC-V228-FRENCH1950",
+        "SRC-V228-KOEHLER-CAT"
+      ],
+      "claims_original_authograph_exact": false,
+      "claims_koehler_book_pp_read": false,
+      "citation_chain": "1950 uncorrected OCR reference cites Köhler 1929 p40; Köhler p40 not yet accessed",
+      "sense_ko": "말은 다른 것을 뜻할 수 없고 의미를 나타낼 뿐이라는 취지의 문헌상 문맥"
+    },
+    {
+      "id": "ED-V228-1971",
+      "candidate_full_phrase": "Philippus concedit: Verba nihil aliud posse quam significare",
+      "source_ids": [
+        "SRC-V228-REVIEW1971"
+      ],
+      "claims_original_authograph_exact": false,
+      "claims_koehler_book_pp_read": false,
+      "citation_chain": "1971 review/reception quoting initial proposition; not autograph image-level verification",
+      "sense_ko": "필리프가 '말은 의미할 뿐이다'는 진술을 양보/인정했다는 20세기 해설"
+    }
+  ],
+  "prior_reading_correction": {
+    "initial_v228_user_facing_provisional_phrase": "Verba nihil aliud possunt significare",
+    "corrected_research_status": "PROVISIONAL_WITHDRAWN",
+    "preferred_editorial_comparison": "Verba nihil aliud posse quam significare",
+    "do_not_replace_manuscript_diplomatic_text_with_editorial_quote": true,
+    "reason": "1950 dictionary citing Köhler 1929 p40 and 1971 review show posse quam, unlike preliminary image-only possunt; exact original script requires direct critical-edition and high-resolution reinspection"
+  },
+  "interpretive_tests": [
+    {
+      "id": "TEST-V228-LOGOS",
+      "hypothesis_ko": "문서의 언어(Verba) 논의는 성만찬 제정문을 어떻게 이해하는지와 관계될 가능성이 있다.",
+      "support_ids": [
+        "READ-V228-P1-VERBA",
+        "ED-V228-1950"
+      ],
+      "status": "POSSIBLE_NOT_DEMONSTRATED_FULL_CONTEXT"
+    },
+    {
+      "id": "TEST-V228-AGREEMENT",
+      "hypothesis_ko": "Concordia라는 단어가 등장한다는 사실만으로 정서본의 완전한 교리 합의를 뜻하지 않는다.",
+      "support_ids": [
+        "READ-V228-P3-CONCORDIA"
+      ],
+      "status": "CAUTION_CONFIRMED_PHYSICAL_TOKEN_ONLY"
+    },
+    {
+      "id": "TEST-V228-LETTER",
+      "hypothesis_ko": "츠빙글리의 10월20일 회고(멜란히톤의 입회 하에 기록)가 이 현존 노트 4면을 가리키는지 본문 대조 필요.",
+      "support_ids": [
+        "SRC-V228-ZWINGLI1529OCT",
+        "SRC-V228-MS-ITEM"
+      ],
+      "status": "SUGGESTED_IDENTITY_NOT_PROVEN"
+    },
+    {
+      "id": "TEST-V228-OFFICIAL",
+      "hypothesis_ko": "교회회의의 전체 공식 속기록과 이 개인 대화의 현존 초고를 동일한 장르로 취급하지 않는다.",
+      "support_ids": [
+        "SRC-V228-BETO1945",
+        "SRC-V228-MS-ITEM"
+      ],
+      "status": "GENRE_DISTINCTION_GROUNDED"
+    }
+  ],
+  "open_issues": [
+    {
+      "id": "OPEN-V228-KOEHLER40",
+      "status": "OPEN",
+      "action_ko": "Köhler 1929 p40 원판 확보 후 posse/quam/concedit 구절과 필사본 대조"
+    },
+    {
+      "id": "OPEN-V228-KOEHLER42",
+      "status": "OPEN",
+      "action_ko": "Köhler 1929 p42의 Verbum 정의와 1면/3면의 줄별 원문 위치 대응"
+    },
+    {
+      "id": "OPEN-V228-REVISIONS",
+      "status": "OPEN",
+      "action_ko": "원본 필사본 1면/3면의 삭제·덧쓰기 실제 판독과 고해상도 독립 필사 검수"
+    },
+    {
+      "id": "OPEN-V228-LINK",
+      "status": "OPEN",
+      "action_ko": "츠빙글리 10월20일 편지의 '내가 적고 멜란히톤이 일부 받아줌'과 보존본의 연결 확인"
+    },
+    {
+      "id": "OPEN-V228-ZK",
+      "status": "OPEN",
+      "action_ko": "별도의 K/Z 서명본 7·13·15조 원본 이미지 직접 확보·필사"
+    }
+  ],
+  "metrics": {
+    "primary_manuscript_objects_new": 0,
+    "original_manuscript_pages_reinspected": 4,
+    "cumulative_unique_primary_manuscript_pages": 4,
+    "high_confidence_micro_reading_anchors": 6,
+    "editorial_variant_comparison_candidates": 2,
+    "philological_inference_checks": 4,
+    "unresolved_actions": 5,
+    "full_transcription_approved": 0,
+    "original_marburg_kz_pages_read": 0,
+    "published_items": 0
+  }
+}
