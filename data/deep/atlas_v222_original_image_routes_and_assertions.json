@@ -1,0 +1,239 @@
+{
+  "version": "2.22",
+  "kind": "MARBURG_1529_DISCOVERED_IMAGE_ROUTES_AND_ASSERTION_TYPOLOGY",
+  "parent_branch": "research/atlas-v221-marburg-witness-accession",
+  "parent_commit": "28295da1fa87217441057f91c445ffcaee489661",
+  "base_dataset": "data/deep/atlas_v221_marburg_witness_accession.json",
+  "method": "A searchable record, IIIF manifest address, or site labelled 'original digitals' is not page-level image inspection. Editorial process amendments and signed-document Z/K variation are distinct relations until demonstrated otherwise.",
+  "publication_gate": {
+    "can_ship": false,
+    "expert_approved": false,
+    "original_z_k_collation_completed": false,
+    "media_rights_cleared": false,
+    "webapp_integrated": false
+  },
+  "source_records": [
+    {
+      "id": "SRC-V222-ERARA-W2119",
+      "kind": "INSTITUTIONAL_IMPRINT_RECORD",
+      "url": "https://www.e-rara.ch/zuz/content/titleinfo/170052",
+      "identified_by": "SEARCH_INDEXED_E_RARA_INDIVIDUAL_BIBLIOGRAPHIC_RECORD",
+      "asserts": "Zentralbibliothek Zürich 5.174,5 corresponds to VD16 W 2119, Vischer C161, Froschauer 1529, [4] leaves",
+      "page_images_directly_inspected": 0
+    },
+    {
+      "id": "SRC-V222-ERARA-IIIF-W2119",
+      "kind": "ADVERTISED_IIIF_MANIFEST_URI",
+      "url": "https://www.e-rara.ch/i3f/v20/170052/manifest",
+      "identified_by": "INSTITUTIONAL_RECORD_DISCLOSES_URI; DIRECT_FETCH_FAILED",
+      "asserts": "IIIF path for 5.174,5 W2119 exists as an advertised address, but content/pages not parsed",
+      "page_images_directly_inspected": 0
+    },
+    {
+      "id": "SRC-V222-HAPULS-K-IMAGES",
+      "kind": "PUBLIC_HISTORICAL_IMAGE_GALLERY_RECORD",
+      "url": "https://www.hapuls.de/node/1472",
+      "identified_by": "SEARCH_INDEXED_PAGE_HEADLINE_ORIGINALDIGITALISATE_K",
+      "asserts": "HAPuls describes the complete original digitals of 1529 Marburg Articles, labelled HStAM PA Nr245 Bl60-63; image bytes unavailable from accessible text",
+      "page_images_directly_inspected": 0
+    },
+    {
+      "id": "SRC-V222-HAPULS-K-TRANS",
+      "kind": "MODERN_EDITORIAL_GERMAN_TRANSCRIPTION",
+      "url": "https://www.hapuls.de/node/1473",
+      "identified_by": "SEARCH_INDEXED_PAGE_WITH_EDITORIAL_SOURCE_DISCLOSURE",
+      "asserts": "Modern transcription after Heiko Oberman 1994 citing May 1970 / Stupperich 1966; labelled HStAM PA Nr245 Bl60-63; not autograph spelling",
+      "page_images_directly_inspected": 0
+    },
+    {
+      "id": "SRC-V222-Z-CATALOGUE",
+      "kind": "INSTITUTIONAL_MANUSCRIPT_CATALOGUE",
+      "url": "https://archivkatalog.ji.zh.ch/detail.aspx?ID=618165",
+      "identified_by": "OFFICIAL_ZURICH_ARCHIVE_CURRENT_CATALOGUE_DOMAIN_AND_RECORD_TEXT",
+      "asserts": "Z E I 3.1 Nr54 has three Nachträge in articles 7,13,15 absent in K; archive cites K Best.3 Nr245 fol60r–64v; lists 1529 Zurich prints W2119/W2118",
+      "page_images_directly_inspected": 0
+    },
+    {
+      "id": "SRC-V222-ENGELER2023",
+      "kind": "OPEN_ACCESS_MODERN_SCHOLARLY_MONOGRAPH",
+      "url": "https://www.tvz-verlag.ch/_files_media/open_access/9783290185220.pdf",
+      "identified_by": "PUBLISHER_OPEN_ACCESS_PDF_TEXT_P64_FOOTNOTE_65; SCREENSHOT_REQUEST_TIMED_OUT",
+      "asserts": "Engeler 2023 printed p64 footnote65 cites changes in articles 8 and 15, probably 11, attributed to Fritz Büsser (Zwingli Werke VI/2 pp510f); context concerns editing of draft rather than explicit Z/K collation",
+      "page_images_directly_inspected": 0
+    },
+    {
+      "id": "SRC-V222-HESSEN-2017",
+      "kind": "INSTITUTIONAL_ARCHIVAL_PUBLICATION",
+      "url": "https://landesarchiv.hessen.de/sites/landesarchiv.hessen.de/files/2022-12/archivnachrichten_1-2017.pdf",
+      "identified_by": "HESSIAN_ARCHIVE_OFFICIAL_PDF_SEARCH_TEXT",
+      "asserts": "HStAM Best3 Nr245 Blatt60r–64v described as autograph signed Marburg Articles exhibition object",
+      "page_images_directly_inspected": 0
+    }
+  ],
+  "route_records": [
+    {
+      "id": "ROUTE-V222-K-GALLERY",
+      "v221_accession_id": "ACC-V221-K",
+      "route_type": "PUBLISHED_ORIGINAL_IMAGES_LANDING_PAGE",
+      "url": "https://www.hapuls.de/node/1472",
+      "source_ids": [
+        "SRC-V222-HAPULS-K-IMAGES",
+        "SRC-V222-Z-CATALOGUE",
+        "SRC-V222-HESSEN-2017"
+      ],
+      "discovery": "HIGH_CONFIDENCE_ITEM_GALLERY_INDEXED",
+      "contents_fetched": false,
+      "page_number_or_folio_match_verified": false,
+      "original_page_inspected": false,
+      "action": "OPEN_HAPULS_GALLERY_IMAGES_IDENTIFY_LEAF_AND_COMPARE_7_13_15"
+    },
+    {
+      "id": "ROUTE-V222-Z-CATALOGUE",
+      "v221_accession_id": "ACC-V221-Z",
+      "route_type": "ARCHIVAL_CATALOGUE_WITH_ORIGINAL_IDENTIFICATION",
+      "url": "https://archivkatalog.ji.zh.ch/detail.aspx?ID=618165",
+      "source_ids": [
+        "SRC-V222-Z-CATALOGUE"
+      ],
+      "discovery": "HIGH_CONFIDENCE_CATALOGUE_BUT_NO_PUBLIC_PAGE_IMAGE_FOUND",
+      "contents_fetched": false,
+      "page_number_or_folio_match_verified": false,
+      "original_page_inspected": false,
+      "action": "REQUEST_DIGITAL_SCAN_OR_MICROFILM_FOR_E_I_3_1_NR54"
+    },
+    {
+      "id": "ROUTE-V222-ZURICH-W2119",
+      "v221_accession_id": "ACC-V221-ZH1",
+      "route_type": "IDENTIFIED_IMPRINT_AND_IIIF_MANIFEST_ADVERTISED",
+      "url": "https://www.e-rara.ch/i3f/v20/170052/manifest",
+      "item_url": "https://www.e-rara.ch/zuz/content/titleinfo/170052",
+      "source_ids": [
+        "SRC-V222-ERARA-W2119",
+        "SRC-V222-ERARA-IIIF-W2119"
+      ],
+      "discovery": "CONFIRMED_5_174_5_IS_VD16_W2119",
+      "contents_fetched": false,
+      "page_number_or_folio_match_verified": false,
+      "original_page_inspected": false,
+      "action": "FETCH_IIIF_MANIFEST_AND_INSPECT_ALL_EIGHT_PAGES_FOR_ARTICLES_7_13_15"
+    },
+    {
+      "id": "ROUTE-V222-ZURICH-W2118",
+      "v221_accession_id": "ACC-V221-ZH2",
+      "route_type": "UNRESOLVED_ITEM_RECORD_FOR_VD16_W2118",
+      "url": null,
+      "source_ids": [
+        "SRC-V222-Z-CATALOGUE"
+      ],
+      "discovery": "W2118_INDEXED_BY_ARCHIVE_BUT_LINK_TO_ZWINGLI_MVK_A81_8_NOT_CONFIRMED",
+      "contents_fetched": false,
+      "page_number_or_folio_match_verified": false,
+      "original_page_inspected": false,
+      "action": "RESOLVE_W2118_ITEM_PAGE_AND_MATCH_TO_MVK_A81_8_OR_KEEP_UNMAPPED"
+    }
+  ],
+  "identity_corrections": [
+    {
+      "id": "FIX-V222-W2119",
+      "prior_id": "ACC-V221-ZH1",
+      "field": "vd16",
+      "old_status": "W2118_OR_W2119_UNRESOLVED",
+      "new_status": "VD16_W2119_CONFIRMED_AT_INSTITUTIONAL_INDIVIDUAL_RECORD",
+      "value": "W 2119",
+      "source_ids": [
+        "SRC-V222-ERARA-W2119"
+      ],
+      "independent_page_read": false
+    },
+    {
+      "id": "PENDING-V222-W2118",
+      "prior_id": "ACC-V221-ZH2",
+      "field": "vd16",
+      "old_status": "W2118_OR_W2119_UNRESOLVED",
+      "new_status": "PENDING",
+      "value": null,
+      "source_ids": [
+        "SRC-V222-Z-CATALOGUE"
+      ],
+      "independent_page_read": false
+    }
+  ],
+  "assertion_relations": [
+    {
+      "id": "ASSERT-V222-Z-K",
+      "type": "SIGNED_WITNESS_DELTA_CATALOGUE_STATEMENT",
+      "subject": "MAR-Z",
+      "object": "MAR-K",
+      "articles": [
+        "7",
+        "13",
+        "15"
+      ],
+      "description": "Zurich catalogue records added segments in Z absent in K",
+      "source_ids": [
+        "SRC-V222-Z-CATALOGUE"
+      ],
+      "textual_additions_transcribed": false
+    },
+    {
+      "id": "ASSERT-V222-DRAFT",
+      "type": "NEGOTIATION_OR_DRAFT_REVISION_SECONDARY_SCHOLARSHIP",
+      "subject": "HISTORICAL_ARTICLE_DRAFTING",
+      "object": "LATER_APPROVED_ARTICLES",
+      "articles": [
+        "8",
+        "15",
+        "11"
+      ],
+      "qualifier": "11 PROBABLE; 8 AND 15 STATED",
+      "description": "Engeler 2023 citing Busser notes additions to articles 8 and 15 and probably 11 in drafting context; NOT an explicit statement of Z/K witness additions",
+      "source_ids": [
+        "SRC-V222-ENGELER2023"
+      ],
+      "textual_additions_transcribed": false
+    }
+  ],
+  "open_issues": [
+    {
+      "id": "ISSUE-V222-FOLIO",
+      "kind": "CATALOGUE_DESIGNATION_CONFLICT",
+      "description": "Zurich archive/Hessian document references Best.3 Nr245 fol60r-64v; HAPuls indexes HStAM PA Nr245 Bl60-63. Verify current call number and image sequence rather than equate silently.",
+      "source_ids": [
+        "SRC-V222-Z-CATALOGUE",
+        "SRC-V222-HAPULS-K-IMAGES"
+      ],
+      "status": "OPEN"
+    },
+    {
+      "id": "ISSUE-V222-VARIANT-TYPE",
+      "kind": "DIFFERENT_RELATIONSHIP_REQUIRES_HISTORICAL_COMPARISON",
+      "description": "Do not call 7/13/15 versus 8/15/(11) necessarily contradictory. First means Z vs K extant witness additions; second is reported changes during original drafting. Align dated manuscript layers from editions before comparing.",
+      "source_ids": [
+        "SRC-V222-Z-CATALOGUE",
+        "SRC-V222-ENGELER2023"
+      ],
+      "status": "OPEN"
+    },
+    {
+      "id": "ISSUE-V222-W2118",
+      "kind": "IMPRINT_TO_EXEMPLAR_MAPPING",
+      "description": "Zwingli MvK A81,8 may or may not be W2118; locate its own institutional detail page.",
+      "source_ids": [
+        "SRC-V222-Z-CATALOGUE"
+      ],
+      "status": "OPEN"
+    }
+  ],
+  "metrics": {
+    "source_records": 7,
+    "original_image_route_candidates": 4,
+    "confirmed_w2119_bibliography": 1,
+    "unresolved_w2118_mapping": 1,
+    "distinct_textual_assertion_types": 2,
+    "open_issues": 3,
+    "original_pages_visually_read": 0,
+    "zk_variant_wordings_collated": 0,
+    "expert_signoffs": 0,
+    "published_items": 0
+  }
+}
