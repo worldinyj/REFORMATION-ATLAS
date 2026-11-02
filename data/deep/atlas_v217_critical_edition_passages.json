@@ -1,0 +1,326 @@
+{
+  "version": "2.17",
+  "kind": "HISTORICAL_TEXTUAL_VARIANTS_SCOPED_EDITION_READING",
+  "parent_commit": "10ffa58b21821e39675906295a64611b3b9000d0",
+  "publication_gate": {
+    "can_ship": false,
+    "expert_reviewed": false,
+    "original_16c_witness_collated": false,
+    "rights_cleared": false,
+    "webapp_integrated": false
+  },
+  "methods": {
+    "facsimile": "Actual two scanned pages of 1858 Corpus Reformatorum printed critical edition were inspected, NOT 1531 or 1540 physical imprints.",
+    "marburg": "Read edited historical German transcription and Zürich archival metadata; original Z/K facsimiles NOT inspected.",
+    "hus": "Latin incipit accessed through work catalogue only; not direct Latin critical-edition chapter collated.",
+    "textual_issue": "OCR/excerption variation in Latin exhibeatur vs exhibeantur requires direct 16c witness reconciliation.",
+    "copyright": "Only very brief original-language snippets, no copied facsimile images or modern translations."
+  },
+  "metrics": {
+    "passage_units": 6,
+    "source_records": 9,
+    "editorial_proposals": 5,
+    "substantive_korean_paragraph_drafts": 4,
+    "facsimile_pages_of_1858_print_inspected": 2,
+    "original_16c_manuscript_or_print_folios_collated": 0,
+    "scholarly_signoffs": 0
+  },
+  "sources": [
+    {
+      "id": "SRC-V217-CR1858",
+      "title": "Corpus Reformatorum 26, 1858 reprint of Augsburg Variata Latin",
+      "url": "https://www.augsburg1540.com/uploads/1/3/8/9/138903771/1540_latin_text_from_corpus_reformandum.pdf",
+      "kind": "1858_PRINTED_CRITICAL_EDITION_FACSIMILE",
+      "locator": "PDF page indices 3 and 5; printed pp 353–354 and 357–358",
+      "read_status": "1858_PRINTED_PAGES_VISUALLY_EXAMINED",
+      "sixteenth_century_original_folio_directly_read": false,
+      "rights_cleared": false
+    },
+    {
+      "id": "SRC-V217-GHDI1529",
+      "title": "GHDI German Marburg Articles edited from WA 30/3 1910",
+      "url": "https://germanhistorydocs.org/de/von-den-reformationen-bis-zum-dreissigjaehrigen-krieg-1500-1648/die-marburger-religionsgespraeche-die-marburger-artikel-1529",
+      "kind": "EDITED_ORIGINAL_LANGUAGE_TRANSCRIPTION",
+      "locator": "Article XV, published German text; original witness not directly inspected",
+      "read_status": "ONLINE_TEXT_OR_CATALOGUE_EXAMINED",
+      "sixteenth_century_original_folio_directly_read": false,
+      "rights_cleared": false
+    },
+    {
+      "id": "SRC-V217-ZCAT",
+      "title": "Staatsarchiv Zürich E I 3.1 Nr 54 Marburger Artikel Z",
+      "url": "https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=618165",
+      "kind": "ORIGINAL_WITNESS_CATALOGUE",
+      "locator": "Z additions to Articles 7,13,15 absent from K",
+      "read_status": "ONLINE_TEXT_OR_CATALOGUE_EXAMINED",
+      "sixteenth_century_original_folio_directly_read": false,
+      "rights_cleared": false
+    },
+    {
+      "id": "SRC-V217-MBW825",
+      "title": "Heidelberg Academy Melanchthon Briefwechsel 825",
+      "url": "https://melanchthon.hadw-bw.de/regest.html?reg_nr=825",
+      "kind": "SCHOLARLY_REGEST",
+      "locator": "3.[4.] October 1529",
+      "read_status": "ONLINE_TEXT_OR_CATALOGUE_EXAMINED",
+      "sixteenth_century_original_folio_directly_read": false,
+      "rights_cleared": false
+    },
+    {
+      "id": "SRC-V217-HUS",
+      "title": "Masaryk Digiscripta Hus De ecclesia BS70 MIHOO XXIII",
+      "url": "https://digiscripta.phil.muni.cz/cs/node/12908",
+      "kind": "LATIN_INCIPIT_IN_UNIVERSITY_WORK_CATALOGUE",
+      "locator": "1413 date; incipit; Praha NK IV H19 1r–95r",
+      "read_status": "ONLINE_TEXT_OR_CATALOGUE_EXAMINED",
+      "sixteenth_century_original_folio_directly_read": false,
+      "rights_cleared": false
+    },
+    {
+      "id": "SRC-V217-HUSCRIT",
+      "title": "Corpus Christianorum Commission for Hus",
+      "url": "https://www.corpuschristianorum.org/commission-hus",
+      "kind": "CRITICAL_EDITION_BIBLIOGRAPHY",
+      "locator": "MIHOO / CCCM edition history",
+      "read_status": "ONLINE_TEXT_OR_CATALOGUE_EXAMINED",
+      "sixteenth_century_original_folio_directly_read": false,
+      "rights_cleared": false
+    },
+    {
+      "id": "SRC-V217-LAT1584",
+      "title": "Wikisource Confessio Augustana based on 1584 Concordia",
+      "url": "https://la.wikisource.org/wiki/Confessio_Augustana",
+      "kind": "LATER_LATIN_EDITION_TRANSCRIPTION",
+      "locator": "1584 edition declared in header, Articles IV and X",
+      "read_status": "ONLINE_TEXT_OR_CATALOGUE_EXAMINED",
+      "sixteenth_century_original_folio_directly_read": false,
+      "rights_cleared": false
+    },
+    {
+      "id": "SRC-V217-SCHAFF",
+      "title": "Schaff historical comparison 1530/1540 Article X",
+      "url": "https://ccel.org/ccel/schaff/hcc8.iv.xv.xvi.html",
+      "kind": "HISTORICAL_SECONDARY_TEXT_COMPARISON",
+      "locator": "Article X side by side",
+      "read_status": "ONLINE_TEXT_OR_CATALOGUE_EXAMINED",
+      "sixteenth_century_original_folio_directly_read": false,
+      "rights_cleared": false
+    },
+    {
+      "id": "SRC-V217-BRIDWELL",
+      "title": "Bridwell rare-book catalogue 1531 Augsburg Confession",
+      "url": "https://bridwell.omeka.net/exhibits/show/luther/controversies/augsburgconfession",
+      "kind": "RARE_BOOK_CATALOGUE",
+      "locator": "Wittenberg Georg Rhaw, German and Latin 1531 editions",
+      "read_status": "ONLINE_TEXT_OR_CATALOGUE_EXAMINED",
+      "sixteenth_century_original_folio_directly_read": false,
+      "rights_cleared": false
+    }
+  ],
+  "passages": [
+    {
+      "id": "PASS-V217-MAR-WORDING",
+      "reader": "MARBURG",
+      "language": "German",
+      "locator": "Article XV",
+      "source_ids": [
+        "SRC-V217-GHDI1529",
+        "SRC-V217-ZCAT"
+      ],
+      "short_excerpt": "Und wiewol aber wir uns",
+      "observation_ko": "GHDI 독일어 편집 원어전사에서 성만찬의 육체적 현존에 관해 합의하지 못했다는 문맥과 상호 사랑의 약속을 확인했다. 취리히 Z판과 헤센 K판은 제7·13·15조의 추가 문구가 다르다는 목록도 따로 존재한다.",
+      "unverified_ko": "서지 목록의 이문 기술만으로 원본 Z와 K 필사본 제15조의 정확한 추가 문구를 직접 대조했다고 주장하지 않는다.",
+      "level": "EDITED_GERMAN_TEXT_PLUS_ARCHIVE_METADATA",
+      "sixteenth_century_original_folio_read": false,
+      "scholar_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "PASS-V217-MAR-DATE",
+      "reader": "MARBURG",
+      "language": "German",
+      "locator": "MBW 825 and Z catalogue",
+      "source_ids": [
+        "SRC-V217-MBW825",
+        "SRC-V217-ZCAT"
+      ],
+      "short_excerpt": "3.[4.] Oktober 1529",
+      "observation_ko": "취리히 문서관은 1529년 10월 3일로 기록하는 반면 멜란히톤 서간 비평자료 MBW 825는 3.[4.]라고 나타낸다. 날짜 주석의 형태를 단일한 확정 시각으로 단순화하지 않는다.",
+      "unverified_ko": "정확한 각 인쇄본의 날짜 표기와 서명 시각을 실물에서 비교하지 못했다.",
+      "level": "SCHOLARLY_REGEST_DATE_DIFFERENCE",
+      "sixteenth_century_original_folio_read": false,
+      "scholar_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "PASS-V217-AC-X-NEW",
+      "reader": "AUGSBURG",
+      "language": "Latin",
+      "locator": "CR XXVI p 357–358 Article X and apparatus 34",
+      "source_ids": [
+        "SRC-V217-CR1858"
+      ],
+      "short_excerpt": "quod cum pane et vino",
+      "observation_ko": "1858년 Corpus Reformatorum 제26권의 실제 인쇄 지면 357쪽을 확인했다. 제10조는 이전의 현존·분배 언어와 달리 빵과 포도주와 함께 제시됨을 말하는 개정 문장으로 나타난다. 하단 교감주석 34는 이전 판본들의 해당 표현과 대조한다.",
+      "unverified_ko": "1858 비평판 판면은 읽었으나 실제 1531년 및 1540년 인쇄본의 원본 판면을 직접 열람하지 않았다. exhibeatur/exhibeantur 표기 판독도 복수 증인 대조가 남아 있다.",
+      "level": "1858_CRITICAL_PRINT_IMAGE_EXAMINED",
+      "sixteenth_century_original_folio_read": false,
+      "scholar_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "PASS-V217-AC-X-OLD",
+      "reader": "AUGSBURG",
+      "language": "Latin",
+      "locator": "CR XXVI p 357 apparatus 34",
+      "source_ids": [
+        "SRC-V217-CR1858",
+        "SRC-V217-LAT1584"
+      ],
+      "short_excerpt": "vere adsint, et distribuantur",
+      "observation_ko": "1858 비평판 하단 주석은 1531년 4절판과 8절판의 이전 제10조 표현을 1540년 전후 개정 계열과 구별한다. 1584년판을 근거로 한 위키문헌의 라틴어 전사도 앞선 ‘현존한다·분배된다’는 구조를 보존한다.",
+      "unverified_ko": "1530년 제출 원고, 1531년 두 인쇄본을 직접 나란히 놓고 교감한 것은 아니다.",
+      "level": "LATER_EDITORIAL_APPARATUS_COMPARISON",
+      "sixteenth_century_original_folio_read": false,
+      "scholar_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "PASS-V217-AC-IV",
+      "reader": "AUGSBURG",
+      "language": "Latin",
+      "locator": "CR XXVI p 353 Article IV",
+      "source_ids": [
+        "SRC-V217-CR1858"
+      ],
+      "short_excerpt": "remissionem peccatorum, et vitam aeternam",
+      "observation_ko": "1858년 비평판 인쇄 지면 353쪽에서 개정 제4조가 죄 사함과 복음의 약속, 그리스도를 통한 의롭다 함을 길게 풀어낸 점을 확인했다. 편집 주석은 이전 제4조 전체와의 변화가 상당하다는 범주를 기록한다.",
+      "unverified_ko": "1531과 1540 원본 인쇄본의 제4조를 직접 대조한 것은 아니다. 문헌학적 차이로부터 멜란히톤의 모든 신학적 의도를 단정하지 않는다.",
+      "level": "1858_CRITICAL_PRINT_ARTICLE_AND_APPARATUS",
+      "sixteenth_century_original_folio_read": false,
+      "scholar_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "PASS-V217-HUS-INC",
+      "reader": "HUS",
+      "language": "Latin",
+      "locator": "Digiscripta BS70 Incipit",
+      "source_ids": [
+        "SRC-V217-HUS",
+        "SRC-V217-HUSCRIT"
+      ],
+      "short_excerpt": "Cum quilibet viator debet fideliter credere",
+      "observation_ko": "마사리크대학교 저작 목록은 후스의 1413년 라틴어 『De ecclesia』와 그 첫 구절을 식별한다. 작품 초두에서 보편 교회에 대한 신앙을 다룬다는 사실을 확인할 수 있지만 교황권·성직권위 관련 장 전체를 검증한 것은 아니다.",
+      "unverified_ko": "프라하 IV H 19 사본 1r–95r의 개별 라틴어 문장을 직접 판독한 것은 아니다.",
+      "level": "UNIVERSITY_CATALOG_ORIGINAL_LANGUAGE_INCIPIT",
+      "sixteenth_century_original_folio_read": false,
+      "scholar_approved": false,
+      "can_publish": false
+    }
+  ],
+  "editorial_proposals": [
+    {
+      "id": "FIX-V217-01",
+      "reader": "AUGSBURG",
+      "proposal": "1531 4to and 8vo are distinct edition witnesses; do not flatten to one edition",
+      "passage_ids": [
+        "PASS-V217-AC-X-OLD",
+        "PASS-V217-AC-X-NEW"
+      ],
+      "human_approved": false
+    },
+    {
+      "id": "FIX-V217-02",
+      "reader": "AUGSBURG",
+      "proposal": "Compare Article X presence/distribution versus together-with-bread-and-wine formulation; do not imply total doctrinal consensus",
+      "passage_ids": [
+        "PASS-V217-AC-X-OLD",
+        "PASS-V217-AC-X-NEW"
+      ],
+      "human_approved": false
+    },
+    {
+      "id": "FIX-V217-03",
+      "reader": "AUGSBURG",
+      "proposal": "Article IV developed into a longer theological exposition; separate from Article X short change",
+      "passage_ids": [
+        "PASS-V217-AC-IV"
+      ],
+      "human_approved": false
+    },
+    {
+      "id": "FIX-V217-04",
+      "reader": "MARBURG",
+      "proposal": "Z contains additions in 7/13/15 absent in K per catalog, not original manuscript collation; consider 3.[4.] date note",
+      "passage_ids": [
+        "PASS-V217-MAR-WORDING",
+        "PASS-V217-MAR-DATE"
+      ],
+      "human_approved": false
+    },
+    {
+      "id": "FIX-V217-05",
+      "reader": "HUS",
+      "proposal": "Distinguish work-level 1413 Latin incipit metadata from actually verified Latin arguments on church headship",
+      "passage_ids": [
+        "PASS-V217-HUS-INC"
+      ],
+      "human_approved": false
+    }
+  ],
+  "substantive_paragraph_drafts": [
+    {
+      "id": "DRAFT-V217-01",
+      "reader": "MARBURG",
+      "title_ko": "마르부르크의 합의문과 서로 다른 증인",
+      "body_ko": "마르부르크의 1529년 합의문은 공통 교리의 진술과 미해결 성만찬 논쟁을 함께 보존한다. GHDI가 제공하는 독일어 편집 전사는 제15조에서 육체적 현존에 완전한 합의가 없었다는 점과 그리스도인다운 사랑을 유지하자는 약속을 보여 준다. 반면 취리히 주립문서관은 Z 사본의 제7·13·15조에 추가 문구가 있고 헤센 측 K 사본에는 없다고 기록한다. 두 서술은 다른 증거 수준이다. 전자는 현대에 편집된 독일어 본문을 읽은 것이고 후자는 현존 증인의 차이를 설명하는 소장 목록이다. 따라서 합의문을 단일한 본문으로 재현하기 전에 Z와 K의 원래 문장을 직접 대조해야 하며, 문서 날짜도 3일과 3.[4.]일의 기록 차이를 설명해야 한다.",
+      "publication_status": "DRAFT_UNMERGED",
+      "can_publish": false
+    },
+    {
+      "id": "DRAFT-V217-02",
+      "reader": "AUGSBURG",
+      "title_ko": "아우크스부르크의 제10조와 성만찬 표현 변화",
+      "body_ko": "1530년 제국의회 제출 신앙고백과 1531년 게오르크 라우의 승인 인쇄판, 1540년 무렵 수정판을 하나의 고정된 문헌으로 취급해서는 안 된다. 1858년 『Corpus Reformatorum』 제26권은 제10조 본문과 하단 교감주석에서 1531년 4절판·8절판 및 후속 수정판을 분리한다. 앞선 판본의 ‘그리스도의 몸과 피가 참으로 현존하고 분배된다’는 언어는 개정판에서 ‘빵과 포도주와 함께 제시된다’는 구조로 변화한다. 그러나 이를 단순한 실재론과 상징론의 찬반으로 환원하거나 그 변화가 모든 교파의 합의를 뜻한다고 단정해서는 안 된다. 이번에 확인한 물리적 이미지 자료는 1858년 인쇄 비평판이며 16세기 각 인쇄본의 원래 판면이 아님을 분명히 해야 한다.",
+      "publication_status": "DRAFT_UNMERGED",
+      "can_publish": false
+    },
+    {
+      "id": "DRAFT-V217-03",
+      "reader": "AUGSBURG",
+      "title_ko": "아우크스부르크 제4조의 장문 개정",
+      "body_ko": "아우크스부르크 신앙고백 제4조의 수정은 단순한 단어 치환만으로 설명하기 어렵다. 1858년 『Corpus Reformatorum』 제26권 353쪽의 수정판 본문은 그리스도를 통한 죄 사함과 복음의 약속, 믿음의 확신을 여러 문단으로 설명한다. 해당 비평판의 교감 주석도 앞선 인쇄판과 비교해 제4조 전체가 바뀌었다는 정보를 제공한다. 따라서 제4조는 내용 전개와 논증 구조의 변화라는 관점에서, 제10조는 성만찬 문구의 변화와 삭제된 문장이라는 관점에서 각각 살펴야 한다. 1531년·1540년의 인쇄 실물을 직접 대조하기 전에는 문구의 정확한 원형이나 개정자의 모든 의도를 확정할 수 없으며, 본 대조는 잠정적 연구 결과로 남겨야 한다.",
+      "publication_status": "DRAFT_UNMERGED",
+      "can_publish": false
+    },
+    {
+      "id": "DRAFT-V217-04",
+      "reader": "HUS",
+      "title_ko": "후스 『교회론』의 처음 문장과 연구자의 해석",
+      "body_ko": "마사리크대학교 Digiscripta는 얀 후스의 『De ecclesia』를 1413년에 작성된 라틴어 저술로 분류하고 그 첫 구절을 목록에 보존한다. 그 구절은 보편적 거룩한 교회에 대한 신앙에서 논증이 출발한다는 사실을 알려 준다. 그렇지만 시작 문구 하나가 교황권이나 성직자의 권위에 관한 모든 신학적 주장을 그대로 입증하지는 않는다. 현존하는 프라하 국립도서관 IV H 19의 1r~95r는 문헌 전체의 필사본 수록 범위이지, 특정한 신학 문장이 그 면에 있다는 사실을 판독했다는 증거가 아니다. 후스의 교회론을 심화하려면 본문과 비평판의 장·절을 실제로 읽고 위클리프와의 문장별 수용 관계까지 별도 대조해야 한다.",
+      "publication_status": "DRAFT_UNMERGED",
+      "can_publish": false
+    }
+  ],
+  "v216_linked_dossiers": [
+    {
+      "previous": "DOS-V216-08",
+      "current": "PASS-V217-MAR-WORDING"
+    },
+    {
+      "previous": "DOS-V216-06",
+      "current": "PASS-V217-AC-X-NEW"
+    },
+    {
+      "previous": "DOS-V216-01",
+      "current": "PASS-V217-HUS-INC"
+    }
+  ],
+  "unresolved": [
+    "Marburg Z/K original manuscript Article 7/13/15 added words and variant positions still unseen",
+    "Augsburg 1531 quarto/octavo versus 1540 original print folio and singular/plural reading unresolved",
+    "Hus De ecclesia entire Latin church-headship argument not yet directly collated",
+    "No historical expert or external image reuse clearance"
+  ]
+}
