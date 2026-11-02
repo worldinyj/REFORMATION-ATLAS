@@ -1,0 +1,1499 @@
+{
+  "version": "2.15",
+  "kind": "UNPUBLISHED_READER_JOURNEYS_WITH_EXACT_TEXT_ANCHORS_EVENT_MAP_AND_HOLDING_GATES",
+  "lineage": {
+    "base_branch": "research/atlas-v214-geography-document-provenance",
+    "base_commit": "b38706599e19ccc70b7e2c9eed580f8ce61bee1e",
+    "reader_file": "data/deep/atlas_v211_ten_reader_hus_augsburg_revision.json",
+    "context_file": "data/deep/atlas_v212_historical_connections_and_comparisons.json",
+    "place_file": "data/deep/atlas_v214_geography_and_witness_provenance.json"
+  },
+  "publication_gate": {
+    "can_ship": false,
+    "expert_reviewed": false,
+    "original_witness_collated": false,
+    "map_location_approved": false,
+    "content_rights_cleared": false,
+    "webapp_imported": false
+  },
+  "methodology": {
+    "narrative_path_is_not_a_physical_travel_route": true,
+    "stage_evidence": "Every stage links to an exact V211 reader sentence and a V212 research contextual essay; this is a link integrity check, not historical claim-level proof.",
+    "geographic_precision": "V214 local site coordinates and city centre estimates remain research markers only; all map_pin_allowed false, holdings never mapped.",
+    "relationship_typology": "Transitions in interpretive tours are pedagogical, never proof that a preceding event directly caused the subsequent event.",
+    "governance": "Main and all public webapp code remain untouched; route prose is new Korean editorial writing not copied modern translation."
+  },
+  "metrics": {
+    "route_count": 5,
+    "reader_steps": 30,
+    "directed_reading_transitions": 25,
+    "unique_v214_events_covered": 19,
+    "total_v214_events": 19,
+    "unique_v211_readers_covered": 10,
+    "total_v211_readers": 10,
+    "unique_held_witnesses_covered": 3,
+    "source_review_crosschecks": 2,
+    "verified_original_manuscript_folios": 0,
+    "expert_approvals": 0,
+    "public_map_pins_authorized": 0,
+    "webapp_published": 0
+  },
+  "journeys": [
+    {
+      "id": "PATH-V215-ECCLESIOLOGY",
+      "title_ko": "교회의 머리를 묻다: 위클리프에서 후스, 그리고 루터",
+      "teaser_ko": "14세기 교회론의 질문이 프라하의 저술, 콘스탄츠의 심판, 1517년의 새로운 논쟁과 어떻게 달리 만나는가",
+      "guiding_question_ko": "서로 다른 세기의 인물들에게 ‘참된 교회’는 같은 뜻이었을까?",
+      "estimated_reading_time": "8–12분",
+      "related_theme_id": "COMP-V212-01",
+      "stage_ids": [
+        "PATH-V215-ECCLESIOLOGY-STEP-01",
+        "PATH-V215-ECCLESIOLOGY-STEP-02",
+        "PATH-V215-ECCLESIOLOGY-STEP-03",
+        "PATH-V215-ECCLESIOLOGY-STEP-04",
+        "PATH-V215-ECCLESIOLOGY-STEP-05",
+        "PATH-V215-ECCLESIOLOGY-STEP-06"
+      ],
+      "journey_status": "UNPUBLISHED_HISTORIAN_RESEARCH",
+      "historical_route_not_navigation": true,
+      "geographical_travel_times_not_applicable": true,
+      "academic_signoff": false,
+      "can_publish": false
+    },
+    {
+      "id": "PATH-V215-DOCUMENT_TO_EMPIRE",
+      "title_ko": "95개 논제에서 제국의 신앙고백까지",
+      "teaser_ko": "1517년 토론문이 1521년 제국적 제재의 문서와 어떻게 다른지, 1530·1531·1540년 고백서를 어떻게 읽어야 하는지 따라간다",
+      "guiding_question_ko": "문서의 청중과 권력이 바뀌면 종교개혁의 언어도 달라지는가?",
+      "estimated_reading_time": "9–13분",
+      "related_theme_id": "COMP-V212-03",
+      "stage_ids": [
+        "PATH-V215-DOCUMENT_TO_EMPIRE-STEP-01",
+        "PATH-V215-DOCUMENT_TO_EMPIRE-STEP-02",
+        "PATH-V215-DOCUMENT_TO_EMPIRE-STEP-03",
+        "PATH-V215-DOCUMENT_TO_EMPIRE-STEP-04",
+        "PATH-V215-DOCUMENT_TO_EMPIRE-STEP-05",
+        "PATH-V215-DOCUMENT_TO_EMPIRE-STEP-06"
+      ],
+      "journey_status": "UNPUBLISHED_HISTORIAN_RESEARCH",
+      "historical_route_not_navigation": true,
+      "geographical_travel_times_not_applicable": true,
+      "academic_signoff": false,
+      "can_publish": false
+    },
+    {
+      "id": "PATH-V215-ZURICH_MARBURG",
+      "title_ko": "도시의 개혁과 마르부르크의 미합의",
+      "teaser_ko": "취리히의 설교·의회·반대자 처벌을 함께 살피고, 마르부르크 합의문의 공통점과 성만찬 이견을 두 기록으로 비교한다",
+      "guiding_question_ko": "개혁의 실천과 교리적 합의는 왜 같은 속도로 진행되지 않을까?",
+      "estimated_reading_time": "10–14분",
+      "related_theme_id": "COMP-V212-02",
+      "stage_ids": [
+        "PATH-V215-ZURICH_MARBURG-STEP-01",
+        "PATH-V215-ZURICH_MARBURG-STEP-02",
+        "PATH-V215-ZURICH_MARBURG-STEP-03",
+        "PATH-V215-ZURICH_MARBURG-STEP-04",
+        "PATH-V215-ZURICH_MARBURG-STEP-05",
+        "PATH-V215-ZURICH_MARBURG-STEP-06"
+      ],
+      "journey_status": "UNPUBLISHED_HISTORIAN_RESEARCH",
+      "historical_route_not_navigation": true,
+      "geographical_travel_times_not_applicable": true,
+      "academic_signoff": false,
+      "can_publish": false
+    },
+    {
+      "id": "PATH-V215-CALVIN_EDITIONS",
+      "title_ko": "칼뱅 『기독교강요』의 네 번의 서지 여정",
+      "teaser_ko": "1536 바젤·1539 스트라스부르·1559/1560 제네바의 판본 변화와 현존본의 소장 도시를 구분한다",
+      "guiding_question_ko": "같은 책의 여러 판본을 하나로 묶으면 무엇을 잃는가?",
+      "estimated_reading_time": "9–13분",
+      "related_theme_id": "COMP-V212-03",
+      "stage_ids": [
+        "PATH-V215-CALVIN_EDITIONS-STEP-01",
+        "PATH-V215-CALVIN_EDITIONS-STEP-02",
+        "PATH-V215-CALVIN_EDITIONS-STEP-03",
+        "PATH-V215-CALVIN_EDITIONS-STEP-04",
+        "PATH-V215-CALVIN_EDITIONS-STEP-05",
+        "PATH-V215-CALVIN_EDITIONS-STEP-06"
+      ],
+      "journey_status": "UNPUBLISHED_HISTORIAN_RESEARCH",
+      "historical_route_not_navigation": true,
+      "geographical_travel_times_not_applicable": true,
+      "academic_signoff": false,
+      "can_publish": false
+    },
+    {
+      "id": "PATH-V215-COUNCIL_AND_REFORM",
+      "title_ko": "종교개혁의 주장과 제도의 실제 변화",
+      "teaser_ko": "제국의 신앙고백·트리엔트 공의회의 교리·성직자 교육·취리히의 시의회 개혁을 비교해 결정과 시행의 간격을 읽는다",
+      "guiding_question_ko": "새로운 교리를 채택하는 것과 그 교리를 현장에서 실행하는 것은 왜 다른 사건인가?",
+      "estimated_reading_time": "10–15분",
+      "related_theme_id": "COMP-V212-04",
+      "stage_ids": [
+        "PATH-V215-COUNCIL_AND_REFORM-STEP-01",
+        "PATH-V215-COUNCIL_AND_REFORM-STEP-02",
+        "PATH-V215-COUNCIL_AND_REFORM-STEP-03",
+        "PATH-V215-COUNCIL_AND_REFORM-STEP-04",
+        "PATH-V215-COUNCIL_AND_REFORM-STEP-05",
+        "PATH-V215-COUNCIL_AND_REFORM-STEP-06"
+      ],
+      "journey_status": "UNPUBLISHED_HISTORIAN_RESEARCH",
+      "historical_route_not_navigation": true,
+      "geographical_travel_times_not_applicable": true,
+      "academic_signoff": false,
+      "can_publish": false
+    }
+  ],
+  "stages": [
+    {
+      "id": "PATH-V215-ECCLESIOLOGY-STEP-01",
+      "journey_id": "PATH-V215-ECCLESIOLOGY",
+      "sequence": 1,
+      "scene_type": "COMPARISON",
+      "title_ko": "교회의 정당성이라는 질문",
+      "narrative_ko": "위클리프의 교회 비판을 단순히 성직자의 도덕 문제로 축약하지 않는다. 교회가 누구의 공동체이며 그 권위는 어디에 근거하는가라는 질문이 14세기 잉글랜드의 제도·학문 속에서 등장한다. 후스의 작품과 직접 일치하는 문장을 찾으려면 별도의 라틴어 대조가 필요하다.",
+      "reader_question_ko": "다음 자료에서는 무엇이 달라지는지 확인해 보세요.",
+      "reading_reader_key": "WYCLIFFE",
+      "v211_reader_sentence_id": "SNT-V211-WYCLIFFE-0003",
+      "v211_excerpt": "위클리프는 이 상황에서 성직자의 소유와 권한에 관한 논쟁을 점차 교회의 존재 자체를 묻는 질문으로 바꾸었다.",
+      "v212_context_essay_id": "RDR-V212-01",
+      "v214_event_id": null,
+      "v214_historical_place_id": null,
+      "v214_person_ids": [],
+      "v214_document_ids": [],
+      "v214_holding_id": null,
+      "source_ids": [
+        "SRC-V212-HUS",
+        "SRC-V212-HUS-MSS"
+      ],
+      "map_pin_allowed": false,
+      "research_preview_place_marker": false,
+      "place_precision": null,
+      "location_display_label_ko": null,
+      "holding_display_name_ko": null,
+      "evidence_note_ko": "위클리프를 16세기 개신교 신앙고백의 완성된 저자로 소급하지 않음",
+      "historical_causality_inferred": false,
+      "original_witness_folio_verified": false,
+      "semantic_link_human_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "PATH-V215-ECCLESIOLOGY-STEP-02",
+      "journey_id": "PATH-V215-ECCLESIOLOGY",
+      "sequence": 2,
+      "scene_type": "EVENT",
+      "title_ko": "1413년, 후스는 무엇을 썼는가",
+      "narrative_ko": "코지 흐라데크에 머물던 후스는 『De ecclesia』에서 참된 교회와 제도적 교회의 관계, 그리스도의 머리 되심, 성직 권위의 문제를 다룬다. 성터의 공식 좌표는 알려져 있지만 그가 글을 쓴 정확한 방은 확인되지 않았다.",
+      "reader_question_ko": "다음 자료에서는 무엇이 달라지는지 확인해 보세요.",
+      "reading_reader_key": "HUS",
+      "v211_reader_sentence_id": "SNT-V211-HUS-0010",
+      "v211_excerpt": "후스의 『De ecclesia』는 마사리크대학교 Digiscripta가 1413년 저작으로 분류한 교회론 문헌이다.",
+      "v212_context_essay_id": "RDR-V212-02",
+      "v214_event_id": "EVENT-GEO-V214-01",
+      "v214_historical_place_id": "PLACE-V214-KOZI",
+      "v214_person_ids": [
+        "PERSON-V214-HUS"
+      ],
+      "v214_document_ids": [
+        "DOC-V214-HUS-1413"
+      ],
+      "v214_holding_id": null,
+      "source_ids": [
+        "SRC-V212-HUS",
+        "SRC-V212-HUS-MSS",
+        "SRC-V214-KOZI"
+      ],
+      "map_pin_allowed": false,
+      "research_preview_place_marker": true,
+      "place_precision": "HISTORIC_SITE_COORD_FROM_HERITAGE_WEBSITE",
+      "location_display_label_ko": "코지 흐라데크",
+      "holding_display_name_ko": null,
+      "evidence_note_ko": "작품의 1413년 집필과 현재 원고 소장처는 별개의 장소",
+      "historical_causality_inferred": false,
+      "original_witness_folio_verified": false,
+      "semantic_link_human_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "PATH-V215-ECCLESIOLOGY-STEP-03",
+      "journey_id": "PATH-V215-ECCLESIOLOGY",
+      "sequence": 3,
+      "scene_type": "HOLDING",
+      "title_ko": "프라하의 필사본은 저술 장소가 아니다",
+      "narrative_ko": "프라하 국립도서관의 소장기호 IV H 19는 후스 저작의 후대 필사본 증인을 식별한다. 목록에 적힌 1r~95r 범위만으로 우리 해설의 특정 문장을 그 면에서 직접 읽었다고 주장해서는 안 된다. 오늘의 소장 위치를 1413년 사건지도에 표시하지 않는다.",
+      "reader_question_ko": "다음 자료에서는 무엇이 달라지는지 확인해 보세요.",
+      "reading_reader_key": "HUS",
+      "v211_reader_sentence_id": "SNT-V211-HUS-0011",
+      "v211_excerpt": "후스는 제도적으로 조직된 교회와 그리스도께 속한 참된 교회가 언제나 완전히 일치하는 것은 아니라고 보았으며, 교회의 궁극적인 머리를 그리스도에게 두었다.",
+      "v212_context_essay_id": "RDR-V212-02",
+      "v214_event_id": null,
+      "v214_historical_place_id": null,
+      "v214_person_ids": [],
+      "v214_document_ids": [],
+      "v214_holding_id": "HOLD-V214-HUS-PRAHA",
+      "source_ids": [
+        "SRC-V212-HUS",
+        "SRC-V212-HUS-MSS"
+      ],
+      "map_pin_allowed": false,
+      "research_preview_place_marker": false,
+      "place_precision": null,
+      "location_display_label_ko": null,
+      "holding_display_name_ko": "National Library of Czech Republic",
+      "evidence_note_ko": "필사본 위치는 별도 ‘소장처’ 항목; 원문 면별 교감 없음",
+      "historical_causality_inferred": false,
+      "original_witness_folio_verified": false,
+      "semantic_link_human_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "PATH-V215-ECCLESIOLOGY-STEP-04",
+      "journey_id": "PATH-V215-ECCLESIOLOGY",
+      "sequence": 4,
+      "scene_type": "EVENT",
+      "title_ko": "1415년 콘스탄츠: 글의 주장과 재판의 판단",
+      "narrative_ko": "후스의 1413년 교회론과 1415년 콘스탄츠의 심리·처형은 관련되지만 같은 사건이 아니다. 신학적 논증이 공의회의 교회적·정치적 판단과 충돌하는 역사 과정을 보여 주되, 후대 기념비의 위치를 정확한 처형 현장으로 취급하지 않는다.",
+      "reader_question_ko": "다음 자료에서는 무엇이 달라지는지 확인해 보세요.",
+      "reading_reader_key": "HUS",
+      "v211_reader_sentence_id": "SNT-V211-HUS-0010",
+      "v211_excerpt": "후스의 『De ecclesia』는 마사리크대학교 Digiscripta가 1413년 저작으로 분류한 교회론 문헌이다.",
+      "v212_context_essay_id": "RDR-V212-02",
+      "v214_event_id": "EVENT-GEO-V214-02",
+      "v214_historical_place_id": "PLACE-V214-KONSTANZ",
+      "v214_person_ids": [
+        "PERSON-V214-HUS"
+      ],
+      "v214_document_ids": [],
+      "v214_holding_id": null,
+      "source_ids": [
+        "SRC-V212-HUS",
+        "SRC-V212-HUS-MSS",
+        "SRC-V214-HUS-CONST"
+      ],
+      "map_pin_allowed": false,
+      "research_preview_place_marker": true,
+      "place_precision": "MODERN_CITY_CENTROID_APPROXIMATE",
+      "location_display_label_ko": "콘스탄츠",
+      "holding_display_name_ko": null,
+      "evidence_note_ko": "기념물, 집필 장소, 재판 장소를 서로 다른 시간·공간으로 표시",
+      "historical_causality_inferred": false,
+      "original_witness_folio_verified": false,
+      "semantic_link_human_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "PATH-V215-ECCLESIOLOGY-STEP-05",
+      "journey_id": "PATH-V215-ECCLESIOLOGY",
+      "sequence": 5,
+      "scene_type": "EVENT",
+      "title_ko": "1517년의 학술 논제와 다른 질문의 재등장",
+      "narrative_ko": "루터의 95개 논제는 면벌부를 둘러싼 라틴어 학술 논쟁문이다. 교회의 권위라는 큰 질문을 후스와 비교할 수 있어도, 그것이 후스의 1413년 책을 그대로 다시 출판했다는 뜻은 아니다. 문에 직접 게시한 장면은 논제의 존재와 별도 검증해야 한다.",
+      "reader_question_ko": "다음 자료에서는 무엇이 달라지는지 확인해 보세요.",
+      "reading_reader_key": "LUTHER1517",
+      "v211_reader_sentence_id": "SNT-V211-LUTHER1517-0010",
+      "v211_excerpt": "통상 '95개 논제'로 불리는 글은 라틴어 학술 논쟁문이다.",
+      "v212_context_essay_id": "RDR-V212-03",
+      "v214_event_id": "EVENT-GEO-V214-03",
+      "v214_historical_place_id": "PLACE-V214-WITTENBERG",
+      "v214_person_ids": [
+        "PERSON-V214-LUTHER"
+      ],
+      "v214_document_ids": [
+        "DOC-V214-LUTHER1517"
+      ],
+      "v214_holding_id": null,
+      "source_ids": [
+        "SRC-V212-1517",
+        "SRC-V212-WORMS",
+        "SRC-V214-WITT"
+      ],
+      "map_pin_allowed": false,
+      "research_preview_place_marker": true,
+      "place_precision": "MODERN_CITY_CENTROID_APPROXIMATE",
+      "location_display_label_ko": "비텐베르크",
+      "holding_display_name_ko": null,
+      "evidence_note_ko": "‘후스가 루터를 직접 지휘했다’는 식의 인과 연출 금지",
+      "historical_causality_inferred": false,
+      "original_witness_folio_verified": false,
+      "semantic_link_human_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "PATH-V215-ECCLESIOLOGY-STEP-06",
+      "journey_id": "PATH-V215-ECCLESIOLOGY",
+      "sequence": 6,
+      "scene_type": "COMPARISON",
+      "title_ko": "영향과 비교를 구분하며 돌아보기",
+      "narrative_ko": "위클리프의 저술이 후스에게 수용됐다는 관계와 후스·루터 사이에 나타난 교회 권위 논쟁의 비교는 같은 종류의 연결선이 아니다. 독자는 연구에서 확인된 문헌 수용과 후대의 역사적 유사성, 그리고 아직 대조하지 못한 원문을 서로 다른 표지로 읽어야 한다.",
+      "reader_question_ko": "서로 다른 세기의 인물들에게 ‘참된 교회’는 같은 뜻이었을까?",
+      "reading_reader_key": "HUS",
+      "v211_reader_sentence_id": "SNT-V211-HUS-0011",
+      "v211_excerpt": "후스는 제도적으로 조직된 교회와 그리스도께 속한 참된 교회가 언제나 완전히 일치하는 것은 아니라고 보았으며, 교회의 궁극적인 머리를 그리스도에게 두었다.",
+      "v212_context_essay_id": "RDR-V212-02",
+      "v214_event_id": null,
+      "v214_historical_place_id": null,
+      "v214_person_ids": [],
+      "v214_document_ids": [],
+      "v214_holding_id": null,
+      "source_ids": [
+        "SRC-V212-HUS",
+        "SRC-V212-HUS-MSS"
+      ],
+      "map_pin_allowed": false,
+      "research_preview_place_marker": false,
+      "place_precision": null,
+      "location_display_label_ko": null,
+      "holding_display_name_ko": null,
+      "evidence_note_ko": "위클리프→후스 수용과 후스↔루터 비교를 같은 ‘직접 영향’ 선으로 표시하지 않음",
+      "historical_causality_inferred": false,
+      "original_witness_folio_verified": false,
+      "semantic_link_human_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "PATH-V215-DOCUMENT_TO_EMPIRE-STEP-01",
+      "journey_id": "PATH-V215-DOCUMENT_TO_EMPIRE",
+      "sequence": 1,
+      "scene_type": "EVENT",
+      "title_ko": "라틴어 논제: 토론의 제안",
+      "narrative_ko": "1517년 95개 논제는 후대 루터교 교리 전체의 완결판이 아니라 논쟁을 요청하는 학술 문서였다. 인쇄와 편지는 그 문제를 넓은 독자에게 전파했지만, 성문 게시에 대한 기억의 도상은 실제 논제 문서와 증거의 성격이 다르다.",
+      "reader_question_ko": "다음 자료에서는 무엇이 달라지는지 확인해 보세요.",
+      "reading_reader_key": "LUTHER1517",
+      "v211_reader_sentence_id": "SNT-V211-LUTHER1517-0010",
+      "v211_excerpt": "통상 '95개 논제'로 불리는 글은 라틴어 학술 논쟁문이다.",
+      "v212_context_essay_id": "RDR-V212-03",
+      "v214_event_id": "EVENT-GEO-V214-03",
+      "v214_historical_place_id": "PLACE-V214-WITTENBERG",
+      "v214_person_ids": [
+        "PERSON-V214-LUTHER"
+      ],
+      "v214_document_ids": [
+        "DOC-V214-LUTHER1517"
+      ],
+      "v214_holding_id": null,
+      "source_ids": [
+        "SRC-V212-1517",
+        "SRC-V212-WORMS",
+        "SRC-V214-WITT"
+      ],
+      "map_pin_allowed": false,
+      "research_preview_place_marker": true,
+      "place_precision": "MODERN_CITY_CENTROID_APPROXIMATE",
+      "location_display_label_ko": "비텐베르크",
+      "holding_display_name_ko": null,
+      "evidence_note_ko": "성문 게시의 전승을 현장 카메라 기록처럼 표현하지 않음",
+      "historical_causality_inferred": false,
+      "original_witness_folio_verified": false,
+      "semantic_link_human_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "PATH-V215-DOCUMENT_TO_EMPIRE-STEP-02",
+      "journey_id": "PATH-V215-DOCUMENT_TO_EMPIRE",
+      "sequence": 2,
+      "scene_type": "EVENT",
+      "title_ko": "1521년 5월 8일: 칙령 작성 과정",
+      "narrative_ko": "루터의 보름스 심문 이후 칙령이 어떤 문안으로 구성되었는지는 제국 정치와 법의 문제다. 디지털 비평판의 설명은 5월 8일과 5월 26일을 구별한다. 문서가 언제 형성되었는지를 정리하되 그것이 각 영방에서 당일 집행되었다고 오해하지 않는다.",
+      "reader_question_ko": "다음 자료에서는 무엇이 달라지는지 확인해 보세요.",
+      "reading_reader_key": "LUTHER1521",
+      "v211_reader_sentence_id": "SNT-V211-LUTHER1521-0011",
+      "v211_excerpt": "이 사건의 연대를 다룰 때는 심문 날짜와 이후 칙령의 반포를 혼동하지 않아야 한다.",
+      "v212_context_essay_id": "RDR-V212-04",
+      "v214_event_id": "EVENT-GEO-V214-04",
+      "v214_historical_place_id": "PLACE-V214-WORMS",
+      "v214_person_ids": [
+        "PERSON-V214-LUTHER",
+        "PERSON-V214-CHARLES"
+      ],
+      "v214_document_ids": [
+        "DOC-V214-EDICT1521"
+      ],
+      "v214_holding_id": null,
+      "source_ids": [
+        "SRC-V212-WORMS",
+        "SRC-V212-1517",
+        "SRC-V214-WORMS"
+      ],
+      "map_pin_allowed": false,
+      "research_preview_place_marker": true,
+      "place_precision": "MODERN_CITY_CENTROID_APPROXIMATE",
+      "location_display_label_ko": "보름스",
+      "holding_display_name_ko": null,
+      "evidence_note_ko": "행정 문안 단계와 공표·집행 단계 구분",
+      "historical_causality_inferred": false,
+      "original_witness_folio_verified": false,
+      "semantic_link_human_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "PATH-V215-DOCUMENT_TO_EMPIRE-STEP-03",
+      "journey_id": "PATH-V215-DOCUMENT_TO_EMPIRE",
+      "sequence": 3,
+      "scene_type": "EVENT",
+      "title_ko": "1521년 5월 26일: 공표와 집행은 별개",
+      "narrative_ko": "황제의 서명·공표는 칙령의 문서사에서 중요한 시점이다. 그러나 제국의 각 영방 권력자가 이를 어떻게 받아들이고 실행했는지는 별도의 법적·지역적 자료가 필요하다. 오늘의 보름스 도심 좌표가 황제의 서명 장소를 특정하는 것은 아니다.",
+      "reader_question_ko": "다음 자료에서는 무엇이 달라지는지 확인해 보세요.",
+      "reading_reader_key": "LUTHER1521",
+      "v211_reader_sentence_id": "SNT-V211-LUTHER1521-0011",
+      "v211_excerpt": "이 사건의 연대를 다룰 때는 심문 날짜와 이후 칙령의 반포를 혼동하지 않아야 한다.",
+      "v212_context_essay_id": "RDR-V212-04",
+      "v214_event_id": "EVENT-GEO-V214-05",
+      "v214_historical_place_id": "PLACE-V214-WORMS",
+      "v214_person_ids": [
+        "PERSON-V214-CHARLES"
+      ],
+      "v214_document_ids": [
+        "DOC-V214-EDICT1521"
+      ],
+      "v214_holding_id": null,
+      "source_ids": [
+        "SRC-V212-WORMS",
+        "SRC-V212-1517",
+        "SRC-V214-WORMS"
+      ],
+      "map_pin_allowed": false,
+      "research_preview_place_marker": true,
+      "place_precision": "MODERN_CITY_CENTROID_APPROXIMATE",
+      "location_display_label_ko": "보름스",
+      "holding_display_name_ko": null,
+      "evidence_note_ko": "공표일을 독일 모든 지역의 실효일로 사용 금지",
+      "historical_causality_inferred": false,
+      "original_witness_folio_verified": false,
+      "semantic_link_human_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "PATH-V215-DOCUMENT_TO_EMPIRE-STEP-04",
+      "journey_id": "PATH-V215-DOCUMENT_TO_EMPIRE",
+      "sequence": 4,
+      "scene_type": "EVENT",
+      "title_ko": "1530년: 제국에 제출한 공동 고백",
+      "narrative_ko": "아우크스부르크의 1530년 문서는 제국의회에 제시된 공적 신앙고백이다. 루터 개인의 1521년 심문과는 참여자·정치적 기능·장르가 다르다. 당시 주교 궁전과 관련된 역사를 다루지만 현대 지도 핀이 실제 낭독실의 정확한 좌표를 보장하지 않는다.",
+      "reader_question_ko": "다음 자료에서는 무엇이 달라지는지 확인해 보세요.",
+      "reading_reader_key": "AUGSBURG",
+      "v211_reader_sentence_id": "SNT-V211-AUGSBURG-0007",
+      "v211_excerpt": "1531년에는 멜란히톤이 본문을 정리해 발행한 승인 인쇄본이 비텐베르크에서 게오르크 라우(Georg Rhau, 당시 표기 Georg Rhaw)의 인쇄로 나왔다.",
+      "v212_context_essay_id": "RDR-V212-07",
+      "v214_event_id": "EVENT-GEO-V214-10",
+      "v214_historical_place_id": "PLACE-V214-AUGSBURG",
+      "v214_person_ids": [
+        "PERSON-V214-MELANCHTHON",
+        "PERSON-V214-CHARLES"
+      ],
+      "v214_document_ids": [
+        "DOC-V214-AUGSBURG1530"
+      ],
+      "v214_holding_id": null,
+      "source_ids": [
+        "SRC-V212-AUGSBURG",
+        "SRC-V212-VARIATA",
+        "SRC-V212-MARBURG",
+        "SRC-V214-AUGSBURG"
+      ],
+      "map_pin_allowed": false,
+      "research_preview_place_marker": true,
+      "place_precision": "MODERN_CITY_CENTROID_APPROXIMATE",
+      "location_display_label_ko": "아우크스부르크",
+      "holding_display_name_ko": null,
+      "evidence_note_ko": "1530 제출 문서와 1531 인쇄물을 동일한 실물로 병합 금지",
+      "historical_causality_inferred": false,
+      "original_witness_folio_verified": false,
+      "semantic_link_human_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "PATH-V215-DOCUMENT_TO_EMPIRE-STEP-05",
+      "journey_id": "PATH-V215-DOCUMENT_TO_EMPIRE",
+      "sequence": 5,
+      "scene_type": "EVENT",
+      "title_ko": "1531년: 게오르크 라우의 비텐베르크 인쇄",
+      "narrative_ko": "멜란히톤이 편집한 승인 인쇄판이 비텐베르크에서 게오르크 라우에 의해 출판됐다. 희귀도서관의 라틴어·독일어 소장본 설명은 1530년 제출지와 1531년 인쇄지가 다르다는 것을 확인하게 한다. 현존 복제본의 소장 도시를 인쇄 도시로 바꾸지 않는다.",
+      "reader_question_ko": "다음 자료에서는 무엇이 달라지는지 확인해 보세요.",
+      "reading_reader_key": "AUGSBURG",
+      "v211_reader_sentence_id": "SNT-V211-AUGSBURG-0007",
+      "v211_excerpt": "1531년에는 멜란히톤이 본문을 정리해 발행한 승인 인쇄본이 비텐베르크에서 게오르크 라우(Georg Rhau, 당시 표기 Georg Rhaw)의 인쇄로 나왔다.",
+      "v212_context_essay_id": "RDR-V212-07",
+      "v214_event_id": "EVENT-GEO-V214-11",
+      "v214_historical_place_id": "PLACE-V214-WITTENBERG",
+      "v214_person_ids": [
+        "PERSON-V214-MELANCHTHON",
+        "PERSON-V214-RHAU"
+      ],
+      "v214_document_ids": [
+        "DOC-V214-AUGSBURG1531"
+      ],
+      "v214_holding_id": null,
+      "source_ids": [
+        "SRC-V212-AUGSBURG",
+        "SRC-V212-VARIATA",
+        "SRC-V212-MARBURG",
+        "SRC-V214-AUGSBURG"
+      ],
+      "map_pin_allowed": false,
+      "research_preview_place_marker": true,
+      "place_precision": "MODERN_CITY_CENTROID_APPROXIMATE",
+      "location_display_label_ko": "비텐베르크",
+      "holding_display_name_ko": null,
+      "evidence_note_ko": "도서관 소장기록으로 16세기 고판본 본문을 직접 교감했다고 할 수 없음",
+      "historical_causality_inferred": false,
+      "original_witness_folio_verified": false,
+      "semantic_link_human_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "PATH-V215-DOCUMENT_TO_EMPIRE-STEP-06",
+      "journey_id": "PATH-V215-DOCUMENT_TO_EMPIRE",
+      "sequence": 6,
+      "scene_type": "EVENT",
+      "title_ko": "1540년 Variata: 고백문은 변하지 않았을까?",
+      "narrative_ko": "후대 개정판의 제4조와 제10조를 이전 판본과 나란히 놓으면 의롭다 함과 성만찬 표현의 차이를 질문할 수 있다. 그러나 현대 영어 병렬 번역에 나타난 문구만으로 각 원판 라틴어 이문을 완전히 확정했다고 판단해선 안 된다.",
+      "reader_question_ko": "문서의 청중과 권력이 바뀌면 종교개혁의 언어도 달라지는가?",
+      "reading_reader_key": "AUGSBURG",
+      "v211_reader_sentence_id": "SNT-V211-AUGSBURG-0023",
+      "v211_excerpt": "1540년판 Variata는 아우크스부르크 신앙고백의 이전 본문과 구별해야 하는 수정판이다.",
+      "v212_context_essay_id": "RDR-V212-07",
+      "v214_event_id": "EVENT-GEO-V214-14",
+      "v214_historical_place_id": "PLACE-V214-WITTENBERG",
+      "v214_person_ids": [
+        "PERSON-V214-MELANCHTHON"
+      ],
+      "v214_document_ids": [
+        "DOC-V214-VARIATA1540"
+      ],
+      "v214_holding_id": null,
+      "source_ids": [
+        "SRC-V212-AUGSBURG",
+        "SRC-V212-VARIATA",
+        "SRC-V212-MARBURG",
+        "SRC-V214-AUGSBURG"
+      ],
+      "map_pin_allowed": false,
+      "research_preview_place_marker": true,
+      "place_precision": "MODERN_CITY_CENTROID_APPROXIMATE",
+      "location_display_label_ko": "비텐베르크",
+      "holding_display_name_ko": null,
+      "evidence_note_ko": "현대 비교 번역과 실제 1540 인쇄본의 문장별 대조를 구별",
+      "historical_causality_inferred": false,
+      "original_witness_folio_verified": false,
+      "semantic_link_human_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "PATH-V215-ZURICH_MARBURG-STEP-01",
+      "journey_id": "PATH-V215-ZURICH_MARBURG",
+      "sequence": 1,
+      "scene_type": "EVENT",
+      "title_ko": "1523년 1월: 공개 논쟁과 시의회",
+      "narrative_ko": "취리히 첫 종교 논쟁은 설교자의 신학적 주장이 도시 정치의 공적 판단과 만나는 장면이다. 시의회가 제도적 변화를 추진했다는 점에서 루터가 제국 차원의 법적 절차를 겪은 상황과 다르다. 학술 논쟁과 시의회 결정은 동일한 행위가 아니다.",
+      "reader_question_ko": "다음 자료에서는 무엇이 달라지는지 확인해 보세요.",
+      "reading_reader_key": "ZWINGLI",
+      "v211_reader_sentence_id": "SNT-V211-ZWINGLI-0001",
+      "v211_excerpt": "취리히의 개혁은 지도자 한 사람의 성경 해석이 예배당 내부에만 영향을 준 사건이 아니다.",
+      "v212_context_essay_id": "RDR-V212-05",
+      "v214_event_id": "EVENT-GEO-V214-06",
+      "v214_historical_place_id": "PLACE-V214-ZURICH",
+      "v214_person_ids": [
+        "PERSON-V214-ZWINGLI"
+      ],
+      "v214_document_ids": [],
+      "v214_holding_id": null,
+      "source_ids": [
+        "SRC-V212-ZURICH",
+        "SRC-V212-ZURICH-CITY",
+        "SRC-V214-ZURICH"
+      ],
+      "map_pin_allowed": false,
+      "research_preview_place_marker": true,
+      "place_precision": "MODERN_CITY_CENTROID_APPROXIMATE",
+      "location_display_label_ko": "취리히",
+      "holding_display_name_ko": null,
+      "evidence_note_ko": "취리히 시청 중심 좌표를 논쟁실 좌표라고 하지 않음",
+      "historical_causality_inferred": false,
+      "original_witness_folio_verified": false,
+      "semantic_link_human_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "PATH-V215-ZURICH_MARBURG-STEP-02",
+      "journey_id": "PATH-V215-ZURICH_MARBURG",
+      "sequence": 2,
+      "scene_type": "EVENT",
+      "title_ko": "1523년 10월: 논쟁이 반복된 이유",
+      "narrative_ko": "두 번째 논쟁이 있었다는 사실은 도시 개혁이 한 번의 선언으로 끝나지 않았다는 점을 보여 준다. 예배의 변화와 성상, 교회의 규율 문제는 신학적 논의와 정책 결정의 서로 다른 단계를 거쳤다. 이 단계는 첫 논쟁과 연대·의제를 별개의 카드로 보여 준다.",
+      "reader_question_ko": "다음 자료에서는 무엇이 달라지는지 확인해 보세요.",
+      "reading_reader_key": "ZWINGLI",
+      "v211_reader_sentence_id": "SNT-V211-ZWINGLI-0001",
+      "v211_excerpt": "취리히의 개혁은 지도자 한 사람의 성경 해석이 예배당 내부에만 영향을 준 사건이 아니다.",
+      "v212_context_essay_id": "RDR-V212-05",
+      "v214_event_id": "EVENT-GEO-V214-07",
+      "v214_historical_place_id": "PLACE-V214-ZURICH",
+      "v214_person_ids": [
+        "PERSON-V214-ZWINGLI"
+      ],
+      "v214_document_ids": [],
+      "v214_holding_id": null,
+      "source_ids": [
+        "SRC-V212-ZURICH",
+        "SRC-V212-ZURICH-CITY",
+        "SRC-V214-ZURICH"
+      ],
+      "map_pin_allowed": false,
+      "research_preview_place_marker": true,
+      "place_precision": "MODERN_CITY_CENTROID_APPROXIMATE",
+      "location_display_label_ko": "취리히",
+      "holding_display_name_ko": null,
+      "evidence_note_ko": "두 논쟁을 한 날의 동일 문서나 하나의 투표 결과로 합치지 않음",
+      "historical_causality_inferred": false,
+      "original_witness_folio_verified": false,
+      "semantic_link_human_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "PATH-V215-ZURICH_MARBURG-STEP-03",
+      "journey_id": "PATH-V215-ZURICH_MARBURG",
+      "sequence": 3,
+      "scene_type": "EVENT",
+      "title_ko": "1527년 만츠: 개혁이 낳은 종교 강제",
+      "narrative_ko": "재세례파 펠릭스 만츠에 대한 익사형 판결은 취리히 개혁의 강제적 측면을 보여 준다. 주립문서관 B VI 251의 판결문과 현대 학술 전사는 기록의 내용 확인에 도움이 되지만, 문서가 보관된 기관의 주소와 리마트강의 정확한 처형 지점은 다르다.",
+      "reader_question_ko": "다음 자료에서는 무엇이 달라지는지 확인해 보세요.",
+      "reading_reader_key": "ZWINGLI",
+      "v211_reader_sentence_id": "SNT-V211-ZWINGLI-0001",
+      "v211_excerpt": "취리히의 개혁은 지도자 한 사람의 성경 해석이 예배당 내부에만 영향을 준 사건이 아니다.",
+      "v212_context_essay_id": "RDR-V212-05",
+      "v214_event_id": "EVENT-GEO-V214-08",
+      "v214_historical_place_id": "PLACE-V214-ZURICH",
+      "v214_person_ids": [
+        "PERSON-V214-MANZ"
+      ],
+      "v214_document_ids": [
+        "DOC-V214-MANZ1527"
+      ],
+      "v214_holding_id": null,
+      "source_ids": [
+        "SRC-V212-ZURICH",
+        "SRC-V212-ZURICH-CITY",
+        "SRC-V214-MANZ-CATALOG"
+      ],
+      "map_pin_allowed": false,
+      "research_preview_place_marker": true,
+      "place_precision": "MODERN_CITY_CENTROID_APPROXIMATE",
+      "location_display_label_ko": "취리히",
+      "holding_display_name_ko": null,
+      "evidence_note_ko": "원어 비평 전사 읽기와 1527년 수고 필사본 사진 직접 판독은 구분",
+      "historical_causality_inferred": false,
+      "original_witness_folio_verified": false,
+      "semantic_link_human_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "PATH-V215-ZURICH_MARBURG-STEP-04",
+      "journey_id": "PATH-V215-ZURICH_MARBURG",
+      "sequence": 4,
+      "scene_type": "EVENT",
+      "title_ko": "1529년 제15조: 합의의 범위와 한계",
+      "narrative_ko": "마르부르크 합의문에서 앞선 열네 조항이 공통 입장을 표현했다면 제15조는 성만찬에서 그리스도의 육체적 현존을 둘러싼 이견을 남겼다. 또한 서로 그리스도인다운 사랑을 보이자는 약속도 기록됐다. 성공 또는 실패의 단일 표제로는 원문의 이 균형을 설명하기 어렵다.",
+      "reader_question_ko": "다음 자료에서는 무엇이 달라지는지 확인해 보세요.",
+      "reading_reader_key": "MARBURG",
+      "v211_reader_sentence_id": "SNT-V211-MARBURG-0009",
+      "v211_excerpt": "그러나 제15조에서 성만찬의 빵과 포도주 안에 그리스도의 몸과 피가 육체적으로 현존하는 문제에는 완전한 합의에 이르지 못했다고 명시한다.",
+      "v212_context_essay_id": "RDR-V212-06",
+      "v214_event_id": "EVENT-GEO-V214-09",
+      "v214_historical_place_id": "PLACE-V214-MARBURG",
+      "v214_person_ids": [
+        "PERSON-V214-LUTHER",
+        "PERSON-V214-ZWINGLI",
+        "PERSON-V214-PHILIP"
+      ],
+      "v214_document_ids": [
+        "DOC-V214-MARBURG1529"
+      ],
+      "v214_holding_id": null,
+      "source_ids": [
+        "SRC-V212-MARBURG",
+        "SRC-V212-MARBURG-L",
+        "SRC-V212-MARBURG-Z",
+        "SRC-V214-MARBURG"
+      ],
+      "map_pin_allowed": false,
+      "research_preview_place_marker": true,
+      "place_precision": "MODERN_CITY_CENTROID_APPROXIMATE",
+      "location_display_label_ko": "마르부르크",
+      "holding_display_name_ko": null,
+      "evidence_note_ko": "전체 문서의 비평판 쪽수와 제15조의 정확한 필사본 쪽수 구분",
+      "historical_causality_inferred": false,
+      "original_witness_folio_verified": false,
+      "semantic_link_human_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "PATH-V215-ZURICH_MARBURG-STEP-05",
+      "journey_id": "PATH-V215-ZURICH_MARBURG",
+      "sequence": 5,
+      "scene_type": "COMPARISON",
+      "title_ko": "합의문과 참가자의 보고는 왜 다르게 보일까?",
+      "narrative_ko": "합의문은 함께 정리된 결론이고 오지안더의 루터파 회고와 츠빙글리의 보고는 다른 수신자·입장에서 작성된 개별 설명이다. 두 보고가 있다고 해서 어느 하나를 회담의 완전한 중립 속기록으로 볼 수 없다. 문서 작성자와 청중을 먼저 표시하고 견해의 차이를 읽어야 한다.",
+      "reader_question_ko": "다음 자료에서는 무엇이 달라지는지 확인해 보세요.",
+      "reading_reader_key": "MARBURG",
+      "v211_reader_sentence_id": "SNT-V211-MARBURG-0005",
+      "v211_excerpt": "성만찬은 교회 공동체가 그리스도의 약속을 경험하는 구체적 예배 행위였으므로 말의 차이를 임의로 덮어둘 수 없었다.",
+      "v212_context_essay_id": "RDR-V212-06",
+      "v214_event_id": null,
+      "v214_historical_place_id": null,
+      "v214_person_ids": [],
+      "v214_document_ids": [],
+      "v214_holding_id": null,
+      "source_ids": [
+        "SRC-V212-MARBURG",
+        "SRC-V212-MARBURG-L",
+        "SRC-V212-MARBURG-Z"
+      ],
+      "map_pin_allowed": false,
+      "research_preview_place_marker": false,
+      "place_precision": null,
+      "location_display_label_ko": null,
+      "holding_display_name_ko": null,
+      "evidence_note_ko": "서로 다른 입장의 참가자 보고를 동일한 1차 증거로 합성 금지",
+      "historical_causality_inferred": false,
+      "original_witness_folio_verified": false,
+      "semantic_link_human_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "PATH-V215-ZURICH_MARBURG-STEP-06",
+      "journey_id": "PATH-V215-ZURICH_MARBURG",
+      "sequence": 6,
+      "scene_type": "EVENT",
+      "title_ko": "1540년: 비슷한 주제, 다른 문헌",
+      "narrative_ko": "1540년 Variata 제10조는 마르부르크 제15조와 성만찬이라는 주제를 공유한다. 그러나 저자·청중·판본·연대가 다른 문서를 직접 하나의 합의문으로 결합해서는 안 된다. 독자는 두 텍스트의 연결이 ‘주제상 비교’인지 ‘원문 인용 관계’인지 확인한다.",
+      "reader_question_ko": "개혁의 실천과 교리적 합의는 왜 같은 속도로 진행되지 않을까?",
+      "reading_reader_key": "AUGSBURG",
+      "v211_reader_sentence_id": "SNT-V211-AUGSBURG-0023",
+      "v211_excerpt": "1540년판 Variata는 아우크스부르크 신앙고백의 이전 본문과 구별해야 하는 수정판이다.",
+      "v212_context_essay_id": "RDR-V212-07",
+      "v214_event_id": "EVENT-GEO-V214-14",
+      "v214_historical_place_id": "PLACE-V214-WITTENBERG",
+      "v214_person_ids": [
+        "PERSON-V214-MELANCHTHON"
+      ],
+      "v214_document_ids": [
+        "DOC-V214-VARIATA1540"
+      ],
+      "v214_holding_id": null,
+      "source_ids": [
+        "SRC-V212-AUGSBURG",
+        "SRC-V212-VARIATA",
+        "SRC-V212-MARBURG",
+        "SRC-V214-AUGSBURG"
+      ],
+      "map_pin_allowed": false,
+      "research_preview_place_marker": true,
+      "place_precision": "MODERN_CITY_CENTROID_APPROXIMATE",
+      "location_display_label_ko": "비텐베르크",
+      "holding_display_name_ko": null,
+      "evidence_note_ko": "문헌 2종의 직접적 문구 영향은 원판 대조 전 미확정",
+      "historical_causality_inferred": false,
+      "original_witness_folio_verified": false,
+      "semantic_link_human_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "PATH-V215-CALVIN_EDITIONS-STEP-01",
+      "journey_id": "PATH-V215-CALVIN_EDITIONS",
+      "sequence": 1,
+      "scene_type": "EVENT",
+      "title_ko": "바젤 1536년: 여섯 장의 초판",
+      "narrative_ko": "칼뱅의 라틴어 초판은 여섯 장으로 된 초기 신학서다. 박해받던 프랑스의 개혁 신앙을 변호하는 목적과 교리를 가르치는 목적을 함께 가진다. 이때의 문서 형식을 1559년 네 권 80장의 구조로 소급하지 말고 초판이 겨냥한 독자와 출판 맥락을 우선 읽는다.",
+      "reader_question_ko": "다음 자료에서는 무엇이 달라지는지 확인해 보세요.",
+      "reading_reader_key": "CALVIN1536",
+      "v211_reader_sentence_id": "SNT-V211-CALVIN1536-0001",
+      "v211_excerpt": "칼뱅이 1536년 바젤에서 펴낸 라틴어 『기독교강요』는 여섯 장으로 구성되었다.",
+      "v212_context_essay_id": "RDR-V212-08",
+      "v214_event_id": "EVENT-GEO-V214-12",
+      "v214_historical_place_id": "PLACE-V214-BASEL",
+      "v214_person_ids": [
+        "PERSON-V214-CALVIN"
+      ],
+      "v214_document_ids": [
+        "DOC-V214-CALVIN1536"
+      ],
+      "v214_holding_id": null,
+      "source_ids": [
+        "SRC-V212-CALVIN",
+        "SRC-V212-AUGSBURG",
+        "SRC-V214-BASEL"
+      ],
+      "map_pin_allowed": false,
+      "research_preview_place_marker": true,
+      "place_precision": "MODERN_CITY_CENTROID_APPROXIMATE",
+      "location_display_label_ko": "바젤",
+      "holding_display_name_ko": null,
+      "evidence_note_ko": "프랑수아 1세에 대한 헌사 연도와 바젤 인쇄 연도를 혼동하지 않음",
+      "historical_causality_inferred": false,
+      "original_witness_folio_verified": false,
+      "semantic_link_human_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "PATH-V215-CALVIN_EDITIONS-STEP-02",
+      "journey_id": "PATH-V215-CALVIN_EDITIONS",
+      "sequence": 2,
+      "scene_type": "EVENT",
+      "title_ko": "스트라스부르 1539년: 열일곱 장의 확대판",
+      "narrative_ko": "1539년 확대판은 초판 여섯 장에서 열일곱 장으로 체계가 확장된 시기를 보여 준다. 단순히 분량이 늘어난 것이 아니라 신학의 조직 방식이 변해 가는 과정이다. 다만 정확히 어떤 문장이 어느 장으로 이동했는지는 원어 비평판을 직접 대조해야 판단할 수 있다.",
+      "reader_question_ko": "다음 자료에서는 무엇이 달라지는지 확인해 보세요.",
+      "reading_reader_key": "CALVIN1536",
+      "v211_reader_sentence_id": "SNT-V211-CALVIN1536-0017",
+      "v211_excerpt": "두 번째 라틴어판은 1539년에 나왔으며 여섯 장의 작은 저술이 열일곱 장의 더 큰 책으로 확대되었다.",
+      "v212_context_essay_id": "RDR-V212-08",
+      "v214_event_id": "EVENT-GEO-V214-13",
+      "v214_historical_place_id": "PLACE-V214-STRASBOURG",
+      "v214_person_ids": [
+        "PERSON-V214-CALVIN"
+      ],
+      "v214_document_ids": [
+        "DOC-V214-CALVIN1539"
+      ],
+      "v214_holding_id": null,
+      "source_ids": [
+        "SRC-V212-CALVIN",
+        "SRC-V212-AUGSBURG",
+        "SRC-V214-STRASBOURG"
+      ],
+      "map_pin_allowed": false,
+      "research_preview_place_marker": true,
+      "place_precision": "MODERN_CITY_CENTROID_APPROXIMATE",
+      "location_display_label_ko": "스트라스부르",
+      "holding_display_name_ko": null,
+      "evidence_note_ko": "‘모든 문장이 이동했다’는 식의 일괄 변화 추정 금지",
+      "historical_causality_inferred": false,
+      "original_witness_folio_verified": false,
+      "semantic_link_human_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "PATH-V215-CALVIN_EDITIONS-STEP-03",
+      "journey_id": "PATH-V215-CALVIN_EDITIONS",
+      "sequence": 3,
+      "scene_type": "EVENT",
+      "title_ko": "제네바 1559년: 최종 라틴어판의 네 권",
+      "narrative_ko": "1559년 최종 라틴어판은 네 권·80장 구조를 갖는다. 이는 독자의 교리 학습 순서와 내용의 조직 방식을 보여 주는 판본 정보이지 다른 개혁자와 같은 법적 권한을 가진 신앙고백서라는 뜻은 아니다. 원고에서 구조와 본문 이문을 따로 다룬다.",
+      "reader_question_ko": "다음 자료에서는 무엇이 달라지는지 확인해 보세요.",
+      "reading_reader_key": "CALVIN1559",
+      "v211_reader_sentence_id": "SNT-V211-CALVIN1559-0001",
+      "v211_excerpt": "1559년판 『기독교강요』는 네 권 80장으로 구성된 최종 라틴어판이다.",
+      "v212_context_essay_id": "RDR-V212-09",
+      "v214_event_id": "EVENT-GEO-V214-17",
+      "v214_historical_place_id": "PLACE-V214-GENEVA",
+      "v214_person_ids": [
+        "PERSON-V214-CALVIN"
+      ],
+      "v214_document_ids": [
+        "DOC-V214-CALVIN1559"
+      ],
+      "v214_holding_id": null,
+      "source_ids": [
+        "SRC-V212-CALVIN",
+        "SRC-V212-VARIATA",
+        "SRC-V214-GENEVA-1559"
+      ],
+      "map_pin_allowed": false,
+      "research_preview_place_marker": true,
+      "place_precision": "MODERN_CITY_CENTROID_APPROXIMATE",
+      "location_display_label_ko": "제네바",
+      "holding_display_name_ko": null,
+      "evidence_note_ko": "1559 라틴어판은 1560 프랑스어판과 같은 실물이 아님",
+      "historical_causality_inferred": false,
+      "original_witness_folio_verified": false,
+      "semantic_link_human_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "PATH-V215-CALVIN_EDITIONS-STEP-04",
+      "journey_id": "PATH-V215-CALVIN_EDITIONS",
+      "sequence": 4,
+      "scene_type": "EVENT",
+      "title_ko": "제네바 1560년: 프랑스어판이라는 별도 자료",
+      "narrative_ko": "1560년 프랑스어판은 1559년 라틴어 최종판과 연결되지만 언어·인쇄·유통 경로가 다른 판본이다. 제네바 장 크레스팽 인쇄본이라는 정보와 현재 투르에 소장된 특정 복본의 정보는 구별한다. 언어가 달라진 것과 교리 내용을 수정한 것의 범위는 문단별로 확인해야 한다.",
+      "reader_question_ko": "다음 자료에서는 무엇이 달라지는지 확인해 보세요.",
+      "reading_reader_key": "CALVIN1559",
+      "v211_reader_sentence_id": "SNT-V211-CALVIN1559-0022",
+      "v211_excerpt": "1559년의 최종 라틴어판과 1560년 프랑스어판은 서로 연결되지만 언어와 출판의 형태가 다른 책이다.",
+      "v212_context_essay_id": "RDR-V212-09",
+      "v214_event_id": "EVENT-GEO-V214-18",
+      "v214_historical_place_id": "PLACE-V214-GENEVA",
+      "v214_person_ids": [
+        "PERSON-V214-CALVIN"
+      ],
+      "v214_document_ids": [
+        "DOC-V214-CALVIN1560"
+      ],
+      "v214_holding_id": null,
+      "source_ids": [
+        "SRC-V212-CALVIN",
+        "SRC-V212-VARIATA",
+        "SRC-V214-GENEVA-1560"
+      ],
+      "map_pin_allowed": false,
+      "research_preview_place_marker": true,
+      "place_precision": "MODERN_CITY_CENTROID_APPROXIMATE",
+      "location_display_label_ko": "제네바",
+      "holding_display_name_ko": null,
+      "evidence_note_ko": "1560을 1559 라틴어 초판 발행일로 바꾸지 않음",
+      "historical_causality_inferred": false,
+      "original_witness_folio_verified": false,
+      "semantic_link_human_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "PATH-V215-CALVIN_EDITIONS-STEP-05",
+      "journey_id": "PATH-V215-CALVIN_EDITIONS",
+      "sequence": 5,
+      "scene_type": "HOLDING",
+      "title_ko": "프린스턴: 책이 이동한 뒤의 소장 정보",
+      "narrative_ko": "현존하는 1559년판의 디지털 소장 기록은 북미의 신학 도서관에서 찾아볼 수 있다. 하지만 현대 소장 기관을 1559년 인쇄지처럼 지도 위에 역사 핀으로 찍으면 장소의 종류가 뒤섞인다. 자료 열람 경로와 본문 당시의 인쇄 위치를 두 목록에서 각각 확인한다.",
+      "reader_question_ko": "다음 자료에서는 무엇이 달라지는지 확인해 보세요.",
+      "reading_reader_key": "CALVIN1559",
+      "v211_reader_sentence_id": "SNT-V211-CALVIN1559-0001",
+      "v211_excerpt": "1559년판 『기독교강요』는 네 권 80장으로 구성된 최종 라틴어판이다.",
+      "v212_context_essay_id": "RDR-V212-09",
+      "v214_event_id": null,
+      "v214_historical_place_id": null,
+      "v214_person_ids": [],
+      "v214_document_ids": [],
+      "v214_holding_id": "HOLD-V214-CALVIN1559-PRINCETON",
+      "source_ids": [
+        "SRC-V212-CALVIN",
+        "SRC-V212-VARIATA"
+      ],
+      "map_pin_allowed": false,
+      "research_preview_place_marker": false,
+      "place_precision": null,
+      "location_display_label_ko": null,
+      "holding_display_name_ko": "Princeton Theological Seminary Library",
+      "evidence_note_ko": "프린스턴 소장자료 이미지를 별도 사용권 없이 앱으로 복제하지 않음",
+      "historical_causality_inferred": false,
+      "original_witness_folio_verified": false,
+      "semantic_link_human_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "PATH-V215-CALVIN_EDITIONS-STEP-06",
+      "journey_id": "PATH-V215-CALVIN_EDITIONS",
+      "sequence": 6,
+      "scene_type": "HOLDING",
+      "title_ko": "투르: 프랑스어 인쇄본의 현재 소장처",
+      "narrative_ko": "투르의 CESR 도서관에 소장된 1560년 장 크레스팽 인쇄본 서지는 제네바라는 출판 정보와 프랑스라는 소장 위치를 함께 기록한다. 후대 서적의 이동 경로를 알기 위해 현재 소장처가 필요하지만, 이 위치가 1560년의 개혁 신학 사건지인 것은 아니다.",
+      "reader_question_ko": "같은 책의 여러 판본을 하나로 묶으면 무엇을 잃는가?",
+      "reading_reader_key": "CALVIN1559",
+      "v211_reader_sentence_id": "SNT-V211-CALVIN1559-0022",
+      "v211_excerpt": "1559년의 최종 라틴어판과 1560년 프랑스어판은 서로 연결되지만 언어와 출판의 형태가 다른 책이다.",
+      "v212_context_essay_id": "RDR-V212-09",
+      "v214_event_id": null,
+      "v214_historical_place_id": null,
+      "v214_person_ids": [],
+      "v214_document_ids": [],
+      "v214_holding_id": "HOLD-V214-CALVIN1560-TOURS",
+      "source_ids": [
+        "SRC-V212-CALVIN",
+        "SRC-V212-VARIATA"
+      ],
+      "map_pin_allowed": false,
+      "research_preview_place_marker": false,
+      "place_precision": null,
+      "location_display_label_ko": null,
+      "holding_display_name_ko": "Centre d'Études Supérieures de la Renaissance",
+      "evidence_note_ko": "현재 소장처는 역사 사건지와 혼동하지 않고 ‘원본 열람’ 탭에만 표시",
+      "historical_causality_inferred": false,
+      "original_witness_folio_verified": false,
+      "semantic_link_human_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "PATH-V215-COUNCIL_AND_REFORM-STEP-01",
+      "journey_id": "PATH-V215-COUNCIL_AND_REFORM",
+      "sequence": 1,
+      "scene_type": "EVENT",
+      "title_ko": "1530년의 제국적 신앙고백",
+      "narrative_ko": "제국의회에 문서를 제출하는 일은 도시에서 예배 질서를 직접 시행하거나 공의회에서 법령을 제정하는 일과 다르다. 1530년 아우크스부르크는 개혁 진영이 자신의 신앙을 공적 정치 언어로 설명한 역사적 장면이다. 당시 문서를 더 나중의 1531년 인쇄본과 구별한다.",
+      "reader_question_ko": "다음 자료에서는 무엇이 달라지는지 확인해 보세요.",
+      "reading_reader_key": "AUGSBURG",
+      "v211_reader_sentence_id": "SNT-V211-AUGSBURG-0007",
+      "v211_excerpt": "1531년에는 멜란히톤이 본문을 정리해 발행한 승인 인쇄본이 비텐베르크에서 게오르크 라우(Georg Rhau, 당시 표기 Georg Rhaw)의 인쇄로 나왔다.",
+      "v212_context_essay_id": "RDR-V212-07",
+      "v214_event_id": "EVENT-GEO-V214-10",
+      "v214_historical_place_id": "PLACE-V214-AUGSBURG",
+      "v214_person_ids": [
+        "PERSON-V214-MELANCHTHON",
+        "PERSON-V214-CHARLES"
+      ],
+      "v214_document_ids": [
+        "DOC-V214-AUGSBURG1530"
+      ],
+      "v214_holding_id": null,
+      "source_ids": [
+        "SRC-V212-AUGSBURG",
+        "SRC-V212-VARIATA",
+        "SRC-V212-MARBURG",
+        "SRC-V214-AUGSBURG"
+      ],
+      "map_pin_allowed": false,
+      "research_preview_place_marker": true,
+      "place_precision": "MODERN_CITY_CENTROID_APPROXIMATE",
+      "location_display_label_ko": "아우크스부르크",
+      "holding_display_name_ko": null,
+      "evidence_note_ko": "제출된 신앙고백이 즉시 각 지역의 법으로 시행됐다고 단정하지 않음",
+      "historical_causality_inferred": false,
+      "original_witness_folio_verified": false,
+      "semantic_link_human_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "PATH-V215-COUNCIL_AND_REFORM-STEP-02",
+      "journey_id": "PATH-V215-COUNCIL_AND_REFORM",
+      "sequence": 2,
+      "scene_type": "EVENT",
+      "title_ko": "1545년: 공의회 시작이라는 제도적 선택",
+      "narrative_ko": "트리엔트 공의회는 교리적 논쟁에 대응하면서도 오래된 성직자 규율과 교육 문제를 논의한 장기적인 모임이었다. 1545년 개회 이후 중단과 재개가 있었으므로 18년 내내 한 장소의 같은 방에서 계속 진행됐다는 단순한 그림은 틀리다.",
+      "reader_question_ko": "다음 자료에서는 무엇이 달라지는지 확인해 보세요.",
+      "reading_reader_key": "TRENT",
+      "v211_reader_sentence_id": "SNT-V211-TRENT-0001",
+      "v211_excerpt": "트리엔트 공의회는 1545년에 시작해 1563년에 끝났지만 줄곧 매년 열린 한 차례의 회의는 아니었다.",
+      "v212_context_essay_id": "RDR-V212-10",
+      "v214_event_id": "EVENT-GEO-V214-15",
+      "v214_historical_place_id": "PLACE-V214-TRENTO",
+      "v214_person_ids": [],
+      "v214_document_ids": [],
+      "v214_holding_id": null,
+      "source_ids": [
+        "SRC-V212-TRENT",
+        "SRC-V212-TRENT-DEC",
+        "SRC-V214-TRENT"
+      ],
+      "map_pin_allowed": false,
+      "research_preview_place_marker": true,
+      "place_precision": "MODERN_CITY_CENTROID_APPROXIMATE",
+      "location_display_label_ko": "트렌토",
+      "holding_display_name_ko": null,
+      "evidence_note_ko": "1545 개회일과 1547·1563 개별 교령 날짜를 하나로 합치지 않음",
+      "historical_causality_inferred": false,
+      "original_witness_folio_verified": false,
+      "semantic_link_human_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "PATH-V215-COUNCIL_AND_REFORM-STEP-03",
+      "journey_id": "PATH-V215-COUNCIL_AND_REFORM",
+      "sequence": 3,
+      "scene_type": "EVENT",
+      "title_ko": "1547년 제6회기: 의롭다 함을 어떻게 설명했는가",
+      "narrative_ko": "제6회기의 의롭다 함 교령은 하나님의 선행하는 은혜와 인간의 응답, 죄 사함과 내적 갱신의 관계를 다룬다. 가톨릭의 논증을 사람이 돈이나 공로로 구원을 사는 이야기로 축소하면 공의회 문서를 정확히 읽을 수 없다. 개신교 신앙고백과 비교하더라도 양측의 문서 장르를 먼저 구분한다.",
+      "reader_question_ko": "다음 자료에서는 무엇이 달라지는지 확인해 보세요.",
+      "reading_reader_key": "TRENT",
+      "v211_reader_sentence_id": "SNT-V211-TRENT-0005",
+      "v211_excerpt": "트리엔트 공의회의 의롭다 함 교령은 1547년 1월 13일 제6회기에 속한다.",
+      "v212_context_essay_id": "RDR-V212-10",
+      "v214_event_id": "EVENT-GEO-V214-16",
+      "v214_historical_place_id": "PLACE-V214-TRENTO",
+      "v214_person_ids": [],
+      "v214_document_ids": [
+        "DOC-V214-TRENT1547"
+      ],
+      "v214_holding_id": null,
+      "source_ids": [
+        "SRC-V212-TRENT",
+        "SRC-V212-TRENT-DEC",
+        "SRC-V214-TRENT"
+      ],
+      "map_pin_allowed": false,
+      "research_preview_place_marker": true,
+      "place_precision": "MODERN_CITY_CENTROID_APPROXIMATE",
+      "location_display_label_ko": "트렌토",
+      "holding_display_name_ko": null,
+      "evidence_note_ko": "원본 라틴어 교령의 장별 이문은 아직 판면 교감하지 않음",
+      "historical_causality_inferred": false,
+      "original_witness_folio_verified": false,
+      "semantic_link_human_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "PATH-V215-COUNCIL_AND_REFORM-STEP-04",
+      "journey_id": "PATH-V215-COUNCIL_AND_REFORM",
+      "sequence": 4,
+      "scene_type": "EVENT",
+      "title_ko": "1563년 제23회기: 신학교 규정의 목적",
+      "narrative_ko": "공의회의 신학교 규정은 성직자 후보자의 교육과 훈련, 주교의 감독 책임을 제도화하려는 조치였다. 의롭다 함에 관한 교리적 설명과는 다르게 실행 기관과 재정·교육의 문제가 이어진다. 공의회 결의 날짜와 각 교구가 실제로 학교를 세운 날짜가 같다고 가정하면 안 된다.",
+      "reader_question_ko": "다음 자료에서는 무엇이 달라지는지 확인해 보세요.",
+      "reading_reader_key": "TRENT",
+      "v211_reader_sentence_id": "SNT-V211-TRENT-0010",
+      "v211_excerpt": "1563년 7월 15일 제23회기의 신학교 규정은 성직 후보자 선발, 교육과 훈련, 주교의 감독 책임을 구체적으로 다룬다.",
+      "v212_context_essay_id": "RDR-V212-10",
+      "v214_event_id": "EVENT-GEO-V214-19",
+      "v214_historical_place_id": "PLACE-V214-TRENTO",
+      "v214_person_ids": [],
+      "v214_document_ids": [
+        "DOC-V214-TRENT1563"
+      ],
+      "v214_holding_id": null,
+      "source_ids": [
+        "SRC-V212-TRENT",
+        "SRC-V212-TRENT-DEC",
+        "SRC-V214-TRENT"
+      ],
+      "map_pin_allowed": false,
+      "research_preview_place_marker": true,
+      "place_precision": "MODERN_CITY_CENTROID_APPROXIMATE",
+      "location_display_label_ko": "트렌토",
+      "holding_display_name_ko": null,
+      "evidence_note_ko": "공의회 결정은 현장 시행의 증거가 아니며 교구별 사례 미조사",
+      "historical_causality_inferred": false,
+      "original_witness_folio_verified": false,
+      "semantic_link_human_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "PATH-V215-COUNCIL_AND_REFORM-STEP-05",
+      "journey_id": "PATH-V215-COUNCIL_AND_REFORM",
+      "sequence": 5,
+      "scene_type": "EVENT",
+      "title_ko": "1523년 취리히: 도시의 권력이 한 개혁",
+      "narrative_ko": "취리히 시의회는 도시 안에서 예배와 질서에 관한 결정을 집행한 주체였다. 이는 전 가톨릭 세계를 대상으로 규정을 제시한 트리엔트 공의회나 여러 제후가 모인 제국의회와 법적 위상이 다르다. 개혁의 제도화라는 공통 질문으로 비교하되 기관을 동일시하지 않는다.",
+      "reader_question_ko": "다음 자료에서는 무엇이 달라지는지 확인해 보세요.",
+      "reading_reader_key": "ZWINGLI",
+      "v211_reader_sentence_id": "SNT-V211-ZWINGLI-0001",
+      "v211_excerpt": "취리히의 개혁은 지도자 한 사람의 성경 해석이 예배당 내부에만 영향을 준 사건이 아니다.",
+      "v212_context_essay_id": "RDR-V212-05",
+      "v214_event_id": "EVENT-GEO-V214-06",
+      "v214_historical_place_id": "PLACE-V214-ZURICH",
+      "v214_person_ids": [
+        "PERSON-V214-ZWINGLI"
+      ],
+      "v214_document_ids": [],
+      "v214_holding_id": null,
+      "source_ids": [
+        "SRC-V212-ZURICH",
+        "SRC-V212-ZURICH-CITY",
+        "SRC-V214-ZURICH"
+      ],
+      "map_pin_allowed": false,
+      "research_preview_place_marker": true,
+      "place_precision": "MODERN_CITY_CENTROID_APPROXIMATE",
+      "location_display_label_ko": "취리히",
+      "holding_display_name_ko": null,
+      "evidence_note_ko": "서로 다른 정치기관과 종교적 권한을 동일한 거버넌스로 표현하지 않음",
+      "historical_causality_inferred": false,
+      "original_witness_folio_verified": false,
+      "semantic_link_human_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "PATH-V215-COUNCIL_AND_REFORM-STEP-06",
+      "journey_id": "PATH-V215-COUNCIL_AND_REFORM",
+      "sequence": 6,
+      "scene_type": "COMPARISON",
+      "title_ko": "결정과 시행 사이: 아직 비어 있는 지도",
+      "narrative_ko": "제국 칙령이나 공의회 교령의 발행 연도를 알아도 모든 지역에서 실제 적용한 장소와 날짜는 아직 알 수 없다. 지역별 제후·시의회·교구 기록은 다음 원전 조사 과제다. 현재 자료로는 이 미확인 구간을 임의의 지도 핀으로 채우지 않고 ‘추가 사료 필요’로 남기는 것이 정확하다.",
+      "reader_question_ko": "새로운 교리를 채택하는 것과 그 교리를 현장에서 실행하는 것은 왜 다른 사건인가?",
+      "reading_reader_key": "TRENT",
+      "v211_reader_sentence_id": "SNT-V211-TRENT-0010",
+      "v211_excerpt": "1563년 7월 15일 제23회기의 신학교 규정은 성직 후보자 선발, 교육과 훈련, 주교의 감독 책임을 구체적으로 다룬다.",
+      "v212_context_essay_id": "RDR-V212-10",
+      "v214_event_id": null,
+      "v214_historical_place_id": null,
+      "v214_person_ids": [],
+      "v214_document_ids": [],
+      "v214_holding_id": null,
+      "source_ids": [
+        "SRC-V212-TRENT",
+        "SRC-V212-TRENT-DEC"
+      ],
+      "map_pin_allowed": false,
+      "research_preview_place_marker": false,
+      "place_precision": null,
+      "location_display_label_ko": null,
+      "holding_display_name_ko": null,
+      "evidence_note_ko": "미조사된 지역 시행을 공의회의 의결 장소로 자동 귀속 금지",
+      "historical_causality_inferred": false,
+      "original_witness_folio_verified": false,
+      "semantic_link_human_approved": false,
+      "can_publish": false
+    }
+  ],
+  "transitions": [
+    {
+      "id": "LINK-V215-ECCLESIOLOGY-01",
+      "from_stage_id": "PATH-V215-ECCLESIOLOGY-STEP-01",
+      "to_stage_id": "PATH-V215-ECCLESIOLOGY-STEP-02",
+      "relation_kind": "EDITORIAL_READING_TRANSITION_NOT_CAUSAL_CHAIN",
+      "narrative_ko": "앞의 질문을 보존한 채 다음 시대·문헌·장소로 넘어갑니다.",
+      "historical_direct_causation_not_claimed": true,
+      "can_publish": false
+    },
+    {
+      "id": "LINK-V215-ECCLESIOLOGY-02",
+      "from_stage_id": "PATH-V215-ECCLESIOLOGY-STEP-02",
+      "to_stage_id": "PATH-V215-ECCLESIOLOGY-STEP-03",
+      "relation_kind": "EDITORIAL_READING_TRANSITION_NOT_CAUSAL_CHAIN",
+      "narrative_ko": "앞의 사건과 다음 기록 사이에서 무엇이 실제로 바뀌었는지 확인합니다.",
+      "historical_direct_causation_not_claimed": true,
+      "can_publish": false
+    },
+    {
+      "id": "LINK-V215-ECCLESIOLOGY-03",
+      "from_stage_id": "PATH-V215-ECCLESIOLOGY-STEP-03",
+      "to_stage_id": "PATH-V215-ECCLESIOLOGY-STEP-04",
+      "relation_kind": "EDITORIAL_READING_TRANSITION_NOT_CAUSAL_CHAIN",
+      "narrative_ko": "앞의 사건과 다음 기록 사이에서 무엇이 실제로 바뀌었는지 확인합니다.",
+      "historical_direct_causation_not_claimed": true,
+      "can_publish": false
+    },
+    {
+      "id": "LINK-V215-ECCLESIOLOGY-04",
+      "from_stage_id": "PATH-V215-ECCLESIOLOGY-STEP-04",
+      "to_stage_id": "PATH-V215-ECCLESIOLOGY-STEP-05",
+      "relation_kind": "CHRONOLOGY_OR_DOCUMENT_COMPARISON",
+      "narrative_ko": "앞의 사건과 다음 기록 사이에서 무엇이 실제로 바뀌었는지 확인합니다.",
+      "historical_direct_causation_not_claimed": true,
+      "can_publish": false
+    },
+    {
+      "id": "LINK-V215-ECCLESIOLOGY-05",
+      "from_stage_id": "PATH-V215-ECCLESIOLOGY-STEP-05",
+      "to_stage_id": "PATH-V215-ECCLESIOLOGY-STEP-06",
+      "relation_kind": "EDITORIAL_READING_TRANSITION_NOT_CAUSAL_CHAIN",
+      "narrative_ko": "앞의 사건과 다음 기록 사이에서 무엇이 실제로 바뀌었는지 확인합니다.",
+      "historical_direct_causation_not_claimed": true,
+      "can_publish": false
+    },
+    {
+      "id": "LINK-V215-DOCUMENT_TO_EMPIRE-01",
+      "from_stage_id": "PATH-V215-DOCUMENT_TO_EMPIRE-STEP-01",
+      "to_stage_id": "PATH-V215-DOCUMENT_TO_EMPIRE-STEP-02",
+      "relation_kind": "CHRONOLOGY_OR_DOCUMENT_COMPARISON",
+      "narrative_ko": "앞의 질문을 보존한 채 다음 시대·문헌·장소로 넘어갑니다.",
+      "historical_direct_causation_not_claimed": true,
+      "can_publish": false
+    },
+    {
+      "id": "LINK-V215-DOCUMENT_TO_EMPIRE-02",
+      "from_stage_id": "PATH-V215-DOCUMENT_TO_EMPIRE-STEP-02",
+      "to_stage_id": "PATH-V215-DOCUMENT_TO_EMPIRE-STEP-03",
+      "relation_kind": "CHRONOLOGY_OR_DOCUMENT_COMPARISON",
+      "narrative_ko": "앞의 사건과 다음 기록 사이에서 무엇이 실제로 바뀌었는지 확인합니다.",
+      "historical_direct_causation_not_claimed": true,
+      "can_publish": false
+    },
+    {
+      "id": "LINK-V215-DOCUMENT_TO_EMPIRE-03",
+      "from_stage_id": "PATH-V215-DOCUMENT_TO_EMPIRE-STEP-03",
+      "to_stage_id": "PATH-V215-DOCUMENT_TO_EMPIRE-STEP-04",
+      "relation_kind": "CHRONOLOGY_OR_DOCUMENT_COMPARISON",
+      "narrative_ko": "앞의 사건과 다음 기록 사이에서 무엇이 실제로 바뀌었는지 확인합니다.",
+      "historical_direct_causation_not_claimed": true,
+      "can_publish": false
+    },
+    {
+      "id": "LINK-V215-DOCUMENT_TO_EMPIRE-04",
+      "from_stage_id": "PATH-V215-DOCUMENT_TO_EMPIRE-STEP-04",
+      "to_stage_id": "PATH-V215-DOCUMENT_TO_EMPIRE-STEP-05",
+      "relation_kind": "CHRONOLOGY_OR_DOCUMENT_COMPARISON",
+      "narrative_ko": "앞의 사건과 다음 기록 사이에서 무엇이 실제로 바뀌었는지 확인합니다.",
+      "historical_direct_causation_not_claimed": true,
+      "can_publish": false
+    },
+    {
+      "id": "LINK-V215-DOCUMENT_TO_EMPIRE-05",
+      "from_stage_id": "PATH-V215-DOCUMENT_TO_EMPIRE-STEP-05",
+      "to_stage_id": "PATH-V215-DOCUMENT_TO_EMPIRE-STEP-06",
+      "relation_kind": "CHRONOLOGY_OR_DOCUMENT_COMPARISON",
+      "narrative_ko": "앞의 사건과 다음 기록 사이에서 무엇이 실제로 바뀌었는지 확인합니다.",
+      "historical_direct_causation_not_claimed": true,
+      "can_publish": false
+    },
+    {
+      "id": "LINK-V215-ZURICH_MARBURG-01",
+      "from_stage_id": "PATH-V215-ZURICH_MARBURG-STEP-01",
+      "to_stage_id": "PATH-V215-ZURICH_MARBURG-STEP-02",
+      "relation_kind": "CHRONOLOGY_OR_DOCUMENT_COMPARISON",
+      "narrative_ko": "앞의 질문을 보존한 채 다음 시대·문헌·장소로 넘어갑니다.",
+      "historical_direct_causation_not_claimed": true,
+      "can_publish": false
+    },
+    {
+      "id": "LINK-V215-ZURICH_MARBURG-02",
+      "from_stage_id": "PATH-V215-ZURICH_MARBURG-STEP-02",
+      "to_stage_id": "PATH-V215-ZURICH_MARBURG-STEP-03",
+      "relation_kind": "CHRONOLOGY_OR_DOCUMENT_COMPARISON",
+      "narrative_ko": "앞의 사건과 다음 기록 사이에서 무엇이 실제로 바뀌었는지 확인합니다.",
+      "historical_direct_causation_not_claimed": true,
+      "can_publish": false
+    },
+    {
+      "id": "LINK-V215-ZURICH_MARBURG-03",
+      "from_stage_id": "PATH-V215-ZURICH_MARBURG-STEP-03",
+      "to_stage_id": "PATH-V215-ZURICH_MARBURG-STEP-04",
+      "relation_kind": "CHRONOLOGY_OR_DOCUMENT_COMPARISON",
+      "narrative_ko": "앞의 사건과 다음 기록 사이에서 무엇이 실제로 바뀌었는지 확인합니다.",
+      "historical_direct_causation_not_claimed": true,
+      "can_publish": false
+    },
+    {
+      "id": "LINK-V215-ZURICH_MARBURG-04",
+      "from_stage_id": "PATH-V215-ZURICH_MARBURG-STEP-04",
+      "to_stage_id": "PATH-V215-ZURICH_MARBURG-STEP-05",
+      "relation_kind": "EDITORIAL_READING_TRANSITION_NOT_CAUSAL_CHAIN",
+      "narrative_ko": "앞의 사건과 다음 기록 사이에서 무엇이 실제로 바뀌었는지 확인합니다.",
+      "historical_direct_causation_not_claimed": true,
+      "can_publish": false
+    },
+    {
+      "id": "LINK-V215-ZURICH_MARBURG-05",
+      "from_stage_id": "PATH-V215-ZURICH_MARBURG-STEP-05",
+      "to_stage_id": "PATH-V215-ZURICH_MARBURG-STEP-06",
+      "relation_kind": "EDITORIAL_READING_TRANSITION_NOT_CAUSAL_CHAIN",
+      "narrative_ko": "앞의 사건과 다음 기록 사이에서 무엇이 실제로 바뀌었는지 확인합니다.",
+      "historical_direct_causation_not_claimed": true,
+      "can_publish": false
+    },
+    {
+      "id": "LINK-V215-CALVIN_EDITIONS-01",
+      "from_stage_id": "PATH-V215-CALVIN_EDITIONS-STEP-01",
+      "to_stage_id": "PATH-V215-CALVIN_EDITIONS-STEP-02",
+      "relation_kind": "CHRONOLOGY_OR_DOCUMENT_COMPARISON",
+      "narrative_ko": "앞의 질문을 보존한 채 다음 시대·문헌·장소로 넘어갑니다.",
+      "historical_direct_causation_not_claimed": true,
+      "can_publish": false
+    },
+    {
+      "id": "LINK-V215-CALVIN_EDITIONS-02",
+      "from_stage_id": "PATH-V215-CALVIN_EDITIONS-STEP-02",
+      "to_stage_id": "PATH-V215-CALVIN_EDITIONS-STEP-03",
+      "relation_kind": "CHRONOLOGY_OR_DOCUMENT_COMPARISON",
+      "narrative_ko": "앞의 사건과 다음 기록 사이에서 무엇이 실제로 바뀌었는지 확인합니다.",
+      "historical_direct_causation_not_claimed": true,
+      "can_publish": false
+    },
+    {
+      "id": "LINK-V215-CALVIN_EDITIONS-03",
+      "from_stage_id": "PATH-V215-CALVIN_EDITIONS-STEP-03",
+      "to_stage_id": "PATH-V215-CALVIN_EDITIONS-STEP-04",
+      "relation_kind": "CHRONOLOGY_OR_DOCUMENT_COMPARISON",
+      "narrative_ko": "앞의 사건과 다음 기록 사이에서 무엇이 실제로 바뀌었는지 확인합니다.",
+      "historical_direct_causation_not_claimed": true,
+      "can_publish": false
+    },
+    {
+      "id": "LINK-V215-CALVIN_EDITIONS-04",
+      "from_stage_id": "PATH-V215-CALVIN_EDITIONS-STEP-04",
+      "to_stage_id": "PATH-V215-CALVIN_EDITIONS-STEP-05",
+      "relation_kind": "EDITORIAL_READING_TRANSITION_NOT_CAUSAL_CHAIN",
+      "narrative_ko": "앞의 사건과 다음 기록 사이에서 무엇이 실제로 바뀌었는지 확인합니다.",
+      "historical_direct_causation_not_claimed": true,
+      "can_publish": false
+    },
+    {
+      "id": "LINK-V215-CALVIN_EDITIONS-05",
+      "from_stage_id": "PATH-V215-CALVIN_EDITIONS-STEP-05",
+      "to_stage_id": "PATH-V215-CALVIN_EDITIONS-STEP-06",
+      "relation_kind": "EDITORIAL_READING_TRANSITION_NOT_CAUSAL_CHAIN",
+      "narrative_ko": "앞의 사건과 다음 기록 사이에서 무엇이 실제로 바뀌었는지 확인합니다.",
+      "historical_direct_causation_not_claimed": true,
+      "can_publish": false
+    },
+    {
+      "id": "LINK-V215-COUNCIL_AND_REFORM-01",
+      "from_stage_id": "PATH-V215-COUNCIL_AND_REFORM-STEP-01",
+      "to_stage_id": "PATH-V215-COUNCIL_AND_REFORM-STEP-02",
+      "relation_kind": "CHRONOLOGY_OR_DOCUMENT_COMPARISON",
+      "narrative_ko": "앞의 질문을 보존한 채 다음 시대·문헌·장소로 넘어갑니다.",
+      "historical_direct_causation_not_claimed": true,
+      "can_publish": false
+    },
+    {
+      "id": "LINK-V215-COUNCIL_AND_REFORM-02",
+      "from_stage_id": "PATH-V215-COUNCIL_AND_REFORM-STEP-02",
+      "to_stage_id": "PATH-V215-COUNCIL_AND_REFORM-STEP-03",
+      "relation_kind": "CHRONOLOGY_OR_DOCUMENT_COMPARISON",
+      "narrative_ko": "앞의 사건과 다음 기록 사이에서 무엇이 실제로 바뀌었는지 확인합니다.",
+      "historical_direct_causation_not_claimed": true,
+      "can_publish": false
+    },
+    {
+      "id": "LINK-V215-COUNCIL_AND_REFORM-03",
+      "from_stage_id": "PATH-V215-COUNCIL_AND_REFORM-STEP-03",
+      "to_stage_id": "PATH-V215-COUNCIL_AND_REFORM-STEP-04",
+      "relation_kind": "CHRONOLOGY_OR_DOCUMENT_COMPARISON",
+      "narrative_ko": "앞의 사건과 다음 기록 사이에서 무엇이 실제로 바뀌었는지 확인합니다.",
+      "historical_direct_causation_not_claimed": true,
+      "can_publish": false
+    },
+    {
+      "id": "LINK-V215-COUNCIL_AND_REFORM-04",
+      "from_stage_id": "PATH-V215-COUNCIL_AND_REFORM-STEP-04",
+      "to_stage_id": "PATH-V215-COUNCIL_AND_REFORM-STEP-05",
+      "relation_kind": "CHRONOLOGY_OR_DOCUMENT_COMPARISON",
+      "narrative_ko": "앞의 사건과 다음 기록 사이에서 무엇이 실제로 바뀌었는지 확인합니다.",
+      "historical_direct_causation_not_claimed": true,
+      "can_publish": false
+    },
+    {
+      "id": "LINK-V215-COUNCIL_AND_REFORM-05",
+      "from_stage_id": "PATH-V215-COUNCIL_AND_REFORM-STEP-05",
+      "to_stage_id": "PATH-V215-COUNCIL_AND_REFORM-STEP-06",
+      "relation_kind": "EDITORIAL_READING_TRANSITION_NOT_CAUSAL_CHAIN",
+      "narrative_ko": "앞의 사건과 다음 기록 사이에서 무엇이 실제로 바뀌었는지 확인합니다.",
+      "historical_direct_causation_not_claimed": true,
+      "can_publish": false
+    }
+  ],
+  "editorial_source_crosschecks": [
+    {
+      "source_id": "SRC-V215-MARBURG-CHECK",
+      "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/ghdi:document-4311",
+      "scope": "Edited 1529 article XV explicitly mentions remaining disagreement and Christian love",
+      "historical_original_folio_inspected": false
+    },
+    {
+      "source_id": "SRC-V215-AUGSBURG-CHECK",
+      "url": "https://bridwell.omeka.net/exhibits/show/luther/controversies/augsburgconfession",
+      "scope": "1531 Wittenberg Georg Rhaw Latin/German authorized print holdings",
+      "historical_original_folio_inspected": false
+    }
+  ],
+  "release_checklist": [
+    {
+      "key": "HUMAN_HISTORIAN_REVIEW",
+      "status": "BLOCKED",
+      "reason_ko": "30개 단계가 독자 원고의 실제 문장과 연결되는지 코드로 확인하지만 역사 주장의 정확성을 전문가가 승인한 것은 아님"
+    },
+    {
+      "key": "PRIMARY_EDITION_COLLATION",
+      "status": "BLOCKED",
+      "reason_ko": "중세 필사본 및 16세기 인쇄본 사진·판면의 직접 교감 0건"
+    },
+    {
+      "key": "MAP_PRECISION",
+      "status": "BLOCKED",
+      "reason_ko": "10개 도시 중심 좌표는 당시 건물 현장 좌표가 아니며 코지 흐라데크에서도 집필실은 미확인"
+    },
+    {
+      "key": "HOLDINGS_MAP",
+      "status": "BLOCKED",
+      "reason_ko": "현존 도서관 자료는 역사 지도 핀으로 승격하지 않음"
+    },
+    {
+      "key": "PUBLIC_RIGHTS_AND_WEBAPP",
+      "status": "BLOCKED",
+      "reason_ko": "외부 사료 영상·초상·번역 복제 권리 미확인, 공개 웹앱 반영 미허가"
+    }
+  ],
+  "unresolved": [
+    "Hus De ecclesia 1413 catalogue and detailed theological lines require original Latin passage verification.",
+    "Worms 1521 original print imagery and exact local enforcement records remain pending.",
+    "Marburg 1529 Article XV edited translation is not a diplomatic manuscript transcription.",
+    "Augsburg 1531 imprints and 1540 Variata need original Latin copy comparison.",
+    "Calvin editions 1536/1539/1559/1560 require paragraph-level edition collation.",
+    "Trent 1547/1563 implementation needs local diocesan evidence.",
+    "GeoJSON site/city precision and rare-book image use rights are not cleared."
+  ]
+}
