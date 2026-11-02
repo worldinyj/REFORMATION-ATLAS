@@ -194,9 +194,101 @@
       "claim": "DELIVERY_MAY_OVERLAP_120_ACCOUNTED_COPIES"
     }
   ],
-  "reader_sections": [],
-  "open_issues": [],
-  "metrics": {},
+  "reader_sections": [
+    {
+      "id": "R1",
+      "title": "완성되지 않은 책을 예약하다",
+      "paragraph_ko": "1690년 봄 제켄도르프 역사서를 위한 예약 인쇄물이 돌았고, 7월에는 69권에 관한 대금 138라이히스탈러가 접수되었다. 이 기록은 완성본의 초기 배송이 아니라 출판 비용과 지역 교회의 준비가 연결됐음을 보여 준다.",
+      "source_ids": [
+        "S01",
+        "S02"
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "1691년을 기약했던 저자의 편지",
+      "paragraph_ko": "1690년 10월 슈피첼에게 보낸 편지에서 제켄도르프는 이듬해 가을 책 전체를 내놓겠다고 설명하면서 동판 초상화 제작도 요청했다. 1692년 1월의 자필 초안에는 완성된 저술을 공작에게 선물하는 내용이 나타난다. 당시의 계획과 이미 완성됐다는 진술을 대조할 수 있다.",
+      "source_ids": [
+        "S03",
+        "S04",
+        "S09"
+      ]
+    },
+    {
+      "id": "R3",
+      "title": "인쇄된 말이 실제 길을 떠나다",
+      "paragraph_ko": "1692년 4월 글레디치 출판사의 송장에는 책 두 꾸러미와 운송인 이름이 나온다. 신학자와 역사가가 만든 문장이 인쇄업자, 운송인, 영주의 행정관을 통해 지역 교회에 전달되는 과정도 종교개혁 문헌사의 일부다.",
+      "source_ids": [
+        "S06"
+      ]
+    },
+    {
+      "id": "R4",
+      "title": "120권과 62권을 왜 더하지 않는가",
+      "paragraph_ko": "고타의 1692년 정산표는 120권을 권당 4라이히스탈러로 계산했고, 1693년에는 62권 배포 목록이 남아 있다. 그러나 62권이 앞의 120권에 포함된 것인지 확인하지 않았으므로 이 숫자를 합쳐 182권이 판매되었다고 단정해서는 안 된다.",
+      "source_ids": [
+        "S07",
+        "S08"
+      ]
+    },
+    {
+      "id": "R5",
+      "title": "마르부르크의 목소리가 지방의 서고에 도착할 때",
+      "paragraph_ko": "요나스가 1529년 마르부르크에서 보낸 편지는 세대를 거쳐 필사되고 제켄도르프의 역사서에 수록되었다고 목록이 전한다. 그러나 책이 교회로 퍼졌다는 사실은 그 편지가 제2권 139쪽에 정확히 어떻게 인쇄되었는지 알려주지 않는다. 실제 판면 확보가 마지막 필수 단계로 남는다.",
+      "source_ids": [
+        "S12",
+        "S10",
+        "S07"
+      ]
+    }
+  ],
+  "open_issues": [
+    {
+      "id": "Q1",
+      "text": "BSB bsb10716130 1692 complete book II §17 139f actual page image"
+    },
+    {
+      "id": "Q2",
+      "text": "Gotha Jonas later copies A453 24v–25v and B28 41v–43r handwriting and rubric"
+    },
+    {
+      "id": "Q3",
+      "text": "1834 CR vol I Jonas col1097 and Melanchthon col1106f actual column images"
+    },
+    {
+      "id": "Q4",
+      "text": "Read original 1690-10-09 author letter and 1692-01-03 autograph draft, which are catalogue-only"
+    },
+    {
+      "id": "Q5",
+      "text": "Inspect 1692-10-30 original 120-copy account, verify complicated Reichstaler/Groschen balance and valuation"
+    },
+    {
+      "id": "Q6",
+      "text": "Disambiguate 1693 list of 62 copies versus 1692 120-copy accounted quantities"
+    },
+    {
+      "id": "Q7",
+      "text": "Reconcile first-book 1687 scholarly dating versus alternate 1688 imprint by visual title pages; 1694 2nd edition"
+    },
+    {
+      "id": "Q8",
+      "text": "Secure manuscript, digitization and modern text reuse rights before incorporation into webapp"
+    }
+  ],
+  "metrics": {
+    "source_records": 13,
+    "archival_dated_documentary_records": 8,
+    "author_written_letters_catalogued": 2,
+    "shipping_and_distribution_records": 3,
+    "original_historical_pages_read_this_version": 0,
+    "first_full_1692_book_page_139_read": 0,
+    "korean_reader_sections": 5,
+    "open_issues": 8,
+    "previous_archive_k_photo_faces": 2,
+    "previous_other_1529_handwritten_pages": 4,
+    "webapp_publications": 0
+  },
   "quantitative_guardrails": {
     "preorder_69_not_completed_shipments": true,
     "shipment_2_bales_not_two_books": true,
