@@ -1,0 +1,29 @@
+name: Atlas V213 thematic research route QA
+on:
+  push:
+    branches: ['research/**']
+    paths:
+      - 'data/deep/atlas_v213_thematic_deep_reading_paths.json'
+      - 'scripts/validate_atlas_v213.py'
+      - '.github/workflows/atlas-v213-thematic-pathways.yml'
+  workflow_dispatch:
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 scripts/validate_atlas_v202.py
+      - run: python3 scripts/validate_atlas_v203.py
+      - run: python3 scripts/validate_atlas_v204.py
+      - run: python3 scripts/validate_atlas_v205.py
+      - run: python3 scripts/validate_atlas_v206.py
+      - run: python3 scripts/validate_atlas_v207.py
+      - run: python3 scripts/validate_atlas_v208.py
+      - run: python3 scripts/validate_atlas_v209.py
+      - run: python3 scripts/validate_atlas_v210.py
+      - run: python3 scripts/validate_atlas_v211.py
+      - run: python3 scripts/validate_atlas_v212.py
+      - run: python3 scripts/validate_atlas_v213.py
