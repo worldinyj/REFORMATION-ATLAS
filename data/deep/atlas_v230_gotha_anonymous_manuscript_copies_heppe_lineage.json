@@ -1,0 +1,395 @@
+{
+  "version": "2.30",
+  "kind": "GOTHA_ANONYMOUS_MARBURG_REPORT_COPY_WITNESSES_AND_HEPPE_FACSIMILE_EDITION_LINEAGE",
+  "parent_commit": "0d30e27718acfef51deb0793798dcd217da16a8d",
+  "baseline_dataset": "data/deep/atlas_v229_koehler_1929_edition_access_and_sourcecriticism.json",
+  "publication_gate": {
+    "can_ship": false,
+    "original_gotha_folio_images_read": false,
+    "gotha_copies_textually_collated": false,
+    "koehler_1929_p40_42_read": false,
+    "heppe_1847_1854_original_title_pages_compared": false,
+    "z_k_signed_articles_direct_collated": false,
+    "scholarly_signoff": false,
+    "webapp_integrated": false
+  },
+  "source_levels": {
+    "archival_catalogue_does_not_equal_facsimile": true,
+    "catalogued_copy_does_not_equal_1529_autograph": true,
+    "wa_reference_does_not_establish_independent_recensions": true,
+    "book_editions_do_not_equal_reformation_witnesses": true,
+    "secondary_facts_not_firsthand_original_transcription": true
+  },
+  "sources": [
+    {
+      "id": "S-V230-A401",
+      "type": "OFFICIAL_NATIONAL_MANUSCRIPT_CATALOGUE",
+      "url": "https://kalliope.staatsbibliothek-berlin.de/ead?ead.id=DE-611-HS-3411742",
+      "claim": "FB Gotha Chart. A401 fol41r–50v 10 Bl., report after 1529-10-03, Ausreifungsgrad Abschrift, editorial WA 30/3 S110–143 version Anonymus",
+      "original_pages_read": false
+    },
+    {
+      "id": "S-V230-B1482",
+      "type": "OFFICIAL_NATIONAL_MANUSCRIPT_CATALOGUE",
+      "url": "https://kalliope.staatsbibliothek-berlin.de/ead?ead.id=DE-611-HS-3422809",
+      "claim": "FB Gotha Chart. B1482 fol187r–196v 10 Bl., 1529 catalogued, unknown author, Abschrift, edition WA 30/3 S92–143",
+      "original_pages_read": false
+    },
+    {
+      "id": "S-V230-B493",
+      "type": "OFFICIAL_NATIONAL_MANUSCRIPT_CATALOGUE",
+      "url": "https://kalliope.staatsbibliothek-berlin.de/de/ead?ead.id=DE-611-HS-3427036",
+      "claim": "FB Gotha Chart. B493 fol22r–29v 8 Bl., Abschrift autograph Johann Mattenberg (as copyist), link WA30/3 S92–144 2.Version, in Gerhard-Mattenberg collection",
+      "original_pages_read": false
+    },
+    {
+      "id": "S-V230-MATTENBERG",
+      "type": "OFFICIAL_ARCHIVAL_COLLECTION_RECORD",
+      "url": "https://www.nachlassdatenbank.de/de/ead?ead.id=DE-611-BF-72298",
+      "claim": "Mattenberg 1550–1631 assembled handwritten collection after 1570, containing Marburg 1529 colloquy protocol. Date of copying the individual protocol not certain.",
+      "original_pages_read": false
+    },
+    {
+      "id": "S-V230-GOTHA-SERVICE",
+      "type": "OFFICIAL_DIGITIZATION_AND_ARCHIVES_SERVICE",
+      "url": "https://www.uni-erfurt.de/forschungsbibliothek-gotha/forschung/projekte/digitalisierung",
+      "claim": "FB Gotha describes digitization programs, not a live IIIF manifest for these three Kalliope holdings",
+      "original_pages_read": false
+    },
+    {
+      "id": "S-V230-GOTHA-CATALOG",
+      "type": "OFFICIAL_MANUSCRIPT_RESEARCH_CATALOG_GUIDANCE",
+      "url": "https://www.uni-erfurt.de/forschungsbibliothek-gotha/service-und-recherche/recherche/kataloge-fuer-handschriften",
+      "claim": "Gotha uses physical Chart A/B handwritten catalogues and Kalliope for finding aids",
+      "original_pages_read": false
+    },
+    {
+      "id": "S-V230-HEPPE1847",
+      "type": "ACADEMIC_HISTORICAL_BIBLIOGRAPHY_HTML",
+      "url": "https://www.cambridge.org/core/journals/church-history/article/abs/heinrich-heppe-a-melanchthonian-liberal-in-the-nineteenthcentury-german-reformed-church/CC2B76B3B20C0DB15BBDD60AE1206506",
+      "claim": "Scholarly footnote cites Heinrich Heppe Die fünfzehn Marburger Artikel Kassel 1847",
+      "original_pages_read": false
+    },
+    {
+      "id": "S-V230-HEPPE1854",
+      "type": "HISTORIAN_REFERENCE_HTML",
+      "url": "https://www.ccel.org/ccel/schaff/hcc7.ii.vii.vii.html",
+      "claim": "Philip Schaff, History of Christian Church vol VII section107, lists Heppe Kassel 1847, second edition 1854; distinct from Usteri 1883 Zurich facsimile",
+      "original_pages_read": false
+    },
+    {
+      "id": "S-V230-GBOOK-KOEHLER",
+      "type": "ORIGINAL_1929_DIGITIZED_BOOK_INSTITUTIONAL_LISTING",
+      "url": "https://books.google.com/books/about/Das_Marburger_Religionsgespr%C3%A4ch_1529.html?id=5tI8AAAAYAAJ",
+      "claim": "141-page Köhler original 1929 digitized full-volume record, direct p40–42 remains inaccessible",
+      "original_pages_read": false
+    },
+    {
+      "id": "S-V230-Z-CAT",
+      "type": "SEPARATE_SIGNED_AUTOGRAPH_ARCHIVAL_CATALOGUE",
+      "url": "https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=618165",
+      "claim": "Z signed 1529 Marburger Artikel, three additions Art7/13/15 absent K. NOT Gotha reports.",
+      "original_pages_read": false
+    }
+  ],
+  "manuscript_witnesses": [
+    {
+      "id": "W-V230-GOTHA-A401",
+      "type": "ANONYMOUS_COLLOQUY_REPORT_COPY",
+      "catalogue_id": "DE-611-HS-3411742",
+      "location": "Forschungsbibliothek Gotha",
+      "shelfmark": "Chart. A 401, Bl. 41r–50v",
+      "catalogue_date": "after 1529-10-03",
+      "leaves": 10,
+      "attributed_scribe": null,
+      "composition_date": null,
+      "copy_date": null,
+      "editorial_wa_range": "WA30/3 110–143",
+      "edition_note": "Version des Anonymus",
+      "original_image_read": false,
+      "witness_text_read": false,
+      "source_ids": [
+        "S-V230-A401"
+      ]
+    },
+    {
+      "id": "W-V230-GOTHA-B1482",
+      "type": "ANONYMOUS_COLLOQUY_REPORT_COPY",
+      "catalogue_id": "DE-611-HS-3422809",
+      "location": "Forschungsbibliothek Gotha",
+      "shelfmark": "Chart. B 1482, Bl. 187r–196v",
+      "catalogue_date": "1529 (cataloguing)",
+      "leaves": 10,
+      "attributed_scribe": null,
+      "composition_date": null,
+      "copy_date": null,
+      "editorial_wa_range": "WA30/3 92–143",
+      "edition_note": "anonymous report, textual relationship to A401 not collated",
+      "original_image_read": false,
+      "witness_text_read": false,
+      "source_ids": [
+        "S-V230-B1482"
+      ]
+    },
+    {
+      "id": "W-V230-GOTHA-B493",
+      "type": "LATER_HANDWRITTEN_COPY_OF_1529_REPORT",
+      "catalogue_id": "DE-611-HS-3427036",
+      "location": "Forschungsbibliothek Gotha",
+      "shelfmark": "Chart. B 493, Bl. 22r–29v",
+      "catalogue_date": "[Marburg], 8 leaves; date of manuscript text not necessarily date of copying",
+      "leaves": 8,
+      "attributed_scribe": "Johann Mattenberg (1550–1631) as copyist, not 1529 witness",
+      "composition_date": "1529 subject matter",
+      "copy_date": null,
+      "collection_created_after": "1570",
+      "editorial_wa_range": "WA30/3 92–144, 2. Version",
+      "edition_note": "catalogue describes 'Abschrift, Autograph Johann Mattenbergs' (autograph by copyist)",
+      "original_image_read": false,
+      "witness_text_read": false,
+      "source_ids": [
+        "S-V230-B493",
+        "S-V230-MATTENBERG"
+      ]
+    }
+  ],
+  "related_document_objects": [
+    {
+      "id": "W-V230-Z1530",
+      "type": "SIGNED_MARBURG_ARTICLES_NOT_ANONYMOUS_REPORT",
+      "shelfmark": "Staatsarchiv Zürich E I3.1 Nr54",
+      "source_ids": [
+        "S-V230-Z-CAT"
+      ],
+      "original_image_read": false
+    },
+    {
+      "id": "W-V230-MEL1529",
+      "type": "DIFFERENT_CONVERSATION_NOTES",
+      "shelfmark": "ZB Zürich Ms Z XI 313.1",
+      "v227_dataset_reference": "data/deep/atlas_v227_melanchthon_conversation_original_eyewitness_comparison.json",
+      "original_images_already_inspected": 4,
+      "original_image_read_this_version": false
+    },
+    {
+      "id": "ED-V230-WA1910",
+      "type": "MODERN_CRITICAL_EDITION",
+      "range": "WA30/3 pp92–144 and related pp110–143",
+      "source_ids": [
+        "S-V230-A401",
+        "S-V230-B1482",
+        "S-V230-B493"
+      ],
+      "text_read_this_version": false
+    },
+    {
+      "id": "ED-V230-KOEHLER1929",
+      "type": "RECONSTRUCTION_SOURCE_CRITICISM_NOT_1529_WITNESS",
+      "book_id": "5tI8AAAAYAAJ",
+      "source_ids": [
+        "S-V230-GBOOK-KOEHLER"
+      ],
+      "target_pages": [
+        40,
+        41,
+        42
+      ],
+      "directly_read_target_pages": false
+    }
+  ],
+  "reported_relationships": [
+    {
+      "id": "REL-V230-A",
+      "from": "W-V230-GOTHA-A401",
+      "to": "ED-V230-WA1910",
+      "kind": "CATALOGUED_EDITION_REFERENCE_ANONYMUS_PP110_143",
+      "sources": [
+        "S-V230-A401"
+      ],
+      "does_not_prove_textual_ancestry": true
+    },
+    {
+      "id": "REL-V230-B",
+      "from": "W-V230-GOTHA-B1482",
+      "to": "ED-V230-WA1910",
+      "kind": "CATALOGUED_EDITION_REFERENCE_PP92_143",
+      "sources": [
+        "S-V230-B1482"
+      ],
+      "does_not_prove_textual_ancestry": true
+    },
+    {
+      "id": "REL-V230-C",
+      "from": "W-V230-GOTHA-B493",
+      "to": "ED-V230-WA1910",
+      "kind": "CATALOGUED_EDITION_REFERENCE_SECOND_VERSION_PP92_144",
+      "sources": [
+        "S-V230-B493"
+      ],
+      "does_not_prove_textual_ancestry": true
+    },
+    {
+      "id": "REL-V230-D",
+      "from": "W-V230-GOTHA-A401",
+      "to": "W-V230-GOTHA-B1482",
+      "kind": "SHARED_ARCHIVAL_TOPIC_NO_DIRECT_COPYING_CLAIM",
+      "sources": [
+        "S-V230-A401",
+        "S-V230-B1482"
+      ],
+      "does_not_prove_textual_ancestry": true
+    },
+    {
+      "id": "REL-V230-E",
+      "from": "W-V230-GOTHA-B1482",
+      "to": "W-V230-GOTHA-B493",
+      "kind": "CROSS_RECENSION_COMPARISON_QUEUED_NOT_PROVEN",
+      "sources": [
+        "S-V230-B1482",
+        "S-V230-B493"
+      ],
+      "does_not_prove_textual_ancestry": true
+    }
+  ],
+  "heppe_bibliographic_lineage": {
+    "author": "Heinrich Heppe",
+    "work_title": "Die fünfzehn Marburger Artikel vom 3. October 1529 nach dem wieder aufgefundenen Autographon der Reformatoren als Facsimile veröffentlicht",
+    "first_edition": {
+      "year": 1847,
+      "place": "Kassel",
+      "source_ids": [
+        "S-V230-HEPPE1847",
+        "S-V230-HEPPE1854"
+      ],
+      "title_page_seen": false
+    },
+    "second_edition": {
+      "year": 1854,
+      "place": "Kassel",
+      "edition_label": "second edition",
+      "source_ids": [
+        "S-V230-HEPPE1854"
+      ],
+      "title_page_seen": false
+    },
+    "edition_sequence_attribution": "CONFIRMED_IN_SECONDARY_BIBLIOGRAPHY_NOT_ORIGINAL_IMPRINT_INSPECTION",
+    "facsimile_original_context": "Hessian signed original K, not Zurich manuscript Z",
+    "sixteenth_century_original_folio_read_via_reprint": false,
+    "prior_v224_issue": "BIB-V224-HEPPE-DATES",
+    "prior_v226_issue": "ISSUE-V226-HEPPE",
+    "resolution": "BIBLIOGRAPHIC_EDITION_SEQUENCE_RESOLVED_PROVISIONALLY; PHYSICAL_IMPRINT_COMPARISON_OPEN"
+  },
+  "acquisition_requests": [
+    {
+      "id": "ACQ-V230-GOTHA-A401",
+      "target": "W-V230-GOTHA-A401",
+      "request": "Digitization / cost estimate for Chart. A 401 Bl 41r–50v, provenance and online facsimile links if extant",
+      "prepared_not_sent": true,
+      "request_sent": false,
+      "image_acquired": false
+    },
+    {
+      "id": "ACQ-V230-GOTHA-B1482",
+      "target": "W-V230-GOTHA-B1482",
+      "request": "Digitization / cost estimate for Chart. B 1482 Bl 187r–196v, catalogued report copying date",
+      "prepared_not_sent": true,
+      "request_sent": false,
+      "image_acquired": false
+    },
+    {
+      "id": "ACQ-V230-GOTHA-B493",
+      "target": "W-V230-GOTHA-B493",
+      "request": "Digitization / cost estimate for Chart. B 493 Bl 22r–29v; Johann Mattenberg copy date and WA apparatus identification",
+      "prepared_not_sent": true,
+      "request_sent": false,
+      "image_acquired": false
+    },
+    {
+      "id": "ACQ-V230-KOEHLER",
+      "target": "ED-V230-KOEHLER1929",
+      "request": "Legitimate access to Köhler 1929 141p source-critical pp40–42 from holding institution or Google Books account; do not redistribute source scans",
+      "prepared_not_sent": true,
+      "request_sent": false,
+      "image_acquired": false
+    }
+  ],
+  "research_claims": [
+    {
+      "id": "CLAIM-V230-ANON",
+      "ko": "고타 소장목록에는 회담 보고서를 담은 독립 필사본 A401과 B1482가 확인된다.",
+      "sources": [
+        "S-V230-A401",
+        "S-V230-B1482"
+      ],
+      "status": "CATALOGUE_SUPPORTED"
+    },
+    {
+      "id": "CLAIM-V230-COPYIST",
+      "ko": "마텐베르크의 B493 보고서는 1529년 사건 자체의 필사 전승으로, 필기를 1529년 회담 현장에서 작성한 것처럼 표현해서는 안 된다.",
+      "sources": [
+        "S-V230-B493",
+        "S-V230-MATTENBERG"
+      ],
+      "status": "ARCHIVAL_CLASSIFICATION_SUPPORTED"
+    },
+    {
+      "id": "CLAIM-V230-WA",
+      "ko": "각 소장기록의 WA 쪽 범위는 차이가 있지만 그 사실만으로 세 사본이 독립적으로 전해진 세 증언임을 확정할 수 없다.",
+      "sources": [
+        "S-V230-A401",
+        "S-V230-B1482",
+        "S-V230-B493"
+      ],
+      "status": "CAUTIOUS_INTERPRETATION"
+    },
+    {
+      "id": "CLAIM-V230-HEPPE",
+      "ko": "헤페 파크시밀리는 1847년판과 1854년 제2판이라는 출판 계통으로 구별된다.",
+      "sources": [
+        "S-V230-HEPPE1847",
+        "S-V230-HEPPE1854"
+      ],
+      "status": "SECONDARY_BIBLIOGRAPHIC_CONFIRMED"
+    }
+  ],
+  "open_issues": [
+    {
+      "id": "OPEN-V230-COLLATION",
+      "status": "OPEN",
+      "question": "Do A401, B1482, B493 derive from the same anonymous Vorlage, WA second version, or separate copying stages? Need images and editorial apparatus."
+    },
+    {
+      "id": "OPEN-V230-MATTENBERG-DATE",
+      "status": "OPEN",
+      "question": "Date of B493 actual transcription within post1570 Mattenberg collection; may be late 16c/early 17c, not established."
+    },
+    {
+      "id": "OPEN-V230-KOEHLER40",
+      "status": "OPEN",
+      "question": "1929 Köhler pp40–42 still unavailable; posse quam text not directly confirmed."
+    },
+    {
+      "id": "OPEN-V230-HEPPE",
+      "status": "OPEN",
+      "question": "Check 1847 and 1854 actual titlepages, facsimile plates and which signed version reproduced."
+    },
+    {
+      "id": "OPEN-V230-PERMISSIONS",
+      "status": "OPEN",
+      "question": "Get Gotha reproduction license/rights before embedding copies in Atlas webapp."
+    }
+  ],
+  "metrics": {
+    "new_archival_report_copy_witnesses": 3,
+    "registered_manuscript_leaves": 28,
+    "catalogue_supported_wa_links": 3,
+    "reported_copy_recension_crosschecks": 2,
+    "bibliography_edition_years_distinguished": 2,
+    "new_primary_images_read": 0,
+    "unique_1529_handwritten_original_pages_unchanged": 4,
+    "koehler_1929_p40_42_original_pages_read": 0,
+    "marburg_k_z_variant_pages_read": 0,
+    "access_requests_prepared_not_sent": 4,
+    "webapp_publications": 0
+  }
+}
