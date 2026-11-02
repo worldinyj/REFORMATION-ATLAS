@@ -26,7 +26,8 @@ for p in places.values():
     assert len(p["place_essay_ko"])>=100
     assert p["source_ids"] and set(p["source_ids"])<=src
     assert p["historian_approved"] is False and p["can_publish"] is False
-    assert p["site_building_or_room_verified"] is (p["id"]=="PLACE-V214-KOZI")
+    assert p["site_footprint_location_documented"] is (p["id"]=="PLACE-V214-KOZI")
+    assert p["site_building_or_room_verified"] is False
     assert p["coordinate_precision"] in ("HISTORIC_SITE_COORD_FROM_HERITAGE_WEBSITE","MODERN_CITY_CENTROID_APPROXIMATE")
 assert geo["type"]=="FeatureCollection" and len(geo["features"])==11
 assert {p["properties"]["place_id"] for p in geo["features"]}==set(places)
