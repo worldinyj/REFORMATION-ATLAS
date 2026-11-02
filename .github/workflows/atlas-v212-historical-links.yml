@@ -1,0 +1,28 @@
+name: Atlas V212 linked historical content QA
+on:
+  push:
+    branches: ['research/**']
+    paths:
+      - 'data/deep/atlas_v212_cross_reader_links_and_timeline.json'
+      - 'scripts/validate_atlas_v212.py'
+      - '.github/workflows/atlas-v212-historical-links.yml'
+  workflow_dispatch:
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 scripts/validate_atlas_v202.py
+      - run: python3 scripts/validate_atlas_v203.py
+      - run: python3 scripts/validate_atlas_v204.py
+      - run: python3 scripts/validate_atlas_v205.py
+      - run: python3 scripts/validate_atlas_v206.py
+      - run: python3 scripts/validate_atlas_v207.py
+      - run: python3 scripts/validate_atlas_v208.py
+      - run: python3 scripts/validate_atlas_v209.py
+      - run: python3 scripts/validate_atlas_v210.py
+      - run: python3 scripts/validate_atlas_v211.py
+      - run: python3 scripts/validate_atlas_v212.py
