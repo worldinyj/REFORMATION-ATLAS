@@ -1,0 +1,34 @@
+name: Atlas V218 integrated critical research reader
+on:
+  push:
+    branches: ['research/**']
+    paths:
+      - 'data/deep/atlas_v218_reader_integration_manifest.json'
+      - 'docs/01_CONTENT/V218_TEN_READER_HISTORICAL_CRITICAL_TEXT_PREVIEW.md'
+      - 'scripts/validate_atlas_v218.py'
+      - '.github/workflows/atlas-v218-integrated-readers.yml'
+  workflow_dispatch:
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 scripts/validate_atlas_v202.py
+      - run: python3 scripts/validate_atlas_v203.py
+      - run: python3 scripts/validate_atlas_v204.py
+      - run: python3 scripts/validate_atlas_v205.py
+      - run: python3 scripts/validate_atlas_v206.py
+      - run: python3 scripts/validate_atlas_v207.py
+      - run: python3 scripts/validate_atlas_v208.py
+      - run: python3 scripts/validate_atlas_v209.py
+      - run: python3 scripts/validate_atlas_v210.py
+      - run: python3 scripts/validate_atlas_v211.py
+      - run: python3 scripts/validate_atlas_v212.py
+      - run: python3 scripts/validate_atlas_v214.py
+      - run: python3 scripts/validate_atlas_v215.py
+      - run: python3 scripts/validate_atlas_v216.py
+      - run: python3 scripts/validate_atlas_v217.py
+      - run: python3 scripts/validate_atlas_v218.py

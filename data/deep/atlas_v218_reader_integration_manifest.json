@@ -1,0 +1,187 @@
+{
+  "version": "2.18",
+  "kind": "FULL_TEN_READER_MARKDOWN_WITH_FOUR_SOURCE_SCOPED_NEW_SECTIONS",
+  "parent_commit": "6e47db08f853e71fbbaa57e4a08277e29b412e4f",
+  "base_reader_file": "data/deep/atlas_v211_ten_reader_hus_augsburg_revision.json",
+  "revision_draft_file": "data/deep/atlas_v217_critical_edition_passages.json",
+  "preserved_journey_file": "data/deep/atlas_v215_historical_exploration_journeys.json",
+  "publication_gate": {
+    "can_ship": false,
+    "historian_approved": false,
+    "original_16c_folio_collated": false,
+    "media_rights_cleared": false,
+    "webapp_imported": false
+  },
+  "metrics": {
+    "reader_chapters": 10,
+    "original_sections": 70,
+    "new_research_sections": 4,
+    "reading_sections": 74,
+    "original_paragraphs": 124,
+    "new_paragraphs": 4,
+    "reading_paragraphs": 128,
+    "existing_sentences_preserved": 522,
+    "new_sentence_estimate": 21,
+    "focus_anchors_preserved": 30,
+    "journey_stages_preserved": 30,
+    "fully_verified_original_witnesses": 0,
+    "expert_signoff": 0
+  },
+  "chapter_deltas": [
+    {
+      "reader_key": "WYCLIFFE",
+      "title": "I. 위클리프: 참된 교회는 누구의 공동체인가?",
+      "old_codepoints": 3257,
+      "new_codepoints": 3257,
+      "added_codepoints": 0,
+      "added_sections": 0
+    },
+    {
+      "reader_key": "HUS",
+      "title": "II. 후스: 보헤미아 개혁과 『교회론』의 문제",
+      "old_codepoints": 3212,
+      "new_codepoints": 3602,
+      "added_codepoints": 390,
+      "added_sections": 1
+    },
+    {
+      "reader_key": "LUTHER1517",
+      "title": "1장. 1517년, 면벌부 논쟁에서 종교개혁으로",
+      "old_codepoints": 3132,
+      "new_codepoints": 3132,
+      "added_codepoints": 0,
+      "added_sections": 0
+    },
+    {
+      "reader_key": "LUTHER1521",
+      "title": "2장. 1521년, 보름스 제국의회와 성경에 매인 양심",
+      "old_codepoints": 3449,
+      "new_codepoints": 3449,
+      "added_codepoints": 0,
+      "added_sections": 0
+    },
+    {
+      "reader_key": "MARBURG",
+      "title": "마르부르크 회담—공동 신앙고백의 가능성과 성만찬의 경계",
+      "old_codepoints": 3305,
+      "new_codepoints": 3699,
+      "added_codepoints": 394,
+      "added_sections": 1
+    },
+    {
+      "reader_key": "AUGSBURG",
+      "title": "아우크스부르크 신앙고백: 1530년의 공적 고백에서 1540년 수정판까지",
+      "old_codepoints": 3797,
+      "new_codepoints": 4609,
+      "added_codepoints": 812,
+      "added_sections": 2
+    },
+    {
+      "reader_key": "CALVIN1536",
+      "title": "1536년 『기독교강요』: 박해받는 신앙을 변호한 여섯 장의 책",
+      "old_codepoints": 3088,
+      "new_codepoints": 3088,
+      "added_codepoints": 0,
+      "added_sections": 0
+    },
+    {
+      "reader_key": "CALVIN1559",
+      "title": "1559년 『기독교강요』: 네 권과 80장으로 재배열된 신학",
+      "old_codepoints": 3853,
+      "new_codepoints": 3853,
+      "added_codepoints": 0,
+      "added_sections": 0
+    },
+    {
+      "reader_key": "ZWINGLI",
+      "title": "츠빙글리와 취리히: 설교, 시의회, 공공개혁",
+      "old_codepoints": 3076,
+      "new_codepoints": 3076,
+      "added_codepoints": 0,
+      "added_sections": 0
+    },
+    {
+      "reader_key": "TRENT",
+      "title": "트리엔트 공의회: 가톨릭 개혁의 교리와 제도",
+      "old_codepoints": 3337,
+      "new_codepoints": 3337,
+      "added_codepoints": 0,
+      "added_sections": 0
+    }
+  ],
+  "inserts": [
+    {
+      "draft_id": "DRAFT-V217-04",
+      "reader_key": "HUS",
+      "heading": "문헌 근거 심화 · 후스 『교회론』의 처음 문장과 연구자의 해석",
+      "original_body_codepoints": 3212,
+      "inserted_start_char": 3254,
+      "inserted_end_char": 3601,
+      "inserted_body": "마사리크대학교 Digiscripta는 얀 후스의 『De ecclesia』를 1413년에 작성된 라틴어 저술로 분류하고 그 첫 구절을 목록에 보존한다. 그 구절은 보편적 거룩한 교회에 대한 신앙에서 논증이 출발한다는 사실을 알려 준다. 그렇지만 시작 문구 하나가 교황권이나 성직자의 권위에 관한 모든 신학적 주장을 그대로 입증하지는 않는다. 현존하는 프라하 국립도서관 IV H 19의 1r~95r는 문헌 전체의 필사본 수록 범위이지, 특정한 신학 문장이 그 면에 있다는 사실을 판독했다는 증거가 아니다. 후스의 교회론을 심화하려면 본문과 비평판의 장·절을 실제로 읽고 위클리프와의 문장별 수용 관계까지 별도 대조해야 한다.",
+      "original_language_sources": [
+        "SRC-V217-HUS",
+        "SRC-V217-HUSCRIT"
+      ],
+      "source_status": "LATER_CRITICAL_EDITION_OR_CATALOGUE",
+      "approved": false,
+      "original_sixteenth_century_witness_directly_collated": false
+    },
+    {
+      "draft_id": "DRAFT-V217-01",
+      "reader_key": "MARBURG",
+      "heading": "문헌 근거 심화 · 마르부르크의 합의문과 서로 다른 증인",
+      "original_body_codepoints": 3305,
+      "inserted_start_char": 3343,
+      "inserted_end_char": 3698,
+      "inserted_body": "마르부르크의 1529년 합의문은 공통 교리의 진술과 미해결 성만찬 논쟁을 함께 보존한다. GHDI가 제공하는 독일어 편집 전사는 제15조에서 육체적 현존에 완전한 합의가 없었다는 점과 그리스도인다운 사랑을 유지하자는 약속을 보여 준다. 반면 취리히 주립문서관은 Z 사본의 제7·13·15조에 추가 문구가 있고 헤센 측 K 사본에는 없다고 기록한다. 두 서술은 다른 증거 수준이다. 전자는 현대에 편집된 독일어 본문을 읽은 것이고 후자는 현존 증인의 차이를 설명하는 소장 목록이다. 따라서 합의문을 단일한 본문으로 재현하기 전에 Z와 K의 원래 문장을 직접 대조해야 하며, 문서 날짜도 3일과 3.[4.]일의 기록 차이를 설명해야 한다.",
+      "original_language_sources": [
+        "SRC-V217-GHDI1529",
+        "SRC-V217-ZCAT",
+        "SRC-V217-MBW825"
+      ],
+      "source_status": "LATER_CRITICAL_EDITION_OR_CATALOGUE",
+      "approved": false,
+      "original_sixteenth_century_witness_directly_collated": false
+    },
+    {
+      "draft_id": "DRAFT-V217-02",
+      "reader_key": "AUGSBURG",
+      "heading": "문헌 근거 심화 · 아우크스부르크의 제10조와 성만찬 표현 변화",
+      "original_body_codepoints": 3797,
+      "inserted_start_char": 3839,
+      "inserted_end_char": 4213,
+      "inserted_body": "1530년 제국의회 제출 신앙고백과 1531년 게오르크 라우의 승인 인쇄판, 1540년 무렵 수정판을 하나의 고정된 문헌으로 취급해서는 안 된다. 1858년 『Corpus Reformatorum』 제26권은 제10조 본문과 하단 교감주석에서 1531년 4절판·8절판 및 후속 수정판을 분리한다. 앞선 판본의 ‘그리스도의 몸과 피가 참으로 현존하고 분배된다’는 언어는 개정판에서 ‘빵과 포도주와 함께 제시된다’는 구조로 변화한다. 그러나 이를 단순한 실재론과 상징론의 찬반으로 환원하거나 그 변화가 모든 교파의 합의를 뜻한다고 단정해서는 안 된다. 이번에 확인한 물리적 이미지 자료는 1858년 인쇄 비평판이며 16세기 각 인쇄본의 원래 판면이 아님을 분명히 해야 한다.",
+      "original_language_sources": [
+        "SRC-V217-CR1858",
+        "SRC-V217-BRIDWELL",
+        "SRC-V217-SCHAFF"
+      ],
+      "source_status": "LATER_CRITICAL_EDITION_OR_CATALOGUE",
+      "approved": false,
+      "original_sixteenth_century_witness_directly_collated": false
+    },
+    {
+      "draft_id": "DRAFT-V217-03",
+      "reader_key": "AUGSBURG",
+      "heading": "문헌 근거 심화 · 아우크스부르크 제4조의 장문 개정",
+      "original_body_codepoints": 3797,
+      "inserted_start_char": 4250,
+      "inserted_end_char": 4608,
+      "inserted_body": "아우크스부르크 신앙고백 제4조의 수정은 단순한 단어 치환만으로 설명하기 어렵다. 1858년 『Corpus Reformatorum』 제26권 353쪽의 수정판 본문은 그리스도를 통한 죄 사함과 복음의 약속, 믿음의 확신을 여러 문단으로 설명한다. 해당 비평판의 교감 주석도 앞선 인쇄판과 비교해 제4조 전체가 바뀌었다는 정보를 제공한다. 따라서 제4조는 내용 전개와 논증 구조의 변화라는 관점에서, 제10조는 성만찬 문구의 변화와 삭제된 문장이라는 관점에서 각각 살펴야 한다. 1531년·1540년의 인쇄 실물을 직접 대조하기 전에는 문구의 정확한 원형이나 개정자의 모든 의도를 확정할 수 없으며, 본 대조는 잠정적 연구 결과로 남겨야 한다.",
+      "original_language_sources": [
+        "SRC-V217-CR1858",
+        "SRC-V217-LAT1584"
+      ],
+      "source_status": "LATER_CRITICAL_EDITION_OR_CATALOGUE",
+      "approved": false,
+      "original_sixteenth_century_witness_directly_collated": false
+    }
+  ],
+  "research_principle": "Append-only new chapter material. Original V211 text, all existing sentence offsets and historic focus quote positions remain unchanged. Reprint is an 1858 critical edition, not 1531 or 1540 original.",
+  "unresolved": [
+    "Marburg Z/K exact additions to articles 7,13,15 require original witness comparison.",
+    "Augsburg 1531 quarto vs octavo and 1540 original prints need article IV/X image collation.",
+    "Hus De ecclesia Latin Christ-as-head argument needs exact manuscript/critical-edition folio.",
+    "No image reuse or specialist publication approval."
+  ]
+}
