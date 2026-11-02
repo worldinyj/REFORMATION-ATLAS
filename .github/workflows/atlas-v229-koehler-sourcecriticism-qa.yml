@@ -1,0 +1,49 @@
+name: Atlas V229 Köhler primary digitization and 1930 source-criticism QA
+on:
+  push:
+    branches: ['research/**']
+    paths:
+      - 'data/deep/atlas_v229_koehler_1929_edition_access_and_sourcecriticism.json'
+      - 'scripts/validate_atlas_v229.py'
+      - 'docs/01_CONTENT/V229_KOEHLER_1929_PRIMARY_DIGITAL_COPY_AND_1930_REVIEW_REPORT.md'
+      - '.github/workflows/atlas-v229-koehler-sourcecriticism-qa.yml'
+  pull_request:
+    branches: ['research/**']
+    paths:
+      - 'data/deep/atlas_v229_koehler_1929_edition_access_and_sourcecriticism.json'
+      - 'scripts/validate_atlas_v229.py'
+      - 'docs/01_CONTENT/V229_KOEHLER_1929_PRIMARY_DIGITAL_COPY_AND_1930_REVIEW_REPORT.md'
+      - '.github/workflows/atlas-v229-koehler-sourcecriticism-qa.yml'
+  workflow_dispatch:
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Compile V229 schema checks
+        run: python3 -m py_compile scripts/validate_atlas_v229.py
+      - name: V219
+        run: python3 scripts/validate_atlas_v219.py
+      - name: V220
+        run: python3 scripts/validate_atlas_v220.py
+      - name: V221
+        run: python3 scripts/validate_atlas_v221.py
+      - name: V222
+        run: python3 scripts/validate_atlas_v222.py
+      - name: V223
+        run: python3 scripts/validate_atlas_v223.py
+      - name: V224
+        run: python3 scripts/validate_atlas_v224.py
+      - name: V225
+        run: python3 scripts/validate_atlas_v225.py
+      - name: V226
+        run: python3 scripts/validate_atlas_v226.py
+      - name: V227
+        run: python3 scripts/validate_atlas_v227.py
+      - name: V228
+        run: python3 scripts/validate_atlas_v228.py
+      - name: V229 source-critical division and page-level access
+        run: python3 scripts/validate_atlas_v229.py

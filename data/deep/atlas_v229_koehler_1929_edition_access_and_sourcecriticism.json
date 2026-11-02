@@ -1,0 +1,243 @@
+{
+  "version": "2.29",
+  "kind": "KOEHLER_1929_CRITICAL_EDITION_DIGITIZATION_AND_INDIRECT_LATIN_READING_AUDIT",
+  "parent_commit": "02b10fe3af9dd83c31b798712774f36b2b2dd6ea",
+  "baseline_dataset": "data/deep/atlas_v228_manuscript_microtranscription_and_editorial_variant_audit.json",
+  "release_gate": {
+    "can_ship": false,
+    "koehler_1929_pages_40_42_visually_read": false,
+    "google_books_download_verified": false,
+    "zwingli_ms_diplomatic_full_transcription": false,
+    "marburg_zk_original_collation": false,
+    "scholar_review_completed": false,
+    "webapp_integrated": false
+  },
+  "sources": [
+    {
+      "id": "SRC-V229-GBOOKS",
+      "kind": "FULL_VOLUME_DIGITIZED_ORIGINAL_1929_BOOK_BIBLIOGRAPHIC_RECORD",
+      "url": "https://books.google.com/books/about/Das_Marburger_Religionsgespr%C3%A4ch_1529.html?id=5tI8AAAAYAAJ",
+      "read_level": "DIRECT_HTML_BOOK_METADATA_AND_TABLE_OF_CONTENTS",
+      "evidence": "Full 1929 141-page volume; digitized University of Virginia item 2008-12-08; Table of Contents section 8 starts p40; Google Books offers PDF, plain text and preview, but requested PDF/text access returned 403",
+      "page_40_42_image_read": false
+    },
+    {
+      "id": "SRC-V229-GPLAY",
+      "kind": "GOOGLE_PLAY_FULL_BOOK_FREE_LISTING",
+      "url": "https://play.google.com/store/books/details/Walther_K%C3%B6hler_Das_Marburger_Religionsgespr%C3%A4ch_152?id=5tI8AAAAYAAJ",
+      "read_level": "DIRECT_HTML_MARKETPLACE_BIBLIOGRAPHY",
+      "evidence": "141-page book presented 'Get for free' but this session did not successfully obtain the bytes",
+      "page_40_42_image_read": false
+    },
+    {
+      "id": "SRC-V229-SLUB-141",
+      "kind": "NATIONAL_RESEARCH_LIBRARY_1929_BIBLIOGRAPHY",
+      "url": "https://katalog.slub-dresden.de/id/0-1076138667",
+      "read_level": "DIRECT_LIBRARY_CATALOGUE",
+      "evidence": "Köhler 1929 Leipzig Eger & Sievers, Schriften des Vereins für Reformationsgeschichte 148, 141 pp, Fraktur",
+      "page_40_42_image_read": false
+    },
+    {
+      "id": "SRC-V229-SLUB-43",
+      "kind": "NATIONAL_RESEARCH_LIBRARY_DISTINCT_1929_TITLE",
+      "url": "https://katalog.slub-dresden.de/id/0-1133605478",
+      "read_level": "DIRECT_LIBRARY_CATALOGUE",
+      "evidence": "Distinct Köhler 1929 Tübingen Mohr, Das Religionsgespräch zu Marburg 1529, series Sammlung gemeinverständlicher Vorträge und Schriften 140, 43 pages",
+      "page_40_42_image_read": false
+    },
+    {
+      "id": "SRC-V229-BUCHWALD-1930",
+      "kind": "CONTEMPORANEOUS_1930_BOOK_REVIEW_DIGITIZED_PDF_EXTRACTED_TEXT",
+      "url": "https://dlibra.bibliotekaelblaska.pl/Content/59547/PDF/04.pdf",
+      "read_level": "WEB_PDF_TEXT_EXTRACTED_SCREENSHOT_TIMEOUT",
+      "evidence": "Georg Buchwald review 1930-02-14 in Theologisches Literaturblatt, column 57/58 (PDF source pagination), explicitly says reconstruction pp8–38 and critical source section pp39–141; PDF screenshot timed out, original page image not visually examined",
+      "page_40_42_image_read": false
+    },
+    {
+      "id": "SRC-V229-MURALT-1930",
+      "kind": "EARLY_SCHOLARLY_REVIEW_TABLE_OF_CONTENTS_ONLY",
+      "url": "https://opendigi.ub.uni-tuebingen.de/opendigi/thlz_055_1930",
+      "read_level": "DIRECT_HTML_VOLUME_TABLE_OF_CONTENTS",
+      "evidence": "1930 Theologische Literaturzeitung vol55 lists Leonhard von Muralt review of two distinct Köhler 1929 books pp393–397; full review not read",
+      "page_40_42_image_read": false
+    },
+    {
+      "id": "SRC-V229-KOEHLER-REPRINT",
+      "kind": "BIBLIOGRAPHIC_SERIES_REGISTER",
+      "url": "https://katalog.slub-dresden.de/id/0-130143138",
+      "read_level": "DIRECT_CATALOGUE_SERIES_REGISTER",
+      "evidence": "Series register independently confirms No148 (1929) full 141-page title",
+      "page_40_42_image_read": false
+    }
+  ],
+  "editions": [
+    {
+      "id": "EDITION-V229-RECONSTRUCTION",
+      "title": "Das Marburger Religionsgespräch 1529: Versuch einer Rekonstruktion",
+      "author": "Walther Köhler",
+      "publisher": "Eger & Sievers",
+      "place": "Leipzig",
+      "date": "1929",
+      "pages": 141,
+      "series": "Schriften des Vereins für Reformationsgeschichte 148",
+      "google_books_id": "5tI8AAAAYAAJ",
+      "slub_id": "0-1076138667",
+      "source_ids": [
+        "SRC-V229-GBOOKS",
+        "SRC-V229-SLUB-141",
+        "SRC-V229-BUCHWALD-1930"
+      ],
+      "pages_40_42_direct_read": false
+    },
+    {
+      "id": "EDITION-V229-BRIEF",
+      "title": "Das Religionsgespräch zu Marburg 1529",
+      "author": "Walther Köhler",
+      "publisher": "Mohr",
+      "place": "Tübingen",
+      "date": "1929",
+      "pages": 43,
+      "series": "Sammlung gemeinverständlicher Vorträge und Schriften 140",
+      "google_books_id": null,
+      "slub_id": "0-1133605478",
+      "source_ids": [
+        "SRC-V229-SLUB-43",
+        "SRC-V229-MURALT-1930"
+      ],
+      "pages_40_42_direct_read": false
+    }
+  ],
+  "structural_evidence": [
+    {
+      "id": "SECTION-V229-RECONSTRUCT",
+      "parent_edition": "EDITION-V229-RECONSTRUCTION",
+      "pages_from": 8,
+      "pages_to": 38,
+      "role": "REPRODUCTION_RECONSTRUCTED_CONVERSATION",
+      "basis": "1930 Georg Buchwald original review text; not direct Köhler page reading",
+      "source_ids": [
+        "SRC-V229-BUCHWALD-1930"
+      ],
+      "original_page_images_seen": false
+    },
+    {
+      "id": "SECTION-V229-CRITICAL",
+      "parent_edition": "EDITION-V229-RECONSTRUCTION",
+      "pages_from": 39,
+      "pages_to": 141,
+      "role": "SOURCE_CRITICAL_ANALYSIS",
+      "basis": "1930 Georg Buchwald original review text; Google Books ToC confirms section at p40",
+      "source_ids": [
+        "SRC-V229-BUCHWALD-1930",
+        "SRC-V229-GBOOKS"
+      ],
+      "original_page_images_seen": false
+    }
+  ],
+  "sought_passages": [
+    {
+      "id": "QUOTE-V229-P40",
+      "target_edition": "EDITION-V229-RECONSTRUCTION",
+      "pages": [
+        40,
+        41,
+        42
+      ],
+      "previous_editorial_phrase": "Verba nihil aliud posse quam significare",
+      "previous_provisional_withdrawn": "Verba nihil aliud possunt significare",
+      "passage_read_from_1929_original": false,
+      "quote_in_1950_or_1971_later_source": true,
+      "exact_punctuation_and_context": null,
+      "correction_confirmed_by_original": false,
+      "source_ids": [
+        "SRC-V229-GBOOKS",
+        "SRC-V229-BUCHWALD-1930"
+      ]
+    },
+    {
+      "id": "QUOTE-V229-P42",
+      "target_edition": "EDITION-V229-RECONSTRUCTION",
+      "pages": [
+        42
+      ],
+      "previous_editorial_phrase": null,
+      "previous_provisional_withdrawn": null,
+      "passage_read_from_1929_original": false,
+      "quote_in_1950_or_1971_later_source": true,
+      "exact_punctuation_and_context": null,
+      "correction_confirmed_by_original": false,
+      "source_ids": [
+        "SRC-V229-GBOOKS"
+      ]
+    }
+  ],
+  "attempts": [
+    {
+      "id": "ATTEMPT-V229-P40-HTML",
+      "surface": "GOOGLE_BOOKS_PAGE_40_BROWSER",
+      "url": "https://books.google.com/books?cad=2&id=5tI8AAAAYAAJ&pg=PA40&source=gbs_toc_r",
+      "result": "PAGE_NAVIGATION_METADATA_NO_PAGE_CONTENT",
+      "file_bytes_verified": false,
+      "pages_visually_read": 0
+    },
+    {
+      "id": "ATTEMPT-V229-PDF",
+      "surface": "GOOGLE_BOOKS_PDF_DOWNLOAD",
+      "url": "https://books.google.com/books/download/Das_Marburger_Religionsgespr%C3%A4ch_1529.pdf?id=5tI8AAAAYAAJ&output=pdf",
+      "result": "HTTP_403_IN_WEB_FETCH",
+      "file_bytes_verified": false,
+      "pages_visually_read": 0
+    },
+    {
+      "id": "ATTEMPT-V229-TEXT",
+      "surface": "GOOGLE_BOOKS_FULL_TEXT",
+      "url": "https://books.google.com/books?cad=2&id=5tI8AAAAYAAJ&output=text&pg=PA40",
+      "result": "HTTP_403_IN_WEB_FETCH",
+      "file_bytes_verified": false,
+      "pages_visually_read": 0
+    },
+    {
+      "id": "ATTEMPT-V229-CONTAINER",
+      "surface": "CONTAINER_NETWORK_ACCESS_TO_GOOGLE_BOOKS",
+      "url": "https://books.google.com/books?id=5tI8AAAAYAAJ&pg=PA40",
+      "result": "DNS_NAME_RESOLUTION_FAILURE",
+      "file_bytes_verified": false,
+      "pages_visually_read": 0
+    },
+    {
+      "id": "ATTEMPT-V229-BUCHWALD-SCREEN",
+      "surface": "WEB_SCREENSHOT_1930_BOOK_REVIEW_PDF",
+      "url": "https://dlibra.bibliotekaelblaska.pl/Content/59547/PDF/04.pdf",
+      "result": "PDF_SCREENSHOT_TIMEOUT_TEXT_EXTRACTION_READ",
+      "file_bytes_verified": false,
+      "pages_visually_read": 0
+    }
+  ],
+  "philology_reconciliation": {
+    "previous_v228_reading": "Verba nihil aliud posse quam significare",
+    "directly_verified_in_koehler_1929": false,
+    "manuscript_readable_prefix": "Verba nihil aliud",
+    "prefix_from_manuscript_not_a_complete_sentence": true,
+    "bibliographic_p40_falls_in_source_criticism": true,
+    "is_p40_reconstructed_1529_dialogue": false,
+    "reasons_for_hold": [
+      "Google Books original p40–42 text and PDF not obtained",
+      "1910/1929/1950/1971 transmission layers must remain separate",
+      "141-page source-critical volume must not be conflated with 43-page same-year introductory book"
+    ]
+  },
+  "reader_research_draft_ko": "1929년 발터 쾰러는 1529년 마르부르크 회담을 여러 당사자 기록과 비교해 다시 구성하려고 했다. 그의 책은 회담 장면의 재구성과 그 근거를 따지는 사료비판을 나눠 제시한다. 오늘 원본 필사본에서 보이는 라틴어 어구는 쾰러가 인용한 후대 학술 전승과 반드시 한 글자씩 대조해야 한다. 특히 멜란히톤이 어떤 표현을 승인했다는 보고만으로 개신교 양측이 성만찬의 실재적 임재에 관해 같은 해석을 했다고 결론 내릴 수 없다.",
+  "metrics": {
+    "source_records": 7,
+    "distinct_1929_koehler_books": 2,
+    "verified_1929_full_book_digitization_catalogues": 2,
+    "critically_mapped_page_sections": 2,
+    "original_1929_pages_40_42_read": 0,
+    "digital_access_attempts": 5,
+    "confirmed_original_latin_full_readings": 0,
+    "new_1529_manuscript_pages_read": 0,
+    "old_1529_manuscript_unique_pages_retained": 4,
+    "marburg_kz_collations": 0,
+    "published_items": 0
+  }
+}
