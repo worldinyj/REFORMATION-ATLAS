@@ -32,7 +32,7 @@ V2.35에서는 고타 연구도서관의 **Chart. B 28, Bl. 41v–43r**에 들�
 ### 새 사본: Gotha Chart. A 453, fol. 24v–25v
 
 - **소장:** Forschungsbibliothek Gotha, *Nachlass Veit Ludwig von Seckendorff*.
-- **고유 Kalliope 기록:** [DE-611-HS-4254430](https://kalliope-verbund.info/de/ead?ead.id=DE-611-HS-4254430).
+- **고유 Kalliope 기록:** [DE-611-HS-4254434](https://kalliope-verbund.info/de/ead?ead.id=DE-611-HS-4254434).
 - **시기·형식:** 17세기 **Abschrift(필사 사본)**, 라틴어 **3쪽**, 필사자 불명.
 - **날짜 표현:** `Lunae post Michaelis` — **미카엘 축일 다음 월요일**. 축일은 9월 29일이며 1529년 율리우스력에서 그 뒤 첫 월요일은 **10월 4일**.
 - **후대 주기:** 보존기록은 **제켄도르프 자신의 날짜 주석**, **빨간 연필 표시와 취소선**이 있다고 한다. 이것은 1529년 요나스의 원문 필기가 아니라 **후대 역사 편집자의 작업 흔적**이다.
@@ -62,7 +62,7 @@ V2.35에서는 고타 연구도서관의 **Chart. B 28, Bl. 41v–43r**에 들�
 
 제켄도르프(Veit Ludwig von Seckendorff, 1626~1692)는 자신이 모으고 대조한 문서와 종교개혁 서술을 엮어 **개신교 교회사에 대한 변증적·사료적 역사서**를 만들었다. 그의 역사서는 1529년 자료가 **17세기 후대 역사 해석** 속에서 어떻게 인용됐는지 살피는 데 중요한 연결고리다.
 
-- [고타 공식 목록 A 453](https://kalliope-verbund.info/de/ead?ead.id=DE-611-HS-4254430)은 **1692년의 재인쇄 위치를 문헌·장·절·쪽수로 특정**한다.
+- [고타 공식 목록 A 453](https://kalliope-verbund.info/de/ead?ead.id=DE-611-HS-4254434)은 **1692년의 재인쇄 위치를 문헌·장·절·쪽수로 특정**한다.
 - [드레스덴 교회문서관 2024년 장서목록](https://www.evlks.de/fileadmin/userfiles/EVLKS_interessiert/F._Service/Landeskirchenarchiv/Bestaende/Bestand-186-B-Fdb.pdf)은 **그의 1692년 저술의 판본·출판사와 실제 소장 사실**을 독립적으로 확인한다(목록 항목 526).
 - **1692년 해당 인쇄본의 139쪽 원판을 직접 열어 읽지는 못했다.** 표제와 소장 확인을 인쇄된 원어 문장의 직접 전사로 오인하지 않는다.
 
