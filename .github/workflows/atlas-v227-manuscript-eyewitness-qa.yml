@@ -1,0 +1,45 @@
+name: Atlas V227 actual 1529 manuscript and eyewitness source QA
+on:
+  push:
+    branches: ['research/**']
+    paths:
+      - 'data/deep/atlas_v227_melanchthon_conversation_original_eyewitness_comparison.json'
+      - 'scripts/validate_atlas_v227.py'
+      - 'docs/01_CONTENT/V227_FIRST_PRIMARY_MANUSCRIPT_AND_EYEWITNESS_COLLATION_REPORT.md'
+      - '.github/workflows/atlas-v227-manuscript-eyewitness-qa.yml'
+  pull_request:
+    branches: ['research/**']
+    paths:
+      - 'data/deep/atlas_v227_melanchthon_conversation_original_eyewitness_comparison.json'
+      - 'scripts/validate_atlas_v227.py'
+      - 'docs/01_CONTENT/V227_FIRST_PRIMARY_MANUSCRIPT_AND_EYEWITNESS_COLLATION_REPORT.md'
+      - '.github/workflows/atlas-v227-manuscript-eyewitness-qa.yml'
+  workflow_dispatch:
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: V227 validator compile
+        run: python3 -m py_compile scripts/validate_atlas_v227.py
+      - name: V219 structured corpus
+        run: python3 scripts/validate_atlas_v219.py
+      - name: V220 critical variants
+        run: python3 scripts/validate_atlas_v220.py
+      - name: V221 historical accession
+        run: python3 scripts/validate_atlas_v221.py
+      - name: V222 image route source levels
+        run: python3 scripts/validate_atlas_v222.py
+      - name: V223 date and edited transcription
+        run: python3 scripts/validate_atlas_v223.py
+      - name: V224 source acquisition offline checks
+        run: python3 scripts/validate_atlas_v224.py
+      - name: V225 manuscript-print transmission
+        run: python3 scripts/validate_atlas_v225.py
+      - name: V226 printed Zwingli gloss provenance
+        run: python3 scripts/validate_atlas_v226.py
+      - name: V227 primary manuscript image and eyewitness contrasts
+        run: python3 scripts/validate_atlas_v227.py
