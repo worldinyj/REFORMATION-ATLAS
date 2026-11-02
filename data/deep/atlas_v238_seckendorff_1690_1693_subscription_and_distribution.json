@@ -107,8 +107,113 @@
       "original_page_visually_inspected": false
     }
   ],
-  "documentary_records": [],
+  "documentary_records": [
+    {
+      "id": "D01",
+      "date": "1690-03-31",
+      "kind": "subscription_proposal",
+      "source_ids": [
+        "S01"
+      ],
+      "quantity": null,
+      "claim": "PREPUBLICATION_SUBSCRIPTION_NOT_DELIVERY"
+    },
+    {
+      "id": "D02",
+      "date": "1690-07-30",
+      "kind": "payment_for_reserved_copies",
+      "source_ids": [
+        "S02"
+      ],
+      "quantity": 69,
+      "reichstaler": 138,
+      "claim": "PAID_FOR_COPIES_NOT_SHIPPED_COPIES"
+    },
+    {
+      "id": "D03",
+      "date": "1690-10-09",
+      "kind": "author_expected_1691_release",
+      "source_ids": [
+        "S03"
+      ],
+      "quantity": null,
+      "claim": "AUTHOR_PLAN_AND_PORTRAIT_MAKING"
+    },
+    {
+      "id": "D04",
+      "date": "1692-01-03",
+      "kind": "autograph_draft_presentation",
+      "source_ids": [
+        "S04"
+      ],
+      "quantity": null,
+      "claim": "FINISHED_WORK_PRESENTATION_DRAFT_NOT_PROOF_RECEIVED"
+    },
+    {
+      "id": "D05",
+      "date": "1692-03-08",
+      "kind": "copied_money_receipt",
+      "source_ids": [
+        "S05"
+      ],
+      "quantity": null,
+      "reichstaler": 100,
+      "claim": "COPY_OF_RECEIPT_NOT_ORIGINAL"
+    },
+    {
+      "id": "D06",
+      "date": "1692-04-27",
+      "kind": "freight_note",
+      "source_ids": [
+        "S06"
+      ],
+      "quantity": null,
+      "transport_packages": 2,
+      "claim": "TWO_BALES_NOT_TWO_BOOKS"
+    },
+    {
+      "id": "D07",
+      "date": "1692-10-30",
+      "kind": "regional_book_account",
+      "source_ids": [
+        "S07"
+      ],
+      "quantity": 120,
+      "unit_price_reichstaler": 4,
+      "total_price_reichstaler": 480,
+      "claim": "REGIONAL_ACCOUNT_NOT_TOTAL_EDITION_PRINT_RUN"
+    },
+    {
+      "id": "D08",
+      "date": "1693-02-08",
+      "kind": "local_delivery_notice",
+      "source_ids": [
+        "S08"
+      ],
+      "quantity": 62,
+      "claim": "DELIVERY_MAY_OVERLAP_120_ACCOUNTED_COPIES"
+    }
+  ],
   "reader_sections": [],
   "open_issues": [],
-  "metrics": {}
+  "metrics": {},
+  "quantitative_guardrails": {
+    "preorder_69_not_completed_shipments": true,
+    "shipment_2_bales_not_two_books": true,
+    "account_120_not_total_print_run": true,
+    "distribution_62_not_additive": true,
+    "unit_price_times_quantity_checked": true,
+    "historical_groschen_arithmetic_not_recomputed_without_basis": true
+  },
+  "edition_controversy": {
+    "first_1687_reported_by_gotha": true,
+    "first_1688_reported_elsewhere": true,
+    "first_book_imprint_not_verified": true,
+    "complete_release_autumn_1691_source_reported": true,
+    "author_plan_1691_attested": true,
+    "author_draft_finished_by_jan_1692": true,
+    "full_title_year_1692": true,
+    "second_edition_1694_scholarly_attested": true,
+    "second_1694_original_imprint_not_seen": true
+  }
 }
