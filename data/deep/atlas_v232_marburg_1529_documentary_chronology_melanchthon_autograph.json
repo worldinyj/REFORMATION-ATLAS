@@ -1,0 +1,440 @@
+{
+  "version": "2.32",
+  "kind": "MARBURG_DOCUMENTARY_CHRONOLOGY_AND_WLB_MELANCHTHON_AUTOGRAPH_ACCESSION",
+  "parent_commit": "4ef66e3895721fa09c91f4d141c2108cdb013915",
+  "baseline_dataset": "data/deep/atlas_v231_wa1910_critical_edition_and_marburg_witness_apparatus.json",
+  "publication_gate": {
+    "ship_content": false,
+    "wa1910_p108_p126_image_proofread": false,
+    "original_stuttgart_autograph_image_read": false,
+    "original_k_z_witness_images_read": false,
+    "manuscript_diplomatic_text_checked": false,
+    "external_expert_reviewed": false,
+    "webapp_ingested": false
+  },
+  "sources": [
+    {
+      "id": "SRC-V232-WLB-2018",
+      "type": "SCHOLARLY_AUTOGRAPH_CATALOGUE_ARTICLE",
+      "url": "https://journals.wlb-stuttgart.de/index.php/zwlg/article/download/554/645/1357",
+      "published_year": 2018,
+      "description": "Carsten Kottmann, Luther- und Melanchthon-Autographe in der WLB Stuttgart, ZWLG 77 (2018) pp107–128, discussion p119 entry13 identifies Melanchthon's 4/5 Oct original at Cod.hist.2 889-26 f36rv; PDF text read, screenshot failed",
+      "evidence_level": "SCHOLARLY_PDF_TEXT_READ_NOT_MANUSCRIPT_ORIGINAL_IMAGE"
+    },
+    {
+      "id": "SRC-V232-MBW823",
+      "type": "CRITICAL_REGEST",
+      "url": "https://melanchthon.hadw-bw.de/regest.html?reg_nr=823",
+      "description": "[3/4 Oct] patristic proof against Reformed arguments, composed after 2/3 Oct main disputation and before Fifteen Articles per MBW",
+      "evidence_level": "CRITICAL_EDITORIAL_REGEST_DIRECT_READ"
+    },
+    {
+      "id": "SRC-V232-MBW824",
+      "type": "CRITICAL_REGEST",
+      "url": "https://melanchthon.hadw-bw.de/regest.html?reg_nr=824",
+      "description": "4 Oct proposed Union formula; MBW dating after 3 Oct main dispute before signed Articles 4 Oct, possibly private negotiation with Hedio",
+      "evidence_level": "CRITICAL_EDITORIAL_REGEST_DIRECT_READ"
+    },
+    {
+      "id": "SRC-V232-MBW825",
+      "type": "CRITICAL_REGEST",
+      "url": "https://melanchthon.hadw-bw.de/regest.html?reg_nr=825",
+      "description": "Marburger Artikel regest dating 3.[4.] Oct, ten signatories, physical source distinct",
+      "evidence_level": "CRITICAL_EDITORIAL_REGEST_DIRECT_READ"
+    },
+    {
+      "id": "SRC-V232-MBW826",
+      "type": "CRITICAL_REGEST",
+      "url": "https://melanchthon.hadw-bw.de/regest.html?reg_nr=826",
+      "description": "Melanchthon to Butzbach, Alber, Reiser 4/5 Oct, written after signature of 15 articles on 4 Oct, unity except Eucharist, partisan theological assessment",
+      "evidence_level": "CRITICAL_EDITORIAL_REGEST_DIRECT_READ"
+    },
+    {
+      "id": "SRC-V232-MBW831",
+      "type": "CRITICAL_REGEST",
+      "url": "https://melanchthon.hadw-bw.de/regest.html?reg_nr=831",
+      "description": "Melanchthon official detailed report [Torgau 16/17 Oct], preparatory talks, Eucharistic dispute, refusal of full fraternity, article drafting",
+      "evidence_level": "CRITICAL_EDITORIAL_REGEST_DIRECT_READ"
+    },
+    {
+      "id": "SRC-V232-MBW832",
+      "type": "CRITICAL_REGEST",
+      "url": "https://melanchthon.hadw-bw.de/regest.html?reg_nr=832",
+      "description": "Melanchthon report to Duke Heinrich von Sachsen [Torgau 16/17 Oct] derived/shared topics with MBW831",
+      "evidence_level": "CRITICAL_EDITORIAL_REGEST_DIRECT_READ"
+    },
+    {
+      "id": "SRC-V232-GOTHA-MBW832",
+      "type": "OFFICIAL_ARCHIVE_COPY_CATALOGUE",
+      "url": "https://kalliope.staatsbibliothek-berlin.de/ead?ead.id=DE-611-HS-3422578",
+      "description": "Gotha Chart B28 f37v-40v, copy in Konrad Meusel's own hand, Melanchthon report assigned MBW832 not original handwriting",
+      "evidence_level": "ARCHIVAL_CATALOGUE_DIRECT_READ"
+    },
+    {
+      "id": "SRC-V232-GOTHA-JONAS",
+      "type": "OFFICIAL_ARCHIVE_COPY_CATALOGUE",
+      "url": "https://kalliope.staatsbibliothek-berlin.de/ead?ead.id=DE-611-HS-3422547",
+      "description": "Justus Jonas 4 Oct 1529 letter copy Konrad Meusel hand, Gotha Chart B28 f41v-43r, 3 leaves; Gerhard May 1970 p73–75 Nr13",
+      "evidence_level": "ARCHIVAL_CATALOGUE_DIRECT_READ"
+    },
+    {
+      "id": "SRC-V232-WA1910-OCR",
+      "type": "1910_CRITICAL_EDITED_TEXT_OCR",
+      "url": "https://archive.org/stream/werkekritischege3003luthuoft/werkekritischege3003luthuoft_djvu.txt",
+      "description": "WA30/3 critical edition print OCR, p108 and p126; original scanned pages not visually inspected, sigla unverifiable",
+      "evidence_level": "1910_PRINTED_OCR_READ_PREVIOUS"
+    },
+    {
+      "id": "SRC-V232-IIIF-GUIDE",
+      "type": "INSTITUTIONAL_DIGITAL_IMAGE_ACCESS_DOCUMENTATION",
+      "url": "https://guides.iiif.io/guides/archive.org/",
+      "description": "Internet Archive IIIF manifest pattern https://iiif.archive.org/iiif/:id/manifest.json; requested WA manifest returned internal access error",
+      "evidence_level": "SOURCE_ACCESS_TECHNICAL_GUIDE_READ"
+    }
+  ],
+  "documents": [
+    {
+      "id": "DOC-V232-MBW824",
+      "kind": "THEOLOGICAL_UNION_PROPOSAL_REGEST",
+      "date_window": [
+        "1529-10-04",
+        "1529-10-04"
+      ],
+      "original_source_not_seen": true,
+      "primary_author": "Philipp Melanchthon",
+      "source_ids": [
+        "SRC-V232-MBW824"
+      ],
+      "claimed_1529_handwritten_original": false
+    },
+    {
+      "id": "DOC-V232-MBW825",
+      "kind": "SIGNED_MARBURG_ARTICLES_REGEST",
+      "date_window": [
+        "1529-10-03",
+        "1529-10-04"
+      ],
+      "inscribed_date": "1529-10-03",
+      "signing_date_interpreted_by_mbw": "1529-10-04",
+      "original_source_not_seen": true,
+      "source_ids": [
+        "SRC-V232-MBW825",
+        "SRC-V232-MBW826"
+      ],
+      "claimed_1529_handwritten_original": false
+    },
+    {
+      "id": "DOC-V232-WLB826",
+      "kind": "CONTEMPORARY_MELANCHTHON_AUTOGRAPH_LETTER_REPORTED_EXTANT",
+      "date_window": [
+        "1529-10-04",
+        "1529-10-05"
+      ],
+      "repo": "Württembergische Landesbibliothek Stuttgart",
+      "shelfmark": "Cod. hist. 2° 889–26, fol. 36r–36v",
+      "recipients": [
+        "Johannes Butzbach",
+        "Matthäus Alber",
+        "Martin Reiser"
+      ],
+      "regest": "MBW 826",
+      "original_source_not_seen": true,
+      "physical_original_scholarly_identified": true,
+      "source_ids": [
+        "SRC-V232-WLB-2018",
+        "SRC-V232-MBW826"
+      ],
+      "claimed_1529_handwritten_original": true
+    },
+    {
+      "id": "DOC-V232-GOTHA832",
+      "kind": "LATER_COPY_OF_MELANCHTHON_REPORT",
+      "date_window": [
+        "1529-10-16",
+        "1529-10-17"
+      ],
+      "repo": "Forschungsbibliothek Gotha",
+      "shelfmark": "Chart. B 28, Bl. 37v–40v",
+      "regest": "MBW 832",
+      "handwriting": "Konrad Meusel, copyist not Melanchthon",
+      "original_source_not_seen": true,
+      "physical_original_scholarly_identified": false,
+      "source_ids": [
+        "SRC-V232-MBW832",
+        "SRC-V232-GOTHA-MBW832"
+      ],
+      "claimed_1529_handwritten_original": false
+    },
+    {
+      "id": "DOC-V232-GOTHA-JONAS",
+      "kind": "LATER_COPY_OF_1529_JONAS_LETTER",
+      "date_window": [
+        "1529-10-04",
+        "1529-10-04"
+      ],
+      "repo": "Forschungsbibliothek Gotha",
+      "shelfmark": "Chart. B 28, Bl. 41v–43r",
+      "writing_author": "Justus Jonas",
+      "copyist": "Konrad Meusel",
+      "original_source_not_seen": true,
+      "physical_original_scholarly_identified": false,
+      "source_ids": [
+        "SRC-V232-GOTHA-JONAS"
+      ],
+      "claimed_1529_handwritten_original": false
+    }
+  ],
+  "chronology": [
+    {
+      "id": "EVENT-V232-1",
+      "label_ko": "본격 공개 토론",
+      "date_window": [
+        "1529-10-02",
+        "1529-10-03"
+      ],
+      "source_ids": [
+        "SRC-V232-MBW823",
+        "SRC-V232-MBW824"
+      ],
+      "document_ids": [],
+      "claim_type": "LATER_SCHOLARLY_EDITORIAL_EVENT_DATING",
+      "certainty": "MBW_CRITICAL_REGEST"
+    },
+    {
+      "id": "EVENT-V232-2",
+      "label_ko": "성만찬에 관한 조정안 검토",
+      "date_window": [
+        "1529-10-04",
+        "1529-10-04"
+      ],
+      "source_ids": [
+        "SRC-V232-MBW824"
+      ],
+      "document_ids": [
+        "DOC-V232-MBW824"
+      ],
+      "claim_type": "EDITORIAL_RECONSTRUCTION",
+      "certainty": "MBW_CRITICAL_REGEST_WITH_POSSIBLE_HEDIO_MEETING"
+    },
+    {
+      "id": "EVENT-V232-3",
+      "label_ko": "합의문 명시 날짜(3일)와 서명 절차(4일)",
+      "date_window": [
+        "1529-10-03",
+        "1529-10-04"
+      ],
+      "source_ids": [
+        "SRC-V232-MBW825",
+        "SRC-V232-MBW826"
+      ],
+      "document_ids": [
+        "DOC-V232-MBW825"
+      ],
+      "claim_type": "TWO_DATE_FIELDS_NOT_SINGLE_EVENT_TIMESTAMP",
+      "certainty": "CRITICAL_REGEST_DATES_3_BRACKETED_4"
+    },
+    {
+      "id": "EVENT-V232-4",
+      "label_ko": "요나스의 마르부르크 발신 편지",
+      "date_window": [
+        "1529-10-04",
+        "1529-10-04"
+      ],
+      "source_ids": [
+        "SRC-V232-GOTHA-JONAS"
+      ],
+      "document_ids": [
+        "DOC-V232-GOTHA-JONAS"
+      ],
+      "claim_type": "CONTEMPORARY_LETTER_THROUGH_LATER_COPY",
+      "certainty": "OFFICIAL_ARCHIVE_CATALOGUE"
+    },
+    {
+      "id": "EVENT-V232-5",
+      "label_ko": "멜란히톤의 친필 편지 — 서명 후 결과 보고",
+      "date_window": [
+        "1529-10-04",
+        "1529-10-05"
+      ],
+      "source_ids": [
+        "SRC-V232-WLB-2018",
+        "SRC-V232-MBW826"
+      ],
+      "document_ids": [
+        "DOC-V232-WLB826"
+      ],
+      "claim_type": "CONTEMPORARY_AUTOGRAPH_WITH_EDITORIAL_REGEST",
+      "certainty": "SCHOLARLY_AUTOGRAPH_CATALOGUE_AND_MBW"
+    },
+    {
+      "id": "EVENT-V232-6",
+      "label_ko": "멜란히톤의 상세 후속 보고서",
+      "date_window": [
+        "1529-10-16",
+        "1529-10-17"
+      ],
+      "source_ids": [
+        "SRC-V232-MBW831",
+        "SRC-V232-MBW832",
+        "SRC-V232-GOTHA-MBW832"
+      ],
+      "document_ids": [
+        "DOC-V232-GOTHA832"
+      ],
+      "claim_type": "RETROSPECTIVE_AUTHOR_REPORT_AFTER_EVENT",
+      "certainty": "TWO_CRITICAL_REGESTS_ONE_LATER_COPY"
+    }
+  ],
+  "evidence_distinctions": [
+    {
+      "id": "D-V232-DATES",
+      "observation_ko": "MBW 825 날짜는 3.[4.] October; MBW 826 서명은 4 October, 편지 4/5 Oct; 합의문 표기와 서명 단계, 회담 전후 자료를 다른 타임라인 필드에 보관.",
+      "source_ids": [
+        "SRC-V232-MBW824",
+        "SRC-V232-MBW825",
+        "SRC-V232-MBW826"
+      ],
+      "no_historical_final_adjudication": true
+    },
+    {
+      "id": "D-V232-HAND",
+      "observation_ko": "슈투트가르트 Cod.hist. 2 889–26 f36rv는 멜란히톤의 친필 서신으로 2018년 필사본 연구자가 확인한 소장 물건; Gotha B28 f37v-40v는 1529년 보고서를 후대 필사한 콘라트 모이젤의 자필.",
+      "source_ids": [
+        "SRC-V232-WLB-2018",
+        "SRC-V232-GOTHA-MBW832"
+      ],
+      "no_historical_final_adjudication": true
+    },
+    {
+      "id": "D-V232-PERSPECTIVE",
+      "observation_ko": "MBW826은 성만찬 이견 및 츠빙글리 교리 비판을 담는 한편 공동 조항 작성도 인정한다. MBW831은 형제 관계 요청 거절을 기록한다. 하나의 완전 합의/전면 실패 단정 모두 피함.",
+      "source_ids": [
+        "SRC-V232-MBW826",
+        "SRC-V232-MBW831"
+      ],
+      "no_historical_final_adjudication": true
+    },
+    {
+      "id": "D-V232-OCR",
+      "observation_ko": "WA1910 p108/p126의 교감기호 확인은 이번에도 인쇄판 이미지 접근 실패. 지금 날짜·서신 연구의 성공을 WA OCR 교정 완료로 전용하지 않는다.",
+      "source_ids": [
+        "SRC-V232-WA1910-OCR",
+        "SRC-V232-IIIF-GUIDE"
+      ],
+      "no_historical_final_adjudication": true
+    }
+  ],
+  "external_image_access_attempts": [
+    {
+      "id": "ACCESS-V232-IAIIIF",
+      "source_ids": [
+        "SRC-V232-IIIF-GUIDE"
+      ],
+      "target": "https://iiif.archive.org/iiif/werkekritischege3003luthuoft/manifest.json",
+      "outcome": "WEB_INTERNAL_ERROR_NOT_OPENED",
+      "bytes_downloaded": 0,
+      "original_print_pages_seen": 0
+    },
+    {
+      "id": "ACCESS-V232-IABOOK",
+      "source_ids": [
+        "SRC-V232-WA1910-OCR"
+      ],
+      "target": "https://archive.org/details/werkekritischege3003luthuoft/page/n136/mode/1up",
+      "outcome": "WEB_INTERNAL_ERROR_NOT_OPENED",
+      "bytes_downloaded": 0,
+      "original_print_pages_seen": 0
+    },
+    {
+      "id": "ACCESS-V232-WLBARTICLE",
+      "source_ids": [
+        "SRC-V232-WLB-2018"
+      ],
+      "target": "https://journals.wlb-stuttgart.de/index.php/zwlg/article/download/554/645/1357",
+      "outcome": "PDF_TEXT_READ; PDF_SCREENSHOT_FAILED; ORIGINAL_AUTOGRAPH_NOT_IMAGED_IN_VIEWED_ARTICLE_SECTION",
+      "bytes_downloaded": 0,
+      "original_print_pages_seen": 0
+    }
+  ],
+  "reader_edition_ko": {
+    "title": "마르부르크의 마지막 이틀: 서명보다 중요한 서신",
+    "sections": [
+      {
+        "id": "READER-V232-01",
+        "title": "토론과 서명은 같은 시간이 아니었다",
+        "source_ids": [
+          "SRC-V232-MBW823",
+          "SRC-V232-MBW824",
+          "SRC-V232-MBW825",
+          "SRC-V232-MBW826"
+        ],
+        "summary_ko": "1529년 10월 2~3일의 주요 논쟁 이후 4일에는 성만찬에 관한 조정안이 검토되었다. 공동 합의문에는 3일이라는 날짜가 붙지만, 비평목록은 서명 절차를 4일로 설명한다. 사료가 지시하는 날짜가 서로 다른 단계일 수 있음을 독자에게 명시한다."
+      },
+      {
+        "id": "READER-V232-02",
+        "title": "그날의 당사자가 남긴 친필 편지",
+        "source_ids": [
+          "SRC-V232-WLB-2018",
+          "SRC-V232-MBW826"
+        ],
+        "summary_ko": "슈투트가르트에 남은 멜란히톤의 10월 4~5일 편지는 서명 직후 쓰인 실제 친필 자료다. 멜란히톤은 여러 교리 조항을 작성했지만 성만찬 문제는 해결되지 않았다고 알렸다. 그의 츠빙글리 평가에는 당사자의 신학적 관점이 담겨 있으므로 이를 중립적 역사판정과 구별한다."
+      },
+      {
+        "id": "READER-V232-03",
+        "title": "2주 뒤의 보고와 후대 필사본",
+        "source_ids": [
+          "SRC-V232-MBW831",
+          "SRC-V232-MBW832",
+          "SRC-V232-GOTHA-MBW832"
+        ],
+        "summary_ko": "열흘 남짓 뒤 멜란히톤은 작센의 군주들에게 더 상세한 보고를 남겼다. 그 중 한 보고는 고타에 후대 사람이 옮겨 쓴 필사본으로 전해진다. 당일에 보낸 친필 편지와 나중에 작성한 회고 보고, 그 보고의 후대 복사본을 동일한 원고나 같은 증거 등급으로 읽지 말아야 한다."
+      }
+    ]
+  },
+  "open_issues": [
+    {
+      "id": "OPEN-V232-WA108",
+      "status": "OPEN",
+      "question": "Access actual WA30/3 p108 scanned leaf to prove glauben an/in sigla and printed versus K/Z readings."
+    },
+    {
+      "id": "OPEN-V232-WA126",
+      "status": "OPEN",
+      "question": "Access WA30/3 p126 printed apparatus to prove omitted quam/verba sigla and line."
+    },
+    {
+      "id": "OPEN-V232-WLB-SCAN",
+      "status": "OPEN",
+      "question": "Request or find official facsimile of WLB Stuttgart Cod.hist.2 889–26 fol36rv (MBW826)."
+    },
+    {
+      "id": "OPEN-V232-COMPARE",
+      "status": "OPEN",
+      "question": "Collate MBW826 brief immediate report with MBW831/832 full reports at text level, not summary only."
+    },
+    {
+      "id": "OPEN-V232-KZDATE",
+      "status": "OPEN",
+      "question": "View original K/Z folios to verify inscribed Oct3 date versus reported Oct4 signature."
+    },
+    {
+      "id": "OPEN-V232-GOTHA-COPY",
+      "status": "OPEN",
+      "question": "Acquire Gotha B28 fol37v-40v and fol41v-43r to distinguish later copyist handwriting and original letter contents."
+    }
+  ],
+  "metrics": {
+    "new_1529_autograph_exemplar_located": 1,
+    "new_original_1529_images_read": 0,
+    "new_editorial_regest_sources": 6,
+    "source_records": 11,
+    "dated_events": 6,
+    "document_objects": 5,
+    "source_critical_distinctions": 4,
+    "open_issues": 6,
+    "old_unique_1529_conversation_images_retained": 4,
+    "wa1910_print_pages_proofread": 0,
+    "k_z_signed_witness_pages_proofread": 0,
+    "published_items": 0
+  }
+}
