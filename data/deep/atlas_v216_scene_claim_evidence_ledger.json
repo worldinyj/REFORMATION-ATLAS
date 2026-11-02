@@ -1,0 +1,1362 @@
+{
+  "version": "2.16",
+  "kind": "THIRTY_STAGE_NARROW_HISTORICAL_CLAIMS_WITH_SIXTEEN_SOURCE_SCOPE_DOSSIERS",
+  "lineage": {
+    "parent_commit": "b9c4a4964fc074b5ba7be01e088804a45fdec9e5",
+    "parent_branch": "research/atlas-v215-historical-exploration-pathways",
+    "v215_file": "data/deep/atlas_v215_historical_exploration_journeys.json",
+    "v214_file": "data/deep/atlas_v214_geography_and_witness_provenance.json"
+  },
+  "publication_gate": {
+    "can_ship": false,
+    "historian_approved": false,
+    "all_primary_witnesses_collated": false,
+    "external_rights_cleared": false,
+    "map_accuracy_approved": false,
+    "webapp_integrated": false
+  },
+  "methodology": {
+    "one_claim_per_stage": "One narrowly phrased historical or historiographic proposition is audited per each of 30 stage IDs. Other clauses in the long stage narrative are not fully verified by this ledger.",
+    "grades": {
+      "EDITED_TEXT_OR_CRITICAL_INTRO_SUPPORT": "학술 편집 전사·번역 또는 비평판의 서론에서 해당 범위 확인; 역사 원판 사진 직접 확인과 다름",
+      "DOCUMENTARY_OR_CATALOGUE_CONTEXT": "서지·소장·문헌 정체성 확인. 특정 신학적 문구 또는 정확한 사건 현장의 직접 원전 증거는 아님",
+      "RESEARCH_SUMMARY_SUPPORT": "학술 개설·기관 역사 설명으로 주제 수준 확인, 정밀 원전 대조 미완료",
+      "COMPARATIVE_OR_EDITORIAL_INFERENCE": "서로 다른 문헌을 비교한 편집자의 해석으로서 직접 인과·문헌 동일성을 입증하지 않음"
+    },
+    "edited_source_limit": "Accessing a modern edited source translation, legal transcription, or scholarly catalogue is not the same as personally collating 16th-century manuscript or print folios.",
+    "human_gate": "All factual claims are pending specialist signoff; even edited source alignment is not expert verified.",
+    "rights": "Do not reproduce complete translated archival passages, modern media or scans. Record locators and short original Korean analysis only.",
+    "caution": "For Marburg Z vs K the archive catalog describes additions in Art. 7, 13, 15; this is NOT a verified clause-by-clause textual collation.",
+    "workflow": "No changes to V2.11 reading corpus, V2.12 history graph, V2.14 map or V2.15 journeys, nor public webapp."
+  },
+  "metrics": {
+    "reader_routes": 5,
+    "stages_reviewed": 30,
+    "one_narrow_claim_per_stage": 30,
+    "high_priority_source_dossiers": 16,
+    "registered_sources": 20,
+    "source_gap_queues": 6,
+    "source_adequacy_levels": {
+      "EDITED_TEXT_OR_CRITICAL_INTRO_SUPPORT": 7,
+      "DOCUMENTARY_OR_CATALOGUE_CONTEXT": 7,
+      "RESEARCH_SUMMARY_SUPPORT": 12,
+      "COMPARATIVE_OR_EDITORIAL_INFERENCE": 4
+    },
+    "original_witness_folios_collated": 0,
+    "human_history_claims_approved": 0,
+    "publication_approvals": 0,
+    "webapp_changes": 0
+  },
+  "source_registry": [
+    {
+      "id": "SOURCE-V216-HUS-SCHOL",
+      "title": "Jan Hus, Oxford Bibliographies",
+      "url": "https://academic.oup.com/reference/62416/reference-article-abstract/555947093?login=false",
+      "source_kind": "SCHOLARLY_REFERENCE_ABSTRACT",
+      "locator": "Introduction",
+      "scope": "Hus Wyclif reception, not mere plagiarism, De ecclesia, 1415 proceedings",
+      "access_status": "WEBPAGE_OR_SEARCH_TEXT_REVIEWED",
+      "original_folio_image_collated": false,
+      "original_translation_copyright_cleared": false,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "SOURCE-V216-HUS-CAT",
+      "title": "Digiscripta Jan Hus De ecclesia",
+      "url": "https://digiscripta.phil.muni.cz/cs/node/12908",
+      "source_kind": "UNIVERSITY_MANUSCRIPT_METADATA",
+      "locator": "BS identifier 70; MIHOO XXIII; 1413; Manuscript(s)",
+      "scope": "Work and manuscript identities, NOT folio-level theology",
+      "access_status": "WEBPAGE_OR_SEARCH_TEXT_REVIEWED",
+      "original_folio_image_collated": false,
+      "original_translation_copyright_cleared": false,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "SOURCE-V216-HUS-SITE",
+      "title": "Radio Prague Jan Hus at Kozí hrádek",
+      "url": "https://archiv.radio.cz/cz/static/jan-hus/zivotopis",
+      "source_kind": "PUBLIC_BROADCASTER_HISTORICAL_SUMMARY",
+      "locator": "Na Kozím hrádku",
+      "scope": "1413 residence and writing On the Church at Kozí hrádek",
+      "access_status": "WEBPAGE_OR_SEARCH_TEXT_REVIEWED",
+      "original_folio_image_collated": false,
+      "original_translation_copyright_cleared": false,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "SOURCE-V216-LUTHER-1517",
+      "title": "GHDI Luther Ninety-five Theses",
+      "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/martin-luther-ninety-five-theses-october-31-1517",
+      "source_kind": "EDITED_HISTORICAL_DOCUMENT_TRANSLATION",
+      "locator": "Document title and opening disputation",
+      "scope": "Latin disputation proposal; door-posting not certified by the document alone",
+      "access_status": "WEBPAGE_OR_SEARCH_TEXT_REVIEWED",
+      "original_folio_image_collated": false,
+      "original_translation_copyright_cleared": false,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "SOURCE-V216-WORMS-CRIT",
+      "title": "DDE Wormser Edikt 8/26 Mai 1521",
+      "url": "https://tueditions.ulb.tu-darmstadt.de/v/pa000008-0107",
+      "source_kind": "SCHOLARLY_CRITICAL_EDITION_INTRODUCTION",
+      "locator": "Die Entstehung des Wormser Edikts; Überlieferung und Textvorlage",
+      "scope": "Document preparation, signature/publication, original witness descriptions",
+      "access_status": "WEBPAGE_OR_SEARCH_TEXT_REVIEWED",
+      "original_folio_image_collated": false,
+      "original_translation_copyright_cleared": false,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "SOURCE-V216-ZURICH-ZB",
+      "title": "Zentralbibliothek Zürich Reformation history",
+      "url": "https://www.zb.uzh.ch/en/fokus/beitrag/reformation",
+      "source_kind": "LIBRARY_INSTITUTIONAL_HISTORY",
+      "locator": "The First and Second Zurich Disputations",
+      "scope": "Jan and late October 1523 disputations, council action, retrospective image 1605",
+      "access_status": "WEBPAGE_OR_SEARCH_TEXT_REVIEWED",
+      "original_folio_image_collated": false,
+      "original_translation_copyright_cleared": false,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "SOURCE-V216-MANZ-ARCH",
+      "title": "Staatsarchiv Zürich Felix Manz verdict catalogue",
+      "url": "https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4301559",
+      "source_kind": "GOVERNMENT_ARCHIVAL_CATALOGUE",
+      "locator": "B VI 251 (fol. 40r–41v)",
+      "scope": "5 Jan 1527 sentence and catalog metadata; not execution-spot coordinates",
+      "access_status": "WEBPAGE_OR_SEARCH_TEXT_REVIEWED",
+      "original_folio_image_collated": false,
+      "original_translation_copyright_cleared": false,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "SOURCE-V216-MANZ-TEXT",
+      "title": "SSRQ Zürich Manz court verdict transcription",
+      "url": "https://editio.sds-online.ch/ZH/NF_I_1_3/139-1.html",
+      "source_kind": "EDITED_ORIGINAL_LANGUAGE_LEGAL_TRANSCRIPTION",
+      "locator": "SSRQ ZH NF I/1/3 No.139; fol.40r opening",
+      "scope": "Old German judicial text, NOT photo of original manuscript",
+      "access_status": "WEBPAGE_OR_SEARCH_TEXT_REVIEWED",
+      "original_folio_image_collated": false,
+      "original_translation_copyright_cleared": false,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "SOURCE-V216-MANZ-HLS",
+      "title": "Historisches Lexikon der Schweiz Felix Manz",
+      "url": "https://hls-dhs-dss.ch/de/articles/021518/2008-08-20/",
+      "source_kind": "SCHOLARLY_BIOGRAPHICAL_REFERENCE",
+      "locator": "Mantz, Felix",
+      "scope": "Execution by drowning in Limmat, historical/modern image dates differ",
+      "access_status": "WEBPAGE_OR_SEARCH_TEXT_REVIEWED",
+      "original_folio_image_collated": false,
+      "original_translation_copyright_cleared": false,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "SOURCE-V216-MARBURG-ARTICLE",
+      "title": "GHDI The Marburg Articles (1529)",
+      "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/ghdi:document-4311",
+      "source_kind": "EDITED_HISTORICAL_SOURCE_TRANSLATION",
+      "locator": "Articles 1–15; Article 15; source introduction",
+      "scope": "Agreement 14 articles, disagreement in 15, tolerance/love pledge",
+      "access_status": "WEBPAGE_OR_SEARCH_TEXT_REVIEWED",
+      "original_folio_image_collated": false,
+      "original_translation_copyright_cleared": false,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "SOURCE-V216-MARBURG-ZK",
+      "title": "Staatsarchiv Zürich Zürich manuscript Z, E I 3.1 Nr.54",
+      "url": "https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=618165",
+      "source_kind": "GOVERNMENT_ORIGINAL_WITNESS_CATALOGUE",
+      "locator": "Überlieferung: Ausfertigung für Zürich (Z) ... Zusätze zu Art. 7,13,15",
+      "scope": "Z additions in 7,13,15 absent in Hessian K; original image not read",
+      "access_status": "WEBPAGE_OR_SEARCH_TEXT_REVIEWED",
+      "original_folio_image_collated": false,
+      "original_translation_copyright_cleared": false,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "SOURCE-V216-MARBURG-L",
+      "title": "GHDI Osiander Lutheran account",
+      "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/ghdi:document-4284",
+      "source_kind": "EDITED_PARTISAN_PARTICIPANT_ACCOUNT",
+      "locator": "Historical document identification",
+      "scope": "Osiander perspective not neutral stenography",
+      "access_status": "PRIOR_SOURCE_RECORD_WITH_PRESENT_DISCOVERY_LEAD",
+      "original_folio_image_collated": false,
+      "original_translation_copyright_cleared": false,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "SOURCE-V216-MARBURG-S",
+      "title": "GHDI Zwingli report to Vadian",
+      "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/ghdi:document-4300",
+      "source_kind": "EDITED_PARTISAN_PARTICIPANT_ACCOUNT",
+      "locator": "Historical document identification",
+      "scope": "Zwingli perspective not neutral stenography",
+      "access_status": "PRIOR_SOURCE_RECORD_WITH_PRESENT_DISCOVERY_LEAD",
+      "original_folio_image_collated": false,
+      "original_translation_copyright_cleared": false,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "SOURCE-V216-AUGSBURG-RAU",
+      "title": "Bridwell rare-book catalogue Augsburg Confession 1531",
+      "url": "https://bridwell.omeka.net/exhibits/show/luther/controversies/augsburgconfession",
+      "source_kind": "LIBRARY_RARE_PRINT_BIBLIOGRAPHIC_CATALOGUE",
+      "locator": "Wittenberg Georg Rhaw 1531, Latin/German bound copies",
+      "scope": "Authorized issue vs 1530 submitted text; printing place",
+      "access_status": "WEBPAGE_OR_SEARCH_TEXT_REVIEWED",
+      "original_folio_image_collated": false,
+      "original_translation_copyright_cleared": false,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "SOURCE-V216-AUGSBURG-VAR",
+      "title": "Augsburg 1540 edition secondary history",
+      "url": "https://www.augsburg1540.com/history.html",
+      "source_kind": "CONFESSIONAL_SECONDARY_EDITION_HISTORY",
+      "locator": "History of Variata",
+      "scope": "1540 revision context; original Latin Articles IV/X still not collated",
+      "access_status": "PRIOR_SOURCE_RECORD_WITH_PRESENT_DISCOVERY_LEAD",
+      "original_folio_image_collated": false,
+      "original_translation_copyright_cleared": false,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "SOURCE-V216-CALVIN-BNF",
+      "title": "BnF Calvin Institutes conventional title",
+      "url": "https://catalogue.bnf.fr/ark:/12148/cb11963198n",
+      "source_kind": "NATIONAL_LIBRARY_WORK_AUTHORITY",
+      "locator": "First Basel 1536, 1559 Latin final, first French 1541",
+      "scope": "Edition work chronology, NOT exact print collation",
+      "access_status": "WEBPAGE_OR_SEARCH_TEXT_REVIEWED",
+      "original_folio_image_collated": false,
+      "original_translation_copyright_cleared": false,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "SOURCE-V216-CALVIN-SCHAFF",
+      "title": "Schaff Calvin Institutes editions catalog in CCEL",
+      "url": "https://ccel.org/ccel/schaff/hcc8/hcc8.iv.ix.xi.html",
+      "source_kind": "HISTORICAL_EDITION_STUDY_SECONDARY",
+      "locator": "Institutes editions, 1536–1560",
+      "scope": "1539 Strasbourg, 1559 final Latin 1560 French, other editions",
+      "access_status": "WEBPAGE_OR_SEARCH_TEXT_REVIEWED",
+      "original_folio_image_collated": false,
+      "original_translation_copyright_cleared": false,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "SOURCE-V216-CALVIN-TOURS",
+      "title": "Tours CESR BVH 1560 Jean Crespin French edition",
+      "url": "https://www.bvh.univ-tours.fr/Consult/index.asp?numfiche=498",
+      "source_kind": "UNIVERSITY_RARE_BOOK_CATALOGUE",
+      "locator": "Notice: Genève, Crespin 1560; Tours SR DB 2/14770",
+      "scope": "Imprint Geneva, current collection Tours, edition identity",
+      "access_status": "WEBPAGE_OR_SEARCH_TEXT_REVIEWED",
+      "original_folio_image_collated": false,
+      "original_translation_copyright_cleared": false,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "SOURCE-V216-TRENT-ANDREWS",
+      "title": "St Andrews Council of Trent historical synthesis",
+      "url": "https://www.saet.ac.uk/Christianity/CouncilofTrent",
+      "source_kind": "ACADEMIC_SPECIALIST_ENCYCLOPAEDIA",
+      "locator": "3 Council phases 1545–63; 25 sessions",
+      "scope": "Opening 13 December 1545, breaks, institutional reform and doctrine",
+      "access_status": "WEBPAGE_OR_SEARCH_TEXT_REVIEWED",
+      "original_folio_image_collated": false,
+      "original_translation_copyright_cleared": false,
+      "expert_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "SOURCE-V216-TRENT-DOC",
+      "title": "GHDI Council of Trent selected decrees 1547–1563",
+      "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/ghdi:document-4336",
+      "source_kind": "EDITED_HISTORICAL_CONCILIAR_TRANSLATION",
+      "locator": "Session VI Jan 13 1547; Session XXIII Jul 15 1563",
+      "scope": "Decree justification and seminaries; does not prove local implementation",
+      "access_status": "WEBPAGE_OR_SEARCH_TEXT_REVIEWED",
+      "original_folio_image_collated": false,
+      "original_translation_copyright_cleared": false,
+      "expert_approved": false,
+      "can_publish": false
+    }
+  ],
+  "scene_claims": [
+    {
+      "id": "CLM-V216-001",
+      "stage_id": "PATH-V215-ECCLESIOLOGY-STEP-01",
+      "claim_ko": "중세 교회와 성직 권위에 대한 위클리프의 논쟁은 후대 연구에서 교회의 정체성 문제와 함께 검토된다.",
+      "claim_kind": "SCHOLARLY_SYNTHESIS",
+      "inspection_status": "RESEARCH_SUMMARY_SUPPORT",
+      "evidence_links": [
+        {
+          "source_id": "SOURCE-V216-HUS-SCHOL",
+          "locator": "Introduction: Wyclif ecclesiastical theory",
+          "relevance": "SUPPORTS_NARROW_CLAIM_OR_DEFINES_PROVENANCE_NOT_A_FULL_WITNESS_COLLATION"
+        }
+      ],
+      "v211_sentence_id": "SNT-V211-WYCLIFFE-0003",
+      "v212_essay_id": "RDR-V212-01",
+      "v214_event_id": null,
+      "claim_limitations_ko": "원문 저작 특정 구절은 미대조",
+      "claim_text_not_vetted_by_historian": true,
+      "original_folio_image_inspected": false,
+      "public_claim_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "CLM-V216-002",
+      "stage_id": "PATH-V215-ECCLESIOLOGY-STEP-02",
+      "claim_ko": "후스의 『De ecclesia』는 1413년 작품이며 코지 흐라데크에서의 저술활동과 연결된다.",
+      "claim_kind": "WORK_METADATA_PLUS_HISTORY",
+      "inspection_status": "DOCUMENTARY_OR_CATALOGUE_CONTEXT",
+      "evidence_links": [
+        {
+          "source_id": "SOURCE-V216-HUS-CAT",
+          "locator": "Digiscripta 1413; Radio Prague Kozí Hrádek",
+          "relevance": "SUPPORTS_NARROW_CLAIM_OR_DEFINES_PROVENANCE_NOT_A_FULL_WITNESS_COLLATION"
+        },
+        {
+          "source_id": "SOURCE-V216-HUS-SITE",
+          "locator": "Digiscripta 1413; Radio Prague Kozí Hrádek",
+          "relevance": "SUPPORTS_NARROW_CLAIM_OR_DEFINES_PROVENANCE_NOT_A_FULL_WITNESS_COLLATION"
+        }
+      ],
+      "v211_sentence_id": "SNT-V211-HUS-0010",
+      "v212_essay_id": "RDR-V212-02",
+      "v214_event_id": "EVENT-GEO-V214-01",
+      "claim_limitations_ko": "성터의 정확한 집필실 미확인",
+      "claim_text_not_vetted_by_historian": true,
+      "original_folio_image_inspected": false,
+      "public_claim_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "CLM-V216-003",
+      "stage_id": "PATH-V215-ECCLESIOLOGY-STEP-03",
+      "claim_ko": "프라하 국립도서관 IV H 19의 소장기호는 후스 저술의 현존 필사본 식별 정보이지 1413년 저술지의 주소가 아니다.",
+      "claim_kind": "CATALOGUE_AND_LOCATION_DISTINCTION",
+      "inspection_status": "DOCUMENTARY_OR_CATALOGUE_CONTEXT",
+      "evidence_links": [
+        {
+          "source_id": "SOURCE-V216-HUS-CAT",
+          "locator": "Manuscript list",
+          "relevance": "SUPPORTS_NARROW_CLAIM_OR_DEFINES_PROVENANCE_NOT_A_FULL_WITNESS_COLLATION"
+        }
+      ],
+      "v211_sentence_id": "SNT-V211-HUS-0011",
+      "v212_essay_id": "RDR-V212-02",
+      "v214_event_id": null,
+      "claim_limitations_ko": "문장별 필사본 folio 미대조",
+      "claim_text_not_vetted_by_historian": true,
+      "original_folio_image_inspected": false,
+      "public_claim_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "CLM-V216-004",
+      "stage_id": "PATH-V215-ECCLESIOLOGY-STEP-04",
+      "claim_ko": "후스는 콘스탄츠에서 1415년 처형되었으며 1413년 교회론과 다른 법적·정치적 사건이다.",
+      "claim_kind": "SCHOLARLY_BIOGRAPHICAL_CONTEXT",
+      "inspection_status": "RESEARCH_SUMMARY_SUPPORT",
+      "evidence_links": [
+        {
+          "source_id": "SOURCE-V216-HUS-SCHOL",
+          "locator": "Oxford Introduction 1415",
+          "relevance": "SUPPORTS_NARROW_CLAIM_OR_DEFINES_PROVENANCE_NOT_A_FULL_WITNESS_COLLATION"
+        }
+      ],
+      "v211_sentence_id": "SNT-V211-HUS-0010",
+      "v212_essay_id": "RDR-V212-02",
+      "v214_event_id": "EVENT-GEO-V214-02",
+      "claim_limitations_ko": "심리 원래 행적을 공의회 기록으로 추가 점검",
+      "claim_text_not_vetted_by_historian": true,
+      "original_folio_image_inspected": false,
+      "public_claim_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "CLM-V216-005",
+      "stage_id": "PATH-V215-ECCLESIOLOGY-STEP-05",
+      "claim_ko": "1517년 루터의 95개 논제는 학술 토론문이며 성문 게시 행위 자체는 별도 증언으로 다뤄야 한다.",
+      "claim_kind": "EDITED_DOCUMENT_AND_CAUTION",
+      "inspection_status": "EDITED_TEXT_OR_CRITICAL_INTRO_SUPPORT",
+      "evidence_links": [
+        {
+          "source_id": "SOURCE-V216-LUTHER-1517",
+          "locator": "Theses opening",
+          "relevance": "SUPPORTS_NARROW_CLAIM_OR_DEFINES_PROVENANCE_NOT_A_FULL_WITNESS_COLLATION"
+        }
+      ],
+      "v211_sentence_id": "SNT-V211-LUTHER1517-0010",
+      "v212_essay_id": "RDR-V212-03",
+      "v214_event_id": "EVENT-GEO-V214-03",
+      "claim_limitations_ko": "실제 성문 게시 현장 증거 별도",
+      "claim_text_not_vetted_by_historian": true,
+      "original_folio_image_inspected": false,
+      "public_claim_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "CLM-V216-006",
+      "stage_id": "PATH-V215-ECCLESIOLOGY-STEP-06",
+      "claim_ko": "위클리프 저술을 수용한 후스와 후대 루터를 비교하는 일은 문장별 직접 차용 증명과 다르다.",
+      "claim_kind": "HISTORIOGRAPHIC_COMPARISON",
+      "inspection_status": "COMPARATIVE_OR_EDITORIAL_INFERENCE",
+      "evidence_links": [
+        {
+          "source_id": "SOURCE-V216-HUS-SCHOL",
+          "locator": "Oxford on reception",
+          "relevance": "SUPPORTS_NARROW_CLAIM_OR_DEFINES_PROVENANCE_NOT_A_FULL_WITNESS_COLLATION"
+        }
+      ],
+      "v211_sentence_id": "SNT-V211-HUS-0011",
+      "v212_essay_id": "RDR-V212-02",
+      "v214_event_id": null,
+      "claim_limitations_ko": "후스→루터 직접 인용 계보 미검증",
+      "claim_text_not_vetted_by_historian": true,
+      "original_folio_image_inspected": false,
+      "public_claim_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "CLM-V216-007",
+      "stage_id": "PATH-V215-DOCUMENT_TO_EMPIRE-STEP-01",
+      "claim_ko": "95개 논제는 라틴어 학술 논쟁의 제안이었다.",
+      "claim_kind": "EDITED_SOURCE_TEXT",
+      "inspection_status": "EDITED_TEXT_OR_CRITICAL_INTRO_SUPPORT",
+      "evidence_links": [
+        {
+          "source_id": "SOURCE-V216-LUTHER-1517",
+          "locator": "GHDI 1517 theses opening",
+          "relevance": "SUPPORTS_NARROW_CLAIM_OR_DEFINES_PROVENANCE_NOT_A_FULL_WITNESS_COLLATION"
+        }
+      ],
+      "v211_sentence_id": "SNT-V211-LUTHER1517-0010",
+      "v212_essay_id": "RDR-V212-03",
+      "v214_event_id": "EVENT-GEO-V214-03",
+      "claim_limitations_ko": "실제 게시·유통의 시간경로 추가 증거",
+      "claim_text_not_vetted_by_historian": true,
+      "original_folio_image_inspected": false,
+      "public_claim_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "CLM-V216-008",
+      "stage_id": "PATH-V215-DOCUMENT_TO_EMPIRE-STEP-02",
+      "claim_ko": "보름스 칙령은 1521년 5월 8일의 문안 처리·법제화 단계가 존재한다.",
+      "claim_kind": "SCHOLARLY_CRITICAL_EDITION_INTRO",
+      "inspection_status": "EDITED_TEXT_OR_CRITICAL_INTRO_SUPPORT",
+      "evidence_links": [
+        {
+          "source_id": "SOURCE-V216-WORMS-CRIT",
+          "locator": "DDE Entstehung 8 Mai",
+          "relevance": "SUPPORTS_NARROW_CLAIM_OR_DEFINES_PROVENANCE_NOT_A_FULL_WITNESS_COLLATION"
+        }
+      ],
+      "v211_sentence_id": "SNT-V211-LUTHER1521-0011",
+      "v212_essay_id": "RDR-V212-04",
+      "v214_event_id": "EVENT-GEO-V214-04",
+      "claim_limitations_ko": "원본 독일어 인쇄본 VD16 D924 직접 판면 미확인",
+      "claim_text_not_vetted_by_historian": true,
+      "original_folio_image_inspected": false,
+      "public_claim_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "CLM-V216-009",
+      "stage_id": "PATH-V215-DOCUMENT_TO_EMPIRE-STEP-03",
+      "claim_ko": "1521년 5월 26일의 칙령 공표는 각 지역의 실제 집행과 구별해야 한다.",
+      "claim_kind": "CRITICAL_EDITION_AND_SCOPE_LIMIT",
+      "inspection_status": "EDITED_TEXT_OR_CRITICAL_INTRO_SUPPORT",
+      "evidence_links": [
+        {
+          "source_id": "SOURCE-V216-WORMS-CRIT",
+          "locator": "DDE Einleitung",
+          "relevance": "SUPPORTS_NARROW_CLAIM_OR_DEFINES_PROVENANCE_NOT_A_FULL_WITNESS_COLLATION"
+        }
+      ],
+      "v211_sentence_id": "SNT-V211-LUTHER1521-0011",
+      "v212_essay_id": "RDR-V212-04",
+      "v214_event_id": "EVENT-GEO-V214-05",
+      "claim_limitations_ko": "개별 영방 집행 기록 미조사",
+      "claim_text_not_vetted_by_historian": true,
+      "original_folio_image_inspected": false,
+      "public_claim_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "CLM-V216-010",
+      "stage_id": "PATH-V215-DOCUMENT_TO_EMPIRE-STEP-04",
+      "claim_ko": "아우크스부르크 신앙고백의 제국의회 제출 연도 1530과 인쇄본 발행 연도 1531은 다르다.",
+      "claim_kind": "LIBRARY_CATALOGUE",
+      "inspection_status": "DOCUMENTARY_OR_CATALOGUE_CONTEXT",
+      "evidence_links": [
+        {
+          "source_id": "SOURCE-V216-AUGSBURG-RAU",
+          "locator": "Bridwell 1530/1531",
+          "relevance": "SUPPORTS_NARROW_CLAIM_OR_DEFINES_PROVENANCE_NOT_A_FULL_WITNESS_COLLATION"
+        }
+      ],
+      "v211_sentence_id": "SNT-V211-AUGSBURG-0007",
+      "v212_essay_id": "RDR-V212-07",
+      "v214_event_id": "EVENT-GEO-V214-10",
+      "claim_limitations_ko": "1530 제출본 실물 미교감",
+      "claim_text_not_vetted_by_historian": true,
+      "original_folio_image_inspected": false,
+      "public_claim_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "CLM-V216-011",
+      "stage_id": "PATH-V215-DOCUMENT_TO_EMPIRE-STEP-05",
+      "claim_ko": "1531년 비텐베르크의 게오르크 라우가 승인 인쇄판을 제작했다.",
+      "claim_kind": "RARE_BOOK_CATALOGUE",
+      "inspection_status": "DOCUMENTARY_OR_CATALOGUE_CONTEXT",
+      "evidence_links": [
+        {
+          "source_id": "SOURCE-V216-AUGSBURG-RAU",
+          "locator": "Wittenberg Georg Rhaw 1531",
+          "relevance": "SUPPORTS_NARROW_CLAIM_OR_DEFINES_PROVENANCE_NOT_A_FULL_WITNESS_COLLATION"
+        }
+      ],
+      "v211_sentence_id": "SNT-V211-AUGSBURG-0007",
+      "v212_essay_id": "RDR-V212-07",
+      "v214_event_id": "EVENT-GEO-V214-11",
+      "claim_limitations_ko": "본문과 서문 판면 직접 독해 전",
+      "claim_text_not_vetted_by_historian": true,
+      "original_folio_image_inspected": false,
+      "public_claim_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "CLM-V216-012",
+      "stage_id": "PATH-V215-DOCUMENT_TO_EMPIRE-STEP-06",
+      "claim_ko": "1540년 Variata는 1530년 제출본·1531년 승인 인쇄본과 다른 수정판이다.",
+      "claim_kind": "SECONDARY_EDITION_HISTORY",
+      "inspection_status": "RESEARCH_SUMMARY_SUPPORT",
+      "evidence_links": [
+        {
+          "source_id": "SOURCE-V216-AUGSBURG-VAR",
+          "locator": "Edition history 1540",
+          "relevance": "SUPPORTS_NARROW_CLAIM_OR_DEFINES_PROVENANCE_NOT_A_FULL_WITNESS_COLLATION"
+        },
+        {
+          "source_id": "SOURCE-V216-AUGSBURG-RAU",
+          "locator": "Edition history 1540",
+          "relevance": "SUPPORTS_NARROW_CLAIM_OR_DEFINES_PROVENANCE_NOT_A_FULL_WITNESS_COLLATION"
+        }
+      ],
+      "v211_sentence_id": "SNT-V211-AUGSBURG-0023",
+      "v212_essay_id": "RDR-V212-07",
+      "v214_event_id": "EVENT-GEO-V214-14",
+      "claim_limitations_ko": "원어 IV/X 조항 이문 미교감",
+      "claim_text_not_vetted_by_historian": true,
+      "original_folio_image_inspected": false,
+      "public_claim_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "CLM-V216-013",
+      "stage_id": "PATH-V215-ZURICH_MARBURG-STEP-01",
+      "claim_ko": "1523년 1월 취리히에서는 시의회와 종교 지도자가 참여한 공개 논쟁이 열렸다.",
+      "claim_kind": "INSTITUTIONAL_HISTORY",
+      "inspection_status": "RESEARCH_SUMMARY_SUPPORT",
+      "evidence_links": [
+        {
+          "source_id": "SOURCE-V216-ZURICH-ZB",
+          "locator": "First disputation 29 Jan 1523",
+          "relevance": "SUPPORTS_NARROW_CLAIM_OR_DEFINES_PROVENANCE_NOT_A_FULL_WITNESS_COLLATION"
+        }
+      ],
+      "v211_sentence_id": "SNT-V211-ZWINGLI-0001",
+      "v212_essay_id": "RDR-V212-05",
+      "v214_event_id": "EVENT-GEO-V214-06",
+      "claim_limitations_ko": "현장 방 좌표 미확인",
+      "claim_text_not_vetted_by_historian": true,
+      "original_folio_image_inspected": false,
+      "public_claim_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "CLM-V216-014",
+      "stage_id": "PATH-V215-ZURICH_MARBURG-STEP-02",
+      "claim_ko": "1523년 10월 취리히에서 두 번째 공개 논쟁이 진행됐다.",
+      "claim_kind": "INSTITUTIONAL_HISTORY",
+      "inspection_status": "RESEARCH_SUMMARY_SUPPORT",
+      "evidence_links": [
+        {
+          "source_id": "SOURCE-V216-ZURICH-ZB",
+          "locator": "Second disputation late October",
+          "relevance": "SUPPORTS_NARROW_CLAIM_OR_DEFINES_PROVENANCE_NOT_A_FULL_WITNESS_COLLATION"
+        }
+      ],
+      "v211_sentence_id": "SNT-V211-ZWINGLI-0001",
+      "v212_essay_id": "RDR-V212-05",
+      "v214_event_id": "EVENT-GEO-V214-07",
+      "claim_limitations_ko": "문서별 의제 원문 별도 조사",
+      "claim_text_not_vetted_by_historian": true,
+      "original_folio_image_inspected": false,
+      "public_claim_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "CLM-V216-015",
+      "stage_id": "PATH-V215-ZURICH_MARBURG-STEP-03",
+      "claim_ko": "1527년 1월 5일 펠릭스 만츠 익사형 판결은 취리히 시의회 기록 B VI 251에 보존돼 있다.",
+      "claim_kind": "ARCHIVAL_CATALOGUE_AND_OLD_GERMAN_TRANSCRIPTION",
+      "inspection_status": "DOCUMENTARY_OR_CATALOGUE_CONTEXT",
+      "evidence_links": [
+        {
+          "source_id": "SOURCE-V216-MANZ-ARCH",
+          "locator": "fol 40r–41v; SSRQ no139",
+          "relevance": "SUPPORTS_NARROW_CLAIM_OR_DEFINES_PROVENANCE_NOT_A_FULL_WITNESS_COLLATION"
+        },
+        {
+          "source_id": "SOURCE-V216-MANZ-TEXT",
+          "locator": "fol 40r–41v; SSRQ no139",
+          "relevance": "SUPPORTS_NARROW_CLAIM_OR_DEFINES_PROVENANCE_NOT_A_FULL_WITNESS_COLLATION"
+        }
+      ],
+      "v211_sentence_id": "SNT-V211-ZWINGLI-0001",
+      "v212_essay_id": "RDR-V212-05",
+      "v214_event_id": "EVENT-GEO-V214-08",
+      "claim_limitations_ko": "원본 필사본 사진 직접 판독 아님",
+      "claim_text_not_vetted_by_historian": true,
+      "original_folio_image_inspected": false,
+      "public_claim_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "CLM-V216-016",
+      "stage_id": "PATH-V215-ZURICH_MARBURG-STEP-04",
+      "claim_ko": "1529년 마르부르크 합의문에서 제15조는 성만찬의 육체적 현존 문제에 미합의를 기록한다.",
+      "claim_kind": "EDITED_PRIMARY_TRANSLATION_WITH_WITNESS_METADATA",
+      "inspection_status": "EDITED_TEXT_OR_CRITICAL_INTRO_SUPPORT",
+      "evidence_links": [
+        {
+          "source_id": "SOURCE-V216-MARBURG-ARTICLE",
+          "locator": "Article 15; Z/K witness metadata",
+          "relevance": "SUPPORTS_NARROW_CLAIM_OR_DEFINES_PROVENANCE_NOT_A_FULL_WITNESS_COLLATION"
+        },
+        {
+          "source_id": "SOURCE-V216-MARBURG-ZK",
+          "locator": "Article 15; Z/K witness metadata",
+          "relevance": "SUPPORTS_NARROW_CLAIM_OR_DEFINES_PROVENANCE_NOT_A_FULL_WITNESS_COLLATION"
+        }
+      ],
+      "v211_sentence_id": "SNT-V211-MARBURG-0009",
+      "v212_essay_id": "RDR-V212-06",
+      "v214_event_id": "EVENT-GEO-V214-09",
+      "claim_limitations_ko": "Z·K 이문 직접 고판본 교감 미완료",
+      "claim_text_not_vetted_by_historian": true,
+      "original_folio_image_inspected": false,
+      "public_claim_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "CLM-V216-017",
+      "stage_id": "PATH-V215-ZURICH_MARBURG-STEP-05",
+      "claim_ko": "1529년 마르부르크에 대한 오지안더와 츠빙글리의 참가자 기록은 서로 독립적이고 입장이 다른 자료다.",
+      "claim_kind": "PARTICIPANT_ACCOUNTS_METADATA",
+      "inspection_status": "RESEARCH_SUMMARY_SUPPORT",
+      "evidence_links": [
+        {
+          "source_id": "SOURCE-V216-MARBURG-L",
+          "locator": "GHDI 4284 and 4300",
+          "relevance": "SUPPORTS_NARROW_CLAIM_OR_DEFINES_PROVENANCE_NOT_A_FULL_WITNESS_COLLATION"
+        },
+        {
+          "source_id": "SOURCE-V216-MARBURG-S",
+          "locator": "GHDI 4284 and 4300",
+          "relevance": "SUPPORTS_NARROW_CLAIM_OR_DEFINES_PROVENANCE_NOT_A_FULL_WITNESS_COLLATION"
+        }
+      ],
+      "v211_sentence_id": "SNT-V211-MARBURG-0005",
+      "v212_essay_id": "RDR-V212-06",
+      "v214_event_id": null,
+      "claim_limitations_ko": "두 문서의 전체 문장별 비판적 대조 미수행",
+      "claim_text_not_vetted_by_historian": true,
+      "original_folio_image_inspected": false,
+      "public_claim_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "CLM-V216-018",
+      "stage_id": "PATH-V215-ZURICH_MARBURG-STEP-06",
+      "claim_ko": "마르부르크 1529년 제15조와 1540년 Variata 제10조는 같은 성만찬 주제를 다루지만 동일 문헌은 아니다.",
+      "claim_kind": "COMPARATIVE_DOCUMENT_CLASSIFICATION",
+      "inspection_status": "RESEARCH_SUMMARY_SUPPORT",
+      "evidence_links": [
+        {
+          "source_id": "SOURCE-V216-MARBURG-ARTICLE",
+          "locator": "Article XV vs Variata X",
+          "relevance": "SUPPORTS_NARROW_CLAIM_OR_DEFINES_PROVENANCE_NOT_A_FULL_WITNESS_COLLATION"
+        },
+        {
+          "source_id": "SOURCE-V216-AUGSBURG-VAR",
+          "locator": "Article XV vs Variata X",
+          "relevance": "SUPPORTS_NARROW_CLAIM_OR_DEFINES_PROVENANCE_NOT_A_FULL_WITNESS_COLLATION"
+        }
+      ],
+      "v211_sentence_id": "SNT-V211-AUGSBURG-0023",
+      "v212_essay_id": "RDR-V212-07",
+      "v214_event_id": "EVENT-GEO-V214-14",
+      "claim_limitations_ko": "원어 문구 사이 직접 영향 미증명",
+      "claim_text_not_vetted_by_historian": true,
+      "original_folio_image_inspected": false,
+      "public_claim_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "CLM-V216-019",
+      "stage_id": "PATH-V215-CALVIN_EDITIONS-STEP-01",
+      "claim_ko": "1536년 바젤에서 칼뱅 『기독교강요』 라틴어 초판이 출간됐다.",
+      "claim_kind": "NATIONAL_LIBRARY_AND_HISTORIC_EDITION_STUDY",
+      "inspection_status": "RESEARCH_SUMMARY_SUPPORT",
+      "evidence_links": [
+        {
+          "source_id": "SOURCE-V216-CALVIN-BNF",
+          "locator": "BnF first Basel 1536",
+          "relevance": "SUPPORTS_NARROW_CLAIM_OR_DEFINES_PROVENANCE_NOT_A_FULL_WITNESS_COLLATION"
+        },
+        {
+          "source_id": "SOURCE-V216-CALVIN-SCHAFF",
+          "locator": "BnF first Basel 1536",
+          "relevance": "SUPPORTS_NARROW_CLAIM_OR_DEFINES_PROVENANCE_NOT_A_FULL_WITNESS_COLLATION"
+        }
+      ],
+      "v211_sentence_id": "SNT-V211-CALVIN1536-0001",
+      "v212_essay_id": "RDR-V212-08",
+      "v214_event_id": "EVENT-GEO-V214-12",
+      "claim_limitations_ko": "초판 원문 판면 교감 전",
+      "claim_text_not_vetted_by_historian": true,
+      "original_folio_image_inspected": false,
+      "public_claim_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "CLM-V216-020",
+      "stage_id": "PATH-V215-CALVIN_EDITIONS-STEP-02",
+      "claim_ko": "1539년 스트라스부르의 확대 라틴어판은 『기독교강요』 중간판에 해당한다.",
+      "claim_kind": "HISTORICAL_BIBLIOGRAPHY",
+      "inspection_status": "DOCUMENTARY_OR_CATALOGUE_CONTEXT",
+      "evidence_links": [
+        {
+          "source_id": "SOURCE-V216-CALVIN-SCHAFF",
+          "locator": "Schaff Strassburg editions",
+          "relevance": "SUPPORTS_NARROW_CLAIM_OR_DEFINES_PROVENANCE_NOT_A_FULL_WITNESS_COLLATION"
+        }
+      ],
+      "v211_sentence_id": "SNT-V211-CALVIN1536-0017",
+      "v212_essay_id": "RDR-V212-08",
+      "v214_event_id": "EVENT-GEO-V214-13",
+      "claim_limitations_ko": "17장 배열을 특정 인쇄본에서 직접 확인 필요",
+      "claim_text_not_vetted_by_historian": true,
+      "original_folio_image_inspected": false,
+      "public_claim_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "CLM-V216-021",
+      "stage_id": "PATH-V215-CALVIN_EDITIONS-STEP-03",
+      "claim_ko": "1559년 『기독교강요』는 칼뱅의 최종 라틴어판이다.",
+      "claim_kind": "NATIONAL_LIBRARY_WORK_AUTHORITY",
+      "inspection_status": "RESEARCH_SUMMARY_SUPPORT",
+      "evidence_links": [
+        {
+          "source_id": "SOURCE-V216-CALVIN-BNF",
+          "locator": "BnF 1559 final",
+          "relevance": "SUPPORTS_NARROW_CLAIM_OR_DEFINES_PROVENANCE_NOT_A_FULL_WITNESS_COLLATION"
+        },
+        {
+          "source_id": "SOURCE-V216-CALVIN-SCHAFF",
+          "locator": "BnF 1559 final",
+          "relevance": "SUPPORTS_NARROW_CLAIM_OR_DEFINES_PROVENANCE_NOT_A_FULL_WITNESS_COLLATION"
+        }
+      ],
+      "v211_sentence_id": "SNT-V211-CALVIN1559-0001",
+      "v212_essay_id": "RDR-V212-09",
+      "v214_event_id": "EVENT-GEO-V214-17",
+      "claim_limitations_ko": "개별 장·문장 이문 미검토",
+      "claim_text_not_vetted_by_historian": true,
+      "original_folio_image_inspected": false,
+      "public_claim_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "CLM-V216-022",
+      "stage_id": "PATH-V215-CALVIN_EDITIONS-STEP-04",
+      "claim_ko": "1560년 프랑스어 『기독교강요』는 제네바 장 크레스팽의 인쇄본으로 확인된다.",
+      "claim_kind": "RARE_BOOK_CATALOGUE",
+      "inspection_status": "DOCUMENTARY_OR_CATALOGUE_CONTEXT",
+      "evidence_links": [
+        {
+          "source_id": "SOURCE-V216-CALVIN-TOURS",
+          "locator": "Tours Notice Crespin Genève 1560",
+          "relevance": "SUPPORTS_NARROW_CLAIM_OR_DEFINES_PROVENANCE_NOT_A_FULL_WITNESS_COLLATION"
+        }
+      ],
+      "v211_sentence_id": "SNT-V211-CALVIN1559-0022",
+      "v212_essay_id": "RDR-V212-09",
+      "v214_event_id": "EVENT-GEO-V214-18",
+      "claim_limitations_ko": "본문 번역 변경점 판독 전",
+      "claim_text_not_vetted_by_historian": true,
+      "original_folio_image_inspected": false,
+      "public_claim_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "CLM-V216-023",
+      "stage_id": "PATH-V215-CALVIN_EDITIONS-STEP-05",
+      "claim_ko": "1559년 라틴어판의 북미 도서관 소장은 출판 당시의 제네바 인쇄지와 구별된다.",
+      "claim_kind": "PRINT_VS_HOLDING_CLASSIFICATION",
+      "inspection_status": "RESEARCH_SUMMARY_SUPPORT",
+      "evidence_links": [
+        {
+          "source_id": "SOURCE-V216-CALVIN-SCHAFF",
+          "locator": "Edition chronology and V214 holding IDs",
+          "relevance": "SUPPORTS_NARROW_CLAIM_OR_DEFINES_PROVENANCE_NOT_A_FULL_WITNESS_COLLATION"
+        }
+      ],
+      "v211_sentence_id": "SNT-V211-CALVIN1559-0001",
+      "v212_essay_id": "RDR-V212-09",
+      "v214_event_id": null,
+      "claim_limitations_ko": "개별 프린스턴 소장본의 판면 직접 판독 전",
+      "claim_text_not_vetted_by_historian": true,
+      "original_folio_image_inspected": false,
+      "public_claim_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "CLM-V216-024",
+      "stage_id": "PATH-V215-CALVIN_EDITIONS-STEP-06",
+      "claim_ko": "1560년 투르의 소장기호 SR DB 2/14770은 제네바의 16세기 인쇄지와 별개다.",
+      "claim_kind": "EXACT_LIBRARY_HOLDING_METADATA",
+      "inspection_status": "RESEARCH_SUMMARY_SUPPORT",
+      "evidence_links": [
+        {
+          "source_id": "SOURCE-V216-CALVIN-TOURS",
+          "locator": "Tours localisation & imprint",
+          "relevance": "SUPPORTS_NARROW_CLAIM_OR_DEFINES_PROVENANCE_NOT_A_FULL_WITNESS_COLLATION"
+        }
+      ],
+      "v211_sentence_id": "SNT-V211-CALVIN1559-0022",
+      "v212_essay_id": "RDR-V212-09",
+      "v214_event_id": null,
+      "claim_limitations_ko": "책이 제네바에서 투르로 이동한 경로는 미확인",
+      "claim_text_not_vetted_by_historian": true,
+      "original_folio_image_inspected": false,
+      "public_claim_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "CLM-V216-025",
+      "stage_id": "PATH-V215-COUNCIL_AND_REFORM-STEP-01",
+      "claim_ko": "1530년 아우크스부르크의 고백 제출은 1547년 트리엔트 칭의 교령과 다른 문서 장르다.",
+      "claim_kind": "EDITORIAL_GENRE_COMPARISON",
+      "inspection_status": "COMPARATIVE_OR_EDITORIAL_INFERENCE",
+      "evidence_links": [
+        {
+          "source_id": "SOURCE-V216-AUGSBURG-RAU",
+          "locator": "Confession vs conciliar decree",
+          "relevance": "SUPPORTS_NARROW_CLAIM_OR_DEFINES_PROVENANCE_NOT_A_FULL_WITNESS_COLLATION"
+        },
+        {
+          "source_id": "SOURCE-V216-TRENT-DOC",
+          "locator": "Confession vs conciliar decree",
+          "relevance": "SUPPORTS_NARROW_CLAIM_OR_DEFINES_PROVENANCE_NOT_A_FULL_WITNESS_COLLATION"
+        }
+      ],
+      "v211_sentence_id": "SNT-V211-AUGSBURG-0007",
+      "v212_essay_id": "RDR-V212-07",
+      "v214_event_id": "EVENT-GEO-V214-10",
+      "claim_limitations_ko": "양 문헌 조항별 직접 비교는 별도 작업",
+      "claim_text_not_vetted_by_historian": true,
+      "original_folio_image_inspected": false,
+      "public_claim_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "CLM-V216-026",
+      "stage_id": "PATH-V215-COUNCIL_AND_REFORM-STEP-02",
+      "claim_ko": "트리엔트 공의회는 1545년 12월 13일 개회했고 여러 차례 중단과 재개를 거쳤다.",
+      "claim_kind": "SCHOLARLY_COUNCIL_CHRONOLOGY",
+      "inspection_status": "RESEARCH_SUMMARY_SUPPORT",
+      "evidence_links": [
+        {
+          "source_id": "SOURCE-V216-TRENT-ANDREWS",
+          "locator": "St Andrews three periods, 25 sessions",
+          "relevance": "SUPPORTS_NARROW_CLAIM_OR_DEFINES_PROVENANCE_NOT_A_FULL_WITNESS_COLLATION"
+        }
+      ],
+      "v211_sentence_id": "SNT-V211-TRENT-0001",
+      "v212_essay_id": "RDR-V212-10",
+      "v214_event_id": "EVENT-GEO-V214-15",
+      "claim_limitations_ko": "특정 회의실 좌표 미확인",
+      "claim_text_not_vetted_by_historian": true,
+      "original_folio_image_inspected": false,
+      "public_claim_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "CLM-V216-027",
+      "stage_id": "PATH-V215-COUNCIL_AND_REFORM-STEP-03",
+      "claim_ko": "트리엔트 제6회기의 의롭다 함 교령은 1547년 1월 13일에 속한다.",
+      "claim_kind": "EDITED_CONCILIAR_DOCUMENT",
+      "inspection_status": "EDITED_TEXT_OR_CRITICAL_INTRO_SUPPORT",
+      "evidence_links": [
+        {
+          "source_id": "SOURCE-V216-TRENT-DOC",
+          "locator": "GHDI Session VI",
+          "relevance": "SUPPORTS_NARROW_CLAIM_OR_DEFINES_PROVENANCE_NOT_A_FULL_WITNESS_COLLATION"
+        }
+      ],
+      "v211_sentence_id": "SNT-V211-TRENT-0005",
+      "v212_essay_id": "RDR-V212-10",
+      "v214_event_id": "EVENT-GEO-V214-16",
+      "claim_limitations_ko": "라틴어 원본과 현대 영어 번역 대조 미완료",
+      "claim_text_not_vetted_by_historian": true,
+      "original_folio_image_inspected": false,
+      "public_claim_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "CLM-V216-028",
+      "stage_id": "PATH-V215-COUNCIL_AND_REFORM-STEP-04",
+      "claim_ko": "트리엔트 제23회기에는 1563년 신학교 운영에 관한 제도적 규정이 포함됐다.",
+      "claim_kind": "EDITED_CONCILIAR_DOCUMENT",
+      "inspection_status": "EDITED_TEXT_OR_CRITICAL_INTRO_SUPPORT",
+      "evidence_links": [
+        {
+          "source_id": "SOURCE-V216-TRENT-DOC",
+          "locator": "GHDI Session XXIII",
+          "relevance": "SUPPORTS_NARROW_CLAIM_OR_DEFINES_PROVENANCE_NOT_A_FULL_WITNESS_COLLATION"
+        }
+      ],
+      "v211_sentence_id": "SNT-V211-TRENT-0010",
+      "v212_essay_id": "RDR-V212-10",
+      "v214_event_id": "EVENT-GEO-V214-19",
+      "claim_limitations_ko": "교구별 실제 시행 여부 미조사",
+      "claim_text_not_vetted_by_historian": true,
+      "original_folio_image_inspected": false,
+      "public_claim_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "CLM-V216-029",
+      "stage_id": "PATH-V215-COUNCIL_AND_REFORM-STEP-05",
+      "claim_ko": "1523년 취리히 개혁과 트리엔트 공의회는 다른 정치·교회적 권한 기관에서 진행됐다.",
+      "claim_kind": "EDITORIAL_COMPARISON_OF_INSTITUTIONS",
+      "inspection_status": "COMPARATIVE_OR_EDITORIAL_INFERENCE",
+      "evidence_links": [
+        {
+          "source_id": "SOURCE-V216-ZURICH-ZB",
+          "locator": "City council vs Council of Trent",
+          "relevance": "SUPPORTS_NARROW_CLAIM_OR_DEFINES_PROVENANCE_NOT_A_FULL_WITNESS_COLLATION"
+        },
+        {
+          "source_id": "SOURCE-V216-TRENT-ANDREWS",
+          "locator": "City council vs Council of Trent",
+          "relevance": "SUPPORTS_NARROW_CLAIM_OR_DEFINES_PROVENANCE_NOT_A_FULL_WITNESS_COLLATION"
+        }
+      ],
+      "v211_sentence_id": "SNT-V211-ZWINGLI-0001",
+      "v212_essay_id": "RDR-V212-05",
+      "v214_event_id": "EVENT-GEO-V214-06",
+      "claim_limitations_ko": "두 기관의 행정권 전체 비교 근거는 별도",
+      "claim_text_not_vetted_by_historian": true,
+      "original_folio_image_inspected": false,
+      "public_claim_approved": false,
+      "can_publish": false
+    },
+    {
+      "id": "CLM-V216-030",
+      "stage_id": "PATH-V215-COUNCIL_AND_REFORM-STEP-06",
+      "claim_ko": "공의회 의결 날짜만으로 각 지역의 실행 날짜를 알 수 없다.",
+      "claim_kind": "METHODOLOGICAL_NON_INFERENCE",
+      "inspection_status": "COMPARATIVE_OR_EDITORIAL_INFERENCE",
+      "evidence_links": [
+        {
+          "source_id": "SOURCE-V216-TRENT-ANDREWS",
+          "locator": "Decision vs local implementation",
+          "relevance": "SUPPORTS_NARROW_CLAIM_OR_DEFINES_PROVENANCE_NOT_A_FULL_WITNESS_COLLATION"
+        },
+        {
+          "source_id": "SOURCE-V216-TRENT-DOC",
+          "locator": "Decision vs local implementation",
+          "relevance": "SUPPORTS_NARROW_CLAIM_OR_DEFINES_PROVENANCE_NOT_A_FULL_WITNESS_COLLATION"
+        }
+      ],
+      "v211_sentence_id": "SNT-V211-TRENT-0010",
+      "v212_essay_id": "RDR-V212-10",
+      "v214_event_id": null,
+      "claim_limitations_ko": "지역 주교·교구별 시행 기록 미조사",
+      "claim_text_not_vetted_by_historian": true,
+      "original_folio_image_inspected": false,
+      "public_claim_approved": false,
+      "can_publish": false
+    }
+  ],
+  "priority_dossiers": [
+    {
+      "id": "DOS-V216-01",
+      "stage_id": "PATH-V215-ECCLESIOLOGY-STEP-02",
+      "linked_claim_id": "CLM-V216-002",
+      "priority": "P1",
+      "focused_claim_ko": "후스의 저작 목록에서 1413년은 저작 연도이고 성터 주소는 후대 국립도서관 소장지와 구별된다.",
+      "source_ids": [
+        "SOURCE-V216-HUS-CAT",
+        "SOURCE-V216-HUS-SITE"
+      ],
+      "what_checked_ko": "학술 작품 목록·현지 역사 안내의 교차 확인은 가능하지만 필사본 특정 장절의 직접 근거는 아님.",
+      "recommended_editorial_action_ko": "서지·지명은 분리해 안내하고 저술 중 실제 장소가 전 기간 단일했다는 단정은 피한다.",
+      "primary_witness_image_read": false,
+      "exact_original_language_passage_collated": false,
+      "scholarly_signoff": false,
+      "can_publish": false
+    },
+    {
+      "id": "DOS-V216-02",
+      "stage_id": "PATH-V215-ECCLESIOLOGY-STEP-03",
+      "linked_claim_id": "CLM-V216-003",
+      "priority": "P1",
+      "focused_claim_ko": "프라하 NK IV H 19의 folio 범위는 특정 문장에 대한 직접 검증 위치가 아니다.",
+      "source_ids": [
+        "SOURCE-V216-HUS-CAT"
+      ],
+      "what_checked_ko": "작품·사본 존재를 입증하는 목록 층위.",
+      "recommended_editorial_action_ko": "실제 문장 출처 표시는 판면·비평판 본문을 읽은 뒤에만 허용.",
+      "primary_witness_image_read": false,
+      "exact_original_language_passage_collated": false,
+      "scholarly_signoff": false,
+      "can_publish": false
+    },
+    {
+      "id": "DOS-V216-03",
+      "stage_id": "PATH-V215-DOCUMENT_TO_EMPIRE-STEP-02",
+      "linked_claim_id": "CLM-V216-008",
+      "priority": "P1",
+      "focused_claim_ko": "보름스 칙령의 초고·공포·인쇄 증인은 서로 다른 문서 계층이다.",
+      "source_ids": [
+        "SOURCE-V216-WORMS-CRIT"
+      ],
+      "what_checked_ko": "비평판 서론에서 독일어 원본의 소실과 VD16 D924 증인 존재를 따로 밝힘.",
+      "recommended_editorial_action_ko": "현존 1521년 인쇄본을 이미 이미지 직접 교감했다고 표시 금지.",
+      "primary_witness_image_read": false,
+      "exact_original_language_passage_collated": false,
+      "scholarly_signoff": false,
+      "can_publish": false
+    },
+    {
+      "id": "DOS-V216-04",
+      "stage_id": "PATH-V215-DOCUMENT_TO_EMPIRE-STEP-03",
+      "linked_claim_id": "CLM-V216-009",
+      "priority": "P1",
+      "focused_claim_ko": "1521년 5월 26일의 공표만으로 제국 전역의 시행 날짜를 단정할 수 없다.",
+      "source_ids": [
+        "SOURCE-V216-WORMS-CRIT"
+      ],
+      "what_checked_ko": "칙령 공표일은 비평판 서론 범위에서 확인.",
+      "recommended_editorial_action_ko": "집행의 지역별 사건·법적 효력은 추가 영방 문서 요구.",
+      "primary_witness_image_read": false,
+      "exact_original_language_passage_collated": false,
+      "scholarly_signoff": false,
+      "can_publish": false
+    },
+    {
+      "id": "DOS-V216-05",
+      "stage_id": "PATH-V215-DOCUMENT_TO_EMPIRE-STEP-05",
+      "linked_claim_id": "CLM-V216-011",
+      "priority": "P1",
+      "focused_claim_ko": "1531년 비텐베르크의 Georg Rhaw 인쇄 기록은 라틴어·독일어 승인판의 서지 증거다.",
+      "source_ids": [
+        "SOURCE-V216-AUGSBURG-RAU"
+      ],
+      "what_checked_ko": "Bridwell BRA2651 A/B 도서관 설명은 출판·소장 정보를 구별.",
+      "recommended_editorial_action_ko": "1530년 제출 원문과 1531년판 사이의 완전한 문장 동등성 미확인.",
+      "primary_witness_image_read": false,
+      "exact_original_language_passage_collated": false,
+      "scholarly_signoff": false,
+      "can_publish": false
+    },
+    {
+      "id": "DOS-V216-06",
+      "stage_id": "PATH-V215-DOCUMENT_TO_EMPIRE-STEP-06",
+      "linked_claim_id": "CLM-V216-012",
+      "priority": "P1",
+      "focused_claim_ko": "1540 Variata를 1530 제출·1531 승인판과 같은 본문으로 취급하면 안 된다.",
+      "source_ids": [
+        "SOURCE-V216-AUGSBURG-VAR"
+      ],
+      "what_checked_ko": "주요 저술 판본 역사에 대한 교파적 2차 서술.",
+      "recommended_editorial_action_ko": "원어 제4·10조 조판 이미지 직접 대조를 차기 최우선 과제로.",
+      "primary_witness_image_read": false,
+      "exact_original_language_passage_collated": false,
+      "scholarly_signoff": false,
+      "can_publish": false
+    },
+    {
+      "id": "DOS-V216-07",
+      "stage_id": "PATH-V215-ZURICH_MARBURG-STEP-03",
+      "linked_claim_id": "CLM-V216-015",
+      "priority": "P1",
+      "focused_claim_ko": "만츠 판결은 시의회의 판결 자료이며 정확한 처형 강변 지점의 좌표는 아니다.",
+      "source_ids": [
+        "SOURCE-V216-MANZ-ARCH",
+        "SOURCE-V216-MANZ-TEXT",
+        "SOURCE-V216-MANZ-HLS"
+      ],
+      "what_checked_ko": "소장기호와 원어 전사 판결문은 읽을 수 있으나 사진 원본 및 강변 지점 측량은 하지 않음.",
+      "recommended_editorial_action_ko": "시의회 행위와 츠빙글리 개인의 단독 집행을 혼동하지 않는다.",
+      "primary_witness_image_read": false,
+      "exact_original_language_passage_collated": false,
+      "scholarly_signoff": false,
+      "can_publish": false
+    },
+    {
+      "id": "DOS-V216-08",
+      "stage_id": "PATH-V215-ZURICH_MARBURG-STEP-04",
+      "linked_claim_id": "CLM-V216-016",
+      "priority": "P1",
+      "focused_claim_ko": "마르부르크의 Z 문서에는 7·13·15조 추가 문구가 있지만 K에는 없다.",
+      "source_ids": [
+        "SOURCE-V216-MARBURG-ZK"
+      ],
+      "what_checked_ko": "취리히 주립문서관 목록의 Überlieferung에 차이가 구체적으로 적혀 있음.",
+      "recommended_editorial_action_ko": "서지 목록의 이문 기술만으로 실제 독일어 원문 문장 비교가 완료됐다고 할 수 없다.",
+      "primary_witness_image_read": false,
+      "exact_original_language_passage_collated": false,
+      "scholarly_signoff": false,
+      "can_publish": false
+    },
+    {
+      "id": "DOS-V216-09",
+      "stage_id": "PATH-V215-ZURICH_MARBURG-STEP-05",
+      "linked_claim_id": "CLM-V216-017",
+      "priority": "P1",
+      "focused_claim_ko": "오지안더와 츠빙글리의 서술은 회담을 보는 관점과 수신자가 다르다.",
+      "source_ids": [
+        "SOURCE-V216-MARBURG-L",
+        "SOURCE-V216-MARBURG-S"
+      ],
+      "what_checked_ko": "문서 정체성 및 발신자 정보만 확인되는 단계.",
+      "recommended_editorial_action_ko": "원문 문단별 병렬 대조와 참가자별 주장 신뢰도 별도 연구.",
+      "primary_witness_image_read": false,
+      "exact_original_language_passage_collated": false,
+      "scholarly_signoff": false,
+      "can_publish": false
+    },
+    {
+      "id": "DOS-V216-10",
+      "stage_id": "PATH-V215-CALVIN_EDITIONS-STEP-01",
+      "linked_claim_id": "CLM-V216-019",
+      "priority": "P1",
+      "focused_claim_ko": "칼뱅 1536 라틴어 초판과 1541 최초 프랑스어판은 서로 다른 언어판이다.",
+      "source_ids": [
+        "SOURCE-V216-CALVIN-BNF"
+      ],
+      "what_checked_ko": "BnF 서지의 first edition Basel 1536 and French version 1541 explicitly recorded.",
+      "recommended_editorial_action_ko": "1536 초판에서 1559 최종판으로 단순 직행하지 말고 중간판을 표시.",
+      "primary_witness_image_read": false,
+      "exact_original_language_passage_collated": false,
+      "scholarly_signoff": false,
+      "can_publish": false
+    },
+    {
+      "id": "DOS-V216-11",
+      "stage_id": "PATH-V215-CALVIN_EDITIONS-STEP-04",
+      "linked_claim_id": "CLM-V216-022",
+      "priority": "P1",
+      "focused_claim_ko": "1560년 프랑스어판의 Geneva Jean Crespin 각인과 Tours 소장처를 구분한다.",
+      "source_ids": [
+        "SOURCE-V216-CALVIN-TOURS"
+      ],
+      "what_checked_ko": "Tours BVH 서지가 인쇄지·인쇄업자·소장기호를 각각 표시.",
+      "recommended_editorial_action_ko": "서지 정보만으로 텍스트 전체 번역 대응을 증명한 것은 아니다.",
+      "primary_witness_image_read": false,
+      "exact_original_language_passage_collated": false,
+      "scholarly_signoff": false,
+      "can_publish": false
+    },
+    {
+      "id": "DOS-V216-12",
+      "stage_id": "PATH-V215-COUNCIL_AND_REFORM-STEP-02",
+      "linked_claim_id": "CLM-V216-026",
+      "priority": "P1",
+      "focused_claim_ko": "트리엔트 공의회는 1545~1563년에 연속 회의가 아니라 세 시기를 거쳤다.",
+      "source_ids": [
+        "SOURCE-V216-TRENT-ANDREWS"
+      ],
+      "what_checked_ko": "전문 학술 백과사전에서 3 periods and 25 sessions 구분.",
+      "recommended_editorial_action_ko": "공의회 교리적 결정과 개별 교구 시행을 별도 타임라인으로 기록.",
+      "primary_witness_image_read": false,
+      "exact_original_language_passage_collated": false,
+      "scholarly_signoff": false,
+      "can_publish": false
+    },
+    {
+      "id": "DOS-V216-13",
+      "stage_id": "PATH-V215-COUNCIL_AND_REFORM-STEP-03",
+      "linked_claim_id": "CLM-V216-027",
+      "priority": "P1",
+      "focused_claim_ko": "제6회기 칭의 교령은 인간 노력만으로 은혜 없이 구원을 얻는다는 단순 교리가 아니다.",
+      "source_ids": [
+        "SOURCE-V216-TRENT-DOC"
+      ],
+      "what_checked_ko": "GHDI 제6회기 제1장과 도입부가 은혜·자연의 한계를 서술.",
+      "recommended_editorial_action_ko": "가톨릭 교리를 왜곡하지 말고 여러 교파의 비판과 원문 정의 구분.",
+      "primary_witness_image_read": false,
+      "exact_original_language_passage_collated": false,
+      "scholarly_signoff": false,
+      "can_publish": false
+    },
+    {
+      "id": "DOS-V216-14",
+      "stage_id": "PATH-V215-COUNCIL_AND_REFORM-STEP-04",
+      "linked_claim_id": "CLM-V216-028",
+      "priority": "P1",
+      "focused_claim_ko": "트리엔트 제23회기 신학교 규정의 발표는 지역 신학교가 그날 모두 설치되었다는 뜻이 아니다.",
+      "source_ids": [
+        "SOURCE-V216-TRENT-DOC"
+      ],
+      "what_checked_ko": "제23회기 신학교 규정이라는 1563년 공의회 조치.",
+      "recommended_editorial_action_ko": "구체적 설립시기와 시행 지역은 추가 자료 없이는 미확인.",
+      "primary_witness_image_read": false,
+      "exact_original_language_passage_collated": false,
+      "scholarly_signoff": false,
+      "can_publish": false
+    },
+    {
+      "id": "DOS-V216-15",
+      "stage_id": "PATH-V215-COUNCIL_AND_REFORM-STEP-05",
+      "linked_claim_id": "CLM-V216-029",
+      "priority": "P1",
+      "focused_claim_ko": "취리히 시의회 조치와 트리엔트 공의회의 교령은 법적·정치적 조직이 다르다.",
+      "source_ids": [
+        "SOURCE-V216-ZURICH-ZB",
+        "SOURCE-V216-TRENT-ANDREWS"
+      ],
+      "what_checked_ko": "서로 다른 법적 기관을 설명하는 제도사 비교.",
+      "recommended_editorial_action_ko": "직접 인과관계나 동일한 권한 모델을 전제하면 안 된다.",
+      "primary_witness_image_read": false,
+      "exact_original_language_passage_collated": false,
+      "scholarly_signoff": false,
+      "can_publish": false
+    },
+    {
+      "id": "DOS-V216-16",
+      "stage_id": "PATH-V215-COUNCIL_AND_REFORM-STEP-06",
+      "linked_claim_id": "CLM-V216-030",
+      "priority": "P1",
+      "focused_claim_ko": "트리엔트 공의회의 규정과 현장에서의 시행은 분리된 역사 사건이다.",
+      "source_ids": [
+        "SOURCE-V216-TRENT-ANDREWS"
+      ],
+      "what_checked_ko": "제도적 시행 문제는 학술 개설에 다뤄지지만 개별 지역 증거는 본 자료에 없음.",
+      "recommended_editorial_action_ko": "지역별 시행 사실/일시를 본문에서 창작하지 않는다.",
+      "primary_witness_image_read": false,
+      "exact_original_language_passage_collated": false,
+      "scholarly_signoff": false,
+      "can_publish": false
+    }
+  ],
+  "unresolved_evidence_work": [
+    {
+      "code": "GAP-V216-MARBURG-ZK",
+      "priority": "P0",
+      "scope": "Z E I 3.1 Nr.54 vs K Hessian witness",
+      "action_ko": "양 문서의 제7·13·15조 원어 병렬 대조 및 삽입 구절 위치를 정확히 정리. 목록의 추가 문구 기술을 본문 이문 검증으로 승격하지 말 것",
+      "source_ids": [
+        "SOURCE-V216-MARBURG-ZK",
+        "SOURCE-V216-MARBURG-ARTICLE"
+      ]
+    },
+    {
+      "code": "GAP-V216-AUGSBURG-VARIATA",
+      "priority": "P0",
+      "scope": "1530/1531/1540 Latin German editions",
+      "action_ko": "공인 1531 인쇄본과 1540 개정본의 제4·10조 라틴어·독일어 원판 구절 대조",
+      "source_ids": [
+        "SOURCE-V216-AUGSBURG-RAU",
+        "SOURCE-V216-AUGSBURG-VAR"
+      ]
+    },
+    {
+      "code": "GAP-V216-HUS-ORIGINAL",
+      "priority": "P0",
+      "scope": "Hus De ecclesia 1413",
+      "action_ko": "원전 비평판·프라하 IV H 19 필사본 실제 읽은 구절과 후스 교회론적 주장 간 대응 검토",
+      "source_ids": [
+        "SOURCE-V216-HUS-CAT",
+        "SOURCE-V216-HUS-SCHOL"
+      ]
+    },
+    {
+      "code": "GAP-V216-WORMS-WITNESS",
+      "priority": "P1",
+      "scope": "Edict of Worms VD16 D924",
+      "action_ko": "독일어 1521 인쇄본의 실제 판면과 비평판 전사 내용 대조, 5월 8일과 26일 사건 구분",
+      "source_ids": [
+        "SOURCE-V216-WORMS-CRIT"
+      ]
+    },
+    {
+      "code": "GAP-V216-CALVIN-EDITION",
+      "priority": "P1",
+      "scope": "Institutes Latin 1536/1539/1559 and French 1541/1560",
+      "action_ko": "정확한 장·쪽·문장 이문 표와 프랑스어판 출판 시점 대조",
+      "source_ids": [
+        "SOURCE-V216-CALVIN-BNF",
+        "SOURCE-V216-CALVIN-SCHAFF",
+        "SOURCE-V216-CALVIN-TOURS"
+      ]
+    },
+    {
+      "code": "GAP-V216-TRENT-REGIONAL",
+      "priority": "P1",
+      "scope": "Trent 1547/1563 session decrees versus diocesan implementation",
+      "action_ko": "트리엔트 공의회 라틴어 교령과 실제 교구 신학교 설치 기록을 다른 사건 유형으로 분리",
+      "source_ids": [
+        "SOURCE-V216-TRENT-DOC",
+        "SOURCE-V216-TRENT-ANDREWS"
+      ]
+    }
+  ],
+  "training_warnings": [
+    "The word 'verified' is reserved for evidence actually inspected at the claimed granularity; structural CI PASS does not establish historical truth.",
+    "A stage can have one documented claim while its other historical interpretation remains provisional.",
+    "Modern city-centre coordinates cannot be promoted to medieval-room coordinates.",
+    "Manz archival legal transcription is a reading of an edited old-language text, not the photographic original.",
+    "The first French Institutes edition appeared in 1541; 1560 is the final French version, not the initial translation.",
+    "GHDI Marburg Article XV should be compared with Zürich Z and Hessian K before stating exact German wording."
+  ]
+}
