@@ -107,9 +107,185 @@
       "original_manuscript_or_early_print_page_seen": false
     }
   ],
-  "physical_objects": [],
-  "editorial_links": [],
+  "physical_objects": [
+    {
+      "id": "MS-A648",
+      "kind": "GERMAN_FAIR_COPY",
+      "author": "Wilhelm Ernst Tentzel",
+      "shelfmark": "Forschungsbibliothek Gotha Chart. A 648",
+      "kalliope": "DE-611-HS-4323846",
+      "date_interval": [
+        "1692",
+        "1707"
+      ],
+      "leaves_preliminary_roman": 5,
+      "leaves_numbered": 231,
+      "chapters_complete": 13,
+      "chapter14": "HEADING_ONLY",
+      "historical_span": "1517–1521 Worms",
+      "first_four_folios": "1r–53r",
+      "original_pages_read": 0,
+      "source_ids": [
+        "TENTZEL-MS",
+        "TENTZEL-FIND"
+      ]
+    },
+    {
+      "id": "PRINT-1717",
+      "kind": "POSTHUMOUS_EDITED_GERMAN_PRINT",
+      "author": "Wilhelm Ernst Tentzel",
+      "editor": "Ernst Salomon Cyprian",
+      "shelfmark": "ULB Sachsen-Anhalt Ung I B 66",
+      "imprint_year": 1717,
+      "vd18": "1042170X",
+      "numbered_pages": 531,
+      "first_four_chapter_pages": "1–352",
+      "first_four_ms_folios": "1r–53r",
+      "actual_pages_read": 0,
+      "source_ids": [
+        "1717-PRINT",
+        "TENTZEL-MS"
+      ]
+    },
+    {
+      "id": "PRINT-1688",
+      "kind": "FIRST_BOOK_LATIN_PARTIAL_1688_IMPRINT",
+      "author": "Veit Ludwig von Seckendorff",
+      "shelfmark": "Eton College DDe.9.01",
+      "imprint_year": 1688,
+      "content_scope": "BOOK_I_ONLY",
+      "actual_pages_read": 0,
+      "source_ids": [
+        "1688-ETON",
+        "1688-GOOGLE",
+        "1688-IA"
+      ]
+    },
+    {
+      "id": "PRINT-1692",
+      "kind": "FIRST_COMPLETE_LATIN_WORK",
+      "author": "Veit Ludwig von Seckendorff",
+      "shelfmark": "BSB MDZ bsb10716130",
+      "imprint_year": 1692,
+      "actual_release_source_reported": "autumn 1691",
+      "target_book2_page139": "UNREAD",
+      "actual_pages_read": 0,
+      "source_ids": [
+        "GOTHA2024",
+        "1692-BOOK"
+      ]
+    },
+    {
+      "id": "PRINT-1694",
+      "kind": "SECOND_CORRECTED_COMPLETE_LATIN_WORK",
+      "author": "Veit Ludwig von Seckendorff",
+      "shelfmark": "WorldCat OCLC 177292823",
+      "imprint_year": 1694,
+      "contains_revisions": true,
+      "printed_pagination_said_almost_same_by_1949_scholar": true,
+      "exact_textual_identity_proven": false,
+      "actual_pages_read": 0,
+      "source_ids": [
+        "1694-SECOND",
+        "1949-ARTICLE"
+      ]
+    }
+  ],
+  "editorial_links": [
+    {
+      "id": "LINK-MS-PRINT",
+      "from": "MS-A648",
+      "to": "PRINT-1717",
+      "kind": "FOUR_CHAPTERS_PUBLISHED_FROM_MANUSCRIPT",
+      "manuscript_chapters": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "manuscript_folios": "1r–53r",
+      "printed_pages": "1–352",
+      "evidence_ids": [
+        "TENTZEL-MS",
+        "1717-PRINT"
+      ],
+      "variants_directly_verified": false
+    },
+    {
+      "id": "LINK-ORIGIN",
+      "from": "PRINT-1692",
+      "to": "MS-A648",
+      "kind": "LATIN_WORK_INFORMED_GERMAN_NARRATIVE_NOT_LITERAL_TRANSLATION_PROVEN",
+      "evidence_ids": [
+        "TENTZEL-MS",
+        "GOTHA2024"
+      ],
+      "variants_directly_verified": false
+    },
+    {
+      "id": "LINK-EDITION",
+      "from": "PRINT-1692",
+      "to": "PRINT-1694",
+      "kind": "FIRST_COMPLETE_TO_SECOND_CORRECTED_EDITION",
+      "evidence_ids": [
+        "1949-ARTICLE",
+        "1694-SECOND"
+      ],
+      "variants_directly_verified": false
+    },
+    {
+      "id": "LINK-PARTIAL",
+      "from": "PRINT-1688",
+      "to": "PRINT-1692",
+      "kind": "EARLIER_PARTIAL_BOOK_I_VERSUS_FULL_BOOK_I_TO_III",
+      "evidence_ids": [
+        "1688-IA",
+        "1692-BOOK"
+      ],
+      "variants_directly_verified": false
+    }
+  ],
   "reader_sections": [],
   "open_issues": [],
-  "metrics": {}
+  "metrics": {},
+  "chapter_relation": {
+    "manuscript_numbered_folios": 231,
+    "written_chapters": 13,
+    "chapter14_heading_only": true,
+    "range_1517_1521": true,
+    "chapters_published_in_1717": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "manuscript_chapters_not_verified_in_1717": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "ms_first_four_folios": "1r–53r",
+    "edition_first_four_pages": "1–352",
+    "total_print_pages": 531,
+    "additional_179_pages_not_assigned_to_unprinted_chapters": true,
+    "do_not_assume_unprinted_chapters_never_printed_elsewhere": true,
+    "do_not_treat_german_as_diplomatic_latin_translation": true,
+    "folio_images_seen": 0,
+    "print_pages_seen": 0
+  },
+  "bibliographic_discrepancy": {
+    "first_book_1687_from_2024_gotha_research": true,
+    "early_1688_imprint_from_eton_catalogue": true,
+    "early_1688_digital_object_verified": true,
+    "whether_1687_and_1688_are_same_issue": "UNKNOWN",
+    "complete_1692_imprint_distinct_from_1688_partial": true,
+    "edition_1694_distinct_from_1692": true,
+    "modern_1949_article_printed_pages_screens_seen": 2
+  }
 }
