@@ -1,0 +1,250 @@
+{
+  "version": "2.55",
+  "kind": "MEDIUM_DEPTH_SOCIAL_THEMES",
+  "status": "DRAFT",
+  "parent_commit": "cdea827f79001ff92edd2f1268d4005ce386b799",
+  "depth": "MEDIUM",
+  "preserved_core_medium": {
+    "path": "data/deep/atlas_v254_medium_depth_ten_readers.json",
+    "sha256": "377db29c072bcd6dad7bcf3e028be2e7e4866c5df7a028c7a030fa4c087f4832"
+  },
+  "sources": [
+    {
+      "id": "S01",
+      "title": "독일역사박물관: Sola scriptura",
+      "url": "https://www.dhm.de/sammlung/bibliothek/virtrinenausstellung-archiv/sola-scriptura/",
+      "access": "INSTITUTIONAL_EXPLANATION_OR_CATALOGUE_NOT_NEW_FOLIO_COLLATION"
+    },
+    {
+      "id": "S02",
+      "title": "취리히 시 문서관: 종교개혁의 시작과 정착",
+      "url": "https://www.stadt-zuerich.ch/de/stadtleben/stadtportraet/zuerichs-geschichte/stadtarchiv/wissensportal/reformation-in-zuerich.html",
+      "access": "INSTITUTIONAL_EXPLANATION_OR_CATALOGUE_NOT_NEW_FOLIO_COLLATION"
+    },
+    {
+      "id": "S03",
+      "title": "우테 가우제: 종교개혁기의 여성",
+      "url": "https://www.luther2017.de/wiki/frauen-bewegen-die-kirche-seit-luthers-zeiten/der-weite-weg-ins-pfarramt-frauen-zur-reformationszeit/index.html",
+      "access": "INSTITUTIONAL_EXPLANATION_OR_CATALOGUE_NOT_NEW_FOLIO_COLLATION"
+    },
+    {
+      "id": "S04",
+      "title": "Luther2017: 교육",
+      "url": "https://luther2017.de/reformation/und-gesellschaft/bildung/index.html",
+      "access": "INSTITUTIONAL_EXPLANATION_OR_CATALOGUE_NOT_NEW_FOLIO_COLLATION"
+    },
+    {
+      "id": "S05",
+      "title": "독일 연방문서관: 독일 농민전쟁",
+      "url": "https://www.bundesarchiv.de/themen-entdecken/online-entdecken/geschichtsgalerien/deutscher-bauernkrieg/",
+      "access": "INSTITUTIONAL_EXPLANATION_OR_CATALOGUE_NOT_NEW_FOLIO_COLLATION"
+    },
+    {
+      "id": "S06",
+      "title": "BSB: 루터의 1524년 도시 학교 설립 촉구문 목록",
+      "url": "https://www.digitale-sammlungen.de/de/details/bsb11407251",
+      "access": "INSTITUTIONAL_EXPLANATION_OR_CATALOGUE_NOT_NEW_FOLIO_COLLATION"
+    },
+    {
+      "id": "S07",
+      "title": "LutherMuseen: 1525년 봉기와 열두 조항",
+      "url": "https://www.luthermuseen.de/en/node/676",
+      "access": "INSTITUTIONAL_EXPLANATION_OR_CATALOGUE_NOT_NEW_FOLIO_COLLATION"
+    }
+  ],
+  "chapters": [
+    {
+      "id": "THEME-PRINT_TRANSLATION",
+      "title": "인쇄와 번역 — 논쟁은 어떻게 사람들에게 도달했는가",
+      "lead": "종교개혁은 주장만으로 확산되지 않았다. 인쇄와 번역은 논쟁이 이동하는 속도와 독자의 범위를 바꾸었다.",
+      "sections": [
+        {
+          "heading": "책이 새로운 논쟁의 통로가 되다",
+          "body": "16세기 초 인쇄업은 신학자들의 글을 여러 도시에서 되풀이해 출판할 수 있게 했다. 짧은 논쟁문과 소책자는 긴 학술서와 다른 방식으로 독자를 만났다. 루터의 주장이 널리 알려진 배경에도 저자 개인의 능력뿐 아니라 인쇄업자와 도시의 유통망이 있었다."
+        },
+        {
+          "heading": "번역은 언어뿐 아니라 독자를 바꾸었다",
+          "body": "라틴어로 진행되던 논쟁이 일상 언어로 전달되면 대학 밖의 독자도 참여할 수 있었다. 성경 번역은 신앙을 이해하는 통로를 넓혔고, 설교와 교육을 통해 인쇄된 글의 영향이 확장되었다. 다만 책이 널리 퍼졌다는 사실을 모든 사람이 직접 읽고 같은 뜻으로 이해했다는 말로 바꾸어서는 안 된다."
+        },
+        {
+          "heading": "전달 과정에서 의미도 달라졌다",
+          "body": "글은 새로운 독자와 정치적 이해관계를 만나면서 처음의 토론 범위를 넘어섰다. 독자는 저자의 의도를 그대로 받아들이는 수동적인 존재가 아니었다. 인쇄가 종교개혁을 혼자 만들어 냈다고 설명하기보다, 갈등과 독자층이 이미 존재하던 사회에서 인쇄가 어떤 역할을 했는지 살피는 것이 좋다."
+        }
+      ],
+      "reading_question": "매체의 변화는 글의 내용뿐 아니라 그 글을 해석할 권한에도 영향을 줄까?",
+      "sources": [
+        "S01"
+      ],
+      "related_core": [
+        "LUTHER1517",
+        "AUGSBURG"
+      ],
+      "status": "EDITORIAL_DRAFT"
+    },
+    {
+      "id": "THEME-CITY_POWER",
+      "title": "도시와 정치권력 — 누가 개혁을 실행했는가",
+      "lead": "설교자가 변화를 주장해도 도시 전체의 예배와 생활을 바꾸려면 실행할 권력이 필요했다. 취리히에서는 시의회가 중요한 역할을 맡았다.",
+      "sections": [
+        {
+          "heading": "신학 논쟁이 시의회의 문제가 되다",
+          "body": "1523년 취리히의 공개 논쟁은 성경에 근거해 기존 관행을 판단할 수 있는지를 물었다. 시의회는 논쟁을 듣는 청중에 머물지 않고 개혁의 방향을 결정했다. 종교적 권위와 도시 통치권이 만났기 때문에 예배 문제는 곧 공공질서의 문제가 되었다."
+        },
+        {
+          "heading": "예배와 재산이 함께 바뀌다",
+          "body": "개혁은 성상과 미사, 수도원 재산과 수입의 관리에까지 영향을 주었다. 취리히의 옛 교회 재산은 구빈 등 공적 과제와 연결되었지만, 실제 수입이 어디에 사용되는지를 두고 갈등도 있었다. 재산이 교회에서 도시로 옮겨졌다는 사실만으로 모든 혜택이 가난한 사람에게 돌아갔다고 단정할 수 없다."
+        },
+        {
+          "heading": "공동체의 결정과 개인의 선택 사이",
+          "body": "도시의 혼인재판과 학교, 예배 운영의 변화는 종교개혁이 주민 생활에 깊이 관여했음을 보여 준다. 그러나 시의회의 개혁이 모든 시민의 자유로운 동의와 같지는 않았다. 개혁을 지지하면서도 그 속도와 범위에 반대하는 사람들이 있었고, 권력의 개입은 개혁을 가능하게 하는 동시에 새로운 강제를 낳을 수 있었다."
+        }
+      ],
+      "reading_question": "공동체가 종교적 질서를 결정할 때 소수자의 신앙은 어떻게 다루어지는가?",
+      "sources": [
+        "S02"
+      ],
+      "related_core": [
+        "ZWINGLI",
+        "LUTHER1521"
+      ],
+      "status": "EDITORIAL_DRAFT"
+    },
+    {
+      "id": "THEME-WOMEN_FAMILY",
+      "title": "여성과 가족 — 변화는 누구에게 어떤 기회를 주었는가",
+      "lead": "종교개혁기의 여성은 개혁자의 아내나 수녀라는 한 가지 역할로만 설명되지 않는다. 교육과 가정, 종교적 선택의 변화는 서로 다른 기회와 제약을 만들었다.",
+      "sections": [
+        {
+          "heading": "가정의 중요성이 커지다",
+          "body": "개신교 지역에서 성직자의 결혼과 가정생활은 신앙을 실천하는 중요한 모습으로 제시되었다. 목회자의 가정은 생활과 손님 접대, 돌봄이 이루어지는 공간이기도 했다. 여성의 일을 단순한 내조라고만 부르면 가정과 공동체를 유지하는 실제 노동과 판단을 보기 어렵다."
+        },
+        {
+          "heading": "배움의 기회와 역할의 경계",
+          "body": "성경과 신앙을 배우는 일이 중요해지면서 소녀 교육도 관심을 받았다. 그러나 교육 기회의 확대가 곧 남녀의 동등한 지위나 교회 직분의 개방을 의미하지는 않았다. 종교교육과 가정의 책임을 강조하는 변화 안에서도 여성에게 허용되는 활동 범위에는 뚜렷한 경계가 남았다."
+        },
+        {
+          "heading": "떠난 여성과 남은 여성 모두를 보다",
+          "body": "기존 연구에서 살핀 플로렌티나는 수도생활을 떠날 자유와 자신의 명예를 주장했다. 소피아는 피난 공동체를 돌보며 도움을 청했고, 두 수녀원장은 재산과 예배의 회복을 요구했다. 이들은 같은 선택을 하지 않았다. 종교개혁을 여성의 일괄적인 해방이나 일괄적인 후퇴로 설명하기보다, 신분과 지역·가족·공동체에 따라 달랐던 경험을 살펴야 한다."
+        }
+      ],
+      "reading_question": "새로운 역할이 생겼다는 사실과 선택할 수 있는 삶이 넓어졌다는 사실은 언제 같고 언제 다를까?",
+      "sources": [
+        "S03"
+      ],
+      "related_core": [
+        "LUTHER1517",
+        "ZWINGLI"
+      ],
+      "status": "EDITORIAL_DRAFT"
+    },
+    {
+      "id": "THEME-EDUCATION",
+      "title": "학교와 교육 — 신앙을 배우는 일이 공공의 과제가 되다",
+      "lead": "개혁자들은 성경과 신앙을 이해할 독자를 필요로 했다. 학교는 교회의 문제이면서 도시가 책임져야 할 과제로도 논의되었다.",
+      "sections": [
+        {
+          "heading": "읽는 신자를 어떻게 기를 것인가",
+          "body": "성경의 권위를 강조하는 신앙은 사람들이 그 가르침을 이해하도록 돕는 교육을 요구했다. 번역된 성경이 있다는 것만으로 배움이 자동으로 이루어지지는 않았다. 읽기와 언어, 교리의 기초를 가르칠 교사와 학교가 필요했고, 기존 학교를 어떻게 유지하고 바꿀지도 중요한 문제가 되었다."
+        },
+        {
+          "heading": "도시를 향한 교육의 요청",
+          "body": "루터는 1524년 독일 도시의 시의원들에게 그리스도교 학교를 세우고 유지할 것을 촉구했다. 멜란히톤도 교육을 중요한 개혁 과제로 보았다. 이는 교육을 개인의 열의에만 맡기지 않고 공동체가 지원할 일로 다루려는 흐름을 보여 준다. 새로운 학교뿐 아니라 기존 교육기관을 재편하는 일도 포함되었다."
+        },
+        {
+          "heading": "이상과 실제 보급의 차이",
+          "body": "배움의 대상을 넓히려는 이상은 중요했지만 모든 지역에서 곧바로 같은 기회가 주어진 것은 아니다. 특히 소녀 교육의 확대를 오늘날의 평등한 교육제도와 동일시할 수는 없다. 가톨릭 개혁에서도 성직자 교육이 중요한 과제였다는 점을 함께 보면, 종교개혁기의 교육은 한 진영만의 성과가 아니라 신앙과 공동체를 재구성하는 공통 관심이었다."
+        }
+      ],
+      "reading_question": "누구에게 무엇을 가르치느냐는 공동체가 어떤 사람을 필요로 하는지 보여 주는가?",
+      "sources": [
+        "S04",
+        "S06",
+        "S03"
+      ],
+      "related_core": [
+        "CALVIN1559",
+        "TRENT"
+      ],
+      "status": "EDITORIAL_DRAFT"
+    },
+    {
+      "id": "THEME-PEASANTS_WAR",
+      "title": "농민전쟁 — 복음의 자유는 사회 질서의 변화도 뜻했는가",
+      "lead": "1524~1525년 농민전쟁은 종교개혁의 언어가 사회적 요구와 만난 사건이었다. 그러나 모든 원인을 루터의 가르침 하나로 설명할 수는 없다.",
+      "sections": [
+        {
+          "heading": "오래된 불만이 새로운 언어를 만나다",
+          "body": "농민들의 요구에는 지배 관계와 부담, 지역 공동체의 권한에 관한 문제가 있었다. 개혁의 복음 언어는 이런 불만을 정당화하는 근거로 사용될 수 있었다. 같은 자유라는 말도 신앙적 양심의 자유인지, 지배와 부담에서 벗어날 자유인지에 따라 서로 다르게 이해되었다."
+        },
+        {
+          "heading": "열두 조항과 공동체의 요구",
+          "body": "1525년 메밍겐의 열두 조항에는 목회자 선택, 농노적 예속, 십일조와 공동 이용지 등의 문제가 등장한다. 종교생활과 생계의 요구가 같은 문서 안에 놓였다는 점이 중요하다. 그러나 지역별 봉기를 하나의 지휘부가 움직인 통일 운동으로 보거나 모든 참여자가 같은 목표를 가졌다고 설명해서는 안 된다."
+        },
+        {
+          "heading": "패배가 남긴 질문",
+          "body": "1525년의 진압 과정에서 수많은 농민이 죽었다. 종교개혁을 지지하는 세력 사이에서도 사회적 변화와 폭력, 통치권에 대한 입장이 같지 않았다. 이 사건은 복음의 자유를 말하는 일과 기존 사회 질서를 바꾸는 일이 자동으로 일치하지 않았음을 보여 준다. 이후 농민전쟁의 기억은 여러 정치적 입장에 따라 다시 해석되었다."
+        }
+      ],
+      "reading_question": "같은 종교적 언어를 사용해도 사회적 요구와 정치적 결론이 달라지는 이유는 무엇일까?",
+      "sources": [
+        "S01",
+        "S05",
+        "S07"
+      ],
+      "related_core": [
+        "LUTHER1521",
+        "ZWINGLI"
+      ],
+      "status": "EDITORIAL_DRAFT"
+    }
+  ],
+  "additional_basis": [
+    {
+      "topic": "WOMEN_FAMILY",
+      "path": "data/deep/atlas_v250_women_three_perspectives_synthesis.json"
+    },
+    {
+      "topic": "EDUCATION",
+      "path": "data/deep/atlas_v254_medium_depth_ten_readers.json",
+      "key": "TRENT"
+    }
+  ],
+  "reading_paths": [
+    {
+      "title": "논쟁은 어떻게 사회로 퍼졌는가",
+      "items": [
+        "LUTHER1517",
+        "THEME-PRINT_TRANSLATION",
+        "THEME-EDUCATION"
+      ]
+    },
+    {
+      "title": "누가 공동체의 변화를 결정했는가",
+      "items": [
+        "ZWINGLI",
+        "THEME-CITY_POWER",
+        "THEME-PEASANTS_WAR"
+      ]
+    },
+    {
+      "title": "개혁 속에서 누가 어떤 삶을 선택했는가",
+      "items": [
+        "THEME-WOMEN_FAMILY",
+        "THEME-EDUCATION",
+        "TRENT"
+      ]
+    }
+  ],
+  "metrics": {
+    "new_theme_readers": 5,
+    "new_theme_sections": 15,
+    "new_reading_questions": 5,
+    "core_medium_readers": 10,
+    "total_medium_readers": 15
+  },
+  "publication_gate": {
+    "published": false,
+    "main_changed": false,
+    "webapp_integrated": false
+  }
+}
