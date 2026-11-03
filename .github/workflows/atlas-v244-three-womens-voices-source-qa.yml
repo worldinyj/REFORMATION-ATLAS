@@ -1,0 +1,79 @@
+name: Atlas V244 1524–1526 three women's source provenance and WA15 text QA
+on:
+  push:
+    branches: ['research/**']
+    paths:
+      - 'data/deep/atlas_v244_1524_florentina_1525_sophia_1526_helfta_holzzelle_three_witness_perspectives.json'
+      - 'docs/01_CONTENT/V244_FLORENTINA_1524_SOPHIA_1525_HELFTA_HOLZZELLE_1526_WOMENS_VOICES_REPORT.md'
+      - 'scripts/validate_atlas_v244.py'
+      - '.github/workflows/atlas-v244-three-womens-voices-source-qa.yml'
+  pull_request:
+    branches: ['research/**']
+    paths:
+      - 'data/deep/atlas_v244_1524_florentina_1525_sophia_1526_helfta_holzzelle_three_witness_perspectives.json'
+      - 'docs/01_CONTENT/V244_FLORENTINA_1524_SOPHIA_1525_HELFTA_HOLZZELLE_1526_WOMENS_VOICES_REPORT.md'
+      - 'scripts/validate_atlas_v244.py'
+      - '.github/workflows/atlas-v244-three-womens-voices-source-qa.yml'
+  workflow_dispatch:
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Compile V244 historical witness verifier
+        run: python3 -m py_compile scripts/validate_atlas_v244.py
+      - name: Historical research V219
+        run: python3 scripts/validate_atlas_v219.py
+      - name: Historical research V220
+        run: python3 scripts/validate_atlas_v220.py
+      - name: Historical research V221
+        run: python3 scripts/validate_atlas_v221.py
+      - name: Historical research V222
+        run: python3 scripts/validate_atlas_v222.py
+      - name: Historical research V223
+        run: python3 scripts/validate_atlas_v223.py
+      - name: Historical research V224
+        run: python3 scripts/validate_atlas_v224.py
+      - name: Historical research V225
+        run: python3 scripts/validate_atlas_v225.py
+      - name: Historical research V226
+        run: python3 scripts/validate_atlas_v226.py
+      - name: Historical research V227
+        run: python3 scripts/validate_atlas_v227.py
+      - name: Historical research V228
+        run: python3 scripts/validate_atlas_v228.py
+      - name: Historical research V229
+        run: python3 scripts/validate_atlas_v229.py
+      - name: Historical research V230
+        run: python3 scripts/validate_atlas_v230.py
+      - name: Historical research V231
+        run: python3 scripts/validate_atlas_v231.py
+      - name: Historical research V232
+        run: python3 scripts/validate_atlas_v232.py
+      - name: Historical research V233
+        run: python3 scripts/validate_atlas_v233.py
+      - name: Historical research V234
+        run: python3 scripts/validate_atlas_v234.py
+      - name: Historical research V235
+        run: python3 scripts/validate_atlas_v235.py
+      - name: Historical research V236
+        run: python3 scripts/validate_atlas_v236.py
+      - name: Historical research V237
+        run: python3 scripts/validate_atlas_v237.py
+      - name: Historical research V238
+        run: python3 scripts/validate_atlas_v238.py
+      - name: Historical research V239
+        run: python3 scripts/validate_atlas_v239.py
+      - name: Historical research V240
+        run: python3 scripts/validate_atlas_v240.py
+      - name: Historical research V241
+        run: python3 scripts/validate_atlas_v241.py
+      - name: Historical research V242
+        run: python3 scripts/validate_atlas_v242.py
+      - name: Historical research V243
+        run: python3 scripts/validate_atlas_v243.py
+      - name: Historical research V244
+        run: python3 scripts/validate_atlas_v244.py

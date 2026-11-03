@@ -1,0 +1,703 @@
+{
+  "version": "2.44",
+  "parent_commit": "433243e31978180f6647ca2f02a2ddeae3033d87",
+  "baseline": "data/deep/atlas_v243_sophia_1880_1881_edition_and_biblical_nonretaliation_parallels.json",
+  "kind": "THREE_DISTINCT_WOMENS_VOICES_1524_FLORENTINA_1525_SOPHIA_1526_HELFTA_HOLZZELLE_KAWERAU_BIBLIOGRAPHIC_PRINT_VARIANTS",
+  "publication_gate": {
+    "webapp_publish": false,
+    "florentina_1524_empry_print_original_images_read": false,
+    "florentina_1524_bsb_print_original_images_read": false,
+    "florentina_1524_edition_variants_page_images_verified": false,
+    "sophia_1525_autograph_and_copy_visually_collated": false,
+    "kawerau_1880_1881_pp330_338_original_images_read": false,
+    "abbesses_1526_original_papyrus_or_manuscript_seen": false,
+    "abbesses_1526_empirical_document_delivery_to_emperor_proven": false,
+    "florentina_accusations_independently_proven": false,
+    "visual_asset_rights_verified": false,
+    "external_historical_review": false
+  },
+  "sources": [
+    {
+      "id": "EMORY-1524",
+      "url": "https://digital.pitts.emory.edu/s/paradise-lost/item/2691",
+      "reading_level": "ORIGINAL_1524_PRINT_HOLDING_AND_DIGITAL_ITEM_METADATA",
+      "description": "Pitts Theology Library Emory 1524 LUTH AA, P_000015281127 14 unnumbered pages 4to Wittenberg Cranach, Florentina narrative with Luther sendbrief; original digital scans not visually read",
+      "original_1524_1525_1526_page_folio_directly_seen": false
+    },
+    {
+      "id": "GOOGLE-1524",
+      "url": "https://books.google.com/books?id=UVZj0K-lR9UC",
+      "reading_level": "ORIGINAL_1524_PRINT_DIGITAL_BOOK_CATALOGUE_AND_OCR_TERMS",
+      "description": "BSB original digitized Jul1 2014, 16 digital/printed pages reported, full-view metadata and title visible; PDF download forbidden 403, original pages not read",
+      "original_1524_1525_1526_page_folio_directly_seen": false
+    },
+    {
+      "id": "HAB-1524",
+      "url": "https://dev.hab.de/lutherkat/search.php?m1=jahr&st1=1524",
+      "reading_level": "OFFICIAL_BIBLIOGRAPHIC_TRANSCRIPTION_VARIANT_DESCRIPTIONS",
+      "description": "Herzog August Bibliothek Lutherdrucke items 1220 O90 and 1221 O91, early Wittenberg Cranach and Döring, title word and A4r variants by catalog; page image unviewed",
+      "original_1524_1525_1526_page_folio_directly_seen": false
+    },
+    {
+      "id": "OXFORD-2023",
+      "url": "https://ora.ox.ac.uk/objects/uuid%3Ab0bd6275-19e5-4c3b-9ef7-5951fc779093/files/sg445cg494",
+      "reading_level": "DIRECT_ACADEMIC_TEXT_EXTRACT_FROM_2023_PDF",
+      "description": "Gieseler Lähnemann Powell 2023 Reformation Pamphlets Vol6 intro lii–liv with short historical-German printed passages cited WA15 87–93; modern PDF screenshot 403; textual PDF extract read, rights CC BY-SA4.0",
+      "original_1524_1525_1526_page_folio_directly_seen": false
+    },
+    {
+      "id": "EFD-FLORENTINA",
+      "url": "https://evangelischefrauen-deutschland.de/biografien/florentina-von-oberweimar/",
+      "reading_level": "SPECIALIST_BIOGRAPHY",
+      "description": "Dorothee Kommer Florentina: entered 6, vows about16, failed escape Oct1523, escaped by March1524, Katharina von Watzdorf abbess, 1524 printed Wittenberg and five regional reprints, firsthand account used cautiously",
+      "original_1524_1525_1526_page_folio_directly_seen": false
+    },
+    {
+      "id": "GOTHA-SOPHIA-2025",
+      "url": "https://blog-fbg.uni-erfurt.de/2025/04/dass-wir-nicht-fluechgen-noch-eyn-bosse-hertz-haben-kegen-vnsser-feynde/",
+      "reading_level": "INSTITUTIONAL_SOPHIA_SOURCE_TRANSCRIPTION",
+      "description": "Sophia von Schafstädt May3 1525 Naundorf abbess, flee to Halle, short primary excerpts flüchgen≠flygen and 16 people 5 gulden; autograph folios not read",
+      "original_1524_1525_1526_page_folio_directly_seen": false
+    },
+    {
+      "id": "GOTHA-SOPHIA-ORIG",
+      "url": "https://kalliope.staatsbibliothek-berlin.de/ead?ead.id=DE-611-HS-3409555",
+      "reading_level": "OFFICIAL_1525_AUTOGRAPH_HOLDING",
+      "description": "Gotha Chart A338 254r–256v Sophia 3 May1525 original",
+      "original_1524_1525_1526_page_folio_directly_seen": false
+    },
+    {
+      "id": "GOTHA-SOPHIA-COPY",
+      "url": "https://kalliope.staatsbibliothek-berlin.de/ead?ead.id=DE-611-HS-3409718",
+      "reading_level": "OFFICIAL_DERIVATIVE_HOLDING",
+      "description": "Gotha Chart A338 257r–260bv later copy explicitly from 254r–256v",
+      "original_1524_1525_1526_page_folio_directly_seen": false
+    },
+    {
+      "id": "OEF-2019",
+      "url": "https://unglueit-files.s3.amazonaws.com/ebf/b159ecc84b5b4f3db63aa17db50685f2.pdf",
+      "reading_level": "MODERN_SCHOLARLY_HISTORICAL_STUDY_TEXT_EXTRACT",
+      "description": "Cornelia Oefelein in Mechthild und das Fließende Licht der Gottheit im Kontext 2019 pp58-60: 12Nov1526 Helfta/Holzzelle abbesses petition, 1529 petition for monastery restoration, 1534 mass/1542 evangelical services; PDF screenshot 403 source text extracted only; CC BY-NC-ND 4.0",
+      "original_1524_1525_1526_page_folio_directly_seen": false
+    },
+    {
+      "id": "KAW-1880-1881",
+      "url": "https://zs.thulb.uni-jena.de/receive/jportal_jparticle_00254558",
+      "reading_level": "1880_VOLUME_1881_ISSUED_PRIMARY_PRINT_BIBLIOGRAPHY",
+      "description": "Gustav Kawerau Zur Geschichte des Klosterstürmens 13(1880) actual 1881, Sophia transcript pp330–335, second Helfta/Holzzelle 1526 petition pp335–338, actual page images unread",
+      "original_1524_1525_1526_page_folio_directly_seen": false
+    },
+    {
+      "id": "SLUB-HARZ-13",
+      "url": "https://katalog.slub-dresden.de/id/0-12952784X",
+      "reading_level": "INSTITUTIONAL_ISSUE_YEAR_RECORD",
+      "description": "SLUB periodical 13.1880(1881)+Index confirms 1880 year-of-volume vs 1881 issuance",
+      "original_1524_1525_1526_page_folio_directly_seen": false
+    },
+    {
+      "id": "MEISSEN-HISTORY",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Mitteilungen_des_Vereins_f%C3%BCr_Geschichte_der_Stadt_Meissen_%28IA_mitteilungendesv04unse%29.pdf",
+      "reading_level": "HISTORICAL_SCHOLARLY_CITATION_VISIBLE_SEARCH_EXCERPT",
+      "description": "Later Meissen historical essay describes joint 12 Nov1526 complaint to Charles V by Helfta and Holzzelle abbesses re property and manuscripts, mentions 1534 follow-up by Felicitas, full 36MB PDF not fetched",
+      "original_1524_1525_1526_page_folio_directly_seen": false
+    },
+    {
+      "id": "SECONDARY-1526",
+      "url": "https://www.deutsche-biographie.de/sfz35638.html",
+      "reading_level": "CHRONOLOGY_CONTEXT_NOT_PRIMARY_PETITION",
+      "description": "Elector Frederick died 5 May1525, do not conflate with Habsburg imperial petition Nov1526",
+      "original_1524_1525_1526_page_folio_directly_seen": false
+    },
+    {
+      "id": "KAW-FILE",
+      "url": "https://zs.thulb.uni-jena.de/servlets/MCRFileNodeServlet/jportal_derivate_00211791/Zeitschrift_Harz-Vereins_Altertum_12952784X_1880_13.pdf",
+      "reading_level": "EXACT_FULL_1880_VOLUME_PDF_PATH_BLOCKED",
+      "description": "Correct Jena volume13 full file, anti-bot challenge, print pp330–338 inaccessible",
+      "original_1524_1525_1526_page_folio_directly_seen": false
+    },
+    {
+      "id": "FLORENTINA-2024",
+      "url": "https://dev.hab.de/lutherkat/search.php?m1=jahr&st1=1524",
+      "reading_level": "OFFICIAL_1524_REPRINT_IMPRINT_RECORDS",
+      "description": "HAB 1222 Augsburg Ulhart VD16 O85, 1223 Nürnberg Peypus and regional bibliographic variants; six printings in 1524 per specialist biography",
+      "original_1524_1525_1526_page_folio_directly_seen": false
+    },
+    {
+      "id": "WA15-1899-HTML",
+      "url": "https://www.lutherdansk.dk/WA%2015/WA%2015%20-%20Predigten%20und%20Schriften%201524.htm",
+      "reading_level": "DIRECT_1524_EARLY_GERMAN_PRIMARY_LANGUAGE_TEXT_IN_1899_SCHOLARLY_EDITION_TRANSCRIPTION",
+      "description": "Weimar edition 1899 WA15 pp86–94: Luther's 1524 covering letter and Florentina's narrative distinguishable; editorial variants A–F; Florentina's own admission prior attempt 6 gulden and two silver rings returned, final exit with clothing/veils; original 1524 page images not read",
+      "original_1524_1525_1526_page_folio_directly_seen": false
+    },
+    {
+      "id": "OEF2019-ESV-PUBLISHER",
+      "url": "https://www.esv.info/download/media/9783503187232/978-3-503-18723-2_Mechthild-Fliessendes-Licht-im-Kontext.pdf",
+      "reading_level": "DIRECT_2019_OPEN_ACCESS_SCHOLARLY_TEXT_PP58_60_NOT_HISTORIC_PRIMARY_PAGE",
+      "description": "Oefelein 2019 pp58–60: Nov12 1526 Helfta/Holzzelle abbesses joint complaint Kawerau pp335–338; actual emperor receipt doubtful. 1529 Katharina reconstruction plea, 1534 Anna permission for mass, 1542 Walburga Lutheran service issue. PDF page screenshots timed out, text extraction read. CC BY-NC-ND.",
+      "original_1524_1525_1526_page_folio_directly_seen": false
+    }
+  ],
+  "voices": [
+    {
+      "id": "VOICE-1524",
+      "year": 1524,
+      "name": "Florentina von Oberweimar",
+      "religious_community": "Kloster Neu-Helfta near Eisleben",
+      "role": "former nun narrating coerced vows and escape",
+      "document": "Eyn geschicht wie Got eyner Erbarn kloster Jungfrawe[n] ausgeholffen hat, with Martin Luther's Sendebrieff to Counts of Mansfeld",
+      "source_ids": [
+        "EMORY-1524",
+        "GOOGLE-1524",
+        "OXFORD-2023",
+        "EFD-FLORENTINA"
+      ],
+      "argument_limit": "FIRST_PERSON_POLEMICAL_PAMPHLET_AND_LUTHER_FRAME_NOT_NEUTRAL_CONVENT_AUDIT",
+      "original_page_images_seen": 0
+    },
+    {
+      "id": "VOICE-1525",
+      "year": 1525,
+      "name": "Sophia von Schafstädt",
+      "religious_community": "Naundorf / Kloster Neuendorf near Allstedt",
+      "role": "Cistercian abbess appealing for help after attack and flight",
+      "document": "1525-05-03 autograph to presumed Georg Spalatin, Gotha A338 254r–256v, derivative copy 257r–260bv",
+      "source_ids": [
+        "GOTHA-SOPHIA-2025",
+        "GOTHA-SOPHIA-ORIG",
+        "GOTHA-SOPHIA-COPY"
+      ],
+      "argument_limit": "AUTHOR_PLEA_AND_FIRST_PERSON_TESTIMONY_NOT_INDEPENDENT_NEUTRAL_COURT_FACTS",
+      "original_page_images_seen": 0
+    },
+    {
+      "id": "VOICE-1526",
+      "year": 1526,
+      "name": "Abbesses of Helfta and Holzzelle",
+      "religious_community": "Two different convent communities Helfta and Holzzelle",
+      "role": "joint claimants seeking return of goods and documentary property",
+      "document": "Complaint dated 12 Nov 1526, later printed Kawerau journal13 pp335–338",
+      "source_ids": [
+        "OEF-2019",
+        "KAW-1880-1881",
+        "MEISSEN-HISTORY"
+      ],
+      "argument_limit": "MODERN_SCHOLARLY_SUMMARY_AND_LATER_PRINT_REFERENCE; ORIGINAL_AND_1880_TEXT_UNREAD",
+      "original_page_images_seen": 0
+    }
+  ],
+  "physical_print_witnesses": [
+    {
+      "id": "FLO-EMORY",
+      "work": "FLORENTINA-1524",
+      "origin": "Emory Pitts Kessler Reformation Collection",
+      "shelfmark": "1524 LUTH AA / P_000015281127",
+      "year": 1524,
+      "language": "Early New High German",
+      "extent": "14 unnumbered printed pages, quarto, first printing library assertion",
+      "scan_pages_read": 0,
+      "source_ids": [
+        "EMORY-1524"
+      ]
+    },
+    {
+      "id": "FLO-BSB",
+      "work": "FLORENTINA-1524",
+      "origin": "BSB original digitized for Google Books",
+      "shelfmark": "Google Books UVZj0K-lR9UC",
+      "year": 1524,
+      "language": "Early New High German",
+      "extent": "16 pages in Google Books record; not automatically a different edition from 14 printed sides",
+      "scan_pages_read": 0,
+      "source_ids": [
+        "GOOGLE-1524"
+      ]
+    },
+    {
+      "id": "FLO-HAB-O90",
+      "work": "FLORENTINA-1524",
+      "origin": "HAB Wittenberg Cranach/Döring variant Aa",
+      "shelfmark": "Wolfenbüttel Lutherdrucke 1220 VD16 O90",
+      "year": 1524,
+      "language": "Early New High German",
+      "extent": "8 leaves with A1 verso and B4 blank, no photo viewed",
+      "scan_pages_read": 0,
+      "source_ids": [
+        "HAB-1524"
+      ]
+    },
+    {
+      "id": "FLO-HAB-O91",
+      "work": "FLORENTINA-1524",
+      "origin": "HAB Wittenberg Cranach/Döring variant Ab",
+      "shelfmark": "Wolfenbüttel Lutherdrucke 1221 VD16 O91",
+      "year": 1524,
+      "language": "Early New High German",
+      "extent": "8 leaves, multiple extant local copies and within-entry reading variants",
+      "scan_pages_read": 0,
+      "source_ids": [
+        "HAB-1524"
+      ]
+    },
+    {
+      "id": "KAW-V13",
+      "work": "KAWERAU-1880-1881",
+      "origin": "Jena historical journal digital edition",
+      "shelfmark": "Zeitschrift des Harz-Vereins vol13(1880), issued1881 pp330–338",
+      "year": 1881,
+      "language": "Historic German source print",
+      "extent": "Sophia pp330–335; 1526 Helfta/Holzzelle petition pp335–338",
+      "scan_pages_read": 0,
+      "source_ids": [
+        "KAW-1880-1881",
+        "SLUB-HARZ-13"
+      ]
+    }
+  ],
+  "catalogue_print_variants": [
+    {
+      "id": "V-01",
+      "from": "FLO-HAB-O90",
+      "to": "FLO-HAB-O91",
+      "leaf": "title_page",
+      "reading_a": "Eyn geschihct",
+      "reading_b": "Eyn geschicht",
+      "kind": "TITLING_TYPO_OR_IMPRINT_VARIANT",
+      "bibliographic_evidence": "HAB register items1220 vs1221; not direct scan",
+      "page_image_verified": false
+    },
+    {
+      "id": "V-02",
+      "from": "FLO-HAB-O90",
+      "to": "FLO-HAB-O91",
+      "leaf": "A3r line14",
+      "reading_a": "starkes Komma nach ist",
+      "reading_b": "schwaches Komma nach ist",
+      "kind": "PUNCTUATION_VARIANT_DESCRIBED_BY_CATALOGUE",
+      "bibliographic_evidence": "HAB items 1220 Aa and 1221 Ab",
+      "page_image_verified": false
+    },
+    {
+      "id": "V-03",
+      "from": "FLO-HAB-O90",
+      "to": "FLO-HAB-O91",
+      "leaf": "A4r line16",
+      "reading_a": "klosters",
+      "reading_b": "kloisters",
+      "kind": "ORTHOGRAPHY_OR_TYPE_SETTING",
+      "bibliographic_evidence": "HAB item 1221 includes local copies with klosters as well, do not assume absolute every copy",
+      "page_image_verified": false
+    },
+    {
+      "id": "V-04",
+      "from": "FLO-HAB-O90",
+      "to": "FLO-HAB-O91",
+      "leaf": "A4r line17",
+      "reading_a": "schrifftlich",
+      "reading_b": "schrfftlich",
+      "kind": "LETTER_OMISSION_OR_TYPE_SETTING",
+      "bibliographic_evidence": "HAB item 1221 includes local copies with schrifftlich as well",
+      "page_image_verified": false
+    },
+    {
+      "id": "V-05",
+      "from": "FLO-HAB-O91",
+      "to": "FLO-HAB-O91",
+      "leaf": "B1r line2",
+      "reading_a": "rad (Ab catalogue)",
+      "reading_b": "not established for all Ab copies",
+      "kind": "WITHIN_EDITIONS_VARIABILITY_NOT_ASSIGNED_COPY",
+      "bibliographic_evidence": "HAB item1221 variant notes and exemplars; must avoid invented reading",
+      "page_image_verified": false
+    }
+  ],
+  "transcribed_short_anchors": [
+    {
+      "id": "L-01",
+      "text": "Gott will nicht gezwungen dienst haben",
+      "words": 6,
+      "voice": "LUTHER_EDITORIAL_FRAME",
+      "source_id": "OXFORD-2023",
+      "meaning_ko": "강제된 섬김을 하나님은 원하지 않는다는 루터의 신학적 일반화",
+      "context": "1524 pamphlet Luther letter a3r in 2023 Oxford study; not Florentina's sole own statement",
+      "original_pamphlet_photo_seen": false
+    },
+    {
+      "id": "F-01",
+      "text": "Babilonische gefengknis",
+      "words": 2,
+      "voice": "FLORENTINA_AUTOBIOGRAPHICAL_METAPHOR",
+      "source_id": "OXFORD-2023",
+      "meaning_ko": "원하지 않는 수도 서원을 바빌론 포로 상태와 견줌",
+      "context": "Florentina narrative b1r in academic quotation; physical page unviewed",
+      "original_pamphlet_photo_seen": false
+    },
+    {
+      "id": "F-02",
+      "text": "gefengnis sollt ich mich meyn lebenlang geben",
+      "words": 7,
+      "voice": "FLORENTINA_AUTOBIOGRAPHICAL_REPORTED_DISCIPLINE",
+      "source_id": "OXFORD-2023",
+      "meaning_ko": "평생 감시·갇힘을 감내하도록 요구받았다는 그의 주장을 표현",
+      "context": "Florentina narrative b3r abbreviated quotation in Oxford; not independent corroborated abbess records",
+      "original_pamphlet_photo_seen": false
+    },
+    {
+      "id": "F-03",
+      "text": "liebhaber Euangelischer warheyt",
+      "words": 3,
+      "voice": "FLORENTINA_DESCRIBES_ALLY",
+      "source_id": "EFD-FLORENTINA",
+      "meaning_ko": "복음적 진리의 사랑하는 사람으로 친척을 묘사",
+      "context": "Biography cites WA15 p92 l24",
+      "original_pamphlet_photo_seen": false
+    },
+    {
+      "id": "S-01",
+      "text": "nicht flüchgen",
+      "words": 2,
+      "voice": "SOPHIA_1525_AUTOGRAPH_QUOTED_MODERN",
+      "source_id": "GOTHA-SOPHIA-2025",
+      "meaning_ko": "저주하지 않음, 피난 거절이 아님",
+      "context": "Gotha archival scholarly short quote",
+      "original_pamphlet_photo_seen": false
+    },
+    {
+      "id": "S-02",
+      "text": "nicht argeß mit argem begaben",
+      "words": 5,
+      "voice": "SOPHIA_1525_AUTOGRAPH_QUOTED_MODERN",
+      "source_id": "GOTHA-SOPHIA-2025",
+      "meaning_ko": "악을 악으로 갚지 않음",
+      "context": "First-person faith ethics; not objective proof of conflict's external causes",
+      "original_pamphlet_photo_seen": false
+    }
+  ],
+  "chronology": [
+    {
+      "id": "Y01",
+      "date": "1523-10",
+      "claim_ko": "플로렌티나는 헬프타 수녀원에서 탈출을 시도했다가 실패했다고 훗날 주장한다.",
+      "sources": [
+        "EFD-FLORENTINA",
+        "OXFORD-2023"
+      ],
+      "certainty": "AUTHOR_ACCOUNT_MEDIATED_BY_SCHOLARSHIP"
+    },
+    {
+      "id": "Y02",
+      "date": "1523-12 to 1524-03",
+      "claim_ko": "플로렌티나는 서원과 감금에 항의한 뒤 헬프타에서 탈출했으며 루터에게 전달된 기록을 공개했다.",
+      "sources": [
+        "EFD-FLORENTINA",
+        "OXFORD-2023"
+      ],
+      "certainty": "AUTHOR_ACCOUNT_MEDIATED_BY_SCHOLARSHIP"
+    },
+    {
+      "id": "Y03",
+      "date": "1524-03 to 1524-04",
+      "claim_ko": "플로렌티나의 이야기는 루터의 귀족 대상 공개 편지와 함께 비텐베르크에서 처음 인쇄되고 같은 해 여러 도시로 재인쇄됐다.",
+      "sources": [
+        "EFD-FLORENTINA",
+        "EMORY-1524",
+        "HAB-1524"
+      ],
+      "certainty": "PHYSICAL_HOLDING_AND_SPECIALIST_BIOGRAPHY"
+    },
+    {
+      "id": "Y04",
+      "date": "1525-05-01",
+      "claim_ko": "나운도르프의 수녀원장 소피아는 다른 수녀들과 할레로 피난했다고 진술한다. 헬프타와 별개의 수도원이다.",
+      "sources": [
+        "GOTHA-SOPHIA-2025"
+      ],
+      "certainty": "AUTHOR_AUTOGRAPH_EXCERPT_IN_SCHOLARSHIP"
+    },
+    {
+      "id": "Y05",
+      "date": "1525-05-03",
+      "claim_ko": "소피아는 슈팔라틴에게 자신의 공동체에 대한 도움을 청했다.",
+      "sources": [
+        "GOTHA-SOPHIA-ORIG",
+        "GOTHA-SOPHIA-2025"
+      ],
+      "certainty": "AUTOGRAPH_CATALOGUE_AND_SCHOLARSHIP"
+    },
+    {
+      "id": "Y06",
+      "date": "1525-spring",
+      "claim_ko": "헬프타 공동체 역시 농민전쟁 중 약탈당했다고 후대 역사 연구가 설명한다.",
+      "sources": [
+        "OEF-2019"
+      ],
+      "certainty": "MODERN_SECONDARY_HISTORICAL_STUDY"
+    },
+    {
+      "id": "Y07",
+      "date": "1526-11-12",
+      "claim_ko": "헬프타와 홀첼레의 수녀원장들이 손실 재산과 서류의 반환을 요구한 청원서를 함께 작성한 것으로 전한다.",
+      "sources": [
+        "OEF-2019",
+        "MEISSEN-HISTORY"
+      ],
+      "certainty": "SCHOLARLY_PRINT_REFERENCE_ORIGINAL_UNREAD"
+    },
+    {
+      "id": "Y08",
+      "date": "1529-06-12",
+      "claim_ko": "헬프타 수녀원장의 수리·재정착 지원 요청이 호이어 폰 만스펠트에게 전달됐다.",
+      "sources": [
+        "OEF-2019"
+      ],
+      "certainty": "SECONDARY_HISTORICAL_STUDY_CITES_ARCHIVAL_REGEST"
+    },
+    {
+      "id": "Y09",
+      "date": "1534",
+      "claim_ko": "헬프타 수녀원이 별도 공간에서 미사를 거행할 허가를 얻었다고 후대 연구가 전한다.",
+      "sources": [
+        "OEF-2019"
+      ],
+      "certainty": "SECONDARY_HISTORICAL_STUDY"
+    },
+    {
+      "id": "Y10",
+      "date": "1542",
+      "claim_ko": "헬프타 수녀원 교회에서 복음적 예배가 이루어졌다는 1542년의 청원이 남아 있다고 후대 연구가 정리한다.",
+      "sources": [
+        "OEF-2019"
+      ],
+      "certainty": "SECONDARY_HISTORICAL_STUDY"
+    }
+  ],
+  "issue_entanglement": {
+    "religious_communities_distinct": [
+      "HELFTA_NEUHELFTA",
+      "NAUNDORF_NEUENDORF",
+      "HOLZZELLE"
+    ],
+    "florentina_location": "HELFTA_NEUHELFTA",
+    "sophia_location": "NAUNDORF_NEUENDORF",
+    "abbesses_joint_location": [
+      "HELFTA_NEUHELFTA",
+      "HOLZZELLE"
+    ],
+    "florentina_1524_not_same_as_sophia_1525": true,
+    "florentina_1524_grievance_not_independent_proof_of_every_accusation": true,
+    "abbess_1526_political_petition_not_same_document_as_sophia_1525_personal_letter": true,
+    "abbess_1526_source_is_not_direct_original_read": true,
+    "luther_editorial_polemic_must_not_replace_florentina_original_autobiography": true,
+    "emperor_charles_v_petition_delivery_unknown": true,
+    "helfta_1525_assault_causation_from_florentina_1524_pamphlet_unproven": true,
+    "hab_vd16_o90_o91_direct_page_comparison_not_done": true,
+    "wa1899_luther_and_florentina_distinct_voices": true,
+    "kawerau_v13_year_of_volume_1880_issued_1881": true
+  },
+  "reader_sections": [
+    {
+      "id": "R01",
+      "title": "한 수도원을 떠나고 싶은 여성",
+      "body_ko": "1524년 플로렌티나는 자신이 어린 나이에 수도원에 들어갔으며 충분히 이해하지 못한 상태에서 수녀의 길을 결정해야 했다고 주장했다. 그는 감금과 처벌, 명예 훼손이라는 경험을 글로 남겨 세상에 알렸다. 이 이야기는 루터의 신학적 주장이 아닌 여성의 일인칭 증언으로 먼저 읽어야 한다.",
+      "sources": [
+        "OXFORD-2023",
+        "EMORY-1524"
+      ]
+    },
+    {
+      "id": "R02",
+      "title": "루터는 어떻게 그의 이야기를 다시 해석했나",
+      "body_ko": "루터는 플로렌티나의 개인 경험을 이용해 원하지 않는 수도 서원을 강제하는 제도를 크게 비판했다. 1524년 소책자는 여성 자신이 경험을 진술한 부분과 루터가 신학 논증을 전개한 부분이 결합된 인쇄물이다. 두 사람의 말과 목적을 구별하는 것이 역사가의 작업이다.",
+      "sources": [
+        "OXFORD-2023",
+        "EFD-FLORENTINA"
+      ]
+    },
+    {
+      "id": "R03",
+      "title": "1524년의 작은 책은 여러 도시에서 인쇄되었다",
+      "body_ko": "같은 제목으로 인쇄된 소책자는 비텐베르크를 넘어 아우크스부르크·뉘른베르크·에르푸르트 등으로 퍼졌다. 현존 비텐베르크 판본 두 계열은 단순 철자와 쉼표 차이를 보존하고 있다. 실제 내용의 변화인지 인쇄소의 조판 오류인지는 각 판본의 지면을 직접 비교해야 한다.",
+      "sources": [
+        "EMORY-1524",
+        "HAB-1524",
+        "EFD-FLORENTINA"
+      ]
+    },
+    {
+      "id": "R04",
+      "title": "한 해 뒤 다른 수녀원장은 폭력 속에서 피난했다",
+      "body_ko": "소피아는 플로렌티나와 다른 수녀원 나운도르프에서 살았다. 1525년 그는 수녀들을 데리고 안전한 할레로 피난하면서도 적을 저주하지 않으려 했다. 제도적 강제에 대한 비판과 폭력적인 수도원 공격에 대한 비판은 같은 사람이 한 말이 아니며, 서로 다른 상황에서 나타난 경험이다.",
+      "sources": [
+        "GOTHA-SOPHIA-2025",
+        "GOTHA-SOPHIA-ORIG"
+      ]
+    },
+    {
+      "id": "R05",
+      "title": "1526년 수녀원 공동체는 재산과 문서를 돌려받기를 원했다",
+      "body_ko": "헬프타와 홀첼레의 수녀원장들은 농민전쟁 뒤 보관을 맡긴 보물과 문서, 공동체의 생활 기반을 되찾고자 1526년 공동 청원서를 작성한 것으로 전한다. 훗날 1880년 학회지에 수록된 이 문서를 직접 읽지 못했으므로 요청의 정확한 라틴어·독일어 문장과 실제 황제에게 도착했는지는 미확인 상태다.",
+      "sources": [
+        "OEF-2019",
+        "MEISSEN-HISTORY"
+      ]
+    },
+    {
+      "id": "R06",
+      "title": "한 수도원 안에도 대립된 이해관계가 있었다",
+      "body_ko": "헬프타에서는 1524년 한 여성이 그곳의 강제적 수도 생활을 비판했고, 1526년에는 수녀원장들이 공동체의 재산이 보호되지 않는 현실을 호소했다. 두 주장은 모순처럼 보이지만 당시 같은 제도의 서로 다른 위치에서 겪은 경험을 보여 준다. 두 사료는 판사가 작성한 중립 판결이 아니므로 모두 진술자로 표시해야 한다.",
+      "sources": [
+        "EFD-FLORENTINA",
+        "OEF-2019"
+      ]
+    },
+    {
+      "id": "R07",
+      "title": "소책자의 철자 하나도 판본 증거다",
+      "body_ko": "헤어초크 아우구스트 도서관 목록은 비텐베르크 판본에서 'klosters'와 'kloisters', 'schrifftlich'와 'schrfftlich' 같은 조판상의 차이를 기록한다. 이런 독법은 역사 사건의 사실을 바꾸는 주장이 아니라 당시 인쇄가 재조판되고 다른 상태의 책이 남았음을 보여 준다. 인쇄변이를 원고 저자가 직접 수정했다고 단정하지 않는다.",
+      "sources": [
+        "HAB-1524"
+      ]
+    },
+    {
+      "id": "R08",
+      "title": "당사자의 목소리와 인쇄자의 목소리를 분리하다",
+      "body_ko": "플로렌티나의 경험, 루터의 기독교적 자유 논증, 소피아의 피난 중 구조 요청, 두 수녀원장들의 공동체 재산 반환 호소는 각기 다른 목적의 글이다. 종교개혁을 승리한 진영의 한 줄 이야기로 줄이면 기록 속 여성들의 선택과 이해관계가 사라진다. ATLAS에서는 문서마다 화자·대상·목적·원문 수준을 표시하도록 한다.",
+      "sources": [
+        "OXFORD-2023",
+        "GOTHA-SOPHIA-2025",
+        "OEF-2019"
+      ]
+    }
+  ],
+  "open_issues": [
+    "Secure actual 1524 Florentina original facsimile Emory pages or BSB 16-page images; collate 2023 Oxford quoted fragments",
+    "Inspect HAB 1524 Wittenberg VD16 O90 vs O91 specific A3r/A4r and imprint variations in actual scans",
+    "Read 1880/1881 Kawerau Journal vol13 pp330–335 Sophia and pp335–338 Helfta/Holzzelle petition",
+    "Identify any 1526 original autograph, text language, copy lineage, exact addressee and whether reached emperor",
+    "Check women in 1526 complaint using originals: Katharina von Watzdorf Helfta and Felicitas von Thobeln Holzzelle as historiography only",
+    "Compare 1524 pamphlet accounts to independent convent records and contemporary critique from different standpoints",
+    "Compare 1525 Sophia autograph and derivative copy first, alongside 1880 printed text; do not conflate Naundorf with Helfta",
+    "Link Saxon 1526 Speyer Reichsabschied property restitution framework without implying petition directly relied on it",
+    "Continue 1718 Cyprian 1521 petition/reply printed pp367–372 and pp234–240 source variant task",
+    "Protect publication rights: Emory digital photos vs public-domain 1524 text, Oxford CC BY-SA, 2019 book CC BY-NC-ND"
+  ],
+  "metrics": {
+    "sources": 17,
+    "three_perspectives": 3,
+    "distinct_monastic_communities": 3,
+    "old_print_witnesses": 5,
+    "official_1524_bibliographic_variants": 5,
+    "short_reported_original_language_anchors": 6,
+    "chronology_events": 10,
+    "new_reader_sections": 8,
+    "open_issues": 10,
+    "full_1524_old_print_pages_directly_seen": 0,
+    "full_1525_autograph_pages_directly_seen": 0,
+    "full_1526_petition_old_print_pages_directly_seen": 0,
+    "prior_1529_k_photographed_faces": 2,
+    "prior_1529_zwingli_dialogue_pages": 4,
+    "webapp_publications": 0,
+    "direct_1524_primary_language_microreadings_from_1899_edition": 8
+  },
+  "critical_direct_edition_findings": [
+    {
+      "id": "H1",
+      "wa_page": "86–88",
+      "voice": "MARTIN_LUTHER_SEND_BRIEF",
+      "original_excerpt": "gezwungen dienst",
+      "interpretation_ko": "강제된 수도 서원을 논박하는 루터 자신의 일반 신학 명제",
+      "source_id": "WA15-1899-HTML",
+      "read_from_1899_primary_language_edition": true,
+      "original_1524_page_image_seen": false,
+      "text_units_are_short_part_of_1899_edition": true
+    },
+    {
+      "id": "H2",
+      "wa_page": "89",
+      "voice": "FLORENTINA_SELF_DEFENCE",
+      "original_excerpt": "meyne ehre",
+      "interpretation_ko": "탈출 후 명예훼손 의혹에 맞서 명예를 지키려는 저술 동기",
+      "source_id": "WA15-1899-HTML",
+      "read_from_1899_primary_language_edition": true,
+      "original_1524_page_image_seen": false,
+      "text_units_are_short_part_of_1899_edition": true
+    },
+    {
+      "id": "H3",
+      "wa_page": "90",
+      "voice": "FLORENTINA_NOVITIATE",
+      "original_excerpt": "liber discede",
+      "interpretation_ko": "수련·서원의 자유로운 선택 절차를 제대로 허용받지 못했다고 주장",
+      "source_id": "WA15-1899-HTML",
+      "read_from_1899_primary_language_edition": true,
+      "original_1524_page_image_seen": false,
+      "text_units_are_short_part_of_1899_edition": true
+    },
+    {
+      "id": "H4",
+      "wa_page": "91",
+      "voice": "FLORENTINA_FOUR_WEEK_CONFINEMENT",
+      "original_excerpt": "iiij wochen",
+      "interpretation_ko": "약 4주 감금됐다는 자기 경험 진술, 외부 장부 검증은 없음",
+      "source_id": "WA15-1899-HTML",
+      "read_from_1899_primary_language_edition": true,
+      "original_1524_page_image_seen": false,
+      "text_units_are_short_part_of_1899_edition": true
+    },
+    {
+      "id": "H5",
+      "wa_page": "93",
+      "voice": "FLORENTINA_ADMITS_TEMPORARY_TAKING",
+      "original_excerpt": "vi. gulden und zween sylbern ringe",
+      "interpretation_ko": "이전 탈출 시도 때 6굴덴과 은반지 두 개를 가져간 사실을 스스로 인정함",
+      "source_id": "WA15-1899-HTML",
+      "read_from_1899_primary_language_edition": true,
+      "original_1524_page_image_seen": false,
+      "text_units_are_short_part_of_1899_edition": true
+    },
+    {
+      "id": "H6",
+      "wa_page": "93",
+      "voice": "FLORENTINA_REPORTS_RESTITUTION",
+      "original_excerpt": "widderkriegen",
+      "interpretation_ko": "그 돈과 반지는 감금·독방 수색 때 수도원이 되돌려 받았다는 본인 진술",
+      "source_id": "WA15-1899-HTML",
+      "read_from_1899_primary_language_edition": true,
+      "original_1524_page_image_seen": false,
+      "text_units_are_short_part_of_1899_edition": true
+    },
+    {
+      "id": "H7",
+      "wa_page": "94",
+      "voice": "FLORENTINA_FINAL_DEPARTURE_CLOTHING",
+      "original_excerpt": "roeckleyn",
+      "interpretation_ko": "최종 탈출에는 낡은 옷과 몸을 가릴 천을 가지고 나왔다는 진술",
+      "source_id": "WA15-1899-HTML",
+      "read_from_1899_primary_language_edition": true,
+      "original_1524_page_image_seen": false,
+      "text_units_are_short_part_of_1899_edition": true
+    },
+    {
+      "id": "H8",
+      "wa_page": "94",
+      "voice": "MARTIN_LUTHER_EDITORIAL_POSTSCRIPT",
+      "original_excerpt": "Martinus Luther",
+      "interpretation_ko": "플로렌티나 서술 다음에 루터의 별도 글이 위치, 여성의 말로 합치지 않음",
+      "source_id": "WA15-1899-HTML",
+      "read_from_1899_primary_language_edition": true,
+      "original_1524_page_image_seen": false,
+      "text_units_are_short_part_of_1899_edition": true
+    }
+  ],
+  "editorial_inference_guards": {
+    "prior_six_gulden_two_silver_rings_self_reported_taken": true,
+    "prior_six_gulden_two_silver_rings_self_reported_returned": true,
+    "final_departure_clothing_self_reported": true,
+    "independent_money_return_receipt_verified": false,
+    "luther_preface_not_florentina_voice": true,
+    "luther_postscript_not_florentina_voice": true,
+    "wa15_1899_read_not_1524_facsimile": true,
+    "florentina_pamphlet_caused_1525_helfta_attack_proven": false,
+    "abbesses_1526_petition_emperor_actual_delivery_proven": false,
+    "oefelein2019_pdf_screenshot_success": false
+  }
+}
