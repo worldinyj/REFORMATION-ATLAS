@@ -1,0 +1,189 @@
+{
+  "version": "2.48",
+  "status": "DRAFT",
+  "parent_commit": "da5a3be06a6e1144b72d09a28314c365b917bcc1",
+  "source": {
+    "url": "https://dev.hab.de/lutherkat/search.php?m1=jahr&st1=1524",
+    "institution": "Herzog August Bibliothek",
+    "catalogue_entries": [
+      1220,
+      1221
+    ],
+    "retrieval": "SEARCH_INDEX_TEXT_CONFIRMED_WITH_TWO_SEARCH_ENGINES",
+    "direct_http_status": 403,
+    "full_page_downloaded": false,
+    "original_photographs_seen": 0
+  },
+  "preserved_files": [
+    {
+      "path": "data/deep/atlas_v219_structured_ten_reader_critical_editions.json",
+      "sha256": "0fea005d6592dbc976b46da1d1d9d6f217b4390a2708b304968648a64ad82efb"
+    },
+    {
+      "path": "data/deep/atlas_v247_o90_o91_paired_loci_wa15_printed_apparatus_audit.json",
+      "sha256": "3e6fcb28230670d3e00ca85eae95348805e2651ae1f21a2b56100c57e2eb6004"
+    }
+  ],
+  "holdings": [
+    {
+      "id": "H01",
+      "vd16": "O90",
+      "shelfmark": "127.21 Theol. (15)",
+      "catalogue_entry": 1220,
+      "explicit_reading_profile": true,
+      "original_photo_seen": false,
+      "other_readings": null
+    },
+    {
+      "id": "H02",
+      "vd16": "O90",
+      "shelfmark": "148.26 Theol. (37)",
+      "catalogue_entry": 1220,
+      "explicit_reading_profile": false,
+      "original_photo_seen": false,
+      "other_readings": null
+    },
+    {
+      "id": "H03",
+      "vd16": "O90",
+      "shelfmark": "297 Theol. (28)",
+      "catalogue_entry": 1220,
+      "explicit_reading_profile": false,
+      "original_photo_seen": false,
+      "other_readings": null
+    },
+    {
+      "id": "H04",
+      "vd16": "O91",
+      "shelfmark": "147.5 Theol. (14)",
+      "catalogue_entry": 1221,
+      "explicit_reading_profile": true,
+      "original_photo_seen": false,
+      "other_readings": null
+    },
+    {
+      "id": "H05",
+      "vd16": "O91",
+      "shelfmark": "231.98 Theol. (1)",
+      "catalogue_entry": 1221,
+      "explicit_reading_profile": false,
+      "original_photo_seen": false,
+      "other_readings": null
+    },
+    {
+      "id": "H06",
+      "vd16": "O91",
+      "shelfmark": "Li 5530 (55, 1069)",
+      "catalogue_entry": 1221,
+      "explicit_reading_profile": false,
+      "original_photo_seen": false,
+      "other_readings": null
+    },
+    {
+      "id": "H07",
+      "vd16": "O91",
+      "shelfmark": "151.37 Theol. (2)",
+      "catalogue_entry": 1221,
+      "explicit_reading_profile": false,
+      "original_photo_seen": false,
+      "other_readings": null
+    },
+    {
+      "id": "H08",
+      "vd16": "O91",
+      "shelfmark": "QuN 135.1 (18)",
+      "catalogue_entry": 1221,
+      "explicit_reading_profile": false,
+      "original_photo_seen": false,
+      "other_readings": null
+    },
+    {
+      "id": "H09",
+      "vd16": "O91",
+      "shelfmark": "QuN 282.2 (18)",
+      "catalogue_entry": 1221,
+      "explicit_reading_profile": false,
+      "original_photo_seen": false,
+      "other_readings": null
+    },
+    {
+      "id": "H10",
+      "vd16": "O91",
+      "shelfmark": "116.10 Theol. (11)",
+      "catalogue_entry": 1221,
+      "explicit_reading_profile": true,
+      "original_photo_seen": false,
+      "other_readings": null
+    },
+    {
+      "id": "H11",
+      "vd16": "O91",
+      "shelfmark": "Ts 418 (2)",
+      "catalogue_entry": 1221,
+      "explicit_reading_profile": false,
+      "original_photo_seen": false,
+      "other_readings": null
+    }
+  ],
+  "explicit_states": [
+    {
+      "holding": "H01",
+      "title": "TYPO",
+      "A3r_punctuation": "STRONG_COMMA",
+      "A4r_pair": [
+        "klosters",
+        "schrifftlich"
+      ]
+    },
+    {
+      "holding": "H04",
+      "title": "CORRECTED",
+      "A3r_punctuation": "WEAK_COMMA",
+      "A4r_pair": [
+        "kloisters",
+        "schrfftlich"
+      ]
+    },
+    {
+      "holding": "H10",
+      "title": "ENTRY_TITLE_NOT_INDIVIDUALLY_PHOTOCHECKED",
+      "A3r_punctuation": "STRONG_COMMA",
+      "A4r_pair": [
+        "klosters",
+        "schrifftlich"
+      ]
+    }
+  ],
+  "guards": {
+    "unlisted_readings_inferred": false,
+    "all_holdings_individually_collated": false,
+    "catalogue_equals_original_photo": false,
+    "HAB_identical_to_BSB_copy": false,
+    "WA_Aa_Ab_emendation_approved": false,
+    "printing_sequence_resolved": false,
+    "new_numeric_readings_approved": false,
+    "new_1526_faces": 0
+  },
+  "access_attempt": {
+    "halle_url": "https://opendata2.uni-halle.de/handle/1516514412012/6239",
+    "http_status": 200,
+    "response_kind": "ACCESS_CHALLENGE_HTML",
+    "original_faces_seen": 0
+  },
+  "publication_gate": {
+    "merge": false,
+    "publish": false,
+    "deploy": false,
+    "main_changed": false,
+    "webapp_changed": false
+  },
+  "metrics": {
+    "listed_holdings": 11,
+    "O90_holdings": 3,
+    "O91_holdings": 8,
+    "explicit_reading_profiles": 3,
+    "new_original_faces": 0,
+    "core_essays": 10,
+    "core_sentences": 543
+  }
+}
