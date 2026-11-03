@@ -486,8 +486,12 @@
     "florentina_1524_grievance_not_independent_proof_of_every_accusation": true,
     "abbess_1526_political_petition_not_same_document_as_sophia_1525_personal_letter": true,
     "abbess_1526_source_is_not_direct_original_read": true,
-    "emperor_christian_v_petition_delivery_unknown": true,
-    "luther_editorial_polemic_must_not_replace_florentina_original_autobiography": true
+    "luther_editorial_polemic_must_not_replace_florentina_original_autobiography": true,
+    "emperor_charles_v_petition_delivery_unknown": true,
+    "helfta_1525_assault_causation_from_florentina_1524_pamphlet_unproven": true,
+    "hab_vd16_o90_o91_direct_page_comparison_not_done": true,
+    "wa1899_luther_and_florentina_distinct_voices": true,
+    "kawerau_v13_year_of_volume_1880_issued_1881": true
   },
   "reader_sections": [
     {
@@ -599,31 +603,34 @@
       "id": "H1",
       "wa_page": "86–88",
       "voice": "MARTIN_LUTHER_SEND_BRIEF",
-      "original_excerpt": "Gott will nicht gezwungen dienst haben",
+      "original_excerpt": "gezwungen dienst",
       "interpretation_ko": "강제된 수도 서원을 논박하는 루터 자신의 일반 신학 명제",
       "source_id": "WA15-1899-HTML",
       "read_from_1899_primary_language_edition": true,
-      "original_1524_page_image_seen": false
+      "original_1524_page_image_seen": false,
+      "text_units_are_short_part_of_1899_edition": true
     },
     {
       "id": "H2",
       "wa_page": "89",
       "voice": "FLORENTINA_SELF_DEFENCE",
-      "original_excerpt": "meyne ehre und gueten namen",
+      "original_excerpt": "meyne ehre",
       "interpretation_ko": "탈출 후 명예훼손 의혹에 맞서 명예를 지키려는 저술 동기",
       "source_id": "WA15-1899-HTML",
       "read_from_1899_primary_language_edition": true,
-      "original_1524_page_image_seen": false
+      "original_1524_page_image_seen": false,
+      "text_units_are_short_part_of_1899_edition": true
     },
     {
       "id": "H3",
       "wa_page": "90",
       "voice": "FLORENTINA_NOVITIATE",
-      "original_excerpt": "Ecce lex sub qua militare vis",
+      "original_excerpt": "liber discede",
       "interpretation_ko": "수련·서원의 자유로운 선택 절차를 제대로 허용받지 못했다고 주장",
       "source_id": "WA15-1899-HTML",
       "read_from_1899_primary_language_edition": true,
-      "original_1524_page_image_seen": false
+      "original_1524_page_image_seen": false,
+      "text_units_are_short_part_of_1899_edition": true
     },
     {
       "id": "H4",
@@ -633,7 +640,8 @@
       "interpretation_ko": "약 4주 감금됐다는 자기 경험 진술, 외부 장부 검증은 없음",
       "source_id": "WA15-1899-HTML",
       "read_from_1899_primary_language_edition": true,
-      "original_1524_page_image_seen": false
+      "original_1524_page_image_seen": false,
+      "text_units_are_short_part_of_1899_edition": true
     },
     {
       "id": "H5",
@@ -643,7 +651,8 @@
       "interpretation_ko": "이전 탈출 시도 때 6굴덴과 은반지 두 개를 가져간 사실을 스스로 인정함",
       "source_id": "WA15-1899-HTML",
       "read_from_1899_primary_language_edition": true,
-      "original_1524_page_image_seen": false
+      "original_1524_page_image_seen": false,
+      "text_units_are_short_part_of_1899_edition": true
     },
     {
       "id": "H6",
@@ -653,17 +662,19 @@
       "interpretation_ko": "그 돈과 반지는 감금·독방 수색 때 수도원이 되돌려 받았다는 본인 진술",
       "source_id": "WA15-1899-HTML",
       "read_from_1899_primary_language_edition": true,
-      "original_1524_page_image_seen": false
+      "original_1524_page_image_seen": false,
+      "text_units_are_short_part_of_1899_edition": true
     },
     {
       "id": "H7",
       "wa_page": "94",
       "voice": "FLORENTINA_FINAL_DEPARTURE_CLOTHING",
-      "original_excerpt": "eyn boeses roeckleyn",
+      "original_excerpt": "roeckleyn",
       "interpretation_ko": "최종 탈출에는 낡은 옷과 몸을 가릴 천을 가지고 나왔다는 진술",
       "source_id": "WA15-1899-HTML",
       "read_from_1899_primary_language_edition": true,
-      "original_1524_page_image_seen": false
+      "original_1524_page_image_seen": false,
+      "text_units_are_short_part_of_1899_edition": true
     },
     {
       "id": "H8",
@@ -673,7 +684,8 @@
       "interpretation_ko": "플로렌티나 서술 다음에 루터의 별도 글이 위치, 여성의 말로 합치지 않음",
       "source_id": "WA15-1899-HTML",
       "read_from_1899_primary_language_edition": true,
-      "original_1524_page_image_seen": false
+      "original_1524_page_image_seen": false,
+      "text_units_are_short_part_of_1899_edition": true
     }
   ],
   "editorial_inference_guards": {
