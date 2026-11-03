@@ -1,0 +1,392 @@
+{
+  "version": "2.39",
+  "parent_commit": "bee7b4cb88d905415ec8f3b29f8867a987a7a844",
+  "baseline": "data/deep/atlas_v238_seckendorff_1690_1693_subscription_and_distribution.json",
+  "kind": "TENTZEL_231_FOLIO_GERMAN_RECEPTION_MANUSCRIPT_AND_1717_PRINT",
+  "publication_gate": {
+    "ship": false,
+    "seckendorff_1692_p139_read": false,
+    "tentzel_a648_original_read": false,
+    "tentzel_1717_print_read": false,
+    "early_1687_1688_titlepages_read": false,
+    "seckendorff_1694_source_text_read": false,
+    "gotha_1692_ledger_original_read": false,
+    "scholar_reviewed": false,
+    "webapp_ingested": false
+  },
+  "sources": [
+    {
+      "id": "TENTZEL-MS",
+      "url": "https://kalliope-verbund.info/ead?ead.id=DE-611-HS-4323846",
+      "level": "OFFICIAL_MANUSCRIPT_CATALOGUE",
+      "note": "Gotha Chart A648 manuscript V+231 folios 1692-1707; 13 chapters 1517–1521, chapter14 title only; first four f1r–53r published 1717 pp1–352; catalogued Mar2026",
+      "original_manuscript_or_early_print_page_seen": false
+    },
+    {
+      "id": "TENTZEL-FIND",
+      "url": "https://kalliope-verbund.info/findingaid?fa.enum=5&fa.id=DE-611-BF-14665&lastparam=true",
+      "level": "OFFICIAL_FINDING_AID_SAME_WITNESS",
+      "note": "Second catalogue view for SAME Gotha A648 object, not another manuscript",
+      "original_manuscript_or_early_print_page_seen": false
+    },
+    {
+      "id": "1717-PRINT",
+      "url": "https://www.deutsche-digitale-bibliothek.de/item/2ORBL77FTRE4ESPIMMEDHQJDMFW27USC",
+      "level": "PUBLIC_DOMAIN_DIGITAL_EDITION_METADATA",
+      "note": "1717 Cyprian-edited Tentzel German print, ULB Sachsen-Anhalt Ung I B66 VD18 1042170X, 531 numbered pages plus 39+22 leaves, DOI 10.25673/61476, PDM1.0",
+      "original_manuscript_or_early_print_page_seen": false
+    },
+    {
+      "id": "1717-AUTOGRAPH-LINK",
+      "url": "https://kalliope.staatsbibliothek-berlin.de/ead?ead.id=DE-611-HS-3422337",
+      "level": "ARCHIVAL_PRIMARY_EVIDENCE_LINK",
+      "note": "Luther and Karlstadt 18 Aug 1519 original Gotha A379 7r/v, printed in Tentzel 1717 other impression pp406–407 according to catalog, original image unread",
+      "original_manuscript_or_early_print_page_seen": false
+    },
+    {
+      "id": "1688-ETON",
+      "url": "https://catalogue.etoncollege.com/B15845",
+      "level": "ACTUAL_LIBRARY_HOLDING_CATALOGUE",
+      "note": "1688 Gleditsch independent partial first book Latin 4to, shelf DDe.9.01, not 1692 bookII Jonas",
+      "original_manuscript_or_early_print_page_seen": false
+    },
+    {
+      "id": "1688-GOOGLE",
+      "url": "https://play.google.com/store/books/details/Veit_Ludwig_von_Seckendorff_Viti_Ludovici_a_Secken?id=DGcVfTptG5sC",
+      "level": "DIGITIZED_BOOK_METADATA_ONLY",
+      "note": "1688 first book Latin volume1 digital catalogue 464 pages, not read actual text",
+      "original_manuscript_or_early_print_page_seen": false
+    },
+    {
+      "id": "1688-IA",
+      "url": "https://commons.wikimedia.org/wiki/File:Viti_Ludovici_a_Seckendorf_..._Commentarius_historicus_et_apologeticus_de_Lutheranismo-_sive_De_..._(IA_vitiludoviciase00seckgoog).pdf",
+      "level": "PUBLIC_DOMAIN_SCAN_METADATA",
+      "note": "1688 Michigan Google/IA scanning, explicit note only Lib I included; 918 scanned digital pages cannot contain 1692 book II passage",
+      "original_manuscript_or_early_print_page_seen": false
+    },
+    {
+      "id": "GOTHA2024",
+      "url": "https://blog-fbg.uni-erfurt.de/2024/04/ein-wissenschaftliches-grossprojekt-in-laendlicher-abgeschiedenheit/",
+      "level": "INSTITUTIONAL_HISTORIOGRAPHY",
+      "note": "Daniel Gehrt 2024 states first book autumn1687; complete work autumn1691 with 1692 dated imprint",
+      "original_manuscript_or_early_print_page_seen": false
+    },
+    {
+      "id": "1692-BOOK",
+      "url": "https://www.digitale-sammlungen.de/view/bsb10716130",
+      "level": "1692_ORIGINAL_DIGITAL_OBJECT_UNREAD",
+      "note": "BSB MDZ bsb10716130 complete 1692 volume digitization but Marburg Jonas bookII p139 scan not accessed",
+      "original_manuscript_or_early_print_page_seen": false
+    },
+    {
+      "id": "1694-SECOND",
+      "url": "https://search.worldcat.org/title/Viti-Ludovici-a-Seckendorf-Commentarius-historicus-et-apologeticus-de-Lutheranismo-:-sive-de-reformatione-religionis-ductu-Martini-Lutheri-in-quo-ex-Ludovici-Maimburgii-Historia-Lutheranismi-anno-MDCLXXX-Parisiis-ed.libri-tres-exhibentur/oclc/177292823",
+      "level": "1694_CORRECTED_SECOND_EDITION_METADATA",
+      "note": "Lipsiae 1694 second corrected edition, not same object as 1692 first complete",
+      "original_manuscript_or_early_print_page_seen": false
+    },
+    {
+      "id": "1949-ARTICLE",
+      "url": "https://ctsfw.net/media/pdfs/CTMMiscellanea20-6.pdf",
+      "level": "1949_HISTORICAL_PDF_IMAGES_DIRECT",
+      "note": "A Plea for the Historia Lutheranismi pp446–447, web PDF screen zero-index 6 and7 actually seen; early book 1688, 1689 supplement, 1692 full, 1694 second near-same pages, Tentzel work noted",
+      "original_manuscript_or_early_print_page_seen": false
+    },
+    {
+      "id": "1690-PROPOSAL",
+      "url": "https://kalliope-verbund.info/de/ead?ead.id=DE-611-HS-4086066",
+      "level": "1690_SUBSCRIPTION_ORIGINAL_CATALOGUE",
+      "note": "1690-03-31 subscription proposal in Gotha, relates to completed book funding, not original 1692 body",
+      "original_manuscript_or_early_print_page_seen": false
+    },
+    {
+      "id": "1717-GOOGLE",
+      "url": "https://play.google.com/store/books/details/Wilhelm_Ernst_Tentzel_Wilhelm_Ernst_Tentzels_HISTO?id=5ydoAAAAcAAJ",
+      "level": "DIFFERENT_DIGITAL_1717_UNIT_METADATA",
+      "note": "1717 Tentzel ebook Google unit 86 pages; not substitutable for DDB 531pp physical edition without page matching",
+      "original_manuscript_or_early_print_page_seen": false
+    }
+  ],
+  "physical_objects": [
+    {
+      "id": "MS-A648",
+      "kind": "GERMAN_FAIR_COPY",
+      "author": "Wilhelm Ernst Tentzel",
+      "shelfmark": "Forschungsbibliothek Gotha Chart. A 648",
+      "kalliope": "DE-611-HS-4323846",
+      "date_interval": [
+        "1692",
+        "1707"
+      ],
+      "leaves_preliminary_roman": 5,
+      "leaves_numbered": 231,
+      "chapters_complete": 13,
+      "chapter14": "HEADING_ONLY",
+      "historical_span": "1517–1521 Worms",
+      "first_four_folios": "1r–53r",
+      "original_pages_read": 0,
+      "source_ids": [
+        "TENTZEL-MS",
+        "TENTZEL-FIND"
+      ]
+    },
+    {
+      "id": "PRINT-1717",
+      "kind": "POSTHUMOUS_EDITED_GERMAN_PRINT",
+      "author": "Wilhelm Ernst Tentzel",
+      "editor": "Ernst Salomon Cyprian",
+      "shelfmark": "ULB Sachsen-Anhalt Ung I B 66",
+      "imprint_year": 1717,
+      "vd18": "1042170X",
+      "numbered_pages": 531,
+      "first_four_chapter_pages": "1–352",
+      "first_four_ms_folios": "1r–53r",
+      "actual_pages_read": 0,
+      "source_ids": [
+        "1717-PRINT",
+        "TENTZEL-MS"
+      ]
+    },
+    {
+      "id": "PRINT-1688",
+      "kind": "FIRST_BOOK_LATIN_PARTIAL_1688_IMPRINT",
+      "author": "Veit Ludwig von Seckendorff",
+      "shelfmark": "Eton College DDe.9.01",
+      "imprint_year": 1688,
+      "content_scope": "BOOK_I_ONLY",
+      "actual_pages_read": 0,
+      "source_ids": [
+        "1688-ETON",
+        "1688-GOOGLE",
+        "1688-IA"
+      ]
+    },
+    {
+      "id": "PRINT-1692",
+      "kind": "FIRST_COMPLETE_LATIN_WORK",
+      "author": "Veit Ludwig von Seckendorff",
+      "shelfmark": "BSB MDZ bsb10716130",
+      "imprint_year": 1692,
+      "actual_release_source_reported": "autumn 1691",
+      "target_book2_page139": "UNREAD",
+      "actual_pages_read": 0,
+      "source_ids": [
+        "GOTHA2024",
+        "1692-BOOK"
+      ]
+    },
+    {
+      "id": "PRINT-1694",
+      "kind": "SECOND_CORRECTED_COMPLETE_LATIN_WORK",
+      "author": "Veit Ludwig von Seckendorff",
+      "shelfmark": "WorldCat OCLC 177292823",
+      "imprint_year": 1694,
+      "contains_revisions": true,
+      "printed_pagination_said_almost_same_by_1949_scholar": true,
+      "exact_textual_identity_proven": false,
+      "actual_pages_read": 0,
+      "source_ids": [
+        "1694-SECOND",
+        "1949-ARTICLE"
+      ]
+    }
+  ],
+  "editorial_links": [
+    {
+      "id": "LINK-MS-PRINT",
+      "from": "MS-A648",
+      "to": "PRINT-1717",
+      "kind": "FOUR_CHAPTERS_PUBLISHED_FROM_MANUSCRIPT",
+      "manuscript_chapters": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "manuscript_folios": "1r–53r",
+      "printed_pages": "1–352",
+      "evidence_ids": [
+        "TENTZEL-MS",
+        "1717-PRINT"
+      ],
+      "variants_directly_verified": false
+    },
+    {
+      "id": "LINK-ORIGIN",
+      "from": "PRINT-1692",
+      "to": "MS-A648",
+      "kind": "LATIN_WORK_INFORMED_GERMAN_NARRATIVE_NOT_LITERAL_TRANSLATION_PROVEN",
+      "evidence_ids": [
+        "TENTZEL-MS",
+        "GOTHA2024"
+      ],
+      "variants_directly_verified": false
+    },
+    {
+      "id": "LINK-EDITION",
+      "from": "PRINT-1692",
+      "to": "PRINT-1694",
+      "kind": "FIRST_COMPLETE_TO_SECOND_CORRECTED_EDITION",
+      "evidence_ids": [
+        "1949-ARTICLE",
+        "1694-SECOND"
+      ],
+      "variants_directly_verified": false
+    },
+    {
+      "id": "LINK-PARTIAL",
+      "from": "PRINT-1688",
+      "to": "PRINT-1692",
+      "kind": "EARLIER_PARTIAL_BOOK_I_VERSUS_FULL_BOOK_I_TO_III",
+      "evidence_ids": [
+        "1688-IA",
+        "1692-BOOK"
+      ],
+      "variants_directly_verified": false
+    }
+  ],
+  "reader_sections": [
+    {
+      "id": "R1",
+      "title": "정서본 231장에 남은 독일어 종교개혁 역사",
+      "text_ko": "1529년의 종교개혁 기록이 라틴어 역사서에 옮겨진 뒤, 텐첼은 이를 독일어로 다시 서술했다. 고타의 원고 231장에는 1517년부터 1521년 보름스 제국의회에 이르는 13장짜리 역사 서술이 남아 있고, 제14장은 제목만 있다. 이것은 단순한 회담 인용문 한 줄을 베낀 기록이 아니라 상당한 분량의 별도 역사 저술이다.",
+      "source_ids": [
+        "TENTZEL-MS"
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "1717년에 읽힌 부분과 필사본에 남은 부분",
+      "text_ko": "텐첼이 세상을 떠난 뒤 치프리안은 1717년 그 원고의 첫 네 장을 출판했다. 고타 목록에서 원고 1r–53r은 인쇄 1~352쪽으로 연결된다. 반면 필사본 제5~13장의 독일어 서술이 이 인쇄본에 모두 실렸다고 말할 수는 없다. 1717년 인쇄본의 전체 531쪽에는 편집자가 첨부한 문헌과 부록이 있으므로 먼저 실제 내용을 조사해야 한다.",
+      "source_ids": [
+        "TENTZEL-MS",
+        "1717-PRINT"
+      ]
+    },
+    {
+      "id": "R3",
+      "title": "1687년의 출판과 1688년의 표제는 무엇이 다른가",
+      "text_ko": "고타 연구는 첫 번째 책이 1687년 가을에 나왔다고 설명하지만 이튼 칼리지는 1688년이라고 쓰인 실제 첫 책의 소장판을 기록한다. 둘은 실제 공급 시점과 표제지 표시가 다르거나 별도 판쇄일 수 있다. 원판의 표제를 직접 대조하기 전에는 한 기록을 지워 다른 한쪽만 정답으로 단정하지 않는다.",
+      "source_ids": [
+        "GOTHA2024",
+        "1688-ETON",
+        "1949-ARTICLE"
+      ]
+    },
+    {
+      "id": "R4",
+      "title": "누가 번역했고 누가 편집했는가",
+      "text_ko": "제켄도르프의 역사서는 라틴어로 작성됐고 텐첼은 이를 바탕으로 수정과 보완을 포함한 독일어 원고를 썼다. 그 뒤 치프리안은 텐첼 사후 첫 네 장과 여러 사료를 출판했다. 따라서 라틴어 저자·독일어 서술자·출판 편집자의 각 목소리를 구분해야 사료가 언제 어떻게 변했는지를 독자에게 정확히 설명할 수 있다.",
+      "source_ids": [
+        "TENTZEL-MS",
+        "1717-PRINT"
+      ]
+    },
+    {
+      "id": "R5",
+      "title": "마르부르크에서 1717년 독자까지",
+      "text_ko": "1529년 요나스가 남긴 회담 편지는 후대 필사본을 통해 전승되어 제켄도르프의 역사서와 연결됐다. 1692년 표제의 라틴어 역사서, 1692~1707년 사이에 작성된 텐첼의 독일어 원고, 1717년 사후 인쇄본은 독자가 역사에 접근하는 언어와 시간을 차례로 바꿨다. 그러나 제켄도르프 1692년판 제2권 139쪽을 읽지 못한 상태에서 요나스 편지의 문장별 번역 계통을 만들지는 않는다.",
+      "source_ids": [
+        "TENTZEL-MS",
+        "1717-PRINT",
+        "1692-BOOK"
+      ]
+    }
+  ],
+  "open_issues": [
+    {
+      "id": "I01",
+      "question": "Open Gotha Tentzel A648 original folios and transcribe chapter headings 1-14"
+    },
+    {
+      "id": "I02",
+      "question": "Open 1717 Cyprian-edited Tentzel printing pp1–352 for phrase-level comparison with A648 fol1r–53r"
+    },
+    {
+      "id": "I03",
+      "question": "Determine where manuscript chapters5–13 survive in later editions and distinguish 1718 supplementary print"
+    },
+    {
+      "id": "I04",
+      "question": "Directly inspect 1688 Eton/Google title page and reconcile Gotha 2024 claim of first appearance in 1687"
+    },
+    {
+      "id": "I05",
+      "question": "Read 1692 Seckendorff Book II sect17 §47 p139f Jonas excerpt source page, not the 1688 Book I scan"
+    },
+    {
+      "id": "I06",
+      "question": "Read 1694 corrected edition counterpart if available; do not use matching pagination as proof of identical text"
+    },
+    {
+      "id": "I07",
+      "question": "Read 1692 Gotha original 120-copy account to corroborate V238 arithmetic and 1693 delivery overlap"
+    },
+    {
+      "id": "I08",
+      "question": "Check rights of Gotha manuscript and 1717 Public Domain Mark media before copying into webapp"
+    },
+    {
+      "id": "I09",
+      "question": "Link vetted 1517-1521 German reception narrative to existing ten core essays after external scholarly review"
+    }
+  ],
+  "metrics": {
+    "source_records": 13,
+    "physical_witness_or_editions": 5,
+    "editorial_relationships": 4,
+    "manuscript_numbered_folios": 231,
+    "chapters_in_manuscript": 13,
+    "chapter14_heading_only": 1,
+    "chapters_printed_1717_from_manuscript": 4,
+    "chapters_not_mapped_to_1717_print": 9,
+    "korean_reader_sections": 5,
+    "modern_1949_paper_pages_screen_inspected": 2,
+    "early_original_manuscript_or_print_pages_newly_read": 0,
+    "seckendorff_1692_p139_directly_read": 0,
+    "open_issues": 9,
+    "previous_k_archival_reproduction_faces": 2,
+    "previous_1529_conversation_pages": 4,
+    "webapp_publications": 0
+  },
+  "chapter_relation": {
+    "manuscript_numbered_folios": 231,
+    "written_chapters": 13,
+    "chapter14_heading_only": true,
+    "range_1517_1521": true,
+    "chapters_published_in_1717": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "manuscript_chapters_not_verified_in_1717": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "ms_first_four_folios": "1r–53r",
+    "edition_first_four_pages": "1–352",
+    "total_print_pages": 531,
+    "additional_179_pages_not_assigned_to_unprinted_chapters": true,
+    "do_not_assume_unprinted_chapters_never_printed_elsewhere": true,
+    "do_not_treat_german_as_diplomatic_latin_translation": true,
+    "folio_images_seen": 0,
+    "print_pages_seen": 0
+  },
+  "bibliographic_discrepancy": {
+    "first_book_1687_from_2024_gotha_research": true,
+    "early_1688_imprint_from_eton_catalogue": true,
+    "early_1688_digital_object_verified": true,
+    "whether_1687_and_1688_are_same_issue": "UNKNOWN",
+    "complete_1692_imprint_distinct_from_1688_partial": true,
+    "edition_1694_distinct_from_1692": true,
+    "modern_1949_article_printed_pages_screens_seen": 2
+  }
+}
