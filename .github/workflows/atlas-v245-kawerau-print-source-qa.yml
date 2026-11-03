@@ -1,0 +1,33 @@
+name: Atlas V245 Kawerau print and Florentina title provenance QA
+on:
+  push:
+    branches: ['research/**']
+    paths:
+      - 'data/deep/atlas_v245_kawerau_print_florentina_title_and_gess_dependency.json'
+      - 'docs/01_CONTENT/V245_KAWERAU_PRINT_FLORENTINA_TITLE_GESS_DEPENDENCY_REPORT.md'
+      - 'scripts/validate_atlas_v245.py'
+      - '.github/workflows/atlas-v245-kawerau-print-source-qa.yml'
+  pull_request:
+    branches: ['research/**']
+    paths:
+      - 'data/deep/atlas_v245_kawerau_print_florentina_title_and_gess_dependency.json'
+      - 'docs/01_CONTENT/V245_KAWERAU_PRINT_FLORENTINA_TITLE_GESS_DEPENDENCY_REPORT.md'
+      - 'scripts/validate_atlas_v245.py'
+      - '.github/workflows/atlas-v245-kawerau-print-source-qa.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Historical research V219 to V245 regression
+        run: |
+          set -e
+          for version in $(seq 219 245); do
+            python3 "scripts/validate_atlas_v${version}.py"
+          done

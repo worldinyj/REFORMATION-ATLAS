@@ -1,0 +1,684 @@
+{
+  "version": "2.45",
+  "status": "DRAFT",
+  "created_date": "2026-11-03",
+  "parent_commit": "f24b14afbc2f9ed5e9add05ae86d8a6adae497cf",
+  "baseline": "data/deep/atlas_v244_1524_florentina_1525_sophia_1526_helfta_holzzelle_three_witness_perspectives.json",
+  "kind": "DIRECT_1881_KAWERAU_PRINT_READING_1524_TITLE_FACE_AND_DEPENDENT_GESS_REGEST",
+  "publication_gate": {
+    "webapp_publish": false,
+    "main_merge": false,
+    "human_publication_approval": false,
+    "external_historical_review": false,
+    "image_reuse_cleared": false,
+    "complete_1524_O90_O91_collation": false,
+    "autograph_collation_complete": false
+  },
+  "preserved_files": [
+    {
+      "path": "data/deep/atlas_v219_structured_ten_reader_critical_editions.json",
+      "sha256": "0fea005d6592dbc976b46da1d1d9d6f217b4390a2708b304968648a64ad82efb"
+    },
+    {
+      "path": "data/deep/atlas_v244_1524_florentina_1525_sophia_1526_helfta_holzzelle_three_witness_perspectives.json",
+      "sha256": "1648fec187bddac63f2f11599b7757d31be4b6092982ffa10b34d5eefa3d27b1"
+    }
+  ],
+  "sources": [
+    {
+      "id": "KAW-IA",
+      "url": "https://archive.org/download/zeitschriftdesha13harz/zeitschriftdesha13harz.pdf",
+      "title": "Gustav Kawerau, Zur Geschichte des Klosterstürmens im Bauernkriege, Zeitschrift des Harz-Vereins 13 (1880), issued 1881, pp330–338",
+      "reading_level": "DIRECT_PRINT_FACSIMILE_VISUAL",
+      "scope": "Getty Research Institute copy via Internet Archive; 542 PDF pages; title PDF7 and article PDF338–346 visually read; OCR used only as aid."
+    },
+    {
+      "id": "IA-SCANDATA",
+      "url": "https://archive.org/download/zeitschriftdesha13harz/zeitschriftdesha13harz_scandata.xml",
+      "title": "Internet Archive scan leaf/page mapping",
+      "reading_level": "DIRECT_MACHINE_METADATA",
+      "scope": "Read addToAccessFormats and pageNumber, then checked printed numerals visually; scan leaf numbers are not interchangeable with PDF indices."
+    },
+    {
+      "id": "EMORY-ITEM",
+      "url": "https://digital.pitts.emory.edu/s/paradise-lost/item/2691",
+      "title": "Pitts Theology Library, 1524 LUTH AA",
+      "reading_level": "DIRECT_INSTITUTIONAL_METADATA",
+      "scope": "First printing as described by repository; A4 B3, A1 verso blank; 14 unnumbered pages is extent metadata, not proof of 14 text-bearing faces."
+    },
+    {
+      "id": "EMORY-MANIFEST",
+      "url": "https://digital.pitts.emory.edu/iiif/3/2691/manifest",
+      "title": "Pitts IIIF presentation manifest for item2691",
+      "reading_level": "DIRECT_MACHINE_METADATA",
+      "scope": "One canvas wrapping a PDF, not a one-page book; title image URL and PDF media URL identified."
+    },
+    {
+      "id": "EMORY-TITLE",
+      "url": "https://digital.pitts.emory.edu/files/asset/6369b2a869297c080469eb8ffd7f73044fee2083.jpg",
+      "title": "Actual photographed title face of 1524 LUTH AA",
+      "reading_level": "DIRECT_1524_PRINT_FACE_VISUAL",
+      "scope": "Read corrected title word geschicht, Wittenberg imprint and 1524 date; body leaves inaccessible; precise VD16 assignment not established from title alone."
+    },
+    {
+      "id": "WA15-HTML",
+      "url": "https://www.lutherdansk.dk/WA%2015/WA%2015%20-%20Predigten%20und%20Schriften%201524.htm",
+      "title": "WA15 (1899), pp81–83 edition apparatus, online transcription",
+      "reading_level": "DIRECT_EDITION_TEXT_TRANSCRIPTION_NOT_FACSIMILE",
+      "scope": "Read four reported sheet-A correction sites and uncertainty of press-state sequence; original 1899 page photograph not inspected. Aa/Ab mapping has an internal inconsistency in this online text and is not silently repaired."
+    },
+    {
+      "id": "GOTHA-2025",
+      "url": "https://blog-fbg.uni-erfurt.de/2025/04/dass-wir-nicht-fluechgen-noch-eyn-bosse-hertz-haben-kegen-vnsser-feynde/",
+      "title": "Daniel Gehrt, Sophia von Schafstädt, Forschungsbibliothek Gotha, 17 April2025",
+      "reading_level": "DIRECT_INSTITUTIONAL_RESEARCH_AND_PRIMARY_EXCERPTS",
+      "scope": "Rechecked selected readings and modern 16-person paraphrase against 1881 print; no 1525 autograph folio images read."
+    },
+    {
+      "id": "GESS-RECORD",
+      "url": "https://slub.qucosa.de/id/qucosa%3A33966",
+      "title": "Felician Geß, Akten und Briefe zur Kirchenpolitik Herzog Georgs von Sachsen, II (1917), reprint1985, Qucosa2019",
+      "reading_level": "DIRECT_INSTITUTIONAL_EDITION_METADATA",
+      "scope": "Institutional record establishes original1917, reprint1985, digitization2019; not a newly discovered 1526 manuscript."
+    },
+    {
+      "id": "GESS-REPRINT",
+      "url": "https://slub.qucosa.de/api/qucosa%3A33966/attachment/ATT-0/",
+      "title": "Geß II, doc1346, printed p645, PDF669/948",
+      "reading_level": "DIRECT_1985_REPRINT_FACE_OF_1917_EDITION_VISUAL",
+      "scope": "Read regest, date, authors and source attribution to Kawerau13 p336; no independent full transcription and no independent witness."
+    },
+    {
+      "id": "GESS-TOC",
+      "url": "https://slub.qucosa.de/api/qucosa%3A33966/attachment/ATT-2/",
+      "title": "Modern Qucosa contents list, p14/18, doc1346",
+      "reading_level": "DIRECT_MODERN_INDEX_PDF_TEXT_AND_VISUAL",
+      "scope": "Located doc1346 and then checked main volume p645; index is not an original1526 page."
+    },
+    {
+      "id": "HAB-1524",
+      "url": "https://dev.hab.de/lutherkat/search.php?m1=jahr&st1=1524",
+      "title": "HAB Lutherdrucke1220/1221, VD16 O90/O91",
+      "reading_level": "INHERITED_V244_CATALOGUE_REPORT_NOT_NEW_VISUAL_COLLATION",
+      "scope": "V244 reported bibliographic readings retained as baseline; HTTP403 on new direct fetch; neither HAB A4r photographed copy read."
+    }
+  ],
+  "retrieved_artifacts": [
+    {
+      "id": "ART-KAW",
+      "source_id": "KAW-IA",
+      "bytes": 36692836,
+      "sha256": "cc87daefb22259e0411aafbc69e347637434315b1618b38d8e8016966e30f208",
+      "pdf_pages": 542,
+      "repository_binary_included": false
+    },
+    {
+      "id": "ART-SCAN",
+      "source_id": "IA-SCANDATA",
+      "bytes": 284618,
+      "sha256": "d7ea45a8f96e5df05fe33596847022bdf7ec1001344a7470582c6dc623ff3db4",
+      "repository_binary_included": false
+    },
+    {
+      "id": "ART-TITLE",
+      "source_id": "EMORY-TITLE",
+      "bytes": 5523398,
+      "sha256": "57e7985429c401aec49c010d41b0f3943c5b6878bd5c3275ee69f08a74d4b647",
+      "repository_binary_included": false
+    },
+    {
+      "id": "ART-MANIFEST",
+      "source_id": "EMORY-MANIFEST",
+      "bytes": 11920,
+      "sha256": "2d027bc934e008a80c9b0e2db2384157a9d88cc77e69d0ece2f35fc737b8602f",
+      "repository_binary_included": false
+    },
+    {
+      "id": "ART-GESS",
+      "source_id": "GESS-REPRINT",
+      "bytes": 472978822,
+      "sha256": "9ed09195f8afe8fde2af5bfbbb0086fff8ed7f38dc0f97c0aea881abba5d9d96",
+      "pdf_pages": 948,
+      "repository_binary_included": false
+    },
+    {
+      "id": "ART-GESS-TOC",
+      "source_id": "GESS-TOC",
+      "bytes": 400694,
+      "sha256": "b4770c94a0bc975000a3741284cdd74ba2c15ee9cf0173c461bedb863f0a0f3e",
+      "pdf_pages": 18,
+      "repository_binary_included": false
+    }
+  ],
+  "edition": {
+    "volume": 13,
+    "volume_year": 1880,
+    "issue_year_visually_read": 1881,
+    "title_pdf_page": 7,
+    "article_print_pages": [
+      330,
+      331,
+      332,
+      333,
+      334,
+      335,
+      336,
+      337,
+      338
+    ],
+    "article_pdf_pages": [
+      338,
+      339,
+      340,
+      341,
+      342,
+      343,
+      344,
+      345,
+      346
+    ],
+    "sophia_letter_body_print_pages": [
+      331,
+      332,
+      333,
+      334,
+      335
+    ],
+    "petition_body_print_pages": [
+      336,
+      337,
+      338
+    ],
+    "editorial_intro_print_pages": [
+      330,
+      331,
+      335,
+      336
+    ],
+    "unrelated_text_present_on_boundary_pages": [
+      330,
+      338
+    ],
+    "all_nine_pages_are_letter_body": false
+  },
+  "page_readings": [
+    {
+      "id": "K330",
+      "source_id": "KAW-IA",
+      "printed_page": 330,
+      "pdf_page": 338,
+      "scan_leaf": 338,
+      "visually_read": true,
+      "layer": "EDITORIAL_INTRO_AFTER_UNRELATED_PRECEDING_ITEM",
+      "observation_ko": "논문 III과 제1항 표제는 면 중간에서 시작한다. 카베라우는 키프리안1718의 짧은 소개와 자신의 원본 기반 전문 인쇄를 구별한다. 이 면 전체를 소피아 편지 본문으로 세지 않는다."
+    },
+    {
+      "id": "K331",
+      "source_id": "KAW-IA",
+      "printed_page": 331,
+      "pdf_page": 339,
+      "scan_leaf": 339,
+      "visually_read": true,
+      "layer": "EDITORIAL_INTRO_THEN_SOPHIA_LETTER",
+      "observation_ko": "상단 수도원 해설 뒤 편지가 시작한다. 저주·악한 마음·악으로 갚기 거부라는 맥락을 직접 확인했다."
+    },
+    {
+      "id": "K332",
+      "source_id": "KAW-IA",
+      "printed_page": 332,
+      "pdf_page": 340,
+      "scan_leaf": 340,
+      "visually_read": true,
+      "layer": "SOPHIA_LETTER",
+      "observation_ko": "4월30일 경고와 문서 보호 권고, 5월1일 원장의 귀환 및 현장 발견을 당사자의 보고로 읽었다. 관청 담당자의 발언은 편지 안의 재현된 발언이다."
+    },
+    {
+      "id": "K333",
+      "source_id": "KAW-IA",
+      "printed_page": 333,
+      "pdf_page": 341,
+      "scan_leaf": 341,
+      "visually_read": true,
+      "layer": "SOPHIA_LETTER",
+      "observation_ko": "알슈테트로 피신하라는 제안에 대한 거절과 다른 마을·발슈테트 등 대안의 좌절이 나온다. 복음과 형제 사랑을 말하면서 폭력을 방관하는 태도에 대한 반어를 확인했다."
+    },
+    {
+      "id": "K334",
+      "source_id": "KAW-IA",
+      "printed_page": 334,
+      "pdf_page": 342,
+      "scan_leaf": 342,
+      "visually_read": true,
+      "layer": "SOPHIA_LETTER",
+      "observation_ko": "열쇠 인계 뒤 할레 피난, 친족에게 맡긴14명·현재 곁에 남은16명·부양17명·가용5굴덴의 각 수치를 구분했다."
+    },
+    {
+      "id": "K335",
+      "source_id": "KAW-IA",
+      "printed_page": 335,
+      "pdf_page": 343,
+      "scan_leaf": 343,
+      "visually_read": true,
+      "layer": "SOPHIA_END_THEN_PETITION_EDITORIAL_INTRO",
+      "observation_ko": "상단은 소피아의 신앙적 호소와 할레 한스 샤프슈테트 집이라는 말미이다. 하단 제2항은 두 수녀원 청원의 해설이며, 고타A.123 19엽 서기관 필사본과 라이프치히 작성 추정을 밝힌다."
+    },
+    {
+      "id": "K336",
+      "source_id": "KAW-IA",
+      "printed_page": 336,
+      "pdf_page": 344,
+      "scan_leaf": 344,
+      "visually_read": true,
+      "layer": "EDITORIAL_DELIVERY_DOUBT_THEN_PETITION_BODY",
+      "observation_ko": "상단 황제 미접수 추정은 카베라우 해설이다. 그 아래 청원 본문은 카를 황제의 호칭으로 시작하고, 약탈·예배용품 파괴·피난 및 만스펠트에 맡긴 재산과 권리문서를 진술한다."
+    },
+    {
+      "id": "K337",
+      "source_id": "KAW-IA",
+      "printed_page": 337,
+      "pdf_page": 345,
+      "scan_leaf": 345,
+      "visually_read": true,
+      "layer": "PETITION_BODY_WITH_EDITORIAL_NOTES",
+      "observation_ko": "에른스트·호이어와 게프하르트·알브레히트를 서로 다른 태도의 백작으로 구분한다. 재산·수입·이자 및 수도원 복구 요구, 작센 공작 게오르크 지원, 반환 지시의 미이행을 청원자 주장으로 기록한다."
+    },
+    {
+      "id": "K338",
+      "source_id": "KAW-IA",
+      "printed_page": 338,
+      "pdf_page": 346,
+      "scan_leaf": 346,
+      "visually_read": true,
+      "layer": "PETITION_END_THEN_UNRELATED_NEXT_ITEMS",
+      "observation_ko": "청원 말미의 두 이름과 마르티누스 축일 뒤 월요일1526년을 확인했다. 각주의11월12일은 확대 판독으로 확인되며15일이 아니다. 아래 IV·V는 별도 항목이다."
+    }
+  ],
+  "short_anchors": [
+    {
+      "id": "A01",
+      "page_id": "K331",
+      "text": "nicht flüchgen",
+      "sense_ko": "저주하지 않음",
+      "voice": "SOPHIA"
+    },
+    {
+      "id": "A02",
+      "page_id": "K334",
+      "text": "xiiij",
+      "sense_ko": "친족·연고자에게 맡겼다는14명",
+      "voice": "SOPHIA"
+    },
+    {
+      "id": "A03",
+      "page_id": "K334",
+      "text": "xvi",
+      "sense_ko": "현재 곁에 남아 있다는16명",
+      "voice": "SOPHIA"
+    },
+    {
+      "id": "A04",
+      "page_id": "K334",
+      "text": "v. fl.",
+      "sense_ko": "수중의5굴덴",
+      "voice": "SOPHIA"
+    },
+    {
+      "id": "A06",
+      "page_id": "K334",
+      "text": "xvij",
+      "sense_ko": "부양해야 한다는17명",
+      "voice": "SOPHIA"
+    },
+    {
+      "id": "A07",
+      "page_id": "K336",
+      "text": "Carolo",
+      "sense_ko": "청원의 명시적 수신인 카를 황제",
+      "voice": "ABBESSES_PETITION"
+    },
+    {
+      "id": "A08",
+      "page_id": "K336",
+      "text": "briefliche gerechtigkeit",
+      "sense_ko": "문서로 보장된 권리; 일반 편지라는 뜻으로 축소하지 않음",
+      "voice": "ABBESSES_PETITION"
+    },
+    {
+      "id": "A09",
+      "page_id": "K338",
+      "text": "Montags nach Martini",
+      "sense_ko": "마르티누스 축일 뒤 월요일; 편집자 환산11월12일",
+      "voice": "ABBESSES_PETITION"
+    },
+    {
+      "id": "A10",
+      "page_id": "K338",
+      "text": "Katherina Wachdorffinne zu Eisleben",
+      "sense_ko": "청원 인쇄 말미의 첫 번째 이름 표기",
+      "voice": "ABBESSES_PETITION"
+    },
+    {
+      "id": "A11",
+      "page_id": "K338",
+      "text": "Felicitas Tabelles zu der Zelle",
+      "sense_ko": "청원 인쇄 말미의 두 번째 이름 표기; Thobeln과의 동일성은 별도 검토",
+      "voice": "ABBESSES_PETITION"
+    }
+  ],
+  "transmission": [
+    {
+      "id": "SOPHIA-CHAIN",
+      "date": "1525-05-03",
+      "community": "NAUNDORF_NEUENDORF",
+      "historical_witness": "Kawerau330 says printed from original in Gotha Spalatin codex",
+      "modern_holding": "Chart. A338 254r–256v per Gotha2025; derivative copy257r–260bv",
+      "printed_body_pages": [
+        331,
+        332,
+        333,
+        334,
+        335
+      ],
+      "autograph_visually_read_this_version": false,
+      "copy_visually_collated_this_version": false
+    },
+    {
+      "id": "PETITION-CHAIN",
+      "date": "1526-11-12",
+      "communities": [
+        "HELFTA_NEUHELFTA",
+        "HOLZZELLE"
+      ],
+      "historical_witness": "Cod. Goth. A.123 fol.19; copy in chancery hand, reported by Kawerau335",
+      "current_catalogue_identity_verified": false,
+      "original_autograph_found": false,
+      "printed_body_pages": [
+        336,
+        337,
+        338
+      ],
+      "intended_addressee": "Charles V",
+      "emperor_receipt_proven": false,
+      "leipzig_origin": "EDITORIAL_INFERENCE_NOT_DOCUMENT_DATELINE",
+      "delivery_doubt_layer": "KAWERAU_EDITORIAL_COMMENTARY_P336"
+    },
+    {
+      "id": "GESS-DEPENDENCY",
+      "edition_original_year": 1917,
+      "edition_scanned_reprint_year": 1985,
+      "document_number": 1346,
+      "printed_page": 645,
+      "pdf_page": 669,
+      "form": "REGEST_NOT_FULL_TRANSCRIPTION",
+      "depends_on": "Kawerau13 p336; copy in Gotha",
+      "independent_manuscript_witness": false,
+      "independent_confirmation_of_petition_accusations": false
+    }
+  ],
+  "numeric_context": [
+    {
+      "id": "N14",
+      "page_id": "K334",
+      "value": 14,
+      "role": "PLACED_WITH_RELATIVES_OR_LOCAL_CONNECTIONS",
+      "wording_scope_ko": "할레에 온 뒤 현지 출신 또는 연고 있는 이들을 맡겼다는 대목",
+      "inference_is_total_original_convent_population": false
+    },
+    {
+      "id": "N16",
+      "page_id": "K334",
+      "value": 16,
+      "role": "REMAINING_WITH_SOPHIA",
+      "wording_scope_ko": "그 곁에 아직 남아 있는 사람들; 고령·병약·연고 없음이라는 설명",
+      "inference_is_total_original_convent_population": false
+    },
+    {
+      "id": "N17",
+      "page_id": "K334",
+      "value": 17,
+      "role": "MOUTHS_TO_FEED",
+      "wording_scope_ko": "이어지는 부양 인원;16명에 원장 자신을 더했을 가능성은 해석이며 명시적 계산은 아니다",
+      "includes_sophia_hypothesis": "PLAUSIBLE_NOT_EXPLICIT"
+    },
+    {
+      "id": "N5",
+      "page_id": "K334",
+      "value": 5,
+      "role": "GULDEN_AVAILABLE",
+      "wording_scope_ko": "부양 가능 현금으로 진술; 실제 지출 장부 확인은 아님"
+    }
+  ],
+  "florentina_collation": {
+    "title_face_visually_read": true,
+    "title_reading": "geschicht",
+    "title_omission_typo_not_present": "geschihct",
+    "imprint_place": "Wittenberg",
+    "printed_year": 1524,
+    "title_matches_corrected_title_category_only": true,
+    "emory_copy_definitively_assigned_to_vd16_O91": false,
+    "body_faces_visually_read": 0,
+    "hab_O90_faces_visually_read": 0,
+    "hab_O91_faces_visually_read": 0,
+    "A3r_A4r_collated": false,
+    "manifest_canvas_count": 1,
+    "canvas_is_pdf_wrapper": true,
+    "manifest_canvas_count_is_book_page_count": false,
+    "wa15_reported_correction_sites": [
+      {
+        "site": "title",
+        "earlier": "geschihct",
+        "corrected": "geschicht"
+      },
+      {
+        "site": "A3r line14",
+        "earlier": "comma absent after ist",
+        "corrected": "comma supplied after ist"
+      },
+      {
+        "site": "A4r line16",
+        "earlier": "kloisters",
+        "corrected": "klosters"
+      },
+      {
+        "site": "A4r line17",
+        "earlier": "schrfftlich",
+        "corrected": "schrifftlich"
+      }
+    ],
+    "wa15_reported_press_state_sequence_secure": false,
+    "wa15_Aa_Ab_online_label_internal_inconsistency_requires_facsimile": true,
+    "wa15_press_correction_direction_is_editorial_report_not_new_original_page_verification": true,
+    "extent14_means_fourteen_text_bearing_faces": false,
+    "rights": {
+      "repository_item_statement": "NO COPYRIGHT - UNITED STATES",
+      "manifest_top_level_rights": "https://rightsstatements.org/vocab/CNE/1.0/",
+      "conflict_resolved": false,
+      "reusable_image_uploaded_to_git": false
+    }
+  },
+  "claim_findings": [
+    {
+      "id": "F01",
+      "page_ids": [
+        "K330",
+        "K331",
+        "K335",
+        "K336",
+        "K338"
+      ],
+      "kind": "OBSERVED_PRINT_STRUCTURE",
+      "finding_ko": "330–338쪽은 두 문서와 편집자 해설을 합친 논문 범위이다. 편지 본문은331–335, 청원 본문은336–338로 나뉜다.",
+      "independent_event_truth_established": false
+    },
+    {
+      "id": "F02",
+      "page_ids": [
+        "K334"
+      ],
+      "kind": "DIRECT_TEXT_WITH_INTERPRETATION_GUARD",
+      "finding_ko": "14·16·17명은 서로 다른 문맥에 등장한다.17명을16명의 오식이라 단정하거나14+16=원래 공동체30명이라는 수식을 확정하지 않는다.",
+      "independent_event_truth_established": false
+    },
+    {
+      "id": "F03",
+      "page_ids": [
+        "K335",
+        "K336"
+      ],
+      "kind": "TRANSMISSION_LAYER",
+      "finding_ko": "1526 청원은 서기관 필사본을 통해 인쇄되었다.1525 소피아 자필 원본의 전승과 분리한다.",
+      "independent_event_truth_established": false
+    },
+    {
+      "id": "F04",
+      "page_ids": [
+        "K336",
+        "K337"
+      ],
+      "kind": "PETITIONERS_ALLEGATION",
+      "finding_ko": "문서·귀중품 보관, 수도원 수입 및 부속 재산의 반환과 복구가 청원 쟁점이다.백작들의 행위는 청원자의 고발이지 독립 법정 확정사실이 아니다.",
+      "independent_event_truth_established": false
+    },
+    {
+      "id": "F05",
+      "page_ids": [
+        "K336"
+      ],
+      "kind": "EDITORIAL_INFERENCE",
+      "finding_ko": "황제에게 청원이 닿지 못했을 가능성은 카베라우의 전달 경로 해설이다.황제의 접수대장이나 회답을 확보한 것은 아니다.",
+      "independent_event_truth_established": false
+    },
+    {
+      "id": "F06",
+      "page_ids": [
+        "K338"
+      ],
+      "kind": "OBSERVED_PRINTED_NAMES_AND_EDITORIAL_DATE",
+      "finding_ko": "인쇄 말미는 카테리나 바흐도르피네와 펠리키타스 타벨레스의 이름을 전한다.이것은 두 사람의 실제 자필 서명 이미지가 아니다.",
+      "independent_event_truth_established": false
+    },
+    {
+      "id": "F07",
+      "source_ids": [
+        "GESS-REPRINT",
+        "KAW-IA"
+      ],
+      "kind": "DERIVATIVE_REGEST",
+      "finding_ko": "게스 사료집1346번645쪽은 카베라우를 출전으로 제시한 요약문이다.출처 수가 늘어도 독립 증언 수는 증가하지 않는다.",
+      "independent_event_truth_established": false
+    },
+    {
+      "id": "F08",
+      "source_ids": [
+        "EMORY-TITLE",
+        "WA15-HTML",
+        "HAB-1524"
+      ],
+      "kind": "PARTIAL_FIRST_EDITION_COLLATION",
+      "finding_ko": "에모리 표제지의 수정된 제목은 확인했으나 A4r 교감·O90/O91 소장본 대조·전문 판독은 아직 성립하지 않는다.",
+      "independent_event_truth_established": false
+    }
+  ],
+  "reader_sections": [
+    {
+      "id": "R01",
+      "title_ko": "같은 책에 실렸어도 같은 목소리는 아니다",
+      "sources": [
+        "KAW-IA"
+      ],
+      "body_ko": "카베라우의 논문은 두 여성 자료를 이어 실었지만, 그 사이에는 편집자가 붙인 역사 설명이 있다. 소피아의 편지는 피난 직후의 생활을 전하고, 두 수녀원장의 청원은 그 다음 해의 공동체 회복을 요청한다. 독자는 쪽수의 연속보다 발화자의 전환을 먼저 보아야 한다. 표제와 주석까지 모두 당사자의 문장으로 읽으면 후대 연구자의 판단을16세기의 직접 증언으로 바꾸게 된다."
+    },
+    {
+      "id": "R02",
+      "title_ko": "피난 공동체를 한 숫자로 고정하지 않는다",
+      "sources": [
+        "KAW-IA",
+        "GOTHA-2025"
+      ],
+      "body_ko": "소피아는 할레로 온 뒤 일부 사람들을 친족이나 연고자에게 맡겼다고 설명한다. 이어 아직 곁에 남은 이들과 그들을 먹여 살릴 돈을 말한다.14명,16명,17명과5굴덴은 그래서 같은 질문의 답이 아니다.17명에 원장 자신이 포함되었을 가능성은 있지만 편지의 문장이 그 계산을 직접 풀어 주지는 않는다. 이 차이는 오류를 찾기 위한 숫자맞추기보다 피난 중 돌봄이 어떻게 재배치되었는지를 보여 준다."
+    },
+    {
+      "id": "R03",
+      "title_ko": "저주를 거부하면서도 도움을 요구하다",
+      "sources": [
+        "KAW-IA",
+        "GOTHA-2025"
+      ],
+      "body_ko": "소피아가 원수에 대한 저주를 거부한 문장은 위험한 장소에 남겠다는 약속이 아니다. 뒤의 서사는 문서를 보호하고, 이동 경로를 고민하고, 열쇠를 넘긴 뒤 할레로 떠난 과정을 전한다. 그는 복음과 형제 사랑을 말하는 사람들이 실제 보호를 제공하지 않는다고 비판하면서도 자신 역시 복음적인 삶을 지향한다고 말한다. 신앙적 인내와 구체적인 구조 요청은 이 편지 안에서 함께 나타난다."
+    },
+    {
+      "id": "R04",
+      "title_ko": "맡긴 귀중품과 권리문서의 의미",
+      "sources": [
+        "KAW-IA"
+      ],
+      "body_ko": "두 원장의 청원에서 회복해야 할 것은 건물만이 아니다. 피난하면서 보관을 맡긴 귀중품, 공동체의 권리를 증명하는 문서, 수도원에 속한 수입과 재산이 함께 등장한다. 문서는 공동체가 다시 살고 예배할 기반을 주장하는 수단이었다. 다만 청원은 설득을 목적으로 한 문서다. 누가 물건을 보관하고 돌려주지 않았는지에 관한 당사자의 고발을 곧바로 독립적으로 확정된 사실로 바꾸어서는 안 된다."
+    },
+    {
+      "id": "R05",
+      "title_ko": "만스펠트의 귀족들도 한 편이 아니었다",
+      "sources": [
+        "KAW-IA"
+      ],
+      "body_ko": "청원은 만스펠트의 여러 백작을 같은 역할로 묶지 않는다. 에른스트와 호이어는 반환을 방해하지 않는 쪽으로, 게프하르트와 알브레히트는 반환 요구의 상대방으로 서술된다. 작센 공작 게오르크의 지원과 다른 유력자에게 청원한 이력도 나온다. 이는 청원자들이 여러 권력 관계 속에서 보호와 재건을 구했음을 보여 준다. 각 인물의 최종 책임을 판정하려면 상대편의 기록과 재산 장부가 더 필요하다."
+    },
+    {
+      "id": "R06",
+      "title_ko": "황제에게 쓴 글과 황제가 읽은 글의 차이",
+      "sources": [
+        "KAW-IA",
+        "GESS-REPRINT"
+      ],
+      "body_ko": "본문은 카를 황제를 수신인으로 삼는다. 그러나 수신인이 적혀 있다는 사실만으로 전달과 접수가 입증되는 것은 아니다. 카베라우는 알브레히트의 사절단이 황제에게 이르지 못한 경로를 들어 청원이 실효를 얻기 어려웠을 것이라고 판단했다. 게스의 후대 요약도 같은 인쇄본을 출전으로 제시한다. 두 연구서가 같은 문서를 소개한다는 사실은 황제의 접수 기록을 대신하지 못한다."
+    },
+    {
+      "id": "R07",
+      "title_ko": "오래된 소책자의 한 글자가 말해 주는 범위",
+      "sources": [
+        "EMORY-TITLE",
+        "WA15-HTML",
+        "HAB-1524"
+      ],
+      "body_ko": "에모리 소장 소책자의 실제 표제지에서는 오식이 수정된 제목과 비텐베르크1524년 표기를 읽을 수 있다. 그러나 한 면의 일치는 책 전체의 판쇄 상태를 결정하지 못한다. 바이마르판은 인쇄 과정에서 여러 지점이 따로 수정되었고 그 순서를 확정하기 어렵다고 설명한다. 따라서 수정된 제목을 보았다는 사실과 O90·O91의 모든 본문 이문을 확인했다는 주장은 분리해야 한다."
+    },
+    {
+      "id": "R08",
+      "title_ko": "전해진 이름을 정돈하기 전에 보존한다",
+      "sources": [
+        "KAW-IA",
+        "GESS-REPRINT"
+      ],
+      "body_ko": "청원 인쇄 말미의 두 이름은 후대 연구서의 정리된 이름과 철자가 다르다. 카타리나 폰 바츠도르프라는 인물 식별은 게스의 표제와 연결되지만, 펠리키타스의 성을 기존 후보명으로 자동 치환할 근거는 이번 판독만으로 충분하지 않다. 원문 표기와 표준화된 인물명은 별도 칸에 남겨야 한다. 인쇄된 말미의 이름을 자필 서명으로 부르지 않는 것도 같은 이유다."
+    }
+  ],
+  "open_issues": [
+    "1524 Emory full PDF returns403; acquire lawful body access, then A3r/A4r and money/rings passage. Title face1 does not complete body collation.",
+    "Read both HAB O90/O91 copy images at A4r; present title category is not a complete VD16 identification.",
+    "Check actual WA15 p81–83 facsimile against the online Aa/Ab label inconsistency before fixing the siglum mapping or press-state order.",
+    "Locate current catalogue and digital images for historical Cod. Goth. A.123 fol.19; copy status reported1881 is not original autograph identification.",
+    "Read Sophia Chart.A338 254r–256v and collate derivative copy257r–260bv against1881 print;14/16/17 discrepancy remains a target, not an emendation.",
+    "Verify Felicitas Tabelles against proposed von Thobeln through independent person records; preserve printed names meanwhile.",
+    "Find independent inventories, restitution orders and any imperial receiving/reply records; no proof of delivery or factual adjudication yet.",
+    "Resolve Emory item NoC-US versus manifest CNE rights metadata before app image reuse; retain links/hashes only.",
+    "Continue1718 Cyprian1521 petition/reply and other inherited tasks separately; not claimed done inV245."
+  ],
+  "metrics": {
+    "source_records": 11,
+    "kawerau_article_print_faces_visually_read": 9,
+    "kawerau_volume_title_faces_visually_read": 1,
+    "sophia_letter_print_body_faces": 5,
+    "abbesses_petition_print_body_faces": 3,
+    "original_1524_title_faces_visually_read": 1,
+    "original_1524_body_faces_visually_read": 0,
+    "original_1525_autograph_faces_visually_read": 0,
+    "original_1526_manuscript_faces_visually_read": 0,
+    "hab_O90_O91_A4r_pairs_collated": 0,
+    "gess_1985_reprint_regest_faces_read": 1,
+    "modern_gess_index_faces_read": 1,
+    "new_independent_1526_manuscript_witnesses": 0,
+    "korean_reader_sections": 8,
+    "published_web_items": 0,
+    "old_core_essays": 10,
+    "old_core_search_sentences": 543
+  }
+}
