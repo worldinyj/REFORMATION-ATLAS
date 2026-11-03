@@ -1,0 +1,448 @@
+{
+  "version": "2.60",
+  "kind": "MEDIUM_DEPTH_CORE_COMPARISONS",
+  "depth": "MEDIUM",
+  "status": "DRAFT",
+  "parent_commit": "72e163a2d0b9fbce036ccdf8bffe64241b44ab0f",
+  "preserved_inputs": [
+    {
+      "path": "data/deep/atlas_v259_medium_reader_guide.json",
+      "sha256": "383a389ddfd62b4057c8bd08583fc2f8fda765fb1f8a382260d0c582a21f633b"
+    },
+    {
+      "path": "data/deep/atlas_v219_structured_ten_reader_critical_editions.json",
+      "sha256": "0fea005d6592dbc976b46da1d1d9d6f217b4390a2708b304968648a64ad82efb"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S01",
+      "title": "일치신조 요약: 판단의 기준",
+      "url": "https://bookofconcord.cph.org/en/formula-of-concord-epitome/summary/",
+      "scope": "SIXTEENTH_CENTURY_CONFESSION_IN_MODERN_TRANSLATION"
+    },
+    {
+      "id": "S02",
+      "title": "가톨릭 교리서80~83:성경과 전승",
+      "url": "https://www.vatican.va/content/catechism/en/part_one/section_one/chapter_two/artcile_2/ii_the_relationship_between_tradition_and_sacred_scripture.html",
+      "scope": "MODERN_CATHOLIC_EXPLANATION_NOT_SIXTEENTH_CENTURY_TRANSCRIPT"
+    },
+    {
+      "id": "S03",
+      "title": "아우크스부르크 신앙고백 제4조",
+      "url": "https://bookofconcord.cph.org/en/augsburg-confession/chief_articles/article_iv/",
+      "scope": "SIXTEENTH_CENTURY_CONFESSION_IN_MODERN_TRANSLATION"
+    },
+    {
+      "id": "S04",
+      "title": "아우크스부르크 신앙고백 제6조",
+      "url": "https://bookofconcord.cph.org/en/augsburg-confession/chief_articles/article_vi/",
+      "scope": "SIXTEENTH_CENTURY_CONFESSION_IN_MODERN_TRANSLATION"
+    },
+    {
+      "id": "S05",
+      "title": "가톨릭 교리서1996~2001:은혜",
+      "url": "https://www.vatican.va/content/catechism/en/part_three/section_one/chapter_three/article_2/ii_grace.html",
+      "scope": "MODERN_CATHOLIC_EXPLANATION_NOT_SIXTEENTH_CENTURY_TRANSCRIPT"
+    }
+  ],
+  "chapters": [
+    {
+      "id": "THEME-SCRIPTURE_AUTHORITY",
+      "title": "성경과 교회의 권위 — 무엇을 최종 기준으로 삼는가",
+      "lead": "종교개혁의 권위 논쟁은 성경을 소중히 여기는 사람과 그렇지 않은 사람의 대립이 아니었다. 성경과 전통,교회의 가르침을 어떤 관계에 놓을지가 쟁점이었다.",
+      "sections": [
+        {
+          "heading": "함께 존중한 성경,달랐던 판단의 구조",
+          "body": "개혁자들은 성경을 근거로 교회의 가르침과 관행을 다시 평가하려 했다. 그렇다고 가톨릭이 성경의 권위를 인정하지 않았다는 뜻은 아니다. 양측 모두 성경을 중요하게 여겼지만,성경이 교회의 전승과 해석 권한에 어떤 관계로 놓이는지에는 차이가 있었다. 같은 본문을 읽어도 정당한 해석을 확인하는 기준이 다르면 결론도 달라질 수 있었다."
+        },
+        {
+          "heading": "최종 기준과 전통의 역할을 구별하다",
+          "body": "루터교 일치신조는 성경을 모든 가르침을 판단하는 기준으로 삼으면서 고대 교회의 신조도 받아들인다. 따라서 ‘성경만’이라는 원칙을 신조·교사·교회의 기억을 모두 없애는 주장으로 설명하면 맞지 않는다. 가톨릭은 성경과 사도적 전승이 긴밀히 연결된다고 설명하며,그 전승을 시대별 관습과 구별한다. 전통이라는 같은 단어가 서로 다른 의미로 쓰일 수 있는 것이다."
+        },
+        {
+          "heading": "개인의 독서와 공동체의 판단",
+          "body": "성경의 권위를 강조한 개혁자들 사이에도 성찬과 교회 제도에 관한 차이는 남았다. 성경을 읽을 수 있다는 사실과 모든 해석이 같은 정당성을 가진다는 주장은 별개다. 독자는 누가 해석하는지뿐 아니라 어떤 근거로 그 해석을 설득하고 수정할 수 있는지 물어야 한다. 이 질문은 루터와 제국 권력의 충돌,도시의 종교개혁,개혁 내부의 분화로 이어진다."
+        }
+      ],
+      "reading_question": "성경을 최종 기준으로 삼는다는 주장과 공동체의 해석을 존중하는 일은 어떤 관계일까?",
+      "sources": [
+        "S01",
+        "S02"
+      ],
+      "existing_basis": {
+        "dataset": "data/deep/atlas_v219_structured_ten_reader_critical_editions.json",
+        "chapter_keys": [
+          "WYCLIFFE",
+          "HUS",
+          "LUTHER1521",
+          "ZWINGLI"
+        ]
+      },
+      "related_readers": [
+        "MEDIUM-LUTHER1521",
+        "THEME-ANABAPTISTS"
+      ],
+      "status": "EDITORIAL_DRAFT"
+    },
+    {
+      "id": "THEME-GRACE_FAITH_WORKS",
+      "title": "은혜·믿음·행위 — 무엇이 사람을 의롭게 하는가",
+      "lead": "의롭다 함의 논쟁은 사람이 자신의 힘으로 구원을 얻을 수 있는지,하나님의 은혜를 어떻게 받아들이며 그 은혜가 삶을 어떻게 바꾸는지를 물었다.",
+      "sections": [
+        {
+          "heading": "구원의 근거를 묻는 질문",
+          "body": "아우크스부르크 신앙고백 제4조는 사람이 자신의 힘이나 공로·행위로 의롭게 되는 것이 아니라 그리스도를 위해 믿음을 통해 값없이 의롭게 된다고 설명한다. 인간의 업적보다 하나님의 은혜와 약속에 의지하는 것이 중요했다. 이 가르침을 이해하려면 무엇이 구원의 근거인지와 신앙인이 이후 어떻게 살아야 하는지를 구별해서 물어야 한다."
+        },
+        {
+          "heading": "믿음을 강조해도 삶의 변화는 중요하다",
+          "body": "같은 신앙고백 제6조는 믿음이 좋은 열매를 맺어야 하며 하나님이 명한 선행을 해야 한다고 설명한다. 다만 그 행위를 의롭다 함을 얻는 공로로 의지하지 않는다고 구별한다. 가톨릭도 의롭다 함의 출발을 하나님의 은혜에 두고,은혜를 받아들일 준비 역시 은혜의 작용이라고 설명한다. 양측을 단순히 ‘믿음만 필요하다’와 ‘인간이 구원을 산다’로 대립시키면 실제 논쟁을 놓친다."
+        },
+        {
+          "heading": "공통점이 있어도 차이가 사라지는 것은 아니다",
+          "body": "16세기의 논쟁에는 죄 사함과 내적 갱신,인간의 응답과 의지,성례와 구원의 확신이 함께 얽혀 있었다. 트리엔트는 죄 사함과 갱신을 연결했고 개혁자들은 은혜와 믿음의 관계를 자신들의 논리로 설명했다. 공통으로 은혜를 말한다고 모든 차이가 사라지는 것도,차이가 있다고 상대가 은혜를 부정하는 것도 아니다. 같은 단어가 논증 안에서 어떤 역할을 하는지 살피는 것이 비교의 출발점이다."
+        }
+      ],
+      "reading_question": "선행을 구원의 근거로 삼는 것과 신앙이 선행을 낳아야 한다고 말하는 것은 어떻게 다를까?",
+      "sources": [
+        "S03",
+        "S04",
+        "S05"
+      ],
+      "existing_basis": {
+        "dataset": "data/deep/atlas_v219_structured_ten_reader_critical_editions.json",
+        "chapter_keys": [
+          "AUGSBURG",
+          "TRENT",
+          "CALVIN1559"
+        ]
+      },
+      "related_readers": [
+        "MEDIUM-AUGSBURG",
+        "MEDIUM-TRENT",
+        "MEDIUM-CALVIN1559"
+      ],
+      "status": "EDITORIAL_DRAFT"
+    },
+    {
+      "id": "THEME-COMMUNION",
+      "title": "성찬 — 같은 식탁을 두고 왜 다른 설명이 나왔는가",
+      "lead": "성찬 논쟁은 예배의 사소한 형식보다 그리스도의 약속과 임재,신앙 공동체가 은혜를 경험하는 방식을 다룬 문제였다.",
+      "sections": [
+        {
+          "heading": "많이 동의해도 남을 수 있는 핵심 차이",
+          "body": "1529년 마르부르크에서 루터와 츠빙글리 진영은 폭넓은 공통 신앙을 확인했지만 성찬에 완전히 합의하지 못했다. 정치적 협력이 필요했어도 신앙의 핵심이라고 여긴 문제를 쉽게 덮을 수는 없었다. 공동체의 일치 여부가 동의한 항목의 개수만으로 결정되지 않는다는 점을 보여 주는 사례다."
+        },
+        {
+          "heading": "실재와 상징의 단순한 양자택일을 넘어서",
+          "body": "루터는 성찬에서 그리스도가 참으로 주어진다는 약속을 강조했다. 츠빙글리는 그리스도의 승천,말씀과 신앙,성례가 공동체에 갖는 의미를 다르게 연결했다. 한쪽은 그리스도의 임재를 믿고 다른 쪽은 아무 의미도 없는 기념행사로 여겼다고 설명해서는 안 된다. 둘 다 성찬을 진지하게 다루었지만 몸과 표징,믿음과 은혜를 이해하는 논리가 달랐다."
+        },
+        {
+          "heading": "예배가 공동체의 경계가 되는 이유",
+          "body": "성찬은 추상적인 교리를 적은 문서에 머물지 않고 사람들이 함께 참여하는 예배였다. 무엇을 받으며 그 행위가 무엇을 뜻하는지에 대한 차이는 공동체의 소속과 협력에도 영향을 주었다. 마르부르크의 불일치를 곧 모든 시대 교파의 고정된 관계로 옮기지는 말아야 한다. 당시의 질문을 이해한 뒤 각 전통의 이후 발전을 별도로 살펴야 한다."
+        }
+      ],
+      "reading_question": "공동체가 하나라고 느끼게 하는 예배의 의미가 다를 때 어디까지 함께 행동할 수 있을까?",
+      "sources": [],
+      "existing_basis": {
+        "dataset": "data/deep/atlas_v219_structured_ten_reader_critical_editions.json",
+        "chapter_keys": [
+          "MARBURG",
+          "AUGSBURG",
+          "CALVIN1559"
+        ]
+      },
+      "related_readers": [
+        "MEDIUM-MARBURG",
+        "MEDIUM-ZWINGLI",
+        "MEDIUM-CALVIN1559"
+      ],
+      "status": "EDITORIAL_DRAFT"
+    }
+  ],
+  "catalogue": [
+    {
+      "id": "MEDIUM-WYCLIFFE",
+      "title": "위클리프 — 교회의 권위는 무엇으로 판단하는가",
+      "summary": "위클리프는 교회의 권위를 직위와 재산만으로 판단할 수 있는지 물었다. 그의 문제 제기는 중세 교회 안의 논쟁에서 출발했다.",
+      "dataset": "data/deep/atlas_v254_medium_depth_ten_readers.json",
+      "chapter_index": 0,
+      "reader_document": "docs/01_CONTENT/V254_MEDIUM_DEPTH_TEN_READERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "MEDIUM-HUS",
+      "title": "후스 — 설교와 교회 개혁이 보헤미아의 문제가 되다",
+      "summary": "후스의 개혁은 프라하의 설교와 대학, 지역 정치가 만나는 자리에서 자랐다. 그는 위클리프의 영향을 받았지만 독자적인 상황에서 행동했다.",
+      "dataset": "data/deep/atlas_v254_medium_depth_ten_readers.json",
+      "chapter_index": 1,
+      "reader_document": "docs/01_CONTENT/V254_MEDIUM_DEPTH_TEN_READERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "MEDIUM-LUTHER1517",
+      "title": "1517년 루터 — 면벌부 논쟁은 왜 커졌는가",
+      "summary": "95개 논제는 완성된 새 교파의 선언문이 아니라 회개와 교회의 권한을 둘러싼 토론 요청이었다. 그 논쟁은 인쇄와 지역 정치 속에서 확대되었다.",
+      "dataset": "data/deep/atlas_v254_medium_depth_ten_readers.json",
+      "chapter_index": 2,
+      "reader_document": "docs/01_CONTENT/V254_MEDIUM_DEPTH_TEN_READERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "MEDIUM-LUTHER1521",
+      "title": "1521년 보름스 — 양심과 제국의 권력이 충돌하다",
+      "summary": "보름스에서 루터는 저술의 철회를 요구받았다. 그의 양심은 개인 취향의 자유라기보다 성경에 근거해 설득되어야 한다는 신앙적 판단과 연결되었다.",
+      "dataset": "data/deep/atlas_v254_medium_depth_ten_readers.json",
+      "chapter_index": 3,
+      "reader_document": "docs/01_CONTENT/V254_MEDIUM_DEPTH_TEN_READERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "MEDIUM-MARBURG",
+      "title": "마르부르크 회담 — 같은 개혁 진영이 왜 하나가 되지 못했는가",
+      "summary": "1529년 마르부르크에서 개혁자들은 많은 공통점을 확인했지만 성찬 이해의 차이를 끝내 해소하지 못했다. 정치적 연합과 신학적 일치는 별개의 과제였다.",
+      "dataset": "data/deep/atlas_v254_medium_depth_ten_readers.json",
+      "chapter_index": 4,
+      "reader_document": "docs/01_CONTENT/V254_MEDIUM_DEPTH_TEN_READERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "MEDIUM-AUGSBURG",
+      "title": "아우크스부르크 신앙고백 — 개혁의 신앙을 공적으로 설명하다",
+      "summary": "1530년 신앙고백은 개혁 진영의 믿음을 제국의회 앞에서 설명하려는 문서였다. 논쟁의 언어가 공동체의 공적 고백으로 정리되는 과정이었다.",
+      "dataset": "data/deep/atlas_v254_medium_depth_ten_readers.json",
+      "chapter_index": 5,
+      "reader_document": "docs/01_CONTENT/V254_MEDIUM_DEPTH_TEN_READERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "MEDIUM-CALVIN1536",
+      "title": "1536년 『기독교강요』 — 가르침과 변호를 위한 작은 책",
+      "summary": "초판 『기독교강요』는 신앙을 배우는 독자를 위한 안내이자 박해받는 신자들의 믿음을 변호하는 책이었다. 처음부터 최종판의 거대한 체계로 나온 것은 아니다.",
+      "dataset": "data/deep/atlas_v254_medium_depth_ten_readers.json",
+      "chapter_index": 6,
+      "reader_document": "docs/01_CONTENT/V254_MEDIUM_DEPTH_TEN_READERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "MEDIUM-CALVIN1559",
+      "title": "1559년 『기독교강요』 — 신앙을 배우는 순서를 만들다",
+      "summary": "최종 라틴어판은 네 권80장으로 신학을 재배열했다. 예정론 한 주제보다 창조·구속·신앙의 삶·교회를 연결하는 전체 흐름이 중요하다.",
+      "dataset": "data/deep/atlas_v254_medium_depth_ten_readers.json",
+      "chapter_index": 7,
+      "reader_document": "docs/01_CONTENT/V254_MEDIUM_DEPTH_TEN_READERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "MEDIUM-ZWINGLI",
+      "title": "츠빙글리와 취리히 — 도시가 개혁을 결정하다",
+      "summary": "취리히 개혁은 설교자의 성경 해석과 시의회의 결정이 맞물린 공공개혁이었다. 예배의 변화는 도시의 재산과 질서, 주민의 생활까지 바꾸었다.",
+      "dataset": "data/deep/atlas_v254_medium_depth_ten_readers.json",
+      "chapter_index": 8,
+      "reader_document": "docs/01_CONTENT/V254_MEDIUM_DEPTH_TEN_READERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "MEDIUM-TRENT",
+      "title": "트리엔트 공의회 — 가톨릭교회는 어떻게 개혁했는가",
+      "summary": "트리엔트 공의회는 개신교 비판에 대응하면서 가톨릭의 교리를 명확히 하고 성직자 교육과 교회 운영을 개혁했다. 논쟁과 내부 쇄신이 함께 진행되었다.",
+      "dataset": "data/deep/atlas_v254_medium_depth_ten_readers.json",
+      "chapter_index": 9,
+      "reader_document": "docs/01_CONTENT/V254_MEDIUM_DEPTH_TEN_READERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "THEME-PRINT_TRANSLATION",
+      "title": "인쇄와 번역 — 논쟁은 어떻게 사람들에게 도달했는가",
+      "summary": "종교개혁은 주장만으로 확산되지 않았다. 인쇄와 번역은 논쟁이 이동하는 속도와 독자의 범위를 바꾸었다.",
+      "dataset": "data/deep/atlas_v255_medium_depth_social_themes.json",
+      "chapter_index": 0,
+      "reader_document": "docs/01_CONTENT/V255_MEDIUM_DEPTH_SOCIAL_THEMES.md",
+      "section_count": 3
+    },
+    {
+      "id": "THEME-CITY_POWER",
+      "title": "도시와 정치권력 — 누가 개혁을 실행했는가",
+      "summary": "설교자가 변화를 주장해도 도시 전체의 예배와 생활을 바꾸려면 실행할 권력이 필요했다. 취리히에서는 시의회가 중요한 역할을 맡았다.",
+      "dataset": "data/deep/atlas_v255_medium_depth_social_themes.json",
+      "chapter_index": 1,
+      "reader_document": "docs/01_CONTENT/V255_MEDIUM_DEPTH_SOCIAL_THEMES.md",
+      "section_count": 3
+    },
+    {
+      "id": "THEME-WOMEN_FAMILY",
+      "title": "여성과 가족 — 변화는 누구에게 어떤 기회를 주었는가",
+      "summary": "종교개혁기의 여성은 개혁자의 아내나 수녀라는 한 가지 역할로만 설명되지 않는다. 교육과 가정, 종교적 선택의 변화는 서로 다른 기회와 제약을 만들었다.",
+      "dataset": "data/deep/atlas_v255_medium_depth_social_themes.json",
+      "chapter_index": 2,
+      "reader_document": "docs/01_CONTENT/V255_MEDIUM_DEPTH_SOCIAL_THEMES.md",
+      "section_count": 3
+    },
+    {
+      "id": "THEME-EDUCATION",
+      "title": "학교와 교육 — 신앙을 배우는 일이 공공의 과제가 되다",
+      "summary": "개혁자들은 성경과 신앙을 이해할 독자를 필요로 했다. 학교는 교회의 문제이면서 도시가 책임져야 할 과제로도 논의되었다.",
+      "dataset": "data/deep/atlas_v255_medium_depth_social_themes.json",
+      "chapter_index": 3,
+      "reader_document": "docs/01_CONTENT/V255_MEDIUM_DEPTH_SOCIAL_THEMES.md",
+      "section_count": 3
+    },
+    {
+      "id": "THEME-PEASANTS_WAR",
+      "title": "농민전쟁 — 복음의 자유는 사회 질서의 변화도 뜻했는가",
+      "summary": "1524~1525년 농민전쟁은 종교개혁의 언어가 사회적 요구와 만난 사건이었다. 그러나 모든 원인을 루터의 가르침 하나로 설명할 수는 없다.",
+      "dataset": "data/deep/atlas_v255_medium_depth_social_themes.json",
+      "chapter_index": 4,
+      "reader_document": "docs/01_CONTENT/V255_MEDIUM_DEPTH_SOCIAL_THEMES.md",
+      "section_count": 3
+    },
+    {
+      "id": "REGION-ENGLAND",
+      "title": "잉글랜드 — 왕권과 의회가 교회의 질서를 바꾸다",
+      "summary": "잉글랜드의 종교개혁은 로마와의 결별에서 시작했지만, 교리와 예배의 변화는 여러 군주의 통치를 거치며 진전과 반전을 반복했다.",
+      "dataset": "data/deep/atlas_v256_medium_depth_regional_readers.json",
+      "chapter_index": 0,
+      "reader_document": "docs/01_CONTENT/V256_MEDIUM_DEPTH_REGIONAL_READERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "REGION-FRANCE",
+      "title": "프랑스 — 종교적 분열은 왜 내전으로 이어졌는가",
+      "summary": "프랑스에서는 개혁 신앙의 확산과 왕권·귀족의 경쟁이 겹치며 종교전쟁이 이어졌다. 낭트 칙령은 그 갈등을 제한된 공존으로 다스리려는 시도였다.",
+      "dataset": "data/deep/atlas_v256_medium_depth_regional_readers.json",
+      "chapter_index": 1,
+      "reader_document": "docs/01_CONTENT/V256_MEDIUM_DEPTH_REGIONAL_READERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "REGION-LOW_COUNTRIES",
+      "title": "네덜란드 지역 — 신앙 갈등과 지배에 대한 저항이 만나다",
+      "summary": "네덜란드 지역의 종교개혁은 합스부르크 통치에 대한 저항과 얽혔다. 그러나 독립을 원하는 모든 사람이 같은 신앙을 가진 것은 아니었다.",
+      "dataset": "data/deep/atlas_v256_medium_depth_regional_readers.json",
+      "chapter_index": 2,
+      "reader_document": "docs/01_CONTENT/V256_MEDIUM_DEPTH_REGIONAL_READERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "REGION-SCOTLAND",
+      "title": "스코틀랜드 — 설교와 귀족 연합, 국제정치가 함께 만든 개혁",
+      "summary": "스코틀랜드의 종교개혁은 존 녹스의 설교만으로 이루어지지 않았다. 귀족들의 연합과 의회, 프랑스·잉글랜드의 개입이 변화의 조건을 만들었다.",
+      "dataset": "data/deep/atlas_v256_medium_depth_regional_readers.json",
+      "chapter_index": 3,
+      "reader_document": "docs/01_CONTENT/V256_MEDIUM_DEPTH_REGIONAL_READERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "REGION-DENMARK_NORWAY",
+      "title": "덴마크·노르웨이 — 왕권이 이끈 개혁과 생활 속의 느린 변화",
+      "summary": "1536~1537년 루터교 질서의 도입은 교회와 왕권의 관계를 바꾸었다. 그러나 제도의 변화와 주민들의 신앙생활 변화는 같은 속도로 진행되지 않았다.",
+      "dataset": "data/deep/atlas_v257_medium_depth_north_east_regions.json",
+      "chapter_index": 0,
+      "reader_document": "docs/01_CONTENT/V257_MEDIUM_DEPTH_NORTH_EAST_REGIONS.md",
+      "section_count": 3
+    },
+    {
+      "id": "REGION-SWEDEN",
+      "title": "스웨덴 — 교회 재산의 변화에서 루터교 고백의 확립까지",
+      "summary": "스웨덴의 종교개혁은1527년의 정치·경제적 전환과1593년의 신앙고백 확립 사이에 긴 과정을 거쳤다. 시작과 정착을 같은 사건으로 묶지 않는 것이 중요하다.",
+      "dataset": "data/deep/atlas_v257_medium_depth_north_east_regions.json",
+      "chapter_index": 1,
+      "reader_document": "docs/01_CONTENT/V257_MEDIUM_DEPTH_NORTH_EAST_REGIONS.md",
+      "section_count": 3
+    },
+    {
+      "id": "REGION-POLAND_LITHUANIA",
+      "title": "폴란드-리투아니아 — 종교가 달라도 정치적 평화를 지킬 수 있는가",
+      "summary": "1573년 바르샤바 연맹은 신앙이 다른 사람들이 폭력 없이 함께 살 조건을 약속했다. 이 공존은 귀족 중심의 정치질서 속에서 이해해야 한다.",
+      "dataset": "data/deep/atlas_v257_medium_depth_north_east_regions.json",
+      "chapter_index": 2,
+      "reader_document": "docs/01_CONTENT/V257_MEDIUM_DEPTH_NORTH_EAST_REGIONS.md",
+      "section_count": 3
+    },
+    {
+      "id": "REGION-TRANSYLVANIA",
+      "title": "트란실바니아 — 공동체가 받아들일 설교자를 선택하다",
+      "summary": "헝가리어권 종교개혁의 중요한 무대였던 트란실바니아에서는1568년 토르더 의회가 설교와 공동체의 선택을 보호했다. 공존의 성과와 적용 범위를 함께 보아야 한다.",
+      "dataset": "data/deep/atlas_v257_medium_depth_north_east_regions.json",
+      "chapter_index": 3,
+      "reader_document": "docs/01_CONTENT/V257_MEDIUM_DEPTH_NORTH_EAST_REGIONS.md",
+      "section_count": 3
+    },
+    {
+      "id": "THEME-ANABAPTISTS",
+      "title": "재세례파 — 교회의 구성원은 어떻게 되는가",
+      "summary": "재세례파는 종교개혁 내부에서 세례와 신앙 공동체의 경계를 다시 물었다. 한 이름 아래 여러 흐름이 있었으므로 모두를 하나의 집단처럼 설명하면 안 된다.",
+      "dataset": "data/deep/atlas_v258_medium_depth_conflict_settlements.json",
+      "chapter_index": 0,
+      "reader_document": "docs/01_CONTENT/V258_MEDIUM_DEPTH_CONFLICT_SETTLEMENTS.md",
+      "section_count": 3
+    },
+    {
+      "id": "THEME-CATHOLIC_RENEWAL",
+      "title": "가톨릭 내부 개혁과 예수회 — 논쟁을 넘어 교육과 실천으로",
+      "summary": "가톨릭의 변화는 개신교 비판에 대한 대응과 내부 쇄신의 필요가 함께 이끌었다. 예수회는 교육과 선교를 통해 그 변화를 실천한 중요한 조직이었다.",
+      "dataset": "data/deep/atlas_v258_medium_depth_conflict_settlements.json",
+      "chapter_index": 1,
+      "reader_document": "docs/01_CONTENT/V258_MEDIUM_DEPTH_CONFLICT_SETTLEMENTS.md",
+      "section_count": 3
+    },
+    {
+      "id": "THEME-AUGSBURG_PEACE",
+      "title": "1555년 아우크스부르크 화의 — 일치하지 못해도 싸움을 멈출 수 있는가",
+      "summary": "아우크스부르크 화의는 가톨릭과 루터교 사이의 신학적 차이를 해소하지 않고도 제국 안의 평화를 유지하려는 정치적 합의였다.",
+      "dataset": "data/deep/atlas_v258_medium_depth_conflict_settlements.json",
+      "chapter_index": 2,
+      "reader_document": "docs/01_CONTENT/V258_MEDIUM_DEPTH_CONFLICT_SETTLEMENTS.md",
+      "section_count": 3
+    },
+    {
+      "id": "THEME-WAR_WESTPHALIA",
+      "title": "30년전쟁과 베스트팔렌 평화 — 종교적 차이를 다루는 질서를 다시 만들다",
+      "summary": "1618~1648년의 전쟁은 신앙 갈등과 왕조·영방의 권력 경쟁이 얽힌 전쟁이었다. 평화는 교파를 하나로 합치기보다 차이를 관리할 장치를 마련했다.",
+      "dataset": "data/deep/atlas_v258_medium_depth_conflict_settlements.json",
+      "chapter_index": 3,
+      "reader_document": "docs/01_CONTENT/V258_MEDIUM_DEPTH_CONFLICT_SETTLEMENTS.md",
+      "section_count": 3
+    },
+    {
+      "id": "THEME-SCRIPTURE_AUTHORITY",
+      "title": "성경과 교회의 권위 — 무엇을 최종 기준으로 삼는가",
+      "summary": "종교개혁의 권위 논쟁은 성경을 소중히 여기는 사람과 그렇지 않은 사람의 대립이 아니었다. 성경과 전통,교회의 가르침을 어떤 관계에 놓을지가 쟁점이었다.",
+      "dataset": "data/deep/atlas_v260_medium_depth_core_comparisons.json",
+      "chapter_index": 0,
+      "reader_document": "docs/01_CONTENT/V260_MEDIUM_DEPTH_CORE_COMPARISONS.md",
+      "section_count": 3
+    },
+    {
+      "id": "THEME-GRACE_FAITH_WORKS",
+      "title": "은혜·믿음·행위 — 무엇이 사람을 의롭게 하는가",
+      "summary": "의롭다 함의 논쟁은 사람이 자신의 힘으로 구원을 얻을 수 있는지,하나님의 은혜를 어떻게 받아들이며 그 은혜가 삶을 어떻게 바꾸는지를 물었다.",
+      "dataset": "data/deep/atlas_v260_medium_depth_core_comparisons.json",
+      "chapter_index": 1,
+      "reader_document": "docs/01_CONTENT/V260_MEDIUM_DEPTH_CORE_COMPARISONS.md",
+      "section_count": 3
+    },
+    {
+      "id": "THEME-COMMUNION",
+      "title": "성찬 — 같은 식탁을 두고 왜 다른 설명이 나왔는가",
+      "summary": "성찬 논쟁은 예배의 사소한 형식보다 그리스도의 약속과 임재,신앙 공동체가 은혜를 경험하는 방식을 다룬 문제였다.",
+      "dataset": "data/deep/atlas_v260_medium_depth_core_comparisons.json",
+      "chapter_index": 2,
+      "reader_document": "docs/01_CONTENT/V260_MEDIUM_DEPTH_CORE_COMPARISONS.md",
+      "section_count": 3
+    }
+  ],
+  "source_scope_note": "현대 가톨릭 교리서는 현재의 설명을 확인하는 보조 자료다.16세기 트리엔트 문장의 직접 전사나 당대 모든 입장을 대체하지 않는다.",
+  "metrics": {
+    "new_readers": 3,
+    "new_sections": 9,
+    "new_questions": 3,
+    "previous_readers": 27,
+    "total_medium_readers": 30
+  },
+  "publication_gate": {
+    "published": false,
+    "main_changed": false,
+    "webapp_integrated": false
+  }
+}
