@@ -41,13 +41,15 @@ events=keyed(d["chronology"])
 readers=keyed(d["reader_sections"])
 issues=d["open_issues"]
 
-assert (len(sources),len(voices),len(physical),len(variants),len(anchors),len(events),len(readers),len(issues))==(15,3,5,5,6,10,8,10)
+assert (len(sources),len(voices),len(physical),len(variants),len(anchors),len(events),len(readers),len(issues))==(17,3,5,5,6,10,8,10)
 assert all(s["url"].startswith("https://") and s["reading_level"] and s["description"]
            and s["original_1524_1525_1526_page_folio_directly_seen"] is False for s in sources.values())
 assert "1524 LUTH AA" in sources["EMORY-1524"]["description"]
 assert "O90" in sources["HAB-1524"]["description"] and "O91" in sources["HAB-1524"]["description"]
 assert sources["OXFORD-2023"]["reading_level"]=="DIRECT_ACADEMIC_TEXT_EXTRACT_FROM_2023_PDF"
 assert sources["OEF-2019"]["reading_level"]=="MODERN_SCHOLARLY_HISTORICAL_STUDY_TEXT_EXTRACT"
+assert sources["WA15-1899-HTML"]["reading_level"]=="DIRECT_1524_EARLY_GERMAN_PRIMARY_LANGUAGE_TEXT_IN_1899_SCHOLARLY_EDITION_TRANSCRIPTION"
+assert sources["OEF2019-ESV-PUBLISHER"]["reading_level"]=="DIRECT_2019_OPEN_ACCESS_SCHOLARLY_TEXT_PP58_60_NOT_HISTORIC_PRIMARY_PAGE"
 assert "192" not in sources["SLUB-HARZ-13"]["description"]  # catches typo in edition century
 assert sorted(v["year"] for v in voices.values())==[1524,1525,1526]
 assert all(v["source_ids"] and set(v["source_ids"])<=sources.keys()
@@ -82,8 +84,31 @@ assert "gott" in anchors["L-01"]["text"].lower()
 assert all(event["sources"] and set(event["sources"])<=sources.keys() for event in events.values())
 assert events["Y07"]["date"]=="1526-11-12"
 assert events["Y08"]["date"]=="1529-06-12"
+critical=keyed(d["critical_direct_edition_findings"])
+assert len(critical)==8
+assert all(x["source_id"]=="WA15-1899-HTML" and x["read_from_1899_primary_language_edition"] is True and x["original_1524_page_image_seen"] is False for x in critical.values())
+assert critical["H5"]["original_excerpt"]=="vi. gulden und zween sylbern ringe"
+assert critical["H5"]["wa_page"]=="93"
+assert critical["H6"]["original_excerpt"]=="widderkriegen"
+assert critical["H7"]["wa_page"]=="94"
+assert critical["H8"]["voice"]=="MARTIN_LUTHER_EDITORIAL_POSTSCRIPT"
+assert sum(len(x["original_excerpt"].split()) for x in critical.values())<=25
+g=d["editorial_inference_guards"]
+assert g["prior_six_gulden_two_silver_rings_self_reported_taken"] is True
+assert g["prior_six_gulden_two_silver_rings_self_reported_returned"] is True
+assert g["final_departure_clothing_self_reported"] is True
+assert g["independent_money_return_receipt_verified"] is False
+assert g["wa15_1899_read_not_1524_facsimile"] is True
+assert g["florentina_pamphlet_caused_1525_helfta_attack_proven"] is False
+assert g["abbesses_1526_petition_emperor_actual_delivery_proven"] is False
+assert g["oefelein2019_pdf_screenshot_success"] is False
 
 c=d["issue_entanglement"]
+assert c["emperor_charles_v_petition_delivery_unknown"] is True
+assert "emperor_christian_v_petition_delivery_unknown" not in c
+assert c["helfta_1525_assault_causation_from_florentina_1524_pamphlet_unproven"] is True
+assert c["wa1899_luther_and_florentina_distinct_voices"] is True
+assert c["kawerau_v13_year_of_volume_1880_issued_1881"] is True
 assert len(c["religious_communities_distinct"])==3
 assert c["florentina_location"]=="HELFTA_NEUHELFTA"
 assert c["sophia_location"]=="NAUNDORF_NEUENDORF"
@@ -96,7 +121,7 @@ assert all(x is True for x in [
 assert all(len(r["body_ko"])>100 and set(r["sources"])<=sources.keys() for r in readers.values())
 assert len(issues)==10 and all(q for q in issues)
 assert d["metrics"]=={
- "sources":15,"three_perspectives":3,"distinct_monastic_communities":3,
+ "sources":17,"three_perspectives":3,"distinct_monastic_communities":3,
  "old_print_witnesses":5,"official_1524_bibliographic_variants":5,
  "short_reported_original_language_anchors":6,"chronology_events":10,
  "new_reader_sections":8,"open_issues":10,
@@ -104,10 +129,12 @@ assert d["metrics"]=={
  "full_1525_autograph_pages_directly_seen":0,
  "full_1526_petition_old_print_pages_directly_seen":0,
  "prior_1529_k_photographed_faces":2,
- "prior_1529_zwingli_dialogue_pages":4,"webapp_publications":0}
+ "prior_1529_zwingli_dialogue_pages":4,"webapp_publications":0,
+ "direct_1524_primary_language_microreadings_from_1899_edition":8}
 
 print("PASS V244: three women's distinct 1524 Florentina, 1525 Sophia and 1526 Helfta+Holzzelle witness perspectives")
 print("PASS V244: HAB 1524 VD16 O90/O91 print typos A3r/A4r verified as bibliographic reports, not photographic readings")
 print("PASS V244: Emory 14 printed sides vs BSB Google 16-page record NOT counted as extra text without images")
 print("PASS V244: 1880/1881 Kawerau p330–335 Sophia, p335–338 1526 joint petition; no false emperor delivery")
+print("PASS V244: WA15 1899 direct text separates Luther and Florentina, admits six gulden/two rings self-reported returned; no historic facsimile seen")
 print("PASS V244: inherited 10 historical essays 543 sentences, prior 1529 source pages distinct, all webapp gates HOLD")
