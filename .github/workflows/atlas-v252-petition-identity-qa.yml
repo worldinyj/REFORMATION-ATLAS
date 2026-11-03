@@ -1,0 +1,33 @@
+name: Atlas V252 petition catalogue identity audit QA
+on:
+  push:
+    branches: ['research/**']
+    paths:
+      - 'data/deep/atlas_v252_petition_catalogue_identity_conflicts.json'
+      - 'docs/01_CONTENT/V252_PETITION_CATALOGUE_IDENTITY_CONFLICTS_REPORT.md'
+      - 'scripts/validate_atlas_v252.py'
+      - '.github/workflows/atlas-v252-petition-identity-qa.yml'
+  pull_request:
+    branches: ['research/**']
+    paths:
+      - 'data/deep/atlas_v252_petition_catalogue_identity_conflicts.json'
+      - 'docs/01_CONTENT/V252_PETITION_CATALOGUE_IDENTITY_CONFLICTS_REPORT.md'
+      - 'scripts/validate_atlas_v252.py'
+      - '.github/workflows/atlas-v252-petition-identity-qa.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Historical research V219 to V252 regression
+        run: |
+          set -e
+          for version in $(seq 219 252); do
+            python3 "scripts/validate_atlas_v${version}.py"
+          done

@@ -1,0 +1,118 @@
+{
+  "version": "2.52",
+  "status": "DRAFT",
+  "parent_commit": "8353aadcd51d6a12313f6e956ad5e3ee3e266b7c",
+  "preserved_files": [
+    {
+      "path": "data/deep/atlas_v219_structured_ten_reader_critical_editions.json",
+      "sha256": "0fea005d6592dbc976b46da1d1d9d6f217b4390a2708b304968648a64ad82efb"
+    },
+    {
+      "path": "data/deep/atlas_v245_kawerau_print_florentina_title_and_gess_dependency.json",
+      "sha256": "cf53a2759c4be9da5b0c4d9bdf59f2814c52c13db96b89f3272f3019171a0796"
+    },
+    {
+      "path": "data/deep/atlas_v251_searchable_women_supplement.json",
+      "sha256": "90907de6caf2f47786c444d57971a0bb1c707793ffe5f6196027596c351b78ce"
+    }
+  ],
+  "catalogue": {
+    "id": "DE-611-HS-3408588",
+    "url": "https://kalliope-verbund.info/ead?ead.id=DE-611-HS-3408588",
+    "institution": "Forschungsbibliothek Gotha",
+    "shelfmark": "Chart. A 123, Bl. 19r-20v",
+    "extent_leaves": 2,
+    "reported_blank_folios": [
+      "19r"
+    ],
+    "document_type": "Abschrift",
+    "catalogue_date": "1526-11-13",
+    "catalogue_place": "Bamberg",
+    "date_formula": "montags nach Martinj",
+    "authors": [
+      "Katherina Wachdorff",
+      "Felicitas (von Helfta)"
+    ],
+    "recipient": "Karl V.",
+    "parent_collection": "Nachlass Paul Eber",
+    "parent_volume": "DE-611-BF-72245",
+    "catalogue_created": "2007-11-19",
+    "catalogue_modified": "2007-11-19",
+    "catalogue_synced": "2025-09-19"
+  },
+  "rejected_record": {
+    "id": "DE-611-HS-3408675",
+    "url": "https://kalliope-verbund.info/DE-611-HS-3408675",
+    "actual_author": "Johannes Mathesius",
+    "actual_recipient": "Paul Eber",
+    "actual_date": "1556-11-18",
+    "actual_shelfmark": "Chart. A 123, Bl. 254r/v",
+    "accepted_as_petition": false,
+    "risk": "NEIGHBOURING_ID_IN_FLATTENED_FINDING_AID"
+  },
+  "conflicts": [
+    {
+      "id": "C01",
+      "field": "date",
+      "prior_print_value": "1526-11-12",
+      "catalogue_value": "1526-11-13",
+      "final_value": null,
+      "status": "UNRESOLVED"
+    },
+    {
+      "id": "C02",
+      "field": "place",
+      "prior_print_value": "[Leipzig]",
+      "catalogue_value": "Bamberg",
+      "final_value": null,
+      "status": "UNRESOLVED"
+    },
+    {
+      "id": "C03",
+      "field": "second_author_name",
+      "prior_print_value": "Felicitas Tabelles zu der Zelle",
+      "catalogue_value": "Felicitas (von Helfta)",
+      "final_value": null,
+      "status": "IDENTITY_NORMALIZATION_PENDING"
+    }
+  ],
+  "artifacts": [
+    {
+      "filename": "petition252_correct.html",
+      "bytes": 11047,
+      "sha256": "23b6d7f8dfa8b27dc47d6b9636ee2c487e984161eb6a6dc93ad637476e52efe2"
+    },
+    {
+      "filename": "petition252_kalliope.html",
+      "bytes": 10983,
+      "sha256": "1615d484383bcdf0a8b0850b4eee5b30d41b8dee5ac9b1addf2c579ff661b65a"
+    }
+  ],
+  "guards": {
+    "original_faces_seen": 0,
+    "catalogue_blank_is_photo_observation": false,
+    "image_canvas_map_established": false,
+    "petition_autograph_seen": false,
+    "catalogue_equals_independent_event_witness": false,
+    "emperor_receipt_proven": false,
+    "date_conflict_resolved": false,
+    "place_conflict_resolved": false,
+    "historic_A123_exact_material_identity_proven": false,
+    "new_sophia_numeric_approval": false
+  },
+  "publication_gate": {
+    "merge": false,
+    "publish": false,
+    "deploy": false,
+    "core_changed": false,
+    "webapp_changed": false
+  },
+  "metrics": {
+    "accepted_item_records": 1,
+    "rejected_neighbour_records": 1,
+    "conflict_records": 3,
+    "new_original_faces": 0,
+    "core_essays": 10,
+    "core_sentences": 543
+  }
+}
