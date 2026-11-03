@@ -1,0 +1,371 @@
+{
+  "version": "2.43",
+  "parent_commit": "ad07e9c3467d47a94dd1af80fdf7c938f87134de",
+  "parent_data": "data/deep/atlas_v242_gotha_cyprian_rebinding_and_sophia_1525_lexical_source_criticism.json",
+  "kind": "SOPHIA_1525_NONRETALIATION_EARLY_GERMAN_BIBLICAL_PARALLELS_AND_KAWERAU_1880_VOLUME_1881_IMPRINT_AUDIT",
+  "publication_gate": {
+    "publish": false,
+    "sophia_autograph_full_folios_seen": false,
+    "later_copy_folios_seen": false,
+    "kawerau_1880_1881_article_pages_seen": false,
+    "cyprian_1718_1_pages_seen": false,
+    "cyprian_1718_2_pages_seen": false,
+    "greek_to_sophia_direct_quotation_proven": false,
+    "source_page_variants_collated": false,
+    "archive_image_rights_cleared": false,
+    "external_expert_review": false,
+    "webapp_ingested": false
+  },
+  "sources": [
+    {
+      "id": "SOPHIA-2025",
+      "url": "https://blog-fbg.uni-erfurt.de/2025/04/dass-wir-nicht-fluechgen-noch-eyn-bosse-hertz-haben-kegen-vnsser-feynde/",
+      "kind": "INSTITUTIONAL_SCHOLARLY_EXCERPT_OF_1525_SOURCE",
+      "reading": "DIRECT_FULL_INSTITUTIONAL_ARTICLE_WITH_EARLY_GERMAN_MICRO_EXCERPTS",
+      "evidence": "Sophia Gotha A338 f254r,255r,255v, author's language not original photographic scan, 1880 Kawerau pp330–335 full print and 1942 Fuchs abridgment bibliography"
+    },
+    {
+      "id": "SLUB-V13",
+      "url": "https://katalog.slub-dresden.de/id/0-12952784X",
+      "kind": "PUBLIC_SAXON_LIBRARY_HISTORICAL_JOURNAL_HOLDING",
+      "reading": "DIRECT_INSTITUTIONAL_CATALOGUE",
+      "evidence": "Physical periodical year 13.1880(1881) + index shelf Hist.Sax.inf.311-13.1880, barcode20328899; volume year and bibliographic issue year separate"
+    },
+    {
+      "id": "KAW-1880-PDF",
+      "url": "https://zs.thulb.uni-jena.de/servlets/MCRFileNodeServlet/jportal_derivate_00211791/Zeitschrift_Harz-Vereins_Altertum_12952784X_1880_13.pdf",
+      "kind": "EXACT_JENA_JOURNAL_PDF_FILE_LINK",
+      "reading": "ACTUAL_PDF_REDIRECTED_TO_ANTIBOT_CHALLENGE",
+      "evidence": "Rambow link to exact Jena volume13 PDF; cannot assert article pages330–335 read"
+    },
+    {
+      "id": "KAW-ARTICLE",
+      "url": "https://zs.thulb.uni-jena.de/receive/jportal_jparticle_00254558",
+      "kind": "INSTITUTIONAL_PUBLIC_DOMAIN_1880_JOURNAL_ARTICLE_OBJECT",
+      "reading": "DIGITAL_OBJECT_REFERENCE_ONLY_TOOL_INTERNAL_ERROR",
+      "evidence": "Kawerau title Zur Geschichte des Klosterstürmens... 13(1880) pp330–335, likely printed 1881 bound volume based on SLUB"
+    },
+    {
+      "id": "RMB-V13",
+      "url": "https://www.rambow.de/zeitschrift-des-harz-vereins.html",
+      "kind": "THIRD_PARTY_JOURNAL_PDF_LINK_INDEX",
+      "reading": "DIRECT_WEB_PAGE_AND_CLICK_ACTUAL_JENA_1880_PDF_ANTIBOT",
+      "evidence": "Vol13 1880 Jena PDF link; path actual file ID 00211791, not text returned"
+    },
+    {
+      "id": "RO12-GREEK",
+      "url": "https://www.ccel.org/ccel/westcott/gnt/files/romans/romans_12.htm",
+      "kind": "PUBLIC_DOMAIN_GREEK_NEW_TESTAMENT_WESTCOTT_HORT",
+      "reading": "DIRECT_GREEK_ROMANS_12_14_17",
+      "evidence": "Rom12:14 εὐλογεῖτε ... μὴ καταρᾶσθε / Rom12:17 μηδενὶ κακὸν ἀντὶ κακοῦ ἀποδιδόντες"
+    },
+    {
+      "id": "1PE3-GREEK",
+      "url": "https://ccel.org/w/westcott/gnt/I_peter/I_peter_3.htm",
+      "kind": "PUBLIC_DOMAIN_GREEK_NEW_TESTAMENT_WESTCOTT_HORT",
+      "reading": "DIRECT_GREEK_1PETER_3_9",
+      "evidence": "1Pet3:9 μη αποδιδόντες κακὸν ἀντὶ κακοῦ, ἢ λοιδορίαν ἀντὶ λοιδορίας"
+    },
+    {
+      "id": "MATT5-GREEK",
+      "url": "https://biblehub.com/text/matthew/5-44.htm",
+      "kind": "GREEK_NT_TEXTUAL_REFERENCE",
+      "reading": "DIRECT_GREEK_MATT5_44",
+      "evidence": "Matt5:44 ἀγαπᾶτε τοὺς ἐχθροὺς; ethical parallel, not proof Sophia cited exactly Matt5"
+    },
+    {
+      "id": "SLUB-ONLINE",
+      "url": "https://katalog.slub-dresden.de/id/0-585502900",
+      "kind": "PUBLIC_LIBRARY_DIGITIZATION_CATALOGUE",
+      "reading": "DIGITAL_SERIES_CATALOGUE",
+      "evidence": "Early Harz journal digitized by IA/HAAB and Jena, local issue access not guaranteed"
+    },
+    {
+      "id": "V241-AUTOGRAPH",
+      "url": "https://kalliope.staatsbibliothek-berlin.de/ead?ead.id=DE-611-HS-3409555",
+      "kind": "OFFICIAL_1525_AUTOGRAPH_CATALOGUE",
+      "reading": "OFFICIAL_HISTORIC_ITEM_CATALOGUE",
+      "evidence": "Sophia original Gotha Chart A338 254r–256v; original image unread"
+    },
+    {
+      "id": "V241-COPY",
+      "url": "https://kalliope.staatsbibliothek-berlin.de/ead?ead.id=DE-611-HS-3409718",
+      "kind": "OFFICIAL_LATER_COPY_OF_1525_AUTOGRAPH",
+      "reading": "OFFICIAL_HISTORIC_ITEM_CATALOGUE",
+      "evidence": "Gotha A338 f257r–260bv explicitly later copy of 254r–256v"
+    }
+  ],
+  "exact_sophia_edition": {
+    "article_author": "Gustav Kawerau",
+    "article_title": "Zur Geschichte des Klosterstürmens im Bauernkriege. 1. Die Flucht der Nonnen aus Kloster Neuendorf (Naundorf) bei Alstedt am 1. Mai 1525",
+    "journal": "Zeitschrift des Harz-Vereins für Geschichte und Alterthumskunde",
+    "volume": 13,
+    "volume_designation_year": 1880,
+    "physical_printed_issue_year_reported_by_slub": 1881,
+    "target_printed_pages": "330–335",
+    "slub_signature": "Hist.Sax.inf.311-13.1880",
+    "slub_catalogue_notation": "13.1880(1881)+Index",
+    "kawerau_p330_335_actual_page_seen": 0,
+    "jena_exact_pdf_discovered_but_blocked": true,
+    "year_issue_vs_print_not_automatically_identical": true
+  },
+  "textual_units": [
+    {
+      "id": "T1",
+      "source": "SOPHIA-2025",
+      "original": "nicht flüchgen",
+      "words": 2,
+      "sense": "NOT_TO_CURSE",
+      "modern_german": "nicht fluchen",
+      "ko": "원수를 저주하지 않으려 함",
+      "folio": "254r",
+      "text_status": "READ_GOTHA_2025_EXCERPT_NOT_PHOTO"
+    },
+    {
+      "id": "T2",
+      "source": "SOPHIA-2025",
+      "original": "nicht argeß mit argem begaben",
+      "words": 5,
+      "sense": "NON_REPAYMENT_OF_EVIL",
+      "modern_german": "nicht Böses mit Bösem vergelten",
+      "ko": "악을 악으로 되갚지 않으려 함",
+      "folio": "254r",
+      "text_status": "READ_GOTHA_2025_EXCERPT_NOT_PHOTO"
+    },
+    {
+      "id": "T3",
+      "source": "SOPHIA-2025",
+      "original": "wey vnß der her selbest lernet",
+      "words": 6,
+      "sense": "LORD_TEACHES_ETHICAL_IMPERATIVE",
+      "modern_german": "weil der Herr selbst uns lehrt",
+      "ko": "주님께서 이 태도를 가르치신다는 신앙적 근거",
+      "folio": "254r",
+      "text_status": "READ_GOTHA_2025_EXCERPT_NOT_PHOTO"
+    },
+    {
+      "id": "T4",
+      "source": "SOPHIA-2025",
+      "original": "Jch bin jo etwaß ewangliß",
+      "words": 5,
+      "sense": "SELF_IDENTIFICATION_PARTLY_EVANGELICAL",
+      "modern_german": "Ich bin ja etwas evangelisch",
+      "ko": "자신을 어느 정도 복음적이라고 소개함",
+      "folio": "255v",
+      "text_status": "READ_GOTHA_2025_EXCERPT_NOT_PHOTO"
+    },
+    {
+      "id": "T5",
+      "source": "SOPHIA-2025",
+      "original": "flygen",
+      "words": 1,
+      "sense": "FLEE_PHYSICAL_DANGER",
+      "modern_german": "fliehen",
+      "ko": "실제로 피난함과 관계된 다른 동사",
+      "folio": "255r",
+      "text_status": "READ_GOTHA_2025_EXCERPT_NOT_PHOTO"
+    }
+  ],
+  "biblical_parallels": [
+    {
+      "id": "B1",
+      "biblical_ref": "Romans 12:14",
+      "original_greek": "εὐλογεῖτε καὶ μὴ καταρᾶσθε",
+      "significance": "반대하는 자에게도 저주하지 말라는 권면",
+      "sophia_units": [
+        "T1"
+      ],
+      "parallel_strength": "LEXICAL_THEMATIC_STRONG",
+      "actual_1525_specific_verse_citation_proven": false,
+      "source": "RO12-GREEK"
+    },
+    {
+      "id": "B2",
+      "biblical_ref": "Romans 12:17",
+      "original_greek": "μηδενὶ κακὸν ἀντὶ κακοῦ ἀποδιδόντες",
+      "significance": "악을 악으로 갚지 말라는 권면",
+      "sophia_units": [
+        "T2"
+      ],
+      "parallel_strength": "LEXICAL_THEMATIC_STRONG",
+      "actual_1525_specific_verse_citation_proven": false,
+      "source": "RO12-GREEK"
+    },
+    {
+      "id": "B3",
+      "biblical_ref": "1 Peter 3:9",
+      "original_greek": "μὴ ἀποδιδόντες κακὸν ἀντὶ κακοῦ",
+      "significance": "악으로 보복하지 말라는 내용이 로마서 12:17과 평행",
+      "sophia_units": [
+        "T2"
+      ],
+      "parallel_strength": "LEXICAL_THEMATIC_STRONG_BUT_NON_UNIQUE",
+      "actual_1525_specific_verse_citation_proven": false,
+      "source": "1PE3-GREEK"
+    },
+    {
+      "id": "B4",
+      "biblical_ref": "Matthew 5:44",
+      "original_greek": "ἀγαπᾶτε τοὺς ἐχθροὺς",
+      "significance": "원수 사랑의 예수 가르침에 부합",
+      "sophia_units": [
+        "T1",
+        "T3"
+      ],
+      "parallel_strength": "THEMATIC_NOT_VERBATIM",
+      "actual_1525_specific_verse_citation_proven": false,
+      "source": "MATT5-GREEK"
+    }
+  ],
+  "source_criticism": [
+    {
+      "id": "Q1",
+      "question": "1525년 소피아는 도망치지 않겠다고 약속했나?",
+      "answer": "아니다. flüchgen(저주하다)과 flygen(피난하다)은 다른 어휘다. 고타의 실제 사건 서술은 피난 사실을 확인한다."
+    },
+    {
+      "id": "Q2",
+      "question": "소피아는 로마서 12:14를 직접 인용했나?",
+      "answer": "동일한 저주 금지 윤리를 공유하고 단어상 평행이 강하지만 직접 인용을 표시한 표지나 16세기 개별 성경 판본과의 철자 검증이 없어 직접 인용 판정은 보류한다."
+    },
+    {
+      "id": "Q3",
+      "question": "악을 악으로 갚지 않겠다는 말은 로마서 12:17만의 증거인가?",
+      "answer": "아니다. 베드로전서 3:9도 매우 유사한 말씀을 전한다. 직접 출전을 좁히기 전에 두 후보 모두 평행 구절로 소개한다."
+    },
+    {
+      "id": "Q4",
+      "question": "1880년과 1881년은 어느 것이 옳나?",
+      "answer": "둘 다 서로 다른 서지정보다. SLUB는 학회지 제13년차 1880 권을 실제 인쇄/발행 1881로 표시했다. 제목권호는 1880, 출판연도 표시는 1881이다."
+    },
+    {
+      "id": "Q5",
+      "question": "1880년 전문 인쇄 내용을 대조했나?",
+      "answer": "아니다. 정확한 1880 제13권 PDF를 찾았지만 Jena에서 anti-bot challenge로 접근 차단되었다. 330–335쪽의 직접 판독은 0쪽이다."
+    },
+    {
+      "id": "Q6",
+      "question": "동일한 1525 편지에 사본이 있으므로 역사 진술이 두 개의 독립 출처인가?",
+      "answer": "아니다. 고타의 후대 사본은 원래 자필에서 복사했다고 공식 기록한다. 독립적인 동시대 목격자 증언 수를 부풀리지 않는다."
+    }
+  ],
+  "reader_sections": [
+    {
+      "id": "R1",
+      "title": "도망치면서도 저주하지 않는 신앙",
+      "text": "소피아는 자신과 수녀들을 안전한 곳으로 데리고 피난했지만 적에 대한 저주를 거절하려 했다. 당시 독일어의 비슷한 두 동사를 구별하면 이 역사적 장면은 모순이 아니다. 몸을 지키기 위한 행동과 증오에 사로잡히지 않으려는 윤리는 동시에 존재할 수 있다.",
+      "refs": [
+        "T1",
+        "T5"
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "악을 악으로 갚지 않겠다는 말",
+      "text": "소피아는 실제 고난 중에 악으로 보복하지 않겠다고 적었다. 이 표현은 로마서 12장과 베드로전서 3장의 권면에 모두 닮아 있다. 특정 한 성경절을 정확히 인용했다고 단정하지 않고, 그가 의지한 성경적 언어의 폭을 보여주는 것이 역사에 충실한 방법이다.",
+      "refs": [
+        "T2",
+        "T3"
+      ]
+    },
+    {
+      "id": "R3",
+      "title": "신약성경에 반복되는 도덕 언어",
+      "text": "복을 빌고 저주하지 말라는 로마서의 말씀, 악으로 악을 갚지 말라는 로마서와 베드로전서의 권면, 원수를 사랑하라는 마태복음의 가르침은 각각 분명히 구별된다. 소피아가 말한 주님의 가르침은 이러한 복음적 윤리와 통하지만 어느 한 구절에 대한 직접적인 인용 표지는 확인되지 않았다.",
+      "refs": [
+        "T1",
+        "T2",
+        "T3"
+      ]
+    },
+    {
+      "id": "R4",
+      "title": "복음적이라고 말한 수녀원장",
+      "text": "소피아는 개혁을 주장하는 사람들이 행한 폭력에 반발하면서도 스스로를 어느 정도 복음적이라고 말했다. 오늘날 제도화된 교파 구획을 곧바로 1525년의 한 여성에게 덮어씌우면 그의 복잡한 생각이 사라진다. 역사 원고에는 자기 정체성과 개혁세력의 행동에 대한 비판을 따로 담아야 한다.",
+      "refs": [
+        "T4"
+      ]
+    },
+    {
+      "id": "R5",
+      "title": "1880년에 나온 글이 왜 1881년에 출판되었는가",
+      "text": "카베라우의 전문 인용은 흔히 1880년 『하르츠 역사·고고학회지』 제13권의 글로 소개된다. 그러나 드레스덴의 실제 소장목록은 권호 1880과 출판연도 1881을 함께 적는다. 잘못된 서지가 아니라 두 개의 다른 날짜 필드를 구분해야 하는 사례다.",
+      "refs": [
+        "T1"
+      ]
+    },
+    {
+      "id": "R6",
+      "title": "원문을 모를 때 억지로 이문을 만들지 않는 방법",
+      "text": "1525년 자필과 후대 사본, 카베라우가 인쇄한 여섯 쪽을 모두 찾았다고 해도 원문을 실제로 읽기 전에는 문장을 대조할 수 없다. 웹에서 찾은 PDF 링크가 파일을 돌려주는지도 점검해야 한다. 이번 단계에서는 연결된 책의 존재는 확인하고 실제 독법은 미확인으로 남겼다.",
+      "refs": [
+        "T2"
+      ]
+    }
+  ],
+  "access_results": [
+    {
+      "id": "A1",
+      "asset": "Jena 1880 volume13 exact PDF",
+      "url": "https://zs.thulb.uni-jena.de/servlets/MCRFileNodeServlet/jportal_derivate_00211791/Zeitschrift_Harz-Vereins_Altertum_12952784X_1880_13.pdf",
+      "result": "ANTIBOT_POW_CHALLENGE",
+      "original_print_page_images_seen": 0
+    },
+    {
+      "id": "A2",
+      "asset": "Jena 1880 Kawerau article",
+      "url": "https://zs.thulb.uni-jena.de/receive/jportal_jparticle_00254558",
+      "result": "WEB_INTERNAL_ERROR",
+      "original_print_page_images_seen": 0
+    },
+    {
+      "id": "A3",
+      "asset": "Cyprian 1718 volume I book",
+      "url": "https://www.digitale-sammlungen.de/view/bsb11709870",
+      "result": "WEB_INTERNAL_ERROR",
+      "original_print_page_images_seen": 0
+    },
+    {
+      "id": "A4",
+      "asset": "Cyprian 1718 volume II book",
+      "url": "https://www.digitale-sammlungen.de/view/bsb11286923",
+      "result": "WEB_INTERNAL_ERROR",
+      "original_print_page_images_seen": 0
+    },
+    {
+      "id": "A5",
+      "asset": "Gotha Sophia original from Jena",
+      "url": "https://dhb.thulb.uni-jena.de/receive/ufb_cbu_00015491",
+      "result": "WEB_PREVIOUSLY_INACCESSIBLE",
+      "original_print_page_images_seen": 0
+    }
+  ],
+  "open_issues": [
+    "Acquire PDF file bytes for Jena year13 volume 1880 (published 1881), show original printed pp330–335 and compare to Gotha 2025 transcription",
+    "Acquire Gotha Sophia A338 f254r–256v original pages and later f257r–260bv, compare actual variants",
+    "Acquire 1942 Fuchs pp186f and classify precisely omitted 1880 passages",
+    "Acquire 1718 Cyprian I pp367–372 and II pp234–240, original Latin/German witness matrix",
+    "Analyze 1522 September Testament vs Sophia wording only after verified 1522 text, avoid anachronistic 2017 Luther Bible as witness",
+    "Independent 1525 eyewitness records and consequences of the seizure at Naundorf and Allstedt",
+    "Verify 1880/1881 title page or colophon physical image, not merely catalogue",
+    "Resolve Seckendorff 1692 Book II p139 and K/Z original 7/13/15 longer standing tasks",
+    "Check whether a verbatim biblical phrase was a common formula before assigning source-specific dependence",
+    "Copyright, rights, specialist review and safe webapp public release gates"
+  ],
+  "metrics": {
+    "source_records": 11,
+    "original_sophia_short_text_units": 5,
+    "short_sophia_excerpt_words": 19,
+    "biblical_parallel_candidates": 4,
+    "source_critical_interpretations": 6,
+    "reader_sections": 6,
+    "original_access_checks": 5,
+    "open_issues": 10,
+    "confirmed_old_print_pages_read_this_version": 0,
+    "confirmed_1525_manuscript_folios_read_this_version": 0,
+    "confirmed_1718_original_print_pages_read_this_version": 0,
+    "old_core_essays_preserved": 10,
+    "old_core_search_sentences_preserved": 543,
+    "published_web_items": 0
+  }
+}
