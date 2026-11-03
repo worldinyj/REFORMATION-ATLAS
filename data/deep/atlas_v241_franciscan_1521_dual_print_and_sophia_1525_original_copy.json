@@ -1,0 +1,710 @@
+{
+  "version": "2.41",
+  "parent_commit": "4cd192f83514d81b7fcac9d857a7ce44500d26ff",
+  "baseline": "data/deep/atlas_v240_1519_1521_1525_documents_and_cyprian_1718_witnesses.json",
+  "kind": "FRANCISCAN_1521_PETITION_REPLY_TWO_1718_PRINT_EDITORIAL_CHOICES_AND_SOPHIA_1525_AUTOGRAPH_LATER_COPY",
+  "publication_gate": {
+    "ship": false,
+    "cyprian1718_book1_pages_read": false,
+    "cyprian1718_book2_pages_read": false,
+    "gotha1521_original_petition_and_reply_folios_read": false,
+    "sophia1525_original_autograph_folios_read": false,
+    "sophia1525_later_copy_folios_read": false,
+    "kawerau1880_complete_print_pages_read": false,
+    "rights_clearance": false,
+    "external_expert_review": false,
+    "webapp_imported": false
+  },
+  "sources": [
+    {
+      "id": "AK-REQ-1297",
+      "url": "https://bakfj.saw-leipzig.de/doc/720",
+      "read_tier": "COMPLETE_ACADEMY_WITNESS_CATALOGUE_AND_REGEST",
+      "description": "15 Aug 1521 Weimar Franciscan chapter to Frederick, A Latin outgoing; B Latin copy with Spalatin additions; C Spalatin German translation; D copy of C; text on academy page only detailed German regest, not full original Latin",
+      "original_folio_or_1718_print_page_directly_seen": false
+    },
+    {
+      "id": "AK-REPLY-1298",
+      "url": "https://bakfj.saw-leipzig.de/doc/677",
+      "read_tier": "FULL_GERMAN_B_DRAFT_CRITICAL_TEXT_READ",
+      "description": "After 15 Aug 1521 response, A Latin draft by Melanchthon, B German draft text read, C German copy; source edition maps Cyprian1 A and Cyprian2 C",
+      "original_folio_or_1718_print_page_directly_seen": false
+    },
+    {
+      "id": "CY-1718-I",
+      "url": "https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb11709870-8",
+      "read_tier": "BOOK_DIGITAL_OBJECT_NOT_ACTUAL_PAGE",
+      "description": "1718 Nützliche Urkunden 1: petition German C pp367-371, reply Latin A pp371f. Page images inaccessible",
+      "original_folio_or_1718_print_page_directly_seen": false
+    },
+    {
+      "id": "CY-1718-II",
+      "url": "https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb11286923-2",
+      "read_tier": "BOOK_DIGITAL_OBJECT_NOT_ACTUAL_PAGE",
+      "description": "1718 Der andere Theil Nützlicher Uhrkunden 2: petition Latin A pp234-237 No53, reply German C pp238-240 No54. Page images inaccessible",
+      "original_folio_or_1718_print_page_directly_seen": false
+    },
+    {
+      "id": "SOPHIA-AUTO",
+      "url": "https://kalliope.staatsbibliothek-berlin.de/ead?ead.id=DE-611-HS-3409555",
+      "read_tier": "OFFICIAL_AUTOGRAPH_CATALOGUE",
+      "description": "Sophia von Schafstädt 3 May 1525 to presumed Spalatin, Gotha Chart A338 fol254r-256v, 3 folios, original autograph",
+      "original_folio_or_1718_print_page_directly_seen": false
+    },
+    {
+      "id": "SOPHIA-COPY",
+      "url": "https://kalliope.staatsbibliothek-berlin.de/ead?ead.id=DE-611-HS-3409718",
+      "read_tier": "OFFICIAL_LATER_COPY_CATALOGUE",
+      "description": "Same author and same date, Gotha A338 fol257r-260bv, later copy explicitly OF fol254r-256v, 6 leaves of which 260a/b blank; not independent eyewitness",
+      "original_folio_or_1718_print_page_directly_seen": false
+    },
+    {
+      "id": "GOTHA-BLOG-2025",
+      "url": "https://blog-fbg.uni-erfurt.de/2025/04/dass-wir-nicht-fluechgen-noch-eyn-bosse-hertz-haben-kegen-vnsser-feynde/",
+      "read_tier": "DIRECT_MODERN_SCHOLARLY_BLOG_WITH_1525_EARLY_GERMAN_MICROQUOTES",
+      "description": "Daniel Gehrt April17 2025 Sophia autograph 3 May 1525 Naundorf convent displaced, shelter to Halle, 5 gulden for 16 people, transcribes historical German snippets; not a full diplomatic edition",
+      "original_folio_or_1718_print_page_directly_seen": false
+    },
+    {
+      "id": "JENA-SOPHIA",
+      "url": "https://dhb.thulb.uni-jena.de/receive/ufb_cbu_00015491",
+      "read_tier": "ORIGINAL_MANUSCRIPT_DIGITAL_OBJECT_CHALLENGE",
+      "description": "Sophia autograph digital object cited by Gotha, web anti-bot PoW prevents folio image reading",
+      "original_folio_or_1718_print_page_directly_seen": false
+    },
+    {
+      "id": "KAWERAU-1880",
+      "url": "https://zs.thulb.uni-jena.de/receive/jportal_jparticle_00254558",
+      "read_tier": "PUBLIC_DOMAIN_1880_FULL_TRANSCRIPTION_OBJECT_CHALLENGE",
+      "description": "Gustav Kawerau full Sophia letter published 1880 Zeitschrift des Harz-Vereins 13 pp330-335, Jena anti-bot PoW; not read",
+      "original_folio_or_1718_print_page_directly_seen": false
+    },
+    {
+      "id": "FUCHS-1942",
+      "url": "https://blog-fbg.uni-erfurt.de/2025/04/dass-wir-nicht-fluechgen-noch-eyn-bosse-hertz-haben-kegen-vnsser-feynde/",
+      "read_tier": "MODERN_SCHOLARLY_REFERENCE_FOR_ABRIDGEMENT",
+      "description": "Walther Peter Fuchs 1942 Akten zur Geschichte des Bauernkriegs Bd2 pp186f No1298a shortened version, NOT original or complete",
+      "original_folio_or_1718_print_page_directly_seen": false
+    },
+    {
+      "id": "FRIEDRICH-DEATH",
+      "url": "https://www.deutsche-biographie.de/sfz35638.html",
+      "read_tier": "AUTHORITATIVE_HISTORICAL_PERSON_RECORD",
+      "description": "Elector Frederick III died 5 May 1525 at Lochau, two calendar days after Sophia autograph; cannot infer nonreply cause",
+      "original_folio_or_1718_print_page_directly_seen": false
+    },
+    {
+      "id": "FRIEDRICH-LUTHERMUSEEN",
+      "url": "https://www.luthermuseen.de/en/node/875",
+      "read_tier": "INSTITUTIONAL_DEATH_AND_SPALATIN_BED_REPORT",
+      "description": "LutherMuseen Freidrich May5 1525 death and Spalatin deathbed account, independently corroborates chronology",
+      "original_folio_or_1718_print_page_directly_seen": false
+    },
+    {
+      "id": "GOTHA-NEWS-JUL12",
+      "url": "https://blog-fbg.uni-erfurt.de/2025/06/neue-zeitung-von-den-aufruehrischen-bauern-hin-und-her/",
+      "read_tier": "2025_GOTHA_TRANSCRIPTION_1525_JUL12_RETAINED",
+      "description": "V240 reports July 12 contemporaneous peasants war news; not same text or viewpoint as May3 Sophia autograph",
+      "original_folio_or_1718_print_page_directly_seen": false
+    },
+    {
+      "id": "BAKFJ-PUBLISHER-CITE",
+      "url": "https://api.pageplace.de/preview/DT0400.9783374071739_A43527242/preview-9783374071739_A43527242.pdf",
+      "read_tier": "SCHOLARLY_BIBLIOGRAPHY_1718_TWO_PARTS",
+      "description": "Modern historical critical edition bibliography explicitly distinguishes Cyprian Nützliche Urkunden 1 and 2, printed book content not read",
+      "original_folio_or_1718_print_page_directly_seen": false
+    }
+  ],
+  "witnesses": [
+    {
+      "id": "PET-A",
+      "doc": "FRANCISCAN_PETITION",
+      "role": "ORIGINAL_LATIN_SENT_LETTER",
+      "shelfmark": "Gotha Chart. A 336 fol13r/v",
+      "language": "latin",
+      "autograph_status": "OUTGOING_ORIGINAL_NOT_ASSUMED_AUTHOR_HAND",
+      "text_seen": "REGEST_ONLY",
+      "source_ids": [
+        "AK-REQ-1297"
+      ],
+      "direct_physical_original_pages_read": 0
+    },
+    {
+      "id": "PET-B",
+      "doc": "FRANCISCAN_PETITION",
+      "role": "LATIN_COPY_SPALATIN_ADDITIONS",
+      "shelfmark": "Weimar EGA Reg O157b fol436r–438v",
+      "language": "latin",
+      "autograph_status": "SCRIBE_COPY_WITH_SPALATIN_ADDITIONS",
+      "text_seen": "NOT_READ",
+      "source_ids": [
+        "AK-REQ-1297"
+      ],
+      "direct_physical_original_pages_read": 0
+    },
+    {
+      "id": "PET-C",
+      "doc": "FRANCISCAN_PETITION",
+      "role": "SPALATIN_GERMAN_TRANSLATION",
+      "shelfmark": "Gotha Chart. A 338 fol169r–172v",
+      "language": "german",
+      "autograph_status": "TRANSLATION_BY_SPALATIN",
+      "text_seen": "NOT_READ",
+      "source_ids": [
+        "AK-REQ-1297"
+      ],
+      "direct_physical_original_pages_read": 0
+    },
+    {
+      "id": "PET-D",
+      "doc": "FRANCISCAN_PETITION",
+      "role": "COPY_OF_PET_C",
+      "shelfmark": "Gotha Chart. A 338 fol174r–176v",
+      "language": "german",
+      "autograph_status": "SECONDARY_COPY",
+      "text_seen": "NOT_READ",
+      "source_ids": [
+        "AK-REQ-1297"
+      ],
+      "direct_physical_original_pages_read": 0
+    },
+    {
+      "id": "REPLY-A",
+      "doc": "ELECTOR_REPLY_TO_FRANCISCANS",
+      "role": "MELANCHTHON_LATIN_DRAFT",
+      "shelfmark": "Gotha Chart. A 379 fol30r/v",
+      "language": "latin",
+      "autograph_status": "DRAFT_BY_MELANCHTHON",
+      "text_seen": "NOT_READ",
+      "source_ids": [
+        "AK-REPLY-1298"
+      ],
+      "direct_physical_original_pages_read": 0
+    },
+    {
+      "id": "REPLY-B",
+      "doc": "ELECTOR_REPLY_TO_FRANCISCANS",
+      "role": "GERMAN_DRAFT",
+      "shelfmark": "Gotha Chart. A 338 fol179r/v",
+      "language": "german",
+      "autograph_status": "DRAFT",
+      "text_seen": "DIRECT_FULL_CRITICAL_EDITION_TRANSCRIPTION",
+      "source_ids": [
+        "AK-REPLY-1298"
+      ],
+      "direct_physical_original_pages_read": 0
+    },
+    {
+      "id": "REPLY-C",
+      "doc": "ELECTOR_REPLY_TO_FRANCISCANS",
+      "role": "GERMAN_LATER_COPY",
+      "shelfmark": "Gotha Chart. A 338 fol178r/v and180r",
+      "language": "german",
+      "autograph_status": "LATER_COPY",
+      "text_seen": "NOT_READ",
+      "source_ids": [
+        "AK-REPLY-1298"
+      ],
+      "direct_physical_original_pages_read": 0
+    },
+    {
+      "id": "SOPHIA-ORIG",
+      "doc": "SOPHIA_LETTER_1525_05_03",
+      "role": "AUTHOR_AUTOGRAPH",
+      "shelfmark": "Gotha Chart. A 338 fol254r–256v",
+      "language": "german",
+      "autograph_status": "OFFICIAL_AUTOGRAPH",
+      "text_seen": "SHORT_QUOTES_FROM_GOTHA_2025_BLOG_NOT_DIRECT_FOLIO",
+      "source_ids": [
+        "SOPHIA-AUTO",
+        "GOTHA-BLOG-2025"
+      ],
+      "direct_physical_original_pages_read": 0
+    },
+    {
+      "id": "SOPHIA-LATER",
+      "doc": "SOPHIA_LETTER_1525_05_03",
+      "role": "EXPLICIT_LATER_COPY_OF_SOPHIA_ORIG",
+      "shelfmark": "Gotha Chart. A 338 fol257r–260bv",
+      "language": "german",
+      "autograph_status": "OFFICIAL_LATER_COPY_OF_254r_256v",
+      "text_seen": "NOT_READ",
+      "source_ids": [
+        "SOPHIA-COPY"
+      ],
+      "direct_physical_original_pages_read": 0
+    }
+  ],
+  "print_mappings": [
+    {
+      "id": "1718-I-PET",
+      "source_witness": "PET-C",
+      "print": "CYPRIAN_NUETZLICHE_URKUNDEN_1_1718",
+      "print_range": "pp367–371",
+      "number": null,
+      "language": "german",
+      "printed_full_text_indicated": true,
+      "support": [
+        "AK-REQ-1297",
+        "CY-1718-I"
+      ],
+      "printed_page_actually_visited": false,
+      "actual_wording_variants_collated": false
+    },
+    {
+      "id": "1718-I-REPLY",
+      "source_witness": "REPLY-A",
+      "print": "CYPRIAN_NUETZLICHE_URKUNDEN_1_1718",
+      "print_range": "pp371f",
+      "number": null,
+      "language": "latin",
+      "printed_full_text_indicated": true,
+      "support": [
+        "AK-REPLY-1298",
+        "CY-1718-I"
+      ],
+      "printed_page_actually_visited": false,
+      "actual_wording_variants_collated": false
+    },
+    {
+      "id": "1718-II-PET",
+      "source_witness": "PET-A",
+      "print": "CYPRIAN_DER_ANDERE_THEIL_URKUNDEN_2_1718",
+      "print_range": "pp234–237",
+      "number": 53,
+      "language": "latin",
+      "printed_full_text_indicated": true,
+      "support": [
+        "AK-REQ-1297",
+        "CY-1718-II"
+      ],
+      "printed_page_actually_visited": false,
+      "actual_wording_variants_collated": false
+    },
+    {
+      "id": "1718-II-REPLY",
+      "source_witness": "REPLY-C",
+      "print": "CYPRIAN_DER_ANDERE_THEIL_URKUNDEN_2_1718",
+      "print_range": "pp238–240",
+      "number": 54,
+      "language": "german",
+      "printed_full_text_indicated": true,
+      "support": [
+        "AK-REPLY-1298",
+        "CY-1718-II"
+      ],
+      "printed_page_actually_visited": false,
+      "actual_wording_variants_collated": false
+    },
+    {
+      "id": "1880-SOPHIA",
+      "source_witness": "SOPHIA-ORIG",
+      "print": "KAWERAU_ZEITSCHRIFT_HARZ_VEREIN_13_1880",
+      "print_range": "pp330–335",
+      "number": null,
+      "language": "german",
+      "printed_full_text_indicated": true,
+      "support": [
+        "GOTHA-BLOG-2025",
+        "KAWERAU-1880"
+      ],
+      "printed_page_actually_visited": false,
+      "actual_wording_variants_collated": false
+    },
+    {
+      "id": "1942-SOPHIA",
+      "source_witness": "SOPHIA-ORIG",
+      "print": "FUCHS_BAUERNKRIEG_AKTEN_BD2_1942",
+      "print_range": "pp186f",
+      "number": "1298a",
+      "language": "german",
+      "printed_full_text_indicated": false,
+      "support": [
+        "GOTHA-BLOG-2025",
+        "FUCHS-1942"
+      ],
+      "printed_page_actually_visited": false,
+      "actual_wording_variants_collated": false
+    }
+  ],
+  "first_person_microreadings": [
+    {
+      "id": "M1",
+      "witness": "PET-A",
+      "tier": "ACADEMY_GERMAN_REGEST_ONLY",
+      "form": "REPORTED_SUMMARY_NOT_PRIMARY_QUOTE",
+      "short_anchor": "spiritual weapons: Scripture and Word",
+      "meaning_ko": "프란치스코회는 카르피 총회에서 받은 교황 명령의 근거를 성경과 말씀이라는 영적 무기로 설명한다. 이 단계에서 요청서가 곧바로 폭력행사를 명령했다고 해석하지 않는다.",
+      "sources": [
+        "AK-REQ-1297"
+      ]
+    },
+    {
+      "id": "M2",
+      "witness": "PET-A",
+      "tier": "ACADEMY_GERMAN_REGEST_ONLY",
+      "form": "REPORTED_SUMMARY_NOT_PRIMARY_QUOTE",
+      "short_anchor": "danger to souls, church discord, social unrest",
+      "meaning_ko": "루터의 저술이 영혼의 위험과 교회 분열을 낳는다고 청원한 이들의 시점을 보여 준다. 주장의 진위를 객관적인 사실로 대체하지 않는다.",
+      "sources": [
+        "AK-REQ-1297"
+      ]
+    },
+    {
+      "id": "M3",
+      "witness": "REPLY-B",
+      "tier": "DIRECT_CRITICAL_GERMAN_ORIGINAL_LANGUAGE",
+      "form": "EARLY_GERMAN",
+      "short_anchor": "gemeinem fride unnd einickeit",
+      "meaning_ko": "선제후의 답신은 일반적 평화와 일치를 자신의 통치 책임으로 제시한다.",
+      "sources": [
+        "AK-REPLY-1298"
+      ]
+    },
+    {
+      "id": "M4",
+      "witness": "REPLY-B",
+      "tier": "DIRECT_CRITICAL_GERMAN_ORIGINAL_LANGUAGE",
+      "form": "EARLY_GERMAN",
+      "short_anchor": "beistand wider doctorem Martinum",
+      "meaning_ko": "프란치스코회가 루터를 반대하는 지원을 서면으로 요청했다는 답변 내 직접 증언이다.",
+      "sources": [
+        "AK-REPLY-1298"
+      ]
+    },
+    {
+      "id": "M5",
+      "witness": "REPLY-B",
+      "tier": "DIRECT_CRITICAL_GERMAN_ORIGINAL_LANGUAGE",
+      "form": "SHORT_PARAPHRASE",
+      "short_anchor": "against stormy suppression of God's word",
+      "meaning_ko": "선제후는 거친 억압으로 하나님의 말씀이 소멸되는 위험을 경고한다. 양심을 자의적으로 탄압하는 정책만으로 설명할 수 없다.",
+      "sources": [
+        "AK-REPLY-1298"
+      ]
+    },
+    {
+      "id": "M6",
+      "witness": "SOPHIA-ORIG",
+      "tier": "GOTHA_2025_SHORT_QUOTE_FROM_AUTHOR_AUTOGRAPH",
+      "form": "EARLY_GERMAN",
+      "short_anchor": "nicht flüchgen noch eyn boße hertz",
+      "meaning_ko": "1525년 5월 소피아는 상처를 겪으면서도 적에게 악한 마음을 품지 않으려는 신앙적 태도를 표현했다.",
+      "sources": [
+        "GOTHA-BLOG-2025",
+        "SOPHIA-AUTO"
+      ]
+    },
+    {
+      "id": "M7",
+      "witness": "SOPHIA-ORIG",
+      "tier": "GOTHA_2025_SHORT_QUOTE_FROM_AUTHOR_AUTOGRAPH",
+      "form": "EARLY_GERMAN",
+      "short_anchor": "Jch bin jo etwaß ewangliß",
+      "meaning_ko": "수녀원장은 자신도 어떤 의미에서 복음적인 사람이라고 표현한다. 반종교개혁 대 복음파라는 단순한 이분법과 다른 자기 이해를 보여 준다.",
+      "sources": [
+        "GOTHA-BLOG-2025",
+        "SOPHIA-AUTO"
+      ]
+    },
+    {
+      "id": "M8",
+      "witness": "SOPHIA-ORIG",
+      "tier": "GOTHA_2025_SCHOLARLY_PARAPHRASE",
+      "form": "REPORTED_SOCIAL_FACTS",
+      "short_anchor": "five gulden / sixteen people",
+      "meaning_ko": "피난한 16명을 돌보기 위한 돈이 다섯 굴덴뿐이라는 내용을 고타의 연구가 소개한다. 이 숫자는 수녀원장의 당시 진술이지 외부 회계 확인이 아니다.",
+      "sources": [
+        "GOTHA-BLOG-2025"
+      ]
+    },
+    {
+      "id": "M9",
+      "witness": "SOPHIA-ORIG",
+      "tier": "OFFICIAL_CATALOGUE_DATING",
+      "form": "LATIN_DATING_FORMULA",
+      "short_anchor": "in die inventionis Crucis",
+      "meaning_ko": "원본의 십자가 발견 축일 날짜 표현은 1525년 5월 3일에 대응한다. 원본 필체 자체의 읽기는 아직 하지 않았다.",
+      "sources": [
+        "SOPHIA-AUTO",
+        "SOPHIA-COPY"
+      ]
+    }
+  ],
+  "historical_events": [
+    {
+      "id": "T1",
+      "date": "1521-05-19",
+      "event": "FRANCISCAN_GENERAL_CHAPTER_CARPI",
+      "source_ids": [
+        "AK-REQ-1297"
+      ],
+      "meaning_ko": "교황 레오 10세의 루터파 반대 명령을 성경·말씀을 활용하는 영적 논쟁으로 전하도록 요청받았다고 청원자들이 진술"
+    },
+    {
+      "id": "T2",
+      "date": "1521-08-15",
+      "event": "FRANCISCAN_PETITION_WRITTEN_WEIMAR",
+      "source_ids": [
+        "AK-REQ-1297"
+      ],
+      "meaning_ko": "프란치스코회 작센 관구의 그로네와 대표들이 선제후에게 지원 요청"
+    },
+    {
+      "id": "T3",
+      "date": "after 1521-08-15",
+      "event": "ELECTOR_DRAFT_REPLY",
+      "source_ids": [
+        "AK-REPLY-1298"
+      ],
+      "meaning_ko": "교회의 평화와 진리 전파에 대한 통치자의 책임, 무질서 억제, 부당한 말씀 억압 경계"
+    },
+    {
+      "id": "T4",
+      "date": "1525-04-30",
+      "event": "NAUNDORF_CONVENT_WARNED",
+      "source_ids": [
+        "GOTHA-BLOG-2025"
+      ],
+      "meaning_ko": "마을에 수도원 습격 소문이 돌고 경고 전달"
+    },
+    {
+      "id": "T5",
+      "date": "1525-05-01",
+      "event": "NUNS_FLEE_TO_HALLE",
+      "source_ids": [
+        "GOTHA-BLOG-2025"
+      ],
+      "meaning_ko": "수녀원장이 16명가량의 수도 공동체를 이끌고 피난했다고 진술"
+    },
+    {
+      "id": "T6",
+      "date": "1525-05-03",
+      "event": "SOPHIA_WROTE_AUTOGRAPH_LETTER",
+      "source_ids": [
+        "SOPHIA-AUTO",
+        "GOTHA-BLOG-2025"
+      ],
+      "meaning_ko": "할레에서 슈팔라틴에게 도움을 요청한 자필 편지 작성"
+    },
+    {
+      "id": "T7",
+      "date": "1525-05-05",
+      "event": "FREDERICK_III_DIED",
+      "source_ids": [
+        "FRIEDRICH-DEATH",
+        "FRIEDRICH-LUTHERMUSEEN"
+      ],
+      "meaning_ko": "지원 요청을 중개할 수도 있었던 선제후가 이틀 후 사망, 그러나 답장이 전하지 않는 원인이 사망이라고 확정 불가"
+    },
+    {
+      "id": "T8",
+      "date": "1531",
+      "event": "NAUNDORF_CONVENT_DISSOLVED",
+      "source_ids": [
+        "GOTHA-BLOG-2025"
+      ],
+      "meaning_ko": "수녀원은 작센의 종교개혁 진행 과정에서 해산"
+    },
+    {
+      "id": "T9",
+      "date": "1880",
+      "event": "SOPHIA_FULL_TEXT_PRINTED",
+      "source_ids": [
+        "KAWERAU-1880",
+        "GOTHA-BLOG-2025"
+      ],
+      "meaning_ko": "구스타프 카베라우가 전문을 인쇄, 이번 연구에선 원서 이미지 미판독"
+    },
+    {
+      "id": "T10",
+      "date": "1942",
+      "event": "SOPHIA_ABRIDGED_PRINTED",
+      "source_ids": [
+        "FUCHS-1942",
+        "GOTHA-BLOG-2025"
+      ],
+      "meaning_ko": "발터 페터 푹스가 단축 재수록"
+    }
+  ],
+  "reader_sections": [
+    {
+      "id": "R01",
+      "title": "루터를 반대한다는 요청에도 구체적인 방법이 있었다",
+      "summary_ko": "1521년 프란치스코회 작센 관구는 루터의 가르침이 교회와 영혼을 해칠 수 있다고 주장하며 프리드리히 선제후에게 지원을 요청했다. 현대 학술원의 서신 요약에 따르면 그들은 같은 해 카르피 총회에서 교황이 말씀과 성경이라는 영적 수단으로 맞서라고 지시했다고 설명했다. 이 문헌을 단순히 무력 진압을 요구하는 명령문으로 요약하지 않고, 상대 입장과 자기 변호를 구분해야 한다.",
+      "source_ids": [
+        "AK-REQ-1297"
+      ],
+      "anchor_ids": [
+        "M1",
+        "M2"
+      ]
+    },
+    {
+      "id": "R02",
+      "title": "선제후 답신이 평화와 복음을 동시에 말했다",
+      "summary_ko": "선제후의 답신 초안은 국가의 질서와 교회에 대한 염려를 강조하면서도, 사람의 힘으로 하나님의 말씀을 거칠게 억압하는 일은 경계한다. 우리는 이를 무조건적인 루터 보호 선언이나 수도회 편들기로 단순화해서는 안 된다. 당대 독일어 초안 B에서 읽은 표현을 근거로 삼되 멜란히톤의 라틴어 초안 A를 읽었다고 주장하지 않는다.",
+      "source_ids": [
+        "AK-REPLY-1298"
+      ],
+      "anchor_ids": [
+        "M3",
+        "M4",
+        "M5"
+      ]
+    },
+    {
+      "id": "R03",
+      "title": "같은 요청과 답신이 왜 1718년에 두 번 출판됐을까",
+      "summary_ko": "치프리안의 첫 번째 사료집은 수도회 요청서의 독일어 번역 C를 인쇄하면서 답신은 멜란히톤의 라틴어 초안 A를 선택했다. 두 번째 사료집은 반대로 요청서의 라틴어 원본 A와 답신의 독일어 사본 C를 인쇄했다. 당대 원본 네 개가 새로 생긴 것이 아니라 같은 두 편지의 서로 다른 증거 계열이 1718년 출판물 둘에 배치된 것이다.",
+      "source_ids": [
+        "AK-REQ-1297",
+        "AK-REPLY-1298",
+        "CY-1718-I",
+        "CY-1718-II"
+      ],
+      "anchor_ids": [
+        "M1",
+        "M3"
+      ]
+    },
+    {
+      "id": "R04",
+      "title": "수녀원장 소피아가 피난 중 전한 말",
+      "summary_ko": "1525년 5월 초 나운도르프의 시토회 수녀원장 소피아는 수도원 약탈 이후 할레에서 슈팔라틴에게 자필 편지를 썼다. 고타 연구도서관이 공개한 짧은 독일어 전사에서 그는 적에게 악한 마음을 품지 않으려 한다고 말하면서 자신의 빈곤과 공동체의 고통도 호소한다. 당시 자료로 남기 어려웠던 여성의 1인칭 기록을 종교개혁의 역사에 포함할 수 있다.",
+      "source_ids": [
+        "SOPHIA-AUTO",
+        "GOTHA-BLOG-2025"
+      ],
+      "anchor_ids": [
+        "M6",
+        "M7",
+        "M8"
+      ]
+    },
+    {
+      "id": "R05",
+      "title": "원본과 필사본은 서로 다른 증인이 아니다",
+      "summary_ko": "고타의 같은 필사집에는 소피아의 자필 원본 254r–256v와 이를 베낀 후대 사본 257r–260bv가 나란히 보존되어 있다. 목록이 후대 사본이라고 명시하기 때문에 이 둘을 독립 목격 증언 두 개로 계산하면 안 된다. 훗날 실제 필기 영인이 확보되면 복사 때 누락되거나 수정된 부분을 찾아 변이표를 만들 수 있다.",
+      "source_ids": [
+        "SOPHIA-AUTO",
+        "SOPHIA-COPY"
+      ],
+      "anchor_ids": [
+        "M9"
+      ]
+    },
+    {
+      "id": "R06",
+      "title": "편지를 쓰고 이틀 뒤 사망한 선제후",
+      "summary_ko": "소피아는 1525년 5월 3일 슈팔라틴에게 도움을 요청했고 프리드리히 선제후는 5월 5일 로하우에서 사망했다. 두 날짜를 나란히 놓으면 당시 지원을 요청하는 통로가 정치적으로 매우 불안정했음을 보여 준다. 하지만 선제후의 죽음 때문에 답변이 없었다고 단정할 수 없으며, 현재 남지 않은 답장은 실제로 발송되지 않았다는 확증도 아니다.",
+      "source_ids": [
+        "SOPHIA-AUTO",
+        "FRIEDRICH-DEATH",
+        "GOTHA-BLOG-2025"
+      ],
+      "anchor_ids": [
+        "M8",
+        "M9"
+      ]
+    },
+    {
+      "id": "R07",
+      "title": "농민전쟁은 승리와 패배뿐 아니라 보호받지 못한 사람들의 역사다",
+      "summary_ko": "1525년 7월의 소식지에는 농민전쟁의 군사적 충돌과 가족의 손실이 기록된다. 5월의 소피아 편지는 그보다 앞선 시점에 피난해야 했던 수녀원 구성원 16명의 절박함을 보여 준다. 두 기록은 같은 시대를 다루지만 직접 본 사건과 목적이 다르다. 소식지의 군사 정보와 수도원장의 구조 요청을 하나의 중립적인 전쟁 통계처럼 합쳐서는 안 된다.",
+      "source_ids": [
+        "GOTHA-BLOG-2025",
+        "GOTHA-NEWS-JUL12"
+      ],
+      "anchor_ids": [
+        "M6",
+        "M8"
+      ]
+    }
+  ],
+  "open_issues": [
+    {
+      "id": "I01",
+      "task": "Acquire 1718 Nützliche Urkunden I pp367–372: petition German C and reply Melanchthon Latin A actual image"
+    },
+    {
+      "id": "I02",
+      "task": "Acquire 1718 Der andere Theil II pp234–240: petition Latin A No53 and reply German C No54 actual image"
+    },
+    {
+      "id": "I03",
+      "task": "Read Gothic Chart A336 petition original A and Weimar Reg O157b copy B with Spalatin amendments"
+    },
+    {
+      "id": "I04",
+      "task": "Read Gotha Chart A338 Spalatin German petition translation C and copy D, compare spelling and omissions"
+    },
+    {
+      "id": "I05",
+      "task": "Read Gotha reply A379 Melanchthon Latin A and A338 German B/C to compare 1718 choices"
+    },
+    {
+      "id": "I06",
+      "task": "Open Sophia Gotha A338 original 254r–256v and copy 257r–260bv, build explicit folio variant collation"
+    },
+    {
+      "id": "I07",
+      "task": "Read 1880 Kawerau full Sophia edition pp330–335 and 1942 Fuchs abridged pp186f; compare omissions and editor interventions"
+    },
+    {
+      "id": "I08",
+      "task": "Investigate 1525 Sophia transmission to Spalatin and no response while distinguishing Frederick death 5 May from proof of no reply"
+    },
+    {
+      "id": "I09",
+      "task": "Historical source-media license checks: original Gotha and Jena images separate from SAW CC BY-NC-SA 4.0 critical edition and Gotha blog CC BY-SA 4.0"
+    },
+    {
+      "id": "I10",
+      "task": "Old priorities 1692 Seckendorff II p139, 1692 Gotha 120-copy ledger and Marburg K/Z Art7,13,15 source images remain unresolved"
+    }
+  ],
+  "metrics": {
+    "source_records": 14,
+    "physical_witnesses": 9,
+    "original_source_documents_distinct": 3,
+    "franciscan_petition_witnesses": 4,
+    "elector_reply_witnesses": 3,
+    "sophia_autograph_and_explicit_copy": 2,
+    "print_mappings": 6,
+    "first_person_microreadings": 9,
+    "chronology_events": 10,
+    "korean_reader_sections": 7,
+    "open_issues": 10,
+    "full_original_1718_print_pages_read": 0,
+    "original_1521_1525_gotha_folios_seen": 0,
+    "secondhand_official_gotha_transcription_source_read": 1,
+    "previous_1529_k_archive_photo_faces": 2,
+    "previous_1529_conversation_original_pages": 4,
+    "webapp_publications": 0
+  },
+  "stemma_proof": {
+    "confirmed_copy_arrow": {
+      "from": "SOPHIA-ORIG",
+      "to": "SOPHIA-LATER",
+      "status": "DOCUMENTED_EXPLICITLY_BY_GOTHA_CATALOGUE",
+      "source_ids": [
+        "SOPHIA-AUTO",
+        "SOPHIA-COPY"
+      ]
+    },
+    "confirmed_petition_C_to_D": {
+      "from": "PET-C",
+      "to": "PET-D",
+      "status": "DOCUMENTED_EXPLICITLY_BY_ACADEMY",
+      "source_ids": [
+        "AK-REQ-1297"
+      ]
+    },
+    "unverified_any_copying_across_print_books": true,
+    "print_books_are_separate_1718_physical_objects": true,
+    "identical_original_doc_across_two_print_books_different_witnesses": true,
+    "request_four_witnesses_response_three_witnesses": true,
+    "no_1718_original_print_page_directly_inspected": true
+  }
+}
