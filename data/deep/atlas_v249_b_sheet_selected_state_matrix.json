@@ -1,0 +1,228 @@
+{
+  "version": "2.49",
+  "status": "DRAFT",
+  "parent_commit": "dd4b3ea25c3880455e35b587a899c6c93c44d6ce",
+  "preserved_files": [
+    {
+      "path": "data/deep/atlas_v219_structured_ten_reader_critical_editions.json",
+      "sha256": "0fea005d6592dbc976b46da1d1d9d6f217b4390a2708b304968648a64ad82efb"
+    },
+    {
+      "path": "data/deep/atlas_v248_hab_copy_state_catalogue_audit.json",
+      "sha256": "7bd64727fcc922f17bf27dbb5d550b74c779b0697403de5ada5ada79d11f9f55"
+    }
+  ],
+  "sources": [
+    {
+      "id": "HAB",
+      "url": "https://dev.hab.de/lutherkat/search.php?m1=jahr&st1=1524",
+      "kind": "SEARCH_INDEX_OF_INSTITUTIONAL_CATALOGUE",
+      "entries": [
+        1220,
+        1221
+      ],
+      "original_faces_seen": 0
+    },
+    {
+      "id": "BSB",
+      "url": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00027618/manifest",
+      "kind": "ORIGINAL_PRINT_PHOTOGRAPHS",
+      "vd16": "O91"
+    },
+    {
+      "id": "ONB",
+      "url": "https://iiif.onb.ac.at/presentation/ABO/Z182122003/manifest/",
+      "kind": "ORIGINAL_PRINT_PHOTOGRAPHS",
+      "vd16": "O90"
+    }
+  ],
+  "loci": [
+    {
+      "id": "L1",
+      "folio": "B1r",
+      "line": 2,
+      "reading": "rad"
+    },
+    {
+      "id": "L2",
+      "folio": "B3r",
+      "line": 24,
+      "reading": "hiemit"
+    },
+    {
+      "id": "L3",
+      "folio": "B3r",
+      "line": 27,
+      "reading": "mich"
+    },
+    {
+      "id": "L4",
+      "folio": "B3r",
+      "line": 28,
+      "reading": "ihr"
+    }
+  ],
+  "observations": [
+    {
+      "source": "BSB",
+      "locus": "L1",
+      "folio": "B1r",
+      "canvas": 13,
+      "reading": "rad",
+      "basis": "DIRECT_PHOTO_REINSPECTION"
+    },
+    {
+      "source": "BSB",
+      "locus": "L2",
+      "folio": "B3r",
+      "canvas": 17,
+      "reading": "hiemit",
+      "basis": "DIRECT_PHOTO_REINSPECTION"
+    },
+    {
+      "source": "BSB",
+      "locus": "L3",
+      "folio": "B3r",
+      "canvas": 17,
+      "reading": "mich",
+      "basis": "DIRECT_PHOTO_REINSPECTION"
+    },
+    {
+      "source": "BSB",
+      "locus": "L4",
+      "folio": "B3r",
+      "canvas": 17,
+      "reading": "ihr",
+      "basis": "DIRECT_PHOTO_REINSPECTION"
+    },
+    {
+      "source": "ONB",
+      "locus": "L1",
+      "folio": "B1r",
+      "canvas": 9,
+      "reading": "rad",
+      "basis": "DIRECT_PHOTO_REINSPECTION"
+    },
+    {
+      "source": "ONB",
+      "locus": "L2",
+      "folio": "B3r",
+      "canvas": 13,
+      "reading": "hiemit",
+      "basis": "DIRECT_PHOTO_REINSPECTION"
+    },
+    {
+      "source": "ONB",
+      "locus": "L3",
+      "folio": "B3r",
+      "canvas": 13,
+      "reading": "mich",
+      "basis": "DIRECT_PHOTO_REINSPECTION"
+    },
+    {
+      "source": "ONB",
+      "locus": "L4",
+      "folio": "B3r",
+      "canvas": 13,
+      "reading": "ihr",
+      "basis": "DIRECT_PHOTO_REINSPECTION"
+    }
+  ],
+  "catalogue_profiles": [
+    {
+      "holding": "147.5 Theol. (14)",
+      "A4": [
+        "kloisters",
+        "schrfftlich"
+      ],
+      "B": [
+        "rad",
+        "hiemit",
+        "mich",
+        "ihr"
+      ],
+      "basis": "CATALOGUE_NOT_PHOTO"
+    },
+    {
+      "holding": "116.10 Theol. (11)",
+      "A4": [
+        "klosters",
+        "schrifftlich"
+      ],
+      "B": [
+        "rad",
+        "hiemit",
+        "mich",
+        "ihr"
+      ],
+      "basis": "CATALOGUE_NOT_PHOTO"
+    }
+  ],
+  "artifacts": [
+    {
+      "filename": "v249_bsb13.jpg",
+      "source": "BSB",
+      "canvas": 13,
+      "url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00027618_00013/full/full/0/default.jpg",
+      "bytes": 567729,
+      "sha256": "4b14c9efc26c05c9493bedeae073331f42e59765c299ca46bd87fef3c699f41b"
+    },
+    {
+      "filename": "v249_bsb17.jpg",
+      "source": "BSB",
+      "canvas": 17,
+      "url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00027618_00017/full/full/0/default.jpg",
+      "bytes": 561030,
+      "sha256": "5b36f52f9a2ed9091b761e70bc421c82cbb19b2181ed9ae79cba287010a05b73"
+    },
+    {
+      "filename": "v249_onb9.jpg",
+      "source": "ONB",
+      "canvas": 9,
+      "url": "https://iiif.onb.ac.at/images/ABO/Z182122003/00000009/full/full/0/native.jpg",
+      "bytes": 879338,
+      "sha256": "74e9cde7495d063ea6cedd97d738dd1ef1044f37efff665e790eea43b596ce23"
+    },
+    {
+      "filename": "v249_onb13.jpg",
+      "source": "ONB",
+      "canvas": 13,
+      "url": "https://iiif.onb.ac.at/images/ABO/Z182122003/00000013/full/full/0/native.jpg",
+      "bytes": 890092,
+      "sha256": "2aad7887e6b2941accbfd3f389e8e8ced80daebbd9ad7aa341e67632c74238f1"
+    }
+  ],
+  "guards": {
+    "full_collation_complete": false,
+    "same_typesetting_proven": false,
+    "same_physical_copy_proven": false,
+    "printing_order_proven": false,
+    "Aa_Ab_silently_emended": false,
+    "HAB_photos_acquired": false,
+    "new_numeric_approval": false,
+    "new_1526_faces": 0
+  },
+  "rights": {
+    "BSB": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "ONB": "http://rightsstatements.org/vocab/NoC-NC/1.0/",
+    "ONB_reported_expiry": "2029-10-31T23:46:33",
+    "commercial_clearance_granted": false,
+    "image_binaries_in_repository": false
+  },
+  "publication_gate": {
+    "merge": false,
+    "publish": false,
+    "deploy": false,
+    "main_changed": false,
+    "webapp_changed": false
+  },
+  "metrics": {
+    "reinspected_original_faces": 4,
+    "previously_unseen_original_faces": 0,
+    "new_selected_word_observations": 8,
+    "paired_word_loci": 4,
+    "catalogue_profiles": 2,
+    "core_essays": 10,
+    "core_sentences": 543
+  }
+}
