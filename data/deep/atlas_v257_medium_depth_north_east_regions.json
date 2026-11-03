@@ -1,0 +1,207 @@
+{
+  "version": "2.57",
+  "kind": "MEDIUM_DEPTH_NORTH_EAST_REGIONS",
+  "depth": "MEDIUM",
+  "status": "DRAFT",
+  "parent_commit": "b77971289c8ff5bdf802b8b8838a8c62b248667e",
+  "preserved_inputs": [
+    {
+      "path": "data/deep/atlas_v254_medium_depth_ten_readers.json",
+      "sha256": "377db29c072bcd6dad7bcf3e028be2e7e4866c5df7a028c7a030fa4c087f4832"
+    },
+    {
+      "path": "data/deep/atlas_v255_medium_depth_social_themes.json",
+      "sha256": "1de0362a8a6c305c68ce9c3099ff44bed6e9da8e83beaf2ed23dd0bfbd0c6ff0"
+    },
+    {
+      "path": "data/deep/atlas_v256_medium_depth_regional_readers.json",
+      "sha256": "c3b8b6a51b8d28990a5be9a861ce2a75397ae39331b3935f0d5a17db55e536cb"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S01",
+      "title": "오르후스대학교: 덴마크 종교개혁과 국가",
+      "url": "https://cas.au.dk/en/danish-history/modules/module-4-reformation-and-power-state-1523-1660/translate-to-english-1-fra-middelalder-over-reformation-til-tidlig-moderne-tid",
+      "access": "INSTITUTIONAL_HISTORY_OR_PUBLISHED_TRANSLATION_NOT_NEW_FOLIO_COLLATION"
+    },
+    {
+      "id": "S02",
+      "title": "노르웨이 교회: 교회 역사",
+      "url": "https://www.kirken.no/nb-NO/om-kirken/bakgrunn/var-historie/",
+      "access": "INSTITUTIONAL_HISTORY_OR_PUBLISHED_TRANSLATION_NOT_NEW_FOLIO_COLLATION"
+    },
+    {
+      "id": "S03",
+      "title": "스웨덴 교회: 종교개혁과 사회",
+      "url": "https://www.svenskakyrkan.se/luther-och-reformationen/teologiskt-arv-och-samhallspaverkan",
+      "access": "INSTITUTIONAL_HISTORY_OR_PUBLISHED_TRANSLATION_NOT_NEW_FOLIO_COLLATION"
+    },
+    {
+      "id": "S04",
+      "title": "폴란드 고문서중앙문서관: 바르샤바 연맹 번역문",
+      "url": "https://agad.gov.pl/?page_id=966",
+      "access": "INSTITUTIONAL_HISTORY_OR_PUBLISHED_TRANSLATION_NOT_NEW_FOLIO_COLLATION"
+    },
+    {
+      "id": "S05",
+      "title": "폴란드 역사박물관: 바르샤바 연맹",
+      "url": "https://muzhp.pl/kalendarium/podpisanie-aktu-konfederacji-warszawskiej",
+      "access": "INSTITUTIONAL_HISTORY_OR_PUBLISHED_TRANSLATION_NOT_NEW_FOLIO_COLLATION"
+    },
+    {
+      "id": "S06",
+      "title": "헝가리 유니테리언 교회: 역사와 토르더",
+      "url": "https://en.unitarius.org/history/",
+      "access": "INSTITUTIONAL_HISTORY_OR_PUBLISHED_TRANSLATION_NOT_NEW_FOLIO_COLLATION"
+    }
+  ],
+  "chapters": [
+    {
+      "id": "REGION-DENMARK_NORWAY",
+      "title": "덴마크·노르웨이 — 왕권이 이끈 개혁과 생활 속의 느린 변화",
+      "lead": "1536~1537년 루터교 질서의 도입은 교회와 왕권의 관계를 바꾸었다. 그러나 제도의 변화와 주민들의 신앙생활 변화는 같은 속도로 진행되지 않았다.",
+      "sections": [
+        {
+          "heading": "한 왕권 아래 놓인 서로 다른 지역",
+          "body": "덴마크와 노르웨이는 같은 군주가 다스리는 정치적 관계 속에 있었다. 크리스티안3세의 루터교 지지는 두 왕국의 종교적 전환에 중요한 조건이 되었다. 덴마크에서 진행된 논쟁과 왕권의 선택이 노르웨이의 변화를 이끌었다고 해서, 두 지역 주민이 같은 경험을 했다고 볼 수는 없다."
+        },
+        {
+          "heading": "교회 조직과 재산의 재편",
+          "body": "1536~1537년의 개혁은 교회의 지도체계와 예배뿐 아니라 토지와 수입의 관리를 바꾸었다. 왕권은 교회 재산을 장악하면서 교회 운영의 공적 틀을 정비했다.1537년 교회법령은 새로운 질서를 마련하는 중요한 문서였다. 종교개혁은 신앙의 내용에 관한 논쟁인 동시에 공동체의 재산과 교육·돌봄을 누가 책임질 것인가의 문제이기도 했다."
+        },
+        {
+          "heading": "제도적 도입 이후의 시간",
+          "body": "노르웨이 교회의 역사 설명은 도입 당시 개혁 사상이 사회의 일부에만 전해져 있었다고 지적한다. 위에서 새 질서를 선언해도 설교와 교육, 일상의 관습이 바뀌려면 시간이 필요했다. 북유럽의 개혁을 국가의 명령만으로 모두 완성된 사건으로 보지 말고, 왕권의 결정과 지역 공동체가 받아들인 과정을 함께 읽어야 한다."
+        }
+      ],
+      "reading_question": "법으로 새로운 종교 질서를 정한 뒤에도 사람들의 신앙생활에는 어떤 변화가 더 필요했을까?",
+      "key_events": [
+        "1536~1537년: 두 왕국의 루터교 질서 도입",
+        "1537년: 새로운 교회법령",
+        "16세기 후반: 지역 사회에서 이어진 정착 과정"
+      ],
+      "sources": [
+        "S01",
+        "S02"
+      ],
+      "related_readers": [
+        "REGION-ENGLAND",
+        "THEME-CITY_POWER"
+      ],
+      "status": "EDITORIAL_DRAFT"
+    },
+    {
+      "id": "REGION-SWEDEN",
+      "title": "스웨덴 — 교회 재산의 변화에서 루터교 고백의 확립까지",
+      "lead": "스웨덴의 종교개혁은1527년의 정치·경제적 전환과1593년의 신앙고백 확립 사이에 긴 과정을 거쳤다. 시작과 정착을 같은 사건으로 묶지 않는 것이 중요하다.",
+      "sections": [
+        {
+          "heading": "구스타브 바사와 왕국의 재편",
+          "body": "1523년 국왕이 된 구스타브 바사는 종교개혁의 전개에 큰 영향을 주었다. 로마의 권한을 줄이고 왕국의 통치 기반을 강화하려는 관심은 개혁의 신학과 만났다. 신앙적 논쟁만 보아도, 왕의 재정적 이해만 보아도 변화의 전체 모습을 설명하기 어렵다."
+        },
+        {
+          "heading": "1527년 베스테로스의 결정",
+          "body": "베스테로스 의회에서는 왕권이 주교의 성곽 등 교회의 자원을 이용할 길이 열렸다. 이후 교회 인사와 제도에서도 로마와의 관계가 달라졌다. 그러나 재산과 관할권의 변화가 모든 교리와 예배를 즉시 통일한 것은 아니었다. 기존 제도의 일부를 유지하면서도 새로운 가르침을 받아들이는 과정은 여러 단계로 진행되었다."
+        },
+        {
+          "heading": "1593년 웁살라 회의의 의미",
+          "body": "1593년 웁살라 회의에서 아우크스부르크 신앙고백이 받아들여지며 루터교적 정체성이 분명해졌다.1527년과1593년은 서로 대체할 수 있는 날짜가 아니라 다른 변화의 지점이다. 스웨덴의 사례는 개혁의 정치적 출발, 교회 운영의 재편, 신앙고백의 확립을 나누어 읽으면 장기간의 변화를 더 쉽게 이해할 수 있음을 보여 준다."
+        }
+      ],
+      "reading_question": "한 공동체의 정체성은 재산과 제도, 공식 신앙고백 가운데 무엇이 바뀔 때 달라졌다고 말할 수 있을까?",
+      "key_events": [
+        "1523년: 구스타브 바사 즉위",
+        "1527년: 베스테로스 의회",
+        "1593년: 웁살라 회의의 루터교 고백 확립"
+      ],
+      "sources": [
+        "S03"
+      ],
+      "related_readers": [
+        "AUGSBURG",
+        "REGION-ENGLAND"
+      ],
+      "status": "EDITORIAL_DRAFT"
+    },
+    {
+      "id": "REGION-POLAND_LITHUANIA",
+      "title": "폴란드-리투아니아 — 종교가 달라도 정치적 평화를 지킬 수 있는가",
+      "lead": "1573년 바르샤바 연맹은 신앙이 다른 사람들이 폭력 없이 함께 살 조건을 약속했다. 이 공존은 귀족 중심의 정치질서 속에서 이해해야 한다.",
+      "sections": [
+        {
+          "heading": "국왕이 없는 시기에 제기된 평화의 문제",
+          "body": "왕위 공백기에 새로운 국왕을 선출해야 했던 정치 공동체에는 내부 분열을 막을 필요가 있었다. 그 안에는 신앙이 다른 집단들이 존재했다. 유럽 다른 지역의 종교적 폭력은 차이를 없애지 않고도 왕국의 질서를 유지할 수 있는가라는 질문을 더욱 절박하게 만들었다."
+        },
+        {
+          "heading": "1573년의 약속",
+          "body": "바르샤바 연맹의 문서는 신앙과 교회의 차이를 이유로 피를 흘리거나 재산 몰수와 투옥·추방으로 처벌하지 않겠다는 약속을 담았다. 서로 다른 신앙을 인정하면서 정치적 협력을 유지하려 한 점이 중요하다. 이는 모든 참여자가 같은 신학적 결론에 도달해서가 아니라, 차이 때문에 공동체가 무너져서는 안 된다고 판단한 결과로 읽을 수 있다."
+        },
+        {
+          "heading": "공존의 성과와 신분질서의 경계",
+          "body": "문서는 평화를 약속하면서도 영주가 신민에게 행사하는 기존 권한을 보존했다. 따라서 이를 모든 주민이 동등하게 누리는 현대의 종교자유 선언으로 그대로 옮기기 어렵다. 누가 약속의 주체였고 누구의 권한은 유지되었는지 함께 살펴야 한다. 그 한계를 인정해도 종교적 차이를 폭력으로 해결하지 않으려 한 정치적 선택의 의미는 남는다."
+        }
+      ],
+      "reading_question": "신앙의 차이를 인정하는 합의가 있어도 사회적 신분에 따라 그 자유의 범위가 달라질 수 있을까?",
+      "key_events": [
+        "1573년: 왕위 공백기의 정치적 협의",
+        "1573년1월28일: 바르샤바 연맹",
+        "핵심 원칙: 신앙 차이를 이유로 한 폭력과 박해의 억제"
+      ],
+      "sources": [
+        "S04",
+        "S05"
+      ],
+      "related_readers": [
+        "REGION-FRANCE",
+        "THEME-CITY_POWER"
+      ],
+      "status": "EDITORIAL_DRAFT"
+    },
+    {
+      "id": "REGION-TRANSYLVANIA",
+      "title": "트란실바니아 — 공동체가 받아들일 설교자를 선택하다",
+      "lead": "헝가리어권 종교개혁의 중요한 무대였던 트란실바니아에서는1568년 토르더 의회가 설교와 공동체의 선택을 보호했다. 공존의 성과와 적용 범위를 함께 보아야 한다.",
+      "sections": [
+        {
+          "heading": "여러 개혁 흐름이 만나는 지역",
+          "body": "트란실바니아의 개혁은 루터교와 개혁파의 영향에 머물지 않고 삼위일체 교리를 둘러싼 논쟁으로도 이어졌다. 페렌츠 다비드 같은 인물의 입장도 논쟁 속에서 달라졌다. 따라서 한 지역을 한 교파의 확산 경로로만 설명하면 그 내부의 다양한 신학적 선택을 놓치게 된다."
+        },
+        {
+          "heading": "1568년 토르더의 결정",
+          "body": "토르더 의회의 문서는 설교자가 자신의 이해에 따라 복음을 설명하고 공동체가 받아들일 설교자를 둘 수 있도록 했다. 신앙의 가르침을 이유로 위협하거나 강요하지 말라는 취지가 담겼다. 주목할 점은 추상적인 관용의 찬양보다 실제로 누가 설교하고 어떤 공동체가 그 가르침을 받아들일 것인가를 다루었다는 사실이다."
+        },
+        {
+          "heading": "공존이 모든 차별의 폐지를 뜻하지는 않았다",
+          "body": "당시의 보호와 인정은 특정한 종교적·정치적 질서 안에서 작동했다. 이를 모든 사람과 모든 신앙에 대한 동등한 권리의 완성으로 보아서는 안 된다. 이후 새로운 교리의 도입을 제한하는 조치도 나타났다. 공존은 한 번 선언하면 끝나는 성취가 아니라, 권력과 공동체가 그 범위를 계속 다투고 조정하는 과정이었다."
+        }
+      ],
+      "reading_question": "공동체가 설교자를 선택하는 자유와 개인이 신앙을 선택하는 자유는 어떻게 같고 다른가?",
+      "key_events": [
+        "1550~1560년대: 여러 개혁 흐름과 신학 논쟁",
+        "1568년: 토르더 의회의 설교·공동체 선택 보호",
+        "1572년: 새 교리 도입을 제한하는 조치"
+      ],
+      "sources": [
+        "S06"
+      ],
+      "related_readers": [
+        "MARBURG",
+        "REGION-FRANCE"
+      ],
+      "status": "EDITORIAL_DRAFT"
+    }
+  ],
+  "metrics": {
+    "new_regional_readers": 4,
+    "new_sections": 12,
+    "new_reading_questions": 4,
+    "previous_medium_readers": 19,
+    "total_medium_readers": 23
+  },
+  "publication_gate": {
+    "published": false,
+    "main_changed": false,
+    "webapp_integrated": false
+  }
+}
