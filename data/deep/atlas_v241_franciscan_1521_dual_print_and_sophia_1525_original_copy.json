@@ -115,11 +115,245 @@
       "original_folio_or_1718_print_page_directly_seen": false
     }
   ],
-  "witnesses": [],
-  "print_mappings": [],
+  "witnesses": [
+    {
+      "id": "PET-A",
+      "doc": "FRANCISCAN_PETITION",
+      "role": "ORIGINAL_LATIN_SENT_LETTER",
+      "shelfmark": "Gotha Chart. A 336 fol13r/v",
+      "language": "latin",
+      "autograph_status": "OUTGOING_ORIGINAL_NOT_ASSUMED_AUTHOR_HAND",
+      "text_seen": "REGEST_ONLY",
+      "source_ids": [
+        "AK-REQ-1297"
+      ],
+      "direct_physical_original_pages_read": 0
+    },
+    {
+      "id": "PET-B",
+      "doc": "FRANCISCAN_PETITION",
+      "role": "LATIN_COPY_SPALATIN_ADDITIONS",
+      "shelfmark": "Weimar EGA Reg O157b fol436r–438v",
+      "language": "latin",
+      "autograph_status": "SCRIBE_COPY_WITH_SPALATIN_ADDITIONS",
+      "text_seen": "NOT_READ",
+      "source_ids": [
+        "AK-REQ-1297"
+      ],
+      "direct_physical_original_pages_read": 0
+    },
+    {
+      "id": "PET-C",
+      "doc": "FRANCISCAN_PETITION",
+      "role": "SPALATIN_GERMAN_TRANSLATION",
+      "shelfmark": "Gotha Chart. A 338 fol169r–172v",
+      "language": "german",
+      "autograph_status": "TRANSLATION_BY_SPALATIN",
+      "text_seen": "NOT_READ",
+      "source_ids": [
+        "AK-REQ-1297"
+      ],
+      "direct_physical_original_pages_read": 0
+    },
+    {
+      "id": "PET-D",
+      "doc": "FRANCISCAN_PETITION",
+      "role": "COPY_OF_PET_C",
+      "shelfmark": "Gotha Chart. A 338 fol174r–176v",
+      "language": "german",
+      "autograph_status": "SECONDARY_COPY",
+      "text_seen": "NOT_READ",
+      "source_ids": [
+        "AK-REQ-1297"
+      ],
+      "direct_physical_original_pages_read": 0
+    },
+    {
+      "id": "REPLY-A",
+      "doc": "ELECTOR_REPLY_TO_FRANCISCANS",
+      "role": "MELANCHTHON_LATIN_DRAFT",
+      "shelfmark": "Gotha Chart. A 379 fol30r/v",
+      "language": "latin",
+      "autograph_status": "DRAFT_BY_MELANCHTHON",
+      "text_seen": "NOT_READ",
+      "source_ids": [
+        "AK-REPLY-1298"
+      ],
+      "direct_physical_original_pages_read": 0
+    },
+    {
+      "id": "REPLY-B",
+      "doc": "ELECTOR_REPLY_TO_FRANCISCANS",
+      "role": "GERMAN_DRAFT",
+      "shelfmark": "Gotha Chart. A 338 fol179r/v",
+      "language": "german",
+      "autograph_status": "DRAFT",
+      "text_seen": "DIRECT_FULL_CRITICAL_EDITION_TRANSCRIPTION",
+      "source_ids": [
+        "AK-REPLY-1298"
+      ],
+      "direct_physical_original_pages_read": 0
+    },
+    {
+      "id": "REPLY-C",
+      "doc": "ELECTOR_REPLY_TO_FRANCISCANS",
+      "role": "GERMAN_LATER_COPY",
+      "shelfmark": "Gotha Chart. A 338 fol178r/v and180r",
+      "language": "german",
+      "autograph_status": "LATER_COPY",
+      "text_seen": "NOT_READ",
+      "source_ids": [
+        "AK-REPLY-1298"
+      ],
+      "direct_physical_original_pages_read": 0
+    },
+    {
+      "id": "SOPHIA-ORIG",
+      "doc": "SOPHIA_LETTER_1525_05_03",
+      "role": "AUTHOR_AUTOGRAPH",
+      "shelfmark": "Gotha Chart. A 338 fol254r–256v",
+      "language": "german",
+      "autograph_status": "OFFICIAL_AUTOGRAPH",
+      "text_seen": "SHORT_QUOTES_FROM_GOTHA_2025_BLOG_NOT_DIRECT_FOLIO",
+      "source_ids": [
+        "SOPHIA-AUTO",
+        "GOTHA-BLOG-2025"
+      ],
+      "direct_physical_original_pages_read": 0
+    },
+    {
+      "id": "SOPHIA-LATER",
+      "doc": "SOPHIA_LETTER_1525_05_03",
+      "role": "EXPLICIT_LATER_COPY_OF_SOPHIA_ORIG",
+      "shelfmark": "Gotha Chart. A 338 fol257r–260bv",
+      "language": "german",
+      "autograph_status": "OFFICIAL_LATER_COPY_OF_254r_256v",
+      "text_seen": "NOT_READ",
+      "source_ids": [
+        "SOPHIA-COPY"
+      ],
+      "direct_physical_original_pages_read": 0
+    }
+  ],
+  "print_mappings": [
+    {
+      "id": "1718-I-PET",
+      "source_witness": "PET-C",
+      "print": "CYPRIAN_NUETZLICHE_URKUNDEN_1_1718",
+      "print_range": "pp367–371",
+      "number": null,
+      "language": "german",
+      "printed_full_text_indicated": true,
+      "support": [
+        "AK-REQ-1297",
+        "CY-1718-I"
+      ],
+      "printed_page_actually_visited": false,
+      "actual_wording_variants_collated": false
+    },
+    {
+      "id": "1718-I-REPLY",
+      "source_witness": "REPLY-A",
+      "print": "CYPRIAN_NUETZLICHE_URKUNDEN_1_1718",
+      "print_range": "pp371f",
+      "number": null,
+      "language": "latin",
+      "printed_full_text_indicated": true,
+      "support": [
+        "AK-REPLY-1298",
+        "CY-1718-I"
+      ],
+      "printed_page_actually_visited": false,
+      "actual_wording_variants_collated": false
+    },
+    {
+      "id": "1718-II-PET",
+      "source_witness": "PET-A",
+      "print": "CYPRIAN_DER_ANDERE_THEIL_URKUNDEN_2_1718",
+      "print_range": "pp234–237",
+      "number": 53,
+      "language": "latin",
+      "printed_full_text_indicated": true,
+      "support": [
+        "AK-REQ-1297",
+        "CY-1718-II"
+      ],
+      "printed_page_actually_visited": false,
+      "actual_wording_variants_collated": false
+    },
+    {
+      "id": "1718-II-REPLY",
+      "source_witness": "REPLY-C",
+      "print": "CYPRIAN_DER_ANDERE_THEIL_URKUNDEN_2_1718",
+      "print_range": "pp238–240",
+      "number": 54,
+      "language": "german",
+      "printed_full_text_indicated": true,
+      "support": [
+        "AK-REPLY-1298",
+        "CY-1718-II"
+      ],
+      "printed_page_actually_visited": false,
+      "actual_wording_variants_collated": false
+    },
+    {
+      "id": "1880-SOPHIA",
+      "source_witness": "SOPHIA-ORIG",
+      "print": "KAWERAU_ZEITSCHRIFT_HARZ_VEREIN_13_1880",
+      "print_range": "pp330–335",
+      "number": null,
+      "language": "german",
+      "printed_full_text_indicated": true,
+      "support": [
+        "GOTHA-BLOG-2025",
+        "KAWERAU-1880"
+      ],
+      "printed_page_actually_visited": false,
+      "actual_wording_variants_collated": false
+    },
+    {
+      "id": "1942-SOPHIA",
+      "source_witness": "SOPHIA-ORIG",
+      "print": "FUCHS_BAUERNKRIEG_AKTEN_BD2_1942",
+      "print_range": "pp186f",
+      "number": "1298a",
+      "language": "german",
+      "printed_full_text_indicated": false,
+      "support": [
+        "GOTHA-BLOG-2025",
+        "FUCHS-1942"
+      ],
+      "printed_page_actually_visited": false,
+      "actual_wording_variants_collated": false
+    }
+  ],
   "first_person_microreadings": [],
   "historical_events": [],
   "reader_sections": [],
   "open_issues": [],
-  "metrics": {}
+  "metrics": {},
+  "stemma_proof": {
+    "confirmed_copy_arrow": {
+      "from": "SOPHIA-ORIG",
+      "to": "SOPHIA-LATER",
+      "status": "DOCUMENTED_EXPLICITLY_BY_GOTHA_CATALOGUE",
+      "source_ids": [
+        "SOPHIA-AUTO",
+        "SOPHIA-COPY"
+      ]
+    },
+    "confirmed_petition_C_to_D": {
+      "from": "PET-C",
+      "to": "PET-D",
+      "status": "DOCUMENTED_EXPLICITLY_BY_ACADEMY",
+      "source_ids": [
+        "AK-REQ-1297"
+      ]
+    },
+    "unverified_any_copying_across_print_books": true,
+    "print_books_are_separate_1718_physical_objects": true,
+    "identical_original_doc_across_two_print_books_different_witnesses": true,
+    "request_four_witnesses_response_three_witnesses": true,
+    "no_1718_original_print_page_directly_inspected": true
+  }
 }
