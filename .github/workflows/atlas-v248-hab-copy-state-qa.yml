@@ -1,0 +1,33 @@
+name: Atlas V248 HAB copy-state catalogue QA
+on:
+  push:
+    branches: ['research/**']
+    paths:
+      - 'data/deep/atlas_v248_hab_copy_state_catalogue_audit.json'
+      - 'docs/01_CONTENT/V248_HAB_COPY_STATE_CATALOGUE_AUDIT_REPORT.md'
+      - 'scripts/validate_atlas_v248.py'
+      - '.github/workflows/atlas-v248-hab-copy-state-qa.yml'
+  pull_request:
+    branches: ['research/**']
+    paths:
+      - 'data/deep/atlas_v248_hab_copy_state_catalogue_audit.json'
+      - 'docs/01_CONTENT/V248_HAB_COPY_STATE_CATALOGUE_AUDIT_REPORT.md'
+      - 'scripts/validate_atlas_v248.py'
+      - '.github/workflows/atlas-v248-hab-copy-state-qa.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Historical research V219 to V248 regression
+        run: |
+          set -e
+          for version in $(seq 219 248); do
+            python3 "scripts/validate_atlas_v${version}.py"
+          done
