@@ -245,9 +245,110 @@
       "variants_directly_verified": false
     }
   ],
-  "reader_sections": [],
-  "open_issues": [],
-  "metrics": {},
+  "reader_sections": [
+    {
+      "id": "R1",
+      "title": "정서본 231장에 남은 독일어 종교개혁 역사",
+      "text_ko": "1529년의 종교개혁 기록이 라틴어 역사서에 옮겨진 뒤, 텐첼은 이를 독일어로 다시 서술했다. 고타의 원고 231장에는 1517년부터 1521년 보름스 제국의회에 이르는 13장짜리 역사 서술이 남아 있고, 제14장은 제목만 있다. 이것은 단순한 회담 인용문 한 줄을 베낀 기록이 아니라 상당한 분량의 별도 역사 저술이다.",
+      "source_ids": [
+        "TENTZEL-MS"
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "1717년에 읽힌 부분과 필사본에 남은 부분",
+      "text_ko": "텐첼이 세상을 떠난 뒤 치프리안은 1717년 그 원고의 첫 네 장을 출판했다. 고타 목록에서 원고 1r–53r은 인쇄 1~352쪽으로 연결된다. 반면 필사본 제5~13장의 독일어 서술이 이 인쇄본에 모두 실렸다고 말할 수는 없다. 1717년 인쇄본의 전체 531쪽에는 편집자가 첨부한 문헌과 부록이 있으므로 먼저 실제 내용을 조사해야 한다.",
+      "source_ids": [
+        "TENTZEL-MS",
+        "1717-PRINT"
+      ]
+    },
+    {
+      "id": "R3",
+      "title": "1687년의 출판과 1688년의 표제는 무엇이 다른가",
+      "text_ko": "고타 연구는 첫 번째 책이 1687년 가을에 나왔다고 설명하지만 이튼 칼리지는 1688년이라고 쓰인 실제 첫 책의 소장판을 기록한다. 둘은 실제 공급 시점과 표제지 표시가 다르거나 별도 판쇄일 수 있다. 원판의 표제를 직접 대조하기 전에는 한 기록을 지워 다른 한쪽만 정답으로 단정하지 않는다.",
+      "source_ids": [
+        "GOTHA2024",
+        "1688-ETON",
+        "1949-ARTICLE"
+      ]
+    },
+    {
+      "id": "R4",
+      "title": "누가 번역했고 누가 편집했는가",
+      "text_ko": "제켄도르프의 역사서는 라틴어로 작성됐고 텐첼은 이를 바탕으로 수정과 보완을 포함한 독일어 원고를 썼다. 그 뒤 치프리안은 텐첼 사후 첫 네 장과 여러 사료를 출판했다. 따라서 라틴어 저자·독일어 서술자·출판 편집자의 각 목소리를 구분해야 사료가 언제 어떻게 변했는지를 독자에게 정확히 설명할 수 있다.",
+      "source_ids": [
+        "TENTZEL-MS",
+        "1717-PRINT"
+      ]
+    },
+    {
+      "id": "R5",
+      "title": "마르부르크에서 1717년 독자까지",
+      "text_ko": "1529년 요나스가 남긴 회담 편지는 후대 필사본을 통해 전승되어 제켄도르프의 역사서와 연결됐다. 1692년 표제의 라틴어 역사서, 1692~1707년 사이에 작성된 텐첼의 독일어 원고, 1717년 사후 인쇄본은 독자가 역사에 접근하는 언어와 시간을 차례로 바꿨다. 그러나 제켄도르프 1692년판 제2권 139쪽을 읽지 못한 상태에서 요나스 편지의 문장별 번역 계통을 만들지는 않는다.",
+      "source_ids": [
+        "TENTZEL-MS",
+        "1717-PRINT",
+        "1692-BOOK"
+      ]
+    }
+  ],
+  "open_issues": [
+    {
+      "id": "I01",
+      "question": "Open Gotha Tentzel A648 original folios and transcribe chapter headings 1-14"
+    },
+    {
+      "id": "I02",
+      "question": "Open 1717 Cyprian-edited Tentzel printing pp1–352 for phrase-level comparison with A648 fol1r–53r"
+    },
+    {
+      "id": "I03",
+      "question": "Determine where manuscript chapters5–13 survive in later editions and distinguish 1718 supplementary print"
+    },
+    {
+      "id": "I04",
+      "question": "Directly inspect 1688 Eton/Google title page and reconcile Gotha 2024 claim of first appearance in 1687"
+    },
+    {
+      "id": "I05",
+      "question": "Read 1692 Seckendorff Book II sect17 §47 p139f Jonas excerpt source page, not the 1688 Book I scan"
+    },
+    {
+      "id": "I06",
+      "question": "Read 1694 corrected edition counterpart if available; do not use matching pagination as proof of identical text"
+    },
+    {
+      "id": "I07",
+      "question": "Read 1692 Gotha original 120-copy account to corroborate V238 arithmetic and 1693 delivery overlap"
+    },
+    {
+      "id": "I08",
+      "question": "Check rights of Gotha manuscript and 1717 Public Domain Mark media before copying into webapp"
+    },
+    {
+      "id": "I09",
+      "question": "Link vetted 1517-1521 German reception narrative to existing ten core essays after external scholarly review"
+    }
+  ],
+  "metrics": {
+    "source_records": 13,
+    "physical_witness_or_editions": 5,
+    "editorial_relationships": 4,
+    "manuscript_numbered_folios": 231,
+    "chapters_in_manuscript": 13,
+    "chapter14_heading_only": 1,
+    "chapters_printed_1717_from_manuscript": 4,
+    "chapters_not_mapped_to_1717_print": 9,
+    "korean_reader_sections": 5,
+    "modern_1949_paper_pages_screen_inspected": 2,
+    "early_original_manuscript_or_print_pages_newly_read": 0,
+    "seckendorff_1692_p139_directly_read": 0,
+    "open_issues": 9,
+    "previous_k_archival_reproduction_faces": 2,
+    "previous_1529_conversation_pages": 4,
+    "webapp_publications": 0
+  },
   "chapter_relation": {
     "manuscript_numbered_folios": 231,
     "written_chapters": 13,
