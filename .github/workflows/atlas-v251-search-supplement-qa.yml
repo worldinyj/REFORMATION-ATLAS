@@ -1,0 +1,35 @@
+name: Atlas V251 searchable women supplement QA
+on:
+  push:
+    branches: ['research/**']
+    paths:
+      - 'data/deep/atlas_v251_searchable_women_supplement.json'
+      - 'docs/01_CONTENT/V251_SEARCHABLE_WOMEN_SUPPLEMENT_REPORT.md'
+      - 'scripts/validate_atlas_v251.py'
+      - 'scripts/query_atlas_v251.py'
+      - '.github/workflows/atlas-v251-search-supplement-qa.yml'
+  pull_request:
+    branches: ['research/**']
+    paths:
+      - 'data/deep/atlas_v251_searchable_women_supplement.json'
+      - 'docs/01_CONTENT/V251_SEARCHABLE_WOMEN_SUPPLEMENT_REPORT.md'
+      - 'scripts/validate_atlas_v251.py'
+      - 'scripts/query_atlas_v251.py'
+      - '.github/workflows/atlas-v251-search-supplement-qa.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Historical research V219 to V251 regression
+        run: |
+          set -e
+          for version in $(seq 219 251); do
+            python3 "scripts/validate_atlas_v${version}.py"
+          done
