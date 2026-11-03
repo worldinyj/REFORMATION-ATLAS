@@ -1,0 +1,616 @@
+{
+  "version": "2.42",
+  "kind": "GOTHA_REFORMATION_ARCHIVE_PROVENANCE_CYPRIAN_1717_REBINDING_AND_1525_SOPHIA_PRIMARY_TEXT_SEMANTICS",
+  "parent_commit": "6313c4a0c56b5377293d7b0b31456173741ba78f",
+  "baseline": "data/deep/atlas_v241_franciscan_1521_dual_print_and_sophia_1525_original_copy.json",
+  "publication_gate": {
+    "can_publish": false,
+    "cyprian_1718_volume_I_pages_seen": false,
+    "cyprian_1718_volume_II_pages_seen": false,
+    "sophia_1525_autograph_original_folios_seen": false,
+    "sophia_1525_later_copy_folios_seen": false,
+    "kawerau_1880_full_edition_pages_seen": false,
+    "fuchs_1942_abbreviated_edition_pages_seen": false,
+    "first_1521_source_manuscript_images_seen": false,
+    "provenance_1613_causation_proven": false,
+    "reuse_rights_for_facsimiles_cleared": false,
+    "peer_review_complete": false,
+    "webapp_deployed": false
+  },
+  "sources": [
+    {
+      "id": "GOTHA-WATER-2025",
+      "url": "https://blog-fbg.uni-erfurt.de/2025/10/wasserschaeden-als-provenienzmerkmal/",
+      "source_type": "INSTITUTIONAL_2025_ARCHIVE_PROVENANCE_RESEARCH",
+      "read_status": "FULL_ARTICLE_DIRECT_READ",
+      "evidence": "Gehrt 2025: original Weimar Ernestine Registrande N archival group, early transfer to Gotha, Seckendorff 1688 use, Cyprian 1717 rediscovery and five rebound volumes Chart A336–338, A340–341; water damage as condition, 1613 storm probable not proven for each folio"
+    },
+    {
+      "id": "GOTHA-SOPHIA-2025",
+      "url": "https://blog-fbg.uni-erfurt.de/2025/04/dass-wir-nicht-fluechgen-noch-eyn-bosse-hertz-haben-kegen-vnsser-feynde/",
+      "source_type": "INSTITUTIONAL_2025_SCHOLARLY_PRIMARY_LANGUAGE_EXCERPTS",
+      "read_status": "FULL_ARTICLE_WITH_AUTOGRAPH_QUOTATIONS_DIRECT_READ",
+      "evidence": "Gehrt 2025 paraphrases 1525 Sophia and supplies short early German excerpts with editorial gloss flüchgen='fluchen' while flygen='fliehen'; author autograph not pictured/read folios by model"
+    },
+    {
+      "id": "K-SOPHIA-A",
+      "url": "https://kalliope.staatsbibliothek-berlin.de/ead?ead.id=DE-611-HS-3409555",
+      "source_type": "OFFICIAL_INDIVIDUAL_AUTOGRAPH_RECORD",
+      "read_status": "OFFICIAL_CATALOGUE_FROM_V241",
+      "evidence": "Gotha Chart A338 fol254r–256v original autograph Sophia 3 May 1525"
+    },
+    {
+      "id": "K-SOPHIA-C",
+      "url": "https://kalliope.staatsbibliothek-berlin.de/ead?ead.id=DE-611-HS-3409718",
+      "source_type": "OFFICIAL_INDIVIDUAL_LATER_COPY_RECORD",
+      "read_status": "OFFICIAL_CATALOGUE_FROM_V241",
+      "evidence": "Gotha Chart A338 fol257r–260bv explicitly a later copy from 254r–256v, not independent witness"
+    },
+    {
+      "id": "JENA-1525-DIGI",
+      "url": "https://dhb.thulb.uni-jena.de/receive/ufb_cbu_00015491",
+      "source_type": "OFFICIAL_1525_AUTOGRAPH_DIGITAL_OBJECT_LINK",
+      "read_status": "GATEWAY_UNREACHABLE_OR_ANTIBOT_NO_FULL_FOLIO",
+      "evidence": "Jena item id, cannot claim complete manuscript page read"
+    },
+    {
+      "id": "JENA-1525-IMAGE",
+      "url": "https://dhb.thulb.uni-jena.de/rsc/viewer/ufb_derivate_00013977/Chart-A-00338_0526.tif?logicalDiv=log_ufb_cbu_00015491",
+      "source_type": "OFFICIAL_EXACT_AUTOGRAPH_IMAGE_URL_AS_CITED_BY_GOTHA",
+      "read_status": "EXACT_FACSIMILE_LEAD_FOUND_IMAGES_NOT_VISUALLY_READ",
+      "evidence": "Gotha 2025 research cites precise digitized TIFF segment path, no response usable as image or permission to republish"
+    },
+    {
+      "id": "KAW-1880",
+      "url": "https://zs.thulb.uni-jena.de/receive/jportal_jparticle_00254558",
+      "source_type": "1880_PUBLIC_DOMAIN_COMPLETE_PRINT_EDITION_INDEX",
+      "read_status": "ORIGINAL_1880_PRINT_PAGE_330_TO_335_NOT_READ",
+      "evidence": "Kawerau complete transcription journal vol13 print pp330–335; Jena site returned internal error"
+    },
+    {
+      "id": "CY-1718-I",
+      "url": "https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb11709870-8",
+      "source_type": "1718_CYPRIAN_VOLUME_ONE_BOOK_DIGITIZATION",
+      "read_status": "DIGITAL_OBJECT_VALID_TEXT_367_TO_372_NOT_READ",
+      "evidence": "1521 Franciscan request C translated German and elector reply A Latin"
+    },
+    {
+      "id": "CY-1718-II",
+      "url": "https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb11286923-2",
+      "source_type": "1718_CYPRIAN_VOLUME_TWO_BOOK_DIGITIZATION",
+      "read_status": "DIGITAL_OBJECT_VALID_TEXT_234_TO_240_NOT_READ",
+      "evidence": "1521 request A Latin and elector reply C German"
+    },
+    {
+      "id": "BAKFJ-1297",
+      "url": "https://bakfj.saw-leipzig.de/doc/720",
+      "source_type": "MODERN_ACADEMY_WITNESS_EDITION_REGEST",
+      "read_status": "ORIGINAL_LATIN_REQUEST_UNREAD_GERMAN_REGEST_AND_A_B_C_D_READ",
+      "evidence": "Saxon Franciscan petition 15 August 1521 A Latin outgoing/B Latin copy/C Spalatin translation/D copy of C; 1718 I C and II A"
+    },
+    {
+      "id": "BAKFJ-1298",
+      "url": "https://bakfj.saw-leipzig.de/doc/677",
+      "source_type": "MODERN_ACADEMY_EARLY_GERMAN_PRIMARY_TEXT",
+      "read_status": "B_GERMAN_DRAFT_PRIMARY_TEXT_DIRECT_READ_C_AND_LATIN_A_UNREAD",
+      "evidence": "Reply after 15 August 1521 A Melanchthon Latin, B German draft online, C German copy 1718 II"
+    },
+    {
+      "id": "GOTHA-JULY-NEWS",
+      "url": "https://blog-fbg.uni-erfurt.de/2025/06/neue-zeitung-von-den-aufruehrischen-bauern-hin-und-her/",
+      "source_type": "GOTHA_2025_SCHOLARLY_NEWS_TRANSCRIPTION",
+      "read_status": "GOTHA_JULY12_SOURCE_EXCERPT_DIRECT_READ_V240",
+      "evidence": "July12 military news from same Chart A338 later grouping, not necessarily originally adjacent to Sophia's May3 letter"
+    },
+    {
+      "id": "KALLIOPE-INDEX",
+      "url": "https://kalliope-verbund.info/de/index.html",
+      "source_type": "OFFICIAL_NATIONAL_HISTORICAL_MANUSCRIPT_CATALOGUE",
+      "read_status": "CATALOGUE_PLATFORM_NOT_IMAGE_REPRODUCTION",
+      "evidence": "Records provide object identity, shelfmark and source/derivative type but not direct text in all cases"
+    }
+  ],
+  "provenance_timeline": [
+    {
+      "id": "P01",
+      "date": "1518-1525",
+      "evidence_class": "HISTORIC_DOCUMENTS_GENESIS",
+      "claim_ko": "작센 선제후의 종교 문제를 다룬 서신과 문서들은 당시 행정과 개인 서신의 맥락에서 작성됐다. 1525년 소피아의 구조 요청은 1718년 자료집에서 편집되기 위해 작성된 글이 아니다.",
+      "source_ids": [
+        "BAKFJ-1297",
+        "BAKFJ-1298",
+        "K-SOPHIA-A"
+      ]
+    },
+    {
+      "id": "P02",
+      "date": "1570s–1580s",
+      "evidence_class": "PROVENANCE_FROM_FINDING_AIDS",
+      "claim_ko": "고타 학자의 문헌추적은 현재 고타의 많은 초기 문서가 바이마르 에르네스틴 종합문서고의 종교업무 등록부 N 제1~7권에서 유래한 것으로 본다.",
+      "source_ids": [
+        "GOTHA-WATER-2025"
+      ]
+    },
+    {
+      "id": "P03",
+      "date": "1613-05-29",
+      "evidence_class": "PROBABLE_DISASTER_CAUSATION_NOT_PROVEN",
+      "claim_ko": "바이마르의 1613년 대홍수가 기록 훼손의 가능한 원인으로 제시되지만 각각의 필사본의 물손상 원인이 확정된 것은 아니다.",
+      "source_ids": [
+        "GOTHA-WATER-2025"
+      ]
+    },
+    {
+      "id": "P04",
+      "date": "after 1640 before 1675",
+      "evidence_class": "LATER_17C_RELOCATION_FROM_ARCHIVE_REPORT",
+      "claim_ko": "작센-고타 공작 에른스트 1세가 통치 말년에 바이마르에서 고타로 일부 자료를 이동시켰고, 아담 트리베초의 교회사 편찬을 지원하려 했다.",
+      "source_ids": [
+        "GOTHA-WATER-2025"
+      ]
+    },
+    {
+      "id": "P05",
+      "date": "1688",
+      "evidence_class": "INSTITUTIONAL_SOURCE_HISTORY",
+      "claim_ko": "제켄도르프의 문헌 수집 과정에서 고타 기록이 이용됐다는 초기 증거가 나온다.",
+      "source_ids": [
+        "GOTHA-WATER-2025"
+      ]
+    },
+    {
+      "id": "P06",
+      "date": "1717-early",
+      "evidence_class": "INSTITUTIONAL_SOURCE_HISTORY",
+      "claim_ko": "치프리안이 고타 궁정도서관에 잊혀 있던 훼손 문서를 다시 발견했다. '종교개혁 200주년 8개월 전'이라는 표현은 1717년 봄을 뜻하지만 정확한 발견일은 미확정이다.",
+      "source_ids": [
+        "GOTHA-WATER-2025"
+      ]
+    },
+    {
+      "id": "P07",
+      "date": "after 1717 discovery",
+      "evidence_class": "DOCUMENT_ARCHIVAL_REBINDING",
+      "claim_ko": "치프리안이 흩어진 문서를 재정렬해 대부분을 오늘의 Chart A336–338, A340–341의 다섯 권으로 편철했다. 일부 저명 인물 원본은 A379 등 다른 컬렉션으로 분리했다.",
+      "source_ids": [
+        "GOTHA-WATER-2025"
+      ]
+    },
+    {
+      "id": "P08",
+      "date": "1880",
+      "evidence_class": "SOURCE_PUBLICATION",
+      "claim_ko": "카베라우가 소피아 1525년 편지의 전문을 인쇄했다는 고타 공식 연구의 서지 연결. 실제 인쇄 원판은 이번에 미열람.",
+      "source_ids": [
+        "GOTHA-SOPHIA-2025",
+        "KAW-1880"
+      ]
+    },
+    {
+      "id": "P09",
+      "date": "1942",
+      "evidence_class": "SOURCE_REPUBLICATION_AND_FINDING",
+      "claim_ko": "1942년 발췌 연구에서 원본을 찾지 못했다는 판단이 나왔지만 2015년 고타의 원본 정밀 목록에서 실제 소장 상태가 확인됐다.",
+      "source_ids": [
+        "GOTHA-SOPHIA-2025",
+        "K-SOPHIA-A"
+      ]
+    },
+    {
+      "id": "P10",
+      "date": "2025",
+      "evidence_class": "CONTEMPORARY_INSTITUTIONAL_SCHOLARSHIP",
+      "claim_ko": "고타의 2025년 두 연구는 소피아의 자필편지 및 현재 필사집 보존순서의 역사적 재편을 서로 다른 주제로 설명한다.",
+      "source_ids": [
+        "GOTHA-SOPHIA-2025",
+        "GOTHA-WATER-2025"
+      ]
+    }
+  ],
+  "manuscript_objects": [
+    {
+      "id": "M-SOPHIA-1525",
+      "witness": "SOPHIA_AUTOGRAPH",
+      "author": "Sophia von Schafstädt",
+      "shelfmark": "Gotha Chart A338 fol254r–256v",
+      "year": 1525,
+      "category": "AUTHOR_ORIGINAL",
+      "digital_folio_images_seen": 0,
+      "source_ids": [
+        "K-SOPHIA-A",
+        "GOTHA-SOPHIA-2025"
+      ]
+    },
+    {
+      "id": "M-SOPHIA-COPY",
+      "witness": "SOPHIA_LATER_COPY",
+      "author": "unspecified copyist",
+      "shelfmark": "Gotha Chart A338 fol257r–260bv",
+      "year": null,
+      "category": "SAME_LETTER_DERIVATIVE_COPY",
+      "digital_folio_images_seen": 0,
+      "source_ids": [
+        "K-SOPHIA-C"
+      ]
+    },
+    {
+      "id": "M-FRANCISCAN-REQUEST",
+      "witness": "PET_A_LATIN_ORIGINAL",
+      "author": "Andreas Grone et al.",
+      "shelfmark": "Gotha Chart A336 fol13rv",
+      "year": 1521,
+      "category": "OFFICIAL_OUTGOING_LETTER",
+      "digital_folio_images_seen": 0,
+      "source_ids": [
+        "BAKFJ-1297"
+      ]
+    },
+    {
+      "id": "M-FRANCISCAN-TRANSL",
+      "witness": "PET_C_GERMAN_TRANSLATION",
+      "author": "Georg Spalatin",
+      "shelfmark": "Gotha Chart A338 fol169r–172v",
+      "year": 1521,
+      "category": "TRANSLATION_FROM_LATIN",
+      "digital_folio_images_seen": 0,
+      "source_ids": [
+        "BAKFJ-1297"
+      ]
+    },
+    {
+      "id": "M-ELECTOR-REPLY",
+      "witness": "REPLY_B_GERMAN_DRAFT",
+      "author": "Electoral chancery",
+      "shelfmark": "Gotha Chart A338 fol179rv",
+      "year": 1521,
+      "category": "MODERN_ACADEMY_DIRECTLY_READ_TRANSCRIPTION",
+      "digital_folio_images_seen": 0,
+      "source_ids": [
+        "BAKFJ-1298"
+      ]
+    },
+    {
+      "id": "M-ELECTOR-LATIN",
+      "witness": "REPLY_A_MELANCHTHON_DRAFT",
+      "author": "Philipp Melanchthon",
+      "shelfmark": "Gotha Chart A379 fol30rv",
+      "year": 1521,
+      "category": "AUTHOR_LATIN_DRAFT_NOT_DIRECTLY_READ",
+      "digital_folio_images_seen": 0,
+      "source_ids": [
+        "BAKFJ-1298"
+      ]
+    }
+  ],
+  "confirmed_edges": [
+    {
+      "id": "E1",
+      "from": "M-SOPHIA-1525",
+      "to": "M-SOPHIA-COPY",
+      "relation": "LATER_COPY_EXPLICITLY_OF_ORIGINAL",
+      "certainty": "DIRECT_OFFICIAL_CATALOGUE",
+      "textual_variants_verified": false
+    },
+    {
+      "id": "E2",
+      "from": "M-FRANCISCAN-REQUEST",
+      "to": "M-FRANCISCAN-TRANSL",
+      "relation": "SPALATIN_GERMAN_TRANSLATION_OF_LATIN_REQUEST",
+      "certainty": "DIRECT_ACADEMY_EDITION",
+      "textual_variants_verified": false
+    },
+    {
+      "id": "E3",
+      "from": "M-ELECTOR-REPLY",
+      "to": "CY1718-II-GERMAN-C",
+      "relation": "DOCUMENT_B_VS_1718_PRINT_FROM_DIFFERENT_GERMAN_C_COPY",
+      "certainty": "DIRECT_ACADEMY_PUBLISHER_REFERENCE",
+      "textual_variants_verified": false
+    }
+  ],
+  "nonedges": [
+    {
+      "id": "N1",
+      "denied_claim": "Because fol254–260 are now adjacent, the same scribe immediately copied Sophia's original in May 1525",
+      "reason": "Later Gothic codex rebinding by Cyprian and unspecified date/copyist; adjacency cannot date copying"
+    },
+    {
+      "id": "N2",
+      "denied_claim": "All individual water damage was demonstrably caused by 1613 flood",
+      "reason": "Institutional article labels causal link probable; survival/watermarks not case-specific evidence"
+    },
+    {
+      "id": "N3",
+      "denied_claim": "The original Sophia autograph was physically lost in 1942",
+      "reason": "1942 scholar reported unable to locate, official Gotha 2015 catalogue locates continuously preserved object"
+    },
+    {
+      "id": "N4",
+      "denied_claim": "Franciscan petition Latin A, translation C and copy D are three independent contemporary eyewitness accounts",
+      "reason": "Translations and copies are derivations of one petition"
+    },
+    {
+      "id": "N5",
+      "denied_claim": "Cyprian 1718 second-volume German reply C can be directly quoted using modern critical German reply B without collation",
+      "reason": "Different witness selected, printed page image not read"
+    },
+    {
+      "id": "N6",
+      "denied_claim": "The same current Chart A338 codex proves that 1521 petition and 1525 Sophia letter were originally filed together in the 1520s",
+      "reason": "Binding and sorting postdate original letters; order not original proven"
+    }
+  ],
+  "textual_anchors": [
+    {
+      "id": "A01",
+      "source_id": "GOTHA-SOPHIA-2025",
+      "folio": "254r",
+      "excerpt": "nicht flüchgen",
+      "words": 2,
+      "lemma": "fluchen",
+      "meaning_ko": "저주하지 않다. fliehen(도망치다)과 구별하며 수녀원의 실제 피난 사실과 모순되지 않는다.",
+      "original_folio_visual_read": false
+    },
+    {
+      "id": "A02",
+      "source_id": "GOTHA-SOPHIA-2025",
+      "folio": "254r",
+      "excerpt": "eyn boße hertz",
+      "words": 3,
+      "lemma": "böses Herz",
+      "meaning_ko": "적을 향한 악한 마음을 품지 않으려는 태도.",
+      "original_folio_visual_read": false
+    },
+    {
+      "id": "A03",
+      "source_id": "GOTHA-SOPHIA-2025",
+      "folio": "255r",
+      "excerpt": "Ecce nota",
+      "words": 2,
+      "lemma": "ecce nota",
+      "meaning_ko": "‘보라, 기억하라’라는 비꼼의 도입. 당시 폭력 가담자들의 형제 사랑 주장과 실제 행동을 대비한다.",
+      "original_folio_visual_read": false
+    },
+    {
+      "id": "A04",
+      "source_id": "GOTHA-SOPHIA-2025",
+      "folio": "255r",
+      "excerpt": "Ecce angelus Sathane in lumine",
+      "words": 5,
+      "lemma": "angelus Sathanae",
+      "meaning_ko": "빛으로 나타난 사탄의 천사라는 성서적 반어. 고타 연구자는 발언자가 한스 차이스의 조언을 비판한 문맥으로 설명한다.",
+      "original_folio_visual_read": false
+    },
+    {
+      "id": "A05",
+      "source_id": "GOTHA-SOPHIA-2025",
+      "folio": "255v",
+      "excerpt": "Jch bin jo etwaß ewangliß",
+      "words": 5,
+      "lemma": "evangelisch",
+      "meaning_ko": "소피아 자신도 어느 의미에서 복음적이라고 인정한다. 이 한 문구로 1525년의 현대 교파 분류를 단정하지 않는다.",
+      "original_folio_visual_read": false
+    },
+    {
+      "id": "A06",
+      "source_id": "GOTHA-SOPHIA-2025",
+      "folio": "255r",
+      "excerpt": "flygen",
+      "words": 1,
+      "lemma": "fliehen",
+      "meaning_ko": "달아나다·피난하다. 상단의 flüchgen(저주하다)와 구별해야 하는 별개 동사.",
+      "original_folio_visual_read": false
+    },
+    {
+      "id": "A07",
+      "source_id": "BAKFJ-1298",
+      "folio": "online edited B",
+      "excerpt": "gemeinem fride unnd einickeit",
+      "words": 4,
+      "lemma": "Friede / Einigkeit",
+      "meaning_ko": "1521년 선제후 답신의 교회 평화·일치. 소피아 편지와 별개의 문헌으로만 비교.",
+      "original_folio_visual_read": false
+    }
+  ],
+  "case_questions": [
+    {
+      "id": "C01",
+      "question": "소피아는 왜 도망치면서도 '저주하지 않겠다'고 말했는가?",
+      "answer_ko": "육체적 안전을 위한 피난과 적을 향한 저주·복수의 거절은 다른 종류의 행동이다. 초기 독일어 flüchgen과 flygen의 뜻을 혼동하면 이 긴장을 해석할 수 없다.",
+      "sources": [
+        "GOTHA-SOPHIA-2025"
+      ]
+    },
+    {
+      "id": "C02",
+      "question": "소피아는 1525년에 일괄적으로 비복음적·반루터적이었다고 할 수 있는가?",
+      "answer_ko": "그는 자신도 어떤 의미에서 복음적이라고 말하는 동시에 복음의 형제 사랑을 내세우는 사람들의 실제 폭력을 비판했다. 즉 복음적이라는 자기 규정과 개혁 세력의 폭력 비판은 공존할 수 있었다.",
+      "sources": [
+        "GOTHA-SOPHIA-2025"
+      ]
+    },
+    {
+      "id": "C03",
+      "question": "한스 차이스와 뮌처가 직접 습격 명령을 내렸다는 확증인가?",
+      "answer_ko": "고타 연구는 수녀원장의 편지에 담긴 차이스의 행동과 뮌처 관련 발언을 설명하지만 당사자들의 모든 명령·행동이 독립적으로 입증됐다는 뜻은 아니다. 개인의 진술·배경연구·법적 책임을 나눈다.",
+      "sources": [
+        "GOTHA-SOPHIA-2025"
+      ]
+    },
+    {
+      "id": "C04",
+      "question": "1942년 분실설이 틀렸다는 현재의 결론은 무엇을 말하는가?",
+      "answer_ko": "원본을 찾지 못한다는 역사학자의 정보 상태와, 원본 자체가 실제로 사라졌다는 물리적 상태는 다르다. 고타의 재목록화는 1525년 자필이 계속 소장돼 있음을 확인했다.",
+      "sources": [
+        "GOTHA-SOPHIA-2025",
+        "K-SOPHIA-A"
+      ]
+    },
+    {
+      "id": "C05",
+      "question": "현재 필사집의 순서는 당시 문서관계 증거인가?",
+      "answer_ko": "아니다. 1717년경 치프리안이 훼손된 자료를 재정렬하고 다섯 권으로 편철했다. 실제 편지 자체의 날짜·저자·후대 사본 관계는 별도로 공식 목록에서 확인해야 한다.",
+      "sources": [
+        "GOTHA-WATER-2025",
+        "K-SOPHIA-C"
+      ]
+    },
+    {
+      "id": "C06",
+      "question": "교황파 수도회와 복음파의 갈등을 하나로 요약해도 되는가?",
+      "answer_ko": "1521년 프란치스코회 청원과 선제후 답신, 1525년 소피아 편지는 상황·상대·언어가 다르다. 문맥을 비교하되 같은 사건의 직접 목격담으로 융합하지 않는다.",
+      "sources": [
+        "BAKFJ-1297",
+        "BAKFJ-1298",
+        "GOTHA-SOPHIA-2025"
+      ]
+    }
+  ],
+  "access_attempts": [
+    {
+      "id": "ATT1718-I",
+      "target": "1718 Cyprian I print pp367–372",
+      "url": "https://www.digitale-sammlungen.de/view/bsb11709870",
+      "result": "WEB_INTERNAL_ERROR",
+      "actual_print_pages_read": 0
+    },
+    {
+      "id": "ATT1718-II",
+      "target": "1718 Cyprian II print pp234–240",
+      "url": "https://www.digitale-sammlungen.de/view/bsb11286923",
+      "result": "WEB_INTERNAL_ERROR",
+      "actual_print_pages_read": 0
+    },
+    {
+      "id": "ATT1718-IIIF",
+      "target": "BSB 1718 I candidate manifest",
+      "url": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11709870/manifest",
+      "result": "WEB_INTERNAL_ERROR_AND_CONTAINER_DNS_FAILURE",
+      "actual_print_pages_read": 0
+    },
+    {
+      "id": "ATT1880",
+      "target": "Kawerau 1880 original printed pp330–335",
+      "url": "https://zs.thulb.uni-jena.de/receive/jportal_jparticle_00254558",
+      "result": "WEB_INTERNAL_ERROR",
+      "actual_print_pages_read": 0
+    },
+    {
+      "id": "ATT1525",
+      "target": "Sophia fol254r–256v Jena digital page",
+      "url": "https://dhb.thulb.uni-jena.de/receive/ufb_cbu_00015491",
+      "result": "WEB_INTERNAL_ERROR",
+      "actual_print_pages_read": 0
+    }
+  ],
+  "reader_sections": [
+    {
+      "id": "R1",
+      "title": "저주하지 않되 피난하다",
+      "content_ko": "수녀원장 소피아는 수도원을 떠나 안전한 곳으로 피신하면서도 적을 저주하지 않겠다고 말했다. 그의 편지에 등장하는 flüchgen은 저주를 뜻하는 fluchen과 관계있고 flygen은 피난을 뜻한다. 낯선 철자 때문에 이 두 단어를 하나로 합치면 위험을 피하는 실천과 적을 미워하지 않으려는 신앙적 태도가 동시에 드러나는 장면이 사라진다.",
+      "supports": [
+        "A01",
+        "A06"
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "폭력에 반대하면서도 자신을 복음적이라고 설명한 여성",
+      "content_ko": "소피아는 자신도 어느 정도 복음적이라고 말하면서, 복음과 형제 사랑을 외치는 사람들의 행동이 약탈과 공포로 나타난 현실을 풍자했다. 이 편지는 개혁파 대 가톨릭파라는 후대의 단순한 경계보다 복음적 정체성을 누가 어떻게 실천했는가라는 문제를 먼저 드러낸다. 그가 현대 어느 교파에 속했는지를 문장 하나로 판정하지 않는다.",
+      "supports": [
+        "A03",
+        "A05"
+      ]
+    },
+    {
+      "id": "R3",
+      "title": "이웃의 관리가 보호를 약속하지 못했을 때",
+      "content_ko": "고타 도서관이 소개한 원문에서 소피아는 행정관 한스 차이스에게 수도원의 보호를 요구했다. 차이스는 위험을 막기 어렵다고 말하며 알슈테트로 피하라고 조언했다. 그러나 소피아는 그곳이 오히려 공격의 위협이 있다고 이해했다. ‘빛의 사탄 천사’라는 표현은 소피아 자신의 반어적 경험을 보여 주지, 차이스의 모든 행동에 대한 독립적인 재판 판결은 아니다.",
+      "supports": [
+        "A04"
+      ]
+    },
+    {
+      "id": "R4",
+      "title": "잊힌 서류가 1717년에 다시 묶였을 때",
+      "content_ko": "1520년대의 궁정 서류는 처음부터 오늘의 Chart. A 338이라는 번호 아래 정리된 것이 아니었다. 고타 연구도서관은 바이마르의 에르네스틴 종합문서고 등록부와 고타 궁정문서관의 이동, 1717년경 치프리안의 재발견과 재편철 과정을 보여 준다. 따라서 같은 현재 보존철의 이웃한 잎이라는 사실을 해당 시대의 원래 문서 배열 증거로 오인해서는 안 된다.",
+      "supports": [
+        "A01"
+      ]
+    },
+    {
+      "id": "R5",
+      "title": "사라졌다고 생각한 편지가 사실은 남아 있었다",
+      "content_ko": "1942년 연구자는 수녀원장 자필 편지의 원본을 찾지 못한다고 판단했다. 하지만 고타 연구도서관의 상세 목록은 Chart A 338의 254r부터 256v까지 자필 원본을 특정한다. 그 옆에는 실제로 그 편지를 베껴 적은 후대 사본이 남아 있다. 역사는 발견한 자료뿐 아니라 이전의 누락과 오인도 정정하면서 발전한다.",
+      "supports": [
+        "A05"
+      ]
+    },
+    {
+      "id": "R6",
+      "title": "필사와 출판은 새로운 시대의 목소리를 덧씌운다",
+      "content_ko": "치프리안은 1717년경 훼손된 자료를 다시 묶고 1718년에는 서로 다른 저본을 선택해 출판했다. 따라서 1521년 프란치스코회 청원과 선제후 답신에서 어떤 사본을 현대 독자가 읽는지는 중립적인 선택이 아니다. 고타 필사본의 현재 물리적 배치와 1718년 편집자의 출판 배열 모두 전승사로 기록해야 한다.",
+      "supports": [
+        "A07"
+      ]
+    }
+  ],
+  "open_issues": [
+    {
+      "id": "O1",
+      "task": "Get exact original 1718 Cyprian I pp367–372 image and compare translation C/request vs Latin A/reply"
+    },
+    {
+      "id": "O2",
+      "task": "Get 1718 Cyprian II pp234–240 and collate petition A and reply C against BAKFJ B"
+    },
+    {
+      "id": "O3",
+      "task": "Get Sophia full 1525 autograph A338 fol254r–256v via Jena IIIF / reading permission; compare lexical context"
+    },
+    {
+      "id": "O4",
+      "task": "Get Sophia A338 later copy fol257r–260bv and locate concrete additions, deletions, copying slips"
+    },
+    {
+      "id": "O5",
+      "task": "Get full original Kawerau 1880 pp330–335; collate 1942 Fuchs abridged pp186f separately"
+    },
+    {
+      "id": "O6",
+      "task": "For archival collection provenance, check Weimar Registrande N and 1717 Cyprian binding inventories directly if available"
+    },
+    {
+      "id": "O7",
+      "task": "Examine manuscript water damage signatures on individual folios; do not claim causal 1613 flood without forensic support"
+    },
+    {
+      "id": "O8",
+      "task": "Check permissions for original manuscript images, BAKFJ editions CC BY-NC-SA, and blog article CC BY-SA separately"
+    },
+    {
+      "id": "O9",
+      "task": "Resolve long-running 1692 Seckendorff II p139, Gotha 120-copy ledger, and signed Marburg Articles K/Z Art7/13/15"
+    },
+    {
+      "id": "O10",
+      "task": "Translate short first-person source passages into verified reader microstories without inflating copy count or false independence"
+    }
+  ],
+  "metrics": {
+    "new_documentary_sources": 13,
+    "provenance_timeline_events": 10,
+    "tracked_manuscript_objects": 6,
+    "confirmed_archival_or_edition_edges": 3,
+    "explicitly_rejected_inferences": 6,
+    "original_language_short_anchors": 7,
+    "source_criticism_case_questions": 6,
+    "original_access_attempts": 5,
+    "korean_reader_sections": 6,
+    "open_issues": 10,
+    "new_original_manuscript_or_18c_print_pages_read": 0,
+    "prior_1529_k_photographic_faces": 2,
+    "prior_1529_other_autograph_pages": 4,
+    "webapp_publications": 0
+  }
+}
