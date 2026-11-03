@@ -280,7 +280,118 @@
       "printed_page_image_read": false
     }
   ],
-  "microreadings": [],
+  "microreadings": [
+    {
+      "id": "M01",
+      "witness_id": "1519-A",
+      "theme": "1519 DIPLOMATIC DATES",
+      "original_excerpt": "die eiusdem mensis XXVIII accepimus",
+      "interpretation_ko": "카예타노의 5월 5일자 편지를 5월 28일 받았다는 뜻이다.",
+      "source_ids": [
+        "AK1519"
+      ],
+      "read_tier": "MODERN_CRITICAL_EDITION_PRIMARY_TEXT"
+    },
+    {
+      "id": "M02",
+      "witness_id": "1519-A",
+      "theme": "GOLDEN ROSE NOT DELIVERED",
+      "original_excerpt": "nondum tamen hactenus in manus nostras pervenit",
+      "interpretation_ko": "교황의 황금 장미 선물은 약속과 달리 아직 선제후의 손에 도달하지 않았다.",
+      "source_ids": [
+        "AK1519"
+      ],
+      "read_tier": "MODERN_CRITICAL_EDITION_PRIMARY_TEXT"
+    },
+    {
+      "id": "M03",
+      "witness_id": "1519-A",
+      "theme": "CONDITIONAL PAPAL OBEDIENCE",
+      "original_excerpt": "in omnibus rebus honestis et licitis",
+      "interpretation_ko": "교황에 대한 충실함을 정당하고 허용된 일에 한정한다.",
+      "source_ids": [
+        "AK1519"
+      ],
+      "read_tier": "MODERN_CRITICAL_EDITION_PRIMARY_TEXT"
+    },
+    {
+      "id": "M04",
+      "witness_id": "1519-A",
+      "theme": "SCRIBAL MARGINAL REPLACEMENT",
+      "original_excerpt": "Neque [...] cuperet",
+      "interpretation_ko": "편집 주석에서 초안 표현 삭제와 여백의 새 문구 삽입을 밝힌다. 실제 필체는 미열람.",
+      "source_ids": [
+        "AK1519"
+      ],
+      "read_tier": "MODERN_CRITICAL_APPARATUS"
+    },
+    {
+      "id": "M05",
+      "witness_id": "1521-B",
+      "theme": "CHURCH PEACE",
+      "original_excerpt": "gemeinem fride unnd einickeit der christlichen kirchen",
+      "interpretation_ko": "선제후는 교회의 일반적 평화와 일치를 우선 언급한다.",
+      "source_ids": [
+        "AK1521"
+      ],
+      "read_tier": "MODERN_CRITICAL_EDITION_PRIMARY_TEXT"
+    },
+    {
+      "id": "M06",
+      "witness_id": "1521-B",
+      "theme": "FRANCISCAN PETITION",
+      "original_excerpt": "beistand wider doctorem Martinum",
+      "interpretation_ko": "프란치스코회가 루터를 반대하는 일에 도움을 요청했다.",
+      "source_ids": [
+        "AK1521"
+      ],
+      "read_tier": "MODERN_CRITICAL_EDITION_PRIMARY_TEXT"
+    },
+    {
+      "id": "M07",
+      "witness_id": "1521-B",
+      "theme": "DEFEND GOSPEL",
+      "original_excerpt": "dy evangelischen warheit worhafftig predigen unnd verteidigen",
+      "interpretation_ko": "복음의 진리를 참되게 설교하고 변호하는 사람을 도울 뜻을 밝힌다.",
+      "source_ids": [
+        "AK1521"
+      ],
+      "read_tier": "MODERN_CRITICAL_EDITION_PRIMARY_TEXT"
+    },
+    {
+      "id": "M08",
+      "witness_id": "1525-JUL12",
+      "theme": "DATE MARGARET FEAST",
+      "original_excerpt": "am Sanct Margareten tag 12. Julij 1525",
+      "interpretation_ko": "7월 12일을 성녀 마르가레타 축일을 중심으로 적었다.",
+      "source_ids": [
+        "GOTHA1525"
+      ],
+      "read_tier": "GOTHA_2025_HISTORIC_TEXT_TRANSCRIPTION"
+    },
+    {
+      "id": "M09",
+      "witness_id": "1525-JUL12",
+      "theme": "CIVILIAN COST OF WAR",
+      "original_excerpt": "viel armer Leut witwen vnd waisen gemacht",
+      "interpretation_ko": "농민전쟁으로 가난한 이들에게 과부와 고아가 많이 생겼다고 말한다.",
+      "source_ids": [
+        "GOTHA1525"
+      ],
+      "read_tier": "GOTHA_2025_HISTORIC_TEXT_TRANSCRIPTION"
+    },
+    {
+      "id": "M10",
+      "witness_id": "1525-JUL12",
+      "theme": "INTERNATIONAL NEWS",
+      "original_excerpt": "Der Konyg von Franckreich",
+      "interpretation_ko": "독일 농민전쟁 소식에 프랑스 왕의 국제 정세 소식도 함께 있다.",
+      "source_ids": [
+        "GOTHA1525"
+      ],
+      "read_tier": "GOTHA_2025_HISTORIC_TEXT_TRANSCRIPTION"
+    }
+  ],
   "reader_sections": [],
   "open_issues": [],
   "metrics": {},
