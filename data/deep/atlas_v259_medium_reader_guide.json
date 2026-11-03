@@ -1,0 +1,709 @@
+{
+  "version": "2.59",
+  "kind": "MEDIUM_READER_GUIDE_AND_CATALOGUE",
+  "status": "DRAFT",
+  "parent_commit": "1f00a405b5a190996ac085d89fa78f4268576303",
+  "preserved_inputs": [
+    {
+      "path": "data/deep/atlas_v254_medium_depth_ten_readers.json",
+      "sha256": "377db29c072bcd6dad7bcf3e028be2e7e4866c5df7a028c7a030fa4c087f4832"
+    },
+    {
+      "path": "data/deep/atlas_v255_medium_depth_social_themes.json",
+      "sha256": "1de0362a8a6c305c68ce9c3099ff44bed6e9da8e83beaf2ed23dd0bfbd0c6ff0"
+    },
+    {
+      "path": "data/deep/atlas_v256_medium_depth_regional_readers.json",
+      "sha256": "c3b8b6a51b8d28990a5be9a861ce2a75397ae39331b3935f0d5a17db55e536cb"
+    },
+    {
+      "path": "data/deep/atlas_v257_medium_depth_north_east_regions.json",
+      "sha256": "324bf7fa4bbf2b21b52e98f85c1c6015100df97595a4a10f5faef58e8159c431"
+    },
+    {
+      "path": "data/deep/atlas_v258_medium_depth_conflict_settlements.json",
+      "sha256": "b24fe1676201c2babb2260cb01a88985bbe05a862972ce38d2dd8577e8b0f3af"
+    }
+  ],
+  "catalogue": [
+    {
+      "id": "MEDIUM-WYCLIFFE",
+      "title": "위클리프 — 교회의 권위는 무엇으로 판단하는가",
+      "summary": "위클리프는 교회의 권위를 직위와 재산만으로 판단할 수 있는지 물었다. 그의 문제 제기는 중세 교회 안의 논쟁에서 출발했다.",
+      "dataset": "data/deep/atlas_v254_medium_depth_ten_readers.json",
+      "chapter_index": 0,
+      "reader_document": "docs/01_CONTENT/V254_MEDIUM_DEPTH_TEN_READERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "MEDIUM-HUS",
+      "title": "후스 — 설교와 교회 개혁이 보헤미아의 문제가 되다",
+      "summary": "후스의 개혁은 프라하의 설교와 대학, 지역 정치가 만나는 자리에서 자랐다. 그는 위클리프의 영향을 받았지만 독자적인 상황에서 행동했다.",
+      "dataset": "data/deep/atlas_v254_medium_depth_ten_readers.json",
+      "chapter_index": 1,
+      "reader_document": "docs/01_CONTENT/V254_MEDIUM_DEPTH_TEN_READERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "MEDIUM-LUTHER1517",
+      "title": "1517년 루터 — 면벌부 논쟁은 왜 커졌는가",
+      "summary": "95개 논제는 완성된 새 교파의 선언문이 아니라 회개와 교회의 권한을 둘러싼 토론 요청이었다. 그 논쟁은 인쇄와 지역 정치 속에서 확대되었다.",
+      "dataset": "data/deep/atlas_v254_medium_depth_ten_readers.json",
+      "chapter_index": 2,
+      "reader_document": "docs/01_CONTENT/V254_MEDIUM_DEPTH_TEN_READERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "MEDIUM-LUTHER1521",
+      "title": "1521년 보름스 — 양심과 제국의 권력이 충돌하다",
+      "summary": "보름스에서 루터는 저술의 철회를 요구받았다. 그의 양심은 개인 취향의 자유라기보다 성경에 근거해 설득되어야 한다는 신앙적 판단과 연결되었다.",
+      "dataset": "data/deep/atlas_v254_medium_depth_ten_readers.json",
+      "chapter_index": 3,
+      "reader_document": "docs/01_CONTENT/V254_MEDIUM_DEPTH_TEN_READERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "MEDIUM-MARBURG",
+      "title": "마르부르크 회담 — 같은 개혁 진영이 왜 하나가 되지 못했는가",
+      "summary": "1529년 마르부르크에서 개혁자들은 많은 공통점을 확인했지만 성찬 이해의 차이를 끝내 해소하지 못했다. 정치적 연합과 신학적 일치는 별개의 과제였다.",
+      "dataset": "data/deep/atlas_v254_medium_depth_ten_readers.json",
+      "chapter_index": 4,
+      "reader_document": "docs/01_CONTENT/V254_MEDIUM_DEPTH_TEN_READERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "MEDIUM-AUGSBURG",
+      "title": "아우크스부르크 신앙고백 — 개혁의 신앙을 공적으로 설명하다",
+      "summary": "1530년 신앙고백은 개혁 진영의 믿음을 제국의회 앞에서 설명하려는 문서였다. 논쟁의 언어가 공동체의 공적 고백으로 정리되는 과정이었다.",
+      "dataset": "data/deep/atlas_v254_medium_depth_ten_readers.json",
+      "chapter_index": 5,
+      "reader_document": "docs/01_CONTENT/V254_MEDIUM_DEPTH_TEN_READERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "MEDIUM-CALVIN1536",
+      "title": "1536년 『기독교강요』 — 가르침과 변호를 위한 작은 책",
+      "summary": "초판 『기독교강요』는 신앙을 배우는 독자를 위한 안내이자 박해받는 신자들의 믿음을 변호하는 책이었다. 처음부터 최종판의 거대한 체계로 나온 것은 아니다.",
+      "dataset": "data/deep/atlas_v254_medium_depth_ten_readers.json",
+      "chapter_index": 6,
+      "reader_document": "docs/01_CONTENT/V254_MEDIUM_DEPTH_TEN_READERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "MEDIUM-CALVIN1559",
+      "title": "1559년 『기독교강요』 — 신앙을 배우는 순서를 만들다",
+      "summary": "최종 라틴어판은 네 권80장으로 신학을 재배열했다. 예정론 한 주제보다 창조·구속·신앙의 삶·교회를 연결하는 전체 흐름이 중요하다.",
+      "dataset": "data/deep/atlas_v254_medium_depth_ten_readers.json",
+      "chapter_index": 7,
+      "reader_document": "docs/01_CONTENT/V254_MEDIUM_DEPTH_TEN_READERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "MEDIUM-ZWINGLI",
+      "title": "츠빙글리와 취리히 — 도시가 개혁을 결정하다",
+      "summary": "취리히 개혁은 설교자의 성경 해석과 시의회의 결정이 맞물린 공공개혁이었다. 예배의 변화는 도시의 재산과 질서, 주민의 생활까지 바꾸었다.",
+      "dataset": "data/deep/atlas_v254_medium_depth_ten_readers.json",
+      "chapter_index": 8,
+      "reader_document": "docs/01_CONTENT/V254_MEDIUM_DEPTH_TEN_READERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "MEDIUM-TRENT",
+      "title": "트리엔트 공의회 — 가톨릭교회는 어떻게 개혁했는가",
+      "summary": "트리엔트 공의회는 개신교 비판에 대응하면서 가톨릭의 교리를 명확히 하고 성직자 교육과 교회 운영을 개혁했다. 논쟁과 내부 쇄신이 함께 진행되었다.",
+      "dataset": "data/deep/atlas_v254_medium_depth_ten_readers.json",
+      "chapter_index": 9,
+      "reader_document": "docs/01_CONTENT/V254_MEDIUM_DEPTH_TEN_READERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "THEME-PRINT_TRANSLATION",
+      "title": "인쇄와 번역 — 논쟁은 어떻게 사람들에게 도달했는가",
+      "summary": "종교개혁은 주장만으로 확산되지 않았다. 인쇄와 번역은 논쟁이 이동하는 속도와 독자의 범위를 바꾸었다.",
+      "dataset": "data/deep/atlas_v255_medium_depth_social_themes.json",
+      "chapter_index": 0,
+      "reader_document": "docs/01_CONTENT/V255_MEDIUM_DEPTH_SOCIAL_THEMES.md",
+      "section_count": 3
+    },
+    {
+      "id": "THEME-CITY_POWER",
+      "title": "도시와 정치권력 — 누가 개혁을 실행했는가",
+      "summary": "설교자가 변화를 주장해도 도시 전체의 예배와 생활을 바꾸려면 실행할 권력이 필요했다. 취리히에서는 시의회가 중요한 역할을 맡았다.",
+      "dataset": "data/deep/atlas_v255_medium_depth_social_themes.json",
+      "chapter_index": 1,
+      "reader_document": "docs/01_CONTENT/V255_MEDIUM_DEPTH_SOCIAL_THEMES.md",
+      "section_count": 3
+    },
+    {
+      "id": "THEME-WOMEN_FAMILY",
+      "title": "여성과 가족 — 변화는 누구에게 어떤 기회를 주었는가",
+      "summary": "종교개혁기의 여성은 개혁자의 아내나 수녀라는 한 가지 역할로만 설명되지 않는다. 교육과 가정, 종교적 선택의 변화는 서로 다른 기회와 제약을 만들었다.",
+      "dataset": "data/deep/atlas_v255_medium_depth_social_themes.json",
+      "chapter_index": 2,
+      "reader_document": "docs/01_CONTENT/V255_MEDIUM_DEPTH_SOCIAL_THEMES.md",
+      "section_count": 3
+    },
+    {
+      "id": "THEME-EDUCATION",
+      "title": "학교와 교육 — 신앙을 배우는 일이 공공의 과제가 되다",
+      "summary": "개혁자들은 성경과 신앙을 이해할 독자를 필요로 했다. 학교는 교회의 문제이면서 도시가 책임져야 할 과제로도 논의되었다.",
+      "dataset": "data/deep/atlas_v255_medium_depth_social_themes.json",
+      "chapter_index": 3,
+      "reader_document": "docs/01_CONTENT/V255_MEDIUM_DEPTH_SOCIAL_THEMES.md",
+      "section_count": 3
+    },
+    {
+      "id": "THEME-PEASANTS_WAR",
+      "title": "농민전쟁 — 복음의 자유는 사회 질서의 변화도 뜻했는가",
+      "summary": "1524~1525년 농민전쟁은 종교개혁의 언어가 사회적 요구와 만난 사건이었다. 그러나 모든 원인을 루터의 가르침 하나로 설명할 수는 없다.",
+      "dataset": "data/deep/atlas_v255_medium_depth_social_themes.json",
+      "chapter_index": 4,
+      "reader_document": "docs/01_CONTENT/V255_MEDIUM_DEPTH_SOCIAL_THEMES.md",
+      "section_count": 3
+    },
+    {
+      "id": "REGION-ENGLAND",
+      "title": "잉글랜드 — 왕권과 의회가 교회의 질서를 바꾸다",
+      "summary": "잉글랜드의 종교개혁은 로마와의 결별에서 시작했지만, 교리와 예배의 변화는 여러 군주의 통치를 거치며 진전과 반전을 반복했다.",
+      "dataset": "data/deep/atlas_v256_medium_depth_regional_readers.json",
+      "chapter_index": 0,
+      "reader_document": "docs/01_CONTENT/V256_MEDIUM_DEPTH_REGIONAL_READERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "REGION-FRANCE",
+      "title": "프랑스 — 종교적 분열은 왜 내전으로 이어졌는가",
+      "summary": "프랑스에서는 개혁 신앙의 확산과 왕권·귀족의 경쟁이 겹치며 종교전쟁이 이어졌다. 낭트 칙령은 그 갈등을 제한된 공존으로 다스리려는 시도였다.",
+      "dataset": "data/deep/atlas_v256_medium_depth_regional_readers.json",
+      "chapter_index": 1,
+      "reader_document": "docs/01_CONTENT/V256_MEDIUM_DEPTH_REGIONAL_READERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "REGION-LOW_COUNTRIES",
+      "title": "네덜란드 지역 — 신앙 갈등과 지배에 대한 저항이 만나다",
+      "summary": "네덜란드 지역의 종교개혁은 합스부르크 통치에 대한 저항과 얽혔다. 그러나 독립을 원하는 모든 사람이 같은 신앙을 가진 것은 아니었다.",
+      "dataset": "data/deep/atlas_v256_medium_depth_regional_readers.json",
+      "chapter_index": 2,
+      "reader_document": "docs/01_CONTENT/V256_MEDIUM_DEPTH_REGIONAL_READERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "REGION-SCOTLAND",
+      "title": "스코틀랜드 — 설교와 귀족 연합, 국제정치가 함께 만든 개혁",
+      "summary": "스코틀랜드의 종교개혁은 존 녹스의 설교만으로 이루어지지 않았다. 귀족들의 연합과 의회, 프랑스·잉글랜드의 개입이 변화의 조건을 만들었다.",
+      "dataset": "data/deep/atlas_v256_medium_depth_regional_readers.json",
+      "chapter_index": 3,
+      "reader_document": "docs/01_CONTENT/V256_MEDIUM_DEPTH_REGIONAL_READERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "REGION-DENMARK_NORWAY",
+      "title": "덴마크·노르웨이 — 왕권이 이끈 개혁과 생활 속의 느린 변화",
+      "summary": "1536~1537년 루터교 질서의 도입은 교회와 왕권의 관계를 바꾸었다. 그러나 제도의 변화와 주민들의 신앙생활 변화는 같은 속도로 진행되지 않았다.",
+      "dataset": "data/deep/atlas_v257_medium_depth_north_east_regions.json",
+      "chapter_index": 0,
+      "reader_document": "docs/01_CONTENT/V257_MEDIUM_DEPTH_NORTH_EAST_REGIONS.md",
+      "section_count": 3
+    },
+    {
+      "id": "REGION-SWEDEN",
+      "title": "스웨덴 — 교회 재산의 변화에서 루터교 고백의 확립까지",
+      "summary": "스웨덴의 종교개혁은1527년의 정치·경제적 전환과1593년의 신앙고백 확립 사이에 긴 과정을 거쳤다. 시작과 정착을 같은 사건으로 묶지 않는 것이 중요하다.",
+      "dataset": "data/deep/atlas_v257_medium_depth_north_east_regions.json",
+      "chapter_index": 1,
+      "reader_document": "docs/01_CONTENT/V257_MEDIUM_DEPTH_NORTH_EAST_REGIONS.md",
+      "section_count": 3
+    },
+    {
+      "id": "REGION-POLAND_LITHUANIA",
+      "title": "폴란드-리투아니아 — 종교가 달라도 정치적 평화를 지킬 수 있는가",
+      "summary": "1573년 바르샤바 연맹은 신앙이 다른 사람들이 폭력 없이 함께 살 조건을 약속했다. 이 공존은 귀족 중심의 정치질서 속에서 이해해야 한다.",
+      "dataset": "data/deep/atlas_v257_medium_depth_north_east_regions.json",
+      "chapter_index": 2,
+      "reader_document": "docs/01_CONTENT/V257_MEDIUM_DEPTH_NORTH_EAST_REGIONS.md",
+      "section_count": 3
+    },
+    {
+      "id": "REGION-TRANSYLVANIA",
+      "title": "트란실바니아 — 공동체가 받아들일 설교자를 선택하다",
+      "summary": "헝가리어권 종교개혁의 중요한 무대였던 트란실바니아에서는1568년 토르더 의회가 설교와 공동체의 선택을 보호했다. 공존의 성과와 적용 범위를 함께 보아야 한다.",
+      "dataset": "data/deep/atlas_v257_medium_depth_north_east_regions.json",
+      "chapter_index": 3,
+      "reader_document": "docs/01_CONTENT/V257_MEDIUM_DEPTH_NORTH_EAST_REGIONS.md",
+      "section_count": 3
+    },
+    {
+      "id": "THEME-ANABAPTISTS",
+      "title": "재세례파 — 교회의 구성원은 어떻게 되는가",
+      "summary": "재세례파는 종교개혁 내부에서 세례와 신앙 공동체의 경계를 다시 물었다. 한 이름 아래 여러 흐름이 있었으므로 모두를 하나의 집단처럼 설명하면 안 된다.",
+      "dataset": "data/deep/atlas_v258_medium_depth_conflict_settlements.json",
+      "chapter_index": 0,
+      "reader_document": "docs/01_CONTENT/V258_MEDIUM_DEPTH_CONFLICT_SETTLEMENTS.md",
+      "section_count": 3
+    },
+    {
+      "id": "THEME-CATHOLIC_RENEWAL",
+      "title": "가톨릭 내부 개혁과 예수회 — 논쟁을 넘어 교육과 실천으로",
+      "summary": "가톨릭의 변화는 개신교 비판에 대한 대응과 내부 쇄신의 필요가 함께 이끌었다. 예수회는 교육과 선교를 통해 그 변화를 실천한 중요한 조직이었다.",
+      "dataset": "data/deep/atlas_v258_medium_depth_conflict_settlements.json",
+      "chapter_index": 1,
+      "reader_document": "docs/01_CONTENT/V258_MEDIUM_DEPTH_CONFLICT_SETTLEMENTS.md",
+      "section_count": 3
+    },
+    {
+      "id": "THEME-AUGSBURG_PEACE",
+      "title": "1555년 아우크스부르크 화의 — 일치하지 못해도 싸움을 멈출 수 있는가",
+      "summary": "아우크스부르크 화의는 가톨릭과 루터교 사이의 신학적 차이를 해소하지 않고도 제국 안의 평화를 유지하려는 정치적 합의였다.",
+      "dataset": "data/deep/atlas_v258_medium_depth_conflict_settlements.json",
+      "chapter_index": 2,
+      "reader_document": "docs/01_CONTENT/V258_MEDIUM_DEPTH_CONFLICT_SETTLEMENTS.md",
+      "section_count": 3
+    },
+    {
+      "id": "THEME-WAR_WESTPHALIA",
+      "title": "30년전쟁과 베스트팔렌 평화 — 종교적 차이를 다루는 질서를 다시 만들다",
+      "summary": "1618~1648년의 전쟁은 신앙 갈등과 왕조·영방의 권력 경쟁이 얽힌 전쟁이었다. 평화는 교파를 하나로 합치기보다 차이를 관리할 장치를 마련했다.",
+      "dataset": "data/deep/atlas_v258_medium_depth_conflict_settlements.json",
+      "chapter_index": 3,
+      "reader_document": "docs/01_CONTENT/V258_MEDIUM_DEPTH_CONFLICT_SETTLEMENTS.md",
+      "section_count": 3
+    }
+  ],
+  "reading_paths": [
+    {
+      "id": "PATH-01",
+      "title": "처음부터 흐름 잡기",
+      "purpose": "시작과 확산, 분화와 평화를 먼저 읽는다.",
+      "readers": [
+        "MEDIUM-LUTHER1517",
+        "THEME-PRINT_TRANSLATION",
+        "MEDIUM-LUTHER1521",
+        "MEDIUM-MARBURG",
+        "THEME-AUGSBURG_PEACE",
+        "THEME-WAR_WESTPHALIA"
+      ]
+    },
+    {
+      "id": "PATH-02",
+      "title": "신앙과 권위 이해하기",
+      "purpose": "교회와 신앙을 판단하는 기준이 어떻게 논쟁이 되었는지 읽는다.",
+      "readers": [
+        "MEDIUM-WYCLIFFE",
+        "MEDIUM-HUS",
+        "MEDIUM-AUGSBURG",
+        "MEDIUM-CALVIN1536",
+        "MEDIUM-CALVIN1559",
+        "MEDIUM-TRENT"
+      ]
+    },
+    {
+      "id": "PATH-03",
+      "title": "사람들의 생활 따라가기",
+      "purpose": "개혁이 가정·학교·생계와 공동체 소속에 미친 영향을 살핀다.",
+      "readers": [
+        "THEME-WOMEN_FAMILY",
+        "THEME-EDUCATION",
+        "THEME-PEASANTS_WAR",
+        "THEME-ANABAPTISTS",
+        "THEME-CATHOLIC_RENEWAL"
+      ]
+    },
+    {
+      "id": "PATH-04",
+      "title": "왕권과 도시 비교하기",
+      "purpose": "변화를 실행한 정치적 주체를 비교한다.",
+      "readers": [
+        "MEDIUM-ZWINGLI",
+        "THEME-CITY_POWER",
+        "REGION-ENGLAND",
+        "REGION-SCOTLAND",
+        "REGION-DENMARK_NORWAY",
+        "REGION-SWEDEN"
+      ]
+    },
+    {
+      "id": "PATH-05",
+      "title": "공존과 갈등 비교하기",
+      "purpose": "다른 신앙을 가진 사람들이 같은 정치공동체에서 살아갈 조건을 비교한다.",
+      "readers": [
+        "REGION-FRANCE",
+        "REGION-LOW_COUNTRIES",
+        "REGION-POLAND_LITHUANIA",
+        "REGION-TRANSYLVANIA",
+        "THEME-AUGSBURG_PEACE",
+        "THEME-WAR_WESTPHALIA"
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "TERM-01",
+      "term": "면벌부",
+      "explanation": "죄와 관련된 잠벌의 면제를 다루는 중세 교회의 제도와 문서다. 논쟁은 그 권한과 선포 방식,효력에 대한 이해를 둘러싸고 벌어졌다.",
+      "avoid_confusion": "죄 자체를 돈으로 사면하는 제도라는 한 문장으로만 요약하지 않는다.",
+      "readers": [
+        "MEDIUM-LUTHER1517"
+      ]
+    },
+    {
+      "id": "TERM-02",
+      "term": "회개",
+      "explanation": "죄를 인정하고 하나님께 돌아서는 신앙의 문제다. 루터의1517년 논쟁에서는 그리스도인의 삶 전체와 연결된다.",
+      "avoid_confusion": "단순히 돈을 내거나 외적 행위 한 번으로 끝나는 문제로 읽지 않는다.",
+      "readers": [
+        "MEDIUM-LUTHER1517"
+      ]
+    },
+    {
+      "id": "TERM-03",
+      "term": "의롭다 함·칭의",
+      "explanation": "사람이 하나님 앞에서 어떻게 의롭게 되는가를 다루는 신학적 주제다. 은혜와 믿음,죄 사함과 갱신의 관계가 쟁점이었다.",
+      "avoid_confusion": "가톨릭과 개신교의 주장을 각각 공로 구매와 행위 무용론으로 바꾸지 않는다.",
+      "readers": [
+        "MEDIUM-AUGSBURG",
+        "MEDIUM-TRENT"
+      ]
+    },
+    {
+      "id": "TERM-04",
+      "term": "성례",
+      "explanation": "교회의 신앙과 은혜를 구체적 의식에 연결하는 말이다. 개혁자들과 가톨릭은 성례의 수와 의미,교회의 역할을 달리 설명했다.",
+      "avoid_confusion": "겉으로 보이는 의식의 개수만으로 논쟁 전체를 이해했다고 보지 않는다.",
+      "readers": [
+        "MEDIUM-CALVIN1559",
+        "MEDIUM-TRENT"
+      ]
+    },
+    {
+      "id": "TERM-05",
+      "term": "성찬",
+      "explanation": "그리스도의 최후의 만찬과 연결되는 공동체의 의식이다. 그리스도의 임재와 떡·포도주의 의미를 어떻게 이해할지가 중요한 논쟁이었다.",
+      "avoid_confusion": "루터와 츠빙글리의 차이를 단순한 단어 선택의 다툼으로 축소하지 않는다.",
+      "readers": [
+        "MEDIUM-MARBURG"
+      ]
+    },
+    {
+      "id": "TERM-06",
+      "term": "신앙고백",
+      "explanation": "공동체가 무엇을 믿고 가르치는지 공적으로 정리한 문서다.1530년 아우크스부르크 신앙고백이 대표 사례다.",
+      "avoid_confusion": "신학적 문서인 신앙고백과 정치적 합의인 종교화의를 구별한다.",
+      "readers": [
+        "MEDIUM-AUGSBURG",
+        "THEME-AUGSBURG_PEACE"
+      ]
+    },
+    {
+      "id": "TERM-07",
+      "term": "제국의회",
+      "explanation": "신성로마제국에서 황제와 제국 신분들이 공적 문제를 다루던 정치적 장이다. 보름스와 아우크스부르크의 종교 논쟁도 이 질서 안에서 벌어졌다.",
+      "avoid_confusion": "오늘날의 국민 대표 의회와 같은 제도로 생각하지 않는다.",
+      "readers": [
+        "MEDIUM-LUTHER1521",
+        "MEDIUM-AUGSBURG"
+      ]
+    },
+    {
+      "id": "TERM-08",
+      "term": "영방",
+      "explanation": "제국 안에서 제후 등 영주가 다스리던 정치적 영역을 가리킨다. 종교정책의 결정과 시행에서 중요한 단위였다.",
+      "avoid_confusion": "오늘날의 독립국가나 행정구역과 그대로 대응시키지 않는다.",
+      "readers": [
+        "THEME-AUGSBURG_PEACE"
+      ]
+    },
+    {
+      "id": "TERM-09",
+      "term": "국교회",
+      "explanation": "특정 국가의 공적 질서와 밀접하게 연결된 교회를 설명할 때 사용하는 말이다. 잉글랜드의 교회 개편이 중요한 사례다.",
+      "avoid_confusion": "국교회의 성립을 모든 주민의 신앙적 동의나 자유의 완성과 동일시하지 않는다.",
+      "readers": [
+        "REGION-ENGLAND"
+      ]
+    },
+    {
+      "id": "TERM-10",
+      "term": "재세례파",
+      "explanation": "신앙 고백과 세례,자발적 공동체를 중시하며 개혁 내부에서 갈라져 나온 여러 흐름을 가리킨다.",
+      "avoid_confusion": "모두가 같은 조직·정치적 태도·폭력관을 가졌다고 묶지 않는다.",
+      "readers": [
+        "THEME-ANABAPTISTS"
+      ]
+    },
+    {
+      "id": "TERM-11",
+      "term": "위그노",
+      "explanation": "프랑스의 개신교도들을 가리키는 역사적 명칭이다. 종교전쟁과 낭트 칙령을 읽을 때 자주 등장한다.",
+      "avoid_confusion": "프랑스인 전체나 종교적 자유를 주장한 모든 세력의 이름으로 확대하지 않는다.",
+      "readers": [
+        "REGION-FRANCE"
+      ]
+    },
+    {
+      "id": "TERM-12",
+      "term": "공의회",
+      "explanation": "교회의 교리와 질서를 논의하는 회의다. 콘스탄츠와 트리엔트는 서로 다른 시대와 과제를 가진 사례다.",
+      "avoid_confusion": "회의의 결정과 각 지역에서 실제 시행된 과정을 구별한다.",
+      "readers": [
+        "MEDIUM-HUS",
+        "MEDIUM-TRENT"
+      ]
+    },
+    {
+      "id": "TERM-13",
+      "term": "교회 재산의 세속화",
+      "explanation": "교회나 수도원의 재산을 왕권·도시 등 세속 권력이 관리하거나 소유하게 되는 변화를 말한다.",
+      "avoid_confusion": "옮겨진 재산이 모두 복지에 사용되었다거나 주민 모두에게 이익이었다고 단정하지 않는다.",
+      "readers": [
+        "THEME-CITY_POWER",
+        "REGION-DENMARK_NORWAY"
+      ]
+    },
+    {
+      "id": "TERM-14",
+      "term": "종교화의",
+      "explanation": "신앙이 다른 세력들이 공존하거나 충돌을 멈출 조건을 정한 정치적 합의다.1555년 아우크스부르크 화의가 대표 사례다.",
+      "avoid_confusion": "합의에 포함된 집단과 제외된 집단,개인에게 허용된 선택을 함께 본다.",
+      "readers": [
+        "THEME-AUGSBURG_PEACE"
+      ]
+    },
+    {
+      "id": "TERM-15",
+      "term": "관용과 공존",
+      "explanation": "신앙적 차이를 없애지 않은 채 폭력과 강제를 제한하고 함께 살아갈 조건을 정하려는 태도와 장치다.",
+      "avoid_confusion": "당시의 제한된 보호를 오늘날 모든 사람의 동등한 종교자유로 소급하지 않는다.",
+      "readers": [
+        "REGION-POLAND_LITHUANIA",
+        "REGION-TRANSYLVANIA",
+        "REGION-FRANCE"
+      ]
+    },
+    {
+      "id": "TERM-16",
+      "term": "예수회",
+      "explanation": "이냐시오 데 로욜라와 동료들이 세워1540년 교황의 승인을 받은 가톨릭 수도회다. 교육과 선교가 중요한 활동으로 발전했다.",
+      "avoid_confusion": "예수회를 가톨릭 개혁 전체나 개신교에 대한 반격만으로 설명하지 않는다.",
+      "readers": [
+        "THEME-CATHOLIC_RENEWAL"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "id": "TIME-01",
+      "date": "1415",
+      "event": "콘스탄츠 공의회에서 후스 처형",
+      "readers": [
+        "MEDIUM-HUS"
+      ]
+    },
+    {
+      "id": "TIME-02",
+      "date": "1517",
+      "event": "루터의 면벌부 논쟁",
+      "readers": [
+        "MEDIUM-LUTHER1517"
+      ]
+    },
+    {
+      "id": "TIME-03",
+      "date": "1521",
+      "event": "보름스 제국의회",
+      "readers": [
+        "MEDIUM-LUTHER1521"
+      ]
+    },
+    {
+      "id": "TIME-04",
+      "date": "1523",
+      "event": "취리히의 종교 논쟁",
+      "readers": [
+        "MEDIUM-ZWINGLI"
+      ]
+    },
+    {
+      "id": "TIME-05",
+      "date": "1524",
+      "event": "도시 학교 설립·유지를 촉구한 루터의 글",
+      "readers": [
+        "THEME-EDUCATION"
+      ]
+    },
+    {
+      "id": "TIME-06",
+      "date": "1524~1525",
+      "event": "농민전쟁",
+      "readers": [
+        "THEME-PEASANTS_WAR"
+      ]
+    },
+    {
+      "id": "TIME-07",
+      "date": "1525",
+      "event": "취리히 재세례파의 상징적 출발",
+      "readers": [
+        "THEME-ANABAPTISTS"
+      ]
+    },
+    {
+      "id": "TIME-08",
+      "date": "1527",
+      "event": "스웨덴 베스테로스 의회",
+      "readers": [
+        "REGION-SWEDEN"
+      ]
+    },
+    {
+      "id": "TIME-09",
+      "date": "1529",
+      "event": "마르부르크 회담",
+      "readers": [
+        "MEDIUM-MARBURG"
+      ]
+    },
+    {
+      "id": "TIME-10",
+      "date": "1530",
+      "event": "아우크스부르크 신앙고백 제출",
+      "readers": [
+        "MEDIUM-AUGSBURG"
+      ]
+    },
+    {
+      "id": "TIME-11",
+      "date": "1534",
+      "event": "잉글랜드 수장법",
+      "readers": [
+        "REGION-ENGLAND"
+      ]
+    },
+    {
+      "id": "TIME-12",
+      "date": "1536",
+      "event": "『기독교강요』 초판",
+      "readers": [
+        "MEDIUM-CALVIN1536"
+      ]
+    },
+    {
+      "id": "TIME-13",
+      "date": "1536~1537",
+      "event": "덴마크·노르웨이 루터교 질서 도입",
+      "readers": [
+        "REGION-DENMARK_NORWAY"
+      ]
+    },
+    {
+      "id": "TIME-14",
+      "date": "1540",
+      "event": "예수회 교황 승인",
+      "readers": [
+        "THEME-CATHOLIC_RENEWAL"
+      ]
+    },
+    {
+      "id": "TIME-15",
+      "date": "1545~1563",
+      "event": "트리엔트 공의회",
+      "readers": [
+        "MEDIUM-TRENT"
+      ]
+    },
+    {
+      "id": "TIME-16",
+      "date": "1555",
+      "event": "아우크스부르크 종교화의",
+      "readers": [
+        "THEME-AUGSBURG_PEACE"
+      ]
+    },
+    {
+      "id": "TIME-17",
+      "date": "1559",
+      "event": "칼뱅 최종 라틴어판과 잉글랜드 종교정착",
+      "readers": [
+        "MEDIUM-CALVIN1559",
+        "REGION-ENGLAND"
+      ]
+    },
+    {
+      "id": "TIME-18",
+      "date": "1560",
+      "event": "스코틀랜드 종교개혁 의회",
+      "readers": [
+        "REGION-SCOTLAND"
+      ]
+    },
+    {
+      "id": "TIME-19",
+      "date": "1562",
+      "event": "프랑스 종교전쟁 시작",
+      "readers": [
+        "REGION-FRANCE"
+      ]
+    },
+    {
+      "id": "TIME-20",
+      "date": "1566",
+      "event": "네덜란드 지역 성상 파괴",
+      "readers": [
+        "REGION-LOW_COUNTRIES"
+      ]
+    },
+    {
+      "id": "TIME-21",
+      "date": "1568",
+      "event": "토르더 의회",
+      "readers": [
+        "REGION-TRANSYLVANIA"
+      ]
+    },
+    {
+      "id": "TIME-22",
+      "date": "1573",
+      "event": "바르샤바 연맹",
+      "readers": [
+        "REGION-POLAND_LITHUANIA"
+      ]
+    },
+    {
+      "id": "TIME-23",
+      "date": "1593",
+      "event": "스웨덴 웁살라 회의",
+      "readers": [
+        "REGION-SWEDEN"
+      ]
+    },
+    {
+      "id": "TIME-24",
+      "date": "1598",
+      "event": "낭트 칙령",
+      "readers": [
+        "REGION-FRANCE"
+      ]
+    },
+    {
+      "id": "TIME-25",
+      "date": "1618~1648",
+      "event": "30년전쟁과 베스트팔렌 평화",
+      "readers": [
+        "THEME-WAR_WESTPHALIA"
+      ]
+    }
+  ],
+  "methodology": "기존27편에서 핵심 사실과 용어를 편집한 독서 안내다.새 독립 해설 편수나 원판 판독으로 계상하지 않는다.",
+  "metrics": {
+    "medium_readers": 27,
+    "reading_paths": 5,
+    "glossary_terms": 16,
+    "timeline_entries": 25,
+    "new_independent_readers": 0
+  },
+  "publication_gate": {
+    "published": false,
+    "main_changed": false,
+    "webapp_integrated": false
+  }
+}
