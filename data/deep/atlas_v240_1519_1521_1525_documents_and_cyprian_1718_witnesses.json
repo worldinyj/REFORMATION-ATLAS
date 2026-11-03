@@ -117,10 +117,184 @@
       "original_manuscript_folio_image_seen": false
     }
   ],
-  "witnesses": [],
-  "edition_links": [],
+  "witnesses": [
+    {
+      "id": "1519-A",
+      "date": "1519-06-08",
+      "document": "Elector Frederick to Cardinal Cajetan",
+      "language": "LATIN_DRAFT",
+      "shelfmark": "Gotha Chart A338 17r–18v",
+      "scribal_agent": "Georg Spalatin",
+      "primary_text_directly_read_in_critical_edition": true,
+      "manuscript_visual_pages_read": 0,
+      "source_ids": [
+        "AK1519"
+      ]
+    },
+    {
+      "id": "1519-B",
+      "date": "1519-06-08",
+      "document": "Elector Frederick to Cardinal Cajetan",
+      "language": "GERMAN_FAIR_COPY",
+      "shelfmark": "Gotha Chart A338 89r–90v",
+      "scribal_agent": "UNKNOWN",
+      "primary_text_directly_read_in_critical_edition": false,
+      "manuscript_visual_pages_read": 0,
+      "source_ids": [
+        "AK1519"
+      ]
+    },
+    {
+      "id": "1521-A",
+      "date": "after 1521-08-15",
+      "document": "Elector Frederick to Saxon Franciscan chapter",
+      "language": "LATIN_DRAFT",
+      "shelfmark": "Gotha Chart A379 30r–v",
+      "scribal_agent": "Philipp Melanchthon",
+      "primary_text_directly_read_in_critical_edition": false,
+      "manuscript_visual_pages_read": 0,
+      "source_ids": [
+        "AK1521"
+      ]
+    },
+    {
+      "id": "1521-B",
+      "date": "after 1521-08-15",
+      "document": "Elector Frederick to Saxon Franciscan chapter",
+      "language": "GERMAN_DRAFT",
+      "shelfmark": "Gotha Chart A338 179r–v",
+      "scribal_agent": "UNKNOWN",
+      "primary_text_directly_read_in_critical_edition": true,
+      "manuscript_visual_pages_read": 0,
+      "source_ids": [
+        "AK1521"
+      ]
+    },
+    {
+      "id": "1521-C",
+      "date": "after 1521-08-15",
+      "document": "Elector Frederick to Saxon Franciscan chapter",
+      "language": "GERMAN_LATER_COPY",
+      "shelfmark": "Gotha Chart A338 178r–v and 180r",
+      "scribal_agent": "UNKNOWN",
+      "primary_text_directly_read_in_critical_edition": false,
+      "manuscript_visual_pages_read": 0,
+      "source_ids": [
+        "AK1521"
+      ]
+    },
+    {
+      "id": "1525-JUN2",
+      "date": "1525-06-02",
+      "document": "Planitz and Weissenbach news report to Saxon officials",
+      "language": "GERMAN_COURT_NEWS_COPY",
+      "shelfmark": "Gotha Chart A338 261r–262v",
+      "scribal_agent": "COURT_NEWS_COPY",
+      "primary_text_directly_read_in_critical_edition": false,
+      "manuscript_visual_pages_read": 0,
+      "source_ids": [
+        "GOTHA1525",
+        "PHOTO-JUNE2"
+      ]
+    },
+    {
+      "id": "1525-JUN18",
+      "date": "1525-06-18",
+      "document": "Neue Zeitung von den aufrührischen Bauern hin und her",
+      "language": "GERMAN_NEWS_COPY",
+      "shelfmark": "Gotha Chart A338 263r–264v",
+      "scribal_agent": "UNKNOWN",
+      "primary_text_directly_read_in_critical_edition": false,
+      "manuscript_visual_pages_read": 0,
+      "source_ids": [
+        "GOTHA1525",
+        "PHOTO-JUNE18"
+      ]
+    },
+    {
+      "id": "1525-JUL12",
+      "date": "1525-07-12",
+      "document": "Zeitung wie man mit den aufrührischen Bauern umgeht",
+      "language": "GERMAN_NEWS_COPY",
+      "shelfmark": "Gotha Chart A338 265r–v",
+      "scribal_agent": "COURT_COPY_WITH_SPALATIN_MARKINGS",
+      "primary_text_directly_read_in_critical_edition": true,
+      "manuscript_visual_pages_read": 0,
+      "source_ids": [
+        "GOTHA1525",
+        "PHOTO-JULY12"
+      ]
+    }
+  ],
+  "edition_links": [
+    {
+      "id": "P-1519",
+      "witness_id": "1519-A",
+      "edition": "CYPRIAN1718_PART_2_PRIMARY_DOCUMENTS",
+      "printed": "pp109–111 No15",
+      "source_ids": [
+        "AK1519",
+        "SAW-1718"
+      ],
+      "printed_page_image_read": false
+    },
+    {
+      "id": "P-1521",
+      "witness_id": "1521-C",
+      "edition": "CYPRIAN1718_PART_2_PRIMARY_DOCUMENTS",
+      "printed": "pp238–240 No54",
+      "source_ids": [
+        "AK1521",
+        "SAW-1718-C"
+      ],
+      "printed_page_image_read": false
+    },
+    {
+      "id": "P-1525-JUN2",
+      "witness_id": "1525-JUN2",
+      "edition": "CYPRIAN1718_PART_2_PRIMARY_DOCUMENTS",
+      "printed": "pp354–357",
+      "source_ids": [
+        "GOTHA1525"
+      ],
+      "printed_page_image_read": false
+    },
+    {
+      "id": "P-1525-JUN18",
+      "witness_id": "1525-JUN18",
+      "edition": "CYPRIAN1718_PART_2_PRIMARY_DOCUMENTS",
+      "printed": "pp357–360",
+      "source_ids": [
+        "GOTHA1525"
+      ],
+      "printed_page_image_read": false
+    },
+    {
+      "id": "P-1525-JUL12",
+      "witness_id": "1525-JUL12",
+      "edition": "CYPRIAN1718_PART_2_PRIMARY_DOCUMENTS",
+      "printed": "pp361f",
+      "source_ids": [
+        "GOTHA1525"
+      ],
+      "printed_page_image_read": false
+    }
+  ],
   "microreadings": [],
   "reader_sections": [],
   "open_issues": [],
-  "metrics": {}
+  "metrics": {},
+  "structural_distinction": {
+    "first_book": "TENTZEL_CHAPTERS1_TO4_IN_CYPRIAN1717_HISTORICAL_NARRATIVE_PRINT",
+    "second_book": "CYPRIAN1718_INDEPENDENT_EARLY_REFORMATION_SOURCE_COLLECTION",
+    "first_book_year": 1717,
+    "second_book_year": 1718,
+    "manuscript_a648_chapters5_13_not_proven_in_1718_second_book": true,
+    "cyprian1718_p109_111_from_1519_latin_A": true,
+    "cyprian1718_p238_240_from_1521_german_C": true,
+    "academy1521_online_text_uses_german_B": true,
+    "gotha1525_july12_text_directly_read_in_2025_research_blog": true,
+    "sourcebook_1718_printed_page_image_read": false,
+    "gotha_original_folios_directly_read": false
+  }
 }
