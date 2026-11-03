@@ -1,0 +1,33 @@
+name: Atlas V246 original print and autograph selected collation QA
+on:
+  push:
+    branches: ['research/**']
+    paths:
+      - 'data/deep/atlas_v246_florentina_o91_photographs_sophia_autograph_selected_collation.json'
+      - 'docs/01_CONTENT/V246_FLORENTINA_O91_SOPHIA_AUTOGRAPH_SELECTED_COLLATION_REPORT.md'
+      - 'scripts/validate_atlas_v246.py'
+      - '.github/workflows/atlas-v246-primary-photographic-collation-qa.yml'
+  pull_request:
+    branches: ['research/**']
+    paths:
+      - 'data/deep/atlas_v246_florentina_o91_photographs_sophia_autograph_selected_collation.json'
+      - 'docs/01_CONTENT/V246_FLORENTINA_O91_SOPHIA_AUTOGRAPH_SELECTED_COLLATION_REPORT.md'
+      - 'scripts/validate_atlas_v246.py'
+      - '.github/workflows/atlas-v246-primary-photographic-collation-qa.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Historical research V219 to V246 regression
+        run: |
+          set -e
+          for version in $(seq 219 246); do
+            python3 "scripts/validate_atlas_v${version}.py"
+          done
