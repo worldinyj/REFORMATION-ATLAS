@@ -1,0 +1,236 @@
+{
+  "version": "2.53",
+  "status": "DRAFT",
+  "parent_commit": "622ba5c87345ea28fde2cd943adc15a4b3a582ad",
+  "preserved_files": [
+    {
+      "path": "data/deep/atlas_v219_structured_ten_reader_critical_editions.json",
+      "sha256": "0fea005d6592dbc976b46da1d1d9d6f217b4390a2708b304968648a64ad82efb"
+    },
+    {
+      "path": "data/deep/atlas_v245_kawerau_print_florentina_title_and_gess_dependency.json",
+      "sha256": "cf53a2759c4be9da5b0c4d9bdf59f2814c52c13db96b89f3272f3019171a0796"
+    },
+    {
+      "path": "data/deep/atlas_v252_petition_catalogue_identity_conflicts.json",
+      "sha256": "af9af387b07e60f1a4e2b28cc5e5dda17461205122c915aa922e3cb31e5f9a64"
+    }
+  ],
+  "sources": [
+    {
+      "id": "USNO",
+      "url": "https://aa.usno.navy.mil/data/api.html",
+      "role": "API_CALENDAR_CONVENTION"
+    },
+    {
+      "id": "JPL",
+      "url": "https://ssd-api.jpl.nasa.gov/doc/jd_cal.html",
+      "role": "API_CALENDAR_CONVENTION"
+    },
+    {
+      "id": "FEAST",
+      "url": "https://bistum-augsburg.de/Heilige-des-Tages/Heilige-des-Tages/11.11",
+      "role": "MODERN_CHURCH_FEAST_REFERENCE_NOT_1526_LOCAL_ORDO"
+    },
+    {
+      "id": "PRINT",
+      "url": "https://archive.org/download/zeitschriftdesha13harz/zeitschriftdesha13harz.pdf",
+      "role": "KAWERAU_PRINT338_PDF346_REINSPECTED"
+    }
+  ],
+  "calendar_rows": [
+    {
+      "julian_date": "1526-11-11",
+      "jd_at_noon": 2278744,
+      "weekday": "Sunday",
+      "proleptic_gregorian": "1526-11-21"
+    },
+    {
+      "julian_date": "1526-11-12",
+      "jd_at_noon": 2278745,
+      "weekday": "Monday",
+      "proleptic_gregorian": "1526-11-22"
+    },
+    {
+      "julian_date": "1526-11-13",
+      "jd_at_noon": 2278746,
+      "weekday": "Tuesday",
+      "proleptic_gregorian": "1526-11-23"
+    }
+  ],
+  "artifacts": [
+    {
+      "filename": "v253_usno_11.json",
+      "source": "USNO",
+      "url": "https://aa.usno.navy.mil/api/calendardate?jd=2278744",
+      "bytes": 241,
+      "sha256": "9c59ed8c52cd715d7e7a0712c37a19ff85de3680cb364bbb46c6cfe140c59810",
+      "response": {
+        "apiversion": "4.0.1",
+        "data": [
+          {
+            "day": 11,
+            "dayofweek": "Sunday",
+            "era": "AD",
+            "jd": "2278744.000000",
+            "month": 11,
+            "time": "12:00:00.0",
+            "tz": 0,
+            "year": 1526
+          }
+        ]
+      }
+    },
+    {
+      "filename": "v253_jpl_11.json",
+      "source": "JPL",
+      "url": "https://ssd-api.jpl.nasa.gov/jd_cal.api?jd=2278744",
+      "bytes": 219,
+      "sha256": "6c5264adc75435be5f8cb290632eba6a6a1952114fcec4a74874aee32367b687",
+      "response": {
+        "month_name": "Nov",
+        "doy": 315,
+        "month": "11",
+        "dow_name": "Sunday",
+        "day_and_time": "11 12:00:00",
+        "dow": "1",
+        "cd": "1526-11-11 12:00:00",
+        "year": 1526,
+        "signature": {
+          "source": "NASA/JPL JD-Calendar Conversion API",
+          "version": "0.1"
+        }
+      }
+    },
+    {
+      "filename": "v253_usno_12.json",
+      "source": "USNO",
+      "url": "https://aa.usno.navy.mil/api/calendardate?jd=2278745",
+      "bytes": 241,
+      "sha256": "9ea101c8eccbb90617efd079c26b67f1016acd3b12d33db8922e57877bc73eb2",
+      "response": {
+        "apiversion": "4.0.1",
+        "data": [
+          {
+            "day": 12,
+            "dayofweek": "Monday",
+            "era": "AD",
+            "jd": "2278745.000000",
+            "month": 11,
+            "time": "12:00:00.0",
+            "tz": 0,
+            "year": 1526
+          }
+        ]
+      }
+    },
+    {
+      "filename": "v253_jpl_12.json",
+      "source": "JPL",
+      "url": "https://ssd-api.jpl.nasa.gov/jd_cal.api?jd=2278745",
+      "bytes": 219,
+      "sha256": "cb6cba0b1f5073dcc99bf97350bc7689871246f5cc484169dd68588cd544597f",
+      "response": {
+        "month_name": "Nov",
+        "doy": 316,
+        "month": "11",
+        "dow_name": "Monday",
+        "day_and_time": "12 12:00:00",
+        "dow": "2",
+        "year": 1526,
+        "signature": {
+          "source": "NASA/JPL JD-Calendar Conversion API",
+          "version": "0.1"
+        },
+        "cd": "1526-11-12 12:00:00"
+      }
+    },
+    {
+      "filename": "v253_usno_13.json",
+      "source": "USNO",
+      "url": "https://aa.usno.navy.mil/api/calendardate?jd=2278746",
+      "bytes": 242,
+      "sha256": "15de4f991a4c5aecd6d2bbf793eccf4abc3c13bceea47cea9b0cac35fe946119",
+      "response": {
+        "apiversion": "4.0.1",
+        "data": [
+          {
+            "day": 13,
+            "dayofweek": "Tuesday",
+            "era": "AD",
+            "jd": "2278746.000000",
+            "month": 11,
+            "time": "12:00:00.0",
+            "tz": 0,
+            "year": 1526
+          }
+        ]
+      }
+    },
+    {
+      "filename": "v253_jpl_13.json",
+      "source": "JPL",
+      "url": "https://ssd-api.jpl.nasa.gov/jd_cal.api?jd=2278746",
+      "bytes": 220,
+      "sha256": "2c21734fbed138728a8712026e29275ccac1ecad4043517ae49fcef60121aea5",
+      "response": {
+        "dow": "3",
+        "month_name": "Nov",
+        "dow_name": "Tuesday",
+        "month": "11",
+        "signature": {
+          "source": "NASA/JPL JD-Calendar Conversion API",
+          "version": "0.1"
+        },
+        "doy": 317,
+        "year": 1526,
+        "day_and_time": "13 12:00:00",
+        "cd": "1526-11-13 12:00:00"
+      }
+    }
+  ],
+  "print_check": {
+    "printed_page": 338,
+    "pdf_page": 346,
+    "date_phrase": "Montags nach Martini",
+    "editorial_footnote_day": 12,
+    "month": 11,
+    "year": 1526,
+    "reinspected_faces": 1,
+    "new_original_faces": 0
+  },
+  "assessment": {
+    "assumptions": [
+      "Martini means Martin of Tours on November11",
+      "date phrase and year are accurately transmitted",
+      "Julian civil calendar is the working model for1526"
+    ],
+    "conditional_date": "1526-11-12",
+    "conditional_date_calendar": "JULIAN",
+    "conditional_proleptic_gregorian": "1526-11-22",
+    "catalogue_date": "1526-11-13",
+    "catalogue_date_weekday_under_julian": "Tuesday",
+    "same_day_calendar_switch_explains_one_day_gap": false,
+    "calendar_arithmetic_resolved": true,
+    "manuscript_date_final": null,
+    "catalogue_error_proven": false,
+    "place_conflict_resolved": false,
+    "handwriting_collated": false,
+    "local_1526_liturgical_ordo_checked": false
+  },
+  "publication_gate": {
+    "merge": false,
+    "publish": false,
+    "deploy": false,
+    "main_changed": false,
+    "webapp_changed": false
+  },
+  "metrics": {
+    "calendar_dates_checked": 3,
+    "API_responses": 6,
+    "reinspected_print_faces": 1,
+    "new_original_faces": 0,
+    "core_essays": 10,
+    "core_sentences": 543
+  }
+}

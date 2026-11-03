@@ -1,0 +1,33 @@
+name: Atlas V253 petition calendar audit QA
+on:
+  push:
+    branches: ['research/**']
+    paths:
+      - 'data/deep/atlas_v253_petition_calendar_audit.json'
+      - 'docs/01_CONTENT/V253_PETITION_CALENDAR_AUDIT_REPORT.md'
+      - 'scripts/validate_atlas_v253.py'
+      - '.github/workflows/atlas-v253-calendar-qa.yml'
+  pull_request:
+    branches: ['research/**']
+    paths:
+      - 'data/deep/atlas_v253_petition_calendar_audit.json'
+      - 'docs/01_CONTENT/V253_PETITION_CALENDAR_AUDIT_REPORT.md'
+      - 'scripts/validate_atlas_v253.py'
+      - '.github/workflows/atlas-v253-calendar-qa.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Historical research V219 to V253 regression
+        run: |
+          set -e
+          for version in $(seq 219 253); do
+            python3 "scripts/validate_atlas_v${version}.py"
+          done
