@@ -17,7 +17,106 @@
     "expert_reviewed": false,
     "webapp_ingested": false
   },
-  "sources": [],
+  "sources": [
+    {
+      "id": "AK1519",
+      "url": "https://bakfj.saw-leipzig.de/doc/800",
+      "read_level": "DIRECT_FULL_1519_LATIN_CRITICAL_TRANSCRIPTION",
+      "evidence": "Acad. Leipzig BAKFJ Nr904, Spalatin Latin A vs German B, critical note, Cyprian1718 II p109-111 No15 from A",
+      "original_manuscript_folio_image_seen": false
+    },
+    {
+      "id": "AK1521",
+      "url": "https://bakfj.saw-leipzig.de/doc/677",
+      "read_level": "DIRECT_FULL_1521_GERMAN_CRITICAL_TRANSCRIPTION",
+      "evidence": "Acad. Leipzig BAKFJ Nr1298, Latin A / German B / German C; web reads B, Cyprian1718 II p238-240 No54 prints C",
+      "original_manuscript_folio_image_seen": false
+    },
+    {
+      "id": "GOTHA1525",
+      "url": "https://blog-fbg.uni-erfurt.de/2025/06/neue-zeitung-von-den-aufruehrischen-bauern-hin-und-her/",
+      "read_level": "DIRECT_FULL_GOTHA_2025_SCHOLARLY_TRANSCRIPTION",
+      "evidence": "Daniel Gehrt reproduces long German transcription of 12 Jul 1525 news, maps 3 original news reports to 1718 edition pp354–362",
+      "original_manuscript_folio_image_seen": false
+    },
+    {
+      "id": "PHOTO-JUNE2",
+      "url": "https://dhb.thulb.uni-jena.de/receive/ufb_cbu_00015493",
+      "read_level": "ORIGINAL_DIGITAL_OBJECT_LINK_NOT_RENDERED",
+      "evidence": "Gotha A338 f261r–262v, 2 June 1525 news letter",
+      "original_manuscript_folio_image_seen": false
+    },
+    {
+      "id": "PHOTO-JUNE18",
+      "url": "https://dhb.thulb.uni-jena.de/receive/ufb_cbu_00015494",
+      "read_level": "ORIGINAL_DIGITAL_OBJECT_LINK_NOT_RENDERED",
+      "evidence": "Gotha A338 f263r–264v, 18 Jun 1525 news bulletin",
+      "original_manuscript_folio_image_seen": false
+    },
+    {
+      "id": "PHOTO-JULY12",
+      "url": "https://dhb.thulb.uni-jena.de/receive/ufb_cbu_00015495",
+      "read_level": "ORIGINAL_DIGITAL_OBJECT_LINK_NOT_RENDERED",
+      "evidence": "Gotha A338 f265r–v, 12 Jul 1525 news bulletin",
+      "original_manuscript_folio_image_seen": false
+    },
+    {
+      "id": "CY1718-DIGI",
+      "url": "https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb11286923-2",
+      "read_level": "1718_PRINT_BOOK_OBJECT_TARGET_PAGES_NOT_READ",
+      "evidence": "Cyprian 1718 Part 2 primary-documents edition, MDZ BSB bsb11286923",
+      "original_manuscript_folio_image_seen": false
+    },
+    {
+      "id": "TENTZEL-MS",
+      "url": "https://kalliope-verbund.info/ead?ead.id=DE-611-HS-4323846",
+      "read_level": "MANUSCRIPT_METADATA_ONLY",
+      "evidence": "Gotha A648 Tentzel narrative MS 231 folios, first 4 chapters f1r–53r published 1717 pp1–352",
+      "original_manuscript_folio_image_seen": false
+    },
+    {
+      "id": "TENTZEL1717",
+      "url": "https://www.deutsche-digitale-bibliothek.de/item/2ORBL77FTRE4ESPIMMEDHQJDMFW27USC",
+      "read_level": "1717_PRINT_METADATA_ONLY",
+      "evidence": "Tentzel/Cyprian German narrative 1717 ULB Ung I B66, 531 numbered pp, NOT 1718 primary documents edition",
+      "original_manuscript_folio_image_seen": false
+    },
+    {
+      "id": "REVIEWS1718",
+      "url": "https://adw-goe.de/en/gjz18/database/?tx_find_find%5Bcontroller%5D=Search&tx_find_find%5Bfacet%5D%5BDruckort%5D%5B2918752%5D=1&tx_find_find%5Bfacet%5D%5BProjekt-Datenbank%5D%5Bgjz%5D=1",
+      "read_level": "CONTEMPORARY_REVIEW_CATALOGUE_ONLY",
+      "evidence": "1718 two reviews of Tentzel/Cyprian pp407-408 and pp178-183, reviews themselves not read",
+      "original_manuscript_folio_image_seen": false
+    },
+    {
+      "id": "ULB-MIGRATE",
+      "url": "https://bibliothek.uni-halle.de/sammeln-bewahren/digitalisierung/digitale-sammlungen/",
+      "read_level": "OFFICIAL_DIGITAL_MIGRATION_NOTICE_INDEX",
+      "evidence": "ULB Halle VD18 moved to opendata.uni-halle.de. Full view in web failed 502.",
+      "original_manuscript_folio_image_seen": false
+    },
+    {
+      "id": "SAW-1718",
+      "url": "https://bakfj.saw-leipzig.de/doc/800",
+      "read_level": "ACADEMY_1718_CYPRIAN_EDITION_PAGE_POINTER",
+      "evidence": "1519 A from 1718 II p109–111 No15",
+      "original_manuscript_folio_image_seen": false
+    },
+    {
+      "id": "SAW-1718-C",
+      "url": "https://bakfj.saw-leipzig.de/doc/677",
+      "read_level": "ACADEMY_1718_CYPRIAN_EDITION_PAGE_POINTER",
+      "evidence": "1521 German C from 1718 II p238–240 No54",
+      "original_manuscript_folio_image_seen": false
+    },
+    {
+      "id": "HIST-1718-SECOND",
+      "url": "https://search.worldcat.org/title/Wilhelm-Ernst-Tentzels-Historiographi-Saxonici-Historischer-Bericht-vom-Anfang-und-ersten-Fortgang-der-Reformation-Lutheri-Zur-Erlauterung-des-Hn.-v.-Seckendorff-Historie-des-Lutherthums-mit-grossem-Fleiss-erstattet-und-.-Nebst-einer-besondern-Vorrede-auch-nutzlichen-noch-niemahls-publicirten-Uhrkunden-und-nothigen-Registern-Theil-2-Der-Andere-Theil-Nutzlicher-Uhrkunden-Zur-Erlauterung-Der-ersten-Reformations-Geschichte-Und-Bestarckung-so-wohl-des-Herrn-von-Seckendorff-Historie-des-Lutherthums-als-Wilh.-Ernst-Tenzelii-Berichts-vom-Anfang-der-Reformation-:-Aus-denen-Originalien-ans-Licht-gestellet-von-D.-Ernst-Salomon-Cyprian-Consistorial-und-Kirchen-Rath-zu-Gotha/oclc/249265019",
+      "read_level": "1718_SECOND_VOLUME_BOOK_METADATA_ONLY",
+      "evidence": "1718 Cyprian documentary collection distinctly titled Der Andere Theil Nützlicher Uhrkunden, not lost manuscript chapters5-13",
+      "original_manuscript_folio_image_seen": false
+    }
+  ],
   "witnesses": [],
   "edition_links": [],
   "microreadings": [],
