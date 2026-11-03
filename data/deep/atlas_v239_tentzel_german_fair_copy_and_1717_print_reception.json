@@ -14,7 +14,99 @@
     "scholar_reviewed": false,
     "webapp_ingested": false
   },
-  "sources": [],
+  "sources": [
+    {
+      "id": "TENTZEL-MS",
+      "url": "https://kalliope-verbund.info/ead?ead.id=DE-611-HS-4323846",
+      "level": "OFFICIAL_MANUSCRIPT_CATALOGUE",
+      "note": "Gotha Chart A648 manuscript V+231 folios 1692-1707; 13 chapters 1517–1521, chapter14 title only; first four f1r–53r published 1717 pp1–352; catalogued Mar2026",
+      "original_manuscript_or_early_print_page_seen": false
+    },
+    {
+      "id": "TENTZEL-FIND",
+      "url": "https://kalliope-verbund.info/findingaid?fa.enum=5&fa.id=DE-611-BF-14665&lastparam=true",
+      "level": "OFFICIAL_FINDING_AID_SAME_WITNESS",
+      "note": "Second catalogue view for SAME Gotha A648 object, not another manuscript",
+      "original_manuscript_or_early_print_page_seen": false
+    },
+    {
+      "id": "1717-PRINT",
+      "url": "https://www.deutsche-digitale-bibliothek.de/item/2ORBL77FTRE4ESPIMMEDHQJDMFW27USC",
+      "level": "PUBLIC_DOMAIN_DIGITAL_EDITION_METADATA",
+      "note": "1717 Cyprian-edited Tentzel German print, ULB Sachsen-Anhalt Ung I B66 VD18 1042170X, 531 numbered pages plus 39+22 leaves, DOI 10.25673/61476, PDM1.0",
+      "original_manuscript_or_early_print_page_seen": false
+    },
+    {
+      "id": "1717-AUTOGRAPH-LINK",
+      "url": "https://kalliope.staatsbibliothek-berlin.de/ead?ead.id=DE-611-HS-3422337",
+      "level": "ARCHIVAL_PRIMARY_EVIDENCE_LINK",
+      "note": "Luther and Karlstadt 18 Aug 1519 original Gotha A379 7r/v, printed in Tentzel 1717 other impression pp406–407 according to catalog, original image unread",
+      "original_manuscript_or_early_print_page_seen": false
+    },
+    {
+      "id": "1688-ETON",
+      "url": "https://catalogue.etoncollege.com/B15845",
+      "level": "ACTUAL_LIBRARY_HOLDING_CATALOGUE",
+      "note": "1688 Gleditsch independent partial first book Latin 4to, shelf DDe.9.01, not 1692 bookII Jonas",
+      "original_manuscript_or_early_print_page_seen": false
+    },
+    {
+      "id": "1688-GOOGLE",
+      "url": "https://play.google.com/store/books/details/Veit_Ludwig_von_Seckendorff_Viti_Ludovici_a_Secken?id=DGcVfTptG5sC",
+      "level": "DIGITIZED_BOOK_METADATA_ONLY",
+      "note": "1688 first book Latin volume1 digital catalogue 464 pages, not read actual text",
+      "original_manuscript_or_early_print_page_seen": false
+    },
+    {
+      "id": "1688-IA",
+      "url": "https://commons.wikimedia.org/wiki/File:Viti_Ludovici_a_Seckendorf_..._Commentarius_historicus_et_apologeticus_de_Lutheranismo-_sive_De_..._(IA_vitiludoviciase00seckgoog).pdf",
+      "level": "PUBLIC_DOMAIN_SCAN_METADATA",
+      "note": "1688 Michigan Google/IA scanning, explicit note only Lib I included; 918 scanned digital pages cannot contain 1692 book II passage",
+      "original_manuscript_or_early_print_page_seen": false
+    },
+    {
+      "id": "GOTHA2024",
+      "url": "https://blog-fbg.uni-erfurt.de/2024/04/ein-wissenschaftliches-grossprojekt-in-laendlicher-abgeschiedenheit/",
+      "level": "INSTITUTIONAL_HISTORIOGRAPHY",
+      "note": "Daniel Gehrt 2024 states first book autumn1687; complete work autumn1691 with 1692 dated imprint",
+      "original_manuscript_or_early_print_page_seen": false
+    },
+    {
+      "id": "1692-BOOK",
+      "url": "https://www.digitale-sammlungen.de/view/bsb10716130",
+      "level": "1692_ORIGINAL_DIGITAL_OBJECT_UNREAD",
+      "note": "BSB MDZ bsb10716130 complete 1692 volume digitization but Marburg Jonas bookII p139 scan not accessed",
+      "original_manuscript_or_early_print_page_seen": false
+    },
+    {
+      "id": "1694-SECOND",
+      "url": "https://search.worldcat.org/title/Viti-Ludovici-a-Seckendorf-Commentarius-historicus-et-apologeticus-de-Lutheranismo-:-sive-de-reformatione-religionis-ductu-Martini-Lutheri-in-quo-ex-Ludovici-Maimburgii-Historia-Lutheranismi-anno-MDCLXXX-Parisiis-ed.libri-tres-exhibentur/oclc/177292823",
+      "level": "1694_CORRECTED_SECOND_EDITION_METADATA",
+      "note": "Lipsiae 1694 second corrected edition, not same object as 1692 first complete",
+      "original_manuscript_or_early_print_page_seen": false
+    },
+    {
+      "id": "1949-ARTICLE",
+      "url": "https://ctsfw.net/media/pdfs/CTMMiscellanea20-6.pdf",
+      "level": "1949_HISTORICAL_PDF_IMAGES_DIRECT",
+      "note": "A Plea for the Historia Lutheranismi pp446–447, web PDF screen zero-index 6 and7 actually seen; early book 1688, 1689 supplement, 1692 full, 1694 second near-same pages, Tentzel work noted",
+      "original_manuscript_or_early_print_page_seen": false
+    },
+    {
+      "id": "1690-PROPOSAL",
+      "url": "https://kalliope-verbund.info/de/ead?ead.id=DE-611-HS-4086066",
+      "level": "1690_SUBSCRIPTION_ORIGINAL_CATALOGUE",
+      "note": "1690-03-31 subscription proposal in Gotha, relates to completed book funding, not original 1692 body",
+      "original_manuscript_or_early_print_page_seen": false
+    },
+    {
+      "id": "1717-GOOGLE",
+      "url": "https://play.google.com/store/books/details/Wilhelm_Ernst_Tentzel_Wilhelm_Ernst_Tentzels_HISTO?id=5ydoAAAAcAAJ",
+      "level": "DIFFERENT_DIGITAL_1717_UNIT_METADATA",
+      "note": "1717 Tentzel ebook Google unit 86 pages; not substitutable for DDB 531pp physical edition without page matching",
+      "original_manuscript_or_early_print_page_seen": false
+    }
+  ],
   "physical_objects": [],
   "editorial_links": [],
   "reader_sections": [],
