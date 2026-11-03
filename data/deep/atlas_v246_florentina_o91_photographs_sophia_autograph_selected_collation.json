@@ -1,0 +1,856 @@
+{
+  "version": "2.46",
+  "status": "DRAFT",
+  "created_date": "2026-11-03",
+  "parent_commit": "81eb5bd007c3b7a454304ebe7fd4fcfe817641bf",
+  "baseline": "data/deep/atlas_v245_kawerau_print_florentina_title_and_gess_dependency.json",
+  "publication_gate": {
+    "webapp_publish": false,
+    "main_merge": false,
+    "external_historical_review": false,
+    "human_publication_approval": false,
+    "full_diplomatic_transcription_approved": false,
+    "O90_O91_pair_collation_complete": false,
+    "sophia_numeric_palaeography_approved": false
+  },
+  "preserved_files": [
+    {
+      "path": "data/deep/atlas_v219_structured_ten_reader_critical_editions.json",
+      "sha256": "0fea005d6592dbc976b46da1d1d9d6f217b4390a2708b304968648a64ad82efb"
+    },
+    {
+      "path": "data/deep/atlas_v245_kawerau_print_florentina_title_and_gess_dependency.json",
+      "sha256": "cf53a2759c4be9da5b0c4d9bdf59f2814c52c13db96b89f3272f3019171a0796"
+    }
+  ],
+  "sources": [
+    {
+      "id": "BSB-MANIFEST",
+      "url": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00027618/manifest",
+      "reading": "DIRECT_INSTITUTIONAL_METADATA",
+      "scope": "BSB bsb00027618, Res/H.mon.734 w, VD16 O91, Cranach und Döring1524,8 leaves;22 canvases; book proper5–20; PDM1.0."
+    },
+    {
+      "id": "BSB-VIEW",
+      "url": "https://www.digitale-sammlungen.de/de/view/bsb00027618?page=5",
+      "reading": "DIRECT_1524_PRINT_PHOTOGRAPHS",
+      "scope": "Title and12 body faces plus3 blank faces inspected via manifest images; selected text loci read; not full diplomatic transcription."
+    },
+    {
+      "id": "SOPHIA-RECORD",
+      "url": "https://dhb.thulb.uni-jena.de/receive/ufb_cbu_00015491",
+      "reading": "DIRECT_INSTITUTIONAL_RECORD_AND_1525_PHOTOS",
+      "scope": "Sophia Schaffstedt to Georg Spalatin, Halle1525-05-03, Chart.A338254r–256v; selected lexical/context reading; PDM1.0."
+    },
+    {
+      "id": "SOPHIA-METS",
+      "url": "https://dhb.thulb.uni-jena.de/servlets/MCRMETSServlet/ufb_derivate_00013977",
+      "reading": "DIRECT_PHYSICAL_ORDERLABEL_MAPPING",
+      "scope": "0525=254r;0526=254v;0527=255r;0528=255v;0529=256r;0530=256v. Copy0531–0542=257r–260bv."
+    },
+    {
+      "id": "SOPHIA-COPY",
+      "url": "https://dhb.thulb.uni-jena.de/receive/ufb_cbu_00015492",
+      "reading": "DIRECT_COPY_INVENTORY_AND_SELECTED_PHOTOS",
+      "scope": "Later derivative copy12 faces inventoried; selected259v/260r/260v enlarged. Not independent witness; no complete transcription or newly proven date."
+    },
+    {
+      "id": "GOTHA-2025",
+      "url": "https://blog-fbg.uni-erfurt.de/2025/04/dass-wir-nicht-fluechgen-noch-eyn-bosse-hertz-haben-kegen-vnsser-feynde/",
+      "reading": "INSTITUTIONAL_RESEARCH_CONTEXT",
+      "scope": "Daniel Gehrt identifies autograph and supplies selected readings; used as aid to photo reading, not approval of numeral paleography."
+    },
+    {
+      "id": "KAW-1881",
+      "url": "https://archive.org/download/zeitschriftdesha13harz/zeitschriftdesha13harz.pdf",
+      "reading": "INHERITED_V245_DIRECT_PRINT_READ",
+      "scope": "1881 p33414/16/17/5 retained as print readings, not promoted to approved autograph values."
+    },
+    {
+      "id": "WA15-1899",
+      "url": "https://www.lutherdansk.dk/WA%2015/WA%2015%20-%20Predigten%20und%20Schriften%201524.htm",
+      "reading": "DIRECT_EDITION_TRANSCRIPTION",
+      "scope": "Selected1524 photo versus WA15 pp86–94 transcription; physical1899 pp81–83 still unseen."
+    },
+    {
+      "id": "HAB-1524",
+      "url": "https://dev.hab.de/lutherkat/search.php?m1=jahr&st1=1524",
+      "reading": "INHERITED_CATALOGUE_VARIANTS",
+      "scope": "No new HAB or O90 copy photograph; BSB O91 is one different holding, not the entire O90/O91 pair."
+    },
+    {
+      "id": "EMORY-1524",
+      "url": "https://digital.pitts.emory.edu/s/paradise-lost/item/2691",
+      "reading": "INHERITED_V245_TITLE_ONLY",
+      "scope": "Different physical copy1524LUTH AA,A4B3,14 unnumbered pages; Emory body not newly seen."
+    }
+  ],
+  "retrieved_artifacts": [
+    {
+      "filename": "bsb27618_manifest.json",
+      "bytes": 26467,
+      "sha256": "d00c7495a6299476909be2505df48aac8c15d41c7b2f1723883119e0451ff8bf"
+    },
+    {
+      "filename": "sophia_mets.xml",
+      "bytes": 378905,
+      "sha256": "1daf400982cd3615e69ed40955f5469e0d739669838f5f1cb5a845026fdc9349"
+    },
+    {
+      "filename": "sophia_record.html",
+      "bytes": 53207,
+      "sha256": "e5e3c9100cff193043d36c95028f4296007cd0faf46dbc1af0b919bc5a8cef0e"
+    },
+    {
+      "filename": "bsb27618_05.jpg",
+      "bytes": 744188,
+      "sha256": "10645ecc6c9ce7aad3c11fe67b02bbfdfd84ae25dd30453916bf6fec52efaf09"
+    },
+    {
+      "filename": "bsb27618_06.jpg",
+      "bytes": 252111,
+      "sha256": "460526e8d3772db1f7706314d5c6fec8ca1b2eba7831294772f2934f5ec9b069"
+    },
+    {
+      "filename": "bsb27618_07.jpg",
+      "bytes": 501558,
+      "sha256": "d2394f6e91b07a3b53d01daa180885c46fd88a919dd97899183e6cb311964672"
+    },
+    {
+      "filename": "bsb27618_08.jpg",
+      "bytes": 539914,
+      "sha256": "25784e2fe2d7dde966321e2d70fb77f7a1a4ecf97defb1e9edd6f1019a179b8b"
+    },
+    {
+      "filename": "bsb27618_09.jpg",
+      "bytes": 549604,
+      "sha256": "94c0bd0df2eab2861ca1965a52e0855e23c02e1ff275babacecbb3fa7d31aafe"
+    },
+    {
+      "filename": "bsb27618_10.jpg",
+      "bytes": 506156,
+      "sha256": "fe03d8cd13eaa9d95157e11f4522ef5d81052fc44710c3308af071daf72e6f5c"
+    },
+    {
+      "filename": "bsb27618_11.jpg",
+      "bytes": 508692,
+      "sha256": "6e7680ca34833e873e935408e37a6b41a5929493d70c5a6a71dde5cf78ff2ae5"
+    },
+    {
+      "filename": "bsb27618_12.jpg",
+      "bytes": 512479,
+      "sha256": "eb09013440110a2ad52a6d7bb01fdf60cfd81023753f9da495c8e2a30a418fbf"
+    },
+    {
+      "filename": "bsb27618_13.jpg",
+      "bytes": 567729,
+      "sha256": "4b14c9efc26c05c9493bedeae073331f42e59765c299ca46bd87fef3c699f41b"
+    },
+    {
+      "filename": "bsb27618_14.jpg",
+      "bytes": 516729,
+      "sha256": "f45c19b1cfd4ff5b18c0f36fb62756deebbf495a1a5d47274e584800017f479c"
+    },
+    {
+      "filename": "bsb27618_15.jpg",
+      "bytes": 532230,
+      "sha256": "17feeefc8196f7841db378f3f30fa434e1664348d8d242c134955ee89c29fbb7"
+    },
+    {
+      "filename": "bsb27618_16.jpg",
+      "bytes": 524156,
+      "sha256": "6aedc08d8d20baceb58975cd62eed32f8058e3f7971540be4eb096db8dfb6a7f"
+    },
+    {
+      "filename": "bsb27618_17.jpg",
+      "bytes": 561030,
+      "sha256": "5b36f52f9a2ed9091b761e70bc421c82cbb19b2181ed9ae79cba287010a05b73"
+    },
+    {
+      "filename": "bsb27618_18.jpg",
+      "bytes": 411437,
+      "sha256": "1fbd03949bcc329189a27ab09b69b651dc11e593a32a879bc84456afa6497d0b"
+    },
+    {
+      "filename": "bsb27618_19.jpg",
+      "bytes": 263490,
+      "sha256": "aa7bba5cbf38fa05c4c2fbbfb00e52fca6793e3c5602db76e6ea21302aa64876"
+    },
+    {
+      "filename": "bsb27618_20.jpg",
+      "bytes": 405651,
+      "sha256": "f411cf3d1a85193c4eff1fefacbf003c5a9178739f9a9a07afbad066917dfe6d"
+    },
+    {
+      "filename": "sophia525_2600.jpg",
+      "bytes": 672521,
+      "sha256": "ad56deca0f30c31b64e0bb218ae47dc344870e5ae776650950c8c96649013058"
+    },
+    {
+      "filename": "sophia526_2600.jpg",
+      "bytes": 636993,
+      "sha256": "59b8aea06665d7da32164f6a089e3456cf1f610b01c439405db76e117397558c"
+    },
+    {
+      "filename": "sophia527_2600.jpg",
+      "bytes": 637752,
+      "sha256": "aca149003095a270440f24c3bb73f3bf3cf39bdee454e31284b048496ad41176"
+    },
+    {
+      "filename": "sophia528_2600.jpg",
+      "bytes": 669329,
+      "sha256": "3c786124e8aaec9726ea8a7ccdb38d6c40809f9c532d66fa7968edbfe20a4bcd"
+    },
+    {
+      "filename": "sophia529_2600.jpg",
+      "bytes": 598935,
+      "sha256": "723c55ac7ed29b463ac86bc9a8af9bcb8c89eaed6b69f35862abc26c129c0e97"
+    },
+    {
+      "filename": "sophia530_2600.jpg",
+      "bytes": 449696,
+      "sha256": "ce4bdea69c77046a3b0ab7ddd219b9fe2fbfd771c57523d49616a5dfa6aa194d"
+    },
+    {
+      "filename": "sophia_copy531.jpg",
+      "bytes": 363634,
+      "sha256": "a36dc0e93899baea416a05962d672a4210b0f90ca06972f965bc06045fb8a00d"
+    },
+    {
+      "filename": "sophia_copy532.jpg",
+      "bytes": 426468,
+      "sha256": "6e95d9dd91fcdc8869642ef9a6afa1e290b7b3fdfe511c30b7a565dc1ce72f28"
+    },
+    {
+      "filename": "sophia_copy533.jpg",
+      "bytes": 494336,
+      "sha256": "1dbf2665a3a58eef17aeab8969e3363a20bd7b91f38e733996a1a3a8659b98f4"
+    },
+    {
+      "filename": "sophia_copy534.jpg",
+      "bytes": 496222,
+      "sha256": "ea34f11a6e20e1781f9e1e6791da07f9c7abde2b1479132dc23786f649c31c07"
+    },
+    {
+      "filename": "sophia_copy535.jpg",
+      "bytes": 485100,
+      "sha256": "beba71974508515f9f0768fb95d1e3e47ad4f735fda6227eaf2d804f01c40e61"
+    },
+    {
+      "filename": "sophia_copy536.jpg",
+      "bytes": 498905,
+      "sha256": "acb1cbdb9c96a1dad8969f5eacc750e5c770639b7051b6eed24422eab89b05a2"
+    },
+    {
+      "filename": "sophia_copy537.jpg",
+      "bytes": 478750,
+      "sha256": "ed04108dbaba83218b5e3014a310b5fbd99987bab8678acad90ba1cc3326cf2d"
+    },
+    {
+      "filename": "sophia_copy538.jpg",
+      "bytes": 463331,
+      "sha256": "4523aa85be4251fb49649d82461fbc1a0efbbaf727cfa4e4493cb381e46eec77"
+    },
+    {
+      "filename": "sophia_copy539.jpg",
+      "bytes": 270625,
+      "sha256": "cee96462368500aeb1dee6a8adcbe38baaa56d322b9b3e75e788cb572798e771"
+    },
+    {
+      "filename": "sophia_copy540.jpg",
+      "bytes": 266177,
+      "sha256": "2971cf367f6ea526764ff035b55dfae615c686164145fac608bd12064aeb7d94"
+    },
+    {
+      "filename": "sophia_copy541.jpg",
+      "bytes": 260116,
+      "sha256": "92c2067fedf067d4170862166ca5fc19bc29c762dc82cb7716a3487603aa9cf3"
+    },
+    {
+      "filename": "sophia_copy542.jpg",
+      "bytes": 286364,
+      "sha256": "227e697050700f4462355cdaf5287036387fb19c1c231ca019e261200f262919"
+    },
+    {
+      "filename": "sophia528_full.jpg",
+      "bytes": 2684822,
+      "sha256": "161c4caa89cb45bcef9dc3d42a1e188567b04062f5733a6827f2db186242ca33"
+    },
+    {
+      "filename": "sophia_copy537_full.jpg",
+      "bytes": 3033794,
+      "sha256": "6df6af0e5efe956d05513d14b0c125c5eb3d73967a8598ffac9c894414a68e23"
+    }
+  ],
+  "sophia_folio_map": [
+    {
+      "scan": 525,
+      "folio": "254r",
+      "urn": "urn:nbn:de:urmel-ufb-139771-8-5259"
+    },
+    {
+      "scan": 526,
+      "folio": "254v",
+      "urn": "urn:nbn:de:urmel-ufb-139771-8-5264"
+    },
+    {
+      "scan": 527,
+      "folio": "255r",
+      "urn": "urn:nbn:de:urmel-ufb-139771-8-5278"
+    },
+    {
+      "scan": 528,
+      "folio": "255v",
+      "urn": "urn:nbn:de:urmel-ufb-139771-8-5288"
+    },
+    {
+      "scan": 529,
+      "folio": "256r",
+      "urn": "urn:nbn:de:urmel-ufb-139771-8-5298"
+    },
+    {
+      "scan": 530,
+      "folio": "256v",
+      "urn": "urn:nbn:de:urmel-ufb-139771-8-5305"
+    },
+    {
+      "scan": 531,
+      "folio": "257r",
+      "urn": "urn:nbn:de:urmel-ufb-139771-8-5311"
+    },
+    {
+      "scan": 532,
+      "folio": "257v",
+      "urn": "urn:nbn:de:urmel-ufb-139771-8-5329"
+    },
+    {
+      "scan": 533,
+      "folio": "258r",
+      "urn": "urn:nbn:de:urmel-ufb-139771-8-5334"
+    },
+    {
+      "scan": 534,
+      "folio": "258v",
+      "urn": "urn:nbn:de:urmel-ufb-139771-8-5346"
+    },
+    {
+      "scan": 535,
+      "folio": "259r",
+      "urn": "urn:nbn:de:urmel-ufb-139771-8-5358"
+    },
+    {
+      "scan": 536,
+      "folio": "259v",
+      "urn": "urn:nbn:de:urmel-ufb-139771-8-5362"
+    },
+    {
+      "scan": 537,
+      "folio": "260r",
+      "urn": "urn:nbn:de:urmel-ufb-139771-8-5375"
+    },
+    {
+      "scan": 538,
+      "folio": "260v",
+      "urn": "urn:nbn:de:urmel-ufb-139771-8-5384"
+    },
+    {
+      "scan": 539,
+      "folio": "260ar",
+      "urn": "urn:nbn:de:urmel-ufb-139771-8-5394"
+    },
+    {
+      "scan": 540,
+      "folio": "260av",
+      "urn": "urn:nbn:de:urmel-ufb-139771-8-5401"
+    },
+    {
+      "scan": 541,
+      "folio": "260br",
+      "urn": "urn:nbn:de:urmel-ufb-139771-8-5419"
+    },
+    {
+      "scan": 542,
+      "folio": "260bv",
+      "urn": "urn:nbn:de:urmel-ufb-139771-8-5428"
+    }
+  ],
+  "sophia_original_faces": [
+    {
+      "scan": 525,
+      "folio": "254r",
+      "role": "MAIN_TEXT",
+      "review": "SELECTED_LEXICAL_READ",
+      "note": "Letter opening and non-cursing passage; later pale heading distinguished."
+    },
+    {
+      "scan": 526,
+      "folio": "254v",
+      "role": "MAIN_TEXT",
+      "review": "CONTEXT_READ",
+      "note": "Continuation of warning and official-related account; not254r."
+    },
+    {
+      "scan": 527,
+      "folio": "255r",
+      "role": "MAIN_TEXT",
+      "review": "SELECTED_LEXICAL_READ",
+      "note": "Brotherly-love irony and fleeing to Allstedt passage."
+    },
+    {
+      "scan": 528,
+      "folio": "255v",
+      "role": "MAIN_TEXT",
+      "review": "SELECTED_READ_NUMERALS_PENDING",
+      "note": "Keys, Halle, dependants, money and clothing; final numeral decipherment pending."
+    },
+    {
+      "scan": 529,
+      "folio": "256r",
+      "role": "MAIN_TEXT_END",
+      "review": "CONTEXT_AND_ENDING_READ",
+      "note": "Appeal, ending and name/location; no new full diplomatic transcription."
+    },
+    {
+      "scan": 530,
+      "folio": "256v",
+      "role": "VERSO_NOTES",
+      "review": "SURFACE_INSPECTION",
+      "note": "Mostly empty, inverted notes below. Note author/date/reading not established; not sixth main-text page."
+    }
+  ],
+  "sophia_copy": {
+    "scan_range": [
+      531,
+      542
+    ],
+    "folios": "257r–260bv",
+    "inventory_faces": 12,
+    "written_faces_in_contact": 8,
+    "blank_extension_faces_in_contact": 4,
+    "detailed_scans": [
+      536,
+      537,
+      538
+    ],
+    "detailed_folios": [
+      "259v",
+      "260r",
+      "260v"
+    ],
+    "full_collation_complete": false,
+    "independent_witness": false,
+    "new_copy_date_proven": false,
+    "record_document_date": "1525-05-03",
+    "record_document_date_is_proven_copy_execution_date": false
+  },
+  "sophia_comparisons": [
+    {
+      "id": "S01",
+      "folio": "254r",
+      "scan": 525,
+      "print_page": 331,
+      "lemma": "flüchgen",
+      "sense": "CURSE_NOT_FLEE",
+      "result": "SELECTED_LEXICAL_SENSE_CONFIRMED_WITH_INSTITUTIONAL_TRANSCRIPTION_AID"
+    },
+    {
+      "id": "S02",
+      "folio": "255r",
+      "scan": 527,
+      "print_page": 333,
+      "lemma": "flygen",
+      "sense": "FLEE_PHYSICAL_DANGER",
+      "result": "SELECTED_LEXICAL_SENSE_CONFIRMED_WITH_INSTITUTIONAL_TRANSCRIPTION_AID"
+    },
+    {
+      "id": "S03",
+      "folio": "255v",
+      "scan": 528,
+      "copy_scan": 537,
+      "print_page": 334,
+      "lemma": null,
+      "sense": "SELF_PRESENTATION_AND_SCARCE_CLOTHING",
+      "result": "CONTEXT_ALIGNED_NO_FULL_SPELLING_TRANSCRIPTION"
+    }
+  ],
+  "numeric_review": {
+    "autograph_scan": 528,
+    "autograph_folio": "255v",
+    "copy_scan": 537,
+    "copy_folio": "260r",
+    "print_page": 334,
+    "targets": [
+      {
+        "id": "N14",
+        "print_value": 14,
+        "role": "PLACED_WITH_RELATIVES",
+        "autograph_final_value": null,
+        "copy_final_value": null
+      },
+      {
+        "id": "N16",
+        "print_value": 16,
+        "role": "REMAINING_WITH_SOPHIA",
+        "autograph_final_value": null,
+        "copy_final_value": null
+      },
+      {
+        "id": "N17",
+        "print_value": 17,
+        "role": "MOUTHS_TO_FEED",
+        "autograph_final_value": null,
+        "copy_final_value": null
+      },
+      {
+        "id": "N5",
+        "print_value": 5,
+        "role": "GULDEN_AVAILABLE",
+        "autograph_final_value": null,
+        "copy_final_value": null
+      }
+    ],
+    "status": "LOCALIZED_IMAGES_ACQUIRED_PALAEOGRAPHIC_REVIEW_PENDING",
+    "modern_summary_count": 16,
+    "print_emended": false,
+    "new_numeric_variant_declared": false,
+    "seventeen_includes_sophia": "PLAUSIBLE_INTERPRETATION_NOT_EXPLICIT_PROOF",
+    "palaeography_approved": false,
+    "note_ko": "원본·사본의 작은 획·점·삽입을 확대해 보았으나 인쇄본14·16·17을 사진에 강제로 대입하지 않는다. 접근 성공과 수치 교감 완료를 분리한다."
+  },
+  "florentina": {
+    "digital_object": "bsb00027618",
+    "shelfmark": "Res/H.mon. 734 w",
+    "bibliographic_id": "BV009122474",
+    "vd16": "O91",
+    "vd16_basis": "INSTITUTIONAL_MANIFEST_NOT_TITLE_ONLY_GUESS",
+    "printer_catalogued": "Cranach und Döring",
+    "year": 1524,
+    "manifest_canvases": 22,
+    "book_canvases": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "title_canvases": [
+      5
+    ],
+    "body_canvases": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "blank_canvases": [
+      6,
+      19,
+      20
+    ],
+    "luther_cover_canvases": [
+      7,
+      8,
+      9,
+      10
+    ],
+    "florentina_body_canvases": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "luther_postscript_canvas": 18,
+    "all_text_diplomatically_transcribed": false,
+    "all_letters_individually_verified": false,
+    "O90_counterpart_faces_seen": 0,
+    "O90_O91_pair_complete": false,
+    "emory_body_faces_newly_seen": 0,
+    "same_physical_copy_as_emory": false,
+    "folio_map": [
+      {
+        "canvas": 5,
+        "folio": "A1r",
+        "basis": "TITLE_AND_GATHERING"
+      },
+      {
+        "canvas": 7,
+        "folio": "A2r",
+        "basis": "PRINTED_SIGNATURE"
+      },
+      {
+        "canvas": 9,
+        "folio": "A3r",
+        "basis": "PRINTED_SIGNATURE"
+      },
+      {
+        "canvas": 11,
+        "folio": "A4r",
+        "basis": "INFERRED_FROM_SIGNED_A3_AND_B1_NEIGHBOURS"
+      },
+      {
+        "canvas": 13,
+        "folio": "B1r",
+        "basis": "PRINTED_SIGNATURE"
+      },
+      {
+        "canvas": 15,
+        "folio": "B2r",
+        "basis": "PRINTED_SIGNATURE"
+      },
+      {
+        "canvas": 17,
+        "folio": "B3r",
+        "basis": "PRINTED_SIGNATURE"
+      },
+      {
+        "canvas": 18,
+        "folio": "B3v",
+        "basis": "VERSO_OF_SIGNED_B3"
+      },
+      {
+        "canvas": 19,
+        "folio": "B4r",
+        "basis": "SEQUENCE_AND_CATALOGUED_BLANK_LAST_LEAF"
+      },
+      {
+        "canvas": 20,
+        "folio": "B4v",
+        "basis": "SEQUENCE_AND_CATALOGUED_BLANK_LAST_LEAF"
+      }
+    ]
+  },
+  "florentina_collations": [
+    {
+      "id": "F01",
+      "canvas": 5,
+      "folio": "A1r",
+      "wa": "81",
+      "observed": "geschicht",
+      "finding": "CORRECTED_TITLE_READING",
+      "scope": "THIS_BSB_COPY_ONLY"
+    },
+    {
+      "id": "F02",
+      "canvas": 9,
+      "folio": "A3r",
+      "wa": "81",
+      "observed": null,
+      "finding": "PUNCTUATION_STROKE_PRESENT_AFTER_IST_NOT_FULL_PRESS_STATE_CLASSIFICATION",
+      "scope": "THIS_BSB_COPY_ONLY"
+    },
+    {
+      "id": "F03",
+      "canvas": 11,
+      "folio": "A4r",
+      "wa": "81,89",
+      "observed": "klosters",
+      "finding": "REPORTED_CORRECTED_READING",
+      "scope": "THIS_BSB_COPY_ONLY"
+    },
+    {
+      "id": "F04",
+      "canvas": 11,
+      "folio": "A4r",
+      "wa": "81,89",
+      "observed": "schrifftlich",
+      "finding": "REPORTED_CORRECTED_READING",
+      "scope": "THIS_BSB_COPY_ONLY"
+    },
+    {
+      "id": "F05",
+      "canvas": 17,
+      "folio": "B3r",
+      "wa": "93",
+      "observed": "vi. gulden vnd zween sylbern ringe",
+      "finding": "MONEY_AND_RINGS_ADMISSION_PRESENT_IN_1524_PRINT",
+      "scope": "AUTHOR_SELF_REPORT_NOT_INDEPENDENT_PROPERTY_RECORD"
+    },
+    {
+      "id": "F06",
+      "canvas": 17,
+      "folio": "B3r",
+      "wa": "93",
+      "observed": "widderkriegen",
+      "finding": "CONVENT_RECOVERY_REPORTED_IN_SAME_PASSAGE",
+      "scope": "AUTHOR_SELF_REPORT_NOT_INDEPENDENT_RECEIPT"
+    },
+    {
+      "id": "F07",
+      "canvas": 18,
+      "folio": "B3v",
+      "wa": "94",
+      "observed": null,
+      "finding": "FINAL_EXIT_CLOTHING_SEPARATE_FROM_EARLIER_MONEY_ATTEMPT",
+      "scope": "AUTHOR_SELF_REPORT_NOT_INDEPENDENT_PROPERTY_RECORD"
+    },
+    {
+      "id": "F08",
+      "canvas": 18,
+      "folio": "B3v",
+      "wa": "94",
+      "observed": "Martinus Luther",
+      "finding": "SEPARATE_POSTSCRIPT_HEADING",
+      "scope": "LUTHER_EDITORIAL_VOICE_NOT_FLORENTINA"
+    },
+    {
+      "id": "F09",
+      "canvas": 17,
+      "folio": "B3r",
+      "wa": "82–83,93",
+      "observed": "Jhesus",
+      "finding": "MARGINAL_NOTE_STARTS_WITH_JHESUS_NO_PRECEDING_EY_ON_THIS_COPY",
+      "scope": "NOT_ALL_O91_OR_ALL_1524_PRINTS"
+    }
+  ],
+  "inference_guards": {
+    "photo_confirmation_not_independent_event_corroboration": true,
+    "money_return_receipt_found": false,
+    "convent_countertestimony_found": false,
+    "original_copy_print_all_independent": false,
+    "all_sophia_numerals_finally_deciphered": false,
+    "all_1524_editions_collated": false,
+    "wa1899_apparatus_photos_seen": false,
+    "wa_Aa_Ab_inconsistency_resolved": false,
+    "copy_inventory_equals_full_transcription": false,
+    "verso256v_equals_main_body_page": false,
+    "new_1526_manuscript_faces": 0
+  },
+  "rights": {
+    "BSB_manifest_license": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "Gotha_original_record_license": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "open_access_equals_historical_publication_approval": false,
+    "image_binaries_added_to_repository": false,
+    "emory_prior_rights_conflict_resolved": false
+  },
+  "reader_sections": [
+    {
+      "id": "R01",
+      "title": "편집 전사에서 실제 인쇄면으로",
+      "sources": [
+        "BSB-MANIFEST",
+        "BSB-VIEW",
+        "WA15-1899"
+      ],
+      "body": "이제1524년 인쇄면에서 돈과 반지에 관한 대목의 배치와 표기를 직접 확인할 수 있다. 그것은 새로운 독립 증인이 생겼다는 뜻은 아니다. 달라진 것은 사건의 증언 수가 아니라 우리가 증언의 오래된 매체를 확인한 범위이다.1899년 학술판의 전사를 읽은 단계와 실제 인쇄물의 사진을 본 단계를 별도로 기록해야 이 차이가 남는다."
+    },
+    {
+      "id": "R02",
+      "title": "소장본의 판본은 서지와 판면을 함께 본다",
+      "sources": [
+        "BSB-MANIFEST",
+        "HAB-1524"
+      ],
+      "body": "이번 책을 O91이라 부르는 근거는 도서관의 서지 식별이다. 수정된 제목만으로 번호를 추측한 것이 아니다. 이 소장본에서는 본문의 두 낱말도 수정된 형태로 보인다. 그러나 O91로 묶인 모든 책이 같은 상태라고 일반화할 수 없다. 인쇄 과정의 수정과 실제 장엽의 조합은 소장본마다 다시 확인해야 한다."
+    },
+    {
+      "id": "R03",
+      "title": "불리한 고백과 자기변호가 한 면에 있다",
+      "sources": [
+        "BSB-VIEW"
+      ],
+      "body": "플로렌티나는 이전 시도에서 돈과 반지를 가져갔다고 인정하면서 수도원이 그것을 되찾았다고 설명한다. 한 면에 두 내용이 함께 있으므로 고백만 떼어 혐의를 확정하거나 반환 주장만 떼어 모든 의혹이 해소되었다고 할 수 없다. 먼저 당사자가 무엇을 인정하고 무엇을 반박하는지 구분한 뒤 독립된 재산 기록을 찾아야 한다."
+    },
+    {
+      "id": "R04",
+      "title": "마지막 탈출의 물건을 따로 묻는다",
+      "sources": [
+        "BSB-VIEW"
+      ],
+      "body": "다음 면은 마지막 탈출 때 가져온 옷과 몸을 가릴 물건을 말한다. 그 앞의 돈과 반지 대목과 시점이 다르다. 책에서 가까이 놓였다는 이유로 하나의 탈출 장면에 모두 집어넣으면 원문이 구분한 사건을 합치게 된다. 역사 장면을 만들 때에도 어떤 물건이 어느 시도의 진술에 속하는지 먼저 고정해야 한다."
+    },
+    {
+      "id": "R05",
+      "title": "여성의 본문과 루터의 옆말",
+      "sources": [
+        "BSB-VIEW",
+        "WA15-1899"
+      ],
+      "body": "소책자에는 서문과 본문뿐 아니라 여백의 비판과 마지막 루터의 이름 아래 결어가 있다. 인쇄면을 보면 편집이 독자의 시선을 이끄는 방식이 드러난다. 여백의 글을 여성 저자의 발언으로 옮기거나 결어의 격렬한 제도 비판을 그의 경험 서술과 합쳐서는 안 된다. 각 문장의 집필 과정까지 사진 한 장으로 모두 확정한 것도 아니다."
+    },
+    {
+      "id": "R06",
+      "title": "한 엽의 앞뒤를 바르게 연결한다",
+      "sources": [
+        "SOPHIA-METS",
+        "SOPHIA-RECORD"
+      ],
+      "body": "소피아 편지의 스캔0526은254엽 앞면이 아니라 뒷면이다. 파일 번호와 엽수는 서로 다른 체계다. 저주를 거부하는 대목과 피난 대목, 생계 대목의 위치를 연결하려면 그 대응부터 확인해야 한다. 정확한 위치 정보는 다음 연구자가 같은 구절을 다시 찾고 우리의 해석을 검토할 수 있게 하는 기반이다."
+    },
+    {
+      "id": "R07",
+      "title": "원본 접근과 난필 판독의 완료는 다르다",
+      "sources": [
+        "SOPHIA-RECORD",
+        "SOPHIA-COPY",
+        "KAW-1881"
+      ],
+      "body": "원본과 후대 사본의 생계 구절을 확대해 볼 수 있게 되었지만 숫자를 이루는 작은 획과 점은 여전히 주의가 필요하다. 인쇄문에14명과16명과17명이 있다는 사실은 보존한다. 그 값을 사진 속 획에 미리 대입해 모두 확인했다고 보고하지 않는다. 접근 성공과 최종 판독 승인을 분리해야 향후의 교감과 정정이 가능하다."
+    },
+    {
+      "id": "R08",
+      "title": "공백면과 사본도 전승의 일부다",
+      "sources": [
+        "BSB-MANIFEST",
+        "SOPHIA-METS",
+        "SOPHIA-COPY"
+      ],
+      "body": "소책자의 공백 장엽과 편지 뒷면의 메모, 사본에 뒤따르는 공백은 모두 같은 종류의 본문이 아니다. 이미지 수가 많다고 독립된 문장이 그만큼 늘어나지도 않는다. 본문·표제·공백·후대 메모를 나누면14면과16면이라는 분량 차이를 이해할 단서가 생기고, 사본을 독립된 증언으로 오해하는 일도 줄어든다."
+    }
+  ],
+  "open_issues": [
+    "Palaeographic approval of exact numeral strokes at original255v/copy260r before declaring agreement or a new14/16/17 variant.",
+    "Full original/copy/1881 diplomatic collation beyond selected passages.",
+    "Actual O90 counterpart and selected HAB O91 photographs; one BSB O91 copy is not an O90/O91 pair.",
+    "Physical WA15 p81–83 versus online Aa/Ab inconsistency.",
+    "Full Emory body and blank gathering before assigning same press state as BSB.",
+    "Current identification of1526 GothaA.123f19 and independent restitution/imperial receiving evidence.",
+    "Author/date/reading of inverted notes on256v; no new facts assigned."
+  ],
+  "metrics": {
+    "source_records": 10,
+    "retrieved_artifacts": 39,
+    "bsb_manifest_canvases": 22,
+    "new_1524_book_faces": 16,
+    "new_1524_title_faces": 1,
+    "new_1524_body_faces": 12,
+    "new_1524_blank_faces": 3,
+    "new_1525_autograph_faces": 6,
+    "new_1525_main_text_faces": 5,
+    "new_1525_verso_notes_faces": 1,
+    "copy_inventory_faces": 12,
+    "copy_detailed_faces": 3,
+    "sophia_comparisons": 3,
+    "numeric_targets_pending": 4,
+    "florentina_loci": 9,
+    "new_1526_original_faces": 0,
+    "new_O90_O91_pairs": 0,
+    "new_approved_numeric_readings": 0,
+    "reader_sections": 8,
+    "old_core_essays": 10,
+    "old_core_search_sentences": 543,
+    "published_web_items": 0
+  }
+}
