@@ -1,0 +1,33 @@
+name: Atlas V249 B-sheet selected state matrix QA
+on:
+  push:
+    branches: ['research/**']
+    paths:
+      - 'data/deep/atlas_v249_b_sheet_selected_state_matrix.json'
+      - 'docs/01_CONTENT/V249_B_SHEET_SELECTED_STATE_MATRIX_REPORT.md'
+      - 'scripts/validate_atlas_v249.py'
+      - '.github/workflows/atlas-v249-b-sheet-matrix-qa.yml'
+  pull_request:
+    branches: ['research/**']
+    paths:
+      - 'data/deep/atlas_v249_b_sheet_selected_state_matrix.json'
+      - 'docs/01_CONTENT/V249_B_SHEET_SELECTED_STATE_MATRIX_REPORT.md'
+      - 'scripts/validate_atlas_v249.py'
+      - '.github/workflows/atlas-v249-b-sheet-matrix-qa.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Historical research V219 to V249 regression
+        run: |
+          set -e
+          for version in $(seq 219 249); do
+            python3 "scripts/validate_atlas_v${version}.py"
+          done
