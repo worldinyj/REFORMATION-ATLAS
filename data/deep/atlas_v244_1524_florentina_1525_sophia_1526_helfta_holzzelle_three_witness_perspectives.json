@@ -121,6 +121,20 @@
       "reading_level": "OFFICIAL_1524_REPRINT_IMPRINT_RECORDS",
       "description": "HAB 1222 Augsburg Ulhart VD16 O85, 1223 Nürnberg Peypus and regional bibliographic variants; six printings in 1524 per specialist biography",
       "original_1524_1525_1526_page_folio_directly_seen": false
+    },
+    {
+      "id": "WA15-1899-HTML",
+      "url": "https://www.lutherdansk.dk/WA%2015/WA%2015%20-%20Predigten%20und%20Schriften%201524.htm",
+      "reading_level": "DIRECT_1524_EARLY_GERMAN_PRIMARY_LANGUAGE_TEXT_IN_1899_SCHOLARLY_EDITION_TRANSCRIPTION",
+      "description": "Weimar edition 1899 WA15 pp86–94: Luther's 1524 covering letter and Florentina's narrative distinguishable; editorial variants A–F; Florentina's own admission prior attempt 6 gulden and two silver rings returned, final exit with clothing/veils; original 1524 page images not read",
+      "original_1524_1525_1526_page_folio_directly_seen": false
+    },
+    {
+      "id": "OEF2019-ESV-PUBLISHER",
+      "url": "https://www.esv.info/download/media/9783503187232/978-3-503-18723-2_Mechthild-Fliessendes-Licht-im-Kontext.pdf",
+      "reading_level": "DIRECT_2019_OPEN_ACCESS_SCHOLARLY_TEXT_PP58_60_NOT_HISTORIC_PRIMARY_PAGE",
+      "description": "Oefelein 2019 pp58–60: Nov12 1526 Helfta/Holzzelle abbesses joint complaint Kawerau pp335–338; actual emperor receipt doubtful. 1529 Katharina reconstruction plea, 1534 Anna permission for mass, 1542 Walburga Lutheran service issue. PDF page screenshots timed out, text extraction read. CC BY-NC-ND.",
+      "original_1524_1525_1526_page_folio_directly_seen": false
     }
   ],
   "voices": [
@@ -563,7 +577,7 @@
     "Protect publication rights: Emory digital photos vs public-domain 1524 text, Oxford CC BY-SA, 2019 book CC BY-NC-ND"
   ],
   "metrics": {
-    "sources": 15,
+    "sources": 17,
     "three_perspectives": 3,
     "distinct_monastic_communities": 3,
     "old_print_witnesses": 5,
@@ -577,6 +591,101 @@
     "full_1526_petition_old_print_pages_directly_seen": 0,
     "prior_1529_k_photographed_faces": 2,
     "prior_1529_zwingli_dialogue_pages": 4,
-    "webapp_publications": 0
+    "webapp_publications": 0,
+    "direct_1524_primary_language_microreadings_from_1899_edition": 8
+  },
+  "critical_direct_edition_findings": [
+    {
+      "id": "H1",
+      "wa_page": "86–88",
+      "voice": "MARTIN_LUTHER_SEND_BRIEF",
+      "original_excerpt": "Gott will nicht gezwungen dienst haben",
+      "interpretation_ko": "강제된 수도 서원을 논박하는 루터 자신의 일반 신학 명제",
+      "source_id": "WA15-1899-HTML",
+      "read_from_1899_primary_language_edition": true,
+      "original_1524_page_image_seen": false
+    },
+    {
+      "id": "H2",
+      "wa_page": "89",
+      "voice": "FLORENTINA_SELF_DEFENCE",
+      "original_excerpt": "meyne ehre und gueten namen",
+      "interpretation_ko": "탈출 후 명예훼손 의혹에 맞서 명예를 지키려는 저술 동기",
+      "source_id": "WA15-1899-HTML",
+      "read_from_1899_primary_language_edition": true,
+      "original_1524_page_image_seen": false
+    },
+    {
+      "id": "H3",
+      "wa_page": "90",
+      "voice": "FLORENTINA_NOVITIATE",
+      "original_excerpt": "Ecce lex sub qua militare vis",
+      "interpretation_ko": "수련·서원의 자유로운 선택 절차를 제대로 허용받지 못했다고 주장",
+      "source_id": "WA15-1899-HTML",
+      "read_from_1899_primary_language_edition": true,
+      "original_1524_page_image_seen": false
+    },
+    {
+      "id": "H4",
+      "wa_page": "91",
+      "voice": "FLORENTINA_FOUR_WEEK_CONFINEMENT",
+      "original_excerpt": "iiij wochen",
+      "interpretation_ko": "약 4주 감금됐다는 자기 경험 진술, 외부 장부 검증은 없음",
+      "source_id": "WA15-1899-HTML",
+      "read_from_1899_primary_language_edition": true,
+      "original_1524_page_image_seen": false
+    },
+    {
+      "id": "H5",
+      "wa_page": "93",
+      "voice": "FLORENTINA_ADMITS_TEMPORARY_TAKING",
+      "original_excerpt": "vi. gulden und zween sylbern ringe",
+      "interpretation_ko": "이전 탈출 시도 때 6굴덴과 은반지 두 개를 가져간 사실을 스스로 인정함",
+      "source_id": "WA15-1899-HTML",
+      "read_from_1899_primary_language_edition": true,
+      "original_1524_page_image_seen": false
+    },
+    {
+      "id": "H6",
+      "wa_page": "93",
+      "voice": "FLORENTINA_REPORTS_RESTITUTION",
+      "original_excerpt": "widderkriegen",
+      "interpretation_ko": "그 돈과 반지는 감금·독방 수색 때 수도원이 되돌려 받았다는 본인 진술",
+      "source_id": "WA15-1899-HTML",
+      "read_from_1899_primary_language_edition": true,
+      "original_1524_page_image_seen": false
+    },
+    {
+      "id": "H7",
+      "wa_page": "94",
+      "voice": "FLORENTINA_FINAL_DEPARTURE_CLOTHING",
+      "original_excerpt": "eyn boeses roeckleyn",
+      "interpretation_ko": "최종 탈출에는 낡은 옷과 몸을 가릴 천을 가지고 나왔다는 진술",
+      "source_id": "WA15-1899-HTML",
+      "read_from_1899_primary_language_edition": true,
+      "original_1524_page_image_seen": false
+    },
+    {
+      "id": "H8",
+      "wa_page": "94",
+      "voice": "MARTIN_LUTHER_EDITORIAL_POSTSCRIPT",
+      "original_excerpt": "Martinus Luther",
+      "interpretation_ko": "플로렌티나 서술 다음에 루터의 별도 글이 위치, 여성의 말로 합치지 않음",
+      "source_id": "WA15-1899-HTML",
+      "read_from_1899_primary_language_edition": true,
+      "original_1524_page_image_seen": false
+    }
+  ],
+  "editorial_inference_guards": {
+    "prior_six_gulden_two_silver_rings_self_reported_taken": true,
+    "prior_six_gulden_two_silver_rings_self_reported_returned": true,
+    "final_departure_clothing_self_reported": true,
+    "independent_money_return_receipt_verified": false,
+    "luther_preface_not_florentina_voice": true,
+    "luther_postscript_not_florentina_voice": true,
+    "wa15_1899_read_not_1524_facsimile": true,
+    "florentina_pamphlet_caused_1525_helfta_attack_proven": false,
+    "abbesses_1526_petition_emperor_actual_delivery_proven": false,
+    "oefelein2019_pdf_screenshot_success": false
   }
 }
