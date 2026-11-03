@@ -392,9 +392,117 @@
       "read_tier": "GOTHA_2025_HISTORIC_TEXT_TRANSCRIPTION"
     }
   ],
-  "reader_sections": [],
-  "open_issues": [],
-  "metrics": {},
+  "reader_sections": [
+    {
+      "id": "R01",
+      "title": "황금 장미는 왜 늦었을까",
+      "text_ko": "1519년 프리드리히 선제후는 5월 초에 작성된 추기경의 편지를 같은 달 28일에 받았다고 적었다. 교황의 황금 장미 선물이 약속됐으나 아직 실제 손에 오지 않았다는 이야기도 담겨 있다. 종교개혁 초기의 정치·교회 관계는 정면충돌보다 외교 편지, 선물, 충실함에 관한 표현 속에서 진행되기도 했다.",
+      "anchors": [
+        "M01",
+        "M02"
+      ]
+    },
+    {
+      "id": "R02",
+      "title": "교황에 대한 충실함에도 조건이 있었다",
+      "text_ko": "선제후는 교황청과 교회에 충실하겠다고 밝히면서도 이를 합당하고 허용되는 일의 범위 안에 놓았다. 초안에서 삭제하고 여백에 바꿔 적은 문구가 있었다는 편집자 주석은 문장의 정치적 뉘앙스를 신중히 결정했던 정황을 보여 준다. 그러나 여백의 실제 글자 위치는 영인을 확인하지 못했다.",
+      "anchors": [
+        "M03",
+        "M04"
+      ]
+    },
+    {
+      "id": "R03",
+      "title": "루터를 억압해 달라는 요구에 어떤 답이 왔는가",
+      "text_ko": "1521년 수도회는 프리드리히에게 루터에 맞설 지원을 요청했다. 선제후의 독일어 초안은 교회의 일반적인 평화와 일치를 강조하는 한편 복음을 진실하게 설교하고 지키는 사람을 돕겠다고 설명한다. 이를 무조건적인 친루터 선언이나 무조건적인 반루터 수락이라고 단순화하면 원문을 놓치게 된다.",
+      "anchors": [
+        "M05",
+        "M06",
+        "M07"
+      ]
+    },
+    {
+      "id": "R04",
+      "title": "농민전쟁 소식은 신문이 아닌 편지로 움직였다",
+      "text_ko": "1525년 7월 12일 독일어 소식지는 사건을 날짜별로 적으면서 처형, 농민군의 패배, 잘츠부르크의 봉쇄와 라인 지방 사건까지 함께 전한다. 멀리 떨어진 사건의 시간차와 구전·서면 소식이 섞였을 가능성에 주의해야 한다. 고타에는 6월 2일·18일·7월 12일의 소식 세 통이 이어 전해진다.",
+      "anchors": [
+        "M08",
+        "M10"
+      ]
+    },
+    {
+      "id": "R05",
+      "title": "전쟁이 만든 과부와 고아",
+      "text_ko": "1525년 소식지의 짧은 표현에는 전투의 승리보다 많은 가난한 사람이 과부와 고아가 되었다는 상처가 담겨 있다. 종교개혁을 왕후와 신학자의 교리 논쟁으로만 보지 않고 농촌 공동체의 손실과 뉴스의 전달 방식까지 설명할 수 있다. 다만 희생자 수와 책임의 상세한 판단은 다른 사료와 교감한 뒤에 해야 한다.",
+      "anchors": [
+        "M09"
+      ]
+    },
+    {
+      "id": "R06",
+      "title": "왜 1718년 편집자는 서로 다른 원고를 택했나",
+      "text_ko": "치프리안은 1718년 자료집에서 1519년 라틴어 초안 A를 출판했고 1521년에는 독일어 사본 C를 인쇄했다고 현대 학술원은 설명한다. 그런데 오늘 우리가 학술원 사이트에서 직접 읽은 1521년 문장은 독일어 초안 B이다. 이것은 1717년 텐첼의 역사 서술과 1718년 치프리안의 원문 자료집이 다르다는 사실뿐 아니라, 자료집 내부에서도 저본 선택을 따져야 한다는 교훈을 준다.",
+      "anchors": [
+        "M04",
+        "M05",
+        "M08"
+      ]
+    }
+  ],
+  "open_issues": [
+    {
+      "id": "I01",
+      "question": "Read 1718 Cyprian partII pp109–111 (Latin A 1519), compare to BAKFJ Nr904"
+    },
+    {
+      "id": "I02",
+      "question": "Read 1718 Cyprian partII pp238–240 German C 1521 vs modern B text; collate actual variants"
+    },
+    {
+      "id": "I03",
+      "question": "Open 1718 pp354–362 for three 1525 source texts, compare Gotha transcription of July12"
+    },
+    {
+      "id": "I04",
+      "question": "Read original Jena-digitized Gotha A338 fol261–265; distinguish scribes and Spalatin annotations"
+    },
+    {
+      "id": "I05",
+      "question": "Read 1519 Gotha A338 Latin A and German B scans, verify actual marginal replacement"
+    },
+    {
+      "id": "I06",
+      "question": "Read 1521 Gotha A379 Latin A, A338 German B and German C independently"
+    },
+    {
+      "id": "I07",
+      "question": "Return to Tentzel A648 1r–53r and 1717 pp1–352 for manuscript to printed narrative variants"
+    },
+    {
+      "id": "I08",
+      "question": "Resume 1692 Seckendorff BookII p139 and 1692 Gotha 120-copy account from earlier versions"
+    },
+    {
+      "id": "I09",
+      "question": "Review 1519/1521 BAKFJ modern-edition CC BY-NC-SA4.0 and Gotha facsimile rights before release"
+    }
+  ],
+  "metrics": {
+    "source_records": 14,
+    "documentary_witnesses": 8,
+    "printed_1718_source_links": 5,
+    "primary_microreadings": 10,
+    "korean_reader_sections": 6,
+    "open_issues": 9,
+    "critical_edition_1519_and_1521_primary_texts_read": 2,
+    "gotha_2025_historic_news_source_transcriptions_read": 1,
+    "original_1718_print_pages_read": 0,
+    "original_gotha_early_manuscript_pages_read": 0,
+    "original_tentzel_a648_pages_read": 0,
+    "previous_1529_k_archive_photo_faces": 2,
+    "previous_1529_conversation_original_pages": 4,
+    "published_items": 0
+  },
   "structural_distinction": {
     "first_book": "TENTZEL_CHAPTERS1_TO4_IN_CYPRIAN1717_HISTORICAL_NARRATIVE_PRINT",
     "second_book": "CYPRIAN1718_INDEPENDENT_EARLY_REFORMATION_SOURCE_COLLECTION",
