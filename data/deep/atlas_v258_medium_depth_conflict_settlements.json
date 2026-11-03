@@ -1,0 +1,199 @@
+{
+  "version": "2.58",
+  "kind": "MEDIUM_DEPTH_CONFLICT_AND_SETTLEMENTS",
+  "depth": "MEDIUM",
+  "status": "DRAFT",
+  "parent_commit": "e4bc43502adf9d3d1975c1c9d90944a3ec884e4b",
+  "preserved_inputs": [
+    {
+      "path": "data/deep/atlas_v254_medium_depth_ten_readers.json",
+      "sha256": "377db29c072bcd6dad7bcf3e028be2e7e4866c5df7a028c7a030fa4c087f4832"
+    },
+    {
+      "path": "data/deep/atlas_v255_medium_depth_social_themes.json",
+      "sha256": "1de0362a8a6c305c68ce9c3099ff44bed6e9da8e83beaf2ed23dd0bfbd0c6ff0"
+    },
+    {
+      "path": "data/deep/atlas_v256_medium_depth_regional_readers.json",
+      "sha256": "c3b8b6a51b8d28990a5be9a861ce2a75397ae39331b3935f0d5a17db55e536cb"
+    },
+    {
+      "path": "data/deep/atlas_v257_medium_depth_north_east_regions.json",
+      "sha256": "324bf7fa4bbf2b21b52e98f85c1c6015100df97595a4a10f5faef58e8159c431"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S01",
+      "title": "Mennonite World Conference: 재세례파의 형성",
+      "url": "https://mwc-cmm.org/en/stories/how-mennonites-came-be/",
+      "access": "INSTITUTIONAL_EXPLANATION_OR_PUBLISHED_DOCUMENT"
+    },
+    {
+      "id": "S02",
+      "title": "GHDI: 취리히 초기 재세례 보고와 해설",
+      "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/ghdi:document-4312",
+      "access": "INSTITUTIONAL_EXPLANATION_OR_PUBLISHED_DOCUMENT"
+    },
+    {
+      "id": "S03",
+      "title": "예수회: 역사",
+      "url": "https://www.jesuits.global/about-us/our-history/",
+      "access": "INSTITUTIONAL_EXPLANATION_OR_PUBLISHED_DOCUMENT"
+    },
+    {
+      "id": "S04",
+      "title": "Jesuits.org: 예수회 교육",
+      "url": "https://www.jesuits.org/glossary/education-jesuit/",
+      "access": "INSTITUTIONAL_EXPLANATION_OR_PUBLISHED_DOCUMENT"
+    },
+    {
+      "id": "S05",
+      "title": "아우크스부르크 지역 교회:1555년 종교화의",
+      "url": "https://www.augsburg-evangelisch.de/der-augsburger-religionsfrieden",
+      "access": "INSTITUTIONAL_EXPLANATION_OR_PUBLISHED_DOCUMENT"
+    },
+    {
+      "id": "S06",
+      "title": "LWL: 전쟁과 평화 사이의 신앙",
+      "url": "https://www.lwl.org/westfaelischer-friede-download/wfd-t/wfd-1648tt-08.htm",
+      "access": "INSTITUTIONAL_EXPLANATION_OR_PUBLISHED_DOCUMENT"
+    },
+    {
+      "id": "S07",
+      "title": "독일역사박물관: 종교개혁과30년전쟁",
+      "url": "https://www.dhm.de/ausstellungen/dauerausstellung/reformation-und-dreissigjaehriger-krieg/",
+      "access": "INSTITUTIONAL_EXPLANATION_OR_PUBLISHED_DOCUMENT"
+    }
+  ],
+  "chapters": [
+    {
+      "id": "THEME-ANABAPTISTS",
+      "title": "재세례파 — 교회의 구성원은 어떻게 되는가",
+      "lead": "재세례파는 종교개혁 내부에서 세례와 신앙 공동체의 경계를 다시 물었다. 한 이름 아래 여러 흐름이 있었으므로 모두를 하나의 집단처럼 설명하면 안 된다.",
+      "sections": [
+        {
+          "heading": "취리히 개혁 내부에서 생긴 차이",
+          "body": "1525년 취리히에서는 유아세례에 동의하지 않는 이들이 신앙을 고백한 사람에게 세례를 주었다. 이들은 성경에 근거한 개혁을 원했지만 시의회와 츠빙글리가 추진한 변화의 범위에 만족하지 않았다. 가톨릭과 개신교의 대립만으로는 이 갈등을 설명할 수 없다. 개혁을 지지한 사람들 사이에서도 새로운 교회가 어떤 모습이어야 하는지 의견이 갈렸다."
+        },
+        {
+          "heading": "신앙의 결단과 공동체의 경계",
+          "body": "당사자들은 의식적인 신앙 고백과 예수를 따르는 삶을 세례와 연결했다. 이는 태어난 지역과 유아세례를 통해 주민이 교회의 구성원이 되는 질서에 질문을 던졌다. 세례 방식의 차이는 단지 의식의 형식이 아니라 신앙과 시민의 소속,교회와 통치권의 관계에 닿아 있었다. 박해와 이주는 운동이 다른 지역으로 퍼지는 조건이 되기도 했다."
+        },
+        {
+          "heading": "다양한 흐름을 함께 보기",
+          "body": "재세례파를 모두 폭력적 반란의 지지자로 묘사하면 여러 공동체의 차이를 지운다. 반대로 모든 집단이 처음부터 동일한 평화주의와 조직을 가졌다고 보기도 어렵다. 메노나이트 등 후대 전통으로 이어지는 경로는 다양했다. 이 주제를 읽을 때는 국가와 일치하는 교회라는 전제가 흔들릴 때 어떤 새로운 신앙 공동체가 가능해지는지 살펴보면 좋다."
+        }
+      ],
+      "reading_question": "공동체에 태어났다는 사실과 스스로 신앙을 고백한다는 사실은 교회 소속에서 어떤 차이를 만들까?",
+      "sources": [
+        "S01",
+        "S02"
+      ],
+      "related_readers": [
+        "ZWINGLI",
+        "THEME-PEASANTS_WAR"
+      ],
+      "status": "EDITORIAL_DRAFT"
+    },
+    {
+      "id": "THEME-CATHOLIC_RENEWAL",
+      "title": "가톨릭 내부 개혁과 예수회 — 논쟁을 넘어 교육과 실천으로",
+      "lead": "가톨릭의 변화는 개신교 비판에 대한 대응과 내부 쇄신의 필요가 함께 이끌었다. 예수회는 교육과 선교를 통해 그 변화를 실천한 중요한 조직이었다.",
+      "sections": [
+        {
+          "heading": "가톨릭 개혁도 여러 통로로 진행되었다",
+          "body": "트리엔트 공의회가 교리와 성직자 교육을 정비했다면, 가톨릭의 수도회와 교육기관은 신앙을 가르치고 생활 속에서 실천하는 역할을 맡았다. 이를 개신교의 확산을 막기 위한 반격으로만 부르면 교회 내부의 영성과 교육,목회 쇄신에 대한 관심을 놓친다. 반대로 교파 경쟁과 정치적 후원을 무시한 순수한 종교운동으로만 볼 수도 없다."
+        },
+        {
+          "heading": "1540년 예수회의 성립",
+          "body": "이냐시오 데 로욜라와 동료들이 세운 예수회는1540년 교황의 승인을 받았다. 설교와 성례,선교 등 필요한 곳에서 활동하려는 조직이었고 교육은 이후 중요한 사역으로 발전했다. 처음부터 완성된 학교망을 계획했다기보다 공동체와 사회의 필요에 대응하며 활동을 넓혔다. 이 과정에서 신학과 인문교육,다양한 언어와 문화가 연결되었다."
+        },
+        {
+          "heading": "교육을 통한 신앙 공동체의 형성",
+          "body": "학교에서 무엇을 가르치고 어떤 사람을 기르는가는 교회의 미래와 연결되었다. 예수회 교육의 확대는 가톨릭 개혁이 교리 선언을 넘어 장기적인 인적·지적 기반을 만들었음을 보여 준다. 그러나 가톨릭 개혁 전체를 예수회 하나로 대표시킬 수는 없다. 공의회와 주교,여러 수도회와 지역 공동체가 각기 다른 역할로 변화에 참여했다."
+        }
+      ],
+      "reading_question": "교리를 정리하는 일과 그 가르침을 배우고 실천할 사람을 기르는 일은 어떻게 연결될까?",
+      "sources": [
+        "S03",
+        "S04"
+      ],
+      "related_readers": [
+        "TRENT",
+        "THEME-EDUCATION"
+      ],
+      "status": "EDITORIAL_DRAFT"
+    },
+    {
+      "id": "THEME-AUGSBURG_PEACE",
+      "title": "1555년 아우크스부르크 화의 — 일치하지 못해도 싸움을 멈출 수 있는가",
+      "lead": "아우크스부르크 화의는 가톨릭과 루터교 사이의 신학적 차이를 해소하지 않고도 제국 안의 평화를 유지하려는 정치적 합의였다.",
+      "sections": [
+        {
+          "heading": "1530년 신앙고백과1555년 화의를 구별하기",
+          "body": "같은 도시 이름이 들어가지만 아우크스부르크 신앙고백과 종교화의는 다른 사건이다.1530년의 문서가 개혁 진영의 신앙을 설명했다면1555년 화의는 서로 다른 신앙을 가진 제국 세력들이 어떻게 공존할지 다루었다. 교리 논쟁이 계속되는 상황에서 정치적 질서를 유지할 규칙이 필요했던 것이다."
+        },
+        {
+          "heading": "영방의 종교와 주민의 선택",
+          "body": "1555년 가톨릭과 루터교 제국 신분들은 신앙을 이유로 서로 공격하지 않기로 했다. 세속 영주는 자기 영방의 종교를 정할 권한을 가졌고, 그 신앙을 따르지 않으려는 주민에게는 이주할 길이 제시되었다. 이는 영방의 질서를 인정한 합의였으며, 모든 개인이 거주지를 유지한 채 원하는 종교를 자유롭게 실천할 수 있다는 원칙과는 달랐다."
+        },
+        {
+          "heading": "평화의 성과와 남은 공백",
+          "body": "화의는 루터교의 법적 지위를 인정하고 무력 충돌을 억제할 틀을 만들었다. 그러나 다른 개혁 흐름은 합의에 포함되지 않았고 종교와 재산·통치권에 관한 갈등도 모두 사라지지 않았다. 이를 실패한 평화로만 보거나 반대로 모든 문제가 해결된 순간으로 보지 않는 편이 좋다. 서로 동의하지 않는 이들이 살아갈 규칙을 마련했다는 성과와 그 규칙의 범위를 함께 읽어야 한다."
+        }
+      ],
+      "reading_question": "평화를 위한 합의는 신학적 일치를 요구해야 할까, 차이를 유지할 규칙만으로 가능할까?",
+      "sources": [
+        "S05"
+      ],
+      "related_readers": [
+        "AUGSBURG",
+        "REGION-POLAND_LITHUANIA"
+      ],
+      "status": "EDITORIAL_DRAFT"
+    },
+    {
+      "id": "THEME-WAR_WESTPHALIA",
+      "title": "30년전쟁과 베스트팔렌 평화 — 종교적 차이를 다루는 질서를 다시 만들다",
+      "lead": "1618~1648년의 전쟁은 신앙 갈등과 왕조·영방의 권력 경쟁이 얽힌 전쟁이었다. 평화는 교파를 하나로 합치기보다 차이를 관리할 장치를 마련했다.",
+      "sections": [
+        {
+          "heading": "종교전쟁이면서 권력의 전쟁이었다",
+          "body": "1618년 보헤미아의 세력과 황제 사이에서 격화된 갈등은 제국의 여러 지역과 유럽 강국이 개입하는 전쟁으로 확대되었다. 교파 소속은 중요했지만 모든 동맹과 전쟁 목표가 신앙만으로 결정되지는 않았다. 덴마크와 스웨덴의 개입에도 정치적 이해가 작용했다. 종교와 권력을 어느 하나의 가면으로 치부하기보다 서로 영향을 주는 요인으로 보아야 한다."
+        },
+        {
+          "heading": "주민의 생활과 공동체에 남긴 피해",
+          "body": "전쟁은 전투에 참가한 군인만의 사건이 아니었다. 주민들은 군대의 이동과 폭력,생계의 파괴를 겪었고 교회와 공동체는 그 고통을 해석하며 버텨야 했다. 신앙은 적을 구분하는 언어가 되기도 했지만 전쟁의 고통을 견디는 위로의 통로이기도 했다. 승전과 패전의 연표에 더해 사람들이 어떤 생활 조건을 잃었는지 살펴야 한다."
+        },
+        {
+          "heading": "1648년의 타협과 그 한계",
+          "body": "뮌스터와 오스나브뤼크에서 이루어진 평화는 제국의 종교적 질서를 다시 조정했다. 교회 재산과 종교적 지위를 다룰 때1624년을 기준으로 삼고, 종교 문제를 한쪽의 단순한 다수결로 밀어붙이지 않을 장치를 마련했다. 그렇다고 현대적 개인의 종교자유가 완성되거나 유럽의 모든 갈등이 사라진 것은 아니다. 평화의 의미는 차이를 없애기보다 그것을 법과 협상으로 다룰 공간을 넓혔다는 데서 찾을 수 있다."
+        }
+      ],
+      "reading_question": "전쟁을 끝내는 합의가 모든 갈등을 해결하지 못해도 역사적 전환점이 될 수 있는 이유는 무엇일까?",
+      "sources": [
+        "S06",
+        "S07"
+      ],
+      "related_readers": [
+        "THEME-AUGSBURG_PEACE",
+        "REGION-SWEDEN",
+        "REGION-LOW_COUNTRIES"
+      ],
+      "status": "EDITORIAL_DRAFT"
+    }
+  ],
+  "metrics": {
+    "new_readers": 4,
+    "new_sections": 12,
+    "new_questions": 4,
+    "previous_medium_readers": 23,
+    "total_medium_readers": 27
+  },
+  "publication_gate": {
+    "published": false,
+    "main_changed": false,
+    "webapp_integrated": false
+  }
+}
