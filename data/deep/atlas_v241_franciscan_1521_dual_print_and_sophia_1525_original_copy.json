@@ -327,8 +327,206 @@
       "actual_wording_variants_collated": false
     }
   ],
-  "first_person_microreadings": [],
-  "historical_events": [],
+  "first_person_microreadings": [
+    {
+      "id": "M1",
+      "witness": "PET-A",
+      "tier": "ACADEMY_GERMAN_REGEST_ONLY",
+      "form": "REPORTED_SUMMARY_NOT_PRIMARY_QUOTE",
+      "short_anchor": "spiritual weapons: Scripture and Word",
+      "meaning_ko": "프란치스코회는 카르피 총회에서 받은 교황 명령의 근거를 성경과 말씀이라는 영적 무기로 설명한다. 이 단계에서 요청서가 곧바로 폭력행사를 명령했다고 해석하지 않는다.",
+      "sources": [
+        "AK-REQ-1297"
+      ]
+    },
+    {
+      "id": "M2",
+      "witness": "PET-A",
+      "tier": "ACADEMY_GERMAN_REGEST_ONLY",
+      "form": "REPORTED_SUMMARY_NOT_PRIMARY_QUOTE",
+      "short_anchor": "danger to souls, church discord, social unrest",
+      "meaning_ko": "루터의 저술이 영혼의 위험과 교회 분열을 낳는다고 청원한 이들의 시점을 보여 준다. 주장의 진위를 객관적인 사실로 대체하지 않는다.",
+      "sources": [
+        "AK-REQ-1297"
+      ]
+    },
+    {
+      "id": "M3",
+      "witness": "REPLY-B",
+      "tier": "DIRECT_CRITICAL_GERMAN_ORIGINAL_LANGUAGE",
+      "form": "EARLY_GERMAN",
+      "short_anchor": "gemeinem fride unnd einickeit",
+      "meaning_ko": "선제후의 답신은 일반적 평화와 일치를 자신의 통치 책임으로 제시한다.",
+      "sources": [
+        "AK-REPLY-1298"
+      ]
+    },
+    {
+      "id": "M4",
+      "witness": "REPLY-B",
+      "tier": "DIRECT_CRITICAL_GERMAN_ORIGINAL_LANGUAGE",
+      "form": "EARLY_GERMAN",
+      "short_anchor": "beistand wider doctorem Martinum",
+      "meaning_ko": "프란치스코회가 루터를 반대하는 지원을 서면으로 요청했다는 답변 내 직접 증언이다.",
+      "sources": [
+        "AK-REPLY-1298"
+      ]
+    },
+    {
+      "id": "M5",
+      "witness": "REPLY-B",
+      "tier": "DIRECT_CRITICAL_GERMAN_ORIGINAL_LANGUAGE",
+      "form": "SHORT_PARAPHRASE",
+      "short_anchor": "against stormy suppression of God's word",
+      "meaning_ko": "선제후는 거친 억압으로 하나님의 말씀이 소멸되는 위험을 경고한다. 양심을 자의적으로 탄압하는 정책만으로 설명할 수 없다.",
+      "sources": [
+        "AK-REPLY-1298"
+      ]
+    },
+    {
+      "id": "M6",
+      "witness": "SOPHIA-ORIG",
+      "tier": "GOTHA_2025_SHORT_QUOTE_FROM_AUTHOR_AUTOGRAPH",
+      "form": "EARLY_GERMAN",
+      "short_anchor": "nicht flüchgen noch eyn boße hertz",
+      "meaning_ko": "1525년 5월 소피아는 상처를 겪으면서도 적에게 악한 마음을 품지 않으려는 신앙적 태도를 표현했다.",
+      "sources": [
+        "GOTHA-BLOG-2025",
+        "SOPHIA-AUTO"
+      ]
+    },
+    {
+      "id": "M7",
+      "witness": "SOPHIA-ORIG",
+      "tier": "GOTHA_2025_SHORT_QUOTE_FROM_AUTHOR_AUTOGRAPH",
+      "form": "EARLY_GERMAN",
+      "short_anchor": "Jch bin jo etwaß ewangliß",
+      "meaning_ko": "수녀원장은 자신도 어떤 의미에서 복음적인 사람이라고 표현한다. 반종교개혁 대 복음파라는 단순한 이분법과 다른 자기 이해를 보여 준다.",
+      "sources": [
+        "GOTHA-BLOG-2025",
+        "SOPHIA-AUTO"
+      ]
+    },
+    {
+      "id": "M8",
+      "witness": "SOPHIA-ORIG",
+      "tier": "GOTHA_2025_SCHOLARLY_PARAPHRASE",
+      "form": "REPORTED_SOCIAL_FACTS",
+      "short_anchor": "five gulden / sixteen people",
+      "meaning_ko": "피난한 16명을 돌보기 위한 돈이 다섯 굴덴뿐이라는 내용을 고타의 연구가 소개한다. 이 숫자는 수녀원장의 당시 진술이지 외부 회계 확인이 아니다.",
+      "sources": [
+        "GOTHA-BLOG-2025"
+      ]
+    },
+    {
+      "id": "M9",
+      "witness": "SOPHIA-ORIG",
+      "tier": "OFFICIAL_CATALOGUE_DATING",
+      "form": "LATIN_DATING_FORMULA",
+      "short_anchor": "in die inventionis Crucis",
+      "meaning_ko": "원본의 십자가 발견 축일 날짜 표현은 1525년 5월 3일에 대응한다. 원본 필체 자체의 읽기는 아직 하지 않았다.",
+      "sources": [
+        "SOPHIA-AUTO",
+        "SOPHIA-COPY"
+      ]
+    }
+  ],
+  "historical_events": [
+    {
+      "id": "T1",
+      "date": "1521-05-19",
+      "event": "FRANCISCAN_GENERAL_CHAPTER_CARPI",
+      "source_ids": [
+        "AK-REQ-1297"
+      ],
+      "meaning_ko": "교황 레오 10세의 루터파 반대 명령을 성경·말씀을 활용하는 영적 논쟁으로 전하도록 요청받았다고 청원자들이 진술"
+    },
+    {
+      "id": "T2",
+      "date": "1521-08-15",
+      "event": "FRANCISCAN_PETITION_WRITTEN_WEIMAR",
+      "source_ids": [
+        "AK-REQ-1297"
+      ],
+      "meaning_ko": "프란치스코회 작센 관구의 그로네와 대표들이 선제후에게 지원 요청"
+    },
+    {
+      "id": "T3",
+      "date": "after 1521-08-15",
+      "event": "ELECTOR_DRAFT_REPLY",
+      "source_ids": [
+        "AK-REPLY-1298"
+      ],
+      "meaning_ko": "교회의 평화와 진리 전파에 대한 통치자의 책임, 무질서 억제, 부당한 말씀 억압 경계"
+    },
+    {
+      "id": "T4",
+      "date": "1525-04-30",
+      "event": "NAUNDORF_CONVENT_WARNED",
+      "source_ids": [
+        "GOTHA-BLOG-2025"
+      ],
+      "meaning_ko": "마을에 수도원 습격 소문이 돌고 경고 전달"
+    },
+    {
+      "id": "T5",
+      "date": "1525-05-01",
+      "event": "NUNS_FLEE_TO_HALLE",
+      "source_ids": [
+        "GOTHA-BLOG-2025"
+      ],
+      "meaning_ko": "수녀원장이 16명가량의 수도 공동체를 이끌고 피난했다고 진술"
+    },
+    {
+      "id": "T6",
+      "date": "1525-05-03",
+      "event": "SOPHIA_WROTE_AUTOGRAPH_LETTER",
+      "source_ids": [
+        "SOPHIA-AUTO",
+        "GOTHA-BLOG-2025"
+      ],
+      "meaning_ko": "할레에서 슈팔라틴에게 도움을 요청한 자필 편지 작성"
+    },
+    {
+      "id": "T7",
+      "date": "1525-05-05",
+      "event": "FREDERICK_III_DIED",
+      "source_ids": [
+        "FRIEDRICH-DEATH",
+        "FRIEDRICH-LUTHERMUSEEN"
+      ],
+      "meaning_ko": "지원 요청을 중개할 수도 있었던 선제후가 이틀 후 사망, 그러나 답장이 전하지 않는 원인이 사망이라고 확정 불가"
+    },
+    {
+      "id": "T8",
+      "date": "1531",
+      "event": "NAUNDORF_CONVENT_DISSOLVED",
+      "source_ids": [
+        "GOTHA-BLOG-2025"
+      ],
+      "meaning_ko": "수녀원은 작센의 종교개혁 진행 과정에서 해산"
+    },
+    {
+      "id": "T9",
+      "date": "1880",
+      "event": "SOPHIA_FULL_TEXT_PRINTED",
+      "source_ids": [
+        "KAWERAU-1880",
+        "GOTHA-BLOG-2025"
+      ],
+      "meaning_ko": "구스타프 카베라우가 전문을 인쇄, 이번 연구에선 원서 이미지 미판독"
+    },
+    {
+      "id": "T10",
+      "date": "1942",
+      "event": "SOPHIA_ABRIDGED_PRINTED",
+      "source_ids": [
+        "FUCHS-1942",
+        "GOTHA-BLOG-2025"
+      ],
+      "meaning_ko": "발터 페터 푹스가 단축 재수록"
+    }
+  ],
   "reader_sections": [],
   "open_issues": [],
   "metrics": {},
