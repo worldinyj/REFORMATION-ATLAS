@@ -1,0 +1,519 @@
+{
+  "version": "2.40",
+  "parent_commit": "1f2f044b1c4d081a4492542e4a4782d0cea8d3c0",
+  "baseline": "data/deep/atlas_v239_tentzel_german_fair_copy_and_1717_print_reception.json",
+  "kind": "1519_1521_1525_DIRECT_CRITICAL_TEXT_READINGS_AND_1718_CYPRIAN_EDITORIAL_WITNESSES",
+  "publication_gate": {
+    "ship": false,
+    "cyprian_1718_print_original_pages_read": false,
+    "gotha_1519_1521_manuscript_pages_read": false,
+    "gotha_1525_manuscript_pages_read": false,
+    "tentzel_1717_original_print_read": false,
+    "tentzel_a648_original_folios_read": false,
+    "seckendorff_1692_139_read": false,
+    "gotha_1692_accounts_read": false,
+    "kz_marb_7_13_15_read": false,
+    "rights_approved": false,
+    "expert_reviewed": false,
+    "webapp_ingested": false
+  },
+  "sources": [
+    {
+      "id": "AK1519",
+      "url": "https://bakfj.saw-leipzig.de/doc/800",
+      "read_level": "DIRECT_FULL_1519_LATIN_CRITICAL_TRANSCRIPTION",
+      "evidence": "Acad. Leipzig BAKFJ Nr904, Spalatin Latin A vs German B, critical note, Cyprian1718 II p109-111 No15 from A",
+      "original_manuscript_folio_image_seen": false
+    },
+    {
+      "id": "AK1521",
+      "url": "https://bakfj.saw-leipzig.de/doc/677",
+      "read_level": "DIRECT_FULL_1521_GERMAN_CRITICAL_TRANSCRIPTION",
+      "evidence": "Acad. Leipzig BAKFJ Nr1298, Latin A / German B / German C; web reads B, Cyprian1718 II p238-240 No54 prints C",
+      "original_manuscript_folio_image_seen": false
+    },
+    {
+      "id": "GOTHA1525",
+      "url": "https://blog-fbg.uni-erfurt.de/2025/06/neue-zeitung-von-den-aufruehrischen-bauern-hin-und-her/",
+      "read_level": "DIRECT_FULL_GOTHA_2025_SCHOLARLY_TRANSCRIPTION",
+      "evidence": "Daniel Gehrt reproduces long German transcription of 12 Jul 1525 news, maps 3 original news reports to 1718 edition pp354–362",
+      "original_manuscript_folio_image_seen": false
+    },
+    {
+      "id": "PHOTO-JUNE2",
+      "url": "https://dhb.thulb.uni-jena.de/receive/ufb_cbu_00015493",
+      "read_level": "ORIGINAL_DIGITAL_OBJECT_LINK_NOT_RENDERED",
+      "evidence": "Gotha A338 f261r–262v, 2 June 1525 news letter",
+      "original_manuscript_folio_image_seen": false
+    },
+    {
+      "id": "PHOTO-JUNE18",
+      "url": "https://dhb.thulb.uni-jena.de/receive/ufb_cbu_00015494",
+      "read_level": "ORIGINAL_DIGITAL_OBJECT_LINK_NOT_RENDERED",
+      "evidence": "Gotha A338 f263r–264v, 18 Jun 1525 news bulletin",
+      "original_manuscript_folio_image_seen": false
+    },
+    {
+      "id": "PHOTO-JULY12",
+      "url": "https://dhb.thulb.uni-jena.de/receive/ufb_cbu_00015495",
+      "read_level": "ORIGINAL_DIGITAL_OBJECT_LINK_NOT_RENDERED",
+      "evidence": "Gotha A338 f265r–v, 12 Jul 1525 news bulletin",
+      "original_manuscript_folio_image_seen": false
+    },
+    {
+      "id": "CY1718-DIGI",
+      "url": "https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb11286923-2",
+      "read_level": "1718_PRINT_BOOK_OBJECT_TARGET_PAGES_NOT_READ",
+      "evidence": "Cyprian 1718 Part 2 primary-documents edition, MDZ BSB bsb11286923",
+      "original_manuscript_folio_image_seen": false
+    },
+    {
+      "id": "TENTZEL-MS",
+      "url": "https://kalliope-verbund.info/ead?ead.id=DE-611-HS-4323846",
+      "read_level": "MANUSCRIPT_METADATA_ONLY",
+      "evidence": "Gotha A648 Tentzel narrative MS 231 folios, first 4 chapters f1r–53r published 1717 pp1–352",
+      "original_manuscript_folio_image_seen": false
+    },
+    {
+      "id": "TENTZEL1717",
+      "url": "https://www.deutsche-digitale-bibliothek.de/item/2ORBL77FTRE4ESPIMMEDHQJDMFW27USC",
+      "read_level": "1717_PRINT_METADATA_ONLY",
+      "evidence": "Tentzel/Cyprian German narrative 1717 ULB Ung I B66, 531 numbered pp, NOT 1718 primary documents edition",
+      "original_manuscript_folio_image_seen": false
+    },
+    {
+      "id": "REVIEWS1718",
+      "url": "https://adw-goe.de/en/gjz18/database/?tx_find_find%5Bcontroller%5D=Search&tx_find_find%5Bfacet%5D%5BDruckort%5D%5B2918752%5D=1&tx_find_find%5Bfacet%5D%5BProjekt-Datenbank%5D%5Bgjz%5D=1",
+      "read_level": "CONTEMPORARY_REVIEW_CATALOGUE_ONLY",
+      "evidence": "1718 two reviews of Tentzel/Cyprian pp407-408 and pp178-183, reviews themselves not read",
+      "original_manuscript_folio_image_seen": false
+    },
+    {
+      "id": "ULB-MIGRATE",
+      "url": "https://bibliothek.uni-halle.de/sammeln-bewahren/digitalisierung/digitale-sammlungen/",
+      "read_level": "OFFICIAL_DIGITAL_MIGRATION_NOTICE_INDEX",
+      "evidence": "ULB Halle VD18 moved to opendata.uni-halle.de. Full view in web failed 502.",
+      "original_manuscript_folio_image_seen": false
+    },
+    {
+      "id": "SAW-1718",
+      "url": "https://bakfj.saw-leipzig.de/doc/800",
+      "read_level": "ACADEMY_1718_CYPRIAN_EDITION_PAGE_POINTER",
+      "evidence": "1519 A from 1718 II p109–111 No15",
+      "original_manuscript_folio_image_seen": false
+    },
+    {
+      "id": "SAW-1718-C",
+      "url": "https://bakfj.saw-leipzig.de/doc/677",
+      "read_level": "ACADEMY_1718_CYPRIAN_EDITION_PAGE_POINTER",
+      "evidence": "1521 German C from 1718 II p238–240 No54",
+      "original_manuscript_folio_image_seen": false
+    },
+    {
+      "id": "HIST-1718-SECOND",
+      "url": "https://search.worldcat.org/title/Wilhelm-Ernst-Tentzels-Historiographi-Saxonici-Historischer-Bericht-vom-Anfang-und-ersten-Fortgang-der-Reformation-Lutheri-Zur-Erlauterung-des-Hn.-v.-Seckendorff-Historie-des-Lutherthums-mit-grossem-Fleiss-erstattet-und-.-Nebst-einer-besondern-Vorrede-auch-nutzlichen-noch-niemahls-publicirten-Uhrkunden-und-nothigen-Registern-Theil-2-Der-Andere-Theil-Nutzlicher-Uhrkunden-Zur-Erlauterung-Der-ersten-Reformations-Geschichte-Und-Bestarckung-so-wohl-des-Herrn-von-Seckendorff-Historie-des-Lutherthums-als-Wilh.-Ernst-Tenzelii-Berichts-vom-Anfang-der-Reformation-:-Aus-denen-Originalien-ans-Licht-gestellet-von-D.-Ernst-Salomon-Cyprian-Consistorial-und-Kirchen-Rath-zu-Gotha/oclc/249265019",
+      "read_level": "1718_SECOND_VOLUME_BOOK_METADATA_ONLY",
+      "evidence": "1718 Cyprian documentary collection distinctly titled Der Andere Theil Nützlicher Uhrkunden, not lost manuscript chapters5-13",
+      "original_manuscript_folio_image_seen": false
+    }
+  ],
+  "witnesses": [
+    {
+      "id": "1519-A",
+      "date": "1519-06-08",
+      "document": "Elector Frederick to Cardinal Cajetan",
+      "language": "LATIN_DRAFT",
+      "shelfmark": "Gotha Chart A338 17r–18v",
+      "scribal_agent": "Georg Spalatin",
+      "primary_text_directly_read_in_critical_edition": true,
+      "manuscript_visual_pages_read": 0,
+      "source_ids": [
+        "AK1519"
+      ]
+    },
+    {
+      "id": "1519-B",
+      "date": "1519-06-08",
+      "document": "Elector Frederick to Cardinal Cajetan",
+      "language": "GERMAN_FAIR_COPY",
+      "shelfmark": "Gotha Chart A338 89r–90v",
+      "scribal_agent": "UNKNOWN",
+      "primary_text_directly_read_in_critical_edition": false,
+      "manuscript_visual_pages_read": 0,
+      "source_ids": [
+        "AK1519"
+      ]
+    },
+    {
+      "id": "1521-A",
+      "date": "after 1521-08-15",
+      "document": "Elector Frederick to Saxon Franciscan chapter",
+      "language": "LATIN_DRAFT",
+      "shelfmark": "Gotha Chart A379 30r–v",
+      "scribal_agent": "Philipp Melanchthon",
+      "primary_text_directly_read_in_critical_edition": false,
+      "manuscript_visual_pages_read": 0,
+      "source_ids": [
+        "AK1521"
+      ]
+    },
+    {
+      "id": "1521-B",
+      "date": "after 1521-08-15",
+      "document": "Elector Frederick to Saxon Franciscan chapter",
+      "language": "GERMAN_DRAFT",
+      "shelfmark": "Gotha Chart A338 179r–v",
+      "scribal_agent": "UNKNOWN",
+      "primary_text_directly_read_in_critical_edition": true,
+      "manuscript_visual_pages_read": 0,
+      "source_ids": [
+        "AK1521"
+      ]
+    },
+    {
+      "id": "1521-C",
+      "date": "after 1521-08-15",
+      "document": "Elector Frederick to Saxon Franciscan chapter",
+      "language": "GERMAN_LATER_COPY",
+      "shelfmark": "Gotha Chart A338 178r–v and 180r",
+      "scribal_agent": "UNKNOWN",
+      "primary_text_directly_read_in_critical_edition": false,
+      "manuscript_visual_pages_read": 0,
+      "source_ids": [
+        "AK1521"
+      ]
+    },
+    {
+      "id": "1525-JUN2",
+      "date": "1525-06-02",
+      "document": "Planitz and Weissenbach news report to Saxon officials",
+      "language": "GERMAN_COURT_NEWS_COPY",
+      "shelfmark": "Gotha Chart A338 261r–262v",
+      "scribal_agent": "COURT_NEWS_COPY",
+      "primary_text_directly_read_in_critical_edition": false,
+      "manuscript_visual_pages_read": 0,
+      "source_ids": [
+        "GOTHA1525",
+        "PHOTO-JUNE2"
+      ]
+    },
+    {
+      "id": "1525-JUN18",
+      "date": "1525-06-18",
+      "document": "Neue Zeitung von den aufrührischen Bauern hin und her",
+      "language": "GERMAN_NEWS_COPY",
+      "shelfmark": "Gotha Chart A338 263r–264v",
+      "scribal_agent": "UNKNOWN",
+      "primary_text_directly_read_in_critical_edition": false,
+      "manuscript_visual_pages_read": 0,
+      "source_ids": [
+        "GOTHA1525",
+        "PHOTO-JUNE18"
+      ]
+    },
+    {
+      "id": "1525-JUL12",
+      "date": "1525-07-12",
+      "document": "Zeitung wie man mit den aufrührischen Bauern umgeht",
+      "language": "GERMAN_NEWS_COPY",
+      "shelfmark": "Gotha Chart A338 265r–v",
+      "scribal_agent": "COURT_COPY_WITH_SPALATIN_MARKINGS",
+      "primary_text_directly_read_in_critical_edition": true,
+      "manuscript_visual_pages_read": 0,
+      "source_ids": [
+        "GOTHA1525",
+        "PHOTO-JULY12"
+      ]
+    }
+  ],
+  "edition_links": [
+    {
+      "id": "P-1519",
+      "witness_id": "1519-A",
+      "edition": "CYPRIAN1718_PART_2_PRIMARY_DOCUMENTS",
+      "printed": "pp109–111 No15",
+      "source_ids": [
+        "AK1519",
+        "SAW-1718"
+      ],
+      "printed_page_image_read": false
+    },
+    {
+      "id": "P-1521",
+      "witness_id": "1521-C",
+      "edition": "CYPRIAN1718_PART_2_PRIMARY_DOCUMENTS",
+      "printed": "pp238–240 No54",
+      "source_ids": [
+        "AK1521",
+        "SAW-1718-C"
+      ],
+      "printed_page_image_read": false
+    },
+    {
+      "id": "P-1525-JUN2",
+      "witness_id": "1525-JUN2",
+      "edition": "CYPRIAN1718_PART_2_PRIMARY_DOCUMENTS",
+      "printed": "pp354–357",
+      "source_ids": [
+        "GOTHA1525"
+      ],
+      "printed_page_image_read": false
+    },
+    {
+      "id": "P-1525-JUN18",
+      "witness_id": "1525-JUN18",
+      "edition": "CYPRIAN1718_PART_2_PRIMARY_DOCUMENTS",
+      "printed": "pp357–360",
+      "source_ids": [
+        "GOTHA1525"
+      ],
+      "printed_page_image_read": false
+    },
+    {
+      "id": "P-1525-JUL12",
+      "witness_id": "1525-JUL12",
+      "edition": "CYPRIAN1718_PART_2_PRIMARY_DOCUMENTS",
+      "printed": "pp361f",
+      "source_ids": [
+        "GOTHA1525"
+      ],
+      "printed_page_image_read": false
+    }
+  ],
+  "microreadings": [
+    {
+      "id": "M01",
+      "witness_id": "1519-A",
+      "theme": "1519 DIPLOMATIC DATES",
+      "original_excerpt": "die eiusdem mensis XXVIII accepimus",
+      "interpretation_ko": "카예타노의 5월 5일자 편지를 5월 28일 받았다는 뜻이다.",
+      "source_ids": [
+        "AK1519"
+      ],
+      "read_tier": "MODERN_CRITICAL_EDITION_PRIMARY_TEXT"
+    },
+    {
+      "id": "M02",
+      "witness_id": "1519-A",
+      "theme": "GOLDEN ROSE NOT DELIVERED",
+      "original_excerpt": "nondum tamen hactenus in manus nostras pervenit",
+      "interpretation_ko": "교황의 황금 장미 선물은 약속과 달리 아직 선제후의 손에 도달하지 않았다.",
+      "source_ids": [
+        "AK1519"
+      ],
+      "read_tier": "MODERN_CRITICAL_EDITION_PRIMARY_TEXT"
+    },
+    {
+      "id": "M03",
+      "witness_id": "1519-A",
+      "theme": "CONDITIONAL PAPAL OBEDIENCE",
+      "original_excerpt": "in omnibus rebus honestis et licitis",
+      "interpretation_ko": "교황에 대한 충실함을 정당하고 허용된 일에 한정한다.",
+      "source_ids": [
+        "AK1519"
+      ],
+      "read_tier": "MODERN_CRITICAL_EDITION_PRIMARY_TEXT"
+    },
+    {
+      "id": "M04",
+      "witness_id": "1519-A",
+      "theme": "SCRIBAL MARGINAL REPLACEMENT",
+      "original_excerpt": "Neque [...] cuperet",
+      "interpretation_ko": "편집 주석에서 초안 표현 삭제와 여백의 새 문구 삽입을 밝힌다. 실제 필체는 미열람.",
+      "source_ids": [
+        "AK1519"
+      ],
+      "read_tier": "MODERN_CRITICAL_APPARATUS"
+    },
+    {
+      "id": "M05",
+      "witness_id": "1521-B",
+      "theme": "CHURCH PEACE",
+      "original_excerpt": "gemeinem fride unnd einickeit der christlichen kirchen",
+      "interpretation_ko": "선제후는 교회의 일반적 평화와 일치를 우선 언급한다.",
+      "source_ids": [
+        "AK1521"
+      ],
+      "read_tier": "MODERN_CRITICAL_EDITION_PRIMARY_TEXT"
+    },
+    {
+      "id": "M06",
+      "witness_id": "1521-B",
+      "theme": "FRANCISCAN PETITION",
+      "original_excerpt": "beistand wider doctorem Martinum",
+      "interpretation_ko": "프란치스코회가 루터를 반대하는 일에 도움을 요청했다.",
+      "source_ids": [
+        "AK1521"
+      ],
+      "read_tier": "MODERN_CRITICAL_EDITION_PRIMARY_TEXT"
+    },
+    {
+      "id": "M07",
+      "witness_id": "1521-B",
+      "theme": "DEFEND GOSPEL",
+      "original_excerpt": "dy evangelischen warheit worhafftig predigen unnd verteidigen",
+      "interpretation_ko": "복음의 진리를 참되게 설교하고 변호하는 사람을 도울 뜻을 밝힌다.",
+      "source_ids": [
+        "AK1521"
+      ],
+      "read_tier": "MODERN_CRITICAL_EDITION_PRIMARY_TEXT"
+    },
+    {
+      "id": "M08",
+      "witness_id": "1525-JUL12",
+      "theme": "DATE MARGARET FEAST",
+      "original_excerpt": "am Sanct Margareten tag 12. Julij 1525",
+      "interpretation_ko": "7월 12일을 성녀 마르가레타 축일을 중심으로 적었다.",
+      "source_ids": [
+        "GOTHA1525"
+      ],
+      "read_tier": "GOTHA_2025_HISTORIC_TEXT_TRANSCRIPTION"
+    },
+    {
+      "id": "M09",
+      "witness_id": "1525-JUL12",
+      "theme": "CIVILIAN COST OF WAR",
+      "original_excerpt": "viel armer Leut witwen vnd waisen gemacht",
+      "interpretation_ko": "농민전쟁으로 가난한 이들에게 과부와 고아가 많이 생겼다고 말한다.",
+      "source_ids": [
+        "GOTHA1525"
+      ],
+      "read_tier": "GOTHA_2025_HISTORIC_TEXT_TRANSCRIPTION"
+    },
+    {
+      "id": "M10",
+      "witness_id": "1525-JUL12",
+      "theme": "INTERNATIONAL NEWS",
+      "original_excerpt": "Der Konyg von Franckreich",
+      "interpretation_ko": "독일 농민전쟁 소식에 프랑스 왕의 국제 정세 소식도 함께 있다.",
+      "source_ids": [
+        "GOTHA1525"
+      ],
+      "read_tier": "GOTHA_2025_HISTORIC_TEXT_TRANSCRIPTION"
+    }
+  ],
+  "reader_sections": [
+    {
+      "id": "R01",
+      "title": "황금 장미는 왜 늦었을까",
+      "text_ko": "1519년 프리드리히 선제후는 5월 초에 작성된 추기경의 편지를 같은 달 28일에 받았다고 적었다. 교황의 황금 장미 선물이 약속됐으나 아직 실제 손에 오지 않았다는 이야기도 담겨 있다. 종교개혁 초기의 정치·교회 관계는 정면충돌보다 외교 편지, 선물, 충실함에 관한 표현 속에서 진행되기도 했다.",
+      "anchors": [
+        "M01",
+        "M02"
+      ]
+    },
+    {
+      "id": "R02",
+      "title": "교황에 대한 충실함에도 조건이 있었다",
+      "text_ko": "선제후는 교황청과 교회에 충실하겠다고 밝히면서도 이를 합당하고 허용되는 일의 범위 안에 놓았다. 초안에서 삭제하고 여백에 바꿔 적은 문구가 있었다는 편집자 주석은 문장의 정치적 뉘앙스를 신중히 결정했던 정황을 보여 준다. 그러나 여백의 실제 글자 위치는 영인을 확인하지 못했다.",
+      "anchors": [
+        "M03",
+        "M04"
+      ]
+    },
+    {
+      "id": "R03",
+      "title": "루터를 억압해 달라는 요구에 어떤 답이 왔는가",
+      "text_ko": "1521년 수도회는 프리드리히에게 루터에 맞설 지원을 요청했다. 선제후의 독일어 초안은 교회의 일반적인 평화와 일치를 강조하는 한편 복음을 진실하게 설교하고 지키는 사람을 돕겠다고 설명한다. 이를 무조건적인 친루터 선언이나 무조건적인 반루터 수락이라고 단순화하면 원문을 놓치게 된다.",
+      "anchors": [
+        "M05",
+        "M06",
+        "M07"
+      ]
+    },
+    {
+      "id": "R04",
+      "title": "농민전쟁 소식은 신문이 아닌 편지로 움직였다",
+      "text_ko": "1525년 7월 12일 독일어 소식지는 사건을 날짜별로 적으면서 처형, 농민군의 패배, 잘츠부르크의 봉쇄와 라인 지방 사건까지 함께 전한다. 멀리 떨어진 사건의 시간차와 구전·서면 소식이 섞였을 가능성에 주의해야 한다. 고타에는 6월 2일·18일·7월 12일의 소식 세 통이 이어 전해진다.",
+      "anchors": [
+        "M08",
+        "M10"
+      ]
+    },
+    {
+      "id": "R05",
+      "title": "전쟁이 만든 과부와 고아",
+      "text_ko": "1525년 소식지의 짧은 표현에는 전투의 승리보다 많은 가난한 사람이 과부와 고아가 되었다는 상처가 담겨 있다. 종교개혁을 왕후와 신학자의 교리 논쟁으로만 보지 않고 농촌 공동체의 손실과 뉴스의 전달 방식까지 설명할 수 있다. 다만 희생자 수와 책임의 상세한 판단은 다른 사료와 교감한 뒤에 해야 한다.",
+      "anchors": [
+        "M09"
+      ]
+    },
+    {
+      "id": "R06",
+      "title": "왜 1718년 편집자는 서로 다른 원고를 택했나",
+      "text_ko": "치프리안은 1718년 자료집에서 1519년 라틴어 초안 A를 출판했고 1521년에는 독일어 사본 C를 인쇄했다고 현대 학술원은 설명한다. 그런데 오늘 우리가 학술원 사이트에서 직접 읽은 1521년 문장은 독일어 초안 B이다. 이것은 1717년 텐첼의 역사 서술과 1718년 치프리안의 원문 자료집이 다르다는 사실뿐 아니라, 자료집 내부에서도 저본 선택을 따져야 한다는 교훈을 준다.",
+      "anchors": [
+        "M04",
+        "M05",
+        "M08"
+      ]
+    }
+  ],
+  "open_issues": [
+    {
+      "id": "I01",
+      "question": "Read 1718 Cyprian partII pp109–111 (Latin A 1519), compare to BAKFJ Nr904"
+    },
+    {
+      "id": "I02",
+      "question": "Read 1718 Cyprian partII pp238–240 German C 1521 vs modern B text; collate actual variants"
+    },
+    {
+      "id": "I03",
+      "question": "Open 1718 pp354–362 for three 1525 source texts, compare Gotha transcription of July12"
+    },
+    {
+      "id": "I04",
+      "question": "Read original Jena-digitized Gotha A338 fol261–265; distinguish scribes and Spalatin annotations"
+    },
+    {
+      "id": "I05",
+      "question": "Read 1519 Gotha A338 Latin A and German B scans, verify actual marginal replacement"
+    },
+    {
+      "id": "I06",
+      "question": "Read 1521 Gotha A379 Latin A, A338 German B and German C independently"
+    },
+    {
+      "id": "I07",
+      "question": "Return to Tentzel A648 1r–53r and 1717 pp1–352 for manuscript to printed narrative variants"
+    },
+    {
+      "id": "I08",
+      "question": "Resume 1692 Seckendorff BookII p139 and 1692 Gotha 120-copy account from earlier versions"
+    },
+    {
+      "id": "I09",
+      "question": "Review 1519/1521 BAKFJ modern-edition CC BY-NC-SA4.0 and Gotha facsimile rights before release"
+    }
+  ],
+  "metrics": {
+    "source_records": 14,
+    "documentary_witnesses": 8,
+    "printed_1718_source_links": 5,
+    "primary_microreadings": 10,
+    "korean_reader_sections": 6,
+    "open_issues": 9,
+    "critical_edition_1519_and_1521_primary_texts_read": 2,
+    "gotha_2025_historic_news_source_transcriptions_read": 1,
+    "original_1718_print_pages_read": 0,
+    "original_gotha_early_manuscript_pages_read": 0,
+    "original_tentzel_a648_pages_read": 0,
+    "previous_1529_k_archive_photo_faces": 2,
+    "previous_1529_conversation_original_pages": 4,
+    "published_items": 0
+  },
+  "structural_distinction": {
+    "first_book": "TENTZEL_CHAPTERS1_TO4_IN_CYPRIAN1717_HISTORICAL_NARRATIVE_PRINT",
+    "second_book": "CYPRIAN1718_INDEPENDENT_EARLY_REFORMATION_SOURCE_COLLECTION",
+    "first_book_year": 1717,
+    "second_book_year": 1718,
+    "manuscript_a648_chapters5_13_not_proven_in_1718_second_book": true,
+    "cyprian1718_p109_111_from_1519_latin_A": true,
+    "cyprian1718_p238_240_from_1521_german_C": true,
+    "academy1521_online_text_uses_german_B": true,
+    "gotha1525_july12_text_directly_read_in_2025_research_blog": true,
+    "sourcebook_1718_printed_page_image_read": false,
+    "gotha_original_folios_directly_read": false
+  }
+}
