@@ -15,7 +15,106 @@
     "external_expert_review": false,
     "webapp_imported": false
   },
-  "sources": [],
+  "sources": [
+    {
+      "id": "AK-REQ-1297",
+      "url": "https://bakfj.saw-leipzig.de/doc/720",
+      "read_tier": "COMPLETE_ACADEMY_WITNESS_CATALOGUE_AND_REGEST",
+      "description": "15 Aug 1521 Weimar Franciscan chapter to Frederick, A Latin outgoing; B Latin copy with Spalatin additions; C Spalatin German translation; D copy of C; text on academy page only detailed German regest, not full original Latin",
+      "original_folio_or_1718_print_page_directly_seen": false
+    },
+    {
+      "id": "AK-REPLY-1298",
+      "url": "https://bakfj.saw-leipzig.de/doc/677",
+      "read_tier": "FULL_GERMAN_B_DRAFT_CRITICAL_TEXT_READ",
+      "description": "After 15 Aug 1521 response, A Latin draft by Melanchthon, B German draft text read, C German copy; source edition maps Cyprian1 A and Cyprian2 C",
+      "original_folio_or_1718_print_page_directly_seen": false
+    },
+    {
+      "id": "CY-1718-I",
+      "url": "https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb11709870-8",
+      "read_tier": "BOOK_DIGITAL_OBJECT_NOT_ACTUAL_PAGE",
+      "description": "1718 Nützliche Urkunden 1: petition German C pp367-371, reply Latin A pp371f. Page images inaccessible",
+      "original_folio_or_1718_print_page_directly_seen": false
+    },
+    {
+      "id": "CY-1718-II",
+      "url": "https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb11286923-2",
+      "read_tier": "BOOK_DIGITAL_OBJECT_NOT_ACTUAL_PAGE",
+      "description": "1718 Der andere Theil Nützlicher Uhrkunden 2: petition Latin A pp234-237 No53, reply German C pp238-240 No54. Page images inaccessible",
+      "original_folio_or_1718_print_page_directly_seen": false
+    },
+    {
+      "id": "SOPHIA-AUTO",
+      "url": "https://kalliope.staatsbibliothek-berlin.de/ead?ead.id=DE-611-HS-3409555",
+      "read_tier": "OFFICIAL_AUTOGRAPH_CATALOGUE",
+      "description": "Sophia von Schafstädt 3 May 1525 to presumed Spalatin, Gotha Chart A338 fol254r-256v, 3 folios, original autograph",
+      "original_folio_or_1718_print_page_directly_seen": false
+    },
+    {
+      "id": "SOPHIA-COPY",
+      "url": "https://kalliope.staatsbibliothek-berlin.de/ead?ead.id=DE-611-HS-3409718",
+      "read_tier": "OFFICIAL_LATER_COPY_CATALOGUE",
+      "description": "Same author and same date, Gotha A338 fol257r-260bv, later copy explicitly OF fol254r-256v, 6 leaves of which 260a/b blank; not independent eyewitness",
+      "original_folio_or_1718_print_page_directly_seen": false
+    },
+    {
+      "id": "GOTHA-BLOG-2025",
+      "url": "https://blog-fbg.uni-erfurt.de/2025/04/dass-wir-nicht-fluechgen-noch-eyn-bosse-hertz-haben-kegen-vnsser-feynde/",
+      "read_tier": "DIRECT_MODERN_SCHOLARLY_BLOG_WITH_1525_EARLY_GERMAN_MICROQUOTES",
+      "description": "Daniel Gehrt April17 2025 Sophia autograph 3 May 1525 Naundorf convent displaced, shelter to Halle, 5 gulden for 16 people, transcribes historical German snippets; not a full diplomatic edition",
+      "original_folio_or_1718_print_page_directly_seen": false
+    },
+    {
+      "id": "JENA-SOPHIA",
+      "url": "https://dhb.thulb.uni-jena.de/receive/ufb_cbu_00015491",
+      "read_tier": "ORIGINAL_MANUSCRIPT_DIGITAL_OBJECT_CHALLENGE",
+      "description": "Sophia autograph digital object cited by Gotha, web anti-bot PoW prevents folio image reading",
+      "original_folio_or_1718_print_page_directly_seen": false
+    },
+    {
+      "id": "KAWERAU-1880",
+      "url": "https://zs.thulb.uni-jena.de/receive/jportal_jparticle_00254558",
+      "read_tier": "PUBLIC_DOMAIN_1880_FULL_TRANSCRIPTION_OBJECT_CHALLENGE",
+      "description": "Gustav Kawerau full Sophia letter published 1880 Zeitschrift des Harz-Vereins 13 pp330-335, Jena anti-bot PoW; not read",
+      "original_folio_or_1718_print_page_directly_seen": false
+    },
+    {
+      "id": "FUCHS-1942",
+      "url": "https://blog-fbg.uni-erfurt.de/2025/04/dass-wir-nicht-fluechgen-noch-eyn-bosse-hertz-haben-kegen-vnsser-feynde/",
+      "read_tier": "MODERN_SCHOLARLY_REFERENCE_FOR_ABRIDGEMENT",
+      "description": "Walther Peter Fuchs 1942 Akten zur Geschichte des Bauernkriegs Bd2 pp186f No1298a shortened version, NOT original or complete",
+      "original_folio_or_1718_print_page_directly_seen": false
+    },
+    {
+      "id": "FRIEDRICH-DEATH",
+      "url": "https://www.deutsche-biographie.de/sfz35638.html",
+      "read_tier": "AUTHORITATIVE_HISTORICAL_PERSON_RECORD",
+      "description": "Elector Frederick III died 5 May 1525 at Lochau, two calendar days after Sophia autograph; cannot infer nonreply cause",
+      "original_folio_or_1718_print_page_directly_seen": false
+    },
+    {
+      "id": "FRIEDRICH-LUTHERMUSEEN",
+      "url": "https://www.luthermuseen.de/en/node/875",
+      "read_tier": "INSTITUTIONAL_DEATH_AND_SPALATIN_BED_REPORT",
+      "description": "LutherMuseen Freidrich May5 1525 death and Spalatin deathbed account, independently corroborates chronology",
+      "original_folio_or_1718_print_page_directly_seen": false
+    },
+    {
+      "id": "GOTHA-NEWS-JUL12",
+      "url": "https://blog-fbg.uni-erfurt.de/2025/06/neue-zeitung-von-den-aufruehrischen-bauern-hin-und-her/",
+      "read_tier": "2025_GOTHA_TRANSCRIPTION_1525_JUL12_RETAINED",
+      "description": "V240 reports July 12 contemporaneous peasants war news; not same text or viewpoint as May3 Sophia autograph",
+      "original_folio_or_1718_print_page_directly_seen": false
+    },
+    {
+      "id": "BAKFJ-PUBLISHER-CITE",
+      "url": "https://api.pageplace.de/preview/DT0400.9783374071739_A43527242/preview-9783374071739_A43527242.pdf",
+      "read_tier": "SCHOLARLY_BIBLIOGRAPHY_1718_TWO_PARTS",
+      "description": "Modern historical critical edition bibliography explicitly distinguishes Cyprian Nützliche Urkunden 1 and 2, printed book content not read",
+      "original_folio_or_1718_print_page_directly_seen": false
+    }
+  ],
   "witnesses": [],
   "print_mappings": [],
   "first_person_microreadings": [],
