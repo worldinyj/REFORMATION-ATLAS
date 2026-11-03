@@ -1,0 +1,216 @@
+{
+  "version": "2.50",
+  "status": "DRAFT",
+  "kind": "READER_SYNTHESIS_WITH_EVIDENCE_LEDGER",
+  "date": "2026-11-03",
+  "parent_commit": "06e02d95b9805539b0be0f03d812acab8248ca5a",
+  "preserved_files": [
+    {
+      "path": "data/deep/atlas_v219_structured_ten_reader_critical_editions.json",
+      "sha256": "0fea005d6592dbc976b46da1d1d9d6f217b4390a2708b304968648a64ad82efb"
+    },
+    {
+      "path": "data/deep/atlas_v245_kawerau_print_florentina_title_and_gess_dependency.json",
+      "sha256": "cf53a2759c4be9da5b0c4d9bdf59f2814c52c13db96b89f3272f3019171a0796"
+    },
+    {
+      "path": "data/deep/atlas_v246_florentina_o91_photographs_sophia_autograph_selected_collation.json",
+      "sha256": "7cbe9c0318673b53fd8bc5edab47c41319133075079bc6b237153c09ad295e97"
+    },
+    {
+      "path": "data/deep/atlas_v247_o90_o91_paired_loci_wa15_printed_apparatus_audit.json",
+      "sha256": "3e6fcb28230670d3e00ca85eae95348805e2651ae1f21a2b56100c57e2eb6004"
+    },
+    {
+      "path": "data/deep/atlas_v248_hab_copy_state_catalogue_audit.json",
+      "sha256": "7bd64727fcc922f17bf27dbb5d550b74c779b0697403de5ada5ada79d11f9f55"
+    },
+    {
+      "path": "data/deep/atlas_v249_b_sheet_selected_state_matrix.json",
+      "sha256": "0acdb364c24a28cb9fa757196e3d7a32ecd925fad0f5e386e8690d5e41a90723"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "E01",
+      "dataset": "data/deep/atlas_v246_florentina_o91_photographs_sophia_autograph_selected_collation.json",
+      "field": "florentina",
+      "locus": "WA15 89–94; O91 A4r–B3v",
+      "level": "PRINT_PHOTO_AND_EDITION",
+      "scope": "플로렌티나 자기변호; 루터와 화자 구분"
+    },
+    {
+      "id": "E02",
+      "dataset": "data/deep/atlas_v245_kawerau_print_florentina_title_and_gess_dependency.json",
+      "field": "page_readings",
+      "locus": "Kawerau331–335",
+      "level": "LATER_PRINT",
+      "scope": "소피아 편지의 후대 인쇄 본문"
+    },
+    {
+      "id": "E03",
+      "dataset": "data/deep/atlas_v245_kawerau_print_florentina_title_and_gess_dependency.json",
+      "field": "transmission",
+      "locus": "Kawerau335–338; Gotha A.123f19",
+      "level": "LATER_PRINT_OF_COPY",
+      "scope": "두 원장 청원과 전달 경로의 한계"
+    },
+    {
+      "id": "E04",
+      "dataset": "data/deep/atlas_v247_o90_o91_paired_loci_wa15_printed_apparatus_audit.json",
+      "field": "paired_loci",
+      "locus": "P04–P08",
+      "level": "SELECTED_ORIGINAL_PRINT_PAIR",
+      "scope": "금전·회수 진술 및 루터 표제"
+    },
+    {
+      "id": "E05",
+      "dataset": "data/deep/atlas_v246_florentina_o91_photographs_sophia_autograph_selected_collation.json",
+      "field": "numeric_review",
+      "locus": "autograph255v / print334",
+      "level": "NUMERIC_PENDING",
+      "scope": "인쇄 숫자 역할 보존; 자필 최종 수치 미승인"
+    },
+    {
+      "id": "E06",
+      "dataset": "data/deep/atlas_v245_kawerau_print_florentina_title_and_gess_dependency.json",
+      "field": "transmission",
+      "locus": "Gess1346 print645",
+      "level": "DEPENDENT_REGEST",
+      "scope": "카베라우에 의존하는 요약; 독립 증언 아님"
+    }
+  ],
+  "reader_sections": [
+    {
+      "id": "R01",
+      "title": "떠날 자유와 남을 삶은 같은 질문의 다른 답인가",
+      "paragraphs": [
+        "1524년 플로렌티나가 자기 경험을 공개했을 때 문제는 자신이 원하지 않은 수도생활을 계속해야 하는가였다. 1525년 소피아가 도움을 요청했을 때 문제는 폭력을 피해 나온 사람들을 누가 보호하고 먹일 것인가였다. 1526년 두 수녀원장의 청원에서는 약탈 이후에도 공동체의 재산과 예배를 회복할 수 있는가가 중심에 놓였다. 세 문서는 종교개혁기의 수도원 여성들을 보여 주지만, 서로 다른 상황에서 서로 다른 선택을 정당화한다.",
+        "이를 개혁의 찬성자와 반대자로 먼저 나누면 당사자의 구체적 요구가 가려진다. 떠나려는 여성과 공동체를 유지하려는 여성 모두 자신의 삶에 대한 요구를 문서로 남겼다는 점에 주목할 수 있다. 다만 이것은 자료를 나란히 읽어 얻는 현대의 비교 관점이다. 세 문서가 서로 답변하거나 공통 운동을 조직했다는 뜻은 아니다."
+      ],
+      "claim_kind": "COMPARATIVE_INTERPRETATION",
+      "evidence": [
+        "E01",
+        "E02",
+        "E03"
+      ]
+    },
+    {
+      "id": "R02",
+      "title": "플로렌티나에게 탈출 이후에도 해명이 필요했던 이유",
+      "paragraphs": [
+        "플로렌티나의 글은 수도원 밖으로 나왔다는 이야기에서 끝나지 않는다. 그는 자신에게 제기된 비난에 대응하고 명예를 회복하려고 글을 쓴다고 설명한다. 자유롭게 선택할 기회를 받지 못했다는 주장은 수도생활의 정당성을 문제 삼지만, 자신의 행동을 독자에게 납득시키는 일도 중요했다. 그래서 이 글은 경험의 기록이면서 자기변호의 문서다.",
+        "이전 탈출 시도의 돈과 은반지, 이후 수도원이 이를 되찾아 갔다는 진술, 최종 탈출 때의 옷과 천은 시점별로 구분해야 한다. 돈과 반지를 가져갔다는 인정은 지우지 않고, 회수되었다는 설명도 그대로 남긴다. 이 대목을 원판에서 확인했다는 사실은 진술의 존재를 확인한 성과다. 반환 장부나 상대편의 증언까지 확보했다는 뜻은 아니다."
+      ],
+      "claim_kind": "PARTICIPANT_SELF_REPORT",
+      "evidence": [
+        "E01",
+        "E04"
+      ]
+    },
+    {
+      "id": "R03",
+      "title": "인쇄된 여성의 목소리를 둘러싼 루터의 말",
+      "paragraphs": [
+        "플로렌티나의 일인칭 글은 루터의 서신 및 후속 발언과 함께 인쇄되었다. 개인이 자유롭게 서원했는가라는 경험의 문제는 루터의 글에서 강요된 종교생활에 대한 일반적 비판으로 확장된다. 두 층위는 서로 연결되지만 같은 화자가 한 말은 아니다. 소책자의 도서관 저자 항목이 루터로 되어 있더라도 플로렌티나의 경험 전체가 루터 자신의 경험으로 바뀌지 않는다.",
+        "원판 B3v의 별도 루터 표제는 이 경계를 눈으로 확인하게 한다. 난외의 논평과 후대 학술판의 편집 선택도 본문과 구분해야 한다. 독자는 누가 겪은 일인지, 누가 그 일을 일반 논증에 사용했는지, 후대 편집자는 어떤 읽기를 골랐는지를 따로 물을 수 있다. 이것이 여성 저자의 목소리를 읽을 때 필요한 전달 구조의 검토다."
+      ],
+      "claim_kind": "TEXTUAL_MEDIATION",
+      "evidence": [
+        "E01",
+        "E04"
+      ]
+    },
+    {
+      "id": "R04",
+      "title": "소피아의 비보복은 피난을 포기한다는 뜻이 아니었다",
+      "paragraphs": [
+        "소피아는 원수에게 저주와 악한 마음을 품지 않겠다는 태도를 말하면서도 실제로 위험을 피해 이동한 과정을 전한다. 저주를 뜻하는 말과 피난을 뜻하는 말은 구별된다. 그가 복음과 형제 사랑의 언어로 폭력을 비판했다는 사실은 수도원 여성의 입장을 복음에 대한 일률적 거부로 설명하기 어렵게 한다.",
+        "편지에는 이동 경로, 보호 요청, 열쇠 인계, 할레 도착 이후의 사정이 이어진다. 종교적 인내와 현실의 안전 확보는 이 문서 안에서 함께 나타난다. 따라서 저주하지 않겠다는 문장을 위험에 계속 머무르라는 행동 규범으로 옮기면 뒤의 서사를 놓친다. 동시에 소피아가 재현한 다른 사람의 말은 편지 속 보고이며, 발언자 자신이 남긴 별도 조서와 같지 않다."
+      ],
+      "claim_kind": "PARTICIPANT_LETTER_WITH_SELECTED_AUTOGRAPH_CHECK",
+      "evidence": [
+        "E02",
+        "E05"
+      ]
+    },
+    {
+      "id": "R05",
+      "title": "피난 공동체의 숫자보다 먼저 읽어야 할 돌봄의 관계",
+      "paragraphs": [
+        "카베라우 인쇄본에서 일부 사람을 연고자에게 맡기는 대목, 원장 곁에 남은 사람들, 먹여 살려야 할 사람들, 사용할 수 있는 현금은 각각 다른 문맥에 놓인다. 인쇄된 14명·16명·17명과 5굴덴을 하나의 시점에서 측정한 인구·재정표처럼 합치면 피난 중 사람들의 배치와 돌봄의 변화를 잃게 된다.",
+        "이 숫자들은 편지가 전하는 궁핍의 구체성을 보여 준다. 그러나 17명을 16명과 원장의 합이라고 확정하거나, 14명과 16명을 더해 원래 수도원의 총원을 계산할 근거로 쓰지는 않는다. 자필의 네 수치에 대한 최종 판독은 아직 승인하지 않았다. 현재 해설은 후대 인쇄본의 읽기와 역할을 보존하며, 자필에서 새 숫자를 확정했다는 주장을 하지 않는다."
+      ],
+      "claim_kind": "LATER_PRINT_NUMBERS_AUTOGRAPH_PENDING",
+      "evidence": [
+        "E02",
+        "E05"
+      ]
+    },
+    {
+      "id": "R06",
+      "title": "공동체를 되살리려면 물건과 문서가 필요했다",
+      "paragraphs": [
+        "1526년 헬프타와 홀첼레의 두 수녀원장은 파괴 이후의 삶을 회복하기 위해 재산과 권리문서의 반환을 요구했다. 청원에서 귀중품과 예배용품, 수입과 재산, 재건과 예배는 서로 떨어진 관심사가 아니다. 공동체가 다시 생활하려면 사용할 물건뿐 아니라 자신들의 권리를 주장할 문서도 필요했다.",
+        "이 청원은 개인의 출구 요구와 다른 형태의 여성 행동을 보여 준다. 그렇다고 청원자의 고발을 모두 확정된 책임으로 바꾸어서는 안 된다. 카베라우가 인쇄한 것은 고타 A.123 19엽의 서기관 필사본에 따른 문서이며, 이번 연구가 두 원장의 자필 원본을 확보한 것은 아니다. 만스펠트 귀족들의 역할도 청원 안의 구분을 보존해야 한다."
+      ],
+      "claim_kind": "PETITION_VIA_LATER_PRINT_OF_SCRIBAL_COPY",
+      "evidence": [
+        "E03"
+      ]
+    },
+    {
+      "id": "R07",
+      "title": "황제에게 호소한 문서와 황제가 읽은 문서는 다르다",
+      "paragraphs": [
+        "청원의 수신인은 카를 황제다. 그러나 수신인이 명시되어 있다는 사실만으로 황제가 문서를 받거나 회답했다고 말할 수는 없다. 카베라우는 전달 경로와 사절단의 사정을 설명하며 실효를 얻기 어려웠을 가능성을 논한다. 이 판단은 청원자의 본문과 별도로 읽어야 하는 후대 편집자의 해석이다.",
+        "게스의 후대 요약은 문서를 식별하는 데 도움이 되지만 카베라우 인쇄를 출전으로 삼는다. 같은 문서가 연구서 둘에 등장한다고 독립 증언이 두 개가 되는 것은 아니다. 또한 1524년 소책자와 1525년 공격 사이의 선후만으로 인과관계를 만들 수 없다. 독자는 문서가 무엇을 요구했는지와 그 요구가 실제로 어떤 결과를 낳았는지를 나누어 보아야 한다."
+      ],
+      "claim_kind": "TRANSMISSION_AND_CAUSAL_LIMIT",
+      "evidence": [
+        "E03",
+        "E06"
+      ]
+    },
+    {
+      "id": "R08",
+      "title": "세 자료를 읽고 종교개혁기의 여성을 다시 묻다",
+      "paragraphs": [
+        "세 문서는 수도원 여성들을 변화의 수동적인 피해자나 개혁의 단일한 상징으로만 그리기 어렵게 한다. 자신의 수도생활을 거부하고 해명한 사람, 피난 공동체를 이끌며 도움을 청한 사람, 공동체의 재산과 예배 회복을 요구한 사람들이 서로 다른 방식으로 기록에 등장한다. 이들의 선택을 한 줄의 진보나 쇠퇴 서사에 맞추기보다 각 문서가 해결하려던 문제를 먼저 살필 필요가 있다.",
+        "노이헬프타와 소피아의 나운도르프는 다른 공동체다. 플로렌티나와 소피아, 두 원장을 같은 인물이나 동일한 사건의 화자로 합치지 않는다. 원판 철자와 편집 기호를 검토한 지난 단계들은 이러한 역사 서술의 근거를 좁고 정확하게 만들기 위한 작업이었다. 이번 해설은 그 결과를 독자가 읽을 수 있는 비교로 연결한 초안이며, 남아 있는 자필 판독과 전달 여부의 문제를 해결한 최종 판정은 아니다."
+      ],
+      "claim_kind": "COMPARATIVE_INTERPRETATION",
+      "evidence": [
+        "E01",
+        "E02",
+        "E03"
+      ]
+    }
+  ],
+  "guards": {
+    "new_original_faces": 0,
+    "new_numeric_approval": false,
+    "petition_autograph_seen": false,
+    "emperor_receipt_proven": false,
+    "Gess_independent_witness": false,
+    "pamphlet_caused_1525_attack": false,
+    "full_edition_collation_complete": false,
+    "same_convent_for_all_women": false,
+    "public_historical_review_approved": false
+  },
+  "publication_gate": {
+    "merge": false,
+    "publish": false,
+    "deploy": false,
+    "main_changed": false,
+    "webapp_changed": false
+  },
+  "metrics": {
+    "reader_sections": 8,
+    "reader_paragraphs": 16,
+    "evidence_records": 6,
+    "new_original_faces": 0,
+    "core_essays": 10,
+    "core_sentences": 543
+  }
+}

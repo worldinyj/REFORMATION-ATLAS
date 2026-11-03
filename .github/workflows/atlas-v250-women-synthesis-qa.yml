@@ -1,0 +1,33 @@
+name: Atlas V250 women three-perspective synthesis QA
+on:
+  push:
+    branches: ['research/**']
+    paths:
+      - 'data/deep/atlas_v250_women_three_perspectives_synthesis.json'
+      - 'docs/01_CONTENT/V250_WOMEN_THREE_PERSPECTIVES_SYNTHESIS_REPORT.md'
+      - 'scripts/validate_atlas_v250.py'
+      - '.github/workflows/atlas-v250-women-synthesis-qa.yml'
+  pull_request:
+    branches: ['research/**']
+    paths:
+      - 'data/deep/atlas_v250_women_three_perspectives_synthesis.json'
+      - 'docs/01_CONTENT/V250_WOMEN_THREE_PERSPECTIVES_SYNTHESIS_REPORT.md'
+      - 'scripts/validate_atlas_v250.py'
+      - '.github/workflows/atlas-v250-women-synthesis-qa.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Historical research V219 to V250 regression
+        run: |
+          set -e
+          for version in $(seq 219 250); do
+            python3 "scripts/validate_atlas_v${version}.py"
+          done
