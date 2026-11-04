@@ -1,0 +1,612 @@
+{
+  "version": "2.75",
+  "kind": "MEDIUM_DEPTH_RELIGIOUS_OTHERS",
+  "depth": "MEDIUM",
+  "status": "DRAFT",
+  "parent_commit": "f46e291e6b5e9a9f7049f5b73980f08a94d2f001",
+  "preserved_inputs": [
+    {
+      "path": "data/deep/atlas_v274_medium_depth_english_bibles.json",
+      "sha256": "fefdce693d0e961d10638f9ed8ed620391c4250eeaaa3caab8d7c20bd4af3cea"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S01",
+      "title": "SLUB 드레스덴: 종교개혁 전시 「Fremde」",
+      "url": "https://www.slub-dresden.de/en/besuchen/ausstellungen-corty-galerie/archiv-der-ausstellungen/ausstellungen-2017/wie-luthers-worte-fliegen-lernten-handschriften-und-flugschriften-der-reformation/fremde",
+      "scope": "MODERN_LIBRARY_EXHIBITION_COMMENTARY"
+    },
+    {
+      "id": "S02",
+      "title": "Luther2017: 루터와 유대인에 관한 문답",
+      "url": "https://www.luther2017.de/de/wiki/martin-luther-und-die-juden/martin-luther-und-die-juden-fragen-und-antworten/index.html",
+      "scope": "MODERN_HISTORICAL_INTERPRETATION_NOT_PRIMARY_TEXT"
+    },
+    {
+      "id": "S03",
+      "title": "합스부르크 역사 전시: 오스만 제국과 모하치 전투",
+      "url": "https://www.habsburger.net/en/chapter/new-great-power-south-east-europe-ottoman-empire",
+      "scope": "MODERN_MUSEUM_HISTORY_COMMENTARY"
+    },
+    {
+      "id": "S04",
+      "title": "합스부르크 역사 전시: 1529년 빈 포위와 헝가리의 분할",
+      "url": "https://www.habsburger.net/en/chapter/turk-gates-vienna-episode-1",
+      "scope": "MODERN_MUSEUM_HISTORY_COMMENTARY"
+    }
+  ],
+  "source_scope_note": "도서관·역사 전시 및 현대 해설을 이용한 중간 깊이 개설이다. 1523·1529·1543년 인쇄면 신규 판독은 없다. SLUB의 「군대 설교」 전시본은 1542년 재판이며, 해설이 설명하는 저술의 최초 출판은 1529년이다. 루터의 적대적 묘사는 그의 관점으로 서술했다. 종교 공존 및 독서상의 의미를 잇는 문장은 편집 해설이다.",
+  "chapters": [
+    {
+      "id": "THEME-LUTHER_JEWS",
+      "title": "루터와 유대인 — 개종의 기대에서 박해의 요구로",
+      "lead": "종교개혁의 자유와 신앙을 이야기할 때 유대인에 대한 배제도 함께 살펴야 한다. 루터의 태도에서는 처우에 관한 변화와 개종을 전제로 한 시각의 지속이 함께 드러난다.",
+      "sections": [
+        {
+          "heading": "1523년의 우호적 권고와 그 조건",
+          "body": "루터는 1523년 『예수 그리스도는 유대인으로 태어나셨다』에서 유대인을 친절하게 대하고 그들에 관한 거짓 이야기를 배척하라고 권했다. 그러나 그 바탕에는 개혁된 그리스도교를 접하면 유대인도 예수를 메시아로 받아들일 것이라는 기대가 있었다. 이 권고를 오늘날의 종교적 평등과 같은 뜻으로 읽으면 당시 주장의 조건을 놓치게 된다."
+        },
+        {
+          "heading": "1543년의 폭력적 요구",
+          "body": "1543년 『유대인과 그들의 거짓말에 관하여』 등에서 루터는 회당과 종교 서적의 소각, 예배 금지, 재산 박탈과 추방을 요구했다. 이는 교리의 차이를 비판하는 데서 그치지 않고 공동체의 생존 조건을 공격한 주장이었다. 개종에 대한 실망은 그 변화의 맥락이지만 박해를 정당화하는 근거가 될 수 없다. 루터가 요구한 조치와 각 지역 당국의 실제 시행은 구분해서 확인해야 한다."
+        },
+        {
+          "heading": "시대의 배경과 후대의 이용",
+          "body": "그리스도교의 반유대적 전통은 루터 이전에도 존재했다. 그 배경을 설명하더라도 그의 구체적인 요구와 책임을 흐려서는 안 된다. SLUB 전시 해설은 그의 후기 저술이 19세기 말부터 반유대주의자들에게 적극적으로 이용되었다고 설명한다. 16세기의 저술과 후대의 수용을 나누어 살피면 서로 다른 시대를 한 원인으로 묶지 않으면서도 배제의 언어가 남긴 영향을 볼 수 있다."
+        }
+      ],
+      "reading_question": "친절한 처우를 권하면서도 상대의 개종을 기대하는 태도는 신앙의 공존에 어떤 한계를 남길까?",
+      "sources": [
+        "S01",
+        "S02"
+      ],
+      "related_readers": [
+        "MEDIUM-LUTHER1517",
+        "PERSON-CASTELLIO",
+        "THEME-SCRIPTURE_AUTHORITY"
+      ],
+      "status": "EDITORIAL_DRAFT"
+    },
+    {
+      "id": "GLOBAL-OTTOMAN",
+      "title": "오스만 제국 — 전쟁과 종교적 해석, 동맹이 교차하다",
+      "lead": "종교개혁은 서유럽 교회 내부의 논쟁만으로 전개되지 않았다. 오스만 제국의 진출과 헝가리의 권력 경쟁은 개혁자들이 신앙과 통치를 설명하는 환경이기도 했다.",
+      "sections": [
+        {
+          "heading": "1526년 모하치에서 1529년 빈으로",
+          "body": "1526년 모하치 전투에서 헝가리 국왕 러요시2세가 전사한 뒤 페르디난트와 서포여이 야노시가 왕위를 다투었다. 오스만 제국은 야노시를 지원했고 1529년에는 빈을 포위했으나 점령하지 못했다. 군사적 위기에는 왕위 계승과 영토의 문제가 얽혀 있었다. 이를 그리스도교와 이슬람이 단일한 두 진영으로 싸운 사건으로만 설명하면 같은 그리스도교권 내부의 경쟁을 놓친다."
+        },
+        {
+          "heading": "루터의 방어전 주장과 종교적 적대",
+          "body": "루터는 1529년 오스만과의 전쟁을 다룬 글들에서 회개와 기도를 촉구하고 무력 방어를 지지했다. 그는 방어전을 지지하면서 십자군 전쟁에는 반대했다. 그러나 오스만을 그리스도교 세계에 대한 징벌과 악마의 도구로 묘사하기도 했다. 전쟁의 성격을 구분한 사실과 상대 종교에 적대적이었던 사실을 함께 보아야 한다. 그의 묘사를 무슬림의 실제 신앙생활에 대한 설명으로 사용해서는 안 된다."
+        },
+        {
+          "heading": "동맹과 분할이 만든 지역의 조건",
+          "body": "헝가리의 일부 귀족은 오스만과 동맹을 맺었고 페르디난트도 술탄과 휴전을 협상했다. 이후 헝가리 지역은 합스부르크 지배 지역, 오스만의 직접 지배 지역, 오스만의 종주권 아래 놓인 동부의 트란실바니아로 나뉘었다. 이런 정치적 차이는 기존 트란실바니아 해설을 읽는 배경이 된다. 다만 오스만의 영향만으로 그 지역의 종교적 공존을 모두 설명할 수는 없다."
+        }
+      ],
+      "reading_question": "종교적 적대의 언어와 실제 외교·동맹 관계를 구분하면 당시 전쟁에 대한 설명은 어떻게 달라질까?",
+      "sources": [
+        "S01",
+        "S03",
+        "S04"
+      ],
+      "related_readers": [
+        "REGION-TRANSYLVANIA",
+        "THEME-CITY_POWER",
+        "THEME-AUGSBURG_PEACE"
+      ],
+      "status": "EDITORIAL_DRAFT"
+    }
+  ],
+  "catalogue": [
+    {
+      "id": "MEDIUM-WYCLIFFE",
+      "title": "위클리프 — 교회의 권위는 무엇으로 판단하는가",
+      "summary": "위클리프는 교회의 권위를 직위와 재산만으로 판단할 수 있는지 물었다. 그의 문제 제기는 중세 교회 안의 논쟁에서 출발했다.",
+      "dataset": "data/deep/atlas_v254_medium_depth_ten_readers.json",
+      "chapter_index": 0,
+      "reader_document": "docs/01_CONTENT/V254_MEDIUM_DEPTH_TEN_READERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "MEDIUM-HUS",
+      "title": "후스 — 설교와 교회 개혁이 보헤미아의 문제가 되다",
+      "summary": "후스의 개혁은 프라하의 설교와 대학, 지역 정치가 만나는 자리에서 자랐다. 그는 위클리프의 영향을 받았지만 독자적인 상황에서 행동했다.",
+      "dataset": "data/deep/atlas_v254_medium_depth_ten_readers.json",
+      "chapter_index": 1,
+      "reader_document": "docs/01_CONTENT/V254_MEDIUM_DEPTH_TEN_READERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "MEDIUM-LUTHER1517",
+      "title": "1517년 루터 — 면벌부 논쟁은 왜 커졌는가",
+      "summary": "95개 논제는 완성된 새 교파의 선언문이 아니라 회개와 교회의 권한을 둘러싼 토론 요청이었다. 그 논쟁은 인쇄와 지역 정치 속에서 확대되었다.",
+      "dataset": "data/deep/atlas_v254_medium_depth_ten_readers.json",
+      "chapter_index": 2,
+      "reader_document": "docs/01_CONTENT/V254_MEDIUM_DEPTH_TEN_READERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "MEDIUM-LUTHER1521",
+      "title": "1521년 보름스 — 양심과 제국의 권력이 충돌하다",
+      "summary": "보름스에서 루터는 저술의 철회를 요구받았다. 그의 양심은 개인 취향의 자유라기보다 성경에 근거해 설득되어야 한다는 신앙적 판단과 연결되었다.",
+      "dataset": "data/deep/atlas_v254_medium_depth_ten_readers.json",
+      "chapter_index": 3,
+      "reader_document": "docs/01_CONTENT/V254_MEDIUM_DEPTH_TEN_READERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "MEDIUM-MARBURG",
+      "title": "마르부르크 회담 — 같은 개혁 진영이 왜 하나가 되지 못했는가",
+      "summary": "1529년 마르부르크에서 개혁자들은 많은 공통점을 확인했지만 성찬 이해의 차이를 끝내 해소하지 못했다. 정치적 연합과 신학적 일치는 별개의 과제였다.",
+      "dataset": "data/deep/atlas_v254_medium_depth_ten_readers.json",
+      "chapter_index": 4,
+      "reader_document": "docs/01_CONTENT/V254_MEDIUM_DEPTH_TEN_READERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "MEDIUM-AUGSBURG",
+      "title": "아우크스부르크 신앙고백 — 개혁의 신앙을 공적으로 설명하다",
+      "summary": "1530년 신앙고백은 개혁 진영의 믿음을 제국의회 앞에서 설명하려는 문서였다. 논쟁의 언어가 공동체의 공적 고백으로 정리되는 과정이었다.",
+      "dataset": "data/deep/atlas_v254_medium_depth_ten_readers.json",
+      "chapter_index": 5,
+      "reader_document": "docs/01_CONTENT/V254_MEDIUM_DEPTH_TEN_READERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "MEDIUM-CALVIN1536",
+      "title": "1536년 『기독교강요』 — 가르침과 변호를 위한 작은 책",
+      "summary": "초판 『기독교강요』는 신앙을 배우는 독자를 위한 안내이자 박해받는 신자들의 믿음을 변호하는 책이었다. 처음부터 최종판의 거대한 체계로 나온 것은 아니다.",
+      "dataset": "data/deep/atlas_v254_medium_depth_ten_readers.json",
+      "chapter_index": 6,
+      "reader_document": "docs/01_CONTENT/V254_MEDIUM_DEPTH_TEN_READERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "MEDIUM-CALVIN1559",
+      "title": "1559년 『기독교강요』 — 신앙을 배우는 순서를 만들다",
+      "summary": "최종 라틴어판은 네 권80장으로 신학을 재배열했다. 예정론 한 주제보다 창조·구속·신앙의 삶·교회를 연결하는 전체 흐름이 중요하다.",
+      "dataset": "data/deep/atlas_v254_medium_depth_ten_readers.json",
+      "chapter_index": 7,
+      "reader_document": "docs/01_CONTENT/V254_MEDIUM_DEPTH_TEN_READERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "MEDIUM-ZWINGLI",
+      "title": "츠빙글리와 취리히 — 도시가 개혁을 결정하다",
+      "summary": "취리히 개혁은 설교자의 성경 해석과 시의회의 결정이 맞물린 공공개혁이었다. 예배의 변화는 도시의 재산과 질서, 주민의 생활까지 바꾸었다.",
+      "dataset": "data/deep/atlas_v254_medium_depth_ten_readers.json",
+      "chapter_index": 8,
+      "reader_document": "docs/01_CONTENT/V254_MEDIUM_DEPTH_TEN_READERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "MEDIUM-TRENT",
+      "title": "트리엔트 공의회 — 가톨릭교회는 어떻게 개혁했는가",
+      "summary": "트리엔트 공의회는 개신교 비판에 대응하면서 가톨릭의 교리를 명확히 하고 성직자 교육과 교회 운영을 개혁했다. 논쟁과 내부 쇄신이 함께 진행되었다.",
+      "dataset": "data/deep/atlas_v254_medium_depth_ten_readers.json",
+      "chapter_index": 9,
+      "reader_document": "docs/01_CONTENT/V254_MEDIUM_DEPTH_TEN_READERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "THEME-PRINT_TRANSLATION",
+      "title": "인쇄와 번역 — 논쟁은 어떻게 사람들에게 도달했는가",
+      "summary": "종교개혁은 주장만으로 확산되지 않았다. 인쇄와 번역은 논쟁이 이동하는 속도와 독자의 범위를 바꾸었다.",
+      "dataset": "data/deep/atlas_v255_medium_depth_social_themes.json",
+      "chapter_index": 0,
+      "reader_document": "docs/01_CONTENT/V255_MEDIUM_DEPTH_SOCIAL_THEMES.md",
+      "section_count": 3
+    },
+    {
+      "id": "THEME-CITY_POWER",
+      "title": "도시와 정치권력 — 누가 개혁을 실행했는가",
+      "summary": "설교자가 변화를 주장해도 도시 전체의 예배와 생활을 바꾸려면 실행할 권력이 필요했다. 취리히에서는 시의회가 중요한 역할을 맡았다.",
+      "dataset": "data/deep/atlas_v255_medium_depth_social_themes.json",
+      "chapter_index": 1,
+      "reader_document": "docs/01_CONTENT/V255_MEDIUM_DEPTH_SOCIAL_THEMES.md",
+      "section_count": 3
+    },
+    {
+      "id": "THEME-WOMEN_FAMILY",
+      "title": "여성과 가족 — 변화는 누구에게 어떤 기회를 주었는가",
+      "summary": "종교개혁기의 여성은 개혁자의 아내나 수녀라는 한 가지 역할로만 설명되지 않는다. 교육과 가정, 종교적 선택의 변화는 서로 다른 기회와 제약을 만들었다.",
+      "dataset": "data/deep/atlas_v255_medium_depth_social_themes.json",
+      "chapter_index": 2,
+      "reader_document": "docs/01_CONTENT/V255_MEDIUM_DEPTH_SOCIAL_THEMES.md",
+      "section_count": 3
+    },
+    {
+      "id": "THEME-EDUCATION",
+      "title": "학교와 교육 — 신앙을 배우는 일이 공공의 과제가 되다",
+      "summary": "개혁자들은 성경과 신앙을 이해할 독자를 필요로 했다. 학교는 교회의 문제이면서 도시가 책임져야 할 과제로도 논의되었다.",
+      "dataset": "data/deep/atlas_v255_medium_depth_social_themes.json",
+      "chapter_index": 3,
+      "reader_document": "docs/01_CONTENT/V255_MEDIUM_DEPTH_SOCIAL_THEMES.md",
+      "section_count": 3
+    },
+    {
+      "id": "THEME-PEASANTS_WAR",
+      "title": "농민전쟁 — 복음의 자유는 사회 질서의 변화도 뜻했는가",
+      "summary": "1524~1525년 농민전쟁은 종교개혁의 언어가 사회적 요구와 만난 사건이었다. 그러나 모든 원인을 루터의 가르침 하나로 설명할 수는 없다.",
+      "dataset": "data/deep/atlas_v255_medium_depth_social_themes.json",
+      "chapter_index": 4,
+      "reader_document": "docs/01_CONTENT/V255_MEDIUM_DEPTH_SOCIAL_THEMES.md",
+      "section_count": 3
+    },
+    {
+      "id": "REGION-ENGLAND",
+      "title": "잉글랜드 — 왕권과 의회가 교회의 질서를 바꾸다",
+      "summary": "잉글랜드의 종교개혁은 로마와의 결별에서 시작했지만, 교리와 예배의 변화는 여러 군주의 통치를 거치며 진전과 반전을 반복했다.",
+      "dataset": "data/deep/atlas_v256_medium_depth_regional_readers.json",
+      "chapter_index": 0,
+      "reader_document": "docs/01_CONTENT/V256_MEDIUM_DEPTH_REGIONAL_READERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "REGION-FRANCE",
+      "title": "프랑스 — 종교적 분열은 왜 내전으로 이어졌는가",
+      "summary": "프랑스에서는 개혁 신앙의 확산과 왕권·귀족의 경쟁이 겹치며 종교전쟁이 이어졌다. 낭트 칙령은 그 갈등을 제한된 공존으로 다스리려는 시도였다.",
+      "dataset": "data/deep/atlas_v256_medium_depth_regional_readers.json",
+      "chapter_index": 1,
+      "reader_document": "docs/01_CONTENT/V256_MEDIUM_DEPTH_REGIONAL_READERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "REGION-LOW_COUNTRIES",
+      "title": "네덜란드 지역 — 신앙 갈등과 지배에 대한 저항이 만나다",
+      "summary": "네덜란드 지역의 종교개혁은 합스부르크 통치에 대한 저항과 얽혔다. 그러나 독립을 원하는 모든 사람이 같은 신앙을 가진 것은 아니었다.",
+      "dataset": "data/deep/atlas_v256_medium_depth_regional_readers.json",
+      "chapter_index": 2,
+      "reader_document": "docs/01_CONTENT/V256_MEDIUM_DEPTH_REGIONAL_READERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "REGION-SCOTLAND",
+      "title": "스코틀랜드 — 설교와 귀족 연합, 국제정치가 함께 만든 개혁",
+      "summary": "스코틀랜드의 종교개혁은 존 녹스의 설교만으로 이루어지지 않았다. 귀족들의 연합과 의회, 프랑스·잉글랜드의 개입이 변화의 조건을 만들었다.",
+      "dataset": "data/deep/atlas_v256_medium_depth_regional_readers.json",
+      "chapter_index": 3,
+      "reader_document": "docs/01_CONTENT/V256_MEDIUM_DEPTH_REGIONAL_READERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "REGION-DENMARK_NORWAY",
+      "title": "덴마크·노르웨이 — 왕권이 이끈 개혁과 생활 속의 느린 변화",
+      "summary": "1536~1537년 루터교 질서의 도입은 교회와 왕권의 관계를 바꾸었다. 그러나 제도의 변화와 주민들의 신앙생활 변화는 같은 속도로 진행되지 않았다.",
+      "dataset": "data/deep/atlas_v257_medium_depth_north_east_regions.json",
+      "chapter_index": 0,
+      "reader_document": "docs/01_CONTENT/V257_MEDIUM_DEPTH_NORTH_EAST_REGIONS.md",
+      "section_count": 3
+    },
+    {
+      "id": "REGION-SWEDEN",
+      "title": "스웨덴 — 교회 재산의 변화에서 루터교 고백의 확립까지",
+      "summary": "스웨덴의 종교개혁은1527년의 정치·경제적 전환과1593년의 신앙고백 확립 사이에 긴 과정을 거쳤다. 시작과 정착을 같은 사건으로 묶지 않는 것이 중요하다.",
+      "dataset": "data/deep/atlas_v257_medium_depth_north_east_regions.json",
+      "chapter_index": 1,
+      "reader_document": "docs/01_CONTENT/V257_MEDIUM_DEPTH_NORTH_EAST_REGIONS.md",
+      "section_count": 3
+    },
+    {
+      "id": "REGION-POLAND_LITHUANIA",
+      "title": "폴란드-리투아니아 — 종교가 달라도 정치적 평화를 지킬 수 있는가",
+      "summary": "1573년 바르샤바 연맹은 신앙이 다른 사람들이 폭력 없이 함께 살 조건을 약속했다. 이 공존은 귀족 중심의 정치질서 속에서 이해해야 한다.",
+      "dataset": "data/deep/atlas_v257_medium_depth_north_east_regions.json",
+      "chapter_index": 2,
+      "reader_document": "docs/01_CONTENT/V257_MEDIUM_DEPTH_NORTH_EAST_REGIONS.md",
+      "section_count": 3
+    },
+    {
+      "id": "REGION-TRANSYLVANIA",
+      "title": "트란실바니아 — 공동체가 받아들일 설교자를 선택하다",
+      "summary": "헝가리어권 종교개혁의 중요한 무대였던 트란실바니아에서는1568년 토르더 의회가 설교와 공동체의 선택을 보호했다. 공존의 성과와 적용 범위를 함께 보아야 한다.",
+      "dataset": "data/deep/atlas_v257_medium_depth_north_east_regions.json",
+      "chapter_index": 3,
+      "reader_document": "docs/01_CONTENT/V257_MEDIUM_DEPTH_NORTH_EAST_REGIONS.md",
+      "section_count": 3
+    },
+    {
+      "id": "THEME-ANABAPTISTS",
+      "title": "재세례파 — 교회의 구성원은 어떻게 되는가",
+      "summary": "재세례파는 종교개혁 내부에서 세례와 신앙 공동체의 경계를 다시 물었다. 한 이름 아래 여러 흐름이 있었으므로 모두를 하나의 집단처럼 설명하면 안 된다.",
+      "dataset": "data/deep/atlas_v258_medium_depth_conflict_settlements.json",
+      "chapter_index": 0,
+      "reader_document": "docs/01_CONTENT/V258_MEDIUM_DEPTH_CONFLICT_SETTLEMENTS.md",
+      "section_count": 3
+    },
+    {
+      "id": "THEME-CATHOLIC_RENEWAL",
+      "title": "가톨릭 내부 개혁과 예수회 — 논쟁을 넘어 교육과 실천으로",
+      "summary": "가톨릭의 변화는 개신교 비판에 대한 대응과 내부 쇄신의 필요가 함께 이끌었다. 예수회는 교육과 선교를 통해 그 변화를 실천한 중요한 조직이었다.",
+      "dataset": "data/deep/atlas_v258_medium_depth_conflict_settlements.json",
+      "chapter_index": 1,
+      "reader_document": "docs/01_CONTENT/V258_MEDIUM_DEPTH_CONFLICT_SETTLEMENTS.md",
+      "section_count": 3
+    },
+    {
+      "id": "THEME-AUGSBURG_PEACE",
+      "title": "1555년 아우크스부르크 화의 — 일치하지 못해도 싸움을 멈출 수 있는가",
+      "summary": "아우크스부르크 화의는 가톨릭과 루터교 사이의 신학적 차이를 해소하지 않고도 제국 안의 평화를 유지하려는 정치적 합의였다.",
+      "dataset": "data/deep/atlas_v258_medium_depth_conflict_settlements.json",
+      "chapter_index": 2,
+      "reader_document": "docs/01_CONTENT/V258_MEDIUM_DEPTH_CONFLICT_SETTLEMENTS.md",
+      "section_count": 3
+    },
+    {
+      "id": "THEME-WAR_WESTPHALIA",
+      "title": "30년전쟁과 베스트팔렌 평화 — 종교적 차이를 다루는 질서를 다시 만들다",
+      "summary": "1618~1648년의 전쟁은 신앙 갈등과 왕조·영방의 권력 경쟁이 얽힌 전쟁이었다. 평화는 교파를 하나로 합치기보다 차이를 관리할 장치를 마련했다.",
+      "dataset": "data/deep/atlas_v258_medium_depth_conflict_settlements.json",
+      "chapter_index": 3,
+      "reader_document": "docs/01_CONTENT/V258_MEDIUM_DEPTH_CONFLICT_SETTLEMENTS.md",
+      "section_count": 3
+    },
+    {
+      "id": "THEME-SCRIPTURE_AUTHORITY",
+      "title": "성경과 교회의 권위 — 무엇을 최종 기준으로 삼는가",
+      "summary": "종교개혁의 권위 논쟁은 성경을 소중히 여기는 사람과 그렇지 않은 사람의 대립이 아니었다. 성경과 전통,교회의 가르침을 어떤 관계에 놓을지가 쟁점이었다.",
+      "dataset": "data/deep/atlas_v260_medium_depth_core_comparisons.json",
+      "chapter_index": 0,
+      "reader_document": "docs/01_CONTENT/V260_MEDIUM_DEPTH_CORE_COMPARISONS.md",
+      "section_count": 3
+    },
+    {
+      "id": "THEME-GRACE_FAITH_WORKS",
+      "title": "은혜·믿음·행위 — 무엇이 사람을 의롭게 하는가",
+      "summary": "의롭다 함의 논쟁은 사람이 자신의 힘으로 구원을 얻을 수 있는지,하나님의 은혜를 어떻게 받아들이며 그 은혜가 삶을 어떻게 바꾸는지를 물었다.",
+      "dataset": "data/deep/atlas_v260_medium_depth_core_comparisons.json",
+      "chapter_index": 1,
+      "reader_document": "docs/01_CONTENT/V260_MEDIUM_DEPTH_CORE_COMPARISONS.md",
+      "section_count": 3
+    },
+    {
+      "id": "THEME-COMMUNION",
+      "title": "성찬 — 같은 식탁을 두고 왜 다른 설명이 나왔는가",
+      "summary": "성찬 논쟁은 예배의 사소한 형식보다 그리스도의 약속과 임재,신앙 공동체가 은혜를 경험하는 방식을 다룬 문제였다.",
+      "dataset": "data/deep/atlas_v260_medium_depth_core_comparisons.json",
+      "chapter_index": 2,
+      "reader_document": "docs/01_CONTENT/V260_MEDIUM_DEPTH_CORE_COMPARISONS.md",
+      "section_count": 3
+    },
+    {
+      "id": "GLOBAL-AMERICAS",
+      "title": "아메리카 — 정복과 선교 사이에서 바뀐 신앙의 언어",
+      "summary": "대서양 건너의 종교 변화는 스페인의 정복, 선교사의 번역, 원주민 공동체의 대응이 얽힌 역사였다.",
+      "dataset": "data/deep/atlas_v261_medium_depth_global_connections.json",
+      "chapter_index": 0,
+      "reader_document": "docs/01_CONTENT/V261_MEDIUM_DEPTH_GLOBAL_CONNECTIONS.md",
+      "section_count": 3
+    },
+    {
+      "id": "GLOBAL-INDIA_JAPAN",
+      "title": "인도와 일본 — 같은 선교망, 서로 다른 정치 환경",
+      "summary": "고아와 일본을 잇는 항로는 사람과 물품뿐 아니라 신앙을 실어 날랐지만, 각 지역의 수용 조건은 달랐다.",
+      "dataset": "data/deep/atlas_v261_medium_depth_global_connections.json",
+      "chapter_index": 1,
+      "reader_document": "docs/01_CONTENT/V261_MEDIUM_DEPTH_GLOBAL_CONNECTIONS.md",
+      "section_count": 3
+    },
+    {
+      "id": "GLOBAL-CHINA",
+      "title": "중국 — 세계지도를 함께 만들며 시작한 대화",
+      "summary": "마테오 리치의 지도는 선교와 지식 교류가 만나는 자리였으며, 중국의 독자와 협력자들이 그 형태를 바꾸었다.",
+      "dataset": "data/deep/atlas_v261_medium_depth_global_connections.json",
+      "chapter_index": 2,
+      "reader_document": "docs/01_CONTENT/V261_MEDIUM_DEPTH_GLOBAL_CONNECTIONS.md",
+      "section_count": 3
+    },
+    {
+      "id": "THEME-MUSIC_SINGING",
+      "title": "음악과 찬송 — 신앙을 함께 부르는 사람들",
+      "summary": "종교개혁의 음악은 교리를 전하는 매체이자 공동체가 예배에 참여하는 방식이었다. 루터교와 개혁교회는 서로 다른 노래의 문화를 발전시켰다.",
+      "dataset": "data/deep/atlas_v263_medium_depth_worship_and_care.json",
+      "chapter_index": 0,
+      "reader_document": "docs/01_CONTENT/V263_MEDIUM_DEPTH_WORSHIP_AND_CARE.md",
+      "section_count": 3
+    },
+    {
+      "id": "THEME-IMAGES_SPACE",
+      "title": "성상과 교회 공간 — 무엇을 보고 어디에 귀를 기울였는가",
+      "summary": "그림과 조각을 둘러싼 논쟁은 장식의 취향보다 예배와 신앙의 관계를 다루었다. 성상에 대한 개혁자들의 판단과 현장의 행동도 서로 달랐다.",
+      "dataset": "data/deep/atlas_v263_medium_depth_worship_and_care.json",
+      "chapter_index": 1,
+      "reader_document": "docs/01_CONTENT/V263_MEDIUM_DEPTH_WORSHIP_AND_CARE.md",
+      "section_count": 3
+    },
+    {
+      "id": "THEME-POOR_RELIEF",
+      "title": "빈민 구제 — 교회 재산이 바뀔 때 누가 돌봄을 맡았는가",
+      "summary": "교회 조직과 재산의 개편은 가난한 사람들을 돕는 재원과 책임의 문제로 이어졌다. 새로운 구제 제도의 설계와 실제 성과는 구별해서 읽어야 한다.",
+      "dataset": "data/deep/atlas_v263_medium_depth_worship_and_care.json",
+      "chapter_index": 2,
+      "reader_document": "docs/01_CONTENT/V263_MEDIUM_DEPTH_WORSHIP_AND_CARE.md",
+      "section_count": 3
+    },
+    {
+      "id": "PERSON-ERASMUS",
+      "title": "에라스무스 — 같은 성경 연구가 같은 개혁으로 이어지지는 않았다",
+      "summary": "에라스무스의 인문주의는 성경과 초기 그리스도교의 자료로 돌아가려는 학문이었다. 그 작업은 개혁자들에게 영향을 주었지만 교회의 분열을 지지하는 입장으로 이어지지는 않았다.",
+      "dataset": "data/deep/atlas_v264_medium_depth_humanists_and_mediators.json",
+      "chapter_index": 0,
+      "reader_document": "docs/01_CONTENT/V264_MEDIUM_DEPTH_HUMANISTS_AND_MEDIATORS.md",
+      "section_count": 3
+    },
+    {
+      "id": "PERSON-MELANCHTHON",
+      "title": "멜란히톤 — 개혁을 가르치고 공적인 문장으로 정리하다",
+      "summary": "멜란히톤은 루터의 동료이면서 교육과 신학의 조직에 독자적인 역할을 한 인물이었다. 대학의 언어 연구와 교회의 신앙고백이 그의 작업 안에서 만났다.",
+      "dataset": "data/deep/atlas_v264_medium_depth_humanists_and_mediators.json",
+      "chapter_index": 1,
+      "reader_document": "docs/01_CONTENT/V264_MEDIUM_DEPTH_HUMANISTS_AND_MEDIATORS.md",
+      "section_count": 3
+    },
+    {
+      "id": "PERSON-BUCER",
+      "title": "마르틴 부처 — 스트라스부르에서 서로 다른 개혁을 잇다",
+      "summary": "부처는 스트라스부르의 개혁자로서 성경 교육과 교회의 일치를 추구했다. 그의 활동은 종교개혁 진영 안의 차이와 도시 사이의 연결을 함께 보여 준다.",
+      "dataset": "data/deep/atlas_v264_medium_depth_humanists_and_mediators.json",
+      "chapter_index": 2,
+      "reader_document": "docs/01_CONTENT/V264_MEDIUM_DEPTH_HUMANISTS_AND_MEDIATORS.md",
+      "section_count": 3
+    },
+    {
+      "id": "THEME-REFUGEES",
+      "title": "종교 난민 — 같은 믿음의 도시에서 다시 삶을 꾸리다",
+      "summary": "종교적 박해는 사람들을 이동하게 했다. 피난처가 된 도시에서는 신앙의 연대와 함께 거주, 생계, 정치적 소속의 문제가 생겼다.",
+      "dataset": "data/deep/atlas_v265_medium_depth_belief_and_boundaries.json",
+      "chapter_index": 0,
+      "reader_document": "docs/01_CONTENT/V265_MEDIUM_DEPTH_BELIEF_AND_BOUNDARIES.md",
+      "section_count": 3
+    },
+    {
+      "id": "THEME-CENSORSHIP",
+      "title": "인쇄물 검열 — 책이 퍼지는 길과 읽지 못하게 하는 권한",
+      "summary": "인쇄가 종교 논쟁을 넓히면서 책의 출판과 독서를 통제하려는 제도도 중요해졌다. 가톨릭 금서 목록은 그 작동 방식을 살펴볼 수 있는 한 사례다.",
+      "dataset": "data/deep/atlas_v265_medium_depth_belief_and_boundaries.json",
+      "chapter_index": 1,
+      "reader_document": "docs/01_CONTENT/V265_MEDIUM_DEPTH_BELIEF_AND_BOUNDARIES.md",
+      "section_count": 3
+    },
+    {
+      "id": "THEME-CHURCH_DISCIPLINE",
+      "title": "교회 규율 — 신앙 공동체는 생활에 어디까지 관여했는가",
+      "summary": "제네바의 치리회는 신앙과 생활을 연결한 제도였다. 그 역할을 이해하려면 목사와 장로, 교회와 시 당국 사이의 권한을 구분해야 한다.",
+      "dataset": "data/deep/atlas_v265_medium_depth_belief_and_boundaries.json",
+      "chapter_index": 2,
+      "reader_document": "docs/01_CONTENT/V265_MEDIUM_DEPTH_BELIEF_AND_BOUNDARIES.md",
+      "section_count": 3
+    },
+    {
+      "id": "PERSON-IGNATIUS",
+      "title": "이냐시오 데 로욜라 — 내면의 훈련에서 교육과 선교로",
+      "summary": "로욜라의 활동은 개인의 신앙 성찰과 조직의 활동을 연결했다. 예수회의 출발을 보면 가톨릭 쇄신이 교리 논쟁과 함께 기도·교육·선교의 형태로 이루어졌음을 알 수 있다.",
+      "dataset": "data/deep/atlas_v266_medium_depth_catholic_reformers.json",
+      "chapter_index": 0,
+      "reader_document": "docs/01_CONTENT/V266_MEDIUM_DEPTH_CATHOLIC_REFORMERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "PERSON-TERESA_AVILA",
+      "title": "아빌라의 테레사 — 기도와 수도공동체를 함께 바꾸다",
+      "summary": "테레사는 가톨릭 수도생활 안에서 기도와 공동체의 쇄신을 추구했다. 그의 활동은 16세기 여성이 글을 쓰고 공동체를 세우며 개혁에 참여한 한 경로였다.",
+      "dataset": "data/deep/atlas_v266_medium_depth_catholic_reformers.json",
+      "chapter_index": 1,
+      "reader_document": "docs/01_CONTENT/V266_MEDIUM_DEPTH_CATHOLIC_REFORMERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "PERSON-BORROMEO",
+      "title": "카를로 보로메오 — 공의회의 결정을 교구의 일상으로 옮기다",
+      "summary": "밀라노의 보로메오는 트리엔트 이후 가톨릭 쇄신의 실행을 보여 주는 인물이다. 신학교와 사목 방문, 회의는 공의회 문서를 현장의 운영으로 연결하는 수단이었다.",
+      "dataset": "data/deep/atlas_v266_medium_depth_catholic_reformers.json",
+      "chapter_index": 2,
+      "reader_document": "docs/01_CONTENT/V266_MEDIUM_DEPTH_CATHOLIC_REFORMERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "PERSON-BULLINGER",
+      "title": "하인리히 불링거 — 취리히의 개혁을 이어 가고 다른 도시와 연결하다",
+      "summary": "츠빙글리의 죽음 이후에도 취리히의 개혁은 계속되었다. 불링거는 설교와 저술, 서신과 합의를 통해 개혁교회의 정착에 관여했다.",
+      "dataset": "data/deep/atlas_v270_medium_depth_continuity_and_communities.json",
+      "chapter_index": 0,
+      "reader_document": "docs/01_CONTENT/V270_MEDIUM_DEPTH_CONTINUITY_AND_COMMUNITIES.md",
+      "section_count": 3
+    },
+    {
+      "id": "PERSON-MENNO_SIMONS",
+      "title": "메노 시몬스 — 흩어진 재세례파 공동체를 이끌다",
+      "summary": "메노 시몬스는 메노나이트 전통에 이름을 남긴 지도자였다. 그러나 그가 참여하기 전부터 저지대 지역에는 재세례파 운동이 존재했다.",
+      "dataset": "data/deep/atlas_v270_medium_depth_continuity_and_communities.json",
+      "chapter_index": 1,
+      "reader_document": "docs/01_CONTENT/V270_MEDIUM_DEPTH_CONTINUITY_AND_COMMUNITIES.md",
+      "section_count": 3
+    },
+    {
+      "id": "PERSON-SERVETUS",
+      "title": "미카엘 세르베투스 — 교리의 경계가 생명의 문제로 이어지다",
+      "summary": "1553년 제네바의 세르베투스 처형은 종교개혁 내부에서 강제와 처벌을 둘러싼 논쟁을 불러왔다. 신학적 판단과 통치권의 행동을 함께 보아야 하는 사건이다.",
+      "dataset": "data/deep/atlas_v271_medium_depth_dissent_and_toleration.json",
+      "chapter_index": 0,
+      "reader_document": "docs/01_CONTENT/V271_MEDIUM_DEPTH_DISSENT_AND_TOLERATION.md",
+      "section_count": 3
+    },
+    {
+      "id": "PERSON-CASTELLIO",
+      "title": "세바스티앵 카스텔리오 — 해석의 차이 앞에서 강제의 한계를 묻다",
+      "summary": "카스텔리오는 성경 번역과 교육에 참여한 인문주의자였다. 그는 개혁 진영 안에서 교리 차이를 이유로 가해지는 폭력을 비판했다.",
+      "dataset": "data/deep/atlas_v271_medium_depth_dissent_and_toleration.json",
+      "chapter_index": 1,
+      "reader_document": "docs/01_CONTENT/V271_MEDIUM_DEPTH_DISSENT_AND_TOLERATION.md",
+      "section_count": 3
+    },
+    {
+      "id": "DOCUMENT-SMALL_CATECHISM",
+      "title": "루터의 소교리문답 — 개혁을 배우고 반복하는 일상으로",
+      "summary": "1529년의 『소교리문답』은 신앙의 기본 내용을 짧게 가르치기 위한 책이었다. 교회의 변화를 선언하는 일과 사람들이 그것을 배우는 일 사이의 거리를 보여 준다.",
+      "dataset": "data/deep/atlas_v272_medium_depth_catechisms.json",
+      "chapter_index": 0,
+      "reader_document": "docs/01_CONTENT/V272_MEDIUM_DEPTH_CATECHISMS.md",
+      "section_count": 3
+    },
+    {
+      "id": "DOCUMENT-HEIDELBERG_CATECHISM",
+      "title": "하이델베르크 교리문답 — 교육과 설교를 공동의 틀로 묶다",
+      "summary": "1563년의 『하이델베르크 교리문답』은 팔츠 지역의 교육과 설교를 위한 문서였다. 신앙을 가르치는 일은 지역 교회가 함께 사용할 언어를 마련하는 일이기도 했다.",
+      "dataset": "data/deep/atlas_v272_medium_depth_catechisms.json",
+      "chapter_index": 1,
+      "reader_document": "docs/01_CONTENT/V272_MEDIUM_DEPTH_CATECHISMS.md",
+      "section_count": 3
+    },
+    {
+      "id": "DOCUMENT-TYNDALE_NT",
+      "title": "틴들의 신약성경 — 번역과 국외 인쇄가 만나다",
+      "summary": "1526년 틴들의 영어 신약성경은 번역이 언어의 문제이면서 인쇄와 통제의 문제였음을 보여 준다. 이를 영어 성경 전체의 첫 시작과 혼동하지 않아야 한다.",
+      "dataset": "data/deep/atlas_v274_medium_depth_english_bibles.json",
+      "chapter_index": 0,
+      "reader_document": "docs/01_CONTENT/V274_MEDIUM_DEPTH_ENGLISH_BIBLES.md",
+      "section_count": 3
+    },
+    {
+      "id": "DOCUMENT-GENEVA_BIBLE",
+      "title": "제네바 성경 — 망명 공동체가 마련한 읽기의 도구",
+      "summary": "1560년 제네바에서 나온 영어 성경은 종교적 이주와 성경 연구가 만난 결과였다. 번역문뿐 아니라 독자를 안내하는 책의 구성도 중요한 역할을 했다.",
+      "dataset": "data/deep/atlas_v274_medium_depth_english_bibles.json",
+      "chapter_index": 1,
+      "reader_document": "docs/01_CONTENT/V274_MEDIUM_DEPTH_ENGLISH_BIBLES.md",
+      "section_count": 3
+    },
+    {
+      "id": "THEME-LUTHER_JEWS",
+      "title": "루터와 유대인 — 개종의 기대에서 박해의 요구로",
+      "summary": "종교개혁의 자유와 신앙을 이야기할 때 유대인에 대한 배제도 함께 살펴야 한다. 루터의 태도에서는 처우에 관한 변화와 개종을 전제로 한 시각의 지속이 함께 드러난다.",
+      "dataset": "data/deep/atlas_v275_medium_depth_religious_others.json",
+      "chapter_index": 0,
+      "reader_document": "docs/01_CONTENT/V275_MEDIUM_DEPTH_RELIGIOUS_OTHERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "GLOBAL-OTTOMAN",
+      "title": "오스만 제국 — 전쟁과 종교적 해석, 동맹이 교차하다",
+      "summary": "종교개혁은 서유럽 교회 내부의 논쟁만으로 전개되지 않았다. 오스만 제국의 진출과 헝가리의 권력 경쟁은 개혁자들이 신앙과 통치를 설명하는 환경이기도 했다.",
+      "dataset": "data/deep/atlas_v275_medium_depth_religious_others.json",
+      "chapter_index": 1,
+      "reader_document": "docs/01_CONTENT/V275_MEDIUM_DEPTH_RELIGIOUS_OTHERS.md",
+      "section_count": 3
+    }
+  ],
+  "metrics": {
+    "new_readers": 2,
+    "new_sections": 6,
+    "new_questions": 2,
+    "previous_readers": 53,
+    "total_medium_readers": 55
+  },
+  "publication_gate": {
+    "published": false,
+    "main_changed": false,
+    "webapp_integrated": false
+  }
+}
