@@ -1,0 +1,1458 @@
+{
+  "version": "2.76",
+  "kind": "MEDIUM_DEPTH_TWENTY_READERS",
+  "depth": "MEDIUM",
+  "status": "DRAFT",
+  "parent_commit": "588a921ac459ecdd968b7815f6048fcbbd428dbc",
+  "preserved_inputs": [
+    {
+      "path": "data/deep/atlas_v275_medium_depth_religious_others.json",
+      "sha256": "ec7c13924883abaebfc8b614409f7495b53cb98873298ade57a7786041eb4841"
+    },
+    {
+      "path": "data/deep/atlas_v264_medium_depth_humanists_and_mediators.json",
+      "sha256": "33449048c068f726b79c9ef7a661823927cc7ce938cc50b2d3e22b691d5d8d97"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S01",
+      "title": "Musée protestant: Johannes Sturm",
+      "url": "https://museeprotestant.org/en/notice/jean-sturm-1507-1589/",
+      "scope": "MODERN_INSTITUTIONAL_COMMENTARY"
+    },
+    {
+      "id": "S02",
+      "title": "예수회 캐나다 관구: Ratio Studiorum",
+      "url": "https://jesuits.ca/glossary/ratio-studiorum/",
+      "scope": "MODERN_INSTITUTIONAL_COMMENTARY"
+    },
+    {
+      "id": "S03",
+      "title": "보스턴칼리지: Ratio Studiorum 2005년 번역판 서지",
+      "url": "https://jesuitonlinebibliography.bc.edu/catalog/3111",
+      "scope": "MODERN_EDITION_BIBLIOGRAPHIC_ABSTRACT"
+    },
+    {
+      "id": "S04",
+      "title": "브리드웰 도서관: 아르굴라의 1523년 서신",
+      "url": "https://bridwell.omeka.net/exhibits/show/highlightsreformation/grumbach",
+      "scope": "MODERN_INSTITUTIONAL_COMMENTARY"
+    },
+    {
+      "id": "S05",
+      "title": "독일 개신교 여성연합: 카타리나 첼",
+      "url": "https://evangelischefrauen-deutschland.de/biografien/katharina-zell/",
+      "scope": "MODERN_INSTITUTIONAL_COMMENTARY"
+    },
+    {
+      "id": "S06",
+      "title": "Musée protestant: 마리 당티에르",
+      "url": "https://museeprotestant.org/en/notice/marie-dentiere-ou-dennetieres-1495-1561/",
+      "scope": "MODERN_INSTITUTIONAL_COMMENTARY"
+    },
+    {
+      "id": "S07",
+      "title": "Musée protestant: 마르그리트 당굴렘",
+      "url": "https://museeprotestant.org/en/notice/marguerite-dangouleme-1492-1549-2/",
+      "scope": "MODERN_INSTITUTIONAL_COMMENTARY"
+    },
+    {
+      "id": "S08",
+      "title": "Musée protestant: 잔 달브레",
+      "url": "https://museeprotestant.org/en/notice/jeanne-dalbret-1528-1572-2/",
+      "scope": "MODERN_INSTITUTIONAL_COMMENTARY"
+    },
+    {
+      "id": "S09",
+      "title": "Musée protestant: 르네 드 프랑스",
+      "url": "https://museeprotestant.org/en/notice/renee-de-france-1510-1575-2/?parc=15888",
+      "scope": "MODERN_INSTITUTIONAL_COMMENTARY"
+    },
+    {
+      "id": "S10",
+      "title": "RCA: 벨직 신앙고백과 역사적 배경",
+      "url": "https://www.rca.org/about/theology/creeds-and-confessions/the-belgic-confession/",
+      "scope": "MODERN_DENOMINATIONAL_TRANSLATION_AND_HISTORY"
+    },
+    {
+      "id": "S11",
+      "title": "Musée protestant: 프랑스 개혁교회의 조직",
+      "url": "https://museeprotestant.org/en/notice/the-reformed-churches-in-france/",
+      "scope": "MODERN_INSTITUTIONAL_COMMENTARY"
+    },
+    {
+      "id": "S12",
+      "title": "잉글랜드교회: 39개 신조",
+      "url": "https://www.churchofengland.org/liturgy/book-of-common-prayer/articles-religion",
+      "scope": "CURRENT_WEB_PRESENTATION_OF_HISTORICAL_TEXT"
+    },
+    {
+      "id": "S13",
+      "title": "CPH: 일치신조 요약의 기준과 규범",
+      "url": "https://bookofconcord.cph.org/en/formula-of-concord-epitome/summary/",
+      "scope": "MODERN_ENGLISH_TRANSLATION_OF_HISTORICAL_TEXT"
+    },
+    {
+      "id": "S14",
+      "title": "콘코디아대학교 세인트폴: 1581년 일치신조집 소장본",
+      "url": "https://digitalcommons.csp.edu/reformation-16th-century/1/",
+      "scope": "LIBRARY_COPY_DESCRIPTION_NO_NEW_IMAGE_READING"
+    },
+    {
+      "id": "S15",
+      "title": "체텀 도서관: 공동기도서",
+      "url": "https://library.chethams.com/collections/101-treasures-of-chethams/book-of-common-prayer/",
+      "scope": "MODERN_INSTITUTIONAL_COMMENTARY"
+    },
+    {
+      "id": "S16",
+      "title": "영국 의회: 1559년 예배통일법",
+      "url": "https://www.parliament.uk/about/living-heritage/transformingsociety/private-lives/religion/collections/common-prayer/act-of-uniformity-1559/",
+      "scope": "MODERN_INSTITUTIONAL_COMMENTARY"
+    },
+    {
+      "id": "S17",
+      "title": "콘코디아 신학교: 신앙고백 문서 연대별 목록",
+      "url": "https://www.ctsfw.edu/etext/boc/",
+      "scope": "DIGITAL_ARCHIVE_INDEX_ONLY"
+    },
+    {
+      "id": "S18",
+      "title": "Musée protestant: 알자스의 종교개혁",
+      "url": "https://museeprotestant.org/en/notice/the-reformation-in-alsace/",
+      "scope": "MODERN_INSTITUTIONAL_COMMENTARY"
+    },
+    {
+      "id": "S19",
+      "title": "바젤 공식 관광기관: 도시 연표",
+      "url": "https://www.basel.com/en/facts-figures/history",
+      "scope": "INSTITUTIONAL_TIMELINE_LIMITED_CONTEXT"
+    },
+    {
+      "id": "S20",
+      "title": "베른대학교 도서관: 베른의 종교개혁",
+      "url": "https://www.ub.unibe.ch/service/ausstellungen_und_veranstaltungen/ausstellungen/bekenntniss_und_zwitracht/berner_reformation/index_ger.html",
+      "scope": "MODERN_INSTITUTIONAL_COMMENTARY"
+    },
+    {
+      "id": "S21",
+      "title": "독일역사박물관: 칼뱅과 제네바",
+      "url": "https://www.dhm.de/archiv/ausstellungen/calvinismus/en/calvin_und_genf.html",
+      "scope": "MODERN_INSTITUTIONAL_COMMENTARY"
+    },
+    {
+      "id": "S22",
+      "title": "로이코레아 재단: 비텐베르크 대학의 역사",
+      "url": "https://leucorea.de/en/leucorea/history/",
+      "scope": "MODERN_INSTITUTIONAL_COMMENTARY"
+    },
+    {
+      "id": "S23",
+      "title": "취리히 시립문서관: 종교개혁의 시작과 정착",
+      "url": "https://www.stadt-zuerich.ch/de/stadtleben/stadtportraet/zuerichs-geschichte/stadtarchiv/wissensportal/reformation-in-zuerich.html",
+      "scope": "MODERN_INSTITUTIONAL_COMMENTARY"
+    }
+  ],
+  "source_scope_note": "현대 도서관·박물관·교육기관·교단 해설과 기관이 제공하는 역사 문헌의 현대 웹 본문·번역을 활용한 중간 깊이 개설이다. 원판 이미지 신규 판독은 0면이다. S03은 2005년 번역판 서지 초록, S17은 문서별 연대와 목록만 확인했다. S14가 설명하는 소장본은 1581년판이다. S12 웹페이지에 함께 실린 후대 왕실 선언을 16세기 신조 원문과 동일 시기로 취급하지 않았다. S19는 바젤 연표의 1529년 항목에 한정해 사용했고 바젤의 학문적 맥락은 보존된 V2.64 에라스무스 해설과 연결했다. 제도의 의미와 비교·독서 질문은 편집 해설이다. 자료의 연도가 충돌하는 세부 사항은 본문에서 사용하지 않았다.",
+  "chapters": [
+    {
+      "id": "PERSON-STURM",
+      "title": "요하네스 슈투름 — 신앙과 인문교육을 학교의 과정으로",
+      "group": "교육",
+      "lead": "1538년 스트라스부르의 학교 개편은 종교개혁이 다음 세대를 어떻게 가르칠지에 관한 실천이었다.",
+      "sections": [
+        {
+          "heading": "도시가 맡긴 학교 개편",
+          "body": "슈투름은 1538년 스트라스부르의 교육 개편을 맡았고 새 김나지움의 운영을 이끌었다. 시 당국이 교육자에게 학교 조직을 맡겼다는 점에서 이 일은 개인의 좋은 수업만을 뜻하지 않았다. 교회의 변화가 지속되려면 학생이 배우는 순서와 교사의 역할을 마련해야 했다. 그는 종교적·도덕적 교육과 지적 능력의 계발을 함께 추구했다."
+        },
+        {
+          "heading": "고전과 신앙을 함께 가르치다",
+          "body": "그의 전문 분야인 수사학과 변증법, 고전 저술 연구는 교육의 중요한 재료였다. 종교개혁 교육을 성경 번역문을 읽히는 일로만 이해하면 이런 인문주의의 역할을 놓친다. 좋은 문장을 읽고 논증을 익히는 훈련은 신앙과 도덕을 가르치는 목표와 연결되었다. 그는 교사에게 조언하는 글과 학교에서 사용할 교재도 저술했다."
+        },
+        {
+          "heading": "학교 안으로 들어온 교파 논쟁",
+          "body": "슈투름은 루터교와 개혁파 사이의 논쟁에 관여했고 결국 1581년 학교 책임자 자리에서 물러났다. 이 사례는 학교가 신앙 논쟁에서 떨어진 중립 공간이 아니었음을 보여 준다. 교육의 발전을 한 사람의 성공담으로만 읽기보다 도시의 지원, 교사의 학문, 교파 사이의 권한 다툼이 함께 만든 과정으로 살피는 것이 좋다."
+        }
+      ],
+      "reading_question": "학교의 교육 목표와 운영 권한을 나누어 보면 슈투름의 성과와 갈등은 어떻게 설명될까?",
+      "sources": [
+        "S01"
+      ],
+      "related_readers": [
+        "THEME-EDUCATION",
+        "PERSON-BUCER",
+        "PERSON-MELANCHTHON"
+      ],
+      "status": "EDITORIAL_DRAFT"
+    },
+    {
+      "id": "DOCUMENT-RATIO_STUDIORUM",
+      "title": "예수회의 교육규정 — 여러 학교의 경험을 공통 지침으로",
+      "group": "교육",
+      "lead": "1599년 확정된 『교육규정』은 가톨릭 쇄신이 교실과 학교 운영의 형태로 자리 잡은 사례다.",
+      "sections": [
+        {
+          "heading": "오랜 경험 뒤에 마련된 규정",
+          "body": "예수회의 『교육규정』은 1599년에 확정된 형태로 나왔다. 이냐시오의 비전에서 출발했지만 여러 학교에서 쌓인 경험과 예수회원들의 협의가 반영되었다. 창립자가 처음부터 완성된 학교 체계를 단독으로 설계했다고 설명하면 그 과정을 지우게 된다. 학교가 늘면서 교육과 운영을 함께 조정할 필요가 커졌던 것이다."
+        },
+        {
+          "heading": "교과와 가르치는 사람의 역할",
+          "body": "규정은 성경·철학·수학·수사학·문법 등 교과와 교육자의 실무를 다루었다. 무엇을 배울지와 누가 어떻게 가르칠지를 함께 정한 문서였다. 고전 학문과 그리스도교적 윤리·영성을 연결했다는 점에서 종교 교육과 지적 훈련을 단순히 반대 항목에 놓기 어렵다. 학생의 성장을 조직하는 구체적 규칙도 쇄신의 수단이었다."
+        },
+        {
+          "heading": "공통 지침과 현장의 차이",
+          "body": "공통 규정의 존재는 모든 학교의 수업이 완전히 같았다는 증거가 아니다. 규범 문서는 기대하는 운영을 보여 주므로 실제 적용은 학교별 자료로 확인해야 한다. 또한 당시 지침을 오늘날 학교에 그대로 적용할 수는 없다. 슈투름의 학교와 비교하면 두 전통 모두 교육을 신앙·도덕·학문의 형성으로 연결했음을 살펴볼 수 있다."
+        }
+      ],
+      "reading_question": "여러 학교에 공통 규정을 마련하는 일은 교육의 질과 현장의 판단에 각각 어떤 영향을 줄까?",
+      "sources": [
+        "S02",
+        "S03"
+      ],
+      "related_readers": [
+        "PERSON-IGNATIUS",
+        "THEME-CATHOLIC_RENEWAL",
+        "PERSON-STURM"
+      ],
+      "status": "EDITORIAL_DRAFT"
+    },
+    {
+      "id": "PERSON-ARGULA",
+      "title": "아르굴라 폰 그룸바흐 — 평신도 여성이 대학에 이의를 제기하다",
+      "group": "여성 인물",
+      "lead": "1523년의 공개서신은 대학 밖 여성도 성경을 근거로 공적 논쟁에 참여했음을 보여 준다.",
+      "sections": [
+        {
+          "heading": "학생의 처우에 항의한 서신",
+          "body": "바이에른 귀족 여성 아르굴라는 1523년 잉골슈타트 대학의 루터교 학생 체포에 항의하는 서신을 썼다. 이 글은 인쇄되어 독자에게 전달되었다. 대학의 자격을 가진 남성만 신학 문제를 말할 수 있는지라는 질문이 한 학생의 처우와 연결되었다. 여성의 종교개혁 참여는 가정의 역할에만 머물지 않았음을 보여 주는 사례다."
+        },
+        {
+          "heading": "성경과 인쇄가 만든 발언의 길",
+          "body": "그의 항의는 성경에 근거한 판단을 내세웠고 인쇄물은 그 발언을 편지를 받은 대학 밖으로 넓혔다. 한 사람이 쓴 서신이 여러 독자가 읽는 논쟁의 자료가 될 수 있었다. 다만 공개적으로 글을 썼다는 사실을 여성 전체의 발언권이 제도적으로 보장되었다는 뜻으로 받아들여서는 안 된다. 개인의 행동과 사회적 권리의 범위는 다르다."
+        },
+        {
+          "heading": "책을 읽은 사람의 흔적",
+          "body": "브리드웰 도서관의 소장본에는 아르굴라의 글이 다른 개혁자들의 소책자와 함께 제본되어 있다. 도서관은 이전 소유자의 서명과 주석도 설명한다. 이런 자료는 저자의 주장뿐 아니라 후대 독자가 어떤 글을 모아 읽었는지도 보여 준다. 이 해설은 그 소장본의 현대 설명을 활용하며 인쇄면과 주석을 새로 판독한 것은 아니다."
+        }
+      ],
+      "reading_question": "한 여성이 글을 출판할 수 있었다는 사실과 여성의 공적 권리가 보장되었다는 판단은 왜 구분해야 할까?",
+      "sources": [
+        "S04"
+      ],
+      "related_readers": [
+        "THEME-WOMEN_FAMILY",
+        "THEME-PRINT_TRANSLATION",
+        "THEME-SCRIPTURE_AUTHORITY"
+      ],
+      "status": "EDITORIAL_DRAFT"
+    },
+    {
+      "id": "PERSON-KATHARINA_ZELL",
+      "title": "카타리나 첼 — 저술과 환대로 개혁에 참여하다",
+      "group": "여성 인물",
+      "lead": "스트라스부르의 카타리나 첼은 성직자 결혼을 변호하는 글과 피난민 돌봄을 통해 개혁에 참여했다.",
+      "sections": [
+        {
+          "heading": "자신의 결혼을 스스로 변호하다",
+          "body": "카타리나는 1523년 설교자 마테우스 첼과 결혼했고 성직자의 결혼을 둘러싼 비난에 직접 대응했다. 1524년 출판한 변호문에서는 성경과 그리스도인의 책임을 근거로 자신의 입장을 밝혔다. 이를 남편의 신학을 전달한 일로만 보면 저자로서의 판단을 놓친다. 그는 어떤 삶이 신앙에 합당한지를 공개적으로 논증했다."
+        },
+        {
+          "heading": "집이 피난과 대화의 공간이 되다",
+          "body": "첼의 가정은 개혁자와 피난민을 맞이하는 장소였다. 카타리나는 숙소와 생활 지원을 조직했고 여러 도시의 여성·남성과 편지를 주고받았다. 이런 환대는 교리 문서의 바깥에서 운동을 유지한 실무였다. 사람을 맞고 먹이고 연락을 이어 주는 노동도 종교개혁의 확산을 설명하는 자료가 된다. 돌봄과 신학 논쟁은 그의 활동 안에서 이어졌다."
+        },
+        {
+          "heading": "여성의 참여를 하나의 역할로 묶지 않기",
+          "body": "카타리나는 교회 사역에서 자신을 적극적인 협력자로 이해했다. 그러나 그의 활동을 당시 여성 모두의 생활로 일반화할 수는 없다. 교육과 도시의 인맥, 가정의 자원이 발언과 돌봄을 가능하게 한 조건이었다. 아르굴라의 공개서신과 나란히 읽으면 여성의 참여가 항의·저술·환대처럼 여러 방식으로 나타났음을 알 수 있다."
+        }
+      ],
+      "reading_question": "교리 저술과 숙식 지원을 함께 살피면 종교개혁의 주역이라는 말의 범위는 어떻게 넓어질까?",
+      "sources": [
+        "S05"
+      ],
+      "related_readers": [
+        "THEME-WOMEN_FAMILY",
+        "THEME-REFUGEES",
+        "PERSON-BUCER"
+      ],
+      "status": "EDITORIAL_DRAFT"
+    },
+    {
+      "id": "PERSON-DENTIERE",
+      "title": "마리 당티에르 — 성경 해석에 여성도 참여할 수 있는가",
+      "group": "여성 인물",
+      "lead": "1539년 당티에르가 나바르 여왕에게 보낸 글은 신앙의 권위와 여성의 발언을 연결했다.",
+      "sections": [
+        {
+          "heading": "여왕에게 보낸 신학적 글",
+          "body": "마리 당티에르는 1539년 마르그리트 드 나바르에게 보낸 『매우 유익한 서신』을 출판했다. 이 글은 성경의 권위를 강조하고 여성의 교회 참여를 변호했다. 수신자가 여왕이라는 점은 여성의 저술이 궁정의 후원과 종교적 연결망을 통해 독자를 찾았음을 보여 준다. 개인적인 편지의 형식을 취했지만 다루는 문제는 공적이었다."
+        },
+        {
+          "heading": "모든 신자의 사제직을 여성에게도",
+          "body": "그는 모든 신자의 사제직과 성경을 신학의 기준으로 삼는 주장을 여성의 해석 참여와 연결했다. 개혁의 원리가 제시되었다고 그 적용 범위가 자동으로 정해진 것은 아니었다. 누가 성경을 읽고 설명하며 공동체에서 말할 수 있는지 다시 논증해야 했다. 이 지점은 여성의 활동을 다루는 해설에서 중요한 질문이 된다."
+        },
+        {
+          "heading": "주장과 제도적 성과를 구별하기",
+          "body": "여성의 발언을 변호하는 글이 있었다는 사실과 여성의 사역이 널리 승인되었다는 사실은 다르다. 그의 저술을 현대의 완성된 평등 선언으로 옮겨 읽기보다 당시 성경 해석 논쟁 안에서 살필 필요가 있다. 종교개혁은 기존 권위를 비판하는 언어를 주었지만 그 언어를 사용하는 여성에게도 새로운 설명과 설득의 과제가 남았다."
+        }
+      ],
+      "reading_question": "모든 신자가 성경을 읽는다는 원리는 실제 발언권에 어떤 질문을 던졌을까?",
+      "sources": [
+        "S06"
+      ],
+      "related_readers": [
+        "THEME-WOMEN_FAMILY",
+        "THEME-SCRIPTURE_AUTHORITY",
+        "PERSON-MARGUERITE_NAVARRE"
+      ],
+      "status": "EDITORIAL_DRAFT"
+    },
+    {
+      "id": "PERSON-MARGUERITE_NAVARRE",
+      "title": "마르그리트 드 나바르 — 교회를 떠나지 않고 개혁자를 보호하다",
+      "group": "여성 인물",
+      "lead": "문인이자 나바르 여왕이었던 마르그리트의 후원은 신앙의 선택이 언제나 즉각적인 교파 이탈로 이어지지는 않았음을 보여 준다.",
+      "sections": [
+        {
+          "heading": "궁정과 인문주의의 연결",
+          "body": "프랑수아1세의 누이 마르그리트는 궁정의 정치와 문화에서 중요한 역할을 했다. 나바르 여왕이 된 뒤에도 문학과 학문에 관심을 두었고 네라크의 궁정은 인문주의적 교류의 공간이었다. 저술과 후원은 서로 떨어져 있지 않았다. 새로운 생각을 가진 사람이 머물고 대화할 수 있는 장소를 제공하는 일도 변화의 조건이었다."
+        },
+        {
+          "heading": "개혁 사상에 공감하며 보호하다",
+          "body": "그는 르페브르 데타플과 모의 주교 브리소네 등과 가까웠고 개혁적 사상에 관심을 보였다. 개신교인을 보호하며 궁정으로 초대했지만 가톨릭교회와 결별하지 않았다. 따라서 그를 단순히 개신교 군주로 분류하면 그의 입장을 정확히 설명하기 어렵다. 사상에 대한 공감, 사람에 대한 보호, 제도적 소속을 나누어 볼 필요가 있다."
+        },
+        {
+          "heading": "딸과 다른 경로를 읽다",
+          "body": "그의 딸 잔 달브레는 뒤에 개신교로 개종하여 통치 영역의 종교 질서를 바꾸었다. 두 사람을 비교하면 같은 가계의 여성도 서로 다른 신앙과 정치의 경로를 택했음을 알 수 있다. 후원을 개종의 증거로 삼거나 어머니의 생각이 그대로 딸의 정책이 되었다고 단정해서는 안 된다. 가족의 연결과 개인의 선택을 함께 살펴야 한다."
+        }
+      ],
+      "reading_question": "개혁자를 보호하는 행동과 자신이 교파를 바꾸는 행동을 나누어 보면 어떤 역사가 보일까?",
+      "sources": [
+        "S07"
+      ],
+      "related_readers": [
+        "REGION-FRANCE",
+        "PERSON-DENTIERE",
+        "PERSON-JEANNE_ALBRET"
+      ],
+      "status": "EDITORIAL_DRAFT"
+    },
+    {
+      "id": "PERSON-JEANNE_ALBRET",
+      "title": "잔 달브레 — 개인의 개종이 통치의 정책으로",
+      "group": "여성 인물",
+      "lead": "나바르 여왕 잔 달브레의 활동은 여성의 종교개혁 참여가 통치 권력의 행사이기도 했음을 보여 준다.",
+      "sections": [
+        {
+          "heading": "왕위 계승과 신앙의 선택",
+          "body": "잔 달브레는 1555년 나바르 왕위를 계승했고 1560년 개신교로 개종했다. 그의 통치는 프랑스와 스페인 사이에서 자신의 영토를 지키려는 문제와 함께 이루어졌다. 개인의 신앙을 설명하는 일만으로 여왕의 행동을 모두 이해하기는 어렵다. 주변 강국과의 관계, 왕조의 이해, 교회 질서를 바꾸는 권한이 함께 작용했다."
+        },
+        {
+          "heading": "신앙을 공적 질서로 만들다",
+          "body": "그는 제네바의 모델을 따른 교회 규정을 도입하며 자신의 신앙을 통치 영역의 질서로 확장했다. 이 점에서 잔은 개혁자를 후원하는 데 머문 인물과 구별된다. 여성도 종교 정책을 결정하고 시행하는 주체가 될 수 있었다. 동시에 군주의 개종이 주민 전체의 자발적 동의를 뜻하지는 않으므로 정책의 수립과 주민의 신앙은 나누어 보아야 한다."
+        },
+        {
+          "heading": "여성 지도자의 힘과 권력의 한계",
+          "body": "잔의 사례는 여성의 역할을 피해나 보조 활동에만 한정하지 않도록 돕는다. 그러나 권력을 가진 여성의 행동을 그 자체로 종교적 자유의 확대라고 평가할 수도 없다. 누구의 신앙이 공적 기준이 되고 다른 신앙은 어떤 위치에 놓이는지가 남기 때문이다. 어머니 마르그리트의 후원과 비교하면 보호와 통치의 차이가 선명해진다."
+        }
+      ],
+      "reading_question": "소수 신앙을 보호하는 정책과 군주의 신앙을 주민에게 적용하는 정책은 어떻게 다를까?",
+      "sources": [
+        "S08"
+      ],
+      "related_readers": [
+        "PERSON-MARGUERITE_NAVARRE",
+        "REGION-FRANCE",
+        "THEME-CITY_POWER"
+      ],
+      "status": "EDITORIAL_DRAFT"
+    },
+    {
+      "id": "PERSON-RENEE_FRANCE",
+      "title": "르네 드 프랑스 — 궁정과 저택이 피난처가 되다",
+      "group": "여성 인물",
+      "lead": "르네가 페라라와 몽타르지에서 제공한 보호는 신앙의 연결망이 국경과 가문을 가로질렀음을 보여 준다.",
+      "sections": [
+        {
+          "heading": "왕족이라는 자원과 제약",
+          "body": "프랑스 왕 루이12세의 딸 르네는 페라라 공작과 결혼했다. 그는 개혁 사상에 끌렸고 그 주변에 새로운 신앙에 관심을 둔 사람들이 모였다. 왕족의 지위는 사람을 보호할 자원이었지만 가문과 통치 질서의 요구로부터 자유롭게 해 주지는 않았다. 개혁적 인맥을 가진 궁정을 곧바로 완성된 개혁교회라고 부르는 것도 조심해야 한다."
+        },
+        {
+          "heading": "비난과 압박 속의 보호",
+          "body": "르네는 이단 혐의로 심문과 구금을 겪었다. 이 사례는 높은 신분의 후원자도 종교적 압박을 피할 수 없었음을 보여 준다. 한 사람의 소속을 고정된 교파 이름으로만 정리하기보다 보호한 사람들, 당국에 대한 대응, 실제 예배의 조건을 나누어 살피는 것이 좋다. 신앙의 확신과 외부에서 요구한 행동이 항상 일치하는 것은 아니었다."
+        },
+        {
+          "heading": "몽타르지에서 이어진 환대",
+          "body": "프랑스로 돌아온 뒤 그의 몽타르지 저택은 개신교인을 맞이하는 장소가 되었다. 종교전쟁 중 부상자와 피난민을 돕기도 했다. 거처를 제공하는 행동은 추상적인 관용의 말과 다른 구체적 실천이었다. 그러나 한 저택의 보호가 나라 전체의 안전을 보장하지는 못했다. 르네의 활동은 개인의 자원으로 가능한 보호의 힘과 범위를 함께 보여 준다."
+        }
+      ],
+      "reading_question": "권력자의 개인적 보호는 박해받는 공동체에게 무엇을 제공하고 무엇을 보장하지 못할까?",
+      "sources": [
+        "S09"
+      ],
+      "related_readers": [
+        "THEME-REFUGEES",
+        "PERSON-MARGUERITE_NAVARRE",
+        "PERSON-KATHARINA_ZELL"
+      ],
+      "status": "EDITORIAL_DRAFT"
+    },
+    {
+      "id": "DOCUMENT-BELGIC_CONFESSION",
+      "title": "벨직 신앙고백 — 박해받는 공동체가 공적으로 자신을 설명하다",
+      "group": "신앙고백·예배 문서",
+      "lead": "1561년 귀도 드 브레가 마련한 신앙고백은 교리를 정리하는 동시에 개혁교회가 반역 집단이라는 혐의에 답하려 했다.",
+      "sections": [
+        {
+          "heading": "신앙의 설명과 정치적 변호",
+          "body": "저지대 개혁교회의 설교자 드 브레는 박해 속에서 1561년 신앙고백을 작성했다. 개혁 신앙을 가진 이들이 무질서를 추구하는 반역자가 아니라는 설명이 중요한 목적이었다. 이 문서는 개인의 신앙 체험을 기록한 글과 달리 공동체가 무엇을 믿는지 공적으로 밝히는 역할을 했다. 박해의 현실과 교리의 문장이 서로 연결되어 있었다."
+        },
+        {
+          "heading": "다른 교회의 고백을 참고하다",
+          "body": "드 브레는 앞선 프랑스 개혁교회의 신앙고백을 참고했지만 자신의 문서를 단순한 복제본으로 만들지는 않았다. 종교개혁의 문헌은 국경 안에서 고립되어 작성되지 않았다. 문장과 논증을 주고받으면서도 지역의 질문에 맞게 내용을 조직했다. 이름의 벨직은 오늘날 벨기에만이 아니라 당시 저지대 전체를 가리키는 배경에서 이해해야 한다."
+        },
+        {
+          "heading": "작성과 채택, 개정을 나누기",
+          "body": "1561년의 작성 이후 1566년 안트베르펜 회의와 후속 회의에서 문서가 검토되고 채택되었다. 현재 교단이 제공하는 번역은 이런 수용의 역사 뒤에 놓여 있다. 신앙고백이 만들어졌다고 박해가 곧 멈춘 것도 아니었다. 저술의 목적, 교회 안의 승인, 사회적 결과를 나누어 보면 한 문서의 역할을 과장하지 않고 살필 수 있다."
+        }
+      ],
+      "reading_question": "박해를 피하기 위해 신앙을 설명하는 글은 교리 문서와 정치적 청원 사이에서 어떤 역할을 할까?",
+      "sources": [
+        "S10"
+      ],
+      "related_readers": [
+        "REGION-LOW_COUNTRIES",
+        "DOCUMENT-FRENCH_CONFESSION",
+        "THEME-ANABAPTISTS"
+      ],
+      "status": "EDITORIAL_DRAFT"
+    },
+    {
+      "id": "DOCUMENT-FRENCH_CONFESSION",
+      "title": "프랑스 신앙고백 — 흩어진 교회를 공동의 문장으로 잇다",
+      "group": "신앙고백·예배 문서",
+      "lead": "1559년 파리의 첫 전국 총회는 프랑스 개혁교회가 신앙과 조직을 함께 정리한 자리였다.",
+      "sections": [
+        {
+          "heading": "모임에서 교회의 연결망으로",
+          "body": "프랑스에서는 성경을 읽고 기도하던 작은 모임들이 정기적인 예배 공동체로 발전했다. 흩어진 공동체가 서로 같은 신앙을 고백하고 사역자를 세우려면 공통의 틀이 필요했다. 1559년 파리 총회는 신앙고백과 교회 규율을 채택했다. 교회가 형성되는 과정에는 믿음의 내용과 공동체를 운영하는 문제가 함께 있었다."
+        },
+        {
+          "heading": "1559년과 1571년을 구분하다",
+          "body": "40개 조항의 신앙고백은 칼뱅의 초안을 바탕으로 채택되었고 1571년 라로셸 총회에서 확인되었다. 라로셸 신앙고백이라는 이름 때문에 문서가 그때 처음 생겼다고 오해해서는 안 된다. 초안과 채택, 후속 확인은 다른 단계다. 여기서는 현대 박물관의 개설을 이용하며 초기 인쇄판별 문장 차이까지 대조하지는 않았다."
+        },
+        {
+          "heading": "신앙고백과 교회 규율의 다른 역할",
+          "body": "신앙고백은 무엇을 믿는지 밝히고 교회 규율은 목사·장로·총회가 어떻게 연결되는지 정리했다. 둘을 함께 읽으면 개혁교회의 성장이 교리를 전하는 일과 조직을 유지하는 일의 결합이었음을 알 수 있다. 지역 교회의 대표들이 회의로 연결되었다는 사실을 현대 민주주의와 곧바로 같은 제도로 설명할 수는 없다."
+        }
+      ],
+      "reading_question": "같은 신앙을 고백하는 문서 외에 교회 운영 규칙이 필요했던 이유는 무엇일까?",
+      "sources": [
+        "S11"
+      ],
+      "related_readers": [
+        "REGION-FRANCE",
+        "THEME-CHURCH_DISCIPLINE",
+        "DOCUMENT-BELGIC_CONFESSION"
+      ],
+      "status": "EDITORIAL_DRAFT"
+    },
+    {
+      "id": "DOCUMENT-THIRTY_NINE_ARTICLES",
+      "title": "39개 신조 — 잉글랜드교회가 신앙의 기준을 정하다",
+      "group": "신앙고백·예배 문서",
+      "lead": "잉글랜드교회의 신조는 성경·구원·예배·통치의 문제를 하나의 공적 기준 안에서 다루었다.",
+      "sections": [
+        {
+          "heading": "어떤 문제를 함께 다루었는가",
+          "body": "39개 신조에는 삼위일체와 그리스도, 성경과 신경, 의롭다 함과 선행, 교회와 성례에 관한 항목이 있다. 왕권과의 관계만으로 잉글랜드 종교개혁을 설명하면 이 신학적 내용을 놓친다. 교회의 소속을 바꾸는 일과 그 교회가 무엇을 가르칠지 정하는 일은 연결되지만 같은 질문은 아니었다. 신조는 후자의 기준을 제시했다."
+        },
+        {
+          "heading": "성경의 권위와 공동체의 질서",
+          "body": "신조는 구원에 필요한 것을 성경에서 찾는 원칙을 밝히면서 교회의 권위와 관습, 공적 예배의 언어도 다루었다. 따라서 성경을 기준으로 삼는다는 말이 공동의 예배와 제도를 없앤다는 뜻은 아니었다. 사람들이 이해할 수 있는 언어로 모이는 문제 역시 중요했다. 교리의 기준과 공동체 생활의 형식을 함께 보아야 한다."
+        },
+        {
+          "heading": "현재 웹 본문을 읽는 범위",
+          "body": "잉글랜드교회가 제공하는 웹 본문은 역사적 신조를 읽는 통로다. 그러나 웹에 함께 실린 왕실 선언과 신조의 형성 단계를 모두 같은 시기의 문장으로 취급해서는 안 된다. 이 해설은 신조의 항목과 논지를 개설하며 16세기 각 인쇄판의 차이는 판정하지 않는다. 공동기도서와 나란히 보면 신앙의 설명과 예배의 실행을 비교할 수 있다."
+        }
+      ],
+      "reading_question": "신앙을 설명하는 신조와 함께 기도하는 예식서는 각각 어떤 방식으로 교회를 연결할까?",
+      "sources": [
+        "S12"
+      ],
+      "related_readers": [
+        "REGION-ENGLAND",
+        "DOCUMENT-COMMON_PRAYER",
+        "THEME-SCRIPTURE_AUTHORITY"
+      ],
+      "status": "EDITORIAL_DRAFT"
+    },
+    {
+      "id": "DOCUMENT-FORMULA_CONCORD",
+      "title": "일치신조 — 루터교 내부의 논쟁에 공동 기준을 제시하다",
+      "group": "신앙고백·예배 문서",
+      "lead": "1577년의 일치신조는 종교개혁 진영 안에서도 신앙의 설명을 둘러싼 논쟁이 계속되었음을 보여 준다.",
+      "sections": [
+        {
+          "heading": "개혁 이후에도 남은 차이",
+          "body": "루터교는 처음부터 모든 신학적 설명이 일치한 집단으로 굳어진 것이 아니었다. 1577년의 일치신조는 내부 논쟁을 정리하고 공동의 고백을 제시하려는 문서였다. 개혁의 시작과 교파의 정착 사이에는 논의와 선택의 시간이 있었다. 따라서 신조의 이름에 일치가 있다고 모든 개신교 공동체의 합의를 뜻한다고 읽어서는 안 된다."
+        },
+        {
+          "heading": "성경과 고백 문서의 관계",
+          "body": "일치신조의 요약은 성경을 교리를 판단하는 규범으로 두며 다른 신경과 고백 문서는 신앙을 증언하고 설명하는 글로 구별한다. 아우크스부르크 신앙고백과 루터의 교리문답도 그 연결 속에 놓인다. 문서가 여러 개라는 사실보다 각 문서가 어떤 권위를 갖는지에 주목하면 성경의 권위와 공적 신앙고백의 관계를 이해하기 쉽다."
+        },
+        {
+          "heading": "합의가 만드는 경계",
+          "body": "공동 기준은 교회가 무엇을 가르칠지 분명하게 하지만 다른 설명을 받아들이지 않는 경계도 만든다. 일치신조를 논쟁이 완전히 사라졌다는 보고서로 읽기보다 어떤 논지를 공통의 가르침으로 삼으려 했는지 보여 주는 문서로 읽어야 한다. 문서의 제정, 지역 교회의 수용, 실제 교육은 각각 확인할 문제다."
+        }
+      ],
+      "reading_question": "공통의 고백을 마련하는 일은 내부의 일치와 외부를 향한 경계에 어떤 영향을 줄까?",
+      "sources": [
+        "S13",
+        "S17"
+      ],
+      "related_readers": [
+        "MEDIUM-AUGSBURG",
+        "DOCUMENT-SMALL_CATECHISM",
+        "DOCUMENT-BOOK_CONCORD"
+      ],
+      "status": "EDITORIAL_DRAFT"
+    },
+    {
+      "id": "DOCUMENT-BOOK_CONCORD",
+      "title": "일치신조집 — 여러 시대의 문서를 한 권에 모으다",
+      "group": "신앙고백·예배 문서",
+      "lead": "1580년 출판된 『일치신조집』은 하나의 새 논문이 아니라 루터교의 고백 문서를 모은 책이었다.",
+      "sections": [
+        {
+          "heading": "모아 놓은 문서의 시간 차이",
+          "body": "일치신조집에는 고대 교회의 신경, 아우크스부르크 신앙고백과 변증, 루터의 교리문답, 슈말칼덴 조항과 일치신조 등이 담겼다. 한 권에 실려 있다고 모두 1580년에 작성된 글은 아니다. 문서의 작성 시점과 책의 편찬·출판 시점을 구분하면 루터교가 자신의 가르침을 어떤 역사적 연속성 속에 배치했는지 볼 수 있다."
+        },
+        {
+          "heading": "문서의 모음이 갖는 의미",
+          "body": "여러 고백을 함께 제시하면 교회가 기준으로 삼는 문헌을 가르치고 참조하기 쉬워진다. 개별 문서는 각기 다른 논쟁에 답했지만 편찬된 책은 그 관계를 하나의 틀 안에 놓는다. 이 점에서 신앙고백의 역사는 저자가 글을 쓴 순간에서 끝나지 않는다. 무엇을 모으고 어떤 순서로 읽게 할지 결정하는 일도 수용의 일부다."
+        },
+        {
+          "heading": "1580년 출판과 1581년 소장본",
+          "body": "콘코디아대학교 세인트폴의 설명은 1580년 출판 경위와 자신들이 소장한 1581년 책을 구분한다. 소장본에는 앞선 출판 때 늦게 도착한 서명자 명단이 추가되어 있다. 이 해설은 그 도서관 설명을 이용하며 해당 인쇄면을 새로 판독하지 않았다. 특정 소장본의 연도를 문서 전체의 최초 작성 연도로 바꾸지 않는 것이 중요하다."
+        }
+      ],
+      "reading_question": "같은 글이 독립 문서로 읽힐 때와 신앙고백 모음집 안에서 읽힐 때 무엇이 달라질까?",
+      "sources": [
+        "S14"
+      ],
+      "related_readers": [
+        "DOCUMENT-FORMULA_CONCORD",
+        "MEDIUM-AUGSBURG",
+        "DOCUMENT-SMALL_CATECHISM"
+      ],
+      "status": "EDITORIAL_DRAFT"
+    },
+    {
+      "id": "DOCUMENT-COMMON_PRAYER",
+      "title": "공동기도서 — 개혁을 함께 드리는 예배의 언어로",
+      "group": "신앙고백·예배 문서",
+      "lead": "1549년 시작된 잉글랜드의 공동기도서는 신학의 변화가 반복되는 예배의 형식으로 옮겨지는 과정을 보여 준다.",
+      "sections": [
+        {
+          "heading": "흩어진 예식서를 한 권으로",
+          "body": "토머스 크랜머가 중심이 되어 편찬한 1549년 공동기도서는 영어로 예배를 드리는 공통 틀을 마련했다. 앞선 교회의 여러 예식서에서 번역하고 정리한 내용도 포함되었다. 새 책의 출판은 과거와의 완전한 단절만을 뜻하지 않았다. 무엇을 계승하고 어떤 부분을 바꿀지 선택하며 사제와 회중이 사용할 언어를 재구성한 일이었다."
+        },
+        {
+          "heading": "1549년 이후의 반복된 개정",
+          "body": "1552년에는 더 개혁적인 개정판이 나왔고 메리1세 때는 이전 가톨릭 예식이 회복되었다. 엘리자베스1세 아래 1559년에는 다시 공동기도서 사용이 승인되었다. 따라서 처음 나온 책이 변함없이 이어졌다고 설명하면 안 된다. 예배의 문구와 형식은 왕위 교체, 신학 논쟁, 교회 정책과 함께 변화했다."
+        },
+        {
+          "heading": "함께 기도하는 틀과 법적 강제",
+          "body": "의회의 예배통일법은 공통 예식의 사용을 강제하는 장치였다. 같은 문장으로 기도하는 일은 공동체를 연결하지만 그 형식에 동의하지 않는 사람에게는 압박이 될 수 있었다. 성경 번역과 비교하면 공동기도서는 개인이 읽는 자료를 넘어 공적 예배의 행동을 정한 책이었다. 공통성과 자발성은 나누어 살펴야 한다."
+        }
+      ],
+      "reading_question": "공통의 예식서를 마련하는 일과 그 사용을 법으로 요구하는 일은 어떤 차이가 있을까?",
+      "sources": [
+        "S15",
+        "S16"
+      ],
+      "related_readers": [
+        "REGION-ENGLAND",
+        "DOCUMENT-THIRTY_NINE_ARTICLES",
+        "DOCUMENT-TYNDALE_NT"
+      ],
+      "status": "EDITORIAL_DRAFT"
+    },
+    {
+      "id": "CITY-STRASBOURG",
+      "title": "스트라스부르 — 시의회·설교자·피난민이 만난 도시",
+      "group": "개혁 도시",
+      "lead": "스트라스부르의 개혁은 한 신학자의 계획만이 아니라 도시의 제도와 여러 집단의 관계 속에서 진행되었다.",
+      "sections": [
+        {
+          "heading": "도시가 교회 업무를 맡다",
+          "body": "1520년대 스트라스부르의 시 당국은 설교와 목사 임명, 빈민 구제 같은 교회 업무에 관여했다. 부처와 첼 등 설교자의 활동은 이런 도시 정치와 연결되어 있었다. 개혁을 새로운 교리의 수용만으로 설명하면 누가 교회를 운영하게 되었는지 놓친다. 신학자의 주장과 시 당국의 결정이 같은 것은 아니지만 서로에게 영향을 주었다."
+        },
+        {
+          "heading": "변경된 예배와 도시 사이의 연결",
+          "body": "1529년 시 당국은 미사를 폐지하기로 결정했다. 뒤이어 학교와 목회 교육도 정비되었고 피난민과 다른 도시의 개혁자들이 이곳에 머물렀다. 칼뱅도 1538~1541년 스트라스부르에서 활동했다. 사람을 받아들이는 도시의 환경은 신학과 예배의 교류를 가능하게 했다. 학교·숙소·인쇄소도 종교개혁의 지리 안에 포함된다."
+        },
+        {
+          "heading": "환대와 배제의 변화",
+          "body": "스트라스부르는 급진적 개혁 집단을 한동안 받아들였지만 재세례파에 대한 정책은 뒤에 억압적으로 바뀌었다. 피난처라는 평판을 모든 집단이 계속 안전했다는 뜻으로 읽어서는 안 된다. 누구에게 언제 보호가 제공되었는지 물어야 한다. 이 도시의 역사는 관용적인 도시와 억압적인 도시라는 고정된 두 분류로 충분히 설명되지 않는다."
+        }
+      ],
+      "reading_question": "피난처였던 도시가 일부 신앙 집단을 배제하게 된 과정을 어떻게 설명해야 할까?",
+      "sources": [
+        "S18"
+      ],
+      "related_readers": [
+        "PERSON-BUCER",
+        "PERSON-KATHARINA_ZELL",
+        "PERSON-STURM",
+        "THEME-ANABAPTISTS"
+      ],
+      "status": "EDITORIAL_DRAFT"
+    },
+    {
+      "id": "CITY-BASEL",
+      "title": "바젤 — 학문과 인쇄의 도시가 교회 질서를 바꾸다",
+      "group": "개혁 도시",
+      "lead": "바젤은 성경 연구와 출판의 거점이었으며 1529년의 개혁은 도시의 교회 운영에도 전환을 가져왔다.",
+      "sections": [
+        {
+          "heading": "1529년의 교회적 전환",
+          "body": "바젤의 공식 도시 연표는 1529년 외콜람파디우스의 종교개혁과 주교의 도시 이탈을 함께 기록한다. 이 두 사실을 나란히 놓으면 개혁이 설교 내용만의 변화가 아니었음을 볼 수 있다. 기존 주교와 도시의 관계가 바뀌는 제도적 사건이기도 했다. 다만 짧은 연표만으로 변화의 모든 원인이나 시민들의 반응까지 판정할 수는 없다."
+        },
+        {
+          "heading": "학문과 종교적 소속을 구별하기",
+          "body": "기존 에라스무스 해설에서 보았듯 성경 원어 연구와 개혁 사상의 관계는 단순하지 않았다. 학문적 작업이 개혁자에게 도움을 주더라도 연구자가 곧바로 같은 교파에 속하는 것은 아니었다. 바젤을 읽을 때도 성경 연구와 출판이 활발한 환경, 도시의 공적 종교 정책, 개인의 신앙적 선택을 나누어 볼 필요가 있다."
+        },
+        {
+          "heading": "도시 연표에서 더 물어야 할 것",
+          "body": "1529년이라는 연도는 중요한 기준이지만 도시 전체가 그날 동일하게 바뀌었다는 뜻은 아니다. 누가 설교하고 재산과 예배를 관리했는지, 사람들이 어떤 책을 읽었는지가 후속 질문이다. 여기서는 공식 연표의 전환점과 기존 인문주의 해설을 연결했다. 개별 교회의 시행 과정이나 원자료의 문장은 새로 대조하지 않았다."
+        }
+      ],
+      "reading_question": "학문과 출판의 중심지라는 성격과 공적 교파의 선택은 왜 별도로 살펴야 할까?",
+      "sources": [
+        "S19"
+      ],
+      "related_readers": [
+        "PERSON-ERASMUS",
+        "THEME-PRINT_TRANSLATION",
+        "MEDIUM-MARBURG"
+      ],
+      "status": "EDITORIAL_DRAFT"
+    },
+    {
+      "id": "CITY-BERN",
+      "title": "베른 — 공개 토론이 예배와 수도원 정책으로 이어지다",
+      "group": "개혁 도시",
+      "lead": "1528년 베른의 변화는 신학적 논쟁이 도시의 구속력 있는 결정으로 바뀌는 과정을 보여 준다.",
+      "sections": [
+        {
+          "heading": "토론의 쟁점을 미리 정하다",
+          "body": "프란츠 콜프와 베르히톨트 할러는 1527년 가을 열 개 논제를 마련했고 1528년1월 공개 토론이 열렸다. 무엇을 논의할지 정하는 과정 자체가 개혁의 한 단계였다. 공개 토론의 존재를 오늘날처럼 모든 시민에게 동등한 표결권이 주어진 절차로 이해해서는 안 된다. 논증을 제출하는 방식과 최종 결정 권한은 구분해야 한다."
+        },
+        {
+          "heading": "시의회의 결정이 생활을 바꾸다",
+          "body": "토론 후 베른의 시의회는 미사 폐지와 성상 제거를 결정했고 새로운 예배 질서가 도입되었다. 수도원 해체도 중요한 쟁점이었다. 기존 신앙을 지키려는 사람들에게 이런 변화는 익숙한 예배와 공동체의 상실을 뜻할 수 있었다. 개혁을 채택했다는 말에는 그 결정을 반긴 사람과 받아들이기 어려워한 사람의 다른 경험이 포함되어 있다."
+        },
+        {
+          "heading": "다른 도시에서 인쇄된 토론 기록",
+          "body": "토론 기록은 그해3월 취리히에서 인쇄되었다. 베른대학교 도서관은 당시 베른에 인쇄업자가 없었다는 배경을 설명한다. 도시의 종교 정책이 그 도시의 시설만으로 전달된 것은 아니었다. 토론과 의결, 인쇄와 유통이 여러 장소에 걸쳐 이루어진 과정을 보면 도시들의 연결이 개혁의 확산에 중요했음을 알 수 있다."
+        }
+      ],
+      "reading_question": "도시가 신앙의 문제를 의결할 때 토론 참가자와 정책의 적용을 받는 사람은 어떤 관계에 놓일까?",
+      "sources": [
+        "S20"
+      ],
+      "related_readers": [
+        "MEDIUM-ZWINGLI",
+        "THEME-IMAGES_SPACE",
+        "THEME-PRINT_TRANSLATION"
+      ],
+      "status": "EDITORIAL_DRAFT"
+    },
+    {
+      "id": "CITY-GENEVA",
+      "title": "제네바 — 칼뱅과 도시가 함께 만든 갈등의 역사",
+      "group": "개혁 도시",
+      "lead": "제네바를 칼뱅 한 사람이 지배한 도시로만 설명하면 시의회와 시민, 피난민의 역할을 놓치게 된다.",
+      "sections": [
+        {
+          "heading": "도시와 개혁자의 관계는 변했다",
+          "body": "칼뱅과 파렐의 첫 개혁 시도는 갈등 속에서 1538년 좌절되었고 칼뱅은 도시를 떠났다. 1541년에는 시의회의 요청으로 돌아왔다. 이 왕복은 개혁자가 언제나 도시 위에서 명령한 것이 아니었음을 보여 준다. 사역을 맡기는 권한과 신학적 권위가 서로 다른 주체에게 있었으며 두 권한의 관계를 계속 조정해야 했다."
+        },
+        {
+          "heading": "교회 조직과 생활을 둘러싼 저항",
+          "body": "목사·교사·장로·집사의 직무를 마련하는 일은 예배와 교육, 돌봄을 조직하는 방법이었다. 동시에 교회 규율은 주민들의 저항을 불렀다. 기존 주민과 프랑스에서 들어온 피난민 사이에도 긴장이 생겼다. 같은 개혁 신앙을 지지하는 사람들이라도 정치적 소속과 생활의 이해가 일치하지 않을 수 있었다."
+        },
+        {
+          "heading": "1559년 아카데미와 국제적 연결",
+          "body": "1559년 설립된 제네바 아카데미는 여러 지역에서 온 개혁파 신학자들의 교육 거점이 되었다. 피난처로 들어온 사람이 공부한 뒤 다시 다른 지역으로 이동하는 경로도 생겼다. 이런 연결을 보면 제네바의 영향은 한 도시의 규정을 그대로 복사한 결과만은 아니었다. 교육받은 사람들과 책, 각 지역의 선택을 통해 변화가 전달되었다."
+        }
+      ],
+      "reading_question": "한 도시가 국제적 신앙의 중심지가 되려면 교리 외에 어떤 조건이 필요할까?",
+      "sources": [
+        "S21"
+      ],
+      "related_readers": [
+        "MEDIUM-CALVIN1559",
+        "THEME-CHURCH_DISCIPLINE",
+        "THEME-REFUGEES"
+      ],
+      "status": "EDITORIAL_DRAFT"
+    },
+    {
+      "id": "CITY-WITTENBERG",
+      "title": "비텐베르크 — 대학이 사람과 논쟁을 모으다",
+      "group": "개혁 도시",
+      "lead": "비텐베르크의 종교개혁은 1517년 이전에 설립된 대학과 그곳에 모인 학자들의 활동을 배경으로 이해할 수 있다.",
+      "sections": [
+        {
+          "heading": "종교개혁보다 먼저 세워진 대학",
+          "body": "작센 선제후 프리드리히는 1502년 비텐베르크에 대학을 설립했다. 이 대학은 루터의 종교개혁을 위해 처음부터 만들어진 기관이 아니었다. 새로운 대학의 설립 목적과 뒤에 그곳에서 일어난 사건을 구분해야 한다. 종교개혁은 이미 존재하던 교육 공간과 후원 관계 속에서 전개되었으며 그 공간의 역할을 다시 바꾸었다."
+        },
+        {
+          "heading": "루터와 멜란히톤의 다른 기여",
+          "body": "루터는 1512년부터 신학 교수로 활동했고 멜란히톤은 1518년 그리스어 교수로 부임했다. 신학 강의와 언어 교육은 서로 연결되었다. 한 사람의 종교적 결단만으로 운동을 설명하면 성경을 연구하고 가르칠 학문적 조건을 놓친다. 대학의 동료들은 각자의 전문 분야를 통해 신학의 정리와 학생 교육에 기여했다."
+        },
+        {
+          "heading": "개인의 사건을 기관의 역사와 잇기",
+          "body": "1517년은 비텐베르크의 중요성을 널리 알린 전환점이지만 대학의 활동은 그 이전과 이후에도 이어졌다. 학생과 교수, 후원자의 관계를 함께 보면 왜 이곳에서 논쟁이 성장할 수 있었는지 묻게 된다. 다만 대학이 존재한다는 사실만으로 종교개혁의 성공이 예정되었다고 설명할 수는 없다. 교육 기관과 역사적 선택은 서로 영향을 주었다."
+        }
+      ],
+      "reading_question": "대학과 후원자의 역할을 포함하면 루터 중심의 서술에서 무엇이 더 보일까?",
+      "sources": [
+        "S22"
+      ],
+      "related_readers": [
+        "MEDIUM-LUTHER1517",
+        "PERSON-MELANCHTHON",
+        "THEME-EDUCATION"
+      ],
+      "status": "EDITORIAL_DRAFT"
+    },
+    {
+      "id": "CITY-ZURICH",
+      "title": "취리히 — 성경에 대한 논쟁에서 재산과 돌봄의 운영으로",
+      "group": "개혁 도시",
+      "lead": "취리히의 개혁은 설교와 성찬의 변화뿐 아니라 수도원 재산을 누가 어떻게 사용할지의 문제로 이어졌다.",
+      "sections": [
+        {
+          "heading": "토론과 시 당국의 승인",
+          "body": "1523년 취리히의 공개 토론은 츠빙글리의 가르침과 예배 개편을 공적으로 다루었다. 시의회의 지지는 개혁이 도시의 제도로 시행될 중요한 조건이었다. 성경의 권위를 주장하는 것과 그 주장에 따라 도시 전체의 운영을 바꾸는 일 사이에는 정치적 결정이 있었다. 설교자의 논증과 행정적 실행을 함께 보아야 한다."
+        },
+        {
+          "heading": "수도원 재산의 새로운 사용",
+          "body": "수도원과 성직 재단의 재산·수입은 새로운 관리 아래 놓였다. 그 재원은 교회와 빈민 구제를 위한 것으로 설명되었지만 국가 채무 상환과 통치권 매입에도 쓰였다. 불링거가 이런 전용에 항의했다는 시립문서관의 설명은 교회와 시 당국의 이해가 항상 같지 않았음을 보여 준다. 재산 이전과 실제 용도를 구분해야 한다."
+        },
+        {
+          "heading": "제도가 바뀌어도 남은 갈등",
+          "body": "취리히는 목회자 교육을 조직하고 새로운 예배 질서를 마련했지만 더 급진적 변화를 요구한 재세례파와 충돌했다. 도시가 하나의 신앙을 공적 기준으로 세우는 과정에는 다른 개혁의 가능성을 억누르는 면도 있었다. 학교와 구제의 확대, 교회의 자원 관리, 소수 집단의 처우를 함께 보면 개혁의 성과와 강제를 동시에 살필 수 있다."
+        }
+      ],
+      "reading_question": "교회 재산을 공적으로 관리하게 된 뒤 그 사용 목적을 누가 감시하고 결정해야 했을까?",
+      "sources": [
+        "S23"
+      ],
+      "related_readers": [
+        "MEDIUM-ZWINGLI",
+        "PERSON-BULLINGER",
+        "THEME-POOR_RELIEF",
+        "THEME-ANABAPTISTS"
+      ],
+      "status": "EDITORIAL_DRAFT"
+    }
+  ],
+  "catalogue": [
+    {
+      "id": "MEDIUM-WYCLIFFE",
+      "title": "위클리프 — 교회의 권위는 무엇으로 판단하는가",
+      "summary": "위클리프는 교회의 권위를 직위와 재산만으로 판단할 수 있는지 물었다. 그의 문제 제기는 중세 교회 안의 논쟁에서 출발했다.",
+      "dataset": "data/deep/atlas_v254_medium_depth_ten_readers.json",
+      "chapter_index": 0,
+      "reader_document": "docs/01_CONTENT/V254_MEDIUM_DEPTH_TEN_READERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "MEDIUM-HUS",
+      "title": "후스 — 설교와 교회 개혁이 보헤미아의 문제가 되다",
+      "summary": "후스의 개혁은 프라하의 설교와 대학, 지역 정치가 만나는 자리에서 자랐다. 그는 위클리프의 영향을 받았지만 독자적인 상황에서 행동했다.",
+      "dataset": "data/deep/atlas_v254_medium_depth_ten_readers.json",
+      "chapter_index": 1,
+      "reader_document": "docs/01_CONTENT/V254_MEDIUM_DEPTH_TEN_READERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "MEDIUM-LUTHER1517",
+      "title": "1517년 루터 — 면벌부 논쟁은 왜 커졌는가",
+      "summary": "95개 논제는 완성된 새 교파의 선언문이 아니라 회개와 교회의 권한을 둘러싼 토론 요청이었다. 그 논쟁은 인쇄와 지역 정치 속에서 확대되었다.",
+      "dataset": "data/deep/atlas_v254_medium_depth_ten_readers.json",
+      "chapter_index": 2,
+      "reader_document": "docs/01_CONTENT/V254_MEDIUM_DEPTH_TEN_READERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "MEDIUM-LUTHER1521",
+      "title": "1521년 보름스 — 양심과 제국의 권력이 충돌하다",
+      "summary": "보름스에서 루터는 저술의 철회를 요구받았다. 그의 양심은 개인 취향의 자유라기보다 성경에 근거해 설득되어야 한다는 신앙적 판단과 연결되었다.",
+      "dataset": "data/deep/atlas_v254_medium_depth_ten_readers.json",
+      "chapter_index": 3,
+      "reader_document": "docs/01_CONTENT/V254_MEDIUM_DEPTH_TEN_READERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "MEDIUM-MARBURG",
+      "title": "마르부르크 회담 — 같은 개혁 진영이 왜 하나가 되지 못했는가",
+      "summary": "1529년 마르부르크에서 개혁자들은 많은 공통점을 확인했지만 성찬 이해의 차이를 끝내 해소하지 못했다. 정치적 연합과 신학적 일치는 별개의 과제였다.",
+      "dataset": "data/deep/atlas_v254_medium_depth_ten_readers.json",
+      "chapter_index": 4,
+      "reader_document": "docs/01_CONTENT/V254_MEDIUM_DEPTH_TEN_READERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "MEDIUM-AUGSBURG",
+      "title": "아우크스부르크 신앙고백 — 개혁의 신앙을 공적으로 설명하다",
+      "summary": "1530년 신앙고백은 개혁 진영의 믿음을 제국의회 앞에서 설명하려는 문서였다. 논쟁의 언어가 공동체의 공적 고백으로 정리되는 과정이었다.",
+      "dataset": "data/deep/atlas_v254_medium_depth_ten_readers.json",
+      "chapter_index": 5,
+      "reader_document": "docs/01_CONTENT/V254_MEDIUM_DEPTH_TEN_READERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "MEDIUM-CALVIN1536",
+      "title": "1536년 『기독교강요』 — 가르침과 변호를 위한 작은 책",
+      "summary": "초판 『기독교강요』는 신앙을 배우는 독자를 위한 안내이자 박해받는 신자들의 믿음을 변호하는 책이었다. 처음부터 최종판의 거대한 체계로 나온 것은 아니다.",
+      "dataset": "data/deep/atlas_v254_medium_depth_ten_readers.json",
+      "chapter_index": 6,
+      "reader_document": "docs/01_CONTENT/V254_MEDIUM_DEPTH_TEN_READERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "MEDIUM-CALVIN1559",
+      "title": "1559년 『기독교강요』 — 신앙을 배우는 순서를 만들다",
+      "summary": "최종 라틴어판은 네 권80장으로 신학을 재배열했다. 예정론 한 주제보다 창조·구속·신앙의 삶·교회를 연결하는 전체 흐름이 중요하다.",
+      "dataset": "data/deep/atlas_v254_medium_depth_ten_readers.json",
+      "chapter_index": 7,
+      "reader_document": "docs/01_CONTENT/V254_MEDIUM_DEPTH_TEN_READERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "MEDIUM-ZWINGLI",
+      "title": "츠빙글리와 취리히 — 도시가 개혁을 결정하다",
+      "summary": "취리히 개혁은 설교자의 성경 해석과 시의회의 결정이 맞물린 공공개혁이었다. 예배의 변화는 도시의 재산과 질서, 주민의 생활까지 바꾸었다.",
+      "dataset": "data/deep/atlas_v254_medium_depth_ten_readers.json",
+      "chapter_index": 8,
+      "reader_document": "docs/01_CONTENT/V254_MEDIUM_DEPTH_TEN_READERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "MEDIUM-TRENT",
+      "title": "트리엔트 공의회 — 가톨릭교회는 어떻게 개혁했는가",
+      "summary": "트리엔트 공의회는 개신교 비판에 대응하면서 가톨릭의 교리를 명확히 하고 성직자 교육과 교회 운영을 개혁했다. 논쟁과 내부 쇄신이 함께 진행되었다.",
+      "dataset": "data/deep/atlas_v254_medium_depth_ten_readers.json",
+      "chapter_index": 9,
+      "reader_document": "docs/01_CONTENT/V254_MEDIUM_DEPTH_TEN_READERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "THEME-PRINT_TRANSLATION",
+      "title": "인쇄와 번역 — 논쟁은 어떻게 사람들에게 도달했는가",
+      "summary": "종교개혁은 주장만으로 확산되지 않았다. 인쇄와 번역은 논쟁이 이동하는 속도와 독자의 범위를 바꾸었다.",
+      "dataset": "data/deep/atlas_v255_medium_depth_social_themes.json",
+      "chapter_index": 0,
+      "reader_document": "docs/01_CONTENT/V255_MEDIUM_DEPTH_SOCIAL_THEMES.md",
+      "section_count": 3
+    },
+    {
+      "id": "THEME-CITY_POWER",
+      "title": "도시와 정치권력 — 누가 개혁을 실행했는가",
+      "summary": "설교자가 변화를 주장해도 도시 전체의 예배와 생활을 바꾸려면 실행할 권력이 필요했다. 취리히에서는 시의회가 중요한 역할을 맡았다.",
+      "dataset": "data/deep/atlas_v255_medium_depth_social_themes.json",
+      "chapter_index": 1,
+      "reader_document": "docs/01_CONTENT/V255_MEDIUM_DEPTH_SOCIAL_THEMES.md",
+      "section_count": 3
+    },
+    {
+      "id": "THEME-WOMEN_FAMILY",
+      "title": "여성과 가족 — 변화는 누구에게 어떤 기회를 주었는가",
+      "summary": "종교개혁기의 여성은 개혁자의 아내나 수녀라는 한 가지 역할로만 설명되지 않는다. 교육과 가정, 종교적 선택의 변화는 서로 다른 기회와 제약을 만들었다.",
+      "dataset": "data/deep/atlas_v255_medium_depth_social_themes.json",
+      "chapter_index": 2,
+      "reader_document": "docs/01_CONTENT/V255_MEDIUM_DEPTH_SOCIAL_THEMES.md",
+      "section_count": 3
+    },
+    {
+      "id": "THEME-EDUCATION",
+      "title": "학교와 교육 — 신앙을 배우는 일이 공공의 과제가 되다",
+      "summary": "개혁자들은 성경과 신앙을 이해할 독자를 필요로 했다. 학교는 교회의 문제이면서 도시가 책임져야 할 과제로도 논의되었다.",
+      "dataset": "data/deep/atlas_v255_medium_depth_social_themes.json",
+      "chapter_index": 3,
+      "reader_document": "docs/01_CONTENT/V255_MEDIUM_DEPTH_SOCIAL_THEMES.md",
+      "section_count": 3
+    },
+    {
+      "id": "THEME-PEASANTS_WAR",
+      "title": "농민전쟁 — 복음의 자유는 사회 질서의 변화도 뜻했는가",
+      "summary": "1524~1525년 농민전쟁은 종교개혁의 언어가 사회적 요구와 만난 사건이었다. 그러나 모든 원인을 루터의 가르침 하나로 설명할 수는 없다.",
+      "dataset": "data/deep/atlas_v255_medium_depth_social_themes.json",
+      "chapter_index": 4,
+      "reader_document": "docs/01_CONTENT/V255_MEDIUM_DEPTH_SOCIAL_THEMES.md",
+      "section_count": 3
+    },
+    {
+      "id": "REGION-ENGLAND",
+      "title": "잉글랜드 — 왕권과 의회가 교회의 질서를 바꾸다",
+      "summary": "잉글랜드의 종교개혁은 로마와의 결별에서 시작했지만, 교리와 예배의 변화는 여러 군주의 통치를 거치며 진전과 반전을 반복했다.",
+      "dataset": "data/deep/atlas_v256_medium_depth_regional_readers.json",
+      "chapter_index": 0,
+      "reader_document": "docs/01_CONTENT/V256_MEDIUM_DEPTH_REGIONAL_READERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "REGION-FRANCE",
+      "title": "프랑스 — 종교적 분열은 왜 내전으로 이어졌는가",
+      "summary": "프랑스에서는 개혁 신앙의 확산과 왕권·귀족의 경쟁이 겹치며 종교전쟁이 이어졌다. 낭트 칙령은 그 갈등을 제한된 공존으로 다스리려는 시도였다.",
+      "dataset": "data/deep/atlas_v256_medium_depth_regional_readers.json",
+      "chapter_index": 1,
+      "reader_document": "docs/01_CONTENT/V256_MEDIUM_DEPTH_REGIONAL_READERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "REGION-LOW_COUNTRIES",
+      "title": "네덜란드 지역 — 신앙 갈등과 지배에 대한 저항이 만나다",
+      "summary": "네덜란드 지역의 종교개혁은 합스부르크 통치에 대한 저항과 얽혔다. 그러나 독립을 원하는 모든 사람이 같은 신앙을 가진 것은 아니었다.",
+      "dataset": "data/deep/atlas_v256_medium_depth_regional_readers.json",
+      "chapter_index": 2,
+      "reader_document": "docs/01_CONTENT/V256_MEDIUM_DEPTH_REGIONAL_READERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "REGION-SCOTLAND",
+      "title": "스코틀랜드 — 설교와 귀족 연합, 국제정치가 함께 만든 개혁",
+      "summary": "스코틀랜드의 종교개혁은 존 녹스의 설교만으로 이루어지지 않았다. 귀족들의 연합과 의회, 프랑스·잉글랜드의 개입이 변화의 조건을 만들었다.",
+      "dataset": "data/deep/atlas_v256_medium_depth_regional_readers.json",
+      "chapter_index": 3,
+      "reader_document": "docs/01_CONTENT/V256_MEDIUM_DEPTH_REGIONAL_READERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "REGION-DENMARK_NORWAY",
+      "title": "덴마크·노르웨이 — 왕권이 이끈 개혁과 생활 속의 느린 변화",
+      "summary": "1536~1537년 루터교 질서의 도입은 교회와 왕권의 관계를 바꾸었다. 그러나 제도의 변화와 주민들의 신앙생활 변화는 같은 속도로 진행되지 않았다.",
+      "dataset": "data/deep/atlas_v257_medium_depth_north_east_regions.json",
+      "chapter_index": 0,
+      "reader_document": "docs/01_CONTENT/V257_MEDIUM_DEPTH_NORTH_EAST_REGIONS.md",
+      "section_count": 3
+    },
+    {
+      "id": "REGION-SWEDEN",
+      "title": "스웨덴 — 교회 재산의 변화에서 루터교 고백의 확립까지",
+      "summary": "스웨덴의 종교개혁은1527년의 정치·경제적 전환과1593년의 신앙고백 확립 사이에 긴 과정을 거쳤다. 시작과 정착을 같은 사건으로 묶지 않는 것이 중요하다.",
+      "dataset": "data/deep/atlas_v257_medium_depth_north_east_regions.json",
+      "chapter_index": 1,
+      "reader_document": "docs/01_CONTENT/V257_MEDIUM_DEPTH_NORTH_EAST_REGIONS.md",
+      "section_count": 3
+    },
+    {
+      "id": "REGION-POLAND_LITHUANIA",
+      "title": "폴란드-리투아니아 — 종교가 달라도 정치적 평화를 지킬 수 있는가",
+      "summary": "1573년 바르샤바 연맹은 신앙이 다른 사람들이 폭력 없이 함께 살 조건을 약속했다. 이 공존은 귀족 중심의 정치질서 속에서 이해해야 한다.",
+      "dataset": "data/deep/atlas_v257_medium_depth_north_east_regions.json",
+      "chapter_index": 2,
+      "reader_document": "docs/01_CONTENT/V257_MEDIUM_DEPTH_NORTH_EAST_REGIONS.md",
+      "section_count": 3
+    },
+    {
+      "id": "REGION-TRANSYLVANIA",
+      "title": "트란실바니아 — 공동체가 받아들일 설교자를 선택하다",
+      "summary": "헝가리어권 종교개혁의 중요한 무대였던 트란실바니아에서는1568년 토르더 의회가 설교와 공동체의 선택을 보호했다. 공존의 성과와 적용 범위를 함께 보아야 한다.",
+      "dataset": "data/deep/atlas_v257_medium_depth_north_east_regions.json",
+      "chapter_index": 3,
+      "reader_document": "docs/01_CONTENT/V257_MEDIUM_DEPTH_NORTH_EAST_REGIONS.md",
+      "section_count": 3
+    },
+    {
+      "id": "THEME-ANABAPTISTS",
+      "title": "재세례파 — 교회의 구성원은 어떻게 되는가",
+      "summary": "재세례파는 종교개혁 내부에서 세례와 신앙 공동체의 경계를 다시 물었다. 한 이름 아래 여러 흐름이 있었으므로 모두를 하나의 집단처럼 설명하면 안 된다.",
+      "dataset": "data/deep/atlas_v258_medium_depth_conflict_settlements.json",
+      "chapter_index": 0,
+      "reader_document": "docs/01_CONTENT/V258_MEDIUM_DEPTH_CONFLICT_SETTLEMENTS.md",
+      "section_count": 3
+    },
+    {
+      "id": "THEME-CATHOLIC_RENEWAL",
+      "title": "가톨릭 내부 개혁과 예수회 — 논쟁을 넘어 교육과 실천으로",
+      "summary": "가톨릭의 변화는 개신교 비판에 대한 대응과 내부 쇄신의 필요가 함께 이끌었다. 예수회는 교육과 선교를 통해 그 변화를 실천한 중요한 조직이었다.",
+      "dataset": "data/deep/atlas_v258_medium_depth_conflict_settlements.json",
+      "chapter_index": 1,
+      "reader_document": "docs/01_CONTENT/V258_MEDIUM_DEPTH_CONFLICT_SETTLEMENTS.md",
+      "section_count": 3
+    },
+    {
+      "id": "THEME-AUGSBURG_PEACE",
+      "title": "1555년 아우크스부르크 화의 — 일치하지 못해도 싸움을 멈출 수 있는가",
+      "summary": "아우크스부르크 화의는 가톨릭과 루터교 사이의 신학적 차이를 해소하지 않고도 제국 안의 평화를 유지하려는 정치적 합의였다.",
+      "dataset": "data/deep/atlas_v258_medium_depth_conflict_settlements.json",
+      "chapter_index": 2,
+      "reader_document": "docs/01_CONTENT/V258_MEDIUM_DEPTH_CONFLICT_SETTLEMENTS.md",
+      "section_count": 3
+    },
+    {
+      "id": "THEME-WAR_WESTPHALIA",
+      "title": "30년전쟁과 베스트팔렌 평화 — 종교적 차이를 다루는 질서를 다시 만들다",
+      "summary": "1618~1648년의 전쟁은 신앙 갈등과 왕조·영방의 권력 경쟁이 얽힌 전쟁이었다. 평화는 교파를 하나로 합치기보다 차이를 관리할 장치를 마련했다.",
+      "dataset": "data/deep/atlas_v258_medium_depth_conflict_settlements.json",
+      "chapter_index": 3,
+      "reader_document": "docs/01_CONTENT/V258_MEDIUM_DEPTH_CONFLICT_SETTLEMENTS.md",
+      "section_count": 3
+    },
+    {
+      "id": "THEME-SCRIPTURE_AUTHORITY",
+      "title": "성경과 교회의 권위 — 무엇을 최종 기준으로 삼는가",
+      "summary": "종교개혁의 권위 논쟁은 성경을 소중히 여기는 사람과 그렇지 않은 사람의 대립이 아니었다. 성경과 전통,교회의 가르침을 어떤 관계에 놓을지가 쟁점이었다.",
+      "dataset": "data/deep/atlas_v260_medium_depth_core_comparisons.json",
+      "chapter_index": 0,
+      "reader_document": "docs/01_CONTENT/V260_MEDIUM_DEPTH_CORE_COMPARISONS.md",
+      "section_count": 3
+    },
+    {
+      "id": "THEME-GRACE_FAITH_WORKS",
+      "title": "은혜·믿음·행위 — 무엇이 사람을 의롭게 하는가",
+      "summary": "의롭다 함의 논쟁은 사람이 자신의 힘으로 구원을 얻을 수 있는지,하나님의 은혜를 어떻게 받아들이며 그 은혜가 삶을 어떻게 바꾸는지를 물었다.",
+      "dataset": "data/deep/atlas_v260_medium_depth_core_comparisons.json",
+      "chapter_index": 1,
+      "reader_document": "docs/01_CONTENT/V260_MEDIUM_DEPTH_CORE_COMPARISONS.md",
+      "section_count": 3
+    },
+    {
+      "id": "THEME-COMMUNION",
+      "title": "성찬 — 같은 식탁을 두고 왜 다른 설명이 나왔는가",
+      "summary": "성찬 논쟁은 예배의 사소한 형식보다 그리스도의 약속과 임재,신앙 공동체가 은혜를 경험하는 방식을 다룬 문제였다.",
+      "dataset": "data/deep/atlas_v260_medium_depth_core_comparisons.json",
+      "chapter_index": 2,
+      "reader_document": "docs/01_CONTENT/V260_MEDIUM_DEPTH_CORE_COMPARISONS.md",
+      "section_count": 3
+    },
+    {
+      "id": "GLOBAL-AMERICAS",
+      "title": "아메리카 — 정복과 선교 사이에서 바뀐 신앙의 언어",
+      "summary": "대서양 건너의 종교 변화는 스페인의 정복, 선교사의 번역, 원주민 공동체의 대응이 얽힌 역사였다.",
+      "dataset": "data/deep/atlas_v261_medium_depth_global_connections.json",
+      "chapter_index": 0,
+      "reader_document": "docs/01_CONTENT/V261_MEDIUM_DEPTH_GLOBAL_CONNECTIONS.md",
+      "section_count": 3
+    },
+    {
+      "id": "GLOBAL-INDIA_JAPAN",
+      "title": "인도와 일본 — 같은 선교망, 서로 다른 정치 환경",
+      "summary": "고아와 일본을 잇는 항로는 사람과 물품뿐 아니라 신앙을 실어 날랐지만, 각 지역의 수용 조건은 달랐다.",
+      "dataset": "data/deep/atlas_v261_medium_depth_global_connections.json",
+      "chapter_index": 1,
+      "reader_document": "docs/01_CONTENT/V261_MEDIUM_DEPTH_GLOBAL_CONNECTIONS.md",
+      "section_count": 3
+    },
+    {
+      "id": "GLOBAL-CHINA",
+      "title": "중국 — 세계지도를 함께 만들며 시작한 대화",
+      "summary": "마테오 리치의 지도는 선교와 지식 교류가 만나는 자리였으며, 중국의 독자와 협력자들이 그 형태를 바꾸었다.",
+      "dataset": "data/deep/atlas_v261_medium_depth_global_connections.json",
+      "chapter_index": 2,
+      "reader_document": "docs/01_CONTENT/V261_MEDIUM_DEPTH_GLOBAL_CONNECTIONS.md",
+      "section_count": 3
+    },
+    {
+      "id": "THEME-MUSIC_SINGING",
+      "title": "음악과 찬송 — 신앙을 함께 부르는 사람들",
+      "summary": "종교개혁의 음악은 교리를 전하는 매체이자 공동체가 예배에 참여하는 방식이었다. 루터교와 개혁교회는 서로 다른 노래의 문화를 발전시켰다.",
+      "dataset": "data/deep/atlas_v263_medium_depth_worship_and_care.json",
+      "chapter_index": 0,
+      "reader_document": "docs/01_CONTENT/V263_MEDIUM_DEPTH_WORSHIP_AND_CARE.md",
+      "section_count": 3
+    },
+    {
+      "id": "THEME-IMAGES_SPACE",
+      "title": "성상과 교회 공간 — 무엇을 보고 어디에 귀를 기울였는가",
+      "summary": "그림과 조각을 둘러싼 논쟁은 장식의 취향보다 예배와 신앙의 관계를 다루었다. 성상에 대한 개혁자들의 판단과 현장의 행동도 서로 달랐다.",
+      "dataset": "data/deep/atlas_v263_medium_depth_worship_and_care.json",
+      "chapter_index": 1,
+      "reader_document": "docs/01_CONTENT/V263_MEDIUM_DEPTH_WORSHIP_AND_CARE.md",
+      "section_count": 3
+    },
+    {
+      "id": "THEME-POOR_RELIEF",
+      "title": "빈민 구제 — 교회 재산이 바뀔 때 누가 돌봄을 맡았는가",
+      "summary": "교회 조직과 재산의 개편은 가난한 사람들을 돕는 재원과 책임의 문제로 이어졌다. 새로운 구제 제도의 설계와 실제 성과는 구별해서 읽어야 한다.",
+      "dataset": "data/deep/atlas_v263_medium_depth_worship_and_care.json",
+      "chapter_index": 2,
+      "reader_document": "docs/01_CONTENT/V263_MEDIUM_DEPTH_WORSHIP_AND_CARE.md",
+      "section_count": 3
+    },
+    {
+      "id": "PERSON-ERASMUS",
+      "title": "에라스무스 — 같은 성경 연구가 같은 개혁으로 이어지지는 않았다",
+      "summary": "에라스무스의 인문주의는 성경과 초기 그리스도교의 자료로 돌아가려는 학문이었다. 그 작업은 개혁자들에게 영향을 주었지만 교회의 분열을 지지하는 입장으로 이어지지는 않았다.",
+      "dataset": "data/deep/atlas_v264_medium_depth_humanists_and_mediators.json",
+      "chapter_index": 0,
+      "reader_document": "docs/01_CONTENT/V264_MEDIUM_DEPTH_HUMANISTS_AND_MEDIATORS.md",
+      "section_count": 3
+    },
+    {
+      "id": "PERSON-MELANCHTHON",
+      "title": "멜란히톤 — 개혁을 가르치고 공적인 문장으로 정리하다",
+      "summary": "멜란히톤은 루터의 동료이면서 교육과 신학의 조직에 독자적인 역할을 한 인물이었다. 대학의 언어 연구와 교회의 신앙고백이 그의 작업 안에서 만났다.",
+      "dataset": "data/deep/atlas_v264_medium_depth_humanists_and_mediators.json",
+      "chapter_index": 1,
+      "reader_document": "docs/01_CONTENT/V264_MEDIUM_DEPTH_HUMANISTS_AND_MEDIATORS.md",
+      "section_count": 3
+    },
+    {
+      "id": "PERSON-BUCER",
+      "title": "마르틴 부처 — 스트라스부르에서 서로 다른 개혁을 잇다",
+      "summary": "부처는 스트라스부르의 개혁자로서 성경 교육과 교회의 일치를 추구했다. 그의 활동은 종교개혁 진영 안의 차이와 도시 사이의 연결을 함께 보여 준다.",
+      "dataset": "data/deep/atlas_v264_medium_depth_humanists_and_mediators.json",
+      "chapter_index": 2,
+      "reader_document": "docs/01_CONTENT/V264_MEDIUM_DEPTH_HUMANISTS_AND_MEDIATORS.md",
+      "section_count": 3
+    },
+    {
+      "id": "THEME-REFUGEES",
+      "title": "종교 난민 — 같은 믿음의 도시에서 다시 삶을 꾸리다",
+      "summary": "종교적 박해는 사람들을 이동하게 했다. 피난처가 된 도시에서는 신앙의 연대와 함께 거주, 생계, 정치적 소속의 문제가 생겼다.",
+      "dataset": "data/deep/atlas_v265_medium_depth_belief_and_boundaries.json",
+      "chapter_index": 0,
+      "reader_document": "docs/01_CONTENT/V265_MEDIUM_DEPTH_BELIEF_AND_BOUNDARIES.md",
+      "section_count": 3
+    },
+    {
+      "id": "THEME-CENSORSHIP",
+      "title": "인쇄물 검열 — 책이 퍼지는 길과 읽지 못하게 하는 권한",
+      "summary": "인쇄가 종교 논쟁을 넓히면서 책의 출판과 독서를 통제하려는 제도도 중요해졌다. 가톨릭 금서 목록은 그 작동 방식을 살펴볼 수 있는 한 사례다.",
+      "dataset": "data/deep/atlas_v265_medium_depth_belief_and_boundaries.json",
+      "chapter_index": 1,
+      "reader_document": "docs/01_CONTENT/V265_MEDIUM_DEPTH_BELIEF_AND_BOUNDARIES.md",
+      "section_count": 3
+    },
+    {
+      "id": "THEME-CHURCH_DISCIPLINE",
+      "title": "교회 규율 — 신앙 공동체는 생활에 어디까지 관여했는가",
+      "summary": "제네바의 치리회는 신앙과 생활을 연결한 제도였다. 그 역할을 이해하려면 목사와 장로, 교회와 시 당국 사이의 권한을 구분해야 한다.",
+      "dataset": "data/deep/atlas_v265_medium_depth_belief_and_boundaries.json",
+      "chapter_index": 2,
+      "reader_document": "docs/01_CONTENT/V265_MEDIUM_DEPTH_BELIEF_AND_BOUNDARIES.md",
+      "section_count": 3
+    },
+    {
+      "id": "PERSON-IGNATIUS",
+      "title": "이냐시오 데 로욜라 — 내면의 훈련에서 교육과 선교로",
+      "summary": "로욜라의 활동은 개인의 신앙 성찰과 조직의 활동을 연결했다. 예수회의 출발을 보면 가톨릭 쇄신이 교리 논쟁과 함께 기도·교육·선교의 형태로 이루어졌음을 알 수 있다.",
+      "dataset": "data/deep/atlas_v266_medium_depth_catholic_reformers.json",
+      "chapter_index": 0,
+      "reader_document": "docs/01_CONTENT/V266_MEDIUM_DEPTH_CATHOLIC_REFORMERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "PERSON-TERESA_AVILA",
+      "title": "아빌라의 테레사 — 기도와 수도공동체를 함께 바꾸다",
+      "summary": "테레사는 가톨릭 수도생활 안에서 기도와 공동체의 쇄신을 추구했다. 그의 활동은 16세기 여성이 글을 쓰고 공동체를 세우며 개혁에 참여한 한 경로였다.",
+      "dataset": "data/deep/atlas_v266_medium_depth_catholic_reformers.json",
+      "chapter_index": 1,
+      "reader_document": "docs/01_CONTENT/V266_MEDIUM_DEPTH_CATHOLIC_REFORMERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "PERSON-BORROMEO",
+      "title": "카를로 보로메오 — 공의회의 결정을 교구의 일상으로 옮기다",
+      "summary": "밀라노의 보로메오는 트리엔트 이후 가톨릭 쇄신의 실행을 보여 주는 인물이다. 신학교와 사목 방문, 회의는 공의회 문서를 현장의 운영으로 연결하는 수단이었다.",
+      "dataset": "data/deep/atlas_v266_medium_depth_catholic_reformers.json",
+      "chapter_index": 2,
+      "reader_document": "docs/01_CONTENT/V266_MEDIUM_DEPTH_CATHOLIC_REFORMERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "PERSON-BULLINGER",
+      "title": "하인리히 불링거 — 취리히의 개혁을 이어 가고 다른 도시와 연결하다",
+      "summary": "츠빙글리의 죽음 이후에도 취리히의 개혁은 계속되었다. 불링거는 설교와 저술, 서신과 합의를 통해 개혁교회의 정착에 관여했다.",
+      "dataset": "data/deep/atlas_v270_medium_depth_continuity_and_communities.json",
+      "chapter_index": 0,
+      "reader_document": "docs/01_CONTENT/V270_MEDIUM_DEPTH_CONTINUITY_AND_COMMUNITIES.md",
+      "section_count": 3
+    },
+    {
+      "id": "PERSON-MENNO_SIMONS",
+      "title": "메노 시몬스 — 흩어진 재세례파 공동체를 이끌다",
+      "summary": "메노 시몬스는 메노나이트 전통에 이름을 남긴 지도자였다. 그러나 그가 참여하기 전부터 저지대 지역에는 재세례파 운동이 존재했다.",
+      "dataset": "data/deep/atlas_v270_medium_depth_continuity_and_communities.json",
+      "chapter_index": 1,
+      "reader_document": "docs/01_CONTENT/V270_MEDIUM_DEPTH_CONTINUITY_AND_COMMUNITIES.md",
+      "section_count": 3
+    },
+    {
+      "id": "PERSON-SERVETUS",
+      "title": "미카엘 세르베투스 — 교리의 경계가 생명의 문제로 이어지다",
+      "summary": "1553년 제네바의 세르베투스 처형은 종교개혁 내부에서 강제와 처벌을 둘러싼 논쟁을 불러왔다. 신학적 판단과 통치권의 행동을 함께 보아야 하는 사건이다.",
+      "dataset": "data/deep/atlas_v271_medium_depth_dissent_and_toleration.json",
+      "chapter_index": 0,
+      "reader_document": "docs/01_CONTENT/V271_MEDIUM_DEPTH_DISSENT_AND_TOLERATION.md",
+      "section_count": 3
+    },
+    {
+      "id": "PERSON-CASTELLIO",
+      "title": "세바스티앵 카스텔리오 — 해석의 차이 앞에서 강제의 한계를 묻다",
+      "summary": "카스텔리오는 성경 번역과 교육에 참여한 인문주의자였다. 그는 개혁 진영 안에서 교리 차이를 이유로 가해지는 폭력을 비판했다.",
+      "dataset": "data/deep/atlas_v271_medium_depth_dissent_and_toleration.json",
+      "chapter_index": 1,
+      "reader_document": "docs/01_CONTENT/V271_MEDIUM_DEPTH_DISSENT_AND_TOLERATION.md",
+      "section_count": 3
+    },
+    {
+      "id": "DOCUMENT-SMALL_CATECHISM",
+      "title": "루터의 소교리문답 — 개혁을 배우고 반복하는 일상으로",
+      "summary": "1529년의 『소교리문답』은 신앙의 기본 내용을 짧게 가르치기 위한 책이었다. 교회의 변화를 선언하는 일과 사람들이 그것을 배우는 일 사이의 거리를 보여 준다.",
+      "dataset": "data/deep/atlas_v272_medium_depth_catechisms.json",
+      "chapter_index": 0,
+      "reader_document": "docs/01_CONTENT/V272_MEDIUM_DEPTH_CATECHISMS.md",
+      "section_count": 3
+    },
+    {
+      "id": "DOCUMENT-HEIDELBERG_CATECHISM",
+      "title": "하이델베르크 교리문답 — 교육과 설교를 공동의 틀로 묶다",
+      "summary": "1563년의 『하이델베르크 교리문답』은 팔츠 지역의 교육과 설교를 위한 문서였다. 신앙을 가르치는 일은 지역 교회가 함께 사용할 언어를 마련하는 일이기도 했다.",
+      "dataset": "data/deep/atlas_v272_medium_depth_catechisms.json",
+      "chapter_index": 1,
+      "reader_document": "docs/01_CONTENT/V272_MEDIUM_DEPTH_CATECHISMS.md",
+      "section_count": 3
+    },
+    {
+      "id": "DOCUMENT-TYNDALE_NT",
+      "title": "틴들의 신약성경 — 번역과 국외 인쇄가 만나다",
+      "summary": "1526년 틴들의 영어 신약성경은 번역이 언어의 문제이면서 인쇄와 통제의 문제였음을 보여 준다. 이를 영어 성경 전체의 첫 시작과 혼동하지 않아야 한다.",
+      "dataset": "data/deep/atlas_v274_medium_depth_english_bibles.json",
+      "chapter_index": 0,
+      "reader_document": "docs/01_CONTENT/V274_MEDIUM_DEPTH_ENGLISH_BIBLES.md",
+      "section_count": 3
+    },
+    {
+      "id": "DOCUMENT-GENEVA_BIBLE",
+      "title": "제네바 성경 — 망명 공동체가 마련한 읽기의 도구",
+      "summary": "1560년 제네바에서 나온 영어 성경은 종교적 이주와 성경 연구가 만난 결과였다. 번역문뿐 아니라 독자를 안내하는 책의 구성도 중요한 역할을 했다.",
+      "dataset": "data/deep/atlas_v274_medium_depth_english_bibles.json",
+      "chapter_index": 1,
+      "reader_document": "docs/01_CONTENT/V274_MEDIUM_DEPTH_ENGLISH_BIBLES.md",
+      "section_count": 3
+    },
+    {
+      "id": "THEME-LUTHER_JEWS",
+      "title": "루터와 유대인 — 개종의 기대에서 박해의 요구로",
+      "summary": "종교개혁의 자유와 신앙을 이야기할 때 유대인에 대한 배제도 함께 살펴야 한다. 루터의 태도에서는 처우에 관한 변화와 개종을 전제로 한 시각의 지속이 함께 드러난다.",
+      "dataset": "data/deep/atlas_v275_medium_depth_religious_others.json",
+      "chapter_index": 0,
+      "reader_document": "docs/01_CONTENT/V275_MEDIUM_DEPTH_RELIGIOUS_OTHERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "GLOBAL-OTTOMAN",
+      "title": "오스만 제국 — 전쟁과 종교적 해석, 동맹이 교차하다",
+      "summary": "종교개혁은 서유럽 교회 내부의 논쟁만으로 전개되지 않았다. 오스만 제국의 진출과 헝가리의 권력 경쟁은 개혁자들이 신앙과 통치를 설명하는 환경이기도 했다.",
+      "dataset": "data/deep/atlas_v275_medium_depth_religious_others.json",
+      "chapter_index": 1,
+      "reader_document": "docs/01_CONTENT/V275_MEDIUM_DEPTH_RELIGIOUS_OTHERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "PERSON-STURM",
+      "title": "요하네스 슈투름 — 신앙과 인문교육을 학교의 과정으로",
+      "summary": "1538년 스트라스부르의 학교 개편은 종교개혁이 다음 세대를 어떻게 가르칠지에 관한 실천이었다.",
+      "dataset": "data/deep/atlas_v276_medium_depth_twenty_readers.json",
+      "chapter_index": 0,
+      "reader_document": "docs/01_CONTENT/V276_MEDIUM_DEPTH_TWENTY_READERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "DOCUMENT-RATIO_STUDIORUM",
+      "title": "예수회의 교육규정 — 여러 학교의 경험을 공통 지침으로",
+      "summary": "1599년 확정된 『교육규정』은 가톨릭 쇄신이 교실과 학교 운영의 형태로 자리 잡은 사례다.",
+      "dataset": "data/deep/atlas_v276_medium_depth_twenty_readers.json",
+      "chapter_index": 1,
+      "reader_document": "docs/01_CONTENT/V276_MEDIUM_DEPTH_TWENTY_READERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "PERSON-ARGULA",
+      "title": "아르굴라 폰 그룸바흐 — 평신도 여성이 대학에 이의를 제기하다",
+      "summary": "1523년의 공개서신은 대학 밖 여성도 성경을 근거로 공적 논쟁에 참여했음을 보여 준다.",
+      "dataset": "data/deep/atlas_v276_medium_depth_twenty_readers.json",
+      "chapter_index": 2,
+      "reader_document": "docs/01_CONTENT/V276_MEDIUM_DEPTH_TWENTY_READERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "PERSON-KATHARINA_ZELL",
+      "title": "카타리나 첼 — 저술과 환대로 개혁에 참여하다",
+      "summary": "스트라스부르의 카타리나 첼은 성직자 결혼을 변호하는 글과 피난민 돌봄을 통해 개혁에 참여했다.",
+      "dataset": "data/deep/atlas_v276_medium_depth_twenty_readers.json",
+      "chapter_index": 3,
+      "reader_document": "docs/01_CONTENT/V276_MEDIUM_DEPTH_TWENTY_READERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "PERSON-DENTIERE",
+      "title": "마리 당티에르 — 성경 해석에 여성도 참여할 수 있는가",
+      "summary": "1539년 당티에르가 나바르 여왕에게 보낸 글은 신앙의 권위와 여성의 발언을 연결했다.",
+      "dataset": "data/deep/atlas_v276_medium_depth_twenty_readers.json",
+      "chapter_index": 4,
+      "reader_document": "docs/01_CONTENT/V276_MEDIUM_DEPTH_TWENTY_READERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "PERSON-MARGUERITE_NAVARRE",
+      "title": "마르그리트 드 나바르 — 교회를 떠나지 않고 개혁자를 보호하다",
+      "summary": "문인이자 나바르 여왕이었던 마르그리트의 후원은 신앙의 선택이 언제나 즉각적인 교파 이탈로 이어지지는 않았음을 보여 준다.",
+      "dataset": "data/deep/atlas_v276_medium_depth_twenty_readers.json",
+      "chapter_index": 5,
+      "reader_document": "docs/01_CONTENT/V276_MEDIUM_DEPTH_TWENTY_READERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "PERSON-JEANNE_ALBRET",
+      "title": "잔 달브레 — 개인의 개종이 통치의 정책으로",
+      "summary": "나바르 여왕 잔 달브레의 활동은 여성의 종교개혁 참여가 통치 권력의 행사이기도 했음을 보여 준다.",
+      "dataset": "data/deep/atlas_v276_medium_depth_twenty_readers.json",
+      "chapter_index": 6,
+      "reader_document": "docs/01_CONTENT/V276_MEDIUM_DEPTH_TWENTY_READERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "PERSON-RENEE_FRANCE",
+      "title": "르네 드 프랑스 — 궁정과 저택이 피난처가 되다",
+      "summary": "르네가 페라라와 몽타르지에서 제공한 보호는 신앙의 연결망이 국경과 가문을 가로질렀음을 보여 준다.",
+      "dataset": "data/deep/atlas_v276_medium_depth_twenty_readers.json",
+      "chapter_index": 7,
+      "reader_document": "docs/01_CONTENT/V276_MEDIUM_DEPTH_TWENTY_READERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "DOCUMENT-BELGIC_CONFESSION",
+      "title": "벨직 신앙고백 — 박해받는 공동체가 공적으로 자신을 설명하다",
+      "summary": "1561년 귀도 드 브레가 마련한 신앙고백은 교리를 정리하는 동시에 개혁교회가 반역 집단이라는 혐의에 답하려 했다.",
+      "dataset": "data/deep/atlas_v276_medium_depth_twenty_readers.json",
+      "chapter_index": 8,
+      "reader_document": "docs/01_CONTENT/V276_MEDIUM_DEPTH_TWENTY_READERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "DOCUMENT-FRENCH_CONFESSION",
+      "title": "프랑스 신앙고백 — 흩어진 교회를 공동의 문장으로 잇다",
+      "summary": "1559년 파리의 첫 전국 총회는 프랑스 개혁교회가 신앙과 조직을 함께 정리한 자리였다.",
+      "dataset": "data/deep/atlas_v276_medium_depth_twenty_readers.json",
+      "chapter_index": 9,
+      "reader_document": "docs/01_CONTENT/V276_MEDIUM_DEPTH_TWENTY_READERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "DOCUMENT-THIRTY_NINE_ARTICLES",
+      "title": "39개 신조 — 잉글랜드교회가 신앙의 기준을 정하다",
+      "summary": "잉글랜드교회의 신조는 성경·구원·예배·통치의 문제를 하나의 공적 기준 안에서 다루었다.",
+      "dataset": "data/deep/atlas_v276_medium_depth_twenty_readers.json",
+      "chapter_index": 10,
+      "reader_document": "docs/01_CONTENT/V276_MEDIUM_DEPTH_TWENTY_READERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "DOCUMENT-FORMULA_CONCORD",
+      "title": "일치신조 — 루터교 내부의 논쟁에 공동 기준을 제시하다",
+      "summary": "1577년의 일치신조는 종교개혁 진영 안에서도 신앙의 설명을 둘러싼 논쟁이 계속되었음을 보여 준다.",
+      "dataset": "data/deep/atlas_v276_medium_depth_twenty_readers.json",
+      "chapter_index": 11,
+      "reader_document": "docs/01_CONTENT/V276_MEDIUM_DEPTH_TWENTY_READERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "DOCUMENT-BOOK_CONCORD",
+      "title": "일치신조집 — 여러 시대의 문서를 한 권에 모으다",
+      "summary": "1580년 출판된 『일치신조집』은 하나의 새 논문이 아니라 루터교의 고백 문서를 모은 책이었다.",
+      "dataset": "data/deep/atlas_v276_medium_depth_twenty_readers.json",
+      "chapter_index": 12,
+      "reader_document": "docs/01_CONTENT/V276_MEDIUM_DEPTH_TWENTY_READERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "DOCUMENT-COMMON_PRAYER",
+      "title": "공동기도서 — 개혁을 함께 드리는 예배의 언어로",
+      "summary": "1549년 시작된 잉글랜드의 공동기도서는 신학의 변화가 반복되는 예배의 형식으로 옮겨지는 과정을 보여 준다.",
+      "dataset": "data/deep/atlas_v276_medium_depth_twenty_readers.json",
+      "chapter_index": 13,
+      "reader_document": "docs/01_CONTENT/V276_MEDIUM_DEPTH_TWENTY_READERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "CITY-STRASBOURG",
+      "title": "스트라스부르 — 시의회·설교자·피난민이 만난 도시",
+      "summary": "스트라스부르의 개혁은 한 신학자의 계획만이 아니라 도시의 제도와 여러 집단의 관계 속에서 진행되었다.",
+      "dataset": "data/deep/atlas_v276_medium_depth_twenty_readers.json",
+      "chapter_index": 14,
+      "reader_document": "docs/01_CONTENT/V276_MEDIUM_DEPTH_TWENTY_READERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "CITY-BASEL",
+      "title": "바젤 — 학문과 인쇄의 도시가 교회 질서를 바꾸다",
+      "summary": "바젤은 성경 연구와 출판의 거점이었으며 1529년의 개혁은 도시의 교회 운영에도 전환을 가져왔다.",
+      "dataset": "data/deep/atlas_v276_medium_depth_twenty_readers.json",
+      "chapter_index": 15,
+      "reader_document": "docs/01_CONTENT/V276_MEDIUM_DEPTH_TWENTY_READERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "CITY-BERN",
+      "title": "베른 — 공개 토론이 예배와 수도원 정책으로 이어지다",
+      "summary": "1528년 베른의 변화는 신학적 논쟁이 도시의 구속력 있는 결정으로 바뀌는 과정을 보여 준다.",
+      "dataset": "data/deep/atlas_v276_medium_depth_twenty_readers.json",
+      "chapter_index": 16,
+      "reader_document": "docs/01_CONTENT/V276_MEDIUM_DEPTH_TWENTY_READERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "CITY-GENEVA",
+      "title": "제네바 — 칼뱅과 도시가 함께 만든 갈등의 역사",
+      "summary": "제네바를 칼뱅 한 사람이 지배한 도시로만 설명하면 시의회와 시민, 피난민의 역할을 놓치게 된다.",
+      "dataset": "data/deep/atlas_v276_medium_depth_twenty_readers.json",
+      "chapter_index": 17,
+      "reader_document": "docs/01_CONTENT/V276_MEDIUM_DEPTH_TWENTY_READERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "CITY-WITTENBERG",
+      "title": "비텐베르크 — 대학이 사람과 논쟁을 모으다",
+      "summary": "비텐베르크의 종교개혁은 1517년 이전에 설립된 대학과 그곳에 모인 학자들의 활동을 배경으로 이해할 수 있다.",
+      "dataset": "data/deep/atlas_v276_medium_depth_twenty_readers.json",
+      "chapter_index": 18,
+      "reader_document": "docs/01_CONTENT/V276_MEDIUM_DEPTH_TWENTY_READERS.md",
+      "section_count": 3
+    },
+    {
+      "id": "CITY-ZURICH",
+      "title": "취리히 — 성경에 대한 논쟁에서 재산과 돌봄의 운영으로",
+      "summary": "취리히의 개혁은 설교와 성찬의 변화뿐 아니라 수도원 재산을 누가 어떻게 사용할지의 문제로 이어졌다.",
+      "dataset": "data/deep/atlas_v276_medium_depth_twenty_readers.json",
+      "chapter_index": 19,
+      "reader_document": "docs/01_CONTENT/V276_MEDIUM_DEPTH_TWENTY_READERS.md",
+      "section_count": 3
+    }
+  ],
+  "metrics": {
+    "new_readers": 20,
+    "new_sections": 60,
+    "new_questions": 20,
+    "previous_readers": 55,
+    "total_medium_readers": 75,
+    "baseline_batch_readers": 2,
+    "batch_multiplier": 10,
+    "source_records": 23,
+    "new_body_characters": 10458
+  },
+  "publication_gate": {
+    "published": false,
+    "main_changed": false,
+    "webapp_integrated": false
+  }
+}
