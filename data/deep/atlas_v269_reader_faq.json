@@ -1,0 +1,290 @@
+{
+  "version": "2.69",
+  "kind": "READER_FAQ",
+  "status": "DRAFT",
+  "depth": "MEDIUM",
+  "parent_commit": "457b9b68a3de6f3355bf997408dd1b0421c97e7d",
+  "preserved_inputs": [
+    {
+      "path": "data/deep/atlas_v268_medium_depth_complete_collection.json",
+      "sha256": "65157d24ae2cf27ca77019b77820bc06bcc0dddca91fcb4de001ad05ee872f32"
+    }
+  ],
+  "editorial_note": "기존 45편의 설명을 질문과 짧은 답변으로 재구성한 편집 안내다. 신규 역사 해설 편수나 사료 판독으로 중복 집계하지 않는다.",
+  "questions": [
+    {
+      "id": "FAQ-01",
+      "question": "루터는 1517년부터 새로운 교회를 만들 계획이었나요?",
+      "answer": "1517년 논제는 회개와 교회의 권한을 둘러싼 문제 제기였습니다. 이후의 교리와 교황제에 대한 입장을 처음부터 모두 계획했다고 보기는 어렵습니다. 논쟁이 인쇄·번역과 정치적 선택을 만나며 확대된 과정을 함께 읽어야 합니다.",
+      "related_readers": [
+        "MEDIUM-LUTHER1517",
+        "MEDIUM-LUTHER1521"
+      ],
+      "basis": [
+        {
+          "reader_id": "MEDIUM-LUTHER1517",
+          "dataset": "data/deep/atlas_v268_medium_depth_complete_collection.json",
+          "reader_index": 2
+        },
+        {
+          "reader_id": "MEDIUM-LUTHER1521",
+          "dataset": "data/deep/atlas_v268_medium_depth_complete_collection.json",
+          "reader_index": 3
+        }
+      ]
+    },
+    {
+      "id": "FAQ-02",
+      "question": "성경을 중시했다면 개혁자들은 모두 같은 결론을 냈나요?",
+      "answer": "성경을 최종 기준으로 강조한 개혁자들 사이에도 성찬과 교회 제도에 관한 차이가 남았습니다. 같은 본문을 읽는 것과 해석의 기준에 합의하는 것은 별개였습니다. 전통과 공동체의 판단을 어떤 자리에 놓았는지도 보아야 합니다.",
+      "related_readers": [
+        "THEME-SCRIPTURE_AUTHORITY",
+        "MEDIUM-MARBURG"
+      ],
+      "basis": [
+        {
+          "reader_id": "THEME-SCRIPTURE_AUTHORITY",
+          "dataset": "data/deep/atlas_v268_medium_depth_complete_collection.json",
+          "reader_index": 27
+        },
+        {
+          "reader_id": "MEDIUM-MARBURG",
+          "dataset": "data/deep/atlas_v268_medium_depth_complete_collection.json",
+          "reader_index": 4
+        }
+      ]
+    },
+    {
+      "id": "FAQ-03",
+      "question": "에라스무스는 루터와 같은 교파에 속했나요?",
+      "answer": "에라스무스의 그리스어 신약 연구는 루터에게 영향을 주었지만, 그는 로마 가톨릭교회와의 단절을 선택하지 않았습니다. 두 사람은 인간의 의지와 은혜를 둘러싸고 논쟁했습니다. 학문적 영향과 교파적 소속을 구분하는 사례입니다.",
+      "related_readers": [
+        "PERSON-ERASMUS",
+        "THEME-GRACE_FAITH_WORKS"
+      ],
+      "basis": [
+        {
+          "reader_id": "PERSON-ERASMUS",
+          "dataset": "data/deep/atlas_v268_medium_depth_complete_collection.json",
+          "reader_index": 36
+        },
+        {
+          "reader_id": "THEME-GRACE_FAITH_WORKS",
+          "dataset": "data/deep/atlas_v268_medium_depth_complete_collection.json",
+          "reader_index": 28
+        }
+      ]
+    },
+    {
+      "id": "FAQ-04",
+      "question": "1530년 아우크스부르크 신앙고백과 1555년 종교화의는 같은 것인가요?",
+      "answer": "다른 사건입니다. 1530년 신앙고백은 신앙의 내용을 설명하는 문서였고, 1555년 화의는 제국 안에서 서로 다른 신앙의 세력이 공존할 규칙을 다루었습니다. 교리를 밝히는 일과 정치적 지위를 정하는 일을 나누어 읽으면 혼동을 줄일 수 있습니다.",
+      "related_readers": [
+        "MEDIUM-AUGSBURG",
+        "THEME-AUGSBURG_PEACE"
+      ],
+      "basis": [
+        {
+          "reader_id": "MEDIUM-AUGSBURG",
+          "dataset": "data/deep/atlas_v268_medium_depth_complete_collection.json",
+          "reader_index": 5
+        },
+        {
+          "reader_id": "THEME-AUGSBURG_PEACE",
+          "dataset": "data/deep/atlas_v268_medium_depth_complete_collection.json",
+          "reader_index": 25
+        }
+      ]
+    },
+    {
+      "id": "FAQ-05",
+      "question": "1555년 종교화의로 누구나 원하는 종교를 자유롭게 믿게 되었나요?",
+      "answer": "화의는 가톨릭과 루터교 제국 신분들의 지위와 공존을 다루었습니다. 영주의 종교 결정과 이를 따르지 않는 주민의 이주가 중요한 틀이었으며, 모든 개인이 거주지를 유지하며 자유롭게 예배할 권리를 보장한 합의는 아니었습니다. 다른 개혁 흐름도 모두 포함되지 않았습니다.",
+      "related_readers": [
+        "THEME-AUGSBURG_PEACE",
+        "REGION-POLAND_LITHUANIA"
+      ],
+      "basis": [
+        {
+          "reader_id": "THEME-AUGSBURG_PEACE",
+          "dataset": "data/deep/atlas_v268_medium_depth_complete_collection.json",
+          "reader_index": 25
+        },
+        {
+          "reader_id": "REGION-POLAND_LITHUANIA",
+          "dataset": "data/deep/atlas_v268_medium_depth_complete_collection.json",
+          "reader_index": 21
+        }
+      ]
+    },
+    {
+      "id": "FAQ-06",
+      "question": "재세례파는 모두 같은 신학과 행동방식을 가졌나요?",
+      "answer": "한 이름 아래 다양한 흐름이 있었습니다. 신앙 고백과 세례의 관계를 다시 물었지만, 모두를 폭력적 반란의 지지자나 처음부터 동일한 평화주의자로 묶을 수는 없습니다. 공동체별 차이와 박해·이주의 경로를 함께 살펴야 합니다.",
+      "related_readers": [
+        "THEME-ANABAPTISTS"
+      ],
+      "basis": [
+        {
+          "reader_id": "THEME-ANABAPTISTS",
+          "dataset": "data/deep/atlas_v268_medium_depth_complete_collection.json",
+          "reader_index": 23
+        }
+      ]
+    },
+    {
+      "id": "FAQ-07",
+      "question": "가톨릭 쇄신은 개신교를 막으려는 대응뿐이었나요?",
+      "answer": "교파 경쟁과 정치적 후원은 중요한 조건이었습니다. 동시에 가톨릭 내부의 기도와 수도생활, 교육과 목회에 대한 쇄신도 있었습니다. 로욜라·테레사·보로메오는 개인의 영성, 공동체, 교구 운영이라는 서로 다른 활동을 보여 줍니다.",
+      "related_readers": [
+        "THEME-CATHOLIC_RENEWAL",
+        "PERSON-IGNATIUS",
+        "PERSON-TERESA_AVILA",
+        "PERSON-BORROMEO"
+      ],
+      "basis": [
+        {
+          "reader_id": "THEME-CATHOLIC_RENEWAL",
+          "dataset": "data/deep/atlas_v268_medium_depth_complete_collection.json",
+          "reader_index": 24
+        },
+        {
+          "reader_id": "PERSON-IGNATIUS",
+          "dataset": "data/deep/atlas_v268_medium_depth_complete_collection.json",
+          "reader_index": 42
+        },
+        {
+          "reader_id": "PERSON-TERESA_AVILA",
+          "dataset": "data/deep/atlas_v268_medium_depth_complete_collection.json",
+          "reader_index": 43
+        },
+        {
+          "reader_id": "PERSON-BORROMEO",
+          "dataset": "data/deep/atlas_v268_medium_depth_complete_collection.json",
+          "reader_index": 44
+        }
+      ]
+    },
+    {
+      "id": "FAQ-08",
+      "question": "개신교 교회는 모두 성상을 없애고 음악도 거부했나요?",
+      "answer": "지역과 전통에 따라 달랐습니다. 성상의 존재 자체와 예배에서의 사용을 다르게 판단했고, 철거와 파괴의 방식도 같지 않았습니다. 음악에서도 루터교 코랄과 개혁교회 시편가가 발전했습니다. 예배의 악기 제한을 음악 전체의 거부로 설명하면 가정과 사적 노래의 문화를 놓칩니다.",
+      "related_readers": [
+        "THEME-IMAGES_SPACE",
+        "THEME-MUSIC_SINGING"
+      ],
+      "basis": [
+        {
+          "reader_id": "THEME-IMAGES_SPACE",
+          "dataset": "data/deep/atlas_v268_medium_depth_complete_collection.json",
+          "reader_index": 34
+        },
+        {
+          "reader_id": "THEME-MUSIC_SINGING",
+          "dataset": "data/deep/atlas_v268_medium_depth_complete_collection.json",
+          "reader_index": 33
+        }
+      ]
+    },
+    {
+      "id": "FAQ-09",
+      "question": "칼뱅의 1536년 『기독교강요』는 1559년판의 짧은 요약인가요?",
+      "answer": "1536년 초판은 당시의 독자와 박해 상황 속에서 신앙교육과 공적 변호를 위해 쓰였습니다. 이후 확대와 재구성을 거친 1559년판을 기준으로 거꾸로 축약본처럼 취급하지 않는 편이 좋습니다. 판본마다 목적과 논증의 배열을 확인해야 합니다.",
+      "related_readers": [
+        "MEDIUM-CALVIN1536",
+        "MEDIUM-CALVIN1559"
+      ],
+      "basis": [
+        {
+          "reader_id": "MEDIUM-CALVIN1536",
+          "dataset": "data/deep/atlas_v268_medium_depth_complete_collection.json",
+          "reader_index": 6
+        },
+        {
+          "reader_id": "MEDIUM-CALVIN1559",
+          "dataset": "data/deep/atlas_v268_medium_depth_complete_collection.json",
+          "reader_index": 7
+        }
+      ]
+    },
+    {
+      "id": "FAQ-10",
+      "question": "제네바에 받아들여진 난민은 곧 시민이 되었나요?",
+      "answer": "도시에 거주할 수 있는 지위와 정치적 권리를 가진 시민의 지위는 달랐습니다. 같은 신앙의 사람을 환영하는 일만으로 모든 소속의 경계가 사라지지 않았습니다. 피난의 허용, 생계의 정착, 정치적 참여를 나누어 살펴야 합니다.",
+      "related_readers": [
+        "THEME-REFUGEES",
+        "THEME-POOR_RELIEF"
+      ],
+      "basis": [
+        {
+          "reader_id": "THEME-REFUGEES",
+          "dataset": "data/deep/atlas_v268_medium_depth_complete_collection.json",
+          "reader_index": 39
+        },
+        {
+          "reader_id": "THEME-POOR_RELIEF",
+          "dataset": "data/deep/atlas_v268_medium_depth_complete_collection.json",
+          "reader_index": 35
+        }
+      ]
+    },
+    {
+      "id": "FAQ-11",
+      "question": "종교개혁은 모든 여성에게 같은 변화를 가져왔나요?",
+      "answer": "혼인과 가정, 수도생활은 서로 다른 조건을 가졌습니다. 테레사처럼 수도회 안에서 글을 쓰고 공동체를 세운 경로도 있었습니다. 여성에게 일괄적인 해방이나 위축이 왔다고 결론 내리기보다 선택의 범위, 제도의 허가, 생활 속 처우를 함께 보아야 합니다.",
+      "related_readers": [
+        "THEME-WOMEN_FAMILY",
+        "PERSON-TERESA_AVILA",
+        "THEME-CHURCH_DISCIPLINE"
+      ],
+      "basis": [
+        {
+          "reader_id": "THEME-WOMEN_FAMILY",
+          "dataset": "data/deep/atlas_v268_medium_depth_complete_collection.json",
+          "reader_index": 12
+        },
+        {
+          "reader_id": "PERSON-TERESA_AVILA",
+          "dataset": "data/deep/atlas_v268_medium_depth_complete_collection.json",
+          "reader_index": 43
+        },
+        {
+          "reader_id": "THEME-CHURCH_DISCIPLINE",
+          "dataset": "data/deep/atlas_v268_medium_depth_complete_collection.json",
+          "reader_index": 41
+        }
+      ]
+    },
+    {
+      "id": "FAQ-12",
+      "question": "1648년 베스트팔렌 평화로 종교 갈등이 끝났나요?",
+      "answer": "평화는 제국의 종교적 지위와 재산 문제를 다시 조정하고 차이를 법과 협상으로 다룰 틀을 넓혔습니다. 그러나 현대적인 개인의 종교자유가 완성되거나 유럽의 모든 갈등이 사라진 것은 아닙니다. 합의의 성과와 적용 범위를 함께 읽어야 합니다.",
+      "related_readers": [
+        "THEME-WAR_WESTPHALIA",
+        "THEME-AUGSBURG_PEACE"
+      ],
+      "basis": [
+        {
+          "reader_id": "THEME-WAR_WESTPHALIA",
+          "dataset": "data/deep/atlas_v268_medium_depth_complete_collection.json",
+          "reader_index": 26
+        },
+        {
+          "reader_id": "THEME-AUGSBURG_PEACE",
+          "dataset": "data/deep/atlas_v268_medium_depth_complete_collection.json",
+          "reader_index": 25
+        }
+      ]
+    }
+  ],
+  "metrics": {
+    "faq_count": 12,
+    "total_medium_readers": 45,
+    "new_readers": 0
+  },
+  "publication_gate": {
+    "published": false,
+    "main_changed": false,
+    "webapp_integrated": false
+  }
+}
