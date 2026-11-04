@@ -1,0 +1,261 @@
+{
+  "version": "2.67",
+  "kind": "MEDIUM_COMPARISON_GUIDE",
+  "status": "DRAFT",
+  "parent_commit": "0e330ce6a351ec00b99112a7f306d0973e641879",
+  "preserved_inputs": [
+    {
+      "path": "data/deep/atlas_v266_medium_depth_catholic_reformers.json",
+      "sha256": "72966d998b53c3f013bb7d226c8a268cf2ed8b1a4bab0dc77627326f502970be"
+    }
+  ],
+  "editorial_note": "기존45편에 근거한 비교 읽기 안내다. 새로운 역사 해설 편수나 원판 판독으로 집계하지 않는다.",
+  "comparisons": [
+    {
+      "id": "COMPARE-AUTHORITY",
+      "title": "누가 신앙의 뜻을 판단하는가",
+      "lead": "성경을 연구한다는 공통점이 교회의 권위나 소속에 대한 같은 결론을 보장하지는 않았다.",
+      "rows": [
+        {
+          "reader_id": "PERSON-ERASMUS",
+          "focus": "성경 연구와 교회 소속",
+          "comparison": "그리스어 신약 연구로 개혁자들에게 영향을 주었지만 로마 가톨릭교회와의 단절을 선택하지 않았다.",
+          "basis": {
+            "dataset": "data/deep/atlas_v264_medium_depth_humanists_and_mediators.json",
+            "chapter_index": 0,
+            "reader_document": "docs/01_CONTENT/V264_MEDIUM_DEPTH_HUMANISTS_AND_MEDIATORS.md"
+          }
+        },
+        {
+          "reader_id": "THEME-SCRIPTURE_AUTHORITY",
+          "focus": "판단의 기준",
+          "comparison": "성경과 전승, 교회의 해석 권한을 어떤 관계에 놓을지에 차이가 있었다.",
+          "basis": {
+            "dataset": "data/deep/atlas_v260_medium_depth_core_comparisons.json",
+            "chapter_index": 0,
+            "reader_document": "docs/01_CONTENT/V260_MEDIUM_DEPTH_CORE_COMPARISONS.md"
+          }
+        },
+        {
+          "reader_id": "PERSON-MELANCHTHON",
+          "focus": "공적인 신앙의 문장",
+          "comparison": "신앙고백을 작성하고 교육을 정비하며 공동체가 가르칠 내용을 체계화했다.",
+          "basis": {
+            "dataset": "data/deep/atlas_v264_medium_depth_humanists_and_mediators.json",
+            "chapter_index": 1,
+            "reader_document": "docs/01_CONTENT/V264_MEDIUM_DEPTH_HUMANISTS_AND_MEDIATORS.md"
+          }
+        }
+      ],
+      "interpretive_limit": "학문적 영향, 해석의 기준, 교파적 소속은 각각 확인해야 한다. 인문주의와 개신교를 같은 범주로 묶지 않는다.",
+      "reading_question": "같은 성경을 연구하면서도 교회에 대한 선택이 달라질 수 있었던 이유는 무엇일까?"
+    },
+    {
+      "id": "COMPARE-COMMUNION",
+      "title": "같은 성찬을 말하면서 왜 갈라졌는가",
+      "lead": "성찬은 개혁 진영을 연결하는 의식인 동시에 해석의 차이가 드러나는 쟁점이었다.",
+      "rows": [
+        {
+          "reader_id": "MEDIUM-MARBURG",
+          "focus": "논쟁의 현장",
+          "comparison": "개혁자들의 만남에서도 성찬에 관한 이견이 남았다.",
+          "basis": {
+            "dataset": "data/deep/atlas_v254_medium_depth_ten_readers.json",
+            "chapter_index": 4,
+            "reader_document": "docs/01_CONTENT/V254_MEDIUM_DEPTH_TEN_READERS.md"
+          }
+        },
+        {
+          "reader_id": "THEME-COMMUNION",
+          "focus": "신학의 핵심 질문",
+          "comparison": "그리스도의 약속과 임재, 은혜를 경험하는 방식이 논쟁의 중심에 놓였다.",
+          "basis": {
+            "dataset": "data/deep/atlas_v260_medium_depth_core_comparisons.json",
+            "chapter_index": 2,
+            "reader_document": "docs/01_CONTENT/V260_MEDIUM_DEPTH_CORE_COMPARISONS.md"
+          }
+        },
+        {
+          "reader_id": "PERSON-BUCER",
+          "focus": "합의를 위한 중재",
+          "comparison": "공통 표현을 마련한 성과와 지속적인 일치를 이루지 못한 한계를 함께 볼 수 있다.",
+          "basis": {
+            "dataset": "data/deep/atlas_v264_medium_depth_humanists_and_mediators.json",
+            "chapter_index": 2,
+            "reader_document": "docs/01_CONTENT/V264_MEDIUM_DEPTH_HUMANISTS_AND_MEDIATORS.md"
+          }
+        }
+      ],
+      "interpretive_limit": "같은 단어를 쓰거나 협약을 맺었다고 모든 참여자가 같은 의미를 공유했다고 단정하지 않는다.",
+      "reading_question": "합의된 문장이 실제로 같은 이해를 뜻하는지 확인하려면 무엇을 더 보아야 할까?"
+    },
+    {
+      "id": "COMPARE-POWER",
+      "title": "종교적 결정과 통치의 권한은 어떻게 만났는가",
+      "lead": "신앙의 변화는 왕권과 의회, 도시와 교회의 제도 속에서 서로 다른 방식으로 진행되었다.",
+      "rows": [
+        {
+          "reader_id": "REGION-ENGLAND",
+          "focus": "왕권과 의회의 제도화",
+          "comparison": "로마와의 결별 이후에도 군주가 바뀌며 교리와 예배 정책의 진전과 반전이 이어졌다.",
+          "basis": {
+            "dataset": "data/deep/atlas_v256_medium_depth_regional_readers.json",
+            "chapter_index": 0,
+            "reader_document": "docs/01_CONTENT/V256_MEDIUM_DEPTH_REGIONAL_READERS.md"
+          }
+        },
+        {
+          "reader_id": "REGION-DENMARK_NORWAY",
+          "focus": "왕권과 지역의 수용",
+          "comparison": "위에서 새 질서를 도입한 시점과 주민들의 생활에 정착한 과정은 구별된다.",
+          "basis": {
+            "dataset": "data/deep/atlas_v257_medium_depth_north_east_regions.json",
+            "chapter_index": 0,
+            "reader_document": "docs/01_CONTENT/V257_MEDIUM_DEPTH_NORTH_EAST_REGIONS.md"
+          }
+        },
+        {
+          "reader_id": "THEME-CHURCH_DISCIPLINE",
+          "focus": "교회와 시 당국의 협상",
+          "comparison": "제네바에서는 성찬 참여 제한을 누가 결정할지를 두고 권한 갈등이 있었다.",
+          "basis": {
+            "dataset": "data/deep/atlas_v265_medium_depth_belief_and_boundaries.json",
+            "chapter_index": 2,
+            "reader_document": "docs/01_CONTENT/V265_MEDIUM_DEPTH_BELIEF_AND_BOUNDARIES.md"
+          }
+        }
+      ],
+      "interpretive_limit": "국가의 명령, 교회 제도의 운영, 주민의 실천을 한 사건으로 합치지 않는다. 제네바를 현대의 정교분리 모델로 읽지 않는다.",
+      "reading_question": "제도가 바뀐 날과 사람들이 달라진 생활을 받아들인 시점을 어떻게 구별할 수 있을까?"
+    },
+    {
+      "id": "COMPARE-MEDIA",
+      "title": "신앙은 어떤 매체로 전달되고 통제되었는가",
+      "lead": "인쇄된 글, 함께 부르는 노래, 출판과 독서에 대한 규칙을 연결하면 전달의 조건이 보인다.",
+      "rows": [
+        {
+          "reader_id": "THEME-PRINT_TRANSLATION",
+          "focus": "언어와 독자의 확대",
+          "comparison": "번역과 인쇄는 논쟁이 이동하는 속도와 독자의 범위에 영향을 주었다.",
+          "basis": {
+            "dataset": "data/deep/atlas_v255_medium_depth_social_themes.json",
+            "chapter_index": 0,
+            "reader_document": "docs/01_CONTENT/V255_MEDIUM_DEPTH_SOCIAL_THEMES.md"
+          }
+        },
+        {
+          "reader_id": "THEME-MUSIC_SINGING",
+          "focus": "듣고 부르는 참여",
+          "comparison": "코랄과 시편가는 신앙을 기억하고 공동체가 참여하는 통로였으며 전통과 장소마다 방식이 달랐다.",
+          "basis": {
+            "dataset": "data/deep/atlas_v263_medium_depth_worship_and_care.json",
+            "chapter_index": 0,
+            "reader_document": "docs/01_CONTENT/V263_MEDIUM_DEPTH_WORSHIP_AND_CARE.md"
+          }
+        },
+        {
+          "reader_id": "THEME-CENSORSHIP",
+          "focus": "출판과 독서의 제한",
+          "comparison": "금서 목록과 부분 삭제, 허가 제도는 유통되는 내용과 읽기 조건에 관여했다.",
+          "basis": {
+            "dataset": "data/deep/atlas_v265_medium_depth_belief_and_boundaries.json",
+            "chapter_index": 1,
+            "reader_document": "docs/01_CONTENT/V265_MEDIUM_DEPTH_BELIEF_AND_BOUNDARIES.md"
+          }
+        }
+      ],
+      "interpretive_limit": "책의 보급을 모든 사람의 직접 독서로 바꾸어 설명하지 않는다. 가톨릭 금서 제도의 사례를 모든 지역에 적용하지 않는다.",
+      "reading_question": "같은 내용이라도 책으로 읽거나 노래로 배우거나 삭제된 판본으로 만날 때 무엇이 달라질까?"
+    },
+    {
+      "id": "COMPARE-WOMEN",
+      "title": "여성의 활동은 어떤 삶의 자리에서 가능했는가",
+      "lead": "가족생활과 수도생활은 서로 다른 조건이었다. 여성의 개혁 참여도 한 경로로 설명하기 어렵다.",
+      "rows": [
+        {
+          "reader_id": "THEME-WOMEN_FAMILY",
+          "focus": "가족과 수도생활의 변화",
+          "comparison": "혼인과 가정의 강조, 수도원 변화가 여성에게 미친 영향을 함께 살핀다.",
+          "basis": {
+            "dataset": "data/deep/atlas_v255_medium_depth_social_themes.json",
+            "chapter_index": 2,
+            "reader_document": "docs/01_CONTENT/V255_MEDIUM_DEPTH_SOCIAL_THEMES.md"
+          }
+        },
+        {
+          "reader_id": "PERSON-TERESA_AVILA",
+          "focus": "수도회 내부의 개혁",
+          "comparison": "기도와 저술, 공동체 설립을 통해 활동했으며 허가와 협력, 제도적 저항을 함께 만났다.",
+          "basis": {
+            "dataset": "data/deep/atlas_v266_medium_depth_catholic_reformers.json",
+            "chapter_index": 1,
+            "reader_document": "docs/01_CONTENT/V266_MEDIUM_DEPTH_CATHOLIC_REFORMERS.md"
+          }
+        },
+        {
+          "reader_id": "THEME-CHURCH_DISCIPLINE",
+          "focus": "생활 규범과 보호의 한계",
+          "comparison": "규범을 세운 일과 가정폭력 등에 대한 실제 조치의 효과를 구별해야 한다.",
+          "basis": {
+            "dataset": "data/deep/atlas_v265_medium_depth_belief_and_boundaries.json",
+            "chapter_index": 2,
+            "reader_document": "docs/01_CONTENT/V265_MEDIUM_DEPTH_BELIEF_AND_BOUNDARIES.md"
+          }
+        }
+      ],
+      "interpretive_limit": "여성의 활동을 일괄적인 해방이나 위축으로 결론 내리지 않는다. 개인의 선택과 제도가 허용한 범위, 실제 처우를 나누어 본다.",
+      "reading_question": "공동체 안에서 발언하고 활동할 수 있다는 사실과 충분히 보호받는다는 사실은 어떻게 다를까?"
+    },
+    {
+      "id": "COMPARE-CARE",
+      "title": "공동체는 누구를 돕고 어떻게 소속을 정했는가",
+      "lead": "돌봄의 책임과 이주민의 소속을 함께 읽으면 신앙의 연대가 구체적인 제도와 만나는 지점이 드러난다.",
+      "rows": [
+        {
+          "reader_id": "THEME-POOR_RELIEF",
+          "focus": "구제 재원과 집행",
+          "comparison": "공동금고는 공동체의 재원을 조직하려는 구상이었지만 규정의 목적과 실제 지원은 구별해야 한다.",
+          "basis": {
+            "dataset": "data/deep/atlas_v263_medium_depth_worship_and_care.json",
+            "chapter_index": 2,
+            "reader_document": "docs/01_CONTENT/V263_MEDIUM_DEPTH_WORSHIP_AND_CARE.md"
+          }
+        },
+        {
+          "reader_id": "THEME-REFUGEES",
+          "focus": "정착과 정치적 권리",
+          "comparison": "제네바에 거주를 허용받는 일과 시민의 정치적 권리를 갖는 일은 달랐다.",
+          "basis": {
+            "dataset": "data/deep/atlas_v265_medium_depth_belief_and_boundaries.json",
+            "chapter_index": 0,
+            "reader_document": "docs/01_CONTENT/V265_MEDIUM_DEPTH_BELIEF_AND_BOUNDARIES.md"
+          }
+        },
+        {
+          "reader_id": "PERSON-BORROMEO",
+          "focus": "지역 교회의 운영",
+          "comparison": "교육과 현장 방문은 중앙의 개혁 원칙을 교구에 적용하는 수단이었다.",
+          "basis": {
+            "dataset": "data/deep/atlas_v266_medium_depth_catholic_reformers.json",
+            "chapter_index": 2,
+            "reader_document": "docs/01_CONTENT/V266_MEDIUM_DEPTH_CATHOLIC_REFORMERS.md"
+          }
+        }
+      ],
+      "interpretive_limit": "구제·난민 정착·교구 개혁은 서로 다른 제도다. 비교의 초점은 목적을 현장에서 실현하는 조건이며 세 제도를 동일시하지 않는다.",
+      "reading_question": "공동체가 도움과 소속을 약속할 때 그 약속의 실행 여부는 무엇으로 판단할 수 있을까?"
+    }
+  ],
+  "metrics": {
+    "comparisons": 6,
+    "comparison_rows": 18,
+    "questions": 6,
+    "total_medium_readers": 45,
+    "new_readers": 0
+  },
+  "publication_gate": {
+    "published": false,
+    "main_changed": false,
+    "webapp_integrated": false
+  }
+}
