@@ -1,0 +1,52 @@
+name: Atlas V3.06 Integrated 495 QA
+on:
+  pull_request:
+    paths:
+      - 'integrations/medium-atlas-v306/**'
+      - 'scripts/build_v306_integrated_delivery.mjs'
+      - 'docs/03_PRODUCT/V306*'
+      - '.github/workflows/atlas-v306-integrated-reading.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  integrated-495:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Verify frozen manuscripts and export the 495-reader JSON
+        run: |
+          python3 scripts/build_v304_integrated_delivery.py --check
+          python3 scripts/build_v305_pietism_revival_readers.py --check
+          node --test integrations/medium-atlas-v306/*.test.mjs
+          node scripts/build_v306_integrated_delivery.mjs --check
+          node scripts/build_v306_integrated_delivery.mjs --export /tmp/atlas-v306-delivery
+      - uses: actions/upload-artifact@v4
+        with:
+          name: atlas-v306-495-json-preview
+          path: /tmp/atlas-v306-delivery
+          retention-days: 14
+          if-no-files-found: error
+      - name: Prepare Chromium and Korean fonts
+        run: |
+          npm install --prefix /tmp/atlas-v306-node --no-save --ignore-scripts playwright@1.56.1
+          /tmp/atlas-v306-node/node_modules/.bin/playwright install --with-deps chromium --only-shell
+          sudo apt-get install -y fonts-noto-cjk
+      - name: Check 495-reader review screen at three widths
+        env:
+          ATLAS_PLAYWRIGHT_MODULE: /tmp/atlas-v306-node/node_modules/playwright
+          ATLAS_UI_ARTIFACT_DIR: /tmp/atlas-v306-ui
+        run: node integrations/medium-atlas-v306/browser-check.mjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: atlas-v306-browser-review
+          path: /tmp/atlas-v306-ui
+          retention-days: 14
+          if-no-files-found: warn
