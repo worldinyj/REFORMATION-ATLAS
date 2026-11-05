@@ -1,0 +1,39 @@
+name: Medium Atlas V2.99 Browser QA
+on:
+  pull_request:
+    paths:
+      - 'integrations/medium-atlas-v299/**'
+      - 'integrations/medium-atlas-v298/**'
+      - 'data/deep/atlas_v297_source_checked_medium_content_delivery_bundle.json'
+      - '.github/workflows/medium-atlas-v299-browser.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  browser:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Prepare Chromium and Korean fonts
+        run: |
+          npm install --prefix "$RUNNER_TEMP/atlas-ui" --no-save --ignore-scripts playwright@1.56.1
+          "$RUNNER_TEMP/atlas-ui/node_modules/.bin/playwright" install --with-deps chromium --only-shell
+          sudo apt-get install -y fonts-noto-cjk
+      - name: Test reader UI at three viewport widths
+        env:
+          ATLAS_PLAYWRIGHT_MODULE: ${{ runner.temp }}/atlas-ui/node_modules/playwright
+          ATLAS_UI_ARTIFACT_DIR: ${{ runner.temp }}/atlas-v299-ui
+        run: node integrations/medium-atlas-v299/reader.browser.test.mjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: atlas-v299-browser-review
+          path: ${{ runner.temp }}/atlas-v299-ui
+          if-no-files-found: warn
+          retention-days: 14
