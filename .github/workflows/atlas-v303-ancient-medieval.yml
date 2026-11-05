@@ -1,0 +1,25 @@
+name: Atlas V3.03 Ancient Medieval Reading QA
+on:
+  pull_request:
+    paths:
+      - 'data/deep/atlas_v303*'
+      - 'docs/01_CONTENT/V303*'
+      - 'scripts/build_v303*'
+      - '.github/workflows/atlas-v303-ancient-medieval.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  content:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - run: python3 scripts/build_v303_ancient_medieval_readers.py --check
+      - run: python3 scripts/build_v302_integrated_delivery.py --check
+      - run: node --test integrations/medium-atlas-v302/*.test.mjs
