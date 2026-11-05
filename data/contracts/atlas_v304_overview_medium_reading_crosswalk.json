@@ -1,0 +1,3561 @@
+{
+  "version": "3.04",
+  "kind": "OVERVIEW_TO_MEDIUM_READING_NAVIGATION",
+  "status": "DRAFT",
+  "parent_commit": "f1dbdb7223f16991ec346a9bc4109536683fb470",
+  "publication_gate": {
+    "published": false,
+    "main_changed": false,
+    "webapp_integrated": false
+  },
+  "input_scope": "저장소의 개요 인물33·사건34·문헌20·주제10만 대조한다. 장소·관계32·실제 앱의 최신 데이터는 이 분모에 포함하지 않는다.",
+  "preserved_inputs": [
+    {
+      "path": "data/overview/volumes_and_people_v01.json",
+      "sha256": "9cd823ff198d6412476b1a90ec78b5fdc2f76cf277276f6878e2ebd1d155a932"
+    },
+    {
+      "path": "data/overview/events_documents_v01.json",
+      "sha256": "68e22352dcba821ed57b6888212a735834d2b1056bec612b53024a647239eec0"
+    },
+    {
+      "path": "data/overview/relationships_and_themes_v01.json",
+      "sha256": "9001119f943580be07026e2d16c8a924e88eaaec5275f6217f09b2e48c67c004"
+    },
+    {
+      "path": "data/deep/atlas_v297_source_checked_medium_content_delivery_bundle.json",
+      "sha256": "59cda883ac1f710a6e841978bedfcd2bcf3460257865ea46e2dd95467091cca7"
+    },
+    {
+      "path": "data/contracts/atlas_v300_overview_medium_reading_crosswalk.json",
+      "sha256": "373c9916af1f0758056cc5abb344f94493bbb5545663afa6a0fabdc090f03d95"
+    },
+    {
+      "path": "data/deep/atlas_v301_medium_depth_precursors_hussite_readers.json",
+      "sha256": "f777afedac4210594795abdc6d6b5cb571b2c8ae7dd942c3965fc71716a599b4"
+    },
+    {
+      "path": "data/contracts/atlas_v302_overview_medium_reading_crosswalk.json",
+      "sha256": "213a61cfe311259be33a3d52669403df928564b92c709158cb661dd7c2f0f0cd"
+    },
+    {
+      "path": "data/deep/atlas_v303_medium_depth_ancient_medieval_readers.json",
+      "sha256": "e994501fec00b0b135a6a23fbffd5d6432af93cf6ece651eb4152316218578f8"
+    }
+  ],
+  "mapping_policy": "명시적인 읽기 안내다. ID 동일성·역사적 영향·원문 전수검증을 주장하지 않는다. 기본 조회는 PRIMARY만 반환하고 FOLLOWUP·BACKGROUND는 명시적 선택에서만 반환한다.",
+  "entries": [
+    {
+      "overview_id": "OV-P-001",
+      "category": "PERSON",
+      "title": "안디옥의 이그나티우스",
+      "period": "2세기 초",
+      "overview_summary": "초기 공동체의 지도자·주교 관련 서신으로 알려짐",
+      "overview_dataset": "data/overview/volumes_and_people_v01.json",
+      "overview_record": {
+        "id": "OV-P-001",
+        "name_en": "Ignatius of Antioch",
+        "name_ko": "안디옥의 이그나티우스",
+        "volume_ids": [
+          "VOL-01"
+        ],
+        "period": "2세기 초",
+        "summary": "초기 공동체의 지도자·주교 관련 서신으로 알려짐",
+        "source_ids": [
+          "SRC-O-001"
+        ],
+        "claim_level": "OVERVIEW",
+        "review_status": "DRAFT",
+        "public_visible": false
+      },
+      "mapping_status": "DIRECT_TOPIC",
+      "scope": "중간 깊이의 해당 항목 직접 해설. 전수 감수·실제 앱 반영을 뜻하지 않는다.",
+      "reader_links": [
+        {
+          "reader_id": "PERSON-IGNATIUS_ANTIOCH",
+          "role": "PRIMARY",
+          "title": "안디옥의 이그나티우스 — 편지로 요청한 일치"
+        }
+      ],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-P-002",
+      "category": "PERSON",
+      "title": "아타나시우스",
+      "period": "4세기",
+      "overview_summary": "니케아 신앙과 그리스도론 논쟁의 주요 인물",
+      "overview_dataset": "data/overview/volumes_and_people_v01.json",
+      "overview_record": {
+        "id": "OV-P-002",
+        "name_en": "Athanasius",
+        "name_ko": "아타나시우스",
+        "volume_ids": [
+          "VOL-01"
+        ],
+        "period": "4세기",
+        "summary": "니케아 신앙과 그리스도론 논쟁의 주요 인물",
+        "source_ids": [
+          "SRC-O-001"
+        ],
+        "claim_level": "OVERVIEW",
+        "review_status": "DRAFT",
+        "public_visible": false
+      },
+      "mapping_status": "DIRECT_TOPIC",
+      "scope": "중간 깊이의 해당 항목 직접 해설. 전수 감수·실제 앱 반영을 뜻하지 않는다.",
+      "reader_links": [
+        {
+          "reader_id": "PERSON-ATHANASIUS_ALEXANDRIA",
+          "role": "PRIMARY",
+          "title": "아타나시우스 — 공의회 뒤의 논쟁"
+        }
+      ],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-P-003",
+      "category": "PERSON",
+      "title": "아우구스티누스",
+      "period": "354~430",
+      "overview_summary": "은총·교회·역사관을 다룬 북아프리카의 라틴 교부",
+      "overview_dataset": "data/overview/volumes_and_people_v01.json",
+      "overview_record": {
+        "id": "OV-P-003",
+        "name_en": "Augustine of Hippo",
+        "name_ko": "아우구스티누스",
+        "volume_ids": [
+          "VOL-01"
+        ],
+        "period": "354~430",
+        "summary": "은총·교회·역사관을 다룬 북아프리카의 라틴 교부",
+        "source_ids": [
+          "SRC-O-001"
+        ],
+        "claim_level": "OVERVIEW",
+        "review_status": "DRAFT",
+        "public_visible": false
+      },
+      "mapping_status": "DIRECT_TOPIC",
+      "scope": "중간 깊이의 해당 항목 직접 해설. 전수 감수·실제 앱 반영을 뜻하지 않는다.",
+      "reader_links": [
+        {
+          "reader_id": "PERSON-AUGUSTINE_HIPPO",
+          "role": "PRIMARY",
+          "title": "아우구스티누스 — 회심과 은총"
+        }
+      ],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-P-004",
+      "category": "PERSON",
+      "title": "베네딕투스",
+      "period": "6세기",
+      "overview_summary": "서방 수도원 규칙 전통의 중요한 인물",
+      "overview_dataset": "data/overview/volumes_and_people_v01.json",
+      "overview_record": {
+        "id": "OV-P-004",
+        "name_en": "Benedict of Nursia",
+        "name_ko": "베네딕투스",
+        "volume_ids": [
+          "VOL-02"
+        ],
+        "period": "6세기",
+        "summary": "서방 수도원 규칙 전통의 중요한 인물",
+        "source_ids": [
+          "SRC-O-001"
+        ],
+        "claim_level": "OVERVIEW",
+        "review_status": "DRAFT",
+        "public_visible": false
+      },
+      "mapping_status": "DIRECT_TOPIC",
+      "scope": "중간 깊이의 해당 항목 직접 해설. 전수 감수·실제 앱 반영을 뜻하지 않는다.",
+      "reader_links": [
+        {
+          "reader_id": "PERSON-BENEDICT_NURSIA",
+          "role": "PRIMARY",
+          "title": "베네딕투스 — 공동생활의 규칙"
+        }
+      ],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-P-005",
+      "category": "PERSON",
+      "title": "안셀무스",
+      "period": "1033경~1109",
+      "overview_summary": "신앙과 이성, 구원론을 논한 중세 신학자",
+      "overview_dataset": "data/overview/volumes_and_people_v01.json",
+      "overview_record": {
+        "id": "OV-P-005",
+        "name_en": "Anselm of Canterbury",
+        "name_ko": "안셀무스",
+        "volume_ids": [
+          "VOL-02"
+        ],
+        "period": "1033경~1109",
+        "summary": "신앙과 이성, 구원론을 논한 중세 신학자",
+        "source_ids": [
+          "SRC-O-001"
+        ],
+        "claim_level": "OVERVIEW",
+        "review_status": "DRAFT",
+        "public_visible": false
+      },
+      "mapping_status": "DIRECT_TOPIC",
+      "scope": "중간 깊이의 해당 항목 직접 해설. 전수 감수·실제 앱 반영을 뜻하지 않는다.",
+      "reader_links": [
+        {
+          "reader_id": "PERSON-ANSELM_CANTERBURY",
+          "role": "PRIMARY",
+          "title": "안셀무스 — 이해를 구하는 믿음"
+        }
+      ],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-P-006",
+      "category": "PERSON",
+      "title": "토마스 아퀴나스",
+      "period": "1225경~1274",
+      "overview_summary": "중세 스콜라 신학·철학에 큰 영향을 준 학자",
+      "overview_dataset": "data/overview/volumes_and_people_v01.json",
+      "overview_record": {
+        "id": "OV-P-006",
+        "name_en": "Thomas Aquinas",
+        "name_ko": "토마스 아퀴나스",
+        "volume_ids": [
+          "VOL-02"
+        ],
+        "period": "1225경~1274",
+        "summary": "중세 스콜라 신학·철학에 큰 영향을 준 학자",
+        "source_ids": [
+          "SRC-O-021"
+        ],
+        "claim_level": "OVERVIEW",
+        "review_status": "DRAFT",
+        "public_visible": false
+      },
+      "mapping_status": "DIRECT_TOPIC",
+      "scope": "중간 깊이의 해당 항목 직접 해설. 전수 감수·실제 앱 반영을 뜻하지 않는다.",
+      "reader_links": [
+        {
+          "reader_id": "PERSON-THOMAS_AQUINAS",
+          "role": "PRIMARY",
+          "title": "토마스 아퀴나스 — 새로운 학문과 신앙"
+        }
+      ],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-P-007",
+      "category": "PERSON",
+      "title": "시에나의 카타리나",
+      "period": "1347~1380",
+      "overview_summary": "14세기 교회 개혁과 영성 논의에 참여한 평신도 신비가",
+      "overview_dataset": "data/overview/volumes_and_people_v01.json",
+      "overview_record": {
+        "id": "OV-P-007",
+        "name_en": "Catherine of Siena",
+        "name_ko": "시에나의 카타리나",
+        "volume_ids": [
+          "VOL-02"
+        ],
+        "period": "1347~1380",
+        "summary": "14세기 교회 개혁과 영성 논의에 참여한 평신도 신비가",
+        "source_ids": [
+          "SRC-O-001"
+        ],
+        "claim_level": "OVERVIEW",
+        "review_status": "DRAFT",
+        "public_visible": false
+      },
+      "mapping_status": "DIRECT_TOPIC",
+      "scope": "중간 깊이의 해당 항목 직접 해설. 전수 감수·실제 앱 반영을 뜻하지 않는다.",
+      "reader_links": [
+        {
+          "reader_id": "PERSON-CATHERINE_SIENA",
+          "role": "PRIMARY",
+          "title": "시에나의 카타리나 — 직무 밖의 개혁 요구"
+        }
+      ],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-P-008",
+      "category": "PERSON",
+      "title": "발도(발데스)",
+      "period": "12세기 후반",
+      "overview_summary": "리옹의 청빈·설교 운동을 이끈 평신도",
+      "overview_dataset": "data/overview/volumes_and_people_v01.json",
+      "overview_record": {
+        "id": "OV-P-008",
+        "name_en": "Valdes / Waldo",
+        "name_ko": "발도(발데스)",
+        "volume_ids": [
+          "VOL-03"
+        ],
+        "period": "12세기 후반",
+        "summary": "리옹의 청빈·설교 운동을 이끈 평신도",
+        "source_ids": [
+          "SRC-O-015"
+        ],
+        "claim_level": "OVERVIEW",
+        "review_status": "DRAFT",
+        "public_visible": false,
+        "legacy_entity_id": "PER-0004"
+      },
+      "mapping_status": "DIRECT_TOPIC",
+      "scope": "해당 인물·사건·문헌을 직접 설명하는 새 중간 수준 원고. 편집 연결이며 역사적 동일성·영향·전문가 승인 판정이 아니다.",
+      "reader_links": [
+        {
+          "reader_id": "PERSON-VALDES_LYON",
+          "role": "PRIMARY",
+          "title": "발도 — 청빈과 평신도 설교의 출발"
+        },
+        {
+          "reader_id": "REGION-WALDENSIAN_VALLEYS",
+          "role": "BACKGROUND",
+          "title": "발도파 계곡 — 오래된 공동체와 개혁파의 만남"
+        }
+      ],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-P-009",
+      "category": "PERSON",
+      "title": "존 위클리프",
+      "period": "14세기",
+      "overview_summary": "성경·교회 권위·성찬론의 쟁점을 제기한 옥스퍼드 학자",
+      "overview_dataset": "data/overview/volumes_and_people_v01.json",
+      "overview_record": {
+        "id": "OV-P-009",
+        "name_en": "John Wyclif",
+        "name_ko": "존 위클리프",
+        "volume_ids": [
+          "VOL-03"
+        ],
+        "period": "14세기",
+        "summary": "성경·교회 권위·성찬론의 쟁점을 제기한 옥스퍼드 학자",
+        "source_ids": [
+          "SRC-O-003"
+        ],
+        "claim_level": "OVERVIEW",
+        "review_status": "DRAFT",
+        "public_visible": false,
+        "legacy_entity_id": "PER-0001"
+      },
+      "mapping_status": "DIRECT_TOPIC",
+      "scope": "위클리프의 생애·교회 권위 문제를 다루는 해설이다. 모든 저작의 원문 해설을 뜻하지 않는다.",
+      "reader_links": [
+        {
+          "reader_id": "MEDIUM-WYCLIFFE",
+          "role": "PRIMARY",
+          "title": "위클리프 — 교회의 권위는 무엇으로 판단하는가"
+        }
+      ],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-P-010",
+      "category": "PERSON",
+      "title": "얀 후스",
+      "period": "1370경~1415",
+      "overview_summary": "프라하 설교와 교회론 논쟁에 관련된 보헤미아 신학자",
+      "overview_dataset": "data/overview/volumes_and_people_v01.json",
+      "overview_record": {
+        "id": "OV-P-010",
+        "name_en": "Jan Hus",
+        "name_ko": "얀 후스",
+        "volume_ids": [
+          "VOL-03"
+        ],
+        "period": "1370경~1415",
+        "summary": "프라하 설교와 교회론 논쟁에 관련된 보헤미아 신학자",
+        "source_ids": [
+          "SRC-O-016"
+        ],
+        "claim_level": "OVERVIEW",
+        "review_status": "DRAFT",
+        "public_visible": false,
+        "legacy_entity_id": "PER-0002"
+      },
+      "mapping_status": "DIRECT_TOPIC",
+      "scope": "후스 개인을 다루는 해설이며 사후 후스파 전체와 동일시하지 않는다.",
+      "reader_links": [
+        {
+          "reader_id": "MEDIUM-HUS",
+          "role": "PRIMARY",
+          "title": "후스 — 설교와 교회 개혁이 보헤미아의 문제가 되다"
+        }
+      ],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-P-011",
+      "category": "PERSON",
+      "title": "프라하의 예로니모",
+      "period": "1378경~1416",
+      "overview_summary": "후스와 같은 시대의 보헤미아 학문·개혁 운동 인물",
+      "overview_dataset": "data/overview/volumes_and_people_v01.json",
+      "overview_record": {
+        "id": "OV-P-011",
+        "name_en": "Jerome of Prague",
+        "name_ko": "프라하의 예로니모",
+        "volume_ids": [
+          "VOL-03"
+        ],
+        "period": "1378경~1416",
+        "summary": "후스와 같은 시대의 보헤미아 학문·개혁 운동 인물",
+        "source_ids": [
+          "SRC-O-017"
+        ],
+        "claim_level": "OVERVIEW",
+        "review_status": "DRAFT",
+        "public_visible": false
+      },
+      "mapping_status": "DIRECT_TOPIC",
+      "scope": "해당 인물·사건·문헌을 직접 설명하는 새 중간 수준 원고. 편집 연결이며 역사적 동일성·영향·전문가 승인 판정이 아니다.",
+      "reader_links": [
+        {
+          "reader_id": "PERSON-JEROME_PRAGUE",
+          "role": "PRIMARY",
+          "title": "프라하의 히에로니무스 — 이동하는 학문과 재판"
+        }
+      ],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-P-012",
+      "category": "PERSON",
+      "title": "얀 지슈카",
+      "period": "1360경~1424",
+      "overview_summary": "후스파 전쟁기의 군사 지도자",
+      "overview_dataset": "data/overview/volumes_and_people_v01.json",
+      "overview_record": {
+        "id": "OV-P-012",
+        "name_en": "Jan Žižka",
+        "name_ko": "얀 지슈카",
+        "volume_ids": [
+          "VOL-03"
+        ],
+        "period": "1360경~1424",
+        "summary": "후스파 전쟁기의 군사 지도자",
+        "source_ids": [
+          "SRC-O-017"
+        ],
+        "claim_level": "OVERVIEW",
+        "review_status": "DRAFT",
+        "public_visible": false
+      },
+      "mapping_status": "DIRECT_TOPIC",
+      "scope": "해당 인물·사건·문헌을 직접 설명하는 새 중간 수준 원고. 편집 연결이며 역사적 동일성·영향·전문가 승인 판정이 아니다.",
+      "reader_links": [
+        {
+          "reader_id": "PERSON-JAN_ZIZKA",
+          "role": "PRIMARY",
+          "title": "얀 지슈카 — 신앙을 지키는 전쟁의 모순"
+        }
+      ],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-P-013",
+      "category": "PERSON",
+      "title": "마르틴 루터",
+      "period": "1483~1546",
+      "overview_summary": "1517년 면벌부 논쟁 이후 독일 개혁운동의 핵심 인물",
+      "overview_dataset": "data/overview/volumes_and_people_v01.json",
+      "overview_record": {
+        "id": "OV-P-013",
+        "name_en": "Martin Luther",
+        "name_ko": "마르틴 루터",
+        "volume_ids": [
+          "VOL-04"
+        ],
+        "period": "1483~1546",
+        "summary": "1517년 면벌부 논쟁 이후 독일 개혁운동의 핵심 인물",
+        "source_ids": [
+          "SRC-O-002"
+        ],
+        "claim_level": "OVERVIEW",
+        "review_status": "DRAFT",
+        "public_visible": false
+      },
+      "mapping_status": "DIRECT_TOPIC",
+      "scope": "루터 개인의 개요에서 1517년과 1521년의 서로 다른 국면을 고른다.",
+      "reader_links": [
+        {
+          "reader_id": "MEDIUM-LUTHER1517",
+          "role": "PRIMARY",
+          "title": "1517년 루터 — 면벌부 논쟁은 왜 커졌는가"
+        },
+        {
+          "reader_id": "MEDIUM-LUTHER1521",
+          "role": "PRIMARY",
+          "title": "1521년 보름스 — 양심과 제국의 권력이 충돌하다"
+        },
+        {
+          "reader_id": "DOCUMENT-CHRISTIAN_FREEDOM",
+          "role": "FOLLOWUP",
+          "title": "1520년 그리스도인의 자유 — 믿음의 자유와 이웃을 위한 섬김"
+        }
+      ],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-P-014",
+      "category": "PERSON",
+      "title": "필리프 멜란히톤",
+      "period": "1497~1560",
+      "overview_summary": "루터파 신앙고백과 교육 정리에 참여",
+      "overview_dataset": "data/overview/volumes_and_people_v01.json",
+      "overview_record": {
+        "id": "OV-P-014",
+        "name_en": "Philipp Melanchthon",
+        "name_ko": "필리프 멜란히톤",
+        "volume_ids": [
+          "VOL-04"
+        ],
+        "period": "1497~1560",
+        "summary": "루터파 신앙고백과 교육 정리에 참여",
+        "source_ids": [
+          "SRC-O-002"
+        ],
+        "claim_level": "OVERVIEW",
+        "review_status": "DRAFT",
+        "public_visible": false
+      },
+      "mapping_status": "DIRECT_TOPIC",
+      "scope": "멜란히톤 개인의 교육과 공적 신앙 설명을 연결한다.",
+      "reader_links": [
+        {
+          "reader_id": "PERSON-MELANCHTHON",
+          "role": "PRIMARY",
+          "title": "멜란히톤 — 개혁을 가르치고 공적인 문장으로 정리하다"
+        },
+        {
+          "reader_id": "MEDIUM-AUGSBURG",
+          "role": "FOLLOWUP",
+          "title": "아우크스부르크 신앙고백 — 개혁의 신앙을 공적으로 설명하다"
+        }
+      ],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-P-015",
+      "category": "PERSON",
+      "title": "훌드리히 츠빙글리",
+      "period": "1484~1531",
+      "overview_summary": "취리히의 예배·설교 개혁을 이끈 인물",
+      "overview_dataset": "data/overview/volumes_and_people_v01.json",
+      "overview_record": {
+        "id": "OV-P-015",
+        "name_en": "Huldrych Zwingli",
+        "name_ko": "훌드리히 츠빙글리",
+        "volume_ids": [
+          "VOL-04"
+        ],
+        "period": "1484~1531",
+        "summary": "취리히의 예배·설교 개혁을 이끈 인물",
+        "source_ids": [
+          "SRC-O-013"
+        ],
+        "claim_level": "OVERVIEW",
+        "review_status": "DRAFT",
+        "public_visible": false
+      },
+      "mapping_status": "DIRECT_TOPIC",
+      "scope": "츠빙글리와 취리히 개혁의 해설이다.",
+      "reader_links": [
+        {
+          "reader_id": "MEDIUM-ZWINGLI",
+          "role": "PRIMARY",
+          "title": "츠빙글리와 취리히 — 도시가 개혁을 결정하다"
+        },
+        {
+          "reader_id": "MEDIUM-MARBURG",
+          "role": "FOLLOWUP",
+          "title": "마르부르크 회담 — 같은 개혁 진영이 왜 하나가 되지 못했는가"
+        }
+      ],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-P-016",
+      "category": "PERSON",
+      "title": "장 칼뱅",
+      "period": "1509~1564",
+      "overview_summary": "제네바의 개혁과 개혁파 신학에 큰 영향을 준 인물",
+      "overview_dataset": "data/overview/volumes_and_people_v01.json",
+      "overview_record": {
+        "id": "OV-P-016",
+        "name_en": "John Calvin",
+        "name_ko": "장 칼뱅",
+        "volume_ids": [
+          "VOL-04"
+        ],
+        "period": "1509~1564",
+        "summary": "제네바의 개혁과 개혁파 신학에 큰 영향을 준 인물",
+        "source_ids": [
+          "SRC-O-013"
+        ],
+        "claim_level": "OVERVIEW",
+        "review_status": "DRAFT",
+        "public_visible": false
+      },
+      "mapping_status": "DIRECT_TOPIC",
+      "scope": "칼뱅의 두 판본을 구분해 선택한다. 인물 개요와 개별 판본의 범위는 다르다.",
+      "reader_links": [
+        {
+          "reader_id": "MEDIUM-CALVIN1536",
+          "role": "PRIMARY",
+          "title": "1536년 『기독교강요』 — 가르침과 변호를 위한 작은 책"
+        },
+        {
+          "reader_id": "MEDIUM-CALVIN1559",
+          "role": "PRIMARY",
+          "title": "1559년 『기독교강요』 — 신앙을 배우는 순서를 만들다"
+        },
+        {
+          "reader_id": "CITY-GENEVA",
+          "role": "FOLLOWUP",
+          "title": "제네바 — 칼뱅과 도시가 함께 만든 갈등의 역사"
+        }
+      ],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-P-017",
+      "category": "PERSON",
+      "title": "메노 시몬스",
+      "period": "1496~1561",
+      "overview_summary": "재세례파·메노파 전통에서 중요한 인물",
+      "overview_dataset": "data/overview/volumes_and_people_v01.json",
+      "overview_record": {
+        "id": "OV-P-017",
+        "name_en": "Menno Simons",
+        "name_ko": "메노 시몬스",
+        "volume_ids": [
+          "VOL-04"
+        ],
+        "period": "1496~1561",
+        "summary": "재세례파·메노파 전통에서 중요한 인물",
+        "source_ids": [
+          "SRC-O-005"
+        ],
+        "claim_level": "OVERVIEW",
+        "review_status": "DRAFT",
+        "public_visible": false
+      },
+      "mapping_status": "DIRECT_TOPIC",
+      "scope": "메노 시몬스 개인과 공동체 지도 활동을 연결한다.",
+      "reader_links": [
+        {
+          "reader_id": "PERSON-MENNO_SIMONS",
+          "role": "PRIMARY",
+          "title": "메노 시몬스 — 흩어진 재세례파 공동체를 이끌다"
+        },
+        {
+          "reader_id": "DOCUMENT-MENNO_FOUNDATION1539",
+          "role": "FOLLOWUP",
+          "title": "1539~1540년 메노의 『신앙 교리의 기초』 — 회개에서 공동체까지"
+        }
+      ],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-P-018",
+      "category": "PERSON",
+      "title": "윌리엄 틴들",
+      "period": "1494경~1536",
+      "overview_summary": "영어 성경 번역·보급의 주요 인물",
+      "overview_dataset": "data/overview/volumes_and_people_v01.json",
+      "overview_record": {
+        "id": "OV-P-018",
+        "name_en": "William Tyndale",
+        "name_ko": "윌리엄 틴들",
+        "volume_ids": [
+          "VOL-04"
+        ],
+        "period": "1494경~1536",
+        "summary": "영어 성경 번역·보급의 주요 인물",
+        "source_ids": [
+          "SRC-O-005"
+        ],
+        "claim_level": "OVERVIEW",
+        "review_status": "DRAFT",
+        "public_visible": false
+      },
+      "mapping_status": "DIRECT_TOPIC",
+      "scope": "틴들의 번역 경력과 신약성경 제작을 구분한다.",
+      "reader_links": [
+        {
+          "reader_id": "PERSON-WILLIAM_TYNDALE",
+          "role": "PRIMARY",
+          "title": "윌리엄 틴들 — 번역의 언어와 인쇄의 규모를 바꾸다"
+        },
+        {
+          "reader_id": "DOCUMENT-TYNDALE_NT",
+          "role": "FOLLOWUP",
+          "title": "틴들의 신약성경 — 번역과 국외 인쇄가 만나다"
+        }
+      ],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-P-019",
+      "category": "PERSON",
+      "title": "토머스 크랜머",
+      "period": "1489~1556",
+      "overview_summary": "영국 국교회 예전과 공동기도서 형성에 관련된 인물",
+      "overview_dataset": "data/overview/volumes_and_people_v01.json",
+      "overview_record": {
+        "id": "OV-P-019",
+        "name_en": "Thomas Cranmer",
+        "name_ko": "토머스 크랜머",
+        "volume_ids": [
+          "VOL-04"
+        ],
+        "period": "1489~1556",
+        "summary": "영국 국교회 예전과 공동기도서 형성에 관련된 인물",
+        "source_ids": [
+          "SRC-O-005"
+        ],
+        "claim_level": "OVERVIEW",
+        "review_status": "DRAFT",
+        "public_visible": false
+      },
+      "mapping_status": "DIRECT_TOPIC",
+      "scope": "크랜머 개인과 공동기도서의 형성을 구분한다.",
+      "reader_links": [
+        {
+          "reader_id": "PERSON-CRANMER",
+          "role": "PRIMARY",
+          "title": "토머스 크랜머 — 왕권과 예배 개혁 사이의 대주교"
+        },
+        {
+          "reader_id": "DOCUMENT-COMMON_PRAYER",
+          "role": "FOLLOWUP",
+          "title": "공동기도서 — 개혁을 함께 드리는 예배의 언어로"
+        }
+      ],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-P-020",
+      "category": "PERSON",
+      "title": "존 녹스",
+      "period": "1514경~1572",
+      "overview_summary": "스코틀랜드 개혁 운동의 대표적 설교자",
+      "overview_dataset": "data/overview/volumes_and_people_v01.json",
+      "overview_record": {
+        "id": "OV-P-020",
+        "name_en": "John Knox",
+        "name_ko": "존 녹스",
+        "volume_ids": [
+          "VOL-04"
+        ],
+        "period": "1514경~1572",
+        "summary": "스코틀랜드 개혁 운동의 대표적 설교자",
+        "source_ids": [
+          "SRC-O-005"
+        ],
+        "claim_level": "OVERVIEW",
+        "review_status": "DRAFT",
+        "public_visible": false
+      },
+      "mapping_status": "DIRECT_TOPIC",
+      "scope": "녹스 개인과 스코틀랜드 개혁의 지역 맥락을 연결한다.",
+      "reader_links": [
+        {
+          "reader_id": "PERSON-KNOX",
+          "role": "PRIMARY",
+          "title": "존 녹스 — 포로와 망명의 경험을 거쳐 스코틀랜드로"
+        },
+        {
+          "reader_id": "REGION-SCOTLAND",
+          "role": "FOLLOWUP",
+          "title": "스코틀랜드 — 설교와 귀족 연합, 국제정치가 함께 만든 개혁"
+        }
+      ],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-P-021",
+      "category": "PERSON",
+      "title": "이냐시오 데 로욜라",
+      "period": "1491경~1556",
+      "overview_summary": "예수회 창립과 영적 훈련 전통에 영향",
+      "overview_dataset": "data/overview/volumes_and_people_v01.json",
+      "overview_record": {
+        "id": "OV-P-021",
+        "name_en": "Ignatius of Loyola",
+        "name_ko": "이냐시오 데 로욜라",
+        "volume_ids": [
+          "VOL-05"
+        ],
+        "period": "1491경~1556",
+        "summary": "예수회 창립과 영적 훈련 전통에 영향",
+        "source_ids": [
+          "SRC-O-021"
+        ],
+        "claim_level": "OVERVIEW",
+        "review_status": "DRAFT",
+        "public_visible": false
+      },
+      "mapping_status": "DIRECT_TOPIC",
+      "scope": "로욜라의 이냐시오를 연결한다. 고대 안디옥의 이그나티우스와 다르다.",
+      "reader_links": [
+        {
+          "reader_id": "PERSON-IGNATIUS",
+          "role": "PRIMARY",
+          "title": "이냐시오 데 로욜라 — 내면의 훈련에서 교육과 선교로"
+        },
+        {
+          "reader_id": "DOCUMENT-SPIRITUAL_EXERCISES1548",
+          "role": "FOLLOWUP",
+          "title": "1548년 영신수련 — 기도와 선택을 돕는 안내서"
+        }
+      ],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-P-022",
+      "category": "PERSON",
+      "title": "아빌라의 테레사",
+      "period": "1515~1582",
+      "overview_summary": "가르멜회 개혁·영성 저술에 참여",
+      "overview_dataset": "data/overview/volumes_and_people_v01.json",
+      "overview_record": {
+        "id": "OV-P-022",
+        "name_en": "Teresa of Ávila",
+        "name_ko": "아빌라의 테레사",
+        "volume_ids": [
+          "VOL-05"
+        ],
+        "period": "1515~1582",
+        "summary": "가르멜회 개혁·영성 저술에 참여",
+        "source_ids": [
+          "SRC-O-021"
+        ],
+        "claim_level": "OVERVIEW",
+        "review_status": "DRAFT",
+        "public_visible": false
+      },
+      "mapping_status": "DIRECT_TOPIC",
+      "scope": "아빌라의 테레사와 기도·수도 개혁을 연결한다.",
+      "reader_links": [
+        {
+          "reader_id": "PERSON-TERESA_AVILA",
+          "role": "PRIMARY",
+          "title": "아빌라의 테레사 — 기도와 수도공동체를 함께 바꾸다"
+        },
+        {
+          "reader_id": "DOCUMENT-INTERIOR_CASTLE1577",
+          "role": "FOLLOWUP",
+          "title": "1577년 영혼의 성 — 기도의 길을 거처의 비유로"
+        }
+      ],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-P-023",
+      "category": "PERSON",
+      "title": "필리프 야코프 슈페너",
+      "period": "1635~1705",
+      "overview_summary": "독일 경건주의의 중요한 인물",
+      "overview_dataset": "data/overview/volumes_and_people_v01.json",
+      "overview_record": {
+        "id": "OV-P-023",
+        "name_en": "Philip Jakob Spener",
+        "name_ko": "필리프 야코프 슈페너",
+        "volume_ids": [
+          "VOL-06"
+        ],
+        "period": "1635~1705",
+        "summary": "독일 경건주의의 중요한 인물",
+        "source_ids": [
+          "SRC-O-006"
+        ],
+        "claim_level": "OVERVIEW",
+        "review_status": "DRAFT",
+        "public_visible": false
+      },
+      "mapping_status": "NO_MATCH",
+      "scope": "현재 435편 목록에서 이 개요 항목을 직접 다루는 심화 원고를 확인하지 못했다. 이름이나 시대가 비슷한 원고로 자동 대체하지 않는다.",
+      "reader_links": [],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-P-024",
+      "category": "PERSON",
+      "title": "존 웨슬리",
+      "period": "1703~1791",
+      "overview_summary": "감리교적 부흥·소그룹 훈련·설교 운동 지도자",
+      "overview_dataset": "data/overview/volumes_and_people_v01.json",
+      "overview_record": {
+        "id": "OV-P-024",
+        "name_en": "John Wesley",
+        "name_ko": "존 웨슬리",
+        "volume_ids": [
+          "VOL-06"
+        ],
+        "period": "1703~1791",
+        "summary": "감리교적 부흥·소그룹 훈련·설교 운동 지도자",
+        "source_ids": [
+          "SRC-O-006"
+        ],
+        "claim_level": "OVERVIEW",
+        "review_status": "DRAFT",
+        "public_visible": false
+      },
+      "mapping_status": "NO_MATCH",
+      "scope": "현재 435편 목록에서 이 개요 항목을 직접 다루는 심화 원고를 확인하지 못했다. 이름이나 시대가 비슷한 원고로 자동 대체하지 않는다.",
+      "reader_links": [],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-P-025",
+      "category": "PERSON",
+      "title": "찰스 웨슬리",
+      "period": "1707~1788",
+      "overview_summary": "감리교 운동과 찬송·영적 실천에 기여",
+      "overview_dataset": "data/overview/volumes_and_people_v01.json",
+      "overview_record": {
+        "id": "OV-P-025",
+        "name_en": "Charles Wesley",
+        "name_ko": "찰스 웨슬리",
+        "volume_ids": [
+          "VOL-06"
+        ],
+        "period": "1707~1788",
+        "summary": "감리교 운동과 찬송·영적 실천에 기여",
+        "source_ids": [
+          "SRC-O-007"
+        ],
+        "claim_level": "OVERVIEW",
+        "review_status": "DRAFT",
+        "public_visible": false
+      },
+      "mapping_status": "NO_MATCH",
+      "scope": "현재 435편 목록에서 이 개요 항목을 직접 다루는 심화 원고를 확인하지 못했다. 이름이나 시대가 비슷한 원고로 자동 대체하지 않는다.",
+      "reader_links": [],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-P-026",
+      "category": "PERSON",
+      "title": "조지 휫필드",
+      "period": "1714~1770",
+      "overview_summary": "영국·북미의 부흥 설교와 대각성에 관련됨",
+      "overview_dataset": "data/overview/volumes_and_people_v01.json",
+      "overview_record": {
+        "id": "OV-P-026",
+        "name_en": "George Whitefield",
+        "name_ko": "조지 휫필드",
+        "volume_ids": [
+          "VOL-06"
+        ],
+        "period": "1714~1770",
+        "summary": "영국·북미의 부흥 설교와 대각성에 관련됨",
+        "source_ids": [
+          "SRC-O-014"
+        ],
+        "claim_level": "OVERVIEW",
+        "review_status": "DRAFT",
+        "public_visible": false
+      },
+      "mapping_status": "NO_MATCH",
+      "scope": "현재 435편 목록에서 이 개요 항목을 직접 다루는 심화 원고를 확인하지 못했다. 이름이나 시대가 비슷한 원고로 자동 대체하지 않는다.",
+      "reader_links": [],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-P-027",
+      "category": "PERSON",
+      "title": "윌리엄 캐리",
+      "period": "1761~1834",
+      "overview_summary": "19세기 초 인도에서 번역·교육·선교 활동",
+      "overview_dataset": "data/overview/volumes_and_people_v01.json",
+      "overview_record": {
+        "id": "OV-P-027",
+        "name_en": "William Carey",
+        "name_ko": "윌리엄 캐리",
+        "volume_ids": [
+          "VOL-06"
+        ],
+        "period": "1761~1834",
+        "summary": "19세기 초 인도에서 번역·교육·선교 활동",
+        "source_ids": [
+          "SRC-O-007"
+        ],
+        "claim_level": "OVERVIEW",
+        "review_status": "DRAFT",
+        "public_visible": false
+      },
+      "mapping_status": "NO_MATCH",
+      "scope": "현재 435편 목록에서 이 개요 항목을 직접 다루는 심화 원고를 확인하지 못했다. 이름이나 시대가 비슷한 원고로 자동 대체하지 않는다.",
+      "reader_links": [],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-P-028",
+      "category": "PERSON",
+      "title": "이승훈",
+      "period": "1756~1801",
+      "overview_summary": "1784년 조선 천주교 공동체 형성과 연결된 초기 한국인 신자",
+      "overview_dataset": "data/overview/volumes_and_people_v01.json",
+      "overview_record": {
+        "id": "OV-P-028",
+        "name_en": "Yi Seung-hun",
+        "name_ko": "이승훈",
+        "volume_ids": [
+          "VOL-07"
+        ],
+        "period": "1756~1801",
+        "summary": "1784년 조선 천주교 공동체 형성과 연결된 초기 한국인 신자",
+        "source_ids": [
+          "SRC-O-008"
+        ],
+        "claim_level": "OVERVIEW",
+        "review_status": "DRAFT",
+        "public_visible": false
+      },
+      "mapping_status": "NO_MATCH",
+      "scope": "현재 435편 목록에서 이 개요 항목을 직접 다루는 심화 원고를 확인하지 못했다. 이름이나 시대가 비슷한 원고로 자동 대체하지 않는다.",
+      "reader_links": [],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-P-029",
+      "category": "PERSON",
+      "title": "이벽",
+      "period": "1754~1785",
+      "overview_summary": "초기 조선 서학 연구와 천주교 공동체 형성에 참여",
+      "overview_dataset": "data/overview/volumes_and_people_v01.json",
+      "overview_record": {
+        "id": "OV-P-029",
+        "name_en": "Yi Byeok",
+        "name_ko": "이벽",
+        "volume_ids": [
+          "VOL-07"
+        ],
+        "period": "1754~1785",
+        "summary": "초기 조선 서학 연구와 천주교 공동체 형성에 참여",
+        "source_ids": [
+          "SRC-O-018"
+        ],
+        "claim_level": "OVERVIEW",
+        "review_status": "DRAFT",
+        "public_visible": false
+      },
+      "mapping_status": "NO_MATCH",
+      "scope": "현재 435편 목록에서 이 개요 항목을 직접 다루는 심화 원고를 확인하지 못했다. 이름이나 시대가 비슷한 원고로 자동 대체하지 않는다.",
+      "reader_links": [],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-P-030",
+      "category": "PERSON",
+      "title": "서상륜",
+      "period": "1848~1926",
+      "overview_summary": "한국인 초기 개신교 신앙 및 공동체 형성과 연결됨",
+      "overview_dataset": "data/overview/volumes_and_people_v01.json",
+      "overview_record": {
+        "id": "OV-P-030",
+        "name_en": "Seo Sang-ryun",
+        "name_ko": "서상륜",
+        "volume_ids": [
+          "VOL-07"
+        ],
+        "period": "1848~1926",
+        "summary": "한국인 초기 개신교 신앙 및 공동체 형성과 연결됨",
+        "source_ids": [
+          "SRC-O-009"
+        ],
+        "claim_level": "OVERVIEW",
+        "review_status": "DRAFT",
+        "public_visible": false
+      },
+      "mapping_status": "NO_MATCH",
+      "scope": "현재 435편 목록에서 이 개요 항목을 직접 다루는 심화 원고를 확인하지 못했다. 이름이나 시대가 비슷한 원고로 자동 대체하지 않는다.",
+      "reader_links": [],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-P-031",
+      "category": "PERSON",
+      "title": "호러스 알렌",
+      "period": "1858~1932",
+      "overview_summary": "1884년 조선 입국, 근대 의료와 초기 개신교 선교사",
+      "overview_dataset": "data/overview/volumes_and_people_v01.json",
+      "overview_record": {
+        "id": "OV-P-031",
+        "name_en": "Horace N. Allen",
+        "name_ko": "호러스 알렌",
+        "volume_ids": [
+          "VOL-07"
+        ],
+        "period": "1858~1932",
+        "summary": "1884년 조선 입국, 근대 의료와 초기 개신교 선교사",
+        "source_ids": [
+          "SRC-O-020"
+        ],
+        "claim_level": "OVERVIEW",
+        "review_status": "DRAFT",
+        "public_visible": false
+      },
+      "mapping_status": "NO_MATCH",
+      "scope": "현재 435편 목록에서 이 개요 항목을 직접 다루는 심화 원고를 확인하지 못했다. 이름이나 시대가 비슷한 원고로 자동 대체하지 않는다.",
+      "reader_links": [],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-P-032",
+      "category": "PERSON",
+      "title": "호러스 언더우드",
+      "period": "1859~1916",
+      "overview_summary": "1885년 입국한 장로교 선교사, 교육·교회 형성에 참여",
+      "overview_dataset": "data/overview/volumes_and_people_v01.json",
+      "overview_record": {
+        "id": "OV-P-032",
+        "name_en": "Horace G. Underwood",
+        "name_ko": "호러스 언더우드",
+        "volume_ids": [
+          "VOL-07"
+        ],
+        "period": "1859~1916",
+        "summary": "1885년 입국한 장로교 선교사, 교육·교회 형성에 참여",
+        "source_ids": [
+          "SRC-O-010"
+        ],
+        "claim_level": "OVERVIEW",
+        "review_status": "DRAFT",
+        "public_visible": false
+      },
+      "mapping_status": "NO_MATCH",
+      "scope": "현재 435편 목록에서 이 개요 항목을 직접 다루는 심화 원고를 확인하지 못했다. 이름이나 시대가 비슷한 원고로 자동 대체하지 않는다.",
+      "reader_links": [],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-P-033",
+      "category": "PERSON",
+      "title": "헨리 아펜젤러",
+      "period": "1858~1902",
+      "overview_summary": "1885년 입국한 감리교 선교사, 교육 활동과 연계",
+      "overview_dataset": "data/overview/volumes_and_people_v01.json",
+      "overview_record": {
+        "id": "OV-P-033",
+        "name_en": "Henry G. Appenzeller",
+        "name_ko": "헨리 아펜젤러",
+        "volume_ids": [
+          "VOL-07"
+        ],
+        "period": "1858~1902",
+        "summary": "1885년 입국한 감리교 선교사, 교육 활동과 연계",
+        "source_ids": [
+          "SRC-O-010"
+        ],
+        "claim_level": "OVERVIEW",
+        "review_status": "DRAFT",
+        "public_visible": false
+      },
+      "mapping_status": "NO_MATCH",
+      "scope": "현재 435편 목록에서 이 개요 항목을 직접 다루는 심화 원고를 확인하지 못했다. 이름이나 시대가 비슷한 원고로 자동 대체하지 않는다.",
+      "reader_links": [],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-E-001",
+      "category": "EVENT",
+      "title": "초기 공동체·서신 전통의 확산",
+      "period": "2세기 전후",
+      "overview_summary": "지역 교회의 조직·예배·신앙 교육이 다양한 방식으로 정착한다.",
+      "overview_dataset": "data/overview/events_documents_v01.json",
+      "overview_record": {
+        "id": "OV-E-001",
+        "volume_ids": [
+          "VOL-01"
+        ],
+        "date_label": "2세기 전후",
+        "date_precision": "period",
+        "year_start": 100,
+        "year_end": 199,
+        "title": "초기 공동체·서신 전통의 확산",
+        "summary": "지역 교회의 조직·예배·신앙 교육이 다양한 방식으로 정착한다.",
+        "source_ids": [
+          "SRC-O-001"
+        ],
+        "review_status": "DRAFT",
+        "public_visible": false,
+        "date_caution": "연도·기간은 근사 표기, 임의의 정확한 일자 생성 금지"
+      },
+      "mapping_status": "NO_MATCH",
+      "scope": "현재 435편 목록에서 이 개요 항목을 직접 다루는 심화 원고를 확인하지 못했다. 이름이나 시대가 비슷한 원고로 자동 대체하지 않는다.",
+      "reader_links": [],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-E-002",
+      "category": "EVENT",
+      "title": "밀라노 관용 정책",
+      "period": "313년",
+      "overview_summary": "로마 제국에서 그리스도교에 대한 공적 관용이 확대되는 전환점이다.",
+      "overview_dataset": "data/overview/events_documents_v01.json",
+      "overview_record": {
+        "id": "OV-E-002",
+        "volume_ids": [
+          "VOL-01"
+        ],
+        "date_label": "313년",
+        "date_precision": "year",
+        "year_start": 313,
+        "year_end": null,
+        "title": "밀라노 관용 정책",
+        "summary": "로마 제국에서 그리스도교에 대한 공적 관용이 확대되는 전환점이다.",
+        "source_ids": [
+          "SRC-O-001"
+        ],
+        "review_status": "DRAFT",
+        "public_visible": false,
+        "date_caution": null
+      },
+      "mapping_status": "DIRECT_TOPIC",
+      "scope": "중간 깊이의 해당 항목 직접 해설. 전수 감수·실제 앱 반영을 뜻하지 않는다.",
+      "reader_links": [
+        {
+          "reader_id": "EVENT-MILAN_POLICY313",
+          "role": "PRIMARY",
+          "title": "313년 밀라노의 합의 — 예배와 재산"
+        }
+      ],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-E-003",
+      "category": "EVENT",
+      "title": "제1차 니케아 공의회",
+      "period": "325년",
+      "overview_summary": "그리스도론 및 신앙고백 논쟁에 중요한 공의회이다.",
+      "overview_dataset": "data/overview/events_documents_v01.json",
+      "overview_record": {
+        "id": "OV-E-003",
+        "volume_ids": [
+          "VOL-01"
+        ],
+        "date_label": "325년",
+        "date_precision": "year",
+        "year_start": 325,
+        "year_end": null,
+        "title": "제1차 니케아 공의회",
+        "summary": "그리스도론 및 신앙고백 논쟁에 중요한 공의회이다.",
+        "source_ids": [
+          "SRC-O-001"
+        ],
+        "review_status": "DRAFT",
+        "public_visible": false,
+        "date_caution": null
+      },
+      "mapping_status": "DIRECT_TOPIC",
+      "scope": "중간 깊이의 해당 항목 직접 해설. 전수 감수·실제 앱 반영을 뜻하지 않는다.",
+      "reader_links": [
+        {
+          "reader_id": "EVENT-NICAEA325",
+          "role": "PRIMARY",
+          "title": "니케아 공의회 — 신앙과 교회 질서"
+        }
+      ],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-E-004",
+      "category": "EVENT",
+      "title": "콘스탄티노폴리스 공의회",
+      "period": "381년",
+      "overview_summary": "니케아 전통의 삼위일체 신앙 이해를 정리한 중요한 회의이다.",
+      "overview_dataset": "data/overview/events_documents_v01.json",
+      "overview_record": {
+        "id": "OV-E-004",
+        "volume_ids": [
+          "VOL-01"
+        ],
+        "date_label": "381년",
+        "date_precision": "year",
+        "year_start": 381,
+        "year_end": null,
+        "title": "콘스탄티노폴리스 공의회",
+        "summary": "니케아 전통의 삼위일체 신앙 이해를 정리한 중요한 회의이다.",
+        "source_ids": [
+          "SRC-O-001"
+        ],
+        "review_status": "DRAFT",
+        "public_visible": false,
+        "date_caution": null
+      },
+      "mapping_status": "DIRECT_TOPIC",
+      "scope": "중간 깊이의 해당 항목 직접 해설. 전수 감수·실제 앱 반영을 뜻하지 않는다.",
+      "reader_links": [
+        {
+          "reader_id": "EVENT-CONSTANTINOPLE381",
+          "role": "PRIMARY",
+          "title": "381년 공의회 — 니케아 신앙의 재확인"
+        }
+      ],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-E-005",
+      "category": "EVENT",
+      "title": "칼케돈 공의회",
+      "period": "451년",
+      "overview_summary": "그리스도의 신성과 인성에 관한 논의의 대표적 분기점이다.",
+      "overview_dataset": "data/overview/events_documents_v01.json",
+      "overview_record": {
+        "id": "OV-E-005",
+        "volume_ids": [
+          "VOL-01"
+        ],
+        "date_label": "451년",
+        "date_precision": "year",
+        "year_start": 451,
+        "year_end": null,
+        "title": "칼케돈 공의회",
+        "summary": "그리스도의 신성과 인성에 관한 논의의 대표적 분기점이다.",
+        "source_ids": [
+          "SRC-O-001"
+        ],
+        "review_status": "DRAFT",
+        "public_visible": false,
+        "date_caution": null
+      },
+      "mapping_status": "DIRECT_TOPIC",
+      "scope": "중간 깊이의 해당 항목 직접 해설. 전수 감수·실제 앱 반영을 뜻하지 않는다.",
+      "reader_links": [
+        {
+          "reader_id": "EVENT-CHALCEDON451",
+          "role": "PRIMARY",
+          "title": "칼케돈 공의회 — 고백과 수용의 갈등"
+        }
+      ],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-E-006",
+      "category": "EVENT",
+      "title": "서방 수도원 규칙의 확산",
+      "period": "6세기",
+      "overview_summary": "수도원 공동체의 규율과 교육·사본 제작 전통이 정리된다.",
+      "overview_dataset": "data/overview/events_documents_v01.json",
+      "overview_record": {
+        "id": "OV-E-006",
+        "volume_ids": [
+          "VOL-02"
+        ],
+        "date_label": "6세기",
+        "date_precision": "period",
+        "year_start": 500,
+        "year_end": 599,
+        "title": "서방 수도원 규칙의 확산",
+        "summary": "수도원 공동체의 규율과 교육·사본 제작 전통이 정리된다.",
+        "source_ids": [
+          "SRC-O-001"
+        ],
+        "review_status": "DRAFT",
+        "public_visible": false,
+        "date_caution": "연도·기간은 근사 표기, 임의의 정확한 일자 생성 금지"
+      },
+      "mapping_status": "NO_MATCH",
+      "scope": "현재 435편 목록에서 이 개요 항목을 직접 다루는 심화 원고를 확인하지 못했다. 이름이나 시대가 비슷한 원고로 자동 대체하지 않는다.",
+      "reader_links": [],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-E-007",
+      "category": "EVENT",
+      "title": "동서 교회 분열의 역사적 과정",
+      "period": "1054년 전후",
+      "overview_summary": "1054년의 상호 파문을 상징적 분기점으로 보되 긴 분화의 과정을 함께 설명한다.",
+      "overview_dataset": "data/overview/events_documents_v01.json",
+      "overview_record": {
+        "id": "OV-E-007",
+        "volume_ids": [
+          "VOL-02"
+        ],
+        "date_label": "1054년 전후",
+        "date_precision": "approximate_period",
+        "year_start": 1000,
+        "year_end": 1099,
+        "title": "동서 교회 분열의 역사적 과정",
+        "summary": "1054년의 상호 파문을 상징적 분기점으로 보되 긴 분화의 과정을 함께 설명한다.",
+        "source_ids": [
+          "SRC-O-001"
+        ],
+        "review_status": "DRAFT",
+        "public_visible": false,
+        "date_caution": "연도·기간은 근사 표기, 임의의 정확한 일자 생성 금지"
+      },
+      "mapping_status": "DIRECT_TOPIC",
+      "scope": "중간 깊이의 해당 항목 직접 해설. 전수 감수·실제 앱 반영을 뜻하지 않는다.",
+      "reader_links": [
+        {
+          "reader_id": "EVENT-EAST_WEST_SCHISM1054",
+          "role": "PRIMARY",
+          "title": "1054년과 동서 분열 — 한 날짜보다 긴 과정"
+        }
+      ],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-E-008",
+      "category": "EVENT",
+      "title": "대학과 스콜라 신학의 성장",
+      "period": "11~13세기",
+      "overview_summary": "교회·학문·철학의 관계를 토론하는 중세 대학 전통이 발전한다.",
+      "overview_dataset": "data/overview/events_documents_v01.json",
+      "overview_record": {
+        "id": "OV-E-008",
+        "volume_ids": [
+          "VOL-02"
+        ],
+        "date_label": "11~13세기",
+        "date_precision": "period",
+        "year_start": 1000,
+        "year_end": 1299,
+        "title": "대학과 스콜라 신학의 성장",
+        "summary": "교회·학문·철학의 관계를 토론하는 중세 대학 전통이 발전한다.",
+        "source_ids": [
+          "SRC-O-021"
+        ],
+        "review_status": "DRAFT",
+        "public_visible": false,
+        "date_caution": "연도·기간은 근사 표기, 임의의 정확한 일자 생성 금지"
+      },
+      "mapping_status": "DIRECT_TOPIC",
+      "scope": "중간 깊이의 해당 항목 직접 해설. 전수 감수·실제 앱 반영을 뜻하지 않는다.",
+      "reader_links": [
+        {
+          "reader_id": "EVENT-MEDIEVAL_UNIVERSITIES",
+          "role": "PRIMARY",
+          "title": "중세 대학 — 권위 있는 책을 질문하다"
+        }
+      ],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-E-009",
+      "category": "EVENT",
+      "title": "서방 교회의 대분열",
+      "period": "1378~1417년",
+      "overview_summary": "복수 교황 주장과 권위 문제를 둘러싼 위기가 전개된다.",
+      "overview_dataset": "data/overview/events_documents_v01.json",
+      "overview_record": {
+        "id": "OV-E-009",
+        "volume_ids": [
+          "VOL-02"
+        ],
+        "date_label": "1378~1417년",
+        "date_precision": "range",
+        "year_start": 1378,
+        "year_end": 1417,
+        "title": "서방 교회의 대분열",
+        "summary": "복수 교황 주장과 권위 문제를 둘러싼 위기가 전개된다.",
+        "source_ids": [
+          "SRC-O-001"
+        ],
+        "review_status": "DRAFT",
+        "public_visible": false,
+        "date_caution": null
+      },
+      "mapping_status": "DIRECT_TOPIC",
+      "scope": "해당 인물·사건·문헌을 직접 설명하는 새 중간 수준 원고. 편집 연결이며 역사적 동일성·영향·전문가 승인 판정이 아니다.",
+      "reader_links": [
+        {
+          "reader_id": "EVENT-WESTERN_SCHISM1378",
+          "role": "PRIMARY",
+          "title": "서방 교회 대분열 — 하나의 교회에 경쟁하는 교황들"
+        },
+        {
+          "reader_id": "MEDIUM-WYCLIFFE",
+          "role": "BACKGROUND",
+          "title": "위클리프 — 교회의 권위는 무엇으로 판단하는가"
+        },
+        {
+          "reader_id": "MEDIUM-HUS",
+          "role": "BACKGROUND",
+          "title": "후스 — 설교와 교회 개혁이 보헤미아의 문제가 되다"
+        }
+      ],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-E-010",
+      "category": "EVENT",
+      "title": "리옹의 발도와 왈도파 운동",
+      "period": "12세기 후반",
+      "overview_summary": "청빈과 평신도 설교를 둘러싼 긴장이 나타난다.",
+      "overview_dataset": "data/overview/events_documents_v01.json",
+      "overview_record": {
+        "id": "OV-E-010",
+        "volume_ids": [
+          "VOL-03"
+        ],
+        "date_label": "12세기 후반",
+        "date_precision": "approximate_period",
+        "year_start": 1170,
+        "year_end": 1199,
+        "title": "리옹의 발도와 왈도파 운동",
+        "summary": "청빈과 평신도 설교를 둘러싼 긴장이 나타난다.",
+        "source_ids": [
+          "SRC-O-015"
+        ],
+        "review_status": "DRAFT",
+        "public_visible": false,
+        "date_caution": "연도·기간은 근사 표기, 임의의 정확한 일자 생성 금지"
+      },
+      "mapping_status": "DIRECT_TOPIC",
+      "scope": "해당 인물·사건·문헌을 직접 설명하는 새 중간 수준 원고. 편집 연결이며 역사적 동일성·영향·전문가 승인 판정이 아니다.",
+      "reader_links": [
+        {
+          "reader_id": "EVENT-POOR_LYON",
+          "role": "PRIMARY",
+          "title": "리옹 빈자들의 등장 — 허가와 복종의 갈림길"
+        },
+        {
+          "reader_id": "REGION-WALDENSIAN_VALLEYS",
+          "role": "BACKGROUND",
+          "title": "발도파 계곡 — 오래된 공동체와 개혁파의 만남"
+        }
+      ],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-E-011",
+      "category": "EVENT",
+      "title": "위클리프와 영어 성경 번역 운동",
+      "period": "14세기 후반",
+      "overview_summary": "성경의 영어 전승 및 권위 논쟁이 위클리프 관련 네트워크에서 확산한다.",
+      "overview_dataset": "data/overview/events_documents_v01.json",
+      "overview_record": {
+        "id": "OV-E-011",
+        "volume_ids": [
+          "VOL-03"
+        ],
+        "date_label": "14세기 후반",
+        "date_precision": "approximate_period",
+        "year_start": 1370,
+        "year_end": 1399,
+        "title": "위클리프와 영어 성경 번역 운동",
+        "summary": "성경의 영어 전승 및 권위 논쟁이 위클리프 관련 네트워크에서 확산한다.",
+        "source_ids": [
+          "SRC-O-003"
+        ],
+        "review_status": "DRAFT",
+        "public_visible": false,
+        "date_caution": "연도·기간은 근사 표기, 임의의 정확한 일자 생성 금지"
+      },
+      "mapping_status": "DIRECT_TOPIC",
+      "scope": "해당 인물·사건·문헌을 직접 설명하는 새 중간 수준 원고. 편집 연결이며 역사적 동일성·영향·전문가 승인 판정이 아니다.",
+      "reader_links": [
+        {
+          "reader_id": "DOCUMENT-WYCLIFFITE_BIBLE",
+          "role": "PRIMARY",
+          "title": "위클리프파 성경 — 한 사람의 번역이라는 통념을 넘어"
+        },
+        {
+          "reader_id": "MEDIUM-WYCLIFFE",
+          "role": "FOLLOWUP",
+          "title": "위클리프 — 교회의 권위는 무엇으로 판단하는가"
+        },
+        {
+          "reader_id": "THEME-PRINT_TRANSLATION",
+          "role": "FOLLOWUP",
+          "title": "인쇄와 번역 — 논쟁은 어떻게 사람들에게 도달했는가"
+        }
+      ],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-E-012",
+      "category": "EVENT",
+      "title": "얀 후스의 콘스탄츠 처형",
+      "period": "1415년 7월 6일",
+      "overview_summary": "공의회의 이단 판단 이후 후스가 처형되어 보헤미아 역사에 큰 영향을 주었다.",
+      "overview_dataset": "data/overview/events_documents_v01.json",
+      "overview_record": {
+        "id": "OV-E-012",
+        "volume_ids": [
+          "VOL-03"
+        ],
+        "date_label": "1415년 7월 6일",
+        "date_precision": "day",
+        "year_start": 1415,
+        "year_end": null,
+        "title": "얀 후스의 콘스탄츠 처형",
+        "summary": "공의회의 이단 판단 이후 후스가 처형되어 보헤미아 역사에 큰 영향을 주었다.",
+        "source_ids": [
+          "SRC-O-016"
+        ],
+        "review_status": "DRAFT",
+        "public_visible": false,
+        "date_caution": null
+      },
+      "mapping_status": "DIRECT_TOPIC",
+      "scope": "해당 인물·사건·문헌을 직접 설명하는 새 중간 수준 원고. 편집 연결이며 역사적 동일성·영향·전문가 승인 판정이 아니다.",
+      "reader_links": [
+        {
+          "reader_id": "EVENT-HUS_EXECUTION1415",
+          "role": "PRIMARY",
+          "title": "1415년 후스의 처형 — 공의회와 개혁자의 판단"
+        },
+        {
+          "reader_id": "MEDIUM-HUS",
+          "role": "FOLLOWUP",
+          "title": "후스 — 설교와 교회 개혁이 보헤미아의 문제가 되다"
+        }
+      ],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-E-013",
+      "category": "EVENT",
+      "title": "프라하 4개조",
+      "period": "1420년 전후",
+      "overview_summary": "설교·양형성찬·성직자 권력·공개적 죄의 교정을 둘러싼 공동 요구가 제시된다.",
+      "overview_dataset": "data/overview/events_documents_v01.json",
+      "overview_record": {
+        "id": "OV-E-013",
+        "volume_ids": [
+          "VOL-03"
+        ],
+        "date_label": "1420년 전후",
+        "date_precision": "approximate_year",
+        "year_start": 1420,
+        "year_end": null,
+        "title": "프라하 4개조",
+        "summary": "설교·양형성찬·성직자 권력·공개적 죄의 교정을 둘러싼 공동 요구가 제시된다.",
+        "source_ids": [
+          "SRC-O-017"
+        ],
+        "review_status": "DRAFT",
+        "public_visible": false,
+        "date_caution": "연도·기간은 근사 표기, 임의의 정확한 일자 생성 금지"
+      },
+      "mapping_status": "DIRECT_TOPIC",
+      "scope": "해당 인물·사건·문헌을 직접 설명하는 새 중간 수준 원고. 편집 연결이며 역사적 동일성·영향·전문가 승인 판정이 아니다.",
+      "reader_links": [
+        {
+          "reader_id": "EVENT-FOUR_ARTICLES1420",
+          "role": "PRIMARY",
+          "title": "1420년 프라하의 공동 강령 — 서로 다른 후스파를 묶다"
+        }
+      ],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-E-014",
+      "category": "EVENT",
+      "title": "바젤 콤팍타타 협상·선포",
+      "period": "1433~1436년",
+      "overview_summary": "서로 다른 합의 문안·교섭·공적 선포 단계가 이어졌다.",
+      "overview_dataset": "data/overview/events_documents_v01.json",
+      "overview_record": {
+        "id": "OV-E-014",
+        "volume_ids": [
+          "VOL-03"
+        ],
+        "date_label": "1433~1436년",
+        "date_precision": "range",
+        "year_start": 1433,
+        "year_end": 1436,
+        "title": "바젤 콤팍타타 협상·선포",
+        "summary": "서로 다른 합의 문안·교섭·공적 선포 단계가 이어졌다.",
+        "source_ids": [
+          "SRC-O-017"
+        ],
+        "review_status": "DRAFT",
+        "public_visible": false,
+        "date_caution": null
+      },
+      "mapping_status": "DIRECT_TOPIC",
+      "scope": "해당 인물·사건·문헌을 직접 설명하는 새 중간 수준 원고. 편집 연결이며 역사적 동일성·영향·전문가 승인 판정이 아니다.",
+      "reader_links": [
+        {
+          "reader_id": "EVENT-BASEL_SETTLEMENT1433_1436",
+          "role": "PRIMARY",
+          "title": "1433~1436년 바젤 협상 — 요구를 합의로 바꾸다"
+        }
+      ],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-E-015",
+      "category": "EVENT",
+      "title": "루터의 95개조 논제",
+      "period": "1517년",
+      "overview_summary": "면벌부 관행 비판이 신학과 교회 권위 논쟁으로 확산되는 계기이다.",
+      "overview_dataset": "data/overview/events_documents_v01.json",
+      "overview_record": {
+        "id": "OV-E-015",
+        "volume_ids": [
+          "VOL-04"
+        ],
+        "date_label": "1517년",
+        "date_precision": "year",
+        "year_start": 1517,
+        "year_end": null,
+        "title": "루터의 95개조 논제",
+        "summary": "면벌부 관행 비판이 신학과 교회 권위 논쟁으로 확산되는 계기이다.",
+        "source_ids": [
+          "SRC-O-004"
+        ],
+        "review_status": "DRAFT",
+        "public_visible": false,
+        "date_caution": null
+      },
+      "mapping_status": "DIRECT_TOPIC",
+      "scope": "1517년 논쟁의 사건 맥락을 먼저 읽고 논제 문헌으로 이어진다.",
+      "reader_links": [
+        {
+          "reader_id": "MEDIUM-LUTHER1517",
+          "role": "PRIMARY",
+          "title": "1517년 루터 — 면벌부 논쟁은 왜 커졌는가"
+        },
+        {
+          "reader_id": "DOCUMENT-NINETY_FIVE1517",
+          "role": "FOLLOWUP",
+          "title": "1517년 95개조 논제 — 회개와 면벌의 권한을 묻다"
+        }
+      ],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-E-016",
+      "category": "EVENT",
+      "title": "보름스 제국의회",
+      "period": "1521년",
+      "overview_summary": "루터의 저술과 제국 권위를 둘러싼 논쟁이 진행된다.",
+      "overview_dataset": "data/overview/events_documents_v01.json",
+      "overview_record": {
+        "id": "OV-E-016",
+        "volume_ids": [
+          "VOL-04"
+        ],
+        "date_label": "1521년",
+        "date_precision": "year",
+        "year_start": 1521,
+        "year_end": null,
+        "title": "보름스 제국의회",
+        "summary": "루터의 저술과 제국 권위를 둘러싼 논쟁이 진행된다.",
+        "source_ids": [
+          "SRC-O-002"
+        ],
+        "review_status": "DRAFT",
+        "public_visible": false,
+        "date_caution": null
+      },
+      "mapping_status": "DIRECT_TOPIC",
+      "scope": "1521년 심문을 중심으로 읽는다. 보름스 칙령은 후속 법적 문서다.",
+      "reader_links": [
+        {
+          "reader_id": "MEDIUM-LUTHER1521",
+          "role": "PRIMARY",
+          "title": "1521년 보름스 — 양심과 제국의 권력이 충돌하다"
+        },
+        {
+          "reader_id": "DOCUMENT-EDICT_WORMS1521",
+          "role": "FOLLOWUP",
+          "title": "1521년 보름스 칙령 — 사람과 책을 함께 겨냥한 금지"
+        }
+      ],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-E-017",
+      "category": "EVENT",
+      "title": "슐라이트하임 신앙고백",
+      "period": "1527년",
+      "overview_summary": "일부 재세례파 공동체의 교회·세례·윤리 입장이 문서화된다.",
+      "overview_dataset": "data/overview/events_documents_v01.json",
+      "overview_record": {
+        "id": "OV-E-017",
+        "volume_ids": [
+          "VOL-04"
+        ],
+        "date_label": "1527년",
+        "date_precision": "year",
+        "year_start": 1527,
+        "year_end": null,
+        "title": "슐라이트하임 신앙고백",
+        "summary": "일부 재세례파 공동체의 교회·세례·윤리 입장이 문서화된다.",
+        "source_ids": [
+          "SRC-O-005"
+        ],
+        "review_status": "DRAFT",
+        "public_visible": false,
+        "date_caution": null
+      },
+      "mapping_status": "PARTIAL_COVERAGE",
+      "scope": "1527년 조항의 설명을 제공한다. 문헌 해설이 회의의 전 과정을 복원한 기록은 아니다.",
+      "reader_links": [
+        {
+          "reader_id": "DOCUMENT-SCHLEITHEIM",
+          "role": "PRIMARY",
+          "title": "1527년 슐라이트하임 조항 — 함께 살아갈 신앙의 경계를 정하다"
+        }
+      ],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-E-018",
+      "category": "EVENT",
+      "title": "마르부르크 회담",
+      "period": "1529년",
+      "overview_summary": "루터와 츠빙글리 측이 성찬 이해 등을 논의했으나 중요한 차이가 남았다.",
+      "overview_dataset": "data/overview/events_documents_v01.json",
+      "overview_record": {
+        "id": "OV-E-018",
+        "volume_ids": [
+          "VOL-04"
+        ],
+        "date_label": "1529년",
+        "date_precision": "year",
+        "year_start": 1529,
+        "year_end": null,
+        "title": "마르부르크 회담",
+        "summary": "루터와 츠빙글리 측이 성찬 이해 등을 논의했으나 중요한 차이가 남았다.",
+        "source_ids": [
+          "SRC-O-005"
+        ],
+        "review_status": "DRAFT",
+        "public_visible": false,
+        "date_caution": null
+      },
+      "mapping_status": "DIRECT_TOPIC",
+      "scope": "1529년 성찬 회담과 공통 신앙·미합의의 문제를 다룬다.",
+      "reader_links": [
+        {
+          "reader_id": "MEDIUM-MARBURG",
+          "role": "PRIMARY",
+          "title": "마르부르크 회담 — 같은 개혁 진영이 왜 하나가 되지 못했는가"
+        },
+        {
+          "reader_id": "THEME-COMMUNION",
+          "role": "FOLLOWUP",
+          "title": "성찬 — 같은 식탁을 두고 왜 다른 설명이 나왔는가"
+        }
+      ],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-E-019",
+      "category": "EVENT",
+      "title": "아우크스부르크 신앙고백 제출",
+      "period": "1530년",
+      "overview_summary": "멜란히톤이 중심적으로 정리한 루터파 신앙의 공적 표명이다.",
+      "overview_dataset": "data/overview/events_documents_v01.json",
+      "overview_record": {
+        "id": "OV-E-019",
+        "volume_ids": [
+          "VOL-04"
+        ],
+        "date_label": "1530년",
+        "date_precision": "year",
+        "year_start": 1530,
+        "year_end": null,
+        "title": "아우크스부르크 신앙고백 제출",
+        "summary": "멜란히톤이 중심적으로 정리한 루터파 신앙의 공적 표명이다.",
+        "source_ids": [
+          "SRC-O-002"
+        ],
+        "review_status": "DRAFT",
+        "public_visible": false,
+        "date_caution": null
+      },
+      "mapping_status": "DIRECT_TOPIC",
+      "scope": "1530년 신앙고백 제출을 연결한다. 1555년 종교평화는 다른 사건이므로 연결하지 않는다.",
+      "reader_links": [
+        {
+          "reader_id": "MEDIUM-AUGSBURG",
+          "role": "PRIMARY",
+          "title": "아우크스부르크 신앙고백 — 개혁의 신앙을 공적으로 설명하다"
+        }
+      ],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-E-020",
+      "category": "EVENT",
+      "title": "칼뱅 『기독교강요』 초판",
+      "period": "1536년",
+      "overview_summary": "개혁파 신학을 체계적으로 설명하는 저작이 출판된다.",
+      "overview_dataset": "data/overview/events_documents_v01.json",
+      "overview_record": {
+        "id": "OV-E-020",
+        "volume_ids": [
+          "VOL-04"
+        ],
+        "date_label": "1536년",
+        "date_precision": "year",
+        "year_start": 1536,
+        "year_end": null,
+        "title": "칼뱅 『기독교강요』 초판",
+        "summary": "개혁파 신학을 체계적으로 설명하는 저작이 출판된다.",
+        "source_ids": [
+          "SRC-O-013"
+        ],
+        "review_status": "DRAFT",
+        "public_visible": false,
+        "date_caution": null
+      },
+      "mapping_status": "DIRECT_TOPIC",
+      "scope": "1536년 초판 사건만 연결한다. 1559년 최종판으로 자동 대체하지 않는다.",
+      "reader_links": [
+        {
+          "reader_id": "MEDIUM-CALVIN1536",
+          "role": "PRIMARY",
+          "title": "1536년 『기독교강요』 — 가르침과 변호를 위한 작은 책"
+        }
+      ],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-E-021",
+      "category": "EVENT",
+      "title": "트리엔트 공의회",
+      "period": "1545~1563년",
+      "overview_summary": "가톨릭 교리·예전·성직 규율과 개혁을 다룬 장기 공의회이다.",
+      "overview_dataset": "data/overview/events_documents_v01.json",
+      "overview_record": {
+        "id": "OV-E-021",
+        "volume_ids": [
+          "VOL-05"
+        ],
+        "date_label": "1545~1563년",
+        "date_precision": "range",
+        "year_start": 1545,
+        "year_end": 1563,
+        "title": "트리엔트 공의회",
+        "summary": "가톨릭 교리·예전·성직 규율과 개혁을 다룬 장기 공의회이다.",
+        "source_ids": [
+          "SRC-O-021"
+        ],
+        "review_status": "DRAFT",
+        "public_visible": false,
+        "date_caution": null
+      },
+      "mapping_status": "DIRECT_TOPIC",
+      "scope": "1545~1563년 공의회의 개관을 연결한다. 모든 회기의 문장을 직접 읽었다는 뜻은 아니다.",
+      "reader_links": [
+        {
+          "reader_id": "MEDIUM-TRENT",
+          "role": "PRIMARY",
+          "title": "트리엔트 공의회 — 가톨릭교회는 어떻게 개혁했는가"
+        }
+      ],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-E-022",
+      "category": "EVENT",
+      "title": "아우크스부르크 화의",
+      "period": "1555년",
+      "overview_summary": "제국의 일부 지역에서 종교와 통치권의 관계를 재조정했다.",
+      "overview_dataset": "data/overview/events_documents_v01.json",
+      "overview_record": {
+        "id": "OV-E-022",
+        "volume_ids": [
+          "VOL-05"
+        ],
+        "date_label": "1555년",
+        "date_precision": "year",
+        "year_start": 1555,
+        "year_end": null,
+        "title": "아우크스부르크 화의",
+        "summary": "제국의 일부 지역에서 종교와 통치권의 관계를 재조정했다.",
+        "source_ids": [
+          "SRC-O-005"
+        ],
+        "review_status": "DRAFT",
+        "public_visible": false,
+        "date_caution": null
+      },
+      "mapping_status": "DIRECT_TOPIC",
+      "scope": "1555년 화의의 사건·정치적 의미와 문헌 설명을 연결한다. 1530년 신앙고백과 다르다.",
+      "reader_links": [
+        {
+          "reader_id": "THEME-AUGSBURG_PEACE",
+          "role": "PRIMARY",
+          "title": "1555년 아우크스부르크 화의 — 일치하지 못해도 싸움을 멈출 수 있는가"
+        },
+        {
+          "reader_id": "DOCUMENT-AUGSBURG_PEACE1555",
+          "role": "FOLLOWUP",
+          "title": "1555년 종교평화 문서 — 인정한 신앙과 제외한 집단"
+        }
+      ],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-E-023",
+      "category": "EVENT",
+      "title": "30년 전쟁",
+      "period": "1618~1648년",
+      "overview_summary": "종교·정치·왕조적 요인이 복합적으로 작용한 유럽의 장기 전쟁이다.",
+      "overview_dataset": "data/overview/events_documents_v01.json",
+      "overview_record": {
+        "id": "OV-E-023",
+        "volume_ids": [
+          "VOL-05"
+        ],
+        "date_label": "1618~1648년",
+        "date_precision": "range",
+        "year_start": 1618,
+        "year_end": 1648,
+        "title": "30년 전쟁",
+        "summary": "종교·정치·왕조적 요인이 복합적으로 작용한 유럽의 장기 전쟁이다.",
+        "source_ids": [
+          "SRC-O-005"
+        ],
+        "review_status": "DRAFT",
+        "public_visible": false,
+        "date_caution": null
+      },
+      "mapping_status": "DIRECT_TOPIC",
+      "scope": "30년전쟁 개관을 연결하되 마지막 절은 1648년 화약도 함께 다룬다는 범위를 표시한다.",
+      "reader_links": [
+        {
+          "reader_id": "THEME-WAR_WESTPHALIA",
+          "role": "PRIMARY",
+          "title": "30년전쟁과 베스트팔렌 평화 — 종교적 차이를 다루는 질서를 다시 만들다"
+        },
+        {
+          "reader_id": "EVENT-BOHEMIAN_REVOLT1618",
+          "role": "FOLLOWUP",
+          "title": "1618년 보헤미아 반란 — 종교 보장과 통치권의 충돌"
+        },
+        {
+          "reader_id": "EVENT-PEACE_PRAGUE1635",
+          "role": "FOLLOWUP",
+          "title": "1635년 프라하 화약 — 제국 내부의 타협이 전쟁을 끝내지 못한 이유"
+        }
+      ],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-E-024",
+      "category": "EVENT",
+      "title": "베스트팔렌 조약",
+      "period": "1648년",
+      "overview_summary": "여러 정치 주체 간 평화 합의로 중부유럽의 질서가 재편되었다.",
+      "overview_dataset": "data/overview/events_documents_v01.json",
+      "overview_record": {
+        "id": "OV-E-024",
+        "volume_ids": [
+          "VOL-05"
+        ],
+        "date_label": "1648년",
+        "date_precision": "year",
+        "year_start": 1648,
+        "year_end": null,
+        "title": "베스트팔렌 조약",
+        "summary": "여러 정치 주체 간 평화 합의로 중부유럽의 질서가 재편되었다.",
+        "source_ids": [
+          "SRC-O-005"
+        ],
+        "review_status": "DRAFT",
+        "public_visible": false,
+        "date_caution": null
+      },
+      "mapping_status": "PARTIAL_COVERAGE",
+      "scope": "전쟁 개관의 1648년 화약 절을 제공한다. 개별 조약 체결 과정과 모든 조항의 독립 해설은 아니다.",
+      "reader_links": [
+        {
+          "reader_id": "THEME-WAR_WESTPHALIA",
+          "role": "PRIMARY",
+          "title": "30년전쟁과 베스트팔렌 평화 — 종교적 차이를 다루는 질서를 다시 만들다"
+        }
+      ],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-E-025",
+      "category": "EVENT",
+      "title": "『경건한 열망』 출간",
+      "period": "1675년",
+      "overview_summary": "슈페너의 저작이 경건주의 운동의 대표적 출발 문헌이 되었다.",
+      "overview_dataset": "data/overview/events_documents_v01.json",
+      "overview_record": {
+        "id": "OV-E-025",
+        "volume_ids": [
+          "VOL-06"
+        ],
+        "date_label": "1675년",
+        "date_precision": "year",
+        "year_start": 1675,
+        "year_end": null,
+        "title": "『경건한 열망』 출간",
+        "summary": "슈페너의 저작이 경건주의 운동의 대표적 출발 문헌이 되었다.",
+        "source_ids": [
+          "SRC-O-006"
+        ],
+        "review_status": "DRAFT",
+        "public_visible": false,
+        "date_caution": null
+      },
+      "mapping_status": "NO_MATCH",
+      "scope": "현재 435편 목록에서 이 개요 항목을 직접 다루는 심화 원고를 확인하지 못했다. 이름이나 시대가 비슷한 원고로 자동 대체하지 않는다.",
+      "reader_links": [],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-E-026",
+      "category": "EVENT",
+      "title": "영미 부흥 및 대각성",
+      "period": "1730~1740년대",
+      "overview_summary": "영국·북미에서 복음주의 설교와 공동체 쇄신 운동이 확산된다.",
+      "overview_dataset": "data/overview/events_documents_v01.json",
+      "overview_record": {
+        "id": "OV-E-026",
+        "volume_ids": [
+          "VOL-06"
+        ],
+        "date_label": "1730~1740년대",
+        "date_precision": "approximate_period",
+        "year_start": 1730,
+        "year_end": 1749,
+        "title": "영미 부흥 및 대각성",
+        "summary": "영국·북미에서 복음주의 설교와 공동체 쇄신 운동이 확산된다.",
+        "source_ids": [
+          "SRC-O-014"
+        ],
+        "review_status": "DRAFT",
+        "public_visible": false,
+        "date_caution": "연도·기간은 근사 표기, 임의의 정확한 일자 생성 금지"
+      },
+      "mapping_status": "NO_MATCH",
+      "scope": "현재 435편 목록에서 이 개요 항목을 직접 다루는 심화 원고를 확인하지 못했다. 이름이나 시대가 비슷한 원고로 자동 대체하지 않는다.",
+      "reader_links": [],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-E-027",
+      "category": "EVENT",
+      "title": "감리교 운동의 성장",
+      "period": "18세기 중엽",
+      "overview_summary": "웨슬리 형제를 포함한 다양한 설교자와 모임이 참여했다.",
+      "overview_dataset": "data/overview/events_documents_v01.json",
+      "overview_record": {
+        "id": "OV-E-027",
+        "volume_ids": [
+          "VOL-06"
+        ],
+        "date_label": "18세기 중엽",
+        "date_precision": "approximate_period",
+        "year_start": 1740,
+        "year_end": 1760,
+        "title": "감리교 운동의 성장",
+        "summary": "웨슬리 형제를 포함한 다양한 설교자와 모임이 참여했다.",
+        "source_ids": [
+          "SRC-O-006"
+        ],
+        "review_status": "DRAFT",
+        "public_visible": false,
+        "date_caution": "연도·기간은 근사 표기, 임의의 정확한 일자 생성 금지"
+      },
+      "mapping_status": "NO_MATCH",
+      "scope": "현재 435편 목록에서 이 개요 항목을 직접 다루는 심화 원고를 확인하지 못했다. 이름이나 시대가 비슷한 원고로 자동 대체하지 않는다.",
+      "reader_links": [],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-E-028",
+      "category": "EVENT",
+      "title": "침례교선교회 조직",
+      "period": "1792년",
+      "overview_summary": "영국 침례교도들의 근대 해외선교 조직화에 주요 계기가 된다.",
+      "overview_dataset": "data/overview/events_documents_v01.json",
+      "overview_record": {
+        "id": "OV-E-028",
+        "volume_ids": [
+          "VOL-06"
+        ],
+        "date_label": "1792년",
+        "date_precision": "year",
+        "year_start": 1792,
+        "year_end": null,
+        "title": "침례교선교회 조직",
+        "summary": "영국 침례교도들의 근대 해외선교 조직화에 주요 계기가 된다.",
+        "source_ids": [
+          "SRC-O-006"
+        ],
+        "review_status": "DRAFT",
+        "public_visible": false,
+        "date_caution": null
+      },
+      "mapping_status": "NO_MATCH",
+      "scope": "현재 435편 목록에서 이 개요 항목을 직접 다루는 심화 원고를 확인하지 못했다. 이름이나 시대가 비슷한 원고로 자동 대체하지 않는다.",
+      "reader_links": [],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-E-029",
+      "category": "EVENT",
+      "title": "이승훈의 세례와 조선 천주교 공동체 형성",
+      "period": "1784년",
+      "overview_summary": "서학 학습을 바탕으로 한국인들의 초기 신앙 공동체가 성장한다.",
+      "overview_dataset": "data/overview/events_documents_v01.json",
+      "overview_record": {
+        "id": "OV-E-029",
+        "volume_ids": [
+          "VOL-07"
+        ],
+        "date_label": "1784년",
+        "date_precision": "year",
+        "year_start": 1784,
+        "year_end": null,
+        "title": "이승훈의 세례와 조선 천주교 공동체 형성",
+        "summary": "서학 학습을 바탕으로 한국인들의 초기 신앙 공동체가 성장한다.",
+        "source_ids": [
+          "SRC-O-008"
+        ],
+        "review_status": "DRAFT",
+        "public_visible": false,
+        "date_caution": null
+      },
+      "mapping_status": "NO_MATCH",
+      "scope": "현재 435편 목록에서 이 개요 항목을 직접 다루는 심화 원고를 확인하지 못했다. 이름이나 시대가 비슷한 원고로 자동 대체하지 않는다.",
+      "reader_links": [],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-E-030",
+      "category": "EVENT",
+      "title": "한글 성경 번역과 한국인 초기 개신교 공동체",
+      "period": "1880년대 초",
+      "overview_summary": "만주·일본 등지에서 한국인 신자의 번역·전도가 해외 선교사 입국보다 앞서 전개됐다.",
+      "overview_dataset": "data/overview/events_documents_v01.json",
+      "overview_record": {
+        "id": "OV-E-030",
+        "volume_ids": [
+          "VOL-07"
+        ],
+        "date_label": "1880년대 초",
+        "date_precision": "approximate_period",
+        "year_start": 1880,
+        "year_end": 1889,
+        "title": "한글 성경 번역과 한국인 초기 개신교 공동체",
+        "summary": "만주·일본 등지에서 한국인 신자의 번역·전도가 해외 선교사 입국보다 앞서 전개됐다.",
+        "source_ids": [
+          "SRC-O-009"
+        ],
+        "review_status": "DRAFT",
+        "public_visible": false,
+        "date_caution": "연도·기간은 근사 표기, 임의의 정확한 일자 생성 금지"
+      },
+      "mapping_status": "NO_MATCH",
+      "scope": "현재 435편 목록에서 이 개요 항목을 직접 다루는 심화 원고를 확인하지 못했다. 이름이나 시대가 비슷한 원고로 자동 대체하지 않는다.",
+      "reader_links": [],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-E-031",
+      "category": "EVENT",
+      "title": "앨런의 조선 입국",
+      "period": "1884년",
+      "overview_summary": "의료 분야와 연결되는 장기 거주 개신교 선교의 중요한 분기점이다.",
+      "overview_dataset": "data/overview/events_documents_v01.json",
+      "overview_record": {
+        "id": "OV-E-031",
+        "volume_ids": [
+          "VOL-07"
+        ],
+        "date_label": "1884년",
+        "date_precision": "year",
+        "year_start": 1884,
+        "year_end": null,
+        "title": "앨런의 조선 입국",
+        "summary": "의료 분야와 연결되는 장기 거주 개신교 선교의 중요한 분기점이다.",
+        "source_ids": [
+          "SRC-O-019"
+        ],
+        "review_status": "DRAFT",
+        "public_visible": false,
+        "date_caution": null
+      },
+      "mapping_status": "NO_MATCH",
+      "scope": "현재 435편 목록에서 이 개요 항목을 직접 다루는 심화 원고를 확인하지 못했다. 이름이나 시대가 비슷한 원고로 자동 대체하지 않는다.",
+      "reader_links": [],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-E-032",
+      "category": "EVENT",
+      "title": "언더우드·아펜젤러 등의 조선 입국",
+      "period": "1885년",
+      "overview_summary": "교육·의료·교회 활동과 결합한 선교의 확장에 영향을 주었다.",
+      "overview_dataset": "data/overview/events_documents_v01.json",
+      "overview_record": {
+        "id": "OV-E-032",
+        "volume_ids": [
+          "VOL-07"
+        ],
+        "date_label": "1885년",
+        "date_precision": "year",
+        "year_start": 1885,
+        "year_end": null,
+        "title": "언더우드·아펜젤러 등의 조선 입국",
+        "summary": "교육·의료·교회 활동과 결합한 선교의 확장에 영향을 주었다.",
+        "source_ids": [
+          "SRC-O-010"
+        ],
+        "review_status": "DRAFT",
+        "public_visible": false,
+        "date_caution": null
+      },
+      "mapping_status": "NO_MATCH",
+      "scope": "현재 435편 목록에서 이 개요 항목을 직접 다루는 심화 원고를 확인하지 못했다. 이름이나 시대가 비슷한 원고로 자동 대체하지 않는다.",
+      "reader_links": [],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-E-033",
+      "category": "EVENT",
+      "title": "평양 대부흥",
+      "period": "1907년",
+      "overview_summary": "한국 개신교 공동체의 종교적 생활에 큰 영향을 끼친 부흥운동이다.",
+      "overview_dataset": "data/overview/events_documents_v01.json",
+      "overview_record": {
+        "id": "OV-E-033",
+        "volume_ids": [
+          "VOL-07"
+        ],
+        "date_label": "1907년",
+        "date_precision": "year",
+        "year_start": 1907,
+        "year_end": null,
+        "title": "평양 대부흥",
+        "summary": "한국 개신교 공동체의 종교적 생활에 큰 영향을 끼친 부흥운동이다.",
+        "source_ids": [
+          "SRC-O-020"
+        ],
+        "review_status": "DRAFT",
+        "public_visible": false,
+        "date_caution": null
+      },
+      "mapping_status": "NO_MATCH",
+      "scope": "현재 435편 목록에서 이 개요 항목을 직접 다루는 심화 원고를 확인하지 못했다. 이름이나 시대가 비슷한 원고로 자동 대체하지 않는다.",
+      "reader_links": [],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-E-034",
+      "category": "EVENT",
+      "title": "세계교회협의회(WCC) 창립",
+      "period": "1948년 8월 23일",
+      "overview_summary": "암스테르담 총회에서 세계적 에큐메니컬 기구가 공식 창립되었다.",
+      "overview_dataset": "data/overview/events_documents_v01.json",
+      "overview_record": {
+        "id": "OV-E-034",
+        "volume_ids": [
+          "VOL-07"
+        ],
+        "date_label": "1948년 8월 23일",
+        "date_precision": "day",
+        "year_start": 1948,
+        "year_end": null,
+        "title": "세계교회협의회(WCC) 창립",
+        "summary": "암스테르담 총회에서 세계적 에큐메니컬 기구가 공식 창립되었다.",
+        "source_ids": [
+          "SRC-O-012"
+        ],
+        "review_status": "DRAFT",
+        "public_visible": false,
+        "date_caution": null
+      },
+      "mapping_status": "NO_MATCH",
+      "scope": "현재 435편 목록에서 이 개요 항목을 직접 다루는 심화 원고를 확인하지 못했다. 이름이나 시대가 비슷한 원고로 자동 대체하지 않는다.",
+      "reader_links": [],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-D-001",
+      "category": "DOCUMENT",
+      "title": "『디다케』",
+      "period": "1~2세기 추정",
+      "overview_summary": "초기 공동체의 교육과 생활 지침을 보여주는 문헌",
+      "overview_dataset": "data/overview/events_documents_v01.json",
+      "overview_record": {
+        "id": "OV-D-001",
+        "volume_ids": [
+          "VOL-01"
+        ],
+        "title": "『디다케』",
+        "original_title": "Didache",
+        "period": "1~2세기 추정",
+        "summary": "초기 공동체의 교육과 생활 지침을 보여주는 문헌",
+        "source_ids": [
+          "SRC-O-001"
+        ],
+        "witness_level": "INTRODUCTORY_DESCRIPTION_ONLY",
+        "review_status": "DRAFT",
+        "public_visible": false,
+        "full_text_included": false
+      },
+      "mapping_status": "DIRECT_TOPIC",
+      "scope": "중간 깊이의 해당 항목 직접 해설. 전수 감수·실제 앱 반영을 뜻하지 않는다.",
+      "reader_links": [
+        {
+          "reader_id": "DOCUMENT-DIDACHE",
+          "role": "PRIMARY",
+          "title": "『디다케』 — 신앙과 생활의 규칙"
+        }
+      ],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-D-002",
+      "category": "DOCUMENT",
+      "title": "니케아 신앙고백",
+      "period": "325년; 후대 개정 전승 구별",
+      "overview_summary": "그리스도론·신앙고백 역사의 핵심 문안",
+      "overview_dataset": "data/overview/events_documents_v01.json",
+      "overview_record": {
+        "id": "OV-D-002",
+        "volume_ids": [
+          "VOL-01"
+        ],
+        "title": "니케아 신앙고백",
+        "original_title": "Nicene Creed",
+        "period": "325년; 후대 개정 전승 구별",
+        "summary": "그리스도론·신앙고백 역사의 핵심 문안",
+        "source_ids": [
+          "SRC-O-001"
+        ],
+        "witness_level": "INTRODUCTORY_DESCRIPTION_ONLY",
+        "review_status": "DRAFT",
+        "public_visible": false,
+        "full_text_included": false
+      },
+      "mapping_status": "DIRECT_TOPIC",
+      "scope": "중간 깊이의 해당 항목 직접 해설. 전수 감수·실제 앱 반영을 뜻하지 않는다.",
+      "reader_links": [
+        {
+          "reader_id": "DOCUMENT-NICENE_CREED325",
+          "role": "PRIMARY",
+          "title": "325년 니케아 신앙고백 — 이름과 본문"
+        }
+      ],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-D-003",
+      "category": "DOCUMENT",
+      "title": "『베네딕투스 규칙』",
+      "period": "6세기",
+      "overview_summary": "서방 수도원 공동체 질서에 관한 대표 문헌",
+      "overview_dataset": "data/overview/events_documents_v01.json",
+      "overview_record": {
+        "id": "OV-D-003",
+        "volume_ids": [
+          "VOL-02"
+        ],
+        "title": "『베네딕투스 규칙』",
+        "original_title": "Rule of Saint Benedict",
+        "period": "6세기",
+        "summary": "서방 수도원 공동체 질서에 관한 대표 문헌",
+        "source_ids": [
+          "SRC-O-001"
+        ],
+        "witness_level": "INTRODUCTORY_DESCRIPTION_ONLY",
+        "review_status": "DRAFT",
+        "public_visible": false,
+        "full_text_included": false
+      },
+      "mapping_status": "DIRECT_TOPIC",
+      "scope": "중간 깊이의 해당 항목 직접 해설. 전수 감수·실제 앱 반영을 뜻하지 않는다.",
+      "reader_links": [
+        {
+          "reader_id": "DOCUMENT-RULE_BENEDICT",
+          "role": "PRIMARY",
+          "title": "『베네딕투스 규칙』 — 권위와 일상의 조정"
+        }
+      ],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-D-004",
+      "category": "DOCUMENT",
+      "title": "『신학대전』",
+      "period": "13세기",
+      "overview_summary": "아퀴나스의 신학·철학 체계",
+      "overview_dataset": "data/overview/events_documents_v01.json",
+      "overview_record": {
+        "id": "OV-D-004",
+        "volume_ids": [
+          "VOL-02"
+        ],
+        "title": "『신학대전』",
+        "original_title": "Summa Theologiae",
+        "period": "13세기",
+        "summary": "아퀴나스의 신학·철학 체계",
+        "source_ids": [
+          "SRC-O-021"
+        ],
+        "witness_level": "INTRODUCTORY_DESCRIPTION_ONLY",
+        "review_status": "DRAFT",
+        "public_visible": false,
+        "full_text_included": false
+      },
+      "mapping_status": "DIRECT_TOPIC",
+      "scope": "중간 깊이의 해당 항목 직접 해설. 전수 감수·실제 앱 반영을 뜻하지 않는다.",
+      "reader_links": [
+        {
+          "reader_id": "DOCUMENT-SUMMA_THEOLOGIAE",
+          "role": "PRIMARY",
+          "title": "『신학대전』 — 반론을 거쳐 배우다"
+        }
+      ],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-D-005",
+      "category": "DOCUMENT",
+      "title": "『교회론』",
+      "period": "1413년",
+      "overview_summary": "후스의 교회 이해와 권위를 둘러싼 논쟁을 보여준다",
+      "overview_dataset": "data/overview/events_documents_v01.json",
+      "overview_record": {
+        "id": "OV-D-005",
+        "volume_ids": [
+          "VOL-03"
+        ],
+        "title": "『교회론』",
+        "original_title": "De ecclesia",
+        "period": "1413년",
+        "summary": "후스의 교회 이해와 권위를 둘러싼 논쟁을 보여준다",
+        "source_ids": [
+          "SRC-O-016"
+        ],
+        "witness_level": "INTRODUCTORY_DESCRIPTION_ONLY",
+        "review_status": "DRAFT",
+        "public_visible": false,
+        "full_text_included": false
+      },
+      "mapping_status": "DIRECT_TOPIC",
+      "scope": "해당 인물·사건·문헌을 직접 설명하는 새 중간 수준 원고. 편집 연결이며 역사적 동일성·영향·전문가 승인 판정이 아니다.",
+      "reader_links": [
+        {
+          "reader_id": "DOCUMENT-HUS_DE_ECCLESIA1413",
+          "role": "PRIMARY",
+          "title": "후스의 『교회론』 — 1413년의 권위 논쟁"
+        },
+        {
+          "reader_id": "MEDIUM-HUS",
+          "role": "FOLLOWUP",
+          "title": "후스 — 설교와 교회 개혁이 보헤미아의 문제가 되다"
+        }
+      ],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-D-006",
+      "category": "DOCUMENT",
+      "title": "프라하 4개조",
+      "period": "1420년 전후",
+      "overview_summary": "보헤미아 후스파의 공동 요구를 제시한 문안",
+      "overview_dataset": "data/overview/events_documents_v01.json",
+      "overview_record": {
+        "id": "OV-D-006",
+        "volume_ids": [
+          "VOL-03"
+        ],
+        "title": "프라하 4개조",
+        "original_title": "Four Articles of Prague",
+        "period": "1420년 전후",
+        "summary": "보헤미아 후스파의 공동 요구를 제시한 문안",
+        "source_ids": [
+          "SRC-O-017"
+        ],
+        "witness_level": "INTRODUCTORY_DESCRIPTION_ONLY",
+        "review_status": "DRAFT",
+        "public_visible": false,
+        "full_text_included": false
+      },
+      "mapping_status": "DIRECT_TOPIC",
+      "scope": "해당 인물·사건·문헌을 직접 설명하는 새 중간 수준 원고. 편집 연결이며 역사적 동일성·영향·전문가 승인 판정이 아니다.",
+      "reader_links": [
+        {
+          "reader_id": "DOCUMENT-FOUR_ARTICLES1420",
+          "role": "PRIMARY",
+          "title": "프라하 4개 조항 — 공동 강령의 네 요구"
+        }
+      ],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-D-007",
+      "category": "DOCUMENT",
+      "title": "바젤 콤팍타타",
+      "period": "1433~1436년 협의와 선포 구별",
+      "overview_summary": "양형성찬과 보헤미아 관계에 관한 복합 문서군",
+      "overview_dataset": "data/overview/events_documents_v01.json",
+      "overview_record": {
+        "id": "OV-D-007",
+        "volume_ids": [
+          "VOL-03"
+        ],
+        "title": "바젤 콤팍타타",
+        "original_title": "Basel Compactata",
+        "period": "1433~1436년 협의와 선포 구별",
+        "summary": "양형성찬과 보헤미아 관계에 관한 복합 문서군",
+        "source_ids": [
+          "SRC-O-017"
+        ],
+        "witness_level": "INTRODUCTORY_DESCRIPTION_ONLY",
+        "review_status": "DRAFT",
+        "public_visible": false,
+        "full_text_included": false
+      },
+      "mapping_status": "DIRECT_TOPIC",
+      "scope": "해당 인물·사건·문헌을 직접 설명하는 새 중간 수준 원고. 편집 연결이며 역사적 동일성·영향·전문가 승인 판정이 아니다.",
+      "reader_links": [
+        {
+          "reader_id": "DOCUMENT-BASEL_COMPACTATA",
+          "role": "PRIMARY",
+          "title": "바젤 협약 — 성찬의 허용과 교회 일치의 조건"
+        }
+      ],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-D-008",
+      "category": "DOCUMENT",
+      "title": "95개조 논제",
+      "period": "1517년",
+      "overview_summary": "면벌부의 관행을 둘러싼 논쟁용 논제",
+      "overview_dataset": "data/overview/events_documents_v01.json",
+      "overview_record": {
+        "id": "OV-D-008",
+        "volume_ids": [
+          "VOL-04"
+        ],
+        "title": "95개조 논제",
+        "original_title": "Ninety-Five Theses",
+        "period": "1517년",
+        "summary": "면벌부의 관행을 둘러싼 논쟁용 논제",
+        "source_ids": [
+          "SRC-O-004"
+        ],
+        "witness_level": "INTRODUCTORY_DESCRIPTION_ONLY",
+        "review_status": "DRAFT",
+        "public_visible": false,
+        "full_text_included": false
+      },
+      "mapping_status": "DIRECT_TOPIC",
+      "scope": "1517년 논제 문헌을 직접 다루는 해설로 연결한다.",
+      "reader_links": [
+        {
+          "reader_id": "DOCUMENT-NINETY_FIVE1517",
+          "role": "PRIMARY",
+          "title": "1517년 95개조 논제 — 회개와 면벌의 권한을 묻다"
+        },
+        {
+          "reader_id": "MEDIUM-LUTHER1517",
+          "role": "FOLLOWUP",
+          "title": "1517년 루터 — 면벌부 논쟁은 왜 커졌는가"
+        }
+      ],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-D-009",
+      "category": "DOCUMENT",
+      "title": "『그리스도인의 자유』",
+      "period": "1520년",
+      "overview_summary": "신앙과 그리스도인의 자유를 다룬 루터의 저술",
+      "overview_dataset": "data/overview/events_documents_v01.json",
+      "overview_record": {
+        "id": "OV-D-009",
+        "volume_ids": [
+          "VOL-04"
+        ],
+        "title": "『그리스도인의 자유』",
+        "original_title": "On the Freedom of a Christian",
+        "period": "1520년",
+        "summary": "신앙과 그리스도인의 자유를 다룬 루터의 저술",
+        "source_ids": [
+          "SRC-O-002"
+        ],
+        "witness_level": "INTRODUCTORY_DESCRIPTION_ONLY",
+        "review_status": "DRAFT",
+        "public_visible": false,
+        "full_text_included": false
+      },
+      "mapping_status": "DIRECT_TOPIC",
+      "scope": "1520년 루터의 해당 저술을 설명한다.",
+      "reader_links": [
+        {
+          "reader_id": "DOCUMENT-CHRISTIAN_FREEDOM",
+          "role": "PRIMARY",
+          "title": "1520년 그리스도인의 자유 — 믿음의 자유와 이웃을 위한 섬김"
+        }
+      ],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-D-010",
+      "category": "DOCUMENT",
+      "title": "슐라이트하임 신앙고백",
+      "period": "1527년",
+      "overview_summary": "일부 재세례파 공동체의 신앙과 공동체 규율",
+      "overview_dataset": "data/overview/events_documents_v01.json",
+      "overview_record": {
+        "id": "OV-D-010",
+        "volume_ids": [
+          "VOL-04"
+        ],
+        "title": "슐라이트하임 신앙고백",
+        "original_title": "Schleitheim Confession",
+        "period": "1527년",
+        "summary": "일부 재세례파 공동체의 신앙과 공동체 규율",
+        "source_ids": [
+          "SRC-O-005"
+        ],
+        "witness_level": "INTRODUCTORY_DESCRIPTION_ONLY",
+        "review_status": "DRAFT",
+        "public_visible": false,
+        "full_text_included": false
+      },
+      "mapping_status": "DIRECT_TOPIC",
+      "scope": "슐라이트하임 조항의 내용과 공동체 기준을 설명한다.",
+      "reader_links": [
+        {
+          "reader_id": "DOCUMENT-SCHLEITHEIM",
+          "role": "PRIMARY",
+          "title": "1527년 슐라이트하임 조항 — 함께 살아갈 신앙의 경계를 정하다"
+        }
+      ],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-D-011",
+      "category": "DOCUMENT",
+      "title": "아우크스부르크 신앙고백",
+      "period": "1530년",
+      "overview_summary": "루터파 신앙을 공적으로 정리한 신앙고백",
+      "overview_dataset": "data/overview/events_documents_v01.json",
+      "overview_record": {
+        "id": "OV-D-011",
+        "volume_ids": [
+          "VOL-04"
+        ],
+        "title": "아우크스부르크 신앙고백",
+        "original_title": "Augsburg Confession",
+        "period": "1530년",
+        "summary": "루터파 신앙을 공적으로 정리한 신앙고백",
+        "source_ids": [
+          "SRC-O-002"
+        ],
+        "witness_level": "INTRODUCTORY_DESCRIPTION_ONLY",
+        "review_status": "DRAFT",
+        "public_visible": false,
+        "full_text_included": false
+      },
+      "mapping_status": "DIRECT_TOPIC",
+      "scope": "1530년 신앙고백과 후속 판본의 구분을 읽는다. 1555년 화의 문헌과 합치지 않는다.",
+      "reader_links": [
+        {
+          "reader_id": "MEDIUM-AUGSBURG",
+          "role": "PRIMARY",
+          "title": "아우크스부르크 신앙고백 — 개혁의 신앙을 공적으로 설명하다"
+        }
+      ],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-D-012",
+      "category": "DOCUMENT",
+      "title": "『기독교강요』",
+      "period": "1536년 초판",
+      "overview_summary": "칼뱅의 개혁파 신학 저술, 판본마다 발전",
+      "overview_dataset": "data/overview/events_documents_v01.json",
+      "overview_record": {
+        "id": "OV-D-012",
+        "volume_ids": [
+          "VOL-04"
+        ],
+        "title": "『기독교강요』",
+        "original_title": "Institutes of the Christian Religion",
+        "period": "1536년 초판",
+        "summary": "칼뱅의 개혁파 신학 저술, 판본마다 발전",
+        "source_ids": [
+          "SRC-O-013"
+        ],
+        "witness_level": "INTRODUCTORY_DESCRIPTION_ONLY",
+        "review_status": "DRAFT",
+        "public_visible": false,
+        "full_text_included": false
+      },
+      "mapping_status": "DIRECT_TOPIC",
+      "scope": "개요가 가리키는 1536년 초판을 우선한다. 1559년판은 다른 판본으로 명시한 후속 읽기다.",
+      "reader_links": [
+        {
+          "reader_id": "MEDIUM-CALVIN1536",
+          "role": "PRIMARY",
+          "title": "1536년 『기독교강요』 — 가르침과 변호를 위한 작은 책"
+        },
+        {
+          "reader_id": "MEDIUM-CALVIN1559",
+          "role": "FOLLOWUP",
+          "title": "1559년 『기독교강요』 — 신앙을 배우는 순서를 만들다"
+        }
+      ],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-D-013",
+      "category": "DOCUMENT",
+      "title": "공동기도서",
+      "period": "1549년 초판",
+      "overview_summary": "영국교회의 공예배와 예전 전통에 영향",
+      "overview_dataset": "data/overview/events_documents_v01.json",
+      "overview_record": {
+        "id": "OV-D-013",
+        "volume_ids": [
+          "VOL-04"
+        ],
+        "title": "공동기도서",
+        "original_title": "Book of Common Prayer",
+        "period": "1549년 초판",
+        "summary": "영국교회의 공예배와 예전 전통에 영향",
+        "source_ids": [
+          "SRC-O-005"
+        ],
+        "witness_level": "INTRODUCTORY_DESCRIPTION_ONLY",
+        "review_status": "DRAFT",
+        "public_visible": false,
+        "full_text_included": false
+      },
+      "mapping_status": "DIRECT_TOPIC",
+      "scope": "1549년 초판과 이후 개정을 함께 다루는 공동기도서 해설이다.",
+      "reader_links": [
+        {
+          "reader_id": "DOCUMENT-COMMON_PRAYER",
+          "role": "PRIMARY",
+          "title": "공동기도서 — 개혁을 함께 드리는 예배의 언어로"
+        }
+      ],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-D-014",
+      "category": "DOCUMENT",
+      "title": "트리엔트 공의회 교령",
+      "period": "1545~1563년",
+      "overview_summary": "가톨릭 교리와 교회 규율의 공적 문헌",
+      "overview_dataset": "data/overview/events_documents_v01.json",
+      "overview_record": {
+        "id": "OV-D-014",
+        "volume_ids": [
+          "VOL-05"
+        ],
+        "title": "트리엔트 공의회 교령",
+        "original_title": "Decrees of the Council of Trent",
+        "period": "1545~1563년",
+        "summary": "가톨릭 교리와 교회 규율의 공적 문헌",
+        "source_ids": [
+          "SRC-O-021"
+        ],
+        "witness_level": "INTRODUCTORY_DESCRIPTION_ONLY",
+        "review_status": "DRAFT",
+        "public_visible": false,
+        "full_text_included": false
+      },
+      "mapping_status": "PARTIAL_COVERAGE",
+      "scope": "공의회 개관에서 교리·신학교 규정을 읽는다. 개별 교령 전체의 전문이나 판본별 해설은 아니다.",
+      "reader_links": [
+        {
+          "reader_id": "MEDIUM-TRENT",
+          "role": "PRIMARY",
+          "title": "트리엔트 공의회 — 가톨릭교회는 어떻게 개혁했는가"
+        },
+        {
+          "reader_id": "DOCUMENT-ROMAN_CATECHISM",
+          "role": "FOLLOWUP",
+          "title": "1566년 로마 교리서 — 공의회의 결정을 사목의 교육으로"
+        }
+      ],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-D-015",
+      "category": "DOCUMENT",
+      "title": "베스트팔렌 평화 조약문",
+      "period": "1648년",
+      "overview_summary": "신성로마제국·유럽 정세 관련 정치·종교 합의",
+      "overview_dataset": "data/overview/events_documents_v01.json",
+      "overview_record": {
+        "id": "OV-D-015",
+        "volume_ids": [
+          "VOL-05"
+        ],
+        "title": "베스트팔렌 평화 조약문",
+        "original_title": "Peace of Westphalia texts",
+        "period": "1648년",
+        "summary": "신성로마제국·유럽 정세 관련 정치·종교 합의",
+        "source_ids": [
+          "SRC-O-005"
+        ],
+        "witness_level": "INTRODUCTORY_DESCRIPTION_ONLY",
+        "review_status": "DRAFT",
+        "public_visible": false,
+        "full_text_included": false
+      },
+      "mapping_status": "PARTIAL_COVERAGE",
+      "scope": "1648년 종교 질서를 다룬 개관을 제공한다. 뮌스터·오스나브뤼크 조약문 전체를 대신하지 않는다.",
+      "reader_links": [
+        {
+          "reader_id": "THEME-WAR_WESTPHALIA",
+          "role": "PRIMARY",
+          "title": "30년전쟁과 베스트팔렌 평화 — 종교적 차이를 다루는 질서를 다시 만들다"
+        }
+      ],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-D-016",
+      "category": "DOCUMENT",
+      "title": "『경건한 열망』",
+      "period": "1675년",
+      "overview_summary": "개인·공동체 경건을 강조한 슈페너의 저술",
+      "overview_dataset": "data/overview/events_documents_v01.json",
+      "overview_record": {
+        "id": "OV-D-016",
+        "volume_ids": [
+          "VOL-06"
+        ],
+        "title": "『경건한 열망』",
+        "original_title": "Pia Desideria",
+        "period": "1675년",
+        "summary": "개인·공동체 경건을 강조한 슈페너의 저술",
+        "source_ids": [
+          "SRC-O-006"
+        ],
+        "witness_level": "INTRODUCTORY_DESCRIPTION_ONLY",
+        "review_status": "DRAFT",
+        "public_visible": false,
+        "full_text_included": false
+      },
+      "mapping_status": "NO_MATCH",
+      "scope": "현재 435편 목록에서 이 개요 항목을 직접 다루는 심화 원고를 확인하지 못했다. 이름이나 시대가 비슷한 원고로 자동 대체하지 않는다.",
+      "reader_links": [],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-D-017",
+      "category": "DOCUMENT",
+      "title": "웨슬리의 설교 및 공동체 규칙",
+      "period": "18세기",
+      "overview_summary": "감리교 부흥 운동의 신학과 조직을 이해할 자료",
+      "overview_dataset": "data/overview/events_documents_v01.json",
+      "overview_record": {
+        "id": "OV-D-017",
+        "volume_ids": [
+          "VOL-06"
+        ],
+        "title": "웨슬리의 설교 및 공동체 규칙",
+        "original_title": "Sermons and societies of Wesley",
+        "period": "18세기",
+        "summary": "감리교 부흥 운동의 신학과 조직을 이해할 자료",
+        "source_ids": [
+          "SRC-O-007"
+        ],
+        "witness_level": "INTRODUCTORY_DESCRIPTION_ONLY",
+        "review_status": "DRAFT",
+        "public_visible": false,
+        "full_text_included": false
+      },
+      "mapping_status": "NO_MATCH",
+      "scope": "현재 435편 목록에서 이 개요 항목을 직접 다루는 심화 원고를 확인하지 못했다. 이름이나 시대가 비슷한 원고로 자동 대체하지 않는다.",
+      "reader_links": [],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-D-018",
+      "category": "DOCUMENT",
+      "title": "한글 성경 초기 번역본",
+      "period": "19세기 후반",
+      "overview_summary": "한국인 번역자·유통 경로가 중요한 사료군",
+      "overview_dataset": "data/overview/events_documents_v01.json",
+      "overview_record": {
+        "id": "OV-D-018",
+        "volume_ids": [
+          "VOL-07"
+        ],
+        "title": "한글 성경 초기 번역본",
+        "original_title": "Early Korean Scripture Translations",
+        "period": "19세기 후반",
+        "summary": "한국인 번역자·유통 경로가 중요한 사료군",
+        "source_ids": [
+          "SRC-O-009"
+        ],
+        "witness_level": "INTRODUCTORY_DESCRIPTION_ONLY",
+        "review_status": "DRAFT",
+        "public_visible": false,
+        "full_text_included": false
+      },
+      "mapping_status": "NO_MATCH",
+      "scope": "현재 435편 목록에서 이 개요 항목을 직접 다루는 심화 원고를 확인하지 못했다. 이름이나 시대가 비슷한 원고로 자동 대체하지 않는다.",
+      "reader_links": [],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-D-019",
+      "category": "DOCUMENT",
+      "title": "세계교회협의회 첫 총회 기록",
+      "period": "1948년",
+      "overview_summary": "세계적 에큐메니컬 운동의 출범 문서군",
+      "overview_dataset": "data/overview/events_documents_v01.json",
+      "overview_record": {
+        "id": "OV-D-019",
+        "volume_ids": [
+          "VOL-07"
+        ],
+        "title": "세계교회협의회 첫 총회 기록",
+        "original_title": "WCC First Assembly Documents",
+        "period": "1948년",
+        "summary": "세계적 에큐메니컬 운동의 출범 문서군",
+        "source_ids": [
+          "SRC-O-012"
+        ],
+        "witness_level": "INTRODUCTORY_DESCRIPTION_ONLY",
+        "review_status": "DRAFT",
+        "public_visible": false,
+        "full_text_included": false
+      },
+      "mapping_status": "NO_MATCH",
+      "scope": "현재 435편 목록에서 이 개요 항목을 직접 다루는 심화 원고를 확인하지 못했다. 이름이나 시대가 비슷한 원고로 자동 대체하지 않는다.",
+      "reader_links": [],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "OV-D-020",
+      "category": "DOCUMENT",
+      "title": "성경번역·교회권위·성찬론 비교 문헌군",
+      "period": "시대 횡단",
+      "overview_summary": "원저작·번역본·편집본·후대 연구를 구별한 주제별 색인",
+      "overview_dataset": "data/overview/events_documents_v01.json",
+      "overview_record": {
+        "id": "OV-D-020",
+        "volume_ids": [
+          "VOL-08"
+        ],
+        "title": "성경번역·교회권위·성찬론 비교 문헌군",
+        "original_title": "Cross-period primary text collection",
+        "period": "시대 횡단",
+        "summary": "원저작·번역본·편집본·후대 연구를 구별한 주제별 색인",
+        "source_ids": [
+          "SRC-O-001"
+        ],
+        "witness_level": "INTRODUCTORY_DESCRIPTION_ONLY",
+        "review_status": "DRAFT",
+        "public_visible": false,
+        "full_text_included": false
+      },
+      "mapping_status": "PARTIAL_COVERAGE",
+      "scope": "16세기 중심의 세 쟁점 해설을 연결한다. 시대 횡단의 전체 문헌군이나 원문 전문이 아니다.",
+      "reader_links": [
+        {
+          "reader_id": "THEME-SCRIPTURE_AUTHORITY",
+          "role": "PRIMARY",
+          "title": "성경과 교회의 권위 — 무엇을 최종 기준으로 삼는가"
+        },
+        {
+          "reader_id": "THEME-COMMUNION",
+          "role": "PRIMARY",
+          "title": "성찬 — 같은 식탁을 두고 왜 다른 설명이 나왔는가"
+        },
+        {
+          "reader_id": "THEME-PRINT_TRANSLATION",
+          "role": "PRIMARY",
+          "title": "인쇄와 번역 — 논쟁은 어떻게 사람들에게 도달했는가"
+        }
+      ],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "TOP-01",
+      "category": "TOPIC",
+      "title": "성경의 권위",
+      "period": null,
+      "overview_summary": "성경 해석과 교회 권위, 번역 전통을 시대별로 비교한다.",
+      "overview_dataset": "data/overview/relationships_and_themes_v01.json",
+      "overview_record": {
+        "id": "TOP-01",
+        "title": "성경의 권위",
+        "volume_id": "VOL-08",
+        "summary": "성경 해석과 교회 권위, 번역 전통을 시대별로 비교한다.",
+        "related_volumes": [
+          "VOL-02",
+          "VOL-03",
+          "VOL-04"
+        ],
+        "source_ids": [
+          "SRC-O-003",
+          "SRC-O-002"
+        ],
+        "review_status": "DRAFT",
+        "public_visible": false,
+        "deep_study_status": "FUTURE_PHASE"
+      },
+      "mapping_status": "PARTIAL_COVERAGE",
+      "scope": "16세기 권위 논쟁의 비교를 연결한다. 전 시대의 성경 권위사를 포괄하지 않는다.",
+      "reader_links": [
+        {
+          "reader_id": "THEME-SCRIPTURE_AUTHORITY",
+          "role": "PRIMARY",
+          "title": "성경과 교회의 권위 — 무엇을 최종 기준으로 삼는가"
+        }
+      ],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "TOP-02",
+      "category": "TOPIC",
+      "title": "교회론",
+      "period": null,
+      "overview_summary": "교회·직분·공의회·교황·공동체의 권위를 서로 다른 전통에서 비교한다.",
+      "overview_dataset": "data/overview/relationships_and_themes_v01.json",
+      "overview_record": {
+        "id": "TOP-02",
+        "title": "교회론",
+        "volume_id": "VOL-08",
+        "summary": "교회·직분·공의회·교황·공동체의 권위를 서로 다른 전통에서 비교한다.",
+        "related_volumes": [
+          "VOL-01",
+          "VOL-03",
+          "VOL-04",
+          "VOL-05"
+        ],
+        "source_ids": [
+          "SRC-O-001",
+          "SRC-O-016"
+        ],
+        "review_status": "DRAFT",
+        "public_visible": false,
+        "deep_study_status": "FUTURE_PHASE"
+      },
+      "mapping_status": "PARTIAL_COVERAGE",
+      "scope": "위클리프·후스와 교회 통치의 선택 사례를 연결한다. 고대부터 이어지는 교회론 전체는 아니다.",
+      "reader_links": [
+        {
+          "reader_id": "MEDIUM-WYCLIFFE",
+          "role": "PRIMARY",
+          "title": "위클리프 — 교회의 권위는 무엇으로 판단하는가"
+        },
+        {
+          "reader_id": "MEDIUM-HUS",
+          "role": "PRIMARY",
+          "title": "후스 — 설교와 교회 개혁이 보헤미아의 문제가 되다"
+        },
+        {
+          "reader_id": "DOCUMENT-HOOKER_LAWS",
+          "role": "PRIMARY",
+          "title": "교회 정치의 법에 관하여 — 교회의 질서를 논증하다"
+        }
+      ],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "TOP-03",
+      "category": "TOPIC",
+      "title": "성찬론",
+      "period": null,
+      "overview_summary": "위클리프·후스·루터·츠빙글리·칼뱅의 입장을 하나의 기념설로 단순화하지 않는다.",
+      "overview_dataset": "data/overview/relationships_and_themes_v01.json",
+      "overview_record": {
+        "id": "TOP-03",
+        "title": "성찬론",
+        "volume_id": "VOL-08",
+        "summary": "위클리프·후스·루터·츠빙글리·칼뱅의 입장을 하나의 기념설로 단순화하지 않는다.",
+        "related_volumes": [
+          "VOL-03",
+          "VOL-04",
+          "VOL-05"
+        ],
+        "source_ids": [
+          "SRC-O-003",
+          "SRC-O-013"
+        ],
+        "review_status": "DRAFT",
+        "public_visible": false,
+        "deep_study_status": "FUTURE_PHASE"
+      },
+      "mapping_status": "PARTIAL_COVERAGE",
+      "scope": "16세기 성찬 논쟁을 우선하고 중세 선구자의 개관을 후속으로 둔다. 모든 저자의 성찬론을 구절별 대조한 문헌군은 아니다.",
+      "reader_links": [
+        {
+          "reader_id": "THEME-COMMUNION",
+          "role": "PRIMARY",
+          "title": "성찬 — 같은 식탁을 두고 왜 다른 설명이 나왔는가"
+        },
+        {
+          "reader_id": "MEDIUM-MARBURG",
+          "role": "PRIMARY",
+          "title": "마르부르크 회담 — 같은 개혁 진영이 왜 하나가 되지 못했는가"
+        },
+        {
+          "reader_id": "MEDIUM-WYCLIFFE",
+          "role": "FOLLOWUP",
+          "title": "위클리프 — 교회의 권위는 무엇으로 판단하는가"
+        },
+        {
+          "reader_id": "MEDIUM-HUS",
+          "role": "FOLLOWUP",
+          "title": "후스 — 설교와 교회 개혁이 보헤미아의 문제가 되다"
+        }
+      ],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "TOP-04",
+      "category": "TOPIC",
+      "title": "은총·칭의",
+      "period": null,
+      "overview_summary": "아우구스티누스부터 16세기 개혁 및 후대 전통의 의미 차이를 기록한다.",
+      "overview_dataset": "data/overview/relationships_and_themes_v01.json",
+      "overview_record": {
+        "id": "TOP-04",
+        "title": "은총·칭의",
+        "volume_id": "VOL-08",
+        "summary": "아우구스티누스부터 16세기 개혁 및 후대 전통의 의미 차이를 기록한다.",
+        "related_volumes": [
+          "VOL-01",
+          "VOL-04",
+          "VOL-06"
+        ],
+        "source_ids": [
+          "SRC-O-001",
+          "SRC-O-002"
+        ],
+        "review_status": "DRAFT",
+        "public_visible": false,
+        "deep_study_status": "FUTURE_PHASE"
+      },
+      "mapping_status": "PARTIAL_COVERAGE",
+      "scope": "16세기 은총·칭의 비교를 제공한다. 아우구스티누스와 후대 부흥까지 모두 집필한 것은 아니다.",
+      "reader_links": [
+        {
+          "reader_id": "THEME-GRACE_FAITH_WORKS",
+          "role": "PRIMARY",
+          "title": "은혜·믿음·행위 — 무엇이 사람을 의롭게 하는가"
+        },
+        {
+          "reader_id": "MEDIUM-TRENT",
+          "role": "FOLLOWUP",
+          "title": "트리엔트 공의회 — 가톨릭교회는 어떻게 개혁했는가"
+        }
+      ],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "TOP-05",
+      "category": "TOPIC",
+      "title": "교회 개혁과 권력",
+      "period": null,
+      "overview_summary": "영적 쇄신과 정치 권력·교육·사회적 갈등의 관계를 구분한다.",
+      "overview_dataset": "data/overview/relationships_and_themes_v01.json",
+      "overview_record": {
+        "id": "TOP-05",
+        "title": "교회 개혁과 권력",
+        "volume_id": "VOL-08",
+        "summary": "영적 쇄신과 정치 권력·교육·사회적 갈등의 관계를 구분한다.",
+        "related_volumes": [
+          "VOL-02",
+          "VOL-03",
+          "VOL-04",
+          "VOL-05"
+        ],
+        "source_ids": [
+          "SRC-O-005",
+          "SRC-O-017"
+        ],
+        "review_status": "DRAFT",
+        "public_visible": false,
+        "deep_study_status": "FUTURE_PHASE"
+      },
+      "mapping_status": "PARTIAL_COVERAGE",
+      "scope": "도시 권력·학교·규율의 선택 사례다. 모든 시대의 개혁과 정치 권력 관계를 포괄하지 않는다.",
+      "reader_links": [
+        {
+          "reader_id": "THEME-CITY_POWER",
+          "role": "PRIMARY",
+          "title": "도시와 정치권력 — 누가 개혁을 실행했는가"
+        },
+        {
+          "reader_id": "THEME-EDUCATION",
+          "role": "PRIMARY",
+          "title": "학교와 교육 — 신앙을 배우는 일이 공공의 과제가 되다"
+        },
+        {
+          "reader_id": "THEME-CHURCH_DISCIPLINE",
+          "role": "PRIMARY",
+          "title": "교회 규율 — 신앙 공동체는 생활에 어디까지 관여했는가"
+        }
+      ],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "TOP-06",
+      "category": "TOPIC",
+      "title": "공의회와 신앙고백",
+      "period": null,
+      "overview_summary": "니케아·트리엔트·아우크스부르크 등 문헌의 제정 맥락과 법적 지위를 구분한다.",
+      "overview_dataset": "data/overview/relationships_and_themes_v01.json",
+      "overview_record": {
+        "id": "TOP-06",
+        "title": "공의회와 신앙고백",
+        "volume_id": "VOL-08",
+        "summary": "니케아·트리엔트·아우크스부르크 등 문헌의 제정 맥락과 법적 지위를 구분한다.",
+        "related_volumes": [
+          "VOL-01",
+          "VOL-04",
+          "VOL-05"
+        ],
+        "source_ids": [
+          "SRC-O-001",
+          "SRC-O-002"
+        ],
+        "review_status": "DRAFT",
+        "public_visible": false,
+        "deep_study_status": "FUTURE_PHASE"
+      },
+      "mapping_status": "PARTIAL_COVERAGE",
+      "scope": "아우크스부르크·트리엔트 등 16세기 사례를 연결한다. 니케아 문헌과 고대 공의회 전체는 미연결이다.",
+      "reader_links": [
+        {
+          "reader_id": "MEDIUM-AUGSBURG",
+          "role": "PRIMARY",
+          "title": "아우크스부르크 신앙고백 — 개혁의 신앙을 공적으로 설명하다"
+        },
+        {
+          "reader_id": "MEDIUM-TRENT",
+          "role": "PRIMARY",
+          "title": "트리엔트 공의회 — 가톨릭교회는 어떻게 개혁했는가"
+        },
+        {
+          "reader_id": "DOCUMENT-BOOK_CONCORD",
+          "role": "PRIMARY",
+          "title": "일치신조집 — 여러 시대의 문서를 한 권에 모으다"
+        }
+      ],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "TOP-07",
+      "category": "TOPIC",
+      "title": "성경 번역과 전파",
+      "period": null,
+      "overview_summary": "라틴어·민중어·한글 번역의 기획, 협력자, 판본, 유통을 연결한다.",
+      "overview_dataset": "data/overview/relationships_and_themes_v01.json",
+      "overview_record": {
+        "id": "TOP-07",
+        "title": "성경 번역과 전파",
+        "volume_id": "VOL-08",
+        "summary": "라틴어·민중어·한글 번역의 기획, 협력자, 판본, 유통을 연결한다.",
+        "related_volumes": [
+          "VOL-03",
+          "VOL-04",
+          "VOL-07"
+        ],
+        "source_ids": [
+          "SRC-O-009",
+          "SRC-O-003"
+        ],
+        "review_status": "DRAFT",
+        "public_visible": false,
+        "deep_study_status": "FUTURE_PHASE"
+      },
+      "mapping_status": "PARTIAL_COVERAGE",
+      "scope": "16세기 번역·인쇄와 영어·독일어 성경의 사례다. 한글 초기 번역사는 미연결이다.",
+      "reader_links": [
+        {
+          "reader_id": "THEME-PRINT_TRANSLATION",
+          "role": "PRIMARY",
+          "title": "인쇄와 번역 — 논쟁은 어떻게 사람들에게 도달했는가"
+        },
+        {
+          "reader_id": "DOCUMENT-TYNDALE_NT",
+          "role": "PRIMARY",
+          "title": "틴들의 신약성경 — 번역과 국외 인쇄가 만나다"
+        },
+        {
+          "reader_id": "DOCUMENT-LUTHER_BIBLE1534",
+          "role": "PRIMARY",
+          "title": "1534년 루터 성경 — 여러 단계의 번역과 협업이 모이다"
+        }
+      ],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "TOP-08",
+      "category": "TOPIC",
+      "title": "경건·부흥·선교",
+      "period": null,
+      "overview_summary": "경건주의·감리교·대각성·현지 교회의 주체적 성장을 함께 기술한다.",
+      "overview_dataset": "data/overview/relationships_and_themes_v01.json",
+      "overview_record": {
+        "id": "TOP-08",
+        "title": "경건·부흥·선교",
+        "volume_id": "VOL-08",
+        "summary": "경건주의·감리교·대각성·현지 교회의 주체적 성장을 함께 기술한다.",
+        "related_volumes": [
+          "VOL-06",
+          "VOL-07"
+        ],
+        "source_ids": [
+          "SRC-O-006",
+          "SRC-O-014"
+        ],
+        "review_status": "DRAFT",
+        "public_visible": false,
+        "deep_study_status": "FUTURE_PHASE"
+      },
+      "mapping_status": "BACKGROUND_ONLY",
+      "scope": "초기 근대의 경건·선교 배경은 있으나 경건주의·감리교·대각성의 독립 해설을 대신하지 않는다.",
+      "reader_links": [
+        {
+          "reader_id": "DOCUMENT-TRUE_CHRISTIANITY",
+          "role": "BACKGROUND",
+          "title": "참된 그리스도교 — 수정과 보급을 거친 신심서"
+        },
+        {
+          "reader_id": "GLOBAL-INDIA_JAPAN",
+          "role": "BACKGROUND",
+          "title": "인도와 일본 — 같은 선교망, 서로 다른 정치 환경"
+        },
+        {
+          "reader_id": "GLOBAL-CHINA",
+          "role": "BACKGROUND",
+          "title": "중국 — 세계지도를 함께 만들며 시작한 대화"
+        }
+      ],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "TOP-09",
+      "category": "TOPIC",
+      "title": "동서 교회의 차이",
+      "period": null,
+      "overview_summary": "권위·예전·역사의 관점과 1054년 전후의 긴 과정을 비교한다.",
+      "overview_dataset": "data/overview/relationships_and_themes_v01.json",
+      "overview_record": {
+        "id": "TOP-09",
+        "title": "동서 교회의 차이",
+        "volume_id": "VOL-08",
+        "summary": "권위·예전·역사의 관점과 1054년 전후의 긴 과정을 비교한다.",
+        "related_volumes": [
+          "VOL-01",
+          "VOL-02"
+        ],
+        "source_ids": [
+          "SRC-O-001"
+        ],
+        "review_status": "DRAFT",
+        "public_visible": false,
+        "deep_study_status": "FUTURE_PHASE"
+      },
+      "mapping_status": "NO_MATCH",
+      "scope": "현재 435편 목록에서 이 개요 항목을 직접 다루는 심화 원고를 확인하지 못했다. 이름이나 시대가 비슷한 원고로 자동 대체하지 않는다.",
+      "reader_links": [],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    },
+    {
+      "overview_id": "TOP-10",
+      "category": "TOPIC",
+      "title": "한국 교회사 서술의 관점",
+      "period": null,
+      "overview_summary": "한국인 신자의 서학 수용·번역 활동과 해외 선교의 상호작용을 함께 다룬다.",
+      "overview_dataset": "data/overview/relationships_and_themes_v01.json",
+      "overview_record": {
+        "id": "TOP-10",
+        "title": "한국 교회사 서술의 관점",
+        "volume_id": "VOL-08",
+        "summary": "한국인 신자의 서학 수용·번역 활동과 해외 선교의 상호작용을 함께 다룬다.",
+        "related_volumes": [
+          "VOL-07"
+        ],
+        "source_ids": [
+          "SRC-O-008",
+          "SRC-O-011"
+        ],
+        "review_status": "DRAFT",
+        "public_visible": false,
+        "deep_study_status": "FUTURE_PHASE"
+      },
+      "mapping_status": "NO_MATCH",
+      "scope": "현재 435편 목록에서 이 개요 항목을 직접 다루는 심화 원고를 확인하지 못했다. 이름이나 시대가 비슷한 원고로 자동 대체하지 않는다.",
+      "reader_links": [],
+      "status": "EDITORIAL_NAVIGATION_DRAFT"
+    }
+  ],
+  "exclusions": [
+    {
+      "overview_id": "OV-P-001",
+      "forbidden_reader_ids": [
+        "PERSON-IGNATIUS"
+      ],
+      "reason": "안디옥의 이그나티우스와 로욜라의 이냐시오는 다른 인물"
+    },
+    {
+      "overview_id": "OV-D-005",
+      "forbidden_reader_ids": [
+        "MEDIUM-WYCLIFFE"
+      ],
+      "reason": "후스와 위클리프의 동명 교회론은 다른 저작"
+    },
+    {
+      "overview_id": "OV-E-019",
+      "forbidden_reader_ids": [
+        "THEME-AUGSBURG_PEACE",
+        "DOCUMENT-AUGSBURG_PEACE1555"
+      ],
+      "reason": "1530년 신앙고백 제출과 1555년 화의는 다른 사건"
+    },
+    {
+      "overview_id": "OV-E-020",
+      "forbidden_reader_ids": [
+        "MEDIUM-CALVIN1559"
+      ],
+      "reason": "1536년 초판 사건과 1559년판을 구분"
+    },
+    {
+      "overview_id": "OV-E-014",
+      "forbidden_reader_ids": [
+        "CITY-BASEL",
+        "EVENT-BASEL_REFORM1529"
+      ],
+      "reason": "1433~1436년 콤팍타타와 16세기 바젤 개혁을 구분"
+    }
+  ],
+  "metrics": {
+    "overview_records": 97,
+    "people": 33,
+    "events": 34,
+    "documents": 20,
+    "topics": 10,
+    "direct_topic": 55,
+    "partial_coverage": 12,
+    "background_only": 1,
+    "no_match": 29,
+    "default_readable": 67,
+    "reading_links": 113,
+    "unique_readers": 77,
+    "excluded_false_matches": 5,
+    "new_historical_essays": 0
+  }
+}
