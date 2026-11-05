@@ -1,0 +1,25 @@
+name: Atlas V3.05 Pietism Revival Reading QA
+on:
+  pull_request:
+    paths:
+      - 'data/deep/atlas_v305*'
+      - 'docs/01_CONTENT/V305*'
+      - 'scripts/build_v305*'
+      - '.github/workflows/atlas-v305-pietism-revival.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  content:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - run: python3 scripts/build_v305_pietism_revival_readers.py --check
+      - run: python3 scripts/build_v304_integrated_delivery.py --check
+      - run: node --test integrations/medium-atlas-v304/*.test.mjs
