@@ -1,0 +1,35 @@
+name: Atlas V3.06 Integrated 495 QA
+on:
+  pull_request:
+    paths:
+      - 'integrations/medium-atlas-v306/**'
+      - 'scripts/build_v306_integrated_delivery.mjs'
+      - 'docs/03_PRODUCT/V306*'
+      - '.github/workflows/atlas-v306-integrated-reading.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  integrated-495:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Check and export the 495-reader bundle
+        run: |
+          python3 scripts/build_v304_integrated_delivery.py --check
+          python3 scripts/build_v305_pietism_revival_readers.py --check
+          node --test integrations/medium-atlas-v306/*.test.mjs
+          node scripts/build_v306_integrated_delivery.mjs --check
+          node scripts/build_v306_integrated_delivery.mjs --export "$RUNNER_TEMP/atlas-v306"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: atlas-v306-495-json-preview
+          path: ${{ runner.temp }}/atlas-v306
+          retention-days: 14
+          if-no-files-found: error
