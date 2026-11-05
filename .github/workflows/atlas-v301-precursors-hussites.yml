@@ -1,0 +1,28 @@
+name: Atlas V3.01 Precursors Hussite Reading QA
+on:
+  pull_request:
+    paths:
+      - 'data/deep/atlas_v301_medium_depth_precursors_hussite_readers.json'
+      - 'docs/01_CONTENT/V301_PRECURSORS_HUSSITE_MEDIUM_READERS.md'
+      - 'scripts/build_v301_precursors_hussite_readers.py'
+      - '.github/workflows/atlas-v301-precursors-hussites.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  editorial-integrity:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Check new readers and preserve frozen inputs
+        run: python3 scripts/build_v301_precursors_hussite_readers.py --check
+      - name: Check existing overview crosswalk
+        run: python3 scripts/build_v300_overview_reading_crosswalk.py --check
+      - name: Test frozen reading consumers
+        run: node --test integrations/overview-readings-v300/bridge.test.mjs integrations/medium-atlas-v298/adapter.test.mjs
