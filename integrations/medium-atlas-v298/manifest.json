@@ -1,0 +1,22 @@
+{
+  "contractVersion": "2.98",
+  "mode": "EDITORIAL_PREVIEW_ONLY",
+  "canPublish": false,
+  "input": {
+    "version": "2.97",
+    "path": "data/deep/atlas_v297_source_checked_medium_content_delivery_bundle.json",
+    "sha256": "59cda883ac1f710a6e841978bedfcd2bcf3460257865ea46e2dd95467091cca7",
+    "researchCommit": "446b027e35a2ebb27882a9cfeae76da2232ac355"
+  },
+  "expectedCounts": {
+    "readers": 435,
+    "sections": 1305,
+    "sources": 626,
+    "guides": 11,
+    "claims": 22,
+    "paths": 18
+  },
+  "actualAIStudioIntegrationVerified": false,
+  "actualAIStudioSourceAvailable": false,
+  "scope": "현재 연구 저장소의 전달본을 읽는 독립 모듈. 실제 앱 소스와 라우트는 별도 확인 대상."
+}

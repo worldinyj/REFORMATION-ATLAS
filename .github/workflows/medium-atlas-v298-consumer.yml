@@ -1,0 +1,23 @@
+name: Medium Atlas V2.98 Consumer QA
+on:
+  pull_request:
+    paths:
+      - 'integrations/medium-atlas-v298/**'
+      - 'data/deep/atlas_v297_source_checked_medium_content_delivery_bundle.json'
+      - '.github/workflows/medium-atlas-v298-consumer.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  consumer:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Check frozen delivery and consumer behavior
+        run: node --test integrations/medium-atlas-v298/adapter.test.mjs
