@@ -1,0 +1,30 @@
+name: Atlas V3.00 Overview Reading QA
+on:
+  pull_request:
+    paths:
+      - 'integrations/overview-readings-v300/**'
+      - 'integrations/medium-atlas-v298/**'
+      - 'scripts/build_v300_overview_reading_crosswalk.py'
+      - 'data/contracts/atlas_v300_overview_medium_reading_crosswalk.json'
+      - 'data/overview/**'
+      - 'data/deep/atlas_v297_source_checked_medium_content_delivery_bundle.json'
+      - 'docs/03_PRODUCT/V300_OVERVIEW_TO_MEDIUM_READING_HANDOFF.md'
+      - '.github/workflows/atlas-v300-overview-readings.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  crosswalk:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Verify explicit crosswalk and generated handoff
+        run: python3 scripts/build_v300_overview_reading_crosswalk.py --check
+      - name: Test reading bridge and frozen consumer
+        run: node --test integrations/overview-readings-v300/bridge.test.mjs integrations/medium-atlas-v298/adapter.test.mjs
