@@ -1,0 +1,20 @@
+{
+  "contractVersion": "3.02",
+  "mode": "EDITORIAL_PREVIEW_ONLY",
+  "canPublish": false,
+  "input": {
+    "version": "3.02",
+    "path": "data/deep/atlas_v302_integrated_455_medium_delivery.json",
+    "sha256": "c4e60bbbdd5dd635aef98613e805e0a2cea47c29dd0ae637f42a1b3d6141b2b4"
+  },
+  "expectedCounts": {
+    "readers": 455,
+    "sections": 1365,
+    "sources": 650,
+    "guides": 11,
+    "claims": 22,
+    "paths": 21
+  },
+  "actualAIStudioIntegrationVerified": false,
+  "actualAIStudioSourceAvailable": false
+}
