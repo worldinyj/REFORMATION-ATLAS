@@ -56,7 +56,7 @@ test('two scoped readings, eight relations and nine bibliographic claim cards st
 });
 test('false source age, claimed variants, fake archival collation, broken edges and public release fail',()=>{
  const v=(changes)=>{const r=structuredClone(p313);changes(r);return ()=>assembleV313(base,...audit,parse(m.addendumInput.path),parse(m.latinInput.path),r);};
- assert.throws(v(x=>x.sources.find(s=>s.id==='IPO-LATIN-1650').year=1648),/chronology drift/);
+ assert.throws(v(x=>x.sources.find(s=>s.id==='IPO-LATIN-1650').year=1648),/Westphalia publication date drift/);
  assert.throws(v(x=>x.metrics.verified_textual_variants=1),/metrics out of scope/);
  assert.throws(v(x=>x.sources[0].original_pages_collated=true),/false page inspection/);
  assert.throws(v(x=>x.relations[0].to='UNKNOWN'),/false edition genealogy/);
