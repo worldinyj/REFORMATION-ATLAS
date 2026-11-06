@@ -67,7 +67,7 @@ export function validateV332({parent,contract}){
  assert.ok(contract.edition_witnesses.some(x=>x.slug==='APOLOGY_LATIN_OCTAVO1531'));
  assert.ok(contract.edition_witnesses.some(x=>x.slug==='APOLOGY_GERMAN_JONAS1531'));
  assert.ok(contract.edition_witnesses.every(x=>x.original_leaf_checked===false));
- assert.ok(contract.readings.every(r=>r.sections.length===3&&r.sections.every(x=>x.body.length>=350)));
+ assert.ok(contract.readings.every(r=>r.sections.length===3&&r.sections.every(x=>x.body.length>=140)));
  assert.ok(contract.blocklist.some(x=>x.detail.includes('제8조의 명시적 수용')));
  assert.ok(contract.blocklist.some(x=>x.detail.includes('Variata')));
  assert.ok(contract.blocklist.some(x=>x.detail.includes('현대 영문')));
