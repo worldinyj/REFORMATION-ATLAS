@@ -1,0 +1,32 @@
+name: Atlas V3.33 Latin Confutatio 1530 1573 1859 witness integrity
+on:
+  push:
+    branches:
+      - research/atlas-v333-confutatio-cr27-latin-witness-scope
+  pull_request:
+    paths:
+      - 'data/contracts/atlas_v333_confutatio_cr27_latin_excerpts_witness_audit.json'
+      - 'docs/02_RESEARCH/V333_CONFUTATIO_CR27_LATIN_SOURCE_WITNESS_AUDIT.md'
+      - 'scripts/build_v333_confutatio_latin_witness.mjs'
+      - 'integrations/medium-atlas-v333/**'
+      - '.github/workflows/atlas-v333-confutatio-latin.yml'
+jobs:
+  latin_witness_audit:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify unchanged V3.32 plus V3.33 Latin source-grade and historical chronology
+        run: node --test integrations/medium-atlas-v332/integration.test.mjs integrations/medium-atlas-v333/integration.test.mjs
+      - name: Export draft Latin clause and publication witness matrices
+        run: node scripts/build_v333_confutatio_latin_witness.mjs
+      - name: Archive review-only files
+        uses: actions/upload-artifact@v4
+        with:
+          name: atlas-v333-review-only-confutatio-latin
+          path: out/atlas-v333/*.json
+          retention-days: 30

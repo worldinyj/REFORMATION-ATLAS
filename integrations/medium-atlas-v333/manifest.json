@@ -1,0 +1,37 @@
+{
+  "version": "3.33",
+  "kind": "RESEARCH_ONLY_LATIN_CONFUTATIO_1530_1573_1859_CRITICAL_WITNESS_AUDIT",
+  "status": "DRAFT_HOLD",
+  "parent": "research/atlas-v332-augsburg-confutation-apology-article-triads",
+  "data": "data/contracts/atlas_v333_confutatio_cr27_latin_excerpts_witness_audit.json",
+  "report": "docs/02_RESEARCH/V333_CONFUTATIO_CR27_LATIN_SOURCE_WITNESS_AUDIT.md",
+  "builder": "scripts/build_v333_confutatio_latin_witness.mjs",
+  "test": "integrations/medium-atlas-v333/integration.test.mjs",
+  "exports": [
+    "v333_latin_clause_evidence_grade.json",
+    "v333_1530_1573_1859_publication_genealogy.json",
+    "v333_original_language_primary_witness_queue.json"
+  ],
+  "metrics": {
+    "sources": 12,
+    "latin_short_phrases": 7,
+    "article_adjudications": 4,
+    "publication_episodes": 6,
+    "readings": 4,
+    "sections": 12,
+    "open_issues": 10,
+    "unverified_original_latin_folios": 0
+  },
+  "publication_gate": {
+    "published": false,
+    "main_changed": false,
+    "webapp_integrated": false,
+    "historian_approved": false
+  },
+  "epistemic_limitations": [
+    "1530 Confutatio was read aloud in German, first full Latin print is reported 1573 (not 1530).",
+    "1859 CR27 cited by modern scholarly annotations and indexed Google Books textual snippet, not directly inspected original printed leaves.",
+    "Confutatio Article VIII accepted; Article VII conditionally rejected and local rites partially accepted.",
+    "No original 1530 manuscript, 1573 Latin page, or 1859 critical print page visually inspected."
+  ]
+}
