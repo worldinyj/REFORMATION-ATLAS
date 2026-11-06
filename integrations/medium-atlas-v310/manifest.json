@@ -1,0 +1,57 @@
+{
+  "contractVersion": "3.10",
+  "mode": "EDITORIAL_RESEARCH_PREVIEW_ONLY",
+  "canPublish": false,
+  "materialization": "V309_SCOPED_EVIDENCE_PLUS_V310_NAVIGATION",
+  "inputs": [
+    {
+      "version": "3.04",
+      "path": "data/deep/atlas_v304_integrated_475_medium_delivery.json",
+      "sha256": "d64407e1202c73f65e9beaec87c21ccd3ed2228cb2036bb30d31542588cd94a1"
+    },
+    {
+      "version": "3.05",
+      "path": "data/deep/atlas_v305_medium_depth_pietism_revival_readers.json",
+      "gitBlobSha1": "09b2c19ca4c3f2ad1a98cc9053f8aee584c27fbb"
+    },
+    {
+      "version": "3.04",
+      "path": "data/contracts/atlas_v304_overview_medium_reading_crosswalk.json",
+      "gitBlobSha1": "d5008fe0c721e4f1ad6b1dbc1ceb8c4fd16a6038"
+    },
+    {
+      "version": "3.07",
+      "path": "data/deep/atlas_v307_remaining_overview_medium_readers.json",
+      "gitBlobSha1": "d25f54191183ee80db564237a0dfb4d008af990a"
+    }
+  ],
+  "expectedCounts": {
+    "readers": 513,
+    "sections": 1539,
+    "sources": 723,
+    "guides": 11,
+    "claims": 22,
+    "paths": 31
+  },
+  "actualAIStudioIntegrationVerified": false,
+  "actualAIStudioSourceAvailable": false,
+  "auditInputs": [
+    {
+      "version": "3.09",
+      "path": "data/contracts/atlas_v309_source_evidence_audit.json",
+      "gitBlobSha1": "bef1b994008a805fab59057e488441b6ee960231"
+    },
+    {
+      "version": "3.10",
+      "path": "data/contracts/atlas_v310_partial_coverage_quality_audit.json",
+      "gitBlobSha1": "aa3c8a8ae29dea77d391a096c6fa9979467be56e"
+    }
+  ],
+  "expectedCoverage": {
+    "total": 97,
+    "direct": 78,
+    "partial": 19,
+    "background": 0,
+    "missing": 0
+  }
+}
