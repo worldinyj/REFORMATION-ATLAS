@@ -1,0 +1,32 @@
+{
+  "version": "3.26",
+  "kind": "HISTORICAL_WITNESS_AUDIT_RESEARCH_ONLY",
+  "status": "DRAFT_HOLD",
+  "input": "data/contracts/atlas_v326_methodist_1784_1785_discipline_witness_audit.json",
+  "builder": "scripts/build_v326_methodist_witness_audit.mjs",
+  "tests": "integrations/medium-atlas-v326/integration.test.mjs",
+  "artifacts": [
+    "v326_methodist_chronology_evidence.json",
+    "v326_methodist_open_questions.json",
+    "v326_methodist_claim_review_cards.json"
+  ],
+  "counts": {
+    "source_records": 14,
+    "stages": 5,
+    "claim_cards": 12,
+    "readings": 3,
+    "sections": 9,
+    "unresolved": 5
+  },
+  "publication_gate": {
+    "published": false,
+    "main_changed": false,
+    "webapp_integrated": false,
+    "historian_approved": false
+  },
+  "limitations": [
+    "1785 title first edition scan of full original not read; only holding metadata and 1898 historical bibliographic print reviewed.",
+    "Dec24 historical opening vs Dec27 printed title requires archival explanation.",
+    "General Rules 1785 independent separate approval unproven."
+  ]
+}
