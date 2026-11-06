@@ -1,0 +1,37 @@
+{
+  "version": "3.30",
+  "kind": "RESEARCH_ONLY_EDITORIAL_RELOCATION_WITNESS_AUDIT",
+  "status": "DRAFT_HOLD",
+  "parent": "research/atlas-v329-1788-annex-general-rules-correction",
+  "contract": "data/contracts/atlas_v330_1788_1789_general_rules_integration_review.json",
+  "report": "docs/02_RESEARCH/V330_GENERAL_RULES_1788_1789_INTEGRATION_WITNESS_REVIEW.md",
+  "builder": "scripts/build_v330_general_rules_relocation.mjs",
+  "test": "integrations/medium-atlas-v330/integration.test.mjs",
+  "outputs": [
+    "v330_1788_1789_edition_relocation_graph.json",
+    "v330_claim_source_provenance.json",
+    "v330_original_pages_to_inspect.json"
+  ],
+  "metrics": {
+    "sources": 11,
+    "edition_nodes": 7,
+    "links": 7,
+    "claims": 14,
+    "readings": 3,
+    "sections": 9,
+    "gaps": 9,
+    "direct_1788_1789_print_pairs": 0
+  },
+  "publication_gate": {
+    "published": false,
+    "main_changed": false,
+    "webapp_integrated": false,
+    "expert_signoff": false
+  },
+  "limitations": [
+    "Baker PDF academic text was read but scanned page screenshot requests were HTTP 403.",
+    "Wesleyan Theological Journal 1997 Ruth article printed pp66–67 visually inspected; this is not the 1788 Kollock original page 41.",
+    "1788 annex -> 1789 main body is scholarly secondary research, original print leaves still need collation.",
+    "1790 other doctrinal tracts placed into numbered sections should not be confused with the prior General Rules move."
+  ]
+}

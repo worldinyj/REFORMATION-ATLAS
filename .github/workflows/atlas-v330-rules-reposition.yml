@@ -1,0 +1,32 @@
+name: Atlas V3.30 Methodist 1788 1789 Rules relocation witness evidence gate
+on:
+  push:
+    branches:
+      - research/atlas-v330-1788-1789-rules-integration-witness-review
+  pull_request:
+    paths:
+      - 'data/contracts/atlas_v330_1788_1789_general_rules_integration_review.json'
+      - 'docs/02_RESEARCH/V330_GENERAL_RULES_1788_1789_INTEGRATION_WITNESS_REVIEW.md'
+      - 'scripts/build_v330_general_rules_relocation.mjs'
+      - 'integrations/medium-atlas-v330/**'
+      - '.github/workflows/atlas-v330-rules-reposition.yml'
+jobs:
+  witness_evidence_gate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify V3.29 and V3.30 source grade and edition chronology
+        run: node --test integrations/medium-atlas-v329/integration.test.mjs integrations/medium-atlas-v330/integration.test.mjs
+      - name: Export research-only source and edition relation evidence
+        run: node scripts/build_v330_general_rules_relocation.mjs
+      - name: Archive draft review output without publishing
+        uses: actions/upload-artifact@v4
+        with:
+          name: atlas-v330-research-only-1788-1789-relocation
+          path: out/atlas-v330/*.json
+          retention-days: 30
