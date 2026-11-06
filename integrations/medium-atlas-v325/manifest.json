@@ -1,0 +1,35 @@
+{
+  "version": "3.25",
+  "kind": "REVIEW_ONLY_EVIDENCE_STRENGTH_AND_RESEARCH_PRIORITY",
+  "status": "DRAFT_HOLD",
+  "input": "data/contracts/atlas_v325_evidence_strength_priority_audit.json",
+  "frozen_parent": "data/contracts/atlas_v324_typed_influence_response_reception_graph.json",
+  "script": "scripts/build_v325_evidence_priority_audit.mjs",
+  "tests": "integrations/medium-atlas-v325/integration.test.mjs",
+  "output_dir": "out/atlas-v325",
+  "artifacts": [
+    "v325_relation_evidence_matrix.json",
+    "v325_ordered_source_research_queue.json",
+    "v325_methodist_chronology_distinctions.json"
+  ],
+  "counts": {
+    "assessed_relations": 12,
+    "issue_priorities": 6,
+    "high_priority_P0": 3,
+    "methodist_stages": 5,
+    "readings": 2,
+    "sections": 6
+  },
+  "gates": {
+    "publication_ready": false,
+    "main_changed": false,
+    "google_ai_studio_webapp_integrated": false,
+    "historian_approved": false
+  },
+  "warnings": [
+    "Editorial risk score does not express probability of historical truth.",
+    "Never relabel Methodist 1784 organizational adoption as 1785 book printing.",
+    "1785 glossary 'approved' awaits confirmation of independent conference action.",
+    "No new historical original scan inspected."
+  ]
+}
