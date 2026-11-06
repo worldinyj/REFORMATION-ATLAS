@@ -1,0 +1,32 @@
+name: Atlas V3.26 Methodist original-title chronology witness gate
+on:
+  push:
+    branches:
+      - research/atlas-v326-methodist-1784-1785-first-discipline-witness
+  pull_request:
+    paths:
+      - 'data/contracts/atlas_v326_methodist_1784_1785_discipline_witness_audit.json'
+      - 'docs/02_RESEARCH/V326_METHODIST_1784_1785_FIRST_DISCIPLINE_WITNESS_AUDIT.md'
+      - 'scripts/build_v326_methodist_witness_audit.mjs'
+      - 'integrations/medium-atlas-v326/**'
+      - '.github/workflows/atlas-v326-methodist-witness.yml'
+jobs:
+  methodological_review:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Keep V3.25 and validate V3.26 historical evidence scope
+        run: node --test integrations/medium-atlas-v325/integration.test.mjs integrations/medium-atlas-v326/integration.test.mjs
+      - name: Produce research-only Methodist chronology files
+        run: node scripts/build_v326_methodist_witness_audit.mjs
+      - name: Archive non-public research only
+        uses: actions/upload-artifact@v4
+        with:
+          name: atlas-v326-research-only-methodist-witness
+          path: out/atlas-v326/*.json
+          retention-days: 30
