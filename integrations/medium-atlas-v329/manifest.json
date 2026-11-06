@@ -1,0 +1,38 @@
+{
+  "version": "3.29",
+  "kind": "BIBLIOGRAPHIC_CORRECTION_REVIEW_ONLY",
+  "status": "DRAFT_HOLD",
+  "parent_contract": "data/contracts/atlas_v328_methodist_1785_1789_witness_scope.json",
+  "data": "data/contracts/atlas_v329_general_rules_1788_annex_correction.json",
+  "report": "docs/02_RESEARCH/V329_1788_ANNEX_GENERAL_RULES_CORRECTION.md",
+  "builder": "scripts/build_v329_general_rules_correction.mjs",
+  "tests": "integrations/medium-atlas-v329/integration.test.mjs",
+  "outputs": [
+    "v329_explicit_supersession_ledger.json",
+    "v329_1787_1790_rules_edition_graph.json",
+    "v329_original_witness_followup_queue.json"
+  ],
+  "counts": {
+    "sources": 12,
+    "edition_or_witness_nodes": 7,
+    "relationships": 6,
+    "corrections": 4,
+    "readings": 3,
+    "sections": 9,
+    "followup_issues": 8,
+    "direct_1898_print_pages": 2,
+    "direct_1788_or_1789_original_pages": 0
+  },
+  "publication": {
+    "draft": true,
+    "main_changed": false,
+    "webapp_deployed": false,
+    "historian_signoff": false
+  },
+  "notes": [
+    "1789 first-ever General Rules inclusion has been superseded by 1788 appendix evidence.",
+    "1788 is not yet proven earliest original inclusion.",
+    "Tigert 1898 historic print scan is not a scanned original 1788 or 1789 page.",
+    "Previous contracts preserved with explicit corrections."
+  ]
+}
