@@ -11,43 +11,26 @@
 ## 2. 파일 무결성과 재현 가능한 디지털 원본
 
 | 속성 | 실제 확인된 값 |
-
 |---|---|
-
 | 소장·디지털화 | 뉴욕공공도서관 소장본, Google 디지털화, Internet Archive ID `corpusreformato25melagoog` |
-
 | 원본 디지털 파일 | [Wikimedia Commons PDF](https://upload.wikimedia.org/wikipedia/commons/5/56/Corpus_reformatorum_%28IA_corpusreformato25melagoog%29.pdf) |
-
 | PDF | 360면, 30,637,982바이트 |
-
 | SHA-256 | `ba1995d5587375a13f5298001e7a6c42d68f1c6b161ae86335471a1c4f30b29d` |
-
 | 실물 인쇄연도 | 1859년, 『Corpus Reformatorum』 XXVII |
-
 | GitHub 검증 기록 | `42232566430`, `42232790784`, `42232985301` |
-
 | 별도 소장본 | 바이에른 주립도서관의 342스캔 사본은 별개 디지털 증거이며 이 사본과 직접 화면 교감을 하지 않음 |
 
 ## 3. PDF 페이지와 원본 인쇄 열 번호의 대응표
 
 | PDF 1부터 센 페이지 | PDF 0부터 센 번호 | 실제 책 왼쪽 열 | 실제 책 오른쪽 열 |
-
 |---:|---:|---:|---:|
-
 | 69 | 68 | 93 | 94 |
-
 | 70 | 69 | 95 | 96 |
-
 | 71 | 70 | 97 | 98 |
-
 | 72 | 71 | 99 | 100 |
-
 | 73 | 72 | 101 | 102 |
-
 | 74 | 73 | 103 | 104 |
-
 | 75 | 74 | 105 | 106 |
-
 | 76 | 75 | 107 | 108 |
 
 **인용 규칙:** 독자에게 역사 서적의 위치를 제공할 때는 **'1859년 제27권 인쇄 열 번호'**를 먼저 제시하고 PDF 쪽 번호는 뒤에 병기한다. Google Books의 검색 인용에서 표시한 숫자를 직접 서적의 열 번호로 취급하지 않는다.
@@ -55,15 +38,10 @@
 ## 4. 실제 인쇄면에서 확인한 라틴어 구절
 
 | 기록 | 신앙고백 조항 | 라틴어 핵심 구절 | 인쇄본 위치 | 검증 등급 |
-
 |---|---|---|---|---|
-
 | `V334-F1` | IV | *Gratia Dei praevenit voluntatem* | 제27권 96열 · PDF 70쪽 | `1859_CR27_PRINT_DIRECT` |
-
 | `V334-F2` | VII | *non potest citra fidei praeiudicium admitti* | 제27권 102열 · PDF 73쪽 | `1859_CR27_PRINT_DIRECT_CONTINUES_COL103` |
-
 | `V334-F3` | VII | *rituum varietatem non dissecare fidei unitatem* | 제27권 104열 · PDF 74쪽 | `1859_CR27_PRINT_DIRECT` |
-
 | `V334-F4` | VIII | *acceptatur cum sancta romana ecclesia* | 제27권 105열 · PDF 75쪽 | `1859_CR27_PRINT_DIRECT` |
 
 ### 본문 해석의 주의 사항
@@ -73,17 +51,11 @@
 ## 5. 기존 V3.33의 정정 이력 — 원본 보존
 
 | 정정 카드 | 이전 내용 | 실제 검증 후 표기 | 처리 |
-
 |---|---|---|---|
-
 | `V334-C1` | CR XXVII (1859) printed p99 / Google Books popular passage | CR XXVII (1859) printed column 96 / NYPL PDF 1-based page 70 | `CORRECT_FALSE_PRINTED_PAGE_LOCATOR` |
-
 | `V334-C2` | CR XXVII col102 quoted by 2026 commentary | CR XXVII col102 with sentence continuing across col103 / PDF pages 73–74 | `ADD_REQUIRED_CROSS_COLUMN_CONDITION` |
-
 | `V334-C3` | CR XXVII col104 mediated by CPH scholarly footnote | CR XXVII col104 / NYPL 1859 scan PDF page 74 | `UPGRADE_TO_1859_PRINT_VISUAL` |
-
 | `V334-C4` | CR XXVII col105 mediated by CPH scholarly footnote | CR XXVII col105 / NYPL 1859 scan PDF page 75 | `UPGRADE_TO_1859_PRINT_VISUAL` |
-
 | `V334-C5` | 1859 CR27 directly seen historical pages: zero | 1859 direct visibly inspected claim-supporting PDF pages 70,73,74,75 (4); 1530/1573 pages remain zero | `SUPERSEDE_WITNESS_LEVEL_NOT_MUTATE_PARENT` |
 
 V3.33의 JSON/보고서를 조용히 수정하거나 삭제하지 않고, V3.34에서 **이전 근거와 바뀐 판단의 대응관계**를 명시했다. 특히 V3.33의 직접 인쇄면 판독 0건은 당시에는 사실이었으며, 이를 소급해서 허위로 바꾸지 않는다. 이번에 새로 읽은 인쇄면을 V3.34의 별도 근거로 기록했다.
@@ -165,25 +137,15 @@ V3.33의 Google Books 검색은 이 문장을 ‘Page 99’에 배치하는 것�
 ## 8. 출처 및 근거 수준
 
 | 출처 | 사용 방법 |
-
 |---|---|
-
 | [V334-S-NYPL1859](https://commons.wikimedia.org/wiki/File:Corpus_reformatorum_(IA_corpusreformato25melagoog).pdf) | `DIGITIZED_1859_PRINT_DIRECTLY_SEEN` — 1859 edited CR27 printed columns visibly read in NYPL/Google scanned book |
-
 | [V334-S-NYPLPDF](https://upload.wikimedia.org/wikipedia/commons/5/56/Corpus_reformatorum_%28IA_corpusreformato25melagoog%29.pdf) | `HASH_VERIFIED_1859_PRINT_PDF` — 360-page 30,637,982-byte PDF; SHA256 verified with GitHub Actions |
-
 | [V334-S-BSB](https://www.digitale-sammlungen.de/de/details/bsb10360389) | `INDEPENDENT_COPY_CATALOGUE_ONLY` — 1859 CR27 Bavarian library 342 images; different digitization, not directly examined |
-
 | [V334-S-GOOGLE](https://books.google.com/books/about/Philippi_Melanthonis_Opera_quae_supersun.html?id=TMjLpAOy2zYC) | `GOOGLE_BOOKS_INDEXED_QUOTE` — Internet popular passage marked page 99, differing from original printed column 96 |
-
 | [V334-S-CPH](https://bookofconcord.cph.org/es/apologia-confesion-augsburgo/articulos-vii-y-viii-la-iglesia/) | `MODERN_EDITORIAL_NOTES` — Footnotes 169/181/184/189 cite CR27 102,104,105; independently crosschecked on 1859 image |
-
 | [V334-S-REUIV](https://thebookofconcord.org/roman-confutation/article-iv/) | `MODERN_ENGLISH_TRANSLATION` — Article IV rendering and context, not original manuscript |
-
 | [V334-S-REUVII](https://thebookofconcord.org/roman-confutation/article-vii/) | `MODERN_ENGLISH_TRANSLATION` — Article VII English witness, not original manuscript |
-
 | [V334-S-REUVIII](https://thebookofconcord.org/roman-confutation/article-viii/) | `MODERN_ENGLISH_TRANSLATION` — Article VIII English witness, not original manuscript |
-
 | [V334-S-SCHAFF](https://www.ccel.org/ccel/schaff/hcc7/hcc7.ii.ix.iv.html) | `LATER_EDITION_BIBLIOGRAPHY` — 1573 first Latin full printing reported by historical scholar |
 
 ## 9. 후속 원본 검증 대기 목록
