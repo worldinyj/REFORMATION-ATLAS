@@ -1,0 +1,41 @@
+name: Atlas V3.11 Primary Passage QA
+on:
+  pull_request:
+    paths:
+      - 'data/deep/atlas_v311_*'
+      - 'docs/02_RESEARCH/V311_*'
+      - 'docs/03_PRODUCT/V311_*'
+      - 'integrations/medium-atlas-v311/**'
+      - 'scripts/build_v311_primary_passage_delivery.mjs'
+      - '.github/workflows/atlas-v311-primary-passage.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  source-critical:
+    runs-on: ubuntu-latest
+    timeout-minutes: 9
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Validate inherited frozen corpus, source scopes and new passages
+        run: |
+          python3 scripts/check_v307_remaining_overview_readers.py
+          node --test integrations/medium-atlas-v309/overlay.test.mjs
+          node --test integrations/medium-atlas-v310/*.test.mjs
+          node --test integrations/medium-atlas-v311/*.test.mjs
+          node scripts/build_v311_primary_passage_delivery.mjs --check
+          git diff --check HEAD^ HEAD
+      - name: Reproduce export without changing corpus
+        run: node scripts/build_v311_primary_passage_delivery.mjs --export /tmp/atlas-v311-passages
+      - uses: actions/upload-artifact@v4
+        with:
+          name: atlas-v311-source-critical-json
+          path: /tmp/atlas-v311-passages
+          retention-days: 14
+          if-no-files-found: error
