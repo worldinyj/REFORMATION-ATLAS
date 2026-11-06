@@ -1,0 +1,104 @@
+{
+  "version": "3.09",
+  "status": "DRAFT",
+  "depth": "MEDIUM",
+  "review_date": "2026-11-06",
+  "scope": "V3.07 출처26개 가운데 공개 자료에 접근하여 확인한 선택 항목의 URL·서지·연대 점검. 전수 URL 가용성 보증 및 원판·학술 전문 감수 아님.",
+  "publication_gate": {
+    "published": false,
+    "main_changed": false,
+    "webapp_integrated": false,
+    "expert_approved": false
+  },
+  "patch_policy": "원래 V3.07 JSON은 변경하지 않는다. 명백히 확인된 기관 링크 1건만 V3.08 통합 결과에 별도 출처 표시와 함께 교정한다. 본문·주장 검증 상태를 변경하지 않는다.",
+  "link_corrections": [
+    {
+      "source_id": "V307-S08",
+      "original_url": "https://www.biblekorea.kr/bbs/content.php?co_id=subpage2_3_3_1_1",
+      "replacement_url": "https://www.bskorea.or.kr/bbs/content.php?co_id=subpage2_3_3_1_1",
+      "action": "REPLACE_LINK_ONLY",
+      "reason": "기록된 주소는 확인 시 502 오류. 발행 기관 대한성서공회의 공식 사이트 주소에서 동일한 한글성경 번역사·1887년 예수셩교젼셔 소개를 확인.",
+      "checked_on": "2026-11-06",
+      "evidence_level": "INSTITUTIONAL_PAGE_RETURNED",
+      "original_page_checked": false,
+      "material_reverified": false
+    }
+  ],
+  "findings": [
+    {
+      "source_id": "V307-S08",
+      "status": "LINK_REPLACEMENT_VERIFIED",
+      "severity": "P1",
+      "note": "기관 공식 출처 링크로 정정. 1882년 누가복음·요한복음과 1887년 최초 신약전서 구별이 본문에서 확인된다.",
+      "evidence_url": "https://www.bskorea.or.kr/bbs/content.php?co_id=subpage2_3_3_1_1"
+    },
+    {
+      "source_id": "V307-S23",
+      "status": "METADATA_CONFLICT",
+      "severity": "P1",
+      "note": "한국민족문화대백과사전 상단 메타 '간행 시기 1882년'은 같은 항목의 정의·본문 1887년과 불일치. 대한성서공회 및 국가유산 자료는 1887년 신약전서 간행을 뒷받침. 메타 표기만으로 연대를 바꾸지 않는다.",
+      "evidence_url": "https://encykorea.aks.ac.kr/Article/E0037972"
+    },
+    {
+      "source_id": "V307-S01",
+      "status": "SECONDARY_DATE_VARIANT",
+      "severity": "P2",
+      "note": "이승훈 관련 백과 항목은 1783년 북경 세례로 기술하나 다른 현대 자료는 1784년으로 기록. 교회사 공동체 형성의 1784년과 개인 세례일의 세부 불일치를 구분하고 확정 판정을 유보.",
+      "evidence_url": "https://encykorea.aks.ac.kr/Article/E0044963"
+    },
+    {
+      "source_id": "V307-S03",
+      "status": "PUBLIC_MODERN_ENTRY_VERIFIED",
+      "severity": "P2",
+      "note": "명례방 공동체 자료는 1784년 수표교 이벽의 집 모임, 김범우 집으로 이전, 1785년 적발을 구분. 1차 조선 기록의 직접 판독 아님.",
+      "evidence_url": "https://encykorea.aks.ac.kr/Article/E0069925"
+    },
+    {
+      "source_id": "V307-S10",
+      "status": "CURRENT_ACCESS_RESTRICTED",
+      "severity": "P2",
+      "note": "케임브리지 전시 페이지는 확인 시 403을 반환. 곧바로 원본 소장 여부 부정으로 결론 내리지 않고 접근 제한으로 표시. 대체로 사용 가능한 대한성서공회·국가유산 자료 우선.",
+      "evidence_url": "https://www.cam.ac.uk/stories/korean-bibles"
+    },
+    {
+      "source_id": "V307-S15",
+      "status": "INSTITUTIONAL_OVERVIEW_VERIFIED",
+      "severity": "P2",
+      "note": "WCC 공식 소개의 첫 총회 1948.8.22~9.4, 창립 8.23, 회원 교회 147개 확인. 총회 보고서 전체의 원판 교감과 별개.",
+      "evidence_url": "https://oikoumene.org/about-the-wcc/organizational-structure/assembly"
+    },
+    {
+      "source_id": "V307-S16",
+      "status": "SECONDARY_DOCUMENT_CONTEXT_VERIFIED",
+      "severity": "P2",
+      "note": "WCC 자체 역사 해설은 2002년 문서로 1948년 초기 Basis를 설명한다. 1948년 회의록 원본과 동일한 문서로 표기하지 않는다.",
+      "evidence_url": "https://www.oikoumene.org/resources/documents/theological-and-historical-background-of-the-wcc-basis"
+    },
+    {
+      "source_id": "V307-S18",
+      "status": "BIBLIOGRAPHY_ONLY",
+      "severity": "P3",
+      "note": "예일대 사도교부 목록은 서지 안내다. 사도교부 원전 전체를 직접 대조했다는 근거가 아님.",
+      "evidence_url": "https://guides.library.yale.edu/ancientchristianity/apostolicfathers"
+    },
+    {
+      "source_id": "V307-S19",
+      "status": "ABSTRACT_ONLY",
+      "severity": "P3",
+      "note": "Oxford Bibliographies의 페이지 접근을 확인했으나 전문 판독으로 승격하지 않는다.",
+      "evidence_url": "https://academic.oup.com/reference/62341/reference-article-abstract/561741752"
+    },
+    {
+      "source_id": "V307-S22",
+      "status": "ABSTRACT_ONLY",
+      "severity": "P3",
+      "note": "Cambridge History of the Papacy 학술서 소개/초록 접근이며 1054년 장 전문 전수 대조는 아님.",
+      "evidence_url": "https://www.cambridge.org/core/books/abs/cambridge-history-of-the-papacy/schism-of-1054/70C9594AB09FBB67487F1BF00BF7CCEE"
+    }
+  ],
+  "next_actions": [
+    "링크 교정 이후 개요 연결/원고/출처 무결성 검사를 계속 통과하는지 확인",
+    "역사 전문가 검토 대상은 세례 연도·1882/1887 판본·WCC 원문 서지순으로 정리",
+    "S10 접근 제한의 대체 소장 도판·권위 있는 서지를 추가 확인하되 원판 직접 판독으로 승격하지 않기"
+  ]
+}
