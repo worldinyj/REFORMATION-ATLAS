@@ -1,0 +1,39 @@
+name: Atlas V3.09 Source Evidence QA
+on:
+  pull_request:
+    paths:
+      - 'data/contracts/atlas_v309_*'
+      - 'integrations/medium-atlas-v309/**'
+      - 'scripts/build_v309_source_audited_delivery.mjs'
+      - 'docs/02_RESEARCH/V309_*'
+      - '.github/workflows/atlas-v309-source-audit.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  source-audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Validate prior frozen inputs and link-only correction
+        run: |
+          python3 scripts/check_v307_remaining_overview_readers.py
+          node --test integrations/medium-atlas-v308/integration.test.mjs
+          node --test integrations/medium-atlas-v309/overlay.test.mjs
+          node scripts/build_v309_source_audited_delivery.mjs --check
+          git diff --check HEAD^ HEAD
+      - name: Export source-audited 513-reader bundle
+        run: node scripts/build_v309_source_audited_delivery.mjs --export /tmp/atlas-v309-delivery
+      - uses: actions/upload-artifact@v4
+        with:
+          name: atlas-v309-source-audited-json
+          path: /tmp/atlas-v309-delivery
+          retention-days: 14
+          if-no-files-found: error
