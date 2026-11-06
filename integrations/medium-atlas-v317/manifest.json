@@ -1,8 +1,8 @@
 {
   "contractVersion": "3.17",
-  "mode": "EARLY_PRINT_ORIGINAL_WITNESS_SCOPED_EDITORIAL",
+  "mode": "EARLY_TREATY_PRINT_WITNESS_EDITORIAL_PREVIEW_ONLY",
   "canPublish": false,
-  "materialization": "V312_FROZEN_CORPUS_PLUS_V313_EDITION_INVENTORY",
+  "materialization": "V316_RATIFICATION_FROZEN_PLUS_V317_PRINT_WITNESS_NOTES",
   "inputs": [
     {
       "version": "3.04",
@@ -136,19 +136,19 @@
     "bodyCharacters": 1055,
     "originalPagesInspected": 0
   },
-  "witnessPrintInput": {
+  "printingWitnessInput": {
     "version": "3.17",
-    "path": "data/deep/atlas_v317_pre_signing_prints_and_witnesses.json",
-    "gitBlobSha1": "bc32d084b1b4f4698e006ba1d3c255f9a50f2d32"
+    "path": "data/deep/atlas_v317_early_print_original_provenance.json",
+    "gitBlobSha1": "95d3b258e114ec70ff5273f884b4a861b9bfa1e3"
   },
-  "expectedWitnessPrint": {
+  "expectedPrintingWitness": {
     "sources": 7,
-    "readings": 3,
+    "studies": 3,
     "sections": 9,
     "claims": 10,
     "unresolvedIssues": 4,
-    "bodyCharacters": 2446,
-    "archivalPagesCollated": 0,
-    "variantsVerified": 0
+    "characters": 2350,
+    "originalPagesRead": 0,
+    "variantsProven": 0
   }
 }
