@@ -18,8 +18,8 @@ test('1859 PDF file hash and printed-column to PDF page mapping match verified o
 test('V3.33 Google Books p99 localization is corrected to printed CR27 col96 PDF page70',()=>{
  const d=loadInputs();
  assert.equal(d.contract.latin_fragments.find(x=>x.id==='V334-F1').printed_col,96);
- assert.ok(d.contract.corrections.find(x=>x.id==='V334-C01').replacement.includes('column 96'));
- const bad=clone(d);bad.contract.corrections.find(x=>x.id==='V334-C01').replacement='printed p99';
+ assert.ok(d.contract.corrections.find(x=>x.id==='V334-C1').replacement.includes('column 96'));
+ const bad=clone(d);bad.contract.corrections.find(x=>x.id==='V334-C1').replacement='printed p99';
  assert.throws(()=>validateV334(bad),/The expression evaluated to a falsy value/);
 });
 test('the Article VII rejection condition crosses col102 and col103; neither may be silently omitted',()=>{
