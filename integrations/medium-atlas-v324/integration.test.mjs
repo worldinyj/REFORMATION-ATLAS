@@ -55,7 +55,7 @@ test('1784 1785 source ambiguity cannot be quietly replaced by first adoption cl
  const modified=clone(d);modified.contract.open_issues.find(x=>x.id==='V324-ISS01').sources=['SRC-UMC-GLOSSARY'];
  assert.throws(()=>validateRelationOverlay(modified),/The expression evaluated to a falsy value/);
  const overreach=clone(d);overreach.contract.typed_relations[9].to.id='V323-E26';
- assert.throws(()=>validateRelationOverlay(overreach),/1785 must remain context-only/);
+ assert.throws(()=>validateRelationOverlay(overreach),/Expected values to be strictly deep-equal|1785 must remain context-only/);
 });
 test('generated view is review only and never a production index',()=>{
  const d=loadInputs(),validated=validateRelationOverlay(d);
