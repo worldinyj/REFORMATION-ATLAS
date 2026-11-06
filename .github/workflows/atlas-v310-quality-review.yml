@@ -1,0 +1,39 @@
+name: Atlas V3.10 Scoped Source Quality QA
+on:
+  pull_request:
+    paths:
+      - 'data/contracts/atlas_v310_*'
+      - 'docs/02_RESEARCH/V310_*'
+      - 'integrations/medium-atlas-v310/**'
+      - 'scripts/build_v310_quality_review_delivery.mjs'
+      - '.github/workflows/atlas-v310-quality-review.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Verify inherited frozen 513 reader bundle and v3.09 link correction
+        run: |
+          python3 scripts/check_v307_remaining_overview_readers.py
+          node --test integrations/medium-atlas-v309/overlay.test.mjs
+          node --test integrations/medium-atlas-v310/*.test.mjs
+          node scripts/build_v310_quality_review_delivery.mjs --check
+          git diff --check HEAD^ HEAD
+      - name: Produce V3.10 audited JSONs
+        run: node scripts/build_v310_quality_review_delivery.mjs --export /tmp/atlas-v310-delivery
+      - uses: actions/upload-artifact@v4
+        with:
+          name: atlas-v310-513-reader-quality-json
+          path: /tmp/atlas-v310-delivery
+          retention-days: 14
+          if-no-files-found: error
