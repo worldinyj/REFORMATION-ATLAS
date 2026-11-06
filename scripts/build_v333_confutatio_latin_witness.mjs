@@ -61,7 +61,6 @@ export function validateV333({parent,contract}){
  assert.equal(events.get('V333-D03').type,'COCHLAEUS_SUMMARY_NOT_FULL_CONFUTATIO');
  assert.equal(events.get('V333-D04').date,'1573');
  assert.equal(events.get('V333-D04').type,'FIRST_FULL_LATIN_CONFUTATIO_PRINT_FABRICIUS');
- assert.deepEqual(events.filter?.(x=>x.first_published_latin_full_text),undefined);
  assert.deepEqual(contract.publication_stages.filter(x=>x.first_published_latin_full_text).map(x=>x.id),['V333-D04']);
  assert.equal(events.get('V333-D05').type,'GERMAN_ARCHIVAL_CRITICAL_PUBLICATION_MUELLER');
  assert.equal(events.get('V333-D06').type,'CORPUS_REFORMATORUM_27_MULTIWITNESS_CRITICAL_EDITION');
