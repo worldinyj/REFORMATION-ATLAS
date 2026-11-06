@@ -1,0 +1,38 @@
+name: Atlas V3.13 Edition And Archive Provenance QA
+on:
+  pull_request:
+    paths:
+      - 'data/contracts/atlas_v313_*'
+      - 'docs/02_RESEARCH/V313_*'
+      - 'integrations/medium-atlas-v313/**'
+      - 'scripts/build_v313_edition_provenance.mjs'
+      - '.github/workflows/atlas-v313-edition-provenance.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  edition-provenance:
+    runs-on: ubuntu-latest
+    timeout-minutes: 9
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Check frozen V312 and V313 edition provenance
+        run: |
+          node --test integrations/medium-atlas-v312/*.test.mjs
+          node --test integrations/medium-atlas-v313/*.test.mjs
+          node scripts/build_v313_edition_provenance.mjs --check
+          git diff --check HEAD^ HEAD
+      - name: Export separate catalogue and editorial delivery
+        run: node scripts/build_v313_edition_provenance.mjs --export /tmp/atlas-v313-editions
+      - uses: actions/upload-artifact@v4
+        with:
+          name: atlas-v313-archive-edition-provenance-json
+          path: /tmp/atlas-v313-editions
+          retention-days: 14
+          if-no-files-found: error
