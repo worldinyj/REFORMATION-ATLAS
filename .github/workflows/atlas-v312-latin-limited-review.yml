@@ -1,0 +1,38 @@
+name: Atlas V3.12 Limited Latin Concordance QA
+on:
+  pull_request:
+    paths:
+      - 'data/deep/atlas_v312_*'
+      - 'docs/02_RESEARCH/V312_*'
+      - 'integrations/medium-atlas-v312/**'
+      - 'scripts/build_v312_latin_concordance.mjs'
+      - '.github/workflows/atlas-v312-latin-limited-review.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  source-comparison:
+    runs-on: ubuntu-latest
+    timeout-minutes: 9
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Check inherited research and Latin-English pairing
+        run: |
+          node --test integrations/medium-atlas-v311/*.test.mjs
+          node --test integrations/medium-atlas-v312/*.test.mjs
+          node scripts/build_v312_latin_concordance.mjs --check
+          git diff --check HEAD^ HEAD
+      - name: Export Latin comparison editorial JSON
+        run: node scripts/build_v312_latin_concordance.mjs --export /tmp/atlas-v312-latin
+      - uses: actions/upload-artifact@v4
+        with:
+          name: atlas-v312-latin-scoped-concordance-json
+          path: /tmp/atlas-v312-latin
+          retention-days: 14
+          if-no-files-found: error
