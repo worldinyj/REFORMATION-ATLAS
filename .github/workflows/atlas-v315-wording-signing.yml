@@ -1,0 +1,38 @@
+name: Atlas V3.15 Source Wording and Treaty Signing QA
+on:
+  pull_request:
+    paths:
+      - 'data/deep/atlas_v315_*'
+      - 'docs/02_RESEARCH/V315_*'
+      - 'integrations/medium-atlas-v315/**'
+      - 'scripts/build_v315_wording_delivery.mjs'
+      - '.github/workflows/atlas-v315-wording-signing.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  critical-reading:
+    runs-on: ubuntu-latest
+    timeout-minutes: 9
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Validate prior attestation, new Latin fragments and original preservation
+        run: |
+          node --test integrations/medium-atlas-v314/*.test.mjs
+          node --test integrations/medium-atlas-v315/*.test.mjs
+          node scripts/build_v315_wording_delivery.mjs --check
+          git diff --check HEAD^ HEAD
+      - name: Export V3.15 source-critical preview JSON
+        run: node scripts/build_v315_wording_delivery.mjs --export /tmp/atlas-v315-wording
+      - uses: actions/upload-artifact@v4
+        with:
+          name: atlas-v315-critical-wording-json
+          path: /tmp/atlas-v315-wording
+          retention-days: 14
+          if-no-files-found: error
