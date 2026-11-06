@@ -1,0 +1,508 @@
+{
+  "version": "3.26",
+  "status": "DRAFT",
+  "depth": "MEDIUM",
+  "research_date": "2026-11-06",
+  "publication_gate": {
+    "published": false,
+    "main_changed": false,
+    "webapp_integrated": false,
+    "historian_approved": false
+  },
+  "parent": {
+    "version": "3.25",
+    "pr": 167,
+    "branch": "research/atlas-v325-evidence-strength-priority-audit",
+    "head_sha": "0539c0cfd1645c365e7d325aae11d28980a10607",
+    "locked_prior_contract_blob_sha": "dbe86ae0915bd4ebe6fbb89cec4705ae7db15fba"
+  },
+  "preserve": {
+    "readers": 513,
+    "reader_sections": 1539,
+    "sources": 723,
+    "overviews": 97,
+    "selected_claims": 22,
+    "curated_events": 26,
+    "relations": 12,
+    "previous_priority_issues": 6
+  },
+  "focus_issue_id": "V324-ISS01",
+  "source_records": [
+    {
+      "id": "M326-01",
+      "title": "United Methodist Church, Christmas Conference: 10 days that started a church",
+      "url": "https://www.umc.org/en/content/the-christmas-conference-10-days-that-started-a-church",
+      "level": "MODERN_DENOMINATIONAL_HISTORICAL_NARRATIVE",
+      "locator": "Conference convening December 24, 1784 at Lovely Lane; no conference minutes survive",
+      "reading_status": "ONLINE_ARTICLE_READ",
+      "is_1785_original": false
+    },
+    {
+      "id": "M326-02",
+      "title": "Wesley Center: The Journal of Francis Asbury, Vol.1 ch.13",
+      "url": "https://wesley.nnu.edu/other-theologians/francis-asbury/the-journal-and-letters-of-francis-asbury-volume-i/francis-asbury-the-journal-vol-1-chapter-13/",
+      "level": "EDITED_HISTORICAL_PRIMARY_TEXT_LATER_TRANSCRIPTION",
+      "locator": "Friday Dec 24 initial session; dated superintendent attestation 27 December 1784",
+      "reading_status": "ONLINE_HISTORICAL_EDITION_EXCERPT_READ",
+      "is_1785_original": false
+    },
+    {
+      "id": "M326-03",
+      "title": "Bridwell Library, 1785 Coke/Asbury minutes bibliographic holding",
+      "url": "https://bridwell.omeka.net/exhibits/show/asbury/item/497",
+      "level": "HOLDING_INSTITUTION_1785_BIBLIOGRAPHIC_METADATA",
+      "locator": "LTCH X544; title has 'Monday the 27th of December, in the Year 1784'; imprint Philadelphia Printed by Charles Cist 1785",
+      "reading_status": "LIBRARY_ITEM_METADATA_READ",
+      "is_1785_original": false
+    },
+    {
+      "id": "M326-04",
+      "title": "Bridwell Library, Minutes of Several Conversations exhibition",
+      "url": "https://bridwell.omeka.net/exhibits/show/asbury/minutescoke",
+      "level": "SPECIAL_COLLECTIONS_HISTORICAL_EXHIBITION",
+      "locator": "1785 published conference deliberations; 1784 church organization and first discipline",
+      "reading_status": "ONLINE_EXHIBITION_READ",
+      "is_1785_original": false
+    },
+    {
+      "id": "M326-05",
+      "title": "WorldCat, OCLC 62832611 bibliographic description",
+      "url": "https://search.worldcat.org/ko/title/62832611",
+      "level": "NATIONAL_NETWORK_LIBRARY_CATALOGUE_METADATA",
+      "locator": "Philadelphia Charles Cist 1785; M.DCC.LXXXV; 35 [1] pages; published title has 27 Dec 1784 date",
+      "reading_status": "CATALOGUE_INDEX_TEXT_READ",
+      "is_1785_original": false
+    },
+    {
+      "id": "M326-06",
+      "title": "Wikimedia Commons Princeton Seminary bound copy",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Sunday_service_of_the_Methodists_in_North_America_-_with_other_occasional_services_(IA_amernorfm00wesl).pdf",
+      "level": "CONTEMPORARY_MIXED_BOUND_COPY_CATALOGUE_NOT_PAGES",
+      "locator": "468-page scanned composite; 1784 The Sunday Service, 1785 Collection of Psalms and Hymns, 1785 Charles Cist Minutes bound together",
+      "reading_status": "CATALOGUE_AND_FILE_METADATA_ONLY_PDF_TOO_LARGE_TO_OPEN",
+      "is_1785_original": false
+    },
+    {
+      "id": "M326-07",
+      "title": "John J. Tigert, The Making of Methodism (1898), page 100",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/The_making_of_Methodism-_studies_in_the_genesis_of_institutions_%28IA_cu31924009792353%29.pdf",
+      "level": "SCANNED_1898_RETROSPECTIVE_HISTORICAL_PRINT_PAGE",
+      "locator": "printed p.100 (PDF pageno 137): exact reconstructed 1785 title including M,DCC,LXXXV; 81 question-answer items; original title said meeting started 27 Dec",
+      "reading_status": "1898_PRINT_PAGE_SCREENSHOT_VISUALLY_VERIFIED_NOT_1785_ORIGINAL",
+      "is_1785_original": false
+    },
+    {
+      "id": "M326-08",
+      "title": "Pitts Theology Library Emory, Religion of the Heart (2018) catalogue",
+      "url": "https://dia.pitts.emory.edu/exhibits/exhibitcatalogs/Pitts_WesleyanaExhibitionCatalog_Spring2018.pdf",
+      "level": "ACADEMIC_EXHIBITION_CATALOGUE",
+      "locator": "printed p.83 about first Discipline dated 1785; catalogue states question-answer presentation and history; PDF text read, screenshot of this PDF unavailable due timeout",
+      "reading_status": "PDF_TEXT_ONLY_SCREENSHOT_UNAVAILABLE",
+      "is_1785_original": false
+    },
+    {
+      "id": "M326-09",
+      "title": "UMC FAQ: When was first Book of Discipline created? (2019)",
+      "url": "https://www.umc.org/en/content/ask-the-umc-when-was-the-first-book-of-discipline-created",
+      "level": "DENOMINATIONAL_EDITORIAL_FAQ_WITH_SMALL_HISTORIC_BOOK_PHOTO",
+      "locator": "Calls first 1784 edition 81 questions adopted at 1784 Conference; original title of Minutes; photo supplied by Bridwell library",
+      "reading_status": "WEB_PAGE_AND_SMALL_PUBLIC_PHOTO_VISIBLE_NOT_FULL_BOOK_SCAN",
+      "is_1785_original": false
+    },
+    {
+      "id": "M326-10",
+      "title": "United Methodist Church Doctrinal Standards in American Methodism",
+      "url": "https://www.umc.org/en/content/doctrinal-standards-in-american-methodism",
+      "level": "DENOMINATIONAL_OFFICIAL_HISTORICAL_DOCTRINE_ACCOUNT",
+      "locator": "Christmas Conference Dec 1784 adopted slightly modified General Rules; adapted British Large Minutes",
+      "reading_status": "ONLINE_ARTICLE_READ",
+      "is_1785_original": false
+    },
+    {
+      "id": "M326-11",
+      "title": "United Methodist Church Glossary: General Rules",
+      "url": "https://www.umc.org/en/content/glossary-general-rules-the",
+      "level": "LATER_1991_DENOMINATIONAL_DICTIONARY_TEXT",
+      "locator": "1738 formulated, 1743 pamphlet, 1785 approved by American Methodist church; no separate 1785 approval act identified",
+      "reading_status": "ONLINE_GLOSSARY_READ",
+      "is_1785_original": false
+    },
+    {
+      "id": "M326-12",
+      "title": "Wesley Center: History of MEC Vol.2 Book III chapter 4",
+      "url": "https://wesley.nnu.edu/holiness-classics-library/history-of-the-methodist-episcopal-church/volume-2-book-iii-chapter-4/",
+      "level": "NINETEENTH_CENTURY_RETROSPECTIVE_HISTORICAL_TEXT",
+      "locator": "No customary journal published/preserved; compiled 1785 Discipline; cautions late reprint sectional form cannot be conflated with first 81 Q/A form",
+      "reading_status": "HISTORICAL_EDITED_WEB_TEXT_READ",
+      "is_1785_original": false
+    },
+    {
+      "id": "M326-13",
+      "title": "Vanderbilt Divinity Library, early Methodist discipline",
+      "url": "https://exhibitions.library.vanderbilt.edu/forging-a-nation/item/methodist-episcopal-church/",
+      "level": "ACADEMIC_LIBRARY_EXHIBITION_HOLDING_1788",
+      "locator": "1788 printed Form held; historical explanation initial discipline first published 1785",
+      "reading_status": "ONLINE_EXHIBITION_READ_1788_NOT_1785_HELD_COPY",
+      "is_1785_original": false
+    },
+    {
+      "id": "M326-14",
+      "title": "Historical article Christian conferencing (2020)",
+      "url": "https://www.umc-cse.org/download/E51ShK2BzxU/Executive-Committee-CC-CSE-2020-in-Vienna.pdf",
+      "level": "TWENTY_FIRST_CENTURY_DENOMINATIONAL_HISTORICAL_STUDY",
+      "locator": "First American Minutes printed in 1785; British Large Minutes format earlier; PDF passage accessible as web text",
+      "reading_status": "INDEX_EXCERPT_ONLY_NOT_SCANNED_1785",
+      "is_1785_original": false
+    }
+  ],
+  "dated_acts": [
+    {
+      "id": "M326-E01",
+      "date": "1784-12-24",
+      "precision": "DAY",
+      "type": "CONFERENCE_OPENING_HISTORIC_RECONSTRUCTION",
+      "label": "볼티모어 러블리레인 예배당에서 크리스마스 연회 개회",
+      "source_ids": [
+        "M326-01",
+        "M326-02"
+      ],
+      "independent_original_conference_minutes": false
+    },
+    {
+      "id": "M326-E02",
+      "date": "1784-12-27",
+      "precision": "DAY",
+      "type": "DATE_ON_1785_PRINTED_BOOK_TITLE",
+      "label": "1785년판 표제지에 기재된 회의 시작일, 일반적 연회 개회일과 구분 필요",
+      "source_ids": [
+        "M326-03",
+        "M326-05",
+        "M326-07"
+      ],
+      "independent_original_conference_minutes": false
+    },
+    {
+      "id": "M326-E03",
+      "date": "1784-12",
+      "precision": "MONTH",
+      "type": "DECISION_ORGANIZATION_GENERAL_RULES_ADOPTION_LATER_REPORT",
+      "label": "연회 기간 교회 조직·수정 규칙 채택을 기록한 후대 공식 해설",
+      "source_ids": [
+        "M326-01",
+        "M326-10"
+      ],
+      "independent_original_conference_minutes": false
+    },
+    {
+      "id": "M326-E04",
+      "date": "1785",
+      "precision": "YEAR",
+      "type": "PRINT_IMPRINT_1785_CIST_MINUTES",
+      "label": "필라델피아 찰스 시스트 인쇄·간행 35쪽 내외 초기 규정집",
+      "source_ids": [
+        "M326-03",
+        "M326-05",
+        "M326-07"
+      ],
+      "independent_original_conference_minutes": false
+    },
+    {
+      "id": "M326-E05",
+      "date": "1785",
+      "precision": "YEAR",
+      "type": "APPROVAL_WORDING_IN_LATER_GLOSSARY_UNRESOLVED",
+      "label": "후대 교단 용어사전의 '1785 승인' 표현",
+      "source_ids": [
+        "M326-11"
+      ],
+      "independent_original_conference_minutes": false
+    }
+  ],
+  "claim_cards": [
+    {
+      "id": "M326-C01",
+      "date": "1784-12-24",
+      "source_ids": [
+        "M326-01",
+        "M326-02"
+      ],
+      "claim": "교회 조직을 위한 연회는 크리스마스이브에 개회한 것으로 역사 서술에 나타난다",
+      "type": "HISTORIC_CONFERENCE_OPENING",
+      "expert_approved": false,
+      "original_1785_full_page_collated": false
+    },
+    {
+      "id": "M326-C02",
+      "date": "1784-12-27",
+      "source_ids": [
+        "M326-03",
+        "M326-05",
+        "M326-07"
+      ],
+      "claim": "1785년판은 표제지에서 1784년 12월 27일을 회의 시작일이라고 부른다",
+      "type": "PRINTED_TITLE_REPORTED",
+      "expert_approved": false,
+      "original_1785_full_page_collated": false
+    },
+    {
+      "id": "M326-C03",
+      "date": "1785",
+      "source_ids": [
+        "M326-03",
+        "M326-05"
+      ],
+      "claim": "1785년 간행 표시는 필라델피아 찰스 시스트와 연계된다",
+      "type": "PUBLICATION_IMPRINT",
+      "expert_approved": false,
+      "original_1785_full_page_collated": false
+    },
+    {
+      "id": "M326-C04",
+      "date": "1785",
+      "source_ids": [
+        "M326-05"
+      ],
+      "claim": "WorldCat 등록 원본문헌의 분량은 35,[1]쪽이며 독립 인쇄본의 서지이다",
+      "type": "HOLDING_CATALOGUE",
+      "expert_approved": false,
+      "original_1785_full_page_collated": false
+    },
+    {
+      "id": "M326-C05",
+      "date": "1785",
+      "source_ids": [
+        "M326-07",
+        "M326-09"
+      ],
+      "claim": "초판에는 81개 문답이라는 문헌 구조가 있다",
+      "type": "FORMAL_STRUCTURE_HISTORICAL_RECONSTRUCTION",
+      "expert_approved": false,
+      "original_1785_full_page_collated": false
+    },
+    {
+      "id": "M326-C06",
+      "date": "1784-12",
+      "source_ids": [
+        "M326-01",
+        "M326-10"
+      ],
+      "claim": "교회 조직·일반 규칙의 수정 채택은 1784년 연회 행위로 후대 공식 기관이 설명한다",
+      "type": "DECISION_NOT_PRINTING",
+      "expert_approved": false,
+      "original_1785_full_page_collated": false
+    },
+    {
+      "id": "M326-C07",
+      "date": "1785",
+      "source_ids": [
+        "M326-11"
+      ],
+      "claim": "교단 용어사전은 1785년 일반 규칙 승인이라는 다른 표현을 보존한다",
+      "type": "UNRESOLVED_APPROVAL_WORDING",
+      "expert_approved": false,
+      "original_1785_full_page_collated": false
+    },
+    {
+      "id": "M326-C08",
+      "date": "1784",
+      "source_ids": [
+        "M326-06"
+      ],
+      "claim": "원자료가 여러 종류의 1784년·1785년 문헌을 합철해 보존할 수 있다",
+      "type": "BOUND_VOLUME_NOT_SINGLE_IMPRINT",
+      "expert_approved": false,
+      "original_1785_full_page_collated": false
+    },
+    {
+      "id": "M326-C09",
+      "date": "1784-12",
+      "source_ids": [
+        "M326-01",
+        "M326-12"
+      ],
+      "claim": "크리스마스 연회의 통상적 별도 회의록 원고는 전해지지 않는다고 설명된다",
+      "type": "NO_STANDALONE_MINUTES_ATTESTED_BY_LATER_HISTORIANS",
+      "expert_approved": false,
+      "original_1785_full_page_collated": false
+    },
+    {
+      "id": "M326-C10",
+      "date": "1785",
+      "source_ids": [
+        "M326-08",
+        "M326-13"
+      ],
+      "claim": "대학도서관 전시도 최초 미국 감리교회 규정집 발행연도를 1785년으로 설명한다",
+      "type": "INDEPENDENT_INSTITUTIONAL_CROSSCHECK",
+      "expert_approved": false,
+      "original_1785_full_page_collated": false
+    },
+    {
+      "id": "M326-C11",
+      "date": "1787",
+      "source_ids": [
+        "M326-12"
+      ],
+      "claim": "나중 규정집의 절·조항 배열을 1785년 문답판의 원래 형식으로 소급하는 것은 위험하다",
+      "type": "LATER_EDITION_LAYOUT_WARNING",
+      "expert_approved": false,
+      "original_1785_full_page_collated": false
+    },
+    {
+      "id": "M326-C12",
+      "date": "1784-12-24",
+      "source_ids": [
+        "M326-02",
+        "M326-03"
+      ],
+      "claim": "회의 첫 개회일과 출판물의 기재 회의일 간 차이는 원본 연회 기록 미대조 상태에서 삭제하면 안 된다",
+      "type": "UNRESOLVED_DATE_RECONCILIATION",
+      "expert_approved": false,
+      "original_1785_full_page_collated": false
+    }
+  ],
+  "readings": [
+    {
+      "id": "M326-D01",
+      "title": "왜 교단의 1784년 첫 규정집과 도서관의 1785년 초판은 반드시 충돌하지 않는가",
+      "overview_ids": [
+        "OV-D-017",
+        "OV-E-027"
+      ],
+      "sections": [
+        {
+          "heading": "1784년 크리스마스 연회는 결정을 내린 자리였다",
+          "body": "영국 감리교 운동에서 발전한 미국 설교자들은 1784년 12월 볼티모어에 모여 새로운 감리교회의 조직과 예배·목회 체계를 논의했다. 교회 공식 역사 해설은 12월 24일 개회와 수정된 일반 규칙 채택을 강조한다. 이 결정이 이루어진 해를 나중 출판물의 인쇄연도로 그대로 옮겨 적어서는 안 된다."
+        },
+        {
+          "heading": "1785년 서지의 저자·인쇄인과 책 제목",
+          "body": "브리드웰 도서관이 기술한 희귀 인쇄본은 코크·애즈베리 등 지도자들의 대화를 모은 『Minutes of Several Conversations』로, 필라델피아 찰스 시스트 인쇄와 1785년 간행연도를 보여 준다. 월드캣도 로마숫자 M,DCC,LXXXV를 1785년으로 해독하고 35쪽과 추가 1쪽의 분량을 기록한다. 도서관이 이 책을 '1785년판'으로 부르는 이유는 제목 속 1784년 회의 날짜가 아니라 인쇄 서지 때문이다."
+        },
+        {
+          "heading": "후대 판본의 이름을 초판 본문과 바꾸지 말 것",
+          "body": "1898년에 발간된 존 제임스 타이거트의 초기 감리교회 연구는 1785년 첫 규정집을 81개 문답이 연속된 체제로 설명한다. 이는 훗날 절·조항으로 구성된 개정 규정집의 형식과 구별된다. ATLAS는 1785년 초판에서 직접 확인하지 않은 1787년 이후의 조항 번호를 그 초판의 인용 위치처럼 적지 않는다."
+        }
+      ]
+    },
+    {
+      "id": "M326-D02",
+      "title": "12월 24일과 27일: 한 회의의 두 개회일 기록 읽기",
+      "overview_ids": [
+        "OV-E-027"
+      ],
+      "sections": [
+        {
+          "heading": "역사적 개회일의 전승",
+          "body": "미국 감리교회의 성립을 설명하는 현대 교단 서술과 애즈베리 저널의 후대 편집본은 1784년 12월 24일 오전 러블리레인 회의장에서 첫 총회가 시작되었다고 기록한다. 이 서술은 역사적으로 알려진 모임의 시작 시점을 가리키는 것이다."
+        },
+        {
+          "heading": "그런데 1785년 책 제목에는 27일이 등장한다",
+          "body": "코크·애즈베리의 『회의록』은 표제지에서 1784년 12월 27일 월요일에 볼티모어에서 시작된 회의라고 명시한다. 1898년 역사 저술은 이 문구를 당시 인쇄본의 제목으로 정확히 옮겨 놓았다. 이 차이를 단순히 27일 오타라고 처리하거나 24일이 잘못되었다고 정정해서는 안 된다. 12월 27일이 편집·공식 기록·부분 회의의 시작을 뜻하는지에는 별도 판본·일지 교감이 필요하다."
+        },
+        {
+          "heading": "독자 화면에서 날짜를 어떻게 표기할까",
+          "body": "연표의 메인 사건은 '1784.12.24, 크리스마스 연회 개회(역사 해설 기준)'로 기록하고, 문헌 표제지에는 '1784.12.27 표기, 1785년판 서지'라고 별도 주석을 단다. 양쪽 기록을 연결하되 독자에게 하루하루의 의사일정이 이미 전부 복원되었다고 표현하지 않는다. 1784년 회의의 독립적인 완전한 회의록이 남아 있지 않다는 점도 역사적 맥락에 포함한다."
+        }
+      ]
+    },
+    {
+      "id": "M326-D03",
+      "title": "일반 규칙과 규정집: 채택과 출판과 수용의 세 층위",
+      "overview_ids": [
+        "OV-D-017",
+        "OV-P-024"
+      ],
+      "sections": [
+        {
+          "heading": "1738년의 규칙 형성과 1743년의 영국 출판",
+          "body": "감리교회 용어사전은 웨슬리가 1738년에 감리교 신앙회의 생활 규칙을 마련하고 1743년에 소책자로 출판했다고 설명한다. 이 배경이 있으므로 1784년 미국 감리교회가 '일반 규칙'을 다시 채택했다고 해서 그 규칙 자체가 미국에서 처음 만들어졌다는 뜻은 아니다."
+        },
+        {
+          "heading": "1784년 채택과 1785년 인쇄를 다른 문서 행위로",
+          "body": "1784년의 크리스마스 연회에서는 새 교회의 조직, 예배·교리 문서의 도입, 수정된 일반 규칙 채택 등이 이루어졌다고 공식 기관이 설명한다. 이후 그 결정과 조직 규정을 문답식으로 기록한 최초 『회의록·규정집』이 1785년 인쇄되었다. 따라서 '1784년 채택'과 '1785년 규정집 출판'은 별개의 사건으로 연결되어야 한다."
+        },
+        {
+          "heading": "1785년 별도의 승인 결정을 확정할 수 있는가",
+          "body": "1991년 감리교 사전의 온라인 재수록은 '1785년 승인'이라고 표현하지만, 현재 검토한 웹 자료에서는 이 문구가 1784년 연회 채택과 독립적인 또 하나의 법적 결정이었다고 입증하지 못한다. 무엇이 승인되었는지(원래 일반 규칙, 미국 교회를 위해 수정된 규칙, 인쇄된 교회 규정집)를 독립적으로 구별해야 한다. 1785년 책의 제반 문답과 당시 회의록의 정확한 조항을 원전으로 대조하기 전에는 이 문제를 추정으로 해결하지 않는다."
+        }
+      ]
+    }
+  ],
+  "open_issues": [
+    {
+      "id": "M326-U01",
+      "risk": "DEC24_DEC27_TITLE_DIFFERENCE",
+      "status": "OPEN",
+      "detail": "True opening described as Dec 24 but 1785 printed title says began Monday Dec 27; cannot determine exact reason without session diary/editorial source",
+      "next": "Compare Coke and Asbury journals and correspondence with first edition exact image/title and possible formal agenda date"
+    },
+    {
+      "id": "M326-U02",
+      "risk": "1785_GENERAL_RULES_APPROVAL",
+      "status": "OPEN",
+      "detail": "1991 denominational glossary says rules approved 1785; 1784 doctrinal history says conference adopted slightly modified rules; no proof of separate 1785 juridical vote",
+      "next": "Compare official 1785 discipline Q/A and later 1787-1788 editions including when standalone General Rules were appended"
+    },
+    {
+      "id": "M326-U03",
+      "risk": "1785_FULL_BODY_SCAN",
+      "status": "NOT_INSPECTED",
+      "detail": "Princeton 468 page bound digital PDF identified; web PDF fetch too large and archive.org redirect blocked",
+      "next": "Use library-held individual high-resolution pages or approved library digitization to inspect title, Q numbers, rules and imprint"
+    },
+    {
+      "id": "M326-U04",
+      "risk": "1784_MINUTES_SURVIVAL",
+      "status": "ONLY_LATER_HISTORICAL_DESCRIPTION",
+      "detail": "UMC states no stand-alone Christmas Conference minutes survive; 1785 printed Minutes are later published normative text, not surviving verbatim journal",
+      "next": "Compare 1785 printed preface with contemporaneous diaries; avoid treating title as complete daily minutes"
+    },
+    {
+      "id": "M326-U05",
+      "risk": "HISTORICAL_PRINT_VERSUS_LATER_EDITION",
+      "status": "NOT_COLLATED",
+      "detail": "1785 81 Q/A, later sectional edition and 1788 copy cannot be merged without printed folio collation",
+      "next": "Acquire original editions 1785, 1787, 1788 and distinguish their structures and appended General Rules"
+    }
+  ],
+  "observed_source_levels": {
+    "historical_1898_print_page_visually_examined": 1,
+    "historical_1898_print_page": "printed p.100, PDF pageno 137; 1898 historiography not 1785 original",
+    "contemporary_1785_full_text_pages_visually_inspected": 0,
+    "independent_1784_christmas_conference_journal_read": 0,
+    "composite_1784_1785_scan_read": 0
+  },
+  "adjudication": {
+    "resolved": "1784 conference organization and 1785 first Philadelphia Cist print are distinct events supported by modern historical account and catalogued printing; 1785 title explicitly includes 1784 Dec 27",
+    "partially_resolved": "Different date roles support a defensible reader-oriented separation of conference opening, title-declared date and imprint year",
+    "not_resolved": "Why 1785 book title says Dec 27 while separate historical reconstructions say opened Dec 24; existence of an independent 1785 vote approving General Rules; exact contents of 1785 print without original full text",
+    "rejected_overclaim": "Do not say first Methodist General Rules were approved solely and for the first time on 1785, do not say 1784 first Discipline physical print when catalogues date Charles Cist impression 1785"
+  },
+  "suggested_reader_copy": {
+    "meeting": "1784년 12월 24일 크리스마스 연회 개회(교단 역사·후대 저널 편집본 기준)",
+    "titled_conference_date": "1785년판 문헌의 표제는 1784년 12월 27일 개회로 표기",
+    "imprint": "1785년 필라델피아 찰스 시스트 인쇄·출판",
+    "general_rules": "1784년 교단 조직 과정에서 수정된 일반 규칙 채택(교단 역사 해설); 1785년 별도 승인 여부 원자료 검증 대기",
+    "public_release_allowed": false
+  },
+  "blocked_reading": [
+    "1784년 규정집 초판 인쇄를 실물 서지 확인 없이 단정",
+    "1784년 12월 24일=1785년판 책 제목의 12월 27일 날짜로 조용히 대체",
+    "크리스마스 연회 개회일 12월 27일만 확정",
+    "1785년 최초이자 유일한 규칙 승인 확정",
+    "1785년판을 1787·1788년판의 절·조항 형식으로 인용",
+    "1784년 예배서가 묶인 합철본 전체를 1784년 동일 출판물로 취급"
+  ],
+  "metrics": {
+    "source_records": 14,
+    "stage_records": 5,
+    "claim_cards": 12,
+    "readings": 3,
+    "reading_sections": 9,
+    "unresolved": 5,
+    "actual_1785_original_pages_collated": 0,
+    "reviewed_1898_historical_reprint_pages": 1,
+    "direct_1784_conference_minutes_read": 0,
+    "prior_513_mutations": 0
+  }
+}
