@@ -1,0 +1,23 @@
+name: Atlas V3.20 IPM 1648 witness provenance gate
+on:
+  push:
+    branches:
+      - research/atlas-v320-ipm1648-witness-provenance
+  pull_request:
+    paths:
+      - 'data/contracts/atlas_v320_ipm1648_witness_provenance.json'
+      - 'docs/02_RESEARCH/V320_IPM_1648_CATALOGUE_PROVENANCE.md'
+      - 'integrations/medium-atlas-v320/**'
+      - '.github/workflows/atlas-v320-ipm-witness-provenance.yml'
+jobs:
+  v320_evidence_gate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify inherited V3.19 and V3.20 witness taxonomy
+        run: node --test integrations/medium-atlas-v319/integration.test.mjs integrations/medium-atlas-v320/integration.test.mjs
