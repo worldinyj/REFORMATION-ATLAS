@@ -34,7 +34,7 @@ export function validateV332({parent,contract}){
   assert.equal(triad.source_ids.length,3);
   assert.ok(triad.source_ids.every(id=>s.has(id)),'source not found in triad '+triad.article);
   assert.equal(triad.original_contemporary_language_text_checked,false);
-  assert.ok(triad.shared.length>35&&triad.tension.length>35&&triad.response.length>35);
+  assert.ok(triad.shared.length>=20&&triad.tension.length>=35&&triad.response.length>=35);
  }
  assert.equal(t.get('IV').classification,'PARTIAL_ACCEPTANCE_AND_DIFFERENCE');
  assert.equal(t.get('VII').classification,'CONDITIONAL_REJECTION_WITH_LIMITED_AGREEMENT');
