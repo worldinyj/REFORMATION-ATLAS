@@ -1,0 +1,33 @@
+name: Atlas V3.07 Remaining 18 Reader QA
+on:
+  pull_request:
+    paths:
+      - 'data/deep/atlas_v307_*'
+      - 'docs/01_CONTENT/V307_*'
+      - 'scripts/check_v307_remaining_overview_readers.py'
+      - '.github/workflows/atlas-v307-remaining-overview.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  reader-consistency:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Verify V3.05 and V3.07 manuscript snapshots
+        run: |
+          python3 scripts/build_v305_pietism_revival_readers.py --check
+          python3 scripts/check_v307_remaining_overview_readers.py
+      - name: Verify inherited 495-reader generator contract
+        run: |
+          node scripts/build_v306_integrated_delivery.mjs --check
+          node --test integrations/medium-atlas-v306/integration.test.mjs
+      - name: Prove changed files have no whitespace corruption
+        run: git diff --check HEAD^ HEAD
