@@ -8,6 +8,9 @@ const check=(v,m)=>{if(!v)throw Error('V310 quality overlay: '+m);};
 export function assembleV310(inputs,v309Audit,v310Audit){
   const prior=assembleV309(inputs,v309Audit);
   const {delivery:b,crosswalk:x}=prior;
+  const frozenReaders=structuredClone(b.readers),frozenSources=structuredClone(b.sources);
+  const frozenClaimAudit=structuredClone(b.source_verification);
+  const frozenOverviewRecords=structuredClone(x.entries.map(r=>r.overview_record));
   check(b.readers.length===513&&b.sources.length===723&&x.entries.length===97,'base input counts');
   check(v310Audit?.version==='3.10'&&v310Audit.status==='DRAFT'&&v310Audit.depth==='MEDIUM','audit version');
   check(v310Audit.publication_gate&&Object.values(v310Audit.publication_gate).every(v=>v===false),'audit publication HOLD');
@@ -85,11 +88,11 @@ export function assembleV310(inputs,v309Audit,v310Audit){
   x.quality_audit={version:'3.10',audited_limited_overviews:19,patched_overviews:10,source_reading_dossiers:6,
     expert_approved:false,scope:'Navigation and source reading notes, not full historical review or live-app integration'};
   check(b.readers.length===513&&b.sources.length===723,'mutable content counts');
-  check(JSON.stringify(b.readers)===JSON.stringify(prior.delivery.readers),'reader body drift');
-  check(JSON.stringify(b.sources)===JSON.stringify(prior.delivery.sources),'source URL or status drift');
-  check(JSON.stringify(b.source_verification)===JSON.stringify(prior.delivery.source_verification),'claim drift');
+  check(JSON.stringify(b.readers)===JSON.stringify(frozenReaders),'reader body drift');
+  check(JSON.stringify(b.sources)===JSON.stringify(frozenSources),'source URL or status drift');
+  check(JSON.stringify(b.source_verification)===JSON.stringify(frozenClaimAudit),'claim drift');
   check(JSON.stringify(x.entries.map(r=>r.overview_record))===
-    JSON.stringify(prior.crosswalk.entries.map(r=>r.overview_record)),'overview source record drift');
+    JSON.stringify(frozenOverviewRecords),'overview source record drift');
   check(Object.values(b.publication_gate).every(v=>v===false)&&Object.values(x.publication_gate).every(v=>v===false),
     'publication gate revoked');
   return {delivery:b,crosswalk:x};
