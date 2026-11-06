@@ -1,0 +1,42 @@
+name: Atlas V3.34 CR27 original 1859 facsimile retrieval probe
+on:
+  push:
+    branches:
+      - research/atlas-v334-cr27-facsimile-page-inspection
+    paths:
+      - '.github/workflows/atlas-v334-facsimile-probe.yml'
+  workflow_dispatch:
+jobs:
+  facsimile_probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch 1859 NYPL public-domain digitization and identify page indexes
+        shell: bash
+        run: |
+          set -euo pipefail
+          sudo apt-get -qq update
+          sudo apt-get install -y -qq poppler-utils >/dev/null
+          URL='https://upload.wikimedia.org/wikipedia/commons/5/56/Corpus_reformatorum_%28IA_corpusreformato25melagoog%29.pdf'
+          curl --fail --location --retry 1 --max-time 135 --user-agent 'AtlasHistoricalSourceAudit/1.0 (public domain research)' -o /tmp/cr27.pdf "$URL"
+          echo "SOURCE_URL=$URL"
+          sha256sum /tmp/cr27.pdf
+          pdfinfo /tmp/cr27.pdf | grep -E 'Title:|Pages:|Page size:|File size:'
+          for N in 58 64 70 76 82; do
+            echo "SOURCE_PDF_PAGE_$N"
+            pdftotext -f "$N" -l "$N" -layout /tmp/cr27.pdf - | head -n 12 || true
+          done
+      - name: Emit inspectable facsimile thumbnails
+        shell: bash
+        run: |
+          set -euo pipefail
+          for N in 58 64 70 76 82; do
+            pdftoppm -f "$N" -l "$N" -singlefile -jpeg -jpegopt quality=54 -scale-to 750 /tmp/cr27.pdf "/tmp/cr27_$N" >/dev/null 2>&1
+            echo "FACSIMILE_PAGE_$N"_START
+            base64 -w 0 "/tmp/cr27_$N.jpg" | fold -w 128
+            echo
+            echo "FACSIMILE_PAGE_$N"_END
+          done
