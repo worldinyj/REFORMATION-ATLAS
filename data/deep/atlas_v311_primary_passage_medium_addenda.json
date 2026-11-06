@@ -1,0 +1,405 @@
+{
+  "version": "3.11",
+  "status": "DRAFT",
+  "depth": "MEDIUM",
+  "source_inspection_date": "2026-11-06",
+  "purpose": "네 가지 A1 문헌군을 지정 단락에 근거한 역사 심화 부록으로 보강. 기존 513편 본문·723개 출처·97개 개요 대응 원고·22개 기존 selected claims를 재작성하지 않는다.",
+  "publishing_gate": {
+    "published": false,
+    "main_changed": false,
+    "webapp_integrated": false,
+    "historian_approved": false
+  },
+  "historical_limits": [
+    "트리엔트 공의회: Ad Fontes 영어 전사 지정 조항 직접 열람, 16세기 라틴 원판 교감 미수행.",
+    "베스트팔렌 평화: GHDI의 선택 조항 발췌를 열람, 두 조약 원본 전문과 정치적 집행 결과를 확인하지 않음.",
+    "웨슬리: Digitens가 수록한 1743년 제2판 영문 전사를 읽었으며 원판 면별 스캔·타 판본 변이 검토는 미수행.",
+    "WCC: 기관 현대 역사 해설·1948년 간행 보고서의 소장 메타데이터를 구분; 최초 총회 보고서 페이지나 1961년 표결 원장을 직접 판독하지 않음."
+  ],
+  "source_records": [
+    {
+      "id": "TR-06",
+      "title": "Council of Trent, Session VI (1547), Decree on Justification, English translation",
+      "url": "https://adfonteslibrary.org/work-council-trent-session-06",
+      "layer": "REPRINTED_ENGLISH_TRANSLATION",
+      "locator": "Chapters VII–VIII, Session VI, 13 Jan 1547",
+      "inspected": "본문 영어 번역 전사를 열람하여 제7·8장 표제 및 관련 단락을 확인",
+      "not_done": "16세기 라틴 초판·서명 원본 대조, 전 조문 비평교감"
+    },
+    {
+      "id": "TR-23",
+      "title": "Council of Trent, Session XXIII (1563), reform decree, English translation",
+      "url": "https://adfonteslibrary.org/work-council-trent-session-23",
+      "layer": "REPRINTED_ENGLISH_TRANSLATION",
+      "locator": "Decree on Reformation, Chapter XVIII, Session XXIII, 15 Jul 1563",
+      "inspected": "영어 번역 제18장 본문을 읽고 입학 연령·교육·경비 관련 내용 확인",
+      "not_done": "라틴어 원본 판본·실제 교구 시행 실태의 전수 확인"
+    },
+    {
+      "id": "WF-OS",
+      "title": "Peace Treaties of Westphalia: Osnabrück and Münster, GHDI edited excerpts",
+      "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/peace-treaties-of-westphalia-october-14-24-1648",
+      "layer": "CURATED_ENGLISH_TRANSLATED_EXCERPTS",
+      "locator": "Editorial abstract; Osnabrück Article V §§2,34,36, Article VII §§1–2; notes [1],[12],[13]",
+      "inspected": "학술 편집 발췌 번역의 지정 조항과 주석 직접 열람",
+      "not_done": "두 조약 전체 라틴어 원본·독일어 전승·비준문서·전 지역 집행사"
+    },
+    {
+      "id": "WE-1743",
+      "title": "John and Charles Wesley, General Rules, 1743, Digitens transcription",
+      "url": "https://www.digitens.org/en/anthologies/nature-design-and-general-rules-united-societies-1743.html",
+      "layer": "TRANSCRIPTION_OF_HISTORICAL_ENGLISH_SECOND_EDITION",
+      "locator": "Numbered paragraphs §§1–7; signed John/Charles Wesley, 1 May 1743; Digitens bibliography identifies 2nd ed., Felix Farley Bristol",
+      "inspected": "1743년 제2판 기반 영문 전사의 1~7항 본문과 말미 서명·판본 서지 열람",
+      "not_done": "1743년 실제 인쇄 원본 전면 이미지·제1판과의 이문 검토"
+    },
+    {
+      "id": "WE-UMC",
+      "title": "United Methodist Church, General Rules glossary (modern denominational account)",
+      "url": "https://www.umc.org/en/content/glossary-general-rules-the",
+      "layer": "DENOMINATIONAL_MODERN_EXPLANATION",
+      "locator": "Glossary 'General Rules, the', 1738 rule formulation and 1743 publication",
+      "inspected": "현대 교파 해설에서 1738년 규칙 마련 및 1743년 소책자 발행의 구별 확인",
+      "not_done": "1738년 초안 실물, 현대 교파 규율이 1743년판과 동일하다는 주장"
+    },
+    {
+      "id": "WE-WELLCOME",
+      "title": "Wellcome Collection, John Wesley General Rules catalogue",
+      "url": "https://wellcomecollection.org/works/dep8rpvw",
+      "layer": "HISTORICAL_PRINT_BIBLIOGRAPHIC_METADATA",
+      "locator": "Publication: Newcastle upon Tyne, John Gooding, 1743; John and Charles Wesley contributors",
+      "inspected": "1743년 Newcastle 판 인쇄지·출판인·기여자에 관한 서지 정보 확인",
+      "not_done": "해당 소장본 원판 면별 판독; Digitens Bristol 제2판과 Newcastle 인쇄본의 이문 동정"
+    },
+    {
+      "id": "WCC-ASM",
+      "title": "World Council of Churches, official assembly timeline",
+      "url": "https://www.oikoumene.org/about-the-wcc/organizational-structure/assembly",
+      "layer": "INSTITUTIONAL_MODERN_HISTORY",
+      "locator": "First Assembly, Amsterdam 1948; dates 22 Aug–4 Sep, founding 23 Aug, 147 member churches",
+      "inspected": "WCC 기관의 첫 총회 연표와 개최·설립일 구분 열람",
+      "not_done": "첫 총회 의사록의 각 날짜별 표결 재구성"
+    },
+    {
+      "id": "WCC-BASIS",
+      "title": "World Council of Churches, the basis of WCC",
+      "url": "https://www.oikoumene.org/node/6243",
+      "layer": "INSTITUTIONAL_HISTORICAL_FORMULA_COMPARISON",
+      "locator": "1948 original Basis paragraph; 1961 New Delhi revision paragraph",
+      "inspected": "기관 공식 역사 소개의 1948·1961 Basis 문구 차이 열람",
+      "not_done": "총회 최초 판결문·당시 회의록과 출판본 사이의 이문 교감"
+    },
+    {
+      "id": "WCC-2002",
+      "title": "T. K. Thomas, WCC Basis, 2002 retrospective article",
+      "url": "https://www.oikoumene.org/resources/documents/theological-and-historical-background-of-the-wcc-basis",
+      "layer": "INSTITUTIONAL_REPRINT_OF_2002_RETROSPECTIVE",
+      "locator": "Utrecht 1938 origin; Amsterdam 1948; New Delhi 1961, 383/36/7 vote statement",
+      "inspected": "2002년 역사 해설에서 1938년 초안 맥락과 1961년 표결 수치에 대한 후대 기록을 열람",
+      "not_done": "1961년 표결 원장·1948년 총회록 직접 확인; 2002년 논평을 회의록 원문으로 간주"
+    },
+    {
+      "id": "WCC-1948-CAT",
+      "title": "The First Assembly of the World Council of Churches: Amsterdam Assembly Series vol. 5, archival catalogue",
+      "url": "https://archive.org/details/wcca5/page/n5/mode/2up",
+      "layer": "PRIMARY_REPORT_CATALOGUE_METADATA_ONLY",
+      "locator": "Internet Archive item wcca5; World Council of Churches, 1948; 282 pages; WCC rights permission",
+      "inspected": "1948년 인쇄 보고서 디지털 항목의 서명·기관·스캔·권리 관련 메타데이터만 확인",
+      "not_done": "1948년 보고서 본문 전체·면별 이미지·회의 속기록은 읽지 않음"
+    }
+  ],
+  "addenda": [
+    {
+      "id": "ATLAS-V311-TRENT",
+      "title": "트리엔트 공의회의 두 문서: 은총과 교육 제도를 분리해서 읽기",
+      "anchor_reader_ids": [
+        "MEDIUM-TRENT",
+        "THEME-GRACE_FAITH_WORKS"
+      ],
+      "overview_ids": [
+        "OV-D-014",
+        "TOP-04"
+      ],
+      "period": "1547–1563",
+      "lead": "트리엔트 공의회의 응답을 '개신교에 반대한 공의회'라는 단일한 구호로 축약하면, 구원을 설명하는 교리 문장과 성직자를 교육하는 제도적 규정이 서로 다른 회기에서 제정되었다는 사실이 사라진다.",
+      "sections": [
+        {
+          "heading": "1547년 제6회기: 칭의에서 믿음과 은총은 어떻게 배치되는가",
+          "body": "1547년 1월 13일 공의회 제6회기의 칭의 교령은 죄인의 의로움이 단순히 죄 사함만이 아니라 내면의 새로워짐과 거룩함을 포함한다고 설명한다. 제7장은 칭의의 여러 원인을 구별하고 그리스도의 공로, 세례, 성령의 은총, 인간의 응답을 하나의 논증 속에 놓는다. 제8장은 '믿음으로' 그리고 '거저' 의롭게 된다는 말을 부정하지 않으며, 믿음을 구원의 시작과 기초로 설명하고 칭의에 앞서는 믿음이나 행위 자체가 은총을 벌어들이는 공로는 아니라고 적는다. 따라서 이 교령을 '가톨릭은 오직 행위로 구원받는다고 주장했다'로 바꾸면 텍스트가 실제로 해명하려는 핵심 논의를 놓친다. 반대로 16세기 루터파의 칭의 이해와 완전히 일치했다고 말하는 것도 무리다. 같은 '믿음'과 '은총'의 용어가 서로 다른 구원론적 구조 안에서 어떻게 쓰이는지 조항별로 비교할 필요가 있다."
+        },
+        {
+          "heading": "1563년 제23회기: 성직자 양성은 무엇을 명령했는가",
+          "body": "1563년 7월 15일 제23회기 개혁령 제18장은 주교좌성당과 주요 교회들이 교구의 형편과 재원에 따라 소년들을 수용해 교육하는 기관을 유지하도록 규정한다. 문서에 따르면 수용 대상은 적어도 열두 살이며, 읽고 쓰는 능력과 성직 봉사를 향한 자질을 갖추어야 했다. 빈곤한 가정의 자녀를 우선 고려하지만, 자비로 유지 가능한 부유층 자녀를 배제하지는 않았다. 교육 내용은 문법과 성가, 성경, 성사 집전과 예식, 교회 규율을 포함한다. 이 조항은 후대 '신학교'의 중요한 제도적 근거지만, 오늘날의 대학원 수준 사제 양성과 입학 연령, 교육기간을 그대로 1563년에 투사해서는 안 된다. 교령은 학교와 비용을 마련하라고 명령한 것이지 모든 교구에서 즉시 동일한 학교가 운영되었다는 실적 보고서는 아니다."
+        },
+        {
+          "heading": "같은 공의회, 다른 증거: 교령·시행·후대 기억",
+          "body": "사료를 구분하는 가장 간단한 방법은 명령형 문서와 실적 기록을 나누는 것이다. 칭의 교령에서 '무엇을 믿고 가르치는가'를 읽고, 제23회기 개혁령에서 '어떤 교육 조직을 만들도록 했는가'를 읽어야 한다. 그런 다음 실제 교구 신학교의 개설 날짜, 교직자와 학생의 기록, 지역의 재정 상태를 별도로 확인해야 '공의회의 처방'이 '사회에서의 실행'으로 옮겨 갔는지 평가할 수 있다. 교령의 법적 요구, 다양한 교구의 후속 수용, 개신교와의 논쟁에서 사용된 공적 인용은 서로 다른 시대의 기록을 필요로 한다. 이번에는 Ad Fontes의 영어 전사에서 지정 조항을 직접 열람했지만 16세기 라틴어 원판의 변이와 교구별 시행 사실까지 판독한 것이 아니다. 그러므로 원문의 증언과 편집자의 영어 번역이 만나는 경계를 명확하게 남긴다."
+        }
+      ],
+      "research_question": "1547년의 칭의 교령과 1563년의 성직자 교육 개혁령을 한 문장으로 합치지 않아야 하는 이유는 무엇인가?",
+      "source_ids": [
+        "TR-06",
+        "TR-23"
+      ]
+    },
+    {
+      "id": "ATLAS-V311-WESTPHALIA",
+      "title": "베스트팔렌 평화: 법적 종교공존과 제한의 조건",
+      "anchor_reader_ids": [
+        "THEME-WAR_WESTPHALIA"
+      ],
+      "overview_ids": [
+        "OV-E-024",
+        "OV-D-015"
+      ],
+      "period": "1648",
+      "lead": "1648년의 베스트팔렌 평화는 전쟁의 종결이면서 제국 내부의 권한과 종교적 공존을 둘러싼 법적 재조정이었다. 그것을 오늘날의 종교 자유 보장과 같은 말로 사용하는 것은 문서의 실제 제한을 숨긴다.",
+      "sections": [
+        {
+          "heading": "하나의 날짜에 두 개의 조약: 10월 14일과 24일",
+          "body": "1648년 베스트팔렌 평화라는 명칭 아래에는 스웨덴과 황제 측의 오스나브뤼크 조약, 프랑스와 황제 측의 뮌스터 조약이라는 구별된 문서가 있다. GHDI가 제공한 학술 편집 전사에서는 서명일을 10월 14/24일로 병기한다. 이는 이중으로 두 번 체결됐다는 뜻이 아니라 당시 율리우스력과 그레고리력의 열흘 차이 때문이다. 종교 관련 조항의 상세 설명은 여기서 발췌된 오스나브뤼크 조약에 집중되어 있고 뮌스터 조약은 별도의 간략 발췌로 실려 있다. 따라서 두 조약의 상대국·협상 쟁점과 관련 조문을 구별해 인용해야 한다. 조약 편집자의 제목·각괄호 해설은 1648년 체결 당시 법률 문구와 동일하지 않으며, 일부 생략 부호가 표시된 본문을 전체 조약 전문으로 취급해서는 안 된다."
+        },
+        {
+          "heading": "1624년의 기준연도와 신앙공동체의 권리",
+          "body": "오스나브뤼크 제5조 제2항은 교회 재산과 종교 문제에 관련된 권리의 복원을 다룰 때 1624년 1월 1일을 판단 기준으로 삼았다. 같은 조 제34항은 자기 영주의 신앙과 다른 신앙을 가진 사람들의 가정 내 예배 및 인근 지역의 예배 참여와 교육을 일정 범위에서 허용하는 규정을 제시한다. 제36항에는 거주지 변경 시 재산 처분·관리 등에 관한 별도 규정이 있다. 이러한 조항들은 국가의 정치 질서, 영주 권한, 교회의 재산·예배 가능성을 함께 조정한다. 일부 예배의 가능성을 인정한다고 해서 모든 사람이 아무 장소에서나 공적으로 예배할 무제한 권리를 획득했다는 뜻은 아니다. 당시 '관용'은 법정된 신앙공동체와 영토·재산의 조건 안에서 이해해야 한다."
+        },
+        {
+          "heading": "개혁파의 편입과 남겨진 배제",
+          "body": "제7조 제1항은 이미 공인된 가톨릭과 아우크스부르크 신앙고백을 따르는 루터파에 더해 개혁파의 권리를 인정한다. 그러나 같은 조 제2항의 편집된 번역에는 공적 직무와 신앙 선택에 관한 제한이 남아 있고, 열거된 교파 바깥의 신앙이 동일한 지위를 얻는 것은 아니다. 따라서 이 평화를 세 교파 간 공존의 제도적 합의로 이해하는 것이, 현대적 개인 양심 자유의 보편 선언으로 환원하는 것보다 정확하다. 또 텍스트가 법적으로 허용한 일과 민간인의 실제 생활 조건이 곧바로 일치했다고도 말할 수 없다. GHDI의 번역은 역사가들이 선택한 발췌이므로, 모든 조항의 원어와 지역의 집행을 비교해야 더 세밀한 결론에 도달할 수 있다."
+        }
+      ],
+      "research_question": "오스나브뤼크 조약에서 1624년을 기준으로 삼은 이유와 '관용'의 한계를 서로 연결하면 무엇이 보이는가?",
+      "source_ids": [
+        "WF-OS"
+      ]
+    },
+    {
+      "id": "ATLAS-V311-WESLEY",
+      "title": "웨슬리의 1743년 『일반 규칙』: 신앙회의 실제 운영 구조",
+      "anchor_reader_ids": [
+        "DOCUMENT-METHODIST_GENERAL_RULES1743",
+        "EVENT-METHODIST_SOCIETIES1739"
+      ],
+      "overview_ids": [
+        "OV-D-017",
+        "OV-E-027",
+        "TOP-08"
+      ],
+      "period": "1738–1743",
+      "lead": "웨슬리의 초기 운동을 열정적인 설교만으로 설명하면 소규모 신앙회의 회합, 구성원 돌봄, 구제와 재정 관리, 생활 규율이라는 지속 구조를 보지 못한다.",
+      "sections": [
+        {
+          "heading": "1738년의 규칙과 1739년의 모임을 구별한다",
+          "body": "연합감리교회 용어사전은 웨슬리가 신앙회 운영 규칙을 1738년에 만들었다고 설명하고, 소책자의 간행 시기를 1743년으로 제시한다. 한편 1743년 『연합 신앙회의 본질·목적·일반 규칙』 제1항은 1739년 말 런던에서 여러 사람이 웨슬리를 찾아와 기도와 조언을 청하면서 모임이 시작된 장면을 회고한다. '규칙의 구상', '특정 신앙회의 성립', '인쇄본의 출판'은 각각 다른 역사적 시점을 가리킨다. 1743년 인쇄물은 존 웨슬리와 찰스 웨슬리의 이름과 5월 1일 날짜를 적고 있다. Digitens에 공개된 텍스트가 1743년 브리스톨 제2판 전사라는 점과 Wellcome 소장목록의 1743년 뉴캐슬 인쇄본은 출판지·판본을 교감해야 한다는 점도 구별해야 한다."
+        },
+        {
+          "heading": "열두 명 안팎의 소모임과 돌봄의 행정",
+          "body": "제3항은 신앙회 구성원을 거주지에 따라 대략 열두 명씩의 '클래스'로 나누고, 지도자가 적어도 매주 각 사람을 방문해 영적 상황을 묻고 필요에 따라 권면·위로하도록 한다. 지도자는 가난한 사람을 위한 자발적 기여금을 받아 집사나 재정 담당자에게 보고하고 납부한다. 이는 단지 친교 모임의 크기를 설명한 문장이 아니라 회계·목회·징계의 기본 흐름을 함께 묘사한 자료다. 그렇다고 18세기 모든 지역 모임이 언제나 정확히 열두 명이었다거나 감리교 교단 전체가 1739년에 이미 현대적 조직으로 완성되었다고 단정할 수는 없다. 규칙이 지향한 이상과 실제 회원 명부·주간 보고의 기록은 독립적으로 읽어야 한다."
+        },
+        {
+          "heading": "하지 말아야 할 일, 해야 할 일, 지속할 실천",
+          "body": "1743년 문헌의 제4~6항은 구원을 갈망하는 삶의 표지로 세 가지 생활 방향을 제시한다. 첫째는 타인에게 해를 끼치지 않고 죄악을 피하는 일, 둘째는 가난한 사람을 돕고 병자·수감자를 찾아가며 적극적으로 선을 행하는 일, 셋째는 공예배와 말씀, 성찬, 가정·개인 기도, 성경 연구, 금식 등 신앙 실천에 참여하는 일이다. 규칙의 내용은 경건주의적 개인 체험만이 아니라 사회적 실천·공동체 책임과 밀접하다. 그러나 1743년의 규칙과 웨슬리의 수많은 설교·찬송, 후대 미국 감리교회의 헌법과 권징은 서로 다른 문헌군이다. 이 문서를 '존 웨슬리 신학 전체'라고 취급하면 근거 자료의 범위를 넘어서게 된다."
+        }
+      ],
+      "research_question": "신앙회의 세 생활 규칙과 소모임의 회계·돌봄 구조는 개인의 회심 경험을 어떻게 공동체 활동으로 이어 주는가?",
+      "source_ids": [
+        "WE-1743",
+        "WE-UMC",
+        "WE-WELLCOME"
+      ]
+    },
+    {
+      "id": "ATLAS-V311-WCC",
+      "title": "1948년 WCC 창립과 1961년 Basis 개정의 문헌사",
+      "anchor_reader_ids": [
+        "DOCUMENT-WCC_AMSTERDAM_RECORD1948",
+        "EVENT-WCC_FOUNDING1948"
+      ],
+      "overview_ids": [
+        "OV-D-019",
+        "OV-E-034"
+      ],
+      "period": "1938–1961",
+      "lead": "세계교회협의회의 설립일·첫 총회 기간·회원 교회들의 합의문·그 합의문의 1961년 개정은 서로 다른 사실과 문서다.",
+      "sections": [
+        {
+          "heading": "1948년 8월 22일 개막, 23일 창립",
+          "body": "WCC 공식 연표에 따르면 제1차 총회는 1948년 8월 22일부터 9월 4일까지 암스테르담에서 열렸으며, 기관이 공식적으로 설립된 날은 8월 23일이다. WCC는 당시 회원 교회 147곳이 참여했음을 기록한다. 총회의 주제는 전쟁 이후 인간의 혼란과 하나님의 뜻을 함께 다루는 것이었고, 네 분과는 보편 교회, 증언, 사회 질서, 국제 질서에 관한 의제를 살폈다. 총회 개최와 단체 창립을 동시에 말할 수 있지만 시작일을 하나로 합치면 연대가 잘못된다. 1948년 보고서의 디지털 소장 기록이 Internet Archive에서 확인되나 이번에는 그 저작의 서지 메타데이터를 확인했을 뿐, 모든 페이지와 회의 발언·표결을 직접 판독하지 않았다."
+        },
+        {
+          "heading": "1938년 위트레흐트 구상과 1948년 최초의 신앙 기반",
+          "body": "WCC가 게시한 2002년 역사 해설에 따르면 신앙 기반(Basis)의 기초는 1938년 위트레흐트 준비위원회에서 마련되었다. 1948년 출범 때에는 예수 그리스도를 하나님이자 구원자로 받아들이는 교회들의 친교라는 간결한 문장이 채택됐다. 이 표현은 참가 교회들을 하나의 새 교단으로 합친다는 뜻이 아니고, 회원 교회의 자율성을 유지하는 관계를 가리킨다. 2002년 해설은 당시 이 문구가 단순한 신조 시험인지, 기독론적 고백을 충분히 드러내는지 등에 대해 서로 다른 입장이 있었다고 기록한다. 그러나 후대의 기관 해설은 그 자체가 1938년 준비 회의록이나 1948년 투표 기록 원문은 아니다. 작성 연도·서지와 사건의 연도를 분리해야 한다."
+        },
+        {
+          "heading": "1961년 뉴델리의 문구 확장: 후대 기록과 표결 자료의 차이",
+          "body": "1961년 뉴델리의 제3차 총회는 기존 Basis를 개정하면서 성경에 따른 신앙과 성부·성자·성령에 대한 고백, 교회의 공동 사명을 더 명시했다. 2002년 WCC 역사 해설은 이 개정안이 찬성 383표·반대 36표·기권 7표로 통과됐다고 서술한다. 이번 단계에서는 이 수치를 '2002년 기관 해설에 수록된 후대 표결 설명'으로만 기록하고 1961년 실제 투표 원장의 직접 대조 결과라고 표시하지 않는다. 또한 1961년 문구를 1948년 제1차 총회의 결정문인 것처럼 소급 인용하지 않는다. 문구의 연속성과 변경을 함께 기록하면 에큐메니컬 조직의 정체성을 단순히 '초교파 통합' 또는 '교파의 소멸'로 오해하는 일을 줄일 수 있다."
+        }
+      ],
+      "research_question": "1948년 창립 Basis와 1961년 개정 Basis를 서로 다른 판본으로 읽으면 WCC를 단일 교회로 오해하지 않는 데 어떤 도움이 되는가?",
+      "source_ids": [
+        "WCC-ASM",
+        "WCC-BASIS",
+        "WCC-2002",
+        "WCC-1948-CAT"
+      ]
+    }
+  ],
+  "claim_cards": [
+    {
+      "id": "TR-01",
+      "addendum_id": "ATLAS-V311-TRENT",
+      "section_index": 0,
+      "statement": "제6회기의 칭의 이해는 죄 사함뿐 아니라 내적 갱신을 포함한다.",
+      "source_id": "TR-06",
+      "locator": "Chapter VII",
+      "evidence_level": "TRANSLATED_PRIMARY_PASSAGE_SEEN",
+      "misinterpretation_guard": "교령의 칭의 정의를 단순한 면죄로 축소하지 않는다.",
+      "original_witness_collated": false,
+      "historian_approved": false
+    },
+    {
+      "id": "TR-02",
+      "addendum_id": "ATLAS-V311-TRENT",
+      "section_index": 0,
+      "statement": "제6회기 제8장은 칭의 이전의 믿음이나 행위가 은총 자체를 공로로 얻는다고 하지 않는다.",
+      "source_id": "TR-06",
+      "locator": "Chapter VIII, 'faith' and 'freely'",
+      "evidence_level": "TRANSLATED_PRIMARY_PASSAGE_SEEN",
+      "misinterpretation_guard": "가톨릭이 행위로만 구원받는다는 주장으로 바꾸지 않는다.",
+      "original_witness_collated": false,
+      "historian_approved": false
+    },
+    {
+      "id": "TR-03",
+      "addendum_id": "ATLAS-V311-TRENT",
+      "section_index": 1,
+      "statement": "1563년 제23회기 개혁령 제18장은 최소 열두 살과 읽기·쓰기 능력, 빈곤층 우선 고려를 명시한다.",
+      "source_id": "TR-23",
+      "locator": "Decree on Reformation, Chapter XVIII, first three paragraphs",
+      "evidence_level": "TRANSLATED_PRIMARY_PASSAGE_SEEN",
+      "misinterpretation_guard": "현대 신학교 학위제도를 16세기에 소급하지 않는다.",
+      "original_witness_collated": false,
+      "historian_approved": false
+    },
+    {
+      "id": "WF-01",
+      "addendum_id": "ATLAS-V311-WESTPHALIA",
+      "section_index": 0,
+      "statement": "평화조약의 1648년 10월 14/24일 병기는 구력과 신력의 차이다.",
+      "source_id": "WF-OS",
+      "locator": "Editorial note [1], Julian / Gregorian dates",
+      "evidence_level": "CURATED_TRANSLATED_PRIMARY_EXCERPT_SEEN",
+      "misinterpretation_guard": "두 번의 서명일 또는 두 개의 연속된 조약 체결일로 오해하지 않는다.",
+      "original_witness_collated": false,
+      "historian_approved": false
+    },
+    {
+      "id": "WF-02",
+      "addendum_id": "ATLAS-V311-WESTPHALIA",
+      "section_index": 1,
+      "statement": "오스나브뤼크 조약 제5조 제2항은 1624년 1월 1일을 교회 재산 등 복원 기준으로 삼는다.",
+      "source_id": "WF-OS",
+      "locator": "Osnabrück Article V §2",
+      "evidence_level": "CURATED_TRANSLATED_PRIMARY_EXCERPT_SEEN",
+      "misinterpretation_guard": "1648년 새로 정한 권리가 아니라 1624년 상태를 기준으로 조정한다.",
+      "original_witness_collated": false,
+      "historian_approved": false
+    },
+    {
+      "id": "WF-03",
+      "addendum_id": "ATLAS-V311-WESTPHALIA",
+      "section_index": 2,
+      "statement": "제7조는 개혁파의 지위를 인정하지만 다른 모든 신앙에 동일한 자유를 보장하지는 않는다.",
+      "source_id": "WF-OS",
+      "locator": "Osnabrück Article VII §§1–2",
+      "evidence_level": "CURATED_TRANSLATED_PRIMARY_EXCERPT_SEEN",
+      "misinterpretation_guard": "근대의 보편적 개인 종교 자유로 단순화하지 않는다.",
+      "original_witness_collated": false,
+      "historian_approved": false
+    },
+    {
+      "id": "WE-01",
+      "addendum_id": "ATLAS-V311-WESLEY",
+      "section_index": 0,
+      "statement": "1743년 문서 제1항은 1739년 말 런던 신앙회의 모임을 회고한다.",
+      "source_id": "WE-1743",
+      "locator": "Numbered paragraph §1; closing date 1 May 1743",
+      "evidence_level": "HISTORICAL_TRANSCRIPTION_SEEN",
+      "misinterpretation_guard": "1738년 규칙 마련·1739년 모임·1743년 간행은 세 층위다.",
+      "original_witness_collated": false,
+      "historian_approved": false
+    },
+    {
+      "id": "WE-02",
+      "addendum_id": "ATLAS-V311-WESLEY",
+      "section_index": 1,
+      "statement": "제3항의 클래스는 대략 열두 명씩 조직되며 지도자의 매주 돌봄·구제금 전달 등을 명시한다.",
+      "source_id": "WE-1743",
+      "locator": "Numbered paragraph §3, Leader I–II",
+      "evidence_level": "HISTORICAL_TRANSCRIPTION_SEEN",
+      "misinterpretation_guard": "해당 규칙을 모든 지역 공동체의 실제 인원 통계로 오인하지 않는다.",
+      "original_witness_collated": false,
+      "historian_approved": false
+    },
+    {
+      "id": "WE-03",
+      "addendum_id": "ATLAS-V311-WESLEY",
+      "section_index": 2,
+      "statement": "제4~6항은 해를 피함·선을 행함·신앙 실천에 참여함이라는 생활 방향을 구분한다.",
+      "source_id": "WE-1743",
+      "locator": "Numbered paragraphs §§4–6",
+      "evidence_level": "HISTORICAL_TRANSCRIPTION_SEEN",
+      "misinterpretation_guard": "규칙과 설교집 전체를 같은 문서로 취급하지 않는다.",
+      "original_witness_collated": false,
+      "historian_approved": false
+    },
+    {
+      "id": "WCC-01",
+      "addendum_id": "ATLAS-V311-WCC",
+      "section_index": 0,
+      "statement": "첫 총회는 1948년 8월 22일에 시작됐고 WCC 공식 창립일은 23일이다.",
+      "source_id": "WCC-ASM",
+      "locator": "First Assembly Amsterdam 1948 timeline",
+      "evidence_level": "MODERN_INSTITUTIONAL_HISTORY_SEEN",
+      "misinterpretation_guard": "총회 개막일과 창립일을 합치지 않는다.",
+      "original_witness_collated": false,
+      "historian_approved": false
+    },
+    {
+      "id": "WCC-02",
+      "addendum_id": "ATLAS-V311-WCC",
+      "section_index": 1,
+      "statement": "1948년 최초 Basis와 1961년 뉴델리 개정 Basis는 서로 다른 표현을 사용한다.",
+      "source_id": "WCC-BASIS",
+      "locator": "1948 inaugural paragraph; 1961 revised paragraph",
+      "evidence_level": "MODERN_INSTITUTIONAL_FORMULA_COMPARISON_SEEN",
+      "misinterpretation_guard": "1961년 성경·삼위일체 추가 문구를 1948년 원문으로 인용하지 않는다.",
+      "original_witness_collated": false,
+      "historian_approved": false
+    },
+    {
+      "id": "WCC-03",
+      "addendum_id": "ATLAS-V311-WCC",
+      "section_index": 2,
+      "statement": "1961년 개정 표결 수치 383·36·7은 WCC의 2002년 후대 역사 해설에 나타난다.",
+      "source_id": "WCC-2002",
+      "locator": "2002 background, New Delhi 1961 paragraph",
+      "evidence_level": "RETROSPECTIVE_SOURCE_SEEN_NOT_VOTE_ORIGINAL",
+      "misinterpretation_guard": "1961년 실제 총회 투표 원본을 대조한 것으로 표시하지 않는다.",
+      "original_witness_collated": false,
+      "historian_approved": false
+    }
+  ],
+  "metrics": {
+    "research_addenda": 4,
+    "sections": 12,
+    "claim_cards": 12,
+    "new_source_records": 10,
+    "prior_readers_preserved": 513,
+    "prior_sources_preserved": 723,
+    "prior_selected_claims_preserved": 22,
+    "new_body_characters": 4435,
+    "new_original_language_collations": 0,
+    "webapp_updated": false
+  }
+}
