@@ -1,0 +1,457 @@
+{
+  "version": "3.28",
+  "status": "DRAFT",
+  "depth": "MEDIUM",
+  "publication_gate": {
+    "published": false,
+    "main_changed": false,
+    "webapp_integrated": false,
+    "historian_approved": false
+  },
+  "parent": {
+    "version": "3.27",
+    "pr": 169,
+    "head_sha": "5306407cc2b73012a7817573d5a0b05f58f1e02a",
+    "locked_parent_blob_sha": "416c16e886217dd27f3be1f593a1e4c35c4a3933"
+  },
+  "preserve": {
+    "readers": 513,
+    "sections": 1539,
+    "source_records": 723,
+    "overviews": 97,
+    "curated_events": 26,
+    "typed_relations": 12,
+    "v327_edition_records": 6,
+    "v327_question_fragments": 11
+  },
+  "scope": "1785 Q16/17 originally unviewed; source-limited reconstruction of separate 1789 six-month rule and first general rules inclusion. No 1785 or 1789 primary page pair directly collated.",
+  "sources": [
+    {
+      "id": "V328-1770",
+      "url": "https://wesleyscholar.com/wp-content/uploads/2019/02/Minutes-of-Several-Conversations-1770.pdf",
+      "kind": "DIRECT_HISTORICAL_PAGE_SCREENSHOT",
+      "locator": "1770 British Q18 printed p15, 3 months; image read",
+      "direct_1785_or_1789_original_page": false
+    },
+    {
+      "id": "V328-DUKE",
+      "url": "https://dukespace.lib.duke.edu/bitstreams/e31203e3-acf1-48c5-adac-e8215017dbb7/download",
+      "kind": "ACADEMIC_STUDY_SEARCH_EXCERPT",
+      "locator": "1785 Q16 two months and give Rules at first meeting; Q17 question heading only",
+      "direct_1785_or_1789_original_page": false
+    },
+    {
+      "id": "V328-PETERSON",
+      "url": "https://divinityarchive.com/bitstream/handle/11258/4771/05927852.pdf?isAllowed=y&sequence=1",
+      "kind": "1889_HISTORICAL_PRINT_PDF_TEXT",
+      "locator": "Printed p33 claims full General Rules inserted in Discipline 1789; scanned page screenshot blocked",
+      "direct_1785_or_1789_original_page": false
+    },
+    {
+      "id": "V328-EMORY",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/History_of_the_discipline_of_the_Methodist_Episcopal_Church_%28IA_historyofdiscipl00emor%29.pdf",
+      "kind": "19C_HISTORICAL_STUDY_EXCERPT",
+      "locator": "Printed p180: 1789 earliest General Rules section, wording changes including slavery; not 1789 original scan",
+      "direct_1785_or_1789_original_page": false
+    },
+    {
+      "id": "V328-BOASE",
+      "url": "https://resources.ohiohistory.org/ohj/browse/displaypages.php?display%5B%5D=0068&display%5B%5D=38&display%5B%5D=53",
+      "kind": "20C_HISTORICAL_STUDY_DEPENDENT",
+      "locator": "Repeats 1789 first included general rules, citing Sherman; not independent original",
+      "direct_1785_or_1789_original_page": false
+    },
+    {
+      "id": "V328-GUIDE",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/A_guide_book_in_the_administration_of_the_discipline_of_the_Methodist_Episcopal_Church_%28IA_guidebookinadmin00bake%29.pdf",
+      "kind": "19C_HISTORICAL_PDF_INDEX",
+      "locator": "1784 two-month rule increased to six months in 1789; original 1789 not inspected",
+      "direct_1785_or_1789_original_page": false
+    },
+    {
+      "id": "V328-1798",
+      "url": "https://wesleyscholar.com/wp-content/uploads/2019/01/Doctrine-Discipline-Methodist-10th-ed-1798.pdf",
+      "kind": "1798_PRINT_OCR_DIGITIZED",
+      "locator": "Printed pp146-147 text: provisional admission notes then six-month probation and tickets; paragraph screenshot timed out",
+      "direct_1785_or_1789_original_page": false
+    },
+    {
+      "id": "V328-ASBURY",
+      "url": "https://wesley.nnu.edu/other-theologians/francis-asbury/the-journal-and-letters-of-francis-asbury-volume-ii/francis-asbury-the-letters-vol-2-chapter-4/",
+      "kind": "LATER_EDITORIAL_1789_BIBLIOGRAPHY",
+      "locator": "Fifth Discipline edition printed 20 March 1789 per editorial note; not proof exact day rule changed",
+      "direct_1785_or_1789_original_page": false
+    },
+    {
+      "id": "V328-BRIDWELL",
+      "url": "https://bridwell.omeka.net/exhibits/show/asbury/item/497",
+      "kind": "LIBRARY_HOLDING_1785",
+      "locator": "1785 Cist first print catalogued; Q16 and Q17 original body not read",
+      "direct_1785_or_1789_original_page": false
+    },
+    {
+      "id": "V328-1903",
+      "url": "https://tile.loc.gov/storage-services/public/gdcmassbookdig/notesonproposeda00matt/notesonproposeda00matt.pdf",
+      "kind": "1903_HISTORICAL_PDF_TEXT",
+      "locator": "Quotes 1785 Q18 dress and Q42 antislavery, not original first-print visual evidence",
+      "direct_1785_or_1789_original_page": false
+    },
+    {
+      "id": "V328-1787",
+      "url": "https://play.google.com/store/books/details/Methodist_Episcopal_Church_A_Form_of_Discipline_fo?id=5Sea-NIyvq0C",
+      "kind": "1787_DIGITAL_CATALOGUE",
+      "locator": "1787 edition metadata and reordering; membership p image uninspected",
+      "direct_1785_or_1789_original_page": false
+    }
+  ],
+  "topic_evidence": [
+    {
+      "id": "V328-E-1770-BRITAIN",
+      "year": "1770",
+      "jurisdiction": "BRITISH_WESLEYAN",
+      "question": "Q18",
+      "months": 3,
+      "source_ids": [
+        "V328-1770"
+      ],
+      "proof": "DIRECT_PRINT_VISUAL",
+      "direct_year_edition_body_page_read": true
+    },
+    {
+      "id": "V328-E-1785-AMERICA",
+      "year": "1785",
+      "jurisdiction": "AMERICAN_MEC",
+      "question": "Q16",
+      "months": 2,
+      "source_ids": [
+        "V328-DUKE"
+      ],
+      "proof": "LATER_ACADEMIC_QUOTATION",
+      "direct_year_edition_body_page_read": false
+    },
+    {
+      "id": "V328-E-1787-AMERICA",
+      "year": "1787",
+      "jurisdiction": "AMERICAN_MEC",
+      "question": "sectioned Q3 provisional",
+      "months": 2,
+      "source_ids": [
+        "V328-1787"
+      ],
+      "proof": "CATALOGUE_AND_PRIOR_CONCORDANCE_ONLY",
+      "direct_year_edition_body_page_read": false
+    },
+    {
+      "id": "V328-E-1789-AMERICA",
+      "year": "1789",
+      "jurisdiction": "AMERICAN_MEC",
+      "question": "membership rule",
+      "months": 6,
+      "source_ids": [
+        "V328-GUIDE"
+      ],
+      "proof": "NINETEENTH_CENTURY_RETROSPECTIVE",
+      "direct_year_edition_body_page_read": false
+    },
+    {
+      "id": "V328-E-1798-AMERICA",
+      "year": "1798",
+      "jurisdiction": "AMERICAN_MEC",
+      "question": "section II Q3",
+      "months": 6,
+      "source_ids": [
+        "V328-1798"
+      ],
+      "proof": "PDF_TEXT_NOT_PARAGRAPH_SCREENSHOT",
+      "direct_year_edition_body_page_read": false
+    },
+    {
+      "id": "V328-E-1789-GENERAL-RULES",
+      "year": "1789",
+      "jurisdiction": "AMERICAN_MEC",
+      "question": "General Rules section",
+      "months": null,
+      "source_ids": [
+        "V328-PETERSON"
+      ],
+      "proof": "NINETEENTH_CENTURY_HISTORY_NOT_ORIGINAL_LEAF",
+      "direct_year_edition_body_page_read": false
+    }
+  ],
+  "claim_cards": [
+    {
+      "id": "V328-C01",
+      "claim": "1770 Q18 has three months in visually inspected printed p15",
+      "source_ids": [
+        "V328-1770"
+      ],
+      "kind": "DIRECT_SCAN",
+      "full_original_witness_pair": false,
+      "expert_approved": false
+    },
+    {
+      "id": "V328-C02",
+      "claim": "1785 Q16 two months from Duke study indexed quotation; 1785 Cist p9 not read",
+      "source_ids": [
+        "V328-DUKE",
+        "V328-BRIDWELL"
+      ],
+      "kind": "LATER_QUOTATION",
+      "full_original_witness_pair": false,
+      "expert_approved": false
+    },
+    {
+      "id": "V328-C03",
+      "claim": "1785 Q17 question heading visible but answer not read in Duke excerpt",
+      "source_ids": [
+        "V328-DUKE"
+      ],
+      "kind": "PARTIAL_TEXT",
+      "full_original_witness_pair": false,
+      "expert_approved": false
+    },
+    {
+      "id": "V328-C04",
+      "claim": "1785 Q16 instructs delivery of Rules at first meeting, not proven full appendix in same book",
+      "source_ids": [
+        "V328-DUKE"
+      ],
+      "kind": "SEMANTIC_DISTINCTION",
+      "full_original_witness_pair": false,
+      "expert_approved": false
+    },
+    {
+      "id": "V328-C05",
+      "claim": "General Rules full section is dated 1789 by Peterson 1889 and Emory histories, no 1789 direct page image",
+      "source_ids": [
+        "V328-PETERSON",
+        "V328-EMORY"
+      ],
+      "kind": "HISTORICAL_RECONSTRUCTION",
+      "full_original_witness_pair": false,
+      "expert_approved": false
+    },
+    {
+      "id": "V328-C06",
+      "claim": "Boase repeats early rules not printed in Discipline until 1789 but cites an older historical authority",
+      "source_ids": [
+        "V328-BOASE"
+      ],
+      "kind": "DEPENDENT_SECONDARY",
+      "full_original_witness_pair": false,
+      "expert_approved": false
+    },
+    {
+      "id": "V328-C07",
+      "claim": "Change to six months in 1789 is reported by nineteenth century membership guide, not observed 1789 print",
+      "source_ids": [
+        "V328-GUIDE"
+      ],
+      "kind": "SECONDARY",
+      "full_original_witness_pair": false,
+      "expert_approved": false
+    },
+    {
+      "id": "V328-C08",
+      "claim": "1798 edition digitized text describes entry notes then six months of trial before formal membership tickets",
+      "source_ids": [
+        "V328-1798"
+      ],
+      "kind": "HISTORICAL_PRINT_OCR",
+      "full_original_witness_pair": false,
+      "expert_approved": false
+    },
+    {
+      "id": "V328-C09",
+      "claim": "First printed 1789 fifth edition date 20 March is an editorial bibliographic note, not rule-effective date",
+      "source_ids": [
+        "V328-ASBURY"
+      ],
+      "kind": "BIBLIOGRAPHIC",
+      "full_original_witness_pair": false,
+      "expert_approved": false
+    },
+    {
+      "id": "V328-C10",
+      "claim": "1785 Q42 anti-slavery rule in historian quotation is not identical to 1789 General Rules text location",
+      "source_ids": [
+        "V328-1903",
+        "V328-EMORY"
+      ],
+      "kind": "DIFFERENT_DOCUMENT_LOCUS",
+      "full_original_witness_pair": false,
+      "expert_approved": false
+    },
+    {
+      "id": "V328-C11",
+      "claim": "1787 page identity and original clause remain unverified despite published digital catalogue",
+      "source_ids": [
+        "V328-1787"
+      ],
+      "kind": "CATALOGUE_ONLY",
+      "full_original_witness_pair": false,
+      "expert_approved": false
+    },
+    {
+      "id": "V328-C12",
+      "claim": "No 1785 vs 1789 original printed page pair collated in this research stage",
+      "source_ids": [
+        "V328-BRIDWELL",
+        "V328-PETERSON"
+      ],
+      "kind": "RESEARCH_LIMIT",
+      "full_original_witness_pair": false,
+      "expert_approved": false
+    }
+  ],
+  "readings": [
+    {
+      "id": "V328-RD1",
+      "title": "1785년의 규칙 전달과 1789년의 규칙 수록",
+      "overview_ids": [
+        "OV-D-017"
+      ],
+      "sections": [
+        {
+          "heading": "규칙을 읽어 주라는 제16문답",
+          "body": "1785년 초판 제16문답을 인용한 현대 학술 연구는 지도자 추천을 받고 두 달 동안 시험을 거친 뒤 회원권 표를 받으며, 첫 모임에서 규칙을 전달하라고 기록한다. 교회 구성원이 규칙을 알아야 한다는 요구이지, 1785년 초판에 일반 규칙 전문이 이미 별도 절로 실렸다는 증거는 아니다."
+        },
+        {
+          "heading": "후대 문헌사가 지적한 1789년의 수록",
+          "body": "1889년 피터슨 규정 개정사와 19세기 에머리 연구는 웨슬리 일반 규칙이 미국에서 일찍 받아들여졌으나 규정집 본문에 별도의 일반 규칙 절을 인쇄한 것은 1789년이라고 설명한다. 이 주장은 후대 문헌사에 근거하므로 1789년판 해당 인쇄면을 직접 보고 확정한 원문 교감 결과와 구별해야 한다."
+        },
+        {
+          "heading": "실천 규칙과 인쇄 위치의 차이",
+          "body": "교단이 1784년에 규칙을 채택하고 1785년 초판에서 그 규칙을 전달하도록 명령했더라도 1789년판에서 전문 수록이나 편집 방식이 새로 등장할 수 있다. 또한 1789년 일반 규칙 안의 노예 매매 금지 문구와 1785년 제42문답의 노예제 조항은 동일하지 않은 문헌 위치의 규정이다. '1789년 이전에는 반노예제 규정이 없었다'는 식의 단정은 피해야 한다."
+        }
+      ]
+    },
+    {
+      "id": "V328-RD2",
+      "title": "회원 시험 기간 2개월에서 6개월로: 전환 시점의 근거 수준",
+      "overview_ids": [
+        "OV-D-017",
+        "OV-E-027"
+      ],
+      "sections": [
+        {
+          "heading": "1770년 영국판과 1785년 미국판",
+          "body": "1770년 영국의 웨슬리 『Large Minutes』 제18문답은 실물 인쇄면 15쪽에서 3개월을 명시한다. 1785년 미국 초판 제16문답의 2개월은 듀크대 연구의 인용으로 확인되지만 1785년 실제 인쇄면은 미판독이다. 양자의 변화에 관하여 미국 개편이 처음 단축을 만든 것인지도 영국 중간 판본과 함께 조사해야 한다."
+        },
+        {
+          "heading": "1789년 확대라는 역사 서술",
+          "body": "미국 감리교회 규정 해설의 19세기 편람은 1784년 두 달 시험을 1789년에 여섯 달로 늘렸다고 설명한다. 1789년 제5판의 존재와 인쇄일은 다른 편집 사료로 확인되지만, 이것을 곧바로 1789년 3월 20일 시험기간 변경일로 해석해서는 안 된다. 규정집 인쇄 시점과 교단 회의의 효력 발생일은 별도로 확인해야 한다."
+        },
+        {
+          "heading": "1798년판의 입회 메모와 정회원 표",
+          "body": "1798년 미국 제10판에서 추출한 문장은 후보자에게 먼저 입회 메모를 주고 여섯 달간 시험한 다음 지도자의 추천을 거쳐 정식 회원권 표를 받는 절차를 설명한다. 이에 따라 입회 메모, 심사 기간, 정회원 표는 구별된다. 그러나 디지털 텍스트를 확인한 뒤 해당 문단의 사진 판독이 타임아웃했으므로 OCR 근거의 제한을 남겨 둔다."
+        }
+      ]
+    },
+    {
+      "id": "V328-RD3",
+      "title": "초판 문답 번호와 반노예제 조항을 대조할 때의 함정",
+      "overview_ids": [
+        "OV-D-017",
+        "OV-E-027"
+      ],
+      "sections": [
+        {
+          "heading": "제17문답의 해답은 아직 열리지 않았다",
+          "body": "1785년 문헌을 인용한 연구에는 제17문답이 새 회원을 언제 받아들일지 묻는 제목이 실려 있다. 다만 현재 접근 가능한 검색 본문에는 이 질문의 답 전체가 보이지 않는다. 따라서 가입 시점과 공동체 수용 절차의 세부 사항을 임의로 복원하지 않고 검증할 페이지를 별도 미해결 항목으로 남긴다."
+        },
+        {
+          "heading": "1787년 이후 문답 체제 개편",
+          "body": "1785년 최초 규정집은 81개 연속 문답을 사용했다는 공식 교단 설명이 있다. 이후 절별로 바뀐 1787년판의 존재는 확인할 수 있으나 회원권 문제의 정확한 개정 문구는 아직 판본 페이지를 직접 읽지 못했다. 출판 연도와 문답 번호를 한쪽만 기준으로 하여 다른 판본을 자동 치환하지 않도록 한다."
+        },
+        {
+          "heading": "반노예제 규정의 존재와 실제 시행은 다르다",
+          "body": "1903년 역사 연구서는 1785년 초판의 제42문답에 노예제에 반대하는 규정이 있었다고 인용한다. 1789년 일반 규칙에 관련 문구가 수록됐다는 후대 규정사도 있다. 이는 당시 교단의 선언과 문헌 편집이 복수의 장소에서 다루어졌다는 뜻이지 실제 모든 교구에서 일관되게 집행됐다는 뜻은 아니다. 역사 앱에서는 원규정의 문구, 판본 위치, 시행·반발의 구체 기록을 분리해야 한다."
+        }
+      ]
+    }
+  ],
+  "open_issues": [
+    {
+      "id": "V328-U1",
+      "topic": "1785_Q16_Q17_PAGE",
+      "next": "1785 Cist actual p9 image for both Q16 and Q17 and full answer",
+      "priority": "P0",
+      "status": "ORIGINAL_WITNESS_NOT_YET_COLLATED"
+    },
+    {
+      "id": "V328-U2",
+      "topic": "1789_6MONTH_ORIGINAL",
+      "next": "1789 fifth edition original source page with six-month ticket rule and effective date",
+      "priority": "P0",
+      "status": "ORIGINAL_WITNESS_NOT_YET_COLLATED"
+    },
+    {
+      "id": "V328-U3",
+      "topic": "1789_GENERAL_RULES_LEAF",
+      "next": "1789 original General Rules printed section and changed clauses including slavery",
+      "priority": "P0",
+      "status": "ORIGINAL_WITNESS_NOT_YET_COLLATED"
+    },
+    {
+      "id": "V328-U4",
+      "topic": "1787_MEMBER_QUESTION",
+      "next": "1787 sectioned edition Q3/Q4 original line compare",
+      "priority": "P1",
+      "status": "ORIGINAL_WITNESS_NOT_YET_COLLATED"
+    },
+    {
+      "id": "V328-U5",
+      "topic": "1798_6MONTH_IMAGE",
+      "next": "1798 screenshot of specific six-month paragraph, not OCR only",
+      "priority": "P1",
+      "status": "ORIGINAL_WITNESS_NOT_YET_COLLATED"
+    },
+    {
+      "id": "V328-U6",
+      "topic": "1784_VS_1785_APPROVAL",
+      "next": "Separate 1784 conference adoption from 1785 publication/approval summary",
+      "priority": "P1",
+      "status": "ORIGINAL_WITNESS_NOT_YET_COLLATED"
+    },
+    {
+      "id": "V328-U7",
+      "topic": "BRITISH_INTERMEDIATE",
+      "next": "1780/1789 British middle editions when three-month became two-month rule",
+      "priority": "P1",
+      "status": "ORIGINAL_WITNESS_NOT_YET_COLLATED"
+    },
+    {
+      "id": "V328-U8",
+      "topic": "1785_Q42_ORIGINAL",
+      "next": "1785 Q42 original first-print antislavery text vs 1789 General Rules section",
+      "priority": "P1",
+      "status": "ORIGINAL_WITNESS_NOT_YET_COLLATED"
+    }
+  ],
+  "held_inferences": [
+    "1789 full General Rules inclusion is based on 19C historical study, not a direct 1789 original scan",
+    "1789 six-month revision is retrospective, not directly a verified 1789 edition original paragraph",
+    "1785 Q16 gives rules, but does not prove full printed appendix",
+    "1785 Q42 anti-slavery discipline and 1789 General Rules anti-slavery clause are different loci",
+    "1789 20 March fifth-edition bibliographic date does not establish exact date rule became effective",
+    "Never equate 1787 question numbers with 1785 without original page comparison"
+  ],
+  "witness_ledger": {
+    "british_1770_Q18_scan_pages": 1,
+    "american_1785_Q16_Q17_original_pages": 0,
+    "american_1789_six_month_original_pages": 0,
+    "american_1789_general_rules_original_pages": 0,
+    "american_1798_six_month_specific_screenshot_pages": 0,
+    "original_1785_to_1789_aligned_print_pairs": 0
+  },
+  "metrics": {
+    "sources": 11,
+    "edition_topic_records": 6,
+    "claims": 12,
+    "readings": 3,
+    "sections": 9,
+    "open_issues": 8,
+    "original_corpus_mutations": 0
+  }
+}

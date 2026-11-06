@@ -1,0 +1,32 @@
+name: Atlas V3.28 Methodist 1785 1789 witness-scope integrity
+on:
+  push:
+    branches:
+      - research/atlas-v328-methodist-1785-1789-qa-rule-witness-audit
+  pull_request:
+    paths:
+      - 'data/contracts/atlas_v328_methodist_1785_1789_witness_scope.json'
+      - 'docs/02_RESEARCH/V328_METHODIST_1785_1789_RULES_WITNESS_AUDIT.md'
+      - 'scripts/build_v328_methodist_rules_witness.mjs'
+      - 'integrations/medium-atlas-v328/**'
+      - '.github/workflows/atlas-v328-methodist-rules-witness.yml'
+jobs:
+  v328_source_gate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify inherited V3.27 and precise V3.28 witness-level historical claims
+        run: node --test integrations/medium-atlas-v327/integration.test.mjs integrations/medium-atlas-v328/integration.test.mjs
+      - name: Produce review-only historical claim and edition files
+        run: node scripts/build_v328_methodist_rules_witness.mjs
+      - name: Archive review-only research materials
+        uses: actions/upload-artifact@v4
+        with:
+          name: atlas-v328-historical-witness-review
+          path: out/atlas-v328/*.json
+          retention-days: 30
