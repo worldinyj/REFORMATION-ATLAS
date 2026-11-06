@@ -13,7 +13,7 @@
 | LAT-CLAIM-01 | `sive fides sive opera` | 칭의보다 앞서는 믿음과 행위를 함께 열거하고, 둘 다 은총 자체를 공로로 얻는 수단이 아니라고 서술한다. | Sessio VI, Decretum de iustificatione, Caput VIII |
 | LAT-CLAIM-02 | `ad minimum duodecim annos` | 해당 교구의 성직자 교육기관에 받아들일 소년의 최소 나이를 열두 살로 제한한다. | Sessio XXIII, Decretum de reformatione, Caput XVIII |
 | LAT-CLAIM-03 | `die prima Januarii Anni millesimi sexcentesimi vicesimi quarti` | 교회 재산과 관련한 복원의 기준일을 1624년 1월 1일로 명시한다. | IPO Articulus V, subdivision 2 (terminus restitutionis) |
-| LAT-CLAIM-04 | `qui inter illos Reformati vocantur` | 법적 규정이 적용되는 대상으로 개혁파를 특정한다. | IPO Articulus VII, subdivision 1 |
+| LAT-CLAIM-04 | `qui inter illos Reformati vocantur` | 조약의 법적 권리 부여 대상에 가톨릭과 아우크스부르크 신앙고백을 따르는 이들 외에 개혁파라고 불린 공동체도 명시적으로 포함한다. | IPO Articulus VII, subdivision 1 |
 
 ## 심화 읽기
 
