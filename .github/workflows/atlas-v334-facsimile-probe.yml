@@ -1,0 +1,64 @@
+name: Atlas V3.34 original 1859 facsimile evidence image archive
+on:
+  push:
+    branches:
+      - research/atlas-v334-cr27-facsimile-page-inspection
+    paths:
+      - '.github/workflows/atlas-v334-facsimile-probe.yml'
+  pull_request:
+    paths:
+      - '.github/workflows/atlas-v334-facsimile-probe.yml'
+  workflow_dispatch:
+jobs:
+  facsimile_archive:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch and hash-check 1859 CR XXVII source PDF
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p out/atlas-v334-facsimile
+          sudo apt-get -qq update
+          sudo apt-get install -y -qq poppler-utils >/dev/null
+          curl --fail --location --retry 1 --max-time 150 --user-agent 'AtlasHistoricalSourceAudit/1.0 (public-domain research)' \
+            -o /tmp/cr27.pdf 'https://upload.wikimedia.org/wikipedia/commons/5/56/Corpus_reformatorum_%28IA_corpusreformato25melagoog%29.pdf'
+          echo 'ba1995d5587375a13f5298001e7a6c42d68f1c6b161ae86335471a1c4f30b29d  /tmp/cr27.pdf' | sha256sum --check
+          pdfinfo /tmp/cr27.pdf | grep -E '^Pages:|^Page size:|^File size:'
+          test "$(pdfinfo /tmp/cr27.pdf | awk '/^Pages:/ {print $2}')" = "360"
+      - name: Export readable page images with printed column mappings
+        shell: bash
+        run: |
+          set -euo pipefail
+          for N in 69 70 71 72 73 74 75 76; do
+            pdftoppm -f "$N" -l "$N" -singlefile -jpeg -jpegopt quality=82 -scale-to 1850 \
+              /tmp/cr27.pdf "out/atlas-v334-facsimile/CR27_1859_PDFPAGE_$N" >/dev/null 2>&1
+            test -s "out/atlas-v334-facsimile/CR27_1859_PDFPAGE_$N.jpg"
+          done
+          cat >out/atlas-v334-facsimile/SOURCE_AND_PAGE_MAPPING.txt <<'EOF'
+          SOURCE: NYPL/Google digitization of 1859 Corpus Reformatorum XXVII
+          DOWNLOAD: https://commons.wikimedia.org/wiki/File:Corpus_reformatorum_(IA_corpusreformato25melagoog).pdf
+          PDF_SHA256: ba1995d5587375a13f5298001e7a6c42d68f1c6b161ae86335471a1c4f30b29d
+          SOURCE_BYTES: 30637982
+          PDF_1BASED_TO_PRINTED_COLUMNS:
+            69 -> 93, 94
+            70 -> 95, 96  [Article IV grace clause in printed col 96]
+            71 -> 97, 98
+            72 -> 99, 100 [Google p99 label is NOT grace phrase printed col]
+            73 -> 101, 102 [Article VII conditional refusal starts col 102]
+            74 -> 103, 104 [VII condition continues 103, local rites 104]
+            75 -> 105, 106 [Article VIII positive acceptatur col 105]
+            76 -> 107, 108
+          LIMIT: These are 1859 edited print images, NOT 1530 manuscript
+          LIMIT: These are NOT the 1573 first Latin Confutatio printing
+          EOF
+          ls -lh out/atlas-v334-facsimile
+      - name: Archive inspectable original public-domain print page images
+        uses: actions/upload-artifact@v4
+        with:
+          name: atlas-v334-cr27-1859-direct-folio-images
+          path: out/atlas-v334-facsimile/
+          retention-days: 30

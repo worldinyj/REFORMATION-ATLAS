@@ -1,0 +1,32 @@
+name: Atlas V3.34 direct Corpus Reformatorum 1859 folio witness evidence gate
+on:
+  push:
+    branches:
+      - research/atlas-v334-cr27-facsimile-page-inspection
+  pull_request:
+    paths:
+      - 'data/contracts/atlas_v334_cr27_1859_direct_folio_inspection.json'
+      - 'docs/02_RESEARCH/V334_CR27_1859_DIRECT_PAGE_IMAGE_WITNESS_AUDIT.md'
+      - 'scripts/build_v334_cr27_direct_folio_audit.mjs'
+      - 'integrations/medium-atlas-v334/**'
+      - '.github/workflows/atlas-v334-direct-folio-evidence.yml'
+jobs:
+  source_grade_gate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify immutable V3.33 and direct V3.34 historical witness corrections
+        run: node --test integrations/medium-atlas-v333/integration.test.mjs integrations/medium-atlas-v334/integration.test.mjs
+      - name: Produce reviewed but non-published source evidence graphs
+        run: node scripts/build_v334_cr27_direct_folio_audit.mjs
+      - name: Archive non-public source collation JSON only
+        uses: actions/upload-artifact@v4
+        with:
+          name: atlas-v334-cr27-direct-print-witness-review
+          path: out/atlas-v334/*.json
+          retention-days: 30

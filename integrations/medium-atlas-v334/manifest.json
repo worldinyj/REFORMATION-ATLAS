@@ -1,0 +1,49 @@
+{
+  "version": "3.34",
+  "kind": "1859_CR27_DIRECT_FOLIO_VISUAL_INSPECTION",
+  "status": "DRAFT_HOLD",
+  "parent": "research/atlas-v333-confutatio-cr27-latin-witness-scope",
+  "contract": "data/contracts/atlas_v334_cr27_1859_direct_folio_inspection.json",
+  "report": "docs/02_RESEARCH/V334_CR27_1859_DIRECT_PAGE_IMAGE_WITNESS_AUDIT.md",
+  "builder": "scripts/build_v334_cr27_direct_folio_audit.mjs",
+  "test": "integrations/medium-atlas-v334/integration.test.mjs",
+  "generated_review_only": [
+    "v334_1859_folio_lemma_evidence.json",
+    "v334_v333_locator_and_evidence_corrections.json",
+    "v334_1573_1530_original_witness_queue.json"
+  ],
+  "metrics": {
+    "sources": 9,
+    "original_1859_pdf_pages_supporting_claims": 4,
+    "latin_clauses": 4,
+    "earlier_locator_corrections": 5,
+    "historical_essays": 4,
+    "sections": 12,
+    "open_issues": 9
+  },
+  "verification": {
+    "pdf_pages": [
+      70,
+      73,
+      74,
+      75
+    ],
+    "printed_columns": [
+      96,
+      102,
+      103,
+      104,
+      105
+    ],
+    "file_sha256": "ba1995d5587375a13f5298001e7a6c42d68f1c6b161ae86335471a1c4f30b29d",
+    "first_1530_manuscript_pages_seen": 0,
+    "first_1573_latin_print_pages_seen": 0,
+    "variant_apparatus_fully_collated": false
+  },
+  "publication_gate": {
+    "main_changed": false,
+    "google_ai_studio_integrated": false,
+    "historian_approved": false,
+    "public_ready": false
+  }
+}
