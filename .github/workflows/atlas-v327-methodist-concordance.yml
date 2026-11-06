@@ -1,0 +1,32 @@
+name: Atlas V3.27 Methodist edition and question witness concordance gate
+on:
+  push:
+    branches:
+      - research/atlas-v327-methodist-qa-edition-concordance
+  pull_request:
+    paths:
+      - 'data/contracts/atlas_v327_methodist_question_edition_concordance.json'
+      - 'docs/02_RESEARCH/V327_METHODIST_QA_EDITION_CONCORDANCE.md'
+      - 'scripts/build_v327_methodist_concordance.mjs'
+      - 'integrations/medium-atlas-v327/**'
+      - '.github/workflows/atlas-v327-methodist-concordance.yml'
+jobs:
+  v327_methodist_concordance_gate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify inherited V3.26 and V3.27 precise original witness scope
+        run: node --test integrations/medium-atlas-v326/integration.test.mjs integrations/medium-atlas-v327/integration.test.mjs
+      - name: Generate research-only evidence distinction files
+        run: node scripts/build_v327_methodist_concordance.mjs
+      - name: Archive research review JSON not public content
+        uses: actions/upload-artifact@v4
+        with:
+          name: atlas-v327-review-only-concordance
+          path: out/atlas-v327/*.json
+          retention-days: 30
