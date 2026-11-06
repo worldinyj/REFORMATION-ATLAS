@@ -1,0 +1,625 @@
+{
+  "version": "3.24",
+  "status": "DRAFT",
+  "depth": "MEDIUM",
+  "publication_gate": {
+    "published": false,
+    "main_changed": false,
+    "webapp_integrated": false,
+    "historian_approved": false
+  },
+  "parent": {
+    "version": "3.23",
+    "pr": 165,
+    "branch": "research/atlas-v323-chronology-navigation-graph",
+    "head_sha": "79655e2a4c51882d2e9b0b2f5a010caf121c59e3"
+  },
+  "frozen_inputs": [
+    {
+      "path": "data/contracts/atlas_v323_curated_chronology_navigation_graph.json",
+      "blob_sha": "01300f46779cd6f1e20f9ef1472f3c1dc4b028eb"
+    },
+    {
+      "path": "data/contracts/atlas_v323_chronology_navigation_graph.json",
+      "blob_sha": "3d570fb6113d791f8a7d3cc6e66e5c1f01eeeebb"
+    },
+    {
+      "path": "data/deep/atlas_v307_remaining_overview_medium_readers.json",
+      "blob_sha": "d25f54191183ee80db564237a0dfb4d008af990a"
+    },
+    {
+      "path": "data/contracts/atlas_v322_cross_document_date_age_gates.json",
+      "blob_sha": "de0cb56c20bd9bd98b3e0b49a4106a97c6e59ce0"
+    }
+  ],
+  "preserved_original_corpus": {
+    "readers": 513,
+    "reader_sections": 1539,
+    "source_records": 723,
+    "overviews": 97,
+    "selected_claims": 22,
+    "curated_events": 26,
+    "overview_reader_edges": 156,
+    "witness_nodes": 10
+  },
+  "scope": "Evidence-typed curated link overlay only; no complete influence graph for all 513 readers. Directed links must cite direct historical document content, scholarly editorial synthesis or institutional metadata. Time precedence alone is prohibited as proof of influence.",
+  "evidence_sources": [
+    {
+      "id": "SRC-HUS-BRIT",
+      "url": "https://www.britannica.com/biography/Jan-Hus",
+      "kind": "HISTORIAN_EDITORIAL_BIOGRAPHY",
+      "locator": "Hus read Wycliffe's works and took influence without embracing all theological conclusions",
+      "access_level": "WEB_ARTICLE_TEXT",
+      "physical_first_edition_collated": false
+    },
+    {
+      "id": "SRC-CONFUTATION",
+      "url": "https://bookofconcord.org/other-resources/sources-and-context/roman-confutation/",
+      "kind": "CONFESSIONAL_SITE_HISTORIC_DOCUMENT_TRANSLATION",
+      "locator": "Roman Confutation of Aug 3 1530 is an explicit reply to presented Augsburg Confession",
+      "access_level": "TRANSLATION_AND_EDITORIAL_CONTEXT",
+      "physical_first_edition_collated": false
+    },
+    {
+      "id": "SRC-APOLOGY-HISTORY",
+      "url": "https://bookofconcord.org/other-resources/historical-introductions/06/",
+      "kind": "LATER_CONFESSIONAL_HISTORICAL_INTRODUCTION",
+      "locator": "Apology compiled as answer to Confutation, multi-party first draft and substantial revision",
+      "access_level": "EDITORIAL_HISTORY",
+      "physical_first_edition_collated": false
+    },
+    {
+      "id": "SRC-AUGSBURG-INTRO",
+      "url": "https://bookofconcord.org/other-resources/historical-introductions/",
+      "kind": "LATER_CONFESSIONAL_HISTORICAL_INTRODUCTION",
+      "locator": "1531 Melanchthon supervised editio princeps and later Variata are different print stages",
+      "access_level": "EDITORIAL_HISTORY",
+      "physical_first_edition_collated": false
+    },
+    {
+      "id": "SRC-CALVIN-BNF",
+      "url": "https://catalogue.bnf.fr/ark:/12148/cb11963198n",
+      "kind": "NATIONAL_LIBRARY_BIBLIOGRAPHIC_AUTHORITY",
+      "locator": "1536 first Institutes and final edition 1559; modified and expanded across years",
+      "access_level": "CATALOGUE_TEXT",
+      "physical_first_edition_collated": false
+    },
+    {
+      "id": "SRC-CALVIN-BRIDWELL",
+      "url": "https://bridwell.omeka.net/exhibits/show/calvin/1562institutes",
+      "kind": "ACADEMIC_LIBRARY_EXHIBITION",
+      "locator": "Calvin's 1536 Institutes substantially modeled on Luther's 1529 Small Catechism; edition history 1539/1543/1550/1559",
+      "access_level": "LIBRARY_EDITORIAL_EXHIBITION",
+      "physical_first_edition_collated": false
+    },
+    {
+      "id": "SRC-CATECHISM-VATICAN",
+      "url": "https://www.vatican.va/content/dam/wss/roman_curia/congregations/cfaith/ccc_documents/rc_con_cfaith_doc_19920625_informative-ccc_en.html",
+      "kind": "VATICAN_HISTORICAL_DOSSIER",
+      "locator": "Council of Trent informed the Roman Catechism published in 1566",
+      "access_level": "INSTITUTIONAL_EDITORIAL",
+      "physical_first_edition_collated": false
+    },
+    {
+      "id": "SRC-CATECHISM-HISTORY",
+      "url": "https://www.newadvent.org/cathen/13120c.htm",
+      "kind": "HISTORICAL_CATHOLIC_ENCYCLOPEDIA",
+      "locator": "Council approved catechism initiative in 1562; later Roman Catechism published under Pius V in 1566",
+      "access_level": "RETROSPECTIVE_SECONDARY",
+      "physical_first_edition_collated": false
+    },
+    {
+      "id": "SRC-SPENER-BRIDWELL",
+      "url": "https://bridwell.omeka.net/exhibits/show/pietists/churchlypietists/spener",
+      "kind": "ACADEMIC_LIBRARY_EXHIBITION",
+      "locator": "Spener authored Pia Desideria first published 1675; physical display is 1841 print",
+      "access_level": "LIBRARY_EDITORIAL_EXHIBITION",
+      "physical_first_edition_collated": false
+    },
+    {
+      "id": "SRC-UMC-GLOSSARY",
+      "url": "https://www.umc.org/en/content/glossary-general-rules-the",
+      "kind": "DENOMINATIONAL_GLOSSARY",
+      "locator": "Wesley General Rules devised 1738, printed 1743, said approved 1785",
+      "access_level": "CHURCH_EXPLANATORY_ACCOUNT",
+      "physical_first_edition_collated": false
+    },
+    {
+      "id": "SRC-UMC-DOCTRINE",
+      "url": "https://www.umc.org/en/content/doctrinal-standards-in-american-methodism",
+      "kind": "DENOMINATIONAL_HISTORICAL_ESSAY",
+      "locator": "1784 Christmas Conference adopted modified General Rules",
+      "access_level": "CHURCH_HISTORICAL_ACCOUNT",
+      "physical_first_edition_collated": false
+    },
+    {
+      "id": "SRC-UMC-FOUNDATIONS",
+      "url": "https://www.umc.org/en/content/foundational-documents",
+      "kind": "DENOMINATIONAL_OFFICIAL_FOUNDATIONAL_OVERVIEW",
+      "locator": "General Rules adopted as continuing guidelines when Methodist Episcopal Church organized in 1784",
+      "access_level": "CHURCH_FOUNDATIONAL_OVERVIEW",
+      "physical_first_edition_collated": false
+    },
+    {
+      "id": "SRC-WESTPHALIA-LEXICON",
+      "url": "https://www.historisches-lexikon-bayerns.de/Lexikon/Westf%C3%A4lischer_Friede%2C_1648",
+      "kind": "HISTORIAN_SECONDARY",
+      "locator": "1649-02-18 ratification exchange distinct from Oct 1648 treaty signature",
+      "access_level": "HISTORICAL_ACCOUNT",
+      "physical_first_edition_collated": false
+    },
+    {
+      "id": "SRC-PRIVILEGE-WIKISOURCE",
+      "url": "https://de.wikisource.org/wiki/Seite:Westfaelischer_Friede_IPM_1649_006.jpg",
+      "kind": "EARLIER_SESSION_1649_PRINT_PAGE",
+      "locator": "1649 printed IPM reproduces privilege dated 3 March 1648",
+      "access_level": "EARLIER_VERIFIED_SCAN_1649_ONLY",
+      "physical_first_edition_collated": false
+    }
+  ],
+  "external_historical_documents": [
+    {
+      "id": "V324-DOC-CONFUTATIO1530",
+      "work": "AUGSBURG_CONFESSION_CONTROVERSY",
+      "title": "Confutatio Pontificia",
+      "event_date": "1530-08-03",
+      "type": "HISTORIC_CONFUTATION_IN_ONLINE_EDITED_TRANSLATION",
+      "source_ids": [
+        "SRC-CONFUTATION"
+      ],
+      "repository_reader_id": null,
+      "why_new": "Directly relevant historical document but no matching fixed reader ID verified in the 513-reader catalogue"
+    }
+  ],
+  "typed_relations": [
+    {
+      "id": "V324-R01",
+      "type": "DOCUMENTED_INTELLECTUAL_INFLUENCE",
+      "from": {
+        "kind": "reader",
+        "id": "MEDIUM-WYCLIFFE"
+      },
+      "to": {
+        "kind": "reader",
+        "id": "MEDIUM-HUS"
+      },
+      "source_ids": [
+        "SRC-HUS-BRIT"
+      ],
+      "claim": "후스는 위클리프의 저술을 연구하여 영향을 받았으나 그의 모든 신학적 결론을 받아들인 것은 아니다.",
+      "limits": "후스의 사상을 위클리프의 동일 복제로 기술 금지.",
+      "confidence": "EDITORIALLY_SUPPORTED",
+      "original_witness_pair_collated": false,
+      "causation_inferred_from_time_only": false,
+      "expert_approved": false
+    },
+    {
+      "id": "V324-R02",
+      "type": "FORMAL_CONFUTATION_OF",
+      "from": {
+        "kind": "historical_document",
+        "id": "V324-DOC-CONFUTATIO1530"
+      },
+      "to": {
+        "kind": "witness",
+        "id": "V323-W01"
+      },
+      "source_ids": [
+        "SRC-CONFUTATION"
+      ],
+      "claim": "1530년 로마 측 반박문은 아우크스부르크 신앙고백에 대한 공개 반박으로 작성되었다.",
+      "limits": "'신앙고백 문서 제출'과 인쇄판의 동일성을 가정하지 않는다.",
+      "confidence": "EDITORIALLY_SUPPORTED",
+      "original_witness_pair_collated": false,
+      "causation_inferred_from_time_only": false,
+      "expert_approved": false
+    },
+    {
+      "id": "V324-R03",
+      "type": "APOLOGETIC_REBUTTAL_OF",
+      "from": {
+        "kind": "reader",
+        "id": "DOCUMENT-AUGSBURG_APOLOGY"
+      },
+      "to": {
+        "kind": "historical_document",
+        "id": "V324-DOC-CONFUTATIO1530"
+      },
+      "source_ids": [
+        "SRC-APOLOGY-HISTORY",
+        "SRC-CONFUTATION"
+      ],
+      "claim": "멜란히톤이 관여한 변증서는 가톨릭 측 반박문에 답하기 위해 형성·수정되었다.",
+      "limits": "1530 초안과 1531 출판본문은 동일한 고정 원고가 아니다.",
+      "confidence": "EDITORIALLY_SUPPORTED",
+      "original_witness_pair_collated": false,
+      "causation_inferred_from_time_only": false,
+      "expert_approved": false
+    },
+    {
+      "id": "V324-R04",
+      "type": "DEFENSE_OF_CONFESSIONAL_DOCUMENT",
+      "from": {
+        "kind": "reader",
+        "id": "DOCUMENT-AUGSBURG_APOLOGY"
+      },
+      "to": {
+        "kind": "witness",
+        "id": "V323-W01"
+      },
+      "source_ids": [
+        "SRC-APOLOGY-HISTORY"
+      ],
+      "claim": "아우크스부르크 신앙고백 변증은 1530년 신앙고백의 신학적 변호 문서다.",
+      "limits": "반박문 자체에 대한 재반박과 개념상 별개의 링크.",
+      "confidence": "EDITORIALLY_SUPPORTED",
+      "original_witness_pair_collated": false,
+      "causation_inferred_from_time_only": false,
+      "expert_approved": false
+    },
+    {
+      "id": "V324-R05",
+      "type": "AUTHORIAL_EDITION_REVISION",
+      "from": {
+        "kind": "witness",
+        "id": "V323-W02"
+      },
+      "to": {
+        "kind": "witness",
+        "id": "V323-W03"
+      },
+      "source_ids": [
+        "SRC-AUGSBURG-INTRO"
+      ],
+      "claim": "1531년 멜란히톤 감독 인쇄판과 1540년 Variata는 역사적으로 구별되는 저작자 개정 계열이다.",
+      "limits": "두 실물판의 특정 문구 차이를 신규 직접 교감한 것이 아니다.",
+      "confidence": "BIBLIOGRAPHIC_LINEAGE",
+      "original_witness_pair_collated": false,
+      "causation_inferred_from_time_only": false,
+      "expert_approved": false
+    },
+    {
+      "id": "V324-R06",
+      "type": "AUTHORIAL_EDITION_REVISION",
+      "from": {
+        "kind": "witness",
+        "id": "V323-W04"
+      },
+      "to": {
+        "kind": "witness",
+        "id": "V323-W05"
+      },
+      "source_ids": [
+        "SRC-CALVIN-BNF",
+        "SRC-CALVIN-BRIDWELL"
+      ],
+      "claim": "칼뱅의 1536년 라틴 초판은 여러 단계의 개정을 거쳐 1559년 최종 라틴 저자판으로 발전했다.",
+      "limits": "1539·1543·1550년 중간 라틴 판본이 있었음을 명시. 두 끝판만의 단일 수정 아님.",
+      "confidence": "BIBLIOGRAPHIC_LINEAGE",
+      "original_witness_pair_collated": false,
+      "causation_inferred_from_time_only": false,
+      "expert_approved": false
+    },
+    {
+      "id": "V324-R07",
+      "type": "REPORTED_STRUCTURAL_INFLUENCE",
+      "from": {
+        "kind": "reader",
+        "id": "DOCUMENT-SMALL_CATECHISM"
+      },
+      "to": {
+        "kind": "reader",
+        "id": "MEDIUM-CALVIN1536"
+      },
+      "source_ids": [
+        "SRC-CALVIN-BRIDWELL"
+      ],
+      "claim": "학술 도서관 전시는 칼뱅 1536년 강요의 구성과 내용에 루터 1529년 소교리문답의 영향이 크다고 설명한다.",
+      "limits": "1536년 실물과 1529년 실물 사이 문장별 차용 여부를 직접 분석한 결과가 아니다.",
+      "confidence": "ACADEMIC_EDITORIAL_INTERPRETATION",
+      "original_witness_pair_collated": false,
+      "causation_inferred_from_time_only": false,
+      "expert_approved": false
+    },
+    {
+      "id": "V324-R08",
+      "type": "INSTITUTIONAL_FOLLOW_UP_PUBLICATION",
+      "from": {
+        "kind": "event",
+        "id": "V323-E13"
+      },
+      "to": {
+        "kind": "reader",
+        "id": "DOCUMENT-ROMAN_CATECHISM"
+      },
+      "source_ids": [
+        "SRC-CATECHISM-VATICAN",
+        "SRC-CATECHISM-HISTORY"
+      ],
+      "claim": "트리엔트 공의회에서 추진한 교리 교육 문헌 정리가 1566년 로마 교리서 간행으로 이어졌다.",
+      "limits": "공의회 종료(1563)와 교리서 출판(1566)은 다른 사건·문헌이며 발의 시점은 1562년이다.",
+      "confidence": "INSTITUTIONAL_HISTORICAL_ACCOUNT",
+      "original_witness_pair_collated": false,
+      "causation_inferred_from_time_only": false,
+      "expert_approved": false
+    },
+    {
+      "id": "V324-R09",
+      "type": "DOCUMENT_AUTHORSHIP",
+      "from": {
+        "kind": "reader",
+        "id": "PERSON-PHILIPP_SPENER"
+      },
+      "to": {
+        "kind": "reader",
+        "id": "DOCUMENT-PIA_DESIDERIA1675"
+      },
+      "source_ids": [
+        "SRC-SPENER-BRIDWELL"
+      ],
+      "claim": "슈페너가 1675년 발표한 경건한 열망의 저자다.",
+      "limits": "현재 도서관 전시의 소장 사진은 1841년 판본이며 1675년 원판 직접 판독이 아니다.",
+      "confidence": "LIBRARY_EXHIBITION",
+      "original_witness_pair_collated": false,
+      "causation_inferred_from_time_only": false,
+      "expert_approved": false
+    },
+    {
+      "id": "V324-R10",
+      "type": "FORMATION_TO_PRINT_PUBLICATION",
+      "from": {
+        "kind": "event",
+        "id": "V323-E23"
+      },
+      "to": {
+        "kind": "event",
+        "id": "V323-E25"
+      },
+      "source_ids": [
+        "SRC-UMC-GLOSSARY"
+      ],
+      "claim": "현대 감리교 교단 해설은 규칙의 형성(1738)과 소책자 간행(1743)을 구분한다.",
+      "limits": "1738년 당시 자필 원고를 확인하지 않았고 1739년 모임 형성을 동일 사건으로 합치지 않는다.",
+      "confidence": "LATER_DENOMINATIONAL_ACCOUNT",
+      "original_witness_pair_collated": false,
+      "causation_inferred_from_time_only": false,
+      "expert_approved": false
+    },
+    {
+      "id": "V324-R11",
+      "type": "TREATY_RATIFICATION_PROCEDURE",
+      "from": {
+        "kind": "event",
+        "id": "V323-E17"
+      },
+      "to": {
+        "kind": "event",
+        "id": "V323-E19"
+      },
+      "source_ids": [
+        "SRC-WESTPHALIA-LEXICON"
+      ],
+      "claim": "베스트팔렌 조약 서명(1648-10-24) 이후 주요 당사자 비준서의 교환(1649-02-18)이 별도 절차로 진행됐다.",
+      "limits": "IPO와 IPM은 서로 다른 조약. 비준 축하일 1649-02-21을 교환일로 오인하지 않는다.",
+      "confidence": "HISTORIAN_SECONDARY_ACCOUNT",
+      "original_witness_pair_collated": false,
+      "causation_inferred_from_time_only": false,
+      "expert_approved": false
+    },
+    {
+      "id": "V324-R12",
+      "type": "PRINT_PRIVILEGE_REPRODUCED_IN_LATER_EDITION",
+      "from": {
+        "kind": "event",
+        "id": "V323-E16"
+      },
+      "to": {
+        "kind": "event",
+        "id": "V323-E21"
+      },
+      "source_ids": [
+        "SRC-PRIVILEGE-WIKISOURCE"
+      ],
+      "claim": "1649년 IPM 인쇄본 안에 1648-03-03 발행일이 적힌 인쇄특허문이 재수록돼 있다.",
+      "limits": "특허 발행 ≠ 서명된 조약 원본 승인, 집행 증명 아님. 1649년 간행의 정확한 월·일 미상.",
+      "confidence": "EARLIER_PRINT_SCAN_EVIDENCE",
+      "original_witness_pair_collated": false,
+      "causation_inferred_from_time_only": false,
+      "expert_approved": false
+    }
+  ],
+  "readings": [
+    {
+      "id": "V324-READ-01",
+      "title": "위클리프와 후스: 영향과 동일성은 다르다",
+      "overview_ids": [
+        "OV-P-009",
+        "OV-P-010"
+      ],
+      "sections": [
+        {
+          "heading": "문서가 국경을 건너가는 경로",
+          "body": "14세기 후반 잉글랜드에서 활동한 위클리프의 저술은 보헤미아 프라하의 대학·종교 논쟁에서도 읽혔다. 후스는 위클리프의 주장에 접촉했고 교회의 권위와 성직자의 삶에 관한 비판을 자신의 개혁 문제로 삼았다. 이는 두 사람의 생애가 단순히 같은 시대에 놓였다는 뜻을 넘어, 문헌이 실제로 이동하고 독서·토론에 영향을 주었음을 설명한다."
+        },
+        {
+          "heading": "영향을 받았다고 모두 동의한 것은 아니다",
+          "body": "후스가 위클리프의 모든 신학적 입장, 특히 성찬에 관한 급진적 논의를 받아들인 것은 아니었다. 보헤미아의 왕권·대학 분쟁과 교회 재산 문제는 잉글랜드의 환경과도 달랐다. 그러므로 ‘위클리프 → 후스’ 화살표는 사상의 기계적 복제나 두 교회론 문헌의 동일 저작이라는 뜻으로 해석해서는 안 된다."
+        },
+        {
+          "heading": "앱에서 무엇을 연결할 것인가",
+          "body": "ATLAS에서는 실제 독서 원고 MEDIUM-WYCLIFFE와 MEDIUM-HUS를 ‘문헌을 통한 영향’으로 연결하되 세부 주장별 원문 교감 여부는 별도로 표시한다. 『교회론』이라는 공통 제목이나 종교개혁의 선구자라는 통칭만으로 위클리프와 후스의 저작을 서로 바꾸거나 한 사람의 직접 제자 관계를 만들어 내지 않는다."
+        }
+      ]
+    },
+    {
+      "id": "V324-READ-02",
+      "title": "신앙고백과 반박·변증: 세 문서의 대화",
+      "overview_ids": [
+        "OV-E-019",
+        "OV-D-011"
+      ],
+      "sections": [
+        {
+          "heading": "1530년의 신앙고백은 무엇에 답했는가",
+          "body": "아우크스부르크 제국의회에 제출된 신앙고백은 새 교회의 신앙을 공적으로 설명하려는 문서였다. 같은 해 8월 3일 가톨릭 측의 반박문이 낭독되었으며, 이는 이미 제출된 신앙고백의 조목을 평가하고 비판하려는 공식적인 응답이었다. 이 반박문은 신앙고백의 두 번째 인쇄판이 아니므로 판본 연혁이 아니라 논박 관계로 연결해야 한다."
+        },
+        {
+          "heading": "멜란히톤의 변증은 재반박이다",
+          "body": "루터교 측은 가톨릭 반박문을 받아들이지 않았고, 멜란히톤과 함께 여러 인물이 변증 초안을 준비했다. 그 변증서는 원래 신앙고백을 방어하면서 반박문의 신학적 주장에 응답했다. 따라서 변증에서 신앙고백으로 연결되는 ‘문서의 방어’와 변증에서 반박문으로 연결되는 ‘반박에 대한 재반박’은 구분할 수 있다."
+        },
+        {
+          "heading": "1530년 초안과 1531년 인쇄본의 간격",
+          "body": "1530년의 급박한 제국의회 협상에서 구성된 초안이 1531년에 아무 수정 없이 곧장 인쇄된 것은 아니었다. 반박문 사본을 확보한 뒤 논증을 보강했고 인쇄된 변증의 내용도 발전했다. 별도로 아우크스부르크 신앙고백의 1531년 저자 관여 판본과 1540년 Variata는 저작자 판본의 개정 관계에 있다. 논박을 위한 새 문서와 저자판 개정이라는 두 관계를 한 종류로 합치지 않는다."
+        }
+      ]
+    },
+    {
+      "id": "V324-READ-03",
+      "title": "루터에서 칼뱅까지: 문헌 영향과 판본 개정",
+      "overview_ids": [
+        "OV-D-012",
+        "OV-E-020"
+      ],
+      "sections": [
+        {
+          "heading": "소교리문답의 형식과 1536년 강요",
+          "body": "학술 도서관의 칼뱅 저술 전시는 그의 1536년 『기독교강요』 초기 구성과 신학 내용이 루터의 1529년 『소교리문답』에서 중요한 영향을 받았다고 설명한다. 십계명, 사도신경, 주기도문, 성례와 교회 질서처럼 공동체가 가르칠 내용을 체계적으로 배치하는 문제가 두 문헌을 연결한다. 다만 이 주장은 해당 전시 해설의 판단이며 모든 문장을 직접 대조한 결과는 아니다."
+        },
+        {
+          "heading": "1536년과 1559년은 같은 책의 서로 다른 상태",
+          "body": "프랑스 국립도서관의 작품 서지는 칼뱅 『기독교강요』의 바젤 1536년 초판과 1559년 최종판을 구별하며, 그 사이 반복하여 수정·증보되었다고 기록한다. 다른 학술 도서관은 1539·1543·1550년 라틴어 개정판을 함께 열거한다. 따라서 초판에서 최종판으로 직선 하나를 그릴 수는 있지만 실제 연구에서는 중간 판본이 있었다는 설명이 화살표에 따라붙어야 한다."
+        },
+        {
+          "heading": "영향, 개정, 인용은 서로 다르다",
+          "body": "‘루터 소교리문답 → 칼뱅 1536’은 문헌 간 구조적 영향이고, ‘칼뱅 1536 → 칼뱅 1559’는 저자의 반복 개정으로서 성격이 전혀 다르다. 원문에서 몇 구절을 옮겼는지, 수정 횟수가 정확히 몇 번인지, 최종판이 처음의 사상을 전면 부정했는지는 별도의 판본 비교를 필요로 한다. ATLAS는 서로 다른 종류의 연결을 색과 라벨로 구별하도록 준비한다."
+        }
+      ]
+    },
+    {
+      "id": "V324-READ-04",
+      "title": "결정을 문헌으로 전환하기: 트리엔트와 웨슬리",
+      "overview_ids": [
+        "OV-D-014",
+        "OV-D-017"
+      ],
+      "sections": [
+        {
+          "heading": "트리엔트가 끝났다고 후속 출판도 끝난 것은 아니다",
+          "body": "트리엔트 공의회는 1563년 12월 종료되었지만 교회 내 교육 내용을 정리하려는 작업은 계속되었다. 공의회가 추진한 교리 교육 문서의 결과 가운데 하나가 1566년 로마 교리서다. 이 교리서는 공의회 교령 자체가 아니라 별도 제작·편찬·출판 과정을 거친 후속 문헌이다. 전통적인 교리서 역사 설명에는 1562년 이 사업을 추진하기로 한 결정과 이후 편집·발행 절차도 구별되어 나타난다."
+        },
+        {
+          "heading": "감리교 일반 규칙: 형성과 출판, 교단 채택",
+          "body": "연합감리교회의 한 용어사전은 존 웨슬리의 일반 규칙이 1738년 만들어지고 1743년 소책자로 출판되었으며 1785년 미국 감리교회에서 승인되었다고 설명한다. 그런데 같은 교단의 공식 문헌·역사 소개는 1784년 크리스마스 연회에서 변형된 규칙을 채택했다고 기록한다. 이 차이는 1784년 조직적 채택과 1785년 승인·출판 단계가 구별되는지 관련 회의록을 살펴봐야 하는 문제다."
+        },
+        {
+          "heading": "수용 연도에 이견이 있을 때의 안전한 탐색",
+          "body": "현재 자료만으로 1784년과 1785년을 서로 완전히 배제되는 사건이라고 판단하거나 단순 오타로 고쳐서는 안 된다. ATLAS는 1738년 형성에서 1743년 인쇄로 이어진다는 설명을 우선 검증된 관계로 등록하고, 미국 감리교회의 수용·승인 과정에는 ‘1784/1785 용어와 문서 단위 추가 확인 필요’라는 내부 경고를 남긴다. 이처럼 사건 사이의 관계는 출판 시점뿐 아니라 제도적 권위의 변화까지 설명해야 한다."
+        }
+      ]
+    }
+  ],
+  "open_issues": [
+    {
+      "id": "V324-ISS01",
+      "topic": "1784-versus-1785-American-Methodist-adoption",
+      "status": "SOURCE_DESCRIPTIONS_DIVERGE",
+      "sources": [
+        "SRC-UMC-GLOSSARY",
+        "SRC-UMC-DOCTRINE",
+        "SRC-UMC-FOUNDATIONS"
+      ],
+      "finding": "UMC glossary says General Rules approved 1785 while UMC doctrine/history and foundational pages say adopted at December 1784 organization. Publication, conference adoption and later approval wording must not be collapsed.",
+      "next": "Collate minutes or edition of 1784 Christmas Conference and 1785 Discipline; keep 1785 inherited V323 event source-qualified."
+    },
+    {
+      "id": "V324-ISS02",
+      "topic": "Augsburg-Confutation-primary-witness",
+      "status": "NOT_COLLATED",
+      "sources": [
+        "SRC-CONFUTATION",
+        "SRC-APOLOGY-HISTORY"
+      ],
+      "finding": "Online confessional hosted transcription and historical introductions used, no 1530 physical folio inspected.",
+      "next": "Compare archival prints/manuscripts with historical published translation and 1531 Apology"
+    },
+    {
+      "id": "V324-ISS03",
+      "topic": "Wycliffe-Hus-direct-textual-borrowing",
+      "status": "NOT_COLLATED",
+      "sources": [
+        "SRC-HUS-BRIT"
+      ],
+      "finding": "Academic biography supports influence but no exact chapter-to-chapter copying established.",
+      "next": "Compare dated De Ecclesia passages or verified Latin scholarly editions"
+    },
+    {
+      "id": "V324-ISS04",
+      "topic": "Trent-Roman-Catechism-document-status",
+      "status": "NOT_COLLATED",
+      "sources": [
+        "SRC-CATECHISM-VATICAN",
+        "SRC-CATECHISM-HISTORY"
+      ],
+      "finding": "Institutional narrative explains follow-up, not a direct 1562 decree image plus 1566 original page collation.",
+      "next": "Verify initiating decree, 1566 imprint and editorial mediation"
+    },
+    {
+      "id": "V324-ISS05",
+      "topic": "Luther-Calvin-structural-influence",
+      "status": "ACADEMIC_EDITORIAL_ONLY",
+      "sources": [
+        "SRC-CALVIN-BRIDWELL"
+      ],
+      "finding": "Academic library exhibit asserts substantial model influence; not a newly verified phrase-level borrowing.",
+      "next": "Compare 1529 German catechism and 1536 Latin Institutes parallel thematic sections"
+    },
+    {
+      "id": "V324-ISS06",
+      "topic": "1648-1649-physical-print-variants",
+      "status": "NOT_COLLATED",
+      "sources": [
+        "SRC-PRIVILEGE-WIKISOURCE"
+      ],
+      "finding": "Privilege printed in 1649 scanned page; 1648 IPM print actual page has not been inspected.",
+      "next": "Acquire and compare 1648 and 1649 same-treaty actual scan pages"
+    }
+  ],
+  "blocked_relationship_templates": [
+    {
+      "pattern": "WYCLIFFE_AND_HUS_IDENTICAL_THEOLOGY",
+      "why": "influence does not mean doctrinal identity"
+    },
+    {
+      "pattern": "MARBURG_CAUSED_AUGSBURG_CONFESSION",
+      "why": "sequence or topical overlap alone cannot prove causation"
+    },
+    {
+      "pattern": "SAME_CITY_MUENSTER_MEANS_SAME_TREATY",
+      "why": "Spain-Dutch Jan treaty and imperial-French IPM are different"
+    },
+    {
+      "pattern": "PRINT_PRIVILEGE_EQUALS_SIGNED_TREATY_AUTHORITY",
+      "why": "1648 privilege reprinted 1649 does not confer diplomatic original status"
+    },
+    {
+      "pattern": "WESLEY_1785_FIRST_AND_ONLY_ADOPTION",
+      "why": "UMC official history mentions 1784 adopted revised Rules"
+    },
+    {
+      "pattern": "FIRST_AND_LAST_CALVIN_EDITIONS_NO_INTERMEDIATE",
+      "why": "1539, 1543 and 1550 Latin editions exist"
+    }
+  ],
+  "metrics": {
+    "new_typed_relations": 12,
+    "new_research_readings": 4,
+    "new_sections": 12,
+    "new_external_source_records": 14,
+    "external_document_nodes": 1,
+    "open_issues": 6,
+    "blocked_templates": 6,
+    "original_print_pages_newly_inspected": 0,
+    "edition_print_page_pairs_collated": 0,
+    "historical_claims_expert_approved": 0
+  }
+}
