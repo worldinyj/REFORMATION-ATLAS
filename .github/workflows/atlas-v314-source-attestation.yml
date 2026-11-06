@@ -1,0 +1,38 @@
+name: Atlas V3.14 Museum And Archive Attestation QA
+on:
+  pull_request:
+    paths:
+      - 'data/contracts/atlas_v314_*'
+      - 'docs/02_RESEARCH/V314_*'
+      - 'integrations/medium-atlas-v314/**'
+      - 'scripts/build_v314_authentication_delivery.mjs'
+      - '.github/workflows/atlas-v314-source-attestation.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  source-attestation:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Verify archived corpus and authenticated museum-copy provenance
+        run: |
+          node --test integrations/medium-atlas-v313/*.test.mjs
+          node --test integrations/medium-atlas-v314/*.test.mjs
+          node scripts/build_v314_authentication_delivery.mjs --check
+          git diff --check HEAD^ HEAD
+      - name: Export archived quality review with explicitly scoped source notes
+        run: node scripts/build_v314_authentication_delivery.mjs --export /tmp/atlas-v314-output
+      - uses: actions/upload-artifact@v4
+        with:
+          name: atlas-v314-museum-archive-attestation-json
+          path: /tmp/atlas-v314-output
+          retention-days: 14
+          if-no-files-found: error
