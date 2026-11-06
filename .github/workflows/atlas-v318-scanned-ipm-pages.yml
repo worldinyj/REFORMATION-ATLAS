@@ -1,0 +1,39 @@
+name: Atlas V3.18 Scanned IPM 1649 Page Evidence QA
+on:
+  pull_request:
+    paths:
+      - 'data/contracts/atlas_v318_*'
+      - 'docs/02_RESEARCH/V318_*'
+      - 'integrations/medium-atlas-v318/**'
+      - 'scripts/build_v318_physical_page_evidence.mjs'
+      - '.github/workflows/atlas-v318-scanned-ipm-pages.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  scanned-print-pages:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Validate V317 inherited research and direct facsimile image provenance
+        run: |
+          node --test integrations/medium-atlas-v317/*.test.mjs
+          node --test integrations/medium-atlas-v318/*.test.mjs
+          node scripts/check_v317_translation_conflicts.mjs
+          node scripts/build_v318_physical_page_evidence.mjs --check
+          git diff --check HEAD^ HEAD
+      - name: Export the 513-reader preview with three anchored scan records
+        run: node scripts/build_v318_physical_page_evidence.mjs --export /tmp/atlas-v318-scan
+      - uses: actions/upload-artifact@v4
+        with:
+          name: atlas-v318-ipm1649-three-scan-pages-json
+          path: /tmp/atlas-v318-scan
+          retention-days: 14
+          if-no-files-found: error
