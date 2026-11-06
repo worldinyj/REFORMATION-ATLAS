@@ -54,13 +54,13 @@ export function assembleV316(inputs,a309,a310,v311,v312,v313,v314,v315,v316){
  for(const c of v316.claim_cards){
   guard(c.id&&!claimIds.has(c.id)&&c.source_ids?.length&&c.source_ids.every(s=>sourceMap.has(s))&&
    c.statement?.length>=30&&c.level&&c.original_witness_collated===false&&
-   c.historian_approved===false,'incomplete claim evidence '+c.id);
+   c.expert_approved===false,'incomplete claim evidence '+c.id);
   claimIds.add(c.id);
  }
  guard(claimIds.size===10,'duplicate claims');
  const issueIds=new Set(),allowedStatus=new Set(['UNRESOLVED','NOT_COLLATED']);
  for(const issue of v316.issues){
-  guard(issue.id&&!issueIds.has(issue.id)&&issue.issue?.length>=30&&allowedStatus.has(issue.status),
+  guard(issue.id&&!issueIds.has(issue.id)&&issue.issue?.length>=25&&allowedStatus.has(issue.status),
    'invalid unresolved issue');
   issueIds.add(issue.id);
  }

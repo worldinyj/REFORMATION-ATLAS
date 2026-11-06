@@ -57,5 +57,6 @@ test('no publication, false page collation, invented print authority or missing 
  assert.throws(mutate(x=>x.source_records.find(s=>s.id==='STETTIN').original_pages_read=true),/bad witness/);
  assert.throws(mutate(x=>x.source_records.find(s=>s.id==='DDB1648').work='IPO'),/two treaty identities merged/);
  assert.throws(mutate(x=>x.claim_cards[0].source_ids=['BOGUS']),/incomplete claim/);
+ assert.throws(mutate(x=>x.claim_cards[0].expert_approved=true),/incomplete claim/);
  assert.throws(mutate(x=>x.issues.find(i=>i.id==='SIGNING_VENUE').status='RESOLVED'),/invalid unresolved issue/);
 });
