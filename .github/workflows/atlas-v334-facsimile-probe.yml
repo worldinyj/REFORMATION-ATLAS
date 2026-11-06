@@ -28,7 +28,7 @@ jobs:
           echo "SOURCE_URL=$URL"
           sha256sum /tmp/cr27.pdf
           pdfinfo /tmp/cr27.pdf | grep -E 'Title:|Pages:|Page size:|File size:'
-          for N in 58 64 70 76 82; do
+          for N in 72 73 74 75; do
             echo "SOURCE_PDF_PAGE_$N"
             pdftotext -f "$N" -l "$N" -layout /tmp/cr27.pdf - | head -n 12 || true
           done
@@ -36,8 +36,8 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          for N in 58 64 70 76 82; do
-            pdftoppm -f "$N" -l "$N" -singlefile -jpeg -jpegopt quality=54 -scale-to 750 /tmp/cr27.pdf "/tmp/cr27_$N" >/dev/null 2>&1
+          for N in 72 73 74 75; do
+            pdftoppm -f "$N" -l "$N" -singlefile -jpeg -jpegopt quality=72 -scale-to 1350 /tmp/cr27.pdf "/tmp/cr27_$N" >/dev/null 2>&1
             echo "FACSIMILE_PAGE_$N"_START
             base64 -w 0 "/tmp/cr27_$N.jpg" | fold -w 128
             echo
