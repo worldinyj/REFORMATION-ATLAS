@@ -1,0 +1,541 @@
+{
+  "version": "3.34",
+  "status": "DRAFT",
+  "depth": "MEDIUM",
+  "date": "2026-11-06",
+  "publication_gate": {
+    "published": false,
+    "main_changed": false,
+    "webapp_integrated": false,
+    "historian_approved": false
+  },
+  "parent": {
+    "version": "3.33",
+    "pr": 175,
+    "branch": "research/atlas-v333-confutatio-cr27-latin-witness-scope",
+    "head_sha": "2c4ce26379134be0a2a138c0791df2f360c53da8",
+    "locked_parent_blob_sha": "0727f6381aab14249e7b152c59ccef55a23dc6e4"
+  },
+  "preserve": {
+    "original_readers": 513,
+    "original_sections": 1539,
+    "original_sources": 723,
+    "overviews": 97,
+    "curated_events": 26,
+    "relations": 12,
+    "v333_latin_clauses": 7
+  },
+  "source_pdf": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Corpus_reformatorum_%28IA_corpusreformato25melagoog%29.pdf",
+    "nypl_internet_archive_identifier": "corpusreformato25melagoog",
+    "printed_edition_year": 1859,
+    "pdf_page_count": 360,
+    "pdf_bytes": 30637982,
+    "pdf_sha256": "ba1995d5587375a13f5298001e7a6c42d68f1c6b161ae86335471a1c4f30b29d",
+    "verified_workflow_run_ids": [
+      42232566430,
+      42232790784,
+      42232985301
+    ],
+    "separate_from_BSB_342_image_copy": true
+  },
+  "sources": [
+    {
+      "id": "V334-S-NYPL1859",
+      "url": "https://commons.wikimedia.org/wiki/File:Corpus_reformatorum_(IA_corpusreformato25melagoog).pdf",
+      "tier": "DIGITIZED_1859_PRINT_DIRECTLY_SEEN",
+      "detail": "1859 edited CR27 printed columns visibly read in NYPL/Google scanned book",
+      "original_1530_or_1573_print_visually_seen": false
+    },
+    {
+      "id": "V334-S-NYPLPDF",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Corpus_reformatorum_%28IA_corpusreformato25melagoog%29.pdf",
+      "tier": "HASH_VERIFIED_1859_PRINT_PDF",
+      "detail": "360-page 30,637,982-byte PDF; SHA256 verified with GitHub Actions",
+      "original_1530_or_1573_print_visually_seen": false
+    },
+    {
+      "id": "V334-S-BSB",
+      "url": "https://www.digitale-sammlungen.de/de/details/bsb10360389",
+      "tier": "INDEPENDENT_COPY_CATALOGUE_ONLY",
+      "detail": "1859 CR27 Bavarian library 342 images; different digitization, not directly examined",
+      "original_1530_or_1573_print_visually_seen": false
+    },
+    {
+      "id": "V334-S-GOOGLE",
+      "url": "https://books.google.com/books/about/Philippi_Melanthonis_Opera_quae_supersun.html?id=TMjLpAOy2zYC",
+      "tier": "GOOGLE_BOOKS_INDEXED_QUOTE",
+      "detail": "Internet popular passage marked page 99, differing from original printed column 96",
+      "original_1530_or_1573_print_visually_seen": false
+    },
+    {
+      "id": "V334-S-CPH",
+      "url": "https://bookofconcord.cph.org/es/apologia-confesion-augsburgo/articulos-vii-y-viii-la-iglesia/",
+      "tier": "MODERN_EDITORIAL_NOTES",
+      "detail": "Footnotes 169/181/184/189 cite CR27 102,104,105; independently crosschecked on 1859 image",
+      "original_1530_or_1573_print_visually_seen": false
+    },
+    {
+      "id": "V334-S-REUIV",
+      "url": "https://thebookofconcord.org/roman-confutation/article-iv/",
+      "tier": "MODERN_ENGLISH_TRANSLATION",
+      "detail": "Article IV rendering and context, not original manuscript",
+      "original_1530_or_1573_print_visually_seen": false
+    },
+    {
+      "id": "V334-S-REUVII",
+      "url": "https://thebookofconcord.org/roman-confutation/article-vii/",
+      "tier": "MODERN_ENGLISH_TRANSLATION",
+      "detail": "Article VII English witness, not original manuscript",
+      "original_1530_or_1573_print_visually_seen": false
+    },
+    {
+      "id": "V334-S-REUVIII",
+      "url": "https://thebookofconcord.org/roman-confutation/article-viii/",
+      "tier": "MODERN_ENGLISH_TRANSLATION",
+      "detail": "Article VIII English witness, not original manuscript",
+      "original_1530_or_1573_print_visually_seen": false
+    },
+    {
+      "id": "V334-S-SCHAFF",
+      "url": "https://www.ccel.org/ccel/schaff/hcc7/hcc7.ii.ix.iv.html",
+      "tier": "LATER_EDITION_BIBLIOGRAPHY",
+      "detail": "1573 first Latin full printing reported by historical scholar",
+      "original_1530_or_1573_print_visually_seen": false
+    }
+  ],
+  "print_page_map": [
+    {
+      "pdf_page_1based": 69,
+      "pdf_page_0based": 68,
+      "printed_left_col": 93,
+      "printed_right_col": 94,
+      "visually_checked": true,
+      "checked_witness": "NYPL_1859_SCAN_NOT_1530_ORIGINAL"
+    },
+    {
+      "pdf_page_1based": 70,
+      "pdf_page_0based": 69,
+      "printed_left_col": 95,
+      "printed_right_col": 96,
+      "visually_checked": true,
+      "checked_witness": "NYPL_1859_SCAN_NOT_1530_ORIGINAL"
+    },
+    {
+      "pdf_page_1based": 71,
+      "pdf_page_0based": 70,
+      "printed_left_col": 97,
+      "printed_right_col": 98,
+      "visually_checked": true,
+      "checked_witness": "NYPL_1859_SCAN_NOT_1530_ORIGINAL"
+    },
+    {
+      "pdf_page_1based": 72,
+      "pdf_page_0based": 71,
+      "printed_left_col": 99,
+      "printed_right_col": 100,
+      "visually_checked": true,
+      "checked_witness": "NYPL_1859_SCAN_NOT_1530_ORIGINAL"
+    },
+    {
+      "pdf_page_1based": 73,
+      "pdf_page_0based": 72,
+      "printed_left_col": 101,
+      "printed_right_col": 102,
+      "visually_checked": true,
+      "checked_witness": "NYPL_1859_SCAN_NOT_1530_ORIGINAL"
+    },
+    {
+      "pdf_page_1based": 74,
+      "pdf_page_0based": 73,
+      "printed_left_col": 103,
+      "printed_right_col": 104,
+      "visually_checked": true,
+      "checked_witness": "NYPL_1859_SCAN_NOT_1530_ORIGINAL"
+    },
+    {
+      "pdf_page_1based": 75,
+      "pdf_page_0based": 74,
+      "printed_left_col": 105,
+      "printed_right_col": 106,
+      "visually_checked": true,
+      "checked_witness": "NYPL_1859_SCAN_NOT_1530_ORIGINAL"
+    },
+    {
+      "pdf_page_1based": 76,
+      "pdf_page_0based": 75,
+      "printed_left_col": 107,
+      "printed_right_col": 108,
+      "visually_checked": true,
+      "checked_witness": "NYPL_1859_SCAN_NOT_1530_ORIGINAL"
+    }
+  ],
+  "latin_fragments": [
+    {
+      "id": "V334-F1",
+      "article": "IV",
+      "latin": "Gratia Dei praevenit voluntatem",
+      "printed_col": 96,
+      "pdf_page_1based": 70,
+      "side": "RIGHT",
+      "translation_and_context": "은총이 의지에 앞서고 이를 움직인다는 주장과 은총에 힘입은 선행의 공로 논증",
+      "grade": "1859_CR27_PRINT_DIRECT",
+      "source_ids": [
+        "V334-S-NYPL1859",
+        "V334-S-NYPLPDF"
+      ],
+      "actual_1859_print_image_verified": true,
+      "original_1530_or_1573_leaf_seen": false
+    },
+    {
+      "id": "V334-F2",
+      "article": "VII",
+      "latin": "non potest citra fidei praeiudicium admitti",
+      "printed_col": 102,
+      "pdf_page_1based": 73,
+      "side": "RIGHT",
+      "translation_and_context": "악한 자를 교회로부터 배제하는 해석이라면 수용할 수 없다는 조건부 반대. 이어지는 조건은 103열",
+      "grade": "1859_CR27_PRINT_DIRECT_CONTINUES_COL103",
+      "source_ids": [
+        "V334-S-NYPL1859",
+        "V334-S-NYPLPDF"
+      ],
+      "actual_1859_print_image_verified": true,
+      "original_1530_or_1573_leaf_seen": false
+    },
+    {
+      "id": "V334-F3",
+      "article": "VII",
+      "latin": "rituum varietatem non dissecare fidei unitatem",
+      "printed_col": 104,
+      "pdf_page_1based": 74,
+      "side": "RIGHT",
+      "translation_and_context": "특수·지역 예식의 다양성은 신앙의 일치를 해치지 않는다는 한정적 수용",
+      "grade": "1859_CR27_PRINT_DIRECT",
+      "source_ids": [
+        "V334-S-NYPL1859",
+        "V334-S-NYPLPDF"
+      ],
+      "actual_1859_print_image_verified": true,
+      "original_1530_or_1573_leaf_seen": false
+    },
+    {
+      "id": "V334-F4",
+      "article": "VIII",
+      "latin": "acceptatur cum sancta romana ecclesia",
+      "printed_col": 105,
+      "pdf_page_1based": 75,
+      "side": "LEFT",
+      "translation_and_context": "죄 있는 성직자가 집례해도 말씀·성례 효력이 유지된다는 제8조의 명시적 수용",
+      "grade": "1859_CR27_PRINT_DIRECT",
+      "source_ids": [
+        "V334-S-NYPL1859",
+        "V334-S-NYPLPDF"
+      ],
+      "actual_1859_print_image_verified": true,
+      "original_1530_or_1573_leaf_seen": false
+    }
+  ],
+  "observations": [
+    {
+      "id": "V334-O01",
+      "type": "CORRECT_GRACE_LOCATOR",
+      "claim": "Google Books shows Page 99 but historical 1859 print locates Article IV grace passage on printed column 96 / PDF page 70.",
+      "pdf_pages_1based": [
+        70
+      ],
+      "verified_1859_print": true
+    },
+    {
+      "id": "V334-O02",
+      "type": "VII_CROSS_COLUMN_CONDITION",
+      "claim": "The Article VII refusal begins printed column 102 and crucial 'if bad or sinful people are excluded' continuation appears at start of column 103.",
+      "pdf_pages_1based": [
+        73,
+        74
+      ],
+      "verified_1859_print": true
+    },
+    {
+      "id": "V334-O03",
+      "type": "VII_PARTICULAR_AND_GENERAL_RITES",
+      "claim": "Printed col104 commends diversity in particular local rites, but disagrees with extending this claim to universal rites.",
+      "pdf_pages_1based": [
+        74
+      ],
+      "verified_1859_print": true
+    },
+    {
+      "id": "V334-O04",
+      "type": "VIII_AFFIRMATIVE_ACCEPTANCE",
+      "claim": "Printed col105 positively accepts Article VIII despite a minister's personal wickedness.",
+      "pdf_pages_1based": [
+        75
+      ],
+      "verified_1859_print": true
+    },
+    {
+      "id": "V334-O05",
+      "type": "HUSS_WYCLIFFE_POLEMIC",
+      "claim": "Col105 attributes errors to Wycliffe and Hus: a claim made by the Confutatio authors, NOT an independently supported modern historical classification.",
+      "pdf_pages_1based": [
+        75
+      ],
+      "verified_1859_print": true
+    },
+    {
+      "id": "V334-O06",
+      "type": "EDITION_VARIANT_FOOTNOTES",
+      "claim": "The 1859 historical text has numerous critical manuscript/edition footnotes, directly visible but NOT exhaustively transcribed or evaluated.",
+      "pdf_pages_1based": [
+        70,
+        73,
+        74,
+        75
+      ],
+      "verified_1859_print": true
+    },
+    {
+      "id": "V334-O07",
+      "type": "NOT_FIRST_PRINT_SOURCE",
+      "claim": "Directly seen folios belong to a scholarly 1859 edition, not the 1530 German public reading or 1573 first Latin printing.",
+      "pdf_pages_1based": [
+        70,
+        73,
+        74,
+        75
+      ],
+      "verified_1859_print": true
+    }
+  ],
+  "corrections": [
+    {
+      "id": "V334-C1",
+      "previous_id": "V333-L01",
+      "previous_claim": "CR XXVII (1859) printed p99 / Google Books popular passage",
+      "replacement": "CR XXVII (1859) printed column 96 / NYPL PDF 1-based page 70",
+      "disposition": "CORRECT_FALSE_PRINTED_PAGE_LOCATOR",
+      "previous_data_remains_immutable": true
+    },
+    {
+      "id": "V334-C2",
+      "previous_id": "V333-L02",
+      "previous_claim": "CR XXVII col102 quoted by 2026 commentary",
+      "replacement": "CR XXVII col102 with sentence continuing across col103 / PDF pages 73–74",
+      "disposition": "ADD_REQUIRED_CROSS_COLUMN_CONDITION",
+      "previous_data_remains_immutable": true
+    },
+    {
+      "id": "V334-C3",
+      "previous_id": "V333-L03",
+      "previous_claim": "CR XXVII col104 mediated by CPH scholarly footnote",
+      "replacement": "CR XXVII col104 / NYPL 1859 scan PDF page 74",
+      "disposition": "UPGRADE_TO_1859_PRINT_VISUAL",
+      "previous_data_remains_immutable": true
+    },
+    {
+      "id": "V334-C4",
+      "previous_id": "V333-L04",
+      "previous_claim": "CR XXVII col105 mediated by CPH scholarly footnote",
+      "replacement": "CR XXVII col105 / NYPL 1859 scan PDF page 75",
+      "disposition": "UPGRADE_TO_1859_PRINT_VISUAL",
+      "previous_data_remains_immutable": true
+    },
+    {
+      "id": "V334-C5",
+      "previous_id": "V333_SOURCE_LEDGER",
+      "previous_claim": "1859 CR27 directly seen historical pages: zero",
+      "replacement": "1859 direct visibly inspected claim-supporting PDF pages 70,73,74,75 (4); 1530/1573 pages remain zero",
+      "disposition": "SUPERSEDE_WITNESS_LEVEL_NOT_MUTATE_PARENT",
+      "previous_data_remains_immutable": true
+    }
+  ],
+  "readings": [
+    {
+      "id": "V334-R1",
+      "title": "제4조의 은총과 행위: 96열에서 확인한 논쟁",
+      "sections": [
+        {
+          "heading": "반박문이 인정한 은총의 선행성",
+          "body": "『Corpus Reformatorum』 제27권 1859년 인쇄 96열의 실제 이미지를 확인하면 가톨릭 반박문은 은총이 인간 의지에 앞서며 의지를 움직이고 완성한다고 설명한다. 이를 통해 선행이 하나님 앞에서 가치와 공로를 지닐 수 있다는 논리를 전개한다. 가톨릭 측이 은총 없이 자기 힘으로 구원받는다는 주장을 가르쳤다고 단순화하면 이 인쇄된 주장과 충돌한다."
+        },
+        {
+          "heading": "그리스도를 믿는 믿음과 선행의 공로 사이",
+          "body": "같은 96열은 믿음과 그리스도의 역할을 인정하면서도 성경이 선한 행위에 대한 상급을 말한다는 점을 강조한다. 따라서 양측의 차이는 선행의 필요성 자체보다는 은총으로 이루어지는 행위가 칭의 또는 영생의 공로와 어떤 관계를 맺는지에 있다. 종교개혁 이후에 만들어진 구호를 그대로 끼워 맞추기보다 당시 저자의 논거를 먼저 읽어야 한다."
+        },
+        {
+          "heading": "99라는 웹 표시와 96이라는 인쇄 열 번호",
+          "body": "V3.33의 Google Books 검색은 이 문장을 ‘Page 99’에 배치하는 것처럼 보였다. 하지만 이번 뉴욕공공도서관/구글 디지털화 인쇄본의 PDF 70번째 화면에는 좌우 인쇄 번호 95와 96이 명시되어 있고, 은총 관련 문장은 오른쪽 96열에 있다. 따라서 V3.33의 위치 표시는 별도 정정 카드로 수정하며 과거 계약 데이터를 몰래 변경하지 않는다."
+        }
+      ]
+    },
+    {
+      "id": "V334-R2",
+      "title": "제7조 교회: 조건절은 열 경계를 넘는다",
+      "sections": [
+        {
+          "heading": "102열의 거부 문구만 인용하면 생기는 오해",
+          "body": "1530년 반박문의 제7조가 교회를 성도들의 모임으로 규정한 표현에 이의를 제기하는 사실은 1859년 인쇄본 102열에서 확인된다. 그러나 문장의 핵심 조건은 다음 화면의 103열 첫 부분에 이어진다. 악인과 죄인을 외적인 교회 공동체에서 분리한다는 뜻이라면 받아들일 수 없다는 조건이 붙는 것이다. 열 경계를 무시하면 조건부 반대가 전체 교회 정의에 대한 절대적 반대로 바뀐다."
+        },
+        {
+          "heading": "눈에 보이는 교회와 악인·위선자의 존재",
+          "body": "반박문 제7조는 가시적인 교회 조직 안에도 선한 사람과 악한 사람이 함께 있을 수 있다는 성경적 비유를 전개한다. 이것은 당시 가톨릭 신학자들이 교회와 성례의 현실적 조건을 어떻게 이해했는지를 보여 준다. 반면 멜란히톤의 변증서는 참된 영적 교회와 외적인 공동체를 구별해 자기 측 표현을 해명한다. 두 문헌은 같은 단어를 사용하면서 그 외적 범위에서 다투었다."
+        },
+        {
+          "heading": "104열의 한정된 예식 다양성",
+          "body": "1859년 인쇄 104열은 지역별 특별한 예식의 다양성이 신앙의 일치를 무너뜨리지는 않는다는 판단을 긍정적으로 논의한다. 그러나 이 논리를 모든 교회가 지켜야 하는 보편적 예식까지 무제한 적용하는 것은 반대한다. 이 지점을 통해 교회 일치의 기준을 한 문장으로만 설명할 수 없고, 특수한 의식과 보편적 관행이라는 구별을 함께 보여 주어야 함을 확인한다."
+        }
+      ]
+    },
+    {
+      "id": "V334-R3",
+      "title": "제8조 수용과 비난의 언어를 분리한다",
+      "sections": [
+        {
+          "heading": "105열에서 확인되는 명시적인 수용",
+          "body": "1859년 편집본 제8조의 시작 부분인 105열은 악한 성직자의 죄 때문에 그가 집례하는 말씀과 성례의 효력이 사라진다는 생각을 받아들이지 않으며, 신앙고백 제8조의 해당 주장 자체를 가톨릭 측이 수용한다는 동사를 쓴다. 이는 단지 현대 영어 번역이나 스페인어 주석만의 해석이 아니라, 이번에는 원어 인쇄 문맥에서 직접 확인된 사실이다."
+        },
+        {
+          "heading": "위클리프와 후스에 대한 평가는 반박문의 논쟁적 비난",
+          "body": "제8조의 이어지는 문장에서 가톨릭 반박문 저자들은 도나투스파의 오류를 비난하면서 위클리프·후스 등의 이름을 거론한다. 이 표현은 저자가 자신의 논적을 분류하려고 사용한 공격적 규정이다. 오늘날 역사 연구의 공인된 판정으로 옮겨 쓰면 출처를 오독하게 된다. 독자용 글에는 반드시 ‘당시 반박문은 그들을 그렇게 비난했다’라는 주체를 밝혀야 한다."
+        },
+        {
+          "heading": "편집 각주와 본문은 같지 않다",
+          "body": "1859년 비평판 105열 하단에는 여러 역사 원고 또는 이전 간행본 사이의 차이를 제시하는 편집 각주가 존재한다. 이것은 본문의 독립성과 문헌 전승의 복잡성을 보여 주지만, 현재 확인한 것은 각주가 있다는 사실과 일부 항목의 분리뿐이다. 전체 이문을 단어별로 대조한 것도 아니고 1530년 독일어 낭독문의 완전한 재구성을 마친 것도 아니다."
+        }
+      ]
+    },
+    {
+      "id": "V334-R4",
+      "title": "사료 판독의 등급: 1859년 실물 스캔과 1530년 낭독 원고",
+      "sections": [
+        {
+          "heading": "이번에 새롭게 직접 판독한 자료의 정체",
+          "body": "이번 작업은 1859년 『Corpus Reformatorum』 제27권의 공개 디지털 사본을 직접 내려받아 정확한 파일 해시를 기록하고 이미지로 펼쳐 읽는 방법을 사용했다. 360쪽짜리 PDF 안에서 인쇄된 열 번호를 확인하여 96·102·103·104·105열을 재현할 수 있는 위치에 고정했다. 이전에는 학술 주석에서 간접 확인하던 핵심 라틴어 표현을 1859년 학술 편집본의 실제 인쇄면에서 확인했다는 점에서 검증 수준이 개선됐다."
+        },
+        {
+          "heading": "1859년 비평판이 1530년 낭독문 자체인 것은 아니다",
+          "body": "당대 가톨릭 반박문은 1530년 제국의회에서 독일어로 낭독되었으나 라틴어 전문의 첫 간행은 역사 연구에 따르면 1573년이었다. 1859년 제27권은 훨씬 뒤에 여러 자료를 대조하고 비평적 각주를 붙여 출판된 책이다. 그러므로 1859년의 라틴어 문장을 직접 읽었다는 사실과 1530년 낭독 현장의 실제 독일어 단어를 직접 확인했다는 주장은 분명히 다르다."
+        },
+        {
+          "heading": "검증을 이어갈 차기 문헌 관계",
+          "body": "다음 단계에서는 1573년 최초 라틴어 인쇄본과 1859년 편집본의 제4·7·8조 문장을 대조할 필요가 있다. 그리고 가능하면 1530년 독일어 공적 낭독의 자료 전승을 별도로 확인해야 한다. 1859년 각주에 표시된 문헌 약칭을 해독하면 변증서 편찬 과정에서 누가 어떤 문장을 접했을지를 더 세밀하게 추적할 수 있을 것이다. 그런 후 성인 공경 제21조와 미사 제24조도 같은 기준으로 확장한다."
+        }
+      ]
+    }
+  ],
+  "open_issues": [
+    {
+      "id": "V334-I1",
+      "priority": "P0",
+      "topic": "1573_FABRICIUS_FIRST_LATIN",
+      "next": "Identify the actual 1573 full Latin Confutatio book and directly check IV VII VIII alongside 1859 print",
+      "status": "OPEN"
+    },
+    {
+      "id": "V334-I2",
+      "priority": "P0",
+      "topic": "1530_GERMAN_READING_WITNESS",
+      "next": "Locate attested German manuscript sources of imperial oral reading and publication genealogy",
+      "status": "OPEN"
+    },
+    {
+      "id": "V334-I3",
+      "priority": "P0",
+      "topic": "CR27_APPARATUS_COMPLETE",
+      "next": "Transcribe and classify the variant notes for 1859 printed columns96,102-105",
+      "status": "OPEN"
+    },
+    {
+      "id": "V334-I4",
+      "priority": "P1",
+      "topic": "BSB_INDEPENDENT_COPY",
+      "next": "Compare BSB 342-scan digital witness independently of NYPL PDF 360 pages",
+      "status": "OPEN"
+    },
+    {
+      "id": "V334-I5",
+      "priority": "P1",
+      "topic": "MELANCHTHON_APOLOGY_1531",
+      "next": "Read early 1531 Latin Apology text responding to IV VII VIII",
+      "status": "OPEN"
+    },
+    {
+      "id": "V334-I6",
+      "priority": "P1",
+      "topic": "CONFUTATIO_SAINTS_XXI",
+      "next": "Extend direct Latin printed column check to 1530 Confutatio XXI",
+      "status": "OPEN"
+    },
+    {
+      "id": "V334-I7",
+      "priority": "P1",
+      "topic": "CONFUTATIO_MASS_XXIV",
+      "next": "Extend direct Latin printed column check to 1530 Confutatio XXIV",
+      "status": "OPEN"
+    },
+    {
+      "id": "V334-I8",
+      "priority": "P1",
+      "topic": "AUGSBURG_CONFESSION_DUAL_LANGUAGE",
+      "next": "Separate 1530 Augsburg German/Latin submissions and later editings",
+      "status": "OPEN"
+    },
+    {
+      "id": "V334-I9",
+      "priority": "P1",
+      "topic": "LATIN_KOREAN_LINE_BY_LINE",
+      "next": "Review exact Korean translation of short Latin fragments with qualified philologist",
+      "status": "OPEN"
+    }
+  ],
+  "source_scope": {
+    "claim_supporting_1859_pdf_pages_visually_read": [
+      70,
+      73,
+      74,
+      75
+    ],
+    "other_1859_context_pages_seen": [
+      69,
+      71,
+      72,
+      76
+    ],
+    "verified_printed_columns": [
+      96,
+      102,
+      103,
+      104,
+      105
+    ],
+    "full_1859_variant_apparatus_collated": false,
+    "original_1530_german_manuscript_pages_visually_read": 0,
+    "original_1573_first_latin_print_pages_visually_read": 0,
+    "original_1530_vs_1573_pairs_collated": 0,
+    "historian_expert_approved": false
+  },
+  "blocked_claims": [
+    "Google Books 99 was the printed location of Article IV grace phrase",
+    "1859 printed CR27 is the 1530 German public-reading manuscript",
+    "The 1573 full Latin first printing has been visually compared to CR27",
+    "Article VII rejected the entire church definition without any conditional clause",
+    "Article VII permitted all universally required liturgical rites to vary freely",
+    "Article VIII rejected the wicked-minister sacrament-validity article",
+    "Confutatio polemical claims about Hus and Wycliffe are independently verified historical facts",
+    "1859 editorial apparatus was exhaustively collated"
+  ],
+  "metrics": {
+    "sources": 9,
+    "printed_page_maps": 8,
+    "latin_fragments": 4,
+    "observations": 7,
+    "correction_records": 5,
+    "readings": 4,
+    "sections": 12,
+    "open_issues": 9,
+    "verified_1859_claim_supporting_pages": 4,
+    "original_1530_witness_pages": 0,
+    "original_reader_mutations": 0
+  }
+}
