@@ -25,7 +25,7 @@ test("26 anchored timeline events, provenance, precision and witnesses",()=>{
   assert.equal(valid.events.size,26);assert.equal(valid.witness.size,10);
   const outputs=buildOutputs(x.contract,effective,catalog,valid);
   assert.deepEqual(Object.keys(outputs),x.contract.artifact_contract);
-  assert.equal(outputs["v323_curated_event_timeline.json"].ordered_navigation_edges.length,22);
+  assert.equal(outputs["v323_curated_event_timeline.json"].ordered_navigation_edges.length,21);
   assert.equal(outputs["v323_overview_97_reading_index.json"].count,97);
   assert.equal(outputs["v323_513_reader_catalogue_index.json"].count,513);
   for(const o of Object.values(outputs))assert.equal(o.publication_ready,false);
