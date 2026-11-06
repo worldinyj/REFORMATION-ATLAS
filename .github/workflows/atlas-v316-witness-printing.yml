@@ -1,0 +1,38 @@
+name: Atlas V3.16 Early Prints and Diplomatic Witness QA
+on:
+  pull_request:
+    paths:
+      - 'data/deep/atlas_v316_*'
+      - 'docs/02_RESEARCH/V316_*'
+      - 'integrations/medium-atlas-v316/**'
+      - 'scripts/build_v316_witness_printing_delivery.mjs'
+      - '.github/workflows/atlas-v316-witness-printing.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  historical-evidence:
+    runs-on: ubuntu-latest
+    timeout-minutes: 9
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Verify inherited corpus and V3.16 provenance
+        run: |
+          node --test integrations/medium-atlas-v315/*.test.mjs
+          node --test integrations/medium-atlas-v316/*.test.mjs
+          node scripts/build_v316_witness_printing_delivery.mjs --check
+          git diff --check HEAD^ HEAD
+      - name: Export research-only corpus and four open issues
+        run: node scripts/build_v316_witness_printing_delivery.mjs --export /tmp/atlas-v316-witness
+      - uses: actions/upload-artifact@v4
+        with:
+          name: atlas-v316-early-print-witness-json
+          path: /tmp/atlas-v316-witness
+          retention-days: 14
+          if-no-files-found: error
