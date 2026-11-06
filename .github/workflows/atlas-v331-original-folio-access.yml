@@ -1,0 +1,32 @@
+name: Atlas V3.31 original 1788 1789 page access and edition identity gate
+on:
+  push:
+    branches:
+      - research/atlas-v331-1788-1789-primary-folio-access-matrix
+  pull_request:
+    paths:
+      - 'data/contracts/atlas_v331_1788_1789_primary_page_access_matrix.json'
+      - 'docs/02_RESEARCH/V331_1788_1789_PRIMARY_PAGE_ACCESS_AND_EVIDENCE.md'
+      - 'scripts/build_v331_original_folio_access_matrix.mjs'
+      - 'integrations/medium-atlas-v331/**'
+      - '.github/workflows/atlas-v331-original-folio-access.yml'
+jobs:
+  v331_original_page_gate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check inherited V3.30 and V3.31 original first print evidence scope
+        run: node --test integrations/medium-atlas-v330/integration.test.mjs integrations/medium-atlas-v331/integration.test.mjs
+      - name: Build review-only page acquisition and claim matrices
+        run: node scripts/build_v331_original_folio_access_matrix.mjs
+      - name: Archive research review-only JSON records
+        uses: actions/upload-artifact@v4
+        with:
+          name: atlas-v331-original-page-acquisition-research
+          path: out/atlas-v331/*.json
+          retention-days: 30

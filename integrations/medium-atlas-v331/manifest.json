@@ -1,0 +1,36 @@
+{
+  "version": "3.31",
+  "kind": "ORIGINAL_FOLIO_ACQUISITION_AND_HISTORIC_SOURCE_AUDIT",
+  "status": "DRAFT_HOLD",
+  "parent": "research/atlas-v330-1788-1789-rules-integration-witness-review",
+  "input": "data/contracts/atlas_v331_1788_1789_primary_page_access_matrix.json",
+  "report": "docs/02_RESEARCH/V331_1788_1789_PRIMARY_PAGE_ACCESS_AND_EVIDENCE.md",
+  "builder": "scripts/build_v331_original_folio_access_matrix.mjs",
+  "test": "integrations/medium-atlas-v331/integration.test.mjs",
+  "outputs": [
+    "v331_original_folio_request_manifest.json",
+    "v331_source_level_edition_claims.json",
+    "v331_unresolved_original_access_flags.json"
+  ],
+  "counts": {
+    "sources": 14,
+    "primary_page_targets": 9,
+    "graded_comparisons": 10,
+    "readings": 3,
+    "sections": 9,
+    "open_issues": 9
+  },
+  "provenance": {
+    "original_1788_p41_direct_page_image": false,
+    "original_1788_annex_title_direct_page_image": false,
+    "original_1789_Ross_Rules_direct_page_image": false,
+    "original_1789_temperance_direct_page_image": false,
+    "original_1788_1789_aligned_print_pairs": 0
+  },
+  "release": {
+    "approved": false,
+    "draft": true,
+    "main_updated": false,
+    "google_ai_studio_updated": false
+  }
+}
