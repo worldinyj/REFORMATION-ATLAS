@@ -1,0 +1,32 @@
+name: Atlas V3.32 Augsburg Confutation Apology three-text integrity gate
+on:
+  push:
+    branches:
+      - research/atlas-v332-augsburg-confutation-apology-article-triads
+  pull_request:
+    paths:
+      - 'data/contracts/atlas_v332_augsburg_article_response_triads.json'
+      - 'docs/02_RESEARCH/V332_AUGSBURG_CONFUTATION_APOLOGY_ARTICLE_TRIADS.md'
+      - 'scripts/build_v332_augsburg_article_triads.mjs'
+      - 'integrations/medium-atlas-v332/**'
+      - '.github/workflows/atlas-v332-augsburg-triads.yml'
+jobs:
+  three_text_claim_gate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify inherited V3.31 and V3.32 article-specific sources
+        run: node --test integrations/medium-atlas-v331/integration.test.mjs integrations/medium-atlas-v332/integration.test.mjs
+      - name: Build non-public five-triad historic concordance
+        run: node scripts/build_v332_augsburg_article_triads.mjs
+      - name: Archive review-only triad data
+        uses: actions/upload-artifact@v4
+        with:
+          name: atlas-v332-review-only-augsburg-confutation-apology
+          path: out/atlas-v332/*.json
+          retention-days: 30

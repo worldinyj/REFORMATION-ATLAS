@@ -1,0 +1,36 @@
+{
+  "version": "3.32",
+  "kind": "HISTORIC_THREE_TEXT_DISPUTE_CONCORDANCE",
+  "status": "DRAFT_HOLD",
+  "parent": "research/atlas-v331-1788-1789-primary-folio-access-matrix",
+  "data": "data/contracts/atlas_v332_augsburg_article_response_triads.json",
+  "report": "docs/02_RESEARCH/V332_AUGSBURG_CONFUTATION_APOLOGY_ARTICLE_TRIADS.md",
+  "builder": "scripts/build_v332_augsburg_article_triads.mjs",
+  "test": "integrations/medium-atlas-v332/integration.test.mjs",
+  "outputs": [
+    "v332_augsburg_article_triads.json",
+    "v332_confutation_response_claims.json",
+    "v332_edition_witness_followup.json"
+  ],
+  "metrics": {
+    "sources": 20,
+    "triads": 5,
+    "claims": 15,
+    "historic_edition_witnesses": 8,
+    "readings": 5,
+    "sections": 15,
+    "issues": 10
+  },
+  "access_limitations": [
+    "Modern English editions and edited translations rather than directly visually collated original German and Latin 1530–1531 folios.",
+    "Confutation IV accepts anti-Pelagian point, Confutation VIII directly accepts sacramental article.",
+    "Latin first quarto, later octavo and Jonas German expanded translation in 1531 are distinct witnesses.",
+    "Original publication and webapp remain HOLD."
+  ],
+  "publication": {
+    "ready": false,
+    "webapp_changed": false,
+    "main_changed": false,
+    "historian_approved": false
+  }
+}
