@@ -1,0 +1,27 @@
+{
+  "version": "3.23",
+  "kind": "RESEARCH_ONLY_DRAFT_NAVIGATION_CONTRACT",
+  "status": "HOLD",
+  "file": "data/contracts/atlas_v323_chronology_navigation_graph.json",
+  "schema": "ATLAS_RESEARCH_CHRONOLOGY_NAVIGATION_V323",
+  "publication_gate": {
+    "webapp_integrated": false,
+    "main_changed": false,
+    "expert_approved": false
+  },
+  "counts": {
+    "overviews": 97,
+    "readers": 513,
+    "overview_links": 156,
+    "timeline_events": 17,
+    "timeline_scopes": 5,
+    "sequence_edges": 12
+  },
+  "consumer_notes": [
+    "Never treat research graph as live Google AI Studio deploy or content publication.",
+    "Only DATE/MONTH/YEAR chronological granularity given; month/day unknown must not be guessed.",
+    "PRIMARY/FOLLOWUP are reading navigation roles, not editorial proof or comprehensive coverage.",
+    "Event-reader links are context, not participation/authorship/cause.",
+    "406 readers outside 97-entry overview routes still exist in 513 catalogue."
+  ]
+}
