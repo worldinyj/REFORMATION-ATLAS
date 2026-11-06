@@ -1,0 +1,305 @@
+{
+  "version": "3.21",
+  "status": "DRAFT",
+  "depth": "MEDIUM",
+  "publication_gate": {
+    "published": false,
+    "main_changed": false,
+    "webapp_integrated": false,
+    "historian_approved": false
+  },
+  "parent": {
+    "version": "3.20",
+    "pr": 162,
+    "head_commit": "0a38877dd0f92317b02c6efac1b5ee45525db91d",
+    "locked_contract_blob_sha": "8a7926a3a1cba6f57cf839bc329074c5432a762e"
+  },
+  "preserve": {
+    "readers": 513,
+    "sections": 1539,
+    "sources": 723,
+    "overviews": 97,
+    "selected_claims": 22,
+    "prior_verified_1649_ipm_scan_pages": 5
+  },
+  "sources": [
+    {
+      "id": "ZURICH-RI240-OCR",
+      "work": "1648_IPM_OCR",
+      "url": "https://www.e-rara.ch/zuz/download/ftpack/plain/13327057",
+      "evidence": "OCR_UNVERIFIED",
+      "scope": "Short excerpt has 600200 and corrupted words; original image not inspected",
+      "physical_1648_page_inspected": false
+    },
+    {
+      "id": "IPM49-WIKISOURCE",
+      "work": "1649_IPM_TRANSCRIPT",
+      "url": "https://de.wikisource.org/wiki/Westf%C3%A4lischer_Friede_%E2%80%93_Vertrag_von_M%C3%BCnster",
+      "evidence": "TRANSCRIPTION",
+      "scope": "German 1649 print transcription has 600000; nine months; Palatinate 400000/100000",
+      "physical_1648_page_inspected": false
+    },
+    {
+      "id": "IPM49-TEXTGRID",
+      "work": "1649_IPM_TRANSCRIPT",
+      "url": "https://www.textgridrep.de/browse/4bhh3.0",
+      "evidence": "TRANSCRIPTION",
+      "scope": "German 1649 transcription has Hesse-Cassel 600000 and nine months",
+      "physical_1648_page_inspected": false
+    },
+    {
+      "id": "IPM-LATIN-ENGLISH",
+      "work": "IPM_EDITED_PARALLEL",
+      "url": "https://peaceofwestphalia.org/everything-peace-of-westphalia/documents-and-sources/munster-peace-instrument/",
+      "evidence": "LATIN_ENGLISH_EDITED",
+      "scope": "Latin nine months and 400000/100000 versus historic English eight months and 40000/10000",
+      "physical_1648_page_inspected": false
+    },
+    {
+      "id": "AVALON-ENGLISH",
+      "work": "IPM_ENGLISH_TRANSLATION",
+      "url": "https://avalon.law.yale.edu/17th_century/westphal.asp",
+      "evidence": "HISTORIC_TRANSLATION",
+      "scope": "Historical English translation has 40000 total and 10000 yearly",
+      "physical_1648_page_inspected": false
+    },
+    {
+      "id": "PERPIGNAN-FRENCH",
+      "work": "IPM_FRENCH_TRANSLATION",
+      "url": "https://mjp.univ-perp.fr/traites/1648westphalie.htm",
+      "evidence": "SEARCH_EXCERPT_ONLY",
+      "scope": "French XXI: 400000 total and 100000 yearly; site timed out on full revisit",
+      "physical_1648_page_inspected": false
+    },
+    {
+      "id": "IPO-CONTEXT",
+      "work": "IPO_OTHER_TREATY",
+      "url": "https://peaceofwestphalia.org/everything-peace-of-westphalia/documents-and-sources/osnabruck-peace-instrument/",
+      "evidence": "OTHER_TREATY_EXCLUDED",
+      "scope": "Context check only; cannot count IPO as an IPM witness",
+      "physical_1648_page_inspected": false
+    }
+  ],
+  "discrepancies": [
+    {
+      "id": "V321-D01",
+      "category": "OCR_NUMERAL",
+      "topic": "HESSE_COMPENSATION",
+      "low_trust_text": "600200",
+      "cross_checked_value": "600000",
+      "status": "SUSPECTED_OCR_ERROR_NOT_PRINT_VARIANT",
+      "source_ids": [
+        "ZURICH-RI240-OCR",
+        "IPM49-WIKISOURCE",
+        "IPM-LATIN-ENGLISH"
+      ],
+      "printed_variant_confirmed": false,
+      "archival_page_collated": false
+    },
+    {
+      "id": "V321-D02",
+      "category": "TRANSLATION_CONFLICT",
+      "topic": "HESSE_PAYMENT_TERM",
+      "low_trust_text": "eight months",
+      "cross_checked_value": "nine months",
+      "status": "VERIFIED_TRANSLATION_CONFLICT_NOT_PRINT_VARIANT",
+      "source_ids": [
+        "IPM-LATIN-ENGLISH",
+        "IPM49-WIKISOURCE",
+        "IPM49-TEXTGRID"
+      ],
+      "printed_variant_confirmed": false,
+      "archival_page_collated": false
+    },
+    {
+      "id": "V321-D03",
+      "category": "TRANSLATION_CONFLICT",
+      "topic": "PALATINATE_TOTAL",
+      "low_trust_text": "40000",
+      "cross_checked_value": "400000",
+      "status": "VERIFIED_TRANSLATION_CONFLICT_NOT_PRINT_VARIANT",
+      "source_ids": [
+        "IPM-LATIN-ENGLISH",
+        "AVALON-ENGLISH",
+        "IPM49-WIKISOURCE",
+        "PERPIGNAN-FRENCH"
+      ],
+      "printed_variant_confirmed": false,
+      "archival_page_collated": false
+    },
+    {
+      "id": "V321-D04",
+      "category": "TRANSLATION_CONFLICT",
+      "topic": "PALATINATE_ANNUAL",
+      "low_trust_text": "10000",
+      "cross_checked_value": "100000",
+      "status": "VERIFIED_TRANSLATION_CONFLICT_NOT_PRINT_VARIANT",
+      "source_ids": [
+        "IPM-LATIN-ENGLISH",
+        "AVALON-ENGLISH",
+        "IPM49-WIKISOURCE",
+        "PERPIGNAN-FRENCH"
+      ],
+      "printed_variant_confirmed": false,
+      "archival_page_collated": false
+    }
+  ],
+  "readings": [
+    {
+      "id": "V321-R01",
+      "title": "1648년판 OCR의 숫자는 원문 숫자가 아니다",
+      "sections": [
+        {
+          "heading": "무엇을 읽었는가",
+          "body": "취리히 중앙도서관 Ri 240에서 이번에 접근한 것은 1648년 인쇄본의 사진이 아니라 e-rara가 배포하는 짧은 OCR 텍스트다. 'Friedmfchluss'처럼 손상된 단어가 있으므로 원전 직접 판독으로 분류할 수 없다."
+        },
+        {
+          "heading": "600200과 600000의 충돌",
+          "body": "OCR 출력에는 600200이 있지만 1649년 뮌스터 조약의 독일어 및 라틴어 편집 전사는 헤센카셀의 배상금을 600000 탈러로 기록한다. 원본 사진을 보지 않은 상태에서 숫자 차이를 판본 이문으로 선언해서는 안 된다."
+        },
+        {
+          "heading": "검증의 순서",
+          "body": "1648년 해당 원본 인쇄면을 실제로 열어 숫자·행 배치를 확인하고, 같은 판의 다른 소장본을 비교한 다음 물리 판본의 글자 차이를 판정해야 한다. 지금은 신뢰도가 낮은 OCR 오류 후보로 기록한다."
+        }
+      ],
+      "overview_ids": [
+        "OV-E-024",
+        "OV-D-015"
+      ]
+    },
+    {
+      "id": "V321-R02",
+      "title": "헤센카셀 지급기한: 영어 8개월과 라틴어 9개월",
+      "sections": [
+        {
+          "heading": "같은 온라인 편집의 차이",
+          "body": "뮌스터 조약의 온라인 라틴어는 novem mensium, 곧 9개월을 기록하지만 옆에 놓인 오래된 영어 번역은 8개월이라고 적는다. 이 불일치는 확인 가능한 전사·번역의 차이다."
+        },
+        {
+          "heading": "독일어 전사와 대조",
+          "body": "1649년 뮌스터 조약의 독일어 전사도 600000 탈러 지급기한을 9개월로 나타낸다. 라틴어와 독일어가 부합하는 값을 중간 수준 해설에 쓰면서 영어 번역의 불일치를 주석으로 남긴다."
+        },
+        {
+          "heading": "법적 약속과 이행",
+          "body": "9개월은 조약 규정에서 정한 기간에 관한 기술이다. 실제로 전액이 그 기한에 지급되었는지는 행정·회계 기록이 필요하다. ATLAS에서는 지급 약속과 실제 결제를 혼동하지 않는다."
+        }
+      ],
+      "overview_ids": [
+        "OV-E-024",
+        "OV-D-015"
+      ]
+    },
+    {
+      "id": "V321-R03",
+      "title": "팔츠 형제 부양금의 열 배 차이",
+      "sections": [
+        {
+          "heading": "원어의 규모",
+          "body": "라틴어 편집 전사는 카를 루트비히의 형제 부양금을 총 400000 탈러, 해마다 100000 탈러씩 네 해에 걸쳐 지급한다고 적는다. 1649년 독일어 전사와 프랑스어 색인도 이 규모를 지지한다."
+        },
+        {
+          "heading": "오래된 영어 번역의 축소",
+          "body": "예일 Avalon에 있는 영어 번역은 동일 조항의 총액을 40000, 연간액을 10000 탈러로 적어 각각 10배 차이가 난다. 같은 영어 문구를 여러 웹사이트가 반복해도 독립 원사료 복수로 계산하지 않는다."
+        },
+        {
+          "heading": "앱 표시에 필요한 검증",
+          "body": "역사 앱의 설명은 라틴어·독일어 전사에서 일치하는 400000/100000을 근거 등급과 함께 제공하고, 오래된 영어 번역의 40000/10000은 감수 주석에 기록한다. 이것은 인쇄판 간 이문을 발견한 사실이 아니다."
+        }
+      ],
+      "overview_ids": [
+        "OV-E-024",
+        "OV-D-015"
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "id": "V321-C01",
+      "source_id": "ZURICH-RI240-OCR",
+      "statement": "Ri 240 OCR의 600200은 인쇄된 원문으로 확인되지 않았다",
+      "confirmed_print_variant": false,
+      "expert_approved": false
+    },
+    {
+      "id": "V321-C02",
+      "source_id": "IPM49-WIKISOURCE",
+      "statement": "1649년 독일어 전사는 헤센카셀 배상금 600000 탈러",
+      "confirmed_print_variant": false,
+      "expert_approved": false
+    },
+    {
+      "id": "V321-C03",
+      "source_id": "IPM-LATIN-ENGLISH",
+      "statement": "라틴어 novem mensium와 영어 eight months 사이에 번역 충돌",
+      "confirmed_print_variant": false,
+      "expert_approved": false
+    },
+    {
+      "id": "V321-C04",
+      "source_id": "IPM49-TEXTGRID",
+      "statement": "1649년 독일어 전사는 지급기한을 9개월로 기록",
+      "confirmed_print_variant": false,
+      "expert_approved": false
+    },
+    {
+      "id": "V321-C05",
+      "source_id": "IPM-LATIN-ENGLISH",
+      "statement": "팔츠 부양금 라틴어 전사 총액 400000, 연간 100000",
+      "confirmed_print_variant": false,
+      "expert_approved": false
+    },
+    {
+      "id": "V321-C06",
+      "source_id": "AVALON-ENGLISH",
+      "statement": "오래된 영어 번역은 총액 40000, 연간 10000",
+      "confirmed_print_variant": false,
+      "expert_approved": false
+    },
+    {
+      "id": "V321-C07",
+      "source_id": "PERPIGNAN-FRENCH",
+      "statement": "프랑스어 검색 색인은 총액 400000, 연간 100000을 제시",
+      "confirmed_print_variant": false,
+      "expert_approved": false
+    },
+    {
+      "id": "V321-C08",
+      "source_id": "IPO-CONTEXT",
+      "statement": "IPO 수치를 IPM의 인쇄본 간 교감 통계에 합산하지 않음",
+      "confirmed_print_variant": false,
+      "expert_approved": false
+    },
+    {
+      "id": "V321-C09",
+      "source_id": "IPM49-WIKISOURCE",
+      "statement": "전사 문구의 일치가 1648년 역사 인쇄면 직접 교감은 아님",
+      "confirmed_print_variant": false,
+      "expert_approved": false
+    },
+    {
+      "id": "V321-C10",
+      "source_id": "AVALON-ENGLISH",
+      "statement": "영어 본문 복제 사이트를 독립 원본 둘로 계수하지 않음",
+      "confirmed_print_variant": false,
+      "expert_approved": false
+    }
+  ],
+  "open_issues": [
+    "1648 Ri240 actual bitmap not inspected",
+    "Historic English translation lineage not confirmed",
+    "Original IPM witness and 1648/1649 printing not collated",
+    "Hesse-Cassel actual payment disbursements not established"
+  ],
+  "metrics": {
+    "new_physical_scan_pages": 0,
+    "verified_1648_ipm_pages": 0,
+    "paired_1648_1649_print_passages": 0,
+    "confirmed_print_variants": 0,
+    "ocr_1648_extracts": 1,
+    "translation_discrepancies": 3,
+    "ocr_suspicions": 1,
+    "readings": 3,
+    "sections": 9,
+    "cards": 10
+  }
+}

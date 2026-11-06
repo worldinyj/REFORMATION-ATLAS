@@ -1,0 +1,23 @@
+name: Atlas V3.21 IPM OCR and translation numeric gate
+on:
+  push:
+    branches:
+      - research/atlas-v321-ipm-transcription-numeric-audit
+  pull_request:
+    paths:
+      - 'data/contracts/atlas_v321_ipm_numeric_translation_quality.json'
+      - 'docs/02_RESEARCH/V321_IPM_OCR_TRANSLATION_NUMERIC_AUDIT.md'
+      - 'integrations/medium-atlas-v321/**'
+      - '.github/workflows/atlas-v321-ipm-numeric-quality.yml'
+jobs:
+  v321_numeric_quality:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Regression verify V3.20 + V3.21 provenance safety
+        run: node --test integrations/medium-atlas-v320/integration.test.mjs integrations/medium-atlas-v321/integration.test.mjs
