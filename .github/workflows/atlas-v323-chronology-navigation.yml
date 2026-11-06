@@ -1,0 +1,32 @@
+name: Atlas V3.23 chronology and navigation graph research gate
+on:
+  push:
+    branches:
+      - research/atlas-v323-chronology-navigation-graph
+  pull_request:
+    paths:
+      - 'data/contracts/atlas_v323_curated_chronology_navigation_graph.json'
+      - 'docs/02_RESEARCH/V323_CHRONOLOGY_NAVIGATION_RESEARCH.md'
+      - 'scripts/build_v323_chronology_navigation.mjs'
+      - 'integrations/medium-atlas-v323/**'
+      - '.github/workflows/atlas-v323-chronology-navigation.yml'
+jobs:
+  review_only_navigation:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Fail closed on evidence or semantic chronology regression
+        run: node --test integrations/medium-atlas-v323/integration.test.mjs
+      - name: Generate review-only indexes and timeline
+        run: node scripts/build_v323_chronology_navigation.mjs
+      - name: Upload research artifacts without publication
+        uses: actions/upload-artifact@v4
+        with:
+          name: atlas-v323-review-only-navigation
+          path: out/atlas-v323/*.json
+          retention-days: 30
