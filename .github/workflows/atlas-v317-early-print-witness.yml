@@ -1,0 +1,38 @@
+name: Atlas V3.17 Early Westphalia Print and Witness QA
+on:
+  pull_request:
+    paths:
+      - 'data/deep/atlas_v317_*'
+      - 'docs/02_RESEARCH/V317_*'
+      - 'integrations/medium-atlas-v317/**'
+      - 'scripts/build_v317_early_print_witness.mjs'
+      - '.github/workflows/atlas-v317-early-print-witness.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  print-evidence:
+    runs-on: ubuntu-latest
+    timeout-minutes: 9
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Verify inherited chronology and early-print evidence levels
+        run: |
+          node --test integrations/medium-atlas-v316/*.test.mjs
+          node --test integrations/medium-atlas-v317/*.test.mjs
+          node scripts/build_v317_early_print_witness.mjs --check
+          git diff --check HEAD^ HEAD
+      - name: Export editorial previews and unverified questions
+        run: node scripts/build_v317_early_print_witness.mjs --export /tmp/atlas-v317-witness
+      - uses: actions/upload-artifact@v4
+        with:
+          name: atlas-v317-early-print-witness-json
+          path: /tmp/atlas-v317-witness
+          retention-days: 14
+          if-no-files-found: error

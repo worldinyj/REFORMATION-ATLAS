@@ -1,0 +1,154 @@
+{
+  "contractVersion": "3.17",
+  "mode": "EARLY_PRINT_ORIGINAL_WITNESS_SCOPED_EDITORIAL",
+  "canPublish": false,
+  "materialization": "V312_FROZEN_CORPUS_PLUS_V313_EDITION_INVENTORY",
+  "inputs": [
+    {
+      "version": "3.04",
+      "path": "data/deep/atlas_v304_integrated_475_medium_delivery.json",
+      "sha256": "d64407e1202c73f65e9beaec87c21ccd3ed2228cb2036bb30d31542588cd94a1"
+    },
+    {
+      "version": "3.05",
+      "path": "data/deep/atlas_v305_medium_depth_pietism_revival_readers.json",
+      "gitBlobSha1": "09b2c19ca4c3f2ad1a98cc9053f8aee584c27fbb"
+    },
+    {
+      "version": "3.04",
+      "path": "data/contracts/atlas_v304_overview_medium_reading_crosswalk.json",
+      "gitBlobSha1": "d5008fe0c721e4f1ad6b1dbc1ceb8c4fd16a6038"
+    },
+    {
+      "version": "3.07",
+      "path": "data/deep/atlas_v307_remaining_overview_medium_readers.json",
+      "gitBlobSha1": "d25f54191183ee80db564237a0dfb4d008af990a"
+    }
+  ],
+  "expectedCounts": {
+    "readers": 513,
+    "sections": 1539,
+    "sources": 723,
+    "guides": 11,
+    "claims": 22,
+    "paths": 31
+  },
+  "actualAIStudioIntegrationVerified": false,
+  "actualAIStudioSourceAvailable": false,
+  "auditInputs": [
+    {
+      "version": "3.09",
+      "path": "data/contracts/atlas_v309_source_evidence_audit.json",
+      "gitBlobSha1": "bef1b994008a805fab59057e488441b6ee960231"
+    },
+    {
+      "version": "3.10",
+      "path": "data/contracts/atlas_v310_partial_coverage_quality_audit.json",
+      "gitBlobSha1": "aa3c8a8ae29dea77d391a096c6fa9979467be56e"
+    }
+  ],
+  "expectedCoverage": {
+    "total": 97,
+    "direct": 78,
+    "partial": 19,
+    "background": 0,
+    "missing": 0
+  },
+  "addendumInput": {
+    "version": "3.11",
+    "path": "data/deep/atlas_v311_primary_passage_medium_addenda.json",
+    "gitBlobSha1": "1f46338adf29551138a70bb8ebbfe6ec5624be41"
+  },
+  "expectedResearch": {
+    "addenda": 4,
+    "sections": 12,
+    "claimCards": 12,
+    "sourceRecords": 10,
+    "bodyCharacters": 4435,
+    "originalLanguageCollations": 0
+  },
+  "latinInput": {
+    "version": "3.12",
+    "path": "data/deep/atlas_v312_latin_english_limited_concordance.json",
+    "gitBlobSha1": "4edd3e3d2581bc013f6184005942f748f82dead6"
+  },
+  "expectedLatin": {
+    "notes": 2,
+    "sections": 6,
+    "pairs": 4,
+    "sources": 5,
+    "characters": 1871,
+    "archivalCollations": 0
+  },
+  "editionInput": {
+    "version": "3.13",
+    "path": "data/contracts/atlas_v313_edition_archive_provenance.json",
+    "gitBlobSha1": "0e8b9781bd7dd0e0b51d5a586c554171ed8d8f5a"
+  },
+  "expectedEdition": {
+    "studies": 2,
+    "sections": 6,
+    "sources": 11,
+    "edges": 8,
+    "claims": 9,
+    "characters": 1812,
+    "originalPagesInspected": 0,
+    "variantsProven": 0
+  },
+  "authInput": {
+    "version": "3.14",
+    "path": "data/contracts/atlas_v314_source_authentication_scope.json",
+    "gitBlobSha1": "5beeaf81d7d467f00e8c7251f640d86433659990"
+  },
+  "expectedAuth": {
+    "sources": 6,
+    "claims": 6,
+    "studies": 2,
+    "sections": 6,
+    "characters": 2017,
+    "fullArchivalCollations": 0
+  },
+  "wordingInput": {
+    "version": "3.15",
+    "path": "data/deep/atlas_v315_authentication_signing_readings.json",
+    "gitBlobSha1": "7a43445996eb79b2d901798d3aa41dd4db270391"
+  },
+  "expectedWording": {
+    "readings": 2,
+    "sections": 6,
+    "sources": 2,
+    "claims": 8,
+    "latinFragments": 4,
+    "characters": 1590,
+    "originalPageCollations": 0
+  },
+  "ratificationInput": {
+    "version": "3.16",
+    "path": "data/contracts/atlas_v316_ratification_chronology_scope.json",
+    "gitBlobSha1": "28760fb8005f9b78fc60f5598253386b838812cf"
+  },
+  "expectedRatification": {
+    "sources": 5,
+    "claims": 5,
+    "chronologyEvents": 4,
+    "readings": 1,
+    "sections": 3,
+    "bodyCharacters": 1055,
+    "originalPagesInspected": 0
+  },
+  "witnessPrintInput": {
+    "version": "3.17",
+    "path": "data/deep/atlas_v317_pre_signing_prints_and_witnesses.json",
+    "gitBlobSha1": "bc32d084b1b4f4698e006ba1d3c255f9a50f2d32"
+  },
+  "expectedWitnessPrint": {
+    "sources": 7,
+    "readings": 3,
+    "sections": 9,
+    "claims": 10,
+    "unresolvedIssues": 4,
+    "bodyCharacters": 2446,
+    "archivalPagesCollated": 0,
+    "variantsVerified": 0
+  }
+}
