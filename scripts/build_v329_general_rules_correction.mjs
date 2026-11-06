@@ -42,7 +42,7 @@ export function validateV329({parent,contract}){
  const witness=id=>wm.get('V329-'+id);
  const link=id=>contract.relations.find(x=>x.id==='V329-'+id);
  assert.equal(witness('W03').year,1788);
- assert.equal(witness('W03').status,'RULES_SEPARATE_ANNEX_ATTESTED_BY_1898_HISTORIOGRAPHY');
+ assert.equal(witness('W03').status,'RULES_SEPARATE_ANNEX_ATTESTED_BY_1898_HISTORIAN');
  assert.equal(witness('W04').year,1787);
  assert.equal(witness('W04').status,'INTERNAL_DATE_1787_05_28_NOT_1788_IMPRINT');
  assert.equal(witness('W05').year,1789);
