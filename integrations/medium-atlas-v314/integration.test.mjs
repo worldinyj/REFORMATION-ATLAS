@@ -31,7 +31,7 @@ test('1564 museum-copy IDs and textual limits are explicit',()=>{
  const a=current.getAuthenticationNotesForStudy('V313-TRENT-PRINTS');
  assert.equal(a.length,1);
  assert.equal(a[0].id,'V314-MASSARELLI-AUTHENTICATION');
- assert.ok(a[0].sources.some(s=>s.id==='V314-TRENT-MD243'&&s.finding.includes('USTC')));
+ assert.ok(a[0].sources.some(s=>s.id==='V314-TRENT-MD243'&&s.locator.includes('USTC')));
  assert.ok(a[0].sources.some(s=>s.id==='V314-TRENT-MUSEUM'));
  assert.equal(current.delivery.editorial_audit.v314_source_attestation.physical_original_pages_read,0);
 });
