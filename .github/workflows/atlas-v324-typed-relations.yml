@@ -1,0 +1,32 @@
+name: Atlas V3.24 typed influence rebuttal relation integrity
+on:
+  push:
+    branches:
+      - research/atlas-v324-evidence-typed-influence-response-graph
+  pull_request:
+    paths:
+      - 'data/contracts/atlas_v324_typed_influence_response_reception_graph.json'
+      - 'docs/02_RESEARCH/V324_TYPED_INFLUENCE_RESPONSE_RECEPTION_GRAPH.md'
+      - 'integrations/medium-atlas-v324/**'
+      - 'scripts/build_v324_typed_relations.mjs'
+      - '.github/workflows/atlas-v324-typed-relations.yml'
+jobs:
+  v324_typed_relations_review:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify V3.23 and V3.24 data and relation direction
+        run: node --test integrations/medium-atlas-v323/integration.test.mjs integrations/medium-atlas-v324/integration.test.mjs
+      - name: Generate research-only relation outputs
+        run: node scripts/build_v324_typed_relations.mjs
+      - name: Upload review-only overlay
+        uses: actions/upload-artifact@v4
+        with:
+          name: atlas-v324-research-relation-overlay
+          path: out/atlas-v324/*.json
+          retention-days: 30
