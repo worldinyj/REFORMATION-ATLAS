@@ -1,0 +1,36 @@
+{
+  "version": "3.24",
+  "kind": "MEDIUM_RESEARCH_RELATION_OVERLAY",
+  "status": "DRAFT_HOLD",
+  "inputs": [
+    "data/contracts/atlas_v324_typed_influence_response_reception_graph.json",
+    "data/contracts/atlas_v323_curated_chronology_navigation_graph.json",
+    "data/deep/atlas_v307_remaining_overview_medium_readers.json"
+  ],
+  "builder": "scripts/build_v324_typed_relations.mjs",
+  "tests": "integrations/medium-atlas-v324/integration.test.mjs",
+  "expected": {
+    "relation_edges": 12,
+    "readings": 4,
+    "sections": 12,
+    "evidence_source_records": 14,
+    "unresolved_issues": 6
+  },
+  "output_dir": "out/atlas-v324",
+  "artifacts": [
+    "v324_typed_relation_overlay.json",
+    "v324_reader_relation_lookup.json",
+    "v324_open_source_conflicts.json"
+  ],
+  "publication_gate": {
+    "main_changed": false,
+    "webapp_integrated": false,
+    "expert_approved": false,
+    "publication_ready": false
+  },
+  "notes": [
+    "Review-only export; visualized graph is not a demonstration of proof of causation.",
+    "1784/1785 Methodist adoption accounts are unresolved at primary-document level.",
+    "Year precision for 1649 IPM print is not an exact day or an authenticated diplomatic original."
+  ]
+}
