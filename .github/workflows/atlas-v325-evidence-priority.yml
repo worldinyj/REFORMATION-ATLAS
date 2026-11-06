@@ -1,0 +1,32 @@
+name: Atlas V3.25 research evidence-strength and priority integrity
+on:
+  push:
+    branches:
+      - research/atlas-v325-evidence-strength-priority-audit
+  pull_request:
+    paths:
+      - 'data/contracts/atlas_v325_evidence_strength_priority_audit.json'
+      - 'docs/02_RESEARCH/V325_EVIDENCE_STRENGTH_AND_PRIORITY.md'
+      - 'scripts/build_v325_evidence_priority_audit.mjs'
+      - 'integrations/medium-atlas-v325/**'
+      - '.github/workflows/atlas-v325-evidence-priority.yml'
+jobs:
+  evidence_priority_review:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Enforce inherited V3.24 and new V3.25 research evidence integrity
+        run: node --test integrations/medium-atlas-v324/integration.test.mjs integrations/medium-atlas-v325/integration.test.mjs
+      - name: Build review-only evidence strength and verification queue
+        run: node scripts/build_v325_evidence_priority_audit.mjs
+      - name: Archive review artifacts only, without app publication
+        uses: actions/upload-artifact@v4
+        with:
+          name: atlas-v325-review-only-evidence-priorities
+          path: out/atlas-v325/*.json
+          retention-days: 30
