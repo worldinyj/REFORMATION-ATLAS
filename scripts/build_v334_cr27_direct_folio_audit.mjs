@@ -69,11 +69,11 @@ export function validateV334({parent,contract}){
  assert.equal(observationMap.get('V334-O05').type,'HUSS_WYCLIFFE_POLEMIC');
  const correction=new Map(contract.corrections.map(x=>[x.id,x]));
  assert.equal(correction.size,5);
- assert.equal(correction.get('V334-C01').previous_id,'V333-L01');
- assert.equal(correction.get('V334-C01').disposition,'CORRECT_FALSE_PRINTED_PAGE_LOCATOR');
- assert.ok(correction.get('V334-C01').replacement.includes('column 96'));
- assert.equal(correction.get('V334-C02').disposition,'ADD_REQUIRED_CROSS_COLUMN_CONDITION');
- assert.equal(correction.get('V334-C05').disposition,'SUPERSEDE_WITNESS_LEVEL_NOT_MUTATE_PARENT');
+ assert.equal(correction.get('V334-C1').previous_id,'V333-L01');
+ assert.equal(correction.get('V334-C1').disposition,'CORRECT_FALSE_PRINTED_PAGE_LOCATOR');
+ assert.ok(correction.get('V334-C1').replacement.includes('column 96'));
+ assert.equal(correction.get('V334-C2').disposition,'ADD_REQUIRED_CROSS_COLUMN_CONDITION');
+ assert.equal(correction.get('V334-C5').disposition,'SUPERSEDE_WITNESS_LEVEL_NOT_MUTATE_PARENT');
  assert.ok(contract.corrections.every(x=>x.previous_data_remains_immutable===true));
  const scope=contract.source_scope;
  assert.deepEqual(scope.claim_supporting_1859_pdf_pages_visually_read,[70,73,74,75]);
