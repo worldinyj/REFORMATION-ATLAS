@@ -1,0 +1,273 @@
+{
+  "version": "3.19",
+  "status": "DRAFT",
+  "depth": "MEDIUM",
+  "inspection_date": "2026-11-06",
+  "publication_gate": {
+    "published": false,
+    "main_changed": false,
+    "webapp_integrated": false,
+    "historian_approved": false
+  },
+  "parent": {
+    "version": "3.18",
+    "pr": 160,
+    "branch": "research/atlas-v318-ipm-print-scan-evidence",
+    "locked_prior_blob_sha": "bd01abd4078c6dc9346f0658cde77765ce9246fb"
+  },
+  "preserve": {
+    "readers": 513,
+    "sections": 1539,
+    "original_sources": 723,
+    "overviews": 97,
+    "selected_claims": 22,
+    "v318_original_scan_pages": 3,
+    "v318_original_issues": 4
+  },
+  "sources": [
+    {
+      "id": "IPM49-SCAN-005",
+      "work": "IPM",
+      "printed_year": 1649,
+      "scan_sequence": 5,
+      "printed_page": 7,
+      "kind": "DIRECT_PRINT_PAGE_SCAN_VISUALLY_INSPECTED",
+      "url": "https://de.wikisource.org/wiki/Seite:Westfaelischer_Friede_IPM_1649_005.jpg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Westfaelischer_Friede_IPM_1649_005.jpg",
+      "limits": "Visible scan and modern Wikisource transcription; not the 1648 original privilege leaf"
+    },
+    {
+      "id": "IPM49-SCAN-006",
+      "work": "IPM",
+      "printed_year": 1649,
+      "scan_sequence": 6,
+      "printed_page": 8,
+      "kind": "DIRECT_PRINT_PAGE_SCAN_VISUALLY_INSPECTED",
+      "url": "https://de.wikisource.org/wiki/Seite:Westfaelischer_Friede_IPM_1649_006.jpg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Westfaelischer_Friede_IPM_1649_006.jpg",
+      "limits": "Visible scan and modern Wikisource transcription; printed Ferdinand mark is not an authenticated signature"
+    }
+  ],
+  "reused_sources": [
+    "IPM49-SCAN-TITLE",
+    "IPM48-BSB-DDB-CATALOGUE"
+  ],
+  "chronology": [
+    {
+      "date": "1648-03-03",
+      "event": "PRINT_PRIVILEGE_DATE_AS_REPRODUCED",
+      "evidence": "IPM49-SCAN-006",
+      "claim": "Privilege text says issued at Prague royal castle on 3 March 1648; an earlier publishing authorization"
+    },
+    {
+      "date": "1648-10-24",
+      "event": "IPM_TREATY_SIGNATURE",
+      "evidence": "IPM49-SCAN-TITLE",
+      "claim": "Treaty title cites signing; not privilege dating"
+    },
+    {
+      "date": "1649",
+      "event": "PRINT_EDITION_YEAR",
+      "evidence": "IPM49-SCAN-TITLE",
+      "claim": "Edition imprint year; not treaty date"
+    }
+  ],
+  "claims": [
+    {
+      "id": "V319-C01",
+      "source_ids": [
+        "IPM49-SCAN-005"
+      ],
+      "statement": "1649년 인쇄본의 인쇄특허 7쪽에는 피셔·상속인에 대한 인쇄·유통권과 6년의 보호기간이 나타난다.",
+      "evidence": "VISUALLY_READ_PRINT_SCAN",
+      "original_diplomatic_witness_collated": false,
+      "expert_approved": false
+    },
+    {
+      "id": "V319-C02",
+      "source_ids": [
+        "IPM49-SCAN-005"
+      ],
+      "statement": "특허 7쪽은 무단 인쇄 벌칙을 금 5마르크로 적고 절반씩 황제 재정기관과 피셔에게 귀속시킨다.",
+      "evidence": "VISUALLY_READ_PRINT_SCAN",
+      "original_diplomatic_witness_collated": false,
+      "expert_approved": false
+    },
+    {
+      "id": "V319-C03",
+      "source_ids": [
+        "IPM49-SCAN-006"
+      ],
+      "statement": "특허 8쪽은 무단 인쇄물의 압수에 관한 문장을 이어 간다.",
+      "evidence": "VISUALLY_READ_PRINT_SCAN",
+      "original_diplomatic_witness_collated": false,
+      "expert_approved": false
+    },
+    {
+      "id": "V319-C04",
+      "source_ids": [
+        "IPM49-SCAN-006"
+      ],
+      "statement": "특허 8쪽은 피셔에게 황제 궁정서기관실로 인쇄본 4부를 판매·배포 이전에 보내도록 규정한다.",
+      "evidence": "VISUALLY_READ_PRINT_SCAN",
+      "original_diplomatic_witness_collated": false,
+      "expert_approved": false
+    },
+    {
+      "id": "V319-C05",
+      "source_ids": [
+        "IPM49-SCAN-006"
+      ],
+      "statement": "특허 8쪽의 발행 장소는 프라하 왕궁, 명시된 날짜는 1648년 3월 3일이다.",
+      "evidence": "VISUALLY_READ_PRINT_SCAN",
+      "original_diplomatic_witness_collated": false,
+      "expert_approved": false
+    },
+    {
+      "id": "V319-C06",
+      "source_ids": [
+        "IPM49-SCAN-005"
+      ],
+      "statement": "특허 7쪽은 평화협상 과정의 기록뿐 아니라 향후 성립할 결론을 인쇄 대상으로 설명한다.",
+      "evidence": "VISUALLY_READ_PRINT_SCAN",
+      "original_diplomatic_witness_collated": false,
+      "expert_approved": false
+    },
+    {
+      "id": "V319-C07",
+      "source_ids": [
+        "IPM49-SCAN-006"
+      ],
+      "statement": "특허문의 인장·황제 이름 표기는 1649년 인쇄본에서 확인했으나 1648년 서명 원문 자체의 진정성 감정은 아니다.",
+      "evidence": "PRINTED_WITNESS_NOT_DIPLOMATIC_ORIGINAL",
+      "original_diplomatic_witness_collated": false,
+      "expert_approved": false
+    },
+    {
+      "id": "V319-C08",
+      "source_ids": [
+        "IPM49-SCAN-006",
+        "IPM49-SCAN-TITLE"
+      ],
+      "statement": "인쇄특허 날짜 1648년 3월 3일과 평화조약 서명일 1648년 10월 24일은 별개 사건이다.",
+      "evidence": "CROSS_DOCUMENT_CHRONOLOGY",
+      "original_diplomatic_witness_collated": false,
+      "expert_approved": false
+    },
+    {
+      "id": "V319-C09",
+      "source_ids": [
+        "IPM48-BSB-DDB-CATALOGUE"
+      ],
+      "statement": "1648년 IPM 소장본의 표제·특허 실물 페이지는 여전히 직접 판독되지 않았으며 판본 간 본문 이문은 미확정이다.",
+      "evidence": "CATALOGUE_ONLY_NOT_COLLATED",
+      "original_diplomatic_witness_collated": false,
+      "expert_approved": false
+    }
+  ],
+  "readings": [
+    {
+      "id": "V319-R01",
+      "title": "1648년 3월의 인쇄특허와 10월 평화조약은 왜 다른가",
+      "overview_ids": [
+        "OV-E-024",
+        "OV-D-015"
+      ],
+      "sections": [
+        {
+          "heading": "문서에 나타난 세 시점",
+          "body": "1649년 뮌스터 평화조약 인쇄본의 8쪽 끝에는 프라하 왕궁에서 1648년 3월 3일 작성되었다는 황제 인쇄특허의 날짜가 실려 있다. 반면 평화조약의 서명은 1648년 10월 24일이고, 검토 중인 책의 발행연도는 1649년이다. 세 날짜를 한 사건으로 합치면 출판 허가가 최종 외교적 합의보다 일찍 주어졌다는 핵심 맥락이 사라진다. 이 날짜는 1649년 인쇄본에 재현된 특허문에 적힌 날짜이지, 1648년 외교 서명 원본의 필적을 직접 감정한 결과가 아니다."
+        },
+        {
+          "heading": "아직 나오지 않은 합의 결과까지 출판할 권리",
+          "body": "특허 7쪽은 진행 중인 일반 평화협상에서 작성된 기록과 향후 성립할 결론을 공개 인쇄하고 판매할 수 있도록 피셔에게 허가하는 구조를 보여 준다. 그러므로 조약이 체결되기 전인 3월에 이런 특허가 존재한 것은 시간적 모순이 아니다. 그러나 이 허가를 10월에 완성된 조약의 모든 조문을 사전에 승인한 정치적 결정으로 읽을 근거도 없다. 인쇄사업의 예상, 출판권, 외교 협상의 성립은 서로 다른 과정이다."
+        },
+        {
+          "heading": "역사 앱에서 날짜를 제시하는 방법",
+          "body": "독자가 베스트팔렌 평화의 날짜를 검색할 때에는 1648년 3월 3일을 '인쇄특허 문서의 기재일', 1648년 10월 24일을 '조약 서명일', 1649년을 '이 인쇄본의 발행연도'라고 각각 이름 붙여 제공해야 한다. 특허문에 실린 날짜를 근거로 평화조약이 3월에 체결되었다고 표시하거나, 1649년 인쇄되었으므로 조약도 1649년에 성립했다고 표시하는 방식은 모두 피한다."
+        }
+      ],
+      "question": "어떤 문서에 적힌 날짜를 바로 그 문서가 설명하는 역사적 사건의 발생일로 보아도 될까?"
+    },
+    {
+      "id": "V319-R02",
+      "title": "출판 독점 6년과 금 5마르크: 특허가 실제로 보호한 것",
+      "overview_ids": [
+        "OV-E-024",
+        "OV-D-015"
+      ],
+      "sections": [
+        {
+          "heading": "허가는 특정 출판인과 그 상속인에게 주어졌다",
+          "body": "특허의 7쪽에는 필리프 야코프 피셔와 적법한 상속인이 평화협상 기록을 인쇄·배포·판매할 권리를 부여받고, 특허 날짜부터 여섯 해 동안 허가 없는 재인쇄와 판매를 금한다는 취지가 등장한다. 이는 한 인쇄업자의 사업을 보호하는 명령의 내용이다. 이를 모든 문헌의 영구적 저작권 제도나 조약 본문 자체에 대한 독점적 법률 해석권으로 확대해서는 안 된다."
+        },
+        {
+          "heading": "벌칙과 수익의 배분",
+          "body": "같은 7쪽은 위반한 인쇄업자·서적상 등에게 금 5마르크를 벌칙으로 제시하며, 그 가운데 절반은 황제 재정기관, 나머지 절반은 피셔에게 돌아가도록 명시한다. 8쪽에는 무단 인쇄물의 압수에 관한 문구도 이어진다. 여기서 확인한 것은 인쇄된 특허문이 주장하는 규범적 내용이다. 실제로 5마르크가 징수되었는지, 어떤 재판에서 집행되었는지는 별도 행정·소송 기록 없이 단정할 수 없다."
+        },
+        {
+          "heading": "인쇄 규제와 종교적 공존의 차이",
+          "body": "출판 허가와 무단 복제 벌칙은 평화조약이 제국 내 종교와 정치를 어떻게 정리했는가 하는 내용과 구분된다. 조약은 프랑스와 제국 측의 외교적 약속을 기록하지만, 특허의 위반 대상은 출판·유통 행위다. 1649년 뮌스터 조약 인쇄본 안에 이 두 종류의 문서가 함께 실려 있다는 사실은 같은 책 안의 모든 쪽을 동일한 규범 문서로 분류할 수 없음을 보여 준다."
+        }
+      ],
+      "question": "인쇄특허의 벌칙을 근거로 조약 당사자 사이의 의무를 직접 판단할 수 있을까?"
+    },
+    {
+      "id": "V319-R03",
+      "title": "인쇄본 4부 선제출과 특허의 인장 표기: 권위 주장의 한계",
+      "overview_ids": [
+        "OV-E-024",
+        "OV-D-015"
+      ],
+      "sections": [
+        {
+          "heading": "판매 전에 궁정서기관실에 네 부를 보낸다",
+          "body": "인쇄특허 8쪽은 피셔가 자신이 만든 문서의 인쇄본 네 부를 비용을 들여 황제의 궁정서기관실에 보내고, 그 전에는 판매나 배포를 하지 못하도록 하는 조건을 기록한다. 이 조건은 인쇄물의 관리와 유통에 관한 구체적인 절차다. 서류에 그런 의무가 쓰여 있다는 사실과 인쇄인이 실제로 네 부를 제출했다는 사실은 다르므로, 현재 연구는 이행 완료를 주장하지 않는다."
+        },
+        {
+          "heading": "프라하, 인장 표기, 인쇄된 이름",
+          "body": "특허는 프라하 왕궁을 발행 장소로 기재하고, 인장에 관한 문구와 'Ferdinand' 등 이름을 인쇄해 보여 준다. 이것은 현재 관찰 가능한 1649년 책 속 특허문 재현의 특징이다. 실제 1648년 특허 원본의 밀랍 인장이나 자필 서명을 현장에서 감정한 것이 아니므로 문서 진정성 판단의 근거 수준을 그 이상으로 끌어올리지 않는다."
+        },
+        {
+          "heading": "연구를 어디에서 멈추어야 하는가",
+          "body": "이번에 확인한 1649년판 두 쪽은 인쇄특허의 7~8쪽으로 연결된다. 특허 날짜·벌칙·제출 의무 등은 확인했지만 1648년 뮌스터 조약의 대응 인쇄본 쪽을 직접 읽지는 못했다. 따라서 두 판본의 대응 쪽 비교는 여전히 0쌍이고, 확정된 문구 차이는 0건이다. 다음 검증에는 1648년판의 실제 표제·특허 이미지를 확보하고, 같은 구절의 사진과 전사 규칙을 나란히 비교하는 작업이 필요하다."
+        }
+      ],
+      "question": "책에 인쇄된 서명과 인장 표기는 어떤 수준의 원본 확인을 가능하게 하는가?"
+    }
+  ],
+  "open_issues": [
+    {
+      "id": "V319-PRIVILEGE-ARCHIVAL-ORIGINAL",
+      "status": "NOT_AUTHENTICATED",
+      "description": "Check original imperial printing privilege, seals and signatures; printed reproduction is not original"
+    },
+    {
+      "id": "V319-PRIVILEGE-ENFORCEMENT",
+      "status": "NOT_DOCUMENTED",
+      "description": "No enforcement or actual collection of five marks evidenced"
+    },
+    {
+      "id": "V319-FOUR-COPIES-DELIVERY",
+      "status": "NOT_DOCUMENTED",
+      "description": "Printed submission obligation is not evidence delivery took place"
+    },
+    {
+      "id": "V319-IPM48-PAGE-COLLATION",
+      "status": "NOT_COLLATED",
+      "description": "1648 IPM physical printed pages not inspected or matched to 1649 pages"
+    }
+  ],
+  "metrics": {
+    "new_1649_scan_pages_visually_inspected": 2,
+    "cumulative_1649_ipm_scan_pages": 5,
+    "actual_1648_ipm_scan_pages": 0,
+    "actual_diplomatic_original_pages": 0,
+    "paired_1648_to_1649_print_paragraphs": 0,
+    "verified_textual_variants": 0,
+    "claim_cards": 9,
+    "readings": 3,
+    "sections": 9,
+    "new_open_issues": 4
+  }
+}
