@@ -55,7 +55,7 @@ test('no 1530 or 1573 contemporary direct leaf claims and no 1859 print screensh
  const fake=cp(d);fake.contract.witness_ledger.direct_1859_CR27_print_pages=1;
  assert.throws(()=>validateV333(fake),/Expected values to be strictly equal/);
  const fake2=cp(d);fake2.contract.source_records.find(s=>s.id==='V333-S-CPH-ES').critical_1859_printed_leaf_visually_inspected=true;
- assert.throws(()=>validateV333(fake2),/The expression evaluated to a falsy value/);
+ assert.throws(()=>validateV333(fake2),/no original witness leaf was seen/);
 });
 test('research outputs are three draft JSONs only, with 7 6 10 records and no webapp approval',()=>{
  const d=loadInputs();validateV333(d);const output=draftReviewOutputs(d);
