@@ -89,8 +89,9 @@ def validate():
         assert doc.count("| "+u["overview_id"]+" | "+u["overview_title"]+" | "+u["new_status"]+" |")==1
         current[u["overview_id"]]=dict(row,mapping_status=u["new_status"])
     after=collections.Counter(row["mapping_status"] for row in current.values())
-    assert dict(after)=={"DIRECT_TOPIC":78,"PARTIAL_COVERAGE":18,
-                         "BACKGROUND_ONLY":1,"NO_MATCH":0}
+    assert all(after[key]==value for key,value in {
+        "DIRECT_TOPIC":78,"PARTIAL_COVERAGE":18,
+        "BACKGROUND_ONLY":1,"NO_MATCH":0}.items())
     assert d["coverage_projection"]=={
         "before":{"DIRECT_TOPIC":64,"PARTIAL_COVERAGE":14,"BACKGROUND_ONLY":1,"NO_MATCH":18},
         "after":{"DIRECT_TOPIC":78,"PARTIAL_COVERAGE":18,"BACKGROUND_ONLY":1,"NO_MATCH":0},
