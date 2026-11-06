@@ -1,0 +1,801 @@
+{
+  "version": "3.23",
+  "status": "DRAFT",
+  "depth": "MEDIUM",
+  "source_date": "2026-11-06",
+  "publication_gate": {
+    "published": false,
+    "main_changed": false,
+    "webapp_integrated": false,
+    "historian_approved": false
+  },
+  "frozen_inputs": [
+    {
+      "path": "data/contracts/atlas_v322_cross_document_date_age_gates.json",
+      "git_blob_sha1": "de0cb56c20bd9bd98b3e0b49a4106a97c6e59ce0"
+    },
+    {
+      "path": "data/contracts/atlas_v316_ratification_chronology_scope.json",
+      "git_blob_sha1": "28760fb8005f9b78fc60f5598253386b838812cf"
+    },
+    {
+      "path": "data/contracts/atlas_v319_ipm_print_privilege_dating.json",
+      "git_blob_sha1": "963190ffd81cb537939f3356c514f457cca6a419"
+    },
+    {
+      "path": "data/contracts/atlas_v320_ipm1648_witness_provenance.json",
+      "git_blob_sha1": "8a7926a3a1cba6f57cf839bc329074c5432a762e"
+    },
+    {
+      "path": "data/contracts/atlas_v304_overview_medium_reading_crosswalk.json",
+      "git_blob_sha1": "d5008fe0c721e4f1ad6b1dbc1ceb8c4fd16a6038"
+    },
+    {
+      "path": "data/deep/atlas_v305_medium_depth_pietism_revival_readers.json",
+      "git_blob_sha1": "09b2c19ca4c3f2ad1a98cc9053f8aee584c27fbb"
+    },
+    {
+      "path": "data/deep/atlas_v307_remaining_overview_medium_readers.json",
+      "git_blob_sha1": "d25f54191183ee80db564237a0dfb4d008af990a"
+    },
+    {
+      "path": "data/contracts/atlas_v310_partial_coverage_quality_audit.json",
+      "git_blob_sha1": "aa3c8a8ae29dea77d391a096c6fa9979467be56e"
+    }
+  ],
+  "evidence_sources": [
+    {
+      "id": "UMICH-DUTCH-PAMPHLET",
+      "url": "https://apps.lib.umich.edu/online-exhibits/exhibits/show/a-war-of-words--dutch-pamphlet/a-sovereign-state--commercial-",
+      "level": "UNIVERSITY_LIBRARY_DIGITAL_EXHIBIT",
+      "notes": "Digitized title of 1648 Spain–Dutch treaty signed 30 January at Münster; explicitly not IPM with France"
+    }
+  ],
+  "scope": "Build a review-only graph and 97-overview navigation from frozen 513-reader catalogue and 29 V305/V307 updates plus V310 navigation refinements. Supplement four thematic chronology paths with provenance. Not auto-publication.",
+  "expected_counts": {
+    "reader_catalogue": 513,
+    "overviews": 97,
+    "overview_statuses": {
+      "DIRECT_TOPIC": 78,
+      "PARTIAL_COVERAGE": 19,
+      "BACKGROUND_ONLY": 0,
+      "NO_MATCH": 0
+    },
+    "overview_reader_links": 156,
+    "unique_overview_linked_readers": 107,
+    "events": 26,
+    "paths": 4,
+    "edition_nodes": 10,
+    "work_relations": 6
+  },
+  "events": [
+    {
+      "id": "V323-E01",
+      "date": "1415",
+      "precision": "YEAR",
+      "kind": "MARTYRDOM",
+      "work": "HUSSITE_HISTORY",
+      "title": "후스 처형",
+      "reader_ids": [
+        "EVENT-HUS_EXECUTION1415",
+        "MEDIUM-HUS"
+      ],
+      "overview_ids": [
+        "OV-E-012"
+      ],
+      "proof": {
+        "version": "CATALOGUE",
+        "record_id": "EVENT-HUS_EXECUTION1415"
+      },
+      "scope": "EDITORIAL_CHRONOLOGY_LINK_NOT_FULL_PRIMARY_SOURCE_COLLATION"
+    },
+    {
+      "id": "V323-E02",
+      "date": "1517",
+      "precision": "YEAR",
+      "kind": "REFORMATION_DISPUTE",
+      "work": "REFORMATION_LUTHER",
+      "title": "루터의 95개 논제 논쟁",
+      "reader_ids": [
+        "MEDIUM-LUTHER1517",
+        "DOCUMENT-NINETY_FIVE1517"
+      ],
+      "overview_ids": [
+        "OV-E-015",
+        "OV-P-013"
+      ],
+      "proof": {
+        "version": "CATALOGUE",
+        "record_id": "MEDIUM-LUTHER1517"
+      },
+      "scope": "EDITORIAL_CHRONOLOGY_LINK_NOT_FULL_PRIMARY_SOURCE_COLLATION"
+    },
+    {
+      "id": "V323-E03",
+      "date": "1521",
+      "precision": "YEAR",
+      "kind": "IMPERIAL_HEARING",
+      "work": "REFORMATION_LUTHER",
+      "title": "보름스 제국의회의 루터 심문",
+      "reader_ids": [
+        "MEDIUM-LUTHER1521",
+        "DOCUMENT-EDICT_WORMS1521"
+      ],
+      "overview_ids": [
+        "OV-E-016"
+      ],
+      "proof": {
+        "version": "CATALOGUE",
+        "record_id": "MEDIUM-LUTHER1521"
+      },
+      "scope": "EDITORIAL_CHRONOLOGY_LINK_NOT_FULL_PRIMARY_SOURCE_COLLATION"
+    },
+    {
+      "id": "V323-E04",
+      "date": "1529",
+      "precision": "YEAR",
+      "kind": "THEOLOGICAL_COLLOQUY",
+      "work": "REFORMATION_INTERCONFESSIONAL",
+      "title": "마르부르크 신학 회담",
+      "reader_ids": [
+        "MEDIUM-MARBURG"
+      ],
+      "overview_ids": [
+        "OV-E-018"
+      ],
+      "proof": {
+        "version": "CATALOGUE",
+        "record_id": "MEDIUM-MARBURG"
+      },
+      "scope": "EDITORIAL_CHRONOLOGY_LINK_NOT_FULL_PRIMARY_SOURCE_COLLATION"
+    },
+    {
+      "id": "V323-E05",
+      "date": "1530-06-25",
+      "precision": "DAY",
+      "kind": "DOCUMENT_PRESENTATION",
+      "work": "AUGSBURG_CONFESSION",
+      "title": "아우크스부르크 신앙고백 제출",
+      "reader_ids": [
+        "MEDIUM-AUGSBURG",
+        "PERSON-MELANCHTHON"
+      ],
+      "overview_ids": [
+        "OV-E-019",
+        "OV-D-011"
+      ],
+      "proof": {
+        "version": "V322",
+        "record_id": "V322-E06"
+      },
+      "scope": "EDITORIAL_CHRONOLOGY_LINK_NOT_FULL_PRIMARY_SOURCE_COLLATION"
+    },
+    {
+      "id": "V323-E06",
+      "date": "1531-05",
+      "precision": "MONTH",
+      "kind": "AUTHORIZED_PRINT_PUBLICATION",
+      "work": "AUGSBURG_CONFESSION",
+      "title": "아우크스부르크 신앙고백 공인 초판",
+      "reader_ids": [
+        "MEDIUM-AUGSBURG",
+        "DOCUMENT-AUGSBURG_APOLOGY"
+      ],
+      "overview_ids": [
+        "OV-D-011"
+      ],
+      "proof": {
+        "version": "V322",
+        "record_id": "V322-E07"
+      },
+      "scope": "MONTH_PRECISION_NOT_ASSUMED_EXACT_DAY"
+    },
+    {
+      "id": "V323-E07",
+      "date": "1536",
+      "precision": "YEAR",
+      "kind": "FIRST_BOOK_EDITION",
+      "work": "CALVIN_INSTITUTES",
+      "title": "칼뱅 『기독교강요』 1536년 초판",
+      "reader_ids": [
+        "MEDIUM-CALVIN1536"
+      ],
+      "overview_ids": [
+        "OV-E-020",
+        "OV-D-012"
+      ],
+      "proof": {
+        "version": "CATALOGUE",
+        "record_id": "MEDIUM-CALVIN1536"
+      },
+      "scope": "EDITORIAL_CHRONOLOGY_LINK_NOT_FULL_PRIMARY_SOURCE_COLLATION"
+    },
+    {
+      "id": "V323-E08",
+      "date": "1540",
+      "precision": "YEAR",
+      "kind": "REVISED_EDITION",
+      "work": "AUGSBURG_CONFESSION",
+      "title": "아우크스부르크 신앙고백 Variata",
+      "reader_ids": [
+        "MEDIUM-AUGSBURG"
+      ],
+      "overview_ids": [
+        "OV-D-011"
+      ],
+      "proof": {
+        "version": "V322",
+        "record_id": "V322-E08"
+      },
+      "scope": "EDITORIAL_CHRONOLOGY_LINK_NOT_FULL_PRIMARY_SOURCE_COLLATION"
+    },
+    {
+      "id": "V323-E09",
+      "date": "1559",
+      "precision": "YEAR",
+      "kind": "FINAL_AUTHORIAL_EDITION",
+      "work": "CALVIN_INSTITUTES",
+      "title": "『기독교강요』 1559년 최종 라틴어판",
+      "reader_ids": [
+        "MEDIUM-CALVIN1559"
+      ],
+      "overview_ids": [
+        "OV-D-012"
+      ],
+      "proof": {
+        "version": "CATALOGUE",
+        "record_id": "MEDIUM-CALVIN1559"
+      },
+      "scope": "EDITORIAL_CHRONOLOGY_LINK_NOT_FULL_PRIMARY_SOURCE_COLLATION"
+    },
+    {
+      "id": "V323-E10",
+      "date": "1545-12-13",
+      "precision": "DAY",
+      "kind": "COUNCIL_OPENING",
+      "work": "COUNCIL_OF_TRENT",
+      "title": "트리엔트 공의회 개막",
+      "reader_ids": [
+        "MEDIUM-TRENT"
+      ],
+      "overview_ids": [
+        "OV-E-021"
+      ],
+      "proof": {
+        "version": "V322",
+        "record_id": "V322-E01"
+      },
+      "scope": "EDITORIAL_CHRONOLOGY_LINK_NOT_FULL_PRIMARY_SOURCE_COLLATION"
+    },
+    {
+      "id": "V323-E11",
+      "date": "1547-01-13",
+      "precision": "DAY",
+      "kind": "DECREE_SESSION_DATE",
+      "work": "COUNCIL_OF_TRENT",
+      "title": "제6회기 칭의 교령",
+      "reader_ids": [
+        "MEDIUM-TRENT"
+      ],
+      "overview_ids": [
+        "OV-D-014"
+      ],
+      "proof": {
+        "version": "V322",
+        "record_id": "V322-E02"
+      },
+      "scope": "EDITORIAL_CHRONOLOGY_LINK_NOT_FULL_PRIMARY_SOURCE_COLLATION"
+    },
+    {
+      "id": "V323-E12",
+      "date": "1563-07-15",
+      "precision": "DAY",
+      "kind": "DECREE_SESSION_DATE",
+      "work": "COUNCIL_OF_TRENT",
+      "title": "제23회기 성직자 양성 개혁령",
+      "reader_ids": [
+        "MEDIUM-TRENT"
+      ],
+      "overview_ids": [
+        "OV-D-014"
+      ],
+      "proof": {
+        "version": "V322",
+        "record_id": "V322-E03"
+      },
+      "scope": "EDITORIAL_CHRONOLOGY_LINK_NOT_FULL_PRIMARY_SOURCE_COLLATION"
+    },
+    {
+      "id": "V323-E13",
+      "date": "1563-12-04",
+      "precision": "DAY",
+      "kind": "COUNCIL_CLOSING",
+      "work": "COUNCIL_OF_TRENT",
+      "title": "공의회 마지막 제25회기 종료",
+      "reader_ids": [
+        "MEDIUM-TRENT"
+      ],
+      "overview_ids": [
+        "OV-E-021"
+      ],
+      "proof": {
+        "version": "V322",
+        "record_id": "V322-E04"
+      },
+      "scope": "EDITORIAL_CHRONOLOGY_LINK_NOT_FULL_PRIMARY_SOURCE_COLLATION"
+    },
+    {
+      "id": "V323-E14",
+      "date": "1564-01-26",
+      "precision": "DAY",
+      "kind": "PAPAL_CONFIRMATION",
+      "work": "COUNCIL_OF_TRENT",
+      "title": "교황 비오 4세의 승인",
+      "reader_ids": [
+        "PERSON-PIUS_IV",
+        "MEDIUM-TRENT"
+      ],
+      "overview_ids": [
+        "OV-E-021"
+      ],
+      "proof": {
+        "version": "V322",
+        "record_id": "V322-E05"
+      },
+      "scope": "EDITORIAL_CHRONOLOGY_LINK_NOT_FULL_PRIMARY_SOURCE_COLLATION"
+    },
+    {
+      "id": "V323-E15",
+      "date": "1648-01-30",
+      "precision": "DAY",
+      "kind": "OTHER_TREATY_SIGNATURE",
+      "work": "SPAIN_DUTCH_PEACE_MUENSTER",
+      "title": "스페인–네덜란드 공화국 간 뮌스터 조약 서명",
+      "reader_ids": [],
+      "overview_ids": [],
+      "proof": {
+        "version": "EXTERNAL",
+        "record_id": "UMICH-DUTCH-PAMPHLET"
+      },
+      "scope": "INSTITUTIONAL_DIGITIZED_PRINT_EXHIBITION_DIFFERENT_TREATY_NOT_IPM"
+    },
+    {
+      "id": "V323-E16",
+      "date": "1648-03-03",
+      "precision": "DAY",
+      "kind": "PRINT_PRIVILEGE_DATE_AS_REPRODUCED",
+      "work": "IPM_PRINT_PRIVILEGE",
+      "title": "1649년판에 재현된 황제 인쇄특허의 1648년 기재일",
+      "reader_ids": [
+        "THEME-WAR_WESTPHALIA"
+      ],
+      "overview_ids": [
+        "OV-D-015"
+      ],
+      "proof": {
+        "version": "V319",
+        "record_id": "1648-03-03"
+      },
+      "scope": "PRINTED_PRIVILEGE_DATE_NOT_TREATY_SIGNATURE_OR_ARCHIVAL_ORIGINAL_AUTHENTICATION"
+    },
+    {
+      "id": "V323-E17",
+      "date": "1648-10-24",
+      "precision": "DAY",
+      "kind": "SIGNING_AND_SEALING",
+      "work": "IPM_AND_IPO_TWO_TREATIES",
+      "title": "제국–프랑스 IPM 및 제국–스웨덴 IPO 조약 서명",
+      "reader_ids": [
+        "THEME-WAR_WESTPHALIA"
+      ],
+      "overview_ids": [
+        "OV-E-024"
+      ],
+      "proof": {
+        "version": "V316",
+        "record_id": "1648-10-24"
+      },
+      "scope": "TWO_SEPARATE_INSTRUMENTS_WITH_SAME_SIGNING_DATE"
+    },
+    {
+      "id": "V323-E18",
+      "date": "1648-10-25",
+      "precision": "DAY",
+      "kind": "PUBLIC_PROCLAMATION",
+      "work": "WESTPHALIAN_PEACE",
+      "title": "뮌스터 평화 공표",
+      "reader_ids": [
+        "THEME-WAR_WESTPHALIA"
+      ],
+      "overview_ids": [
+        "OV-E-024"
+      ],
+      "proof": {
+        "version": "V316",
+        "record_id": "1648-10-25"
+      },
+      "scope": "EDITORIAL_CHRONOLOGY_LINK_NOT_FULL_PRIMARY_SOURCE_COLLATION"
+    },
+    {
+      "id": "V323-E19",
+      "date": "1649-02-18",
+      "precision": "DAY",
+      "kind": "ACTUAL_RATIFICATION_EXCHANGE",
+      "work": "WESTPHALIAN_PEACE",
+      "title": "주요 조약 당사자 비준서 교환",
+      "reader_ids": [
+        "THEME-WAR_WESTPHALIA"
+      ],
+      "overview_ids": [
+        "OV-E-024"
+      ],
+      "proof": {
+        "version": "V316",
+        "record_id": "1649-02-18"
+      },
+      "scope": "EDITORIAL_CHRONOLOGY_LINK_NOT_FULL_PRIMARY_SOURCE_COLLATION"
+    },
+    {
+      "id": "V323-E20",
+      "date": "1649-02-21",
+      "precision": "DAY",
+      "kind": "PUBLIC_RATIFICATION_CELEBRATION",
+      "work": "WESTPHALIAN_PEACE",
+      "title": "뮌스터 공식 비준 축하 행사",
+      "reader_ids": [
+        "THEME-WAR_WESTPHALIA"
+      ],
+      "overview_ids": [
+        "OV-E-024"
+      ],
+      "proof": {
+        "version": "V316",
+        "record_id": "1649-02-21"
+      },
+      "scope": "EDITORIAL_CHRONOLOGY_LINK_NOT_FULL_PRIMARY_SOURCE_COLLATION"
+    },
+    {
+      "id": "V323-E21",
+      "date": "1649",
+      "precision": "YEAR",
+      "kind": "PRINT_EDITION_YEAR",
+      "work": "IPM_1649_PRINT",
+      "title": "1649년 뮌스터 IPM 독일어 인쇄본 발행연도",
+      "reader_ids": [
+        "THEME-WAR_WESTPHALIA"
+      ],
+      "overview_ids": [
+        "OV-D-015"
+      ],
+      "proof": {
+        "version": "V319",
+        "record_id": "1649"
+      },
+      "scope": "YEAR_PRECISION_ONLY_DO_NOT_ORDER_BEFORE_OR_AFTER_FEBRUARY_RATIFICATION"
+    },
+    {
+      "id": "V323-E22",
+      "date": "1675",
+      "precision": "YEAR",
+      "kind": "DEVOTIONAL_TEXT_PUBLICATION",
+      "work": "PIA_DESIDERIA",
+      "title": "슈페너 『경건한 열망』 출간",
+      "reader_ids": [
+        "DOCUMENT-PIA_DESIDERIA1675",
+        "EVENT-PIA_PUBLICATION1675"
+      ],
+      "overview_ids": [
+        "OV-E-025",
+        "OV-D-016"
+      ],
+      "proof": {
+        "version": "CATALOGUE",
+        "record_id": "EVENT-PIA_PUBLICATION1675"
+      },
+      "scope": "EDITORIAL_CHRONOLOGY_LINK_NOT_FULL_PRIMARY_SOURCE_COLLATION"
+    },
+    {
+      "id": "V323-E23",
+      "date": "1738",
+      "precision": "YEAR",
+      "kind": "RULES_FORMATION_YEAR_DENOMINATIONAL_ACCOUNT",
+      "work": "WESLEY_GENERAL_RULES",
+      "title": "교단 해설에 따른 웨슬리 일반 규칙 형성",
+      "reader_ids": [
+        "PERSON-JOHN_WESLEY"
+      ],
+      "overview_ids": [
+        "OV-P-024"
+      ],
+      "proof": {
+        "version": "V322",
+        "record_id": "V322-E09"
+      },
+      "scope": "DENOMINATIONAL_LATER_DESCRIPTION_NOT_1738_AUTOGRAPH"
+    },
+    {
+      "id": "V323-E24",
+      "date": "1739",
+      "precision": "YEAR",
+      "kind": "METHODIST_SOCIETIES_CONTEXT",
+      "work": "METHODIST_MOVEMENT",
+      "title": "감리교 신앙회 운동의 초기 조직화",
+      "reader_ids": [
+        "EVENT-METHODIST_SOCIETIES1739",
+        "PERSON-JOHN_WESLEY"
+      ],
+      "overview_ids": [
+        "OV-E-027"
+      ],
+      "proof": {
+        "version": "CATALOGUE",
+        "record_id": "EVENT-METHODIST_SOCIETIES1739"
+      },
+      "scope": "EDITORIAL_CHRONOLOGY_LINK_NOT_FULL_PRIMARY_SOURCE_COLLATION"
+    },
+    {
+      "id": "V323-E25",
+      "date": "1743",
+      "precision": "YEAR",
+      "kind": "PAMPHLET_PUBLICATION_YEAR",
+      "work": "WESLEY_GENERAL_RULES",
+      "title": "일반 규칙 소책자 인쇄",
+      "reader_ids": [
+        "DOCUMENT-METHODIST_GENERAL_RULES1743"
+      ],
+      "overview_ids": [
+        "OV-D-017"
+      ],
+      "proof": {
+        "version": "V322",
+        "record_id": "V322-E10"
+      },
+      "scope": "EDITORIAL_CHRONOLOGY_LINK_NOT_FULL_PRIMARY_SOURCE_COLLATION"
+    },
+    {
+      "id": "V323-E26",
+      "date": "1785",
+      "precision": "YEAR",
+      "kind": "LATER_DENOMINATIONAL_APPROVAL_YEAR",
+      "work": "WESLEY_GENERAL_RULES",
+      "title": "미국 감리교회의 일반 규칙 승인",
+      "reader_ids": [
+        "DOCUMENT-METHODIST_GENERAL_RULES1743"
+      ],
+      "overview_ids": [
+        "OV-D-017"
+      ],
+      "proof": {
+        "version": "V322",
+        "record_id": "V322-E11"
+      },
+      "scope": "DENOMINATIONAL_RECEPTION_EVENT_NOT_1743_PRINT"
+    }
+  ],
+  "paths": [
+    {
+      "id": "V323-P01",
+      "title": "후스와 종교개혁: 논쟁에서 제국의 신앙고백으로",
+      "domain": "REFORMATION_CONFESSION",
+      "ordered_event_ids": [
+        "V323-E01",
+        "V323-E02",
+        "V323-E03",
+        "V323-E04",
+        "V323-E05",
+        "V323-E06",
+        "V323-E07",
+        "V323-E08",
+        "V323-E09"
+      ],
+      "year_only_as_context": true,
+      "interpretation": "Chronological navigational association, not claim that each event caused the next."
+    },
+    {
+      "id": "V323-P02",
+      "title": "트리엔트: 회기·교령·폐회·교황 승인의 구별",
+      "domain": "COUNCIL_TRENT",
+      "ordered_event_ids": [
+        "V323-E10",
+        "V323-E11",
+        "V323-E12",
+        "V323-E13",
+        "V323-E14"
+      ],
+      "interpretation": "Council convening, specific decree sessions, closing, later approval are distinct actions."
+    },
+    {
+      "id": "V323-P03",
+      "title": "베스트팔렌: 서로 다른 조약과 발행·비준의 시간",
+      "domain": "WESTPHALIA_MULTI_TREATY",
+      "ordered_event_ids": [
+        "V323-E15",
+        "V323-E16",
+        "V323-E17",
+        "V323-E18",
+        "V323-E19",
+        "V323-E20"
+      ],
+      "year_only_unsequenced_event_ids": [
+        "V323-E21"
+      ],
+      "interpretation": "January Spain-Dutch Münster treaty is not October IPM; 1649 print year cannot be ordered relative to February events without day/month."
+    },
+    {
+      "id": "V323-P04",
+      "title": "경건주의와 감리교: 형성·출판·수용",
+      "domain": "PIETISM_METHODISM",
+      "ordered_event_ids": [
+        "V323-E22",
+        "V323-E23",
+        "V323-E24",
+        "V323-E25",
+        "V323-E26"
+      ],
+      "interpretation": "Movement and general rule formation, 1743 print and 1785 reception are different historical processes."
+    }
+  ],
+  "document_witnesses": [
+    {
+      "id": "V323-W01",
+      "work": "AUGSBURG_CONFESSION",
+      "type": "PRESENTED_DOCUMENT_NOT_PRINT_EDITION",
+      "year": 1530,
+      "linked_event": "V323-E05",
+      "source": "V322",
+      "read_status": "EDITORIAL_SOURCE_TIMELINE"
+    },
+    {
+      "id": "V323-W02",
+      "work": "AUGSBURG_CONFESSION",
+      "type": "AUTHOR_SUPERVISED_EDITIO_PRINCEPS",
+      "year": 1531,
+      "linked_event": "V323-E06",
+      "source": "V322",
+      "read_status": "BIBLIOGRAPHIC_HISTORICAL_EVIDENCE"
+    },
+    {
+      "id": "V323-W03",
+      "work": "AUGSBURG_CONFESSION",
+      "type": "VARIATA_REVISED_PRINT",
+      "year": 1540,
+      "linked_event": "V323-E08",
+      "source": "V322",
+      "read_status": "BIBLIOGRAPHIC_HISTORICAL_EVIDENCE"
+    },
+    {
+      "id": "V323-W04",
+      "work": "CALVIN_INSTITUTES",
+      "type": "LATIN_FIRST_EDITION",
+      "year": 1536,
+      "linked_event": "V323-E07",
+      "source": "CATALOGUE",
+      "read_status": "EDITORIAL_READER_CONTEXT"
+    },
+    {
+      "id": "V323-W05",
+      "work": "CALVIN_INSTITUTES",
+      "type": "LATIN_FINAL_AUTHORIAL_EDITION",
+      "year": 1559,
+      "linked_event": "V323-E09",
+      "source": "CATALOGUE",
+      "read_status": "EDITORIAL_READER_CONTEXT"
+    },
+    {
+      "id": "V323-W06",
+      "work": "IPM",
+      "type": "CATALOGUED_1648_GERMAN_PRINT",
+      "year": 1648,
+      "linked_event": null,
+      "source": "V320",
+      "read_status": "LIBRARY_CATALOGUE_ONLY_NO_PHYSICAL_PAGE_READ"
+    },
+    {
+      "id": "V323-W07",
+      "work": "IPM",
+      "type": "SCANNED_1649_GERMAN_PRINT",
+      "year": 1649,
+      "linked_event": "V323-E21",
+      "source": "V318_V319",
+      "read_status": "FIVE_PAGES_VISUALLY_READ_NOT_FULL_TEXT_COLLATION"
+    },
+    {
+      "id": "V323-W08",
+      "work": "IPO",
+      "type": "DIFFERENT_1648_OSNABRUECK_TREATY",
+      "year": 1648,
+      "linked_event": null,
+      "source": "V320",
+      "read_status": "OTHER_TREATY_NOT_IPM"
+    },
+    {
+      "id": "V323-W09",
+      "work": "SPAIN_DUTCH_PEACE_MUENSTER",
+      "type": "DIFFERENT_JANUARY_1648_MUENSTER_TREATY",
+      "year": 1648,
+      "linked_event": "V323-E15",
+      "source": "EXTERNAL",
+      "read_status": "INSTITUTIONAL_EXHIBITION_NOT_IPM"
+    },
+    {
+      "id": "V323-W10",
+      "work": "WESLEY_GENERAL_RULES",
+      "type": "1743_PRINTED_PAMPHLET",
+      "year": 1743,
+      "linked_event": "V323-E25",
+      "source": "V322",
+      "read_status": "LIBRARY_CATALOGUE_NO_FULL_PRINT_COLLATION"
+    }
+  ],
+  "witness_relations": [
+    {
+      "id": "V323-REL01",
+      "from": "V323-W01",
+      "to": "V323-W02",
+      "type": "DOCUMENT_TO_AUTHORIZED_PRINT",
+      "scope": "Presentation is not a 1530 authorized printed edition"
+    },
+    {
+      "id": "V323-REL02",
+      "from": "V323-W02",
+      "to": "V323-W03",
+      "type": "EDITION_REVISION",
+      "scope": "1540 Variata differs from 1531 but no physical copies collated in this workflow"
+    },
+    {
+      "id": "V323-REL03",
+      "from": "V323-W04",
+      "to": "V323-W05",
+      "type": "AUTHORIAL_EDITION_DEVELOPMENT",
+      "scope": "1536 and 1559 editions are distinct"
+    },
+    {
+      "id": "V323-REL04",
+      "from": "V323-W06",
+      "to": "V323-W07",
+      "type": "SAME_TREATY_WORK_POSSIBLE_PRINT_COMPARISON",
+      "scope": "1648 catalogue-only vs 1649 selected scanned pages; aligned original text pairs 0"
+    },
+    {
+      "id": "V323-REL05",
+      "from": "V323-W06",
+      "to": "V323-W08",
+      "type": "NOT_SAME_TREATY",
+      "scope": "Münster IPM France versus Osnabrück IPO Sweden"
+    },
+    {
+      "id": "V323-REL06",
+      "from": "V323-W07",
+      "to": "V323-W09",
+      "type": "NOT_SAME_TREATY",
+      "scope": "1649 print of October Imperial-French IPM not January Spain-Dutch Münster treaty"
+    }
+  ],
+  "guardrails": {
+    "has_no_exact_day_for_year_or_month_precision": true,
+    "date_sort_uses_precision_tiers": true,
+    "same_place_does_not_mean_same_treaty": true,
+    "presentation_does_not_equal_print": true,
+    "ratification_does_not_equal_signing": true,
+    "printed_privilege_does_not_equal_diplomatic_original": true,
+    "zero_original_1648_ipm_pages_read": true,
+    "original_print_variant_pairs": 0,
+    "external_approval": false,
+    "full_corpus_factual_audit": false,
+    "all_513_entries_transformed": false
+  },
+  "artifact_contract": [
+    "v323_overview_97_reading_index.json",
+    "v323_513_reader_catalogue_index.json",
+    "v323_curated_event_timeline.json",
+    "v323_edition_relation_graph.json"
+  ],
+  "unresolved": [
+    "All 513 manuscripts are catalogued and checked for reference existence, not their complete factual content.",
+    "V3.04 overview crosswalk is updated by V3.05, V3.07 and V3.10 research overlays; production app remains unchanged.",
+    "1648 IPM physical pages were not visually inspected, 1648/1649 aligned original paragraphs remain zero.",
+    "Year-only 1649 print publication must not be sorted before or after exact February 1649 ratification actions.",
+    "January Spain–Dutch treaty of Münster and October imperial–French IPM have different parties; no single shared work ID.",
+    "Some overview links remain PARTIAL_COVERAGE and cannot be presented as fully peer-reviewed historical claims."
+  ]
+}
