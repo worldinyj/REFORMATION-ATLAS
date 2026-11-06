@@ -1,0 +1,454 @@
+{
+  "version": "3.29",
+  "status": "DRAFT",
+  "depth": "MEDIUM",
+  "research_date": "2026-11-06",
+  "publication_gate": {
+    "published": false,
+    "main_changed": false,
+    "webapp_integrated": false,
+    "historian_approved": false
+  },
+  "parent": {
+    "version": "3.28",
+    "pr": 170,
+    "head_sha": "7c52bbc86257056101725c7e17aa9e20c5b1dabd",
+    "branch": "research/atlas-v328-methodist-1785-1789-qa-rule-witness-audit",
+    "locked_parent_blob_sha": "8dcde2e0282f02d2679dcc2e1201f28a90094917"
+  },
+  "preserve": {
+    "readers": 513,
+    "sections": 1539,
+    "original_source_records": 723,
+    "overviews": 97,
+    "curated_events": 26,
+    "original_typed_relations": 12,
+    "prior_v328_claim_cards": 12
+  },
+  "sources": [
+    {
+      "id": "V329-S-TIGERT106",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/The_making_of_Methodism-_studies_in_the_genesis_of_institutions_%28IA_cu31924009792353%29.pdf",
+      "level": "1898_PRINT_P106_VISUALLY_SCREENED",
+      "description": "PDF page index 143; 1788 Kollock Elizabethtown edition with separate-titled General Rules nineteenth edition signed Coke/Asbury dated 1787-05-28; reprints omitted annexed useful pieces",
+      "original_1788_or_1789_page_read": false
+    },
+    {
+      "id": "V329-S-TIGERT107",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/The_making_of_Methodism-_studies_in_the_genesis_of_institutions_%28IA_cu31924009792353%29.pdf",
+      "level": "1898_PRINT_P107_VISUALLY_SCREENED",
+      "description": "PDF page index 144; 1789 fifth edition New York William Ross, 1790 sixth Philadelphia Aitken and shift of selected useful pieces into numbered sections",
+      "original_1788_or_1789_page_read": false
+    },
+    {
+      "id": "V329-S-VANDERBILT1788",
+      "url": "https://exhibitions.library.vanderbilt.edu/forging-a-nation/item/methodist-episcopal-church/",
+      "level": "ACADEMIC_LIBRARY_HOLDING",
+      "description": "1788 Shepard Kollock edition held in Divinity Library Rare Books, edition existence independently confirmed",
+      "original_1788_or_1789_page_read": false
+    },
+    {
+      "id": "V329-S-GOOGLE1788",
+      "url": "https://play.google.com/store/books/details/Methodist_Episcopal_Church_A_Form_of_Discipline_fo?id=f7FuNMZ4iLwC",
+      "level": "1788_DIGITAL_BOOK_METADATA",
+      "description": "1788 edition published by Shepard Kollock and digitized, original appendix page not inspected",
+      "original_1788_or_1789_page_read": false
+    },
+    {
+      "id": "V329-S-NEWS1912",
+      "url": "https://texashistory.unt.edu/ark:/67531/metapth1834850/m1/10/",
+      "level": "1912_NEWSPAPER_OCR_HISTORIC_WITNESS_REPORT",
+      "description": "Original-era antique book collector reported calf-bound 1788 copy and original 1789 fifth edition, plus warning that facsimile reprints incomplete; page image screenshot failed",
+      "original_1788_or_1789_page_read": false
+    },
+    {
+      "id": "V329-S-EMORY",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/History_of_the_discipline_of_the_Methodist_Episcopal_church_%28IA_historyofdiscip00emor%29.pdf",
+      "level": "NINETEENTH_CENTURY_HISTORY_SEARCH_EXCERPT",
+      "description": "Emory printed p83 says 1788 edition had not been found by that author; modern extant copy disconfirms nonexistence, PDF 23MB cannot open screenshot",
+      "original_1788_or_1789_page_read": false
+    },
+    {
+      "id": "V329-S-PETERSON",
+      "url": "https://www.loc.gov/item/36023388/",
+      "level": "1889_HISTORIC_STUDY_BIBLIOGRAPHIC_CONTEXT",
+      "description": "Earlier 1789 first Rules inference from later revision history must be restricted; 1789 original full text unseen",
+      "original_1788_or_1789_page_read": false
+    },
+    {
+      "id": "V329-S-BANGS",
+      "url": "https://ccel.org/ccel/bangs/history2/history2.ii.ii.ii.html",
+      "level": "HISTORIC_SOURCE_SECONDARY_TEXT",
+      "description": "Historical author describes 1789 fifth edition General Rules temperance wording, not first-ever inclusion proof",
+      "original_1788_or_1789_page_read": false
+    },
+    {
+      "id": "V329-S-ASBURY",
+      "url": "https://wesley.nnu.edu/other-theologians/francis-asbury/the-journal-and-letters-of-francis-asbury-volume-ii/francis-asbury-the-letters-vol-2-chapter-4/",
+      "level": "EDITED_HISTORICAL_REFERENCE",
+      "description": "1789 fifth-edition preface printed 20 March per editorial note, not exact membership probation effective date",
+      "original_1788_or_1789_page_read": false
+    },
+    {
+      "id": "V329-S-FACSIMILE",
+      "url": "https://allegheny.pressbooks.pub/methodistbibliography/chapter/5-2-history-and-development/",
+      "level": "MODERN_SPECIALIST_BIBLIOGRAPHY",
+      "description": "1992 collected facsimiles of first five Discipline volumes 1785–1789; reproduction may omit independent annexes",
+      "original_1788_or_1789_page_read": false
+    },
+    {
+      "id": "V329-S-BRIDWELL",
+      "url": "https://bridwell.omeka.net/exhibits/show/asbury/item/497",
+      "level": "1785_LIBRARY_HOLDING",
+      "description": "Cist first 1785 title held; membership Q16/17 original print pages not directly inspected",
+      "original_1788_or_1789_page_read": false
+    },
+    {
+      "id": "V329-S-DUKE",
+      "url": "https://dukespace.lib.duke.edu/bitstreams/e31203e3-acf1-48c5-adac-e8215017dbb7/download",
+      "level": "ACADEMIC_SEARCH_INDEX",
+      "description": "1785 Q16 two-month trial and handing Rules at first meeting from secondary quotation, NOT full Rules appendix scanned",
+      "original_1788_or_1789_page_read": false
+    }
+  ],
+  "witness_nodes": [
+    {
+      "id": "V329-W01",
+      "year": 1785,
+      "work": "1785_CIST_FIRST",
+      "status": "FIRST_EDITION_PRINT_CATALOGUED",
+      "source_ids": [
+        "V329-S-BRIDWELL",
+        "V329-S-DUKE"
+      ],
+      "original_edition_relevant_page_read": false
+    },
+    {
+      "id": "V329-W02",
+      "year": 1787,
+      "work": "1787_NEW_YORK_ROSS",
+      "status": "DIFFERENT_HISTORICAL_EDITION",
+      "source_ids": [
+        "V329-S-TIGERT106"
+      ],
+      "original_edition_relevant_page_read": false
+    },
+    {
+      "id": "V329-W03",
+      "year": 1788,
+      "work": "1788_ELIZABETHTOWN_KOLLOCK",
+      "status": "RULES_SEPARATE_ANNEX_ATTESTED_BY_1898_HISTORIAN",
+      "source_ids": [
+        "V329-S-TIGERT106",
+        "V329-S-VANDERBILT1788",
+        "V329-S-GOOGLE1788"
+      ],
+      "original_edition_relevant_page_read": false
+    },
+    {
+      "id": "V329-W04",
+      "year": 1787,
+      "work": "GENERAL_RULES_NINETEENTH",
+      "status": "INTERNAL_DATE_1787_05_28_NOT_1788_IMPRINT",
+      "source_ids": [
+        "V329-S-TIGERT106"
+      ],
+      "original_edition_relevant_page_read": false
+    },
+    {
+      "id": "V329-W05",
+      "year": 1789,
+      "work": "1789_FIFTH_NEW_YORK_ROSS",
+      "status": "HISTORIC_BIBLIOGRAPHIC_RECORD_NOT_ORIGINAL_PAGE_INSPECTION",
+      "source_ids": [
+        "V329-S-TIGERT107",
+        "V329-S-NEWS1912",
+        "V329-S-ASBURY"
+      ],
+      "original_edition_relevant_page_read": false
+    },
+    {
+      "id": "V329-W06",
+      "year": 1790,
+      "work": "1790_SIXTH_PHILADELPHIA_AITKEN",
+      "status": "APPENDED_USEFUL_PIECES_REDESIGNED_AS_NUMBERED_SECTIONS",
+      "source_ids": [
+        "V329-S-TIGERT107"
+      ],
+      "original_edition_relevant_page_read": false
+    },
+    {
+      "id": "V329-W07",
+      "year": 1992,
+      "work": "FACSIMILES_FIRST_FIVE_DISCIPLINES",
+      "status": "POTENTIAL_SOURCE_PAGES_NOT_INSPECTED_ANNEX_POSSIBLE_OMISSION",
+      "source_ids": [
+        "V329-S-FACSIMILE",
+        "V329-S-TIGERT106"
+      ],
+      "original_edition_relevant_page_read": false
+    }
+  ],
+  "relations": [
+    {
+      "id": "V329-REL01",
+      "type": "HISTORIAN_ATTESTED_SEPARATE_ANNEX",
+      "from": "V329-W04",
+      "to": "V329-W03",
+      "source_ids": [
+        "V329-S-TIGERT106"
+      ],
+      "claim": "1787-dated nineteenth General Rules included as separately titled annex in 1788 edition",
+      "exact_original_page_comparison": false
+    },
+    {
+      "id": "V329-REL02",
+      "type": "EDITION_SEQUENCE_NO_PASSAGE_EQUIVALENCE",
+      "from": "V329-W02",
+      "to": "V329-W03",
+      "source_ids": [
+        "V329-S-TIGERT106"
+      ],
+      "claim": "1787 New York Ross and 1788 Elizabeth-Town Kollock editions are different impressions",
+      "exact_original_page_comparison": false
+    },
+    {
+      "id": "V329-REL03",
+      "type": "EDITION_SEQUENCE_NO_PASSAGE_EQUIVALENCE",
+      "from": "V329-W03",
+      "to": "V329-W05",
+      "source_ids": [
+        "V329-S-TIGERT106",
+        "V329-S-TIGERT107"
+      ],
+      "claim": "1788 annex precedes 1789 fifth; exact changed clauses unknown",
+      "exact_original_page_comparison": false
+    },
+    {
+      "id": "V329-REL04",
+      "type": "LATER_SECTION_FORMAT_DEVELOPMENT",
+      "from": "V329-W05",
+      "to": "V329-W06",
+      "source_ids": [
+        "V329-S-TIGERT107"
+      ],
+      "claim": "1790 sixth reorganized some useful pieces into numbered sections; not all attachment positions verified",
+      "exact_original_page_comparison": false
+    },
+    {
+      "id": "V329-REL05",
+      "type": "RULES_KNOWN_BUT_PRINTING_NOT_YET_PROVEN",
+      "from": "V329-W01",
+      "to": "V329-W03",
+      "source_ids": [
+        "V329-S-DUKE",
+        "V329-S-TIGERT106"
+      ],
+      "claim": "1785 Q16 refers to Rules; 1788 distinct printed annex described, no assertion that 1788 was first",
+      "exact_original_page_comparison": false
+    },
+    {
+      "id": "V329-REL06",
+      "type": "FACSIMILE_NOT_AUTHENTICATED_COMPLETE",
+      "from": "V329-W03",
+      "to": "V329-W07",
+      "source_ids": [
+        "V329-S-FACSIMILE",
+        "V329-S-TIGERT106"
+      ],
+      "claim": "1992 reprint series discoverable but annexes may have been omitted, needs physical comparison",
+      "exact_original_page_comparison": false
+    }
+  ],
+  "supersession_cards": [
+    {
+      "id": "V329-CORR01",
+      "target_version": "3.28",
+      "target_path": "data/contracts/atlas_v328_methodist_1785_1789_witness_scope.json",
+      "previous_claim": "1789 최초 『일반 규칙』 전문 수록",
+      "replacement": "1788 edition separate-titled General Rules annex attested by 1898 printed history",
+      "status": "SUPERSEDED_OVERBROAD",
+      "delete_upstream_file": false
+    },
+    {
+      "id": "V329-CORR02",
+      "target_version": "3.28",
+      "target_path": "docs/02_RESEARCH/V328_METHODIST_1785_1789_RULES_WITNESS_AUDIT.md",
+      "previous_claim": "1789이 미국 규정집 최초 『일반 규칙』 수록",
+      "replacement": "1788 independent annex existed; 1789 disposition and changes still unresolved",
+      "status": "SUPERSEDED_OVERBROAD",
+      "delete_upstream_file": false
+    },
+    {
+      "id": "V329-CORR03",
+      "target_version": "3.27",
+      "target_path": "docs/02_RESEARCH/V327_METHODIST_QA_EDITION_CONCORDANCE.md",
+      "previous_claim": "1789 최초 전면 수록으로의 직선적 설명",
+      "replacement": "Earlier annex from 1788 recorded; first-ever historical print uncertain",
+      "status": "RESTRICT_HISTORICAL_SCOPE",
+      "delete_upstream_file": false
+    },
+    {
+      "id": "V329-CORR04",
+      "target_version": "3.26",
+      "target_path": "data/contracts/atlas_v326_methodist_1784_1785_discipline_witness_audit.json",
+      "previous_claim": "1788 edition supposed absent on older historian's search",
+      "replacement": "1788 holding at Vanderbilt and 1898/1912 bibliographic witnesses show edition existed; older 'none found' means then unavailable",
+      "status": "SCOPE_CLARIFICATION",
+      "delete_upstream_file": false
+    }
+  ],
+  "readings": [
+    {
+      "id": "V329-RD1",
+      "title": "1789년 최초 수록설의 정정: 1788년 별도 『일반 규칙』",
+      "overview_ids": [
+        "OV-D-017",
+        "OV-E-027"
+      ],
+      "sections": [
+        {
+          "heading": "새로 발견된 한 쪽의 역사적 무게",
+          "body": "1898년 타이거트 『The Making of Methodism』 인쇄면 106쪽의 사진을 확인하자 1788년 감리교회 규정집에 『General Rules』가 별도 표제지를 가진 부속 문헌으로 수록됐다는 기술이 나타났다. V3.28의 ‘1789 최초 수록’이라는 포괄적 판단은 더 이른 사례와 충돌하여 정정해야 한다."
+        },
+        {
+          "heading": "1787년 부속 문헌 날짜와 1788년 간행연도의 차이",
+          "body": "같은 자료에 따르면 1788년 책은 셰퍼드 콜록이 엘리자베스타운에서 간행했고, 부속된 『일반 규칙』은 코크와 애즈베리의 서명을 갖춘 제19판으로 내부 날짜가 1787년 5월 28일이었다. 1787년 서명일은 1788년 책의 인쇄일이 아니다."
+        },
+        {
+          "heading": "재인쇄본에 빠진 부속 문헌",
+          "body": "타이거트는 1788년 및 뒤이은 책의 일부 부속 문헌이 후대 재인쇄본에서 빠졌다는 각주를 남겼다. 후대 축약판만 검색하면 원래 출판물의 범위를 오해할 위험이 있다. 부속 표제지·권말 경계·별도 인쇄물 여부는 1788년 실물을 직접 볼 때 검증할 과제다."
+        }
+      ]
+    },
+    {
+      "id": "V329-RD2",
+      "title": "1787·1788·1789·1790년 미국 감리교 판본의 계보",
+      "overview_ids": [
+        "OV-D-017",
+        "OV-E-027"
+      ],
+      "sections": [
+        {
+          "heading": "1787년 뉴욕과 1788년 엘리자베스타운",
+          "body": "타이거트는 1787년 뉴욕 윌리엄 로스판과 1788년 엘리자베스타운 콜록판을 서로 다른 인쇄본으로 기술한다. 반더빌트 도서관은 실제 1788년 희귀본 소장 정보를 제공한다. 따라서 1788년판을 찾지 못했다는 오래된 연구자의 말은 그 시점의 조사 한계이지 판본 자체가 없었다는 결론이 아니다."
+        },
+        {
+          "heading": "1789년 제5판의 인쇄인과 남은 본문 문제",
+          "body": "타이거트 107쪽은 1789년 제5판을 뉴욕 윌리엄 로스 인쇄로 적는다. 1912년 감리교 신문의 수집가는 1789년 제5판의 실물도 소장했다고 보고했다. 두 기록은 서지에 힘을 더하지만 1789년 『일반 규칙』의 문단·절 번호·회원시험 변경 구절을 직접 사진으로 본 것은 아니다."
+        },
+        {
+          "heading": "1790년 제6판의 절 번호 체계",
+          "body": "1898년 서지 연구는 1790년 필라델피아 제6판에서 이전의 일부 ‘유용한 부속 문헌’이 본문 제35절 이후의 번호 체계로 옮겨졌다고 설명한다. 문헌을 부록으로 인쇄하는 일, 본문으로 재배열하는 일, 내용을 개정하는 일은 서로 다르다. 『일반 규칙』이 정확히 어디에 놓였는지는 원본 대조로만 판정한다."
+        }
+      ]
+    },
+    {
+      "id": "V329-RD3",
+      "title": "역사적 문헌의 ‘원본 확인’과 ‘옛 연구서의 증언’ 구별",
+      "overview_ids": [
+        "OV-D-017"
+      ],
+      "sections": [
+        {
+          "heading": "이번에 직접 본 것은 1898년 역사 인쇄면이다",
+          "body": "이번 연구에서 직접 시각적으로 확인한 두 페이지는 1898년 타이거트 저서의 인쇄면 106·107쪽이다. 거기에 서술된 1788년과 1789년 원래 책의 해당 면은 아직 직접 열어 보지 않았다. 당대 역사학자 기록과 역사 원본 교감을 같은 수준으로 표현하지 않아야 한다."
+        },
+        {
+          "heading": "1912년 수집가와 현대 대학도서관의 증거",
+          "body": "1912년 신문 수집가는 1788년판이 가죽 제본이었다고 하고 1789년 제5판도 실제 소장했다고 적었다. 반더빌트 도서관의 현행 희귀본 소장 목록은 1788년판을 명시한다. 이 둘은 타이거트의 서지 기술을 다른 경로로 보강하지만 원래 『일반 규칙』 텍스트의 장절을 직접 교감해 주지는 않는다."
+        },
+        {
+          "heading": "정정 이력을 지우지 않고 연결하기",
+          "body": "V3.28의 잘못된 최초 수록 해석은 연구 기록에서 삭제하거나 몰래 덮어쓰지 않고 V3.29의 정정 카드로 연결했다. 1788년 부속 수록이 확인된 역사 연구 진술과, 1788년이 실제 최초였는지·1789년에 어떤 배열 변화가 있었는지는 미완료 과제로 분리한다. 이 방식은 장래 독자가 왜 해석이 바뀌었는지 추적하게 한다."
+        }
+      ]
+    }
+  ],
+  "open_issues": [
+    {
+      "id": "V329-I-1788_ANNEX_PAGE",
+      "status": "OPEN",
+      "priority": "P0",
+      "next": "Check original Kollock 1788 book's standalone General Rules 19th edition title and text",
+      "original_edition_verified": false
+    },
+    {
+      "id": "V329-I-1789_FIFTH_ORIGINAL",
+      "status": "OPEN",
+      "priority": "P0",
+      "next": "Read original William Ross fifth edition complete General Rules placement and compare 1788 appendix",
+      "original_edition_verified": false
+    },
+    {
+      "id": "V329-I-1785_Q16_Q17_P9",
+      "status": "OPEN",
+      "priority": "P0",
+      "next": "Directly inspect first Cist 1785 original Q16 and Q17 text, not just later thesis",
+      "original_edition_verified": false
+    },
+    {
+      "id": "V329-I-1789_6MONTH_ORIGINAL",
+      "status": "OPEN",
+      "priority": "P0",
+      "next": "Validate 1789 original six-month member probation, separate from General Rules appendix history",
+      "original_edition_verified": false
+    },
+    {
+      "id": "V329-I-BEFORE_1788_FIRST_PRINT",
+      "status": "OPEN",
+      "priority": "P1",
+      "next": "Compare originals 1785,1786,1787 before calling 1788 'first'",
+      "original_edition_verified": false
+    },
+    {
+      "id": "V329-I-FACSIMILE_OMISSION",
+      "status": "OPEN",
+      "priority": "P1",
+      "next": "Verify 1992 facsimile and later reproductions did not omit annexes",
+      "original_edition_verified": false
+    },
+    {
+      "id": "V329-I-EMORY_ACCESS_1788",
+      "status": "OPEN",
+      "priority": "P1",
+      "next": "Check Emory printed p83 'no 1788 found' alongside Vanderbilt extant 1788 copy",
+      "original_edition_verified": false
+    },
+    {
+      "id": "V329-I-1789_PRINT_DATE_VS_EFFECT",
+      "status": "OPEN",
+      "priority": "P1",
+      "next": "Check whether printed March 20 1789 note and actual membership rule effective dates differ",
+      "original_edition_verified": false
+    }
+  ],
+  "central_correction": "Tigert 1898 printed p106 visually read: separate General Rules annexed to 1788 Kollock edition. V3.28 claim of first American General Rules print in 1789 is overbroad and superseded; 1788 first-ever status remains unproved.",
+  "source_scope": {
+    "historical_1898_printed_pages_visually_read": 2,
+    "original_1788_general_rules_pages_visually_read": 0,
+    "original_1789_general_rules_pages_visually_read": 0,
+    "original_1785_Q16_Q17_pages_visually_read": 0,
+    "direct_1788_1789_page_pairs_collated": 0,
+    "scanned_1912_newspaper_ocr_read": true,
+    "scanned_1912_newspaper_image_seen": false
+  },
+  "publication_warnings": [
+    "1789 first ever General Rules printing superseded",
+    "1788 first ever printing NOT proven",
+    "1787 May 28 internal Rules date is NOT 1788 book's imprint date",
+    "1898 book print screens are NOT 1788 first print scans",
+    "1789 six-month rule separate from appendix literature",
+    "Modern reprints may omit separately titled appendices"
+  ],
+  "metrics": {
+    "sources": 12,
+    "witness_nodes": 7,
+    "evidence_relations": 6,
+    "corrected_claims": 4,
+    "readings": 3,
+    "sections": 9,
+    "open_issues": 8,
+    "original_corpus_mutations": 0
+  }
+}

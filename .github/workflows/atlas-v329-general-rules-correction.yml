@@ -1,0 +1,32 @@
+name: Atlas V3.29 historic Methodist 1788 Rules appendix correction gate
+on:
+  push:
+    branches:
+      - research/atlas-v329-1788-annex-general-rules-correction
+  pull_request:
+    paths:
+      - 'data/contracts/atlas_v329_general_rules_1788_annex_correction.json'
+      - 'docs/02_RESEARCH/V329_1788_ANNEX_GENERAL_RULES_CORRECTION.md'
+      - 'scripts/build_v329_general_rules_correction.mjs'
+      - 'integrations/medium-atlas-v329/**'
+      - '.github/workflows/atlas-v329-general-rules-correction.yml'
+jobs:
+  historic_correction_gate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify inherited V3.28 and new V3.29 first-1789 correction
+        run: node --test integrations/medium-atlas-v328/integration.test.mjs integrations/medium-atlas-v329/integration.test.mjs
+      - name: Build correction ledgers and first-print research tasks
+        run: node scripts/build_v329_general_rules_correction.mjs
+      - name: Archive non-public research correction outputs
+        uses: actions/upload-artifact@v4
+        with:
+          name: atlas-v329-reviewed-correction-draft
+          path: out/atlas-v329/*.json
+          retention-days: 30
