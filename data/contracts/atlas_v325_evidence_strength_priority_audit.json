@@ -1,0 +1,542 @@
+{
+  "version": "3.25",
+  "status": "DRAFT",
+  "depth": "MEDIUM",
+  "publication_gate": {
+    "published": false,
+    "main_changed": false,
+    "webapp_integrated": false,
+    "historian_approved": false
+  },
+  "parent": {
+    "version": "3.24",
+    "pr": 166,
+    "branch": "research/atlas-v324-evidence-typed-influence-response-graph",
+    "last_commit": "a3f89840c51ef2f1d3f1f2238227a74cf6a78c07",
+    "locked_parent_contract_blob_sha": "9d8b00a6268116fe89e6b8acdac4b58da975f0c3"
+  },
+  "inheritance": {
+    "original_reader_count": 513,
+    "original_section_count": 1539,
+    "original_source_records": 723,
+    "overview_records": 97,
+    "original_selected_claims": 22,
+    "curated_historical_events": 26,
+    "overview_reader_links": 156,
+    "parent_relation_count": 12,
+    "parent_unresolved_count": 6
+  },
+  "method": "Evidence band is a claim-specific editorial classification, not a universal ranking of religious traditions or a probability. Priority is action urgency only, not credibility.",
+  "grading_scale": {
+    "A_SCANNED_REPRINT_EXACT_SCOPE": "Specific visible historical printed page supports exactly what the printed page says; not autograph or source treaty authority",
+    "B_EDITED_HISTORIC_DOCUMENT": "Contemporary content represented in inspected scholarly/confessional modern transcript; physical original image not collated",
+    "B_INSTITUTIONAL_BIBLIOGRAPHY": "Catalogue/edition history proves publication relationship; not exact variant text",
+    "C_SECONDARY_SYNTHESIS": "Historical interpretive/editorial synthesis supports qualified relationship",
+    "C_SECONDARY_INSTITUTIONAL_HISTORY": "Institutionally described historical follow-up; original action record not inspected",
+    "C_HISTORIAN_SECONDARY": "Historian description of treaty chronology rather than inspected original ratifications",
+    "D_INTERPRETATIVE_CLAIM": "Academic interpretation plausible but no phrase-level comparative test",
+    "D_DENOMINATIONAL_ACCOUNT": "Later denominational explanatory account; details may conflict across same institution's publications"
+  },
+  "triage_scoring": {
+    "formula": "impact * 2 + evidence_gap + reader_exposure",
+    "each_domain": "integers 1–3 assigned for editorial planning only",
+    "P0": "score >= 10",
+    "P1": "8 <= score < 10",
+    "P2": "score < 8",
+    "explicit_warning": "A priority score never measures factual probability, source authenticity or expert consensus"
+  },
+  "assessments": [
+    {
+      "relation_id": "V324-R01",
+      "relation_type": "DOCUMENTED_INTELLECTUAL_INFLUENCE",
+      "evidence_band": "C_SECONDARY_SYNTHESIS",
+      "editorial_priority": "P1",
+      "linked_issue_id": "V324-ISS03",
+      "source_ids": [
+        "SRC-HUS-BRIT"
+      ],
+      "claim_scope": "후스의 영향은 전기 연구에서 확인되지만 구절별 텍스트 차용은 미교감",
+      "historical_confidence_not_numeric": true,
+      "verified_original_print_pair": false,
+      "allowed_in_draft_reader_navigation": true,
+      "allowed_as_unqualified_primary_source_proof": false,
+      "app_publication_approved": false,
+      "review_action": "Keep source caveat and corroborate direct original where possible"
+    },
+    {
+      "relation_id": "V324-R02",
+      "relation_type": "FORMAL_CONFUTATION_OF",
+      "evidence_band": "B_EDITED_HISTORIC_DOCUMENT",
+      "editorial_priority": "P0",
+      "linked_issue_id": "V324-ISS02",
+      "source_ids": [
+        "SRC-CONFUTATION"
+      ],
+      "claim_scope": "정식 반박 대상 관계는 역사 문서 편집본이 뒷받침하되 당시 원인쇄본 미교감",
+      "historical_confidence_not_numeric": true,
+      "verified_original_print_pair": false,
+      "allowed_in_draft_reader_navigation": true,
+      "allowed_as_unqualified_primary_source_proof": false,
+      "app_publication_approved": false,
+      "review_action": "Do not publish before source-scope annotation and original/edition verification"
+    },
+    {
+      "relation_id": "V324-R03",
+      "relation_type": "APOLOGETIC_REBUTTAL_OF",
+      "evidence_band": "B_EDITED_HISTORIC_DOCUMENT",
+      "editorial_priority": "P0",
+      "linked_issue_id": "V324-ISS02",
+      "source_ids": [
+        "SRC-APOLOGY-HISTORY",
+        "SRC-CONFUTATION"
+      ],
+      "claim_scope": "공식 반박문에 대한 변증이라는 문헌 관계, 초안과 최종 인쇄문 변별 필요",
+      "historical_confidence_not_numeric": true,
+      "verified_original_print_pair": false,
+      "allowed_in_draft_reader_navigation": true,
+      "allowed_as_unqualified_primary_source_proof": false,
+      "app_publication_approved": false,
+      "review_action": "Do not publish before source-scope annotation and original/edition verification"
+    },
+    {
+      "relation_id": "V324-R04",
+      "relation_type": "DEFENSE_OF_CONFESSIONAL_DOCUMENT",
+      "evidence_band": "C_SECONDARY_SYNTHESIS",
+      "editorial_priority": "P1",
+      "linked_issue_id": "V324-ISS02",
+      "source_ids": [
+        "SRC-APOLOGY-HISTORY"
+      ],
+      "claim_scope": "1530 고백서의 변호 목적과 반박문 답변 목적을 별개 간선으로 유지",
+      "historical_confidence_not_numeric": true,
+      "verified_original_print_pair": false,
+      "allowed_in_draft_reader_navigation": true,
+      "allowed_as_unqualified_primary_source_proof": false,
+      "app_publication_approved": false,
+      "review_action": "Keep source caveat and corroborate direct original where possible"
+    },
+    {
+      "relation_id": "V324-R05",
+      "relation_type": "AUTHORIAL_EDITION_REVISION",
+      "evidence_band": "B_INSTITUTIONAL_BIBLIOGRAPHY",
+      "editorial_priority": "P1",
+      "linked_issue_id": null,
+      "source_ids": [
+        "SRC-AUGSBURG-INTRO"
+      ],
+      "claim_scope": "1531 초판에서 1540 개정판으로의 저자 개정 계보, 실제 원문 이문 검증은 아님",
+      "historical_confidence_not_numeric": true,
+      "verified_original_print_pair": false,
+      "allowed_in_draft_reader_navigation": true,
+      "allowed_as_unqualified_primary_source_proof": false,
+      "app_publication_approved": false,
+      "review_action": "Keep source caveat and corroborate direct original where possible"
+    },
+    {
+      "relation_id": "V324-R06",
+      "relation_type": "AUTHORIAL_EDITION_REVISION",
+      "evidence_band": "B_INSTITUTIONAL_BIBLIOGRAPHY",
+      "editorial_priority": "P1",
+      "linked_issue_id": null,
+      "source_ids": [
+        "SRC-CALVIN-BNF",
+        "SRC-CALVIN-BRIDWELL"
+      ],
+      "claim_scope": "BnF와 학술도서관의 판본 서지; 1539·1543·1550 중간판 반드시 보존",
+      "historical_confidence_not_numeric": true,
+      "verified_original_print_pair": false,
+      "allowed_in_draft_reader_navigation": true,
+      "allowed_as_unqualified_primary_source_proof": false,
+      "app_publication_approved": false,
+      "review_action": "Keep source caveat and corroborate direct original where possible"
+    },
+    {
+      "relation_id": "V324-R07",
+      "relation_type": "REPORTED_STRUCTURAL_INFLUENCE",
+      "evidence_band": "D_INTERPRETATIVE_CLAIM",
+      "editorial_priority": "P1",
+      "linked_issue_id": "V324-ISS05",
+      "source_ids": [
+        "SRC-CALVIN-BRIDWELL"
+      ],
+      "claim_scope": "칼뱅 초판과 루터 소교리문답의 구조적 영향은 도서관 해설의 학술 해석이며 문장 차용 미확인",
+      "historical_confidence_not_numeric": true,
+      "verified_original_print_pair": false,
+      "allowed_in_draft_reader_navigation": true,
+      "allowed_as_unqualified_primary_source_proof": false,
+      "app_publication_approved": false,
+      "review_action": "Keep source caveat and corroborate direct original where possible"
+    },
+    {
+      "relation_id": "V324-R08",
+      "relation_type": "INSTITUTIONAL_FOLLOW_UP_PUBLICATION",
+      "evidence_band": "C_SECONDARY_INSTITUTIONAL_HISTORY",
+      "editorial_priority": "P1",
+      "linked_issue_id": "V324-ISS04",
+      "source_ids": [
+        "SRC-CATECHISM-VATICAN",
+        "SRC-CATECHISM-HISTORY"
+      ],
+      "claim_scope": "트리엔트 의결–1566 로마 교리서 후속 관계, 발의·편집·교황 발행 단계를 각각 구분",
+      "historical_confidence_not_numeric": true,
+      "verified_original_print_pair": false,
+      "allowed_in_draft_reader_navigation": true,
+      "allowed_as_unqualified_primary_source_proof": false,
+      "app_publication_approved": false,
+      "review_action": "Keep source caveat and corroborate direct original where possible"
+    },
+    {
+      "relation_id": "V324-R09",
+      "relation_type": "DOCUMENT_AUTHORSHIP",
+      "evidence_band": "B_INSTITUTIONAL_BIBLIOGRAPHY",
+      "editorial_priority": "P2",
+      "linked_issue_id": null,
+      "source_ids": [
+        "SRC-SPENER-BRIDWELL"
+      ],
+      "claim_scope": "슈페너의 저술 귀속은 도서관 전시; 1675 원본이 아니라 1841 전시본",
+      "historical_confidence_not_numeric": true,
+      "verified_original_print_pair": false,
+      "allowed_in_draft_reader_navigation": true,
+      "allowed_as_unqualified_primary_source_proof": false,
+      "app_publication_approved": false,
+      "review_action": "Bibliographic reading link may remain DRAFT with provenance qualifier"
+    },
+    {
+      "relation_id": "V324-R10",
+      "relation_type": "FORMATION_TO_PRINT_PUBLICATION",
+      "evidence_band": "D_DENOMINATIONAL_ACCOUNT",
+      "editorial_priority": "P0",
+      "linked_issue_id": "V324-ISS01",
+      "source_ids": [
+        "SRC-UMC-GLOSSARY"
+      ],
+      "claim_scope": "1738 형성–1743 출판은 후대 교단 해설; 1784 채택과 1785 출판/승인 이견에 연결됨",
+      "historical_confidence_not_numeric": true,
+      "verified_original_print_pair": false,
+      "allowed_in_draft_reader_navigation": true,
+      "allowed_as_unqualified_primary_source_proof": false,
+      "app_publication_approved": false,
+      "review_action": "Do not publish before source-scope annotation and original/edition verification"
+    },
+    {
+      "relation_id": "V324-R11",
+      "relation_type": "TREATY_RATIFICATION_PROCEDURE",
+      "evidence_band": "C_HISTORIAN_SECONDARY",
+      "editorial_priority": "P1",
+      "linked_issue_id": null,
+      "source_ids": [
+        "SRC-WESTPHALIA-LEXICON"
+      ],
+      "claim_scope": "1648 서명–1649 비준서 교환 구분은 역사가의 2차 연구, 외교 원본문서 감정은 아님",
+      "historical_confidence_not_numeric": true,
+      "verified_original_print_pair": false,
+      "allowed_in_draft_reader_navigation": true,
+      "allowed_as_unqualified_primary_source_proof": false,
+      "app_publication_approved": false,
+      "review_action": "Keep source caveat and corroborate direct original where possible"
+    },
+    {
+      "relation_id": "V324-R12",
+      "relation_type": "PRINT_PRIVILEGE_REPRODUCED_IN_LATER_EDITION",
+      "evidence_band": "A_SCANNED_REPRINT_EXACT_SCOPE",
+      "editorial_priority": "P0",
+      "linked_issue_id": "V324-ISS06",
+      "source_ids": [
+        "SRC-PRIVILEGE-WIKISOURCE"
+      ],
+      "claim_scope": "실제 본 1649 인쇄면 안의 1648-03-03 인쇄특허 날짜만 직접 스캔 근거; 특허 원본 검증은 아님",
+      "historical_confidence_not_numeric": true,
+      "verified_original_print_pair": false,
+      "allowed_in_draft_reader_navigation": true,
+      "allowed_as_unqualified_primary_source_proof": false,
+      "app_publication_approved": false,
+      "review_action": "Do not publish before source-scope annotation and original/edition verification"
+    }
+  ],
+  "priority_queue": [
+    {
+      "issue_id": "V324-ISS01",
+      "topic": "1784-versus-1785-American-Methodist-adoption",
+      "impact": 3,
+      "evidence_gap": 3,
+      "reader_exposure": 3,
+      "triage_score": 12,
+      "priority": "P0",
+      "reason": "1784 조직·규칙 채택과 1785 규정집 인쇄·후대 용어사전 승인 문구가 앱에서 같은 사건으로 노출될 위험",
+      "original_status": "SOURCE_DESCRIPTIONS_DIVERGE",
+      "verification_required": "Collate minutes or edition of 1784 Christmas Conference and 1785 Discipline; keep 1785 inherited V323 event source-qualified.",
+      "metric_disclaimer": "Editorial work-order score only (2*impact+gap+reader exposure); not scientific probability, confidence, or historic factual accuracy",
+      "inherited_source_ids": [
+        "SRC-UMC-GLOSSARY",
+        "SRC-UMC-DOCTRINE",
+        "SRC-UMC-FOUNDATIONS"
+      ],
+      "expert_reviewed": false
+    },
+    {
+      "issue_id": "V324-ISS02",
+      "topic": "Augsburg-Confutation-primary-witness",
+      "impact": 3,
+      "evidence_gap": 3,
+      "reader_exposure": 2,
+      "triage_score": 11,
+      "priority": "P0",
+      "reason": "아우크스부르크 신앙고백–반박–변증 문헌 방향을 원본으로 고정할 필요",
+      "original_status": "NOT_COLLATED",
+      "verification_required": "Compare archival prints/manuscripts with historical published translation and 1531 Apology",
+      "metric_disclaimer": "Editorial work-order score only (2*impact+gap+reader exposure); not scientific probability, confidence, or historic factual accuracy",
+      "inherited_source_ids": [
+        "SRC-CONFUTATION",
+        "SRC-APOLOGY-HISTORY"
+      ],
+      "expert_reviewed": false
+    },
+    {
+      "issue_id": "V324-ISS06",
+      "topic": "1648-1649-physical-print-variants",
+      "impact": 3,
+      "evidence_gap": 3,
+      "reader_exposure": 2,
+      "triage_score": 11,
+      "priority": "P0",
+      "reason": "IPM 1648·1649 실물 판본 이문 미확인 상태에서 직접 대조 완료로 표시할 위험",
+      "original_status": "NOT_COLLATED",
+      "verification_required": "Acquire and compare 1648 and 1649 same-treaty actual scan pages",
+      "metric_disclaimer": "Editorial work-order score only (2*impact+gap+reader exposure); not scientific probability, confidence, or historic factual accuracy",
+      "inherited_source_ids": [
+        "SRC-PRIVILEGE-WIKISOURCE"
+      ],
+      "expert_reviewed": false
+    },
+    {
+      "issue_id": "V324-ISS03",
+      "topic": "Wycliffe-Hus-direct-textual-borrowing",
+      "impact": 2,
+      "evidence_gap": 3,
+      "reader_exposure": 2,
+      "triage_score": 9,
+      "priority": "P1",
+      "reason": "위클리프–후스 영향 관계를 직접 문장 차용으로 확장할 위험",
+      "original_status": "NOT_COLLATED",
+      "verification_required": "Compare dated De Ecclesia passages or verified Latin scholarly editions",
+      "metric_disclaimer": "Editorial work-order score only (2*impact+gap+reader exposure); not scientific probability, confidence, or historic factual accuracy",
+      "inherited_source_ids": [
+        "SRC-HUS-BRIT"
+      ],
+      "expert_reviewed": false
+    },
+    {
+      "issue_id": "V324-ISS04",
+      "topic": "Trent-Roman-Catechism-document-status",
+      "impact": 2,
+      "evidence_gap": 3,
+      "reader_exposure": 2,
+      "triage_score": 9,
+      "priority": "P1",
+      "reason": "트리엔트 공의회 후속 교리서의 발의·편집·출판 단계를 하나의 공의회 교령으로 축약할 위험",
+      "original_status": "NOT_COLLATED",
+      "verification_required": "Verify initiating decree, 1566 imprint and editorial mediation",
+      "metric_disclaimer": "Editorial work-order score only (2*impact+gap+reader exposure); not scientific probability, confidence, or historic factual accuracy",
+      "inherited_source_ids": [
+        "SRC-CATECHISM-VATICAN",
+        "SRC-CATECHISM-HISTORY"
+      ],
+      "expert_reviewed": false
+    },
+    {
+      "issue_id": "V324-ISS05",
+      "topic": "Luther-Calvin-structural-influence",
+      "impact": 2,
+      "evidence_gap": 3,
+      "reader_exposure": 2,
+      "triage_score": 9,
+      "priority": "P1",
+      "reason": "루터·칼뱅 문헌 구조적 유사성과 실제 전거를 혼동할 위험",
+      "original_status": "ACADEMIC_EDITORIAL_ONLY",
+      "verification_required": "Compare 1529 German catechism and 1536 Latin Institutes parallel thematic sections",
+      "metric_disclaimer": "Editorial work-order score only (2*impact+gap+reader exposure); not scientific probability, confidence, or historic factual accuracy",
+      "inherited_source_ids": [
+        "SRC-CALVIN-BRIDWELL"
+      ],
+      "expert_reviewed": false
+    }
+  ],
+  "methodist_source_records": [
+    {
+      "id": "V325-UMC-HISTORY",
+      "url": "https://www.umc.org/en/content/doctrinal-standards-in-american-methodism",
+      "tier": "DENOMINATIONAL_OFFICIAL_HISTORY",
+      "finding": "December 1784 Christmas Conference adopted slightly modified General Rules; action date of organized church",
+      "original_print_page_inspected": false
+    },
+    {
+      "id": "V325-UMC-FOUNDATIONAL",
+      "url": "https://www.umc.org/en/content/foundational-documents",
+      "tier": "DENOMINATIONAL_OFFICIAL_OVERVIEW",
+      "finding": "General Rules adopted continuing guidelines within MEC when organized in 1784",
+      "original_print_page_inspected": false
+    },
+    {
+      "id": "V325-UMC-GLOSSARY",
+      "url": "https://www.umc.org/en/content/glossary-general-rules-the",
+      "tier": "DENOMINATIONAL_LATER_GLOSSARY",
+      "finding": "1991-dictionary-derived page gives 1738 rule making, 1743 pamphlet, 1785 approved by American Methodist church",
+      "original_print_page_inspected": false
+    },
+    {
+      "id": "V325-VANDERBILT-EXHIBITION",
+      "url": "https://exhibitions.library.vanderbilt.edu/forging-a-nation/item/methodist-episcopal-church/",
+      "tier": "ACADEMIC_LIBRARY_EXHIBITION",
+      "finding": "1784 conference established church; first A Form of Discipline published 1785, displayed holding is 1788 edition",
+      "original_print_page_inspected": false
+    },
+    {
+      "id": "V325-WORLDCAT-CIST",
+      "url": "https://search.worldcat.org/ko/title/62832611",
+      "tier": "LIBRARY_BIBLIOGRAPHIC_CATALOGUE",
+      "finding": "1785 Philadelphia Charles Cist printed volume, title describes Baltimore meeting 27 December 1784; 35,[1] pages; catalogue only",
+      "original_print_page_inspected": false
+    },
+    {
+      "id": "V325-UMC-ASK-DISCIPLINE",
+      "url": "https://www.umc.org/en/content/ask-the-umc-when-was-the-first-book-of-discipline-created",
+      "tier": "DENOMINATIONAL_HISTORICAL_EXPLAINER",
+      "finding": "Calls first Discipline adopted in 1784 and refers to 1784 edition; publishing year must be separately proven by imprint",
+      "original_print_page_inspected": false
+    }
+  ],
+  "methodist_stage_records": [
+    {
+      "id": "V325-M01",
+      "date": "1738",
+      "date_precision": "YEAR",
+      "event_role": "RULES_FORMULATION_IN_LATER_DENOMINATIONAL_ACCOUNT",
+      "source_ids": [
+        "V325-UMC-GLOSSARY"
+      ],
+      "public_copy_allowed": "역사적 형성 단계(후대 교단 해설 기준)",
+      "direct_contemporary_witness": false
+    },
+    {
+      "id": "V325-M02",
+      "date": "1743",
+      "date_precision": "YEAR",
+      "event_role": "ORIGINAL_GENERAL_RULES_PAMPHLET_PUBLICATION",
+      "source_ids": [
+        "V325-UMC-GLOSSARY"
+      ],
+      "public_copy_allowed": "웨슬리 일반 규칙 소책자 출판 연도(후대 교단 해설 기준)",
+      "direct_contemporary_witness": false
+    },
+    {
+      "id": "V325-M03",
+      "date": "1784-12",
+      "date_precision": "MONTH",
+      "event_role": "CHRISTMAS_CONFERENCE_ADOPTION_ORGANIZATION",
+      "source_ids": [
+        "V325-UMC-HISTORY",
+        "V325-UMC-FOUNDATIONAL",
+        "V325-UMC-ASK-DISCIPLINE"
+      ],
+      "public_copy_allowed": "미국 감리교회 조직 및 수정된 일반 규칙 채택(1784년 12월)",
+      "direct_contemporary_witness": false
+    },
+    {
+      "id": "V325-M04",
+      "date": "1785",
+      "date_precision": "YEAR",
+      "event_role": "FIRST_AMERICAN_DISCIPLINE_PRINT_IMPRINT_YEAR",
+      "source_ids": [
+        "V325-VANDERBILT-EXHIBITION",
+        "V325-WORLDCAT-CIST"
+      ],
+      "public_copy_allowed": "미국 감리교회 초기 규정집 1785년 인쇄·출판(도서관 서지 기준)",
+      "direct_contemporary_witness": false
+    },
+    {
+      "id": "V325-M05",
+      "date": "1785",
+      "date_precision": "YEAR",
+      "event_role": "LATER_GLOSSARY_APPROVAL_TERM_UNRESOLVED",
+      "source_ids": [
+        "V325-UMC-GLOSSARY"
+      ],
+      "public_copy_allowed": null,
+      "direct_contemporary_witness": false,
+      "hold_reason": "1785 'approval' from later glossary not shown to be distinct from 1784 conference adoption by direct minutes/discipline text"
+    }
+  ],
+  "readings": [
+    {
+      "id": "V325-READ01",
+      "title": "1784년 채택과 1785년 인쇄: 같은 규칙의 두 시간",
+      "overview_ids": [
+        "OV-D-017",
+        "OV-E-027"
+      ],
+      "sections": [
+        {
+          "heading": "웨슬리의 규칙은 먼저 공동체를 위한 것이었다",
+          "body": "일반 규칙의 형성 연도를 1738년으로 보는 것은 감리교회가 보존하는 후대 역사 해설에 근거한다. 1743년에는 규칙을 담은 소책자가 출판되었다. 규칙이 만들어져 실제 공동체에서 사용되기 시작한 과정과 책으로 인쇄되어 배포되는 과정은 같은 종류의 역사 사건이 아니다. ATLAS에서는 두 해를 한 개의 '창립일'로 합치지 않는다."
+        },
+        {
+          "heading": "1784년 크리스마스 연회의 채택과 1785년 필라델피아 인쇄",
+          "body": "연합감리교회의 역사 설명은 1784년 12월 볼티모어의 크리스마스 연회에서 수정된 일반 규칙을 채택했다고 기록한다. 반면 밴더빌트 대학 도서관 전시는 초기 미국 감리교회 규정집이 1785년에 처음 간행되었다고 설명한다. 월드캣 서지는 1785년 필라델피아 찰스 시스트 인쇄의 책을 특정하면서 제목이 1784년 연회를 회고한다고 기록한다. 한 권의 책에 1784년 회의가 적혀 있어도 그 자체의 인쇄 연도는 1785년일 수 있다."
+        },
+        {
+          "heading": "승인 1785년이라는 표현은 별도 주석에 남긴다",
+          "body": "연합감리교회 용어사전은 미국 감리교회의 일반 규칙 승인을 1785년으로 적는다. 이것이 1784년 회의에서의 채택과 별도의 1785년 승인 결정을 뜻하는지, 인쇄·발행을 넓게 표현한 것인지는 당대 회의 결정문과 1785년 규정집 해당 조항의 직접 대조를 통해 확인해야 한다. 현재 공개 가능한 요약은 '1784년 채택, 1785년 출판 서지 확인'이며, 1785년이 최초이자 유일한 승인이라는 주장은 보류한다."
+        }
+      ]
+    },
+    {
+      "id": "V325-READ02",
+      "title": "연결 화살표에도 근거 등급이 필요한 이유",
+      "overview_ids": [
+        "OV-D-011",
+        "OV-D-012",
+        "OV-D-015"
+      ],
+      "sections": [
+        {
+          "heading": "직접 인쇄면과 뒤늦은 해설이 증명하는 내용은 다르다",
+          "body": "V3.24 관계 가운데 1649년 뮌스터 조약 인쇄본에 1648년 3월의 인쇄특허가 재수록되었다는 진술은 과거 직접 살펴본 특정 인쇄면에 한정된다. 반면 위클리프가 후스에게 끼친 영향이나 루터 소교리문답과 칼뱅 강요의 구조적 연관은 역사학자와 학술 도서관이 편집한 설명에 근거한다. 한쪽의 구체적인 판독 사실을 다른 쪽의 해석적 주장과 같은 종류의 증거처럼 취급하지 않아야 한다."
+        },
+        {
+          "heading": "서지로 확인된 판본 연혁은 본문 이문 검증이 아니다",
+          "body": "아우크스부르크 신앙고백의 1531년 인쇄와 1540년 Variata, 칼뱅 강요의 1536년과 1559년 저자판 사이에는 분명한 출판 계보가 있다. 하지만 특정 문장을 1531년판과 1540년판의 실제 사진에서 나란히 읽은 작업과 후대 도서관 서지에서 판본의 존재를 확인한 작업은 같지 않다. ATLAS는 '개정된 판본'의 존재를 설명하면서 문장 단위 변형의 내용은 대조 완료 이전에 단정하지 않는다."
+        },
+        {
+          "heading": "검토 우선순위는 역사적 확신도 수치가 아니다",
+          "body": "독자가 역사적 숫자와 날짜를 잘못 이해할 위험, 아직 원사료를 확보하지 못한 정도, 웹앱 화면에서 노출될 가능성에 따라 검증 순서를 정할 수 있다. 그러나 이러한 운영용 우선순위 점수를 곧바로 사건이 사실일 확률이나 연구자의 학술적 확신도로 제시하는 것은 부적절하다. V3.25는 중요도와 위험을 관리하기 위한 편집 순서를 명시할 뿐 전문가 역사 감수나 원전 직접 검증을 대신하지 않는다."
+        }
+      ]
+    }
+  ],
+  "open_issues": [
+    "Need contemporary 1784 conference minutes or earliest extant conference account; no signed manuscript inspected",
+    "Need visually read the 1785 Charles Cist imprint and the precise General Rules inclusion/wording; WorldCat is catalogue only",
+    "1980s/1991 glossary acceptance wording may compress 1784 adoption and 1785 print: do not assert unique 1785 approval",
+    "Remaining five inherited V3.24 research gaps require targeted primary source readings"
+  ],
+  "reader_display_policy": {
+    "approved_for_public_app": false,
+    "allowed_in_draft_research": true,
+    "methodist": "1784년 12월 규칙 채택·교회 조직(교단 공식 해설), 1785년 초기 규정집 출판(도서관 서지)",
+    "prohibited_sentence": "감리교 일반 규칙은 1785년에 미국에서 처음 채택되었다.",
+    "avoid_new_date_day": "1785 printing year has YEAR precision; don't invent month/day"
+  },
+  "metrics": {
+    "relations_assessed": 12,
+    "high_urgency_issues": 3,
+    "medium_urgency_issues": 3,
+    "low_urgency_issues": 0,
+    "methodist_sources": 6,
+    "methodist_stages": 5,
+    "readings": 2,
+    "sections": 6,
+    "new_original_print_pages_visually_inspected": 0,
+    "physical_page_collations": 0
+  }
+}
