@@ -45,7 +45,7 @@ test('IPO and IPM primary instruments and 1648 licensed prints not confused with
 test('six source cards and all six medium sections preserve evidentiary boundaries',()=>{
  assert.deepEqual([auth314.sources.length,auth314.claims.length,auth314.studies.length],[6,6,2]);
  assert.equal(auth314.studies.reduce((n,r)=>n+r.sections.length,0),6);
- assert.equal(auth314.studies.reduce((n,r)=>n+r.sections.reduce((p,c)=>p+c.body.length,0),2017);
+ assert.equal(auth314.studies.reduce((n,r)=>n+r.sections.reduce((p,c)=>p+c.body.length,0),0),2017);
  assert.ok(auth314.claims.every(c=>!c.original_page_collated&&!c.historian_approved));
 });
 test('invented archive inspections, false validations and invalid references fail closed',()=>{
