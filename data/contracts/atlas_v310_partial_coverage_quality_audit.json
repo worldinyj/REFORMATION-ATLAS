@@ -1,0 +1,634 @@
+{
+  "version": "3.10",
+  "status": "DRAFT",
+  "depth": "MEDIUM",
+  "scope": "V3.09 513-reader scope audit of 18 PARTIAL_COVERAGE + 1 BACKGROUND_ONLY. Six source-reading dossiers and explicit overview-only navigation patches. Not comprehensive historical expert review.",
+  "audit_date": "2026-11-06",
+  "publication_gate": {
+    "published": false,
+    "main_changed": false,
+    "webapp_integrated": false,
+    "expert_approved": false
+  },
+  "preservation_policy": "V3.09의 513개 독서 본문·723개 출처 레코드·22개 기존 selected claim, 출처 확인 상태, 원문 링크 교정은 그대로 유지한다. 새 데이터는 개요 읽기 연결 및 후속 연구 참고 문서로만 사용.",
+  "basis": {
+    "prior_total_readers": 513,
+    "prior_sources": 723,
+    "prior_overview_records": 97,
+    "prior_direct": 78,
+    "prior_partial": 18,
+    "prior_background": 1,
+    "prior_missing": 0
+  },
+  "coverage_audit": [
+    {
+      "overview_id": "OV-D-014",
+      "title": "트리엔트 공의회 교령",
+      "previous_status": "PARTIAL_COVERAGE",
+      "current_primary_reader_ids": [
+        "MEDIUM-TRENT"
+      ],
+      "source_confidence": "EDITORIAL_SCOPE_ONLY",
+      "priority": "A1",
+      "diagnosis": "트리엔트 1547년 칭의 교령과 1563년 신학교 관련 개혁령은 별도 회기 문서다.",
+      "remaining_limit": "개관 본문은 교령 전체·라틴 원문 차이·판본별 전수 주석이 아니다.",
+      "followup": "제6회기 교리와 제23회기 개혁령을 별도로 표기",
+      "expert_reviewed": false,
+      "original_witness_collated": false
+    },
+    {
+      "overview_id": "OV-D-015",
+      "title": "베스트팔렌 평화 조약문",
+      "previous_status": "PARTIAL_COVERAGE",
+      "current_primary_reader_ids": [
+        "THEME-WAR_WESTPHALIA"
+      ],
+      "source_confidence": "EDITORIAL_SCOPE_ONLY",
+      "priority": "A1",
+      "diagnosis": "오스나브뤼크 조약의 종교 관련 일부 조항과 뮌스터 조약 발췌를 찾았다.",
+      "remaining_limit": "두 조약문 전체와 각 조항의 실제 집행 결과는 독립 검토가 필요하다.",
+      "followup": "오스나브뤼크 제5·7조와 뮌스터 조약 본문 혼동 방지",
+      "expert_reviewed": false,
+      "original_witness_collated": false
+    },
+    {
+      "overview_id": "OV-D-017",
+      "title": "웨슬리의 설교 및 공동체 규칙",
+      "previous_status": "PARTIAL_COVERAGE",
+      "current_primary_reader_ids": [
+        "DOCUMENT-METHODIST_GENERAL_RULES1743"
+      ],
+      "source_confidence": "EDITORIAL_SCOPE_ONLY",
+      "priority": "A1",
+      "diagnosis": "1743년 감리교 일반 규칙의 출판정보가 있으며, 웨슬리 표준 설교 자료는 별도 문헌군이다.",
+      "remaining_limit": "공동체 규칙 한 편으로 설교집 전체를 대체할 수 없다.",
+      "followup": "규칙 1743년 간행과 설교집의 판본·표준목록 독립 확인",
+      "expert_reviewed": false,
+      "original_witness_collated": false
+    },
+    {
+      "overview_id": "OV-D-019",
+      "title": "세계교회협의회 첫 총회 기록",
+      "previous_status": "PARTIAL_COVERAGE",
+      "current_primary_reader_ids": [
+        "DOCUMENT-WCC_AMSTERDAM_RECORD1948"
+      ],
+      "source_confidence": "EDITORIAL_SCOPE_ONLY",
+      "priority": "A1",
+      "diagnosis": "1948년 WCC 창립과 1961년 신앙 기반 개정에 관한 기관 역사 페이지가 확인된다.",
+      "remaining_limit": "1948년 첫 총회 보고서·표결록 전권은 아직 직접 판독하지 않았다.",
+      "followup": "총회 당시 문서와 오늘의 기관 역사 해설 구분",
+      "expert_reviewed": false,
+      "original_witness_collated": false
+    },
+    {
+      "overview_id": "OV-D-020",
+      "title": "성경번역·교회권위·성찬론 비교 문헌군",
+      "previous_status": "PARTIAL_COVERAGE",
+      "current_primary_reader_ids": [
+        "THEME-SCRIPTURE_AUTHORITY",
+        "THEME-COMMUNION",
+        "THEME-PRINT_TRANSLATION"
+      ],
+      "source_confidence": "EDITORIAL_SCOPE_ONLY",
+      "priority": "A2",
+      "diagnosis": "성경 번역·교회권위·성찬론의 16세기 해설을 찾을 수 있다.",
+      "remaining_limit": "한국어 번역을 포함한 시대 횡단 문헌 색인은 선택 원문 링크와 완성도가 다르다.",
+      "followup": "한글 번역 판본 해설로 관련 읽기 경로를 확장",
+      "expert_reviewed": false,
+      "original_witness_collated": false
+    },
+    {
+      "overview_id": "OV-E-001",
+      "title": "초기 공동체·서신 전통의 확산",
+      "previous_status": "PARTIAL_COVERAGE",
+      "current_primary_reader_ids": [
+        "EVENT-EARLY_CHURCH_LETTERS"
+      ],
+      "source_confidence": "EDITORIAL_SCOPE_ONLY",
+      "priority": "A2",
+      "diagnosis": "2세기 전후 대표 사도교부 서신과 공동체 실천의 장르를 구별한다.",
+      "remaining_limit": "필사본 전승·수신 지역·작성자 귀속·공동체 실생활 사이의 범위 차이가 남는다.",
+      "followup": "대표 문헌을 각 지역 교회 전체의 통일 규정이라고 읽지 않기",
+      "expert_reviewed": false,
+      "original_witness_collated": false
+    },
+    {
+      "overview_id": "OV-E-017",
+      "title": "슐라이트하임 신앙고백",
+      "previous_status": "PARTIAL_COVERAGE",
+      "current_primary_reader_ids": [
+        "DOCUMENT-SCHLEITHEIM"
+      ],
+      "source_confidence": "EDITORIAL_SCOPE_ONLY",
+      "priority": "A1",
+      "diagnosis": "1527년 슐라이트하임 문서의 7개 항목은 독일사 사료 번역에서 확인 가능하다.",
+      "remaining_limit": "합의 문서의 조항과 회의 전 과정·실제 개별 공동체 운영은 서로 다르다.",
+      "followup": "영문 학술 번역과 당시 독일어 전승을 구분하여 교감하기",
+      "expert_reviewed": false,
+      "original_witness_collated": false
+    },
+    {
+      "overview_id": "OV-E-024",
+      "title": "베스트팔렌 조약",
+      "previous_status": "PARTIAL_COVERAGE",
+      "current_primary_reader_ids": [
+        "THEME-WAR_WESTPHALIA"
+      ],
+      "source_confidence": "EDITORIAL_SCOPE_ONLY",
+      "priority": "A1",
+      "diagnosis": "1648년 평화는 뮌스터와 오스나브뤼크 조약의 복수 문서이며 종교·영토 규칙이 다르다.",
+      "remaining_limit": "조약 발췌와 전쟁 당사자 전부의 장기간 정치·사회사 사이에 공백이 남는다.",
+      "followup": "1624년 기준연도·개혁교회 권리와 조약문 위치 대조",
+      "expert_reviewed": false,
+      "original_witness_collated": false
+    },
+    {
+      "overview_id": "OV-E-027",
+      "title": "감리교 운동의 성장",
+      "previous_status": "PARTIAL_COVERAGE",
+      "current_primary_reader_ids": [
+        "EVENT-METHODIST_SOCIETIES1739"
+      ],
+      "source_confidence": "EDITORIAL_SCOPE_ONLY",
+      "priority": "A2",
+      "diagnosis": "초기 감리교 신앙회, 회원 규율과 대표 설교자에 관한 원고가 있다.",
+      "remaining_limit": "18세기 이후 감리교 교단 성장·해외 확산을 모두 다룬 것은 아니다.",
+      "followup": "신앙회 조직·설교·후대 교단 설립을 각각 연표화",
+      "expert_reviewed": false,
+      "original_witness_collated": false
+    },
+    {
+      "overview_id": "TOP-01",
+      "title": "성경의 권위",
+      "previous_status": "PARTIAL_COVERAGE",
+      "current_primary_reader_ids": [
+        "THEME-SCRIPTURE_AUTHORITY"
+      ],
+      "source_confidence": "EDITORIAL_SCOPE_ONLY",
+      "priority": "A2",
+      "diagnosis": "16세기의 성경·교회 권위 논쟁 및 번역을 연결한다.",
+      "remaining_limit": "중세·고대·근대까지 동등한 깊이로 다룬 주제사는 아니다.",
+      "followup": "정경·번역·해석 권위의 시대별 차이를 독립 비교",
+      "expert_reviewed": false,
+      "original_witness_collated": false
+    },
+    {
+      "overview_id": "TOP-02",
+      "title": "교회론",
+      "previous_status": "PARTIAL_COVERAGE",
+      "current_primary_reader_ids": [
+        "MEDIUM-WYCLIFFE",
+        "MEDIUM-HUS",
+        "DOCUMENT-HOOKER_LAWS"
+      ],
+      "source_confidence": "EDITORIAL_SCOPE_ONLY",
+      "priority": "A2",
+      "diagnosis": "위클리프·후스·후커의 제도·공동체론과 초기 이그나티우스 해설이 있다.",
+      "remaining_limit": "동서 교회론과 고대부터의 직분 변화 전체를 재구성한 것은 아니다.",
+      "followup": "고대 공동체 서신을 후대 교회 통치론에 단선 소급하지 않기",
+      "expert_reviewed": false,
+      "original_witness_collated": false
+    },
+    {
+      "overview_id": "TOP-03",
+      "title": "성찬론",
+      "previous_status": "PARTIAL_COVERAGE",
+      "current_primary_reader_ids": [
+        "THEME-COMMUNION",
+        "MEDIUM-MARBURG"
+      ],
+      "source_confidence": "EDITORIAL_SCOPE_ONLY",
+      "priority": "A2",
+      "diagnosis": "마르부르크 논쟁 등 16세기 성찬 해설이 작성되어 있다.",
+      "remaining_limit": "저자별 입장을 단일 '기념설'로 통합할 수 없고 전수 원문 대조는 미완료다.",
+      "followup": "논쟁 원문별 존재·임재·기념 용어 구별",
+      "expert_reviewed": false,
+      "original_witness_collated": false
+    },
+    {
+      "overview_id": "TOP-04",
+      "title": "은총·칭의",
+      "previous_status": "PARTIAL_COVERAGE",
+      "current_primary_reader_ids": [
+        "THEME-GRACE_FAITH_WORKS"
+      ],
+      "source_confidence": "EDITORIAL_SCOPE_ONLY",
+      "priority": "A1",
+      "diagnosis": "아우구스티누스·16세기 칭의 논의·트리엔트 교령을 연결할 수 있다.",
+      "remaining_limit": "시대별 은총·칭의 용어를 같은 명제로 간주하는 위험이 있다.",
+      "followup": "아우구스티누스와 1547년 칭의 교령의 논의 문맥 분리",
+      "expert_reviewed": false,
+      "original_witness_collated": false
+    },
+    {
+      "overview_id": "TOP-05",
+      "title": "교회 개혁과 권력",
+      "previous_status": "PARTIAL_COVERAGE",
+      "current_primary_reader_ids": [
+        "THEME-CITY_POWER",
+        "THEME-EDUCATION",
+        "THEME-CHURCH_DISCIPLINE"
+      ],
+      "source_confidence": "EDITORIAL_SCOPE_ONLY",
+      "priority": "A3",
+      "diagnosis": "도시·학교·규율 등 교회 개혁과 권력의 사례를 연결한다.",
+      "remaining_limit": "각 지역의 법과 실천·권력 관계를 전수 비교한 것은 아니다.",
+      "followup": "지역 제도의 선후·인과 주장에 근거 유형 표시",
+      "expert_reviewed": false,
+      "original_witness_collated": false
+    },
+    {
+      "overview_id": "TOP-06",
+      "title": "공의회와 신앙고백",
+      "previous_status": "PARTIAL_COVERAGE",
+      "current_primary_reader_ids": [
+        "MEDIUM-AUGSBURG",
+        "MEDIUM-TRENT",
+        "DOCUMENT-BOOK_CONCORD"
+      ],
+      "source_confidence": "EDITORIAL_SCOPE_ONLY",
+      "priority": "A1",
+      "diagnosis": "니케아 325년 문헌과 콘스탄티노폴리스 381년 신경에 관련된 별도 해설이 이미 있다.",
+      "remaining_limit": "16세기 신앙고백만 연결되어 고대의 원고가 기본 탐색에서 빠져 있다.",
+      "followup": "325년 본문과 381년 확장 형태 및 2022년 번역 판본 분리",
+      "expert_reviewed": false,
+      "original_witness_collated": false
+    },
+    {
+      "overview_id": "TOP-07",
+      "title": "성경 번역과 전파",
+      "previous_status": "PARTIAL_COVERAGE",
+      "current_primary_reader_ids": [
+        "THEME-PRINT_TRANSLATION",
+        "DOCUMENT-TYNDALE_NT",
+        "DOCUMENT-LUTHER_BIBLE1534"
+      ],
+      "source_confidence": "EDITORIAL_SCOPE_ONLY",
+      "priority": "A1",
+      "diagnosis": "16세기 유럽 번역·인쇄 해설과 1882·1885·1887년 한글 성경 해설이 있다.",
+      "remaining_limit": "한글 번역사 연결이 누락됐고 최초 책·신약 전체 간행 시점이 혼동되기 쉽다.",
+      "followup": "한글 성경 판본을 기본 읽기 경로에 연결",
+      "expert_reviewed": false,
+      "original_witness_collated": false
+    },
+    {
+      "overview_id": "TOP-08",
+      "title": "경건·부흥·선교",
+      "previous_status": "BACKGROUND_ONLY",
+      "current_primary_reader_ids": [],
+      "source_confidence": "EDITORIAL_SCOPE_ONLY",
+      "priority": "A1",
+      "diagnosis": "경건주의·감리교·대각성·윌리엄 캐리 등 독립 중간 원고가 이미 V3.05에 있다.",
+      "remaining_limit": "과거 개요 상태가 배경 전용으로 남아 있어 실질 준비된 원고를 찾기 어렵다.",
+      "followup": "세 분야의 대표 원고를 PRIMARY로 연결하되 전 세계 선교사 전체는 범위에서 제외",
+      "expert_reviewed": false,
+      "original_witness_collated": false
+    },
+    {
+      "overview_id": "TOP-09",
+      "title": "동서 교회의 차이",
+      "previous_status": "PARTIAL_COVERAGE",
+      "current_primary_reader_ids": [
+        "THEME-EAST_WEST_CHURCH_DIFFERENCES"
+      ],
+      "source_confidence": "EDITORIAL_SCOPE_ONLY",
+      "priority": "A2",
+      "diagnosis": "1054년 전후 사건과 동서 교회의 차이를 설명한 별도 중간 해설이 있다.",
+      "remaining_limit": "교리·전례·지역별 다양성을 포괄한 독립 비교 전수본은 아니다.",
+      "followup": "381년 신경과 후대 필리오케 문구·정치 관계 분리",
+      "expert_reviewed": false,
+      "original_witness_collated": false
+    },
+    {
+      "overview_id": "TOP-10",
+      "title": "한국 교회사 서술의 관점",
+      "previous_status": "PARTIAL_COVERAGE",
+      "current_primary_reader_ids": [
+        "THEME-KOREAN_CHURCH_HISTORIOGRAPHY"
+      ],
+      "source_confidence": "EDITORIAL_SCOPE_ONLY",
+      "priority": "A2",
+      "diagnosis": "1784년 조선 천주교·1880년대 번역 및 선교사 입국 전후를 병치한다.",
+      "remaining_limit": "한국 교회사 전체 시대·교파·지역을 포괄한 역사서가 아니다.",
+      "followup": "한국인 주도 활동·외국인 선교·원문 판본을 별도 읽기 경로로 연결",
+      "expert_reviewed": false,
+      "original_witness_collated": false
+    }
+  ],
+  "navigation_patches": [
+    {
+      "id": "TOP-08",
+      "new_status": "PARTIAL_COVERAGE",
+      "scope": "1675년 독일 경건주의, 영미 대각성, 1792년 근대 선교 조직에 관한 대표 원고를 기본 제공한다. 전 시대·지역·현지 공동체 전체의 부흥·선교사를 포괄하지는 않는다.",
+      "targets": [
+        {
+          "reader_id": "DOCUMENT-PIA_DESIDERIA1675",
+          "role": "PRIMARY",
+          "title": "『경건한 열망』 — 생활을 묻는 개혁 제안"
+        },
+        {
+          "reader_id": "EVENT-ATLANTIC_AWAKENING1730",
+          "role": "PRIMARY",
+          "title": "영미 대각성 — 이동하는 설교와 갈라진 교회"
+        },
+        {
+          "reader_id": "DOCUMENT-CAREY_ENQUIRY1792",
+          "role": "PRIMARY",
+          "title": "캐리의 『탐구』 — 기도와 실행 수단"
+        }
+      ],
+      "previous_status": "BACKGROUND_ONLY",
+      "overview_title": "경건·부흥·선교"
+    },
+    {
+      "id": "TOP-06",
+      "scope": "16세기 고백서·공의회 사례와 325년 니케아 신경, 381년 콘스탄티노폴리스 후속 해설을 연결한다. 전 공의회의 의사록·판본 전체를 대조하지는 않는다.",
+      "targets": [
+        {
+          "reader_id": "DOCUMENT-NICENE_CREED325",
+          "role": "PRIMARY",
+          "title": "325년 니케아 신앙고백 — 이름과 본문"
+        },
+        {
+          "reader_id": "EVENT-CONSTANTINOPLE381",
+          "role": "FOLLOWUP",
+          "title": "381년 공의회 — 니케아 신앙의 재확인"
+        }
+      ],
+      "previous_status": "PARTIAL_COVERAGE",
+      "overview_title": "공의회와 신앙고백"
+    },
+    {
+      "id": "TOP-07",
+      "scope": "유럽의 16세기 성경 번역·인쇄와 1882~1887년 한글 초기 성서 판본의 사례를 기본 읽기로 연결한다. 전 시대의 언어별 번역사를 포괄하지는 않는다.",
+      "targets": [
+        {
+          "reader_id": "DOCUMENT-KOREAN_EARLY_BIBLES",
+          "role": "PRIMARY",
+          "title": "초기 한글 성경 판본 — 1882·1885·1887년의 서로 다른 책"
+        }
+      ],
+      "previous_status": "PARTIAL_COVERAGE",
+      "overview_title": "성경 번역과 전파"
+    },
+    {
+      "id": "TOP-04",
+      "scope": "16세기 은총·칭의 비교와 1547년 트리엔트 교령의 해설을 기본으로 제공하고 아우구스티누스의 생애·사상을 후속 읽기로 잇는다. 원문 명제의 시대별 동일성을 주장하지 않는다.",
+      "targets": [
+        {
+          "reader_id": "PERSON-AUGUSTINE_HIPPO",
+          "role": "FOLLOWUP",
+          "title": "아우구스티누스 — 회심과 은총"
+        }
+      ],
+      "previous_status": "PARTIAL_COVERAGE",
+      "overview_title": "은총·칭의"
+    },
+    {
+      "id": "TOP-02",
+      "scope": "중세 후스·위클리프, 후커 교회 통치 논의에 더해 초기 이그나티우스의 공동체·직분 이해를 후속으로 읽는다. 고대에서 근대까지의 전체 교회론은 아니다.",
+      "targets": [
+        {
+          "reader_id": "PERSON-IGNATIUS_ANTIOCH",
+          "role": "FOLLOWUP",
+          "title": "안디옥의 이그나티우스 — 편지로 요청한 일치"
+        }
+      ],
+      "previous_status": "PARTIAL_COVERAGE",
+      "overview_title": "교회론"
+    },
+    {
+      "id": "OV-D-020",
+      "scope": "성경 번역·교회 권위·성찬론 비교 해설에 초기 한글 성서의 판본 읽기를 후속으로 연결한다. 전체 원문 문헌군의 전수 대조는 아니다.",
+      "targets": [
+        {
+          "reader_id": "DOCUMENT-KOREAN_EARLY_BIBLES",
+          "role": "FOLLOWUP",
+          "title": "초기 한글 성경 판본 — 1882·1885·1887년의 서로 다른 책"
+        }
+      ],
+      "previous_status": "PARTIAL_COVERAGE",
+      "overview_title": "성경번역·교회권위·성찬론 비교 문헌군"
+    },
+    {
+      "id": "OV-D-017",
+      "scope": "1743년 감리교 일반 규칙이 주요 문헌이고 존 웨슬리 인물 원고를 후속 제공한다. 표준 설교집 전체의 독립 본문 해설은 아직 미완료다.",
+      "targets": [
+        {
+          "reader_id": "PERSON-JOHN_WESLEY",
+          "role": "FOLLOWUP",
+          "title": "존 웨슬리 — 확신과 지속적인 공동생활"
+        }
+      ],
+      "previous_status": "PARTIAL_COVERAGE",
+      "overview_title": "웨슬리의 설교 및 공동체 규칙"
+    },
+    {
+      "id": "OV-E-027",
+      "scope": "초기 감리교 신앙회 구조를 핵심으로 읽고 찰스 웨슬리의 찬송 활동을 후속 연결한다. 18세기 이후 교단 조직과 해외 성장 전체는 다루지 않는다.",
+      "targets": [
+        {
+          "reader_id": "PERSON-CHARLES_WESLEY",
+          "role": "FOLLOWUP",
+          "title": "찰스 웨슬리 — 함께 부르는 신앙의 언어"
+        }
+      ],
+      "previous_status": "PARTIAL_COVERAGE",
+      "overview_title": "감리교 운동의 성장"
+    },
+    {
+      "id": "TOP-09",
+      "scope": "동서 교회 차이의 대표 쟁점에 더하여 1054년 사건과 장기 분리의 역사를 후속 읽기로 제공한다. 전 시대의 예전·교리 실무 전수 비교는 아니다.",
+      "targets": [
+        {
+          "reader_id": "EVENT-EAST_WEST_SCHISM1054",
+          "role": "FOLLOWUP",
+          "title": "1054년과 동서 분열 — 한 날짜보다 긴 과정"
+        }
+      ],
+      "previous_status": "PARTIAL_COVERAGE",
+      "overview_title": "동서 교회의 차이"
+    },
+    {
+      "id": "TOP-10",
+      "scope": "한국인 중심의 서학 수용, 이승훈의 귀국, 초기 한글 성경 판본을 연결해 한국 교회사 서술의 관점을 예시한다. 모든 교파·시기의 역사서를 대신하지 않는다.",
+      "targets": [
+        {
+          "reader_id": "PERSON-YI_SEUNG_HUN",
+          "role": "FOLLOWUP",
+          "title": "이승훈 — 북경의 세례에서 조선 신앙 공동체로"
+        },
+        {
+          "reader_id": "DOCUMENT-KOREAN_EARLY_BIBLES",
+          "role": "FOLLOWUP",
+          "title": "초기 한글 성경 판본 — 1882·1885·1887년의 서로 다른 책"
+        }
+      ],
+      "previous_status": "PARTIAL_COVERAGE",
+      "overview_title": "한국 교회사 서술의 관점"
+    }
+  ],
+  "source_reading_dossiers": [
+    {
+      "id": "SCHLEITHEIM_1527",
+      "title": "슐라이트하임 1527년 — 7개 조항과 문서의 범위",
+      "overview_ids": [
+        "OV-E-017"
+      ],
+      "reader_ids": [
+        "DOCUMENT-SCHLEITHEIM"
+      ],
+      "evidence_level": "ACADEMIC_TRANSLATED_PRIMARY_EXCERPT",
+      "source_url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/ghdi:document-4315",
+      "locator": "Brotherly Union, Seven Articles headings I–VII",
+      "published_document_year": 1527,
+      "inspected_representation": "GHDI의 1976년 학술서에서 옮긴 영어 사료 번역 전사. 당대 독일어 자필·인쇄본 전체 이미지 직접 교감 아님",
+      "facts": [
+        "1527년 문서는 신자의 세례, 권징, 떡을 뗌, 분리, 목회자, 칼, 맹세 등 일곱 합의 항목을 제시한다.",
+        "서문과 조항의 형태가 남아 있으나 문서 전체가 회의의 모든 발언과 정치적 결과를 기록한 의사록은 아니다."
+      ],
+      "interpretation": "그 조항은 신앙고백을 추상적 신조뿐 아니라 공동체의 실천 규칙으로 제시한 것으로 읽을 수 있다. 다만 모든 재세례파 집단이 동일하게 수용했다는 주장은 구별해야 한다.",
+      "verification_boundary": "GHDI에 수록된 번역 텍스트의 표제·조항을 대조했다. 독일어 원판 교감, 회의 전 과정 재구성, 단어별 번역 비교는 하지 않았다.",
+      "question": "일곱 조항이라는 형식이 당시 공동체의 실천 문제를 어떻게 드러내는가?"
+    },
+    {
+      "id": "WESTPHALIA_1648",
+      "title": "1648년 베스트팔렌 — 조약 둘과 종교 조항",
+      "overview_ids": [
+        "OV-E-024",
+        "OV-D-015"
+      ],
+      "reader_ids": [
+        "THEME-WAR_WESTPHALIA"
+      ],
+      "evidence_level": "ACADEMIC_TRANSLATED_PRIMARY_EXCERPT",
+      "source_url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/peace-treaties-of-westphalia-october-14-24-1648",
+      "locator": "Introduction; Osnabrück treaty Article V §§2,34; Article VII §1; Münster excerpt",
+      "published_document_year": 1648,
+      "inspected_representation": "GHDI가 편집한 오스나브뤼크·뮌스터 조약의 영어 발췌 번역. 두 조약 전체의 1648년 원어 원본이 아님",
+      "facts": [
+        "베스트팔렌 평화는 1648년 오스나브뤼크와 뮌스터에서 체결된 별도 조약 두 개를 포함한다.",
+        "오스나브뤼크 조약의 종교 질서에는 1624년 기준연도와 개혁파(Reformed)를 포함하는 규정이 나타난다.",
+        "1648년 질서를 모든 개인에게 무제한의 현대적 종교 자유를 부여한 것으로 말하기는 어렵다."
+      ],
+      "interpretation": "조약을 단순한 관용 선언이 아닌 신성로마제국 내부의 법적·영토적 협상으로 설명해야 각 교파의 권리와 제한의 비대칭을 드러낼 수 있다.",
+      "verification_boundary": "조약 발췌의 해당 조항과 편집 해설만 대조했다. 뮌스터·오스나브뤼크 전 조항, 비준문서, 개별 지역 집행의 전수 확인은 수행하지 않았다.",
+      "question": "1624년 기준연도가 종교적 실천과 재산 권리를 다루는 데 필요한 이유는 무엇인가?"
+    },
+    {
+      "id": "TRENT_SESSIONS",
+      "title": "트리엔트 공의회 — 칭의와 신학교 규정의 서로 다른 회기",
+      "overview_ids": [
+        "OV-D-014",
+        "TOP-04"
+      ],
+      "reader_ids": [
+        "MEDIUM-TRENT"
+      ],
+      "evidence_level": "REPRINTED_PRIMARY_ENGLISH_TRANSLATION",
+      "source_url": "https://adfonteslibrary.org/work-council-trent-session-23",
+      "additional_source_url": "https://adfonteslibrary.org/work-council-trent-session-06",
+      "locator": "Session VI, 13 Jan 1547, Decree concerning Justification; Session XXIII, 15 Jul 1563, Reform Chapter XVIII on seminaries",
+      "published_document_year": 1563,
+      "inspected_representation": "Ad Fontes Library의 공의회 영어 번역 웹 전사. 16세기 라틴어 원인쇄본의 판본 교감 아님",
+      "facts": [
+        "1547년 제6회기는 칭의 교령을 포함한다.",
+        "1563년 제23회기에는 성직자 교육을 위한 신학교 설립 방법을 다룬 개혁령 제18장이 있다.",
+        "교리 교령과 제도 개혁 조항은 목적과 문서 위치가 다르다."
+      ],
+      "interpretation": "공의회의 가톨릭 개혁을 오직 신학적 반박으로만 보지 않고 교육·제도 조정과 함께 설명할 수 있지만, 그렇다고 교회 전체가 즉시 규정을 실행했다는 결론은 아니다.",
+      "verification_boundary": "영문 번역문과 장 제목·조문 위치만 확인. 제6회기 전체 라틴어 표현, 16세기 회기별 다른 판본과 각 교구 집행사는 확인하지 않았다.",
+      "question": "칭의 교령과 신학교 설립 조항을 다른 회기로 나누어 읽으면 무엇이 달라지는가?"
+    },
+    {
+      "id": "WESLEY_RULES_SERMONS",
+      "title": "웨슬리 — 1738년 초기 규칙과 1743년 간행, 설교집의 구분",
+      "overview_ids": [
+        "OV-D-017",
+        "OV-E-027",
+        "TOP-08"
+      ],
+      "reader_ids": [
+        "DOCUMENT-METHODIST_GENERAL_RULES1743",
+        "PERSON-JOHN_WESLEY"
+      ],
+      "evidence_level": "DENOMINATIONAL_HISTORICAL_GUIDE_PLUS_CATALOGUE",
+      "source_url": "https://www.umc.org/en/content/glossary-general-rules-the",
+      "additional_source_url": "https://wellcomecollection.org/works/dep8rpvw",
+      "locator": "UMC glossary General Rules; Wellcome Collection 1743 item publication metadata; UMC Foundational Documents Standard Sermons",
+      "published_document_year": 1743,
+      "inspected_representation": "감리교 교파의 현행 해설과 Wellcome Collection의 1743년 서지 메타데이터. 설교집과 규칙 원판 전면·모든 간행본 본문을 판독한 기록은 아님",
+      "facts": [
+        "감리교회 공식 해설에 따르면 웨슬리는 1738년 신앙회 운영 규칙을 마련했고 1743년 소책자로 간행했다.",
+        "웨슬리의 표준 설교는 『일반 규칙』과 다른 문헌군이다.",
+        "18세기 초기 신앙회 운영과 훗날 감리교회 조직의 제도사는 동일 사건이 아니다."
+      ],
+      "interpretation": "성도들의 신앙 훈련, 신앙회의 지속적 규율, 설교를 통한 교리 전달을 구분하면 감리교 운동의 성장 경로를 입체적으로 이해할 수 있다.",
+      "verification_boundary": "교파 현대 해설과 서지 정보를 확인했다. 설교집 전편 원문 비교·출판본 세부 판본·교단의 모든 역사적 분화 검토는 하지 않았다.",
+      "question": "신앙회 규칙이 설교의 교리적 내용을 모두 대체할 수 없는 이유는 무엇인가?"
+    },
+    {
+      "id": "NICAEA_325_381",
+      "title": "니케아 325년과 콘스탄티노폴리스 381년 — 같은 별칭, 다른 판본",
+      "overview_ids": [
+        "TOP-06"
+      ],
+      "reader_ids": [
+        "DOCUMENT-NICENE_CREED325",
+        "EVENT-CONSTANTINOPLE381"
+      ],
+      "evidence_level": "INSTITUTIONAL_TRANSLATION_EDITION_METADATA",
+      "source_url": "https://www.oikoumene.org/resources/documents/nicene-constantinopolitan-creed",
+      "locator": "WCC 2025 document page; 381 creed translation in 2022 11th Assembly publication pp.36–37",
+      "published_document_year": 381,
+      "inspected_representation": "WCC가 2025년에 게시한 381년 신경의 2022년 번역 출처 안내. 325년 당시 서명 원본과 381년 전체 회의록을 직접 판독하지 않음",
+      "facts": [
+        "WCC의 문서 안내는 오늘날 일반적으로 '니케아 신경'이라 부르는 영어판이 381년 신경을 확장·계승한 형태임을 명시한다.",
+        "WCC의 게시 번역은 2022년 11차 총회 자료의 번역을 따른다.",
+        "325년 최초 신경과 381년 신경을 문구 수준에서 같은 원문으로 취급하면 판본의 시간이 뒤바뀐다."
+      ],
+      "interpretation": "독자가 현재 예배에 사용하는 신경을 읽을 때에도 4세기 회의의 결정과 후대 번역·예배 수용을 구분하도록 안내해야 한다.",
+      "verification_boundary": "기관이 안내한 판본·연도·번역 서지만 확인. 최초 325년 그리스어 전승과 381년 관련 후대 증언의 전체 교감은 하지 않았다.",
+      "question": "현재 쓰이는 신경의 번역을 325년 공의회 문서 그대로라고 부르면 어떤 정보가 사라지는가?"
+    },
+    {
+      "id": "WCC_BASIS_1948_1961",
+      "title": "WCC 창립의 신앙 기반 — 1948년과 1961년 구분",
+      "overview_ids": [
+        "OV-D-019"
+      ],
+      "reader_ids": [
+        "DOCUMENT-WCC_AMSTERDAM_RECORD1948",
+        "EVENT-WCC_FOUNDING1948"
+      ],
+      "evidence_level": "INSTITUTIONAL_HISTORICAL_EXPLANATION",
+      "source_url": "https://www.oikoumene.org/node/6243",
+      "additional_source_url": "https://www.oikoumene.org/resources/documents/theological-and-historical-background-of-the-wcc-basis",
+      "locator": "WCC Basis historical explanation; initial 1948 formulation and 1961 New Delhi revision",
+      "published_document_year": 1948,
+      "inspected_representation": "WCC 기관의 후대 역사 해설·문구 비교. 1948년 첫 총회 공식 보고서 전체 이미지·회의 속기록은 읽지 않음",
+      "facts": [
+        "WCC가 1948년 출범하며 채택한 신앙 기반 문구와 1961년 뉴델리 총회에서 수정·확장된 문구는 구분된다.",
+        "WCC는 개별 회원 교회를 하나로 합친 단일 교회가 아니라 회원 교회의 협력 구조로 설명된다."
+      ],
+      "interpretation": "1948년 창립 취지와 1961년 성경·삼위일체적 표현의 추가를 분리해 쓰면 역사적 발전과 신학적 연속성을 모두 설명할 수 있다.",
+      "verification_boundary": "기관의 현대 역사 설명만 확인했고 1948년 첫 총회의 전체 공식 보고서와 당시 표결록을 대조하지 않았다.",
+      "question": "한 문구의 후대 개정이 이전 시대의 최초 표현을 지워서는 안 되는 이유는 무엇인가?"
+    }
+  ],
+  "expected_after": {
+    "direct": 78,
+    "partial": 19,
+    "background": 0,
+    "missing": 0,
+    "default_readable": 97
+  },
+  "cautions": [
+    "TOP-08의 BACKGROUND_ONLY를 PARTIAL_COVERAGE로 바꾸는 것은 V3.05에 이미 존재하던 18세기 원고의 탐색 접근성 개선이다. 역사 전문 감수나 전 시대 총괄 설명을 뜻하지 않는다.",
+    "325년 니케아와 381년 콘스탄티노폴리스의 현행 번역을 한 원문으로 합치지 않는다.",
+    "웰컴컬렉션 소장정보와 감리교회 현대 설명을 1743년 원판 전면 교감으로 주장하지 않는다.",
+    "1648년 조약문 발췌가 지역별 조약 이행의 전체 사실을 대체하지 않는다.",
+    "문헌 번역본과 기관 개요 해설의 증거 수준은 서로 다르며 모든 항목의 expert_reviewed는 false다."
+  ]
+}
