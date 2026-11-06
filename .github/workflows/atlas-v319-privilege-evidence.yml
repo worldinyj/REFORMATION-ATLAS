@@ -1,0 +1,23 @@
+name: Atlas V3.19 IPM privilege evidence gate
+on:
+  push:
+    branches:
+      - research/atlas-v319-ipm-privilege-1648-dating
+  pull_request:
+    paths:
+      - 'data/contracts/atlas_v319_ipm_print_privilege_dating.json'
+      - 'docs/02_RESEARCH/V319_IPM_PRINT_PRIVILEGE_MARCH_1648.md'
+      - 'integrations/medium-atlas-v319/**'
+      - '.github/workflows/atlas-v319-privilege-evidence.yml'
+jobs:
+  v319_evidence_gate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify V3.19 prior corpus immutability and claims
+        run: node --test integrations/medium-atlas-v319/integration.test.mjs
