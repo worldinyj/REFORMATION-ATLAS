@@ -1,0 +1,37 @@
+{
+  "version": "3.27",
+  "kind": "REVIEW_ONLY_METHODIST_MEMBERSHIP_QUESTION_CONCORDANCE",
+  "status": "DRAFT_HOLD",
+  "parent": "research/atlas-v326-methodist-1784-1785-first-discipline-witness",
+  "data": "data/contracts/atlas_v327_methodist_question_edition_concordance.json",
+  "builder": "scripts/build_v327_methodist_concordance.mjs",
+  "tests": "integrations/medium-atlas-v327/integration.test.mjs",
+  "output_dir": "out/atlas-v327",
+  "outputs": [
+    "v327_1770_1798_probation_concordance.json",
+    "v327_1785_question_excerpt_index.json",
+    "v327_remaining_witness_verification.json"
+  ],
+  "counts": {
+    "source_records": 13,
+    "edition_records": 6,
+    "question_fragments": 11,
+    "essays": 3,
+    "sections": 9,
+    "open_issues": 8,
+    "verified_1770_print_pages": 1,
+    "verified_1785_original_body_pages": 0
+  },
+  "gates": {
+    "main_unchanged": true,
+    "webapp_integrated": false,
+    "publication_ready": false,
+    "historian_approved": false
+  },
+  "limits": [
+    "1785 first edition Q16 and Q17 evidence from later research only; original body page not visually inspected.",
+    "1770 British Q18 directly inspected; 1798 Section II Q3 PDF text only due screenshot timeout.",
+    "1789 British and American are different texts even if same year.",
+    "No 1785 original 81-question complete textual collation."
+  ]
+}

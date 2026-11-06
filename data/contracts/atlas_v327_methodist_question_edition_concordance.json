@@ -1,0 +1,482 @@
+{
+  "version": "3.27",
+  "status": "DRAFT",
+  "depth": "MEDIUM",
+  "publication_gate": {
+    "published": false,
+    "main_changed": false,
+    "webapp_integrated": false,
+    "historian_approved": false
+  },
+  "parent": {
+    "version": "3.26",
+    "pr": 168,
+    "head_sha": "def8fd2fdcab58330dcaa2b1659f739180356de4",
+    "locked_contract_blob_sha": "49eaad91e9c3cd864e879755f1c353f483c4c642"
+  },
+  "preserve": {
+    "readers": 513,
+    "sections": 1539,
+    "sources": 723,
+    "overviews": 97,
+    "curated_events": 26,
+    "typed_relations": 12
+  },
+  "scope": "Partial comparative question concordance only: 1770 British Q18 direct print, 1785 American Q16 by later academic excerpt, OCR fragment Q1-Q15 only, 1798 original edition PDF text not screenshot. Not full 1785 81-question original print collation.",
+  "source_records": [
+    {
+      "id": "V327-S-1770-PRINT",
+      "url": "https://wesleyscholar.com/wp-content/uploads/2019/02/Minutes-of-Several-Conversations-1770.pdf",
+      "kind": "1770_PRINT_SCAN_DIRECT_VISUAL",
+      "locator": "printed p.15, PDF 0-based p31: British Q18 3 months; Q19 admission",
+      "access": "DIRECT_SCAN_VISUAL",
+      "exact_historical_print_original_full_page": false
+    },
+    {
+      "id": "V327-S-1785-OCR",
+      "url": "https://dokumen.pub/the-sunday-service-of-the-methodists-in-north-america-with-other-occassional-services-p-8885802.html",
+      "kind": "BOUND_1784_1785_MIXED_OCR",
+      "locator": "Charles Cist 1785 title and early Q1–Q15 fragment; OCR severely corrupted",
+      "access": "OCR_NOT_IMAGE_COLLATED",
+      "exact_historical_print_original_full_page": false
+    },
+    {
+      "id": "V327-S-1785-PHOTO",
+      "url": "https://www.umc.org/en/content/ask-the-umc-when-was-the-first-book-of-discipline-created",
+      "kind": "UMC_TITLE_PAGE_PHOTO",
+      "locator": "Small photo of first-book title page, surrounding article calls it 1784 edition",
+      "access": "TITLE_PHOTO_ONLY",
+      "exact_historical_print_original_full_page": false
+    },
+    {
+      "id": "V327-S-1785-LIBRARY",
+      "url": "https://bridwell.omeka.net/exhibits/show/asbury/item/497",
+      "kind": "INSTITUTIONAL_HOLDING_METADATA",
+      "locator": "Philadelphia Charles Cist 1785, meeting title says 1784-12-27",
+      "access": "BIBLIOGRAPHIC",
+      "exact_historical_print_original_full_page": false
+    },
+    {
+      "id": "V327-S-1785-CATALOG",
+      "url": "https://search.worldcat.org/ko/title/62832611",
+      "kind": "WORLD_LIBRARY_CATALOGUE",
+      "locator": "1785 printing, 35 + [1] pages, OCLC 62832611",
+      "access": "BIBLIOGRAPHIC",
+      "exact_historical_print_original_full_page": false
+    },
+    {
+      "id": "V327-S-1785-THESIS",
+      "url": "https://dukespace.lib.duke.edu/bitstreams/e31203e3-acf1-48c5-adac-e8215017dbb7/download",
+      "kind": "MODERN_THESIS_INDEX_EXCERPT",
+      "locator": "Search-index excerpt quotes early American Q16 two-month trial and Q17 membership question; page access denied",
+      "access": "INDEX_ONLY_NO_DIRECT_P9",
+      "exact_historical_print_original_full_page": false
+    },
+    {
+      "id": "V327-S-1787-BOOK",
+      "url": "https://play.google.com/store/books/details/Methodist_Episcopal_Church_A_Form_of_Discipline_fo?id=5Sea-NIyvq0C",
+      "kind": "1787_DIGITAL_BOOK_CATALOGUE",
+      "locator": "1787 section-organized edition; member question positioning from separate research only",
+      "access": "CATALOGUE_ONLY",
+      "exact_historical_print_original_full_page": false
+    },
+    {
+      "id": "V327-S-1789-AMERICA",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/A_guide-book_in_the_administration_of_the_discipline_of_the_Methodist_Episcopal_Church_%28IA_guidebookinadmi00bake%29.pdf",
+      "kind": "HISTORICAL_19C_GUIDE_SEARCH_INDEX",
+      "locator": "Later historical account says 1784 two months, extended to six in 1789",
+      "access": "INDEX_NO_SCAN_OPEN",
+      "exact_historical_print_original_full_page": false
+    },
+    {
+      "id": "V327-S-1798-PRINT",
+      "url": "https://wesleyscholar.com/wp-content/uploads/2019/01/Doctrine-Discipline-Methodist-10th-ed-1798.pdf",
+      "kind": "1798_DIGITIZED_PRINT_TEXT",
+      "locator": "10th edition printed p146, Section II Q3 six months, screenshot timeout",
+      "access": "PDF_TEXT_ONLY",
+      "exact_historical_print_original_full_page": false
+    },
+    {
+      "id": "V327-S-1789-BRITAIN",
+      "url": "https://corpus.historyofmethodism.com/jw/works/minutes-of-several-conversations",
+      "kind": "LATER_BRITISH_LARGE_MINUTES_TRANSCRIPT",
+      "locator": "British Wesley Large Minutes 1789 Q14 two-month trial, explicitly not 1785 American text",
+      "access": "UNCOLLATED_TRANSCRIPTION",
+      "exact_historical_print_original_full_page": false
+    },
+    {
+      "id": "V327-S-UMC-GENERAL-RULES",
+      "url": "https://www.umc.org/en/content/the-general-rules-of-the-methodist-church",
+      "kind": "LATER_DENOMINATIONAL_RULES_TEXT",
+      "locator": "Later Rules text cannot establish full Rules appended to 1785 pamphlet",
+      "access": "MODERN_NOT_1785",
+      "exact_historical_print_original_full_page": false
+    },
+    {
+      "id": "V327-S-UMC-FAQ",
+      "url": "https://www.umc.org/en/content/ask-the-umc-when-was-the-first-book-of-discipline-created",
+      "kind": "MODERN_DENOMINATIONAL_HISTORY",
+      "locator": "81 questions, 1784 church adoption, Q4 mission; distinguish 1785 print",
+      "access": "EDITORIAL",
+      "exact_historical_print_original_full_page": false
+    },
+    {
+      "id": "V327-S-DURHAM-THESIS",
+      "url": "https://etheses.durham.ac.uk/id/eprint/4206/1/4206_1725.pdf",
+      "kind": "ACADEMIC_SEARCH_INDEX",
+      "locator": "Secondary finding British 3-month trial reduced to 2 in 1780, original 1780 text not checked",
+      "access": "INDEX_ONLY",
+      "exact_historical_print_original_full_page": false
+    }
+  ],
+  "probation_concordance": [
+    {
+      "id": "V327-P01",
+      "year": 1770,
+      "jurisdiction": "BRITISH_WESLEYAN",
+      "question": "Q18",
+      "trial_months": 3,
+      "basis": "DIRECT_1770_PRINT_SCAN",
+      "source_ids": [
+        "V327-S-1770-PRINT"
+      ],
+      "locator": "printed p15 PDF screenshot 31",
+      "body_original_print_page_visually_inspected": true
+    },
+    {
+      "id": "V327-P02",
+      "year": 1785,
+      "jurisdiction": "AMERICAN_MEC",
+      "question": "Q16",
+      "trial_months": 2,
+      "basis": "LATER_STUDY_INDEX_NOT_DIRECT_1785_PRINT",
+      "source_ids": [
+        "V327-S-1785-THESIS",
+        "V327-S-1785-LIBRARY"
+      ],
+      "locator": "1785 p9 not visually read",
+      "body_original_print_page_visually_inspected": false
+    },
+    {
+      "id": "V327-P03",
+      "year": 1787,
+      "jurisdiction": "AMERICAN_MEC",
+      "question": "sectioned Q3 (later concordance)",
+      "trial_months": 2,
+      "basis": "LATER_EDITION_STUDY_PROVISIONAL",
+      "source_ids": [
+        "V327-S-1787-BOOK"
+      ],
+      "locator": "1787 body page uninspected",
+      "body_original_print_page_visually_inspected": false
+    },
+    {
+      "id": "V327-P04",
+      "year": 1789,
+      "jurisdiction": "AMERICAN_MEC",
+      "question": "membership ticket rule",
+      "trial_months": 6,
+      "basis": "LATER_HISTORICAL_INDEX_PROVISIONAL",
+      "source_ids": [
+        "V327-S-1789-AMERICA"
+      ],
+      "locator": "1789 print page not inspected",
+      "body_original_print_page_visually_inspected": false
+    },
+    {
+      "id": "V327-P05",
+      "year": 1798,
+      "jurisdiction": "AMERICAN_MEC",
+      "question": "Section II Q3",
+      "trial_months": 6,
+      "basis": "DIGITIZED_PDF_TEXT_NO_SCREENSHOT",
+      "source_ids": [
+        "V327-S-1798-PRINT"
+      ],
+      "locator": "printed p146 PDF text, screenshot timeout",
+      "body_original_print_page_visually_inspected": false
+    },
+    {
+      "id": "V327-P06",
+      "year": 1789,
+      "jurisdiction": "BRITISH_WESLEYAN",
+      "question": "Q14",
+      "trial_months": 2,
+      "basis": "UNCOLLATED_LATER_BRITISH_TRANSCRIPTION",
+      "source_ids": [
+        "V327-S-1789-BRITAIN"
+      ],
+      "locator": "not 1789 original print scan",
+      "body_original_print_page_visually_inspected": false
+    }
+  ],
+  "question_fragments": [
+    {
+      "id": "V327-F01",
+      "question": "1785-Q03",
+      "topic": "NEW_EPISCOPAL_CHURCH_ORGANIZATION",
+      "source_ids": [
+        "V327-S-1785-OCR"
+      ],
+      "finding": "episcopal governance with superintendents, elders, deacons and helpers",
+      "level": "OCR_FRAGMENT",
+      "original_1785_body_page_read": false
+    },
+    {
+      "id": "V327-F02",
+      "question": "1785-Q04",
+      "topic": "AMERICAN_SCRIPTURAL_HOLINESS_MISSION",
+      "source_ids": [
+        "V327-S-1785-OCR"
+      ],
+      "finding": "mission to reform continent and spread scriptural holiness",
+      "level": "OCR_FRAGMENT",
+      "original_1785_body_page_read": false
+    },
+    {
+      "id": "V327-F03",
+      "question": "1785-Q11",
+      "topic": "ATTENDANCE_VISITOR_TICKETS",
+      "source_ids": [
+        "V327-S-1785-OCR"
+      ],
+      "finding": "tickets to regulate meeting entry of strangers",
+      "level": "OCR_FRAGMENT",
+      "original_1785_body_page_read": false
+    },
+    {
+      "id": "V327-F04",
+      "question": "1785-Q12",
+      "topic": "LOVE_FEAST_VISITOR_LIMITS",
+      "source_ids": [
+        "V327-S-1785-OCR"
+      ],
+      "finding": "admission to communal meal subject to visitor restrictions",
+      "level": "OCR_FRAGMENT",
+      "original_1785_body_page_read": false
+    },
+    {
+      "id": "V327-F05",
+      "question": "1785-Q13",
+      "topic": "CLASS_LEADER_MEMBER_CARE",
+      "source_ids": [
+        "V327-S-1785-OCR"
+      ],
+      "finding": "leaders examine members' conduct and spiritual growth",
+      "level": "OCR_FRAGMENT",
+      "original_1785_body_page_read": false
+    },
+    {
+      "id": "V327-F06",
+      "question": "1785-Q14",
+      "topic": "CLASS_MEETING_GOVERNANCE",
+      "source_ids": [
+        "V327-S-1785-OCR"
+      ],
+      "finding": "replace unhelpful leaders and improve meetings",
+      "level": "OCR_FRAGMENT",
+      "original_1785_body_page_read": false
+    },
+    {
+      "id": "V327-F07",
+      "question": "1785-Q15",
+      "topic": "HOME_VISITS_AND_PRACTICE",
+      "source_ids": [
+        "V327-S-1785-OCR"
+      ],
+      "finding": "pastoral home visits and family religion",
+      "level": "OCR_FRAGMENT",
+      "original_1785_body_page_read": false
+    },
+    {
+      "id": "V327-F08",
+      "question": "1785-Q16",
+      "topic": "MEMBERSHIP_TICKET_TWO_MONTHS",
+      "source_ids": [
+        "V327-S-1785-THESIS"
+      ],
+      "finding": "two-month trial and leader recommendation; direct 1785 p9 missing",
+      "level": "SCHOLAR_INDEX_ONLY",
+      "original_1785_body_page_read": false
+    },
+    {
+      "id": "V327-F09",
+      "question": "1785-Q17",
+      "topic": "ADMITTING_NEW_MEMBERS",
+      "source_ids": [
+        "V327-S-1785-THESIS"
+      ],
+      "finding": "separate question on when members admitted; full answer not read",
+      "level": "SCHOLAR_INDEX_ONLY",
+      "original_1785_body_page_read": false
+    },
+    {
+      "id": "V327-F10",
+      "question": "1787-Q03",
+      "topic": "RENUMBERED_TICKET_RULE",
+      "source_ids": [
+        "V327-S-1787-BOOK"
+      ],
+      "finding": "later concordance says Q16 in 1785 became Q3 in 1787; edition scan unverified",
+      "level": "PROVISIONAL",
+      "original_1785_body_page_read": false
+    },
+    {
+      "id": "V327-F11",
+      "question": "1798-Q03",
+      "topic": "SIX_MONTH_TICKET_RULE",
+      "source_ids": [
+        "V327-S-1798-PRINT"
+      ],
+      "finding": "six-month period in printed 1798 Section II Q3 PDF text",
+      "level": "PDF_TEXT_ONLY",
+      "original_1785_body_page_read": false
+    }
+  ],
+  "readings": [
+    {
+      "id": "V327-R01",
+      "title": "1770·1785·1798년 가입 시험 기간의 변화",
+      "overview_ids": [
+        "OV-D-017"
+      ],
+      "sections": [
+        {
+          "heading": "1770년 런던 인쇄본의 3개월",
+          "body": "1770년 『Large Minutes』의 실물 인쇄면 15쪽에서 제18문답을 확인했다. 이 규정은 소모임 지도자의 추천과 3개월의 시험 기간 뒤 회원권 표를 부여하게 한다. 감리교 공동체는 선교 활동과 함께 지속적인 책임·훈련을 요구했다."
+        },
+        {
+          "heading": "1785년 미국의 2개월은 간접 증거",
+          "body": "1785년 미국 『Minutes』의 제16문답은 후대 학술 자료의 인용에서 2개월 심사와 추천 요건을 명시한다. 이번에 접근한 합철 디지털 OCR에는 제16문답 본문 전체가 누락되어 같은 원본 페이지를 직접 눈으로 대조하지 못했다. 연대별 수치는 확인 수준을 표시해야 한다."
+        },
+        {
+          "heading": "1798년 6개월과 변경 연도",
+          "body": "1798년 미국 제10판의 디지털 PDF 텍스트는 회원권 발급에 6개월 시험 기간을 규정한다. 19세기 편람은 이 연장의 시점을 1789년으로 설명하지만 실제 1789년판 인쇄면은 보지 못했다. 인쇄본 문구와 후대 변화연도 설명을 분리해 독자에게 제시한다."
+        }
+      ]
+    },
+    {
+      "id": "V327-R02",
+      "title": "1785년 문답의 본문 접근성과 교회 운영의 실제",
+      "overview_ids": [
+        "OV-D-017",
+        "OV-E-027"
+      ],
+      "sections": [
+        {
+          "heading": "미국 교회의 독립과 신앙의 목적",
+          "body": "1785년 최초 규정집을 포함한 합철 자료의 OCR에서 제3문답은 미국 감리교회를 감독·장로·집사 체제로 조직한다는 취지이고, 제4문답은 이 땅에서 신앙적 거룩함을 확산할 목적을 말한다. 이것은 1784년 교회의 조직을 뒤늦게 글로 정리한 문서의 성격을 설명한다."
+        },
+        {
+          "heading": "제11~15문답이 말하는 지속적 관리",
+          "body": "접근 가능한 OCR 부분에는 신앙회 모임에 참석하는 외부인의 제한과 출입표 확인, 애찬 모임 참석, 소모임 지도자의 자격, 가정 방문과 공동체 생활 점검에 관한 문답이 나타난다. 다만 OCR이 훼손되어 원문 직접 인용의 인증을 하지 않는다. 제11문답의 회의 출입표가 곧 제16문답의 신규 회원 심사표와 동일한 제도라는 단정도 보류한다."
+        },
+        {
+          "heading": "81문답 완독과 단편 전사의 차이",
+          "body": "이번에 확보한 웹 OCR은 제15문답 부근부터 다른 합철 문헌인 찬송가로 갑자기 넘어간다. 따라서 원문 전문 81문답의 자동 추출이 이루어진 것이 아니다. 제16·17문답을 규명하는 별도 인쇄면 판독은 아직 남아 있고, 본 단계의 산출물은 부분적 문답 콩코던스이다."
+        }
+      ]
+    },
+    {
+      "id": "V327-R03",
+      "title": "번호가 바뀐 문답과 일반 규칙의 수용",
+      "overview_ids": [
+        "OV-D-017",
+        "OV-P-024"
+      ],
+      "sections": [
+        {
+          "heading": "1787년의 절별 재편",
+          "body": "미국 교회 규정집은 1785년의 연속된 문답 형식에서 1787년 이후 절별로 주제를 배치하는 구조로 발전했다. 후대 판본 비교는 1785년 제16·17문답이 1787년의 회원관리 문답으로 재배치되었다고 서술한다. 원본 1787년 해당 쪽의 직접 교감은 수행하지 않았으므로 문장 단위 동일 여부를 확정적으로 표시하지 않는다."
+        },
+        {
+          "heading": "영국 1789년판에도 2개월이 등장한다",
+          "body": "웨슬리 『Large Minutes』 후대 디지털 전사에는 영국 신앙회 제14문답에 2개월 시험이 나타난다. 한 현대 학위논문은 영국 규정이 이미 1780년 무렵 단축되었다고 설명하지만, 그 당시 원본은 미대조다. 그러므로 1770년 영국 3개월과 1785년 미국 2개월의 차이를 미국으로 건너가며 처음 이루어진 개혁이라고 단정할 수 없다."
+        },
+        {
+          "heading": "규칙을 읽어 주는 것과 전문을 출판하는 것은 다른 일",
+          "body": "1785년 제16문답을 인용한 후대 연구에는 새로 들어오는 사람에게 첫 모임에서 규칙을 알려 주라는 지시가 실려 있다. 이것만으로 별도 『일반 규칙』 전문이 1785년 책에 부록으로 완전히 인쇄됐다는 결론을 내릴 수는 없다. 교회 채택 행위, 회원을 위한 교육 지시, 인쇄물 수록 여부를 연구 데이터에서 다른 관계로 관리한다."
+        }
+      ]
+    }
+  ],
+  "open_issues": [
+    {
+      "id": "V327-ISS-1785_Q16_Q17_P9",
+      "status": "OPEN",
+      "next": "Obtain actual 1785 Cist page 9 image; scholar search snippet cannot replace direct witness",
+      "expert_approved": false
+    },
+    {
+      "id": "V327-ISS-1787_Q3_Q4_PRINT",
+      "status": "OPEN",
+      "next": "Verify 1787 printed class-meeting Q3 Q4 and exact two-month phrase, not just later reconstruction",
+      "expert_approved": false
+    },
+    {
+      "id": "V327-ISS-AMERICAN_1789_SIX_MONTH",
+      "status": "OPEN",
+      "next": "Check original 1789 print for exact start of 6-month trial",
+      "expert_approved": false
+    },
+    {
+      "id": "V327-ISS-1798_PRINT_SCREENSHOT",
+      "status": "OPEN",
+      "next": "Reopen 1798 printed p146 image; text found but two screenshot calls timed out",
+      "expert_approved": false
+    },
+    {
+      "id": "V327-ISS-BRITISH_1780_SHIFT",
+      "status": "OPEN",
+      "next": "Find 1780 British Large Minutes original to determine where three months changed to two",
+      "expert_approved": false
+    },
+    {
+      "id": "V327-ISS-1785_COMPOSITE_MISSING_QUESTIONS",
+      "status": "OPEN",
+      "next": "Princeton derivative OCR only shows Q1–15 of Cist pamphlet before another bound work starts",
+      "expert_approved": false
+    },
+    {
+      "id": "V327-ISS-GENERAL_RULES_FULL_APPENDIX",
+      "status": "OPEN",
+      "next": "Directly verify whether 1743 entire General Rules text was part of original 1785 edition",
+      "expert_approved": false
+    },
+    {
+      "id": "V327-ISS-RETAIN_1784_1785_ADOPTION_UNCERTAINTY",
+      "status": "OPEN",
+      "next": "Do not declare 1785 the unique first approval of Rules before minutes source confirmed",
+      "expert_approved": false
+    }
+  ],
+  "publication_labels": {
+    "public_app_approved": false,
+    "original_1785_body_images_read": 0,
+    "original_1785_title_photo_seen": 1,
+    "original_1770_print_pages_visually_verified": 1,
+    "original_1798_print_pages_visually_verified": 0,
+    "first_edition_1785_all_81_question_collations": 0,
+    "source_score_means": "EVIDENCE_ACCESS_LEVEL_NOT_HISTORICAL_TRUTH_PROBABILITY"
+  },
+  "blocked_inferences": [
+    "No proof Americans first introduced a two-month trial in 1785",
+    "No direct photographic collation of Q16/Q17 1785",
+    "No valid automatic question-number identity across 1770, 1785, 1787, 1798",
+    "No full 81 question data captured from Princeton composite OCR",
+    "No proof entire General Rules appendix printed in 1785 based solely on question referring to Rules",
+    "Six-month trial in 1798 does not alone prove the precise revision day or month"
+  ],
+  "metrics": {
+    "sources": 13,
+    "editions": 6,
+    "question_records": 11,
+    "new_readings": 3,
+    "new_sections": 9,
+    "unresolved": 8,
+    "direct_original_1785_body_pages": 0,
+    "direct_original_1770_pages": 1,
+    "direct_original_1798_pages": 0,
+    "unchanged_original_reader_count": 513
+  }
+}
