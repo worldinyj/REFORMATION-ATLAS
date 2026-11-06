@@ -1,0 +1,329 @@
+{
+  "version": "3.17",
+  "status": "DRAFT",
+  "depth": "MEDIUM",
+  "checked_on": "2026-11-06",
+  "publication_gate": {
+    "published": false,
+    "main_changed": false,
+    "webapp_integrated": false,
+    "historian_approved": false
+  },
+  "preserve": {
+    "readers": 513,
+    "sources": 723,
+    "overviews": 97,
+    "selected_claims": 22,
+    "v311_addenda": 4,
+    "v312_notes": 2,
+    "v313_studies": 2,
+    "v314_studies": 2,
+    "v315_studies": 2,
+    "v316_ratification_reading": 1,
+    "v316_ratification_chronology": 4
+  },
+  "source_records": [
+    {
+      "id": "STETTIN",
+      "work": "IPO",
+      "url": "https://zbc.ksiaznica.szczecin.pl/dlibra/publication/1475/edition/1224",
+      "tier": "DIGITAL_LIBRARY_LIVE_CATALOGUE_HTML",
+      "verified": "폴란드 포메라니아 도서관의 디지털 장서 페이지에서 슈테틴 레티우스 인쇄소 [1648] 라틴어 자료의 표제·언어·원서가번호 XVII.2424.I·OAI 판본번호를 확인했다. 표제는 1648년 7월 27일·8월 6일의 협상 문서 낭독·승인 경위를 언급한다.",
+      "boundary": "서지의 [1648]은 연도 수준이며, 8월의 정확한 인쇄일과 10월 24일 최종 서명 조문과의 동일성·차이, DJVU 개별 면은 미확인",
+      "original_pages_read": false
+    },
+    {
+      "id": "PADERBORN",
+      "work": "IPO",
+      "url": "https://digital.ub.uni-paderborn.de/eab/content/titleinfo/6954957",
+      "tier": "DIGITAL_LIBRARY_LIVE_CATALOGUE_HTML",
+      "verified": "파더보른 대학도서관이 제공하는 1648년 IPO 독일어 인쇄본 표제를 직접 확인했다. 7월 27일·8월 6일의 합의와 10월 24/14일 서명, 10월 25/15일 공표를 구분하고 VD17 12:187744L·96쪽·4절판을 기록한다.",
+      "boundary": "원본 96쪽이나 PDF 개별 면은 열람하지 않음",
+      "original_pages_read": false
+    },
+    {
+      "id": "UNESCO",
+      "work": "BOTH",
+      "url": "https://www.unesco.at/kommunikation/dokumentenerbe/memory-of-austria/verzeichnis/detail/article/westfaelische-friedensvertraege",
+      "tier": "INSTITUTION_LIVE_HTML",
+      "verified": "오스트리아 유네스코위원회 문헌유산: 황제·프랑스 IPM, 황제·제국·스웨덴 IPO, 1648년 같은 날 뮌스터 서명",
+      "boundary": "개별 서명본 면이나 서명 장소·시각의 원사료는 직접 미확인",
+      "original_pages_read": false
+    },
+    {
+      "id": "LWL741",
+      "work": "BOTH",
+      "url": "https://www.lwl.org/westfaelische-geschichte/portal/Internet/finde/langDatensatz.php?urlID=741&url_tabelle=tab_quelle",
+      "tier": "SCHOLARLY_SEARCH_INDEX_ONLY",
+      "verified": "LWL 학술편집자 색인 본문: 1648년 8월 슈테틴 선행인쇄 'dürfte', 특허 있는 1648년 프랑크푸르트본과 공식 정본 구분",
+      "boundary": "실시간 원문 URL은 유지관리 페이지로 리디렉션되어 해당 전체 주석 본문 직접 열람 미완료",
+      "original_pages_read": false
+    },
+    {
+      "id": "ARNDT",
+      "work": "BOTH",
+      "url": "https://www.lwl.org/westfaelische-geschichte/portal/Internet/drucken.php?ID=498&tab=web",
+      "tier": "HISTORIAN_LIVE_HTML",
+      "verified": "요하네스 아른트: 24일 사절 숙소별 사본 대조·교환·서명, 25일 공표, 1649년 비준 축하",
+      "boundary": "외교관의 1648년 당대 원일기를 직접 읽지 않음",
+      "original_pages_read": false
+    },
+    {
+      "id": "DDB1648",
+      "work": "IPM",
+      "url": "https://www.deutsche-digitale-bibliothek.de/item/UHH4CUHEUTTSABSGCT7RJDUJXKFVJHM3",
+      "tier": "LIBRARY_LIVE_METADATA",
+      "verified": "마인츠 Heyll/프랑크푸르트 Fischer의 IPM 독일어 인쇄본 1648년, VD17 12:187750M",
+      "boundary": "1649년판과 문장 이문은 판정하지 않음",
+      "original_pages_read": false
+    },
+    {
+      "id": "WS1649",
+      "work": "IPM",
+      "url": "https://de.wikisource.org/wiki/Westf%C3%A4lischer_Friede_%E2%80%93_Vertrag_von_M%C3%BCnster",
+      "tier": "EARLY_PRINT_MODERN_TRANSCRIPTION",
+      "verified": "1649년 IPM 인쇄본 전사. 서문에서 황제·마인츠 선제후의 인쇄 특권과 '정본 사본' 확보를 주장",
+      "boundary": "당대 출판인의 자기주장은 제국의 공식 본문검증 결과가 아님",
+      "original_pages_read": false
+    }
+  ],
+  "studies": [
+    {
+      "id": "V317-STETTIN",
+      "title": "서명보다 먼저 인쇄된 문안은 어떤 사료인가",
+      "parent_v315": "V315-SIGNING",
+      "overviews": [
+        "OV-E-024",
+        "OV-D-015"
+      ],
+      "sources": [
+        "STETTIN",
+        "LWL741",
+        "PADERBORN"
+      ],
+      "sections": [
+        {
+          "heading": "1648년 슈테틴의 라틴어 서지",
+          "body": "포메라니아 도서관에는 1648년 슈테틴에서 레티우스 인쇄소가 간행한 라틴어 『Instrumentum Pacis』의 소장기록이 있다. 자료 식별자와 원소장 서가번호는 실존하는 역사 인쇄물을 추적하는 단서다. 다만 이번 단계에서 원본 DJVU 이미지를 열지 못했으므로 그 책의 정확한 발행월, 표제와 권말의 모든 문장, 그해 10월 서명된 최종 조약문과의 차이를 직접 판독했다고 말할 수 없다. 서지의 연도는 책의 출판을 말하며 조약 효력 발생일과 같지 않다. 특히 서지 표제에는 1648년 7월 27일과 8월 6일에 양측 대리인들이 문안을 읽고 승인한 과정이 기재되어 있다. 이것은 그해 10월의 최종 서명일과 같은 일이 아니다."
+        },
+        {
+          "heading": "8월 최초 인쇄 추정의 증거 한계",
+          "body": "LWL의 학술편집자 해설은 1648년 8월 슈테틴의 오스나브뤼크 조약 별쇄본이 초기 인쇄물일 가능성을 제기한다. 원문에 확률적 표현이 쓰였다는 점이 중요하다. 실제 소장 도서관의 목록은 슈테틴·1648년의 인쇄 기록을 확인하지만, 그것만으로 정확히 8월에 생산됐다고 입증하지 못한다. 더구나 LWL의 해당 페이지는 현재 유지관리 화면으로 전환되므로 편집자 설명은 검색 색인에 남은 범위에서만 확인했다. 최초 인쇄 여부는 더 이른 반례와 실제 인쇄 일자를 비교해야 판정할 수 있다."
+        },
+        {
+          "heading": "파더보른 표제의 세 종류 날짜",
+          "body": "파더보른 대학도서관의 1648년 독일어 IPO 서지에서는 7월 말·8월 초 협상과 합의, 10월 24/14일 서명, 25/15일 공표가 구별되어 있다. 출판지는 마인츠, 발행은 프랑크푸르트, 서지 식별자는 VD17 12:187744L이다. 같은 조약문에 관한 책이라는 이유로 협상의 일부 합의일을 최종 서명일로 쓰면 역사가 뒤바뀐다. 이 책은 96쪽의 4절 인쇄본으로 등록됐지만 각 면의 실제 서명을 읽지 않았다. 독자는 사건 날짜와 그 사건을 담은 책의 간행년을 나누어 이해해야 한다."
+        }
+      ],
+      "question": "서명 이전 출판 가능성과 최종 조약 정본의 권위는 어떻게 구별해야 하는가?"
+    },
+    {
+      "id": "V317-PRINT-PRIVILEGE",
+      "title": "1648년 인쇄 특권과 조약 원본의 권위",
+      "parent_v315": "V315-SIGNING",
+      "overviews": [
+        "OV-E-024",
+        "OV-D-015"
+      ],
+      "sources": [
+        "UNESCO",
+        "LWL741",
+        "DDB1648",
+        "WS1649"
+      ],
+      "sections": [
+        {
+          "heading": "당사자가 다른 두 개의 외교 조약",
+          "body": "오스트리아 유네스코위원회의 공식 문헌유산 소개는 뮌스터 조약 IPM을 황제와 프랑스의 협상 결과로, 오스나브뤼크 조약 IPO를 황제·제국과 스웨덴의 협상 결과로 구분한다. 두 문서는 1648년 10월 24일 같은 날 뮌스터에서 체결되었다. 그러나 하나의 조약을 다른 언어로 번역한 두 책이 아니다. IPM을 다룬 독일어 인쇄본의 서지를 IPO 원본문서의 소장기록과 섞어 설명하면 서명의 당사자, 법률의 적용 대상, 종교 조항의 문서 위치까지 혼란스러워진다."
+        },
+        {
+          "heading": "1649년 서문의 인쇄 특권 주장",
+          "body": "독일어 위키문헌의 1649년 뮌스터 조약 인쇄본 전사 서문은 황제와 마인츠 선제후가 인쇄를 허가했다는 점과 제국 기록 보관처의 정본 사본을 제공받았다는 점을 스스로 강조한다. 이는 출판인과 독자가 어떤 권위를 중요하게 생각했는지 보여 주는 당대 출판문화의 중요한 증언이다. 그러나 인쇄 특권이나 출판인의 주장 자체가 조약 원본문서의 법적 위상이나 복수 판본의 문자적 정확성에 대한 현대 학술 교감을 뜻하지는 않는다. LWL 편집자의 설명도 특권 있는 인쇄본과 공식 정본을 구분한다."
+        },
+        {
+          "heading": "1648년판과 1649년판의 위치",
+          "body": "독일 디지털도서관은 1648년 마인츠·프랑크푸르트 IPM 독일어본을 별도 기록으로 제공하고, 독일어 위키문헌은 1649년판 전사의 간행연도를 밝힌다. 그래서 서로 다른 판년의 두 출판물이 존재한다는 것은 서지 단계에서 확인된다. 그러나 두 책이 같은 문장을 어떻게 번역했는지, 고친 조항이 있는지, 표제와 본문의 편집이 달라졌는지는 이번 연구에서 판정하지 않았다. 두 판본을 무조건 동일하거나 본문이 다르다고 말하는 대신 판식·권말 기록·동일 조문 면별 대조를 해야 한다."
+        }
+      ],
+      "question": "출판인의 특권 주장과 서명된 외교 원본문서의 법적 권위는 왜 다른가?"
+    },
+    {
+      "id": "V317-VENUE-PRECISION",
+      "title": "뮌스터 체결 장소에 대한 요약과 실제 절차의 해상도",
+      "parent_v315": "V315-SIGNING",
+      "overviews": [
+        "OV-E-024"
+      ],
+      "sources": [
+        "ARNDT",
+        "UNESCO",
+        "LWL741",
+        "PADERBORN"
+      ],
+      "sections": [
+        {
+          "heading": "뮌스터에서 서명했다는 기관 개요",
+          "body": "오스트리아 유네스코위원회가 제공하는 문헌유산 설명은 두 조약 모두 뮌스터에서 같은 날 서명됐다고 정리한다. 이는 사건의 날짜와 도시를 안내하는 데 충분한 개관 수준의 사실이다. 하지만 도시 이름은 구체적 서명 장소를 말하지 않는다. 역사 앱에서 독자가 '뮌스터'라는 지명을 눌렀을 때 자동으로 모든 대표가 시청의 동일한 탁자에서 서명했다는 장면으로 해석해서는 안 된다. 회담 장소와 서명 절차는 더 세분화된 근거를 요구한다."
+        },
+        {
+          "heading": "사절 숙소와 다단계 교환의 재구성",
+          "body": "요하네스 아른트의 역사 해설은 1648년 10월 24일 황제 측 숙소에 방문한 프랑스·스웨덴 사절이 상대 문안을 비교하고, 그날 오후 약 5시 30분 이후 다시 상대측 숙소에서 사본을 확인한 다음 서명과 날인을 마쳤다고 정리한다. 이어 제국 신분의 대표자들도 서명할 기회가 있었다고 설명한다. 이 내용은 현대 역사학자가 재구성한 세부 절차로서, 당대 사절의 일기·서명 원본 자체는 아니다. 상세 시간을 역사 시각화에 넣으려면 이 자료의 출처 층위를 함께 표시해야 한다."
+        },
+        {
+          "heading": "시청이라는 설명과의 관계는 미확정",
+          "body": "다른 LWL 편집자 색인에서는 체결본을 뮌스터의 시청에서 서명했다는 압축적 표현이 나타난다. 아른트가 제시하는 숙소별 대조·서명 과정과 이 표현이 곧바로 모순이라고 단정할 수는 없다. 체결 행위의 어느 단계, 어떤 원본문서, 어떤 대표자의 서명을 가리키는지 확인해야 한다. 따라서 이번 연구는 날짜와 도시를 확인하되 모든 절차의 정확한 위치를 확정하지 않고, 시청 관련 서술을 대조 필요 항목으로 남긴다. 이는 확인되지 않은 장소를 지도상의 단일 고정 핀으로 만드는 일을 막는다."
+        }
+      ],
+      "question": "역사적 사건의 도시를 아는 것과 문서의 모든 서명 장소를 아는 것은 왜 다른가?"
+    }
+  ],
+  "claim_cards": [
+    {
+      "id": "ST-1",
+      "source_ids": [
+        "STETTIN"
+      ],
+      "statement": "1648년 슈테틴의 라틴어 IPO 관련 인쇄물은 포메라니아 도서관에 목록으로 기록되어 있다.",
+      "level": "CATALOGUE_ONLY",
+      "expert_approved": false,
+      "original_witness_collated": false
+    },
+    {
+      "id": "ST-2",
+      "source_ids": [
+        "LWL741"
+      ],
+      "statement": "1648년 8월 슈테틴 인쇄가 초기 간행물일 수 있다는 역사 편집 해설은 잠정적 표현이다.",
+      "level": "INDEXED_EDITORIAL_PROBABILITY",
+      "expert_approved": false,
+      "original_witness_collated": false
+    },
+    {
+      "id": "ST-3",
+      "source_ids": [
+        "PADERBORN"
+      ],
+      "statement": "1648년 IPO 독일어본 표제에 합의·10월 서명·다음날 공표가 구별된다.",
+      "level": "BIBLIOGRAPHIC_TITLE_ONLY",
+      "expert_approved": false,
+      "original_witness_collated": false
+    },
+    {
+      "id": "ST-4",
+      "source_ids": [
+        "PADERBORN"
+      ],
+      "statement": "IPO 독일어본의 1648년 서지 식별자는 VD17 12:187744L이다.",
+      "level": "IDENTITY_METADATA_ONLY",
+      "expert_approved": false,
+      "original_witness_collated": false
+    },
+    {
+      "id": "IP-1",
+      "source_ids": [
+        "UNESCO"
+      ],
+      "statement": "IPO와 IPM은 당사자가 다른 두 조약이며 1648년 같은 날 서명됐다.",
+      "level": "OFFICIAL_HERITAGE_OVERVIEW",
+      "expert_approved": false,
+      "original_witness_collated": false
+    },
+    {
+      "id": "IP-2",
+      "source_ids": [
+        "DDB1648",
+        "WS1649"
+      ],
+      "statement": "IPM의 1648년판과 1649년판 인쇄 기록은 서로 다른 간행 연도를 표시한다.",
+      "level": "CATALOGUE_AND_TRANSCRIPTION",
+      "expert_approved": false,
+      "original_witness_collated": false
+    },
+    {
+      "id": "IP-3",
+      "source_ids": [
+        "WS1649"
+      ],
+      "statement": "1649년 인쇄본 서문은 황제·마인츠 선제후의 출판 특권을 주장한다.",
+      "level": "PRINTER_SELF_ATTESTATION",
+      "expert_approved": false,
+      "original_witness_collated": false
+    },
+    {
+      "id": "IP-4",
+      "source_ids": [
+        "LWL741"
+      ],
+      "statement": "LWL 편집자는 특허 인쇄본과 공식 정본 간의 법적·본문비평적 위상을 구별한다.",
+      "level": "INDEXED_EDITORIAL_ANALYSIS",
+      "expert_approved": false,
+      "original_witness_collated": false
+    },
+    {
+      "id": "VE-1",
+      "source_ids": [
+        "UNESCO",
+        "ARNDT"
+      ],
+      "statement": "두 조약의 동일 도시·동일 날짜는 사절 숙소별 여러 체결 단계와 함께 성립할 수 있다.",
+      "level": "CROSS_SOURCE_GRANULARITY",
+      "expert_approved": false,
+      "original_witness_collated": false
+    },
+    {
+      "id": "VE-2",
+      "source_ids": [
+        "LWL741",
+        "ARNDT"
+      ],
+      "statement": "시청 서명이라는 요약과 아른트의 숙소별 과정이 정확히 어떤 단계에 해당하는지 추가 확인이 필요하다.",
+      "level": "UNRESOLVED_VENUE_DETAIL",
+      "expert_approved": false,
+      "original_witness_collated": false
+    }
+  ],
+  "issues": [
+    {
+      "id": "STETTIN_MONTH",
+      "issue": "슈테틴 인쇄물의 정확한 간행 월과 LWL의 '8월 최초' 자료 동일성",
+      "status": "UNRESOLVED"
+    },
+    {
+      "id": "PRINT_VARIANTS",
+      "issue": "1648년·1649년 IPM 인쇄본 조문별 실제 이문",
+      "status": "NOT_COLLATED"
+    },
+    {
+      "id": "SIGNING_VENUE",
+      "issue": "시청 관련 압축 표현과 사절 숙소별 서명의 정확한 물리적 위치",
+      "status": "UNRESOLVED"
+    },
+    {
+      "id": "PRINT_AUTHORITY",
+      "issue": "인쇄 특허·공적 정본·서명 외교 원본의 법률적 관계를 실물로 대조",
+      "status": "NOT_COLLATED"
+    }
+  ],
+  "inspection": {
+    "original_print_pages_collated": 0,
+    "original_diplomatic_pages_collated": 0,
+    "new_textual_variants_proven": 0
+  },
+  "metrics": {
+    "sources": 7,
+    "studies": 3,
+    "sections": 9,
+    "claims": 10,
+    "unresolved_issues": 4,
+    "body_characters": 2446
+  },
+  "research_parent": "research/atlas-v316-ratification-chronology-verification",
+  "purpose": "기존 V3.16 비준·축하 4단계 연대기 자료를 보존한 채 1648년 초기 인쇄본·원본 서명·인쇄 특권·체결 장소의 불확정성을 독립 연구 부록으로 연결한다.",
+  "cautions": [
+    "슈테틴 [1648] 디지털 서지의 표제에는 7월 27일·8월 6일의 문서 낭독·승인이 나오며 10월 24일 최종 조약 체결본과의 문구 동일성은 아직 검증하지 않았다.",
+    "LWL이 기술한 1648년 8월 최초 인쇄는 학술 편집자의 잠정 추정이며, 관련 HTML의 실시간 직접 열람은 유지관리로 제한된다.",
+    "1648년 IPO와 IPM은 다른 조약이며 초기 출판물과 1649년 서명·비준 절차에 관한 별도 연구를 합치지 않는다.",
+    "황제 또는 선제후의 특허 인쇄 허가는 외교 원본의 공식 정본이나 동일한 본문 교감을 자동으로 보증하지 않는다.",
+    "교회·종교 관련 원고 513편과 V3.11~V3.16 추가 연구는 바꾸지 않고 공개 보류를 유지한다."
+  ]
+}
