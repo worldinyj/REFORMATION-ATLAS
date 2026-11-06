@@ -1,126 +1,73 @@
-/** V3.17: early treaty print, privilege and venue notes layered over the frozen V3.16 ratification chronology.
- * NOT a signed-original, manuscript, or first-print priority collation.
+/** V3.17: source-scoped research on pre-signing prints and official-witness ambiguity.
+ * Extends completed V3.16 ratification chronology without changing historical core.
  */
 import {assembleV316} from '../medium-atlas-v316/overlay.mjs';
-const ensure=(yes,reason)=>{if(!yes)throw new Error('V317 print witnesses: '+reason);};
-const requiredIds=['STETTIN','PADERBORN','UNESCO','LWL741','ARNDT','DDB1648','WS1649'];
-const noteIds=['V316-STETTIN','V316-PRINT-PRIVILEGE','V316-VENUE-PRECISION'];
-const issues=['STETTIN_MONTH','PRINT_VARIANTS','SIGNING_VENUE','PRINT_AUTHORITY'];
-export function assembleV317(inputs,a309,a310,v311,v312,v313,v314,v315,rat316,printing317){
+const check=(x,m)=>{if(!x)throw Error('V317 treaty printing: '+m);};
+const TIER=new Set(['DIGITAL_LIBRARY_LIVE_CATALOGUE_HTML','INSTITUTION_LIVE_HTML','SCHOLARLY_SEARCH_INDEX_ONLY','HISTORIAN_LIVE_HTML','LIBRARY_LIVE_METADATA','EARLY_PRINT_MODERN_TRANSCRIPTION']);
+export function assembleV317(inputs,a309,a310,v311,v312,v313,v314,v315,rat316,v317){
  const {delivery,crosswalk}=assembleV316(inputs,a309,a310,v311,v312,v313,v314,v315,rat316);
- ensure(printing317?.version==='3.17'&&printing317.status==='DRAFT'&&printing317.depth==='MEDIUM','wrong draft/version');
- ensure(printing317.publication_gate&&Object.values(printing317.publication_gate).every(x=>x===false),'publication HOLD');
- const a=printing317.inspection,m=printing317.metrics,p=printing317.preserve;
- ensure(a?.original_print_pages_collated===0&&a.original_diplomatic_pages_collated===0&&a.new_textual_variants_proven===0,'fabricated printed/original collation');
- ensure(m?.sources===7&&m.studies===3&&m.sections===9&&m.claims===10&&m.unresolved_issues===4&&m.body_characters===2350,'unapproved metrics');
- ensure(p?.readers===513&&p.sources===723&&p.overviews===97&&p.selected_claims===22&&
-        p.v311_addenda===4&&p.v312_notes===2&&p.v313_studies===2&&p.v314_studies===2&&p.v315_studies===2,
-        'frozen manuscript/research counts');
- ensure(delivery.readers.length===513&&delivery.sources.length===723&&
-        delivery.source_verification.selected_claims.length===22&&crosswalk.entries.length===97,'legacy readers changed');
- ensure(delivery.ratification_event_v316?.chronology.length===4&&
-        delivery.attestation_wording_v315?.studies.length===2,'V3.16 or V3.15 lineage lost');
- const snapshot=JSON.stringify({
-  readers:delivery.readers,sources:delivery.sources,verification:delivery.source_verification,crosswalk,
-  v311:delivery.primary_passage_addenda,v312:delivery.latin_english_limited_concordance_v312,
+ check(v317?.version==='3.17'&&v317.status==='DRAFT'&&v317.depth==='MEDIUM','draft version');
+ check(v317.publication_gate&&Object.values(v317.publication_gate).every(v=>v===false),'publication HOLD');
+ const p=v317.preserve,m=v317.metrics,insp=v317.inspection;
+ check(p?.readers===513&&p.sources===723&&p.overviews===97&&p.selected_claims===22&&
+  p.v311_addenda===4&&p.v312_notes===2&&p.v313_studies===2&&p.v314_studies===2&&p.v315_studies===2&&
+  p.v316_ratification_reading===1&&p.v316_ratification_chronology===4,'upstream preservation contract');
+ check(m?.sources===7&&m.studies===3&&m.sections===9&&m.claims===10&&m.unresolved_issues===4&&m.body_characters===2446,'new research metrics');
+ check(insp?.original_print_pages_collated===0&&insp.original_diplomatic_pages_collated===0&&insp.new_textual_variants_proven===0,'fabricated original-page inspection');
+ check(delivery.readers?.length===513&&delivery.sources?.length===723&&
+  delivery.source_verification?.selected_claims?.length===22&&crosswalk.entries?.length===97,'original 513 reader baseline drift');
+ check(delivery.ratification_event_v316?.chronology?.length===4&&delivery.ratification_event_v316?.claims?.length===5,'V3.16 verified chronology drift');
+ const frozen=JSON.stringify({readers:delivery.readers,sources:delivery.sources,claims:delivery.source_verification,
+  crosswalk,v311:delivery.primary_passage_addenda,v312:delivery.latin_english_limited_concordance_v312,
   v313:delivery.edition_archive_provenance_v313,v314:delivery.source_attestation_v314,
-  v315:delivery.attestation_wording_v315,v316:delivery.ratification_event_v316,
-  publication_gate:delivery.publication_gate
- });
- const src=new Map();
- ensure(printing317.source_records?.length===7,'seven source records required');
- for(const s of printing317.source_records){
-  ensure(s.id&&!src.has(s.id)&&requiredIds.includes(s.id)&&['IPO','IPM','BOTH'].includes(s.work)&&
-        s.url?.startsWith('https://')&&s.tier&&s.verified?.length>=35&&s.boundary?.length>=22&&
-        s.original_pages_read===false,'unqualified source '+s.id);
-  src.set(s.id,s);
+  v315:delivery.attestation_wording_v315,v316:delivery.ratification_event_v316});
+ check(v317.source_records?.length===7&&v317.studies?.length===3&&v317.claim_cards?.length===10&&v317.issues?.length===4,'incomplete V317 structure');
+ const sources=new Map();
+ for(const s of v317.source_records){
+  check(s.id&&!sources.has(s.id)&&TIER.has(s.tier)&&s.work&&s.url?.startsWith('https://')&&s.verified&&s.boundary&&s.original_pages_read===false,'unqualified source '+s.id);
+  if(s.id==='STETTIN')check(s.tier==='DIGITAL_LIBRARY_LIVE_CATALOGUE_HTML'&&s.verified.includes('7월 27일')&&s.boundary.includes('미확인'),'Stettin publication certainty overstated');
+  if(s.id==='PADERBORN')check(s.tier==='DIGITAL_LIBRARY_LIVE_CATALOGUE_HTML'&&s.verified.includes('12:187744L'),'Paderborn catalogue identity drift');
+  if(s.id==='LWL741')check(s.tier==='SCHOLARLY_SEARCH_INDEX_ONLY'&&s.boundary.includes('유지관리'),'LWL indexed note promoted to live treaty original');
+  sources.set(s.id,s);
  }
- ensure(requiredIds.every(id=>src.has(id)),'missing source identity');
- ensure(src.get('STETTIN').tier==='CATALOGUE_SEARCH_INDEX'&&
-        src.get('STETTIN').boundary.includes('미검증'),'Stettin original or printing month overclaimed');
- ensure(src.get('LWL741').tier==='SCHOLARLY_SEARCH_INDEX_ONLY'&&
-        src.get('LWL741').boundary.includes('유지관리'),'blocked LWL source falsely upgraded');
- ensure(src.get('PADERBORN').tier==='LIBRARY_LIVE_HTML'&&
-        src.get('PADERBORN').verified.includes('VD17 12:187744L'),'Paderborn item unresolved');
- ensure(src.get('DDB1648').work==='IPM'&&src.get('PADERBORN').work==='IPO','IPO/IPM conflated');
- ensure(src.get('WS1649').tier==='EARLY_PRINT_MODERN_TRANSCRIPTION'&&
-        src.get('WS1649').work==='IPM','wrong historical printer witness');
- const parentIds=new Set(delivery.attestation_wording_v315.studies.map(x=>x.id));
- const validOverviews=new Set(crosswalk.entries.map(x=>x.overview_id));
- const notes=new Map();let bodyChars=0;
- ensure(printing317.studies?.length===3,'three bounded studies required');
- for(const study of printing317.studies){
-  ensure(study.id&&!notes.has(study.id)&&noteIds.includes(study.id)&&parentIds.has(study.parent_v315)&&
-   study.parent_v315==='V315-SIGNING'&&study.overviews?.length>0&&study.overviews.every(id=>validOverviews.has(id))&&
-   study.sources?.length>0&&study.sources.every(id=>src.has(id))&&study.question?.endsWith('?'),
-   'invalid study links '+study.id);
-  ensure(study.sections?.length===3&&study.sections.every(s=>s.heading&&s.body?.length>=200),
-   'insufficient middle-depth text '+study.id);
-  for(const section of study.sections)bodyChars+=section.body.length;
-  notes.set(study.id,study);
+ check(sources.get('DDB1648')?.work==='IPM'&&sources.get('WS1649')?.work==='IPM'&&sources.get('PADERBORN')?.work==='IPO','IPO/IPM conflation');
+ const parentIds=new Set(delivery.attestation_wording_v315.studies.map(s=>s.id));
+ const overviewIds=new Set(crosswalk.entries.map(o=>o.overview_id));
+ const studies=new Map();let count=0;
+ for(const s of v317.studies){
+  check(s.id?.startsWith('V317-')&&!studies.has(s.id)&&parentIds.has(s.parent_v315)&&
+   s.overviews?.every(k=>overviewIds.has(k))&&s.sources?.every(k=>sources.has(k))&&s.question?.endsWith('?'),'orphan study '+s.id);
+  check(s.sections?.length===3,'study requires exactly 3 sections');
+  for(const t of s.sections){check(t.heading&&t.body?.length>=180,'short section');count+=t.body.length;}
+  studies.set(s.id,s);
  }
- ensure(noteIds.every(id=>notes.has(id))&&bodyChars===m.body_characters,'research body or ID drift');
- const ids=new Set();
- ensure(printing317.claim_cards?.length===10,'ten bounded claims required');
- for(const c of printing317.claim_cards){
-  ensure(c.id&&!ids.has(c.id)&&c.source_ids?.length>0&&c.source_ids.every(id=>src.has(id))&&
-   c.statement?.length>=35&&c.level&&c.expert_approved===false&&c.original_witness_collated===false,
-   'unqualified historical assertion '+c.id);
-  ids.add(c.id);
+ check(count===m.body_characters,'body character checksum drift');
+ const claims=new Set();
+ for(const c of v317.claim_cards){
+  check(c.id&&!claims.has(c.id)&&c.statement?.length>=25&&c.source_ids?.length&&c.source_ids.every(id=>sources.has(id))&&c.level&&c.expert_approved===false&&c.original_witness_collated===false,'unsupported historical claim '+c.id);
+  claims.add(c.id);
  }
- ensure(ids.size===10,'duplicate claims');
- ensure(printing317.claim_cards.find(c=>c.id==='ST-2')?.level==='INDEXED_EDITORIAL_PROBABILITY'&&
-   printing317.claim_cards.find(c=>c.id==='ST-2')?.source_ids.includes('LWL741'),
-   'Stettin probability falsely stated as fact');
- ensure(printing317.claim_cards.find(c=>c.id==='IP-3')?.level==='PRINTER_SELF_ATTESTATION'&&
-   printing317.claim_cards.find(c=>c.id==='IP-3')?.source_ids.includes('WS1649'),
-   'publisher self-claim upgraded to official act');
- ensure(printing317.claim_cards.find(c=>c.id==='VE-2')?.level==='UNRESOLVED_VENUE_DETAIL',
-   'signing venue uncertainty incorrectly resolved');
- const issuesSeen=new Set();
- ensure(printing317.issues?.length===4,'unresolved-issue registry incomplete');
- for(const q of printing317.issues){
-  ensure(q.id&&!issuesSeen.has(q.id)&&issues.includes(q.id)&&
-  ['UNRESOLVED','NOT_COLLATED'].includes(q.status)&&q.issue,
-  'unsupported resolution of historical conflict');
-  issuesSeen.add(q.id);
+ const issues=new Map();
+ for(const x of v317.issues){
+  check(x.id&&!issues.has(x.id)&&['UNRESOLVED','NOT_COLLATED'].includes(x.status)&&x.issue?.length>15,'issue status prematurely resolved');
+  issues.set(x.id,x);
  }
- ensure(issues.every(id=>issuesSeen.has(id)),'lost unresolved issue');
- const expectedDates=['1648-10-24','1648-10-25','1649-02-18','1649-02-21'];
- ensure(JSON.stringify(delivery.ratification_event_v316.chronology.map(x=>x.date))===
-        JSON.stringify(expectedDates),'parent ratification chronology modified');
- delivery.version='3.17';
- delivery.kind='SCOPED_EARLY_TREATY_PRINT_WITNESS_513_EDITORIAL_PREVIEW';
- delivery.treaty_print_witnesses_v317={
-  source_records:structuredClone(printing317.source_records),
-  medium_studies:structuredClone(printing317.studies),
-  claim_cards:structuredClone(printing317.claim_cards),
-  unresolved_issues:structuredClone(printing317.issues),
-  evidence_boundaries:{
-   original_print_pages_read:0,original_diplomatic_pages_read:0,textual_variants_proven:0,
-   Stettin_print_month:'PROBABLE_IN_INDEX_NOT_WITNESS_VERIFIED',
-   privileged_print_status:'PRINTER_SELF_CLAIM_NOT_OFFICIAL_CRITICAL_EDITION',
-   signing_venue:'NOT_ALL_PARTICIPANTS_MAPPED'
-  }
- };
- delivery.editorial_audit.v317_print_witnesses={
-  study_notes:3,sections:9,source_records:7,claim_cards:10,unresolved_issues:4,
-  body_characters:bodyChars,original_witnesses_collated:0,historian_approved:false,actual_app_updated:false
- };
- delivery.editorial_note+=' / V3.17 슈테틴 선행 인쇄 가능성·독일어 조약 서지·정본 권위·다중 서명장소 연구 3편. 기존 513편 및 V3.16 비준 연대기는 동결.';
- ensure(JSON.stringify({
-  readers:delivery.readers,sources:delivery.sources,verification:delivery.source_verification,crosswalk,
-  v311:delivery.primary_passage_addenda,v312:delivery.latin_english_limited_concordance_v312,
+ check(issues.size===4&&issues.has('STETTIN_MONTH')&&issues.has('PRINT_VARIANTS')&&issues.has('SIGNING_VENUE')&&issues.has('PRINT_AUTHORITY'),'must preserve four open questions');
+ check(v317.cautions?.some(x=>x.includes('슈테틴'))&&v317.cautions?.some(x=>x.includes('특허')),'scope caveats lost');
+ delivery.version='3.17';delivery.kind='PRE_SIGNING_PRINTS_513_EDITORIAL_SCOPED_BUNDLE';
+ delivery.early_print_witness_v317={source_records:structuredClone(v317.source_records),studies:structuredClone(v317.studies),claim_cards:structuredClone(v317.claim_cards),issues:structuredClone(v317.issues),cautions:[...v317.cautions]};
+ delivery.editorial_audit.v317_print_witnesses={sources:7,readings:3,sections:9,claims:10,unresolved_issues:4,body_characters:count,
+  archival_pages_collated:0,proven_textual_variants:0,historian_approved:false,actual_app_updated:false};
+ delivery.editorial_note+=' / V3.17 조약 서명 이전 인쇄 가능성·특권 인쇄·체결 장소의 사료 간 차이를 비공개 연구 부록으로 추가.';
+ check(JSON.stringify({readers:delivery.readers,sources:delivery.sources,claims:delivery.source_verification,
+  crosswalk,v311:delivery.primary_passage_addenda,v312:delivery.latin_english_limited_concordance_v312,
   v313:delivery.edition_archive_provenance_v313,v314:delivery.source_attestation_v314,
-  v315:delivery.attestation_wording_v315,v316:delivery.ratification_event_v316,
-  publication_gate:delivery.publication_gate
- })===snapshot,'existing history/chronology changed');
- ensure(Object.values(delivery.publication_gate).every(v=>v===false),'publication released');
- return {delivery,crosswalk,getPrintStudiesForV315(id){
-  ensure(parentIds.has(id),'unknown V3.15 study');
-  return structuredClone(printing317.studies.filter(x=>x.parent_v315===id).map(x=>({
-   ...x,source_records:x.sources.map(k=>src.get(k)),
-   evidence_cards:printing317.claim_cards.filter(c=>c.source_ids.some(k=>x.sources.includes(k)))
-  })));
+  v315:delivery.attestation_wording_v315,v316:delivery.ratification_event_v316})===frozen,'previous corpus or research mutated');
+ check(Object.values(delivery.publication_gate).every(v=>v===false),'HOLD bypass');
+ return {delivery,crosswalk,getPrintWitnessStudiesForV315(id){
+  check(parentIds.has(id),'unknown V315 parent');
+  return structuredClone(v317.studies.filter(x=>x.parent_v315===id).map(x=>({...x,
+    source_records:x.sources.map(k=>sources.get(k)),
+    claim_cards:v317.claim_cards.filter(c=>c.source_ids.some(k=>x.sources.includes(k)))})));
  }};
 }

@@ -1,0 +1,82 @@
+{
+  "version": "3.17.1",
+  "status": "DRAFT",
+  "purpose": "Correlate contradictory-seeming secondary publication chronology with catalogued early IPO German text without claiming a textual variant or invalidating already-pinned V3.17 research.",
+  "reviewed_on": "2026-11-06",
+  "canonical_research": {
+    "path": "data/deep/atlas_v317_pre_signing_prints_and_witnesses.json",
+    "gitBlobSha1": "bc32d084b1b4f4698e006ba1d3c255f9a50f2d32",
+    "source_count": 7,
+    "studies": 3,
+    "body_characters": 2446
+  },
+  "publication_gate": {
+    "published": false,
+    "main_changed": false,
+    "webapp_integrated": false,
+    "historian_approved": false
+  },
+  "unresolved_comparisons": [
+    {
+      "id": "V317-F1",
+      "topic": "IPO German 1648 catalogue versus historical synopsis of German translation in 1649",
+      "earlier_source": {
+        "url": "https://digital.ub.uni-paderborn.de/eab/content/titleinfo/6954957",
+        "evidence": "DIRECTLY_VISIBLE_LIBRARY_CATALOGUE",
+        "source_id": "PADERBORN",
+        "locator": "Published 1648; title references 27 July/6 August negotiations, 24/14 October signature and 25/15 October proclamation; VD17 12:187744L"
+      },
+      "later_source": {
+        "url": "https://www.historisches-lexikon-bayerns.de/Lexikon/Westf%C3%A4lischer_Friede,_1648",
+        "evidence": "MODERN_ACADEMIC_HISTORICAL_SYNOPSIS",
+        "locator": "Überlieferung und Quellenlage: Instrumentum Pacis Osnabrugensis German and Swedish translations 1649; contrast IPM German 1648"
+      },
+      "observed_difference": "1648년 IPO 독일어 인쇄본이 서지상 실재하지만 현대 개관은 IPO 독일어 번역의 유통 시기를 1649년으로 서술한다.",
+      "possible_explanations": [
+        "개관이 특정한 공인 번역이나 처음의 광범위한 유통 시점을 요약했을 가능성",
+        "서지 기술 범주가 달라 날짜가 달라 보일 가능성",
+        "개관의 간략한 연대 기술 오류 가능성"
+      ],
+      "conclusion": "UNRESOLVED",
+      "primary_print_pages_collated": false,
+      "next_check": "1648년 파더보른본과 1649년판의 표제·서문·동일 조항을 실제 스캔으로 비교하고, 현대 개관의 1649년 기술이 어떤 번역·인쇄본을 대상으로 하는지 확인"
+    },
+    {
+      "id": "V317-F2",
+      "topic": "Stettin 1648 catalogue and editorial probable August pre-signing printing",
+      "earlier_source": {
+        "url": "https://zbc.ksiaznica.szczecin.pl/dlibra/publication/1475/edition/1224",
+        "evidence": "PREVIOUSLY_RECORDED_LIBRARY_CATALOGUE; CURRENT_BROWSER_TIMEOUT",
+        "source_id": "STETTIN",
+        "locator": "Stettin Rhetianis [1648], catalogue title mentions agreement/readings 27 July/6 August 1648; shelfmark XVII.2424.I"
+      },
+      "later_source": {
+        "url": "https://www.lwl.org/westfaelische-geschichte/portal/Internet/finde/langDatensatz.php?urlID=741&url_tabelle=tab_quelle",
+        "evidence": "INDEXED_ACADEMIC_EDITORIAL_TEXT; CURRENT_DIRECT_PAGE_MAINTENANCE",
+        "source_id": "LWL741",
+        "locator": "Probabilistic 'Ältester Druck dürfte ... bereits im August 1648 ... Stettin'"
+      },
+      "observed_difference": "서지의 연도 [1648]과 표제의 7월·8월 협상 내용은 특정 인쇄일의 직접 증거가 아니며, 8월 선행 인쇄설은 학술 편집자의 추정이다.",
+      "possible_explanations": [
+        "슈테틴 인쇄가 최종 서명 전에 진행된 일부 합의 텍스트였을 가능성",
+        "도서관에 등록된 인쇄본과 편집자 언급 별쇄본의 식별 동정이 추가 필요"
+      ],
+      "conclusion": "UNRESOLVED",
+      "primary_print_pages_collated": false,
+      "next_check": "동일 서가번호 XVII.2424.I의 표제·권말·쪽수 스캔과 LWL 해설의 인용 서지를 교차 대조해 인쇄 시점·문헌 동일성을 조사"
+    }
+  ],
+  "carry_forward_safeguards": [
+    "V3.16 비준 연대기의 1648-10-24·1648-10-25·1649-02-18·1649-02-21 네 사건을 수정하지 않는다.",
+    "IPO와 IPM의 조약 당사자 및 인쇄본 계열을 구분한다.",
+    "문헌 서지에서 확인한 1648년 간행과 조약 체결 시점은 별개다.",
+    "현대 연구 편집자의 확률 표현을 증명된 인쇄일로 승격하지 않는다.",
+    "실제 서로 다른 본문 이문이 확인됐다고 주장하지 않는다."
+  ],
+  "metrics": {
+    "open_comparisons": 2,
+    "archival_pages_collated": 0,
+    "verified_variants": 0,
+    "legacy_readers": 513
+  }
+}
