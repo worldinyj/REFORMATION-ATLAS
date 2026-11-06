@@ -1,7 +1,7 @@
 /** V3.16 editorial research: distinguish pre-signing imprints, signed instruments and later authority claims. */
 import {assembleV315} from '../medium-atlas-v315/overlay.mjs';
 const guard=(v,m)=>{if(!v)throw Error('V316 witness-and-print: '+m);};
-const TIERS=new Set(['DIGITAL_LIBRARY_CATALOGUE_INDEXED','LIBRARY_LIVE_HTML','INSTITUTION_LIVE_HTML',
+const TIERS=new Set(['CATALOGUE_SEARCH_INDEX','LIBRARY_LIVE_HTML','INSTITUTION_LIVE_HTML',
  'SCHOLARLY_SEARCH_INDEX_ONLY','HISTORIAN_LIVE_HTML','LIBRARY_LIVE_METADATA','EARLY_PRINT_MODERN_TRANSCRIPTION']);
 const BASE={sources:7,studies:3,sections:9,claims:10,unresolved_issues:4,body_characters:2350};
 export function assembleV316(inputs,a309,a310,v311,v312,v313,v314,v315,v316){
@@ -29,7 +29,7 @@ export function assembleV316(inputs,a309,a310,v311,v312,v313,v314,v315,v316){
    s.original_pages_read===false,'bad witness/source record '+s.id);
   sourceMap.set(s.id,s);
  }
- guard(sourceMap.get('STETTIN')?.tier==='DIGITAL_LIBRARY_CATALOGUE_INDEXED'&&
+ guard(sourceMap.get('STETTIN')?.tier==='CATALOGUE_SEARCH_INDEX'&&
   sourceMap.get('STETTIN').boundary.includes('미검증'),'Stettin image falsely claimed');
  guard(sourceMap.get('LWL741')?.tier==='SCHOLARLY_SEARCH_INDEX_ONLY'&&
   sourceMap.get('LWL741').boundary.includes('유지관리'),'LWL blocked text promoted');

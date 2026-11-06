@@ -28,7 +28,7 @@ test('513 manuscripts, 723 sources, 97 overview rows and all V3.11–15 research
 });
 test('Stettin historical print, Paderborn German IPO, separate IPM and institutional Austrian source remain differentiated',()=>{
  const o=new Map(f.source_records.map(x=>[x.id,x]));
- assert.equal(o.get('STETTIN').tier,'DIGITAL_LIBRARY_CATALOGUE_INDEXED');
+ assert.equal(o.get('STETTIN').tier,'CATALOGUE_SEARCH_INDEX');
  assert.equal(o.get('LWL741').tier,'SCHOLARLY_SEARCH_INDEX_ONLY');
  assert.equal(o.get('PADERBORN').work,'IPO');
  assert.equal(o.get('WS1649').work,'IPM');
