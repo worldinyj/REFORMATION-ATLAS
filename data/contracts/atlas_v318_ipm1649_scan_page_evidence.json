@@ -1,0 +1,409 @@
+{
+  "version": "3.18",
+  "status": "DRAFT",
+  "depth": "MEDIUM",
+  "inspection_date": "2026-11-06",
+  "purpose": "Move from bibliographic discovery to physically visible scan-page anchors in a 1649 IPM print, while explicitly withholding any invented 1648-vs-1649 page-to-page or textual variant claim.",
+  "publication_gate": {
+    "published": false,
+    "main_changed": false,
+    "webapp_integrated": false,
+    "historian_approved": false
+  },
+  "preserve": {
+    "readers": 513,
+    "sources": 723,
+    "overviews": 97,
+    "selected_claims": 22,
+    "v311_addenda": 4,
+    "v312_notes": 2,
+    "v313_studies": 2,
+    "v314_studies": 2,
+    "v315_studies": 2,
+    "v316_ratification_events": 4,
+    "v317_studies": 3,
+    "v317_claims": 10
+  },
+  "source_records": [
+    {
+      "id": "IPM49-SCAN-TITLE",
+      "work": "IPM",
+      "edition_year": 1649,
+      "kind": "DIRECT_PRINT_PAGE_SCAN_VISUALLY_INSPECTED",
+      "url": "https://de.wikisource.org/wiki/Seite:Westfaelischer_Friede_IPM_1649_001.jpg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Westfaelischer_Friede_IPM_1649_001.jpg",
+      "locator": "Wikisource scan file 001, unnumbered title leaf; printed M. DC. XLIX.",
+      "inspected": "1649년 인쇄본 표제지 스캔의 출판인·인쇄소·출판연도 및 뮌스터 조약 표제 직접 시각 판독",
+      "limit": "Wikisource 1649년 소장본의 표제지 한 면만 판독, 1648년 대응 표제지 직접 판독 아님"
+    },
+    {
+      "id": "IPM49-SCAN-PREFACE",
+      "work": "IPM",
+      "edition_year": 1649,
+      "kind": "DIRECT_PRINT_PAGE_SCAN_VISUALLY_INSPECTED",
+      "url": "https://de.wikisource.org/wiki/Seite:Westfaelischer_Friede_IPM_1649_003.jpg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Westfaelischer_Friede_IPM_1649_003.jpg",
+      "locator": "Wikisource scan file 003, printed p. 5, An den Leser",
+      "inspected": "1649년 인쇄된 5쪽 독자 서문 이미지에서 출판인의 독점권·원본에 근거한 사본·오스나브뤼크·스웨덴 언급을 시각 판독",
+      "limit": "서문의 출판인 자기주장을 조약의 법적 정본 인증으로 승인하지 않음"
+    },
+    {
+      "id": "IPM49-SCAN-PRIVILEGE",
+      "work": "IPM",
+      "edition_year": 1649,
+      "kind": "DIRECT_PRINT_PAGE_SCAN_VISUALLY_INSPECTED",
+      "url": "https://de.wikisource.org/wiki/Seite:Westfaelischer_Friede_IPM_1649_004.jpg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Westfaelischer_Friede_IPM_1649_004.jpg",
+      "locator": "Wikisource scan file 004, printed p. 6, Käyserl. Privilegium",
+      "inspected": "1649년 인쇄된 6쪽 황제 인쇄특허의 표제·페르디난트 3세 이름과 출판인 피셔의 청원 서두를 시각 판독",
+      "limit": "특허 전체 조항·말미의 날짜를 이 한 장만으로 결론내지 않음"
+    },
+    {
+      "id": "IPM49-WIKISOURCE-INDEX",
+      "work": "IPM",
+      "edition_year": 1649,
+      "kind": "DIGITAL_EDITION_INDEX_AND_TRANSCRIPTION_RULES",
+      "url": "https://de.wikisource.org/wiki/Index:Westf%C3%A4lischer_Friede_-_Vertrag_von_M%C3%BCnster",
+      "image_url": null,
+      "locator": "Wikisource index: title leaf, prefatory page, imperial privilege; transcription standards and original holding links",
+      "inspected": "1649년 독일어본의 이미지-면 연결 및 장모음 s와 I/J·약자 처리 등 전사규칙 확인",
+      "limit": "위키문헌의 전사는 역사 인쇄본의 사진과 동일한 증거 형태가 아니며 변환규칙이 존재"
+    },
+    {
+      "id": "IPM48-BSB-DDB-CATALOGUE",
+      "work": "IPM",
+      "edition_year": 1648,
+      "kind": "LIBRARY_METADATA_ONLY_NO_ORIGINAL_PAGE_IMAGE",
+      "url": "https://www.deutsche-digitale-bibliothek.de/item/UHH4CUHEUTTSABSGCT7RJDUJXKFVJHM3",
+      "image_url": null,
+      "locator": "BSB, VD17 12:187750M, 4 J.publ.e. 134 h#Beibd.3; Mainz Heyll / Frankfurt Fischer, M. DC. XLVIII, 8+62 pp.",
+      "inspected": "1648년 독일어 뮌스터 조약 도서관 서명·출판인·간행연도·판식·서지번호 및 VD17 14:017914B 비동일성 주석 확인",
+      "limit": "1648년 실물 표제지·서문·조항 이미지 직접 판독은 미실시; 서지의 '비동일'은 해당 VD17 다른 인쇄물에 관한 것"
+    },
+    {
+      "id": "IPO48-PADERBORN-METADATA",
+      "work": "IPO",
+      "edition_year": 1648,
+      "kind": "LIBRARY_CATALOGUE_AND_IIIF_RANGE_METADATA_NOT_PAGE_SCAN",
+      "url": "https://digital.ub.uni-paderborn.de/eab/content/titleinfo/6954957",
+      "image_url": null,
+      "locator": "Paderborn VD17 12:187744L; IIIF manifest /i3f/v20/6954957/manifest, ranges Title page and An den Leser and imperial privilege",
+      "inspected": "1648년 IPO 독일어본의 서지와 IIIF 목차상 표제·서문·특허 항목이 존재하는 것 확인",
+      "limit": "해당 조약은 IPM이 아닌 IPO이며 IIIF 캔버스의 실제 픽셀 사진을 이 단계에서 직접 판독하지 못함"
+    },
+    {
+      "id": "IPM49-WIKISOURCE-TRANSCRIPTION",
+      "work": "IPM",
+      "edition_year": 1649,
+      "kind": "MODERN_TRANSCRIPTION_PAIRED_TO_THREE_DIRECTLY_READ_SCAN_PAGES",
+      "url": "https://de.wikisource.org/wiki/Westf%C3%A4lischer_Friede_%E2%80%93_Vertrag_von_M%C3%BCnster",
+      "image_url": null,
+      "locator": "Wikisource 1649 transcribed title, 'An den Leser', 'Käyserl. Privilegium', anchored to files 001/003/004",
+      "inspected": "전사된 해당 부분과 세 장의 인쇄 스캔을 대조하여 내용 위치를 확인함",
+      "limit": "전체 62쪽 또는 모든 전사 조항에 대한 전면 이미지 대조는 아님"
+    }
+  ],
+  "scan_page_anchors": [
+    {
+      "id": "SCAN-1649-TITLE",
+      "source_id": "IPM49-SCAN-TITLE",
+      "file_seq": 1,
+      "printed_page": null,
+      "printed_heading": "Friedens-Schluß",
+      "image_inspected": true,
+      "observations": [
+        "뮌스터에서 1648년 10월 24/14일 서명하고 25/15일 공표했다는 조약 제목",
+        "마인츠 인쇄소 Nicolaus Heyll, 프랑크푸르트 발행인 Philipp Jacob Fischer",
+        "1649년을 뜻하는 M. DC. XLIX.가 표제지 아래에 인쇄됨"
+      ],
+      "not_established": "1648년 도서관 소장본의 표제지 이미지와의 동일 위치 면별 대조"
+    },
+    {
+      "id": "SCAN-1649-PREFACE",
+      "source_id": "IPM49-SCAN-PREFACE",
+      "file_seq": 3,
+      "printed_page": 5,
+      "printed_heading": "An den Leser",
+      "image_inspected": true,
+      "observations": [
+        "서문은 다른 인쇄가 원본에 맞지 않을 수 있다는 출판인 주장을 표현",
+        "마인츠 제국 행정기록의 authenticam Copiam 제공·독점 인쇄를 언급",
+        "오스나브뤼크의 회의와 스웨덴 쪽 Instrumentum Pacis를 서문 안에서 언급"
+      ],
+      "not_established": "IPM 조약 본문을 IPO로 판정하거나 1648년 인쇄본과 문장 이문을 확정할 수 없음"
+    },
+    {
+      "id": "SCAN-1649-PRIVILEGE",
+      "source_id": "IPM49-SCAN-PRIVILEGE",
+      "file_seq": 4,
+      "printed_page": 6,
+      "printed_heading": "Käyserl. Privilegium",
+      "image_inspected": true,
+      "observations": [
+        "특허 표제와 페르디난트 3세의 이름",
+        "필리프 야코프 피셔의 출판 준비 및 모방 인쇄 우려에 관한 청원 서두"
+      ],
+      "not_established": "이 장만으로 특허의 전체 적용 범위나 조약 정본의 법적 판본 지위를 최종 판정하지 않음"
+    }
+  ],
+  "historical_claim_cards": [
+    {
+      "id": "V318-C01",
+      "source_ids": [
+        "IPM49-SCAN-TITLE"
+      ],
+      "statement": "1649년 뮌스터 조약 독일어 인쇄본의 표제지 스캔에서 간행년 M. DC. XLIX.가 직접 확인된다.",
+      "evidence": "VISUALLY_READ_PRINT_SCAN",
+      "scope": "printed title leaf scan 001",
+      "original_diplomatic_witness_collated": false,
+      "expert_approved": false
+    },
+    {
+      "id": "V318-C02",
+      "source_ids": [
+        "IPM49-SCAN-TITLE"
+      ],
+      "statement": "1649년판 제목은 1648년의 서명·공표 날짜와 1649년의 인쇄 발행 날짜를 별도로 적는다.",
+      "evidence": "VISUALLY_READ_PRINT_SCAN",
+      "scope": "scan 001 title/imprint",
+      "original_diplomatic_witness_collated": false,
+      "expert_approved": false
+    },
+    {
+      "id": "V318-C03",
+      "source_ids": [
+        "IPM49-SCAN-TITLE"
+      ],
+      "statement": "해당 인쇄본은 마인츠의 니콜라우스 하일과 프랑크푸르트의 필리프 야코프 피셔를 각각 인쇄·출판 관계자로 표기한다.",
+      "evidence": "VISUALLY_READ_PRINT_SCAN",
+      "scope": "scan 001 imprint",
+      "original_diplomatic_witness_collated": false,
+      "expert_approved": false
+    },
+    {
+      "id": "V318-C04",
+      "source_ids": [
+        "IPM49-SCAN-PREFACE"
+      ],
+      "statement": "인쇄된 5쪽은 'An den Leser' 서문으로 시작하며 원본에 근거한 사본을 이용했다는 출판인 설명을 담는다.",
+      "evidence": "VISUALLY_READ_PRINT_SCAN",
+      "scope": "scan 003 printed p.5",
+      "original_diplomatic_witness_collated": false,
+      "expert_approved": false
+    },
+    {
+      "id": "V318-C05",
+      "source_ids": [
+        "IPM49-SCAN-PREFACE"
+      ],
+      "statement": "1649년 IPM 서문에 오스나브뤼크·스웨덴 관련 조약을 지칭하는 표현이 나타나지만 이는 서문의 문맥이다.",
+      "evidence": "VISUALLY_READ_PRINT_SCAN_WITH_SCOPE_GUARD",
+      "scope": "scan 003 printed p.5",
+      "original_diplomatic_witness_collated": false,
+      "expert_approved": false
+    },
+    {
+      "id": "V318-C06",
+      "source_ids": [
+        "IPM49-SCAN-PRIVILEGE"
+      ],
+      "statement": "인쇄된 6쪽에는 황제 인쇄특허 표제가 있고 페르디난트 3세 및 출판인 피셔의 이름이 나타난다.",
+      "evidence": "VISUALLY_READ_PRINT_SCAN",
+      "scope": "scan 004 printed p.6",
+      "original_diplomatic_witness_collated": false,
+      "expert_approved": false
+    },
+    {
+      "id": "V318-C07",
+      "source_ids": [
+        "IPM48-BSB-DDB-CATALOGUE"
+      ],
+      "statement": "1648년 뮌스터 조약 독일어본은 VD17 12:187750M으로 등록되며 서지상 판년이 1648년이다.",
+      "evidence": "LIBRARY_CATALOGUE_NO_SCAN",
+      "scope": "DDB/BSB metadata",
+      "original_diplomatic_witness_collated": false,
+      "expert_approved": false
+    },
+    {
+      "id": "V318-C08",
+      "source_ids": [
+        "IPM48-BSB-DDB-CATALOGUE",
+        "IPM49-SCAN-TITLE"
+      ],
+      "statement": "1648년 IPM 서지와 1649년 IPM 실제 표제지에 같은 출판 관계자가 나타나지만 두 책의 조문 이문은 아직 대조되지 않았다.",
+      "evidence": "CROSS_LEVEL_CATALOGUE_VS_SCAN",
+      "scope": "1648 bibliographic metadata vs 1649 scanned imprint only",
+      "original_diplomatic_witness_collated": false,
+      "expert_approved": false
+    },
+    {
+      "id": "V318-C09",
+      "source_ids": [
+        "IPO48-PADERBORN-METADATA"
+      ],
+      "statement": "파더보른의 1648년 IPO IIIF 목록에는 표제·독자 서문·특허 항목이 있으나 뮌스터 조약과는 다른 외교문서다.",
+      "evidence": "OTHER_TREATY_IIIF_METADATA_ONLY",
+      "scope": "IPO metadata; no image pixels viewed",
+      "original_diplomatic_witness_collated": false,
+      "expert_approved": false
+    },
+    {
+      "id": "V318-C10",
+      "source_ids": [
+        "IPM49-WIKISOURCE-INDEX",
+        "IPM49-WIKISOURCE-TRANSCRIPTION"
+      ],
+      "statement": "Wikisource 전사는 장모음 s와 I/J 등의 표기를 정규화하므로 사진 자체와 전사의 표기 차이를 자동으로 판본 이문이라 판단하지 않는다.",
+      "evidence": "MODERN_TRANSCRIPTION_POLICY",
+      "scope": "index edition rules",
+      "original_diplomatic_witness_collated": false,
+      "expert_approved": false
+    }
+  ],
+  "medium_readings": [
+    {
+      "id": "V318-READING-IMPRINT",
+      "title": "1649년 뮌스터 조약 표제지를 직접 읽다: 사건의 날짜와 책의 날짜",
+      "parent_v317": "V317-PRINT-PRIVILEGE",
+      "overview_ids": [
+        "OV-E-024",
+        "OV-D-015"
+      ],
+      "source_ids": [
+        "IPM49-SCAN-TITLE",
+        "IPM48-BSB-DDB-CATALOGUE",
+        "IPM49-WIKISOURCE-INDEX"
+      ],
+      "sections": [
+        {
+          "heading": "출판년 1649와 서명년 1648은 서로 다른 표기",
+          "body": "1649년판 뮌스터 조약의 인쇄된 표제지 사진을 열람하면 1648년 10월 24일의 체결과 25일의 공표가 먼저 제시되고, 책의 하단에 출판년 1649년이 로마 숫자로 별도 적혀 있다. 그러므로 이 사료의 제목에 있는 1648년은 문서가 이야기하는 사건을 말하고, 권말이 아니라 표제지에 적힌 1649년은 인쇄물이 세상에 나온 해를 말한다. 베스트팔렌 평화를 시각화할 때 두 숫자 중 하나를 지워 버리면 조약의 법률적 성립과 인쇄·유통의 시간을 구별할 수 없다. 이번에는 표제지의 실제 픽셀을 눈으로 확인했으나 해당 인쇄본의 모든 조항을 읽은 것은 아니다."
+        },
+        {
+          "heading": "같은 인쇄소·출판인이라고 같은 판본인가",
+          "body": "표제지에는 마인츠의 니콜라우스 하일 인쇄소와 프랑크푸르트의 필리프 야코프 피셔가 기록돼 있다. 1648년 뮌스터 조약 인쇄본의 도서관 서지에도 같은 인쇄 및 출판 관계자가 기재된다. 따라서 출판 네트워크가 이어졌다는 사실은 근거가 있지만, 두 책이 한 판의 재인쇄인지 수정판인지 또는 본문에 다른 조항을 싣고 있는지는 아직 확정할 수 없다. 1648년 인쇄본은 바이에른주립도서관에 VD17 12:187750M으로 등록되어 있으나 이번에는 그 표제와 조항을 실제 이미지로 직접 보지 못했다. 앞으로 같은 문단을 똑같은 근거 수준에서 대조하려면 1648년 이미지의 접근과 책의 식별이 선행돼야 한다."
+        },
+        {
+          "heading": "서지의 비동일성 주석과 본문 이문은 다른 주장",
+          "body": "바이에른주립도서관과 독일 디지털도서관의 서지에는 1648년 뮌스터 조약 인쇄본이 다른 VD17 식별번호를 가진 인쇄물과 동일하지 않다는 주석이 붙어 있다. 그런데 이는 1648년의 인쇄 기록들 사이에 차이가 있다는 서지 기술일 뿐, 우리가 1648년과 1649년의 조문을 교감해 서로 다른 법률 조항을 발견했다는 뜻이 아니다. 일부 표제의 철자·축약이나 조판 차이 역시 실제 문헌 이문과 구별해야 한다. 연구 데이터에는 다른 인쇄물의 식별번호와 차이를 보여 주는 서지 문장을 유지하되, 어떤 문단의 어느 단어가 달라졌는지 지정되지 않았다면 조문 비교 결과를 0건으로 표시한다."
+        }
+      ],
+      "question": "같은 1648년 사건을 다루는 1649년 인쇄본을 역사 앱에서 어떻게 연도별로 구분해 보여야 할까?"
+    },
+    {
+      "id": "V318-READING-PREFACE",
+      "title": "1649년 인쇄된 5쪽: 출판인의 자기변호와 '진정한 사본'",
+      "parent_v317": "V317-PRINT-PRIVILEGE",
+      "overview_ids": [
+        "OV-E-024",
+        "OV-D-015"
+      ],
+      "source_ids": [
+        "IPM49-SCAN-PREFACE",
+        "IPM49-WIKISOURCE-TRANSCRIPTION",
+        "IPM49-SCAN-TITLE"
+      ],
+      "sections": [
+        {
+          "heading": "독자에게 설명한다는 형식의 출판 권위",
+          "body": "1649년 인쇄본의 다섯 번째 쪽은 독자에게 말을 건네는 서문으로 시작한다. 이 페이지에서 출판인은 무단 인쇄가 원본에 맞지 않을 가능성을 문제 삼고, 제국 및 마인츠 선제후 측의 인쇄 허가와 마인츠 기록 보관 당국에서 나온 사본을 근거로 책의 신뢰성을 설명한다. 스캔 사진에서 확인한 중요한 표현은 authenticam Copiam으로, 출판인은 자신이 인용한 문서의 출처를 보증하기 위해 사용한다. 이것은 출판인이 신뢰를 호소했다는 사료적 사실이지만, 현대 연구자가 원본 외교 문서와 인쇄본을 줄마다 교감해 완전한 정본이라고 인정한 것은 아니다."
+        },
+        {
+          "heading": "왜 뮌스터 조약 서문에 스웨덴과 오스나브뤼크가 등장하는가",
+          "body": "이 책의 표제에는 황제와 프랑스 왕권을 가리키는 표현과 뮌스터라는 지명이 나타난다. 그런데 같은 책의 독자 서문에는 오스나브뤼크에서 진행된 회의와 스웨덴 측이 포함된 평화조약 인쇄를 언급하는 문장도 나온다. 서문이 인쇄 특권과 다른 출판물의 무단 복제를 설명하면서 넓은 출판 사업의 맥락을 끌어온 것인지 더 조사해야 한다. 여기서는 이 두 자료 층위를 구별한다. 서문의 일부 문장을 떼어내어 이 책 본문의 법률 당사자가 프랑스가 아닌 스웨덴이었다고 해석하거나 뮌스터 조약과 오스나브뤼크 조약을 동일 문서라고 바꾸어서는 안 된다."
+        },
+        {
+          "heading": "스캔 이미지와 현대 전사의 역할",
+          "body": "독일어 위키문헌은 1649년판의 역사 인쇄 페이지를 이미지로 연결하면서 장모음 s, I/J, 약자 등에 대한 현대 전사규칙을 공개한다. 따라서 전사에서 정리한 철자와 원래 사진의 프락투어 활자가 조금 달라 보일 수 있다. 본문을 컴퓨터로 검색하거나 독자에게 쉽게 제시할 때 전사를 활용하는 것은 유익하지만, 정확한 철자나 줄바꿈·서체를 인용할 때에는 어느 자료가 원형인지 구분해야 한다. 이번 단계에서는 표제·독자 서문·특허의 세 사진을 직접 보았으며, 전체 조약 62쪽의 전사를 모두 사진과 비교했다고 표시하지 않는다. 사진 판독 건수와 문헌 전체의 교감 완료 건수를 따로 계산한다."
+        }
+      ],
+      "question": "출판인의 정본 사본 주장은 왜 고문서의 원본 증명과 현대 판본비평의 완료를 대신할 수 없을까?"
+    },
+    {
+      "id": "V318-READING-PRIVILEGE",
+      "title": "황제 인쇄특허의 첫 페이지: 인쇄 허가와 조약 권위의 거리",
+      "parent_v317": "V317-PRINT-PRIVILEGE",
+      "overview_ids": [
+        "OV-E-024",
+        "OV-D-015"
+      ],
+      "source_ids": [
+        "IPM49-SCAN-PRIVILEGE",
+        "IPM49-SCAN-PREFACE",
+        "IPM48-BSB-DDB-CATALOGUE"
+      ],
+      "sections": [
+        {
+          "heading": "인쇄된 '황제의 특허' 제목과 페르디난트 3세",
+          "body": "1649년 인쇄본의 여섯 번째 쪽에는 황제 인쇄특허라는 제목이 큼직하게 인쇄되어 있고, 페르디난트 3세의 이름과 황제 칭호가 그 아래에서 이어진다. 이 페이지의 서두에는 필리프 야코프 피셔가 평화협상의 문서를 출판할 계획이며 다른 이가 이를 허가 없이 복제할 경우 손실이 발생할 수 있다는 우려가 담겨 있다. 사진으로 실제 확인한 것은 그 출판 특허의 도입부다. 특허문 전체의 종료 문장, 서명 날짜, 벌금의 구체적 적용 등을 이 한 장만으로 완전히 검토했다고 말할 수 없다. 한 장의 사진이 어떤 질문에 답하는지 범위를 명확하게 남긴다."
+        },
+        {
+          "heading": "출판과 공법적 효력을 다른 문서에서 판정한다",
+          "body": "출판에 대한 황제의 허가가 있었다는 사실은 책을 제작하고 판매할 권리에 관한 역사적 설명을 제공한다. 그러나 평화조약은 황제·제국 측과 프랑스, 또는 스웨덴 사이에서 체결된 별도의 외교 문서이며, 그 문서의 효력은 인쇄 권한만으로 설명되지 않는다. 특히 뮌스터 IPM과 오스나브뤼크 IPO의 문서 계열을 구별해야 한다. 1649년 특허 서문이 원본에서 가져온 사본을 언급하더라도 그 말은 출판인이 제출한 권위 주장에 속한다. 공적 정본이라는 더 강한 결론을 내리려면 서명 원본문서와 여러 인쇄본을 실제로 교감한 독립적인 문헌 연구가 필요하다."
+        },
+        {
+          "heading": "1648년 대응 인쇄판을 열기 전에는 판본 차이를 말하지 않는다",
+          "body": "현재 확인한 사진은 1649년판의 표제지와 서문, 인쇄특허 시작 면이다. 1648년 IPM 인쇄본은 서지번호·출판지·간행연도 등은 확정할 수 있으나 해당 면의 실제 이미지를 이 환경에서 열지 못했다. 같은 원문 쪽수가 맞는지, 특허의 전사에 수정이 있는지, 출판인 명칭과 허가문 구성에 차이가 있는지 판단할 방법이 아직 없다. 그러므로 이번에 확인된 것은 1649년판 세 면의 사진과 1648년판 한 건의 도서관 서지 사이의 '자료 접근 수준 차이'이며 조문 이문은 0건이다. 앞으로의 연구 우선순위는 1648년 IPM의 표제지·독자 서문·황제특허 원판 이미지를 확보해 같은 구조에 따라 면별로 비교하는 것이다."
+        }
+      ],
+      "question": "특허문 첫 면의 사진에서 실제로 읽은 사실과 아직 읽지 못한 전체 특허 내용은 어떻게 구분해야 하는가?"
+    }
+  ],
+  "open_issues": [
+    {
+      "id": "IPM1648-IMAGE-ACCESS",
+      "status": "NOT_VIEWED",
+      "target": "1648 IPM same-work title, preface, imperial-privilege scan pages",
+      "evidence_needed": "BSB bsb10512056, VD17 12:187750M의 해당 면들을 직접 열람한 뒤 동일 부분 비교",
+      "variant_claim_prohibited": true
+    },
+    {
+      "id": "IPM1648-49-CLAUSE-DIFF",
+      "status": "NOT_COLLATED",
+      "target": "1648 vs 1649 IPM matched articles and translation wording",
+      "evidence_needed": "인쇄 페이지의 동일 조항·동일 단락 대조; 이미지와 현대 전사 처리규칙 차이를 분리",
+      "variant_claim_prohibited": true
+    },
+    {
+      "id": "PREFACE-IPO-REFERENCE",
+      "status": "PARTIALLY_OBSERVED_INTERPRETATION_OPEN",
+      "target": "Why IPM 1649 preface describes Swedish Osnabrück publication",
+      "evidence_needed": "1649 인쇄특허 나머지 면 및 다른 동시기 인쇄사업의 서문·출판특허 관행을 원사료와 대조",
+      "variant_claim_prohibited": true
+    },
+    {
+      "id": "IPO-IIIF-CANVAS",
+      "status": "METADATA_ONLY",
+      "target": "1648 IPO Paderborn actual pixels vs IIIF index",
+      "evidence_needed": "IIIF manifest에 열거된 Title page·An den Leser·Käyserliches Privilegium 캔버스별 이미지 직접 판독",
+      "variant_claim_prohibited": true
+    }
+  ],
+  "inspection_status": {
+    "scanned_1649_ipm_print_pages_directly_seen": 3,
+    "scanned_1648_ipm_print_pages_directly_seen": 0,
+    "scanned_1648_ipo_print_pages_directly_seen": 0,
+    "diplomatic_original_pages_directly_seen": 0,
+    "paired_1648_1649_original_print_paragraphs_collated": 0,
+    "confirmed_cross_edition_textual_variants": 0,
+    "wikisource_modern_transcription_distinguished": true
+  },
+  "methods": [
+    "직접 시각 판독한 스캔 페이지는 반드시 실제 파일 ID·인쇄 쪽수·관찰 범위로 제한",
+    "1648 IPM의 서지정보와 1649 IPM 인쇄 페이지는 서로 다른 증거 등급",
+    "1648 IPO IIIF 항목은 IPM이 아니므로 동일 작품의 1648/1649 교감 통계에 넣지 않음",
+    "1649년 서문의 IPO 관련 표현과 IPM 조약 본문 당사자를 혼동하지 않음",
+    "Wikisource 전사의 정규화 방식을 원래 인쇄물의 판본 이문으로 오인하지 않음"
+  ],
+  "metrics": {
+    "sources": 7,
+    "inspected_scan_pages": 3,
+    "claim_cards": 10,
+    "readings": 3,
+    "sections": 9,
+    "open_issues": 4,
+    "body_characters": 2841,
+    "printed_1648_to_1649_aligned_page_pairs": 0,
+    "new_verified_variants": 0
+  }
+}
