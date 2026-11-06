@@ -1,0 +1,23 @@
+name: Atlas V3.22 cross-document dates and ages integrity
+on:
+  push:
+    branches:
+      - research/atlas-v322-cross-document-date-age-gates
+  pull_request:
+    paths:
+      - 'data/contracts/atlas_v322_cross_document_date_age_gates.json'
+      - 'docs/02_RESEARCH/V322_CROSS_DOCUMENT_DATE_AGE_EDITION_AUDIT.md'
+      - 'integrations/medium-atlas-v322/**'
+      - '.github/workflows/atlas-v322-cross-document-gates.yml'
+jobs:
+  v322_cross_document_gate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify V3.21 baseline and V3.22 date age editions
+        run: node --test integrations/medium-atlas-v321/integration.test.mjs integrations/medium-atlas-v322/integration.test.mjs
