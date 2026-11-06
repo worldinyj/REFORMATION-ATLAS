@@ -1,0 +1,32 @@
+{
+  "version": "3.28",
+  "kind": "MEDIUM_HISTORICAL_RELATION_REVIEW_ONLY",
+  "status": "DRAFT_HOLD",
+  "data": "data/contracts/atlas_v328_methodist_1785_1789_witness_scope.json",
+  "script": "scripts/build_v328_methodist_rules_witness.mjs",
+  "tests": "integrations/medium-atlas-v328/integration.test.mjs",
+  "artifacts": [
+    "v328_methodist_1785_1789_claims.json",
+    "v328_methodist_edition_events.json",
+    "v328_primary_source_research_gaps.json"
+  ],
+  "counts": {
+    "sources": 11,
+    "edition_rows": 6,
+    "claims": 12,
+    "readings": 3,
+    "sections": 9,
+    "unresolved": 8
+  },
+  "gates": {
+    "main_changed": false,
+    "webapp_integrated": false,
+    "publication_ready": false,
+    "historian_approved": false
+  },
+  "limits": [
+    "1789 first General Rules printing is historical literature, not original 1789 page visual inspection",
+    "1789 membership probation extension and 1789 full Rules printing are distinct text-historical actions",
+    "1785 Cist Q16/Q17 original page not visually inspected"
+  ]
+}
