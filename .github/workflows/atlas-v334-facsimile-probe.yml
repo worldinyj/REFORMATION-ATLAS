@@ -5,6 +5,9 @@ on:
       - research/atlas-v334-cr27-facsimile-page-inspection
     paths:
       - '.github/workflows/atlas-v334-facsimile-probe.yml'
+  pull_request:
+    paths:
+      - '.github/workflows/atlas-v334-facsimile-probe.yml'
   workflow_dispatch:
 jobs:
   facsimile_probe:
