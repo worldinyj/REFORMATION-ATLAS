@@ -1,0 +1,639 @@
+{
+  "version": "3.35",
+  "status": "DRAFT",
+  "depth": "MEDIUM",
+  "research_date": "2026-11-07",
+  "publication_gate": {
+    "published": false,
+    "main_changed": false,
+    "webapp_integrated": false,
+    "historian_approved": false
+  },
+  "parent": {
+    "version": "3.34",
+    "pr": 176,
+    "head_sha": "d59615184f9ef785a1a2de02d2e4563fb35e2268",
+    "locked_parent_blob_sha": "cb15637d36a5c35c7a75489fa63938063fb7001e"
+  },
+  "preserve": {
+    "readers": 513,
+    "sections": 1539,
+    "source_records": 723,
+    "overviews": 97,
+    "curated_events": 26,
+    "typed_relations": 12,
+    "v334_direct_1859_latin_fragments": 4
+  },
+  "scope": "1573 Fabricius first full Latin Confutatio publication bibliography and 1587 second-edition distinction; 1859 CR27 verified locations remain prior, 1573 original folios inaccessible in tested environment. Braidense/BnF holdings do not equal inspected book leaf.",
+  "source_records": [
+    {
+      "id": "V335-S01",
+      "title": "BnF 1573 Fabricius first book holding",
+      "url": "https://catalogue.bnf.fr/ark:/12148/cb304145207",
+      "grade": "NATIONAL_LIBRARY_1573_IMPRINT_CATALOGUE",
+      "note": "Fabricius, Harmonia confessionis augustanae, Cologne Maternus Cholinus 1573, in folio 574 printed pages; copy D-952. No full 1573 leaf read.",
+      "direct_1573_folio_seen": false
+    },
+    {
+      "id": "V335-S02",
+      "title": "Braidense 1573 first edition holding",
+      "url": "https://opac.bibliotecabraidense.org/opac_braidense/opaclib?db=solr_braidense&do_cmd=search_show_cmd&from=1&item%3A8006%3ATitolo_uniforme%3A%40frase%40=SBL0086576&nentries=10&resultForward=opac%2Fbraidense%2Fbrief.jsp&searchForm=opac%2Fbraidense%2Ferror.jsp",
+      "grade": "INDEPENDENT_NATIONAL_LIBRARY_1573_HOLDING",
+      "note": "Actual Milan Braidense record BVEE009737, shelf F.16.0181, Cologne Maternus Cholinus 1573.",
+      "direct_1573_folio_seen": false
+    },
+    {
+      "id": "V335-S03",
+      "title": "Google Play 1573 Fabricius edition gTRj",
+      "url": "https://play.google.com/store/books/details/Andr%C3%A9_Lef%C3%A8vre_Fabricius_Harmonia_Confessionis_Augu?id=gTRjAAAAcAAJ",
+      "grade": "PLATFORM_1573_BOOK_METADATA",
+      "note": "1573 Cologne Maternus Cholinus, 574 pages, free ebook; full printed text/PDF NOT inspected.",
+      "direct_1573_folio_seen": false
+    },
+    {
+      "id": "V335-S04",
+      "title": "Google Play alternate 1573 scanned record jyq",
+      "url": "https://play.google.com/store/books/details/Andr%C3%A9_Lef%C3%A8vre_Harmonia_confessionis_augustanae_doc?id=jyq4gUPcJpwC",
+      "grade": "PLATFORM_ALTERNATE_1573_DIGITAL_RECORD",
+      "note": "1573 ebook record 592 pages, not assumed different edition from 574 printed pagination; exact physical collation unverified.",
+      "direct_1573_folio_seen": false
+    },
+    {
+      "id": "V335-S05",
+      "title": "UC Berkeley 1587 second edition rare-book record",
+      "url": "https://lawcat.berkeley.edu/record/287858",
+      "grade": "UNIVERSITY_LIBRARY_1587_SECOND_EDITION",
+      "note": "1587 Cologne Maternus Cholinus, 'Editio secunda, priori multo locupletior', 12 preliminary unnumbered, 515 printed, 1 unnumbered, 32cm folio. Distinct from 1573.",
+      "direct_1573_folio_seen": false
+    },
+    {
+      "id": "V335-S06",
+      "title": "Braidense 1587 second edition holding",
+      "url": "https://opac.braidense.it/bid/BVEE020975",
+      "grade": "UNIVERSITY_LIBRARY_1587_HOLDING",
+      "note": "1587 Braidense BVEE020975 independent confirmation; not to be used as if a 1573 original.",
+      "direct_1573_folio_seen": false
+    },
+    {
+      "id": "V335-S07",
+      "title": "Deutsche Biographie Fabricius historical profile",
+      "url": "https://www.deutsche-biographie.de/gnd128701307.html",
+      "grade": "BIOGRAPHICAL_HISTORICAL_SYNTHESIS",
+      "note": "Andreas Fabricius Catholic theologian; book first 1573 and later second edition 1587; identity not interchangeable with Johannes Faber.",
+      "direct_1573_folio_seen": false
+    },
+    {
+      "id": "V335-S08",
+      "title": "Philip Schaff 1573 first full Latin Confutation statement",
+      "url": "https://www.ccel.org/s/schaff/history/7_ch09.htm",
+      "grade": "NINETEENTH_CENTURY_HISTORIAN_FIRST_LATIN_PRINT_CLAIM",
+      "note": "Schaff reports first full Latin publication of Confutatio by Fabricius in Harmonia 1573, later 1808 German Mainz witness. Not a page photo of 1573.",
+      "direct_1573_folio_seen": false
+    },
+    {
+      "id": "V335-S09",
+      "title": "Deutsche Biographie Coelestin older ADB interpretation",
+      "url": "https://www.deutsche-biographie.de/gnd122885589.html?language=en",
+      "grade": "OLDER_SECONDARY_CONFESSION_AUTHENTICITY_CAUTION",
+      "note": "ADB Coelestin biography reports his 1597 Latin AC text was copied from a 1573 Fabricius reworking of an unsigned preliminary AC draft; polemical old assessment not independently confirmed by original 1573/1597 leaf comparisons.",
+      "direct_1573_folio_seen": false
+    },
+    {
+      "id": "V335-S10",
+      "title": "NYPL 1859 Corpus Reformatorum XXVII scan",
+      "url": "https://commons.wikimedia.org/wiki/File:Corpus_reformatorum_(IA_corpusreformato25melagoog).pdf",
+      "grade": "DIRECT_PRIOR_1859_CR27_PRINT_WITNESS",
+      "note": "V3.34 directly saw cols96,102-105 with PDF page70/73/74/75, 1859 printed witness, 1573 not directly viewed.",
+      "direct_1573_folio_seen": false
+    },
+    {
+      "id": "V335-S11",
+      "title": "BSB independent 1859 CR27 holding",
+      "url": "https://www.digitale-sammlungen.de/de/details/bsb10360389",
+      "grade": "SECOND_INSTITUTION_1859_METADATA",
+      "note": "BSB different 342-scan copy, not 1573 physical print and not independently page-collated.",
+      "direct_1573_folio_seen": false
+    },
+    {
+      "id": "V335-S12",
+      "title": "GitHub runner 1573 Google Books access results",
+      "url": "https://github.com/worldinyj/REFORMATION-ATLAS/actions/runs/42321490328",
+      "grade": "ACTUAL_PROBE_RESPONSE_METADATA",
+      "note": "Google reader endpoints HTTP 200 HTML; direct PDF attempts for both public 1573 IDs HTTP 403 text/html. No visual 1573 content page.",
+      "direct_1573_folio_seen": false
+    },
+    {
+      "id": "V335-S13",
+      "title": "Schaff creeds textual witness discussion",
+      "url": "https://www.ccel.org/ccel/schaff/creeds1/creeds1.viii.iii.html",
+      "grade": "HISTORIOGRAPHIC_CR27_LATIN_GERMAN_SCHOLARLY_EDITION",
+      "note": "1859 CR27 edited critical text with variants for Confutatio and Apology; can't assume apparatus sigla fully deciphered.",
+      "direct_1573_folio_seen": false
+    },
+    {
+      "id": "V335-S14",
+      "title": "Braidense catalogue precise first imprint record",
+      "url": "https://opac.braidense.it/bid/BVEE009737",
+      "grade": "FIRST_1573_HOLDING_CATALOGUE_ID",
+      "note": "Braidense 1573 item ID BVEE009737, distinguish 1587 BVEE020975.",
+      "direct_1573_folio_seen": false
+    }
+  ],
+  "witness_nodes": [
+    {
+      "id": "V335-E01",
+      "year": 1530,
+      "work": "AUGSBURG_CONFESSION_GERMAN_LATIN_PRESENTATION",
+      "note": "Original submission and public reading, 1530 signed version; no original leaves in this session",
+      "source_ids": [
+        "V335-S09",
+        "V335-S13"
+      ],
+      "direct_1573_edition_page": false
+    },
+    {
+      "id": "V335-E02",
+      "year": 1530,
+      "work": "CATHOLIC_CONFUTATION_IMPERIAL_GERMAN_READING",
+      "note": "Catholic reply read Aug 3 1530, not independently published as Latin then",
+      "source_ids": [
+        "V335-S08"
+      ],
+      "direct_1573_edition_page": false
+    },
+    {
+      "id": "V335-E03",
+      "year": 1531,
+      "work": "COCHLAEUS_BRIEF_EXCERPT",
+      "note": "Summary publication was not first full Latin Confutatio printing",
+      "source_ids": [
+        "V335-S08"
+      ],
+      "direct_1573_edition_page": false
+    },
+    {
+      "id": "V335-E04",
+      "year": 1573,
+      "work": "FABRICIUS_HARMONIA_FIRST_PRINT",
+      "note": "Cologne Maternus Cholinus 574-page folio; collection containing imperial judgment reported by historians as first full Latin Confutatio printed witness",
+      "source_ids": [
+        "V335-S01",
+        "V335-S02",
+        "V335-S08"
+      ],
+      "direct_1573_edition_page": false
+    },
+    {
+      "id": "V335-E05",
+      "year": 1587,
+      "work": "FABRICIUS_HARMONIA_RICHER_SECOND_PRINT",
+      "note": "Editio secunda priori multo locupletior, 12+515+1 pages; never silently substitute for 1573 original",
+      "source_ids": [
+        "V335-S05",
+        "V335-S06"
+      ],
+      "direct_1573_edition_page": false
+    },
+    {
+      "id": "V335-E06",
+      "year": 1597,
+      "work": "COELESTIN_HISTORIA_SECOND_EDITION_LATIN_CONFESSION",
+      "note": "Older ADB reports 1597 Latin confession text depended on Fabricius's 1573 edited version of an unsigned draft; requires independent primary verification",
+      "source_ids": [
+        "V335-S09"
+      ],
+      "direct_1573_edition_page": false
+    },
+    {
+      "id": "V335-E07",
+      "year": 1808,
+      "work": "MUELLER_GERMAN_CONFUTATIO_FROM_MAINZ_WITNESS",
+      "note": "Schaff reports German critical edition based on Mainz archival witness",
+      "source_ids": [
+        "V335-S08"
+      ],
+      "direct_1573_edition_page": false
+    },
+    {
+      "id": "V335-E08",
+      "year": 1859,
+      "work": "CORPUS_REFORMATORUM_27_EDITORIAL_CRITICAL_PRINT",
+      "note": "1859 scholarly edition with Latin Confutatio clauses directly inspected in V3.34, manuscript variants not fully collated",
+      "source_ids": [
+        "V335-S10",
+        "V335-S11",
+        "V335-S13"
+      ],
+      "direct_1573_edition_page": false
+    }
+  ],
+  "typed_relations": [
+    {
+      "id": "V335-R01",
+      "type": "HISTORIOGRAPHIC_FIRST_FULL_LATIN_PUBLICATION",
+      "from": "V335-E02",
+      "to": "V335-E04",
+      "source_ids": [
+        "V335-S08",
+        "V335-S01"
+      ],
+      "note": "Schaff says full Latin text of the 1530 Confutatio was first published in Fabricius 1573. Same wording of 1530 oral German and 1573 Latin not proven.",
+      "exact_1573_1859_word_pairs_compared": 0
+    },
+    {
+      "id": "V335-R02",
+      "type": "SEPARATE_REVISED_SECOND_EDITION",
+      "from": "V335-E04",
+      "to": "V335-E05",
+      "source_ids": [
+        "V335-S05",
+        "V335-S07"
+      ],
+      "note": "1587 second edition is advertised substantially more extensive and has distinct pagination; no exact internal passages yet collated.",
+      "exact_1573_1859_word_pairs_compared": 0
+    },
+    {
+      "id": "V335-R03",
+      "type": "HISTORIOGRAPHIC_DERIVATION_WARNING",
+      "from": "V335-E04",
+      "to": "V335-E06",
+      "source_ids": [
+        "V335-S09"
+      ],
+      "note": "Older German biography claims Coelestin 1597 Latin Augsburg Confession repeated Fabricius 1573 reworking of an unsigned AC draft; DO NOT generalize to Confutatio text, and do not treat as primary provenance proof.",
+      "exact_1573_1859_word_pairs_compared": 0
+    },
+    {
+      "id": "V335-R04",
+      "type": "GERMAN_LATER_ARCHIVAL_EDITION",
+      "from": "V335-E02",
+      "to": "V335-E07",
+      "source_ids": [
+        "V335-S08"
+      ],
+      "note": "1808 German publication based on Mainz copy, distinguished from 1573 Latin and 1530 public reading.",
+      "exact_1573_1859_word_pairs_compared": 0
+    },
+    {
+      "id": "V335-R05",
+      "type": "CRITICAL_REPUBLICATION_NOT_DIRECT_ALIGNED",
+      "from": "V335-E04",
+      "to": "V335-E08",
+      "source_ids": [
+        "V335-S08",
+        "V335-S13"
+      ],
+      "note": "1859 later critical publication relates to first 1573 publication bibliographically; exact IV/VII/VIII 1573–1859 phrase pairs visually aligned = zero.",
+      "exact_1573_1859_word_pairs_compared": 0
+    },
+    {
+      "id": "V335-R06",
+      "type": "DIFFERENT_TEXT_DOMAIN_WITHIN_SAME_COLLECTION",
+      "from": "V335-E01",
+      "to": "V335-E04",
+      "source_ids": [
+        "V335-S09",
+        "V335-S01"
+      ],
+      "note": "Fabricius volume includes history of Augsburg Confession and a text of the Confession as well as imperial judgment; do not confuse Catholic Confutation witness with revised Augsburg Confession witness.",
+      "exact_1573_1859_word_pairs_compared": 0
+    },
+    {
+      "id": "V335-R07",
+      "type": "CHRONOLOGICAL_SUMMARY_NOT_FULL_TEXT",
+      "from": "V335-E03",
+      "to": "V335-E04",
+      "source_ids": [
+        "V335-S08"
+      ],
+      "note": "1531 Cochlaeus summary is chronologically earlier but not the complete published Latin Confutatio.",
+      "exact_1573_1859_word_pairs_compared": 0
+    },
+    {
+      "id": "V335-R08",
+      "type": "ORIGINAL_1530_NOT_RECONSTRUCTED_FROM_1859",
+      "from": "V335-E02",
+      "to": "V335-E08",
+      "source_ids": [
+        "V335-S08",
+        "V335-S10"
+      ],
+      "note": "1859 direct Latin printed page images are not themselves 1530 German spoken script, while apparatus may give variants not yet transcribed.",
+      "exact_1573_1859_word_pairs_compared": 0
+    }
+  ],
+  "chapter_comparison_requests": [
+    {
+      "id": "V335-L1",
+      "article": "IV",
+      "topic": "GRACE_PREVENIENT_MERIT",
+      "cr27_print_column": 96,
+      "cr27_pdf_page_1based": 70,
+      "lemma_cr27_1859": "Gratia Dei praevenit voluntatem",
+      "scope": "The 1859 printed text is directly verified; 1573 Fabricius corresponding page not found and no semantic identity inferred.",
+      "cr27_1859_visible": true,
+      "fabricius_1573_exact_page_found": false,
+      "fabricius_1573_phrase_visually_read": false,
+      "original_pair_collated": false
+    },
+    {
+      "id": "V335-L2",
+      "article": "VII",
+      "topic": "CONDITIONAL_REFUSAL_CHURCH",
+      "cr27_print_column": 102,
+      "cr27_pdf_page_1based": 73,
+      "lemma_cr27_1859": "non potest citra fidei praeiudicium admitti",
+      "scope": "1859 col102 condition continues 103; no original 1573 paragraph boundary evidence.",
+      "cr27_1859_visible": true,
+      "fabricius_1573_exact_page_found": false,
+      "fabricius_1573_phrase_visually_read": false,
+      "original_pair_collated": false
+    },
+    {
+      "id": "V335-L3",
+      "article": "VII",
+      "topic": "PARTICULAR_VS_UNIVERSAL_RITES",
+      "cr27_print_column": 104,
+      "cr27_pdf_page_1based": 74,
+      "lemma_cr27_1859": "rituum varietatem non dissecare fidei unitatem",
+      "scope": "1859 right column discusses regional rites; first 1573 wording unknown.",
+      "cr27_1859_visible": true,
+      "fabricius_1573_exact_page_found": false,
+      "fabricius_1573_phrase_visually_read": false,
+      "original_pair_collated": false
+    },
+    {
+      "id": "V335-L4",
+      "article": "VIII",
+      "topic": "UNWORTHY_MINISTER_SACRAMENT_VALIDITY",
+      "cr27_print_column": 105,
+      "cr27_pdf_page_1based": 75,
+      "lemma_cr27_1859": "acceptatur cum sancta romana ecclesia",
+      "scope": "1859 col105 affirmative acceptatur verified, not yet independently confirmed letter-for-letter in 1573.",
+      "cr27_1859_visible": true,
+      "fabricius_1573_exact_page_found": false,
+      "fabricius_1573_phrase_visually_read": false,
+      "original_pair_collated": false
+    }
+  ],
+  "digital_access_probes": [
+    {
+      "volume_id": "gTRjAAAAcAAJ",
+      "request_type": "reader",
+      "http_status": 200,
+      "mime_type": "text/html",
+      "body_bytes": 128968,
+      "pdf_directly_available": false,
+      "original_print_folio_visually_read": false
+    },
+    {
+      "volume_id": "gTRjAAAAcAAJ",
+      "request_type": "download",
+      "http_status": 403,
+      "mime_type": "text/html",
+      "body_bytes": 1103,
+      "pdf_directly_available": false,
+      "original_print_folio_visually_read": false
+    },
+    {
+      "volume_id": "jyq4gUPcJpwC",
+      "request_type": "reader",
+      "http_status": 200,
+      "mime_type": "text/html",
+      "body_bytes": 125483,
+      "pdf_directly_available": false,
+      "original_print_folio_visually_read": false
+    },
+    {
+      "volume_id": "jyq4gUPcJpwC",
+      "request_type": "download",
+      "http_status": 403,
+      "mime_type": "text/html",
+      "body_bytes": 1103,
+      "pdf_directly_available": false,
+      "original_print_folio_visually_read": false
+    }
+  ],
+  "warnings": [
+    {
+      "id": "V335-K01",
+      "code": "1573_ORIGINAL_VS_1587_SECOND",
+      "detail": "Use BnF 1573 printed 574 pages and Berkeley 1587 second 12+515+1 pages as separate editions; pagination difference does not quantify content change.",
+      "status": "MANDATORY"
+    },
+    {
+      "id": "V335-K02",
+      "code": "DIGITAL_RECORD_PAGINATION",
+      "detail": "Google Play ID gTRj shows 574 pages and jyq shows 592; without collation do not conclude a separate historical revision, since scan/prelims can differ.",
+      "status": "MANDATORY"
+    },
+    {
+      "id": "V335-K03",
+      "code": "BOOK_COMPOSITE_CONFUTATIO_VS_CONFESSION",
+      "detail": "Fabricius's compilation includes text(s) on the Augsburg Confession and imperial judgment. First Latin Confutatio attribution cannot authenticate its copied Augsburg Confession as submitted 1530 version.",
+      "status": "MANDATORY"
+    },
+    {
+      "id": "V335-K04",
+      "code": "COELESTIN_1597_AUTHENTICITY_WARNING",
+      "detail": "Older ADB argues a 1597 Coelestin edition reused Fabricius 1573's edited unsigned AC draft. Treat as retrospective scholarly allegation requiring check, not a direct verified stemma.",
+      "status": "MANDATORY"
+    },
+    {
+      "id": "V335-K05",
+      "code": "HTTP_200_READER_IS_NOT_FOLIO_ACCESS",
+      "detail": "Google Books HTTP200 returned HTML landing/reader markup only, not confirmed scanned p1/pX or original clause.",
+      "status": "MANDATORY"
+    },
+    {
+      "id": "V335-K06",
+      "code": "HTTP_403_DOWNLOAD_IS_NOT_PDF_AVAILABLE",
+      "detail": "Two direct Google Books PDF requests returned HTTP403 text/html. No PDF pages were acquired through these endpoints.",
+      "status": "MANDATORY"
+    },
+    {
+      "id": "V335-K07",
+      "code": "1859_CR27_DIRECT_IS_NOT_1573_DIRECT",
+      "detail": "V3.34 images show 1859 printed col96 and102–105, not any 1573 printed page. Paired exact collation remains zero.",
+      "status": "MANDATORY"
+    },
+    {
+      "id": "V335-K08",
+      "code": "CR27_APPARATUS_NOT_EXHAUSTIVE",
+      "detail": "The 1859 edition has apparatus notes, but do not invent specific variant sigla, provenance or word readings before directly transcribing notes.",
+      "status": "MANDATORY"
+    },
+    {
+      "id": "V335-K09",
+      "code": "1573_FIRST_FULL_LATIN_ATTESTED_BY_HISTORIAN",
+      "detail": "Schaff's first full Latin printing assertion is retrospective; BnF imprint records the book, not direct transcription of all response pages.",
+      "status": "MANDATORY"
+    },
+    {
+      "id": "V335-K10",
+      "code": "READER_APP_PUBLICATION_HOLD",
+      "detail": "Do not change 513 historical essays/1,539 sections, main branch, Google AI Studio app, or historian signoff.",
+      "status": "MANDATORY"
+    }
+  ],
+  "readings": [
+    {
+      "id": "V335-RD1",
+      "title": "1530년 반박문의 첫 라틴어 출판을 1573년으로 확인하는 이유",
+      "sections": [
+        {
+          "heading": "황제 앞에서의 낭독과 43년 뒤의 출판",
+          "body": "1530년 아우크스부르크 제국의회에서 가톨릭 신학자들의 반박문이 낭독된 사건과 이 문헌의 라틴어 전문이 인쇄된 사건은 다르다. 19세기 교회사학자 필립 샤프는 라틴어 전문의 최초 출판이 1573년 안드레아스 파브리키우스의 『Harmonia Confessionis Augustanae』에 포함되어 이루어졌다고 기록한다. 따라서 1530년 8월 3일은 현장의 낭독일이지 지금 찾고 있는 라틴어 책의 인쇄연도가 아니다."
+        },
+        {
+          "heading": "처음 인쇄한 책은 독립된 반박문 소책자가 아니었다",
+          "body": "프랑스 국립도서관과 이탈리아 브라이덴세 도서관의 서지는 파브리키우스가 편집한 『Harmonia Confessionis Augustanae』의 쾰른 1573년 판본을 확인한다. 표제는 아우크스부르크 신앙고백과 황제 카를 5세 및 동시대 인물들의 판단을 한데 모은 문헌집임을 드러낸다. 샤프가 최초 라틴어 반박문 전문이 여기에 실렸다고 지목했다는 사실을, 이 책 자체가 처음부터 단일 저자의 독립된 『반박문』으로 출간되었다는 말로 바꾸어서는 안 된다."
+        },
+        {
+          "heading": "두 도서관의 실물 소장 정보와 아직 남은 문장 확인",
+          "body": "BnF는 1573년 쾰른 마테르누스 콜리누스 간행본을 대형 폴리오 574쪽으로 기록하며 소장 기호 D-952를 제시한다. 브라이덴세 도서관도 1573년 원본의 별도 소장기호 F.16.0181과 서지번호 BVEE009737을 제공한다. 이는 1573년 인쇄본의 실존과 식별에 대한 강한 근거지만, 제4·7·8조의 정확한 쪽수와 라틴어 문구를 직접 눈으로 확인한 사실은 아니므로 그 부분은 계속 검증 대기로 남겨 둔다."
+        }
+      ]
+    },
+    {
+      "id": "V335-RD2",
+      "title": "1573년 초판과 1587년 제2판을 구분해야 하는 이유",
+      "sections": [
+        {
+          "heading": "제2판은 제목만 같다고 같은 책이 아니다",
+          "body": "버클리대학교의 희귀본 목록은 1587년판을 라틴어로 '두 번째 판이며 앞선 판보다 훨씬 풍부하다'고 직접 적고 있다. 출판지는 여전히 쾰른이고 인쇄인은 마테르누스 콜리누스이지만, 1573년판과 달리 1587년판은 약 12쪽의 권두 무번호 부분, 515쪽 본문, 한쪽의 권말 무번호 부분으로 서지에 기재된다. 그러므로 단순한 출판인과 도서 제목이 같다는 이유만으로 두 판본의 문장을 섞어 인용해서는 안 된다."
+        },
+        {
+          "heading": "분량의 숫자만으로 본문 축소나 확대를 판단하지 않는다",
+          "body": "1573년판의 574쪽과 1587년판의 515쪽은 서로 다른 책의 인쇄면 수치다. 그럼에도 1587년판의 제목은 내용이 풍부해졌다고 밝힌다. 판형, 활자 크기, 문단 배열, 권두 목록 등의 차이가 있을 수 있기 때문에 단순한 페이지 숫자의 감소를 교리 설명의 축소라고 읽으면 성급하다. 실제 편집적 변화는 동일 조항의 두 판본 문장을 나란히 놓아야 확정할 수 있다."
+        },
+        {
+          "heading": "전자책 안내의 574쪽과 592쪽 역시 별도 판정 대상",
+          "body": "Google Play Books에는 모두 1573년 서지를 가진 두 개의 전자 기록이 등장한다. 하나는 574쪽, 다른 하나는 592쪽으로 표시된다. 서로 다른 물리적 사본을 스캔했는지, 표지와 권두 무번호 페이지를 포함하는 방식이 다른지 등을 아직 확인하지 못했다. 따라서 이 숫자 차이만으로 새 판본이 발견되었다고 주장하지 않고, 두 디지털 기록을 독립된 접근 경로로 추적한다."
+        }
+      ]
+    },
+    {
+      "id": "V335-RD3",
+      "title": "1573년판의 본문을 그대로 1530년 신앙고백으로 읽으면 안 되는 이유",
+      "sections": [
+        {
+          "heading": "한 문헌집 안에서 다른 원문 전승이 교차한다",
+          "body": "파브리키우스의 『Harmonia』는 아우크스부르크 신앙고백의 여러 표현과 동시대 가톨릭 측의 판단을 함께 다루는 편집 문헌이다. 따라서 문헌집에서 'Confessio Augustana'로 표시된 글과 황제 측의 응답인 'Confutatio'를 다른 저작으로 식별해야 한다. 전자의 라틴어 문장을 복사해 1530년 6월 25일 제출된 실제 신앙고백의 확정 원문으로 가정하거나, 후자의 문장을 독립된 1530년 독일어 낭독 원고라고 표시하는 것은 모두 위험하다."
+        },
+        {
+          "heading": "1597년 문헌 전승에서 발견되는 경고",
+          "body": "19세기 『Allgemeine Deutsche Biographie』의 게오르크 쾰레스틴 전기는 그의 1597년 라틴어 신앙고백 간행본이 파브리키우스의 1573년판에서 수정된, 서명이 없는 초기 신앙고백 초안 계열을 사용했다고 비판한다. 이것은 후대 역사서의 강한 판단이며 1573년판과 1597년판을 직접 교감한 연구 결과로 이번에 승격할 수는 없다. 그렇지만 가톨릭 측 문헌집을 통해 전해진 신앙고백의 텍스트가 언제나 1530년 원본과 같다고 믿어서는 안 된다는 중요한 경고를 준다."
+        },
+        {
+          "heading": "1859년 비평판의 실제 확인과 아직 미완료인 이문 비교",
+          "body": "앞선 V3.34에서 1859년 『Corpus Reformatorum』 제27권의 제4조 96열, 제7조 102~104열, 제8조 105열을 직접 확인했다. 1573년 『Harmonia』의 해당 부분은 이번에 전자책 안내를 찾아 실제 원본 다운로드를 시도했으나 PDF 요청이 차단되어 아직 인쇄면을 직접 읽지 못했다. 따라서 지금 할 수 있는 일은 1859년판의 정확한 위치와 1573년판의 독립적인 소장경로를 연결하고, 문장 교감을 실시하기 전까지 원문 동일성 결론을 보류하는 것이다."
+        }
+      ]
+    }
+  ],
+  "open_issues": [
+    {
+      "id": "V335-I01",
+      "priority": "P0",
+      "topic": "1573_ACTUAL_CONFUTATIO_FOLIO",
+      "next": "Get authorized public page image of BnF or Braidense 1573 first edition including exact complete Latin Confutatio IV, VII, VIII.",
+      "status": "OPEN"
+    },
+    {
+      "id": "V335-I02",
+      "priority": "P0",
+      "topic": "1573_GOOGLE_SCAN_READER_ACCESS",
+      "next": "Use publicly permitted book reader without bypassing access controls; verify signed 1573 title and the Confutatio internal folios; current PDF direct requests HTTP 403.",
+      "status": "OPEN"
+    },
+    {
+      "id": "V335-I03",
+      "priority": "P0",
+      "topic": "1573_VS_1859_SAME_SENTENCE",
+      "next": "Only after both images inspect 1573 Latin IV/VII/VIII in parallel with 1859 cols96,102-105 and store letter-level differences.",
+      "status": "OPEN"
+    },
+    {
+      "id": "V335-I04",
+      "priority": "P0",
+      "topic": "1859_APPARATUS_SIGLA",
+      "next": "From prior high-resolution original 1859 pages transcribe only clearly visible critical footnotes and resolve witness sigla from editorial prolegomena, without OCR guesswork.",
+      "status": "OPEN"
+    },
+    {
+      "id": "V335-I05",
+      "priority": "P1",
+      "topic": "1587_ENLARGEMENT_CONTENTS",
+      "next": "Compare 1587 second edition added materials and exact chapter/pagination changes, not raw page count.",
+      "status": "OPEN"
+    },
+    {
+      "id": "V335-I06",
+      "priority": "P1",
+      "topic": "1573_574_VS_592_RECORD",
+      "next": "Check Google Play alternate 1573 574/592 pagination relationship and physical copy provenance.",
+      "status": "OPEN"
+    },
+    {
+      "id": "V335-I07",
+      "priority": "P1",
+      "topic": "COELESTIN_1597_SOURCE_STEMMA",
+      "next": "Check 1597 Coelestin original Latin text and modern scholarly assessment before treating ADB critique as literal genealogy.",
+      "status": "OPEN"
+    },
+    {
+      "id": "V335-I08",
+      "priority": "P1",
+      "topic": "1530_CONFUTATIO_GERMAN_ORAL",
+      "next": "Locate German imperial oral reading witness and distinguish pre-/post-reading editorial variations.",
+      "status": "OPEN"
+    },
+    {
+      "id": "V335-I09",
+      "priority": "P1",
+      "topic": "CONFUTATIO_XXI_XXIV",
+      "next": "Extend critical 1859 article-level primary direct print scan to saints invocation and Mass only after IV VII VIII apparatus review.",
+      "status": "OPEN"
+    },
+    {
+      "id": "V335-I10",
+      "priority": "P1",
+      "topic": "LIBRARY_AUTHORIZED_DIGITAL_COPIES",
+      "next": "Check library digital-image reproduction access, avoid conflating catalogue holding with reader page access.",
+      "status": "OPEN"
+    }
+  ],
+  "provenance_ledger": {
+    "original_1573_Fabricius_book_folios_directly_read": 0,
+    "original_1587_second_edition_book_folios_directly_read": 0,
+    "original_1597_Coelestin_book_folios_directly_read": 0,
+    "cr27_1859_claim_supporting_pdf_pages_read_prior_v334": [
+      70,
+      73,
+      74,
+      75
+    ],
+    "parallel_1573_vs_1859_original_latin_lemma_pairs": 0,
+    "editorial_sigla_1859_fully_transcribed": 0,
+    "public_reader_get_200_html_count": 2,
+    "pdf_download_get_403_html_count": 2,
+    "google_actions_probe_id": 42321490328,
+    "google_pdf_download_blocked": true,
+    "first_latin_publication_1573_is_later_historian_claim": true
+  },
+  "metrics": {
+    "sources": 14,
+    "editions": 8,
+    "relations": 8,
+    "loci_to_pair": 4,
+    "access_attempts": 4,
+    "warnings": 10,
+    "readings": 3,
+    "reader_sections": 9,
+    "open_issues": 10,
+    "source_1573_original_pages_read": 0,
+    "paired_original_1573_1859_passages": 0,
+    "original_corpus_changes": 0
+  }
+}
