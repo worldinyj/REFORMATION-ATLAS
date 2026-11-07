@@ -1,0 +1,44 @@
+name: Atlas V3.37 CR XXVI 1858 printed-page discovery
+on:
+  push:
+    branches:
+      - research/atlas-v337-cr26-1858-original-scan-page-audit
+  pull_request:
+    paths:
+      - '.github/workflows/atlas-v337-cr26-original-folio-probe.yml'
+  workflow_dispatch:
+jobs:
+  locate_cr26_historical_print:
+    runs-on: ubuntu-latest
+    timeout-minutes: 7
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download unaltered 1858 print facsimile and record file identity
+        run: |
+          set -euo pipefail
+          mkdir -p out/atlas-v337-facsimile
+          URL='https://upload.wikimedia.org/wikipedia/commons/3/37/Corpus_reformatorum_%28IA_corpusreformato09melagoog%29.pdf'
+          curl -fSL --retry 1 --max-time 130 --user-agent 'AtlasHistoricalSourceAudit/1.0 (public domain)' -o /tmp/CR26_1858.pdf "$URL"
+          sha256sum /tmp/CR26_1858.pdf | tee out/atlas-v337-facsimile/SOURCE_SHA256.txt
+          pdfinfo /tmp/CR26_1858.pdf | grep -E '^Pages:|^Page size:|^File size:'
+          echo 'PDF_FILE: https://commons.wikimedia.org/wiki/File:Corpus_reformatorum_(IA_corpusreformato09melagoog).pdf' >>out/atlas-v337-facsimile/SOURCE_SHA256.txt
+          echo 'NOT_THE_1859_CR_XXVII_SAME_NUMBER_OF_PAGES: NO' >>out/atlas-v337-facsimile/SOURCE_SHA256.txt
+      - name: Visual discovery thumbnail log for printed column alignment
+        run: |
+          set -euo pipefail
+          for N in 215 232 245 260 275 290 312; do
+            pdftoppm -f "$N" -l "$N" -singlefile -jpeg -jpegopt quality=47 -scale-to 750 \
+              /tmp/CR26_1858.pdf "out/atlas-v337-facsimile/CR26_1858_PDFPAGE_$N" >/dev/null 2>&1
+            echo "VISUAL_SAMPLE_PAGE_${N}_BEGIN"
+            base64 -w 0 "out/atlas-v337-facsimile/CR26_1858_PDFPAGE_$N.jpg" | fold -w 120
+            echo
+            echo "VISUAL_SAMPLE_PAGE_${N}_END"
+          done
+      - name: Save original edition page previews
+        uses: actions/upload-artifact@v4
+        with:
+          name: atlas-v337-cr26-1858-page-discovery
+          path: out/atlas-v337-facsimile/
+          retention-days: 30
