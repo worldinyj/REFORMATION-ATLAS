@@ -61,7 +61,7 @@ export function validateV336({parent,contract}){
  assert.equal(links.get('V336-L10').from,'V336-N05');
  assert.equal(links.get('V336-L10').to,'V336-N06');
  assert.ok(cards.get('V336-C07').claim.includes('1577'));
- assert.ok(cards.get('V336-C08').claim.includes('CR26'));
+ assert.ok(cards.get('V336-C08').claim.includes('CR 26'));
  assert.ok(cards.get('V336-C13').claim.includes('1858'));
  assert.ok(cards.get('V336-C14').claim.includes('not direct images'));
  assert.ok(cards.get('V336-C15').claim.includes('without page image'));
