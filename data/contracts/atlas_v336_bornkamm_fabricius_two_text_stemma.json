@@ -138,6 +138,46 @@
       "grade": "OLDER_HISTORIOGRAPHY_CRITICAL_HYPOTHESIS",
       "detail": "Older text links a Coelestin 1597 text to Fabricius reworking; do NOT replace Bornkamm specific 1577 reprinting with 1597 nor treat either as direct historical 16th-century folio evidence.",
       "original_1573_1577_1597_page_read": false
+    },
+    {
+      "id": "V336-S15",
+      "title": "SLUB Dresden Corpus Reformatorum volume 26 publication date",
+      "url": "https://katalog.slub-dresden.de/id/0-168762757",
+      "grade": "UNIVERSITY_LIBRARY_CR26_AND_CR27_DATE_RECORD",
+      "detail": "SLUB enumerates CR XXVI published 1858 and CR XXVII published 1859: different volumes/years.",
+      "original_1573_1577_1597_page_read": false
+    },
+    {
+      "id": "V336-S16",
+      "title": "Bibliotheca Augustana based on CR26 1858 transcription index",
+      "url": "https://www2.hs-augsburg.de/~harsch/Chronologia/Lspost16/Melanchthon/mel_ca00.html",
+      "grade": "WEB_EDITORIAL_TRANSCRIPTION_CR26_WITH_EXACT_SOURCE",
+      "detail": "Site cites CR XXVI Brunsvigae 1858 printed 263-336 for its Latin Augsburg Confession pages, NOT original printed folio imaging.",
+      "original_1573_1577_1597_page_read": false
+    },
+    {
+      "id": "V336-S17",
+      "title": "Bibliotheca Augustana CR26 Augsburg Confession Article IV online text",
+      "url": "https://www2.hs-augsburg.de/~harsch/Chronologia/Lspost16/Melanchthon/mel_ca04.html",
+      "grade": "DERIVATIVE_EDITORIAL_LATIN_WEB_TEXT",
+      "detail": "Online AC IV displays 'gratis iustificenter' anomalous against other texts 'iustificentur'; flag possible digital transcription mistake pending original CR26 page image.",
+      "original_1573_1577_1597_page_read": false
+    },
+    {
+      "id": "V336-S18",
+      "title": "Bibliotheca Augustana CR26 Augsburg Confession Article VII online text",
+      "url": "https://www2.hs-augsburg.de/~harsch/Chronologia/Lspost16/Melanchthon/mel_ca07.html",
+      "grade": "DERIVATIVE_EDITORIAL_LATIN_WEB_TEXT",
+      "detail": "Online AC VII writes 'consentiere' compared with other Latin transcription 'consentire'; not verified historical variant.",
+      "original_1573_1577_1597_page_read": false
+    },
+    {
+      "id": "V336-S19",
+      "title": "Bibliotheca Augustana CR26 Augsburg Confession Article VIII online text",
+      "url": "https://www2.hs-augsburg.de/~harsch/Chronologia/Lspost16/Melanchthon/mel_ca08.html",
+      "grade": "DERIVATIVE_EDITORIAL_LATIN_WEB_TEXT",
+      "detail": "Online AC VIII shows 'malii' and 'sentibant', unlike other Latin witnesses 'mali' and 'sentiebant'. Do not call these original 1858 print variants without page image.",
+      "original_1573_1577_1597_page_read": false
     }
   ],
   "witness_nodes": [
@@ -215,9 +255,9 @@
     },
     {
       "id": "V336-N10",
-      "year": 1859,
-      "name": "CR26_LATIN_AUGUSTANA_COLLATION",
-      "description": "CR XXVI columns226ff and 263ff catalogued by Bornkamm as later collation of *Augsburg Confession* text versions; actual pages not visually inspected.",
+      "year": 1858,
+      "name": "CR26_LATIN_AUGUSTANA_COLLATION_1858",
+      "description": "CR XXVI (1858) printed cols226ff and 263ff cited by Bornkamm for Latin Augsburg Confession source comparison. University editorial derivative text online; actual 1858 printed scan not read.",
       "document_domain": "CR26_CONFESSION_COLLATION_NOT_CONFUTATIO",
       "original_sixteenth_century_folio_newly_seen": false
     },
@@ -306,10 +346,12 @@
       "type": "CR26_CONFESSION_COLLATION_REFERENCE",
       "from": "V336-N05",
       "to": "V336-N10",
-      "claim": "CR XXVI col226ff and263ff used for Fabricius Latin *Confession* variants, NOT CR27 Confutatio",
+      "claim": "CR XXVI (1858) col226ff and263ff are Latin *Augsburg Confession* variant collations, NOT CR XXVII (1859) Catholic Confutatio",
       "source_ids": [
         "V336-S04",
-        "V336-S10"
+        "V336-S10",
+        "V336-S15",
+        "V336-S16"
       ],
       "direct_1573_print_sentence_pair_proven": false
     },
@@ -489,6 +531,44 @@
       "source_grade": "ACADEMIC_OR_HISTORICAL_SECONDARY_UNLESS_STATED",
       "historian_approved": false,
       "original_1573_internal_folio_read": false
+    },
+    {
+      "id": "V336-C13",
+      "type": "CR26_PUBLICATION_YEAR",
+      "claim": "SLUB Dresden confirms CR XXVI printed in 1858 while CR XXVII printed in 1859. Do not assign 1859 to both volumes.",
+      "source_ids": [
+        "V336-S15"
+      ],
+      "source_grade": "ACADEMIC_OR_HISTORICAL_SECONDARY_UNLESS_STATED",
+      "historian_approved": false,
+      "original_1573_internal_folio_read": false
+    },
+    {
+      "id": "V336-C14",
+      "type": "CR26_AC_IV_VII_VIII_DERIVATIVE",
+      "claim": "Bibliotheca Augustana online AC IV,VII,VIII explicitly draws on CR XXVI 1858 pp263-336, but these online HTML texts are not direct images of the 1858 book.",
+      "source_ids": [
+        "V336-S16",
+        "V336-S17",
+        "V336-S18",
+        "V336-S19"
+      ],
+      "source_grade": "ACADEMIC_OR_HISTORICAL_SECONDARY_UNLESS_STATED",
+      "historian_approved": false,
+      "original_1573_internal_folio_read": false
+    },
+    {
+      "id": "V336-C15",
+      "type": "WEB_TRANSCRIPTION_ISSUES_NOT_HISTORICAL_VARIANTS",
+      "claim": "Online iustificenter/consentiere/malii/sentibant anomalies require comparison with CR26 1858 print before being classified as actual sixteenth-century textual variants.",
+      "source_ids": [
+        "V336-S17",
+        "V336-S18",
+        "V336-S19"
+      ],
+      "source_grade": "ACADEMIC_OR_HISTORICAL_SECONDARY_UNLESS_STATED",
+      "historian_approved": false,
+      "original_1573_internal_folio_read": false
     }
   ],
   "readings": [
@@ -534,7 +614,7 @@
       "sections": [
         {
           "heading": "같은 1859년 문헌 집성, 다른 연구 대상",
-          "body": "1859년의 『Corpus Reformatorum』 문헌집에서 보른캄이 각주에 제시한 제26권의 226열과 263열 이후 부분은 파브리키우스가 간행한 아우크스부르크 신앙고백의 라틴어 문장과 관련 판본의 차이를 검토할 수 있는 구역으로 소개된다. 반면 앞선 V3.34에서 실제 이미지로 확인한 제27권의 96열·102~105열은 가톨릭 신학자들의 반박문인 『Confutatio』에 속한다. 책의 시리즈 제목만 같다고 동일 문헌의 연속된 한 페이지로 처리할 수 없다."
+          "body": "1858년에 간행된 『Corpus Reformatorum』 제26권의의 226열과 263열 이후 부분은 파브리키우스가 간행한 아우크스부르크 신앙고백의 라틴어 문장과 관련 판본의 차이를 검토할 수 있는 구역으로 소개된다. 반면 1859년에 간행된 제27권의 96열·102~105열은 가톨릭 신학자들의 반박문인 『Confutatio』에 속한다. 책의 시리즈 제목만 같다고 동일 문헌의 연속된 한 페이지로 처리할 수 없다."
         },
         {
           "heading": "제4·7·8조 대조에서 구분할 두 종류의 원문",
@@ -542,7 +622,7 @@
         },
         {
           "heading": "원전 대조를 완성하기 위한 다음 기준",
-          "body": "현재 1573년 책의 해당 내부 인쇄면은 접근하지 못했으므로 1573년과 1859년의 직접 문장 교감은 이루어지지 않았다. 실제로 원본을 확보하면 먼저 파브리키우스 책의 제목·목차·문단 시작에서 ‘신앙고백’과 ‘반박문’을 구별하고, 각 원전의 라틴어를 해당 1859년판의 바른 권·열과 연결해야 한다. 그 다음에야 작은 철자 차이와 의미 있는 문장 이문을 따로 평가할 수 있다."
+          "body": "현재 1573년 책의 해당 내부 인쇄면은 접근하지 못했으므로 1573년과 1859년의 직접 문장 교감은 이루어지지 않았다. 실제로 원본을 확보하면 먼저 파브리키우스 책의 제목·목차·문단 시작에서 ‘신앙고백’과 ‘반박문’을 구별하고, 각 원전의 라틴어를 해당 1859년판의 바른 권·열과 연결해야 한다. 그 다음에야 작은 철자 차이와 의미 있는 문장 이문을 따로 평가할 수 있다. 인터넷 전사본에는 예를 들어 제4조의 iustificenter, 제7조의 consentiere, 제8조의 malii·sentibant와 같은 특이 표기가 확인된다. 그러나 원래 1858년 인쇄면과 대조하지 않은 웹 전사 표기를 역사적 원전 이문으로 세어서는 안 된다."
         }
       ]
     }
@@ -567,7 +647,7 @@
     {
       "id": "V336-I03",
       "priority": "P0",
-      "topic": "CR26_COL226_263_ORIGINAL",
+      "topic": "CR26_1858_COL226_263_ORIGINAL",
       "next": "Visually check 1859 CR XXVI printed columns226ff and263ff for Fabricius *Confession* variants. Do NOT cite as Confutatio.",
       "status": "OPEN",
       "original_16c_source_available": false
@@ -639,7 +719,9 @@
     "Do not assume the Latin first full Confutatio 1573 publication date equals date of 1530 public oral German reading",
     "Do not claim any 1573 original inner folio was directly read or a 1573/1859 exact passage collation accomplished",
     "Do not promote Bornkamm's notes on Hünfeld manuscript variant spellings to Fabricius-specific original variants",
-    "Do not interpret Schaff, Bornkamm, or ADB independent bibliographic summaries as multiple first-print original images"
+    "Do not interpret Schaff, Bornkamm, or ADB independent bibliographic summaries as multiple first-print original images",
+    "Do not label CR XXVI as printed in 1859; university catalogue dates it 1858 while CR XXVII dates to 1859",
+    "Do not promote modern Latin HTML transcription oddities iustificenter, consentiere, malii or sentibant to historical CR26 original-print variants without page-image verification."
   ],
   "evidence_ledger": {
     "bornkamm_modern_print_pages_visually_seen": [
@@ -664,18 +746,48 @@
       75
     ],
     "direct_original_1573_vs_1859_sentence_pairs": 0,
-    "scholarly_bornkamm_reprinted_1980_from_1956": true
+    "scholarly_bornkamm_reprinted_1980_from_1956": true,
+    "CR26_1858_online_transcription_article_pages_read": 3,
+    "CR26_1858_original_print_folios_read": 0,
+    "CR26_1858_vs_online_transcription_pairs_collated": 0
   },
   "metrics": {
-    "sources": 14,
+    "sources": 19,
     "text_witnesses": 11,
     "relations": 10,
-    "claims": 12,
+    "claims": 15,
     "readings": 3,
     "reader_sections": 9,
     "issues": 10,
-    "blocked_overclaims": 10,
+    "blocked_overclaims": 12,
     "new_original_1573_folios": 0,
-    "original_corpus_changes": 0
-  }
+    "original_corpus_changes": 0,
+    "digital_web_transcription_flags": 3
+  },
+  "digital_latin_transcription_flags": [
+    {
+      "article": "IV",
+      "page": "https://www2.hs-augsburg.de/~harsch/Chronologia/Lspost16/Melanchthon/mel_ca04.html",
+      "transcribed": "gratis iustificenter",
+      "comparator": "gratis iustificentur",
+      "status": "ONLINE_TRANSCRIPTION_POSSIBLE_ERROR_OR_VARIANT_UNCOLLATED",
+      "original_1858_print_checked": false
+    },
+    {
+      "article": "VII",
+      "page": "https://www2.hs-augsburg.de/~harsch/Chronologia/Lspost16/Melanchthon/mel_ca07.html",
+      "transcribed": "consentiere",
+      "comparator": "consentire",
+      "status": "ONLINE_TRANSCRIPTION_POSSIBLE_ERROR_OR_VARIANT_UNCOLLATED",
+      "original_1858_print_checked": false
+    },
+    {
+      "article": "VIII",
+      "page": "https://www2.hs-augsburg.de/~harsch/Chronologia/Lspost16/Melanchthon/mel_ca08.html",
+      "transcribed": "malii / sentibant",
+      "comparator": "mali / sentiebant",
+      "status": "ONLINE_TRANSCRIPTION_POSSIBLE_ERROR_OR_VARIANT_UNCOLLATED",
+      "original_1858_print_checked": false
+    }
+  ]
 }
