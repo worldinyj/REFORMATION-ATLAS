@@ -1,0 +1,37 @@
+{
+  "version": "3.35",
+  "kind": "FIRST_LATIN_CONFUTATIO_1573_HOLDING_AND_CRITICAL_TEXT_APPARATUS_ACCESS_BOUNDARY",
+  "status": "DRAFT_HOLD",
+  "parent": "research/atlas-v334-cr27-facsimile-page-inspection",
+  "contract": "data/contracts/atlas_v335_fabricius_1573_first_print_bibliography.json",
+  "report": "docs/02_RESEARCH/V335_FABRICIUS_1573_CR27_EDITION_AND_ACCESS_AUDIT.md",
+  "builder": "scripts/build_v335_fabricius_edition_graph.mjs",
+  "tests": "integrations/medium-atlas-v335/integration.test.mjs",
+  "source_access_probe": ".github/workflows/atlas-v335-fabricius-scan-probe.yml",
+  "outputs": [
+    "v335_1573_1587_edition_graph.json",
+    "v335_fabricius_access_and_reading_provenance.json",
+    "v335_1573_1859_original_print_comparison_queue.json"
+  ],
+  "metrics": {
+    "sources": 15,
+    "historical_witness_nodes": 8,
+    "document_links": 8,
+    "original_comparison_targets": 4,
+    "medium_readings": 3,
+    "medium_sections": 9,
+    "original_1573_latin_pages_read": 0
+  },
+  "publication": {
+    "main_changed": false,
+    "webapp_changed": false,
+    "approved": false,
+    "historian_signoff": false
+  },
+  "limitations": [
+    "BnF, Braidense, Blackwell 1573 historical book holdings and collection contents verified, but no internal 1573 original Latin printed clauses directly read.",
+    "Berkeley and Braidense 1587 expanded second edition remains separate from 1573 first print.",
+    "Google Books reader endpoints 200 HTML are not original book pages; direct PDF download 403 HTML for both tested edition IDs.",
+    "1859 CR27 directly viewed in previous V3.34; exact 1573/1859 sentence collation remains zero."
+  ]
+}
