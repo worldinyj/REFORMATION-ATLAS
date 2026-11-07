@@ -1,0 +1,32 @@
+name: Atlas V3.37 CR26 1858 latin print transcription vs CR27 1859 source gate
+on:
+  push:
+    branches:
+      - research/atlas-v337-cr26-1858-original-scan-page-audit
+  pull_request:
+    paths:
+      - 'data/contracts/atlas_v337_cr26_latin_original_print_vs_web_transcription.json'
+      - 'docs/02_RESEARCH/V337_CR26_1858_ORIGINAL_PRINT_VS_LATIN_TRANSCRIPTION_AUDIT.md'
+      - 'scripts/build_v337_cr26_cr27_print_qa.mjs'
+      - 'integrations/medium-atlas-v337/**'
+      - '.github/workflows/atlas-v337-cr26-cr27-source-gate.yml'
+jobs:
+  direct_historical_print_source_gate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate frozen V3.36 and V3.37 printed-text source-grade invariants
+        run: node --test integrations/medium-atlas-v336/integration.test.mjs integrations/medium-atlas-v337/integration.test.mjs
+      - name: Export draft review-only original print audit
+        run: node scripts/build_v337_cr26_cr27_print_qa.mjs
+      - name: Upload non-public source review JSON
+        uses: actions/upload-artifact@v4
+        with:
+          name: atlas-v337-cr26-1858-latin-proofreading-review
+          path: out/atlas-v337/*.json
+          retention-days: 30
