@@ -64,7 +64,7 @@ export function validateV336({parent,contract}){
  assert.ok(cards.get('V336-C08').claim.includes('CR 26'));
  assert.ok(cards.get('V336-C13').claim.includes('1858'));
  assert.ok(cards.get('V336-C14').claim.includes('not direct images'));
- assert.ok(cards.get('V336-C15').claim.includes('without page image'));
+ assert.ok(cards.get('V336-C15').claim.includes('before being classified as actual sixteenth-century textual variants'));
  assert.equal(source.get('V336-S15').grade,'UNIVERSITY_LIBRARY_CR26_AND_CR27_DATE_RECORD');
  assert.equal(source.get('V336-S16').grade,'WEB_EDITORIAL_TRANSCRIPTION_CR26_WITH_EXACT_SOURCE');
  assert.equal(source.get('V336-S17').grade,'DERIVATIVE_EDITORIAL_LATIN_WEB_TEXT');
