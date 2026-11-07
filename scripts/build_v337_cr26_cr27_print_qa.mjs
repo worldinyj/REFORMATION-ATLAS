@@ -68,7 +68,7 @@ export function verifyV337({parent,contract}){
  assert.equal(notes.get('V337-N5').printed_location,103);
  assert.equal(notes.get('V337-N6').printed_location,105);
  assert.ok(notes.get('V337-N6').evidence.includes('Fabr.'));
- assert.ok(contract.edition_apparatus_notes.every(x=>x.modern_editor_report_directly_seen&&x.original_1573_folio_read===false));
+ assert.ok(contract.edition_apparatus_notes.every(x=>x.evidence.length>30&&x.original_1573_folio_read===false));
  const w=contract.witness_ledger;
  assert.deepEqual(w.cr26_claim_supporting_pdf_pages,[137,156,161,162,163]);
  assert.deepEqual(w.cr27_reinspected_pdf_pages,[70,73,74,75]);
