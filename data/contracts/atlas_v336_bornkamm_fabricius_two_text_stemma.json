@@ -1,0 +1,793 @@
+{
+  "version": "3.36",
+  "depth": "MEDIUM",
+  "status": "DRAFT",
+  "research_date": "2026-11-07",
+  "publication_gate": {
+    "published": false,
+    "main_changed": false,
+    "webapp_integrated": false,
+    "historian_approved": false
+  },
+  "parent": {
+    "version": "3.35",
+    "pr": 177,
+    "branch": "research/atlas-v335-fabricius-1573-bibliography-cr27-apparatus",
+    "head_sha": "2ccb8b7118d0b526a5927400327369a2e125ee5b",
+    "locked_parent_blob_sha": "7342f41e3db4eb5b3c6e859425828254f3fc8fbf"
+  },
+  "preserve": {
+    "readers": 513,
+    "reader_sections": 1539,
+    "source_records": 723,
+    "overviews": 97,
+    "curated_events": 26,
+    "typed_relations": 12,
+    "prior_v335_sources": 15
+  },
+  "scope": "Critical review of Bornkamm 1956/1980 scholarly first-print screenshots pp10,14,15. Distinguish Fabricius 1573 Latin Augsburg Confession witness from Roman Confutatio first 1573 Latin publication, and CR XXVI vs CR XXVII. No newly read original 16th-century folios.",
+  "sources": [
+    {
+      "id": "V336-S01",
+      "title": "Heinrich Bornkamm: Der authentische lateinische Text der Confessio Augustana (1530)",
+      "url": "https://www.mgh-bibliothek.de/dokumente/a/a022116.pdf",
+      "grade": "HISTORICAL_TEXT_CRITICISM_PDF_PRINT_PAGES_VISUALLY_INSPECTED",
+      "detail": "Heidelberg Academy 1956 paper reprinted unchanged 1980, original print pp10,14,15 visual screenshots. pp5,6-9,16,23 textual extraction from PDF only.",
+      "original_1573_1577_1597_page_read": false
+    },
+    {
+      "id": "V336-S02",
+      "title": "Bornkamm 1956 quoted original-archive transcript testimony",
+      "url": "https://www.mgh-bibliothek.de/dokumente/a/a022116.pdf",
+      "grade": "MODERN_HISTORIAN_PRINTED_QUOTATION_FROM_1566_ARCHIVAL_COPY",
+      "detail": "Printed p10 (PDF pageno 11) visually reviewed; labels Vatican 1566 certified copy, Brussels original no longer known; itself not 1566 archival original scan.",
+      "original_1573_1577_1597_page_read": false
+    },
+    {
+      "id": "V336-S03",
+      "title": "Bornkamm 1956 four-source ranking",
+      "url": "https://www.mgh-bibliothek.de/dokumente/a/a022116.pdf",
+      "grade": "MODERN_SCHOLAR_DIRECT_VISUAL_PRINT_P14_15",
+      "detail": "Printed pp14-15 (PDF pageno 15,16) visually inspected; independent Latin Augsburg Confession families Hü, V, KRSW, Fabricius, with critical rank and provenance limitations.",
+      "original_1573_1577_1597_page_read": false
+    },
+    {
+      "id": "V336-S04",
+      "title": "Bornkamm 1956 note22 on Fabricius and Coelestin 1577",
+      "url": "https://www.mgh-bibliothek.de/dokumente/a/a022116.pdf",
+      "grade": "MODERN_SCHOLAR_DIRECT_VISUAL_PRINT_P10",
+      "detail": "Printed p10, PDF pageno11. 1573 first Fabricius and 1587 second, Fabricius's *Augsburg Confession* text reprinted Coelestin 1577; CR26 cols226ff and 263ff holds comparisons.",
+      "original_1573_1577_1597_page_read": false
+    },
+    {
+      "id": "V336-S05",
+      "title": "BnF original 1573 Fabricius imprint",
+      "url": "https://catalogue.bnf.fr/ark:/12148/cb304145207",
+      "grade": "NATIONAL_LIBRARY_CATALOGUE_ONLY",
+      "detail": "Fabricius Harmonia Cologne Maternus Cholinus 1573 574-page book, original print article pages not accessed.",
+      "original_1573_1577_1597_page_read": false
+    },
+    {
+      "id": "V336-S06",
+      "title": "Braidense first print 1573 and second 1587",
+      "url": "https://opac.bibliotecabraidense.org/opac_braidense/opaclib?db=solr_braidense&do_cmd=search_show_cmd&from=1&item%3A8006%3ATitolo_uniforme%3A%40frase%40=SBL0086576&nentries=10&resultForward=opac%2Fbraidense%2Fbrief.jsp&searchForm=opac%2Fbraidense%2Ferror.jsp",
+      "grade": "NATIONAL_LIBRARY_CATALOGUE_1573_1587_DISTINCT",
+      "detail": "Two original edition entries 1573 BVEE009737 and 1587 BVEE020975.",
+      "original_1573_1577_1597_page_read": false
+    },
+    {
+      "id": "V336-S07",
+      "title": "Schaff history of first full Latin Roman Confutation print",
+      "url": "https://www.ccel.org/s/schaff/history/7_ch09.htm",
+      "grade": "RETROSPECTIVE_BIBLIOGRAPHIC_ASSERTION",
+      "detail": "Schaff reports imperial *Roman Confutatio* first full Latin printed in Fabricius 1573, which is a DIFFERENT text from Fabricius's *Augsburg Confession* copy.",
+      "original_1573_1577_1597_page_read": false
+    },
+    {
+      "id": "V336-S08",
+      "title": "CR XXVII NYPL 1859 actual Roman Confutatio",
+      "url": "https://commons.wikimedia.org/wiki/File:Corpus_reformatorum_(IA_corpusreformato25melagoog).pdf",
+      "grade": "DIRECT_1859_CR27_CONTRADOCUMENT_SCANNED_PRIOR_V334",
+      "detail": "1859 Confutatio col96,102-105 verified in V3.34. This is NOT the Augsburg Confession text or CR26 collation.",
+      "original_1573_1577_1597_page_read": false
+    },
+    {
+      "id": "V336-S09",
+      "title": "CR XXVII 1859 original PDF mirror",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Corpus_reformatorum_%28IA_corpusreformato25melagoog%29.pdf",
+      "grade": "INDEPENDENT_FILE_URL_NOT_INDEPENDENT_TEXT_WITNESS",
+      "detail": "Same NYPL digital source as S08, not independent edition. SHA256 ba1995d5... established V3.34.",
+      "original_1573_1577_1597_page_read": false
+    },
+    {
+      "id": "V336-S10",
+      "title": "CR XXVI historical textual collation attested by Bornkamm",
+      "url": "https://www.mgh-bibliothek.de/dokumente/a/a022116.pdf",
+      "grade": "SCHOLARLY_FOOTNOTE_ONLY_ORIGINAL_CR26_NOT_READ",
+      "detail": "Bornkamm p10 note22 cites CR26 printed cols226ff and 263ff for Fabricius Augustine Confession variants; CR26 page scans not directly viewed in V3.36.",
+      "original_1573_1577_1597_page_read": false
+    },
+    {
+      "id": "V336-S11",
+      "title": "V3.35 allowed 1573 PDF retrieval probe",
+      "url": "https://github.com/worldinyj/REFORMATION-ATLAS/actions/runs/42321490328",
+      "grade": "ACTUAL_NETWORK_PROBE_LEDGER",
+      "detail": "1573 Google Books IDs gTRjAAAAcAAJ and jyq4gUPcJpwC both 200 HTML landing, both 403 HTML direct PDF. No 1573 internal print leaf.",
+      "original_1573_1577_1597_page_read": false
+    },
+    {
+      "id": "V336-S12",
+      "title": "Blackwell B172 1573 folio seller catalogue",
+      "url": "https://ilab.org/assets/catalogues/catalogs_files_1111_catalogue_b172.pdf",
+      "grade": "RARITY_SELLER_CATALOGUE_PAGE_PREVIOUSLY_SCREENED",
+      "detail": "A description of 1573 Fabricius book [xii],574 pages, containing Latin Confessio, Confutatio, Catholic commentary. This is not original book internal text.",
+      "original_1573_1577_1597_page_read": false
+    },
+    {
+      "id": "V336-S13",
+      "title": "Berkeley rare books 1587 enlarged second edition",
+      "url": "https://lawcat.berkeley.edu/record/287858",
+      "grade": "UNIVERSITY_LIBRARY_SECOND_EDITION_CATALOGUE",
+      "detail": "1587 'Editio secunda, priori multo locupletior' [12],515,[1] pages; distinct from 1573.",
+      "original_1573_1577_1597_page_read": false
+    },
+    {
+      "id": "V336-S14",
+      "title": "Deutsche Biographie Coelestin older ADB page",
+      "url": "https://www.deutsche-biographie.de/gnd122885589.html?language=en",
+      "grade": "OLDER_HISTORIOGRAPHY_CRITICAL_HYPOTHESIS",
+      "detail": "Older text links a Coelestin 1597 text to Fabricius reworking; do NOT replace Bornkamm specific 1577 reprinting with 1597 nor treat either as direct historical 16th-century folio evidence.",
+      "original_1573_1577_1597_page_read": false
+    },
+    {
+      "id": "V336-S15",
+      "title": "SLUB Dresden Corpus Reformatorum volume 26 publication date",
+      "url": "https://katalog.slub-dresden.de/id/0-168762757",
+      "grade": "UNIVERSITY_LIBRARY_CR26_AND_CR27_DATE_RECORD",
+      "detail": "SLUB enumerates CR XXVI published 1858 and CR XXVII published 1859: different volumes/years.",
+      "original_1573_1577_1597_page_read": false
+    },
+    {
+      "id": "V336-S16",
+      "title": "Bibliotheca Augustana based on CR26 1858 transcription index",
+      "url": "https://www2.hs-augsburg.de/~harsch/Chronologia/Lspost16/Melanchthon/mel_ca00.html",
+      "grade": "WEB_EDITORIAL_TRANSCRIPTION_CR26_WITH_EXACT_SOURCE",
+      "detail": "Site cites CR XXVI Brunsvigae 1858 printed 263-336 for its Latin Augsburg Confession pages, NOT original printed folio imaging.",
+      "original_1573_1577_1597_page_read": false
+    },
+    {
+      "id": "V336-S17",
+      "title": "Bibliotheca Augustana CR26 Augsburg Confession Article IV online text",
+      "url": "https://www2.hs-augsburg.de/~harsch/Chronologia/Lspost16/Melanchthon/mel_ca04.html",
+      "grade": "DERIVATIVE_EDITORIAL_LATIN_WEB_TEXT",
+      "detail": "Online AC IV displays 'gratis iustificenter' anomalous against other texts 'iustificentur'; flag possible digital transcription mistake pending original CR26 page image.",
+      "original_1573_1577_1597_page_read": false
+    },
+    {
+      "id": "V336-S18",
+      "title": "Bibliotheca Augustana CR26 Augsburg Confession Article VII online text",
+      "url": "https://www2.hs-augsburg.de/~harsch/Chronologia/Lspost16/Melanchthon/mel_ca07.html",
+      "grade": "DERIVATIVE_EDITORIAL_LATIN_WEB_TEXT",
+      "detail": "Online AC VII writes 'consentiere' compared with other Latin transcription 'consentire'; not verified historical variant.",
+      "original_1573_1577_1597_page_read": false
+    },
+    {
+      "id": "V336-S19",
+      "title": "Bibliotheca Augustana CR26 Augsburg Confession Article VIII online text",
+      "url": "https://www2.hs-augsburg.de/~harsch/Chronologia/Lspost16/Melanchthon/mel_ca08.html",
+      "grade": "DERIVATIVE_EDITORIAL_LATIN_WEB_TEXT",
+      "detail": "Online AC VIII shows 'malii' and 'sentibant', unlike other Latin witnesses 'mali' and 'sentiebant'. Do not call these original 1858 print variants without page image.",
+      "original_1573_1577_1597_page_read": false
+    }
+  ],
+  "witness_nodes": [
+    {
+      "id": "V336-N01",
+      "year": 1530,
+      "name": "AUGUSTANA_LATIN_SUBMITTED_ORIGINAL",
+      "description": "Original submitted Confession copy once in Brussels imperial archive; per 1956 Bornkamm no longer extant/located.",
+      "document_domain": "SUBMITTED_CONFESSION_NOT_CONFUTATION",
+      "original_sixteenth_century_folio_newly_seen": false
+    },
+    {
+      "id": "V336-N02",
+      "year": 1566,
+      "name": "BRUSSELS_AUTHENTICATED_LATIN_TRANSCRIPT_CHAIN",
+      "description": "Vatican transcript certified 1566 Brussels, 1568 Vienna, transmitted to Rome. Witness V derivative.",
+      "document_domain": "CONFESSION_DERIVED_FROM_SUBMISSION",
+      "original_sixteenth_century_folio_newly_seen": false
+    },
+    {
+      "id": "V336-N03",
+      "year": 1596,
+      "name": "CANISIUS_HUENFELD_COPY",
+      "description": "Hü manuscript associated with Canisius; copy through intermediate document, dated inscription 1596.",
+      "document_domain": "CONFESSION_DERIVED_FROM_SUBMISSION",
+      "original_sixteenth_century_folio_newly_seen": false
+    },
+    {
+      "id": "V336-N04",
+      "year": 1530,
+      "name": "BISHOP_MANUSCRIPT_KRSW_GROUP",
+      "description": "Karlsruhe, Regensburg, Salzburg, Würzburg manuscripts, common intermediate exemplar identified through shared mistakes.",
+      "document_domain": "CONFESSION_MULTIPLE_COPY_GROUP",
+      "original_sixteenth_century_folio_newly_seen": false
+    },
+    {
+      "id": "V336-N05",
+      "year": 1573,
+      "name": "FABRICIUS_PRINTED_AUGUSTANA",
+      "description": "Fabricius included a Latin version of the *Augsburg Confession*, distinct independent textual family with unsystematic rearrangements and unknown exact exemplar.",
+      "document_domain": "CONFESSION_IN_EDITORIAL_COLLECTION",
+      "original_sixteenth_century_folio_newly_seen": false
+    },
+    {
+      "id": "V336-N06",
+      "year": 1573,
+      "name": "FABRICIUS_FIRST_FULL_LATIN_CONFUTATIO_PUBLICATION",
+      "description": "Schaff identifies Roman Confutatio first full Latin print in same 1573 Harmonia volume; exact internal folio unseen.",
+      "document_domain": "CATHOLIC_REBUTTAL_DISTINCT_WORK",
+      "original_sixteenth_century_folio_newly_seen": false
+    },
+    {
+      "id": "V336-N07",
+      "year": 1577,
+      "name": "COELESTIN_REPRINT_OF_FABRICIUS_AUGUSTANA",
+      "description": "Bornkamm printed p10 note22 says Georg Coelestin in *Historia comitiorum* (1577) reprinted Fabricius's *Augsburg Confession* text.",
+      "document_domain": "CONFESSION_REPRINT_NOT_EVIDENCE_OF_CONFUTATIO_REPRINT",
+      "original_sixteenth_century_folio_newly_seen": false
+    },
+    {
+      "id": "V336-N08",
+      "year": 1587,
+      "name": "FABRICIUS_SECOND_EXPANDED_EDITION",
+      "description": "Second 1587 edition of Harmonia, separate collation and exact Latin paragraphs unexamined.",
+      "document_domain": "LATER_EDITED_COLLECTION",
+      "original_sixteenth_century_folio_newly_seen": false
+    },
+    {
+      "id": "V336-N09",
+      "year": 1597,
+      "name": "COELESTIN_LATER_BOOK_POSSIBLE_DEPENDENCE",
+      "description": "Older ADB comments Coelestin 1597 text and Fabricius, but source's identity and exact relationship unverified, not 1577 book.",
+      "document_domain": "LATER_POSSIBLE_CONFESSION_RELATION_NOT_COLLATION",
+      "original_sixteenth_century_folio_newly_seen": false
+    },
+    {
+      "id": "V336-N10",
+      "year": 1858,
+      "name": "CR26_LATIN_AUGUSTANA_COLLATION_1858",
+      "description": "CR XXVI (1858) printed cols226ff and 263ff cited by Bornkamm for Latin Augsburg Confession source comparison. University editorial derivative text online; actual 1858 printed scan not read.",
+      "document_domain": "CR26_CONFESSION_COLLATION_NOT_CONFUTATIO",
+      "original_sixteenth_century_folio_newly_seen": false
+    },
+    {
+      "id": "V336-N11",
+      "year": 1859,
+      "name": "CR27_LATIN_CONFUTATIO_CRITICAL_TEXT",
+      "description": "CR XXVII Latin Roman Confutatio col96,102–105 directly checked in V3.34; distinct from CR XXVI.",
+      "document_domain": "CR27_CATHOLIC_REBUTTAL_CRITICAL_TEXT",
+      "original_sixteenth_century_folio_newly_seen": false
+    }
+  ],
+  "relations": [
+    {
+      "id": "V336-L01",
+      "type": "IMPERIAL_CONFESSION_COPY_CHAIN",
+      "from": "V336-N01",
+      "to": "V336-N02",
+      "claim": "Evidence of 1566 certified archival transcript, by Bornkamm, not surviving Brussels original scan",
+      "source_ids": [
+        "V336-S01",
+        "V336-S02"
+      ],
+      "direct_1573_print_sentence_pair_proven": false
+    },
+    {
+      "id": "V336-L02",
+      "type": "DISTINCT_IMPERIAL_CONFESSION_COPY_CHAIN",
+      "from": "V336-N01",
+      "to": "V336-N03",
+      "claim": "Hünfeld associated Canisius copy via intermediate source, 1596 note, not lineally identical with Vatican copy",
+      "source_ids": [
+        "V336-S01",
+        "V336-S03"
+      ],
+      "direct_1573_print_sentence_pair_proven": false
+    },
+    {
+      "id": "V336-L03",
+      "type": "COMMON_INTERMEDIATE_BISHOPS_GROUP",
+      "from": "V336-N01",
+      "to": "V336-N04",
+      "claim": "KRSW share characteristic errors by intermediate exemplar rather than four independent exact lines from emperor original",
+      "source_ids": [
+        "V336-S03"
+      ],
+      "direct_1573_print_sentence_pair_proven": false
+    },
+    {
+      "id": "V336-L04",
+      "type": "INDEPENDENT_CONFESSION_PRINT_WITNESS_PROVENANCE_UNKNOWN",
+      "from": "V336-N01",
+      "to": "V336-N05",
+      "claim": "Bornkamm judges 1573 Fabricius Confession text an independent family; possible Brussels-line copy but source unknown and not direct original",
+      "source_ids": [
+        "V336-S01",
+        "V336-S03"
+      ],
+      "direct_1573_print_sentence_pair_proven": false
+    },
+    {
+      "id": "V336-L05",
+      "type": "REPRINT_OF_FABRICIUS_CONFESSION_TEXT",
+      "from": "V336-N05",
+      "to": "V336-N07",
+      "claim": "Bornkamm footnote p10 says Coelestin 1577 reprinted Fabricius 1573 Confession text, not proven first full Latin Confutatio reprint",
+      "source_ids": [
+        "V336-S04"
+      ],
+      "direct_1573_print_sentence_pair_proven": false
+    },
+    {
+      "id": "V336-L06",
+      "type": "BIBLIOGRAPHIC_FIRST_FULL_LATIN_CONFUTATIO_PUBLICATION",
+      "from": "V336-N06",
+      "to": "V336-N11",
+      "claim": "Schaff reports 1573 first Latin full Confutatio; 1859 is later critical print of Confutatio, no original Latin sentence pair compared",
+      "source_ids": [
+        "V336-S07",
+        "V336-S08"
+      ],
+      "direct_1573_print_sentence_pair_proven": false
+    },
+    {
+      "id": "V336-L07",
+      "type": "CR26_CONFESSION_COLLATION_REFERENCE",
+      "from": "V336-N05",
+      "to": "V336-N10",
+      "claim": "CR XXVI (1858) col226ff and263ff are Latin *Augsburg Confession* variant collations, NOT CR XXVII (1859) Catholic Confutatio",
+      "source_ids": [
+        "V336-S04",
+        "V336-S10",
+        "V336-S15",
+        "V336-S16"
+      ],
+      "direct_1573_print_sentence_pair_proven": false
+    },
+    {
+      "id": "V336-L08",
+      "type": "UNVERIFIED_LATER_COELESTIN_RELATION",
+      "from": "V336-N05",
+      "to": "V336-N09",
+      "claim": "Older ADB 1597 relation is distinct from Bornkamm 1577 precise reprint; provenance unresolved, not first edition witness",
+      "source_ids": [
+        "V336-S14"
+      ],
+      "direct_1573_print_sentence_pair_proven": false
+    },
+    {
+      "id": "V336-L09",
+      "type": "REVISED_COLLECTION_1587",
+      "from": "V336-N05",
+      "to": "V336-N08",
+      "claim": "1587 printed second Harmonia edition follows 1573, edition is expanded per title, exact content variation uncollated",
+      "source_ids": [
+        "V336-S05",
+        "V336-S13"
+      ],
+      "direct_1573_print_sentence_pair_proven": false
+    },
+    {
+      "id": "V336-L10",
+      "type": "SAME_VOLUME_DIFFERENT_WORKS",
+      "from": "V336-N05",
+      "to": "V336-N06",
+      "claim": "1573 *Augsburg Confession* copy and *Roman Confutatio* response belong to same Fabricius collection, but separate authorships/textual histories and should never merge",
+      "source_ids": [
+        "V336-S12",
+        "V336-S01",
+        "V336-S07"
+      ],
+      "direct_1573_print_sentence_pair_proven": false
+    }
+  ],
+  "claim_cards": [
+    {
+      "id": "V336-C01",
+      "type": "CONFESSION_ORIGINAL_LOST",
+      "claim": "Bornkamm states submitted 1530 German/Latin Confession originals could not be located, and reconstructs via copies, not zero manuscript tradition.",
+      "source_ids": [
+        "V336-S01"
+      ],
+      "source_grade": "ACADEMIC_OR_HISTORICAL_SECONDARY_UNLESS_STATED",
+      "historian_approved": false,
+      "original_1573_internal_folio_read": false
+    },
+    {
+      "id": "V336-C02",
+      "type": "VATICAN_1566_CERTIFIED",
+      "claim": "He describes a certified Brussels Confession copy (1566, later 1568 Vienna), whose witnessed oath text is quoted and page visually seen in modern paper.",
+      "source_ids": [
+        "V336-S02"
+      ],
+      "source_grade": "ACADEMIC_OR_HISTORICAL_SECONDARY_UNLESS_STATED",
+      "historian_approved": false,
+      "original_1573_internal_folio_read": false
+    },
+    {
+      "id": "V336-C03",
+      "type": "HUENFELD_CANISIUS_1596",
+      "claim": "Hü copy linked to Canisius and note dated 1596, derivative chain not necessarily same scribe as Vatican V.",
+      "source_ids": [
+        "V336-S01",
+        "V336-S03"
+      ],
+      "source_grade": "ACADEMIC_OR_HISTORICAL_SECONDARY_UNLESS_STATED",
+      "historian_approved": false,
+      "original_1573_internal_folio_read": false
+    },
+    {
+      "id": "V336-C04",
+      "type": "BISHOP_GROUP_KRSW",
+      "claim": "KRSW bishop manuscript family has common intermediate exemplar and shared omissions, cannot count as four independent direct originals.",
+      "source_ids": [
+        "V336-S03"
+      ],
+      "source_grade": "ACADEMIC_OR_HISTORICAL_SECONDARY_UNLESS_STATED",
+      "historian_approved": false,
+      "original_1573_internal_folio_read": false
+    },
+    {
+      "id": "V336-C05",
+      "type": "FABRICIUS_INDEPENDENT_CONFESSION",
+      "claim": "Bornkamm print p14-15 identifies Fabricius's Latin Augsburg Confession text as independent from both Hü,V and KRSW but with many rearrangements and unknown provenance.",
+      "source_ids": [
+        "V336-S03"
+      ],
+      "source_grade": "ACADEMIC_OR_HISTORICAL_SECONDARY_UNLESS_STATED",
+      "historian_approved": false,
+      "original_1573_internal_folio_read": false
+    },
+    {
+      "id": "V336-C06",
+      "type": "FABRICIUS_FAMILY_RANK",
+      "claim": "Bornkamm gives greater evidentiary value to Hü and V than to Fabricius in reconstruction; not all independent witnesses have equal text-critical trust.",
+      "source_ids": [
+        "V336-S03"
+      ],
+      "source_grade": "ACADEMIC_OR_HISTORICAL_SECONDARY_UNLESS_STATED",
+      "historian_approved": false,
+      "original_1573_internal_folio_read": false
+    },
+    {
+      "id": "V336-C07",
+      "type": "FABRICIUS_1577_COELESTIN",
+      "claim": "Footnote22 printed p10 says 1573 Fabricius *Confession* text reprinted by Georg Coelestin 1577, not automatically Roman Confutatio reprint.",
+      "source_ids": [
+        "V336-S04"
+      ],
+      "source_grade": "ACADEMIC_OR_HISTORICAL_SECONDARY_UNLESS_STATED",
+      "historian_approved": false,
+      "original_1573_internal_folio_read": false
+    },
+    {
+      "id": "V336-C08",
+      "type": "CR26_NOT_CR27",
+      "claim": "Footnote22 points to CR 26 columns226ff and263ff for *Confession* readings; separately verified CR27 cols96/102-105 concern Catholic *Confutatio*.",
+      "source_ids": [
+        "V336-S04",
+        "V336-S08"
+      ],
+      "source_grade": "ACADEMIC_OR_HISTORICAL_SECONDARY_UNLESS_STATED",
+      "historian_approved": false,
+      "original_1573_internal_folio_read": false
+    },
+    {
+      "id": "V336-C09",
+      "type": "1530_AND_1573_DISTINCT",
+      "claim": "Bornkamm says Fabricius probably had Brussels-line 1530 Confession copy; this is his likelihood assessment, not direct traceable source chain.",
+      "source_ids": [
+        "V336-S01",
+        "V336-S03"
+      ],
+      "source_grade": "ACADEMIC_OR_HISTORICAL_SECONDARY_UNLESS_STATED",
+      "historian_approved": false,
+      "original_1573_internal_folio_read": false
+    },
+    {
+      "id": "V336-C10",
+      "type": "FIRST_FULL_CONFUTATIO_RETROSPECTIVE",
+      "claim": "Schaff's 1573 first full Latin Confutatio is a retrospective bibliography of a different text domain; not the same as Bornkamm's claim about Fabricius's Latin Confession witness.",
+      "source_ids": [
+        "V336-S07",
+        "V336-S03"
+      ],
+      "source_grade": "ACADEMIC_OR_HISTORICAL_SECONDARY_UNLESS_STATED",
+      "historian_approved": false,
+      "original_1573_internal_folio_read": false
+    },
+    {
+      "id": "V336-C11",
+      "type": "1890S_1597_STUDY_NOT_V1557",
+      "claim": "Older German biography 1597 Coelestin derivative warning is a distinct later publication issue, not proof 1577 was 1597.",
+      "source_ids": [
+        "V336-S14",
+        "V336-S04"
+      ],
+      "source_grade": "ACADEMIC_OR_HISTORICAL_SECONDARY_UNLESS_STATED",
+      "historian_approved": false,
+      "original_1573_internal_folio_read": false
+    },
+    {
+      "id": "V336-C12",
+      "type": "NO_NEW_1573_PAGE",
+      "claim": "Despite library 1573 bibliographic proof, direct 1573 internal page and 1573-vs-1859 original Latin collation remain zero.",
+      "source_ids": [
+        "V336-S05",
+        "V336-S06",
+        "V336-S11"
+      ],
+      "source_grade": "ACADEMIC_OR_HISTORICAL_SECONDARY_UNLESS_STATED",
+      "historian_approved": false,
+      "original_1573_internal_folio_read": false
+    },
+    {
+      "id": "V336-C13",
+      "type": "CR26_PUBLICATION_YEAR",
+      "claim": "SLUB Dresden confirms CR XXVI printed in 1858 while CR XXVII printed in 1859. Do not assign 1859 to both volumes.",
+      "source_ids": [
+        "V336-S15"
+      ],
+      "source_grade": "ACADEMIC_OR_HISTORICAL_SECONDARY_UNLESS_STATED",
+      "historian_approved": false,
+      "original_1573_internal_folio_read": false
+    },
+    {
+      "id": "V336-C14",
+      "type": "CR26_AC_IV_VII_VIII_DERIVATIVE",
+      "claim": "Bibliotheca Augustana online AC IV,VII,VIII explicitly draws on CR XXVI 1858 pp263-336, but these online HTML texts are not direct images of the 1858 book.",
+      "source_ids": [
+        "V336-S16",
+        "V336-S17",
+        "V336-S18",
+        "V336-S19"
+      ],
+      "source_grade": "ACADEMIC_OR_HISTORICAL_SECONDARY_UNLESS_STATED",
+      "historian_approved": false,
+      "original_1573_internal_folio_read": false
+    },
+    {
+      "id": "V336-C15",
+      "type": "WEB_TRANSCRIPTION_ISSUES_NOT_HISTORICAL_VARIANTS",
+      "claim": "Online iustificenter/consentiere/malii/sentibant anomalies require comparison with CR26 1858 print before being classified as actual sixteenth-century textual variants.",
+      "source_ids": [
+        "V336-S17",
+        "V336-S18",
+        "V336-S19"
+      ],
+      "source_grade": "ACADEMIC_OR_HISTORICAL_SECONDARY_UNLESS_STATED",
+      "historian_approved": false,
+      "original_1573_internal_folio_read": false
+    }
+  ],
+  "readings": [
+    {
+      "id": "V336-READ1",
+      "title": "1530년 서명된 라틴어 신앙고백은 어떻게 전해졌는가",
+      "sections": [
+        {
+          "heading": "찾을 수 없는 원고와 살아남은 간접 필사본",
+          "body": "1530년 제국의회에 제출한 신앙고백의 독일어·라틴어 원본은 오랫동안 찾아지지 않았다. 1956년 하인리히 보른캄의 문헌비평 연구는 이를 이유로 황제 측과 가톨릭 측에 남았던 간접 필사본을 면밀히 검토했다. 원고가 실종되었다는 말은 당시 문장이 전혀 전승되지 않았다는 뜻은 아니다. 보른캄의 연구는 실물 원고의 현존 여부와 문장 재구성의 신뢰도를 구별한다."
+        },
+        {
+          "heading": "브뤼셀 황제 문서에서 바티칸과 휜펠트까지",
+          "body": "보른캄은 황제의 브뤼셀 보관 문서에서 만들어진 여러 사본을 추적한다. 바티칸 계열 사본은 1566년 브뤼셀에서 공증된 사본과 1568년 빈에서의 인증을 거친 전승으로 소개된다. 다른 사본은 페트루스 카니시우스와 관계된 휜펠트 소장 계열이다. 이러한 사본은 하나의 분실된 원고에서 멀고 가깝게 파생했을 수 있지만, 같은 계열이라는 이유로 전부 같은 정확도와 독립성을 갖는 것은 아니다."
+        },
+        {
+          "heading": "주교 문서 KRSW와 공통된 필사 오류",
+          "body": "카를스루에·레겐스부르크·잘츠부르크·뷔르츠부르크로 표시하는 KRSW 계열은 보른캄이 공통의 중간 사본에서 파생했다고 판단한 필사본 그룹이다. 여러 문서에 같은 누락이나 실수가 반복되는 경우 이를 서로 완전히 독립적인 증언으로 셈할 수 없다. 종교개혁사를 연구할 때 출처 수를 단순 합산하는 대신, 어떤 사본에서 어떤 사본으로 문장이 이동했는지 추적해야 하는 이유가 여기 있다."
+        }
+      ]
+    },
+    {
+      "id": "V336-READ2",
+      "title": "1573년 파브리키우스 신앙고백 원문이 지닌 양면적 가치",
+      "sections": [
+        {
+          "heading": "뜻밖의 독립적인 인쇄 전승",
+          "body": "파브리키우스는 1573년 『Harmonia Confessionis Augustanae』를 펴내면서 신앙고백의 라틴어 본문과 가톨릭 측 대응 문서를 함께 수록했다. 보른캄은 이 책에 수록된 신앙고백 본문을 다른 주교 필사본 계열과 바티칸·휜펠트 계열에서 직접 복제한 것이 아닌, 별도로 전승된 텍스트 증거로 다룬다. 이 판단은 파브리키우스의 편집본이 당대 신앙고백 원고의 역사에 관한 자료로서 가치를 지닐 수 있다는 뜻이다."
+        },
+        {
+          "heading": "독립성은 무오성을 보증하지 않는다",
+          "body": "보른캄은 파브리키우스 텍스트에 여러 임의적 문장 위치 변경과 필사·인쇄상의 작은 오류가 있으며, 직접 어떤 문헌을 사용했는지는 알려져 있지 않다고 명확하게 설명한다. 따라서 출처가 독립적이라고 해서 황제에게 제출된 원고를 정확히 한 글자도 바꾸지 않고 옮긴 것이라고 결론 내릴 수 없다. 그는 신앙고백 본문의 재구성에서 이 자료보다 바티칸과 휜펠트 계열을 더 우선한다."
+        },
+        {
+          "heading": "1577년 재수록과 1597년 후대판을 섞지 않는다",
+          "body": "보른캄의 10쪽 각주 22는 게오르크 쾰레스틴이 1577년 『Historia comitiorum』에 파브리키우스의 신앙고백 텍스트를 다시 수록했다고 기록한다. 앞선 V3.35에서 검토한 오래된 전기가 언급하는 1597년판은 별개의 책과 연구 주장으로 취급해야 한다. 1577년과 1597년을 하나의 날짜로 쓰거나, 재수록된 신앙고백을 가톨릭 반박문 전문이라고 잘못 부르면 전승 계보를 크게 왜곡한다."
+        }
+      ]
+    },
+    {
+      "id": "V336-READ3",
+      "title": "비평판 제26권과 제27권을 왜 따로 읽어야 하는가",
+      "sections": [
+        {
+          "heading": "같은 1859년 문헌 집성, 다른 연구 대상",
+          "body": "1858년에 간행된 『Corpus Reformatorum』 제26권의의 226열과 263열 이후 부분은 파브리키우스가 간행한 아우크스부르크 신앙고백의 라틴어 문장과 관련 판본의 차이를 검토할 수 있는 구역으로 소개된다. 반면 1859년에 간행된 제27권의 96열·102~105열은 가톨릭 신학자들의 반박문인 『Confutatio』에 속한다. 책의 시리즈 제목만 같다고 동일 문헌의 연속된 한 페이지로 처리할 수 없다."
+        },
+        {
+          "heading": "제4·7·8조 대조에서 구분할 두 종류의 원문",
+          "body": "예를 들어 신앙고백 제8조는 악한 성직자가 집례했더라도 성례는 유효하다고 주장한다. 반박문 제8조는 바로 그 주장을 받아들인다. 그러나 1573년 파브리키우스 문헌집에는 신앙고백의 문장도 있고 그에 대응하는 가톨릭 반박문도 있으므로, 책에서 어느 쪽 구절을 읽었는지 식별하지 않으면 근거가 뒤바뀐다. 제26권 신앙고백 계열과 제27권 반박문 계열을 분리한 뒤에야 서로 같은 쟁점의 두 화자를 나란히 인용할 수 있다."
+        },
+        {
+          "heading": "원전 대조를 완성하기 위한 다음 기준",
+          "body": "현재 1573년 책의 해당 내부 인쇄면은 접근하지 못했으므로 1573년과 1859년의 직접 문장 교감은 이루어지지 않았다. 실제로 원본을 확보하면 먼저 파브리키우스 책의 제목·목차·문단 시작에서 ‘신앙고백’과 ‘반박문’을 구별하고, 각 원전의 라틴어를 해당 1859년판의 바른 권·열과 연결해야 한다. 그 다음에야 작은 철자 차이와 의미 있는 문장 이문을 따로 평가할 수 있다. 인터넷 전사본에는 예를 들어 제4조의 iustificenter, 제7조의 consentiere, 제8조의 malii·sentibant와 같은 특이 표기가 확인된다. 그러나 원래 1858년 인쇄면과 대조하지 않은 웹 전사 표기를 역사적 원전 이문으로 세어서는 안 된다."
+        }
+      ]
+    }
+  ],
+  "open_issues": [
+    {
+      "id": "V336-I01",
+      "priority": "P0",
+      "topic": "FABRICIUS_CONFUTATIO_1573_FOLIOS",
+      "next": "Obtain authorized original 1573 *Roman Confutatio* text for IV VII VIII, not the *Augsburg Confession* pages in same volume.",
+      "status": "OPEN",
+      "original_16c_source_available": false
+    },
+    {
+      "id": "V336-I02",
+      "priority": "P0",
+      "topic": "FABRICIUS_CONFESSION_1573_FOLIOS",
+      "next": "Independently obtain original 1573 *Augsburg Confession* text and its own headings for IV VII VIII, compare to Bornkamm source families.",
+      "status": "OPEN",
+      "original_16c_source_available": false
+    },
+    {
+      "id": "V336-I03",
+      "priority": "P0",
+      "topic": "CR26_1858_COL226_263_ORIGINAL",
+      "next": "Visually check 1859 CR XXVI printed columns226ff and263ff for Fabricius *Confession* variants. Do NOT cite as Confutatio.",
+      "status": "OPEN",
+      "original_16c_source_available": false
+    },
+    {
+      "id": "V336-I04",
+      "priority": "P0",
+      "topic": "CR27_1859_CRITICAL_APPARATUS",
+      "next": "Transcribe CR XXVII printed col96/102-105 footnotes and identify which refer to 1573 Fabricius editions, if any.",
+      "status": "OPEN",
+      "original_16c_source_available": false
+    },
+    {
+      "id": "V336-I05",
+      "priority": "P1",
+      "topic": "HUNFELD_VATICAN_COPY_STEMMA",
+      "next": "Consult 1956 Bornkamm bibliography for V/Hü manuscript descriptions, differentiating manuscript authenticity and scholarly inference.",
+      "status": "OPEN",
+      "original_16c_source_available": false
+    },
+    {
+      "id": "V336-I06",
+      "priority": "P1",
+      "topic": "KRSW_INDEPENDENCE",
+      "next": "Investigate common KRSW intermediate exemplar and provenance, verify conditional scholarly classification.",
+      "status": "OPEN",
+      "original_16c_source_available": false
+    },
+    {
+      "id": "V336-I07",
+      "priority": "P1",
+      "topic": "COELESTIN_1577_FIRST_REPRINT",
+      "next": "Confirm 1577 original title, page image and exact object reprinted. Do not silently substitute 1597.",
+      "status": "OPEN",
+      "original_16c_source_available": false
+    },
+    {
+      "id": "V336-I08",
+      "priority": "P1",
+      "topic": "COELESTIN_1597_DISTINCT_BOOK",
+      "next": "Verify older ADB 1597 claim via direct original book and modern bibliography; don't recategorize 1577 source.",
+      "status": "OPEN",
+      "original_16c_source_available": false
+    },
+    {
+      "id": "V336-I09",
+      "priority": "P1",
+      "topic": "1573_VS_1587_CRITICAL_DIFFERENCES",
+      "next": "Find original signed 1573 and 1587 first/second edition book scans and align distinct Confession vs Confutatio loci.",
+      "status": "OPEN",
+      "original_16c_source_available": false
+    },
+    {
+      "id": "V336-I10",
+      "priority": "P1",
+      "topic": "1530_ORIGINAL_AFTER_1956",
+      "next": "Check modern post-1956 scholars on lost 1530 submitted originals, avoid treating 1956 status as 2026 discovery guarantee.",
+      "status": "OPEN",
+      "original_16c_source_available": false
+    }
+  ],
+  "blocked_overclaims": [
+    "Do not mistake independent Fabricius 1573 AUGSBURG CONFESSION text for the CATHOLIC CONFUTATIO in the same volume",
+    "Do not use 1859 CR26 Confession variant columns as if they were the directly checked 1859 CR27 Confutatio printed columns",
+    "Do not count Hu, V, KRSW (4 manuscripts), Fabricius as seven entirely independent textual witnesses; KRSW shares a common exemplar",
+    "Do not treat Fabricius 1573 independent witness as autograph or textually superior; provenance unknown, rearrangements noted",
+    "Do not treat the 1956 Bornkamm claim of no surviving submitted original as a full current-2026 archival search result",
+    "Do not confuse Coelestin 1577 reprint attested by Bornkamm with later 1597 printing discussed in older ADB",
+    "Do not assume the Latin first full Confutatio 1573 publication date equals date of 1530 public oral German reading",
+    "Do not claim any 1573 original inner folio was directly read or a 1573/1859 exact passage collation accomplished",
+    "Do not promote Bornkamm's notes on Hünfeld manuscript variant spellings to Fabricius-specific original variants",
+    "Do not interpret Schaff, Bornkamm, or ADB independent bibliographic summaries as multiple first-print original images",
+    "Do not label CR XXVI as printed in 1859; university catalogue dates it 1858 while CR XXVII dates to 1859",
+    "Do not promote modern Latin HTML transcription oddities iustificenter, consentiere, malii or sentibant to historical CR26 original-print variants without page-image verification."
+  ],
+  "evidence_ledger": {
+    "bornkamm_modern_print_pages_visually_seen": [
+      10,
+      14,
+      15
+    ],
+    "bornkamm_pdf_pagenos_zero_based": [
+      11,
+      15,
+      16
+    ],
+    "bornkamm_other_pdf_text_scanned_source_kind": "EXTRACTED_TEXT_NOT_VISUAL",
+    "original_Fabricius_1573_book_interior_pages_read": 0,
+    "original_Coelestin_1577_pages_read": 0,
+    "original_Coelestin_1597_pages_read": 0,
+    "CR26_1859_original_variant_columns_newly_read": 0,
+    "CR27_1859_original_confutatio_pages_prior_V334": [
+      70,
+      73,
+      74,
+      75
+    ],
+    "direct_original_1573_vs_1859_sentence_pairs": 0,
+    "scholarly_bornkamm_reprinted_1980_from_1956": true,
+    "CR26_1858_online_transcription_article_pages_read": 3,
+    "CR26_1858_original_print_folios_read": 0,
+    "CR26_1858_vs_online_transcription_pairs_collated": 0
+  },
+  "metrics": {
+    "sources": 19,
+    "text_witnesses": 11,
+    "relations": 10,
+    "claims": 15,
+    "readings": 3,
+    "reader_sections": 9,
+    "issues": 10,
+    "blocked_overclaims": 12,
+    "new_original_1573_folios": 0,
+    "original_corpus_changes": 0,
+    "digital_web_transcription_flags": 3
+  },
+  "digital_latin_transcription_flags": [
+    {
+      "article": "IV",
+      "page": "https://www2.hs-augsburg.de/~harsch/Chronologia/Lspost16/Melanchthon/mel_ca04.html",
+      "transcribed": "gratis iustificenter",
+      "comparator": "gratis iustificentur",
+      "status": "ONLINE_TRANSCRIPTION_POSSIBLE_ERROR_OR_VARIANT_UNCOLLATED",
+      "original_1858_print_checked": false
+    },
+    {
+      "article": "VII",
+      "page": "https://www2.hs-augsburg.de/~harsch/Chronologia/Lspost16/Melanchthon/mel_ca07.html",
+      "transcribed": "consentiere",
+      "comparator": "consentire",
+      "status": "ONLINE_TRANSCRIPTION_POSSIBLE_ERROR_OR_VARIANT_UNCOLLATED",
+      "original_1858_print_checked": false
+    },
+    {
+      "article": "VIII",
+      "page": "https://www2.hs-augsburg.de/~harsch/Chronologia/Lspost16/Melanchthon/mel_ca08.html",
+      "transcribed": "malii / sentibant",
+      "comparator": "mali / sentiebant",
+      "status": "ONLINE_TRANSCRIPTION_POSSIBLE_ERROR_OR_VARIANT_UNCOLLATED",
+      "original_1858_print_checked": false
+    }
+  ]
+}

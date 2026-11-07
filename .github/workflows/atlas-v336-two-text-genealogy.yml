@@ -1,0 +1,32 @@
+name: Atlas V3.36 Augsburg Confession vs Confutatio source genealogy gate
+on:
+  push:
+    branches:
+      - research/atlas-v336-bornkamm-1573-augustana-transmission-audit
+  pull_request:
+    paths:
+      - 'data/contracts/atlas_v336_bornkamm_fabricius_two_text_stemma.json'
+      - 'docs/02_RESEARCH/V336_BORNKAMM_FABRICIUS_TWO_TEXT_STEMMA.md'
+      - 'scripts/build_v336_bornkamm_two_text_stemma.mjs'
+      - 'integrations/medium-atlas-v336/**'
+      - '.github/workflows/atlas-v336-two-text-genealogy.yml'
+jobs:
+  bornkamm_text_stemma_gate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate inherited V3.35 and V3.36 critical witness and CR26 1858 vs CR27 1859
+        run: node --test integrations/medium-atlas-v335/integration.test.mjs integrations/medium-atlas-v336/integration.test.mjs
+      - name: Export research only witness genealogy and digital transcription warnings
+        run: node scripts/build_v336_bornkamm_two_text_stemma.mjs
+      - name: Archive draft manuscript witness comparison records
+        uses: actions/upload-artifact@v4
+        with:
+          name: atlas-v336-review-only-two-text-stemma
+          path: out/atlas-v336/*.json
+          retention-days: 30
