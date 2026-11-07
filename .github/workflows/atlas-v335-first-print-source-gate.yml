@@ -1,0 +1,32 @@
+name: Atlas V3.35 Fabricius 1573 vs 1587 bibliographic and original-source gate
+on:
+  push:
+    branches:
+      - research/atlas-v335-fabricius-1573-bibliography-cr27-apparatus
+  pull_request:
+    paths:
+      - 'data/contracts/atlas_v335_fabricius_1573_first_print_bibliography.json'
+      - 'docs/02_RESEARCH/V335_FABRICIUS_1573_CR27_EDITION_AND_ACCESS_AUDIT.md'
+      - 'scripts/build_v335_fabricius_edition_graph.mjs'
+      - 'integrations/medium-atlas-v335/**'
+      - '.github/workflows/atlas-v335-first-print-source-gate.yml'
+jobs:
+  historical_first_print_gate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate inherited V3.34 and V3.35 Fabricius first print evidence boundaries
+        run: node --test integrations/medium-atlas-v334/integration.test.mjs integrations/medium-atlas-v335/integration.test.mjs
+      - name: Export reviewed research-only edition and access records
+        run: node scripts/build_v335_fabricius_edition_graph.mjs
+      - name: Archive non-published 1573 bibliographic evidence records
+        uses: actions/upload-artifact@v4
+        with:
+          name: atlas-v335-review-only-fabricius-edition-access
+          path: out/atlas-v335/*.json
+          retention-days: 30
