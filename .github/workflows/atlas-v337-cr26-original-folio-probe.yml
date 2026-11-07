@@ -30,8 +30,8 @@ jobs:
       - name: Visual discovery thumbnail log for printed column alignment
         run: |
           set -euo pipefail
-          for N in 215 232 245 260 275 290 312; do
-            pdftoppm -f "$N" -l "$N" -singlefile -jpeg -jpegopt quality=47 -scale-to 750 \
+          for N in 137 156 161 162 163 164 165; do
+            pdftoppm -f "$N" -l "$N" -singlefile -jpeg -jpegopt quality=68 -scale-to 1250 \
               /tmp/CR26_1858.pdf "out/atlas-v337-facsimile/CR26_1858_PDFPAGE_$N" >/dev/null 2>&1
             echo "VISUAL_SAMPLE_PAGE_${N}_BEGIN"
             base64 -w 0 "out/atlas-v337-facsimile/CR26_1858_PDFPAGE_$N.jpg" | fold -w 120
