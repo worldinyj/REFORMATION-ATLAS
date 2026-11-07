@@ -1,0 +1,84 @@
+name: Atlas V3.37 original CR XXVI/XXVII comparative facsimile archive
+on:
+  push:
+    branches:
+      - research/atlas-v337-cr26-1858-original-scan-page-audit
+    paths:
+      - '.github/workflows/atlas-v337-cr26-cr27-variant-archive.yml'
+  pull_request:
+    paths:
+      - '.github/workflows/atlas-v337-cr26-cr27-variant-archive.yml'
+  workflow_dispatch:
+jobs:
+  authenticated_two_volume_scan_archive:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - name: Retrieve and verify 1858 CR26 and 1859 CR27 separate physical scans
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p out/atlas-v337-side-by-side
+          sudo apt-get -qq update
+          sudo apt-get install -y -qq poppler-utils >/dev/null
+          curl -fSL --retry 1 --max-time 130 -A 'AtlasHistoricalSourceAudit/1.0 public-domain images' \
+            -o /tmp/CR26_1858.pdf 'https://upload.wikimedia.org/wikipedia/commons/3/37/Corpus_reformatorum_%28IA_corpusreformato09melagoog%29.pdf'
+          curl -fSL --retry 1 --max-time 130 -A 'AtlasHistoricalSourceAudit/1.0 public-domain images' \
+            -o /tmp/CR27_1859.pdf 'https://upload.wikimedia.org/wikipedia/commons/5/56/Corpus_reformatorum_%28IA_corpusreformato25melagoog%29.pdf'
+          echo '55832391489b20ee3cf6b64a318d234a28716eb830069c9eed604b004c1a7827  /tmp/CR26_1858.pdf' | sha256sum -c -
+          echo 'ba1995d5587375a13f5298001e7a6c42d68f1c6b161ae86335471a1c4f30b29d  /tmp/CR27_1859.pdf' | sha256sum -c -
+          test "$(pdfinfo /tmp/CR26_1858.pdf | awk '/^Pages:/ {print $2}')" = "420"
+          test "$(pdfinfo /tmp/CR27_1859.pdf | awk '/^Pages:/ {print $2}')" = "360"
+          cat >out/atlas-v337-side-by-side/PRINT_TO_PDF_PAGE_INDEX.txt <<'EOF'
+          BOOK A: Corpus Reformatorum XXVI = 1858 NYPL/Google digitization
+          URL: https://commons.wikimedia.org/wiki/File:Corpus_reformatorum_(IA_corpusreformato09melagoog).pdf
+          SHA256: 55832391489b20ee3cf6b64a318d234a28716eb830069c9eed604b004c1a7827
+          PDF (1-based) 137 = printed pages225-226 (Fabricius section)
+          PDF (1-based) 156 = printed pages263-264 (Confession introduction)
+          PDF (1-based) 161 = printed pages273-274
+          PDF (1-based) 162 = printed pages275-276 (Article IV p275)
+          PDF (1-based) 163 = printed pages277-278 (Article VII VIII p277)
+          BOOK B: Corpus Reformatorum XXVII = 1859 different book and text
+          URL: https://commons.wikimedia.org/wiki/File:Corpus_reformatorum_(IA_corpusreformato25melagoog).pdf
+          SHA256: ba1995d5587375a13f5298001e7a6c42d68f1c6b161ae86335471a1c4f30b29d
+          PDF (1-based) 70 = printed columns95-96 Catholic Confutatio IV
+          PDF (1-based) 73 = printed columns101-102 Confutatio VII
+          PDF (1-based) 74 = printed columns103-104 Confutatio VII
+          PDF (1-based) 75 = printed columns105-106 Confutatio VIII
+          NO ORIGINAL 1530 OR 1573 PRINT IMAGE WAS ACQUIRED.
+          CR26 Augsburg Confession and CR27 Roman Confutatio are DIFFERENT WORKS.
+          EOF
+      - name: Archive legible direct printed folios and key apparatus footnotes
+        shell: bash
+        run: |
+          set -euo pipefail
+          for N in 137 156 161 162 163; do
+            pdftoppm -f "$N" -l "$N" -singlefile -jpeg -jpegopt quality=83 -scale-to 2100 \
+              /tmp/CR26_1858.pdf "out/atlas-v337-side-by-side/CR26_1858_PDF_$N" >/dev/null 2>&1
+          done
+          for N in 70 73 74 75; do
+            pdftoppm -f "$N" -l "$N" -singlefile -jpeg -jpegopt quality=83 -scale-to 2100 \
+              /tmp/CR27_1859.pdf "out/atlas-v337-side-by-side/CR27_1859_PDF_$N" >/dev/null 2>&1
+          done
+          ls -lh out/atlas-v337-side-by-side
+      - name: Emit controlled CR27 critical apparatus visual checks
+        shell: bash
+        run: |
+          set -euo pipefail
+          for N in 70 73 74 75; do
+            pdftoppm -f "$N" -l "$N" -singlefile -jpeg -jpegopt quality=56 -scale-to 1200 \
+              /tmp/CR27_1859.pdf "/tmp/atlas_v337_cr27_quick_$N" >/dev/null 2>&1
+            echo "V337_CR27_VISUAL_$N"_BEGIN
+            base64 -w 0 "/tmp/atlas_v337_cr27_quick_$N.jpg" | fold -w 120
+            echo
+            echo "V337_CR27_VISUAL_$N"_END
+          done
+      - name: Upload archival direct edition pages for historical QC
+        uses: actions/upload-artifact@v4
+        with:
+          name: atlas-v337-cr26-1858-vs-cr27-1859-original-folio-images
+          path: out/atlas-v337-side-by-side/
+          retention-days: 30
