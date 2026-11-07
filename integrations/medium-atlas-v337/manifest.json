@@ -1,0 +1,36 @@
+{
+  "version": "3.37",
+  "kind": "CR26_1858_PRINT_VS_WEB_LATIN_AND_CR27_1859_EDITORIAL_APPARATUS",
+  "status": "DRAFT_HOLD",
+  "parent": "research/atlas-v336-bornkamm-1573-augustana-transmission-audit",
+  "contract": "data/contracts/atlas_v337_cr26_latin_original_print_vs_web_transcription.json",
+  "report": "docs/02_RESEARCH/V337_CR26_1858_ORIGINAL_PRINT_VS_LATIN_TRANSCRIPTION_AUDIT.md",
+  "builder": "scripts/build_v337_cr26_cr27_print_qa.mjs",
+  "test": "integrations/medium-atlas-v337/integration.test.mjs",
+  "source_archive": ".github/workflows/atlas-v337-cr26-cr27-variant-archive.yml",
+  "outputs": [
+    "v337_cr26_cr27_original_print_page_map.json",
+    "v337_online_latin_transcription_errata.json",
+    "v337_editorial_variant_source_grade.json"
+  ],
+  "counts": {
+    "sources": 10,
+    "CR26_scanned_page_map": 7,
+    "CR27_scanned_column_map": 4,
+    "online_latin_word_corrections": 4,
+    "editor_notes": 6,
+    "medium_essays": 3,
+    "sections": 9
+  },
+  "limits": {
+    "original_1530_folios_read": 0,
+    "first_1573_folios_read": 0,
+    "all_editor_variants_transcribed": false
+  },
+  "publication_gate": {
+    "published": false,
+    "webapp_integrated": false,
+    "historian_approved": false,
+    "main_modified": false
+  }
+}
