@@ -82,7 +82,7 @@ export function verifyV337({parent,contract}){
  assert.ok(contract.readings.every(x=>x.sections.length===3&&x.sections.every(y=>y.body.length>=180)));
  const text=readFileSync(path.join(ROOT,REPORT),'utf8');
  for(const s of ['iustificentur','consentire','sentiebant','mali','Fabr.','1573','1858','1859','출판 HOLD'])assert.ok(text.includes(s),'report lacks '+s);
- assert.equal(contract.metrics.online_corrections,4);
+ assert.equal(contract.metrics.corrections,4);
  assert.equal(contract.metrics.apparatus_notes,6);
  assert.equal(contract.metrics.original_corpus_mutations,0);
  return {sources:10,cr26_pages:7,cr27_pages:4,online_corrections:4,editorial_notes:6,essays:3,sections:9,open_issues:7};
