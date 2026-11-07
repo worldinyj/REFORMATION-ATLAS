@@ -1,0 +1,47 @@
+{
+  "version": "3.36",
+  "kind": "CRITICAL_CONFESSION_AND_CONFUTATIO_SOURCE_STEMMA",
+  "status": "DRAFT_HOLD",
+  "parent": "research/atlas-v335-fabricius-1573-bibliography-cr27-apparatus",
+  "contract": "data/contracts/atlas_v336_bornkamm_fabricius_two_text_stemma.json",
+  "report": "docs/02_RESEARCH/V336_BORNKAMM_FABRICIUS_TWO_TEXT_STEMMA.md",
+  "builder": "scripts/build_v336_bornkamm_two_text_stemma.mjs",
+  "test": "integrations/medium-atlas-v336/integration.test.mjs",
+  "outputs": [
+    "v336_two_text_augustana_confutatio_stemma.json",
+    "v336_bornkamm_source_grade_claims.json",
+    "v336_cr26_1858_web_transcription_followups.json"
+  ],
+  "counts": {
+    "sources": 19,
+    "manuscript_and_book_nodes": 11,
+    "relations": 10,
+    "claims": 15,
+    "medium_essays": 3,
+    "sections": 9,
+    "issues": 10,
+    "digital_transcription_flags": 3
+  },
+  "access_levels": {
+    "bornkamm_1956_print_pages_screened": [
+      10,
+      14,
+      15
+    ],
+    "CR26_1858_physical_scans_seen": 0,
+    "CR27_1859_scans_seen_prior": [
+      70,
+      73,
+      74,
+      75
+    ],
+    "fabricius_1573_original_interior_scans_seen": 0,
+    "coelestin_1577_original_scans_seen": 0
+  },
+  "publication_gate": {
+    "approved": false,
+    "main_changed": false,
+    "webapp_updated": false,
+    "historian_approved": false
+  }
+}
