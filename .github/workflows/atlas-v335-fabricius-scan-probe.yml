@@ -5,6 +5,9 @@ on:
       - research/atlas-v335-fabricius-1573-bibliography-cr27-apparatus
     paths:
       - '.github/workflows/atlas-v335-fabricius-scan-probe.yml'
+  pull_request:
+    paths:
+      - '.github/workflows/atlas-v335-fabricius-scan-probe.yml'
   workflow_dispatch:
 jobs:
   public_domain_1573_scan_access_probe:
