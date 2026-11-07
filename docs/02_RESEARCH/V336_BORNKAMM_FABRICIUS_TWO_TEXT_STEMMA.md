@@ -11,29 +11,17 @@
 ## 2. 1530년 신앙고백 텍스트의 전승
 
 | 증인 ID | 연도 | 정확한 문헌 역할 |
-
 |---|---:|---|
-
 | `V336-N01` | 1530 | **AUGUSTANA_LATIN_SUBMITTED_ORIGINAL** — Original submitted Confession copy once in Brussels imperial archive; per 1956 Bornkamm no longer extant/located. |
-
 | `V336-N02` | 1566 | **BRUSSELS_AUTHENTICATED_LATIN_TRANSCRIPT_CHAIN** — Vatican transcript certified 1566 Brussels, 1568 Vienna, transmitted to Rome. Witness V derivative. |
-
 | `V336-N03` | 1596 | **CANISIUS_HUENFELD_COPY** — Hü manuscript associated with Canisius; copy through intermediate document, dated inscription 1596. |
-
 | `V336-N04` | 1530 | **BISHOP_MANUSCRIPT_KRSW_GROUP** — Karlsruhe, Regensburg, Salzburg, Würzburg manuscripts, common intermediate exemplar identified through shared mistakes. |
-
 | `V336-N05` | 1573 | **FABRICIUS_PRINTED_AUGUSTANA** — Fabricius included a Latin version of the *Augsburg Confession*, distinct independent textual family with unsystematic rearrangements and unknown exact exemplar. |
-
 | `V336-N06` | 1573 | **FABRICIUS_FIRST_FULL_LATIN_CONFUTATIO_PUBLICATION** — Schaff identifies Roman Confutatio first full Latin print in same 1573 Harmonia volume; exact internal folio unseen. |
-
 | `V336-N07` | 1577 | **COELESTIN_REPRINT_OF_FABRICIUS_AUGUSTANA** — Bornkamm printed p10 note22 says Georg Coelestin in *Historia comitiorum* (1577) reprinted Fabricius's *Augsburg Confession* text. |
-
 | `V336-N08` | 1587 | **FABRICIUS_SECOND_EXPANDED_EDITION** — Second 1587 edition of Harmonia, separate collation and exact Latin paragraphs unexamined. |
-
 | `V336-N09` | 1597 | **COELESTIN_LATER_BOOK_POSSIBLE_DEPENDENCE** — Older ADB comments Coelestin 1597 text and Fabricius, but source's identity and exact relationship unverified, not 1577 book. |
-
 | `V336-N10` | 1858 | **CR26_LATIN_AUGUSTANA_COLLATION_1858** — CR XXVI (1858) printed cols226ff and 263ff cited by Bornkamm for Latin Augsburg Confession source comparison. University editorial derivative text online; actual 1858 printed scan not read. |
-
 | `V336-N11` | 1859 | **CR27_LATIN_CONFUTATIO_CRITICAL_TEXT** — CR XXVII Latin Roman Confutatio col96,102–105 directly checked in V3.34; distinct from CR XXVI. |
 
 바티칸 V와 휜펠트 Hü 사본, KRSW라는 네 주교 소장 필사본 그룹, 파브리키우스의 라틴어 신앙고백 텍스트가 독립적인 가치가 있다는 것은 **같은 종교개혁 문헌을 복원할 때 각 증언의 계보와 품질을 구분해야 한다**는 뜻이다. KRSW의 네 사본에 공통된 오류가 있다면 네 개의 독립적인 정확한 증인으로 모두 계산하지 않는다.
@@ -41,27 +29,16 @@
 ## 3. 출처·관계 그래프
 
 | 관계 | 문헌 출발 → 도착 | 역사적 연결의 수준 |
-
 |---|---|---|
-
 | `IMPERIAL_CONFESSION_COPY_CHAIN` | `V336-N01` → `V336-N02` | Evidence of 1566 certified archival transcript, by Bornkamm, not surviving Brussels original scan |
-
 | `DISTINCT_IMPERIAL_CONFESSION_COPY_CHAIN` | `V336-N01` → `V336-N03` | Hünfeld associated Canisius copy via intermediate source, 1596 note, not lineally identical with Vatican copy |
-
 | `COMMON_INTERMEDIATE_BISHOPS_GROUP` | `V336-N01` → `V336-N04` | KRSW share characteristic errors by intermediate exemplar rather than four independent exact lines from emperor original |
-
 | `INDEPENDENT_CONFESSION_PRINT_WITNESS_PROVENANCE_UNKNOWN` | `V336-N01` → `V336-N05` | Bornkamm judges 1573 Fabricius Confession text an independent family; possible Brussels-line copy but source unknown and not direct original |
-
 | `REPRINT_OF_FABRICIUS_CONFESSION_TEXT` | `V336-N05` → `V336-N07` | Bornkamm footnote p10 says Coelestin 1577 reprinted Fabricius 1573 Confession text, not proven first full Latin Confutatio reprint |
-
 | `BIBLIOGRAPHIC_FIRST_FULL_LATIN_CONFUTATIO_PUBLICATION` | `V336-N06` → `V336-N11` | Schaff reports 1573 first Latin full Confutatio; 1859 is later critical print of Confutatio, no original Latin sentence pair compared |
-
 | `CR26_CONFESSION_COLLATION_REFERENCE` | `V336-N05` → `V336-N10` | CR XXVI (1858) col226ff and263ff are Latin *Augsburg Confession* variant collations, NOT CR XXVII (1859) Catholic Confutatio |
-
 | `UNVERIFIED_LATER_COELESTIN_RELATION` | `V336-N05` → `V336-N09` | Older ADB 1597 relation is distinct from Bornkamm 1577 precise reprint; provenance unresolved, not first edition witness |
-
 | `REVISED_COLLECTION_1587` | `V336-N05` → `V336-N08` | 1587 printed second Harmonia edition follows 1573, edition is expanded per title, exact content variation uncollated |
-
 | `SAME_VOLUME_DIFFERENT_WORKS` | `V336-N05` → `V336-N06` | 1573 *Augsburg Confession* copy and *Roman Confutatio* response belong to same Fabricius collection, but separate authorships/textual histories and should never merge |
 
 ### 1577년과 1597년의 구별
@@ -71,11 +48,8 @@
 ## 4. 제26권(1858)과 제27권(1859)의 물리적 구별
 
 | 문헌집 | 간행연도 | 텍스트 | 이번에 실제 접근한 범위 |
-
 |---|---:|---|---|
-
 | 『Corpus Reformatorum』 **XXVI** | **1858** | 루터파 『아우크스부르크 신앙고백』 라틴어 전승·비평 | SLUB 대학 도서관의 간행 서지와 CR26에 근거한 Bibliotheca Augustana의 현대 HTML 전사, **1858년 실제 인쇄 이미지 0쪽** |
-
 | 『Corpus Reformatorum』 **XXVII** | **1859** | 가톨릭 『반박문』 라틴어 전승·비평 | V3.34에서 **1859년 인쇄 96·102~105열을 직접 이미지 판독**, 기존 연구에서 읽은 결과를 이번에 보존 |
 
 보른캄 인쇄 10쪽 각주 22에는 제26권의 **226열 이후·263열 이후**에 파브리키우스 신앙고백 본문의 관련 이문을 대조할 수 있다는 지시가 있다. 이것은 제27권의 반박문 96·102~105열과 **전혀 다른 대상**이므로 원문 관계를 그릴 때 반드시 두 종류의 노드로 관리한다.
@@ -85,13 +59,9 @@
 현대 온라인 전사인 Bibliotheca Augustana는 제26권(1858) **263~336쪽**에 기초했다고 표기하며 신앙고백 제4·7·8조를 제공한다. 하지만 다음 글자 표기는 다른 라틴어 전사와 일치하지 않는다. **이번에는 원본 1858년 인쇄 이미지를 직접 보지 않았으므로, 역사적 이문인지 HTML 편집·입력 오류인지 아직 확정하지 않는다.**
 
 | 조항 | 검토한 온라인 표기 | 다른 라틴어판에서 보이는 표기 | 판정 |
-
 |---|---|---|---|
-
 | IV | `gratis iustificenter` | `gratis iustificentur` | **원본 확인 대기** |
-
 | VII | `consentiere` | `consentire` | **원본 확인 대기** |
-
 | VIII | `malii / sentibant` | `mali / sentiebant` | **원본 확인 대기** |
 
 이와 같은 오류 의심 사례를 바로 1530년 당대의 원어 차이로 기록하면 편집상의 실수가 역사적 사실로 바뀐다. ATLAS의 한국어 전문에 라틴어 한 글자를 인용할 때도 **어느 판본의 글자인지** 추적하도록 한다.
@@ -99,37 +69,21 @@
 ## 6. 근거 카드 15건
 
 | 카드 | 주장 | 출처 |
-
 |---|---|---|
-
 | `V336-C01` | Bornkamm states submitted 1530 German/Latin Confession originals could not be located, and reconstructs via copies, not zero manuscript tradition. | V336-S01 |
-
 | `V336-C02` | He describes a certified Brussels Confession copy (1566, later 1568 Vienna), whose witnessed oath text is quoted and page visually seen in modern paper. | V336-S02 |
-
 | `V336-C03` | Hü copy linked to Canisius and note dated 1596, derivative chain not necessarily same scribe as Vatican V. | V336-S01, V336-S03 |
-
 | `V336-C04` | KRSW bishop manuscript family has common intermediate exemplar and shared omissions, cannot count as four independent direct originals. | V336-S03 |
-
 | `V336-C05` | Bornkamm print p14-15 identifies Fabricius's Latin Augsburg Confession text as independent from both Hü,V and KRSW but with many rearrangements and unknown provenance. | V336-S03 |
-
 | `V336-C06` | Bornkamm gives greater evidentiary value to Hü and V than to Fabricius in reconstruction; not all independent witnesses have equal text-critical trust. | V336-S03 |
-
 | `V336-C07` | Footnote22 printed p10 says 1573 Fabricius *Confession* text reprinted by Georg Coelestin 1577, not automatically Roman Confutatio reprint. | V336-S04 |
-
 | `V336-C08` | Footnote22 points to CR 26 columns226ff and263ff for *Confession* readings; separately verified CR27 cols96/102-105 concern Catholic *Confutatio*. | V336-S04, V336-S08 |
-
 | `V336-C09` | Bornkamm says Fabricius probably had Brussels-line 1530 Confession copy; this is his likelihood assessment, not direct traceable source chain. | V336-S01, V336-S03 |
-
 | `V336-C10` | Schaff's 1573 first full Latin Confutatio is a retrospective bibliography of a different text domain; not the same as Bornkamm's claim about Fabricius's Latin Confession witness. | V336-S07, V336-S03 |
-
 | `V336-C11` | Older German biography 1597 Coelestin derivative warning is a distinct later publication issue, not proof 1577 was 1597. | V336-S14, V336-S04 |
-
 | `V336-C12` | Despite library 1573 bibliographic proof, direct 1573 internal page and 1573-vs-1859 original Latin collation remain zero. | V336-S05, V336-S06, V336-S11 |
-
 | `V336-C13` | SLUB Dresden confirms CR XXVI printed in 1858 while CR XXVII printed in 1859. Do not assign 1859 to both volumes. | V336-S15 |
-
 | `V336-C14` | Bibliotheca Augustana online AC IV,VII,VIII explicitly draws on CR XXVI 1858 pp263-336, but these online HTML texts are not direct images of the 1858 book. | V336-S16, V336-S17, V336-S18, V336-S19 |
-
 | `V336-C15` | Online iustificenter/consentiere/malii/sentibant anomalies require comparison with CR26 1858 print before being classified as actual sixteenth-century textual variants. | V336-S17, V336-S18, V336-S19 |
 
 ## 7. 중간 깊이 역사 해설 — 3편·9절
@@ -179,45 +133,25 @@
 ## 8. 조사 출처와 검증 등급
 
 | ID | 출처 | 실제 접근·근거 등급 |
-
 |---|---|---|
-
 | `V336-S01` | [Heinrich Bornkamm: Der authentische lateinische Text der Confessio Augustana (1530)](https://www.mgh-bibliothek.de/dokumente/a/a022116.pdf) | `HISTORICAL_TEXT_CRITICISM_PDF_PRINT_PAGES_VISUALLY_INSPECTED` |
-
 | `V336-S02` | [Bornkamm 1956 quoted original-archive transcript testimony](https://www.mgh-bibliothek.de/dokumente/a/a022116.pdf) | `MODERN_HISTORIAN_PRINTED_QUOTATION_FROM_1566_ARCHIVAL_COPY` |
-
 | `V336-S03` | [Bornkamm 1956 four-source ranking](https://www.mgh-bibliothek.de/dokumente/a/a022116.pdf) | `MODERN_SCHOLAR_DIRECT_VISUAL_PRINT_P14_15` |
-
 | `V336-S04` | [Bornkamm 1956 note22 on Fabricius and Coelestin 1577](https://www.mgh-bibliothek.de/dokumente/a/a022116.pdf) | `MODERN_SCHOLAR_DIRECT_VISUAL_PRINT_P10` |
-
 | `V336-S05` | [BnF original 1573 Fabricius imprint](https://catalogue.bnf.fr/ark:/12148/cb304145207) | `NATIONAL_LIBRARY_CATALOGUE_ONLY` |
-
 | `V336-S06` | [Braidense first print 1573 and second 1587](https://opac.bibliotecabraidense.org/opac_braidense/opaclib?db=solr_braidense&do_cmd=search_show_cmd&from=1&item%3A8006%3ATitolo_uniforme%3A%40frase%40=SBL0086576&nentries=10&resultForward=opac%2Fbraidense%2Fbrief.jsp&searchForm=opac%2Fbraidense%2Ferror.jsp) | `NATIONAL_LIBRARY_CATALOGUE_1573_1587_DISTINCT` |
-
 | `V336-S07` | [Schaff history of first full Latin Roman Confutation print](https://www.ccel.org/s/schaff/history/7_ch09.htm) | `RETROSPECTIVE_BIBLIOGRAPHIC_ASSERTION` |
-
 | `V336-S08` | [CR XXVII NYPL 1859 actual Roman Confutatio](https://commons.wikimedia.org/wiki/File:Corpus_reformatorum_(IA_corpusreformato25melagoog).pdf) | `DIRECT_1859_CR27_CONTRADOCUMENT_SCANNED_PRIOR_V334` |
-
 | `V336-S09` | [CR XXVII 1859 original PDF mirror](https://upload.wikimedia.org/wikipedia/commons/5/56/Corpus_reformatorum_%28IA_corpusreformato25melagoog%29.pdf) | `INDEPENDENT_FILE_URL_NOT_INDEPENDENT_TEXT_WITNESS` |
-
 | `V336-S10` | [CR XXVI historical textual collation attested by Bornkamm](https://www.mgh-bibliothek.de/dokumente/a/a022116.pdf) | `SCHOLARLY_FOOTNOTE_ONLY_ORIGINAL_CR26_NOT_READ` |
-
 | `V336-S11` | [V3.35 allowed 1573 PDF retrieval probe](https://github.com/worldinyj/REFORMATION-ATLAS/actions/runs/42321490328) | `ACTUAL_NETWORK_PROBE_LEDGER` |
-
 | `V336-S12` | [Blackwell B172 1573 folio seller catalogue](https://ilab.org/assets/catalogues/catalogs_files_1111_catalogue_b172.pdf) | `RARITY_SELLER_CATALOGUE_PAGE_PREVIOUSLY_SCREENED` |
-
 | `V336-S13` | [Berkeley rare books 1587 enlarged second edition](https://lawcat.berkeley.edu/record/287858) | `UNIVERSITY_LIBRARY_SECOND_EDITION_CATALOGUE` |
-
 | `V336-S14` | [Deutsche Biographie Coelestin older ADB page](https://www.deutsche-biographie.de/gnd122885589.html?language=en) | `OLDER_HISTORIOGRAPHY_CRITICAL_HYPOTHESIS` |
-
 | `V336-S15` | [SLUB Dresden Corpus Reformatorum volume 26 publication date](https://katalog.slub-dresden.de/id/0-168762757) | `UNIVERSITY_LIBRARY_CR26_AND_CR27_DATE_RECORD` |
-
 | `V336-S16` | [Bibliotheca Augustana based on CR26 1858 transcription index](https://www2.hs-augsburg.de/~harsch/Chronologia/Lspost16/Melanchthon/mel_ca00.html) | `WEB_EDITORIAL_TRANSCRIPTION_CR26_WITH_EXACT_SOURCE` |
-
 | `V336-S17` | [Bibliotheca Augustana CR26 Augsburg Confession Article IV online text](https://www2.hs-augsburg.de/~harsch/Chronologia/Lspost16/Melanchthon/mel_ca04.html) | `DERIVATIVE_EDITORIAL_LATIN_WEB_TEXT` |
-
 | `V336-S18` | [Bibliotheca Augustana CR26 Augsburg Confession Article VII online text](https://www2.hs-augsburg.de/~harsch/Chronologia/Lspost16/Melanchthon/mel_ca07.html) | `DERIVATIVE_EDITORIAL_LATIN_WEB_TEXT` |
-
 | `V336-S19` | [Bibliotheca Augustana CR26 Augsburg Confession Article VIII online text](https://www2.hs-augsburg.de/~harsch/Chronologia/Lspost16/Melanchthon/mel_ca08.html) | `DERIVATIVE_EDITORIAL_LATIN_WEB_TEXT` |
 
 이 가운데 보른캄의 논문은 인쇄 10쪽(디지털 0기준 11), 14쪽(15), 15쪽(16)을 직접 이미지로 확인했다. SLUB 서지 및 Bibliotheca Augustana는 웹 텍스트로 읽었다. **CR26의 1858년 인쇄면·1573년 파브리키우스 책의 내부 본문·1577년 및 1597년 쾰레스틴 원본**은 직접 열람하지 않았다.
