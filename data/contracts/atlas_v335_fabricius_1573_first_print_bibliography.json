@@ -137,6 +137,14 @@
       "grade": "FIRST_1573_HOLDING_CATALOGUE_ID",
       "note": "Braidense 1573 item ID BVEE009737, distinguish 1587 BVEE020975.",
       "direct_1573_folio_seen": false
+    },
+    {
+      "id": "V335-S15",
+      "title": "Blackwell's Rare Books catalogue B172 printed p26 item55 1573 Fabricius actual rare-book description",
+      "url": "https://ilab.org/assets/catalogues/catalogs_files_1111_catalogue_b172.pdf",
+      "grade": "RARE_BOOK_DEALER_CATALOGUE_PAGE_VISUALLY_SCREENED",
+      "note": "Item 55 in PDF page pageno 27 visually inspected: contemporary calf first 1573 edition [xii],574 pp, VD16 L940, book cover photograph; explicitly says Latin Augsburg Confession, Confutatio, Catholic scholars' commentaries; scan of original 1573 internal paragraphs NOT seen.",
+      "direct_1573_folio_seen": false
     }
   ],
   "witness_nodes": [
@@ -179,7 +187,8 @@
       "source_ids": [
         "V335-S01",
         "V335-S02",
-        "V335-S08"
+        "V335-S08",
+        "V335-S15"
       ],
       "direct_1573_edition_page": false
     },
@@ -293,7 +302,8 @@
       "to": "V335-E04",
       "source_ids": [
         "V335-S09",
-        "V335-S01"
+        "V335-S01",
+        "V335-S15"
       ],
       "note": "Fabricius volume includes history of Augsburg Confession and a text of the Confession as well as imperial judgment; do not confuse Catholic Confutation witness with revised Augsburg Confession witness.",
       "exact_1573_1859_word_pairs_compared": 0
@@ -623,7 +633,7 @@
     "first_latin_publication_1573_is_later_historian_claim": true
   },
   "metrics": {
-    "sources": 14,
+    "sources": 15,
     "editions": 8,
     "relations": 8,
     "loci_to_pair": 4,
