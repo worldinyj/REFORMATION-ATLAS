@@ -18,6 +18,8 @@ jobs:
       - name: Download unaltered 1858 print facsimile and record file identity
         run: |
           set -euo pipefail
+          sudo apt-get -qq update
+          sudo apt-get install -y -qq poppler-utils >/dev/null
           mkdir -p out/atlas-v337-facsimile
           URL='https://upload.wikimedia.org/wikipedia/commons/3/37/Corpus_reformatorum_%28IA_corpusreformato09melagoog%29.pdf'
           curl -fSL --retry 1 --max-time 130 --user-agent 'AtlasHistoricalSourceAudit/1.0 (public domain)' -o /tmp/CR26_1858.pdf "$URL"
