@@ -1,0 +1,50 @@
+name: Atlas V3.35 Fabricius 1573 primary-image access probe
+on:
+  push:
+    branches:
+      - research/atlas-v335-fabricius-1573-bibliography-cr27-apparatus
+    paths:
+      - '.github/workflows/atlas-v335-fabricius-scan-probe.yml'
+  workflow_dispatch:
+jobs:
+  public_domain_1573_scan_access_probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - name: Probe exact 1573 Google Books book IDs without assuming original page access
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p out/atlas-v335-access
+          echo "PROBE_YEAR=1573"
+          for ID in gTRjAAAAcAAJ jyq4gUPcJpwC; do
+            echo "== GOOGLE_BOOKS_1573_ID=$ID =="
+            for KIND in reader download; do
+              if [ "$KIND" = reader ]; then
+                URL="https://books.google.com/books?id=$ID&printsec=frontcover"
+              else
+                URL="https://books.google.com/books/download/Harmonia_Confessionis_Augustanae.pdf?id=$ID&output=pdf"
+              fi
+              OUT="/tmp/v335_${ID}_${KIND}"
+              CODE=$(curl -sSL --retry 0 --max-time 35 --connect-timeout 8 --range 0-200000 \
+                -A 'Mozilla/5.0 (compatible; AtlasHistoricalSourceAudit/1.0)' \
+                -w '%{http_code}' -o "$OUT" "$URL" || echo "ERROR")
+              echo "RESULT id=$ID kind=$KIND http=$CODE bytes=$(wc -c <"$OUT" 2>/dev/null || echo 0) mimetype=$(file -b --mime-type "$OUT" 2>/dev/null || echo unavailable)"
+              test -f "$OUT" && head -c 18 "$OUT" | od -A n -t x1 || true
+            done
+          done
+          cat >out/atlas-v335-access/PROBE_SCOPE.txt <<'EOF'
+          Research-only 1573 Fabricius book-page retrieval probe.
+          BnF record: https://catalogue.bnf.fr/ark:/12148/cb304145207
+          Google Books volumes: gTRjAAAAcAAJ and jyq4gUPcJpwC.
+          Tested endpoints might return HTML redirects/captcha. Merely 200 is not PDF page evidence.
+          Never infer that specific 1573 Confutatio article text was visually inspected from this test.
+          EOF
+      - uses: actions/upload-artifact@v4
+        with:
+          name: atlas-v335-original-1573-access-probe-results
+          path: out/atlas-v335-access/PROBE_SCOPE.txt
+          retention-days: 30
