@@ -1,0 +1,381 @@
+{
+  "schema": "atlas.research.v338.print_state_provenance.v1",
+  "version": "3.38",
+  "created_at": "2026-11-09",
+  "status": "RESEARCH_DRAFT_HOLD",
+  "published": false,
+  "webapp_integrated": false,
+  "parent_version": "3.37.1",
+  "scope": "Augsburg Confession transmission 1530-1540 and CR26 1858; IV/VII/VIII online variants remain unresolved",
+  "sources": [
+    {
+      "id": "V338-S01",
+      "kind": "INSTITUTIONAL_CATALOGUE",
+      "title": "Confessio Fidei ... Witebergae Rhau 1531 (Bamberg copy)",
+      "url": "https://www.digitale-sammlungen.de/en/details/bsb11411960",
+      "record_id": "bsb11411960",
+      "catalogue_id": "VD16 C 4734",
+      "holding": "Staatsbibliothek Bamberg",
+      "shelfmark": ".64 B 9#3a",
+      "digitized_by": "Bayerische Staatsbibliothek/MDZ",
+      "scans": 288,
+      "access": "CATALOGUE_METADATA_READ",
+      "image_pages_inspected": 0,
+      "rights": "No Copyright - Non-Commercial Use Only; do not redistribute images pending permissions check"
+    },
+    {
+      "id": "V338-S02",
+      "kind": "INSTITUTIONAL_EXHIBITION",
+      "title": "Bridwell Library 1531 combined Latin/German copies",
+      "url": "https://bridwell.omeka.net/exhibits/show/luther/controversies/augsburgconfession",
+      "reference": "BRA2651/A-B",
+      "holding": "Bridwell Library",
+      "access": "EXHIBITION_DESCRIPTION_READ",
+      "image_pages_inspected": 0
+    },
+    {
+      "id": "V338-S03",
+      "kind": "SCHOLARLY_MONOGRAPH_OPEN_PREVIEW",
+      "author": "Andreas Stegmann",
+      "title": "Der Text des Augsburgischen Bekenntnisses: Zu Text- und Rezeptionsgeschichte",
+      "publisher": "Mohr Siebeck",
+      "year": 2025,
+      "doi": "10.1628/978-3-16-164164-0",
+      "isbn": "9783161641633",
+      "url": "https://api.pageplace.de/preview/DT0400.9783161641640_A50634900/preview-9783161641640_A50634900.pdf",
+      "access": "FIRST_29_PDF_PAGES_OPEN_PREVIEW",
+      "direct_print_pages_seen": [
+        10,
+        11,
+        12
+      ],
+      "pdf_zero_based_pages": [
+        16,
+        17,
+        18
+      ],
+      "copyright": "2025 copyright; summarize arguments and brief quotations only"
+    },
+    {
+      "id": "V338-S04",
+      "kind": "NINETEENTH_CENTURY_SCHOLARLY_CRITICAL_PRINT",
+      "title": "Corpus Reformatorum, volume XXVI",
+      "year": 1858,
+      "publisher": "C.A. Schwetschke",
+      "url": "https://books.google.com/books?id=zxERAAAAIAAJ",
+      "access": "BIBLIOGRAPHIC_AND_SNIPPETS_ONLY_FOR_PAGES_263_336",
+      "target_print_pages": "263–336",
+      "image_pages_inspected_for_target": 0
+    },
+    {
+      "id": "V338-S05",
+      "kind": "NINETEENTH_CENTURY_REEXCERPTED_PRINT",
+      "title": "CR XXVI 1858, edited reproduction of 1540 Variata, print 349–412",
+      "url": "https://www.augsburg1540.com/uploads/1/3/8/9/138903771/1540_latin_text_from_corpus_reformandum.pdf",
+      "access": "PRINT_IMAGE_PAGES_351_356_SEEN_PREVIOUS_SESSION",
+      "verified_print_pages": [
+        351,
+        352,
+        353,
+        354,
+        355,
+        356
+      ]
+    },
+    {
+      "id": "V338-S06",
+      "kind": "INSTITUTIONAL_DIGITAL_COLLECTION",
+      "title": "BSB copy of Wittenberg 1531 Latin Augsburg Confession",
+      "url": "https://www.bavarikon.de/object/bav:BSB-CMS-0000000000001353?lang=en",
+      "shelfmark": "4 H.ref. 205 b",
+      "holding": "Bayerische Staatsbibliothek",
+      "access": "SEARCH_RESULT_METADATA_ONLY_ACCESS_BLOCKED",
+      "same_copy_as_V338_S01": false
+    },
+    {
+      "id": "V338-S07",
+      "kind": "LATER_EDITED_WEB_TRANSCRIPTION",
+      "title": "Bibliotheca Augustana Confessio Augustana from CR26 1858",
+      "url": "https://www2.hs-augsburg.de/~harsch/Chronologia/Lspost16/Melanchthon/mel_ca00.html",
+      "access": "DIGITAL_TRANSCRIPTION_ONLY",
+      "underlying_print": "CR XXVI 1858 pp. 263–336"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "V338-N01",
+      "level": "historical_event",
+      "name": "1530 June 25 Diet of Augsburg presentation",
+      "year": 1530,
+      "physical_original_held": false
+    },
+    {
+      "id": "V338-N02",
+      "level": "edition",
+      "name": "1531 first authorized Latin quarto printing",
+      "year": 1531,
+      "city": "Wittenberg",
+      "printer": "Georg Rhau",
+      "original_to_1530_identical": false
+    },
+    {
+      "id": "V338-N03",
+      "level": "edition",
+      "name": "1531 authorized German quarto printing",
+      "year": 1531,
+      "city": "Wittenberg",
+      "printer": "Georg Rhau"
+    },
+    {
+      "id": "V338-N04",
+      "level": "exemplar",
+      "name": "Bamberg Staatsbibliothek .64 B 9#3a",
+      "edition_id": "V338-N02",
+      "catalogue_id": "VD16 C 4734",
+      "bsb_object_id": "bsb11411960",
+      "leaf_spreads_seen": 0
+    },
+    {
+      "id": "V338-N05",
+      "level": "exemplar",
+      "name": "Bridwell 1531 combined Latin and German",
+      "edition_id": "V338-N02",
+      "reference": "BRA2651/A-B",
+      "leaf_spreads_seen": 0
+    },
+    {
+      "id": "V338-N06",
+      "level": "exemplar",
+      "name": "BSB Munich 4 H.ref. 205 b 1531 Latin",
+      "edition_id": "V338-N02",
+      "reference": "4 H.ref. 205 b",
+      "leaf_spreads_seen": 0
+    },
+    {
+      "id": "V338-N07",
+      "level": "edition",
+      "name": "1540 Latin Variata revised printing",
+      "year": 1540
+    },
+    {
+      "id": "V338-N08",
+      "level": "editorial_print",
+      "name": "1858 Corpus Reformatorum 26 1531-series text",
+      "year": 1858,
+      "print_page_range": [
+        263,
+        336
+      ],
+      "target_leaf_images_seen": 0
+    },
+    {
+      "id": "V338-N09",
+      "level": "editorial_print",
+      "name": "1858 Corpus Reformatorum 26 edited 1540 Variata",
+      "year": 1858,
+      "print_page_range": [
+        349,
+        412
+      ],
+      "verified_excerpt_pages": [
+        351,
+        352,
+        353,
+        354,
+        355,
+        356
+      ]
+    },
+    {
+      "id": "V338-N10",
+      "level": "modern_research",
+      "name": "Stegmann 2025 textual transmission study",
+      "year": 2025
+    }
+  ],
+  "relations": [
+    {
+      "from": "V338-N04",
+      "to": "V338-N02",
+      "type": "SURVIVING_COPY_OF_EDITION",
+      "source_id": "V338-S01"
+    },
+    {
+      "from": "V338-N05",
+      "to": "V338-N02",
+      "type": "SURVIVING_COPY_OF_EDITION",
+      "source_id": "V338-S02"
+    },
+    {
+      "from": "V338-N06",
+      "to": "V338-N02",
+      "type": "SURVIVING_COPY_OF_EDITION",
+      "source_id": "V338-S06"
+    },
+    {
+      "from": "V338-N02",
+      "to": "V338-N01",
+      "type": "POST_EVENT_AUTHORIZED_REDACTION_NOT_IDENTICAL",
+      "source_id": "V338-S03"
+    },
+    {
+      "from": "V338-N07",
+      "to": "V338-N02",
+      "type": "LATER_AUTHORIAL_REDACTION",
+      "source_id": "V338-S05"
+    },
+    {
+      "from": "V338-N08",
+      "to": "V338-N02",
+      "type": "NINETEENTH_CENTURY_EDITION_OF",
+      "source_id": "V338-S04"
+    },
+    {
+      "from": "V338-N09",
+      "to": "V338-N07",
+      "type": "NINETEENTH_CENTURY_EDITION_OF",
+      "source_id": "V338-S05"
+    }
+  ],
+  "claims": [
+    {
+      "id": "V338-C01",
+      "assertion": "1531 authorized Latin edition is not identical to the submitted 1530 form; articles IV XX XXVII XXVIII were substantially/entirely redrafted before 1531 edition",
+      "source_id": "V338-S03",
+      "print_page": 10,
+      "proof": "MODERN_SCHOLARLY_ARGUMENT_IN_OPEN_PREVIEW",
+      "scope": "Historical editorial history; not direct 1530 autograph comparison"
+    },
+    {
+      "id": "V338-C02",
+      "assertion": "Early 1531 Latin printing production included sheet cancellation and press corrections; different surviving exemplar states may matter",
+      "source_id": "V338-S03",
+      "print_page": 11,
+      "proof": "MODERN_SCHOLARLY_ARGUMENT_IN_OPEN_PREVIEW",
+      "scope": "No press-correction locus at CA IV VII VIII independently verified"
+    },
+    {
+      "id": "V338-C03",
+      "assertion": "Stegmann provisionally agrees with Bindseil that one Latin and one German quarto edition appeared in 1531; different VD16 numbers alone do not establish separately typeset editions",
+      "source_id": "V338-S03",
+      "print_page": 11,
+      "proof": "MODERN_SCHOLARLY_ARGUMENT_WITH_EXPLICIT_QUALIFICATION",
+      "scope": "Author notes comprehensive exemplar collation still needed"
+    },
+    {
+      "id": "V338-C04",
+      "assertion": "Specific 1531 Latin surviving Bamberg copy indexed as VD16 C 4734 and digitized by BSB/MDZ (288 scans)",
+      "source_id": "V338-S01",
+      "proof": "INSTITUTIONAL_CATALOGUE_METADATA",
+      "scope": "Individual scanned leaves not read, not yet text witness at specific loci"
+    },
+    {
+      "id": "V338-C05",
+      "assertion": "Another 1531 Latin BSB Munich copy is catalogued as 4 H.ref. 205 b, different holding from Bamberg copy",
+      "source_id": "V338-S06",
+      "proof": "INSTITUTIONAL_RECORD_SEARCH_SNIPPET_ONLY",
+      "scope": "Holding distinction only; actual leaf condition unknown"
+    },
+    {
+      "id": "V338-C06",
+      "assertion": "Bridwell holds Latin and German 1531 first-print material with 1531 Georg Rhau identification",
+      "source_id": "V338-S02",
+      "proof": "LIBRARY_EXHIBITION_DESCRIPTION",
+      "scope": "Combined binding not proof all distributed copies were always bound together"
+    },
+    {
+      "id": "V338-C07",
+      "assertion": "CR XXVI pp.263–336 1531-family scanned target images are still not independently read for W01–W04",
+      "source_id": "V338-S04",
+      "proof": "RESEARCH_NEGATIVE_LEDGER",
+      "scope": "Cannot settle transcription typo vs historic variant"
+    },
+    {
+      "id": "V338-C08",
+      "assertion": "1858 CR XXVI Variata print 351–356 and apparatus are a different textual level from 1531 originals and 1530 submitted manuscripts",
+      "source_id": "V338-S05",
+      "proof": "PRINT_IMAGE_PREVIOUSLY_SEEN",
+      "scope": "Do not map image of 1540 editorial text onto 1531 target"
+    }
+  ],
+  "variant_classification": [
+    "AUTHORIAL_REVISION_BETWEEN_EDITIONS",
+    "PRESS_CORRECTION_WITHIN_PRINT_RUN",
+    "EXEMPLAR_STATE_DIFFERENCE",
+    "CRITICAL_EDITOR_ALTERATION",
+    "DIGITAL_TRANSCRIPTION_ERROR",
+    "ORTHOGRAPHIC_NORMALIZATION",
+    "UNRESOLVED"
+  ],
+  "unresolved_transcriptions": [
+    {
+      "id": "W01",
+      "article": "IV",
+      "web_a": "iustificenter",
+      "web_b": "justificentur",
+      "class": "UNRESOLVED",
+      "required_images": [
+        "V338-N08:CA-IV-print-275",
+        "V338-N04:CA-IV-actual-leaf"
+      ],
+      "verified_1531_direct": false
+    },
+    {
+      "id": "W02",
+      "article": "VII",
+      "web_a": "consentiere",
+      "web_b": "consentire",
+      "class": "UNRESOLVED",
+      "required_images": [
+        "V338-N08:CA-VII-print-page",
+        "V338-N04:CA-VII-actual-leaf"
+      ],
+      "verified_1531_direct": false
+    },
+    {
+      "id": "W03",
+      "article": "VIII",
+      "web_a": "malii",
+      "web_b": "mali",
+      "class": "UNRESOLVED",
+      "required_images": [
+        "V338-N08:CA-VIII-print-page",
+        "V338-N04:CA-VIII-actual-leaf"
+      ],
+      "verified_1531_direct": false
+    },
+    {
+      "id": "W04",
+      "article": "VIII",
+      "web_a": "sentibant",
+      "web_b": "sentiebant",
+      "class": "UNRESOLVED",
+      "required_images": [
+        "V338-N08:CA-VIII-print-page",
+        "V338-N04:CA-VIII-actual-leaf"
+      ],
+      "verified_1531_direct": false
+    }
+  ],
+  "editorial_gates": {
+    "rule_1": "Do not call a VD16 identifier a separate authorial textual edition without setting comparison.",
+    "rule_2": "Do not merge bibliographic edition, individual copy, editorial reprint and text transcription nodes.",
+    "rule_3": "Do not claim BSB digitized object leaves were visualized when only catalogue metadata was retrieved.",
+    "rule_4": "Do not infer 1530 submitted wording from 1531 editio princeps without manuscript argument.",
+    "rule_5": "Do not convert open W01-W04 into final corrections until 1858 print body and 1531 exemplar leaves are read.",
+    "rule_6": "Do not republish modern copyrighted preview or redistribute restricted original-scanning images.",
+    "rule_7": "Do not change original corpus, main branch, or webapp during research audit."
+  },
+  "metrics": {
+    "bibliographic_sources": 7,
+    "objects": 10,
+    "exemplar_nodes": 3,
+    "claims": 8,
+    "relations": 7,
+    "unresolved_transcription_flags": 4,
+    "print_1531_direct_pages_seen": 0,
+    "cr26_ed1_direct_pages_seen": 0,
+    "existing_corpus_changes": 0,
+    "publication_allowed": false
+  }
+}
