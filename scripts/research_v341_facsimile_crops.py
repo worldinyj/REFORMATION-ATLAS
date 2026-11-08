@@ -10,12 +10,9 @@ from PIL import Image, ImageDraw, ImageFont, ImageOps
 
 OBJECT="bsb00103368"
 BASE="https://api.digitale-sammlungen.de"
-PAGES=[15,16]
+PAGES=[16]
 TARGETS=[
- ("W01","CA IV",15,r"iuf[tſs]ificentur|iustificentur|justificentur"),
- ("W02","CA VII",16,r"con[ſs]entire|con[fſ]entire|consentire"),
- ("W03","CA VIII",16,r"^mali$|^malii$"),
- ("W04","CA VIII",16,r"fenties|sentie|ſentie|ſenti|fenti|sentib"),
+ ("W04","CA VIII",16,r"^(?:fenties|fentiebant|sentiebant|ſentiebant|sentibant|fentibant)$"),
 ]
 def get_bytes(url):
     req=urllib.request.Request(url,headers={"User-Agent":"REFORMATION-ATLAS-v341-research/1.0","Accept":"*/*"})
