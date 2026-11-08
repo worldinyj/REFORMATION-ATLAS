@@ -1,0 +1,23 @@
+name: ATLAS V3.41 temporary facsimile evidence review
+on:
+  push:
+    branches:
+      - research/atlas-v341-1531-visual-print-collation
+    paths:
+      - scripts/research_v341_facsimile_crops.py
+      - .github/workflows/atlas-v341-facsimile-review.yml
+permissions:
+  contents: read
+jobs:
+  sample-research-visual:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install only in runner
+        run: python -m pip install --disable-pip-version-check pillow==11.3.0
+      - name: Inspect existing institution hOCR coordinates and short facsimile lines
+        run: python scripts/research_v341_facsimile_crops.py
