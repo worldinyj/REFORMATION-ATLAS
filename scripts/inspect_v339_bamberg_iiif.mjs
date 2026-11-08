@@ -30,11 +30,14 @@ if(res){
      const c=pages[n-1];
      return {canvas_ordinal_1_based:n,canvas_index_0_based:n-1,label:c.label||null,canvas_id:c['@id']||null,image_service_id:c.images?.[0]?.resource?.service?.['@id']||null,width:c.width||null,height:c.height||null};
    });
-   if(pages.length!==288)console.log('WARNING_CATALOGUE_CANVAS_COUNT_MISMATCH '+pages.length);
+   if(pages.length!==288){console.log('FAIL_CANVAS_COUNT_EXPECTED_288_GOT '+pages.length);process.exitCode=3;}
    console.log('ATLAS_MANIFEST_SUMMARY '+JSON.stringify({object:OBJECT,canvas_count:pages.length,manifest_label:state.manifest_label,preview_canvases:state.preview_canvases}));
    state.review_condition='Manifest and canvas metadata only. No full page or target chapter visually inspected.';
    mkdirSync(path.join('out','atlas-v339'),{recursive:true});
    writeFileSync(path.join('out','atlas-v339','iiif_canvas_locator_review_only.json'),JSON.stringify(state,null,2)+'\n');
    if(!pages.length||state.preview_canvases.some(x=>!x.image_service_id))process.exitCode=3;
+   if(state.preview_canvases.some(x=>!String(x.image_service_id).includes(OBJECT+'_')))process.exitCode=3;
+   if(state.preview_canvases.some(x=>x.canvas_ordinal_1_based!==x.canvas_index_0_based+1))process.exitCode=3;
+   if(!process.exitCode)console.log('ATLAS_V339_PASS: 288 institution canvases; catalogue and image service IDs match; page transcription remains HOLD');
  }
 }
