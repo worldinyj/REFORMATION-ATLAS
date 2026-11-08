@@ -66,7 +66,7 @@ for key,article,page,rx in TARGETS:
         continue
     s,(x1,y1,x2,y2)=matches[0]
     cx=(x1+x2)//2;cy=(y1+y2)//2
-    width=min(1100,im.width);height=min(230,im.height)
+    width=min(1950,im.width);height=min(410,im.height)
     left=max(0,min(cx-width//2,im.width-width))
     top=max(0,min(cy-height//2,im.height-height))
     crop=im.crop((left,top,left+width,top+height))
