@@ -49,3 +49,23 @@ console.log('V340_MUNICH_C4737_IDENTITY '+JSON.stringify({object:OBJECT,canvas_c
 console.log('V340_MUNICH_C4737_SAMPLES '+JSON.stringify(samples.map(x=>({ordinal:x.ordinal,start:x.start,status:x.status,topic_flags:x.topic_flags}))));
 if(samples.filter(x=>x.status===200).length<Math.ceil(sampleIds.length*.7))process.exitCode=2;
 else console.log('V340_MUNICH_LOCATOR_PASS: source identified; actual print reading still HOLD');
+
+// Focused excerpts around four previously unresolved transcription strings.
+// These are FIRST-PASS excerpts of institution-provided OCR, not print-letter readings.
+const targets=[
+ {code:'W01',article:'IV',rx:/(gratis.{0,30}(?:iu[ſsft]tific\w*|justific\w*))/gi},
+ {code:'W02',article:'VII',rx:/(con[ſs]entier[e]?|consentiere|con[ſs]entire|consentire)/gi},
+ {code:'W03',article:'VIII',rx:/(malii|mali\b|ma[ſs]i\b)/gi},
+ {code:'W04',article:'VIII',rx:/(sentibant|sentiebant|ſentiebant|ſentibant|fentiebant|fentibant)/gi}
+];
+const focused=[];
+for (const n of [14,15,16,17]){
+ const resp=await get('https://api.digitale-sammlungen.de/ocr/'+OBJECT+'/'+n);
+ const txt=normalize(resp.body);const matches=[];
+ for(const t of targets){
+   t.rx.lastIndex=0;const m=t.rx.exec(txt);
+   if(m)matches.push({id:t.code,locus:m[0],surrounding:txt.slice(Math.max(0,m.index-135),Math.min(txt.length,m.index+170))});
+ }
+ focused.push({object:OBJECT,canvas_ordinal:n,status:resp.status,opening:txt.slice(0,440),matches,excerpt_type:'INSTITUTION_EXISTING_OCR_ONLY'});
+}
+console.log('V340_MUNICH_TARGETED_W01_W04 '+JSON.stringify(focused));
