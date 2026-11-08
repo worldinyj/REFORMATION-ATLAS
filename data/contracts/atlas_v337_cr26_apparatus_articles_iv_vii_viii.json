@@ -1,0 +1,209 @@
+{
+  "schema": "atlas.research.v337.cr26_apparatus.v1",
+  "version": "3.37.1",
+  "date": "2026-11-08",
+  "status": "RESEARCH_DRAFT_HOLD",
+  "published": false,
+  "webapp_integrated": false,
+  "parent_document": "docs/02_RESEARCH/V337_CR26_1858_EDITION_SPLIT_IMAGE_AUDIT.md",
+  "source": {
+    "id": "V337-S-CR26-VARIATA-EXCERPT",
+    "bibliographic": "Philippi Melanchthonis Opera (Corpus Reformatorum XXVI, 1858), edited representation of the 1540 Variata with textual apparatus",
+    "url": "https://www.augsburg1540.com/uploads/1/3/8/9/138903771/1540_latin_text_from_corpus_reformandum.pdf",
+    "delivery": "modern curated PDF of historical printed pages",
+    "type": "1858_PRINT_IMAGES_REEXCERPTED",
+    "pdf_zero_based_pages_verified": [
+      2,
+      3,
+      4
+    ],
+    "printed_pages_verified": [
+      351,
+      352,
+      353,
+      354,
+      355,
+      356
+    ],
+    "edition_1540_original_imprint_seen": false,
+    "cr26_1858_1531_main_text_263_336_seen": false
+  },
+  "edition_labels": [
+    {
+      "label": "Ed. 1",
+      "year": 1531,
+      "description": "Melanchthon Latin first print, 4°"
+    },
+    {
+      "label": "Ed. 2",
+      "year": 1531,
+      "description": "Wittenberg revised, 8°"
+    },
+    {
+      "label": "Ed. 3",
+      "year": 1540,
+      "description": "Wittenberg Variata, 4°; comparison base in CR26 excerpt"
+    },
+    {
+      "label": "Ed. 4",
+      "year": 1542,
+      "description": "Wittenberg revised, 1541–1542, 8°"
+    }
+  ],
+  "claims": [
+    {
+      "id": "V337-A01",
+      "article": "IV",
+      "print_pages": [
+        352,
+        353,
+        354
+      ],
+      "pdf_zero_based_pages": [
+        2,
+        3
+      ],
+      "apparatus_note": "p.352 n.5",
+      "ed1_reading_type": "EDITOR_REPORTS_DIFFERENT_SHORTER_ARTICLE",
+      "ed3_reading_type": "DIRECT_PRINT_IMAGE_EXTENDED_ARTICLE",
+      "claim_ko": "1858년 비평판은 제4조 전체가 Ed.3/4에서 개정되었다고 명시하며, Ed.1과 Ed.2의 해당 짧은 본문은 인쇄 275쪽 5–12행으로 안내한다.",
+      "proof_status": "PRINT_IMAGE_APPARATUS_DIRECTLY_SEEN",
+      "not_claimed": "Direct sight of 1531 first-print or CR26 pp.275 print page"
+    },
+    {
+      "id": "V337-A02",
+      "article": "VII",
+      "print_pages": [
+        355,
+        356
+      ],
+      "pdf_zero_based_pages": [
+        4
+      ],
+      "apparatus_note": "p.356 n.16",
+      "ed1_reading_type": "EDITOR_QUOTES_ED1_CHURCH_DEFINITION",
+      "ed3_reading_type": "DIRECT_PRINT_IMAGE_REFORMULATED_CHURCH_DEFINITION",
+      "ed1_short_excerpt": "Ecclesia congregatio sanctorum",
+      "ed3_short_excerpt": "Ecclesia Christi proprie",
+      "claim_ko": "제7조에서 Ed.1의 교회 정의는 성도의 모임이라는 간결한 표현이고, Ed.3은 그리스도의 지체와 신앙·순종 및 복음·성례의 표지를 덧붙인다. 1858 인쇄각주는 이를 명시적으로 구별한다.",
+      "proof_status": "PRINT_IMAGE_APPARATUS_DIRECTLY_SEEN",
+      "not_claimed": "Full ED1 main page directly collated"
+    },
+    {
+      "id": "V337-A03",
+      "article": "VIII",
+      "print_pages": [
+        355,
+        356
+      ],
+      "pdf_zero_based_pages": [
+        4
+      ],
+      "apparatus_note": "p.356 n.21",
+      "ed1_reading_type": "EDITOR_QUOTES_ED1_OPENING",
+      "ed3_reading_type": "DIRECT_PRINT_IMAGE_REFORMULATED_OPENING",
+      "ed1_short_excerpt": "Quanquam Ecclesia proprie sit",
+      "ed3_short_excerpt": "Cum autem in hac vita",
+      "claim_ko": "제8조의 서두는 Ed.1이 본래 성도들의 모임이라는 정의를 먼저 말한 뒤 악인의 혼재를 다루는 반면, Ed.3은 외적 표지에 함께 참여하는 악인과 위선자 문제로 서술을 시작한다.",
+      "proof_status": "PRINT_IMAGE_APPARATUS_DIRECTLY_SEEN",
+      "not_claimed": "1540 origin beyond 1858 scholarly reprint"
+    },
+    {
+      "id": "V337-A04",
+      "article": "VII",
+      "print_pages": [
+        356
+      ],
+      "pdf_zero_based_pages": [
+        4
+      ],
+      "ed3_short_excerpt": "satis est consentire",
+      "apparatus_note": "p.356 body, no variance marked for verb at this locus",
+      "claim_ko": "Ed.3의 인쇄 본문에는 consentire가 보인다. Bibliotheca Augustana의 consentiere와 다르지만 Ed.1 본문 이미지 미확보로 확정 교정하지 않는다.",
+      "proof_status": "1540_REPRINT_LEMMA_DIRECTLY_SEEN_ED1_UNVERIFIED",
+      "not_claimed": "1858 Ed1 main-text reading established"
+    },
+    {
+      "id": "V337-A05",
+      "article": "VIII",
+      "print_pages": [
+        356
+      ],
+      "pdf_zero_based_pages": [
+        4
+      ],
+      "ed3_short_excerpt": "sentiebant ministerium",
+      "apparatus_note": "p.356 body, no variance marked for verb at this locus",
+      "claim_ko": "Ed.3의 인쇄 본문에는 sentiebant가 보인다. BA 웹의 sentibant와 다르지만 Ed.1 원 인쇄판 직접교감은 아직 진행되지 않았다.",
+      "proof_status": "1540_REPRINT_LEMMA_DIRECTLY_SEEN_ED1_UNVERIFIED",
+      "not_claimed": "Web transcription necessarily erroneous in the historic original"
+    },
+    {
+      "id": "V337-A06",
+      "article": "VIII",
+      "print_pages": [
+        356
+      ],
+      "pdf_zero_based_pages": [
+        4
+      ],
+      "ed3_short_excerpt": "mali",
+      "apparatus_note": "p.356 n.21 also quotes Ed.1 with mali",
+      "claim_ko": "Ed.3 본문과 1858년 편집자가 인용한 Ed.1의 제8조 서두에는 모두 mali가 보인다. BA 웹 malii의 오탈자 가능성은 높아졌으나 263–336쪽 본문 확인 전 완결 판정 보류.",
+      "proof_status": "PRINT_IMAGE_BODY_AND_ED1_EDITORIAL_QUOTATION",
+      "not_claimed": "Direct 1531 physical first-edition verification"
+    }
+  ],
+  "online_discrepancies": [
+    {
+      "id": "W01",
+      "article": "IV",
+      "ba": "iustificenter",
+      "schaff": "justificentur",
+      "comparability_to_ed3": "ED3_WHOLE_ARTICLE_REWRITTEN",
+      "status": "OPEN_ED1_PRINT_PAGE_MISSING"
+    },
+    {
+      "id": "W02",
+      "article": "VII",
+      "ba": "consentiere",
+      "schaff": "consentire",
+      "ed3_reprint": "consentire",
+      "status": "OPEN_ED1_PRINT_PAGE_MISSING"
+    },
+    {
+      "id": "W03",
+      "article": "VIII",
+      "ba": "malii",
+      "schaff": "mali",
+      "ed3_reprint": "mali",
+      "ed1_in_1858_apparatus": "mali",
+      "status": "EDITORIAL_CORROBORATION_ONLY_ED1_MAIN_PAGE_MISSING"
+    },
+    {
+      "id": "W04",
+      "article": "VIII",
+      "ba": "sentibant",
+      "schaff": "sentiebant",
+      "ed3_reprint": "sentiebant",
+      "status": "OPEN_ED1_PRINT_PAGE_MISSING"
+    }
+  ],
+  "metrics": {
+    "direct_pdf_spreads_verified_this_round": 3,
+    "additional_print_pages_since_previous_round": 2,
+    "article_groups_with_edition_apparatus_confirmed": 3,
+    "claim_cards": 6,
+    "digital_discrepancies_still_open": 4,
+    "verified_ed1_main_text_print_pages": 0,
+    "primary_1531_print_pages": 0,
+    "original_corpus_changes": 0,
+    "publication_allowed": false
+  },
+  "qa_invariants": [
+    "no W01-W04 can be promoted to established primary variant without CR26 Ed1 page image",
+    "Ed.3 print is 1858 scholarly reprint of 1540 not original 1540 printing",
+    "editor's reported Ed.1 snippets are not direct visual reading of Ed.1 main text",
+    "existing original corpus and webapp unchanged"
+  ]
+}
