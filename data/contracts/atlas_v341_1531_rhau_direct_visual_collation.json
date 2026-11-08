@@ -1,0 +1,145 @@
+{
+  "schema": "atlas.research.v341.facsimile_direct_reading.v1",
+  "version": "3.41.1",
+  "created_at": "2026-11-09",
+  "status": "RESEARCH_DRAFT_HOLD",
+  "publication_allowed": false,
+  "webapp_integrated": false,
+  "parent": "V3.40.2",
+  "responsible_witness": {
+    "work": "Confessio Augustana, Latin Confessio (not Apologia)",
+    "repository": "Bayerische Staatsbibliothek München",
+    "shelfmark": "4 H.ref. 205 b",
+    "digitized_object": "bsb00103368",
+    "vd16": "C 4737",
+    "date": 1531,
+    "printer": "Georg Rhau, Wittenberg",
+    "url": "https://www.digitale-sammlungen.de/en/details/bsb00103368",
+    "institutional_manifest": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00103368/manifest",
+    "evidence_method": "ACTUAL_HISTORICAL_PRINT_FACSIMILE_IMAGE_VISUALLY_READ_WITH_EXISTING_OCR_FOR_LOCATION_ONLY",
+    "visual_read_canvases": [
+      15,
+      16
+    ],
+    "direct_read_original_1531_surviving_print_pages": 2
+  },
+  "evidence_runs": [
+    {
+      "run_id": 42536205697,
+      "job_id": 128900955421,
+      "description": "Facsimile JPEG fragments visually reviewed for W01–W03; W04 initial crop mis-targeted as consentire; no W04 conclusion from initial run"
+    },
+    {
+      "run_id": 42536298524,
+      "job_id": 128901236985,
+      "description": "W04 initial crop sees sentie- but left edge hides next-line start; not conclusive alone"
+    },
+    {
+      "run_id": 42536364300,
+      "job_id": 128901435621,
+      "description": "Expanded print fragment includes end of one line sentie- and next beginning bant; complete reading visually confirmed"
+    }
+  ],
+  "readings": [
+    {
+      "id": "W01",
+      "article": "IV",
+      "canvas_ordinal_1based": 15,
+      "canvas_zero_index": 14,
+      "source_image": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00103368_00015/full/full/0/default.jpg",
+      "physical_print_reading": "iuſtificentur",
+      "normalized_reading": "iustificentur",
+      "rejected_BA_web_spelling": "iustificenter",
+      "schaff_normalized": "justificentur",
+      "visual_basis": "Facsimile Canvas 15, printed gratis iuſtificentur in justification clause",
+      "ocr_locator_bbox": [
+        454,
+        235,
+        758,
+        312
+      ],
+      "status": "DIRECT_PRINT_EXEMPLAR_READING_VERIFIED_NOT_ALL_EDITIONS"
+    },
+    {
+      "id": "W02",
+      "article": "VII",
+      "canvas_ordinal_1based": 16,
+      "canvas_zero_index": 15,
+      "source_image": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00103368_00016/full/full/0/default.jpg",
+      "physical_print_reading": "conſentire",
+      "normalized_reading": "consentire",
+      "rejected_BA_web_spelling": "consentiere",
+      "schaff_normalized": "consentire",
+      "visual_basis": "Facsimile Canvas 16, printed consentire in unity-of-church condition",
+      "ocr_locator_bbox": [
+        1063,
+        661,
+        1305,
+        730
+      ],
+      "status": "DIRECT_PRINT_EXEMPLAR_READING_VERIFIED_NOT_ALL_EDITIONS"
+    },
+    {
+      "id": "W03",
+      "article": "VIII",
+      "canvas_ordinal_1based": 16,
+      "canvas_zero_index": 15,
+      "source_image": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00103368_00016/full/full/0/default.jpg",
+      "physical_print_reading": "mali",
+      "normalized_reading": "mali",
+      "rejected_BA_web_spelling": "malii",
+      "schaff_normalized": "mali",
+      "visual_basis": "Facsimile Canvas 16, printed hypocritae & mali admixti clause",
+      "ocr_locator_bbox": [
+        1017,
+        1308,
+        1125,
+        1372
+      ],
+      "status": "DIRECT_PRINT_EXEMPLAR_READING_VERIFIED_NOT_ALL_EDITIONS"
+    },
+    {
+      "id": "W04",
+      "article": "VIII",
+      "canvas_ordinal_1based": 16,
+      "canvas_zero_index": 15,
+      "source_image": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00103368_00016/full/full/0/default.jpg",
+      "physical_print_reading": "ſentie- / bant",
+      "normalized_reading": "sentiebant",
+      "rejected_BA_web_spelling": "sentibant",
+      "schaff_normalized": "sentiebant",
+      "visual_basis": "Facsimile Canvas 16, two consecutive physical printed lines end 'ſentie-' and begin 'bant ministerium'; normalized word sentiebant",
+      "ocr_locator_bbox": [
+        1702,
+        1731,
+        1852,
+        1791
+      ],
+      "status": "DIRECT_PRINT_EXEMPLAR_READING_VERIFIED_WITH_PRINT_LINE_BREAK"
+    }
+  ],
+  "blocked_overclaims": [
+    "Do not equate verified print of BSB Munich one 1531 exemplar with the lost 1530 Latin submitted manuscript",
+    "Do not assert that every surviving 1531 printing has identical press state",
+    "Do not label 1858 CR XXVI 263–336 print as visually collated: still 0 direct pages in this project",
+    "Do not automatically correct webapp BA source transcription or source data before separate editorial approval",
+    "Do not treat existing hOCR as independently confirming print: only facsimile visual inspection is authoritative for this batch",
+    "Do not upload BSB image reproductions to public GitHub research files"
+  ],
+  "next_tasks": [
+    "Check full BSB original pages 15 and 16 in browser under stable viewer links and independently reconfirm word-level reading if needed",
+    "Retrieve CR XXVI 1858 1531-family pp 263–336 and compare corresponding articles as separate 19th-century editorial witness",
+    "Compare second 1531 surviving exemplar to test print-state variants",
+    "Publish an editorial correction recommendation only after proper source attribution and release gate review"
+  ],
+  "metrics": {
+    "original_1531_exemplar_scanned_pages_visually_read": 2,
+    "witnesses_directly_visually_read": 1,
+    "words_directly_verified": 4,
+    "word_readings_pending_on_this_witness": 0,
+    "other_1531_exemplar_collations": 0,
+    "cr26_1858_263_336_original_pages_directly_read": 0,
+    "corpus_updates": 0,
+    "published": false
+  }
+}
