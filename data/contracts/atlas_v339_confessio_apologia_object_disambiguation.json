@@ -1,0 +1,134 @@
+{
+  "schema": "atlas.research.v339.disambiguated_sibling_witnesses.v1",
+  "version": "3.39.2",
+  "date": "2026-11-09",
+  "status": "RESEARCH_DRAFT_HOLD",
+  "published": false,
+  "webapp_integrated": false,
+  "parent_pr": "#182",
+  "source_of_truth": "Bayerische Staatsbibliothek / MDZ official IIIF Presentation API and institutional catalogue",
+  "objects": [
+    {
+      "id": "V339-OBJECT-A",
+      "bsb_id": "bsb11411959",
+      "title": "Confessio Exhibita Caesari In Comitijs Augustae, Anno M.D.XXX",
+      "work": "Confessio Augustana",
+      "reported_imprint": "[Zürich] : [Christoph Froschauer d.Ä.]",
+      "reported_date": "[um 1530]",
+      "imprint_disputed": true,
+      "alternative_imprint_attribution": "[Wittenberg: Rhau, 1530]",
+      "vd16": "C 4708",
+      "holding": "Staatsbibliothek Bamberg",
+      "shelfmark": ".64 B 9#3",
+      "canvas_count": 40,
+      "institution_ocr_links": 40,
+      "manifest_url": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11411959/manifest",
+      "catalogue_url": "https://www.digitale-sammlungen.de/en/details/bsb11411959",
+      "classification": "1530_EARLY_CONFESSION_PRINT_NOT_1531_AUTHORIZED_RHAU",
+      "evidence": "INSTITUTIONAL_METADATA_VERIFIED_PRINT_LEAVES_UNREAD",
+      "visually_read_leaves": 0
+    },
+    {
+      "id": "V339-OBJECT-B",
+      "bsb_id": "bsb11411960",
+      "title": "Confessio Fidei exhibita ... Addita Apologia Confessionis",
+      "work": "Confessio Augustana / Apologia",
+      "reported_imprint": "Witebergae : Rhau",
+      "reported_date": "1531",
+      "vd16": "C 4734",
+      "holding": "Staatsbibliothek Bamberg",
+      "shelfmark": ".64 B 9#3a",
+      "canvas_count": 288,
+      "institution_ocr_links": 288,
+      "manifest_url": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11411960/manifest",
+      "catalogue_url": "https://www.digitale-sammlungen.de/en/details/bsb11411960",
+      "classification": "1531_RHAU_EDITORIAL_FAMILY_SCANNED_SEQUENCE_CONTAINS_APOLOGIA",
+      "evidence": "INSTITUTIONAL_METADATA_PLUS_OCR_SAMPLES_NOT_PRINT_VISUAL_READING",
+      "visually_read_leaves": 0,
+      "ocr_samples": [
+        {
+          "canvas_ordinal": 1,
+          "status": 200,
+          "textual_topic": "Apologia Confessionis errata; reference to correcting copy text"
+        },
+        {
+          "canvas_ordinal": 20,
+          "status": 200,
+          "textual_topic": "justification discussion including meritum congrui/condigni; consonant with Apologia IV"
+        }
+      ],
+      "confessio_article_locations_verified": false,
+      "confessio_main_body_in_this_scan_sequence": "UNVERIFIED"
+    },
+    {
+      "id": "V339-OBJECT-C",
+      "bsb_id": null,
+      "work": "1531 Rhau Latin/German Confessio + Apologia another surviving exemplar",
+      "reported_imprint": "Wittenberg : Georg Rhau",
+      "reported_date": "1531",
+      "vd16": "C 4735",
+      "holding": "Bayerische Staatsbibliothek München",
+      "shelfmark": "4 H ref 206",
+      "classification": "1531_ALTERNATIVE_EXEMPLAR_BIBLIOGRAPHIC_ONLY",
+      "evidence": "ULM_1549_CATALOGUE_MODERN_EDITION_REFERENCE_NOT_SCANS",
+      "visually_read_leaves": 0,
+      "source_url": "https://stadtbibliothek.ulm.de/-/media/bibliothek/downloads/volltexte/der-erste-katalog-der-stadtbibliothek-ulm-von-1549.pdf"
+    }
+  ],
+  "claims": [
+    {
+      "id": "V339-P01",
+      "source_object": "V339-OBJECT-A",
+      "claim": "bsb11411959 is a separate 40-canvas pre/around-1530 Latin Confessio print in the Bamberg collection; institutional metadata attributes its imprint provisionally to Zurich/Froschauer with a stated Wittenberg/Rhau alternative",
+      "verification": "INSTITUTIONAL_IIIF_METADATA_DIRECTLY_READ"
+    },
+    {
+      "id": "V339-P02",
+      "source_object": "V339-OBJECT-B",
+      "claim": "bsb11411960 has 288 canvases, first institutional OCR contains Apologia errata, and canvas 20 OCR reports justification and meritum congrui/condigni, so it cannot be presumed to expose Confessio article IV at canvas 20",
+      "verification": "IIIF_AND_INSTITUTIONAL_OCR_EVIDENCE_NOT_IMAGE"
+    },
+    {
+      "id": "V339-P03",
+      "source_object": "V339-OBJECT-C",
+      "claim": "modern annotated edition of Ulm 1549 catalogue refers to BSB 4 H ref 206 as 1531 VD16 C 4735 witness; distinct shelfmark and VD16 id; no actual leaf verified",
+      "verification": "MODERN_SCHOLARLY_BIBLIOGRAPHY"
+    },
+    {
+      "id": "V339-P04",
+      "source_object": "V339-OBJECT-A",
+      "claim": "Zurich circa 1530 print is a distinct print witness and not proof of words handed to Charles V on 25 June 1530",
+      "verification": "EVIDENCE_BOUNDARY_INFERENCE"
+    }
+  ],
+  "unresolved_readings": [
+    "W01",
+    "W02",
+    "W03",
+    "W04"
+  ],
+  "research_conclusions": [
+    "Object ids are NOT a sequential list of identical copies/editions; bsb11411959 and bsb11411960 are distinct catalogued imprints/dates.",
+    "An OCR sample from Apologia cannot establish a Confessio reading even when both treat justification.",
+    "A 1530 print witness does not by itself equal the 1530 emperor-submission original.",
+    "First classify work/edition/exemplar/physical leaf before collating a word."
+  ],
+  "access_gates": {
+    "bsb11411959_confessio_iv_vii_viii_page_location": "OPEN",
+    "bsb11411960_confessio_main_body_in_scans": "OPEN",
+    "bsb_1531_original_print_readings": "OPEN",
+    "cr26_1858_1531_family_263_336_scans": "OPEN",
+    "ocr_can_replace_visual": "NEVER",
+    "redistribute_scans": false,
+    "publish": false
+  },
+  "metrics": {
+    "catalogued_objects": 3,
+    "institution_iiif_objects_verified": 2,
+    "institution_iiif_canvases_verified": 328,
+    "preexisting_ocr_pages_sampled": 2,
+    "visual_original_print_loci_read": 0,
+    "collations_resolved": 0,
+    "existing_corpus_changes": 0
+  }
+}
