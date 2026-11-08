@@ -47,7 +47,7 @@ if(res){
 // Read one **existing** institutional OCR resource for approximate section location.
 // This does not run OCR and cannot establish original print lettering.
 try {
- const ocrPage=20;
+ const ocrPage=1;
  const ocrUrl='https://api.digitale-sammlungen.de/ocr/'+OBJECT+'/'+ocrPage;
  const r=await fetch(ocrUrl,{signal:AbortSignal.timeout(15000)});
  const raw=r.ok?await r.text():'';
