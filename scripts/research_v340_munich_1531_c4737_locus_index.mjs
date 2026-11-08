@@ -69,3 +69,13 @@ for (const n of [14,15,16,17]){
  focused.push({object:OBJECT,canvas_ordinal:n,status:resp.status,opening:txt.slice(0,440),matches,excerpt_type:'INSTITUTION_EXISTING_OCR_ONLY'});
 }
 console.log('V340_MUNICH_TARGETED_W01_W04 '+JSON.stringify(focused));
+
+const p16=await get('https://api.digitale-sammlungen.de/ocr/'+OBJECT+'/16');
+const text16=normalize(p16.body);
+const searchable=/donati|donat[iſf]|minist[eſfri]{2,}|ſent|fent|sent|ſenc/i;
+const match=searchable.exec(text16);
+console.log('V340_MUNICH_CA8_FINAL_CONTEXT '+JSON.stringify({
+ object:OBJECT,page:16,status:p16.status,
+ found:Boolean(match),context:match?text16.slice(Math.max(0,match.index-140),Math.min(text16.length,match.index+1100)):text16.slice(-1250),
+ disclaimer:'Institution OCR can misrecognise long-s. Not visual evidence.'
+}));
