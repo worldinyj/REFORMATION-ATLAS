@@ -1,0 +1,37 @@
+#!/usr/bin/env node
+/** Research-only witness identity / publication boundary validation. */
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+import {fileURLToPath} from 'node:url';
+import path from 'node:path';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+const d=JSON.parse(readFileSync(path.join(root,'data/contracts/atlas_v339_confessio_apologia_object_disambiguation.json'),'utf8'));
+assert.equal(d.schema,'atlas.research.v339.disambiguated_sibling_witnesses.v1');
+assert.equal(d.version,'3.39.2');assert.equal(d.status,'RESEARCH_DRAFT_HOLD');
+assert.equal(d.published,false);assert.equal(d.webapp_integrated,false);
+assert.equal(d.objects.length,3);assert.equal(d.claims.length,4);
+const ids=new Set(d.objects.map(x=>x.id));assert.equal(ids.size,3);
+const a=d.objects.find(x=>x.bsb_id==='bsb11411959');
+const b=d.objects.find(x=>x.bsb_id==='bsb11411960');
+const c=d.objects.find(x=>x.shelfmark==='4 H ref 206');
+assert.ok(a&&b&&c);
+assert.equal(a.vd16,'C 4708');assert.equal(a.canvas_count,40);
+assert.equal(a.imprint_disputed,true);
+assert.equal(a.classification,'1530_EARLY_CONFESSION_PRINT_NOT_1531_AUTHORIZED_RHAU');
+assert.equal(b.vd16,'C 4734');assert.equal(b.canvas_count,288);
+assert.equal(b.ocr_samples.length,2);
+assert.deepEqual(b.ocr_samples.map(x=>x.canvas_ordinal),[1,20]);
+assert.equal(b.confessio_article_locations_verified,false);
+assert.equal(b.confessio_main_body_in_this_scan_sequence,'UNVERIFIED');
+assert.equal(c.vd16,'C 4735');
+assert.equal(c.bsb_id,null);
+assert.ok(d.objects.every(x=>x.visually_read_leaves===0));
+assert.deepEqual(d.unresolved_readings,['W01','W02','W03','W04']);
+assert.equal(d.metrics.institution_iiif_canvases_verified,328);
+assert.equal(d.metrics.collations_resolved,0);
+assert.equal(d.metrics.existing_corpus_changes,0);
+assert.equal(d.access_gates.ocr_can_replace_visual,'NEVER');
+assert.equal(d.access_gates.publish,false);
+assert.equal(d.access_gates.redistribute_scans,false);
+assert.ok(d.claims.every(x=>ids.has(x.source_object)));
+console.log('V3.39.2 PASS: 1530 Confessio / 1531 Apologia differentiated, 40+288 canvases, 4 collation OPEN; release HOLD');
