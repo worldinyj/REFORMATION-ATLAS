@@ -4,7 +4,7 @@ Fetches 1531 public-domain printed leaves via BSB official IIIF and existing hOC
 for navigation, crops four short strips in CI memory; never commits page images.
 Explicitly not a substitute for cross-exemplar collation.
 """
-import base64, io, json, re, sys, urllib.request
+import base64, io, json, re, sys, urllib.request, urllib.error, time
 from html.parser import HTMLParser
 from PIL import Image, ImageDraw, ImageFont, ImageOps
 
@@ -19,8 +19,14 @@ TARGETS=[
 ]
 def get_bytes(url):
     req=urllib.request.Request(url,headers={"User-Agent":"REFORMATION-ATLAS-v341-research/1.0","Accept":"*/*"})
-    with urllib.request.urlopen(req,timeout=35) as f:
-        return f.status,f.read(),f.headers.get("Content-Type","")
+    for attempt in range(3):
+        try:
+            with urllib.request.urlopen(req,timeout=35) as f:
+                return f.status,f.read(),f.headers.get("Content-Type","")
+        except urllib.error.HTTPError as e:
+            print("V341_FETCH_HTTP_ERROR "+json.dumps({"url":url,"status":e.code,"attempt":attempt+1}),flush=True)
+            if e.code not in (429,500,502,503,504) or attempt==2: raise
+            time.sleep(attempt+1)
 class Words(HTMLParser):
     def __init__(self):
         super().__init__()
