@@ -51,6 +51,6 @@ try {
  const ocrUrl='https://api.digitale-sammlungen.de/ocr/'+OBJECT+'/'+ocrPage;
  const r=await fetch(ocrUrl,{signal:AbortSignal.timeout(15000)});
  const raw=r.ok?await r.text():'';
- const summary=raw.replace(/<script[^>]*>[\\s\\S]*?<\\/script>/gi,' ').replace(/<style[^>]*>[\\s\\S]*?<\\/style>/gi,' ').replace(/<[^>]+>/g,' ').replace(/\\s+/g,' ').trim();
+ const summary=raw.replace(/<[^>]+>/g,' ').replace(/\s+/g,' ').trim();
  console.log('V339_INSTITUTION_OCR_SINGLE_PAGE '+JSON.stringify({page:ocrPage,status:r.status,content_length:raw.length,raw_extract:summary.slice(0,1800),disclaimer:'Pre-existing institutional OCR only; NOT direct visual reading'}));
 } catch(e){ console.log('V339_INSTITUTION_OCR_UNAVAILABLE '+String(e)); }
