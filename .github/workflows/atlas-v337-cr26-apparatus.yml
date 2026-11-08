@@ -1,0 +1,27 @@
+name: V3.37 CR26 Apparatus Research QC
+on:
+  push:
+    branches:
+      - research/atlas-v337-cr26-1531-1540-edition-separation
+    paths:
+      - data/contracts/atlas_v337_cr26_apparatus_articles_iv_vii_viii.json
+      - scripts/validate_v337_cr26_apparatus.mjs
+      - .github/workflows/atlas-v337-cr26-apparatus.yml
+  pull_request:
+    paths:
+      - data/contracts/atlas_v337_cr26_apparatus_articles_iv_vii_viii.json
+      - scripts/validate_v337_cr26_apparatus.mjs
+      - .github/workflows/atlas-v337-cr26-apparatus.yml
+permissions:
+  contents: read
+jobs:
+  evidence-contract:
+    name: Historical witness evidence guard
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Enforce manuscript boundary and claim consistency
+        run: node scripts/validate_v337_cr26_apparatus.mjs
