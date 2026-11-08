@@ -1,0 +1,33 @@
+name: ATLAS V3.40 early Confessio folio locator
+on:
+  push:
+    branches:
+      - research/atlas-v340-confessio-1531-folio-locator
+    paths:
+      - scripts/research_v340_existing_ocr_locus_index.mjs
+      - .github/workflows/atlas-v340-early-confessio-ocr-locator.yml
+  pull_request:
+    paths:
+      - scripts/research_v340_existing_ocr_locus_index.mjs
+      - .github/workflows/atlas-v340-early-confessio-ocr-locator.yml
+permissions:
+  contents: read
+jobs:
+  locate-only:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Inspect existing institutional OCR indexes (not visual collation)
+        run: node scripts/research_v340_existing_ocr_locus_index.mjs
+      - name: Save short-lived locator review JSON, no facsimile images
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: atlas-v340-ocr-existing-locus-review
+          path: out/atlas-v340/institution_existing_ocr_page_locator.json
+          if-no-files-found: ignore
+          retention-days: 7

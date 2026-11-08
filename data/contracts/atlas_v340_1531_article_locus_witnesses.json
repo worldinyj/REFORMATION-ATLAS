@@ -1,0 +1,193 @@
+{
+  "schema": "atlas.research.v340.article_locus_witness.v1",
+  "version": "3.40.2",
+  "date": "2026-11-09",
+  "status": "RESEARCH_DRAFT_HOLD",
+  "published": false,
+  "webapp_integrated": false,
+  "parent": "V3.39.2",
+  "method": "OFFICIAL_LIBRARY_IIIF_MANIFEST_PLUS_PREEXISTING_INSTITUTIONAL_OCR_SEARCH_NOT_IMAGE_INSPECTION",
+  "witnesses": [
+    {
+      "id": "V340-W-MUNICH",
+      "object": "bsb00103368",
+      "shelfmark": "4 H.ref. 205 b",
+      "institution": "Bayerische Staatsbibliothek München",
+      "year": 1531,
+      "imprint": "Wittenberg: Georg Rhau",
+      "vd16": "C 4737",
+      "manifest": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00103368/manifest",
+      "catalog": "https://www.digitale-sammlungen.de/en/details/bsb00103368",
+      "canvases": 347,
+      "manifest_status": 200,
+      "first_formal_articles_canvas": 13,
+      "confessio_verified_by_ocr_context": true,
+      "visually_read_leaves": 0
+    },
+    {
+      "id": "V340-W-BAM1530",
+      "object": "bsb11411959",
+      "shelfmark": ".64 B 9#3",
+      "institution": "Staatsbibliothek Bamberg",
+      "year_approx": 1530,
+      "vd16": "C 4708",
+      "canvases": 40,
+      "manifest_status": 200,
+      "ocr_article_zone": "6–9",
+      "visually_read_leaves": 0,
+      "attribution_disputed": true
+    },
+    {
+      "id": "V340-W-BAM1531",
+      "object": "bsb11411960",
+      "shelfmark": ".64 B 9#3a",
+      "institution": "Staatsbibliothek Bamberg",
+      "year": 1531,
+      "vd16": "C 4734",
+      "canvases": 288,
+      "manifest_status": 200,
+      "known_ocr_samples": [
+        {
+          "canvas": 1,
+          "topic": "Apologia errata"
+        },
+        {
+          "canvas": 20,
+          "topic": "Apologia justification"
+        }
+      ],
+      "confessio_loci_unconfirmed": true,
+      "visually_read_leaves": 0
+    }
+  ],
+  "loci": [
+    {
+      "id": "CA-IV",
+      "witness": "V340-W-MUNICH",
+      "canvas_ordinal_1based": 15,
+      "canvas_zero_index": 14,
+      "image_service": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00103368_00015",
+      "viewer": "https://www.digitale-sammlungen.de/en/view/bsb00103368?page=15",
+      "ocr_detected": "gratis iuftificentur",
+      "normalized_candidate": "gratis iustificentur",
+      "proof": "INSTITUTION_1531_OCR_CANDIDATE_NOT_VISUAL",
+      "print_reading": null
+    },
+    {
+      "id": "CA-VII",
+      "witness": "V340-W-MUNICH",
+      "canvas_ordinal_1based": 16,
+      "canvas_zero_index": 15,
+      "image_service": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00103368_00016",
+      "viewer": "https://www.digitale-sammlungen.de/en/view/bsb00103368?page=16",
+      "ocr_detected": "fatis eft conſentire",
+      "normalized_candidate": "satis est consentire",
+      "proof": "INSTITUTION_1531_OCR_CANDIDATE_NOT_VISUAL",
+      "print_reading": null
+    },
+    {
+      "id": "CA-VIII",
+      "witness": "V340-W-MUNICH",
+      "canvas_ordinal_1based": 16,
+      "canvas_zero_index": 15,
+      "image_service": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00103368_00016",
+      "viewer": "https://www.digitale-sammlungen.de/en/view/bsb00103368?page=16",
+      "ocr_detected": "hypocritæ mali admixti ... fenties bant minifterium",
+      "normalized_candidate": "mali; sentiebant possible, segmented OCR unverified",
+      "proof": "INSTITUTION_1531_OCR_CANDIDATE_NOT_VISUAL",
+      "print_reading": null
+    }
+  ],
+  "discrepancies": [
+    {
+      "id": "W01",
+      "article": "IV",
+      "ba_online": "iustificenter",
+      "schaff_edited": "justificentur",
+      "munich1531_ocr": "iuftificentur",
+      "status": "OCR_CORROBORATES_SCHAFF_VISUAL_UNVERIFIED"
+    },
+    {
+      "id": "W02",
+      "article": "VII",
+      "ba_online": "consentiere",
+      "schaff_edited": "consentire",
+      "munich1531_ocr": "conſentire",
+      "status": "OCR_CORROBORATES_SCHAFF_VISUAL_UNVERIFIED"
+    },
+    {
+      "id": "W03",
+      "article": "VIII",
+      "ba_online": "malii",
+      "schaff_edited": "mali",
+      "munich1531_ocr": "mali",
+      "status": "OCR_CORROBORATES_SCHAFF_VISUAL_UNVERIFIED"
+    },
+    {
+      "id": "W04",
+      "article": "VIII",
+      "ba_online": "sentibant",
+      "schaff_edited": "sentiebant",
+      "munich1531_ocr": "fenties bant",
+      "status": "OCR_SEGMENTED_AMBIGUOUS_VISUAL_UNVERIFIED"
+    }
+  ],
+  "sources": [
+    {
+      "id": "V340-S1",
+      "url": "https://www.digitale-sammlungen.de/en/details/bsb00103368",
+      "type": "INSTITUTION_CATALOGUE"
+    },
+    {
+      "id": "V340-S2",
+      "url": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00103368/manifest",
+      "type": "INSTITUTION_IIIF_MANIFEST"
+    },
+    {
+      "id": "V340-S3",
+      "url": "https://api.digitale-sammlungen.de/ocr/bsb00103368/15",
+      "type": "PREEXISTING_INSTITUTION_OCR_NOT_PRIMARY_PRINT"
+    },
+    {
+      "id": "V340-S4",
+      "url": "https://api.digitale-sammlungen.de/ocr/bsb00103368/16",
+      "type": "PREEXISTING_INSTITUTION_OCR_NOT_PRIMARY_PRINT"
+    },
+    {
+      "id": "V340-S5",
+      "url": "https://bridwell.omeka.net/exhibits/show/luther/controversies/augsburgconfession",
+      "type": "INDEPENDENT_LIBRARY_CATALOGUE_HISTORICAL_CONTEXT"
+    },
+    {
+      "id": "V340-S6",
+      "url": "https://www2.hs-augsburg.de/~harsch/Chronologia/Lspost16/Melanchthon/mel_ca00.html",
+      "type": "EDITED_WEB_TRANSCRIPTION_CR26_1858"
+    },
+    {
+      "id": "V340-S7",
+      "url": "https://ccel.org/ccel/schaff/creeds3/creeds3.iii.ii.html",
+      "type": "INDEPENDENT_LATER_EDITED_TEXT"
+    }
+  ],
+  "qa_gates": {
+    "all_four_remain_unresolved_for_historic_print": true,
+    "requires_visual_image_reading": true,
+    "canvases_not_print_page_numbers": true,
+    "source_objects_not_merged": true,
+    "new_ocr_engine_executed": false,
+    "images_republished": false,
+    "original_513_essays_changed": false,
+    "main_unchanged": true,
+    "app_unchanged": true
+  },
+  "metrics": {
+    "source_records": 7,
+    "witnesses": 3,
+    "verified_institutional_canvas_counts": 675,
+    "located_article_groups": 3,
+    "identifiable_1531_ocr_candidate_forms": 3,
+    "segmented_1531_ocr_forms": 1,
+    "visual_original_pages_verified": 0,
+    "final_variant_promotions": 0
+  }
+}

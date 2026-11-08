@@ -1,0 +1,33 @@
+name: ATLAS V3.40 Munich 1531 Rhau copy metadata
+on:
+  push:
+    branches:
+      - research/atlas-v340-confessio-1531-folio-locator
+    paths:
+      - scripts/research_v340_munich_1531_c4737_locus_index.mjs
+      - .github/workflows/atlas-v340-munich-1531-c4737.yml
+  pull_request:
+    paths:
+      - scripts/research_v340_munich_1531_c4737_locus_index.mjs
+      - .github/workflows/atlas-v340-munich-1531-c4737.yml
+permissions:
+  contents: read
+jobs:
+  read-source-metadata:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify BSB C4737 object and existing OCR navigation index
+        run: node scripts/research_v340_munich_1531_c4737_locus_index.mjs
+      - name: Keep temporary non-image locator JSON
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: atlas-v340-munich-c4737-locus-review
+          path: out/atlas-v340/munich_1531_c4737_existing_ocr_locus_index.json
+          if-no-files-found: ignore
+          retention-days: 7
