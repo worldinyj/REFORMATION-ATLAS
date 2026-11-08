@@ -5,6 +5,7 @@ on:
       - research/atlas-v339-1531-iiif-canvas-locator
     paths:
       - scripts/inspect_v339_bamberg_iiif.mjs
+      - scripts/inspect_v339_confessio_sibling.mjs
       - .github/workflows/atlas-v339-bamberg-iiif-probe.yml
   pull_request:
     paths:
@@ -24,6 +25,8 @@ jobs:
           node-version: '22'
       - name: Inspect 1531 Bamberg IIIF canvas metadata only
         run: node scripts/inspect_v339_bamberg_iiif.mjs
+      - name: Check separate Confessio sibling record
+        run: node scripts/inspect_v339_confessio_sibling.mjs
       - name: Upload review-only metadata (no copyrighted page scans)
         if: always()
         uses: actions/upload-artifact@v4
