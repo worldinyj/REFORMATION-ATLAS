@@ -1,0 +1,21 @@
+name: ATLAS V3.39 IIIF structure-only locator
+on:
+  push:
+    branches:
+      - research/atlas-v339-1531-iiif-canvas-locator
+    paths:
+      - scripts/check_v339_iiif_structure.mjs
+      - .github/workflows/atlas-v339-iiif-structure.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node scripts/check_v339_iiif_structure.mjs
