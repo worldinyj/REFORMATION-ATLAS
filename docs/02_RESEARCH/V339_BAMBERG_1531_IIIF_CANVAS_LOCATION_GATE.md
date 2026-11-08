@@ -40,3 +40,26 @@
 | W04 | VIII | sentibant / sentiebant | 미열람 | 미열람 | OPEN |
 
 **승격 금지:** 공식 IIIF endpoint를 찾은 것 자체는 특정 라틴어 철자를 시각 판독했음을 의미하지 않는다. 검토되지 않은 페이지 링크를 '원본 대조 완료'로 표시하면 안 된다.
+
+
+## 2026-11-09 실제 GitHub Actions 조회 결과 (추가 확인)
+
+**실제 실행 확인:** GitHub Actions run `42531249348` / job `128885709649` / result `success`. 다른 기존 VOL03 Draft Consistency QA도 동시 성공. 다음 항목은 로컬 추측이 아니라 **원격 실행 로그의 실측 값**이다.
+
+- `MANIFEST_HTTP 200`
+- `object=bsb11411960`, `canvas_count=288`
+- `manifest_label=Confessio Fidei exhibita invictiss. Imp. Carolo V. Caesari Aug. in Comiciis Augustae, Anno MDXXX`
+- `canvas_ordinal_1_based=1` → `canvas_index_0_based=0` → `label=(0001)` → `image_service_id=https://api.digitale-sammlungen.de/iiif/image/v2/bsb11411960_00001`.
+- `canvas_ordinal_1_based=50` → `canvas_index_0_based=49` → `label=(0050)` → `image_service_id=https://api.digitale-sammlungen.de/iiif/image/v2/bsb11411960_00050`.
+- `canvas_ordinal_1_based=288` → `canvas_index_0_based=287` → `label=(0288)` → `image_service_id=https://api.digitale-sammlungen.de/iiif/image/v2/bsb11411960_00288`.
+- 소장기관의 디지털 목록 288 scans와 실물 이미지 Canvas 메타데이터 수 288이 **정확하게 일치**한다. 대표 샘플 21개 Canvas에서 ID와 이미지 서비스 경로가 식별된다.
+- **중요:** 각 서비스 URL의 **실제 이미지 바이트/문자를 이번 회차에서는 열어 판독하지 않았다**. 따라서 CA IV/VII/VIII 실제 페이지 위치는 미확정이며 W01–W04는 모두 OPEN 상태이다.
+
+실행 검토 후 스크립트에 **288개 수 불일치/기관 객체 ID 불일치/0-based 번호 불일치 시 실패 처리**를 추가했다. 따라서 향후 자동검증에서 링크 교체·권차 혼동을 조기 검출할 수 있다.
+
+### 다음 작업 게이트
+
+1. Canvas 1–288 사이에서 **실제 표제·목차·조항 머리말을 이미지로 확인**하고 제4·7·8조 좌표를 확정.
+2. 해당 면에서 글자 이미지를 판독하여 `W01–W04`와 연결하고, 똑같이 1858 CR XXVI 263–336쪽 1531 계열 본문을 확인.
+3. 독립 소장본의 인쇄 상태 차이를 주장하려면 두 개별 실물을 별도로 대조한다.
+4. **공개 보류:** 독자 원문 자동수정, 대량 이미지 재배포, main 변경, 웹앱 배포 금지.
