@@ -33,6 +33,8 @@ if(res){
    if(pages.length!==288){console.log('FAIL_CANVAS_COUNT_EXPECTED_288_GOT '+pages.length);process.exitCode=3;}
    console.log('ATLAS_MANIFEST_SUMMARY '+JSON.stringify({object:OBJECT,canvas_count:pages.length,manifest_label:state.manifest_label,preview_canvases:state.preview_canvases}));
    state.review_condition='Manifest and canvas metadata only. No full page or target chapter visually inspected.';
+   console.log('V339_STRUCTURES '+JSON.stringify((m.structures||[]).slice(0,20).map(x=>({label:x.label,type:x['@type'],id:x['@id'],canvas_count:x.canvases?.length||0,range_count:x.ranges?.length||0}))));
+   console.log('V339_TEXT_LINKS '+JSON.stringify({available:pages.filter(x=>x.seeAlso||x.rendering||x.otherContent).length,samples:pages.map((x,i)=>({index:i+1,seeAlso:x.seeAlso||null,rendering:x.rendering||null})).filter(x=>x.seeAlso||x.rendering).slice(0,5)}));
    mkdirSync(path.join('out','atlas-v339'),{recursive:true});
    writeFileSync(path.join('out','atlas-v339','iiif_canvas_locator_review_only.json'),JSON.stringify(state,null,2)+'\n');
    if(!pages.length||state.preview_canvases.some(x=>!x.image_service_id))process.exitCode=3;
