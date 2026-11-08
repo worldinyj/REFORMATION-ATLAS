@@ -1,0 +1,26 @@
+name: ATLAS V3.41.1 direct facsimile reading provenance QC
+on:
+  push:
+    branches:
+      - research/atlas-v341-1531-visual-print-collation
+    paths:
+      - data/contracts/atlas_v341_1531_rhau_direct_visual_collation.json
+      - scripts/validate_v341_direct_visual_collation.mjs
+      - .github/workflows/atlas-v341-reading-evidence-qc.yml
+  pull_request:
+    paths:
+      - data/contracts/atlas_v341_1531_rhau_direct_visual_collation.json
+      - scripts/validate_v341_direct_visual_collation.mjs
+      - .github/workflows/atlas-v341-reading-evidence-qc.yml
+permissions:
+  contents: read
+jobs:
+  audit-provenance:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify four original 1531 visual readings with release boundaries
+        run: node scripts/validate_v341_direct_visual_collation.mjs
