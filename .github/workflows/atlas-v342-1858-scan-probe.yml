@@ -1,0 +1,27 @@
+name: ATLAS V3.42 1858 CR26 scan identity probe
+on:
+  push:
+    branches:
+      - research/atlas-v342-cr26-1858-print-collation
+    paths:
+      - scripts/research_v342_cr26_1858_scan_probe.py
+      - .github/workflows/atlas-v342-1858-scan-probe.yml
+  pull_request:
+    paths:
+      - scripts/research_v342_cr26_1858_scan_probe.py
+      - .github/workflows/atlas-v342-1858-scan-probe.yml
+permissions:
+  contents: read
+jobs:
+  identify-print:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install temporary PDF renderer
+        run: python -m pip install --disable-pip-version-check pymupdf==1.26.5 pillow==11.3.0
+      - name: Inspect source folio headers, do not equate year with volume
+        run: python scripts/research_v342_cr26_1858_scan_probe.py
