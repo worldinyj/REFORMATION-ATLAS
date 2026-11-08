@@ -1,0 +1,163 @@
+{
+  "schema": "atlas.research.v342.cr26_1858_direct_print_collation.v1",
+  "version": "3.42.1",
+  "date": "2026-11-09",
+  "status": "RESEARCH_DRAFT_HOLD",
+  "publication_allowed": false,
+  "webapp_integrated": false,
+  "parent": "V3.41.1",
+  "historical_witnesses": [
+    {
+      "id": "V342-1531-MUNICH",
+      "edition_year": 1531,
+      "imprint": "Wittenberg: Georg Rhau",
+      "holding": "Bayerische Staatsbibliothek München",
+      "shelfmark": "4 H.ref. 205 b",
+      "digital_id": "bsb00103368",
+      "vd16": "C 4737",
+      "images_read": [
+        15,
+        16
+      ],
+      "proof": "HISTORICAL_FIRST_EDITION_FACSIMILE_DIRECT_VISUAL",
+      "source": "https://www.digitale-sammlungen.de/en/details/bsb00103368"
+    },
+    {
+      "id": "V342-1858-CR26",
+      "edition_year": 1858,
+      "imprint": "Brunsvigae: C. A. Schwetschke",
+      "work": "Corpus Reformatorum, volume XXVI, ed. Heinrich Ernst Bindseil",
+      "scan": "IA corpusreformato09melagoog / NYPL / Google digitization",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Corpus_reformatorum_(IA_corpusreformato09melagoog).pdf",
+      "scanned_pdf_pages": 420,
+      "images_read_pdf_1based": [
+        162,
+        163
+      ],
+      "book_print_pages_read": [
+        275,
+        276,
+        277,
+        278
+      ],
+      "proof": "NINETEENTH_CENTURY_ACTUAL_PRINT_FACSIMILE_DIRECT_VISUAL",
+      "secondary_bibliography": "https://books.google.com/books?id=zxERAAAAIAAJ"
+    },
+    {
+      "id": "V342-BA",
+      "edition_year": null,
+      "work": "Bibliotheca Augustana digital transcription labeled from CR XXVI 1858 pp.263–336",
+      "source": "https://www2.hs-augsburg.de/~harsch/Chronologia/Lspost16/Melanchthon/mel_ca00.html",
+      "proof": "WEB_TRANSCRIPTION_AS_DISPLAYED_NOT_A_HISTORICAL_PRINT"
+    },
+    {
+      "id": "V342-SCHAFF",
+      "edition_year": 1877,
+      "work": "Philip Schaff, Creeds of Christendom vol. III, text of Confessio Augustana",
+      "source": "https://ccel.org/ccel/schaff/creeds3/creeds3.iii.ii.html",
+      "proof": "LATER_EDITED_TEXT_SUPPORT_NOT_CONTEMPORARY_FACSIMILE"
+    }
+  ],
+  "print_pdf_page_map": [
+    {
+      "pdf_page_1based": 162,
+      "pdf_zero_based": 161,
+      "printed_left": 275,
+      "printed_right": 276,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Corpus_reformatorum_%28IA_corpusreformato09melagoog%29.pdf/page162-1280px-Corpus_reformatorum_%28IA_corpusreformato09melagoog%29.pdf.jpg",
+      "reading": "W01 + other relevant article"
+    },
+    {
+      "pdf_page_1based": 163,
+      "pdf_zero_based": 162,
+      "printed_left": 277,
+      "printed_right": 278,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Corpus_reformatorum_%28IA_corpusreformato09melagoog%29.pdf/page163-1280px-Corpus_reformatorum_%28IA_corpusreformato09melagoog%29.pdf.jpg",
+      "reading": "W02 W03 W04; CA VII/VIII"
+    }
+  ],
+  "word_collations": [
+    {
+      "id": "W01",
+      "article": "IV",
+      "cr26_print_page": 275,
+      "cr26_pdf_page_1based": 162,
+      "first1531_print_normalized": "iustificentur",
+      "cr26_1858_print_normalized": "iustificentur",
+      "ba_web": "iustificenter",
+      "schaff": "justificentur",
+      "status": "PRINT_1531_AND_1858_MATCH_BA_WEB_DIFFERS",
+      "conclusion_ko": "1531년 뮌헨 소장 인쇄본과 1858년 CR XXVI 275쪽은 모두 iustificentur. BA 온라인 전사는 iustificenter. Schaff의 j는 철자 정규화 관례."
+    },
+    {
+      "id": "W02",
+      "article": "VII",
+      "cr26_print_page": 277,
+      "cr26_pdf_page_1based": 163,
+      "first1531_print_normalized": "consentire",
+      "cr26_1858_print_normalized": "consentire",
+      "ba_web": "consentiere",
+      "schaff": "consentire",
+      "status": "PRINT_1531_AND_1858_MATCH_BA_WEB_DIFFERS",
+      "conclusion_ko": "1531년판과 CR XXVI 277쪽 모두 consentire. BA consentiere는 역사적 판본 이문이 아니라 온라인 표기 불일치."
+    },
+    {
+      "id": "W03",
+      "article": "VIII",
+      "cr26_print_page": 277,
+      "cr26_pdf_page_1based": 163,
+      "first1531_print_normalized": "mali",
+      "cr26_1858_print_normalized": "mali",
+      "ba_web": "malii",
+      "schaff": "mali",
+      "status": "PRINT_1531_AND_1858_MATCH_BA_WEB_DIFFERS",
+      "conclusion_ko": "1531년판과 CR XXVI 277쪽 모두 mali. BA malii는 온라인 전사와 역사적 인쇄면 사이의 불일치."
+    },
+    {
+      "id": "W04",
+      "article": "VIII",
+      "cr26_print_page": 277,
+      "cr26_pdf_page_1based": 163,
+      "first1531_print_as_typeset": "ſentie- / bant",
+      "first1531_print_normalized": "sentiebant",
+      "cr26_1858_print_normalized": "sentiebant",
+      "ba_web": "sentibant",
+      "schaff": "sentiebant",
+      "status": "PRINT_1531_AND_1858_MATCH_BA_WEB_DIFFERS",
+      "conclusion_ko": "1531년판은 행말 하이픈을 포함한 ſentie- / bant이고 1858년판은 한 행에 sentiebant로 식자. BA 온라인 전사 sentibant는 어느 대조 인쇄본의 글자와도 일치하지 않음."
+    }
+  ],
+  "evidence_procedure": {
+    "download_full_1858_pdf": "FAILED_WIKIMEDIA_429_AND_INTERNET_ARCHIVE_SSL_EOF",
+    "alternative": "DIRECT_WIKIMEDIA_PER_PAGE_PDF_THUMBNAIL_JPEG",
+    "page_image_http": 200,
+    "source_1858_print_visually_read": true,
+    "initial_500px_sample_count": 16,
+    "focused_1280px_sample_count": 12,
+    "initial_validation_run_id": 42537437470,
+    "focused_validation_run_id": 42537586479,
+    "focused_job_id": 128905209068,
+    "screen_review": "Images for PDF pages 162 and 163 examined directly; PDF container page indexes and original paired print folios manually mapped.",
+    "other_1531_impressions_read": false,
+    "printing_1858_proof_status": "ONE_1858_PRINT_SCAN_DIRECTLY_READ",
+    "same_1531_all_exemplars_confirmed": false
+  },
+  "outcome": {
+    "readings_in_1531_exemplar_directly_verified": 4,
+    "readings_in_1858_cr26_directly_verified": 4,
+    "these_four_not_1531_to_1858_print_variants": 4,
+    "ba_transcription_discrepancies_established": 4,
+    "exact_process_that_created_ba_errors_established": 0,
+    "real_historic_variants_not_reviewed": false,
+    "original_513_essays_changed": 0,
+    "publication_approved": false
+  },
+  "release_gates": [
+    "Treat BA vs 1858 four readings as digital transcription discrepancies, not automatically as 1531–1540 authorial revision.",
+    "Do not claim cause of BA editorial/transcription error (typed mistake vs processing) without web editor audit.",
+    "Do not infer 1530 emperor-submitted wording from 1531 copy or 1858 edited text.",
+    "Do not claim every 1531 exemplar of same edition is identical; compare copy states if needed.",
+    "Do not auto-patch historical corpus, main, source texts or web app without content-review approval.",
+    "Images are public domain 1858 scans, but source institution and original URL must remain credited."
+  ]
+}
