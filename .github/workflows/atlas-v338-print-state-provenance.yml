@@ -1,0 +1,29 @@
+name: ATLAS V3.38 Print-State Research QA
+on:
+  push:
+    branches:
+      - research/atlas-v338-1531-print-state-witness-audit
+    paths:
+      - data/contracts/atlas_v338_1531_print_state_source_matrix.json
+      - docs/02_RESEARCH/V338_1531_PRINT_STATE_AND_EXEMPLAR_PROVENANCE_AUDIT.md
+      - scripts/validate_v338_print_state_provenance.mjs
+      - .github/workflows/atlas-v338-print-state-provenance.yml
+  pull_request:
+    paths:
+      - data/contracts/atlas_v338_1531_print_state_source_matrix.json
+      - docs/02_RESEARCH/V338_1531_PRINT_STATE_AND_EXEMPLAR_PROVENANCE_AUDIT.md
+      - scripts/validate_v338_print_state_provenance.mjs
+      - .github/workflows/atlas-v338-print-state-provenance.yml
+permissions:
+  contents: read
+jobs:
+  academic-provenance:
+    name: Assert print state and publication boundary
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate V3.38 scholarly evidence contract
+        run: node scripts/validate_v338_print_state_provenance.mjs
