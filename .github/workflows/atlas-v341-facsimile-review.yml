@@ -6,6 +6,10 @@ on:
     paths:
       - scripts/research_v341_facsimile_crops.py
       - .github/workflows/atlas-v341-facsimile-review.yml
+  pull_request:
+    paths:
+      - scripts/research_v341_facsimile_crops.py
+      - .github/workflows/atlas-v341-facsimile-review.yml
 permissions:
   contents: read
 jobs:
