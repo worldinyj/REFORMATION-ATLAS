@@ -6,6 +6,8 @@ on:
     paths:
       - scripts/inspect_v339_bamberg_iiif.mjs
       - scripts/inspect_v339_confessio_sibling.mjs
+      - scripts/validate_v339_work_witness_disambiguation.mjs
+      - data/contracts/atlas_v339_confessio_apologia_object_disambiguation.json
       - .github/workflows/atlas-v339-bamberg-iiif-probe.yml
   pull_request:
     paths:
@@ -27,6 +29,8 @@ jobs:
         run: node scripts/inspect_v339_bamberg_iiif.mjs
       - name: Check separate Confessio sibling record
         run: node scripts/inspect_v339_confessio_sibling.mjs
+      - name: Validate 1530/1531 edition and work identity gates
+        run: node scripts/validate_v339_work_witness_disambiguation.mjs
       - name: Upload review-only metadata (no copyrighted page scans)
         if: always()
         uses: actions/upload-artifact@v4
