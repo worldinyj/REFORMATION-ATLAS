@@ -1,0 +1,26 @@
+name: ATLAS V3.40 scholarly locus evidence contract
+on:
+  push:
+    branches:
+      - research/atlas-v340-confessio-1531-folio-locator
+    paths:
+      - data/contracts/atlas_v340_1531_article_locus_witnesses.json
+      - scripts/validate_v340_1531_rhau_loci.mjs
+      - .github/workflows/atlas-v340-1531-locus-contract.yml
+  pull_request:
+    paths:
+      - data/contracts/atlas_v340_1531_article_locus_witnesses.json
+      - scripts/validate_v340_1531_rhau_loci.mjs
+      - .github/workflows/atlas-v340-1531-locus-contract.yml
+permissions:
+  contents: read
+jobs:
+  audit-proof:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate distinct historical witness, canvas index and proof restrictions
+        run: node scripts/validate_v340_1531_rhau_loci.mjs
