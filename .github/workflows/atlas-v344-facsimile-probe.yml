@@ -6,6 +6,10 @@ on:
     paths:
       - scripts/research_v344_ca_x_facsimile_probe.py
       - .github/workflows/atlas-v344-facsimile-probe.yml
+  pull_request:
+    paths:
+      - scripts/research_v344_ca_x_facsimile_probe.py
+      - .github/workflows/atlas-v344-facsimile-probe.yml
   workflow_dispatch:
 permissions:
   contents: read
