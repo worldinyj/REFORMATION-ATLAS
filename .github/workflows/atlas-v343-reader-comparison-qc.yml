@@ -1,0 +1,26 @@
+name: ATLAS V3.43 historical edition reader-layer QC
+on:
+  push:
+    branches:
+      - research/atlas-v343-ca-1531-1540-reader-comparison
+    paths:
+      - data/contracts/atlas_v343_ca_reader_edition_comparison.json
+      - scripts/validate_v343_ca_reader_edition_comparison.mjs
+      - .github/workflows/atlas-v343-reader-comparison-qc.yml
+  pull_request:
+    paths:
+      - data/contracts/atlas_v343_ca_reader_edition_comparison.json
+      - scripts/validate_v343_ca_reader_edition_comparison.mjs
+      - .github/workflows/atlas-v343-reader-comparison-qc.yml
+permissions:
+  contents: read
+jobs:
+  witness-boundaries:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify edition provenance and publication HOLD
+        run: node scripts/validate_v343_ca_reader_edition_comparison.mjs
