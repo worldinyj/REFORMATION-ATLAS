@@ -1,0 +1,227 @@
+{
+  "schema": "atlas.research.v345.ca_x_independent_1540_and_interpretive_context.v1",
+  "version": "3.45",
+  "date": "2026-11-09",
+  "status": "MEDIUM_RESEARCH_DRAFT_HOLD",
+  "publication_allowed": false,
+  "webapp_integrated": false,
+  "parent": "3.44.1",
+  "existing_corpus_changed": false,
+  "independent_witnesses": [
+    {
+      "id": "V345-GOOGLE-1540-AUGSBURG",
+      "kind": "POTENTIAL_INDEPENDENT_1540_PRIMARY_EXEMPLAR",
+      "year": 1540,
+      "publisher": "Georg Rhau, Wittenberg",
+      "source_provider": "Google Books",
+      "digitized": "2016-05-19",
+      "book_id": "HmpoAAAAcAAJ",
+      "holding_as_catalogued": "Augsburg, Staats- und Stadtbibliothek",
+      "shelfmark": "Th S 276",
+      "google_book_page_count": 274,
+      "url": "https://books.google.com/books?id=HmpoAAAAcAAJ",
+      "metadata_verified": true,
+      "article_x_image_visually_read": false,
+      "independent_vd16_verified": false,
+      "press_state_identical_to_gruber_claimed": false,
+      "metadata_only": true,
+      "access_note": "Google Books record accessible; direct PDF download 403; no folio scan visually read"
+    },
+    {
+      "id": "V345-PADERBORN-1542",
+      "kind": "DIFFERENT_HISTORICAL_EDITION_NOT_SECOND_1540",
+      "year": 1542,
+      "publisher": "Georg Rhau, Wittenberg",
+      "vd16": "C 4714",
+      "digital_id": "1856843",
+      "extent": "[64], 187 leaves",
+      "source_provider": "Universitätsbibliothek Paderborn",
+      "url": "https://digital.ub.uni-paderborn.de/eab/content/titleinfo/1856843",
+      "bibliography_verified": true,
+      "article_x_image_visually_read": false,
+      "must_not_count_as_independent_1540": true
+    },
+    {
+      "id": "V344-GRUBER28-1540",
+      "kind": "PREVIOUS_PRIMARY_1540_ARTICLE_X_CROPPED_FACSIMILE",
+      "year": 1540,
+      "holding": "Lutheran School of Theology at Chicago Gruber Collection",
+      "exemplar": "Gruber 28",
+      "url": "https://gruber.lstc.edu/confessions/images/gruber28var.jpg",
+      "article_x_image_visually_read_in_parent": true,
+      "photo_dimensions": [
+        421,
+        113
+      ],
+      "whole_folio_image_read": false
+    },
+    {
+      "id": "V344-PITTS1540",
+      "kind": "INDEPENDENT_1540_COPY_BIBLIOGRAPHY_ONLY",
+      "year": 1540,
+      "holding": "Pitts Theology Library",
+      "shelfmark": "1540 CONF",
+      "vd16": "C 4713",
+      "url": "https://dia.pitts.emory.edu/book_details.cfm?ID=1286",
+      "article_x_image_visually_read": false,
+      "public_book_images_total": 2
+    }
+  ],
+  "historical_context": [
+    {
+      "id": "T1534-KASSEL",
+      "year": 1534,
+      "month": 12,
+      "claim_ko": "부처와 멜란히톤의 카셀 협의가 성찬 이해의 표현 조율에 기여했다는 학술 설명.",
+      "source_ids": [
+        "S-CAMBRIDGE-2004"
+      ],
+      "proof_type": "MODERN_SCHOLARLY_ACCOUNT_NOT_CONTEMPORARY_TEXT"
+    },
+    {
+      "id": "T1536-WITTENBERG",
+      "year": 1536,
+      "claim_ko": "비텐베르크 일치의 실제 임재·무가치한 수찬자·'빵과 함께' 표현이 1540년 재서술의 정황이 된다.",
+      "source_ids": [
+        "S-CAMBRIDGE-2004",
+        "S-DINGEL-2012",
+        "S-RYU-2026"
+      ],
+      "proof_type": "SCHOLARLY_INTERPRETATION_PRIMARY_CONCORD_NOT_READ"
+    },
+    {
+      "id": "T1540-VARIATA",
+      "year": 1540,
+      "claim_ko": "1540 제10조의 역사적 문구 변경은 당대 인쇄 이미지로 입증되며 초점과 의도는 다층적인 학술 해석이다.",
+      "source_ids": [
+        "S-DINGEL-2012",
+        "S-CAMBRIDGE-2004"
+      ],
+      "proof_type": "PRIMARY_WORDING_FROM_PARENT_PLUS_SCHOLARLY_CONTEXT"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S-GOOGLE-1540",
+      "title": "1540 Rhau Augsburg Th S 276 Google Books catalog",
+      "year": 1540,
+      "kind": "PRIMARY_EXEMPLAR_METADATA",
+      "url": "https://books.google.com/books?id=HmpoAAAAcAAJ",
+      "access_level": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "id": "S-PADERBORN-1542",
+      "title": "Paderborn 1542 Confessio VD16 C4714",
+      "year": 1542,
+      "kind": "PRIMARY_EXEMPLAR_METADATA",
+      "url": "https://digital.ub.uni-paderborn.de/eab/content/titleinfo/1856843",
+      "access_level": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "id": "S-GRUBER-1540",
+      "title": "Gruber 28 1540 Article X original image",
+      "year": 1540,
+      "kind": "PRIMARY_1540_PRINT_IMAGE",
+      "url": "https://gruber.lstc.edu/confessions/images/gruber28var.jpg",
+      "access_level": "DIRECT_VISUAL_READ_IN_V344"
+    },
+    {
+      "id": "S-PITTS-1540",
+      "title": "Pitts 1540 CONF item record",
+      "year": 1540,
+      "kind": "INDEPENDENT_EXEMPLAR_BIBLIOGRAPHY",
+      "url": "https://dia.pitts.emory.edu/book_details.cfm?ID=1286",
+      "access_level": "TWO_DIGITAL_BOOK_IMAGES_METADATA_ONLY"
+    },
+    {
+      "id": "S-CAMBRIDGE-2004",
+      "title": "Sachiko Kusukawa, Melanchthon in Cambridge Companion to Reformation Theology pp64–65",
+      "year": 2004,
+      "kind": "SCHOLARSHIP",
+      "url": "https://ndl.ethernet.edu.et/bitstream/123456789/18664/1/27.pdf.pdf",
+      "access_level": "TEXT_EXCERPT_READ_SCHOLARLY_COPYRIGHTED"
+    },
+    {
+      "id": "S-DINGEL-2012",
+      "title": "Irene Dingel, The Function and Historical Development of Reformation Confessions pp307–308",
+      "year": 2012,
+      "kind": "SCHOLARSHIP",
+      "url": "https://bibliographie.uni-tuebingen.de/xmlui/bitstream/handle/10900/150349/Dingel_228.pdf?sequence=1",
+      "access_level": "ORIGINAL_PRINT_PAGE_308_VISUALLY_READ_PDF_PAGE_13"
+    },
+    {
+      "id": "S-RYU-2026",
+      "title": "류성민, 교회의 일치와 성찬 문제: 비텐베르크 일치와 칼빈의 성찬론, 갱신과 부흥 38:97–136",
+      "year": 2026,
+      "kind": "SCHOLARSHIP",
+      "doi": "10.36365/kukirs.2026..38.97",
+      "url": "https://kci.go.kr/kciportal/landing/article.kci?arti_id=ART003389143",
+      "access_level": "ABSTRACT_ONLY"
+    },
+    {
+      "id": "S-BURNETT-2016",
+      "title": "Amy Nelson Burnett, The Wittenberg Concord 1536, Reformation & Renaissance Review",
+      "year": 2016,
+      "kind": "SCHOLARSHIP",
+      "doi": "10.1080/14622459.2016.1157339",
+      "url": "https://doi.org/10.1080/14622459.2016.1157339",
+      "access_level": "METADATA_AND_ABSTRACT_ONLY"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1531_1540_WORDING",
+      "category": "PRIMARY_HISTORIC_PRINT_COLLATION",
+      "parent_proof": "V3.44.1",
+      "readings_1531": "vere adsint et distribuantur; improbant secus docentes",
+      "readings_1540": "cum pane et vino vere exhibeantur",
+      "new_original_image_read_in_v345": false
+    },
+    {
+      "id": "C1536_CONTEXT",
+      "category": "SECONDARY_HISTORICAL_INTERPRETATION",
+      "source_ids": [
+        "S-DINGEL-2012",
+        "S-CAMBRIDGE-2004"
+      ],
+      "claim_ko": "1536 비텐베르크 일치의 성찬 합의가 1540 제10조 표현 변경에 영향을 준 맥락으로 다뤄진다."
+    },
+    {
+      "id": "C1540_CROSS_CONFESSIONAL",
+      "category": "SECONDARY_HISTORICAL_INTERPRETATION",
+      "source_ids": [
+        "S-DINGEL-2012"
+      ],
+      "claim_ko": "1540 개정은 루터파-남독일 개신교의 내부 합의뿐 아니라 로마 가톨릭과의 종교 회담이라는 다른 목적도 가진다."
+    },
+    {
+      "id": "C2026_KOREAN_RESEARCH",
+      "category": "ABSTRACT_ONLY_SECONDARY_INTERPRETATION",
+      "source_ids": [
+        "S-RYU-2026"
+      ],
+      "claim_ko": "최근 한국어 논문의 초록은 1536 합의의 정치·신학적 배경과 칼뱅 초기 성찬론을 연결하여 해석한다."
+    }
+  ],
+  "blocked_inferences": [
+    "Google Books 1540 book listing is not proof that its article X image was read.",
+    "1542 Paderborn VD16 C4714 cannot be counted as a second 1540 print witness.",
+    "Do not equate 1540 books merely by shared Rhau 1540 metadata without collation.",
+    "Do not infer authorial Calvinist conversion or complete agreement with Luther from one verb.",
+    "Do not ascribe an exact manuscript reading to the lost 1530 submission.",
+    "Do not reproduce contemporary copyrighted scholarly pages or full texts in the repository."
+  ],
+  "next_gates": [
+    "Obtain direct Article X image from independent Google Books Th S 276 or authoritative Augsburg library facsimile.",
+    "Identify foliation/VD16/print-state for this candidate and compare with Gruber 28.",
+    "Directly consult original 1536 Wittenberg Concord text, then review historiographical positions."
+  ],
+  "release_gate": {
+    "publication_status": "HOLD",
+    "source_images_copied": false,
+    "main_changed": false,
+    "original_513_essays_changed": 0,
+    "google_ai_studio_changed": false,
+    "auto_publish_allowed": false
+  }
+}
