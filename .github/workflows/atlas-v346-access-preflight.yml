@@ -6,6 +6,10 @@ on:
     paths:
       - scripts/research_v346_1540_witness_access_probe.py
       - .github/workflows/atlas-v346-access-preflight.yml
+  pull_request:
+    paths:
+      - scripts/research_v346_1540_witness_access_probe.py
+      - .github/workflows/atlas-v346-access-preflight.yml
 permissions:
   contents: read
 jobs:
