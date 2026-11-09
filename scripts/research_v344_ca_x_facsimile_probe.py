@@ -37,7 +37,7 @@ if status==200:
    service=ca.get("images",[{}])[0].get("resource",{}).get("service",{}).get("@id","")
    print("V344_CANVAS "+json.dumps({"n":n,"label":ca.get("label"),"service":service}),flush=True)
    s,t,xml=get(f"https://api.digitale-sammlungen.de/ocr/{ID}/{n}",500000)
-   txt=re.sub(r"\\s+"," ",html.unescape(re.sub("<[^>]+>"," ",xml.decode("utf-8","replace"))))
+   txt=re.sub(r"\s+"," ",html.unescape(re.sub("<[^>]+>"," ",xml.decode("utf-8","replace"))))
    z=re.search(r"(?i)coen[ae]|c[œo]ena|cena|corp[uv]s|[ad]d[sſ]int|di[sſ]trib",txt)
    print("V344_1531_OCR "+json.dumps({"canvas":n,"http":s,"len":len(txt),"first":txt[:300],"locus":txt[max(0,z.start()-240):z.start()+750] if z else "NONE","evidence_grade":"OCR_NAVIGATION_ONLY"},ensure_ascii=False),flush=True)
    if n in [17,18] and service:
@@ -55,9 +55,9 @@ if st==200:
  if pos>=0:
   around=s[max(0,pos-3000):pos+6500]
   assets=[]
-  for m in re.finditer(r"(?:src|href)\\s*=\\s*['\"]([^'\"]+)['\"]",around,re.I):
+  for m in re.finditer(r"(?:src|href)\s*=\s*['\"]([^'\"]+)['\"]",around,re.I):
    url=urljoin(u,html.unescape(m.group(1)))
-   if re.search(r"\\.(?:jpe?g|png|gif)(?:\\?|$)",url,re.I):assets.append(url)
+   if re.search(r"\.(?:jpe?g|png|gif)(?:\?|$)",url,re.I):assets.append(url)
   assets=list(dict.fromkeys(assets))
   print("V344_GRUBER_NEAR_IMG "+json.dumps(assets[:20]),flush=True)
   for j,url in enumerate(assets[:4]):
