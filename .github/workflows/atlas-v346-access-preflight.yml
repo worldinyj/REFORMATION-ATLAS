@@ -1,15 +1,6 @@
 name: ATLAS V3.46 independent 1540 source access preflight
 on:
-  push:
-    branches:
-      - research/atlas-v346-ca-x-1540-independent-facsimile-gate
-    paths:
-      - scripts/research_v346_1540_witness_access_probe.py
-      - .github/workflows/atlas-v346-access-preflight.yml
-  pull_request:
-    paths:
-      - scripts/research_v346_1540_witness_access_probe.py
-      - .github/workflows/atlas-v346-access-preflight.yml
+  workflow_dispatch:
 permissions:
   contents: read
 jobs:
