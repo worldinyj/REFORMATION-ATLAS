@@ -1,0 +1,19 @@
+name: ATLAS V3.49 CR III 1836 columns 75-78 actual facsimile
+on:
+  pull_request:
+    paths:
+      - scripts/research_v349_cr3_columns_75_78_print.py
+      - .github/workflows/atlas-v349-cr3-columns-visual.yml
+permissions:
+  contents: read
+jobs:
+  printed-columns:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install --disable-pip-version-check pillow==11.3.0
+      - run: python scripts/research_v349_cr3_columns_75_78_print.py
