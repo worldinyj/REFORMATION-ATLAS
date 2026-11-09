@@ -78,6 +78,12 @@
       "source_type": "digital_collection_metadata",
       "locator": "Wittenberg in Obern Sachsen (1572)",
       "access": "catalogue_and_rights_record"
+    },
+    "KALLIOPE_ZWICK": {
+      "url": "https://kalliope.staatsbibliothek-berlin.de/de/ead?ead.id=DE-611-HS-3421004",
+      "source_type": "manuscript_catalogue",
+      "locator": "Forschungsbibliothek Gotha, Chart. B 28, fol. 34r/v",
+      "access": "catalogue_no_manuscript_image"
     }
   },
   "event_count": 20,
@@ -595,5 +601,26 @@
     "Locate Constance November council reply",
     "Compare BDS 6/1 July17 four witnesses",
     "Check exact provenance and rights for 1572 Wittenberg woodcut"
+  ],
+  "evidence_conflicts": [
+    {
+      "conflict_id": "W055-C01-ZWICK-SIGNATURE",
+      "assertion_subject": "Johannes Zwick signatory status at 1536-05-29 meeting",
+      "evidence_for_non_signature": {
+        "source_id": "BDS63CHRON",
+        "editorial_claim": "Chronology says all but Zwick signed on 29 May 1536",
+        "type": "secondary_edition_chronology"
+      },
+      "evidence_for_name_in_later_copy": {
+        "source_id": "KALLIOPE_ZWICK",
+        "editorial_claim": "Gotha Chart. B 28 later copy lists Johannes Zwick as additional subscriber",
+        "type": "manuscript_catalogue"
+      },
+      "witness_warning": "Chart. B 28 is a copy in Konrad Meusel's hand, containing only Communion arts. 1–4. It is not an original signing sheet.",
+      "adjudication": "not_resolved",
+      "historical_autograph_verified": false,
+      "model_rule": "witness_name_listed_in_copy and historical_signed_at_meeting are different assertions; neither should automatically overwrite the other.",
+      "can_publish_as_definitive": false
+    }
   ]
 }
