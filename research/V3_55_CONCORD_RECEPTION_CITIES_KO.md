@@ -1,10 +1,10 @@
 # 종교개혁 ATLAS V3.55 — 1536년 비텐베르크 일치협약의 지역 수용과 전승
 
 - 작성: 2026-11-10
-- 이전 버전: V3.54 (\`research/atlas-v354-wittenberg-1530-1540-lemma-collation\`)
-- 연구 브랜치: \`research/atlas-v355-concord-reception-city-matrix\`
+- 이전 버전: V3.54 (`research/atlas-v354-wittenberg-1530-1540-lemma-collation`)
+- 연구 브랜치: `research/atlas-v355-concord-reception-city-matrix`
 - 승인: RESEARCH_ONLY / DRAFT / NOT_APPROVED / CAN_SHIP=false
-- 변경 금지: \`main\`, 공개 역사 원고 513편, Google AI Studio 앱, 기존 사료파일
+- 변경 금지: `main`, 공개 역사 원고 513편, Google AI Studio 앱, 기존 사료파일
 
 ## 1. 연구 질문과 이번에 해결된 쟁점
 
@@ -12,17 +12,17 @@
 
 연구상 가장 중요한 구분은 다음 다섯 단계다.
 
-1. \`participant_assent\`: 비텐베르크 현장 참가자의 합의·서명.
-2. \`report_or_explanation\`: 귀향길 또는 귀향 후의 합의 내용 보고·설명.
-3. \`clergy_or_church_assent\`: 해당 도시 목회자, 교구대표, 교회 지도부의 동의.
-4. \`magistrate_ratification\`: 해당 도시의 시의회/당국 공식 승인.
-5. \`regional_reception_or_rejection\`: 다른 도시가 수용·유보·거절하거나 후속 교섭을 진행한 상태.
+1. `participant_assent`: 비텐베르크 현장 참가자의 합의·서명.
+2. `report_or_explanation`: 귀향길 또는 귀향 후의 합의 내용 보고·설명.
+3. `clergy_or_church_assent`: 해당 도시 목회자, 교구대표, 교회 지도부의 동의.
+4. `magistrate_ratification`: 해당 도시의 시의회/당국 공식 승인.
+5. `regional_reception_or_rejection`: 다른 도시가 수용·유보·거절하거나 후속 교섭을 진행한 상태.
 
-**단일 도시를 단순한 \`accepted=true/false\`로 모델링하지 않는다.** 시점과 승인 주체가 서로 다르기 때문이다.
+**단일 도시를 단순한 `accepted=true/false`로 모델링하지 않는다.** 시점과 승인 주체가 서로 다르기 때문이다.
 
 ## 2. 날짜 검증과 시작 조건
 
-MBW 1744는 협약을 1536년 5월 29일로 표기하며, 1988년 BDS 6/1 목차의 28일을 보충 주석에서 잘못된 날짜로 지적한다. BDS 6/3의 「Chronologia Bucerana」에서도 5월 29일을 협의 종결, 문서 낭독, 합의 조항 서명 일자로 분명하게 제시한다. 다만 별도의 \`De magistratu\`는 비텐베르크 측만 서명했다는 점을 같은 연표가 구분한다.
+MBW 1744는 협약을 1536년 5월 29일로 표기하며, 1988년 BDS 6/1 목차의 28일을 보충 주석에서 잘못된 날짜로 지적한다. BDS 6/3의 「Chronologia Bucerana」에서도 5월 29일을 협의 종결, 문서 낭독, 합의 조항 서명 일자로 분명하게 제시한다. 다만 별도의 `De magistratu`는 비텐베르크 측만 서명했다는 점을 같은 연표가 구분한다.
 
 참조: [MBW 1744](https://melanchthon.hadw-bw.de/regest.html?reg_nr=1744), [BDS 6/3 /0016, p.12](https://digi.hadw-bw.de/view/bds6_3/0016).
 
@@ -30,24 +30,24 @@ MBW 1744는 협약을 1536년 5월 29일로 표기하며, 1988년 BDS 6/1 목차
 
 | 날짜 | 지역·인물 | 자료가 보증하는 사건 | 판정 |
 |---|---|---|---|
-| 1536-05-29 | 비텐베르크 | 참석자 협상 마무리·공통 조항 서명 | \`participant_assent\` / MBW regest + BDS 연표 |
-| 1536-06-02~05 | 프랑크푸르트 | 귀환 참가자들이 각 도시 당국에 제출할 공동 보고서를 정리. 부처와 카피토는 뒤에 추가 체류 | \`report_drafted\` / BDS 6/1 pp.135–174 + 2014 Capito correspondence headnote |
-| 1536-06-22 | 부처와 동료들 | 참석하지 못한 동료들이 서명하도록 설명·권고한 문헌 | \`explanation_written\` / BDS 6/1 pp.175–202 |
-| 1536-06-29 | 스트라스부르 | 부처의 합의 경위 설명 문헌. 편집자 주석에 목회자·교구 관리인들의 수용 언급 | \`church_local_assent\` / BDS 6/1 pp.203–208. **시의회 최종 비준과 혼동 금지** |
-| ca. 1536-07-02 또는 이후 | 스트라스부르 | \`Dem volck solle man verkunden\` 설교대 발표 문서. 비평판 목차는 약 6/29지만 편집자 해설은 6/29 발표 이후 첫 주일인 7/2를 가능한 발표일로 지목 | \`draft_for_public_proclamation\` / BDS p.207. 실제 낭독일 확정하지 않음 |
-| 1536-07-05 | 스트라스부르 | \`Declaratio articulorum germanica\` 독일어 해설 문헌 | \`text_explanation\` / BDS 6/1 pp.209–216 |
-| 1536-07-17 | 스트라스부르 | 도시 설교자들이 비텐베르크 조항을 해설한 문헌. 네 필사본 계열의 대부분 차이는 정서법 문제라는 비평판 설명 | \`clergy_interpretation\` / BDS 6/1 pp.217–226 |
-| 1536-07-22 | 부처 → 루터 | 부처는 프랑크푸르트·보름스·란다우·바이센부르크·에슬링겐·아우크스부르크·멤밍겐·켐프텐·스트라스부르가 조항에 동의했다고 보고. **정식 비준은 아직 필요** | \`reported_acceptance_pending_ratification\` / WA Br 7:471–473, Ep.3050, cited by Capito correspondence headnote |
-| 1536-07-23 | 아우크스부르크 설교자 → 루터 | 신중한 검토 후 협약 서명 사실 보고 | \`clergy_subscription_reported\` / WA Br 7:474–476, Ep.3051 (Capito correspondence headnote) |
-| 1536-08-26 | 스트라스부르 시의회 | 시의회가 공식적으로 협약을 승인했다고 서신집 연구 해설 기재 | \`magistrate_ratification_reported\` / *Correspondence of Wolfgang Capito*, Ep.612 headnote; cites Eells 207 |
-| 1536-09-03 | 에슬링겐 | 협약 비준일로 언급(11/2 츠비크 보고를 인용한 현대 편집자 주석) | \`city_ratification_reported\` / HBBW 6 Ep.908 cited via Capito correspondence |
-| 1536-09-13 | 로이틀링겐 | 협약 비준일로 언급 | \`city_ratification_reported\` / same |
-| 1536-09-16 | 멤밍겐·켐프텐 | 두 도시의 협약 비준일로 언급 | \`city_ratification_reported\` / same |
-| 1536-10-30 | 울름 시의회 | 협약 수용을 공포하고 비텐베르크에 통보 | \`magistrate_ratification\` / Ulm Stadtarchiv, *Kirchen und religiöses Leben*, p.41 |
-| 1536-11 (day unverified) | 콘스탄츠 | 수용하지 않음. 부처·스트라스부르 설교자들이 11월 23일 콘스탄츠에 보낸 서신은 BDS 6/1 pp.258–270에 수록 | \`city_rejection_reported\` / Capito correspondence headnote and BDS TOC |
-| 1537-01-27 | 취리히·스위스 | 부처의 스위스 교회 대상 후속 서신 | \`outreach_continues\` / BDS 6/1 pp.271–273 |
-| 1537-04-01 | 스위스 연맹 | 부처가 연맹 측에 자신의 보고를 전달하는 문헌 | \`outreach_continues\` / BDS 6/1 pp.274–293 |
-| 1538-01-14 | 카피토·부처 → 바젤 | 루터의 1537년 12월 1일 스위스 도시 대상 편지를 전달하고 여전한 이해 차이를 언급 | \`negotiations_unresolved\` / BDS 16 (2013), pp.277–295 |
+| 1536-05-29 | 비텐베르크 | 참석자 협상 마무리·공통 조항 서명 | `participant_assent` / MBW regest + BDS 연표 |
+| 1536-06-02~05 | 프랑크푸르트 | 귀환 참가자들이 각 도시 당국에 제출할 공동 보고서를 정리. 부처와 카피토는 뒤에 추가 체류 | `report_drafted` / BDS 6/1 pp.135–174 + 2014 Capito correspondence headnote |
+| 1536-06-22 | 부처와 동료들 | 참석하지 못한 동료들이 서명하도록 설명·권고한 문헌 | `explanation_written` / BDS 6/1 pp.175–202 |
+| 1536-06-29 | 스트라스부르 | 부처의 합의 경위 설명 문헌. 편집자 주석에 목회자·교구 관리인들의 수용 언급 | `church_local_assent` / BDS 6/1 pp.203–208. **시의회 최종 비준과 혼동 금지** |
+| ca. 1536-07-02 또는 이후 | 스트라스부르 | `Dem volck solle man verkunden` 설교대 발표 문서. 비평판 목차는 약 6/29지만 편집자 해설은 6/29 발표 이후 첫 주일인 7/2를 가능한 발표일로 지목 | `draft_for_public_proclamation` / BDS p.207. 실제 낭독일 확정하지 않음 |
+| 1536-07-05 | 스트라스부르 | `Declaratio articulorum germanica` 독일어 해설 문헌 | `text_explanation` / BDS 6/1 pp.209–216 |
+| 1536-07-17 | 스트라스부르 | 도시 설교자들이 비텐베르크 조항을 해설한 문헌. 네 필사본 계열의 대부분 차이는 정서법 문제라는 비평판 설명 | `clergy_interpretation` / BDS 6/1 pp.217–226 |
+| 1536-07-22 | 부처 → 루터 | 부처는 프랑크푸르트·보름스·란다우·바이센부르크·에슬링겐·아우크스부르크·멤밍겐·켐프텐·스트라스부르가 조항에 동의했다고 보고. **정식 비준은 아직 필요** | `reported_acceptance_pending_ratification` / WA Br 7:471–473, Ep.3050, cited by Capito correspondence headnote |
+| 1536-07-23 | 아우크스부르크 설교자 → 루터 | 신중한 검토 후 협약 서명 사실 보고 | `clergy_subscription_reported` / WA Br 7:474–476, Ep.3051 (Capito correspondence headnote) |
+| 1536-08-26 | 스트라스부르 시의회 | 시의회가 공식적으로 협약을 승인했다고 서신집 연구 해설 기재 | `magistrate_ratification_reported` / *Correspondence of Wolfgang Capito*, Ep.612 headnote; cites Eells 207 |
+| 1536-09-03 | 에슬링겐 | 협약 비준일로 언급(11/2 츠비크 보고를 인용한 현대 편집자 주석) | `city_ratification_reported` / HBBW 6 Ep.908 cited via Capito correspondence |
+| 1536-09-13 | 로이틀링겐 | 협약 비준일로 언급 | `city_ratification_reported` / same |
+| 1536-09-16 | 멤밍겐·켐프텐 | 두 도시의 협약 비준일로 언급 | `city_ratification_reported` / same |
+| 1536-10-30 | 울름 시의회 | 협약 수용을 공포하고 비텐베르크에 통보 | `magistrate_ratification` / Ulm Stadtarchiv, *Kirchen und religiöses Leben*, p.41 |
+| 1536-11 (day unverified) | 콘스탄츠 | 수용하지 않음. 부처·스트라스부르 설교자들이 11월 23일 콘스탄츠에 보낸 서신은 BDS 6/1 pp.258–270에 수록 | `city_rejection_reported` / Capito correspondence headnote and BDS TOC |
+| 1537-01-27 | 취리히·스위스 | 부처의 스위스 교회 대상 후속 서신 | `outreach_continues` / BDS 6/1 pp.271–273 |
+| 1537-04-01 | 스위스 연맹 | 부처가 연맹 측에 자신의 보고를 전달하는 문헌 | `outreach_continues` / BDS 6/1 pp.274–293 |
+| 1538-01-14 | 카피토·부처 → 바젤 | 루터의 1537년 12월 1일 스위스 도시 대상 편지를 전달하고 여전한 이해 차이를 언급 | `negotiations_unresolved` / BDS 16 (2013), pp.277–295 |
 
 **실증 한계:** 7/22, 9월의 도시별 비준 정보는 당시 서신을 *현대 학술 편집자의 주석을 통해* 확인한 것이며, 이 단계에서 각각의 시의회 원부 또는 해당 서신의 실물 이미지를 직접 판독하지 않았다. 8/26 스트라스부르 비준도 Eells가 인용된 학술 해설이다. 울름 10/30은 시립문서관 자체의 역사 해설이 독립적으로 보강한다.
 
@@ -56,15 +56,15 @@ MBW 1744는 협약을 1536년 5월 29일로 표기하며, 1988년 BDS 6/1 목차
 | 지역 | 가장 강한 현재 근거 | 판정 방식 |
 |---|---|---|
 | 비텐베르크 | MBW + BDS 연표 | 현장 참가자 동의; 도시 전체의 독립 비준과 구별 |
-| 스트라스부르 | BDS 6/1 6/29, 7/17 및 Capito correspondence의 8/26 | \`church_assent\` → \`council_ratification_reported\` |
-| 프랑크푸르트 | 6/2–5 보고 초안, 7/22 부처의 동의 보고 | \`reported_acceptance_formal_ratification_unverified\` |
-| 아우크스부르크 | 7/23 도시 설교자들이 루터에게 보낸 동의 보고 | \`clergy_signed\`; 의회 비준 별도 검증 |
-| 에슬링겐 | 9/3 수용으로 서신집 해설에 전함 | \`ratified_reported_secondary_to_letter\` |
+| 스트라스부르 | BDS 6/1 6/29, 7/17 및 Capito correspondence의 8/26 | `church_assent` → `council_ratification_reported` |
+| 프랑크푸르트 | 6/2–5 보고 초안, 7/22 부처의 동의 보고 | `reported_acceptance_formal_ratification_unverified` |
+| 아우크스부르크 | 7/23 도시 설교자들이 루터에게 보낸 동의 보고 | `clergy_signed`; 의회 비준 별도 검증 |
+| 에슬링겐 | 9/3 수용으로 서신집 해설에 전함 | `ratified_reported_secondary_to_letter` |
 | 로이틀링겐 | 9/13 수용으로 전함 | 동일 |
 | 멤밍겐·켐프텐 | 9/16 수용으로 전함 | 동일 |
-| 울름 | 울름 시립문서관, 10/30 | \`city_council_acceptance_supported\` |
-| 콘스탄츠 | 서신집 해설: 11월 거부, BDS 11/23 서신 | \`rejected\`, 결정문 직접 판독 미완료 |
-| 취리히·베른·바젤 등 | 1536 회담 불참, 1537–38 후속 교섭 | 단일 \`swiss_rejection\` 불가: 개별 도시·신학자별 입장 별도 관리 |
+| 울름 | 울름 시립문서관, 10/30 | `city_council_acceptance_supported` |
+| 콘스탄츠 | 서신집 해설: 11월 거부, BDS 11/23 서신 | `rejected`, 결정문 직접 판독 미완료 |
+| 취리히·베른·바젤 등 | 1536 회담 불참, 1537–38 후속 교섭 | 단일 `swiss_rejection` 불가: 개별 도시·신학자별 입장 별도 관리 |
 
 ### 특히 중요: '독일 도시들 모두 수용'이라는 문구 금지
 부처의 7월 22일 보고는 수용 전망과 조항 동의 사실을 알려주지만, 공식 비준 자체가 남았다고 명시한다. 프랑크푸르트, 보름스, 란다우 등은 **보고 단계의 동의**로만 적는다.
@@ -74,9 +74,9 @@ MBW 1744는 협약을 1536년 5월 29일로 표기하며, 1988년 BDS 6/1 목차
 
 ## 5. 자료 비평: '6월 29일 설교'라는 오해 바로잡기
 
-BDS 6/1 p.207의 편집자는 \`Dem volck solle man verkunden\` 원고를 설명하면서 **시의회 대상 설명보다 먼저 설교가 행해지지는 않았을 것**이라고 말한다. 해당 시의회 관련 설명은 6월 29일로 기록되어 있고, 다음 주일인 7월 2일이 공개 선포의 가능한 날짜라고 제시한다.
+BDS 6/1 p.207의 편집자는 `Dem volck solle man verkunden` 원고를 설명하면서 **시의회 대상 설명보다 먼저 설교가 행해지지는 않았을 것**이라고 말한다. 해당 시의회 관련 설명은 6월 29일로 기록되어 있고, 다음 주일인 7월 2일이 공개 선포의 가능한 날짜라고 제시한다.
 
-따라서 목차의 \`ca. 29. Juni 1536\`만을 보고 '6월 29일 주일설교'라고 확정하는 것은 피해야 한다. 원고 작성·문서 표제상의 날짜·실제 대중 전달 일자는 별개 필드로 둔다. 문헌에 \`Productum dem samstag den 29 Junij Anno 1536\`과 같은 기록이 있더라도, 요일·날짜의 내부 일치성도 함께 점검한다.
+따라서 목차의 `ca. 29. Juni 1536`만을 보고 '6월 29일 주일설교'라고 확정하는 것은 피해야 한다. 원고 작성·문서 표제상의 날짜·실제 대중 전달 일자는 별개 필드로 둔다. 문헌에 `Productum dem samstag den 29 Junij Anno 1536`과 같은 기록이 있더라도, 요일·날짜의 내부 일치성도 함께 점검한다.
 
 ## 6. 수용의 신학적 내용 — 일반 독자용 해설 초안
 
@@ -98,25 +98,25 @@ BDS 6/1 p.207의 편집자는 \`Dem volck solle man verkunden\` 원고를 설명
 
 ## 7. 구조화 스키마 및 지도·인물 연동
 
-\`event_id\`, \`date_value\`, \`date_precision\`, \`place_id\`, \`city\`, \`source_document_id\`, \`source_page\`, \`source_access\`, \`actors\`, \`authority_level\`, \`reception_status\`, \`direct_council_minute_checked\`, \`claim_strength\`, \`source_urls\`, \`publication_gate\`.
+`event_id`, `date_value`, `date_precision`, `place_id`, `city`, `source_document_id`, `source_page`, `source_access`, `actors`, `authority_level`, `reception_status`, `direct_council_minute_checked`, `claim_strength`, `source_urls`, `publication_gate`.
 
 허용 상태:
-- \`participant_assent\`
-- \`report_drafted\`
-- \`explanation_written\`
-- \`church_local_assent\`
-- \`text_explanation\`
-- \`reported_acceptance_pending_ratification\`
-- \`clergy_subscription_reported\`
-- \`magistrate_ratification_reported\`
-- \`city_council_acceptance_supported\`
-- \`city_rejection_reported\`
-- \`outreach_continues\`
-- \`negotiations_unresolved\`
+- `participant_assent`
+- `report_drafted`
+- `explanation_written`
+- `church_local_assent`
+- `text_explanation`
+- `reported_acceptance_pending_ratification`
+- `clergy_subscription_reported`
+- `magistrate_ratification_reported`
+- `city_council_acceptance_supported`
+- `city_rejection_reported`
+- `outreach_continues`
+- `negotiations_unresolved`
 
 위 상태는 단일 수용 여부 Boolean으로 변환하지 않는다.
 
-\`place_id\`는 도시명+역사명칭+오늘날 국가를 포함하지만, 현 도시 중심점에 대한 임의의 상세 GPS 좌표를 연구원문 근거처럼 쓰지 않는다. 독자용 역사 지도에서는 회담 개최지, 문서 작성지, 결과 수용지의 마커를 별개로 설명해야 한다.
+`place_id`는 도시명+역사명칭+오늘날 국가를 포함하지만, 현 도시 중심점에 대한 임의의 상세 GPS 좌표를 연구원문 근거처럼 쓰지 않는다. 독자용 역사 지도에서는 회담 개최지, 문서 작성지, 결과 수용지의 마커를 별개로 설명해야 한다.
 
 인물 연결: 루터·멜란히톤(비텐베르크); 부처·카피토(스트라스부르); 마르틴 프레히트(울름); 요하네스 베른하르디(프랑크푸르트); 요하네스 츠비크(콘스탄츠); 하인리히 불링거(취리히). 관련 인물이 도시의 입장을 언제나 대표한 것으로 자동 추정하지 않는다.
 
