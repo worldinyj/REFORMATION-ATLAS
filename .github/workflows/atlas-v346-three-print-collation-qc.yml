@@ -1,0 +1,26 @@
+name: ATLAS V3.46 1540 three-exemplar Article X direct print evidence QC
+on:
+  push:
+    branches:
+      - research/atlas-v346-ca-x-1540-independent-facsimile-gate
+    paths:
+      - data/contracts/atlas_v346_three_1540_article_x_print_collation.json
+      - scripts/validate_v346_three_1540_article_x_print_collation.mjs
+      - .github/workflows/atlas-v346-three-print-collation-qc.yml
+  pull_request:
+    paths:
+      - data/contracts/atlas_v346_three_1540_article_x_print_collation.json
+      - scripts/validate_v346_three_1540_article_x_print_collation.mjs
+      - .github/workflows/atlas-v346-three-print-collation-qc.yml
+permissions:
+  contents: read
+jobs:
+  three-witness-provenance:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node scripts/validate_v346_three_1540_article_x_print_collation.mjs
