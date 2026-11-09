@@ -1,0 +1,151 @@
+{
+  "schema": "atlas.research.v344.article_x_primary_1531_1540_collation.v1",
+  "version": "3.44.1",
+  "date": "2026-11-09",
+  "status": "RESEARCH_DRAFT_HOLD",
+  "publication_allowed": false,
+  "webapp_integrated": false,
+  "parent_version": "3.43",
+  "original_corpus_changes": 0,
+  "sources": [
+    {
+      "id": "BSB_1531_CANVAS17",
+      "kind": "CONTEMPORARY_1531_LATIN_PRINT",
+      "edition_year": 1531,
+      "holding": "Bayerische Staatsbibliothek München",
+      "shelfmark": "4 H.ref. 205 b",
+      "vd16": "C 4737",
+      "digital_object": "bsb00103368",
+      "canvas_ordinal": 17,
+      "article": "X",
+      "primary_article_x_visual_read": true,
+      "source_url": "https://www.digitale-sammlungen.de/en/view/bsb00103368?page=17",
+      "image_url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00103368_00017/full/1800,/0/default.jpg",
+      "original_image_dimensions": [
+        1800,
+        2487
+      ],
+      "image_http_status": 200,
+      "inspection_run": 42542117422,
+      "inspection_job": 128919131795,
+      "ocr_role": "NAVIGATION_ONLY",
+      "full_1530_submission_manuscript_seen": false
+    },
+    {
+      "id": "GRUBER_1540_ARTICLE_X",
+      "kind": "CONTEMPORARY_1540_LATIN_VARIATA_PRINT_CROPPED_IMAGE",
+      "edition_year": 1540,
+      "holding": "Lutheran School of Theology at Chicago, Gruber Collection",
+      "exemplar_id": "Gruber 28",
+      "article": "X",
+      "primary_article_x_visual_read": true,
+      "source_url": "https://gruber.lstc.edu/confessions/augs_apol.php",
+      "image_url": "https://gruber.lstc.edu/confessions/images/gruber28var.jpg",
+      "image_dimensions": [
+        421,
+        113
+      ],
+      "image_http_status": 200,
+      "inspection_run": 42542262218,
+      "inspection_job": 128919585369,
+      "complete_book_facsimile_seen": false,
+      "full_folio_number_visible": false
+    },
+    {
+      "id": "CR26_1858_P357_N34",
+      "kind": "NINETEENTH_CENTURY_EDITED_REPRINT_AND_APPARATUS",
+      "year": 1858,
+      "printed_page": 357,
+      "apparatus_note": 34,
+      "excerpt_pdf_zero_based_page": 5,
+      "facsimile_read": true,
+      "source_url": "https://www.augsburg1540.com/uploads/1/3/8/9/138903771/1540_latin_text_from_corpus_reformandum.pdf"
+    },
+    {
+      "id": "PITTS_1540_CONF_BIB",
+      "kind": "INDEPENDENT_1540_LATIN_VARIATA_EXEMPLAR_BIBLIOGRAPHY_ONLY",
+      "year": 1540,
+      "holding": "Pitts Theology Library, Emory University",
+      "shelfmark": "1540 CONF",
+      "vd16": "C 4713",
+      "catalogue_print_page": 34,
+      "catalogue_pdf_zero_based_page": 33,
+      "article_x_interior_visual_read": false,
+      "titlepage_photo_seen": true,
+      "source_url": "https://dia.pitts.emory.edu/exhibits/exhibitcatalogs/Kessler2017ExhibitionCatalogue.pdf"
+    },
+    {
+      "id": "PITTS_1531_GERMAN_BIB",
+      "kind": "1531_GERMAN_SEPARATE_BIBLIOGRAPHY",
+      "year": 1531,
+      "vd16": "C 4736",
+      "article_x_interior_visual_read": false,
+      "source_url": "https://dia.pitts.emory.edu/exhibits/exhibitcatalogs/Kessler2017ExhibitionCatalogue.pdf"
+    }
+  ],
+  "article_x": {
+    "article": "X",
+    "topic_ko": "성찬",
+    "print1531_excerpt_normalized": "corpus et sanguis Christi vere adsint et distribuantur vescentibus in coena Domini; et improbant secus docentes",
+    "print1540_excerpt_normalized": "cum pane et vino vere exhibeantur corpus et sanguis Christi vescentibus in Coena Domini",
+    "comparison": [
+      {
+        "id": "C1",
+        "type": "ADDITION",
+        "latin": "cum pane et vino",
+        "reading_1531": "ABSENT",
+        "reading_1540": "PRESENT"
+      },
+      {
+        "id": "C2",
+        "type": "VERB_REFORMULATION",
+        "latin_1531": "vere adsint et distribuantur",
+        "latin_1540": "vere exhibeantur"
+      },
+      {
+        "id": "C3",
+        "type": "OMISSION",
+        "latin": "et improbant secus docentes",
+        "reading_1531": "PRESENT",
+        "reading_1540": "ABSENT"
+      }
+    ],
+    "comparison_result": "HISTORICAL_EDITION_REVISION_CONFIRMED_BY_TWO_CONTEMPORARY_ARTICLE_IMAGES",
+    "two_original_article_images_read": true,
+    "primary_1531_image_read": true,
+    "primary_1540_image_read": true,
+    "scholarly_1858_apparatus_agrees": true,
+    "normalized_glyphs": [
+      "long_s_to_s",
+      "ampersand_to_et",
+      "hyphenated_word_join",
+      "coena_ligature_normalization"
+    ],
+    "not_claimed": [
+      "1530 emperor-submitted manuscript exact text established",
+      "all 1531 copies identical",
+      "all 1540 copies identical",
+      "full 1540 printed edition direct collation",
+      "one phrase proves complete theological conversion"
+    ]
+  },
+  "provenance_boundary": {
+    "pitts_c4713_year": 1540,
+    "pitts_c4736_year": 1531,
+    "pitts_c4736_language": "German",
+    "gruber_28_1540_image_only_cropped": true,
+    "source_images_committed": false
+  },
+  "release_gate": {
+    "status": "HOLD",
+    "main_changed": false,
+    "google_ai_studio_changed": false,
+    "original_513_essays_changed": 0,
+    "publication_allowed": false
+  },
+  "next_gates": [
+    "Whole-page primary 1540 image with original foliation and copy identity",
+    "Independent second 1540 exemplar article X print comparison",
+    "Historical interpretation review before public app promotion"
+  ]
+}
