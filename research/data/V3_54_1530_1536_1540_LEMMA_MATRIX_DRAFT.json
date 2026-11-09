@@ -1,0 +1,214 @@
+{
+  "schema_version": "1.0.0",
+  "dataset_id": "atlas-wittenberg-v354",
+  "research_version": "V3.54",
+  "date": "2026-11-10",
+  "parent_branch": "research/atlas-v353-wittenberg-doctrine-claims",
+  "branch": "research/atlas-v354-wittenberg-1530-1540-lemma-collation",
+  "document_register": {
+    "CA_1530_LAT_X": {
+      "date": "1530-06-25",
+      "unit": "Augsburg Confession Article X, Latin",
+      "witness_level": "edited_variants_1858_plus_Schaff_secondary_transcription",
+      "evidence_access": "1858_editorial_apparatus_scan_checked",
+      "source_url": "https://www.augsburg1540.com/uploads/1/3/8/9/138903771/1540_latin_text_from_corpus_reformandum.pdf",
+      "locator": "CR 26 (1858) p.357 n.34; also Schaff History vol. 7"
+    },
+    "WC_1536": {
+      "date": "1536-05-29",
+      "unit": "Wittenberg Concord Eucharistic articles (separately transmitted)",
+      "witness_level": "1988_critical_edition_and_1593_print_reproduced_in_2011",
+      "evidence_access": "critical_edition_OCR_and_reprinted_pdf_extracted_text",
+      "source_url": "https://www.bic-media.com/books/9783579043135/content/shortened/",
+      "locator": "BDS 13 (2011) pp.21–23 reprints 1593 text; BDS6/1 (1988) pp.120–123; MBW1744 regest"
+    },
+    "CA_1540_LAT_X": {
+      "date": "1540",
+      "unit": "Augsburg Confession Variata Article X, Latin",
+      "witness_level": "1858_Corpus_Reformatorum_edition_of_1540",
+      "evidence_access": "1858_print_scan_checked",
+      "source_url": "https://www.augsburg1540.com/uploads/1/3/8/9/138903771/1540_latin_text_from_corpus_reformandum.pdf",
+      "locator": "CR 26 (1858) p.357, PDF image pageno 5"
+    }
+  },
+  "source_policy": {
+    "normalized_concord_date": "1536-05-29",
+    "date_basis": "MBW1744 Nachtrag corrects 28 May 1536 as erroneous",
+    "date_basis_url": "https://melanchthon.hadw-bw.de/regest.html?reg_nr=1744",
+    "original_1536_manuscript_image_verified": false,
+    "CR26_1858_edition_page357_scan_verified": true,
+    "BDS13_2011_page21_23_image_verified": false,
+    "BDS13_2011_page21_23_PDF_text_checked": true
+  },
+  "comparison_rows": [
+    {
+      "id": "WC354-L01",
+      "lemma": "presence_adesse",
+      "language": "Latin",
+      "forms": {
+        "CA_1530_LAT_X": "vere adsint",
+        "WC_1536": "vere et substantialiter adesse",
+        "CA_1540_LAT_X": "not_in_article_X_main_clause"
+      },
+      "meaning_ko": "참으로 임재함; 1536년은 실체적 임재까지 명시",
+      "claim_ids": [
+        "ATLAS-WC-1536-01"
+      ],
+      "caveat": "1540년 표현에 adesse가 없다는 사실은 임재 교리의 부정 자체를 뜻하지 않는다."
+    },
+    {
+      "id": "WC354-L02",
+      "lemma": "truth_vere",
+      "language": "Latin",
+      "forms": {
+        "CA_1530_LAT_X": "vere",
+        "WC_1536": "vere",
+        "CA_1540_LAT_X": "vere"
+      },
+      "meaning_ko": "참으로",
+      "claim_ids": [
+        "ATLAS-WC-1536-01"
+      ],
+      "caveat": "세 시대에 공통되는 말이지만 그 뒤에 결합하는 동사를 함께 해석해야 한다."
+    },
+    {
+      "id": "WC354-L03",
+      "lemma": "substantialiter",
+      "language": "Latin",
+      "forms": {
+        "CA_1530_LAT_X": "not_in_article_X_main_clause",
+        "WC_1536": "substantialiter",
+        "CA_1540_LAT_X": "not_in_article_X_main_clause"
+      },
+      "meaning_ko": "실체적으로",
+      "claim_ids": [
+        "ATLAS-WC-1536-01"
+      ],
+      "caveat": "이 단어는 성찬의 물질적 화체를 의미하는 것으로 번역하지 않는다."
+    },
+    {
+      "id": "WC354-L04",
+      "lemma": "cum_pane_et_vino",
+      "language": "Latin",
+      "forms": {
+        "CA_1530_LAT_X": "not_in_latin_article_X_clause",
+        "WC_1536": "cum pane et vino",
+        "CA_1540_LAT_X": "cum pane et vino"
+      },
+      "meaning_ko": "빵과 포도주와 함께",
+      "claim_ids": [
+        "ATLAS-WC-1536-01"
+      ],
+      "caveat": "1530년 독일어판 표현과 별도 대조 필요; 라틴어 본문 부재만 기록한다."
+    },
+    {
+      "id": "WC354-L05",
+      "lemma": "exhibere",
+      "language": "Latin",
+      "forms": {
+        "CA_1530_LAT_X": "not_in_article_X_main_clause",
+        "WC_1536": "exhiberi",
+        "CA_1540_LAT_X": "exhibeantur"
+      },
+      "meaning_ko": "실제로 제공/제시됨",
+      "claim_ids": [
+        "ATLAS-WC-1536-01"
+      ],
+      "caveat": "exhiberi와 exhibeantur는 문법상 다른 형태다."
+    },
+    {
+      "id": "WC354-L06",
+      "lemma": "distribuere",
+      "language": "Latin",
+      "forms": {
+        "CA_1530_LAT_X": "distribuantur",
+        "WC_1536": "not_in_cited_1536_key_clause",
+        "CA_1540_LAT_X": "not_in_article_X_main_clause"
+      },
+      "meaning_ko": "나누어 주어짐",
+      "claim_ids": [
+        "ATLAS-WC-1536-01"
+      ],
+      "caveat": "인용한 핵심 절에서의 부재이며 문서 전체에 없다고 단정하지 않는다."
+    },
+    {
+      "id": "WC354-L07",
+      "lemma": "sumi",
+      "language": "Latin",
+      "forms": {
+        "CA_1530_LAT_X": "vescentibus_in_clause",
+        "WC_1536": "sumi",
+        "CA_1540_LAT_X": "vescentibus_in_clause"
+      },
+      "meaning_ko": "받아들여짐; vescentibus는 먹는 이들에게",
+      "claim_ids": [
+        "ATLAS-WC-1536-01",
+        "ATLAS-WC-1536-02"
+      ],
+      "caveat": "수령과 수령의 구원적 유익은 구분한다. vescentibus와 sumi는 동의어라고 가정하지 않는다."
+    },
+    {
+      "id": "WC354-L08",
+      "lemma": "unworthy_recipients",
+      "language": "Latin/German",
+      "forms": {
+        "CA_1530_LAT_X": "not_explicit_in_article_X",
+        "WC_1536": "separate_article_explicates_indignis",
+        "CA_1540_LAT_X": "not_explicit_in_article_X"
+      },
+      "meaning_ko": "합당하지 않은 수찬자 문제",
+      "claim_ids": [
+        "ATLAS-WC-1536-02"
+      ],
+      "caveat": "1540년 제10조가 수찬자를 명시하지 않는 것은 교리적 부정의 직접 증거가 아니다."
+    },
+    {
+      "id": "WC354-L09",
+      "lemma": "improbant_secus_docentes",
+      "language": "Latin",
+      "forms": {
+        "CA_1530_LAT_X": "explicit_rejection",
+        "WC_1536": "not_comparable_same_clause",
+        "CA_1540_LAT_X": "omitted"
+      },
+      "meaning_ko": "반대 가르침에 대한 배제 절",
+      "claim_ids": [
+        "ATLAS-WC-1536-06"
+      ],
+      "caveat": "1536년 협약은 구조가 다른 문서다. 1540년의 해당 절 부재를 교회의 승인 범위와 혼동하지 않는다."
+    },
+    {
+      "id": "WC354-L10",
+      "lemma": "unio_sacramentalis",
+      "language": "Latin/German",
+      "forms": {
+        "CA_1530_LAT_X": "not_in_article_X",
+        "WC_1536": "attested_in_later_1593_German_transmission",
+        "CA_1540_LAT_X": "not_in_article_X"
+      },
+      "meaning_ko": "성례적 결합",
+      "claim_ids": [
+        "ATLAS-WC-1536-01"
+      ],
+      "caveat": "전승 증거는 1593년 인쇄본의 2011년 재수록이며, 1536년 자필 원문 직접 검증은 아니다."
+    }
+  ],
+  "map_note": "All absence statuses refer only to the specified textual unit; absence != doctrinal denial. Do not automatically equate the 1536, 1593, 1858, 1988 and 2011 witness layers.",
+  "quality_gate": {
+    "rows_expected": 10,
+    "release_approved": false,
+    "expert_verified": false,
+    "original_manuscript_verified": false,
+    "all_rows_source_registered": true,
+    "all_claims_source_linked": true
+  },
+  "risk_flags": [
+    "OCR_ligature_distortion",
+    "1536_original_folio_unseen",
+    "1593_print_is_later_transmission",
+    "1858_scan_not_1540_autograph",
+    "BDS1988_some_pages_access_denied",
+    "date_28_29_correction_is_editorial",
+    "1536_1577_Concord_documents_distinct"
+  ]
+}
