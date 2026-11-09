@@ -1,9 +1,6 @@
 name: ATLAS V3.46 two 1540 Rhau BSB witness IIIF locator
 on:
-  pull_request:
-    paths:
-      - scripts/research_v346_bsb_1540_iiif_loci.py
-      - .github/workflows/atlas-v346-bsb1540-loci.yml
+  workflow_dispatch:
 permissions:
   contents: read
 jobs:
