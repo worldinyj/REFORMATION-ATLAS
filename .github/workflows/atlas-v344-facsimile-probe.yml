@@ -1,15 +1,5 @@
 name: ATLAS V3.44 bounded visual source probe
 on:
-  push:
-    branches:
-      - research/atlas-v344-ca-x-contemporary-print-witness
-    paths:
-      - scripts/research_v344_ca_x_facsimile_probe.py
-      - .github/workflows/atlas-v344-facsimile-probe.yml
-  pull_request:
-    paths:
-      - scripts/research_v344_ca_x_facsimile_probe.py
-      - .github/workflows/atlas-v344-facsimile-probe.yml
   workflow_dispatch:
 permissions:
   contents: read
