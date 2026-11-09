@@ -1,0 +1,189 @@
+{
+  "schema_version": "1.0.0",
+  "dataset_id": "atlas-wittenberg-v353",
+  "research_version": "V3.53",
+  "created_on": "2026-11-10",
+  "parent_branch": "research/atlas-v352-wittenberg-witness-scope-register",
+  "branch": "research/atlas-v353-wittenberg-doctrine-claims",
+  "source_access_policy": "Edition OCR or scholarly regest; no manuscript facsimile verified",
+  "editorial_state": "DRAFT",
+  "publication_gate": false,
+  "preferred_historical_date": {
+    "date": "1536-05-29",
+    "basis": "MBW1744 explicit correction of BDS 6/1 28 May as false date",
+    "source_url": "https://melanchthon.hadw-bw.de/regest.html?reg_nr=1744",
+    "type": "scholarly_regest_editorial_correction",
+    "direct_manuscript_image_checked": false
+  },
+  "edition_date_exception": {
+    "date": "1536-05-28",
+    "edition": "BDS 6/1 (1988) editorial heading",
+    "source_url": "https://digi.hadw-bw.de/view/bds6_1/0009",
+    "superseded_for_historical_normalization": true,
+    "retained_as_bibliographic_fact": true
+  },
+  "claims": [
+    {
+      "id": "ATLAS-WC-1536-01",
+      "theme": "eucharistic_presence",
+      "title_ko": "성찬의 참된 임재",
+      "summary_ko": "합의는 성찬의 빵·포도주와 함께 그리스도의 몸·피가 참으로 주어진다는 언어를 사용한다. 물질적 변환이나 항구적인 공간적 포함과 동일시하지 않는다.",
+      "sources": [
+        {
+          "type": "critical_edition_bibliography",
+          "url": "https://digi.hadw-bw.de/view/bds6_1/0009",
+          "locator": "BDS 6/1 pp.114–134"
+        },
+        {
+          "type": "scholarly_regest",
+          "url": "https://melanchthon.hadw-bw.de/regest.html?reg_nr=1744",
+          "locator": "paragraph 1"
+        }
+      ],
+      "confidence": "context_supported_exact_diplomatic_uncollated",
+      "manuscript_verified": false,
+      "release": false
+    },
+    {
+      "id": "ATLAS-WC-1536-02",
+      "theme": "unworthy_recipients",
+      "title_ko": "합당하지 않은 자의 수찬",
+      "summary_ko": "합당하지 않은 자가 성찬을 받는 문제는 성찬의 참된 임재와 별도 논점이다. 성찬 수령과 구원에 유익한 수령을 구별한다.",
+      "sources": [
+        {
+          "type": "scholarly_regest",
+          "url": "https://melanchthon.hadw-bw.de/regest.html?reg_nr=1744",
+          "locator": "paragraph 2"
+        }
+      ],
+      "confidence": "regest_verified_detail_pending",
+      "manuscript_verified": false,
+      "release": false
+    },
+    {
+      "id": "ATLAS-WC-1536-03",
+      "theme": "infant_baptism",
+      "title_ko": "유아에게 미치는 구원의 약속",
+      "summary_ko": "유아세례의 필요성을 구원의 약속이 유아에게도 미친다는 근거와 세례를 통한 교회 공동체 편입으로 설명한다.",
+      "sources": [
+        {
+          "type": "critical_edition_OCR",
+          "url": "https://digi.hadw-bw.de/view/bds6_1/0134",
+          "locator": "BDS 6/1 printed p.130, De Baptismo"
+        }
+      ],
+      "confidence": "edition_ocr_text_supported",
+      "manuscript_verified": false,
+      "release": false
+    },
+    {
+      "id": "ATLAS-WC-1536-04",
+      "theme": "infant_baptism_divine_work",
+      "title_ko": "유아의 믿음과 하나님의 역사",
+      "summary_ko": "유아의 언어적 이해를 성인의 방식과 동일시하지 않으면서 하나님의 역사와 믿음이라는 표현을 설명하고 생명이 위태로운 유아의 세례를 지체하지 않도록 권고한다.",
+      "sources": [
+        {
+          "type": "critical_edition_OCR",
+          "url": "https://digi.hadw-bw.de/view/bds6_1/0136",
+          "locator": "BDS 6/1 printed p.132, De Baptismo"
+        }
+      ],
+      "confidence": "edition_ocr_text_supported",
+      "manuscript_verified": false,
+      "release": false
+    },
+    {
+      "id": "ATLAS-WC-1536-05",
+      "theme": "absolution",
+      "title_ko": "사죄와 양심의 위로",
+      "summary_ko": "개인적 사죄와 목회 대화를 양심의 위로·신앙 교육을 위해 보존하되, 옛 고해의 전면적 죄목 열거를 의무화하지 않는다.",
+      "sources": [
+        {
+          "type": "critical_edition_OCR",
+          "url": "https://digi.hadw-bw.de/view/bds6_1/0136",
+          "locator": "BDS 6/1 printed p.132, De Absolutione"
+        }
+      ],
+      "confidence": "edition_ocr_text_supported",
+      "manuscript_verified": false,
+      "release": false
+    },
+    {
+      "id": "ATLAS-WC-1536-06",
+      "theme": "reception_history",
+      "title_ko": "현장 합의와 지역별 수용",
+      "summary_ko": "현장에 없던 설교자 및 양측 당국의 동의가 더 필요했고, 이후 수개월간 부처가 동료·도시 당국과 합의 내용을 설명하고 논의했다.",
+      "sources": [
+        {
+          "type": "scholarly_regest",
+          "url": "https://melanchthon.hadw-bw.de/regest.html?reg_nr=1744",
+          "locator": "paragraph 3"
+        },
+        {
+          "type": "critical_edition_toc",
+          "url": "https://digi.hadw-bw.de/view/bds6_1/0009",
+          "locator": "BDS 6/1 items 11–18"
+        }
+      ],
+      "confidence": "regest_and_edition_toc_supported",
+      "manuscript_verified": false,
+      "release": false
+    },
+    {
+      "id": "ATLAS-WC-1536-07",
+      "theme": "witness_namespace",
+      "title_ko": "라틴어·독일어 교감표의 범위 구분",
+      "summary_ko": "인쇄 p.130의 라틴어 전승 서명자 목록과 p.131의 독일어 전승 목록을 별도 문맥으로 저장하고 동일 siglum의 독립성 검증 전 자동 결합을 금지한다.",
+      "sources": [
+        {
+          "type": "critical_edition_OCR",
+          "url": "https://digi.hadw-bw.de/view/bds6_1/0134",
+          "locator": "printed p.130 signatory apparatus"
+        },
+        {
+          "type": "critical_edition_OCR",
+          "url": "https://digi.hadw-bw.de/view/bds6_1/0135",
+          "locator": "printed p.131 signatory apparatus"
+        }
+      ],
+      "confidence": "parallel_editorial_apparatus_seen_ocr",
+      "manuscript_verified": false,
+      "release": false
+    },
+    {
+      "id": "ATLAS-WC-1536-08",
+      "theme": "date_discrepancy",
+      "title_ko": "편집 날짜 오기 정정",
+      "summary_ko": "MBW 1744 Nachtrag은 BDS 6/1의 1536년 5월 28일 표기를 잘못된 날짜라고 명시하며 5월 29일을 사용한다.",
+      "sources": [
+        {
+          "type": "scholarly_regest_editorial_correction",
+          "url": "https://melanchthon.hadw-bw.de/regest.html?reg_nr=1744",
+          "locator": "Nachtrag"
+        },
+        {
+          "type": "critical_edition_toc",
+          "url": "https://digi.hadw-bw.de/view/bds6_1/0009",
+          "locator": "item 10 heading"
+        }
+      ],
+      "confidence": "editorial_correction_explicit",
+      "manuscript_verified": false,
+      "release": false
+    }
+  ],
+  "qa": {
+    "claim_count_expected": 8,
+    "source_urls_required": true,
+    "all_release_false": true,
+    "all_manuscript_verified_false": true,
+    "diplomatic_collation_complete": false,
+    "expert_approved": false
+  },
+  "next_actions": [
+    "Inspect BDS print pp.120–134 page images and OCR variants",
+    "Check primary manuscript folios",
+    "Namespace sigla by edition section/language before joins",
+    "Produce reviewed Korean excerpt diff without changing live history essays"
+  ]
+}
