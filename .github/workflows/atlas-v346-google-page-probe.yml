@@ -1,0 +1,18 @@
+name: ATLAS V3.46 Google Books page image access test
+on:
+  pull_request:
+    paths:
+      - scripts/research_v346_google_page_image_probe.py
+      - .github/workflows/atlas-v346-google-page-probe.yml
+permissions:
+  contents: read
+jobs:
+  bounded-page-probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python scripts/research_v346_google_page_image_probe.py
