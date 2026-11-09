@@ -1,0 +1,27 @@
+name: ATLAS V3.47 VII VIII exemplar and print state evidence QC
+on:
+  push:
+    branches:
+      - research/atlas-v347-ca-vii-viii-1540-press-state
+    paths:
+      - data/contracts/atlas_v347_ca_vii_viii_1540_exemplar_print_state.json
+      - scripts/validate_v347_ca_vii_viii_1540_print_state.mjs
+      - .github/workflows/atlas-v347-exemplar-collation-qc.yml
+  pull_request:
+    paths:
+      - data/contracts/atlas_v347_ca_vii_viii_1540_exemplar_print_state.json
+      - scripts/validate_v347_ca_vii_viii_1540_print_state.mjs
+      - .github/workflows/atlas-v347-exemplar-collation-qc.yml
+permissions:
+  contents: read
+jobs:
+  anchored-print-evidence:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Enforce print vs manuscript distinction and HOLD
+        run: node scripts/validate_v347_ca_vii_viii_1540_print_state.mjs

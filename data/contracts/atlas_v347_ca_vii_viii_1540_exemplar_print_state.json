@@ -1,0 +1,171 @@
+{
+  "schema": "atlas.research.v347.ca_vii_viii_1540_exemplar_print_state.v1",
+  "version": "3.47.1",
+  "date": "2026-11-09",
+  "status": "RESEARCH_DRAFT_HOLD",
+  "parent_version": "3.46.1",
+  "publication_allowed": false,
+  "webapp_integrated": false,
+  "source_run": 42556126783,
+  "source_job": 128962110742,
+  "witnesses": [
+    {
+      "id": "R-VII-VIII",
+      "year": 1540,
+      "edition": "VD16 C 4713",
+      "holding": "Staatliche Bibliothek Regensburg",
+      "shelfmark": "999/4Theol.syst.33",
+      "digital_object": "bsb11069754",
+      "canvas": 16,
+      "original_image_url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11069754_00016/full/1800,/0/default.jpg",
+      "http": 200,
+      "original_dimensions": [
+        1800,
+        2726
+      ],
+      "original_bytes": 611789,
+      "original_sha256": "bc2f17e744abbe34e4b3ab4c963ce3f71f317005678e9e909bc4f5db7a34da9d",
+      "original_print_visually_read": true,
+      "articles": [
+        "VII_COMPLETE",
+        "VIII_PARTIAL"
+      ],
+      "manuscript_topic_notes_seen": false
+    },
+    {
+      "id": "B-VII-VIII",
+      "year": 1540,
+      "edition": "VD16 C 4713",
+      "holding": "Staatsbibliothek Bamberg",
+      "shelfmark": ".10 D 14",
+      "digital_object": "bsb11399533",
+      "canvas": 20,
+      "original_image_url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11399533_00020/full/1800,/0/default.jpg",
+      "http": 200,
+      "original_dimensions": [
+        1800,
+        2385
+      ],
+      "original_bytes": 589609,
+      "original_sha256": "19363b775afba5471638f3394659cf11983c20266e83012ea4ee095cf52025d1",
+      "original_print_visually_read": true,
+      "articles": [
+        "VII_COMPLETE",
+        "VIII_PARTIAL"
+      ],
+      "manuscript_topic_notes_seen": true,
+      "marginalia_classification": "COPY_SPECIFIC_MANUSCRIPT_ANNOTATION",
+      "marginalia_author_verified": false,
+      "marginalia_date_verified": false
+    }
+  ],
+  "cross_page_context": {
+    "regensburg_next_canvas": 17,
+    "bamberg_next_canvas": 21,
+    "preexisting_direct_image_run": 42548638567,
+    "preexisting_direct_image_job": 128939028846,
+    "continuation_from": "licere",
+    "continuation_to": "populo uti ministerio malorum",
+    "source_images_visually_read_in_parent": true,
+    "article_viii_entire_page_range_studied": false
+  },
+  "article_vii_collation": [
+    {
+      "id": "V7-1",
+      "latin_anchor": "congregatio membrorum Christi",
+      "same_in_two_print_images": true
+    },
+    {
+      "id": "V7-2",
+      "latin_anchor": "multi mali et hypocritae admixti sunt",
+      "same_in_two_print_images": true
+    },
+    {
+      "id": "V7-3",
+      "latin_anchor": "puram et sanam Evangelii doctrinam et rectum usum Sacramentorum",
+      "same_in_two_print_images": true
+    },
+    {
+      "id": "V7-4",
+      "latin_anchor": "satis est consentire de doctrina Evangelii et administratione Sacramentorum",
+      "same_in_two_print_images": true
+    },
+    {
+      "id": "V7-5",
+      "latin_anchor": "Nec necesse est ubique similes esse traditiones humanas",
+      "same_in_two_print_images": true
+    },
+    {
+      "id": "V7-6",
+      "latin_anchor": "Unus Dominus una fides unum Baptisma",
+      "same_in_two_print_images": true
+    }
+  ],
+  "article_viii_collation": [
+    {
+      "id": "V8-1",
+      "latin_anchor": "Cum autem in hac vita admixti sint Ecclesiae multi mali et hypocritae",
+      "same_in_two_print_images": true
+    },
+    {
+      "id": "V8-2",
+      "latin_anchor": "Sacramenta et verbum Dei propter ordinationem et mandatum Christi sunt efficacia",
+      "same_in_two_print_images": true
+    },
+    {
+      "id": "V8-3",
+      "latin_anchor": "etiam si per malos exhibeantur",
+      "same_in_two_print_images": true
+    },
+    {
+      "id": "V8-4",
+      "latin_anchor": "Damnant Donatistas et similes qui negabant",
+      "same_in_two_print_images": true
+    }
+  ],
+  "typesetting_selected_end_breaks": [
+    "con-gregatio",
+    "Evan-gelii",
+    "do-ctrina",
+    "Bap-tisma"
+  ],
+  "selected_end_breaks_match": true,
+  "selected_typographic_positions_correspond": true,
+  "evidence_reading_class": "DIRECT_ORIGINAL_PRINT_IMAGE_VISUAL",
+  "print_text_variant_in_examined_anchors_detected": false,
+  "same_physical_copy_claimed": false,
+  "entire_1540_edition_collated": false,
+  "press_state_global_resolved": false,
+  "annotations": {
+    "id": "BAMBERG-MARGINS",
+    "category": "COPY_SPECIFIC_MANUSCRIPT_ANNOTATION",
+    "around_articles": [
+      "VII",
+      "VIII"
+    ],
+    "left_margin_references_present": true,
+    "right_title_notes_present": true,
+    "inscription_date_unknown": true,
+    "inscription_author_unknown": true,
+    "printing_variant": false
+  },
+  "prior_v346_preserved": {
+    "article_x_three_distinct_1540_exemplar_text_match": true,
+    "source": "data/contracts/atlas_v346_three_1540_article_x_print_collation.json"
+  },
+  "study_gates": [
+    "Do not extrapolate matching selected typographic breaks to all formes/press states.",
+    "Separate handwritten reader notes from printed glyphs and authorial revisions.",
+    "Keep selected 1540 same-edition exemplar comparison separate from 1531/1540 historical edition revision.",
+    "Avoid claiming paleographic dating of Bamberg hand without palaeographic and provenance evidence.",
+    "Publication and integration remain subject to editorial approval."
+  ],
+  "release_gate": {
+    "status": "HOLD",
+    "main_changed": false,
+    "google_ai_studio_changed": false,
+    "existing_essays_changed": 0,
+    "publication_allowed": false,
+    "images_copied_to_git": false
+  }
+}
