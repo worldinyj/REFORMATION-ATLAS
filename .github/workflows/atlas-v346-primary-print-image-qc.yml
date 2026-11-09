@@ -1,9 +1,6 @@
 name: ATLAS V3.46 two 1540 Article X original print QC samples
 on:
-  pull_request:
-    paths:
-      - scripts/research_v346_primary_1540_article_x_images.py
-      - .github/workflows/atlas-v346-primary-print-image-qc.yml
+  workflow_dispatch:
 permissions:
   contents: read
 jobs:
