@@ -1,0 +1,26 @@
+name: ATLAS V3.42 primary print and digital transcription QC
+on:
+  push:
+    branches:
+      - research/atlas-v342-cr26-1858-print-collation
+    paths:
+      - data/contracts/atlas_v342_cr26_1858_direct_print_collation.json
+      - scripts/validate_v342_cr26_1858_collation.mjs
+      - .github/workflows/atlas-v342-cr26-collation-qc.yml
+  pull_request:
+    paths:
+      - data/contracts/atlas_v342_cr26_1858_direct_print_collation.json
+      - scripts/validate_v342_cr26_1858_collation.mjs
+      - .github/workflows/atlas-v342-cr26-collation-qc.yml
+permissions:
+  contents: read
+jobs:
+  provenance:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Keep historical print readings separate from online transcription
+        run: node scripts/validate_v342_cr26_1858_collation.mjs
