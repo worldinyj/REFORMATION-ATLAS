@@ -1,0 +1,25 @@
+name: ATLAS V3.49 CR III original print 1536 concordance evidence QC
+on:
+  push:
+    branches:
+      - research/atlas-v349-cr3-1836-concord-direct-print
+    paths:
+      - data/contracts/atlas_v349_cr3_1836_wittenberg_concord_direct_print.json
+      - scripts/validate_v349_cr3_direct_print_concordance.mjs
+      - .github/workflows/atlas-v349-cr3-print-evidence-qc.yml
+  pull_request:
+    paths:
+      - data/contracts/atlas_v349_cr3_1836_wittenberg_concord_direct_print.json
+      - scripts/validate_v349_cr3_direct_print_concordance.mjs
+      - .github/workflows/atlas-v349-cr3-print-evidence-qc.yml
+permissions:
+  contents: read
+jobs:
+  print-provenance:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - run: node scripts/validate_v349_cr3_direct_print_concordance.mjs

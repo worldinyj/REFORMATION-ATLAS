@@ -1,0 +1,15 @@
+name: ATLAS V3.49 Internet Archive facsimile source locator
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  source-locator:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python scripts/research_v349_ia_facsimile_access.py
