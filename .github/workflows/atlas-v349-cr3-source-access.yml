@@ -6,6 +6,10 @@ on:
     paths:
       - scripts/research_v349_cr3_google_print_access.py
       - .github/workflows/atlas-v349-cr3-source-access.yml
+  pull_request:
+    paths:
+      - scripts/research_v349_cr3_google_print_access.py
+      - .github/workflows/atlas-v349-cr3-source-access.yml
 permissions:
   contents: read
 jobs:
