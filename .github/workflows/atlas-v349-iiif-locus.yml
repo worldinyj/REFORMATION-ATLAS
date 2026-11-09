@@ -1,9 +1,6 @@
 name: ATLAS V3.49 IIIF 1836 printed-page canvas locator
 on:
-  pull_request:
-    paths:
-      - scripts/research_v349_ia_iiif_canvas_locator.py
-      - .github/workflows/atlas-v349-iiif-locus.yml
+  workflow_dispatch:
 permissions:
   contents: read
 jobs:
