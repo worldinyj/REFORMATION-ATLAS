@@ -1,9 +1,6 @@
 name: ATLAS V3.49 high resolution 1836 print access follow-up
 on:
-  pull_request:
-    paths:
-      - scripts/research_v349_1836_image_fidelity_probe.py
-      - .github/workflows/atlas-v349-image-fidelity.yml
+  workflow_dispatch:
 permissions:
   contents: read
 jobs:
