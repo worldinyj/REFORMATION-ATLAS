@@ -23,7 +23,7 @@ for label,obj,shelf in OBJECTS:
   canv=m.get("sequences",[{}])[0].get("canvases",[])
   meta=[{"label":str(x.get("label","")),"value":re.sub(r"<[^>]*>"," ",str(x.get("value","")))[:250]} for x in m.get("metadata",[])]
   print("V346_BSB_META "+json.dumps({"label":label,"obj":obj,"title":m.get("label"),"canvases":len(canv),"metadata":meta[:13],"description":str(m.get("description",""))[:350]},ensure_ascii=False),flush=True)
-  alln=[44,52,60,68,76,84]
+  alln=[29,31,33,35,37,39,41] if label=='REGENSBURG' else [33,35,37,39,41,43,45]
   for n in alln:
    if n>len(canv):continue
    u=f"https://api.digitale-sammlungen.de/ocr/{obj}/{n}"
@@ -31,6 +31,6 @@ for label,obj,shelf in OBJECTS:
    text=plain(b.decode("utf-8","replace"))
    pos=re.search(r"(?:de\s+c[œo]ena\s+domini|c[œo]ena\s+domini|(?:corp[uv]s|co[rp]pus).{0,90}sanguis\s+christi)",text,re.I)
    nearby=text[max(0,pos.start()-100):pos.start()+450] if pos else ""
-   print("V346_BSB_OCR "+json.dumps({"label":label,"obj":obj,"n":n,"http":s,"characters":len(text),"start":text[:130],"coena_hit":bool(pos),"around":nearby,"grade":"EXISTING_INSTITUTION_OCR_NAVIGATION_ONLY"},ensure_ascii=False),flush=True)
+   print("V346_BSB_OCR "+json.dumps({"label":label,"obj":obj,"n":n,"http":s,"characters":len(text),"start":text[:380],"coena_hit":bool(pos),"around":nearby,"grade":"EXISTING_INSTITUTION_OCR_NAVIGATION_ONLY"},ensure_ascii=False),flush=True)
  except Exception as e:print("V346_BSB_PARSE_ERROR "+json.dumps({"obj":obj,"error":str(e)[:200]}),flush=True)
 print("V346_BSB_END: image-based visual claim still OPEN pending printed page image",flush=True)
