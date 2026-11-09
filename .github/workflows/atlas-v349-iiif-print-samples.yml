@@ -1,9 +1,6 @@
 name: ATLAS V3.49 CR III printed page location original images
 on:
-  pull_request:
-    paths:
-      - scripts/research_v349_cr3_iiif_print_samples.py
-      - .github/workflows/atlas-v349-iiif-print-samples.yml
+  workflow_dispatch:
 permissions:
   contents: read
 jobs:
