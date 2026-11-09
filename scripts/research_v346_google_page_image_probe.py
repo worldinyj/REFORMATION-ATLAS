@@ -3,8 +3,8 @@
 No retries, no bulk scan, no source images committed.
 """
 import urllib.request,urllib.error,json,base64
-base="https://books.google.com/books/content?id=HmpoAAAAcAAJ&pg=PA{page}&img=1&zoom=1"
-for p in [10,12,15,18]:
+base="https://books.google.com/books/content?id=HmpoAAAAcAAJ&pg=PA{page}&img=1&zoom=3"
+for p in [30,40,50,60]:
  url=base.format(page=p)
  try:
   with urllib.request.urlopen(urllib.request.Request(url,headers={"User-Agent":"REFORMATION-ATLAS-v346-print-audit/1.0","Accept":"image/jpeg,image/png,image/webp"}),timeout=12) as r:
