@@ -1,0 +1,26 @@
+name: ATLAS V3.45 edition and scholarly-context evidence gate
+on:
+  push:
+    branches:
+      - research/atlas-v345-ca-x-independent-1540-and-context
+    paths:
+      - data/contracts/atlas_v345_ca_x_independent_1540_and_interpretive_context.json
+      - scripts/validate_v345_ca_x_independent_1540_context.mjs
+      - .github/workflows/atlas-v345-edition-context-qc.yml
+  pull_request:
+    paths:
+      - data/contracts/atlas_v345_ca_x_independent_1540_and_interpretive_context.json
+      - scripts/validate_v345_ca_x_independent_1540_context.mjs
+      - .github/workflows/atlas-v345-edition-context-qc.yml
+permissions:
+  contents: read
+jobs:
+  evidence-provenance:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify witness levels and publication hold
+        run: node scripts/validate_v345_ca_x_independent_1540_context.mjs
