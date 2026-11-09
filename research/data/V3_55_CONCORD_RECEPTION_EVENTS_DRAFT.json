@@ -1,0 +1,599 @@
+{
+  "schema_version": "1.0.0",
+  "dataset_id": "atlas-v355-concord-reception",
+  "research_date": "2026-11-10",
+  "predecessor": "V3.54",
+  "branch": "research/atlas-v355-concord-reception-city-matrix",
+  "release": {
+    "state": "DRAFT",
+    "can_ship": false,
+    "expert_approved": false,
+    "existing_essay_modified": false,
+    "main_modified": false,
+    "app_modified": false
+  },
+  "source_register": {
+    "MBW1744": {
+      "url": "https://melanchthon.hadw-bw.de/regest.html?reg_nr=1744",
+      "source_type": "scholarly_regest",
+      "locator": "MBW 1744 §§1–7 and Nachtrag",
+      "access": "online_regest"
+    },
+    "BDS63CHRON": {
+      "url": "https://digi.hadw-bw.de/view/bds6_3/0016",
+      "source_type": "modern_edition_chronology",
+      "locator": "BDS 6/3 p.12",
+      "access": "online_ocr"
+    },
+    "BDS61TOC": {
+      "url": "https://digi.hadw-bw.de/view/bds6_1/0207",
+      "source_type": "critical_edition_contents",
+      "locator": "BDS 6/1 pp.135–274",
+      "access": "online_toc"
+    },
+    "BDS61RAT": {
+      "url": "https://digi.hadw-bw.de/view/bds6_1/0207",
+      "source_type": "critical_edition_ocr",
+      "locator": "BDS 6/1 p.203",
+      "access": "online_ocr"
+    },
+    "BDS61KANZEL": {
+      "url": "https://digi.hadw-bw.de/view/bds6_1/0211",
+      "source_type": "critical_edition_editor_note",
+      "locator": "BDS 6/1 p.207",
+      "access": "online_ocr"
+    },
+    "BDS61KANZEL2": {
+      "url": "https://digi.hadw-bw.de/view/bds6_1/0212",
+      "source_type": "critical_edition_ocr",
+      "locator": "BDS 6/1 p.208",
+      "access": "online_ocr"
+    },
+    "BDS61ERLAU": {
+      "url": "https://digi.hadw-bw.de/view/bds6_1/0222",
+      "source_type": "critical_edition_editor_note",
+      "locator": "BDS 6/1 p.218",
+      "access": "online_ocr"
+    },
+    "CAPITO612": {
+      "url": "https://uplopen.com/books/579/files/ee9e764a-bac4-4b38-a467-6cf85785e09f.pdf",
+      "source_type": "critical_correspondence_editor_headnote",
+      "locator": "Letter 612 headnote pp.437–438",
+      "access": "web_pdf_extracted_text_screenshot_403"
+    },
+    "ULMARCHIVE": {
+      "url": "https://stadtarchiv.ulm.de/-/media/archiv/downloads/ugin/kirchen/reformation.pdf",
+      "source_type": "city_archive_modern_summary",
+      "locator": "Kirchen und religiöses Leben p.41",
+      "access": "search_index_excerpt_pdf_image_unchecked"
+    },
+    "BDS16SWISS": {
+      "url": "https://digi.hadw-bw.de/view/bds16/0281",
+      "source_type": "critical_edition_editorial_intro",
+      "locator": "BDS 16 p.277",
+      "access": "online_ocr"
+    },
+    "PITTS1572": {
+      "url": "https://digital.pitts.emory.edu/s/digital-collections/item/5649",
+      "source_type": "digital_collection_metadata",
+      "locator": "Wittenberg in Obern Sachsen (1572)",
+      "access": "catalogue_and_rights_record"
+    }
+  },
+  "event_count": 20,
+  "events": [
+    {
+      "event_id": "W055-01",
+      "date_value": "1536-05-29",
+      "date_precision": "day",
+      "place": {
+        "city": "Wittenberg",
+        "country_modern": "Germany"
+      },
+      "reception_status": "participant_assent",
+      "actors": "theological_participants",
+      "summary_en": "agreement concluded; signature of core clauses",
+      "source_ids": [
+        "MBW1744",
+        "BDS63CHRON"
+      ],
+      "evidence_class": "scholarly_edition",
+      "original_minutes_checked": false,
+      "original_1536_manuscript_image_checked": false,
+      "publication_gate": false
+    },
+    {
+      "event_id": "W055-02",
+      "date_value": "1536-06-02/1536-06-05",
+      "date_precision": "range",
+      "place": {
+        "city": "Frankfurt am Main",
+        "country_modern": "Germany"
+      },
+      "reception_status": "report_drafted",
+      "actors": "returning_delegates",
+      "summary_en": "common report prepared for home magistrates; not city approval",
+      "source_ids": [
+        "BDS61TOC",
+        "CAPITO612"
+      ],
+      "evidence_class": "editorial_headnote",
+      "original_minutes_checked": false,
+      "original_1536_manuscript_image_checked": false,
+      "publication_gate": false
+    },
+    {
+      "event_id": "W055-03",
+      "date_value": "1536-06-22",
+      "date_precision": "day",
+      "place": {
+        "city": "Strasbourg",
+        "country_modern": "France"
+      },
+      "reception_status": "explanation_written",
+      "actors": "Bucer",
+      "summary_en": "colleagues' assent sought; document listed in edition",
+      "source_ids": [
+        "BDS61TOC"
+      ],
+      "evidence_class": "edition_toc",
+      "original_minutes_checked": false,
+      "original_1536_manuscript_image_checked": false,
+      "publication_gate": false
+    },
+    {
+      "event_id": "W055-04",
+      "date_value": "1536-06-29",
+      "date_precision": "day",
+      "place": {
+        "city": "Strasbourg",
+        "country_modern": "France"
+      },
+      "reception_status": "church_local_assent",
+      "actors": "preachers_and_church_wardens",
+      "summary_en": "city-facing explanation; local church representatives' agreement per editorial note",
+      "source_ids": [
+        "BDS61RAT",
+        "BDS61KANZEL"
+      ],
+      "evidence_class": "critical_edition_note",
+      "original_minutes_checked": false,
+      "original_1536_manuscript_image_checked": false,
+      "publication_gate": false
+    },
+    {
+      "event_id": "W055-05",
+      "date_value": "1536-07-02",
+      "date_precision": "possible",
+      "place": {
+        "city": "Strasbourg",
+        "country_modern": "France"
+      },
+      "reception_status": "draft_for_public_proclamation",
+      "actors": "preachers",
+      "summary_en": "first possible Sunday for pulpit delivery, not verified actual preaching",
+      "source_ids": [
+        "BDS61KANZEL"
+      ],
+      "evidence_class": "editorial_hypothesis",
+      "original_minutes_checked": false,
+      "original_1536_manuscript_image_checked": false,
+      "publication_gate": false
+    },
+    {
+      "event_id": "W055-06",
+      "date_value": "1536-07-05",
+      "date_precision": "day",
+      "place": {
+        "city": "Strasbourg",
+        "country_modern": "France"
+      },
+      "reception_status": "text_explanation",
+      "actors": "Bucer_and_others",
+      "summary_en": "Declaratio articulorum germanica dated in BDS",
+      "source_ids": [
+        "BDS61TOC"
+      ],
+      "evidence_class": "edition_toc",
+      "original_minutes_checked": false,
+      "original_1536_manuscript_image_checked": false,
+      "publication_gate": false
+    },
+    {
+      "event_id": "W055-07",
+      "date_value": "1536-07-17",
+      "date_precision": "day",
+      "place": {
+        "city": "Strasbourg",
+        "country_modern": "France"
+      },
+      "reception_status": "clergy_interpretation",
+      "actors": "Strasbourg_preachers",
+      "summary_en": "German explanation of Wittenberg articles",
+      "source_ids": [
+        "BDS61TOC",
+        "BDS61ERLAU"
+      ],
+      "evidence_class": "critical_edition_note",
+      "original_minutes_checked": false,
+      "original_1536_manuscript_image_checked": false,
+      "publication_gate": false
+    },
+    {
+      "event_id": "W055-08",
+      "date_value": "1536-07-22",
+      "date_precision": "day",
+      "place": {
+        "city": "Strasbourg",
+        "country_modern": "France"
+      },
+      "reception_status": "reported_acceptance_pending_ratification",
+      "actors": "Bucer_to_Luther",
+      "summary_en": "reported Strasbourg Frankfurt Worms Landau Weissenburg Esslingen Augsburg Memmingen Kempten agreed; formal ratification still needed",
+      "source_ids": [
+        "CAPITO612"
+      ],
+      "evidence_class": "scholarly_correspondence_editor_headnote",
+      "original_minutes_checked": false,
+      "original_1536_manuscript_image_checked": false,
+      "publication_gate": false
+    },
+    {
+      "event_id": "W055-09",
+      "date_value": "1536-07-23",
+      "date_precision": "day",
+      "place": {
+        "city": "Augsburg",
+        "country_modern": "Germany"
+      },
+      "reception_status": "clergy_subscription_reported",
+      "actors": "Augsburg_clergy",
+      "summary_en": "letter to Luther reports clergy signing after deliberation",
+      "source_ids": [
+        "CAPITO612"
+      ],
+      "evidence_class": "scholarly_correspondence_editor_headnote",
+      "original_minutes_checked": false,
+      "original_1536_manuscript_image_checked": false,
+      "publication_gate": false
+    },
+    {
+      "event_id": "W055-10",
+      "date_value": "1536-08-26",
+      "date_precision": "day",
+      "place": {
+        "city": "Strasbourg",
+        "country_modern": "France"
+      },
+      "reception_status": "magistrate_ratification_reported",
+      "actors": "Strasbourg_city_council",
+      "summary_en": "formal city approval noted by correspondence editor citing Eells",
+      "source_ids": [
+        "CAPITO612"
+      ],
+      "evidence_class": "secondary_corroborated_by_citation",
+      "original_minutes_checked": false,
+      "original_1536_manuscript_image_checked": false,
+      "publication_gate": false
+    },
+    {
+      "event_id": "W055-11",
+      "date_value": "1536-09-03",
+      "date_precision": "day",
+      "place": {
+        "city": "Esslingen",
+        "country_modern": "Germany"
+      },
+      "reception_status": "city_ratification_reported",
+      "actors": "city",
+      "summary_en": "reported retrospectively by Zwick 2 Nov per modern edition",
+      "source_ids": [
+        "CAPITO612"
+      ],
+      "evidence_class": "editor_headnote_indirect",
+      "original_minutes_checked": false,
+      "original_1536_manuscript_image_checked": false,
+      "publication_gate": false
+    },
+    {
+      "event_id": "W055-12",
+      "date_value": "1536-09-13",
+      "date_precision": "day",
+      "place": {
+        "city": "Reutlingen",
+        "country_modern": "Germany"
+      },
+      "reception_status": "city_ratification_reported",
+      "actors": "city",
+      "summary_en": "reported retrospectively by Zwick 2 Nov per modern edition",
+      "source_ids": [
+        "CAPITO612"
+      ],
+      "evidence_class": "editor_headnote_indirect",
+      "original_minutes_checked": false,
+      "original_1536_manuscript_image_checked": false,
+      "publication_gate": false
+    },
+    {
+      "event_id": "W055-13",
+      "date_value": "1536-09-16",
+      "date_precision": "day",
+      "place": {
+        "city": "Memmingen",
+        "country_modern": "Germany"
+      },
+      "reception_status": "city_ratification_reported",
+      "actors": "city",
+      "summary_en": "reported retrospectively by Zwick 2 Nov per modern edition",
+      "source_ids": [
+        "CAPITO612"
+      ],
+      "evidence_class": "editor_headnote_indirect",
+      "original_minutes_checked": false,
+      "original_1536_manuscript_image_checked": false,
+      "publication_gate": false
+    },
+    {
+      "event_id": "W055-14",
+      "date_value": "1536-09-16",
+      "date_precision": "day",
+      "place": {
+        "city": "Kempten",
+        "country_modern": "Germany"
+      },
+      "reception_status": "city_ratification_reported",
+      "actors": "city",
+      "summary_en": "reported retrospectively by Zwick 2 Nov per modern edition",
+      "source_ids": [
+        "CAPITO612"
+      ],
+      "evidence_class": "editor_headnote_indirect",
+      "original_minutes_checked": false,
+      "original_1536_manuscript_image_checked": false,
+      "publication_gate": false
+    },
+    {
+      "event_id": "W055-15",
+      "date_value": "1536-10-30",
+      "date_precision": "day",
+      "place": {
+        "city": "Ulm",
+        "country_modern": "Germany"
+      },
+      "reception_status": "city_council_acceptance_supported",
+      "actors": "Ulm_city_council",
+      "summary_en": "city proclaimed agreement and notified Luther, per Ulm archive",
+      "source_ids": [
+        "ULMARCHIVE",
+        "CAPITO612"
+      ],
+      "evidence_class": "public_archive_summary",
+      "original_minutes_checked": false,
+      "original_1536_manuscript_image_checked": false,
+      "publication_gate": false
+    },
+    {
+      "event_id": "W055-16",
+      "date_value": "1536-11",
+      "date_precision": "month",
+      "place": {
+        "city": "Constance",
+        "country_modern": "Germany"
+      },
+      "reception_status": "city_rejection_reported",
+      "actors": "Constance",
+      "summary_en": "rejection reported in modern letter-editor headnote; original council minutes not inspected",
+      "source_ids": [
+        "CAPITO612"
+      ],
+      "evidence_class": "scholarly_correspondence_editor_headnote",
+      "original_minutes_checked": false,
+      "original_1536_manuscript_image_checked": false,
+      "publication_gate": false
+    },
+    {
+      "event_id": "W055-17",
+      "date_value": "1536-11-23",
+      "date_precision": "day",
+      "place": {
+        "city": "Strasbourg",
+        "country_modern": "France"
+      },
+      "reception_status": "outreach_continues",
+      "actors": "Strasbourg_preachers",
+      "summary_en": "letter to Constance documented by BDS contents; not a Constance response",
+      "source_ids": [
+        "BDS61TOC"
+      ],
+      "evidence_class": "edition_toc",
+      "original_minutes_checked": false,
+      "original_1536_manuscript_image_checked": false,
+      "publication_gate": false
+    },
+    {
+      "event_id": "W055-18",
+      "date_value": "1537-01-27",
+      "date_precision": "day",
+      "place": {
+        "city": "Strasbourg",
+        "country_modern": "France"
+      },
+      "reception_status": "outreach_continues",
+      "actors": "Bucer",
+      "summary_en": "letter to Zurich and other Swiss theologians, documented by BDS contents",
+      "source_ids": [
+        "BDS61TOC"
+      ],
+      "evidence_class": "edition_toc",
+      "original_minutes_checked": false,
+      "original_1536_manuscript_image_checked": false,
+      "publication_gate": false
+    },
+    {
+      "event_id": "W055-19",
+      "date_value": "1537-04-01",
+      "date_precision": "day",
+      "place": {
+        "city": "Strasbourg",
+        "country_modern": "France"
+      },
+      "reception_status": "outreach_continues",
+      "actors": "Bucer",
+      "summary_en": "report to Swiss Confederates, documented by BDS contents",
+      "source_ids": [
+        "BDS61TOC"
+      ],
+      "evidence_class": "edition_toc",
+      "original_minutes_checked": false,
+      "original_1536_manuscript_image_checked": false,
+      "publication_gate": false
+    },
+    {
+      "event_id": "W055-20",
+      "date_value": "1538-01-14",
+      "date_precision": "day",
+      "place": {
+        "city": "Strasbourg",
+        "country_modern": "France"
+      },
+      "reception_status": "negotiations_unresolved",
+      "actors": "Bucer_and_Capito",
+      "summary_en": "forwarded Luther's Swiss letter with caveats; correspondence toward Basel",
+      "source_ids": [
+        "BDS16SWISS"
+      ],
+      "evidence_class": "critical_edition_intro",
+      "original_minutes_checked": false,
+      "original_1536_manuscript_image_checked": false,
+      "publication_gate": false
+    }
+  ],
+  "city_status_count": 12,
+  "city_statuses": [
+    {
+      "name": "Strasbourg",
+      "country": "France",
+      "status": "formal_city_approval_reported_1536_08_26",
+      "basis": [
+        "W055-04",
+        "W055-10"
+      ]
+    },
+    {
+      "name": "Frankfurt am Main",
+      "country": "Germany",
+      "status": "report_prepared_and_reported_agreed_not_verified_formal",
+      "basis": [
+        "W055-02",
+        "W055-08"
+      ]
+    },
+    {
+      "name": "Worms",
+      "country": "Germany",
+      "status": "reported_agreed_1536_07_22_formal_not_verified",
+      "basis": [
+        "W055-08"
+      ]
+    },
+    {
+      "name": "Landau",
+      "country": "Germany",
+      "status": "reported_agreed_1536_07_22_formal_not_verified",
+      "basis": [
+        "W055-08"
+      ]
+    },
+    {
+      "name": "Wissembourg (Weißenburg)",
+      "country": "France",
+      "status": "reported_agreed_1536_07_22_formal_not_verified",
+      "basis": [
+        "W055-08"
+      ]
+    },
+    {
+      "name": "Augsburg",
+      "country": "Germany",
+      "status": "clergy_signed_1536_07_23_formal_city_not_verified",
+      "basis": [
+        "W055-09"
+      ]
+    },
+    {
+      "name": "Esslingen",
+      "country": "Germany",
+      "status": "city_ratified_reported_1536_09_03",
+      "basis": [
+        "W055-11"
+      ]
+    },
+    {
+      "name": "Reutlingen",
+      "country": "Germany",
+      "status": "city_ratified_reported_1536_09_13",
+      "basis": [
+        "W055-12"
+      ]
+    },
+    {
+      "name": "Memmingen",
+      "country": "Germany",
+      "status": "city_ratified_reported_1536_09_16",
+      "basis": [
+        "W055-13"
+      ]
+    },
+    {
+      "name": "Kempten",
+      "country": "Germany",
+      "status": "city_ratified_reported_1536_09_16",
+      "basis": [
+        "W055-14"
+      ]
+    },
+    {
+      "name": "Ulm",
+      "country": "Germany",
+      "status": "council_acceptance_1536_10_30",
+      "basis": [
+        "W055-15"
+      ]
+    },
+    {
+      "name": "Constance",
+      "country": "Germany",
+      "status": "rejected_november_1536_day_unverified",
+      "basis": [
+        "W055-16"
+      ]
+    }
+  ],
+  "semantics": {
+    "status_not_boolean": true,
+    "report_of_acceptance_not_same_as_ratification": true,
+    "church_assent_not_same_as_council_assent": true,
+    "venue_not_same_as_city_ratification": true,
+    "editorial_possible_date_not_same_as_event_date": true,
+    "Eells_cited_in_editor_headnote_not_independently_checked": true,
+    "source_1536_manuscript_image_unchecked": true
+  },
+  "asset_candidate": {
+    "title": "Wittenberg in Obern Sachsen",
+    "date": "1572",
+    "host": "Pitts Theology Library (Emory)",
+    "copyright_as_declared_by_institution": "Public domain in the United States",
+    "source_id": "PITTS1572",
+    "asset_downloaded": false,
+    "app_published": false,
+    "requires_rights_review": true,
+    "historical_date_disclaimer": "Not a 1536 on-site image"
+  },
+  "next_research": [
+    "Read WA Br 7 Ep.3050 original letter text and comparison with city minutes",
+    "Consult Strasbourg 1536 Aug26 council source",
+    "Locate Constance November council reply",
+    "Compare BDS 6/1 July17 four witnesses",
+    "Check exact provenance and rights for 1572 Wittenberg woodcut"
+  ]
+}
