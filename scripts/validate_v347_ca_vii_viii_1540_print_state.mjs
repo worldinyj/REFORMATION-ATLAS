@@ -31,6 +31,7 @@ assert.equal(d.article_vii_collation.every(x=>x.same_in_two_print_images),true);
 assert.equal(d.article_viii_collation.every(x=>x.same_in_two_print_images),true);
 assert.equal(d.selected_end_breaks_match,true);
 assert.equal(d.print_text_variant_in_examined_anchors_detected,false);
+assert.equal(d.same_physical_copy_claimed,false);
 assert.equal(d.entire_1540_edition_collated,false);assert.equal(d.press_state_global_resolved,false);
 assert.equal(d.annotations.printing_variant,false);
 assert.equal(d.annotations.inscription_date_unknown,true);
