@@ -1,15 +1,6 @@
 name: ATLAS V3.42 Commons page-scoped print facsimile probe
 on:
-  push:
-    branches:
-      - research/atlas-v342-cr26-1858-print-collation
-    paths:
-      - scripts/research_v342_commons_page_thumbnails.py
-      - .github/workflows/atlas-v342-commons-page-thumbnails.yml
-  pull_request:
-    paths:
-      - scripts/research_v342_commons_page_thumbnails.py
-      - .github/workflows/atlas-v342-commons-page-thumbnails.yml
+  workflow_dispatch:
 permissions:
   contents: read
 jobs:
