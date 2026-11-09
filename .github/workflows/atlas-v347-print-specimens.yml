@@ -6,6 +6,10 @@ on:
     paths:
       - scripts/research_v347_article_vii_viii_print_images.py
       - .github/workflows/atlas-v347-print-specimens.yml
+  pull_request:
+    paths:
+      - scripts/research_v347_article_vii_viii_print_images.py
+      - .github/workflows/atlas-v347-print-specimens.yml
 permissions:
   contents: read
 jobs:
