@@ -1,9 +1,6 @@
 name: ATLAS V3.49 Internet Archive facsimile source locator
 on:
-  pull_request:
-    paths:
-      - scripts/research_v349_ia_facsimile_access.py
-      - .github/workflows/atlas-v349-ia-access.yml
+  workflow_dispatch:
 permissions:
   contents: read
 jobs:
