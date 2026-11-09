@@ -1,0 +1,18 @@
+name: ATLAS V3.46 candidate-library catalog link audit
+on:
+  pull_request:
+    paths:
+      - scripts/research_v346_slub_catalog_links.py
+      - .github/workflows/atlas-v346-slub-link-probe.yml
+permissions:
+  contents: read
+jobs:
+  catalog-link-audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python scripts/research_v346_slub_catalog_links.py
