@@ -1,9 +1,6 @@
 name: ATLAS V3.46 Google Books page image access test
 on:
-  pull_request:
-    paths:
-      - scripts/research_v346_google_page_image_probe.py
-      - .github/workflows/atlas-v346-google-page-probe.yml
+  workflow_dispatch:
 permissions:
   contents: read
 jobs:
