@@ -156,4 +156,24 @@ BDS 6/1 p.207의 편집자는 `Dem volck solle man verkunden` 원고를 설명�
 8. Emory Pitts Theology Library 1572 목판화 — **디지털 수장품의 권리·출처 메타데이터**: https://digital.pitts.emory.edu/s/digital-collections/item/5649
 9. 1536년 울름 관련 비교 연구 — **교회사 연구소 해설**, 프레히트와 슈벵크펠트 긴장 맥락: https://www.wkgo.de/cms/article/print/266
 
+## 11. 신규 원전·사본 충돌 경보: 요하네스 츠비크의 서명 문제
+
+이전 V3.50–V3.52에서 확인한 츠비크의 추가 서명자는 **원서명지에 직접 적힌 사실**이 아니라, 후대 사본의 *서명자 명단*에 관한 기록이다. 이번에 두 근거를 나란히 놓아 별도 충돌 위험을 확정했다.
+
+- BDS 6/3 (1987), p.12의 「Chronologia Bucerana」는 1536년 5월 29일 종결과 함께 합의 조항을 참석자 전원이 서명했지만 **츠비크는 제외**되었다고 설명한다. 이때 `De magistratu` 조항은 비텐베르크 측만 서명한 문서로 따로 언급된다.
+- 고타 연구도서관 Chart. B 28, 34r/v 사본의 Kalliope 목록은 **요하네스 츠비크가 추가 서명자**라고 명시한다. 이 사본은 성찬 조항 1–4만 포함하며 `Abschrift, Autograph Konrad Meusels`라고 분류되므로, **1536년 츠비크의 원서명 자필을 확인한 자료가 아니다**.
+- MBW 1744의 서명자 목록에도 츠비크는 나타나지 않는다. 그러나 MBW의 명단은 그 regest 범위 내의 목록이므로 어떤 사본의 모든 후속 추가 기명을 자동 부정하지 않는다.
+
+**잠정 판정:** 1536년 현장 원서명 `Zwick_signed_at_meeting=NOT_CONFIRMED` (BDS 연표는 `not_signed`라고 기술). 후대 사본에 `Zwick_listed_in_copy=true`로 분리. 두 변수를 한 필드 `signed=true`로 합치지 않는다. 원본·사본의 필사·삽입 시점은 미확정.
+
+관련 문헌:
+- https://digi.hadw-bw.de/view/bds6_3/0016
+- https://melanchthon.hadw-bw.de/regest.html?reg_nr=1744
+- https://kalliope.staatsbibliothek-berlin.de/de/ead?ead.id=DE-611-HS-3421004
+
+### 검증 게이트
+- [x] 현대 학술 연표와 후대 필사본 목록의 서명자 정보 분리.
+- [ ] 츠비크 관련 실제 사본 이미지·필기 손·증보 시점 확인.
+- [ ] 1536년 현장 원본의 서명자 대조 및 서명 자필 여부 검증.
+
 **최종 판정: DRAFT. 발표·병합·기존 원고 반영 없음.**
