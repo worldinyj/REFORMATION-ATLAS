@@ -1,0 +1,25 @@
+name: ATLAS V3.44 primary print Article X evidence and release gates
+on:
+  push:
+    branches:
+      - research/atlas-v344-ca-x-contemporary-print-witness
+    paths:
+      - data/contracts/atlas_v344_article_x_primary_1531_1540_collation.json
+      - scripts/validate_v344_article_x_primary_collation.mjs
+      - .github/workflows/atlas-v344-article-x-qc.yml
+  pull_request:
+    paths:
+      - data/contracts/atlas_v344_article_x_primary_1531_1540_collation.json
+      - scripts/validate_v344_article_x_primary_collation.mjs
+      - .github/workflows/atlas-v344-article-x-qc.yml
+permissions:
+  contents: read
+jobs:
+  primary-print-contract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node scripts/validate_v344_article_x_primary_collation.mjs

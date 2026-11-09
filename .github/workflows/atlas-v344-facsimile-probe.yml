@@ -1,0 +1,17 @@
+name: ATLAS V3.44 bounded visual source probe
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  historical-page-sampling:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install --disable-pip-version-check pillow==11.3.0
+      - name: Bounded read-only Article X source image probe
+        run: python scripts/research_v344_ca_x_facsimile_probe.py
