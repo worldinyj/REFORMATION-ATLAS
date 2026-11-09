@@ -1,9 +1,6 @@
 name: ATLAS V3.49 IA print pagination verified map
 on:
-  pull_request:
-    paths:
-      - scripts/research_v349_ia_scandata_pagination.py
-      - .github/workflows/atlas-v349-ia-page-map.yml
+  workflow_dispatch:
 permissions:
   contents: read
 jobs:
