@@ -1,0 +1,224 @@
+{
+  "schema": "atlas.research.v348.wittenberg_1536_concord_ca_1540_context.v1",
+  "version": "3.48",
+  "date": "2026-11-09",
+  "status": "RESEARCH_DRAFT_HOLD",
+  "publication_allowed": false,
+  "webapp_integrated": false,
+  "original_essays_changed": 0,
+  "parent_version": "3.47.1",
+  "concord_date": {
+    "year": 1536,
+    "preferred": "1536-05-29",
+    "older_edition_variant": "1536-05-28",
+    "preferred_source": "MBW-1744",
+    "variant_source": "BDS-6-1-1988",
+    "date_variant_status": "MBW_EXPLICITLY_IDENTIFIES_1988_DATE_AS_WRONG",
+    "full_event_chronology_independently_verified": false,
+    "do_not_hide_date_conflict": true
+  },
+  "source_layers": [
+    {
+      "id": "MBW-1744",
+      "type": "CONTEMPORARY_DOCUMENT_SCHOLARLY_REGEST",
+      "editor": "Heidelberger Akademie der Wissenschaften",
+      "url": "https://melanchthon.hadw-bw.de/regest.html?reg_nr=1744",
+      "date": "1536-05-29",
+      "regest_read": true,
+      "autograph_read": false,
+      "publication_note": "Reports older BDS 28 May date wrong"
+    },
+    {
+      "id": "BDS-6-1-1988",
+      "type": "MODERN_CRITICAL_EDITION_ONLINE_OCR",
+      "publication_year": 1988,
+      "volume": "6/1",
+      "title": "Formula Concordiae Lutherj et Bucerj",
+      "printed_pages": [
+        120,
+        122,
+        124
+      ],
+      "site_page_ids": [
+        124,
+        126,
+        128
+      ],
+      "url": "https://digi.hadw-bw.de/view/bds6_1/0124?ui_lang=eng",
+      "ocr_html_page_read": true,
+      "printed_book_page_image_visually_read": false,
+      "critical_apparatus_image_checked": false,
+      "handwritten_1536_source_read": false,
+      "preferred_date": false,
+      "date_header": "1536-05-28"
+    },
+    {
+      "id": "CR-III-1836",
+      "type": "NINETEENTH_CENTURY_SCHOLARLY_REPRINT",
+      "year": 1836,
+      "print_page_range": [
+        75,
+        78
+      ],
+      "url": "https://commons.ptsem.edu/id/philippimelantho03mela",
+      "book_catalog_verified": true,
+      "article_folio_visually_read": false,
+      "locator_supported_by": "MBW-1744 and Burnett 2016"
+    },
+    {
+      "id": "ORIGINAL-1536-MANUSCRIPTS",
+      "type": "SIXTEENTH_CENTURY_HANDWRITTEN_WITNESSES",
+      "direct_original_image_read": false,
+      "witnesses_located_in_1988_apparatus": true,
+      "first_witness": "Zürich Staatsarchiv E II 448 fol.25r–26r",
+      "original_interpretations_not_independently_read": true
+    },
+    {
+      "id": "CA1540-PRIMARY",
+      "type": "SIXTEENTH_CENTURY_PRINTS_VISUALLY_COLLATED_IN_V346",
+      "year": 1540,
+      "exemplars": [
+        "bsb11069754 Canvas17",
+        "bsb11399533 Canvas21",
+        "Chicago Gruber28"
+      ],
+      "visual_original_image_read_in_parent": true,
+      "full_print_edition_collated": false
+    }
+  ],
+  "concord_text_anchors": [
+    {
+      "id": "WC-01",
+      "topic": "REAL_PRESENCE",
+      "bds_page": 120,
+      "online_page": 124,
+      "latin_short": [
+        "cum pane et vino",
+        "vere et substantialiter",
+        "adesse, exhiberi et sumi"
+      ],
+      "grade": "MODERN_CRITICAL_EDITION_OCR_TEXT",
+      "claim_ko": "빵과 포도주와 함께 그리스도의 몸과 피가 참으로, 실체적으로 임재·제공·수찬된다는 설명을 포함."
+    },
+    {
+      "id": "WC-02",
+      "topic": "SACRAMENTAL_UNION",
+      "bds_page": 122,
+      "online_page": 126,
+      "latin_short": [
+        "sacramentali unione",
+        "porrecto pane",
+        "vere exhiberi"
+      ],
+      "grade": "MODERN_CRITICAL_EDITION_OCR_TEXT",
+      "claim_ko": "국소적 봉입·성례 사용 밖의 결합과 구별하며 성례적 결합을 설명."
+    },
+    {
+      "id": "WC-03",
+      "topic": "UNWORTHY_RECIPIENTS",
+      "bds_page": 124,
+      "online_page": 128,
+      "latin_short": [
+        "etiam indignis",
+        "ad iudicium"
+      ],
+      "grade": "MODERN_CRITICAL_EDITION_OCR_TEXT",
+      "claim_ko": "합당하지 못한 수찬자의 참여 및 그에 따르는 심판을 논한다."
+    }
+  ],
+  "concord_to_ca1540": {
+    "comparison_type": "SHARED_TERMS_NOT_IDENTICAL_FORMULAE",
+    "ca1540_short": "cum pane et vino vere exhibeantur corpus et sanguis Christi",
+    "source_of_ca1540": "V3.46.1 original print scans",
+    "shared_latin_anchor": [
+      "cum pane et vino",
+      "vere exhiberi/exhibeantur"
+    ],
+    "concord_topics_not_explicitly_repeated_in_brief_ca_x": [
+      "substantialiter",
+      "sacramentali unione",
+      "indignis",
+      "local inclusion and conjunction outside rite"
+    ],
+    "theologically_equivalent_in_all_respects_proven": false,
+    "authorial_copying_directly_proven": false,
+    "concord_historical_influence_supported_as_secondary_interpretation": true,
+    "signatories_imply_every_protestant_church_approved": false
+  },
+  "evidence_procedure": {
+    "critical_edition_http_run": 42556993604,
+    "critical_edition_http_job": 128964841249,
+    "online_pages_verified": [
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130
+    ],
+    "original_concord_autograph_images_read": 0,
+    "cr3_1836_page_images_visually_read": 0,
+    "contemporary_1540_images_newly_read_in_this_round": 0,
+    "ocr_is_not_print_visual_proof": true
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "name": "MBW 1744",
+      "url": "https://melanchthon.hadw-bw.de/regest.html?reg_nr=1744",
+      "grade": "SCHOLARLY_REGEST"
+    },
+    {
+      "id": "S2",
+      "name": "BDS 6/1 critical edition 1988 online p120",
+      "url": "https://digi.hadw-bw.de/view/bds6_1/0124?ui_lang=eng",
+      "grade": "CRITICAL_EDITION_OCR"
+    },
+    {
+      "id": "S3",
+      "name": "BDS 6/1 critical edition 1988 online p122",
+      "url": "https://digi.hadw-bw.de/view/bds6_1/0126?ui_lang=eng",
+      "grade": "CRITICAL_EDITION_OCR"
+    },
+    {
+      "id": "S4",
+      "name": "BDS 6/1 critical edition 1988 online p124",
+      "url": "https://digi.hadw-bw.de/view/bds6_1/0128?ui_lang=eng",
+      "grade": "CRITICAL_EDITION_OCR"
+    },
+    {
+      "id": "S5",
+      "name": "Princeton Theological Commons CR III 1836 catalog",
+      "url": "https://commons.ptsem.edu/id/philippimelantho03mela",
+      "grade": "NINETEENTH_CENTURY_REPRINT_METADATA"
+    },
+    {
+      "id": "S6",
+      "name": "Amy Nelson Burnett 2016 text witnesses note",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/14622459.2016.1157339",
+      "grade": "SCHOLARLY_CITATION"
+    },
+    {
+      "id": "S7",
+      "name": "Melanchthon 1540 triple copy source anchors V3.46.1",
+      "url": "https://github.com/worldinyj/REFORMATION-ATLAS/pull/189",
+      "grade": "PREVIOUS_DIRECT_PRINT_VISUAL"
+    }
+  ],
+  "release_gate": {
+    "status": "HOLD",
+    "main_changed": false,
+    "google_ai_studio_changed": false,
+    "original_513_essays_changed": 0,
+    "publication_allowed": false,
+    "source_images_committed": false,
+    "modern_editorial_pages_reproduced": false,
+    "independent_human_editorial_approval": false
+  },
+  "next_gates": [
+    "CR III 1836 printed pages 75–78 directly visually inspect and map physical scan page index.",
+    "One surviving 1536 manuscript directly inspect if archival facsimile legitimately accessible.",
+    "Evaluate 28/29 date discrepancy against document witness and scholarly dating notes before release."
+  ]
+}

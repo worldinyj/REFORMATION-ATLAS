@@ -1,0 +1,25 @@
+name: ATLAS V3.48 Wittenberg Concord dating and evidence grade QC
+on:
+  push:
+    branches:
+      - research/atlas-v348-wittenberg-concord-text-date-audit
+    paths:
+      - data/contracts/atlas_v348_wittenberg_concord_1536_ca1540_context.json
+      - scripts/validate_v348_wittenberg_concord_evidence.mjs
+      - .github/workflows/atlas-v348-concord-evidence-qc.yml
+  pull_request:
+    paths:
+      - data/contracts/atlas_v348_wittenberg_concord_1536_ca1540_context.json
+      - scripts/validate_v348_wittenberg_concord_evidence.mjs
+      - .github/workflows/atlas-v348-concord-evidence-qc.yml
+permissions:
+  contents: read
+jobs:
+  date-text-provenance:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - run: node scripts/validate_v348_wittenberg_concord_evidence.mjs
