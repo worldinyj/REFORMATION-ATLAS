@@ -23,7 +23,7 @@ for label,obj,shelf in OBJECTS:
   canv=m.get("sequences",[{}])[0].get("canvases",[])
   meta=[{"label":str(x.get("label","")),"value":re.sub(r"<[^>]*>"," ",str(x.get("value","")))[:250]} for x in m.get("metadata",[])]
   print("V346_BSB_META "+json.dumps({"label":label,"obj":obj,"title":m.get("label"),"canvases":len(canv),"metadata":meta[:13],"description":str(m.get("description",""))[:350]},ensure_ascii=False),flush=True)
-  alln=[12,16,20,24,28,32,36]
+  alln=[44,52,60,68,76,84]
   for n in alln:
    if n>len(canv):continue
    u=f"https://api.digitale-sammlungen.de/ocr/{obj}/{n}"
