@@ -1,15 +1,6 @@
 name: ATLAS V3.44 contemporary 1540 Gruber print image source sample
 on:
-  push:
-    branches:
-      - research/atlas-v344-ca-x-contemporary-print-witness
-    paths:
-      - scripts/research_v344_gruber_1540_article_x.py
-      - .github/workflows/atlas-v344-gruber-1540-probe.yml
-  pull_request:
-    paths:
-      - scripts/research_v344_gruber_1540_article_x.py
-      - .github/workflows/atlas-v344-gruber-1540-probe.yml
+  workflow_dispatch:
 permissions:
   contents: read
 jobs:
