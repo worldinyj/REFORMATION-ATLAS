@@ -1,9 +1,6 @@
 name: ATLAS V3.46 candidate-library catalog link audit
 on:
-  pull_request:
-    paths:
-      - scripts/research_v346_slub_catalog_links.py
-      - .github/workflows/atlas-v346-slub-link-probe.yml
+  workflow_dispatch:
 permissions:
   contents: read
 jobs:
