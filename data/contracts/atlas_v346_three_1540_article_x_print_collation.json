@@ -1,0 +1,170 @@
+{
+  "schema": "atlas.research.v346.three_1540_article_x_print_collation.v1",
+  "version": "3.46.1",
+  "date": "2026-11-09",
+  "status": "RESEARCH_DRAFT_HOLD",
+  "publication_allowed": false,
+  "webapp_integrated": false,
+  "original_513_essays_changed": 0,
+  "parent_version": "3.45",
+  "shared_edition": {
+    "work": "Confessio Augustana Variata",
+    "imprint": "Wittenberg: Georg Rhau",
+    "year": 1540,
+    "vd16": "C 4713",
+    "shared_bibliographic_id": "991096256859707356",
+    "distinct_exemplars_not_distinct_editions": true
+  },
+  "primary_1540_exemplars": [
+    {
+      "id": "V346-REGENSBURG-1540",
+      "holding": "Staatliche Bibliothek Regensburg",
+      "shelfmark": "999/4Theol.syst.33",
+      "digital_id": "bsb11069754",
+      "manifest": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11069754/manifest",
+      "manifest_canvases": 396,
+      "canvas": 17,
+      "printed_page": 9,
+      "image": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11069754_00017/full/1800,/0/default.jpg",
+      "dimensions": [
+        1800,
+        2783
+      ],
+      "source_jpeg_bytes": 576483,
+      "source_jpeg_sha256": "efdeee37020baa9e456069c142777002e6d7cc45c6362834123a4fb27a622b18",
+      "http_status": 200,
+      "ocr_used_for_navigation_only": true,
+      "actual_original_print_image_visually_read": true,
+      "pre_existing_handwritten_marginal_labels_seen": false,
+      "article_x_normalized": "De Coena Domini docent quod cum pane et vino vere exhibeantur corpus et sanguis Christi vescentibus in Coena Domini",
+      "rejection_clause_present": false
+    },
+    {
+      "id": "V346-BAMBERG-1540",
+      "holding": "Staatsbibliothek Bamberg",
+      "shelfmark": ".10 D 14",
+      "digital_id": "bsb11399533",
+      "manifest": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11399533/manifest",
+      "manifest_canvases": 372,
+      "canvas": 21,
+      "printed_page": 9,
+      "image": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11399533_00021/full/1800,/0/default.jpg",
+      "dimensions": [
+        1800,
+        2452
+      ],
+      "source_jpeg_bytes": 597147,
+      "source_jpeg_sha256": "684f7a2ff38f482303b3cfe933bf84dac99059ef3e3a3b1e5877985562585460",
+      "http_status": 200,
+      "ocr_used_for_navigation_only": true,
+      "actual_original_print_image_visually_read": true,
+      "pre_existing_handwritten_marginal_labels_seen": true,
+      "handwriting_note": "Handwritten topic annotations near IX/X/XI and some physical stains; NOT printed text variants",
+      "article_x_normalized": "De Coena Domini docent quod cum pane et vino vere exhibeantur corpus et sanguis Christi vescentibus in Coena Domini",
+      "rejection_clause_present": false
+    },
+    {
+      "id": "V344-CHICAGO-GRUBER-1540",
+      "holding": "Lutheran School of Theology at Chicago, Gruber Collection",
+      "shelfmark": "Gruber 28",
+      "image": "https://gruber.lstc.edu/confessions/images/gruber28var.jpg",
+      "image_dimensions": [
+        421,
+        113
+      ],
+      "printed_page": null,
+      "actual_original_print_image_visually_read_in_previous_round": true,
+      "article_x_normalized": "De Coena Domini docent quod cum pane et vino vere exhibeantur corpus et sanguis Christi vescentibus in Coena Domini",
+      "rejection_clause_present": false,
+      "whole_page_seen": false
+    }
+  ],
+  "article_x_comparison": {
+    "new_exemplars_visually_read_this_round": 2,
+    "previously_read_1540_exemplars": 1,
+    "distinct_1540_exemplars_original_article_x_visual_total": 3,
+    "normalised_text_disagreement_between_new_1540_exemplars": 0,
+    "all_three_1540_readings_normalized_match": true,
+    "handwritten_annotations_are_not_print_variants": true,
+    "all_1540_copies_in_the_world_compared": false,
+    "edition_wide_press_states_collated": false,
+    "print_page_boundaries_checked": true,
+    "chapter_ix_and_xi_seen_on_two_new_images": true,
+    "edition_change_vs_1531": [
+      "ADD cum pane et vino",
+      "CHANGE vere adsint et distribuantur -> vere exhibeantur",
+      "OMIT improbant secus docentes"
+    ],
+    "interpretation_is_not_authorial_motive_proof": true
+  },
+  "parent_sources": [
+    {
+      "id": "V344-1531-BSB-MUNICH",
+      "year": 1531,
+      "digital_id": "bsb00103368",
+      "canvas": 17,
+      "image_read_in_parent": true,
+      "article_x_short": "vere adsint et distribuantur; improbant secus docentes",
+      "source": "https://www.digitale-sammlungen.de/en/view/bsb00103368?page=17"
+    },
+    {
+      "id": "V344-CR26-1858",
+      "year": 1858,
+      "printed_page": 357,
+      "editorial_note": 34,
+      "source": "https://www.augsburg1540.com/uploads/1/3/8/9/138903771/1540_latin_text_from_corpus_reformandum.pdf",
+      "evidence_kind": "POSTHUMOUS_EDITION_APPARATUS_NOT_ORIGINAL_1540_PRINT"
+    }
+  ],
+  "other_access_status": [
+    {
+      "id": "GOOGLE-AUGSBURG",
+      "year": 1540,
+      "book_id": "HmpoAAAAcAAJ",
+      "holding": "Augsburg Th S 276",
+      "article_x_original_image_visually_read": false,
+      "book_metadata_confirmed": true,
+      "note": "frontmatter image small; PA30/40/50/60 zoom3 returned 9103-byte identical image-not-available placeholders despite HTTP200"
+    },
+    {
+      "id": "HALLE-1540",
+      "holding": "ULB Halle Pon Vg 3008 a (2)",
+      "article_x_original_image_visually_read": false,
+      "note": "URN resolves to bot-check guarded repository; no bypass"
+    },
+    {
+      "id": "PITTS-1540",
+      "holding": "Pitts Theology Library 1540 CONF",
+      "article_x_original_image_visually_read": false,
+      "note": "bibliographic and title-page evidence only"
+    },
+    {
+      "id": "PADERBORN-1542",
+      "vd16": "C 4714",
+      "year": 1542,
+      "may_count_as_1540_exemplar": false
+    }
+  ],
+  "qc_provenance": {
+    "source_workflow_run": 42548638567,
+    "source_workflow_job": 128939028846,
+    "actual_source_image_http_200_count": 2,
+    "images_embedded_in_repository": 0,
+    "source_image_sha256_applies_to": "Original directly fetched 1800w JPEG bytes, not resized contact sheet",
+    "human_visual_review_completed": true,
+    "ocr_only_navigation": true
+  },
+  "release_gate": {
+    "status": "HOLD",
+    "webapp_integrated": false,
+    "main_changed": false,
+    "existing_essays_changed": 0,
+    "publication_allowed": false,
+    "human_editorial_approval": false
+  },
+  "remaining_gates": [
+    "Compare other article/paper/printing states before claiming identity of complete books",
+    "Independently date marginal handwriting in Bamberg if useful",
+    "Review original 1536 Wittenberg Concord and historiographical interpretations before publication"
+  ]
+}
