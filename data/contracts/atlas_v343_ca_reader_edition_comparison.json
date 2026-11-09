@@ -1,0 +1,167 @@
+{
+  "schema": "atlas.research.v343.ca_reader_edition_comparison.v1",
+  "version": "3.43",
+  "date": "2026-11-09",
+  "status": "RESEARCH_DRAFT_HOLD",
+  "publication_allowed": false,
+  "webapp_integrated": false,
+  "original_corpus_essays_changed": 0,
+  "parent": {
+    "version": "3.42.1",
+    "contract": "data/contracts/atlas_v342_cr26_1858_direct_print_collation.json",
+    "source_changed": false
+  },
+  "witness_layers": [
+    {
+      "id": "S1530",
+      "kind": "HISTORICAL_SUBMISSION_EVENT",
+      "claim_scope": "historical event; no emperor-submitted autograph text inspected",
+      "direct_original_examined": false
+    },
+    {
+      "id": "P1531",
+      "kind": "FIRST_PRINT_SINGLE_EXEMPLAR",
+      "repository": "Bayerische Staatsbibliothek München",
+      "id_number": "bsb00103368",
+      "vd16": "C 4737",
+      "inspected_article_words": [
+        "IV",
+        "VII",
+        "VIII"
+      ],
+      "article_x_direct_image_read": false
+    },
+    {
+      "id": "C1858_1531",
+      "kind": "SCHOLARLY_EDITED_1531_WITNESS",
+      "print_pages": [
+        275,
+        277
+      ],
+      "facsimile_read": true
+    },
+    {
+      "id": "C1858_1540",
+      "kind": "SCHOLARLY_REPRINT_OF_1540_VARIATA",
+      "print_pages": [
+        352,
+        356,
+        357
+      ],
+      "facsimile_read": true,
+      "contemporary_1540_imprint_examined": false
+    },
+    {
+      "id": "BA_WEB",
+      "kind": "MODERN_ONLINE_TRANSCRIPTION",
+      "discrepancies_in_parent_contract": 4
+    }
+  ],
+  "articles": [
+    {
+      "id": "CA-IV",
+      "article": "IV",
+      "theme_ko": "칭의",
+      "historical_revision": "EXPANSION_OF_ARTICLE",
+      "proof": "CR1858_ED3_REPRINT_AND_EDITOR_APPARATUS",
+      "source_print_pages": [
+        275,
+        352,
+        353,
+        354
+      ],
+      "safe_ko": "1531 계열의 짧은 제4조를 1540년 개정판에서 복음의 약속·믿음·위로 논증으로 확장했다.",
+      "not_claimed": "BA iustificenter is not a 1540 authorial variant"
+    },
+    {
+      "id": "CA-VII",
+      "article": "VII",
+      "theme_ko": "교회",
+      "historical_revision": "EXPANDED_ECCLESIOLOGICAL_DEFINITION",
+      "proof": "CR1858_ED3_REPRINT_AND_EDITOR_APPARATUS",
+      "source_print_pages": [
+        277,
+        356
+      ],
+      "safe_ko": "개정판은 교회를 그리스도의 지체와 복음·성례 표지를 통해 더 상세히 풀어쓴다.",
+      "not_claimed": "1531 edition denied means of grace"
+    },
+    {
+      "id": "CA-VIII",
+      "article": "VIII",
+      "theme_ko": "교회 안의 악인과 성례",
+      "historical_revision": "REORDERED_ARGUMENT_OPENING",
+      "proof": "CR1858_ED3_REPRINT_AND_EDITOR_APPARATUS",
+      "source_print_pages": [
+        277,
+        356
+      ],
+      "safe_ko": "현실 교회의 악인과 위선자 혼재를 논하는 논증의 출발점과 배열이 달라진다.",
+      "not_claimed": "BA malii/sentibant are first-print variants"
+    },
+    {
+      "id": "CA-X",
+      "article": "X",
+      "theme_ko": "성찬",
+      "historical_revision": "EDITED_HISTORIC_WORDING_CHANGE",
+      "proof": "CR1858_PRINT_PAGE_357_ED3_BODY_AND_EDITOR_QUOTES_ED1_ED2",
+      "source_print_pages": [
+        357
+      ],
+      "cr1858_pdf_excerpt_zero_based_page": 5,
+      "ed3_short": "cum pane et vino vere exhibeantur corpus et sanguis Christi",
+      "ed1_2_editor_quote_short": "corpus et sanguis Christi vere adsint",
+      "ed1_2_editor_rejection_short": "improbant secus docentes",
+      "direct_1531_article_x_facsimile_examined": false,
+      "direct_1540_original_imprint_examined": false,
+      "safe_ko": "1858년 실제 인쇄 357쪽 본문과 각주 34는 1531 계열과 1540 개정판의 성찬 제10조 표현을 구별한다.",
+      "not_claimed": "The new wording alone proves a wholesale conversion to Calvinist doctrine"
+    }
+  ],
+  "research_sources": [
+    {
+      "id": "S1",
+      "source_type": "PRIMARY_EXEMPLAR",
+      "url": "https://www.digitale-sammlungen.de/en/details/bsb00103368",
+      "scope": "1531 exemplar 4 words in IV/VII/VIII only"
+    },
+    {
+      "id": "S2",
+      "source_type": "SCHOLARLY_1858_ORIGINAL_PRINT_SCAN",
+      "url": "https://commons.wikimedia.org/wiki/File:Corpus_reformatorum_(IA_corpusreformato09melagoog).pdf",
+      "scope": "pp275/277 first-edition edited representation"
+    },
+    {
+      "id": "S3",
+      "source_type": "1858_PRINT_FACSIMILE_IN_LATER_PDF",
+      "url": "https://www.augsburg1540.com/uploads/1/3/8/9/138903771/1540_latin_text_from_corpus_reformandum.pdf",
+      "scope": "pp352,356,357, 1858 reproduction of 1540 Variata + editor apparatus"
+    },
+    {
+      "id": "S4",
+      "source_type": "SECONDARY_SCHOLARSHIP",
+      "url": "https://bibliographie.uni-tuebingen.de/xmlui/bitstream/handle/10900/150349/Dingel_228.pdf?sequence=1",
+      "scope": "Irene Dingel 2012 pp307-309, historical dialogue and confessional function"
+    }
+  ],
+  "evidence_caveats": [
+    "The physical 1530 submitted manuscript was not visually verified.",
+    "1531 article X directly viewed in original first-print exemplar: NO.",
+    "1540 original contemporary print examined: NO, only 1858 edited reprint.",
+    "1858 publisher's quotations of Ed.1 and Ed.2 are editorial witnesses, not direct first-print reading.",
+    "No claim of motive or Calvinist doctrinal conversion from one phrase.",
+    "Four BA discrepancies remain in parent V3.42.1 class DIGITAL_TRANSCRIPTION_DISCREPANCY, not historical edition changes."
+  ],
+  "next_gates": [
+    "Locate and visually inspect article X within 1531 BSB copy, then collate with CR p357 n34.",
+    "Directly verify one 1540 contemporary print and its article X.",
+    "Independent editorial and historical review before publication."
+  ],
+  "release_gate": {
+    "status": "HOLD",
+    "main_changed": false,
+    "google_ai_studio_changed": false,
+    "publication_allowed": false,
+    "external_images_copied": false
+  }
+}
