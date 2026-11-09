@@ -1,0 +1,207 @@
+{
+  "schema": "atlas.research.v349.cr3_1836_wittenberg_concord_direct_print.v1",
+  "version": "3.49.1",
+  "date": "2026-11-09",
+  "status": "RESEARCH_DRAFT_HOLD",
+  "publication_allowed": false,
+  "parent_version": "3.48",
+  "webapp_integrated": false,
+  "original_corpus_changes": 0,
+  "source": {
+    "id": "CR3_1836_IA",
+    "book_id": "philippimelantho03mela",
+    "edition_year": 1836,
+    "volume": 3,
+    "editor": "Karl Gottlieb Bretschneider",
+    "imprint": "Halle, Schwetschke",
+    "digital_source": "https://commons.ptsem.edu/id/philippimelantho03mela",
+    "iiif_manifest": "https://iiif.archive.org/iiif/philippimelantho03mela/manifest.json",
+    "manifest_canvases": 674,
+    "facsimile_original_print_read": true,
+    "contemporary_1536_manuscript_read": false,
+    "reference_range_printed_columns": [
+      75,
+      78
+    ],
+    "scholarly_core_reference_printed_columns": [
+      75,
+      77
+    ],
+    "columns_per_scan": 2
+  },
+  "images": [
+    {
+      "id": "CR3_1836_PRINT75_76",
+      "scan_number_one_based": 62,
+      "manifest_canvas_index_zero_based": 61,
+      "printed_columns": [
+        75,
+        76
+      ],
+      "url": "https://iiif.archive.org/image/iiif/3/philippimelantho03mela%2Fphilippimelantho03mela_jp2.zip%2Fphilippimelantho03mela_jp2%2Fphilippimelantho03mela_0062.jp2/full/1400,/0/default.jpg",
+      "http_status": 200,
+      "jpeg_raw_bytes": 647000,
+      "jpeg_dimensions": [
+        1401,
+        1729
+      ],
+      "jpeg_raw_sha256": "0fb1c09b458f0ded51354c2675e4f93ac545845e94af8b58a43ce29655e94f6a",
+      "printed_column_headers_visually_read": true,
+      "formula_concordiae_printed_on_left": true
+    },
+    {
+      "id": "CR3_1836_PRINT77_78",
+      "scan_number_one_based": 63,
+      "manifest_canvas_index_zero_based": 62,
+      "printed_columns": [
+        77,
+        78
+      ],
+      "url": "https://iiif.archive.org/image/iiif/3/philippimelantho03mela%2Fphilippimelantho03mela_jp2.zip%2Fphilippimelantho03mela_jp2%2Fphilippimelantho03mela_0063.jp2/full/1400,/0/default.jpg",
+      "http_status": 200,
+      "jpeg_raw_bytes": 667997,
+      "jpeg_dimensions": [
+        1401,
+        1729
+      ],
+      "jpeg_raw_sha256": "9b513c04c6e97b54b0b1f82cb29cbb7edd201f240608991d35574a6a906d39c0",
+      "printed_column_headers_visually_read": true,
+      "completed_on_29_may_1536_on_right": true
+    }
+  ],
+  "direct_print_anchors": [
+    {
+      "id": "CR3_75_NO1429",
+      "printed_column": 75,
+      "latin": "No. 1429. 29. Maii. Formula Concordiae",
+      "category": "DOCUMENT_HEADING",
+      "visual_confirmed": true
+    },
+    {
+      "id": "CR3_75_IR",
+      "printed_column": 75,
+      "latin": "Eucharistiam duabus rebus, terrena et coelesti",
+      "category": "IRENAEUS_TWO_THINGS",
+      "visual_confirmed": true
+    },
+    {
+      "id": "CR3_75_REAL",
+      "printed_column": 75,
+      "latin": "cum pane et vino vere et substantialiter adesse, exhiberi et sumi",
+      "category": "REAL_PRESENCE",
+      "visual_confirmed": true
+    },
+    {
+      "id": "CR3_75_UNION",
+      "printed_column": 75,
+      "latin": "sacramentali unione panem esse corpus Christi",
+      "category": "SACRAMENTAL_UNION",
+      "visual_confirmed": true
+    },
+    {
+      "id": "CR3_75_POR",
+      "printed_column": 75,
+      "latin": "porrecto pane simul adesse et vere exhiberi corpus Christi",
+      "category": "EXHIBERI",
+      "visual_confirmed": true
+    },
+    {
+      "id": "CR3_76_IND",
+      "printed_column": 76,
+      "latin": "etiam indignos manducare",
+      "category": "UNWORTHY_RECIPIENTS",
+      "visual_confirmed": true
+    },
+    {
+      "id": "CR3_76_JUD",
+      "printed_column": 76,
+      "latin": "Sed tales sumunt ad iudicium",
+      "category": "JUDGMENT",
+      "visual_confirmed": true
+    },
+    {
+      "id": "CR3_78_DATE",
+      "printed_column": 78,
+      "latin": "Actum et finitum secunda feria post Exaudi, 29. Maii Anno 1536",
+      "category": "COMPLETION_DATE",
+      "visual_confirmed": true
+    }
+  ],
+  "chronology": {
+    "preferred_concord_date": "1536-05-29",
+    "critical_regest": "MBW 1744",
+    "confirmed_in_1836_print": "NO1429_HEADING_AND_COLUMN78_CLOSURE",
+    "bds_1988_heading_variant": "1536-05-28",
+    "date_conflict_source_record_preserved": true,
+    "sixteenth_century_autograph_date_seen": false,
+    "editorial_dates_not_to_be_conflated_with_manuscript_origin": true
+  },
+  "comparative_layers": [
+    {
+      "id": "CR1836",
+      "kind": "NINETEENTH_CENTURY_PRINT_DIRECT_VISUAL",
+      "grade": "PRINT_IMAGE_DIRECT",
+      "printed_columns": [
+        75,
+        76,
+        77,
+        78
+      ]
+    },
+    {
+      "id": "BDS1988",
+      "kind": "TWENTIETH_CENTURY_CRITICAL_TEXT_OCR",
+      "grade": "EDITORIAL_OCR_ONLY",
+      "online_pages": [
+        124,
+        126,
+        128
+      ],
+      "selected_latin_anchor_match": true,
+      "entire_text_letter_by_letter_checked": false
+    },
+    {
+      "id": "CA1540",
+      "kind": "SIXTEENTH_CENTURY_PRINT_ORIGINAL",
+      "grade": "PRINT_IMAGE_DIRECT_IN_PARENT_V346",
+      "article": 10,
+      "three_exemplars_collated": true
+    },
+    {
+      "id": "ORIGINAL1536",
+      "kind": "SIXTEENTH_CENTURY_CONCORD_MANUSCRIPT",
+      "grade": "NOT_DIRECTLY_VISUALLY_EXAMINED",
+      "access_pending": true
+    }
+  ],
+  "claim_boundaries": {
+    "cr1836_is_1536_autograph": false,
+    "referenced_75_78_are_print_columns_not_iiif_canvas_numbers": true,
+    "individual_textual_variants_fully_resolved": false,
+    "melanchthon_authorial_copying_into_1540_directly_proven": false,
+    "ca1540_theologically_identical_with_concord_in_all_respects_proven": false,
+    "signers_imply_every_protestant_city_agreed": false
+  },
+  "reproducibility": {
+    "run_id": 42570853740,
+    "job_id": 129007626603,
+    "source_image_count": 2,
+    "source_images_committed_to_git": 0,
+    "readings_verified_from_image_not_ocr": true,
+    "web_pdf_used": false
+  },
+  "release_gate": {
+    "status": "HOLD",
+    "original_513_essays_changed": 0,
+    "main_changed": false,
+    "google_ai_studio_changed": false,
+    "publication_allowed": false,
+    "external_images_reposted": false,
+    "independent_editorial_approval": false
+  },
+  "next_gates": [
+    "Source one 1536 manuscript facsimile with verifiable shelfmark and compare its date/signatures.",
+    "Use BDS critical apparatus to investigate 28/29 May editing discrepancy, separate meeting and completion dates.",
+    "Human historical-editorial acceptance before corpus/app promotion."
+  ]
+}
