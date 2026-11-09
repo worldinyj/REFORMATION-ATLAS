@@ -1,15 +1,6 @@
 name: ATLAS V3.48 1536 Concord text critical edition preflight
 on:
-  push:
-    branches:
-      - research/atlas-v348-wittenberg-concord-text-date-audit
-    paths:
-      - scripts/research_v348_bds_1536_concord_critical_text.py
-      - .github/workflows/atlas-v348-bds-critical-edition-probe.yml
-  pull_request:
-    paths:
-      - scripts/research_v348_bds_1536_concord_critical_text.py
-      - .github/workflows/atlas-v348-bds-critical-edition-probe.yml
+  workflow_dispatch:
 permissions:
   contents: read
 jobs:
