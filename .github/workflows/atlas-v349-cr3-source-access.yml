@@ -1,15 +1,6 @@
 name: ATLAS V3.49 original 1836 CR III access audit
 on:
-  push:
-    branches:
-      - research/atlas-v349-cr3-1836-concord-direct-print
-    paths:
-      - scripts/research_v349_cr3_google_print_access.py
-      - .github/workflows/atlas-v349-cr3-source-access.yml
-  pull_request:
-    paths:
-      - scripts/research_v349_cr3_google_print_access.py
-      - .github/workflows/atlas-v349-cr3-source-access.yml
+  workflow_dispatch:
 permissions:
   contents: read
 jobs:
