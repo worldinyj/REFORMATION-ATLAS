@@ -1,15 +1,6 @@
 name: ATLAS V3.47 original print VII VIII specimen study
 on:
-  push:
-    branches:
-      - research/atlas-v347-ca-vii-viii-1540-press-state
-    paths:
-      - scripts/research_v347_article_vii_viii_print_images.py
-      - .github/workflows/atlas-v347-print-specimens.yml
-  pull_request:
-    paths:
-      - scripts/research_v347_article_vii_viii_print_images.py
-      - .github/workflows/atlas-v347-print-specimens.yml
+  workflow_dispatch:
 permissions:
   contents: read
 jobs:
