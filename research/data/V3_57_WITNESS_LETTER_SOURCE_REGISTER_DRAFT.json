@@ -1,0 +1,519 @@
+{
+  "schema_version": "1.0.0",
+  "dataset_id": "atlas-v357-concord-sources",
+  "research_date": "2026-11-11",
+  "parent": "V3.56",
+  "branch": "research/atlas-v357-concord-berlin-witness-bullinger-index",
+  "release_gate": {
+    "status": "DRAFT",
+    "can_ship": false,
+    "expert_approved": false,
+    "main_modified": false,
+    "history_essays_modified": false,
+    "ai_studio_modified": false
+  },
+  "source_register": {
+    "V357-S01-HEIDELBERG-2016": {
+      "url": "https://www.hadw-bw.de/sites/default/files/documents/Nicht%20edierte%20Texte%20von%20Bucer.pdf",
+      "institution": "Heidelberger Akademie der Wissenschaften, Bucer-Forschungsstelle",
+      "title": "Texte (exkl. Briefe) von Martin Bucer ...",
+      "year": 2016,
+      "locator": "Section E, printed p.29, entry Berlin Ms. Germ. 2° 1439 fol.161r–162r, QID 1147",
+      "access": "PDF_extracted_text_only_screenshot_failed_404",
+      "historical_manuscript_facsimile": false,
+      "provenance_verified": false
+    },
+    "V357-S02-BDS136": {
+      "url": "https://digi.hadw-bw.de/view/bds6_1/0140",
+      "institution": "Heidelberger Akademie der Wissenschaften / UB Heidelberg",
+      "title": "BDS 6/1 (1988)",
+      "year": 1988,
+      "locator": "printed p.136; digital page /0140",
+      "access": "modern_print_JPEG_image_checked",
+      "historical_manuscript_facsimile": false,
+      "provenance_verified": true
+    },
+    "V357-S03-BDS258": {
+      "url": "https://digi.hadw-bw.de/view/bds6_1/0262",
+      "institution": "Heidelberger Akademie der Wissenschaften / UB Heidelberg",
+      "title": "BDS 6/1 (1988)",
+      "year": 1988,
+      "locator": "printed p.258; digital page /0262",
+      "access": "online_OCR_only",
+      "historical_manuscript_facsimile": false,
+      "provenance_verified": true
+    },
+    "V357-S04-HBBW6-INDEX": {
+      "url": "https://www.irg.uzh.ch/de/publikationen/bullinger/edition-briefwechsel/briefverzeichnis.html",
+      "institution": "University of Zurich, Institut für Schweizerische Reformationsgeschichte",
+      "title": "Heinrich Bullinger Briefwechsel, Band 6 (1536) official letter index",
+      "year": null,
+      "locator": "Ep. 908, 911, 914, 915, 916, 921",
+      "access": "editorial_letter_index_only",
+      "historical_manuscript_facsimile": false,
+      "provenance_verified": true
+    },
+    "V357-S05-KONSTANZ-ARCHIVE": {
+      "url": "https://www.konstanz.de/serviceportal/-/behoerdenwegweiser/stadtarchiv/oe6003334",
+      "institution": "Stadt Konstanz",
+      "title": "Stadtarchiv official collections and access",
+      "year": null,
+      "locator": "archive public service and holdings overview",
+      "access": "institutional_access_metadata",
+      "historical_manuscript_facsimile": false,
+      "provenance_verified": true
+    },
+    "V357-S06-KONSTANZ-VISIT": {
+      "url": "https://www.konstanz.de/kultur+_+freizeit/stadtarchiv",
+      "institution": "Stadt Konstanz",
+      "title": "Stadtarchiv research access instructions",
+      "year": null,
+      "locator": "written inquiry and appointment policy",
+      "access": "official_public_access_instructions",
+      "historical_manuscript_facsimile": false,
+      "provenance_verified": true
+    },
+    "V357-S07-MBW1744": {
+      "url": "https://melanchthon.hadw-bw.de/regest.html?reg_nr=1744",
+      "institution": "Heidelberger Akademie der Wissenschaften",
+      "title": "Melanchthons Briefwechsel regest 1744",
+      "year": null,
+      "locator": "1536-05-29; regest + dating correction",
+      "access": "scholarly_regest",
+      "historical_manuscript_facsimile": false,
+      "provenance_verified": true
+    }
+  },
+  "additional_witness_candidates": [
+    {
+      "id": "WC-1536-BERLIN-CANDIDATE-01",
+      "siglum_assigned": null,
+      "siglum_scope": "extra_candidate_outside_BDS_1988_A_to_S",
+      "repository": "Staatsbibliothek zu Berlin",
+      "shelfmark_as_catalogued": "Ms. Germ. 2° 1439",
+      "foliation": "161r–162r",
+      "document_caption": "Jn Causa Sacramentaria 29. Maij anno 1536",
+      "incipit_short": "Audivimus D. Bucerum explicantem…",
+      "date_as_listed": "1536-05-29",
+      "material_kind": "copy_reported_by_research_bibliography",
+      "content_scope": "sacramentary concord; long signer list",
+      "prior_1988_edition": "BDS 6/1 pp.114–134",
+      "source_ids": [
+        "V357-S01-HEIDELBERG-2016"
+      ],
+      "BDS_1988_A_to_S_current_membership": false,
+      "original_folio_image_verified": false,
+      "copy_independence_verified": false,
+      "current_2026_catalogue_verified": false,
+      "mandatory_qc": "Compare full text and signature list; do not increment 1988 A-S count."
+    }
+  ],
+  "indexed_letters": [
+    {
+      "id": "HBBW6-E908",
+      "date": "1536-11-02",
+      "date_certainty": "inferred_day",
+      "sender": "Johannes Zwick",
+      "recipient": "Heinrich Bullinger",
+      "city": "Constance",
+      "authority": "individual_letter",
+      "source_ids": [
+        "V357-S04-HBBW6-INDEX"
+      ],
+      "letter_index_checked": true,
+      "letter_fulltext_checked": false,
+      "original_folio_image_checked": false,
+      "doctrinal_agreement_inferred": false,
+      "municipal_ratification_inferred": false,
+      "publication_gate": false
+    },
+    {
+      "id": "HBBW6-E911",
+      "date": "1536-11-09",
+      "date_certainty": "day",
+      "sender": "Bürgermeister und Rat von Konstanz",
+      "recipient": "eidgenössische Gesandte in Basel",
+      "city": "Constance",
+      "authority": "municipal_letter",
+      "source_ids": [
+        "V357-S04-HBBW6-INDEX"
+      ],
+      "letter_index_checked": true,
+      "letter_fulltext_checked": false,
+      "original_folio_image_checked": false,
+      "doctrinal_agreement_inferred": false,
+      "municipal_ratification_inferred": false,
+      "publication_gate": false
+    },
+    {
+      "id": "HBBW6-E914",
+      "date": "1536-11-18",
+      "date_certainty": "day",
+      "sender": "Johannes Zwick",
+      "recipient": "Heinrich Bullinger",
+      "city": "Constance",
+      "authority": "individual_letter",
+      "source_ids": [
+        "V357-S04-HBBW6-INDEX"
+      ],
+      "letter_index_checked": true,
+      "letter_fulltext_checked": false,
+      "original_folio_image_checked": false,
+      "doctrinal_agreement_inferred": false,
+      "municipal_ratification_inferred": false,
+      "publication_gate": false
+    },
+    {
+      "id": "HBBW6-E915",
+      "date": "1536-11-24",
+      "date_certainty": "inferred_year",
+      "sender": "Johannes Zwick im Namen der Pfarrer von Konstanz",
+      "recipient": "Bullinger, Leo Jud, Konrad Pellikan, Theodor Bibliander",
+      "city": "Constance",
+      "authority": "clergy_representative_letter",
+      "source_ids": [
+        "V357-S04-HBBW6-INDEX"
+      ],
+      "letter_index_checked": true,
+      "letter_fulltext_checked": false,
+      "original_folio_image_checked": false,
+      "doctrinal_agreement_inferred": false,
+      "municipal_ratification_inferred": false,
+      "publication_gate": false
+    },
+    {
+      "id": "HBBW6-E916",
+      "date": "1536-11-26",
+      "date_certainty": "inferred_place",
+      "sender": "Heinrich Bullinger",
+      "recipient": "Johannes Zwick",
+      "city": "Zurich",
+      "authority": "reply_letter",
+      "source_ids": [
+        "V357-S04-HBBW6-INDEX"
+      ],
+      "letter_index_checked": true,
+      "letter_fulltext_checked": false,
+      "original_folio_image_checked": false,
+      "doctrinal_agreement_inferred": false,
+      "municipal_ratification_inferred": false,
+      "publication_gate": false
+    },
+    {
+      "id": "HBBW6-E921",
+      "date": "1536-11-30",
+      "date_certainty": "day",
+      "sender": "Johannes Zwick",
+      "recipient": "Bullinger, Leo Jud, Konrad Pellikan, Theodor Bibliander",
+      "city": "Constance",
+      "authority": "letter_to_zurich_clergy",
+      "source_ids": [
+        "V357-S04-HBBW6-INDEX"
+      ],
+      "letter_index_checked": true,
+      "letter_fulltext_checked": false,
+      "original_folio_image_checked": false,
+      "doctrinal_agreement_inferred": false,
+      "municipal_ratification_inferred": false,
+      "publication_gate": false
+    }
+  ],
+  "events": [
+    {
+      "id": "V357-E01",
+      "date": "1536-11-09",
+      "type": "letter_bibliography_attested",
+      "actor": "Konstanz mayor and council",
+      "to": "Swiss delegates gathered at Basel",
+      "source_ids": [
+        "V357-S04-HBBW6-INDEX"
+      ],
+      "content_interpreted": false,
+      "actual_dispatch_confirmed": false,
+      "ratification_confirmed": false,
+      "city_council_original_verified": false,
+      "release": false
+    },
+    {
+      "id": "V357-E02",
+      "date": "1536-11-23",
+      "type": "letter_written",
+      "actor": "Strasbourg preachers",
+      "to": "Konstanz council",
+      "source_ids": [
+        "V357-S03-BDS258"
+      ],
+      "content_interpreted": true,
+      "actual_dispatch_confirmed": false,
+      "ratification_confirmed": false,
+      "city_council_original_verified": false,
+      "release": false
+    },
+    {
+      "id": "V357-E03",
+      "date": "1536-11-27",
+      "type": "different_hand_manuscript_mark",
+      "actor": "unidentified",
+      "to": "Konstanz council letter handling",
+      "source_ids": [
+        "V357-S03-BDS258"
+      ],
+      "content_interpreted": false,
+      "actual_dispatch_confirmed": false,
+      "ratification_confirmed": false,
+      "city_council_original_verified": false,
+      "release": false
+    },
+    {
+      "id": "V357-E04",
+      "date": "1536-12-23",
+      "type": "decision_to_dispatch_reported_by_editor",
+      "actor": "Konstanz city council",
+      "to": "Luther via Strasbourg",
+      "source_ids": [
+        "V357-S03-BDS258"
+      ],
+      "content_interpreted": true,
+      "actual_dispatch_confirmed": false,
+      "ratification_confirmed": false,
+      "city_council_original_verified": false,
+      "release": false
+    }
+  ],
+  "claims": [
+    {
+      "id": "V357-C01",
+      "text": "2016 Heidelberg Academy list registers extra Berlin copy dated 29 May 1536 not listed in BDS 6/1.",
+      "source_ids": [
+        "V357-S01-HEIDELBERG-2016"
+      ],
+      "evidence": "editorial_bibliography",
+      "original_manuscript_checked": false,
+      "expert_approved": false,
+      "release": false
+    },
+    {
+      "id": "V357-C02",
+      "text": "Berlin copy shelfmark and folios: Ms Germ 2° 1439, fol.161r–162r.",
+      "source_ids": [
+        "V357-S01-HEIDELBERG-2016"
+      ],
+      "evidence": "editorial_bibliography",
+      "original_manuscript_checked": false,
+      "expert_approved": false,
+      "release": false
+    },
+    {
+      "id": "V357-C03",
+      "text": "Berlin copy's independence from listed witnesses has not been tested.",
+      "source_ids": [
+        "V357-S01-HEIDELBERG-2016"
+      ],
+      "evidence": "explicit_unknown",
+      "original_manuscript_checked": false,
+      "expert_approved": false,
+      "release": false
+    },
+    {
+      "id": "V357-C04",
+      "text": "1988 BDS p136 identifies Frankfurt Algesheimer report B, Ulm Frecht report C, Constance Zwick report D.",
+      "source_ids": [
+        "V357-S02-BDS136"
+      ],
+      "evidence": "modern_edition_image_checked",
+      "original_manuscript_checked": false,
+      "expert_approved": false,
+      "release": false
+    },
+    {
+      "id": "V357-C05",
+      "text": "Konstanz Reformationsakten 10 fol.94–120 is cited for Zwick relation D.",
+      "source_ids": [
+        "V357-S02-BDS136"
+      ],
+      "evidence": "modern_edition_image_checked",
+      "original_manuscript_checked": false,
+      "expert_approved": false,
+      "release": false
+    },
+    {
+      "id": "V357-C06",
+      "text": "Zurich StA E II 448 is cited for draft of Zwick's Wittenberg report; exact folios withheld.",
+      "source_ids": [
+        "V357-S02-BDS136"
+      ],
+      "evidence": "modern_edition_image_checked_partially",
+      "original_manuscript_checked": false,
+      "expert_approved": false,
+      "release": false
+    },
+    {
+      "id": "V357-C07",
+      "text": "HBBW E911 indexes municipal letter from Konstanz council to Swiss delegates in Basel 9 Nov 1536.",
+      "source_ids": [
+        "V357-S04-HBBW6-INDEX"
+      ],
+      "evidence": "scholarly_edition_metadata",
+      "original_manuscript_checked": false,
+      "expert_approved": false,
+      "release": false
+    },
+    {
+      "id": "V357-C08",
+      "text": "Zwick's 2 Nov, 18 Nov, 24 Nov, and 30 Nov 1536 letters are separately indexed.",
+      "source_ids": [
+        "V357-S04-HBBW6-INDEX"
+      ],
+      "evidence": "scholarly_edition_metadata",
+      "original_manuscript_checked": false,
+      "expert_approved": false,
+      "release": false
+    },
+    {
+      "id": "V357-C09",
+      "text": "HBBW 911 content not yet read; no acceptance/rejection claim inferred.",
+      "source_ids": [
+        "V357-S04-HBBW6-INDEX"
+      ],
+      "evidence": "explicit_unknown",
+      "original_manuscript_checked": false,
+      "expert_approved": false,
+      "release": false
+    },
+    {
+      "id": "V357-C10",
+      "text": "23 Nov 1536 Strasbourg preachers letter and 27 Nov manuscript notation are separate events.",
+      "source_ids": [
+        "V357-S03-BDS258"
+      ],
+      "evidence": "critical_edition_OCR",
+      "original_manuscript_checked": false,
+      "expert_approved": false,
+      "release": false
+    },
+    {
+      "id": "V357-C11",
+      "text": "23 Dec 1536 decision to send reply and confession is not evidence actual dispatch or Concord approval.",
+      "source_ids": [
+        "V357-S03-BDS258"
+      ],
+      "evidence": "critical_edition_editorial_note",
+      "original_manuscript_checked": false,
+      "expert_approved": false,
+      "release": false
+    },
+    {
+      "id": "V357-C12",
+      "text": "Konstanz city archive requires written research inquiry and approved access appointment.",
+      "source_ids": [
+        "V357-S05-KONSTANZ-ARCHIVE",
+        "V357-S06-KONSTANZ-VISIT"
+      ],
+      "evidence": "institutional_access_information",
+      "original_manuscript_checked": false,
+      "expert_approved": false,
+      "release": false
+    }
+  ],
+  "archival_access_queue": [
+    {
+      "id": "R357-01",
+      "repository": "Staatsbibliothek zu Berlin",
+      "shelfmark": "Ms. Germ. 2° 1439, fol.161r–162r",
+      "request": "Existing facsimile, digitization terms, scribal hand and catalogue updates after 2016",
+      "status": "not_contacted",
+      "source_ids": [
+        "V357-S01-HEIDELBERG-2016"
+      ]
+    },
+    {
+      "id": "R357-02",
+      "repository": "Stadtarchiv Konstanz",
+      "shelfmark": "Reformationsakten 10, Bl.94–120",
+      "request": "Zwick 1536 Wittenberg negotiations report; available reproduction",
+      "status": "not_contacted",
+      "source_ids": [
+        "V357-S02-BDS136"
+      ]
+    },
+    {
+      "id": "R357-03",
+      "repository": "Stadtarchiv Konstanz",
+      "shelfmark": "Reformationsakten 10, Nr.70, Bl.310b–318b (per BDS 1988)",
+      "request": "1536-11-23 Strasbourg preachers fair copy and its 27 Nov handling note",
+      "status": "not_contacted",
+      "source_ids": [
+        "V357-S03-BDS258"
+      ]
+    },
+    {
+      "id": "R357-04",
+      "repository": "Stadtarchiv Konstanz",
+      "shelfmark": "Unknown exact shelfmark",
+      "request": "Find Konstanz council resolution 1536-12-23 about dispatching answer and confession via Strasbourg to Luther",
+      "status": "not_contacted",
+      "source_ids": [
+        "V357-S03-BDS258",
+        "V357-S05-KONSTANZ-ARCHIVE"
+      ]
+    },
+    {
+      "id": "R357-05",
+      "repository": "Staatsarchiv Zürich",
+      "shelfmark": "E II 448 (folio unverified)",
+      "request": "Zwick Acta Wittenbergica report draft, dates, annotations and conservation scan",
+      "status": "not_contacted",
+      "source_ids": [
+        "V357-S02-BDS136"
+      ]
+    },
+    {
+      "id": "R357-06",
+      "repository": "HBBW editorial project",
+      "shelfmark": "HBBW 6, E908, E911, E914–E916, E921",
+      "request": "Accessible critical edition text/facsimile links for exact 1536 correspondence",
+      "status": "not_contacted",
+      "source_ids": [
+        "V357-S04-HBBW6-INDEX"
+      ]
+    },
+    {
+      "id": "R357-07",
+      "repository": "Archives de Strasbourg",
+      "shelfmark": "not identified",
+      "request": "Identify original 1536-08-26 city-council ratification minute and digital access",
+      "status": "not_contacted",
+      "source_ids": [
+        "V357-S03-BDS258"
+      ]
+    }
+  ],
+  "qc_status": {
+    "all_sources_urls_verified_search_or_open": true,
+    "heidelberg_2016_pdf_text_read": true,
+    "heidelberg_2016_pdf_screenshot_failed_404": true,
+    "bds_1988_p136_image_checked": true,
+    "bds_1988_p258_image_checked": false,
+    "HBBW_6_letter_metadata_checked": true,
+    "HBBW_6_letter_body_checked": false,
+    "berlin_1536_original_folio_checked": false,
+    "all_research_only": true
+  },
+  "semantics": {
+    "historical_date_normalized": "1536-05-29",
+    "base_BDS_1988_manuscript_sigla_count": 19,
+    "extra_candidate_count": 1,
+    "do_not_increment_BDS_1988_sigla_automatically": true,
+    "municipal_correspondence_does_not_imply_ratification": true,
+    "material_bibliography_not_autograph": true,
+    "letter_index_not_letter_content": true
+  },
+  "unresolved": [
+    "2016 Heidelberg PDF page image 404",
+    "Berlin manuscript 161r-162r actual script and textual genealogy",
+    "HBBW ep911 full text and content relevance",
+    "Zwick Zurich E II 448 exact folios",
+    "Konstanz Dec23 council minute shelfmark",
+    "Strasbourg Aug26 council original"
+  ]
+}
