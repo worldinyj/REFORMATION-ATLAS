@@ -1,0 +1,498 @@
+{
+  "schema_version": "1.0.0",
+  "dataset_id": "atlas-v356-concord-reception-adjudication",
+  "research_date": "2026-11-11",
+  "base_version": "V3.55",
+  "branch": "research/atlas-v356-concord-reception-source-adjudication",
+  "release_gate": {
+    "state": "DRAFT",
+    "can_ship": false,
+    "expert_approved": false,
+    "main_modified": false,
+    "history_essays_modified": false,
+    "ai_studio_modified": false
+  },
+  "source_register": {
+    "S356-BDS136": {
+      "type": "critical_edition_print_page",
+      "url": "https://digi.hadw-bw.de/view/bds6_1/0140",
+      "locator": "BDS 6/1 (1988), printed p.136",
+      "access": "1988_edition_JPEG_image_checked",
+      "manuscript_image_checked": false
+    },
+    "S356-BDS258": {
+      "type": "critical_edition_print_page",
+      "url": "https://digi.hadw-bw.de/view/bds6_1/0262",
+      "locator": "BDS 6/1 (1988), printed p.258",
+      "access": "online_OCR_only",
+      "manuscript_image_checked": false
+    },
+    "S356-CAPITO": {
+      "type": "modern_correspondence_edition_headnote_and_abstract",
+      "url": "https://uplopen.com/books/579/files/ee9e764a-bac4-4b38-a467-6cf85785e09f.pdf",
+      "locator": "CWC Ep.612 headnote pp.437–438; Ep.622 abstract",
+      "access": "PDF_text_extracted_image_403",
+      "manuscript_image_checked": false
+    },
+    "S356-FRALEX": {
+      "type": "city_biography_lexicon",
+      "url": "https://frankfurter-personenlexikon.de/node/1566",
+      "locator": "Johann Bernhard / Algesheimer",
+      "access": "public_html",
+      "manuscript_image_checked": false
+    },
+    "S356-KUHN": {
+      "type": "regional_history_scholarly_article",
+      "url": "https://www.elmarlkuhn.de/aufsaetze-im-volltext/oberschwaben-und-bodenseeraum/die-reformation-in-oberschwaben/die-reformation-im-reich-und-in-oberschwaben/1531-1546-die-konfessionellen-blo/index.html",
+      "locator": "4.4.1 early reformed imperial cities",
+      "access": "public_html",
+      "manuscript_image_checked": false
+    },
+    "S356-WKGO": {
+      "type": "historical_church_study",
+      "url": "https://wkgo.de/cms/article/print/270",
+      "locator": "Ambrosius Blarers Wirksamkeit, section Eucharistic controversy",
+      "access": "public_html",
+      "manuscript_image_checked": false
+    },
+    "S356-GOTHA": {
+      "type": "manuscript_library_catalogue",
+      "url": "https://kalliope.staatsbibliothek-berlin.de/de/ead?ead.id=DE-611-HS-3421004",
+      "locator": "Gotha Chart. B 28, fol.34r/v",
+      "access": "catalogue_only",
+      "manuscript_image_checked": false
+    },
+    "S356-MBW": {
+      "type": "scholarly_regest",
+      "url": "https://melanchthon.hadw-bw.de/regest.html?reg_nr=1744",
+      "locator": "MBW 1744 §§1-7 Nachtrag",
+      "access": "scholarly_regest_html",
+      "manuscript_image_checked": false
+    },
+    "S356-HAPULS": {
+      "type": "educational_source_metadata",
+      "url": "https://www.hapuls.de/node/1551",
+      "locator": "Wittenberger Abendmahlskonkordie, metadata 26 May",
+      "access": "public_html",
+      "manuscript_image_checked": false
+    }
+  },
+  "claims": [
+    {
+      "id": "C356-01",
+      "topic": "Constance_1536_11_23",
+      "summary_en": "Strasbourg preachers authored the request dated 23 Nov 1536 to Constance council.",
+      "source_ids": [
+        "S356-BDS258"
+      ],
+      "evidence_status": "edition_OCR",
+      "final_historical_fact_adjudicated": false,
+      "original_1536_manuscript_verified": false,
+      "publication_gate": false
+    },
+    {
+      "id": "C356-02",
+      "topic": "Constance_1536_12_23",
+      "summary_en": "BDS editor states the Constance council decided on 23 Dec 1536 to send reply and confession via Strasbourg to Luther; this does not establish receipt date.",
+      "source_ids": [
+        "S356-BDS258"
+      ],
+      "evidence_status": "edition_editorial_OCR",
+      "final_historical_fact_adjudicated": false,
+      "original_1536_manuscript_verified": false,
+      "publication_gate": false
+    },
+    {
+      "id": "C356-03",
+      "topic": "Constance_original_letter_custody",
+      "summary_en": "Conrad Hubert's fair copy was authorized by signatures of Capito Hedio Bucer and Zell; held in Constance Ref. Akt.10 with folio 310b-318b per BDS.",
+      "source_ids": [
+        "S356-BDS258"
+      ],
+      "evidence_status": "edition_ocr_shelfmark_image_unchecked",
+      "final_historical_fact_adjudicated": false,
+      "original_1536_manuscript_verified": false,
+      "publication_gate": false
+    },
+    {
+      "id": "C356-04",
+      "topic": "Constance_endorsement",
+      "summary_en": "Constance's opposition was associated with Ambrosius Blarer; separate the city's formal act from Blarer's theological viewpoint.",
+      "source_ids": [
+        "S356-BDS258",
+        "S356-WKGO"
+      ],
+      "evidence_status": "editorial_and_regional_study",
+      "final_historical_fact_adjudicated": false,
+      "original_1536_manuscript_verified": false,
+      "publication_gate": false
+    },
+    {
+      "id": "C356-05",
+      "topic": "Frankfurt_personal_signature",
+      "summary_en": "Johann Bernhard (Algesheimer) was present at Wittenberg and signed in 1536.",
+      "source_ids": [
+        "S356-FRALEX",
+        "S356-MBW"
+      ],
+      "evidence_status": "lexicon_and_regest",
+      "final_historical_fact_adjudicated": false,
+      "original_1536_manuscript_verified": false,
+      "publication_gate": false
+    },
+    {
+      "id": "C356-06",
+      "topic": "Frankfurt_report_witness",
+      "summary_en": "BDS p.136 identifies a distinct Frankfurt report by Algesheimer transmitted through damaged manuscript and later Walch/Ritter printing.",
+      "source_ids": [
+        "S356-BDS136"
+      ],
+      "evidence_status": "modern_edition_JPEG_checked",
+      "final_historical_fact_adjudicated": false,
+      "original_1536_manuscript_verified": false,
+      "publication_gate": false
+    },
+    {
+      "id": "C356-07",
+      "topic": "Frankfurt_municipal_approval",
+      "summary_en": "Formal Frankfurt city-council ratification date remains unverified; Bucer's 22 July reported agreement is not a city minute.",
+      "source_ids": [
+        "S356-CAPITO",
+        "S356-BDS136"
+      ],
+      "evidence_status": "insufficient_direct_municipal_evidence",
+      "final_historical_fact_adjudicated": false,
+      "original_1536_manuscript_verified": false,
+      "publication_gate": false
+    },
+    {
+      "id": "C356-08",
+      "topic": "Zwick_onsite_signing",
+      "summary_en": "Capito correspondence editors say Zwick did not sign on 29 May 1536.",
+      "source_ids": [
+        "S356-CAPITO",
+        "S356-MBW"
+      ],
+      "evidence_status": "editorial_synthesis",
+      "final_historical_fact_adjudicated": false,
+      "original_1536_manuscript_verified": false,
+      "publication_gate": false
+    },
+    {
+      "id": "C356-09",
+      "topic": "Zwick_later_advocacy",
+      "summary_en": "Capito's letter of 4 Sep 1536 is summarized by modern editors as reporting Zwick's vigorous advocacy of Wittenberg articles in Strasbourg.",
+      "source_ids": [
+        "S356-CAPITO"
+      ],
+      "evidence_status": "editorial_abstract_pdf_text_only",
+      "final_historical_fact_adjudicated": false,
+      "original_1536_manuscript_verified": false,
+      "publication_gate": false
+    },
+    {
+      "id": "C356-10",
+      "topic": "Zwick_own_report",
+      "summary_en": "BDS p.136 points to Zwick's report in Konstanz Ref. Akt.10 fol.94-120 and a Zurich Staatsarchiv E II 448 draft; exact Zurich folio needs image verification.",
+      "source_ids": [
+        "S356-BDS136"
+      ],
+      "evidence_status": "1988_edition_JPEG_checked_1536_folios_unseen",
+      "final_historical_fact_adjudicated": false,
+      "original_1536_manuscript_verified": false,
+      "publication_gate": false
+    },
+    {
+      "id": "C356-11",
+      "topic": "Zwick_extra_name_copy",
+      "summary_en": "Gotha Chart. B 28 lists Zwick as additional signatory in Conrad Meusel copy; this is not Zwick's original signature.",
+      "source_ids": [
+        "S356-GOTHA"
+      ],
+      "evidence_status": "archive_catalogue",
+      "final_historical_fact_adjudicated": false,
+      "original_1536_manuscript_verified": false,
+      "publication_gate": false
+    },
+    {
+      "id": "C356-12",
+      "topic": "Lindau_1536_11_02",
+      "summary_en": "Zwick's Nov 2 report, as summarized by editors, has Lindau still deliberating at that time.",
+      "source_ids": [
+        "S356-CAPITO"
+      ],
+      "evidence_status": "editorial_abstract",
+      "final_historical_fact_adjudicated": false,
+      "original_1536_manuscript_verified": false,
+      "publication_gate": false
+    },
+    {
+      "id": "C356-13",
+      "topic": "Lindau_later_conditional_subscription",
+      "summary_en": "Regional historian reports Lindau subsequently signed with reservation preserving its earlier confession and apology; signature date and authority need direct check.",
+      "source_ids": [
+        "S356-KUHN"
+      ],
+      "evidence_status": "modern_regional_history",
+      "final_historical_fact_adjudicated": false,
+      "original_1536_manuscript_verified": false,
+      "publication_gate": false
+    },
+    {
+      "id": "C356-14",
+      "topic": "Strasbourg_1536_08_26",
+      "summary_en": "Strasbourg council's formal assent on Aug 26 is reported in CWC editorial note citing Eells, not from council minutes seen here.",
+      "source_ids": [
+        "S356-CAPITO"
+      ],
+      "evidence_status": "editorial_headnote_indirect",
+      "final_historical_fact_adjudicated": false,
+      "original_1536_manuscript_verified": false,
+      "publication_gate": false
+    },
+    {
+      "id": "C356-15",
+      "topic": "Blarer_doctrinal_objection",
+      "summary_en": "Historical study relates Blarer's refusal to manducatio indignorum, and distinguish this from Constance's municipal decision.",
+      "source_ids": [
+        "S356-WKGO"
+      ],
+      "evidence_status": "modern_church_historical_study",
+      "final_historical_fact_adjudicated": false,
+      "original_1536_manuscript_verified": false,
+      "publication_gate": false
+    },
+    {
+      "id": "C356-16",
+      "topic": "Date_metadata_conflict",
+      "summary_en": "MBW 1744 standardizes May 29 and calls BDS 1988 May 28 date erroneous; HAPuls labels a document May 26 but should not replace the event date without separate manuscript review.",
+      "source_ids": [
+        "S356-MBW",
+        "S356-HAPULS"
+      ],
+      "evidence_status": "source_level_date_discrepancy",
+      "final_historical_fact_adjudicated": false,
+      "original_1536_manuscript_verified": false,
+      "publication_gate": false
+    }
+  ],
+  "events": [
+    {
+      "event_id": "V356-E01",
+      "date": "1536-05-29",
+      "date_precision": "day",
+      "place": "Wittenberg",
+      "object": "Zwick participant",
+      "status": "non_signature_reported_by_editor",
+      "source_ids": [
+        "S356-CAPITO"
+      ],
+      "follows": "V3.55 participant assent",
+      "caution": "Non-signature is not blanket denial of articles.",
+      "original_city_minutes_seen": false,
+      "original_historical_manuscript_seen": false,
+      "publication_gate": false
+    },
+    {
+      "event_id": "V356-E02",
+      "date": "1536-09-04",
+      "date_precision": "report_date",
+      "place": "Strasbourg",
+      "object": "Capito-to-Luther letter summarizing Zwick",
+      "status": "later_advocacy_reported",
+      "source_ids": [
+        "S356-CAPITO"
+      ],
+      "follows": null,
+      "caution": "Day of Zwick's advocacy itself unverified.",
+      "original_city_minutes_seen": false,
+      "original_historical_manuscript_seen": false,
+      "publication_gate": false
+    },
+    {
+      "event_id": "V356-E03",
+      "date": "1536-11-02",
+      "date_precision": "report_date",
+      "place": "Constance",
+      "object": "Zwick report to Bullinger on undecided cities",
+      "status": "lindau_discussion_ongoing",
+      "source_ids": [
+        "S356-CAPITO"
+      ],
+      "follows": "W055-16",
+      "caution": "The status of Lindau is dated as of report, not final outcome.",
+      "original_city_minutes_seen": false,
+      "original_historical_manuscript_seen": false,
+      "publication_gate": false
+    },
+    {
+      "event_id": "V356-E04",
+      "date": "1536-11-23",
+      "date_precision": "document_date",
+      "place": "Strasbourg",
+      "object": "appeal from four preachers to Constance council",
+      "status": "letter_composed",
+      "source_ids": [
+        "S356-BDS258"
+      ],
+      "follows": "W055-17",
+      "caution": "Date of letter not date council signed or decided.",
+      "original_city_minutes_seen": false,
+      "original_historical_manuscript_seen": false,
+      "publication_gate": false
+    },
+    {
+      "event_id": "V356-E05",
+      "date": "1536-11-27",
+      "date_precision": "manuscript_annotation",
+      "place": "Constance",
+      "object": "productum note in another hand on document",
+      "status": "document_handling_mark",
+      "source_ids": [
+        "S356-BDS258"
+      ],
+      "follows": "V356-E04",
+      "caution": "Meaning of productum mark as receipt/presentation is not verified.",
+      "original_city_minutes_seen": false,
+      "original_historical_manuscript_seen": false,
+      "publication_gate": false
+    },
+    {
+      "event_id": "V356-E06",
+      "date": "1536-12-23",
+      "date_precision": "council_decision_date_reported_by_editor",
+      "place": "Constance",
+      "object": "reply and confession to be sent via Strasbourg to Luther",
+      "status": "decision_to_send_reply_reported",
+      "source_ids": [
+        "S356-BDS258"
+      ],
+      "follows": "V356-E04",
+      "caution": "Do not claim actual dispatch/delivery or endorsement of Concord.",
+      "original_city_minutes_seen": false,
+      "original_historical_manuscript_seen": false,
+      "publication_gate": false
+    },
+    {
+      "event_id": "V356-E07",
+      "date": null,
+      "date_precision": "undated_later_event",
+      "place": "Lindau",
+      "object": "conditional subscription with reservation",
+      "status": "later_conditional_subscription_reported",
+      "source_ids": [
+        "S356-KUHN"
+      ],
+      "follows": "V356-E03",
+      "caution": "Date and issuing body unverified; no fabricated precise date.",
+      "original_city_minutes_seen": false,
+      "original_historical_manuscript_seen": false,
+      "publication_gate": false
+    },
+    {
+      "event_id": "V356-E08",
+      "date": "1536-06-02/1536-06-05",
+      "date_precision": "date_range_document_context",
+      "place": "Frankfurt am Main",
+      "object": "Bernhard Algesheimer's individual meeting account in BDS transmission",
+      "status": "representative_report_attested",
+      "source_ids": [
+        "S356-BDS136"
+      ],
+      "follows": "W055-02",
+      "caution": "Separate written report from city-council ratification.",
+      "original_city_minutes_seen": false,
+      "original_historical_manuscript_seen": false,
+      "publication_gate": false
+    },
+    {
+      "event_id": "V356-E09",
+      "date": "1536-08-26",
+      "date_precision": "day_editorial",
+      "place": "Strasbourg",
+      "object": "formal city council adoption according to editor citing Eells",
+      "status": "city_ratification_reported_not_minutes_verified",
+      "source_ids": [
+        "S356-CAPITO"
+      ],
+      "follows": "W055-10",
+      "caution": "Council minutes not examined.",
+      "original_city_minutes_seen": false,
+      "original_historical_manuscript_seen": false,
+      "publication_gate": false
+    }
+  ],
+  "adjudications": [
+    {
+      "id": "A356-CONSTANCE",
+      "supersedes_interpretation_of": [
+        "W055-16",
+        "W055-17"
+      ],
+      "decision": "retains_november_rejection_but_appends_nov23_letter_nov27_handling_mark_dec23_dispatch_decision",
+      "city": "Constance",
+      "state": "rejection_reported_with_continued_correspondence",
+      "final_publication": false
+    },
+    {
+      "id": "A356-FRANKFURT",
+      "supersedes_interpretation_of": [
+        "W055-02",
+        "W055-08"
+      ],
+      "decision": "individual_signed_and_report_survives_formal_city_ratification_unverified",
+      "city": "Frankfurt am Main",
+      "state": "individual_signer_plus_council_status_unverified",
+      "final_publication": false
+    },
+    {
+      "id": "A356-LINDAU",
+      "supersedes_interpretation_of": [
+        "W055-16"
+      ],
+      "decision": "nov2_still_debating_later_conditional_subscription_day_unknown",
+      "city": "Lindau",
+      "state": "time_varying_consideration_then_conditional_subscription_reported",
+      "final_publication": false
+    },
+    {
+      "id": "A356-ZWICK",
+      "supersedes_interpretation_of": [
+        "W055-C01-ZWICK-SIGNATURE"
+      ],
+      "decision": "onsite_non_signature_per_editor_later_advocacy_per_letter_summary_and_name_in_later_copy_not_equivalent",
+      "person": "Johannes Zwick",
+      "state": "multi_dimension_assessment_required",
+      "final_publication": false
+    },
+    {
+      "id": "A356-STRASBOURG",
+      "supersedes_interpretation_of": [
+        "W055-10"
+      ],
+      "decision": "council_ratification_editorial_Eells_indirect_not_clergy_unanimous",
+      "city": "Strasbourg",
+      "state": "council_approval_reported_colleague_disagreement",
+      "final_publication": false
+    }
+  ],
+  "qc": {
+    "sources_expected": 9,
+    "claims_expected": 16,
+    "events_expected": 9,
+    "adjudications_expected": 5,
+    "original_source_folios_verified": false,
+    "edition_1988_page136_scan_checked": true,
+    "edition_1988_page258_scan_checked": false,
+    "capito_pdf_screenshot_failed_403": true,
+    "concord_date_normalized": "1536-05-29"
+  },
+  "exclusions": [
+    "No 1536 autograph manuscript directly inspected",
+    "No city council minute directly inspected",
+    "No automatic equivalence of signature and assent",
+    "No conversion of conditional subscription to full endorsement",
+    "No estimated event date used as a precise event date"
+  ],
+  "next_gate": "V3.57: source requests for Constance Reformationsakten, Zurich E II 448, and Strasbourg 26 Aug ratification; inspect original diplomatic text and collation."
+}
