@@ -1,0 +1,404 @@
+{
+  "schema_version": "1.0.0",
+  "dataset_id": "atlas-v358-basel-reception",
+  "version": "V3.58",
+  "created_on": "2026-11-11",
+  "parent_branch": "research/atlas-v357-concord-berlin-witness-bullinger-index",
+  "branch": "research/atlas-v358-basel-1536-1537-date-witness-collation",
+  "release": {
+    "status": "DRAFT",
+    "can_ship": false,
+    "expert_approved": false,
+    "main_changed": false,
+    "history_essays_changed": false,
+    "web_app_changed": false
+  },
+  "source_register": {
+    "S358-BASEL": {
+      "url": "https://www.e-manuscripta.ch/bau/texte/content/titleinfo/4260207",
+      "title": "UB Basel Verhandlungen in Strassburg",
+      "type": "institutional_catalogue",
+      "access": "catalogue_html",
+      "manuscript_image_verified": false
+    },
+    "S358-BASEL-IIIF": {
+      "url": "https://www.e-manuscripta.ch/i3f/v20/4260207/manifest",
+      "title": "UB Basel IIIF manifest",
+      "type": "iiif_manifest",
+      "access": "JSON_manifest_read_canvases_4",
+      "manuscript_image_verified": false
+    },
+    "S358-BDS217": {
+      "url": "https://digi.hadw-bw.de/view/bds6_1/0221",
+      "title": "BDS 6/1 printed p.217",
+      "type": "modern_critical_edition",
+      "access": "OCR_web",
+      "manuscript_image_verified": false
+    },
+    "S358-BDS218": {
+      "url": "https://digi.hadw-bw.de/view/bds6_1/0222",
+      "title": "BDS 6/1 printed p.218",
+      "type": "modern_critical_edition",
+      "access": "OCR_web",
+      "manuscript_image_verified": false
+    },
+    "S358-CAPITO623": {
+      "url": "https://capito.iterpubs.org/letters/1536/Letter_623.pdf",
+      "title": "Correspondence of Wolfgang Capito Letter 623 editorial summary",
+      "type": "scholarly_abstract",
+      "access": "PDF_page0_screenshot_checked",
+      "manuscript_image_verified": false
+    },
+    "S358-BDS63": {
+      "url": "https://digi.hadw-bw.de/view/bds6_3/0017",
+      "title": "BDS 6/3 1536 chronology",
+      "type": "scholarly_edition_chronology",
+      "access": "OCR_web",
+      "manuscript_image_verified": false
+    },
+    "S358-HBBW6": {
+      "url": "https://www.irg.uzh.ch/de/publikationen/bullinger/edition-briefwechsel/briefverzeichnis.html",
+      "title": "HBBW official letter index",
+      "type": "scholarly_letter_index",
+      "access": "index_only",
+      "manuscript_image_verified": false
+    },
+    "S358-BERLIN-2016": {
+      "url": "https://www.hadw-bw.de/sites/default/files/documents/Nicht%20edierte%20Texte%20von%20Bucer.pdf",
+      "title": "2016 Heidelberg list of unedited Bucer texts",
+      "type": "historical_critical_bibliography",
+      "access": "known_prior_record_current_web_404",
+      "manuscript_image_verified": false
+    }
+  },
+  "witnesses": [
+    {
+      "id": "BASEL-UBH-KIAR-MSCR-23A-66",
+      "title": "Verhandlungen in Strassburg",
+      "shelfmark": "UBH KiAr Mscr 23a:66",
+      "foliation": "Bl.156–157",
+      "catalogue_date": "1537-08-02",
+      "digitized": true,
+      "iiif_manifest": "S358-BASEL-IIIF",
+      "canvas_ids": [
+        4260208,
+        4260209,
+        4260210,
+        4260211
+      ],
+      "source_ids": [
+        "S358-BASEL",
+        "S358-BASEL-IIIF"
+      ],
+      "facsimile_pixels_read": false,
+      "associated_BDS_1988_siglum": null,
+      "equivalent_to_BDS_C": "unresolved",
+      "date_verdict": "catalogue_only"
+    },
+    {
+      "id": "BDS-1988-EXPLANATION-A",
+      "shelfmark": "Zürich StA E II 337",
+      "foliation": "160a–161b",
+      "editorial_date": "1536-07-17",
+      "text_role": "1988 edition base manuscript for 17 July explanation",
+      "source_ids": [
+        "S358-BDS217"
+      ],
+      "facsimile_pixels_read": false
+    },
+    {
+      "id": "BDS-1988-EXPLANATION-C",
+      "shelfmark": "Basel UB MSA VI, 43a (as cited BDS)",
+      "catalogue_or_copy_date": "1537-08-02",
+      "editorial_date": "1536-07-17",
+      "date_verdict": "edition_reports_1537_date_erroneous",
+      "source_ids": [
+        "S358-BDS217",
+        "S358-BDS218"
+      ],
+      "facsimile_pixels_read": false
+    },
+    {
+      "id": "BERLIN-EXTRA-1536",
+      "shelfmark": "Staatsbibliothek zu Berlin Ms. Germ. 2° 1439",
+      "foliation": "161r–162r",
+      "date_as_2016_bibliography": "1536-05-29",
+      "source_ids": [
+        "S358-BERLIN-2016"
+      ],
+      "facsimile_pixels_read": false,
+      "source_live_check": "404",
+      "not_equivalent_to_basel_witness": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "WC358-01",
+      "summary": "UB Basel supplies two-leaf four-canvas digitized manuscript item and DOI.",
+      "source_ids": [
+        "S358-BASEL",
+        "S358-BASEL-IIIF"
+      ],
+      "evidence_level": "institutional_metadata",
+      "primary_manuscript_directly_read": false,
+      "expert_approved": false,
+      "publish": false
+    },
+    {
+      "id": "WC358-02",
+      "summary": "UB Basel catalogue assigns date 2 Aug 1537 to Mscr 23a:66.",
+      "source_ids": [
+        "S358-BASEL"
+      ],
+      "evidence_level": "catalogue_date",
+      "primary_manuscript_directly_read": false,
+      "expert_approved": false,
+      "publish": false
+    },
+    {
+      "id": "WC358-03",
+      "summary": "BDS 6/1 edits Strasbourg/Basel explanation as 17 July 1536.",
+      "source_ids": [
+        "S358-BDS217"
+      ],
+      "evidence_level": "edition_date",
+      "primary_manuscript_directly_read": false,
+      "expert_approved": false,
+      "publish": false
+    },
+    {
+      "id": "WC358-04",
+      "summary": "BDS reports 2 Aug 1537 date in a specific Basel copy as erroneous.",
+      "source_ids": [
+        "S358-BDS217",
+        "S358-BDS218"
+      ],
+      "evidence_level": "editorial_text_criticism",
+      "primary_manuscript_directly_read": false,
+      "expert_approved": false,
+      "publish": false
+    },
+    {
+      "id": "WC358-05",
+      "summary": "BDS copy C Basel UB MSA VI 43a and newly found UBH KiAr Mscr 23a:66 have different shelfmark strings and must not be auto-joined.",
+      "source_ids": [
+        "S358-BDS217",
+        "S358-BASEL"
+      ],
+      "evidence_level": "identity_unresolved",
+      "primary_manuscript_directly_read": false,
+      "expert_approved": false,
+      "publish": false
+    },
+    {
+      "id": "WC358-06",
+      "summary": "BDS references 17 July 1536 postscript in Zürich E II 337.",
+      "source_ids": [
+        "S358-BDS217"
+      ],
+      "evidence_level": "edition_apparatus",
+      "primary_manuscript_directly_read": false,
+      "expert_approved": false,
+      "publish": false
+    },
+    {
+      "id": "WC358-07",
+      "summary": "Myconius dated 19 July 1536 reports Basel envoys still in Strasbourg, per BDS note.",
+      "source_ids": [
+        "S358-BDS218"
+      ],
+      "evidence_level": "edition_cites_letter",
+      "primary_manuscript_directly_read": false,
+      "expert_approved": false,
+      "publish": false
+    },
+    {
+      "id": "WC358-08",
+      "summary": "Basel theologians objected to possible unio naturalis inference, per BDS introduction.",
+      "source_ids": [
+        "S358-BDS217"
+      ],
+      "evidence_level": "critical_edition_interpretation",
+      "primary_manuscript_directly_read": false,
+      "expert_approved": false,
+      "publish": false
+    },
+    {
+      "id": "WC358-09",
+      "summary": "Basel sent Karlstadt and Grynaeus to Strasbourg to confer with Bucer/Capito, according to BDS editor.",
+      "source_ids": [
+        "S358-BDS217"
+      ],
+      "evidence_level": "critical_edition_interpretation",
+      "primary_manuscript_directly_read": false,
+      "expert_approved": false,
+      "publish": false
+    },
+    {
+      "id": "WC358-10",
+      "summary": "Capito Letter 623 scholarly summary treats September 1536 Basel talks as follow-up to July explanation.",
+      "source_ids": [
+        "S358-CAPITO623"
+      ],
+      "evidence_level": "modern_correspondence_summary_screenshot_checked",
+      "primary_manuscript_directly_read": false,
+      "expert_approved": false,
+      "publish": false
+    },
+    {
+      "id": "WC358-11",
+      "summary": "Capito summary distinguishes real presence from natural union, transubstantiation, and local presence.",
+      "source_ids": [
+        "S358-CAPITO623"
+      ],
+      "evidence_level": "modern_correspondence_summary_screenshot_checked",
+      "primary_manuscript_directly_read": false,
+      "expert_approved": false,
+      "publish": false
+    },
+    {
+      "id": "WC358-12",
+      "summary": "Capito summary distinguishes sacrament received by unworthy from saving benefit by believers.",
+      "source_ids": [
+        "S358-CAPITO623"
+      ],
+      "evidence_level": "modern_correspondence_summary_screenshot_checked",
+      "primary_manuscript_directly_read": false,
+      "expert_approved": false,
+      "publish": false
+    },
+    {
+      "id": "WC358-13",
+      "summary": "Capito summary expressly separates participant signature from church/authorities ratification.",
+      "source_ids": [
+        "S358-CAPITO623"
+      ],
+      "evidence_level": "modern_correspondence_summary_screenshot_checked",
+      "primary_manuscript_directly_read": false,
+      "expert_approved": false,
+      "publish": false
+    },
+    {
+      "id": "WC358-14",
+      "summary": "HBBW 6 Ep.911 is a letter-index entry only; full text remains uninspected.",
+      "source_ids": [
+        "S358-HBBW6"
+      ],
+      "evidence_level": "metadata_only",
+      "primary_manuscript_directly_read": false,
+      "expert_approved": false,
+      "publish": false
+    },
+    {
+      "id": "WC358-15",
+      "summary": "Basel manuscript images not read; IIIF manifest does not equal manuscript diplomatic transcription.",
+      "source_ids": [
+        "S358-BASEL-IIIF"
+      ],
+      "evidence_level": "verification_boundary",
+      "primary_manuscript_directly_read": false,
+      "expert_approved": false,
+      "publish": false
+    }
+  ],
+  "events": [
+    {
+      "id": "V358-E01",
+      "date": "1536-05-29",
+      "date_kind": "editorial_normalization",
+      "place": "Wittenberg",
+      "topic": "agreement",
+      "sources": [
+        "S358-BDS63"
+      ],
+      "verified_primary_manuscript": false
+    },
+    {
+      "id": "V358-E02",
+      "date": "1536-07-17",
+      "date_kind": "critical_edition_event_date",
+      "place": "Strasbourg",
+      "topic": "Basel-envoys Strasbourg explanation",
+      "sources": [
+        "S358-BDS217"
+      ],
+      "verified_primary_manuscript": false
+    },
+    {
+      "id": "V358-E03",
+      "date": "1536-07-19",
+      "date_kind": "letter_date_cited_in_edition",
+      "place": "Basel/Strasbourg",
+      "topic": "Myconius letter states envoys still in Strasbourg",
+      "sources": [
+        "S358-BDS218"
+      ],
+      "verified_primary_manuscript": false
+    },
+    {
+      "id": "V358-E04",
+      "date": "1536-09-24",
+      "date_kind": "approximate_editorial_date",
+      "place": "Basel",
+      "topic": "Capito Bucer explanation to Basel colloquy",
+      "sources": [
+        "S358-CAPITO623"
+      ],
+      "verified_primary_manuscript": false
+    },
+    {
+      "id": "V358-E05",
+      "date": "1537-08-02",
+      "date_kind": "catalogue_attribution_not_established_event_date",
+      "place": "Strasbourg?",
+      "topic": "UB Basel Mscr 23a:66 assigned creation date",
+      "sources": [
+        "S358-BASEL"
+      ],
+      "verified_primary_manuscript": false
+    }
+  ],
+  "link_risk": {
+    "pair": [
+      "BASEL-UBH-KIAR-MSCR-23A-66",
+      "BDS-1988-EXPLANATION-C"
+    ],
+    "physical_identity": "UNRESOLVED",
+    "automatic_join_allowed": false,
+    "evidence_to_resolve": [
+      "shelfmark_concordance",
+      "incipit",
+      "explicit",
+      "handwriting",
+      "date_note",
+      "subscription_sequence"
+    ]
+  },
+  "rights": {
+    "asset": "BASEL-UBH-KIAR-MSCR-23A-66",
+    "status": "Public Domain Mark per UB Basel catalogue",
+    "attribution_required_by_library": true,
+    "library_requests_notification_on_reuse": true,
+    "files_mirrored_to_repository": false,
+    "app_assets_published": false
+  },
+  "qc": {
+    "canvases_expected": 4,
+    "claims_expected": 15,
+    "events_expected": 5,
+    "witnesses_expected": 4,
+    "source_count_expected": 8,
+    "all_primary_unread": true,
+    "manifest_read": true,
+    "pdf_screenshots_for_basel_failed_timeout": true,
+    "capito_summary_page_screenshot_verified": true,
+    "registration_no_publication": true
+  },
+  "next_gate": [
+    "Basel manuscript four canvas image-level reading",
+    "BDS C shelfmark concordance verification",
+    "HBBW 6 Ep 911 full text review",
+    "Berlin candidate current catalogue verification",
+    "BDS Sept 1536 text collation"
+  ]
+}
