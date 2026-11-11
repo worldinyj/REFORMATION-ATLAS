@@ -1,0 +1,328 @@
+{
+  "schema_version": "1.0.0",
+  "version": "V3.60",
+  "as_of": "2026-11-11",
+  "branch": "research/atlas-v360-barge-1905-appendix50-fulltext-audit",
+  "parent": "research/atlas-v359-basel-facsimile-1905-transmission-audit",
+  "release": {
+    "state": "DRAFT",
+    "can_ship": false,
+    "expert_approved": false,
+    "history_modified": false,
+    "main_modified": false,
+    "webapp_modified": false
+  },
+  "source_register": {
+    "BARGE50": {
+      "url": "https://archive.org/stream/andreasbodenstei02barg/andreasbodenstei02barg_djvu.txt"
+    },
+    "BARGE51": {
+      "url": "https://archive.org/stream/andreasbodenstei02barg/andreasbodenstei02barg_djvu.txt"
+    },
+    "BARGECH": {
+      "url": "https://archive.org/stream/andreasbodenstei02barg/andreasbodenstei02barg_djvu.txt"
+    },
+    "BARGEBOOK": {
+      "url": "https://archive.org/details/andreasbodenstei02barg"
+    },
+    "BDS217": {
+      "url": "https://digi.hadw-bw.de/view/bds6_1/0221"
+    },
+    "BDS218": {
+      "url": "https://digi.hadw-bw.de/view/bds6_1/0222"
+    },
+    "BASEL": {
+      "url": "https://doi.org/10.7891/e-manuscripta-163362"
+    }
+  },
+  "claims": [
+    {
+      "id": "V360-C01",
+      "statement": "1905 appendix 50 pages 603-606 text directly read from digitized OCR",
+      "sources": [
+        "BARGE50",
+        "BARGEBOOK"
+      ],
+      "original_1536_autograph_verified": false,
+      "publication_allowed": false
+    },
+    {
+      "id": "V360-C02",
+      "statement": "1905 editor calls heading year 1537 erroneous for 1536",
+      "sources": [
+        "BARGE50"
+      ],
+      "original_1536_autograph_verified": false,
+      "publication_allowed": false
+    },
+    {
+      "id": "V360-C03",
+      "statement": "1905 editor calls 2 Augusti 1537 note erroneous for 1536",
+      "sources": [
+        "BARGE50"
+      ],
+      "original_1536_autograph_verified": false,
+      "publication_allowed": false
+    },
+    {
+      "id": "V360-C04",
+      "statement": "1905 appendix 51 prints Karlstadt July 29 1536 letter about Strasbourg mission",
+      "sources": [
+        "BARGE51"
+      ],
+      "original_1536_autograph_verified": false,
+      "publication_allowed": false
+    },
+    {
+      "id": "V360-C05",
+      "statement": "Q1 true presence does not mean natural union/transubstantiation",
+      "sources": [
+        "BARGE50"
+      ],
+      "original_1536_autograph_verified": false,
+      "publication_allowed": false
+    },
+    {
+      "id": "V360-C06",
+      "statement": "Q2 old testament saints received Christ",
+      "sources": [
+        "BARGE50"
+      ],
+      "original_1536_autograph_verified": false,
+      "publication_allowed": false
+    },
+    {
+      "id": "V360-C07",
+      "statement": "Q3 bodily dwelling explained using John 6 and Eph 5",
+      "sources": [
+        "BARGE50"
+      ],
+      "original_1536_autograph_verified": false,
+      "publication_allowed": false
+    },
+    {
+      "id": "V360-C08",
+      "statement": "Q4 unworthy Corinthian believers rebuked but called brothers",
+      "sources": [
+        "BARGE50"
+      ],
+      "original_1536_autograph_verified": false,
+      "publication_allowed": false
+    },
+    {
+      "id": "V360-C09",
+      "statement": "Q4 does not adjudicate total unbelievers in that response",
+      "sources": [
+        "BARGE50"
+      ],
+      "original_1536_autograph_verified": false,
+      "publication_allowed": false
+    },
+    {
+      "id": "V360-C10",
+      "statement": "Final listed persons and proxies are not authenticated autographs",
+      "sources": [
+        "BARGE50",
+        "BASEL"
+      ],
+      "original_1536_autograph_verified": false,
+      "publication_allowed": false
+    },
+    {
+      "id": "V360-C11",
+      "statement": "Barge narrates 1536 August 2 Basel clergy report",
+      "sources": [
+        "BARGECH"
+      ],
+      "original_1536_autograph_verified": false,
+      "publication_allowed": false
+    },
+    {
+      "id": "V360-C12",
+      "statement": "Barge registers Basel Staatsarchiv A9 fol405-410 alternate copy",
+      "sources": [
+        "BARGECH"
+      ],
+      "original_1536_autograph_verified": false,
+      "publication_allowed": false
+    },
+    {
+      "id": "V360-C13",
+      "statement": "Barge reports alternate copy omits last reservation sentence",
+      "sources": [
+        "BARGECH",
+        "BARGE50"
+      ],
+      "original_1536_autograph_verified": false,
+      "publication_allowed": false
+    },
+    {
+      "id": "V360-C14",
+      "statement": "Barge reports Truckenbrot copying notation dated 3 January Anno 58",
+      "sources": [
+        "BARGECH"
+      ],
+      "original_1536_autograph_verified": false,
+      "publication_allowed": false
+    },
+    {
+      "id": "V360-C15",
+      "statement": "July 17 chronology role differs between Barge 1905 and BDS 1988",
+      "sources": [
+        "BARGECH",
+        "BDS217"
+      ],
+      "original_1536_autograph_verified": false,
+      "publication_allowed": false
+    },
+    {
+      "id": "V360-C16",
+      "statement": "BDS 1988 rejects 1537 August 2 copied date and cites July 19 1536 Myconius letter",
+      "sources": [
+        "BDS217",
+        "BDS218"
+      ],
+      "original_1536_autograph_verified": false,
+      "publication_allowed": false
+    }
+  ],
+  "questions": [
+    {
+      "id": "V360-Q1",
+      "topic": "Natural union and true presence",
+      "interpretation": "Natural mixture/spatial enclosure rejected; not empty sign",
+      "print_page": "604-605",
+      "source_ids": [
+        "BARGE50"
+      ],
+      "original_1536_autograph_checked": false
+    },
+    {
+      "id": "V360-Q2",
+      "topic": "Old covenant saints",
+      "interpretation": "Receiving Christ distinguished from clarity and Spirit's effects",
+      "print_page": "605",
+      "source_ids": [
+        "BARGE50"
+      ],
+      "original_1536_autograph_checked": false
+    },
+    {
+      "id": "V360-Q3",
+      "topic": "Bodily dwelling",
+      "interpretation": "John 6, Eph 5, patristic union",
+      "print_page": "605",
+      "source_ids": [
+        "BARGE50"
+      ],
+      "original_1536_autograph_checked": false
+    },
+    {
+      "id": "V360-Q4",
+      "topic": "Unworthy communicants",
+      "interpretation": "Rebuked Corinthian believers still brethren; outright unbelievers outside this answer",
+      "print_page": "605",
+      "source_ids": [
+        "BARGE50"
+      ],
+      "original_1536_autograph_checked": false
+    }
+  ],
+  "dates": [
+    {
+      "date": "1536-07-17",
+      "date_role": "Basel delegates dispatched in Barge narrative",
+      "sources": [
+        "BARGECH"
+      ],
+      "status": "CONFLICT",
+      "manuscript_event_date_inferred": false
+    },
+    {
+      "date": "1536-07-17",
+      "date_role": "Strasbourg explanation editorial date in BDS 1988",
+      "sources": [
+        "BDS217"
+      ],
+      "status": "CONFLICT",
+      "manuscript_event_date_inferred": false
+    },
+    {
+      "date": "1536-07-29",
+      "date_role": "Karlstadt letter to Bullinger",
+      "sources": [
+        "BARGE51"
+      ],
+      "status": "PRINTED_COPY",
+      "manuscript_event_date_inferred": false
+    },
+    {
+      "date": "1536-08-02",
+      "date_role": "Basel clergy report reconstructed by Barge",
+      "sources": [
+        "BARGECH"
+      ],
+      "status": "HISTORICAL_STUDY",
+      "manuscript_event_date_inferred": false
+    },
+    {
+      "date": "1537",
+      "date_role": "Basel title written year",
+      "sources": [
+        "BARGE50",
+        "BASEL"
+      ],
+      "status": "WRITTEN_IN_COPY",
+      "manuscript_event_date_inferred": false
+    },
+    {
+      "date": "1537-08-02",
+      "date_role": "Basel closing note written date",
+      "sources": [
+        "BARGE50",
+        "BASEL"
+      ],
+      "status": "WRITTEN_IN_COPY",
+      "manuscript_event_date_inferred": false
+    }
+  ],
+  "variants": [
+    {
+      "id": "V360-END-01",
+      "reading": "Not everyone believes it",
+      "copy_present": "Gernlerianae I fol156-157; Basel KiAr23a relation candidate",
+      "copy_absent": "Basel Staatsarchiv Kirchenakten A9 fol405-410 per Barge p480 footnote",
+      "status": "reported_by_1905_editor_not_crosschecked",
+      "cause": "unknown",
+      "source_ids": [
+        "BARGECH",
+        "BARGE50"
+      ],
+      "original_alternate_copy_seen": false
+    }
+  ],
+  "additional_copy": {
+    "shelfmark": "Staatsarchiv Basel Kirchenakten A9 fol405-410 per 1905 reference",
+    "copyist_record": "Jacobus Truckenbrot, 3 Januarii Anno 58 as printed",
+    "image_checked": false
+  },
+  "qc": {
+    "appendix50_full_OCR_read": true,
+    "appendix51_OCR_read": true,
+    "print_page_images_checked": false,
+    "basel_4_original_images_prior_V359": true,
+    "other_copy_image_checked": false,
+    "auto_merge_BDS_C_with_KiAr": false
+  },
+  "review_patch_target_ids": [
+    "ATLAS-WC-1536-02",
+    "WC354-L08"
+  ],
+  "next_steps": [
+    "Barge 1905 page images pp603-606",
+    "Basel archival second copy fol405-410",
+    "BDS variants for Q4",
+    "Basel council 17 July date distinction",
+    "review only patch to existing explanations"
+  ]
+}
