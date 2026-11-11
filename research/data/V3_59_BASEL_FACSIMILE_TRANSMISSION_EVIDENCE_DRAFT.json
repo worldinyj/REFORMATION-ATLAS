@@ -1,0 +1,398 @@
+{
+  "schema_version": "1.0.0",
+  "version": "V3.59",
+  "date": "2026-11-11",
+  "branch": "research/atlas-v359-basel-facsimile-1905-transmission-audit",
+  "parent": "research/atlas-v358-basel-1536-1537-date-witness-collation",
+  "release": {
+    "state": "DRAFT",
+    "can_ship": false,
+    "expert_approved": false,
+    "existing_essays_modified": false,
+    "main_modified": false,
+    "webapp_modified": false
+  },
+  "subject": {
+    "title": "Verhandlungen in Strassburg",
+    "shelfmark": "UBH KiAr Mscr 23a:66 Bl.156-157",
+    "doi": "https://doi.org/10.7891/e-manuscripta-163362",
+    "pdf_total_pages": 5,
+    "manuscript_image_pages": 4,
+    "facsimile_reviewed": true,
+    "fully_transcribed": false,
+    "autograph_signatures_confirmed": false
+  },
+  "sources": {
+    "UB_BASEL_RECORD": {
+      "url": "https://www.e-manuscripta.ch/bau/texte/content/titleinfo/4260207",
+      "access": "official_catalogue_checked",
+      "kind": "institutional"
+    },
+    "UB_BASEL_PDF": {
+      "url": "https://www.e-manuscripta.ch/bau/download/pdf/4260207",
+      "access": "all_four_folio_PDF_screenshots_checked",
+      "kind": "digitized_manuscript"
+    },
+    "UB_BASEL_MANIFEST": {
+      "url": "https://www.e-manuscripta.ch/i3f/v20/4260207/manifest",
+      "access": "IIIF_json_checked",
+      "kind": "institutional"
+    },
+    "BDS_1988_217": {
+      "url": "https://digi.hadw-bw.de/view/bds6_1/0221",
+      "access": "edition_OCR_checked",
+      "kind": "modern_critical_edition"
+    },
+    "BDS_1988_218": {
+      "url": "https://digi.hadw-bw.de/view/bds6_1/0222",
+      "access": "edition_OCR_checked",
+      "kind": "modern_critical_edition"
+    },
+    "ABENDSCHEIN_2017": {
+      "url": "https://regionalia.blb-karlsruhe.de/files/21006/BLB_Abendschein_Simon_Sulzer.pdf",
+      "access": "PDF_page_index14_printed286_n68_screenshot_checked",
+      "kind": "modern_scholarship"
+    },
+    "BARGE_1905_II": {
+      "url": "https://www.uni-wittenberg.de/wp-content/uploads/application/pdf/Barge-1905_Karlstadt-als-Vorkaempfer.pdf",
+      "access": "TOC_Appendix50_page603_checked_text_603_606_not_read",
+      "kind": "historical_editorial_print"
+    }
+  },
+  "pages": [
+    {
+      "pdf_page_index": 1,
+      "canvas_id": 4260208,
+      "folio": "156r",
+      "verified": true,
+      "observations": [
+        "title_mentions_Karlstadt_Grynaeus_Strasbourg",
+        "title_has_Anno_1537",
+        "communion_QA"
+      ],
+      "short_verified_readings": [
+        "Anno 1537"
+      ],
+      "full_diplomatic_reading_complete": false
+    },
+    {
+      "pdf_page_index": 2,
+      "canvas_id": 4260209,
+      "folio": "156v",
+      "verified": true,
+      "observations": [
+        "question_answer_divisions",
+        "marginal_notes",
+        "eucharist_body_blood_discussion"
+      ],
+      "short_verified_readings": [],
+      "full_diplomatic_reading_complete": false
+    },
+    {
+      "pdf_page_index": 3,
+      "canvas_id": 4260210,
+      "folio": "157r",
+      "verified": true,
+      "observations": [
+        "more_questions",
+        "christological_sacramental_and_unity_discussion"
+      ],
+      "short_verified_readings": [],
+      "full_diplomatic_reading_complete": false
+    },
+    {
+      "pdf_page_index": 4,
+      "canvas_id": 4260211,
+      "folio": "157v",
+      "verified": true,
+      "observations": [
+        "names_list_as_copied",
+        "bottom_2_August_1537_note",
+        "Basel_reception_discussion"
+      ],
+      "short_verified_readings": [
+        "2 Augusti Anno 1537"
+      ],
+      "names_in_copied_list": [
+        "Andreas Carolstad",
+        "Simon Gryneus",
+        "Wolfgangus Capito",
+        "Martinus Bucer",
+        "Jacobus Bedrotus",
+        "Hedio (named by proxy)",
+        "Zell (named by proxy)"
+      ],
+      "autograph_signatures_authenticated": false,
+      "full_diplomatic_reading_complete": false
+    }
+  ],
+  "claims": [
+    {
+      "id": "V359-C01",
+      "summary_en": "Catalog shelfmark KiAr Mscr 23a:66 and Public Domain Mark confirmed.",
+      "source_ids": [
+        "UB_BASEL_RECORD"
+      ],
+      "evidence_level": "institutional_catalogue",
+      "publication_allowed": false,
+      "expert_approved": false
+    },
+    {
+      "id": "V359-C02",
+      "summary_en": "Opening title visibly carries Anno 1537.",
+      "source_ids": [
+        "UB_BASEL_PDF"
+      ],
+      "evidence_level": "digitized_manuscript_image",
+      "publication_allowed": false,
+      "expert_approved": false
+    },
+    {
+      "id": "V359-C03",
+      "summary_en": "Final-page lower note visibly carries 2 Augusti Anno 1537.",
+      "source_ids": [
+        "UB_BASEL_PDF"
+      ],
+      "evidence_level": "digitized_manuscript_image",
+      "publication_allowed": false,
+      "expert_approved": false
+    },
+    {
+      "id": "V359-C04",
+      "summary_en": "Four physical sides are mapped to 4 IIIF canvases.",
+      "source_ids": [
+        "UB_BASEL_PDF",
+        "UB_BASEL_MANIFEST"
+      ],
+      "evidence_level": "image_and_iiif",
+      "publication_allowed": false,
+      "expert_approved": false
+    },
+    {
+      "id": "V359-C05",
+      "summary_en": "Named list includes Karlstadt Grynaeus Capito Bucer Bedrotus and references Hedio and Zell.",
+      "source_ids": [
+        "UB_BASEL_PDF",
+        "UB_BASEL_RECORD"
+      ],
+      "evidence_level": "image_and_catalogue",
+      "publication_allowed": false,
+      "expert_approved": false
+    },
+    {
+      "id": "V359-C06",
+      "summary_en": "List of names must not be treated as independently authenticated autograph signatures.",
+      "source_ids": [
+        "UB_BASEL_PDF"
+      ],
+      "evidence_level": "methodological_gate",
+      "publication_allowed": false,
+      "expert_approved": false
+    },
+    {
+      "id": "V359-C07",
+      "summary_en": "BDS 1988 gives 17 July 1536 as editorial date of Strasbourg explanation.",
+      "source_ids": [
+        "BDS_1988_217"
+      ],
+      "evidence_level": "critical_edition_editorial",
+      "publication_allowed": false,
+      "expert_approved": false
+    },
+    {
+      "id": "V359-C08",
+      "summary_en": "BDS p217 lists witness C as Basel MSA VI 43a dated 2 August 1537 but calls dating wrong.",
+      "source_ids": [
+        "BDS_1988_217"
+      ],
+      "evidence_level": "critical_edition_editorial",
+      "publication_allowed": false,
+      "expert_approved": false
+    },
+    {
+      "id": "V359-C09",
+      "summary_en": "BDS A Zurich E II 337 includes July 17 1536 annotation cited by editor.",
+      "source_ids": [
+        "BDS_1988_217"
+      ],
+      "evidence_level": "critical_edition_OCR",
+      "publication_allowed": false,
+      "expert_approved": false
+    },
+    {
+      "id": "V359-C10",
+      "summary_en": "BDS p218 cites Myconius letter 19 July 1536 as chronological support.",
+      "source_ids": [
+        "BDS_1988_218"
+      ],
+      "evidence_level": "critical_edition_OCR",
+      "publication_allowed": false,
+      "expert_approved": false
+    },
+    {
+      "id": "V359-C11",
+      "summary_en": "Abendschein printed p286 n68 identifies UB Basel Ms KiAr 23a fol156f as Strasbourg explanation transmission.",
+      "source_ids": [
+        "ABENDSCHEIN_2017"
+      ],
+      "evidence_level": "scholarship_scan_checked",
+      "publication_allowed": false,
+      "expert_approved": false
+    },
+    {
+      "id": "V359-C12",
+      "summary_en": "Abendschein cites Barge 1905 appendix 50 pp603–606 as edition of this report.",
+      "source_ids": [
+        "ABENDSCHEIN_2017"
+      ],
+      "evidence_level": "scholarship_scan_checked",
+      "publication_allowed": false,
+      "expert_approved": false
+    },
+    {
+      "id": "V359-C13",
+      "summary_en": "Barge Vol II TOC labels appendix 50 July 1536 negotiation report, starting p603.",
+      "source_ids": [
+        "BARGE_1905_II"
+      ],
+      "evidence_level": "edition_TOC_only",
+      "publication_allowed": false,
+      "expert_approved": false
+    },
+    {
+      "id": "V359-C14",
+      "summary_en": "KiAr Mscr 23a:66 and BDS C MSA VI43a physical equality unverified.",
+      "source_ids": [
+        "UB_BASEL_RECORD",
+        "BDS_1988_217"
+      ],
+      "evidence_level": "open_question",
+      "publication_allowed": false,
+      "expert_approved": false
+    },
+    {
+      "id": "V359-C15",
+      "summary_en": "Written 1537 in a copy is not proof original negotiation happened in 1537.",
+      "source_ids": [
+        "UB_BASEL_PDF",
+        "BDS_1988_217"
+      ],
+      "evidence_level": "interpretive_safeguard",
+      "publication_allowed": false,
+      "expert_approved": false
+    },
+    {
+      "id": "V359-C16",
+      "summary_en": "BDS p218 editor describes mostly orthographic or morphological variants.",
+      "source_ids": [
+        "BDS_1988_218"
+      ],
+      "evidence_level": "critical_edition_editorial",
+      "publication_allowed": false,
+      "expert_approved": false
+    }
+  ],
+  "relations": [
+    {
+      "id": "V359-R01",
+      "from": "KiAr23a_66",
+      "to": "StrasbourgExplanation_1536_07_17",
+      "type": "related_textual_transmission",
+      "evidence": [
+        "ABENDSCHEIN_2017",
+        "BDS_1988_218"
+      ],
+      "confidence": "scholarship_explicit_connection"
+    },
+    {
+      "id": "V359-R02",
+      "from": "KiAr23a_66",
+      "to": "Barge1905_Appendix50",
+      "type": "reported_edition_relation",
+      "evidence": [
+        "ABENDSCHEIN_2017",
+        "BARGE_1905_II"
+      ],
+      "confidence": "footnote_explicit_print_text_unread"
+    },
+    {
+      "id": "V359-R03",
+      "from": "KiAr23a_66",
+      "to": "BDS_C_MSA_VI43a",
+      "type": "identical_physical_manuscript",
+      "evidence": [
+        "UB_BASEL_RECORD",
+        "BDS_1988_217"
+      ],
+      "confidence": "UNRESOLVED",
+      "auto_join": false
+    },
+    {
+      "id": "V359-R04",
+      "from": "KiAr23a_66",
+      "to": "BDS_A_Zurich_EII337",
+      "type": "parallel_textual_transmission",
+      "evidence": [
+        "ABENDSCHEIN_2017",
+        "BDS_1988_217"
+      ],
+      "confidence": "distinct_locations_comparison_pending"
+    }
+  ],
+  "dates": [
+    {
+      "date": "1536-07-17",
+      "role": "BDS_1988_critical_editorial_event_date",
+      "source_ids": [
+        "BDS_1988_217"
+      ]
+    },
+    {
+      "date": "1537",
+      "role": "manuscript_opening_title_date",
+      "source_ids": [
+        "UB_BASEL_PDF"
+      ],
+      "image_verified": true
+    },
+    {
+      "date": "1537-08-02",
+      "role": "manuscript_last_folio_note",
+      "source_ids": [
+        "UB_BASEL_PDF"
+      ],
+      "image_verified": true
+    },
+    {
+      "date": "1537-08-02",
+      "role": "BDS_1988_witness_C_editorially_incorrect_date",
+      "source_ids": [
+        "BDS_1988_217"
+      ],
+      "physical_identity_with_KiAr23a": "unresolved"
+    }
+  ],
+  "rights": {
+    "holder": "Universitätsbibliothek Basel",
+    "source_id": "UB_BASEL_RECORD",
+    "mark": "Public Domain Mark",
+    "attribution_and_persistent_url_required": true,
+    "use_notification_requested": true,
+    "files_copied_to_repository": false
+  },
+  "qc": {
+    "image_pages_checked": 4,
+    "full_manuscript_diplomatic_text_checked": false,
+    "original_signatures_verified": false,
+    "appendix_1905_pages_603_606_directly_read": false,
+    "KiAr23a_equals_BDS_C_proven": false,
+    "publication_allowed": false
+  },
+  "next": [
+    "Review Barge 1905 printed pp603-606 in page-sized scan or trusted transcription",
+    "Diplomatic transcription of each Basel folio with line locator",
+    "Crosscollate Basel with BDS A C and Barge 1905 including variants",
+    "Confirm physical codicology and 1537 note hand",
+    "Read HBBW letter 911 and Strasbourg council minute"
+  ]
+}
