@@ -1,0 +1,133 @@
+{
+  "schema_version": "1.0.0",
+  "dataset_version": "V3.70",
+  "as_of": "2026-11-12",
+  "repository": "worldinyj/REFORMATION-ATLAS",
+  "branch": "research/atlas-v370-wabr3048-ocr-and-chronology",
+  "release": {
+    "status": "DRAFT",
+    "can_ship": false,
+    "expert_approved": false,
+    "legacy_513_edited": false,
+    "main_edited": false,
+    "ai_studio_edited": false
+  },
+  "primary_target": {
+    "id": "WA_BR:7:3048",
+    "historical_date": "1536-07-20",
+    "sender": "Wolfgang Capito",
+    "recipient": "Martin Luther",
+    "place": "Strasbourg",
+    "edition": "D. Martin Luthers Werke. Briefwechsel Bd.7 (1937)",
+    "print_text_pages": "466-468",
+    "extended_critical_notes": "468-470",
+    "internet_archive_item": "werkebriefwechse0307luthuoft",
+    "item_url": "https://archive.org/details/werkebriefwechse0307luthuoft",
+    "ocr_url": "https://archive.org/stream/werkebriefwechse0307luthuoft/werkebriefwechse0307luthuoft_djvu.txt",
+    "printed_edition_ocr_read": true,
+    "scan_image_visual_collation": false,
+    "original_1536_manuscript_examined": false,
+    "source_access_level": "EDITION_OCR_DIRECT",
+    "unresolved_ocr_issue": "Fraktur and Latin OCR confusions; title and footnote date require image corroboration"
+  },
+  "evidence": [
+    {
+      "id": "V370-E01",
+      "date": "1536-07-14",
+      "event": "Delegation left Basel for Strasbourg",
+      "information_source": "Nik. Brieffer to Beatus Rhenanus, dated 1536-07-21",
+      "where_attested": "WA Br 7 Nr.3048, critical note to p.467, citing Horawitz-Hartfelder p.421",
+      "access": "1937_EDITORIAL_QUOTATION_OCR",
+      "original_letter_read": false,
+      "certainty": "contemporary_letter_quoted_by_editor",
+      "can_publish": false
+    },
+    {
+      "id": "V370-E02",
+      "date": "1536-07-17",
+      "event": "Date attached to Erlueterung or its associated documentary wording",
+      "information_source": "BDS 6/1 (1988) p.217 and V3.61–V3.63 research",
+      "access": "1988_EDITION_OCR",
+      "event_type_finalized": false,
+      "uncertainty": [
+        "dispatch",
+        "meeting_end",
+        "draft_date",
+        "copy_postscript"
+      ],
+      "can_publish": false
+    },
+    {
+      "id": "V370-E03",
+      "date": "1536-07-19",
+      "event": "Myconius letter indicates Basel delegation still at Strasbourg",
+      "information_source": "HBBW 6 Nr.866; cited in BDS 6/1 p.218",
+      "access": "1988_EDITED_QUOTATION_PLUS_HBBW_INDEX",
+      "hbbw_fulltext_seen": false,
+      "can_publish": false
+    },
+    {
+      "id": "V370-E04",
+      "date": "1536-07-20",
+      "event": "Capito reports consultation with two Basel ministers ongoing for third day",
+      "information_source": "WA Br 7 Nr.3048 p.467",
+      "access": "1937_PRINT_OCR_DIRECT",
+      "first_meeting_date_definitively_established": false,
+      "can_publish": false
+    },
+    {
+      "id": "V370-E05",
+      "date": "1536-07-20",
+      "event": "Capito reports Mulhouse and Basel received the concord, editor calls report premature",
+      "information_source": "WA Br 7 Nr.3048 p.467 text and critical note",
+      "access": "1937_TEXT_AND_EDITORIAL_NOTE_OCR",
+      "asserts_final_ratifcation": false,
+      "can_publish": false
+    },
+    {
+      "id": "V370-E06",
+      "date": "1536-07-23",
+      "event": "Bucer tells Vadian delegation ready to depart",
+      "information_source": "Bucer to Vadian quoted by WA Br 7 editor, Vadianische Briefsammlung 5 p.339",
+      "access": "1937_EDITORIAL_QUOTATION_OCR",
+      "actual_departure_date_established": false,
+      "can_publish": false
+    },
+    {
+      "id": "V370-E07",
+      "date": "1536-07-29",
+      "event": "Frecht reports Karlstadt and Grynäus Strasbourg visit in past tense",
+      "information_source": "Frecht to Blaurer, Schiess 1 p.811, quoted WA Br 7",
+      "access": "1937_EDITORIAL_QUOTATION_OCR",
+      "original_letter_read": false,
+      "can_publish": false
+    },
+    {
+      "id": "V370-E08",
+      "date": "1536-07-30",
+      "event": "Bedrot reports questions, Bucer replies and potential efforts toward acceptance",
+      "information_source": "Bedrot to Blaurer, Schiess 1 p.812, quoted WA Br 7",
+      "access": "1937_EDITORIAL_QUOTATION_OCR",
+      "original_letter_read": false,
+      "can_publish": false
+    }
+  ],
+  "audit_rules": [
+    "Do not equate 1536 letter quoted in 1937 apparatus with a facsimile of its own original",
+    "Keep Capito reporting regional reception distinct from formal city or clergy ratification",
+    "Keep manuscript date 1537 and editorially argued event date 1536 separate",
+    "20 July day-three phrasing does not mechanically set first day to 18 July",
+    "23 July preparing to depart is not departure completed",
+    "No facsimile verified: OCR evidence must remain provisional on exact spelling/punctuation"
+  ],
+  "qa": {
+    "ia_identifier_verified": true,
+    "edition_ocr_located": true,
+    "correspondence_number_found": true,
+    "latin_text_seen_in_ocr": true,
+    "facsimile_seen": false,
+    "source_letter_originals_seen": false,
+    "expert_approved": false
+  },
+  "next": "V3.71 facsimile and independent quoted-letter witnesses"
+}
