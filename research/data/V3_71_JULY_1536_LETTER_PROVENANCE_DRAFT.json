@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.0.0",
+  "version": "V3.71",
+  "as_of": "2026-11-12",
+  "release": {
+    "status": "DRAFT",
+    "can_ship": false,
+    "main_edited": false,
+    "essays_513_edited": false,
+    "ai_studio_edited": false
+  },
+  "primary_reference": {
+    "id": "WA_BR:7:3048",
+    "edition": "WA Briefwechsel 7 (1937)",
+    "date": "1536-07-20",
+    "author": "Wolfgang Capito",
+    "recipient": "Martin Luther",
+    "print_pages": "466-470 including apparatus",
+    "ocr_url": "https://archive.org/stream/werkebriefwechse0307luthuoft/werkebriefwechse0307luthuoft_djvu.txt",
+    "ocr_reviewed": true,
+    "facsimile_reviewed": false
+  },
+  "witnesses": [
+    {
+      "id": "BRIEFFER_TO_RHENANUS_15360721",
+      "claimed_event_date": "1536-07-14",
+      "event": "Basel delegation departed Basel for Strasbourg",
+      "origin_edition": "Horawitz-Hartfelder 1886 p.421",
+      "access_method": "quoted within 1937 WA Br 7 critical apparatus OCR",
+      "original_edition_page_seen": false,
+      "underlying_manuscript_seen": false,
+      "independently_verified": "bibliographic identity only",
+      "risk": "OCR misreading or context omission"
+    },
+    {
+      "id": "BUCER_TO_VADIAN_15360723",
+      "claimed_event_date": "1536-07-23",
+      "event": "Delegates held discussions in Strasbourg and were preparing to depart",
+      "origin_edition": "Vadianische Briefsammlung vol.5 p.339",
+      "access_method": "quoted within 1937 WA Br 7 critical apparatus OCR",
+      "original_edition_page_seen": false,
+      "underlying_manuscript_seen": false,
+      "independently_verified": "archival collection and published volume identified",
+      "risk": "parate spelling and grammatical reading require page facsimile"
+    },
+    {
+      "id": "CAPITO_TO_LUTHER_15360720",
+      "claimed_event_date": "1536-07-20",
+      "event": "Ongoing conversations with two Basel ministers for a third day",
+      "origin_edition": "WA Br 7 (1937) Nr.3048 p.467",
+      "access_method": "1937 edition OCR direct",
+      "original_edition_page_seen": false,
+      "underlying_manuscript_seen": false,
+      "independently_verified": "OCR only",
+      "risk": "Avoid mechanically inferring exact first meeting date"
+    }
+  ],
+  "chronology_decision": {
+    "return_complete_by_1536_07_17": "CONTRADICTED_BY_LATER_ONGOING_CONSULTATION",
+    "date_of_written_explanation_1536_07_17": "UNRESOLVED",
+    "departure_completed_1536_07_23": "NOT_ESTABLISHED"
+  },
+  "next_gate": [
+    "1886 edition p.421 page image",
+    "Vadianische Briefsammlung 5 p.339 image",
+    "1937 WA Br7 p.466-470 facsimile",
+    "independent original letters"
+  ],
+  "publication_gate": "NOT_APPROVED"
+}
