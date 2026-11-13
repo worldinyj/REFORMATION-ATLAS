@@ -1,0 +1,209 @@
+{
+  "schema_version": "1.0.0",
+  "version": "V3.73",
+  "as_of": "2026-11-13",
+  "based_on": {
+    "version": "V3.72",
+    "commit": "045675717605cd784da28f1533197978a401fed1",
+    "branch": "research/atlas-v372-brieffer-1886-direct-edition-and-vadian-gate"
+  },
+  "release": {
+    "status": "DRAFT",
+    "can_ship": false,
+    "expert_approved": false,
+    "main_edited": false,
+    "legacy_513_essays_edited": false,
+    "ai_studio_edited": false
+  },
+  "research_question": "Distinguish the 1536 Strasbourg explanation's editorial date, copied 1537 date, July correspondence and manuscript witness dependencies.",
+  "source_register": [
+    {
+      "id": "BDS_1988_6_1_217_218",
+      "work": "Martin Bucers Deutsche Schriften 6/1: Wittenberger Konkordie (1536)",
+      "publication_year": 1988,
+      "print_pages": "217-218",
+      "digital_page_urls": [
+        "https://digi.hadw-bw.de/view/bds6_1/0221",
+        "https://digi.hadw-bw.de/view/bds6_1/0222"
+      ],
+      "digital_page_dois": [
+        "https://doi.org/10.11588/diglit.29831#0221",
+        "https://doi.org/10.11588/diglit.29831#0222"
+      ],
+      "direct_edition_ocr_read": true,
+      "printed_page_image_examined": false,
+      "original_manuscripts_examined": false,
+      "source_role": "scholarly critical-edition apparatus and textual edition"
+    },
+    {
+      "id": "HBBW_866",
+      "work": "Heinrich Bullinger Briefwechsel, Nr.866",
+      "date": "1536-07-19",
+      "sender": "Oswald Myconius",
+      "recipient": "Bullinger, Theodor Bibliander and Konrad Pellikan",
+      "catalogue_url": "https://www.irg.uzh.ch/de/publikationen/bullinger/edition-briefwechsel/briefverzeichnis.html",
+      "catalogue_entry_confirmed": true,
+      "letter_full_text_directly_read": false,
+      "referenced_by": "BDS_1988_6_1_218",
+      "note": "A distinct contemporary letter, unlike reprintings of the same Brieffer letter."
+    },
+    {
+      "id": "RHENANUS_1886_297",
+      "work": "Briefwechsel des Beatus Rhenanus, letter 297",
+      "print_pages": "421-422",
+      "toc_url": "https://books.google.com/books/about/Briefwechsel_des_Beatus_Rhenanus.html?id=y0WcfekwCksC",
+      "ocr_directly_read_in_prior_version": true,
+      "print_page_images_examined": false,
+      "issue": "letter beginning p.421, next letter also starts p.422; confirm line and letter boundary before definitive quotation"
+    },
+    {
+      "id": "VADIAN_1905_29_2",
+      "work": "Vadianische Briefsammlung V, 2. Hälfte: 1536-1540",
+      "publication_year": 1905,
+      "series": "Mitteilungen zur Vaterländischen Geschichte 29/2",
+      "official_catalogue_url": "https://www.hvsg.ch/mitteilungen.php",
+      "print_page_to_check": 339,
+      "print_page_direct_read": false,
+      "original_letter_located": false,
+      "warning": "Some aggregate listings give 1903; retain fascicle-level 1905 until title page independently checked."
+    },
+    {
+      "id": "STGALLEN_VADIAN_CATALOGUE",
+      "work": "Stadtarchiv St. Gallen Vadianische Briefsammlung digitization project",
+      "url": "https://www.stadtarchiv.ch/forschungsprojekte/vadianische-briefsammlung/",
+      "record_specific_to_1536_07_23_found": false,
+      "description": "Catalogue entries can link a digitized manuscript and excerpt of an edition; targeted search required."
+    }
+  ],
+  "manuscript_witnesses_reported_in_1988": [
+    {
+      "siglum": "A",
+      "holder": "Zürich Staatsarchiv",
+      "locator": "E II 337, fol. 160a–161b",
+      "role": "Leithandschrift; Utinger copy according to editor",
+      "confirmed_by": "BDS_1988_6_1_217_OCR",
+      "physical_manuscript_directly_seen": false
+    },
+    {
+      "siglum": "B",
+      "holder": "Zürich Staatsarchiv",
+      "locator": "E II 347",
+      "role": "Stumpf copy",
+      "locator_detail": "OCR page sub-range ambiguous (looks like S.72–34)",
+      "confirmed_by": "BDS_1988_6_1_217_OCR",
+      "physical_manuscript_directly_seen": false
+    },
+    {
+      "siglum": "C",
+      "holder": "Universitätsbibliothek Basel",
+      "locator": "MSA VI, 43a, fol. 1a–8b",
+      "reported_date": "1537-08-02",
+      "editorial_judgment": "date false",
+      "confirmed_by": "BDS_1988_6_1_217_OCR",
+      "physical_manuscript_directly_seen": false
+    },
+    {
+      "siglum": "D",
+      "holder": "St. Gallen, Stadtarchiv (Vadiana)",
+      "locator": "Tr. Q 1b, Nr.31, Anlage B (digit/letter uncertain in OCR)",
+      "confirmed_by": "BDS_1988_6_1_217_OCR",
+      "physical_manuscript_directly_seen": false
+    },
+    {
+      "siglum": "E",
+      "holder": "Universitätsbibliothek Basel",
+      "locator": "Ka 23c,f, fol. 136a–? (OCR uncertain)",
+      "period": "later copy, circa 1572 (edition)",
+      "reported_date": "1537-08-02",
+      "confirmed_by": "BDS_1988_6_1_217_OCR",
+      "physical_manuscript_directly_seen": false
+    }
+  ],
+  "chronology": [
+    {
+      "date": "1536-07-14",
+      "event": "Grynaeus and Karlstadt reportedly left Basel toward Strasbourg",
+      "provenance": "RHENANUS_1886_297",
+      "confidence": "PRIOR_EDITION_OCR_NOT_IMAGE",
+      "exact_wording_verify": true
+    },
+    {
+      "date": "1536-07-17",
+      "event": "Date associated with the Strasbourg written explanation; not necessarily a return date",
+      "provenance": "BDS_1988_6_1_217_218",
+      "confidence": "EDITION_1988_OCR_DIRECT",
+      "original_written_date_folio_checked": false
+    },
+    {
+      "date": "1536-07-19",
+      "event": "Myconius to Bullinger et al.; 1988 edition reports envoys still in Strasbourg",
+      "provenance": "HBBW_866_quoted_in_BDS_1988_6_1_218",
+      "confidence": "CRITICAL_EDITION_SECOND_HAND_QUOTE",
+      "letter_body_directly_read": false
+    },
+    {
+      "date": "1536-07-21",
+      "event": "Brieffer still awaits envoys' report",
+      "provenance": "RHENANUS_1886_297",
+      "confidence": "PRIOR_EDITION_OCR_NOT_IMAGE"
+    },
+    {
+      "date": "1536-07-23",
+      "event": "Bucer letter to Vadian on delegates preparing to depart",
+      "provenance": "VADIAN_1905_29_2",
+      "confidence": "OLDER_WA_SECOND_HAND_ONLY",
+      "text_unverified": true
+    }
+  ],
+  "critical_flags": [
+    {
+      "id": "V373_F1",
+      "severity": "HIGH",
+      "type": "POTENTIAL_CHRONOLOGY_TENSION",
+      "detail": "A Basel departure on July 14, the Strasbourg document date July 17, and an editorial note describing eight days of discussion cannot be flattened into one completed eight-day stay ending July 17. The 19 July letter indicates the envoys remained in Strasbourg; inspect the original clauses, possible dating contexts and the chronology before assigning a return date."
+    },
+    {
+      "id": "V373_F2",
+      "severity": "HIGH",
+      "type": "DATE_TRANSMISSION",
+      "detail": "1537-08-02 occurs in witness C and later witness E; 1988 editor rejects it. Keep manuscript inscription, Barge-style year emendation, and 1988 editorial dating 1536-07-17 as separate fields."
+    },
+    {
+      "id": "V373_F3",
+      "severity": "MEDIUM",
+      "type": "PAGE_BOUNDARY",
+      "detail": "1886 letter 297 starts at printed p.421 and another letter starts p.422. Confirm exact paragraph and letter break from facsimile."
+    },
+    {
+      "id": "V373_F4",
+      "severity": "MEDIUM",
+      "type": "EVIDENCE_INDEPENDENCE",
+      "detail": "The 1886 Brieffer print and the 1937 WA citation are the same historical letter; Myconius 19 July is another historical letter only indirectly quoted in this iteration."
+    },
+    {
+      "id": "V373_F5",
+      "severity": "MEDIUM",
+      "type": "OCR_LOCATOR_UNCERTAINTY",
+      "detail": "Witness B/D/E folio and shelfmark strings require print-page image comparison; do not normalize doubtful OCR digits as confirmed identifiers."
+    }
+  ],
+  "qa": {
+    "source_1988_pp217_218_ocr_direct": true,
+    "critical_edition_a_to_e_witness_inventory_built": true,
+    "hbbw866_catalogued": true,
+    "hbbw866_full_text_read": false,
+    "vadian339_direct_read": false,
+    "brieffer421_422_print_image_seen": false,
+    "manuscript_images_seen": false,
+    "chronology_conflict_flagged": true,
+    "release_gate_pass": false
+  },
+  "next_gates": [
+    "BDS 1988 pp.217-218 facsimile verification and precise A-E shelfmarks",
+    "HBBW 866 full text and historical context",
+    "1886 p.421–422 print page facsimile and letter boundary",
+    "Vadianische Briefsammlung V p.339 direct and original 1536-07-23 manuscript locator",
+    "Confront 1536-07-14 / 17 / 19 / 21 / 23 chronology and 8-day remark before public narrative"
+  ],
+  "branch": "research/atlas-v373-bds1988-basel-witnesses-july-chronology"
+}
