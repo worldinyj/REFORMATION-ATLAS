@@ -1,0 +1,140 @@
+{
+  "schema_version": "1.0.0",
+  "version": "V3.72",
+  "as_of": "2026-11-13",
+  "branch": "research/atlas-v372-brieffer-1886-direct-edition-and-vadian-gate",
+  "release": {
+    "status": "DRAFT",
+    "can_ship": false,
+    "expert_approved": false,
+    "main_edited": false,
+    "legacy_513_essays_edited": false,
+    "ai_studio_edited": false
+  },
+  "source_register": [
+    {
+      "id": "RHENANUS_BW_1886_N297",
+      "title": "Briefwechsel des Beatus Rhenanus",
+      "editors": [
+        "Adalbert Horawitz",
+        "Karl Hartfelder"
+      ],
+      "publication_year": 1886,
+      "source_kind": "nineteenth_century_critical_edition",
+      "print_pages": "421-422",
+      "letter_number": "297",
+      "item_id": "bub_gb_T6sUAAAAYAAJ",
+      "item_url": "https://archive.org/details/bub_gb_T6sUAAAAYAAJ",
+      "ocr_url": "https://archive.org/stream/bub_gb_T6sUAAAAYAAJ/bub_gb_T6sUAAAAYAAJ_djvu.txt",
+      "printed_edition_ocr_directly_read": true,
+      "printed_page_image_seen": false,
+      "early_modern_manuscript_seen": false,
+      "manuscript_editorial_locator": "Manuskript nr. 18 der Schlettstädter Bibliothek (editorial OCR reading; modern call number unverified)"
+    },
+    {
+      "id": "WA_BR_7_3048",
+      "title": "WA Briefwechsel 7 Nr.3048",
+      "publication_year": 1937,
+      "source_kind": "critical_edition_with_quoted_letters",
+      "print_pages": "466-470 including notes",
+      "access_level": "DIRECT_OCR_PREVIOUS_VERSION",
+      "notes": "This edition quoted Brieffer letter; its quote is not an additional historical letter"
+    },
+    {
+      "id": "VADIAN_BW_V_339",
+      "title": "Vadianische Briefsammlung V, 2. Hälfte, 1536–1540",
+      "publication_year": 1905,
+      "series": "Mitteilungen zur Vaterländischen Geschichte 29/2",
+      "source_kind": "critical_edition",
+      "print_pages": "339",
+      "catalogue_url": "https://www.hvsg.ch/mitteilungen.php",
+      "ocr_directly_read": false,
+      "printed_page_image_seen": false,
+      "original_letter_seen": false,
+      "warning": "Combine 1903 Google Play volume-level metadata and 1905 fascicle-level catalogue only after checking title pages"
+    }
+  ],
+  "primary_letter": {
+    "source_id": "RHENANUS_BW_1886_N297",
+    "stable_letter_id": "BRIEFFER_TO_RHENANUS_1536_07_21",
+    "sender": "Nicolaus Brieffer",
+    "recipient": "Beatus Rhenanus",
+    "letter_place": "Basel",
+    "letter_date": "1536-07-21",
+    "print_letter_start_page": 421,
+    "print_departure_clause_page": 422,
+    "variants_in_edition": [
+      "Brieffer",
+      "Briefer"
+    ],
+    "editorial_manuscript_number": "18",
+    "original_manuscript_verified": false
+  },
+  "claims": [
+    {
+      "id": "V372_C01",
+      "text": "Grynaeus and Karlstadt departed Basel to Strasbourg on 14 July 1536",
+      "event_date": "1536-07-14",
+      "source_id": "RHENANUS_BW_1886_N297",
+      "locator": "p.422",
+      "evidence_access": "EDITION_1886_OCR_DIRECT",
+      "facsimile_pending": true,
+      "can_publish": false
+    },
+    {
+      "id": "V372_C02",
+      "text": "Brieffer did not yet know what the delegates would report",
+      "event_date": "1536-07-21",
+      "source_id": "RHENANUS_BW_1886_N297",
+      "locator": "p.422",
+      "evidence_access": "EDITION_1886_OCR_DIRECT",
+      "does_not_prove": "Their precise physical location on 21 July",
+      "can_publish": false
+    },
+    {
+      "id": "V372_C03",
+      "text": "Basel preachers held reservations about the Lutherans–Strasbourg agreement",
+      "event_date": "1536-07-21",
+      "source_id": "RHENANUS_BW_1886_N297",
+      "locator": "p.421",
+      "evidence_access": "EDITION_1886_OCR_DIRECT",
+      "does_not_prove": "Final vote or unanimous position of all Basel clergy",
+      "can_publish": false
+    },
+    {
+      "id": "V372_C04",
+      "text": "The decision should be based on Scripture and sound reasons, not just number of votes (Brieffer’s report)",
+      "event_date": "1536-07-21",
+      "source_id": "RHENANUS_BW_1886_N297",
+      "locator": "pp.421-422",
+      "evidence_access": "EDITION_1886_OCR_DIRECT",
+      "can_publish": false
+    },
+    {
+      "id": "V372_C05",
+      "text": "Bucer to Vadian 23 July 1536 describes the delegates preparing to leave",
+      "event_date": "1536-07-23",
+      "source_id": "VADIAN_BW_V_339",
+      "evidence_access": "ONLY_WA_1937_SECOND_HAND_QUOTATION_IN_PREVIOUS_VERSION",
+      "source_edition_fulltext_verified": false,
+      "can_publish": false
+    }
+  ],
+  "qa": {
+    "primary_1886_edition_discovered": true,
+    "book_1886_ocr_read": true,
+    "letter_number_297_confirmed": true,
+    "start_page_and_clause_page_separated": true,
+    "vadian_volume_5_fascicle_verified": true,
+    "vadian_339_direct_read": false,
+    "original_manuscript_read": false,
+    "book_page_facsimile_viewed": false
+  },
+  "next_version": "V3.73",
+  "next_gates": [
+    "1886 421–422 original page image",
+    "Vadianische Briefsammlung V p.339 direct text",
+    "1536 Bucer→Vadian manuscript locator"
+  ],
+  "audit_note": "An independently accessed 1886 edition increases source-level corroboration, but it is the same 1536 letter previously quoted in the 1937 apparatus, not a second independent contemporary letter."
+}
