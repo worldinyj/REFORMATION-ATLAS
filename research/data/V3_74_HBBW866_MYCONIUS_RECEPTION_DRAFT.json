@@ -1,0 +1,156 @@
+{
+  "version": "V3.74",
+  "as_of": "2026-11-13",
+  "branch": "research/atlas-v374-hbbw866-myconius-2017-chronology",
+  "base_commit": "5aed30ed1f4650d9cc3c8409db593fae4d8333f6",
+  "status": {
+    "stage": "DRAFT",
+    "can_ship": false,
+    "expert_approved": false,
+    "main_edited": false,
+    "legacy_513_essays_edited": false,
+    "ai_studio_edited": false
+  },
+  "sources": [
+    {
+      "id": "HBBW6_866",
+      "year": 1995,
+      "date": "1536-07-19",
+      "sender": "Oswald Myconius",
+      "recipients": [
+        "Bullinger",
+        "Bibliander",
+        "Pellikan"
+      ],
+      "url": "https://www.irg.uzh.ch/de/publikationen/bullinger/edition-briefwechsel/briefverzeichnis.html",
+      "full_text_seen": false
+    },
+    {
+      "id": "BDS6_1988_218",
+      "year": 1988,
+      "url": "https://digi.hadw-bw.de/view/bds6_1/0222",
+      "latin_excerpt": "Et iam sunt Argentinae. Nos expectamus, quid referant.",
+      "ocr_seen": true,
+      "printed_image_seen": false,
+      "historical_letter": "HBBW6_866"
+    },
+    {
+      "id": "HENRICH2017",
+      "year": 2017,
+      "title": "Oswald Myconius: Briefwechsel 1515-1552 Regesten",
+      "pages": "35-37",
+      "regest_ids": [
+        404,
+        408,
+        412,
+        414
+      ],
+      "url": "https://edoc.unibas.ch/55111/1/20170515120737_59197de9a991e.pdf",
+      "intro_ocr_seen": true,
+      "full_regesta_seen": false,
+      "pdf_screenshot_error": "DisabledError"
+    },
+    {
+      "id": "MYCONIUS_DB",
+      "url": "https://www.myconius.unibas.ch/briefdb.html",
+      "strasbourg_letter": "Bucer to Myconius, Die Lucae, probably 18 July 1536",
+      "letter_date_confirmed": false
+    },
+    {
+      "id": "CAPITO3_616_HEADNOTE",
+      "url": "https://uplopen.com/books/579/files/ee9e764a-bac4-4b38-a467-6cf85785e09f.pdf",
+      "type": "modern_editorial_commentary",
+      "print_image_seen": false
+    },
+    {
+      "id": "BARGE1905_50",
+      "pages": "603-606",
+      "edition_status": "previous OCR studied; no new original-page image collation",
+      "note": "Henrich 2017 p.36 note106 calls Barge text better than 1988 BDS text"
+    }
+  ],
+  "letter_identity": [
+    {
+      "stable_id": "MYCONIUS_1536_07_19",
+      "aliases": [
+        "HBBW VI 866",
+        "Henrich 2017 regest 412",
+        "BDS 1988 p218 excerpt"
+      ],
+      "historical_letter_count": 1
+    },
+    {
+      "stable_id": "MYCONIUS_1536_07_31",
+      "aliases": [
+        "HBBW VI 871",
+        "Henrich 2017 regest 414"
+      ],
+      "historical_letter_count": 1,
+      "full_text_check_pending": true
+    }
+  ],
+  "chronology": [
+    [
+      "1536-07-14",
+      "Reported Basel delegates depart",
+      "V3.72 Brieffer 1886 OCR"
+    ],
+    [
+      "1536-07-17",
+      "Strasbourg explanation date",
+      "BDS 1988 OCR"
+    ],
+    [
+      "1536-07-18?",
+      "Bucer to Myconius tentative dating",
+      "Basel catalogue"
+    ],
+    [
+      "1536-07-19",
+      "Delegates still in Strasbourg; report expected",
+      "BDS 1988 HBBW866 excerpt"
+    ],
+    [
+      "1536-07-21",
+      "Brieffer awaits news",
+      "V3.72"
+    ],
+    [
+      "1536-07-23",
+      "Bucer to Vadian reference unverified",
+      "V3.72"
+    ],
+    [
+      "1536-07-31",
+      "Myconius reports envoys' favorable verdict",
+      "Henrich 2017 summary"
+    ],
+    [
+      "1536-08-02",
+      "Basel majority theologians judge clarification compatible",
+      "Henrich 2017 summary"
+    ],
+    [
+      "1536-08-05",
+      "Judgment reportedly read to Basel council",
+      "Capito vol3 modern headnote"
+    ]
+  ],
+  "warnings": [
+    "17 July document date is not proven end of negotiations or delegates' return date; 8-day note unresolved",
+    "Basel August 2 theological majority does not establish Swiss-wide adoption",
+    "Multiple editions describing one 1536 letter are not independent historical witnesses",
+    "Bucer-to-Myconius 18 July date tentative",
+    "2017 PDF was text-searched but printed image was not inspected",
+    "Barge 1905 vs BDS 1988 editorial preference still requires textual collation",
+    "HBBW 866 and 871 full texts, original manuscripts, Vadian 339 and council minutes not directly examined"
+  ],
+  "next_gates": [
+    "HBBW VI 866 full Latin",
+    "Henrich 2017 regests 412 and 414",
+    "HBBW 871 full text",
+    "Barge 1905 vs BDS 1988 variants",
+    "Basel 2/5 August records",
+    "Vadian V p339 direct scan"
+  ]
+}
