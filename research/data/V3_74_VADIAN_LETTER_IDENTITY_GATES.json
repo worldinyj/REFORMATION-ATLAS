@@ -1,0 +1,64 @@
+{
+  "version": "V3.74",
+  "as_of": "2026-11-14",
+  "research_branch": "research/atlas-v374-vadian-1536-letter-identity-audit",
+  "release": {
+    "status": "DRAFT",
+    "can_ship": false,
+    "main_edited": false,
+    "essays_513_edited": false,
+    "ai_studio_edited": false
+  },
+  "target": {
+    "sender": "Martin Bucer",
+    "recipient": "Joachim Vadian",
+    "date": "1536-07-23",
+    "printed_citation": "Vadianische Briefsammlung V p.339",
+    "known_via": "WA Br 7 Nr.3048 editorial note",
+    "call_number": null,
+    "facsimile_checked": false,
+    "edition_page_checked": false,
+    "statement_in_1937_WA": "preparing to leave; exact Latin orthography unverified"
+  },
+  "rejected_candidates": [
+    {
+      "call_number": "Zürich ZB Ms S 34 Nr.12",
+      "date": "1533-08-13",
+      "why": "different_date",
+      "url": "https://www.kalliope-verbund.info/de/ead?ead.id=CH-002121-2-991170607310205501"
+    },
+    {
+      "call_number": "Zürich ZB Ms S 41 Nr.92",
+      "date": "1536-08-27",
+      "why": "different_date",
+      "url": "https://www.kalliope-verbund.info/de/findingaid?fa.id=CH-002121-2-881170715577605501"
+    },
+    {
+      "call_number": "Zürich ZB Ms S 41 Nr.34",
+      "date": "1536-07",
+      "recipient": "Peter Constantin",
+      "why": "different_recipient"
+    }
+  ],
+  "additional_context": {
+    "edition": "HBBW letter 981",
+    "date": "1537-03-31",
+    "date_precision": "editorially_reconstructed",
+    "sender": "Joachim Vadian",
+    "recipient": "Heinrich Bullinger",
+    "description": "Later criticism of Bucer's presentation of Swiss positions to Luther, in modern editorial summary",
+    "url": "https://briefe.arpa-docs.ch/SedWEBShowArticle.cgi?Alias=Briefe&ArtNum=1061&DFlags=0",
+    "not_evidence_for_1536_target_letter": true
+  },
+  "next_actions": [
+    "verify p.339 pagination in the physical 1905 half-volume",
+    "identify exact catalog card or request official finding aid from St Gallen",
+    "visually inspect facsimile and compare WA Br7 re-quotation"
+  ],
+  "qa": {
+    "target_identity_verified": false,
+    "false_positive_candidates_excluded": true,
+    "modern_archive_search_path_confirmed": true,
+    "expert_approved": false
+  }
+}
