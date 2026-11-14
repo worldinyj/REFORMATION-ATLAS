@@ -1,0 +1,164 @@
+{
+  "schema_version": "1.0.0",
+  "version": "V3.78",
+  "as_of": "2026-11-14",
+  "release": {
+    "status": "DRAFT",
+    "can_ship": false,
+    "expert_approved": false,
+    "main_edited": false,
+    "essay_513_edited": false,
+    "ai_studio_edited": false
+  },
+  "branch": "research/atlas-v378-barge-four-qa-source-anchors",
+  "sources": {
+    "BARGE_1905_APP50": {
+      "edition": "Hermann Barge, Andreas Bodenstein von Karlstadt, II (1905), Appendix 50",
+      "print_pages": "603-606",
+      "internet_archive_id": "andreasbodenstei02barg",
+      "ocr_url": "https://archive.org/stream/andreasbodenstei02barg/andreasbodenstei02barg_djvu.txt",
+      "access_level": "EDITION_OCR_DIRECT_THIS_TURN",
+      "facsimile_visual_checked": false,
+      "underlying_manuscript_seen": false
+    },
+    "BDS_1988_DOC16": {
+      "edition": "Martin Bucers Deutsche Schriften 6/1 (1988), Document 16",
+      "print_pages": "217-226",
+      "catalogue_url": "https://digi.hadw-bw.de/view/bds6_1/0221",
+      "access_level": "DOCUMENT_16_METADATA_AND_P217_OCR",
+      "pages_219_226_sentence_text_checked": false,
+      "facsimile_visual_checked": false
+    }
+  },
+  "qa_units": [
+    {
+      "id": "V378-Q1",
+      "question_no": 1,
+      "pages": "604-605",
+      "topic": "real_presence_no_local_mixture",
+      "heading_ocr": "Zum Ersten",
+      "question_ocr_excerpt": "Wie sich etlich am Hauptstück deß Artickels vom H. Sacrament stossen",
+      "answer_ocr_excerpt": "alle irdische Vermischung deß Herren, oder einschliessen mit oder in das Brot",
+      "question_ko": "성찬에서 주님의 몸을 빵과 함께 참되고 본질적으로 받는다고 할 때 그것을 자연적·물질적 결합으로 이해해야 하는가?",
+      "answer_ko": "답변자들은 땅에 속한 표지인 빵·포도주와 하늘에 속한 그리스도의 몸·피를 구별하며, 물질적인 혼합·공간적 감금·성찬 사용 밖의 지속적 결합을 거부한다고 해설한다.",
+      "line_start": 30168,
+      "line_end": 30216,
+      "scripture_refs": [],
+      "correlation": "TOPICAL_PLUS_1905_OCR_ANCHORED",
+      "bds_1988_sentence_verified": false,
+      "restrictions": [
+        "참된 임재에 관한 당사자 언어와 후대 신학의 명명법을 혼동 금지",
+        "답변자 집단의 해설을 모든 참가자의 승인으로 확장 금지"
+      ],
+      "source_id": "BARGE_1905_APP50",
+      "bds_document_id": "BDS_1988_DOC16",
+      "edition_1905_ocr_verified": true,
+      "edition_1905_print_image_verified": false,
+      "original_manuscript_checked": false,
+      "can_publish": false
+    },
+    {
+      "id": "V378-Q2",
+      "question_no": 2,
+      "pages": "605",
+      "topic": "old_covenant_saints_participation",
+      "heading_ocr": "Zum anderen",
+      "question_ocr_excerpt": "Was wir dann den alten Heiligen zugeben",
+      "answer_ocr_excerpt": "nicht so mit häller erkantnus",
+      "question_ko": "옛 언약의 성도들은 성례를 통해 그리스도에게 어떻게 참여했는가?",
+      "answer_ko": "같은 그리스도 자신을 받았으나 그리스도에 대한 인식의 명료함과 성령의 역사라는 차원에서 신약의 참된 신자들과 차이가 있었다고 설명한다.",
+      "line_start": 30218,
+      "line_end": 30223,
+      "scripture_refs": [],
+      "correlation": "1905_OCR_QUESTION_AND_ANSWER_ANCHORED",
+      "bds_1988_sentence_verified": false,
+      "restrictions": [
+        "구약 참여의 본질적 동일성을 세부 역사적 계시 단계가 같다는 주장으로 바꾸지 않음"
+      ],
+      "source_id": "BARGE_1905_APP50",
+      "bds_document_id": "BDS_1988_DOC16",
+      "edition_1905_ocr_verified": true,
+      "edition_1905_print_image_verified": false,
+      "original_manuscript_checked": false,
+      "can_publish": false
+    },
+    {
+      "id": "V378-Q3",
+      "question_no": 3,
+      "pages": "605",
+      "topic": "christ_in_believer_union",
+      "heading_ocr": "Zum Dritten",
+      "question_ocr_excerpt": "daß der Herr in vnß natürlich vnnd leiblich lebe",
+      "answer_ocr_excerpt": "Er bleib in denen, so sein fleisch essen",
+      "question_ko": "그리스도께서 우리 안에 자연적이고 육체적으로 산다는 교부들의 표현은 어떤 뜻인가?",
+      "answer_ko": "요한복음 6장과 에베소서 5장의 연합 언어로 해설하며, 단순한 힘이나 활동의 공유보다 깊은 교제를 말한다고 설명한다. 이 표현을 물리적 혼합으로 단정하지 않는다.",
+      "line_start": 30225,
+      "line_end": 30238,
+      "scripture_refs": [
+        "John 6",
+        "Ephesians 5"
+      ],
+      "correlation": "1905_OCR_QUESTION_AND_ANSWER_ANCHORED",
+      "bds_1988_sentence_verified": false,
+      "restrictions": [
+        "교부 이름 열거와 각 교부의 원문 일치까지 검증된 것은 아님",
+        "자연적이라는 표현을 현대 물리학적 공간 합성으로 번역하지 않음"
+      ],
+      "source_id": "BARGE_1905_APP50",
+      "bds_document_id": "BDS_1988_DOC16",
+      "edition_1905_ocr_verified": true,
+      "edition_1905_print_image_verified": false,
+      "original_manuscript_checked": false,
+      "can_publish": false
+    },
+    {
+      "id": "V378-Q4",
+      "question_no": 4,
+      "pages": "605",
+      "topic": "unworthy_participation_corinthians",
+      "heading_ocr": "Zum Vierdten",
+      "question_ocr_excerpt": "Von dem entphahen der Unwirdigen",
+      "answer_ocr_excerpt": "wie die Corinthier waren",
+      "question_ko": "합당하지 않게 성찬을 받는 자들에 관한 조항은 어떤 이들을 대상으로 하는가?",
+      "answer_ko": "답변자들은 고린도전서 11장에서 바울이 꾸짖으면서도 여전히 형제라고 부르는 약한 신자들을 대상으로 말한다고 범위를 제한하며, 불경건한 자와 불신자 일반에 대해서는 이 조항에서 다루지 않는다고 밝힌다.",
+      "line_start": 30240,
+      "line_end": 30249,
+      "scripture_refs": [
+        "1 Corinthians 11"
+      ],
+      "correlation": "1905_OCR_QUESTION_AND_ANSWER_ANCHORED",
+      "bds_1988_sentence_verified": false,
+      "restrictions": [
+        "성찬에 관한 불신자 일반의 보편 명제로 확대 금지",
+        "후대 신조와 문구 단위 동일시 금지"
+      ],
+      "source_id": "BARGE_1905_APP50",
+      "bds_document_id": "BDS_1988_DOC16",
+      "edition_1905_ocr_verified": true,
+      "edition_1905_print_image_verified": false,
+      "original_manuscript_checked": false,
+      "can_publish": false
+    }
+  ],
+  "postscript": {
+    "bargedate_printed": "1537",
+    "barge_editorial_correction": "1536",
+    "basel_chapter_note_print_page": 606,
+    "content_ko": "본문 말미는 1537로 적힌 8월 2일 보고 및 수용 언급 뒤 '모두가 이를 믿는 것은 아니다'라는 유보를 기록한다.",
+    "ocr_line_locator": "30317-30323",
+    "source_access": "1905_EDITION_OCR_DIRECT",
+    "facsimile_unverified": true,
+    "claim_scope": "해당 전승의 후기/보고; 시의회의 독립 회의록이 아님"
+  },
+  "bds_alignment": {
+    "status": "NOT_COMPLETED",
+    "reason": "BDS p219–226 direct full text access failed during this session",
+    "no_sentence_level_alignment_claim": true
+  },
+  "qa": {
+    "question_count": 4,
+    "unique_ids": true,
+    "all_q_1905_ocr_anchored": true,
+    "bds_1988_full_collation": false
+  }
+}
