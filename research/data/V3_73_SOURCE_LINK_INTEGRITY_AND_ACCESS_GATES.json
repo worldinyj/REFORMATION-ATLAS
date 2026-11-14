@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.0.0",
+  "version": "V3.73",
+  "as_of": "2026-11-14",
+  "branch": "research/atlas-v373-rhenanus-facsimile-vadian-catalogue-audit",
+  "release": {
+    "status": "DRAFT",
+    "can_ship": false,
+    "expert_approved": false,
+    "main_edited": false,
+    "essays_513_edited": false,
+    "ai_studio_edited": false
+  },
+  "resources": [
+    {
+      "id": "RHENANUS_1886",
+      "title": "Briefwechsel des Beatus Rhenanus",
+      "year": 1886,
+      "author_or_editors": "Horawitz and Hartfelder",
+      "letter_no": "297",
+      "start_page": 421,
+      "departure_evidence_page": 422,
+      "edition_ocr_read_in_prior_version": true,
+      "page_image_verified": false,
+      "official_catalogue": "https://catalogue.bnf.fr/ark:/12148/cb31206298d",
+      "digital_copy": "https://books.google.com/books/about/Briefwechsel_des_Beatus_Rhenanus.html?id=y0WcfekwCksC"
+    },
+    {
+      "id": "VADIAN_BW_5_2",
+      "title": "Vadianische Briefsammlung V, 2. Hälfte",
+      "year": 1905,
+      "publisher_series": "Mitteilungen zur Vaterländischen Geschichte 29/2",
+      "target_page": 339,
+      "target_letter": "Bucer to Vadian 1536-07-23",
+      "target_letter_page_seen": false,
+      "individual_archive_locator_verified": false,
+      "archive_guide": "https://stadtarchiv.ch/forschungsprojekte/vadianische-briefsammlung/"
+    },
+    {
+      "id": "VADIAN_ARCHIVE_INFRA",
+      "series": "VadSlg Ms 30-41a",
+      "finding_aid": "https://kalliope-verbund.info/gnd/findingaid?fa.enum=1&fa.id=CH-002121-2-991170432739305501",
+      "example_unrelated_letter": "VadSlg Ms 34:60",
+      "example_url": "https://kalliope-verbund.info/ead?ead.id=CH-002121-2-991170525759305501",
+      "is_target_letter": false
+    }
+  ],
+  "link_integrity_incidents": [
+    {
+      "id": "V373_LINK_QA01",
+      "expected": "Horawitz Hartfelder 1886 Rhenanus PDF",
+      "requested_url": "https://docenti.unimc.it/claudio.micaelli/teaching/2021/24241/files/Renano%20Briefwechsel.pdf",
+      "observed_redirect": "https://pdf.arkiva.me/Libra/1685/1685-PDF-L-Cuneus-Prophetarum-Ceta-e-profetenve.pdf#page=2",
+      "result": "WRONG_DOCUMENT",
+      "accepted_as_source": false
+    }
+  ],
+  "claims_not_promoted": [
+    "Brieffer original print page image verified",
+    "Bucer Vadian 1536-07-23 full text directly checked",
+    "Vadian target letter call number known",
+    "parate discedent reading fixed"
+  ],
+  "qa": {
+    "source_bibliography_verified": true,
+    "archive_discovery_workflow_verified": true,
+    "wrong_pdf_excluded": true,
+    "rhenanus_page_image_421_422_seen": false,
+    "vadian_target_page_339_seen": false,
+    "expert_review": false
+  }
+}
