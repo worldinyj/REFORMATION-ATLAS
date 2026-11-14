@@ -1,0 +1,325 @@
+{
+  "schema_version": "1.0.0",
+  "version": "V3.76",
+  "as_of": "2026-11-14",
+  "inherits": [
+    "V3.61",
+    "V3.70",
+    "V3.72",
+    "V3.75"
+  ],
+  "branch": "research/atlas-v376-claim-evidence-matrix",
+  "release": {
+    "status": "DRAFT",
+    "can_ship": false,
+    "expert_approved": false,
+    "main_edited": false,
+    "existing_513_essays_edited": false,
+    "ai_studio_edited": false
+  },
+  "sources": {
+    "BDS_1988_217": {
+      "url": "https://digi.hadw-bw.de/view/bds6_1/0221",
+      "locator": "BDS 6/1 (1988) printed p.217",
+      "type": "critical_edition_editorial_intro",
+      "access": "PUBLIC_OCR_DIRECT_THIS_TURN"
+    },
+    "BDS_1988_218": {
+      "url": "https://digi.hadw-bw.de/view/bds6_1/0222",
+      "locator": "BDS 6/1 (1988) printed p.218",
+      "type": "critical_edition_textual_apparatus",
+      "access": "PUBLIC_OCR_DIRECT_THIS_TURN"
+    },
+    "BARGE_1905_APP50": {
+      "url": "https://archive.org/details/andreasbodenstei02barg",
+      "locator": "Barge II (1905), Appendix 50 pp.603-606",
+      "type": "historical_printed_transcription",
+      "access": "PRIOR_V360_OCR_ONLY"
+    },
+    "RHENANUS_1886_N297_422": {
+      "url": "https://archive.org/details/bub_gb_T6sUAAAAYAAJ",
+      "locator": "Horawitz/Hartfelder 1886, Nr.297 pp.421–422",
+      "type": "edited_contemporary_letter",
+      "access": "PRIOR_V372_OCR_DIRECT"
+    },
+    "WA_BR7_3048_TEXT": {
+      "url": "https://archive.org/details/werkebriefwechse0307luthuoft",
+      "locator": "WA Br 7 (1937) Nr.3048 pp.466–468",
+      "type": "edited_contemporary_letter",
+      "access": "PRIOR_V370_OCR_DIRECT"
+    },
+    "WA_BR7_3048_APPARATUS": {
+      "url": "https://archive.org/details/werkebriefwechse0307luthuoft",
+      "locator": "WA Br 7 (1937) Nr.3048 apparatus pp.468–470",
+      "type": "modern_editorial_notes",
+      "access": "PRIOR_V370_OCR_DIRECT"
+    },
+    "HBBW6_866_INDEX": {
+      "url": "https://www.irg.uzh.ch/de/publikationen/bullinger/edition-briefwechsel/briefverzeichnis.html",
+      "locator": "HBBW 6 Nr.866",
+      "type": "scholarly_letter_index",
+      "access": "PRIOR_INDEX_VERIFIED"
+    },
+    "VADIAN_BW_V339_LEAD": {
+      "url": "https://www.hvsg.ch/mitteilungen.php",
+      "locator": "Vadianische Briefsammlung V/2 p.339 [reported via WA note]",
+      "type": "bibliographic_lead_only",
+      "access": "TARGET_NOT_DIRECTLY_SEEN"
+    },
+    "CAPITO_2015_EDITORIAL": {
+      "url": "https://tile.loc.gov/storage-services/master/gdc/gdcebookspublic/20/20/71/95/37/2020719537/2020719537.pdf",
+      "locator": "Capito Correspondence III (2015), p.447",
+      "type": "modern_editorial_summary",
+      "access": "PRIOR_V366_PRINT_PAGE_REVIEW"
+    },
+    "V361_VARIANT_DATA": {
+      "url": "https://github.com/worldinyj/REFORMATION-ATLAS/blob/research/atlas-v361-basel-four-questions-witness-crosswalk/research/data/V3_61_FOUR_QUESTIONS_WITNESS_CROSSWALK_DRAFT.json",
+      "locator": "V3.61 witness_variant_examples",
+      "type": "internal_research_data",
+      "access": "GITHUB_FETCH_THIS_TURN"
+    }
+  },
+  "claims": [
+    {
+      "claim_id": "C01",
+      "domain": "Q1",
+      "claim_ko": "참된 임재와 자연적 결합 문제를 바젤 측이 제기했다",
+      "source_ids": [
+        "BDS_1988_217",
+        "BARGE_1905_APP50"
+      ],
+      "access_level": "EDITION_OCR_DIRECT_PLUS_PRIOR_OCR",
+      "assessment": "TOPICAL_CONFIRMED_EXACT_Q_UNCOLLATED",
+      "remaining_gap": "Q1 원문과 BDS A-D 문장별 대응 미확정",
+      "guardrail": "BDS 217의 unio naturalis 설명은 편집자 서론",
+      "can_publish": false
+    },
+    {
+      "claim_id": "C02",
+      "domain": "Q2",
+      "claim_ko": "구약 성도들의 그리스도 참여를 문답에서 논의했다",
+      "source_ids": [
+        "BARGE_1905_APP50"
+      ],
+      "access_level": "PRIOR_1905_OCR",
+      "assessment": "TOPICAL_ONLY",
+      "remaining_gap": "1905 인쇄면 및 BDS 문장 대조 없음",
+      "guardrail": "구약/신약 구분을 보편 교리 합의로 확장 금지",
+      "can_publish": false
+    },
+    {
+      "claim_id": "C03",
+      "domain": "Q3",
+      "claim_ko": "그리스도와 신자의 연합 및 자연적 거주 언어를 논의했다",
+      "source_ids": [
+        "BARGE_1905_APP50"
+      ],
+      "access_level": "PRIOR_1905_OCR",
+      "assessment": "TOPICAL_ONLY",
+      "remaining_gap": "연합 관련 원어 어형과 성경인용 대조 미완료",
+      "guardrail": "신학적 의미 정합성 미검증",
+      "can_publish": false
+    },
+    {
+      "claim_id": "C04",
+      "domain": "Q4",
+      "claim_ko": "합당하지 않은 수찬자 논의가 고전 11장의 책망받는 신자를 포함한다",
+      "source_ids": [
+        "BARGE_1905_APP50"
+      ],
+      "access_level": "PRIOR_1905_OCR",
+      "assessment": "DOCUMENT_SCOPE_RESTRICTION",
+      "remaining_gap": "관련 문장 외교적 교감 없음",
+      "guardrail": "불신자 일반/1577 교리로 확장 금지",
+      "can_publish": false
+    },
+    {
+      "claim_id": "C05",
+      "domain": "CHRONOLOGY",
+      "claim_ko": "대표단은 1536-07-14 바젤에서 출발했다고 브리퍼가 보고했다",
+      "source_ids": [
+        "RHENANUS_1886_N297_422",
+        "WA_BR7_3048_APPARATUS"
+      ],
+      "access_level": "1886_EDITION_OCR_DIRECT",
+      "assessment": "CORROBORATED_SAME_LETTER_VIA_TWO_EDITIONS",
+      "remaining_gap": "두 판본이 동일 브리퍼 편지를 전달함; 두 독립 당시 증언 아님",
+      "guardrail": "1886 판면 이미지 미검증",
+      "can_publish": false
+    },
+    {
+      "claim_id": "C06",
+      "domain": "CHRONOLOGY",
+      "claim_ko": "1536-07-17을 대표단 귀환 완료일로 확정할 수 없다",
+      "source_ids": [
+        "BDS_1988_217",
+        "WA_BR7_3048_TEXT",
+        "RHENANUS_1886_N297_422"
+      ],
+      "access_level": "CROSS_SOURCE_ARGUMENT",
+      "assessment": "CONFLICT_WITH_LATER_CONSULTATION",
+      "remaining_gap": "7월 17일이 다른 사건의 날짜일 가능성 남음",
+      "guardrail": "정확한 원고 작성일 확정 금지",
+      "can_publish": false
+    },
+    {
+      "claim_id": "C07",
+      "domain": "CHRONOLOGY",
+      "claim_ko": "1536-07-19 당시 대표단의 스트라스부르 체류 정황이 있다",
+      "source_ids": [
+        "BDS_1988_218",
+        "HBBW6_866_INDEX"
+      ],
+      "access_level": "EDITED_QUOTE_AND_OFFICIAL_INDEX",
+      "assessment": "EDITED_QUOTATION_NOT_FULL_LETTER",
+      "remaining_gap": "HBBW 편지 전문 미열람",
+      "guardrail": "Argentinae 표현의 직접 사본 검수 필요",
+      "can_publish": false
+    },
+    {
+      "claim_id": "C08",
+      "domain": "CHRONOLOGY",
+      "claim_ko": "1536-07-20 카피토는 바젤 대표 두 명과 사흘째 논의한다고 적었다",
+      "source_ids": [
+        "WA_BR7_3048_TEXT"
+      ],
+      "access_level": "1937_EDITION_OCR_DIRECT",
+      "assessment": "EDITED_TEXT_OCR",
+      "remaining_gap": "원판 이미지 미검증",
+      "guardrail": "첫 논의일을 7/18로 자동 역산 금지",
+      "can_publish": false
+    },
+    {
+      "claim_id": "C09",
+      "domain": "CHRONOLOGY",
+      "claim_ko": "1536-07-21 브리퍼는 협의 결과 보고를 아직 모른다고 적었다",
+      "source_ids": [
+        "RHENANUS_1886_N297_422"
+      ],
+      "access_level": "1886_EDITION_OCR_DIRECT",
+      "assessment": "EDITED_TEXT_OCR",
+      "remaining_gap": "이로써 대표단의 실제 위치를 확정할 수 없음",
+      "guardrail": "결과 미인지와 물리적 체류를 혼동 금지",
+      "can_publish": false
+    },
+    {
+      "claim_id": "C10",
+      "domain": "CHRONOLOGY",
+      "claim_ko": "1536-07-23 부처 편지의 인용은 대표단 출발이 임박한 정황을 전한다",
+      "source_ids": [
+        "WA_BR7_3048_APPARATUS",
+        "VADIAN_BW_V339_LEAD"
+      ],
+      "access_level": "1937_EDITORIAL_REQUOTE",
+      "assessment": "INDIRECT_ONLY",
+      "remaining_gap": "1905판 p339/해당 원고 미열람",
+      "guardrail": "출발 준비≠출발 완료",
+      "can_publish": false
+    },
+    {
+      "claim_id": "C11",
+      "domain": "RECEPTION",
+      "claim_ko": "카피토는 7월 20일 바젤·뮐루즈의 협약 수용을 보고했다",
+      "source_ids": [
+        "WA_BR7_3048_TEXT",
+        "WA_BR7_3048_APPARATUS"
+      ],
+      "access_level": "1937_TEXT_AND_EDITOR_COMMENT_OCR",
+      "assessment": "ACTOR_REPORT_NOT_FORMAL_RATIFICATION",
+      "remaining_gap": "1937 편집자는 보고를 성급하다고 판단",
+      "guardrail": "당대 행위자 주장과 시의회 의결 구분",
+      "can_publish": false
+    },
+    {
+      "claim_id": "C12",
+      "domain": "RECEPTION",
+      "claim_ko": "8월 2일 바젤 다수 목회자들의 평가가 있었다",
+      "source_ids": [
+        "CAPITO_2015_EDITORIAL"
+      ],
+      "access_level": "MODERN_EDITORIAL_SUMMARY",
+      "assessment": "SECONDARY_PENDING_MINUTES",
+      "remaining_gap": "관련 목회자 회의 원문 미확인",
+      "guardrail": "모든 스위스 지역의 동의로 확대 금지",
+      "can_publish": false
+    },
+    {
+      "claim_id": "C13",
+      "domain": "WITNESS",
+      "claim_ko": "BDS D 사본에 대한 출전은 St Gallen Tr. Q 1b Nr.31 Anlage B",
+      "source_ids": [
+        "BDS_1988_217"
+      ],
+      "access_level": "1988_EDITION_OCR_DIRECT",
+      "assessment": "BIBLIOGRAPHIC_WITNESS_LOCATOR",
+      "remaining_gap": "현행 소장기호와 사본 이미지 미확인",
+      "guardrail": "Vadian 1536-07-23 개인 서신과 별개",
+      "can_publish": false
+    },
+    {
+      "claim_id": "C14",
+      "domain": "VARIANT",
+      "claim_ko": "BDS p218의 A 어형은 'für stellet', B/C/D는 'fürstellt'로 표기됨",
+      "source_ids": [
+        "BDS_1988_218",
+        "V361_VARIANT_DATA"
+      ],
+      "access_level": "1988_EDITION_OCR_DIRECT",
+      "assessment": "CORRECTION_NEEDED_V361",
+      "remaining_gap": "1988 원판 이미지와 각주 검수 필요",
+      "guardrail": "V3.61 JSON의 stellet은 전사 누락",
+      "can_publish": false
+    },
+    {
+      "claim_id": "C15",
+      "domain": "VARIANT",
+      "claim_ko": "BDS 기본 표제와 B의 생략 표시는 구분해야 한다",
+      "source_ids": [
+        "BDS_1988_218",
+        "V361_VARIANT_DATA"
+      ],
+      "access_level": "1988_EDITION_OCR_DIRECT",
+      "assessment": "CORRECTION_NEEDED_V361",
+      "remaining_gap": "A 원필사본 표제 직접 판독 미완료",
+      "guardrail": "V3.61 JSON의 B=Erlüterung 배정 오류",
+      "can_publish": false
+    },
+    {
+      "claim_id": "C16",
+      "domain": "WITNESS",
+      "claim_ko": "1537-08-02의 사본 기재를 1536년 사건과 분리한다",
+      "source_ids": [
+        "BDS_1988_217",
+        "BARGE_1905_APP50"
+      ],
+      "access_level": "EDITION_OCR_AND_PRIOR_OCR",
+      "assessment": "EDITORIAL_CORRECTION_NOT_AUTOGRAPH_VERIFIED",
+      "remaining_gap": "바젤 KiAr와 BDS C를 물리적으로 자동 동일시 금지",
+      "guardrail": "기재일과 실제 사건일을 분리",
+      "can_publish": false
+    }
+  ],
+  "qa": {
+    "claim_count": 16,
+    "source_count": 10,
+    "broken_source_ids": [],
+    "duplicate_claim_ids": [],
+    "ocr_is_not_facsimile": true,
+    "no_automatic_chronology_conclusion": true,
+    "originals_edited": false
+  },
+  "corrections_not_applied": [
+    {
+      "target": "V3_61_FOUR_QUESTIONS_WITNESS_CROSSWALK_DRAFT.json witness V361-V01",
+      "old": "stellet",
+      "proposed": "für stellet",
+      "reason": "BDS 1988 p.218 explicitly reads für stellet (A)"
+    },
+    {
+      "target": "V3_61_FOUR_QUESTIONS_WITNESS_CROSSWALK_DRAFT.json witness V361-V04",
+      "old": "B=Erlüterung",
+      "proposed": "B=title omitted per apparatus; A=main lemma based on A",
+      "reason": "BDS 1988 p.218 a)—a) B omission"
+    }
+  ]
+}
