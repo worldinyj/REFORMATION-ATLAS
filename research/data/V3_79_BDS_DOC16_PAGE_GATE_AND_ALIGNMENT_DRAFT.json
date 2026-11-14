@@ -1,0 +1,264 @@
+{
+  "schema_version": "1.0.0",
+  "version": "V3.79",
+  "as_of": "2026-11-14",
+  "branch": "research/atlas-v379-bds-document16-page-gate",
+  "source_lineage": {
+    "parent_branch": "research/atlas-v378-barge-four-qa-source-anchors",
+    "parent_dataset": "research/data/V3_78_FOUR_QUESTIONS_1905_SOURCE_ANCHORS_DRAFT.json",
+    "parent_dataset_blob_sha": "b51173c1f2f09c64ed1f1149942f989283edb3ea"
+  },
+  "release": {
+    "status": "DRAFT",
+    "can_ship": false,
+    "expert_approved": false,
+    "main_modified": false,
+    "essays_513_modified": false,
+    "ai_studio_modified": false
+  },
+  "edition": {
+    "title": "Martin Bucers Deutsche Schriften",
+    "volume": "6/1",
+    "year": 1988,
+    "document_number": 16,
+    "document_title": "Erlüterung der Witembergischen Articklen durch die predicanten von Straßburg gegeben",
+    "editor_assigned_date": "1536-07-17",
+    "print_range": "217–226",
+    "digital_item": "https://digi.hadw-bw.de/view/bds6_1/0221",
+    "print_to_viewer_index_delta": 4
+  },
+  "access_log": [
+    {
+      "page": 217,
+      "viewer": "0221",
+      "status": "DIRECT_WEB_HTML_OCR_VIEWED",
+      "scope": "editorial introductory remarks and source witness list",
+      "source_web_url": "https://digi.hadw-bw.de/view/bds6_1/0221"
+    },
+    {
+      "page": 218,
+      "viewer": "0222",
+      "status": "DIRECT_WEB_HTML_OCR_VIEWED",
+      "scope": "editorial discussion, main text opening, textual variants",
+      "source_web_url": "https://digi.hadw-bw.de/view/bds6_1/0222"
+    },
+    {
+      "range": "219–226",
+      "status": "DIRECT_WEB_OPEN_FAILED",
+      "attempted": "official viewer /0223–/0225 and alternative hostname; no page body retrieved"
+    }
+  ],
+  "viewer_pages": [
+    {
+      "printed_page": 219,
+      "viewer_index": 223,
+      "viewer_url": "https://digi.hadw-bw.de/view/bds6_1/0223",
+      "access_status": "NOT_FETCHED_IN_CURRENT_TURN",
+      "text_transcribed": false,
+      "facsimile_reviewed": false,
+      "q_unit_assignments": [],
+      "word_variants": [],
+      "notes": "Do not infer text from 1905 Barge OCR"
+    },
+    {
+      "printed_page": 220,
+      "viewer_index": 224,
+      "viewer_url": "https://digi.hadw-bw.de/view/bds6_1/0224",
+      "access_status": "NOT_FETCHED_IN_CURRENT_TURN",
+      "text_transcribed": false,
+      "facsimile_reviewed": false,
+      "q_unit_assignments": [],
+      "word_variants": [],
+      "notes": "Do not infer text from 1905 Barge OCR"
+    },
+    {
+      "printed_page": 221,
+      "viewer_index": 225,
+      "viewer_url": "https://digi.hadw-bw.de/view/bds6_1/0225",
+      "access_status": "NOT_FETCHED_IN_CURRENT_TURN",
+      "text_transcribed": false,
+      "facsimile_reviewed": false,
+      "q_unit_assignments": [],
+      "word_variants": [],
+      "notes": "Do not infer text from 1905 Barge OCR"
+    },
+    {
+      "printed_page": 222,
+      "viewer_index": 226,
+      "viewer_url": "https://digi.hadw-bw.de/view/bds6_1/0226",
+      "access_status": "NOT_FETCHED_IN_CURRENT_TURN",
+      "text_transcribed": false,
+      "facsimile_reviewed": false,
+      "q_unit_assignments": [],
+      "word_variants": [],
+      "notes": "Do not infer text from 1905 Barge OCR"
+    },
+    {
+      "printed_page": 223,
+      "viewer_index": 227,
+      "viewer_url": "https://digi.hadw-bw.de/view/bds6_1/0227",
+      "access_status": "NOT_FETCHED_IN_CURRENT_TURN",
+      "text_transcribed": false,
+      "facsimile_reviewed": false,
+      "q_unit_assignments": [],
+      "word_variants": [],
+      "notes": "Do not infer text from 1905 Barge OCR"
+    },
+    {
+      "printed_page": 224,
+      "viewer_index": 228,
+      "viewer_url": "https://digi.hadw-bw.de/view/bds6_1/0228",
+      "access_status": "NOT_FETCHED_IN_CURRENT_TURN",
+      "text_transcribed": false,
+      "facsimile_reviewed": false,
+      "q_unit_assignments": [],
+      "word_variants": [],
+      "notes": "Do not infer text from 1905 Barge OCR"
+    },
+    {
+      "printed_page": 225,
+      "viewer_index": 229,
+      "viewer_url": "https://digi.hadw-bw.de/view/bds6_1/0229",
+      "access_status": "NOT_FETCHED_IN_CURRENT_TURN",
+      "text_transcribed": false,
+      "facsimile_reviewed": false,
+      "q_unit_assignments": [],
+      "word_variants": [],
+      "notes": "Do not infer text from 1905 Barge OCR"
+    },
+    {
+      "printed_page": 226,
+      "viewer_index": 230,
+      "viewer_url": "https://digi.hadw-bw.de/view/bds6_1/0230",
+      "access_status": "NOT_FETCHED_IN_CURRENT_TURN",
+      "text_transcribed": false,
+      "facsimile_reviewed": false,
+      "q_unit_assignments": [],
+      "word_variants": [],
+      "notes": "Do not infer text from 1905 Barge OCR"
+    }
+  ],
+  "witnesses": [
+    {
+      "siglum": "A",
+      "repository": "Staatsarchiv Zürich",
+      "shelfmark": "E II 337, fols. 160a–161b",
+      "role": "Leithandschrift, copy made by Utinger",
+      "known_from": "BDS p.217 introduction",
+      "manuscript_image_seen": false
+    },
+    {
+      "siglum": "B",
+      "repository": "Staatsarchiv Zürich",
+      "shelfmark": "E II 347",
+      "role": "copy by Stumpf; print-page reference BDS p.217",
+      "known_from": "BDS p.217",
+      "manuscript_image_seen": false
+    },
+    {
+      "siglum": "C",
+      "repository": "Universitätsbibliothek Basel",
+      "shelfmark": "MSA VI 43a, fols. 1a–8b",
+      "role": "BDS p.217 lists an erroneous 2 August 1537 on fol.8b",
+      "known_from": "BDS p.217",
+      "manuscript_image_seen": false
+    },
+    {
+      "siglum": "D",
+      "repository": "Stadtarchiv St. Gallen (Vadiana)",
+      "shelfmark": "Tr. Q 1b Nr.31 Anlage B",
+      "role": "distinct witness to printed explanation, not 23 July Bucer-Vadian letter",
+      "known_from": "BDS p.217",
+      "manuscript_image_seen": false
+    }
+  ],
+  "question_alignments": [
+    {
+      "unit_id": "V378-Q1",
+      "barge_1905_print_pages": "604–605",
+      "barge_evidence_level": "PRIOR_1905_OCR",
+      "bds_document": "BDS_6_1_DOC_16",
+      "bds_start_page": null,
+      "bds_end_page": null,
+      "bds_start_lemma": null,
+      "bds_end_lemma": null,
+      "alignment_status": "UNALIGNED",
+      "source_line_pairings": [],
+      "theologically_substantive_variants": [],
+      "may_claim_sentence_equivalence": false
+    },
+    {
+      "unit_id": "V378-Q2",
+      "barge_1905_print_pages": "605",
+      "barge_evidence_level": "PRIOR_1905_OCR",
+      "bds_document": "BDS_6_1_DOC_16",
+      "bds_start_page": null,
+      "bds_end_page": null,
+      "bds_start_lemma": null,
+      "bds_end_lemma": null,
+      "alignment_status": "UNALIGNED",
+      "source_line_pairings": [],
+      "theologically_substantive_variants": [],
+      "may_claim_sentence_equivalence": false
+    },
+    {
+      "unit_id": "V378-Q3",
+      "barge_1905_print_pages": "605",
+      "barge_evidence_level": "PRIOR_1905_OCR",
+      "bds_document": "BDS_6_1_DOC_16",
+      "bds_start_page": null,
+      "bds_end_page": null,
+      "bds_start_lemma": null,
+      "bds_end_lemma": null,
+      "alignment_status": "UNALIGNED",
+      "source_line_pairings": [],
+      "theologically_substantive_variants": [],
+      "may_claim_sentence_equivalence": false
+    },
+    {
+      "unit_id": "V378-Q4",
+      "barge_1905_print_pages": "605",
+      "barge_evidence_level": "PRIOR_1905_OCR",
+      "bds_document": "BDS_6_1_DOC_16",
+      "bds_start_page": null,
+      "bds_end_page": null,
+      "bds_start_lemma": null,
+      "bds_end_lemma": null,
+      "alignment_status": "UNALIGNED",
+      "source_line_pairings": [],
+      "theologically_substantive_variants": [],
+      "may_claim_sentence_equivalence": false
+    }
+  ],
+  "validated_from_page218": [
+    {
+      "id": "V379-V01",
+      "description": "A has 'für stellet', B/C/D 'fürstellt'",
+      "type": "morphological",
+      "question_unit": null
+    },
+    {
+      "id": "V379-V04",
+      "description": "B omits editorial main title; C and D have distinct headings",
+      "type": "paratext",
+      "question_unit": null
+    }
+  ],
+  "chronology_caution": {
+    "date_1536_07_17": "date attached to editorially printed document/postscript, not reliable standalone evidence that delegation returned by this date",
+    "must_not_confuse": "editorial date / document statement / delegate travel"
+  },
+  "qa": {
+    "page_rows": 8,
+    "distinct_viewer_indices": true,
+    "distinct_units": true,
+    "all_sentence_alignments_unverified": true,
+    "no_extrapolated_print_readings": true
+  },
+  "next_gates": [
+    "get original digital text or facsimile for pp219–226",
+    "locate actual Q1-Q4 start/end locations in BDS, not guessed",
+    "compare four Barge 1905 responses to individual BDS A-D readings",
+    "verify theologically substantive rather than mere orthographic differences"
+  ]
+}
