@@ -1,0 +1,513 @@
+{
+  "schema_version": "1.0.0",
+  "version": "V3.77-CORRECTED-RESEARCH-COPY",
+  "as_of": "2026-11-14",
+  "branch": "research/atlas-v377-bds-apparatus-correction-qa",
+  "parent": "research/atlas-v376-claim-evidence-matrix",
+  "release": {
+    "status": "DRAFT_CORRECTED_COPY_NOT_APPROVED",
+    "can_ship": false,
+    "expert_approved": false,
+    "main_edited": false,
+    "legacy_513_essays_edited": false,
+    "ai_studio_edited": false
+  },
+  "evidence_register": {
+    "BARGE_1905_APP50": {
+      "url": "https://archive.org/stream/andreasbodenstei02barg/andreasbodenstei02barg_djvu.txt",
+      "locator": "Barge 1905 II, Anhang 50, pp.603–606",
+      "evidence_access": "V3.60_book_full_OCR; V3.61_reuse",
+      "print_image_seen": false,
+      "original_1536_manuscript_seen": false
+    },
+    "BARGE_1905_CHAPTER": {
+      "url": "https://archive.org/details/andreasbodenstei02barg",
+      "locator": "Barge 1905 II, pp.479–482 (editorial historical narrative)",
+      "evidence_access": "V3.60_OCR",
+      "print_image_seen": false,
+      "original_1536_manuscript_seen": false
+    },
+    "BARGE_1905_APP51": {
+      "url": "https://archive.org/stream/andreasbodenstei02barg/andreasbodenstei02barg_djvu.txt",
+      "locator": "Barge 1905 II, Anhang 51, p.607",
+      "evidence_access": "V3.60_OCR",
+      "print_image_seen": false,
+      "original_1536_manuscript_seen": false
+    },
+    "BDS_1988_P217": {
+      "url": "https://digi.hadw-bw.de/view/bds6_1/0221",
+      "locator": "Martin Bucers Deutsche Schriften 6/1 (1988), p.217",
+      "evidence_access": "current_online_OCR",
+      "print_image_seen": false,
+      "original_1536_manuscript_seen": false
+    },
+    "BDS_1988_P218": {
+      "url": "https://digi.hadw-bw.de/view/bds6_1/0222",
+      "locator": "Martin Bucers Deutsche Schriften 6/1 (1988), p.218",
+      "evidence_access": "current_online_OCR",
+      "print_image_seen": false,
+      "original_1536_manuscript_seen": false
+    },
+    "HBBW_INDEX": {
+      "url": "https://www.irg.uzh.ch/de/publikationen/bullinger/edition-briefwechsel/briefverzeichnis.html",
+      "locator": "Heinrich Bullinger Briefwechsel Bd.6, Nrn.861–874",
+      "evidence_access": "official_editorial_letter_index",
+      "letter_fulltext_seen": false
+    },
+    "UB_BASEL_KIAR": {
+      "url": "https://www.e-manuscripta.ch/bau/texte/content/titleinfo/4260207",
+      "locator": "Universitätsbibliothek Basel UBH KiAr Mscr 23a:66 fol.156–157",
+      "evidence_access": "catalogue_current; facsimile_four_pages_reviewed_in_V3.59",
+      "facsimile_image_seen_in_prior_version": true,
+      "full_diplomatic_transcription_complete": false
+    },
+    "KGK_1534_A9_CONTEXT": {
+      "url": "https://dev2.hab.de/apps/edoc/view.html?id=kgk_354_introduction",
+      "locator": "Karlstadt Edition Nr.354; Basel Staatsarchiv Kirchenakten A9 fol.282 (1534)",
+      "evidence_access": "scholarly_archival_reference_for_series_only",
+      "proof_of_1536_fol405_410": false
+    }
+  },
+  "question_units": [
+    {
+      "unit_id": "V361-Q1",
+      "topic": "real_presence_vs_natural_union",
+      "barge_print_pages": "604–605",
+      "interpretation_ko": "참된 임재의 고백과 빵·그리스도 몸의 물질적 혼합·자연 결합을 구분",
+      "source_ids": [
+        "BARGE_1905_APP50",
+        "BDS_1988_P217"
+      ],
+      "bds_A_to_D_specific_sentence_verified": false,
+      "basel_original_exact_line_verified": false,
+      "alignment_status": "TOPICAL_ONLY",
+      "can_publish": false
+    },
+    {
+      "unit_id": "V361-Q2",
+      "topic": "old_covenant_saints_and_christ",
+      "barge_print_pages": "605",
+      "interpretation_ko": "구약 성도들의 그리스도 수령과 신약의 더 분명한 계시 및 성령의 역사 구분",
+      "source_ids": [
+        "BARGE_1905_APP50"
+      ],
+      "bds_A_to_D_specific_sentence_verified": false,
+      "basel_original_exact_line_verified": false,
+      "alignment_status": "TOPICAL_ONLY",
+      "can_publish": false
+    },
+    {
+      "unit_id": "V361-Q3",
+      "topic": "dwelling_of_christ_in_believer",
+      "barge_print_pages": "605",
+      "interpretation_ko": "그리스도와 신자의 연합을 자연적·육체적 거주라는 표현과 요한복음 6장, 에베소서 5장으로 해설",
+      "source_ids": [
+        "BARGE_1905_APP50"
+      ],
+      "bds_A_to_D_specific_sentence_verified": false,
+      "basel_original_exact_line_verified": false,
+      "alignment_status": "TOPICAL_ONLY",
+      "can_publish": false
+    },
+    {
+      "unit_id": "V361-Q4",
+      "topic": "unworthy_communicants_corinthian_context",
+      "barge_print_pages": "605",
+      "interpretation_ko": "이 답변은 고전 11장의 책망받으나 형제라고 불리는 신자들을 다루며 불신자 일반에 대한 결론을 제시하지 않음",
+      "source_ids": [
+        "BARGE_1905_APP50"
+      ],
+      "bds_A_to_D_specific_sentence_verified": false,
+      "basel_original_exact_line_verified": false,
+      "alignment_status": "DOCUMENT_SCOPE_RESTRICTION",
+      "not_all_1536_reformers_views": true,
+      "not_1577_formula_of_concord": true,
+      "can_publish": false
+    }
+  ],
+  "witness_variant_examples": [
+    {
+      "id": "V361-V01",
+      "class": "surface_form",
+      "editorial_locator": "BDS 6/1 p.218",
+      "forms": {
+        "A": "für stellet",
+        "B": "fürstellt",
+        "C": "fürstellt",
+        "D": "fürstellt"
+      },
+      "status": "EXAMPLE_FROM_EDITION_APPARATUS",
+      "assigned_to_question_unit": null,
+      "source_ids": [
+        "BDS_1988_P218"
+      ]
+    },
+    {
+      "id": "V361-V02",
+      "class": "orthography",
+      "editorial_locator": "BDS 6/1 p.218",
+      "forms": {
+        "A": "geantwurt",
+        "B": "geantwort",
+        "C": null,
+        "D": "geantwurt"
+      },
+      "status": "EXAMPLE_FROM_EDITION_APPARATUS",
+      "assigned_to_question_unit": null,
+      "source_ids": [
+        "BDS_1988_P218"
+      ]
+    },
+    {
+      "id": "V361-V03",
+      "class": "orthography",
+      "editorial_locator": "BDS 6/1 p.218",
+      "forms": {
+        "A": "enpfachen",
+        "B": null,
+        "C": "empfachen",
+        "D": "empfachen"
+      },
+      "status": "EXAMPLE_FROM_EDITION_APPARATUS",
+      "assigned_to_question_unit": null,
+      "source_ids": [
+        "BDS_1988_P218"
+      ]
+    },
+    {
+      "id": "V361-V04",
+      "class": "paratext_title",
+      "editorial_locator": "BDS 6/1 p.218",
+      "forms": {
+        "A": "Erlüterung der Witembergischen Articklen durch die predicanten von Straßburg gegeben [BDS base-text lemma; A manuscript heading not independently facsimile-verified]",
+        "B": null,
+        "C": "Was Doctor Andreas ... by den Herren Predicanten ...",
+        "D": "Diß ist vnnser geliepten ..."
+      },
+      "status": "BDS_BASE_TEXT_A; B_OMITS_TITLE; C_D_ALTERNATIVE_TITLES; A_AUTOGRAPH_UNCHECKED",
+      "assigned_to_question_unit": null,
+      "source_ids": [
+        "BDS_1988_P218"
+      ]
+    },
+    {
+      "id": "V361-V05",
+      "class": "date_copy",
+      "editorial_locator": "BDS 6/1 p.217–218",
+      "forms": {
+        "A": "Julij 17 1536 (A contextual postscript)",
+        "B": null,
+        "C": "2 August 1537 (editor deems erroneous)",
+        "D": null
+      },
+      "status": "SEPARATE_MANUSCRIPT_DATE_AND_EDITORIAL_EVENT_DATE",
+      "assigned_to_question_unit": null,
+      "source_ids": [
+        "BDS_1988_P217",
+        "BDS_1988_P218"
+      ]
+    },
+    {
+      "id": "V361-V06",
+      "class": "substantive_closing_clause",
+      "editorial_locator": "Barge 1905 II p.480 footnote",
+      "forms": {
+        "Gernler_or_KiAr": "closing caveat about not everyone believing",
+        "Basel_StA_Kirchenakten_A9": "omitted per 1905 editor"
+      },
+      "status": "EDITOR_REPORTED_VARIANT_NOT_DIRECT_FACSIMILE_COLLATION",
+      "assigned_to_question_unit": null,
+      "source_ids": [
+        "BARGE_1905_CHAPTER",
+        "UB_BASEL_KIAR"
+      ],
+      "why_omitted": "UNKNOWN",
+      "second_copy_original_image_verified": false
+    }
+  ],
+  "contemporary_letter_index": [
+    {
+      "letter_id": "HBBW6-861",
+      "date": "1536-07-09",
+      "date_certainty": "approximate",
+      "sender": "Simon Grynäus",
+      "recipient": "Bullinger",
+      "source_id": "HBBW_INDEX",
+      "index_entry_verified": true,
+      "letter_full_text_verified": false,
+      "manuscript_image_verified": false,
+      "theological_position_inferred": false
+    },
+    {
+      "letter_id": "HBBW6-862",
+      "date": "1536-07-15",
+      "date_certainty": "day",
+      "sender": "Bullinger",
+      "recipient": "Oswald Myconius",
+      "source_id": "HBBW_INDEX",
+      "index_entry_verified": true,
+      "letter_full_text_verified": false,
+      "manuscript_image_verified": false,
+      "theological_position_inferred": false
+    },
+    {
+      "letter_id": "HBBW6-863",
+      "date": "1536-07-15",
+      "date_certainty": "day",
+      "sender": "Oswald Myconius",
+      "recipient": "Bullinger",
+      "source_id": "HBBW_INDEX",
+      "index_entry_verified": true,
+      "letter_full_text_verified": false,
+      "manuscript_image_verified": false,
+      "theological_position_inferred": false
+    },
+    {
+      "letter_id": "HBBW6-864",
+      "date": "1536-07-18",
+      "date_certainty": "day",
+      "sender": "Bullinger",
+      "recipient": "Oswald Myconius",
+      "source_id": "HBBW_INDEX",
+      "index_entry_verified": true,
+      "letter_full_text_verified": false,
+      "manuscript_image_verified": false,
+      "theological_position_inferred": false
+    },
+    {
+      "letter_id": "HBBW6-866",
+      "date": "1536-07-19",
+      "date_certainty": "day",
+      "sender": "Oswald Myconius",
+      "recipient": "Bullinger; Theodor Bibliander; Konrad Pellikan",
+      "source_id": "HBBW_INDEX",
+      "index_entry_verified": true,
+      "letter_full_text_verified": false,
+      "manuscript_image_verified": false,
+      "theological_position_inferred": false
+    },
+    {
+      "letter_id": "HBBW6-869",
+      "date": "1536-07-28",
+      "date_certainty": "day",
+      "sender": "Bullinger",
+      "recipient": "Oswald Myconius",
+      "source_id": "HBBW_INDEX",
+      "index_entry_verified": true,
+      "letter_full_text_verified": false,
+      "manuscript_image_verified": false,
+      "theological_position_inferred": false
+    },
+    {
+      "letter_id": "HBBW6-870",
+      "date": "1536-07-29",
+      "date_certainty": "day",
+      "sender": "Andreas Karlstadt",
+      "recipient": "Bullinger",
+      "source_id": "HBBW_INDEX",
+      "index_entry_verified": true,
+      "letter_full_text_verified": false,
+      "manuscript_image_verified": false,
+      "theological_position_inferred": false
+    },
+    {
+      "letter_id": "HBBW6-871",
+      "date": "1536-07-31",
+      "date_certainty": "day",
+      "sender": "Oswald Myconius",
+      "recipient": "Bullinger",
+      "source_id": "HBBW_INDEX",
+      "index_entry_verified": true,
+      "letter_full_text_verified": false,
+      "manuscript_image_verified": false,
+      "theological_position_inferred": false
+    },
+    {
+      "letter_id": "HBBW6-872",
+      "date": "1536-08-02",
+      "date_certainty": "day",
+      "sender": "Leonhard Hospinian",
+      "recipient": "Bullinger",
+      "source_id": "HBBW_INDEX",
+      "index_entry_verified": true,
+      "letter_full_text_verified": false,
+      "manuscript_image_verified": false,
+      "theological_position_inferred": false
+    },
+    {
+      "letter_id": "HBBW6-873",
+      "date": "1536-08-04",
+      "date_certainty": "day",
+      "sender": "Bullinger",
+      "recipient": "Oswald Myconius",
+      "source_id": "HBBW_INDEX",
+      "index_entry_verified": true,
+      "letter_full_text_verified": false,
+      "manuscript_image_verified": false,
+      "theological_position_inferred": false
+    },
+    {
+      "letter_id": "HBBW6-874",
+      "date": "1536-08-04",
+      "date_certainty": "day",
+      "sender": "Bullinger",
+      "recipient": "Oswald Myconius",
+      "source_id": "HBBW_INDEX",
+      "index_entry_verified": true,
+      "letter_full_text_verified": false,
+      "manuscript_image_verified": false,
+      "theological_position_inferred": false
+    }
+  ],
+  "chronology_conflicts": [
+    {
+      "date": "1536-07-17",
+      "meaning": "eight_day_colloquy_written_statement_or_postscript_per_BDS",
+      "source_ids": [
+        "BDS_1988_P217"
+      ],
+      "status": "EDITORIAL_CHRONOLOGY_NOT_FOLIO_HAND_VERIFIED"
+    },
+    {
+      "date": "1536-07-17",
+      "meaning": "Basel_delegates_dispatch_per_Barge_1905_narrative",
+      "source_ids": [
+        "BARGE_1905_CHAPTER"
+      ],
+      "status": "CONFLICT_PENDING_DIRECT_BASEL_COUNCIL_RECORD"
+    },
+    {
+      "date": "1536-07-19",
+      "meaning": "Myconius letter official index entry 866; cited in BDS p218",
+      "source_ids": [
+        "HBBW_INDEX",
+        "BDS_1988_P218"
+      ],
+      "status": "INDEX_AND_EDITION_CROSSREFERENCE_BODY_UNCHECKED"
+    },
+    {
+      "date": "1536-07-29",
+      "meaning": "Karlstadt letter official index entry 870; printed in Barge appendix 51",
+      "source_ids": [
+        "HBBW_INDEX",
+        "BARGE_1905_APP51"
+      ],
+      "status": "INDEPENDENT_BIBLIOGRAPHICAL_MATCH_CONTENT_NOT_RECOLLATED"
+    },
+    {
+      "date": "1536-08-02",
+      "meaning": "Basel clergy report inferred by Barge historical account",
+      "source_ids": [
+        "BARGE_1905_CHAPTER"
+      ],
+      "status": "NARRATIVE_NOT_MUNICIPAL_MINUTE"
+    },
+    {
+      "date": "1537-08-02",
+      "meaning": "date written in Basel KiAr witness and BDS C reference; editor deems latter wrong",
+      "source_ids": [
+        "BDS_1988_P217",
+        "UB_BASEL_KIAR"
+      ],
+      "status": "SAME_DATE_NOT_PROOF_OF_PHYSICAL_WITNESS_IDENTITY"
+    }
+  ],
+  "proposed_review_only_edits": [
+    {
+      "id": "V361-PATCH-Q4",
+      "reason": "Avoid extending the limited Corinthian-unworthy-communicant answer to all unbelievers or the entire confession",
+      "existing_essay_exact_locator": null,
+      "existing_essay_checked": false,
+      "text_ko": "1536년 바젤 대표와 스트라스부르 설교자의 네 번째 문답은 고린도전서 11장에서 책망을 받지만 형제로 일컬어지는 이들을 중심으로 논의했다. 이를 근거로 모든 불신자의 수찬에 대한 일반 교리를 단정할 수는 없다.",
+      "source_ids": [
+        "BARGE_1905_APP50"
+      ],
+      "status": "REVIEW_ONLY_NOT_APPLIED"
+    },
+    {
+      "id": "V361-PATCH-DATE",
+      "reason": "Distinguish written date from critical event date",
+      "existing_essay_exact_locator": null,
+      "existing_essay_checked": false,
+      "text_ko": "바젤 필사본에는 1537년의 표기가 남아 있지만 1905년 바르게와 1988년 부처 비평판은 관련 1536년 협의의 연대를 별도로 고증한다. 필사본에 적힌 날짜와 그 문서가 설명하는 사건의 날짜는 다르다.",
+      "source_ids": [
+        "BARGE_1905_APP50",
+        "BDS_1988_P217",
+        "UB_BASEL_KIAR"
+      ],
+      "status": "REVIEW_ONLY_NOT_APPLIED"
+    },
+    {
+      "id": "V361-PATCH-VARIANT",
+      "reason": "Ending caveat copy difference not yet directly authenticated",
+      "existing_essay_exact_locator": null,
+      "existing_essay_checked": false,
+      "text_ko": "1905년 편집자는 다른 바젤 사본에서 마지막 유보 문구가 빠졌다고 보고한다. 현재는 이 보고를 사본별 원본 이미지로 다시 검증해야 하며, 누락의 이유를 단정할 수 없다.",
+      "source_ids": [
+        "BARGE_1905_CHAPTER"
+      ],
+      "status": "REVIEW_ONLY_NOT_APPLIED"
+    }
+  ],
+  "editorial_rules": {
+    "topical_alignment_is_exact_textual_collation": false,
+    "all_Q1_to_Q4_exact_readings_verified": false,
+    "dated_letter_catalogue_not_full_text": true,
+    "BDS_C_is_not_automatically_identical_to_Basel_KiAr": true,
+    "omission_without_folio_image_is_not_proven": true,
+    "council_or_synod_ratification_not_inferred": true,
+    "unworthy_recipients_scope_specific_to_1536_Q4": true
+  },
+  "qc": {
+    "source_count_expected": 8,
+    "question_count_expected": 4,
+    "witness_variant_count_expected": 6,
+    "letters_count_expected": 11,
+    "chronology_count_expected": 6,
+    "review_patch_count_expected": 3,
+    "all_review_only": true,
+    "barg1905_print_image_screenshot_failed_38MB": true,
+    "basel_original_4_sides_inspected_prior_V359": true,
+    "HBBW_primary_letter_text_inspected": false,
+    "StA_Basel_1536_A9_fol405_410_image_seen": false
+  },
+  "next": [
+    "Barge printed page 603-606 full image and diplomatic transcriptions",
+    "Basel A9 fol405-410 actual archival scan",
+    "HBBW 870 866 full critical letter body",
+    "Precise 7 July 17 1536 event status and city authority",
+    "Source-to-article exact match before any 513 essays revision"
+  ],
+  "correction_provenance": {
+    "source_path": "research/data/V3_61_FOUR_QUESTIONS_WITNESS_CROSSWALK_DRAFT.json",
+    "source_blob_sha": "d277b723d35db913d2e58e983274dc047ec2b87b",
+    "changes": [
+      {
+        "id": "V361-V01",
+        "path": "witness_variant_examples.forms.A",
+        "before": "stellet",
+        "after": "für stellet",
+        "source": "BDS 6/1 (1988) p.218"
+      },
+      {
+        "id": "V361-V04",
+        "path": "witness_variant_examples.forms.A",
+        "before": "BDS editorial headword, not established manuscript title",
+        "after": "BDS base-text lemma; A manuscript heading not facsimile-verified",
+        "source": "BDS 6/1 p.218"
+      },
+      {
+        "id": "V361-V04",
+        "path": "witness_variant_examples.forms.B",
+        "before": "Erlüterung ...",
+        "after": null,
+        "source": "BDS p.218 a)—a) B indicates omission"
+      }
+    ],
+    "limits": [
+      "No Q1–Q4 sentence-level A–D collation",
+      "A manuscript physical title not checked",
+      "This does not correct other unknown variants"
+    ]
+  }
+}
