@@ -1,0 +1,231 @@
+{
+  "version": "V3.79",
+  "date": "2026-11-16",
+  "status": "RESEARCH_DRAFT",
+  "deployment": {
+    "main": false,
+    "webapp": false,
+    "essay_edits": false,
+    "can_ship": false
+  },
+  "inherited_from": [
+    "V3.76",
+    "V3.77",
+    "V3.78"
+  ],
+  "research_question": "Can Vadian BW V p.339 be linked with certainty to a Bucer→Vadian letter dated 1536-07-23, rather than a Zürich 1536-07-25 cataloged item?",
+  "evidence": [
+    {
+      "id": "E01",
+      "kind": "scholarly_critical_edition",
+      "inspection": "search_index_full_entry_visible",
+      "title": "Heinrich Bullinger Briefwechsel Nr. 875",
+      "date": "1536-08-06",
+      "uri": "https://briefe.arpa-docs.ch/SedWEBShowArticle.cgi?Alias=Briefe&ArtNum=949&DFlags=0",
+      "supports": "Bullinger→Vadian; St Gallen Vadiana Ms 33 (VBS IV) Nr.50; Vadian BW V pp.341-343; editorial note 3 cites p.339."
+    },
+    {
+      "id": "E02",
+      "kind": "scholarly_critical_edition",
+      "inspection": "search_index_full_entry_visible",
+      "title": "Heinrich Bullinger Briefwechsel Nr. 883",
+      "date": "[after 1536-08-22]",
+      "uri": "https://briefe.arpa-docs.ch/SedWEBShowArticle.cgi?Alias=Briefe&ArtNum=957&DFlags=0",
+      "supports": "Editorial regest: draft to Melanchthon, sending Vadian's eucharistic book after 22 Aug; date editorial bracketed."
+    },
+    {
+      "id": "E03",
+      "kind": "official_archive_description",
+      "inspection": "web_text_reviewed",
+      "title": "Stadtarchiv und Vadianische Sammlung: Vadianische Briefsammlung",
+      "uri": "https://stadtarchiv.ch/forschungsprojekte/vadianische-briefsammlung/",
+      "supports": "Digitization/catal ogue project; manuscript digitals and edited extracts linked where available."
+    },
+    {
+      "id": "E04",
+      "kind": "catalog_search_index",
+      "inspection": "inherited_from_V3_77_V3_78_not_full_record_or_image",
+      "title": "Zürich ZB Kalliope Ms S 41, Nr.33",
+      "date": "1536-07-25",
+      "catalog_id": "CH-002121-2-991170609317505501",
+      "uri": "https://www.kalliope-verbund.info/de/findingaid?fa.id=CH-002121-2-881170715577605501",
+      "supports": "Index candidate: Bucer→Vadian dated July 25; date from listing has not been compared to original."
+    },
+    {
+      "id": "E05",
+      "kind": "printed_edition_bibliography",
+      "inspection": "bibliographic_catalog",
+      "title": "Vadianische Briefsammlung V, second half",
+      "date": "1905",
+      "uri": "https://www.hvsg.ch/mitteilungen.php",
+      "supports": "Second half volume covers 1536–1540; print p.339 not yet seen."
+    },
+    {
+      "id": "E06",
+      "kind": "prior_research_unverified",
+      "inspection": "not_inspected",
+      "title": "WA Br 7 Nr.3048 editorial note (V3.74 inherited)",
+      "uri": null,
+      "supports": "Previous linkage of 1536-07-23 to Vadian BW V p.339; requires image/text reinspection."
+    }
+  ],
+  "claims": [
+    {
+      "id": "ATLAS-1536-VAD-001",
+      "text": "HBBW 875 is a Bullinger→Vadian letter dated 1536-08-06.",
+      "evidence_ids": [
+        "E01"
+      ],
+      "assessment": "verified_critical_edition",
+      "public_use": "editorial_eligible",
+      "editorial_attribution": "HBBW 875의 비평판에 따르면",
+      "primary_manuscript_checked": false
+    },
+    {
+      "id": "ATLAS-1536-VAD-002",
+      "text": "The printed location of HBBW 875 is Vadian BW V pp.341–343.",
+      "evidence_ids": [
+        "E01"
+      ],
+      "assessment": "verified_critical_edition",
+      "public_use": "editorial_eligible",
+      "editorial_attribution": "HBBW 875의 서지 정보에 따르면",
+      "primary_manuscript_checked": false
+    },
+    {
+      "id": "ATLAS-1536-VAD-003",
+      "text": "HBBW 875 editorial note 3 cites Vadian BW V p.339 and characterizes Bucer's regret at not reviewing Vadian's Aphorismen before printing.",
+      "evidence_ids": [
+        "E01"
+      ],
+      "assessment": "verified_as_editorial_commentary",
+      "public_use": "editorial_eligible",
+      "editorial_attribution": "HBBW 875 편집주 3의 설명에 따르면",
+      "primary_manuscript_checked": false
+    },
+    {
+      "id": "ATLAS-1536-VAD-004",
+      "text": "HBBW 875's regest reports Vadian's Aphorismen not fully printed by 1536-08-06.",
+      "evidence_ids": [
+        "E01"
+      ],
+      "assessment": "supported_by_edition_regest",
+      "public_use": "editorial_eligible",
+      "editorial_attribution": "HBBW 875의 편집 요약에 따르면",
+      "primary_manuscript_checked": false
+    },
+    {
+      "id": "ATLAS-1536-VAD-005",
+      "text": "A Zürich catalog-index candidate is a Bucer→Vadian letter dated 1536-07-25, Ms S 41, Nr.33.",
+      "evidence_ids": [
+        "E04"
+      ],
+      "assessment": "catalog_index_only",
+      "public_use": "research_only",
+      "editorial_attribution": "Kalliope 검색목록에 따르면",
+      "primary_manuscript_checked": false
+    },
+    {
+      "id": "ATLAS-1536-VAD-006",
+      "text": "There exists a fully identified Bucer→Vadian original dated 1536-07-23 at Vadian BW V p.339.",
+      "evidence_ids": [
+        "E05",
+        "E06"
+      ],
+      "assessment": "unresolved_identity",
+      "public_use": "blocked",
+      "editorial_attribution": null,
+      "primary_manuscript_checked": false
+    },
+    {
+      "id": "ATLAS-1536-VAD-007",
+      "text": "The July 23 item and Zürich July 25 Ms S 41 Nr.33 are the same letter.",
+      "evidence_ids": [
+        "E04",
+        "E06"
+      ],
+      "assessment": "unverified_equivalence",
+      "public_use": "blocked",
+      "editorial_attribution": null,
+      "primary_manuscript_checked": false
+    },
+    {
+      "id": "ATLAS-1536-VAD-008",
+      "text": "The exact printed heading, entry number, and verbatim text on Vadian BW V p.339 are known.",
+      "evidence_ids": [
+        "E05"
+      ],
+      "assessment": "not_directly_inspected",
+      "public_use": "blocked",
+      "editorial_attribution": null,
+      "primary_manuscript_checked": false
+    },
+    {
+      "id": "ATLAS-1536-VAD-009",
+      "text": "St Gallen's modern Vadian correspondence catalog includes links to letter digitals and, where edited, edition excerpts.",
+      "evidence_ids": [
+        "E03"
+      ],
+      "assessment": "verified_official_description",
+      "public_use": "editorial_eligible",
+      "editorial_attribution": "장크트갈렌 시립문서관의 공식 안내에 따르면",
+      "primary_manuscript_checked": false
+    },
+    {
+      "id": "ATLAS-1536-VAD-010",
+      "text": "HBBW 883 is an editorially dated post-22-August draft to Melanchthon that mentions sending Vadian's Aphorismen.",
+      "evidence_ids": [
+        "E02"
+      ],
+      "assessment": "supported_by_edition_regest",
+      "public_use": "editorial_eligible",
+      "editorial_attribution": "HBBW 883 비평판 요약에 따르면",
+      "primary_manuscript_checked": false
+    }
+  ],
+  "provenance_distinctions": [
+    {
+      "not_equal": [
+        "Zentralbibliothek Zürich, Ms S 41, Nr.33",
+        "St Gallen, VadSlg Ms 41:33"
+      ],
+      "reason": "Identical numerals in different collections are not an identity match"
+    },
+    {
+      "not_equal": [
+        "Vadian BW V p.339",
+        "HBBW letter no.339"
+      ],
+      "reason": "Printed pagination is not correspondence number"
+    },
+    {
+      "not_equal": [
+        "HBBW 875 editor footnote 3",
+        "verbatim Bucer letter text"
+      ],
+      "reason": "Editorial gloss is a secondary interpretation of an earlier source"
+    }
+  ],
+  "open_tasks": [
+    {
+      "priority": 1,
+      "item": "Obtain Vadian BW V second half pp.338-343 visual scan and identify entry header on p.339",
+      "gate": "physical_page_inspected"
+    },
+    {
+      "priority": 2,
+      "item": "Retrieve Zürich ZB Ms S 41 Nr.33 full catalog card, manuscript date reading and reproducible image link",
+      "gate": "zurich_autograph_checked"
+    },
+    {
+      "priority": 3,
+      "item": "Confirm WA Br 7 Nr.3048 exact source citation and wording against scan",
+      "gate": "wa_note_checked"
+    },
+    {
+      "priority": 4,
+      "item": "Only then decide if 1536-07-23 and 1536-07-25 represent same, corrected, or distinct letters",
+      "gate": "identity_resolution"
+    }
+  ]
+}
