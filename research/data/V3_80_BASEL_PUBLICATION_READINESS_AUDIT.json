@@ -1,0 +1,487 @@
+{
+  "schema_version": "1.0.0",
+  "version": "V3.80",
+  "as_of": "2026-11-15",
+  "lineage": {
+    "parent_branch": "research/atlas-v379-bds-document16-page-gate",
+    "input_matrix_path": "research/data/V3_76_BASEL_CLAIM_EVIDENCE_MATRIX_DRAFT.json",
+    "input_matrix_git_blob_sha": "2f19d004548c52590f200da50177a5c0e4c0c8b0",
+    "input_claim_count": 16,
+    "input_source_count": 10
+  },
+  "release": {
+    "status": "RESEARCH_AUDIT_COMPLETE_PUBLICATION_BLOCKED",
+    "can_ship": false,
+    "expert_approved": false,
+    "main_modified": false,
+    "legacy_513_edited": false,
+    "ai_studio_modified": false
+  },
+  "rules": {
+    "evidence_levels": {
+      "EDITION_TEXT_CONFIRMED": "A published critical edition's printed text or editorial lemma identified in OCR; not the 16th-century autograph or facsimile",
+      "REVIEW_WITH_SCOPE_CAVEAT": "Coherent interpretive claim, requiring caveat and/or separate text verification",
+      "HOLD_FOR_MORE_COLLATION": "Substantive wording, corroboration or archival decision not sufficiently directly checked"
+    },
+    "status_not_equal_accuracy": true,
+    "source_type_distinction": [
+      "1536_contemporary_letter",
+      "19th_20th_century_edited_print_text",
+      "editorial_commentary",
+      "21st_century_summary",
+      "source_catalogue",
+      "manuscript_facsimile"
+    ],
+    "publication_rules": [
+      "No ingestion of V3.61 erroneous variants; use V3.77 correction copy",
+      "No formal Basel ratification claim from Capito's July report alone",
+      "No July 17 return-completed claim",
+      "No first-meeting-day derived solely from third-day phrasing",
+      "No sentence alignment BDS 219–226 until direct text seen",
+      "No 1905 Vadian 339 direct quotation until page seen",
+      "Preserve manuscript written date and editorial event date separately"
+    ]
+  },
+  "classifications": {
+    "EDITION_TEXT_CONFIRMED": [
+      "C05",
+      "C08",
+      "C09",
+      "C13",
+      "C14",
+      "C15"
+    ],
+    "REVIEW_WITH_SCOPE_CAVEAT": [
+      "C01",
+      "C04",
+      "C06",
+      "C11",
+      "C16"
+    ],
+    "HOLD_FOR_MORE_COLLATION": [
+      "C02",
+      "C03",
+      "C07",
+      "C10",
+      "C12"
+    ]
+  },
+  "claims": [
+    {
+      "claim_id": "C01",
+      "domain": "Q1",
+      "summary_ko": "1905 Barge의 성찬 임재 설명과 1988 BDS 편집 배경은 주제 차원에서 연결됨. 문장별 동일성 미확인.",
+      "source_ids": [
+        "BDS_1988_217",
+        "BARGE_1905_APP50"
+      ],
+      "evidence_level": "REVIEW_WITH_SCOPE_CAVEAT",
+      "recommended_next_gate": "P1_BDS_TEXT",
+      "reportable_in_research": true,
+      "may_publish_as_is": false,
+      "may_update_513_essays": false,
+      "guardrail": "DO_NOT_ASSERT_EXACT_BDS_Q_ALIGNMENT",
+      "status": "EVIDENCE_AUDITED_NOT_RELEASED"
+    },
+    {
+      "claim_id": "C02",
+      "domain": "Q2",
+      "summary_ko": "1905 Barge Q2 본문 OCR에서 구약 성도의 참여 설명 확인. 1988판 A–D와 미교감.",
+      "source_ids": [
+        "BARGE_1905_APP50"
+      ],
+      "evidence_level": "HOLD_FOR_MORE_COLLATION",
+      "recommended_next_gate": "P1_BDS_TEXT",
+      "reportable_in_research": true,
+      "may_publish_as_is": false,
+      "may_update_513_essays": false,
+      "guardrail": "DO_NOT_ASSERT_EXACT_BDS_Q_ALIGNMENT",
+      "status": "EVIDENCE_AUDITED_NOT_RELEASED"
+    },
+    {
+      "claim_id": "C03",
+      "domain": "Q3",
+      "summary_ko": "1905 Barge Q3에서 요 6·엡 5 관련 설명 확인. 교부 원문·1988판 미교감.",
+      "source_ids": [
+        "BARGE_1905_APP50"
+      ],
+      "evidence_level": "HOLD_FOR_MORE_COLLATION",
+      "recommended_next_gate": "P1_BDS_TEXT",
+      "reportable_in_research": true,
+      "may_publish_as_is": false,
+      "may_update_513_essays": false,
+      "guardrail": "DO_NOT_ASSERT_EXACT_BDS_Q_ALIGNMENT",
+      "status": "EVIDENCE_AUDITED_NOT_RELEASED"
+    },
+    {
+      "claim_id": "C04",
+      "domain": "Q4",
+      "summary_ko": "1905 Barge Q4는 고전 11의 책망받는 형제를 대상으로 하고 불신자 일반은 논외로 둠.",
+      "source_ids": [
+        "BARGE_1905_APP50"
+      ],
+      "evidence_level": "REVIEW_WITH_SCOPE_CAVEAT",
+      "recommended_next_gate": "P1_BDS_TEXT",
+      "reportable_in_research": true,
+      "may_publish_as_is": false,
+      "may_update_513_essays": false,
+      "guardrail": "DO_NOT_ASSERT_EXACT_BDS_Q_ALIGNMENT",
+      "status": "EVIDENCE_AUDITED_NOT_RELEASED"
+    },
+    {
+      "claim_id": "C05",
+      "domain": "CHRONOLOGY",
+      "summary_ko": "1536-07-14 출발이 1886판 브리퍼 서신 자체 OCR에 있으며 1937 WA 각주도 같은 편지를 재인용.",
+      "source_ids": [
+        "RHENANUS_1886_N297_422",
+        "WA_BR7_3048_APPARATUS"
+      ],
+      "evidence_level": "EDITION_TEXT_CONFIRMED",
+      "recommended_next_gate": "P2_FACSIMILE",
+      "reportable_in_research": true,
+      "may_publish_as_is": false,
+      "may_update_513_essays": false,
+      "guardrail": "NO_HISTORICAL_INFERENCE_FROM_ACTOR_REPORT",
+      "status": "EVIDENCE_AUDITED_NOT_RELEASED"
+    },
+    {
+      "claim_id": "C06",
+      "domain": "CHRONOLOGY",
+      "summary_ko": "1536-07-17을 최종 귀환일이라고 확정하면 7/20 서신의 협의 중 기록과 충돌. 날짜 유형 미확정.",
+      "source_ids": [
+        "BDS_1988_217",
+        "WA_BR7_3048_TEXT",
+        "RHENANUS_1886_N297_422"
+      ],
+      "evidence_level": "REVIEW_WITH_SCOPE_CAVEAT",
+      "recommended_next_gate": "P1_CHRONOLOGY",
+      "reportable_in_research": true,
+      "may_publish_as_is": false,
+      "may_update_513_essays": false,
+      "guardrail": "SEPARATE_DOCUMENT_DATE_FROM_EVENT_DATE",
+      "status": "EVIDENCE_AUDITED_NOT_RELEASED"
+    },
+    {
+      "claim_id": "C07",
+      "domain": "CHRONOLOGY",
+      "summary_ko": "1536-07-19 미코니우스 서신의 내용은 BDS 편집 인용과 HBBW 목록에서만 접근.",
+      "source_ids": [
+        "BDS_1988_218",
+        "HBBW6_866_INDEX"
+      ],
+      "evidence_level": "HOLD_FOR_MORE_COLLATION",
+      "recommended_next_gate": "P1_HBBW866",
+      "reportable_in_research": true,
+      "may_publish_as_is": false,
+      "may_update_513_essays": false,
+      "guardrail": "DO_NOT_ASSERT_EXACT_BDS_Q_ALIGNMENT",
+      "status": "EVIDENCE_AUDITED_NOT_RELEASED"
+    },
+    {
+      "claim_id": "C08",
+      "domain": "CHRONOLOGY",
+      "summary_ko": "1536-07-20 카피토 편지의 사흘째 협의 보고는 1937 WA 비평판 OCR로 확인.",
+      "source_ids": [
+        "WA_BR7_3048_TEXT"
+      ],
+      "evidence_level": "EDITION_TEXT_CONFIRMED",
+      "recommended_next_gate": "P2_FACSIMILE",
+      "reportable_in_research": true,
+      "may_publish_as_is": false,
+      "may_update_513_essays": false,
+      "guardrail": "NO_HISTORICAL_INFERENCE_FROM_ACTOR_REPORT",
+      "status": "EVIDENCE_AUDITED_NOT_RELEASED"
+    },
+    {
+      "claim_id": "C09",
+      "domain": "CHRONOLOGY",
+      "summary_ko": "1536-07-21 브리퍼는 대표단의 결과 보고를 아직 모른다고 기록. 대표단의 실제 위치는 증명 불가.",
+      "source_ids": [
+        "RHENANUS_1886_N297_422"
+      ],
+      "evidence_level": "EDITION_TEXT_CONFIRMED",
+      "recommended_next_gate": "P2_FACSIMILE",
+      "reportable_in_research": true,
+      "may_publish_as_is": false,
+      "may_update_513_essays": false,
+      "guardrail": "NO_HISTORICAL_INFERENCE_FROM_ACTOR_REPORT",
+      "status": "EVIDENCE_AUDITED_NOT_RELEASED"
+    },
+    {
+      "claim_id": "C10",
+      "domain": "CHRONOLOGY",
+      "summary_ko": "1536-07-23 부처→바디안 편지는 1937 WA 각주의 다른 편지 재인용. 1905판 직접 미독.",
+      "source_ids": [
+        "WA_BR7_3048_APPARATUS",
+        "VADIAN_BW_V339_LEAD"
+      ],
+      "evidence_level": "HOLD_FOR_MORE_COLLATION",
+      "recommended_next_gate": "P1_VADIAN_15360723",
+      "reportable_in_research": true,
+      "may_publish_as_is": false,
+      "may_update_513_essays": false,
+      "guardrail": "INDIRECT_QUOTE_NOT_DIRECT_TEXT",
+      "status": "EVIDENCE_AUDITED_NOT_RELEASED"
+    },
+    {
+      "claim_id": "C11",
+      "domain": "RECEPTION",
+      "summary_ko": "7/20 카피토의 바젤 수용 보고는 행위자 진술. 1937 편집자는 성급한 보고라 지적.",
+      "source_ids": [
+        "WA_BR7_3048_TEXT",
+        "WA_BR7_3048_APPARATUS"
+      ],
+      "evidence_level": "REVIEW_WITH_SCOPE_CAVEAT",
+      "recommended_next_gate": "P1_ACTOR_REPORT_VS_FORMAL_VOTE",
+      "reportable_in_research": true,
+      "may_publish_as_is": false,
+      "may_update_513_essays": false,
+      "guardrail": "NO_HISTORICAL_INFERENCE_FROM_ACTOR_REPORT",
+      "status": "EVIDENCE_AUDITED_NOT_RELEASED"
+    },
+    {
+      "claim_id": "C12",
+      "domain": "RECEPTION",
+      "summary_ko": "8/2 바젤 목회자 평가·승인에 관한 서술은 현대 편집 해설을 매개로 함. 기관 원회의록 미독.",
+      "source_ids": [
+        "CAPITO_2015_EDITORIAL"
+      ],
+      "evidence_level": "HOLD_FOR_MORE_COLLATION",
+      "recommended_next_gate": "P1_BASEL_COUNCIL_MINUTES",
+      "reportable_in_research": true,
+      "may_publish_as_is": false,
+      "may_update_513_essays": false,
+      "guardrail": "DO_NOT_ASSERT_EXACT_BDS_Q_ALIGNMENT",
+      "status": "EVIDENCE_AUDITED_NOT_RELEASED"
+    },
+    {
+      "claim_id": "C13",
+      "domain": "WITNESS",
+      "summary_ko": "BDS p217에 St. Gallen의 D 사본 Tr. Q 1b Nr.31 Anlage B의 출전이 기재됨. 개인 서신과 구별.",
+      "source_ids": [
+        "BDS_1988_217"
+      ],
+      "evidence_level": "EDITION_TEXT_CONFIRMED",
+      "recommended_next_gate": "P2_STGALLEN_D_WITNESS",
+      "reportable_in_research": true,
+      "may_publish_as_is": false,
+      "may_update_513_essays": false,
+      "guardrail": "D_WITNESS_NOT_BUCER_VADIAN_LETTER",
+      "status": "EVIDENCE_AUDITED_NOT_RELEASED"
+    },
+    {
+      "claim_id": "C14",
+      "domain": "VARIANT",
+      "summary_ko": "1988 BDS p218 A='für stellet'; V3.61 누락을 V3.77 별도 사본에서 정정.",
+      "source_ids": [
+        "BDS_1988_218",
+        "V361_VARIANT_DATA"
+      ],
+      "evidence_level": "EDITION_TEXT_CONFIRMED",
+      "recommended_next_gate": "P0_LEGACY_VERSION_EXCLUSION",
+      "reportable_in_research": true,
+      "may_publish_as_is": false,
+      "may_update_513_essays": false,
+      "guardrail": "USE_V377_NOT_LEGACY_V361",
+      "status": "EVIDENCE_AUDITED_NOT_RELEASED"
+    },
+    {
+      "claim_id": "C15",
+      "domain": "VARIANT",
+      "summary_ko": "1988 BDS p218 B의 기본 표제 생략; V3.77에서 B=null과 기본 본문 구별.",
+      "source_ids": [
+        "BDS_1988_218",
+        "V361_VARIANT_DATA"
+      ],
+      "evidence_level": "EDITION_TEXT_CONFIRMED",
+      "recommended_next_gate": "P0_LEGACY_VERSION_EXCLUSION",
+      "reportable_in_research": true,
+      "may_publish_as_is": false,
+      "may_update_513_essays": false,
+      "guardrail": "USE_V377_NOT_LEGACY_V361",
+      "status": "EVIDENCE_AUDITED_NOT_RELEASED"
+    },
+    {
+      "claim_id": "C16",
+      "domain": "WITNESS",
+      "summary_ko": "사본 1537-08-02의 표기와 1536년 실제 협의 연대를 편집자가 구분. 원본 필사면 재검수 필요.",
+      "source_ids": [
+        "BDS_1988_217",
+        "BARGE_1905_APP50"
+      ],
+      "evidence_level": "REVIEW_WITH_SCOPE_CAVEAT",
+      "recommended_next_gate": "P1_WRITTEN_DATE_WITNESS",
+      "reportable_in_research": true,
+      "may_publish_as_is": false,
+      "may_update_513_essays": false,
+      "guardrail": "SEPARATE_DOCUMENT_DATE_FROM_EVENT_DATE",
+      "status": "EVIDENCE_AUDITED_NOT_RELEASED"
+    }
+  ],
+  "duplicate_testimony_families": [
+    {
+      "id": "BRIEFFER_LETTER_1536_07_21",
+      "contemporary_documents": 1,
+      "attested_in": [
+        "Horawitz-Hartfelder 1886 Nr297 OCR",
+        "WA Br 7 1937 editor note"
+      ],
+      "rule": "two editions of same letter = one contemporary testimony"
+    },
+    {
+      "id": "CAPITO_LETTER_1536_07_20",
+      "contemporary_documents": 1,
+      "attested_in": [
+        "WA Br 7 1937 Nr3048 OCR",
+        "Capito Correspondence 2015 Ep619 summary"
+      ],
+      "rule": "modern summary must not be counted as independent 1536 letter"
+    },
+    {
+      "id": "ERLAUTERUNG_BASLE_STRASBOURG_1536",
+      "contemporary_documents": "not_countable_until witness identity audit",
+      "attested_in": [
+        "Barge 1905 Appendix 50",
+        "BDS 1988 document 16",
+        "A/B/C/D manuscripts in BDS editorial register"
+      ],
+      "rule": "different print representations and manuscripts; keep witness identities separate, don't count editions as independent texts"
+    },
+    {
+      "id": "BUCER_VADIAN_1536_07_23",
+      "contemporary_documents": 1,
+      "attested_in": [
+        "WA 1937 critical-note quote",
+        "Vadianische Briefsammlung 1905 volume/page bibliographic lead"
+      ],
+      "rule": "1905 page and original manuscript not directly read"
+    }
+  ],
+  "source_access_attempts": [
+    {
+      "id": "BDS1988_219_226",
+      "date": "2026-11-15",
+      "url": "https://digi.hadw-bw.de/view/bds6_1/0223",
+      "status": "WEB_OPEN_FAILED_INTERNAL_ERROR",
+      "individually_opened_indices": [
+        223,
+        224,
+        225,
+        230
+      ],
+      "text_verification_count": 0,
+      "do_not_infer_absence_of_text": true
+    },
+    {
+      "id": "BDS1988_217_218",
+      "date": "2026-11-15",
+      "status": "WEB_HTML_OCR_DIRECT",
+      "urls": [
+        "https://digi.hadw-bw.de/view/bds6_1/0221",
+        "https://digi.hadw-bw.de/view/bds6_1/0222"
+      ],
+      "not_facsimile": true
+    },
+    {
+      "id": "PDF_VIA_CONTAINER",
+      "date": "2026-11-15",
+      "status": "DNS_BLOCKED",
+      "host": "digi.hadw-bw.de",
+      "not_a_claim_about_remote_site_availability": true
+    }
+  ],
+  "new_secondary_anchor": {
+    "kind": "1988_editorial_index_crossreferences",
+    "url": "https://digi.hadw-bw.de/view/bds6_1/0406?navmode=fulltextsearch",
+    "reported_pointers": [
+      "p219 line20",
+      "p221 line5",
+      "p224 line2ff",
+      "p226 line7"
+    ],
+    "read_directly": false,
+    "do_not_assign_to_Q1_Q4": true
+  },
+  "publication_items": [
+    {
+      "id": "SCENE1",
+      "title": "1536년 7월 대표단 파견과 협의",
+      "target": "research-only draft",
+      "related_claims": [
+        "C05",
+        "C06",
+        "C08",
+        "C09",
+        "C10"
+      ],
+      "status": "EDITORIAL_DRAFT_READY_REVIEW_NOT_APPROVED",
+      "essay_locator": null
+    },
+    {
+      "id": "SCENE2",
+      "title": "성찬의 참된 임재와 불필요한 물질적 혼합 추론",
+      "target": "research-only draft",
+      "related_claims": [
+        "C01",
+        "C02",
+        "C03",
+        "C04"
+      ],
+      "status": "EDITORIAL_DRAFT_READY_REVIEW_NOT_APPROVED",
+      "essay_locator": null
+    },
+    {
+      "id": "SCENE3",
+      "title": "수용의 보고와 공식 승인 사이",
+      "target": "research-only draft",
+      "related_claims": [
+        "C11",
+        "C12",
+        "C16"
+      ],
+      "status": "EDITORIAL_DRAFT_READY_REVIEW_NOT_APPROVED",
+      "essay_locator": null
+    }
+  ],
+  "next_priority": [
+    {
+      "rank": 1,
+      "task": "Run gate on validated V3.77 variants, exclude V3.61 erroneous fields at import",
+      "acceptance": "ingestion rejects V3.61; V3.77 changes exactly two witness fields",
+      "dependency": "none"
+    },
+    {
+      "rank": 2,
+      "task": "Acquire BDS pp219–226 direct text or institution scans",
+      "acceptance": "4 Q start/end actual source lines and variant locators identified",
+      "dependency": "digital access"
+    },
+    {
+      "rank": 3,
+      "task": "Obtain archive response for 1536-07-23 Bucer to Vadian and verify source identity",
+      "acceptance": "exact call no, page and direct text or negative archive result",
+      "dependency": "external archive"
+    },
+    {
+      "rank": 4,
+      "task": "Audit target essays and webapp import paths",
+      "acceptance": "exact locations/commit SHA listed, no mutation",
+      "dependency": "repo inventory"
+    },
+    {
+      "rank": 5,
+      "task": "Expert approve individually cited prose passages before publication",
+      "acceptance": "approve claim IDs and source evidence, no blanket approval",
+      "dependency": "full QA"
+    }
+  ],
+  "qa": {
+    "claim_total": 16,
+    "source_total": 10,
+    "level_total": 16,
+    "source_ref_integrity": true,
+    "unique_ids": true,
+    "all_publication_blocked": true,
+    "page219_to226_sentence_corroboration": false
+  }
+}
