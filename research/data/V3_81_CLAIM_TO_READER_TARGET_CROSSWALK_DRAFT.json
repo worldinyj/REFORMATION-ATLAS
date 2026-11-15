@@ -1,0 +1,489 @@
+{
+  "schema_version": "1.0.0",
+  "version": "V3.81",
+  "as_of": "2026-11-15",
+  "base_branch": "research/atlas-v380-basel-integrated-readiness-audit",
+  "branch": "research/atlas-v381-claim-to-reader-targets-audit",
+  "release": {
+    "status": "PREVIEW_ONLY",
+    "can_ship": false,
+    "author_approved": false,
+    "main_edited": false,
+    "essays_513_edited": false,
+    "ai_studio_source_checked": false,
+    "webapp_modified": false
+  },
+  "source_lineage": {
+    "legacy": {
+      "path": "data/deep/atlas_v307_remaining_overview_medium_readers.json",
+      "git_blob_sha": "d25f54191183ee80db564237a0dfb4d008af990a"
+    },
+    "map": {
+      "path": "data/contracts/atlas_v304_overview_medium_reading_crosswalk.json",
+      "git_blob_sha": "d5008fe0c721e4f1ad6b1dbc1ceb8c4fd16a6038"
+    },
+    "claims": {
+      "path": "research/data/V3_80_BASEL_PUBLICATION_READINESS_AUDIT.json",
+      "git_blob_sha": "aa3480b5885aec9f904ad25a48a512450bc44850"
+    },
+    "a": {
+      "path": "data/deep/atlas_v264_medium_depth_humanists_and_mediators.json",
+      "git_blob_sha": "273257105b4006f0be3e45aa41200334356c9d84"
+    },
+    "b": {
+      "path": "data/deep/atlas_v260_medium_depth_core_comparisons.json",
+      "git_blob_sha": "aad9afc92acbeef607b06f074b268724b278a221"
+    },
+    "c": {
+      "path": "data/deep/atlas_v276_medium_depth_twenty_readers.json",
+      "git_blob_sha": "4477840d85222fbb18accbeacee38afee7b2dc7d"
+    },
+    "d": {
+      "path": "data/deep/atlas_v278_medium_depth_balanced_reform_paths.json",
+      "git_blob_sha": "2d679b8f9f741570cc091bebd8a0c9748b3daaae"
+    },
+    "e": {
+      "path": "data/deep/atlas_v254_medium_depth_ten_readers.json",
+      "git_blob_sha": "ac219f34d4caceb2ceae1d64b61e71c53350244c"
+    },
+    "manifest": {
+      "path": "integrations/medium-atlas-v308/manifest.json",
+      "git_blob_sha": "61532f9e1d3319a5dc2cc18771d79cac1b9cbd98"
+    }
+  },
+  "repo_audit": {
+    "default_main_tree_entries": 1,
+    "default_main_only_readme": true,
+    "active_branch_roots": [
+      ".github",
+      "assets",
+      "data",
+      "docs",
+      "integrations",
+      "research",
+      "scripts",
+      "tests"
+    ],
+    "readers_513_catalogue_count": 513,
+    "readers_513_unique_ids": 513,
+    "overview_crosswalk_entries": 97,
+    "overview_direct": 78,
+    "overview_partial": 18,
+    "overview_background": 1,
+    "integrated_medium_manifest": "integrations/medium-atlas-v308/manifest.json",
+    "expected_513": 513,
+    "expected_sections": 1539,
+    "materialization": "ON_DEMAND_FOUR_PINNED_INPUTS",
+    "actual_ai_studio_source_available": false,
+    "actual_ai_studio_integration_verified": false,
+    "materialized_delivery_checksum_verified": false
+  },
+  "actual_readers": [
+    {
+      "reader_id": "PERSON-BUCER",
+      "source_file": "data/deep/atlas_v264_medium_depth_humanists_and_mediators.json",
+      "source_git_blob_sha": "273257105b4006f0be3e45aa41200334356c9d84",
+      "source_chapter_id": "PERSON-BUCER",
+      "source_chapter_index_in_file": 2,
+      "catalogue_chapter_index": 2,
+      "section_index": 1,
+      "heading": "성찬 논쟁에서 합의의 말을 찾다",
+      "body_excerpt": "부처는 성찬을 둘러싼 루터와 스위스계 개혁자들의 차이를 좁히려 했다. 1536년 비텐베르크 일치협약은 그런 중재가 낳은 성과였지만 모든 개혁 진영을 지속적으로 하나로 묶지는 못했다. 협약에 서명하거나 공통 표현을 사용한 사실과 그 표현의 의미를 모두가 같게 이해한 사실은 구별해야 한다.",
+      "existing_section_has_exact_1536_case": true,
+      "catalogue_reader_document": "docs/01_CONTENT/V264_MEDIUM_DEPTH_HUMANISTS_AND_MEDIATORS.md",
+      "existing_source_ids": [
+        "S04",
+        "S05"
+      ]
+    },
+    {
+      "reader_id": "THEME-COMMUNION",
+      "source_file": "data/deep/atlas_v260_medium_depth_core_comparisons.json",
+      "source_git_blob_sha": "aad9afc92acbeef607b06f074b268724b278a221",
+      "source_chapter_id": "THEME-COMMUNION",
+      "source_chapter_index_in_file": 2,
+      "catalogue_chapter_index": 2,
+      "section_index": 1,
+      "heading": "실재와 상징의 단순한 양자택일을 넘어서",
+      "body_excerpt": "루터는 성찬에서 그리스도가 참으로 주어진다는 약속을 강조했다. 츠빙글리는 그리스도의 승천,말씀과 신앙,성례가 공동체에 갖는 의미를 다르게 연결했다. 한쪽은 그리스도의 임재를 믿고 다른 쪽은 아무 의미도 없는 기념행사로 여겼다고 설명해서는 안 된다. 둘 다 성찬을 진지하게 다루었지만 몸과",
+      "existing_section_has_exact_1536_case": false,
+      "catalogue_reader_document": "docs/01_CONTENT/V260_MEDIUM_DEPTH_CORE_COMPARISONS.md",
+      "existing_source_ids": []
+    },
+    {
+      "reader_id": "CITY-BASEL",
+      "source_file": "data/deep/atlas_v276_medium_depth_twenty_readers.json",
+      "source_git_blob_sha": "4477840d85222fbb18accbeacee38afee7b2dc7d",
+      "source_chapter_id": "CITY-BASEL",
+      "source_chapter_index_in_file": 15,
+      "catalogue_chapter_index": 15,
+      "section_index": 0,
+      "heading": "1529년의 교회적 전환",
+      "body_excerpt": "바젤의 공식 도시 연표는 1529년 외콜람파디우스의 종교개혁과 주교의 도시 이탈을 함께 기록한다. 이 두 사실을 나란히 놓으면 개혁이 설교 내용만의 변화가 아니었음을 볼 수 있다. 기존 주교와 도시의 관계가 바뀌는 제도적 사건이기도 했다. 다만 짧은 연표만으로 변화의 모든 원인이나 시민",
+      "existing_section_has_exact_1536_case": false,
+      "catalogue_reader_document": "docs/01_CONTENT/V276_MEDIUM_DEPTH_TWENTY_READERS.md",
+      "existing_source_ids": [
+        "S19"
+      ]
+    },
+    {
+      "reader_id": "PERSON-KARLSTADT",
+      "source_file": "data/deep/atlas_v278_medium_depth_balanced_reform_paths.json",
+      "source_git_blob_sha": "2d679b8f9f741570cc091bebd8a0c9748b3daaae",
+      "source_chapter_id": "PERSON-KARLSTADT",
+      "source_chapter_index_in_file": 6,
+      "catalogue_chapter_index": 6,
+      "section_index": 1,
+      "heading": "돌아온 루터와의 갈등",
+      "body_excerpt": "1522년 루터가 돌아온 뒤 개혁의 방향을 둘러싼 차이가 분명해졌다. 대학은 카를슈타트의 출판을 검열했고 그는 기존 동료들과 거리를 두었다. 옳은 신앙을 함께 추구한다는 말이 예배와 성찬, 권위의 설명까지 같다는 뜻은 아니었다. 인보카비트 설교를 루터의 시각에서만 읽지 않으려면 갈등의 ",
+      "existing_section_has_exact_1536_case": false,
+      "catalogue_reader_document": "docs/01_CONTENT/V278_MEDIUM_DEPTH_BALANCED_REFORM_PATHS.md",
+      "existing_source_ids": [
+        "S08"
+      ]
+    },
+    {
+      "reader_id": "MEDIUM-MARBURG",
+      "source_file": "data/deep/atlas_v254_medium_depth_ten_readers.json",
+      "source_git_blob_sha": "ac219f34d4caceb2ceae1d64b61e71c53350244c",
+      "source_chapter_id": "MEDIUM-MARBURG",
+      "source_chapter_index_in_file": 4,
+      "catalogue_chapter_index": 4,
+      "section_index": 1,
+      "heading": "핵심 사건과 주장",
+      "body_excerpt": "성찬 논쟁의 중심에는 그리스도의 말씀을 어떻게 이해하고, 떡과 포도주를 받는 행위에서 그리스도의 임재를 어떻게 설명할 것인가가 있었다. 루터에게 성찬에서 주어지는 그리스도의 실제적 임재는 중요한 확신이었다. 츠빙글리는 성찬을 이해하는 다른 강조점을 제시했다. 이를 한쪽은 문자, 다른 쪽",
+      "existing_section_has_exact_1536_case": false,
+      "catalogue_reader_document": "docs/01_CONTENT/V254_MEDIUM_DEPTH_TEN_READERS.md",
+      "existing_source_ids": []
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C01",
+      "reader_id": "THEME-COMMUNION",
+      "link_role": "CONCEPTUAL_ADDENDUM",
+      "source_target": {
+        "chapter_file": "data/deep/atlas_v260_medium_depth_core_comparisons.json",
+        "chapter_id": "THEME-COMMUNION",
+        "section_index": 1,
+        "section_heading": "실재와 상징의 단순한 양자택일을 넘어서"
+      },
+      "appendix_or_review_required": true,
+      "confirmed_existing_sentence_match": false,
+      "explanation": "Barge Q1 / BDS critical witness explanation not present in existing paragraph",
+      "publication": "BLOCKED",
+      "exact_paragraph_id": null
+    },
+    {
+      "claim_id": "C02",
+      "reader_id": null,
+      "link_role": "NEW_DEEP_MODULE",
+      "source_target": null,
+      "appendix_or_review_required": true,
+      "confirmed_existing_sentence_match": false,
+      "explanation": "Old Testament saints discussion not found in the selected existing theme section",
+      "publication": "BLOCKED",
+      "exact_paragraph_id": null
+    },
+    {
+      "claim_id": "C03",
+      "reader_id": null,
+      "link_role": "NEW_DEEP_MODULE",
+      "source_target": null,
+      "appendix_or_review_required": true,
+      "confirmed_existing_sentence_match": false,
+      "explanation": "John 6 / Ephesians 5 participatory union requires separately sourced passage",
+      "publication": "BLOCKED",
+      "exact_paragraph_id": null
+    },
+    {
+      "claim_id": "C04",
+      "reader_id": null,
+      "link_role": "NEW_DEEP_MODULE",
+      "source_target": null,
+      "appendix_or_review_required": true,
+      "confirmed_existing_sentence_match": false,
+      "explanation": "1 Corinthians 11 unworthy recipients are not currently explained in target section",
+      "publication": "BLOCKED",
+      "exact_paragraph_id": null
+    },
+    {
+      "claim_id": "C05",
+      "reader_id": "PERSON-BUCER",
+      "link_role": "1536_EVENT_ADDENDUM",
+      "source_target": {
+        "chapter_file": "data/deep/atlas_v264_medium_depth_humanists_and_mediators.json",
+        "chapter_id": "PERSON-BUCER",
+        "section_index": 1,
+        "section_heading": "성찬 논쟁에서 합의의 말을 찾다"
+      },
+      "appendix_or_review_required": true,
+      "confirmed_existing_sentence_match": false,
+      "explanation": "14 July travel is not in current Bucer paragraph",
+      "publication": "BLOCKED",
+      "exact_paragraph_id": null
+    },
+    {
+      "claim_id": "C06",
+      "reader_id": "PERSON-BUCER",
+      "link_role": "1536_EVENT_ADDENDUM",
+      "source_target": {
+        "chapter_file": "data/deep/atlas_v264_medium_depth_humanists_and_mediators.json",
+        "chapter_id": "PERSON-BUCER",
+        "section_index": 1,
+        "section_heading": "성찬 논쟁에서 합의의 말을 찾다"
+      },
+      "appendix_or_review_required": true,
+      "confirmed_existing_sentence_match": false,
+      "explanation": "17 July postscript date vs chronology requires explicit note",
+      "publication": "BLOCKED",
+      "exact_paragraph_id": null
+    },
+    {
+      "claim_id": "C07",
+      "reader_id": "PERSON-BUCER",
+      "link_role": "1536_EVENT_ADDENDUM",
+      "source_target": {
+        "chapter_file": "data/deep/atlas_v264_medium_depth_humanists_and_mediators.json",
+        "chapter_id": "PERSON-BUCER",
+        "section_index": 1,
+        "section_heading": "성찬 논쟁에서 합의의 말을 찾다"
+      },
+      "appendix_or_review_required": true,
+      "confirmed_existing_sentence_match": false,
+      "explanation": "Myconius 19 July context requires unverified letter gate",
+      "publication": "BLOCKED",
+      "exact_paragraph_id": null
+    },
+    {
+      "claim_id": "C08",
+      "reader_id": "PERSON-BUCER",
+      "link_role": "1536_EVENT_ADDENDUM",
+      "source_target": {
+        "chapter_file": "data/deep/atlas_v264_medium_depth_humanists_and_mediators.json",
+        "chapter_id": "PERSON-BUCER",
+        "section_index": 1,
+        "section_heading": "성찬 논쟁에서 합의의 말을 찾다"
+      },
+      "appendix_or_review_required": true,
+      "confirmed_existing_sentence_match": false,
+      "explanation": "Capito 20 July ongoing consultation belongs under Concord mediation",
+      "publication": "BLOCKED",
+      "exact_paragraph_id": null
+    },
+    {
+      "claim_id": "C09",
+      "reader_id": "PERSON-BUCER",
+      "link_role": "1536_EVENT_ADDENDUM",
+      "source_target": {
+        "chapter_file": "data/deep/atlas_v264_medium_depth_humanists_and_mediators.json",
+        "chapter_id": "PERSON-BUCER",
+        "section_index": 1,
+        "section_heading": "성찬 논쟁에서 합의의 말을 찾다"
+      },
+      "appendix_or_review_required": true,
+      "confirmed_existing_sentence_match": false,
+      "explanation": "Brieffer 21 July source is absent from current reader",
+      "publication": "BLOCKED",
+      "exact_paragraph_id": null
+    },
+    {
+      "claim_id": "C10",
+      "reader_id": null,
+      "link_role": "HOLD_EXTERNAL_LETTER",
+      "source_target": null,
+      "appendix_or_review_required": true,
+      "confirmed_existing_sentence_match": false,
+      "explanation": "Bucer to Vadian 23 July original / 1905 p339 not directly read",
+      "publication": "BLOCKED",
+      "exact_paragraph_id": null
+    },
+    {
+      "claim_id": "C11",
+      "reader_id": "PERSON-BUCER",
+      "link_role": "1536_EVENT_ADDENDUM",
+      "source_target": {
+        "chapter_file": "data/deep/atlas_v264_medium_depth_humanists_and_mediators.json",
+        "chapter_id": "PERSON-BUCER",
+        "section_index": 1,
+        "section_heading": "성찬 논쟁에서 합의의 말을 찾다"
+      },
+      "appendix_or_review_required": true,
+      "confirmed_existing_sentence_match": false,
+      "explanation": "existing text distinguishes signature from shared understanding, but not Basel municipal approval",
+      "publication": "BLOCKED",
+      "exact_paragraph_id": null
+    },
+    {
+      "claim_id": "C12",
+      "reader_id": null,
+      "link_role": "HOLD_FORMAL_MINUTES",
+      "source_target": null,
+      "appendix_or_review_required": true,
+      "confirmed_existing_sentence_match": false,
+      "explanation": "formal Basel adoption minutes and exact dated decisions are not independently read",
+      "publication": "BLOCKED",
+      "exact_paragraph_id": null
+    },
+    {
+      "claim_id": "C13",
+      "reader_id": null,
+      "link_role": "ARCHIVE_ONLY",
+      "source_target": null,
+      "appendix_or_review_required": true,
+      "confirmed_existing_sentence_match": false,
+      "explanation": "St Gallen D witness locator belongs to source archive, not narrative reader",
+      "publication": "BLOCKED",
+      "exact_paragraph_id": null
+    },
+    {
+      "claim_id": "C14",
+      "reader_id": null,
+      "link_role": "DATA_QA_ONLY",
+      "source_target": null,
+      "appendix_or_review_required": true,
+      "confirmed_existing_sentence_match": false,
+      "explanation": "the A 'für stellet' erratum should not become a historical reader paragraph",
+      "publication": "BLOCKED",
+      "exact_paragraph_id": null
+    },
+    {
+      "claim_id": "C15",
+      "reader_id": null,
+      "link_role": "DATA_QA_ONLY",
+      "source_target": null,
+      "appendix_or_review_required": true,
+      "confirmed_existing_sentence_match": false,
+      "explanation": "the B manuscript title omission is apparatus QA, not narrative prose",
+      "publication": "BLOCKED",
+      "exact_paragraph_id": null
+    },
+    {
+      "claim_id": "C16",
+      "reader_id": null,
+      "link_role": "SOURCE_DATE_NOTATION_ONLY",
+      "source_target": null,
+      "appendix_or_review_required": true,
+      "confirmed_existing_sentence_match": false,
+      "explanation": "1537 copy note vs 1536 event needs document-card provenance, not automatic reader edit",
+      "publication": "BLOCKED",
+      "exact_paragraph_id": null
+    }
+  ],
+  "related_overview_entries": [
+    {
+      "overview_id": "OV-E-018",
+      "title": "마르부르크 회담",
+      "mapping_status": "DIRECT_TOPIC",
+      "reader_links": [
+        {
+          "reader_id": "MEDIUM-MARBURG",
+          "role": "PRIMARY",
+          "title": "마르부르크 회담 — 같은 개혁 진영이 왜 하나가 되지 못했는가"
+        },
+        {
+          "reader_id": "THEME-COMMUNION",
+          "role": "FOLLOWUP",
+          "title": "성찬 — 같은 식탁을 두고 왜 다른 설명이 나왔는가"
+        }
+      ],
+      "warning": "topical linking, not 1536 episode evidence"
+    },
+    {
+      "overview_id": "OV-D-020",
+      "title": "성경번역·교회권위·성찬론 비교 문헌군",
+      "mapping_status": "PARTIAL_COVERAGE",
+      "reader_links": [
+        {
+          "reader_id": "THEME-SCRIPTURE_AUTHORITY",
+          "role": "PRIMARY",
+          "title": "성경과 교회의 권위 — 무엇을 최종 기준으로 삼는가"
+        },
+        {
+          "reader_id": "THEME-COMMUNION",
+          "role": "PRIMARY",
+          "title": "성찬 — 같은 식탁을 두고 왜 다른 설명이 나왔는가"
+        },
+        {
+          "reader_id": "THEME-PRINT_TRANSLATION",
+          "role": "PRIMARY",
+          "title": "인쇄와 번역 — 논쟁은 어떻게 사람들에게 도달했는가"
+        }
+      ],
+      "warning": "topical linking, not 1536 episode evidence"
+    },
+    {
+      "overview_id": "TOP-03",
+      "title": "성찬론",
+      "mapping_status": "PARTIAL_COVERAGE",
+      "reader_links": [
+        {
+          "reader_id": "THEME-COMMUNION",
+          "role": "PRIMARY",
+          "title": "성찬 — 같은 식탁을 두고 왜 다른 설명이 나왔는가"
+        },
+        {
+          "reader_id": "MEDIUM-MARBURG",
+          "role": "PRIMARY",
+          "title": "마르부르크 회담 — 같은 개혁 진영이 왜 하나가 되지 못했는가"
+        },
+        {
+          "reader_id": "MEDIUM-WYCLIFFE",
+          "role": "FOLLOWUP",
+          "title": "위클리프 — 교회의 권위는 무엇으로 판단하는가"
+        },
+        {
+          "reader_id": "MEDIUM-HUS",
+          "role": "FOLLOWUP",
+          "title": "후스 — 설교와 교회 개혁이 보헤미아의 문제가 되다"
+        }
+      ],
+      "warning": "topical linking, not 1536 episode evidence"
+    }
+  ],
+  "missing_entry": {
+    "case": "1536 Basel delegates and Strasbourg 1536 Wittenberg Concord negotiations",
+    "direct_event_or_document_in_513_catalogue": false,
+    "proposal_id_not_approved": "PROPOSAL-EVENT-BASEL-STRASBOURG-COLLOQUY1536",
+    "proposed_as_new_reader": false,
+    "reason": "Prior 513 list contains generic Bucer and Communion entries but no specific 1536 Basel/Strasbourg reader ID verified"
+  },
+  "forbidden_false_friend_links": [
+    {
+      "existing_id": "OV-E-014",
+      "existing_reader_id": "EVENT-BASEL_SETTLEMENT1433_1436",
+      "why": "1433–1436 Bohemian Hussite Compactata negotiations, not the 1536 Basel–Strasbourg Eucharistic discussions"
+    },
+    {
+      "existing_id": "OV-D-007",
+      "existing_reader_id": "DOCUMENT-BASEL_COMPACTATA",
+      "why": "15th-century Basel Compactata, not the Wittenberg Concord discussions in 1536"
+    },
+    {
+      "existing_id": "DOCUMENT-FORMULA_CONCORD",
+      "why": "1577 Lutheran Formula of Concord, different document and event"
+    },
+    {
+      "existing_id": "DOCUMENT-BOOK_CONCORD",
+      "why": "1580 Book of Concord, different compilation"
+    }
+  ],
+  "safety": {
+    "no_513_delivery_modifications": true,
+    "no_real_app_source_verified": true,
+    "no_unchecked_claim_ids_exported": true,
+    "source_ids_not_automatically_merged": true,
+    "existing_reader_source_ids_not_identical_to_research_source_ids": true,
+    "claimed_shipped_count": 0,
+    "strict_export": []
+  },
+  "qa": {
+    "claims_total": 16,
+    "unique_claim_ids": 16,
+    "matched_catalogue_anchor_count": 5,
+    "all_anchors_real": true,
+    "no_false_friends": true,
+    "all_claims_blocked": true,
+    "all_paragraph_ids_unresolved": true
+  }
+}
