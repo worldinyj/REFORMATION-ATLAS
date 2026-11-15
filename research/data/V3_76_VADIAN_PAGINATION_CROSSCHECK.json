@@ -1,0 +1,86 @@
+{
+  "version": "V3.76",
+  "as_of": "2026-11-15",
+  "branch": "research/atlas-v376-vadian-pagination-crosscheck",
+  "source_scope": "Bucer -> Vadian, purported date 1536-07-23; Vadian BW V p.339",
+  "status": "RESEARCH_DRAFT",
+  "release": {
+    "can_ship": false,
+    "main_edited": false,
+    "ai_studio_edited": false,
+    "existing_essays_edited": false
+  },
+  "verified": [
+    {
+      "fact": "The 1905 volume V comprises part 1 (1531-1535, 272 pages) and part 2 (1536-1540, 476 pages).",
+      "evidence": "Historischer Verein St. Gallen catalogue",
+      "url": "https://www.hvsg.ch/mitteilungen.php"
+    },
+    {
+      "fact": "HBBW 875 is Bullinger to Joachim Vadian, Zurich, 6 Aug 1536; print citation Vadian BW V pp.341-343.",
+      "evidence": "Digital HBBW article 875 and University of Zurich edition index",
+      "urls": [
+        "https://briefe.arpa-docs.ch/SedWEBShowArticle.cgi?Alias=Briefe&ArtNum=949&DFlags=0",
+        "https://www.irg.uzh.ch/en/publications/bulllinger/edition-correspondence/briefverzeichnis.html"
+      ]
+    },
+    {
+      "fact": "St. Gallen Vadianische Briefsammlung has an ongoing modern digital catalog project, with references to digital facsimiles and extracts of existing editions.",
+      "evidence": "Stadtarchiv St Gallen official project",
+      "url": "https://stadtarchiv.ch/forschungsprojekte/vadianische-briefsammlung/"
+    },
+    {
+      "fact": "An alternate Google Books/Play digitized combined-volume bibliographic record exists with title 'Vadianische Briefsammlung V. 1531-1540' and 776 pages; edition-specific pagination must be distinguished.",
+      "evidence": "Google Play Books bibliographic page; pagination not independently reconciled",
+      "url": "https://play.google.com/store/books/details/Emil_Arbenz_Vadianische_Briefsammlung_V_1531_1540?id=543rVnz84hEC"
+    }
+  ],
+  "interpretations": [
+    {
+      "text": "Vadian BW V p.339 is chronologically near HBBW 875 printed at pp.341-343.",
+      "confidence": "high",
+      "limit": "Adjacency does not independently prove p.339 letter number or exact heading."
+    },
+    {
+      "text": "The proposed Bucer-to-Vadian 1536-07-23 identity remains plausible based on inherited V3.74 cross-references.",
+      "confidence": "provisional",
+      "limit": "No direct visual inspection of printed p.339 or manuscript."
+    }
+  ],
+  "verification_attempts": [
+    {
+      "target": "Google Books digitization id 543rVnz84hEC at printed p.339",
+      "result": "Tool could open bibliographic record but direct page view inaccessible; scan not visually checked."
+    },
+    {
+      "target": "HBBW digital article 875",
+      "result": "Search index displayed contents and printed-page citation; direct webpage fetch returned 502 on subsequent open."
+    },
+    {
+      "target": "Modern manuscript signature",
+      "result": "Official digital catalog path verified; exact Bucer/Vadian 1536-07-23 record not yet positively identified."
+    }
+  ],
+  "unresolved": {
+    "printed_entry_number": null,
+    "printed_heading": null,
+    "manuscript_signature": null,
+    "facsimile_url": null,
+    "exact_transcription": null,
+    "original_document_date_confirmed": false
+  },
+  "quality_gates": {
+    "volume_bibliography": true,
+    "adjacent_letter_875_identified": true,
+    "p339_physically_verified": false,
+    "target_letter_identity_verified": false,
+    "manuscript_directly_verified": false,
+    "approved_for_publication": false
+  },
+  "next_work": [
+    "Obtain scans of edition pp.338-343 and image-based compare of heading and source notes (screenshot inspection required for PDF).",
+    "Find precise Bucer/Vadian date entry in St. Gallen swisscollections/VadSlg catalog; record identifier and provenance.",
+    "Check edition footnotes against WA Br 7 Nr.3048 and HBBW 875 without conflating editorial commentary and direct letter text.",
+    "Make corrected chronology cards only after direct source verification."
+  ]
+}
