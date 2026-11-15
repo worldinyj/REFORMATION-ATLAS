@@ -1,0 +1,78 @@
+{
+  "version": "V3.77",
+  "as_of": "2026-11-15",
+  "branch": "research/atlas-v377-vadian-july-date-collision",
+  "release": {
+    "status": "DRAFT",
+    "can_ship": false,
+    "main_edited": false,
+    "essays_513_edited": false,
+    "ai_studio_edited": false
+  },
+  "research_question": "Is the inherited 1536-07-23 Bucer-to-Vadian citation Vadian BW V p.339 correctly dated and assigned?",
+  "pivotal_finding": {
+    "candidate_sender": "Martin Bucer",
+    "candidate_recipient": "Joachim Vadian",
+    "catalog_date": "1536-07-25",
+    "repository": "Zürich Zentralbibliothek",
+    "signature": "Ms S 41, Nr. 33",
+    "catalog_entry_id": "CH-002121-2-991170609317505501",
+    "catalog_record_title": "1 Brief an Joachim Vadianus (1484-1551) / von Martin Bucer (1491-1551)",
+    "source": "Kalliope aggregated finding-aid search results (not original facsimile)",
+    "source_url": "https://nachlassdatenbank.de/findingaid?fa.id=CH-002121-2-881170715577605501",
+    "exact_entry_retrieved": false,
+    "identity_match_to_p339": "UNRESOLVED",
+    "date_conflict": "1536-07-23 inherited target vs 1536-07-25 Zurich catalog letter",
+    "caveat": "A differently dated, separately cataloged letter cannot silently be substituted for the target."
+  },
+  "cross_references": [
+    {
+      "item": "HBBW 875, Bullinger to Vadian, 1536-08-06",
+      "print": "Vadian BW V pp.341-343",
+      "note": "HBBW footnote 3 points to Vadian BW V p.339 about Bucer regretting not inspecting Aphorismen pre-print",
+      "source": "https://briefe.arpa-docs.ch/SedWEBShowArticle.cgi?Alias=Briefe&ArtNum=949&DFlags=0",
+      "verified_via_index": true
+    },
+    {
+      "item": "Vadianische Briefsammlung V, 2. Hälfte",
+      "years": "1536-1540",
+      "year_of_publication": 1905,
+      "pages": 476,
+      "source": "https://www.hvsg.ch/mitteilungen.php"
+    },
+    {
+      "item": "HBBW editorial letter index",
+      "note": "Nearby letters nos. 868 dated July 22, 869 July 28, 875 Aug 6, 876 Aug 8",
+      "source": "https://www.irg.uzh.ch/de/publikationen/bullinger/edition-briefwechsel/briefverzeichnis.html"
+    },
+    {
+      "item": "Zürich StA E II 347 context",
+      "note": "Institutional catalog describes Eucharistic-concord manuscript collection; not confirmed target Bucer->Vadian signature.",
+      "source": "https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=324877"
+    }
+  ],
+  "caution": [
+    "Do not equate Kalliope document date 1536-07-25 with the inherited 1536-07-23 target.",
+    "Do not equate Zürich ZB Ms S 41 Nr.33 with any St. Gallen VadSlg manuscript.",
+    "Vadian BW V p.339 is an edition page, not manuscript folio or necessarily letter number.",
+    "HBBW 875 footnote is an editorial explanation, not a direct transcription of the Bucer letter.",
+    "The exact printed p.339 letter number and heading remain unverified without seeing the scanned page."
+  ],
+  "verification_status": {
+    "volume_years_verified": true,
+    "hbbw875_adjacent_pages_verified": true,
+    "zürich_july25_candidate_indexed": true,
+    "printed_338_343_facsimile_inspected": false,
+    "exact_339_letter_heading_verified": false,
+    "july23_original_verified": false,
+    "july25_original_verified": false,
+    "call_number_for_july23_verified": false,
+    "identity_proven": false
+  },
+  "next_steps": [
+    "Retrieve scanned edition V, second half, printed pp.338-343 with correct scan/print pagination; capture heading and apparatus for p.339.",
+    "Retrieve the Zurich ZB Ms S 41 Nr.33 catalog record and inspect manuscript/facsimile for exact 25 July date and substantive overlap.",
+    "Reopen WA Br 7 Nr.3048 editorial note and compare literal references to dates and locations.",
+    "For unresolved manuscript identification, contact Vadianische Sammlung at vadslg@ortsbuerger.ch and provide precise edition citation, two date candidates, and Zürich signature explicitly as a separate candidate."
+  ]
+}
