@@ -1,0 +1,101 @@
+{
+  "version": "V3.78",
+  "as_of": "2026-11-16",
+  "branch": "research/atlas-v378-bucer-vadian-archive-inquiries",
+  "status": "DRAFT",
+  "scope": "1536-07-23 vs 1536-07-25 Martin Bucer -> Joachim Vadian and Vadian BW V p.339",
+  "confirmed": {
+    "catalog_1536_07_25": {
+      "institution": "Zentralbibliothek Zürich",
+      "signature": "Ms S 41, Nr. 33",
+      "sender": "Martin Bucer",
+      "recipient": "Joachim Vadian",
+      "date": "1536-07-25",
+      "identifier": "CH-002121-2-991170609317505501",
+      "evidence_type": "Kalliope aggregated finding-aid search snippet",
+      "source": "https://www.kalliope-verbund.info/de/findingaid?fa.id=CH-002121-2-881170715577605501",
+      "direct_item_page_inspected": false
+    },
+    "catalog_1536_04_26": {
+      "institution": "Zentralbibliothek Zürich",
+      "signature": "Ms S 40, Nr. 139",
+      "sender": "Martin Bucer",
+      "recipient": "Joachim Vadian",
+      "date": "1536-04-26",
+      "evidence_type": "Kalliope aggregated finding-aid search snippet"
+    },
+    "colliding_shelfmarks": {
+      "zurich": "Ms S 41, Nr. 33",
+      "st_gallen": "VadSlg Ms 41:33",
+      "st_gallen_separate_record": "Simon Sulzer to Johannes Kessler, [1556]",
+      "same_item": false
+    },
+    "hbbw875": {
+      "date": "1536-08-06",
+      "sender": "Heinrich Bullinger",
+      "recipient": "Joachim Vadian",
+      "printed_pages": "Vadian BW V 341-343",
+      "footnote_3_ref": "Vadian BW V 339",
+      "note_summary": "Bucer regretted not having reviewed Aphorismen before printing; editorial note is not literal original letter text",
+      "url": "https://briefe.arpa-docs.ch/SedWEBShowArticle.cgi?Alias=Briefe&ArtNum=949&DFlags=0"
+    },
+    "edition": {
+      "volume": "V",
+      "half": "2. Hälfte",
+      "year_of_publication": 1905,
+      "document_years": "1536-1540",
+      "pages": 476,
+      "url": "https://www.hvsg.ch/mitteilungen.php"
+    },
+    "later_scholarly_context": {
+      "article": "Ernst Gerhard Rüsch, Um das Abendmahl: Vadians Brief an Luther vom 30. August 1536",
+      "journal": "Theologische Zeitschrift 39 (1983)",
+      "doi": "10.5169/seals-878396",
+      "events": [
+        "1536-08 publication of Aphorismorum libri sex de consideratione eucharistiae",
+        "1536-08-30 Vadian to Luther",
+        "1536-09-06 Bucer to Luther",
+        "1536-11-02 Vadian to Bullinger"
+      ],
+      "pdf_text_available": true,
+      "screenshot_completed": false,
+      "reason": "Screenshot redirected to crawler verification page"
+    },
+    "official_contacts": [
+      {
+        "institution": "Stadtarchiv und Vadianische Sammlung, St. Gallen",
+        "email": "vadslg@ortsbuerger.ch",
+        "official_url": "https://stadtarchiv.ch/vadianische-sammlung/"
+      },
+      {
+        "institution": "Zentralbibliothek Zürich, Handschriften",
+        "email": "handschriften@zb.uzh.ch",
+        "official_url": "https://www.zb.uzh.ch/de/sammlungen/spezialsammlungen/handschriften-nachlasse-und-archivalien"
+      }
+    ]
+  },
+  "unresolved": {
+    "identity_of_1536_07_23": false,
+    "match_to_1536_07_25": false,
+    "exact_1905_p339_heading": null,
+    "exact_1905_p339_letter_number": null,
+    "st_gallen_original_signature": null,
+    "image_of_printed_p339_verified": false,
+    "zurich_ms_s41_33_facsimile_verified": false,
+    "wa_br7_3048_direct_checked_in_this_version": false
+  },
+  "qa": {
+    "independent_date_candidates_separated": true,
+    "different_institutions_with_similar_signatures_separated": true,
+    "editorial_note_vs_original_text_separated": true,
+    "pdf_text_vs_visual_verification_separated": true,
+    "inquiries_prepared": true,
+    "inquiries_sent": false,
+    "publishable": false,
+    "main_modified": false,
+    "historical_essays_modified": false,
+    "ai_studio_modified": false
+  },
+  "related_file": "research/notes/V3_78_BUCER_VADIAN_ARCHIVE_INQUIRIES_DE.md",
+  "recommended_next_version": "V3.79 - ingest verified catalog responses or retrieve printed p.338-343 scan; manuscript provenance comparison and corrected claim registry"
+}
