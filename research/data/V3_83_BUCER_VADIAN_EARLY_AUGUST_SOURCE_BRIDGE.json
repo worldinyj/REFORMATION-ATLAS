@@ -1,0 +1,237 @@
+{
+  "version": "V3.83",
+  "as_of": "2026-11-16",
+  "status": "RESEARCH_DRAFT",
+  "branch": "research/atlas-v383-1536-august-letter-bridge-and-index-gates",
+  "parent_branch": "research/atlas-v382-1536-july-stgallen-zurich-candidate-map",
+  "scope": "Bucer–Vadian 1536 July date collision; newly catalogued early August reciprocal letter and evidence differentiation",
+  "release": {
+    "can_ship": false,
+    "main_edited": false,
+    "essays_513_edited": false,
+    "ai_studio_edited": false,
+    "mail_sent": false
+  },
+  "sources": [
+    {
+      "id": "S383-01",
+      "type": "KALLIOPE_OFFICIAL_ARCHIVE_INDEX",
+      "url": "https://kalliope-verbund.info/gnd/findingaid_index?fa.enum=1&fa.id=CH-002121-2-991170432739305501&lastparam=true",
+      "verified": "Bucer, Martin (1491–1551)(49)",
+      "inspection": "index text",
+      "not_verified": "49 individually identified records"
+    },
+    {
+      "id": "S383-02",
+      "type": "KALLIOPE_COLLECTION_DESCRIPTION",
+      "url": "https://kalliope-verbund.info/gnd/findingaid?fa.enum=1&fa.id=CH-002121-2-991170432739305501",
+      "verified": "3790 indexed items in collection VadSlg Ms 30–41a, range 1495–1630",
+      "inspection": "collection summary",
+      "not_verified": "exact July 1536 document"
+    },
+    {
+      "id": "S383-03",
+      "type": "BIBLISSIMA_IIIF_METADATA_CAMBRIDGE_PARKER",
+      "url": "https://iiif.biblissima.fr/collections/manifest/780facf6a47bf2addec17f9498ef58363cb4c8a0",
+      "verified": "Cambridge Corpus Christi College Parker Library MS 119 catalogue describes Joachim Vadian -> Martin Bucer letter dated pridie Nonas Augusti 1536, item pages 199–200, note continuation on 205–206; mentions forthcoming book and alleged defection rumors",
+      "inspection": "bibliographic/manuscript catalog metadata only",
+      "not_verified": "facsimile text and physical manuscript date, original/derivative status of this item"
+    },
+    {
+      "id": "S383-04",
+      "type": "MODERN_SCHOLARLY_EDITION_HBBW875",
+      "url": "https://briefe.arpa-docs.ch/SedWEBShowArticle.cgi?Alias=Briefe&ArtNum=949&DFlags=0",
+      "verified": "6 August 1536 Bullinger -> Vadian, printed Vadian BW V 341–343, editor note 3 cites Vadian BW V p339",
+      "inspection": "digitized critical-edition searchable text",
+      "not_verified": "Vadian 1905 p339 image and autograph"
+    },
+    {
+      "id": "S383-05",
+      "type": "KALLIOPE_ZURICH_RECORD_1536_07_25",
+      "url": "https://nachlassdatenbank.de/findingaid?fa.id=CH-002121-2-881170715577605501&fq=ead.pers.index%3A%28%22Aelen%2C+Kaspar%22%29&htmlFull=false&lang=de&lastparam=true",
+      "verified": "Bucer -> Vadian 1536-07-25 catalog record CH-002121-2-991170608445805501, Zurich ZB Ms S 41 Nr33, corrected in V3.81",
+      "inspection": "indexed finding-aid listing",
+      "not_verified": "date line on autograph, identity with July 23 target"
+    },
+    {
+      "id": "S383-06",
+      "type": "SECONDARY_HISTORICAL_STUDY_1983",
+      "url": "https://www.e-periodica.ch/cntmng?pid=thz-001%3A1983%3A39%3A%3A470",
+      "verified": "Ernst Gerhard Rüsch 1983 text references Vadian -> Bucer 4 August 1536, including Latin fragment 'Est mihi res cum solis atque unicis papistis'; cites Zwingliana XIV 489.",
+      "inspection": "search-index text; PDF page screenshot not completed",
+      "not_verified": "full article visual page and original letter image"
+    },
+    {
+      "id": "S383-07",
+      "type": "SCHOLARLY_BIBLIOGRAPHY_1978",
+      "url": "https://katalog.slub-dresden.de/en/?tx_find_find%5Bq%5D%5Btopic%5D%5B0%5D=%22Bucer%2C+Martin%22+",
+      "verified": "Jean/Hans Georg Rott article Martin Bucer und die Schweiz: drei unbekannte Briefe von Zwingli, Bucer und Vadian (1530, 1531, 1536); Zwingliana 14 (1978) 461–492 attested by bibliographies",
+      "inspection": "bibliographic record, not article text",
+      "not_verified": "1978 text and its manuscript apparatus directly seen"
+    },
+    {
+      "id": "S383-08",
+      "type": "SECONDARY_HISTORICAL_STUDY_1983_NEGATIVE_CONTROL",
+      "url": "https://regionalia.blb-karlsruhe.de/frontdoor/deliver/index/docId/19682/file/BLB_Schriften_Bodensee_1983.pdf",
+      "verified": "Ernst Gerhard Rüsch, 'Die Stadt St. Gallen und der Reichstag zu Augsburg 1530', printed pp.35–37, cites 17 July 1530 Bucer -> Vadian from Augsburg, VBS VII p39 no30",
+      "inspection": "PDF extracted text/search index; web PDF screenshot failed because 39.8MB content length",
+      "not_verified": "precise scan typography; must not be merged with 1536 letters"
+    }
+  ],
+  "date_normalization": {
+    "latin": "pridie Nonas Augusti 1536",
+    "roman_calendar_rule": "Nones of August = 5 August; pridie Nonas = 4 August",
+    "normalized": "1536-08-04",
+    "source": "S383-03",
+    "qualifier": "date formula is catalog-transcribed; not an independent autograph reading",
+    "year_precision": "catalog_explicit"
+  },
+  "letters": [
+    {
+      "id": "V383-L1",
+      "date": "1536-07-23",
+      "sender": "Martin Bucer",
+      "recipient": "Joachim Vadian",
+      "attestation": "inherited from V3.74/WA Br7 Nr3048 citation",
+      "source_ids": [],
+      "shelfmark": null,
+      "manuscript_checked": false,
+      "public_use": "BLOCKED",
+      "identity": "UNRESOLVED"
+    },
+    {
+      "id": "V383-L2",
+      "date": "1536-07-25",
+      "sender": "Martin Bucer",
+      "recipient": "Joachim Vadian",
+      "attestation": "indexed Zurich catalog",
+      "source_ids": [
+        "S383-05"
+      ],
+      "institution": "Zentralbibliothek Zürich",
+      "shelfmark": "Ms S 41, Nr.33",
+      "catalog_id": "CH-002121-2-991170608445805501",
+      "manuscript_checked": false,
+      "public_use": "RESEARCH_ONLY",
+      "identity": "CATALOG_CANDIDATE"
+    },
+    {
+      "id": "V383-L3",
+      "date": "[1536]-07-25",
+      "sender": "Jacob Bedrot",
+      "recipient": "Joachim Vadian",
+      "attestation": "Zurich Ms S41 Nr31–32 catalog in prior V3.82",
+      "source_ids": [],
+      "institution": "Zentralbibliothek Zürich",
+      "shelfmark": "Ms S 41, Nr.31–32",
+      "year_editorially_inferred": true,
+      "manuscript_checked": false,
+      "public_use": "RESEARCH_ONLY",
+      "identity": "NEARBY_CANDIDATE"
+    },
+    {
+      "id": "V383-L4",
+      "date": "1536-08-04",
+      "sender": "Joachim Vadian",
+      "recipient": "Martin Bucer",
+      "attestation": "Cambridge Parker MS119 catalogue; Latin date pridie Nonas Augusti",
+      "source_ids": [
+        "S383-03",
+        "S383-06"
+      ],
+      "institution": "Corpus Christi College Cambridge, Parker Library",
+      "shelfmark": "MS 119, pp.199–200 (catalog notes continuation pp.205–206)",
+      "manuscript_checked": false,
+      "public_use": "RESEARCH_ONLY",
+      "identity": "INDEPENDENT_CORRESPONDENCE_LEAD"
+    },
+    {
+      "id": "V383-L5",
+      "date": "1536-08-06",
+      "sender": "Heinrich Bullinger",
+      "recipient": "Joachim Vadian",
+      "attestation": "HBBW letter 875 critical edition",
+      "source_ids": [
+        "S383-04"
+      ],
+      "edition": "Vadian BW V 341–343",
+      "manuscript_checked": false,
+      "public_use": "EDITORIAL_ATTRIBUTION_ONLY",
+      "identity": "CRITICAL_EDITION_CONTROL"
+    },
+    {
+      "id": "V383-N1",
+      "date": "1530-07-17",
+      "sender": "Martin Bucer",
+      "recipient": "Joachim Vadian",
+      "attestation": "Rüsch 1983 citing VBS VII 39 no30",
+      "source_ids": [
+        "S383-08"
+      ],
+      "year": "1530",
+      "manuscript_checked": false,
+      "public_use": "OUT_OF_SCOPE_NEGATIVE_CONTROL",
+      "identity": "DISTINCT_YEAR"
+    }
+  ],
+  "index_audit": {
+    "indexed_person": "Bucer, Martin (1491–1551)",
+    "reported_hits": 49,
+    "individual_records_obtained": 0,
+    "all_49_examined": false,
+    "retrieval_attempts": [
+      "Kalliope people index (successful for count)",
+      "Kalliope finding-aid filtered view (URL not accessible via web search tool)",
+      "targeted external search for individual 1536 St. Gallen items (no confirmed July 23 original)"
+    ],
+    "cannot_claim": [
+      "49 unique Bucer letters",
+      "49 manually checked records",
+      "an exact VadSlg shelfmark for 1536-07-23"
+    ]
+  },
+  "relations": [
+    {
+      "from": "V383-L1",
+      "to": "V383-L2",
+      "relationship": "POSSIBLE_SAME_ITEM",
+      "status": "UNRESOLVED",
+      "public_render": false
+    },
+    {
+      "from": "V383-L2",
+      "to": "V383-L4",
+      "relationship": "POSSIBLE_REPLIES_IN_SEQUENCE",
+      "status": "NOT_PROVEN",
+      "public_render": false
+    },
+    {
+      "from": "V383-L4",
+      "to": "V383-L5",
+      "relationship": "TEMPORALLY_ADJACENT",
+      "status": "DATES_IN_CATALOGS_ONLY",
+      "public_render": false
+    },
+    {
+      "from": "V383-L4",
+      "to": "V383-L5",
+      "relationship": "SAME_DISCUSSION_OF_APHORISMEN",
+      "status": "SCIENTIFIC_INTERPRETATION_NEEDS_TEXT_COMPARE",
+      "public_render": false
+    }
+  ],
+  "next_verification": [
+    "Retrieve direct facsimile of Cambridge CCCC MS119 pp199-200 and continued pp205-206; ascertain original vs later copy and compare exact Latin with 1978 Rott.",
+    "Search St Gallen Bucer index 49 entries with actual individual IDs; do not represent incomplete list as enumerated.",
+    "Check Vadianische Briefsammlung 1905 V 2.Hälfte pp338-343 scan; confirm printed p339 header and edition number.",
+    "Match 1536-07-23 vs 1536-07-25 only on original date line, matching text and provenance (not chronological proximity)."
+  ],
+  "qa": {
+    "original_1905_p339_examined": false,
+    "july23_vs_july25_resolved": false,
+    "cambridge_119_folio_directly_read": false,
+    "index_49_fully_audited": false,
+    "no_main_edit": true,
+    "all_not_proven_edges_hidden": true
+  }
+}
