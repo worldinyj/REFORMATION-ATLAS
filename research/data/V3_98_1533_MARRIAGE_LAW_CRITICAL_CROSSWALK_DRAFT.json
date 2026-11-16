@@ -98,7 +98,10 @@
           "direct_modern_transcript": true,
           "original_manuscript_image_seen": false
         }
-      ]
+      ],
+      "unpaired_zone_count": 0,
+      "unpaired_zone_ids": [],
+      "zone_mapping_status": "ALL_RECORDED_LINE_IDS_PAIRED"
     },
     {
       "id": "HBBW3-233",
@@ -152,7 +155,10 @@
           "direct_modern_transcript": true,
           "original_manuscript_image_seen": false
         }
-      ]
+      ],
+      "unpaired_zone_count": 0,
+      "unpaired_zone_ids": [],
+      "zone_mapping_status": "ALL_RECORDED_LINE_IDS_PAIRED"
     },
     {
       "id": "HBBW3-239",
@@ -185,7 +191,13 @@
           "direct_modern_transcript": true,
           "original_manuscript_image_seen": false
         }
-      ]
+      ],
+      "unpaired_zone_count": 2,
+      "unpaired_zone_ids": [
+        "p1z26-0",
+        "p1z27-0"
+      ],
+      "zone_mapping_status": "PARTIAL_UNMATCHED_ZONE_IDS_CAUSE_UNVERIFIED"
     },
     {
       "id": "HBBW3-241",
@@ -232,7 +244,10 @@
           "direct_modern_transcript": true,
           "original_manuscript_image_seen": false
         }
-      ]
+      ],
+      "unpaired_zone_count": 0,
+      "unpaired_zone_ids": [],
+      "zone_mapping_status": "ALL_RECORDED_LINE_IDS_PAIRED"
     },
     {
       "id": "HBBW3-275",
@@ -265,7 +280,10 @@
           "direct_modern_transcript": true,
           "original_manuscript_image_seen": false
         }
-      ]
+      ],
+      "unpaired_zone_count": 0,
+      "unpaired_zone_ids": [],
+      "zone_mapping_status": "ALL_RECORDED_LINE_IDS_PAIRED"
     }
   ],
   "claims": [
@@ -447,5 +465,20 @@
     "Parker_MS119_images": false,
     "Jul1536_Bucer_Vadian_23_25_equivalence": "UNRESOLVED",
     "BULLINGER_1532_1365_images": false
+  },
+  "additional_unresolved_visual_issue": {
+    "document": "HBBW III Nr239 / data/letters/10270.xml",
+    "source_blob_sha": "27b66e33b290ec4c320cb6cb4393669752cc1408",
+    "line_id_count": 30,
+    "zone_count": 32,
+    "paired_line_ids": 30,
+    "unpaired_zone_ids": [
+      "p1z26-0",
+      "p1z27-0"
+    ],
+    "unpaired_surface": 1,
+    "unpaired_zone_roles": "UNVERIFIED_BEFORE_IMAGE_VISUAL_INSPECTION",
+    "can_infer_missing_text_from_zone_only": false,
+    "state": "RESEARCH_UNRESOLVED"
   }
 }
