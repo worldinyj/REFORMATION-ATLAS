@@ -1,0 +1,89 @@
+{
+  "version": "V4.00-READER-REVIEW",
+  "date": "2026-11-16",
+  "status": "REVIEW_ONLY",
+  "parent_evidence": "research/data/V4_00_OTT_1855_ACCESS_AND_1533_MARRIAGE_RULE_WITNESS_DRAFT.json",
+  "prior_reader_package": "research/data/V3_99_44_ARTICLES_READER_AND_CITY_LAW_STORY_DRAFT.json",
+  "target_id": "MEDIUM-ZWINGLI",
+  "headline": "혼인 의무와 증인의 변화 — 취리히 개혁이 주민의 삶에 닿은 방식",
+  "paragraphs": [
+    "츠빙글리 이후 취리히의 개혁은 교회 안의 예배만 바꾸지 않았다. 시의회와 혼인재판소는 누가 결혼해야 하는지, 혼인 약속을 어떻게 인정할지, 간통과 이혼 뒤 어떤 처벌을 부과할지를 규정했다. 1533년 5월 20일 취리히 혼인재판 관계자들은 특히 허용되는 친족혼 범위, 혼인 전 성적 관계에 따른 혼인의무, 간통으로 인한 이혼의 처벌을 다른 개혁 도시들과 함께 검토하자고 제안했다.",
+    "이런 변화의 구체적인 모습을 1878년 법학 저술이 남긴 1525년·1533년 규정 비교에서도 살펴볼 수 있다. 후대 저자는 1525년 조항이 미혼 여성과의 성적 관계를 맺은 남성에게 혼인과 혼인 예물의 의무를 부과했다고 설명한다. 1533년 개정규정에서는 혼인을 약속했다는 사실이 증명 가능한 절차, 특히 두 명의 인정되는 증인 앞에서 이루어진 약속과 관련된 요건이 중요해졌다. 이 인용은 16세기 원본을 직접 판독한 결과가 아니므로 구체적인 문구와 적용 범위는 교감이 더 필요하다.",
+    "여기에는 법적 증거를 명확히 하려는 시도뿐 아니라 당시 사회가 여성의 평판을 엄격하게 평가하고 혼인 선택을 통제했던 현실도 드러난다. 따라서 ‘종교개혁이 혼인의 자유를 확대했다’는 단순한 낙관이나 ‘완전히 같은 법을 모든 도시에 시행했다’는 단정은 모두 피해야 한다. 1533년의 혼인법 협상은 신앙의 개혁이 시민의 일상에 미친 힘과 한계를 함께 보여 준다."
+  ],
+  "source_blocks": [
+    {
+      "id": "SB400-1",
+      "used_in_paragraphs": [
+        1
+      ],
+      "support": "StAZH A 6.1 Nr6 official regest and modern SSRQ ZH NF I/1/3 Nr156 catalog",
+      "grade": "OFFICIAL_ARCHIVE_SUMMARY_NOT_FULL_PRIMARY"
+    },
+    {
+      "id": "SB400-2",
+      "used_in_paragraphs": [
+        2,
+        3
+      ],
+      "support": "1878 ZSR vol20 Eheschließungsrecht p142 OCR-indexed historical quotation of 1525 and 1533 rules",
+      "grade": "LATER_REPRODUCTION_OF_HISTORICAL_LEGAL_TEXT"
+    },
+    {
+      "id": "SB400-3",
+      "used_in_paragraphs": [
+        3
+      ],
+      "support": "V3.99 article 44 / Bern amendments 22 / Zurich Article39 overlap",
+      "grade": "MODERN_SCHOLARLY_AMENDMENT_COUNTS"
+    }
+  ],
+  "standalone_episode_insert": {
+    "after_section_heading": "1. 종교개혁이 결혼과 재판의 규칙을 바꾸다",
+    "heading": "규정을 만든다는 것은 무엇을 증명 가능한 것으로 정한다는 뜻인가?",
+    "body": "취리히에서 혼인규정은 단순한 도덕적 권고가 아니라 재판에 적용할 기준이었다. 1525년의 혼인의무 규정과 1533년의 개정규정을 비교한 19세기 법학 서술은, 혼인 약속이 언제 법적으로 의미를 갖는지, 누가 믿을 수 있는 증인인지, 여성의 평판을 어떻게 판단할지를 둘러싼 변화가 있었음을 보여 준다. 혼인 전 관계에 따른 혼인의무나 강제력은 당대의 성별 권력관계와도 얽혀 있었다. 그러나 이 후대 인용만으로 해당 개정사항을 6월 초안의 제39조로 지정할 수는 없다.",
+    "evidence": [
+      "W400-1878",
+      "W400-SSRQ156"
+    ],
+    "review_only": true
+  },
+  "evidence_disclosure": {
+    "ott1855_book_204_pages_listed_not_read": true,
+    "year1878_ocr_text_in_search_index": true,
+    "year1878_print_page_image_seen": false,
+    "SSRQ156_edition_bibliography_verified": true,
+    "SSRQ156_individual_original_text_read": false,
+    "article39_text_read": false,
+    "any_text_falsely_ascribed_to_Art39": false,
+    "any_1878_generalization_as_five_city_enactment": false,
+    "gender_history_requires_editor_review": true,
+    "original_text_reproduction": false
+  },
+  "checks": [
+    {
+      "question": "1878년 규정 비교는 1533년의 어느 조문을 직접 확인했는가?",
+      "answer": "1533년 개정규정의 후대 인용내용을 보여 주지만 44개 협상 초안의 정확한 조항번호를 확정하지 못한다."
+    },
+    {
+      "question": "왜 증인 요건이 중요한가?",
+      "answer": "어떤 혼인 약속을 법적으로 인정할지와 증거를 누가 제시할 수 있는지를 결정하기 때문이다."
+    },
+    {
+      "question": "여성의 평판을 엄격히 규정한 조항을 오늘날의 자유 확대라고 그대로 해석해도 되는가?",
+      "answer": "당시의 법적 증명 제도와 성별 비대칭성을 함께 검토해야 하므로 안 된다."
+    },
+    {
+      "question": "취리히의 혼인법 개정이 다섯 도시의 동일 시행을 증명하는가?",
+      "answer": "취리히 지역의 규정 전승과 도시 간 채택 여부는 다른 증거를 요구한다."
+    }
+  ],
+  "release": {
+    "publication_approved": false,
+    "main_changed": false,
+    "source_medium_reader_changed": false,
+    "existing_513_essays_changed": false,
+    "ai_studio_changed": false,
+    "can_ship": false
+  }
+}
