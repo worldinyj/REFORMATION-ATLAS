@@ -1,0 +1,339 @@
+{
+  "version": "V3.93",
+  "date": "2026-11-16",
+  "status": "RESEARCH_DRAFT",
+  "based_on": "V3.92",
+  "repository": "worldinyj/REFORMATION-ATLAS",
+  "branch": "research/atlas-v393-bucer-jud-may-june-critical-variants",
+  "release": {
+    "can_ship": false,
+    "main_modified": false,
+    "essays_513_modified": false,
+    "ai_studio_modified": false,
+    "external_inquiries_sent": false,
+    "reader_drafts_published": false
+  },
+  "issue": "Bucer -> Leo Jud June 1532: KGK 339 May/June dating and printed reference number 150/598 discrepancies; distinguish literal 1533 July recollection from editorial assignment.",
+  "sources": [
+    {
+      "id": "S393-KGK339-TEXT",
+      "url": "https://dev2.hab.de/apps/edoc/view.html?id=kgk_339_transcript",
+      "grade": "DIRECT_CRITICAL_EDITION_WEB_TEXT",
+      "locus": "Latin letter, lines 23-27; footnote 3",
+      "inspected": "WEB_HTML_TEXT",
+      "historical_folio_seen": false
+    },
+    {
+      "id": "S393-KGK339-INTRO",
+      "url": "https://dev2.hab.de/apps/edoc/view.html?id=kgk_339_introduction",
+      "grade": "EDITORIAL_INTRODUCTION_WEB_TEXT",
+      "locus": "footnote 18",
+      "inspected": "WEB_HTML_TEXT",
+      "historical_folio_seen": false
+    },
+    {
+      "id": "S393-KGK337-INTRO",
+      "url": "https://dev2.hab.de/apps/edoc/view.html?id=kgk_337_introduction",
+      "grade": "EDITORIAL_CRITICAL_EDITION_WEB_TEXT",
+      "locus": "sec.2 and footnotes 12, 14",
+      "inspected": "WEB_HTML_TEXT",
+      "historical_folio_seen": false
+    },
+    {
+      "id": "S393-HBBW2-NR110",
+      "url": "https://briefe.arpa-docs.ch/DB/Briefe/Html/Br002.html",
+      "grade": "PUBLISHED_EDITION_SEARCH_EXCERPT_DIRECT_OPEN_TIMED_OUT",
+      "locus": "HBBW II (1982) Nr.110 and footnote 1, July 12, 1532",
+      "inspected": "WEB_SEARCH_INDEX_TEXT_WITH_SPECIFIC_LOCATOR; DIRECT_PAGE_OPEN_TIMEOUT",
+      "historical_folio_seen": false
+    },
+    {
+      "id": "S393-KGK334-INTRO",
+      "url": "https://dev2.hab.de/apps/edoc/view.html?id=kgk_334_introduction",
+      "grade": "EDITORIAL_INTRODUCTION_WEB_TEXT",
+      "locus": "discussion of Bucer -> Leo Jud after 4 May 1532, Briefwechsel VIII Nr.581",
+      "inspected": "WEB_HTML_TEXT",
+      "historical_folio_seen": false
+    },
+    {
+      "id": "S393-V392-DATA",
+      "url": "https://github.com/worldinyj/REFORMATION-ATLAS/blob/research/atlas-v392-karlstadt-bucer-primary-edition-bridge/research/data/V3_92_KGK_1532_1533_CORRESPONDENCE_EVIDENCE_DRAFT.json",
+      "grade": "INHERITED_INTERNAL_RESEARCH_DRAFT",
+      "locus": "V3.92 editorial issue list, 1536 unresolved",
+      "inspected": "GITHUB_FILE_DATA",
+      "historical_folio_seen": false
+    }
+  ],
+  "evidence": [
+    {
+      "id": "E393-01",
+      "source": "S393-KGK339-TEXT",
+      "kind": "1533_LITERAL_TEXT",
+      "text_excerpt": "priori anno in Iulio ad Leonem",
+      "date_literal": "1532-07 [retrospective month]",
+      "relation": "Letter mentions Bucer to Leo Jud last year in July",
+      "can_assert_identical_to_june23": false,
+      "classification": "TEXT_OF_CRITICAL_EDITION_VERIFIED"
+    },
+    {
+      "id": "E393-02",
+      "source": "S393-KGK339-INTRO",
+      "kind": "EDITORS_INTRODUCTION_NOTE",
+      "note_no": "18",
+      "sender": "Martin Bucer",
+      "recipient": "Leo Jud",
+      "stated_date": "1532-05-23",
+      "date_assertion_level": "EDITORIAL_NOTE_NOT_ORIGINAL",
+      "disagrees_with": "E393-03",
+      "classification": "INTERNAL_EDITION_DATE_DISCREPANCY"
+    },
+    {
+      "id": "E393-03",
+      "source": "S393-KGK339-TEXT",
+      "kind": "EDITORS_TEXT_FOOTNOTE",
+      "note_no": "3",
+      "sender": "Martin Bucer",
+      "recipient": "Leo Jud",
+      "stated_date": "1532-06-23",
+      "edition_volume": 8,
+      "printed_pages": "150-165",
+      "stated_number": "150",
+      "classification": "DATE_CONCORDANT_NUMBER_INCONSISTENT"
+    },
+    {
+      "id": "E393-04",
+      "source": "S393-KGK337-INTRO",
+      "kind": "EDITORIAL_REFERENCE",
+      "note_no": "12",
+      "sender": "Martin Bucer",
+      "recipient": "Leo Jud",
+      "stated_date": "1532-06-23",
+      "edition_volume": 8,
+      "printed_pages": "154-165",
+      "stated_number": "598",
+      "classification": "CROSSCHECKED_EDITORIAL_REFERENCE"
+    },
+    {
+      "id": "E393-05",
+      "source": "S393-HBBW2-NR110",
+      "kind": "CRITICAL_EDITION_REFERENCE",
+      "letter_no": "110",
+      "reply_date": "1532-07-12",
+      "sender": "Heinrich Bullinger",
+      "recipient": "Martin Bucer",
+      "reply_to_sender": "Martin Bucer",
+      "reply_to_recipient": "Leo Jud",
+      "reply_to_date": "1532-06-23",
+      "archive_for_bucer_letter": "Staatsarchiv Zürich E II 345, 126–141",
+      "archive_copy_character": "Bullinger copy per published apparatus",
+      "archive_image_seen": false,
+      "classification": "SCHOLARLY_EDITION_INDIRECT_ARCHIVAL_LOCATOR"
+    },
+    {
+      "id": "E393-06",
+      "source": "S393-KGK334-INTRO",
+      "kind": "DIFFERENT_EARLIER_LETTER_CANDIDATE",
+      "sender": "Martin Bucer",
+      "recipient": "Leo Jud",
+      "date_label": "after 1532-05-04 (early May)",
+      "edition_ref": "Bucer Briefwechsel VIII Nr.581, pp.23-28",
+      "distinct_from_june23_letter": "SEPARATE_EDITORIALLY_REFERENCED_ITEM",
+      "original_edition_page_seen": false,
+      "classification": "AVOID_MAY_MONTH_COLLAPSE"
+    }
+  ],
+  "resolved_identification": {
+    "sender": "Martin Bucer",
+    "recipient": "Leo Jud",
+    "preferred_date": "1532-06-23",
+    "preferred_critical_edition": "Bucer, Briefwechsel VIII Nr.598 pp.150-165",
+    "related_reply": "HBBW II Nr.110, Bullinger -> Bucer, 1532-07-12",
+    "date_confidence": "HIGH_CONSENSUS_OF_EDITORIAL_REFERENCES_NOT_MANUSCRIPT_DATE_LINE",
+    "likely_kgk339_intro_date_issue": "1532-05-23 likely editorial slip but not formally corrected in publisher source",
+    "likely_kgk339_text_number_issue": "Nr.150 in footnote 3 conflicts with cited VIII Nr.598 and may conflate page 150 with item number; cause UNVERIFIED",
+    "prior_year_july_same_letter": "PROBABLE_EDITORIAL_IDENTIFICATION_NOT_ORIGINAL_LITERAL_DATE",
+    "early_may_letter_nr581_is_not_nr598": true,
+    "actual_june23_manuscript_seen": false,
+    "original_bucer_briefwechsel_vol8_598_page_image_seen": false
+  },
+  "manuscript_targets": [
+    {
+      "target_id": "W393-BUCER1532",
+      "archive": "Staatsarchiv Zürich",
+      "shelfmark": "E II 345, 126–141",
+      "editorial_description": "Bullinger copy of Bucer -> Leo Jud dated 1532-06-23",
+      "source": "S393-HBBW2-NR110",
+      "direct_folio_seen": false,
+      "origin": "HBBW published apparatus search excerpt"
+    },
+    {
+      "target_id": "W393-JUD1532",
+      "archive": "Staatsarchiv Zürich",
+      "shelfmark": "E II 345, 122–125",
+      "editorial_description": "Leo Jud's reply to Bucer dated 1532-07-12 per HBBW II Nr110 n1",
+      "source": "S393-HBBW2-NR110",
+      "direct_folio_seen": false,
+      "origin": "HBBW published apparatus search excerpt"
+    },
+    {
+      "target_id": "W393-JOINT1533",
+      "archive": "Staatsarchiv Zürich",
+      "shelfmark": "E II 347, 43f.",
+      "editorial_description": "Bullinger manuscript copy for Myconius of 1533-05-08 Zürich collective reply",
+      "source": "S393-KGK339-INTRO",
+      "direct_folio_seen": false,
+      "origin": "KGK editorial witness catalog"
+    }
+  ],
+  "claim_gates": [
+    {
+      "id": "C393-01",
+      "claim": "KGK 339 has '23. Mai 1532' in introduction n18 but '23. Juni 1532' in text n3",
+      "support": [
+        "E393-02",
+        "E393-03"
+      ],
+      "status": "EDITORIALLY_VERIFIED_DISCREPANCY",
+      "allowed": "ATTRIBUTED_RESEARCH_NOTE"
+    },
+    {
+      "id": "C393-02",
+      "claim": "KGK339 text n3 gives letter number 150, KGK337 note 12 gives 598",
+      "support": [
+        "E393-03",
+        "E393-04"
+      ],
+      "status": "EDITORIALLY_VERIFIED_DISCREPANCY",
+      "allowed": "ATTRIBUTED_RESEARCH_NOTE"
+    },
+    {
+      "id": "C393-03",
+      "claim": "HBBW II Nr.110 identifies Bullinger 12 July reply with Bucer 23 June letter and Zurich archival reference E II 345, 126-141",
+      "support": [
+        "E393-05"
+      ],
+      "status": "SCHOLARLY_REFERENCE_ARCHIVE_NOT_SEEN",
+      "allowed": "ATTRIBUTED_RESEARCH_NOTE"
+    },
+    {
+      "id": "C393-04",
+      "claim": "Bucer -> Leo Jud 23 May and 23 June are confirmed identical original documents",
+      "support": [
+        "E393-02",
+        "E393-04"
+      ],
+      "status": "UNRESOLVED",
+      "allowed": "BLOCKED"
+    },
+    {
+      "id": "C393-05",
+      "claim": "Rott 1978 printed pages 489 and 491 have been directly inspected",
+      "support": [],
+      "status": "UNVERIFIED",
+      "allowed": "BLOCKED"
+    },
+    {
+      "id": "C393-06",
+      "claim": "Parker MS119 handwriting examined and 1536 July dates merged",
+      "support": [],
+      "status": "UNVERIFIED",
+      "allowed": "BLOCKED"
+    }
+  ],
+  "existing_content_targets": [
+    {
+      "type": "MEDIUM_READER",
+      "id": "MEDIUM-MARBURG",
+      "key": "MARBURG",
+      "path": "data/deep/atlas_v254_medium_depth_ten_readers.json",
+      "section": "영향과 이해의 경계",
+      "link_role": "1529 disagreement -> 1532-1533 continued contest over Eucharist; not instant reunion",
+      "existing_file_modified": false
+    },
+    {
+      "type": "MEDIUM_READER",
+      "id": "MEDIUM-ZWINGLI",
+      "key": "ZWINGLI",
+      "path": "data/deep/atlas_v254_medium_depth_ten_readers.json",
+      "section": "영향과 이해의 경계",
+      "link_role": "post-1531 Zurich theological continuity under Bullinger and colleagues",
+      "existing_file_modified": false
+    },
+    {
+      "type": "MEDIUM_READER",
+      "id": "MEDIUM-AUGSBURG",
+      "key": "AUGSBURG",
+      "path": "data/deep/atlas_v254_medium_depth_ten_readers.json",
+      "section": "영향과 이해의 경계",
+      "link_role": "Bucer 1532 reconciliation politics in relation to Augsburg Confession, not later 1540 Variata as already settled",
+      "existing_file_modified": false
+    },
+    {
+      "type": "OVERVIEW_EVENT",
+      "id": "OV-E-018",
+      "path": "data/overview/events_documents_v01.json",
+      "section": "1529 Marburg",
+      "link_role": "background_anchor",
+      "existing_file_modified": false
+    },
+    {
+      "type": "OVERVIEW_EVENT",
+      "id": "OV-E-019",
+      "path": "data/overview/events_documents_v01.json",
+      "section": "1530 Augsburg Confession",
+      "link_role": "downstream_claim_context",
+      "existing_file_modified": false
+    }
+  ],
+  "proposed_reviewer_inserts": [
+    {
+      "id": "D393-MARBURG",
+      "target": "MEDIUM-MARBURG",
+      "status": "REVIEW_ONLY",
+      "heading": "마르부르크 이후에도 이어진 성찬 대화",
+      "body": "1529년 마르부르크에서 성찬에 관한 이견을 해소하지 못했다고 해서 대화가 중단된 것은 아니었다. 1532년 부처는 취리히의 레오 유트에게 교회 일치를 위한 논의를 이어가자고 권했지만, 불링거와 동료들은 루터와의 차이를 말의 차이로만 축소할 수 없다고 보았다. 1533년 5월 공동 서신은 상대를 형제로 인정하면서도 이미 교리적 일치가 이루어졌다는 판단은 유보했다. 마르부르크의 실패와 후속 화해 노력을 하나의 연속된 협상 과정으로 이해할 필요가 있다.",
+      "source_ids": [
+        "S393-KGK337-INTRO",
+        "S393-KGK339-TEXT"
+      ],
+      "published": false
+    },
+    {
+      "id": "D393-ZWINGLI",
+      "target": "MEDIUM-ZWINGLI",
+      "status": "REVIEW_ONLY",
+      "heading": "츠빙글리 사후 취리히 — 불링거의 성찬 해석",
+      "body": "1531년 츠빙글리의 죽음 이후에도 취리히의 신학 논쟁은 사라지지 않았다. 1532년 부처의 화해 제안에 대해 불링거와 레오 유트는 성찬 해석의 차이가 실제로 남아 있다고 응답했다. 1533년 5월에는 불링거·유트·카를슈타트 등 취리히 목회자들이 함께 부처에게 답하면서 우호적인 관계와 해석상의 불일치를 동시에 드러냈다. 취리히 개혁의 역사를 한 인물의 생애로만 끝내지 않아야 하는 이유다.",
+      "source_ids": [
+        "S393-HBBW2-NR110",
+        "S393-KGK339-TEXT"
+      ],
+      "published": false
+    },
+    {
+      "id": "D393-AUGSBURG",
+      "target": "MEDIUM-AUGSBURG",
+      "status": "REVIEW_ONLY",
+      "heading": "신앙고백의 정치적 수용과 신학적 합의는 다르다",
+      "body": "1532년 제국 내 종교 평화를 위한 협상 과정에서 부처와 스트라스부르의 신학자들은 남독일 도시들의 고립을 피하고자 아우크스부르크 신앙고백과의 공통점을 강조했다. 그러나 취리히 신학자들은 그 수용이 곧 루터의 성찬론에 동의한다는 뜻이 될 수 없다고 보았다. 이러한 긴장은 하나의 문서에 이름을 올리는 정치적 선택과 세부 교리에 대한 실제 합의가 구분되어야 함을 보여 준다. 1540년 수정판과 연결할 때도 판본·시점을 먼저 명시해야 한다.",
+      "source_ids": [
+        "S393-KGK337-INTRO",
+        "S393-HBBW2-NR110"
+      ],
+      "published": false
+    }
+  ],
+  "inherited_guards": {
+    "rott_1978_pdf_verified": false,
+    "rott_489_491_images_seen": false,
+    "parker_ms119_original_images_seen": false,
+    "bucer_vadian_1536_07_23_equals_07_25": "UNRESOLVED",
+    "zurich_kalliope_corrected_id": "CH-002121-2-991170608445805501"
+  },
+  "next": [
+    "Cross-check Bucer Briefwechsel VIII Nr.598 first page and number against KGK339 misnumbering",
+    "Request/locate original Zurich StA E II 345 126–141 and 122–125 scans, no outreach yet",
+    "Keep 1533 original phrase 'priori anno in Iulio' distinct from later date identification",
+    "Review three drafted inserts before any release; keep main and 513 essays unchanged"
+  ]
+}
