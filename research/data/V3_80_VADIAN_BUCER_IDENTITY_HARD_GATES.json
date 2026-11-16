@@ -1,0 +1,277 @@
+{
+  "version": "V3.80",
+  "as_of": "2026-11-16",
+  "branch": "research/atlas-v380-vadian-letter-identity-hard-gates",
+  "parent_commit": "831ed4b6879204af43eddbefab8e6ad973dd209f",
+  "upstream_dataset": "research/data/V3_79_BUCER_VADIAN_CLAIM_EVIDENCE.json",
+  "release": {
+    "status": "RESEARCH_DRAFT",
+    "can_ship": false,
+    "main_modified": false,
+    "existing_essays_modified": false,
+    "ai_studio_modified": false,
+    "archive_email_sent": false
+  },
+  "focus": "Identity and archival provenance of July 1536 Martin Bucer -> Joachim Vadian letters versus Vadianische Briefsammlung V p.339",
+  "research_findings": [
+    {
+      "id": "F380-01",
+      "classification": "catalog_entry_directly_indexed",
+      "claim": "Kalliope's Zurich ZB finding-aid enumerates Martin Bucer to Joachim Vadian on 1536-07-25 with Ms S 41, Nr. 33 and catalog node CH-002121-2-991170609317505501.",
+      "evidence": [
+        "S380-01"
+      ],
+      "manuscript_date_read": false,
+      "publication_gate": "RESEARCH_ONLY"
+    },
+    {
+      "id": "F380-02",
+      "classification": "critical_edition_entry_indexed",
+      "claim": "HBBW 875 is Bullinger to Vadian, Zurich, 1536-08-06, printed Vadian BW V pp.341-343; its recorded autograph signature is St. Gallen Kantonsbibliothek (Vadiana), Ms 33 (VBS IV), Nr. 50.",
+      "evidence": [
+        "S380-02"
+      ],
+      "direct_autograph_examined": false,
+      "publication_gate": "EDITORIAL_ATTRIBUTION_ONLY"
+    },
+    {
+      "id": "F380-03",
+      "classification": "editorial_note_indexed",
+      "claim": "HBBW 875, note 3, cites Vadian BW V p.339 while explaining Bucer's regret over not seeing Vadian's Aphorismen before printing.",
+      "evidence": [
+        "S380-02"
+      ],
+      "original_p339_page_examined": false,
+      "publication_gate": "EDITORIAL_ATTRIBUTION_ONLY"
+    },
+    {
+      "id": "F380-04",
+      "classification": "publication_catalog",
+      "claim": "Historischer Verein St. Gallen lists 1905 volume V, second half covering 1536-1540 with 476 pages.",
+      "evidence": [
+        "S380-03"
+      ],
+      "book_scans_examined": false,
+      "publication_gate": "BIBLIOGRAPHIC_ONLY"
+    },
+    {
+      "id": "F380-05",
+      "classification": "official_archive_workflow",
+      "claim": "Stadtarchiv St. Gallen documents an ongoing swisscollections-based catalog project with digital letter links and edition extracts.",
+      "evidence": [
+        "S380-04"
+      ],
+      "specific_letter_record_found": false,
+      "publication_gate": "BIBLIOGRAPHIC_ONLY"
+    }
+  ],
+  "evidences": [
+    {
+      "id": "S380-01",
+      "type": "KALLIOPE_ZURICH_FINDING_AID",
+      "url": "https://nachlassdatenbank.de/findingaid?fa.id=CH-002121-2-881170715577605501&fq=ead.pers.index%3A%28%22Aelen%2C+Kaspar%22%29&htmlFull=false&lang=de&lastparam=true",
+      "lookup_id": "CH-002121-2-991170609317505501",
+      "inspection": "SEARCH_INDEX_TEXT_VISIBLE; DETAIL_OPEN_UNAVAILABLE",
+      "source_quote_fragment": "1536.07.25. - Briefsammlung, Handschrift",
+      "limits": "Index information only, not direct letter image"
+    },
+    {
+      "id": "S380-02",
+      "type": "HBBW_CRITICAL_EDITION_875",
+      "url": "https://briefe.arpa-docs.ch/SedWEBShowArticle.cgi?Alias=Briefe&ArtNum=949&DFlags=0",
+      "inspection": "SEARCH_INDEX_FULL_ENTRY_AND_NOTE_VISIBLE; DIRECT_OPEN_TIMEOUT",
+      "source_quote_fragment": "s. Vadian BW V 339",
+      "limits": "Critical edition/transcribed editor note; no original image examined"
+    },
+    {
+      "id": "S380-03",
+      "type": "HISTORICAL_SOCIETY_PUBLICATION_CATALOG",
+      "url": "https://www.hvsg.ch/mitteilungen.php",
+      "inspection": "WEB_CATALOG_INDEX",
+      "source_quote_fragment": "Vadianische Briefsammlung V, 2. Hälfte: 1536-1540. 1905. 476 S.",
+      "limits": "Bibliographic catalog only"
+    },
+    {
+      "id": "S380-04",
+      "type": "ST_GALLEN_OFFICIAL_ARCHIVE_DESCRIPTION",
+      "url": "https://stadtarchiv.ch/forschungsprojekte/vadianische-briefsammlung/",
+      "inspection": "OFFICIAL_WEB_PAGE_TEXT",
+      "source_quote_fragment": "einen Link zum Digitalisat des Briefes",
+      "limits": "Collections-level workflow, not the specific July 1536 item"
+    },
+    {
+      "id": "S380-05",
+      "type": "GOOGLE_PLAY_BOOKS_BIBLIOGRAPHY",
+      "url": "https://play.google.com/store/books/details/Emil_Arbenz_Vadianische_Briefsammlung_V_1531_1540?id=543rVnz84hEC",
+      "inspection": "BOOK_BIBLIOGRAPHIC_PAGE_ONLY",
+      "source_quote_fragment": "Vadianische Briefsammlung V. 1531-1540",
+      "limits": "Combined-volume 1903/776-page metadata is not a scanned 1905 second-half page; page 339 inaccessible"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "BVC-15360723",
+      "date": "1536-07-23",
+      "sender": "Martin Bucer",
+      "recipient": "Joachim Vadian",
+      "provenance_level": "INHERITED_SECONDARY_CITATION",
+      "reported_citation": "Vadian BW V p.339 via WA Br 7 Nr.3048 (as noted in V3.74)",
+      "verified_catalog_identifier": null,
+      "printed_heading": null,
+      "autograph_checked": false,
+      "date_checked": false,
+      "publication_gate": "BLOCKED",
+      "required": [
+        "printed_page_339_scan",
+        "wa_br7_nr3048_scan",
+        "original_signature"
+      ]
+    },
+    {
+      "id": "BVC-15360725",
+      "date": "1536-07-25",
+      "sender": "Martin Bucer",
+      "recipient": "Joachim Vadian",
+      "provenance_level": "CATALOG_INDEX",
+      "institution": "Zentralbibliothek Zürich",
+      "signature": "Ms S 41, Nr. 33",
+      "catalog_identifier": "CH-002121-2-991170609317505501",
+      "source": "S380-01",
+      "autograph_checked": false,
+      "date_checked": false,
+      "printed_equivalence_checked": false,
+      "publication_gate": "RESEARCH_ONLY",
+      "required": [
+        "full_catalog_detail",
+        "autograph_date_line",
+        "edition_crossref"
+      ]
+    },
+    {
+      "id": "BVC-15360806",
+      "date": "1536-08-06",
+      "sender": "Heinrich Bullinger",
+      "recipient": "Joachim Vadian",
+      "provenance_level": "CRITICAL_EDITION",
+      "letter_number": "HBBW 875",
+      "edition": "Vadian BW V pp.341-343",
+      "original_catalog_description": "St. Gallen Kantonsbibliothek (Vadiana), Ms 33 (VBS IV), Nr. 50",
+      "source": "S380-02",
+      "autograph_checked": false,
+      "date_checked": true,
+      "publication_gate": "EDITORIAL_ATTRIBUTION_ONLY"
+    }
+  ],
+  "identity_edges": [
+    {
+      "from": "BVC-15360723",
+      "to": "BVC-15360725",
+      "relation": "POSSIBLE_SAME_ITEM",
+      "resolution": "UNRESOLVED",
+      "public_render": false
+    },
+    {
+      "from": "BVC-15360723",
+      "to": "VADIAN_BW_V_PRINT_P339",
+      "relation": "REPORTED_PRINT_LOCATION",
+      "resolution": "UNVERIFIED_PRINT_SCAN",
+      "public_render": false
+    },
+    {
+      "from": "BVC-15360725",
+      "to": "VADIAN_BW_V_PRINT_P339",
+      "relation": "POSSIBLE_PRINT_LOCATION",
+      "resolution": "UNVERIFIED",
+      "public_render": false
+    },
+    {
+      "from": "BVC-15360806",
+      "to": "VADIAN_BW_V_PRINT_PP341_343",
+      "relation": "EDITION_CROSS_REFERENCE",
+      "resolution": "VERIFIED_CRITICAL_EDITION",
+      "public_render": true
+    },
+    {
+      "from": "HBBW_875_NOTE3",
+      "to": "VADIAN_BW_V_PRINT_P339",
+      "relation": "EDITORIAL_CITATION",
+      "resolution": "VERIFIED_EDITORIAL_TEXT",
+      "public_render": true
+    }
+  ],
+  "not_identical_identifiers": [
+    [
+      "Zürich ZB Ms S 41, Nr. 33",
+      "St Gallen VadSlg Ms 41:33"
+    ],
+    [
+      "St Gallen Kantonsbibliothek (Vadiana) Ms 33 (VBS IV) Nr.50",
+      "Zürich ZB Ms S 41 Nr.33"
+    ],
+    [
+      "Vadian BW V p.339 (print pagination)",
+      "manuscript shelfmark/folio"
+    ],
+    [
+      "HBBW 875 editorial note 3",
+      "verbatim July 1536 letter body"
+    ]
+  ],
+  "source_acquisition_log": [
+    {
+      "requested": "1905 Vadianische Briefsammlung volume V second half printed pp.338–343",
+      "outcome": "NOT_OBTAINED",
+      "attempted_paths": [
+        "historical society catalog",
+        "Google Play Books volume 5 bibliography",
+        "Google Books direct PA339 URL"
+      ],
+      "image_verified": false,
+      "printed_entry_number": null
+    },
+    {
+      "requested": "Zürich Ms S 41 Nr.33 autograph and explicit date line",
+      "outcome": "NOT_OBTAINED",
+      "attempted_paths": [
+        "Kalliope indexed finding aid",
+        "swisscollections Record/991170609317505501"
+      ],
+      "image_verified": false
+    },
+    {
+      "requested": "St Gallen exact original signature for p.339 target",
+      "outcome": "NOT_IDENTIFIED",
+      "attempted_paths": [
+        "Stadtarchiv Vadianische Briefsammlung project"
+      ],
+      "image_verified": false
+    }
+  ],
+  "merge_constraints": {
+    "never_auto_merge_dates": true,
+    "require_both_document_level_and_editorial_identity": true,
+    "require_edition_page_visual_check": true,
+    "forbid_using_hbbw875_signature_as_bucer_signature": true,
+    "forbid_equating_zurich_and_st_gallen_same_numbers": true
+  },
+  "needed_external_response": {
+    "st_gallen": [
+      "photographs/scans of 1905 print pp.338–343 including headings",
+      "exact p.339 letter number/date/edition footnotes",
+      "relevant Vadian collection signature(s) and digital links"
+    ],
+    "zurich": [
+      "full record and manuscript of Ms S 41 Nr.33",
+      "autograph versus later copy status",
+      "date line literal transcription",
+      "link to edition or mention of alternative July 23 date"
+    ]
+  },
+  "qa_targets": {
+    "imported_v379_claims_unchanged": true,
+    "candidate_identity_resolved": false,
+    "p339_header_verified": false,
+    "original_date_collation_complete": false,
+    "safe_to_release": false
+  }
+}
