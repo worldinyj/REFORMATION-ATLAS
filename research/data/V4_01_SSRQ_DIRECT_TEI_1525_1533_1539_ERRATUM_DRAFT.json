@@ -1,0 +1,216 @@
+{
+  "version": "V4.01",
+  "date": "2026-11-16",
+  "status": "RESEARCH_DRAFT",
+  "parent_branch": "research/atlas-v400-ott1855-alternate-edition-and-1533-marriage-text-witness",
+  "branch": "research/atlas-v401-ssrq-direct-tei-1533-1539-chronology-erratum",
+  "release": {
+    "can_ship": false,
+    "main_modified": false,
+    "essays_513_modified": false,
+    "ai_studio_modified": false,
+    "old_V400_overwritten": false,
+    "full_scholarly_tei_copied": false,
+    "images_copied": false,
+    "contact_sent": false
+  },
+  "official_source": {
+    "repo": "SSRQ-SDS-FDS/editio-data",
+    "ref": "v1.1.0",
+    "annotated_tag_sha": "9247386e63f8eb14676b5adf09ba084ba8c174a2",
+    "commit": "c6f409c719dfb46ded238e4c7f7b1d5b5391dbbe",
+    "doi": "10.5281/zenodo.10878757",
+    "editor": "Michael Schaffner",
+    "published": "2022-06-28",
+    "license": "CC BY-NC-SA 4.0",
+    "license_url": "https://ssrq-sds-fds.ch/digital/openAccess/",
+    "source_level": "DIRECT_SCHOLARLY_TEI_TRANSCRIPTION_NOT_PHYSICAL_FACSIMILE"
+  },
+  "witnesses": [
+    {
+      "id": "W401-1525",
+      "date": "1525-05-10",
+      "edition": "SSRQ ZH NF I/1/11 Nr1",
+      "archive": "StAZH III AAb 1.1, Nr. 1",
+      "path": "data/ZH/ZH_NF_I_1_11/SSRQ-ZH-NF_I_1_11-1-1.xml",
+      "blob_sha": "4d9145fc3564bed1044b6fa75d14ee042c9c6b33",
+      "edited_tei_direct_read": true,
+      "original_print_image_seen": false,
+      "short_original_excerpt": "morgengab",
+      "content_ko": "혼인 전 성적 관계와 혼인·혼인예물 의무, 부모·후견인 등이 혼인을 반대하는 경우의 지급 대안에 관한 규정"
+    },
+    {
+      "id": "W401-1533",
+      "date": "1533-05-20",
+      "edition": "SSRQ ZH NF I/1/3 Nr156",
+      "archive": "StAZH A 6.1, Nr. 6",
+      "path": "data/ZH/ZH_NF_I_1_3/SSRQ-ZH-NF_I_1_3-156-1.xml",
+      "blob_sha": "3b15cd7526f8d1eeba718162681c1c9b7a33ae61",
+      "edited_tei_direct_read": true,
+      "original_manuscript_photos_seen": false,
+      "facsimile_labels": [
+        "StAZH_A 6.1, Nr. 6_1",
+        "StAZH_A 6.1, Nr. 6_2",
+        "StAZH_A 6.1, Nr. 6_3",
+        "StAZH_A 6.1, Nr. 6_4"
+      ],
+      "body_date_literal": "20 maii 1533",
+      "notes_count": 4
+    }
+  ],
+  "direct_transcription_results": [
+    {
+      "id": "F401-01",
+      "part": "MAIN_TEXT",
+      "grade": "DIRECT_HISTORICAL_TEXT_IN_CRITICAL_TEI",
+      "claim_ko": "이혼은 제한적으로 가능하되 손쉽게 허용해서는 안 되고, 간통의 처벌도 필요하다고 주장한다"
+    },
+    {
+      "id": "F401-02",
+      "part": "MAIN_TEXT",
+      "grade": "DIRECT_HISTORICAL_TEXT_IN_CRITICAL_TEI",
+      "cities": [
+        "Bern",
+        "Basel",
+        "Schaffhausen",
+        "St. Gallen"
+      ],
+      "claim_ko": "네 도시의 대표자를 취리히로 초청하여 혼인재판의 도시별 불일치를 줄이자고 제안한다"
+    },
+    {
+      "id": "F401-03",
+      "part": "MAIN_TEXT_THREE_AGENDA_ITEMS",
+      "grade": "DIRECT_HISTORICAL_TEXT_IN_CRITICAL_TEI",
+      "agenda": [
+        {
+          "n": 1,
+          "source": "Leviticus 18",
+          "subject_ko": "혼인이 허용되는 친족 범위"
+        },
+        {
+          "n": 2,
+          "source": "Exodus 22:15–16",
+          "subject_ko": "혼인 전 성적 관계에 따르는 혼인 의무와 유효한 혼인 약속"
+        },
+        {
+          "n": 3,
+          "source": "Divorce caused by adultery",
+          "subject_ko": "이혼의 책임이 있는 배우자에 대한 처벌과 재혼 문제"
+        }
+      ],
+      "warning": "These numbers 1-3 are not Article 1-3 in the separate 44-article June draft"
+    },
+    {
+      "id": "F401-04",
+      "part": "DORSAL_ADDENDUM_OTHER_HAND",
+      "grade": "DIRECT_HISTORICAL_TEXT_IN_CRITICAL_TEI_WITH_OTHER_HAND_FLAG",
+      "date_when": "1533-06-10",
+      "short_excerpt": "Ward eyn tag allhär gan Zürich",
+      "claim_ko": "문서 뒷면에 다른 필체로 1533년 6월 10일 취리히 회의 일정을 정했다는 기록이 있다",
+      "original_photo_seen": false,
+      "hand_identity_known": false
+    },
+    {
+      "id": "F401-05",
+      "part": "MAIN_TEXT_FINAL_DATE",
+      "date": "1533-05-20",
+      "grade": "DIRECT_HISTORICAL_TEXT_IN_CRITICAL_TEI",
+      "claim_ko": "작성 날짜가 1533년 5월 20일로 기재된다"
+    },
+    {
+      "id": "F401-06",
+      "part": "SIGNATURES",
+      "grade": "TRANSCRIPTION_PLUS_EDITORIAL_NOTE",
+      "names": [
+        "Johans Hab",
+        "Felix Wingarter",
+        "Peter Meyer",
+        "Batt Bachofen"
+      ],
+      "claim_ko": "서명자 네 명을 기록. 현대 편집자는 1533년에 이들이 혼인재판관이 아니었으며 임시 자문위원회 참여 가능성을 제시한다",
+      "all_four_were_marriage_judges": false
+    }
+  ],
+  "modern_editorial_notes": [
+    {
+      "id": "N401-01",
+      "tier": "MODERN_2022_CRITICAL_EDITION_NOTE",
+      "note_on": "First agenda item",
+      "claim_ko": "1525년의 레위기 18장 규정, 1530년 친족혼 제한의 명문화, 1533년 논의와 1539년 추가 제한을 구별한다"
+    },
+    {
+      "id": "N401-02",
+      "tier": "MODERN_2022_CRITICAL_EDITION_NOTE",
+      "note_on": "Second agenda item",
+      "earlier": "1525",
+      "consulted": "1533",
+      "revised": "1539",
+      "claim_ko": "혼인 약속의 두 증인과 여성의 좋은 평판을 제한 요건으로 삼는 규정은 1533년이 아니라 1539년 개정 혼인명령의 내용이라고 명시한다. 편집자는 여성의 소송상 가능성이 축소됐다고 해석한다",
+      "original_1539_print_read": false
+    },
+    {
+      "id": "N401-03",
+      "tier": "MODERN_2022_CRITICAL_EDITION_NOTE",
+      "note_on": "Third agenda item",
+      "claim_ko": "1533년 협의에서 이혼 유책 배우자 재혼 대기 1년, 무책 배우자 6개월을 정했다는 후대 편집자의 설명",
+      "direct_july_15_minutes_seen": false,
+      "all_five_cities_enactment_proven": false
+    },
+    {
+      "id": "N401-04",
+      "tier": "MODERN_2022_CRITICAL_EDITION_NOTE",
+      "note_on": "Names",
+      "claim_ko": "문서의 네 명은 당시 혼인재판관이 아니었고 별도 자문 역할이 추정되지만 명시적인 인사기록은 없다는 설명"
+    }
+  ],
+  "external_archival_corrob": [
+    {
+      "id": "A401-1539-BIII4",
+      "url": "https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1915299",
+      "shelfmark": "B III 4, fol. 228r–235v",
+      "date": "1539-07-12",
+      "kind": "OFFICIAL_CATALOG_1539_PRINT",
+      "physical_print_read": false
+    },
+    {
+      "id": "A401-1539-FIIA",
+      "url": "https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4334093",
+      "shelfmark": "F II a 255, fol. 283–289",
+      "date": "1539-07-12",
+      "kind": "OFFICIAL_CATALOG_1539_PRINT",
+      "physical_print_read": false
+    }
+  ],
+  "explicit_erratum": {
+    "supersedes_version": "V4.00",
+    "affected_file": "research/data/V4_00_OTT_1855_ACCESS_AND_1533_MARRIAGE_RULE_WITNESS_DRAFT.json",
+    "old_claim": "Two-witness and woman's good reputation requirement attributed to a 1533 revised Zurich rule through unverified 1878 source interpretation",
+    "corrected_year": 1539,
+    "source": "SSRQ ZH NF I/1/3 Nr156 (2022), second agenda item's editorial footnote",
+    "new_claim": "1533: discussion item regarding marriage obligations; 1539: stricter two-witness promise and woman's reputation requirement according to scholarly edition",
+    "corrects_user_facing_history": true,
+    "old_files_kept_for_audit": true,
+    "does_not_prove_1878_historian_wrong": true,
+    "reason": "1878 scanned page still not read; earlier assistant's attribution could be the error"
+  },
+  "missing_sources": {
+    "Ott1855_printed_pages_108_122_seen": false,
+    "SSRQ_1525_edited_text_seen": true,
+    "SSRQ_1533_edited_text_seen": true,
+    "SSRQ_1539_actual_statute_text_seen": false,
+    "july_1533_A6_1_Nr7_minutes_read": false,
+    "physical_1533_images_read": false,
+    "article39_exact_text_read": false,
+    "forty_four_article_topics_read": 0,
+    "Rott1978_printed_pages_seen": false,
+    "Parker_MS119_folios_seen": false,
+    "prior_July1536_letter_identity": "UNRESOLVED"
+  },
+  "next": [
+    "Retire V4.00 two-witness 1533 attribution from publication drafts",
+    "Use direct source TEI anchors: 1525, 1533 main, 1533 other-hand verso, modern 1539 annotation",
+    "Trace 1539 July12 printed law from B III4, III AAb1.1 Nr25, distinguish 1550 reprint",
+    "Continue 1855 Ott printed pp108-122 and July 15 dossier, without claiming success",
+    "Preserve three questions in May20 note distinct from 44 draft articles and leave Article39 content unassigned"
+  ]
+}
