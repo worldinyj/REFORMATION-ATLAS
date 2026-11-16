@@ -11,7 +11,7 @@
       "sender": "Martin Bucer",
       "recipient": "Joachim Vadian",
       "date": "1536-07-25",
-      "identifier": "CH-002121-2-991170609317505501",
+      "identifier": "CH-002121-2-991170608445805501",
       "evidence_type": "Kalliope aggregated finding-aid search snippet",
       "source": "https://www.kalliope-verbund.info/de/findingaid?fa.id=CH-002121-2-881170715577605501",
       "direct_item_page_inspected": false
@@ -97,5 +97,16 @@
     "ai_studio_modified": false
   },
   "related_file": "research/notes/V3_78_BUCER_VADIAN_ARCHIVE_INQUIRIES_DE.md",
-  "recommended_next_version": "V3.79 - ingest verified catalog responses or retrieve printed p.338-343 scan; manuscript provenance comparison and corrected claim registry"
+  "recommended_next_version": "V3.79 - ingest verified catalog responses or retrieve printed p.338-343 scan; manuscript provenance comparison and corrected claim registry",
+  "catalog_id_amendment": {
+    "amended_in": "V3.81",
+    "date": "2026-11-16",
+    "correction_type": "KALLIOPE_ADJACENT_ENTRY_ID_MISATTRIBUTION",
+    "corrected_bucer_vadian_identifier": "CH-002121-2-991170608445805501",
+    "formerly_misattributed_identifier": "CH-002121-2-991170609317505501",
+    "formerly_misattributed_item": "Bullinger -> Ambrosius Blarer, 1547-08-24, Zürich Ms F 43 (133)",
+    "basis": "In Kalliope finding-aid, the identifier preceding each heading belongs to that heading; the next identifier belongs to the next entry.",
+    "evidence_url": "https://nachlassdatenbank.de/findingaid?fa.id=CH-002121-2-881170715577605501&fq=ead.pers.index%3A%28%22Albert-Durade%2C+...+d%27%22%29&htmlFull=false&lang=de&lastparam=true",
+    "direct_manuscript_checked": false
+  }
 }
