@@ -1,3 +1,5 @@
+> **V3.81 정정 기록 (2026-11-16):** 이전 Bucer→Vadian 취리히 목록 식별번호가 인접 항목으로 잘못 연결되어 수정했습니다. 올바른 ID: `CH-002121-2-991170608445805501`. 종전의 `CH-002121-2-991170609317505501`는 Bullinger→Ambrosius Blarer (1547-08-24)의 목록 ID입니다. 필사본 직접 판독은 아직 미완료입니다.
+
 # 종교개혁 ATLAS V3.78 — Bucer–Vadian 원전 소장기관 조회 패키지
 
 - 작성일: 2026-11-16 (Asia/Seoul)
@@ -55,7 +57,7 @@ im Rahmen einer quellenkritischen Untersuchung der reformatorischen Korresponden
 - **Zentralbibliothek Zürich, Ms S 41, Nr. 33**
 - **Martin Bucer an Joachim Vadian**
 - Katalogdatierung: **25. Juli 1536**
-- Nachweis im Kalliope-Verbundkatalog: **CH-002121-2-991170609317505501**
+- Nachweis im Kalliope-Verbundkatalog: **CH-002121-2-991170608445805501**
 
 Die Anfrage hängt mit einer Referenz in *Vadianische Briefsammlung*, Bd. V, S. 339, und einer abweichenden Arbeitsdatierung **23. Juli 1536** zusammen. Ob diese Bezüge tatsächlich dasselbe Schreiben betreffen, ist noch offen.
 
@@ -77,7 +79,7 @@ Mit freundlichen Grüßen
 
 - Offizieller Bandnachweis (1905: 2. Hälfte, 1536–1540, 476 S.): https://www.hvsg.ch/mitteilungen.php
 - HBBW Nr. 875, Anm. 3; Datierung 1536-08-06; Druck Vadian BW V 341–343: https://briefe.arpa-docs.ch/SedWEBShowArticle.cgi?Alias=Briefe&ArtNum=949&DFlags=0
-- Zürich-Katalog-Kennung der 1536-07-25-Handschrift: CH-002121-2-991170609317505501 (Kalliope finding-aid index; Detailansicht beim Recherchetool nicht abrufbar)
+- Zürich-Katalog-Kennung der 1536-07-25-Handschrift: CH-002121-2-991170608445805501 (Kalliope finding-aid index; Detailansicht beim Recherchetool nicht abrufbar)
 - Überblick St. Galler Bestandserschließung: https://stadtarchiv.ch/forschungsprojekte/vadianische-briefsammlung/
 - Kontakt St. Gallen: https://stadtarchiv.ch/vadianische-sammlung/
 - Kontakt Zürich: https://www.zb.uzh.ch/de/sammlungen/spezialsammlungen/handschriften-nachlasse-und-archivalien
