@@ -1,0 +1,106 @@
+{
+  "version": "V3.88",
+  "date": "2026-11-16",
+  "status": "RESEARCH_DRAFT",
+  "branch": "research/atlas-v388-source-acquisition-runtime-audit",
+  "parent_branch": "research/atlas-v387-rott-ojs-pdf-discovery",
+  "release": {
+    "can_ship": false,
+    "main_modified": false,
+    "essays_513_modified": false,
+    "ai_studio_modified": false,
+    "archive_emails_sent": false
+  },
+  "target": {
+    "article": "Jean/Hans-Georg Rott, Martin Bucer und die Schweiz: drei unbekannte Briefe von Zwingli, Bucer und Vadian (1530, 1531, 1536)",
+    "issue": "Zwingliana 14/9 (1978)",
+    "printed_pages": "461-492",
+    "pages_for_direct_comparison": [
+      489,
+      491
+    ],
+    "primary_text_directly_examined": false,
+    "manuscript": "Cambridge CCCC Parker MS 119 item 71 pp.199-200 and 205-206",
+    "manuscript_images_examined": false
+  },
+  "sources": [
+    {
+      "id": "S388-1",
+      "kind": "OFFICIAL_ISSUE_ARCHIVE",
+      "url": "https://zwingliana.ch/issue/archive",
+      "observed": "14/9 (1978) is listed in issue archive",
+      "inspection": "HTML extracted text",
+      "target_pdf": false
+    },
+    {
+      "id": "S388-2",
+      "kind": "INSTITUTIONAL_JOURNAL_DESCRIPTION",
+      "url": "https://www.irg.uzh.ch/de/publikationen/zwingli/zwingliana-online.html",
+      "observed": "Zwingliana offers openly available digital full text issues",
+      "inspection": "HTML extracted text",
+      "target_pdf": false
+    },
+    {
+      "id": "S388-3",
+      "kind": "LIVE_PDF_ENDPOINT_CONTROL_NOT_TARGET",
+      "url": "https://zwingliana.ch/article/download/8155/6686",
+      "observed": "An unrelated 2005 book-review PDF downloads as a PDF, with printed page 181 visible on PDF first page",
+      "inspection": "WEB_PDF_TEXT_AND_SCREENSHOT_FIRST_PAGE",
+      "target_pdf": false,
+      "do_not_relabel_as_rott": true
+    },
+    {
+      "id": "S388-4",
+      "kind": "ACADEMIC_BIBLIOGRAPHY",
+      "url": "https://brill.com/edcollchap/book/9789047414209/front-8.pdf",
+      "observed": "Rott Zwingliana 14 (1978) pp.461-492, later reprinted in Investigationes II pp.203-234",
+      "inspection": "previous indexed bibliographic evidence",
+      "target_pdf": false
+    }
+  ],
+  "network_access": {
+    "official_1978_issue_page_url": null,
+    "official_rott_article_url": null,
+    "official_rott_pdf_url": null,
+    "pdf_acquired": false,
+    "pdf_sha256": null,
+    "real_p489_image_seen": false,
+    "real_p491_image_seen": false,
+    "browser_attempt": "Official archive loads as rendered text, but exact historical article anchors not exposed through retrieval tool",
+    "local_request_attempt": "Python urllib HTTPS request for https://zwingliana.ch/issue/archive",
+    "local_request_result": "DNS resolution failed: [Errno -3] Temporary failure in name resolution",
+    "alternate_downloader_result": "container.download failed",
+    "unauthorized_urls_fabricated": false
+  },
+  "locally_executed_tool": {
+    "file_name": "resolve_and_verify_rott_v388.py",
+    "source_sha256": "f1926788983421ca03e6e720a2bd3921efcb5d51f9c1d07214d1b5f6df9fa2fb",
+    "environment": "local container; Python 3",
+    "offline_self_test": "PASS",
+    "mock_html_assertions": 9,
+    "real_discover_result": "FAILED_DNS",
+    "synthetic_pdf_inspection": "PASS",
+    "synthetic_pdf_pages": 5,
+    "candidate_index_for_printed_489": 2,
+    "candidate_index_for_printed_491": 4,
+    "file_is_tested_locally": true,
+    "source_is_real_rott_pdf": false,
+    "no_automatic_primary_verified_claim": true,
+    "note": "This local tested tool is available as a downloadable sandbox file; current GitHub research branch records its checksum. The production source should be reviewed/committed separately if needed."
+  },
+  "safety_gates": {
+    "corrected_zurich_catalog_id": "CH-002121-2-991170608445805501",
+    "july_23_vs_july_25": "UNRESOLVED",
+    "parker_1912_1566_vs_modern_1536": "UNRESOLVED_AT_AUTOGRAPH",
+    "no_historical_original_quotation_without_image": true,
+    "journal_pdf_no_republication": true,
+    "imported_earlier_draft_unchanged": true,
+    "no_webapp_publication": true
+  },
+  "next": [
+    "Obtain actual issue-14/9 article link through a network-enabled browser or library service; capture its canonical URL, not a guessed numeric ID.",
+    "Acquire the PDF; verify PDF signature, content hash and printed page markers against actual images.",
+    "Only after PDF direct inspection transcribe limited Latin passages and variant notes from p489 and p491.",
+    "Compare manuscript images from Parker Library separately; do not infer that catalog or PDF proves autograph wording."
+  ]
+}
