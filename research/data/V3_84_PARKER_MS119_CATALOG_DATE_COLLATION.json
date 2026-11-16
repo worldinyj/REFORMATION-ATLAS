@@ -1,0 +1,135 @@
+{
+  "version": "V3.84",
+  "as_of": "2026-11-16",
+  "status": "RESEARCH_DRAFT",
+  "branch": "research/atlas-v384-parker-ms119-catalog-date-collation",
+  "based_on": "V3.83",
+  "release": {
+    "can_ship": false,
+    "main_edited": false,
+    "essays_edited": false,
+    "ai_studio_edited": false,
+    "archive_email_sent": false
+  },
+  "target": {
+    "correspondence": "Joachim Vadian -> Martin Bucer",
+    "manuscript": "Corpus Christi College Cambridge, Parker Library MS 119",
+    "item_number": 71,
+    "manuscript_pages": [
+      "199-200",
+      "205-206 (continuation according to modern catalog)"
+    ],
+    "autograph_examined": false,
+    "original_or_copy": "NOT_DETERMINED"
+  },
+  "evidence": [
+    {
+      "id": "E01",
+      "kind": "PRINTED_MANUSCRIPT_CATALOG_1912",
+      "author": "M. R. James",
+      "citation": "A Descriptive Catalogue ... Vol. I (Cambridge 1912), p.281, MS119 item 71",
+      "url": "https://www.corpus.cam.ac.uk/sites/default/files/downloads/m.r._james_cccc_catalogue_1912_vol._i.pdf",
+      "dated_text": "pridie Non. Aug. 1566",
+      "date_normalized": "1566-08-04",
+      "inspection": "PDF_TEXT_EXTRACT_READ; SCREENSHOT_FAILED_SIZE_LIMIT",
+      "facsimile_checked": false
+    },
+    {
+      "id": "E02",
+      "kind": "MODERN_MANUSCRIPT_CATALOG",
+      "citation": "Parker Library MS119 via Biblissima",
+      "url": "https://iiif.biblissima.fr/collections/manifest/780facf6a47bf2addec17f9498ef58363cb4c8a0",
+      "dated_text": "pridie Nonas Augusti 1536",
+      "date_normalized": "1536-08-04",
+      "pages": [
+        "199-200",
+        "205-206"
+      ],
+      "inspection": "WEB_CATALOG_READ; STANFORD_IIIF_UNAVAILABLE",
+      "facsimile_checked": false
+    },
+    {
+      "id": "E03",
+      "kind": "SCHOLARLY_SECONDARY_STUDY",
+      "citation": "Ernst Gerhard Rüsch, Um das Abendmahl (1983), footnote on Vadian to Bucer 4 Aug 1536",
+      "url": "https://www.e-periodica.ch/cntmng?pid=thz-001%3A1983%3A39%3A%3A470",
+      "scholarly_reference": "Zwingliana XIV p.489",
+      "inspection": "INDEXED_PDF_TEXT_ONLY",
+      "facsimile_checked": false
+    },
+    {
+      "id": "E04",
+      "kind": "RESEARCH_ARTICLE_BIBLIOGRAPHY",
+      "citation": "Jean/Hans Georg Rott, Martin Bucer und die Schweiz: drei unbekannte Briefe von Zwingli, Bucer und Vadian (1530, 1531, 1536), Zwingliana 14 (1978), pp.461-492",
+      "url": "https://www.irg.uzh.ch/de/publikationen/zwingli/zwingliana-online.html",
+      "specific_page": 489,
+      "inspection": "JOURNAL_ARCHIVE_AND_BIBLIOGRAPHY_ONLY; ARTICLE_TEXT_NOT_OBTAINED",
+      "facsimile_checked": false
+    },
+    {
+      "id": "E05",
+      "kind": "AUTHORITY_RECORD",
+      "citation": "Bibliothèque nationale de France authority record: Martin Bucer, died 1551-02-28",
+      "url": "https://catalogue.bnf.fr/ark:/12148/cb11929851j",
+      "inspection": "AUTHORITY_RECORD_WEB_INDEX",
+      "facsimile_checked": null
+    }
+  ],
+  "discrepancy": {
+    "old_catalog_date": "1566-08-04",
+    "modern_catalog_date": "1536-08-04",
+    "manuscript_date_directly_read": false,
+    "preferred_provisional_date": "1536-08-04",
+    "verdict": "PROBABLE_1912_CATALOG_TYPO",
+    "reasoning": "James 1912 prints 1566, while contemporary Parker catalog and Rüsch 1983 reference 1536; recipient Bucer died 1551.",
+    "certainty": "HIGH_CONFIDENCE_CATALOG_COLLATION_NOT_PRIMARY_DATE_READING",
+    "latin_calendar": {
+      "formula": "pridie Nonas Augusti",
+      "nones_of_august": 5,
+      "day_prior": 4
+    }
+  },
+  "material_provenance": {
+    "james_description": "Codex chartaceus in folio, seculo xvi scriptus",
+    "explicitly_identified_as_autograph_in_item71": false,
+    "conclusion_on_autograph_or_copy": "UNRESOLVED",
+    "original_image_199_200_checked": false,
+    "continued_pages_205_206_checked": false
+  },
+  "access_audit": [
+    {
+      "resource": "Cambridge Parker MS119 digital manuscript pages 199-200 and 205-206",
+      "result": "STANFORD_CATALOG_REQUEST_REJECTED_AND_MANIFEST_UNAVAILABLE",
+      "visual_examined": false
+    },
+    {
+      "resource": "James 1912 catalog printed page 281",
+      "result": "TEXT_RETRIEVED_BUT_SCREENSHOT_BLOCKED_32MB_PDF",
+      "visual_examined": false
+    },
+    {
+      "resource": "Rott 1978 Zwingliana 14/9 pp461-492 especially p489",
+      "result": "ARCHIVE_AND_BIBLIOGRAPHY_LOCATED_FULLTEXT_NOT_OBTAINED",
+      "visual_examined": false
+    },
+    {
+      "resource": "Rüsch 1983 letter citation",
+      "result": "INDEXED_PDF_TEXT_ONLY",
+      "visual_examined": false
+    }
+  ],
+  "identity_gates": {
+    "august4_to_july25_relation": "UNPROVEN_REPLY",
+    "july23_equals_july25": "UNRESOLVED",
+    "august4_manuscript_primary_inspected": false,
+    "buchmanuscript_p339_checked": false,
+    "public_render_all_unverified_relations": false
+  },
+  "prior_corrected_catalog_id": "CH-002121-2-991170608445805501",
+  "next_steps": [
+    "Access manuscript MS119 pp199–200 and continuation pp205–206 and transcribe literal date and colophon.",
+    "Obtain Rott 1978 (Zwingliana 14/9) p489 facsimile/text and identify whether it edits the same MS119 witness.",
+    "Preserve 1912 1566 variant in variant log; only treat 1536 as modern catalog-supported working date.",
+    "Do not merge July 23 and July 25 Bucer letters based on chronology."
+  ]
+}
