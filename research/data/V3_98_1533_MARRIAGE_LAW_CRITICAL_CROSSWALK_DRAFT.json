@@ -1,0 +1,451 @@
+{
+  "version": "V3.98",
+  "date": "2026-11-16",
+  "status": "RESEARCH_DRAFT",
+  "branch": "research/atlas-v398-bern-marriage-law-critical-reader-bridge",
+  "parent_branch": "research/atlas-v397-1533-bern-zurich-concord-correspondence",
+  "release": {
+    "can_ship": false,
+    "main_modified": false,
+    "readers_513_modified": false,
+    "ai_studio_modified": false,
+    "contact_sent": false,
+    "full_edition_copied": false,
+    "facsimiles_copied": false
+  },
+  "upstream": {
+    "repo": "stazh/bullinger-korpus-tei",
+    "commit": "dc9fb5290c210023a6a9182e8e3102c1f6dff734",
+    "tei_license": "CC BY-NC-ND 3.0 CH",
+    "facsimile_license": "CC BY-SA 4.0"
+  },
+  "baseline": {
+    "medium_reader_path": "data/deep/atlas_v254_medium_depth_ten_readers.json",
+    "medium_reader_blob": "ac219f34d4caceb2ceae1d64b61e71c53350244c",
+    "latest_medium_total_513_at_V307": true,
+    "prior_overlay": "research/data/V3_97_BERN_1533_FOUR_SCENE_READER_OVERLAY_DRAFT.json"
+  },
+  "sources": [
+    {
+      "id": "ZH-ARCH-A6-1-NR6",
+      "kind": "DIRECT_OFFICIAL_ARCHIVE_CATALOG",
+      "url": "https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=742217",
+      "date": "1533-05-20",
+      "summary_read": true,
+      "original_folio_read": false,
+      "description": "Zurich marriage court advisers propose inviting delegates from Bern, Basel, Schaffhausen, St Gallen"
+    },
+    {
+      "id": "ZH-ARCH-A6-1-NR7",
+      "kind": "OFFICIAL_ARCHIVE_CATALOG",
+      "url": "https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=742218",
+      "date": "1533-07-15",
+      "summary_read": true,
+      "original_folio_read": false,
+      "description": "Ratschlag und Abschied der evangelischen Orte about marriage laws; original docket located, not facsimile"
+    },
+    {
+      "id": "ENGELER2023-P103-107",
+      "kind": "SCHOLARLY_OPEN_ACCESS_PDF_TEXT",
+      "url": "https://www.tvz-verlag.ch/_files_media/open_access/9783290185220.pdf",
+      "doi": "10.34313/978-3-290-18522-0",
+      "year": 2023,
+      "printed_pages": "103–107",
+      "pdf_text_reviewed": true,
+      "web_pdf_screenshot_attempted": true,
+      "web_pdf_screenshot_succeeded": false,
+      "description": "June10 meeting, 44 draft articles, July15 meeting, disagreements and restricted-copy decision"
+    },
+    {
+      "id": "ENGELER2023-P157-158",
+      "kind": "SCHOLARLY_OPEN_ACCESS_PDF_TEXT",
+      "url": "https://www.tvz-verlag.ch/_files_media/open_access/9783290185220.pdf",
+      "year": 2023,
+      "printed_pages": "157–158",
+      "pdf_text_reviewed": true,
+      "web_pdf_screenshot_succeeded": false,
+      "description": "Bucer to Leo Jud June23 1532 MBBW VIII Nr598 and passages 154–165"
+    },
+    {
+      "id": "CAPITO2015-P114N3",
+      "kind": "INHERITED_SCHOLARLY_NOTE",
+      "year": 2015,
+      "description": "Bern synod May12-14 and 120 count from Haller letter HBBW III Nr228; one dependent count"
+    }
+  ],
+  "teiletters": [
+    {
+      "id": "HBBW3-222",
+      "date": "1533-05-13",
+      "title": "Oswald Myconius (Geißhüsler) / Basel an Heinrich Bullinger, 13. Mai 1533",
+      "source_path": "data/letters/10253.xml",
+      "source_url": "https://github.com/stazh/bullinger-korpus-tei/blob/dc9fb5290c210023a6a9182e8e3102c1f6dff734/data/letters/10253.xml",
+      "git_blob_sha": "c09af1503feb397e25c3d96426a6fd057df80cf4",
+      "archive_shelfmark": "E II 336,148",
+      "total_sentences": 21,
+      "images_registered": 2,
+      "zone_count": 17,
+      "line_count": 17,
+      "zone_line_pairs": 17,
+      "image_bytes_downloaded": 0,
+      "archival_folio_seen": false,
+      "reason": "Myconius reported a Basel synod; separate from Bern's May synod",
+      "anchors": [
+        {
+          "sentence": 12,
+          "page": "125",
+          "first_three_words": "Celebravimus nos synodum",
+          "direct_modern_transcript": true,
+          "original_manuscript_image_seen": false
+        }
+      ]
+    },
+    {
+      "id": "HBBW3-233",
+      "date": "1533-06-08",
+      "title": "Berchtold Haller / [Bern] an Heinrich Bullinger, 8. Juni 1533",
+      "source_path": "data/letters/10264.xml",
+      "source_url": "https://github.com/stazh/bullinger-korpus-tei/blob/dc9fb5290c210023a6a9182e8e3102c1f6dff734/data/letters/10264.xml",
+      "git_blob_sha": "409d2bad89ab9d93fb915bef9482406ebdf7b900",
+      "archive_shelfmark": "E II 360,3 f.",
+      "total_sentences": 41,
+      "images_registered": 2,
+      "zone_count": 30,
+      "line_count": 30,
+      "zone_line_pairs": 30,
+      "image_bytes_downloaded": 0,
+      "archival_folio_seen": false,
+      "reason": "Haller wished for common matrimonial rules and described Megander's comparative legal mission",
+      "anchors": [
+        {
+          "sentence": 18,
+          "page": null,
+          "first_three_words": "Speramus et Miconium",
+          "direct_modern_transcript": true,
+          "original_manuscript_image_seen": false
+        },
+        {
+          "sentence": 19,
+          "page": "141",
+          "first_three_words": "Utinam in casibus",
+          "direct_modern_transcript": true,
+          "original_manuscript_image_seen": false
+        },
+        {
+          "sentence": 20,
+          "page": "141",
+          "first_three_words": "Multa et mirabilia",
+          "direct_modern_transcript": true,
+          "original_manuscript_image_seen": false
+        },
+        {
+          "sentence": 21,
+          "page": "141",
+          "first_three_words": "Adfert, quae nos",
+          "direct_modern_transcript": true,
+          "original_manuscript_image_seen": false
+        },
+        {
+          "sentence": 37,
+          "page": "141",
+          "first_three_words": "Quomodo se apud",
+          "direct_modern_transcript": true,
+          "original_manuscript_image_seen": false
+        }
+      ]
+    },
+    {
+      "id": "HBBW3-239",
+      "date": "1533-07-13",
+      "title": "Berchtold Haller / [Bern] an Heinrich Bullinger, 13. Juli 1533",
+      "source_path": "data/letters/10270.xml",
+      "source_url": "https://github.com/stazh/bullinger-korpus-tei/blob/dc9fb5290c210023a6a9182e8e3102c1f6dff734/data/letters/10270.xml",
+      "git_blob_sha": "27b66e33b290ec4c320cb6cb4393669752cc1408",
+      "archive_shelfmark": "Ms F 42,119",
+      "total_sentences": 32,
+      "images_registered": 2,
+      "zone_count": 32,
+      "line_count": 30,
+      "zone_line_pairs": 30,
+      "image_bytes_downloaded": 0,
+      "archival_folio_seen": false,
+      "reason": "Haller mentioned Megander's Zurich contacts; not evidence of permanent theological unity",
+      "anchors": [
+        {
+          "sentence": 2,
+          "page": null,
+          "first_three_words": "Multo sępius ad",
+          "direct_modern_transcript": true,
+          "original_manuscript_image_seen": false
+        },
+        {
+          "sentence": 25,
+          "page": "149",
+          "first_three_words": "Multa de vobis",
+          "direct_modern_transcript": true,
+          "original_manuscript_image_seen": false
+        }
+      ]
+    },
+    {
+      "id": "HBBW3-241",
+      "date": "1533-07-14",
+      "title": "Berchtold Haller / [Bern] an Heinrich Bullinger, 14. Juli [1533]",
+      "source_path": "data/letters/10272.xml",
+      "source_url": "https://github.com/stazh/bullinger-korpus-tei/blob/dc9fb5290c210023a6a9182e8e3102c1f6dff734/data/letters/10272.xml",
+      "git_blob_sha": "6cba8f379a7a1f863f0030179ee65634a77eb90e",
+      "archive_shelfmark": "E II 343,98",
+      "total_sentences": 13,
+      "images_registered": 2,
+      "zone_count": 15,
+      "line_count": 15,
+      "zone_line_pairs": 15,
+      "image_bytes_downloaded": 0,
+      "archival_folio_seen": false,
+      "reason": "Haller reported Bern council debate and objections to draft, with final decision then unknown",
+      "anchors": [
+        {
+          "sentence": 1,
+          "page": null,
+          "first_three_words": "S. 13. julii,",
+          "direct_modern_transcript": true,
+          "original_manuscript_image_seen": false
+        },
+        {
+          "sentence": 2,
+          "page": null,
+          "first_three_words": "Gspött und unwill",
+          "direct_modern_transcript": true,
+          "original_manuscript_image_seen": false
+        },
+        {
+          "sentence": 3,
+          "page": null,
+          "first_three_words": "Uff mentag 14.",
+          "direct_modern_transcript": true,
+          "original_manuscript_image_seen": false
+        },
+        {
+          "sentence": 4,
+          "page": null,
+          "first_three_words": "Was beschlossen, weis",
+          "direct_modern_transcript": true,
+          "original_manuscript_image_seen": false
+        }
+      ]
+    },
+    {
+      "id": "HBBW3-275",
+      "date": "1533-10-18",
+      "title": "Berchtold Haller / Bern an Heinrich Bullinger, 18. Oktober 1533",
+      "source_path": "data/letters/10306.xml",
+      "source_url": "https://github.com/stazh/bullinger-korpus-tei/blob/dc9fb5290c210023a6a9182e8e3102c1f6dff734/data/letters/10306.xml",
+      "git_blob_sha": "146dad725e1b258e5fc5d3e0451e10d0270d62b3",
+      "archive_shelfmark": "E II 343,20",
+      "total_sentences": 23,
+      "images_registered": 6,
+      "zone_count": 21,
+      "line_count": 21,
+      "zone_line_pairs": 21,
+      "image_bytes_downloaded": 0,
+      "archival_folio_seen": false,
+      "reason": "Haller still spoke of disagreement between the two cities; context marriage-law penalties",
+      "anchors": [
+        {
+          "sentence": 17,
+          "page": "210",
+          "first_three_words": "Ich han kein",
+          "direct_modern_transcript": true,
+          "original_manuscript_image_seen": false
+        },
+        {
+          "sentence": 18,
+          "page": "210",
+          "first_three_words": "Das schrib ich",
+          "direct_modern_transcript": true,
+          "original_manuscript_image_seen": false
+        }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "CL398-01",
+      "claim_ko": "1532년 Berner Synodus(편찬·문헌)와 1533년 5월 베른 시노드(회의)는 별개이다.",
+      "source": [
+        "ENGELER2023-P103-107",
+        "CAPITO2015-P114N3"
+      ],
+      "tier": "SECONDARY_CHRONOLOGY"
+    },
+    {
+      "id": "CL398-02",
+      "claim_ko": "1533년 5월 13일 미코니우스는 바젤에서도 시노드를 열었다고 기록했다. 베른의 같은 주간 회의와 합치지 않는다.",
+      "source": [
+        "HBBW3-222:s12"
+      ],
+      "tier": "DIRECT_CRITICAL_TEI"
+    },
+    {
+      "id": "CL398-03",
+      "claim_ko": "1533년 5월 20일 취리히 혼인재판 관계자들은 다른 개혁 도시들과 혼인법을 협의하자고 제안했다.",
+      "source": [
+        "ZH-ARCH-A6-1-NR6"
+      ],
+      "tier": "OFFICIAL_ARCHIVE_DESCRIPTION"
+    },
+    {
+      "id": "CL398-04",
+      "claim_ko": "할러는 6월 8일 혼인법과 관례가 도시마다 같기를 바란다고 썼다.",
+      "source": [
+        "HBBW3-233:s19"
+      ],
+      "tier": "DIRECT_CRITICAL_TEI"
+    },
+    {
+      "id": "CL398-05",
+      "claim_ko": "메간더는 바젤·스트라스부르·콘스탄츠·울름·에슬링엔의 규정 등을 비교자료로 가져갔다.",
+      "source": [
+        "HBBW3-233:s21"
+      ],
+      "tier": "DIRECT_CRITICAL_TEI"
+    },
+    {
+      "id": "CL398-06",
+      "claim_ko": "6월 10일 취리히 예비회의에서 혼인법 44개 조항의 초안을 만들었다.",
+      "source": [
+        "ENGELER2023-P103-107"
+      ],
+      "tier": "SCHOLARLY_ANALYSIS_NOT_ORIGINAL_MINUTES"
+    },
+    {
+      "id": "CL398-07",
+      "claim_ko": "미코니우스와 바디안은 참석을 기대했지만 실제 6월 10일 회의에는 참석하지 않았다.",
+      "source": [
+        "HBBW3-233:s18",
+        "ENGELER2023-P103-107"
+      ],
+      "tier": "SCHOLARLY_APPARATUS"
+    },
+    {
+      "id": "CL398-08",
+      "claim_ko": "7월 14일 할러는 베른 시의회가 초안을 두고 반발했으며 최종 결정은 자신이 알지 못한다고 썼다.",
+      "source": [
+        "HBBW3-241:s2",
+        "HBBW3-241:s4"
+      ],
+      "tier": "DIRECT_CRITICAL_TEI"
+    },
+    {
+      "id": "CL398-09",
+      "claim_ko": "7월 15일 취리히에서 후속 협의가 개최되어 공동 규칙을 논의했다.",
+      "source": [
+        "ZH-ARCH-A6-1-NR7",
+        "ENGELER2023-P103-107"
+      ],
+      "tier": "OFFICIAL_CATALOG_PLUS_SCHOLARSHIP"
+    },
+    {
+      "id": "CL398-10",
+      "claim_ko": "참가 도시들은 실질적으로 합의하지 못한 법적 세부사항을 남겼으며, 공통 조항의 전면 시행은 확인되지 않는다.",
+      "source": [
+        "ENGELER2023-P103-107"
+      ],
+      "tier": "SCHOLARLY_ANALYSIS"
+    },
+    {
+      "id": "CL398-11",
+      "claim_ko": "할러는 10월에도 두 도시의 차이에 안타까움을 표현했다. 이를 44개 조항 전면 통일의 증거로 바꿀 수 없다.",
+      "source": [
+        "HBBW3-275:s17",
+        "HBBW3-275:s18"
+      ],
+      "tier": "DIRECT_CRITICAL_TEI"
+    },
+    {
+      "id": "CL398-12",
+      "claim_ko": "1532–1533년의 성찬 교리 논쟁 및 베른 목회자 갈등 조정과, 혼인법 협의는 서로 관련된 인적 네트워크이지만 별개 성과이다.",
+      "source": [
+        "HBBW3-233:s19",
+        "ENGELER2023-P103-107",
+        "CAPITO2015-P114N3"
+      ],
+      "tier": "INTERPRETIVE_BRIDGE"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1532",
+      "title": "Berner Synodus 편찬 및 배포의 시대 — 1533 회의와 구별",
+      "id": "T398-01"
+    },
+    {
+      "date": "1533-05-12/14",
+      "title": "베른 시노드와 부처의 목회 중재",
+      "id": "T398-02"
+    },
+    {
+      "date": "1533-05-13",
+      "title": "바젤의 별도 시노드 언급",
+      "id": "T398-03"
+    },
+    {
+      "date": "1533-05-20",
+      "title": "취리히 혼인법 의견교환 공식 제안",
+      "id": "T398-04"
+    },
+    {
+      "date": "1533-06-08",
+      "title": "할러의 도시 간 혼인법 공통화 요청",
+      "id": "T398-05"
+    },
+    {
+      "date": "1533-06-10",
+      "title": "취리히 예비회의 — 44개 조항",
+      "id": "T398-06"
+    },
+    {
+      "date": "1533-07-14",
+      "title": "베른 시의회의 법안 반발 보고",
+      "id": "T398-07"
+    },
+    {
+      "date": "1533-07-15",
+      "title": "취리히 본회의 — 불완전한 조율",
+      "id": "T398-08"
+    },
+    {
+      "date": "1533-10-18",
+      "title": "할러의 도시 간 차이 지속 보고",
+      "id": "T398-09"
+    }
+  ],
+  "legal_outcome": {
+    "june10_draft_articles": 44,
+    "source_level": "SECONDARY_SCHOLARLY_NOT_ORIGINAL_1533_MINUTES",
+    "official_minutes_target": "StA Zürich A 6.1 Nr7",
+    "original_minutes_seen": false,
+    "did_all_cities_enact_identical_rules": false,
+    "details_still_disputed": true,
+    "delegates_editorially_listed": [
+      "Kaspar Megander",
+      "Crispin Fischer",
+      "Konrad Schnitt",
+      "Wolfgang Wissenburg",
+      "Franziskus Studer"
+    ],
+    "hoped_but_not_present": [
+      "Oswald Myconius",
+      "Joachim Vadian"
+    ],
+    "original_1533_code_written_in_this_project": false,
+    "no_inference_1536_confession_direct_cause": true
+  },
+  "inherited_unresolved": {
+    "Bucer_VIII_Nr598_pages_150_165_direct": false,
+    "Rott_1978_p489_491": false,
+    "Parker_MS119_images": false,
+    "Jul1536_Bucer_Vadian_23_25_equivalence": "UNRESOLVED",
+    "BULLINGER_1532_1365_images": false
+  }
+}
