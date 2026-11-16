@@ -1,0 +1,452 @@
+{
+  "version": "V3.97",
+  "date": "2026-11-16",
+  "status": "RESEARCH_DRAFT",
+  "parent_branch": "research/atlas-v396-bullinger-tei-line-zone-and-doctrine-audit",
+  "branch": "research/atlas-v397-1533-bern-zurich-concord-correspondence",
+  "publication": {
+    "can_ship": false,
+    "main_modified": false,
+    "essay_513_modified": false,
+    "ai_studio_modified": false,
+    "existing_medium_readers_modified": false,
+    "outreach_sent": false,
+    "original_tei_reproduced": false,
+    "scan_reproduced": false
+  },
+  "provenance": {
+    "source_repository": "stazh/bullinger-korpus-tei",
+    "pinned_commit": "dc9fb5290c210023a6a9182e8e3102c1f6dff734",
+    "pinned_readme": "https://github.com/stazh/bullinger-korpus-tei",
+    "tei_license": "CC BY-NC-ND 3.0 CH",
+    "facsimile_license": "CC BY-SA 4.0",
+    "source_type": "OFFICIAL_BULLINGER_SCHOLARLY_CRITICAL_EDITION_TEI",
+    "physical_original_seen": false
+  },
+  "overview_1533": [
+    {
+      "id": "HBBW3-219",
+      "tei_id": "file10250",
+      "date": "1533-05-08",
+      "printed_date_literal": "Heinrich Bullinger / Zürich an Martin Bucer, 8. Mai 1533",
+      "printed_year_bracketed": false,
+      "source_url": "https://github.com/stazh/bullinger-korpus-tei/blob/dc9fb5290c210023a6a9182e8e3102c1f6dff734/data/letters/10250.xml",
+      "source_path": "data/letters/10250.xml",
+      "source_blob_sha": "2d9336d07262ac81e78624b9885155a486283b37",
+      "author_title": "Heinrich Bullinger / Zürich an Martin Bucer, 8. Mai 1533",
+      "shelfmark": "E II 347,43 f.",
+      "witness_type_as_edited": "Kopie",
+      "original_folio_photo_read": false,
+      "edition": "HBBW III",
+      "edition_number": 219,
+      "text_sentence_count": 15,
+      "register_graphic_count": 2,
+      "line_id_count": 43,
+      "zone_count": 43,
+      "paired_zone_line_count": 43,
+      "graphic_zones_by_surface": [
+        38,
+        5
+      ],
+      "graphics_full_urls": [
+        "https://media.sources-online.org/cantaloupe/iiif/3/bullinger!10250!Kopie!00%20E_II_347__S__43_.tif/full/max/0/default.jpg",
+        "https://media.sources-online.org/cantaloupe/iiif/3/bullinger!10250!Kopie!01%20E_II_347__S__44_.tif/full/max/0/default.jpg"
+      ],
+      "image_bytes_downloaded": 0,
+      "image_sha256": null,
+      "selected_passages": [
+        {
+          "sentence_n": 4,
+          "edition_page": "119",
+          "brief_latin_excerpt": "priori anno in iulio",
+          "edited_text_verified": true,
+          "physical_folio_verified": false
+        },
+        {
+          "sentence_n": 7,
+          "edition_page": "120",
+          "brief_latin_excerpt": "Pacem tamen cum illo habebimus",
+          "edited_text_verified": true,
+          "physical_folio_verified": false
+        },
+        {
+          "sentence_n": 8,
+          "edition_page": "120",
+          "brief_latin_excerpt": "verum dicere non possumus ipsum nobis cum sentire",
+          "edited_text_verified": true,
+          "physical_folio_verified": false
+        }
+      ],
+      "short_quote_word_count": 17
+    },
+    {
+      "id": "HBBW3-220",
+      "tei_id": "file10251",
+      "date": "1533-05-11",
+      "printed_date_literal": "Martin Bucer / Bern an Heinrich Bullinger, Leo Jud, 11. Mai [1533]",
+      "printed_year_bracketed": true,
+      "source_url": "https://github.com/stazh/bullinger-korpus-tei/blob/dc9fb5290c210023a6a9182e8e3102c1f6dff734/data/letters/10251.xml",
+      "source_path": "data/letters/10251.xml",
+      "source_blob_sha": "b16ab0e4536968bb6d82d9767f6401658c4caafd",
+      "author_title": "Martin Bucer / Bern an Heinrich Bullinger, Leo Jud, 11. Mai [1533]",
+      "shelfmark": "E II 348,456r-457v",
+      "witness_type_as_edited": "Autograph",
+      "original_folio_photo_read": false,
+      "edition": "HBBW III",
+      "edition_number": 220,
+      "text_sentence_count": 34,
+      "register_graphic_count": 4,
+      "line_id_count": 78,
+      "zone_count": 78,
+      "paired_zone_line_count": 78,
+      "graphic_zones_by_surface": [
+        23,
+        24,
+        26,
+        5
+      ],
+      "graphics_full_urls": [
+        "https://media.sources-online.org/cantaloupe/iiif/3/bullinger!10251!Autograph!00%20E_II_348__fol__456_r_.tif/full/max/0/default.jpg",
+        "https://media.sources-online.org/cantaloupe/iiif/3/bullinger!10251!Autograph!01%20E_II_348__fol__456_v_.tif/full/max/0/default.jpg",
+        "https://media.sources-online.org/cantaloupe/iiif/3/bullinger!10251!Autograph!02%20E_II_348__fol__457_r_.tif/full/max/0/default.jpg",
+        "https://media.sources-online.org/cantaloupe/iiif/3/bullinger!10251!Autograph!03%20E_II_348__fol__457_v_.tif/full/max/0/default.jpg"
+      ],
+      "image_bytes_downloaded": 0,
+      "image_sha256": null,
+      "selected_passages": [
+        {
+          "sentence_n": 3,
+          "edition_page": "121",
+          "brief_latin_excerpt": "concordem adeo et fortem spiritum",
+          "edited_text_verified": true,
+          "physical_folio_verified": false
+        },
+        {
+          "sentence_n": 13,
+          "edition_page": "122",
+          "brief_latin_excerpt": null,
+          "edited_text_verified": true,
+          "physical_folio_verified": false
+        },
+        {
+          "sentence_n": 25,
+          "edition_page": "122",
+          "brief_latin_excerpt": "Quod Leo charissimus mihi iniunxit",
+          "edited_text_verified": true,
+          "physical_folio_verified": false
+        }
+      ],
+      "short_quote_word_count": 10
+    },
+    {
+      "id": "HBBW3-221",
+      "tei_id": "file10252",
+      "date": "1533-05-11",
+      "printed_date_literal": "Berchtold Haller / [Bern] an Heinrich Bullinger, 11. Mai 1533",
+      "printed_year_bracketed": false,
+      "source_url": "https://github.com/stazh/bullinger-korpus-tei/blob/dc9fb5290c210023a6a9182e8e3102c1f6dff734/data/letters/10252.xml",
+      "source_path": "data/letters/10252.xml",
+      "source_blob_sha": "c8dbaba7c5a2e848850315488e9a8c6d9ffbacc6",
+      "author_title": "Berchtold Haller / [Bern] an Heinrich Bullinger, 11. Mai 1533",
+      "shelfmark": "E II 343,15",
+      "witness_type_as_edited": "Autograph",
+      "original_folio_photo_read": false,
+      "edition": "HBBW III",
+      "edition_number": 221,
+      "text_sentence_count": 24,
+      "register_graphic_count": 2,
+      "line_id_count": 23,
+      "zone_count": 23,
+      "paired_zone_line_count": 23,
+      "graphic_zones_by_surface": [
+        20,
+        3
+      ],
+      "graphics_full_urls": [
+        "https://media.sources-online.org/cantaloupe/iiif/3/bullinger!10252!Autograph!00%20E_II_343__fol__15_r_.tif/full/max/0/default.jpg",
+        "https://media.sources-online.org/cantaloupe/iiif/3/bullinger!10252!Autograph!01%20E_II_343__fol__15_v_.tif/full/max/0/default.jpg"
+      ],
+      "image_bytes_downloaded": 0,
+      "image_sha256": null,
+      "selected_passages": [
+        {
+          "sentence_n": 2,
+          "edition_page": "124",
+          "brief_latin_excerpt": null,
+          "edited_text_verified": true,
+          "physical_folio_verified": false
+        },
+        {
+          "sentence_n": 11,
+          "edition_page": "124",
+          "brief_latin_excerpt": "Ego nitar simultatis nostrae finem imponere",
+          "edited_text_verified": true,
+          "physical_folio_verified": false
+        },
+        {
+          "sentence_n": 13,
+          "edition_page": "124",
+          "brief_latin_excerpt": "Per Leonem autem id fieri posse Bucerus indicavit",
+          "edited_text_verified": true,
+          "physical_folio_verified": false
+        }
+      ],
+      "short_quote_word_count": 14
+    },
+    {
+      "id": "HBBW3-228",
+      "tei_id": "file10259",
+      "date": "1533-05-29",
+      "printed_date_literal": "Berchtold Haller / [Bern] an Heinrich Bullinger, 29. Mai [1533]",
+      "printed_year_bracketed": true,
+      "source_url": "https://github.com/stazh/bullinger-korpus-tei/blob/dc9fb5290c210023a6a9182e8e3102c1f6dff734/data/letters/10259.xml",
+      "source_path": "data/letters/10259.xml",
+      "source_blob_sha": "fd43a60a7bdc342802e63ba43fac7a2205357945",
+      "author_title": "Berchtold Haller / [Bern] an Heinrich Bullinger, 29. Mai [1533]",
+      "shelfmark": "E II 343,94",
+      "witness_type_as_edited": "Autograph",
+      "original_folio_photo_read": false,
+      "edition": "HBBW III",
+      "edition_number": 228,
+      "text_sentence_count": 24,
+      "register_graphic_count": 2,
+      "line_id_count": 19,
+      "zone_count": 19,
+      "paired_zone_line_count": 19,
+      "graphic_zones_by_surface": [
+        17,
+        2
+      ],
+      "graphics_full_urls": [
+        "https://media.sources-online.org/cantaloupe/iiif/3/bullinger!10259!Autograph!00%20E_II_343__fol__94_r_.tif/full/max/0/default.jpg",
+        "https://media.sources-online.org/cantaloupe/iiif/3/bullinger!10259!Autograph!01%20E_II_343__fol__94_v_.tif/full/max/0/default.jpg"
+      ],
+      "image_bytes_downloaded": 0,
+      "image_sha256": null,
+      "selected_passages": [
+        {
+          "sentence_n": 2,
+          "edition_page": "132",
+          "brief_latin_excerpt": "Cum Bucero nobis 120 congregatis convenit",
+          "edited_text_verified": true,
+          "physical_folio_verified": false
+        },
+        {
+          "sentence_n": 3,
+          "edition_page": "132",
+          "brief_latin_excerpt": "de eucharistia, psalmorum cantu",
+          "edited_text_verified": true,
+          "physical_folio_verified": false
+        },
+        {
+          "sentence_n": 4,
+          "edition_page": "132",
+          "brief_latin_excerpt": null,
+          "edited_text_verified": true,
+          "physical_folio_verified": false
+        },
+        {
+          "sentence_n": 6,
+          "edition_page": "132",
+          "brief_latin_excerpt": null,
+          "edited_text_verified": true,
+          "physical_folio_verified": false
+        },
+        {
+          "sentence_n": 7,
+          "edition_page": "132",
+          "brief_latin_excerpt": "cum Megander ad nos redierit",
+          "edited_text_verified": true,
+          "physical_folio_verified": false
+        },
+        {
+          "sentence_n": 8,
+          "edition_page": "132",
+          "brief_latin_excerpt": null,
+          "edited_text_verified": true,
+          "physical_folio_verified": false
+        },
+        {
+          "sentence_n": 9,
+          "edition_page": "132",
+          "brief_latin_excerpt": null,
+          "edited_text_verified": true,
+          "physical_folio_verified": false
+        },
+        {
+          "sentence_n": 20,
+          "edition_page": "133",
+          "brief_latin_excerpt": null,
+          "edited_text_verified": true,
+          "physical_folio_verified": false
+        }
+      ],
+      "short_quote_word_count": 15
+    }
+  ],
+  "totals": {
+    "letters": 4,
+    "sentences": 97,
+    "graphics": 10,
+    "zones": 163,
+    "line_ids": 163,
+    "paired": 163,
+    "passages": 17
+  },
+  "claims": [
+    {
+      "id": "C397-01",
+      "sources": [
+        "HBBW3-219:s7",
+        "HBBW3-219:s8"
+      ],
+      "grade": "DIRECT_EDITED_TEXT",
+      "thesis_ko": "취리히는 부처와의 친교를 인정하나 루터와의 교리적 완전 합치는 승인하지 않는다",
+      "scope": "THEOLOGICAL_DISAGREEMENT"
+    },
+    {
+      "id": "C397-02",
+      "sources": [
+        "HBBW3-220:s3"
+      ],
+      "grade": "DIRECT_EDITED_TEXT",
+      "thesis_ko": "부처는 취리히 목회자들의 협력 정신을 높이 평가한다",
+      "scope": "BUCER_OWN_ASSESSMENT"
+    },
+    {
+      "id": "C397-03",
+      "sources": [
+        "HBBW3-220:s25"
+      ],
+      "grade": "DIRECT_EDITED_TEXT",
+      "thesis_ko": "부처는 레오 유트가 부탁한 메간더·할러 문제를 성실하게 처리하겠다고 약속한다",
+      "scope": "MEDIATION_PROMISE"
+    },
+    {
+      "id": "C397-04",
+      "sources": [
+        "HBBW3-221:s2",
+        "HBBW3-221:s11",
+        "HBBW3-221:s13"
+      ],
+      "grade": "DIRECT_EDITED_TEXT",
+      "thesis_ko": "할러는 부처를 반기고 레오 유트를 통한 동료 목회자와의 화해 가능성을 서술한다",
+      "scope": "HALLER_EARLY_RECEPTION"
+    },
+    {
+      "id": "C397-05",
+      "sources": [
+        "HBBW3-228:s2"
+      ],
+      "grade": "DIRECT_EDITED_TEXT_SINGLE_REPORT",
+      "thesis_ko": "베른에서 부처와 함께 120명이 모였다는 수치는 할러 자신의 보고에만 직접 근거한다",
+      "scope": "PARTICIPATION_COUNT",
+      "reported_participants": 120,
+      "independent_count_verified": false
+    },
+    {
+      "id": "C397-06",
+      "sources": [
+        "HBBW3-228:s3"
+      ],
+      "grade": "DIRECT_EDITED_TEXT",
+      "thesis_ko": "모임의 논의 주제에 율법, 성찬, 시편 찬송 등이 포함되었다",
+      "scope": "BERN_DISCUSSION_TOPICS"
+    },
+    {
+      "id": "C397-07",
+      "sources": [
+        "HBBW3-228:s4"
+      ],
+      "grade": "FIRST_PERSON_PERSPECTIVE_NOT_GENERAL_THEOLOGICAL_FINALITY",
+      "thesis_ko": "할러는 취리히 목회자들과 부처 측의 발언에서 다른 점을 듣지 못했다고 평가한다",
+      "scope": "HALLER_REPORTED_LOCAL_AGREEMENT",
+      "all_Lutheran_Zurich_eucharistic_divergence_resolved": false
+    },
+    {
+      "id": "C397-08",
+      "sources": [
+        "HBBW3-228:s6",
+        "HBBW3-228:s7",
+        "HBBW3-228:s8"
+      ],
+      "grade": "DIRECT_EDITED_TEXT",
+      "thesis_ko": "부처의 중재 아래 할러와 메간더 사이의 갈등이 대화로 완화되었다는 당사자 기록이 있다",
+      "scope": "BERN_CLERICAL_MEDIATION"
+    },
+    {
+      "id": "C397-09",
+      "sources": [
+        "HBBW3-228:s9"
+      ],
+      "grade": "DIRECT_EDITED_TEXT",
+      "thesis_ko": "할러는 입으로만 아니라 마음까지 하나가 되기를 기원하며 지속 여부에 희망을 표한다",
+      "scope": "CONTINUED_TENSION_NOT_GUARANTEED"
+    },
+    {
+      "id": "C397-10",
+      "sources": [
+        "HBBW3-228:s20"
+      ],
+      "grade": "DIRECT_EDITED_TEXT_HEARSAY_OF_BUCER",
+      "thesis_ko": "할러는 부처가 취리히의 불링거를 높이 평가했다고 전한다",
+      "scope": "BUCER_CHARACTER_ASSESSMENT_VIA_HALLER"
+    },
+    {
+      "id": "C397-11",
+      "sources": [
+        "HBBW3-219:s4"
+      ],
+      "grade": "AUTHOR_RETROSPECTIVE",
+      "thesis_ko": "1533 공동 서신의 전년도 7월 회고와 현대 편집자의 1532년 6월 23일 서신 식별은 별개 층위다",
+      "scope": "CRITICAL_EDITION_DATE"
+    },
+    {
+      "id": "C397-12",
+      "sources": [
+        "HBBW3-219:s8",
+        "HBBW3-228:s4"
+      ],
+      "grade": "COMPARATIVE_HISTORICAL_INFERENCE",
+      "thesis_ko": "취리히의 미완의 성찬론 논쟁과 베른에서 보고된 실무적 화해는 서로 다른 수준의 일치다",
+      "scope": "DO_NOT_MERGE_THEOLOGY_AND_MEDIATION"
+    }
+  ],
+  "historical_interpretation": {
+    "primary_finding": "May 8 Zurich joint response preserves doctrinal disagreement with Luther; May 11 Bucer reports hopeful concord and mediation plans from Bern; May 11 Haller reports prospective settlement; May 29 Haller attests to meeting of 120 and pastoral reconciliation with Megander.",
+    "continuity_limit": "The May 29 local reported agreement is not evidence that Zurich's May 8 refusal to assert Eucharistic doctrinal identity with Luther was rescinded; Haller reports his perspective.",
+    "date_qualification": "1533 year is bracketed in editorial titles for Bucer 11 May and Haller 29 May although TEI when attribute resolves both to 1533.",
+    "independent_participant_count": false,
+    "actual_autograph_photographs_read": false
+  },
+  "image_access": {
+    "source_tei_iiif_urls_resolved_as_strings": true,
+    "attempt_source": "https://media.sources-online.org/cantaloupe/iiif/3/bullinger!10250!Kopie!00%20E_II_347__S__43_.tif/full/max/0/default.jpg",
+    "web_open_result": "INACCESSIBLE",
+    "container_download": "REJECTED_URL_NOT_VIEWED",
+    "container_requests": "NAME_RESOLUTION_FAILURE",
+    "actual_image_bytes": 0,
+    "handwritten_date_rows_checked": false,
+    "all_urls_verified_http": false,
+    "new_source_iiif_registered_count": 8
+  },
+  "related_existing_context": {
+    "jul12_1532": "HBBW II Nr110, E II 338, 1362r–1364r; edited Latin read in V3.96; 8 image URLs not checked",
+    "may08_1533": "HBBW III Nr219, 2 images + 43/43 line-to-zone mapping",
+    "remain_blocked": [
+      "Rott 1978 489/491 original page inspection",
+      "Parker MS119 original handwritten dates",
+      "1536 Jul23/25 letter identity",
+      "Bcor VIII Nr598 actual page 150–165",
+      "Zürich E II 345 re-catalogue discrepancy"
+    ],
+    "no_secondary_inference_as_folio": true
+  },
+  "next": [
+    "Develop three precise reader-draft inserts and a two-city interactive timeline as separate data, not modify existing readers",
+    "Review HBBW III Nr220/221/228 and count only Haller's reporting rather than treat 120 as independent",
+    "Check image contact/access paths for E II 348 and E II 343 while retaining no-photograph status",
+    "Keep 1532-1533 Bern clerical mediation distinct from Lutheran-Zurich Eucharistic doctrinal unity",
+    "Follow rights terms for modern edited transcription and manuscripts"
+  ]
+}
