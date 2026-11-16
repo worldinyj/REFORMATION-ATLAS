@@ -1,0 +1,314 @@
+{
+  "version": "V3.92",
+  "as_of": "2026-11-16",
+  "status": "RESEARCH_DRAFT",
+  "repository": "worldinyj/REFORMATION-ATLAS",
+  "parent_branch": "research/atlas-v391-rott-legacy-chronology-title-variant-gates",
+  "branch": "research/atlas-v392-karlstadt-bucer-primary-edition-bridge",
+  "public_release": {
+    "can_ship": false,
+    "main_modified": false,
+    "essays_513_modified": false,
+    "ai_studio_modified": false,
+    "outreach_sent": false,
+    "reader_narrative_published": false
+  },
+  "research_objectives": [
+    "Find Rott 1978 individual PDF and inspect printed pp.489,491",
+    "If blocked, triangulate critically edited 1531-1533 correspondence independently, keeping 1536 witness claims separate"
+  ],
+  "rott_1978": {
+    "title": "Martin Bucer und die Schweiz: drei unbekannte Briefe von Zwingli, Bucer und Vadian (1530, 1531, 1536)",
+    "journal": "Zwingliana",
+    "issue": "14/9",
+    "year": 1978,
+    "print_pages": "461-492",
+    "target_pages": [
+      489,
+      491
+    ],
+    "historic_link": "https://www.zwingliana.ch/index.php/zwa/article/view/910/820",
+    "current_article_link": null,
+    "current_pdf_link": null,
+    "pdf_sha256": null,
+    "pdf_original_verified": false,
+    "printed_489_checked": false,
+    "printed_491_checked": false,
+    "legacy_link_provenance_earliest_observed": "2025-08-27"
+  },
+  "source_registry": [
+    {
+      "id": "S392-KGK339-TEXT",
+      "grade": "DIRECTLY_READ_CRITICAL_EDITION_TRANSCRIPTION_NOT_FACSIMILE",
+      "work": "Karlstadt kritische Gesamtausgabe KGK 339, 8 May 1533 Zürich pastors to Martin Bucer",
+      "url": "https://dev2.hab.de/apps/edoc/view.html?id=kgk_339_transcript",
+      "editor": "Stefania Salvadori",
+      "read_method": "WEB_HTML_TEXT",
+      "manuscript_image_seen": false,
+      "why": "Entire edited letter transcription and textual variants visible"
+    },
+    {
+      "id": "S392-KGK339-INTRO",
+      "grade": "SCHOLARLY_CRITICAL_EDITION_INTRODUCTION",
+      "work": "KGK 339 Introduction",
+      "url": "https://dev2.hab.de/apps/edoc/view.html?id=kgk_339_introduction",
+      "editor": "Stefania Salvadori",
+      "read_method": "WEB_HTML_TEXT",
+      "manuscript_image_seen": false,
+      "why": "Lists archive witnesses and identifies 1532 tensions and May 1533 meeting"
+    },
+    {
+      "id": "S392-KGK337-INTRO",
+      "grade": "SCHOLARLY_CRITICAL_EDITION_INTRODUCTION_LOST_DOCUMENT",
+      "work": "KGK 337, Lost letter from Wolfgang Capito to Andreas Karlstadt",
+      "url": "https://dev2.hab.de/apps/edoc/view.html?id=kgk_337_introduction",
+      "editor": "Stefania Salvadori",
+      "read_method": "WEB_HTML_TEXT",
+      "manuscript_image_seen": false,
+      "why": "Documents 1532 June 23, 24, July 12 letter chronology; lost Capito-Karlstadt letter inferred via extant Capito-Bullinger excerpt"
+    },
+    {
+      "id": "S392-HBBW2-INDEX",
+      "grade": "CRITICAL_EDITION_SEARCH_INDEX_EXCERPT_NOT_DIRECT_LIVE_OPEN",
+      "work": "Heinrich Bullinger Briefwechsel vol. 2",
+      "url": "https://briefe.arpa-docs.ch/DB/Briefe/Html/Br002.html",
+      "read_method": "WEB_SEARCH_EXCERPT_OPEN_502",
+      "manuscript_image_seen": false,
+      "why": "Index presents 1531-1532 epistolary references; no direct live page fetch in this turn"
+    },
+    {
+      "id": "S392-ZWINGLIANA-ARCHIVE",
+      "grade": "OFFICIAL_JOURNAL_ARCHIVE",
+      "work": "Zwingliana 14/9 (1978) issue listing",
+      "url": "https://zwingliana.ch/issue/archive",
+      "read_method": "WEB_HTML_ISSUE_LIST",
+      "manuscript_image_seen": false,
+      "why": "Issue exists, article PDF not exposed"
+    },
+    {
+      "id": "S392-ROTT-BIB",
+      "grade": "SCHOLARLY_BIBLIOGRAPHY_NO_ORIGINAL_PDF",
+      "work": "Brill critical bibliography",
+      "url": "https://brill.com/edcollchap/book/9789047414209/front-8.pdf",
+      "read_method": "WEB_SEARCH_PDF_TEXT",
+      "manuscript_image_seen": false,
+      "why": "Rott first 1978 461-492 and reprint 1986 203-234, not the edited text"
+    },
+    {
+      "id": "S392-EDITOR",
+      "grade": "OFFICIAL_JOURNAL_CONTACT",
+      "work": "Zwingliana official contact page",
+      "url": "https://zwingliana.ch/about/contact",
+      "read_method": "WEB_HTML",
+      "manuscript_image_seen": false,
+      "why": "Editorial contact for missing 1978 PDF; no outreach"
+    }
+  ],
+  "event_crosswalk": [
+    {
+      "id": "T392-1531-10-24",
+      "date": "1531-10-24",
+      "sender": "Martin Bucer",
+      "recipient": "Philipp Melanchthon",
+      "place": "NOT_ASSERTED",
+      "source": "S392-HBBW2-INDEX",
+      "source_grade": "CITATION_ONLY",
+      "topic": "Bucer's interpretation after Second Kappel War; reference to Rott pp.468,482 in HBBW note",
+      "can_quote_event_primary": false,
+      "linked_to_rott_489_491": false
+    },
+    {
+      "id": "T392-1532-06-17",
+      "date": "1532-06-17",
+      "sender": "Zürich pastors",
+      "recipient": "Albrecht of Prussia dedication",
+      "place": "Zürich",
+      "source": "S392-KGK337-INTRO",
+      "source_grade": "CRITICAL_EDITOR_SUMMARY",
+      "topic": "Ratramnus treatise German translation dedication signed",
+      "can_quote_event_primary": false
+    },
+    {
+      "id": "T392-1532-06-23",
+      "date": "1532-06-23",
+      "sender": "Martin Bucer",
+      "recipient": "Leo Jud",
+      "place": "NOT_ASSERTED",
+      "source": "S392-KGK337-INTRO",
+      "source_grade": "CRITICAL_EDITOR_SUMMARY",
+      "topic": "Conciliation and sacramental disagreement; editorially identified as retrospectively misdated July in the 1533 letter",
+      "can_quote_event_primary": false
+    },
+    {
+      "id": "T392-1532-06-24",
+      "date": "1532-06-24",
+      "sender": "Wolfgang Capito",
+      "recipient": "Heinrich Bullinger",
+      "place": "Straßburg to Zürich",
+      "source": "S392-KGK337-INTRO",
+      "source_grade": "CRITICAL_EDITOR_QUOTED_SURVIVING_LETTER",
+      "topic": "Capito seeks moderation; mentions separate material for Karlstadt",
+      "can_quote_event_primary": false
+    },
+    {
+      "id": "T392-LOST-1532-06-24",
+      "date": "1532-06-24 [editorial approximation]",
+      "sender": "Wolfgang Capito",
+      "recipient": "Andreas Karlstadt",
+      "place": "Straßburg [?]",
+      "source": "S392-KGK337-INTRO",
+      "source_grade": "LOST_LETTER_RECONSTRUCTED_FROM_OTHER_WITNESS",
+      "topic": "Lost Capito-Karlstadt letter referenced by surviving correspondence, content not directly inspectable",
+      "can_quote_event_primary": false,
+      "lost": true
+    },
+    {
+      "id": "T392-1532-07-12",
+      "date": "1532-07-12",
+      "sender": "Heinrich Bullinger",
+      "recipient": "Martin Bucer",
+      "place": "Zürich",
+      "source": "S392-KGK337-INTRO",
+      "source_grade": "CRITICAL_EDITOR_SUMMARY",
+      "topic": "Replies to 23 June Bucer-Jud letter; disputes alleged substantive Lutheran-Zurich agreement",
+      "can_quote_event_primary": false
+    },
+    {
+      "id": "T392-1533-05-08",
+      "date": "1533-05-08",
+      "sender": "Heinrich Bullinger, Leo Jud, Andreas Karlstadt and other Zürich pastors",
+      "recipient": "Martin Bucer",
+      "place": "Zürich",
+      "source": "S392-KGK339-TEXT",
+      "source_grade": "DIRECT_EDITED_TRANSCRIPTION",
+      "topic": "Joint letter after Bucer's visit: praises his work for concord but rejects claim that Luther's Eucharistic view already agrees; seeks peace without doctrinal surrender",
+      "can_quote_event_primary": true,
+      "lost": false
+    },
+    {
+      "id": "T392-1536-08-04",
+      "date": "1536-08-04 [modern catalog working date]",
+      "sender": "Joachim Vadian",
+      "recipient": "Martin Bucer",
+      "place": "NOT_ASSERTED",
+      "source": "V3.86-V3.91-SECONDARY-ONLY",
+      "source_grade": "SECONDARY_REFERENCE_ONLY_NOT_RECHECKED_HERE",
+      "topic": "Rott pp489,491 referenced by Rüsch; Rott and Parker primary witnesses unseen",
+      "can_quote_event_primary": false
+    }
+  ],
+  "page_claims": [
+    {
+      "claim_id": "C392-01",
+      "text": "KGK 339 directly publishes a critical-edition transcription dated 8 May 1533 from Zurich theologians to Bucer",
+      "source": "S392-KGK339-TEXT",
+      "grade": "DIRECT_EDITED_TEXT",
+      "public_status": "ATTRIBUTED_EDITORIAL_REVIEW"
+    },
+    {
+      "claim_id": "C392-02",
+      "text": "In the 1533 letter writers remember a prior-year July letter to Leo Jud; KGK note instead prefers Bucer's 23 June 1532 letter",
+      "source": "S392-KGK339-TEXT",
+      "supporting_source": "S392-KGK339-INTRO",
+      "grade": "TEXT_WITH_EDITORIAL_DISCREPANCY",
+      "public_status": "ATTRIBUTED_EDITORIAL_REVIEW"
+    },
+    {
+      "claim_id": "C392-03",
+      "text": "Capito to Karlstadt [June 1532] is explicitly classified lost by the editor; indirect traces should not be called direct transcription",
+      "source": "S392-KGK337-INTRO",
+      "grade": "CRITICAL_EDITOR_RECONSTRUCTION",
+      "public_status": "ATTRIBUTED_EDITORIAL_REVIEW"
+    },
+    {
+      "claim_id": "C392-04",
+      "text": "Rott 1978 printed pp489 and 491 have been visually checked",
+      "source": "S392-ZWINGLIANA-ARCHIVE",
+      "grade": "UNVERIFIED",
+      "public_status": "BLOCKED"
+    },
+    {
+      "claim_id": "C392-05",
+      "text": "Parker MS119 original handwritten date of Vadian 1536 letter is established by direct image",
+      "source": "V3.84-CATALOG-ONLY",
+      "grade": "UNVERIFIED",
+      "public_status": "BLOCKED"
+    }
+  ],
+  "date_discrepancies": [
+    {
+      "id": "D392-1532-JUNE-JULY",
+      "scope": "1532 Bucer -> Leo Jud letter",
+      "textual_retrospective": "1533-05-08 KGK339 letter says prior year in July",
+      "editorial_identification": "1532-06-23 Bucer to Leo Jud",
+      "certainty": "EDITORIAL_IDENTIFICATION_NOT_AN_IDENTICAL_LITERAL_DATE",
+      "manuscript_folio_seen": false
+    },
+    {
+      "id": "D392-1536-JULY",
+      "scope": "1536 Bucer -> Vadian correspondence",
+      "candidate_dates": [
+        "1536-07-23",
+        "1536-07-25"
+      ],
+      "same_letter": "UNRESOLVED",
+      "certainty": "HARD_BLOCK",
+      "manuscript_folio_seen": false
+    },
+    {
+      "id": "D392-1536-AUG",
+      "scope": "1536 Vadian -> Bucer MS119",
+      "old_james_1912_catalog_date": "1566-08-04",
+      "modern_catalog_working_date": "1536-08-04",
+      "original_manuscript_date_line_seen": false
+    }
+  ],
+  "archive_witnesses_for_kgk339": [
+    {
+      "repository": "Staatsarchiv Zürich",
+      "shelfmark": "E II 347, 43f.",
+      "editor_description": "Bullinger autograph; copy for Oswald Myconius",
+      "physical_image_seen": false
+    },
+    {
+      "repository": "Staatsarchiv Zürich",
+      "shelfmark": "E II 337, fol. 50r-v",
+      "editor_description": "Copy by unknown hand; later addition in Bullinger hand",
+      "physical_image_seen": false
+    },
+    {
+      "repository": "Zentralbibliothek Zürich",
+      "shelfmark": "S 33, 104",
+      "editor_description": "Simler collection copy",
+      "physical_image_seen": false
+    },
+    {
+      "repository": "BNU Strasbourg",
+      "shelfmark": "TB VI, fol. 58r-v",
+      "editor_description": "Copy",
+      "physical_image_seen": false
+    }
+  ],
+  "technical_access": {
+    "attempted_pdf_source": "https://zwingliana.ch/issue/archive",
+    "issue_14_9_verified": true,
+    "article_permalink_visible_to_tool": false,
+    "current_url_guesses_accepted": false,
+    "original_rott_pdf_file_acquired": false,
+    "container_dns_network_probe": "NAME_RESOLUTION_FAILURE",
+    "repo_file_binary_persisted": false,
+    "publisher_contact_verified": true,
+    "publisher_contact_message_sent": false
+  },
+  "reviewer_ready_narrative": {
+    "status": "REVIEW_ONLY_NOT_PUBLISHED",
+    "korean": "1532년 취리히와 스트라스부르 사이에는 단순한 감정적 대립 이상의 문제가 있었다. 부처는 성찬에 관한 신학적 차이를 교회 일치를 위한 표현의 차이로 좁혀 이해하려 했으나, 불링거와 취리히 동료들은 이 차이를 교리적으로 중요하게 여겼다. 6월 23일 부처의 중재 서신과 7월 12일 불링거의 반박 사이에는 카피토의 또 다른 화해 시도가 놓여 있었다. 1533년 5월 부처가 취리히를 방문한 뒤 공동 서신이 작성되었지만, 그 서신의 화해 의지는 교리적 일치의 확정을 뜻하지 않았다. 이 1533년 서신에는 이전 서신을 ‘작년 7월’로 회상한 표현이 남아 있으나, 편집자는 이를 1532년 6월 23일 서신으로 보는 것이 타당하다고 설명한다. 이러한 교감상의 주의를 1536년 바디안 서신 연구에 적용할 수는 있으나, 양자가 같은 사건이라는 의미는 아니다."
+  },
+  "pending": [
+    "Obtain actual Rott 1978 PDF, inspect printed 489 and 491 and record file sha256",
+    "Obtain Parker MS119 pages 199-200,205-206 manuscript images independently",
+    "Do not infer Bucer Vadian July 23/25 letter identity from earlier 1532 mismatch",
+    "After independent editorial review consider adding 1532-1533 overview to web app without claiming direct Rott 1978 transcription"
+  ],
+  "corrected_zurich_catalog_id": "CH-002121-2-991170608445805501"
+}
