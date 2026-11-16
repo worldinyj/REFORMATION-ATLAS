@@ -1,0 +1,213 @@
+{
+  "version": "V3.94",
+  "date": "2026-11-16",
+  "status": "RESEARCH_DRAFT",
+  "parent_branch": "research/atlas-v393-bucer-jud-may-june-critical-variants",
+  "branch": "research/atlas-v394-bucer-598-archive-digitization-collation",
+  "release": {
+    "can_ship": false,
+    "main_changed": false,
+    "essays_513_changed": false,
+    "ai_studio_changed": false,
+    "correspondence_sent": false,
+    "external_order_placed": false
+  },
+  "subject": "Martin Bucer to Leo Jud 1532-06-23 (Bcor VIII Nr598) in relation to Bullinger HBBW II Nr110 and Zurich archive E II 345",
+  "primary_book": {
+    "title": "Martin Bucer, Briefwechsel/Correspondance VIII (April–August 1532)",
+    "publish_year": 2011,
+    "publisher": "Brill",
+    "isbn": "9789004203648",
+    "target_letter": "Nr.598",
+    "target_date": "1532-06-23",
+    "target_printed_pages": "150–165",
+    "printed_150_image_seen": false,
+    "printed_165_image_seen": false,
+    "book_p598_fulltext_read": false,
+    "book_pdf_hash": null
+  },
+  "sources": [
+    {
+      "id": "S394-KGK337",
+      "kind": "DIRECT_EDITED_WEB_INTRO",
+      "url": "https://dev2.hab.de/apps/edoc/view.html?id=kgk_337_introduction",
+      "claim": "Bucer -> Leo Jud, 23 June 1532, Briefwechsel VIII Nr.598 pp.154–165 in note 12; HBBW II Nr110 as Bullinger's 12 July response",
+      "read": "HTML_DIRECT",
+      "facsimile": false
+    },
+    {
+      "id": "S394-KGK339",
+      "kind": "DIRECT_EDITED_WEB_INTRO",
+      "url": "https://dev2.hab.de/apps/edoc/view.html?id=kgk_339_introduction",
+      "claim": "KGK339 intro note 18 calls recalled letter 23 May 1532; letter is dated 8 May 1533 and catalogues witnesses E II 347 fol43 and others",
+      "read": "HTML_DIRECT",
+      "facsimile": false
+    },
+    {
+      "id": "S394-HBBW-II",
+      "kind": "PUBLISHED_CRITICAL_EDITION_INDEXED_EXCERPT",
+      "url": "https://briefe.arpa-docs.ch/DB/Briefe/Html/Br002.html",
+      "claim": "HBBW II Nr110 note points to Bucer -> Jud 23 June 1532 StA Zürich E II 345,126–141 Bullinger copy and Jud reply E II 345,122–125",
+      "read": "SEARCH_INDEX_EXCERPT_DIRECT_OPEN_TIMEOUT",
+      "facsimile": false
+    },
+    {
+      "id": "S394-HBBW-III",
+      "kind": "PUBLISHED_CRITICAL_EDITION_INDEXED_TEXT",
+      "url": "https://briefe.arpa-docs.ch/DB/Briefe/Html/Br003.html",
+      "claim": "HBBW III Nr219 critical text and footnote identify 8 May 1533 Zurich reply and reference Bucer 23 June 1532",
+      "read": "INDEXED_FULL_EXCERPT_DIRECT_OPEN_TIMEOUT",
+      "facsimile": false
+    },
+    {
+      "id": "S394-HBBW-UZH",
+      "kind": "OFFICIAL_EDITION_INDEX",
+      "url": "https://www.irg.uzh.ch/de/publikationen/bullinger/edition-briefwechsel/briefverzeichnis.html",
+      "claim": "HBBW II Nr110 Bullinger -> Bucer dated 12 July 1532; Nr111 Bucer -> Bullinger same date are separate items",
+      "read": "SEARCH_INDEX_TEXT",
+      "facsimile": false
+    },
+    {
+      "id": "S394-REVIEW-2011",
+      "kind": "PUBLISHED_REVIEW_READ_HTML",
+      "url": "https://www.persee.fr/doc/rhpr_0035-2403_2011_num_91_4_1595_t12_0623_0000_2",
+      "claim": "2011 review of Bcor VIII specifically refers to Nr.598 and Nr.626 in Bucer's defence concerning Zurich reformers",
+      "read": "HTML_DIRECT",
+      "facsimile": false
+    },
+    {
+      "id": "S394-OFFICIAL-ARCHIVE",
+      "kind": "OFFICIAL_ARCHIVAL_COLLECTION_CATALOG_SEARCH_RESULT",
+      "url": "https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=324873",
+      "claim": "E II 345 collection titled Tomus primus de re sacramentaria, overall 1539–1590; 1972 split, 2021 reassembled/digitized; individual letter digitizations still in progress; Bullinger correspondence images partially on Bullinger Digital",
+      "read": "SEARCH_INDEX_EXCERPT_DIRECT_OPEN_TIMEOUT",
+      "facsimile": false
+    },
+    {
+      "id": "S394-ARCHIVE-CHILD",
+      "kind": "OFFICIAL_ARCHIVAL_SUBDOSSIER_CATALOG_SEARCH_RESULT",
+      "url": "https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=5176576",
+      "claim": "E II 345 Teil1 catalog date 1539–1590, register 0–90; not direct proof 1532 copy absent",
+      "read": "SEARCH_INDEX_EXCERPT_DIRECT_OPEN_TIMEOUT",
+      "facsimile": false
+    },
+    {
+      "id": "S394-BULLINGER-DIGITAL",
+      "kind": "INSTITUTIONAL_DIGITAL_PORTAL",
+      "url": "https://www.bullinger-digital.ch/",
+      "claim": "Portal of scanned correspondence and research data; exact 1532-06-23 target image not identified",
+      "read": "LANDING_PAGE_DIRECT_HTML",
+      "facsimile": false
+    }
+  ],
+  "cross_check": [
+    {
+      "id": "C394-DATE",
+      "subject": "1532 Bucer -> Leo Jud",
+      "preferred_date": "1532-06-23",
+      "support": [
+        "S394-KGK337",
+        "S394-HBBW-II",
+        "S394-HBBW-III"
+      ],
+      "conflict": "KGK339 intro note18 uses 23 May 1532",
+      "confidence": "MULTIPLE_EDITION_REFERENCES_NOT_ORIGINAL_MANUSCRIPT"
+    },
+    {
+      "id": "C394-NUMBER",
+      "subject": "Bcor VIII letter numbering",
+      "preferred_number": "598",
+      "support": [
+        "S394-KGK337",
+        "S394-REVIEW-2011"
+      ],
+      "conflict": "KGK339 transcript note3 cites Nr150 alongside printed pp150–165 per V3.93",
+      "cause": "UNVERIFIED_EDITORIAL_VARIANT",
+      "confidence": "STRONG_INDIRECT"
+    },
+    {
+      "id": "C394-REPLY",
+      "subject": "HBBW II reply chain",
+      "preferred_bullinger_reply": "1532-07-12 Nr110",
+      "separate_same_day_letter": "1532-07-12 Nr111 Bucer -> Bullinger",
+      "support": [
+        "S394-KGK337",
+        "S394-HBBW-UZH"
+      ],
+      "confidence": "EDITION_INDEX"
+    },
+    {
+      "id": "C394-ARCHIVE",
+      "subject": "Zürich StA E II 345",
+      "critical_edition_locator": "E II 345 126–141 Bucer -> Jud Bullinger copy",
+      "secondary_locator": "E II 345 122–125 Jud reply to Bucer",
+      "current_catalog_collection_range": "1539–1590",
+      "archive_2021_digitization": true,
+      "local_1532_folio_images_seen": false,
+      "explanation": "UNRESOLVED_DIFFERENT_DESCRIPTION_LEVEL_OR_RENUMBERING",
+      "support": [
+        "S394-HBBW-II",
+        "S394-OFFICIAL-ARCHIVE"
+      ],
+      "confidence": "ARCHIVE_CATALOG_DISCREPANCY_UNRESOLVED"
+    },
+    {
+      "id": "C394-1533",
+      "subject": "1533 Zurich joint reply",
+      "date": "1533-05-08",
+      "edition": "HBBW III Nr219; Bcor IX Nr682; KGK339",
+      "support": [
+        "S394-HBBW-III",
+        "S394-KGK339"
+      ],
+      "confidence": "EDITION_CROSSCHECK"
+    }
+  ],
+  "edition_disambiguation": {
+    "hbbw_vol2_110": "Bullinger -> Martin Bucer, 12 July 1532",
+    "hbbw_vol2_111": "Martin Bucer -> Bullinger, 12 July 1532",
+    "hbbw_vol3_219": "Bullinger and Zurich preachers -> Martin Bucer, 8 May 1533",
+    "bcor_vol8_598": "Martin Bucer -> Leo Jud, 23 June 1532",
+    "bcor_vol8_626": "Bucer response, late August 1532 per KGK337",
+    "bcor_vol9_682": "Zurich theologians -> Bucer, 8 May 1533",
+    "rott_bullinger_und_strassburg": "A separate bibliographic shorthand used in HBBW II notes, not an alias for Rott's 1978 Zwingliana article",
+    "rott_1978_zwingliana": "Martin Bucer und die Schweiz; 461–492, p489/p491 still unseen"
+  },
+  "digitization": {
+    "portal": "https://www.bullinger-digital.ch/",
+    "archive_2021_catalog_claim": true,
+    "specific_eii345_126_141_url": null,
+    "specific_eii345_122_125_url": null,
+    "target_image_downloaded": false,
+    "target_image_visually_verified": false,
+    "target_image_sha256": null,
+    "hypothetical_mismatched_image_do_not_use": true,
+    "note": "An image result of a different Bullinger Digital E II 365 folio must not be labeled E II 345"
+  },
+  "reader_extension": {
+    "target_ids": [
+      "MEDIUM-MARBURG",
+      "MEDIUM-ZWINGLI",
+      "MEDIUM-AUGSBURG"
+    ],
+    "provenance_status": "REVIEW_ONLY_NOT_IMPORTED",
+    "text": "1532년 6월 부처가 레오 유트에게 보낸 긴 편지는 로마가톨릭과의 제국적 갈등 속에서 개혁 진영 내부의 성찬 논쟁을 어떻게 다룰지를 보여 준다. 그는 갈등을 완화하고 신앙고백의 공통점을 강조했지만, 불링거와 취리히 신학자들은 이것이 루터파의 성찬론까지 승인한다는 뜻으로 받아들여지는 것을 경계했다. 7월 12일 불링거의 답신과 1533년 5월 취리히 공동 서신은 화해의 언어가 교리적 일치의 확정과 같지 않았음을 증언한다. 여러 학술판은 핵심 부처 서신을 1532년 6월 23일, 비판편집판 제8권 598호에 연결한다. 반면 일부 주석의 5월 23일 또는 다른 번호 표기는 교감상의 불일치로 남아 있다. 독자용 설명에서는 이러한 서지 차이를 본문에서 길게 설명하기보다 근거 카드에서 투명하게 확인할 수 있게 한다.",
+    "published": false
+  },
+  "hard_gates": {
+    "bcor_viii598_150_165_images_seen": false,
+    "eii345_126_141_images_seen": false,
+    "eii345_122_125_images_seen": false,
+    "rott_1978_489_491_seen": false,
+    "parker_ms119_images_seen": false,
+    "bucer_vadian_1536_07_23_equals_25": "UNRESOLVED",
+    "preferred_1532_06_23_not_primary_date_line": true,
+    "corrected_zurich_catalog_id": "CH-002121-2-991170608445805501"
+  },
+  "next": [
+    "Locate Brill Bcor VIII Nr598 legitimate preview or institutional access and capture printed p150 (Nr heading) and p165 with page-number verification, no unlicensed repost",
+    "Search Bullinger Digital by correspondence date/sender plus E II 345 folios; open exact record before any image claim",
+    "Ask Zürich archive to reconcile E II 345 archival collection range 1539–1590 against HBBW II's 1532 manuscript locator if digital item metadata remains missing (no message sent)",
+    "Keep 1536 Bucer-Vadian, Rott and Parker acquisition as separate unresolved workstream"
+  ]
+}
