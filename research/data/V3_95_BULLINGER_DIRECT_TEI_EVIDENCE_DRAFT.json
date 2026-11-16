@@ -1,0 +1,153 @@
+{
+  "version": "V3.95",
+  "date": "2026-11-16",
+  "status": "RESEARCH_DRAFT",
+  "parent": "V3.94",
+  "release": {
+    "can_ship": false,
+    "main_modified": false,
+    "essays_513_modified": false,
+    "ai_studio_modified": false,
+    "source_tei_republished": false,
+    "images_republished": false,
+    "email_sent": false
+  },
+  "origin": {
+    "repository": "stazh/bullinger-korpus-tei",
+    "commit": "dc9fb5290c210023a6a9182e8e3102c1f6dff734",
+    "former_repository": "bullinger-digital/bullinger-korpus-tei",
+    "maintainer": "Staatsarchiv Zürich, May 2025 onward",
+    "text_license": "CC BY-NC-ND 3.0 CH",
+    "image_license": "CC BY-SA 4.0"
+  },
+  "items": [
+    {
+      "id": "file10125",
+      "hbbw": "II Nr96",
+      "date": "1532-05 (second half, estimate)",
+      "direction": "Bullinger [attributed] to Bucer",
+      "archive": "Zürich ZB Ms S 31,4",
+      "path": "data/letters/10125.xml",
+      "blob": "b3042a6ecab89b9b43f5097016221be70c89356e",
+      "edited_text_read": true,
+      "photo_read": false,
+      "graphic_count": 0
+    },
+    {
+      "id": "file10140",
+      "hbbw": "II Nr110",
+      "date": "1532-07-12",
+      "direction": "Bullinger to Bucer",
+      "archive": "Zürich StA E II 338,1362r-1364r",
+      "path": "data/letters/10140.xml",
+      "blob": "3c51c77d8a588fd8fffa57d8df6365b65d6c3763",
+      "edited_text_read": true,
+      "photo_read": false,
+      "graphic_count": 8,
+      "image_range": "E II 338 fol1362r-1365v",
+      "first_iiif": "https://media.sources-online.org/cantaloupe/iiif/3/bullinger!10140!Kopie!00%20E_II_338__fol__1362_r_.tif/full/max/0/default.jpg",
+      "last_iiif": "https://media.sources-online.org/cantaloupe/iiif/3/bullinger!10140!Kopie!07%20E_II_338__fol__1365_v_.tif/full/max/0/default.jpg",
+      "text_scan_markers": [
+        "1362v",
+        "1363r",
+        "1363v",
+        "1364r"
+      ]
+    },
+    {
+      "id": "file10250",
+      "hbbw": "III Nr219",
+      "date": "1533-05-08",
+      "direction": "Bullinger and Zürich pastors to Bucer",
+      "archive": "Zürich StA E II 347,43-44",
+      "path": "data/letters/10250.xml",
+      "blob": "2d9336d07262ac81e78624b9885155a486283b37",
+      "edited_text_read": true,
+      "photo_read": false,
+      "graphic_count": 2,
+      "first_iiif": "https://media.sources-online.org/cantaloupe/iiif/3/bullinger!10250!Kopie!00%20E_II_347__S__43_.tif/full/max/0/default.jpg",
+      "last_iiif": "https://media.sources-online.org/cantaloupe/iiif/3/bullinger!10250!Kopie!01%20E_II_347__S__44_.tif/full/max/0/default.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C395-1",
+      "file": "file10140",
+      "source_tier": "DIRECT_SCHOLARLY_TEI_TEXT",
+      "conclusion": "Bullinger criticizes Bucer's proposals for sacramental concord while preserving theological argument"
+    },
+    {
+      "id": "C395-2",
+      "file": "file10140",
+      "source_tier": "DIRECT_SCHOLARLY_TEI_FOOTNOTE",
+      "conclusion": "Bucer to Leo Jud June 23 1532 is cited as separate letter in E II 345,126-141; not a direct image or edition transcript of the Bucer letter"
+    },
+    {
+      "id": "C395-3",
+      "file": "file10250",
+      "source_tier": "DIRECT_LATIN_TEI_TEXT",
+      "exact_excerpt": "priori anno in iulio",
+      "conclusion": "1533 author remembers previous July but editor identifies Bucer June 23 1532; literal and identified dates stay distinct"
+    },
+    {
+      "id": "C395-4",
+      "file": "file10250",
+      "source_tier": "DIRECT_SCHOLARLY_TEI_TEXT",
+      "conclusion": "Fraternal reconciliation does not mean accepted identity of Lutheran and Zurich Eucharistic doctrine"
+    },
+    {
+      "id": "C395-5",
+      "file": "file10125",
+      "source_tier": "DIRECT_TEI_METADATA",
+      "conclusion": "Bullinger-to-Bucer late May letter is separate from Bucer-to-Jud June letter"
+    }
+  ],
+  "anomalies": {
+    "folio_series": {
+      "file": "file10140",
+      "catalog_range": "1362r-1364r",
+      "graphic_filename_range": "1362r-1365v",
+      "graphic_count": 8,
+      "same_letter_all_pages": "UNVERIFIED",
+      "reason": "Cannot classify extra images without reading actual images"
+    },
+    "archive": {
+      "historical_june_1532_reference": "E II 345,126-141",
+      "current_EII345_collection_span": "1539-1590",
+      "mapping": "UNRESOLVED",
+      "edited_letter_bcor_viii_598_page_seen": false
+    },
+    "image_access": {
+      "tei_urls_seen": true,
+      "actual_jpg_retrieved": false,
+      "visual_inspection": false,
+      "sha256": null,
+      "web_result": "IMAGE_URL_NOT_ACCESSIBLE",
+      "container_result": "NOT_DOWNLOADED"
+    }
+  },
+  "unresolved": {
+    "rott_1978_p489_491_seen": false,
+    "parker_ms119_images_seen": false,
+    "bucer_vadian_july_1536_23_25_identity": "UNRESOLVED",
+    "zurich_catalog_id": "CH-002121-2-991170608445805501"
+  },
+  "reader_drafts": [
+    {
+      "target": "MEDIUM-MARBURG",
+      "published": false,
+      "text": "1529년 마르부르크에서 성찬 교리를 완전히 합의하지 못했어도 개혁자들의 대화는 이어졌다. 1532년 부처가 취리히의 레오 유트에게 제안한 화해에 대해 불링거는 교리적 차이를 지워서는 안 된다고 반박했다. 1533년에는 상호 존중과 신학적 이견이 동시에 표현되었다."
+    },
+    {
+      "target": "MEDIUM-ZWINGLI",
+      "published": false,
+      "text": "츠빙글리 사후 취리히 신학자들은 불링거, 레오 유트 등 여러 목회자의 공동 판단 아래 성찬론 논쟁을 이어 갔다. 1532년 불링거의 긴 반박과 1533년 공동 회신을 함께 읽으면, 개인적 우정의 회복과 교리적 합의를 서로 구별할 수 있다."
+    },
+    {
+      "target": "MEDIUM-AUGSBURG",
+      "published": false,
+      "text": "1532년 제국의 정치·종교적 협상 속에서 아우크스부르크 신앙고백의 수용은 중요한 문제였다. 그러나 취리히의 신학자들은 신앙고백에 대한 외교적 접근이 루터파 성찬론에 대한 교리적 승인과 같다고 보지 않았다. 1530년 제출본과 1540년 수정판도 구별해야 한다."
+    }
+  ],
+  "rights_note": "Only source metadata, links, limited brief excerpts and original Korean paraphrases included; no wholesale TEI or facsimile copying."
+}
