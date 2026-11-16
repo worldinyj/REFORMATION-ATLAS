@@ -1,0 +1,104 @@
+{
+  "version": "V3.81",
+  "as_of": "2026-11-16",
+  "status": "RESEARCH_DRAFT",
+  "can_ship": false,
+  "branch": "research/atlas-v381-catalog-id-correction-and-findingaid",
+  "previous_versions": [
+    "V3.77",
+    "V3.78",
+    "V3.79",
+    "V3.80"
+  ],
+  "critical_correction": {
+    "error_class": "ADJACENT_KALLIOPE_CATALOG_RECORD_ID_OFF_BY_ONE",
+    "previous_assignment": {
+      "id": "CH-002121-2-991170609317505501",
+      "wrongly_assigned_to": "Martin Bucer to Joachim Vadian (1536-07-25)"
+    },
+    "verified_assignment": [
+      {
+        "id": "CH-002121-2-991170608445805501",
+        "heading": "1 Brief an Joachim Vadianus (1484-1551) / von Martin Bucer (1491-1551)",
+        "printed_date": "1536.07.25",
+        "institution": "Zentralbibliothek Zürich",
+        "shelfmark": "Ms S 41, Nr. 33",
+        "row_index": 59433,
+        "source": "https://nachlassdatenbank.de/findingaid?fa.id=CH-002121-2-881170715577605501&fq=ead.pers.index%3A%28%22Albert-Durade%2C+...+d%27%22%29&htmlFull=false&lang=de&lastparam=true",
+        "facsimile_checked": false
+      },
+      {
+        "id": "CH-002121-2-991170609317505501",
+        "heading": "1 Brief an Ambrosius Blarer / von [Heinrich] Bullinger",
+        "printed_date": "1547.08.24",
+        "institution": "Zentralbibliothek Zürich",
+        "shelfmark": "Ms F 43 (133)",
+        "row_index": 59434,
+        "source": "https://nachlassdatenbank.de/findingaid?fa.id=CH-002121-2-881170715577605501&fq=ead.pers.index%3A%28%22Albert-Durade%2C+...+d%27%22%29&htmlFull=false&lang=de&lastparam=true",
+        "facsimile_checked": false
+      }
+    ],
+    "method": "In finding-aid list, `eadCH-... ID + row number` precedes each entry's heading and metadata. Earlier versions mistook the next entry's identifier for the previous entry.",
+    "certainty": "IDENTIFIER_TO_HEADING_MAPPED_FROM_PUBLIC_FINDING_AID",
+    "not_proven": [
+      "original autograph/date line for 1536-07-25",
+      "identity of putative 1536-07-23 letter",
+      "Vadianische Briefsammlung V p.339 exact entry"
+    ]
+  },
+  "new_archive_lead": {
+    "repository": "Stadtarchiv und Vadianische Sammlung, St. Gallen",
+    "full_findingaid": "https://kalliope-verbund.info/gnd/findingaid?fa.enum=1&fa.id=CH-002121-2-991170432739305501",
+    "archival_findingaid_identifier": "CH-002121-2-991170432739305501",
+    "archive_signature": "VadSlg Ms 30-41a",
+    "catalog_listed_entries": 3790,
+    "persons_index": "https://kalliope-verbund.info/gnd/findingaid_index?fa.enum=1&fa.id=CH-002121-2-991170432739305501&lastparam=true",
+    "buc_er_index_label": "Bucer, Martin (1491-1551)(49)",
+    "caveat": "Index count 49 is number of index hits in this finding aid; not validated as 49 independent Bucer-to-Vadian letters and not specifically July 1536.",
+    "digitization_context": "https://www.stadtarchiv.ch/forschungsprojekte/vadianische-briefsammlung/",
+    "individual_july23_record_identified": false
+  },
+  "unchanged_historical_constraints": {
+    "target_1536_07_23": {
+      "date": "1536-07-23",
+      "letter_identity_verified": false,
+      "printed_page_339_seen": false,
+      "publication_gate": "BLOCKED"
+    },
+    "zurich_1536_07_25": {
+      "date": "1536-07-25",
+      "catalog_verified": true,
+      "manuscript_image_seen": false,
+      "publication_gate": "RESEARCH_ONLY"
+    },
+    "hbbw_875": {
+      "date": "1536-08-06",
+      "editorial_printed_pages": "Vadian BW V 341-343",
+      "related_editorial_note": "Vadian BW V p.339",
+      "original_facsimile_seen": false
+    },
+    "july23_july25_same_item": "UNRESOLVED",
+    "no_automatic_date_reconciliation": true
+  },
+  "patched_files": [
+    "research/data/V3_77_BUCER_VADIAN_DATE_COLLISION_AUDIT.json",
+    "research/data/V3_78_BUCER_VADIAN_ARCHIVAL_GATE.json",
+    "research/data/V3_79_BUCER_VADIAN_CLAIM_EVIDENCE.json",
+    "research/data/V3_80_VADIAN_BUCER_IDENTITY_HARD_GATES.json",
+    "research/notes/V3_78_BUCER_VADIAN_ARCHIVE_INQUIRIES_DE.md",
+    "research/scripts/validate_v380_vadian_identity.mjs"
+  ],
+  "remaining_work": [
+    "Obtain full Bucer-1536-07-25 item record and inspect physical/digital manuscript date line.",
+    "Filter St Gallen Vadianische Briefsammlung finding aid by Bucer and 1536-07-23, identify relevant single-record URI and original shelfmark.",
+    "Obtain printed pp.338-343 and verify p.339 entry number/heading against WA Br 7 Nr.3048.",
+    "Do not treat 1536-07-23 and 1536-07-25 as the same without content-based and physical-source matching."
+  ],
+  "publication": {
+    "promotable_now": false,
+    "main_edited": false,
+    "ai_studio_edited": false,
+    "essays_513_edited": false,
+    "archive_emails_sent": false
+  }
+}
