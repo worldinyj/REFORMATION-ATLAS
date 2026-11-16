@@ -1,0 +1,259 @@
+{
+  "version": "V3.98",
+  "kind": "THREE_MEDIUM_CHAPTERS_PRESERVED_BASELINE_PLUS_NEW_1533_SECTION_AND_INSTITUTIONAL_EPISODE",
+  "status": "DRAFT_ONLY",
+  "source_baseline": {
+    "path": "data/deep/atlas_v254_medium_depth_ten_readers.json",
+    "git_blob_sha": "ac219f34d4caceb2ceae1d64b61e71c53350244c",
+    "chapter_keys": [
+      "MARBURG",
+      "ZWINGLI",
+      "AUGSBURG"
+    ],
+    "original_three_sections_each": true
+  },
+  "V397_overlay_blob": "60dc86cb40e9cb4ed9223b5dba53f72e10192cc5",
+  "chapters": [
+    {
+      "id": "MEDIUM-MARBURG",
+      "key": "MARBURG",
+      "title": "마르부르크 회담 — 같은 개혁 진영이 왜 하나가 되지 못했는가",
+      "lead": "1529년 마르부르크에서 개혁자들은 많은 공통점을 확인했지만 성찬 이해의 차이를 끝내 해소하지 못했다. 정치적 연합과 신학적 일치는 별개의 과제였다.",
+      "sections": [
+        {
+          "heading": "시대 배경",
+          "body": "종교개혁이 여러 지역에서 전개되면서 개혁을 지지하는 세력 사이의 협력은 정치적으로 중요해졌다. 그러나 로마교회에 대한 비판을 공유한다고 성경과 성례를 똑같이 해석하는 것은 아니었다. 루터와 츠빙글리의 만남은 개혁 운동 내부에 이미 서로 다른 전통이 형성되고 있음을 드러냈다."
+        },
+        {
+          "heading": "핵심 사건과 주장",
+          "body": "성찬 논쟁의 중심에는 그리스도의 말씀을 어떻게 이해하고, 떡과 포도주를 받는 행위에서 그리스도의 임재를 어떻게 설명할 것인가가 있었다. 루터에게 성찬에서 주어지는 그리스도의 실제적 임재는 중요한 확신이었다. 츠빙글리는 성찬을 이해하는 다른 강조점을 제시했다. 이를 한쪽은 문자, 다른 쪽은 이성만 중시했다는 대립으로 줄이면 양측의 논증을 놓친다."
+        },
+        {
+          "heading": "영향과 이해의 경계",
+          "body": "회담의 불일치는 개혁자들이 모든 것을 두고 적대했다는 뜻도, 사소한 단어 하나로 분열했다는 뜻도 아니다. 성찬은 구원과 교회 공동체를 어떻게 경험하는지에 닿아 있었다. 이 회담은 종교개혁을 단일 운동으로 설명하기 어려운 이유와 공통 목표가 있어도 타협하기 어려운 신학적 경계가 있음을 보여 준다."
+        },
+        {
+          "heading": "회담이 끝난 뒤에도 이어진 협상",
+          "body": "1529년 마르부르크 회담에서 성찬에 관한 합의가 완성되지 않았어도 대화는 멈추지 않았다. 1532년 취리히의 불링거는 부처에게 '정말 같은 의견이라면 왜 다시 일치를 위해 애쓰는가'라고 반문했다. 1533년 5월 취리히 목회자들은 부처의 노고에 감사하면서도 루터와 교리가 동일하다고 말할 수는 없다고 밝혔다. 부처는 이어 베른에서 동료 목회자의 갈등을 중재했다. 할러가 보고한 약 120명의 회합과 화해는 중요하지만, 이것을 루터파와 취리히의 성찬론 전체가 합의한 사건으로 바꿔서는 안 된다."
+        }
+      ],
+      "reading_question": "협력을 위해 필요한 합의와 끝까지 남을 수밖에 없는 차이를 어떻게 구별할 수 있을까?",
+      "basis": {
+        "dataset": "data/deep/atlas_v219_structured_ten_reader_critical_editions.json",
+        "chapter_key": "MARBURG"
+      },
+      "status": "EDITORIAL_REVIEW_ONLY",
+      "evidence_links": [
+        "C397-01",
+        "C397-05",
+        "C397-08",
+        "C397-12"
+      ],
+      "source_addendum": "research/data/V3_97_BERN_ZURICH_1533_OFFICIAL_TEI_EVIDENCE_DRAFT.json"
+    },
+    {
+      "id": "MEDIUM-ZWINGLI",
+      "key": "ZWINGLI",
+      "title": "츠빙글리와 취리히 — 도시가 개혁을 결정하다",
+      "lead": "취리히 개혁은 설교자의 성경 해석과 시의회의 결정이 맞물린 공공개혁이었다. 예배의 변화는 도시의 재산과 질서, 주민의 생활까지 바꾸었다.",
+      "sections": [
+        {
+          "heading": "시대 배경",
+          "body": "16세기 취리히의 시의회는 종교와 도시 생활을 규제하는 권한을 갖고 있었다. 츠빙글리의 설교는 교회 안의 논의에 머물지 않고 공개 논쟁과 정치적 결정으로 이어졌다.1523년의 논쟁들은 기존 관행을 성경에 비추어 판단할 수 있는지, 누가 개혁을 실행할 것인지를 드러내는 자리였다."
+        },
+        {
+          "heading": "핵심 사건과 주장",
+          "body": "금식과 성상,미사와 교회 재산의 문제는 단계적으로 다루어졌다. 성상 철거와 예배 방식의 변화는 사람들이 공동체를 경험하는 방식을 바꾸었다. 그러나 개혁 지지자 모두가 시의회의 속도와 범위에 동의하지는 않았다. 재세례파와의 갈등은 개혁 운동 내부에서도 세례와 교회 구성원,공적 강제에 대한 이해가 달랐음을 보여 준다."
+        },
+        {
+          "heading": "영향과 이해의 경계",
+          "body": "취리히를 제네바의 칼뱅으로 가는 예비 단계로만 보아서는 안 된다. 도시 정치와 스위스 지역 관계 속에서 독자적인 개혁이 전개되었다. 시의회의 결정으로 개혁이 이루어졌다는 사실이 곧 모든 주민의 종교적 자유가 확대되었다는 뜻도 아니다. 개혁의 실현과 새로운 강제의 가능성을 함께 살펴야 한다."
+        },
+        {
+          "heading": "츠빙글리 사후의 도시개혁: 혼인법을 함께 논의하다",
+          "body": "츠빙글리 사후 취리히 개혁은 불링거와 동료 목회자, 시의회, 혼인재판소의 협력 속에서 계속되었다. 1533년 5월 20일 취리히의 혼인재판 관계자들은 베른·바젤·샤프하우젠·장크트갈렌과 재판 규칙을 조정하자고 제안했다. 6월 10일 대표들은 44개 조항을 검토했고 7월 15일 다시 모였으나, 모든 도시가 동일한 조항을 채택하지는 않았다. 이것은 성경 해석이 예배뿐 아니라 이혼, 혼인 허용 범위, 처벌과 시민 생활의 규율까지 바꾸었다는 뜻이다. 다만 도시의 강제력이 커진 현상을 현대적 종교자유의 확대와 혼동해서는 안 된다."
+        }
+      ],
+      "reading_question": "도시 전체의 종교를 바꾸는 결정에서 공동체의 질서와 개인의 신앙은 어떻게 충돌할까?",
+      "basis": {
+        "dataset": "data/deep/atlas_v219_structured_ten_reader_critical_editions.json",
+        "chapter_key": "ZWINGLI"
+      },
+      "status": "EDITORIAL_REVIEW_ONLY",
+      "evidence_links": [
+        "CL398-03",
+        "CL398-04",
+        "CL398-06",
+        "CL398-08",
+        "CL398-09",
+        "CL398-10"
+      ],
+      "source_addendum": "research/data/V3_98_1533_MARRIAGE_LAW_CRITICAL_CROSSWALK_DRAFT.json"
+    },
+    {
+      "id": "MEDIUM-AUGSBURG",
+      "key": "AUGSBURG",
+      "title": "아우크스부르크 신앙고백 — 개혁의 신앙을 공적으로 설명하다",
+      "lead": "1530년 신앙고백은 개혁 진영의 믿음을 제국의회 앞에서 설명하려는 문서였다. 논쟁의 언어가 공동체의 공적 고백으로 정리되는 과정이었다.",
+      "sections": [
+        {
+          "heading": "시대 배경",
+          "body": "종교적 갈등이 제국의 정치 질서를 흔들던 상황에서 개혁을 지지하는 제후와 도시들은 자신들의 신앙을 설명할 필요가 있었다. 멜란히톤이 정리에 중요한 역할을 한 신앙고백은 단순한 개인 신학서가 아니었다. 교리와 예배를 둘러싼 입장을 밝히면서도 자신들이 고대 교회의 신앙과 단절된 집단이 아니라고 주장했다."
+        },
+        {
+          "heading": "핵심 사건과 주장",
+          "body": "1530년6월25일 제출된 문서는 개혁 진영이 무엇을 가르치고 어떤 관행을 문제 삼는지 공적으로 제시했다. 의롭다 함과 교회, 성례 등의 문제는 서로 연결되어 있었다. 상대를 비판하는 문서인 동시에 자신들의 신앙을 설명하고 정당성을 구하려는 문서라는 점을 함께 읽어야 한다."
+        },
+        {
+          "heading": "영향과 이해의 경계",
+          "body": "이후 인쇄와 개정을 거치며 문서는 더 넓은 독자에게 전달되었다. 1530년 제출,1531년 승인 인쇄,1540년 수정판은 구별할 필요가 있지만 입문 독서에서 모든 판본 차이를 따라갈 필요는 없다. 우선 이 신앙고백이 왜 필요했고 무엇을 설명하려 했는지 이해한 뒤, 특정 문구가 중요할 때 해당 판본을 확인하면 된다."
+        },
+        {
+          "heading": "한 신앙고백을 둘러싼 협력과 도시별 제도",
+          "body": "1530년 아우크스부르크 신앙고백은 개혁 진영이 자신들의 신앙을 공적으로 설명한 문서였다. 그러나 1532~1533년 부처와 취리히의 서신은 교회 간 협력을 원하더라도 성찬에 대한 자세한 이해가 다를 수 있음을 보여 준다. 개혁 도시들은 혼인법처럼 공동생활에 관계된 문제에서도 협력했지만, 1533년 취리히의 44개 조항 논의는 도시별 법을 완전히 같게 만들지 못했다. 1530년 제출본, 1531년 인쇄 전승, 1540년 수정판과 1533년 도시법 협의는 날짜도 성격도 다른 자료이며, 어느 한 사건이 나머지를 자동으로 입증하지 않는다."
+        }
+      ],
+      "reading_question": "공동체가 자신의 신앙을 공적으로 설명할 때 공통 전통과 새로운 주장을 어떻게 함께 말할 수 있을까?",
+      "basis": {
+        "dataset": "data/deep/atlas_v219_structured_ten_reader_critical_editions.json",
+        "chapter_key": "AUGSBURG"
+      },
+      "status": "EDITORIAL_REVIEW_ONLY",
+      "evidence_links": [
+        "C397-01",
+        "CL398-03",
+        "CL398-06",
+        "CL398-09",
+        "CL398-10"
+      ],
+      "source_addendum": "research/data/V3_98_1533_MARRIAGE_LAW_CRITICAL_CROSSWALK_DRAFT.json"
+    }
+  ],
+  "integrity": [
+    {
+      "key": "MARBURG",
+      "unchanged_lead": true,
+      "unchanged_reading_question": true,
+      "unchanged_existing_three_sections": true,
+      "new_section_count": 1,
+      "new_section_characters": 276,
+      "new_section_evidence_count": 4,
+      "word_overlap_ratio_with_v397_overlay": 0.4
+    },
+    {
+      "key": "ZWINGLI",
+      "unchanged_lead": true,
+      "unchanged_reading_question": true,
+      "unchanged_existing_three_sections": true,
+      "new_section_count": 1,
+      "new_section_characters": 293,
+      "new_section_evidence_count": 6,
+      "word_overlap_ratio_with_v397_overlay": 0.095
+    },
+    {
+      "key": "AUGSBURG",
+      "unchanged_lead": true,
+      "unchanged_reading_question": true,
+      "unchanged_existing_three_sections": true,
+      "new_section_count": 1,
+      "new_section_characters": 301,
+      "new_section_evidence_count": 5,
+      "word_overlap_ratio_with_v397_overlay": 0.4
+    }
+  ],
+  "standalone_episode": {
+    "id": "EPISODE-V398-1533-MARRIAGE-COURTS",
+    "title": "성찬 논쟁에서 혼인재판까지 — 종교개혁 도시들은 무엇을 함께 바꾸었는가?",
+    "year": 1533,
+    "range": "1533-05-20 to 1533-10-18",
+    "type": "DRAFT_EDUCATIONAL_INSTITUTIONAL_REFORM_ARTICLE",
+    "volume_ids": [
+      "VOL-04",
+      "VOL-08"
+    ],
+    "lead": "교리적 일치가 불완전했던 1533년, 개혁 도시들은 혼인과 이혼의 재판 규칙을 함께 정하려 했다. 그러나 협의가 곧 전국적으로 통일된 법을 뜻하지는 않았다.",
+    "sections": [
+      {
+        "heading": "성찬 논쟁과는 다른 협력의 현장",
+        "body": "1533년 5월 취리히 목회자들은 부처의 방문에 감사하면서도 루터와 성찬론이 완전히 같다고 말하지 않았다. 그러나 그 무렵 개혁 도시들은 다른 문제를 함께 풀어야 했다. 혼인·이혼·간통 사건이 도시마다 다르게 처리되면 주민의 생활에 직접 혼란이 생길 수 있었기 때문이다. 신학적 논쟁이 남아 있다고 행정적 협의를 중단한 것은 아니었다.",
+        "sources": [
+          "C397-01",
+          "CL398-03"
+        ]
+      },
+      {
+        "heading": "5월 20일, 취리히 혼인재판 관계자의 제안",
+        "body": "취리히 시의회와 혼인재판 관련자들은 재판 기준을 다른 도시와 조정하자고 제안했다. 공식 소장목록 A 6.1, Nr. 6은 이 문제에 혼인 가능한 친족 범위, 혼인 전 성관계와 혼인의 관계, 간통으로 인한 이혼 뒤의 처벌이 포함됐다고 기술한다. 이 문서의 목적은 오늘날의 사적인 가족문제를 국가가 손대지 않도록 하는 데 있지 않았다. 오히려 개혁된 도시의 종교적·법적 규율을 정하는 데 있었다.",
+        "sources": [
+          "CL398-03"
+        ]
+      },
+      {
+        "heading": "6월 8~10일, 메간더가 가져온 다른 도시의 법",
+        "body": "베른의 할러는 혼인 사건에서 여러 도시가 같은 규칙을 적용하기를 바랐다. 메간더는 바젤·스트라스부르·콘스탄츠·울름·에슬링엔의 규정을 비교 자료로 가져왔다. 6월 10일 취리히에서 열린 예비협의에는 개혁 도시 대표들이 참여해 44개 조항을 정리했다. 여기서 44는 확정된 전 지역 통일법의 조문 수가 아니라 협의 대상이 된 초안의 규모다.",
+        "sources": [
+          "CL398-04",
+          "CL398-05",
+          "CL398-06"
+        ]
+      },
+      {
+        "heading": "7월 14~15일, 합의보다 어려웠던 시행",
+        "body": "7월 14일 할러는 베른 시의회에서 앞선 초안을 둘러싼 논의가 격렬했다고 썼다. 다음 날 취리히의 본회의에서 도시들은 서로 다른 수정안을 들고 왔다. 베른은 많은 조항의 변경을 요구했고, 모든 도시 대표가 자신들의 정부를 대신해 최종 결정을 할 권한을 가진 것도 아니었다. 따라서 협의의 존재와 조문별 확정, 지역별 시행은 각각 별개의 단계다.",
+        "sources": [
+          "CL398-08",
+          "CL398-09",
+          "CL398-10"
+        ]
+      },
+      {
+        "heading": "남겨진 규칙과 남아 있던 차이",
+        "body": "참석 도시들은 문서를 널리 인쇄하지 않고 각 당국과 혼인재판소가 사본을 보관하도록 하는 절차에는 의견을 모았다. 그러나 세부 형벌과 혼인이 허용되는 친족 범위 등에는 견해 차이가 남았다. 같은 해 10월 할러는 베른과 취리히의 불일치가 마음 아프다고 썼다. 이것은 협의가 완전히 실패했다는 말도, 다섯 도시가 똑같은 법을 시행했다는 말도 아니다.",
+        "sources": [
+          "CL398-10",
+          "CL398-11"
+        ]
+      },
+      {
+        "heading": "종교개혁을 다시 읽는 기준",
+        "body": "종교개혁은 신앙고백의 문장만 바꾸지 않았다. 시의회, 재판소, 목회자와 주변 도시의 관계를 통해 혼인·가족·처벌에 대한 공적 규칙도 재편했다. 그러나 새로운 공공질서가 곧 오늘날의 인권이나 신앙의 자유를 보장했다는 식으로 미화해서는 안 된다. 신학적 차이, 행정적 협력, 법제 통일의 한계를 함께 볼 때 종교개혁의 실제 모습을 이해할 수 있다.",
+        "sources": [
+          "CL398-03",
+          "CL398-06",
+          "CL398-10"
+        ]
+      }
+    ],
+    "question": "교회가 사회 제도에 영향력을 넓힌다는 사실은 언제 공공의 책임이 되며, 언제 개인에 대한 강제가 되는가?",
+    "misconceptions": [
+      {
+        "wrong": "44개 조항을 만들었으니 모든 개혁 도시의 통일 혼인법이 완성됐다",
+        "correction": "초안과 절차적 협의는 확인되지만 세부 실체법의 완전한 통일 및 일률적 시행은 확인되지 않는다."
+      },
+      {
+        "wrong": "바디안과 미코니우스가 6월 10일 취리히 회의에 참석했다",
+        "correction": "할러는 참석을 기대했지만 현대 편집판 주석은 두 사람이 실제 참석하지 않았다고 설명한다."
+      },
+      {
+        "wrong": "1533년 5월 13일 바젤의 시노드는 베른의 5월 12~14일 시노드다",
+        "correction": "미코니우스가 바젤에서 개최했다고 쓴 회합과 베른의 별도 시노드를 구분한다."
+      }
+    ],
+    "publication": {
+      "approved": false,
+      "can_ship": false,
+      "webapp_imported": false,
+      "rights_approved": false,
+      "source_photo_verified": false
+    }
+  },
+  "source_crosswalk": "research/data/V3_98_1533_MARRIAGE_LAW_CRITICAL_CROSSWALK_DRAFT.json",
+  "publication_gate": {
+    "can_ship": false,
+    "published": false,
+    "webapp_imported": false,
+    "main_modified": false,
+    "existing_513_modified": false
+  },
+  "note": "No modifications to original 10-chapter 2.54 file or existing 513 medium readers; file is a separate merged review package."
+}
