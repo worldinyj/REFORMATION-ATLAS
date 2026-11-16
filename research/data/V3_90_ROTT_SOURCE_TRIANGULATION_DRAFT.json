@@ -1,0 +1,164 @@
+{
+  "version": "V3.90",
+  "as_of": "2026-11-16",
+  "status": "RESEARCH_DRAFT",
+  "repository": "worldinyj/REFORMATION-ATLAS",
+  "branch": "research/atlas-v390-rott-source-triangulation-and-acquisition",
+  "parent_commit": "a651c9ad0b241922a4a13a98bd459696cb2f87ef",
+  "release": {
+    "can_ship": false,
+    "main_modified": false,
+    "essays_513_modified": false,
+    "ai_studio_modified": false,
+    "external_messages_sent": false
+  },
+  "scope": "Independent publisher/archive/bibliographic cross-check for Rott 1978 and Parker MS119. Does not represent full-text acquisition.",
+  "article": {
+    "author_forms": [
+      "Jean Rott",
+      "Hans Georg Rott"
+    ],
+    "title": "Martin Bucer und die Schweiz: drei unbekannte Briefe von Zwingli, Bucer und Vadian (1530, 1531, 1536)",
+    "journal": "Zwingliana",
+    "volume": 14,
+    "issue": 9,
+    "year": 1978,
+    "printed_pages": "461-492",
+    "legacy_url": "https://www.zwingliana.ch/index.php/zwa/article/view/910/820",
+    "legacy_tokens": [
+      "910",
+      "820"
+    ],
+    "legacy_second_token_semantics": "UNCONFIRMED",
+    "current_article_url": null,
+    "current_pdf_url": null,
+    "original_pdf_bytes_retrieved": false,
+    "pdf_sha256": null
+  },
+  "evidence": [
+    {
+      "id": "S390-OFFICIAL-ISSUE",
+      "grade": "OFFICIAL_ISSUE_LIST",
+      "url": "https://zwingliana.ch/issue/archive",
+      "observation": "Zwingliana official archive enumerates issue 14/9 (1978)",
+      "direct_article_text": false
+    },
+    {
+      "id": "S390-UZH",
+      "grade": "INSTITUTIONAL_ACCESS_DESCRIPTION",
+      "url": "https://www.irg.uzh.ch/de/publikationen/zwingli/zwingliana-online.html",
+      "observation": "UZH Institute describes open electronic journal access with more than 2200 full-text articles in 202 issues going back to 1897",
+      "direct_article_text": false,
+      "warning": "Journal coverage does not prove this particular historical PDF is accessible through this environment."
+    },
+    {
+      "id": "S390-1978-REVIEW",
+      "grade": "CONTEMPORARY_SECONDARY_BIBLIOGRAPHIC_MENTION",
+      "url": "https://www.e-periodica.ch/cntmng?pid=thz-001%3A1978%3A34%3A%3A477",
+      "observation": "A 1978 journal survey explicitly lists Zwingliana 14/9, H. G. Rott, Martin Bucer und die Schweiz, pp. 461-492",
+      "direct_article_text": false
+    },
+    {
+      "id": "S390-BRILL-BIB",
+      "grade": "SCHOLARLY_BIBLIOGRAPHIC_REFERENCE",
+      "url": "https://brill.com/edcollchap/book/9789047414209/front-8.pdf",
+      "observation": "Jean Rott in Zwingliana 14 (1978) pp.461-492, reprinted in Investigationes Historicae II (1986) pp.203-234",
+      "direct_article_text": false,
+      "limitation": "PDF text extract available; visual screenshot blocked by provider 403 in this session"
+    },
+    {
+      "id": "S390-HBBW-INDEX",
+      "grade": "SEARCH_INDEX_EXCERPT_OF_SCHOLARLY_EDITION",
+      "url": "https://briefe.arpa-docs.ch/SedWEBShowArticle.cgi?Alias=Briefe&ArtNum=113&DFlags=0",
+      "observation": "A Bullinger correspondence edition footnote refers to Rott, Zwingliana XIV pp.468 and 482 in a 1531 Bucer–Melanchthon discussion",
+      "direct_article_text": false,
+      "warning": "Indexed excerpt only: page context not verified against Rott original; webpage direct open timed out."
+    },
+    {
+      "id": "S390-PARKER-CATALOG",
+      "grade": "MODERN_MANUSCRIPT_CATALOG",
+      "url": "https://iiif.biblissima.fr/collections/manifest/780facf6a47bf2addec17f9498ef58363cb4c8a0",
+      "observation": "MS119 item for Vadian to Bucer dated pridie Nonas Augusti 1536, text pp.199-200 continuing pp.205-206",
+      "direct_manuscript_image": false
+    },
+    {
+      "id": "S390-EDITOR-CONTACT",
+      "grade": "OFFICIAL_JOURNAL_CONTACT",
+      "url": "https://zwingliana.ch/about/contact",
+      "observation": "Official Zwingliana editorial contact page lists Zurich address and names Judith Engeler as main contact; University Library Zurich handles technical questions",
+      "message_sent": false
+    },
+    {
+      "id": "S390-OFFPRINT-LEAD",
+      "grade": "THIRD_PARTY_PHYSICAL_COPY_LEAD",
+      "url": "https://www.zvab.com/buch-suchen/autor/rott-hans-georg/",
+      "observation": "A catalog advertises a paper offprint of the Rott title, with a differing 461-491 page descriptor",
+      "item_examined": false,
+      "warning": "Seller listing is not original pagination evidence; physical copy not acquired or inspected."
+    }
+  ],
+  "cross_citations": [
+    {
+      "id": "R390-468",
+      "page": 468,
+      "secondary": "S390-HBBW-INDEX",
+      "context_year": 1531,
+      "subject": "Bucer–Melanchthon discussion",
+      "original_page_1978_seen": false,
+      "certainty": "SECONDARY_INDEXED_REFERENCE_ONLY"
+    },
+    {
+      "id": "R390-482",
+      "page": 482,
+      "secondary": "S390-HBBW-INDEX",
+      "context_year": 1531,
+      "subject": "Bucer–Melanchthon discussion",
+      "original_page_1978_seen": false,
+      "certainty": "SECONDARY_INDEXED_REFERENCE_ONLY"
+    },
+    {
+      "id": "R390-489",
+      "page": 489,
+      "secondary": "S386-RUESCH",
+      "context_year": 1536,
+      "subject": "Joachim Vadian to Martin Bucer, 4 August 1536; Latin fragment cited by Rüsch (1983) p285 n5",
+      "original_page_1978_seen": false,
+      "certainty": "PREVIOUSLY_DOCUMENTED_SECONDARY_CITATION_ONLY"
+    },
+    {
+      "id": "R390-491",
+      "page": 491,
+      "secondary": "S386-RUESCH",
+      "context_year": 1536,
+      "subject": "Joachim Vadian to Martin Bucer, 4 August 1536; Leo Jud discussion cited by Rüsch (1983) p286 n6",
+      "original_page_1978_seen": false,
+      "certainty": "PREVIOUSLY_DOCUMENTED_SECONDARY_CITATION_ONLY"
+    }
+  ],
+  "acquisition": {
+    "legacy_910_820_successor_verified": false,
+    "legacy_404_reported_by_prior_v389": true,
+    "this_session_web_legacy_open": "TOOL_INTERNAL_ERROR_NOT_AN_HTTP_STATUS_ASSERTION",
+    "modern_article_link_retrieved": false,
+    "modern_pdf_link_retrieved": false,
+    "parker_original_images_199_200_205_206_seen": false,
+    "publisher_1978_print_pages_489_491_seen": false,
+    "external_editor_contact_sent": false,
+    "access_environment_note": "Container DNS unresolved; browser-like journal archive HTML exposes issues but not target article href.",
+    "next_actions": [
+      "Open official issue 14/9 through an interactive browser with full DOM href access; capture exact 1978 article URL rather than guessing numerical OJS identifiers.",
+      "If inaccessible, ask official editorial contact for the successor to /910/820 and the official PDF or archival scan; record reply as a new evidence object.",
+      "As an independent fallback, locate verified offprint or bound volume through a library; visually inspect printed 489 and 491 and note exact pagination.",
+      "Inspect MS119 pp.199-200 and continuation pp.205-206 as a separate manuscript-image step before attributing autograph status or exact original date."
+    ]
+  },
+  "date_constraints": {
+    "ms119_modern_catalog_date": "1536-08-04",
+    "ms119_1912_catalog_variant": "1566-08-04",
+    "date_line_manuscript_directly_read": false,
+    "july_23_equals_july_25": "UNRESOLVED",
+    "august_4_same_as_july_letter": "UNPROVEN",
+    "correct_zurich_catalog_id": "CH-002121-2-991170608445805501",
+    "can_promote_original_letter_claim": false
+  }
+}
