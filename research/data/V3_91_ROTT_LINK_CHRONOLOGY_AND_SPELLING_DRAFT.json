@@ -1,0 +1,171 @@
+{
+  "version": "V3.91",
+  "as_of": "2026-11-16",
+  "status": "RESEARCH_DRAFT",
+  "parent": "V3.90",
+  "repository": "worldinyj/REFORMATION-ATLAS",
+  "branch": "research/atlas-v391-rott-legacy-chronology-title-variant-gates",
+  "release": {
+    "can_ship": false,
+    "main_modified": false,
+    "essays_513_modified": false,
+    "ai_studio_modified": false,
+    "external_messages_sent": false
+  },
+  "target": {
+    "author_names": [
+      "Jean Rott",
+      "Hans Georg Rott"
+    ],
+    "title": "Martin Bucer und die Schweiz: drei unbekannte Briefe von Zwingli, Bucer und Vadian (1530, 1531, 1536)",
+    "journal": "Zwingliana",
+    "year": 1978,
+    "issue": "14/9",
+    "page_range": "461-492",
+    "target_pages": [
+      489,
+      491
+    ],
+    "historic_url": "https://www.zwingliana.ch/index.php/zwa/article/view/910/820",
+    "modern_pdf_url": null,
+    "original_pdf_sha256": null,
+    "original_pdf_acquired": false,
+    "printed_489_seen": false,
+    "printed_491_seen": false
+  },
+  "provenance": {
+    "earliest_identified_external_reference": "2025-08-27",
+    "first_ever_external_reference_proven": false,
+    "author_and_blog_same_in_both_years": true,
+    "independent_source_families_for_blog_link": 1,
+    "historical_link_worked_in_2025": "UNVERIFIED",
+    "second_route_token_role": "UNKNOWN_FROM_LINK_ALONE",
+    "references": [
+      {
+        "id": "BLOG-2025",
+        "date": "2025-08-27",
+        "url": "https://zwingliusredivivus.wordpress.com/2025/08/27/de-convitiis-eckii-zwingli-drops-the-hammer-on-johannes-eck/",
+        "author": "Jim",
+        "title_link_typo": "Brucer",
+        "target": "https://www.zwingliana.ch/index.php/zwa/article/view/910/820",
+        "live_click_result_on_2026_11_16": "HTTP_404"
+      },
+      {
+        "id": "BLOG-2026",
+        "date": "2026-08-27",
+        "url": "https://zwingliusredivivus.wordpress.com/2026/08/27/de-convitiis-eckii-zwingli-drops-the-hammer-on-johannes-eck/",
+        "author": "Jim",
+        "title_link_typo": "Brucer",
+        "target": "https://www.zwingliana.ch/index.php/zwa/article/view/910/820",
+        "live_click_result_on_2026_11_16": "HTTP_404"
+      }
+    ]
+  },
+  "orthography": [
+    {
+      "literal": "Bucer",
+      "source": "SCHOLARLY_BIBLIOGRAPHY",
+      "role": "CANONICAL",
+      "accept_as_original_title": true
+    },
+    {
+      "literal": "Brucer",
+      "source": "BLOG_2025_AND_2026",
+      "role": "BLOG_TITLE_TYPO",
+      "accept_as_original_title": false
+    },
+    {
+      "literal": "Fucer",
+      "source": "1978_JOURNAL_SURVEY_EXTRACTED_TEXT",
+      "role": "PRINT_OR_OCR_UNDETERMINED",
+      "accept_as_original_title": false
+    },
+    {
+      "literal": "Drie",
+      "source": "DUTCH_RETAIL_LISTING",
+      "role": "RETAIL_METADATA_VARIANT_FOR_DREI",
+      "accept_as_original_title": false
+    }
+  ],
+  "corroboration": [
+    {
+      "id": "OFFICIAL-ARCHIVE",
+      "grade": "OFFICIAL_ISSUE_LIST",
+      "url": "https://zwingliana.ch/issue/archive",
+      "claim": "Issue 14/9 (1978) listed; no verified target article href"
+    },
+    {
+      "id": "ZWINGLIVEREIN",
+      "grade": "OFFICIAL_ASSOCIATION_DESCRIPTION",
+      "url": "https://www.zwingliverein.ch/zwingliana.html",
+      "claim": "Journal years described as fully online; targeted 1978 PDF not acquired"
+    },
+    {
+      "id": "REVIEW-1978",
+      "grade": "CONTEMPORARY_SECONDARY_MENTION",
+      "url": "https://www.e-periodica.ch/cntmng?pid=thz-001%3A1978%3A34%3A%3A477",
+      "claim": "Rott article 461-492; extracted Fucer may be OCR or print"
+    },
+    {
+      "id": "SLUB",
+      "grade": "LIBRARY_CATALOG_SEARCH_RESULT",
+      "url": "https://katalog.slub-dresden.de/en/?tx_find_find%5Bq%5D%5Btopic%5D%5B0%5D=%22Bucer%2C+Martin%22+",
+      "claim": "1978 Rott Jean article cataloged; online copy not verified"
+    },
+    {
+      "id": "BOUND-VOLUME",
+      "grade": "RETAIL_PHYSICAL_COPY_LEAD",
+      "url": "https://www.zvab.com/buch-suchen/autor/zwingliverein-hrsg/",
+      "claim": "Bound Zwingliana XIV 1974-1978 described as 10 issues, VI+635 pages; physical object not seen"
+    },
+    {
+      "id": "OFFPRINT",
+      "grade": "RETAIL_PHYSICAL_COPY_LEAD",
+      "url": "https://www.zvab.com/buch-suchen/autor/rott-hans-georg/",
+      "claim": "Offprint page range given 461-491 versus established scholarly 461-492; cannot resolve without physical page"
+    },
+    {
+      "id": "EDITOR",
+      "grade": "OFFICIAL_CONTACT",
+      "url": "https://zwingliana.ch/about/contact",
+      "claim": "Judith Engeler listed as main contact, university library for technical questions; no message sent"
+    }
+  ],
+  "attempts": [
+    {
+      "method": "web click via 2025 blog",
+      "result": "HTTP_404",
+      "got_pdf": false
+    },
+    {
+      "method": "web click via 2026 blog",
+      "result": "HTTP_404",
+      "got_pdf": false
+    },
+    {
+      "method": "web archive browse",
+      "result": "ISSUE_LIST_NO_ARTICLE_HREF_EXPOSED",
+      "got_pdf": false
+    },
+    {
+      "method": "container HTTPS requests",
+      "result": "LOCAL_DNS_FAILURE",
+      "got_pdf": false
+    }
+  ],
+  "source_status": {
+    "rott_original_1978_seen": false,
+    "parker_ms119_199_200_205_206_images_seen": false,
+    "july23_and_july25_letters_same": "UNRESOLVED",
+    "ms119_date_original_seen": false,
+    "ms119_1912_catalog_variant": "1566-08-04",
+    "modern_working_date": "1536-08-04",
+    "corrected_zurich_kalliope_id": "CH-002121-2-991170608445805501"
+  },
+  "next_steps": [
+    "Obtain current official DOI/article/PDF from Zwingliana editor or site",
+    "Alternatively inspect a verified physical copy or bound volume",
+    "Map actual 1978 printed pages 489 and 491 with visual page checks and SHA256 of PDF",
+    "Examine MS119 manuscript images independently before any date identity promotion"
+  ]
+}
