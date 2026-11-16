@@ -6,6 +6,7 @@
  *   node research/scripts/validate_v380_vadian_identity.mjs --self-test
  *   node research/scripts/validate_v380_vadian_identity.mjs path/to/data.json
  * Node.js >= 18; no network access, no dependencies, no repository writes.
+ * V3.81 correction: correct Kalliope Bucer/Vadian record id 991170608445805501; previous 991170609317505501 belongs to the next Bullinger/Blarer entry.
  */
 import fs from "node:fs";
 import path from "node:path";
@@ -38,7 +39,7 @@ export function validate(d) {
       july23.date_checked!==false || july23.verified_catalog_identifier!==null))
     fail("JULY23","must stay blocked until original is established");
   if(july25 && (july25.publication_gate!=="RESEARCH_ONLY"||
-      july25.catalog_identifier!=="CH-002121-2-991170609317505501"||
+      july25.catalog_identifier!=="CH-002121-2-991170608445805501"||
       july25.signature!=="Ms S 41, Nr. 33"||
       july25.autograph_checked!==false))fail("JULY25","catalog does not establish an inspected autograph");
   if(aug06 && (aug06.letter_number!=="HBBW 875"||
