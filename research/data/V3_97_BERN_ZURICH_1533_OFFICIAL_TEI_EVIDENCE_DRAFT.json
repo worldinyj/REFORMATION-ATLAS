@@ -410,6 +410,21 @@
       "grade": "COMPARATIVE_HISTORICAL_INFERENCE",
       "thesis_ko": "취리히의 미완의 성찬론 논쟁과 베른에서 보고된 실무적 화해는 서로 다른 수준의 일치다",
       "scope": "DO_NOT_MERGE_THEOLOGY_AND_MEDIATION"
+    },
+    {
+      "id": "C397-13",
+      "sources": [
+        "S397-CAPITO2015-EP507-N3",
+        "HBBW3-228:s2"
+      ],
+      "grade": "PUBLISHED_SCHOLARLY_CHRONOLOGY_COUPLED_TO_ONE_PARTICIPANT_REPORT",
+      "thesis_ko": "1533년 베른 시노드는 5월 12~14일로 편집자 주석이 비정하며, 할러의 5월 29일 편지는 시노드 이후 회합과 중재를 회고한 기록이다",
+      "scope": "MEETING_DATE_DISTINCT_FROM_REPORT_DATE",
+      "event_start": "1533-05-12",
+      "event_end": "1533-05-14",
+      "report_date": "1533-05-29",
+      "date_source_is_2015_editorial_note": true,
+      "number_120_independently_confirmed": false
     }
   ],
   "historical_interpretation": {
@@ -417,7 +432,9 @@
     "continuity_limit": "The May 29 local reported agreement is not evidence that Zurich's May 8 refusal to assert Eucharistic doctrinal identity with Luther was rescinded; Haller reports his perspective.",
     "date_qualification": "1533 year is bracketed in editorial titles for Bucer 11 May and Haller 29 May although TEI when attribute resolves both to 1533.",
     "independent_participant_count": false,
-    "actual_autograph_photographs_read": false
+    "actual_autograph_photographs_read": false,
+    "synod_editorial_dates": "1533-05-12 to 1533-05-14 (Capito correspondence 2015, p.114 n.3)",
+    "May29_is_report_not_synod_date": true
   },
   "image_access": {
     "source_tei_iiif_urls_resolved_as_strings": true,
@@ -443,10 +460,37 @@
     "no_secondary_inference_as_folio": true
   },
   "next": [
+    "Validate May12-14 synod date as an editorial chronology and May29 as retrospective report; avoid double-counting reported 120",
     "Develop three precise reader-draft inserts and a two-city interactive timeline as separate data, not modify existing readers",
     "Review HBBW III Nr220/221/228 and count only Haller's reporting rather than treat 120 as independent",
     "Check image contact/access paths for E II 348 and E II 343 while retaining no-photograph status",
     "Keep 1532-1533 Bern clerical mediation distinct from Lutheran-Zurich Eucharistic doctrinal unity",
     "Follow rights terms for modern edited transcription and manuscripts"
-  ]
+  ],
+  "additional_critical_edition": {
+    "id": "S397-CAPITO2015-EP507-N3",
+    "source_type": "PUBLISHED_SCHOLARLY_EDITED_TRANSLATION_WITH_HISTORICAL_ANNOTATION",
+    "title": "The Correspondence of Wolfgang Capito, Volume 3: 1532–1536",
+    "editors": "Translated by Erika Rummel; annotated by Milton Kooistra",
+    "publisher": "University of Toronto Press",
+    "publication_year": 2015,
+    "print_page": 114,
+    "pdf_page_index_zero_based": 144,
+    "document": "Letter 507 [Beginning of April 1533] Capito to Guillaume Farel; scholarly note 3 on Bern Synod",
+    "url": "https://tile.loc.gov/storage-services/master/gdc/gdcebookspublic/20/20/71/95/37/2020719537/2020719537.pdf",
+    "archive_source": "Library of Congress hosted ebook",
+    "pdf_page_image_visually_checked": true,
+    "editorial_synod_dates": "1533-05-12 through 1533-05-14",
+    "editorial_travel_details": {
+      "Zurich_visit": "1533-05-04/05 through 1533-05-08",
+      "Bern_arrival": "1533-05-10",
+      "Fraubrunnen_stop": "1533-05-17"
+    },
+    "contemporaneous_capito_text": "Capito anticipated Bucer's presence at the Bern Synod, date of synod not directly quoted from Capito",
+    "attendee_number_120_source": "HBBW III Nr228 (Haller), cited by Kooistra; this is not a second independent count",
+    "extra_witness_claim_grade": "SCHOLARLY_EDITORIAL_CHRONOLOGY_NOT_FACSIMILE",
+    "copyright": "CC-BY-NC-ND per University of Toronto Press edition",
+    "same_Bern_event_as_Haller_later_report": true,
+    "warning": "DO NOT DATE HALLER'S MAY 29 REPORT AS THE SYNOD; DO NOT TREAT 120 AS TWO INDEPENDENT WITNESSES"
+  }
 }
