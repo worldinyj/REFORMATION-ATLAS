@@ -1,0 +1,62 @@
+{
+  "version": "V4.01-READER-ERRATUM",
+  "date": "2026-11-16",
+  "status": "REVIEW_ONLY_NOT_PUBLISHED",
+  "supersedes_reader": "research/data/V4_00_ZURICH_MARRIAGE_RULE_TEXT_READER_INSERT_DRAFT.json",
+  "supersedes_reason": "V4.00 interpreted two-witness and reputation limitation as 1533 amendment; 2022 SSRQ edited source dates it to 1539",
+  "trace_data": "research/data/V4_01_SSRQ_DIRECT_TEI_1525_1533_1539_ERRATUM_DRAFT.json",
+  "target_id": "MEDIUM-ZWINGLI",
+  "proposed_heading": "혼인 의무를 묻다 — 1525년 명령, 1533년 협의, 1539년 개정",
+  "corrected_reader_paragraphs": [
+    "츠빙글리의 종교개혁은 취리히 시민들의 가정생활에도 영향을 미쳤다. 취리히의 1525년 혼인명령은 혼인 전 성적 관계에 따른 혼인의무와 혼인 예물의 지급을 규정했다. 그 규정은 출애굽기 22장의 언어를 참고하며, 부모나 후견인이 혼인을 반대하는 상황에서 지급해야 할 금전적 의무도 다뤘다. 이는 성경의 해석이 재판과 혼인관계의 법적 판단에 직접 사용되던 시대를 보여 준다.",
+    "1533년 5월 20일 취리히의 평의원·목회자 등 자문자들은 다른 개혁 도시들과 공동으로 다룰 문제를 세 가지로 정리했다. 첫째는 레위기 18장을 근거로 한 친족혼의 허용 범위, 둘째는 혼인 전 관계에 따른 혼인의무, 셋째는 간통을 이유로 이혼한 배우자에게 어떤 제재를 가할지였다. 문서 뒷면에는 다른 필체로 6월 10일 취리히 회합을 예정했다는 기록도 남았다. 이것은 1533년의 실제 논의 의제이며, 후속 44개 조항의 제1·2·3조와 번호까지 일치한다고 추정해서는 안 된다.",
+    "현대 비판편집자의 주석에 따르면, 이후 1539년 취리히 혼인명령은 혼인의무를 인정하는 조건을 강화하여 두 명의 증인 앞에서 혼인을 약속했는지, 여성의 평판이 좋았는지 등을 요구했다. 당시 이런 요건은 남성이 약속을 부인했을 때 여성이 혼인의 인정을 청구하기 더 어렵게 만들 수도 있었다. 그러므로 종교개혁 이후 혼인법 변화를 단순히 '결혼의 자유를 넓힌 역사'로 묘사하지 않고 법적 증명과 성별 불평등의 두 측면을 함께 읽어야 한다."
+  ],
+  "chapter_source_support": [
+    {
+      "paragraph": 1,
+      "source_id": "W401-1525",
+      "kind": "DIRECT_CRITICAL_EDITION_TRANSCRIPTION",
+      "asserted_date": "1525-05-10"
+    },
+    {
+      "paragraph": 2,
+      "source_id": "W401-1533",
+      "kind": "DIRECT_CRITICAL_EDITION_TRANSCRIPTION_MAIN_AND_OTHER_HAND",
+      "asserted_date": "1533-05-20 / annotation 1533-06-10"
+    },
+    {
+      "paragraph": 3,
+      "source_id": "N401-02",
+      "kind": "MODERN_CRITICAL_EDITION_NOTE_RE_1539",
+      "asserted_date": "1539"
+    }
+  ],
+  "episode_patch": {
+    "target": "EPISODE-V399-44-ARTICLES",
+    "status": "REVIEW_ONLY",
+    "correct_historical_chronology": "1525 original norm > 1533 inter-city consultation > 1539 later stricter edition",
+    "remove_unqualified_claim": "1533 enacted requirement of two male witnesses and good reputation of woman",
+    "replacement_sentence": "1525년 취리히 혼인명령은 혼인의무를 규정했다. 1533년 자문자들은 이 문제를 협의 의제로 올렸고, 1539년의 취리히 개정 명령은 두 증인과 여성의 평판에 관한 요건을 제한적으로 규정했다고 현대 편집판은 설명한다.",
+    "new_practical_editorial_note": "1533년 재혼 대기기간 1년/6개월은 SSRQ의 편집자 주석에 대한 귀속이며 1533-07-15 회의록 원문을 직접 확인한 사실은 아님"
+  },
+  "reader_question": "법 규정에 등장하는 '신뢰할 수 있는 증인'이라는 기준은 누구를 보호하고, 누구에게 불리하게 작용했을까?",
+  "hard_gates": {
+    "main_modified": false,
+    "existing_513_modified": false,
+    "ai_studio_modified": false,
+    "can_ship": false,
+    "V400_incorrect_1533_claim_reused": false,
+    "two_witness_requirement_year": 1539,
+    "original_1539_print_directly_read": false,
+    "corrected_1533_edited_tei_direct_read": true,
+    "corrected_1525_edited_tei_direct_read": true,
+    "three_issues_equated_to_draft44_articles": false,
+    "art39_topic_identified": false,
+    "all_five_cities_uniform_enactment_claimed": false,
+    "womens_rights_interpretation_needs_historian_review": true,
+    "SSRQ_license": "CC BY-NC-SA 4.0",
+    "historian_approved": false,
+    "rights_approved": false
+  }
+}
