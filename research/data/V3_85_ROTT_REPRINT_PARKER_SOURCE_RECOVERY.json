@@ -1,0 +1,109 @@
+{
+  "version": "V3.85",
+  "date": "2026-11-16",
+  "branch": "research/atlas-v385-rott-reprint-parker-source-recovery",
+  "status": "RESEARCH_DRAFT",
+  "release": {
+    "can_ship": false,
+    "main_edited": false,
+    "ai_studio_edited": false,
+    "essays_513_edited": false,
+    "emails_sent": false
+  },
+  "author": {
+    "preferred": "Jean Rott",
+    "aliases": [
+      "Jean-Georges Rott",
+      "Hans-Georg Rott",
+      "Hans Georg Rott"
+    ],
+    "same_person": true,
+    "bnf": "https://catalogue.bnf.fr/ark:/12148/cb11922721n"
+  },
+  "rott1978": {
+    "title": "Martin Bucer und die Schweiz: Drei unbekannte Briefe von Zwingli, Bucer und Vadian (1530, 1531, 1536)",
+    "journal": "Zwingliana",
+    "volume": 14,
+    "issue": 9,
+    "year": 1978,
+    "pages": "461-492",
+    "target_page": 489,
+    "journal_issue_archive": "https://zwingliana.ch/issue/archive",
+    "fulltext_seen": false,
+    "page489_image_seen": false
+  },
+  "rott1986": {
+    "collection": "Investigationes Historicae: Églises et société au XVIe siècle",
+    "volume": 2,
+    "year": 1986,
+    "pages": "203-234",
+    "same_article_bibliographically": true,
+    "source": "https://brill.com/edcollchap/book/9789047414209/front-8.pdf",
+    "scanned_reprint_seen": false,
+    "candidate_equivalent_page": 231,
+    "page_231_is_unverified_offset_inference": true
+  },
+  "parker": {
+    "collection": "Cambridge Corpus Christi College Parker Library",
+    "manuscript": "MS 119",
+    "item_number": 71,
+    "correspondence": "Joachim Vadian to Martin Bucer",
+    "working_date": "1536-08-04",
+    "earlier_catalog_variant": "1566-08-04",
+    "date_line_in_original_seen": false,
+    "pages_to_inspect": [
+      "199",
+      "200",
+      "205",
+      "206"
+    ],
+    "note": "Modern catalog describes a noncontinuous letter with intervening Farel entry; image must establish precise boundaries.",
+    "manifest": "https://dms-data.stanford.edu/data/manifests/Parker/xs417vg0804/manifest.json",
+    "source": "https://iiif.biblissima.fr/collections/manifest/780facf6a47bf2addec17f9498ef58363cb4c8a0",
+    "manifest_opened": false,
+    "images_obtained": 0,
+    "original_or_copy": "UNRESOLVED"
+  },
+  "contacts": {
+    "manuscript_email": "parker-library@corpus.cam.ac.uk",
+    "contact_page": "https://www.corpus.cam.ac.uk/parker-library/college-archives",
+    "journal_contact_page": "https://zwingliana.ch/issue/archive",
+    "draft_requests_only": true
+  },
+  "negative_findings": [
+    "1978 printed page 489 not read",
+    "1986 reprint page 231 not read; inferred offset is not a citation",
+    "Parker MS119 original manuscript not inspected",
+    "1912 1566 catalog entry remains a variant pending manuscript review",
+    "1536 July 23 and July 25 Bucer letter identity still unresolved"
+  ],
+  "access_log": [
+    {
+      "resource": "Zwingliana 14/9 1978",
+      "result": "issue index verified, full text inaccessible"
+    },
+    {
+      "resource": "Brill secondary bibliography PDF",
+      "result": "extracted bibliography text; screenshot request 403"
+    },
+    {
+      "resource": "Parker Stanford catalog",
+      "result": "request rejected"
+    },
+    {
+      "resource": "Parker IIIF JSON",
+      "result": "inaccessible through research browser"
+    },
+    {
+      "resource": "Parker original pages",
+      "result": "not obtained"
+    }
+  ],
+  "qa": {
+    "manuscript_primary_gate": false,
+    "original_article_gate": false,
+    "reprint_primary_gate": false,
+    "identity_gate": false,
+    "no_automated_publish": true
+  }
+}
