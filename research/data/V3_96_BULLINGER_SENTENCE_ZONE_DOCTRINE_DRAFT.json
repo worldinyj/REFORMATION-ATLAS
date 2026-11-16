@@ -1,0 +1,376 @@
+{
+  "version": "V3.96",
+  "as_of": "2026-11-16",
+  "status": "RESEARCH_DRAFT",
+  "parent_branch": "research/atlas-v395-bullinger-tei-direct-edition-witness",
+  "branch": "research/atlas-v396-bullinger-tei-line-zone-and-doctrine-audit",
+  "release": {
+    "can_ship": false,
+    "main_modified": false,
+    "essays_513_modified": false,
+    "ai_studio_modified": false,
+    "original_tei_republished": false,
+    "facsimiles_republished": false,
+    "editor_contact_sent": false
+  },
+  "source": {
+    "repo": "stazh/bullinger-korpus-tei",
+    "commit": "dc9fb5290c210023a6a9182e8e3102c1f6dff734",
+    "tei_license": "CC BY-NC-ND 3.0 CH",
+    "facsimile_license": "CC BY-SA 4.0",
+    "scope": "DIRECT_CRITICAL_EDITION_TEI_TEXT_NOT_HISTORICAL_FACSIMILE"
+  },
+  "letter_analyses": [
+    {
+      "file_id": "file10140",
+      "edition": "HBBW II Nr110",
+      "letter_date": "1532-07-12",
+      "source_repository": "stazh/bullinger-korpus-tei",
+      "source_commit": "dc9fb5290c210023a6a9182e8e3102c1f6dff734",
+      "path": "data/letters/10140.xml",
+      "blob_sha": "3c51c77d8a588fd8fffa57d8df6365b65d6c3763",
+      "url": "https://github.com/stazh/bullinger-korpus-tei/blob/dc9fb5290c210023a6a9182e8e3102c1f6dff734/data/letters/10140.xml",
+      "manuscript_image_verified": false,
+      "structure": {
+        "sentence_count": 157,
+        "graphics": [
+          {
+            "index": 1,
+            "iiif_url": "https://media.sources-online.org/cantaloupe/iiif/3/bullinger!10140!Kopie!00%20E_II_338__fol__1362_r_.tif/full/max/0/default.jpg",
+            "zones": 0,
+            "first_zone": null,
+            "last_zone": null
+          },
+          {
+            "index": 2,
+            "iiif_url": "https://media.sources-online.org/cantaloupe/iiif/3/bullinger!10140!Kopie!01%20E_II_338__fol__1362_v_.tif/full/max/0/default.jpg",
+            "zones": 0,
+            "first_zone": null,
+            "last_zone": null
+          },
+          {
+            "index": 3,
+            "iiif_url": "https://media.sources-online.org/cantaloupe/iiif/3/bullinger!10140!Kopie!02%20E_II_338__fol__1363_r_.tif/full/max/0/default.jpg",
+            "zones": 0,
+            "first_zone": null,
+            "last_zone": null
+          },
+          {
+            "index": 4,
+            "iiif_url": "https://media.sources-online.org/cantaloupe/iiif/3/bullinger!10140!Kopie!03%20E_II_338__fol__1363_v_.tif/full/max/0/default.jpg",
+            "zones": 0,
+            "first_zone": null,
+            "last_zone": null
+          },
+          {
+            "index": 5,
+            "iiif_url": "https://media.sources-online.org/cantaloupe/iiif/3/bullinger!10140!Kopie!04%20E_II_338__fol__1364_r_.tif/full/max/0/default.jpg",
+            "zones": 0,
+            "first_zone": null,
+            "last_zone": null
+          },
+          {
+            "index": 6,
+            "iiif_url": "https://media.sources-online.org/cantaloupe/iiif/3/bullinger!10140!Kopie!05%20E_II_338__fol__1364_v_.tif/full/max/0/default.jpg",
+            "zones": 0,
+            "first_zone": null,
+            "last_zone": null
+          },
+          {
+            "index": 7,
+            "iiif_url": "https://media.sources-online.org/cantaloupe/iiif/3/bullinger!10140!Kopie!06%20E_II_338__fol__1365_r_.tif/full/max/0/default.jpg",
+            "zones": 0,
+            "first_zone": null,
+            "last_zone": null
+          },
+          {
+            "index": 8,
+            "iiif_url": "https://media.sources-online.org/cantaloupe/iiif/3/bullinger!10140!Kopie!07%20E_II_338__fol__1365_v_.tif/full/max/0/default.jpg",
+            "zones": 0,
+            "first_zone": null,
+            "last_zone": null
+          }
+        ],
+        "line_tags_with_ids": 0,
+        "zone_count": 0,
+        "matched_lines": 0,
+        "scan_markers": [
+          "||1362v.",
+          "||1363r.",
+          "||1363v.",
+          "||1364r."
+        ],
+        "critical_print_markers": [
+          "154",
+          "155",
+          "156",
+          "157",
+          "158",
+          "159",
+          "160"
+        ],
+        "image_bytes_downloaded": 0,
+        "visual_verification": false
+      },
+      "quoted_word_count": 16,
+      "anchors": [
+        {
+          "sentence": 4,
+          "edition_page": "153",
+          "prior_scan_marker": null,
+          "brief_source_excerpt": "vel subscribamus vel cedamus",
+          "analysis_ko": "부처가 루터의 성찬론에 동의하거나 양보하라고 요청하는 것으로 이해한다.",
+          "grade": "DIRECT_TEI_CRITICAL_EDITION_TEXT",
+          "original_manuscript_verified": false
+        },
+        {
+          "sentence": 11,
+          "edition_page": "153",
+          "prior_scan_marker": null,
+          "brief_source_excerpt": "cum modestia declinamus",
+          "analysis_ko": "성경 진리와 다르면 온건하게 거절한다는 원칙을 제시한다.",
+          "grade": "DIRECT_TEI_CRITICAL_EDITION_TEXT",
+          "original_manuscript_verified": false
+        },
+        {
+          "sentence": 18,
+          "edition_page": "154",
+          "prior_scan_marker": null,
+          "brief_source_excerpt": null,
+          "analysis_ko": "어느 쪽 가르침을 따라 양측이 일치한다고 주장하는지 묻는다.",
+          "grade": "DIRECT_TEI_CRITICAL_EDITION_TEXT",
+          "original_manuscript_verified": false
+        },
+        {
+          "sentence": 20,
+          "edition_page": "154",
+          "prior_scan_marker": null,
+          "brief_source_excerpt": "Si enim idem est utrorumque placitum",
+          "analysis_ko": "진정 같은 의견이라면 왜 다시 일치를 위해 노력하는가라는 반문이다.",
+          "grade": "DIRECT_TEI_CRITICAL_EDITION_TEXT",
+          "original_manuscript_verified": false
+        },
+        {
+          "sentence": 21,
+          "edition_page": "154",
+          "prior_scan_marker": null,
+          "brief_source_excerpt": null,
+          "analysis_ko": "견해 차이가 남아 있는 상태의 합의 선언을 문제 삼는다.",
+          "grade": "DIRECT_TEI_CRITICAL_EDITION_TEXT",
+          "original_manuscript_verified": false
+        },
+        {
+          "sentence": 27,
+          "edition_page": "154",
+          "prior_scan_marker": null,
+          "brief_source_excerpt": null,
+          "analysis_ko": "마르부르크·아우크스부르크·코부르크에서의 지난 대화를 언급한다.",
+          "grade": "DIRECT_TEI_CRITICAL_EDITION_TEXT",
+          "original_manuscript_verified": false
+        },
+        {
+          "sentence": 83,
+          "edition_page": "156",
+          "prior_scan_marker": "||1363r.",
+          "brief_source_excerpt": "male sartam pacem",
+          "analysis_ko": "억지로 봉합한 평화에 대한 우려를 보여 준다.",
+          "grade": "DIRECT_TEI_CRITICAL_EDITION_TEXT",
+          "original_manuscript_verified": false
+        },
+        {
+          "sentence": 97,
+          "edition_page": "157",
+          "prior_scan_marker": "||1363r.",
+          "brief_source_excerpt": null,
+          "analysis_ko": "그리스도의 몸에 대한 그리스도론적 논거를 제기한다.",
+          "grade": "DIRECT_TEI_CRITICAL_EDITION_TEXT",
+          "original_manuscript_verified": false
+        },
+        {
+          "sentence": 157,
+          "edition_page": "160",
+          "prior_scan_marker": "||1364r.",
+          "brief_source_excerpt": null,
+          "analysis_ko": "부처를 형제로 부르는 편지의 주소 행이다.",
+          "grade": "DIRECT_TEI_CRITICAL_EDITION_TEXT",
+          "original_manuscript_verified": false
+        }
+      ]
+    },
+    {
+      "file_id": "file10250",
+      "edition": "HBBW III Nr219",
+      "letter_date": "1533-05-08",
+      "source_repository": "stazh/bullinger-korpus-tei",
+      "source_commit": "dc9fb5290c210023a6a9182e8e3102c1f6dff734",
+      "path": "data/letters/10250.xml",
+      "blob_sha": "2d9336d07262ac81e78624b9885155a486283b37",
+      "url": "https://github.com/stazh/bullinger-korpus-tei/blob/dc9fb5290c210023a6a9182e8e3102c1f6dff734/data/letters/10250.xml",
+      "manuscript_image_verified": false,
+      "structure": {
+        "sentence_count": 15,
+        "graphics": [
+          {
+            "index": 1,
+            "iiif_url": "https://media.sources-online.org/cantaloupe/iiif/3/bullinger!10250!Kopie!00%20E_II_347__S__43_.tif/full/max/0/default.jpg",
+            "zones": 38,
+            "first_zone": "p1z1-0",
+            "last_zone": "p1z38-0"
+          },
+          {
+            "index": 2,
+            "iiif_url": "https://media.sources-online.org/cantaloupe/iiif/3/bullinger!10250!Kopie!01%20E_II_347__S__44_.tif/full/max/0/default.jpg",
+            "zones": 5,
+            "first_zone": "p2z1-0",
+            "last_zone": "p2z5-0"
+          }
+        ],
+        "line_tags_with_ids": 43,
+        "zone_count": 43,
+        "matched_lines": 43,
+        "scan_markers": [],
+        "critical_print_markers": [
+          "120"
+        ],
+        "image_bytes_downloaded": 0,
+        "visual_verification": false
+      },
+      "quoted_word_count": 17,
+      "anchors": [
+        {
+          "sentence": 1,
+          "edition_page": "119",
+          "prior_scan_marker": null,
+          "brief_source_excerpt": null,
+          "analysis_ko": "취리히 목회자들이 부처의 방문과 교회 일치를 위한 노고에 감사한다.",
+          "grade": "DIRECT_TEI_CRITICAL_EDITION_TEXT",
+          "original_manuscript_verified": false
+        },
+        {
+          "sentence": 4,
+          "edition_page": "119",
+          "prior_scan_marker": null,
+          "brief_source_excerpt": "priori anno in iulio",
+          "analysis_ko": "전년도 7월이라는 작성자 회고를 보존하며 후대 편집자의 6월 식별과 구분한다.",
+          "grade": "DIRECT_TEI_CRITICAL_EDITION_TEXT",
+          "original_manuscript_verified": false
+        },
+        {
+          "sentence": 5,
+          "edition_page": "120",
+          "prior_scan_marker": null,
+          "brief_source_excerpt": null,
+          "analysis_ko": "루터와 취리히가 이미 같은 생각이라는 부처의 해석에 신중히 대응한다.",
+          "grade": "DIRECT_TEI_CRITICAL_EDITION_TEXT",
+          "original_manuscript_verified": false
+        },
+        {
+          "sentence": 7,
+          "edition_page": "120",
+          "prior_scan_marker": null,
+          "brief_source_excerpt": "Pacem tamen cum illo habebimus",
+          "analysis_ko": "가능한 범위에서 루터와 화평을 지키겠다는 의사를 표현한다.",
+          "grade": "DIRECT_TEI_CRITICAL_EDITION_TEXT",
+          "original_manuscript_verified": false
+        },
+        {
+          "sentence": 8,
+          "edition_page": "120",
+          "prior_scan_marker": null,
+          "brief_source_excerpt": "verum dicere non possumus ipsum nobis cum sentire",
+          "analysis_ko": "루터와 자신들의 교리가 동일하다고는 말할 수 없다고 밝힌다.",
+          "grade": "DIRECT_TEI_CRITICAL_EDITION_TEXT",
+          "original_manuscript_verified": false
+        },
+        {
+          "sentence": 9,
+          "edition_page": "120",
+          "prior_scan_marker": null,
+          "brief_source_excerpt": null,
+          "analysis_ko": "자신들의 해석을 성경과 교부에 부합한다고 설명한다.",
+          "grade": "DIRECT_TEI_CRITICAL_EDITION_TEXT",
+          "original_manuscript_verified": false
+        },
+        {
+          "sentence": 10,
+          "edition_page": "120",
+          "prior_scan_marker": null,
+          "brief_source_excerpt": null,
+          "analysis_ko": "성찬 기념과 표징에 관한 성경적·교부적 언어를 근거로 든다.",
+          "grade": "DIRECT_TEI_CRITICAL_EDITION_TEXT",
+          "original_manuscript_verified": false
+        },
+        {
+          "sentence": 14,
+          "edition_page": "120",
+          "prior_scan_marker": null,
+          "brief_source_excerpt": null,
+          "analysis_ko": "취리히 동료들의 응답과 1533년 5월 8일이라는 날짜를 기재한다.",
+          "grade": "DIRECT_TEI_CRITICAL_EDITION_TEXT",
+          "original_manuscript_verified": false
+        }
+      ]
+    }
+  ],
+  "uncertainties": {
+    "image_extent": {
+      "letter": "file10140",
+      "catalog_folios": "1362r-1364r",
+      "registered_graphics": "1362r-1365v",
+      "extra_graphics": [
+        "1364v",
+        "1365r",
+        "1365v"
+      ],
+      "explain": "Not possible to establish authorship/scope of extra graphic attachments without visually reading them",
+      "all_8_belong_to_letter": "UNVERIFIED"
+    },
+    "recollection_date": {
+      "letter": "file10250",
+      "text": "priori anno in iulio",
+      "modern_editor_identifies": "1532-06-23 Bucer to Leo Jud",
+      "forced_literal_rewrite": false
+    },
+    "june_letter": {
+      "critical_edition_locator": "E II 345 126-141 (footnote in file10140)",
+      "original_bucer_jud_letter_read": false,
+      "book_viii_nr598_page_seen": false,
+      "archive_catalogue_1539_1590_discrepancy": "UNRESOLVED"
+    },
+    "inaccessible_image": {
+      "tei_url_identified": true,
+      "web_open": "INACCESSIBLE",
+      "container_download": "REFUSED_NOT_VIEWED",
+      "photo_read": false,
+      "photo_sha256": null
+    },
+    "older_research": {
+      "rott_1978_pages_489_491_seen": false,
+      "parker_ms119_images_seen": false,
+      "bucer_vadian_july1536_23_25_same": "UNRESOLVED"
+    }
+  },
+  "claim_narrative_ko": "1532년 불링거는 부처의 성찬론 화해안이 실제 교리 차이를 덮는다고 판단하고 '견해가 같다면 왜 화해를 다시 협상하는가'라고 반문했다. 1533년 취리히 목회자들은 부처와의 형제애와 평화를 인정하면서도 루터와 완전한 신학적 일치를 선언하지 않았다.",
+  "research_to_reader": {
+    "targets": [
+      "MEDIUM-MARBURG",
+      "MEDIUM-ZWINGLI",
+      "MEDIUM-AUGSBURG"
+    ],
+    "status": "REVIEW_ONLY_NOT_PUBLISHED"
+  },
+  "rights": {
+    "edited_tei_copied_entirely": false,
+    "source_excerpt_words_per_file": [
+      {
+        "id": "file10140",
+        "n": 16
+      },
+      {
+        "id": "file10250",
+        "n": 17
+      }
+    ],
+    "images_embedded": false
+  }
+}
