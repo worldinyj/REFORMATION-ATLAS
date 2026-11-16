@@ -1,0 +1,112 @@
+{
+  "version": "V3.89",
+  "date": "2026-11-16",
+  "status": "RESEARCH_DRAFT",
+  "repository": "worldinyj/REFORMATION-ATLAS",
+  "branch": "research/atlas-v389-rott-legacy-permalink-provenance",
+  "parent_branch": "research/atlas-v388-source-acquisition-runtime-audit",
+  "deployment": {
+    "can_ship": false,
+    "main_edited": false,
+    "essays_513_modified": false,
+    "ai_studio_edited": false,
+    "emails_sent": false
+  },
+  "discovery": {
+    "item": "Jean (Hans-Georg) Rott, Martin Bucer und die Schweiz: Drei unbekannte Briefe von Zwingli, Bucer und Vadian (1530, 1531, 1536)",
+    "journal": "Zwingliana",
+    "volume": "14",
+    "issue": "9",
+    "year": 1978,
+    "printed_pages": "461-492",
+    "priority_print_pages": [
+      489,
+      491
+    ],
+    "historical_ojs_link": "https://www.zwingliana.ch/index.php/zwa/article/view/910/820",
+    "historical_route": "/index.php/zwa/article/view/910/820",
+    "parsed_old_article_token": "910",
+    "parsed_old_second_token": "820",
+    "second_token_semantics": "UNKNOWN_FROM_LINK_ALONE",
+    "current_pdf_url": null,
+    "current_article_url": null,
+    "historical_link_probe": {
+      "tool": "web open/click",
+      "result": "HTTP 404 NOT FOUND",
+      "date": "2026-11-16",
+      "body_or_original_article_visible": false
+    },
+    "original_pdf_opened": false,
+    "printed_489_image_seen": false,
+    "printed_491_image_seen": false,
+    "source": "S389-BLOG",
+    "note": "The historical URL was extracted by following an actual outbound hyperlink on a 2026 Reformation-history blog; the link's text misspells Bucer as Brucer but its referent is independently anchored in the official journal bibliography."
+  },
+  "sources": [
+    {
+      "id": "S389-BLOG",
+      "grade": "EXTERNAL_THIRD_PARTY_LINK_REFERENCE",
+      "title": "Zwinglius Redivivus, De convitiis Eckii: Zwingli Drops the Hammer on Johannes Eck",
+      "url": "https://zwingliusredivivus.wordpress.com/category/zwingliana/",
+      "date": "2026-08-26/27",
+      "observation": "An outbound anchor labelled as the Rott 1978 paper points to historical www.zwingliana.ch/index.php/zwa/article/view/910/820",
+      "inspection": "PAGE_HTML_RENDERED_LINK_AND_WEB_CLICK; CLICK_TARGET_404",
+      "limitations": "Blog is not an official publisher and cannot verify manuscript letter text or PDF content."
+    },
+    {
+      "id": "S389-ARCHIVE",
+      "grade": "OFFICIAL_JOURNAL_ISSUE_LIST",
+      "title": "Zwingliana Archiv",
+      "url": "https://zwingliana.ch/issue/archive",
+      "observation": "Official issue archive includes 14/9 (1978)",
+      "inspection": "WEB_PAGE_RENDERED",
+      "limitations": "Exact active issue/article download link not exposed in tool response"
+    },
+    {
+      "id": "S389-BIB",
+      "grade": "SCHOLARLY_BIBLIOGRAPHY",
+      "title": "Jean Rott article bibliography in Martin Bucer scholarship",
+      "url": "https://brill.com/edcollchap/book/9789047414209/front-8.pdf",
+      "observation": "Rott 1978 first edition in Zwingliana 14, pp.461–492; 1986 reprint Investigationes II pp.203–234",
+      "inspection": "INDEXED_BIBLIOGRAPHY",
+      "limitations": "Does not verify contents of original p489/p491"
+    },
+    {
+      "id": "S389-RUESCH",
+      "grade": "MODERN_SECONDARY_REFERENCE",
+      "title": "Ernst Gerhard Rüsch (1983) scholarly cross-references to Rott",
+      "url": "https://www.e-periodica.ch/cntmng?pid=thz-001%3A1983%3A39%3A%3A470",
+      "observation": "Previously validated secondary pointer Rott 1978 p489/p491; no direct original text",
+      "inspection": "PREVIOUS_VERSION_V386_EXTRACTED_TEXT",
+      "limitations": "Not original Rott article nor Parker manuscript"
+    }
+  ],
+  "link_quality_gates": {
+    "original_historical_url_literal_verified": true,
+    "article_number_from_actual_hyperlink": true,
+    "second_number_from_actual_hyperlink": true,
+    "current_official_article_permalink_verified": false,
+    "present_day_pdf_link_verified": false,
+    "legacy_returns_404": true,
+    "mapping_of_legacy_910_to_new_article_id": null,
+    "mapping_of_legacy_820_to_new_galley_id": null,
+    "pdf_sha256": null,
+    "file_type_verified": false,
+    "target_page_489_visually_verified": false,
+    "target_page_491_visually_verified": false,
+    "no_inferred_active_download_urls": true
+  },
+  "correspondence_constraints": {
+    "cambridge_ms119_original_inspected": false,
+    "july23_vs_july25_identity": "UNRESOLVED",
+    "correct_zurich_catalog_identifier": "CH-002121-2-991170608445805501",
+    "older_misattributed_identifier_retired": true,
+    "no_public_claim_promotion": true
+  },
+  "next_steps": [
+    "Use an interactive, network-enabled OJS archive to inspect the current issue 14/9 landing-page href and cross-reference historical article token 910.",
+    "Ask Zwingliana editorial team about current successor to archival URL ending /article/view/910/820 if no redirect exists.",
+    "Obtain actual PDF; inspect its metadata and printed p489/p491 images before making textual claims.",
+    "Do not infer 1986 reprint's exact corresponding printed pages or claim that historical second token 820 must be a valid modern galley ID."
+  ]
+}
