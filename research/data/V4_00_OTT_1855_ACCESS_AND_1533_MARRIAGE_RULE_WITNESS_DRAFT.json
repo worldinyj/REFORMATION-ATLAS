@@ -1,0 +1,242 @@
+{
+  "version": "V4.00",
+  "date": "2026-11-16",
+  "status": "RESEARCH_DRAFT",
+  "parent_branch": "research/atlas-v399-1533-44-articles-archive-witness-collation",
+  "branch": "research/atlas-v400-ott1855-alternate-edition-and-1533-marriage-text-witness",
+  "intent": "Locate actual 1855 Ott Rechtsquellen pp108–122 and recover a source-graded concrete 1525->1533 marriage-law change without falsely assigning article numbers",
+  "release": {
+    "can_ship": false,
+    "main_changed": false,
+    "essays_513_changed": false,
+    "ai_studio_changed": false,
+    "prior_research_rewritten": false,
+    "source_full_text_copied": false,
+    "images_republished": false,
+    "outreach_sent": false,
+    "rights_cleared": false
+  },
+  "access_trials": [
+    {
+      "id": "AC400-EP-VOLUME",
+      "source_type": "DIGITIZED_PERIODICAL_TOC",
+      "title": "Zeitschrift für schweizerisches Recht, alte Folge 4 (1855), Heft 2, Rechtsquellen von Zürich [Fortsetzung]",
+      "url": "https://www.e-periodica.ch/view/zsr-001/1855/4",
+      "known_start_printed_page": 103,
+      "known_target_printed_pages": "108–122",
+      "contents_identified_from": "PUBLIC_SEARCH_INDEX",
+      "web_open": "INTERNAL_ERROR",
+      "container_http": "DNS_NAME_RESOLUTION_FAILED",
+      "target_pages_visual_read": false,
+      "target_text_read": false,
+      "source_code_or_pdf_sha256": null,
+      "confidence": "CATALOG_IDENTIFIED_ONLY"
+    },
+    {
+      "id": "AC400-EP-OCR",
+      "source_type": "OFFICIAL_ETH_DIGITAL_SERVICE_ENDPOINT_SPEC",
+      "url": "https://www.e-periodica.ch/download/zsr-001:1855:4/ocr-fulltext",
+      "endpoint_documentation": "https://selfranga-prod11.ethz.ch/notice",
+      "note": "Official documentation advertises download/[volume identifier]/ocr-fulltext. Address formed using documented volume ID; validity for this exact volume NOT confirmed",
+      "web_open": "INTERNAL_ERROR",
+      "body_downloaded": false,
+      "sha256": null,
+      "target_pages_text_found": false,
+      "service_error": "NOT_ACCESSIBLE_IN_CURRENT_ENVIRONMENT"
+    },
+    {
+      "id": "AC400-GOOGLE-PLAY",
+      "source_type": "LIVE_DIGITAL_BOOK_CATALOG",
+      "url": "https://play.google.com/store/books/details/Friedrich_Salomon_Ott_Rechtsquellen_von_Z%C3%BCrich?id=dfI86W_fQYoC",
+      "title": "Rechtsquellen von Zürich",
+      "author": "Friedrich Salomon Ott",
+      "pub_year": 1855,
+      "advertised_pages": 204,
+      "price_label": "Get for free",
+      "catalog_directly_read": true,
+      "reader_book_pdf_or_epub_obtained": false,
+      "preview_page_108_122_read": false,
+      "download_sha256": null,
+      "physical_bibliographical_equivalence": "PROBABLE_REPRINT_OR_STANDALONE_EXTRACTION_NOT_YET_VERIFIED_PAGE_BY_PAGE",
+      "note": "Free ebook listing does not authorize claims of actual access or line-for-line identity with periodical"
+    },
+    {
+      "id": "AC400-GOOGLE-BOOKS",
+      "source_type": "CANDIDATE_BOOK_PREVIEW",
+      "url": "https://books.google.com/books?id=dfI86W_fQYoC&pg=PA108",
+      "web_open": "NOT_ACCESSIBLE_IN_CURRENT_ENVIRONMENT",
+      "printed_page_image_seen": false,
+      "content_read": false,
+      "note": "Google Play catalog verifies free ebook; books.google.com reader not viewable here"
+    }
+  ],
+  "critical_witnesses": [
+    {
+      "id": "W400-OTT1855",
+      "tier": "19C_SCHOLARLY_PARTIAL_EDITION_NOT_READ",
+      "title": "Friedrich Salomon Ott, Zürcherische Rechtsquellen, 2. Teil",
+      "publication": "Zeitschrift für schweizerisches Recht, alte Folge 4, 1855, pp108–122",
+      "url": "https://www.e-periodica.ch/view/zsr-001/1855/4",
+      "title_and_locus_verified_from_zurich_archive": true,
+      "actual_printed_text_read": false,
+      "actual_scans_seen": false,
+      "non_1533_additions_possible": true
+    },
+    {
+      "id": "W400-1878",
+      "tier": "19C_RETROSPECTIVE_LAW_HISTORY_WITH_EXCERPT_OF_1533_TEXT_SEARCH_INDEX",
+      "url": "https://www.e-periodica.ch/cntmng?pid=zsr-001%3A1878%3A20%3A%3A491",
+      "periodical": "Zeitschrift für schweizerisches Recht",
+      "year": 1878,
+      "volume": 20,
+      "section_title": "Eheschließungsrecht",
+      "indexed_printed_page": 142,
+      "printed_page_image_seen": false,
+      "OCR_excerpt_in_search_index": true,
+      "exact_historiographical_author": "NOT_VERIFIED",
+      "has_quote_of_1525_and_1533_rules": true,
+      "is_direct_16c_original": false,
+      "do_not_conflate_with_Ott1855": true,
+      "warning": "Accessible snippet is a later writer's transcription with potential OCR distortion; article numbers and original manuscript not verified"
+    },
+    {
+      "id": "W400-SSRQ156",
+      "tier": "CONTEMPORARY_SCHOLARLY_CRITICAL_EDITION_CATALOG_ENTRY_DIRECTLY_IDENTIFIED",
+      "url": "https://editio.ssrq-online.ch/ZH/NF_I_1_3?per-page=195&per_page=195",
+      "book_series": "SSRQ ZH NF I/1/3",
+      "record_number": 156,
+      "title": "Weisung der Verordneten und Eherichter der Stadt Zürich betreffend Ehescheidungen",
+      "date": "1533-05-20",
+      "printed_edition_page": 376,
+      "original_source": "StAZH A 6.1 Nr6",
+      "source_catalog": "https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=742217",
+      "regest_checked_from_official_archive": true,
+      "individual_text_directly_read": false,
+      "pdf_image_seen": false
+    },
+    {
+      "id": "W400-ZH-A61-7",
+      "tier": "OFFICIAL_ARCHIVE_CATALOG",
+      "date": "1533-07-15",
+      "shelfmark": "A 6.1, Nr. 7",
+      "url": "https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=742218",
+      "official_link_to_Ott1855_p108_122": true,
+      "primary_facsimile_seen": false
+    },
+    {
+      "id": "W400-ZH-BIII6",
+      "tier": "OFFICIAL_ARCHIVE_CATALOG_AND_HISTORIC_TITLE",
+      "date": "1533-07-15",
+      "shelfmark": "B III 6, fol217r–222v",
+      "url": "https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1916587",
+      "adoption_wording_present_in_catalog": true,
+      "physical_copy_page_seen": false,
+      "warning": "Zurich statute-copy adoption is not identical enactment in all five cities"
+    }
+  ],
+  "legal_1525_1533_comparison": {
+    "proof_status": "SECONDARY_1878_PRINTED_SOURCE_QUOTING_OLDER_RULES_NOT_DIRECT_ORIGINAL",
+    "inherited_witness": "W400-1878",
+    "earlier_1525_as_described": {
+      "source_ref": "Mandat 1525 A.6, as reproduced retrospectively in 1878 study",
+      "short_old_German_terms": [
+        "Morgengab",
+        "si zu der Ee Han"
+      ],
+      "meaning_ko": "미혼 여성과의 성적 관계가 규정된 경우 남성에게 혼인과 예물의 의무를 부과하는 1525년 조항을 후대 법학 저술이 인용",
+      "terminology_warning": "schwächt/geschmächt cannot be mechanically mapped onto a single modern criminal charge without case context",
+      "primary_1525_rule_seen": false
+    },
+    "later_1533_as_described": {
+      "source_ref": "Ehesatzungen 1533 in 1878 secondary legal exposition",
+      "short_old_German_terms": [
+        "zwei erbarn ... Mannen",
+        "nit Kuppler noch argwönig"
+      ],
+      "meaning_ko": "1533년 후대 인용문은 적법한 혼인 약속이 두 명의 신뢰할 만한 남성 증인 앞에서 이루어졌는지 여부와 여성의 평판을 규율하는 방식으로 이전 규정의 적용을 수정했다고 설명",
+      "gender_asymmetry_note": "Text emphasizes perceived honour/reputation of unmarried women and male witnesses; report critically without romanticizing or treating as modern equality",
+      "original_1533_article_seen": false,
+      "original_article_number": "UNVERIFIED",
+      "is_article_39": "NOT_ESTABLISHED"
+    },
+    "is_this_same_as_44_article_draft_final_text": "UNVERIFIED",
+    "may_20_1533_archival_query": {
+      "original_inquiry_item": "premarital intercourse creating obligation to marry",
+      "official_archive_regest_number": 2,
+      "relation_to_later_rule": "THEME_OVERLAP_NOT_TEXTUAL_IDENTITY",
+      "source_ref": "W400-SSRQ156/W400-ZH-A61-7",
+      "original_text_read": false
+    },
+    "downstream_note": "Some 1878 authorial generalizations about diffusion of 1533 law may be broader than specific intercity outcome; do not overwrite V3.99 full unification gate"
+  },
+  "article39_evidence": {
+    "article_number": 39,
+    "bern_amendment_requested": true,
+    "zurich_amendment_requested": true,
+    "exact_text_seen": false,
+    "subject_matter_verified": false,
+    "candidate_relation_to_1525_1533_evidence": "NO_IDENTITY_ESTABLISHED",
+    "no_inference_from_1878_marriage_witness": true,
+    "phrase": "Both proposed amendments at the same number, but contents and direction unknown"
+  },
+  "publication_cautions": [
+    {
+      "id": "C400-01",
+      "claim": "1855 Ott pp108–122 text has been directly inspected",
+      "allowed": false,
+      "reason": "Journal TOC and Google Play listing accessible, page scan inaccessible"
+    },
+    {
+      "id": "C400-02",
+      "claim": "1878 legal historian quotes specific 1525/1533 marriage-law modification",
+      "allowed": true,
+      "with_qualifier": "Later scholarly transcription from OCR-indexed page, not original"
+    },
+    {
+      "id": "C400-03",
+      "claim": "The specific changed rule belongs to Art.39 of 1533 draft",
+      "allowed": false,
+      "reason": "No source links its original wording to article number 39"
+    },
+    {
+      "id": "C400-04",
+      "claim": "SSRQ ZH NF I/1/3 Nr156 is an independent critical-edition entry of 1533 May20 preparation",
+      "allowed": true,
+      "with_qualifier": "Bibliographic record/index and archived regest, not full edited text"
+    },
+    {
+      "id": "C400-05",
+      "claim": "All 44 common articles adopted identically in Bern/Basel/Schaffhausen/St. Gallen",
+      "allowed": false,
+      "reason": "No uniform final text or city enactment comparison"
+    },
+    {
+      "id": "C400-06",
+      "claim": "Zurich has its own legally adopted revised marriage-law copy",
+      "allowed": true,
+      "with_qualifier": "Established only through archive catalog title, facsimile unseen"
+    }
+  ],
+  "editorial_targets": [
+    "MEDIUM-ZWINGLI",
+    "MEDIUM-MARBURG",
+    "MEDIUM-AUGSBURG",
+    "EPISODE-V399-44-ARTICLES"
+  ],
+  "next": [
+    "Access Google Play free 204-page book in a legitimate supported reader and independently check title page/pagination, printed 108–122, issue provenance; no claim until page inspected",
+    "Resolve official E-Periodica full volume OCR endpoint with accessible browser/account; document actual response not guessed endpoint",
+    "Try 2022 SSRQ critical edition No156 individual PDF/text directly, where archive regest already gives three legal question domains",
+    "Only then associate surviving 1533 ordinance text with article numbers after A6.1 Nr7 and BIII6 folio mapping",
+    "Consider 1878 expository quotation a useful contextual witness, not substitute for 1855 Ott or 16c originals"
+  ],
+  "inherited_unresolved": {
+    "V399_berns_22_numbers_kept": true,
+    "V399_art39_still_unread": true,
+    "ott1855_pp108_122_read": false,
+    "rott_1978_pages489_491_read": false,
+    "parker_ms119_original_image_read": false,
+    "bucer_jud_Bcor_VIII_598_original_print_seen": false,
+    "july1536_Bucer_Vadian_23_25": "UNRESOLVED"
+  }
+}
