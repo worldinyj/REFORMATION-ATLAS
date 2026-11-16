@@ -1,0 +1,247 @@
+{
+  "version": "V3.86",
+  "date": "2026-11-16",
+  "status": "RESEARCH_DRAFT",
+  "branch": "research/atlas-v386-rott-page-citation-and-1536-theology-map",
+  "upstream": "research/atlas-v385-rott-reprint-parker-source-recovery",
+  "release": {
+    "can_ship": false,
+    "main_modified": false,
+    "essays_513_modified": false,
+    "ai_studio_modified": false,
+    "emails_sent": false
+  },
+  "scope": "Rott (1978) pages 489 and 491 located in Rüsch (1983) citations; Vadian-Bucer source chain and Wittenberg Concord context",
+  "sources": [
+    {
+      "id": "S386-RUESCH",
+      "kind": "SCHOLARLY_ARTICLE_PDF_TEXT",
+      "title": "Ernst Gerhard Rüsch, Um das Abendmahl: Vadians Brief an Luther vom 30. August 1536",
+      "year": 1983,
+      "journal": "Theologische Zeitschrift",
+      "volume": 39,
+      "issue": 5,
+      "doi": "10.5169/seals-878396",
+      "url": "https://www.e-periodica.ch/cntmng?pid=thz-001%3A1983%3A39%3A%3A470",
+      "inspection": "EXTRACTED_PDF_TEXT_READ_DIRECTLY; WEB_SCREENSHOT_ATTEMPT_REDIRECTED_TO_VERIFICATION",
+      "scope": "Modern article and its scholarly notes, not the historical letter itself",
+      "rights": "ETH e-periodica notice: print/web reproduction of images requires rights-holder permission"
+    },
+    {
+      "id": "S386-ROTT1978",
+      "kind": "REFERENCED_EDITION_NOT_DIRECTLY_READ",
+      "title": "Jean Rott, Martin Bucer und die Schweiz: drei unbekannte Briefe von Zwingli, Bucer und Vadian (1530, 1531, 1536)",
+      "year": 1978,
+      "journal": "Zwingliana",
+      "volume": 14,
+      "issue": 9,
+      "printed_pages": "461-492",
+      "source_locator_url": "https://zwingliana.ch/issue/archive",
+      "inspection": "OFFICIAL_ISSUE_ARCHIVE_CONFIRMED; ARTICLE_PDF_NOT_RETRIEVED",
+      "quote_verified_directly": false,
+      "facsimile_checked": false
+    },
+    {
+      "id": "S386-VBS",
+      "kind": "HISTORICAL_EDITION_REFERENCED_NOT_READ",
+      "title": "Vadianische Briefsammlung, vol. V (1905)",
+      "year": 1905,
+      "url": "https://www.hvsg.ch/mitteilungen.php",
+      "inspection": "BIBLIOGRAPHY_ONLY; p323 AND p339 SCANS NOT OBTAINED",
+      "facsimile_checked": false
+    },
+    {
+      "id": "S386-WABR",
+      "kind": "CRITICAL_EDITION_REFERENCED_NOT_READ",
+      "title": "Weimarer Ausgabe, Luther Briefwechsel VII, Nr.3078",
+      "url": "https://www.lutherdigi.de/",
+      "inspection": "RÜSCH_1983_P288_FOOTNOTE_12_ONLY; WA_BR7_PAGE_NOT_DIRECTLY_READ",
+      "facsimile_checked": false
+    },
+    {
+      "id": "S386-PARKER",
+      "kind": "MANUSCRIPT_CATALOG_NOT_IMAGE",
+      "title": "Corpus Christi College Cambridge Parker Library MS119, item 71",
+      "url": "https://iiif.biblissima.fr/collections/manifest/780facf6a47bf2addec17f9498ef58363cb4c8a0",
+      "inspection": "MODERN_CATALOG_ENTRY; ORIGINAL_MANUSCRIPT_IMAGES_UNAVAILABLE",
+      "facsimile_checked": false
+    }
+  ],
+  "crossreferences": [
+    {
+      "id": "R386-489",
+      "secondary_source": "S386-RUESCH",
+      "secondary_location": "Rüsch (1983) printed p.285, footnote 5",
+      "target_source": "S386-ROTT1978",
+      "target_location": "Zwingliana XIV, p.489",
+      "historical_date": "1536-08-04",
+      "historical_direction": "Joachim Vadian → Martin Bucer",
+      "reported_latin_fragment": "Est mihi res cum solis atque unicis papistis",
+      "interpretation": "Vadian described his work as directed principally at Catholic adversaries",
+      "original_1978_page_seen": false,
+      "manuscript_seen": false,
+      "certainty": "REFERENCE_IN_SECONDARY_STUDY_CONFIRMED"
+    },
+    {
+      "id": "R386-491",
+      "secondary_source": "S386-RUESCH",
+      "secondary_location": "Rüsch (1983) printed p.286, footnote 6",
+      "target_source": "S386-ROTT1978",
+      "target_location": "Zwingliana XIV, p.491",
+      "historical_date": "1536-08-04",
+      "historical_direction": "Joachim Vadian → Martin Bucer",
+      "reported_topic": "Vadian mentions Leo Jud's criticism of his Aphorismen",
+      "original_1978_page_seen": false,
+      "manuscript_seen": false,
+      "certainty": "REFERENCE_IN_SECONDARY_STUDY_CONFIRMED"
+    },
+    {
+      "id": "R386-VBS886",
+      "secondary_source": "S386-RUESCH",
+      "secondary_location": "Rüsch (1983) printed p.286, footnote 6",
+      "target_source": "S386-VBS",
+      "target_location": "Vadianische Briefsammlung V p.323 Nr.886",
+      "reported_topic": "Leo Jud's critical reaction to Vadian's Aphorismen (as contextualized by Rüsch)",
+      "original_ed_page_seen": false,
+      "certainty": "SECONDARY_EDITORIAL_CITATION_ONLY"
+    },
+    {
+      "id": "R386-VBS908",
+      "secondary_source": "S386-RUESCH",
+      "secondary_location": "Rüsch (1983) printed p.286, footnote 7",
+      "target_source": "S386-VBS",
+      "target_location": "Vadianische Briefsammlung V p.352 Nr.908",
+      "reported_topic": "Bullinger recommended a friendly letter and sharing of work with Luther",
+      "original_ed_page_seen": false,
+      "certainty": "SECONDARY_EDITORIAL_CITATION_ONLY"
+    },
+    {
+      "id": "R386-WA3078",
+      "secondary_source": "S386-RUESCH",
+      "secondary_location": "Rüsch (1983) printed p.288, footnote 12",
+      "target_source": "S386-WABR",
+      "target_location": "WA Br 7 pp.535–536 Nr.3078",
+      "historical_date": "1536-09-06",
+      "historical_direction": "Martin Bucer → Martin Luther",
+      "reported_topic": "Bucer expressed concern over theological controversy arising from Vadian's newly published treatise",
+      "original_ed_page_seen": false,
+      "certainty": "SECONDARY_EDITORIAL_CITATION_ONLY"
+    },
+    {
+      "id": "R386-WA3109",
+      "secondary_source": "S386-RUESCH",
+      "secondary_location": "Rüsch (1983) printed p.288, footnote 11",
+      "target_source": "S386-WABR",
+      "target_location": "WA Br 7 pp.595–599 Nr.3109",
+      "historical_date": "1536-11-28",
+      "historical_direction": "Joachim Vadian → Martin Luther",
+      "reported_topic": "Vadian urged recognition of Swiss theology while seeking conciliation",
+      "original_ed_page_seen": false,
+      "certainty": "SECONDARY_EDITORIAL_CITATION_ONLY"
+    }
+  ],
+  "historical_observations": [
+    {
+      "id": "C386-01",
+      "text": "Vadian's Aphorismorum libri sex de consideratione eucharistiae appeared in Zürich with Froschauer in August 1536; Rüsch characterizes it as polemic against the Catholic mass, not principally a Lutheran-Reformed statement.",
+      "source_id": "S386-RUESCH",
+      "source_locator": "printed p.285",
+      "claim_type": "SCHOLARLY_HISTORICAL_INTERPRETATION",
+      "public_use": "SOURCE_ATTRIBUTED_REVIEW"
+    },
+    {
+      "id": "C386-02",
+      "text": "Rüsch's footnote 5 quotes Vadian to Bucer of August 4, 1536 and refers to Rott (1978) p.489.",
+      "source_id": "S386-RUESCH",
+      "source_locator": "printed p.285 n.5",
+      "claim_type": "VERIFIED_SECONDARY_CITATION",
+      "public_use": "SOURCE_ATTRIBUTED_REVIEW"
+    },
+    {
+      "id": "C386-03",
+      "text": "Rüsch's footnote 6 cites Rott p.491 and VBS V p.323 Nr.886 in the Leo Jud criticism discussion.",
+      "source_id": "S386-RUESCH",
+      "source_locator": "printed p.286 n.6",
+      "claim_type": "VERIFIED_SECONDARY_CITATION",
+      "public_use": "SOURCE_ATTRIBUTED_REVIEW"
+    },
+    {
+      "id": "C386-04",
+      "text": "The printed 1978 Rott p.489 and p.491 text has been independently verified.",
+      "source_id": "S386-ROTT1978",
+      "source_locator": "p.489, p.491",
+      "claim_type": "NOT_VERIFIED",
+      "public_use": "BLOCKED"
+    },
+    {
+      "id": "C386-05",
+      "text": "Parker MS119's original date line and manuscript form have been directly inspected.",
+      "source_id": "S386-PARKER",
+      "source_locator": "pp.199-200, 205-206",
+      "claim_type": "NOT_VERIFIED",
+      "public_use": "BLOCKED"
+    },
+    {
+      "id": "C386-06",
+      "text": "The exact source identity and letter number at Vadian BW V p.339 has been verified.",
+      "source_id": "S386-VBS",
+      "source_locator": "p.339",
+      "claim_type": "NOT_VERIFIED",
+      "public_use": "BLOCKED"
+    },
+    {
+      "id": "C386-07",
+      "text": "1536-07-23 Bucer→Vadian and Zürich 1536-07-25 letter are a single item.",
+      "source_id": "S386-VBS",
+      "source_locator": "p.339, unknown",
+      "claim_type": "UNRESOLVED",
+      "public_use": "BLOCKED"
+    }
+  ],
+  "publication_gate": {
+    "narrative_ready_for_review": [
+      "C386-01",
+      "C386-02",
+      "C386-03"
+    ],
+    "protected_claim_ids": [
+      "C386-04",
+      "C386-05",
+      "C386-06",
+      "C386-07"
+    ],
+    "prohibit_verbatim_1978_transcription": true,
+    "prohibit_parker_original_image_claim": true,
+    "prohibit_july_date_merge": true,
+    "qa_needs_independent_1978_pdf": true,
+    "qa_needs_manuscript_image": true,
+    "qa_needs_1905_p339_print": true,
+    "ship_disabled": true
+  },
+  "source_access_attempts": [
+    {
+      "target": "Zwingliana 14/9 (1978), Rott article pp.461–492, specifically 489/491",
+      "result": "ISSUE_LISTED_BUT_INDIVIDUAL_ARTICLE_LINK_NOT_RETRIEVED",
+      "completed": false,
+      "verified_pdf_page": false
+    },
+    {
+      "target": "Parker MS119 pp199,200,205,206",
+      "result": "METADATA_AVAILABLE; ORIGINAL_IMAGE_NOT_OBTAINED",
+      "completed": false,
+      "verified_pdf_page": false
+    },
+    {
+      "target": "Rüsch 1983 scholarly article",
+      "result": "EXTRACTED_PDF_TEXT_READ; SCREENSHOT_REWRITTEN_AS_VERIFICATION_REQUIRED",
+      "completed": true,
+      "verified_pdf_page": false
+    }
+  ],
+  "next": [
+    "Find original Rott 1978 article PDF file / stable article identifier from Zwingliana issue 14/9 and screenshot pp.489,491",
+    "Retrieve Parker item 71 direct images or record from institutional digitization; compare original date",
+    "Check VBS V pp.323,339 and WA Br 7 Nr3078 independently",
+    "Promote secondary historical narrative to the web app only after attribution and explicit editorial review"
+  ]
+}
