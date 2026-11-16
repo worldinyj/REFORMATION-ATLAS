@@ -1,0 +1,103 @@
+{
+  "version": "V3.87",
+  "as_of": "2026-11-16",
+  "status": "RESEARCH_DRAFT",
+  "branch": "research/atlas-v387-rott-ojs-pdf-discovery",
+  "upstream": "research/atlas-v386-rott-page-citation-and-1536-theology-map",
+  "release": {
+    "can_ship": false,
+    "main_modified": false,
+    "essays_513_modified": false,
+    "ai_studio_modified": false,
+    "emails_sent": false
+  },
+  "objective": "Identify official PDF for Rott 1978 Zwingliana 14/9 and visually verify printed pp.489 and 491",
+  "evidence": [
+    {
+      "id": "S1",
+      "kind": "OFFICIAL_JOURNAL_ARCHIVE",
+      "url": "https://zwingliana.ch/issue/archive",
+      "observed": "Issue 14/9 (1978) listed",
+      "not_seen": "Exact issue/article/PDF URLs"
+    },
+    {
+      "id": "S2",
+      "kind": "UNIVERSITY_DIGITAL_JOURNAL_DESCRIPTION",
+      "url": "https://www.irg.uzh.ch/de/publikationen/zwingli/zwingliana-online.html",
+      "observed": "University of Zürich describes openly available full texts for more than 2200 articles in 202 issues",
+      "not_seen": "Rott original individual PDF"
+    },
+    {
+      "id": "S3",
+      "kind": "SCHOLARLY_BIBLIOGRAPHY",
+      "url": "https://brill.com/edcollchap/book/9789047414209/front-8.pdf",
+      "observed": "Rott article first printed Zwingliana 14 (1978) pp.461–492 and reprinted Investigationes Historicae II (1986) pp.203–234",
+      "not_seen": "Original 489/491 scans; 1986 matching page"
+    },
+    {
+      "id": "S4",
+      "kind": "SECONDARY_CITATION",
+      "url": "https://www.e-periodica.ch/cntmng?pid=thz-001%3A1983%3A39%3A%3A470",
+      "observed": "Rüsch (1983) p.285 n.5 and p.286 n.6 refer to Rott 489/491",
+      "not_seen": "1978 images"
+    },
+    {
+      "id": "S5",
+      "kind": "MANUSCRIPT_CATALOG",
+      "url": "https://iiif.biblissima.fr/collections/manifest/780facf6a47bf2addec17f9498ef58363cb4c8a0",
+      "observed": "CCCC Parker MS119 catalog entry for Vadian→Bucer 1536-08-04",
+      "not_seen": "Physical manuscript"
+    }
+  ],
+  "article": {
+    "author": "Jean Rott (also Hans-Georg Rott)",
+    "title": "Martin Bucer und die Schweiz: Drei unbekannte Briefe von Zwingli, Bucer und Vadian (1530, 1531, 1536)",
+    "journal": "Zwingliana",
+    "volume": 14,
+    "issue": 9,
+    "year": 1978,
+    "pages": "461–492",
+    "inspection_targets": [
+      489,
+      491
+    ],
+    "reprint_1986": "Investigationes Historicae II pp.203–234; 1986 p.231 only hypothetical offset"
+  },
+  "acquisition": {
+    "official_archive_url": "https://zwingliana.ch/issue/archive",
+    "exact_issue_page_url": null,
+    "exact_article_url": null,
+    "article_id": null,
+    "pdf_url": null,
+    "pdf_downloaded": false,
+    "pdf_sha256": null,
+    "printed_page_489_visually_inspected": false,
+    "printed_page_491_visually_inspected": false,
+    "manuscript_image_obtained": false
+  },
+  "tool": {
+    "script": "research/scripts/resolve_v387_zwingliana_rott.py",
+    "python_stdlib_only": true,
+    "default_mode": "discovery only; no download",
+    "download_mode": "explicit --download, 20MiB limit, PDF magic check, SHA256, refuses overwrite, outside repository",
+    "offline_synthetic_fixture_checks_passed": 7,
+    "offline_prototype_executed": true,
+    "exact_committed_script_executed": false,
+    "live_journal_crawl_executed": false,
+    "reason": "Network requests from local execution environment have failed DNS resolution",
+    "output_must_be_independently_verified": true
+  },
+  "evidence_gates": {
+    "printed_1978_489_491_directly_read": false,
+    "original_1536_08_04_manuscript_date_verified": false,
+    "july_23_july_25_letter_identity": "UNRESOLVED",
+    "corrected_zurich_catalog_id": "CH-002121-2-991170608445805501",
+    "public_content_promotion": false
+  },
+  "next_steps": [
+    "Run official-journal resolver with network and record exact issue/article/PDF URLs",
+    "Obtain PDF to non-repository cache and verify SHA256, PDF file signature",
+    "Map printed pp.489 and 491 to actual PDF pages; visually inspect images before quoting original transcription",
+    "Compare Parker MS119 facsimile independently; do not conflate catalog, critical edition and original manuscript"
+  ]
+}
