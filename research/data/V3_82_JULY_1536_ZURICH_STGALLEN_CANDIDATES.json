@@ -1,0 +1,232 @@
+{
+  "version": "V3.82",
+  "as_of": "2026-11-16",
+  "status": "RESEARCH_DRAFT",
+  "lineage": {
+    "base_branch": "research/atlas-v381-catalog-id-correction-and-findingaid",
+    "corrected_id": "CH-002121-2-991170608445805501",
+    "retired_misattribution": "CH-002121-2-991170609317505501"
+  },
+  "release": {
+    "main_modified": false,
+    "ai_studio_modified": false,
+    "essays_513_modified": false,
+    "can_ship": false,
+    "email_sent": false
+  },
+  "scope": "Bucer-Vadian July 23/25 1536 identity check; St Gallen finding-aid index and Zürich adjoining July 25 archival candidates",
+  "evidence": [
+    {
+      "id": "V382-S1",
+      "kind": "OFFICIAL_ST_GALLEN_FINDING_AID",
+      "url": "https://kalliope-verbund.info/gnd/findingaid?fa.enum=1&fa.id=CH-002121-2-991170432739305501",
+      "inspection": "FULL_PARENT_PAGE_TEXT",
+      "details": "Vadianische Briefsammlung; 3790 indexed entries; collection signature VadSlg Ms 30-41a, 1495–1630; individual item titles/date/shelfmarks available"
+    },
+    {
+      "id": "V382-S2",
+      "kind": "OFFICIAL_KALLIOPE_PEOPLE_INDEX",
+      "url": "https://kalliope-verbund.info/gnd/findingaid_index?fa.enum=2547&fa.id=CH-002121-2-991170432739305501&lastparam=true",
+      "inspection": "FULL_INDEX_PAGE_TEXT",
+      "details": "Bucer, Martin (1491-1551)(49) in people index; raw index hit count only"
+    },
+    {
+      "id": "V382-S3",
+      "kind": "ZURICH_FINDING_AID_SEARCH_INDEX",
+      "url": "https://nachlassdatenbank.de/findingaid?fa.id=CH-002121-2-881170715577605501&fq=ead.pers.index%3A%28%22Aelen%2C+Kaspar%22%29&htmlFull=false&lang=de&lastparam=true",
+      "inspection": "INDEX_LIST_EXCERPT",
+      "details": "Row 59433 = Bucer to Vadian 1536-07-25 Ms S 41, Nr 33, correctly mapped to CH-002121-2-991170608445805501"
+    },
+    {
+      "id": "V382-S4",
+      "kind": "ZURICH_FINDING_AID_SEARCH_INDEX",
+      "url": "https://www.kalliope-verbund.info/de/findingaid?fa.id=CH-002121-2-881170715577605501&fq=ead.corp.index%3A%28%22Berner+Rundschau%22%29&htmlFull=false&lang=de&lastparam=true",
+      "inspection": "INDEX_LIST_EXCERPT",
+      "details": "Jacob Bedrot to Vadian [1536]-07-25 Ms S 41 Nr31-32; catalog date year bracketed; stable individual-record ID not directly verified"
+    },
+    {
+      "id": "V382-S5",
+      "kind": "KALLIOPE_INDIVIDUAL_EAD_INDEX",
+      "url": "https://kalliope-verbund.info/ead?ead.id=CH-002121-2-991170525759305501",
+      "inspection": "SEARCH_INDEX_TEXT",
+      "details": "Example of an unrelated St Gallen letter Ms 34:60 (1541) listing a Swisscollections record and han.stadtarchiv.ch individual manuscript PDF; NOT target manuscript"
+    },
+    {
+      "id": "V382-S6",
+      "kind": "ST_GALLEN_ARCHIVE_OFFICIAL_DESCRIPTION",
+      "url": "https://stadtarchiv.ch/forschungsprojekte/vadianische-briefsammlung/",
+      "inspection": "WEB_TEXT",
+      "details": "Digital cataloging project and linked manuscript digitals; no confirmation that target is digitized"
+    },
+    {
+      "id": "V382-S7",
+      "kind": "VOLUME_PUBLICATION_CATALOG",
+      "url": "https://www.hvsg.ch/mitteilungen.php",
+      "inspection": "WEB_CATALOG_TEXT",
+      "details": "1905 print volume V, 2. Hälfte, 1536-1540, 476 pp; printed p339 image still unavailable"
+    }
+  ],
+  "candidate_letters": [
+    {
+      "id": "V382-L1",
+      "sender": "Martin Bucer",
+      "recipient": "Joachim Vadian",
+      "date": "1536-07-23",
+      "date_precision": "INHERITED_NOT_RECHECKED",
+      "institution": null,
+      "shelfmark": null,
+      "catalog_id": null,
+      "printed_page": "Vadian BW V p.339 (unverified link)",
+      "catalog_evidence_ids": [],
+      "document_examined": false,
+      "identity_status": "UNRESOLVED_TARGET",
+      "public_use": "BLOCKED"
+    },
+    {
+      "id": "V382-L2",
+      "sender": "Martin Bucer",
+      "recipient": "Joachim Vadian",
+      "date": "1536-07-25",
+      "date_precision": "CATALOG_EXPLICIT",
+      "institution": "Zentralbibliothek Zürich",
+      "shelfmark": "Ms S 41, Nr. 33",
+      "catalog_id": "CH-002121-2-991170608445805501",
+      "catalog_evidence_ids": [
+        "V382-S3"
+      ],
+      "document_examined": false,
+      "identity_status": "CATALOG_CANDIDATE",
+      "public_use": "RESEARCH_ONLY"
+    },
+    {
+      "id": "V382-L3",
+      "sender": "Jacob Bedrot",
+      "recipient": "Joachim Vadian",
+      "date": "1536-07-25",
+      "date_precision": "CATALOG_YEAR_BRACKETED",
+      "institution": "Zentralbibliothek Zürich",
+      "shelfmark": "Ms S 41, Nr. 31-32",
+      "catalog_id": null,
+      "catalog_evidence_ids": [
+        "V382-S4"
+      ],
+      "document_examined": false,
+      "identity_status": "ADJACENT_ARCHIVAL_CANDIDATE",
+      "public_use": "RESEARCH_ONLY"
+    },
+    {
+      "id": "V382-L4",
+      "sender": "Heinrich Bullinger",
+      "recipient": "Joachim Vadian",
+      "date": "1536-08-06",
+      "date_precision": "CRITICAL_EDITION",
+      "institution": "St. Gallen Kantonsbibliothek (Vadiana)",
+      "shelfmark": "Ms 33 (VBS IV), Nr.50 (HBBW 875 edition)",
+      "catalog_id": null,
+      "printed_page": "Vadian BW V pp.341-343",
+      "catalog_evidence_ids": [],
+      "document_examined": false,
+      "identity_status": "CRITICAL_EDITION_CONTROL",
+      "public_use": "EDITORIAL_ATTRIBUTION_ONLY"
+    }
+  ],
+  "inferences": [
+    {
+      "id": "V382-I1",
+      "description": "Zürich Ms S41 Nr31-33 entries juxtapose one Jacob Bedrot letter and one Martin Bucer letter with the same catalog day (year inferred for Bedrot).",
+      "status": "CATALOG_ADJACENCY",
+      "not_proven": "No proof that the same scribe, mail pouch, sender city, event, or transmission links them."
+    },
+    {
+      "id": "V382-I2",
+      "description": "St Gallen index count 49 gives a useful Bucer-oriented filtering path.",
+      "status": "SEARCH_LEAD",
+      "not_proven": "Not verified as 49 unique extant letters or 49 candidate 1536 documents."
+    },
+    {
+      "id": "V382-I3",
+      "description": "The direct PDF pattern observed in a separate 1541 St Gallen letter supports a path to original-document PDFs.",
+      "status": "ACCESS_PATTERN_ONLY",
+      "not_proven": "No target PDF/IIIF manifest located or visually read."
+    },
+    {
+      "id": "V382-I4",
+      "description": "The 1536-07-23 and 1536-07-25 claims cannot yet be merged or resolved from textual/catalog matches alone.",
+      "status": "UNRESOLVED",
+      "not_proven": "No printed p339 image; no original manuscript date lines."
+    }
+  ],
+  "research_retrieval_log": [
+    {
+      "target": "St Gallen finding-aid Bucer index subset (49 matches)",
+      "attempted": true,
+      "subset_fully_enumerated": false,
+      "matches_individually_audited": 0,
+      "reason": "Filtered Kalliope page not retrieved via web open; people index establishes hit count only"
+    },
+    {
+      "target": "Original 1905 second-half printed page 339 (plus 338–343)",
+      "attempted": true,
+      "image_obtained": false,
+      "reason": "Catalog listings and combined-volume ebook landing page found but no directly inspectable page image"
+    },
+    {
+      "target": "Zurich Ms S41 Nr33 Bucer letter manuscript",
+      "attempted": true,
+      "image_obtained": false,
+      "reason": "Catalog/list text accessible; item facsimile and date line not retrieved"
+    },
+    {
+      "target": "Zurich Ms S41 Nr31–32 Bedrot letter manuscript",
+      "attempted": true,
+      "image_obtained": false,
+      "reason": "Catalog/list text accessible; item facsimile/date line not retrieved"
+    }
+  ],
+  "collection_disambiguation": [
+    {
+      "kind": "FINDING_AID_COLLECTION_SIGNATURE",
+      "value": "VadSlg Ms 30-41a",
+      "must_not_assume_is": "Individual manuscript number for 1536-07-23"
+    },
+    {
+      "kind": "ZURICH_MANUSCRIPT_SIGNATURE",
+      "value": "Ms S 41, Nr. 33",
+      "must_not_assume_is": "St Gallen VadSlg Ms 41:33"
+    },
+    {
+      "kind": "PRINTED_EDITION_PAGE",
+      "value": "Vadian BW V p.339",
+      "must_not_assume_is": "Manuscript page 339 or an HBBW correspondence number"
+    }
+  ],
+  "next_priority_tasks": [
+    {
+      "priority": 1,
+      "task": "Get full St Gallen filtered Bucer 49-hit list; parse all matching lines into normalized date, sender, recipient, shelfmark, catalog ID, link and identify July 1536 ones",
+      "done": false
+    },
+    {
+      "priority": 2,
+      "task": "Request or retrieve printed 1905 p.338–343 scan; verify p339 entry no, heading, and edition footnotes",
+      "done": false
+    },
+    {
+      "priority": 3,
+      "task": "Retrieve Zürich S41 Nr31–33 individual record images and inspect literal date lines, provenance and any overlap",
+      "done": false
+    },
+    {
+      "priority": 4,
+      "task": "Recheck WA Br7 3048 editorial p.339 identification; do not merge if text/identity conflict remains",
+      "done": false
+    }
+  ],
+  "qa": {
+    "distinct_shelfmarks": true,
+    "old_catalog_id_not_reused_for_bucer": true,
+    "date_collision_unresolved": true,
+    "facsimile_not_claimed": true,
+    "release_locked": true
+  }
+}
