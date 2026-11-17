@@ -1,0 +1,27 @@
+{
+  "version": "V4.30",
+  "schema": "ATLAS_L0_PRIVATE_BRIDGE_ACTUAL_NODE_EXECUTION",
+  "status": "PASS",
+  "tests": {
+    "count": 27,
+    "passed": 27,
+    "failed": 0
+  },
+  "bridge_exit": "0",
+  "source_contract_exit": "0",
+  "files": {
+    "adapter": "integrations/atlas-l0-v430/bridge.mjs",
+    "adapter_sha": "1f585f31cf10e05530662e05c228de3519ef8632",
+    "test_sha": "0b759bf9831540efa1a227949769ce84691cfd05",
+    "import_sha": "64c27c0dfe05394acbb049807e4c4384d58908b9",
+    "source_contract_sha": "c617b8128a46bcf9966cb6f1ea1b35b61722d5c6"
+  },
+  "source_contract_status": "PASS",
+  "actual_ai_studio_app_modified": false,
+  "actual_ai_studio_staging_executed": false,
+  "actual_host_auth_verified": false,
+  "actual_historian_reviewers": 0,
+  "actual_reader_pilot_sessions": 0,
+  "can_ship": false,
+  "errors": []
+}
