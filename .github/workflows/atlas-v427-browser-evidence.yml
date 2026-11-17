@@ -24,11 +24,25 @@ jobs:
         with:
           node-version: "22"
       - name: Install isolated Playwright engines
+        id: browsers
+        continue-on-error: true
         run: |
-          mkdir -p /tmp/atlas-v427-tools
-          npm install --prefix /tmp/atlas-v427-tools --no-save --no-package-lock playwright@1.56.1
-          /tmp/atlas-v427-tools/node_modules/.bin/playwright install --with-deps chromium webkit
+          mkdir -p /tmp/atlas-v427-tools research/artifacts/V427_browser_evidence
+          set +e
+          npm install --prefix /tmp/atlas-v427-tools --no-save --no-package-lock playwright@1.56.1 > research/artifacts/V427_browser_evidence/INSTALL_LOG.txt 2>&1
+          INSTALL_CODE=$?
+          if test "$INSTALL_CODE" = 0; then
+            /tmp/atlas-v427-tools/node_modules/.bin/playwright install --with-deps chromium webkit >> research/artifacts/V427_browser_evidence/INSTALL_LOG.txt 2>&1
+            ENGINE_CODE=$?
+          else
+            ENGINE_CODE=99
+          fi
+          echo "NPM_EXIT=$INSTALL_CODE" >> research/artifacts/V427_browser_evidence/INSTALL_LOG.txt
+          echo "BROWSER_INSTALL_EXIT=$ENGINE_CODE" >> research/artifacts/V427_browser_evidence/INSTALL_LOG.txt
+          tail -60 research/artifacts/V427_browser_evidence/INSTALL_LOG.txt
+          test "$INSTALL_CODE" = 0 && test "$ENGINE_CODE" = 0
       - name: Run exact-source Chromium and WebKit checks
+        if: always()
         id: e2e
         env:
           NODE_PATH: /tmp/atlas-v427-tools/node_modules
@@ -46,6 +60,7 @@ jobs:
         env:
           E_CHROMIUM: ${{ steps.e2e.outputs.chromium_exit }}
           E_WEBKIT: ${{ steps.e2e.outputs.webkit_exit }}
+          E_SETUP: ${{ steps.browsers.outcome }}
         run: |
           mkdir -p research/artifacts/V427_browser_evidence
           python3 - <<'PY'
@@ -54,7 +69,9 @@ jobs:
           root=Path('research/artifacts/V426_browser_checks')
           dst=Path('research/artifacts/V427_browser_evidence')
           names=['chromium','webkit']
-          out={'version':'V4.27','source':'preview/V424_L0_EDITORIAL_ALPHA_OFFLINE_PREVIEW.html','engines':{},'release':{'can_ship':False,'actual_human_review_completed':False}}
+          log_file=dst/'INSTALL_LOG.txt'
+          install_log=log_file.read_text(errors='replace') if log_file.exists() else 'MISSING'
+          out={'version':'V4.27','source':'preview/V424_L0_EDITORIAL_ALPHA_OFFLINE_PREVIEW.html','setup':{'outcome':os.environ.get('E_SETUP'),'install_log_tail':install_log[-6500:]},'engines':{},'release':{'can_ship':False,'actual_human_review_completed':False}}
           for name in names:
               reports=list((root/name).glob('V426_*_BROWSER_REPORT.json'))
               result=json.loads(reports[0].read_text()) if reports else None
@@ -64,6 +81,7 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add research/artifacts/V427_browser_evidence/V427_BROWSER_E2E_RESULTS.json
+          if test -f research/artifacts/V427_browser_evidence/INSTALL_LOG.txt; then git add research/artifacts/V427_browser_evidence/INSTALL_LOG.txt; fi
           for engine in chromium webkit; do
             for name in desktop-volumes mobile-volumes small-mobile-themes; do
               img="research/artifacts/V426_browser_checks/$engine/$name.png"
@@ -89,6 +107,8 @@ jobs:
         env:
           E_CHROMIUM: ${{ steps.e2e.outputs.chromium_exit }}
           E_WEBKIT: ${{ steps.e2e.outputs.webkit_exit }}
+          E_SETUP: ${{ steps.browsers.outcome }}
         run: |
+          test "$E_SETUP" = success
           test "$E_CHROMIUM" = 0
           test "$E_WEBKIT" = 0
