@@ -2,7 +2,7 @@ name: ATLAS V4.26 Offline Preview Cross-Browser
 on:
   push:
     branches:
-      - research/atlas-v426-chromium-verified-offline-preview-l0
+      - research/atlas-v426-responsive-ux-browser-matrix-l0
     paths:
       - "preview/V424_L0_EDITORIAL_ALPHA_OFFLINE_PREVIEW.html"
       - "research/tests/v426_multi_engine_browser_probe.cjs"
