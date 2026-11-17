@@ -1,16 +1,20 @@
 {
   "version": "V4.27",
   "source": "preview/V424_L0_EDITORIAL_ALPHA_OFFLINE_PREVIEW.html",
+  "setup": {
+    "outcome": "failure",
+    "install_log_tail": "\nadded 2 packages in 2s\nBEWARE: your OS is not officially supported by Playwright; installing dependencies for ubuntu26.04-x64 as a fallback.\nCannot install dependencies for ubuntu26.04-x64 with Playwright 1.56.1!\nFailed to install browsers\nError: ERROR: Playwright does not support chromium on ubuntu26.04-x64\nNPM_EXIT=0\nBROWSER_INSTALL_EXIT=1\n"
+  },
   "engines": {
     "chromium": {
       "report_present": false,
       "test_report": null,
-      "exit_code": ""
+      "exit_code": "1"
     },
     "webkit": {
       "report_present": false,
       "test_report": null,
-      "exit_code": ""
+      "exit_code": "1"
     }
   },
   "release": {
