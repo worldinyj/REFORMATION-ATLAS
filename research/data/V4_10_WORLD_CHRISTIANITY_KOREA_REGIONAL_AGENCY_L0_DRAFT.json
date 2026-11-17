@@ -1,0 +1,1319 @@
+{
+  "version": "V4.10",
+  "created": "2026-11-17",
+  "status": "L0_WORLD_CHRISTIANITY_KOREA_DRAFT",
+  "branch": "research/atlas-v410-world-christianity-korea-local-agency-l0",
+  "parent_branch": "research/atlas-v409-catholic-reform-conflict-coexistence-l0",
+  "level": "L0",
+  "goal": "Correct Eurocentric time framing and construct a world Christianity overview anchored in existing regional traditions and local historical agents, with Korean Catholic and Protestant routes clearly separated.",
+  "existing_baselines": {
+    "canonical_vol07": "docs/01_CONTENT/OVERVIEW/VOL-07_OVERVIEW_V01.md",
+    "vol07_baseline_sha": "8e468c2a6e04a0c6f791ee9bdfb69454586920a0",
+    "v406_navigation": "research/data/V4_06_L0_WORLD_CHURCH_REFORMATION_NAVIGATION_DRAFT.json",
+    "v406_blob": "6f75bdca24ec3b81cc389266c3fa5811d0c37a28",
+    "v409_archival_detail_untouched": true
+  },
+  "sources": [
+    {
+      "id": "S410-01",
+      "title": "Oxford African History: Archaeology of Christianity in Ethiopia and Eritrea",
+      "url": "https://academic.oup.com/edited-volume/61663/chapter-abstract/553441233",
+      "access_level": "ACADEMIC_ABSTRACT",
+      "claim": "4세기 악숨의 기독교 형성",
+      "original_manuscript_read": false,
+      "paid_chapter_full_text_read": false,
+      "images_reproduced": false
+    },
+    {
+      "id": "S410-02",
+      "title": "Metropolitan Museum, African Christianity in Ethiopia",
+      "url": "https://www.metmuseum.org/ko/essays/african-christianity-in-ethiopia",
+      "access_level": "MUSEUM_OPEN_OVERVIEW",
+      "claim": "악숨 에자나 왕과 토착 사회의 장기 변화",
+      "original_manuscript_read": false,
+      "paid_chapter_full_text_read": false,
+      "images_reproduced": false
+    },
+    {
+      "id": "S410-03",
+      "title": "Oxford Handbook Roman Egypt: Christianity",
+      "url": "https://academic.oup.com/edited-volume/28112/chapter-abstract/212254916",
+      "access_level": "ACADEMIC_ABSTRACT",
+      "claim": "알렉산드리아와 이집트 수도원 전통",
+      "original_manuscript_read": false,
+      "paid_chapter_full_text_read": false,
+      "images_reproduced": false
+    },
+    {
+      "id": "S410-04",
+      "title": "Oxford, The First Christian Texts in Chinese",
+      "url": "https://academic.oup.com/book/41527/chapter-abstract/352969077",
+      "access_level": "ACADEMIC_ABSTRACT",
+      "claim": "781년 서안 비문과 당나라 기독교의 번역",
+      "original_manuscript_read": false,
+      "paid_chapter_full_text_read": false,
+      "images_reproduced": false
+    },
+    {
+      "id": "S410-05",
+      "title": "Asian Civilisations Museum, Xi'an Christian Stele",
+      "url": "https://www.nhb.gov.sg/acm/-/media/acm/acm2017/documents/content-guides/large-print-guides/large-print-guides_accessibility_christian-art.ashx?la=en",
+      "access_level": "MUSEUM_ACCESSIBILITY_CATALOG",
+      "claim": "781년 비문과 635년 기원 서사의 구별",
+      "original_manuscript_read": false,
+      "paid_chapter_full_text_read": false,
+      "images_reproduced": false
+    },
+    {
+      "id": "S410-06",
+      "title": "CEU, Malabar Sermonary 2023 thesis abstract",
+      "url": "https://www.etd.ceu.edu/2023/mustata_radu.htm",
+      "access_level": "ACADEMIC_THESIS_ABSTRACT",
+      "claim": "남인도 성 토마스 기독교인의 시리아어 전통과 포르투갈 이전 역사",
+      "original_manuscript_read": false,
+      "paid_chapter_full_text_read": false,
+      "images_reproduced": false
+    },
+    {
+      "id": "S410-07",
+      "title": "Metropolitan Museum, Central Africa 1400–1600",
+      "url": "https://www.metmuseum.org/ko/toah/ht/08/afc",
+      "access_level": "MUSEUM_OPEN_OVERVIEW",
+      "claim": "1491년 콩고 왕실의 세례와 정치적 선택",
+      "original_manuscript_read": false,
+      "paid_chapter_full_text_read": false,
+      "images_reproduced": false
+    },
+    {
+      "id": "S410-08",
+      "title": "Metropolitan Museum, Christianity and Kongo Visual Culture (2026)",
+      "url": "https://www.metmuseum.org/it/essays/christianity-kongo-visual-culture",
+      "access_level": "MUSEUM_OPEN_RESEARCH_ESSAY",
+      "claim": "콩고의 자체 시각문화와 통치자가 주도한 기독교 수용",
+      "original_manuscript_read": false,
+      "paid_chapter_full_text_read": false,
+      "images_reproduced": false
+    },
+    {
+      "id": "S410-09",
+      "title": "Cambridge History Christianity: Independency in Africa and Asia",
+      "url": "https://resolve.cambridge.org/core/services/aop-cambridge-core/content/view/3A1D548B8F0B936195D7AFE737A6DE20/9781139054850c7_p107-128_CBO.pdf/independency-in-africa-and-asia.pdf",
+      "access_level": "ACADEMIC_CHAPTER_SUMMARY",
+      "claim": "근현대 아프리카 독립교회와 서구 제도에 대한 대응",
+      "original_manuscript_read": false,
+      "paid_chapter_full_text_read": false,
+      "images_reproduced": false
+    },
+    {
+      "id": "S410-10",
+      "title": "Oxford Handbook of Latin American Christianity",
+      "url": "https://academic.oup.com/edited-volume/34378",
+      "access_level": "ACADEMIC_HANDBOOK_ABSTRACT",
+      "claim": "토착민·아프리카계 신자, 해방신학, 성령운동의 다양성",
+      "original_manuscript_read": false,
+      "paid_chapter_full_text_read": false,
+      "images_reproduced": false
+    },
+    {
+      "id": "S410-11",
+      "title": "Oxford Native American Missionaries",
+      "url": "https://academic.oup.com/reference/62333/reference-article-abstract/574177649",
+      "access_level": "SCHOLARLY_OVERVIEW_EXTRACT",
+      "claim": "북미 원주민의 선교 수용·저항·지도력",
+      "original_manuscript_read": false,
+      "paid_chapter_full_text_read": false,
+      "images_reproduced": false
+    },
+    {
+      "id": "S410-12",
+      "title": "Pew, Black Religious History in the U.S.",
+      "url": "https://www.pewresearch.org/religious-landscape-study/2021/02/16/a-brief-overview-of-black-religious-history-in-the-u-s/",
+      "access_level": "RESEARCH_CENTER_PUBLIC_HISTORY",
+      "claim": "1816년 AME교단, 흑인 교회와 사회조직",
+      "original_manuscript_read": false,
+      "paid_chapter_full_text_read": false,
+      "images_reproduced": false
+    },
+    {
+      "id": "S410-13",
+      "title": "Oxford, Jesuit Missions in China from Matteo Ricci",
+      "url": "https://academic.oup.com/reference/62338/reference-article-abstract/554184697",
+      "access_level": "ACADEMIC_OVERVIEW",
+      "claim": "1583년 예수회 중국 거주·중국 학자의 활동",
+      "original_manuscript_read": false,
+      "paid_chapter_full_text_read": false,
+      "images_reproduced": false
+    },
+    {
+      "id": "S410-14",
+      "title": "Oxford, Japan and Europe: Christian Century 1549–1650",
+      "url": "https://academic.oup.com/reference/62416/reference-article-abstract/555950158",
+      "access_level": "ACADEMIC_OVERVIEW",
+      "claim": "1549년 하비에르와 일본 내 박해·공동체",
+      "original_manuscript_read": false,
+      "paid_chapter_full_text_read": false,
+      "images_reproduced": false
+    },
+    {
+      "id": "S410-15",
+      "title": "Australian National University, Island Ministers",
+      "url": "https://openresearch-repository.anu.edu.au/items/8e3313e9-3401-4f4d-bbf9-6299950eab00",
+      "access_level": "UNIVERSITY_OPEN_BOOK_METADATA",
+      "claim": "19세기 태평양 섬 주민 전도자·목회자·여성 공동체",
+      "original_manuscript_read": false,
+      "paid_chapter_full_text_read": false,
+      "images_reproduced": false
+    },
+    {
+      "id": "S410-16",
+      "title": "Cambridge Historical Journal, Polynesian Missionaries and Oral Tradition",
+      "url": "https://www.cambridge.org/core/journals/historical-journal/article/islanders-protestant-missionaries-and-traditions-regarding-the-past-in-nineteenthcentury-polynesia/606AC45865E0E8B5915D67BE66EBFBB2",
+      "access_level": "SCHOLARLY_ABSTRACT_EXTRACT",
+      "claim": "태평양 선교와 토착 구전 문화의 상호작용",
+      "original_manuscript_read": false,
+      "paid_chapter_full_text_read": false,
+      "images_reproduced": false
+    },
+    {
+      "id": "S410-17",
+      "title": "Cambridge, Catholicism in Early 19th-Century Korea",
+      "url": "https://www.cambridge.org/core/journals/journal-of-ecclesiastical-history/article/abs/persecuted-church-roman-catholicism-in-early-nineteenthcentury-korea/3FB4C7D77948A154E617C49292267D28",
+      "access_level": "ACADEMIC_ABSTRACT",
+      "claim": "이승훈·이벽과 1784년 한국인 천주교 공동체",
+      "original_manuscript_read": false,
+      "paid_chapter_full_text_read": false,
+      "images_reproduced": false
+    },
+    {
+      "id": "S410-18",
+      "title": "KCI, Korean Catholic Church’s First Hundred Years",
+      "url": "https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART001667406",
+      "access_level": "SCHOLARLY_OPEN_ABSTRACT",
+      "claim": "18세기 서학·1784년 공동체와 한국인 주체성",
+      "original_manuscript_read": false,
+      "paid_chapter_full_text_read": false,
+      "images_reproduced": false
+    },
+    {
+      "id": "S410-19",
+      "title": "AKS Encyclopedia, 예수성교전서",
+      "url": "https://encykorea.aks.ac.kr/Article/E0037972",
+      "access_level": "NATIONAL_ACADEMIC_ENCYCLOPEDIA",
+      "claim": "1887년 만주 발행 한국어 신약전서와 한국인 협력",
+      "original_manuscript_read": false,
+      "paid_chapter_full_text_read": false,
+      "images_reproduced": false
+    },
+    {
+      "id": "S410-20",
+      "title": "KCI, John Ross Korean Luke Gospel 1882",
+      "url": "https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART002878053",
+      "access_level": "SCHOLARLY_ABSTRACT",
+      "claim": "한국인이 번역 초고에 참여하고 로스 등과 교감한 공동 작업",
+      "original_manuscript_read": false,
+      "paid_chapter_full_text_read": false,
+      "images_reproduced": false
+    },
+    {
+      "id": "S410-21",
+      "title": "KCI, Korean Bible translation 1887–1911",
+      "url": "https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART002663144",
+      "access_level": "SCHOLARLY_ABSTRACT",
+      "claim": "1911년 신구약 성경젼셔 출판까지의 긴 협업 과정",
+      "original_manuscript_read": false,
+      "paid_chapter_full_text_read": false,
+      "images_reproduced": false
+    },
+    {
+      "id": "S410-22",
+      "title": "Cambridge, Evangelization of Korea c.1895–1910",
+      "url": "https://www.cambridge.org/core/journals/studies-in-church-history/article/abs/evangelization-of-korea-c18951910-translation-of-the-gospel-or-reinvention-of-the-church/622A9903678FB070D8614CE8C9AADD5C",
+      "access_level": "ACADEMIC_ABSTRACT",
+      "claim": "번역을 넘어 한국 교회조직의 재구성",
+      "original_manuscript_read": false,
+      "paid_chapter_full_text_read": false,
+      "images_reproduced": false
+    },
+    {
+      "id": "S410-23",
+      "title": "KCI, Great Pyongyang Revival and Kil Seon-ju",
+      "url": "https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART001265783",
+      "access_level": "SCHOLARLY_ABSTRACT",
+      "claim": "1907년 부흥과 길선주",
+      "original_manuscript_read": false,
+      "paid_chapter_full_text_read": false,
+      "images_reproduced": false
+    },
+    {
+      "id": "S410-24",
+      "title": "KCI, March First Movement and Korean Christianity",
+      "url": "https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART002263214",
+      "access_level": "SCHOLARLY_ABSTRACT",
+      "claim": "1919년 종교 간 연대와 한국인 기독교의 역할",
+      "original_manuscript_read": false,
+      "paid_chapter_full_text_read": false,
+      "images_reproduced": false
+    },
+    {
+      "id": "S410-25",
+      "title": "KCI, Biblical narratives and anti-Japanese movement",
+      "url": "https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART002527806",
+      "access_level": "SCHOLARLY_ABSTRACT",
+      "claim": "1919년 한국인 신자들의 성경 해석과 독립운동",
+      "original_manuscript_read": false,
+      "paid_chapter_full_text_read": false,
+      "images_reproduced": false
+    },
+    {
+      "id": "S410-26",
+      "title": "World Council of Churches, First Assembly 1948",
+      "url": "https://oikoumene.org/about-the-wcc/organizational-structure/assembly",
+      "access_level": "INSTITUTIONAL_HISTORICAL_RECORD",
+      "claim": "1948년 암스테르담 창립. 가톨릭 전체를 회원으로 오인 금지",
+      "original_manuscript_read": false,
+      "paid_chapter_full_text_read": false,
+      "images_reproduced": false
+    },
+    {
+      "id": "S410-27",
+      "title": "World Christianity 2025 Regional Perspectives",
+      "url": "https://journals.sagepub.com/doi/10.1177/23969393241283291",
+      "access_level": "PEER_REVIEWED_OPEN_ABSTRACT",
+      "claim": "20~21세기 세계 기독교 중심의 재배치; 통계는 추정치",
+      "original_manuscript_read": false,
+      "paid_chapter_full_text_read": false,
+      "images_reproduced": false
+    },
+    {
+      "id": "S410-28",
+      "title": "Cambridge, Korea 1945–1961: Liberation and Divisions",
+      "url": "https://www.cambridge.org/core/books/abs/history-of-korean-christianity/liberation-service-and-divisions-19451961/13555BD20D0981D2173A1EE78161B93E",
+      "access_level": "SCHOLARLY_CHAPTER_EXCERPT",
+      "claim": "1945년 해방 뒤 분단·교회의 선택과 사회적 역할",
+      "original_manuscript_read": false,
+      "paid_chapter_full_text_read": false,
+      "images_reproduced": false
+    },
+    {
+      "id": "S410-29",
+      "title": "Oxford, Christianity in Africa independent movements",
+      "url": "https://academic.oup.com/book/37224/chapter-abstract/328809801",
+      "access_level": "ACADEMIC_ABSTRACT",
+      "claim": "아프리카 독립교회의 주체성·예언운동",
+      "original_manuscript_read": false,
+      "paid_chapter_full_text_read": false,
+      "images_reproduced": false
+    },
+    {
+      "id": "S410-30",
+      "title": "National Humanities Center, African-American Christianity",
+      "url": "https://nationalhumanitiescenter.org/tserve/nineteen/nkeyinfo/aareligionb.htm",
+      "access_level": "PUBLIC_ACADEMIC_TEACHING_RESOURCE",
+      "claim": "흑인 독립교회 조직과 교육·사회적 연대",
+      "original_manuscript_read": false,
+      "paid_chapter_full_text_read": false,
+      "images_reproduced": false
+    },
+    {
+      "id": "S410-31",
+      "title": "Oxford Handbook of Asian Christian Theologies",
+      "url": "https://academic.oup.com/edited-volume/63063",
+      "access_level": "ACADEMIC_HANDBOOK_ABSTRACT",
+      "claim": "아시아 현지 신학을 유럽의 신학 소개로만 축소하지 않기",
+      "original_manuscript_read": false,
+      "paid_chapter_full_text_read": false,
+      "images_reproduced": false
+    },
+    {
+      "id": "S410-32",
+      "title": "World Christianity indigenous theological studies, Latin America",
+      "url": "https://academic.oup.com/edited-volume/34378",
+      "access_level": "ACADEMIC_HANDBOOK_ABSTRACT",
+      "claim": "라틴아메리카 기독교의 현지적 표현과 제국 권력",
+      "original_manuscript_read": false,
+      "paid_chapter_full_text_read": false,
+      "images_reproduced": false
+    }
+  ],
+  "macro_arcs": [
+    {
+      "id": "A410-01",
+      "title": "유럽 이전부터 있었던 아프리카 교회",
+      "date_scope": "2~6세기 중심",
+      "story": "알렉산드리아 교회의 신학·수도원과 악숨의 4세기 기독교는 근대 유럽 선교보다 훨씬 앞선 역사다. 악숨은 홍해 교역과 정치의 연결 속에서 신앙을 받아들였고, 이집트·에티오피아 교회는 독자적인 전례·언어·교회 전통을 발전시켰다.",
+      "avoid": "아프리카 기독교가 19세기 유럽 선교의 도착과 함께 시작됐다고 설명하지 않는다.",
+      "source_ids": [
+        "S410-01",
+        "S410-02",
+        "S410-03"
+      ],
+      "region_ids": [
+        "RG410-01"
+      ],
+      "level": "L0"
+    },
+    {
+      "id": "A410-02",
+      "title": "서아시아에서 인도양·당나라 중국으로",
+      "date_scope": "5~15세기",
+      "story": "시리아어 전례와 동방교회는 페르시아·인도양·실크로드를 통해 여러 언어권으로 연결됐다. 781년 시안 비문은 당나라의 기독교 공동체가 자신들의 과거를 어떻게 기념했는지 보여 준다. 인도 말라바르의 성 토마스 기독교 공동체도 포르투갈이 오기 전부터 존재했다.",
+      "avoid": "사도 토마스가 1세기에 인도에 직접 왔다는 공동체 전승을 직접 검증된 역사적 날짜로 서술하지 않고, 781년 비문의 회고를 635년의 독립 자료와 동일시하지 않는다.",
+      "source_ids": [
+        "S410-04",
+        "S410-05",
+        "S410-06"
+      ],
+      "region_ids": [
+        "RG410-02",
+        "RG410-03",
+        "RG410-04"
+      ],
+      "level": "L0"
+    },
+    {
+      "id": "A410-03",
+      "title": "콩고의 수용과 아프리카 교회의 자립",
+      "date_scope": "1490년대~20세기",
+      "story": "1491년 콩고 왕실의 세례는 중앙아프리카의 통치자가 외교·문화의 선택으로 기독교를 받아들인 사례다. 지역 예술가와 지도자들은 자신의 언어와 상징으로 신앙을 표현했다. 근현대에는 여러 아프리카 독립교회가 외부 선교와 제국 권력의 틀을 비판하며 예배·공동체를 새롭게 조직했다.",
+      "avoid": "콩고 왕의 세례가 왕국 모든 주민의 즉각적 개종을 의미하지 않고, 아프리카 독립교회를 단순한 유럽 교회의 복제품으로 읽지 않는다.",
+      "source_ids": [
+        "S410-07",
+        "S410-08",
+        "S410-09",
+        "S410-29"
+      ],
+      "region_ids": [
+        "RG410-05",
+        "RG410-06"
+      ],
+      "level": "L0"
+    },
+    {
+      "id": "A410-04",
+      "title": "아메리카의 식민주의와 현지인의 새로운 기독교",
+      "date_scope": "16~20세기",
+      "story": "아메리카에서 기독교의 확산은 정복·강제·교육·노예제와 교차했다. 그러나 원주민과 아프리카계 사람들은 신앙을 거부하거나 받아들이고 자기 언어·공동체로 변형했으며, 1816년 미국에서는 흑인 주도 감리교 독립 교단이 조직됐다. 20세기 라틴아메리카에서는 해방신학, 성령운동, 다양한 가톨릭·개신교 표현도 전개됐다.",
+      "avoid": "피식민·노예화 집단을 언제나 수동적 개종자로 보거나, 현지인의 행위성을 인정한다는 이유로 식민지 강제·폭력을 지우지 않는다.",
+      "source_ids": [
+        "S410-10",
+        "S410-11",
+        "S410-12",
+        "S410-30",
+        "S410-32"
+      ],
+      "region_ids": [
+        "RG410-07",
+        "RG410-08"
+      ],
+      "level": "L0"
+    },
+    {
+      "id": "A410-05",
+      "title": "중국과 일본의 새 만남: 대화와 박해",
+      "date_scope": "16~17세기 중심",
+      "story": "중국에서 예수회 선교사는 중국인 지식인과 천문·수학·철학·지리의 언어를 통해 교류했다. 일본에서는 1549년 하비에르가 들어온 뒤 여러 일본인 신앙공동체가 형성됐고, 통일권력과 막부의 정책 변화 속에서 탄압과 은밀한 신앙의 지속을 경험했다. 두 지역의 전개는 서로 다르며, 중국의 7~8세기 동방교회 역사를 16세기 예수회의 첫 전래로 덮어쓰지 않는다.",
+      "avoid": "외국인 선교사 일대기만으로 중국·일본 신자들의 선택을 설명하지 않고, 지역별 박해나 수용 정책을 일직선으로 단순화하지 않는다.",
+      "source_ids": [
+        "S410-04",
+        "S410-13",
+        "S410-14",
+        "S410-31"
+      ],
+      "region_ids": [
+        "RG410-04",
+        "RG410-09"
+      ],
+      "level": "L0"
+    },
+    {
+      "id": "A410-06",
+      "title": "태평양 주민이 만들어 간 교회",
+      "date_scope": "19~20세기",
+      "story": "태평양의 섬에서 선교는 유럽 사람이 이동한 경로만이 아니다. 폴리네시아와 멜라네시아의 현지 교사·전도자·목회자와 가족들은 다른 섬으로 옮겨 가며 새 공동체를 형성했고, 토착 언어·관습·역사적 기억과 신앙의 관계를 새롭게 해석했다.",
+      "avoid": "영어·프랑스어 선교사 자료만을 토착민의 전부로 대체하지 않고, 남녀 현지 지도자와 기존 문화의 복잡한 관계를 보여 준다.",
+      "source_ids": [
+        "S410-15",
+        "S410-16"
+      ],
+      "region_ids": [
+        "RG410-10"
+      ],
+      "level": "L0"
+    },
+    {
+      "id": "A410-07",
+      "title": "한국 천주교: 먼저 읽고 토론한 한국인들",
+      "date_scope": "18~19세기",
+      "story": "조선의 천주교 수용은 명·청의 서학서와 북경 방문, 한국 학자들의 토론에서 시작됐다. 1784년 이승훈의 세례와 귀국, 이벽 등 한국인 신자의 활동은 외국인 성직자가 국내에 상주하기 전 한국인들이 공동체를 형성한 역사로 중요하다. 이후 박해와 성직자 부재 속에서 공동체를 유지하는 일은 큰 도전이 됐다.",
+      "avoid": "1784년을 최초의 기독교 사상 접촉 날짜로 만들거나, 이 시기의 천주교 수용과 1880년대 개신교 선교의 출발을 같은 사건으로 묶지 않는다.",
+      "source_ids": [
+        "S410-17",
+        "S410-18"
+      ],
+      "region_ids": [
+        "RG410-11"
+      ],
+      "level": "L0"
+    },
+    {
+      "id": "A410-08",
+      "title": "한국 개신교: 번역·회중·교육·부흥과 사회",
+      "date_scope": "1880년대~20세기",
+      "story": "1882년 만주에서 한글 복음서가 발행되고 1887년 한글 신약전서가 나오는 과정에는 한국인 번역자와 서적 유통인이 참여했다. 해외 선교사들의 의료·교육·교회 활동도 확대됐지만, 한국인들의 성경 해석과 공동체 조직은 독자적 동력이었다. 1907년 평양 부흥, 1911년 신구약 성경 출판, 1919년 독립운동과 종교 간 연대는 신앙과 시대적 과제의 다양한 연결을 보여 준다. 해방 이후 분단과 전쟁도 한국교회에 서로 다른 변화를 남겼다.",
+      "avoid": "로스나 언더우드 한 사람을 단독 창립자로 선정하지 않고, 1907년 부흥과 1919년 민족운동의 관계를 완전 동일시하지 않으며 정치적으로 다른 기독교 집단의 존재도 지우지 않는다.",
+      "source_ids": [
+        "S410-19",
+        "S410-20",
+        "S410-21",
+        "S410-22",
+        "S410-23",
+        "S410-24",
+        "S410-25",
+        "S410-28"
+      ],
+      "region_ids": [
+        "RG410-12"
+      ],
+      "level": "L0"
+    },
+    {
+      "id": "A410-09",
+      "title": "세계 기독교는 여러 중심으로 다시 연결된다",
+      "date_scope": "20~21세기",
+      "story": "근현대 기독교의 중심이 하나의 대륙에 고정되지 않는다는 점은 종교 인구 변화와 지역 교회의 신학·예배·조직의 다양성에서 확인된다. 1948년 세계교회협의회는 여러 교단의 협력을 제도화한 사례이지만 전체 기독교의 단일 대표 기관은 아니다. 오순절·독립교회·가톨릭·정교회 등도 각 지역의 다른 맥락에서 성장하거나 변화했다.",
+      "avoid": "서구 교회의 쇠퇴와 비서구 교회의 성장만으로 세계사의 모든 변화를 설명하지 않고, 세계교회협의회에 가톨릭을 정식 가입 교단으로 잘못 포함하지 않는다.",
+      "source_ids": [
+        "S410-09",
+        "S410-26",
+        "S410-27",
+        "S410-31"
+      ],
+      "region_ids": [
+        "RG410-05",
+        "RG410-06",
+        "RG410-07",
+        "RG410-10",
+        "RG410-12"
+      ],
+      "level": "L0"
+    }
+  ],
+  "regional_routes": [
+    {
+      "id": "RG410-01",
+      "name": "이집트·에티오피아·에리트레아",
+      "overview": "고대 아프리카 교회의 신학·수도원·악숨의 수용",
+      "arc_ids": [
+        "A410-01"
+      ],
+      "primary_volume": "VOL-01",
+      "continent": "AFRICA",
+      "navigation_label_only": true,
+      "modern_coordinates_not_historic_sites": true
+    },
+    {
+      "id": "RG410-02",
+      "name": "시리아·메소포타미아·페르시아",
+      "overview": "시리아어와 동방교회 네트워크의 지역적 기원",
+      "arc_ids": [
+        "A410-02"
+      ],
+      "primary_volume": "VOL-01",
+      "continent": "WEST_ASIA",
+      "navigation_label_only": true,
+      "modern_coordinates_not_historic_sites": true
+    },
+    {
+      "id": "RG410-03",
+      "name": "남인도 말라바르",
+      "overview": "포르투갈 이전 성 토마스 기독교 공동체와 시리아어 전통",
+      "arc_ids": [
+        "A410-02"
+      ],
+      "primary_volume": "VOL-07",
+      "continent": "SOUTH_ASIA",
+      "navigation_label_only": true,
+      "modern_coordinates_not_historic_sites": true
+    },
+    {
+      "id": "RG410-04",
+      "name": "중국",
+      "overview": "당나라 동방교회와 명나라 이후의 다른 가톨릭 교류",
+      "arc_ids": [
+        "A410-02",
+        "A410-05"
+      ],
+      "primary_volume": "VOL-07",
+      "continent": "EAST_ASIA",
+      "navigation_label_only": true,
+      "modern_coordinates_not_historic_sites": true
+    },
+    {
+      "id": "RG410-05",
+      "name": "콩고·중앙아프리카",
+      "overview": "왕실의 주도적 수용·현지 문화·독립교회",
+      "arc_ids": [
+        "A410-03",
+        "A410-09"
+      ],
+      "primary_volume": "VOL-07",
+      "continent": "CENTRAL_AFRICA",
+      "navigation_label_only": true,
+      "modern_coordinates_not_historic_sites": true
+    },
+    {
+      "id": "RG410-06",
+      "name": "서부·남부·동부아프리카",
+      "overview": "아프리카인 독립교회와 지역 지도력",
+      "arc_ids": [
+        "A410-03",
+        "A410-09"
+      ],
+      "primary_volume": "VOL-07",
+      "continent": "AFRICA",
+      "navigation_label_only": true,
+      "modern_coordinates_not_historic_sites": true
+    },
+    {
+      "id": "RG410-07",
+      "name": "라틴아메리카·카리브해",
+      "overview": "식민 통치와 현지·아프리카계 신자의 새로운 표현",
+      "arc_ids": [
+        "A410-04",
+        "A410-09"
+      ],
+      "primary_volume": "VOL-07",
+      "continent": "LATIN_AMERICA",
+      "navigation_label_only": true,
+      "modern_coordinates_not_historic_sites": true
+    },
+    {
+      "id": "RG410-08",
+      "name": "북아메리카",
+      "overview": "원주민의 다양한 반응·흑인 독립교회의 조직과 노예제",
+      "arc_ids": [
+        "A410-04"
+      ],
+      "primary_volume": "VOL-07",
+      "continent": "NORTH_AMERICA",
+      "navigation_label_only": true,
+      "modern_coordinates_not_historic_sites": true
+    },
+    {
+      "id": "RG410-09",
+      "name": "일본",
+      "overview": "16세기 가톨릭 수용·일본인 신자·박해와 신앙 지속",
+      "arc_ids": [
+        "A410-05"
+      ],
+      "primary_volume": "VOL-07",
+      "continent": "EAST_ASIA",
+      "navigation_label_only": true,
+      "modern_coordinates_not_historic_sites": true
+    },
+    {
+      "id": "RG410-10",
+      "name": "오세아니아·태평양 섬",
+      "overview": "현지 섬주민 전도자·목회자와 문화적 번역",
+      "arc_ids": [
+        "A410-06",
+        "A410-09"
+      ],
+      "primary_volume": "VOL-07",
+      "continent": "PACIFIC",
+      "navigation_label_only": true,
+      "modern_coordinates_not_historic_sites": true
+    },
+    {
+      "id": "RG410-11",
+      "name": "한국 천주교",
+      "overview": "18세기 한국인들의 서학 수용·공동체·박해",
+      "arc_ids": [
+        "A410-07"
+      ],
+      "primary_volume": "VOL-07",
+      "continent": "KOREA",
+      "navigation_label_only": true,
+      "modern_coordinates_not_historic_sites": true
+    },
+    {
+      "id": "RG410-12",
+      "name": "한국 개신교와 근현대",
+      "overview": "한국인 번역·회중·부흥·독립운동·분단",
+      "arc_ids": [
+        "A410-08",
+        "A410-09"
+      ],
+      "primary_volume": "VOL-07",
+      "continent": "KOREA",
+      "navigation_label_only": true,
+      "modern_coordinates_not_historic_sites": true
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "MS410-01",
+      "year_start": 300,
+      "year_end": 400,
+      "date_label": "3~4세기",
+      "title": "알렉산드리아 교회와 이집트 수도생활의 전개",
+      "region_id": "RG410-01",
+      "arc_id": "A410-01",
+      "source_ids": [
+        "S410-03"
+      ],
+      "precision": "period",
+      "primary_original_read": false
+    },
+    {
+      "id": "MS410-02",
+      "year_start": 300,
+      "year_end": 400,
+      "date_label": "4세기",
+      "title": "악숨 왕국의 기독교 수용",
+      "region_id": "RG410-01",
+      "arc_id": "A410-01",
+      "source_ids": [
+        "S410-01"
+      ],
+      "precision": "period",
+      "primary_original_read": false
+    },
+    {
+      "id": "MS410-03",
+      "year_start": 635,
+      "year_end": null,
+      "date_label": "635년(비문의 회고)",
+      "title": "중국 동방교회의 초기 도착을 781년 비문이 회고",
+      "region_id": "RG410-04",
+      "arc_id": "A410-02",
+      "source_ids": [
+        "S410-05"
+      ],
+      "precision": "retrospective_inscription_claim",
+      "primary_original_read": false
+    },
+    {
+      "id": "MS410-04",
+      "year_start": 781,
+      "year_end": null,
+      "date_label": "781년",
+      "title": "중국 시안 기독교 비문 건립",
+      "region_id": "RG410-04",
+      "arc_id": "A410-02",
+      "source_ids": [
+        "S410-04"
+      ],
+      "precision": "year",
+      "primary_original_read": false
+    },
+    {
+      "id": "MS410-05",
+      "year_start": 800,
+      "year_end": 1500,
+      "date_label": "중세 시기",
+      "title": "남인도의 시리아어 전통 기독교 공동체",
+      "region_id": "RG410-03",
+      "arc_id": "A410-02",
+      "source_ids": [
+        "S410-06"
+      ],
+      "precision": "broad_period",
+      "primary_original_read": false
+    },
+    {
+      "id": "MS410-06",
+      "year_start": 1491,
+      "year_end": null,
+      "date_label": "1491년",
+      "title": "콩고 왕실의 세례와 기독교 수용",
+      "region_id": "RG410-05",
+      "arc_id": "A410-03",
+      "source_ids": [
+        "S410-07"
+      ],
+      "precision": "year",
+      "primary_original_read": false
+    },
+    {
+      "id": "MS410-07",
+      "year_start": 1500,
+      "year_end": 1800,
+      "date_label": "식민지 시대",
+      "title": "라틴아메리카의 강제·혼합·현지 공동체 재구성",
+      "region_id": "RG410-07",
+      "arc_id": "A410-04",
+      "source_ids": [
+        "S410-10"
+      ],
+      "precision": "broad_period",
+      "primary_original_read": false
+    },
+    {
+      "id": "MS410-08",
+      "year_start": 1549,
+      "year_end": null,
+      "date_label": "1549년",
+      "title": "프란치스코 하비에르 일본 도착",
+      "region_id": "RG410-09",
+      "arc_id": "A410-05",
+      "source_ids": [
+        "S410-14"
+      ],
+      "precision": "year",
+      "primary_original_read": false
+    },
+    {
+      "id": "MS410-09",
+      "year_start": 1583,
+      "year_end": null,
+      "date_label": "1583년",
+      "title": "리치·루지에리의 명나라 중국 거주 선교",
+      "region_id": "RG410-04",
+      "arc_id": "A410-05",
+      "source_ids": [
+        "S410-13"
+      ],
+      "precision": "year",
+      "primary_original_read": false
+    },
+    {
+      "id": "MS410-10",
+      "year_start": 1599,
+      "year_end": null,
+      "date_label": "1599년",
+      "title": "말라바르의 디암페르 시노드와 포르투갈 영향",
+      "region_id": "RG410-03",
+      "arc_id": "A410-02",
+      "source_ids": [
+        "S410-06"
+      ],
+      "precision": "year",
+      "primary_original_read": false
+    },
+    {
+      "id": "MS410-11",
+      "year_start": 1601,
+      "year_end": null,
+      "date_label": "1601년",
+      "title": "마테오 리치 베이징 정착",
+      "region_id": "RG410-04",
+      "arc_id": "A410-05",
+      "source_ids": [
+        "S410-13"
+      ],
+      "precision": "year",
+      "primary_original_read": false
+    },
+    {
+      "id": "MS410-12",
+      "year_start": 1784,
+      "year_end": null,
+      "date_label": "1784년",
+      "title": "이승훈의 세례와 조선 천주교 공동체 형성",
+      "region_id": "RG410-11",
+      "arc_id": "A410-07",
+      "source_ids": [
+        "S410-17"
+      ],
+      "precision": "year",
+      "primary_original_read": false
+    },
+    {
+      "id": "MS410-13",
+      "year_start": 1801,
+      "year_end": null,
+      "date_label": "1801년",
+      "title": "신유박해와 한국 천주교의 시련",
+      "region_id": "RG410-11",
+      "arc_id": "A410-07",
+      "source_ids": [
+        "S410-18"
+      ],
+      "precision": "year",
+      "primary_original_read": false
+    },
+    {
+      "id": "MS410-14",
+      "year_start": 1816,
+      "year_end": null,
+      "date_label": "1816년",
+      "title": "미국 아프리카감리교회(AME) 조직",
+      "region_id": "RG410-08",
+      "arc_id": "A410-04",
+      "source_ids": [
+        "S410-12"
+      ],
+      "precision": "year",
+      "primary_original_read": false
+    },
+    {
+      "id": "MS410-15",
+      "year_start": 1820,
+      "year_end": 1860,
+      "date_label": "19세기 전반",
+      "title": "태평양 섬주민의 교사·전도 네트워크",
+      "region_id": "RG410-10",
+      "arc_id": "A410-06",
+      "source_ids": [
+        "S410-15"
+      ],
+      "precision": "broad_period",
+      "primary_original_read": false
+    },
+    {
+      "id": "MS410-16",
+      "year_start": 1882,
+      "year_end": null,
+      "date_label": "1882년",
+      "title": "만주에서 한국어 누가복음·요한복음 출판",
+      "region_id": "RG410-12",
+      "arc_id": "A410-08",
+      "source_ids": [
+        "S410-20"
+      ],
+      "precision": "year",
+      "primary_original_read": false
+    },
+    {
+      "id": "MS410-17",
+      "year_start": 1885,
+      "year_end": null,
+      "date_label": "1885년",
+      "title": "언더우드·아펜젤러의 조선 입국",
+      "region_id": "RG410-12",
+      "arc_id": "A410-08",
+      "source_ids": [
+        "S410-19"
+      ],
+      "precision": "year",
+      "primary_original_read": false
+    },
+    {
+      "id": "MS410-18",
+      "year_start": 1887,
+      "year_end": null,
+      "date_label": "1887년",
+      "title": "한국어 신약전서 『예수셩교젼셔』 발행",
+      "region_id": "RG410-12",
+      "arc_id": "A410-08",
+      "source_ids": [
+        "S410-19"
+      ],
+      "precision": "year",
+      "primary_original_read": false
+    },
+    {
+      "id": "MS410-19",
+      "year_start": 1907,
+      "year_end": null,
+      "date_label": "1907년",
+      "title": "평양 부흥과 한국인 목회자·회중의 변화",
+      "region_id": "RG410-12",
+      "arc_id": "A410-08",
+      "source_ids": [
+        "S410-23"
+      ],
+      "precision": "year",
+      "primary_original_read": false
+    },
+    {
+      "id": "MS410-20",
+      "year_start": 1911,
+      "year_end": null,
+      "date_label": "1911년",
+      "title": "한국어 신구약 『성경젼셔』 출판",
+      "region_id": "RG410-12",
+      "arc_id": "A410-08",
+      "source_ids": [
+        "S410-21"
+      ],
+      "precision": "year",
+      "primary_original_read": false
+    },
+    {
+      "id": "MS410-21",
+      "year_start": 1919,
+      "year_end": null,
+      "date_label": "1919년",
+      "title": "3·1운동과 한국 기독교인의 종교 간 연대",
+      "region_id": "RG410-12",
+      "arc_id": "A410-08",
+      "source_ids": [
+        "S410-24"
+      ],
+      "precision": "year",
+      "primary_original_read": false
+    },
+    {
+      "id": "MS410-22",
+      "year_start": 1920,
+      "year_end": 1950,
+      "date_label": "20세기 전반",
+      "title": "아프리카 독립교회의 확대와 현지 예언 운동",
+      "region_id": "RG410-06",
+      "arc_id": "A410-03",
+      "source_ids": [
+        "S410-09"
+      ],
+      "precision": "broad_period",
+      "primary_original_read": false
+    },
+    {
+      "id": "MS410-23",
+      "year_start": 1945,
+      "year_end": 1953,
+      "date_label": "1945~1953년",
+      "title": "해방·분단·한국전쟁이 한국 교회에 남긴 변화",
+      "region_id": "RG410-12",
+      "arc_id": "A410-08",
+      "source_ids": [
+        "S410-28"
+      ],
+      "precision": "period",
+      "primary_original_read": false
+    },
+    {
+      "id": "MS410-24",
+      "year_start": 1948,
+      "year_end": null,
+      "date_label": "1948년",
+      "title": "암스테르담 세계교회협의회 창립",
+      "region_id": "RG410-12",
+      "arc_id": "A410-09",
+      "source_ids": [
+        "S410-26"
+      ],
+      "precision": "transregional_event",
+      "primary_original_read": false
+    },
+    {
+      "id": "MS410-25",
+      "year_start": 1960,
+      "year_end": 1980,
+      "date_label": "1960~1980년대",
+      "title": "라틴아메리카 해방신학과 지역교회 논쟁",
+      "region_id": "RG410-07",
+      "arc_id": "A410-04",
+      "source_ids": [
+        "S410-10"
+      ],
+      "precision": "broad_period",
+      "primary_original_read": false
+    },
+    {
+      "id": "MS410-26",
+      "year_start": 1950,
+      "year_end": 2025,
+      "date_label": "20세기 후반~21세기",
+      "title": "비유럽 지역 교회들의 다중 중심 발전",
+      "region_id": "RG410-06",
+      "arc_id": "A410-09",
+      "source_ids": [
+        "S410-27"
+      ],
+      "precision": "broad_period",
+      "primary_original_read": false
+    }
+  ],
+  "actors": [
+    {
+      "id": "A410-P01",
+      "name_ko": "에자나",
+      "name_en": "Ezana",
+      "role": "악숨의 4세기 기독교 수용",
+      "arc_id": "A410-01",
+      "region_id": "RG410-01",
+      "type": "PERSON",
+      "full_biography_verified": false
+    },
+    {
+      "id": "A410-P02",
+      "name_ko": "프루멘티우스",
+      "name_en": "Frumentius",
+      "role": "악숨의 초기 주교 전승과 형성",
+      "arc_id": "A410-01",
+      "region_id": "RG410-01",
+      "type": "PERSON",
+      "full_biography_verified": false
+    },
+    {
+      "id": "A410-P03",
+      "name_ko": "냐싱가 아 은쿠우",
+      "name_en": "Nzinga a Nkuwu",
+      "role": "콩고 왕실의 세례·외교 정책",
+      "arc_id": "A410-03",
+      "region_id": "RG410-05",
+      "type": "PERSON",
+      "full_biography_verified": false
+    },
+    {
+      "id": "A410-P04",
+      "name_ko": "아폰수 1세",
+      "name_en": "Afonso I of Kongo",
+      "role": "콩고 현지 지도층의 기독교 발전",
+      "arc_id": "A410-03",
+      "region_id": "RG410-05",
+      "type": "PERSON",
+      "full_biography_verified": false
+    },
+    {
+      "id": "A410-P05",
+      "name_ko": "마테오 리치",
+      "name_en": "Matteo Ricci",
+      "role": "명나라 중국인 지식인과 예수회 대화",
+      "arc_id": "A410-05",
+      "region_id": "RG410-04",
+      "type": "PERSON",
+      "full_biography_verified": false
+    },
+    {
+      "id": "A410-P06",
+      "name_ko": "프란치스코 하비에르",
+      "name_en": "Francis Xavier",
+      "role": "16세기 일본 가톨릭 선교",
+      "arc_id": "A410-05",
+      "region_id": "RG410-09",
+      "type": "PERSON",
+      "full_biography_verified": false
+    },
+    {
+      "id": "A410-P07",
+      "name_ko": "리처드 앨런",
+      "name_en": "Richard Allen",
+      "role": "흑인 교회와 독립 교단의 조직",
+      "arc_id": "A410-04",
+      "region_id": "RG410-08",
+      "type": "PERSON",
+      "full_biography_verified": false
+    },
+    {
+      "id": "A410-P08",
+      "name_ko": "이벽",
+      "name_en": "Yi Byeok",
+      "role": "조선 서학 연구와 천주교 공동체",
+      "arc_id": "A410-07",
+      "region_id": "RG410-11",
+      "type": "PERSON",
+      "full_biography_verified": false
+    },
+    {
+      "id": "A410-P09",
+      "name_ko": "이승훈",
+      "name_en": "Yi Seung-hun",
+      "role": "베이징 세례와 1784년 공동체 형성",
+      "arc_id": "A410-07",
+      "region_id": "RG410-11",
+      "type": "PERSON",
+      "full_biography_verified": false
+    },
+    {
+      "id": "A410-P10",
+      "name_ko": "존 로스",
+      "name_en": "John Ross",
+      "role": "한국어 신약 번역의 외국인 협력자",
+      "arc_id": "A410-08",
+      "region_id": "RG410-12",
+      "type": "PERSON",
+      "full_biography_verified": false
+    },
+    {
+      "id": "A410-P11",
+      "name_ko": "이응찬",
+      "name_en": "Yi Eung-chan",
+      "role": "초기 한글 성경 번역에 참여한 한국인",
+      "arc_id": "A410-08",
+      "region_id": "RG410-12",
+      "type": "PERSON",
+      "full_biography_verified": false
+    },
+    {
+      "id": "A410-P12",
+      "name_ko": "이수정",
+      "name_en": "Yi Su-jeong",
+      "role": "일본의 한국어 복음서 번역·유통",
+      "arc_id": "A410-08",
+      "region_id": "RG410-12",
+      "type": "PERSON",
+      "full_biography_verified": false
+    },
+    {
+      "id": "A410-P13",
+      "name_ko": "서상륜",
+      "name_en": "Seo Sang-ryun",
+      "role": "한국인 초기 신앙공동체·성경 유통",
+      "arc_id": "A410-08",
+      "region_id": "RG410-12",
+      "type": "PERSON",
+      "full_biography_verified": false
+    },
+    {
+      "id": "A410-P14",
+      "name_ko": "길선주",
+      "name_en": "Gil Seon-ju",
+      "role": "1907년 평양 부흥의 한국인 지도자",
+      "arc_id": "A410-08",
+      "region_id": "RG410-12",
+      "type": "PERSON",
+      "full_biography_verified": false
+    },
+    {
+      "id": "A410-P15",
+      "name_ko": "킴파 비타",
+      "name_en": "Kimpa Vita",
+      "role": "콩고지역 여성 예언·독립교회 역사적 선구 사례",
+      "arc_id": "A410-03",
+      "region_id": "RG410-05",
+      "type": "PERSON",
+      "full_biography_verified": false
+    },
+    {
+      "id": "A410-P16",
+      "name_ko": "자레나 리",
+      "name_en": "Jarena Lee",
+      "role": "북아메리카 흑인 여성 설교자",
+      "arc_id": "A410-04",
+      "region_id": "RG410-08",
+      "type": "PERSON",
+      "full_biography_verified": false
+    },
+    {
+      "id": "A410-P17",
+      "name_ko": "한국인 3·1운동 참여 기독교 신자들",
+      "name_en": "Korean Christians in March First Movement",
+      "role": "1919년 독립운동의 집단 행위자",
+      "arc_id": "A410-08",
+      "region_id": "RG410-12",
+      "type": "COLLECTIVE",
+      "full_biography_verified": false
+    }
+  ],
+  "comparative_questions": [
+    {
+      "id": "C410-01",
+      "question": "아프리카·아시아 교회는 언제부터 있었는가?",
+      "lesson": "고대 악숨과 이집트, 동방교회·말라바르를 19세기 유럽 선교의 전사(前史)로만 다루지 않는다.",
+      "arc_ids": [
+        "A410-01",
+        "A410-02"
+      ],
+      "level": "L0"
+    },
+    {
+      "id": "C410-02",
+      "question": "같은 기독교를 받아들이는 선택이 같았는가?",
+      "lesson": "콩고 왕실, 북미 원주민·흑인 교회, 태평양 섬주민의 수용·저항·자립은 서로 달랐다.",
+      "arc_ids": [
+        "A410-03",
+        "A410-04",
+        "A410-06"
+      ],
+      "level": "L0"
+    },
+    {
+      "id": "C410-03",
+      "question": "기독교와 식민주의는 언제 같은 방향으로 움직였는가?",
+      "lesson": "라틴아메리카·아프리카·태평양에서 선교·권력·현지인 선택이 교차한 방식을 비교한다.",
+      "arc_ids": [
+        "A410-03",
+        "A410-04",
+        "A410-06"
+      ],
+      "level": "L0"
+    },
+    {
+      "id": "C410-04",
+      "question": "중국 기독교는 예수회가 처음 전했는가?",
+      "lesson": "당나라의 동방교회와 명나라의 예수회 교류는 시기가 다른 두 역사다.",
+      "arc_ids": [
+        "A410-02",
+        "A410-05"
+      ],
+      "level": "L0"
+    },
+    {
+      "id": "C410-05",
+      "question": "한국 천주교의 시작과 개신교의 시작은 같은가?",
+      "lesson": "1784년 한국인 천주교 공동체와 1880년대 만주·일본 성경 번역 및 선교사 입국을 분리한다.",
+      "arc_ids": [
+        "A410-07",
+        "A410-08"
+      ],
+      "level": "L0"
+    },
+    {
+      "id": "C410-06",
+      "question": "번역은 누구의 작업이었는가?",
+      "lesson": "한국인 번역자·유통인과 외국인 선교사의 공동작업을 구분하고 이름별 구체 기여는 출처 범위를 따른다.",
+      "arc_ids": [
+        "A410-08"
+      ],
+      "level": "L0"
+    },
+    {
+      "id": "C410-07",
+      "question": "부흥은 사회 참여를 뜻하는가?",
+      "lesson": "1907년 평양 부흥과 1919년 종교 연대·독립운동은 관련되지만 동일한 사건이 아니다.",
+      "arc_ids": [
+        "A410-08"
+      ],
+      "level": "L0"
+    },
+    {
+      "id": "C410-08",
+      "question": "세계교회를 누가 대표하는가?",
+      "lesson": "1948년 WCC와 가톨릭·정교회·오순절·독립교회의 서로 다른 관계를 함께 본다.",
+      "arc_ids": [
+        "A410-09"
+      ],
+      "level": "L0"
+    }
+  ],
+  "connections_to_V409": [
+    {
+      "v409_arc": "A409-06",
+      "v410_arc": "A410-03",
+      "relation": "EUROPEAN_CATHOLIC_NETWORK_AND_AFRICAN_LOCAL_AGENCY"
+    },
+    {
+      "v409_arc": "A409-06",
+      "v410_arc": "A410-05",
+      "relation": "JESUIT_MISSIONS_AND_EAST_ASIAN_AGENCY"
+    },
+    {
+      "v409_arc": "A409-06",
+      "v410_arc": "A410-04",
+      "relation": "COLONIALISM_CATHOLICISM_AND_INDIGENOUS_RESPONSE"
+    }
+  ],
+  "history_scope_notices": [
+    "VOL-07's chronological emphasis is early-modern-to-contemporary, but its non-European antecedents are linked to VOL-01 and VOL-02; avoid claiming Christianity began in Africa/Asia with colonial Europeans.",
+    "Christianity in India predates the Portuguese; apostle Thomas founding is a communal tradition, not an independently verified first-century date.",
+    "Tang China's 781 stele retrospectively mentions arrival in 635; these are not two independently attested dates.",
+    "1784 Korean Catholic establishment is different from nineteenth-century Korean Protestant Bible translation, evangelism and Western residential missions.",
+    "Translation work was collaborative; avoid sole-founder and unverified individual task assignment.",
+    "European mission and local agency do not cancel coercion and colonial violence; show both.",
+    "1907 revival is not synonymous with 1919 protest; actors held different political positions.",
+    "1948 WCC is not a universal governance body for all Christian confessions.",
+    "Modern global Christian population estimates are method-dependent and should include publication year, not timeless percentages.",
+    "All area names and present-day cities are narrative navigation labels, not precisely mapped historic boundaries."
+  ],
+  "publication": {
+    "can_ship": false,
+    "main_modified": false,
+    "existing_513_modified": false,
+    "AI_Studio_modified": false,
+    "existing_VOL07_v01_modified": false,
+    "existing_L1_or_L2_modified": false,
+    "historic_facsimile_images_copied": false,
+    "paid_full_text_republished": false,
+    "regional_population_numbers_invented": false,
+    "historian_approved": false,
+    "rights_approved": false
+  },
+  "next": [
+    "Write L0 Korean world-Christianity narrative, prioritized as readable panorama rather than 32 bibliographic entries in prose",
+    "Connect 12 region routes and eight comparison questions to the existing 8-volume navigation",
+    "After V4.10, perform an 8-volume balance/gap review (V4.11) before returning to L1 or any single original manuscript"
+  ]
+}
