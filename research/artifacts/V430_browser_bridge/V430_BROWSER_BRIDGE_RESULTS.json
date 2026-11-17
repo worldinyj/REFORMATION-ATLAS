@@ -1,0 +1,51 @@
+{
+  "version": "V4.30",
+  "schema": "ATLAS_PRIVATE_L0_BRIDGE_ACTUAL_BROWSER_INTEGRATION",
+  "status": "PASS",
+  "engines": [
+    "chromium",
+    "webkit"
+  ],
+  "deviceWidths": [
+    1440,
+    375,
+    320
+  ],
+  "unitOfTest": "isolated loopback fixture consuming actual V4.29 JSON via V4.30 module",
+  "checkedSourceBlobs": {
+    "integrations/atlas-l0-v430/local-smoke.html": "14aa2c71503e4a987f08ca6d9896495f73b4c888",
+    "integrations/atlas-l0-v430/bridge.mjs": "1f585f31cf10e05530662e05c228de3519ef8632",
+    "handoff/V429_AI_STUDIO_PRIVATE_L0_CONTENT_IMPORT.json": "64c27c0dfe05394acbb049807e4c4384d58908b9"
+  },
+  "tests": 102,
+  "passed": 102,
+  "failed": 0,
+  "failures": [],
+  "screenshots": [
+    "research/artifacts/V430_browser_bridge/chromium/desktop-volume-catalog.png",
+    "research/artifacts/V430_browser_bridge/chromium/desktop-linked-volume.png",
+    "research/artifacts/V430_browser_bridge/chromium/desktop-search.png",
+    "research/artifacts/V430_browser_bridge/chromium/mobile-volume-catalog.png",
+    "research/artifacts/V430_browser_bridge/chromium/mobile-linked-volume.png",
+    "research/artifacts/V430_browser_bridge/chromium/mobile-search.png",
+    "research/artifacts/V430_browser_bridge/chromium/small-volume-catalog.png",
+    "research/artifacts/V430_browser_bridge/chromium/small-linked-volume.png",
+    "research/artifacts/V430_browser_bridge/chromium/small-search.png",
+    "research/artifacts/V430_browser_bridge/webkit/desktop-volume-catalog.png",
+    "research/artifacts/V430_browser_bridge/webkit/desktop-linked-volume.png",
+    "research/artifacts/V430_browser_bridge/webkit/desktop-search.png",
+    "research/artifacts/V430_browser_bridge/webkit/mobile-volume-catalog.png",
+    "research/artifacts/V430_browser_bridge/webkit/mobile-linked-volume.png",
+    "research/artifacts/V430_browser_bridge/webkit/mobile-search.png",
+    "research/artifacts/V430_browser_bridge/webkit/small-volume-catalog.png",
+    "research/artifacts/V430_browser_bridge/webkit/small-linked-volume.png",
+    "research/artifacts/V430_browser_bridge/webkit/small-search.png"
+  ],
+  "aiStudioAppModified": false,
+  "realAiStudioStageExecuted": false,
+  "publicDeployment": false,
+  "realHostAuthenticationVerified": false,
+  "realReaderPilots": 0,
+  "realHistorianApprovals": 0,
+  "canShip": false
+}
