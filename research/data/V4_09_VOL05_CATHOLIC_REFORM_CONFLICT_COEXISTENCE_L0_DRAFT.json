@@ -1,0 +1,923 @@
+{
+  "version": "V4.09",
+  "date": "2026-11-17",
+  "status": "L0_CATHOLIC_REFORM_CONFLICT_DRAFT",
+  "branch": "research/atlas-v409-catholic-reform-conflict-coexistence-l0",
+  "parent_branch": "research/atlas-v408-europe-synchronous-timeline-relationship-atlas",
+  "level": "L0",
+  "goal": "VOL-05 broad Catholic Reformation, confessional conflict and uneven legal coexistence. Defer micro-collected primary manuscripts to L2.",
+  "retained_source": {
+    "path": "research/data/V4_08_EUROPE_SYNCHRONOUS_EVENTS_PEOPLE_RELATIONSHIPS_L0_DRAFT.json",
+    "blob": "755bda113a2dfdc9d2e959eea5450d317ed595c4",
+    "unchanged": true
+  },
+  "historical_arcs": [
+    {
+      "id": "A409-01",
+      "title": "루터 이전부터 진행된 가톨릭 쇄신",
+      "date_scope": "15세기 말~1545년",
+      "summary": "가톨릭 개혁은 개신교 출현 뒤의 단순한 대응이 아니라 중세 후기 수도회·설교·목회·교육 개혁의 연속이었다.",
+      "core_ko": "후기 중세 가톨릭 공동체 안에서는 수도생활을 정화하고, 성직자의 교육을 개선하며, 개인의 경건을 새롭게 하려는 요구가 존재했다. 16세기 개신교의 비판은 이 움직임에 새 긴장을 주었지만 모든 쇄신의 유일한 원인은 아니었다. 1520~1540년대에 새로운 수도회와 신심 공동체가 나타난 점도, 공의회가 열리기 전부터 변화를 준비했다는 사실을 보여 준다.",
+      "questions": [
+        "누가 교회의 생활을 바꾸려 했는가?",
+        "그 개혁은 개신교의 등장과 어떤 관계를 가졌는가?"
+      ],
+      "source_ids": [
+        "S409-01",
+        "S409-03"
+      ]
+    },
+    {
+      "id": "A409-02",
+      "title": "트리엔트 공의회: 신학적 정의와 제도 개혁",
+      "date_scope": "1545~1563년",
+      "summary": "세 시기에 걸쳐 교리의 경계를 명료화하고 감독·성직·교육의 제도적 기준을 정비했다.",
+      "core_ko": "트리엔트 공의회는 1545~1547, 1551~1552, 1562~1563년의 세 시기에 걸쳐 열렸다. 성경과 전통, 칭의, 성례, 미사와 같은 쟁점을 정리하는 동시에 주교의 거주와 사목 책임, 성직자 교육, 신학교 설치 같은 개혁을 다뤘다. 명령이 내려졌다고 모든 교구가 즉시 같은 속도로 시행한 것은 아니다.",
+      "questions": [
+        "어떤 교리를 명확히 하려 했는가?",
+        "결정이 실제 교구에 전달되는 데 왜 시간이 필요했는가?"
+      ],
+      "source_ids": [
+        "S409-02",
+        "S409-12",
+        "S409-15"
+      ]
+    },
+    {
+      "id": "A409-03",
+      "title": "수도회·영성·교육과 여성의 행위성",
+      "date_scope": "1540~1600년대",
+      "summary": "예수회의 교육·선교와 가르멜회 영성 개혁, 여성 공동체의 선택과 제한을 함께 읽는다.",
+      "core_ko": "1540년에 승인을 받은 예수회는 학교·선교·신학 교육을 통해 넓은 네트워크를 만들었다. 아빌라의 테레사는 수도 공동체의 일상과 영적 훈련을 바꾸며 여성도 가톨릭 쇄신의 주요 행위자였다는 사실을 보여 준다. 동시에 여성의 공적 권위에는 한계가 있었고, 종교재판·검열 및 공동체 규율은 신앙의 표현을 통제하기도 했다. 교육과 통제가 같은 시대의 상반된 전개로 공존했다.",
+      "questions": [
+        "여성·평신도는 어떻게 종교 변화를 주도했는가?",
+        "교육과 통제는 왜 같은 운동에서 병행됐는가?"
+      ],
+      "source_ids": [
+        "S409-04",
+        "S409-05",
+        "S409-06",
+        "S409-07",
+        "S409-14"
+      ]
+    },
+    {
+      "id": "A409-04",
+      "title": "교파의 경계와 유럽의 종교·왕권 갈등",
+      "date_scope": "1540~1648년",
+      "summary": "국가 권력과 교단 질서의 경쟁, 프랑스와 저지대의 전쟁, 제국의 30년 전쟁을 별개의 정치적 맥락으로 연결한다.",
+      "core_ko": "신앙고백은 공동체와 국가가 자신들의 규칙을 분명히 만드는 언어가 되었지만, 강제와 폭력의 근거로도 사용됐다. 프랑스에서는 왕조와 귀족, 위그노 공동체의 갈등이 내전으로 이어졌다. 저지대에서는 종교 분열과 합스부르크 통치에 대한 저항이 얽혔다. 신성로마제국의 전쟁은 신학 대립으로만 설명되지 않으며, 가톨릭 프랑스가 합스부르크에 반대하는 세력과 협력한 정치적 선택도 포함해야 한다.",
+      "questions": [
+        "왜 같은 신학적 갈등이 지역에 따라 전쟁 또는 협상이 되었는가?",
+        "왕조·재정·지정학은 신앙과 어떻게 얽혔는가?"
+      ],
+      "source_ids": [
+        "S409-08",
+        "S409-11",
+        "S409-10"
+      ]
+    },
+    {
+      "id": "A409-05",
+      "title": "화의와 관용의 한계",
+      "date_scope": "1555~1648년",
+      "summary": "아우크스부르크·토르다·바르샤바·낭트·베스트팔렌은 서로 다른 사람과 공동체를 보호한 제한적 합의다.",
+      "core_ko": "1555년 아우크스부르크 화의는 제국에서 가톨릭과 루터파의 법적 관계를 재구성했다. 1568년 트란실바니아와 1573년 폴란드-리투아니아의 협상은 각기 다른 정치질서 속에서 종교적 공존을 다뤘다. 1598년 낭트 칙령은 프랑스 개혁파를 제한적으로 보호했고, 1648년의 조약들은 제국의 개혁파까지 인정 범위를 넓혔다. 그러나 그 어느 것도 모든 개인의 신앙 선택을 무제한 보장한 오늘날의 보편적 권리 선언은 아니다.",
+      "questions": [
+        "어떤 사람에게 어떤 보호가 허용됐는가?",
+        "비슷한 관용이라는 말이 왜 지역마다 다른가?"
+      ],
+      "source_ids": [
+        "S409-09",
+        "S409-10",
+        "S409-08",
+        "S409-13"
+      ]
+    },
+    {
+      "id": "A409-06",
+      "title": "유럽 너머의 연결: 선교와 현지 공동체",
+      "date_scope": "16~17세기",
+      "summary": "가톨릭 쇄신은 교육·대외선교와 연결되었으나 이 역사는 현지 신자와 제국 권력의 관계까지 함께 봐야 한다.",
+      "core_ko": "예수회와 다른 종교 공동체는 유럽 내 학교를 만들고 아시아·아프리카·아메리카와 교류했다. 이 활동을 유럽인의 선교 성과만으로 설명하면 번역, 현지 신앙생활, 식민권력과의 협상 및 저항이 사라진다. 글로벌 전개는 VOL-06과 VOL-07에서 현지 공동체의 선택을 중심으로 확장하되, VOL-05에서는 유럽의 개혁이 세계와 이어지는 출발점으로 제시한다.",
+      "questions": [
+        "유럽 교회가 세계와 연결될 때 현지인들은 어떤 역할을 했는가?",
+        "교육·전도와 식민지 권력의 관계는 어떻게 평가해야 하는가?"
+      ],
+      "source_ids": [
+        "S409-04",
+        "S409-06"
+      ]
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "MS409-01",
+      "year_start": 1524,
+      "year_end": null,
+      "date_label": "1524년",
+      "title": "테아티노회 설립",
+      "summary": "가톨릭 내부 수도회 쇄신",
+      "arc_id": "A409-01",
+      "source_ids": [
+        "S409-03"
+      ],
+      "caution": "교회 내부 운동이 루터 이후에만 시작됐다는 오해 차단",
+      "precision": "year"
+    },
+    {
+      "id": "MS409-02",
+      "year_start": 1540,
+      "year_end": null,
+      "date_label": "1540년",
+      "title": "예수회 교황 승인",
+      "summary": "학교·선교·영성 공동체의 기반",
+      "arc_id": "A409-03",
+      "source_ids": [
+        "S409-04",
+        "S409-03"
+      ],
+      "caution": "예수회와 트리엔트 공의회의 시작을 같은 사건으로 취급하지 않는다",
+      "precision": "year"
+    },
+    {
+      "id": "MS409-03",
+      "year_start": 1542,
+      "year_end": null,
+      "date_label": "1542년",
+      "title": "로마 종교재판 제도 재편",
+      "summary": "가톨릭 개혁 시대의 통제 장치",
+      "arc_id": "A409-04",
+      "source_ids": [
+        "S409-07"
+      ],
+      "caution": "모든 지역에서 동일하게 시행됐다고 단정하지 않는다",
+      "precision": "year"
+    },
+    {
+      "id": "MS409-04",
+      "year_start": 1545,
+      "year_end": 1547,
+      "date_label": "1545–1547년",
+      "title": "트리엔트 공의회 제1시기",
+      "summary": "교리·성경과 전통·칭의 쟁점",
+      "arc_id": "A409-02",
+      "source_ids": [
+        "S409-02"
+      ],
+      "caution": "세 기간을 하나의 중단 없는 회의로 묘사하지 않는다",
+      "precision": "period"
+    },
+    {
+      "id": "MS409-05",
+      "year_start": 1551,
+      "year_end": 1552,
+      "date_label": "1551–1552년",
+      "title": "트리엔트 공의회 제2시기",
+      "summary": "성찬·고해 등 성례 논쟁",
+      "arc_id": "A409-02",
+      "source_ids": [
+        "S409-02"
+      ],
+      "caution": "실제 공의회 일정 중단을 표시",
+      "precision": "period"
+    },
+    {
+      "id": "MS409-06",
+      "year_start": 1555,
+      "year_end": null,
+      "date_label": "1555년",
+      "title": "아우크스부르크 화의",
+      "summary": "제국의 가톨릭·루터파 한정 평화",
+      "arc_id": "A409-05",
+      "source_ids": [
+        "S409-09"
+      ],
+      "caution": "개혁파·재세례파의 동등한 법적 보호라고 쓰지 않는다",
+      "precision": "year"
+    },
+    {
+      "id": "MS409-07",
+      "year_start": 1559,
+      "year_end": null,
+      "date_label": "1559년",
+      "title": "로마 금서목록 공포",
+      "summary": "종교·학술 인쇄물 검열의 제도화",
+      "arc_id": "A409-04",
+      "source_ids": [
+        "S409-07",
+        "S409-16"
+      ],
+      "caution": "저작과 지역별 실제 집행 범위를 별도 검증",
+      "precision": "year"
+    },
+    {
+      "id": "MS409-08",
+      "year_start": 1562,
+      "year_end": null,
+      "date_label": "1562년",
+      "title": "아빌라의 테레사 수도회 개혁",
+      "summary": "여성 영성과 공동체 개혁",
+      "arc_id": "A409-03",
+      "source_ids": [
+        "S409-05",
+        "S409-06"
+      ],
+      "caution": "여성의 역할을 무조건 해방 또는 억압 한 가지로 환원하지 않는다",
+      "precision": "year"
+    },
+    {
+      "id": "MS409-09",
+      "year_start": 1562,
+      "year_end": 1598,
+      "date_label": "1562–1598년",
+      "title": "프랑스의 여러 종교전쟁",
+      "summary": "왕권·귀족·위그노·가톨릭 공동체 갈등",
+      "arc_id": "A409-04",
+      "source_ids": [
+        "S409-08"
+      ],
+      "caution": "끊임없이 연속된 단일 전쟁으로 표기하지 않는다",
+      "precision": "period"
+    },
+    {
+      "id": "MS409-10",
+      "year_start": 1562,
+      "year_end": 1563,
+      "date_label": "1562–1563년",
+      "title": "트리엔트 공의회 제3시기",
+      "summary": "주교·신학교·혼인 관련 교회 규율 확립",
+      "arc_id": "A409-02",
+      "source_ids": [
+        "S409-02",
+        "S409-12"
+      ],
+      "caution": "전 교구가 즉시 시행했다고 해석하지 않는다",
+      "precision": "period"
+    },
+    {
+      "id": "MS409-11",
+      "year_start": 1563,
+      "year_end": null,
+      "date_label": "1563년",
+      "title": "트리엔트 공의회 종결",
+      "summary": "교리 결정과 제도적 개혁의 기준 확정",
+      "arc_id": "A409-02",
+      "source_ids": [
+        "S409-02"
+      ],
+      "caution": "공의회 종결과 개혁의 사회적 완성을 동일시하지 않는다",
+      "precision": "year"
+    },
+    {
+      "id": "MS409-12",
+      "year_start": 1568,
+      "year_end": null,
+      "date_label": "1568년",
+      "title": "토르다 의회의 설교·종교 강제 논의",
+      "summary": "다른 정치 질서의 제한적 공존",
+      "arc_id": "A409-05",
+      "source_ids": [
+        "S409-09",
+        "S409-10"
+      ],
+      "caution": "아우크스부르크·바르샤바 문서를 원전으로 대신하지 않는다",
+      "precision": "year"
+    },
+    {
+      "id": "MS409-13",
+      "year_start": 1572,
+      "year_end": null,
+      "date_label": "1572년",
+      "title": "성 바르톨로메오 축일 전후 프랑스 학살",
+      "summary": "종교와 왕권 갈등의 폭력화",
+      "arc_id": "A409-04",
+      "source_ids": [
+        "S409-08"
+      ],
+      "caution": "피해자 규모를 확인 없이 단일 수치로 고정하지 않는다",
+      "precision": "year"
+    },
+    {
+      "id": "MS409-14",
+      "year_start": 1573,
+      "year_end": null,
+      "date_label": "1573년",
+      "title": "바르샤바 연맹",
+      "summary": "귀족의 법적 평화와 다교단 공존",
+      "arc_id": "A409-05",
+      "source_ids": [
+        "S409-13"
+      ],
+      "caution": "모든 신분에 대한 평등한 개인 종교 자유가 아니다",
+      "precision": "year"
+    },
+    {
+      "id": "MS409-15",
+      "year_start": 1598,
+      "year_end": null,
+      "date_label": "1598년",
+      "title": "낭트 칙령",
+      "summary": "프랑스 개혁파에 대한 제한적 법적 보호",
+      "arc_id": "A409-05",
+      "source_ids": [
+        "S409-08"
+      ],
+      "caution": "보편 종교 자유나 영구적 보호로 과장하지 않는다",
+      "precision": "year"
+    },
+    {
+      "id": "MS409-16",
+      "year_start": 1618,
+      "year_end": 1648,
+      "date_label": "1618–1648년",
+      "title": "30년 전쟁",
+      "summary": "종교·왕조·국제정치가 복합적으로 작용한 전쟁",
+      "arc_id": "A409-04",
+      "source_ids": [
+        "S409-11"
+      ],
+      "caution": "종교가 유일한 원인이라는 서술 금지",
+      "precision": "period"
+    },
+    {
+      "id": "MS409-17",
+      "year_start": 1620,
+      "year_end": null,
+      "date_label": "1620년",
+      "title": "백산 전투 이후 보헤미아 질서 변화",
+      "summary": "전쟁 속 합스부르크 권력 강화와 종교적 재편",
+      "arc_id": "A409-04",
+      "source_ids": [
+        "S409-11"
+      ],
+      "caution": "하루 만에 모든 종교적 다양성이 사라졌다고 말하지 않는다",
+      "precision": "year"
+    },
+    {
+      "id": "MS409-18",
+      "year_start": 1648,
+      "year_end": null,
+      "date_label": "1648년",
+      "title": "베스트팔렌 평화 조약",
+      "summary": "제국의 가톨릭·루터파·개혁파 법적 관계 재편",
+      "arc_id": "A409-05",
+      "source_ids": [
+        "S409-10"
+      ],
+      "caution": "이외 교단이나 모든 개인의 보편적 권리를 같은 수준으로 주장하지 않는다",
+      "precision": "year"
+    }
+  ],
+  "people": [
+    {
+      "id": "A409-P01",
+      "name_ko": "이냐시오 데 로욜라",
+      "name_en": "Ignatius of Loyola",
+      "description": "남성 지도자",
+      "role": "예수회 조직과 영적 훈련",
+      "arc_id": "A409-03",
+      "region_ids": [
+        "ER-11"
+      ],
+      "summary_only": true
+    },
+    {
+      "id": "A409-P02",
+      "name_ko": "아빌라의 테레사",
+      "name_en": "Teresa of Ávila",
+      "description": "여성 수도회 개혁가",
+      "role": "가르멜회 쇄신과 영성 저술",
+      "arc_id": "A409-03",
+      "region_ids": [
+        "ER-11"
+      ],
+      "summary_only": true
+    },
+    {
+      "id": "A409-P03",
+      "name_ko": "십자가의 요한",
+      "name_en": "John of the Cross",
+      "description": "영성·수도회 개혁가",
+      "role": "테레사와 연결된 가르멜회 쇄신",
+      "arc_id": "A409-03",
+      "region_ids": [
+        "ER-11"
+      ],
+      "summary_only": true
+    },
+    {
+      "id": "A409-P04",
+      "name_ko": "카를로 보로메오",
+      "name_en": "Charles Borromeo",
+      "description": "밀라노 대주교",
+      "role": "트리엔트 이후 감독 직무·목회 개혁",
+      "arc_id": "A409-02",
+      "region_ids": [
+        "ER-11"
+      ],
+      "summary_only": true
+    },
+    {
+      "id": "A409-P05",
+      "name_ko": "바오로 3세",
+      "name_en": "Pope Paul III",
+      "description": "교황",
+      "role": "공의회 소집과 가톨릭 개혁의 로마 지도력",
+      "arc_id": "A409-02",
+      "region_ids": [
+        "ER-11"
+      ],
+      "summary_only": true
+    },
+    {
+      "id": "A409-P06",
+      "name_ko": "프란치스코 하비에르",
+      "name_en": "Francis Xavier",
+      "description": "예수회 선교사",
+      "role": "아시아 선교의 대표적 인물, 현지 공동체의 역할 별도 조명 필요",
+      "arc_id": "A409-06",
+      "region_ids": [
+        "ER-11"
+      ],
+      "summary_only": true
+    },
+    {
+      "id": "A409-P07",
+      "name_ko": "프랑수아 드 기즈",
+      "name_en": "François de Guise",
+      "description": "프랑스 귀족",
+      "role": "프랑스 내전과 가톨릭·왕조 정치",
+      "arc_id": "A409-04",
+      "region_ids": [
+        "ER-03"
+      ],
+      "summary_only": true
+    },
+    {
+      "id": "A409-P08",
+      "name_ko": "앙리 4세",
+      "name_en": "Henry IV of France",
+      "description": "프랑스 국왕",
+      "role": "1598년 낭트 칙령의 정치적 배경",
+      "arc_id": "A409-05",
+      "region_ids": [
+        "ER-03"
+      ],
+      "summary_only": true
+    },
+    {
+      "id": "A409-P09",
+      "name_ko": "펠리페 2세",
+      "name_en": "Philip II of Spain",
+      "description": "스페인 국왕",
+      "role": "저지대 통치와 종교 정책",
+      "arc_id": "A409-04",
+      "region_ids": [
+        "ER-04",
+        "ER-11"
+      ],
+      "summary_only": true
+    },
+    {
+      "id": "A409-P10",
+      "name_ko": "페르디난트 2세",
+      "name_en": "Ferdinand II",
+      "description": "신성로마제국 황제",
+      "role": "30년 전쟁 초기의 합스부르크 정책",
+      "arc_id": "A409-04",
+      "region_ids": [
+        "ER-01",
+        "ER-08"
+      ],
+      "summary_only": true
+    },
+    {
+      "id": "A409-P11",
+      "name_ko": "구스타브 2세 아돌프",
+      "name_en": "Gustavus Adolphus",
+      "description": "스웨덴 국왕",
+      "role": "30년 전쟁의 국제적 확장",
+      "arc_id": "A409-04",
+      "region_ids": [
+        "ER-01",
+        "ER-07"
+      ],
+      "summary_only": true
+    },
+    {
+      "id": "A409-P12",
+      "name_ko": "리슐리외 추기경",
+      "name_en": "Cardinal Richelieu",
+      "description": "프랑스 정치가·추기경",
+      "role": "가톨릭 국가의 반합스부르크 국제정치",
+      "arc_id": "A409-04",
+      "region_ids": [
+        "ER-03"
+      ],
+      "summary_only": true
+    },
+    {
+      "id": "A409-P13",
+      "name_ko": "레오 유트·하인리히 불링거 등의 개혁파 목회자",
+      "name_en": "Swiss Reformed ministers",
+      "description": "비교 관점",
+      "role": "교회 규율이라는 공통 주제의 비가톨릭 비교 사례",
+      "arc_id": "A409-05",
+      "region_ids": [
+        "ER-02"
+      ],
+      "summary_only": true
+    }
+  ],
+  "regional_theaters": [
+    {
+      "id": "TH409-01",
+      "region_ids": [
+        "ER-01",
+        "ER-08"
+      ],
+      "name": "신성로마제국·보헤미아",
+      "state": "영방·제국정치·합스부르크 통치",
+      "conflict": "슈말칼덴 전쟁, 1618년 위기, 30년 전쟁",
+      "settlement": "1555 아우크스부르크 · 1648 베스트팔렌",
+      "warning": "1648년 제국 내 세 교단의 인정은 보편 종교 자유와 다름",
+      "source_ids": [
+        "S409-09",
+        "S409-10",
+        "S409-11"
+      ]
+    },
+    {
+      "id": "TH409-02",
+      "region_ids": [
+        "ER-03"
+      ],
+      "name": "프랑스",
+      "state": "왕조·귀족·가톨릭 다수·위그노 공동체",
+      "conflict": "1562~1598년 여러 차례 종교전쟁과 1572년 학살",
+      "settlement": "1598 낭트 칙령의 제한적 보호",
+      "warning": "화해가 영구적이었다는 진술 및 1685년 철회 누락 금지",
+      "source_ids": [
+        "S409-08"
+      ]
+    },
+    {
+      "id": "TH409-03",
+      "region_ids": [
+        "ER-04",
+        "ER-11"
+      ],
+      "name": "저지대·이베리아",
+      "state": "합스부르크 통치·도시 자치와 종교 분열",
+      "conflict": "봉기·독립 전쟁과 북부/남부 지역의 분화",
+      "settlement": "정치적 독립 경로와 지역별 교단질서의 장기 형성",
+      "warning": "한 도시의 개혁을 저지대 전역의 동일한 종교정책으로 확대하지 않음",
+      "source_ids": [
+        "S409-11",
+        "S409-10"
+      ]
+    },
+    {
+      "id": "TH409-04",
+      "region_ids": [
+        "ER-09",
+        "ER-10"
+      ],
+      "name": "폴란드-리투아니아·트란실바니아",
+      "state": "귀족 공화정 및 복수 통치권과 다종교 공동체",
+      "conflict": "가톨릭·개혁파·루터파·정교회 등의 법적 지위",
+      "settlement": "1568 토르다·1573 바르샤바의 서로 다른 타협",
+      "warning": "현대적 개인 종교 자유를 두 사건에 투사하지 않음",
+      "source_ids": [
+        "S409-13"
+      ]
+    },
+    {
+      "id": "TH409-05",
+      "region_ids": [
+        "ER-05",
+        "ER-06"
+      ],
+      "name": "잉글랜드·스코틀랜드·아일랜드",
+      "state": "왕권·국가교회·이주한 가톨릭 공동체·지역 정체성",
+      "conflict": "왕대별 종교정책 변화와 개혁의 상이한 수용",
+      "settlement": "통일된 왕조권 안에서도 서로 다른 교회제도와 공동체 유지",
+      "warning": "잉글랜드의 국교회 변화와 아일랜드 대다수의 신앙생활을 동일시하지 않음",
+      "source_ids": [
+        "S409-06",
+        "S409-14"
+      ]
+    },
+    {
+      "id": "TH409-06",
+      "region_ids": [
+        "ER-11"
+      ],
+      "name": "이탈리아·이베리아",
+      "state": "교황청·주교·수도회·왕국의 복합적 권력",
+      "conflict": "교리 경계·검열·종교재판과 개혁 공동체의 제약",
+      "settlement": "공의회 교령의 점진적 시행·교육기관·수도회 개혁",
+      "warning": "가톨릭 개혁의 결과를 검열·폭력 또는 학교·영성 한 가지만으로 그리지 않음",
+      "source_ids": [
+        "S409-01",
+        "S409-07",
+        "S409-12"
+      ]
+    }
+  ],
+  "compare_scenes": [
+    {
+      "id": "COMPARE409-01",
+      "title": "가톨릭 개혁 vs 반종교개혁",
+      "left_right": "가톨릭 내부 쇄신의 연속성 / 개신교와의 경쟁·경계 설정",
+      "lesson": "'가톨릭 개혁'과 '반종교개혁'은 겹치지만 서로 다른 역사적 초점을 갖는다.",
+      "arc_ids": [
+        "A409-01",
+        "A409-02",
+        "A409-04"
+      ],
+      "display": "MACRO_COMPARISON_NOT_IDENTICAL_CAUSATION"
+    },
+    {
+      "id": "COMPARE409-02",
+      "title": "트리엔트의 교리 결정 vs 현장 시행",
+      "left_right": "교리·규범 문헌 / 교구와 신학교 설치의 속도",
+      "lesson": "1563년 신학교 설치 결정이 전국에서 당일 시행된 것은 아니다.",
+      "arc_ids": [
+        "A409-02",
+        "A409-03"
+      ],
+      "display": "MACRO_COMPARISON_NOT_IDENTICAL_CAUSATION"
+    },
+    {
+      "id": "COMPARE409-03",
+      "title": "예수회 교육 vs 검열·종교재판",
+      "left_right": "교육·선교 확대 / 인쇄물·신앙 표현의 제한",
+      "lesson": "가톨릭 공동체의 변화에는 개방과 경계 강화가 공존했다.",
+      "arc_ids": [
+        "A409-03",
+        "A409-04"
+      ],
+      "display": "MACRO_COMPARISON_NOT_IDENTICAL_CAUSATION"
+    },
+    {
+      "id": "COMPARE409-04",
+      "title": "프랑스의 전쟁 vs 폴란드-리투아니아의 협상",
+      "left_right": "서로 다른 왕권·귀족제·종교적 구성",
+      "lesson": "종교적 다양성이 자동으로 전쟁이나 관용을 결정한 것은 아니다.",
+      "arc_ids": [
+        "A409-04",
+        "A409-05"
+      ],
+      "display": "MACRO_COMPARISON_NOT_IDENTICAL_CAUSATION"
+    },
+    {
+      "id": "COMPARE409-05",
+      "title": "1555 아우크스부르크 vs 1648 베스트팔렌",
+      "left_right": "가톨릭·루터파 중심 / 개혁파까지 확대된 제국 질서",
+      "lesson": "보호 범위와 통치권 제약이 달라졌으나 모든 공동체가 동등한 권리를 가진 것은 아니다.",
+      "arc_ids": [
+        "A409-05"
+      ],
+      "display": "MACRO_COMPARISON_NOT_IDENTICAL_CAUSATION"
+    },
+    {
+      "id": "COMPARE409-06",
+      "title": "유럽 가톨릭 개혁 vs 세계적 선교",
+      "left_right": "유럽 내부 학교·영성 / 현지 번역·공동체와 제국의 연결",
+      "lesson": "세계 교회사에서 현지인과 여성의 목소리를 유럽 남성 지도자의 행적에 종속시키지 않는다.",
+      "arc_ids": [
+        "A409-03",
+        "A409-06"
+      ],
+      "display": "MACRO_COMPARISON_NOT_IDENTICAL_CAUSATION"
+    }
+  ],
+  "crosswalk_to_V408": [
+    {
+      "v409_milestone_id": "MS409-04",
+      "v408_event_id": "E408-23",
+      "match_type": "RELATED_TOPIC_NOT_CLAIMED_IDENTICAL_RECORD"
+    },
+    {
+      "v409_milestone_id": "MS409-02",
+      "v408_event_id": "E408-19",
+      "match_type": "RELATED_TOPIC_NOT_CLAIMED_IDENTICAL_RECORD"
+    },
+    {
+      "v409_milestone_id": "MS409-06",
+      "v408_event_id": "E408-26",
+      "match_type": "RELATED_TOPIC_NOT_CLAIMED_IDENTICAL_RECORD"
+    },
+    {
+      "v409_milestone_id": "MS409-09",
+      "v408_event_id": "E408-31",
+      "match_type": "RELATED_TOPIC_NOT_CLAIMED_IDENTICAL_RECORD"
+    },
+    {
+      "v409_milestone_id": "MS409-12",
+      "v408_event_id": "E408-33",
+      "match_type": "RELATED_TOPIC_NOT_CLAIMED_IDENTICAL_RECORD"
+    },
+    {
+      "v409_milestone_id": "MS409-14",
+      "v408_event_id": "E408-36",
+      "match_type": "RELATED_TOPIC_NOT_CLAIMED_IDENTICAL_RECORD"
+    },
+    {
+      "v409_milestone_id": "MS409-15",
+      "v408_event_id": "E408-41",
+      "match_type": "RELATED_TOPIC_NOT_CLAIMED_IDENTICAL_RECORD"
+    },
+    {
+      "v409_milestone_id": "MS409-18",
+      "v408_event_id": "E408-45",
+      "match_type": "RELATED_TOPIC_NOT_CLAIMED_IDENTICAL_RECORD"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S409-01",
+      "title": "Oxford Faculty of History teaching resource: Catholic Reform",
+      "url": "https://www.cabinet.ox.ac.uk/node/3216",
+      "access_level": "UNIVERSITY_OVERVIEW",
+      "grounding_ko": "가톨릭 내부 개혁은 루터 이전부터 존재하며 개신교와 병행",
+      "full_paid_text_read": false,
+      "original_document_image_copied": false
+    },
+    {
+      "id": "S409-02",
+      "title": "Wim François, Council of Trent: Doctrine and Reform",
+      "url": "https://www.saet.ac.uk/Christianity/CouncilofTrent",
+      "access_level": "PEER_REVIEWED_OPEN_ACADEMIC_REFERENCE",
+      "grounding_ko": "세 기간·25차 회기·교리와 감독·신학교 개혁",
+      "full_paid_text_read": false,
+      "original_document_image_copied": false
+    },
+    {
+      "id": "S409-03",
+      "title": "James E. Kelly, The Catholic Reformation, chapter 2 (2025)",
+      "url": "https://academic.oup.com/book/59764/chapter-abstract/508334610",
+      "access_level": "ACADEMIC_PUBLISHER_ABSTRACT_ONLY",
+      "grounding_ko": "공의회 이전 수도회 개혁과 여성 종교공동체",
+      "full_paid_text_read": false,
+      "original_document_image_copied": false
+    },
+    {
+      "id": "S409-04",
+      "title": "Society of Jesus, Our History",
+      "url": "https://www.jesuits.global/about-us/our-history/",
+      "access_level": "INSTITUTIONAL_HISTORY_SELF_DESCRIPTION",
+      "grounding_ko": "교육·선교·예수회의 전개. 기관 자체 설명으로 한계 명시",
+      "full_paid_text_read": false,
+      "original_document_image_copied": false
+    },
+    {
+      "id": "S409-05",
+      "title": "Kenneth G. Appold (ed.), Gender and Theology in the Reformation Era",
+      "url": "https://www.cambridge.org/core/books/abs/cambridge-history-of-reformation-era-theology/gender-and-theology-in-the-reformation-era/1F5CC2A716E1D4A88B47129826B9E216",
+      "access_level": "ACADEMIC_PUBLISHER_ABSTRACT_ONLY",
+      "grounding_ko": "아빌라의 테레사와 여성 신학적 행위자",
+      "full_paid_text_read": false,
+      "original_document_image_copied": false
+    },
+    {
+      "id": "S409-06",
+      "title": "Merry E. Wiesner-Hanks, Women and the Reformations: A Global History",
+      "url": "https://yalebooks.yale.edu/book/9780300280760/women-and-the-reformations/",
+      "access_level": "ACADEMIC_PUBLISHER_DESCRIPTION_ONLY",
+      "grounding_ko": "여성·현지 공동체의 능동성과 다지역 역사",
+      "full_paid_text_read": false,
+      "original_document_image_copied": false
+    },
+    {
+      "id": "S409-07",
+      "title": "Christopher F. Black, Censorship and the Index in Roman and Iberian Inquisitions",
+      "url": "https://academic.oup.com/reference/62416/reference-article-abstract/561716850",
+      "access_level": "OXFORD_BIBLIOGRAPHIC_OVERVIEW",
+      "grounding_ko": "교회·국가의 검열, 교구별 다양한 시행",
+      "full_paid_text_read": false,
+      "original_document_image_copied": false
+    },
+    {
+      "id": "S409-08",
+      "title": "Musée protestant, The Eight Wars of Religion (1562–1598)",
+      "url": "https://museeprotestant.org/en/notice/the-eight-wars-of-religion-1562-1598/",
+      "access_level": "PUBLIC_HISTORY_OPEN_ARTICLE",
+      "grounding_ko": "프랑스 내전·폭력·낭트 칙령과 제한적 관용",
+      "full_paid_text_read": false,
+      "original_document_image_copied": false
+    },
+    {
+      "id": "S409-09",
+      "title": "German History in Documents and Images, Religious Peace Augsburg 1555",
+      "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/ghdi%3Adocument-4386",
+      "access_level": "ACADEMIC_HISTORY_SOURCE_TRANSLATION_AND_COMMENTARY",
+      "grounding_ko": "제국 가톨릭·루터파의 제한된 법적 틀",
+      "full_paid_text_read": false,
+      "original_document_image_copied": false
+    },
+    {
+      "id": "S409-10",
+      "title": "German History in Documents and Images, Peace Treaties Westphalia 1648",
+      "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/peace-treaties-of-westphalia-october-14-24-1648",
+      "access_level": "ACADEMIC_HISTORY_SOURCE_TRANSLATION_AND_COMMENTARY",
+      "grounding_ko": "가톨릭·루터파·개혁파 지위와 제국 정치·권리",
+      "full_paid_text_read": false,
+      "original_document_image_copied": false
+    },
+    {
+      "id": "S409-11",
+      "title": "Deutsches Historisches Museum, Reformation and the Thirty Years War",
+      "url": "https://www.dhm.de/en/exhibitions/permanent-exhibition/reformation-and-the-thirty-years-war/",
+      "access_level": "NATIONAL_HISTORY_MUSEUM_OVERVIEW",
+      "grounding_ko": "전쟁의 종교적·왕조적·국제정치적 복합 원인",
+      "full_paid_text_read": false,
+      "original_document_image_copied": false
+    },
+    {
+      "id": "S409-12",
+      "title": "Simona Negruzzo, Tridentine Proposal for Formation of Clergy",
+      "url": "https://www.cambridge.org/core/books/abs/cambridge-companion-to-the-council-of-trent/tridentine-proposal-for-the-formation-of-the-clergy/551A16373E5E23D21337BCFECC32C73A",
+      "access_level": "ACADEMIC_PUBLISHER_SUMMARY_ONLY",
+      "grounding_ko": "1563년 신학교령과 지역별 시행 지연",
+      "full_paid_text_read": false,
+      "original_document_image_copied": false
+    },
+    {
+      "id": "S409-13",
+      "title": "Polish Ministry of Foreign Affairs, Warsaw Confederation 1573",
+      "url": "https://www.gov.pl/web/diplomacy/mfa-statement-on-anniversary-of-signing-warsaw-confederation",
+      "access_level": "GOVERNMENT_HISTORY_ACCOUNT_WITH_NATIONAL_PERSPECTIVE",
+      "grounding_ko": "1573년 평화협약과 귀족의 법적 지위; 국가적 서술편향 고려",
+      "full_paid_text_read": false,
+      "original_document_image_copied": false
+    },
+    {
+      "id": "S409-14",
+      "title": "Oxford Bibliographies, Women and the Reformation",
+      "url": "https://academic.oup.com/reference/62416/reference-article-abstract/555935623?login=false",
+      "access_level": "SCHOLARLY_BIBLIOGRAPHIC_INTRODUCTION",
+      "grounding_ko": "여성을 수동적 희생자 또는 단순한 수혜자로만 다루지 말 것",
+      "full_paid_text_read": false,
+      "original_document_image_copied": false
+    },
+    {
+      "id": "S409-15",
+      "title": "Cambridge, Italian Tridentine Diocesan Seminaries historiography",
+      "url": "https://www.journals.uchicago.edu/doi/10.2307/2543355",
+      "access_level": "ACADEMIC_JOURNAL_ABSTRACT_ONLY",
+      "grounding_ko": "신학교 설치 명령과 현장 적용 속도의 차이",
+      "full_paid_text_read": false,
+      "original_document_image_copied": false
+    },
+    {
+      "id": "S409-16",
+      "title": "Oxford, Index and Censorship in Renaissance Venice",
+      "url": "https://academic.oup.com/jleo/article/41/3/1045/7679891",
+      "access_level": "PEER_REVIEWED_RESEARCH_ARTICLE",
+      "grounding_ko": "1559·1564년 금서목록과 도시·교회 검열의 다양한 시행",
+      "full_paid_text_read": false,
+      "original_document_image_copied": false
+    }
+  ],
+  "readers_will_learn": [
+    "가톨릭 내부 쇄신은 루터 이전부터 있었고 개신교와 경쟁·상호작용하면서 발전했다.",
+    "1545~1563 트리엔트 공의회는 3개 시기에 걸쳐 교리 정의와 제도 개혁을 다뤘고 시행은 지역별로 달랐다.",
+    "가톨릭 개혁에는 예수회 학교와 여성 수도공동체의 행위성뿐 아니라 검열과 강제도 함께 있었다.",
+    "프랑스·저지대·제국의 종교전쟁은 지역권력·왕조·국제정치가 함께 얽혀 있었다.",
+    "1555·1568·1573·1598·1648 합의는 각기 다른 보호대상과 법적 범위를 가졌다.",
+    "유럽 밖 가톨릭 선교사는 현지 신자·번역과 식민 권력의 역사와 분리할 수 없다."
+  ],
+  "scope_safety": {
+    "main_modified": false,
+    "existing_513_modified": false,
+    "AI_Studio_modified": false,
+    "previous_V408_modified": false,
+    "exact_historical_geo_coordinates_created": false,
+    "primary_council_original_transcript_read": false,
+    "paid_research_books_full_text_read": false,
+    "modern_human_rights_anachronism_allowed": false,
+    "Catholic_Reform_reduced_to_reaction": false,
+    "female_agency_erased": false,
+    "all_original_images_copied": false,
+    "can_ship": false,
+    "historian_approved": false,
+    "rights_approved": false
+  },
+  "editorial_qualification": {
+    "high_level_summary_only": true,
+    "raw_primary_trent_minutes_read": false,
+    "raw_original_Augsburg_1555_read": false,
+    "GHDI_edited_translation_text_accessible": true,
+    "raw_original_Westphalia_folio_read": false,
+    "some_sources_only_abstract_or_publisher_blurb": true,
+    "source_claim_grades_differ": true
+  },
+  "next_macro_work": [
+    "V4.10: world Christianity beyond Europe; Africa, Asia, Americas, Korea with local agency",
+    "V4.11: 8-volume macro coverage review and remaining regional/era gaps",
+    "Later L1: deepening selected key chapters; L2: attach previous manuscripts and textual criticism"
+  ]
+}
