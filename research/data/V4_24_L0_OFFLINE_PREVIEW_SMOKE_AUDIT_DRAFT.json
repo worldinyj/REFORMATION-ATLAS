@@ -1,0 +1,99 @@
+{
+  "schema": "REFORMATION_ATLAS_V424_OFFLINE_PREVIEW_SMOKE_AUDIT",
+  "version": "V4.24",
+  "date": "2026-11-17",
+  "level": "L0",
+  "branch": "research/atlas-v424-offline-content-navigation-preview-l0",
+  "base_branch": "research/atlas-v423-l0-editorial-alpha-content-freeze",
+  "status": "OFFLINE_FUNCTIONAL_STATIC_PREVIEW_CHECKED_WITH_SYNTHETIC_DOM",
+  "assets": {
+    "offline_html": {
+      "path": "preview/V424_L0_EDITORIAL_ALPHA_OFFLINE_PREVIEW.html",
+      "verified_blob_sha": "d7add5af56038108fc24ed99821981ba96bb62a4",
+      "characters": 38691
+    },
+    "usage_instructions": {
+      "path": "preview/V424_README_KO.md",
+      "verified_blob_sha": "7e9f9694c4f00b6189d427014bb2f130f3d2dc42"
+    },
+    "frozen_source": {
+      "path": "research/data/V4_23_L0_INTERNAL_ALPHA_CONTENT_BUNDLE_DRAFT.json",
+      "verified_blob_sha": "ddf48f401ce4202166eedd308e1d5892f88ac0b8"
+    },
+    "standalone_html_has_embedded_data": true,
+    "third_party_scripts": 0,
+    "third_party_images": 0,
+    "network_calls": 0,
+    "external_resource_dependencies": 0
+  },
+  "content": {
+    "volumes": 8,
+    "themes": 6,
+    "theme_to_volume_anchors": 42,
+    "reader_chapters": 6,
+    "source_content_version": "V4.23",
+    "no_editor_answers_exposed": true,
+    "claims_reused_from_original_frozen_text": true,
+    "expert_source_material_not_copied": true
+  },
+  "tests": {
+    "static_model_integrity": {
+      "status": "PASS",
+      "volumes": 8,
+      "themes": 6,
+      "reader_scenes": 6,
+      "unique_anchors": 42,
+      "anchor_target_missing": 0,
+      "data_sha_checked": true
+    },
+    "synthetic_dom_runtime": {
+      "status": "PASS",
+      "method": "Executed exact inline JavaScript of committed HTML with a controlled simulated document and hashchange callback",
+      "volume_index_card_count": 8,
+      "theme_index_card_count": 6,
+      "individual_volume_routes_exercised": 8,
+      "individual_theme_routes_exercised": 6,
+      "reader_scene_routes_exercised": 6,
+      "theme_to_volume_anchor_buttons_per_theme": 7,
+      "builtin_structure_check_passed": true,
+      "search_term": "후스",
+      "search_result_card_count": 8,
+      "script_syntax_valid": true,
+      "exceptions": 0
+    },
+    "actual_desktop_browser_visual_and_click_E2E": {
+      "status": "NOT_PERFORMED",
+      "notes": "Synthetic DOM is not Chromium, Safari or VoiceOver"
+    },
+    "actual_mobile_browser_and_accessibility_E2E": {
+      "status": "NOT_PERFORMED"
+    },
+    "human_historical_expert_review": {
+      "status": "NOT_PERFORMED"
+    },
+    "actual_nonexpert_five_reader_pilot": {
+      "status": "NOT_PERFORMED"
+    },
+    "image_and_modern_translation_reuse_clearance": {
+      "status": "NOT_PERFORMED"
+    },
+    "AI_Studio_app_staging": {
+      "status": "NOT_PERFORMED"
+    }
+  },
+  "validation": {
+    "checked_original_source_sha": "ddf48f401ce4202166eedd308e1d5892f88ac0b8",
+    "checked_html_sha": "d7add5af56038108fc24ed99821981ba96bb62a4",
+    "checked_readme_sha": "7e9f9694c4f00b6189d427014bb2f130f3d2dc42",
+    "errors": []
+  },
+  "release": {
+    "can_ship": false,
+    "can_merge_main": false,
+    "can_publish_AI_Studio": false,
+    "user_approval": false,
+    "actual_human_sessions": 0,
+    "actual_app_deployment": false
+  },
+  "next": "Open the standalone HTML in a real desktop browser and complete visual/keyboard/mobile spot-checks. Then integrate V4.23 content only in authorized AI Studio staging, not production, and obtain real editorial/reader/rights signoff."
+}
