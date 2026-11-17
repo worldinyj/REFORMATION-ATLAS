@@ -1,0 +1,60 @@
+{
+  "schema": "ATLAS_V433_EDITORIAL_SOURCE_AUDIT",
+  "date": "2026-11-17",
+  "status": "PASS",
+  "artifactGitBlobSha": {
+    "ledger": "ff24234613dc2fa8786bfcd78edb2207aaeeb6d0",
+    "selectiveNotes": "2601feb923c656230c8e49904f3c3897bab27883",
+    "reviewReport": "c80d95ffb1d111370db84b5bdf245ec3de788b02",
+    "expandedV432": "3f243a618cde4dd7a3c4459b6efcba799c02d80b",
+    "originalManuscript": "30d371b86d46ae53758079efcc83e969b1eb9405",
+    "frozenV429": "64c27c0dfe05394acbb049807e4c4384d58908b9",
+    "v421Held": "bf0d34792b179a4b5eee9a31e16422f9e997d44b"
+  },
+  "checks": {
+    "exactAnchors": 29,
+    "sourceLinkedClaims": 13,
+    "sourceRegistry": 19,
+    "approvalStatusCount": {
+      "SOURCE_SUPPORTED": 13,
+      "REVIEW_REQUIRED": 10,
+      "HOLD": 3,
+      "STRUCTURE": 3
+    },
+    "notes": 13,
+    "candidates": 5,
+    "excludedFromNotes": 16,
+    "historicalHolds": [
+      "C417-11",
+      "C417-12",
+      "C417-18"
+    ],
+    "volumes": 8,
+    "themes": 6,
+    "themeConnections": 42,
+    "readerScenes": 6,
+    "changedFiles": [
+      {
+        "path": "research/V433_EIGHT_VOLUME_HISTORICAL_ADJUDICATION_EDITORIAL_DECISION_KO.md",
+        "status": "added"
+      },
+      {
+        "path": "research/data/V4_33_EVIDENCE_DECISION_LEDGER_DRAFT.json",
+        "status": "added"
+      },
+      {
+        "path": "research/data/V4_33_INTERNAL_SELECTIVE_PROMOTION_CANDIDATE.json",
+        "status": "added"
+      }
+    ]
+  },
+  "release": {
+    "wholeVolumePromotions": 0,
+    "actualAIStudioChanges": 0,
+    "expertSignoffs": 0,
+    "readerPilots": 0,
+    "canShip": false,
+    "canMergeMain": false
+  },
+  "errors": []
+}
