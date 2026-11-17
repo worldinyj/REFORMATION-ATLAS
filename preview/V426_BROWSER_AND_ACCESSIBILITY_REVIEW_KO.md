@@ -23,8 +23,8 @@ GitHub Actions UI에서 직접 결과 확인: https://github.com/worldinyj/REFOR
 ## macOS에서 실제 검증 실행 (저장소 루트에서)
 
 ```zsh
-git fetch origin research/atlas-v426-chromium-verified-offline-preview-l0
-git switch research/atlas-v426-chromium-verified-offline-preview-l0
+git fetch origin research/atlas-v426-responsive-ux-browser-matrix-l0
+git switch research/atlas-v426-responsive-ux-browser-matrix-l0
 
 mkdir -p /tmp/atlas-v426-node
 npm install --prefix /tmp/atlas-v426-node --no-save --no-package-lock playwright@1.56.1
