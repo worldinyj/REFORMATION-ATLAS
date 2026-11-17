@@ -1,0 +1,548 @@
+{
+  "schema": "ATLAS_V439_CURATED_READING_PATHS_AND_GRAPH_GATES",
+  "version": "V4.39",
+  "date": "2026-11-18",
+  "source": {
+    "candidatePath": "research/data/V4_39_EIGHT_VOLUME_COHERENT_READER_CANDIDATE.json",
+    "candidateBlobSha": "4067b82d6727cbd5dce6fa4adfac65ec1fc9c037",
+    "appContractPath": "handoff/V429_AI_STUDIO_PRIVATE_L0_CONTENT_IMPORT.json",
+    "appBlobSha": "64c27c0dfe05394acbb049807e4c4384d58908b9"
+  },
+  "interpretation": "Curated conceptual reading journeys validated against frozen V4.29 theme→volume links. These are not deployed clickable UI routes.",
+  "timeline": {
+    "id": "PATH-CHRONOLOGY",
+    "title": "일곱 시대를 따라 읽기",
+    "start": "VOL-01",
+    "orderedVolumeIds": [
+      "VOL-01",
+      "VOL-02",
+      "VOL-03",
+      "VOL-04",
+      "VOL-05",
+      "VOL-06",
+      "VOL-07"
+    ],
+    "returnTo": "VOL-08",
+    "transitionType": "CONCEPTUAL_READING",
+    "status": "OFFLINE_LINK_STRUCTURE_ONLY",
+    "readerQuestion": "각 시대의 변화가 이전 시대에서 무엇을 이어받고 무엇을 새롭게 해석했는지 설명해 보세요.",
+    "warning": "VOL-08 is not an eighth historical period"
+  },
+  "thematicRoutes": [
+    {
+      "id": "T415-01",
+      "themeTitle": "성경과 권위",
+      "title": "권위의 근거가 달라질 때",
+      "guidingQuestion": "누가 어떤 문헌과 공동체의 이름으로 가르치는가?",
+      "entryVolumeId": "VOL-08",
+      "chronologicalStopOrder": false,
+      "stops": [
+        {
+          "sequence": 1,
+          "volumeId": "VOL-01",
+          "volumeTitle": "여럿의 언어와 도시에서 자라난 고대교회",
+          "linkTitleInFrozenV429": "공의회 결의와 다양한 지역의 수용",
+          "connectionKind": "CORE_CASE",
+          "connectionLabel": "핵심 사례"
+        },
+        {
+          "sequence": 2,
+          "volumeId": "VOL-03",
+          "volumeTitle": "개혁 이전의 개혁들은 한 길로 이어지지 않았다",
+          "linkTitleInFrozenV429": "위클리프: 성경·교회 권위·성찬",
+          "connectionKind": "CORE_CASE",
+          "connectionLabel": "핵심 사례"
+        },
+        {
+          "sequence": 3,
+          "volumeId": "VOL-04",
+          "volumeTitle": "한 번이 아니라 여러 갈래로 일어난 16세기 개혁",
+          "linkTitleInFrozenV429": "보름스 제국회의와 루터 문제",
+          "connectionKind": "CORE_CASE",
+          "connectionLabel": "핵심 사례"
+        },
+        {
+          "sequence": 4,
+          "volumeId": "VOL-07",
+          "volumeTitle": "세계의 여러 중심과 한국교회의 형성",
+          "linkTitleInFrozenV429": "한국 개신교: 번역·회중·교육·부흥과 사회",
+          "connectionKind": "CONTEXT_BRIDGE",
+          "connectionLabel": "맥락 연결"
+        }
+      ],
+      "exitToVolumeId": "VOL-08",
+      "misconceptionGuard": "고대 공의회, 중세 비판, 종교개혁기의 인쇄·제도, 한국인의 언어 선택은 동일한 권한 구조가 아니다.",
+      "completionPrompt": "이 주제를 각 시대가 똑같이 이해했다고 말할 수 없는 이유를 서로 다른 두 권의 사례로 설명해 보세요.",
+      "status": "OFFLINE_CONCEPTUAL_GRAPH_VALIDATION_ONLY"
+    },
+    {
+      "id": "T415-02",
+      "themeTitle": "은총과 구원",
+      "title": "은총을 말하는 다양한 방식",
+      "guidingQuestion": "구원의 설명은 신앙과 일상생활의 문제를 어떻게 바꾸는가?",
+      "entryVolumeId": "VOL-08",
+      "chronologicalStopOrder": false,
+      "stops": [
+        {
+          "sequence": 1,
+          "volumeId": "VOL-01",
+          "volumeTitle": "여럿의 언어와 도시에서 자라난 고대교회",
+          "linkTitleInFrozenV429": "이집트·북아프리카의 신학과 수도생활",
+          "connectionKind": "CORE_CASE",
+          "connectionLabel": "핵심 사례"
+        },
+        {
+          "sequence": 2,
+          "volumeId": "VOL-04",
+          "volumeTitle": "한 번이 아니라 여러 갈래로 일어난 16세기 개혁",
+          "linkTitleInFrozenV429": "아우크스부르크 신앙고백 제출",
+          "connectionKind": "CORE_CASE",
+          "connectionLabel": "핵심 사례"
+        },
+        {
+          "sequence": 3,
+          "volumeId": "VOL-05",
+          "volumeTitle": "가톨릭 쇄신과 종교 갈등, 제한된 공존",
+          "linkTitleInFrozenV429": "트리엔트 공의회: 신학적 정의와 제도 개혁",
+          "connectionKind": "CORE_CASE",
+          "connectionLabel": "핵심 사례"
+        },
+        {
+          "sequence": 4,
+          "volumeId": "VOL-06",
+          "volumeTitle": "경건주의와 부흥, 언어를 가로지른 세계 선교",
+          "linkTitleInFrozenV429": "웨일스·잉글랜드·북미: 하나가 아니었던 여러 부흥",
+          "connectionKind": "CORE_CASE",
+          "connectionLabel": "핵심 사례"
+        }
+      ],
+      "exitToVolumeId": "VOL-08",
+      "misconceptionGuard": "같은 성경 용어를 썼다고 교파별 칭의론이나 부흥의 실천이 같다고 판단하지 않는다.",
+      "completionPrompt": "이 주제를 각 시대가 똑같이 이해했다고 말할 수 없는 이유를 서로 다른 두 권의 사례로 설명해 보세요.",
+      "status": "OFFLINE_CONCEPTUAL_GRAPH_VALIDATION_ONLY"
+    },
+    {
+      "id": "T415-03",
+      "themeTitle": "성찬과 예배",
+      "title": "성찬 논쟁의 다층적 역사",
+      "guidingQuestion": "성찬에 대한 신학적 차이가 공동체와 제도에 어떤 영향을 주었는가?",
+      "entryVolumeId": "VOL-08",
+      "chronologicalStopOrder": false,
+      "stops": [
+        {
+          "sequence": 1,
+          "volumeId": "VOL-02",
+          "volumeTitle": "중세는 서유럽만의 시간이 아니었다",
+          "linkTitleInFrozenV429": "비잔틴·페르시아·이슬람권의 교회",
+          "connectionKind": "CONTEXT_BRIDGE",
+          "connectionLabel": "맥락 연결"
+        },
+        {
+          "sequence": 2,
+          "volumeId": "VOL-03",
+          "volumeTitle": "개혁 이전의 개혁들은 한 길로 이어지지 않았다",
+          "linkTitleInFrozenV429": "프라하 4개조와 양형 영성체",
+          "connectionKind": "CORE_CASE",
+          "connectionLabel": "핵심 사례"
+        },
+        {
+          "sequence": 3,
+          "volumeId": "VOL-04",
+          "volumeTitle": "한 번이 아니라 여러 갈래로 일어난 16세기 개혁",
+          "linkTitleInFrozenV429": "마르부르크 회담과 성찬 이해의 차이",
+          "connectionKind": "CORE_CASE",
+          "connectionLabel": "핵심 사례"
+        },
+        {
+          "sequence": 4,
+          "volumeId": "VOL-05",
+          "volumeTitle": "가톨릭 쇄신과 종교 갈등, 제한된 공존",
+          "linkTitleInFrozenV429": "트리엔트 공의회: 신학적 정의와 제도 개혁",
+          "connectionKind": "CORE_CASE",
+          "connectionLabel": "핵심 사례"
+        }
+      ],
+      "exitToVolumeId": "VOL-08",
+      "misconceptionGuard": "위클리프·후스 성찬론과 마르부르크의 그리스도 임재 논쟁은 서로 다른 시기·문서·당사자를 가진다.",
+      "completionPrompt": "이 주제를 각 시대가 똑같이 이해했다고 말할 수 없는 이유를 서로 다른 두 권의 사례로 설명해 보세요.",
+      "status": "OFFLINE_CONCEPTUAL_GRAPH_VALIDATION_ONLY"
+    },
+    {
+      "id": "T415-04",
+      "themeTitle": "교회조직과 생활",
+      "title": "교회조직과 사회생활의 변화",
+      "guidingQuestion": "공동체의 규율·교육·구제는 지역의 제도와 어떻게 연결되는가?",
+      "entryVolumeId": "VOL-08",
+      "chronologicalStopOrder": false,
+      "stops": [
+        {
+          "sequence": 1,
+          "volumeId": "VOL-02",
+          "volumeTitle": "중세는 서유럽만의 시간이 아니었다",
+          "linkTitleInFrozenV429": "지역 문자·수도원·필사본 문화",
+          "connectionKind": "CORE_CASE",
+          "connectionLabel": "핵심 사례"
+        },
+        {
+          "sequence": 2,
+          "volumeId": "VOL-04",
+          "volumeTitle": "한 번이 아니라 여러 갈래로 일어난 16세기 개혁",
+          "linkTitleInFrozenV429": "취리히 주변 재세례파 공동체 형성",
+          "connectionKind": "CORE_CASE",
+          "connectionLabel": "핵심 사례"
+        },
+        {
+          "sequence": 3,
+          "volumeId": "VOL-06",
+          "volumeTitle": "경건주의와 부흥, 언어를 가로지른 세계 선교",
+          "linkTitleInFrozenV429": "부흥은 누구의 사회를 바꾸었나: 감리교·흑인교회·여성",
+          "connectionKind": "CORE_CASE",
+          "connectionLabel": "핵심 사례"
+        },
+        {
+          "sequence": 4,
+          "volumeId": "VOL-07",
+          "volumeTitle": "세계의 여러 중심과 한국교회의 형성",
+          "linkTitleInFrozenV429": "한국 개신교: 번역·회중·교육·부흥과 사회",
+          "connectionKind": "CORE_CASE",
+          "connectionLabel": "핵심 사례"
+        }
+      ],
+      "exitToVolumeId": "VOL-08",
+      "misconceptionGuard": "중세 수도원, 16세기 도시교회, 근대의 선교·지역교회를 단일 발전 단계로 줄 세우지 않는다.",
+      "completionPrompt": "이 주제를 각 시대가 똑같이 이해했다고 말할 수 없는 이유를 서로 다른 두 권의 사례로 설명해 보세요.",
+      "status": "OFFLINE_CONCEPTUAL_GRAPH_VALIDATION_ONLY"
+    },
+    {
+      "id": "T415-05",
+      "themeTitle": "국가·갈등·공존",
+      "title": "국가권력·갈등·공존의 한계",
+      "guidingQuestion": "신앙과 국가권력이 만났을 때 누가 보호되고 누가 배제되었는가?",
+      "entryVolumeId": "VOL-08",
+      "chronologicalStopOrder": false,
+      "stops": [
+        {
+          "sequence": 1,
+          "volumeId": "VOL-01",
+          "volumeTitle": "여럿의 언어와 도시에서 자라난 고대교회",
+          "linkTitleInFrozenV429": "제국 정치와 지역 교회 삶의 다른 시간표",
+          "connectionKind": "CORE_CASE",
+          "connectionLabel": "핵심 사례"
+        },
+        {
+          "sequence": 2,
+          "volumeId": "VOL-03",
+          "volumeTitle": "개혁 이전의 개혁들은 한 길로 이어지지 않았다",
+          "linkTitleInFrozenV429": "바젤 콤팍타타: 협상·전투·공포",
+          "connectionKind": "CORE_CASE",
+          "connectionLabel": "핵심 사례"
+        },
+        {
+          "sequence": 3,
+          "volumeId": "VOL-05",
+          "volumeTitle": "가톨릭 쇄신과 종교 갈등, 제한된 공존",
+          "linkTitleInFrozenV429": "화의와 관용의 한계",
+          "connectionKind": "CORE_CASE",
+          "connectionLabel": "핵심 사례"
+        },
+        {
+          "sequence": 4,
+          "volumeId": "VOL-07",
+          "volumeTitle": "세계의 여러 중심과 한국교회의 형성",
+          "linkTitleInFrozenV429": "아메리카의 식민주의와 현지인의 새로운 기독교",
+          "connectionKind": "CORE_CASE",
+          "connectionLabel": "핵심 사례"
+        }
+      ],
+      "exitToVolumeId": "VOL-08",
+      "misconceptionGuard": "왕실 수용은 주민 전체의 동시 개종이 아니며 1555년 화의는 현대적 개인 종교자유 선언이 아니다.",
+      "completionPrompt": "이 주제를 각 시대가 똑같이 이해했다고 말할 수 없는 이유를 서로 다른 두 권의 사례로 설명해 보세요.",
+      "status": "OFFLINE_CONCEPTUAL_GRAPH_VALIDATION_ONLY"
+    },
+    {
+      "id": "T415-06",
+      "themeTitle": "번역과 지역 수용",
+      "title": "문헌과 언어가 바꾼 세계 지도",
+      "guidingQuestion": "읽는 사람과 번역하는 사람은 어떻게 역사의 행위자가 되는가?",
+      "entryVolumeId": "VOL-08",
+      "chronologicalStopOrder": false,
+      "stops": [
+        {
+          "sequence": 1,
+          "volumeId": "VOL-02",
+          "volumeTitle": "중세는 서유럽만의 시간이 아니었다",
+          "linkTitleInFrozenV429": "781년 경교비와 635년의 후대 회고",
+          "connectionKind": "CORE_CASE",
+          "connectionLabel": "핵심 사례"
+        },
+        {
+          "sequence": 2,
+          "volumeId": "VOL-03",
+          "volumeTitle": "개혁 이전의 개혁들은 한 길로 이어지지 않았다",
+          "linkTitleInFrozenV429": "롤라드와 중세 영어 성경 필사본",
+          "connectionKind": "CORE_CASE",
+          "connectionLabel": "핵심 사례"
+        },
+        {
+          "sequence": 3,
+          "volumeId": "VOL-06",
+          "volumeTitle": "경건주의와 부흥, 언어를 가로지른 세계 선교",
+          "linkTitleInFrozenV429": "경건을 교육과 번역으로: 할레와 남인도의 연결",
+          "connectionKind": "CORE_CASE",
+          "connectionLabel": "핵심 사례"
+        },
+        {
+          "sequence": 4,
+          "volumeId": "VOL-07",
+          "volumeTitle": "세계의 여러 중심과 한국교회의 형성",
+          "linkTitleInFrozenV429": "한국 개신교: 번역·회중·교육·부흥과 사회",
+          "connectionKind": "CORE_CASE",
+          "connectionLabel": "핵심 사례"
+        }
+      ],
+      "exitToVolumeId": "VOL-08",
+      "misconceptionGuard": "781년 기록과 회고된 635년, 1714/1715년 타밀어 출판과 1719년 이견, 1882/1887/1911년 책 범위를 구별한다.",
+      "completionPrompt": "이 주제를 각 시대가 똑같이 이해했다고 말할 수 없는 이유를 서로 다른 두 권의 사례로 설명해 보세요.",
+      "status": "OFFLINE_CONCEPTUAL_GRAPH_VALIDATION_ONLY"
+    }
+  ],
+  "originalThemeLinksPreserved": [
+    {
+      "themeId": "T415-01",
+      "volumeId": "VOL-01",
+      "kind": "CORE_CASE"
+    },
+    {
+      "themeId": "T415-01",
+      "volumeId": "VOL-02",
+      "kind": "CORE_CASE"
+    },
+    {
+      "themeId": "T415-01",
+      "volumeId": "VOL-03",
+      "kind": "CORE_CASE"
+    },
+    {
+      "themeId": "T415-01",
+      "volumeId": "VOL-04",
+      "kind": "CORE_CASE"
+    },
+    {
+      "themeId": "T415-01",
+      "volumeId": "VOL-05",
+      "kind": "CORE_CASE"
+    },
+    {
+      "themeId": "T415-01",
+      "volumeId": "VOL-06",
+      "kind": "CONTEXT_BRIDGE"
+    },
+    {
+      "themeId": "T415-01",
+      "volumeId": "VOL-07",
+      "kind": "CONTEXT_BRIDGE"
+    },
+    {
+      "themeId": "T415-02",
+      "volumeId": "VOL-01",
+      "kind": "CORE_CASE"
+    },
+    {
+      "themeId": "T415-02",
+      "volumeId": "VOL-02",
+      "kind": "CONTEXT_BRIDGE"
+    },
+    {
+      "themeId": "T415-02",
+      "volumeId": "VOL-03",
+      "kind": "LIMITED_CONTEXT_NOT_DOCTRINE"
+    },
+    {
+      "themeId": "T415-02",
+      "volumeId": "VOL-04",
+      "kind": "CORE_CASE"
+    },
+    {
+      "themeId": "T415-02",
+      "volumeId": "VOL-05",
+      "kind": "CORE_CASE"
+    },
+    {
+      "themeId": "T415-02",
+      "volumeId": "VOL-06",
+      "kind": "CORE_CASE"
+    },
+    {
+      "themeId": "T415-02",
+      "volumeId": "VOL-07",
+      "kind": "CONTEXT_BRIDGE"
+    },
+    {
+      "themeId": "T415-03",
+      "volumeId": "VOL-01",
+      "kind": "CONTEXT_BRIDGE"
+    },
+    {
+      "themeId": "T415-03",
+      "volumeId": "VOL-02",
+      "kind": "CONTEXT_BRIDGE"
+    },
+    {
+      "themeId": "T415-03",
+      "volumeId": "VOL-03",
+      "kind": "CORE_CASE"
+    },
+    {
+      "themeId": "T415-03",
+      "volumeId": "VOL-04",
+      "kind": "CORE_CASE"
+    },
+    {
+      "themeId": "T415-03",
+      "volumeId": "VOL-05",
+      "kind": "CORE_CASE"
+    },
+    {
+      "themeId": "T415-03",
+      "volumeId": "VOL-06",
+      "kind": "CONTEXT_BRIDGE"
+    },
+    {
+      "themeId": "T415-03",
+      "volumeId": "VOL-07",
+      "kind": "CONTEXT_BRIDGE"
+    },
+    {
+      "themeId": "T415-04",
+      "volumeId": "VOL-01",
+      "kind": "CORE_CASE"
+    },
+    {
+      "themeId": "T415-04",
+      "volumeId": "VOL-02",
+      "kind": "CORE_CASE"
+    },
+    {
+      "themeId": "T415-04",
+      "volumeId": "VOL-03",
+      "kind": "CORE_CASE"
+    },
+    {
+      "themeId": "T415-04",
+      "volumeId": "VOL-04",
+      "kind": "CORE_CASE"
+    },
+    {
+      "themeId": "T415-04",
+      "volumeId": "VOL-05",
+      "kind": "CORE_CASE"
+    },
+    {
+      "themeId": "T415-04",
+      "volumeId": "VOL-06",
+      "kind": "CORE_CASE"
+    },
+    {
+      "themeId": "T415-04",
+      "volumeId": "VOL-07",
+      "kind": "CORE_CASE"
+    },
+    {
+      "themeId": "T415-05",
+      "volumeId": "VOL-01",
+      "kind": "CORE_CASE"
+    },
+    {
+      "themeId": "T415-05",
+      "volumeId": "VOL-02",
+      "kind": "CORE_CASE"
+    },
+    {
+      "themeId": "T415-05",
+      "volumeId": "VOL-03",
+      "kind": "CORE_CASE"
+    },
+    {
+      "themeId": "T415-05",
+      "volumeId": "VOL-04",
+      "kind": "CORE_CASE"
+    },
+    {
+      "themeId": "T415-05",
+      "volumeId": "VOL-05",
+      "kind": "CORE_CASE"
+    },
+    {
+      "themeId": "T415-05",
+      "volumeId": "VOL-06",
+      "kind": "CORE_CASE"
+    },
+    {
+      "themeId": "T415-05",
+      "volumeId": "VOL-07",
+      "kind": "CORE_CASE"
+    },
+    {
+      "themeId": "T415-06",
+      "volumeId": "VOL-01",
+      "kind": "CONTEXT_BRIDGE"
+    },
+    {
+      "themeId": "T415-06",
+      "volumeId": "VOL-02",
+      "kind": "CORE_CASE"
+    },
+    {
+      "themeId": "T415-06",
+      "volumeId": "VOL-03",
+      "kind": "CORE_CASE"
+    },
+    {
+      "themeId": "T415-06",
+      "volumeId": "VOL-04",
+      "kind": "CONTEXT_BRIDGE"
+    },
+    {
+      "themeId": "T415-06",
+      "volumeId": "VOL-05",
+      "kind": "CORE_CASE"
+    },
+    {
+      "themeId": "T415-06",
+      "volumeId": "VOL-06",
+      "kind": "CORE_CASE"
+    },
+    {
+      "themeId": "T415-06",
+      "volumeId": "VOL-07",
+      "kind": "CORE_CASE"
+    }
+  ],
+  "checks": {
+    "totalOriginalThemeLinks": 42,
+    "uniqueThemeLinks": 42,
+    "totalThemeRoutes": 6,
+    "themeRouteStops": 24,
+    "thematicRouteAllStopsExist": true,
+    "eachThematicStopHasFrozenLink": true,
+    "themeLinkKindsPreserved": true,
+    "sevenChronologicalVolumes": true,
+    "themeArchiveSeparate": true
+  },
+  "userStudy": {
+    "actualSessions": 0,
+    "protocol": "Use V4.37 reader packet to ask participants to locate two volumes for a selected theme, explain the difference, return to archive; record errors and confusion, not a fabricated success rate",
+    "proposedTasks": [
+      "Find Wyclif/Hus and Marburg through the Eucharist theme",
+      "Distinguish 1555 peace from modern rights through State/Conflict theme",
+      "Trace Bible printing scope and local agency through Translation theme"
+    ],
+    "notActuallyBrowserTested": true
+  },
+  "release": {
+    "canShip": false,
+    "canDeploy": false,
+    "canMergeMain": false,
+    "canImportAIStudio": false
+  }
+}
