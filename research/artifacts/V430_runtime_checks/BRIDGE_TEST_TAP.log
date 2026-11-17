@@ -2,163 +2,163 @@ TAP version 13
 # Subtest: real V4.29 import instantiates with all 20 content entities and 42 links
 ok 1 - real V4.29 import instantiates with all 20 content entities and 42 links
   ---
-  duration_ms: 2.342434
+  duration_ms: 3.40456
   type: 'test'
   ...
 # Subtest: exact 8 volume narratives survive without modification
 ok 2 - exact 8 volume narratives survive without modification
   ---
-  duration_ms: 0.763758
+  duration_ms: 1.0006
   type: 'test'
   ...
 # Subtest: exact 6 thematic essays survive; 42 links resolve to real era volumes
 ok 3 - exact 6 thematic essays survive; 42 links resolve to real era volumes
   ---
-  duration_ms: 1.301972
+  duration_ms: 1.670335
   type: 'test'
   ...
 # Subtest: exact 6 reader chapters and unmeasured time preserved
 ok 4 - exact 6 reader chapters and unmeasured time preserved
   ---
-  duration_ms: 0.701035
+  duration_ms: 0.862369
   type: 'test'
   ...
 # Subtest: real Korean full-text search resolves valid navigation, no external URLs
 ok 5 - real Korean full-text search resolves valid navigation, no external URLs
   ---
-  duration_ms: 1.609136
+  duration_ms: 2.05991
   type: 'test'
   ...
 # Subtest: methods do not leak evaluator keys, rights metadata, or held claim identifiers
 ok 6 - methods do not leak evaluator keys, rights metadata, or held claim identifiers
   ---
-  duration_ms: 0.993449
+  duration_ms: 1.306658
   type: 'test'
   ...
 # Subtest: host-mutating V4.29 object after creating bridge cannot change original content
 ok 7 - host-mutating V4.29 object after creating bridge cannot change original content
   ---
-  duration_ms: 1.945349
+  duration_ms: 4.133597
   type: 'test'
   ...
 # Subtest: unknown ids, URL-looking ids or wrong route kinds resolve to null
 ok 8 - unknown ids, URL-looking ids or wrong route kinds resolve to null
   ---
-  duration_ms: 0.416124
+  duration_ms: 0.5875
   type: 'test'
   ...
 # Subtest: reject missing declared host access
 ok 9 - reject missing declared host access
   ---
-  duration_ms: 0.268451
+  duration_ms: 0.419032
   type: 'test'
   ...
 # Subtest: reject public environment even with access flag
 ok 10 - reject public environment even with access flag
   ---
-  duration_ms: 0.242748
+  duration_ms: 0.407139
   type: 'test'
   ...
 # Subtest: reject absent host declaration
 ok 11 - reject absent host declaration
   ---
-  duration_ms: 0.09878
+  duration_ms: 0.215938
   type: 'test'
   ...
 # Subtest: reject release-gate unlock canShip
 ok 12 - reject release-gate unlock canShip
   ---
-  duration_ms: 0.200269
+  duration_ms: 0.304685
   type: 'test'
   ...
 # Subtest: reject public indexable data
 ok 13 - reject public indexable data
   ---
-  duration_ms: 0.159794
+  duration_ms: 0.28088
   type: 'test'
   ...
 # Subtest: reject fabricated historian signoff
 ok 14 - reject fabricated historian signoff
   ---
-  duration_ms: 0.188242
+  duration_ms: 0.320706
   type: 'test'
   ...
 # Subtest: reject fabricated staging signoff
 ok 15 - reject fabricated staging signoff
   ---
-  duration_ms: 0.151073
+  duration_ms: 0.340693
   type: 'test'
   ...
 # Subtest: reject first volume missing
 ok 16 - reject first volume missing
   ---
-  duration_ms: 0.465117
+  duration_ms: 0.740218
   type: 'test'
   ...
 # Subtest: reject duplicate volume id
 ok 17 - reject duplicate volume id
   ---
-  duration_ms: 0.473881
+  duration_ms: 0.657281
   type: 'test'
   ...
 # Subtest: reject VOL-08 masquerading as chronological
 ok 18 - reject VOL-08 masquerading as chronological
   ---
-  duration_ms: 0.501629
+  duration_ms: 0.77841
   type: 'test'
   ...
 # Subtest: reject 42-link graph with missing target
 ok 19 - reject 42-link graph with missing target
   ---
-  duration_ms: 0.57622
+  duration_ms: 0.81012
   type: 'test'
   ...
 # Subtest: reject relation taxonomy altered
 ok 20 - reject relation taxonomy altered
   ---
-  duration_ms: 0.917206
+  duration_ms: 0.627365
   type: 'test'
   ...
 # Subtest: reject bad chapter reading measurement claim
 ok 21 - reject bad chapter reading measurement claim
   ---
-  duration_ms: 0.392876
+  duration_ms: 0.558575
   type: 'test'
   ...
 # Subtest: reject injected image embed
 ok 22 - reject injected image embed
   ---
-  duration_ms: 0.440788
+  duration_ms: 0.625371
   type: 'test'
   ...
 # Subtest: reject active html/script injection
 ok 23 - reject active html/script injection
   ---
-  duration_ms: 0.369527
+  duration_ms: 0.739908
   type: 'test'
   ...
 # Subtest: reject held IDs in readers
 ok 24 - reject held IDs in readers
   ---
-  duration_ms: 0.426108
+  duration_ms: 0.776236
   type: 'test'
   ...
 # Subtest: reject editor-only registry added
 ok 25 - reject editor-only registry added
   ---
-  duration_ms: 0.204076
+  duration_ms: 0.302922
   type: 'test'
   ...
 # Subtest: reject public release scope
 ok 26 - reject public release scope
   ---
-  duration_ms: 0.156399
+  duration_ms: 0.269539
   type: 'test'
   ...
 # Subtest: reject search result limit over 20
 ok 27 - reject search result limit over 20
   ---
-  duration_ms: 0.359753
+  duration_ms: 0.574415
   type: 'test'
   ...
 1..27
@@ -169,4 +169,4 @@ ok 27 - reject search result limit over 20
 # cancelled 0
 # skipped 0
 # todo 0
-# duration_ms 106.831785
+# duration_ms 116.377585
