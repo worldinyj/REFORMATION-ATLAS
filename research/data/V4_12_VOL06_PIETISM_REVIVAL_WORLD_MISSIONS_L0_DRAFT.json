@@ -1,0 +1,1337 @@
+{
+  "version": "V4.12",
+  "created": "2026-11-17",
+  "status": "L0_PIETISM_REVIVAL_WORLD_MISSIONS_DRAFT",
+  "branch": "research/atlas-v412-pietism-revivals-global-missions-l0",
+  "parent_branch": "research/atlas-v411-eight-volume-l0-coverage-gaps-and-priorities",
+  "chapter": "VOL-06",
+  "level": "L0",
+  "period_scope": "1660–1900 with older Catholic/Orthodox missionary context; several parallel overlapping movements",
+  "baseline_source": {
+    "path": "docs/01_CONTENT/OVERVIEW/VOL-06_OVERVIEW_V01.md",
+    "sha": "0bc11f8771783de94afebc8338e10042836eba50",
+    "unchanged": true
+  },
+  "sources": [
+    {
+      "id": "S412-01",
+      "title": "Martin Luther in Pietism (Oxford Handbook of Martin Luther's Theology)",
+      "url": "https://academic.oup.com/edited-volume/62249/chapter-abstract/551404236",
+      "access_tier": "ACADEMIC_PUBLISHER_ABSTRACT",
+      "description": "Spener 1675, lay gatherings and renewal within established church",
+      "original_17to19c_folio_direct_read": false,
+      "full_paid_book_read": false,
+      "image_reproduced": false,
+      "source_url_verified": true
+    },
+    {
+      "id": "S412-02",
+      "title": "History of Francke Foundations",
+      "url": "https://www.francke-halle.de/en/company/history-of-the-francke-foundations",
+      "access_tier": "HISTORICAL_FOUNDATION_PUBLIC_HISTORY",
+      "description": "Francke Halle school 1695 and welfare/education institutions",
+      "original_17to19c_folio_direct_read": false,
+      "full_paid_book_read": false,
+      "image_reproduced": false,
+      "source_url_verified": true
+    },
+    {
+      "id": "S412-03",
+      "title": "Historical Networks at Halle",
+      "url": "https://www.francke-halle.de/en/international/historical-networks",
+      "access_tier": "HISTORICAL_FOUNDATION_PUBLIC_HISTORY",
+      "description": "Hungary and Transylvania influenced by translated Halle pietist texts; not Germany-only",
+      "original_17to19c_folio_direct_read": false,
+      "full_paid_book_read": false,
+      "image_reproduced": false,
+      "source_url_verified": true
+    },
+    {
+      "id": "S412-04",
+      "title": "A Syncretism of Piety: Boston, Tranquebar, Halle (Church History)",
+      "url": "https://www.cambridge.org/core/journals/church-history/article/syncretism-of-piety-imagining-global-protestantism-in-early-eighteenthcentury-boston-tranquebar-and-halle/F365F63D070826D244437D23F680B4B8",
+      "access_tier": "SCHOLARLY_OPEN_ARTICLE",
+      "description": "1706 Danish-Halle mission at Tranquebar and transnational pietism",
+      "original_17to19c_folio_direct_read": false,
+      "full_paid_book_read": false,
+      "image_reproduced": false,
+      "source_url_verified": true
+    },
+    {
+      "id": "S412-05",
+      "title": "The Translation Policies of Protestant Reformers (Springer)",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-662-67339-3_13",
+      "access_tier": "SCHOLARLY_OPEN_EXCERPT",
+      "description": "Tamil language translators and interpreters at Tranquebar, not European solo translation",
+      "original_17to19c_folio_direct_read": false,
+      "full_paid_book_read": false,
+      "image_reproduced": false,
+      "source_url_verified": true
+    },
+    {
+      "id": "S412-06",
+      "title": "Herrnhut: The Formation of a Moravian Community, 1722–1732 (PSU Press)",
+      "url": "https://www.psupress.org/books/titles/978-0-271-09239-3.html",
+      "access_tier": "ACADEMIC_PUBLISHER_DESCRIPTION_ONLY",
+      "description": "1722 refugees, 1727 renewal, distinct Moravian institutional history",
+      "original_17to19c_folio_direct_read": false,
+      "full_paid_book_read": false,
+      "image_reproduced": false,
+      "source_url_verified": true
+    },
+    {
+      "id": "S412-07",
+      "title": "Moravian Missions, Believers, and Halle-Herrnhut Controversy (Church History)",
+      "url": "https://www.cambridge.org/core/journals/church-history/article/moravian-missions-believers-and-the-halleherrnhut-controversy-17271737/99AFD71F6E4A4BEF3D2DA29E6013FDFB",
+      "access_tier": "SCHOLARLY_OPEN_ARTICLE",
+      "description": "Moravian 1732 St Thomas, different mission model from Halle, not a single pietist institution",
+      "original_17to19c_folio_direct_read": false,
+      "full_paid_book_read": false,
+      "image_reproduced": false,
+      "source_url_verified": true
+    },
+    {
+      "id": "S412-08",
+      "title": "Methodism (Oxford Handbook of Early Evangelicalism)",
+      "url": "https://academic.oup.com/edited-volume/51640/chapter-abstract/422293377",
+      "access_tier": "ACADEMIC_PUBLISHER_ABSTRACT_ONLY",
+      "description": "Plural Methodisms: Welsh Calvinistic revivals vs Wesleyan Arminian revival",
+      "original_17to19c_folio_direct_read": false,
+      "full_paid_book_read": false,
+      "image_reproduced": false,
+      "source_url_verified": true
+    },
+    {
+      "id": "S412-09",
+      "title": "Howell Harris (Dictionary of Welsh Biography)",
+      "url": "https://biography.wales/article/s-HARR-HOW-1714.html",
+      "access_tier": "NATIONAL_BIOGRAPHICAL_REFERENCE",
+      "description": "Wales revival networks of Harris, Rowland and their societies",
+      "original_17to19c_folio_direct_read": false,
+      "full_paid_book_read": false,
+      "image_reproduced": false,
+      "source_url_verified": true
+    },
+    {
+      "id": "S412-10",
+      "title": "Religion in Eighteenth-Century America (Library of Congress)",
+      "url": "https://www.loc.gov/exhibits/religion/rel02.html",
+      "access_tier": "US_NATIONAL_LIBRARY_HISTORY",
+      "description": "Great Awakening as wider transatlantic 1730s–1740s revivals",
+      "original_17to19c_folio_direct_read": false,
+      "full_paid_book_read": false,
+      "image_reproduced": false,
+      "source_url_verified": true
+    },
+    {
+      "id": "S412-11",
+      "title": "Great Awakening (Oxford Bibliographies)",
+      "url": "https://academic.oup.com/reference/62333/reference-article-abstract/554080786",
+      "access_tier": "SCHOLARLY_BIBLIOGRAPHY_EXTRACT",
+      "description": "1740s intense American colonial revivals within wider multi-decade history",
+      "original_17to19c_folio_direct_read": false,
+      "full_paid_book_read": false,
+      "image_reproduced": false,
+      "source_url_verified": true
+    },
+    {
+      "id": "S412-12",
+      "title": "Carey, William (Boston University, History of Missiology)",
+      "url": "https://www.bu.edu/missiology/missionary-biography/c-d/carey-william-1761-1834/",
+      "access_tier": "ACADEMIC_MISSIOLOGY_BIOGRAPHY",
+      "description": "Carey 1793, Serampore 1800, Indian pandits, 1818 college and dissent",
+      "original_17to19c_folio_direct_read": false,
+      "full_paid_book_read": false,
+      "image_reproduced": false,
+      "source_url_verified": true
+    },
+    {
+      "id": "S412-13",
+      "title": "Education in Bengal, Serampore Missionaries (Cambridge)",
+      "url": "https://www.cambridge.org/core/journals/bulletin-of-the-school-of-oriental-and-african-studies/article/abs/contribution-of-the-serampore-missionaries-to-education-in-bengal-17931837/32516480070D7FDF1434F2F454C8CE83",
+      "access_tier": "ACADEMIC_ABSTRACT_EXTRACT",
+      "description": "Serampore 1818 education, political dynamics and translation",
+      "original_17to19c_folio_direct_read": false,
+      "full_paid_book_read": false,
+      "image_reproduced": false,
+      "source_url_verified": true
+    },
+    {
+      "id": "S412-14",
+      "title": "The Russian Church and Native Alaskan Cultures (Library of Congress)",
+      "url": "https://www.loc.gov/exhibits/russian/russch3.html",
+      "access_tier": "US_NATIONAL_LIBRARY_EXHIBITION",
+      "description": "1794 Orthodox arrival, Alaska Native engagement and Russian America",
+      "original_17to19c_folio_direct_read": false,
+      "full_paid_book_read": false,
+      "image_reproduced": false,
+      "source_url_verified": true
+    },
+    {
+      "id": "S412-15",
+      "title": "Russian Orthodox Church in Alaska (Library of Congress)",
+      "url": "https://www.loc.gov/collections/meeting-of-frontiers/articles-and-essays/alaska/russian-orthodox-church-in-alaska/",
+      "access_tier": "US_NATIONAL_LIBRARY_HISTORY",
+      "description": "Russian company abuses and mission complexities, not all peaceful",
+      "original_17to19c_folio_direct_read": false,
+      "full_paid_book_read": false,
+      "image_reproduced": false,
+      "source_url_verified": true
+    },
+    {
+      "id": "S412-16",
+      "title": "From Jesuit Suppression to Restoration 1759–1820 (Oxford)",
+      "url": "https://academic.oup.com/edited-volume/34656/chapter-abstract/295318062",
+      "access_tier": "ACADEMIC_PUBLISHER_ABSTRACT_ONLY",
+      "description": "1773 suppression and 1814 restoration distinguish Catholic trajectory",
+      "original_17to19c_folio_direct_read": false,
+      "full_paid_book_read": false,
+      "image_reproduced": false,
+      "source_url_verified": true
+    },
+    {
+      "id": "S412-17",
+      "title": "Samuel Ajayi Crowther (Oxford Research Encyclopedia)",
+      "url": "https://academic.oup.com/edited-volume/61663/chapter-abstract/553403665",
+      "access_tier": "ACADEMIC_PUBLISHER_ABSTRACT_ONLY",
+      "description": "1864 West African bishop, emancipation and indigenous leadership",
+      "original_17to19c_folio_direct_read": false,
+      "full_paid_book_read": false,
+      "image_reproduced": false,
+      "source_url_verified": true
+    },
+    {
+      "id": "S412-18",
+      "title": "Crowther as African Yoruba missionary bishop (Oxford Research Encyclopedia)",
+      "url": "https://academic.oup.com/edited-volume/61663/chapter-abstract/553405768",
+      "access_tier": "ACADEMIC_PUBLISHER_ABSTRACT_ONLY",
+      "description": "African agency, late European mission resistance to Crowther's network",
+      "original_17to19c_folio_direct_read": false,
+      "full_paid_book_read": false,
+      "image_reproduced": false,
+      "source_url_verified": true
+    },
+    {
+      "id": "S412-19",
+      "title": "Nā Kahu: Native Hawaiian Pastors 1820–1900 (University of Hawaii Press)",
+      "url": "https://www.jstor.org/stable/j.ctv7r43jq",
+      "access_tier": "ACADEMIC_PUBLISHER_BOOK_DESCRIPTION_ONLY",
+      "description": "Native Hawaiian pastors and 1850s missions across Pacific, not only foreign agents",
+      "original_17to19c_folio_direct_read": false,
+      "full_paid_book_read": false,
+      "image_reproduced": false,
+      "source_url_verified": true
+    },
+    {
+      "id": "S412-20",
+      "title": "Jarena Lee and Early AME Church (Smithsonian NMAAHC)",
+      "url": "https://nmaahc.si.edu/explore/stories/jarena-lee-and-early-ame-church",
+      "access_tier": "US_NATIONAL_MUSEUM_OPEN_STORY",
+      "description": "Black woman preacher and early African Methodist Episcopal community",
+      "original_17to19c_folio_direct_read": false,
+      "full_paid_book_read": false,
+      "image_reproduced": false,
+      "source_url_verified": true
+    },
+    {
+      "id": "S412-21",
+      "title": "Jarena Lee (US National Park Service)",
+      "url": "https://www.nps.gov/people/jarena-lee.htm",
+      "access_tier": "US_NATIONAL_PARK_SERVICE_BIOGRAPHY",
+      "description": "1820 preaching and 1836 autobiography",
+      "original_17to19c_folio_direct_read": false,
+      "full_paid_book_read": false,
+      "image_reproduced": false,
+      "source_url_verified": true
+    },
+    {
+      "id": "S412-22",
+      "title": "Moravian-Herrnhut UNESCO nomination supplementary documentation",
+      "url": "https://whc.unesco.org/document/204959",
+      "access_tier": "UNESCO_ARCHIVAL_HERITAGE_NOMINATION_PDF_NOT_FACSIMILE_REVIEWED",
+      "description": "1722 refuge 1732 overseas mission, restricted to indexed public excerpts",
+      "original_17to19c_folio_direct_read": false,
+      "full_paid_book_read": false,
+      "image_reproduced": false,
+      "source_url_verified": true
+    }
+  ],
+  "arcs": [
+    {
+      "id": "ARC412-01",
+      "title": "신앙고백 이후의 질문: 경건주의는 무엇을 바꾸려 했나",
+      "date_scope": "1660~1710년",
+      "region_ids": [
+        "R412-01"
+      ],
+      "source_ids": [
+        "S412-01",
+        "S412-02"
+      ],
+      "intro": "전쟁과 종교적 경계가 굳어진 유럽에서 루터파 안의 목회자·평신도들은 신앙고백의 바른 표현을 넘어서 성경 읽기, 작은 모임, 이웃 사랑과 공동체 교육을 강조했다.",
+      "story": "슈페너의 1675년 『경건한 열망』은 평신도의 성경 모임과 일상의 경건을 통해 교회 안에서부터 갱신을 일으킬 수 있다고 제안했다. 이는 루터의 개혁을 부정하고 완전히 다른 교회를 세우자는 주장만이 아니라 기존 교회가 신앙의 삶을 충분히 반영하는가라는 내부 질문이었다. 경건주의 안에는 제도 안의 쇄신과 분리적 경향 등 다른 입장도 함께 존재했다.",
+      "counterpoint": "경건주의를 신학 없는 감정운동이나 모든 국가교회의 즉각적 분리로 묘사하지 않는다.",
+      "link_to_previous": [
+        "A409-05"
+      ]
+    },
+    {
+      "id": "ARC412-02",
+      "title": "경건을 교육과 번역으로: 할레와 남인도의 연결",
+      "date_scope": "1695~1730년대",
+      "region_ids": [
+        "R412-01",
+        "R412-03"
+      ],
+      "source_ids": [
+        "S412-02",
+        "S412-03",
+        "S412-04",
+        "S412-05"
+      ],
+      "intro": "프랑케가 1695년 할레에서 시작한 가난한 아이들을 위한 교육은 학교·자선·인쇄와 같은 제도를 통해 경건을 실천하려는 운동으로 확장됐다.",
+      "story": "1706년 덴마크 왕실과 할레의 연결을 바탕으로 지겐발크와 플뤼차우가 남인도 트랑케바르에 도착했다. 이들은 타밀어를 배워 현지인과 소통하고 현지 통역·언어 협력자들과 함께 교육·번역을 추진했다. 할레의 동유럽·헝가리 네트워크도 보여 주듯, 경건주의의 영향은 독일의 한 도시와 인도의 한 선교 거점 사이의 일방통행만으로 설명되지 않는다.",
+      "counterpoint": "유럽인 한 사람이 타밀어를 완성해 전한 것처럼 쓰지 않는다. 남인도의 기독교가 1706년 처음 생겼다는 주장도 금지한다.",
+      "link_to_previous": [
+        "A409-06",
+        "A410-02"
+      ]
+    },
+    {
+      "id": "ARC412-03",
+      "title": "모라비아 공동체: 피난·연대·해외 선교의 다른 길",
+      "date_scope": "1722~1760년대",
+      "region_ids": [
+        "R412-02",
+        "R412-06"
+      ],
+      "source_ids": [
+        "S412-06",
+        "S412-07"
+      ],
+      "intro": "1722년 작센 헤른후트에 모인 모라비아 출신 피난민과 여러 신자들은 신앙 공동체와 세계적 네트워크를 새롭게 조직했다.",
+      "story": "1727년 이후 공동체 갱신과 교류가 확산되었고, 1732년에는 카리브해 세인트토머스의 노예화된 주민들을 향한 모라비아 선교가 시작됐다. 이 역사는 할레 경건주의의 단순한 지부가 아니다. 두 흐름은 같은 시대의 신앙적 관심을 공유하면서도 전도 방식·조직·신학적 강조점에서 논쟁했다. 식민지에서 노예화된 신자들이 경험한 권력 관계 역시 별도로 다뤄야 한다.",
+      "counterpoint": "헤른후트·할레·모라비아 공동체를 하나의 기관으로 합치거나, 모라비아의 모든 활동을 노예제에 대한 완전한 저항으로 미화하지 않는다.",
+      "link_to_previous": [
+        "A409-06",
+        "A410-04"
+      ]
+    },
+    {
+      "id": "ARC412-04",
+      "title": "웨일스·잉글랜드·북미: 하나가 아니었던 여러 부흥",
+      "date_scope": "1730~1770년대",
+      "region_ids": [
+        "R412-04",
+        "R412-05"
+      ],
+      "source_ids": [
+        "S412-08",
+        "S412-09",
+        "S412-10",
+        "S412-11"
+      ],
+      "intro": "18세기 영어권의 부흥은 순회설교와 야외예배, 성경 모임과 회개·회심의 경험을 강조했지만 하나의 교파가 만든 통일 운동이 아니었다.",
+      "story": "웨일스의 하웰 해리스와 대니얼 롤런드, 조지 휫필드, 존·찰스 웨슬리는 서로 연락하고 영향을 주고받으면서도 예정과 은총, 교회의 조직에 관해 다른 길을 택했다. 웨일스의 칼뱅주의적 감리교와 웨슬리계 감리교를 구별해야 한다. 북아메리카의 1730~1740년대 대각성도 한 해에 시작하고 끝난 단일 집회가 아니라 여러 지역의 부흥을 나중에 묶어 부르는 역사적 범주다.",
+      "counterpoint": "감리교는 존 웨슬리 한 사람만이 만든 운동이라고 하지 않는다. 북미 부흥을 곧 식민지 주민 전원의 동일한 변화로 해석하지 않는다.",
+      "link_to_previous": [
+        "A409-05"
+      ]
+    },
+    {
+      "id": "ARC412-05",
+      "title": "부흥은 누구의 사회를 바꾸었나: 감리교·흑인교회·여성",
+      "date_scope": "1740~1840년대",
+      "region_ids": [
+        "R412-04",
+        "R412-05"
+      ],
+      "source_ids": [
+        "S412-08",
+        "S412-10",
+        "S412-20",
+        "S412-21"
+      ],
+      "intro": "부흥의 영향은 설교자의 일대기뿐 아니라 교회 모임·노동자의 교육·공동체 규율과 여성·흑인 신자들의 새로운 지도력에서 드러났다.",
+      "story": "웨슬리계 감리교는 작은 모임과 예배·구제를 연결했고, 다른 감리교 전통은 신학과 지역적 기반에서 차이가 있었다. 미국의 흑인 그리스도인들은 차별적인 교회 제도에 대응해 자치 조직을 만들었으며, 1816년 아프리카감리교회(AME)의 조직은 그 상징적인 사례다. 자레나 리는 1820년대 설교와 1836년 회고록으로 흑인 여성의 신앙과 공적 발언권을 보여 준다. 그러나 부흥 지도자들이 모두 노예제에 같은 입장이었던 것은 아니다.",
+      "counterpoint": "대각성을 곧 노예해방으로 직결하거나, 여성에게 모든 교회의 정식 성직 권한이 동일하게 주어졌다고 하지 않는다.",
+      "link_to_previous": [
+        "A410-04"
+      ]
+    },
+    {
+      "id": "ARC412-06",
+      "title": "근대 선교단체와 세람포르: 인쇄·학교·현지 언어",
+      "date_scope": "1792~1850년대",
+      "region_ids": [
+        "R412-03",
+        "R412-07"
+      ],
+      "source_ids": [
+        "S412-04",
+        "S412-05",
+        "S412-12",
+        "S412-13"
+      ],
+      "intro": "18세기 말 영국과 유럽에서는 자발적 선교단체와 후원 네트워크가 조직되었다. 그러나 유럽의 단체 설립이 곧 그 지역 기독교의 시작은 아니다.",
+      "story": "1792년 영국 침례교 선교회 설립과 1793년 윌리엄 캐리의 인도행, 1800년 세람포르 활동은 19세기 인쇄와 교육·번역의 중요한 전개다. 캐리와 동료들이 혼자 수십 개 언어의 성경을 완성한 것이 아니라 인도인 언어 학자와 번역 협력자들이 함께 작업했다. 1818년 세람포르 대학을 비롯한 교육은 신앙과 지역 사회의 지적 변화에도 얽혔다. 교역과 식민 행정의 제약·기회도 함께 보아야 한다.",
+      "counterpoint": "윌리엄 캐리를 '세계 최초의 선교사'라고 부르거나 현지 언어 전문가의 이름과 공헌을 지우지 않는다.",
+      "link_to_previous": [
+        "A409-06",
+        "A410-02"
+      ]
+    },
+    {
+      "id": "ARC412-07",
+      "title": "가톨릭·동방정교의 별도 역사: 예수회와 알래스카",
+      "date_scope": "1773~1850년대",
+      "region_ids": [
+        "R412-08",
+        "R412-09"
+      ],
+      "source_ids": [
+        "S412-14",
+        "S412-15",
+        "S412-16"
+      ],
+      "intro": "17~19세기 세계 기독교는 개신교의 경건주의·부흥·해외 선교만의 역사가 아니다. 가톨릭과 동방정교 공동체도 서로 다른 위기와 새로운 연결을 경험했다.",
+      "story": "예수회는 1773년 세계적으로 억압됐다가 1814년에 복원되었다. 1794년 러시아 정교회의 선교사들이 알래스카 코디액에 도착했고, 러시아 모피무역과 원주민 사회의 접촉 속에서 종교가 확산했다. 동방정교 선교는 현지 언어를 배우고 신자들과 협력한 측면이 있지만, 식민 무역 회사의 폭력·노동 착취와도 복합적으로 얽혔다. 유럽에서 세계로 향하는 하나의 개신교 선교 화살표만으로 설명되지 않는다.",
+      "counterpoint": "러시아 정교 선교를 식민 지배와 분리된 완전히 평화로운 역사로 미화하지 않는다. 예수회 복원이 모든 가톨릭 선교의 시작이라고 말하지 않는다.",
+      "link_to_previous": [
+        "A409-03",
+        "A409-06",
+        "A410-02"
+      ]
+    },
+    {
+      "id": "ARC412-08",
+      "title": "19세기 현지인 지도자와 제국: 아프리카·태평양·한국의 다리",
+      "date_scope": "1820~1900년",
+      "region_ids": [
+        "R412-06",
+        "R412-08",
+        "R412-10",
+        "R412-11",
+        "R412-12"
+      ],
+      "source_ids": [
+        "S412-17",
+        "S412-18",
+        "S412-19",
+        "S412-12"
+      ],
+      "intro": "19세기 선교를 유럽에서 해외로 나아간 이동 경로로만 읽으면 교회를 세우고 번역하며 이끄는 현지 사람들의 이름이 사라진다.",
+      "story": "서아프리카의 사무엘 아자이 크라우더는 노예화와 해방, 교육·언어 연구를 거쳐 1864년 영국국교회 나이저 지역 주교가 됐다. 하지만 그의 아프리카인 주도 선교 정책은 훗날 일부 유럽 선교사들의 차별적 저항을 받았다. 하와이에서는 19세기 중반 하와이인 목회자들이 다른 태평양 섬까지 이동해 사역했다. 한국에서는 1880년대 해외 거점의 한국어 성경 번역과 한국인 신자의 활동이 외국인 상주 선교사들의 입국 전후로 진행됐다. 선교는 인쇄·교육·언어 교류와 함께 노예제·식민지 권력·인종적 위계를 통과한 역사였다.",
+      "counterpoint": "아프리카인 주교와 태평양 현지인 목회자를 유럽 선교사의 조력자로만 줄이지 않는다. 한국 천주교는 이미 18세기 한국인 공동체를 형성했음을 잊지 않는다.",
+      "link_to_previous": [
+        "A410-03",
+        "A410-04",
+        "A410-06",
+        "A410-08"
+      ]
+    }
+  ],
+  "regional_routes": [
+    {
+      "id": "R412-01",
+      "name": "독일 프랑크푸르트·할레",
+      "thesis": "17~18세기 루터파의 경건 모임, 교육·자선",
+      "geographic_group": "EUROPE",
+      "arc_ids": [
+        "ARC412-01",
+        "ARC412-02"
+      ],
+      "locator": "REGION_ONLY",
+      "historic_coordinates_verified": false
+    },
+    {
+      "id": "R412-02",
+      "name": "작센 헤른후트·모라비아",
+      "thesis": "피난민 공동체에서 초대서양 선교까지",
+      "geographic_group": "EUROPE",
+      "arc_ids": [
+        "ARC412-03"
+      ],
+      "locator": "REGION_ONLY",
+      "historic_coordinates_verified": false
+    },
+    {
+      "id": "R412-03",
+      "name": "덴마크령 트랑케바르·타밀지역",
+      "thesis": "1706년 루터파 선교와 타밀어 번역 협업",
+      "geographic_group": "SOUTH_ASIA",
+      "arc_ids": [
+        "ARC412-02",
+        "ARC412-06"
+      ],
+      "locator": "REGION_ONLY",
+      "historic_coordinates_verified": false
+    },
+    {
+      "id": "R412-04",
+      "name": "웨일스·잉글랜드",
+      "thesis": "칼뱅주의적 부흥과 웨슬리계 감리교 등 여러 운동",
+      "geographic_group": "EUROPE",
+      "arc_ids": [
+        "ARC412-04",
+        "ARC412-05"
+      ],
+      "locator": "REGION_ONLY",
+      "historic_coordinates_verified": false
+    },
+    {
+      "id": "R412-05",
+      "name": "북아메리카 영국 식민지·미국",
+      "thesis": "대각성, 독립적 흑인 교회 및 여성 설교",
+      "geographic_group": "NORTH_AMERICA",
+      "arc_ids": [
+        "ARC412-04",
+        "ARC412-05"
+      ],
+      "locator": "REGION_ONLY",
+      "historic_coordinates_verified": false
+    },
+    {
+      "id": "R412-06",
+      "name": "카리브해 세인트토머스",
+      "thesis": "1732년 모라비아 공동체와 노예화된 주민·식민지",
+      "geographic_group": "CARIBBEAN",
+      "arc_ids": [
+        "ARC412-03",
+        "ARC412-08"
+      ],
+      "locator": "REGION_ONLY",
+      "historic_coordinates_verified": false
+    },
+    {
+      "id": "R412-07",
+      "name": "인도 벵골 세람포르",
+      "thesis": "번역·인쇄·학교·현지 학자와 식민 통치",
+      "geographic_group": "SOUTH_ASIA",
+      "arc_ids": [
+        "ARC412-06"
+      ],
+      "locator": "REGION_ONLY",
+      "historic_coordinates_verified": false
+    },
+    {
+      "id": "R412-08",
+      "name": "북태평양 알래스카",
+      "thesis": "1794년 동방정교 선교와 원주민·모피무역의 복합적 관계",
+      "geographic_group": "NORTH_PACIFIC",
+      "arc_ids": [
+        "ARC412-07",
+        "ARC412-08"
+      ],
+      "locator": "REGION_ONLY",
+      "historic_coordinates_verified": false
+    },
+    {
+      "id": "R412-09",
+      "name": "로마와 가톨릭 국제 네트워크",
+      "thesis": "18~19세기 예수회 억압과 복원, 가톨릭 선교의 별도 경로",
+      "geographic_group": "EUROPE_AND_GLOBAL",
+      "arc_ids": [
+        "ARC412-07"
+      ],
+      "locator": "REGION_ONLY",
+      "historic_coordinates_verified": false
+    },
+    {
+      "id": "R412-10",
+      "name": "시에라리온·나이저강 서아프리카",
+      "thesis": "노예제·해방과 아프리카인 주교·번역·교육",
+      "geographic_group": "WEST_AFRICA",
+      "arc_ids": [
+        "ARC412-08"
+      ],
+      "locator": "REGION_ONLY",
+      "historic_coordinates_verified": false
+    },
+    {
+      "id": "R412-11",
+      "name": "하와이·마르키즈·미크로네시아",
+      "thesis": "원주민 목회자와 교사가 주도한 태평양 교류",
+      "geographic_group": "PACIFIC",
+      "arc_ids": [
+        "ARC412-08"
+      ],
+      "locator": "REGION_ONLY",
+      "historic_coordinates_verified": false
+    },
+    {
+      "id": "R412-12",
+      "name": "한국·만주·일본 번역망",
+      "thesis": "1880년대 한국인 성경 번역·회중과 교회 형성의 선행 단계",
+      "geographic_group": "EAST_ASIA",
+      "arc_ids": [
+        "ARC412-08"
+      ],
+      "locator": "REGION_ONLY",
+      "historic_coordinates_verified": false
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "MS412-01",
+      "year_start": 1670,
+      "year_end": null,
+      "date_label": "1670년 무렵",
+      "title": "프랑크푸르트 슈페너의 경건 모임 시작",
+      "arc_id": "ARC412-01",
+      "region_id": "R412-01",
+      "source_ids": [
+        "S412-01"
+      ],
+      "date_precision": "APPROXIMATE_YEAR",
+      "full_original_read": false
+    },
+    {
+      "id": "MS412-02",
+      "year_start": 1675,
+      "year_end": null,
+      "date_label": "1675년",
+      "title": "슈페너 『경건한 열망』",
+      "arc_id": "ARC412-01",
+      "region_id": "R412-01",
+      "source_ids": [
+        "S412-01"
+      ],
+      "date_precision": "YEAR",
+      "full_original_read": false
+    },
+    {
+      "id": "MS412-03",
+      "year_start": 1695,
+      "year_end": null,
+      "date_label": "1695년",
+      "title": "할레 프랑케의 빈민학교 시작",
+      "arc_id": "ARC412-02",
+      "region_id": "R412-01",
+      "source_ids": [
+        "S412-02"
+      ],
+      "date_precision": "YEAR",
+      "full_original_read": false
+    },
+    {
+      "id": "MS412-04",
+      "year_start": 1706,
+      "year_end": null,
+      "date_label": "1706년",
+      "title": "덴마크-할레 선교단 남인도 트랑케바르 도착",
+      "arc_id": "ARC412-02",
+      "region_id": "R412-03",
+      "source_ids": [
+        "S412-04"
+      ],
+      "date_precision": "YEAR",
+      "full_original_read": false
+    },
+    {
+      "id": "MS412-05",
+      "year_start": 1722,
+      "year_end": null,
+      "date_label": "1722년",
+      "title": "헤른후트 피난민 공동체의 형성",
+      "arc_id": "ARC412-03",
+      "region_id": "R412-02",
+      "source_ids": [
+        "S412-06"
+      ],
+      "date_precision": "YEAR",
+      "full_original_read": false
+    },
+    {
+      "id": "MS412-06",
+      "year_start": 1727,
+      "year_end": null,
+      "date_label": "1727년",
+      "title": "헤른후트 공동체의 새 결속과 연대",
+      "arc_id": "ARC412-03",
+      "region_id": "R412-02",
+      "source_ids": [
+        "S412-07"
+      ],
+      "date_precision": "YEAR",
+      "full_original_read": false
+    },
+    {
+      "id": "MS412-07",
+      "year_start": 1732,
+      "year_end": null,
+      "date_label": "1732년",
+      "title": "모라비아인들의 세인트토머스 선교 시작",
+      "arc_id": "ARC412-03",
+      "region_id": "R412-06",
+      "source_ids": [
+        "S412-07"
+      ],
+      "date_precision": "YEAR",
+      "full_original_read": false
+    },
+    {
+      "id": "MS412-08",
+      "year_start": 1730,
+      "year_end": 1750,
+      "date_label": "1730~1740년대",
+      "title": "영국·웨일스·북미의 여러 복음주의 부흥",
+      "arc_id": "ARC412-04",
+      "region_id": "R412-04",
+      "source_ids": [
+        "S412-08"
+      ],
+      "date_precision": "BROAD_PERIOD",
+      "full_original_read": false
+    },
+    {
+      "id": "MS412-09",
+      "year_start": 1736,
+      "year_end": 1740,
+      "date_label": "1730년대 후반",
+      "title": "웨일스 해리스·롤런드와 부흥 설교 네트워크",
+      "arc_id": "ARC412-04",
+      "region_id": "R412-04",
+      "source_ids": [
+        "S412-09"
+      ],
+      "date_precision": "BROAD_PERIOD",
+      "full_original_read": false
+    },
+    {
+      "id": "MS412-10",
+      "year_start": 1738,
+      "year_end": null,
+      "date_label": "1738년",
+      "title": "존 웨슬리의 회심 경험과 감리교 운동의 변화",
+      "arc_id": "ARC412-04",
+      "region_id": "R412-04",
+      "source_ids": [
+        "S412-08"
+      ],
+      "date_precision": "YEAR_CONTEXT_UNDER_REVIEW",
+      "full_original_read": false
+    },
+    {
+      "id": "MS412-11",
+      "year_start": 1740,
+      "year_end": 1750,
+      "date_label": "1740년대",
+      "title": "북미 식민지 제1차 대각성의 강한 전개",
+      "arc_id": "ARC412-04",
+      "region_id": "R412-05",
+      "source_ids": [
+        "S412-11"
+      ],
+      "date_precision": "BROAD_PERIOD",
+      "full_original_read": false
+    },
+    {
+      "id": "MS412-12",
+      "year_start": 1773,
+      "year_end": null,
+      "date_label": "1773년",
+      "title": "예수회의 세계적 억압",
+      "arc_id": "ARC412-07",
+      "region_id": "R412-09",
+      "source_ids": [
+        "S412-16"
+      ],
+      "date_precision": "YEAR",
+      "full_original_read": false
+    },
+    {
+      "id": "MS412-13",
+      "year_start": 1792,
+      "year_end": null,
+      "date_label": "1792년",
+      "title": "영국 침례교 선교회 조직",
+      "arc_id": "ARC412-06",
+      "region_id": "R412-04",
+      "source_ids": [
+        "S412-12"
+      ],
+      "date_precision": "YEAR",
+      "full_original_read": false
+    },
+    {
+      "id": "MS412-14",
+      "year_start": 1793,
+      "year_end": null,
+      "date_label": "1793년",
+      "title": "윌리엄 캐리의 인도 도착",
+      "arc_id": "ARC412-06",
+      "region_id": "R412-07",
+      "source_ids": [
+        "S412-12"
+      ],
+      "date_precision": "YEAR",
+      "full_original_read": false
+    },
+    {
+      "id": "MS412-15",
+      "year_start": 1794,
+      "year_end": null,
+      "date_label": "1794년",
+      "title": "러시아 정교회 선교사들의 알래스카 코디액 도착",
+      "arc_id": "ARC412-07",
+      "region_id": "R412-08",
+      "source_ids": [
+        "S412-14"
+      ],
+      "date_precision": "YEAR",
+      "full_original_read": false
+    },
+    {
+      "id": "MS412-16",
+      "year_start": 1800,
+      "year_end": null,
+      "date_label": "1800년",
+      "title": "캐리의 세람포르 활동 중심 이동",
+      "arc_id": "ARC412-06",
+      "region_id": "R412-07",
+      "source_ids": [
+        "S412-13"
+      ],
+      "date_precision": "YEAR",
+      "full_original_read": false
+    },
+    {
+      "id": "MS412-17",
+      "year_start": 1814,
+      "year_end": null,
+      "date_label": "1814년",
+      "title": "예수회의 복원",
+      "arc_id": "ARC412-07",
+      "region_id": "R412-09",
+      "source_ids": [
+        "S412-16"
+      ],
+      "date_precision": "YEAR",
+      "full_original_read": false
+    },
+    {
+      "id": "MS412-18",
+      "year_start": 1816,
+      "year_end": null,
+      "date_label": "1816년",
+      "title": "미국 아프리카감리교회(AME) 조직",
+      "arc_id": "ARC412-05",
+      "region_id": "R412-05",
+      "source_ids": [
+        "S412-20"
+      ],
+      "date_precision": "YEAR",
+      "full_original_read": false
+    },
+    {
+      "id": "MS412-19",
+      "year_start": 1818,
+      "year_end": null,
+      "date_label": "1818년",
+      "title": "세람포르 칼리지의 설립",
+      "arc_id": "ARC412-06",
+      "region_id": "R412-07",
+      "source_ids": [
+        "S412-12"
+      ],
+      "date_precision": "YEAR",
+      "full_original_read": false
+    },
+    {
+      "id": "MS412-20",
+      "year_start": 1820,
+      "year_end": 1840,
+      "date_label": "19세기 전반",
+      "title": "미국 제2차 대각성의 여러 지역 운동",
+      "arc_id": "ARC412-05",
+      "region_id": "R412-05",
+      "source_ids": [
+        "S412-20"
+      ],
+      "date_precision": "BROAD_PERIOD",
+      "full_original_read": false
+    },
+    {
+      "id": "MS412-21",
+      "year_start": 1820,
+      "year_end": null,
+      "date_label": "1820년 무렵",
+      "title": "자레나 리의 흑인 여성 설교 시작",
+      "arc_id": "ARC412-05",
+      "region_id": "R412-05",
+      "source_ids": [
+        "S412-21"
+      ],
+      "date_precision": "APPROXIMATE_YEAR",
+      "full_original_read": false
+    },
+    {
+      "id": "MS412-22",
+      "year_start": 1824,
+      "year_end": null,
+      "date_label": "1824년",
+      "title": "러시아 정교회 베니아미노프의 알래스카 사역",
+      "arc_id": "ARC412-07",
+      "region_id": "R412-08",
+      "source_ids": [
+        "S412-15"
+      ],
+      "date_precision": "YEAR",
+      "full_original_read": false
+    },
+    {
+      "id": "MS412-23",
+      "year_start": 1836,
+      "year_end": null,
+      "date_label": "1836년",
+      "title": "자레나 리 신앙 회고록 간행",
+      "arc_id": "ARC412-05",
+      "region_id": "R412-05",
+      "source_ids": [
+        "S412-21"
+      ],
+      "date_precision": "YEAR",
+      "full_original_read": false
+    },
+    {
+      "id": "MS412-24",
+      "year_start": 1849,
+      "year_end": null,
+      "date_label": "1849년",
+      "title": "하와이인 목회자 제임스 케켈라 안수",
+      "arc_id": "ARC412-08",
+      "region_id": "R412-11",
+      "source_ids": [
+        "S412-19"
+      ],
+      "date_precision": "YEAR_FROM_ACADEMIC_BOOK_INDEX_NOT_PRIMARY",
+      "full_original_read": false
+    },
+    {
+      "id": "MS412-25",
+      "year_start": 1850,
+      "year_end": 1860,
+      "date_label": "1850년대",
+      "title": "하와이인 목회자들의 미크로네시아·마르키즈 전도",
+      "arc_id": "ARC412-08",
+      "region_id": "R412-11",
+      "source_ids": [
+        "S412-19"
+      ],
+      "date_precision": "BROAD_PERIOD",
+      "full_original_read": false
+    },
+    {
+      "id": "MS412-26",
+      "year_start": 1864,
+      "year_end": null,
+      "date_label": "1864년",
+      "title": "사무엘 아자이 크라우더 나이저 지역 주교 서임",
+      "arc_id": "ARC412-08",
+      "region_id": "R412-10",
+      "source_ids": [
+        "S412-17"
+      ],
+      "date_precision": "YEAR",
+      "full_original_read": false
+    },
+    {
+      "id": "MS412-27",
+      "year_start": 1882,
+      "year_end": null,
+      "date_label": "1882년",
+      "title": "한국어 복음서 출판과 한국인 번역 협업",
+      "arc_id": "ARC412-08",
+      "region_id": "R412-12",
+      "source_ids": [
+        "S412-12"
+      ],
+      "date_precision": "YEAR_CROSSLINK_V410_NOT_INDEPENDENT_412_SUPPORT",
+      "full_original_read": false
+    },
+    {
+      "id": "MS412-28",
+      "year_start": 1887,
+      "year_end": null,
+      "date_label": "1887년",
+      "title": "한국어 신약전서 발행과 현지 번역망",
+      "arc_id": "ARC412-08",
+      "region_id": "R412-12",
+      "source_ids": [
+        "S412-12"
+      ],
+      "date_precision": "YEAR_CROSSLINK_V410_NOT_INDEPENDENT_412_SUPPORT",
+      "full_original_read": false
+    }
+  ],
+  "actors": [
+    {
+      "id": "P412-01",
+      "name_ko": "필리프 야코프 슈페너",
+      "name_original": "Philipp Jakob Spener",
+      "arc_id": "ARC412-01",
+      "region_id": "R412-01",
+      "role": "루터파 경건 모임·1675년 저술",
+      "node_type": "PERSON",
+      "complete_biography_verified": false
+    },
+    {
+      "id": "P412-02",
+      "name_ko": "아우구스트 헤르만 프랑케",
+      "name_original": "August Hermann Francke",
+      "arc_id": "ARC412-02",
+      "region_id": "R412-01",
+      "role": "할레 교육·자선과 국제 연결",
+      "node_type": "PERSON",
+      "complete_biography_verified": false
+    },
+    {
+      "id": "P412-03",
+      "name_ko": "바르톨로메우스 지겐발크",
+      "name_original": "Bartholomäus Ziegenbalg",
+      "arc_id": "ARC412-02",
+      "region_id": "R412-03",
+      "role": "타밀어 학습·번역·교육",
+      "node_type": "PERSON",
+      "complete_biography_verified": false
+    },
+    {
+      "id": "P412-04",
+      "name_ko": "진첸도르프",
+      "name_original": "Nikolaus Ludwig von Zinzendorf",
+      "arc_id": "ARC412-03",
+      "region_id": "R412-02",
+      "role": "헤른후트 공동체·모라비아 선교",
+      "node_type": "PERSON",
+      "complete_biography_verified": false
+    },
+    {
+      "id": "P412-05",
+      "name_ko": "하웰 해리스",
+      "name_original": "Howell Harris",
+      "arc_id": "ARC412-04",
+      "region_id": "R412-04",
+      "role": "웨일스의 칼뱅주의적 부흥",
+      "node_type": "PERSON",
+      "complete_biography_verified": false
+    },
+    {
+      "id": "P412-06",
+      "name_ko": "대니얼 롤런드",
+      "name_original": "Daniel Rowland",
+      "arc_id": "ARC412-04",
+      "region_id": "R412-04",
+      "role": "웨일스 부흥 목회자",
+      "node_type": "PERSON",
+      "complete_biography_verified": false
+    },
+    {
+      "id": "P412-07",
+      "name_ko": "조지 휫필드",
+      "name_original": "George Whitefield",
+      "arc_id": "ARC412-04",
+      "region_id": "R412-04",
+      "role": "영국·북미 야외 설교, 웨일스 개혁파 네트워크",
+      "node_type": "PERSON",
+      "complete_biography_verified": false
+    },
+    {
+      "id": "P412-08",
+      "name_ko": "존 웨슬리",
+      "name_original": "John Wesley",
+      "arc_id": "ARC412-04",
+      "region_id": "R412-04",
+      "role": "웨슬리계 감리교와 소그룹 조직",
+      "node_type": "PERSON",
+      "complete_biography_verified": false
+    },
+    {
+      "id": "P412-09",
+      "name_ko": "찰스 웨슬리",
+      "name_original": "Charles Wesley",
+      "arc_id": "ARC412-04",
+      "region_id": "R412-04",
+      "role": "예배·찬송과 감리교 공동체",
+      "node_type": "PERSON",
+      "complete_biography_verified": false
+    },
+    {
+      "id": "P412-10",
+      "name_ko": "윌리엄 캐리",
+      "name_original": "William Carey",
+      "arc_id": "ARC412-06",
+      "region_id": "R412-07",
+      "role": "인도 세람포르의 협력·학교·인쇄",
+      "node_type": "PERSON",
+      "complete_biography_verified": false
+    },
+    {
+      "id": "P412-11",
+      "name_ko": "리처드 앨런",
+      "name_original": "Richard Allen",
+      "arc_id": "ARC412-05",
+      "region_id": "R412-05",
+      "role": "흑인 교단 조직과 자치",
+      "node_type": "PERSON",
+      "complete_biography_verified": false
+    },
+    {
+      "id": "P412-12",
+      "name_ko": "자레나 리",
+      "name_original": "Jarena Lee",
+      "arc_id": "ARC412-05",
+      "region_id": "R412-05",
+      "role": "흑인 여성 설교·회고록",
+      "node_type": "PERSON",
+      "complete_biography_verified": false
+    },
+    {
+      "id": "P412-13",
+      "name_ko": "요한 베니아미노프",
+      "name_original": "Ioann Veniaminov",
+      "arc_id": "ARC412-07",
+      "region_id": "R412-08",
+      "role": "알래스카 정교 사목·언어 협력",
+      "node_type": "PERSON",
+      "complete_biography_verified": false
+    },
+    {
+      "id": "P412-14",
+      "name_ko": "사무엘 아자이 크라우더",
+      "name_original": "Samuel Ajayi Crowther",
+      "arc_id": "ARC412-08",
+      "region_id": "R412-10",
+      "role": "아프리카인 주교·언어 연구",
+      "node_type": "PERSON",
+      "complete_biography_verified": false
+    },
+    {
+      "id": "P412-15",
+      "name_ko": "제임스 케켈라",
+      "name_original": "James Kekela",
+      "arc_id": "ARC412-08",
+      "region_id": "R412-11",
+      "role": "하와이인 목회자·태평양 선교",
+      "node_type": "PERSON",
+      "complete_biography_verified": false
+    },
+    {
+      "id": "P412-16",
+      "name_ko": "현지 타밀어 협력자와 인도인 학자들",
+      "name_original": "Tamil-language and Bengali collaborators",
+      "arc_id": "ARC412-06",
+      "region_id": "R412-07",
+      "role": "개별적으로 미확인된 집단 협업을 개인 영웅에게 귀속하지 않기",
+      "node_type": "COLLECTIVE",
+      "complete_biography_verified": false
+    }
+  ],
+  "comparative_questions": [
+    {
+      "id": "C412-01",
+      "question": "경건주의와 16세기 종교개혁은 같은 운동인가?",
+      "lesson": "교리 정의와 제도 형성 이후의 예배·경건·교육 쇄신을 시간과 문제별로 구분",
+      "arc_ids": [
+        "ARC412-01",
+        "ARC412-02"
+      ],
+      "level": "L0"
+    },
+    {
+      "id": "C412-02",
+      "question": "할레와 모라비아 공동체는 같은 선교 단체인가?",
+      "lesson": "경건의 공통 관심과 조직·지역·신학적 논쟁을 함께 제시",
+      "arc_ids": [
+        "ARC412-02",
+        "ARC412-03"
+      ],
+      "level": "L0"
+    },
+    {
+      "id": "C412-03",
+      "question": "웨슬리계와 웨일스 칼뱅주의 감리교는 같은가?",
+      "lesson": "웨일스의 해리스·롤런드, 휫필드와 웨슬리 형제의 연결·차이",
+      "arc_ids": [
+        "ARC412-04",
+        "ARC412-05"
+      ],
+      "level": "L0"
+    },
+    {
+      "id": "C412-04",
+      "question": "대각성이 곧 노예해방·여성 해방을 뜻했나?",
+      "lesson": "흑인 독립교회와 여성 설교의 주체성을 인정하면서 같은 운동의 모순도 설명",
+      "arc_ids": [
+        "ARC412-04",
+        "ARC412-05"
+      ],
+      "level": "L0"
+    },
+    {
+      "id": "C412-05",
+      "question": "선교의 주체는 후원국과 파송 선교사뿐인가?",
+      "lesson": "인도·아프리카·태평양·한국의 번역·목회·학교에 참여한 현지인",
+      "arc_ids": [
+        "ARC412-06",
+        "ARC412-08"
+      ],
+      "level": "L0"
+    },
+    {
+      "id": "C412-06",
+      "question": "근대 세계선교는 모두 개신교의 역사인가?",
+      "lesson": "예수회 위기와 복원, 정교 알래스카를 개신교 부흥과 병렬로 읽는다",
+      "arc_ids": [
+        "ARC412-07"
+      ],
+      "level": "L0"
+    },
+    {
+      "id": "C412-07",
+      "question": "선교와 식민주의는 완전히 같거나 무관한가?",
+      "lesson": "각 지역에서 교육·언어 작업·제국권력·인종위계·저항의 결합 정도를 따로 읽는다",
+      "arc_ids": [
+        "ARC412-02",
+        "ARC412-06",
+        "ARC412-07",
+        "ARC412-08"
+      ],
+      "level": "L0"
+    },
+    {
+      "id": "C412-08",
+      "question": "한국교회의 시작은 1885년 선교사 입국인가?",
+      "lesson": "18세기 천주교 공동체와 1880년대 한국인 성경 번역·회중의 다른 경로를 구분",
+      "arc_ids": [
+        "ARC412-08"
+      ],
+      "level": "L0"
+    }
+  ],
+  "links_to_V409": [
+    {
+      "from_arc": "ARC412-01",
+      "to_arc": "A409-05",
+      "relation": "POST_CONFESSIONAL_PIETY_NOT_DIRECT_INSTITUTIONAL_CAUSALITY",
+      "kind": "MACRO_CONTEXT_NOT_IDENTICAL_EVENT"
+    },
+    {
+      "from_arc": "ARC412-07",
+      "to_arc": "A409-03",
+      "relation": "CATHOLIC_CONTINUITY_JESUIT_RESTORATION",
+      "kind": "MACRO_CONTEXT_NOT_IDENTICAL_EVENT"
+    },
+    {
+      "from_arc": "ARC412-02",
+      "to_arc": "A409-06",
+      "relation": "CATHOLIC_PROTESTANT_GLOBAL_MISSION_COMPARISON",
+      "kind": "MACRO_CONTEXT_NOT_IDENTICAL_EVENT"
+    },
+    {
+      "from_arc": "ARC412-08",
+      "to_arc": "A409-06",
+      "relation": "INDIGENOUS_AGENCY_COMPARISON",
+      "kind": "MACRO_CONTEXT_NOT_IDENTICAL_EVENT"
+    }
+  ],
+  "links_to_V410": [
+    {
+      "from_arc": "ARC412-02",
+      "to_arc": "A410-02",
+      "relation": "MALABAR_AND_TAMIL_CHRISTIANITY_PREDATES_1706",
+      "kind": "MACRO_CONTEXT_NOT_IDENTICAL_EVENT"
+    },
+    {
+      "from_arc": "ARC412-05",
+      "to_arc": "A410-04",
+      "relation": "BLACK_CHURCH_AUTONOMY",
+      "kind": "MACRO_CONTEXT_NOT_IDENTICAL_EVENT"
+    },
+    {
+      "from_arc": "ARC412-07",
+      "to_arc": "A410-05",
+      "relation": "ASIAN_CATHOLIC_PREEXISTENCE_AND_ORTHODOX_MISSION",
+      "kind": "MACRO_CONTEXT_NOT_IDENTICAL_EVENT"
+    },
+    {
+      "from_arc": "ARC412-08",
+      "to_arc": "A410-03",
+      "relation": "AFRICAN_LEADERSHIP",
+      "kind": "MACRO_CONTEXT_NOT_IDENTICAL_EVENT"
+    },
+    {
+      "from_arc": "ARC412-08",
+      "to_arc": "A410-06",
+      "relation": "PACIFIC_INDIGENOUS_MINISTRY",
+      "kind": "MACRO_CONTEXT_NOT_IDENTICAL_EVENT"
+    },
+    {
+      "from_arc": "ARC412-08",
+      "to_arc": "A410-08",
+      "relation": "KOREAN_TRANSLATION_NARRATIVE",
+      "kind": "MACRO_CONTEXT_NOT_IDENTICAL_EVENT"
+    }
+  ],
+  "evidence_corrections": [
+    {
+      "claim": "Korean Gospels 1882",
+      "milestone": "MS412-27",
+      "current_support": "NOT_INDEPENDENTLY_SUPPORTED_BY_V412_BIOGRAPHY",
+      "action": "CROSS_REFERENCE_V410_SOURCE_S410_20_AND_S410_19_BEFORE_RELEASE",
+      "status": "CROSSLINK_ONLY"
+    },
+    {
+      "claim": "Korean New Testament 1887",
+      "milestone": "MS412-28",
+      "current_support": "NOT_INDEPENDENTLY_SUPPORTED_BY_V412_BIOGRAPHY",
+      "action": "CROSS_REFERENCE_V410_SOURCE_S410_19_BEFORE_RELEASE",
+      "status": "CROSSLINK_ONLY"
+    },
+    {
+      "claim": "James Kekela 1849",
+      "milestone": "MS412-24",
+      "current_support": "UNIVERSITY_BOOK_METADATA_AND_INDEXED_EXCERPT_ONLY",
+      "action": "REVIEW_PRINTED_CHAPTER_IF_NEXT_LEVEL",
+      "status": "L0_CONTEXT_ONLY"
+    },
+    {
+      "claim": "John Wesley 1738",
+      "milestone": "MS412-10",
+      "current_support": "OVERVIEW_LEVEL_YEAR_CANDIDATE",
+      "action": "CONFIRM_WESLEY_PERSONAL_EXPERIENCE_DOCUMENT_IF_L1",
+      "status": "L0_CONTEXT_ONLY"
+    },
+    {
+      "claim": "Moravian 1732",
+      "milestone": "MS412-07",
+      "current_support": "PEER_REVIEWED_CAMBRIDGE_OPEN_ARTICLE",
+      "action": "NO_NEED_FOR_PRIMARY_MANUSCRIPT_COLLATION_AT_L0",
+      "status": "L0_VERIFIED_OVERVIEW"
+    }
+  ],
+  "reading_safeguards": [
+    "Do not connect all Pietism, Moravian revival, Welsh Calvinistic Methodism and Wesleyan Methodism into one undifferentiated organization.",
+    "Moravian missionaries' engagement with enslaved Africans does not prove systematic opposition to slavery.",
+    "First Great Awakening 1730s–1740s differs from Second Great Awakening early nineteenth century. Both are heterogeneous historiographical constructs.",
+    "Roman Catholic and Eastern Orthodox histories are not derivative of Protestant evangelical movements.",
+    "India had older Christian communities before 1706 and 1793; missionaries never single-handedly authored vernacular translations.",
+    "Black and Indigenous Christians, women preachers and local teachers are agents rather than merely people who received mission.",
+    "Christian mission is neither wholly synonymous with colonial control nor necessarily separate from it.",
+    "Distinguish 18th-century Korean Catholic roots from 1882–1887 Protestant translations and 1885 foreign residential missions.",
+    "Exact movement route maps and quantitative global conversions require independent corroboration; no data fabricated."
+  ],
+  "publication": {
+    "can_ship": false,
+    "main_modified": false,
+    "existing_513_modified": false,
+    "AI_Studio_modified": false,
+    "canonical_VOL06_modified": false,
+    "previous_macro_layers_modified": false,
+    "original_source_full_text_republished": false,
+    "source_images_reproduced": false,
+    "verified_historic_coordinates_invented": false,
+    "manual_approval": false,
+    "history_editor_review_complete": false
+  }
+}
