@@ -48,12 +48,17 @@ jobs:
           NODE_PATH: /tmp/atlas-v428-tools/node_modules
         run: |
           set +e
-          ATLAS_BROWSER_ENGINE=chromium node research/tests/v428_multi_engine_browser_probe.cjs
+          mkdir -p research/artifacts/V428_browser_evidence
+          ATLAS_BROWSER_ENGINE=chromium node research/tests/v428_multi_engine_browser_probe.cjs > research/artifacts/V428_browser_evidence/CHROMIUM_E2E_LOG.txt 2>&1
           CHROME_CODE=$?
-          ATLAS_BROWSER_ENGINE=webkit node research/tests/v428_multi_engine_browser_probe.cjs
+          ATLAS_BROWSER_ENGINE=webkit node research/tests/v428_multi_engine_browser_probe.cjs > research/artifacts/V428_browser_evidence/WEBKIT_E2E_LOG.txt 2>&1
           WEBKIT_CODE=$?
           echo "chromium_exit=$CHROME_CODE" >> "$GITHUB_OUTPUT"
           echo "webkit_exit=$WEBKIT_CODE" >> "$GITHUB_OUTPUT"
+          echo "CHROMIUM_E2E_EXIT=$CHROME_CODE"
+          tail -25 research/artifacts/V428_browser_evidence/CHROMIUM_E2E_LOG.txt
+          echo "WEBKIT_E2E_EXIT=$WEBKIT_CODE"
+          tail -25 research/artifacts/V428_browser_evidence/WEBKIT_E2E_LOG.txt
           exit 0
       - name: Keep JSON results in research branch
         if: always()
@@ -81,6 +86,10 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add research/artifacts/V428_browser_evidence/V428_BROWSER_E2E_RESULTS.json
+          for engine in CHROMIUM WEBKIT; do
+            log="research/artifacts/V428_browser_evidence/${engine}_E2E_LOG.txt"
+            if test -f "$log"; then git add "$log"; fi
+          done
           if test -f research/artifacts/V428_browser_evidence/INSTALL_LOG.txt; then git add research/artifacts/V428_browser_evidence/INSTALL_LOG.txt; fi
           for engine in chromium webkit; do
             for name in desktop-volumes mobile-volumes small-mobile-themes small-mobile-VOL-06; do
