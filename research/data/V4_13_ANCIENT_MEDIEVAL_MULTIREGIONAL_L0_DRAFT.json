@@ -1,0 +1,606 @@
+{
+  "version": "V4.13",
+  "date": "2026-11-17",
+  "level": "L0",
+  "status": "ANCIENT_MEDIEVAL_MULTIREGIONAL_RESEARCH_DRAFT",
+  "branch": "research/atlas-v413-ancient-medieval-multiregional-l0",
+  "parent": "research/atlas-v412-pietism-revivals-global-missions-l0",
+  "scope": {
+    "volumes": [
+      "VOL-01",
+      "VOL-02"
+    ],
+    "period": "1–15 centuries",
+    "approach": "PARALLEL_MULTIREGIONAL_HISTORY",
+    "baseline_overviews_modified": false
+  },
+  "artifacts": [
+    "docs/01_CONTENT/OVERVIEW/V413_VOL01_ANCIENT_CHRISTIANITY_MULTIREGIONAL_L0_KO.md",
+    "docs/01_CONTENT/OVERVIEW/V413_VOL02_MEDIEVAL_CHRISTIANITY_MULTIREGIONAL_L0_KO.md"
+  ],
+  "sources": [
+    {
+      "id": "S413-01",
+      "title": "Metropolitan Museum: African Christianity in Ethiopia",
+      "url": "https://www.metmuseum.org/ko/essays/african-christianity-in-ethiopia",
+      "access_tier": "MUSEUM_PUBLIC_ESSAY",
+      "full_publisher_work_read": false,
+      "primary_manuscript_collated": false,
+      "images_copied": false
+    },
+    {
+      "id": "S413-02",
+      "title": "Metropolitan Museum: Foundations of Aksumite Civilization",
+      "url": "https://www.metmuseum.org/ko/essays/foundations-of-aksumite-civilization-and-its-christian-legacy-1st-7th-century",
+      "access_tier": "MUSEUM_PUBLIC_ESSAY",
+      "full_publisher_work_read": false,
+      "primary_manuscript_collated": false,
+      "images_copied": false
+    },
+    {
+      "id": "S413-03",
+      "title": "Metropolitan Museum: Armenia!",
+      "url": "https://www.metmuseum.org/exhibitions/listings/2018/armenia",
+      "access_tier": "MUSEUM_PUBLIC_ESSAY",
+      "full_publisher_work_read": false,
+      "primary_manuscript_collated": false,
+      "images_copied": false
+    },
+    {
+      "id": "S413-04",
+      "title": "World Council of Churches: Oriental Orthodox churches",
+      "url": "https://www.oikoumene.org/church-families/orthodox-churches-oriental",
+      "access_tier": "DENOMINATIONAL_INSTITUTIONAL_OVERVIEW",
+      "full_publisher_work_read": false,
+      "primary_manuscript_collated": false,
+      "images_copied": false
+    },
+    {
+      "id": "S413-05",
+      "title": "Metropolitan Museum: Anatolia and Caucasus 1–500",
+      "url": "https://www.metmuseum.org/fr/toah/ht/05/waa.html",
+      "access_tier": "MUSEUM_CHRONOLOGY",
+      "full_publisher_work_read": false,
+      "primary_manuscript_collated": false,
+      "images_copied": false
+    },
+    {
+      "id": "S413-06",
+      "title": "Metropolitan Museum: Book of the Gospels, Ethiopia",
+      "url": "https://www.metmuseum.org/art/collection/search/317618",
+      "access_tier": "MUSEUM_OBJECT_RECORD",
+      "full_publisher_work_read": false,
+      "primary_manuscript_collated": false,
+      "images_copied": false
+    },
+    {
+      "id": "S413-07",
+      "title": "Smarthistory: An Italian family in Yangzhou",
+      "url": "https://smarthistory.org/italian-family-in-yangzhou-china/",
+      "access_tier": "ART_HISTORY_PUBLIC_ESSAY",
+      "full_publisher_work_read": false,
+      "primary_manuscript_collated": false,
+      "images_copied": false
+    },
+    {
+      "id": "S413-08",
+      "title": "Oxford UP: Thomas Christians, Paradoxes of Being Pre-European",
+      "url": "https://doi.org/10.1093/oso/9780190608903.003.0002",
+      "access_tier": "ACADEMIC_PUBLISHER_ABSTRACT_ONLY",
+      "full_publisher_work_read": false,
+      "primary_manuscript_collated": false,
+      "images_copied": false
+    },
+    {
+      "id": "S413-09",
+      "title": "Cambridge UP: The Schism of 1054",
+      "url": "https://www.cambridge.org/core/books/abs/cambridge-history-of-the-papacy/schism-of-1054/70C9594AB09FBB67487F1BF00BF7CCEE",
+      "access_tier": "ACADEMIC_PUBLISHER_ABSTRACT_ONLY",
+      "full_publisher_work_read": false,
+      "primary_manuscript_collated": false,
+      "images_copied": false
+    },
+    {
+      "id": "S413-10",
+      "title": "Metropolitan Museum: Armenia! Exhibition Galleries",
+      "url": "https://www.metmuseum.org/exhibitions/listings/2018/armenia/exhibition-galleries",
+      "access_tier": "MUSEUM_PUBLIC_ESSAY",
+      "full_publisher_work_read": false,
+      "primary_manuscript_collated": false,
+      "images_copied": false
+    },
+    {
+      "id": "S413-11",
+      "title": "British Museum: rubbing of Nestorian Stele heading",
+      "url": "https://www.britishmuseum.org/collection/object/A_1989-1004-0-1-4",
+      "access_tier": "MUSEUM_OBJECT_RECORD",
+      "full_publisher_work_read": false,
+      "primary_manuscript_collated": false,
+      "images_copied": false
+    },
+    {
+      "id": "S413-12",
+      "title": "World Council of Churches: Oriental Orthodox Churches",
+      "url": "https://www.oikoumene.org/node/6097",
+      "access_tier": "DENOMINATIONAL_INSTITUTIONAL_OVERVIEW",
+      "full_publisher_work_read": false,
+      "primary_manuscript_collated": false,
+      "images_copied": false
+    }
+  ],
+  "macro_arcs": [
+    {
+      "id": "ARC413-01",
+      "volume": "VOL-01",
+      "title": "지중해와 시리아의 여러 지역 공동체",
+      "period": "1–3세기",
+      "source_ids": [
+        "S413-04"
+      ],
+      "level": "L0",
+      "status": "RESEARCH_DRAFT"
+    },
+    {
+      "id": "ARC413-02",
+      "volume": "VOL-01",
+      "title": "이집트·북아프리카의 신학과 수도생활",
+      "period": "2–5세기",
+      "source_ids": [
+        "S413-01"
+      ],
+      "level": "L0",
+      "status": "RESEARCH_DRAFT"
+    },
+    {
+      "id": "ARC413-03",
+      "volume": "VOL-01",
+      "title": "아르메니아·악숨의 왕실 수용과 주민 공동체",
+      "period": "4–5세기",
+      "source_ids": [
+        "S413-01",
+        "S413-02",
+        "S413-03",
+        "S413-05"
+      ],
+      "level": "L0",
+      "status": "RESEARCH_DRAFT"
+    },
+    {
+      "id": "ARC413-04",
+      "volume": "VOL-01",
+      "title": "공의회 결의와 다양한 지역의 수용",
+      "period": "325–451",
+      "source_ids": [
+        "S413-04",
+        "S413-12"
+      ],
+      "level": "L0",
+      "status": "RESEARCH_DRAFT"
+    },
+    {
+      "id": "ARC413-05",
+      "volume": "VOL-01",
+      "title": "제국 정치와 지역 교회 삶의 다른 시간표",
+      "period": "313–451",
+      "source_ids": [
+        "S413-02",
+        "S413-05"
+      ],
+      "level": "L0",
+      "status": "RESEARCH_DRAFT"
+    },
+    {
+      "id": "ARC413-06",
+      "volume": "VOL-01",
+      "title": "고대에서 중세로 이어진 전통의 지속",
+      "period": "5–6세기",
+      "source_ids": [
+        "S413-06"
+      ],
+      "level": "L0",
+      "status": "RESEARCH_DRAFT"
+    },
+    {
+      "id": "ARC413-07",
+      "volume": "VOL-02",
+      "title": "비잔틴·페르시아·이슬람권의 교회",
+      "period": "6–8세기",
+      "source_ids": [
+        "S413-04",
+        "S413-12"
+      ],
+      "level": "L0",
+      "status": "RESEARCH_DRAFT"
+    },
+    {
+      "id": "ARC413-08",
+      "volume": "VOL-02",
+      "title": "지역 문자·수도원·필사본 문화",
+      "period": "6–15세기",
+      "source_ids": [
+        "S413-06",
+        "S413-10"
+      ],
+      "level": "L0",
+      "status": "RESEARCH_DRAFT"
+    },
+    {
+      "id": "ARC413-09",
+      "volume": "VOL-02",
+      "title": "781년 경교비와 635년의 후대 회고",
+      "period": "635–781",
+      "source_ids": [
+        "S413-07",
+        "S413-11"
+      ],
+      "level": "L0",
+      "status": "RESEARCH_DRAFT"
+    },
+    {
+      "id": "ARC413-10",
+      "volume": "VOL-02",
+      "title": "말라바르·인도양의 시리아어 교회",
+      "period": "6–15세기",
+      "source_ids": [
+        "S413-08"
+      ],
+      "level": "L0",
+      "status": "RESEARCH_DRAFT"
+    },
+    {
+      "id": "ARC413-11",
+      "volume": "VOL-02",
+      "title": "아르메니아·에티오피아 중세 교회 문화",
+      "period": "7–15세기",
+      "source_ids": [
+        "S413-06",
+        "S413-10"
+      ],
+      "level": "L0",
+      "status": "RESEARCH_DRAFT"
+    },
+    {
+      "id": "ARC413-12",
+      "volume": "VOL-02",
+      "title": "1054년과 1204년을 통한 동서 관계",
+      "period": "1054–1204",
+      "source_ids": [
+        "S413-09"
+      ],
+      "level": "L0",
+      "status": "RESEARCH_DRAFT"
+    },
+    {
+      "id": "ARC413-13",
+      "volume": "VOL-02",
+      "title": "서방 수도원·대학·교황권·개혁 요구",
+      "period": "11–15세기",
+      "source_ids": [
+        "S413-09"
+      ],
+      "level": "L0",
+      "status": "RESEARCH_DRAFT"
+    },
+    {
+      "id": "ARC413-14",
+      "volume": "VOL-02",
+      "title": "15세기 이후의 다양한 지역 전환",
+      "period": "1400–1500",
+      "source_ids": [
+        "S413-08",
+        "S413-10"
+      ],
+      "level": "L0",
+      "status": "RESEARCH_DRAFT"
+    }
+  ],
+  "synchronized_milestones": [
+    {
+      "id": "MS413-01",
+      "year_start": 200,
+      "year_end": 300,
+      "date_precision": "CENTURY_RANGE",
+      "title": "알렉산드리아와 시리아어권 등 다양한 공동체 형성",
+      "volume": "VOL-01",
+      "arc_id": "ARC413-01",
+      "evidence_kind": "PARALLEL_CONTEXT",
+      "source_ids": [
+        "S413-04"
+      ]
+    },
+    {
+      "id": "MS413-02",
+      "year_start": 313,
+      "year_end": 313,
+      "date_precision": "YEAR",
+      "title": "밀라노의 종교 관용 정책",
+      "volume": "VOL-01",
+      "arc_id": "ARC413-05",
+      "evidence_kind": "EVENT",
+      "source_ids": [
+        "S413-05"
+      ]
+    },
+    {
+      "id": "MS413-03",
+      "year_start": 300,
+      "year_end": 350,
+      "date_precision": "EARLY_FOURTH_CENTURY",
+      "title": "아르메니아 왕실의 기독교 수용",
+      "volume": "VOL-01",
+      "arc_id": "ARC413-03",
+      "evidence_kind": "PERIOD_ESTIMATE",
+      "source_ids": [
+        "S413-03",
+        "S413-05"
+      ]
+    },
+    {
+      "id": "MS413-04",
+      "year_start": 325,
+      "year_end": 325,
+      "date_precision": "YEAR",
+      "title": "니케아 공의회",
+      "volume": "VOL-01",
+      "arc_id": "ARC413-04",
+      "evidence_kind": "EVENT",
+      "source_ids": [
+        "S413-04"
+      ]
+    },
+    {
+      "id": "MS413-05",
+      "year_start": 330,
+      "year_end": 370,
+      "date_precision": "FOURTH_CENTURY_MID",
+      "title": "에자나 시대 악숨 왕실의 기독교 수용",
+      "volume": "VOL-01",
+      "arc_id": "ARC413-03",
+      "evidence_kind": "PERIOD_ESTIMATE",
+      "source_ids": [
+        "S413-01",
+        "S413-02"
+      ]
+    },
+    {
+      "id": "MS413-06",
+      "year_start": 381,
+      "year_end": 381,
+      "date_precision": "YEAR",
+      "title": "콘스탄티노폴리스 공의회",
+      "volume": "VOL-01",
+      "arc_id": "ARC413-04",
+      "evidence_kind": "EVENT",
+      "source_ids": [
+        "S413-04"
+      ]
+    },
+    {
+      "id": "MS413-07",
+      "year_start": 431,
+      "year_end": 431,
+      "date_precision": "YEAR",
+      "title": "에페소 공의회",
+      "volume": "VOL-01",
+      "arc_id": "ARC413-04",
+      "evidence_kind": "EVENT",
+      "source_ids": [
+        "S413-04"
+      ]
+    },
+    {
+      "id": "MS413-08",
+      "year_start": 451,
+      "year_end": 451,
+      "date_precision": "YEAR",
+      "title": "칼케돈 공의회와 장기적인 교회 분화",
+      "volume": "VOL-01",
+      "arc_id": "ARC413-04",
+      "evidence_kind": "EVENT_WITH_LONG_RECEPTION",
+      "source_ids": [
+        "S413-04",
+        "S413-12"
+      ]
+    },
+    {
+      "id": "MS413-09",
+      "year_start": 500,
+      "year_end": 600,
+      "date_precision": "CENTURY_RANGE",
+      "title": "아르메니아·에티오피아 등 지역 교회의 문자·전례·교육 지속",
+      "volume": "VOL-02",
+      "arc_id": "ARC413-08",
+      "evidence_kind": "PARALLEL_CONTEXT",
+      "source_ids": [
+        "S413-06",
+        "S413-10"
+      ]
+    },
+    {
+      "id": "MS413-10",
+      "year_start": 635,
+      "year_end": 635,
+      "date_precision": "YEAR_REPORTED_BY_LATER_781_SOURCE",
+      "title": "781년 경교비가 회고한 아라본/알로펜의 중국 도착",
+      "volume": "VOL-02",
+      "arc_id": "ARC413-09",
+      "evidence_kind": "RETROSPECTIVE_CLAIM_NOT_CONTEMPORANEOUS",
+      "source_ids": [
+        "S413-07"
+      ]
+    },
+    {
+      "id": "MS413-11",
+      "year_start": 781,
+      "year_end": 781,
+      "date_precision": "YEAR",
+      "title": "중국 장안의 경교비 건립",
+      "volume": "VOL-02",
+      "arc_id": "ARC413-09",
+      "evidence_kind": "MATERIAL_WITNESS_DATE",
+      "source_ids": [
+        "S413-07",
+        "S413-11"
+      ]
+    },
+    {
+      "id": "MS413-12",
+      "year_start": 1054,
+      "year_end": 1054,
+      "date_precision": "YEAR",
+      "title": "로마·콘스탄티노폴리스 관계의 상징적 충돌",
+      "volume": "VOL-02",
+      "arc_id": "ARC413-12",
+      "evidence_kind": "EVENT_NOT_COMPLETE_SCHISM",
+      "source_ids": [
+        "S413-09"
+      ]
+    },
+    {
+      "id": "MS413-13",
+      "year_start": 1204,
+      "year_end": 1204,
+      "date_precision": "YEAR",
+      "title": "제4차 십자군 콘스탄티노폴리스 약탈",
+      "volume": "VOL-02",
+      "arc_id": "ARC413-12",
+      "evidence_kind": "EVENT_IN_LONG_RELATION",
+      "source_ids": [
+        "S413-09"
+      ]
+    },
+    {
+      "id": "MS413-14",
+      "year_start": 1300,
+      "year_end": 1500,
+      "date_precision": "CENTURIES_RANGE",
+      "title": "에티오피아 복음서·아르메니아 필사본 전통",
+      "volume": "VOL-02",
+      "arc_id": "ARC413-11",
+      "evidence_kind": "MATERIAL_CULTURE_LONG_TERM",
+      "source_ids": [
+        "S413-06",
+        "S413-10"
+      ]
+    },
+    {
+      "id": "MS413-15",
+      "year_start": 1490,
+      "year_end": 1500,
+      "date_precision": "LATE_FIFTEENTH_CENTURY",
+      "title": "포르투갈의 인도양 진입 전부터 존재한 말라바르 기독교 공동체",
+      "volume": "VOL-02",
+      "arc_id": "ARC413-10",
+      "evidence_kind": "PREEXISTENCE_NOT_FOUNDING_EVENT",
+      "source_ids": [
+        "S413-08"
+      ]
+    }
+  ],
+  "cross_volume": [
+    {
+      "from": "VOL-01",
+      "to": "VOL-02",
+      "topic": "고대의 공의회와 지역 교회 → 중세의 지속·분화",
+      "relation": "LONG_TERM_CONTINUITY_NOT_IDENTICAL_STRUCTURE",
+      "from_arc": "ARC413-04",
+      "to_arc": "ARC413-07"
+    },
+    {
+      "from": "VOL-01",
+      "to": "VOL-07",
+      "topic": "악숨·아프리카의 고대 공동체와 세계사",
+      "relation": "SAME_PAST_PERIOD_DIFFERENT_READER_FRAME",
+      "from_arc": "ARC413-03",
+      "to_existing_arc": "A410-01"
+    },
+    {
+      "from": "VOL-02",
+      "to": "VOL-07",
+      "topic": "시리아어 교회·인도·중국과 세계사",
+      "relation": "REGIONAL_PREEXISTENCE_CONTEXT",
+      "from_arc": "ARC413-09",
+      "to_existing_arc": "A410-02"
+    },
+    {
+      "from": "VOL-02",
+      "to": "VOL-07",
+      "topic": "중국 고대·중세의 기독교와 명대 예수회는 다른 사건",
+      "relation": "PERIOD_DIFFERENT_NOT_FIRST_INTRODUCTION",
+      "from_arc": "ARC413-09",
+      "to_existing_arc": "A410-05"
+    },
+    {
+      "from": "VOL-02",
+      "to": "VOL-03",
+      "topic": "서방 제도 갈등과 선행 개혁 흐름",
+      "relation": "HISTORICAL_CONTEXT_NOT_DIRECT_PREDETERMINATION",
+      "from_arc": "ARC413-13",
+      "next_version": "V4.14"
+    },
+    {
+      "from": "VOL-01",
+      "to": "VOL-08",
+      "topic": "공의회 결의·후대 수용·현대 명칭",
+      "relation": "DOCUMENT_AND_RECEPTION_LAYERS",
+      "from_arc": "ARC413-04",
+      "next_version": "V4.15"
+    },
+    {
+      "from": "VOL-02",
+      "to": "VOL-08",
+      "topic": "언어·예배·교계 권위",
+      "relation": "THEMATIC_NOT_ONE_CHRONOLOGY",
+      "from_arc": "ARC413-08",
+      "next_version": "V4.15"
+    }
+  ],
+  "reader_safeguards": [
+    "313년 기독교의 완성된 국교화로 표현 금지",
+    "아르메니아 301년과 악숨의 왕실 수용을 전 주민의 즉각 개종으로 동일시 금지",
+    "오리엔트 정교회·동방 정교회·동방교회를 같은 교단으로 혼동 금지",
+    "451년 공의회 결정과 지역 수용 과정을 구분",
+    "635년은 781년 경교비의 후대 회고이며 독립된 635년 실시간 문헌이 아님",
+    "인도의 사도 토마스 기원 전승과 실증되는 중세 지역 공동체를 구별",
+    "1054년을 동서 분열의 단일 완료 연대로 단정 금지; 1204년과 장기 분화를 함께 기록",
+    "동시대 병렬 사건에 근거 없는 인과 화살표 추가 금지",
+    "중세 전체 암흑기와 루터 도착의 필연론 금지",
+    "현대 국경을 고대·중세 영토로 오용 금지",
+    "제삼자 지도·원전 이미지·유료 서적 전문을 무단 복제 금지"
+  ],
+  "next": [
+    {
+      "priority": 1,
+      "version": "V4.14",
+      "task": "VOL-03 중세 선행 개혁 운동의 여러 갈래 L0 비교"
+    },
+    {
+      "priority": 2,
+      "version": "V4.15",
+      "task": "VOL-08 8권 주제별 횡단 연결 L0"
+    },
+    {
+      "priority": 3,
+      "version": "V4.16",
+      "task": "L0 전체 편집·증거·저작권·독자 경로 게이트"
+    }
+  ],
+  "release": {
+    "can_ship": false,
+    "main_modified": false,
+    "existing_513_modified": false,
+    "AI_Studio_modified": false,
+    "canonical_vol01_vol02_modified": false,
+    "manual_approval": false,
+    "primary_witness_full_collation_complete": false,
+    "rights_review_complete": false
+  },
+  "editorial_validation": {
+    "source_count": 12,
+    "chapter_count": 14,
+    "milestone_count": 15,
+    "cross_volume_link_count": 7,
+    "dangling_refs": 0,
+    "evidence_tiers_are_publisher_abstract_or_public_explanations": true
+  }
+}
