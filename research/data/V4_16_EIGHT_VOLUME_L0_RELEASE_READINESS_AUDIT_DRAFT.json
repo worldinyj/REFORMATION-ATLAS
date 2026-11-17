@@ -1,0 +1,376 @@
+{
+  "version": "V4.16",
+  "date": "2026-11-17",
+  "level": "L0",
+  "branch": "research/atlas-v416-l0-eight-volume-release-readiness-audit",
+  "parent_branch": "research/atlas-v415-six-themes-cross-volume-l0",
+  "type": "EIGHT_VOLUME_EDITORIAL_AND_RELEASE_READINESS_AUDIT_NOT_PUBLICATION",
+  "source_revisions": [
+    "V4.06",
+    "V4.07",
+    "V4.08",
+    "V4.09",
+    "V4.10",
+    "V4.12",
+    "V4.13",
+    "V4.14",
+    "V4.15"
+  ],
+  "scope": {
+    "canonical_overviews": 8,
+    "macro_texts_reviewed": 10,
+    "macro_text_characters": 102749,
+    "registry_files_verified": 8,
+    "evidence_registries": 144,
+    "other_project_or_app_files_examined": false
+  },
+  "base_sha_checks": [
+    {
+      "volume": "VOL-01",
+      "sha_matches": true,
+      "expected_sha": "9a7b95f304799a375b806b1dc85e296d310fa8ad",
+      "verified_prior_fetch_sha": "9a7b95f304799a375b806b1dc85e296d310fa8ad"
+    },
+    {
+      "volume": "VOL-02",
+      "sha_matches": true,
+      "expected_sha": "5c77fc1668941e4d9b9e159f7d2e60838e0316c0",
+      "verified_prior_fetch_sha": "5c77fc1668941e4d9b9e159f7d2e60838e0316c0"
+    },
+    {
+      "volume": "VOL-03",
+      "sha_matches": true,
+      "expected_sha": "2ffb7c6ae999c200297df034aefd24aa9387f1a8",
+      "verified_prior_fetch_sha": "2ffb7c6ae999c200297df034aefd24aa9387f1a8"
+    },
+    {
+      "volume": "VOL-04",
+      "sha_matches": true,
+      "expected_sha": "1f9803a663fdef279697f93d32ff4e9764d49dbf",
+      "verified_prior_fetch_sha": "1f9803a663fdef279697f93d32ff4e9764d49dbf"
+    },
+    {
+      "volume": "VOL-05",
+      "sha_matches": true,
+      "expected_sha": "e7993a9d30b81db1daed7972fe27dc0f65d35148",
+      "verified_prior_fetch_sha": "e7993a9d30b81db1daed7972fe27dc0f65d35148"
+    },
+    {
+      "volume": "VOL-06",
+      "sha_matches": true,
+      "expected_sha": "0bc11f8771783de94afebc8338e10042836eba50",
+      "verified_prior_fetch_sha": "0bc11f8771783de94afebc8338e10042836eba50"
+    },
+    {
+      "volume": "VOL-07",
+      "sha_matches": true,
+      "expected_sha": "8e468c2a6e04a0c6f791ee9bdfb69454586920a0",
+      "verified_prior_fetch_sha": "8e468c2a6e04a0c6f791ee9bdfb69454586920a0"
+    },
+    {
+      "volume": "VOL-08",
+      "sha_matches": true,
+      "expected_sha": "b8616e768d42f49d0c25e40d86f4513377cdb5f6",
+      "verified_prior_fetch_sha": "b8616e768d42f49d0c25e40d86f4513377cdb5f6"
+    }
+  ],
+  "inventory": {
+    "l0_macro_chars": 102749,
+    "l0_exact_duplicate_normalized_paragraphs_over_140_chars": 0,
+    "l0_markdown_embedded_images": 0,
+    "regional_europe_lanes": 11,
+    "v408_synchronized_events": 45,
+    "vol05_arcs": 6,
+    "vol07_arcs": 9,
+    "vol06_arcs": 8,
+    "vol01_02_arcs": 14,
+    "vol03_arcs": 9,
+    "vol08_themes": 6,
+    "vol08_anchors_by_history_volume": {
+      "VOL-01": 6,
+      "VOL-02": 6,
+      "VOL-03": 6,
+      "VOL-04": 6,
+      "VOL-05": 6,
+      "VOL-06": 6,
+      "VOL-07": 6
+    }
+  },
+  "bibliography": {
+    "source_register_entries": 144,
+    "unique_url_count": 132,
+    "shared_url_count": 10,
+    "same_url_repetitions_not_independent_evidence": [
+      {
+        "url": "https://museeprotestant.org/en/notice/the-eight-wars-of-religion-1562-1598/",
+        "refs": [
+          "V407:SRC407-04",
+          "V408:S408-05",
+          "V409:S409-08"
+        ]
+      },
+      {
+        "url": "https://www.metmuseum.org/it/toah/ht/08/euwl",
+        "refs": [
+          "V407:SRC407-06",
+          "V408:S408-04"
+        ]
+      },
+      {
+        "url": "https://compass.onlinelibrary.wiley.com/doi/10.1111/hic3.70003",
+        "refs": [
+          "V407:SRC407-13",
+          "V408:S408-09"
+        ]
+      },
+      {
+        "url": "https://www.cambridge.org/core/books/reformations-compared/DDFD52CC941C3CEDCC29B28BA0BA884E",
+        "refs": [
+          "V407:SRC407-18",
+          "V408:S408-11"
+        ]
+      },
+      {
+        "url": "https://academic.oup.com/edited-volume/37088/chapter/323184625",
+        "refs": [
+          "V408:S408-02",
+          "V408:S408-13"
+        ]
+      },
+      {
+        "url": "https://www.metmuseum.org/ko/essays/african-christianity-in-ethiopia",
+        "refs": [
+          "V410:S410-02",
+          "V413:S413-01"
+        ]
+      },
+      {
+        "url": "https://academic.oup.com/edited-volume/34378",
+        "refs": [
+          "V410:S410-10",
+          "V410:S410-32"
+        ]
+      },
+      {
+        "url": "https://encykorea.aks.ac.kr/Article/E0037972",
+        "refs": [
+          "V410:S410-19",
+          "V412:S412-25",
+          "V415:S415-05"
+        ]
+      },
+      {
+        "url": "https://www.oikoumene.org/church-families/orthodox-churches-oriental",
+        "refs": [
+          "V413:S413-04",
+          "V415:S415-04"
+        ]
+      },
+      {
+        "url": "https://plato.stanford.edu/entries/wyclif/",
+        "refs": [
+          "V414:S414-02",
+          "V415:S415-02"
+        ]
+      }
+    ],
+    "all_urls_live_verified": false
+  },
+  "qa": {
+    "algorithm": "Programmatic IDs, references, timeline start>end, resource syntaxes, 6-by-7 connectivity, SHA comparisons. Does not prove historical truth or source-to-claim appropriateness.",
+    "hard_error_count": 0,
+    "hard_errors": [],
+    "warning_count": 0,
+    "warnings": []
+  },
+  "external_history_spot_checks": [
+    {
+      "id": "H416-01",
+      "topic": "1532 Waldensian gathering and later naming 1847",
+      "status": "SUPPORTED_BY_PROFESSIONAL_DENOMINATIONAL_HISTORY",
+      "url": "https://www.waldensian.org/history/encounters-with-the-reformation-in-the-1530s/"
+    },
+    {
+      "id": "H416-02",
+      "topic": "1421 Prague Articles, 1433 Basel debates, 1436 Jihlava Compactata",
+      "status": "SUPPORTED_BY_2024_UNIVERSITY_CHAPTER_DESCRIPTION",
+      "url": "https://www.muni.cz/en/research/publications/2437517"
+    },
+    {
+      "id": "H416-03",
+      "topic": "1882 Korean first gospel translations vs 1887 complete Korean NT",
+      "status": "SUPPORTED_BY_KOREAN_BIBLE_SOCIETY",
+      "url": "https://www.bskorea.or.kr/bbs/content.php?co_id=subpage2_3_3_1_1"
+    },
+    {
+      "id": "H416-04",
+      "topic": "Korean Encyclopedia entry E0037972 has 1882 metadata vs 1887 body for full NT",
+      "status": "EDITORIAL_METADATA_CONFLICT; CROSSCHECKED_1887_FULL_NT",
+      "url": "https://encykorea.aks.ac.kr/Article/E0037972"
+    },
+    {
+      "id": "H416-05",
+      "topic": "Calvin Institutes 1536 first Latin, 1559 final Latin, 1560 final French",
+      "status": "SUPPORTED_BY_OXFORD_ACADEMIC_ABSTRACT",
+      "url": "https://academic.oup.com/book/50318/chapter-abstract/422710493"
+    },
+    {
+      "id": "H416-06",
+      "topic": "Augsburg Confession 1530 1531 1540 distinct text and edition history",
+      "status": "SECONDARY_EDITIONS_HISTORY_SUPPORTS; L2_COLLATION_PENDING",
+      "url": "https://www.uecf.net/books/collected-works/chapter1319.html"
+    },
+    {
+      "id": "H416-07",
+      "topic": "Oxford Academic redirects to inaccessible paywall/CDN in current browsing tool",
+      "status": "ACCESS_NOT_VERIFIED_NOT_A_404",
+      "url": "https://academic.oup.com/fh/article/32/3/327/5091977"
+    }
+  ],
+  "editorial_risks": [
+    {
+      "id": "R416-01",
+      "priority": "P0",
+      "kind": "PROVENANCE",
+      "description": "Source pages may contain metadata inconsistent with text: 1882 individual Gospel vs 1887 complete NT; add book-level date fields to publication UI",
+      "resolution": "Do not copy inconsistent metadata blindly; verify page image/edition"
+    },
+    {
+      "id": "R416-02",
+      "priority": "P0",
+      "kind": "SOURCE_GROUNDING",
+      "description": "144 registry entries exist but only selected citations have been externally opened; per-claim sufficiency not proved",
+      "resolution": "Prepare reader-journey claim-to-source matrix, distinguish abstract from examined text"
+    },
+    {
+      "id": "R416-03",
+      "priority": "P0",
+      "kind": "RIGHTS",
+      "description": "No image embeds in ten macro files does not establish repository image/copyright rights",
+      "resolution": "Review asset inventory/creator/date/license/derivative rights before release"
+    },
+    {
+      "id": "R416-04",
+      "priority": "P0",
+      "kind": "CHRONOLOGY",
+      "description": "Avoid merging 635 inscription retrospective event with 781 stone or 1421 articles with 1433/1436 agreements",
+      "resolution": "Display event-year vs witness-year vs edition-year separately"
+    },
+    {
+      "id": "R416-05",
+      "priority": "P1",
+      "kind": "DENOMINATIONS",
+      "description": "Oriental Orthodox/Eastern Orthodox/Church of the East, Catholic/internal reform, Anabaptist, global church distinctions need editorial peer review",
+      "resolution": "Appoint cross-tradition reviewer and keep humility on disputed claims"
+    },
+    {
+      "id": "R416-06",
+      "priority": "P1",
+      "kind": "READER_TEST",
+      "description": "Ten minute discovery flow is a scenario, not a real usability measurement",
+      "resolution": "Conduct test with 5 representative non-specialist readers; measure correct takeaways, time, confusions"
+    },
+    {
+      "id": "R416-07",
+      "priority": "P1",
+      "kind": "APP_CONTRACT",
+      "description": "V4.15 42 resolved ID links are not actual AI Studio URLs or click-tested UI",
+      "resolution": "Staging-only mapping and link/accessibility tests after authorization"
+    },
+    {
+      "id": "R416-08",
+      "priority": "P2",
+      "kind": "REPETITION",
+      "description": "No exact duplicate long paragraphs; semantic overlaps between VOL07 and VOL01/02 may still exist",
+      "resolution": "Human compare same epochs; use one canonical story and cross-link from other volume"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G416-01",
+      "name": "8 canonical overviews preserved",
+      "state": "PASS",
+      "evidence": "Checked 8 SHA values in GitHub file fetch and V4.11 baseline"
+    },
+    {
+      "id": "G416-02",
+      "name": "10 L0 macro reader texts available",
+      "state": "PASS",
+      "evidence": "All 10 files fetched in current review; 102749 characters, not proof of historical quality"
+    },
+    {
+      "id": "G416-03",
+      "name": "6 thematic lenses link all 7 history volumes",
+      "state": "PASS",
+      "evidence": "V4.15 6 x 7 reference matrix"
+    },
+    {
+      "id": "G416-04",
+      "name": "Reference/data schema coherent",
+      "state": "PASS",
+      "evidence": "Reference check output, not a historian's factual audit"
+    },
+    {
+      "id": "G416-05",
+      "name": "No exact long copy/pasted paragraphs in 10 macro texts",
+      "state": "PASS",
+      "evidence": "Normalized exact matching for paragraphs >=140 chars; semantic repetition not measured"
+    },
+    {
+      "id": "G416-06",
+      "name": "All source URLs reachable and 144 claims verified",
+      "state": "BLOCKED",
+      "evidence": "Syntax checked, only selected source pages inspected on live web"
+    },
+    {
+      "id": "G416-07",
+      "name": "Historical and denominational editorial signoff",
+      "state": "BLOCKED",
+      "evidence": "Multi-region balance proposed, no external human expert signoff"
+    },
+    {
+      "id": "G416-08",
+      "name": "Media rights, quote rights and re-use permissions",
+      "state": "BLOCKED",
+      "evidence": "No embedded Markdown images in 10 texts, not a repo-wide license audit"
+    },
+    {
+      "id": "G416-09",
+      "name": "Real 10 minute user read and accessibility test",
+      "state": "BLOCKED",
+      "evidence": "Scenario drafted, not tested with users"
+    },
+    {
+      "id": "G416-10",
+      "name": "Staging app contract verified",
+      "state": "BLOCKED",
+      "evidence": "Data registry valid does not imply UI routes implemented"
+    },
+    {
+      "id": "G416-11",
+      "name": "Owner release approval",
+      "state": "BLOCKED",
+      "evidence": "Draft only, can_ship=false"
+    }
+  ],
+  "release": {
+    "can_ship": false,
+    "main_merge_approved": false,
+    "AI_Studio_publish_approved": false,
+    "human_historiography_review_complete": false,
+    "source_rights_review_complete": false,
+    "product_user_test_complete": false,
+    "recommended_state": "STRUCTURAL_L0_RESEARCH_READY_EDITORIAL_RELEASE_BLOCKED"
+  },
+  "next": {
+    "version": "V4.17",
+    "scope": "Release-candidate editorial work package focusing first on source-to-claim, chronology and 10 minute non-specialist test; no automatic publication"
+  },
+  "precision_notes": [
+    "Stable repo data IDs validated only within explicitly checked arrays",
+    "Source URL metadata is not proof of source-to-claim fitness",
+    "No unlicensed image found in ten macro Markdown files only; no claim of whole repo rights clearance",
+    "No online app E2E or human test executed",
+    "Original 513 essays checked non-modification by branch diff separately"
+  ]
+}
