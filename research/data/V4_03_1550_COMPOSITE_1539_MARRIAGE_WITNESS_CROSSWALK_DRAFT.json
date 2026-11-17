@@ -1,0 +1,328 @@
+{
+  "version": "V4.03",
+  "date": "2026-11-17",
+  "status": "RESEARCH_DRAFT",
+  "branch": "research/atlas-v403-1550-composite-1539-marriage-edition-scope-audit",
+  "parent_branch": "research/atlas-v402-1539-original-print-two-witness-visual-proof",
+  "release": {
+    "can_ship": false,
+    "main_modified": false,
+    "essays_513_modified": false,
+    "ai_studio_modified": false,
+    "prior_research_overwritten": false,
+    "public_merged": false,
+    "full_scholarly_tei_reproduced": false,
+    "archival_images_reproduced": false
+  },
+  "copyright": {
+    "ssrq_2022_edited_tei": "CC BY-NC-SA 4.0",
+    "zentrale_1539_1550_print": "Public Domain Mark",
+    "modern_2011_full_edited_text_copied": false,
+    "quoted_original_brief_terms_only": true
+  },
+  "scope": "Full 1539 statute not directly readable; alternative circa1550 composite located and first original page visually read; modern 2022 TEI about composite directly read, appendix variants documented but not aligned",
+  "witnesses": [
+    {
+      "id": "W403-1539-EXTRACT",
+      "edition_date": "1539-07-12",
+      "type": "SIXTEENTH_CENTURY_ORIGINAL_PRINT_SCANS_DIRECT_VISUAL",
+      "title": "Usszug der fürnemisten Eesatzugen",
+      "shelfmark": "Zentralbibliothek Zürich AW 1020",
+      "doi": "10.3931/e-rara-151",
+      "url": "https://www.e-rara.ch/zuz/content/titleinfo/40998",
+      "pdf": "https://www.e-rara.ch/zuz/download/pdf/40998",
+      "pdf_pages_visually_checked": [
+        15,
+        16
+      ],
+      "excerpt_annual_reading_target": 4,
+      "actual_reading_attendance_confirmed": false,
+      "wording_related_to_two_male_witnesses_directly_seen": true,
+      "complete_1539_ordinance": false,
+      "source_has_public_domain_mark": true,
+      "document_type": "PROCLAMATION_EXTRACT_NOT_COMPLETE_EHEMANDAT"
+    },
+    {
+      "id": "W403-1550-PRINT",
+      "edition_date": "circa 1550",
+      "type": "SIXTEENTH_CENTURY_COMPOSITE_PRINT_CATALOG_AND_FIRST_MAIN_PAGE_VISUAL",
+      "title": "Christenlich Ordnung unnd Satzung ... sampt der Ordnung Synodi",
+      "shelfmark": "Zentralbibliothek Zürich AW 1025",
+      "doi": "10.3931/e-rara-155",
+      "url": "https://www.e-rara.ch/zuz/content/titleinfo/41445",
+      "iiif_manifest": "https://www.e-rara.ch/i3f/v20/41445/manifest",
+      "pdf": "https://www.e-rara.ch/zuz/download/pdf/41445",
+      "catalogue_extent": "[20] Bl. (last blank)",
+      "VD16": "Z 590",
+      "catalogue_print_year": "circa 1550",
+      "catalogue_printer": "Christoph Froschauer der Ältere (attributed)",
+      "page_first_main_image": "https://www.e-rara.ch/zuz/download/webcache/304/41454",
+      "first_main_page_visually_checked": true,
+      "first_main_page_heading": "Von dem gemeinen Kilchgang und Predigen",
+      "marriage_appendix_specific_pages_seen": false,
+      "marriage_appendix_actual_text_read": false,
+      "full_pdf_web_open_failed": "MAX_CONTENT_LENGTH_EXCEEDED",
+      "local_pdf_download_failed": "DNS_NAME_RESOLUTION_FAILED",
+      "pdf_bytes_read": 0,
+      "pdf_sha256": null,
+      "source_has_public_domain_mark": true,
+      "warning": "Later composite (~1550) not automatically verbatim identical to the stand-alone 1539 extract or complete original statute"
+    },
+    {
+      "id": "W403-1550-SSRQ-CRITICAL-TEI",
+      "edition_date": "1550",
+      "type": "DIRECT_SCHOLARLY_TEI_OF_1550_MAIN_MANDATE_WITH_EDITORIAL_NOTE_ON_APPENDICES",
+      "url": "https://github.com/SSRQ-SDS-FDS/editio-data/blob/v1.1.0/data/ZH/ZH_NF_I_1_11/SSRQ-ZH-NF_I_1_11-10-1.xml",
+      "path": "data/ZH/ZH_NF_I_1_11/SSRQ-ZH-NF_I_1_11-10-1.xml",
+      "upstream_commit": "c6f409c719dfb46ded238e4c7f7b1d5b5391dbbe",
+      "upstream_tag": "v1.1.0",
+      "blob_sha": "34e398a32c3b2345c415e98882493e7adbd4e039",
+      "series": "SSRQ ZH NF I/1/11 Nr10",
+      "edited_text_source": "StAZH E II 443, S. 97.1–97.44",
+      "kind": "SCHOLARLY_2022_CRITICAL_TRANSCRIPTION_AND_COMMENTARY",
+      "main_mandate_items": 15,
+      "main_mandate_body_directly_read": true,
+      "full_appended_1539_marriage_ordinance_in_Tei_body": false,
+      "editorial_note_says_appended_1539_rule_modified": true,
+      "editorial_note_says_appended_1532_synod_modified": true,
+      "first_dated_1550_variant_vs_second_undated_variant": "Most variants orthographic; title and drinking-parties article have textual variants",
+      "these_two_1550_variants_not_same_comparison_as_1539_vs_1550_marriage": true,
+      "edition_license": "CC BY-NC-SA 4.0",
+      "no_full_xml_copied": true
+    },
+    {
+      "id": "W403-1550-ARCHIVE-31",
+      "edition_date": "circa 1550",
+      "type": "OFFICIAL_ARCHIVE_DESCRIPTION_ONLY",
+      "shelfmark": "StAZH III AAb 1.1 Nr31",
+      "url": "https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=595451",
+      "media": "Printed composite of major mandate plus 1539 marriage order and 1532 synod order",
+      "archival_physical_item_seen": false,
+      "partial_digital_edition": "QZH Nr160 based on QGTS vol5",
+      "partial_digital_edition_text_directly_read": false,
+      "additional_scholarly_edition": "Zürcher Kirchenordnungen 2011 vol1 Nr119"
+    },
+    {
+      "id": "W403-1550-INCOMPLETE",
+      "edition_date": "circa 1550",
+      "type": "OFFICIAL_ARCHIVE_DESCRIPTION_WITH_MISSING_LEAVES",
+      "shelfmark": "StAZH III AAb 5.1 Nr25",
+      "url": "https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4240162",
+      "missing_leaves_printed": "[15]–[18]",
+      "missing_leaf_count": 4,
+      "actual_composite_scans_seen": false,
+      "not_usable_as_complete_original_for_marriage_collation": true
+    },
+    {
+      "id": "W403-2011-CHURCH-ORDERS-TOC",
+      "edition_date": "2011",
+      "type": "SCHOLARLY_EDITED_VOLUME_TABLE_OF_CONTENTS_DIRECT_SCREENSHOT",
+      "title": "Zürcher Kirchenordnungen 1520–1675",
+      "editors": [
+        "Emidio Campi",
+        "Philipp Wälchli"
+      ],
+      "publisher": "Theologischer Verlag Zürich",
+      "url": "https://toc.library.ethz.ch/objects/pdf/z01_978-3-290-17598-6_01.pdf",
+      "pdf_page_zero_based_seen": 4,
+      "printed_vol1_no75": "Ehesatzungen (1539)",
+      "printed_vol1_no75_start_page": 176,
+      "printed_vol1_no119": "Grosses Mandat (1550 [1580])",
+      "printed_vol1_no119_start_page": 259,
+      "actual_edited_pages_176_181_seen": false,
+      "actual_edited_pages_259_plus_seen": false
+    },
+    {
+      "id": "W403-1539-ARCHIVE-FULL",
+      "edition_date": "1539-07-12",
+      "type": "OFFICIAL_ARCHIVE_DESCRIPTION_NOT_SCANNED",
+      "url": "https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1915299",
+      "shelfmark": "StAZH B III 4 fol228r–235v",
+      "full_law_text_read": false,
+      "original_folio_photos_seen": false
+    },
+    {
+      "id": "W403-OTT1855-TEIL2",
+      "edition_date": "1855",
+      "type": "LITERATURE_LOCALE_NOT_TEXT_READ",
+      "url": "https://www.e-periodica.ch/view/zsr-001/1855/4",
+      "source_target": "Ott Zürcherische Rechtsquellen 2nd part pp108–122",
+      "source_target_actual_pages_seen": false,
+      "source_target_text_read": false
+    },
+    {
+      "id": "W403-JULY1533-MINUTES",
+      "edition_date": "1533-07-15",
+      "type": "OFFICIAL_ARCHIVE_DESCRIPTION_NOT_TEXT_READ",
+      "url": "https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=742218",
+      "shelfmark": "StAZH A 6.1 Nr7",
+      "original_minutes_read": false,
+      "article_39_topic_verified": false
+    }
+  ],
+  "claims": [
+    {
+      "id": "C403-01",
+      "source": [
+        "W403-1550-SSRQ-CRITICAL-TEI"
+      ],
+      "tier": "2022_SCHOLARLY_EDITORIAL_NOTE_DIRECT",
+      "claim_ko": "1550년 종합 규정 뒤에는 1539년 혼인규정과 1532년 시노드 규정의 일부 수정본이 이어진다"
+    },
+    {
+      "id": "C403-02",
+      "source": [
+        "W403-1550-PRINT",
+        "W403-1550-ARCHIVE-31"
+      ],
+      "tier": "PRIMARY_COMPOSITE_CATALOG_AND_FIRST_PAGE_VISUAL",
+      "claim_ko": "ZB Zürich AW1025에 약 1550년 종합 규정의 독립 인쇄본이 보존돼 있으며 본문 첫 지면을 확인했다"
+    },
+    {
+      "id": "C403-03",
+      "source": [
+        "W403-1550-SSRQ-CRITICAL-TEI"
+      ],
+      "tier": "DIRECT_1550_MANDATE_EDITED_BODY",
+      "claim_ko": "1550년 종합 규정 제12항은 혼인잔치를 하루 내 저녁 기도시간까지 마치도록 하고 숙박업자에게 잔치를 맡기거나 후속 잔치·춤을 하는 일을 제한했다"
+    },
+    {
+      "id": "C403-04",
+      "source": [
+        "W403-1550-SSRQ-CRITICAL-TEI"
+      ],
+      "tier": "DIRECT_1550_MANDATE_EDITED_BODY",
+      "claim_ko": "1550년 종합 규정에는 혼인잔치를 여관에 맡기는 행위에 10파운드 벌금을 명시한 조항이 있다"
+    },
+    {
+      "id": "C403-05",
+      "source": [
+        "W403-1550-SSRQ-CRITICAL-TEI"
+      ],
+      "tier": "DIRECT_1550_MANDATE_EDITED_BODY",
+      "claim_ko": "제13항은 술자리의 시간과 여관 운영을 제한하며 출산 직후 여성·환자와 관련된 예외를 포함한다"
+    },
+    {
+      "id": "C403-06",
+      "source": [
+        "W403-1550-SSRQ-CRITICAL-TEI"
+      ],
+      "tier": "MODERN_EDITORS_CHRONOLOGY",
+      "claim_ko": "1550년 5월 6일 춘계 시노드가 종합 규정의 배포와 목회자별 연 2회 낭독을 지시했다는 편집자 주석이 있다"
+    },
+    {
+      "id": "C403-07",
+      "source": [
+        "W403-1539-EXTRACT",
+        "W403-1550-SSRQ-CRITICAL-TEI"
+      ],
+      "tier": "SOURCE_TYPE_COMPARISON_NOT_PROOF_OF_POLICY_REVERSAL",
+      "claim_ko": "1539년 발췌본의 연 4회 공포 지시와 1550년 종합 규정의 연 2회 낭독은 서로 다른 인쇄물·문헌 범위를 대상으로 한다"
+    },
+    {
+      "id": "C403-08",
+      "source": [
+        "W403-1550-SSRQ-CRITICAL-TEI"
+      ],
+      "tier": "TEI_COVERAGE_LIMIT",
+      "claim_ko": "SSRQ Nr10의 TEI는 1550년 종합 규정 주요 15항을 직접 전사하지만 1539년 혼인규정 후속부의 조문 자체는 수록하지 않는다"
+    },
+    {
+      "id": "C403-09",
+      "source": [
+        "W403-1550-SSRQ-CRITICAL-TEI"
+      ],
+      "tier": "MODERN_CRITICAL_APPARATUS_VARIANTS",
+      "claim_ko": "1550년 종합 규정의 두 인쇄계열 간 차이는 대체로 표기이고 일부 술자리 조항·표제·연대의 차이가 있다; 이는 혼인규정 1539→1550 개정의 차이 목록은 아니다"
+    },
+    {
+      "id": "C403-10",
+      "source": [
+        "W403-1550-INCOMPLETE"
+      ],
+      "tier": "ARCHIVAL_MISSING_LEAVES_WARNING",
+      "claim_ko": "1550년 종합규정 사본 가운데 StAZH III AAb 5.1 Nr25는 15–18엽이 결락되어 완본으로 취급할 수 없다"
+    },
+    {
+      "id": "C403-11",
+      "source": [
+        "W403-2011-CHURCH-ORDERS-TOC"
+      ],
+      "tier": "MODERN_PRINTED_TOC_VISUAL",
+      "claim_ko": "Campi·Wälchli 편집 2011년 판본에는 1539년 혼인규정 제75호(176쪽) 및 1550년 종합 규정 제119호(259쪽)가 별도 편집 대상으로 수록된다"
+    },
+    {
+      "id": "C403-12",
+      "source": [
+        "W403-1539-ARCHIVE-FULL",
+        "W403-OTT1855-TEIL2",
+        "W403-JULY1533-MINUTES"
+      ],
+      "tier": "NEGATIVE_EVIDENCE_LIMIT",
+      "claim_ko": "1539년 법령 완본·1533년 제39조 내용·1855년 108–122쪽 인쇄면은 아직 직접 판독하지 못해 문장별 일치·차이 확정이 불가하다"
+    }
+  ],
+  "crosswalk": [
+    {
+      "topic": "SUBJECT_MATTER",
+      "earlier_1539": "혼인 약속과 두 명의 신뢰할 수 있는 남성 증인",
+      "later_1550": "혼인규정 일부 수정본이 종합본 뒤에 실렸다는 주석",
+      "relation": "CONTEXTUALLY_RELATED_TEXTUAL_IDENTITY_UNVERIFIED",
+      "original_1539_pages_seen": [
+        15,
+        16
+      ],
+      "original_1550_appendix_pages_seen": []
+    },
+    {
+      "topic": "FREQUENCY",
+      "earlier_1539": "발췌본 강단 공포 연 4회 예정",
+      "later_1550": "종합 규정집 목회자 낭독 연 2회 지시(2022년 편집자 주석)",
+      "relation": "DIFFERENT_DOCUMENT_PURPOSE_CANNOT_INFER_MARRIAGE_RULE_REDUCED_FREQUENCY"
+    },
+    {
+      "topic": "WEDDING_PUBLIC_ORDER",
+      "earlier_1539": "현재 직접 확인한 발췌 p15–16의 대상 조문 밖",
+      "later_1550": "종합 규정 제12항 혼인잔치 1일·춤 제한·여관 개최 금지 및 10파운드 벌금",
+      "relation": "LATER_MANDATE_MAIN_BODY_NOT_1539_MARRIAGE_APPENDIX"
+    },
+    {
+      "topic": "TEXTUAL_VARIANTS",
+      "earlier_1539": "발췌본 vs 1550 혼인 부속문 내용 직접 대조 미완료",
+      "later_1550": "1550 종합 규정의 두 인쇄계열은 대체로 정서법·일부 술자리 조항·표제·날짜가 다름",
+      "relation": "DIFFERENT_VARIANT_COMPARISONS_DO_NOT_MERGE"
+    },
+    {
+      "topic": "EDITED_COVERAGE",
+      "earlier_1539": "원본 발췌 p15-16 이미지 판독",
+      "later_1550": "SSRQ Nr10의 15개 주요 규정 직접 편집전사, 1539 혼인 부속규정은 설명만",
+      "relation": "NO_PARAGRAPH_TO_PARAGRAPH_ALIGNMENT_POSSIBLE_YET"
+    }
+  ],
+  "summary": {
+    "total_witnesses": 9,
+    "total_grounded_claims": 12,
+    "crosswalk_topics": 5,
+    "new_direct_1550_tei_blob": "34e398a32c3b2345c415e98882493e7adbd4e039",
+    "original_1550_composite_first_main_page_seen": true,
+    "original_1550_marriage_appendix_pages_seen": 0,
+    "modern_1550_main_sections_read": 15,
+    "modern_1550_1539_appendix_full_text_available": false,
+    "ott1855_target_pages_read": false,
+    "full_1539_statute_pages_read": false,
+    "article39_1533_identity_verified": false
+  },
+  "blockers": [
+    "E-rara 1550 PDF 12.2 MB rejected by web max content length; local DNS fails, so marriage-appendix pages not inspected",
+    "SSRQ Nr10 TEI commentary mentions appendices but transcribed body ends after 1550 main section 15; do not falsely equate with full appendix",
+    "1550 composite archive copy III AAb5.1 Nr25 lacks folios 15–18, cannot serve as full witness",
+    "Ott1855 pp108–122 and July1533 A6.1 Nr7 original remain unseen"
+  ],
+  "next": [
+    "Try obtain 1550 AW1025 appendix page images via recognized IIIF service or accessible smaller per-page digital JPEG URLs and compare with 1539 AW1020 pp15–16",
+    "Inspect Zurich Kirchenordnungen 2011 Vol1 Nr75 pp176–181 and Nr119 pp259 onward only if legally accessible; full content not presently read",
+    "Seek independent 1539 B III4 fol228r–235v printed full original; avoid inferring unchanged from 1550 edited commentary",
+    "Distinguish 1550 two print variants from 1539-to-1550 changes; record differences only when both actual printed paragraphs seen",
+    "Maintain no publication, merge or 513 essay changes and leave 1533 Article39 unknown"
+  ]
+}
