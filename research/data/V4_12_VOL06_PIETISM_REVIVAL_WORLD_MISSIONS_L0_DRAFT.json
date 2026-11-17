@@ -705,20 +705,6 @@
       "full_original_read": false
     },
     {
-      "id": "MS412-07",
-      "year_start": 1732,
-      "year_end": null,
-      "date_label": "1732년",
-      "title": "모라비아인들의 세인트토머스 선교 시작",
-      "arc_id": "ARC412-03",
-      "region_id": "R412-06",
-      "source_ids": [
-        "S412-07"
-      ],
-      "date_precision": "YEAR",
-      "full_original_read": false
-    },
-    {
       "id": "MS412-08",
       "year_start": 1730,
       "year_end": 1750,
@@ -730,6 +716,20 @@
         "S412-08"
       ],
       "date_precision": "BROAD_PERIOD",
+      "full_original_read": false
+    },
+    {
+      "id": "MS412-07",
+      "year_start": 1732,
+      "year_end": null,
+      "date_label": "1732년",
+      "title": "모라비아인들의 세인트토머스 선교 시작",
+      "arc_id": "ARC412-03",
+      "region_id": "R412-06",
+      "source_ids": [
+        "S412-07"
+      ],
+      "date_precision": "YEAR",
       "full_original_read": false
     },
     {
@@ -887,20 +887,6 @@
       "full_original_read": false
     },
     {
-      "id": "MS412-20",
-      "year_start": 1820,
-      "year_end": 1840,
-      "date_label": "19세기 전반",
-      "title": "미국 제2차 대각성의 여러 지역 운동",
-      "arc_id": "ARC412-05",
-      "region_id": "R412-05",
-      "source_ids": [
-        "S412-20"
-      ],
-      "date_precision": "BROAD_PERIOD",
-      "full_original_read": false
-    },
-    {
       "id": "MS412-21",
       "year_start": 1820,
       "year_end": null,
@@ -912,6 +898,20 @@
         "S412-21"
       ],
       "date_precision": "APPROXIMATE_YEAR",
+      "full_original_read": false
+    },
+    {
+      "id": "MS412-20",
+      "year_start": 1820,
+      "year_end": 1840,
+      "date_label": "19세기 전반",
+      "title": "미국 제2차 대각성의 여러 지역 운동",
+      "arc_id": "ARC412-05",
+      "region_id": "R412-05",
+      "source_ids": [
+        "S412-20"
+      ],
+      "date_precision": "BROAD_PERIOD",
       "full_original_read": false
     },
     {
@@ -1404,5 +1404,12 @@
     "mission_society_origin_linked_to_UK": true,
     "Korean_milestones_scoped_to_Korean_agency_arc": true,
     "all_prior_versioned_sources_preserved": true
+  },
+  "reader_timeline": {
+    "sort_key": "year_start",
+    "date_precision_visible": true,
+    "period_events_render_as_bands": true,
+    "multi_region_acts_do_not_imply_one_way_diffusion": true,
+    "source_tier_visible_on_expand": true
   }
 }
