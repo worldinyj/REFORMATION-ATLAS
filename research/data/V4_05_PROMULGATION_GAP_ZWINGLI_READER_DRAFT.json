@@ -1,0 +1,84 @@
+{
+  "version": "V4.05-READER-REVIEW",
+  "status": "DRAFT_ONLY_NOT_PUBLISHED",
+  "chapter_target": "MEDIUM-ZWINGLI",
+  "parent_evidence": "research/data/V4_05_1550_PROMULGATION_PRINT_COPIES_SOURCE_LEVEL_DRAFT.json",
+  "heading": "법을 만들고, 인쇄하고, 강단에서 읽다 — 1549~1550년 취리히의 시행 문제",
+  "paragraphs": [
+    "종교개혁기의 취리히에서는 혼인과 예배, 술자리와 시민의 생활을 규정하는 명령이 계속 만들어졌다. 그러나 규정을 작성했다는 사실이 곧 주민이 내용을 알거나 실제로 지켰다는 뜻은 아니었다. 2022년 스위스 법사료 편집자의 설명에 따르면, 1549년 가을 시노드는 목회자들이 규정집을 충분히 낭독하지 않는다고 비판했고, 많은 교구에 인쇄본이 없거나 부족하다는 문제도 확인했다.",
+    "그 결과 취리히는 여러 규정을 종합해 재인쇄했다. 1550년 5월 6일 시노드에서는 각 목회자에게 인쇄본을 공급하고 교구에 보관하면서 연 두 차례 낭독하도록 권고했다고 현대 편집자는 설명한다. 그러나 정작 1550년에 인쇄된 종합명령의 역사적 본문은 사정과 필요에 따라 한 해에 한 차례 또는 두 차례 교회에서 읽으라고 규정한다. 시노드 운영 지시와 법령의 실제 문구를 구분해서 읽어야 한다.",
+    "1539년 혼인규정의 주요 조항만 뽑은 인쇄물은 연 네 차례 강단에서 선포하도록 계획했다. 이는 1550년의 전체 도시 종합명령과는 다른 문헌이다. 1530년 혼인 예고 두 차례, 1539년 혼인 약속의 신뢰할 만한 남성 증인 두 명, 1550년 규정 낭독 연 한두 번도 각각 다른 문제를 규율했다. 비슷한 숫자가 나온다고 같은 법을 뜻하는 것은 아니다.",
+    "현재 1550년 종합 인쇄본이 1539년 혼인규정의 일부 수정본을 포함했다는 사실은 현대 편집자의 주석으로 확인된다. 취리히와 바이에른 주립도서관에 남아 있는 인쇄본의 디지털 경로도 찾았지만, 해당 혼인법 부속문 지면은 아직 직접 판독하지 못했다. 그러므로 어떤 조항이 정확히 달라졌는지, 그 변경이 다섯 개혁 도시에서 함께 시행되었는지는 별도 근거를 확보하기 전까지 확정하지 않는다."
+  ],
+  "evidence_links": [
+    {
+      "paragraph": 1,
+      "claim_ids": [
+        "C405-02",
+        "C405-03"
+      ],
+      "tier": "MODERN_EDITORIAL_NOTE"
+    },
+    {
+      "paragraph": 2,
+      "claim_ids": [
+        "C405-01",
+        "C405-04",
+        "C405-05"
+      ],
+      "tier": "ORIGINAL_TEXT_VS_MODERN_NOTE"
+    },
+    {
+      "paragraph": 3,
+      "claim_ids": [
+        "C405-07",
+        "C405-12"
+      ],
+      "tier": "SEPARATE_HISTORICAL_DOCUMENTS"
+    },
+    {
+      "paragraph": 4,
+      "claim_ids": [
+        "C405-08",
+        "C405-09"
+      ],
+      "tier": "CATALOG_AND_EDITORIAL_NOTE_NOT_APPENDIX_TEXT"
+    }
+  ],
+  "new_event_episode": {
+    "title": "법령을 만들었는데도 사람들이 모르던 이유",
+    "status": "REVIEW_ONLY",
+    "body": "1549년 취리히의 가을 시노드에서 목회자들의 규정 낭독이 충분하지 않다는 문제와 함께 인쇄본 부족이 지적되었다고 현대 법사료 편집자는 설명한다. 1550년 봄에는 모든 교구에 규정집을 배부해 보관하고 반복해서 낭독하도록 하는 운영 지침이 제시되었다. 법령 본문은 상황에 따른 연 한두 차례 낭독을 규정했다. 이 차이는 개혁 법규의 제정·보급·교육·집행이 구분되는 역사적 과정이었음을 보여 준다.",
+    "claim_ids": [
+      "C405-01",
+      "C405-03",
+      "C405-04",
+      "C405-05"
+    ]
+  },
+  "editorial_questions": [
+    "규정을 인쇄할 책이 없다면 목회자들은 법령을 얼마나 제대로 전달할 수 있었을까?",
+    "1550년 법령 본문과 시노드 지침이 낭독 횟수를 다르게 표현하는 이유를 출처 수준별로 어떻게 판단할 수 있을까?",
+    "법령을 제정한 사실과 그것이 실제로 시행되었다는 사실을 어떤 자료로 나누어 검증할 수 있을까?"
+  ],
+  "safety": {
+    "synod_minutes_directly_read": false,
+    "original_1550_reading_count": "ONE_OR_TWO_AS_NEEDED",
+    "May6_1550_editorial_synod_reading_count": "TWO_PER_YEAR",
+    "do_not_merge_numerals": true,
+    "ZB_1550_appendix_text_read": false,
+    "BSB_1550_appendix_text_read": false,
+    "year1533_art39_read": false,
+    "ssrq_full_text_copied": false,
+    "original_images_copied": false,
+    "pdf_screenshots_successful": false,
+    "historian_approved": false
+  },
+  "publication": {
+    "can_ship": false,
+    "existing_513_modified": false,
+    "main_modified": false,
+    "ai_studio_modified": false,
+    "rights_approved": false
+  }
+}
