@@ -493,7 +493,8 @@
         "RG410-06",
         "RG410-07",
         "RG410-10",
-        "RG410-12"
+        "RG410-12",
+        "RG410-13"
       ],
       "level": "L0"
     }
@@ -646,6 +647,18 @@
       ],
       "primary_volume": "VOL-07",
       "continent": "KOREA",
+      "navigation_label_only": true,
+      "modern_coordinates_not_historic_sites": true
+    },
+    {
+      "id": "RG410-13",
+      "name": "초지역 기독교 네트워크·세계 교회 협력",
+      "overview": "1948년 암스테르담 WCC 창립과 20~21세기 여러 중심을 가진 교회의 변화",
+      "arc_ids": [
+        "A410-09"
+      ],
+      "primary_volume": "VOL-07",
+      "continent": "TRANSREGIONAL",
       "navigation_label_only": true,
       "modern_coordinates_not_historic_sites": true
     }
@@ -979,7 +992,7 @@
       "year_end": null,
       "date_label": "1948년",
       "title": "암스테르담 세계교회협의회 창립",
-      "region_id": "RG410-12",
+      "region_id": "RG410-13",
       "arc_id": "A410-09",
       "source_ids": [
         "S410-26"
@@ -1296,7 +1309,8 @@
     "1907 revival is not synonymous with 1919 protest; actors held different political positions.",
     "1948 WCC is not a universal governance body for all Christian confessions.",
     "Modern global Christian population estimates are method-dependent and should include publication year, not timeless percentages.",
-    "All area names and present-day cities are narrative navigation labels, not precisely mapped historic boundaries."
+    "All area names and present-day cities are narrative navigation labels, not precisely mapped historic boundaries.",
+    "WCC 1948 was inaugurated in Amsterdam: it is a transregional network, not a Korean event; the timeline uses a separate cross-regional route."
   ],
   "publication": {
     "can_ship": false,
