@@ -1,0 +1,48 @@
+{
+  "schema": "ATLAS_V434_FIVE_CASE_EXACT_DIFF_AND_PUBLICATION_GATE_AUDIT",
+  "version": "V4.34",
+  "date": "2026-11-17",
+  "status": "PASS",
+  "sourceGitBlobSha": {
+    "v434Candidate": "93a16a57bd0fd1a6237eff1bce1f0f16f6dbe82b",
+    "v434ResearchReport": "ebd659e789d9f1dee0fdb9bc3522c7822fcc17ce",
+    "v432": "3f243a618cde4dd7a3c4459b6efcba799c02d80b",
+    "v433": "2601feb923c656230c8e49904f3c3897bab27883",
+    "v433Ledger": "ff24234613dc2fa8786bfcd78edb2207aaeeb6d0",
+    "v429": "64c27c0dfe05394acbb049807e4c4384d58908b9"
+  },
+  "result": {
+    "caseCount": 5,
+    "sourceEvidenceCount": 14,
+    "changedVolumes": [
+      "VOL-03",
+      "VOL-04",
+      "VOL-06",
+      "VOL-07"
+    ],
+    "unchangedVolumes": [
+      "VOL-01",
+      "VOL-02",
+      "VOL-05",
+      "VOL-08"
+    ],
+    "editsPerVolume": {
+      "VOL-04": 1,
+      "VOL-06": 1,
+      "VOL-07": 2,
+      "VOL-03": 1
+    },
+    "diffsExactlyReproducePreview": true,
+    "tamilConflictPreserved": true,
+    "verifiedAppStructure": "8 volume / 6 theme / 42 links / 6 reader chapters"
+  },
+  "publication": {
+    "humanHistorianSignoffs": 0,
+    "actualReaderEvaluations": 0,
+    "actualAIStudioChanges": 0,
+    "appDataPromotions": 0,
+    "canShip": false,
+    "canMergeMain": false
+  },
+  "issues": []
+}
