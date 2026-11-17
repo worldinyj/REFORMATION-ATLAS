@@ -1,0 +1,138 @@
+{
+  "version": "V4.26",
+  "date": "2026-11-17",
+  "level": "L0",
+  "repository": "worldinyj/REFORMATION-ATLAS",
+  "branch": "research/atlas-v426-chromium-verified-offline-preview-l0",
+  "parent_branch": "research/atlas-v425-browser-e2e-visual-check-l0",
+  "status": "SOURCE_LEVEL_ACCESSIBILITY_AND_SEARCH_FIXES_COMMITTED_MULTI_ENGINE_BROWSER_CI_CONFIGURED",
+  "files": [
+    {
+      "path": "preview/V424_L0_EDITORIAL_ALPHA_OFFLINE_PREVIEW.html",
+      "git_blob_sha": "2cabf8279fd753eb3a00e1736963ee295810377a",
+      "source_chars": 39008
+    },
+    {
+      "path": "research/tests/v426_multi_engine_browser_probe.cjs",
+      "git_blob_sha": "0823d2602a45def133e343fbd54a1539e39fe757",
+      "source_chars": 9442
+    },
+    {
+      "path": ".github/workflows/atlas-v426-browser-matrix.yml",
+      "git_blob_sha": "5141d256e40bdf832a722edc8162c9b1e28fc3ad",
+      "source_chars": 1760
+    },
+    {
+      "path": "preview/V426_BROWSER_AND_ACCESSIBILITY_REVIEW_KO.md",
+      "git_blob_sha": "afd3b3b4a7e6296f370b0ebc1af95c9f533ce4e0",
+      "source_chars": 2568
+    },
+    {
+      "path": "research/data/V4_23_L0_INTERNAL_ALPHA_CONTENT_BUNDLE_DRAFT.json",
+      "git_blob_sha": "ddf48f401ce4202166eedd308e1d5892f88ac0b8",
+      "source_chars": 60249
+    }
+  ],
+  "verified_changes": [
+    {
+      "id": "FIX426-01",
+      "topic": "skip-link",
+      "evidence": "Click handler prevents changing hash to #main and focuses main",
+      "synthetic_dom_result": "PASS",
+      "actual_browser_result": "NOT_VERIFIED"
+    },
+    {
+      "id": "FIX426-02",
+      "topic": "initial-focus",
+      "evidence": "firstRender guard avoids stealing focus at initial page load",
+      "synthetic_dom_result": "PASS",
+      "actual_browser_result": "NOT_VERIFIED"
+    },
+    {
+      "id": "FIX426-03",
+      "topic": "search-clear",
+      "evidence": "empty search query retains #/search and input",
+      "synthetic_dom_result": "PASS",
+      "actual_browser_result": "NOT_VERIFIED"
+    },
+    {
+      "id": "FIX426-04",
+      "topic": "version-label",
+      "evidence": "UI identified V4.26 while original source remains V4.23",
+      "synthetic_dom_result": "CHECKED_SOURCE",
+      "actual_browser_result": "NOT_VERIFIED"
+    }
+  ],
+  "internal_static_and_synthetic_execution": {
+    "status": "PASS",
+    "method": "Actual stored HTML JavaScript executed under a synthetic DOM with navigation and click callbacks; NOT a real browser visual test",
+    "observed": {
+      "volumes": 8,
+      "theme_cards": 6,
+      "theme_to_volume_anchors": 42,
+      "reader_chapters": 6,
+      "search_results_for_hus": 8,
+      "initial_main_focus": false,
+      "skip_link_does_not_change_route": true,
+      "keyboard_focus_new_screen": true,
+      "empty_search_keeps_focus": true
+    },
+    "js_syntax_valid": true,
+    "reference_errors": []
+  },
+  "actual_browser_ci": {
+    "workflow_path": ".github/workflows/atlas-v426-browser-matrix.yml",
+    "workflow_url": "https://github.com/worldinyj/REFORMATION-ATLAS/actions/workflows/atlas-v426-browser-matrix.yml",
+    "test_path": "research/tests/v426_multi_engine_browser_probe.cjs",
+    "engines": [
+      "chromium",
+      "webkit"
+    ],
+    "viewports": [
+      {
+        "name": "desktop",
+        "width": 1440,
+        "height": 900
+      },
+      {
+        "name": "tablet",
+        "width": 768,
+        "height": 1024
+      },
+      {
+        "name": "mobile",
+        "width": 375,
+        "height": 812
+      },
+      {
+        "name": "small-mobile",
+        "width": 320,
+        "height": 700
+      }
+    ],
+    "expected_automated_scenarios": "8 volume detail routes, 6 theme detail routes, 6 reader routes, navigation, keyboard skip, search, no external requests, no horizontal overflow at four widths per engine",
+    "source_blob_pinned": "2cabf8279fd753eb3a00e1736963ee295810377a",
+    "workflow_success_observed": false,
+    "screenshots_available_in_this_session": false,
+    "manual_visual_QC_completed": false,
+    "actual_local_chromium_test_performed_on_repo_source": false,
+    "reason": "Connected GitHub repo file cannot be mounted in the local Chromium container. Workflow is configured on research branch but no executed run or artifact was available to verify in this session.",
+    "unverified_results_must_not_be_labeled_pass": true
+  },
+  "release": {
+    "can_ship": false,
+    "main_modified": false,
+    "AI_Studio_modified": false,
+    "existing_513_manuscripts_modified": false,
+    "historian_signed_off": false,
+    "actual_human_reader_tests": 0,
+    "rights_review_complete": false
+  },
+  "next": "Inspect actual Chromium/WebKit Actions artifacts and screenshots; correct verified issues and, only after approval, prepare a private AI Studio staging import from V4.23.",
+  "validation": {
+    "sha_link_test_html": true,
+    "verified_original_corpus_sha": "ddf48f401ce4202166eedd308e1d5892f88ac0b8",
+    "html_sha": "2cabf8279fd753eb3a00e1736963ee295810377a",
+    "errors": []
+  }
+}
