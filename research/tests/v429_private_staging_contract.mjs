@@ -41,7 +41,7 @@ for(let i=1;i<=6;i++){
 }
 record("VOL-08 is thematic", () => assert.equal(nav.resolve("/atlas-preview/volumes/VOL-08").item.type,"THEMATIC_INDEX"));
 record("search is local with usable results",()=>assert.ok(nav.search("후스").length>0));
-record("empty search no results",()=>assert.equal(nav.search(""),[] .length));
+record("empty search no results",()=>assert.equal(nav.search(""),0));
 record("bad route not resolved",()=>assert.equal(nav.resolve("/atlas-preview/volumes/VOL-99"),null));
 record("public routes not resolved",()=>assert.equal(nav.resolve("/atlas/public"),null));
 record("no publication authority",()=>assert.equal(nav.release().publication_allowed,false));
