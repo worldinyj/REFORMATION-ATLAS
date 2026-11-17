@@ -1,0 +1,112 @@
+name: ATLAS V4.30 Real L0 Read-only Runtime Contract
+on:
+  push:
+    branches:
+      - research/atlas-v430-l0-private-staging-runtime-bridge
+    paths:
+      - "integrations/atlas-l0-v430/**"
+      - "handoff/V429_AI_STUDIO_PRIVATE_L0_CONTENT_IMPORT.json"
+      - "research/tests/v429_staging_import_contract.cjs"
+      - ".github/workflows/atlas-v430-private-runtime.yml"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: atlas-v430-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  verify-actual-v429-json-consumption:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - name: Checkout exact research branch
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Set up Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Exercise ES module against actual V4.29 source and negative cases
+        id: verify
+        run: |
+          mkdir -p research/artifacts/V430_runtime_checks
+          set +e
+          node --test --test-reporter=tap integrations/atlas-l0-v430/bridge.test.mjs > research/artifacts/V430_runtime_checks/BRIDGE_TEST_TAP.log 2>&1
+          BRIDGE_EXIT=$?
+          node research/tests/v429_staging_import_contract.cjs > research/artifacts/V430_runtime_checks/SOURCE_CONTENT_CONTRACT.json 2>&1
+          SOURCE_EXIT=$?
+          echo "bridge_exit=$BRIDGE_EXIT" >> "$GITHUB_OUTPUT"
+          echo "source_exit=$SOURCE_EXIT" >> "$GITHUB_OUTPUT"
+          echo "BRIDGE_EXIT=$BRIDGE_EXIT"
+          tail -60 research/artifacts/V430_runtime_checks/BRIDGE_TEST_TAP.log
+          echo "SOURCE_EXIT=$SOURCE_EXIT"
+          cat research/artifacts/V430_runtime_checks/SOURCE_CONTENT_CONTRACT.json
+          exit 0
+      - name: Summarize execution and pin tested Git blobs
+        if: always()
+        env:
+          BRIDGE_EXIT: ${{ steps.verify.outputs.bridge_exit }}
+          SOURCE_EXIT: ${{ steps.verify.outputs.source_exit }}
+        run: |
+          python3 - <<'PY'
+          import json,os,re,subprocess
+          from pathlib import Path
+          base=Path('research/artifacts/V430_runtime_checks')
+          tap=(base/'BRIDGE_TEST_TAP.log').read_text(errors='replace') if (base/'BRIDGE_TEST_TAP.log').exists() else ''
+          data=(base/'SOURCE_CONTENT_CONTRACT.json').read_text(errors='replace') if (base/'SOURCE_CONTENT_CONTRACT.json').exists() else '{}'
+          try: source=json.loads(data)
+          except Exception: source={'status':'FAIL','errors':['source report is not valid JSON']}
+          def metric(name):
+              m=re.search(r'^# '+name+r' (\d+)\s*$',tap,re.M)
+              return int(m.group(1)) if m else None
+          tests={'count':metric('tests'),'passed':metric('pass'),'failed':metric('fail')}
+          status='PASS' if os.environ.get('BRIDGE_EXIT')=='0' and os.environ.get('SOURCE_EXIT')=='0' and tests['count'] and tests['passed']==tests['count'] and tests['failed']==0 and source.get('status')=='PASS' else 'FAIL'
+          sha=lambda p: subprocess.check_output(['git','hash-object',str(p)],text=True).strip()
+          summary={
+            'version':'V4.30','schema':'ATLAS_L0_PRIVATE_BRIDGE_ACTUAL_NODE_EXECUTION','status':status,
+            'tests':tests,'bridge_exit':os.environ.get('BRIDGE_EXIT'),'source_contract_exit':os.environ.get('SOURCE_EXIT'),
+            'files':{
+              'adapter':'integrations/atlas-l0-v430/bridge.mjs',
+              'adapter_sha':sha('integrations/atlas-l0-v430/bridge.mjs'),
+              'test_sha':sha('integrations/atlas-l0-v430/bridge.test.mjs'),
+              'import_sha':sha('handoff/V429_AI_STUDIO_PRIVATE_L0_CONTENT_IMPORT.json'),
+              'source_contract_sha':sha('research/tests/v429_staging_import_contract.cjs')},
+            'source_contract_status':source.get('status'),
+            'actual_ai_studio_app_modified':False,'actual_ai_studio_staging_executed':False,
+            'actual_host_auth_verified':False,'actual_historian_reviewers':0,
+            'actual_reader_pilot_sessions':0,'can_ship':False,
+            'errors':[] if status=='PASS' else ['Inspect BRIDGE_TEST_TAP.log and SOURCE_CONTENT_CONTRACT.json']}
+          (base/'V430_RUNTIME_VALIDATION.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2)+'\n')
+          print(json.dumps(summary,ensure_ascii=False,indent=2))
+          PY
+      - name: Save proof in the isolated research branch
+        if: always()
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add research/artifacts/V430_runtime_checks/
+          if ! git diff --cached --quiet; then
+            git commit -m 'test(atlas): V4.30 real runtime and source equality evidence [skip ci]'
+            git push origin HEAD:refs/heads/research/atlas-v430-l0-private-staging-runtime-bridge
+          fi
+      - name: Upload execution log and integrity result
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: atlas-v430-private-runtime-evidence
+          path: research/artifacts/V430_runtime_checks/
+          if-no-files-found: warn
+          retention-days: 14
+      - name: Fail job unless both validations genuinely passed
+        if: always()
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path('research/artifacts/V430_runtime_checks/V430_RUNTIME_VALIDATION.json')
+          assert p.exists(),'V430 report missing'
+          d=json.loads(p.read_text())
+          assert d['status']=='PASS',d
+          assert d['actual_ai_studio_staging_executed'] is False
+          PY
