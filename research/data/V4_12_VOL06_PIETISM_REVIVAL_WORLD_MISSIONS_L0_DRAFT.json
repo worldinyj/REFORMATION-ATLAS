@@ -409,7 +409,8 @@
       "date_scope": "1792~1850년대",
       "region_ids": [
         "R412-03",
-        "R412-07"
+        "R412-07",
+        "R412-04"
       ],
       "source_ids": [
         "S412-04",
@@ -1398,5 +1399,10 @@
     "group_nodes_separated_by_language": true,
     "historic_image_candidate_observed": "Samuel Ajayi Crowther original portrait, third-party site; rights not cleared or copied",
     "no_original_image_included": true
+  },
+  "data_editorial_qa": {
+    "mission_society_origin_linked_to_UK": true,
+    "Korean_milestones_scoped_to_Korean_agency_arc": true,
+    "all_prior_versioned_sources_preserved": true
   }
 }
