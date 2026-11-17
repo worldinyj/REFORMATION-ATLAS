@@ -1,0 +1,122 @@
+{
+  "schema": "ATLAS_V438_EIGHT_VOLUME_MACRO_MANUSCRIPT_INTEGRITY_AUDIT",
+  "version": "V4.38",
+  "date": "2026-11-18",
+  "status": "PASS",
+  "sourceBlobs": [
+    {
+      "path": "research/data/V4_38_EIGHT_VOLUME_MACRO_REVISED_READER_CANDIDATE.json",
+      "gitBlobSha": "379e47dbdf09b0536e27da34a7f2dbafd3396167"
+    },
+    {
+      "path": "research/data/V4_32_EIGHT_VOLUME_EXPANDED_READER_CANDIDATE.json",
+      "gitBlobSha": "3f243a618cde4dd7a3c4459b6efcba799c02d80b"
+    },
+    {
+      "path": "research/data/V4_33_EVIDENCE_DECISION_LEDGER_DRAFT.json",
+      "gitBlobSha": "ff24234613dc2fa8786bfcd78edb2207aaeeb6d0"
+    },
+    {
+      "path": "research/data/V4_34_FIVE_CLAIM_PRIMARY_SOURCE_DIFF_CANDIDATE.json",
+      "gitBlobSha": "93a16a57bd0fd1a6237eff1bce1f0f16f6dbe82b"
+    },
+    {
+      "path": "research/data/V4_37_EIGHT_VOLUME_EXPANDED_READER_REVIEW_PACKET.json",
+      "gitBlobSha": "e759f9f593467deb943be4a7f4c417853df26d5d"
+    },
+    {
+      "path": "handoff/V429_AI_STUDIO_PRIVATE_L0_CONTENT_IMPORT.json",
+      "gitBlobSha": "64c27c0dfe05394acbb049807e4c4384d58908b9"
+    }
+  ],
+  "tests": {
+    "eightVolumesAndUniqueIds": true,
+    "sevenChronologicalOneThematic": true,
+    "allEightSubstantivelyExpanded": true,
+    "originalV432TextPreservedExceptFiveEditsAndTamilQualifier": true,
+    "allFiveV434RiskyBeforeStringsAbsent": true,
+    "exactApprovedAsResearchWordingForFourCases": true,
+    "tamilConflicting1719Preserved": true,
+    "crossVolumeBridgeAddedSeven": true,
+    "comparisonArchiveNeverPresentedAsEighthHistoricalEra": true,
+    "originalThemeIdsStable": true,
+    "existing29ClaimLedgerPreserved": true,
+    "holdClaimIdsPreserved": true,
+    "frozenV429GitBlobUnchanged": true,
+    "appContractEightSixFortyTwoSix": true,
+    "actualExpertReviews": 0,
+    "actualReaderSessions": 0,
+    "realAIStudioAppEdits": 0
+  },
+  "volumeLengths": [
+    {
+      "id": "VOL-01",
+      "oldChars": 1422,
+      "newChars": 2288,
+      "addedChars": 866,
+      "addedPct": 61
+    },
+    {
+      "id": "VOL-02",
+      "oldChars": 1401,
+      "newChars": 2270,
+      "addedChars": 869,
+      "addedPct": 62
+    },
+    {
+      "id": "VOL-03",
+      "oldChars": 1431,
+      "newChars": 2322,
+      "addedChars": 891,
+      "addedPct": 62
+    },
+    {
+      "id": "VOL-04",
+      "oldChars": 1435,
+      "newChars": 2352,
+      "addedChars": 917,
+      "addedPct": 64
+    },
+    {
+      "id": "VOL-05",
+      "oldChars": 1560,
+      "newChars": 2481,
+      "addedChars": 921,
+      "addedPct": 59
+    },
+    {
+      "id": "VOL-06",
+      "oldChars": 1511,
+      "newChars": 2516,
+      "addedChars": 1005,
+      "addedPct": 67
+    },
+    {
+      "id": "VOL-07",
+      "oldChars": 1619,
+      "newChars": 2507,
+      "addedChars": 888,
+      "addedPct": 55
+    },
+    {
+      "id": "VOL-08",
+      "oldChars": 1823,
+      "newChars": 2670,
+      "addedChars": 847,
+      "addedPct": 46
+    }
+  ],
+  "counts": {
+    "previousChars": 12202,
+    "revisedChars": 19406,
+    "sourcesMapped": 14,
+    "claims": 29,
+    "reviewVolumeCount": 8
+  },
+  "release": {
+    "canShip": false,
+    "canMergeMain": false,
+    "canImportAIStudio": false
+  },
+  "issues": []
+}
