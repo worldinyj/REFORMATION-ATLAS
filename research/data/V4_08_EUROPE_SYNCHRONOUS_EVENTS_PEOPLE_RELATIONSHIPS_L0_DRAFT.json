@@ -1,0 +1,2230 @@
+{
+  "version": "V4.08",
+  "date": "2026-11-17",
+  "status": "L0_SYNCHRONOUS_EUROPE_OVERVIEW_DRAFT",
+  "branch": "research/atlas-v408-europe-synchronous-timeline-relationship-atlas",
+  "parent_branch": "research/atlas-v407-europe-regional-reformations-l0-comparative-narrative",
+  "scope": {
+    "level": "L0",
+    "years": [
+      1415,
+      1648
+    ],
+    "purpose": "Simultaneous cross-regional chronology and historically cautious conceptual network, not precise geospatial travel route",
+    "original_11_regions_path": "research/data/V4_07_EUROPE_ELEVEN_REGIONS_L0_COMPARATIVE_ATLAS_DRAFT.json",
+    "V407_source_blob": "994194691771c63816fdcfc031314bc13487fabb",
+    "canonical_8_volumes": "research/data/V4_06_L0_WORLD_CHURCH_REFORMATION_NAVIGATION_DRAFT.json"
+  },
+  "bibliography": [
+    {
+      "id": "S408-01",
+      "title": "Ulinka Rublack, Reformation Europe chronology (Cambridge)",
+      "url": "https://assets.cambridge.org/97805210/03698/frontmatter/9780521003698_frontmatter.pdf",
+      "source_level": "ACADEMIC_PUBLISHER_CHRONOLOGY",
+      "full_text_reviewed": true,
+      "source_reproduced": false
+    },
+    {
+      "id": "S408-02",
+      "title": "Oxford Handbook of Religion and Europe, chronology",
+      "url": "https://academic.oup.com/edited-volume/37088/chapter/323184625",
+      "source_level": "ACADEMIC_REFERENCE_CHRONOLOGY",
+      "full_text_reviewed": true,
+      "source_reproduced": false
+    },
+    {
+      "id": "S408-03",
+      "title": "Metropolitan Museum of Art, Central Europe 1400–1600",
+      "url": "https://www.metmuseum.org/ko/toah/ht/08/euwc",
+      "source_level": "MUSEUM_HISTORICAL_OVERVIEW",
+      "full_text_reviewed": true,
+      "source_reproduced": false
+    },
+    {
+      "id": "S408-04",
+      "title": "Metropolitan Museum of Art, Low Countries 1400–1600",
+      "url": "https://www.metmuseum.org/it/toah/ht/08/euwl",
+      "source_level": "MUSEUM_HISTORICAL_OVERVIEW",
+      "full_text_reviewed": true,
+      "source_reproduced": false
+    },
+    {
+      "id": "S408-05",
+      "title": "Musée protestant, Eight French Wars of Religion 1562–1598",
+      "url": "https://museeprotestant.org/en/notice/the-eight-wars-of-religion-1562-1598/",
+      "source_level": "PUBLIC_HISTORY_RESEARCH_OVERVIEW",
+      "full_text_reviewed": true,
+      "source_reproduced": false
+    },
+    {
+      "id": "S408-06",
+      "title": "Aarhus University, Denmark Reformation 1536 and ordinance 1537",
+      "url": "https://cas.au.dk/en/danish-history/modules/module-4-reformation-and-power-state-1523-1660/translate-to-english-1-fra-middelalder-over-reformation-til-tidlig-moderne-tid",
+      "source_level": "UNIVERSITY_HISTORY_MODULE",
+      "full_text_reviewed": true,
+      "source_reproduced": false
+    },
+    {
+      "id": "S408-07",
+      "title": "Swedish History Museum, Gustav Vasa and Swedish Reformation",
+      "url": "https://historiska.se/en/explore-history/history-hub/gustav-vasa-and-the-reformation/",
+      "source_level": "NATIONAL_MUSEUM_OVERVIEW",
+      "full_text_reviewed": true,
+      "source_reproduced": false
+    },
+    {
+      "id": "S408-08",
+      "title": "Ingun Montgomery, Lutheran institutionalization Sweden Finland",
+      "url": "https://www.cambridge.org/core/books/abs/scandinavian-reformation/institutionalisation-of-lutheranism-in-sweden-and-finland/1DA96E4B879332659D440F6852D61CA8",
+      "source_level": "ACADEMIC_PUBLISHER_CHAPTER_ABSTRACT_ONLY",
+      "full_text_reviewed": false,
+      "source_reproduced": false
+    },
+    {
+      "id": "S408-09",
+      "title": "Wiley History Compass, A Landscape of Toleration Central Europe",
+      "url": "https://compass.onlinelibrary.wiley.com/doi/10.1111/hic3.70003",
+      "source_level": "ACADEMIC_OVERVIEW",
+      "full_text_reviewed": true,
+      "source_reproduced": false
+    },
+    {
+      "id": "S408-10",
+      "title": "Hungarian Historical Review 9/1, Reformation and multiconfessional Hungary",
+      "url": "https://epa.oszk.hu/02400/02460/00031/pdf/EPA02460_hung_his_rev_2020_01_113-139.pdf",
+      "source_level": "SCHOLARLY_OPEN_ACCESS_TEXT",
+      "full_text_reviewed": true,
+      "source_reproduced": false
+    },
+    {
+      "id": "S408-11",
+      "title": "2024 Cambridge Reformations Compared regional perspectives",
+      "url": "https://www.cambridge.org/core/books/reformations-compared/DDFD52CC941C3CEDCC29B28BA0BA884E",
+      "source_level": "SCHOLARLY_PUBLISHER_TOC_ABSTRACT",
+      "full_text_reviewed": true,
+      "source_reproduced": false
+    },
+    {
+      "id": "S408-12",
+      "title": "Rijksmuseum Royal House of Netherlands, Dutch Revolt",
+      "url": "https://www.royal-house.nl/topics/history/william-of-orange-1533-1584/the-dutch-revolt",
+      "source_level": "NATIONAL_HISTORY_OVERVIEW",
+      "full_text_reviewed": true,
+      "source_reproduced": false
+    },
+    {
+      "id": "S408-13",
+      "title": "Oxford Handbook history, European early modern chronology",
+      "url": "https://academic.oup.com/edited-volume/37088/chapter/323184625",
+      "source_level": "ACADEMIC_REFERENCE_CHRONOLOGY",
+      "full_text_reviewed": true,
+      "source_reproduced": false
+    },
+    {
+      "id": "S408-14",
+      "title": "German History in Documents and Images, confessional maps",
+      "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/confessional-divisions-before-and-during-the-reformations",
+      "source_level": "ACADEMIC_HISTORICAL_CARTOGRAPHY_CONTEXT",
+      "full_text_reviewed": true,
+      "source_reproduced": false
+    }
+  ],
+  "themes": [
+    {
+      "id": "T01",
+      "title": "교회의 권위와 성경"
+    },
+    {
+      "id": "T02",
+      "title": "은총·칭의와 구원"
+    },
+    {
+      "id": "T03",
+      "title": "성찬·예배·성례"
+    },
+    {
+      "id": "T04",
+      "title": "교회 조직과 공동체"
+    },
+    {
+      "id": "T05",
+      "title": "국가·폭력·공존"
+    },
+    {
+      "id": "T06",
+      "title": "번역·교육·문화적 전파"
+    }
+  ],
+  "people": [
+    {
+      "id": "P01",
+      "name_ko": "마르틴 루터",
+      "name_original": "Martin Luther",
+      "region_ids": [
+        "ER-01"
+      ],
+      "contribution": "성경·칭의·제국 내 논쟁",
+      "kind": "PERSON",
+      "biography_scope": "L0_SHORT_NOT_COMPLETE"
+    },
+    {
+      "id": "P02",
+      "name_ko": "필리프 멜란히톤",
+      "name_original": "Philipp Melanchthon",
+      "region_ids": [
+        "ER-01"
+      ],
+      "contribution": "아우크스부르크 신앙고백과 교육",
+      "kind": "PERSON",
+      "biography_scope": "L0_SHORT_NOT_COMPLETE"
+    },
+    {
+      "id": "P03",
+      "name_ko": "울리히 츠빙글리",
+      "name_original": "Huldrych Zwingli",
+      "region_ids": [
+        "ER-02"
+      ],
+      "contribution": "취리히 도시 개혁과 성찬 논쟁",
+      "kind": "PERSON",
+      "biography_scope": "L0_SHORT_NOT_COMPLETE"
+    },
+    {
+      "id": "P04",
+      "name_ko": "하인리히 불링거",
+      "name_original": "Heinrich Bullinger",
+      "region_ids": [
+        "ER-02"
+      ],
+      "contribution": "츠빙글리 이후 취리히 개혁의 지속",
+      "kind": "PERSON",
+      "biography_scope": "L0_SHORT_NOT_COMPLETE"
+    },
+    {
+      "id": "P05",
+      "name_ko": "장 칼뱅",
+      "name_original": "John Calvin",
+      "region_ids": [
+        "ER-02",
+        "ER-03"
+      ],
+      "contribution": "제네바 교회와 유럽 개혁파의 연결",
+      "kind": "PERSON",
+      "biography_scope": "L0_SHORT_NOT_COMPLETE"
+    },
+    {
+      "id": "P06",
+      "name_ko": "콘라트 그레벨",
+      "name_original": "Conrad Grebel",
+      "region_ids": [
+        "ER-02"
+      ],
+      "contribution": "스위스 형제단·재세례파 운동",
+      "kind": "PERSON",
+      "biography_scope": "L0_SHORT_NOT_COMPLETE"
+    },
+    {
+      "id": "P07",
+      "name_ko": "카를 5세",
+      "name_original": "Charles V",
+      "region_ids": [
+        "ER-01",
+        "ER-08",
+        "ER-04"
+      ],
+      "contribution": "제국의 종교·외교정치",
+      "kind": "PERSON",
+      "biography_scope": "L0_SHORT_NOT_COMPLETE"
+    },
+    {
+      "id": "P08",
+      "name_ko": "구스타브 바사",
+      "name_original": "Gustav Vasa",
+      "region_ids": [
+        "ER-07"
+      ],
+      "contribution": "스웨덴 왕권과 교회 재편",
+      "kind": "PERSON",
+      "biography_scope": "L0_SHORT_NOT_COMPLETE"
+    },
+    {
+      "id": "P09",
+      "name_ko": "크리스티안 3세",
+      "name_original": "Christian III",
+      "region_ids": [
+        "ER-07"
+      ],
+      "contribution": "덴마크의 왕권 중심 루터파 제도화",
+      "kind": "PERSON",
+      "biography_scope": "L0_SHORT_NOT_COMPLETE"
+    },
+    {
+      "id": "P10",
+      "name_ko": "올라우스 페트리",
+      "name_original": "Olaus Petri",
+      "region_ids": [
+        "ER-07"
+      ],
+      "contribution": "스웨덴의 설교·성경 번역",
+      "kind": "PERSON",
+      "biography_scope": "L0_SHORT_NOT_COMPLETE"
+    },
+    {
+      "id": "P11",
+      "name_ko": "헨리 8세",
+      "name_original": "Henry VIII",
+      "region_ids": [
+        "ER-05"
+      ],
+      "contribution": "잉글랜드의 로마 교황청과 법적 결별",
+      "kind": "PERSON",
+      "biography_scope": "L0_SHORT_NOT_COMPLETE"
+    },
+    {
+      "id": "P12",
+      "name_ko": "에드워드 6세",
+      "name_original": "Edward VI",
+      "region_ids": [
+        "ER-05"
+      ],
+      "contribution": "잉글랜드 예전과 교리 개혁",
+      "kind": "PERSON",
+      "biography_scope": "L0_SHORT_NOT_COMPLETE"
+    },
+    {
+      "id": "P13",
+      "name_ko": "메리 1세",
+      "name_original": "Mary I",
+      "region_ids": [
+        "ER-05"
+      ],
+      "contribution": "잉글랜드 가톨릭 정책 회복",
+      "kind": "PERSON",
+      "biography_scope": "L0_SHORT_NOT_COMPLETE"
+    },
+    {
+      "id": "P14",
+      "name_ko": "엘리자베스 1세",
+      "name_original": "Elizabeth I",
+      "region_ids": [
+        "ER-05",
+        "ER-06"
+      ],
+      "contribution": "잉글랜드 국교회 정비",
+      "kind": "PERSON",
+      "biography_scope": "L0_SHORT_NOT_COMPLETE"
+    },
+    {
+      "id": "P15",
+      "name_ko": "존 녹스",
+      "name_original": "John Knox",
+      "region_ids": [
+        "ER-06",
+        "ER-02"
+      ],
+      "contribution": "스코틀랜드 개혁과 제네바 체류 경험",
+      "kind": "PERSON",
+      "biography_scope": "L0_SHORT_NOT_COMPLETE"
+    },
+    {
+      "id": "P16",
+      "name_ko": "프랑수아 드 기즈",
+      "name_original": "François de Guise",
+      "region_ids": [
+        "ER-03"
+      ],
+      "contribution": "프랑스 종교 갈등과 바시 사건",
+      "kind": "PERSON",
+      "biography_scope": "L0_SHORT_NOT_COMPLETE"
+    },
+    {
+      "id": "P17",
+      "name_ko": "앙리 4세",
+      "name_original": "Henry IV of France",
+      "region_ids": [
+        "ER-03"
+      ],
+      "contribution": "왕권 복구와 낭트 칙령",
+      "kind": "PERSON",
+      "biography_scope": "L0_SHORT_NOT_COMPLETE"
+    },
+    {
+      "id": "P18",
+      "name_ko": "오라녜의 빌럼",
+      "name_original": "William of Orange",
+      "region_ids": [
+        "ER-04"
+      ],
+      "contribution": "저지대 반란과 북부 지역 연합",
+      "kind": "PERSON",
+      "biography_scope": "L0_SHORT_NOT_COMPLETE"
+    },
+    {
+      "id": "P19",
+      "name_ko": "펠리페 2세",
+      "name_original": "Philip II of Spain",
+      "region_ids": [
+        "ER-04",
+        "ER-11"
+      ],
+      "contribution": "저지대 합스부르크 통치와 종교 정책",
+      "kind": "PERSON",
+      "biography_scope": "L0_SHORT_NOT_COMPLETE"
+    },
+    {
+      "id": "P20",
+      "name_ko": "이냐시오 데 로욜라",
+      "name_original": "Ignatius of Loyola",
+      "region_ids": [
+        "ER-11"
+      ],
+      "contribution": "예수회 형성과 가톨릭 쇄신",
+      "kind": "PERSON",
+      "biography_scope": "L0_SHORT_NOT_COMPLETE"
+    },
+    {
+      "id": "P21",
+      "name_ko": "얀 후스",
+      "name_original": "Jan Hus",
+      "region_ids": [
+        "ER-08"
+      ],
+      "contribution": "보헤미아의 선행 개혁과 콘스탄츠",
+      "kind": "PERSON",
+      "biography_scope": "L0_SHORT_NOT_COMPLETE"
+    },
+    {
+      "id": "P22",
+      "name_ko": "가브리엘 베틀렌",
+      "name_original": "Gabriel Bethlen",
+      "region_ids": [
+        "ER-10"
+      ],
+      "contribution": "트란실바니아의 17세기 정치·신앙관계",
+      "kind": "PERSON",
+      "biography_scope": "L0_SHORT_NOT_COMPLETE"
+    },
+    {
+      "id": "P23",
+      "name_ko": "시기스문트 3세 바사",
+      "name_original": "Sigismund III Vasa",
+      "region_ids": [
+        "ER-09",
+        "ER-07"
+      ],
+      "contribution": "폴란드·스웨덴 왕위와 가톨릭 지향",
+      "kind": "PERSON",
+      "biography_scope": "L0_SHORT_NOT_COMPLETE"
+    },
+    {
+      "id": "P24",
+      "name_ko": "테레사 데 헤수스",
+      "name_original": "Teresa of Ávila",
+      "region_ids": [
+        "ER-11"
+      ],
+      "contribution": "가톨릭 내부 영성·수도원 개혁",
+      "kind": "PERSON",
+      "biography_scope": "L0_SHORT_NOT_COMPLETE"
+    }
+  ],
+  "events": [
+    {
+      "id": "E408-01",
+      "year_start": 1415,
+      "year_end": null,
+      "date_label": "1415년",
+      "date_precision": "year",
+      "title": "얀 후스의 콘스탄츠 처형",
+      "region_ids": [
+        "ER-08"
+      ],
+      "theme_ids": [
+        "T01",
+        "T05"
+      ],
+      "summary": "보헤미아의 개혁 요구가 1517년보다 앞선 독립적 역사임을 보여 준다",
+      "interpretive_caution": "후스파를 단순한 루터파 이전 단계로 설명하지 않는다",
+      "source_ids": [
+        "S408-02",
+        "S408-11"
+      ],
+      "actor_ids": [
+        "P21"
+      ],
+      "level": "L0",
+      "facsimile_checked": false
+    },
+    {
+      "id": "E408-02",
+      "year_start": 1517,
+      "year_end": null,
+      "date_label": "1517년",
+      "date_precision": "year",
+      "title": "루터의 95개 논제와 면벌부 논쟁",
+      "region_ids": [
+        "ER-01"
+      ],
+      "theme_ids": [
+        "T01",
+        "T02",
+        "T06"
+      ],
+      "summary": "인쇄·대학·교회 권위 문제로 논쟁이 퍼졌다",
+      "interpretive_caution": "문 앞 게시의 세부 전승보다 논제의 유통과 논쟁을 먼저 강조",
+      "source_ids": [
+        "S408-01",
+        "S408-03"
+      ],
+      "actor_ids": [
+        "P01"
+      ],
+      "level": "L0",
+      "facsimile_checked": false
+    },
+    {
+      "id": "E408-03",
+      "year_start": 1519,
+      "year_end": null,
+      "date_label": "1519년",
+      "date_precision": "year",
+      "title": "츠빙글리의 취리히 설교 활동 시작",
+      "region_ids": [
+        "ER-02"
+      ],
+      "theme_ids": [
+        "T01",
+        "T03"
+      ],
+      "summary": "루터와 다른 도시의 개혁 출발점을 함께 보여 준다",
+      "interpretive_caution": "루터의 직접 지시로 시작한 개혁이라고 단정하지 않는다",
+      "source_ids": [
+        "S408-11"
+      ],
+      "actor_ids": [
+        "P03"
+      ],
+      "level": "L0",
+      "facsimile_checked": false
+    },
+    {
+      "id": "E408-04",
+      "year_start": 1521,
+      "year_end": null,
+      "date_label": "1521년",
+      "date_precision": "year",
+      "title": "보름스 제국회의와 루터 문제",
+      "region_ids": [
+        "ER-01"
+      ],
+      "theme_ids": [
+        "T01",
+        "T05"
+      ],
+      "summary": "개혁 논쟁이 제국법과 제후의 보호를 둘러싼 문제가 되었다",
+      "interpretive_caution": "한 제국회의가 독일 전체의 신앙 선택을 확정한 것은 아니다",
+      "source_ids": [
+        "S408-01",
+        "S408-03"
+      ],
+      "actor_ids": [
+        "P01",
+        "P07"
+      ],
+      "level": "L0",
+      "facsimile_checked": false
+    },
+    {
+      "id": "E408-05",
+      "year_start": 1523,
+      "year_end": null,
+      "date_label": "1523년",
+      "date_precision": "year",
+      "title": "취리히 공개 신학논쟁과 시의회 개혁",
+      "region_ids": [
+        "ER-02"
+      ],
+      "theme_ids": [
+        "T01",
+        "T04"
+      ],
+      "summary": "도시의회의 선택이 설교·예배 변화와 맞물렸다",
+      "interpretive_caution": "스위스 연방 전체의 동일 정책으로 확대하지 않는다",
+      "source_ids": [
+        "S408-11"
+      ],
+      "actor_ids": [
+        "P03"
+      ],
+      "level": "L0",
+      "facsimile_checked": false
+    },
+    {
+      "id": "E408-06",
+      "year_start": 1525,
+      "year_end": null,
+      "date_label": "1525년",
+      "date_precision": "year",
+      "title": "취리히 주변 재세례파 공동체 형성",
+      "region_ids": [
+        "ER-02"
+      ],
+      "theme_ids": [
+        "T03",
+        "T04",
+        "T05"
+      ],
+      "summary": "개혁 내부의 세례·공동체·국가교회 쟁점을 드러낸다",
+      "interpretive_caution": "재세례파를 단일한 교리·정치 집단으로 묶지 않는다",
+      "source_ids": [
+        "S408-01",
+        "S408-11"
+      ],
+      "actor_ids": [
+        "P06"
+      ],
+      "level": "L0",
+      "facsimile_checked": false
+    },
+    {
+      "id": "E408-07",
+      "year_start": 1526,
+      "year_end": null,
+      "date_label": "1526년",
+      "date_precision": "year",
+      "title": "모하치 전투와 헝가리 통치질서의 분열",
+      "region_ids": [
+        "ER-10"
+      ],
+      "theme_ids": [
+        "T05"
+      ],
+      "summary": "오스만·합스부르크·현지 세력의 경합이 이후 종교정책을 다르게 만들었다",
+      "interpretive_caution": "전투 직후 모든 종교제도가 즉시 재편됐다는 뜻은 아니다",
+      "source_ids": [
+        "S408-10",
+        "S408-11"
+      ],
+      "actor_ids": [],
+      "level": "L0",
+      "facsimile_checked": false
+    },
+    {
+      "id": "E408-08",
+      "year_start": 1527,
+      "year_end": null,
+      "date_label": "1527년",
+      "date_precision": "year",
+      "title": "스웨덴 베스테로스 회의와 왕권의 교회 재편",
+      "region_ids": [
+        "ER-07"
+      ],
+      "theme_ids": [
+        "T04",
+        "T05"
+      ],
+      "summary": "교회 재산·설교·왕권의 관계가 전환됐다",
+      "interpretive_caution": "1527년을 완전한 루터파 국교화의 완료 시점으로 보지 않는다",
+      "source_ids": [
+        "S408-07",
+        "S408-08"
+      ],
+      "actor_ids": [
+        "P08",
+        "P10"
+      ],
+      "level": "L0",
+      "facsimile_checked": false
+    },
+    {
+      "id": "E408-09",
+      "year_start": 1528,
+      "year_end": null,
+      "date_label": "1528년",
+      "date_precision": "year",
+      "title": "베른의 도시 개혁 채택",
+      "region_ids": [
+        "ER-02"
+      ],
+      "theme_ids": [
+        "T04",
+        "T05"
+      ],
+      "summary": "스위스 연방 내부의 지역별 선택이 달랐다",
+      "interpretive_caution": "베른의 선택을 곧 전 연방의 선택으로 해석하지 않는다",
+      "source_ids": [
+        "S408-02",
+        "S408-11"
+      ],
+      "actor_ids": [],
+      "level": "L0",
+      "facsimile_checked": false
+    },
+    {
+      "id": "E408-10",
+      "year_start": 1529,
+      "year_end": null,
+      "date_label": "1529년",
+      "date_precision": "year",
+      "title": "슈파이어 항의와 프로테스탄트 명칭",
+      "region_ids": [
+        "ER-01"
+      ],
+      "theme_ids": [
+        "T01",
+        "T05"
+      ],
+      "summary": "제국 내 개혁 지지 세력이 제도적 입장을 드러냈다",
+      "interpretive_caution": "그때 이미 하나의 단일 신조가 존재했다는 뜻은 아니다",
+      "source_ids": [
+        "S408-02"
+      ],
+      "actor_ids": [
+        "P07"
+      ],
+      "level": "L0",
+      "facsimile_checked": false
+    },
+    {
+      "id": "E408-11",
+      "year_start": 1529,
+      "year_end": null,
+      "date_label": "1529년",
+      "date_precision": "year",
+      "title": "마르부르크 회담과 성찬 이해의 차이",
+      "region_ids": [
+        "ER-01",
+        "ER-02"
+      ],
+      "theme_ids": [
+        "T03",
+        "T04"
+      ],
+      "summary": "개혁자 사이에도 중요한 교리적 차이가 있었다",
+      "interpretive_caution": "회담이 완전한 일치 또는 완전한 대화 단절을 뜻했다고 단순화하지 않는다",
+      "source_ids": [
+        "S408-01",
+        "S408-11"
+      ],
+      "actor_ids": [
+        "P01",
+        "P03"
+      ],
+      "level": "L0",
+      "facsimile_checked": false
+    },
+    {
+      "id": "E408-12",
+      "year_start": 1530,
+      "year_end": null,
+      "date_label": "1530년",
+      "date_precision": "year",
+      "title": "아우크스부르크 신앙고백 제출",
+      "region_ids": [
+        "ER-01"
+      ],
+      "theme_ids": [
+        "T01",
+        "T02",
+        "T04"
+      ],
+      "summary": "루터파 신앙을 제국의 공적 언어로 제시했다",
+      "interpretive_caution": "제국에서 곧바로 승인된 통일 신앙고백으로 설명하지 않는다",
+      "source_ids": [
+        "S408-01",
+        "S408-02"
+      ],
+      "actor_ids": [
+        "P02",
+        "P07"
+      ],
+      "level": "L0",
+      "facsimile_checked": false
+    },
+    {
+      "id": "E408-15",
+      "year_start": 1530,
+      "year_end": 1600,
+      "date_label": "16세기 중후반",
+      "date_precision": "period",
+      "title": "아일랜드의 국가교회 개혁 추진과 가톨릭 신앙의 지속",
+      "region_ids": [
+        "ER-06"
+      ],
+      "theme_ids": [
+        "T04",
+        "T05"
+      ],
+      "summary": "영국 군주권의 적용 범위와 지역 공동체의 종교적 선택이 일치하지 않았다",
+      "interpretive_caution": "한 회의·하루의 개종 사건으로 제시하지 않는다",
+      "source_ids": [
+        "S408-11"
+      ],
+      "actor_ids": [],
+      "level": "L0",
+      "facsimile_checked": false
+    },
+    {
+      "id": "E408-13",
+      "year_start": 1531,
+      "year_end": null,
+      "date_label": "1531년",
+      "date_precision": "year",
+      "title": "제2차 카펠 전쟁과 츠빙글리의 사망",
+      "region_ids": [
+        "ER-02"
+      ],
+      "theme_ids": [
+        "T05",
+        "T04"
+      ],
+      "summary": "개혁 도시와 가톨릭 지역 사이의 대립을 드러냈다",
+      "interpretive_caution": "1531년 이후 취리히 개혁이 끝났다고 말하지 않는다",
+      "source_ids": [
+        "S408-01",
+        "S408-11"
+      ],
+      "actor_ids": [
+        "P03",
+        "P04"
+      ],
+      "level": "L0",
+      "facsimile_checked": false
+    },
+    {
+      "id": "E408-14",
+      "year_start": 1534,
+      "year_end": null,
+      "date_label": "1534년",
+      "date_precision": "year",
+      "title": "잉글랜드 수장령과 로마와의 법적 결별",
+      "region_ids": [
+        "ER-05"
+      ],
+      "theme_ids": [
+        "T01",
+        "T04",
+        "T05"
+      ],
+      "summary": "왕권이 교회의 법적 위계를 재편했다",
+      "interpretive_caution": "그해 국민 전체가 신학적으로 개신교로 전환됐다는 뜻은 아니다",
+      "source_ids": [
+        "S408-01",
+        "S408-02"
+      ],
+      "actor_ids": [
+        "P11"
+      ],
+      "level": "L0",
+      "facsimile_checked": false
+    },
+    {
+      "id": "E408-16",
+      "year_start": 1536,
+      "year_end": null,
+      "date_label": "1536년",
+      "date_precision": "year",
+      "title": "덴마크 크리스티안 3세의 개혁과 왕권 재편",
+      "region_ids": [
+        "ER-07"
+      ],
+      "theme_ids": [
+        "T04",
+        "T05"
+      ],
+      "summary": "내전 이후 군주 중심의 교회 제도화가 가속됐다",
+      "interpretive_caution": "노르웨이·아이슬란드 등 주변 지역의 수용 속도가 같았다고 말하지 않는다",
+      "source_ids": [
+        "S408-06"
+      ],
+      "actor_ids": [
+        "P09"
+      ],
+      "level": "L0",
+      "facsimile_checked": false
+    },
+    {
+      "id": "E408-17",
+      "year_start": 1536,
+      "year_end": null,
+      "date_label": "1536년",
+      "date_precision": "year",
+      "title": "칼뱅 『기독교강요』 초판",
+      "region_ids": [
+        "ER-02",
+        "ER-03"
+      ],
+      "theme_ids": [
+        "T01",
+        "T02",
+        "T06"
+      ],
+      "summary": "유럽 개혁파 신학의 언어를 정교하게 만드는 출발점이었다",
+      "interpretive_caution": "1559년 최종 판본과 내용을 동일시하지 않는다",
+      "source_ids": [
+        "S408-01",
+        "S408-02"
+      ],
+      "actor_ids": [
+        "P05"
+      ],
+      "level": "L0",
+      "facsimile_checked": false
+    },
+    {
+      "id": "E408-18",
+      "year_start": 1537,
+      "year_end": null,
+      "date_label": "1537년",
+      "date_precision": "year",
+      "title": "덴마크 라틴어 교회 규정 발행",
+      "region_ids": [
+        "ER-07"
+      ],
+      "theme_ids": [
+        "T03",
+        "T04"
+      ],
+      "summary": "왕권에 의한 개혁이 예배·교육·구제 제도로 구체화됐다",
+      "interpretive_caution": "1536년 정치 전환과 1537년 문서 제정을 같은 사건으로 처리하지 않는다",
+      "source_ids": [
+        "S408-06"
+      ],
+      "actor_ids": [
+        "P09"
+      ],
+      "level": "L0",
+      "facsimile_checked": false
+    },
+    {
+      "id": "E408-19",
+      "year_start": 1540,
+      "year_end": null,
+      "date_label": "1540년",
+      "date_precision": "year",
+      "title": "예수회 승인과 가톨릭 내부 쇄신",
+      "region_ids": [
+        "ER-11"
+      ],
+      "theme_ids": [
+        "T04",
+        "T06"
+      ],
+      "summary": "교육·선교·규율을 통한 가톨릭 개혁의 제도적 기반이 확대됐다",
+      "interpretive_caution": "모든 가톨릭 쇄신이 개신교에 대한 반격에서만 시작됐다고 쓰지 않는다",
+      "source_ids": [
+        "S408-01",
+        "S408-02"
+      ],
+      "actor_ids": [
+        "P20"
+      ],
+      "level": "L0",
+      "facsimile_checked": false
+    },
+    {
+      "id": "E408-20",
+      "year_start": 1541,
+      "year_end": null,
+      "date_label": "1541년",
+      "date_precision": "year",
+      "title": "칼뱅의 제네바 복귀",
+      "region_ids": [
+        "ER-02"
+      ],
+      "theme_ids": [
+        "T04",
+        "T03"
+      ],
+      "summary": "도시의 교회 통치와 목회 실천이 정비됐다",
+      "interpretive_caution": "칼뱅 한 사람이 제네바 정치 전체를 지배했다는 식의 요약 금지",
+      "source_ids": [
+        "S408-01",
+        "S408-11"
+      ],
+      "actor_ids": [
+        "P05"
+      ],
+      "level": "L0",
+      "facsimile_checked": false
+    },
+    {
+      "id": "E408-21",
+      "year_start": 1541,
+      "year_end": null,
+      "date_label": "1541년",
+      "date_precision": "year",
+      "title": "스웨덴어 성경 전역 출판",
+      "region_ids": [
+        "ER-07"
+      ],
+      "theme_ids": [
+        "T06",
+        "T01"
+      ],
+      "summary": "왕국의 종교개혁을 언어·독서·교육 변화와 연결한다",
+      "interpretive_caution": "출판과 주민 개개인의 실제 수용을 구별한다",
+      "source_ids": [
+        "S408-07"
+      ],
+      "actor_ids": [
+        "P08",
+        "P10"
+      ],
+      "level": "L0",
+      "facsimile_checked": false
+    },
+    {
+      "id": "E408-22",
+      "year_start": 1542,
+      "year_end": null,
+      "date_label": "1542년",
+      "date_precision": "year",
+      "title": "로마 종교재판 기구 재편",
+      "region_ids": [
+        "ER-11"
+      ],
+      "theme_ids": [
+        "T01",
+        "T05"
+      ],
+      "summary": "가톨릭 교회의 경계 설정과 사상 통제도 함께 전개됐다",
+      "interpretive_caution": "가톨릭 전체의 개혁을 억압 정책 하나로 축소하지 않는다",
+      "source_ids": [
+        "S408-01",
+        "S408-02"
+      ],
+      "actor_ids": [],
+      "level": "L0",
+      "facsimile_checked": false
+    },
+    {
+      "id": "E408-23",
+      "year_start": 1545,
+      "year_end": 1563,
+      "date_label": "1545–1563년",
+      "date_precision": "period",
+      "title": "트리엔트 공의회와 가톨릭 교리·규율 정비",
+      "region_ids": [
+        "ER-11"
+      ],
+      "theme_ids": [
+        "T01",
+        "T03",
+        "T04"
+      ],
+      "summary": "가톨릭 내부 쇄신과 개신교에 대한 논쟁을 함께 보여 준다",
+      "interpretive_caution": "공의회가 18년 동안 단절 없이 한 번에 열렸다고 묘사하지 않는다",
+      "source_ids": [
+        "S408-01",
+        "S408-02"
+      ],
+      "actor_ids": [],
+      "level": "L0",
+      "facsimile_checked": false
+    },
+    {
+      "id": "E408-24",
+      "year_start": 1547,
+      "year_end": null,
+      "date_label": "1547년",
+      "date_precision": "year",
+      "title": "에드워드 6세 즉위와 잉글랜드 예전 개혁",
+      "region_ids": [
+        "ER-05"
+      ],
+      "theme_ids": [
+        "T03",
+        "T04"
+      ],
+      "summary": "왕위 교체로 예배와 교리 정책이 새 국면을 맞았다",
+      "interpretive_caution": "즉위한 해에 모든 변경이 완료됐다는 뜻은 아니다",
+      "source_ids": [
+        "S408-01",
+        "S408-02"
+      ],
+      "actor_ids": [
+        "P12"
+      ],
+      "level": "L0",
+      "facsimile_checked": false
+    },
+    {
+      "id": "E408-25",
+      "year_start": 1553,
+      "year_end": null,
+      "date_label": "1553년",
+      "date_precision": "year",
+      "title": "메리 1세 즉위와 가톨릭 복구 정책",
+      "region_ids": [
+        "ER-05"
+      ],
+      "theme_ids": [
+        "T03",
+        "T05"
+      ],
+      "summary": "잉글랜드 개혁이 일방향이 아닌 왕대별 변화였음을 드러낸다",
+      "interpretive_caution": "백성 전체가 동일하게 정책을 수용했다고 주장하지 않는다",
+      "source_ids": [
+        "S408-01",
+        "S408-02"
+      ],
+      "actor_ids": [
+        "P13"
+      ],
+      "level": "L0",
+      "facsimile_checked": false
+    },
+    {
+      "id": "E408-26",
+      "year_start": 1555,
+      "year_end": null,
+      "date_label": "1555년",
+      "date_precision": "year",
+      "title": "아우크스부르크 화의",
+      "region_ids": [
+        "ER-01"
+      ],
+      "theme_ids": [
+        "T05",
+        "T04"
+      ],
+      "summary": "제국의 루터파·가톨릭 관계를 제한적으로 재구성했다",
+      "interpretive_caution": "개혁파·재세례파 등 모든 공동체의 완전 평등을 인정한 것은 아니다",
+      "source_ids": [
+        "S408-01",
+        "S408-02"
+      ],
+      "actor_ids": [],
+      "level": "L0",
+      "facsimile_checked": false
+    },
+    {
+      "id": "E408-27",
+      "year_start": 1558,
+      "year_end": null,
+      "date_label": "1558년",
+      "date_precision": "year",
+      "title": "엘리자베스 1세 즉위",
+      "region_ids": [
+        "ER-05"
+      ],
+      "theme_ids": [
+        "T04",
+        "T05"
+      ],
+      "summary": "잉글랜드의 공적 교회질서가 다시 재편되는 출발점이다",
+      "interpretive_caution": "왕 즉위와 1559년 종교 정착 법률을 동일 사건으로 취급하지 않는다",
+      "source_ids": [
+        "S408-01",
+        "S408-02"
+      ],
+      "actor_ids": [
+        "P14"
+      ],
+      "level": "L0",
+      "facsimile_checked": false
+    },
+    {
+      "id": "E408-28",
+      "year_start": 1559,
+      "year_end": null,
+      "date_label": "1559년",
+      "date_precision": "year",
+      "title": "잉글랜드 엘리자베스기 종교 정착",
+      "region_ids": [
+        "ER-05"
+      ],
+      "theme_ids": [
+        "T03",
+        "T04"
+      ],
+      "summary": "교회 수장권·공예배·국교 질서를 새로운 방식으로 정비했다",
+      "interpretive_caution": "종교 실천의 전국적 동질성이 즉시 완성됐다고 보지 않는다",
+      "source_ids": [
+        "S408-01",
+        "S408-02"
+      ],
+      "actor_ids": [
+        "P14"
+      ],
+      "level": "L0",
+      "facsimile_checked": false
+    },
+    {
+      "id": "E408-29",
+      "year_start": 1559,
+      "year_end": null,
+      "date_label": "1559년",
+      "date_precision": "year",
+      "title": "프랑스 개혁파 첫 전국 시노드",
+      "region_ids": [
+        "ER-03"
+      ],
+      "theme_ids": [
+        "T04",
+        "T06"
+      ],
+      "summary": "프랑스의 개혁파가 조직화된 소수 신앙공동체로 성장했다",
+      "interpretive_caution": "프랑스 국왕이 개혁파를 국교로 채택했다는 뜻은 아니다",
+      "source_ids": [
+        "S408-02",
+        "S408-05"
+      ],
+      "actor_ids": [],
+      "level": "L0",
+      "facsimile_checked": false
+    },
+    {
+      "id": "E408-30",
+      "year_start": 1560,
+      "year_end": null,
+      "date_label": "1560년",
+      "date_precision": "year",
+      "title": "스코틀랜드 개혁 의회의 전환",
+      "region_ids": [
+        "ER-06"
+      ],
+      "theme_ids": [
+        "T04",
+        "T05"
+      ],
+      "summary": "스코틀랜드 개혁파 교회 제도가 정비될 중요한 계기를 만들었다",
+      "interpretive_caution": "왕권·의회·예배 실천의 변화를 단 하루의 완료로 축소하지 않는다",
+      "source_ids": [
+        "S408-01",
+        "S408-02"
+      ],
+      "actor_ids": [
+        "P15"
+      ],
+      "level": "L0",
+      "facsimile_checked": false
+    },
+    {
+      "id": "E408-31",
+      "year_start": 1562,
+      "year_end": 1598,
+      "date_label": "1562–1598년",
+      "date_precision": "period",
+      "title": "프랑스 종교전쟁",
+      "region_ids": [
+        "ER-03"
+      ],
+      "theme_ids": [
+        "T05"
+      ],
+      "summary": "가톨릭 다수·위그노 소수와 왕조·귀족 경쟁이 장기 내전으로 이어졌다",
+      "interpretive_caution": "36년 동안 전쟁이 연속으로 한 번도 중단되지 않았다는 뜻은 아니다",
+      "source_ids": [
+        "S408-05"
+      ],
+      "actor_ids": [],
+      "level": "L0",
+      "facsimile_checked": false
+    },
+    {
+      "id": "E408-32",
+      "year_start": 1566,
+      "year_end": null,
+      "date_label": "1566년",
+      "date_precision": "year",
+      "title": "저지대 성상 파괴 운동",
+      "region_ids": [
+        "ER-04"
+      ],
+      "theme_ids": [
+        "T03",
+        "T05"
+      ],
+      "summary": "종교적 긴장과 합스부르크 통치 문제를 증폭시켰다",
+      "interpretive_caution": "저지대 모두가 동일한 폭동과 개혁을 겪었다고 말하지 않는다",
+      "source_ids": [
+        "S408-04",
+        "S408-12"
+      ],
+      "actor_ids": [
+        "P19"
+      ],
+      "level": "L0",
+      "facsimile_checked": false
+    },
+    {
+      "id": "E408-33",
+      "year_start": 1568,
+      "year_end": null,
+      "date_label": "1568년",
+      "date_precision": "year",
+      "title": "트란실바니아 토르다 의회의 신앙·설교 규정",
+      "region_ids": [
+        "ER-10"
+      ],
+      "theme_ids": [
+        "T05",
+        "T04"
+      ],
+      "summary": "다교단 경쟁 속 설교자 선택과 강제 문제를 다룬 특별한 정치적 타협이다",
+      "interpretive_caution": "현대적 평등한 개인적 종교 자유로 과장하지 않는다",
+      "source_ids": [
+        "S408-10"
+      ],
+      "actor_ids": [],
+      "level": "L0",
+      "facsimile_checked": false
+    },
+    {
+      "id": "E408-34",
+      "year_start": 1569,
+      "year_end": null,
+      "date_label": "1569년",
+      "date_precision": "year",
+      "title": "루블린 연합과 폴란드-리투아니아 정치질서",
+      "region_ids": [
+        "ER-09"
+      ],
+      "theme_ids": [
+        "T05"
+      ],
+      "summary": "다민족·다종교 국가의 정치구조 변화가 교회 문제와 교차했다",
+      "interpretive_caution": "연합 자체를 종교개혁 교리 채택과 동일시하지 않는다",
+      "source_ids": [
+        "S408-09",
+        "S408-11"
+      ],
+      "actor_ids": [],
+      "level": "L0",
+      "facsimile_checked": false
+    },
+    {
+      "id": "E408-35",
+      "year_start": 1572,
+      "year_end": null,
+      "date_label": "1572년",
+      "date_precision": "year",
+      "title": "성 바르톨로메오 축일 전후 학살",
+      "region_ids": [
+        "ER-03"
+      ],
+      "theme_ids": [
+        "T05"
+      ],
+      "summary": "프랑스의 종교·왕권 갈등이 대규모 폭력으로 전개됐다",
+      "interpretive_caution": "피해 규모와 중앙·지방 전개에는 사료별 차이가 있으므로 단일 수치를 고정하지 않는다",
+      "source_ids": [
+        "S408-05"
+      ],
+      "actor_ids": [
+        "P16"
+      ],
+      "level": "L0",
+      "facsimile_checked": false
+    },
+    {
+      "id": "E408-36",
+      "year_start": 1573,
+      "year_end": null,
+      "date_label": "1573년",
+      "date_precision": "year",
+      "title": "바르샤바 연맹과 종교적 평화 협약",
+      "region_ids": [
+        "ER-09"
+      ],
+      "theme_ids": [
+        "T05"
+      ],
+      "summary": "귀족 공화정의 왕위 선출 위기에서 종교적 공존을 협상했다",
+      "interpretive_caution": "모든 신분의 보편적 자유를 보장한 현대 권리장전으로 이해하지 않는다",
+      "source_ids": [
+        "S408-09"
+      ],
+      "actor_ids": [],
+      "level": "L0",
+      "facsimile_checked": false
+    },
+    {
+      "id": "E408-37",
+      "year_start": 1579,
+      "year_end": null,
+      "date_label": "1579년",
+      "date_precision": "year",
+      "title": "위트레흐트 동맹",
+      "region_ids": [
+        "ER-04"
+      ],
+      "theme_ids": [
+        "T05",
+        "T04"
+      ],
+      "summary": "네덜란드 북부와 일부 다른 지역의 정치적 협력을 강화했다",
+      "interpretive_caution": "이 동맹일을 독립의 최종 완성으로 설명하지 않는다",
+      "source_ids": [
+        "S408-04",
+        "S408-12"
+      ],
+      "actor_ids": [
+        "P18"
+      ],
+      "level": "L0",
+      "facsimile_checked": false
+    },
+    {
+      "id": "E408-38",
+      "year_start": 1581,
+      "year_end": null,
+      "date_label": "1581년",
+      "date_precision": "year",
+      "title": "저지대 여러 주의 펠리페 2세 통치 거부 선언",
+      "region_ids": [
+        "ER-04"
+      ],
+      "theme_ids": [
+        "T05"
+      ],
+      "summary": "왕권과 종교 갈등의 정치적 관계가 결정적으로 재구성됐다",
+      "interpretive_caution": "현대 네덜란드 국가 전체의 국경과 독립 시점을 그대로 투사하지 않는다",
+      "source_ids": [
+        "S408-04",
+        "S408-12"
+      ],
+      "actor_ids": [
+        "P18",
+        "P19"
+      ],
+      "level": "L0",
+      "facsimile_checked": false
+    },
+    {
+      "id": "E408-39",
+      "year_start": 1593,
+      "year_end": null,
+      "date_label": "1593년",
+      "date_precision": "year",
+      "title": "스웨덴 웁살라 시노드와 루터파 신앙고백 확인",
+      "region_ids": [
+        "ER-07"
+      ],
+      "theme_ids": [
+        "T01",
+        "T04"
+      ],
+      "summary": "스웨덴의 개혁은 1527년 뒤에도 수십 년에 걸쳐 제도화됐다",
+      "interpretive_caution": "베스테로스 회의 직후에 이미 최종 정착했다고 쓰지 않는다",
+      "source_ids": [
+        "S408-02",
+        "S408-08"
+      ],
+      "actor_ids": [],
+      "level": "L0",
+      "facsimile_checked": false
+    },
+    {
+      "id": "E408-40",
+      "year_start": 1596,
+      "year_end": null,
+      "date_label": "1596년",
+      "date_precision": "year",
+      "title": "브레스트 교회 연합과 동방교회의 분화",
+      "region_ids": [
+        "ER-09"
+      ],
+      "theme_ids": [
+        "T04",
+        "T05"
+      ],
+      "summary": "폴란드-리투아니아의 정교회·가톨릭 관계에 지속적 긴장을 남겼다",
+      "interpretive_caution": "모든 정교회 공동체가 동일하게 연합을 받아들였다고 쓰지 않는다",
+      "source_ids": [
+        "S408-02",
+        "S408-09"
+      ],
+      "actor_ids": [],
+      "level": "L0",
+      "facsimile_checked": false
+    },
+    {
+      "id": "E408-41",
+      "year_start": 1598,
+      "year_end": null,
+      "date_label": "1598년",
+      "date_precision": "year",
+      "title": "프랑스 낭트 칙령",
+      "region_ids": [
+        "ER-03"
+      ],
+      "theme_ids": [
+        "T05"
+      ],
+      "summary": "전쟁 이후 개혁파 공동체에 제한적 법적 보호를 마련했다",
+      "interpretive_caution": "현대적 종교 자유와 완전히 동등하거나 영구적으로 유지됐다고 해석하지 않는다",
+      "source_ids": [
+        "S408-05"
+      ],
+      "actor_ids": [
+        "P17"
+      ],
+      "level": "L0",
+      "facsimile_checked": false
+    },
+    {
+      "id": "E408-42",
+      "year_start": 1603,
+      "year_end": null,
+      "date_label": "1603년",
+      "date_precision": "year",
+      "title": "스튜어트 왕가 아래 잉글랜드·스코틀랜드 동군연합",
+      "region_ids": [
+        "ER-05",
+        "ER-06"
+      ],
+      "theme_ids": [
+        "T04",
+        "T05"
+      ],
+      "summary": "왕은 공유해도 교회제도가 동일해지지 않는다는 차이를 보여 준다",
+      "interpretive_caution": "이때 영국 세 왕국의 의회와 교회가 단일한 구조로 합병됐다고 해석하지 않는다",
+      "source_ids": [
+        "S408-11"
+      ],
+      "actor_ids": [],
+      "level": "L0",
+      "facsimile_checked": false
+    },
+    {
+      "id": "E408-43",
+      "year_start": 1618,
+      "year_end": null,
+      "date_label": "1618년",
+      "date_precision": "year",
+      "title": "프라하 사건과 30년 전쟁의 전개",
+      "region_ids": [
+        "ER-08",
+        "ER-01"
+      ],
+      "theme_ids": [
+        "T05"
+      ],
+      "summary": "보헤미아와 제국 정치의 갈등이 유럽 규모 전쟁으로 확대됐다",
+      "interpretive_caution": "모든 전쟁 원인이 오직 개신교·가톨릭 대립이라는 뜻은 아니다",
+      "source_ids": [
+        "S408-01",
+        "S408-11"
+      ],
+      "actor_ids": [],
+      "level": "L0",
+      "facsimile_checked": false
+    },
+    {
+      "id": "E408-44",
+      "year_start": 1620,
+      "year_end": null,
+      "date_label": "1620년",
+      "date_precision": "year",
+      "title": "백산 전투와 보헤미아 개혁세력의 위기",
+      "region_ids": [
+        "ER-08"
+      ],
+      "theme_ids": [
+        "T05",
+        "T04"
+      ],
+      "summary": "합스부르크의 군사적 승리 뒤 지역 교회와 정치질서 재편이 가속됐다",
+      "interpretive_caution": "보헤미아의 모든 신앙적 다양성이 즉시 소멸했다고 쓰지 않는다",
+      "source_ids": [
+        "S408-11"
+      ],
+      "actor_ids": [],
+      "level": "L0",
+      "facsimile_checked": false
+    },
+    {
+      "id": "E408-45",
+      "year_start": 1648,
+      "year_end": null,
+      "date_label": "1648년",
+      "date_precision": "year",
+      "title": "베스트팔렌 조약들과 제국 종교관계 재구성",
+      "region_ids": [
+        "ER-01",
+        "ER-04",
+        "ER-08"
+      ],
+      "theme_ids": [
+        "T05"
+      ],
+      "summary": "전쟁 이후 제국의 가톨릭·루터파·개혁파 관계와 유럽 정치질서가 다시 정리됐다",
+      "interpretive_caution": "현대적 개인 종교 자유 또는 모든 전쟁의 종결을 선언했다고 확대하지 않는다",
+      "source_ids": [
+        "S408-01",
+        "S408-11"
+      ],
+      "actor_ids": [],
+      "level": "L0",
+      "facsimile_checked": false
+    }
+  ],
+  "layers": [
+    {
+      "id": "L408-01",
+      "label": "1415~1525년",
+      "year_start": 1415,
+      "year_end": 1525,
+      "title": "선행 개혁과 새로운 문제 제기",
+      "overview": "보헤미아의 선행 개혁과 비텐베르크·취리히의 서로 다른 논쟁이 전개됐다.",
+      "spotlight_regions": [
+        "ER-08",
+        "ER-01",
+        "ER-02"
+      ]
+    },
+    {
+      "id": "L408-02",
+      "label": "1526~1540년",
+      "year_start": 1526,
+      "year_end": 1540,
+      "title": "국가·도시의 서로 다른 제도적 선택",
+      "overview": "독일 신앙고백, 잉글랜드 왕권과 교회, 북유럽 왕국의 제도화가 병행됐다.",
+      "spotlight_regions": [
+        "ER-01",
+        "ER-02",
+        "ER-05",
+        "ER-07",
+        "ER-10"
+      ]
+    },
+    {
+      "id": "L408-03",
+      "label": "1541~1559년",
+      "year_start": 1541,
+      "year_end": 1559,
+      "title": "예배·신학의 정착과 가톨릭 개혁",
+      "overview": "제네바, 트리엔트, 잉글랜드, 독일의 신앙고백과 교회제도가 경쟁했다.",
+      "spotlight_regions": [
+        "ER-01",
+        "ER-02",
+        "ER-05",
+        "ER-11"
+      ]
+    },
+    {
+      "id": "L408-04",
+      "label": "1560~1573년",
+      "year_start": 1560,
+      "year_end": 1573,
+      "title": "종교 갈등과 새로운 공존의 시험",
+      "overview": "프랑스 내전, 저지대의 갈등, 토르다·바르샤바의 제한적 협상은 같은 시대의 다른 답이었다.",
+      "spotlight_regions": [
+        "ER-03",
+        "ER-04",
+        "ER-06",
+        "ER-09",
+        "ER-10"
+      ]
+    },
+    {
+      "id": "L408-05",
+      "label": "1574~1598년",
+      "year_start": 1574,
+      "year_end": 1598,
+      "title": "분리와 제도적 재구성",
+      "overview": "북부 저지대의 독립 경로, 스웨덴의 신앙고백 정착, 프랑스의 제한적 평화가 병행됐다.",
+      "spotlight_regions": [
+        "ER-03",
+        "ER-04",
+        "ER-07",
+        "ER-09"
+      ]
+    },
+    {
+      "id": "L408-06",
+      "label": "1599~1648년",
+      "year_start": 1599,
+      "year_end": 1648,
+      "title": "전쟁 이후에도 남는 차이",
+      "overview": "교회와 왕조의 결합은 계속 달랐고 보헤미아·제국의 전쟁은 조약으로 재구성됐다.",
+      "spotlight_regions": [
+        "ER-01",
+        "ER-05",
+        "ER-06",
+        "ER-08"
+      ]
+    }
+  ],
+  "comparative_scenes": [
+    {
+      "id": "SC408-01",
+      "title": "1520년대의 독일과 스위스",
+      "date_label": "1517~1531년",
+      "summary": "독일의 인쇄·제후·제국 논쟁과 스위스의 도시의회·연방 대립이 나란히 진행됐다.",
+      "region_ids": [
+        "ER-01",
+        "ER-02"
+      ],
+      "theme_ids": [
+        "T01",
+        "T03",
+        "T05"
+      ],
+      "interpretive_caution": "한 지역의 개혁에서 다른 지역의 개혁으로 화살표 하나를 그리기 어렵다.",
+      "interaction": "compare_simultaneous_or_structurally_related_not_direct_causality",
+      "read_level": "L0"
+    },
+    {
+      "id": "SC408-02",
+      "title": "1530년대, 왕권과 신학의 서로 다른 선택",
+      "date_label": "1530~1540년",
+      "summary": "독일의 신앙고백, 잉글랜드의 수장령, 덴마크의 왕권 개혁, 칼뱅의 저술이 같은 시기에 나타났다.",
+      "region_ids": [
+        "ER-01",
+        "ER-02",
+        "ER-05",
+        "ER-07"
+      ],
+      "theme_ids": [
+        "T01",
+        "T04",
+        "T05"
+      ],
+      "interpretive_caution": "시기가 가깝다는 사실은 원인과 결과의 동일성을 뜻하지 않는다.",
+      "interaction": "compare_simultaneous_or_structurally_related_not_direct_causality",
+      "read_level": "L0"
+    },
+    {
+      "id": "SC408-03",
+      "title": "가톨릭 개혁과 개신교 교회 형성의 병행",
+      "date_label": "1540~1563년",
+      "summary": "예수회·트리엔트 공의회와 제네바·잉글랜드·독일의 다른 개혁이 서로 경쟁하면서 진행됐다.",
+      "region_ids": [
+        "ER-11",
+        "ER-02",
+        "ER-05",
+        "ER-01"
+      ],
+      "theme_ids": [
+        "T01",
+        "T03",
+        "T04"
+      ],
+      "interpretive_caution": "가톨릭 내부 쇄신을 개신교의 반사작용 하나로만 보지 않는다.",
+      "interaction": "compare_simultaneous_or_structurally_related_not_direct_causality",
+      "read_level": "L0"
+    },
+    {
+      "id": "SC408-04",
+      "title": "1560~1570년대의 전쟁과 공존",
+      "date_label": "1562~1579년",
+      "summary": "프랑스의 전쟁, 저지대의 반란, 트란실바니아·폴란드의 다교단 협상이 같은 유럽 안에서 병행됐다.",
+      "region_ids": [
+        "ER-03",
+        "ER-04",
+        "ER-09",
+        "ER-10"
+      ],
+      "theme_ids": [
+        "T05"
+      ],
+      "interpretive_caution": "관용 조약의 혜택 대상과 강제력을 현대적 개인 권리로 오인하지 않는다.",
+      "interaction": "compare_simultaneous_or_structurally_related_not_direct_causality",
+      "read_level": "L0"
+    },
+    {
+      "id": "SC408-05",
+      "title": "같은 왕조권, 다른 세 왕국의 종교",
+      "date_label": "1534~1603년",
+      "summary": "잉글랜드의 국교회 개혁, 스코틀랜드의 개혁파 정착, 아일랜드의 가톨릭 지속은 다른 결과다.",
+      "region_ids": [
+        "ER-05",
+        "ER-06"
+      ],
+      "theme_ids": [
+        "T04",
+        "T05"
+      ],
+      "interpretive_caution": "잉글랜드의 변화를 스코틀랜드·아일랜드 전체에 투영하지 않는다.",
+      "interaction": "compare_simultaneous_or_structurally_related_not_direct_causality",
+      "read_level": "L0"
+    },
+    {
+      "id": "SC408-06",
+      "title": "스웨덴과 덴마크의 루터파 제도화 속도",
+      "date_label": "1527~1593년",
+      "summary": "스웨덴의 1527년 전환과 1593년 신앙고백 확인, 덴마크 1536년 왕권 개혁과 1537년 교회규정을 비교한다.",
+      "region_ids": [
+        "ER-07"
+      ],
+      "theme_ids": [
+        "T04",
+        "T05",
+        "T06"
+      ],
+      "interpretive_caution": "‘왕국의 개혁 결의’와 ‘교구별 신앙 실천’은 서로 다른 척도다.",
+      "interaction": "compare_simultaneous_or_structurally_related_not_direct_causality",
+      "read_level": "L0"
+    },
+    {
+      "id": "SC408-07",
+      "title": "1648년의 평화는 누구의 평화였나",
+      "date_label": "1598~1648년",
+      "summary": "프랑스의 제한적 공존, 보헤미아의 전쟁·망명, 제국의 종교관계 재정비를 비교한다.",
+      "region_ids": [
+        "ER-01",
+        "ER-03",
+        "ER-08"
+      ],
+      "theme_ids": [
+        "T05"
+      ],
+      "interpretive_caution": "유럽 전체가 단일하고 평등한 종교 자유를 획득한 사건으로 설명하지 않는다.",
+      "interaction": "compare_simultaneous_or_structurally_related_not_direct_causality",
+      "read_level": "L0"
+    },
+    {
+      "id": "SC408-08",
+      "title": "이단과 소수파는 종교개혁 안팎에서 어떻게 움직였나",
+      "date_label": "1525~1600년",
+      "summary": "재세례파·가톨릭 소수파·동방정교회와 여러 개혁파의 법적 처우가 지역별로 달랐다.",
+      "region_ids": [
+        "ER-02",
+        "ER-04",
+        "ER-09",
+        "ER-10",
+        "ER-11"
+      ],
+      "theme_ids": [
+        "T04",
+        "T05"
+      ],
+      "interpretive_caution": "누가 승리했는가만을 중심으로 억압받은 공동체를 누락하지 않는다.",
+      "interaction": "compare_simultaneous_or_structurally_related_not_direct_causality",
+      "read_level": "L0"
+    }
+  ],
+  "region_relationships": [
+    {
+      "id": "RREL408-01",
+      "from_region": "ER-01",
+      "to_region": "ER-02",
+      "relation_type": "THEOLOGICAL_DIALOGUE",
+      "narrative": "루터와 츠빙글리의 성찬 논쟁, 1529년 회담으로 이어진 교리적 대화",
+      "causation_claim": "LIMITED_CONTEXTUAL",
+      "geo_route_verified": false
+    },
+    {
+      "id": "RREL408-02",
+      "from_region": "ER-01",
+      "to_region": "ER-07",
+      "relation_type": "INSTITUTIONAL_AND_PRINT_CONNECTION",
+      "narrative": "비텐베르크 사상·왕권·대학 네트워크가 북유럽 변화와 연동",
+      "causation_claim": "LIMITED_CONTEXTUAL",
+      "geo_route_verified": false
+    },
+    {
+      "id": "RREL408-03",
+      "from_region": "ER-01",
+      "to_region": "ER-05",
+      "relation_type": "STRUCTURAL_CONTRAST",
+      "narrative": "영방 중심 개혁과 왕권·의회 중심 개혁의 차이",
+      "causation_claim": "NO",
+      "geo_route_verified": false
+    },
+    {
+      "id": "RREL408-04",
+      "from_region": "ER-02",
+      "to_region": "ER-03",
+      "relation_type": "PERSON_NETWORK",
+      "narrative": "제네바·프랑스 개혁파 사이의 인물·인쇄·교회 네트워크",
+      "causation_claim": "LIMITED_CONTEXTUAL",
+      "geo_route_verified": false
+    },
+    {
+      "id": "RREL408-05",
+      "from_region": "ER-02",
+      "to_region": "ER-06",
+      "relation_type": "PERSON_NETWORK",
+      "narrative": "제네바에 머문 녹스와 스코틀랜드 교회 정비의 관련성",
+      "causation_claim": "LIMITED_CONTEXTUAL",
+      "geo_route_verified": false
+    },
+    {
+      "id": "RREL408-06",
+      "from_region": "ER-03",
+      "to_region": "ER-04",
+      "relation_type": "REFUGEE_AND_CONFLICT_RELATION",
+      "narrative": "프랑스·저지대 개혁파 공동체와 전쟁·피난 관계",
+      "causation_claim": "LIMITED_CONTEXTUAL",
+      "geo_route_verified": false
+    },
+    {
+      "id": "RREL408-07",
+      "from_region": "ER-04",
+      "to_region": "ER-11",
+      "relation_type": "HABSBURG_RULE_AND_CONFLICT",
+      "narrative": "저지대의 스페인 합스부르크 통치에 대한 정치·종교 갈등",
+      "causation_claim": "LIMITED_CONTEXTUAL",
+      "geo_route_verified": false
+    },
+    {
+      "id": "RREL408-08",
+      "from_region": "ER-05",
+      "to_region": "ER-06",
+      "relation_type": "THREE_KINGDOM_CONTRAST",
+      "narrative": "잉글랜드와 스코틀랜드·아일랜드 사이의 국교·지역 신앙 차이",
+      "causation_claim": "LIMITED_CONTEXTUAL",
+      "geo_route_verified": false
+    },
+    {
+      "id": "RREL408-09",
+      "from_region": "ER-07",
+      "to_region": "ER-09",
+      "relation_type": "CROSS_DYNASTY_RELATION",
+      "narrative": "바사 왕가가 연관된 스웨덴·폴란드-리투아니아의 왕조·교회 문제",
+      "causation_claim": "LIMITED_CONTEXTUAL",
+      "geo_route_verified": false
+    },
+    {
+      "id": "RREL408-10",
+      "from_region": "ER-08",
+      "to_region": "ER-01",
+      "relation_type": "HRE_CROSS_REGION_WAR",
+      "narrative": "1618년 이후 제국의 전쟁으로 연결된 보헤미아·독일 정치",
+      "causation_claim": "LIMITED_CONTEXTUAL",
+      "geo_route_verified": false
+    },
+    {
+      "id": "RREL408-11",
+      "from_region": "ER-08",
+      "to_region": "ER-09",
+      "relation_type": "CENTRAL_EUROPE_PLURALITY",
+      "narrative": "중동부유럽의 다언어·다종교 제도 차이",
+      "causation_claim": "LIMITED_CONTEXTUAL",
+      "geo_route_verified": false
+    },
+    {
+      "id": "RREL408-12",
+      "from_region": "ER-09",
+      "to_region": "ER-10",
+      "relation_type": "LIMITED_TOLERATION_COMPARISON",
+      "narrative": "1573년 바르샤바와 1568년 토르다의 서로 다른 제한적 종교 공존",
+      "causation_claim": "LIMITED_CONTEXTUAL",
+      "geo_route_verified": false
+    },
+    {
+      "id": "RREL408-13",
+      "from_region": "ER-01",
+      "to_region": "ER-11",
+      "relation_type": "CONFESSIONAL_COMPETITION",
+      "narrative": "루터파 신앙고백과 가톨릭 교리·규율 정비의 병행",
+      "causation_claim": "LIMITED_CONTEXTUAL",
+      "geo_route_verified": false
+    },
+    {
+      "id": "RREL408-14",
+      "from_region": "ER-03",
+      "to_region": "ER-11",
+      "relation_type": "CONFESSIONAL_COMPETITION",
+      "narrative": "프랑스 갈등과 유럽 가톨릭 내부 개혁의 상호 관련",
+      "causation_claim": "LIMITED_CONTEXTUAL",
+      "geo_route_verified": false
+    },
+    {
+      "id": "RREL408-15",
+      "from_region": "ER-04",
+      "to_region": "ER-09",
+      "relation_type": "PLURALISM_CONTRAST",
+      "narrative": "저지대의 독립 전쟁과 폴란드-리투아니아의 정치적 관용 협상의 대비",
+      "causation_claim": "LIMITED_CONTEXTUAL",
+      "geo_route_verified": false
+    },
+    {
+      "id": "RREL408-16",
+      "from_region": "ER-10",
+      "to_region": "ER-08",
+      "relation_type": "HABSBURG_OTTOMAN_POLITICAL_CONTEXT",
+      "narrative": "합스부르크와 오스만의 영향권이 교회 정치에 남긴 지역차",
+      "causation_claim": "LIMITED_CONTEXTUAL",
+      "geo_route_verified": false
+    },
+    {
+      "id": "RREL408-17",
+      "from_region": "ER-02",
+      "to_region": "ER-11",
+      "relation_type": "DISTINCT_REFORMATION_MODELS",
+      "narrative": "도시 개혁파 교회와 이탈리아 중심 가톨릭 쇄신의 차이",
+      "causation_claim": "LIMITED_CONTEXTUAL",
+      "geo_route_verified": false
+    }
+  ],
+  "people_event_relationships": [
+    {
+      "event_id": "E408-01",
+      "actor_id": "P21",
+      "role": "ASSOCIATED_ACTOR_NOT_EXCLUSIVE_AUTHORSHIP"
+    },
+    {
+      "event_id": "E408-02",
+      "actor_id": "P01",
+      "role": "ASSOCIATED_ACTOR_NOT_EXCLUSIVE_AUTHORSHIP"
+    },
+    {
+      "event_id": "E408-03",
+      "actor_id": "P03",
+      "role": "ASSOCIATED_ACTOR_NOT_EXCLUSIVE_AUTHORSHIP"
+    },
+    {
+      "event_id": "E408-04",
+      "actor_id": "P01",
+      "role": "ASSOCIATED_ACTOR_NOT_EXCLUSIVE_AUTHORSHIP"
+    },
+    {
+      "event_id": "E408-04",
+      "actor_id": "P07",
+      "role": "ASSOCIATED_ACTOR_NOT_EXCLUSIVE_AUTHORSHIP"
+    },
+    {
+      "event_id": "E408-05",
+      "actor_id": "P03",
+      "role": "ASSOCIATED_ACTOR_NOT_EXCLUSIVE_AUTHORSHIP"
+    },
+    {
+      "event_id": "E408-06",
+      "actor_id": "P06",
+      "role": "ASSOCIATED_ACTOR_NOT_EXCLUSIVE_AUTHORSHIP"
+    },
+    {
+      "event_id": "E408-08",
+      "actor_id": "P08",
+      "role": "ASSOCIATED_ACTOR_NOT_EXCLUSIVE_AUTHORSHIP"
+    },
+    {
+      "event_id": "E408-08",
+      "actor_id": "P10",
+      "role": "ASSOCIATED_ACTOR_NOT_EXCLUSIVE_AUTHORSHIP"
+    },
+    {
+      "event_id": "E408-10",
+      "actor_id": "P07",
+      "role": "ASSOCIATED_ACTOR_NOT_EXCLUSIVE_AUTHORSHIP"
+    },
+    {
+      "event_id": "E408-11",
+      "actor_id": "P01",
+      "role": "ASSOCIATED_ACTOR_NOT_EXCLUSIVE_AUTHORSHIP"
+    },
+    {
+      "event_id": "E408-11",
+      "actor_id": "P03",
+      "role": "ASSOCIATED_ACTOR_NOT_EXCLUSIVE_AUTHORSHIP"
+    },
+    {
+      "event_id": "E408-12",
+      "actor_id": "P02",
+      "role": "ASSOCIATED_ACTOR_NOT_EXCLUSIVE_AUTHORSHIP"
+    },
+    {
+      "event_id": "E408-12",
+      "actor_id": "P07",
+      "role": "ASSOCIATED_ACTOR_NOT_EXCLUSIVE_AUTHORSHIP"
+    },
+    {
+      "event_id": "E408-13",
+      "actor_id": "P03",
+      "role": "ASSOCIATED_ACTOR_NOT_EXCLUSIVE_AUTHORSHIP"
+    },
+    {
+      "event_id": "E408-13",
+      "actor_id": "P04",
+      "role": "ASSOCIATED_ACTOR_NOT_EXCLUSIVE_AUTHORSHIP"
+    },
+    {
+      "event_id": "E408-14",
+      "actor_id": "P11",
+      "role": "ASSOCIATED_ACTOR_NOT_EXCLUSIVE_AUTHORSHIP"
+    },
+    {
+      "event_id": "E408-16",
+      "actor_id": "P09",
+      "role": "ASSOCIATED_ACTOR_NOT_EXCLUSIVE_AUTHORSHIP"
+    },
+    {
+      "event_id": "E408-17",
+      "actor_id": "P05",
+      "role": "ASSOCIATED_ACTOR_NOT_EXCLUSIVE_AUTHORSHIP"
+    },
+    {
+      "event_id": "E408-18",
+      "actor_id": "P09",
+      "role": "ASSOCIATED_ACTOR_NOT_EXCLUSIVE_AUTHORSHIP"
+    },
+    {
+      "event_id": "E408-19",
+      "actor_id": "P20",
+      "role": "ASSOCIATED_ACTOR_NOT_EXCLUSIVE_AUTHORSHIP"
+    },
+    {
+      "event_id": "E408-20",
+      "actor_id": "P05",
+      "role": "ASSOCIATED_ACTOR_NOT_EXCLUSIVE_AUTHORSHIP"
+    },
+    {
+      "event_id": "E408-21",
+      "actor_id": "P08",
+      "role": "ASSOCIATED_ACTOR_NOT_EXCLUSIVE_AUTHORSHIP"
+    },
+    {
+      "event_id": "E408-21",
+      "actor_id": "P10",
+      "role": "ASSOCIATED_ACTOR_NOT_EXCLUSIVE_AUTHORSHIP"
+    },
+    {
+      "event_id": "E408-24",
+      "actor_id": "P12",
+      "role": "ASSOCIATED_ACTOR_NOT_EXCLUSIVE_AUTHORSHIP"
+    },
+    {
+      "event_id": "E408-25",
+      "actor_id": "P13",
+      "role": "ASSOCIATED_ACTOR_NOT_EXCLUSIVE_AUTHORSHIP"
+    },
+    {
+      "event_id": "E408-27",
+      "actor_id": "P14",
+      "role": "ASSOCIATED_ACTOR_NOT_EXCLUSIVE_AUTHORSHIP"
+    },
+    {
+      "event_id": "E408-28",
+      "actor_id": "P14",
+      "role": "ASSOCIATED_ACTOR_NOT_EXCLUSIVE_AUTHORSHIP"
+    },
+    {
+      "event_id": "E408-30",
+      "actor_id": "P15",
+      "role": "ASSOCIATED_ACTOR_NOT_EXCLUSIVE_AUTHORSHIP"
+    },
+    {
+      "event_id": "E408-32",
+      "actor_id": "P19",
+      "role": "ASSOCIATED_ACTOR_NOT_EXCLUSIVE_AUTHORSHIP"
+    },
+    {
+      "event_id": "E408-35",
+      "actor_id": "P16",
+      "role": "ASSOCIATED_ACTOR_NOT_EXCLUSIVE_AUTHORSHIP"
+    },
+    {
+      "event_id": "E408-37",
+      "actor_id": "P18",
+      "role": "ASSOCIATED_ACTOR_NOT_EXCLUSIVE_AUTHORSHIP"
+    },
+    {
+      "event_id": "E408-38",
+      "actor_id": "P18",
+      "role": "ASSOCIATED_ACTOR_NOT_EXCLUSIVE_AUTHORSHIP"
+    },
+    {
+      "event_id": "E408-38",
+      "actor_id": "P19",
+      "role": "ASSOCIATED_ACTOR_NOT_EXCLUSIVE_AUTHORSHIP"
+    },
+    {
+      "event_id": "E408-41",
+      "actor_id": "P17",
+      "role": "ASSOCIATED_ACTOR_NOT_EXCLUSIVE_AUTHORSHIP"
+    }
+  ],
+  "region_coverage": [
+    {
+      "region_id": "ER-01",
+      "event_count": 8,
+      "first_year": 1517,
+      "last_year": 1648
+    },
+    {
+      "region_id": "ER-02",
+      "event_count": 8,
+      "first_year": 1519,
+      "last_year": 1541
+    },
+    {
+      "region_id": "ER-03",
+      "event_count": 5,
+      "first_year": 1536,
+      "last_year": 1598
+    },
+    {
+      "region_id": "ER-04",
+      "event_count": 4,
+      "first_year": 1566,
+      "last_year": 1648
+    },
+    {
+      "region_id": "ER-05",
+      "event_count": 6,
+      "first_year": 1534,
+      "last_year": 1603
+    },
+    {
+      "region_id": "ER-06",
+      "event_count": 3,
+      "first_year": 1530,
+      "last_year": 1603
+    },
+    {
+      "region_id": "ER-07",
+      "event_count": 5,
+      "first_year": 1527,
+      "last_year": 1593
+    },
+    {
+      "region_id": "ER-08",
+      "event_count": 4,
+      "first_year": 1415,
+      "last_year": 1648
+    },
+    {
+      "region_id": "ER-09",
+      "event_count": 3,
+      "first_year": 1569,
+      "last_year": 1596
+    },
+    {
+      "region_id": "ER-10",
+      "event_count": 2,
+      "first_year": 1526,
+      "last_year": 1568
+    },
+    {
+      "region_id": "ER-11",
+      "event_count": 3,
+      "first_year": 1540,
+      "last_year": 1563
+    }
+  ],
+  "map_source_staging": {
+    "reference_url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/confessional-divisions-before-and-during-the-reformations",
+    "reference_category": "ACADEMIC_CARTOGRAPHY",
+    "map_image_copied": false,
+    "map_as_16c_literal_factual_snapshot": false,
+    "actual_historic_gps_coordinates_in_data": false,
+    "independent_rights_review_required": true,
+    "approach": "Historical territorial boundaries vary by year; map should distinguish temporal periods and religious minorities rather than color whole modern nations uniformly"
+  },
+  "reader_display_rules": {
+    "desktop": "Synchronized time bands + regional swimlanes + parallel event links",
+    "mobile": "Year or period first, 11 region filters and compare-two-region cards",
+    "date_precision_indicator": true,
+    "connection_edges_not_automatic_diffusion_causation": true,
+    "regional_political_entity_not_modern_state": true,
+    "no_forced_singular_outcome": true,
+    "source_expand_at_L1_or_L2": true
+  },
+  "publication": {
+    "can_ship": false,
+    "main_modified": false,
+    "essays_513_modified": false,
+    "ai_studio_modified": false,
+    "old_research_files_modified": false,
+    "external_images_copied": false,
+    "full_paid_book_copied": false,
+    "historian_reviewed": false,
+    "rights_approved": false
+  }
+}
