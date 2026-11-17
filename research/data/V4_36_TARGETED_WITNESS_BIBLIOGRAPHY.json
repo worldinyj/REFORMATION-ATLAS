@@ -1,0 +1,228 @@
+{
+  "schema": "ATLAS_V436_TARGETED_WITNESS_BIBLIOGRAPHY_AND_EDITORIAL_ADJUDICATION_V1",
+  "version": "V4.36",
+  "date": "2026-11-18",
+  "status": "PRIVATE_BIBLIOGRAPHIC_EVIDENCE_RECOVERY_NOT_FOLIO_COLLATION",
+  "sourceProvenance": [
+    {
+      "path": "research/data/V4_35_EDITORIAL_DECISION_GATE.json",
+      "gitBlobSha": "f07b01134c3533fa9817a5892236b577c3e2ad06"
+    },
+    {
+      "path": "research/data/V4_34_FIVE_CLAIM_PRIMARY_SOURCE_DIFF_CANDIDATE.json",
+      "gitBlobSha": "93a16a57bd0fd1a6237eff1bce1f0f16f6dbe82b"
+    },
+    {
+      "path": "handoff/V429_AI_STUDIO_PRIVATE_L0_CONTENT_IMPORT.json",
+      "gitBlobSha": "64c27c0dfe05394acbb049807e4c4384d58908b9"
+    }
+  ],
+  "witnesses": [
+    {
+      "id": "W436-01",
+      "name": "Württembergische Landesbibliothek digitized item LEO-BW",
+      "url": "https://www.leo-bw.de/en/detail/-/Detail/details/DOKUMENT/wlb_digitalisate/digibib-bsz4072371006/Cutan%C4%81kiya%20carvecuran%C4%81yirukki%E1%B9%9Fa%20ecukki%E1%B9%9Fi%E1%B9%A3ttu%20n%C4%81tar%C4%81%E1%B9%89avar%20%20putu%20erp%C4%81tti%E1%B9%89u%E1%B9%ADaiya%20mutal%C4%81m%20vakupp%C4%81ki%E1%B9%9Fa%20a%C3%B1cuvetapo%E1%B9%A3ttakam",
+      "evidenceType": "INSTITUTION_DIGITAL_COLLECTION_CATALOGUE",
+      "inspection": "Catalog entry text directly read, linked digitized-page viewer not accessible in current session",
+      "bibliographicClaim": "1714 [erschienen 1715], 494, 176 Seiten, bound as one volume, complete NT book roster",
+      "shelfmark": "Ba Indien 171501",
+      "catalogNumber": "407237100",
+      "urn": "urn:nbn:de:bsz:24-digibib-bsz4072371006",
+      "observedAllNTBooks": true,
+      "originalTitlePageSeen": false,
+      "originalColophonSeen": false
+    },
+    {
+      "id": "W436-02",
+      "name": "Franckesche Stiftungen Halle first-part digitized print catalogue",
+      "url": "https://digital.francke-halle.de/fsaad/content/titleinfo/162120",
+      "evidenceType": "PRIMARY_PRINT_DIGITAL_CATALOGUE",
+      "inspection": "Catalog entry directly read, not the image pages",
+      "bibliographicClaim": "1714 Tranquebar Adler printing of four Gospels and Acts, [5] Bl. 494 S. in 4°, Tamil/German",
+      "firstPartPagination": "[5] leaves, 494 pp",
+      "urn": "urn:nbn:de:gbv:ha33-1-42485",
+      "physicalImagesCollated": false
+    },
+    {
+      "id": "W436-03",
+      "name": "Württembergische Landesbibliothek 2014 WLBforum scholarly review",
+      "url": "https://journals.wlb-stuttgart.de/index.php/wlbf/article/download/296/298/772",
+      "evidenceType": "INSTITUTION_SPECIALIST_ARTICLE",
+      "inspection": "Text indexed and reviewed; screenshot endpoint blocked by website access policy",
+      "bibliographicClaim": "late 1713 to summer 1714 large types for Gospels/Acts; rest through 1715 in smaller types; 1722 revised NT"
+    },
+    {
+      "id": "W436-04",
+      "name": "Bible Society of India exhibition archive",
+      "url": "https://www.bsind.org/bsi-archives/",
+      "evidenceType": "INSTITUTION_ARCHIVE_NARRATIVE",
+      "inspection": "Visible website text read",
+      "bibliographicClaim": "1714 first portion, 1719 first full NT",
+      "contradiction": "1719 completion claim conflicts with WLB complete-NT catalog dated 1714 [published 1715]"
+    },
+    {
+      "id": "W436-05",
+      "name": "LSTC Gruber rare book holdings",
+      "url": "https://gruber.lstc.edu/confessions/augs_apol.php",
+      "evidenceType": "RARE_BOOK_INSTITUTION_CATALOGUE",
+      "inspection": "Descriptions of Gruber 162,175,26,28 and a 1540 non-Variata copy read",
+      "bibliographicClaim": "1530 unauthorized print witnesses, 1531 Melanchthon-edited official Latin print, 1540 Variata and separately non-Variata printed copy",
+      "originalPrintedFoliosCollated": false
+    },
+    {
+      "id": "W436-06",
+      "name": "대한성서공회 성서학도서관 1911 셩경젼셔 catalog item",
+      "url": "https://lib.bskorea.or.kr/$/10110/contents/7502442",
+      "evidenceType": "HOLDING_INSTITUTION_BIBLIOGRAPHY",
+      "inspection": "Catalogue text directly read",
+      "bibliographicClaim": "American Bible Society 1911, 4 v.; v1 dual title leaves, v4 New Testament title leaf; scope Old+New",
+      "physicalItemChecked": false
+    }
+  ],
+  "directWitnessComparison": {
+    "firstPart1714": {
+      "sourceId": "W436-02",
+      "publicationStatement": "Tranquebarae: Adler 1714",
+      "contents": [
+        "Matthew",
+        "Mark",
+        "Luke",
+        "John",
+        "Acts"
+      ],
+      "pages": "[5] leaves + 494 pages",
+      "evidentialScope": "FIRST_PART_ONLY",
+      "status": "CATALOGUE_DOCUMENTED"
+    },
+    "secondPart1715": {
+      "sourceIds": [
+        "W436-01",
+        "W436-03"
+      ],
+      "physicalWitnessReference": "Ba Indien 171501",
+      "cataloguedTitleYear": "1714 [erschienen 1715]",
+      "overallPages": "494+176",
+      "contentsRange": "Matthew–Revelation, complete NT listed",
+      "articleStatement": "Large-type first part to summer 1714, smaller-type rest by 1715",
+      "status": "STRONG_CONVERGING_HOLDINGS_AND_SPECIALIST_STUDY_EVIDENCE",
+      "caveat": "Digital printed leaves, signatures, colophon and binding chronology not visually collated"
+    },
+    "conflicting1719": {
+      "sourceId": "W436-04",
+      "claim": "Full NT published 1719",
+      "status": "UNRECONCILED_INSTITUTIONAL_DATE",
+      "outstandingQuestions": [
+        "Could 1719 refer to reissue or circulation?",
+        "Could exhibit statement be mistaken?",
+        "Was a distinct title-page/full set printed 1719?"
+      ],
+      "noneOfHypothesesAssertedAsFact": true
+    }
+  },
+  "catalogContentReconstruction": {
+    "combinedPrintedPages": {
+      "firstPart": 494,
+      "secondPart": 176,
+      "total": 670
+    },
+    "firstPartBookCount": 5,
+    "fullNTCanonBookCount": 27,
+    "sameFirstPartPagesAcrossHoldings": true,
+    "inferenceOnly": "WLB's 494+176 plus Halle's 494 first part strongly suggests a linked two-part printing/binding history; this is not direct signature/quire collation"
+  },
+  "l0ReaderProposal": {
+    "eligibleAsResearchCandidate": true,
+    "proposed": "1714년 타밀어 네 복음서와 사도행전이 먼저 인쇄되었고, 나머지 신약 문서는 1715년까지 인쇄되었다는 소장본·도서관 연구 증거가 있다. 다만 인도성서공회의 1719년 '신약전서' 간행 설명과 연대 차이가 있어 그 기록의 의미는 추가 확인이 필요하다.",
+    "note": "WLB holding exhibits the complete New Testament inventory with metadata '1714 [erschienen 1715]'; not a verified author-approved production text",
+    "mustNotAssert": [
+      "1719 record is definitely an error",
+      "no 1719 new edition existed",
+      "all complete New Testaments were single-volumes",
+      "full original-page collation complete"
+    ]
+  },
+  "augsburgEditionGate": {
+    "sources": [
+      "W436-05"
+    ],
+    "readerLevelDistinctionsApprovedAsInternalDraft": [
+      "1530 submitted",
+      "1530 unauthorized prints",
+      "1531 Melanchthon supervised Confession+Apology",
+      "1540 Variata edition"
+    ],
+    "importantNuance": "1540 imprint year alone does not guarantee Variata; LSTC catalog notes a 1540 non-Variata copy",
+    "heldClaims": [
+      "C417-11",
+      "C417-12"
+    ],
+    "folioCollationComplete": false
+  },
+  "koreanEditionGate": {
+    "sources": [
+      "W436-06"
+    ],
+    "readerLevelDistinctionsApprovedAsInternalDraft": [
+      "1882 individual Gospel",
+      "1887 complete New Testament",
+      "1911 Old+New Bible"
+    ],
+    "importantNuance": "One 1911 library record describes four volumes and disparate title pages; physical format must not be generalized to all 1911 copies",
+    "exactSourceTitlesRequireReverificationForExternalRelease": true
+  },
+  "outstandingExpertQuestions": [
+    {
+      "priority": "P0",
+      "question": "LEO-BW WLB digitized edition: is the 176-page second part distinctly dated 1715, and which title/colophon leaves show it?",
+      "sourceIds": [
+        "W436-01",
+        "W436-02"
+      ]
+    },
+    {
+      "priority": "P0",
+      "question": "BSI 1719: which physical item or source is behind this date, and does it denote a first complete text, later reprint, or catalog error?",
+      "sourceIds": [
+        "W436-04"
+      ]
+    },
+    {
+      "priority": "P1",
+      "question": "Compare Augsburg 1540 Variata and non-Variata exemplar title leaves/Article X text before doctrinal edition claims",
+      "sourceIds": [
+        "W436-05"
+      ]
+    },
+    {
+      "priority": "P1",
+      "question": "For Korean 1911 Bible distinguish four-volume surviving item from other issued formats by physical-title-page study",
+      "sourceIds": [
+        "W436-06"
+      ]
+    }
+  ],
+  "ethicsAndRights": {
+    "noExternalFacsimileRehosted": true,
+    "noPaywalledFulltextCopied": true,
+    "catalogDataParaphrased": true,
+    "copyrightReviewBeforeImages": true,
+    "historianSignoffNeeded": true
+  },
+  "qualityGate": {
+    "witnessesFound": 6,
+    "directDigitalSourceCatalogues": 2,
+    "actualFacsimilePagesCollated": 0,
+    "independentHistorianReviews": 0,
+    "actualReaderPilots": 0,
+    "v429AppUnchanged": true,
+    "canShip": false,
+    "canMergeMain": false,
+    "canImportAIStudio": false,
+    "v429GitBlobSha": "64c27c0dfe05394acbb049807e4c4384d58908b9"
+  },
+  "nextRecommendedWork": {
+    "version": "V4.37",
+    "aim": "Resolve the remaining 1719 bibliographic discrepancy by holding-level evidence; then prepare first macro-level L0 reader review packet",
+    "noAppChangeUntilExpertReaderGate": true
+  }
+}
