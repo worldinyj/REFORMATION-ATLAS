@@ -1,0 +1,205 @@
+{
+  "version": "V4.02",
+  "date": "2026-11-17",
+  "status": "RESEARCH_DRAFT",
+  "branch": "research/atlas-v402-1539-original-print-two-witness-visual-proof",
+  "parent_branch": "research/atlas-v401-ssrq-direct-tei-1533-1539-chronology-erratum",
+  "release": {
+    "can_ship": false,
+    "main_modified": false,
+    "essays_513_modified": false,
+    "ai_studio_modified": false,
+    "old_research_rewritten": false,
+    "external_distribution": false
+  },
+  "licenses": {
+    "original_1539_print": "Public Domain Mark",
+    "ssrq_2022": "CC BY-NC-SA 4.0",
+    "images_copied_to_repo": false,
+    "tei_copied_to_repo": false
+  },
+  "sources": [
+    {
+      "id": "S1525",
+      "year": 1525,
+      "kind": "DIRECT_SCHOLARLY_TEI",
+      "date": "1525-05-10",
+      "archive": "StAZH III AAb 1.1 Nr1",
+      "uri": "https://github.com/SSRQ-SDS-FDS/editio-data/blob/v1.1.0/data/ZH/ZH_NF_I_1_11/SSRQ-ZH-NF_I_1_11-1-1.xml",
+      "blob": "4d9145fc3564bed1044b6fa75d14ee042c9c6b33",
+      "actual_photo_seen": false,
+      "edited_text_seen": true,
+      "contribution": "Marriage and dowry duty after premarital sex",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "S1533",
+      "year": 1533,
+      "kind": "DIRECT_SCHOLARLY_TEI",
+      "date": "1533-05-20",
+      "archive": "StAZH A 6.1 Nr6",
+      "uri": "https://github.com/SSRQ-SDS-FDS/editio-data/blob/v1.1.0/data/ZH/ZH_NF_I_1_3/SSRQ-ZH-NF_I_1_3-156-1.xml",
+      "blob": "3b15cd7526f8d1eeba718162681c1c9b7a33ae61",
+      "actual_photo_seen": false,
+      "edited_text_seen": true,
+      "contribution": "Three agenda items: consanguinity; marriage obligation; adultery and divorce; other-hand verso date June10 1533",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "S1539",
+      "year": 1539,
+      "kind": "ORIGINAL_PRINT_DIGITIZATION_VISUALLY_READ",
+      "date": "1539-07-12",
+      "archive": "Zentralbibliothek Zürich AW 1020",
+      "uri": "https://www.e-rara.ch/zuz/content/titleinfo/40998",
+      "pdf": "https://www.e-rara.ch/zuz/download/pdf/40998",
+      "iiif": "https://www.e-rara.ch/i3f/v20/40998/manifest",
+      "doi": "10.3931/e-rara-151",
+      "print_title": "Usszug der fürnemisten Eesatzugen",
+      "printer": "Christoph Froschauer the Elder (catalogue attribution)",
+      "associated_person": "Werner Beyel",
+      "VD16": "ZV 16608",
+      "extent": "8 leaves; last blank",
+      "pdf_pages": 23,
+      "verified_pages_zero_based": [
+        15,
+        16
+      ],
+      "actual_photo_seen": true,
+      "full_text_read": false,
+      "full_ordinance_witness": false,
+      "precise_heading": "Von der Jungkfrowen schwächung",
+      "original_short_quotations": [
+        "zwen erbaren biderben mannen",
+        "die nit kuppler oder argwönig"
+      ],
+      "original_phrase_quote_words": 10,
+      "contribution": "1539 printed extract requires a previous marriage promise made before two honorable trustworthy men who are not interested or suspect; female reputation assessed in same provision",
+      "license": "Public Domain Mark",
+      "pdf_byte_hash": null,
+      "actual_pulpit_readings_verified": false,
+      "publication_intent": "extract for proclamation four times a year"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C402-1",
+      "ref": "S1539",
+      "grade": "ORIGINAL_PRINT_P15_P16",
+      "ko": "1539년 인쇄된 규정에서 사전 혼인 약속의 두 남성 증인과 이해관계 배제 요건을 확인"
+    },
+    {
+      "id": "C402-2",
+      "ref": "S1539",
+      "grade": "ORIGINAL_PRINT_P15_P16",
+      "ko": "해당 조항은 미혼 여성과의 성적 관계, 평판, 혼인 의무를 함께 논의"
+    },
+    {
+      "id": "C402-3",
+      "ref": "S1539",
+      "grade": "ORIGINAL_TITLE_CATALOG",
+      "ko": "이 책은 1539년 전체 혼인법이 아닌 주민에게 강단 낭독할 주요 조항 발췌 인쇄물"
+    },
+    {
+      "id": "C402-4",
+      "ref": "S1525",
+      "grade": "SCHOLARLY_EDITED_PRIMARY",
+      "ko": "1525년 혼인 전 관계에 따른 혼인 및 예물 의무"
+    },
+    {
+      "id": "C402-5",
+      "ref": "S1533",
+      "grade": "SCHOLARLY_EDITED_PRIMARY",
+      "ko": "1533년 취리히의 혼인법 협의 3개 의제"
+    },
+    {
+      "id": "C402-6",
+      "ref": "S1533",
+      "grade": "SCHOLARLY_EDITED_OTHER_HAND",
+      "ko": "1533년 6월 10일 취리히 회의 일정이 5월 자문 문서의 다른 필체로 기록"
+    },
+    {
+      "id": "C402-7",
+      "ref": "S1539",
+      "grade": "NEGATIVE",
+      "ko": "1539년 해당 문구를 1533년 협상 초안 제39조로 단정하지 않음"
+    },
+    {
+      "id": "C402-8",
+      "ref": "S1539",
+      "grade": "NEGATIVE",
+      "ko": "취리히에서 인쇄된 규정은 다른 네 도시의 동일 시행을 증명하지 않음"
+    },
+    {
+      "id": "C402-9",
+      "ref": "S1539",
+      "grade": "NEGATIVE",
+      "ko": "1539년 인쇄본 존재는 실제 사법 집행 사례를 증명하지 않음"
+    },
+    {
+      "id": "C402-10",
+      "ref": "S1539",
+      "grade": "PHILOLOGICAL",
+      "ko": "Jungkfrowen schwächung은 문맥상 성관계와 혼인 의무 문제이지 단순한 언어적 명예훼손은 아님"
+    }
+  ],
+  "source_levels": {
+    "initial_1525_rule": "MODERN_CRITICAL_TRANSCRIPTION",
+    "may_1533_agenda": "MODERN_CRITICAL_TRANSCRIPTION",
+    "july_1539_print": "VISUALLY_CHECKED_ORIGINAL_1539_PRINT_PDF_PAGES_15_16"
+  },
+  "scope_limits": {
+    "source_is_excerpt_not_full_ordinance": true,
+    "no_1533_article39_identification": true,
+    "forty_four_draft_article_text_read": false,
+    "any_five_city_identical_enactment": false,
+    "pulpit_practice_documented": false,
+    "complete_1539_print_text_read": false,
+    "downloaded_original_pdf_bytes": false
+  },
+  "alternative_full_1539_catalogs": [
+    {
+      "id": "BIII4",
+      "url": "https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1915299",
+      "shelfmark": "B III 4 fol228r–235v",
+      "date": "1539-07-12",
+      "original_read": false
+    },
+    {
+      "id": "FIIA255",
+      "url": "https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4334093",
+      "shelfmark": "F II a 255 fol283–289",
+      "date": "1539-07-12",
+      "original_read": false
+    }
+  ],
+  "unresolved": [
+    {
+      "id": "OTT1855",
+      "state": "NOT_READ",
+      "pages": "108–122",
+      "url": "https://www.e-periodica.ch/view/zsr-001/1855/4"
+    },
+    {
+      "id": "JULY1533",
+      "state": "NOT_READ",
+      "archive": "A 6.1 Nr7",
+      "url": "https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=742218"
+    },
+    {
+      "id": "FULL1539",
+      "state": "NOT_READ",
+      "archive": "B III 4 fol228r–235v"
+    },
+    {
+      "id": "ARTICLE39",
+      "state": "NOT_IDENTIFIED",
+      "warning": "Do not equate with 1539 two-witness paragraph"
+    },
+    {
+      "id": "LETTERS1536",
+      "state": "UNRESOLVED_INHERITED"
+    }
+  ],
+  "research_update": "V4.01 correction of two-witness 1533->1539 dating now corroborated by actual printed 1539 primary facsimile pages 15–16, not only modern editorial notes."
+}
