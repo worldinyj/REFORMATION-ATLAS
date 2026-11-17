@@ -1,0 +1,118 @@
+{
+  "schema": "ATLAS_V437_TAMIL_1719_PROVENANCE_ADJUDICATION",
+  "version": "V4.37",
+  "date": "2026-11-18",
+  "status": "RESEARCH_ONLY_NOT_RELEASE_APPROVED",
+  "evidence": [
+    {
+      "id": "E437-01",
+      "kind": "WLB_EXEMPLAR_CATALOGUE",
+      "url": "https://www.leo-bw.de/en/detail/-/Detail/details/DOKUMENT/wlb_digitalisate/digibib-bsz4072371006",
+      "claim": "Ba Indien 171501, 1714 [published 1715], 494+176 pages, contents Matthew through Revelation",
+      "verified": "CATALOGUE_READ_NOT_FOLIOS"
+    },
+    {
+      "id": "E437-02",
+      "kind": "HALLE_1714_EXEMPLAR",
+      "url": "https://digital.francke-halle.de/fsaad/content/titleinfo/162120",
+      "claim": "1714 Gospels and Acts first portion, 494 pages",
+      "verified": "CATALOGUE_READ"
+    },
+    {
+      "id": "E437-03",
+      "kind": "WLB_MISSION_BIBLIOGRAPHY",
+      "url": "https://www.wlb-stuttgart.de/fileadmin/user_upload/sammlungen/bibeln/Missionsbibeln/Missionsbibel_Stationen.pdf",
+      "claim": "1715 Tamil NT and distinct 1722 Tamil NT",
+      "verified": "PDF_PAGE2_SCREENSHOT_REVIEWED"
+    },
+    {
+      "id": "E437-04",
+      "kind": "SCHOLARLY_ARTICLE",
+      "url": "https://www.cambridge.org/core/journals/comparative-studies-in-society-and-history/article/abs/rival-mission-rival-science-jesuits-and-pietists-in-seventeenth-and-eighteenthcentury-south-india/24629B3BB2C9A00B34A3B9F22296F096",
+      "claim": "2019 Sweetman and Zupanov footnote 52: 1714 first portion, 1715 full NT",
+      "verified": "PUBLISHER_INDEXED_FOOTNOTE_NOT_FULLTEXT"
+    },
+    {
+      "id": "E437-05",
+      "kind": "UNIVERSITY_LIBRARY_HISTORY",
+      "url": "https://www.lib.uchicago.edu/collex/exhibits/envisioning-south-asia-texts-scholarship-legacies/pious-perspectives/",
+      "claim": "Describes 1715 New Testament translation",
+      "verified": "INSTITUTIONAL_HISTORY_READ"
+    },
+    {
+      "id": "E437-06",
+      "kind": "BSI_EXHIBIT_NARRATIVE",
+      "url": "https://www.bsind.org/bsi-archives/",
+      "claim": "Says 1719 full Tamil NT, but no separate 1719 item/title page identified on page",
+      "verified": "EXHIBIT_TEXT_READ_NOT_PHYSICAL_WITNESS"
+    },
+    {
+      "id": "E437-07",
+      "kind": "1715_LETTER_15_JAN",
+      "url": "https://fas.francke-halle.de/cgi-bin/dhm.pl?reccheck=32371%2C33584%2C36080%2C36151%2C38358%2C44833&t_show=x&wert=polemik&wertreg=SAC&x=u",
+      "claim": "Catalog summarizes first printed Tamil NT copies, portion not determined",
+      "verified": "ARCHIVAL_ABSTRACT_ONLY"
+    },
+    {
+      "id": "E437-08",
+      "kind": "1715_LETTER_17_JAN",
+      "url": "https://fas.francke-halle.de/cgi-bin/gkdb.pl?reccheck=63881&t_show=x",
+      "claim": "Catalog summarizes preparations for second portion printing",
+      "verified": "ARCHIVAL_ABSTRACT_ONLY"
+    }
+  ],
+  "determinations": [
+    {
+      "id": "C437-A",
+      "statement": "1714 Gospels and Acts printed",
+      "status": "OBJECT_CATALOGUE_SUPPORTED",
+      "evidenceIds": [
+        "E437-02",
+        "E437-04"
+      ]
+    },
+    {
+      "id": "C437-B",
+      "statement": "WLB holds 1715-dated complete-content Tamil New Testament exemplar",
+      "status": "STRONG_ITEM_LEVEL_BIBLIOGRAPHIC_SUPPORT",
+      "evidenceIds": [
+        "E437-01",
+        "E437-03",
+        "E437-04"
+      ]
+    },
+    {
+      "id": "C437-C",
+      "statement": "BSI narrates full New Testament as published 1719",
+      "status": "EXHIBIT_ASSERTION_VERIFIED_PHYSICAL_ITEM_UNTRACED",
+      "evidenceIds": [
+        "E437-06"
+      ]
+    },
+    {
+      "id": "C437-D",
+      "statement": "A separate 1719 printing definitely existed, or the date is definitely erroneous/reprint/death confusion",
+      "status": "HYPOTHESES_NOT_ESTABLISHED",
+      "evidenceIds": []
+    }
+  ],
+  "proposedL0Wording": "1714년에는 타밀어 네 복음서와 사도행전이 인쇄되었고, 뷔르템베르크 주립도서관의 소장 기록과 현대 학술연구는 1715년 신약전서 간행을 뒷받침한다. 다만 인도성서공회의 전시 자료는 1719년을 기록하고 있어, 두 서지 설명의 차이는 아직 확인이 필요하다.",
+  "unresolved": [
+    "BSI 1719 object number or bibliography not retrieved",
+    "WLB original title page and 176-page section colophon not individually collated",
+    "1715-Jan letters only catalog abstracts; no manuscript folio examined"
+  ],
+  "hypothesesNotAsserted": [
+    "1719 necessarily refers to a reprint",
+    "1719 certainly an error",
+    "1719 refers to Ziegenbalg death-year confusion"
+  ],
+  "publication": {
+    "actualHumanSignoffs": 0,
+    "actualReaders": 0,
+    "appPromotions": 0,
+    "canShip": false,
+    "canMergeMain": false,
+    "canImportAIStudio": false
+  }
+}
