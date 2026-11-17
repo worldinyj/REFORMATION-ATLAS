@@ -1,0 +1,301 @@
+{
+  "schema": "ATLAS_V438_MACRO_HISTORICAL_SOURCE_REGISTER",
+  "date": "2026-11-18",
+  "version": "V4.38",
+  "status": "CONTEXT_EVIDENCE_NOT_DOCUMENT_COLLATION",
+  "sources": [
+    {
+      "id": "S438-01",
+      "title": "Cambridge History of Christianity — Early Asian and East African Christianities",
+      "url": "https://www.cambridge.org/core/books/abs/cambridge-history-of-christianity/early-asian-and-east-african-christianities/FBA062CBEFFC4AEAD15B1787B8A57E69",
+      "type": "ACADEMIC_CHAPTER_ABSTRACT",
+      "scope": "Ancient and premodern Asian/East African Christian geographies; not one-centre narrative",
+      "mapped": [
+        "VOL-01",
+        "VOL-02"
+      ],
+      "limit": "Abstract not used to resolve disputed individual missionary legends"
+    },
+    {
+      "id": "S438-02",
+      "title": "Oxford Academic — Between Memory and History: Syriac Christianity up to the 4th Century",
+      "url": "https://academic.oup.com/yale-scholarship-online/book/51401/chapter-abstract/417788121",
+      "type": "ACADEMIC_CHAPTER_ABSTRACT",
+      "scope": "Syriac regional memory and late-antique routes beyond Roman borders",
+      "mapped": [
+        "VOL-01",
+        "VOL-02"
+      ],
+      "limit": "Does not establish Thomas visit as contemporary documented fact"
+    },
+    {
+      "id": "S438-03",
+      "title": "Oxford Academic — Separations and Flourishing: 5th–9th Centuries",
+      "url": "https://doi.org/10.12987/yale/9780300253535.003.0006",
+      "type": "ACADEMIC_CHAPTER_ABSTRACT",
+      "scope": "Multiple Syriac church institutions and long-range eastward spread",
+      "mapped": [
+        "VOL-02"
+      ],
+      "limit": "Specific local chronology remains under review"
+    },
+    {
+      "id": "S438-04",
+      "title": "William R. Cook — John Wyclif and Hussite Theology 1415–1436",
+      "url": "https://www.cambridge.org/core/journals/church-history/article/abs/john-wyclif-and-hussite-theology-14151436/54C10C6F7EEFB5409E2291C9F4194ABF",
+      "type": "PEER_REVIEWED_ABSTRACT",
+      "scope": "Theological distinctions concerning Wyclif and Hus Eucharistic views",
+      "mapped": [
+        "VOL-03",
+        "VOL-08"
+      ],
+      "limit": "Full medieval original texts not collated"
+    },
+    {
+      "id": "S438-05",
+      "title": "Cambridge History of Christianity — The Second Wave of Protestant Expansion",
+      "url": "https://www.cambridge.org/core/books/abs/cambridge-history-of-christianity/second-wave-of-protestant-expansion/5AB15D6DBBC002BC38E821FD939BB024",
+      "type": "ACADEMIC_CHAPTER_OVERVIEW",
+      "scope": "Variable national and regional Protestant institutional histories",
+      "mapped": [
+        "VOL-04"
+      ],
+      "limit": "Not a substitute for individual 1530/31/40 edition collation"
+    },
+    {
+      "id": "S438-06",
+      "title": "Cambridge History of Christianity — Holy Roman Empire Protestantism to 1600",
+      "url": "https://www.cambridge.org/core/books/abs/cambridge-history-of-christianity/emergence-and-consolidation-of-protestantism-in-the-holy-roman-empire-to-1600/8C89FB2E8BBC645C70C9B9B9B4C5EAB3",
+      "type": "ACADEMIC_CHAPTER_OVERVIEW",
+      "scope": "Regional governance vs confessional institutionalization",
+      "mapped": [
+        "VOL-04",
+        "VOL-05"
+      ],
+      "limit": "General regional history, not doctrinally approved edition texts"
+    },
+    {
+      "id": "S438-07",
+      "title": "St Andrews Encyclopaedia of Theology — Council of Trent",
+      "url": "https://www.saet.ac.uk/Christianity/CouncilofTrent",
+      "type": "ACADEMIC_ENCYCLOPEDIA",
+      "scope": "Three Trent meeting periods and doctrinal and disciplinary reform",
+      "mapped": [
+        "VOL-05"
+      ],
+      "limit": "Implementation of decrees varied; not direct regional outcome evidence"
+    },
+    {
+      "id": "S438-08",
+      "title": "German History in Documents and Images — Peace of Augsburg 1555",
+      "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/ghdi%3Adocument-4386",
+      "type": "TRANSLATED_HISTORICAL_DOCUMENT",
+      "scope": "Holy Roman Empire estates and restricted confessional peace",
+      "mapped": [
+        "VOL-05"
+      ],
+      "limit": "Later legal and social practice cannot be inferred from law text alone"
+    },
+    {
+      "id": "S438-09",
+      "title": "Cambridge Journal of Ecclesiastical History — Intra-Christian Violence and World Christian Paradigm",
+      "url": "https://www.cambridge.org/core/journals/journal-of-ecclesiastical-history/article/intrachristian-violence-and-the-problematisation-of-the-world-christian-paradigm/30C5923D72327D754095E037758D95E9",
+      "type": "PEER_REVIEWED_ARTICLE",
+      "scope": "Regional agency, translation, colonialism and risks of optimistic global narratives",
+      "mapped": [
+        "VOL-06",
+        "VOL-07",
+        "VOL-08"
+      ],
+      "limit": "Qualifies global narrative only, not particular individual histories"
+    },
+    {
+      "id": "S438-10",
+      "title": "Cambridge Studies in Church History — Introduction on translation and Korean church agency",
+      "url": "https://www.cambridge.org/core/journals/studies-in-church-history/article/introduction/6B3CC87D73D220891BC084BD3E19315C",
+      "type": "ACADEMIC_OVERVIEW",
+      "scope": "Translation, indigenization and active role of Korean communities",
+      "mapped": [
+        "VOL-06",
+        "VOL-07"
+      ],
+      "limit": "Not full text-level translation history"
+    },
+    {
+      "id": "S438-11",
+      "title": "KCI — Searching for the Origin of Formation of Korean Bible 1887–1911",
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002663144",
+      "type": "ACADEMIC_ARTICLE_ABSTRACT",
+      "scope": "Organized Bible translation history, organizational and indigenous contribution",
+      "mapped": [
+        "VOL-07"
+      ],
+      "limit": "Distinguish 1882 earlier Manchurian gospel printing from later translation work"
+    },
+    {
+      "id": "S438-12",
+      "title": "WLB and LEO-BW — Tamil New Testament catalogued as 1714 [issued 1715]",
+      "url": "https://www.leo-bw.de/en/detail/-/Detail/details/DOKUMENT/wlb_digitalisate/digibib-bsz4072371006/Cutan%C4%81kiya%20carvecuran%C4%81yirukki%E1%B9%9Fa%20ecukki%E1%B9%9Fi%E1%B9%A3ttu%20n%C4%81tar%C4%81%E1%B9%89avar%20%20putu%20erp%C4%81tti%E1%B9%89u%E1%B9%ADaiya%20mutal%C4%81m%20vakupp%C4%81ki%E1%B9%9Fa%20a%C3%B1cuvetapo%E1%B9%A3ttakam",
+      "type": "PRIMARY_PRINT_OBJECT_CATALOGUE",
+      "scope": "494 + 176 pages complete NT content in an identifiable holding",
+      "mapped": [
+        "VOL-06"
+      ],
+      "limit": "BSI 1719 conflicting narrative still unresolved; no full folio collation"
+    },
+    {
+      "id": "S438-13",
+      "title": "Bible Society of India — Bible Archives",
+      "url": "https://www.bsind.org/bsi-archives/",
+      "type": "INSTITUTIONAL_EXHIBIT",
+      "scope": "Documents a competing full-NT 1719 date assertion",
+      "mapped": [
+        "VOL-06"
+      ],
+      "limit": "Separate 1719 print item not identified"
+    },
+    {
+      "id": "S438-14",
+      "title": "National Institute of Korean History — Early Korean Catholic Community",
+      "url": "https://contents.history.go.kr/front/nh/view.do?levelId=nh_035_0020_0030_0020",
+      "type": "NATIONAL_HISTORY_NARRATIVE",
+      "scope": "1779 study context and 1784 baptism/community distinction",
+      "mapped": [
+        "VOL-07"
+      ],
+      "limit": "Not exclusive proof on contested community founding interpretation"
+    }
+  ],
+  "perVolume": [
+    {
+      "id": "VOL-01",
+      "coverage": [
+        "S438-01",
+        "S438-02"
+      ],
+      "claimIds": [
+        "CL433-01",
+        "CL433-02",
+        "CL433-03"
+      ],
+      "sourceRecordsAreNotHumanSignoff": true
+    },
+    {
+      "id": "VOL-02",
+      "coverage": [
+        "S438-01",
+        "S438-02",
+        "S438-03"
+      ],
+      "claimIds": [
+        "CL433-04",
+        "CL433-05",
+        "CL433-06",
+        "CL433-07"
+      ],
+      "sourceRecordsAreNotHumanSignoff": true
+    },
+    {
+      "id": "VOL-03",
+      "coverage": [
+        "S438-04"
+      ],
+      "claimIds": [
+        "CL433-08",
+        "CL433-09",
+        "CL433-10",
+        "CL433-11"
+      ],
+      "sourceRecordsAreNotHumanSignoff": true
+    },
+    {
+      "id": "VOL-04",
+      "coverage": [
+        "S438-05",
+        "S438-06"
+      ],
+      "claimIds": [
+        "CL433-12",
+        "CL433-13",
+        "CL433-14",
+        "CL433-15"
+      ],
+      "sourceRecordsAreNotHumanSignoff": true
+    },
+    {
+      "id": "VOL-05",
+      "coverage": [
+        "S438-06",
+        "S438-07",
+        "S438-08"
+      ],
+      "claimIds": [
+        "CL433-16",
+        "CL433-17",
+        "CL433-18"
+      ],
+      "sourceRecordsAreNotHumanSignoff": true
+    },
+    {
+      "id": "VOL-06",
+      "coverage": [
+        "S438-09",
+        "S438-10",
+        "S438-12",
+        "S438-13"
+      ],
+      "claimIds": [
+        "CL433-19",
+        "CL433-20",
+        "CL433-21",
+        "CL433-22"
+      ],
+      "sourceRecordsAreNotHumanSignoff": true
+    },
+    {
+      "id": "VOL-07",
+      "coverage": [
+        "S438-09",
+        "S438-10",
+        "S438-11",
+        "S438-14"
+      ],
+      "claimIds": [
+        "CL433-23",
+        "CL433-24",
+        "CL433-25",
+        "CL433-26"
+      ],
+      "sourceRecordsAreNotHumanSignoff": true
+    },
+    {
+      "id": "VOL-08",
+      "coverage": [
+        "S438-04",
+        "S438-09"
+      ],
+      "claimIds": [
+        "CL433-27",
+        "CL433-28",
+        "CL433-29"
+      ],
+      "sourceRecordsAreNotHumanSignoff": true
+    }
+  ],
+  "sourceQualification": "Academic article abstracts and institution catalog descriptions were inspected to support broad contextual framing, never falsely labeled as full primary folio collation or completed theological expert review.",
+  "highRiskBoundary": {
+    "heldClaimIds": [
+      "C417-11",
+      "C417-12",
+      "C417-18"
+    ],
+    "tamil1719": "EXHIBIT_CLAIM_EXISTS_SEPARATE_1719_PRINT_UNPROVEN",
+    "koreanCatholicOrigin": "1779_VS_1784_INTERPRETATION_DISPUTED"
+  },
+  "rights": {
+    "externalImageCopies": 0,
+    "modernTextCopies": 0,
+    "publicLicenseClearanceCount": 0
+  },
+  "canShip": false
+}
