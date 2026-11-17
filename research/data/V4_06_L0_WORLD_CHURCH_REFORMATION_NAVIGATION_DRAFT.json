@@ -1,0 +1,602 @@
+{
+  "version": "V4.06",
+  "status": "MACRO_OVERVIEW_DRAFT",
+  "date": "2026-11-17",
+  "strategy": "TOP_DOWN_L0_FIRST",
+  "branch": "research/atlas-v406-macro-first-eight-volume-world-history",
+  "canonical_existing_8_volumes": "data/overview/volumes_and_people_v01.json",
+  "canonical_10_medium_readers": "data/deep/atlas_v254_medium_depth_ten_readers.json",
+  "new_master_article": "docs/01_CONTENT/OVERVIEW/V406_EIGHT_VOLUME_WORLD_REFORMATION_MASTER_OVERVIEW_KO.md",
+  "inventory_observed": {
+    "overview_volumes": 8,
+    "people": 33,
+    "events": 34,
+    "documents": 20,
+    "places": 22,
+    "relationships": 32,
+    "ideas": 10,
+    "sources": 23,
+    "ten_medium_reader_chapters": 10
+  },
+  "volumes": [
+    {
+      "id": "VOL-01",
+      "title": "고대 교회의 형성",
+      "period": "1~5세기",
+      "purpose": "신앙·공동체·공의회",
+      "related_volume_ids": [
+        "VOL-02",
+        "VOL-08"
+      ],
+      "level": "L0_OVERVIEW",
+      "source_base": "data/overview/volumes_and_people_v01.json",
+      "document_base": "docs/01_CONTENT/OVERVIEW/VOL-01_OVERVIEW_V01.md",
+      "status": "DRAFT"
+    },
+    {
+      "id": "VOL-02",
+      "title": "중세의 교회와 쇄신 요구",
+      "period": "6~15세기",
+      "purpose": "수도원·대학·권위·경건",
+      "related_volume_ids": [
+        "VOL-03",
+        "VOL-04",
+        "VOL-08"
+      ],
+      "level": "L0_OVERVIEW",
+      "source_base": "data/overview/volumes_and_people_v01.json",
+      "document_base": "docs/01_CONTENT/OVERVIEW/VOL-02_OVERVIEW_V01.md",
+      "status": "DRAFT"
+    },
+    {
+      "id": "VOL-03",
+      "title": "개혁의 선구자와 여러 운동",
+      "period": "12~15세기",
+      "purpose": "발도파·위클리프·후스·후스파",
+      "related_volume_ids": [
+        "VOL-04",
+        "VOL-08"
+      ],
+      "level": "L0_OVERVIEW",
+      "source_base": "data/overview/volumes_and_people_v01.json",
+      "document_base": "docs/01_CONTENT/OVERVIEW/VOL-03_OVERVIEW_V01.md",
+      "status": "DRAFT"
+    },
+    {
+      "id": "VOL-04",
+      "title": "유럽 각 지역의 종교개혁",
+      "period": "16세기",
+      "purpose": "루터파·개혁파·급진적 개혁·영국과 북유럽·동유럽",
+      "related_volume_ids": [
+        "VOL-03",
+        "VOL-05",
+        "VOL-08"
+      ],
+      "level": "L0_OVERVIEW",
+      "source_base": "data/overview/volumes_and_people_v01.json",
+      "document_base": "docs/01_CONTENT/OVERVIEW/VOL-04_OVERVIEW_V01.md",
+      "status": "DRAFT"
+    },
+    {
+      "id": "VOL-05",
+      "title": "가톨릭 개혁과 신앙고백 시대",
+      "period": "16~17세기",
+      "purpose": "트리엔트·예수회·박해와 갈등·정치적 타협",
+      "related_volume_ids": [
+        "VOL-04",
+        "VOL-06",
+        "VOL-08"
+      ],
+      "level": "L0_OVERVIEW",
+      "source_base": "data/overview/volumes_and_people_v01.json",
+      "document_base": "docs/01_CONTENT/OVERVIEW/VOL-05_OVERVIEW_V01.md",
+      "status": "DRAFT"
+    },
+    {
+      "id": "VOL-06",
+      "title": "경건주의·부흥과 선교",
+      "period": "17~19세기",
+      "purpose": "경건 실천·설교·교육·선교",
+      "related_volume_ids": [
+        "VOL-05",
+        "VOL-07",
+        "VOL-08"
+      ],
+      "level": "L0_OVERVIEW",
+      "source_base": "data/overview/volumes_and_people_v01.json",
+      "document_base": "docs/01_CONTENT/OVERVIEW/VOL-06_OVERVIEW_V01.md",
+      "status": "DRAFT"
+    },
+    {
+      "id": "VOL-07",
+      "title": "세계의 기독교와 한국교회",
+      "period": "18~20세기 중심",
+      "purpose": "현지 주체성·식민주의·번역·한국 근현대사",
+      "related_volume_ids": [
+        "VOL-01",
+        "VOL-06",
+        "VOL-08"
+      ],
+      "level": "L0_OVERVIEW",
+      "source_base": "data/overview/volumes_and_people_v01.json",
+      "document_base": "docs/01_CONTENT/OVERVIEW/VOL-07_OVERVIEW_V01.md",
+      "status": "DRAFT"
+    },
+    {
+      "id": "VOL-08",
+      "title": "사상과 문헌을 가로지르는 비교",
+      "period": "전 시대 (주제별)",
+      "purpose": "성경·은총·성례·권위·국가·번역",
+      "related_volume_ids": [
+        "VOL-01",
+        "VOL-02",
+        "VOL-03",
+        "VOL-04",
+        "VOL-05",
+        "VOL-06",
+        "VOL-07"
+      ],
+      "level": "L0_OVERVIEW",
+      "source_base": "data/overview/volumes_and_people_v01.json",
+      "document_base": "docs/01_CONTENT/OVERVIEW/VOL-08_OVERVIEW_V01.md",
+      "status": "DRAFT"
+    }
+  ],
+  "regional_paths": [
+    {
+      "id": "R01",
+      "label": "독일·신성로마제국",
+      "headline": "루터·멜란히톤, 대학과 인쇄, 제후·제국의 선택",
+      "volume_ids": [
+        "VOL-04",
+        "VOL-05"
+      ],
+      "priority": "CORE",
+      "map_stage": "REGION_NAME_ONLY_NO_HISTORIC_COORDINATES",
+      "narrative_status": "OVERVIEW_DRAFT",
+      "historical_precision": "CENTURY_OR_PHASE_LEVEL"
+    },
+    {
+      "id": "R02",
+      "label": "취리히·제네바·스위스",
+      "headline": "도시 개혁, 성찬 논쟁, 교회 통치의 차이",
+      "volume_ids": [
+        "VOL-04",
+        "VOL-08"
+      ],
+      "priority": "CORE",
+      "map_stage": "REGION_NAME_ONLY_NO_HISTORIC_COORDINATES",
+      "narrative_status": "OVERVIEW_DRAFT",
+      "historical_precision": "CENTURY_OR_PHASE_LEVEL"
+    },
+    {
+      "id": "R03",
+      "label": "프랑스",
+      "headline": "위그노 공동체, 왕권과 종교전쟁, 제한적 공존",
+      "volume_ids": [
+        "VOL-04",
+        "VOL-05"
+      ],
+      "priority": "GAP_FIRST",
+      "map_stage": "REGION_NAME_ONLY_NO_HISTORIC_COORDINATES",
+      "narrative_status": "OVERVIEW_DRAFT",
+      "historical_precision": "CENTURY_OR_PHASE_LEVEL"
+    },
+    {
+      "id": "R04",
+      "label": "네덜란드·저지대",
+      "headline": "도시, 종교개혁, 반란과 정치적 독립의 복합 관계",
+      "volume_ids": [
+        "VOL-04",
+        "VOL-05"
+      ],
+      "priority": "GAP_FIRST",
+      "map_stage": "REGION_NAME_ONLY_NO_HISTORIC_COORDINATES",
+      "narrative_status": "OVERVIEW_DRAFT",
+      "historical_precision": "CENTURY_OR_PHASE_LEVEL"
+    },
+    {
+      "id": "R05",
+      "label": "잉글랜드·스코틀랜드·아일랜드",
+      "headline": "왕권과 교회의 제도 변화, 예전·개혁파·지역 갈등",
+      "volume_ids": [
+        "VOL-04",
+        "VOL-05"
+      ],
+      "priority": "GAP_FIRST",
+      "map_stage": "REGION_NAME_ONLY_NO_HISTORIC_COORDINATES",
+      "narrative_status": "OVERVIEW_DRAFT",
+      "historical_precision": "CENTURY_OR_PHASE_LEVEL"
+    },
+    {
+      "id": "R06",
+      "label": "덴마크·노르웨이·스웨덴·핀란드",
+      "headline": "왕권·루터파 제도화, 농촌과 지역별 전개 속도의 차이",
+      "volume_ids": [
+        "VOL-04",
+        "VOL-05"
+      ],
+      "priority": "GAP_FIRST",
+      "map_stage": "REGION_NAME_ONLY_NO_HISTORIC_COORDINATES",
+      "narrative_status": "OVERVIEW_DRAFT",
+      "historical_precision": "CENTURY_OR_PHASE_LEVEL"
+    },
+    {
+      "id": "R07",
+      "label": "보헤미아·폴란드-리투아니아·헝가리·트란실바니아",
+      "headline": "후스파의 유산과 다양한 신앙고백·다언어 정치사회",
+      "volume_ids": [
+        "VOL-03",
+        "VOL-04",
+        "VOL-05"
+      ],
+      "priority": "GAP_FIRST",
+      "map_stage": "REGION_NAME_ONLY_NO_HISTORIC_COORDINATES",
+      "narrative_status": "OVERVIEW_DRAFT",
+      "historical_precision": "CENTURY_OR_PHASE_LEVEL"
+    },
+    {
+      "id": "R08",
+      "label": "이탈리아·이베리아",
+      "headline": "가톨릭 내부 쇄신, 트리엔트, 교육·영성·검열과 선교",
+      "volume_ids": [
+        "VOL-04",
+        "VOL-05"
+      ],
+      "priority": "GAP_FIRST",
+      "map_stage": "REGION_NAME_ONLY_NO_HISTORIC_COORDINATES",
+      "narrative_status": "OVERVIEW_DRAFT",
+      "historical_precision": "CENTURY_OR_PHASE_LEVEL"
+    },
+    {
+      "id": "R09",
+      "label": "아프리카·아메리카·아시아·오세아니아",
+      "headline": "오래된 지역 교회와 새로운 교류, 식민주의 및 현지 공동체의 재해석",
+      "volume_ids": [
+        "VOL-01",
+        "VOL-06",
+        "VOL-07"
+      ],
+      "priority": "GAP_FIRST",
+      "map_stage": "REGION_NAME_ONLY_NO_HISTORIC_COORDINATES",
+      "narrative_status": "OVERVIEW_DRAFT",
+      "historical_precision": "CENTURY_OR_PHASE_LEVEL"
+    },
+    {
+      "id": "R10",
+      "label": "한국과 동아시아",
+      "headline": "서학 수용, 한국인 초기 공동체·번역, 교육·의료·부흥과 근현대 변화",
+      "volume_ids": [
+        "VOL-07",
+        "VOL-08"
+      ],
+      "priority": "EXISTING_NEEDS_CONTEXT",
+      "map_stage": "REGION_NAME_ONLY_NO_HISTORIC_COORDINATES",
+      "narrative_status": "OVERVIEW_DRAFT",
+      "historical_precision": "CENTURY_OR_PHASE_LEVEL"
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "M01",
+      "date_label": "1~5세기",
+      "title": "고대 교회·공의회",
+      "summary": "공동체와 신앙고백의 언어 형성",
+      "volume_ids": [
+        "VOL-01"
+      ],
+      "precision": "MACRO_PERIOD_NOT_SINGLE_EVENT_DATE",
+      "status": "DRAFT"
+    },
+    {
+      "id": "M02",
+      "date_label": "11~15세기",
+      "title": "중세 교회와 쇄신",
+      "summary": "제도·교육·경건·권위 논쟁의 축적",
+      "volume_ids": [
+        "VOL-02",
+        "VOL-03"
+      ],
+      "precision": "MACRO_PERIOD_NOT_SINGLE_EVENT_DATE",
+      "status": "DRAFT"
+    },
+    {
+      "id": "M03",
+      "date_label": "14~15세기",
+      "title": "위클리프·후스·후스파",
+      "summary": "선행 개혁의 다양성과 후대 영향",
+      "volume_ids": [
+        "VOL-03"
+      ],
+      "precision": "MACRO_PERIOD_NOT_SINGLE_EVENT_DATE",
+      "status": "DRAFT"
+    },
+    {
+      "id": "M04",
+      "date_label": "1517~1521년",
+      "title": "면벌부 논쟁에서 제국 문제로",
+      "summary": "루터 논쟁과 인쇄·정치의 결합",
+      "volume_ids": [
+        "VOL-04"
+      ],
+      "precision": "MACRO_PERIOD_NOT_SINGLE_EVENT_DATE",
+      "status": "DRAFT"
+    },
+    {
+      "id": "M05",
+      "date_label": "1520~1540년대",
+      "title": "개혁 운동의 지역별 분화",
+      "summary": "루터파·스위스·재세례파·영국·북유럽의 서로 다른 경로",
+      "volume_ids": [
+        "VOL-04"
+      ],
+      "precision": "MACRO_PERIOD_NOT_SINGLE_EVENT_DATE",
+      "status": "DRAFT"
+    },
+    {
+      "id": "M06",
+      "date_label": "1530~1560년대",
+      "title": "신앙고백과 교회 조직",
+      "summary": "아우크스부르크, 제네바, 스코틀랜드 및 다른 지역",
+      "volume_ids": [
+        "VOL-04",
+        "VOL-08"
+      ],
+      "precision": "MACRO_PERIOD_NOT_SINGLE_EVENT_DATE",
+      "status": "DRAFT"
+    },
+    {
+      "id": "M07",
+      "date_label": "1545~1563년",
+      "title": "트리엔트 공의회와 가톨릭 개혁",
+      "summary": "가톨릭의 교리·교육·규율·영성 변화",
+      "volume_ids": [
+        "VOL-05"
+      ],
+      "precision": "MACRO_PERIOD_NOT_SINGLE_EVENT_DATE",
+      "status": "DRAFT"
+    },
+    {
+      "id": "M08",
+      "date_label": "16~17세기",
+      "title": "종교갈등과 협상",
+      "summary": "프랑스·저지대·제국의 박해·전쟁·화의와 제한적 공존",
+      "volume_ids": [
+        "VOL-05"
+      ],
+      "precision": "MACRO_PERIOD_NOT_SINGLE_EVENT_DATE",
+      "status": "DRAFT"
+    },
+    {
+      "id": "M09",
+      "date_label": "17~18세기",
+      "title": "경건주의와 부흥",
+      "summary": "개인·공동체의 실천, 대각성·감리교",
+      "volume_ids": [
+        "VOL-06"
+      ],
+      "precision": "MACRO_PERIOD_NOT_SINGLE_EVENT_DATE",
+      "status": "DRAFT"
+    },
+    {
+      "id": "M10",
+      "date_label": "18~19세기",
+      "title": "번역·선교와 세계 교회",
+      "summary": "여러 대륙 현지 공동체·식민 관계·저항",
+      "volume_ids": [
+        "VOL-06",
+        "VOL-07"
+      ],
+      "precision": "MACRO_PERIOD_NOT_SINGLE_EVENT_DATE",
+      "status": "DRAFT"
+    },
+    {
+      "id": "M11",
+      "date_label": "18~20세기",
+      "title": "한국 기독교의 역사",
+      "summary": "서학·한국인 신자·번역·선교·부흥·사회 변화",
+      "volume_ids": [
+        "VOL-07"
+      ],
+      "precision": "MACRO_PERIOD_NOT_SINGLE_EVENT_DATE",
+      "status": "DRAFT"
+    },
+    {
+      "id": "M12",
+      "date_label": "20세기 이후",
+      "title": "세계 기독교의 다중 중심",
+      "summary": "비유럽 교회와 현지 신학·상호교류, 전통의 다양성",
+      "volume_ids": [
+        "VOL-07",
+        "VOL-08"
+      ],
+      "precision": "MACRO_PERIOD_NOT_SINGLE_EVENT_DATE",
+      "status": "DRAFT"
+    }
+  ],
+  "thematic_questions": [
+    {
+      "id": "T01",
+      "title": "성경과 권위",
+      "question": "성경·교회 지도력·전통·공의회는 서로 어떤 권위를 가졌는가?",
+      "applies_to_volumes": [
+        "VOL-01",
+        "VOL-02",
+        "VOL-03",
+        "VOL-04",
+        "VOL-05",
+        "VOL-06",
+        "VOL-07",
+        "VOL-08"
+      ],
+      "level": "L0"
+    },
+    {
+      "id": "T02",
+      "title": "구원과 은총",
+      "question": "죄·은총·칭의·믿음을 전통별로 어떻게 설명했는가?",
+      "applies_to_volumes": [
+        "VOL-01",
+        "VOL-02",
+        "VOL-03",
+        "VOL-04",
+        "VOL-05",
+        "VOL-06",
+        "VOL-07",
+        "VOL-08"
+      ],
+      "level": "L0"
+    },
+    {
+      "id": "T03",
+      "title": "성찬과 예배",
+      "question": "같은 성경 본문을 두고 왜 성례와 예배의 이해가 달라졌는가?",
+      "applies_to_volumes": [
+        "VOL-01",
+        "VOL-02",
+        "VOL-03",
+        "VOL-04",
+        "VOL-05",
+        "VOL-06",
+        "VOL-07",
+        "VOL-08"
+      ],
+      "level": "L0"
+    },
+    {
+      "id": "T04",
+      "title": "교회의 조직과 일상",
+      "question": "누가 교회를 다스렸고 시민의 생활에 어떻게 관여했는가?",
+      "applies_to_volumes": [
+        "VOL-01",
+        "VOL-02",
+        "VOL-03",
+        "VOL-04",
+        "VOL-05",
+        "VOL-06",
+        "VOL-07",
+        "VOL-08"
+      ],
+      "level": "L0"
+    },
+    {
+      "id": "T05",
+      "title": "국가·갈등·공존",
+      "question": "신앙고백의 차이가 국가의 선택·박해·전쟁·타협과 어떻게 얽혔는가?",
+      "applies_to_volumes": [
+        "VOL-01",
+        "VOL-02",
+        "VOL-03",
+        "VOL-04",
+        "VOL-05",
+        "VOL-06",
+        "VOL-07",
+        "VOL-08"
+      ],
+      "level": "L0"
+    },
+    {
+      "id": "T06",
+      "title": "번역·지역 수용·세계화",
+      "question": "누가 성경과 신앙을 자기 언어와 지역 경험 속에서 새롭게 표현했는가?",
+      "applies_to_volumes": [
+        "VOL-01",
+        "VOL-02",
+        "VOL-03",
+        "VOL-04",
+        "VOL-05",
+        "VOL-06",
+        "VOL-07",
+        "VOL-08"
+      ],
+      "level": "L0"
+    }
+  ],
+  "highest_priority_gaps": [
+    {
+      "scope": "VOL-04",
+      "missing": "France Netherlands Scandinavia central/eastern Europe and the different political routes of English/Scottish/Irish reform",
+      "action": "broaden overview narratives before letter-by-letter research"
+    },
+    {
+      "scope": "VOL-05",
+      "missing": "Catholic reform history and the full conflict–toleration–confessionalization panorama; current overview has only two representative people",
+      "action": "build balanced Catholic and regional response arcs"
+    },
+    {
+      "scope": "VOL-07",
+      "missing": "Pan-Asian African American and Oceanian Christian history relative to Korea-heavy baseline",
+      "action": "include pre-European traditions and indigenous Christian agency, avoid diffusion-only story"
+    },
+    {
+      "scope": "VOL-08",
+      "missing": "Cross-era entrypoint that compares recurring questions instead of being treated as chronological volume eight",
+      "action": "connect six broad topics to first seven volumes"
+    }
+  ],
+  "work_order": [
+    {
+      "phase": "L0",
+      "status": "CURRENT",
+      "objective": "8 volumes + 10 regional paths + 12 historic turning points + 6 questions",
+      "stop_rule": "do not dive into a single archival variant unless it changes the big story",
+      "acceptance": "reader can explain whole historical progression and choose region, date or theme"
+    },
+    {
+      "phase": "L1",
+      "status": "AFTER_L0_COVERAGE",
+      "objective": "10 existing medium chapters plus new missing regional narratives, each explaining causes, differences, results",
+      "stop_rule": "keep micro footnote apparatus as links, not body"
+    },
+    {
+      "phase": "L2",
+      "status": "AFTER_L1",
+      "objective": "Connect established original/source research V3.50–V4.05 and other deep datasets to precise claims",
+      "stop_rule": "only unresolved questions that materially alter reader interpretation get new archival research"
+    }
+  ],
+  "source_anchors": [
+    {
+      "label": "Existing atlas 8-volume outline",
+      "url": "https://github.com/worldinyj/REFORMATION-ATLAS/blob/main/docs/01_CONTENT/CONTENT_VOLUMES.md",
+      "tier": "INTERNAL_SCOPE_NOT_EXTERNAL_HISTORICAL_SOURCE"
+    },
+    {
+      "label": "The Protestant Reformation",
+      "url": "https://smarthistory.org/the-protestant-reformation/",
+      "tier": "PUBLIC_ACADEMIC_OVERVIEW"
+    },
+    {
+      "label": "Scandinavian Reformation, Cambridge History",
+      "url": "https://assets.cambridge.org/97805214/73002/excerpt/9780521473002_excerpt.pdf",
+      "tier": "SCHOLARLY_REGIONAL_SURVEY"
+    },
+    {
+      "label": "Italy and Counter-Reformation",
+      "url": "https://www.britannica.com/place/Italy/Early-modern-Italy-16th-to-18th-centuries",
+      "tier": "ENCYCLOPAEDIA_OVERVIEW"
+    },
+    {
+      "label": "World Christianity and local agency",
+      "url": "https://www.cambridge.org/core/journals/horizons/article/abs/world-christianity-its-implications-for-history-religious-studies-and-theology/DC26D94668A08B921072",
+      "tier": "PEER_REVIEWED_BIBLIOGRAPHIC_ABSTRACT"
+    },
+    {
+      "label": "Global South indigenous Christian journalism",
+      "url": "https://cms-cdn.lmu.de/media/02-evtheol/kirchengeschichte/kg-1/koschorke/y-koschorke-k.-hermann-a.-2023b-a-indigenous-christian-public-sphere-swc.pdf",
+      "tier": "SCHOLARLY_OPEN_ACCESS_ARTICLE"
+    }
+  ],
+  "safety": {
+    "main_modified": false,
+    "existing_513_essays_modified": false,
+    "ai_studio_modified": false,
+    "existing_overview_files_overwritten": false,
+    "existing_deep_files_overwritten": false,
+    "deep_research_discarded": false,
+    "can_ship": false,
+    "coordinates_precisely_verified": false,
+    "full_original_text_republished": false,
+    "editor_approved": false
+  }
+}
