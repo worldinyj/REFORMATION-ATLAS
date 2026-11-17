@@ -1,0 +1,187 @@
+{
+  "schema": "ATLAS_V435_EDITORIAL_DECISION_GATE_V1",
+  "version": "V4.35",
+  "date": "2026-11-18",
+  "status": "PRIVATE_RESEARCH_ONLY_NOT_EXPERT_APPROVED",
+  "sources": [
+    {
+      "path": "research/data/V4_34_FIVE_CLAIM_PRIMARY_SOURCE_DIFF_CANDIDATE.json",
+      "gitBlobSha": "93a16a57bd0fd1a6237eff1bce1f0f16f6dbe82b"
+    },
+    {
+      "path": "research/data/V4_32_EIGHT_VOLUME_EXPANDED_READER_CANDIDATE.json",
+      "gitBlobSha": "3f243a618cde4dd7a3c4459b6efcba799c02d80b"
+    },
+    {
+      "path": "research/data/V4_33_EVIDENCE_DECISION_LEDGER_DRAFT.json",
+      "gitBlobSha": "ff24234613dc2fa8786bfcd78edb2207aaeeb6d0"
+    },
+    {
+      "path": "handoff/V429_AI_STUDIO_PRIVATE_L0_CONTENT_IMPORT.json",
+      "gitBlobSha": "64c27c0dfe05394acbb049807e4c4384d58908b9"
+    }
+  ],
+  "decisions": [
+    {
+      "id": "REV434-01",
+      "volumeId": "VOL-04",
+      "topic": "아우크스부르크 신앙고백의 인쇄 증언",
+      "determination": "CONDITIONAL_CATALOGUE_SUPPORTED",
+      "rationale": "1530 unofficial printing, 1531 Melanchthon-supervised Latin publication and 1540 Variata must remain separate; doctrinal variant collation pending",
+      "proposedL0Wording": "아우크스부르크 신앙고백은 **1530년 제국회의에서 제시되었고 당시 비공식 인쇄본도 유통되었다.** **1531년에는 멜란히톤이 관여한 『신앙고백』·『변증서』 판본**이 출판되었으며, **1540년 수정본(Variata)**은 별도로 구분한다.",
+      "sourceEvidenceIds": [
+        "S434-01",
+        "S434-02"
+      ],
+      "anchorVerifiedExactlyOnce": true,
+      "exactDiffReproduced": true,
+      "historianSignedOff": false,
+      "readerPilotPassed": false,
+      "canPromoteToApp": false
+    },
+    {
+      "id": "REV434-02",
+      "volumeId": "VOL-06",
+      "topic": "타밀어 신약 출판 연대의 사료 충돌",
+      "determination": "CONFLICT_HOLD",
+      "rationale": "1715 WLB witness and academic printing chronology conflict with BSI's 1719 full-NT assertion: no unique full publication year asserted",
+      "proposedL0Wording": "**1714년 타밀어 네 복음서와 사도행전의 부분 인쇄**는 여러 서지 자료에서 확인된다. 그러나 **신약전서 전체 간행 연도는 자료에 따라 1715년과 1719년으로 다르게 제시된다.** 1715년 나머지 부분의 인쇄와 1719년 전권 출판이 동일한 간행물을 가리키는지, 판본·분책·표제지의 관계를 실물 대조하기 전에는 한 해를 유일한 완결 연도로 확정하지 않는다.",
+      "sourceEvidenceIds": [
+        "S434-03",
+        "S434-04",
+        "S434-05",
+        "S434-06",
+        "S434-07"
+      ],
+      "anchorVerifiedExactlyOnce": true,
+      "exactDiffReproduced": true,
+      "historianSignedOff": false,
+      "readerPilotPassed": false,
+      "canPromoteToApp": false
+    },
+    {
+      "id": "REV434-03",
+      "volumeId": "VOL-07",
+      "topic": "한국어 성경 1882·1887·1911년 표제·간행 범위",
+      "determination": "CONDITIONAL_CATALOGUE_SUPPORTED",
+      "rationale": "1882 individual Gospel, 1887 New Testament, 1911 Old+New Testament; 1911 four-volume item is a specific catalogued copy, not universal format",
+      "proposedL0Wording": "출판물의 범위를 기준으로 **1882년 『예수셩교누가복음젼셔』 등의 개별 복음서**, **1887년 『예수셩교젼셔』(신약전서)**, **1911년 『셩경젼셔』(신·구약 전서)**를 구별한다.",
+      "sourceEvidenceIds": [
+        "S434-08",
+        "S434-09"
+      ],
+      "anchorVerifiedExactlyOnce": true,
+      "exactDiffReproduced": true,
+      "historianSignedOff": false,
+      "readerPilotPassed": false,
+      "canPromoteToApp": false
+    },
+    {
+      "id": "REV434-04",
+      "volumeId": "VOL-07",
+      "topic": "1779년 강학과 1784년 한국 천주교 공동체 형성",
+      "determination": "HISTORIOGRAPHY_DISPUTE_PRESERVED",
+      "rationale": "1779 study gathering differs from 1784 baptism and community-forming actions; no claim of universal founding-date consensus",
+      "proposedL0Wording": "**1779년 전후의 서학 강학 모임**을 한국 천주교의 출발로 평가할지에 관해 연구자들의 해석이 다르다. 당시의 독서·토론과 **1784년 이승훈의 북경 세례 및 귀국 후 신앙공동체 형성**은 구별되는 사건이며, 모임의 성격만으로 정식 교회의 창립 연도를 확정하지 않는다.",
+      "sourceEvidenceIds": [
+        "S434-10",
+        "S434-11",
+        "S434-12"
+      ],
+      "anchorVerifiedExactlyOnce": true,
+      "exactDiffReproduced": true,
+      "historianSignedOff": false,
+      "readerPilotPassed": false,
+      "canPromoteToApp": false
+    },
+    {
+      "id": "REV434-05",
+      "volumeId": "VOL-03",
+      "topic": "위클리프·후스 성찬론의 교리적 차이",
+      "determination": "SCHOLARLY_ABSTRACT_SUPPORTED",
+      "rationale": "Wyclif remanence differs from Hus's accepted transubstantiation; no claim of full primary-text collation",
+      "proposedL0Wording": "특히 **위클리프는 성찬 후에도 빵의 실체가 남는다는 견해(remanence)를 주장한 반면**, **후스는 실체변화(transubstantiation)를 수용했다.** 두 인물을 동일한 성찬론자로 묶거나 위클리프의 입장을 단순한 상징설로 환원해서는 안 된다.",
+      "sourceEvidenceIds": [
+        "S434-13",
+        "S434-14"
+      ],
+      "anchorVerifiedExactlyOnce": true,
+      "exactDiffReproduced": true,
+      "historianSignedOff": false,
+      "readerPilotPassed": false,
+      "canPromoteToApp": false
+    }
+  ],
+  "explicitSupersession": {
+    "id": "CL433-21",
+    "priorStatus": "SOURCE_SUPPORTED",
+    "newStatus": "CONFLICT_HOLD_FOR_COMPLETION_YEAR",
+    "rationale": "WLB 1715 bibliographical source and India Bible Society 1719 assertion conflict; 1715 printing of remaining books now supported by WLB specialist article but item-specific binding/full-NT date not resolved",
+    "previousV433LedgerUntouched": true
+  },
+  "additionalWitnesses": [
+    {
+      "id": "S435-01",
+      "topic": "Tamil",
+      "url": "https://journals.wlb-stuttgart.de/index.php/wlbf/article/download/296/298/772",
+      "finding": "WLB specialist paper: Gospels/Acts printed late 1713–summer 1714, smaller type for remaining NT printed by 1715",
+      "level": "INSTITUTION_SPECIALIST_HISTORIOGRAPHY_NO_DIRECT_ITEM_COLLATION"
+    },
+    {
+      "id": "S435-02",
+      "topic": "KoreanBible",
+      "url": "https://lib.bskorea.or.kr/$/10110/contents/7502442",
+      "finding": "1911 Bible bibliographic item describes four volumes, first has two title leaves, fourth has New Testament title leaf",
+      "level": "INSTITUTION_CATALOGUE_NOT_ALL_1911_EDITION_COPIES"
+    },
+    {
+      "id": "S435-03",
+      "topic": "Augsburg",
+      "url": "https://gruber.lstc.edu/confessions/augs_apol.php",
+      "finding": "1530 early prints/1531 edited editions/Gruber 28 1540 Variata; catalog also mentions a 1540 non-Variata copy",
+      "level": "RARE_BOOK_CATALOGUE_NOT_DIRECT_FOLIO_COLLATION"
+    }
+  ],
+  "integrity": {
+    "casesVerified": 5,
+    "originalVolumesVerified": 8,
+    "changedVolumes": [
+      "VOL-03",
+      "VOL-04",
+      "VOL-06",
+      "VOL-07"
+    ],
+    "unchangedVolumes": [
+      "VOL-01",
+      "VOL-02",
+      "VOL-05",
+      "VOL-08"
+    ],
+    "evidenceCountV434": 14,
+    "sourceAnchorsUnique": true,
+    "offsetsMatch": true,
+    "allPreviewVolumesReconstructed": true,
+    "appCount": {
+      "volumes": 8,
+      "themes": 6
+    },
+    "v429FrozenGitBlobSha": "64c27c0dfe05394acbb049807e4c4384d58908b9",
+    "preservedHeldClaims": [
+      "C417-11",
+      "C417-12",
+      "C417-18"
+    ],
+    "appModified": false
+  },
+  "release": {
+    "canShip": false,
+    "canMergeMain": false,
+    "canImportAIStudio": false,
+    "canReplaceV429": false,
+    "historianSignoffs": 0,
+    "readerPilotSessions": 0,
+    "witnessFolioCollationComplete": false,
+    "rightsReviewComplete": false
+  },
+  "nextStep": "V4.36 targeted print-witness bibliography and professional review packet; no app mutation"
+}
