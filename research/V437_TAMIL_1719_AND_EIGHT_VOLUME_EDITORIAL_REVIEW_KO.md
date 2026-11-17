@@ -50,7 +50,7 @@ V4.36까지는 1715년과 1719년 기록이 충돌한다고 정리했다. V4.37�
 
 ## 출처 및 작업 범위
 
-- WLB 1715년 소장본: https://www.leo-bw.de/en/detail/-/Detail/details/DOKUMENT/wlb_digitalisate/digibib-bsz4072371006
+- WLB 1715년 소장본: https://www.leo-bw.de/en/detail/-/Detail/details/DOKUMENT/wlb_digitalisate/digibib-bsz4072371006/Cutan%C4%81kiya%20carvecuran%C4%81yirukki%E1%B9%9Fa%20ecukki%E1%B9%9Fi%E1%B9%A3ttu%20n%C4%81tar%C4%81%E1%B9%89avar%20%20putu%20erp%C4%81tti%E1%B9%89u%E1%B9%ADaiya%20mutal%C4%81m%20vakupp%C4%81ki%E1%B9%9Fa%20a%C3%B1cuvetapo%E1%B9%A3ttakam
 - Halle 1714년 인쇄본: https://digital.francke-halle.de/fsaad/content/titleinfo/162120
 - WLB Missionsbibeln 목록 (원문 PDF 2쪽 화면 확인): https://www.wlb-stuttgart.de/fileadmin/user_upload/sammlungen/bibeln/Missionsbibeln/Missionsbibel_Stationen.pdf
 - Sweetman·Županov (2019), 저널 제공 각주 검색 근거: https://www.cambridge.org/core/journals/comparative-studies-in-society-and-history/article/abs/rival-mission-rival-science-jesuits-and-pietists-in-seventeenth-and-eighteenthcentury-south-india/24629B3BB2C9A00B34A3B9F22296F096
