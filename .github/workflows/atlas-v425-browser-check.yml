@@ -1,0 +1,45 @@
+name: ATLAS V4.25 L0 Browser Visual Check
+on:
+  push:
+    branches:
+      - research/atlas-v425-browser-e2e-visual-check-l0
+    paths:
+      - "preview/V424_L0_EDITORIAL_ALPHA_OFFLINE_PREVIEW.html"
+      - "research/tests/v425_browser_probe.cjs"
+      - ".github/workflows/atlas-v425-browser-check.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  chromium-offline-preview:
+    name: Chromium offline L0 preview (desktop, tablet, mobile)
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Checkout exact V4.25 branch
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Set up Node 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Install isolated Playwright runtime
+        run: |
+          mkdir -p "/tmp/atlas-v425-tools"
+          npm install --prefix "/tmp/atlas-v425-tools" --no-save --no-package-lock playwright@1.56.1
+          "/tmp/atlas-v425-tools/node_modules/.bin/playwright" install --with-deps chromium
+      - name: Execute actual Chromium browser tests
+        env:
+          NODE_PATH: /tmp/atlas-v425-tools/node_modules
+        run: node research/tests/v425_browser_probe.cjs
+      - name: Upload screenshots and JSON browser results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: atlas-v425-chromium-visual-evidence
+          path: research/artifacts/V425_browser_checks/
+          if-no-files-found: warn
+          retention-days: 14
