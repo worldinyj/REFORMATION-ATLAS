@@ -1,0 +1,916 @@
+{
+  "version": "V4.14",
+  "created": "2026-11-17",
+  "level": "L0",
+  "status": "PRE_REFORMATION_DIVERSE_MOVEMENTS_RESEARCH_DRAFT",
+  "branch": "research/atlas-v414-pre-reformation-diverse-movements-l0",
+  "parent_branch": "research/atlas-v413-ancient-medieval-multiregional-l0",
+  "volume": "VOL-03",
+  "source_overview": "docs/01_CONTENT/OVERVIEW/VOL-03_OVERVIEW_V01.md",
+  "new_reader_path": "docs/01_CONTENT/OVERVIEW/V414_VOL03_DIVERSE_PRE_REFORMATION_MOVEMENTS_MASTER_KO.md",
+  "primary_goal": "Distinguish shared themes, partial textual reception, later reinterpretation, political conflict and distinct institutional paths before and during the sixteenth-century Reformation.",
+  "historiographic_notes": [
+    "Do not treat Wyclif, Hus and Luther as one direct student-teacher chain or identical Eucharistic theology.",
+    "Four Articles 1420/1421 formation, Basel 1433 negotiation and 1436 Jihlava promulgation are distinct stages.",
+    "Do not claim all vernacular Bible manuscript ownership was Lollard or banned without exception.",
+    "Valdes 1170s origin and Waldensian 1532 reform connections differ; 'Chanforan' terminology is later.",
+    "Modern Devotion and reform within established late medieval church traditions are independent important histories, not failed Protestantism.",
+    "Post-1415 Hussite movement is not coterminous with lifetime positions of Hus.",
+    "Women and lay devotional communities must not disappear from a male-only reformer genealogy.",
+    "Document, political and social relationships must not be visualized as unjustified teacher-to-student causal arrows."
+  ],
+  "sources": [
+    {
+      "id": "S414-01",
+      "title": "‘Sunt quadraginta anni vel circa’: Southern French Waldensians and the Albigensian Crusade",
+      "url": "https://academic.oup.com/fh/article/32/3/327/5091977",
+      "access_tier": "SCHOLARLY_PUBLIC_EXCERPT",
+      "evidence_topic": "WALDENSIAN_ORIGIN_1170_1179_1184",
+      "primary_manuscript_directly_collated_in_v414": false,
+      "complete_paywalled_work_read": false,
+      "source_image_reproduced": false
+    },
+    {
+      "id": "S414-02",
+      "title": "Stanford Encyclopedia of Philosophy: John Wyclif",
+      "url": "https://plato.stanford.edu/entries/wyclif/",
+      "access_tier": "OPEN_ACADEMIC_ENCYCLOPEDIA",
+      "evidence_topic": "WYCLIF_ECCLESIOLOGY_EUCHARIST_1382",
+      "primary_manuscript_directly_collated_in_v414": false,
+      "complete_paywalled_work_read": false,
+      "source_image_reproduced": false
+    },
+    {
+      "id": "S414-03",
+      "title": "Misleading Manuscripts: Wyclif and the Non-Wycliffite Bible",
+      "url": "https://www.cambridge.org/core/journals/studies-in-church-history/article/abs/misleading-manuscripts-wyclif-and-the-nonwycliffite-bible/BE0F9222DFD99C2925107562DA38559B",
+      "access_tier": "SCHOLARLY_ABSTRACT_ONLY",
+      "evidence_topic": "BIBLE_AUTHORSHIP_DEBATED",
+      "primary_manuscript_directly_collated_in_v414": false,
+      "complete_paywalled_work_read": false,
+      "source_image_reproduced": false
+    },
+    {
+      "id": "S414-04",
+      "title": "Old Testament Translation: Eighth to Fourteenth Centuries",
+      "url": "https://academic.oup.com/edited-volume/43514/chapter/364251917",
+      "access_tier": "SCHOLARLY_ABSTRACT_EXCERPT",
+      "evidence_topic": "ENGLISH_BIBLE_COLLABORATIVE",
+      "primary_manuscript_directly_collated_in_v414": false,
+      "complete_paywalled_work_read": false,
+      "source_image_reproduced": false
+    },
+    {
+      "id": "S414-05",
+      "title": "John Wyclif and Hussite Theology 1415–1436",
+      "url": "https://www.cambridge.org/core/journals/church-history/article/abs/john-wyclif-and-hussite-theology-14151436/54C10C6F7EEFB5409E2291C9F4194ABF",
+      "access_tier": "SCHOLARLY_ABSTRACT_ONLY",
+      "evidence_topic": "HUS_DIFFERS_FROM_WYCLIF_EUCHARIST",
+      "primary_manuscript_directly_collated_in_v414": false,
+      "complete_paywalled_work_read": false,
+      "source_image_reproduced": false
+    },
+    {
+      "id": "S414-06",
+      "title": "John Wyclif and the Eucharistic Words of Institution",
+      "url": "https://www.cambridge.org/core/journals/church-history/article/abs/john-wyclif-and-the-eucharistic-words-of-institution-context-and-aftermath/7A3B350A2B409E97F900FC95F51D1AE6",
+      "access_tier": "SCHOLARLY_EXCERPT_FOOTNOTES",
+      "evidence_topic": "HUS_TRANSUBSTANTIATION",
+      "primary_manuscript_directly_collated_in_v414": false,
+      "complete_paywalled_work_read": false,
+      "source_image_reproduced": false
+    },
+    {
+      "id": "S414-07",
+      "title": "Czech Reformation and Hussite Revolution",
+      "url": "https://academic.oup.com/reference/62416/reference-article-abstract/555921524",
+      "access_tier": "ACADEMIC_ENCYCLOPEDIA_ABSTRACT_ONLY",
+      "evidence_topic": "HUSSITE_BRANCHES_BRETHREN",
+      "primary_manuscript_directly_collated_in_v414": false,
+      "complete_paywalled_work_read": false,
+      "source_image_reproduced": false
+    },
+    {
+      "id": "S414-08",
+      "title": "Chiliasm and the Hussite Revolution",
+      "url": "https://www.cambridge.org/core/journals/church-history/article/abs/chiliasm-and-the-hussite-revolution/E7CA1C9604A7760E9655CA2B8852CE06",
+      "access_tier": "SCHOLARLY_EXCERPT_FOOTNOTES",
+      "evidence_topic": "FOUR_ARTICLES_CONTEXT",
+      "primary_manuscript_directly_collated_in_v414": false,
+      "complete_paywalled_work_read": false,
+      "source_image_reproduced": false
+    },
+    {
+      "id": "S414-09",
+      "title": "From the Four Articles of Prague to the Basel Compactata (Masaryk University)",
+      "url": "https://www.muni.cz/en/research/publications/2437517",
+      "access_tier": "UNIVERSITY_PUBLICATION_SUMMARY",
+      "evidence_topic": "1433_NEGOTIATION_1436_JIHLAVA",
+      "primary_manuscript_directly_collated_in_v414": false,
+      "complete_paywalled_work_read": false,
+      "source_image_reproduced": false
+    },
+    {
+      "id": "S414-10",
+      "title": "The Theology of the Czech Brethren from Hus to Comenius",
+      "url": "https://www.psupress.org/books/titles/978-0-271-03532-1.html",
+      "access_tier": "UNIVERSITY_PRESS_DESCRIPTION",
+      "evidence_topic": "BRETHREN_1457_1467",
+      "primary_manuscript_directly_collated_in_v414": false,
+      "complete_paywalled_work_read": false,
+      "source_image_reproduced": false
+    },
+    {
+      "id": "S414-11",
+      "title": "The Bohemian Brethren and the Protestant Reformation (Craig Atwood)",
+      "url": "https://www.mdpi.com/2077-1444/12/5/360",
+      "access_tier": "PEER_REVIEWED_OPEN_ARTICLE",
+      "evidence_topic": "BRETHREN_LUTHER_RECEPTION",
+      "primary_manuscript_directly_collated_in_v414": false,
+      "complete_paywalled_work_read": false,
+      "source_image_reproduced": false
+    },
+    {
+      "id": "S414-12",
+      "title": "A History of the Waldensians (Musée protestant)",
+      "url": "https://museeprotestant.org/en/notice/a-history-of-the-waldensians/",
+      "access_tier": "MUSEUM_PUBLIC_HISTORY",
+      "evidence_topic": "WALDENSIANS_REFORMED_1532",
+      "primary_manuscript_directly_collated_in_v414": false,
+      "complete_paywalled_work_read": false,
+      "source_image_reproduced": false
+    },
+    {
+      "id": "S414-13",
+      "title": "Encounters with the Reformation in the 1530s (American Waldensian Society)",
+      "url": "https://www.waldensian.org/history/encounters-with-the-reformation-in-the-1530s/",
+      "access_tier": "DENOMINATIONAL_HISTORICAL_SOURCE",
+      "evidence_topic": "CHANFORAN_LATER_NAME",
+      "primary_manuscript_directly_collated_in_v414": false,
+      "complete_paywalled_work_read": false,
+      "source_image_reproduced": false
+    },
+    {
+      "id": "S414-14",
+      "title": "Devotio Moderna",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/9780470670606.wbecc0416",
+      "access_tier": "ACADEMIC_REFERENCE_ABSTRACT",
+      "evidence_topic": "COMMON_LIFE_DEVOTIO",
+      "primary_manuscript_directly_collated_in_v414": false,
+      "complete_paywalled_work_read": false,
+      "source_image_reproduced": false
+    },
+    {
+      "id": "S414-15",
+      "title": "Sisters and Brothers of the Common Life (John Van Engen)",
+      "url": "https://www.jstor.org/stable/j.ctt4cghds",
+      "access_tier": "ACADEMIC_BOOK_DESCRIPTION",
+      "evidence_topic": "WOMEN_LAY_COMMUNITIES",
+      "primary_manuscript_directly_collated_in_v414": false,
+      "complete_paywalled_work_read": false,
+      "source_image_reproduced": false
+    },
+    {
+      "id": "S414-16",
+      "title": "Encountering the Word of God in Early Tudor England",
+      "url": "https://academic.oup.com/ehr/article/136/581/836/6384632",
+      "access_tier": "SCHOLARLY_PUBLIC_EXCERPT",
+      "evidence_topic": "BIBLE_USAGE_REGULATION_COMPLEX",
+      "primary_manuscript_directly_collated_in_v414": false,
+      "complete_paywalled_work_read": false,
+      "source_image_reproduced": false
+    }
+  ],
+  "macro_arcs": [
+    {
+      "id": "A414-01",
+      "volume": "VOL-03",
+      "title": "다수의 중세 쇄신: 데보티오 모데르나와 교회 내부 개혁",
+      "topic": "LATE_MEDIEVAL_RENEWAL",
+      "period": "1380s–1500s",
+      "level": "L0",
+      "source_ids": [
+        "S414-14",
+        "S414-15"
+      ],
+      "status": "RESEARCH_DRAFT"
+    },
+    {
+      "id": "A414-02",
+      "volume": "VOL-03",
+      "title": "발도·왈도파: 청빈과 설교 권한",
+      "topic": "WALDENSIAN",
+      "period": "1170s–1532",
+      "level": "L0",
+      "source_ids": [
+        "S414-01",
+        "S414-12",
+        "S414-13"
+      ],
+      "status": "RESEARCH_DRAFT"
+    },
+    {
+      "id": "A414-03",
+      "volume": "VOL-03",
+      "title": "위클리프: 성경·교회 권위·성찬",
+      "topic": "WYCLIF_ACADEMIC",
+      "period": "1370s–1384",
+      "level": "L0",
+      "source_ids": [
+        "S414-02"
+      ],
+      "status": "RESEARCH_DRAFT"
+    },
+    {
+      "id": "A414-04",
+      "volume": "VOL-03",
+      "title": "롤라드와 중세 영어 성경 필사본",
+      "topic": "ENGLISH_SCRIPTURE_LOLLARDS",
+      "period": "1380s–1500s",
+      "level": "L0",
+      "source_ids": [
+        "S414-03",
+        "S414-04",
+        "S414-16"
+      ],
+      "status": "RESEARCH_DRAFT"
+    },
+    {
+      "id": "A414-05",
+      "volume": "VOL-03",
+      "title": "후스: 보헤미아의 개혁과 위클리프 비판적 수용",
+      "topic": "HUS_CZECH_REFORM",
+      "period": "1400s–1416",
+      "level": "L0",
+      "source_ids": [
+        "S414-05",
+        "S414-06"
+      ],
+      "status": "RESEARCH_DRAFT"
+    },
+    {
+      "id": "A414-06",
+      "volume": "VOL-03",
+      "title": "프라하 4개조와 양형 영성체",
+      "topic": "FOUR_ARTICLES",
+      "period": "1414–1421",
+      "level": "L0",
+      "source_ids": [
+        "S414-07",
+        "S414-08",
+        "S414-09"
+      ],
+      "status": "RESEARCH_DRAFT"
+    },
+    {
+      "id": "A414-07",
+      "volume": "VOL-03",
+      "title": "후스파의 복수 전통: 성찬파·타보르파·첼치츠키",
+      "topic": "HUSSITE_DIVERGENCE",
+      "period": "1419–1450s",
+      "level": "L0",
+      "source_ids": [
+        "S414-07",
+        "S414-10",
+        "S414-11"
+      ],
+      "status": "RESEARCH_DRAFT"
+    },
+    {
+      "id": "A414-08",
+      "volume": "VOL-03",
+      "title": "바젤 콤팍타타: 협상·전투·공포",
+      "topic": "BASEL_NEGOTIATION",
+      "period": "1433–1436",
+      "level": "L0",
+      "source_ids": [
+        "S414-09"
+      ],
+      "status": "RESEARCH_DRAFT"
+    },
+    {
+      "id": "A414-09",
+      "volume": "VOL-03",
+      "title": "형제단과 16세기 재해석·교류",
+      "topic": "BRETHREN_RECEPTION",
+      "period": "1457–1532",
+      "level": "L0",
+      "source_ids": [
+        "S414-10",
+        "S414-11",
+        "S414-13"
+      ],
+      "status": "RESEARCH_DRAFT"
+    }
+  ],
+  "chronological_milestones": [
+    {
+      "id": "MS414-01",
+      "year_start": 1170,
+      "year_end": 1179,
+      "date_precision": "DECADE_APPROX",
+      "title": "발도의 리옹 청빈·설교 공동체",
+      "arc_id": "A414-02",
+      "evidence_kind": "CONTEXT",
+      "source_ids": [
+        "S414-01"
+      ]
+    },
+    {
+      "id": "MS414-02",
+      "year_start": 1179,
+      "year_end": 1179,
+      "date_precision": "YEAR",
+      "title": "제3차 라테라노 공의회 전후 발도파의 설교 허가 논쟁",
+      "arc_id": "A414-02",
+      "evidence_kind": "CHURCH_DEBATE",
+      "source_ids": [
+        "S414-01"
+      ]
+    },
+    {
+      "id": "MS414-03",
+      "year_start": 1184,
+      "year_end": 1184,
+      "date_precision": "YEAR",
+      "title": "발도파 관련 단죄",
+      "arc_id": "A414-02",
+      "evidence_kind": "ECCLESIASTICAL_DECISION",
+      "source_ids": [
+        "S414-01"
+      ]
+    },
+    {
+      "id": "MS414-04",
+      "year_start": 1377,
+      "year_end": 1381,
+      "date_precision": "DATE_RANGE_APPROX",
+      "title": "위클리프의 성경관·교회론·성찬론 저술 전개",
+      "arc_id": "A414-03",
+      "evidence_kind": "INTELLECTUAL_DEVELOPMENT",
+      "source_ids": [
+        "S414-02"
+      ]
+    },
+    {
+      "id": "MS414-05",
+      "year_start": 1380,
+      "year_end": 1395,
+      "date_precision": "DATE_RANGE_APPROX",
+      "title": "중세 영어 성경의 초기 번역 및 후기 개정·필사",
+      "arc_id": "A414-04",
+      "evidence_kind": "COLLABORATIVE_TEXTUAL_PROCESS",
+      "source_ids": [
+        "S414-03",
+        "S414-04"
+      ]
+    },
+    {
+      "id": "MS414-06",
+      "year_start": 1380,
+      "year_end": 1400,
+      "date_precision": "LATE_FOURTEENTH_CENTURY",
+      "title": "저지대의 데보티오 모데르나 공동생활 형성",
+      "arc_id": "A414-01",
+      "evidence_kind": "PARALLEL_RENEWAL",
+      "source_ids": [
+        "S414-14",
+        "S414-15"
+      ]
+    },
+    {
+      "id": "MS414-07",
+      "year_start": 1382,
+      "year_end": 1382,
+      "date_precision": "YEAR",
+      "title": "위클리프에 귀속된 명제들에 대한 교회 당국의 단죄",
+      "arc_id": "A414-03",
+      "evidence_kind": "ECCLESIASTICAL_DECISION",
+      "source_ids": [
+        "S414-02"
+      ]
+    },
+    {
+      "id": "MS414-08",
+      "year_start": 1384,
+      "year_end": 1384,
+      "date_precision": "YEAR",
+      "title": "위클리프 사망",
+      "arc_id": "A414-03",
+      "evidence_kind": "BIOGRAPHICAL_EVENT",
+      "source_ids": [
+        "S414-02"
+      ]
+    },
+    {
+      "id": "MS414-09",
+      "year_start": 1400,
+      "year_end": 1415,
+      "date_precision": "DATE_RANGE_APPROX",
+      "title": "후스의 프라하 대학·설교·교회론 논쟁",
+      "arc_id": "A414-05",
+      "evidence_kind": "BIOGRAPHICAL_PROCESS",
+      "source_ids": [
+        "S414-05"
+      ]
+    },
+    {
+      "id": "MS414-10",
+      "year_start": 1414,
+      "year_end": 1414,
+      "date_precision": "CIRCA_YEAR",
+      "title": "야코우베크의 양형 영성체 주장·논쟁",
+      "arc_id": "A414-06",
+      "evidence_kind": "RELIGIOUS_PRACTICE_DEBATE",
+      "source_ids": [
+        "S414-08"
+      ]
+    },
+    {
+      "id": "MS414-11",
+      "year_start": 1415,
+      "year_end": 1415,
+      "date_precision": "EXACT_DATE_1415_07_06",
+      "title": "얀 후스의 콘스탄츠 처형",
+      "arc_id": "A414-05",
+      "evidence_kind": "EXECUTION",
+      "source_ids": [
+        "S414-07"
+      ]
+    },
+    {
+      "id": "MS414-12",
+      "year_start": 1416,
+      "year_end": 1416,
+      "date_precision": "YEAR",
+      "title": "프라하의 예로니모 처형",
+      "arc_id": "A414-05",
+      "evidence_kind": "EXECUTION",
+      "source_ids": [
+        "S414-07"
+      ]
+    },
+    {
+      "id": "MS414-13",
+      "year_start": 1419,
+      "year_end": 1421,
+      "date_precision": "DATE_RANGE",
+      "title": "후스파 전쟁·프라하 4개조의 형성·공포",
+      "arc_id": "A414-06",
+      "evidence_kind": "MOVEMENT_AND_MULTIPLE_WITNESSES",
+      "source_ids": [
+        "S414-07",
+        "S414-08",
+        "S414-09"
+      ]
+    },
+    {
+      "id": "MS414-14",
+      "year_start": 1433,
+      "year_end": 1433,
+      "date_precision": "YEAR",
+      "title": "바젤 공의회와 보헤미아 측 협상·잠정 합의",
+      "arc_id": "A414-08",
+      "evidence_kind": "NEGOTIATION_NOT_FINAL_PROMULGATION",
+      "source_ids": [
+        "S414-09"
+      ]
+    },
+    {
+      "id": "MS414-15",
+      "year_start": 1434,
+      "year_end": 1434,
+      "date_precision": "EXACT_DATE_1434_05_30",
+      "title": "리파니 전투와 후스파 정치·군사 구도 변화",
+      "arc_id": "A414-08",
+      "evidence_kind": "BATTLE",
+      "source_ids": [
+        "S414-07"
+      ]
+    },
+    {
+      "id": "MS414-16",
+      "year_start": 1436,
+      "year_end": 1436,
+      "date_precision": "YEAR",
+      "title": "이흘라바의 바젤 콤팍타타 공적 공포",
+      "arc_id": "A414-08",
+      "evidence_kind": "LEGAL_PROMULGATION",
+      "source_ids": [
+        "S414-09"
+      ]
+    },
+    {
+      "id": "MS414-17",
+      "year_start": 1457,
+      "year_end": 1458,
+      "date_precision": "DATE_RANGE_APPROX",
+      "title": "보헤미아 형제단의 초기 형성",
+      "arc_id": "A414-09",
+      "evidence_kind": "COMMUNITY_FORMATION",
+      "source_ids": [
+        "S414-10",
+        "S414-11"
+      ]
+    },
+    {
+      "id": "MS414-18",
+      "year_start": 1467,
+      "year_end": 1467,
+      "date_precision": "YEAR",
+      "title": "형제단의 독립적인 성직·교계 구성",
+      "arc_id": "A414-09",
+      "evidence_kind": "INSTITUTIONAL_REFORMATION",
+      "source_ids": [
+        "S414-10",
+        "S414-11"
+      ]
+    },
+    {
+      "id": "MS414-19",
+      "year_start": 1519,
+      "year_end": 1519,
+      "date_precision": "YEAR",
+      "title": "루터의 라이프치히 논쟁에서 후스 선례 재평가",
+      "arc_id": "A414-09",
+      "evidence_kind": "LATER_RECEPTION",
+      "source_ids": [
+        "S414-11"
+      ]
+    },
+    {
+      "id": "MS414-20",
+      "year_start": 1530,
+      "year_end": 1530,
+      "date_precision": "CIRCA_YEAR",
+      "title": "발도파 인물들과 외콜람파디우스·부처 등 초기 개혁자들 간 교류",
+      "arc_id": "A414-02",
+      "evidence_kind": "PERSONAL_TEXTUAL_CONTACT",
+      "source_ids": [
+        "S414-13"
+      ]
+    },
+    {
+      "id": "MS414-21",
+      "year_start": 1532,
+      "year_end": 1532,
+      "date_precision": "YEAR",
+      "title": "왈도파 공동체의 종교개혁 진영과의 논의·전환",
+      "arc_id": "A414-02",
+      "evidence_kind": "INSTITUTIONAL_CONTACT_NOT_1170S_ORIGIN",
+      "source_ids": [
+        "S414-12",
+        "S414-13"
+      ]
+    },
+    {
+      "id": "MS414-22",
+      "year_start": 1847,
+      "year_end": 1847,
+      "date_precision": "YEAR",
+      "title": "1532년 회합에 'Synod of Chanforan'이라는 명칭의 후대 부여",
+      "arc_id": "A414-02",
+      "evidence_kind": "LATER_HISTORIOGRAPHICAL_LABEL",
+      "source_ids": [
+        "S414-13"
+      ]
+    }
+  ],
+  "relationship_types": [
+    "DIRECT_DOCUMENTARY_RECEPTION",
+    "PARTIAL_INTELLECTUAL_INFLUENCE",
+    "PARALLEL_THEME_NOT_DIRECT_CAUSALITY",
+    "POSTHUMOUS_REINTERPRETATION",
+    "INSTITUTIONAL_TRANSITION",
+    "CONFLICT",
+    "NEGOTIATION",
+    "LONG_TERM_CONTEXT"
+  ],
+  "inter_arc_relationships": [
+    {
+      "id": "R414-01",
+      "from_arc": "A414-03",
+      "to_arc": "A414-05",
+      "relation_type": "PARTIAL_INTELLECTUAL_INFLUENCE",
+      "annotation": "후스의 위클리프 교회론·실재론의 부분 수용, 성찬론의 차이는 유지",
+      "source_ids": [
+        "S414-05",
+        "S414-06"
+      ]
+    },
+    {
+      "id": "R414-02",
+      "from_arc": "A414-03",
+      "to_arc": "A414-04",
+      "relation_type": "PARALLEL_THEME_NOT_DIRECT_CAUSALITY",
+      "annotation": "위클리프의 영향과 중세 영어 성경 협업·소유자 다양성을 구분",
+      "source_ids": [
+        "S414-03",
+        "S414-04",
+        "S414-16"
+      ]
+    },
+    {
+      "id": "R414-03",
+      "from_arc": "A414-05",
+      "to_arc": "A414-06",
+      "relation_type": "POSTHUMOUS_REINTERPRETATION",
+      "annotation": "후스 사후 공동 개혁 요구; 1414년 양형성찬은 생전에도 논의",
+      "source_ids": [
+        "S414-07",
+        "S414-08"
+      ]
+    },
+    {
+      "id": "R414-04",
+      "from_arc": "A414-06",
+      "to_arc": "A414-07",
+      "relation_type": "CONFLICT",
+      "annotation": "공동 강령과 후스파 내부 신학·전쟁 차이",
+      "source_ids": [
+        "S414-07",
+        "S414-08"
+      ]
+    },
+    {
+      "id": "R414-05",
+      "from_arc": "A414-06",
+      "to_arc": "A414-08",
+      "relation_type": "NEGOTIATION",
+      "annotation": "프라하 요구→바젤 협상·지역 공포, 원문 동일성 주장 금지",
+      "source_ids": [
+        "S414-09"
+      ]
+    },
+    {
+      "id": "R414-06",
+      "from_arc": "A414-07",
+      "to_arc": "A414-09",
+      "relation_type": "INSTITUTIONAL_TRANSITION",
+      "annotation": "후스파 일부 전통과 첼치츠키 사상에서 형제단 조직 형성",
+      "source_ids": [
+        "S414-10",
+        "S414-11"
+      ]
+    },
+    {
+      "id": "R414-07",
+      "from_arc": "A414-01",
+      "to_arc": "A414-05",
+      "relation_type": "PARALLEL_THEME_NOT_DIRECT_CAUSALITY",
+      "annotation": "경건 개혁과 프라하 설교의 동시대적 관심, 직접 조직 계보 아님",
+      "source_ids": [
+        "S414-14",
+        "S414-05"
+      ]
+    },
+    {
+      "id": "R414-08",
+      "from_arc": "A414-02",
+      "to_arc": "A414-09",
+      "relation_type": "PARALLEL_THEME_NOT_DIRECT_CAUSALITY",
+      "annotation": "왈도파·형제단의 별도 역사, 후대 개혁 교류가 존재",
+      "source_ids": [
+        "S414-12",
+        "S414-11"
+      ]
+    }
+  ],
+  "cross_volume_links": [
+    {
+      "id": "CV414-01",
+      "from_volume": "VOL-02",
+      "to_volume": "VOL-03",
+      "source_ref": "ARC413-13",
+      "target_ref": "A414-01",
+      "relation_type": "LONG_TERM_CONTEXT",
+      "rationale": "중세 대학·수도원·교권과 평신도 경건 개혁을 이어 보되 중세 부패 일색 서술 방지"
+    },
+    {
+      "id": "CV414-02",
+      "from_volume": "VOL-03",
+      "to_volume": "VOL-04",
+      "source_ref": "A414-05",
+      "target_ref": "ER-08",
+      "relation_type": "POSTHUMOUS_REINTERPRETATION",
+      "rationale": "후스와 1519 루터의 후대 신학적 재해석; 직접 만남 아님"
+    },
+    {
+      "id": "CV414-03",
+      "from_volume": "VOL-03",
+      "to_volume": "VOL-04",
+      "source_ref": "A414-02",
+      "target_ref": "ER-11",
+      "relation_type": "INSTITUTIONAL_TRANSITION",
+      "rationale": "왈도파와 1530~1532년 개혁파 접촉 및 후대 자기서술"
+    },
+    {
+      "id": "CV414-04",
+      "from_volume": "VOL-03",
+      "to_volume": "VOL-04",
+      "source_ref": "A414-09",
+      "target_ref": "ER-08",
+      "relation_type": "DIRECT_DOCUMENTARY_RECEPTION",
+      "rationale": "보헤미아 형제단의 16세기 비텐베르크 교류"
+    },
+    {
+      "id": "CV414-05",
+      "from_volume": "VOL-03",
+      "to_volume": "VOL-05",
+      "source_ref": "A414-01",
+      "target_ref": "A409-01",
+      "relation_type": "PARALLEL_THEME_NOT_DIRECT_CAUSALITY",
+      "rationale": "교회 내부 쇄신과 가톨릭 종교개혁 전통을 중세·근세의 독립적 흐름으로 비교"
+    },
+    {
+      "id": "CV414-06",
+      "from_volume": "VOL-03",
+      "to_volume": "VOL-05",
+      "source_ref": "A414-08",
+      "target_ref": "A409-05",
+      "relation_type": "LONG_TERM_CONTEXT",
+      "rationale": "교권·정치·갈등·협상이라는 장기 질문, 동일 법령 아님"
+    },
+    {
+      "id": "CV414-07",
+      "from_volume": "VOL-03",
+      "to_volume": "VOL-08",
+      "source_ref": "A414-04",
+      "target_ref": null,
+      "relation_type": "THEMATIC_INDEX_PENDING_V415",
+      "rationale": "성경 번역·소유·해석과 문헌 권위"
+    },
+    {
+      "id": "CV414-08",
+      "from_volume": "VOL-03",
+      "to_volume": "VOL-08",
+      "source_ref": "A414-03",
+      "target_ref": null,
+      "relation_type": "THEMATIC_INDEX_PENDING_V415",
+      "rationale": "성찬·교회론·성경 권위의 신학적 차이"
+    },
+    {
+      "id": "CV414-09",
+      "from_volume": "VOL-03",
+      "to_volume": "VOL-08",
+      "source_ref": "A414-08",
+      "target_ref": null,
+      "relation_type": "THEMATIC_INDEX_PENDING_V415",
+      "rationale": "공의회·강령·협상·법적 공포 문헌 유형 구분"
+    }
+  ],
+  "comparative_questions": [
+    {
+      "id": "Q414-01",
+      "question": "왈도파의 12세기 출발과 1532년 종교개혁 합류가 같은 사건인가?",
+      "arc_ids": [
+        "A414-02"
+      ],
+      "level": "L0"
+    },
+    {
+      "id": "Q414-02",
+      "question": "위클리프 개인이 모든 중세 영어 성경을 번역했는가?",
+      "arc_ids": [
+        "A414-03",
+        "A414-04"
+      ],
+      "level": "L0"
+    },
+    {
+      "id": "Q414-03",
+      "question": "위클리프와 후스가 성찬론에서 같은가?",
+      "arc_ids": [
+        "A414-03",
+        "A414-05"
+      ],
+      "level": "L0"
+    },
+    {
+      "id": "Q414-04",
+      "question": "양형 영성체는 곧 상징적 성찬설인가?",
+      "arc_ids": [
+        "A414-05",
+        "A414-06"
+      ],
+      "level": "L0"
+    },
+    {
+      "id": "Q414-05",
+      "question": "후스의 생전 사상과 후스파 전쟁은 같은 행위 주체인가?",
+      "arc_ids": [
+        "A414-05",
+        "A414-07"
+      ],
+      "level": "L0"
+    },
+    {
+      "id": "Q414-06",
+      "question": "프라하 4개조와 콤팍타타는 동일 문서인가?",
+      "arc_ids": [
+        "A414-06",
+        "A414-08"
+      ],
+      "level": "L0"
+    },
+    {
+      "id": "Q414-07",
+      "question": "후스파 내부의 성찬파·타보르파·형제단은 왜 구분되어야 하는가?",
+      "arc_ids": [
+        "A414-07",
+        "A414-09"
+      ],
+      "level": "L0"
+    },
+    {
+      "id": "Q414-08",
+      "question": "모든 중세 개혁이 교단 분리와 폭력으로 이어졌는가?",
+      "arc_ids": [
+        "A414-01",
+        "A414-07"
+      ],
+      "level": "L0"
+    }
+  ],
+  "known_disagreements_and_precision": [
+    {
+      "issue": "ENGLISH_BIBLE_WYCLIF_AUTHORSHIP",
+      "status": "SCHOLARLY_DISPUTE",
+      "rule": "Do not assign direct sole authorship; distinguish manuscripts, translators, audience, devotional use",
+      "source_ids": [
+        "S414-03",
+        "S414-04",
+        "S414-16"
+      ]
+    },
+    {
+      "issue": "HUS_EUCHARIST_VS_WYCLIF",
+      "status": "DOCUMENTED_DISTINCTION_SECONDARY_SCHOLARSHIP",
+      "rule": "Hus accepted transubstantiation; Wyclif rejected it; do not infer identical doctrine",
+      "source_ids": [
+        "S414-02",
+        "S414-05",
+        "S414-06"
+      ]
+    },
+    {
+      "issue": "FOUR_ARTICLES_DATE",
+      "status": "MULTI_STAGE_1420_1421",
+      "rule": "Display formation and promulgation stages separately, exact version date to L2",
+      "source_ids": [
+        "S414-08",
+        "S414-09"
+      ]
+    },
+    {
+      "issue": "COMPACTATA_DATE",
+      "status": "NEGOTIATION_1433_VS_PROMULGATION_1436",
+      "rule": "Treat battle of Lipany 1434 separately",
+      "source_ids": [
+        "S414-09"
+      ]
+    },
+    {
+      "issue": "CHANFORAN_SYNOD_LABEL",
+      "status": "LATER_HISTORIOGRAPHICAL_NAME",
+      "rule": "Do not present 1532 contemporaries as having used a name introduced in 1847",
+      "source_ids": [
+        "S414-13"
+      ]
+    }
+  ],
+  "next": [
+    {
+      "priority": 1,
+      "version": "V4.15",
+      "task": "VOL-08 six thematic cross-volume readers across all 8 volumes"
+    },
+    {
+      "priority": 2,
+      "version": "V4.16",
+      "task": "8-volume L0 historicity, rights, duplicates and cross-volume navigational QA"
+    }
+  ],
+  "release": {
+    "can_ship": false,
+    "manual_editorial_approval": false,
+    "main_modified": false,
+    "existing_513_modified": false,
+    "AI_Studio_modified": false,
+    "canonical_vol03_modified": false,
+    "V3_original_witness_research_modified": false,
+    "primary_manuscript_newly_collated": false,
+    "rights_cleared_for_images": false,
+    "visual_asset_embedded": false
+  },
+  "validation": {
+    "source_count": 16,
+    "macro_arc_count": 9,
+    "milestone_count": 22,
+    "movement_relation_count": 8,
+    "cross_volume_link_count": 9,
+    "comparative_question_count": 8,
+    "broken_references": [],
+    "source_access_verified_at_public_summary_level_only": true
+  }
+}
