@@ -1,0 +1,71 @@
+{
+  "schema": "ATLAS_V437_INTEGRITY_AND_RESEARCH_RELEASE_GATE",
+  "date": "2026-11-18",
+  "version": "V4.37",
+  "status": "PASS",
+  "audits": [
+    "All 8 expanded L0 volumes mapped to 29 existing CL433 claim identifiers",
+    "All 5 V4.34 editing anchors remain unique in V4.32 originals",
+    "Research-only proposal 1715 vs 1719 does not claim invented physical 1719 exemplar",
+    "V4.29 app JSON Git blob is identical to frozen source",
+    "Actual expert signoffs and reader evaluation sessions remain zero",
+    "8 volumes include 7 chronological and 1 thematic index, not eight historical eras",
+    "No app staging deployment and no main branch merge authorized"
+  ],
+  "provenance": [
+    {
+      "path": "research/data/V4_37_TAMIL_1719_PROVENANCE_ADJUDICATION.json",
+      "blobSha": "e2fb8d3b8f1514bae707c5ac06ce573f40713523"
+    },
+    {
+      "path": "research/data/V4_37_EIGHT_VOLUME_EXPANDED_READER_REVIEW_PACKET.json",
+      "blobSha": "e759f9f593467deb943be4a7f4c417853df26d5d"
+    },
+    {
+      "path": "research/data/V4_32_EIGHT_VOLUME_EXPANDED_READER_CANDIDATE.json",
+      "blobSha": "3f243a618cde4dd7a3c4459b6efcba799c02d80b"
+    },
+    {
+      "path": "research/data/V4_33_EVIDENCE_DECISION_LEDGER_DRAFT.json",
+      "blobSha": "ff24234613dc2fa8786bfcd78edb2207aaeeb6d0"
+    },
+    {
+      "path": "research/data/V4_34_FIVE_CLAIM_PRIMARY_SOURCE_DIFF_CANDIDATE.json",
+      "blobSha": "93a16a57bd0fd1a6237eff1bce1f0f16f6dbe82b"
+    },
+    {
+      "path": "handoff/V429_AI_STUDIO_PRIVATE_L0_CONTENT_IMPORT.json",
+      "blobSha": "64c27c0dfe05394acbb049807e4c4384d58908b9"
+    }
+  ],
+  "counts": {
+    "historicalVolumes": 7,
+    "comparativeArchiveVolumes": 1,
+    "expandedVolumes": 8,
+    "historicalClaims": 29,
+    "claimTypes": {
+      "SOURCE_SUPPORTED": 13,
+      "REVIEW_REQUIRED": 10,
+      "HOLD": 3,
+      "STRUCTURE": 3
+    },
+    "uniqueEvidenceSources": 8,
+    "tamilConclusions": 4,
+    "v434ReviewedDiffAnchors": 5,
+    "appVolumes": 8,
+    "appThemes": 6,
+    "appLinks": 42,
+    "appIntroChapters": 6,
+    "realReaderSessions": 0,
+    "expertSignoffs": 0,
+    "appChanges": 0
+  },
+  "release": {
+    "canShip": false,
+    "canMergeMain": false,
+    "canImportAIStudio": false,
+    "canAssert1719Reprint": false,
+    "canAssertOriginalFolioCollation": false
+  },
+  "issues": []
+}
