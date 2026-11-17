@@ -124,7 +124,7 @@ test("unknown ids, URL-looking ids or wrong route kinds resolve to null",()=>{
 });
 rejects("reject missing declared host access",()=>make(pkg,{}));
 rejects("reject public environment even with access flag",()=>make(pkg,{environment:"PUBLIC",accessControlDeclared:true}));
-rejects("reject absent host declaration",()=>make(pkg));
+rejects("reject absent host declaration",()=>createAtlasL0ReadOnlyBridge(pkg));
 rejects("reject release-gate unlock canShip",()=>make(corrupt(x=>{x.privacyAndRights.canShip=true;})));
 rejects("reject public indexable data",()=>make(corrupt(x=>{x.privacyAndRights.allowsPublicIndexing=true;})));
 rejects("reject fabricated historian signoff",()=>make(corrupt(x=>{x.integrationChecks.realHistorianReviewCompleted=true;})));
