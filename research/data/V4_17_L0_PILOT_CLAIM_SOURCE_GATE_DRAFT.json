@@ -1,0 +1,826 @@
+{
+  "version": "V4.17",
+  "date": "2026-11-17",
+  "status": "L0_EDITORIAL_PILOT_PREPARED_PUBLIC_RELEASE_BLOCKED",
+  "level": "L0",
+  "branch": "research/atlas-v417-release-candidate-source-claim-pilot-l0",
+  "parent_branch": "research/atlas-v416-l0-eight-volume-release-readiness-audit",
+  "reader_document": "docs/01_CONTENT/OVERVIEW/V417_L0_EDITORIAL_RELEASE_CANDIDATE_READERS_JOURNEY_KO.md",
+  "previous_audit": "research/data/V4_16_EIGHT_VOLUME_L0_RELEASE_READINESS_AUDIT_DRAFT.json",
+  "sources": [
+    {
+      "id": "SRC417-01",
+      "title": "Vatican Nicaea historical reception",
+      "url": "https://www.vatican.va/roman_curia/congregations/cfaith/cti_documents/rc_cti_doc_20250403_1700-nicea_en.html",
+      "source_type": "CHURCH_HISTORICAL_OVERVIEW",
+      "access_level": "PUBLIC_EXCERPT",
+      "full_work_read": false,
+      "primary_manuscript_collated_in_v417": false,
+      "copyright_clearance": false,
+      "source_republished": false
+    },
+    {
+      "id": "SRC417-02",
+      "title": "World Council of Churches Oriental Orthodox",
+      "url": "https://www.oikoumene.org/church-families/orthodox-churches-oriental",
+      "source_type": "ECUMENICAL_CHURCH_SELF_DESCRIPTION",
+      "access_level": "PUBLIC_EXCERPT",
+      "full_work_read": false,
+      "primary_manuscript_collated_in_v417": false,
+      "copyright_clearance": false,
+      "source_republished": false
+    },
+    {
+      "id": "SRC417-03",
+      "title": "Birmingham University Nestorian Stele",
+      "url": "https://epapers.bham.ac.uk/id/eprint/755/",
+      "source_type": "UNIVERSITY_OBJECT_DESCRIPTION",
+      "access_level": "PUBLIC_PAGE",
+      "full_work_read": false,
+      "primary_manuscript_collated_in_v417": false,
+      "copyright_clearance": false,
+      "source_republished": false
+    },
+    {
+      "id": "SRC417-04",
+      "title": "Penn Museum Nestorian Stele record",
+      "url": "https://collections.penn.museum/collections/object/172060",
+      "source_type": "MUSEUM_OBJECT_CATALOG",
+      "access_level": "PUBLIC_PAGE",
+      "full_work_read": false,
+      "primary_manuscript_collated_in_v417": false,
+      "copyright_clearance": false,
+      "source_republished": false
+    },
+    {
+      "id": "SRC417-05",
+      "title": "Metropolitan Museum Aksum Ezana",
+      "url": "https://www.metmuseum.org/pt/essays/african-christianity-in-ethiopia",
+      "source_type": "MUSEUM_ACADEMIC_OVERVIEW",
+      "access_level": "PUBLIC_PAGE",
+      "full_work_read": false,
+      "primary_manuscript_collated_in_v417": false,
+      "copyright_clearance": false,
+      "source_republished": false
+    },
+    {
+      "id": "SRC417-06",
+      "title": "Stanford Philosophy John Wyclif",
+      "url": "https://plato.stanford.edu/entries/wyclif/",
+      "source_type": "ACADEMIC_ENCYCLOPEDIA",
+      "access_level": "PUBLIC_PAGE",
+      "full_work_read": false,
+      "primary_manuscript_collated_in_v417": false,
+      "copyright_clearance": false,
+      "source_republished": false
+    },
+    {
+      "id": "SRC417-07",
+      "title": "Cambridge Wyclif and Hussite Theology",
+      "url": "https://www.cambridge.org/core/journals/church-history/article/abs/john-wyclif-and-hussite-theology-14151436/54C10C6F7EEFB5409E2291C9F4194ABF",
+      "source_type": "SCHOLARLY_ARTICLE_EXTRACT",
+      "access_level": "ABSTRACT_AND_EXCERPT_ONLY",
+      "full_work_read": false,
+      "primary_manuscript_collated_in_v417": false,
+      "copyright_clearance": false,
+      "source_republished": false
+    },
+    {
+      "id": "SRC417-08",
+      "title": "GHDI Marburg Articles 1529",
+      "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/the-marburg-colloquy-the-marburg-articles-1529",
+      "source_type": "HISTORICAL_SOURCE_TRANSLATION",
+      "access_level": "PUBLIC_TRANSLATION",
+      "full_work_read": false,
+      "primary_manuscript_collated_in_v417": false,
+      "copyright_clearance": false,
+      "source_republished": false
+    },
+    {
+      "id": "SRC417-09",
+      "title": "Oxford Calvin Institutes 1536-1559",
+      "url": "https://academic.oup.com/book/50318/chapter-abstract/422710493",
+      "source_type": "ACADEMIC_BOOK_CHAPTER",
+      "access_level": "ABSTRACT_ONLY",
+      "full_work_read": false,
+      "primary_manuscript_collated_in_v417": false,
+      "copyright_clearance": false,
+      "source_republished": false
+    },
+    {
+      "id": "SRC417-10",
+      "title": "Masaryk University Four Articles Basel",
+      "url": "https://www.muni.cz/en/research/publications/2437517",
+      "source_type": "ACADEMIC_CHAPTER_METADATA",
+      "access_level": "ABSTRACT_ONLY",
+      "full_work_read": false,
+      "primary_manuscript_collated_in_v417": false,
+      "copyright_clearance": false,
+      "source_republished": false
+    },
+    {
+      "id": "SRC417-11",
+      "title": "Oxford Compacts of Jihlava 1436",
+      "url": "https://academic.oup.com/book/60719/chapter-abstract/527873569",
+      "source_type": "ACADEMIC_BOOK_CHAPTER",
+      "access_level": "ABSTRACT_ONLY",
+      "full_work_read": false,
+      "primary_manuscript_collated_in_v417": false,
+      "copyright_clearance": false,
+      "source_republished": false
+    },
+    {
+      "id": "SRC417-12",
+      "title": "GHDI Peace of Augsburg 1555",
+      "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/ghdi%3Adocument-4386",
+      "source_type": "HISTORICAL_SOURCE_TRANSLATION",
+      "access_level": "PUBLIC_TRANSLATION",
+      "full_work_read": false,
+      "primary_manuscript_collated_in_v417": false,
+      "copyright_clearance": false,
+      "source_republished": false
+    },
+    {
+      "id": "SRC417-13",
+      "title": "Francke Ziegenbalg 1706 letter",
+      "url": "https://digital.francke-halle.de/mod5a/content/titleinfo/1220645",
+      "source_type": "ARCHIVE_CATALOG",
+      "access_level": "METADATA_ONLY",
+      "full_work_read": false,
+      "primary_manuscript_collated_in_v417": false,
+      "copyright_clearance": false,
+      "source_republished": false
+    },
+    {
+      "id": "SRC417-14",
+      "title": "Boston University Ziegenbalg biography",
+      "url": "https://www.bu.edu/missiology/missionary-biography/w-x-y-z/ziegenbalg-bartholomaus-1682-1719/",
+      "source_type": "UNIVERSITY_HISTORICAL_OVERVIEW",
+      "access_level": "PUBLIC_PAGE",
+      "full_work_read": false,
+      "primary_manuscript_collated_in_v417": false,
+      "copyright_clearance": false,
+      "source_republished": false
+    },
+    {
+      "id": "SRC417-15",
+      "title": "KCI Korean Catholic church origin debates",
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003153946",
+      "source_type": "SCHOLARLY_ARTICLE",
+      "access_level": "ABSTRACT_ONLY",
+      "full_work_read": false,
+      "primary_manuscript_collated_in_v417": false,
+      "copyright_clearance": false,
+      "source_republished": false
+    },
+    {
+      "id": "SRC417-16",
+      "title": "Korean Bible Society historic editions",
+      "url": "https://www.bskorea.or.kr/bbs/content.php?co_id=subpage2_3_3_4&device=pc",
+      "source_type": "HISTORIC_BOOK_OBJECT_CATALOG",
+      "access_level": "PUBLIC_METADATA",
+      "full_work_read": false,
+      "primary_manuscript_collated_in_v417": false,
+      "copyright_clearance": false,
+      "source_republished": false
+    },
+    {
+      "id": "SRC417-17",
+      "title": "Korean Heritage Service Jesusseonggyojeonseo",
+      "url": "https://digital.khs.go.kr/heri/heriDetail.do?ctptNo=4411106690000&ctptUid=13983497666424036046",
+      "source_type": "STATE_CULTURAL_HERITAGE_CATALOG",
+      "access_level": "PUBLIC_PAGE",
+      "full_work_read": false,
+      "primary_manuscript_collated_in_v417": false,
+      "copyright_clearance": false,
+      "source_republished": false
+    },
+    {
+      "id": "SRC417-18",
+      "title": "Trent Session VI historical text",
+      "url": "https://www.papalencyclicals.net/councils/trent/sixth-session.htm",
+      "source_type": "HISTORIC_COUNCIL_TEXT_TRANSLATION",
+      "access_level": "PUBLIC_TRANSLATION",
+      "full_work_read": false,
+      "primary_manuscript_collated_in_v417": false,
+      "copyright_clearance": false,
+      "source_republished": false
+    },
+    {
+      "id": "SRC417-19",
+      "title": "Lutheran Catechesis Augsburg Variata",
+      "url": "https://lutherisch.org/en/augsburger-bekenntnis/",
+      "source_type": "LUTHERAN_EXPLANATORY_HISTORY",
+      "access_level": "PUBLIC_PAGE",
+      "full_work_read": false,
+      "primary_manuscript_collated_in_v417": false,
+      "copyright_clearance": false,
+      "source_republished": false
+    },
+    {
+      "id": "SRC417-20",
+      "title": "American Waldensian Society 1532 1847 terms",
+      "url": "https://www.waldensian.org/history/encounters-with-the-reformation-in-the-1530s/",
+      "source_type": "DENOMINATIONAL_HISTORICAL_OVERVIEW",
+      "access_level": "PUBLIC_PAGE",
+      "full_work_read": false,
+      "primary_manuscript_collated_in_v417": false,
+      "copyright_clearance": false,
+      "source_republished": false
+    }
+  ],
+  "claims": [
+    {
+      "id": "C417-01",
+      "theme_id": "T415-01",
+      "landing_ref": "ARC413-04",
+      "evidence_ref": "ARC413-04",
+      "claim": "325 Nicaea and 381 reception stages differ",
+      "source_ids": [
+        "SRC417-01"
+      ],
+      "review_level": "SUPPORTED_WITH_QUALIFICATION",
+      "chronology": [
+        "325 council",
+        "381 Constantinople"
+      ],
+      "allow_public_release": false,
+      "human_review_complete": false,
+      "source_full_quote_license_cleared": false
+    },
+    {
+      "id": "C417-02",
+      "theme_id": "T415-01",
+      "landing_ref": "ARC413-04",
+      "evidence_ref": "ARC413-04",
+      "claim": "451 Chalcedon was received differently by Oriental and Eastern Orthodox",
+      "source_ids": [
+        "SRC417-02"
+      ],
+      "review_level": "SUPPORTED_WITH_QUALIFICATION",
+      "chronology": [
+        "451 council"
+      ],
+      "allow_public_release": false,
+      "human_review_complete": false,
+      "source_full_quote_license_cleared": false
+    },
+    {
+      "id": "C417-03",
+      "theme_id": "T415-06",
+      "landing_ref": "ARC413-03",
+      "evidence_ref": "ARC413-03",
+      "claim": "Ezana and Aksum adopted Christianity in the fourth century",
+      "source_ids": [
+        "SRC417-05"
+      ],
+      "review_level": "SUPPORTED_FOR_L0_DRAFT",
+      "chronology": [
+        "fourth century"
+      ],
+      "allow_public_release": false,
+      "human_review_complete": false,
+      "source_full_quote_license_cleared": false
+    },
+    {
+      "id": "C417-04",
+      "theme_id": "T415-06",
+      "landing_ref": "ARC413-09",
+      "evidence_ref": "ARC413-09",
+      "claim": "Stele erected 781 retrospectively reports arrival 635",
+      "source_ids": [
+        "SRC417-03",
+        "SRC417-04"
+      ],
+      "review_level": "SUPPORTED_FOR_L0_DRAFT",
+      "chronology": [
+        "635 reported event",
+        "781 witness made"
+      ],
+      "allow_public_release": false,
+      "human_review_complete": false,
+      "source_full_quote_license_cleared": false
+    },
+    {
+      "id": "C417-05",
+      "theme_id": "T415-01",
+      "landing_ref": "A414-03",
+      "evidence_ref": "A414-03",
+      "claim": "Wyclif claimed substance of bread remains after Eucharistic consecration",
+      "source_ids": [
+        "SRC417-06"
+      ],
+      "review_level": "SUPPORTED_FOR_L0_DRAFT",
+      "chronology": [
+        "around 1380"
+      ],
+      "allow_public_release": false,
+      "human_review_complete": false,
+      "source_full_quote_license_cleared": false
+    },
+    {
+      "id": "C417-06",
+      "theme_id": "T415-03",
+      "landing_ref": "A414-06",
+      "evidence_ref": "A414-05",
+      "claim": "Hus accepted transubstantiation unlike Wyclif",
+      "source_ids": [
+        "SRC417-07"
+      ],
+      "review_level": "SUPPORTED_WITH_QUALIFICATION",
+      "chronology": [
+        "Hus lived 14th-15th centuries"
+      ],
+      "allow_public_release": false,
+      "human_review_complete": false,
+      "source_full_quote_license_cleared": false
+    },
+    {
+      "id": "C417-07",
+      "theme_id": "T415-01",
+      "landing_ref": "A414-03",
+      "evidence_ref": "A414-05",
+      "claim": "Hus selectively received Wyclif but was a distinct Bohemian reformer",
+      "source_ids": [
+        "SRC417-07"
+      ],
+      "review_level": "SUPPORTED_WITH_QUALIFICATION",
+      "chronology": [
+        "early 15th century"
+      ],
+      "allow_public_release": false,
+      "human_review_complete": false,
+      "source_full_quote_license_cleared": false
+    },
+    {
+      "id": "C417-08",
+      "theme_id": "T415-03",
+      "landing_ref": "E408-11",
+      "evidence_ref": "E408-11",
+      "claim": "Marburg Articles 1529 did not resolve Eucharistic presence disagreement",
+      "source_ids": [
+        "SRC417-08"
+      ],
+      "review_level": "SUPPORTED_FOR_L0_DRAFT",
+      "chronology": [
+        "1529 meeting"
+      ],
+      "allow_public_release": false,
+      "human_review_complete": false,
+      "source_full_quote_license_cleared": false
+    },
+    {
+      "id": "C417-09",
+      "theme_id": "T415-05",
+      "landing_ref": "A414-08",
+      "evidence_ref": "A414-08",
+      "claim": "Four Articles around 1420-1421 differ from 1433 debate and 1436 Jihlava compactata",
+      "source_ids": [
+        "SRC417-10",
+        "SRC417-11"
+      ],
+      "review_level": "SUPPORTED_WITH_QUALIFICATION",
+      "chronology": [
+        "1420 draft",
+        "1421 promulgation",
+        "1433 negotiation",
+        "1436 promulgation"
+      ],
+      "allow_public_release": false,
+      "human_review_complete": false,
+      "source_full_quote_license_cleared": false
+    },
+    {
+      "id": "C417-10",
+      "theme_id": "T415-05",
+      "landing_ref": "A409-05",
+      "evidence_ref": "A409-05",
+      "claim": "Augsburg Peace 1555 was limited, Westphalia 1648 later opened status to Reformed",
+      "source_ids": [
+        "SRC417-12"
+      ],
+      "review_level": "SUPPORTED_FOR_L0_DRAFT",
+      "chronology": [
+        "1555 settlement",
+        "1648 additional settlement"
+      ],
+      "allow_public_release": false,
+      "human_review_complete": false,
+      "source_full_quote_license_cleared": false
+    },
+    {
+      "id": "C417-11",
+      "theme_id": "T415-02",
+      "landing_ref": "E408-12",
+      "evidence_ref": "E408-12",
+      "claim": "Augsburg Confession 1530 1531 1540 events must not be merged",
+      "source_ids": [
+        "SRC417-19"
+      ],
+      "review_level": "SUPPORTED_WITH_QUALIFICATION",
+      "chronology": [
+        "1530 Diet",
+        "1531 initial print",
+        "1540 Variata"
+      ],
+      "allow_public_release": false,
+      "human_review_complete": false,
+      "source_full_quote_license_cleared": false
+    },
+    {
+      "id": "C417-12",
+      "theme_id": "T415-03",
+      "landing_ref": "E408-11",
+      "evidence_ref": "E408-11",
+      "claim": "Calvin Institutes 1536 first Latin and 1559 final Latin are different editions",
+      "source_ids": [
+        "SRC417-09"
+      ],
+      "review_level": "ABSTRACT_OR_METADATA_ONLY",
+      "chronology": [
+        "1536 first Latin",
+        "1559 final Latin",
+        "1560 French"
+      ],
+      "allow_public_release": false,
+      "human_review_complete": false,
+      "source_full_quote_license_cleared": false
+    },
+    {
+      "id": "C417-13",
+      "theme_id": "T415-02",
+      "landing_ref": "A409-02",
+      "evidence_ref": "A409-02",
+      "claim": "Council of Trent Session VI addressed justification in 1547",
+      "source_ids": [
+        "SRC417-18"
+      ],
+      "review_level": "SUPPORTED_FOR_L0_DRAFT",
+      "chronology": [
+        "1547 January 13"
+      ],
+      "allow_public_release": false,
+      "human_review_complete": false,
+      "source_full_quote_license_cleared": false
+    },
+    {
+      "id": "C417-14",
+      "theme_id": "T415-06",
+      "landing_ref": "ARC412-02",
+      "evidence_ref": "ARC412-02",
+      "claim": "Ziegenbalg in Tranquebar in 1706 needed local Tamil collaborators",
+      "source_ids": [
+        "SRC417-13",
+        "SRC417-14"
+      ],
+      "review_level": "SUPPORTED_WITH_QUALIFICATION",
+      "chronology": [
+        "1706 letter October 1",
+        "1706 arrival"
+      ],
+      "allow_public_release": false,
+      "human_review_complete": false,
+      "source_full_quote_license_cleared": false
+    },
+    {
+      "id": "C417-15",
+      "theme_id": "T415-06",
+      "landing_ref": "A410-08",
+      "evidence_ref": "A410-07",
+      "claim": "Korean Catholic community formed in late eighteenth century associated with 1784",
+      "source_ids": [
+        "SRC417-15"
+      ],
+      "review_level": "SUPPORTED_WITH_QUALIFICATION",
+      "chronology": [
+        "1784 widely cited"
+      ],
+      "allow_public_release": false,
+      "human_review_complete": false,
+      "source_full_quote_license_cleared": false
+    },
+    {
+      "id": "C417-16",
+      "theme_id": "T415-06",
+      "landing_ref": "A410-08",
+      "evidence_ref": "A410-08",
+      "claim": "1882 Korean Gospel booklet is not complete New Testament",
+      "source_ids": [
+        "SRC417-16"
+      ],
+      "review_level": "SUPPORTED_FOR_L0_DRAFT",
+      "chronology": [
+        "1882 Gospel"
+      ],
+      "allow_public_release": false,
+      "human_review_complete": false,
+      "source_full_quote_license_cleared": false
+    },
+    {
+      "id": "C417-17",
+      "theme_id": "T415-06",
+      "landing_ref": "A410-08",
+      "evidence_ref": "A410-08",
+      "claim": "1887 Jesusseonggyojeonseo is complete Korean New Testament",
+      "source_ids": [
+        "SRC417-16",
+        "SRC417-17"
+      ],
+      "review_level": "SUPPORTED_FOR_L0_DRAFT",
+      "chronology": [
+        "1887 New Testament"
+      ],
+      "allow_public_release": false,
+      "human_review_complete": false,
+      "source_full_quote_license_cleared": false
+    },
+    {
+      "id": "C417-18",
+      "theme_id": "T415-04",
+      "landing_ref": "A414-01",
+      "evidence_ref": "A414-02",
+      "claim": "Waldensian 1532 meeting was later named Synod of Chanforan in 1847",
+      "source_ids": [
+        "SRC417-20"
+      ],
+      "review_level": "SUPPORTED_WITH_QUALIFICATION",
+      "chronology": [
+        "1532 meeting",
+        "1847 later label"
+      ],
+      "allow_public_release": false,
+      "human_review_complete": false,
+      "source_full_quote_license_cleared": false
+    },
+    {
+      "id": "C417-19",
+      "theme_id": "T415-05",
+      "landing_ref": "ARC413-12",
+      "evidence_ref": "ARC413-12",
+      "claim": "1054 and 1204 are separate episodes within long East-West division",
+      "source_ids": [],
+      "review_level": "INTERNAL_CONTEXT_PENDING_EXTERNAL",
+      "chronology": [
+        "1054 symbolic",
+        "1204 fourth crusade"
+      ],
+      "allow_public_release": false,
+      "human_review_complete": false,
+      "source_full_quote_license_cleared": false
+    },
+    {
+      "id": "C417-20",
+      "theme_id": "T415-04",
+      "landing_ref": "A410-08",
+      "evidence_ref": "A410-08",
+      "claim": "1887 Korean NT translation involved Korean partners with Ross and Macintyre",
+      "source_ids": [
+        "SRC417-16",
+        "SRC417-17"
+      ],
+      "review_level": "SUPPORTED_FOR_L0_DRAFT",
+      "chronology": [
+        "1887 New Testament"
+      ],
+      "allow_public_release": false,
+      "human_review_complete": false,
+      "source_full_quote_license_cleared": false
+    }
+  ],
+  "reader_pilot": {
+    "actually_tested": false,
+    "participants_actual": 0,
+    "results_actual": [],
+    "script": [
+      {
+        "id": "P417-01",
+        "start_minute": 0,
+        "end_minute": 1,
+        "claim_ids": [
+          "C417-03"
+        ],
+        "intended_takeaway": "Ancient Christianity outside Europe"
+      },
+      {
+        "id": "P417-02",
+        "start_minute": 1,
+        "end_minute": 3,
+        "claim_ids": [
+          "C417-01",
+          "C417-02",
+          "C417-05",
+          "C417-06",
+          "C417-07"
+        ],
+        "intended_takeaway": "Council and theological authority"
+      },
+      {
+        "id": "P417-03",
+        "start_minute": 3,
+        "end_minute": 5,
+        "claim_ids": [
+          "C417-08",
+          "C417-12"
+        ],
+        "intended_takeaway": "Marburg Eucharist differences"
+      },
+      {
+        "id": "P417-04",
+        "start_minute": 5,
+        "end_minute": 7,
+        "claim_ids": [
+          "C417-09",
+          "C417-10"
+        ],
+        "intended_takeaway": "Political settlement limits"
+      },
+      {
+        "id": "P417-05",
+        "start_minute": 7,
+        "end_minute": 9,
+        "claim_ids": [
+          "C417-04",
+          "C417-14",
+          "C417-15",
+          "C417-16",
+          "C417-17",
+          "C417-20"
+        ],
+        "intended_takeaway": "Translation and local agency"
+      },
+      {
+        "id": "P417-06",
+        "start_minute": 9,
+        "end_minute": 10,
+        "claim_ids": [],
+        "intended_takeaway": "Summary and original volume link"
+      }
+    ],
+    "questions": [
+      {
+        "id": "Q417-01",
+        "prompt": "Did Christianity begin in Asia and Africa after the European Reformation?",
+        "expected_meaning": "No",
+        "claim_ids": [
+          "C417-03",
+          "C417-04"
+        ]
+      },
+      {
+        "id": "Q417-02",
+        "prompt": "Did Hus agree with Wyclif on Eucharistic transubstantiation?",
+        "expected_meaning": "No",
+        "claim_ids": [
+          "C417-05",
+          "C417-06"
+        ]
+      },
+      {
+        "id": "Q417-03",
+        "prompt": "What was unresolved at Marburg 1529?",
+        "expected_meaning": "The mode of Christ's presence in Eucharist",
+        "claim_ids": [
+          "C417-08"
+        ]
+      },
+      {
+        "id": "Q417-04",
+        "prompt": "Was universal personal religious freedom established in Augsburg 1555?",
+        "expected_meaning": "No",
+        "claim_ids": [
+          "C417-10"
+        ]
+      },
+      {
+        "id": "Q417-05",
+        "prompt": "Why do 1882 and 1887 Korean Bible years differ?",
+        "expected_meaning": "Partial Gospels versus complete New Testament",
+        "claim_ids": [
+          "C417-16",
+          "C417-17"
+        ]
+      }
+    ],
+    "proposed_reader_count": 5,
+    "proposed_minimum_correct_per_reader": 4,
+    "proposed_minimum_readers_passing": 4,
+    "major_misconceptions_allowed": 0,
+    "measured_times": [],
+    "measured_accessibility": false
+  },
+  "date_precision_contract": [
+    {
+      "case": "NESTORIAN_STELE",
+      "claimed_arrival_year": 635,
+      "witness_stele_year": 781,
+      "relation": "LATER_RETROSPECTIVE_INSCRIPTION"
+    },
+    {
+      "case": "BASEL_COMPACTATA",
+      "articles_years": [
+        1420,
+        1421
+      ],
+      "negotiation_year": 1433,
+      "promulgation_year": 1436,
+      "relation": "DIFFERENT_DOCUMENT_LEGAL_PHASES"
+    },
+    {
+      "case": "AUGSBURG_CONFESSION",
+      "presentation": 1530,
+      "early_print": 1531,
+      "variata": 1540,
+      "relation": "DIFFERENT_EDITION_EVENTS"
+    },
+    {
+      "case": "CALVIN_INSTITUTES",
+      "first_latin": 1536,
+      "last_latin": 1559,
+      "french": 1560,
+      "relation": "DIFFERENT_EDITIONS"
+    },
+    {
+      "case": "CONFESSIONAL_SETTLEMENTS",
+      "augsburg": 1555,
+      "westphalia": 1648,
+      "relation": "DIFFERENT_LEGAL_SCOPE"
+    },
+    {
+      "case": "KOREAN_BIBLE",
+      "gospel_part": 1882,
+      "new_testament_complete": 1887,
+      "relation": "DIFFERENT_PRINTED_BOOKS"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G417-01",
+      "title": "Existing research ID and source matrix integrity",
+      "status": "PASS"
+    },
+    {
+      "id": "G417-02",
+      "title": "20 selected claims signoff by qualified human editors",
+      "status": "NOT_DONE"
+    },
+    {
+      "id": "G417-03",
+      "title": "All 144 previous source registrations grounded per claim",
+      "status": "NOT_DONE"
+    },
+    {
+      "id": "G417-04",
+      "title": "Historic primary editions and witness collation",
+      "status": "NOT_DONE"
+    },
+    {
+      "id": "G417-05",
+      "title": "Image/text/map/translation rights approval",
+      "status": "NOT_DONE"
+    },
+    {
+      "id": "G417-06",
+      "title": "Five real non-expert reader comprehension tests",
+      "status": "NOT_DONE"
+    },
+    {
+      "id": "G417-07",
+      "title": "Actual mobile accessibility and AI Studio staging E2E",
+      "status": "NOT_DONE"
+    },
+    {
+      "id": "G417-08",
+      "title": "Owner explicit publication/merge approval",
+      "status": "NOT_DONE"
+    }
+  ],
+  "release": {
+    "can_ship": false,
+    "main_modified": false,
+    "existing_513_modified": false,
+    "AI_Studio_modified": false,
+    "actual_10_minute_pilot_performed": false,
+    "expert_approved": false,
+    "rights_cleared": false,
+    "source_list_complete": false,
+    "source_urls_live_checked_only_for_selected_items": true
+  },
+  "validation": {
+    "claims": 20,
+    "source_records": 20,
+    "theme_coverage": {
+      "T415-01": 4,
+      "T415-02": 2,
+      "T415-03": 3,
+      "T415-04": 2,
+      "T415-05": 3,
+      "T415-06": 6
+    },
+    "unique_source_refs_used": 20,
+    "unique_evidence_refs": 15,
+    "pilot_stages": 6,
+    "pilot_questions": 5,
+    "broken_refs": []
+  },
+  "next_recommended": "V4.18: complete P0 source/rights/edition metadata for pilot before human/staging tests; do not autopublish"
+}
