@@ -1,0 +1,95 @@
+name: ATLAS V4.31 React L0 Private Integration Browser Evidence
+on:
+  push:
+    branches:
+      - research/atlas-v431-react-private-app-integration-candidate-l0
+    paths:
+      - "integrations/atlas-l0-v431/**"
+      - "research/tests/v431_react_browser.cjs"
+      - ".github/workflows/atlas-v431-react-integration.yml"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: atlas-v431-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  actual-react-private-consumer:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - name: Checkout unchanged research content and integration candidate
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Configure Node 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Install isolated test build dependencies
+        run: |
+          mkdir -p /tmp/atlas-v431-tools /tmp/atlas-v431-build
+          npm install --prefix /tmp/atlas-v431-tools --no-save --no-package-lock react@19.2.0 react-dom@19.2.0 esbuild@0.25.5 playwright@1.56.1
+          /tmp/atlas-v431-tools/node_modules/.bin/playwright install --with-deps chromium webkit
+      - name: Compile actual React component and V4.29 JSON only for localhost browser QA
+        run: |
+          node - <<'JS'
+          const esbuild = require('/tmp/atlas-v431-tools/node_modules/esbuild');
+          esbuild.buildSync({
+            entryPoints:['integrations/atlas-l0-v431/demo-entry.jsx'],
+            bundle:true,
+            platform:'browser',
+            format:'iife',
+            target:'es2022',
+            jsx:'automatic',
+            nodePaths:['/tmp/atlas-v431-tools/node_modules'],
+            outfile:'/tmp/atlas-v431-build/bundle.js',
+            logLevel:'info'
+          });
+          JS
+          test -s /tmp/atlas-v431-build/bundle.js
+          test -s /tmp/atlas-v431-build/bundle.css
+      - name: Test React integration in actual Chromium and WebKit
+        id: browser
+        env:
+          NODE_PATH: /tmp/atlas-v431-tools/node_modules
+        run: |
+          mkdir -p research/artifacts/V431_react_checks
+          set +e
+          node research/tests/v431_react_browser.cjs > research/artifacts/V431_react_checks/V431_BROWSER_STDOUT.txt 2>&1
+          CODE=$?
+          echo "exit_code=$CODE" >> "$GITHUB_OUTPUT"
+          tail -90 research/artifacts/V431_react_checks/V431_BROWSER_STDOUT.txt
+          exit 0
+      - name: Save test evidence only in V4.31 research branch
+        if: always()
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add research/artifacts/V431_react_checks/
+          if ! git diff --cached --quiet; then
+            git commit -m 'test(atlas): V4.31 actual React browser integration evidence [skip ci]'
+            git push origin HEAD:refs/heads/research/atlas-v431-react-private-app-integration-candidate-l0
+          fi
+      - name: Upload complete visual QA files
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: atlas-v431-react-private-qa-evidence
+          path: research/artifacts/V431_react_checks/
+          if-no-files-found: warn
+          retention-days: 14
+      - name: Enforce true browser pass for both engines
+        if: always()
+        env:
+          TEST_EXIT: ${{ steps.browser.outputs.exit_code }}
+        run: |
+          test "$TEST_EXIT" = 0
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          x=json.loads(Path('research/artifacts/V431_react_checks/V431_REACT_BROWSER_RESULTS.json').read_text())
+          assert x['status']=='PASS' and x['failed']==0,x
+          assert x['actualAIStudioStagingTested'] is False
+          assert x['canShip'] is False
+          PY
