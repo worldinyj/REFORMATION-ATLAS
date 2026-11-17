@@ -1,0 +1,653 @@
+{
+  "version": "V4.19",
+  "created": "2026-11-17",
+  "level": "L0",
+  "branch": "research/atlas-v419-eight-volume-reader-pilot-kit-l0",
+  "parent_branch": "research/atlas-v418-p0-claim-provenance-rights-pilot-freeze",
+  "status": "FIXED_NONPUBLIC_READER_SCRIPT_AND_FACILITATOR_EVALUATION_KIT_NOT_RUN",
+  "documents": {
+    "reader": {
+      "path": "docs/01_CONTENT/OVERVIEW/V419_EIGHT_VOLUME_TEN_MINUTE_READER_FROZEN_KO.md",
+      "blob_sha": "0b6ba21b1afe957e5b49e7f51d19972dd98f75eb",
+      "cut_for_participant_before_heading": "## 별도 편집자 확인: 독자에게 제공하지 않는 정보"
+    },
+    "facilitator": {
+      "path": "research/V419_L0_READER_EVALUATION_FACILITATOR_MANUAL_KO.md",
+      "blob_sha": "76d95f5325640ebb6a398eb8e1367358607ed2ab"
+    }
+  },
+  "data_dependencies": {
+    "claims_v418": {
+      "path": "research/data/V4_18_P0_CLAIM_EDITION_RIGHTS_PILOT_FREEZE_DRAFT.json",
+      "blob_sha": "6a664981bc4a32372517fdf0917f5ad307549e99"
+    },
+    "original_questions_v417": {
+      "path": "research/data/V4_17_L0_PILOT_CLAIM_SOURCE_GATE_DRAFT.json",
+      "blob_sha": "c2bd1a79ec107b9c787d6804e6ca83f5989e0b54"
+    },
+    "six_theme_anchors_v415": {
+      "path": "research/data/V4_15_SIX_THEMES_CROSS_VOLUME_L0_DRAFT.json",
+      "blob_sha": "7739153f0a85b7811198210c9aba6adaf5b0cb0a"
+    }
+  },
+  "claims": {
+    "total_reviewed": 20,
+    "accepted_for_private_text": [
+      {
+        "id": "C417-01",
+        "theme_id": "T415-01",
+        "landing_ref": "ARC413-04",
+        "evidence_ref": "ARC413-04",
+        "source_ids": [
+          "SRC417-01"
+        ]
+      },
+      {
+        "id": "C417-02",
+        "theme_id": "T415-01",
+        "landing_ref": "ARC413-04",
+        "evidence_ref": "ARC413-04",
+        "source_ids": [
+          "SRC417-02"
+        ]
+      },
+      {
+        "id": "C417-03",
+        "theme_id": "T415-06",
+        "landing_ref": "ARC413-03",
+        "evidence_ref": "ARC413-03",
+        "source_ids": [
+          "SRC417-05"
+        ]
+      },
+      {
+        "id": "C417-04",
+        "theme_id": "T415-06",
+        "landing_ref": "ARC413-09",
+        "evidence_ref": "ARC413-09",
+        "source_ids": [
+          "SRC417-03",
+          "SRC417-04"
+        ]
+      },
+      {
+        "id": "C417-05",
+        "theme_id": "T415-01",
+        "landing_ref": "A414-03",
+        "evidence_ref": "A414-03",
+        "source_ids": [
+          "SRC417-06"
+        ]
+      },
+      {
+        "id": "C417-06",
+        "theme_id": "T415-03",
+        "landing_ref": "A414-06",
+        "evidence_ref": "A414-05",
+        "source_ids": [
+          "SRC417-07"
+        ]
+      },
+      {
+        "id": "C417-07",
+        "theme_id": "T415-01",
+        "landing_ref": "A414-03",
+        "evidence_ref": "A414-05",
+        "source_ids": [
+          "SRC417-07"
+        ]
+      },
+      {
+        "id": "C417-08",
+        "theme_id": "T415-03",
+        "landing_ref": "E408-11",
+        "evidence_ref": "E408-11",
+        "source_ids": [
+          "SRC417-08"
+        ]
+      },
+      {
+        "id": "C417-09",
+        "theme_id": "T415-05",
+        "landing_ref": "A414-08",
+        "evidence_ref": "A414-08",
+        "source_ids": [
+          "SRC417-10",
+          "SRC417-11"
+        ]
+      },
+      {
+        "id": "C417-10",
+        "theme_id": "T415-05",
+        "landing_ref": "A409-05",
+        "evidence_ref": "A409-05",
+        "source_ids": [
+          "SRC417-12"
+        ]
+      },
+      {
+        "id": "C417-13",
+        "theme_id": "T415-02",
+        "landing_ref": "A409-02",
+        "evidence_ref": "A409-02",
+        "source_ids": [
+          "SRC417-18"
+        ]
+      },
+      {
+        "id": "C417-14",
+        "theme_id": "T415-06",
+        "landing_ref": "ARC412-02",
+        "evidence_ref": "ARC412-02",
+        "source_ids": [
+          "SRC417-13",
+          "SRC417-14"
+        ]
+      },
+      {
+        "id": "C417-15",
+        "theme_id": "T415-06",
+        "landing_ref": "A410-08",
+        "evidence_ref": "A410-07",
+        "source_ids": [
+          "SRC417-15"
+        ]
+      },
+      {
+        "id": "C417-16",
+        "theme_id": "T415-06",
+        "landing_ref": "A410-08",
+        "evidence_ref": "A410-08",
+        "source_ids": [
+          "SRC417-16"
+        ]
+      },
+      {
+        "id": "C417-17",
+        "theme_id": "T415-06",
+        "landing_ref": "A410-08",
+        "evidence_ref": "A410-08",
+        "source_ids": [
+          "SRC417-16",
+          "SRC417-17"
+        ]
+      },
+      {
+        "id": "C417-19",
+        "theme_id": "T415-05",
+        "landing_ref": "ARC413-12",
+        "evidence_ref": "ARC413-12",
+        "source_ids": [
+          "SRC418-21",
+          "SRC418-22"
+        ]
+      },
+      {
+        "id": "C417-20",
+        "theme_id": "T415-04",
+        "landing_ref": "A410-08",
+        "evidence_ref": "A410-08",
+        "source_ids": [
+          "SRC417-16",
+          "SRC417-17"
+        ]
+      }
+    ],
+    "held_in_editor_notes": [
+      {
+        "id": "C417-11",
+        "theme_id": "T415-02",
+        "reason": "1531_NOT_EARLIEST_UNAUTHORIZED_PRINT"
+      },
+      {
+        "id": "C417-12",
+        "theme_id": "T415-03",
+        "reason": "ONLY_PUBLIC_ACADEMIC_ABSTRACT_READ"
+      },
+      {
+        "id": "C417-18",
+        "theme_id": "T415-04",
+        "reason": "LATER_LABEL_NOT_CONTEMPORARY_NAME"
+      }
+    ],
+    "held_visible_in_reader_text": false
+  },
+  "thematic_coverage": [
+    {
+      "theme_id": "T415-01",
+      "title": "성경과 권위",
+      "history_volume_anchor_count": 7,
+      "covered_pilot_claim_ids": [
+        "C417-01",
+        "C417-02",
+        "C417-05",
+        "C417-07"
+      ]
+    },
+    {
+      "theme_id": "T415-02",
+      "title": "은총과 구원",
+      "history_volume_anchor_count": 7,
+      "covered_pilot_claim_ids": [
+        "C417-13"
+      ]
+    },
+    {
+      "theme_id": "T415-03",
+      "title": "성찬과 예배",
+      "history_volume_anchor_count": 7,
+      "covered_pilot_claim_ids": [
+        "C417-06",
+        "C417-08"
+      ]
+    },
+    {
+      "theme_id": "T415-04",
+      "title": "교회조직과 생활",
+      "history_volume_anchor_count": 7,
+      "covered_pilot_claim_ids": [
+        "C417-20"
+      ]
+    },
+    {
+      "theme_id": "T415-05",
+      "title": "국가·갈등·공존",
+      "history_volume_anchor_count": 7,
+      "covered_pilot_claim_ids": [
+        "C417-09",
+        "C417-10",
+        "C417-19"
+      ]
+    },
+    {
+      "theme_id": "T415-06",
+      "title": "번역과 지역 수용",
+      "history_volume_anchor_count": 7,
+      "covered_pilot_claim_ids": [
+        "C417-03",
+        "C417-04",
+        "C417-14",
+        "C417-15",
+        "C417-16",
+        "C417-17"
+      ]
+    }
+  ],
+  "reader_sequence": [
+    {
+      "stage_id": "S419-01",
+      "minutes": [
+        0,
+        1
+      ],
+      "purpose": "고대와 비유럽 지역 기독교의 역사",
+      "claims": [
+        "C417-03"
+      ],
+      "v415_themes": [
+        "T415-06"
+      ],
+      "reader_title": "시작: 유럽의 16세기가 모든 것의 출발은 아닙니다"
+    },
+    {
+      "stage_id": "S419-02",
+      "minutes": [
+        1,
+        3
+      ],
+      "purpose": "공의회/지역 수용/동서 교회/위클리프와 후스의 차이",
+      "claims": [
+        "C417-01",
+        "C417-02",
+        "C417-05",
+        "C417-06",
+        "C417-07",
+        "C417-19"
+      ],
+      "v415_themes": [
+        "T415-01",
+        "T415-03",
+        "T415-05"
+      ],
+      "reader_title": "교회의 권위: 같은 신앙에도 여러 역사가 있습니다"
+    },
+    {
+      "stage_id": "S419-03",
+      "minutes": [
+        3,
+        5
+      ],
+      "purpose": "성찬론의 여러 전통과 가톨릭 칭의 논의",
+      "claims": [
+        "C417-08",
+        "C417-13"
+      ],
+      "v415_themes": [
+        "T415-03",
+        "T415-02"
+      ],
+      "reader_title": "성찬과 구원: 16세기에도 답은 하나가 아니었습니다"
+    },
+    {
+      "stage_id": "S419-04",
+      "minutes": [
+        5,
+        7
+      ],
+      "purpose": "중세 후스파와 1555년 제한된 법적 타협",
+      "claims": [
+        "C417-09",
+        "C417-10"
+      ],
+      "v415_themes": [
+        "T415-05"
+      ],
+      "reader_title": "국가와 신앙: 합의는 누구를 보호했을까요?"
+    },
+    {
+      "stage_id": "S419-05",
+      "minutes": [
+        7,
+        9
+      ],
+      "purpose": "비문/현지 번역/한국어 성경 출판·행위자 구별",
+      "claims": [
+        "C417-04",
+        "C417-14",
+        "C417-15",
+        "C417-16",
+        "C417-17",
+        "C417-20"
+      ],
+      "v415_themes": [
+        "T415-06",
+        "T415-04"
+      ],
+      "reader_title": "세계와 한국: 신앙을 전하는 언어는 누가 만들었을까요?"
+    },
+    {
+      "stage_id": "S419-06",
+      "minutes": [
+        9,
+        10
+      ],
+      "purpose": "핵심 결과 정리와 여섯 질문으로 복귀",
+      "claims": [],
+      "v415_themes": [
+        "T415-01",
+        "T415-02",
+        "T415-03",
+        "T415-04",
+        "T415-05",
+        "T415-06"
+      ],
+      "reader_title": "마무리: 여덟 권을 관통하는 세 가지 발견"
+    }
+  ],
+  "test_protocol": {
+    "planned_nonexpert_readers": 5,
+    "actual_readers": 0,
+    "actual_sessions": [],
+    "actual_answers": [],
+    "actual_times": [],
+    "actual_score_statistics": null,
+    "study_mode": "STATIC_TEXT_READING_NOT_APP_TEST",
+    "reviewer_guide_only": true,
+    "process_steps": [
+      "briefing_about_one_minute",
+      "timed_reading_target_ten_minutes",
+      "5_open_ended_questions_after_reading",
+      "brief_debrief_on_unknown_terms"
+    ],
+    "max_score": 10,
+    "score_per_question": [
+      0,
+      1,
+      2
+    ],
+    "minimum_score_per_participant_proposed": 8,
+    "minimum_participants_reaching_eight_proposed": 4,
+    "critical_misconceptions_allowed": 0,
+    "recurring_term_confusion_revise_if_reader_count_at_least": 2,
+    "study_sample_representative": false,
+    "question_rubrics": [
+      {
+        "id": "Q419-01",
+        "linked_claim_ids": [
+          "C417-03",
+          "C417-04"
+        ],
+        "competency": "고대 비유럽 기독교 선행 역사",
+        "question": "종교개혁 이전에 아프리카·아시아에 기독교 공동체가 있었습니까? 예를 드세요.",
+        "score_2": "그렇다 + 4세기 악숨 또는 635을 회고한 781 경교비처럼 시대가 맞는 사례",
+        "score_1": "그렇다고 답하지만 사례·시기 설명 부족",
+        "score_0": "아니다/16세기 이후 유럽에서 최초 시작이라고 단정"
+      },
+      {
+        "id": "Q419-02",
+        "linked_claim_ids": [
+          "C417-05",
+          "C417-06"
+        ],
+        "competency": "위클리프·후스 영향과 교리 비동일성",
+        "question": "후스가 위클리프의 영향을 받았다면 성찬관도 같았습니까? 이유는?",
+        "score_2": "아니다 + 위클리프 빵의 실체 존속, 후스 실체변화 수용의 취지",
+        "score_1": "아니다/영향과 동일성 차이를 설명하지만 구체적 성찬 차이 없음",
+        "score_0": "같다/차이를 거꾸로 답함"
+      },
+      {
+        "id": "Q419-03",
+        "linked_claim_ids": [
+          "C417-08"
+        ],
+        "competency": "성찬 논쟁의 교리 구별",
+        "question": "1529년 마르부르크 회담에서 무엇이 해결되지 않았습니까?",
+        "score_2": "성찬에서 그리스도 임재 방식·이해의 차이",
+        "score_1": "성찬 문제라는 수준에서만 설명",
+        "score_0": "완전 합의 또는 전혀 다른 논점"
+      },
+      {
+        "id": "Q419-04",
+        "linked_claim_ids": [
+          "C417-10"
+        ],
+        "competency": "1555 종교적 타협의 법적 범위",
+        "question": "아우크스부르크 화의가 개인별 보편 종교 자유를 보장했습니까?",
+        "score_2": "아니다 + 당시 제국의 특정 영방·신앙고백의 제한된 합의",
+        "score_1": "아니다는 알지만 이유를 설명 못함",
+        "score_0": "모든 사람이 동등한 자유를 보장받음"
+      },
+      {
+        "id": "Q419-05",
+        "linked_claim_ids": [
+          "C417-16",
+          "C417-17",
+          "C417-20"
+        ],
+        "competency": "한국어 성경 판본·번역 주체 구별",
+        "question": "1882년과 1887년 한국어 성경 출판을 모두 기록해야 하는 이유는?",
+        "score_2": "1882 개별 복음서, 1887 한글 신약전서라는 책 범위 차이",
+        "score_1": "다른 번역 시기라는 설명만 있고 책 범위 차이 없음",
+        "score_0": "1882년에 전체 신약 완성 또는 날짜 중복"
+      }
+    ],
+    "misconception_codes": [
+      {
+        "code": "M419-A",
+        "description": "16세기 이전 아프리카·아시아 교회가 없었다",
+        "severity": "CRITICAL",
+        "primary_stage": "S419-01",
+        "observed": false,
+        "observed_count": null
+      },
+      {
+        "code": "M419-B",
+        "description": "후스·위클리프 성찬론 동일하다",
+        "severity": "CRITICAL",
+        "primary_stage": "S419-02",
+        "observed": false,
+        "observed_count": null
+      },
+      {
+        "code": "M419-C",
+        "description": "1529 마르부르크에서 이견이 모두 해결됐다",
+        "severity": "MAJOR",
+        "primary_stage": "S419-03",
+        "observed": false,
+        "observed_count": null
+      },
+      {
+        "code": "M419-D",
+        "description": "1555 모든 개인에게 종교 자유가 보장됐다",
+        "severity": "CRITICAL",
+        "primary_stage": "S419-04",
+        "observed": false,
+        "observed_count": null
+      },
+      {
+        "code": "M419-E",
+        "description": "1882년 한글 신약전서 전체가 출판됐다",
+        "severity": "CRITICAL",
+        "primary_stage": "S419-05",
+        "observed": false,
+        "observed_count": null
+      },
+      {
+        "code": "M419-F",
+        "description": "781년 경교비가 635년 제작됐다",
+        "severity": "MAJOR",
+        "primary_stage": "S419-05",
+        "observed": false,
+        "observed_count": null
+      },
+      {
+        "code": "M419-G",
+        "description": "381 콘스탄티노폴리스=325 니케아 수용일",
+        "severity": "MAJOR",
+        "primary_stage": "S419-02",
+        "observed": false,
+        "observed_count": null
+      },
+      {
+        "code": "M419-H",
+        "description": "오리엔트·동방 정교회·동방교회는 같은 교회",
+        "severity": "MAJOR",
+        "primary_stage": "S419-02",
+        "observed": false,
+        "observed_count": null
+      },
+      {
+        "code": "M419-I",
+        "description": "아프리카·아시아 현지 신자는 수동적 대상뿐이었다",
+        "severity": "MAJOR",
+        "primary_stage": "S419-05",
+        "observed": false,
+        "observed_count": null
+      },
+      {
+        "code": "M419-J",
+        "description": "학술 초록과 원사료를 동일 증거로 이해",
+        "severity": "MAJOR",
+        "primary_stage": "S419-06",
+        "observed": false,
+        "observed_count": null
+      },
+      {
+        "code": "M419-K",
+        "description": "실체변화·칭의·콤팍타타 등 낯선 단어",
+        "severity": "MINOR_OR_MAJOR",
+        "primary_stage": "S419-02",
+        "observed": false,
+        "observed_count": null
+      },
+      {
+        "code": "M419-L",
+        "description": "10분 독서시간 목표·문장 길이 장벽",
+        "severity": "USABILITY",
+        "primary_stage": "S419-06",
+        "observed": false,
+        "observed_count": null
+      }
+    ],
+    "immutable_proposal_before_observation": true,
+    "no_real_names_or_contact_info_in_github": true,
+    "no_mandatory_sensitive_religious_data": true,
+    "no_public_raw_response_collection": true
+  },
+  "rights": {
+    "source_count": 23,
+    "distinct_claim_source_ids_in_reader": 19,
+    "external_images_copied": false,
+    "third_party_translations_reposted": false,
+    "third_party_images_rights_granted": false,
+    "source_claim_fit_human_signed": false,
+    "linking_not_same_as_license": true
+  },
+  "gates": [
+    {
+      "id": "G419-01",
+      "name": "17 included/3 held and original source anchors retained",
+      "status": "PASS"
+    },
+    {
+      "id": "G419-02",
+      "name": "Six-step 10-minute reading target and six themes covered",
+      "status": "PASS"
+    },
+    {
+      "id": "G419-03",
+      "name": "Five scored questions and 12 misconception codes designed",
+      "status": "PASS"
+    },
+    {
+      "id": "G419-04",
+      "name": "Five independent readers actually tested",
+      "status": "NOT_PERFORMED"
+    },
+    {
+      "id": "G419-05",
+      "name": "Non-trivial historian and multi-tradition editorial approvals",
+      "status": "BLOCKED"
+    },
+    {
+      "id": "G419-06",
+      "name": "Rights for images, translated primary texts and mapped assets",
+      "status": "BLOCKED"
+    },
+    {
+      "id": "G419-07",
+      "name": "AI Studio app and accessibility end-to-end tested",
+      "status": "NOT_PERFORMED"
+    },
+    {
+      "id": "G419-08",
+      "name": "Explicit owner release approval and main merge",
+      "status": "BLOCKED"
+    }
+  ],
+  "release": {
+    "can_ship": false,
+    "can_merge_main": false,
+    "can_modify_AI_Studio": false,
+    "actual_human_test_completed": false,
+    "signed_editorial_reviews": false,
+    "license_chain_complete": false,
+    "staging_ui_tested": false
+  },
+  "quality_checks": {
+    "validated_against_actual_git_blob_shas": true,
+    "broken_references": [],
+    "stage_count": 6,
+    "scoring_questions": 5,
+    "misconception_taxonomy_codes": 12,
+    "accepted_claims": 17,
+    "held_claims": 3,
+    "source_refs_in_reader": 19,
+    "covered_theme_count": 6
+  },
+  "next_recommended": {
+    "version": "V4.20",
+    "goal": "Stop template proliferation. Source-ground selected reader claims and obtain expert/rights review or run real human pilot after authorization, then edit macro L0 based on actual evidence. No fabricated test or premature publication.",
+    "requires_external_humans": true
+  }
+}
