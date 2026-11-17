@@ -1,0 +1,698 @@
+{
+  "schema": "ATLAS_V433_EVIDENCE_DECISION_LEDGER_V1",
+  "version": "V4.33",
+  "date": "2026-11-17",
+  "status": "EDITORIAL_SOURCE_SCREENING_NOT_SCHOLARLY_APPROVAL",
+  "upstream": {
+    "v432": {
+      "path": "research/data/V4_32_EIGHT_VOLUME_EXPANDED_READER_CANDIDATE.json",
+      "blobSha": "3f243a618cde4dd7a3c4459b6efcba799c02d80b"
+    },
+    "v429": {
+      "path": "handoff/V429_AI_STUDIO_PRIVATE_L0_CONTENT_IMPORT.json",
+      "blobSha": "64c27c0dfe05394acbb049807e4c4384d58908b9"
+    },
+    "v421": {
+      "path": "research/data/V4_21_HIGH_RISK_CLAIMS_SOURCE_ADJUDICATION_DRAFT.json",
+      "blobSha": "bf0d34792b179a4b5eee9a31e16422f9e997d44b"
+    }
+  },
+  "method": "Exact anchors into V4.32 original body; reliable catalog/scholarly/public document descriptions; screening is not independent historical signoff or full witness collation.",
+  "sourceRegistry": [
+    {
+      "id": "SRC433-01",
+      "key": "UNESCO-AKSUM",
+      "title": "UNESCO World Heritage Centre — Aksum",
+      "url": "https://whc.unesco.org/en/list/15",
+      "type": "institutional heritage",
+      "scope": "4th century adoption",
+      "checkedAt": "2026-11-17",
+      "verification": "external web accessible citation or prior verified project reference; NOT full original witness collation",
+      "quoteReproductionAuthorized": false
+    },
+    {
+      "id": "SRC433-02",
+      "key": "MET-AKSUM",
+      "title": "Metropolitan Museum — Aksumite Christianity",
+      "url": "https://www.metmuseum.org/pt/essays/foundations-of-aksumite-civilization-and-its-christian-legacy-1st-7th-century",
+      "type": "museum scholarly essay",
+      "scope": "royal elite distinct from population",
+      "checkedAt": "2026-11-17",
+      "verification": "external web accessible citation or prior verified project reference; NOT full original witness collation",
+      "quoteReproductionAuthorized": false
+    },
+    {
+      "id": "SRC433-03",
+      "key": "MCGILL-STELE",
+      "title": "McGill University — Jingjiao Stele",
+      "url": "https://www.mcgill.ca/religiousstudies/about/birks-building/jingiao-stele",
+      "type": "academic historic object",
+      "scope": "781 monument; 635 retrospective arrival",
+      "checkedAt": "2026-11-17",
+      "verification": "external web accessible citation or prior verified project reference; NOT full original witness collation",
+      "quoteReproductionAuthorized": false
+    },
+    {
+      "id": "SRC433-04",
+      "key": "SEP-WYCLIF",
+      "title": "Stanford Encyclopedia of Philosophy — John Wyclif",
+      "url": "https://plato.stanford.edu/entries/wyclif/",
+      "type": "scholarly encyclopedia",
+      "scope": "Wyclif critique of transubstantiation",
+      "checkedAt": "2026-11-17",
+      "verification": "external web accessible citation or prior verified project reference; NOT full original witness collation",
+      "quoteReproductionAuthorized": false
+    },
+    {
+      "id": "SRC433-05",
+      "key": "CAMBRIDGE-HUS",
+      "title": "Church History (Cambridge) — John Wyclif and Hussite Theology",
+      "url": "https://www.cambridge.org/core/journals/church-history/article/abs/john-wyclif-and-hussite-theology-14151436/54C10C6F7EEFB5409E2291C9F4194ABF",
+      "type": "peer-reviewed abstract",
+      "scope": "Hus accepts transubstantiation vs Wyclif remanence",
+      "checkedAt": "2026-11-17",
+      "verification": "external web accessible citation or prior verified project reference; NOT full original witness collation",
+      "quoteReproductionAuthorized": false
+    },
+    {
+      "id": "SRC433-06",
+      "key": "GHDI-MARBURG",
+      "title": "GHDI — Marburg Articles (1529)",
+      "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/the-marburg-colloquy-the-marburg-articles-1529",
+      "type": "edited primary translated text",
+      "scope": "unresolved eucharistic presence",
+      "checkedAt": "2026-11-17",
+      "verification": "external web accessible citation or prior verified project reference; NOT full original witness collation",
+      "quoteReproductionAuthorized": false
+    },
+    {
+      "id": "SRC433-07",
+      "key": "GRUBER-AUGSBURG",
+      "title": "Gruber Rare Books Collection — Augsburg Confession",
+      "url": "https://gruber.lstc.edu/confessions/augs_apol.php",
+      "type": "special collection item catalog",
+      "scope": "1530 unofficial prints; 1531 authoritative with Apology",
+      "checkedAt": "2026-11-17",
+      "verification": "external web accessible citation or prior verified project reference; NOT full original witness collation",
+      "quoteReproductionAuthorized": false
+    },
+    {
+      "id": "SRC433-08",
+      "key": "MOHR-AUGSBURG",
+      "title": "Mohr Siebeck — Der Text des Augsburgischen Bekenntnisses",
+      "url": "https://cdn.mohrsiebeck.com/6d%2Ce1f95536324742ab1e0642fcc4d6cf.pdf",
+      "type": "scholarly edition preview",
+      "scope": "1530 manuscript and print witnesses; 1531 editio princeps; PDF screenshot not available",
+      "checkedAt": "2026-11-17",
+      "verification": "external web accessible citation or prior verified project reference; NOT full original witness collation",
+      "quoteReproductionAuthorized": false
+    },
+    {
+      "id": "SRC433-09",
+      "key": "STANDREWS-TRENT",
+      "title": "St Andrews Encyclopaedia of Theology — Council of Trent",
+      "url": "https://www.saet.ac.uk/Christianity/CouncilofTrent",
+      "type": "scholarly theological encyclopedia",
+      "scope": "three periods 1545-47,1551-52,1562-63",
+      "checkedAt": "2026-11-17",
+      "verification": "external web accessible citation or prior verified project reference; NOT full original witness collation",
+      "quoteReproductionAuthorized": false
+    },
+    {
+      "id": "SRC433-10",
+      "key": "GHDI-1555",
+      "title": "GHDI — Religious Peace Augsburg (1555)",
+      "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/ghdi%3Adocument-4386",
+      "type": "edited primary legal document",
+      "scope": "limited imperial confessional settlement",
+      "checkedAt": "2026-11-17",
+      "verification": "external web accessible citation or prior verified project reference; NOT full original witness collation",
+      "quoteReproductionAuthorized": false
+    },
+    {
+      "id": "SRC433-11",
+      "key": "TVU-TAMIL",
+      "title": "Tamil Virtual University — Ziegenbalg early printing",
+      "url": "https://tamilvu.org/slet/l4330/l4330pd1.jsp?bookid=266&pno=75",
+      "type": "university compiled translation history",
+      "scope": "1714 Gospels and Acts",
+      "checkedAt": "2026-11-17",
+      "verification": "external web accessible citation or prior verified project reference; NOT full original witness collation",
+      "quoteReproductionAuthorized": false
+    },
+    {
+      "id": "SRC433-12",
+      "key": "TVU-TAMIL-1715",
+      "title": "Tamil Virtual University — Printing 1715",
+      "url": "https://tamilvu.org/slet/l4330/l4330pd1.jsp?bookid=266&pno=292",
+      "type": "university compiled translation history",
+      "scope": "1715 New Testament print",
+      "checkedAt": "2026-11-17",
+      "verification": "external web accessible citation or prior verified project reference; NOT full original witness collation",
+      "quoteReproductionAuthorized": false
+    },
+    {
+      "id": "SRC433-13",
+      "key": "DBS-TAMIL",
+      "title": "Digital Bible Society — Tamil Bible 1714",
+      "url": "https://arc.dbs.org/data/scripture/TAMZTB/index.html",
+      "type": "bibliographic entry",
+      "scope": "1714 portions, Gospels and Acts",
+      "checkedAt": "2026-11-17",
+      "verification": "external web accessible citation or prior verified project reference; NOT full original witness collation",
+      "quoteReproductionAuthorized": false
+    },
+    {
+      "id": "SRC433-14",
+      "key": "KCI-KOR-CATH",
+      "title": "KCI — Origins Korean Catholic Church debates",
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003153946",
+      "type": "scholarly abstract",
+      "scope": "1784 and earlier meetings contested",
+      "checkedAt": "2026-11-17",
+      "verification": "external web accessible citation or prior verified project reference; NOT full original witness collation",
+      "quoteReproductionAuthorized": false
+    },
+    {
+      "id": "SRC433-15",
+      "key": "CAMBRIDGE-KOR-CATH",
+      "title": "Journal Ecclesiastical History — Korean Catholicism",
+      "url": "https://www.cambridge.org/core/journals/journal-of-ecclesiastical-history/article/abs/persecuted-church-roman-catholicism-in-early-nineteenthcentury-korea/3FB4C7D77948A154E617C49292267D28",
+      "type": "peer-reviewed abstract",
+      "scope": "1784 baptism / lay community",
+      "checkedAt": "2026-11-17",
+      "verification": "external web accessible citation or prior verified project reference; NOT full original witness collation",
+      "quoteReproductionAuthorized": false
+    },
+    {
+      "id": "SRC433-16",
+      "key": "KCI-KOR-1779",
+      "title": "Don Baker — First Hundred Years Korean Catholic Church",
+      "url": "https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART001667406",
+      "type": "scholarly abstract",
+      "scope": "1779 vs 1784 debate",
+      "checkedAt": "2026-11-17",
+      "verification": "external web accessible citation or prior verified project reference; NOT full original witness collation",
+      "quoteReproductionAuthorized": false
+    },
+    {
+      "id": "SRC433-17",
+      "key": "KBS-BIBLIO",
+      "title": "대한성서공회 — 성서가 우리에게 오기까지",
+      "url": "https://bskorea.or.kr/biblecom/bibcome05_02.php",
+      "type": "institutional bibliographic history",
+      "scope": "1882 1887 1911 publications",
+      "checkedAt": "2026-11-17",
+      "verification": "external web accessible citation or prior verified project reference; NOT full original witness collation",
+      "quoteReproductionAuthorized": false
+    },
+    {
+      "id": "SRC433-18",
+      "key": "SEOUL-BIBLE",
+      "title": "Seoul Bible Museum — The Book Arrives",
+      "url": "https://seoulbiblemuseum.org/journey/book-arrives?lang=en",
+      "type": "institutional curated bibliographic narrative",
+      "scope": "1882 Luke, 1887 NT, 1911 full, corrections",
+      "checkedAt": "2026-11-17",
+      "verification": "external web accessible citation or prior verified project reference; NOT full original witness collation",
+      "quoteReproductionAuthorized": false
+    },
+    {
+      "id": "SRC433-19",
+      "key": "V421-LEGAL",
+      "title": "V4.21 project source registry, legal context",
+      "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/ghdi%3Adocument-4386",
+      "type": "existing research registry",
+      "scope": "1555/1648 separate; no new treaty collation",
+      "checkedAt": "2026-11-17",
+      "verification": "external web accessible citation or prior verified project reference; NOT full original witness collation",
+      "quoteReproductionAuthorized": false
+    }
+  ],
+  "claimLedger": [
+    {
+      "id": "CL433-01",
+      "volumeId": "VOL-01",
+      "anchor": "악숨 왕국의 4세기 왕실 수용",
+      "anchorOffset": 493,
+      "status": "SOURCE_SUPPORTED",
+      "sourceIds": [
+        "SRC433-01",
+        "SRC433-02"
+      ],
+      "reason": "궁정의 기독교 수용과 전체 주민 개종 분리",
+      "editorialCandidate": "4세기 악숨 왕실의 기독교 수용은 확인되지만 주민 전체가 즉시 개종했다고 말할 수 없다.",
+      "eligibleForInternalSourceNote": true,
+      "requiresHumanHistoricalSignoff": true,
+      "allowsPromotionToV429": false
+    },
+    {
+      "id": "CL433-02",
+      "volumeId": "VOL-01",
+      "anchor": "니케아(325), 콘스탄티노폴리스(381), 에페소(431), 칼케돈(451)",
+      "anchorOffset": 720,
+      "status": "REVIEW_REQUIRED",
+      "sourceIds": [],
+      "reason": "기존 교회사 연표와 일치하나 해당 회의들 교리의 교파별 수용은 전문 확인 필요",
+      "editorialCandidate": "공의회들은 서로 다른 연대와 논쟁에서 개최됐다.",
+      "eligibleForInternalSourceNote": false,
+      "requiresHumanHistoricalSignoff": true,
+      "allowsPromotionToV429": false
+    },
+    {
+      "id": "CL433-03",
+      "volumeId": "VOL-01",
+      "anchor": "동방 정교회, 오리엔트 정교회, 동방교회",
+      "anchorOffset": 906,
+      "status": "REVIEW_REQUIRED",
+      "sourceIds": [],
+      "reason": "후대 교파명 적용, 당대 자기표현/분화에 대한 독립 심사 필요",
+      "editorialCandidate": "고대 기독교의 여러 전통을 오늘의 한 교파 명칭으로 덮지 않는다.",
+      "eligibleForInternalSourceNote": false,
+      "requiresHumanHistoricalSignoff": true,
+      "allowsPromotionToV429": false
+    },
+    {
+      "id": "CL433-04",
+      "volumeId": "VOL-02",
+      "anchor": "781년에 건립된 자료",
+      "anchorOffset": 659,
+      "status": "SOURCE_SUPPORTED",
+      "sourceIds": [
+        "SRC433-03"
+      ],
+      "reason": "서안 경교비 실물 연대",
+      "editorialCandidate": "서안 경교비는 781년에 건립됐다.",
+      "eligibleForInternalSourceNote": true,
+      "requiresHumanHistoricalSignoff": true,
+      "allowsPromotionToV429": false
+    },
+    {
+      "id": "CL433-05",
+      "volumeId": "VOL-02",
+      "anchor": "635년에 중국에 전래되었다고 회고",
+      "anchorOffset": 684,
+      "status": "SOURCE_SUPPORTED",
+      "sourceIds": [
+        "SRC433-03"
+      ],
+      "reason": "635는 781년 비문이 회고하는 기록, 당대 문서 아님",
+      "editorialCandidate": "635년은 781년 비문에 회고된 기독교 전래 시점이다.",
+      "eligibleForInternalSourceNote": true,
+      "requiresHumanHistoricalSignoff": true,
+      "allowsPromotionToV429": false
+    },
+    {
+      "id": "CL433-06",
+      "volumeId": "VOL-02",
+      "anchor": "1054년**의 갈등",
+      "anchorOffset": 1000,
+      "status": "REVIEW_REQUIRED",
+      "sourceIds": [],
+      "reason": "1204 포함 동서 교파 관계 학술 근거 별도 확인 필요",
+      "editorialCandidate": "1054년과 1204년을 하나의 분열 사건으로 뭉뚱그리지 않는다.",
+      "eligibleForInternalSourceNote": false,
+      "requiresHumanHistoricalSignoff": true,
+      "allowsPromotionToV429": false
+    },
+    {
+      "id": "CL433-07",
+      "volumeId": "VOL-02",
+      "anchor": "사도 토마스가 직접 그곳에 방문한 시기",
+      "anchorOffset": 852,
+      "status": "HOLD",
+      "sourceIds": [],
+      "reason": "인도 전승과 직접 사도 방문에 대한 당대 증거 미교감",
+      "editorialCandidate": "인도의 사도 토마스 방문 전승은 당대 확증과 구분한다.",
+      "eligibleForInternalSourceNote": false,
+      "requiresHumanHistoricalSignoff": true,
+      "allowsPromotionToV429": false
+    },
+    {
+      "id": "CL433-08",
+      "volumeId": "VOL-03",
+      "anchor": "위클리프는 성찬 후에도 빵의 실체가 남는다고 보았지만",
+      "anchorOffset": 434,
+      "status": "SOURCE_SUPPORTED",
+      "sourceIds": [
+        "SRC433-04",
+        "SRC433-05"
+      ],
+      "reason": "Wyclif remanence, 그러나 성찬의 영적 임재를 단순한 기념설로 환원 금지",
+      "editorialCandidate": "위클리프는 성찬 후 빵의 실체가 남는다고 보았다.",
+      "eligibleForInternalSourceNote": true,
+      "requiresHumanHistoricalSignoff": true,
+      "allowsPromotionToV429": false
+    },
+    {
+      "id": "CL433-09",
+      "volumeId": "VOL-03",
+      "anchor": "후스는 실체변화 교리를 수용했다",
+      "anchorOffset": 489,
+      "status": "SOURCE_SUPPORTED",
+      "sourceIds": [
+        "SRC433-05"
+      ],
+      "reason": "후스가 위클리프의 모든 신학을 동일하게 따르지 않음",
+      "editorialCandidate": "후스는 실체변화를 수용해 위클리프의 성찬론과 달랐다.",
+      "eligibleForInternalSourceNote": true,
+      "requiresHumanHistoricalSignoff": true,
+      "allowsPromotionToV429": false
+    },
+    {
+      "id": "CL433-10",
+      "volumeId": "VOL-03",
+      "anchor": "1420년 주요 문안, 1421년 차슬라프 회의",
+      "anchorOffset": 811,
+      "status": "REVIEW_REQUIRED",
+      "sourceIds": [],
+      "reason": "4개조 문안과 1433–36 법적 합의 시기별 원전 교감 미완료",
+      "editorialCandidate": "후스파의 요구 문안과 협상·공표 시기를 구별한다.",
+      "eligibleForInternalSourceNote": false,
+      "requiresHumanHistoricalSignoff": true,
+      "allowsPromotionToV429": false
+    },
+    {
+      "id": "CL433-11",
+      "volumeId": "VOL-03",
+      "anchor": "왈도파의 1532년 변화를 설명할 때에는",
+      "anchorOffset": 1116,
+      "status": "HOLD",
+      "sourceIds": [],
+      "reason": "기존 C417-18 보류 유지; 당대 모임과 후대 교파 동일시 주의",
+      "editorialCandidate": "1532년의 모임과 후대 교파 명칭의 동일시를 보류한다.",
+      "eligibleForInternalSourceNote": false,
+      "requiresHumanHistoricalSignoff": true,
+      "allowsPromotionToV429": false
+    },
+    {
+      "id": "CL433-12",
+      "volumeId": "VOL-04",
+      "anchor": "1529년 마르부르크에서는",
+      "anchorOffset": 381,
+      "status": "SOURCE_SUPPORTED",
+      "sourceIds": [
+        "SRC433-06"
+      ],
+      "reason": "성찬 임재 문제의 미합의 명시",
+      "editorialCandidate": "1529년 마르부르크에서 성찬 임재에 대한 완전한 합의는 없었다.",
+      "eligibleForInternalSourceNote": true,
+      "requiresHumanHistoricalSignoff": true,
+      "allowsPromotionToV429": false
+    },
+    {
+      "id": "CL433-13",
+      "volumeId": "VOL-04",
+      "anchor": "1530년의 공적 제시",
+      "anchorOffset": 551,
+      "status": "REVIEW_REQUIRED",
+      "sourceIds": [
+        "SRC433-07",
+        "SRC433-08"
+      ],
+      "reason": "1530 비공식 인쇄본 확인, 1531 공식/저자 관여 판본과 구별 필수",
+      "editorialCandidate": "1530년 제출 및 비공식 인쇄, 1531년 멜란히톤 관여 판본, 1540년 Variata를 별도로 다룬다.",
+      "eligibleForInternalSourceNote": false,
+      "requiresHumanHistoricalSignoff": true,
+      "allowsPromotionToV429": false
+    },
+    {
+      "id": "CL433-14",
+      "volumeId": "VOL-04",
+      "anchor": "판본 사이 세부 문장의 의미와 어떤 것이 정본인지",
+      "anchorOffset": 618,
+      "status": "HOLD",
+      "sourceIds": [
+        "SRC433-07",
+        "SRC433-08"
+      ],
+      "reason": "기존 C417-11/12 직접 교감·교파 신학 승인 전 보류",
+      "editorialCandidate": "각 판본의 원문 차이와 신학적 평가는 별도 원전 교감 전까지 확정하지 않는다.",
+      "eligibleForInternalSourceNote": false,
+      "requiresHumanHistoricalSignoff": true,
+      "allowsPromotionToV429": false
+    },
+    {
+      "id": "CL433-15",
+      "volumeId": "VOL-04",
+      "anchor": "유럽의 11개 지역을 나란히 읽는 이유",
+      "anchorOffset": 1123,
+      "status": "REVIEW_REQUIRED",
+      "sourceIds": [],
+      "reason": "교육용 11지역 비교는 타당한 내부 설계, 각 지역별 역사 관계 출처 검토 미완료",
+      "editorialCandidate": "11지역의 제도·언어·권력 조건을 비교한다.",
+      "eligibleForInternalSourceNote": false,
+      "requiresHumanHistoricalSignoff": true,
+      "allowsPromotionToV429": false
+    },
+    {
+      "id": "CL433-16",
+      "volumeId": "VOL-05",
+      "anchor": "1545–1547년, 1551–1552년, 1562–1563년",
+      "anchorOffset": 414,
+      "status": "SOURCE_SUPPORTED",
+      "sourceIds": [
+        "SRC433-09"
+      ],
+      "reason": "트리엔트 공의회 세 시기 확인",
+      "editorialCandidate": "트리엔트 공의회는 1545–47, 1551–52, 1562–63 세 시기에 진행됐다.",
+      "eligibleForInternalSourceNote": true,
+      "requiresHumanHistoricalSignoff": true,
+      "allowsPromotionToV429": false
+    },
+    {
+      "id": "CL433-17",
+      "volumeId": "VOL-05",
+      "anchor": "1555년 아우크스부르크 화의",
+      "anchorOffset": 1032,
+      "status": "SOURCE_SUPPORTED",
+      "sourceIds": [
+        "SRC433-10"
+      ],
+      "reason": "모든 개인·교파에 보편 자유 아님, 특정 제국 영방의 법적 조정",
+      "editorialCandidate": "1555년 화의는 제국의 특정 영방·신앙고백에 관한 제한된 법적 합의다.",
+      "eligibleForInternalSourceNote": true,
+      "requiresHumanHistoricalSignoff": true,
+      "allowsPromotionToV429": false
+    },
+    {
+      "id": "CL433-18",
+      "volumeId": "VOL-05",
+      "anchor": "1648년 베스트팔렌의 합의",
+      "anchorOffset": 1197,
+      "status": "SOURCE_SUPPORTED",
+      "sourceIds": [
+        "SRC433-10",
+        "SRC433-19"
+      ],
+      "reason": "1555와 1648 법의 대상·전쟁 배경 구별",
+      "editorialCandidate": "1648년의 합의는 1555년의 법적 합의와 동일하지 않다.",
+      "eligibleForInternalSourceNote": true,
+      "requiresHumanHistoricalSignoff": true,
+      "allowsPromotionToV429": false
+    },
+    {
+      "id": "CL433-19",
+      "volumeId": "VOL-06",
+      "anchor": "1706년 남인도 트랑케바르에 도착",
+      "anchorOffset": 396,
+      "status": "REVIEW_REQUIRED",
+      "sourceIds": [],
+      "reason": "도착 사실과 현지인 기여의 세부 인적 서지 검증 분리",
+      "editorialCandidate": "1706년 도착과 이후 번역·인쇄는 서로 다른 사건이다.",
+      "eligibleForInternalSourceNote": false,
+      "requiresHumanHistoricalSignoff": true,
+      "allowsPromotionToV429": false
+    },
+    {
+      "id": "CL433-20",
+      "volumeId": "VOL-06",
+      "anchor": "1714년에는 타밀어 네 복음서와 사도행전의 인쇄",
+      "anchorOffset": 532,
+      "status": "SOURCE_SUPPORTED",
+      "sourceIds": [
+        "SRC433-13",
+        "SRC433-11"
+      ],
+      "reason": "1714 첫 부분 인쇄 확인",
+      "editorialCandidate": "1714년 타밀어 네 복음서·사도행전의 인쇄를 구분한다.",
+      "eligibleForInternalSourceNote": true,
+      "requiresHumanHistoricalSignoff": true,
+      "allowsPromotionToV429": false
+    },
+    {
+      "id": "CL433-21",
+      "volumeId": "VOL-06",
+      "anchor": "1715년에는 신약전서 범위의 인쇄",
+      "anchorOffset": 565,
+      "status": "SOURCE_SUPPORTED",
+      "sourceIds": [
+        "SRC433-12"
+      ],
+      "reason": "1715 인쇄, 1711 번역완료와 구별; 서지 실물 전문가 확인 필요",
+      "editorialCandidate": "1715년 신약전서 범위 인쇄는 1714년 부분 인쇄와 구별한다.",
+      "eligibleForInternalSourceNote": true,
+      "requiresHumanHistoricalSignoff": true,
+      "allowsPromotionToV429": false
+    },
+    {
+      "id": "CL433-22",
+      "volumeId": "VOL-06",
+      "anchor": "모라비아 공동체의 피난·새로운 조직·해외선교",
+      "anchorOffset": 807,
+      "status": "REVIEW_REQUIRED",
+      "sourceIds": [],
+      "reason": "웨일스 칼뱅주의 감리교/웨슬리 계열 세부 비교 추가 근거 필요",
+      "editorialCandidate": "다양한 부흥 공동체를 하나의 교파나 제도로 합치지 않는다.",
+      "eligibleForInternalSourceNote": false,
+      "requiresHumanHistoricalSignoff": true,
+      "allowsPromotionToV429": false
+    },
+    {
+      "id": "CL433-23",
+      "volumeId": "VOL-07",
+      "anchor": "1784년 이승훈의 세례",
+      "anchorOffset": 841,
+      "status": "SOURCE_SUPPORTED",
+      "sourceIds": [
+        "SRC433-14",
+        "SRC433-15"
+      ],
+      "reason": "1784 중요하나 1779 vs 1784 기원 논쟁 종결 아님",
+      "editorialCandidate": "1784년 이승훈의 세례는 한국 천주교 형성의 중요한 기준점이다.",
+      "eligibleForInternalSourceNote": true,
+      "requiresHumanHistoricalSignoff": true,
+      "allowsPromotionToV429": false
+    },
+    {
+      "id": "CL433-24",
+      "volumeId": "VOL-07",
+      "anchor": "1779년 전후의 학문 모임",
+      "anchorOffset": 928,
+      "status": "REVIEW_REQUIRED",
+      "sourceIds": [
+        "SRC433-16",
+        "SRC433-14"
+      ],
+      "reason": "1779의 공동체 성격과 기원에 관한 논쟁",
+      "editorialCandidate": "1779년 전후의 모임과 1784년 세례를 하나의 사건으로 합치지 않는다.",
+      "eligibleForInternalSourceNote": false,
+      "requiresHumanHistoricalSignoff": true,
+      "allowsPromotionToV429": false
+    },
+    {
+      "id": "CL433-25",
+      "volumeId": "VOL-07",
+      "anchor": "1882년 개별 복음서",
+      "anchorOffset": 1159,
+      "status": "SOURCE_SUPPORTED",
+      "sourceIds": [
+        "SRC433-17",
+        "SRC433-18"
+      ],
+      "reason": "1882 누가복음, 1887 신약, 1911 성경 구분",
+      "editorialCandidate": "1882년 누가복음, 1887년 신약전서, 1911년 성경전서의 책 범위를 구별한다.",
+      "eligibleForInternalSourceNote": true,
+      "requiresHumanHistoricalSignoff": true,
+      "allowsPromotionToV429": false
+    },
+    {
+      "id": "CL433-26",
+      "volumeId": "VOL-07",
+      "anchor": "이응찬·백홍준·서상륜·이성하",
+      "anchorOffset": 1112,
+      "status": "REVIEW_REQUIRED",
+      "sourceIds": [
+        "SRC433-17"
+      ],
+      "reason": "다양한 한국인 조력에 대한 원칙은 타당하나 개인별 번역·교정·출판 역할은 재검토",
+      "editorialCandidate": "초기 한글 성경에는 한국인 번역·출판 협력자가 참여했다.",
+      "eligibleForInternalSourceNote": false,
+      "requiresHumanHistoricalSignoff": true,
+      "allowsPromotionToV429": false
+    },
+    {
+      "id": "CL433-27",
+      "volumeId": "VOL-08",
+      "anchor": "제8권은 새로운 한 세기를 추가하는 대신",
+      "anchorOffset": 196,
+      "status": "STRUCTURE",
+      "sourceIds": [],
+      "reason": "V4.15·V4.29 편집 설계",
+      "editorialCandidate": "VOL-08은 시간상 제8시대가 아니라 6주제 비교 아카이브다.",
+      "eligibleForInternalSourceNote": false,
+      "requiresHumanHistoricalSignoff": false,
+      "allowsPromotionToV429": false
+    },
+    {
+      "id": "CL433-28",
+      "volumeId": "VOL-08",
+      "anchor": "여섯 주제 중 하나에서 관련 시대권으로 이동",
+      "anchorOffset": 1440,
+      "status": "STRUCTURE",
+      "sourceIds": [],
+      "reason": "6개 주제×7개 시대권=42 논리적 연결",
+      "editorialCandidate": "주제와 시대권은 검증된 42개 내부 ID로 연결한다.",
+      "eligibleForInternalSourceNote": false,
+      "requiresHumanHistoricalSignoff": false,
+      "allowsPromotionToV429": false
+    },
+    {
+      "id": "CL433-29",
+      "volumeId": "VOL-08",
+      "anchor": "논리적인 연구 앵커",
+      "anchorOffset": 1603,
+      "status": "STRUCTURE",
+      "sourceIds": [],
+      "reason": "내부 ID가 실제 외부 URL이라는 주장 금지",
+      "editorialCandidate": "깊이별 원고 URL을 임의 생성하지 않는다.",
+      "eligibleForInternalSourceNote": false,
+      "requiresHumanHistoricalSignoff": false,
+      "allowsPromotionToV429": false
+    }
+  ],
+  "summary": {
+    "total": 29,
+    "counts": {
+      "SOURCE_SUPPORTED": 13,
+      "REVIEW_REQUIRED": 10,
+      "HOLD": 3,
+      "STRUCTURE": 3
+    },
+    "sourceRegistryCount": 19,
+    "perVolume": {
+      "VOL-01": 3,
+      "VOL-02": 4,
+      "VOL-03": 4,
+      "VOL-04": 4,
+      "VOL-05": 3,
+      "VOL-06": 4,
+      "VOL-07": 4,
+      "VOL-08": 3
+    },
+    "eligibleForInternalSourceNotes": 13,
+    "promotionToV429EntireVolume": 0,
+    "appPromotions": 0,
+    "historicalHoldIds": [
+      "C417-11",
+      "C417-12",
+      "C417-18"
+    ]
+  },
+  "release": {
+    "canShip": false,
+    "canChangeV429": false,
+    "canDeployActualAIStudio": false,
+    "canMergeMain": false,
+    "completedHistorianReviews": 0,
+    "completedReaderPilotSessions": 0,
+    "rightsCleared": false
+  },
+  "cautions": [
+    "A verified year is not proof of doctrinal equivalence",
+    "1530 unauthorized Augsburg prints precede 1531 Melanchthon edition; no '1531 first printing'",
+    "1714 portions not identical to 1715 whole Tamil NT",
+    "1887 complete New Testament does not imply entire 1911 Korean Bible",
+    "Original textual collation, confessional review, external image rights remain separate"
+  ]
+}
