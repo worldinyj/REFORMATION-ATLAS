@@ -1,0 +1,134 @@
+{
+  "schema": "ATLAS_V432_EXPANDED_L0_EDITORIAL_INTEGRITY_AUDIT",
+  "version": "V4.32",
+  "date": "2026-11-17",
+  "status": "PASS",
+  "manuscriptGitBlobSha": "30d371b86d46ae53758079efcc83e969b1eb9405",
+  "dataGitBlobSha": "3f243a618cde4dd7a3c4459b6efcba799c02d80b",
+  "verifiedSourceDocs": [
+    {
+      "id": "VOL-01",
+      "path": "docs/01_CONTENT/OVERVIEW/V413_VOL01_ANCIENT_CHRISTIANITY_MULTIREGIONAL_L0_KO.md",
+      "expectedGitBlobSha": "3e33daa3084e6f3130b28ea4be9cfdfeda35bc91",
+      "actualGitBlobSha": "3e33daa3084e6f3130b28ea4be9cfdfeda35bc91"
+    },
+    {
+      "id": "VOL-02",
+      "path": "docs/01_CONTENT/OVERVIEW/V413_VOL02_MEDIEVAL_CHRISTIANITY_MULTIREGIONAL_L0_KO.md",
+      "expectedGitBlobSha": "6c82f5a7a2115225c64d9c2675745f4c494fa834",
+      "actualGitBlobSha": "6c82f5a7a2115225c64d9c2675745f4c494fa834"
+    },
+    {
+      "id": "VOL-03",
+      "path": "docs/01_CONTENT/OVERVIEW/V414_VOL03_DIVERSE_PRE_REFORMATION_MOVEMENTS_MASTER_KO.md",
+      "expectedGitBlobSha": "7345bf6413bf1dd8c346f0c13ea3826bd9d86d59",
+      "actualGitBlobSha": "7345bf6413bf1dd8c346f0c13ea3826bd9d86d59"
+    },
+    {
+      "id": "VOL-04",
+      "path": "docs/01_CONTENT/OVERVIEW/V407_EUROPE_ELEVEN_REGION_COMPARATIVE_NARRATIVE_KO.md",
+      "expectedGitBlobSha": "4a69e227291015ba6258c501e8c45ebbe4d62fd7",
+      "actualGitBlobSha": "4a69e227291015ba6258c501e8c45ebbe4d62fd7"
+    },
+    {
+      "id": "VOL-05",
+      "path": "docs/01_CONTENT/OVERVIEW/V409_VOL05_CATHOLIC_REFORM_CONFLICT_COEXISTENCE_MASTER_KO.md",
+      "expectedGitBlobSha": "bb0d8ce27fb7fdc8bb40a062efb48149ec8c7b40",
+      "actualGitBlobSha": "bb0d8ce27fb7fdc8bb40a062efb48149ec8c7b40"
+    },
+    {
+      "id": "VOL-06",
+      "path": "docs/01_CONTENT/OVERVIEW/V412_VOL06_PIETISM_REVIVALS_GLOBAL_MISSIONS_MASTER_KO.md",
+      "expectedGitBlobSha": "ad44231f7c1ebe867a6db9709964df3fcefc3dfd",
+      "actualGitBlobSha": "ad44231f7c1ebe867a6db9709964df3fcefc3dfd"
+    },
+    {
+      "id": "VOL-07",
+      "path": "docs/01_CONTENT/OVERVIEW/V410_VOL07_WORLD_CHRISTIANITY_KOREA_MASTER_KO.md",
+      "expectedGitBlobSha": "64fad343624f21d5cef30ba8e2945bef58909f2f",
+      "actualGitBlobSha": "64fad343624f21d5cef30ba8e2945bef58909f2f"
+    },
+    {
+      "id": "VOL-08",
+      "path": "docs/01_CONTENT/OVERVIEW/V415_VOL08_SIX_THEMES_CROSS_VOLUME_MASTER_KO.md",
+      "expectedGitBlobSha": "d3480987c60800f0a1815c0c15f6c53efebf1571",
+      "actualGitBlobSha": "d3480987c60800f0a1815c0c15f6c53efebf1571"
+    }
+  ],
+  "statistics": {
+    "manuscriptCharacters": 14449,
+    "readerVolumeCount": 8,
+    "readerTextCharacters": 12202,
+    "legacyReaderCharacters": 5240,
+    "expansionRatios": [
+      {
+        "id": "VOL-01",
+        "original": 599,
+        "expanded": 1422,
+        "ratio": 2.37
+      },
+      {
+        "id": "VOL-02",
+        "original": 618,
+        "expanded": 1401,
+        "ratio": 2.27
+      },
+      {
+        "id": "VOL-03",
+        "original": 628,
+        "expanded": 1431,
+        "ratio": 2.28
+      },
+      {
+        "id": "VOL-04",
+        "original": 704,
+        "expanded": 1435,
+        "ratio": 2.04
+      },
+      {
+        "id": "VOL-05",
+        "original": 674,
+        "expanded": 1560,
+        "ratio": 2.31
+      },
+      {
+        "id": "VOL-06",
+        "original": 640,
+        "expanded": 1511,
+        "ratio": 2.36
+      },
+      {
+        "id": "VOL-07",
+        "original": 745,
+        "expanded": 1619,
+        "ratio": 2.17
+      },
+      {
+        "id": "VOL-08",
+        "original": 632,
+        "expanded": 1823,
+        "ratio": 2.88
+      }
+    ],
+    "themeLinks": 42,
+    "unchangedIntroScenes": 6
+  },
+  "structuralChecks": {
+    "eightSourceShasVerified": true,
+    "allExpandedTextMatchesMarkdown": true,
+    "originalV429NotModified": true,
+    "noUnauthorizedExternalImages": true,
+    "heldClaimsRemainOutsideReaderApproval": true,
+    "AIStudioNotTouched": true,
+    "humanReviewNotDone": true
+  },
+  "release": {
+    "canShip": false,
+    "canImportDirectly": false,
+    "canMergeMain": false,
+    "expertSignoffs": 0,
+    "readerTests": 0,
+    "rightsApproval": false
+  },
+  "issues": []
+}
