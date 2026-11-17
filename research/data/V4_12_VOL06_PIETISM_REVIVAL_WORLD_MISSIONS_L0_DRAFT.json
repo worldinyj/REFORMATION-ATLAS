@@ -254,6 +254,50 @@
       "full_paid_book_read": false,
       "image_reproduced": false,
       "source_url_verified": true
+    },
+    {
+      "id": "S412-24",
+      "title": "로스와 한국 개신교: 1882년 한글 복음서 (옥성득, 2022)",
+      "url": "https://kci.go.kr/kciportal/landing/article.kci?arti_id=ART002878049",
+      "access_tier": "PEER_REVIEWED_JOURNAL_ABSTRACT",
+      "description": "1882년 누가복음·요한복음 간행과 한국인 번역자 및 로스 협업",
+      "original_17to19c_folio_direct_read": false,
+      "full_paid_book_read": false,
+      "image_reproduced": false,
+      "source_url_verified": true
+    },
+    {
+      "id": "S412-25",
+      "title": "『예수성교전서』, 한국민족문화대백과사전",
+      "url": "https://encykorea.aks.ac.kr/Article/E0037972",
+      "access_tier": "NATIONAL_ENCYCLOPEDIA_OPEN_ARTICLE",
+      "description": "1887년 한국어 신약전서와 한국인 번역 협력자",
+      "original_17to19c_folio_direct_read": false,
+      "full_paid_book_read": false,
+      "image_reproduced": false,
+      "source_url_verified": true
+    },
+    {
+      "id": "S412-26",
+      "title": "Wesley, John (1703–1791), Encyclopedia of Christian Civilization (Duke Scholars)",
+      "url": "https://scholars.duke.edu/publication/1697052",
+      "access_tier": "ACADEMIC_UNIVERSITY_BIBLIOGRAPHIC_EXCERPT",
+      "description": "1738년 존 웨슬리의 런던 올더스게이트 경험과 모라비아 영향",
+      "original_17to19c_folio_direct_read": false,
+      "full_paid_book_read": false,
+      "image_reproduced": false,
+      "source_url_verified": true
+    },
+    {
+      "id": "S412-27",
+      "title": "예수성교전서 국가등록문화유산 설명 (국가유산청)",
+      "url": "https://digital.khs.go.kr/heri/heriDetail.do?ctptNo=4411106690000&ctptUid=13983497666424036046",
+      "access_tier": "NATIONAL_HERITAGE_INSTITUTION_OPEN_CATALOG",
+      "description": "1887년 번역자명과 심양 문광서원 발행 사실을 국가유산 등록설명에서 확인",
+      "original_17to19c_folio_direct_read": false,
+      "full_paid_book_read": false,
+      "image_reproduced": false,
+      "source_url_verified": true
     }
   ],
   "arcs": [
@@ -418,7 +462,10 @@
         "S412-17",
         "S412-18",
         "S412-19",
-        "S412-12"
+        "S412-12",
+        "S412-24",
+        "S412-25",
+        "S412-27"
       ],
       "intro": "19세기 선교를 유럽에서 해외로 나아간 이동 경로로만 읽으면 교회를 세우고 번역하며 이끄는 현지 사람들의 이름이 사라진다.",
       "story": "서아프리카의 사무엘 아자이 크라우더는 노예화와 해방, 교육·언어 연구를 거쳐 1864년 영국국교회 나이저 지역 주교가 됐다. 하지만 그의 아프리카인 주도 선교 정책은 훗날 일부 유럽 선교사들의 차별적 저항을 받았다. 하와이에서는 19세기 중반 하와이인 목회자들이 다른 태평양 섬까지 이동해 사역했다. 한국에서는 1880년대 해외 거점의 한국어 성경 번역과 한국인 신자의 활동이 외국인 상주 선교사들의 입국 전후로 진행됐다. 선교는 인쇄·교육·언어 교류와 함께 노예제·식민지 권력·인종적 위계를 통과한 역사였다.",
@@ -707,7 +754,7 @@
       "arc_id": "ARC412-04",
       "region_id": "R412-04",
       "source_ids": [
-        "S412-08"
+        "S412-26"
       ],
       "date_precision": "YEAR_CONTEXT_UNDER_REVIEW",
       "full_original_read": false
@@ -945,7 +992,7 @@
       "arc_id": "ARC412-08",
       "region_id": "R412-12",
       "source_ids": [
-        "S412-12"
+        "S412-24"
       ],
       "date_precision": "YEAR_CROSSLINK_V410_NOT_INDEPENDENT_412_SUPPORT",
       "full_original_read": false
@@ -959,7 +1006,8 @@
       "arc_id": "ARC412-08",
       "region_id": "R412-12",
       "source_ids": [
-        "S412-12"
+        "S412-25",
+        "S412-27"
       ],
       "date_precision": "YEAR_CROSSLINK_V410_NOT_INDEPENDENT_412_SUPPORT",
       "full_original_read": false
@@ -1118,11 +1166,21 @@
     },
     {
       "id": "P412-16",
-      "name_ko": "현지 타밀어 협력자와 인도인 학자들",
-      "name_original": "Tamil-language and Bengali collaborators",
+      "name_ko": "타밀어 공동체의 현지 통역·협력자들",
+      "name_original": "Tamil-language local interpreters and collaborators",
+      "arc_id": "ARC412-02",
+      "region_id": "R412-03",
+      "role": "트랑케바르에서 선교사들과 타밀어를 통한 소통과 번역에 관여",
+      "node_type": "COLLECTIVE",
+      "complete_biography_verified": false
+    },
+    {
+      "id": "P412-17",
+      "name_ko": "벵골의 현지 언어학자·번역 협력자들",
+      "name_original": "Bengali pundits and language collaborators",
       "arc_id": "ARC412-06",
       "region_id": "R412-07",
-      "role": "개별적으로 미확인된 집단 협업을 개인 영웅에게 귀속하지 않기",
+      "role": "세람포르 언어 연구·성경 번역·인쇄 프로젝트의 협력자",
       "node_type": "COLLECTIVE",
       "complete_biography_verified": false
     }
@@ -1277,16 +1335,16 @@
     {
       "claim": "Korean Gospels 1882",
       "milestone": "MS412-27",
-      "current_support": "NOT_INDEPENDENTLY_SUPPORTED_BY_V412_BIOGRAPHY",
-      "action": "CROSS_REFERENCE_V410_SOURCE_S410_20_AND_S410_19_BEFORE_RELEASE",
-      "status": "CROSSLINK_ONLY"
+      "current_support": "S412-24 2022 PEER_REVIEWED_ABSTRACT",
+      "action": "CROSS_LINK_V410_FOR_KOREAN_CHURCH_CONTEXT",
+      "status": "L0_VERIFIED_SUMMARY"
     },
     {
       "claim": "Korean New Testament 1887",
       "milestone": "MS412-28",
-      "current_support": "NOT_INDEPENDENTLY_SUPPORTED_BY_V412_BIOGRAPHY",
-      "action": "CROSS_REFERENCE_V410_SOURCE_S410_19_BEFORE_RELEASE",
-      "status": "CROSSLINK_ONLY"
+      "current_support": "S412-25 ENCYCLOPEDIA AND S412-27 STATE_HERITAGE",
+      "action": "CROSS_LINK_V410_FOR_KOREAN_CHURCH_CONTEXT",
+      "status": "L0_VERIFIED_SUMMARY"
     },
     {
       "claim": "James Kekela 1849",
@@ -1298,9 +1356,9 @@
     {
       "claim": "John Wesley 1738",
       "milestone": "MS412-10",
-      "current_support": "OVERVIEW_LEVEL_YEAR_CANDIDATE",
-      "action": "CONFIRM_WESLEY_PERSONAL_EXPERIENCE_DOCUMENT_IF_L1",
-      "status": "L0_CONTEXT_ONLY"
+      "current_support": "S412-26 ACADEMIC_UNIVERSITY_EXCERPT",
+      "action": "DEEP_WESLEY_DOCUMENT_ONLY_IF_L1",
+      "status": "L0_VERIFIED_SUMMARY"
     },
     {
       "claim": "Moravian 1732",
@@ -1333,5 +1391,12 @@
     "verified_historic_coordinates_invented": false,
     "manual_approval": false,
     "history_editor_review_complete": false
+  },
+  "quality_addendum": {
+    "Korean_1882_1887_source_corrected": true,
+    "John_Wesley_1738_source_added": true,
+    "group_nodes_separated_by_language": true,
+    "historic_image_candidate_observed": "Samuel Ajayi Crowther original portrait, third-party site; rights not cleared or copied",
+    "no_original_image_included": true
   }
 }
