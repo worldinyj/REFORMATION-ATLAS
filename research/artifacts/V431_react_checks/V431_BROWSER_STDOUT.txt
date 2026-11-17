@@ -1,0 +1,54 @@
+{
+  "schema": "ATLAS_V431_REACT_PRIVATE_INTEGRATION_BROWSER_TEST",
+  "version": "V4.31",
+  "status": "PASS",
+  "checks": 144,
+  "passed": 144,
+  "failed": 0,
+  "engines": [
+    "chromium",
+    "webkit"
+  ],
+  "widths": [
+    1440,
+    375,
+    320
+  ],
+  "pinnedGitBlobs": {
+    "integrations/atlas-l0-v431/AtlasL0Panel.jsx": "c62d691430eccddd9fa52d1d1b38782404352ba1",
+    "integrations/atlas-l0-v431/atlas-l0.css": "1eaca9d7f08d8afcfe785e319be3a41516c067b1",
+    "integrations/atlas-l0-v431/demo-entry.jsx": "244a85496ccab8c8fca0d9858b4759430c1d2307",
+    "integrations/atlas-l0-v431/demo.html": "a4e66ceddffcc02fa597d494888a792bf5b7796e",
+    "integrations/atlas-l0-v430/bridge.mjs": "1f585f31cf10e05530662e05c228de3519ef8632",
+    "handoff/V429_AI_STUDIO_PRIVATE_L0_CONTENT_IMPORT.json": "64c27c0dfe05394acbb049807e4c4384d58908b9"
+  },
+  "screenshots": [
+    "research/artifacts/V431_react_checks/chromium/desktop-volumes.png",
+    "research/artifacts/V431_react_checks/chromium/desktop-linked-vol07.png",
+    "research/artifacts/V431_react_checks/chromium/desktop-search.png",
+    "research/artifacts/V431_react_checks/chromium/mobile-volumes.png",
+    "research/artifacts/V431_react_checks/chromium/mobile-linked-vol07.png",
+    "research/artifacts/V431_react_checks/chromium/mobile-search.png",
+    "research/artifacts/V431_react_checks/chromium/small-volumes.png",
+    "research/artifacts/V431_react_checks/chromium/small-linked-vol07.png",
+    "research/artifacts/V431_react_checks/chromium/small-search.png",
+    "research/artifacts/V431_react_checks/webkit/desktop-volumes.png",
+    "research/artifacts/V431_react_checks/webkit/desktop-linked-vol07.png",
+    "research/artifacts/V431_react_checks/webkit/desktop-search.png",
+    "research/artifacts/V431_react_checks/webkit/mobile-volumes.png",
+    "research/artifacts/V431_react_checks/webkit/mobile-linked-vol07.png",
+    "research/artifacts/V431_react_checks/webkit/mobile-search.png",
+    "research/artifacts/V431_react_checks/webkit/small-volumes.png",
+    "research/artifacts/V431_react_checks/webkit/small-linked-vol07.png",
+    "research/artifacts/V431_react_checks/webkit/small-search.png"
+  ],
+  "failures": [],
+  "browserFixture": "React component importing genuine V4.29 JSON with V4.30 source bridge",
+  "actualAIStudioProjectInspected": false,
+  "actualAIStudioModified": false,
+  "actualAIStudioStagingTested": false,
+  "hostAuthenticationTested": false,
+  "historianApproved": false,
+  "actualReadersTested": 0,
+  "canShip": false
+}
