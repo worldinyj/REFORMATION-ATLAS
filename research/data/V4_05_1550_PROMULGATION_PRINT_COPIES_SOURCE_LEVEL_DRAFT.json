@@ -1,0 +1,282 @@
+{
+  "version": "V4.05",
+  "date": "2026-11-17",
+  "status": "RESEARCH_DRAFT",
+  "parent_branch": "research/atlas-v404-1530-marriage-publication-vs-1539-witness-comparison",
+  "branch": "research/atlas-v405-1550-mandate-promulgation-text-and-appendix-access",
+  "sources": [
+    {
+      "id": "S405-PRIMARY1550",
+      "tier": "DIRECT_HISTORICAL_TEXT_IN_SSRQ2022_TEI",
+      "url": "https://github.com/SSRQ-SDS-FDS/editio-data/blob/v1.1.0/data/ZH/ZH_NF_I_1_11/SSRQ-ZH-NF_I_1_11-10-1.xml",
+      "sha": "34e398a32c3b2345c415e98882493e7adbd4e039",
+      "edited_text_read": true,
+      "first_clause_original_photo_seen": false,
+      "short_terms": [
+        "ein oder zweymal im Jar",
+        "ye nach dem die gelägenheit und noturfft erfordert"
+      ],
+      "original_instruction": "ONE_OR_TWO_ANNUAL_READINGS_AS_NEEDED"
+    },
+    {
+      "id": "S405-EDITOR1550",
+      "tier": "MODERN_2022_EDITORIAL_NOTE_NOT_DIRECT_SYNOD_MINUTES",
+      "url": "https://github.com/SSRQ-SDS-FDS/editio-data/blob/v1.1.0/data/ZH/ZH_NF_I_1_11/SSRQ-ZH-NF_I_1_11-10-1.xml",
+      "sha": "34e398a32c3b2345c415e98882493e7adbd4e039",
+      "editor": "Sandra Reisinger",
+      "underlying_archive": [
+        "StAZH E II 1 pp187–189",
+        "StAZH E II 1 pp353,355",
+        "StAZH E II 1 p359",
+        "StAZH E II 372 fol1r–8v"
+      ],
+      "original_synod_minutes_read": false,
+      "editorial_note_read": true,
+      "summary": "1534 Engelhard/Jud/Bullinger proposal, 1549 autumn lack of reading and printed copies, 1550 May6 distribution and twice-yearly pastoral direction"
+    },
+    {
+      "id": "S405-ZURICH1550",
+      "tier": "ORIGINAL_1550_COMPOSITE_FIRST_BODY_PAGE_ONLY",
+      "url": "https://www.e-rara.ch/zuz/content/titleinfo/41445",
+      "doi": "10.3931/e-rara-155",
+      "shelfmark": "ZB Zürich AW1025",
+      "first_page_image_read": true,
+      "marriage_appendix_pages_read": false,
+      "original_full_pdf_downloaded": false,
+      "pdf_sha256": null
+    },
+    {
+      "id": "S405-BSB1550",
+      "tier": "SECOND_1550_ORIGINAL_LIBRARY_CATALOG_NOT_ACTUAL_PAGE",
+      "url": "https://books.google.ch/books?id=nfpFAAAAcAAJ",
+      "holding": "Bayerische Staatsbibliothek",
+      "imprint": "Froschauer 1550",
+      "catalog_page_count": 38,
+      "catalog_read": true,
+      "digitized": "2011-02-08",
+      "marriage_appendix_pages_read": false,
+      "google_pdf_http": 403,
+      "google_plain_text_http": 403,
+      "same_print_setting_as_ZB_AW1025": "UNVERIFIED"
+    },
+    {
+      "id": "S405-PRINT1539",
+      "tier": "INHERITED_DIRECT_1539_PRINT_FACSIMILE",
+      "url": "https://www.e-rara.ch/zuz/content/titleinfo/40998",
+      "doi": "10.3931/e-rara-151",
+      "shelfmark": "ZB AW1020",
+      "facsimile_pdf_pages_read": [
+        15,
+        16
+      ],
+      "annual_extract_reading_instruction": 4,
+      "actual_practice_verified": false
+    },
+    {
+      "id": "S405-TEI1530",
+      "tier": "INHERITED_DIRECT_HISTORICAL_TEXT_IN_CRITICAL_TEI",
+      "url": "https://github.com/SSRQ-SDS-FDS/editio-data/blob/v1.1.0/data/ZH/ZH_NF_I_1_11/SSRQ-ZH-NF_I_1_11-8-1.xml",
+      "sha": "e073dc750840d389f2d2909b651073a09c2deac0",
+      "date": "1530-03-26",
+      "folia": "3v–4r",
+      "public_marriage_banns": 2
+    },
+    {
+      "id": "S405-PDF2022",
+      "tier": "CRITICAL_EDITION_PDF_SEARCHABLE_TEXT_NOT_SCREENSHOT",
+      "url": "https://editio.sls-online.ch/ZH/NF_I_1_11.pdf",
+      "pdf_text_seen": true,
+      "pdf_screenshot_succeeded": false,
+      "critical_edition_nr10_start_print_page": 56
+    }
+  ],
+  "claims": [
+    {
+      "id": "C405-01",
+      "refs": [
+        "S405-PRIMARY1550"
+      ],
+      "ko": "1550년 종합명령 원문은 필요에 따라 연 한 번 또는 두 번 공개 낭독하라고 규정한다."
+    },
+    {
+      "id": "C405-02",
+      "refs": [
+        "S405-EDITOR1550"
+      ],
+      "ko": "1549년 가을 시노드에서 규정 낭독 부족이 문제 됐다고 2022년 편집자는 설명한다."
+    },
+    {
+      "id": "C405-03",
+      "refs": [
+        "S405-EDITOR1550"
+      ],
+      "ko": "당시 여러 교구의 인쇄본 부족 때문에 규정 통합·재인쇄를 결의했다는 편집자 설명이다."
+    },
+    {
+      "id": "C405-04",
+      "refs": [
+        "S405-EDITOR1550"
+      ],
+      "ko": "1550년 5월 6일 시노드는 인쇄본 지급·교구 비치·연 두 번 낭독을 독려했다고 편집자가 정리한다."
+    },
+    {
+      "id": "C405-05",
+      "refs": [
+        "S405-PRIMARY1550",
+        "S405-EDITOR1550"
+      ],
+      "ko": "1550년 법령 본문의 상황별 한두 번과 시노드의 연 두 번 독려는 서로 다른 증거 층위다."
+    },
+    {
+      "id": "C405-06",
+      "refs": [
+        "S405-EDITOR1550"
+      ],
+      "ko": "1534년 엔겔하르트·레오 유트·불링거의 공포 강화 제언은 현대 편집자 주석에 근거한다."
+    },
+    {
+      "id": "C405-07",
+      "refs": [
+        "S405-PRINT1539",
+        "S405-PRIMARY1550"
+      ],
+      "ko": "1539년 발췌 규정의 연 네 번과 1550년 종합규정의 상황별 한두 번은 서로 다른 문서에 관한 지시다."
+    },
+    {
+      "id": "C405-08",
+      "refs": [
+        "S405-ZURICH1550",
+        "S405-BSB1550"
+      ],
+      "ko": "1550년 취리히·바이에른 도서관의 원본 소장 경로를 찾았지만 뒷부분 혼인법 문구는 직접 읽지 못했다."
+    },
+    {
+      "id": "C405-09",
+      "refs": [
+        "S405-EDITOR1550",
+        "S405-ZURICH1550"
+      ],
+      "ko": "1550년 합본에 1539년 혼인규정의 수정본이 이어진다는 것은 편집자 설명이며 실제 부속문은 미판독이다."
+    },
+    {
+      "id": "C405-10",
+      "refs": [
+        "S405-PDF2022"
+      ],
+      "ko": "2022년 PDF의 텍스트 검색은 가능했지만 지면 스크린샷 호출은 실패했다."
+    },
+    {
+      "id": "C405-11",
+      "refs": [
+        "S405-PRIMARY1550",
+        "S405-EDITOR1550"
+      ],
+      "ko": "법령 제정·인쇄본 배포·낭독·현장 집행을 각각 별도 역사적 확인 대상으로 분리한다."
+    },
+    {
+      "id": "C405-12",
+      "refs": [
+        "S405-TEI1530",
+        "S405-PRINT1539",
+        "S405-PRIMARY1550"
+      ],
+      "ko": "1530년 혼인 예고 2회, 1539년 증인 2명, 1550년 연 1~2회 낭독은 서로 다른 의미다."
+    }
+  ],
+  "SSRQ": {
+    "repo": "SSRQ-SDS-FDS/editio-data",
+    "tag": "v1.1.0",
+    "pinned_commit": "c6f409c719dfb46ded238e4c7f7b1d5b5391dbbe",
+    "license": "CC BY-NC-SA 4.0",
+    "whole_TEI_reprinted": false
+  },
+  "norm_vs_guidance": {
+    "historical_mandate": "ONE_OR_TWO_AS_NEEDED",
+    "modern_editor_synod_account": "TWICE_PER_YEAR_AND_SUPPLY_COPIES",
+    "original_1549_1550_synod_minutes_directly_read": false,
+    "sources_must_remain_separate": true
+  },
+  "timeline": [
+    {
+      "date": "1534",
+      "tier": "EDITORIAL_NOTE",
+      "fact": "Engelhard, Leo Jud, Bullinger advocate repeated church publication of mandates"
+    },
+    {
+      "date": "1549 autumn",
+      "tier": "EDITORIAL_NOTE",
+      "fact": "Synod criticizes infrequent reading, discovers shortage of printed copies and resolves to reprint"
+    },
+    {
+      "date": "1550-05-06",
+      "tier": "EDITORIAL_NOTE",
+      "fact": "Synod requires printed copy for every minister and recommends keeping it locally and reading twice yearly"
+    },
+    {
+      "date": "1550 printed mandate",
+      "tier": "DIRECT_CRITICAL_TRANSCRIPTION_OF_HISTORICAL_TEXT",
+      "fact": "Original printed text says once or twice in year as needed"
+    }
+  ],
+  "different_twos": [
+    {
+      "date": "1530",
+      "n": 2,
+      "kind": "PUBLIC_CHURCH_MARRIAGE_BANNS",
+      "ref": "S405-TEI1530"
+    },
+    {
+      "date": "1539",
+      "n": 2,
+      "kind": "CREDIBLE_MALE_PROMISE_WITNESSES",
+      "ref": "S405-PRINT1539"
+    },
+    {
+      "date": "1539",
+      "n": 4,
+      "kind": "EXTRACT_ANNUAL_PROCLAMATIONS_INTENT",
+      "ref": "S405-PRINT1539"
+    },
+    {
+      "date": "1550",
+      "n": "ONE_OR_TWO",
+      "kind": "MAIN_MANDATE_READINGS_AS_NEEDED",
+      "ref": "S405-PRIMARY1550"
+    },
+    {
+      "date": "1550-05-06",
+      "n": 2,
+      "kind": "SYNOD_RECOMMENDATION_EDITORIAL_NOTE",
+      "ref": "S405-EDITOR1550"
+    }
+  ],
+  "unresolved": {
+    "marriage_appendix_1550_read": false,
+    "full_1539_ordinance_read": false,
+    "BSB_1550_matter_directly_read": false,
+    "ZB_1550_marriage_pages_read": false,
+    "synod_1549_minutes_read": false,
+    "synod_1550_minutes_read": false,
+    "Ott1855_pp108_122_read": false,
+    "July1533_A6_1_Nr7_read": false,
+    "article39_1533_read": false,
+    "other_1536_dates": "UNRESOLVED"
+  },
+  "release": {
+    "can_ship": false,
+    "main_modified": false,
+    "essays_513_modified": false,
+    "ai_studio_modified": false,
+    "previous_files_overwritten": false,
+    "source_full_text_republished": false,
+    "source_images_republished": false,
+    "historian_approved": false
+  },
+  "next": [
+    "Inspect 1549/1550 synod minutes StAZH E II 1 pp353,355,359",
+    "Obtain verified IIIF individual image IDs for ZB AW1025 marriage appendix",
+    "Try BSB copy in accessible reader without equating 38 scanned pages with Zurich collation",
+    "Only then compare 1539 original print pp15–16 with 1550 appended marriage law",
+    "Never collapse one-or-two statutory wording into twice-yearly synodal advice"
+  ]
+}
