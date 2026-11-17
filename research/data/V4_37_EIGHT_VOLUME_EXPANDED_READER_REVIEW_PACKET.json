@@ -1,0 +1,433 @@
+{
+  "schema": "ATLAS_V437_EIGHT_VOLUME_EXPANDED_L0_READER_EXPERT_PACKET",
+  "version": "V4.37",
+  "date": "2026-11-18",
+  "source": {
+    "v432": {
+      "path": "research/data/V4_32_EIGHT_VOLUME_EXPANDED_READER_CANDIDATE.json",
+      "sha": "3f243a618cde4dd7a3c4459b6efcba799c02d80b"
+    },
+    "v433": {
+      "path": "research/data/V4_33_EVIDENCE_DECISION_LEDGER_DRAFT.json",
+      "sha": "ff24234613dc2fa8786bfcd78edb2207aaeeb6d0"
+    },
+    "v429": {
+      "path": "handoff/V429_AI_STUDIO_PRIVATE_L0_CONTENT_IMPORT.json",
+      "sha": "64c27c0dfe05394acbb049807e4c4384d58908b9"
+    },
+    "v435": {
+      "path": "research/data/V4_35_EDITORIAL_DECISION_GATE.json",
+      "sha": "f07b01134c3533fa9817a5892236b577c3e2ad06"
+    },
+    "v436": {
+      "path": "research/data/V4_36_TARGETED_WITNESS_BIBLIOGRAPHY.json",
+      "sha": "66e44ee9d721842cbddad20594e83c460ed4f3a9"
+    }
+  },
+  "description": "V4.32 expanded L0 eight-volume review; separate from V4.29 six-chapter short introduction pilot",
+  "publicGitHubResearchProtocol": true,
+  "books": [
+    {
+      "volumeId": "VOL-01",
+      "title": "여럿의 언어와 도시에서 자라난 고대교회",
+      "sourceTextCharCount": 1422,
+      "thesis": "고대 기독교의 여러 중심",
+      "expertQuestions": [
+        "악숨 4세기 왕실 수용과 전체 주민 개종을 분리하는가?",
+        "고대 교회 분화에 후대 교파 명칭을 소급하지 않는가?"
+      ],
+      "commonReaderQuestions": [
+        "이 권의 주제를 자신만의 말로 설명해 주세요.",
+        "본문에서 서로 다른 것으로 구분한 두 사건 또는 신학 개념의 예를 설명해 주세요."
+      ],
+      "criticalMisconceptionToWatch": "모든 교회가 로마에서 일시에 퍼져나왔다는 오해",
+      "claimIds": [
+        "CL433-01",
+        "CL433-02",
+        "CL433-03"
+      ],
+      "claimStatuses": [
+        {
+          "id": "CL433-01",
+          "status": "SOURCE_SUPPORTED"
+        },
+        {
+          "id": "CL433-02",
+          "status": "REVIEW_REQUIRED"
+        },
+        {
+          "id": "CL433-03",
+          "status": "REVIEW_REQUIRED"
+        }
+      ],
+      "reviewState": "NOT_HUMAN_REVIEWED",
+      "bodyReplacementAllowed": false
+    },
+    {
+      "volumeId": "VOL-02",
+      "title": "중세는 서유럽만의 시간이 아니었다",
+      "sourceTextCharCount": 1401,
+      "thesis": "중세 기독교의 다지역성",
+      "expertQuestions": [
+        "781년 경교비 제작과 635년 비문 속 회고를 구별하는가?",
+        "성 토마스 전승을 당대 확증으로 단정하지 않는가?"
+      ],
+      "commonReaderQuestions": [
+        "이 권의 주제를 자신만의 말로 설명해 주세요.",
+        "본문에서 서로 다른 것으로 구분한 두 사건 또는 신학 개념의 예를 설명해 주세요."
+      ],
+      "criticalMisconceptionToWatch": "중세를 오직 라틴 서유럽의 역사로 환원",
+      "claimIds": [
+        "CL433-04",
+        "CL433-05",
+        "CL433-06",
+        "CL433-07"
+      ],
+      "claimStatuses": [
+        {
+          "id": "CL433-04",
+          "status": "SOURCE_SUPPORTED"
+        },
+        {
+          "id": "CL433-05",
+          "status": "SOURCE_SUPPORTED"
+        },
+        {
+          "id": "CL433-06",
+          "status": "REVIEW_REQUIRED"
+        },
+        {
+          "id": "CL433-07",
+          "status": "HOLD"
+        }
+      ],
+      "reviewState": "NOT_HUMAN_REVIEWED",
+      "bodyReplacementAllowed": false
+    },
+    {
+      "volumeId": "VOL-03",
+      "title": "개혁 이전의 개혁들은 한 길로 이어지지 않았다",
+      "sourceTextCharCount": 1431,
+      "thesis": "서로 다른 개혁 선행 운동",
+      "expertQuestions": [
+        "위클리프 remanence와 후스 transubstantiation를 구별하는가?",
+        "왈도파와 후스파를 16세기 교파의 동일 조직으로 묶지 않는가?"
+      ],
+      "commonReaderQuestions": [
+        "이 권의 주제를 자신만의 말로 설명해 주세요.",
+        "본문에서 서로 다른 것으로 구분한 두 사건 또는 신학 개념의 예를 설명해 주세요."
+      ],
+      "criticalMisconceptionToWatch": "영향 관계를 동일 신학으로 오해",
+      "claimIds": [
+        "CL433-08",
+        "CL433-09",
+        "CL433-10",
+        "CL433-11"
+      ],
+      "claimStatuses": [
+        {
+          "id": "CL433-08",
+          "status": "SOURCE_SUPPORTED"
+        },
+        {
+          "id": "CL433-09",
+          "status": "SOURCE_SUPPORTED"
+        },
+        {
+          "id": "CL433-10",
+          "status": "REVIEW_REQUIRED"
+        },
+        {
+          "id": "CL433-11",
+          "status": "HOLD"
+        }
+      ],
+      "reviewState": "NOT_HUMAN_REVIEWED",
+      "bodyReplacementAllowed": false
+    },
+    {
+      "volumeId": "VOL-04",
+      "title": "한 번이 아니라 여러 갈래로 일어난 16세기 개혁",
+      "sourceTextCharCount": 1435,
+      "thesis": "16세기 다갈래 개혁",
+      "expertQuestions": [
+        "1530 비공식 인쇄와 1531 저자 관여판을 구별하는가?",
+        "1540 인쇄본이 모두 Variata라는 추정을 하지 않는가?"
+      ],
+      "commonReaderQuestions": [
+        "이 권의 주제를 자신만의 말로 설명해 주세요.",
+        "본문에서 서로 다른 것으로 구분한 두 사건 또는 신학 개념의 예를 설명해 주세요."
+      ],
+      "criticalMisconceptionToWatch": "루터 개혁에서 전 유럽 교파가 한 번에 탄생했다는 오해",
+      "claimIds": [
+        "CL433-12",
+        "CL433-13",
+        "CL433-14",
+        "CL433-15"
+      ],
+      "claimStatuses": [
+        {
+          "id": "CL433-12",
+          "status": "SOURCE_SUPPORTED"
+        },
+        {
+          "id": "CL433-13",
+          "status": "REVIEW_REQUIRED"
+        },
+        {
+          "id": "CL433-14",
+          "status": "HOLD"
+        },
+        {
+          "id": "CL433-15",
+          "status": "REVIEW_REQUIRED"
+        }
+      ],
+      "reviewState": "NOT_HUMAN_REVIEWED",
+      "bodyReplacementAllowed": false
+    },
+    {
+      "volumeId": "VOL-05",
+      "title": "가톨릭 쇄신과 종교 갈등, 제한된 공존",
+      "sourceTextCharCount": 1560,
+      "thesis": "가톨릭 쇄신과 제한된 공존",
+      "expertQuestions": [
+        "트리엔트 공의회의 세 시기를 구분하는가?",
+        "1555년 화의와 1648년 체제를 현대적 개인 종교 자유와 동일시하지 않는가?"
+      ],
+      "commonReaderQuestions": [
+        "이 권의 주제를 자신만의 말로 설명해 주세요.",
+        "본문에서 서로 다른 것으로 구분한 두 사건 또는 신학 개념의 예를 설명해 주세요."
+      ],
+      "criticalMisconceptionToWatch": "가톨릭 쇄신을 개신교에 대한 반작용으로만 단순화",
+      "claimIds": [
+        "CL433-16",
+        "CL433-17",
+        "CL433-18"
+      ],
+      "claimStatuses": [
+        {
+          "id": "CL433-16",
+          "status": "SOURCE_SUPPORTED"
+        },
+        {
+          "id": "CL433-17",
+          "status": "SOURCE_SUPPORTED"
+        },
+        {
+          "id": "CL433-18",
+          "status": "SOURCE_SUPPORTED"
+        }
+      ],
+      "reviewState": "NOT_HUMAN_REVIEWED",
+      "bodyReplacementAllowed": false
+    },
+    {
+      "volumeId": "VOL-06",
+      "title": "경건주의와 부흥, 언어를 가로지른 세계 선교",
+      "sourceTextCharCount": 1511,
+      "thesis": "경건주의에서 다지역 선교로",
+      "expertQuestions": [
+        "타밀어 1714년 첫 부분과 1715년 신약 소장본을 구별하는가?",
+        "BSI 1719년 기록을 증명된 별도 초판으로 단정하지 않는가?"
+      ],
+      "commonReaderQuestions": [
+        "이 권의 주제를 자신만의 말로 설명해 주세요.",
+        "본문에서 서로 다른 것으로 구분한 두 사건 또는 신학 개념의 예를 설명해 주세요."
+      ],
+      "criticalMisconceptionToWatch": "현지 언어 협력자와 인쇄 관행을 유럽인 단독 성취로 설명",
+      "claimIds": [
+        "CL433-19",
+        "CL433-20",
+        "CL433-21",
+        "CL433-22"
+      ],
+      "claimStatuses": [
+        {
+          "id": "CL433-19",
+          "status": "REVIEW_REQUIRED"
+        },
+        {
+          "id": "CL433-20",
+          "status": "SOURCE_SUPPORTED"
+        },
+        {
+          "id": "CL433-21",
+          "status": "SOURCE_SUPPORTED"
+        },
+        {
+          "id": "CL433-22",
+          "status": "REVIEW_REQUIRED"
+        }
+      ],
+      "reviewState": "NOT_HUMAN_REVIEWED",
+      "bodyReplacementAllowed": false
+    },
+    {
+      "volumeId": "VOL-07",
+      "title": "세계의 여러 중심과 한국교회의 형성",
+      "sourceTextCharCount": 1619,
+      "thesis": "세계와 한국교회의 상호형성",
+      "expertQuestions": [
+        "1779년 강학과 1784년 세례·공동체 형성 차이를 설명하는가?",
+        "1882 개별 복음서·1887 신약·1911 신구약 범위를 구별하는가?"
+      ],
+      "commonReaderQuestions": [
+        "이 권의 주제를 자신만의 말로 설명해 주세요.",
+        "본문에서 서로 다른 것으로 구분한 두 사건 또는 신학 개념의 예를 설명해 주세요."
+      ],
+      "criticalMisconceptionToWatch": "가톨릭/개신교 출발을 한 연표로 합침",
+      "claimIds": [
+        "CL433-23",
+        "CL433-24",
+        "CL433-25",
+        "CL433-26"
+      ],
+      "claimStatuses": [
+        {
+          "id": "CL433-23",
+          "status": "SOURCE_SUPPORTED"
+        },
+        {
+          "id": "CL433-24",
+          "status": "REVIEW_REQUIRED"
+        },
+        {
+          "id": "CL433-25",
+          "status": "SOURCE_SUPPORTED"
+        },
+        {
+          "id": "CL433-26",
+          "status": "REVIEW_REQUIRED"
+        }
+      ],
+      "reviewState": "NOT_HUMAN_REVIEWED",
+      "bodyReplacementAllowed": false
+    },
+    {
+      "volumeId": "VOL-08",
+      "title": "여섯 질문으로 다시 읽는 기독교사의 지도",
+      "sourceTextCharCount": 1823,
+      "thesis": "일곱 시대를 비교하는 여섯 주제",
+      "expertQuestions": [
+        "여덟 번째 시대가 아닌 여섯 주제의 색인임을 알려주는가?",
+        "6주제×7시대=42개 연결이 실제 이해를 돕는가?"
+      ],
+      "commonReaderQuestions": [
+        "이 권의 주제를 자신만의 말로 설명해 주세요.",
+        "본문에서 서로 다른 것으로 구분한 두 사건 또는 신학 개념의 예를 설명해 주세요."
+      ],
+      "criticalMisconceptionToWatch": "제8권을 역사에서 또 하나의 연대기로 오해",
+      "claimIds": [
+        "CL433-27",
+        "CL433-28",
+        "CL433-29"
+      ],
+      "claimStatuses": [
+        {
+          "id": "CL433-27",
+          "status": "STRUCTURE"
+        },
+        {
+          "id": "CL433-28",
+          "status": "STRUCTURE"
+        },
+        {
+          "id": "CL433-29",
+          "status": "STRUCTURE"
+        }
+      ],
+      "reviewState": "NOT_HUMAN_REVIEWED",
+      "bodyReplacementAllowed": false
+    }
+  ],
+  "reviewPlan": {
+    "expertPanel": "Independent specialists in early/medieval history, Reformation editions, world missions/Korea, and Catholic history; exact panel not recruited",
+    "reviewFields": [
+      "volumeId",
+      "claimId",
+      "decision=ACCEPT/REVISE/HOLD",
+      "evidence citation and locus",
+      "proposed correction",
+      "scope limitation",
+      "reviewer formal signoff"
+    ],
+    "preliminaryStatus": "NO_EXPERT_REVIEWS_RECEIVED",
+    "readerPilotProposed": {
+      "readers": 8,
+      "representativeSample": false,
+      "actualSessions": 0,
+      "groups": [
+        {
+          "group": "A",
+          "readers": 4,
+          "volumeIds": [
+            "VOL-01",
+            "VOL-02",
+            "VOL-03",
+            "VOL-04"
+          ]
+        },
+        {
+          "group": "B",
+          "readers": 4,
+          "volumeIds": [
+            "VOL-05",
+            "VOL-06",
+            "VOL-07",
+            "VOL-08"
+          ]
+        }
+      ],
+      "blindProtocol": "Do not present expert answer keys/questions to participants before reading",
+      "recordedVariables": [
+        "anonymous session code",
+        "volume",
+        "comprehension 0/1/2",
+        "critical misconception",
+        "unfamiliar vocabulary",
+        "reading time",
+        "completion"
+      ],
+      "scoreDefinitions": {
+        "0": "critical factual misunderstanding or cannot distinguish the events",
+        "1": "rough understanding but no accurate historical example",
+        "2": "accurate central point and at least one sound distinction"
+      },
+      "actionTrigger": "One critical misconception triggers editorial check, two readers stumbling at same term triggers expression review",
+      "limitations": "Exploratory editorial pilot, no claim of psychometric validation, no invented reader metrics",
+      "privacy": "No names, denominations, recordings, personal contact info, raw unredacted responses in this public repository"
+    },
+    "reviewOrder": [
+      [
+        "VOL-03",
+        "VOL-04",
+        "VOL-06",
+        "VOL-07"
+      ],
+      [
+        "VOL-01",
+        "VOL-02",
+        "VOL-05"
+      ],
+      [
+        "VOL-08"
+      ]
+    ],
+    "lastStepAfterActualReviews": "Prepare only claim-approved internal app staging diff; do not overwrite V4.29 without human gates"
+  },
+  "releases": {
+    "actualExpertSignoffs": 0,
+    "actualReaderSessions": 0,
+    "appChanges": 0,
+    "canShip": false,
+    "canMergeMain": false,
+    "canImportAIStudio": false
+  },
+  "holdIds": [
+    "C417-11",
+    "C417-12",
+    "C417-18"
+  ],
+  "tamil1719ConflictUnresolved": true
+}
