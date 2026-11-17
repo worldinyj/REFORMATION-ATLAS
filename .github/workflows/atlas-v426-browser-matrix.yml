@@ -1,0 +1,50 @@
+name: ATLAS V4.26 Offline Preview Cross-Browser
+on:
+  push:
+    branches:
+      - research/atlas-v426-chromium-verified-offline-preview-l0
+    paths:
+      - "preview/V424_L0_EDITORIAL_ALPHA_OFFLINE_PREVIEW.html"
+      - "research/tests/v426_multi_engine_browser_probe.cjs"
+      - ".github/workflows/atlas-v426-browser-matrix.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  offline-browser-matrix:
+    name: ${{ matrix.engine }} / desktop-tablet-mobile
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    strategy:
+      fail-fast: false
+      matrix:
+        engine: [chromium, webkit]
+    steps:
+      - name: Checkout locked V4.26 branch
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Configure Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Install isolated Playwright browser runtime
+        run: |
+          mkdir -p /tmp/atlas-v426-tools
+          npm install --prefix /tmp/atlas-v426-tools --no-save --no-package-lock playwright@1.56.1
+          /tmp/atlas-v426-tools/node_modules/.bin/playwright install --with-deps "${{ matrix.engine }}"
+      - name: Execute actual browser scenarios and screenshots
+        env:
+          NODE_PATH: /tmp/atlas-v426-tools/node_modules
+          ATLAS_BROWSER_ENGINE: ${{ matrix.engine }}
+        run: node research/tests/v426_multi_engine_browser_probe.cjs
+      - name: Upload browser screenshot evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: atlas-v426-${{ matrix.engine }}-preview-evidence
+          path: research/artifacts/V426_browser_checks/${{ matrix.engine }}/
+          if-no-files-found: warn
+          retention-days: 14
