@@ -10,6 +10,9 @@ on:
   workflow_dispatch:
 permissions:
   contents: write
+concurrency:
+  group: atlas-v428-${{ github.ref }}
+  cancel-in-progress: true
 jobs:
   browser-evidence:
     runs-on: ubuntu-24.04
