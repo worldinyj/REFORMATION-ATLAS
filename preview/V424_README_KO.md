@@ -12,9 +12,9 @@ GitHub에서 HTML 파일을 열고 **Download raw file**로 저장한 다음 Mac
 
 Mac 터미널에서 다운로드한 HTML 파일을 열 때는 다음처럼 실행할 수 있다.
 
-\`\`\`zsh
+```zsh
 open "$HOME/Downloads/V424_L0_EDITORIAL_ALPHA_OFFLINE_PREVIEW.html"
-\`\`\`
+```
 
 브랜치: research/atlas-v424-offline-content-navigation-preview-l0
 
