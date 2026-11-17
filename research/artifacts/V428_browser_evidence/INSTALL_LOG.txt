@@ -1,30 +1,30 @@
 
-added 2 packages in 2s
+added 2 packages in 3s
 Installing dependencies...
 Switching to root user to install dependencies...
 Get:1 file:/etc/apt/apt-mirrors.txt Mirrorlist [152 B]
 Get:5 https://packages.microsoft.com/ubuntu/24.04/prod noble InRelease [3600 B]
 Hit:2 http://us-east-2.ec2.archive.ubuntu.com/ubuntu noble InRelease
-Get:6 http://security.ubuntu.com/ubuntu noble-security InRelease [126 kB]
 Get:3 http://us-east-2.ec2.archive.ubuntu.com/ubuntu noble-updates InRelease [126 kB]
-Get:7 https://packages.microsoft.com/ubuntu/24.04/prod noble/main amd64 Packages [787 kB]
+Get:6 https://packages.microsoft.com/ubuntu/24.04/prod noble/main amd64 Packages [787 kB]
+Get:7 http://security.ubuntu.com/ubuntu noble-security InRelease [126 kB]
 Get:8 https://packages.microsoft.com/ubuntu/24.04/prod noble/main arm64 Packages [718 kB]
 Get:4 http://us-east-2.ec2.archive.ubuntu.com/ubuntu noble-backports InRelease [126 kB]
-Get:16 http://security.ubuntu.com/ubuntu noble-security/main amd64 Packages [1196 kB]
 Get:9 http://us-east-2.ec2.archive.ubuntu.com/ubuntu noble-updates/main amd64 Packages [1452 kB]
 Get:10 http://us-east-2.ec2.archive.ubuntu.com/ubuntu noble-updates/main Translation-en [316 kB]
 Get:11 http://us-east-2.ec2.archive.ubuntu.com/ubuntu noble-updates/universe amd64 Packages [1712 kB]
 Get:12 http://us-east-2.ec2.archive.ubuntu.com/ubuntu noble-updates/universe Translation-en [345 kB]
-Get:17 http://security.ubuntu.com/ubuntu noble-security/main Translation-en [238 kB]
 Get:13 http://us-east-2.ec2.archive.ubuntu.com/ubuntu noble-updates/restricted amd64 Packages [1887 kB]
-Get:18 http://security.ubuntu.com/ubuntu noble-security/universe amd64 Packages [1229 kB]
 Get:14 http://us-east-2.ec2.archive.ubuntu.com/ubuntu noble-updates/restricted Translation-en [433 kB]
+Get:16 http://security.ubuntu.com/ubuntu noble-security/main amd64 Packages [1196 kB]
 Get:15 http://us-east-2.ec2.archive.ubuntu.com/ubuntu noble-updates/multiverse Translation-en [14.6 kB]
+Get:17 http://security.ubuntu.com/ubuntu noble-security/main Translation-en [238 kB]
+Get:18 http://security.ubuntu.com/ubuntu noble-security/universe amd64 Packages [1229 kB]
 Get:19 http://security.ubuntu.com/ubuntu noble-security/universe Translation-en [248 kB]
 Get:20 http://security.ubuntu.com/ubuntu noble-security/restricted amd64 Packages [1788 kB]
 Get:21 http://security.ubuntu.com/ubuntu noble-security/restricted Translation-en [411 kB]
 Get:22 http://security.ubuntu.com/ubuntu noble-security/multiverse Translation-en [12.7 kB]
-Fetched 13.2 MB in 2s (8531 kB/s)
+Fetched 13.2 MB in 3s (4754 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -380,7 +380,7 @@ Get:179 http://us-east-2.ec2.archive.ubuntu.com/ubuntu noble/main amd64 libsbc1 
 Get:180 http://us-east-2.ec2.archive.ubuntu.com/ubuntu noble/universe amd64 libvo-aacenc0 amd64 0.1.3-2build1 [67.8 kB]
 Get:181 http://us-east-2.ec2.archive.ubuntu.com/ubuntu noble/universe amd64 libvo-amrwbenc0 amd64 0.1.3-2build1 [76.7 kB]
 Get:182 http://us-east-2.ec2.archive.ubuntu.com/ubuntu noble/universe amd64 gstreamer1.0-plugins-bad amd64 1.24.2-1ubuntu4 [3081 kB]
-Fetched 114 MB in 18s (6361 kB/s)
+Fetched 114 MB in 18s (6286 kB/s)
 Selecting previously unselected package fonts-ipafont-gothic.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 216380 files and directories currently installed.)
 Preparing to unpack .../000-fonts-ipafont-gothic_00303-21ubuntu1_all.deb ...
