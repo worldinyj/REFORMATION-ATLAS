@@ -2,18 +2,2976 @@
   "version": "V4.27",
   "source": "preview/V424_L0_EDITORIAL_ALPHA_OFFLINE_PREVIEW.html",
   "setup": {
-    "outcome": "failure",
-    "install_log_tail": "\nadded 2 packages in 2s\nBEWARE: your OS is not officially supported by Playwright; installing dependencies for ubuntu26.04-x64 as a fallback.\nCannot install dependencies for ubuntu26.04-x64 with Playwright 1.56.1!\nFailed to install browsers\nError: ERROR: Playwright does not support chromium on ubuntu26.04-x64\nNPM_EXIT=0\nBROWSER_INSTALL_EXIT=1\n"
+    "outcome": "success",
+    "install_log_tail": "tabase; man-db/auto-update is not 'true'.\nProcessing triggers for libglib2.0-0t64:amd64 (2.80.0-6ubuntu3.10) ...\nSetting up libgtk-4-1:amd64 (4.14.5+ds-0ubuntu0.10) ...\nSetting up glib-networking:amd64 (2.80.0-1build1) ...\nSetting up libsoup-3.0-0:amd64 (3.4.4-5ubuntu0.11) ...\nSetting up libgssdp-1.6-0:amd64 (1.6.3-1build3) ...\nSetting up gstreamer1.0-plugins-good:amd64 (1.24.2-1ubuntu1.8) ...\nSetting up libgupnp-1.6-0:amd64 (1.6.6-1build3) ...\nSetting up libgupnp-igd-1.6-0:amd64 (1.6.0-3build3) ...\nSetting up libnice10:amd64 (0.1.21-2build3) ...\nSetting up libgstreamer-plugins-bad1.0-0:amd64 (1.24.2-1ubuntu4) ...\nSetting up gstreamer1.0-plugins-bad:amd64 (1.24.2-1ubuntu4) ...\nProcessing triggers for libc-bin (2.39-0ubuntu8.9) ...\n\nRunning kernel seems to be up-to-date.\n\nNo services need to be restarted.\n\nNo containers need to be restarted.\n\nNo user sessions are running outdated binaries.\n\nNo VM guests are running outdated hypervisor (qemu) binaries on this host.\nDownloading Chromium 141.0.7390.37 (playwright build v1194) from https://cdn.playwright.dev/dbazure/download/playwright/builds/chromium/1194/chromium-linux.zip\n|                                                                                |   0% of 173.9 MiB\n|■■■■■■■■                                                                        |  10% of 173.9 MiB\n|■■■■■■■■■■■■■■■■                                                                |  20% of 173.9 MiB\n|■■■■■■■■■■■■■■■■■■■■■■■■                                                        |  30% of 173.9 MiB\n|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                                |  40% of 173.9 MiB\n|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                        |  50% of 173.9 MiB\n|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                |  60% of 173.9 MiB\n|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                        |  70% of 173.9 MiB\n|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                |  80% of 173.9 MiB\n|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■        |  90% of 173.9 MiB\n|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■| 100% of 173.9 MiB\nChromium 141.0.7390.37 (playwright build v1194) downloaded to /home/runner/.cache/ms-playwright/chromium-1194\nDownloading FFMPEG playwright build v1011 from https://cdn.playwright.dev/dbazure/download/playwright/builds/ffmpeg/1011/ffmpeg-linux.zip\n|                                                                                |   0% of 2.3 MiB\n|■■■■■■■■                                                                        |  10% of 2.3 MiB\n|■■■■■■■■■■■■■■■■                                                                |  20% of 2.3 MiB\n|■■■■■■■■■■■■■■■■■■■■■■■■                                                        |  30% of 2.3 MiB\n|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                                |  40% of 2.3 MiB\n|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                        |  50% of 2.3 MiB\n|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                |  60% of 2.3 MiB\n|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                        |  70% of 2.3 MiB\n|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                |  80% of 2.3 MiB\n|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■        |  90% of 2.3 MiB\n|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■| 100% of 2.3 MiB\nFFMPEG playwright build v1011 downloaded to /home/runner/.cache/ms-playwright/ffmpeg-1011\nDownloading Chromium Headless Shell 141.0.7390.37 (playwright build v1194) from https://cdn.playwright.dev/dbazure/download/playwright/builds/chromium/1194/chromium-headless-shell-linux.zip\n|                                                                                |   0% of 104.3 MiB\n|■■■■■■■■                                                                        |  10% of 104.3 MiB\n|■■■■■■■■■■■■■■■■                                                                |  20% of 104.3 MiB\n|■■■■■■■■■■■■■■■■■■■■■■■■                                                        |  30% of 104.3 MiB\n|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                                |  40% of 104.3 MiB\n|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                        |  50% of 104.3 MiB\n|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                |  60% of 104.3 MiB\n|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                        |  70% of 104.3 MiB\n|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                |  80% of 104.3 MiB\n|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■        |  90% of 104.3 MiB\n|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■| 100% of 104.3 MiB\nChromium Headless Shell 141.0.7390.37 (playwright build v1194) downloaded to /home/runner/.cache/ms-playwright/chromium_headless_shell-1194\nDownloading Webkit 26.0 (playwright build v2215) from https://cdn.playwright.dev/dbazure/download/playwright/builds/webkit/2215/webkit-ubuntu-24.04.zip\n|                                                                                |   0% of 94.6 MiB\n|■■■■■■■■                                                                        |  10% of 94.6 MiB\n|■■■■■■■■■■■■■■■■                                                                |  20% of 94.6 MiB\n|■■■■■■■■■■■■■■■■■■■■■■■■                                                        |  30% of 94.6 MiB\n|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                                |  40% of 94.6 MiB\n|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                        |  50% of 94.6 MiB\n|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                |  60% of 94.6 MiB\n|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                        |  70% of 94.6 MiB\n|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                |  80% of 94.6 MiB\n|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■        |  90% of 94.6 MiB\n|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■| 100% of 94.6 MiB\nWebkit 26.0 (playwright build v2215) downloaded to /home/runner/.cache/ms-playwright/webkit-2215\nNPM_EXIT=0\nBROWSER_INSTALL_EXIT=0\n"
   },
   "engines": {
     "chromium": {
-      "report_present": false,
-      "test_report": null,
+      "report_present": true,
+      "test_report": {
+        "version": "V4.26",
+        "input": "preview/V424_L0_EDITORIAL_ALPHA_OFFLINE_PREVIEW.html",
+        "actual_browser_engine": "chromium / Playwright",
+        "expected_input_blob_sha": "2cabf8279fd753eb3a00e1736963ee295810377a",
+        "actual_input_blob_sha": "2cabf8279fd753eb3a00e1736963ee295810377a",
+        "date": "2026-11-17T11:53:00.261Z",
+        "viewport_profiles": [
+          {
+            "id": "desktop",
+            "width": 1440,
+            "height": 900
+          },
+          {
+            "id": "tablet",
+            "width": 768,
+            "height": 1024
+          },
+          {
+            "id": "mobile",
+            "width": 375,
+            "height": 812
+          },
+          {
+            "id": "small-mobile",
+            "width": 320,
+            "height": 700
+          }
+        ],
+        "checks_performed": 236,
+        "checks_passed": 232,
+        "failures": [
+          {
+            "viewport": "desktop",
+            "test": "keyboard-focus-after-navigation",
+            "detail": "activeElement="
+          },
+          {
+            "viewport": "tablet",
+            "test": "keyboard-focus-after-navigation",
+            "detail": "activeElement="
+          },
+          {
+            "viewport": "mobile",
+            "test": "keyboard-focus-after-navigation",
+            "detail": "activeElement="
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "keyboard-focus-after-navigation",
+            "detail": "activeElement="
+          }
+        ],
+        "passes": [
+          {
+            "viewport": "desktop",
+            "test": "no-initial-main-focus-steal",
+            "status": "PASS",
+            "detail": "focused="
+          },
+          {
+            "viewport": "desktop",
+            "test": "skip-link-without-route-change",
+            "status": "PASS",
+            "detail": "{\"hash\":\"#/volumes\",\"active\":\"main\"}"
+          },
+          {
+            "viewport": "desktop",
+            "test": "volume-index-cards",
+            "status": "PASS",
+            "detail": "expected 8"
+          },
+          {
+            "viewport": "desktop",
+            "test": "horizontal-overflow-volume-index",
+            "status": "PASS",
+            "detail": "{\"viewport\":1440,\"document\":1440,\"body\":1440}"
+          },
+          {
+            "viewport": "desktop",
+            "test": "VOL-01-readable",
+            "status": "PASS",
+            "detail": "article=1; links=6"
+          },
+          {
+            "viewport": "desktop",
+            "test": "horizontal-overflow-VOL-01",
+            "status": "PASS",
+            "detail": "{\"viewport\":1440,\"document\":1440,\"body\":1440}"
+          },
+          {
+            "viewport": "desktop",
+            "test": "VOL-02-readable",
+            "status": "PASS",
+            "detail": "article=1; links=6"
+          },
+          {
+            "viewport": "desktop",
+            "test": "horizontal-overflow-VOL-02",
+            "status": "PASS",
+            "detail": "{\"viewport\":1440,\"document\":1440,\"body\":1440}"
+          },
+          {
+            "viewport": "desktop",
+            "test": "VOL-03-readable",
+            "status": "PASS",
+            "detail": "article=1; links=6"
+          },
+          {
+            "viewport": "desktop",
+            "test": "horizontal-overflow-VOL-03",
+            "status": "PASS",
+            "detail": "{\"viewport\":1440,\"document\":1440,\"body\":1440}"
+          },
+          {
+            "viewport": "desktop",
+            "test": "VOL-04-readable",
+            "status": "PASS",
+            "detail": "article=1; links=6"
+          },
+          {
+            "viewport": "desktop",
+            "test": "horizontal-overflow-VOL-04",
+            "status": "PASS",
+            "detail": "{\"viewport\":1440,\"document\":1440,\"body\":1440}"
+          },
+          {
+            "viewport": "desktop",
+            "test": "VOL-05-readable",
+            "status": "PASS",
+            "detail": "article=1; links=6"
+          },
+          {
+            "viewport": "desktop",
+            "test": "horizontal-overflow-VOL-05",
+            "status": "PASS",
+            "detail": "{\"viewport\":1440,\"document\":1440,\"body\":1440}"
+          },
+          {
+            "viewport": "desktop",
+            "test": "VOL-06-readable",
+            "status": "PASS",
+            "detail": "article=1; links=6"
+          },
+          {
+            "viewport": "desktop",
+            "test": "horizontal-overflow-VOL-06",
+            "status": "PASS",
+            "detail": "{\"viewport\":1440,\"document\":1440,\"body\":1440}"
+          },
+          {
+            "viewport": "desktop",
+            "test": "VOL-07-readable",
+            "status": "PASS",
+            "detail": "article=1; links=6"
+          },
+          {
+            "viewport": "desktop",
+            "test": "horizontal-overflow-VOL-07",
+            "status": "PASS",
+            "detail": "{\"viewport\":1440,\"document\":1440,\"body\":1440}"
+          },
+          {
+            "viewport": "desktop",
+            "test": "VOL-08-readable",
+            "status": "PASS",
+            "detail": "article=1; links=0"
+          },
+          {
+            "viewport": "desktop",
+            "test": "horizontal-overflow-VOL-08",
+            "status": "PASS",
+            "detail": "{\"viewport\":1440,\"document\":1440,\"body\":1440}"
+          },
+          {
+            "viewport": "desktop",
+            "test": "theme-index-cards",
+            "status": "PASS",
+            "detail": "expected 6"
+          },
+          {
+            "viewport": "desktop",
+            "test": "horizontal-overflow-theme-index",
+            "status": "PASS",
+            "detail": "{\"viewport\":1440,\"document\":1440,\"body\":1440}"
+          },
+          {
+            "viewport": "desktop",
+            "test": "T415-01-seven-history-links",
+            "status": "PASS",
+            "detail": "anchors=7"
+          },
+          {
+            "viewport": "desktop",
+            "test": "horizontal-overflow-T415-01",
+            "status": "PASS",
+            "detail": "{\"viewport\":1440,\"document\":1440,\"body\":1440}"
+          },
+          {
+            "viewport": "desktop",
+            "test": "T415-02-seven-history-links",
+            "status": "PASS",
+            "detail": "anchors=7"
+          },
+          {
+            "viewport": "desktop",
+            "test": "horizontal-overflow-T415-02",
+            "status": "PASS",
+            "detail": "{\"viewport\":1440,\"document\":1440,\"body\":1440}"
+          },
+          {
+            "viewport": "desktop",
+            "test": "T415-03-seven-history-links",
+            "status": "PASS",
+            "detail": "anchors=7"
+          },
+          {
+            "viewport": "desktop",
+            "test": "horizontal-overflow-T415-03",
+            "status": "PASS",
+            "detail": "{\"viewport\":1440,\"document\":1440,\"body\":1440}"
+          },
+          {
+            "viewport": "desktop",
+            "test": "T415-04-seven-history-links",
+            "status": "PASS",
+            "detail": "anchors=7"
+          },
+          {
+            "viewport": "desktop",
+            "test": "horizontal-overflow-T415-04",
+            "status": "PASS",
+            "detail": "{\"viewport\":1440,\"document\":1440,\"body\":1440}"
+          },
+          {
+            "viewport": "desktop",
+            "test": "T415-05-seven-history-links",
+            "status": "PASS",
+            "detail": "anchors=7"
+          },
+          {
+            "viewport": "desktop",
+            "test": "horizontal-overflow-T415-05",
+            "status": "PASS",
+            "detail": "{\"viewport\":1440,\"document\":1440,\"body\":1440}"
+          },
+          {
+            "viewport": "desktop",
+            "test": "T415-06-seven-history-links",
+            "status": "PASS",
+            "detail": "anchors=7"
+          },
+          {
+            "viewport": "desktop",
+            "test": "horizontal-overflow-T415-06",
+            "status": "PASS",
+            "detail": "{\"viewport\":1440,\"document\":1440,\"body\":1440}"
+          },
+          {
+            "viewport": "desktop",
+            "test": "human-readable-anchor-role",
+            "status": "PASS",
+            "detail": "VOL-01\n공의회 결의와 다양한 지역의 수용\n초대교회·고대교회 · 핵심 사례"
+          },
+          {
+            "viewport": "desktop",
+            "test": "theme-to-volume-click",
+            "status": "PASS",
+            "detail": "clicked actual first theme anchor"
+          },
+          {
+            "viewport": "desktop",
+            "test": "keyboard-focus-after-navigation",
+            "status": "FAIL",
+            "detail": "activeElement="
+          },
+          {
+            "viewport": "desktop",
+            "test": "reader-1",
+            "status": "PASS",
+            "detail": "chapter 1"
+          },
+          {
+            "viewport": "desktop",
+            "test": "horizontal-overflow-reader-1",
+            "status": "PASS",
+            "detail": "{\"viewport\":1440,\"document\":1440,\"body\":1440}"
+          },
+          {
+            "viewport": "desktop",
+            "test": "reader-2",
+            "status": "PASS",
+            "detail": "chapter 2"
+          },
+          {
+            "viewport": "desktop",
+            "test": "horizontal-overflow-reader-2",
+            "status": "PASS",
+            "detail": "{\"viewport\":1440,\"document\":1440,\"body\":1440}"
+          },
+          {
+            "viewport": "desktop",
+            "test": "reader-3",
+            "status": "PASS",
+            "detail": "chapter 3"
+          },
+          {
+            "viewport": "desktop",
+            "test": "horizontal-overflow-reader-3",
+            "status": "PASS",
+            "detail": "{\"viewport\":1440,\"document\":1440,\"body\":1440}"
+          },
+          {
+            "viewport": "desktop",
+            "test": "reader-4",
+            "status": "PASS",
+            "detail": "chapter 4"
+          },
+          {
+            "viewport": "desktop",
+            "test": "horizontal-overflow-reader-4",
+            "status": "PASS",
+            "detail": "{\"viewport\":1440,\"document\":1440,\"body\":1440}"
+          },
+          {
+            "viewport": "desktop",
+            "test": "reader-5",
+            "status": "PASS",
+            "detail": "chapter 5"
+          },
+          {
+            "viewport": "desktop",
+            "test": "horizontal-overflow-reader-5",
+            "status": "PASS",
+            "detail": "{\"viewport\":1440,\"document\":1440,\"body\":1440}"
+          },
+          {
+            "viewport": "desktop",
+            "test": "reader-6",
+            "status": "PASS",
+            "detail": "chapter 6"
+          },
+          {
+            "viewport": "desktop",
+            "test": "horizontal-overflow-reader-6",
+            "status": "PASS",
+            "detail": "{\"viewport\":1440,\"document\":1440,\"body\":1440}"
+          },
+          {
+            "viewport": "desktop",
+            "test": "reader-next-click",
+            "status": "PASS",
+            "detail": "next chapter 2"
+          },
+          {
+            "viewport": "desktop",
+            "test": "search-actual-input",
+            "status": "PASS",
+            "detail": "query=후스, results=8"
+          },
+          {
+            "viewport": "desktop",
+            "test": "clear-search-keeps-input",
+            "status": "PASS",
+            "detail": "{\"hash\":\"#/search\",\"active\":\"search\"}"
+          },
+          {
+            "viewport": "desktop",
+            "test": "horizontal-overflow-search",
+            "status": "PASS",
+            "detail": "{\"viewport\":1440,\"document\":1440,\"body\":1440}"
+          },
+          {
+            "viewport": "desktop",
+            "test": "built-in-reference-check",
+            "status": "PASS",
+            "detail": "42 internal links expected"
+          },
+          {
+            "viewport": "desktop",
+            "test": "horizontal-overflow-integrity",
+            "status": "PASS",
+            "detail": "{\"viewport\":1440,\"document\":1440,\"body\":1440}"
+          },
+          {
+            "viewport": "desktop",
+            "test": "no-browser-page-errors",
+            "status": "PASS",
+            "detail": "[]"
+          },
+          {
+            "viewport": "desktop",
+            "test": "no-remote-requests",
+            "status": "PASS",
+            "detail": "[]"
+          },
+          {
+            "viewport": "desktop",
+            "test": "accessible-navigation-landmark",
+            "status": "PASS",
+            "detail": "nav label must exist"
+          },
+          {
+            "viewport": "desktop",
+            "test": "language-declaration",
+            "status": "PASS",
+            "detail": "lang=ko"
+          },
+          {
+            "viewport": "tablet",
+            "test": "no-initial-main-focus-steal",
+            "status": "PASS",
+            "detail": "focused="
+          },
+          {
+            "viewport": "tablet",
+            "test": "skip-link-without-route-change",
+            "status": "PASS",
+            "detail": "{\"hash\":\"#/volumes\",\"active\":\"main\"}"
+          },
+          {
+            "viewport": "tablet",
+            "test": "volume-index-cards",
+            "status": "PASS",
+            "detail": "expected 8"
+          },
+          {
+            "viewport": "tablet",
+            "test": "horizontal-overflow-volume-index",
+            "status": "PASS",
+            "detail": "{\"viewport\":768,\"document\":768,\"body\":768}"
+          },
+          {
+            "viewport": "tablet",
+            "test": "VOL-01-readable",
+            "status": "PASS",
+            "detail": "article=1; links=6"
+          },
+          {
+            "viewport": "tablet",
+            "test": "horizontal-overflow-VOL-01",
+            "status": "PASS",
+            "detail": "{\"viewport\":768,\"document\":768,\"body\":768}"
+          },
+          {
+            "viewport": "tablet",
+            "test": "VOL-02-readable",
+            "status": "PASS",
+            "detail": "article=1; links=6"
+          },
+          {
+            "viewport": "tablet",
+            "test": "horizontal-overflow-VOL-02",
+            "status": "PASS",
+            "detail": "{\"viewport\":768,\"document\":768,\"body\":768}"
+          },
+          {
+            "viewport": "tablet",
+            "test": "VOL-03-readable",
+            "status": "PASS",
+            "detail": "article=1; links=6"
+          },
+          {
+            "viewport": "tablet",
+            "test": "horizontal-overflow-VOL-03",
+            "status": "PASS",
+            "detail": "{\"viewport\":768,\"document\":768,\"body\":768}"
+          },
+          {
+            "viewport": "tablet",
+            "test": "VOL-04-readable",
+            "status": "PASS",
+            "detail": "article=1; links=6"
+          },
+          {
+            "viewport": "tablet",
+            "test": "horizontal-overflow-VOL-04",
+            "status": "PASS",
+            "detail": "{\"viewport\":768,\"document\":768,\"body\":768}"
+          },
+          {
+            "viewport": "tablet",
+            "test": "VOL-05-readable",
+            "status": "PASS",
+            "detail": "article=1; links=6"
+          },
+          {
+            "viewport": "tablet",
+            "test": "horizontal-overflow-VOL-05",
+            "status": "PASS",
+            "detail": "{\"viewport\":768,\"document\":768,\"body\":768}"
+          },
+          {
+            "viewport": "tablet",
+            "test": "VOL-06-readable",
+            "status": "PASS",
+            "detail": "article=1; links=6"
+          },
+          {
+            "viewport": "tablet",
+            "test": "horizontal-overflow-VOL-06",
+            "status": "PASS",
+            "detail": "{\"viewport\":768,\"document\":768,\"body\":768}"
+          },
+          {
+            "viewport": "tablet",
+            "test": "VOL-07-readable",
+            "status": "PASS",
+            "detail": "article=1; links=6"
+          },
+          {
+            "viewport": "tablet",
+            "test": "horizontal-overflow-VOL-07",
+            "status": "PASS",
+            "detail": "{\"viewport\":768,\"document\":768,\"body\":768}"
+          },
+          {
+            "viewport": "tablet",
+            "test": "VOL-08-readable",
+            "status": "PASS",
+            "detail": "article=1; links=0"
+          },
+          {
+            "viewport": "tablet",
+            "test": "horizontal-overflow-VOL-08",
+            "status": "PASS",
+            "detail": "{\"viewport\":768,\"document\":768,\"body\":768}"
+          },
+          {
+            "viewport": "tablet",
+            "test": "theme-index-cards",
+            "status": "PASS",
+            "detail": "expected 6"
+          },
+          {
+            "viewport": "tablet",
+            "test": "horizontal-overflow-theme-index",
+            "status": "PASS",
+            "detail": "{\"viewport\":768,\"document\":768,\"body\":768}"
+          },
+          {
+            "viewport": "tablet",
+            "test": "T415-01-seven-history-links",
+            "status": "PASS",
+            "detail": "anchors=7"
+          },
+          {
+            "viewport": "tablet",
+            "test": "horizontal-overflow-T415-01",
+            "status": "PASS",
+            "detail": "{\"viewport\":768,\"document\":768,\"body\":768}"
+          },
+          {
+            "viewport": "tablet",
+            "test": "T415-02-seven-history-links",
+            "status": "PASS",
+            "detail": "anchors=7"
+          },
+          {
+            "viewport": "tablet",
+            "test": "horizontal-overflow-T415-02",
+            "status": "PASS",
+            "detail": "{\"viewport\":768,\"document\":768,\"body\":768}"
+          },
+          {
+            "viewport": "tablet",
+            "test": "T415-03-seven-history-links",
+            "status": "PASS",
+            "detail": "anchors=7"
+          },
+          {
+            "viewport": "tablet",
+            "test": "horizontal-overflow-T415-03",
+            "status": "PASS",
+            "detail": "{\"viewport\":768,\"document\":768,\"body\":768}"
+          },
+          {
+            "viewport": "tablet",
+            "test": "T415-04-seven-history-links",
+            "status": "PASS",
+            "detail": "anchors=7"
+          },
+          {
+            "viewport": "tablet",
+            "test": "horizontal-overflow-T415-04",
+            "status": "PASS",
+            "detail": "{\"viewport\":768,\"document\":768,\"body\":768}"
+          },
+          {
+            "viewport": "tablet",
+            "test": "T415-05-seven-history-links",
+            "status": "PASS",
+            "detail": "anchors=7"
+          },
+          {
+            "viewport": "tablet",
+            "test": "horizontal-overflow-T415-05",
+            "status": "PASS",
+            "detail": "{\"viewport\":768,\"document\":768,\"body\":768}"
+          },
+          {
+            "viewport": "tablet",
+            "test": "T415-06-seven-history-links",
+            "status": "PASS",
+            "detail": "anchors=7"
+          },
+          {
+            "viewport": "tablet",
+            "test": "horizontal-overflow-T415-06",
+            "status": "PASS",
+            "detail": "{\"viewport\":768,\"document\":768,\"body\":768}"
+          },
+          {
+            "viewport": "tablet",
+            "test": "human-readable-anchor-role",
+            "status": "PASS",
+            "detail": "VOL-01\n공의회 결의와 다양한 지역의 수용\n초대교회·고대교회 · 핵심 사례"
+          },
+          {
+            "viewport": "tablet",
+            "test": "theme-to-volume-click",
+            "status": "PASS",
+            "detail": "clicked actual first theme anchor"
+          },
+          {
+            "viewport": "tablet",
+            "test": "keyboard-focus-after-navigation",
+            "status": "FAIL",
+            "detail": "activeElement="
+          },
+          {
+            "viewport": "tablet",
+            "test": "reader-1",
+            "status": "PASS",
+            "detail": "chapter 1"
+          },
+          {
+            "viewport": "tablet",
+            "test": "horizontal-overflow-reader-1",
+            "status": "PASS",
+            "detail": "{\"viewport\":768,\"document\":768,\"body\":768}"
+          },
+          {
+            "viewport": "tablet",
+            "test": "reader-2",
+            "status": "PASS",
+            "detail": "chapter 2"
+          },
+          {
+            "viewport": "tablet",
+            "test": "horizontal-overflow-reader-2",
+            "status": "PASS",
+            "detail": "{\"viewport\":768,\"document\":768,\"body\":768}"
+          },
+          {
+            "viewport": "tablet",
+            "test": "reader-3",
+            "status": "PASS",
+            "detail": "chapter 3"
+          },
+          {
+            "viewport": "tablet",
+            "test": "horizontal-overflow-reader-3",
+            "status": "PASS",
+            "detail": "{\"viewport\":768,\"document\":768,\"body\":768}"
+          },
+          {
+            "viewport": "tablet",
+            "test": "reader-4",
+            "status": "PASS",
+            "detail": "chapter 4"
+          },
+          {
+            "viewport": "tablet",
+            "test": "horizontal-overflow-reader-4",
+            "status": "PASS",
+            "detail": "{\"viewport\":768,\"document\":768,\"body\":768}"
+          },
+          {
+            "viewport": "tablet",
+            "test": "reader-5",
+            "status": "PASS",
+            "detail": "chapter 5"
+          },
+          {
+            "viewport": "tablet",
+            "test": "horizontal-overflow-reader-5",
+            "status": "PASS",
+            "detail": "{\"viewport\":768,\"document\":768,\"body\":768}"
+          },
+          {
+            "viewport": "tablet",
+            "test": "reader-6",
+            "status": "PASS",
+            "detail": "chapter 6"
+          },
+          {
+            "viewport": "tablet",
+            "test": "horizontal-overflow-reader-6",
+            "status": "PASS",
+            "detail": "{\"viewport\":768,\"document\":768,\"body\":768}"
+          },
+          {
+            "viewport": "tablet",
+            "test": "reader-next-click",
+            "status": "PASS",
+            "detail": "next chapter 2"
+          },
+          {
+            "viewport": "tablet",
+            "test": "search-actual-input",
+            "status": "PASS",
+            "detail": "query=후스, results=8"
+          },
+          {
+            "viewport": "tablet",
+            "test": "clear-search-keeps-input",
+            "status": "PASS",
+            "detail": "{\"hash\":\"#/search\",\"active\":\"search\"}"
+          },
+          {
+            "viewport": "tablet",
+            "test": "horizontal-overflow-search",
+            "status": "PASS",
+            "detail": "{\"viewport\":768,\"document\":768,\"body\":768}"
+          },
+          {
+            "viewport": "tablet",
+            "test": "built-in-reference-check",
+            "status": "PASS",
+            "detail": "42 internal links expected"
+          },
+          {
+            "viewport": "tablet",
+            "test": "horizontal-overflow-integrity",
+            "status": "PASS",
+            "detail": "{\"viewport\":768,\"document\":768,\"body\":768}"
+          },
+          {
+            "viewport": "tablet",
+            "test": "no-browser-page-errors",
+            "status": "PASS",
+            "detail": "[]"
+          },
+          {
+            "viewport": "tablet",
+            "test": "no-remote-requests",
+            "status": "PASS",
+            "detail": "[]"
+          },
+          {
+            "viewport": "tablet",
+            "test": "accessible-navigation-landmark",
+            "status": "PASS",
+            "detail": "nav label must exist"
+          },
+          {
+            "viewport": "tablet",
+            "test": "language-declaration",
+            "status": "PASS",
+            "detail": "lang=ko"
+          },
+          {
+            "viewport": "mobile",
+            "test": "no-initial-main-focus-steal",
+            "status": "PASS",
+            "detail": "focused="
+          },
+          {
+            "viewport": "mobile",
+            "test": "skip-link-without-route-change",
+            "status": "PASS",
+            "detail": "{\"hash\":\"#/volumes\",\"active\":\"main\"}"
+          },
+          {
+            "viewport": "mobile",
+            "test": "volume-index-cards",
+            "status": "PASS",
+            "detail": "expected 8"
+          },
+          {
+            "viewport": "mobile",
+            "test": "horizontal-overflow-volume-index",
+            "status": "PASS",
+            "detail": "{\"viewport\":375,\"document\":375,\"body\":375}"
+          },
+          {
+            "viewport": "mobile",
+            "test": "VOL-01-readable",
+            "status": "PASS",
+            "detail": "article=1; links=6"
+          },
+          {
+            "viewport": "mobile",
+            "test": "horizontal-overflow-VOL-01",
+            "status": "PASS",
+            "detail": "{\"viewport\":375,\"document\":375,\"body\":375}"
+          },
+          {
+            "viewport": "mobile",
+            "test": "VOL-02-readable",
+            "status": "PASS",
+            "detail": "article=1; links=6"
+          },
+          {
+            "viewport": "mobile",
+            "test": "horizontal-overflow-VOL-02",
+            "status": "PASS",
+            "detail": "{\"viewport\":375,\"document\":375,\"body\":375}"
+          },
+          {
+            "viewport": "mobile",
+            "test": "VOL-03-readable",
+            "status": "PASS",
+            "detail": "article=1; links=6"
+          },
+          {
+            "viewport": "mobile",
+            "test": "horizontal-overflow-VOL-03",
+            "status": "PASS",
+            "detail": "{\"viewport\":375,\"document\":375,\"body\":375}"
+          },
+          {
+            "viewport": "mobile",
+            "test": "VOL-04-readable",
+            "status": "PASS",
+            "detail": "article=1; links=6"
+          },
+          {
+            "viewport": "mobile",
+            "test": "horizontal-overflow-VOL-04",
+            "status": "PASS",
+            "detail": "{\"viewport\":375,\"document\":375,\"body\":375}"
+          },
+          {
+            "viewport": "mobile",
+            "test": "VOL-05-readable",
+            "status": "PASS",
+            "detail": "article=1; links=6"
+          },
+          {
+            "viewport": "mobile",
+            "test": "horizontal-overflow-VOL-05",
+            "status": "PASS",
+            "detail": "{\"viewport\":375,\"document\":375,\"body\":375}"
+          },
+          {
+            "viewport": "mobile",
+            "test": "VOL-06-readable",
+            "status": "PASS",
+            "detail": "article=1; links=6"
+          },
+          {
+            "viewport": "mobile",
+            "test": "horizontal-overflow-VOL-06",
+            "status": "PASS",
+            "detail": "{\"viewport\":375,\"document\":375,\"body\":375}"
+          },
+          {
+            "viewport": "mobile",
+            "test": "VOL-07-readable",
+            "status": "PASS",
+            "detail": "article=1; links=6"
+          },
+          {
+            "viewport": "mobile",
+            "test": "horizontal-overflow-VOL-07",
+            "status": "PASS",
+            "detail": "{\"viewport\":375,\"document\":375,\"body\":375}"
+          },
+          {
+            "viewport": "mobile",
+            "test": "VOL-08-readable",
+            "status": "PASS",
+            "detail": "article=1; links=0"
+          },
+          {
+            "viewport": "mobile",
+            "test": "horizontal-overflow-VOL-08",
+            "status": "PASS",
+            "detail": "{\"viewport\":375,\"document\":375,\"body\":375}"
+          },
+          {
+            "viewport": "mobile",
+            "test": "theme-index-cards",
+            "status": "PASS",
+            "detail": "expected 6"
+          },
+          {
+            "viewport": "mobile",
+            "test": "horizontal-overflow-theme-index",
+            "status": "PASS",
+            "detail": "{\"viewport\":375,\"document\":375,\"body\":375}"
+          },
+          {
+            "viewport": "mobile",
+            "test": "T415-01-seven-history-links",
+            "status": "PASS",
+            "detail": "anchors=7"
+          },
+          {
+            "viewport": "mobile",
+            "test": "horizontal-overflow-T415-01",
+            "status": "PASS",
+            "detail": "{\"viewport\":375,\"document\":375,\"body\":375}"
+          },
+          {
+            "viewport": "mobile",
+            "test": "T415-02-seven-history-links",
+            "status": "PASS",
+            "detail": "anchors=7"
+          },
+          {
+            "viewport": "mobile",
+            "test": "horizontal-overflow-T415-02",
+            "status": "PASS",
+            "detail": "{\"viewport\":375,\"document\":375,\"body\":375}"
+          },
+          {
+            "viewport": "mobile",
+            "test": "T415-03-seven-history-links",
+            "status": "PASS",
+            "detail": "anchors=7"
+          },
+          {
+            "viewport": "mobile",
+            "test": "horizontal-overflow-T415-03",
+            "status": "PASS",
+            "detail": "{\"viewport\":375,\"document\":375,\"body\":375}"
+          },
+          {
+            "viewport": "mobile",
+            "test": "T415-04-seven-history-links",
+            "status": "PASS",
+            "detail": "anchors=7"
+          },
+          {
+            "viewport": "mobile",
+            "test": "horizontal-overflow-T415-04",
+            "status": "PASS",
+            "detail": "{\"viewport\":375,\"document\":375,\"body\":375}"
+          },
+          {
+            "viewport": "mobile",
+            "test": "T415-05-seven-history-links",
+            "status": "PASS",
+            "detail": "anchors=7"
+          },
+          {
+            "viewport": "mobile",
+            "test": "horizontal-overflow-T415-05",
+            "status": "PASS",
+            "detail": "{\"viewport\":375,\"document\":375,\"body\":375}"
+          },
+          {
+            "viewport": "mobile",
+            "test": "T415-06-seven-history-links",
+            "status": "PASS",
+            "detail": "anchors=7"
+          },
+          {
+            "viewport": "mobile",
+            "test": "horizontal-overflow-T415-06",
+            "status": "PASS",
+            "detail": "{\"viewport\":375,\"document\":375,\"body\":375}"
+          },
+          {
+            "viewport": "mobile",
+            "test": "human-readable-anchor-role",
+            "status": "PASS",
+            "detail": "VOL-01\n공의회 결의와 다양한 지역의 수용\n초대교회·고대교회 · 핵심 사례"
+          },
+          {
+            "viewport": "mobile",
+            "test": "theme-to-volume-click",
+            "status": "PASS",
+            "detail": "clicked actual first theme anchor"
+          },
+          {
+            "viewport": "mobile",
+            "test": "keyboard-focus-after-navigation",
+            "status": "FAIL",
+            "detail": "activeElement="
+          },
+          {
+            "viewport": "mobile",
+            "test": "reader-1",
+            "status": "PASS",
+            "detail": "chapter 1"
+          },
+          {
+            "viewport": "mobile",
+            "test": "horizontal-overflow-reader-1",
+            "status": "PASS",
+            "detail": "{\"viewport\":375,\"document\":375,\"body\":375}"
+          },
+          {
+            "viewport": "mobile",
+            "test": "reader-2",
+            "status": "PASS",
+            "detail": "chapter 2"
+          },
+          {
+            "viewport": "mobile",
+            "test": "horizontal-overflow-reader-2",
+            "status": "PASS",
+            "detail": "{\"viewport\":375,\"document\":375,\"body\":375}"
+          },
+          {
+            "viewport": "mobile",
+            "test": "reader-3",
+            "status": "PASS",
+            "detail": "chapter 3"
+          },
+          {
+            "viewport": "mobile",
+            "test": "horizontal-overflow-reader-3",
+            "status": "PASS",
+            "detail": "{\"viewport\":375,\"document\":375,\"body\":375}"
+          },
+          {
+            "viewport": "mobile",
+            "test": "reader-4",
+            "status": "PASS",
+            "detail": "chapter 4"
+          },
+          {
+            "viewport": "mobile",
+            "test": "horizontal-overflow-reader-4",
+            "status": "PASS",
+            "detail": "{\"viewport\":375,\"document\":375,\"body\":375}"
+          },
+          {
+            "viewport": "mobile",
+            "test": "reader-5",
+            "status": "PASS",
+            "detail": "chapter 5"
+          },
+          {
+            "viewport": "mobile",
+            "test": "horizontal-overflow-reader-5",
+            "status": "PASS",
+            "detail": "{\"viewport\":375,\"document\":375,\"body\":375}"
+          },
+          {
+            "viewport": "mobile",
+            "test": "reader-6",
+            "status": "PASS",
+            "detail": "chapter 6"
+          },
+          {
+            "viewport": "mobile",
+            "test": "horizontal-overflow-reader-6",
+            "status": "PASS",
+            "detail": "{\"viewport\":375,\"document\":375,\"body\":375}"
+          },
+          {
+            "viewport": "mobile",
+            "test": "reader-next-click",
+            "status": "PASS",
+            "detail": "next chapter 2"
+          },
+          {
+            "viewport": "mobile",
+            "test": "search-actual-input",
+            "status": "PASS",
+            "detail": "query=후스, results=8"
+          },
+          {
+            "viewport": "mobile",
+            "test": "clear-search-keeps-input",
+            "status": "PASS",
+            "detail": "{\"hash\":\"#/search\",\"active\":\"search\"}"
+          },
+          {
+            "viewport": "mobile",
+            "test": "horizontal-overflow-search",
+            "status": "PASS",
+            "detail": "{\"viewport\":375,\"document\":375,\"body\":375}"
+          },
+          {
+            "viewport": "mobile",
+            "test": "built-in-reference-check",
+            "status": "PASS",
+            "detail": "42 internal links expected"
+          },
+          {
+            "viewport": "mobile",
+            "test": "horizontal-overflow-integrity",
+            "status": "PASS",
+            "detail": "{\"viewport\":375,\"document\":375,\"body\":375}"
+          },
+          {
+            "viewport": "mobile",
+            "test": "no-browser-page-errors",
+            "status": "PASS",
+            "detail": "[]"
+          },
+          {
+            "viewport": "mobile",
+            "test": "no-remote-requests",
+            "status": "PASS",
+            "detail": "[]"
+          },
+          {
+            "viewport": "mobile",
+            "test": "accessible-navigation-landmark",
+            "status": "PASS",
+            "detail": "nav label must exist"
+          },
+          {
+            "viewport": "mobile",
+            "test": "language-declaration",
+            "status": "PASS",
+            "detail": "lang=ko"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "no-initial-main-focus-steal",
+            "status": "PASS",
+            "detail": "focused="
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "skip-link-without-route-change",
+            "status": "PASS",
+            "detail": "{\"hash\":\"#/volumes\",\"active\":\"main\"}"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "volume-index-cards",
+            "status": "PASS",
+            "detail": "expected 8"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "horizontal-overflow-volume-index",
+            "status": "PASS",
+            "detail": "{\"viewport\":320,\"document\":320,\"body\":320}"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "VOL-01-readable",
+            "status": "PASS",
+            "detail": "article=1; links=6"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "horizontal-overflow-VOL-01",
+            "status": "PASS",
+            "detail": "{\"viewport\":320,\"document\":320,\"body\":320}"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "VOL-02-readable",
+            "status": "PASS",
+            "detail": "article=1; links=6"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "horizontal-overflow-VOL-02",
+            "status": "PASS",
+            "detail": "{\"viewport\":320,\"document\":320,\"body\":320}"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "VOL-03-readable",
+            "status": "PASS",
+            "detail": "article=1; links=6"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "horizontal-overflow-VOL-03",
+            "status": "PASS",
+            "detail": "{\"viewport\":320,\"document\":320,\"body\":320}"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "VOL-04-readable",
+            "status": "PASS",
+            "detail": "article=1; links=6"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "horizontal-overflow-VOL-04",
+            "status": "PASS",
+            "detail": "{\"viewport\":320,\"document\":320,\"body\":320}"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "VOL-05-readable",
+            "status": "PASS",
+            "detail": "article=1; links=6"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "horizontal-overflow-VOL-05",
+            "status": "PASS",
+            "detail": "{\"viewport\":320,\"document\":320,\"body\":320}"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "VOL-06-readable",
+            "status": "PASS",
+            "detail": "article=1; links=6"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "horizontal-overflow-VOL-06",
+            "status": "PASS",
+            "detail": "{\"viewport\":320,\"document\":320,\"body\":320}"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "VOL-07-readable",
+            "status": "PASS",
+            "detail": "article=1; links=6"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "horizontal-overflow-VOL-07",
+            "status": "PASS",
+            "detail": "{\"viewport\":320,\"document\":320,\"body\":320}"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "VOL-08-readable",
+            "status": "PASS",
+            "detail": "article=1; links=0"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "horizontal-overflow-VOL-08",
+            "status": "PASS",
+            "detail": "{\"viewport\":320,\"document\":320,\"body\":320}"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "theme-index-cards",
+            "status": "PASS",
+            "detail": "expected 6"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "horizontal-overflow-theme-index",
+            "status": "PASS",
+            "detail": "{\"viewport\":320,\"document\":320,\"body\":320}"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "T415-01-seven-history-links",
+            "status": "PASS",
+            "detail": "anchors=7"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "horizontal-overflow-T415-01",
+            "status": "PASS",
+            "detail": "{\"viewport\":320,\"document\":320,\"body\":320}"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "T415-02-seven-history-links",
+            "status": "PASS",
+            "detail": "anchors=7"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "horizontal-overflow-T415-02",
+            "status": "PASS",
+            "detail": "{\"viewport\":320,\"document\":320,\"body\":320}"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "T415-03-seven-history-links",
+            "status": "PASS",
+            "detail": "anchors=7"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "horizontal-overflow-T415-03",
+            "status": "PASS",
+            "detail": "{\"viewport\":320,\"document\":320,\"body\":320}"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "T415-04-seven-history-links",
+            "status": "PASS",
+            "detail": "anchors=7"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "horizontal-overflow-T415-04",
+            "status": "PASS",
+            "detail": "{\"viewport\":320,\"document\":320,\"body\":320}"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "T415-05-seven-history-links",
+            "status": "PASS",
+            "detail": "anchors=7"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "horizontal-overflow-T415-05",
+            "status": "PASS",
+            "detail": "{\"viewport\":320,\"document\":320,\"body\":320}"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "T415-06-seven-history-links",
+            "status": "PASS",
+            "detail": "anchors=7"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "horizontal-overflow-T415-06",
+            "status": "PASS",
+            "detail": "{\"viewport\":320,\"document\":320,\"body\":320}"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "human-readable-anchor-role",
+            "status": "PASS",
+            "detail": "VOL-01\n공의회 결의와 다양한 지역의 수용\n초대교회·고대교회 · 핵심 사례"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "theme-to-volume-click",
+            "status": "PASS",
+            "detail": "clicked actual first theme anchor"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "keyboard-focus-after-navigation",
+            "status": "FAIL",
+            "detail": "activeElement="
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "reader-1",
+            "status": "PASS",
+            "detail": "chapter 1"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "horizontal-overflow-reader-1",
+            "status": "PASS",
+            "detail": "{\"viewport\":320,\"document\":320,\"body\":320}"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "reader-2",
+            "status": "PASS",
+            "detail": "chapter 2"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "horizontal-overflow-reader-2",
+            "status": "PASS",
+            "detail": "{\"viewport\":320,\"document\":320,\"body\":320}"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "reader-3",
+            "status": "PASS",
+            "detail": "chapter 3"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "horizontal-overflow-reader-3",
+            "status": "PASS",
+            "detail": "{\"viewport\":320,\"document\":320,\"body\":320}"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "reader-4",
+            "status": "PASS",
+            "detail": "chapter 4"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "horizontal-overflow-reader-4",
+            "status": "PASS",
+            "detail": "{\"viewport\":320,\"document\":320,\"body\":320}"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "reader-5",
+            "status": "PASS",
+            "detail": "chapter 5"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "horizontal-overflow-reader-5",
+            "status": "PASS",
+            "detail": "{\"viewport\":320,\"document\":320,\"body\":320}"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "reader-6",
+            "status": "PASS",
+            "detail": "chapter 6"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "horizontal-overflow-reader-6",
+            "status": "PASS",
+            "detail": "{\"viewport\":320,\"document\":320,\"body\":320}"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "reader-next-click",
+            "status": "PASS",
+            "detail": "next chapter 2"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "search-actual-input",
+            "status": "PASS",
+            "detail": "query=후스, results=8"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "clear-search-keeps-input",
+            "status": "PASS",
+            "detail": "{\"hash\":\"#/search\",\"active\":\"search\"}"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "horizontal-overflow-search",
+            "status": "PASS",
+            "detail": "{\"viewport\":320,\"document\":320,\"body\":320}"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "built-in-reference-check",
+            "status": "PASS",
+            "detail": "42 internal links expected"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "horizontal-overflow-integrity",
+            "status": "PASS",
+            "detail": "{\"viewport\":320,\"document\":320,\"body\":320}"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "no-browser-page-errors",
+            "status": "PASS",
+            "detail": "[]"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "no-remote-requests",
+            "status": "PASS",
+            "detail": "[]"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "accessible-navigation-landmark",
+            "status": "PASS",
+            "detail": "nav label must exist"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "language-declaration",
+            "status": "PASS",
+            "detail": "lang=ko"
+          }
+        ],
+        "browser_execution_status": "FAILED",
+        "claims": {
+          "human_reader_tested": false,
+          "expert_history_signoff": false,
+          "manual_screenshot_reviewed": false,
+          "iOS_Safari_tested": false,
+          "can_ship": false
+        }
+      },
       "exit_code": "1"
     },
     "webkit": {
-      "report_present": false,
-      "test_report": null,
+      "report_present": true,
+      "test_report": {
+        "version": "V4.26",
+        "input": "preview/V424_L0_EDITORIAL_ALPHA_OFFLINE_PREVIEW.html",
+        "actual_browser_engine": "webkit / Playwright",
+        "expected_input_blob_sha": "2cabf8279fd753eb3a00e1736963ee295810377a",
+        "actual_input_blob_sha": "2cabf8279fd753eb3a00e1736963ee295810377a",
+        "date": "2026-11-17T11:53:13.617Z",
+        "viewport_profiles": [
+          {
+            "id": "desktop",
+            "width": 1440,
+            "height": 900
+          },
+          {
+            "id": "tablet",
+            "width": 768,
+            "height": 1024
+          },
+          {
+            "id": "mobile",
+            "width": 375,
+            "height": 812
+          },
+          {
+            "id": "small-mobile",
+            "width": 320,
+            "height": 700
+          }
+        ],
+        "checks_performed": 236,
+        "checks_passed": 232,
+        "failures": [
+          {
+            "viewport": "tablet",
+            "test": "horizontal-overflow-volume-index",
+            "detail": "{\"viewport\":768,\"document\":927,\"body\":927}"
+          },
+          {
+            "viewport": "mobile",
+            "test": "horizontal-overflow-volume-index",
+            "detail": "{\"viewport\":375,\"document\":443,\"body\":443}"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "horizontal-overflow-volume-index",
+            "detail": "{\"viewport\":320,\"document\":443,\"body\":443}"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "horizontal-overflow-VOL-06",
+            "detail": "{\"viewport\":320,\"document\":358,\"body\":358}"
+          }
+        ],
+        "passes": [
+          {
+            "viewport": "desktop",
+            "test": "no-initial-main-focus-steal",
+            "status": "PASS",
+            "detail": "focused="
+          },
+          {
+            "viewport": "desktop",
+            "test": "skip-link-without-route-change",
+            "status": "PASS",
+            "detail": "{\"hash\":\"#/volumes\",\"active\":\"main\"}"
+          },
+          {
+            "viewport": "desktop",
+            "test": "volume-index-cards",
+            "status": "PASS",
+            "detail": "expected 8"
+          },
+          {
+            "viewport": "desktop",
+            "test": "horizontal-overflow-volume-index",
+            "status": "PASS",
+            "detail": "{\"viewport\":1440,\"document\":1440,\"body\":1440}"
+          },
+          {
+            "viewport": "desktop",
+            "test": "VOL-01-readable",
+            "status": "PASS",
+            "detail": "article=1; links=6"
+          },
+          {
+            "viewport": "desktop",
+            "test": "horizontal-overflow-VOL-01",
+            "status": "PASS",
+            "detail": "{\"viewport\":1440,\"document\":1440,\"body\":1440}"
+          },
+          {
+            "viewport": "desktop",
+            "test": "VOL-02-readable",
+            "status": "PASS",
+            "detail": "article=1; links=6"
+          },
+          {
+            "viewport": "desktop",
+            "test": "horizontal-overflow-VOL-02",
+            "status": "PASS",
+            "detail": "{\"viewport\":1440,\"document\":1440,\"body\":1440}"
+          },
+          {
+            "viewport": "desktop",
+            "test": "VOL-03-readable",
+            "status": "PASS",
+            "detail": "article=1; links=6"
+          },
+          {
+            "viewport": "desktop",
+            "test": "horizontal-overflow-VOL-03",
+            "status": "PASS",
+            "detail": "{\"viewport\":1440,\"document\":1440,\"body\":1440}"
+          },
+          {
+            "viewport": "desktop",
+            "test": "VOL-04-readable",
+            "status": "PASS",
+            "detail": "article=1; links=6"
+          },
+          {
+            "viewport": "desktop",
+            "test": "horizontal-overflow-VOL-04",
+            "status": "PASS",
+            "detail": "{\"viewport\":1440,\"document\":1440,\"body\":1440}"
+          },
+          {
+            "viewport": "desktop",
+            "test": "VOL-05-readable",
+            "status": "PASS",
+            "detail": "article=1; links=6"
+          },
+          {
+            "viewport": "desktop",
+            "test": "horizontal-overflow-VOL-05",
+            "status": "PASS",
+            "detail": "{\"viewport\":1440,\"document\":1440,\"body\":1440}"
+          },
+          {
+            "viewport": "desktop",
+            "test": "VOL-06-readable",
+            "status": "PASS",
+            "detail": "article=1; links=6"
+          },
+          {
+            "viewport": "desktop",
+            "test": "horizontal-overflow-VOL-06",
+            "status": "PASS",
+            "detail": "{\"viewport\":1440,\"document\":1440,\"body\":1440}"
+          },
+          {
+            "viewport": "desktop",
+            "test": "VOL-07-readable",
+            "status": "PASS",
+            "detail": "article=1; links=6"
+          },
+          {
+            "viewport": "desktop",
+            "test": "horizontal-overflow-VOL-07",
+            "status": "PASS",
+            "detail": "{\"viewport\":1440,\"document\":1440,\"body\":1440}"
+          },
+          {
+            "viewport": "desktop",
+            "test": "VOL-08-readable",
+            "status": "PASS",
+            "detail": "article=1; links=0"
+          },
+          {
+            "viewport": "desktop",
+            "test": "horizontal-overflow-VOL-08",
+            "status": "PASS",
+            "detail": "{\"viewport\":1440,\"document\":1440,\"body\":1440}"
+          },
+          {
+            "viewport": "desktop",
+            "test": "theme-index-cards",
+            "status": "PASS",
+            "detail": "expected 6"
+          },
+          {
+            "viewport": "desktop",
+            "test": "horizontal-overflow-theme-index",
+            "status": "PASS",
+            "detail": "{\"viewport\":1440,\"document\":1440,\"body\":1440}"
+          },
+          {
+            "viewport": "desktop",
+            "test": "T415-01-seven-history-links",
+            "status": "PASS",
+            "detail": "anchors=7"
+          },
+          {
+            "viewport": "desktop",
+            "test": "horizontal-overflow-T415-01",
+            "status": "PASS",
+            "detail": "{\"viewport\":1440,\"document\":1440,\"body\":1440}"
+          },
+          {
+            "viewport": "desktop",
+            "test": "T415-02-seven-history-links",
+            "status": "PASS",
+            "detail": "anchors=7"
+          },
+          {
+            "viewport": "desktop",
+            "test": "horizontal-overflow-T415-02",
+            "status": "PASS",
+            "detail": "{\"viewport\":1440,\"document\":1440,\"body\":1440}"
+          },
+          {
+            "viewport": "desktop",
+            "test": "T415-03-seven-history-links",
+            "status": "PASS",
+            "detail": "anchors=7"
+          },
+          {
+            "viewport": "desktop",
+            "test": "horizontal-overflow-T415-03",
+            "status": "PASS",
+            "detail": "{\"viewport\":1440,\"document\":1440,\"body\":1440}"
+          },
+          {
+            "viewport": "desktop",
+            "test": "T415-04-seven-history-links",
+            "status": "PASS",
+            "detail": "anchors=7"
+          },
+          {
+            "viewport": "desktop",
+            "test": "horizontal-overflow-T415-04",
+            "status": "PASS",
+            "detail": "{\"viewport\":1440,\"document\":1440,\"body\":1440}"
+          },
+          {
+            "viewport": "desktop",
+            "test": "T415-05-seven-history-links",
+            "status": "PASS",
+            "detail": "anchors=7"
+          },
+          {
+            "viewport": "desktop",
+            "test": "horizontal-overflow-T415-05",
+            "status": "PASS",
+            "detail": "{\"viewport\":1440,\"document\":1440,\"body\":1440}"
+          },
+          {
+            "viewport": "desktop",
+            "test": "T415-06-seven-history-links",
+            "status": "PASS",
+            "detail": "anchors=7"
+          },
+          {
+            "viewport": "desktop",
+            "test": "horizontal-overflow-T415-06",
+            "status": "PASS",
+            "detail": "{\"viewport\":1440,\"document\":1440,\"body\":1440}"
+          },
+          {
+            "viewport": "desktop",
+            "test": "human-readable-anchor-role",
+            "status": "PASS",
+            "detail": "VOL-01\n공의회 결의와 다양한 지역의 수용\n초대교회·고대교회 · 핵심 사례\n"
+          },
+          {
+            "viewport": "desktop",
+            "test": "theme-to-volume-click",
+            "status": "PASS",
+            "detail": "clicked actual first theme anchor"
+          },
+          {
+            "viewport": "desktop",
+            "test": "keyboard-focus-after-navigation",
+            "status": "PASS",
+            "detail": "activeElement=main"
+          },
+          {
+            "viewport": "desktop",
+            "test": "reader-1",
+            "status": "PASS",
+            "detail": "chapter 1"
+          },
+          {
+            "viewport": "desktop",
+            "test": "horizontal-overflow-reader-1",
+            "status": "PASS",
+            "detail": "{\"viewport\":1440,\"document\":1440,\"body\":1440}"
+          },
+          {
+            "viewport": "desktop",
+            "test": "reader-2",
+            "status": "PASS",
+            "detail": "chapter 2"
+          },
+          {
+            "viewport": "desktop",
+            "test": "horizontal-overflow-reader-2",
+            "status": "PASS",
+            "detail": "{\"viewport\":1440,\"document\":1440,\"body\":1440}"
+          },
+          {
+            "viewport": "desktop",
+            "test": "reader-3",
+            "status": "PASS",
+            "detail": "chapter 3"
+          },
+          {
+            "viewport": "desktop",
+            "test": "horizontal-overflow-reader-3",
+            "status": "PASS",
+            "detail": "{\"viewport\":1440,\"document\":1440,\"body\":1440}"
+          },
+          {
+            "viewport": "desktop",
+            "test": "reader-4",
+            "status": "PASS",
+            "detail": "chapter 4"
+          },
+          {
+            "viewport": "desktop",
+            "test": "horizontal-overflow-reader-4",
+            "status": "PASS",
+            "detail": "{\"viewport\":1440,\"document\":1440,\"body\":1440}"
+          },
+          {
+            "viewport": "desktop",
+            "test": "reader-5",
+            "status": "PASS",
+            "detail": "chapter 5"
+          },
+          {
+            "viewport": "desktop",
+            "test": "horizontal-overflow-reader-5",
+            "status": "PASS",
+            "detail": "{\"viewport\":1440,\"document\":1440,\"body\":1440}"
+          },
+          {
+            "viewport": "desktop",
+            "test": "reader-6",
+            "status": "PASS",
+            "detail": "chapter 6"
+          },
+          {
+            "viewport": "desktop",
+            "test": "horizontal-overflow-reader-6",
+            "status": "PASS",
+            "detail": "{\"viewport\":1440,\"document\":1440,\"body\":1440}"
+          },
+          {
+            "viewport": "desktop",
+            "test": "reader-next-click",
+            "status": "PASS",
+            "detail": "next chapter 2"
+          },
+          {
+            "viewport": "desktop",
+            "test": "search-actual-input",
+            "status": "PASS",
+            "detail": "query=후스, results=8"
+          },
+          {
+            "viewport": "desktop",
+            "test": "clear-search-keeps-input",
+            "status": "PASS",
+            "detail": "{\"hash\":\"#/search\",\"active\":\"search\"}"
+          },
+          {
+            "viewport": "desktop",
+            "test": "horizontal-overflow-search",
+            "status": "PASS",
+            "detail": "{\"viewport\":1440,\"document\":1440,\"body\":1440}"
+          },
+          {
+            "viewport": "desktop",
+            "test": "built-in-reference-check",
+            "status": "PASS",
+            "detail": "42 internal links expected"
+          },
+          {
+            "viewport": "desktop",
+            "test": "horizontal-overflow-integrity",
+            "status": "PASS",
+            "detail": "{\"viewport\":1440,\"document\":1440,\"body\":1440}"
+          },
+          {
+            "viewport": "desktop",
+            "test": "no-browser-page-errors",
+            "status": "PASS",
+            "detail": "[]"
+          },
+          {
+            "viewport": "desktop",
+            "test": "no-remote-requests",
+            "status": "PASS",
+            "detail": "[]"
+          },
+          {
+            "viewport": "desktop",
+            "test": "accessible-navigation-landmark",
+            "status": "PASS",
+            "detail": "nav label must exist"
+          },
+          {
+            "viewport": "desktop",
+            "test": "language-declaration",
+            "status": "PASS",
+            "detail": "lang=ko"
+          },
+          {
+            "viewport": "tablet",
+            "test": "no-initial-main-focus-steal",
+            "status": "PASS",
+            "detail": "focused="
+          },
+          {
+            "viewport": "tablet",
+            "test": "skip-link-without-route-change",
+            "status": "PASS",
+            "detail": "{\"hash\":\"#/volumes\",\"active\":\"main\"}"
+          },
+          {
+            "viewport": "tablet",
+            "test": "volume-index-cards",
+            "status": "PASS",
+            "detail": "expected 8"
+          },
+          {
+            "viewport": "tablet",
+            "test": "horizontal-overflow-volume-index",
+            "status": "FAIL",
+            "detail": "{\"viewport\":768,\"document\":927,\"body\":927}"
+          },
+          {
+            "viewport": "tablet",
+            "test": "VOL-01-readable",
+            "status": "PASS",
+            "detail": "article=1; links=6"
+          },
+          {
+            "viewport": "tablet",
+            "test": "horizontal-overflow-VOL-01",
+            "status": "PASS",
+            "detail": "{\"viewport\":768,\"document\":768,\"body\":768}"
+          },
+          {
+            "viewport": "tablet",
+            "test": "VOL-02-readable",
+            "status": "PASS",
+            "detail": "article=1; links=6"
+          },
+          {
+            "viewport": "tablet",
+            "test": "horizontal-overflow-VOL-02",
+            "status": "PASS",
+            "detail": "{\"viewport\":768,\"document\":768,\"body\":768}"
+          },
+          {
+            "viewport": "tablet",
+            "test": "VOL-03-readable",
+            "status": "PASS",
+            "detail": "article=1; links=6"
+          },
+          {
+            "viewport": "tablet",
+            "test": "horizontal-overflow-VOL-03",
+            "status": "PASS",
+            "detail": "{\"viewport\":768,\"document\":768,\"body\":768}"
+          },
+          {
+            "viewport": "tablet",
+            "test": "VOL-04-readable",
+            "status": "PASS",
+            "detail": "article=1; links=6"
+          },
+          {
+            "viewport": "tablet",
+            "test": "horizontal-overflow-VOL-04",
+            "status": "PASS",
+            "detail": "{\"viewport\":768,\"document\":768,\"body\":768}"
+          },
+          {
+            "viewport": "tablet",
+            "test": "VOL-05-readable",
+            "status": "PASS",
+            "detail": "article=1; links=6"
+          },
+          {
+            "viewport": "tablet",
+            "test": "horizontal-overflow-VOL-05",
+            "status": "PASS",
+            "detail": "{\"viewport\":768,\"document\":768,\"body\":768}"
+          },
+          {
+            "viewport": "tablet",
+            "test": "VOL-06-readable",
+            "status": "PASS",
+            "detail": "article=1; links=6"
+          },
+          {
+            "viewport": "tablet",
+            "test": "horizontal-overflow-VOL-06",
+            "status": "PASS",
+            "detail": "{\"viewport\":768,\"document\":768,\"body\":768}"
+          },
+          {
+            "viewport": "tablet",
+            "test": "VOL-07-readable",
+            "status": "PASS",
+            "detail": "article=1; links=6"
+          },
+          {
+            "viewport": "tablet",
+            "test": "horizontal-overflow-VOL-07",
+            "status": "PASS",
+            "detail": "{\"viewport\":768,\"document\":768,\"body\":768}"
+          },
+          {
+            "viewport": "tablet",
+            "test": "VOL-08-readable",
+            "status": "PASS",
+            "detail": "article=1; links=0"
+          },
+          {
+            "viewport": "tablet",
+            "test": "horizontal-overflow-VOL-08",
+            "status": "PASS",
+            "detail": "{\"viewport\":768,\"document\":768,\"body\":768}"
+          },
+          {
+            "viewport": "tablet",
+            "test": "theme-index-cards",
+            "status": "PASS",
+            "detail": "expected 6"
+          },
+          {
+            "viewport": "tablet",
+            "test": "horizontal-overflow-theme-index",
+            "status": "PASS",
+            "detail": "{\"viewport\":768,\"document\":768,\"body\":768}"
+          },
+          {
+            "viewport": "tablet",
+            "test": "T415-01-seven-history-links",
+            "status": "PASS",
+            "detail": "anchors=7"
+          },
+          {
+            "viewport": "tablet",
+            "test": "horizontal-overflow-T415-01",
+            "status": "PASS",
+            "detail": "{\"viewport\":768,\"document\":768,\"body\":768}"
+          },
+          {
+            "viewport": "tablet",
+            "test": "T415-02-seven-history-links",
+            "status": "PASS",
+            "detail": "anchors=7"
+          },
+          {
+            "viewport": "tablet",
+            "test": "horizontal-overflow-T415-02",
+            "status": "PASS",
+            "detail": "{\"viewport\":768,\"document\":768,\"body\":768}"
+          },
+          {
+            "viewport": "tablet",
+            "test": "T415-03-seven-history-links",
+            "status": "PASS",
+            "detail": "anchors=7"
+          },
+          {
+            "viewport": "tablet",
+            "test": "horizontal-overflow-T415-03",
+            "status": "PASS",
+            "detail": "{\"viewport\":768,\"document\":768,\"body\":768}"
+          },
+          {
+            "viewport": "tablet",
+            "test": "T415-04-seven-history-links",
+            "status": "PASS",
+            "detail": "anchors=7"
+          },
+          {
+            "viewport": "tablet",
+            "test": "horizontal-overflow-T415-04",
+            "status": "PASS",
+            "detail": "{\"viewport\":768,\"document\":768,\"body\":768}"
+          },
+          {
+            "viewport": "tablet",
+            "test": "T415-05-seven-history-links",
+            "status": "PASS",
+            "detail": "anchors=7"
+          },
+          {
+            "viewport": "tablet",
+            "test": "horizontal-overflow-T415-05",
+            "status": "PASS",
+            "detail": "{\"viewport\":768,\"document\":768,\"body\":768}"
+          },
+          {
+            "viewport": "tablet",
+            "test": "T415-06-seven-history-links",
+            "status": "PASS",
+            "detail": "anchors=7"
+          },
+          {
+            "viewport": "tablet",
+            "test": "horizontal-overflow-T415-06",
+            "status": "PASS",
+            "detail": "{\"viewport\":768,\"document\":768,\"body\":768}"
+          },
+          {
+            "viewport": "tablet",
+            "test": "human-readable-anchor-role",
+            "status": "PASS",
+            "detail": "VOL-01\n공의회 결의와 다양한 지역의 수용\n초대교회·고대교회 · 핵심 사례\n"
+          },
+          {
+            "viewport": "tablet",
+            "test": "theme-to-volume-click",
+            "status": "PASS",
+            "detail": "clicked actual first theme anchor"
+          },
+          {
+            "viewport": "tablet",
+            "test": "keyboard-focus-after-navigation",
+            "status": "PASS",
+            "detail": "activeElement=main"
+          },
+          {
+            "viewport": "tablet",
+            "test": "reader-1",
+            "status": "PASS",
+            "detail": "chapter 1"
+          },
+          {
+            "viewport": "tablet",
+            "test": "horizontal-overflow-reader-1",
+            "status": "PASS",
+            "detail": "{\"viewport\":768,\"document\":768,\"body\":768}"
+          },
+          {
+            "viewport": "tablet",
+            "test": "reader-2",
+            "status": "PASS",
+            "detail": "chapter 2"
+          },
+          {
+            "viewport": "tablet",
+            "test": "horizontal-overflow-reader-2",
+            "status": "PASS",
+            "detail": "{\"viewport\":768,\"document\":768,\"body\":768}"
+          },
+          {
+            "viewport": "tablet",
+            "test": "reader-3",
+            "status": "PASS",
+            "detail": "chapter 3"
+          },
+          {
+            "viewport": "tablet",
+            "test": "horizontal-overflow-reader-3",
+            "status": "PASS",
+            "detail": "{\"viewport\":768,\"document\":768,\"body\":768}"
+          },
+          {
+            "viewport": "tablet",
+            "test": "reader-4",
+            "status": "PASS",
+            "detail": "chapter 4"
+          },
+          {
+            "viewport": "tablet",
+            "test": "horizontal-overflow-reader-4",
+            "status": "PASS",
+            "detail": "{\"viewport\":768,\"document\":768,\"body\":768}"
+          },
+          {
+            "viewport": "tablet",
+            "test": "reader-5",
+            "status": "PASS",
+            "detail": "chapter 5"
+          },
+          {
+            "viewport": "tablet",
+            "test": "horizontal-overflow-reader-5",
+            "status": "PASS",
+            "detail": "{\"viewport\":768,\"document\":768,\"body\":768}"
+          },
+          {
+            "viewport": "tablet",
+            "test": "reader-6",
+            "status": "PASS",
+            "detail": "chapter 6"
+          },
+          {
+            "viewport": "tablet",
+            "test": "horizontal-overflow-reader-6",
+            "status": "PASS",
+            "detail": "{\"viewport\":768,\"document\":768,\"body\":768}"
+          },
+          {
+            "viewport": "tablet",
+            "test": "reader-next-click",
+            "status": "PASS",
+            "detail": "next chapter 2"
+          },
+          {
+            "viewport": "tablet",
+            "test": "search-actual-input",
+            "status": "PASS",
+            "detail": "query=후스, results=8"
+          },
+          {
+            "viewport": "tablet",
+            "test": "clear-search-keeps-input",
+            "status": "PASS",
+            "detail": "{\"hash\":\"#/search\",\"active\":\"search\"}"
+          },
+          {
+            "viewport": "tablet",
+            "test": "horizontal-overflow-search",
+            "status": "PASS",
+            "detail": "{\"viewport\":768,\"document\":768,\"body\":768}"
+          },
+          {
+            "viewport": "tablet",
+            "test": "built-in-reference-check",
+            "status": "PASS",
+            "detail": "42 internal links expected"
+          },
+          {
+            "viewport": "tablet",
+            "test": "horizontal-overflow-integrity",
+            "status": "PASS",
+            "detail": "{\"viewport\":768,\"document\":768,\"body\":768}"
+          },
+          {
+            "viewport": "tablet",
+            "test": "no-browser-page-errors",
+            "status": "PASS",
+            "detail": "[]"
+          },
+          {
+            "viewport": "tablet",
+            "test": "no-remote-requests",
+            "status": "PASS",
+            "detail": "[]"
+          },
+          {
+            "viewport": "tablet",
+            "test": "accessible-navigation-landmark",
+            "status": "PASS",
+            "detail": "nav label must exist"
+          },
+          {
+            "viewport": "tablet",
+            "test": "language-declaration",
+            "status": "PASS",
+            "detail": "lang=ko"
+          },
+          {
+            "viewport": "mobile",
+            "test": "no-initial-main-focus-steal",
+            "status": "PASS",
+            "detail": "focused="
+          },
+          {
+            "viewport": "mobile",
+            "test": "skip-link-without-route-change",
+            "status": "PASS",
+            "detail": "{\"hash\":\"#/volumes\",\"active\":\"main\"}"
+          },
+          {
+            "viewport": "mobile",
+            "test": "volume-index-cards",
+            "status": "PASS",
+            "detail": "expected 8"
+          },
+          {
+            "viewport": "mobile",
+            "test": "horizontal-overflow-volume-index",
+            "status": "FAIL",
+            "detail": "{\"viewport\":375,\"document\":443,\"body\":443}"
+          },
+          {
+            "viewport": "mobile",
+            "test": "VOL-01-readable",
+            "status": "PASS",
+            "detail": "article=1; links=6"
+          },
+          {
+            "viewport": "mobile",
+            "test": "horizontal-overflow-VOL-01",
+            "status": "PASS",
+            "detail": "{\"viewport\":375,\"document\":375,\"body\":375}"
+          },
+          {
+            "viewport": "mobile",
+            "test": "VOL-02-readable",
+            "status": "PASS",
+            "detail": "article=1; links=6"
+          },
+          {
+            "viewport": "mobile",
+            "test": "horizontal-overflow-VOL-02",
+            "status": "PASS",
+            "detail": "{\"viewport\":375,\"document\":375,\"body\":375}"
+          },
+          {
+            "viewport": "mobile",
+            "test": "VOL-03-readable",
+            "status": "PASS",
+            "detail": "article=1; links=6"
+          },
+          {
+            "viewport": "mobile",
+            "test": "horizontal-overflow-VOL-03",
+            "status": "PASS",
+            "detail": "{\"viewport\":375,\"document\":375,\"body\":375}"
+          },
+          {
+            "viewport": "mobile",
+            "test": "VOL-04-readable",
+            "status": "PASS",
+            "detail": "article=1; links=6"
+          },
+          {
+            "viewport": "mobile",
+            "test": "horizontal-overflow-VOL-04",
+            "status": "PASS",
+            "detail": "{\"viewport\":375,\"document\":375,\"body\":375}"
+          },
+          {
+            "viewport": "mobile",
+            "test": "VOL-05-readable",
+            "status": "PASS",
+            "detail": "article=1; links=6"
+          },
+          {
+            "viewport": "mobile",
+            "test": "horizontal-overflow-VOL-05",
+            "status": "PASS",
+            "detail": "{\"viewport\":375,\"document\":375,\"body\":375}"
+          },
+          {
+            "viewport": "mobile",
+            "test": "VOL-06-readable",
+            "status": "PASS",
+            "detail": "article=1; links=6"
+          },
+          {
+            "viewport": "mobile",
+            "test": "horizontal-overflow-VOL-06",
+            "status": "PASS",
+            "detail": "{\"viewport\":375,\"document\":375,\"body\":375}"
+          },
+          {
+            "viewport": "mobile",
+            "test": "VOL-07-readable",
+            "status": "PASS",
+            "detail": "article=1; links=6"
+          },
+          {
+            "viewport": "mobile",
+            "test": "horizontal-overflow-VOL-07",
+            "status": "PASS",
+            "detail": "{\"viewport\":375,\"document\":375,\"body\":375}"
+          },
+          {
+            "viewport": "mobile",
+            "test": "VOL-08-readable",
+            "status": "PASS",
+            "detail": "article=1; links=0"
+          },
+          {
+            "viewport": "mobile",
+            "test": "horizontal-overflow-VOL-08",
+            "status": "PASS",
+            "detail": "{\"viewport\":375,\"document\":375,\"body\":375}"
+          },
+          {
+            "viewport": "mobile",
+            "test": "theme-index-cards",
+            "status": "PASS",
+            "detail": "expected 6"
+          },
+          {
+            "viewport": "mobile",
+            "test": "horizontal-overflow-theme-index",
+            "status": "PASS",
+            "detail": "{\"viewport\":375,\"document\":375,\"body\":375}"
+          },
+          {
+            "viewport": "mobile",
+            "test": "T415-01-seven-history-links",
+            "status": "PASS",
+            "detail": "anchors=7"
+          },
+          {
+            "viewport": "mobile",
+            "test": "horizontal-overflow-T415-01",
+            "status": "PASS",
+            "detail": "{\"viewport\":375,\"document\":375,\"body\":375}"
+          },
+          {
+            "viewport": "mobile",
+            "test": "T415-02-seven-history-links",
+            "status": "PASS",
+            "detail": "anchors=7"
+          },
+          {
+            "viewport": "mobile",
+            "test": "horizontal-overflow-T415-02",
+            "status": "PASS",
+            "detail": "{\"viewport\":375,\"document\":375,\"body\":375}"
+          },
+          {
+            "viewport": "mobile",
+            "test": "T415-03-seven-history-links",
+            "status": "PASS",
+            "detail": "anchors=7"
+          },
+          {
+            "viewport": "mobile",
+            "test": "horizontal-overflow-T415-03",
+            "status": "PASS",
+            "detail": "{\"viewport\":375,\"document\":375,\"body\":375}"
+          },
+          {
+            "viewport": "mobile",
+            "test": "T415-04-seven-history-links",
+            "status": "PASS",
+            "detail": "anchors=7"
+          },
+          {
+            "viewport": "mobile",
+            "test": "horizontal-overflow-T415-04",
+            "status": "PASS",
+            "detail": "{\"viewport\":375,\"document\":375,\"body\":375}"
+          },
+          {
+            "viewport": "mobile",
+            "test": "T415-05-seven-history-links",
+            "status": "PASS",
+            "detail": "anchors=7"
+          },
+          {
+            "viewport": "mobile",
+            "test": "horizontal-overflow-T415-05",
+            "status": "PASS",
+            "detail": "{\"viewport\":375,\"document\":375,\"body\":375}"
+          },
+          {
+            "viewport": "mobile",
+            "test": "T415-06-seven-history-links",
+            "status": "PASS",
+            "detail": "anchors=7"
+          },
+          {
+            "viewport": "mobile",
+            "test": "horizontal-overflow-T415-06",
+            "status": "PASS",
+            "detail": "{\"viewport\":375,\"document\":375,\"body\":375}"
+          },
+          {
+            "viewport": "mobile",
+            "test": "human-readable-anchor-role",
+            "status": "PASS",
+            "detail": "VOL-01\n공의회 결의와 다양한 지역의 수용\n초대교회·고대교회 · 핵심 사례\n"
+          },
+          {
+            "viewport": "mobile",
+            "test": "theme-to-volume-click",
+            "status": "PASS",
+            "detail": "clicked actual first theme anchor"
+          },
+          {
+            "viewport": "mobile",
+            "test": "keyboard-focus-after-navigation",
+            "status": "PASS",
+            "detail": "activeElement=main"
+          },
+          {
+            "viewport": "mobile",
+            "test": "reader-1",
+            "status": "PASS",
+            "detail": "chapter 1"
+          },
+          {
+            "viewport": "mobile",
+            "test": "horizontal-overflow-reader-1",
+            "status": "PASS",
+            "detail": "{\"viewport\":375,\"document\":375,\"body\":375}"
+          },
+          {
+            "viewport": "mobile",
+            "test": "reader-2",
+            "status": "PASS",
+            "detail": "chapter 2"
+          },
+          {
+            "viewport": "mobile",
+            "test": "horizontal-overflow-reader-2",
+            "status": "PASS",
+            "detail": "{\"viewport\":375,\"document\":375,\"body\":375}"
+          },
+          {
+            "viewport": "mobile",
+            "test": "reader-3",
+            "status": "PASS",
+            "detail": "chapter 3"
+          },
+          {
+            "viewport": "mobile",
+            "test": "horizontal-overflow-reader-3",
+            "status": "PASS",
+            "detail": "{\"viewport\":375,\"document\":375,\"body\":375}"
+          },
+          {
+            "viewport": "mobile",
+            "test": "reader-4",
+            "status": "PASS",
+            "detail": "chapter 4"
+          },
+          {
+            "viewport": "mobile",
+            "test": "horizontal-overflow-reader-4",
+            "status": "PASS",
+            "detail": "{\"viewport\":375,\"document\":375,\"body\":375}"
+          },
+          {
+            "viewport": "mobile",
+            "test": "reader-5",
+            "status": "PASS",
+            "detail": "chapter 5"
+          },
+          {
+            "viewport": "mobile",
+            "test": "horizontal-overflow-reader-5",
+            "status": "PASS",
+            "detail": "{\"viewport\":375,\"document\":375,\"body\":375}"
+          },
+          {
+            "viewport": "mobile",
+            "test": "reader-6",
+            "status": "PASS",
+            "detail": "chapter 6"
+          },
+          {
+            "viewport": "mobile",
+            "test": "horizontal-overflow-reader-6",
+            "status": "PASS",
+            "detail": "{\"viewport\":375,\"document\":375,\"body\":375}"
+          },
+          {
+            "viewport": "mobile",
+            "test": "reader-next-click",
+            "status": "PASS",
+            "detail": "next chapter 2"
+          },
+          {
+            "viewport": "mobile",
+            "test": "search-actual-input",
+            "status": "PASS",
+            "detail": "query=후스, results=8"
+          },
+          {
+            "viewport": "mobile",
+            "test": "clear-search-keeps-input",
+            "status": "PASS",
+            "detail": "{\"hash\":\"#/search\",\"active\":\"search\"}"
+          },
+          {
+            "viewport": "mobile",
+            "test": "horizontal-overflow-search",
+            "status": "PASS",
+            "detail": "{\"viewport\":375,\"document\":375,\"body\":375}"
+          },
+          {
+            "viewport": "mobile",
+            "test": "built-in-reference-check",
+            "status": "PASS",
+            "detail": "42 internal links expected"
+          },
+          {
+            "viewport": "mobile",
+            "test": "horizontal-overflow-integrity",
+            "status": "PASS",
+            "detail": "{\"viewport\":375,\"document\":375,\"body\":375}"
+          },
+          {
+            "viewport": "mobile",
+            "test": "no-browser-page-errors",
+            "status": "PASS",
+            "detail": "[]"
+          },
+          {
+            "viewport": "mobile",
+            "test": "no-remote-requests",
+            "status": "PASS",
+            "detail": "[]"
+          },
+          {
+            "viewport": "mobile",
+            "test": "accessible-navigation-landmark",
+            "status": "PASS",
+            "detail": "nav label must exist"
+          },
+          {
+            "viewport": "mobile",
+            "test": "language-declaration",
+            "status": "PASS",
+            "detail": "lang=ko"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "no-initial-main-focus-steal",
+            "status": "PASS",
+            "detail": "focused="
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "skip-link-without-route-change",
+            "status": "PASS",
+            "detail": "{\"hash\":\"#/volumes\",\"active\":\"main\"}"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "volume-index-cards",
+            "status": "PASS",
+            "detail": "expected 8"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "horizontal-overflow-volume-index",
+            "status": "FAIL",
+            "detail": "{\"viewport\":320,\"document\":443,\"body\":443}"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "VOL-01-readable",
+            "status": "PASS",
+            "detail": "article=1; links=6"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "horizontal-overflow-VOL-01",
+            "status": "PASS",
+            "detail": "{\"viewport\":320,\"document\":320,\"body\":320}"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "VOL-02-readable",
+            "status": "PASS",
+            "detail": "article=1; links=6"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "horizontal-overflow-VOL-02",
+            "status": "PASS",
+            "detail": "{\"viewport\":320,\"document\":320,\"body\":320}"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "VOL-03-readable",
+            "status": "PASS",
+            "detail": "article=1; links=6"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "horizontal-overflow-VOL-03",
+            "status": "PASS",
+            "detail": "{\"viewport\":320,\"document\":320,\"body\":320}"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "VOL-04-readable",
+            "status": "PASS",
+            "detail": "article=1; links=6"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "horizontal-overflow-VOL-04",
+            "status": "PASS",
+            "detail": "{\"viewport\":320,\"document\":320,\"body\":320}"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "VOL-05-readable",
+            "status": "PASS",
+            "detail": "article=1; links=6"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "horizontal-overflow-VOL-05",
+            "status": "PASS",
+            "detail": "{\"viewport\":320,\"document\":320,\"body\":320}"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "VOL-06-readable",
+            "status": "PASS",
+            "detail": "article=1; links=6"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "horizontal-overflow-VOL-06",
+            "status": "FAIL",
+            "detail": "{\"viewport\":320,\"document\":358,\"body\":358}"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "VOL-07-readable",
+            "status": "PASS",
+            "detail": "article=1; links=6"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "horizontal-overflow-VOL-07",
+            "status": "PASS",
+            "detail": "{\"viewport\":320,\"document\":320,\"body\":320}"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "VOL-08-readable",
+            "status": "PASS",
+            "detail": "article=1; links=0"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "horizontal-overflow-VOL-08",
+            "status": "PASS",
+            "detail": "{\"viewport\":320,\"document\":320,\"body\":320}"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "theme-index-cards",
+            "status": "PASS",
+            "detail": "expected 6"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "horizontal-overflow-theme-index",
+            "status": "PASS",
+            "detail": "{\"viewport\":320,\"document\":320,\"body\":320}"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "T415-01-seven-history-links",
+            "status": "PASS",
+            "detail": "anchors=7"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "horizontal-overflow-T415-01",
+            "status": "PASS",
+            "detail": "{\"viewport\":320,\"document\":320,\"body\":320}"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "T415-02-seven-history-links",
+            "status": "PASS",
+            "detail": "anchors=7"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "horizontal-overflow-T415-02",
+            "status": "PASS",
+            "detail": "{\"viewport\":320,\"document\":320,\"body\":320}"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "T415-03-seven-history-links",
+            "status": "PASS",
+            "detail": "anchors=7"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "horizontal-overflow-T415-03",
+            "status": "PASS",
+            "detail": "{\"viewport\":320,\"document\":320,\"body\":320}"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "T415-04-seven-history-links",
+            "status": "PASS",
+            "detail": "anchors=7"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "horizontal-overflow-T415-04",
+            "status": "PASS",
+            "detail": "{\"viewport\":320,\"document\":320,\"body\":320}"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "T415-05-seven-history-links",
+            "status": "PASS",
+            "detail": "anchors=7"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "horizontal-overflow-T415-05",
+            "status": "PASS",
+            "detail": "{\"viewport\":320,\"document\":320,\"body\":320}"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "T415-06-seven-history-links",
+            "status": "PASS",
+            "detail": "anchors=7"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "horizontal-overflow-T415-06",
+            "status": "PASS",
+            "detail": "{\"viewport\":320,\"document\":320,\"body\":320}"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "human-readable-anchor-role",
+            "status": "PASS",
+            "detail": "VOL-01\n공의회 결의와 다양한 지역의 수용\n초대교회·고대교회 · 핵심 사례\n"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "theme-to-volume-click",
+            "status": "PASS",
+            "detail": "clicked actual first theme anchor"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "keyboard-focus-after-navigation",
+            "status": "PASS",
+            "detail": "activeElement=main"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "reader-1",
+            "status": "PASS",
+            "detail": "chapter 1"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "horizontal-overflow-reader-1",
+            "status": "PASS",
+            "detail": "{\"viewport\":320,\"document\":320,\"body\":320}"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "reader-2",
+            "status": "PASS",
+            "detail": "chapter 2"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "horizontal-overflow-reader-2",
+            "status": "PASS",
+            "detail": "{\"viewport\":320,\"document\":320,\"body\":320}"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "reader-3",
+            "status": "PASS",
+            "detail": "chapter 3"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "horizontal-overflow-reader-3",
+            "status": "PASS",
+            "detail": "{\"viewport\":320,\"document\":320,\"body\":320}"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "reader-4",
+            "status": "PASS",
+            "detail": "chapter 4"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "horizontal-overflow-reader-4",
+            "status": "PASS",
+            "detail": "{\"viewport\":320,\"document\":320,\"body\":320}"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "reader-5",
+            "status": "PASS",
+            "detail": "chapter 5"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "horizontal-overflow-reader-5",
+            "status": "PASS",
+            "detail": "{\"viewport\":320,\"document\":320,\"body\":320}"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "reader-6",
+            "status": "PASS",
+            "detail": "chapter 6"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "horizontal-overflow-reader-6",
+            "status": "PASS",
+            "detail": "{\"viewport\":320,\"document\":320,\"body\":320}"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "reader-next-click",
+            "status": "PASS",
+            "detail": "next chapter 2"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "search-actual-input",
+            "status": "PASS",
+            "detail": "query=후스, results=8"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "clear-search-keeps-input",
+            "status": "PASS",
+            "detail": "{\"hash\":\"#/search\",\"active\":\"search\"}"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "horizontal-overflow-search",
+            "status": "PASS",
+            "detail": "{\"viewport\":320,\"document\":320,\"body\":320}"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "built-in-reference-check",
+            "status": "PASS",
+            "detail": "42 internal links expected"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "horizontal-overflow-integrity",
+            "status": "PASS",
+            "detail": "{\"viewport\":320,\"document\":320,\"body\":320}"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "no-browser-page-errors",
+            "status": "PASS",
+            "detail": "[]"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "no-remote-requests",
+            "status": "PASS",
+            "detail": "[]"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "accessible-navigation-landmark",
+            "status": "PASS",
+            "detail": "nav label must exist"
+          },
+          {
+            "viewport": "small-mobile",
+            "test": "language-declaration",
+            "status": "PASS",
+            "detail": "lang=ko"
+          }
+        ],
+        "browser_execution_status": "FAILED",
+        "claims": {
+          "human_reader_tested": false,
+          "expert_history_signoff": false,
+          "manual_screenshot_reviewed": false,
+          "iOS_Safari_tested": false,
+          "can_ship": false
+        }
+      },
       "exit_code": "1"
     }
   },
