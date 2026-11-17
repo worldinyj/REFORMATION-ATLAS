@@ -1,0 +1,82 @@
+{
+  "version": "V4.03-READER-REVIEW",
+  "status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+  "evidence_file": "research/data/V4_03_1550_COMPOSITE_1539_MARRIAGE_WITNESS_CROSSWALK_DRAFT.json",
+  "inherited_reader_file": "research/data/V4_02_ZURICH_MARRIAGE_RULE_ORIGINAL_PRINT_READER_DRAFT.json",
+  "target": "MEDIUM-ZWINGLI",
+  "heading": "혼인법과 일상 규율 — 1539년 규정이 1550년 종합 규정으로 이어질 때",
+  "paragraphs": [
+    "1539년 취리히가 발행한 혼인규정의 주요 조항 발췌본에는 혼인 약속의 증거를 판단하는 조건이 인쇄돼 있다. 혼인 약속을 사전에 했는지, 누구 앞에서 이를 확인할 수 있는지, 여성의 평판은 어떻게 평가되는지가 시민들의 법적 권리와 의무에 영향을 주었다. 그러나 혼인 관계를 실제 재판에서 어떻게 인정했는지는 별도 판례가 필요하다.",
+    "1550년경 취리히 시의회는 예배 참석, 술자리, 복장, 경제활동, 혼인잔치에 관한 규정을 하나로 묶어 다시 인쇄했다. 현대 교감판은 그 합본 뒤에 1539년 혼인규정과 1532년 시노드 규정의 일부 수정본이 포함되었다고 설명한다. 따라서 혼인규정이 후대에도 전승됐다는 사실은 확인되지만, 어느 문장이 어떻게 바뀌었는지는 혼인 부속문의 실제 지면을 확인하기 전까지 확정할 수 없다.",
+    "대신 1550년 종합 규정의 제12항은 직접 판독할 수 있다. 혼인잔치를 여관에 맡기지 말도록 하고, 위반하면 10파운드 벌금을 부과하며, 잔치는 하루 안에 저녁 기도시간까지 마치도록 했다. 후속 잔치와 춤도 제한했다. 이 조항은 1550년 종합 공공질서 규정의 일부이지 1539년 혼인 부속문이나 1533년 공동 초안 제39조의 직접 전사가 아니다.",
+    "1539년 발췌 인쇄본의 제목은 주요 조항을 강단에서 연 네 차례 알리도록 했고, 현대 편집자는 1550년 종합 규정을 목회자들에게 연 두 차례 낭독하도록 했다고 설명한다. 그러나 서로 다른 인쇄물에 관한 지시이므로 혼인규정 자체의 낭독 횟수가 절반으로 줄었다고 단정할 수는 없다. 중요한 것은 신앙과 도시정부의 규율이 결합되면서 일상생활을 지속적으로 관리하려 했다는 점이다."
+  ],
+  "evidence": [
+    {
+      "paragraph": 1,
+      "ids": [
+        "C403-12"
+      ],
+      "primary": "W403-1539-EXTRACT"
+    },
+    {
+      "paragraph": 2,
+      "ids": [
+        "C403-01",
+        "C403-02",
+        "C403-08"
+      ],
+      "primary": "W403-1550-SSRQ-CRITICAL-TEI"
+    },
+    {
+      "paragraph": 3,
+      "ids": [
+        "C403-03",
+        "C403-04"
+      ],
+      "primary": "W403-1550-SSRQ-CRITICAL-TEI"
+    },
+    {
+      "paragraph": 4,
+      "ids": [
+        "C403-06",
+        "C403-07"
+      ],
+      "primary": "W403-1539-EXTRACT"
+    }
+  ],
+  "event_candidate": {
+    "title": "1539년 혼인규정의 후대 전승과 1550년 취리히 공공질서 통합",
+    "source_dates": [
+      "1539-07-12",
+      "1550-05-06",
+      "circa 1550"
+    ],
+    "content_status": "DRAFT_ONLY",
+    "summary": "1539 혼인규정의 수정 전승은 현대 학술판 주석으로 확인되고, 1550 종합규정 제12항의 혼인잔치 제한은 직접 현대 교감전사로 확인한다. 두 법령의 문장별 대조는 아직 미완료다.",
+    "question": "혼인 약속의 증명을 규정하는 법과 혼인잔치의 시간·장소를 제한하는 법은 시민의 삶에 어떻게 다르게 개입했을까?"
+  },
+  "scope": {
+    "scan_1539_extract_p15_p16_seen": true,
+    "scan_1550_composite_first_main_page_seen": true,
+    "scan_1550_marriage_appendix_seen": false,
+    "edited_1550_main_15_sections_read": true,
+    "edited_1550_full_marriage_appendix_read": false,
+    "distinct_1550_variant_issue_from_1539_to_1550_comparison": true,
+    "article39_from_1533_read": false,
+    "wedding_rules_1550_main_are_not_1539_appendix": true,
+    "two_annual_1550_readings_not_same_as_four_annual_1539_extract": true,
+    "full_1539_statute_read": false,
+    "Ott_1855_pp108_122_read": false,
+    "year_2011_edited_full_text_read": false
+  },
+  "publication": {
+    "can_ship": false,
+    "main_modified": false,
+    "existing_513_modified": false,
+    "ai_studio_modified": false,
+    "historian_approved": false,
+    "rights_approved": false
+  },
+  "rights_note": "SSRQ scholarly TEI CC BY-NC-SA 4.0 (no full-text copy). 1550 original images Public Domain Mark (not copied)."
+}
