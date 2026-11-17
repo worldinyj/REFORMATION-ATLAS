@@ -1,0 +1,843 @@
+{
+  "version": "V4.22",
+  "created": "2026-11-17",
+  "level": "L0",
+  "status": "EIGHT_VOLUME_EDITORIAL_PORTFOLIO_INTERNAL_ALPHA_ONLY",
+  "branch": "research/atlas-v422-eight-volume-editorial-portfolio-l0",
+  "parent_branch": "research/atlas-v421-high-risk-historical-source-adjudication-l0",
+  "master_narrative": {
+    "path": "docs/01_CONTENT/OVERVIEW/V422_EIGHT_VOLUME_L0_INTEGRATED_EDITORIAL_PORTFOLIO_KO.md",
+    "verified_blob_sha": "2cc3448711220f0589459ea13294f29088d2cc9f",
+    "characters": 12200,
+    "has_eight_volume_sections": true
+  },
+  "source_research_registry": {
+    "v415_theme_path": "research/data/V4_15_SIX_THEMES_CROSS_VOLUME_L0_DRAFT.json",
+    "verified_blob_sha": "7739153f0a85b7811198210c9aba6adaf5b0cb0a",
+    "v406_8vol_sha": "8360e09dcbd02969e728736c586a030701d645b7",
+    "v407_regions": "research/data/V4_07_EUROPE_ELEVEN_REGIONS_L0_COMPARATIVE_ATLAS_DRAFT.json",
+    "v408_events": "research/data/V4_08_EUROPE_SYNCHRONOUS_EVENTS_PEOPLE_RELATIONSHIPS_L0_DRAFT.json",
+    "v409_vol05": "research/data/V4_09_VOL05_CATHOLIC_REFORM_CONFLICT_COEXISTENCE_L0_DRAFT.json",
+    "v410_vol07": "research/data/V4_10_WORLD_CHRISTIANITY_KOREA_REGIONAL_AGENCY_L0_DRAFT.json",
+    "v411_baseline": "research/data/V4_11_EIGHT_VOLUME_L0_COVERAGE_GAP_PRIORITY_AUDIT_DRAFT.json",
+    "v412_vol06": "research/data/V4_12_VOL06_PIETISM_REVIVAL_WORLD_MISSIONS_L0_DRAFT.json",
+    "v413_vol01_02": "research/data/V4_13_ANCIENT_MEDIEVAL_MULTIREGIONAL_L0_DRAFT.json",
+    "v414_vol03": "research/data/V4_14_PRE_REFORMATION_DIVERSE_MOVEMENTS_L0_DRAFT.json",
+    "v416_release": "research/data/V4_16_EIGHT_VOLUME_L0_RELEASE_READINESS_AUDIT_DRAFT.json",
+    "v421_high_risk": "research/data/V4_21_HIGH_RISK_CLAIMS_SOURCE_ADJUDICATION_DRAFT.json"
+  },
+  "volumes": [
+    {
+      "code": "VOL-01",
+      "title": "초대교회·고대교회",
+      "period": "1–5세기",
+      "narrative_question": "누가 교회를 이루고 신앙을 설명했는가?",
+      "macro_arc_count": 6,
+      "alpha_summary": "고대 기독교는 지중해·아프리카·서아시아에서 각기 다른 공동체와 언어로 형성되었다.",
+      "narrative_docs": [
+        "V413_VOL01_ANCIENT_CHRISTIANITY_MULTIREGIONAL_L0_KO.md"
+      ],
+      "risk": [
+        "고대 교파의 후대 명칭 소급",
+        "325·381·431·451년 공의회 결정과 수용 구분"
+      ],
+      "review_role": "고대 교회사·오리엔트/동방 전통 검토",
+      "canonical_overview_path": "docs/01_CONTENT/OVERVIEW/VOL-01_OVERVIEW_V01.md",
+      "canonical_overview_sha": "9a7b95f304799a375b806b1dc85e296d310fa8ad",
+      "validated_expansion_documents": [
+        {
+          "path": "docs/01_CONTENT/OVERVIEW/V413_VOL01_ANCIENT_CHRISTIANITY_MULTIREGIONAL_L0_KO.md",
+          "sha": "3e33daa3084e6f3130b28ea4be9cfdfeda35bc91"
+        }
+      ],
+      "alpha_excerpt_in_master": "초대교회·고대교회 | 누가 교회를 이루고 신앙을 설명했는가?",
+      "theme_anchor_count": 6,
+      "internal_reading_candidate": true,
+      "historical_specialist_approved": false,
+      "external_publication_approved": false,
+      "source_claim_gaps_open": true,
+      "media_reuse_license_cleared": false
+    },
+    {
+      "code": "VOL-02",
+      "title": "중세교회와 개혁의 배경",
+      "period": "6–15세기",
+      "narrative_question": "라틴 서유럽 밖의 교회도 함께 보아야 하지 않을까?",
+      "macro_arc_count": 8,
+      "alpha_summary": "중세는 수도원·대학과 함께 비잔틴·시리아어권·인도양·중국·아르메니아·에티오피아의 동시대 역사였다.",
+      "narrative_docs": [
+        "V413_VOL02_MEDIEVAL_CHRISTIANITY_MULTIREGIONAL_L0_KO.md"
+      ],
+      "risk": [
+        "635년 전래 회고와 781년 경교비 혼동",
+        "1054년·1204년 분리",
+        "말라바르의 사도 전승을 확정 연대로 소급"
+      ],
+      "review_role": "중세 동서교회·실크로드 역사 검토",
+      "canonical_overview_path": "docs/01_CONTENT/OVERVIEW/VOL-02_OVERVIEW_V01.md",
+      "canonical_overview_sha": "5c77fc1668941e4d9b9e159f7d2e60838e0316c0",
+      "validated_expansion_documents": [
+        {
+          "path": "docs/01_CONTENT/OVERVIEW/V413_VOL02_MEDIEVAL_CHRISTIANITY_MULTIREGIONAL_L0_KO.md",
+          "sha": "6c82f5a7a2115225c64d9c2675745f4c494fa834"
+        }
+      ],
+      "alpha_excerpt_in_master": "중세교회 | 라틴 서유럽 밖의 교회도 함께 보아야 하지 않을까?",
+      "theme_anchor_count": 6,
+      "internal_reading_candidate": true,
+      "historical_specialist_approved": false,
+      "external_publication_approved": false,
+      "source_claim_gaps_open": true,
+      "media_reuse_license_cleared": false
+    },
+    {
+      "code": "VOL-03",
+      "title": "다양한 중세 개혁 운동",
+      "period": "12–16세기 초",
+      "narrative_question": "위클리프·후스·왈도파는 같은 운동인가?",
+      "macro_arc_count": 9,
+      "alpha_summary": "리옹·옥스퍼드·프라하의 개혁은 한 조직·교리가 아니며, 위클리프와 후스의 성찬관 차이와 후스파 내부 갈등을 구분한다.",
+      "narrative_docs": [
+        "V414_VOL03_DIVERSE_PRE_REFORMATION_MOVEMENTS_MASTER_KO.md"
+      ],
+      "risk": [
+        "사상 영향과 동일 교리 혼동",
+        "프라하 4개조·1433 협상·1436 합의 단계",
+        "1532 왈도파 모임의 후대 명칭"
+      ],
+      "review_role": "후스파·중세 개혁문헌 전문 검토",
+      "canonical_overview_path": "docs/01_CONTENT/OVERVIEW/VOL-03_OVERVIEW_V01.md",
+      "canonical_overview_sha": "2ffb7c6ae999c200297df034aefd24aa9387f1a8",
+      "validated_expansion_documents": [
+        {
+          "path": "docs/01_CONTENT/OVERVIEW/V414_VOL03_DIVERSE_PRE_REFORMATION_MOVEMENTS_MASTER_KO.md",
+          "sha": "7345bf6413bf1dd8c346f0c13ea3826bd9d86d59"
+        }
+      ],
+      "alpha_excerpt_in_master": "선행 개혁과 다양한 중세 운동 | 위클리프·후스·왈도파는 같은 운동인가?",
+      "theme_anchor_count": 6,
+      "internal_reading_candidate": true,
+      "historical_specialist_approved": false,
+      "external_publication_approved": false,
+      "source_claim_gaps_open": true,
+      "media_reuse_license_cleared": false
+    },
+    {
+      "code": "VOL-04",
+      "title": "16세기 여러 종교개혁",
+      "period": "16세기",
+      "narrative_question": "왜 유럽 각 지역에서 개혁의 결과가 달랐는가?",
+      "region_count": 11,
+      "synchronized_event_count": 45,
+      "comparison_scene_count": 8,
+      "alpha_summary": "독일·스위스·프랑스·저지대·영국·스코틀랜드·북유럽·동유럽의 개혁은 동일한 정치적 결정이나 성찬관으로 환원되지 않는다.",
+      "narrative_docs": [
+        "V407_EUROPE_ELEVEN_REGION_COMPARATIVE_NARRATIVE_KO.md",
+        "V408_EUROPE_SYNCHRONOUS_HISTORY_COMPARATIVE_GUIDE_KO.md"
+      ],
+      "risk": [
+        "11개 지역의 동시성·직접 인과 혼동",
+        "1530/1531/1540 신앙고백의 판본 분리",
+        "1536/1559 칼뱅 저술 판본"
+      ],
+      "review_role": "16세기 종교개혁·유럽법/교파 검토",
+      "canonical_overview_path": "docs/01_CONTENT/OVERVIEW/VOL-04_OVERVIEW_V01.md",
+      "canonical_overview_sha": "1f9803a663fdef279697f93d32ff4e9764d49dbf",
+      "validated_expansion_documents": [
+        {
+          "path": "docs/01_CONTENT/OVERVIEW/V407_EUROPE_ELEVEN_REGION_COMPARATIVE_NARRATIVE_KO.md",
+          "sha": "4a69e227291015ba6258c501e8c45ebbe4d62fd7"
+        },
+        {
+          "path": "docs/01_CONTENT/OVERVIEW/V408_EUROPE_SYNCHRONOUS_HISTORY_COMPARATIVE_GUIDE_KO.md",
+          "sha": "3f894f7119943298c2aa48c385bef9eafc6becd9"
+        }
+      ],
+      "alpha_excerpt_in_master": "16세기 여러 종교개혁 | 독일에서 시작된 변화는 왜 유럽 각 지역에서 달라졌는가?",
+      "theme_anchor_count": 6,
+      "internal_reading_candidate": true,
+      "historical_specialist_approved": false,
+      "external_publication_approved": false,
+      "source_claim_gaps_open": true,
+      "media_reuse_license_cleared": false
+    },
+    {
+      "code": "VOL-05",
+      "title": "가톨릭 개혁·갈등·공존",
+      "period": "16–17세기",
+      "narrative_question": "바뀐 것은 교리뿐이었나, 사람들의 삶이었나?",
+      "macro_arc_count": 6,
+      "alpha_summary": "가톨릭 내부 쇄신, 트리엔트 공의회·수도회·여성의 영성, 검열·전쟁·제한적 공존을 함께 읽는다.",
+      "narrative_docs": [
+        "V409_VOL05_CATHOLIC_REFORM_CONFLICT_COEXISTENCE_MASTER_KO.md"
+      ],
+      "risk": [
+        "1545–1563 트리엔트 세 회기 분리",
+        "1555 화의의 제한적 이주권과 보편적 자유 구별",
+        "가톨릭·개신교 자유/억압 이분법"
+      ],
+      "review_role": "가톨릭 근세사·신성로마제국 종교법 검토",
+      "canonical_overview_path": "docs/01_CONTENT/OVERVIEW/VOL-05_OVERVIEW_V01.md",
+      "canonical_overview_sha": "e7993a9d30b81db1daed7972fe27dc0f65d35148",
+      "validated_expansion_documents": [
+        {
+          "path": "docs/01_CONTENT/OVERVIEW/V409_VOL05_CATHOLIC_REFORM_CONFLICT_COEXISTENCE_MASTER_KO.md",
+          "sha": "bb0d8ce27fb7fdc8bb40a062efb48149ec8c7b40"
+        }
+      ],
+      "alpha_excerpt_in_master": "가톨릭 개혁·갈등·공존 | 바뀐 것은 교리뿐이었나, 사람들의 삶이었나?",
+      "theme_anchor_count": 6,
+      "internal_reading_candidate": true,
+      "historical_specialist_approved": false,
+      "external_publication_approved": false,
+      "source_claim_gaps_open": true,
+      "media_reuse_license_cleared": false
+    },
+    {
+      "code": "VOL-06",
+      "title": "경건주의·부흥·세계선교",
+      "period": "17–19세기",
+      "narrative_question": "신앙의 변화는 어떻게 일상의 언어가 되었나?",
+      "macro_arc_count": 8,
+      "regional_route_count": 12,
+      "alpha_summary": "슈페너·할레·모라비아·웨일스/영미 부흥·현지인 선교협력을 연결하되 식민질서·교육·번역의 복잡성을 보존한다.",
+      "narrative_docs": [
+        "V412_VOL06_PIETISM_REVIVALS_GLOBAL_MISSIONS_MASTER_KO.md"
+      ],
+      "risk": [
+        "1706 도착/1714 부분/1715 신약전서 구별",
+        "현지인·여성·노예화된 공동체의 역할",
+        "부흥 지역별 상이한 성격"
+      ],
+      "review_role": "세계선교·타밀어 사료·사회사 검토",
+      "canonical_overview_path": "docs/01_CONTENT/OVERVIEW/VOL-06_OVERVIEW_V01.md",
+      "canonical_overview_sha": "0bc11f8771783de94afebc8338e10042836eba50",
+      "validated_expansion_documents": [
+        {
+          "path": "docs/01_CONTENT/OVERVIEW/V412_VOL06_PIETISM_REVIVALS_GLOBAL_MISSIONS_MASTER_KO.md",
+          "sha": "ad44231f7c1ebe867a6db9709964df3fcefc3dfd"
+        }
+      ],
+      "alpha_excerpt_in_master": "경건주의·부흥·세계선교 | 신앙의 변화는 어떻게 일상의 언어가 되었나?",
+      "theme_anchor_count": 6,
+      "internal_reading_candidate": true,
+      "historical_specialist_approved": false,
+      "external_publication_approved": false,
+      "source_claim_gaps_open": true,
+      "media_reuse_license_cleared": false
+    },
+    {
+      "code": "VOL-07",
+      "title": "세계와 한국 교회사",
+      "period": "고대 선례와 18–20세기 중심",
+      "narrative_question": "수용한 사람들은 무엇을 새로 만들었는가?",
+      "macro_arc_count": 9,
+      "regional_route_count": 13,
+      "alpha_summary": "아프리카·아시아·아메리카·태평양·한국의 주체적 선택을 중심으로 서술하고 고대 전개는 제1·2권과 연결한다.",
+      "narrative_docs": [
+        "V410_VOL07_WORLD_CHRISTIANITY_KOREA_MASTER_KO.md"
+      ],
+      "risk": [
+        "1779/1784 한국 천주교 기원사의 논쟁",
+        "1882/1887/1911 한국어 성경 출판물 차이",
+        "VOL-01/02와 중복 및 식민주의·토착 주체의 균형"
+      ],
+      "review_role": "한국 천주교·개신교 및 글로벌 기독교 역사 검토",
+      "canonical_overview_path": "docs/01_CONTENT/OVERVIEW/VOL-07_OVERVIEW_V01.md",
+      "canonical_overview_sha": "8e468c2a6e04a0c6f791ee9bdfb69454586920a0",
+      "validated_expansion_documents": [
+        {
+          "path": "docs/01_CONTENT/OVERVIEW/V410_VOL07_WORLD_CHRISTIANITY_KOREA_MASTER_KO.md",
+          "sha": "64fad343624f21d5cef30ba8e2945bef58909f2f"
+        }
+      ],
+      "alpha_excerpt_in_master": "세계와 한국 교회사 | 수용한 사람들은 무엇을 새로 만들었는가?",
+      "theme_anchor_count": 6,
+      "internal_reading_candidate": true,
+      "historical_specialist_approved": false,
+      "external_publication_approved": false,
+      "source_claim_gaps_open": true,
+      "media_reuse_license_cleared": false
+    },
+    {
+      "code": "VOL-08",
+      "title": "여섯 주제와 문헌 아카이브",
+      "period": "모든 시대 가로지름",
+      "narrative_question": "서로 다른 시대를 무엇으로 비교할까?",
+      "theme_count": 6,
+      "total_anchor_count": 42,
+      "standalone_event_count": 0,
+      "standalone_person_count": 0,
+      "alpha_summary": "성경과 권위·은총과 구원·성찬과 예배·교회조직·국가와 갈등·번역을 7개 역사권에 나란히 연결한다.",
+      "narrative_docs": [
+        "V415_VOL08_SIX_THEMES_CROSS_VOLUME_MASTER_KO.md"
+      ],
+      "risk": [
+        "주제별 유사성과 실제 역사 인과의 구별",
+        "직접 사료·현대 번역·학술 초록의 증거 차이",
+        "고본/지도/이미지 재배포 권리"
+      ],
+      "review_role": "교회사 편집·자료 저작권·정보 구조 검토",
+      "canonical_overview_path": "docs/01_CONTENT/OVERVIEW/VOL-08_OVERVIEW_V01.md",
+      "canonical_overview_sha": "b8616e768d42f49d0c25e40d86f4513377cdb5f6",
+      "validated_expansion_documents": [
+        {
+          "path": "docs/01_CONTENT/OVERVIEW/V415_VOL08_SIX_THEMES_CROSS_VOLUME_MASTER_KO.md",
+          "sha": "d3480987c60800f0a1815c0c15f6c53efebf1571"
+        }
+      ],
+      "alpha_excerpt_in_master": "여섯 주제·문헌 아카이브 | 서로 다른 시대를 무엇으로 비교할까?",
+      "theme_anchor_count": 0,
+      "internal_reading_candidate": true,
+      "historical_specialist_approved": false,
+      "external_publication_approved": false,
+      "source_claim_gaps_open": true,
+      "media_reuse_license_cleared": false
+    }
+  ],
+  "thematic_index": {
+    "type": "SIX_THEME_HUB_NOT_CHRONOLOGICAL_EIGHTH_PERIOD",
+    "historical_volumes": 7,
+    "theme_count": 6,
+    "themes": [
+      {
+        "id": "T415-01",
+        "slug": "scripture-authority",
+        "title": "성경과 권위",
+        "question": "성경·공의회·주교·지역 공동체는 누가 무엇을 근거로 가르치는지를 어떻게 결정했는가?",
+        "anchors": [
+          {
+            "volume": "VOL-01",
+            "registry_ref": "ARC413-04",
+            "existing_heading": "공의회 결의와 다양한 지역의 수용",
+            "coverage_role": "CORE_CASE",
+            "source_registry": "research/data/V4_13_ANCIENT_MEDIEVAL_MULTIREGIONAL_L0_DRAFT.json"
+          },
+          {
+            "volume": "VOL-02",
+            "registry_ref": "ARC413-12",
+            "existing_heading": "1054년과 1204년을 통한 동서 관계",
+            "coverage_role": "CORE_CASE",
+            "source_registry": "research/data/V4_13_ANCIENT_MEDIEVAL_MULTIREGIONAL_L0_DRAFT.json"
+          },
+          {
+            "volume": "VOL-03",
+            "registry_ref": "A414-03",
+            "existing_heading": "위클리프: 성경·교회 권위·성찬",
+            "coverage_role": "CORE_CASE",
+            "source_registry": "research/data/V4_14_PRE_REFORMATION_DIVERSE_MOVEMENTS_L0_DRAFT.json"
+          },
+          {
+            "volume": "VOL-04",
+            "registry_ref": "E408-04",
+            "existing_heading": "보름스 제국회의와 루터 문제",
+            "coverage_role": "CORE_CASE",
+            "source_registry": "research/data/V4_08_EUROPE_SYNCHRONOUS_EVENTS_PEOPLE_RELATIONSHIPS_L0_DRAFT.json"
+          },
+          {
+            "volume": "VOL-05",
+            "registry_ref": "A409-02",
+            "existing_heading": "트리엔트 공의회: 신학적 정의와 제도 개혁",
+            "coverage_role": "CORE_CASE",
+            "source_registry": "research/data/V4_09_VOL05_CATHOLIC_REFORM_CONFLICT_COEXISTENCE_L0_DRAFT.json"
+          },
+          {
+            "volume": "VOL-06",
+            "registry_ref": "ARC412-01",
+            "existing_heading": "신앙고백 이후의 질문: 경건주의는 무엇을 바꾸려 했나",
+            "coverage_role": "CONTEXT_BRIDGE",
+            "source_registry": "research/data/V4_12_VOL06_PIETISM_REVIVAL_WORLD_MISSIONS_L0_DRAFT.json"
+          },
+          {
+            "volume": "VOL-07",
+            "registry_ref": "A410-08",
+            "existing_heading": "한국 개신교: 번역·회중·교육·부흥과 사회",
+            "coverage_role": "CONTEXT_BRIDGE",
+            "source_registry": "research/data/V4_10_WORLD_CHRISTIANITY_KOREA_REGIONAL_AGENCY_L0_DRAFT.json"
+          }
+        ]
+      },
+      {
+        "id": "T415-02",
+        "slug": "grace-salvation",
+        "title": "은총과 구원",
+        "question": "은총·믿음·성례·행위·성화·회심을 각각의 전통은 어떻게 연결했는가?",
+        "anchors": [
+          {
+            "volume": "VOL-01",
+            "registry_ref": "ARC413-02",
+            "existing_heading": "이집트·북아프리카의 신학과 수도생활",
+            "coverage_role": "CORE_CASE",
+            "source_registry": "research/data/V4_13_ANCIENT_MEDIEVAL_MULTIREGIONAL_L0_DRAFT.json"
+          },
+          {
+            "volume": "VOL-02",
+            "registry_ref": "ARC413-13",
+            "existing_heading": "서방 수도원·대학·교황권·개혁 요구",
+            "coverage_role": "CONTEXT_BRIDGE",
+            "source_registry": "research/data/V4_13_ANCIENT_MEDIEVAL_MULTIREGIONAL_L0_DRAFT.json"
+          },
+          {
+            "volume": "VOL-03",
+            "registry_ref": "A414-05",
+            "existing_heading": "후스: 보헤미아의 개혁과 위클리프 비판적 수용",
+            "coverage_role": "LIMITED_CONTEXT_NOT_DOCTRINE",
+            "source_registry": "research/data/V4_14_PRE_REFORMATION_DIVERSE_MOVEMENTS_L0_DRAFT.json"
+          },
+          {
+            "volume": "VOL-04",
+            "registry_ref": "E408-12",
+            "existing_heading": "아우크스부르크 신앙고백 제출",
+            "coverage_role": "CORE_CASE",
+            "source_registry": "research/data/V4_08_EUROPE_SYNCHRONOUS_EVENTS_PEOPLE_RELATIONSHIPS_L0_DRAFT.json"
+          },
+          {
+            "volume": "VOL-05",
+            "registry_ref": "A409-02",
+            "existing_heading": "트리엔트 공의회: 신학적 정의와 제도 개혁",
+            "coverage_role": "CORE_CASE",
+            "source_registry": "research/data/V4_09_VOL05_CATHOLIC_REFORM_CONFLICT_COEXISTENCE_L0_DRAFT.json"
+          },
+          {
+            "volume": "VOL-06",
+            "registry_ref": "ARC412-04",
+            "existing_heading": "웨일스·잉글랜드·북미: 하나가 아니었던 여러 부흥",
+            "coverage_role": "CORE_CASE",
+            "source_registry": "research/data/V4_12_VOL06_PIETISM_REVIVAL_WORLD_MISSIONS_L0_DRAFT.json"
+          },
+          {
+            "volume": "VOL-07",
+            "registry_ref": "A410-09",
+            "existing_heading": "세계 기독교는 여러 중심으로 다시 연결된다",
+            "coverage_role": "CONTEXT_BRIDGE",
+            "source_registry": "research/data/V4_10_WORLD_CHRISTIANITY_KOREA_REGIONAL_AGENCY_L0_DRAFT.json"
+          }
+        ]
+      },
+      {
+        "id": "T415-03",
+        "slug": "eucharist-worship",
+        "title": "성찬과 예배",
+        "question": "성찬의 실제 임재·기념·영적 참여와 평신도 참여를 서로 어떻게 구별할 것인가?",
+        "anchors": [
+          {
+            "volume": "VOL-01",
+            "registry_ref": "ARC413-01",
+            "existing_heading": "지중해와 시리아의 여러 지역 공동체",
+            "coverage_role": "CONTEXT_BRIDGE",
+            "source_registry": "research/data/V4_13_ANCIENT_MEDIEVAL_MULTIREGIONAL_L0_DRAFT.json"
+          },
+          {
+            "volume": "VOL-02",
+            "registry_ref": "ARC413-07",
+            "existing_heading": "비잔틴·페르시아·이슬람권의 교회",
+            "coverage_role": "CONTEXT_BRIDGE",
+            "source_registry": "research/data/V4_13_ANCIENT_MEDIEVAL_MULTIREGIONAL_L0_DRAFT.json"
+          },
+          {
+            "volume": "VOL-03",
+            "registry_ref": "A414-06",
+            "existing_heading": "프라하 4개조와 양형 영성체",
+            "coverage_role": "CORE_CASE",
+            "source_registry": "research/data/V4_14_PRE_REFORMATION_DIVERSE_MOVEMENTS_L0_DRAFT.json"
+          },
+          {
+            "volume": "VOL-04",
+            "registry_ref": "E408-11",
+            "existing_heading": "마르부르크 회담과 성찬 이해의 차이",
+            "coverage_role": "CORE_CASE",
+            "source_registry": "research/data/V4_08_EUROPE_SYNCHRONOUS_EVENTS_PEOPLE_RELATIONSHIPS_L0_DRAFT.json"
+          },
+          {
+            "volume": "VOL-05",
+            "registry_ref": "A409-02",
+            "existing_heading": "트리엔트 공의회: 신학적 정의와 제도 개혁",
+            "coverage_role": "CORE_CASE",
+            "source_registry": "research/data/V4_09_VOL05_CATHOLIC_REFORM_CONFLICT_COEXISTENCE_L0_DRAFT.json"
+          },
+          {
+            "volume": "VOL-06",
+            "registry_ref": "ARC412-04",
+            "existing_heading": "웨일스·잉글랜드·북미: 하나가 아니었던 여러 부흥",
+            "coverage_role": "CONTEXT_BRIDGE",
+            "source_registry": "research/data/V4_12_VOL06_PIETISM_REVIVAL_WORLD_MISSIONS_L0_DRAFT.json"
+          },
+          {
+            "volume": "VOL-07",
+            "registry_ref": "A410-09",
+            "existing_heading": "세계 기독교는 여러 중심으로 다시 연결된다",
+            "coverage_role": "CONTEXT_BRIDGE",
+            "source_registry": "research/data/V4_10_WORLD_CHRISTIANITY_KOREA_REGIONAL_AGENCY_L0_DRAFT.json"
+          }
+        ]
+      },
+      {
+        "id": "T415-04",
+        "slug": "community-everyday",
+        "title": "교회조직과 생활",
+        "question": "교회의 지도자·평신도·여성·수도자·지역 신자들은 공동체를 어떻게 조직했는가?",
+        "anchors": [
+          {
+            "volume": "VOL-01",
+            "registry_ref": "ARC413-01",
+            "existing_heading": "지중해와 시리아의 여러 지역 공동체",
+            "coverage_role": "CORE_CASE",
+            "source_registry": "research/data/V4_13_ANCIENT_MEDIEVAL_MULTIREGIONAL_L0_DRAFT.json"
+          },
+          {
+            "volume": "VOL-02",
+            "registry_ref": "ARC413-08",
+            "existing_heading": "지역 문자·수도원·필사본 문화",
+            "coverage_role": "CORE_CASE",
+            "source_registry": "research/data/V4_13_ANCIENT_MEDIEVAL_MULTIREGIONAL_L0_DRAFT.json"
+          },
+          {
+            "volume": "VOL-03",
+            "registry_ref": "A414-01",
+            "existing_heading": "다수의 중세 쇄신: 데보티오 모데르나와 교회 내부 개혁",
+            "coverage_role": "CORE_CASE",
+            "source_registry": "research/data/V4_14_PRE_REFORMATION_DIVERSE_MOVEMENTS_L0_DRAFT.json"
+          },
+          {
+            "volume": "VOL-04",
+            "registry_ref": "E408-06",
+            "existing_heading": "취리히 주변 재세례파 공동체 형성",
+            "coverage_role": "CORE_CASE",
+            "source_registry": "research/data/V4_08_EUROPE_SYNCHRONOUS_EVENTS_PEOPLE_RELATIONSHIPS_L0_DRAFT.json"
+          },
+          {
+            "volume": "VOL-05",
+            "registry_ref": "A409-03",
+            "existing_heading": "수도회·영성·교육과 여성의 행위성",
+            "coverage_role": "CORE_CASE",
+            "source_registry": "research/data/V4_09_VOL05_CATHOLIC_REFORM_CONFLICT_COEXISTENCE_L0_DRAFT.json"
+          },
+          {
+            "volume": "VOL-06",
+            "registry_ref": "ARC412-05",
+            "existing_heading": "부흥은 누구의 사회를 바꾸었나: 감리교·흑인교회·여성",
+            "coverage_role": "CORE_CASE",
+            "source_registry": "research/data/V4_12_VOL06_PIETISM_REVIVAL_WORLD_MISSIONS_L0_DRAFT.json"
+          },
+          {
+            "volume": "VOL-07",
+            "registry_ref": "A410-08",
+            "existing_heading": "한국 개신교: 번역·회중·교육·부흥과 사회",
+            "coverage_role": "CORE_CASE",
+            "source_registry": "research/data/V4_10_WORLD_CHRISTIANITY_KOREA_REGIONAL_AGENCY_L0_DRAFT.json"
+          }
+        ]
+      },
+      {
+        "id": "T415-05",
+        "slug": "state-conflict-coexistence",
+        "title": "국가·갈등·공존",
+        "question": "국가 정책과 교회 권력이 결합할 때 누구의 선택을 보장하거나 제한했는가?",
+        "anchors": [
+          {
+            "volume": "VOL-01",
+            "registry_ref": "ARC413-05",
+            "existing_heading": "제국 정치와 지역 교회 삶의 다른 시간표",
+            "coverage_role": "CORE_CASE",
+            "source_registry": "research/data/V4_13_ANCIENT_MEDIEVAL_MULTIREGIONAL_L0_DRAFT.json"
+          },
+          {
+            "volume": "VOL-02",
+            "registry_ref": "ARC413-12",
+            "existing_heading": "1054년과 1204년을 통한 동서 관계",
+            "coverage_role": "CORE_CASE",
+            "source_registry": "research/data/V4_13_ANCIENT_MEDIEVAL_MULTIREGIONAL_L0_DRAFT.json"
+          },
+          {
+            "volume": "VOL-03",
+            "registry_ref": "A414-08",
+            "existing_heading": "바젤 콤팍타타: 협상·전투·공포",
+            "coverage_role": "CORE_CASE",
+            "source_registry": "research/data/V4_14_PRE_REFORMATION_DIVERSE_MOVEMENTS_L0_DRAFT.json"
+          },
+          {
+            "volume": "VOL-04",
+            "registry_ref": "E408-14",
+            "existing_heading": "잉글랜드 수장령과 로마와의 법적 결별",
+            "coverage_role": "CORE_CASE",
+            "source_registry": "research/data/V4_08_EUROPE_SYNCHRONOUS_EVENTS_PEOPLE_RELATIONSHIPS_L0_DRAFT.json"
+          },
+          {
+            "volume": "VOL-05",
+            "registry_ref": "A409-05",
+            "existing_heading": "화의와 관용의 한계",
+            "coverage_role": "CORE_CASE",
+            "source_registry": "research/data/V4_09_VOL05_CATHOLIC_REFORM_CONFLICT_COEXISTENCE_L0_DRAFT.json"
+          },
+          {
+            "volume": "VOL-06",
+            "registry_ref": "ARC412-07",
+            "existing_heading": "가톨릭·동방정교의 별도 역사: 예수회와 알래스카",
+            "coverage_role": "CORE_CASE",
+            "source_registry": "research/data/V4_12_VOL06_PIETISM_REVIVAL_WORLD_MISSIONS_L0_DRAFT.json"
+          },
+          {
+            "volume": "VOL-07",
+            "registry_ref": "A410-04",
+            "existing_heading": "아메리카의 식민주의와 현지인의 새로운 기독교",
+            "coverage_role": "CORE_CASE",
+            "source_registry": "research/data/V4_10_WORLD_CHRISTIANITY_KOREA_REGIONAL_AGENCY_L0_DRAFT.json"
+          }
+        ]
+      },
+      {
+        "id": "T415-06",
+        "slug": "translation-local-agency",
+        "title": "번역과 지역 수용",
+        "question": "누가 어떤 언어로 번역·교육·유통하고 지역의 신앙과 공동체를 재구성했는가?",
+        "anchors": [
+          {
+            "volume": "VOL-01",
+            "registry_ref": "ARC413-03",
+            "existing_heading": "아르메니아·악숨의 왕실 수용과 주민 공동체",
+            "coverage_role": "CONTEXT_BRIDGE",
+            "source_registry": "research/data/V4_13_ANCIENT_MEDIEVAL_MULTIREGIONAL_L0_DRAFT.json"
+          },
+          {
+            "volume": "VOL-02",
+            "registry_ref": "ARC413-09",
+            "existing_heading": "781년 경교비와 635년의 후대 회고",
+            "coverage_role": "CORE_CASE",
+            "source_registry": "research/data/V4_13_ANCIENT_MEDIEVAL_MULTIREGIONAL_L0_DRAFT.json"
+          },
+          {
+            "volume": "VOL-03",
+            "registry_ref": "A414-04",
+            "existing_heading": "롤라드와 중세 영어 성경 필사본",
+            "coverage_role": "CORE_CASE",
+            "source_registry": "research/data/V4_14_PRE_REFORMATION_DIVERSE_MOVEMENTS_L0_DRAFT.json"
+          },
+          {
+            "volume": "VOL-04",
+            "registry_ref": "E408-16",
+            "existing_heading": "덴마크 크리스티안 3세의 개혁과 왕권 재편",
+            "coverage_role": "CONTEXT_BRIDGE",
+            "source_registry": "research/data/V4_08_EUROPE_SYNCHRONOUS_EVENTS_PEOPLE_RELATIONSHIPS_L0_DRAFT.json"
+          },
+          {
+            "volume": "VOL-05",
+            "registry_ref": "A409-06",
+            "existing_heading": "유럽 너머의 연결: 선교와 현지 공동체",
+            "coverage_role": "CORE_CASE",
+            "source_registry": "research/data/V4_09_VOL05_CATHOLIC_REFORM_CONFLICT_COEXISTENCE_L0_DRAFT.json"
+          },
+          {
+            "volume": "VOL-06",
+            "registry_ref": "ARC412-02",
+            "existing_heading": "경건을 교육과 번역으로: 할레와 남인도의 연결",
+            "coverage_role": "CORE_CASE",
+            "source_registry": "research/data/V4_12_VOL06_PIETISM_REVIVAL_WORLD_MISSIONS_L0_DRAFT.json"
+          },
+          {
+            "volume": "VOL-07",
+            "registry_ref": "A410-08",
+            "existing_heading": "한국 개신교: 번역·회중·교육·부흥과 사회",
+            "coverage_role": "CORE_CASE",
+            "source_registry": "research/data/V4_10_WORLD_CHRISTIANITY_KOREA_REGIONAL_AGENCY_L0_DRAFT.json"
+          }
+        ]
+      }
+    ],
+    "anchor_count": 42,
+    "counts_by_volume": {
+      "VOL-01": 6,
+      "VOL-02": 6,
+      "VOL-03": 6,
+      "VOL-04": 6,
+      "VOL-05": 6,
+      "VOL-06": 6,
+      "VOL-07": 6
+    },
+    "zero_new_standalone_events_in_VOL08": true,
+    "zero_new_standalone_people_in_VOL08": true,
+    "integrity_verified_using_parent_registries_in_current_turn": true
+  },
+  "cross_volume_editorial_links": [
+    {
+      "id": "LINK422-01",
+      "from": "VOL-01",
+      "to": "VOL-02",
+      "relation": "PERIOD_CONTINUITY",
+      "reader_question": "고대 교회들의 전통은 중세에 어디에서 계속됐는가?"
+    },
+    {
+      "id": "LINK422-02",
+      "from": "VOL-02",
+      "to": "VOL-03",
+      "relation": "HISTORICAL_CONTEXT_NOT_SINGLE_CAUSE",
+      "reader_question": "중세 내부 쇄신과 교단 밖 개혁 요구는 어떻게 달랐나?"
+    },
+    {
+      "id": "LINK422-03",
+      "from": "VOL-03",
+      "to": "VOL-04",
+      "relation": "TEXT_RECEPTION_WITH_DOCTRINAL_DIFFERENCE",
+      "reader_question": "후스파의 유산은 16세기에 어떻게 다르게 기억됐나?"
+    },
+    {
+      "id": "LINK422-04",
+      "from": "VOL-04",
+      "to": "VOL-05",
+      "relation": "CO_TEMPORARY_COMPARISON",
+      "reader_question": "같은 시기 가톨릭 쇄신과 개신교 변화는 어떻게 공존했나?"
+    },
+    {
+      "id": "LINK422-05",
+      "from": "VOL-05",
+      "to": "VOL-06",
+      "relation": "HISTORIC_CONTINUITY_WITH_DISTINCTIONS",
+      "reader_question": "신앙고백의 제도화 뒤 일상의 경건·교육·부흥은 어떻게 달라졌나?"
+    },
+    {
+      "id": "LINK422-06",
+      "from": "VOL-06",
+      "to": "VOL-07",
+      "relation": "NETWORK_AND_LOCAL_AGENCY",
+      "reader_question": "선교 네트워크와 현지 공동체의 주도권을 함께 어떻게 설명하나?"
+    },
+    {
+      "id": "LINK422-07",
+      "from": "VOL-01",
+      "to": "VOL-07",
+      "relation": "LOCAL_HISTORY_CROSS_REFERENCE",
+      "reader_question": "아프리카의 고대 교회와 근현대 공동체를 어떻게 중복 없이 연결하나?"
+    },
+    {
+      "id": "LINK422-08",
+      "from": "VOL-02",
+      "to": "VOL-07",
+      "relation": "LOCAL_HISTORY_CROSS_REFERENCE",
+      "reader_question": "중세 인도양·중국의 교회사와 이후 아시아 교회사는 어떻게 연결되나?"
+    },
+    {
+      "id": "LINK422-09",
+      "from": "VOL-08",
+      "to": "VOL-01..VOL-07",
+      "relation": "THEMATIC_INDEX_NO_NEW_EVENTS",
+      "reader_question": "여섯 역사적 질문을 시대별로 비교할 때 용어 의미가 어떻게 달라졌나?"
+    }
+  ],
+  "candidate_packages": [
+    {
+      "id": "A422-01",
+      "content": "eight_title_question_and_summary_cards",
+      "source": "docs/01_CONTENT/OVERVIEW/V422_EIGHT_VOLUME_L0_INTEGRATED_EDITORIAL_PORTFOLIO_KO.md",
+      "decision": "PRIVATE_INTERNAL_EDITORIAL_ALPHA_ONLY",
+      "human_tested": false,
+      "requires_rights_reuse": false,
+      "requires_expert_factual_review": true
+    },
+    {
+      "id": "A422-02",
+      "content": "six_thematic_index_questions",
+      "source": "docs/01_CONTENT/OVERVIEW/V415_VOL08_SIX_THEMES_CROSS_VOLUME_MASTER_KO.md",
+      "decision": "PRIVATE_INTERNAL_EDITORIAL_ALPHA_ONLY",
+      "human_tested": false,
+      "requires_rights_reuse": false,
+      "requires_expert_factual_review": true
+    },
+    {
+      "id": "A422-03",
+      "content": "six_section_ten_minute_reader_narrative",
+      "source": "docs/01_CONTENT/OVERVIEW/V421_EIGHT_VOLUME_READER_EVIDENCE_REVISED_KO.md",
+      "decision": "PRIVATE_NONEXPERT_PILOT_MATERIAL_ONLY",
+      "human_tested": false,
+      "requires_rights_reuse": false,
+      "requires_expert_factual_review": true
+    },
+    {
+      "id": "B422-01",
+      "content": "11_region_45_event_comparative_deepening",
+      "source": "docs/01_CONTENT/OVERVIEW/V408_EUROPE_SYNCHRONOUS_HISTORY_COMPARATIVE_GUIDE_KO.md",
+      "decision": "HISTORIAN_REVIEW_REQUIRED_PRIOR_TO_READER_EXTENSION",
+      "human_tested": false,
+      "requires_rights_reuse": false,
+      "requires_expert_factual_review": true
+    },
+    {
+      "id": "C422-01",
+      "content": "facsimiles_paid_docs_unlicensed_illustrations_full_translations",
+      "source": null,
+      "decision": "BLOCKED_RIGHTS_SOURCE_AND_APP",
+      "human_tested": false,
+      "requires_rights_reuse": true,
+      "requires_expert_factual_review": true
+    }
+  ],
+  "risk_policy": {
+    "source_access": "Source record and accessible excerpt do not prove source-claim sufficiency across all sentences",
+    "source_independence": "Repeat site or organization pages cannot be counted as independent scholarly confirmation",
+    "edition_precision": "Claimed event, original monument, inscription, book publication, modern scanned reproduction and translation are different date types",
+    "content_critical_items": [
+      "635_vs_781",
+      "1054_vs_1204",
+      "1420_1421_1433_1436",
+      "1530_1531_1540",
+      "1536_vs_1559",
+      "1555_vs_1648",
+      "1706_1714_1715",
+      "1779_vs_1784",
+      "1882_vs_1887_vs_1911"
+    ],
+    "held_detail_claims": [
+      "C417-11",
+      "C417-12",
+      "C417-18"
+    ],
+    "full_reproduction_of_paywalled_sources": false,
+    "unlicensed_images_used": false
+  },
+  "evaluation": {
+    "eight_main_issues_complete_at_L0_structure": true,
+    "canonical_eight_overviews_preserved": true,
+    "original_513_manuscripts_modified": false,
+    "L1_L2_work_expanded_in_v422": false,
+    "expert_editorial_signoff_complete": false,
+    "independent_reader_test_count": 0,
+    "user_reading_time_measured": false,
+    "copyright_or_licensing_approved": false,
+    "AI_Studio_implemented_or_tested": false,
+    "source_evidence_count_not_completion_percentage": true,
+    "evidence_completeness_percent": null,
+    "confidence_score": null
+  },
+  "release": {
+    "can_ship": false,
+    "can_merge_main": false,
+    "can_publish_AI_Studio": false,
+    "can_redistribute_unlicensed_images": false,
+    "ready_for_internal_editorial_review_only": true,
+    "approval_required": [
+      "HISTORIAN_AND_MULTI_TRADITION_EDITOR",
+      "PILOT_USER_COMPREHENSION_RESULTS",
+      "RIGHTS_AND_LICENSE_OWNER",
+      "ACCESSIBILITY_AND_STAGING_TECH",
+      "OWNER_EXPLICIT_PUBLISH_APPROVAL"
+    ]
+  },
+  "next_action": "Use this integrated portfolio and V4.21 six-section reader with actual qualified editors/readers; only after evidence-based corrections should app staging or further detail proceed.",
+  "validation": {
+    "volume_cards": 8,
+    "original_canonical_overviews": 8,
+    "volume_macro_documents": 9,
+    "six_theme_count": 6,
+    "seven_volume_theme_anchor_count": 42,
+    "anchors_by_volume": {
+      "VOL-01": 6,
+      "VOL-02": 6,
+      "VOL-03": 6,
+      "VOL-04": 6,
+      "VOL-05": 6,
+      "VOL-06": 6,
+      "VOL-07": 6
+    },
+    "broken_reference_errors": [],
+    "section_titles_verified_in_master": 8,
+    "source_snapshot_from_actual_repo_paths": true
+  }
+}
