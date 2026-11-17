@@ -38,7 +38,7 @@ export default function AtlasL0Panel({payload,stagingGranted=false,onNavigate}){
  const [stack,setStack]=useState([]);
  const [view,setView]=useState({kind:"VOLUME_INDEX"});
  const [search,setSearch]=useState("");
- const titleRef=useRef(null),firstRender=useRef(true);
+ const titleRef=useRef(null),firstRender=useRef(true),searchChanging=useRef(false);
  const bridge=useMemo(()=>{
    if(!stagingGranted)return {status:"BLOCKED",reason:"비공개 접근 확인 필요"};
    try{return {status:"READY",atlas:createAtlasL0ReadOnlyBridge(payload,{
@@ -47,6 +47,7 @@ export default function AtlasL0Panel({payload,stagingGranted=false,onNavigate}){
  },[payload,stagingGranted]);
  useEffect(()=>{
    if(firstRender.current){firstRender.current=false;return;}
+   if(searchChanging.current){searchChanging.current=false;return;}
    if(view.kind!=="SEARCH")titleRef.current?.focus({preventScroll:true});
  },[view.kind,view.id]);
  function navigate(next){
@@ -60,6 +61,7 @@ export default function AtlasL0Panel({payload,stagingGranted=false,onNavigate}){
    setSearch("");
  }
  function searchChange(value){
+   searchChanging.current=true;
    setSearch(value);
    setView(value.trim()?{kind:"SEARCH"}:{kind:"VOLUME_INDEX"});
    if(!value.trim())setStack([]);
