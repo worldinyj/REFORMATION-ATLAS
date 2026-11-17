@@ -1,0 +1,115 @@
+{
+  "schema": "REFORMATION_ATLAS_V425_BROWSER_PREVIEW_AUDIT_V1",
+  "version": "V4.25",
+  "date": "2026-11-17",
+  "branch": "research/atlas-v425-browser-e2e-visual-check-l0",
+  "base_branch": "research/atlas-v424-offline-content-navigation-preview-l0",
+  "status": "UI_FIXES_COMPLETE_PLAYWRIGHT_PREPARED_BROWSER_RUN_NOT_CONFIRMED",
+  "files": [
+    {
+      "kind": "preview_html",
+      "path": "preview/V424_L0_EDITORIAL_ALPHA_OFFLINE_PREVIEW.html",
+      "blob_sha": "28ce4b82d5410e71f7a1db8013a01b7d8b3c8530"
+    },
+    {
+      "kind": "playwright_test",
+      "path": "research/tests/v425_browser_probe.cjs",
+      "blob_sha": "0a82779c2983ab478549f222cc038444ee07c3bd"
+    },
+    {
+      "kind": "github_actions_workflow",
+      "path": ".github/workflows/atlas-v425-browser-check.yml",
+      "blob_sha": "6585a8b4f381d0bf9eff6d77fb5b8f12cd7f24c5"
+    },
+    {
+      "kind": "browser_validation_guide",
+      "path": "preview/V425_BROWSER_VALIDATION_GUIDE_KO.md",
+      "blob_sha": "fdb9ad80fb6b1b8be19cf7919edbd47dca59c15b"
+    },
+    {
+      "kind": "content_original",
+      "path": "research/data/V4_23_L0_INTERNAL_ALPHA_CONTENT_BUNDLE_DRAFT.json",
+      "blob_sha": "ddf48f401ce4202166eedd308e1d5892f88ac0b8"
+    }
+  ],
+  "actual_ui_fixes": [
+    {
+      "id": "FIX425-01",
+      "description": "Navigation moves keyboard focus to main on non-search views, without stealing search-input focus",
+      "status": "COMMITTED_STATIC_RUNTIME_PASS"
+    },
+    {
+      "id": "FIX425-02",
+      "description": "Theme-linked anchor role labels shown as Korean reader-facing wording",
+      "status": "COMMITTED_STATIC_RUNTIME_PASS"
+    },
+    {
+      "id": "FIX425-03",
+      "description": "Eighth volume is thematic index; no six-link requirement for VOL-08",
+      "status": "TEST_SPEC_CORRECTED"
+    }
+  ],
+  "executed_verification": {
+    "method": "Execute exact committed preview JavaScript in a controlled synthetic DOM; no browser canvas or device rendering",
+    "volume_index_cards": 8,
+    "theme_index_cards": 6,
+    "rendered_volume_routes": 8,
+    "rendered_theme_routes": 6,
+    "rendered_reader_routes": 6,
+    "theme_count": 6,
+    "links": 42,
+    "humanized_role_visible": true,
+    "keyboard_focus_to_main": true,
+    "korean_search_result_cards": 8,
+    "integrity_widget_pass": true,
+    "script_parse_valid": true,
+    "metadata": "Synthetic DOM only. NOT a real Playwright/Chrome/Safari/phone run."
+  },
+  "actual_browser_run": {
+    "status": "NOT_CONFIRMED",
+    "chromium_e2e_completed": false,
+    "mobile_screenshots_reviewed": false,
+    "workflow_success_report_seen": false,
+    "artifact_zip_inspected": false,
+    "workflow_ready_at": ".github/workflows/atlas-v425-browser-check.yml",
+    "launch_command": "NODE_PATH=/tmp/atlas-v425-tools/node_modules node research/tests/v425_browser_probe.cjs",
+    "supported_viewports": [
+      {
+        "id": "desktop",
+        "width": 1440,
+        "height": 900
+      },
+      {
+        "id": "tablet",
+        "width": 768,
+        "height": 1024
+      },
+      {
+        "id": "mobile",
+        "width": 375,
+        "height": 812
+      },
+      {
+        "id": "small-mobile",
+        "width": 320,
+        "height": 700
+      }
+    ]
+  },
+  "release": {
+    "can_ship": false,
+    "main_modified": false,
+    "AI_Studio_modified": false,
+    "expert_history_signoff": false,
+    "human_reader_tested": false,
+    "rights_clearance_complete": false
+  },
+  "validation": {
+    "source_content_matches_parent_snapshot": true,
+    "expected_count_8_6_6_42": true,
+    "new_browser_test_syntax_valid": true,
+    "checks_static": true,
+    "errors": []
+  },
+  "next": "Inspect a real Chromium run and screenshots; fix any actual viewport overflow or visual defect, then validate Safari/VoiceOver and proceed only to authorized private app staging."
+}
