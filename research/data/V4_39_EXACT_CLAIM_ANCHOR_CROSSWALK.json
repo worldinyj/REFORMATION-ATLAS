@@ -1,0 +1,469 @@
+{
+  "schema": "ATLAS_V439_EXACT_CLAIM_ANCHOR_CROSSWALK",
+  "version": "V4.39",
+  "date": "2026-11-18",
+  "source": {
+    "candidate": {
+      "path": "research/data/V4_39_EIGHT_VOLUME_COHERENT_READER_CANDIDATE.json",
+      "blobSha": "4067b82d6727cbd5dce6fa4adfac65ec1fc9c037"
+    },
+    "legacyClaims": {
+      "path": "research/data/V4_33_EVIDENCE_DECISION_LEDGER_DRAFT.json",
+      "blobSha": "ff24234613dc2fa8786bfcd78edb2207aaeeb6d0"
+    },
+    "v434Changes": {
+      "path": "research/data/V4_34_FIVE_CLAIM_PRIMARY_SOURCE_DIFF_CANDIDATE.json",
+      "blobSha": "93a16a57bd0fd1a6237eff1bce1f0f16f6dbe82b"
+    }
+  },
+  "idsMap": [
+    {
+      "id": "CL433-01",
+      "volumeId": "VOL-01",
+      "oldAnchor": "악숨 왕국의 4세기 왕실 수용",
+      "newAnchor": "악숨 왕국의 4세기 왕실 수용",
+      "position": 1136,
+      "migration": "STABLE_EXACT",
+      "originalStatusV433": "SOURCE_SUPPORTED",
+      "effectiveReviewStatusV439": "SOURCE_SUPPORTED",
+      "sourceIds": [
+        "SRC433-01",
+        "SRC433-02"
+      ],
+      "claimNotReviewedByHuman": true,
+      "allowsAutomaticPromotion": false
+    },
+    {
+      "id": "CL433-02",
+      "volumeId": "VOL-01",
+      "oldAnchor": "니케아(325), 콘스탄티노폴리스(381), 에페소(431), 칼케돈(451)",
+      "newAnchor": "니케아(325), 콘스탄티노폴리스(381), 에페소(431), 칼케돈(451)",
+      "position": 1363,
+      "migration": "STABLE_EXACT",
+      "originalStatusV433": "REVIEW_REQUIRED",
+      "effectiveReviewStatusV439": "REVIEW_REQUIRED",
+      "sourceIds": [],
+      "claimNotReviewedByHuman": true,
+      "allowsAutomaticPromotion": false
+    },
+    {
+      "id": "CL433-03",
+      "volumeId": "VOL-01",
+      "oldAnchor": "동방 정교회, 오리엔트 정교회, 동방교회",
+      "newAnchor": "동방 정교회, 오리엔트 정교회, 동방교회",
+      "position": 1549,
+      "migration": "STABLE_EXACT",
+      "originalStatusV433": "REVIEW_REQUIRED",
+      "effectiveReviewStatusV439": "REVIEW_REQUIRED",
+      "sourceIds": [],
+      "claimNotReviewedByHuman": true,
+      "allowsAutomaticPromotion": false
+    },
+    {
+      "id": "CL433-04",
+      "volumeId": "VOL-02",
+      "oldAnchor": "781년에 건립된 자료",
+      "newAnchor": "781년에 건립된 자료",
+      "position": 1340,
+      "migration": "STABLE_EXACT",
+      "originalStatusV433": "SOURCE_SUPPORTED",
+      "effectiveReviewStatusV439": "SOURCE_SUPPORTED",
+      "sourceIds": [
+        "SRC433-03"
+      ],
+      "claimNotReviewedByHuman": true,
+      "allowsAutomaticPromotion": false
+    },
+    {
+      "id": "CL433-05",
+      "volumeId": "VOL-02",
+      "oldAnchor": "635년에 중국에 전래되었다고 회고",
+      "newAnchor": "635년에 중국에 전래되었다고 회고",
+      "position": 1365,
+      "migration": "STABLE_EXACT",
+      "originalStatusV433": "SOURCE_SUPPORTED",
+      "effectiveReviewStatusV439": "SOURCE_SUPPORTED",
+      "sourceIds": [
+        "SRC433-03"
+      ],
+      "claimNotReviewedByHuman": true,
+      "allowsAutomaticPromotion": false
+    },
+    {
+      "id": "CL433-06",
+      "volumeId": "VOL-02",
+      "oldAnchor": "1054년**의 갈등",
+      "newAnchor": "1054년**의 갈등",
+      "position": 1681,
+      "migration": "STABLE_EXACT",
+      "originalStatusV433": "REVIEW_REQUIRED",
+      "effectiveReviewStatusV439": "REVIEW_REQUIRED",
+      "sourceIds": [],
+      "claimNotReviewedByHuman": true,
+      "allowsAutomaticPromotion": false
+    },
+    {
+      "id": "CL433-07",
+      "volumeId": "VOL-02",
+      "oldAnchor": "사도 토마스가 직접 그곳에 방문한 시기",
+      "newAnchor": "사도 토마스가 직접 그곳에 방문한 시기",
+      "position": 1533,
+      "migration": "STABLE_EXACT",
+      "originalStatusV433": "HOLD",
+      "effectiveReviewStatusV439": "HOLD",
+      "sourceIds": [],
+      "claimNotReviewedByHuman": true,
+      "allowsAutomaticPromotion": false
+    },
+    {
+      "id": "CL433-08",
+      "volumeId": "VOL-03",
+      "oldAnchor": "위클리프는 성찬 후에도 빵의 실체가 남는다고 보았지만",
+      "newAnchor": "위클리프는 성찬 후에도 빵의 실체가 남는다는 견해(remanence)를 주장한 반면",
+      "position": 1052,
+      "migration": "REANCHORED_AFTER_RESEARCH_WORDING_CHANGE",
+      "originalStatusV433": "SOURCE_SUPPORTED",
+      "effectiveReviewStatusV439": "SOURCE_SUPPORTED",
+      "sourceIds": [
+        "SRC433-04",
+        "SRC433-05"
+      ],
+      "claimNotReviewedByHuman": true,
+      "allowsAutomaticPromotion": false
+    },
+    {
+      "id": "CL433-09",
+      "volumeId": "VOL-03",
+      "oldAnchor": "후스는 실체변화 교리를 수용했다",
+      "newAnchor": "후스는 실체변화(transubstantiation)를 수용했다.",
+      "position": 1104,
+      "migration": "REANCHORED_AFTER_RESEARCH_WORDING_CHANGE",
+      "originalStatusV433": "SOURCE_SUPPORTED",
+      "effectiveReviewStatusV439": "SOURCE_SUPPORTED",
+      "sourceIds": [
+        "SRC433-05"
+      ],
+      "claimNotReviewedByHuman": true,
+      "allowsAutomaticPromotion": false
+    },
+    {
+      "id": "CL433-10",
+      "volumeId": "VOL-03",
+      "oldAnchor": "1420년 주요 문안, 1421년 차슬라프 회의",
+      "newAnchor": "1420년 주요 문안, 1421년 차슬라프 회의",
+      "position": 1494,
+      "migration": "STABLE_EXACT",
+      "originalStatusV433": "REVIEW_REQUIRED",
+      "effectiveReviewStatusV439": "REVIEW_REQUIRED",
+      "sourceIds": [],
+      "claimNotReviewedByHuman": true,
+      "allowsAutomaticPromotion": false
+    },
+    {
+      "id": "CL433-11",
+      "volumeId": "VOL-03",
+      "oldAnchor": "왈도파의 1532년 변화를 설명할 때에는",
+      "newAnchor": "왈도파의 1532년 변화를 설명할 때에는",
+      "position": 1799,
+      "migration": "STABLE_EXACT",
+      "originalStatusV433": "HOLD",
+      "effectiveReviewStatusV439": "HOLD",
+      "sourceIds": [],
+      "claimNotReviewedByHuman": true,
+      "allowsAutomaticPromotion": false
+    },
+    {
+      "id": "CL433-12",
+      "volumeId": "VOL-04",
+      "oldAnchor": "1529년 마르부르크에서는",
+      "newAnchor": "1529년 마르부르크에서는",
+      "position": 1032,
+      "migration": "STABLE_EXACT",
+      "originalStatusV433": "SOURCE_SUPPORTED",
+      "effectiveReviewStatusV439": "SOURCE_SUPPORTED",
+      "sourceIds": [
+        "SRC433-06"
+      ],
+      "claimNotReviewedByHuman": true,
+      "allowsAutomaticPromotion": false
+    },
+    {
+      "id": "CL433-13",
+      "volumeId": "VOL-04",
+      "oldAnchor": "1530년의 공적 제시",
+      "newAnchor": "1530년 제국회의에서 제시되었고 당시 비공식 인쇄본도 유통되었다.",
+      "position": 1200,
+      "migration": "REANCHORED_AFTER_RESEARCH_WORDING_CHANGE",
+      "originalStatusV433": "REVIEW_REQUIRED",
+      "effectiveReviewStatusV439": "REVIEW_REQUIRED",
+      "sourceIds": [
+        "SRC433-07",
+        "SRC433-08"
+      ],
+      "claimNotReviewedByHuman": true,
+      "allowsAutomaticPromotion": false
+    },
+    {
+      "id": "CL433-14",
+      "volumeId": "VOL-04",
+      "oldAnchor": "판본 사이 세부 문장의 의미와 어떤 것이 정본인지",
+      "newAnchor": "판본 사이 세부 문장의 의미와 어떤 것이 정본인지",
+      "position": 1321,
+      "migration": "STABLE_EXACT",
+      "originalStatusV433": "HOLD",
+      "effectiveReviewStatusV439": "HOLD",
+      "sourceIds": [
+        "SRC433-07",
+        "SRC433-08"
+      ],
+      "claimNotReviewedByHuman": true,
+      "allowsAutomaticPromotion": false
+    },
+    {
+      "id": "CL433-15",
+      "volumeId": "VOL-04",
+      "oldAnchor": "유럽의 11개 지역을 나란히 읽는 이유",
+      "newAnchor": "유럽의 11개 지역을 나란히 읽는 이유",
+      "position": 1826,
+      "migration": "STABLE_EXACT",
+      "originalStatusV433": "REVIEW_REQUIRED",
+      "effectiveReviewStatusV439": "REVIEW_REQUIRED",
+      "sourceIds": [],
+      "claimNotReviewedByHuman": true,
+      "allowsAutomaticPromotion": false
+    },
+    {
+      "id": "CL433-16",
+      "volumeId": "VOL-05",
+      "oldAnchor": "1545–1547년, 1551–1552년, 1562–1563년",
+      "newAnchor": "1545–1547년, 1551–1552년, 1562–1563년",
+      "position": 1122,
+      "migration": "STABLE_EXACT",
+      "originalStatusV433": "SOURCE_SUPPORTED",
+      "effectiveReviewStatusV439": "SOURCE_SUPPORTED",
+      "sourceIds": [
+        "SRC433-09"
+      ],
+      "claimNotReviewedByHuman": true,
+      "allowsAutomaticPromotion": false
+    },
+    {
+      "id": "CL433-17",
+      "volumeId": "VOL-05",
+      "oldAnchor": "1555년 아우크스부르크 화의",
+      "newAnchor": "1555년 아우크스부르크 화의",
+      "position": 1740,
+      "migration": "STABLE_EXACT",
+      "originalStatusV433": "SOURCE_SUPPORTED",
+      "effectiveReviewStatusV439": "SOURCE_SUPPORTED",
+      "sourceIds": [
+        "SRC433-10"
+      ],
+      "claimNotReviewedByHuman": true,
+      "allowsAutomaticPromotion": false
+    },
+    {
+      "id": "CL433-18",
+      "volumeId": "VOL-05",
+      "oldAnchor": "1648년 베스트팔렌의 합의",
+      "newAnchor": "1648년 베스트팔렌의 합의",
+      "position": 1905,
+      "migration": "STABLE_EXACT",
+      "originalStatusV433": "SOURCE_SUPPORTED",
+      "effectiveReviewStatusV439": "SOURCE_SUPPORTED",
+      "sourceIds": [
+        "SRC433-10",
+        "SRC433-19"
+      ],
+      "claimNotReviewedByHuman": true,
+      "allowsAutomaticPromotion": false
+    },
+    {
+      "id": "CL433-19",
+      "volumeId": "VOL-06",
+      "oldAnchor": "1706년 남인도 트랑케바르에 도착",
+      "newAnchor": "1706년 남인도 트랑케바르에 도착",
+      "position": 1091,
+      "migration": "STABLE_EXACT",
+      "originalStatusV433": "REVIEW_REQUIRED",
+      "effectiveReviewStatusV439": "REVIEW_REQUIRED",
+      "sourceIds": [],
+      "claimNotReviewedByHuman": true,
+      "allowsAutomaticPromotion": false
+    },
+    {
+      "id": "CL433-20",
+      "volumeId": "VOL-06",
+      "oldAnchor": "1714년에는 타밀어 네 복음서와 사도행전의 인쇄",
+      "newAnchor": "1714년 타밀어 네 복음서와 사도행전의 부분 인쇄",
+      "position": 1227,
+      "migration": "REANCHORED_AFTER_RESEARCH_WORDING_CHANGE",
+      "originalStatusV433": "SOURCE_SUPPORTED",
+      "effectiveReviewStatusV439": "SOURCE_SUPPORTED",
+      "sourceIds": [
+        "SRC433-13",
+        "SRC433-11"
+      ],
+      "claimNotReviewedByHuman": true,
+      "allowsAutomaticPromotion": false
+    },
+    {
+      "id": "CL433-21",
+      "volumeId": "VOL-06",
+      "oldAnchor": "1715년에는 신약전서 범위의 인쇄",
+      "newAnchor": "1715년 신약전서 간행",
+      "position": 1274,
+      "migration": "REANCHORED_AFTER_RESEARCH_WORDING_CHANGE",
+      "originalStatusV433": "SOURCE_SUPPORTED",
+      "effectiveReviewStatusV439": "CONFLICT_HOLD_COMPLETION_YEAR_1719_UNRECONCILED",
+      "sourceIds": [
+        "SRC433-12"
+      ],
+      "claimNotReviewedByHuman": true,
+      "allowsAutomaticPromotion": false
+    },
+    {
+      "id": "CL433-22",
+      "volumeId": "VOL-06",
+      "oldAnchor": "모라비아 공동체의 피난·새로운 조직·해외선교",
+      "newAnchor": "모라비아 공동체의 피난·새로운 조직·해외선교",
+      "position": 1579,
+      "migration": "STABLE_EXACT",
+      "originalStatusV433": "REVIEW_REQUIRED",
+      "effectiveReviewStatusV439": "REVIEW_REQUIRED",
+      "sourceIds": [],
+      "claimNotReviewedByHuman": true,
+      "allowsAutomaticPromotion": false
+    },
+    {
+      "id": "CL433-23",
+      "volumeId": "VOL-07",
+      "oldAnchor": "1784년 이승훈의 세례",
+      "newAnchor": "1784년 이승훈의 세례",
+      "position": 558,
+      "migration": "STABLE_EXACT",
+      "originalStatusV433": "SOURCE_SUPPORTED",
+      "effectiveReviewStatusV439": "SOURCE_SUPPORTED",
+      "sourceIds": [
+        "SRC433-14",
+        "SRC433-15"
+      ],
+      "claimNotReviewedByHuman": true,
+      "allowsAutomaticPromotion": false
+    },
+    {
+      "id": "CL433-24",
+      "volumeId": "VOL-07",
+      "oldAnchor": "1779년 전후의 학문 모임",
+      "newAnchor": "1779년 전후의 서학 강학 모임",
+      "position": 1473,
+      "migration": "REANCHORED_AFTER_RESEARCH_WORDING_CHANGE",
+      "originalStatusV433": "REVIEW_REQUIRED",
+      "effectiveReviewStatusV439": "REVIEW_REQUIRED",
+      "sourceIds": [
+        "SRC433-16",
+        "SRC433-14"
+      ],
+      "claimNotReviewedByHuman": true,
+      "allowsAutomaticPromotion": false
+    },
+    {
+      "id": "CL433-25",
+      "volumeId": "VOL-07",
+      "oldAnchor": "1882년 개별 복음서",
+      "newAnchor": "1882년 『예수셩교누가복음젼셔』 등의 개별 복음서",
+      "position": 1807,
+      "migration": "REANCHORED_AFTER_RESEARCH_WORDING_CHANGE",
+      "originalStatusV433": "SOURCE_SUPPORTED",
+      "effectiveReviewStatusV439": "SOURCE_SUPPORTED",
+      "sourceIds": [
+        "SRC433-17",
+        "SRC433-18"
+      ],
+      "claimNotReviewedByHuman": true,
+      "allowsAutomaticPromotion": false
+    },
+    {
+      "id": "CL433-26",
+      "volumeId": "VOL-07",
+      "oldAnchor": "이응찬·백홍준·서상륜·이성하",
+      "newAnchor": "이응찬·백홍준·서상륜·이성하",
+      "position": 1759,
+      "migration": "STABLE_EXACT",
+      "originalStatusV433": "REVIEW_REQUIRED",
+      "effectiveReviewStatusV439": "REVIEW_REQUIRED",
+      "sourceIds": [
+        "SRC433-17"
+      ],
+      "claimNotReviewedByHuman": true,
+      "allowsAutomaticPromotion": false
+    },
+    {
+      "id": "CL433-27",
+      "volumeId": "VOL-08",
+      "oldAnchor": "제8권은 새로운 한 세기를 추가하는 대신",
+      "newAnchor": "제8권은 새로운 한 세기를 추가하는 대신",
+      "position": 866,
+      "migration": "STABLE_EXACT",
+      "originalStatusV433": "STRUCTURE",
+      "effectiveReviewStatusV439": "STRUCTURE",
+      "sourceIds": [],
+      "claimNotReviewedByHuman": true,
+      "allowsAutomaticPromotion": false
+    },
+    {
+      "id": "CL433-28",
+      "volumeId": "VOL-08",
+      "oldAnchor": "여섯 주제 중 하나에서 관련 시대권으로 이동",
+      "newAnchor": "여섯 주제 중 하나에서 관련 시대권으로 이동",
+      "position": 2110,
+      "migration": "STABLE_EXACT",
+      "originalStatusV433": "STRUCTURE",
+      "effectiveReviewStatusV439": "STRUCTURE",
+      "sourceIds": [],
+      "claimNotReviewedByHuman": true,
+      "allowsAutomaticPromotion": false
+    },
+    {
+      "id": "CL433-29",
+      "volumeId": "VOL-08",
+      "oldAnchor": "논리적인 연구 앵커",
+      "newAnchor": "논리적인 연구 앵커",
+      "position": 2273,
+      "migration": "STABLE_EXACT",
+      "originalStatusV433": "STRUCTURE",
+      "effectiveReviewStatusV439": "STRUCTURE",
+      "sourceIds": [],
+      "claimNotReviewedByHuman": true,
+      "allowsAutomaticPromotion": false
+    }
+  ],
+  "statusCounts": {
+    "SOURCE_SUPPORTED": 12,
+    "REVIEW_REQUIRED": 10,
+    "HOLD": 3,
+    "CONFLICT_HOLD_COMPLETION_YEAR_1719_UNRECONCILED": 1,
+    "STRUCTURE": 3
+  },
+  "anchorChecks": {
+    "total": 29,
+    "unchanged": 22,
+    "reanchored": 7,
+    "missing": 0,
+    "nonUnique": 0
+  },
+  "safeguards": {
+    "previouslyRecordedSourceClaimStatusIsNotExpertApproval": true,
+    "v433HistoricalRecordNotOverwritten": true,
+    "v435ToV437TamilConflictCarriedForward": true,
+    "canShip": false,
+    "canMergeMain": false,
+    "canPromoteAnyAppText": false,
+    "heldClaimIds": [
+      "C417-11",
+      "C417-12",
+      "C417-18"
+    ]
+  },
+  "notes": "This re-anchors 29 earlier claims to exactly one occurrence in the V4.39 RESEARCH DRAFT. It does not re-adjudicate all historical propositions; Tamil 1715 original SOURCE_SUPPORTED status is explicitly superseded with conflict hold for unique completion-year claim."
+}
