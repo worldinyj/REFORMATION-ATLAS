@@ -83,7 +83,7 @@ jobs:
           git add research/artifacts/V428_browser_evidence/V428_BROWSER_E2E_RESULTS.json
           if test -f research/artifacts/V428_browser_evidence/INSTALL_LOG.txt; then git add research/artifacts/V428_browser_evidence/INSTALL_LOG.txt; fi
           for engine in chromium webkit; do
-            for name in desktop-volumes mobile-volumes small-mobile-themes; do
+            for name in desktop-volumes mobile-volumes small-mobile-themes small-mobile-VOL-06; do
               img="research/artifacts/V428_browser_checks/$engine/$name.png"
               if test -f "$img"; then git add "$img"; fi
             done
