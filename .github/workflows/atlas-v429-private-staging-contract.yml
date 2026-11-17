@@ -1,0 +1,48 @@
+name: ATLAS V4.29 Private Staging Content Contract
+on:
+  push:
+    branches:
+      - research/atlas-v429-private-staging-l0-content-contract
+    paths:
+      - "preview/staging/V429_L0_PRIVATE_STAGING_CONTENT.json"
+      - "preview/staging/atlas_private_staging_adapter.mjs"
+      - "research/tests/v429_private_staging_contract.mjs"
+      - ".github/workflows/atlas-v429-private-staging-contract.yml"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  private-staging-contract:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - name: Checkout research branch
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Configure Node 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Validate actual protected content and all routes
+        run: |
+          mkdir -p research/artifacts
+          node research/tests/v429_private_staging_contract.mjs > research/artifacts/V429_PRIVATE_STAGING_CONTRACT_RESULTS.json
+          cat research/artifacts/V429_PRIVATE_STAGING_CONTRACT_RESULTS.json
+      - name: Save verified private-staging evidence to research branch
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add research/artifacts/V429_PRIVATE_STAGING_CONTRACT_RESULTS.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'test(atlas): V4.29 private staging contract verified [skip ci]'
+            git push origin HEAD:refs/heads/research/atlas-v429-private-staging-l0-content-contract
+          fi
+      - name: Upload JSON results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: atlas-v429-private-staging-contract
+          path: research/artifacts/V429_PRIVATE_STAGING_CONTRACT_RESULTS.json
+          if-no-files-found: warn
+          retention-days: 14
