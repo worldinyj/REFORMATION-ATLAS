@@ -1,0 +1,1179 @@
+{
+  "version": "V4.18",
+  "date": "2026-11-17",
+  "level": "L0",
+  "status": "P0_CLAIM_PROVENANCE_RIGHTS_FREEZE_RESEARCH_DRAFT",
+  "branch": "research/atlas-v418-p0-claim-provenance-rights-pilot-freeze",
+  "parent_branch": "research/atlas-v417-release-candidate-source-claim-pilot-l0",
+  "reader_text": "docs/01_CONTENT/OVERVIEW/V418_P0_EDITORIAL_RIGHTS_PILOT_FREEZE_KO.md",
+  "parent_claims": "research/data/V4_17_L0_PILOT_CLAIM_SOURCE_GATE_DRAFT.json",
+  "sources": [
+    {
+      "id": "SRC417-01",
+      "title": "Vatican Nicaea historical reception",
+      "url": "https://www.vatican.va/roman_curia/congregations/cfaith/cti_documents/rc_cti_doc_20250403_1700-nicea_en.html",
+      "web_access_assessment": "PAGE_VIEWED",
+      "evidence_object_kind": "VATICAN_INSTITUTIONAL_INTERPRETATION",
+      "claim_link_only": true,
+      "page_read_does_not_mean_full_publisher_book_read": true,
+      "permission_to_republish_image": false,
+      "permission_to_republish_later_translation": false,
+      "permission_to_republish_full_publisher_article": false,
+      "license_assessed_per_asset": false,
+      "original_witness_collated_in_v418": false
+    },
+    {
+      "id": "SRC417-02",
+      "title": "World Council of Churches Oriental Orthodox",
+      "url": "https://www.oikoumene.org/church-families/orthodox-churches-oriental",
+      "web_access_assessment": "PAGE_VIEWED",
+      "evidence_object_kind": "WCC_SELF_DESCRIPTION",
+      "claim_link_only": true,
+      "page_read_does_not_mean_full_publisher_book_read": true,
+      "permission_to_republish_image": false,
+      "permission_to_republish_later_translation": false,
+      "permission_to_republish_full_publisher_article": false,
+      "license_assessed_per_asset": false,
+      "original_witness_collated_in_v418": false
+    },
+    {
+      "id": "SRC417-03",
+      "title": "Birmingham University Nestorian Stele",
+      "url": "https://epapers.bham.ac.uk/id/eprint/755/",
+      "web_access_assessment": "PAGE_VIEWED",
+      "evidence_object_kind": "BIRMINGHAM_1920S_RUBBING_2008_COMPOSITE",
+      "claim_link_only": true,
+      "page_read_does_not_mean_full_publisher_book_read": true,
+      "permission_to_republish_image": false,
+      "permission_to_republish_later_translation": false,
+      "permission_to_republish_full_publisher_article": false,
+      "license_assessed_per_asset": false,
+      "original_witness_collated_in_v418": false
+    },
+    {
+      "id": "SRC417-04",
+      "title": "Penn Museum Nestorian Stele record",
+      "url": "https://collections.penn.museum/collections/object/172060",
+      "web_access_assessment": "PAGE_VIEWED",
+      "evidence_object_kind": "PENN_19TH_CENTURY_PHOTOGRAPHIC_PRINT",
+      "claim_link_only": true,
+      "page_read_does_not_mean_full_publisher_book_read": true,
+      "permission_to_republish_image": false,
+      "permission_to_republish_later_translation": false,
+      "permission_to_republish_full_publisher_article": false,
+      "license_assessed_per_asset": false,
+      "original_witness_collated_in_v418": false
+    },
+    {
+      "id": "SRC417-05",
+      "title": "Metropolitan Museum Aksum Ezana",
+      "url": "https://www.metmuseum.org/pt/essays/african-christianity-in-ethiopia",
+      "web_access_assessment": "PAGE_VIEWED",
+      "evidence_object_kind": "MET_HISTORICAL_ESSAY",
+      "claim_link_only": true,
+      "page_read_does_not_mean_full_publisher_book_read": true,
+      "permission_to_republish_image": false,
+      "permission_to_republish_later_translation": false,
+      "permission_to_republish_full_publisher_article": false,
+      "license_assessed_per_asset": false,
+      "original_witness_collated_in_v418": false
+    },
+    {
+      "id": "SRC417-06",
+      "title": "Stanford Philosophy John Wyclif",
+      "url": "https://plato.stanford.edu/entries/wyclif/",
+      "web_access_assessment": "PAGE_VIEWED",
+      "evidence_object_kind": "STANFORD_ACADEMIC_ENTRY",
+      "claim_link_only": true,
+      "page_read_does_not_mean_full_publisher_book_read": true,
+      "permission_to_republish_image": false,
+      "permission_to_republish_later_translation": false,
+      "permission_to_republish_full_publisher_article": false,
+      "license_assessed_per_asset": false,
+      "original_witness_collated_in_v418": false
+    },
+    {
+      "id": "SRC417-07",
+      "title": "Cambridge Wyclif and Hussite Theology",
+      "url": "https://www.cambridge.org/core/journals/church-history/article/abs/john-wyclif-and-hussite-theology-14151436/54C10C6F7EEFB5409E2291C9F4194ABF",
+      "web_access_assessment": "ABSTRACT_VIEWED",
+      "evidence_object_kind": "CAMBRIDGE_ARTICLE_FULL_TEXT_NOT_READ",
+      "claim_link_only": true,
+      "page_read_does_not_mean_full_publisher_book_read": true,
+      "permission_to_republish_image": false,
+      "permission_to_republish_later_translation": false,
+      "permission_to_republish_full_publisher_article": false,
+      "license_assessed_per_asset": false,
+      "original_witness_collated_in_v418": false
+    },
+    {
+      "id": "SRC417-08",
+      "title": "GHDI Marburg Articles 1529",
+      "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/the-marburg-colloquy-the-marburg-articles-1529",
+      "web_access_assessment": "EDITED_TRANSLATION_VIEWED",
+      "evidence_object_kind": "GHDI_EDITED_SOURCE",
+      "claim_link_only": true,
+      "page_read_does_not_mean_full_publisher_book_read": true,
+      "permission_to_republish_image": false,
+      "permission_to_republish_later_translation": false,
+      "permission_to_republish_full_publisher_article": false,
+      "license_assessed_per_asset": false,
+      "original_witness_collated_in_v418": false
+    },
+    {
+      "id": "SRC417-09",
+      "title": "Oxford Calvin Institutes 1536-1559",
+      "url": "https://academic.oup.com/book/50318/chapter-abstract/422710493",
+      "web_access_assessment": "WEB_OPEN_FAILED_SEARCH_SNIPPET_SEEN",
+      "evidence_object_kind": "OXFORD_ACADEMIC_ABSTRACT_ONLY",
+      "claim_link_only": true,
+      "page_read_does_not_mean_full_publisher_book_read": true,
+      "permission_to_republish_image": false,
+      "permission_to_republish_later_translation": false,
+      "permission_to_republish_full_publisher_article": false,
+      "license_assessed_per_asset": false,
+      "original_witness_collated_in_v418": false
+    },
+    {
+      "id": "SRC417-10",
+      "title": "Masaryk University Four Articles Basel",
+      "url": "https://www.muni.cz/en/research/publications/2437517",
+      "web_access_assessment": "ABSTRACT_VIEWED",
+      "evidence_object_kind": "MASARYK_CHAPTER_DESCRIPTION",
+      "claim_link_only": true,
+      "page_read_does_not_mean_full_publisher_book_read": true,
+      "permission_to_republish_image": false,
+      "permission_to_republish_later_translation": false,
+      "permission_to_republish_full_publisher_article": false,
+      "license_assessed_per_asset": false,
+      "original_witness_collated_in_v418": false
+    },
+    {
+      "id": "SRC417-11",
+      "title": "Oxford Compacts of Jihlava 1436",
+      "url": "https://academic.oup.com/book/60719/chapter-abstract/527873569",
+      "web_access_assessment": "WEB_OPEN_FAILED_SEARCH_INDEX_ONLY",
+      "evidence_object_kind": "OXFORD_CHAPTER_DIRECT_FETCH_FAILED",
+      "claim_link_only": true,
+      "page_read_does_not_mean_full_publisher_book_read": true,
+      "permission_to_republish_image": false,
+      "permission_to_republish_later_translation": false,
+      "permission_to_republish_full_publisher_article": false,
+      "license_assessed_per_asset": false,
+      "original_witness_collated_in_v418": false
+    },
+    {
+      "id": "SRC417-12",
+      "title": "GHDI Peace of Augsburg 1555",
+      "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/ghdi%3Adocument-4386",
+      "web_access_assessment": "EDITED_TRANSLATION_VIEWED",
+      "evidence_object_kind": "GHDI_1555_HISTORICAL_TEXT",
+      "claim_link_only": true,
+      "page_read_does_not_mean_full_publisher_book_read": true,
+      "permission_to_republish_image": false,
+      "permission_to_republish_later_translation": false,
+      "permission_to_republish_full_publisher_article": false,
+      "license_assessed_per_asset": false,
+      "original_witness_collated_in_v418": false
+    },
+    {
+      "id": "SRC417-13",
+      "title": "Francke Ziegenbalg 1706 letter",
+      "url": "https://digital.francke-halle.de/mod5a/content/titleinfo/1220645",
+      "web_access_assessment": "ARCHIVE_CATALOG_VIEWED_INTERMITTENT_TIMEOUT",
+      "evidence_object_kind": "FRANCKE_1706_LETTER_METADATA",
+      "claim_link_only": true,
+      "page_read_does_not_mean_full_publisher_book_read": true,
+      "permission_to_republish_image": false,
+      "permission_to_republish_later_translation": false,
+      "permission_to_republish_full_publisher_article": false,
+      "license_assessed_per_asset": false,
+      "original_witness_collated_in_v418": false
+    },
+    {
+      "id": "SRC417-14",
+      "title": "Boston University Ziegenbalg biography",
+      "url": "https://www.bu.edu/missiology/missionary-biography/w-x-y-z/ziegenbalg-bartholomaus-1682-1719/",
+      "web_access_assessment": "PAGE_VIEWED",
+      "evidence_object_kind": "BOSTON_UNIVERSITY_HISTORY",
+      "claim_link_only": true,
+      "page_read_does_not_mean_full_publisher_book_read": true,
+      "permission_to_republish_image": false,
+      "permission_to_republish_later_translation": false,
+      "permission_to_republish_full_publisher_article": false,
+      "license_assessed_per_asset": false,
+      "original_witness_collated_in_v418": false
+    },
+    {
+      "id": "SRC417-15",
+      "title": "KCI Korean Catholic church origin debates",
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003153946",
+      "web_access_assessment": "ABSTRACT_VIEWED",
+      "evidence_object_kind": "KCI_2024_ORIGIN_DEBATE",
+      "claim_link_only": true,
+      "page_read_does_not_mean_full_publisher_book_read": true,
+      "permission_to_republish_image": false,
+      "permission_to_republish_later_translation": false,
+      "permission_to_republish_full_publisher_article": false,
+      "license_assessed_per_asset": false,
+      "original_witness_collated_in_v418": false
+    },
+    {
+      "id": "SRC417-16",
+      "title": "Korean Bible Society historic editions",
+      "url": "https://www.bskorea.or.kr/bbs/content.php?co_id=subpage2_3_3_4&device=pc",
+      "web_access_assessment": "OBJECT_CATALOG_VIEWED",
+      "evidence_object_kind": "KOREAN_BIBLE_SOCIETY_1882_1887_BOOKS",
+      "claim_link_only": true,
+      "page_read_does_not_mean_full_publisher_book_read": true,
+      "permission_to_republish_image": false,
+      "permission_to_republish_later_translation": false,
+      "permission_to_republish_full_publisher_article": false,
+      "license_assessed_per_asset": false,
+      "original_witness_collated_in_v418": false
+    },
+    {
+      "id": "SRC417-17",
+      "title": "Korean Heritage Service Jesusseonggyojeonseo",
+      "url": "https://digital.khs.go.kr/heri/heriDetail.do?ctptNo=4411106690000&ctptUid=13983497666424036046",
+      "web_access_assessment": "HERITAGE_CATALOG_VIEWED",
+      "evidence_object_kind": "HERITAGE_1887_KOREAN_NT",
+      "claim_link_only": true,
+      "page_read_does_not_mean_full_publisher_book_read": true,
+      "permission_to_republish_image": false,
+      "permission_to_republish_later_translation": false,
+      "permission_to_republish_full_publisher_article": false,
+      "license_assessed_per_asset": false,
+      "original_witness_collated_in_v418": false
+    },
+    {
+      "id": "SRC417-18",
+      "title": "Trent Session VI historical text",
+      "url": "https://www.papalencyclicals.net/councils/trent/sixth-session.htm",
+      "web_access_assessment": "LATER_ENGLISH_TRANSLATION_VIEWED",
+      "evidence_object_kind": "COUNCIL_TRENT_1547",
+      "claim_link_only": true,
+      "page_read_does_not_mean_full_publisher_book_read": true,
+      "permission_to_republish_image": false,
+      "permission_to_republish_later_translation": false,
+      "permission_to_republish_full_publisher_article": false,
+      "license_assessed_per_asset": false,
+      "original_witness_collated_in_v418": false
+    },
+    {
+      "id": "SRC417-19",
+      "title": "Lutheran Catechesis Augsburg Variata",
+      "url": "https://lutherisch.org/en/augsburger-bekenntnis/",
+      "web_access_assessment": "PAGE_VIEWED",
+      "evidence_object_kind": "LUTHERAN_CONFESSIONAL_OVERVIEW_NOT_CRITICAL_EDITION",
+      "claim_link_only": true,
+      "page_read_does_not_mean_full_publisher_book_read": true,
+      "permission_to_republish_image": false,
+      "permission_to_republish_later_translation": false,
+      "permission_to_republish_full_publisher_article": false,
+      "license_assessed_per_asset": false,
+      "original_witness_collated_in_v418": false
+    },
+    {
+      "id": "SRC417-20",
+      "title": "American Waldensian Society 1532 1847 terms",
+      "url": "https://www.waldensian.org/history/encounters-with-the-reformation-in-the-1530s/",
+      "web_access_assessment": "PAGE_VIEWED",
+      "evidence_object_kind": "WALDENSIAN_DENOMINATIONAL_HISTORY",
+      "claim_link_only": true,
+      "page_read_does_not_mean_full_publisher_book_read": true,
+      "permission_to_republish_image": false,
+      "permission_to_republish_later_translation": false,
+      "permission_to_republish_full_publisher_article": false,
+      "license_assessed_per_asset": false,
+      "original_witness_collated_in_v418": false
+    },
+    {
+      "id": "SRC418-21",
+      "title": "A. Edward Siecienski, The Fourth Crusade to the Eve of the Council of Florence",
+      "url": "https://academic.oup.com/book/11898/chapter-abstract/161078830",
+      "web_access_assessment": "SEARCH_INDEXED_ACADEMIC_ABSTRACT",
+      "evidence_object_kind": "OXFORD_BOOK_CHAPTER_ABSTRACT",
+      "specific_support": "1054 not necessarily final schism; 1204 sharpened division",
+      "claim_link_only": true,
+      "permission_to_republish_image": false,
+      "permission_to_republish_later_translation": false,
+      "permission_to_republish_full_publisher_article": false,
+      "license_assessed_per_asset": false,
+      "original_witness_collated_in_v418": false
+    },
+    {
+      "id": "SRC418-22",
+      "title": "Met Museum, Italian Peninsula 1000–1400 A.D.",
+      "url": "https://www.metmuseum.org/it/toah/ht/07/eust.html",
+      "web_access_assessment": "SEARCH_INDEXED_MUSEUM_CHRONOLOGY",
+      "evidence_object_kind": "MUSEUM_TIMELINE",
+      "specific_support": "1204 Fourth Crusade sack of Constantinople",
+      "claim_link_only": true,
+      "permission_to_republish_image": false,
+      "permission_to_republish_later_translation": false,
+      "permission_to_republish_full_publisher_article": false,
+      "license_assessed_per_asset": false,
+      "original_witness_collated_in_v418": false
+    },
+    {
+      "id": "SRC418-23",
+      "title": "Schaff, The Augsburg Confession, 1530, section 41 (later editions note)",
+      "url": "https://www.uecf.net/books/collected-works/chapter1319.html",
+      "web_access_assessment": "SEARCH_INDEXED_NINETEENTH_CENTURY_SECONDARY",
+      "evidence_object_kind": "HISTORICAL_EDITIONS_REVIEW",
+      "specific_support": "1531 Melanchthon author's edition and 1540 textual variations; unauthorised 1530 printing",
+      "claim_link_only": true,
+      "permission_to_republish_image": false,
+      "permission_to_republish_later_translation": false,
+      "permission_to_republish_full_publisher_article": false,
+      "license_assessed_per_asset": false,
+      "original_witness_collated_in_v418": false
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C417-01",
+      "theme_id": "T415-01",
+      "landing_ref": "ARC413-04",
+      "evidence_ref": "ARC413-04",
+      "original_source_ids": [
+        "SRC417-01"
+      ],
+      "extra_corrob_source_ids": [],
+      "historical_claim_correction": "SEPARATE_COUNCILS_FROM_RECEPTION",
+      "safe_pilot_sentence_ko": "325년 니케아·381년 콘스탄티노폴리스는 별개의 공의회이며 지역별 수용은 별도 과정",
+      "current_evidence_access_type": "VATICAN_PUBLIC_REPORT",
+      "text_only_nonpublic_pilot_decision": "INCLUDE_WITH_CONTEXT",
+      "professional_historiography_review": "PENDING",
+      "edition_collation_status": "NOT_NEWLY_PERFORMED",
+      "claim_to_evidence_aptness": "SELECTED_WEB_EVIDENCE_CORROBORATED_SUBJECT_TO_EDITORIAL_REVIEW",
+      "external_images_embedded": false,
+      "source_full_text_copied": false,
+      "web_release_approved": false,
+      "quote_rights_cleared": false,
+      "image_rights_cleared": false
+    },
+    {
+      "claim_id": "C417-02",
+      "theme_id": "T415-01",
+      "landing_ref": "ARC413-04",
+      "evidence_ref": "ARC413-04",
+      "original_source_ids": [
+        "SRC417-02"
+      ],
+      "extra_corrob_source_ids": [],
+      "historical_claim_correction": "RESPECT_ORIENTAL_VS_EASTERN_AND_CHURCH_OF_EAST",
+      "safe_pilot_sentence_ko": "451년 칼케돈 공의회에 대한 수용 차이는 여러 정교회 전통의 역사적 분화와 관련",
+      "current_evidence_access_type": "ECUMENICAL_INSTITUTIONAL_SELF_DESCRIPTION",
+      "text_only_nonpublic_pilot_decision": "INCLUDE_WITH_CONTEXT",
+      "professional_historiography_review": "PENDING",
+      "edition_collation_status": "NOT_NEWLY_PERFORMED",
+      "claim_to_evidence_aptness": "SELECTED_WEB_EVIDENCE_CORROBORATED_SUBJECT_TO_EDITORIAL_REVIEW",
+      "external_images_embedded": false,
+      "source_full_text_copied": false,
+      "web_release_approved": false,
+      "quote_rights_cleared": false,
+      "image_rights_cleared": false
+    },
+    {
+      "claim_id": "C417-03",
+      "theme_id": "T415-06",
+      "landing_ref": "ARC413-03",
+      "evidence_ref": "ARC413-03",
+      "original_source_ids": [
+        "SRC417-05"
+      ],
+      "extra_corrob_source_ids": [],
+      "historical_claim_correction": "ROYAL_ADOPTION_NOT_WHOLE_POPULATION",
+      "safe_pilot_sentence_ko": "악숨 왕실의 기독교 수용은 4세기의 역사이며 주민 전체의 동시 개종과 구분",
+      "current_evidence_access_type": "MUSEUM_HISTORY",
+      "text_only_nonpublic_pilot_decision": "INCLUDE_WITH_CONTEXT",
+      "professional_historiography_review": "PENDING",
+      "edition_collation_status": "NOT_NEWLY_PERFORMED",
+      "claim_to_evidence_aptness": "SELECTED_WEB_EVIDENCE_CORROBORATED_SUBJECT_TO_EDITORIAL_REVIEW",
+      "external_images_embedded": false,
+      "source_full_text_copied": false,
+      "web_release_approved": false,
+      "quote_rights_cleared": false,
+      "image_rights_cleared": false
+    },
+    {
+      "claim_id": "C417-04",
+      "theme_id": "T415-06",
+      "landing_ref": "ARC413-09",
+      "evidence_ref": "ARC413-09",
+      "original_source_ids": [
+        "SRC417-03",
+        "SRC417-04"
+      ],
+      "extra_corrob_source_ids": [],
+      "historical_claim_correction": "CLAIMED_EVENT_VS_STELE_VS_PHOTOS_AND_RUBBINGS",
+      "safe_pilot_sentence_ko": "781년 경교비가 635년 중국 도착을 회고; 19세기 사진과 1920년대 탁본은 별도 증거물",
+      "current_evidence_access_type": "UNIVERSITY_AND_MUSEUM_OBJECT_METADATA",
+      "text_only_nonpublic_pilot_decision": "INCLUDE_WITH_CONTEXT",
+      "professional_historiography_review": "PENDING",
+      "edition_collation_status": "NOT_NEWLY_PERFORMED",
+      "claim_to_evidence_aptness": "SELECTED_WEB_EVIDENCE_CORROBORATED_SUBJECT_TO_EDITORIAL_REVIEW",
+      "external_images_embedded": false,
+      "source_full_text_copied": false,
+      "web_release_approved": false,
+      "quote_rights_cleared": false,
+      "image_rights_cleared": false
+    },
+    {
+      "claim_id": "C417-05",
+      "theme_id": "T415-01",
+      "landing_ref": "A414-03",
+      "evidence_ref": "A414-03",
+      "original_source_ids": [
+        "SRC417-06"
+      ],
+      "extra_corrob_source_ids": [],
+      "historical_claim_correction": "NOT_SIMPLY_MEMORIALIST",
+      "safe_pilot_sentence_ko": "위클리프는 성찬 후에도 빵의 실체가 남는다고 주장",
+      "current_evidence_access_type": "ACADEMIC_ENCYCLOPEDIA",
+      "text_only_nonpublic_pilot_decision": "INCLUDE_WITH_CONTEXT",
+      "professional_historiography_review": "PENDING",
+      "edition_collation_status": "NOT_NEWLY_PERFORMED",
+      "claim_to_evidence_aptness": "SELECTED_WEB_EVIDENCE_CORROBORATED_SUBJECT_TO_EDITORIAL_REVIEW",
+      "external_images_embedded": false,
+      "source_full_text_copied": false,
+      "web_release_approved": false,
+      "quote_rights_cleared": false,
+      "image_rights_cleared": false
+    },
+    {
+      "claim_id": "C417-06",
+      "theme_id": "T415-03",
+      "landing_ref": "A414-06",
+      "evidence_ref": "A414-05",
+      "original_source_ids": [
+        "SRC417-07"
+      ],
+      "extra_corrob_source_ids": [],
+      "historical_claim_correction": "HUS_NOT_WYCLIF_EUCHARIST",
+      "safe_pilot_sentence_ko": "후스는 위클리프의 일부 사상을 수용했으나 성찬 교리에서 실체변화를 수용",
+      "current_evidence_access_type": "CAMBRIDGE_ABSTRACT",
+      "text_only_nonpublic_pilot_decision": "INCLUDE_WITH_CONTEXT",
+      "professional_historiography_review": "PENDING",
+      "edition_collation_status": "NOT_NEWLY_PERFORMED",
+      "claim_to_evidence_aptness": "SELECTED_WEB_EVIDENCE_CORROBORATED_SUBJECT_TO_EDITORIAL_REVIEW",
+      "external_images_embedded": false,
+      "source_full_text_copied": false,
+      "web_release_approved": false,
+      "quote_rights_cleared": false,
+      "image_rights_cleared": false
+    },
+    {
+      "claim_id": "C417-07",
+      "theme_id": "T415-01",
+      "landing_ref": "A414-03",
+      "evidence_ref": "A414-05",
+      "original_source_ids": [
+        "SRC417-07"
+      ],
+      "extra_corrob_source_ids": [],
+      "historical_claim_correction": "PARTIAL_RECEPTION_NOT_DIRECT_COPY",
+      "safe_pilot_sentence_ko": "후스는 위클리프 저술에서 영향을 받았지만 별도의 보헤미아 개혁 맥락을 가졌다",
+      "current_evidence_access_type": "CAMBRIDGE_ABSTRACT",
+      "text_only_nonpublic_pilot_decision": "INCLUDE_WITH_CONTEXT",
+      "professional_historiography_review": "PENDING",
+      "edition_collation_status": "NOT_NEWLY_PERFORMED",
+      "claim_to_evidence_aptness": "SELECTED_WEB_EVIDENCE_CORROBORATED_SUBJECT_TO_EDITORIAL_REVIEW",
+      "external_images_embedded": false,
+      "source_full_text_copied": false,
+      "web_release_approved": false,
+      "quote_rights_cleared": false,
+      "image_rights_cleared": false
+    },
+    {
+      "claim_id": "C417-08",
+      "theme_id": "T415-03",
+      "landing_ref": "E408-11",
+      "evidence_ref": "E408-11",
+      "original_source_ids": [
+        "SRC417-08"
+      ],
+      "extra_corrob_source_ids": [],
+      "historical_claim_correction": "CONCORD_PARTIAL_NOT_FULL",
+      "safe_pilot_sentence_ko": "1529년 마르부르크 조항 제15조는 성찬에서 임재 방식에 완전한 합의가 없음을 기록",
+      "current_evidence_access_type": "GHDI_EDITED_SOURCE_TRANSLATION",
+      "text_only_nonpublic_pilot_decision": "INCLUDE_WITH_CONTEXT",
+      "professional_historiography_review": "PENDING",
+      "edition_collation_status": "NOT_NEWLY_PERFORMED",
+      "claim_to_evidence_aptness": "SELECTED_WEB_EVIDENCE_CORROBORATED_SUBJECT_TO_EDITORIAL_REVIEW",
+      "external_images_embedded": false,
+      "source_full_text_copied": false,
+      "web_release_approved": false,
+      "quote_rights_cleared": false,
+      "image_rights_cleared": false
+    },
+    {
+      "claim_id": "C417-09",
+      "theme_id": "T415-05",
+      "landing_ref": "A414-08",
+      "evidence_ref": "A414-08",
+      "original_source_ids": [
+        "SRC417-10",
+        "SRC417-11"
+      ],
+      "extra_corrob_source_ids": [],
+      "historical_claim_correction": "AVOID_PINPOINT_1420_WITNESS_WITHOUT_COLLATION",
+      "safe_pilot_sentence_ko": "프라하 4개조는 1420~21년의 요구·문서화 과정, 1433년 바젤 협상과 1436년 법적 공포는 다른 단계",
+      "current_evidence_access_type": "MASARYK_UNIVERSITY_ABSTRACT",
+      "text_only_nonpublic_pilot_decision": "INCLUDE_WITH_CONTEXT",
+      "professional_historiography_review": "PENDING",
+      "edition_collation_status": "NOT_NEWLY_PERFORMED",
+      "claim_to_evidence_aptness": "SELECTED_WEB_EVIDENCE_CORROBORATED_SUBJECT_TO_EDITORIAL_REVIEW",
+      "external_images_embedded": false,
+      "source_full_text_copied": false,
+      "web_release_approved": false,
+      "quote_rights_cleared": false,
+      "image_rights_cleared": false
+    },
+    {
+      "claim_id": "C417-10",
+      "theme_id": "T415-05",
+      "landing_ref": "A409-05",
+      "evidence_ref": "A409-05",
+      "original_source_ids": [
+        "SRC417-12"
+      ],
+      "extra_corrob_source_ids": [],
+      "historical_claim_correction": "NO_UNIVERSAL_PERSONAL_RIGHT",
+      "safe_pilot_sentence_ko": "1555년 아우크스부르크 화의는 특정 신앙고백·제국 정치질서의 제한적 타협",
+      "current_evidence_access_type": "GHDI_EDITED_SOURCE_TRANSLATION",
+      "text_only_nonpublic_pilot_decision": "INCLUDE_WITH_CONTEXT",
+      "professional_historiography_review": "PENDING",
+      "edition_collation_status": "NOT_NEWLY_PERFORMED",
+      "claim_to_evidence_aptness": "SELECTED_WEB_EVIDENCE_CORROBORATED_SUBJECT_TO_EDITORIAL_REVIEW",
+      "external_images_embedded": false,
+      "source_full_text_copied": false,
+      "web_release_approved": false,
+      "quote_rights_cleared": false,
+      "image_rights_cleared": false
+    },
+    {
+      "claim_id": "C417-11",
+      "theme_id": "T415-02",
+      "landing_ref": "E408-12",
+      "evidence_ref": "E408-12",
+      "original_source_ids": [
+        "SRC417-19"
+      ],
+      "extra_corrob_source_ids": [
+        "SRC418-23"
+      ],
+      "historical_claim_correction": "1531_NOT_EARLIEST_UNAUTHORIZED_PRINT",
+      "safe_pilot_sentence_ko": "1530년 제출·1531년 멜란히톤의 주요 초기 인쇄판·1540년 Variata를 구분",
+      "current_evidence_access_type": "LUTHERAN_OVERVIEW_PLUS_HISTORICAL_EDITION_REVIEW",
+      "text_only_nonpublic_pilot_decision": "HOLD_IN_EDITOR_NOTES",
+      "professional_historiography_review": "PENDING",
+      "edition_collation_status": "NOT_NEWLY_PERFORMED",
+      "claim_to_evidence_aptness": "SELECTED_WEB_EVIDENCE_CORROBORATED_SUBJECT_TO_EDITORIAL_REVIEW",
+      "external_images_embedded": false,
+      "source_full_text_copied": false,
+      "web_release_approved": false,
+      "quote_rights_cleared": false,
+      "image_rights_cleared": false
+    },
+    {
+      "claim_id": "C417-12",
+      "theme_id": "T415-03",
+      "landing_ref": "E408-11",
+      "evidence_ref": "E408-11",
+      "original_source_ids": [
+        "SRC417-09"
+      ],
+      "extra_corrob_source_ids": [],
+      "historical_claim_correction": "ONLY_PUBLIC_ACADEMIC_ABSTRACT_READ",
+      "safe_pilot_sentence_ko": "1536년 칼뱅 첫 라틴어판·1559년 최종 라틴어판·1560년 프랑스어판은 판본이 다름",
+      "current_evidence_access_type": "OXFORD_ABSTRACT_ONLY",
+      "text_only_nonpublic_pilot_decision": "HOLD_IN_EDITOR_NOTES",
+      "professional_historiography_review": "PENDING",
+      "edition_collation_status": "NOT_NEWLY_PERFORMED",
+      "claim_to_evidence_aptness": "SELECTED_WEB_EVIDENCE_CORROBORATED_SUBJECT_TO_EDITORIAL_REVIEW",
+      "external_images_embedded": false,
+      "source_full_text_copied": false,
+      "web_release_approved": false,
+      "quote_rights_cleared": false,
+      "image_rights_cleared": false
+    },
+    {
+      "claim_id": "C417-13",
+      "theme_id": "T415-02",
+      "landing_ref": "A409-02",
+      "evidence_ref": "A409-02",
+      "original_source_ids": [
+        "SRC417-18"
+      ],
+      "extra_corrob_source_ids": [],
+      "historical_claim_correction": "MODERN_TRANSLATION_NOT_ORIGINAL_LATIN_WITNESS",
+      "safe_pilot_sentence_ko": "1547년 트리엔트 공의회 제6회기에 칭의 교령이 포함",
+      "current_evidence_access_type": "POSTERIOR_TRANSLATION",
+      "text_only_nonpublic_pilot_decision": "INCLUDE_WITH_CONTEXT",
+      "professional_historiography_review": "PENDING",
+      "edition_collation_status": "NOT_NEWLY_PERFORMED",
+      "claim_to_evidence_aptness": "SELECTED_WEB_EVIDENCE_CORROBORATED_SUBJECT_TO_EDITORIAL_REVIEW",
+      "external_images_embedded": false,
+      "source_full_text_copied": false,
+      "web_release_approved": false,
+      "quote_rights_cleared": false,
+      "image_rights_cleared": false
+    },
+    {
+      "claim_id": "C417-14",
+      "theme_id": "T415-06",
+      "landing_ref": "ARC412-02",
+      "evidence_ref": "ARC412-02",
+      "original_source_ids": [
+        "SRC417-13",
+        "SRC417-14"
+      ],
+      "extra_corrob_source_ids": [],
+      "historical_claim_correction": "ARRIVAL_NOT_FINISHED_BIBLE_TRANSLATION",
+      "safe_pilot_sentence_ko": "치겐발크는 1706년 트랑케바르에 도착하여 현지인의 도움으로 타밀어를 학습",
+      "current_evidence_access_type": "ARCHIVE_METADATA_PLUS_UNIVERSITY_HISTORY",
+      "text_only_nonpublic_pilot_decision": "INCLUDE_WITH_CONTEXT",
+      "professional_historiography_review": "PENDING",
+      "edition_collation_status": "NOT_NEWLY_PERFORMED",
+      "claim_to_evidence_aptness": "SELECTED_WEB_EVIDENCE_CORROBORATED_SUBJECT_TO_EDITORIAL_REVIEW",
+      "external_images_embedded": false,
+      "source_full_text_copied": false,
+      "web_release_approved": false,
+      "quote_rights_cleared": false,
+      "image_rights_cleared": false
+    },
+    {
+      "claim_id": "C417-15",
+      "theme_id": "T415-06",
+      "landing_ref": "A410-08",
+      "evidence_ref": "A410-07",
+      "original_source_ids": [
+        "SRC417-15"
+      ],
+      "extra_corrob_source_ids": [],
+      "historical_claim_correction": "1784_AS_CONVENTIONAL_REFERENCE_WITH_ORIGIN_DEBATES",
+      "safe_pilot_sentence_ko": "조선 천주교 공동체의 18세기 형성은 19세기 개신교 성경 번역보다 앞섰으며 1784년 기원서술에도 학술 논쟁이 있음",
+      "current_evidence_access_type": "KCI_2024_ABSTRACT",
+      "text_only_nonpublic_pilot_decision": "INCLUDE_WITH_CONTEXT",
+      "professional_historiography_review": "PENDING",
+      "edition_collation_status": "NOT_NEWLY_PERFORMED",
+      "claim_to_evidence_aptness": "SELECTED_WEB_EVIDENCE_CORROBORATED_SUBJECT_TO_EDITORIAL_REVIEW",
+      "external_images_embedded": false,
+      "source_full_text_copied": false,
+      "web_release_approved": false,
+      "quote_rights_cleared": false,
+      "image_rights_cleared": false
+    },
+    {
+      "claim_id": "C417-16",
+      "theme_id": "T415-06",
+      "landing_ref": "A410-08",
+      "evidence_ref": "A410-08",
+      "original_source_ids": [
+        "SRC417-16"
+      ],
+      "extra_corrob_source_ids": [],
+      "historical_claim_correction": "SEPARATE_BOOK_OBJECT",
+      "safe_pilot_sentence_ko": "1882년 대한성서공회 고본은 개별 한글 복음서이며 신약전서 전체가 아님",
+      "current_evidence_access_type": "KOREAN_BIBLE_SOCIETY_CATALOG",
+      "text_only_nonpublic_pilot_decision": "INCLUDE_WITH_CONTEXT",
+      "professional_historiography_review": "PENDING",
+      "edition_collation_status": "NOT_NEWLY_PERFORMED",
+      "claim_to_evidence_aptness": "SELECTED_WEB_EVIDENCE_CORROBORATED_SUBJECT_TO_EDITORIAL_REVIEW",
+      "external_images_embedded": false,
+      "source_full_text_copied": false,
+      "web_release_approved": false,
+      "quote_rights_cleared": false,
+      "image_rights_cleared": false
+    },
+    {
+      "claim_id": "C417-17",
+      "theme_id": "T415-06",
+      "landing_ref": "A410-08",
+      "evidence_ref": "A410-08",
+      "original_source_ids": [
+        "SRC417-16",
+        "SRC417-17"
+      ],
+      "extra_corrob_source_ids": [],
+      "historical_claim_correction": "1887_FULL_NEW_TESTAMENT",
+      "safe_pilot_sentence_ko": "1887년 『예수셩교젼셔』는 한국어 신약전서",
+      "current_evidence_access_type": "KOREAN_BIBLE_SOCIETY_AND_HERITAGE",
+      "text_only_nonpublic_pilot_decision": "INCLUDE_WITH_CONTEXT",
+      "professional_historiography_review": "PENDING",
+      "edition_collation_status": "NOT_NEWLY_PERFORMED",
+      "claim_to_evidence_aptness": "SELECTED_WEB_EVIDENCE_CORROBORATED_SUBJECT_TO_EDITORIAL_REVIEW",
+      "external_images_embedded": false,
+      "source_full_text_copied": false,
+      "web_release_approved": false,
+      "quote_rights_cleared": false,
+      "image_rights_cleared": false
+    },
+    {
+      "claim_id": "C417-18",
+      "theme_id": "T415-04",
+      "landing_ref": "A414-01",
+      "evidence_ref": "A414-02",
+      "original_source_ids": [
+        "SRC417-20"
+      ],
+      "extra_corrob_source_ids": [],
+      "historical_claim_correction": "LATER_LABEL_NOT_CONTEMPORARY_NAME",
+      "safe_pilot_sentence_ko": "1532년 왈도파 앙그로냐 논의를 후대가 1847년 '찬포란 시노드'로 명명",
+      "current_evidence_access_type": "WALDENSIAN_DENOMINATIONAL_STUDY",
+      "text_only_nonpublic_pilot_decision": "HOLD_IN_EDITOR_NOTES",
+      "professional_historiography_review": "PENDING",
+      "edition_collation_status": "NOT_NEWLY_PERFORMED",
+      "claim_to_evidence_aptness": "SELECTED_WEB_EVIDENCE_CORROBORATED_SUBJECT_TO_EDITORIAL_REVIEW",
+      "external_images_embedded": false,
+      "source_full_text_copied": false,
+      "web_release_approved": false,
+      "quote_rights_cleared": false,
+      "image_rights_cleared": false
+    },
+    {
+      "claim_id": "C417-19",
+      "theme_id": "T415-05",
+      "landing_ref": "ARC413-12",
+      "evidence_ref": "ARC413-12",
+      "original_source_ids": [],
+      "extra_corrob_source_ids": [
+        "SRC418-21",
+        "SRC418-22"
+      ],
+      "historical_claim_correction": "LONG_PROCESS_NOT_ONE_DAY_SCHISM",
+      "safe_pilot_sentence_ko": "1054년의 충돌과 1204년 제4차 십자군의 콘스탄티노폴리스 약탈은 동서 교회 관계의 서로 다른 단계",
+      "current_evidence_access_type": "OXFORD_HISTORICAL_BOOK_ABSTRACTS",
+      "text_only_nonpublic_pilot_decision": "INCLUDE_WITH_CONTEXT",
+      "professional_historiography_review": "PENDING",
+      "edition_collation_status": "NOT_NEWLY_PERFORMED",
+      "claim_to_evidence_aptness": "SELECTED_WEB_EVIDENCE_CORROBORATED_SUBJECT_TO_EDITORIAL_REVIEW",
+      "external_images_embedded": false,
+      "source_full_text_copied": false,
+      "web_release_approved": false,
+      "quote_rights_cleared": false,
+      "image_rights_cleared": false
+    },
+    {
+      "claim_id": "C417-20",
+      "theme_id": "T415-04",
+      "landing_ref": "A410-08",
+      "evidence_ref": "A410-08",
+      "original_source_ids": [
+        "SRC417-16",
+        "SRC417-17"
+      ],
+      "extra_corrob_source_ids": [],
+      "historical_claim_correction": "KOREAN_AGENCY_AND_MULTI_TRANSLATOR_NETWORK",
+      "safe_pilot_sentence_ko": "1887년 한글 신약전서 번역에는 로스·매킨타이어와 이응찬·백홍준·서상륜 등 한국인이 참여",
+      "current_evidence_access_type": "HERITAGE_AND_BIBLE_SOCIETY_CATALOG",
+      "text_only_nonpublic_pilot_decision": "INCLUDE_WITH_CONTEXT",
+      "professional_historiography_review": "PENDING",
+      "edition_collation_status": "NOT_NEWLY_PERFORMED",
+      "claim_to_evidence_aptness": "SELECTED_WEB_EVIDENCE_CORROBORATED_SUBJECT_TO_EDITORIAL_REVIEW",
+      "external_images_embedded": false,
+      "source_full_text_copied": false,
+      "web_release_approved": false,
+      "quote_rights_cleared": false,
+      "image_rights_cleared": false
+    }
+  ],
+  "witnesses": [
+    {
+      "id": "W418-01",
+      "topic": "Nestorian Stele",
+      "historical_event_claim_year": 635,
+      "source_object_creation_year": 781,
+      "source_object_type": "ANCIENT_STONE_INSCRIPTION",
+      "interpretation": "EVENT_REPORTED_RETROSPECTIVELY",
+      "reuse_rights": "TEXT_FACT_ONLY_NO_IMAGE_COPY",
+      "source_ids": [
+        "SRC417-03",
+        "SRC417-04"
+      ]
+    },
+    {
+      "id": "W418-02",
+      "topic": "Penn Museum 19122",
+      "historical_event_claim_year": 635,
+      "source_object_creation_year": "19th century",
+      "source_object_type": "PHOTOGRAPHIC_PRINT_OF_ANCIENT_STELE",
+      "interpretation": "NOT_ANCIENT_PRIMARY_WITNESS",
+      "reuse_rights": "PERMISSION_NOT_OBTAINED",
+      "source_ids": [
+        "SRC417-04"
+      ]
+    },
+    {
+      "id": "W418-03",
+      "topic": "Birmingham rubbing photo",
+      "historical_event_claim_year": 635,
+      "source_object_creation_year": "2008 composite of 1920s rubbing",
+      "source_object_type": "LATER_RUBBING_AND_DIGITAL_COMPOSITE",
+      "interpretation": "NOT_ORIGINAL_781_MONUMENT",
+      "reuse_rights": "PERMISSION_NOT_OBTAINED",
+      "source_ids": [
+        "SRC417-03"
+      ]
+    },
+    {
+      "id": "W418-04",
+      "topic": "Augsburg Confession",
+      "events": [
+        {
+          "year": 1530,
+          "type": "DIET_PRESENTATION"
+        },
+        {
+          "year": 1531,
+          "type": "MELANCHTHON_EARLY_AUTHORIZED_PRINT"
+        },
+        {
+          "year": 1540,
+          "type": "VARIATA_REVISED_EDITION"
+        }
+      ],
+      "note": "1531 not first-ever printing; some unauthorized printings appeared at the Diet",
+      "source_ids": [
+        "SRC417-19",
+        "SRC418-23"
+      ]
+    },
+    {
+      "id": "W418-05",
+      "topic": "Calvin Institutes",
+      "events": [
+        {
+          "year": 1536,
+          "type": "FIRST_LATIN_EDITION"
+        },
+        {
+          "year": 1559,
+          "type": "LAST_LATIN_EDITION"
+        },
+        {
+          "year": 1560,
+          "type": "FRENCH_FINAL_EDITION"
+        }
+      ],
+      "note": "Oxford abstract; primary edition collation pending",
+      "source_ids": [
+        "SRC417-09"
+      ]
+    },
+    {
+      "id": "W418-06",
+      "topic": "Korean Gospels and NT",
+      "events": [
+        {
+          "year": 1882,
+          "work": "예수셩교누가복음젼셔",
+          "type": "SEPARATE_GOSPEL_BOOK"
+        },
+        {
+          "year": 1882,
+          "work": "예수셩교요안ᄂᆞㅣ복음젼셔",
+          "type": "SEPARATE_GOSPEL_BOOK"
+        },
+        {
+          "year": 1887,
+          "work": "예수셩교젼셔",
+          "type": "COMPLETE_KOREAN_NEW_TESTAMENT"
+        }
+      ],
+      "note": "Do not derive present-day translation rights from historical book age",
+      "source_ids": [
+        "SRC417-16",
+        "SRC417-17"
+      ]
+    },
+    {
+      "id": "W418-07",
+      "topic": "Church council chronology",
+      "events": [
+        {
+          "year": 325,
+          "type": "NICAEA_COUNCIL"
+        },
+        {
+          "year": 381,
+          "type": "CONSTANTINOPLE_COUNCIL"
+        },
+        {
+          "year": 451,
+          "type": "CHALCEDON_COUNCIL"
+        }
+      ],
+      "note": "Do not label 381 as a simple Nicaea reception date; regional reception separately tracked",
+      "source_ids": [
+        "SRC417-01",
+        "SRC417-02"
+      ]
+    },
+    {
+      "id": "W418-08",
+      "topic": "Bohemian reform",
+      "events": [
+        {
+          "years": "1420-1421",
+          "type": "ARTICLES_DEVELOPMENT_AND_PROMULGATION"
+        },
+        {
+          "year": 1433,
+          "type": "BASEL_NEGOTIATIONS"
+        },
+        {
+          "year": 1436,
+          "type": "JIHLAVA_LEGAL_PROMULGATION"
+        }
+      ],
+      "note": "Article text witnesses and legal phases not collapsed",
+      "source_ids": [
+        "SRC417-10",
+        "SRC417-11"
+      ]
+    },
+    {
+      "id": "W418-09",
+      "topic": "East-West church relationship",
+      "events": [
+        {
+          "year": 1054,
+          "type": "SYMBOLIC_CLASH_AND_EXCOMMUNICATIONS"
+        },
+        {
+          "year": 1204,
+          "type": "FOURTH_CRUSADE_SACK"
+        }
+      ],
+      "note": "Slow historical process; Oxford chapter summary supports interpreting 1204 as watershed",
+      "source_ids": [
+        "SRC418-21",
+        "SRC418-22"
+      ]
+    }
+  ],
+  "asset_rights_ledger": [
+    {
+      "id": "A418-01",
+      "asset": "Penn Museum 19122 photograph",
+      "source_ids": [
+        "SRC417-04"
+      ],
+      "asset_class": "PHOTOGRAPHIC_PRINT_DIGITAL_IMAGE",
+      "rights_page": "https://www.penn.museum/about-collections/rights-and-permissions",
+      "permission_provided_to_atlas": false,
+      "reuse_action": "LINK_ONLY_NO_EMBED"
+    },
+    {
+      "id": "A418-02",
+      "asset": "Birmingham 1920s stele rubbing 2008 photograph",
+      "source_ids": [
+        "SRC417-03"
+      ],
+      "asset_class": "DIGITAL_COMPOSITE_OF_HISTORICAL_RUBBING",
+      "rights_page": "https://epapers.bham.ac.uk/id/eprint/755/",
+      "permission_provided_to_atlas": false,
+      "reuse_action": "LINK_ONLY_NO_EMBED"
+    },
+    {
+      "id": "A418-03",
+      "asset": "Korean Bible Society old Bible facsimiles",
+      "source_ids": [
+        "SRC417-16"
+      ],
+      "asset_class": "DIGITAL_IMAGES_OF_1882_1887_BOOKS",
+      "rights_page": "https://www.bskorea.or.kr/bbs/content.php?co_id=subpage2_3_4_1",
+      "permission_provided_to_atlas": false,
+      "reuse_action": "LINK_ONLY_NO_EMBED"
+    },
+    {
+      "id": "A418-04",
+      "asset": "Korean modern copyrighted translations",
+      "source_ids": [
+        "SRC417-16"
+      ],
+      "asset_class": "MODERN_TRANSLATED_TEXT",
+      "rights_page": "https://www.bskorea.or.kr/bbs/content.php?co_id=subpage2_3_4_1",
+      "permission_provided_to_atlas": false,
+      "reuse_action": "NO_SUBSTANTIAL_REPRODUCTION"
+    },
+    {
+      "id": "A418-05",
+      "asset": "Francke 1706 Ziegenbalg letter scan",
+      "source_ids": [
+        "SRC417-13"
+      ],
+      "asset_class": "ARCHIVAL_DIGITIZED_DOCUMENT",
+      "rights_page": "https://digital.francke-halle.de/mod5a/content/titleinfo/1220645",
+      "permission_provided_to_atlas": false,
+      "reuse_action": "CATALOG_LINK_ONLY"
+    },
+    {
+      "id": "A418-06",
+      "asset": "GHDI modern English translations of primary documents",
+      "source_ids": [
+        "SRC417-08",
+        "SRC417-12"
+      ],
+      "asset_class": "MODERN_EDITED_SOURCE_TRANSLATION",
+      "rights_page": "https://germanhistorydocs.org",
+      "permission_provided_to_atlas": false,
+      "reuse_action": "SHORT_ORIGINAL_KOREAN_SUMMARY_AND_LINK_ONLY"
+    },
+    {
+      "id": "A418-07",
+      "asset": "Cambridge and Oxford paid academic article/chapter",
+      "source_ids": [
+        "SRC417-07",
+        "SRC417-09",
+        "SRC417-11"
+      ],
+      "asset_class": "MODERN_COPYRIGHTED_SCHOLARSHIP",
+      "rights_page": null,
+      "permission_provided_to_atlas": false,
+      "reuse_action": "METADATA_CITATION_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "A418-08",
+      "asset": "Self-authored V418 Korean text",
+      "source_ids": [],
+      "asset_class": "ORIGINAL_EDITORIAL_PARAPHRASE",
+      "rights_page": null,
+      "permission_provided_to_atlas": true,
+      "reuse_action": "NONPUBLIC_READER_TEST_TEXT_ONLY_AFTER_HISTORICAL_REVIEW"
+    }
+  ],
+  "nonpublic_reader_journey": [
+    {
+      "stage": "P418-01",
+      "range": "0–1 min",
+      "core_claim_ids": [
+        "C417-03"
+      ],
+      "purpose": "Early African church and global setting"
+    },
+    {
+      "stage": "P418-02",
+      "range": "1–3 min",
+      "core_claim_ids": [
+        "C417-01",
+        "C417-02",
+        "C417-05",
+        "C417-06",
+        "C417-07"
+      ],
+      "purpose": "Authority, distinct councils, and influence vs sameness"
+    },
+    {
+      "stage": "P418-03",
+      "range": "3–5 min",
+      "core_claim_ids": [
+        "C417-08"
+      ],
+      "purpose": "Marburg theological disagreement"
+    },
+    {
+      "stage": "P418-04",
+      "range": "5–7 min",
+      "core_claim_ids": [
+        "C417-09",
+        "C417-10"
+      ],
+      "purpose": "Political and legal limitations"
+    },
+    {
+      "stage": "P418-05",
+      "range": "7–9 min",
+      "core_claim_ids": [
+        "C417-04",
+        "C417-14",
+        "C417-15",
+        "C417-16",
+        "C417-17",
+        "C417-20"
+      ],
+      "purpose": "Translation and local agency"
+    },
+    {
+      "stage": "P418-06",
+      "range": "9–10 min",
+      "core_claim_ids": [],
+      "purpose": "Summary and reader questions"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G418-01",
+      "name": "Claim evidence overlay internally valid",
+      "status": "PASS"
+    },
+    {
+      "id": "G418-02",
+      "name": "Twenty claims dispositioned, 17 usable for private text pilot",
+      "status": "PASS"
+    },
+    {
+      "id": "G418-03",
+      "name": "Historical edition and photo time-types separated in data",
+      "status": "PASS"
+    },
+    {
+      "id": "G418-04",
+      "name": "Image and full text rights positively cleared",
+      "status": "BLOCKED"
+    },
+    {
+      "id": "G418-05",
+      "name": "Historian and denominational expert edited",
+      "status": "BLOCKED"
+    },
+    {
+      "id": "G418-06",
+      "name": "Five actual independent readers, recorded comprehension",
+      "status": "NOT_PERFORMED"
+    },
+    {
+      "id": "G418-07",
+      "name": "App staging and accessibility E2E",
+      "status": "NOT_PERFORMED"
+    },
+    {
+      "id": "G418-08",
+      "name": "Owner explicitly approves publication",
+      "status": "BLOCKED"
+    }
+  ],
+  "release": {
+    "can_ship": false,
+    "private_text_pilot_material_prepared": true,
+    "actual_pilot_test_conducted": false,
+    "independent_historian_signoff": false,
+    "license_clearance_completed": false,
+    "external_image_files_copied": false,
+    "external_texts_republished": false,
+    "AI_Studio_staging_tested": false,
+    "AI_Studio_modified": false,
+    "main_merged": false,
+    "original_513_modified": false
+  },
+  "validation": {
+    "claim_total": 20,
+    "conditional_private_text_count": 17,
+    "held_text_count": 3,
+    "source_register_entries": 23,
+    "existing_v417_sources": 20,
+    "additional_audit_sources": 3,
+    "evidence_objects": 9,
+    "asset_rights_records": 8,
+    "pilot_stages": 6,
+    "errors": []
+  },
+  "next": {
+    "version": "V4.19",
+    "task": "Freeze 10-minute nonpublic text pilot with scoring and misunderstanding log; obtain human historian and rights review, not auto release"
+  }
+}
