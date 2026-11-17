@@ -1,0 +1,502 @@
+{
+  "version": "V4.21",
+  "date": "2026-11-17",
+  "level": "L0",
+  "branch": "research/atlas-v421-high-risk-historical-source-adjudication-l0",
+  "parent_branch": "research/atlas-v420-substantive-editorial-corrections-l0",
+  "status": "SOURCE_GROUNDED_EDITORIAL_ADJUDICATION_WITH_OPEN_HUMAN_REVIEW_GATES",
+  "documents": {
+    "participant_reader": {
+      "path": "docs/01_CONTENT/OVERVIEW/V421_EIGHT_VOLUME_READER_EVIDENCE_REVISED_KO.md",
+      "verified_blob_sha": "c91cc27cdfaa69e04b3f2fa25018d38510184d36",
+      "length_characters": 4958
+    },
+    "historical_review_memo": {
+      "path": "research/V421_HIGH_RISK_HISTORICAL_SOURCE_REVIEW_KO.md",
+      "verified_blob_sha": "172fd14701ca53756f3de3e95a65f3d8da52e44d",
+      "length_characters": 7235
+    },
+    "v420_source": {
+      "path": "research/data/V4_20_L0_FACTCHECK_EDITORIAL_CORRECTIONS_DRAFT.json",
+      "verified_blob_sha": "3b35ca5813fe3562b12b6693fe938ee692d100f7"
+    },
+    "v418_source": {
+      "path": "research/data/V4_18_P0_CLAIM_EDITION_RIGHTS_PILOT_FREEZE_DRAFT.json",
+      "verified_blob_sha": "6a664981bc4a32372517fdf0917f5ad307549e99"
+    }
+  },
+  "scope": {
+    "v418_total_claims": 20,
+    "previously_accepted_claims": [
+      "C417-01",
+      "C417-02",
+      "C417-03",
+      "C417-04",
+      "C417-05",
+      "C417-06",
+      "C417-07",
+      "C417-08",
+      "C417-09",
+      "C417-10",
+      "C417-13",
+      "C417-14",
+      "C417-15",
+      "C417-16",
+      "C417-17",
+      "C417-19",
+      "C417-20"
+    ],
+    "held_out": [
+      "C417-11",
+      "C417-12",
+      "C417-18"
+    ],
+    "high_risk_issue_groups": 6,
+    "edits_in_participant_copy": 8,
+    "original_six_chapters_preserved": true
+  },
+  "claim_adjudications": [
+    {
+      "id": "ADJ421-01",
+      "name": "Wyclif/Hus sacramental contrasts",
+      "claim_ids": [
+        "C417-05",
+        "C417-06",
+        "C417-07"
+      ],
+      "source_ids": [
+        "SRC421-01",
+        "SRC421-02"
+      ],
+      "conclusion": "PRECISE_L0_SAFE_WITH_QUALIFIER",
+      "new_text_rule": "Wyclif remanence without denying spiritual sacramental presence; Hus retained transubstantiation; influence not equivalence",
+      "reader_revision_tag": "R421-02",
+      "scholarly_remaining": "Direct critical text comparison of De eucharistia and Hus original witnesses",
+      "expert_signoff": false
+    },
+    {
+      "id": "ADJ421-02",
+      "name": "Four Articles 1420, Čáslav 1421, Basel/Compactata",
+      "claim_ids": [
+        "C417-09"
+      ],
+      "source_ids": [
+        "SRC421-15"
+      ],
+      "conclusion": "INHERITED_WITH_SECONDARY_CROSSCHECK",
+      "new_text_rule": "Four Articles formulated/promulgated in 1420; later 1421 Čáslav political legal stage; distinguish 1433 and 1436",
+      "reader_revision_tag": "R421-03",
+      "scholarly_remaining": "Collation of primary Hussite texts and compactata legal witnesses; precise Čáslav formulations",
+      "expert_signoff": false
+    },
+    {
+      "id": "ADJ421-03",
+      "name": "1555 limited mobility",
+      "claim_ids": [
+        "C417-10"
+      ],
+      "source_ids": [
+        "SRC421-11",
+        "SRC421-12"
+      ],
+      "conclusion": "HISTORICAL_TRANSLATED_LAW_SUPERSEDES_BINARY",
+      "new_text_rule": "Limited emigration rights under tax/property/serf restrictions; not modern universal individual freedom",
+      "reader_revision_tag": "R421-04",
+      "scholarly_remaining": "Edition and German Latin legal wording not newly checked; editor historical legal peer review",
+      "expert_signoff": false
+    },
+    {
+      "id": "ADJ421-04",
+      "name": "Tamil partial/complete New Testament printing dates",
+      "claim_ids": [
+        "C417-14"
+      ],
+      "source_ids": [
+        "SRC421-03",
+        "SRC421-04",
+        "SRC421-05",
+        "SRC421-06",
+        "SRC421-07"
+      ],
+      "conclusion": "RECONCILED_STAGED_PRINTING_WITH_METADATA_DISAGREEMENT",
+      "new_text_rule": "1706 missionary arrival; 1714 four Gospels and Acts as first printed part; 1715 remaining books / full NT; distinguish aggregate shorthand 1714",
+      "reader_revision_tag": "R421-05",
+      "scholarly_remaining": "Collate specific physical books at King's College and other libraries and calendar/imprint meaning; scholarly Springer chapter uses 1714 aggregate",
+      "expert_signoff": false
+    },
+    {
+      "id": "ADJ421-05",
+      "name": "1779 vs 1784 Korean Catholic origins",
+      "claim_ids": [
+        "C417-15"
+      ],
+      "source_ids": [
+        "SRC421-08",
+        "SRC421-09",
+        "SRC421-10"
+      ],
+      "conclusion": "HISTORIOGRAPHIC_DISAGREEMENT_EXPLICIT_NOT_EQUATED",
+      "new_text_rule": "1784 baptism and returned Korean-led community is standard marker; do not assert 1779 scholarly gathering definitively a Catholic institution",
+      "reader_revision_tag": "R421-06",
+      "scholarly_remaining": "Textual study of 1779 study meeting and 1784 first-community witnesses needed; 2012 and 2024 arguments distinguish",
+      "expert_signoff": false
+    },
+    {
+      "id": "ADJ421-06",
+      "name": "1882 vs 1887 vs 1911 Korean Bible publishing",
+      "claim_ids": [
+        "C417-16",
+        "C417-17",
+        "C417-20"
+      ],
+      "source_ids": [
+        "SRC421-13",
+        "SRC421-14",
+        "SRC421-16"
+      ],
+      "conclusion": "BOOK_LEVEL_EDITION_CATEGORIES_SEPARATED",
+      "new_text_rule": "1882 separate Gospels, 1887 Korean NT, 1911 first whole Protestant Korean Bible; do not erase Catholic track or confuse modern revised Korean translations",
+      "reader_revision_tag": "R421-07",
+      "scholarly_remaining": "Specific book titles, translation team roles and authority/unauthorized publication editions need further L2 research",
+      "expert_signoff": false
+    }
+  ],
+  "source_registry": [
+    {
+      "id": "SRC421-01",
+      "title": "Stanford Encyclopedia of Philosophy: John Wyclif",
+      "url": "https://plato.stanford.edu/entries/wyclif/",
+      "evidence_class": "ACADEMIC_PUBLIC_ENTRY",
+      "access_scope": "FULL_RELEVANT_SECTION_PUBLIC",
+      "claim_ids": [
+        "C417-05",
+        "C417-06"
+      ],
+      "support_scope": "Wyclif affirms continued substance of bread alongside spiritual sacramental presence; does not deny all presence",
+      "full_paywalled_work_reviewed": false,
+      "original_material_witness_collated_in_this_version": false,
+      "external_images_reused": false,
+      "translation_or_full_work_reproduction_rights": false
+    },
+    {
+      "id": "SRC421-02",
+      "title": "William R. Cook: John Wyclif and Hussite Theology 1415–1436",
+      "url": "https://www.cambridge.org/core/journals/church-history/article/abs/john-wyclif-and-hussite-theology-14151436/54C10C6F7EEFB5409E2291C9F4194ABF",
+      "evidence_class": "SCHOLARLY_JOURNAL",
+      "access_scope": "PUBLIC_EXTRACT_ONLY",
+      "claim_ids": [
+        "C417-05",
+        "C417-06",
+        "C417-07"
+      ],
+      "support_scope": "Hus received Wyclif selectively but accepted transubstantiation; not identical Eucharist",
+      "full_paywalled_work_reviewed": false,
+      "original_material_witness_collated_in_this_version": false,
+      "external_images_reused": false,
+      "translation_or_full_work_reproduction_rights": false
+    },
+    {
+      "id": "SRC421-03",
+      "title": "Digital Bible Society: Ziegenbalg Tamil Bible portions",
+      "url": "https://arc.dbs.org/data/scripture/TAMZTB/index.html",
+      "evidence_class": "BIBLIOGRAPHIC_DATASET",
+      "access_scope": "PUBLIC_RECORD",
+      "claim_ids": [
+        "C417-14"
+      ],
+      "support_scope": "1714 four Gospels and Acts, not full NT claim",
+      "full_paywalled_work_reviewed": false,
+      "original_material_witness_collated_in_this_version": false,
+      "external_images_reused": false,
+      "translation_or_full_work_reproduction_rights": false
+    },
+    {
+      "id": "SRC421-04",
+      "title": "Tamil Virtual University: The Contribution of European Scholars p75",
+      "url": "https://tamilvu.org/slet/l4330/l4330pd1.jsp?bookid=266&pno=75",
+      "evidence_class": "PUBLIC_HISTORICAL_STUDY",
+      "access_scope": "PUBLIC_EXCERPT",
+      "claim_ids": [
+        "C417-14"
+      ],
+      "support_scope": "1714 first portion, following year remainder; manuscript/printing distinct",
+      "full_paywalled_work_reviewed": false,
+      "original_material_witness_collated_in_this_version": false,
+      "external_images_reused": false,
+      "translation_or_full_work_reproduction_rights": false
+    },
+    {
+      "id": "SRC421-05",
+      "title": "German History Intersections: Tamil Bible Translation 1715",
+      "url": "https://germanhistory-intersections.org/en/migration/ghis:image-174",
+      "evidence_class": "HISTORICAL_OBJECT_CATALOG",
+      "access_scope": "PUBLIC_TITLE_PAGE_METADATA_NOT_FACSIMILE_REUSE",
+      "claim_ids": [
+        "C417-14"
+      ],
+      "support_scope": "1715 NT title page Marsden Collection King's College London R4/7",
+      "full_paywalled_work_reviewed": false,
+      "original_material_witness_collated_in_this_version": false,
+      "external_images_reused": false,
+      "translation_or_full_work_reproduction_rights": false
+    },
+    {
+      "id": "SRC421-06",
+      "title": "King's College London library collections: Ziegenbalg acquisitions",
+      "url": "https://blogs.kcl.ac.uk/kingscollections/2016/02/10/new-acquisitions-from-the-foyle-special-collections-library/",
+      "evidence_class": "LIBRARY_COLLECTION_BLOG",
+      "access_scope": "SEARCH_SNIPPET_ONLY_FETCH_TIMED_OUT",
+      "claim_ids": [
+        "C417-14"
+      ],
+      "support_scope": "1715 printed New Testament in college collection; direct page timed out",
+      "full_paywalled_work_reviewed": false,
+      "original_material_witness_collated_in_this_version": false,
+      "external_images_reused": false,
+      "translation_or_full_work_reproduction_rights": false
+    },
+    {
+      "id": "SRC421-07",
+      "title": "Springer: Protestant translation policies c. 1714",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-662-67339-3_13",
+      "evidence_class": "ACADEMIC_BOOK_CHAPTER",
+      "access_scope": "PUBLIC_SUMMARY_ONLY",
+      "claim_ids": [
+        "C417-14"
+      ],
+      "support_scope": "Says Tamil NT printed in 1714 in aggregate; compare staged printing vs final 1715 instead of claiming outright error",
+      "full_paywalled_work_reviewed": false,
+      "original_material_witness_collated_in_this_version": false,
+      "external_images_reused": false,
+      "translation_or_full_work_reproduction_rights": false
+    },
+    {
+      "id": "SRC421-08",
+      "title": "Hohyun Nam 2024: Origins of Korean Catholic Church debates",
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003153946",
+      "evidence_class": "PEER_REVIEWED_ARTICLE",
+      "access_scope": "PUBLIC_ABSTRACT_ONLY",
+      "claim_ids": [
+        "C417-15"
+      ],
+      "support_scope": "1784 traditional foundation; earlier origin claims including 1779 are contested",
+      "full_paywalled_work_reviewed": false,
+      "original_material_witness_collated_in_this_version": false,
+      "external_images_reused": false,
+      "translation_or_full_work_reproduction_rights": false
+    },
+    {
+      "id": "SRC421-09",
+      "title": "Don Baker 2012: Korean Catholic Church First Hundred Years",
+      "url": "https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART001667406",
+      "evidence_class": "ACADEMIC_ARTICLE",
+      "access_scope": "PUBLIC_FULL_TEXT_XML_INTRO",
+      "claim_ids": [
+        "C417-15"
+      ],
+      "support_scope": "Questions 1779 meeting as confessional foundation and describes Confucian curriculum",
+      "full_paywalled_work_reviewed": false,
+      "original_material_witness_collated_in_this_version": false,
+      "external_images_reused": false,
+      "translation_or_full_work_reproduction_rights": false
+    },
+    {
+      "id": "SRC421-10",
+      "title": "Franklin Rausch: Catholic Christianity in Korean History (Oxford)",
+      "url": "https://academic.oup.com/edited-volume/61799/chapter-abstract/546290972",
+      "evidence_class": "ACADEMIC_REFERENCE",
+      "access_scope": "PUBLIC_ABSTRACT_ONLY",
+      "claim_ids": [
+        "C417-15"
+      ],
+      "support_scope": "Frames 1784 establishment; not exhaustive for alternative 1779 hypotheses",
+      "full_paywalled_work_reviewed": false,
+      "original_material_witness_collated_in_this_version": false,
+      "external_images_reused": false,
+      "translation_or_full_work_reproduction_rights": false
+    },
+    {
+      "id": "SRC421-11",
+      "title": "GHDI: Religious Peace of Augsburg 1555",
+      "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/ghdi%3Adocument-4386",
+      "evidence_class": "EDITED_HISTORICAL_PRIMARY_TRANSLATION",
+      "access_scope": "PUBLIC_EDITED_TRANSLATION",
+      "claim_ids": [
+        "C417-10"
+      ],
+      "support_scope": "Paragraph 24 conditional right to emigrate, taxes and servile obligations",
+      "full_paywalled_work_reviewed": false,
+      "original_material_witness_collated_in_this_version": false,
+      "external_images_reused": false,
+      "translation_or_full_work_reproduction_rights": false
+    },
+    {
+      "id": "SRC421-12",
+      "title": "German History Intersections: Ius emigrandi 1555",
+      "url": "https://germanhistory-intersections.org/en/migration/ghis:document-58",
+      "evidence_class": "EDITED_HISTORICAL_PRIMARY_TRANSLATION",
+      "access_scope": "PUBLIC_EXCERPT_AND_EDITOR_INTRO",
+      "claim_ids": [
+        "C417-10"
+      ],
+      "support_scope": "Serfs/servants constrained; Catholic and Lutheran choices; difference from universal freedom",
+      "full_paywalled_work_reviewed": false,
+      "original_material_witness_collated_in_this_version": false,
+      "external_images_reused": false,
+      "translation_or_full_work_reproduction_rights": false
+    },
+    {
+      "id": "SRC421-13",
+      "title": "Korean Bible Society: Korean translation 1911 and revisions",
+      "url": "https://www.bskorea.or.kr/prog/trans_feature2.php?device=pc",
+      "evidence_class": "INSTITUTIONAL_EDITION_HISTORY",
+      "access_scope": "PUBLIC_PAGE",
+      "claim_ids": [
+        "C417-16",
+        "C417-17",
+        "C417-20"
+      ],
+      "support_scope": "1911 whole Protestant Bible and subsequent revised editions 1938/1961",
+      "full_paywalled_work_reviewed": false,
+      "original_material_witness_collated_in_this_version": false,
+      "external_images_reused": false,
+      "translation_or_full_work_reproduction_rights": false
+    },
+    {
+      "id": "SRC421-14",
+      "title": "Korean Bible Society: Psalms translation 1911 scholarly history",
+      "url": "https://www.bskorea.or.kr/bbs/bible_research_detail.php?device=pc&wr_id=30",
+      "evidence_class": "INSTITUTIONAL_SCHOLARLY_INDEX",
+      "access_scope": "PUBLIC_ABSTRACT_METADATA",
+      "claim_ids": [
+        "C417-17"
+      ],
+      "support_scope": "1911 Korean full Bible is separate from 1887 New Testament, not separate independent institution",
+      "full_paywalled_work_reviewed": false,
+      "original_material_witness_collated_in_this_version": false,
+      "external_images_reused": false,
+      "translation_or_full_work_reproduction_rights": false
+    },
+    {
+      "id": "SRC421-15",
+      "title": "Cambridge Companion: Hussite Theology and Law of God",
+      "url": "https://www.cambridge.org/core/books/abs/cambridge-companion-to-reformation-theology/hussite-theology-and-the-law-of-god/6EC5529E1B58045312E03A02521537C8",
+      "evidence_class": "ACADEMIC_BOOK_CHAPTER",
+      "access_scope": "PUBLIC_CHAPTER_SUMMARY",
+      "claim_ids": [
+        "C417-09"
+      ],
+      "support_scope": "Four Articles of Prague promulgated 1420 with four programmatic aims, 1421 later phase retained",
+      "full_paywalled_work_reviewed": false,
+      "original_material_witness_collated_in_this_version": false,
+      "external_images_reused": false,
+      "translation_or_full_work_reproduction_rights": false
+    },
+    {
+      "id": "SRC421-16",
+      "title": "Korean Bible Society: 1882 Gospel / 1887 New Testament history",
+      "url": "https://www.bskorea.or.kr/bbs/content.php?co_id=subpage2_3_3_1_1",
+      "evidence_class": "INSTITUTIONAL_EDITION_HISTORY",
+      "access_scope": "PUBLIC_PAGE",
+      "claim_ids": [
+        "C417-16",
+        "C417-17",
+        "C417-20"
+      ],
+      "support_scope": "1882 Gospel books versus 1887 NT; 1911 complete Bible separate",
+      "full_paywalled_work_reviewed": false,
+      "original_material_witness_collated_in_this_version": false,
+      "external_images_reused": false,
+      "translation_or_full_work_reproduction_rights": false
+    }
+  ],
+  "bibliographic_independence_notices": [
+    {
+      "topic": "Korean Bible 1911",
+      "notice": "Korean Bible Society history and its scholarly index are not two independent institutions"
+    },
+    {
+      "topic": "Tamil 1714/1715",
+      "notice": "Partial/complete publication distinction is supported by object catalog and historic bibliographic evidence; a modern chapter gives 1714 aggregate wording, not necessarily contradiction of 1715 full object"
+    },
+    {
+      "topic": "Korean Catholic origins",
+      "notice": "1779 and 1784 origin theories are disputed in scholarly interpretation; do not assign equal probability without witness-level evidence"
+    },
+    {
+      "topic": "1555 Augsburg",
+      "notice": "GHDI and German History Intersections are edited versions/derivatives of historical law; do not copy their translations without rights"
+    },
+    {
+      "topic": "Wyclif Hus",
+      "notice": "Public academic overview and journal extract are not direct manuscript witness collations"
+    }
+  ],
+  "release_gates": [
+    {
+      "id": "G421-01",
+      "name": "Six flagged cases have linked public evidence and exact safe wording",
+      "status": "PASS"
+    },
+    {
+      "id": "G421-02",
+      "name": "Original 17 claims retained and three held remains excluded",
+      "status": "PASS"
+    },
+    {
+      "id": "G421-03",
+      "name": "Direct historian and doctrinal-tradition expert signoffs",
+      "status": "NOT_DONE"
+    },
+    {
+      "id": "G421-04",
+      "name": "Primary textual witness full collation for disputed dates/doctrine",
+      "status": "NOT_DONE"
+    },
+    {
+      "id": "G421-05",
+      "name": "Image rights and full translation/document reproduction license",
+      "status": "NOT_DONE"
+    },
+    {
+      "id": "G421-06",
+      "name": "Actual real 5-reader comprehension study",
+      "status": "NOT_DONE"
+    },
+    {
+      "id": "G421-07",
+      "name": "Staging app and mobile accessibility review",
+      "status": "NOT_DONE"
+    },
+    {
+      "id": "G421-08",
+      "name": "Final owner approval to ship or merge main",
+      "status": "NOT_DONE"
+    }
+  ],
+  "release": {
+    "can_ship": false,
+    "can_merge_main": false,
+    "AI_Studio_modified": false,
+    "existing_513_modified": false,
+    "existing_VOL01_08_overviews_modified": false,
+    "actual_real_reader_tests": 0,
+    "actual_expert_signoffs": 0,
+    "primary_original_corpus_newly_collated": false,
+    "third_party_images_copied": false,
+    "full_copyrighted_translations_republished": false,
+    "legal_rights_cleared": false,
+    "staging_app_tested": false,
+    "source_url_144_fully_checked": false
+  },
+  "validation": {
+    "source_entries": 16,
+    "issue_groups": 6,
+    "total_claims": 20,
+    "accepted_claims": 17,
+    "held_claims": 3,
+    "reader_chapters": 6,
+    "reference_errors": []
+  },
+  "next_recommended": "V4.22: No more blank protocols. Obtain external expert editorial judgment and actual reader evidence; if unavailable, prioritize integrated L0 editorial shortlist and human-reviewable publication candidate without pretending approval."
+}
