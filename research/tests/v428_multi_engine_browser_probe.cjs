@@ -19,7 +19,7 @@ const target = path.join(repoRoot, "preview/V424_L0_EDITORIAL_ALPHA_OFFLINE_PREV
 const artifactRoot = path.join(repoRoot, "research/artifacts/V428_browser_checks", engine);
 fs.mkdirSync(artifactRoot, { recursive: true });
 if (!fs.existsSync(target)) throw new Error("Missing V4.24 HTML: " + target);
-const expectedBlobSha = "7459fecd7b56a63332d59e8deb70c7a401186c89";
+const expectedBlobSha = "f822e320e99db4f0764553e074c2d0bb2479479f";
 const actualBlobSha = execFileSync("git", ["hash-object", target], { encoding: "utf8" }).trim();
 if (actualBlobSha !== expectedBlobSha) throw new Error("Unexpected preview source blob: " + actualBlobSha);
 
@@ -88,7 +88,14 @@ async function capture(page, label) {
                 return { tag: el.tagName, id: el.id, class: el.className,
                   left: Math.round(box.left), right: Math.round(box.right),
                   scrollWidth: el.scrollWidth, clientWidth: el.clientWidth };
-              })
+              }),
+            scrollOverflow: [...document.querySelectorAll("*")]
+              .filter(el => el.scrollWidth > el.clientWidth + 2 &&
+                getComputedStyle(el).overflowX === "visible")
+              .slice(0, 8)
+              .map(el => ({ tag: el.tagName, id: el.id, class: String(el.className),
+                client: el.clientWidth, scroll: el.scrollWidth,
+                textSample: (el.textContent || "").slice(0, 55) }))
           };
         });
         record(tag, "horizontal-overflow-" + label,
@@ -114,6 +121,9 @@ async function capture(page, label) {
         const related = await page.locator("main .anchor").count();
         record(tag, vol + "-readable", contentCount === 1 && related === (i === 8 ? 0 : 6), "article=" + contentCount + "; links=" + related);
         await checkOverflow(vol);
+        if (tag === "small-mobile" && i === 6) {
+          await capture(page, tag + "-VOL-06");
+        }
       }
       await capture(page, tag + "-volume08");
 
