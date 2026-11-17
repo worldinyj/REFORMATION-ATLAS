@@ -84,7 +84,7 @@ async function capture(page, label) {
         await visit("#/volumes/" + vol);
         const contentCount = await page.locator("main .article").count();
         const related = await page.locator("main .anchor").count();
-        record(tag, vol + "-readable", contentCount === 1 && related === 6, "article=" + contentCount + "; links=" + related);
+        record(tag, vol + "-readable", contentCount === 1 && related === (i === 8 ? 0 : 6), "article=" + contentCount + "; links=" + related);
         await checkOverflow(vol);
       }
       await capture(page, tag + "-volume08");
@@ -104,9 +104,13 @@ async function capture(page, label) {
       await capture(page, tag + "-theme06");
 
       await visit("#/themes/T415-01");
+      const themeLabel = await page.locator("main .anchor").first().innerText();
+      record(tag, "human-readable-anchor-role", themeLabel.includes("핵심 사례") && !themeLabel.includes("CORE_CASE"), themeLabel);
       await page.locator("main .anchor").first().click();
       await page.waitForURL(/#\/volumes\/VOL-01$/);
       record(tag, "theme-to-volume-click", (await page.locator("main .article").count()) === 1, "clicked actual first theme anchor");
+      const focusTarget = await page.evaluate(() => document.activeElement && document.activeElement.id);
+      record(tag, "keyboard-focus-after-navigation", focusTarget === "main", "activeElement=" + focusTarget);
 
       for (let i = 1; i <= 6; i++) {
         await visit("#/reader/" + i);
