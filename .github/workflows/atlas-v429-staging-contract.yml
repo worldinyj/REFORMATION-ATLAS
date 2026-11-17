@@ -1,0 +1,63 @@
+name: ATLAS V4.29 L0 Private Staging Import Contract
+on:
+  push:
+    branches:
+      - research/atlas-v429-private-ai-studio-handoff-and-reader-review-l0
+    paths:
+      - "handoff/V429_AI_STUDIO_PRIVATE_L0_CONTENT_IMPORT.json"
+      - "research/tests/v429_staging_import_contract.cjs"
+      - ".github/workflows/atlas-v429-staging-contract.yml"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: atlas-v429-import-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  validate-l0-private-import:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - name: Checkout exact research branch
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Setup Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Run source-equality and publication-gate validation
+        id: contract
+        run: |
+          mkdir -p research/artifacts/V429_import_checks
+          set +e
+          node research/tests/v429_staging_import_contract.cjs > research/artifacts/V429_import_checks/CONTRACT_VALIDATION.json
+          CHECK_EXIT=$?
+          echo "exit_code=$CHECK_EXIT" >> "$GITHUB_OUTPUT"
+          cat research/artifacts/V429_import_checks/CONTRACT_VALIDATION.json
+          exit 0
+      - name: Record contract outcome in research branch (not main)
+        if: always()
+        run: |
+          FILE=research/artifacts/V429_import_checks/CONTRACT_VALIDATION.json
+          test -s "$FILE" || printf '{"status":"FAIL","error":"validator produced no report"}\n' > "$FILE"
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add "$FILE"
+          if ! git diff --cached --quiet; then
+            git commit -m 'test(atlas): V4.29 L0 private staging contract evidence [skip ci]'
+            git push origin HEAD:refs/heads/research/atlas-v429-private-ai-studio-handoff-and-reader-review-l0
+          fi
+      - name: Upload immutable evidence artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: atlas-v429-private-import-contract
+          path: research/artifacts/V429_import_checks/CONTRACT_VALIDATION.json
+          if-no-files-found: warn
+          retention-days: 14
+      - name: Final verdict
+        if: always()
+        env:
+          CHECK_EXIT: ${{ steps.contract.outputs.exit_code }}
+        run: test "$CHECK_EXIT" = 0
