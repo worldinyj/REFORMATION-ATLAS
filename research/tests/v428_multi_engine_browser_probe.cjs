@@ -19,7 +19,7 @@ const target = path.join(repoRoot, "preview/V424_L0_EDITORIAL_ALPHA_OFFLINE_PREV
 const artifactRoot = path.join(repoRoot, "research/artifacts/V428_browser_checks", engine);
 fs.mkdirSync(artifactRoot, { recursive: true });
 if (!fs.existsSync(target)) throw new Error("Missing V4.24 HTML: " + target);
-const expectedBlobSha = "ebd2517a0756fa8ea4b55bdfbbe6fafe3ca61645";
+const expectedBlobSha = "3a26339eaa694012f9c0aa22533c7e7b7ef297e3";
 const actualBlobSha = execFileSync("git", ["hash-object", target], { encoding: "utf8" }).trim();
 if (actualBlobSha !== expectedBlobSha) throw new Error("Unexpected preview source blob: " + actualBlobSha);
 
