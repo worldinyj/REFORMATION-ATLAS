@@ -1,0 +1,316 @@
+{
+  "version": "V4.04",
+  "date": "2026-11-17",
+  "status": "RESEARCH_DRAFT",
+  "branch": "research/atlas-v404-1530-marriage-publication-vs-1539-witness-comparison",
+  "parent_branch": "research/atlas-v403-1550-composite-1539-marriage-edition-scope-audit",
+  "purpose": "Advance original comparison by identifying 1530 public-marriage rule and differentiating two public banns from two male contract witnesses. Retain unobserved 1550 appendix as a genuine blocker.",
+  "sources": [
+    {
+      "id": "W404-1525",
+      "date": "1525-05-10",
+      "edition": "SSRQ ZH NF I/1/11 Nr1",
+      "archive": "StAZH III AAb 1.1 Nr1",
+      "path": "data/ZH/ZH_NF_I_1_11/SSRQ-ZH-NF_I_1_11-1-1.xml",
+      "url": "https://github.com/SSRQ-SDS-FDS/editio-data/blob/v1.1.0/data/ZH/ZH_NF_I_1_11/SSRQ-ZH-NF_I_1_11-1-1.xml",
+      "git_blob": "4d9145fc3564bed1044b6fa75d14ee042c9c6b33",
+      "evidence_level": "DIRECT_2022_SCHOLARLY_TEI_HISTORIC_TEXT",
+      "original_folio_photo_seen": false,
+      "short_source_term": "morgengab",
+      "role": "Premarital sex and marriage/morning gift duty"
+    },
+    {
+      "id": "W404-1530",
+      "date": "1530-03-26",
+      "edition": "SSRQ ZH NF I/1/11 Nr8",
+      "archive": "StAZH III AAb 1.1 Nr17",
+      "archive_catalog_url": "https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1162171",
+      "path": "data/ZH/ZH_NF_I_1_11/SSRQ-ZH-NF_I_1_11-8-1.xml",
+      "url": "https://github.com/SSRQ-SDS-FDS/editio-data/blob/v1.1.0/data/ZH/ZH_NF_I_1_11/SSRQ-ZH-NF_I_1_11-8-1.xml",
+      "git_blob": "e073dc750840d389f2d2909b651073a09c2deac0",
+      "evidence_level": "DIRECT_2022_SCHOLARLY_TEI_HISTORIC_TEXT",
+      "original_folio_photo_seen": false,
+      "edition_source_locus": "fol.3v–4r",
+      "published_source_type": "Printed Großes Mandat, 8 folios, printing with manuscript corrections per archive catalog",
+      "historic_dating_phrase": "Sambstag deß sechß und zwentzigesten tags Mertzens",
+      "specific_short_source_terms": [
+        "zum minsten zwürend",
+        "deß nächsten Sunntags darvor",
+        "einest inn der wuchenn",
+        "offnem Kilchgang"
+      ],
+      "role": "Public declaration of marriage and twice-announced banns, not two contract witnesses"
+    },
+    {
+      "id": "W404-1533",
+      "date": "1533-05-20",
+      "edition": "SSRQ ZH NF I/1/3 Nr156",
+      "archive": "StAZH A 6.1 Nr6",
+      "path": "data/ZH/ZH_NF_I_1_3/SSRQ-ZH-NF_I_1_3-156-1.xml",
+      "url": "https://github.com/SSRQ-SDS-FDS/editio-data/blob/v1.1.0/data/ZH/ZH_NF_I_1_3/SSRQ-ZH-NF_I_1_3-156-1.xml",
+      "git_blob": "3b15cd7526f8d1eeba718162681c1c9b7a33ae61",
+      "evidence_level": "DIRECT_2022_SCHOLARLY_TEI_HISTORIC_TEXT",
+      "original_folio_photo_seen": false,
+      "topics": [
+        "consanguinity",
+        "premarital intercourse / marriage obligation",
+        "adultery / divorce sanction"
+      ],
+      "dorsal_date": "1533-06-10",
+      "dorsal_other_hand": true,
+      "role": "Agenda for city coordination, not June draft article-by-article enactment"
+    },
+    {
+      "id": "W404-1539",
+      "date": "1539-07-12",
+      "edition": "1539 original printed marriage-law excerpt",
+      "archive": "Zentralbibliothek Zürich AW1020",
+      "url": "https://www.e-rara.ch/zuz/content/titleinfo/40998",
+      "doi": "10.3931/e-rara-151",
+      "evidence_level": "DIRECT_ORIGINAL_1539_PRINT_VISUAL_PAGES",
+      "original_photo_seen": true,
+      "checked_pdf_page_indexes_zero_based": [
+        15,
+        16
+      ],
+      "actual_full_ordinance_read": false,
+      "short_terms": [
+        "zwen erbaren biderben mannen",
+        "die nit kuppler oder argwönig"
+      ],
+      "role": "Two credible male witnesses of prior marriage promise as evidence, not two pulpit announcements"
+    },
+    {
+      "id": "W404-1550",
+      "date": "circa 1550",
+      "edition": "SSRQ ZH NF I/1/11 Nr10",
+      "archive": "StAZH E II 443 pp97.1–97.44; separately ZB AW1025 composite original catalog",
+      "path": "data/ZH/ZH_NF_I_1_11/SSRQ-ZH-NF_I_1_11-10-1.xml",
+      "url": "https://github.com/SSRQ-SDS-FDS/editio-data/blob/v1.1.0/data/ZH/ZH_NF_I_1_11/SSRQ-ZH-NF_I_1_11-10-1.xml",
+      "git_blob": "34e398a32c3b2345c415e98882493e7adbd4e039",
+      "evidence_level": "DIRECT_2022_SCHOLARLY_TEI_MAIN_MANDATE_PLUS_EDITORIAL_NOTE",
+      "original_composite_first_main_page_seen": true,
+      "original_marriage_appendix_pages_seen": false,
+      "editorial_main_mandate_sections_read": 15,
+      "editorial_appended_1539_amended_rule_full_text_read": false,
+      "role": "Wedding celebrations regulated in 1550 main public-order mandate; 1539 modified marriage-law appendix only mentioned in note"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C404-01",
+      "source": "W404-1530",
+      "tier": "DIRECT_EDITED_HISTORIC_TEXT",
+      "claim_ko": "1530년 명령은 혼인 당사자들이 기존 혼인 약속과 친족관계 문제를 숨기거나 혼인 예식을 미뤄 분쟁이 발생한다고 지적한다",
+      "locus": "fol3v"
+    },
+    {
+      "id": "C404-02",
+      "source": "W404-1530",
+      "tier": "DIRECT_EDITED_HISTORIC_TEXT",
+      "claim_ko": "혼인 관계를 교회에서 공개적으로 확인하며 이웃 공동체 앞에서 발표하도록 한다",
+      "locus": "fol3v"
+    },
+    {
+      "id": "C404-03",
+      "source": "W404-1530",
+      "tier": "DIRECT_EDITED_HISTORIC_TEXT",
+      "claim_ko": "목회자가 교회에서 공개하는 혼인 예고는 최소 두 차례로, 직전 주일과 그 주간의 말씀 선포일에 실시하도록 한다",
+      "locus": "fol3v–4r"
+    },
+    {
+      "id": "C404-04",
+      "source": "W404-1530",
+      "tier": "DIRECT_EDITED_HISTORIC_TEXT",
+      "claim_ko": "사전 예고 없이 교회 예식과 동거를 허용할 의무가 없다고 규정한다. 이것을 이미 체결한 약속의 자동 무효라고 바꾸면 안 된다",
+      "locus": "fol3v–4r"
+    },
+    {
+      "id": "C404-05",
+      "source": "W404-1530",
+      "tier": "DIRECT_EDITED_HISTORIC_TEXT",
+      "claim_ko": "공개 예식을 고의로 지연하고 목회자와 혼인감독의 경고를 무시하면 혼인재판소에 보고해 제재하도록 한다",
+      "locus": "fol4r"
+    },
+    {
+      "id": "C404-06",
+      "source": "W404-1539",
+      "tier": "DIRECT_ORIGINAL_1539_PRINT_VISUAL",
+      "claim_ko": "1539년 발췌 인쇄본은 혼인 약속을 사전에 두 명의 신뢰할 만한 남성 앞에서 했는지 등 증거를 따진다",
+      "locus": "ZB AW1020 PDF indexed p15–16"
+    },
+    {
+      "id": "C404-07",
+      "source": "W404-1530",
+      "tier": "NEGATIVE_SOURCE_NUMERAL_DISAMBIGUATION",
+      "claim_ko": "1530년 공표 두 차례는 교회 공표 횟수이고, 1539년 남성 증인 두 명은 혼인 약속의 입증 수단이다",
+      "locus": "SSRQ Nr8 fol3v–4r vs ZB AW1020 p16",
+      "comparison_with": "W404-1539"
+    },
+    {
+      "id": "C404-08",
+      "source": "W404-1525",
+      "tier": "DIRECT_EDITED_HISTORIC_TEXT",
+      "claim_ko": "1525년 명령은 혼인 전 관계와 혼인·혼인예물 의무의 배경을 제공한다",
+      "locus": "SSRQ Nr1"
+    },
+    {
+      "id": "C404-09",
+      "source": "W404-1533",
+      "tier": "DIRECT_EDITED_HISTORIC_TEXT",
+      "claim_ko": "1533년에는 친족혼·혼인의무·간통과 이혼을 다루는 도시 간 협의가 별개 의제로 제안됐다",
+      "locus": "SSRQ Nr156"
+    },
+    {
+      "id": "C404-10",
+      "source": "W404-1550",
+      "tier": "DIRECT_EDITED_1550_MAIN_MANDATE",
+      "claim_ko": "1550년 주요 종합 규정은 혼인잔치를 하루·저녁기도 시간 이내로 제한하고 여관 개최와 춤을 제한한다",
+      "locus": "main mandate section 12"
+    },
+    {
+      "id": "C404-11",
+      "source": "W404-1550",
+      "tier": "MODERN_2022_EDITORIAL_NOTE",
+      "claim_ko": "1550년 종합 규정은 1539년 혼인규정의 일부 수정 전승을 포함하지만 해당 부속법 본문은 Nr10 TEI에 전사되어 있지 않다",
+      "locus": "SSRQ Nr10 editorial appendix note"
+    },
+    {
+      "id": "C404-12",
+      "source": "W404-1550",
+      "tier": "SOURCE_AVAILABILITY_LIMIT",
+      "claim_ko": "1550년 합본의 혼인법 부속문은 아직 원본 사진을 읽지 못했으므로 1539년 발췌 조항과 문장별 차이를 확정하지 못한다",
+      "locus": "ZB AW1025 IIIF manifest identified; only first main print page visually checked"
+    },
+    {
+      "id": "C404-13",
+      "source": "W404-1530",
+      "tier": "COMPARATIVE_HISTORICAL_INTERPRETATION",
+      "claim_ko": "1530년 공표 절차와 1539년 계약 증인 입증은 같은 혼인문제를 다른 법적 단계에서 규율한다",
+      "locus": "SSRQ Nr8 and 1539 original",
+      "comparison_with": "W404-1539"
+    },
+    {
+      "id": "C404-14",
+      "source": "W404-1550",
+      "tier": "NEGATIVE_RELEASE_GATE",
+      "claim_ko": "1533년 44조항 제39조나 다섯 도시의 동일 법집행에 관한 직접 근거는 여전히 확보되지 않았다",
+      "locus": "V3.99 editorial number list and inaccessible A6.1 Nr7"
+    }
+  ],
+  "stage_crosswalk": [
+    {
+      "year": "1525",
+      "issue": "PREMARITAL_RELATIONSHIP",
+      "source": "W404-1525",
+      "process": "substantive marriage/morning gift obligation",
+      "proof": "edited TEI, original print not visually read"
+    },
+    {
+      "year": "1530",
+      "issue": "PUBLIC_MARRIAGE_SOLEMNIZATION",
+      "source": "W404-1530",
+      "process": "public church ceremony, advance public pulpit notices twice, delayed ceremony brought to judges",
+      "proof": "edited TEI fol3v–4r, original print not visually read"
+    },
+    {
+      "year": "1533",
+      "issue": "INTERCITY_LEGAL_CONSULTATION",
+      "source": "W404-1533",
+      "process": "three agenda issues separate from later 44-draft articles",
+      "proof": "edited TEI, other-hand dorsal 10 June 1533"
+    },
+    {
+      "year": "1539",
+      "issue": "PRIOR_PROMISE_EVIDENCE",
+      "source": "W404-1539",
+      "process": "two reputable male witnesses and anti-collusion standard to prove previous marriage promise",
+      "proof": "original 1539 printed excerpt pages 15–16 visually read"
+    },
+    {
+      "year": "circa 1550",
+      "issue": "CIVIC_WEDDING_CELEBRATION_AND_ADAPTED_APPENDIX",
+      "source": "W404-1550",
+      "process": "wedding-festivity controls in main mandate; later adapted marriage appendix content untranscribed in TEI",
+      "proof": "edited TEI section12 + appendix editorial note; original first page only"
+    }
+  ],
+  "ssrq_provenance": {
+    "repo": "SSRQ-SDS-FDS/editio-data",
+    "tag": "v1.1.0",
+    "peeled_commit": "c6f409c719dfb46ded238e4c7f7b1d5b5391dbbe",
+    "license": "CC BY-NC-SA 4.0",
+    "TEI_full_text_reproduced": false
+  },
+  "original_print_rights": {
+    "archive_1530_photo_seen": false,
+    "archive_1539_photo_seen": true,
+    "archive_1550_first_photo_seen": true,
+    "archive_1550_marriage_appendix_photo_seen": false,
+    "original_images_reproduced": false,
+    "archive_public_domain_prints": "Public Domain Mark"
+  },
+  "exploration": [
+    {
+      "target": "1550 e-rara AW1025 PDF",
+      "url": "https://www.e-rara.ch/zuz/download/pdf/41445",
+      "status": "WEB_12MB_RESPONSE_TOO_LARGE_AND_CONTAINER_DNS_FAILURE",
+      "actual_complete_pdf_download": false,
+      "sha256": null
+    },
+    {
+      "target": "1550 e-rara IIIF manifest",
+      "url": "https://www.e-rara.ch/i3f/v20/41445/manifest",
+      "status": "MANIFEST_URL_CONFIRMED_BUT_CANVAS_CONTENT_NOT_EXTRACTED",
+      "actual_marriage_appendix_image_read": false
+    },
+    {
+      "target": "1550 thumbnail page18",
+      "url": "https://www.e-rara.ch/zuz/download/webcache/1000/41465",
+      "status": "VISUALLY_READ_LATE_MAIN_MANDATE_PAGE_NOT_MARRIAGE_APPENDIX",
+      "original_image_seen": true
+    },
+    {
+      "target": "1530 direct official Tei",
+      "url": "https://github.com/SSRQ-SDS-FDS/editio-data/blob/v1.1.0/data/ZH/ZH_NF_I_1_11/SSRQ-ZH-NF_I_1_11-8-1.xml",
+      "status": "FULL_EDITED_TEXT_AVAILABLE",
+      "critical_locus": "fol3v–4r",
+      "original_print_images_read": false
+    },
+    {
+      "target": "1550 SSRQ Nr10 TEI",
+      "url": "https://github.com/SSRQ-SDS-FDS/editio-data/blob/v1.1.0/data/ZH/ZH_NF_I_1_11/SSRQ-ZH-NF_I_1_11-10-1.xml",
+      "status": "DIRECT_TEXT_MAIN15_AND_EDITORIAL_NOTE_ONLY",
+      "full_marriage_appendix_text_read": false
+    }
+  ],
+  "unchanged_blockers": {
+    "Ott_1855_pp108_122_read": false,
+    "A6_1_7_1533_minutes_read": false,
+    "article39_original_text_read": false,
+    "year1539_full_statute_read": false,
+    "year1550_marriage_appendix_read": false,
+    "nineteenth_century_1878_historical_exposition_print_page_seen": false,
+    "origin1525_original_print_seen": false,
+    "Rott1978_pages489_491_seen": false,
+    "Parker_MS119_original_images_seen": false,
+    "July1536_Bucer_Vadian_23_25": "UNRESOLVED"
+  },
+  "next": [
+    "Retrieve page-by-page 1550 AW1025 appendix from actual IIIF canvas IDs, not guessed sequential page IDs",
+    "Locate 1530 original print III AAb 1.1 Nr17 fol3v–4r scan to crosscheck historical typography and handwritten corrections",
+    "Develop source-keyed historical reader timeline 'the two twos' for 1530/1539, instead of overclaiming law simplification",
+    "After 1550 appendix photo, perform clause-by-clause alignment between 1539 AW1020 p15/16 and 1550 appendix; report changed text not editorial impression",
+    "Do not assert Article39 or five city uniform enactment without original evidence"
+  ],
+  "release": {
+    "can_ship": false,
+    "main_modified": false,
+    "existing_513_modified": false,
+    "ai_studio_modified": false,
+    "V403_research_files_overwritten": false,
+    "original_quoted_text_bulk_republished": false,
+    "images_downloaded_to_repo": false,
+    "historian_approved": false
+  }
+}
