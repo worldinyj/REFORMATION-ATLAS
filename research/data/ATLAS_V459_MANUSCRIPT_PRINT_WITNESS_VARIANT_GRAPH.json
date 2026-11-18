@@ -189,11 +189,23 @@
         "Z_PRINT_W2119",
         "FOLGER"
       ],
-      "scanOnline": "DIGITIZED_E_RARA_LINK",
-      "actualVisualInspection": "CATALOGUE_ONLY",
-      "textLeafInspected": [],
+      "scanOnline": "FULL_1529_PRINT_PDF_E_RARA_DIRECT_VIEW",
+      "actualVisualInspection": "DIRECT_WEB_SCREENSHOT_OF_1529_PRINT_MAIN_TEXT_PDF_PAGES_5_AND_6",
+      "textLeafInspected": [
+        "Printed Article 13 (PDF page index 5)",
+        "Printed Article 15 (PDF page index 6)"
+      ],
       "article15FullPageRead": false,
-      "fullWitnessCollated": false
+      "fullWitnessCollated": false,
+      "printedMainArticle13DirectlyRead": true,
+      "printedMainArticle15DirectlyRead": true,
+      "originalPDFPageIndicesInspected": [
+        5,
+        6
+      ],
+      "pdfPageUrl": "https://www.e-rara.ch/zuz/download/pdf/170052",
+      "mainReadingEvidence": "research/data/ATLAS_V463_W2119_1529_PRINT_ART13_ART15_DIRECT_SCAN_EVIDENCE.json",
+      "printedReadLimit": "Main 1529 typeface reading confirmed; no character-by-character diplomatic transcription, no 1529 marginal handwriting transcription and no print-to-K/Z collation"
     },
     {
       "id": "P1529-W2108",
@@ -372,5 +384,11 @@
     "canShip": false,
     "canMergeMain": false,
     "canImportAIStudio": false
+  },
+  "researchUpdate_V463": {
+    "date": "2026-11-19",
+    "whatChanged": "W2119 now has actual printed Article 13 and Article 15 photos reviewed, rather than bibliography-only.",
+    "whatDidNotChange": "No direct manuscript K or Z page read, no full print witness collation, no release approval.",
+    "evidence": "research/data/ATLAS_V463_W2119_1529_PRINT_ART13_ART15_DIRECT_SCAN_EVIDENCE.json"
   }
 }
