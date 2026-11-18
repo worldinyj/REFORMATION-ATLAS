@@ -1,4 +1,4 @@
-import React, {useMemo, useState} from "react";
+import React, {useId, useMemo, useState} from "react";
 import "./atlas-flagship.css";
 
 /**
@@ -35,6 +35,10 @@ export default function AtlasFlagship1529Panel({
   const [eventId,setEventId]=useState("EVENT-MARBURG-1529");
   const [layer,setLayer]=useState("L0");
   const [showEvidence,setShowEvidence]=useState(true);
+  const [showEditionCompare,setShowEditionCompare]=useState(false);
+  const readerPanelId=useId();
+  const comparePanelId=useId();
+  const evidencePanelId=useId();
   const integrity=useMemo(()=>{
     if(!scene||!atlas||!atlas.meta)return null;
     const chapter=atlas.getChapter?.(scene.entry?.l1ChapterId);
@@ -54,6 +58,14 @@ export default function AtlasFlagship1529Panel({
   const selected=integrity.events.find(e=>e.id===eventId)||integrity.events[0];
   const docs=scene.documentCards.filter(d=>d.linkedEventIds.includes(selected.id));
   const {chapter,volume}=integrity;
+  function handleReadingKeyDown(event) {
+    if(!["ArrowLeft","ArrowRight","Home","End"].includes(event.key))return;
+    event.preventDefault();
+    const index=event.key==="Home"?0:event.key==="End"?1:layer==="L0"?1:0;
+    const targetLayer=index===0?"L0":"L1";
+    setLayer(targetLayer);
+    event.currentTarget.parentElement?.querySelectorAll('[role="tab"]')[index]?.focus();
+  }
   return <section className="atlas-fp" data-atlas-state="RESEARCH_PREVIEW" aria-label="마르부르크 아우크스부르크 역사 탐색">
     <header className="atlas-fp-heading">
       <div className="atlas-fp-kicker">REFORMATION ATLAS / 16TH CENTURY</div>
@@ -79,23 +91,42 @@ export default function AtlasFlagship1529Panel({
         <div className="atlas-fp-place"><strong>관련 장소·주제</strong> {selected.placeLabel}</div>
         <p className="atlas-fp-lead">{selected.readersFinding}</p>
         <div className="atlas-fp-concern"><strong>왜 조심해야 할까?</strong><p>{selected.claimLimit}</p></div>
+        <div className="atlas-fp-compare-control">
+          <button type="button" onClick={()=>setShowEditionCompare(x=>!x)}
+            aria-expanded={showEditionCompare} aria-controls={comparePanelId}>
+            1530·1531·1540년 판본 비교 {showEditionCompare?"접기":"열기"}
+          </button>
+        </div>
+        <section id={comparePanelId} className="atlas-fp-compare" hidden={!showEditionCompare} aria-label="판본 비교">
+          <h3>제출된 문서와 뒤이은 인쇄본 구별</h3>
+          <table><thead><tr><th scope="col">연도</th><th scope="col">역사적 구분</th></tr></thead>
+            <tbody>{integrity.events.filter(e=>e.year>1529).map(e=>
+              <tr key={e.id}><th scope="row">{e.dateLabel}</th><td>{e.readersFinding}</td></tr>
+            )}</tbody></table>
+          <p>제출 문서와 판본의 실제 동일성은 연도만으로 확정하지 않습니다.</p>
+        </section>
 
         <div className="atlas-fp-tabs" role="tablist" aria-label="역사 원고의 깊이">
-          <button role="tab" aria-selected={layer==="L0"} onClick={()=>setLayer("L0")} type="button">L0 · 전체 개요</button>
-          <button role="tab" aria-selected={layer==="L1"} onClick={()=>setLayer("L1")} type="button">L1 · 역사적 해설</button>
+          <button role="tab" id={readerPanelId+"-l0"} aria-controls={readerPanelId}
+            aria-selected={layer==="L0"} tabIndex={layer==="L0"?0:-1}
+            onClick={()=>setLayer("L0")} onKeyDown={handleReadingKeyDown} type="button">L0 · 전체 개요</button>
+          <button role="tab" id={readerPanelId+"-l1"} aria-controls={readerPanelId}
+            aria-selected={layer==="L1"} tabIndex={layer==="L1"?0:-1}
+            onClick={()=>setLayer("L1")} onKeyDown={handleReadingKeyDown} type="button">L1 · 역사적 해설</button>
         </div>
-        <div className="atlas-fp-reading">
+        <div className="atlas-fp-reading" id={readerPanelId} role="tabpanel"
+          aria-labelledby={readerPanelId+(layer==="L0"?"-l0":"-l1")} tabIndex={0}>
           <div className="atlas-fp-reading-meta">{layer==="L0"?"V4.47 연구용 개요":"V4.50 연구용 중급 해설"} · {layer==="L0"?volume.title:chapter.title}</div>
           <SafeResearchMarkdown source={layer==="L0"?volume.bodyMarkdown:chapter.bodyMarkdown}/>
         </div>
         <div className="atlas-fp-toolbar">
-          <button type="button" onClick={()=>setShowEvidence(x=>!x)} aria-expanded={showEvidence} aria-controls="atlas-fp-evidence">
+          <button type="button" onClick={()=>setShowEvidence(x=>!x)} aria-expanded={showEvidence} aria-controls={evidencePanelId}>
             {showEvidence?"사료 카드 접기":"사료 카드 펼치기"}
           </button>
           {typeof onReturnToAtlas==="function"&&<button type="button" onClick={()=>onReturnToAtlas({kind:"VOLUME",id:scene.entry.volumeId})}>제4권 목록으로 돌아가기</button>}
         </div>
       </main>
-      <aside id="atlas-fp-evidence" className="atlas-fp-sources" hidden={!showEvidence} aria-label="사료와 판본 근거">
+      <aside id={evidencePanelId} className="atlas-fp-sources" hidden={!showEvidence} aria-label="사료와 판본 근거">
         <div className="atlas-fp-section-kicker">EVIDENCE / SOURCES</div>
         <h2>그 자료는 무엇을 증명하나?</h2>
         <p className="atlas-fp-help">당대 문헌의 편집 번역과 희귀본 소장목록은 근거 성격이 서로 다릅니다.</p>
