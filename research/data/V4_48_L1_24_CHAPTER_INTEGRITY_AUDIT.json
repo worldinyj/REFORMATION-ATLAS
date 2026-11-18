@@ -1,0 +1,154 @@
+{
+  "schema": "ATLAS_V448_L1_24_CHAPTER_INTEGRATION_INTEGRITY_AUDIT",
+  "version": "V4.48",
+  "date": "2026-11-18",
+  "status": "PASS_STRUCTURAL_AND_SOURCE_LINKAGE_ONLY_NOT_HUMAN_HISTORICAL_APPROVAL",
+  "provenance": [
+    {
+      "path": "research/data/V4_48_L1_VOL01_THREE_CHAPTERS_KO.json",
+      "gitBlobSha": "379bf63b94bf1cea50de0b0a15d4e91779b44fd7"
+    },
+    {
+      "path": "research/data/V4_48_L1_VOL02_THREE_CHAPTERS_KO.json",
+      "gitBlobSha": "d8d1ee2544f60f1e56b4059d3c84298355e61276"
+    },
+    {
+      "path": "research/data/V4_48_L1_VOL03_THREE_CHAPTERS_KO.json",
+      "gitBlobSha": "b3be9852ed402705c2725ee2556fa93deb7e6f6f"
+    },
+    {
+      "path": "research/data/V4_48_L1_VOL04_THREE_CHAPTERS_KO.json",
+      "gitBlobSha": "e73e7cd2d03eefa664cf9a77e99c4b70bca924f4"
+    },
+    {
+      "path": "research/data/V4_48_L1_VOL05_THREE_CHAPTERS_KO.json",
+      "gitBlobSha": "f918c9dda937cc3280eebdce5e2e47dff0fb63d4"
+    },
+    {
+      "path": "research/data/V4_48_L1_VOL06_THREE_CHAPTERS_KO.json",
+      "gitBlobSha": "7e65cdf394d12bb0447bc4363d305351f12cfe83"
+    },
+    {
+      "path": "research/data/V4_48_L1_VOL07_THREE_CHAPTERS_KO.json",
+      "gitBlobSha": "caa8dc4352f4c894d42b2e0789f40b181631abfd"
+    },
+    {
+      "path": "research/data/V4_48_L1_VOL08_THREE_CHAPTERS_KO.json",
+      "gitBlobSha": "717cb2b0206fca0029818dcf0d020df01b569402"
+    },
+    {
+      "path": "research/data/V4_48_L1_24_CHAPTER_INTEGRATED_MASTER.json",
+      "gitBlobSha": "7a8b8023789e0fbc33cece58dcedfddbd3b5ac45"
+    },
+    {
+      "path": "docs/01_CONTENT/L1/V448_EIGHT_VOLUME_24_CHAPTER_INTERMEDIATE_HISTORY_KO.md",
+      "gitBlobSha": "521c6b74c3241684529201807a0e2a6d1704843f"
+    },
+    {
+      "path": "research/data/V4_47_TWO_SOURCE_GROUNDED_L0_HISTORY_CORRECTIONS.json",
+      "gitBlobSha": "9aebf094697d500930f58d894df16affc34a343c"
+    },
+    {
+      "path": "research/data/V4_47_53_CLAIM_SOURCE_AND_TEXT_POSITION_REGISTER.json",
+      "gitBlobSha": "b195c3a6afe93c875c2090d5ffef445ad3922d8a"
+    },
+    {
+      "path": "handoff/V429_AI_STUDIO_PRIVATE_L0_CONTENT_IMPORT.json",
+      "gitBlobSha": "64c27c0dfe05394acbb049807e4c4384d58908b9"
+    }
+  ],
+  "metrics": {
+    "l0HistoricalVolumes": 8,
+    "l1Volumes": 8,
+    "l1TotalChapters": 24,
+    "l1ChapterBodyChars": 12108,
+    "l1SourceLinks": 66,
+    "l1UniqueExternalSourceUrls": 45,
+    "l1EvidenceGapSourceEdits": 5,
+    "existingL0SourceClaims": 53,
+    "frozenV429AppVolumes": 8,
+    "frozenV429AppThemes": 6,
+    "frozenV429AppLogicalLinks": 42,
+    "frozenV429IntroChapters": 6,
+    "historianExpertSignoffs": 0,
+    "actualReaderTestingSessions": 0,
+    "originalAppEdits": 0
+  },
+  "coverage": [
+    {
+      "id": "VOL-01",
+      "chapters": 3,
+      "chars": 1502,
+      "sourceLinks": 7
+    },
+    {
+      "id": "VOL-02",
+      "chapters": 3,
+      "chars": 1405,
+      "sourceLinks": 8
+    },
+    {
+      "id": "VOL-03",
+      "chapters": 3,
+      "chars": 1475,
+      "sourceLinks": 6
+    },
+    {
+      "id": "VOL-04",
+      "chapters": 3,
+      "chars": 1491,
+      "sourceLinks": 8
+    },
+    {
+      "id": "VOL-05",
+      "chapters": 3,
+      "chars": 1473,
+      "sourceLinks": 8
+    },
+    {
+      "id": "VOL-06",
+      "chapters": 3,
+      "chars": 1505,
+      "sourceLinks": 6
+    },
+    {
+      "id": "VOL-07",
+      "chapters": 3,
+      "chars": 1653,
+      "sourceLinks": 13
+    },
+    {
+      "id": "VOL-08",
+      "chapters": 3,
+      "chars": 1604,
+      "sourceLinks": 10
+    }
+  ],
+  "checks": [
+    "All eight chapters files read back, each with exactly three complete author-written L1 texts",
+    "Integrated L1 master byte-identical in chapter bodies to eight source files and SHA provenance matches",
+    "Complete human-readable Markdown manuscript includes every chapter body and title",
+    "All 24 chapter IDs unique, minimum 300 chars and at least two body paragraphs",
+    "66 source URLs references resolve to 45 distinct referenced URL strings in master register, without assuming full publication access",
+    "Five evident citation-coverage weaknesses supplemented and early Christian trade-network oversimplification clarified",
+    "No external historian/reader approval inserted, no app promotion or public shipping flags",
+    "V4.47 eight-volume L0 and 53 source claim records unchanged on inherited branch",
+    "V4.29 frozen app file SHA unchanged and 8/6/42/6 structure intact"
+  ],
+  "remainingHistoricalHolds": [
+    "C417-11",
+    "C417-12",
+    "C417-18",
+    "TAMIL-1719"
+  ],
+  "sourceVerificationScope": "Source strings and contextual evidence were manually searched by the authoring assistant, but this is NOT a full 45-document original-source audit; paywalled abstracts remain abstracts.",
+  "humanReviewStatus": "NOT_STARTED",
+  "readerTestStatus": "NOT_STARTED",
+  "publication": {
+    "canShip": false,
+    "canMergeMain": false,
+    "canImportAIStudio": false,
+    "canClaimExpertCertified": false
+  },
+  "errors": []
+}
