@@ -1,0 +1,275 @@
+{
+  "schema": "ATLAS_V445_INDEPENDENT_P0_EVIDENCE_DESK_TRIAGE",
+  "version": "V4.45",
+  "date": "2026-11-18",
+  "state": "EXTERNAL_PUBLIC_SOURCE_TRIAGE_COMPLETED_NOT_HUMAN_APPROVED",
+  "base": {
+    "reviewPacketSha": "3801a0c7381bb1b8377214a8fc3991604e85253c",
+    "readerCandidateSha": "10b73c919ec6cc889e3c64be6dc61e184f5a8e5c",
+    "releaseMasterSha": "afdf0b2282bf2c1ecee01d0a0f376b1b393b66f5"
+  },
+  "records": [
+    {
+      "id": "G443-01",
+      "status": "SECONDARY_SCHOLARLY_ANALYSIS_CORROBORATES_PERSONAL_DISTINCTION",
+      "assessment": "Wyclif remanence and Hus acceptance of transubstantiation are distinguished by Cook; later scholarship finds Wyclif's critique among some Bohemian groups. Do not equate Hus personally with all Hussite movements.",
+      "sources": [
+        [
+          "https://www.cambridge.org/core/journals/church-history/article/abs/john-wyclif-and-hussite-theology-14151436/54C10C6F7EEFB5409E2291C9F4194ABF",
+          "PEER_REVIEWED_ABSTRACT"
+        ],
+        [
+          "https://www.cambridge.org/core/journals/church-history/article/abs/neglected-eucharistic-controversy-the-afterlife-of-john-wyclifs-eucharistic-thought-in-bohemia-in-the-early-fifteenth-century/75573F8B29830575C3DE4322D3FA07F3",
+          "PEER_REVIEWED_ABSTRACT"
+        ]
+      ],
+      "action": "KEEP_CURRENT_PERSON_DISTINCTION_WITH_EXPERT_REVIEW; do not extrapolate Hus's view to all Hussites",
+      "unresolved": "Individual historical theological passages and medieval primary witnesses have not been fully collated",
+      "volumeIds": [
+        "VOL-03",
+        "VOL-08"
+      ],
+      "claimIds": [
+        "CL433-08",
+        "CL433-09"
+      ],
+      "historianReviewed": false,
+      "scholarSignoff": false,
+      "newEditorialApproval": false,
+      "primarySourceFullyCollated": false,
+      "evidenceScope": "PUBLIC_WEB_DESK_SCREENING"
+    },
+    {
+      "id": "G443-02",
+      "status": "OBJECT_LEVEL_LIBRARY_CATALOG_CORROBORATES_DISTINCT_EDITIONS",
+      "assessment": "1530 confessional delivery differs from 1531 printed editions. Gruber rare-books catalog distinguishes a Latin 1540 Variata specimen and a 1540 non-Variata copy. Do not classify all books printed in 1540 as Variata.",
+      "sources": [
+        [
+          "https://gruber.lstc.edu/confessions/augs_apol.php",
+          "LIBRARY_OBJECT_DESCRIPTIONS"
+        ],
+        [
+          "https://www.ccel.org/ccel/schaff/creeds1.viii.ii.html",
+          "HISTORICAL_SECONDARY_EDITION_DISCUSSION"
+        ]
+      ],
+      "action": "RETAIN_1530_1531_1540_DISTINCTION_NO_NEW_EDITION_NORMALIZATION",
+      "unresolved": "Textual collation of 1530 witness, specific 1531 issue, and specific 1540 copies remains unperformed",
+      "volumeIds": [
+        "VOL-04"
+      ],
+      "claimIds": [
+        "CL433-13",
+        "CL433-14"
+      ],
+      "historianReviewed": false,
+      "scholarSignoff": false,
+      "newEditorialApproval": false,
+      "primarySourceFullyCollated": false,
+      "evidenceScope": "PUBLIC_WEB_DESK_SCREENING"
+    },
+    {
+      "id": "G443-03",
+      "status": "CONTRADICTORY_INSTITUTIONAL_DATE_STATEMENTS_CONFIRMED",
+      "assessment": "WLB list identifies 1715 Neues Testament in Tamil, shelf Ba Indien 1715 01 (PDF p.2 visually checked). BSI exhibition says the whole Tamil New Testament was published in 1719. Both statements exist; cannot reconcile without object identification, imprint and collation.",
+      "sources": [
+        [
+          "https://www.wlb-stuttgart.de/fileadmin/user_upload/sammlungen/bibeln/Missionsbibeln/Missionsbibel_Stationen.pdf",
+          "INSTITUTIONAL_BIBLIOGRAPHIC_PDF_PAGE2_VISUALLY_CHECKED"
+        ],
+        [
+          "https://www.bsind.org/bsi-archives/",
+          "INSTITUTIONAL_EXHIBIT_TEXT_DIRECT_READ"
+        ]
+      ],
+      "action": "HOLD_FIRST_FULL_PUBLICATION_YEAR_AS_DISPUTED_AND_REQUEST_BOTH_OBJECT_DESCRIPTIONS",
+      "unresolved": "No verified 1719 object shelfmark/colophon or proof that 1715 holding had exactly the same print/edition as BSI claim",
+      "volumeIds": [
+        "VOL-06"
+      ],
+      "claimIds": [
+        "CL433-20",
+        "CL433-21"
+      ],
+      "historianReviewed": false,
+      "scholarSignoff": false,
+      "newEditorialApproval": false,
+      "primarySourceFullyCollated": false,
+      "evidenceScope": "PUBLIC_WEB_DESK_SCREENING"
+    },
+    {
+      "id": "G443-04",
+      "status": "SCHOLARLY_DISAGREEMENT_OVER_1779_OR_1784_FOUND",
+      "assessment": "2012 Korean Catholic history introduction explicitly reports competing 1779 and 1784 beginnings. Other scholarly treatment dates Yi Seung-hun baptism 1784. Maintain separation between 1779 study gatherings, 1784 baptism and community formation.",
+      "sources": [
+        [
+          "https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART001667406",
+          "PEER_REVIEWED_SCHOLARLY_INTRODUCTION"
+        ],
+        [
+          "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003153946",
+          "KCI_RECENT_SCHOLARLY_ABSTRACT"
+        ],
+        [
+          "https://www.cambridge.org/core/journals/journal-of-ecclesiastical-history/article/abs/persecuted-church-roman-catholicism-in-early-nineteenthcentury-korea/3FB4C7D77948A154E617C49292267D28",
+          "PEER_REVIEWED_ABSTRACT"
+        ]
+      ],
+      "action": "KEEP_TWO_EVENT_TYPES_AND_HISTORIOGRAPHIC_DISPUTE; avoid false 1779 founding certainty",
+      "unresolved": "Full source texts, interpretative identity and community founding definition require expert review",
+      "volumeIds": [
+        "VOL-07"
+      ],
+      "claimIds": [
+        "CL433-23",
+        "CL433-24"
+      ],
+      "historianReviewed": false,
+      "scholarSignoff": false,
+      "newEditorialApproval": false,
+      "primarySourceFullyCollated": false,
+      "evidenceScope": "PUBLIC_WEB_DESK_SCREENING"
+    },
+    {
+      "id": "G443-05",
+      "status": "CHURCH_DOCUMENT_CONFIRMING_1968_1979_AND_CONFESSIONAL_VIEW",
+      "assessment": "Vatican 1984 instruction names Medellin 1968/Puebla 1979, advocates commitment to poor and criticizes particular Marxist-informed readings. Church source reflects one theological authority, not a neutral evaluation of every liberation theology school.",
+      "sources": [
+        [
+          "https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_con_cfaith_doc_19840806_theology-liberation_en.html",
+          "CATHOLIC_INSTITUTIONAL_PRIMARY_DOCUMENT"
+        ]
+      ],
+      "action": "RETAIN_1968_1979_AS_CHURCH_HISTORY; HOLD_INTERPRETATIVE_THEOLOGICAL_ADJUDICATION",
+      "unresolved": "Include distinct Latin American theological scholarship and Protestant/Pentecostal interpretations before claiming balanced full historiography",
+      "volumeIds": [
+        "VOL-07"
+      ],
+      "claimIds": [
+        "CL441-03"
+      ],
+      "historianReviewed": false,
+      "scholarSignoff": false,
+      "newEditorialApproval": false,
+      "primarySourceFullyCollated": false,
+      "evidenceScope": "PUBLIC_WEB_DESK_SCREENING"
+    },
+    {
+      "id": "G443-06",
+      "status": "MECC_ORGANIZATIONAL_CHRONOLOGY_DIRECTLY_CORROBORATED",
+      "assessment": "MECC itself lists establishment 1974 with Evangelical, Oriental Orthodox and Greek Orthodox families and Catholic inclusion in 1990. This is organizational membership, not doctrinal union or a guarantee all regional churches belong.",
+      "sources": [
+        [
+          "https://www.mecc.org/mission-and-history",
+          "OFFICIAL_INSTITUTIONAL_HISTORY"
+        ]
+      ],
+      "action": "KEEP_CHRONOLOGY_1974_1990_WITH_DENOMINATIONAL_BOUNDARIES",
+      "unresolved": "Specialist review needed for accurate Korean terms and individual church family roster",
+      "volumeIds": [
+        "VOL-07"
+      ],
+      "claimIds": [
+        "CL441-04",
+        "CL441-05",
+        "CL441-06"
+      ],
+      "historianReviewed": false,
+      "scholarSignoff": false,
+      "newEditorialApproval": false,
+      "primarySourceFullyCollated": false,
+      "evidenceScope": "PUBLIC_WEB_DESK_SCREENING"
+    },
+    {
+      "id": "G443-07",
+      "status": "KCI_SCHOLARSHIP_SUPPORTS_SEPARATE_KOREAN_POSTWAR_TRAJECTORIES",
+      "assessment": "Studies identify theological/organizational conflicts in Korean Presbyterian divisions; newer research examines post-liberation church-state relations, while minjung theology and democratization are distinct strands. Avoid universal statements about all Korean Christians.",
+      "sources": [
+        [
+          "https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART002090478",
+          "PEER_REVIEWED_KOREAN_HISTORY_ABSTRACT"
+        ],
+        [
+          "https://www.kci.go.kr/kciportal/mobile/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002878060",
+          "PEER_REVIEWED_KOREAN_HISTORY_ABSTRACT"
+        ],
+        [
+          "https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART003319435",
+          "CONTEMPORARY_SCHOLARLY_INTERPRETIVE_ABSTRACT"
+        ]
+      ],
+      "action": "RETAIN_CAUTIOUS_POSTWAR_AND_MINJUNG_CHRISTIANITY_DISTINCTIONS",
+      "unresolved": "Academic positions differ on politics vs doctrinal causation; no unified assessment of all denominations",
+      "volumeIds": [
+        "VOL-07"
+      ],
+      "claimIds": [
+        "CL441-11",
+        "CL441-13"
+      ],
+      "historianReviewed": false,
+      "scholarSignoff": false,
+      "newEditorialApproval": false,
+      "primarySourceFullyCollated": false,
+      "evidenceScope": "PUBLIC_WEB_DESK_SCREENING"
+    },
+    {
+      "id": "G443-08",
+      "status": "WALDENSIAN_1532_HISTORIOGRAPHIC_MYTH_AND_LATER_NAMING_FOUND",
+      "assessment": "American Waldensian Society reports 'Synod of Chanforan' name assigned in 1847 and a 1532 discussions manuscript. Open scholarly work treats 1532 meeting as historical significant but its organizational conversion as gradual, with some historians disputing event interpretation.",
+      "sources": [
+        [
+          "https://www.waldensian.org/history/encounters-with-the-reformation-in-the-1530s/",
+          "COMMUNITY_HISTORICAL_RESEARCH"
+        ],
+        [
+          "https://www.mdpi.com/2077-1444/14/1/4",
+          "PEER_REVIEWED_OPEN_ACCESS_INTERPRETIVE_RESEARCH"
+        ]
+      ],
+      "action": "RETAIN_ORIGINAL_C417-18_HOLD_FOR_FORMAL_RENAMING_AND_DIRECT_ORGANIZATIONAL_SUCCESSION; keep cautious article wording",
+      "unresolved": "Direct text of 1532 propositions, manuscript provenance and retrospective historiography require expert assessment",
+      "volumeIds": [
+        "VOL-03"
+      ],
+      "claimIds": [
+        "CL433-11"
+      ],
+      "historianReviewed": false,
+      "scholarSignoff": false,
+      "newEditorialApproval": false,
+      "primarySourceFullyCollated": false,
+      "evidenceScope": "PUBLIC_WEB_DESK_SCREENING"
+    }
+  ],
+  "counts": {
+    "totalP0": 8,
+    "firstSourceDirectAndSecondaryDeskScreened": 8,
+    "scholarSignoffs": 0,
+    "humanResponses": 0,
+    "exactOpenBibliographicConflictCases": 1,
+    "expertDecisionsStillRequired": 8
+  },
+  "conventions": {
+    "sourceTiers": [
+      "original manuscript facsimile individually inspected",
+      "catalogued object bibliographic record",
+      "academic full text",
+      "journal abstract",
+      "institutional retrospective history"
+    ],
+    "factCheckedPublicSourceNotHumanApproval": true,
+    "citationsMayBeSourcesOfInstitutionalClaimsButNotAllAcademicConsensus": true
+  },
+  "highRiskStillHeld": [
+    "C417-11",
+    "C417-12",
+    "C417-18",
+    "TAMIL-1719"
+  ],
+  "release": {
+    "canShip": false,
+    "canMergeMain": false,
+    "canImportAIStudio": false
+  }
+}
