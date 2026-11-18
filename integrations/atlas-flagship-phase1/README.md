@@ -291,3 +291,22 @@ ATLAS_BROWSER=chromium node --test browser-smoke.test.mjs
 **테스트:** `v464-early-print-parallel-contract.test.mjs`, 기존 `v463-original-print-witness-contract.test.mjs`.
 
 **다음 핵심 연구:** W2118 원본 열람 및 동일 조항 대조를 먼저 시도하고, K·Z 서명 필사본 원문 15조와 1529년 인쇄계통이 어떻게 연결되는지 확정한다. `main`, AI Studio 운영 앱, 기존 통합 역사 원고 미변경, `can_ship=false`, `can_merge_main=false`, `can_import_ai_studio=false` 유지.
+
+## V4.65 — 취리히 W2118 직접 원본 판독: W2119와 인쇄자 콜로폰 차이 확인
+
+V4.64에서 DOI 리다이렉트 오류로 **서지만 확인됐던 1529년 취리히 W2118**을 e-rara의 **실제 레코드 `291747`**로 찾아냈다.
+
+- 원본 서지: **[e-rara W2118](https://www.e-rara.ch/zuz/content/titleinfo/291747)**, `VD16 W2118`, Vischer C162, `Zwingli MvK A 81,8`. **[원본 9쪽 PDF](https://www.e-rara.ch/zuz/download/pdf/291747)**, [IIIF manifest](https://www.e-rara.ch/i3f/v20/291747/manifest). e-rara 표제정보의 **Public Domain Mark**와 출처 표기 요청 확인.
+- **W2118 실제 원본 인쇄 지면 판독:** PDF 0기준 p3–4 제7조, p5 제13조, p6 제15조, p7 서명자 목록. 제7·13·15조의 취리히 Z 추가문구에 대응하는 내용이 인쇄돼 있고 제15조는 성찬에 관한 공통 진술과 신체적 임재 방식의 미합의를 함께 기록한다.
+- **W2119와 비교:** [기존 원본](https://www.e-rara.ch/zuz/download/pdf/170052), PDF p4 제7조, p5 제13조, p6 제15조, p7 서명면. **마지막 인쇄면의 콜로폰에 차이가 있다.** W2118 p7에는 인쇄된 서명자 명단 아래 인쇄자 표시가 없지만 W2119 p7에는 **취리히/크리스토프 프로샤우어 인쇄자 표시가 추가되어 있다.**
+- **추론 범위:** 두 취리히 인쇄판의 **명제 내용 대응**과 **말미 인쇄표시 차이**는 실제 인쇄 지면으로 확인했다. 그 차이만으로 **인쇄 선후, 별도의 전체 조판, 공통 저본, 필사 Z/K와 동일성**은 확정할 수 없다. W2119에는 수기 라틴어 주석이 존재하나 그 내용과 작성자는 검증하지 않았다.
+- **문헌 계통 실제 수정:** `ATLAS_V459_MANUSCRIPT_PRINT_WITNESS_VARIANT_GRAPH.json`의 W2118을 카탈로그 전용에서 **당대 인쇄 본문 직접 확인**으로 승격, W2119 콜로폰 정보도 별도로 추가. 과거 V4.64 당시 W2118 미열람 상태를 기록한 이력 데이터는 역사적 스냅샷으로 보존한다.
+- **증거 상태:** 원본 PDF의 해당 지면은 화면으로 판독했으나 원본 파일을 저장하거나 SHA256을 확보하지 못했고, 정확한 활자·철자 전체 전사·전승 계보는 미완료. **K/Z 두 서명 필사본 제15조 및 1531/1540 라틴어 두 제10조 지면 = 여전히 0/4**.
+- **회귀검증:** GitHub 원본 코드를 V8에서 Node 모듈 로드/파일 읽기만 대체한 적응 실행으로 V4.65 **5/5**, V4.64 **5/5**, V4.63 **5/5**, 합계 **15/15 통과**. **실제 `node --test`, GitHub Actions 및 역사 전문가 승인 성공은 확인되지 않았음**. 연구 CI에 별도 계약 테스트 추가.
+
+**한국어 판본 대조 연구:** [V4.65 W2118·W2119 제15조와 콜로폰](./V465_W2118_W2119_ORIGINAL_1529_PRINT_COLOPHON_AND_ART15_KO.md)  
+**지면별 구조화 근거:** `research/data/ATLAS_V465_ZURICH_W2118_W2119_DIRECT_ARTICLES_AND_COLOPHON_COMPARISON.json`  
+**감사 기록:** `research/data/ATLAS_V465_W2118_W2119_ACTUAL_PRINT_VISUAL_INSPECTION_AUDIT.json`  
+**회귀검사:** `v465-zurich-original-print-colophon-contract.test.mjs`
+
+**다음 작업:** 인쇄본 세 종을 더 늘리기보다는 W2118/W2119의 실제 활자 배열 대조 → 서명본 **Z·K의 제15조 직접 교감**으로 집중한다. 별도로 1531 C4734/1540 C4713의 라틴어 제10조 직접 인쇄면을 확보한다. 전문가 서명·독자 실측·AI Studio 반영 전까지 `can_ship=false`, `can_merge_main=false`, `can_import_ai_studio=false`. `main`, 실제 운영 앱과 기존 역사 원고는 변경하지 않았다.
