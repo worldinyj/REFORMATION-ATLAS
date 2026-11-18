@@ -1,0 +1,35 @@
+/* Scoped candidate styles; no global element selectors. */
+.atlas-fp{--fp-ink:#1c3131;--fp-muted:#5c716c;--fp-accent:#245a4d;--fp-rule:#dce5df;--fp-paper:#fff;--fp-bg:#f5f7f3;color:var(--fp-ink);font-family:inherit;line-height:1.7;max-width:1450px;margin:0 auto;padding:clamp(14px,3vw,32px);background:var(--fp-bg)}
+.atlas-fp *{box-sizing:border-box}.atlas-fp button{font:inherit;cursor:pointer}.atlas-fp button:focus-visible,.atlas-fp a:focus-visible{outline:3px solid #e2bd61;outline-offset:3px}
+.atlas-fp h1,.atlas-fp h2,.atlas-fp h3,.atlas-fp p{margin-top:0}
+.atlas-fp-heading{padding:24px clamp(18px,2.6vw,38px) 28px;border:1px solid var(--fp-rule);border-radius:16px;background:var(--fp-paper);margin-bottom:20px}
+.atlas-fp-kicker,.atlas-fp-section-kicker{letter-spacing:.16em;text-transform:uppercase;font-size:.7rem;font-weight:750;color:var(--fp-accent)}
+.atlas-fp-topline{display:flex;justify-content:space-between;align-items:start;gap:14px;flex-wrap:wrap}
+.atlas-fp h1{font:500 clamp(1.65rem,3.5vw,2.7rem)/1.27 Georgia,'Noto Serif KR',serif;letter-spacing:-.04em;margin:12px 0}
+.atlas-fp-caveat{background:#f4ebda;color:#624e2a;padding:5px 12px;border-radius:100px;white-space:nowrap;font-size:.77rem}
+.atlas-fp-heading>p{font-size:1.04rem;color:var(--fp-muted);margin-bottom:8px}
+.atlas-fp-meta{font-size:.78rem;color:var(--fp-accent)}
+.atlas-fp-layout{display:grid;grid-template-columns:240px minmax(0,1fr) 270px;gap:16px;align-items:start}
+.atlas-fp-timeline,.atlas-fp-main,.atlas-fp-sources{border-radius:15px;border:1px solid var(--fp-rule);background:var(--fp-paper);padding:20px;min-width:0}
+.atlas-fp-timeline h2,.atlas-fp-sources h2{font-size:1.18rem}
+.atlas-fp-help,.atlas-fp-timeline-footnote{font-size:.79rem;color:var(--fp-muted)}
+.atlas-fp-year{width:100%;display:grid;gap:2px;text-align:left;border:1px solid var(--fp-rule);background:var(--fp-paper);border-radius:10px;padding:12px;margin:10px 0;color:var(--fp-ink)}
+.atlas-fp-year span{color:var(--fp-accent);font-size:.8rem;font-weight:750}.atlas-fp-year strong{font-size:.88rem}
+.atlas-fp-year.selected{background:#e8f2ec;border-color:#9cbdad}.atlas-fp-year:hover{border-color:#669889}
+.atlas-fp-main h2{font:550 clamp(1.4rem,2.5vw,2rem)/1.35 Georgia,'Noto Serif KR',serif;margin:8px 0 14px}
+.atlas-fp-place{font-size:.86rem;color:var(--fp-muted)}.atlas-fp-place strong{color:var(--fp-accent);margin-right:10px}
+.atlas-fp-lead{font-size:1.06rem;margin:22px 0}.atlas-fp-concern{background:#f1f5ef;padding:15px;border-left:3px solid var(--fp-accent);margin-bottom:26px}
+.atlas-fp-concern strong{font-size:.82rem}.atlas-fp-concern p{font-size:.88rem;margin:6px 0 0}
+.atlas-fp-tabs{display:flex;gap:8px;flex-wrap:wrap;border-bottom:1px solid var(--fp-rule);padding-bottom:12px}
+.atlas-fp-tabs button,.atlas-fp-toolbar button{background:#fff;color:var(--fp-accent);border:1px solid var(--fp-rule);border-radius:9px;padding:8px 14px;font-size:.82rem}
+.atlas-fp-tabs button[aria-selected=true]{background:var(--fp-accent);color:#fff;border-color:var(--fp-accent)}
+.atlas-fp-reading{padding:20px 0}.atlas-fp-reading-meta{font-size:.81rem;color:var(--fp-muted);font-weight:750;margin-bottom:15px}
+.atlas-fp-prose{font:400 1rem/1.96 Georgia,'Noto Serif KR',serif}.atlas-fp-prose p{margin:0 0 1.4em;overflow-wrap:anywhere}.atlas-fp-prose h3{font-size:1.12rem}
+.atlas-fp-toolbar{display:flex;gap:10px;flex-wrap:wrap;border-top:1px solid var(--fp-rule);padding-top:15px}
+.atlas-fp-sources .atlas-fp-source{padding:14px 0;border-bottom:1px solid var(--fp-rule)}.atlas-fp-source h3{font-size:.92rem;line-height:1.5}
+.atlas-fp-source p{font-size:.78rem;color:var(--fp-muted);margin-bottom:8px}.atlas-fp-source a{font-size:.82rem;color:var(--fp-accent);overflow-wrap:anywhere}
+.atlas-fp-source-warning{font-size:.76rem;margin-top:15px;padding:10px;background:#fcf6e7;color:#755829;border-radius:8px}
+.atlas-fp-footer{font-size:.75rem;color:var(--fp-muted);padding:18px 8px}
+@media(max-width:1100px){.atlas-fp-layout{grid-template-columns:220px 1fr}.atlas-fp-sources{grid-column:2}.atlas-fp-main{grid-column:2}.atlas-fp-timeline{grid-row:1/span 2}}
+@media(max-width:720px){.atlas-fp-layout{grid-template-columns:minmax(0,1fr)}.atlas-fp-timeline,.atlas-fp-main,.atlas-fp-sources{grid-row:auto;grid-column:1}.atlas-fp-timeline{display:flex;gap:7px;overflow-x:auto;align-items:stretch;flex-wrap:nowrap;padding:14px}.atlas-fp-timeline h2,.atlas-fp-timeline .atlas-fp-help,.atlas-fp-timeline-footnote{display:none}.atlas-fp-year{min-width:180px;max-width:205px;margin:0;flex:0 0 auto}}
+@media(prefers-reduced-motion:reduce){.atlas-fp *{scroll-behavior:auto}}
