@@ -26,7 +26,7 @@ h1{font:500 clamp(2rem,4vw,3.15rem)/1.2 Georgia,serif;letter-spacing:-.045em;mar
 .compare{background:#f1f5f0;padding:14px;border-radius:9px}.compare table{border-collapse:collapse;width:100%;font-size:.82rem}.compare th,.compare td{border-bottom:1px solid var(--line);padding:8px;text-align:left;vertical-align:top}
 [hidden]{display:none!important}footer{max-width:1300px;margin:auto;padding:0 24px 30px;color:var(--muted);font-size:.78rem}
 @media(max-width:1050px){.frame{grid-template-columns:210px 1fr}.side{grid-column:2}}
-@media(max-width:700px){.frame{display:block;padding:0 12px 30px}.nav{display:flex;overflow-x:auto;gap:7px;padding:10px;margin-bottom:12px}.nav h2,.nav .help{display:none}.step{margin:0;min-width:165px;max-width:190px}.main{padding:20px;margin-bottom:12px}.side{margin-bottom:12px}.header{padding:23px 16px}}
+@media(max-width:700px){.frame{display:block;padding:0 12px 30px}.nav{display:block;overflow-x:auto;padding:10px;margin-bottom:12px}.nav h2,.nav .help{display:none}.nav #steps{display:flex;gap:7px;width:max-content;min-width:100%}.step{margin:0;flex:0 0 165px;max-width:190px}.main{padding:20px;margin-bottom:12px}.side{margin-bottom:12px}.header{padding:23px 16px}}
 @media print{.nav,.side,.actions,footer{display:none!important}.frame{display:block}.main{border:none}}
 </style></head>
 <body>
@@ -112,7 +112,7 @@ for(const [index,id] of ["l0","l1"].entries()){
  byId(id).addEventListener("keydown",event=>{
   if(!["ArrowLeft","ArrowRight","Home","End"].includes(event.key))return;
   event.preventDefault();
-  const next=event.key==="Home"?0:event.key==="End"?1:(index+(event.key==="ArrowRight"?1:1))%2;
+  const next=event.key==="Home"?0:event.key==="End"?1:(index+1)%2;
   const target=byId(["l0","l1"][next]);target.click();target.focus();
  });
 }
