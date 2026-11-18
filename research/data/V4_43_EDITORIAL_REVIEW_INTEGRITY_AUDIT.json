@@ -1,0 +1,88 @@
+{
+  "schema": "ATLAS_V443_EDITORIAL_REVIEW_INTEGRITY_AND_RELEASE_GATE",
+  "version": "V4.43",
+  "date": "2026-11-18",
+  "status": "PASS_AUTOMATED_STRUCTURE_AND_PROVENANCE_NOT_HUMAN_HISTORICAL_VERIFICATION",
+  "files": [
+    {
+      "path": "research/data/V4_42_BALANCED_L0_EIGHT_VOLUME_READER_CANDIDATE.json",
+      "blobSha": "b0b9f43e68526ae5c2219b15d3dd562d5253e4d8"
+    },
+    {
+      "path": "research/data/V4_43_L0_EDITORIAL_REDLINE_EIGHT_VOLUME_CANDIDATE.json",
+      "blobSha": "10b73c919ec6cc889e3c64be6dc61e184f5a8e5c"
+    },
+    {
+      "path": "research/data/V4_43_POST_EDIT_51_CLAIM_CROSSWALK.json",
+      "blobSha": "e307b6b955246d42b708640b338dc1529cdfa518"
+    },
+    {
+      "path": "research/data/V4_43_EXPERT_ISSUE_QUEUE_AND_READER_PILOT_PLAN.json",
+      "blobSha": "80afe3f49fa2486c8a928b60069e50f8f474f3d1"
+    },
+    {
+      "path": "docs/01_CONTENT/OVERVIEW/V443_EIGHT_VOLUME_L0_REVIEW_REVISED_MANUSCRIPT_KO.md",
+      "blobSha": "09c1f8d3d708ae8128caf939e123046fa4e77a67"
+    },
+    {
+      "path": "research/V443_L0_EDITORIAL_REDLINE_AND_HISTORIAN_PRIORITIES_KO.md",
+      "blobSha": "fee8d1804961e7051231fa1879dacfea7302d28e"
+    },
+    {
+      "path": "research/V443_L0_READER_TERMINOLOGY_HELPER_DRAFT_KO.md",
+      "blobSha": "131363f78607eec2bb690a8418efabb9318a45ac"
+    },
+    {
+      "path": "handoff/V429_AI_STUDIO_PRIVATE_L0_CONTENT_IMPORT.json",
+      "blobSha": "64c27c0dfe05394acbb049807e4c4384d58908b9"
+    }
+  ],
+  "metrics": {
+    "historicalVolumes": 7,
+    "thematicArchiveVolumes": 1,
+    "sourceReaderChars": 18598,
+    "revisedReaderChars": 18492,
+    "editedVolumes": 8,
+    "controlledEdits": 15,
+    "claimReferences": 51,
+    "uniqueVisibleAnchors": 49,
+    "priorExactAnchors": 44,
+    "priorRewordedPendingHumanReview": 5,
+    "researchOnlyClaims": 2,
+    "priorityP0": 8,
+    "priorityP1": 4,
+    "readerGlossaryCandidateTerms": 18,
+    "originalAppVolumes": 8,
+    "originalAppThemes": 6,
+    "originalAppThemeLinks": 42,
+    "originalIntroChapters": 6,
+    "actualHistorianSignoffs": 0,
+    "actualReaderSessions": 0,
+    "appEdits": 0
+  },
+  "validated": [
+    "Fifteen exact before-after editorial changes applied across eight chapters",
+    "Reconstruction of all eight body texts from V4.42 plus edit ledger checked",
+    "All 51 source reference dispositions still accounted for; 49 visible anchors unique and offset-matched",
+    "All eight Markdown manuscript chapter bodies match the JSON candidate",
+    "Twelve historian review issues referenced and not marked completed",
+    "V4.29 frozen app blob SHA retained and 8/6/42/6 structure unchanged",
+    "Unresolved Tamil year difference and original C417 high-risk holds retained",
+    "Expert signoffs, real reader scores and app edits remain zero"
+  ],
+  "highRiskHolds": [
+    "C417-11",
+    "C417-12",
+    "C417-18"
+  ],
+  "tamilPublicationDifference": "1715 complete-content bibliographic holding versus 1719 Bible Society of India narrative unadjudicated",
+  "pdfFacsimileReview": "Not completed for newly opened Mohr Siebeck scholarly PDF; do not claim screenshot/folio collation",
+  "publication": {
+    "canShip": false,
+    "canMergeMain": false,
+    "canImportAIStudio": false,
+    "canClaimExpertApproval": false,
+    "canClaimHumanReaderTests": false
+  },
+  "failures": []
+}
