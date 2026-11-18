@@ -1,0 +1,1122 @@
+{
+  "schema": "ATLAS_V442_SOURCE_TO_READER_51_CLAIM_DISPOSITION",
+  "version": "V4.42",
+  "date": "2026-11-18",
+  "description": "Explicit, reviewable provenance map between full V4.41 evidence and condensed V4.42 L0 manuscript. Lost exact anchors are not silently discarded or claimed to be unchanged.",
+  "provenance": [
+    {
+      "path": "research/data/V4_42_BALANCED_L0_EIGHT_VOLUME_READER_CANDIDATE.json",
+      "gitBlobSha": "b0b9f43e68526ae5c2219b15d3dd562d5253e4d8"
+    },
+    {
+      "path": "research/data/V4_41_FOUR_REGION_CLAIM_AND_INTEGRITY_AUDIT.json",
+      "gitBlobSha": "1cb758fad2e86d21539a5a7bab5fcd5423bbcba0"
+    },
+    {
+      "path": "research/data/V4_41_FOUR_REGION_MACRO_REVISED_L0_CANDIDATE.json",
+      "gitBlobSha": "58a4d5c6ce4f32d3ef9417928e73a8eba01bda61"
+    },
+    {
+      "path": "research/data/V4_41_FOUR_REGION_SOURCE_AND_CLAIM_REGISTER.json",
+      "gitBlobSha": "c77d52a9d3b543d0dbae47ec5c8874e3bfedcaac"
+    },
+    {
+      "path": "research/data/V4_40_NEW_MODERN_HISTORY_SOURCE_CLAIM_LEDGER.json",
+      "gitBlobSha": "493da530108727077ce025bd17ea0497755eaf0d"
+    }
+  ],
+  "originalClaimReferenceCount": 51,
+  "counts": {
+    "exactL0": 44,
+    "rewordedL0RequireHumanReview": 5,
+    "researchOnlyDeferToV441": 2,
+    "allAccountedFor": 51
+  },
+  "claimMap": [
+    {
+      "id": "CL433-01",
+      "volumeId": "VOL-01",
+      "sourceEvidenceStatus": "SOURCE_SUPPORTED",
+      "provenanceOriginal": {
+        "version": "V439",
+        "path": "research/data/V4_41_FOUR_REGION_MACRO_REVISED_L0_CANDIDATE.json",
+        "originalAnchor": "악숨 왕국의 4세기 왕실 수용",
+        "offset": 1136
+      },
+      "disposition": "IN_L0_EXACT",
+      "readerL0": {
+        "anchor": "악숨 왕국의 4세기 왕실 수용",
+        "offset": 1136
+      },
+      "sourceIds": [],
+      "explanation": null,
+      "allowAutoPromotion": false,
+      "humanSignoff": false
+    },
+    {
+      "id": "CL433-02",
+      "volumeId": "VOL-01",
+      "sourceEvidenceStatus": "REVIEW_REQUIRED",
+      "provenanceOriginal": {
+        "version": "V439",
+        "path": "research/data/V4_41_FOUR_REGION_MACRO_REVISED_L0_CANDIDATE.json",
+        "originalAnchor": "니케아(325), 콘스탄티노폴리스(381), 에페소(431), 칼케돈(451)",
+        "offset": 1363
+      },
+      "disposition": "IN_L0_EXACT",
+      "readerL0": {
+        "anchor": "니케아(325), 콘스탄티노폴리스(381), 에페소(431), 칼케돈(451)",
+        "offset": 1363
+      },
+      "sourceIds": [],
+      "explanation": null,
+      "allowAutoPromotion": false,
+      "humanSignoff": false
+    },
+    {
+      "id": "CL433-03",
+      "volumeId": "VOL-01",
+      "sourceEvidenceStatus": "REVIEW_REQUIRED",
+      "provenanceOriginal": {
+        "version": "V439",
+        "path": "research/data/V4_41_FOUR_REGION_MACRO_REVISED_L0_CANDIDATE.json",
+        "originalAnchor": "동방 정교회, 오리엔트 정교회, 동방교회",
+        "offset": 1549
+      },
+      "disposition": "IN_L0_EXACT",
+      "readerL0": {
+        "anchor": "동방 정교회, 오리엔트 정교회, 동방교회",
+        "offset": 1549
+      },
+      "sourceIds": [],
+      "explanation": null,
+      "allowAutoPromotion": false,
+      "humanSignoff": false
+    },
+    {
+      "id": "CL433-04",
+      "volumeId": "VOL-02",
+      "sourceEvidenceStatus": "SOURCE_SUPPORTED",
+      "provenanceOriginal": {
+        "version": "V439",
+        "path": "research/data/V4_41_FOUR_REGION_MACRO_REVISED_L0_CANDIDATE.json",
+        "originalAnchor": "781년에 건립된 자료",
+        "offset": 1340
+      },
+      "disposition": "IN_L0_EXACT",
+      "readerL0": {
+        "anchor": "781년에 건립된 자료",
+        "offset": 1340
+      },
+      "sourceIds": [],
+      "explanation": null,
+      "allowAutoPromotion": false,
+      "humanSignoff": false
+    },
+    {
+      "id": "CL433-05",
+      "volumeId": "VOL-02",
+      "sourceEvidenceStatus": "SOURCE_SUPPORTED",
+      "provenanceOriginal": {
+        "version": "V439",
+        "path": "research/data/V4_41_FOUR_REGION_MACRO_REVISED_L0_CANDIDATE.json",
+        "originalAnchor": "635년에 중국에 전래되었다고 회고",
+        "offset": 1365
+      },
+      "disposition": "IN_L0_EXACT",
+      "readerL0": {
+        "anchor": "635년에 중국에 전래되었다고 회고",
+        "offset": 1365
+      },
+      "sourceIds": [],
+      "explanation": null,
+      "allowAutoPromotion": false,
+      "humanSignoff": false
+    },
+    {
+      "id": "CL433-06",
+      "volumeId": "VOL-02",
+      "sourceEvidenceStatus": "REVIEW_REQUIRED",
+      "provenanceOriginal": {
+        "version": "V439",
+        "path": "research/data/V4_41_FOUR_REGION_MACRO_REVISED_L0_CANDIDATE.json",
+        "originalAnchor": "1054년**의 갈등",
+        "offset": 1681
+      },
+      "disposition": "IN_L0_EXACT",
+      "readerL0": {
+        "anchor": "1054년**의 갈등",
+        "offset": 1681
+      },
+      "sourceIds": [],
+      "explanation": null,
+      "allowAutoPromotion": false,
+      "humanSignoff": false
+    },
+    {
+      "id": "CL433-07",
+      "volumeId": "VOL-02",
+      "sourceEvidenceStatus": "HOLD",
+      "provenanceOriginal": {
+        "version": "V439",
+        "path": "research/data/V4_41_FOUR_REGION_MACRO_REVISED_L0_CANDIDATE.json",
+        "originalAnchor": "사도 토마스가 직접 그곳에 방문한 시기",
+        "offset": 1533
+      },
+      "disposition": "IN_L0_EXACT",
+      "readerL0": {
+        "anchor": "사도 토마스가 직접 그곳에 방문한 시기",
+        "offset": 1533
+      },
+      "sourceIds": [],
+      "explanation": null,
+      "allowAutoPromotion": false,
+      "humanSignoff": false
+    },
+    {
+      "id": "CL433-08",
+      "volumeId": "VOL-03",
+      "sourceEvidenceStatus": "SOURCE_SUPPORTED",
+      "provenanceOriginal": {
+        "version": "V439",
+        "path": "research/data/V4_41_FOUR_REGION_MACRO_REVISED_L0_CANDIDATE.json",
+        "originalAnchor": "위클리프는 성찬 후에도 빵의 실체가 남는다는 견해(remanence)를 주장한 반면",
+        "offset": 1052
+      },
+      "disposition": "IN_L0_EXACT",
+      "readerL0": {
+        "anchor": "위클리프는 성찬 후에도 빵의 실체가 남는다는 견해(remanence)를 주장한 반면",
+        "offset": 1052
+      },
+      "sourceIds": [],
+      "explanation": null,
+      "allowAutoPromotion": false,
+      "humanSignoff": false
+    },
+    {
+      "id": "CL433-09",
+      "volumeId": "VOL-03",
+      "sourceEvidenceStatus": "SOURCE_SUPPORTED",
+      "provenanceOriginal": {
+        "version": "V439",
+        "path": "research/data/V4_41_FOUR_REGION_MACRO_REVISED_L0_CANDIDATE.json",
+        "originalAnchor": "후스는 실체변화(transubstantiation)를 수용했다.",
+        "offset": 1104
+      },
+      "disposition": "IN_L0_EXACT",
+      "readerL0": {
+        "anchor": "후스는 실체변화(transubstantiation)를 수용했다.",
+        "offset": 1104
+      },
+      "sourceIds": [],
+      "explanation": null,
+      "allowAutoPromotion": false,
+      "humanSignoff": false
+    },
+    {
+      "id": "CL433-10",
+      "volumeId": "VOL-03",
+      "sourceEvidenceStatus": "REVIEW_REQUIRED",
+      "provenanceOriginal": {
+        "version": "V439",
+        "path": "research/data/V4_41_FOUR_REGION_MACRO_REVISED_L0_CANDIDATE.json",
+        "originalAnchor": "1420년 주요 문안, 1421년 차슬라프 회의",
+        "offset": 1494
+      },
+      "disposition": "IN_L0_EXACT",
+      "readerL0": {
+        "anchor": "1420년 주요 문안, 1421년 차슬라프 회의",
+        "offset": 1494
+      },
+      "sourceIds": [],
+      "explanation": null,
+      "allowAutoPromotion": false,
+      "humanSignoff": false
+    },
+    {
+      "id": "CL433-11",
+      "volumeId": "VOL-03",
+      "sourceEvidenceStatus": "HOLD",
+      "provenanceOriginal": {
+        "version": "V439",
+        "path": "research/data/V4_41_FOUR_REGION_MACRO_REVISED_L0_CANDIDATE.json",
+        "originalAnchor": "왈도파의 1532년 변화를 설명할 때에는",
+        "offset": 1799
+      },
+      "disposition": "IN_L0_EXACT",
+      "readerL0": {
+        "anchor": "왈도파의 1532년 변화를 설명할 때에는",
+        "offset": 1799
+      },
+      "sourceIds": [],
+      "explanation": null,
+      "allowAutoPromotion": false,
+      "humanSignoff": false
+    },
+    {
+      "id": "CL433-12",
+      "volumeId": "VOL-04",
+      "sourceEvidenceStatus": "SOURCE_SUPPORTED",
+      "provenanceOriginal": {
+        "version": "V439",
+        "path": "research/data/V4_41_FOUR_REGION_MACRO_REVISED_L0_CANDIDATE.json",
+        "originalAnchor": "1529년 마르부르크에서는",
+        "offset": 1032
+      },
+      "disposition": "IN_L0_EXACT",
+      "readerL0": {
+        "anchor": "1529년 마르부르크에서는",
+        "offset": 1032
+      },
+      "sourceIds": [],
+      "explanation": null,
+      "allowAutoPromotion": false,
+      "humanSignoff": false
+    },
+    {
+      "id": "CL433-13",
+      "volumeId": "VOL-04",
+      "sourceEvidenceStatus": "REVIEW_REQUIRED",
+      "provenanceOriginal": {
+        "version": "V439",
+        "path": "research/data/V4_41_FOUR_REGION_MACRO_REVISED_L0_CANDIDATE.json",
+        "originalAnchor": "1530년 제국회의에서 제시되었고 당시 비공식 인쇄본도 유통되었다.",
+        "offset": 1200
+      },
+      "disposition": "IN_L0_EXACT",
+      "readerL0": {
+        "anchor": "1530년 제국회의에서 제시되었고 당시 비공식 인쇄본도 유통되었다.",
+        "offset": 1200
+      },
+      "sourceIds": [],
+      "explanation": null,
+      "allowAutoPromotion": false,
+      "humanSignoff": false
+    },
+    {
+      "id": "CL433-14",
+      "volumeId": "VOL-04",
+      "sourceEvidenceStatus": "HOLD",
+      "provenanceOriginal": {
+        "version": "V439",
+        "path": "research/data/V4_41_FOUR_REGION_MACRO_REVISED_L0_CANDIDATE.json",
+        "originalAnchor": "판본 사이 세부 문장의 의미와 어떤 것이 정본인지",
+        "offset": 1321
+      },
+      "disposition": "IN_L0_EXACT",
+      "readerL0": {
+        "anchor": "판본 사이 세부 문장의 의미와 어떤 것이 정본인지",
+        "offset": 1321
+      },
+      "sourceIds": [],
+      "explanation": null,
+      "allowAutoPromotion": false,
+      "humanSignoff": false
+    },
+    {
+      "id": "CL433-15",
+      "volumeId": "VOL-04",
+      "sourceEvidenceStatus": "REVIEW_REQUIRED",
+      "provenanceOriginal": {
+        "version": "V439",
+        "path": "research/data/V4_41_FOUR_REGION_MACRO_REVISED_L0_CANDIDATE.json",
+        "originalAnchor": "유럽의 11개 지역을 나란히 읽는 이유",
+        "offset": 1826
+      },
+      "disposition": "IN_L0_EXACT",
+      "readerL0": {
+        "anchor": "유럽의 11개 지역을 나란히 읽는 이유",
+        "offset": 1826
+      },
+      "sourceIds": [],
+      "explanation": null,
+      "allowAutoPromotion": false,
+      "humanSignoff": false
+    },
+    {
+      "id": "CL433-16",
+      "volumeId": "VOL-05",
+      "sourceEvidenceStatus": "SOURCE_SUPPORTED",
+      "provenanceOriginal": {
+        "version": "V439",
+        "path": "research/data/V4_41_FOUR_REGION_MACRO_REVISED_L0_CANDIDATE.json",
+        "originalAnchor": "1545–1547년, 1551–1552년, 1562–1563년",
+        "offset": 1122
+      },
+      "disposition": "IN_L0_EXACT",
+      "readerL0": {
+        "anchor": "1545–1547년, 1551–1552년, 1562–1563년",
+        "offset": 1122
+      },
+      "sourceIds": [],
+      "explanation": null,
+      "allowAutoPromotion": false,
+      "humanSignoff": false
+    },
+    {
+      "id": "CL433-17",
+      "volumeId": "VOL-05",
+      "sourceEvidenceStatus": "SOURCE_SUPPORTED",
+      "provenanceOriginal": {
+        "version": "V439",
+        "path": "research/data/V4_41_FOUR_REGION_MACRO_REVISED_L0_CANDIDATE.json",
+        "originalAnchor": "1555년 아우크스부르크 화의",
+        "offset": 1740
+      },
+      "disposition": "IN_L0_EXACT",
+      "readerL0": {
+        "anchor": "1555년 아우크스부르크 화의",
+        "offset": 1740
+      },
+      "sourceIds": [],
+      "explanation": null,
+      "allowAutoPromotion": false,
+      "humanSignoff": false
+    },
+    {
+      "id": "CL433-18",
+      "volumeId": "VOL-05",
+      "sourceEvidenceStatus": "SOURCE_SUPPORTED",
+      "provenanceOriginal": {
+        "version": "V439",
+        "path": "research/data/V4_41_FOUR_REGION_MACRO_REVISED_L0_CANDIDATE.json",
+        "originalAnchor": "1648년 베스트팔렌의 합의",
+        "offset": 1905
+      },
+      "disposition": "IN_L0_EXACT",
+      "readerL0": {
+        "anchor": "1648년 베스트팔렌의 합의",
+        "offset": 1905
+      },
+      "sourceIds": [],
+      "explanation": null,
+      "allowAutoPromotion": false,
+      "humanSignoff": false
+    },
+    {
+      "id": "CL433-19",
+      "volumeId": "VOL-06",
+      "sourceEvidenceStatus": "REVIEW_REQUIRED",
+      "provenanceOriginal": {
+        "version": "V439",
+        "path": "research/data/V4_41_FOUR_REGION_MACRO_REVISED_L0_CANDIDATE.json",
+        "originalAnchor": "1706년 남인도 트랑케바르에 도착",
+        "offset": 1091
+      },
+      "disposition": "IN_L0_EXACT",
+      "readerL0": {
+        "anchor": "1706년 남인도 트랑케바르에 도착",
+        "offset": 1091
+      },
+      "sourceIds": [],
+      "explanation": null,
+      "allowAutoPromotion": false,
+      "humanSignoff": false
+    },
+    {
+      "id": "CL433-20",
+      "volumeId": "VOL-06",
+      "sourceEvidenceStatus": "SOURCE_SUPPORTED",
+      "provenanceOriginal": {
+        "version": "V439",
+        "path": "research/data/V4_41_FOUR_REGION_MACRO_REVISED_L0_CANDIDATE.json",
+        "originalAnchor": "1714년 타밀어 네 복음서와 사도행전의 부분 인쇄",
+        "offset": 1227
+      },
+      "disposition": "IN_L0_EXACT",
+      "readerL0": {
+        "anchor": "1714년 타밀어 네 복음서와 사도행전의 부분 인쇄",
+        "offset": 1227
+      },
+      "sourceIds": [],
+      "explanation": null,
+      "allowAutoPromotion": false,
+      "humanSignoff": false
+    },
+    {
+      "id": "CL433-21",
+      "volumeId": "VOL-06",
+      "sourceEvidenceStatus": "CONFLICT_HOLD_COMPLETION_YEAR_1719_UNRECONCILED",
+      "provenanceOriginal": {
+        "version": "V439",
+        "path": "research/data/V4_41_FOUR_REGION_MACRO_REVISED_L0_CANDIDATE.json",
+        "originalAnchor": "1715년 신약전서 간행",
+        "offset": 1274
+      },
+      "disposition": "IN_L0_EXACT",
+      "readerL0": {
+        "anchor": "1715년 신약전서 간행",
+        "offset": 1274
+      },
+      "sourceIds": [],
+      "explanation": null,
+      "allowAutoPromotion": false,
+      "humanSignoff": false
+    },
+    {
+      "id": "CL433-22",
+      "volumeId": "VOL-06",
+      "sourceEvidenceStatus": "REVIEW_REQUIRED",
+      "provenanceOriginal": {
+        "version": "V439",
+        "path": "research/data/V4_41_FOUR_REGION_MACRO_REVISED_L0_CANDIDATE.json",
+        "originalAnchor": "모라비아 공동체의 피난·새로운 조직·해외선교",
+        "offset": 1579
+      },
+      "disposition": "IN_L0_EXACT",
+      "readerL0": {
+        "anchor": "모라비아 공동체의 피난·새로운 조직·해외선교",
+        "offset": 1579
+      },
+      "sourceIds": [],
+      "explanation": null,
+      "allowAutoPromotion": false,
+      "humanSignoff": false
+    },
+    {
+      "id": "CL433-23",
+      "volumeId": "VOL-07",
+      "sourceEvidenceStatus": "SOURCE_SUPPORTED",
+      "provenanceOriginal": {
+        "version": "V439",
+        "path": "research/data/V4_41_FOUR_REGION_MACRO_REVISED_L0_CANDIDATE.json",
+        "originalAnchor": "1784년 이승훈의 세례",
+        "offset": 682
+      },
+      "disposition": "IN_L0_REWORDED_PENDING_REVIEW",
+      "readerL0": {
+        "anchor": "1784년 이승훈의 북경 세례 및 귀국 후 신앙공동체 형성",
+        "offset": 549
+      },
+      "sourceIds": [],
+      "explanation": "The exact prior claim is reworded and retains the 1779-versus-1784 historiographical distinction.",
+      "allowAutoPromotion": false,
+      "humanSignoff": false
+    },
+    {
+      "id": "CL433-24",
+      "volumeId": "VOL-07",
+      "sourceEvidenceStatus": "REVIEW_REQUIRED",
+      "provenanceOriginal": {
+        "version": "V439",
+        "path": "research/data/V4_41_FOUR_REGION_MACRO_REVISED_L0_CANDIDATE.json",
+        "originalAnchor": "1779년 전후의 서학 강학 모임",
+        "offset": 1597
+      },
+      "disposition": "IN_L0_EXACT",
+      "readerL0": {
+        "anchor": "1779년 전후의 서학 강학 모임",
+        "offset": 486
+      },
+      "sourceIds": [],
+      "explanation": null,
+      "allowAutoPromotion": false,
+      "humanSignoff": false
+    },
+    {
+      "id": "CL433-25",
+      "volumeId": "VOL-07",
+      "sourceEvidenceStatus": "SOURCE_SUPPORTED",
+      "provenanceOriginal": {
+        "version": "V439",
+        "path": "research/data/V4_41_FOUR_REGION_MACRO_REVISED_L0_CANDIDATE.json",
+        "originalAnchor": "1882년 『예수셩교누가복음젼셔』 등의 개별 복음서",
+        "offset": 1931
+      },
+      "disposition": "IN_L0_EXACT",
+      "readerL0": {
+        "anchor": "1882년 『예수셩교누가복음젼셔』 등의 개별 복음서",
+        "offset": 709
+      },
+      "sourceIds": [],
+      "explanation": null,
+      "allowAutoPromotion": false,
+      "humanSignoff": false
+    },
+    {
+      "id": "CL433-26",
+      "volumeId": "VOL-07",
+      "sourceEvidenceStatus": "REVIEW_REQUIRED",
+      "provenanceOriginal": {
+        "version": "V439",
+        "path": "research/data/V4_41_FOUR_REGION_MACRO_REVISED_L0_CANDIDATE.json",
+        "originalAnchor": "이응찬·백홍준·서상륜·이성하",
+        "offset": 1883
+      },
+      "disposition": "RESEARCH_ONLY_NOT_IN_L0",
+      "readerL0": null,
+      "sourceIds": [],
+      "explanation": "Specific Korean co-translator names preserved in full V4.41 manuscript; L0 mentions Korean collaborators without asserting named individuals.",
+      "allowAutoPromotion": false,
+      "humanSignoff": false
+    },
+    {
+      "id": "CL433-27",
+      "volumeId": "VOL-08",
+      "sourceEvidenceStatus": "STRUCTURE",
+      "provenanceOriginal": {
+        "version": "V439",
+        "path": "research/data/V4_41_FOUR_REGION_MACRO_REVISED_L0_CANDIDATE.json",
+        "originalAnchor": "제8권은 새로운 한 세기를 추가하는 대신",
+        "offset": 866
+      },
+      "disposition": "IN_L0_EXACT",
+      "readerL0": {
+        "anchor": "제8권은 새로운 한 세기를 추가하는 대신",
+        "offset": 866
+      },
+      "sourceIds": [],
+      "explanation": null,
+      "allowAutoPromotion": false,
+      "humanSignoff": false
+    },
+    {
+      "id": "CL433-28",
+      "volumeId": "VOL-08",
+      "sourceEvidenceStatus": "STRUCTURE",
+      "provenanceOriginal": {
+        "version": "V439",
+        "path": "research/data/V4_41_FOUR_REGION_MACRO_REVISED_L0_CANDIDATE.json",
+        "originalAnchor": "여섯 주제 중 하나에서 관련 시대권으로 이동",
+        "offset": 2595
+      },
+      "disposition": "IN_L0_EXACT",
+      "readerL0": {
+        "anchor": "여섯 주제 중 하나에서 관련 시대권으로 이동",
+        "offset": 2595
+      },
+      "sourceIds": [],
+      "explanation": null,
+      "allowAutoPromotion": false,
+      "humanSignoff": false
+    },
+    {
+      "id": "CL433-29",
+      "volumeId": "VOL-08",
+      "sourceEvidenceStatus": "STRUCTURE",
+      "provenanceOriginal": {
+        "version": "V439",
+        "path": "research/data/V4_41_FOUR_REGION_MACRO_REVISED_L0_CANDIDATE.json",
+        "originalAnchor": "논리적인 연구 앵커",
+        "offset": 2758
+      },
+      "disposition": "IN_L0_EXACT",
+      "readerL0": {
+        "anchor": "논리적인 연구 앵커",
+        "offset": 2758
+      },
+      "sourceIds": [],
+      "explanation": null,
+      "allowAutoPromotion": false,
+      "humanSignoff": false
+    },
+    {
+      "id": "M440-01",
+      "volumeId": "VOL-07",
+      "sourceEvidenceStatus": "INSTITUTION_SOURCE_SCREENED",
+      "provenanceOriginal": {
+        "version": "V440",
+        "path": "research/data/V4_41_FOUR_REGION_MACRO_REVISED_L0_CANDIDATE.json",
+        "originalAnchor": "1910년 에든버러 세계선교대회",
+        "offset": 2277
+      },
+      "disposition": "IN_L0_EXACT",
+      "readerL0": {
+        "anchor": "1910년 에든버러 세계선교대회",
+        "offset": 877
+      },
+      "sourceIds": [
+        "SRC440-01"
+      ],
+      "explanation": null,
+      "allowAutoPromotion": false,
+      "humanSignoff": false
+    },
+    {
+      "id": "M440-02",
+      "volumeId": "VOL-07",
+      "sourceEvidenceStatus": "INSTITUTION_SOURCE_SCREENED",
+      "provenanceOriginal": {
+        "version": "V440",
+        "path": "research/data/V4_41_FOUR_REGION_MACRO_REVISED_L0_CANDIDATE.json",
+        "originalAnchor": "1948년 암스테르담에서 창립된 세계교회협의회(WCC)",
+        "offset": 2386
+      },
+      "disposition": "IN_L0_EXACT",
+      "readerL0": {
+        "anchor": "1948년 암스테르담에서 창립된 세계교회협의회(WCC)",
+        "offset": 946
+      },
+      "sourceIds": [
+        "SRC440-02"
+      ],
+      "explanation": null,
+      "allowAutoPromotion": false,
+      "humanSignoff": false
+    },
+    {
+      "id": "M440-03",
+      "volumeId": "VOL-07",
+      "sourceEvidenceStatus": "INSTITUTION_SOURCE_SCREENED",
+      "provenanceOriginal": {
+        "version": "V440",
+        "path": "research/data/V4_41_FOUR_REGION_MACRO_REVISED_L0_CANDIDATE.json",
+        "originalAnchor": "1962~1965년 제2차 바티칸 공의회",
+        "offset": 2577
+      },
+      "disposition": "IN_L0_EXACT",
+      "readerL0": {
+        "anchor": "1962~1965년 제2차 바티칸 공의회",
+        "offset": 1031
+      },
+      "sourceIds": [
+        "SRC440-03"
+      ],
+      "explanation": null,
+      "allowAutoPromotion": false,
+      "humanSignoff": false
+    },
+    {
+      "id": "M440-04",
+      "volumeId": "VOL-07",
+      "sourceEvidenceStatus": "ACADEMIC_OVERVIEW_SCREENED",
+      "provenanceOriginal": {
+        "version": "V440",
+        "path": "research/data/V4_41_FOUR_REGION_MACRO_REVISED_L0_CANDIDATE.json",
+        "originalAnchor": "선교단체의 기존 통제를 벗어난 **독립교회**",
+        "offset": 2687
+      },
+      "disposition": "IN_L0_REWORDED_PENDING_REVIEW",
+      "readerL0": {
+        "anchor": "아프리카의 **독립교회**",
+        "offset": 1722
+      },
+      "sourceIds": [
+        "SRC440-04",
+        "SRC440-05"
+      ],
+      "explanation": "Generalized community label remains; previous claim of separation from missionary control is NOT automatically inherited.",
+      "allowAutoPromotion": false,
+      "humanSignoff": false
+    },
+    {
+      "id": "M440-05",
+      "volumeId": "VOL-07",
+      "sourceEvidenceStatus": "ACADEMIC_ABSTRACT_SCREENED",
+      "provenanceOriginal": {
+        "version": "V440",
+        "path": "research/data/V4_41_FOUR_REGION_MACRO_REVISED_L0_CANDIDATE.json",
+        "originalAnchor": "1919년 3·1운동",
+        "offset": 4335
+      },
+      "disposition": "IN_L0_EXACT",
+      "readerL0": {
+        "anchor": "1919년 3·1운동",
+        "offset": 1892
+      },
+      "sourceIds": [
+        "SRC440-06"
+      ],
+      "explanation": null,
+      "allowAutoPromotion": false,
+      "humanSignoff": false
+    },
+    {
+      "id": "M440-06",
+      "volumeId": "VOL-07",
+      "sourceEvidenceStatus": "REGIONAL_RESEARCH_CONTEXT_SCREENED",
+      "provenanceOriginal": {
+        "version": "V440",
+        "path": "research/data/V4_41_FOUR_REGION_MACRO_REVISED_L0_CANDIDATE.json",
+        "originalAnchor": "종교 이탈과 이주",
+        "offset": 4579
+      },
+      "disposition": "RESEARCH_ONLY_NOT_IN_L0",
+      "readerL0": null,
+      "sourceIds": [
+        "SRC440-07",
+        "SRC440-08"
+      ],
+      "explanation": "World religious disaffiliation and demographic migration details omitted from shortened introduction; research-only with source bounds.",
+      "allowAutoPromotion": false,
+      "humanSignoff": false
+    },
+    {
+      "id": "M440-07",
+      "volumeId": "VOL-07",
+      "sourceEvidenceStatus": "PARTIAL_SOURCE_SCREENING_REVIEW_REQUIRED",
+      "provenanceOriginal": {
+        "version": "V440",
+        "path": "research/data/V4_41_FOUR_REGION_MACRO_REVISED_L0_CANDIDATE.json",
+        "originalAnchor": "**1945년 해방**",
+        "offset": 4693
+      },
+      "disposition": "IN_L0_EXACT",
+      "readerL0": {
+        "anchor": "**1945년 해방**",
+        "offset": 1986
+      },
+      "sourceIds": [],
+      "explanation": null,
+      "allowAutoPromotion": false,
+      "humanSignoff": false
+    },
+    {
+      "id": "CL441-01",
+      "volumeId": "VOL-07",
+      "sourceEvidenceStatus": "INSTITUTIONAL_HISTORICAL_SOURCE_SUPPORTED",
+      "provenanceOriginal": {
+        "version": "V441",
+        "path": "research/data/V4_41_FOUR_REGION_MACRO_REVISED_L0_CANDIDATE.json",
+        "originalAnchor": "1968년 콜롬비아 메데인",
+        "offset": 3004
+      },
+      "disposition": "IN_L0_EXACT",
+      "readerL0": {
+        "anchor": "1968년 콜롬비아 메데인",
+        "offset": 1163
+      },
+      "sourceIds": [
+        "SRC441-01",
+        "SRC441-02"
+      ],
+      "explanation": null,
+      "allowAutoPromotion": false,
+      "humanSignoff": false
+    },
+    {
+      "id": "CL441-02",
+      "volumeId": "VOL-07",
+      "sourceEvidenceStatus": "INSTITUTIONAL_HISTORICAL_SOURCE_SUPPORTED",
+      "provenanceOriginal": {
+        "version": "V441",
+        "path": "research/data/V4_41_FOUR_REGION_MACRO_REVISED_L0_CANDIDATE.json",
+        "originalAnchor": "1979년 멕시코 푸에블라",
+        "offset": 3024
+      },
+      "disposition": "IN_L0_EXACT",
+      "readerL0": {
+        "anchor": "1979년 멕시코 푸에블라",
+        "offset": 1183
+      },
+      "sourceIds": [
+        "SRC441-01",
+        "SRC441-02"
+      ],
+      "explanation": null,
+      "allowAutoPromotion": false,
+      "humanSignoff": false
+    },
+    {
+      "id": "CL441-03",
+      "volumeId": "VOL-07",
+      "sourceEvidenceStatus": "CONFESSIONAL_INTERPRETATION_REVIEW_REQUIRED",
+      "provenanceOriginal": {
+        "version": "V441",
+        "path": "research/data/V4_41_FOUR_REGION_MACRO_REVISED_L0_CANDIDATE.json",
+        "originalAnchor": "여러 **해방신학**의 주장",
+        "offset": 3150
+      },
+      "disposition": "IN_L0_EXACT",
+      "readerL0": {
+        "anchor": "여러 **해방신학**의 주장",
+        "offset": 1233
+      },
+      "sourceIds": [
+        "SRC441-02",
+        "SRC441-03"
+      ],
+      "explanation": null,
+      "allowAutoPromotion": false,
+      "humanSignoff": false
+    },
+    {
+      "id": "CL441-04",
+      "volumeId": "VOL-07",
+      "sourceEvidenceStatus": "INSTITUTIONAL_FAMILY_LIST_SUPPORTED",
+      "provenanceOriginal": {
+        "version": "V441",
+        "path": "research/data/V4_41_FOUR_REGION_MACRO_REVISED_L0_CANDIDATE.json",
+        "originalAnchor": "콥트 정교회",
+        "offset": 3457
+      },
+      "disposition": "IN_L0_REWORDED_PENDING_REVIEW",
+      "readerL0": {
+        "anchor": "콥트·시리아·아르메니아 전통",
+        "offset": 1355
+      },
+      "sourceIds": [
+        "SRC441-05",
+        "SRC441-06"
+      ],
+      "explanation": "Shortened family names; exact denominational labels of distinct Coptic/Syriac/Armenian churches remain available in V4.41.",
+      "allowAutoPromotion": false,
+      "humanSignoff": false
+    },
+    {
+      "id": "CL441-05",
+      "volumeId": "VOL-07",
+      "sourceEvidenceStatus": "ORGANIZATIONAL_HISTORY_SUPPORTED",
+      "provenanceOriginal": {
+        "version": "V441",
+        "path": "research/data/V4_41_FOUR_REGION_MACRO_REVISED_L0_CANDIDATE.json",
+        "originalAnchor": "1974년 중동교회협의회",
+        "offset": 3635
+      },
+      "disposition": "IN_L0_EXACT",
+      "readerL0": {
+        "anchor": "1974년 중동교회협의회",
+        "offset": 1442
+      },
+      "sourceIds": [
+        "SRC441-04"
+      ],
+      "explanation": null,
+      "allowAutoPromotion": false,
+      "humanSignoff": false
+    },
+    {
+      "id": "CL441-06",
+      "volumeId": "VOL-07",
+      "sourceEvidenceStatus": "ORGANIZATIONAL_HISTORY_SUPPORTED",
+      "provenanceOriginal": {
+        "version": "V441",
+        "path": "research/data/V4_41_FOUR_REGION_MACRO_REVISED_L0_CANDIDATE.json",
+        "originalAnchor": "1990년에 가톨릭 계열이 합류",
+        "offset": 3685
+      },
+      "disposition": "IN_L0_EXACT",
+      "readerL0": {
+        "anchor": "1990년에 가톨릭 계열이 합류",
+        "offset": 1488
+      },
+      "sourceIds": [
+        "SRC441-04"
+      ],
+      "explanation": null,
+      "allowAutoPromotion": false,
+      "humanSignoff": false
+    },
+    {
+      "id": "CL441-07",
+      "volumeId": "VOL-07",
+      "sourceEvidenceStatus": "REGIONAL_CONTEXT_REVIEW_REQUIRED",
+      "provenanceOriginal": {
+        "version": "V441",
+        "path": "research/data/V4_41_FOUR_REGION_MACRO_REVISED_L0_CANDIDATE.json",
+        "originalAnchor": "전쟁·이주와 경제적 압박",
+        "offset": 3759
+      },
+      "disposition": "IN_L0_REWORDED_PENDING_REVIEW",
+      "readerL0": {
+        "anchor": "전쟁과 이주의 영향",
+        "offset": 1541
+      },
+      "sourceIds": [
+        "SRC441-06",
+        "SRC441-07"
+      ],
+      "explanation": "Narrower statement. Economic hardship was omitted from L0, remains in V4.41 only.",
+      "allowAutoPromotion": false,
+      "humanSignoff": false
+    },
+    {
+      "id": "CL441-08",
+      "volumeId": "VOL-07",
+      "sourceEvidenceStatus": "ACADEMIC_ABSTRACT_SCREENED",
+      "provenanceOriginal": {
+        "version": "V441",
+        "path": "research/data/V4_41_FOUR_REGION_MACRO_REVISED_L0_CANDIDATE.json",
+        "originalAnchor": "20세기 중국의 여러 토착 기독교 운동",
+        "offset": 3936
+      },
+      "disposition": "IN_L0_EXACT",
+      "readerL0": {
+        "anchor": "20세기 중국의 여러 토착 기독교 운동",
+        "offset": 1593
+      },
+      "sourceIds": [
+        "SRC441-08"
+      ],
+      "explanation": null,
+      "allowAutoPromotion": false,
+      "humanSignoff": false
+    },
+    {
+      "id": "CL441-09",
+      "volumeId": "VOL-07",
+      "sourceEvidenceStatus": "OPEN_ACCESS_SCHOLARLY_SUPPORTED_CONTEXT",
+      "provenanceOriginal": {
+        "version": "V441",
+        "path": "research/data/V4_41_FOUR_REGION_MACRO_REVISED_L0_CANDIDATE.json",
+        "originalAnchor": "인도의 달리트 그리스도인과 달리트 신학",
+        "offset": 4088
+      },
+      "disposition": "IN_L0_EXACT",
+      "readerL0": {
+        "anchor": "인도의 달리트 그리스도인과 달리트 신학",
+        "offset": 1658
+      },
+      "sourceIds": [
+        "SRC441-09"
+      ],
+      "explanation": null,
+      "allowAutoPromotion": false,
+      "humanSignoff": false
+    },
+    {
+      "id": "CL441-10",
+      "volumeId": "VOL-07",
+      "sourceEvidenceStatus": "HISTORICAL_OVERVIEW_SUPPORTED",
+      "provenanceOriginal": {
+        "version": "V441",
+        "path": "research/data/V4_41_FOUR_REGION_MACRO_REVISED_L0_CANDIDATE.json",
+        "originalAnchor": "1945년 해방",
+        "offset": 4695
+      },
+      "disposition": "IN_L0_EXACT",
+      "readerL0": {
+        "anchor": "1945년 해방",
+        "offset": 1988
+      },
+      "sourceIds": [
+        "SRC441-10",
+        "SRC441-11"
+      ],
+      "explanation": null,
+      "allowAutoPromotion": false,
+      "humanSignoff": false
+    },
+    {
+      "id": "CL441-11",
+      "volumeId": "VOL-07",
+      "sourceEvidenceStatus": "KCI_ABSTRACT_SUPPORTED_CONTEXT",
+      "provenanceOriginal": {
+        "version": "V441",
+        "path": "research/data/V4_41_FOUR_REGION_MACRO_REVISED_L0_CANDIDATE.json",
+        "originalAnchor": "장로교회 안에서는 신학적 입장",
+        "offset": 4825
+      },
+      "disposition": "IN_L0_REWORDED_PENDING_REVIEW",
+      "readerL0": {
+        "anchor": "장로교의 교단 분화에는 신학과 조직 운영의 갈등",
+        "offset": 2048
+      },
+      "sourceIds": [
+        "SRC441-11"
+      ],
+      "explanation": "Summary of Korean Presbyterian division, not representative of every Korean denomination.",
+      "allowAutoPromotion": false,
+      "humanSignoff": false
+    },
+    {
+      "id": "CL441-12",
+      "volumeId": "VOL-07",
+      "sourceEvidenceStatus": "ACADEMIC_PERIODIZATION_SCREENED",
+      "provenanceOriginal": {
+        "version": "V441",
+        "path": "research/data/V4_41_FOUR_REGION_MACRO_REVISED_L0_CANDIDATE.json",
+        "originalAnchor": "1960년대 이후 산업화·도시화",
+        "offset": 4957
+      },
+      "disposition": "IN_L0_EXACT",
+      "readerL0": {
+        "anchor": "1960년대 이후 산업화·도시화",
+        "offset": 2113
+      },
+      "sourceIds": [
+        "SRC441-12"
+      ],
+      "explanation": null,
+      "allowAutoPromotion": false,
+      "humanSignoff": false
+    },
+    {
+      "id": "CL441-13",
+      "volumeId": "VOL-07",
+      "sourceEvidenceStatus": "SCHOLARLY_ABSTRACT_SCREENED_NOT_CONFESSIONALLY_ADJUDICATED",
+      "provenanceOriginal": {
+        "version": "V441",
+        "path": "research/data/V4_41_FOUR_REGION_MACRO_REVISED_L0_CANDIDATE.json",
+        "originalAnchor": "1970년대 민중신학",
+        "offset": 5058
+      },
+      "disposition": "IN_L0_EXACT",
+      "readerL0": {
+        "anchor": "1970년대 민중신학",
+        "offset": 2179
+      },
+      "sourceIds": [
+        "SRC441-13",
+        "SRC441-14"
+      ],
+      "explanation": null,
+      "allowAutoPromotion": false,
+      "humanSignoff": false
+    },
+    {
+      "id": "CL441-14",
+      "volumeId": "VOL-08",
+      "sourceEvidenceStatus": "STRUCTURAL_COMPARISON_HUMAN_REVIEW_REQUIRED",
+      "provenanceOriginal": {
+        "version": "V441",
+        "path": "research/data/V4_41_FOUR_REGION_MACRO_REVISED_L0_CANDIDATE.json",
+        "originalAnchor": "라틴아메리카 메데인·푸에블라의 사회적 책임 논의",
+        "offset": 2332
+      },
+      "disposition": "IN_L0_EXACT",
+      "readerL0": {
+        "anchor": "라틴아메리카 메데인·푸에블라의 사회적 책임 논의",
+        "offset": 2332
+      },
+      "sourceIds": [
+        "SRC441-01",
+        "SRC441-02",
+        "SRC441-04",
+        "SRC441-09",
+        "SRC441-11"
+      ],
+      "explanation": null,
+      "allowAutoPromotion": false,
+      "humanSignoff": false
+    },
+    {
+      "id": "CL441-15",
+      "volumeId": "VOL-07",
+      "sourceEvidenceStatus": "SURVEY_SUPPORTED_HISTORICAL_CONTEXT",
+      "provenanceOriginal": {
+        "version": "V441",
+        "path": "research/data/V4_41_FOUR_REGION_MACRO_REVISED_L0_CANDIDATE.json",
+        "originalAnchor": "복음주의·오순절 계열",
+        "offset": 3311
+      },
+      "disposition": "IN_L0_EXACT",
+      "readerL0": {
+        "anchor": "복음주의·오순절 계열",
+        "offset": 1322
+      },
+      "sourceIds": [
+        "SRC441-15"
+      ],
+      "explanation": null,
+      "allowAutoPromotion": false,
+      "humanSignoff": false
+    }
+  ],
+  "design": {
+    "fullResearchContentRetained": true,
+    "originalEvidenceItemsNotReinterpretedAsReaderApproval": true,
+    "rewordingDoesNotInheritHistoricalSignoff": true,
+    "deferredResearchClaimsMustNotAppearAsApprovedInL0": true,
+    "provenanceForReaderCrosslinksOnly": false,
+    "sourceVersion": "V4.41",
+    "readerVersion": "V4.42"
+  },
+  "release": {
+    "canShip": false,
+    "canMergeMain": false,
+    "canImportAIStudio": false,
+    "independentExpertSignoffs": 0,
+    "actualReaderSessions": 0
+  }
+}
