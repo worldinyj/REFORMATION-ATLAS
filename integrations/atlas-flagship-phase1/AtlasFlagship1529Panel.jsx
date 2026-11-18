@@ -89,6 +89,7 @@ export default function AtlasFlagship1529Panel({
       <nav ref={timelineRef} className="atlas-fp-timeline" aria-label="역사 사건 연표">
         <h2>시간의 흐름</h2>
         <p className="atlas-fp-help">연도를 선택하면 해당 사건과 문헌 근거가 바뀝니다.</p>
+        <p className="atlas-fp-mobile-hint">연표를 좌우로 밀어 다른 사건을 보세요.</p>
         {integrity.events.map(e=><button type="button" key={e.id} className={"atlas-fp-year"+(selected.id===e.id?" selected":"")}
           aria-current={selected.id===e.id?"step":undefined} onClick={()=>setEventId(e.id)}>
           <span>{e.dateLabel}</span><strong>{e.title}</strong>
