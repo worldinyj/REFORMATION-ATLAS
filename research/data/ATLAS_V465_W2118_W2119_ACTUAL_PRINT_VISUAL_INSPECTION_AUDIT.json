@@ -1,0 +1,103 @@
+{
+  "schema": "ATLAS_V465_W2118_1529_PRIMARY_FACSIMILE_AND_IMPRINT_DIF_AUDIT",
+  "date": "2026-11-19",
+  "branch": "integration/atlas-phase1-browser-qa-v452",
+  "discovery": {
+    "target": "VD16 W2118, Zwingli MvK A 81,8, Zürich 1529",
+    "rootCause": "Earlier DOI redirect path inaccessible, but institution search directly linked correct source record ID 291747.",
+    "verifiedInstitutionalRecord": "https://www.e-rara.ch/zuz/content/titleinfo/291747",
+    "originalDigitalPDF": "https://www.e-rara.ch/zuz/download/pdf/291747",
+    "advertisedIIIFManifest": "https://www.e-rara.ch/i3f/v20/291747/manifest",
+    "institutionRights": "Public Domain Mark; source acknowledgement requested",
+    "pdfPageCount": 9,
+    "sourcePdfActuallyOpened": true,
+    "scannedPagesDirectlyReviewedZeroIndexed": [
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "pdfBytesDownloadedToLocalRuntime": false,
+    "localSHA256": null
+  },
+  "directComparison": {
+    "W2118": {
+      "vd16": "W2118",
+      "accessionId": "291747",
+      "sourcePdfPage7IncludesPrintedColophonBelowNames": false,
+      "article7P3P4": true,
+      "article13P5": true,
+      "article15P6": true
+    },
+    "W2119": {
+      "vd16": "W2119",
+      "accessionId": "170052",
+      "sourcePdfPage7IncludesPrintedColophonBelowNames": true,
+      "article7P4": true,
+      "article13P5": true,
+      "article15P6": true
+    },
+    "editionSpecificDifference": "W2119 p7 has Zurich / Christoffel Froschouer printer colophon after printed signatory names; W2118 p7 ends printed signatories without that imprint.",
+    "sharedPropositions": [
+      "Article 7 monastic-vow reliance rejected",
+      "Article 13 anti-clerical-marriage teaching condemned",
+      "Article 15 mass not work that earns grace for others",
+      "Article 15 bodily-presence disagreement remains despite shared communion statements"
+    ],
+    "literalCharacterCollationDone": false,
+    "fullTypesettingComparativeAnalysisDone": false,
+    "printChronologyOrDirectionIdentified": false,
+    "differenceInColophonProvesNewTypesetting": false
+  },
+  "sourceHierarchy": {
+    "actuallyViewedIndependent1529Prints": [
+      "W2118 Zürich",
+      "W2119 Zürich",
+      "W2108 Basel"
+    ],
+    "signedZurichManuscriptZArticle15Viewed": false,
+    "signedHessianManuscriptKArticle15Viewed": false,
+    "printEditionVsSignedManuscriptRelationshipEstablished": false,
+    "original1531LatinC4734ArticleXPageViewed": false,
+    "original1540LatinC4713ArticleXPageViewed": false
+  },
+  "actualDeliverables": {
+    "originalPrintEvidence": "research/data/ATLAS_V465_ZURICH_W2118_W2119_DIRECT_ARTICLES_AND_COLOPHON_COMPARISON.json",
+    "KoreanStudy": "integrations/atlas-flagship-phase1/V465_W2118_W2119_ORIGINAL_1529_PRINT_COLOPHON_AND_ART15_KO.md",
+    "updatedWitnessGraph": "research/data/ATLAS_V459_MANUSCRIPT_PRINT_WITNESS_VARIANT_GRAPH.json",
+    "newContractTest": "integrations/atlas-flagship-phase1/v465-zurich-original-print-colophon-contract.test.mjs",
+    "CI": ".github/workflows/atlas-phase1-browser-qa.yml",
+    "historicalBaselinePreserved": "research/data/ATLAS_V464_W2119_W2108_EARLY_PRINT_PARALLEL_ARTICLES_7_13_15.json"
+  },
+  "validation": {
+    "execution": "V8 exact GitHub JS test bodies with adapted Node import/readFile, NOT native Node runner",
+    "newV465": 5,
+    "regressionV464": 5,
+    "regressionV463": 5,
+    "totalPassed": 15,
+    "totalFailed": 0,
+    "realGitHubActionsRunVerified": false,
+    "realBrowserHostAndAIStudioTestVerified": false,
+    "historianExpertReviews": 0,
+    "readerPilotParticipants": 0
+  },
+  "decisions": {
+    "historicalClaimCanBeUsedAsEditedEvidence": "SOURCE_PAGE_SUPPPORTED_RESEARCH_ONLY",
+    "historicalClaimCanBePublishedInProduction": false,
+    "mainModified": false,
+    "productionAIStudioModified": false,
+    "existingIntegratedHistoryTextModified": false,
+    "release": {
+      "canShip": false,
+      "canMergeMain": false,
+      "canImportAIStudio": false
+    }
+  },
+  "nextPriorities": [
+    "Compare W2118 and W2119 actual type setting, line-endings, letter anomalies and signatures to classify print states; do not infer copy direction from colophon alone.",
+    "Read signed Z and K Art15 from accredited facsimile or archive original and compare to these 1529 prints.",
+    "Read original Latin 1531 C4734 and 1540 C4713 Article X leaves, not only 1858 scholarly apparatus.",
+    "Have independent qualified historians verify historical claim wording prior to any app content promotion."
+  ]
+}
