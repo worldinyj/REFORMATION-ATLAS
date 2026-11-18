@@ -20,7 +20,7 @@ h1{font:500 clamp(2rem,4vw,3.15rem)/1.2 Georgia,serif;letter-spacing:-.045em;mar
 .actions{display:flex;flex-wrap:wrap;gap:8px;padding:13px 0}.actions button{background:#fff;border:1px solid var(--line);color:var(--accent);padding:8px 13px;border-radius:8px;font-size:.83rem}
 .actions button[aria-selected=true]{background:var(--accent);color:white;border-color:var(--accent)}
 .read-meta{font-size:.82rem;color:var(--muted);margin:12px 0}
-.prose{white-space:pre-wrap;overflow-wrap:anywhere;font:1rem/1.95 Georgia,"Noto Serif KR",serif}
+.prose{white-space:normal;overflow-wrap:anywhere;font:1rem/1.95 Georgia,"Noto Serif KR",serif}.prose p{margin:0 0 1.2em}.prose h1,.prose h2,.prose h3,.prose h4{font:600 1.14rem/1.55 Georgia,"Noto Serif KR",serif;margin:1.6em 0 .6em}.prose hr{border:0;border-top:1px solid var(--line);margin:1.7em 0}.prose strong{font-weight:750}.prose em{font-style:italic}
 .source{border-top:1px solid var(--line);padding:13px 0}.source h3{margin:0;font-size:.94rem}.source p{color:var(--muted);font-size:.8rem;margin:5px 0}.source a{font-size:.82rem}
 .warn{padding:11px;background:#fbf5e8;color:#755b37;border-radius:9px;font-size:.79rem;margin-top:12px}
 .compare{background:#f1f5f0;padding:14px;border-radius:9px}.compare table{border-collapse:collapse;width:100%;font-size:.82rem}.compare th,.compare td{border-bottom:1px solid var(--line);padding:8px;text-align:left;vertical-align:top}
@@ -57,6 +57,39 @@ h1{font:500 clamp(2rem,4vw,3.15rem)/1.2 Georgia,serif;letter-spacing:-.045em;mar
 "use strict";
 const atlas=JSON.parse(document.getElementById("data").textContent);
 const byId=id=>document.getElementById(id);
+function tokenizeInline(value) {
+  const tokens=[];const pattern=/\*\*([^*\n]+)\*\*|\*([^*\n]+)\*/g;
+  let last=0;let match;
+  while((match=pattern.exec(value))!==null){
+    if(match.index>last)tokens.push({kind:"text",text:value.slice(last,match.index)});
+    tokens.push({kind:match[1]!==undefined?"strong":"em",text:match[1]??match[2]});
+    last=pattern.lastIndex;
+  }
+  if(last<value.length)tokens.push({kind:"text",text:value.slice(last)});
+  return tokens;
+}
+function parseResearchMarkdown(source) {
+  return String(source??"").replace(/\r\n?/g,"\n").trim().split(/\n\s*\n/g).filter(Boolean).map(raw=>{
+    const part=raw.trim();
+    if(part==="---")return {kind:"rule",tag:"hr",segments:[]};
+    const heading=part.match(/^(#{1,4})[ \t]+([^\n]+)$/);
+    const text=heading?heading[2]:part.replace(/\n/g," ");
+    return {kind:"block",tag:heading?"h"+heading[1].length:"p",segments:tokenizeInline(text)};
+  });
+}
+
+function renderResearchMarkdown(container,source){
+  container.replaceChildren();
+  for(const block of parseResearchMarkdown(source)){
+    const node=document.createElement(block.tag);
+    for(const token of block.segments){
+      if(token.kind==="text")node.appendChild(document.createTextNode(token.text));
+      else {const inline=document.createElement(token.kind==="strong"?"strong":"em");inline.textContent=token.text;node.appendChild(inline);}
+    }
+    container.appendChild(node);
+  }
+}
+
 const state={eventId:atlas.events[0].id,layer:"L0",compare:false,sources:true};
 function renderEvent(){
  const current=atlas.events.find(x=>x.id===state.eventId)||atlas.events[0];
@@ -88,7 +121,7 @@ function renderEvent(){
 function renderBook(){
  const book=state.layer==="L0"?atlas.l0:atlas.l1;
  byId("readingTitle").textContent=state.layer+" / "+book.title;
- byId("reader").textContent=book.text;
+ renderResearchMarkdown(byId("reader"),book.text);
  byId("l0").setAttribute("aria-selected",String(state.layer==="L0"));
  byId("l1").setAttribute("aria-selected",String(state.layer==="L1"));
  byId("l0").setAttribute("tabindex",state.layer==="L0"?"0":"-1");
