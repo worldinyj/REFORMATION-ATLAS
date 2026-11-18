@@ -1,0 +1,174 @@
+{
+  "schema": "ATLAS_V450_L1_FACT_ANCHOR_AND_PROVENANCE_REGISTER",
+  "version": "V4.50",
+  "date": "2026-11-18",
+  "sourceFiles": [
+    {
+      "path": "research/data/V4_50_FOUR_CORE_REFORMATION_L1_EVIDENCE_LINKED_REVISIONS.json",
+      "sha": "0afb7f6dbff9ccdcb66d52bec3e6f17d92bcce96"
+    },
+    {
+      "path": "research/data/V4_50_L1_24_CHAPTER_INTEGRATED_REVISED_MASTER.json",
+      "sha": "79a362734aa963eb41ad0424515e8d21074349c5"
+    },
+    {
+      "path": "research/data/V4_49_VOL07_SIXTEEN_FACT_TO_SOURCE_TIER_CHECKS.json",
+      "sha": "301e57e5656e1caf8ea1bca4502417984d899cbe"
+    }
+  ],
+  "newRows": [
+    {
+      "id": "V450-01",
+      "chapterId": "L448-03-02",
+      "volumeId": "VOL-03",
+      "anchor": "**잔존설(remanence)**은 성찬에서 축성된 빵의 실체가 그대로 남는다는 주장",
+      "position": 110,
+      "sourceUrl": "https://www.cambridge.org/core/journals/church-history/article/abs/john-wyclif-and-hussite-theology-14151436/54C10C6F7EEFB5409E2291C9F4194ABF",
+      "sourceTier": "PEER_REVIEWED_ABSTRACT_OR_ARTICLE",
+      "status": "PUBLIC_WEB_DESK_SCREENED_NOT_HISTORIAN_CERTIFIED",
+      "historianSignoff": false,
+      "originalPhysicalEditionCollated": false
+    },
+    {
+      "id": "V450-02",
+      "chapterId": "L448-03-02",
+      "volumeId": "VOL-03",
+      "anchor": "후스 개인이 **실체변화(transubstantiation)**를 수용",
+      "position": 352,
+      "sourceUrl": "https://www.cambridge.org/core/journals/church-history/article/abs/john-wyclif-and-hussite-theology-14151436/54C10C6F7EEFB5409E2291C9F4194ABF",
+      "sourceTier": "PEER_REVIEWED_ABSTRACT_OR_ARTICLE",
+      "status": "PUBLIC_WEB_DESK_SCREENED_NOT_HISTORIAN_CERTIFIED",
+      "historianSignoff": false,
+      "originalPhysicalEditionCollated": false
+    },
+    {
+      "id": "V450-03",
+      "chapterId": "L448-04-02",
+      "volumeId": "VOL-04",
+      "anchor": "**마르부르크 15개 조항**",
+      "position": 55,
+      "sourceUrl": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/the-marburg-colloquy-the-marburg-articles-1529",
+      "sourceTier": "EDITED_HISTORICAL_DOCUMENT_ENGLISH_TRANSLATION",
+      "status": "PUBLIC_WEB_DESK_SCREENED_NOT_HISTORIAN_CERTIFIED",
+      "historianSignoff": false,
+      "originalPhysicalEditionCollated": false
+    },
+    {
+      "id": "V450-04",
+      "chapterId": "L448-04-02",
+      "volumeId": "VOL-04",
+      "anchor": "**마지막 제15조의 성찬**에서는",
+      "position": 147,
+      "sourceUrl": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/the-marburg-colloquy-the-marburg-articles-1529",
+      "sourceTier": "EDITED_HISTORICAL_DOCUMENT_ENGLISH_TRANSLATION",
+      "status": "PUBLIC_WEB_DESK_SCREENED_NOT_HISTORIAN_CERTIFIED",
+      "historianSignoff": false,
+      "originalPhysicalEditionCollated": false
+    },
+    {
+      "id": "V450-05",
+      "chapterId": "L448-04-02",
+      "volumeId": "VOL-04",
+      "anchor": "**1540년 인쇄지만 Variata가 아닌 소장본**",
+      "position": 717,
+      "sourceUrl": "https://gruber.lstc.edu/confessions/augs_apol.php",
+      "sourceTier": "RARE_BOOKS_INSTITUTIONAL_CATALOGUE",
+      "status": "PUBLIC_WEB_DESK_SCREENED_NOT_HISTORIAN_CERTIFIED",
+      "historianSignoff": false,
+      "originalPhysicalEditionCollated": false
+    },
+    {
+      "id": "V450-06",
+      "chapterId": "L448-05-01",
+      "volumeId": "VOL-05",
+      "anchor": "**1545~1547년, 1551~1552년, 1562~1563년**",
+      "position": 235,
+      "sourceUrl": "https://www.saet.ac.uk/Christianity/CouncilofTrent",
+      "sourceTier": "ACADEMIC_THEOLOGY_ENCYCLOPAEDIA",
+      "status": "PUBLIC_WEB_DESK_SCREENED_NOT_HISTORIAN_CERTIFIED",
+      "historianSignoff": false,
+      "originalPhysicalEditionCollated": false
+    },
+    {
+      "id": "V450-07",
+      "chapterId": "L448-05-01",
+      "volumeId": "VOL-05",
+      "anchor": "**25차례 회기**",
+      "position": 294,
+      "sourceUrl": "https://www.saet.ac.uk/Christianity/CouncilofTrent",
+      "sourceTier": "ACADEMIC_THEOLOGY_ENCYCLOPAEDIA",
+      "status": "PUBLIC_WEB_DESK_SCREENED_NOT_HISTORIAN_CERTIFIED",
+      "historianSignoff": false,
+      "originalPhysicalEditionCollated": false
+    },
+    {
+      "id": "V450-08",
+      "chapterId": "L448-05-01",
+      "volumeId": "VOL-05",
+      "anchor": "**트리엔트 이후의 실천과 해석(Tridentinism)**",
+      "position": 617,
+      "sourceUrl": "https://www.saet.ac.uk/Christianity/CouncilofTrent",
+      "sourceTier": "ACADEMIC_THEOLOGY_ENCYCLOPAEDIA",
+      "status": "PUBLIC_WEB_DESK_SCREENED_NOT_HISTORIAN_CERTIFIED",
+      "historianSignoff": false,
+      "originalPhysicalEditionCollated": false
+    },
+    {
+      "id": "V450-09",
+      "chapterId": "L448-05-02",
+      "volumeId": "VOL-05",
+      "anchor": "**제국 신분·통치 단위**",
+      "position": 121,
+      "sourceUrl": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/ghdi%3Adocument-4386",
+      "sourceTier": "EDITED_HISTORICAL_DOCUMENT_ENGLISH_TRANSLATION",
+      "status": "PUBLIC_WEB_DESK_SCREENED_NOT_HISTORIAN_CERTIFIED",
+      "historianSignoff": false,
+      "originalPhysicalEditionCollated": false
+    },
+    {
+      "id": "V450-10",
+      "chapterId": "L448-05-02",
+      "volumeId": "VOL-05",
+      "anchor": "**성직 영지 유보(Ecclesiastical Reservation)**",
+      "position": 291,
+      "sourceUrl": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/ghdi%3Adocument-4386",
+      "sourceTier": "EDITED_HISTORICAL_DOCUMENT_ENGLISH_TRANSLATION",
+      "status": "PUBLIC_WEB_DESK_SCREENED_NOT_HISTORIAN_CERTIFIED",
+      "historianSignoff": false,
+      "originalPhysicalEditionCollated": false
+    },
+    {
+      "id": "V450-11",
+      "chapterId": "L448-05-02",
+      "volumeId": "VOL-05",
+      "anchor": "**1624년 1월 1일을 기준 연도**",
+      "position": 626,
+      "sourceUrl": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/peace-treaties-of-westphalia-october-14-24-1648",
+      "sourceTier": "EDITED_HISTORICAL_DOCUMENT_ENGLISH_TRANSLATION",
+      "status": "PUBLIC_WEB_DESK_SCREENED_NOT_HISTORIAN_CERTIFIED",
+      "historianSignoff": false,
+      "originalPhysicalEditionCollated": false
+    }
+  ],
+  "previousVol07ClaimRowsPreserved": 16,
+  "counts": {
+    "newFactAnchors": 11,
+    "earlierVol07FactAnchors": 16,
+    "selectedL1FactAnchorsTotal": 27,
+    "unchangedL0ClaimRegister": 53
+  },
+  "criticalInterpretationLimits": [
+    "Hus's personal transubstantiation acceptance does not imply all Hussite groups concurred",
+    "Marburg Article 15 includes shared sacramental language as well as unresolved bodily presence",
+    "1540 print year does not identify a single Augsburg Confession edition",
+    "Trent council proceedings differ from later Tridentinism's implementation",
+    "1555/1648 legal rights differed by estate, confession and location; not universal conscience freedom"
+  ],
+  "review": {
+    "externalHistorianSignoffs": 0,
+    "readerTests": 0,
+    "canShip": false,
+    "canMergeMain": false,
+    "canImportAIStudio": false
+  }
+}
