@@ -118,7 +118,7 @@ for(const [index,id] of ["l0","l1"].entries()){
 }
 byId("compare").addEventListener("click",()=>{state.compare=!state.compare;renderCompare();});
 byId("sourcesBtn").addEventListener("click",()=>{state.sources=!state.sources;renderSources();});
-byId("restart").addEventListener("click",()=>{state.eventId=atlas.events[0].id;state.layer="L0";state.compare=false;state.sources=true;renderAll();});
+byId("restart").addEventListener("click",()=>{state.eventId=atlas.events[0].id;state.layer="L0";state.compare=false;state.sources=true;renderAll();document.querySelector?.(".nav")?.scrollTo?.({left:0,behavior:"instant"});document.querySelector?.(".header")?.scrollIntoView?.({block:"start",behavior:"instant"});});
 function renderAll(){renderEvent();renderBook();renderCompare();renderSources();}
 byId("question").textContent=atlas.question;renderAll();
 </script></body></html>
