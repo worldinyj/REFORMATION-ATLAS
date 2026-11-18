@@ -1,0 +1,74 @@
+{
+  "schema": "ATLAS_V463_VERIFIED_1529_PRINT_ART15_DISCOVERY_AUDIT",
+  "date": "2026-11-19",
+  "achievement": "Directly viewed authentic digitized 1529 Zurich Froschauer printed page containing Marburg Article 15 and mass clause, with Article13 page also inspected.",
+  "verified": {
+    "edition": "VD16 W2119",
+    "holdingInstitution": "Zentralbibliothek Zürich",
+    "shelfmark": "5.174,5",
+    "publication": "Zürich, Christoffel Froschauer, 1529",
+    "institutionCatalogue": "https://www.e-rara.ch/zuz/content/titleinfo/170052",
+    "permalink": "https://doi.org/10.3931/e-rara-597",
+    "originalScanPDF": "https://www.e-rara.ch/zuz/download/pdf/170052",
+    "printedArticle13PageIndexZero": 5,
+    "printedArticle15PageIndexZero": 6,
+    "originalEraPrintPagesDirectlyViewed": 2,
+    "contentWitnessed": {
+      "Article13": "Printed objection to doctrine forbidding marriage of priests.",
+      "Article15": "The mass is not a work that obtains grace for another living/dead; Article 15 also contains shared statements and unresolved bodily-presence mode.",
+      "certainty": "Visible typeface in original-era print; handwritten marginal annotations not fully transcribed."
+    }
+  },
+  "institutionalOriginalWitnessStatus": {
+    "K_M1529_signed_manuscript_Art15": "UNVIEWED",
+    "Z_M1529_signed_manuscript_Art15": "UNVIEWED",
+    "Latin_1531_C4734_ArticleX": "UNVIEWED",
+    "Latin_1540_C4713_ArticleX": "UNVIEWED",
+    "V462FourTargetFoliosCompleted": 0,
+    "unrelatedAdditional1529PrintWitnessRead": "W2119",
+    "sourceImageBinaryAvailableInCurrentContainer": false,
+    "sourceImageSHA256": null,
+    "diplomaticCompleteTranscription": false,
+    "independentHumanPaleographyQC": false
+  },
+  "contentInterpretation": {
+    "directlySupports": "The mass-related clause appears in a 1529 Zurich printing, independent of modern translations.",
+    "supportsRelationshipOnly": "Its subject matches the Zurich archive's Z-only Article 15 addition; does NOT identify W2119 as a verbatim copy of the signed Z manuscript.",
+    "doesNotSupport": [
+      "A claim of direct K or Z autograph image inspection",
+      "The manuscript collation is finished",
+      "All early 1529 print editions preserve exactly the same additional wording",
+      "Article 7 printed addition confirmed in W2119",
+      "Any 1531 or 1540 Latin printed Article X source images were opened"
+    ]
+  },
+  "repositoryEvidence": {
+    "newEvidence": "research/data/ATLAS_V463_W2119_1529_PRINT_ART13_ART15_DIRECT_SCAN_EVIDENCE.json",
+    "report": "integrations/atlas-flagship-phase1/V463_ZURICH_W2119_1529_ART13_ART15_ACTUAL_PRINT_EVIDENCE_KO.md",
+    "revisedWitnessGraph": "research/data/ATLAS_V459_MANUSCRIPT_PRINT_WITNESS_VARIANT_GRAPH.json",
+    "revisedFourTargets": "research/data/ATLAS_V462_FOUR_PRIMARY_FOLIO_IMAGE_ACQUISITION_REGISTER.json",
+    "test": "integrations/atlas-flagship-phase1/v463-original-print-witness-contract.test.mjs"
+  },
+  "checks": {
+    "githubSourceV8AdaptedTestCases": 5,
+    "passed": 5,
+    "failed": 0,
+    "nativeNodeRunnerVerified": false,
+    "githubActionsActualRunVerified": false,
+    "historicalProseOrAppCodeChanged": false,
+    "sourceImageUploaded": false,
+    "viewerPageProofHashAvailable": false,
+    "realHistorianApprovals": 0,
+    "actualReaderPilotParticipants": 0
+  },
+  "recommendedNext": [
+    "Directly read another 1529 Zurich imprint W2118 to compare printed Article 15 against W2119.",
+    "Read K/Z signed Article 15 manuscript leaves (or published facsimile) and explicitly align clause position and original spelling.",
+    "Read original 1531 C4734 and 1540 C4713 Latin Article X source page scans; use the 1858 critical apparatus only as comparison."
+  ],
+  "release": {
+    "canShip": false,
+    "canMergeMain": false,
+    "canImportAIStudio": false
+  }
+}
