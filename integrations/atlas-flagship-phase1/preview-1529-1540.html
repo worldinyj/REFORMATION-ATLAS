@@ -35,7 +35,7 @@ h1{font:500 clamp(2rem,4vw,3.15rem)/1.2 Georgia,serif;letter-spacing:-.045em;mar
 <span class="tag">1529–1540 · 연구 시범본 · 운영 앱 미반영</span></header>
 <div class="frame">
 <nav class="panel nav" aria-label="사건 연표"><h2>시간의 흐름</h2><p class="help">연도를 눌러 다른 사건을 보세요.</p><div id="steps"></div></nav>
-<main class="panel main" aria-live="polite"><div class="kicker" id="time"></div><h2 id="eventTitle"></h2><p class="meta" id="place"></p>
+<main class="panel main"><div class="kicker" id="time"></div><h2 id="eventTitle" aria-live="polite"></h2><p class="meta" id="place"></p>
 <p class="finding" id="finding"></p>
 <div class="caution"><strong>역사적으로 조심할 점</strong><p id="caution"></p></div>
 <div class="actions"><button type="button" id="compare" aria-expanded="false">1530·1531·1540년 판본 비교</button></div>
@@ -43,9 +43,9 @@ h1{font:500 clamp(2rem,4vw,3.15rem)/1.2 Georgia,serif;letter-spacing:-.045em;mar
 <table><thead><tr><th>연도</th><th>핵심 구분</th></tr></thead><tbody id="comparisonRows"></tbody></table>
 <p class="help">연도만으로 실물 판본의 동일성을 판단하지 않습니다.</p></div>
 <div class="actions" role="tablist" aria-label="읽기 깊이">
-<button type="button" id="l0" role="tab" aria-selected="true">L0 · 개요</button>
-<button type="button" id="l1" role="tab" aria-selected="false">L1 · 중급 해설</button></div>
-<div class="read-meta" id="readingTitle"></div><article id="reader" class="prose"></article>
+<button type="button" id="l0" role="tab" aria-controls="reader" aria-selected="true" tabindex="0">L0 · 개요</button>
+<button type="button" id="l1" role="tab" aria-controls="reader" aria-selected="false" tabindex="-1">L1 · 중급 해설</button></div>
+<div class="read-meta" id="readingTitle"></div><article id="reader" class="prose" role="tabpanel" aria-labelledby="l0" tabindex="0"></article>
 <div class="actions"><button type="button" id="sourcesBtn" aria-expanded="true">사료 카드 접기</button>
 <button type="button" id="restart">1529년으로 돌아가기</button></div></main>
 <aside class="panel side" id="sources" aria-label="문헌과 자료"><div class="kicker">EVIDENCE</div>
@@ -66,7 +66,7 @@ function renderEvent(){
   btn.setAttribute("aria-current",e.id===current.id?"step":"false");
   const year=document.createElement("span");year.textContent=e.dateLabel;
   const label=document.createElement("strong");label.textContent=e.title;btn.append(year,label);
-  btn.addEventListener("click",()=>{state.eventId=e.id;renderEvent();});
+  btn.addEventListener("click",()=>{const wasFocused=document.activeElement===btn;state.eventId=e.id;renderEvent();if(wasFocused){const fresh=byId("steps").children[atlas.events.findIndex(x=>x.id===e.id)];if(typeof fresh?.focus==="function")fresh.focus({preventScroll:true});}});
   byId("steps").appendChild(btn);
  }
  byId("time").textContent="SELECTED EVENT / "+current.dateLabel;
@@ -91,6 +91,9 @@ function renderBook(){
  byId("reader").textContent=book.text;
  byId("l0").setAttribute("aria-selected",String(state.layer==="L0"));
  byId("l1").setAttribute("aria-selected",String(state.layer==="L1"));
+ byId("l0").setAttribute("tabindex",state.layer==="L0"?"0":"-1");
+ byId("l1").setAttribute("tabindex",state.layer==="L1"?"0":"-1");
+ byId("reader").setAttribute("aria-labelledby",state.layer==="L0"?"l0":"l1");
 }
 function renderCompare(){
  byId("comparison").hidden=!state.compare;byId("compare").setAttribute("aria-expanded",String(state.compare));
@@ -105,6 +108,14 @@ function renderSources(){byId("sources").hidden=!state.sources;
  byId("sourcesBtn").textContent=state.sources?"사료 카드 접기":"사료 카드 펼치기";}
 byId("l0").addEventListener("click",()=>{state.layer="L0";renderBook();});
 byId("l1").addEventListener("click",()=>{state.layer="L1";renderBook();});
+for(const [index,id] of ["l0","l1"].entries()){
+ byId(id).addEventListener("keydown",event=>{
+  if(!["ArrowLeft","ArrowRight","Home","End"].includes(event.key))return;
+  event.preventDefault();
+  const next=event.key==="Home"?0:event.key==="End"?1:(index+(event.key==="ArrowRight"?1:1))%2;
+  const target=byId(["l0","l1"][next]);target.click();target.focus();
+ });
+}
 byId("compare").addEventListener("click",()=>{state.compare=!state.compare;renderCompare();});
 byId("sourcesBtn").addEventListener("click",()=>{state.sources=!state.sources;renderSources();});
 byId("restart").addEventListener("click",()=>{state.eventId=atlas.events[0].id;state.layer="L0";state.compare=false;state.sources=true;renderAll();});
