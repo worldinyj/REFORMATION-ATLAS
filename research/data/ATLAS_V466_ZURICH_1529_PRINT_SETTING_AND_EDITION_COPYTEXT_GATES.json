@@ -1,0 +1,287 @@
+{
+  "schema": "ATLAS_V466_PRINT_SETTING_AND_EDITORIAL_COPYTEXT_EVIDENCE",
+  "version": "4.66",
+  "date": "2026-11-19",
+  "scope": "Zurich 1529 printed Marburg Articles VD16 W2118/W2119: locus alignment, type-setting uncertainty, edition authority",
+  "previousResearch": "research/data/ATLAS_V465_ZURICH_W2118_W2119_DIRECT_ARTICLES_AND_COLOPHON_COMPARISON.json",
+  "verificationClaim": "A source-backed critical assessment of a printing-state difference and of edition copy-text; NOT a new full line-by-line typesetting collation.",
+  "sourceRegistry": {
+    "ZURICH_ARCHIVE": {
+      "url": "https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=618165",
+      "kind": "OFFICIAL_ARCHIVE_CATALOGUE",
+      "preciseLocator": "Publikationen: Zwingli Werke Bd 6/2 Nr146 nach dem Druck VD16 W2119; Überlieferung Z/K; links W2118 and W2119"
+    },
+    "W2119_ORIGINAL": {
+      "url": "https://www.e-rara.ch/zuz/download/pdf/170052",
+      "kind": "1529_PHYSICAL_PRINT_DIGITAL_FACSIMILE",
+      "preciseLocator": "PDF page zero-index 6 Article15; page 7 printed signatories and printer colophon",
+      "observedCurrentTurn": true
+    },
+    "W2118_ORIGINAL": {
+      "url": "https://www.e-rara.ch/zuz/download/pdf/291747",
+      "kind": "1529_PHYSICAL_PRINT_DIGITAL_FACSIMILE",
+      "preciseLocator": "Previously inspected V4.65; PDF page zero-index 6 Article15, page 7 printed signatories without colophon",
+      "observedCurrentTurn": false,
+      "accessIssue": "Web tool returned access error to direct PDF and IIIF manifest in V4.66. Record is carried from verified preceding research; not a fresh current-turn screenshot."
+    },
+    "W2118_CATALOGUE": {
+      "url": "https://www.e-rara.ch/zuz/content/titleinfo/291747",
+      "kind": "HOLDING_CATALOGUE_RECORDED_IN_V465",
+      "preciseLocator": "W2118, Zwingli MvK A 81,8; inaccessible to current web fetch"
+    },
+    "ZURICH_SEARCH": {
+      "url": "https://www.e-rara.ch/search/quick?facets=printer-publisher%3D%22Froschauer%2C+Christoph%22&query=Martin+Luther",
+      "kind": "INSTITUTIONAL_SEARCH_RESULTS",
+      "preciseLocator": "Two separate Zürich 1529 print records for Zwingli MvK A 81,8 and 5.174,5"
+    },
+    "ERARA_API": {
+      "url": "https://www.e-rara.ch/wiki/apiinfo",
+      "kind": "PLATFORM_API_DOCUMENTATION",
+      "preciseLocator": "PDF, OAI, IIIF image v21 and manifest public interfaces"
+    },
+    "ERARA_RIGHTS": {
+      "url": "https://www.e-rara.ch/wiki/termsOfUse?lang=en",
+      "kind": "PLATFORM_RIGHTS_GUIDANCE",
+      "preciseLocator": "Credit precise original source and partner institution, check item rights"
+    }
+  },
+  "editionObjects": [
+    {
+      "id": "P1529-W2118",
+      "vd16": "W2118",
+      "vischer": "C162",
+      "holding": "ZB Zürich, Zwingli MvK A 81,8",
+      "originalPdf": "https://www.e-rara.ch/zuz/download/pdf/291747",
+      "article15PdfPage0": 6,
+      "signatoryPdfPage0": 7,
+      "inspectedPriorTurn": true,
+      "reopenedInV466": false,
+      "physicalCopyPDFSha256": null,
+      "diplomaticTranscriptionComplete": false
+    },
+    {
+      "id": "P1529-W2119",
+      "vd16": "W2119",
+      "vischer": "C161",
+      "holding": "ZB Zürich, 5.174,5",
+      "originalPdf": "https://www.e-rara.ch/zuz/download/pdf/170052",
+      "article15PdfPage0": 6,
+      "signatoryPdfPage0": 7,
+      "inspectedPriorTurn": true,
+      "reopenedInV466": true,
+      "physicalCopyPDFSha256": null,
+      "diplomaticTranscriptionComplete": false
+    }
+  ],
+  "editorialSources": [
+    {
+      "id": "ED-1529-WA",
+      "title": "WA 30/III 160-171 (1910) German historical edited Marburg text",
+      "copyTextId": null,
+      "copyTextStatus": "UNRESOLVED_FROM_AVAILABLE_EDITION_INFO",
+      "sourceRefs": [
+        "ZURICH_ARCHIVE"
+      ],
+      "mayBeCalledSignedZAutograph": false
+    },
+    {
+      "id": "ED-ZW6-2-146",
+      "title": "Huldreich Zwinglis sämtliche Werke vol6/2 item146",
+      "copyTextId": "P1529-W2119",
+      "copyTextStatus": "OFFICIAL_ZURICH_ARCHIVE_EXPLICIT",
+      "sourceRefs": [
+        "ZURICH_ARCHIVE"
+      ],
+      "mayBeCalledSignedZAutograph": false,
+      "basisSentence": "Staatsarchiv Zürich: 'Zwingli, Werke, Bd. 6/2, Nr. 146 (nach dem Druck VD16 W 2119)'"
+    },
+    {
+      "id": "ED-LUTHERAN-K-2014",
+      "title": "Die Bekenntnisschriften der Evangelisch-Lutherischen Kirche Quellen und Materialien Bd1 pp43-46",
+      "copyTextId": "M1529-K",
+      "copyTextStatus": "OFFICIAL_ZURICH_ARCHIVE_EXPLICIT",
+      "sourceRefs": [
+        "ZURICH_ARCHIVE"
+      ],
+      "mayBeCalledSignedZAutograph": false
+    },
+    {
+      "id": "ED-REFORMED-Z",
+      "title": "Reformierte Bekenntnisschriften Bd1/1 Nr11 pp259-267",
+      "copyTextId": "M1529-Z",
+      "copyTextStatus": "OFFICIAL_ZURICH_ARCHIVE_EXPLICIT",
+      "sourceRefs": [
+        "ZURICH_ARCHIVE"
+      ],
+      "mayBeCalledSignedZAutograph": false
+    },
+    {
+      "id": "ED-MBW-T3-825",
+      "title": "Melanchthons Briefwechsel Texte vol3 item825",
+      "copyTextId": "M1529-K",
+      "additionalVariantIds": [
+        "M1529-Z"
+      ],
+      "copyTextStatus": "K_WITH_Z_VARIANTS_OFFICIAL_ARCHIVE_EXPLICIT",
+      "sourceRefs": [
+        "ZURICH_ARCHIVE"
+      ],
+      "mayBeCalledSignedZAutograph": false
+    }
+  ],
+  "comparisonLoci": [
+    {
+      "id": "TYPO-A15-TITLE",
+      "article": "15",
+      "part": "article title and first line",
+      "W2119": {
+        "page0": 6,
+        "observedThisTurn": true,
+        "shortReading": "Vom Sacrament des lybs vnd blüts Christi; Zum fünffzehenden"
+      },
+      "W2118": {
+        "page0": 6,
+        "observedThisTurn": false,
+        "priorTurnPositionKnown": true,
+        "shortReading": null
+      },
+      "currentResult": "W2119_DIRECTLY_VIEWED_W2118_SETTING_UNRECHECKED",
+      "requires": [
+        "lineBreaksPerEdition",
+        "firstWordPosition",
+        "typeDefectsOrLigatures"
+      ]
+    },
+    {
+      "id": "TYPO-A15-MASS",
+      "article": "15",
+      "part": "Mass/grace for others sentence",
+      "W2119": {
+        "page0": 6,
+        "observedThisTurn": true,
+        "shortReading": "Das auch die Mässe nit ein werck ist"
+      },
+      "W2118": {
+        "page0": 6,
+        "observedThisTurn": false,
+        "priorTurnPositionKnown": true,
+        "shortReading": "die Messe nit ein werck ist"
+      },
+      "currentResult": "SAME_SEMANTIC_PROPOSITION_FROM_PRIOR_V465_NO_NEW_LETTER_COLLATION",
+      "requires": [
+        "wordwiseTranscription",
+        "lineBreaksPerEdition",
+        "orthographyVsTypeSetting"
+      ]
+    },
+    {
+      "id": "TYPO-A15-PRESENCE",
+      "article": "15",
+      "part": "dispute over bodily presence in bread and wine",
+      "W2119": {
+        "page0": 6,
+        "observedThisTurn": true,
+        "shortReading": "lyplich im brot vnnd wyn"
+      },
+      "W2118": {
+        "page0": 6,
+        "observedThisTurn": false,
+        "priorTurnPositionKnown": true,
+        "shortReading": "lyplich im brot vnnd wyn"
+      },
+      "currentResult": "SAME_SEMANTIC_PROPOSITION_FROM_PRIOR_V465_NO_NEW_LETTER_COLLATION",
+      "requires": [
+        "baselineImageHashes",
+        "exactLineCoordinates",
+        "typesettingCompare"
+      ]
+    },
+    {
+      "id": "TYPO-A15-CLOSING",
+      "article": "15",
+      "part": "Christian love and prayer at article end",
+      "W2119": {
+        "page0": 6,
+        "observedThisTurn": true,
+        "shortReading": "Christliche lieb"
+      },
+      "W2118": {
+        "page0": 6,
+        "observedThisTurn": false,
+        "priorTurnPositionKnown": true,
+        "shortReading": null
+      },
+      "currentResult": "UNVERIFIED_LINE_ALIGNMENT",
+      "requires": [
+        "captureBothFullArticle15Leaf",
+        "transcribeEndSegment",
+        "lineEndComparison"
+      ]
+    },
+    {
+      "id": "TYPO-SIGNATORY-COLOPHON",
+      "article": "AFTER_ART15",
+      "part": "signatures and printed printer identification",
+      "W2119": {
+        "page0": 7,
+        "observedThisTurn": true,
+        "printerColophonVisible": true,
+        "shortReading": "Getruckt zů Zürich durch Christoffel Froschouer"
+      },
+      "W2118": {
+        "page0": 7,
+        "observedThisTurn": false,
+        "printerColophonVisible": false,
+        "priorV465Reported": true
+      },
+      "currentResult": "IMPRINT_DIFFERENCE_DOCUMENTED_ACROSS_PRIOR_AND_CURRENT_INSPECTIONS",
+      "requires": [
+        "sameTypeBodyComparison",
+        "printerMarkTypeAndBaseline",
+        "quireSignatures",
+        "paperAndOrnamentsComparison"
+      ]
+    }
+  ],
+  "printingDecisionTree": {
+    "sameSettingCriteria": [
+      "compare word-for-word line endings across at least three nonadjacent pages",
+      "compare distinctive broken sorts and ligatures",
+      "compare paragraph/heading indentation and text block dimensions",
+      "compare ornamental/initial and signature/quire marks",
+      "check stop-press corrections and colophon type setting"
+    ],
+    "sameSettingProved": false,
+    "differentSettingProved": false,
+    "colophonDifferenceDocumented": true,
+    "colophonDifferenceAloneDeterminesSetting": false,
+    "chronologicalPriorityEstablished": false,
+    "copyDirectionEstablished": false,
+    "possibleHypotheses": [
+      "COMMON_SETTING_WITH_DIFFERENT_LAST_PAGE_OR_STATE",
+      "DISTINCT_SETTING_SAME_TEXT_TRADITION",
+      "PARTIAL_RESETTING_OF_SIGNATURE_OR_IMPRINT",
+      "OTHER_UNRESOLVED_PRINT_VARIANT"
+    ],
+    "hypothesesAreNotFindings": true
+  },
+  "nextResearchPriorities": [
+    "Obtain W2118 PDF image bytes or original IIIF canvases and W2119 page6+7 image bytes, compute hashes and exact measurements for proper typesetting comparison.",
+    "Use the explicit Zurich archive edition copy-text mapping to prevent W2119-based Zwingli Werke 6/2 from being mislabeled original autograph Z.",
+    "Inspect actual signed Z and K Article15 handwritten leaves for precise three additions; then decide relative textual witness families.",
+    "Acquire 1531 C4734 and 1540 C4713 actual early printed Latin Article X pages and compare against CR26 1858 critical apparatus."
+  ],
+  "currentStudyStatus": {
+    "twoOriginalPrintsKnownFromV465": true,
+    "W2118FreshScreenshotInV466": false,
+    "W2119FreshScreenshotInV466": true,
+    "actualLineByLineTextualAlignmentComplete": false,
+    "manuscriptKandZPagesRead": false,
+    "fullPhysicalBookHashesAvailable": false,
+    "expertApprovals": 0,
+    "readerPilotParticipants": 0,
+    "canShip": false,
+    "canMergeMain": false,
+    "canImportAIStudio": false
+  }
+}
