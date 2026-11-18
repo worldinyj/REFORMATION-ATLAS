@@ -80,10 +80,11 @@
     "realGitHubActionsRunVerified": false,
     "realBrowserHostAndAIStudioTestVerified": false,
     "historianExpertReviews": 0,
-    "readerPilotParticipants": 0
+    "readerPilotParticipants": 0,
+    "validationNote": "V4.65 and V4.64/V4.63 contracts were run in V8 with Node imports/file read adapted. Native Node --test and push-triggered GitHub Actions success are not established."
   },
   "decisions": {
-    "historicalClaimCanBeUsedAsEditedEvidence": "SOURCE_PAGE_SUPPPORTED_RESEARCH_ONLY",
+    "historicalClaimCanBeUsedAsEditedEvidence": "DIRECTLY_VIEWED_1529_PRINT_SOURCE_RESEARCH_ONLY",
     "historicalClaimCanBePublishedInProduction": false,
     "mainModified": false,
     "productionAIStudioModified": false,
