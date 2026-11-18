@@ -97,3 +97,20 @@ ATLAS_BROWSER=chromium node --test browser-smoke.test.mjs
 세 가지 독자 평가 여정 및 필수 승인 조건: [V4.53 검토 기준](./V453_READER_ACCEPTANCE_AND_RELEASE_GATES.md). 기계 검증 출처와 미확인 항목: `research/data/ATLAS_V453_FLAGSHIP_INTERACTION_PARITY_AUDIT.json`.
 
 **중요:** `main`·실제 Google AI Studio 앱·배포 작업은 건드리지 않았고, 역사 원고 변경 없이 연구 브랜치 후보만 보강했다. `can_ship=false` 유지.
+
+## V4.54 — 실제 Chromium의 대표 UI 재구성본 시험 및 모바일 복귀 개선
+
+- **발견·수정:** 좁은 화면에서 1540년까지 연표를 넘겼다가 ‘1529년으로 돌아가기’를 눌러도 연표의 좌측 시작 부분이 다시 나타나지 않았다. 초기화 시 가로 연표를 왼쪽으로 복귀시키고 독자를 화면 상단으로 이동하게 수정했다.
+- **인지성:** 모바일에서만 “연표를 좌우로 밀어 다른 사건을 보세요.”를 노출하며, 비교 표의 열/행 제목에는 `scope`를 지정했다.
+- **React 동등 기능:** React 후보에도 초기화 버튼, 모바일 탐색 안내, 가로 스크롤을 위한 별도 연표 래퍼, 키보드·판본 비교 기능을 유지했다.
+- **회귀 검사:** `browser-smoke.test.mjs`와 `react-contract.test.mjs`에 관련 조건을 추가했다.
+
+### 검증 범위 및 통제
+
+로컬 환경의 **실제 Chromium 브라우저**에서 320·375·768·1440px의 대표 UI 재구성본을 테스트했고 네 화면 크기에서 기능·모바일 가로 넘침·초기화 동작 모두 PASS 했다. 이것은 단순 V8 모의 DOM이 아닌 실제 Chromium 렌더링 테스트다.
+
+다만 네트워크 및 파일 전송 제약 때문에 **GitHub HTML 전체를 그대로 로드하지는 못했다.** 브라우저 시험용 파일의 사건·문헌·역사 원고 텍스트는 축약한 테스트 데이터다. 실제 GitHub HTML의 **인라인 JavaScript 코드와 시험용 JavaScript는 글자 단위로 일치**하며, 양쪽 모두 길이 4266, FNV-1a 값 `6edc912b`로 대조했다. 레이아웃 CSS도 같은 주요 규칙을 이용했으나 GitHub의 CSS와 완전히 동일한 파일이라고 주장하지 않는다.
+
+이 4/4 PASS는 **전체 원본 HTML의 실제 브라우저 검증, WebKit 실행, Node 테스트 러너의 CI 완료, React 앱 빌드·AI Studio 이식, 원전 검토, 실제 독자 평가를 대신하지 않는다.** 근거와 미검증 사항은 `research/data/ATLAS_V454_CHROMIUM_FIXTURE_BROWSER_AUDIT.json`에 기록.
+
+후속 우선순위는 실행 가능한 GitHub CI에서 **원본 그대로** Playwright 테스트 로그와 스크린샷을 확보한 뒤 오탐/실패를 해결하는 것이다. 출시 제한 `can_ship=false`, `can_merge_main=false`, `can_import_ai_studio=false` 유지.
