@@ -455,5 +455,42 @@
     "originalKandZLeavesRead": false,
     "artX1531and1540EarlyPrintLeavesRead": false,
     "source": "research/data/ATLAS_V465_ZURICH_W2118_W2119_DIRECT_ARTICLES_AND_COLOPHON_COMPARISON.json"
+  },
+  "editorialCopyTextMap_V466": {
+    "ZWINGLI_WERKE_6_2_NO_146": {
+      "baseWitnessId": "P1529-W2119",
+      "officialInstitution": "Staatsarchiv Zürich",
+      "source": "https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=618165",
+      "sourceAnchor": "nach dem Druck VD16 W 2119",
+      "cannotClaimBasedOnAutographZ": true
+    },
+    "LUTHERAN_CONFESSIONAL_TEXT_2014_PP43_46": {
+      "baseWitnessId": "M1529-K",
+      "officialInstitution": "Staatsarchiv Zürich",
+      "source": "https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=618165",
+      "sourceAnchor": "nach K"
+    },
+    "REFORMED_CONFESSIONS_1_1_NO11": {
+      "baseWitnessId": "M1529-Z",
+      "officialInstitution": "Staatsarchiv Zürich",
+      "source": "https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=618165",
+      "sourceAnchor": "nach Z"
+    },
+    "MBW_TEXTE_3_NO_825": {
+      "baseWitnessId": "M1529-K",
+      "variantWitnessId": "M1529-Z",
+      "officialInstitution": "Staatsarchiv Zürich",
+      "source": "https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=618165",
+      "sourceAnchor": "nach K, mit den Abweichungen in Z"
+    }
+  },
+  "researchUpdate_V466": {
+    "date": "2026-11-19",
+    "primaryNewFinding": "Authoritative Zurich archive describes Zwingli Werke vol6/2 no146 as based on printed W2119, not signed Z; distinct from K-based and Z-based critical editions",
+    "typeSettingConclusion": "NOT_ESTABLISHED_FROM_COLOPHON_ALONE",
+    "currentTurnW2118Reaccess": false,
+    "currentTurnW2119Page6and7Reaccess": true,
+    "source": "research/data/ATLAS_V466_ZURICH_1529_PRINT_SETTING_AND_EDITION_COPYTEXT_GATES.json",
+    "noRelease": true
   }
 }
