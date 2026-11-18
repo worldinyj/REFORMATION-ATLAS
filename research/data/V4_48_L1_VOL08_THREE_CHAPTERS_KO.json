@@ -1,0 +1,89 @@
+{
+  "schema": "ATLAS_L1_VOLUME_READER_CHAPTER_DRAFT",
+  "version": "V4.48",
+  "date": "2026-11-18",
+  "volumeId": "VOL-08",
+  "title": "여섯 질문으로 다시 읽는 기독교사의 지도",
+  "readerLayer": "L1_INTERMEDIATE_HISTORICAL_NARRATIVE",
+  "notPublicationReady": true,
+  "historianReview": "NOT_STARTED",
+  "actualReaderTests": 0,
+  "description": "Three mid-level reader essays connecting the global and thematic history with evidence class limitations. A standalone L1 supplement to the unchanged L0 draft.",
+  "chapters": [
+    {
+      "id": "L448-08-01",
+      "title": "질문 1·2 — 성경과 권위 / 은총과 구원",
+      "period": "전 시대 비교",
+      "bodyMarkdown": "이 권은 앞선 일곱 권의 연대기 다음에 또 하나의 시대를 더하지 않는다. **성경과 권위**라는 질문을 고대 공의회와 중세 대학, 16세기 인쇄·도시 교회, 남인도와 조선의 번역 역사에 던지면 서로 다른 권력 관계가 보인다. 같은 ‘권위’라는 말이라도 황제나 주교의 법적 권한, 학교 교사의 가르침, 지역 번역 공동체의 언어 선택은 같은 제도가 아니다. 이를 한 줄로 비교하기 전에 사건마다 시대와 지역, 문헌의 종류를 반드시 확인해야 한다.\n\n**은총과 구원**이라는 질문을 던질 때에는 루터파와 가톨릭, 개혁파와 다른 전통이 서로 같은 성경 언어를 사용하면서도 무엇을 쟁점으로 삼았는지를 이해해야 한다. 특정 교파의 자기 설명을 상대방이 붙인 비판적 별명으로 대체하면 안 된다. 아우크스부르크 신앙고백과 트리엔트 공의회를 같은 문서처럼 비교할 수도 없다. 독자는 한 질문이 여러 시대를 관통한다는 사실을 보되, 그 질문에 답하는 **신학적 언어와 법적 상황은 달랐다**는 원칙을 유지해야 한다.",
+      "thesis": "권위와 구원을 비교하되 시대·교파별 문서 형식과 권력 구조를 섞지 않는다.",
+      "sourceUrls": [
+        "https://gruber.lstc.edu/confessions/augs_apol.php",
+        "https://www.saet.ac.uk/Christianity/CouncilofTrent",
+        "https://www.mcgill.ca/religiousstudies/about/birks-building/jingiao-stele"
+      ],
+      "crossLinks": [
+        "VOL-01",
+        "VOL-03",
+        "VOL-04",
+        "VOL-05",
+        "VOL-06"
+      ],
+      "reviewCaution": "Thematic comparison is an editorial reading aid, not a substitute for doctrinal historical critical study.",
+      "reviewState": "EDITORIAL_DRAFT_UNREVIEWED",
+      "canShip": false,
+      "originalCopyrightedTextCopied": false
+    },
+    {
+      "id": "L448-08-02",
+      "title": "질문 3·4 — 성찬과 예배 / 교회조직과 생활",
+      "period": "중세–근현대 비교",
+      "bodyMarkdown": "**성찬과 예배**라는 질문을 따라가면 중세의 위클리프·후스 차이와 1529년 마르부르크 회담이 연결된다. 이 사례들이 보여 주는 것은 기독교인이 모두 성찬을 단순한 상징이라고 이해했다거나 모두 한 가지 표현으로 동의했다는 결론이 아니다. 두 사람의 사상적 영향 관계나 개혁자들의 공동 입장을 확인한 뒤에도 구체적인 성찬론을 별도로 대조해야 한다. 성찬에서의 참여 방식과 그리스도의 임재를 설명하는 언어는 관련되지만 같은 질문은 아니다.\n\n**교회조직과 생활**로 옮겨가면 공의회와 도시의회, 제네바의 교회 규율, 가톨릭 성직자 교육, 모라비아 공동체의 지도권 논쟁, 아프리카의 독립교회가 새로운 비교 대상이 된다. 하나의 교파 이름이 모든 지역에 동일한 학교·예배·가정생활의 형태를 보장하지 않았다. 역사 속 신앙은 문서의 조항과 예배당의 질서, 가난한 이웃을 돌보는 관습과 지역 사회의 권한이 함께 만들어 낸 경험이다. 그러므로 **신앙의 정의와 공동체가 실제로 살아간 방법**을 나란히 살펴야 한다.",
+      "thesis": "성찬의 신학적 견해와 예배 실천을 구별하고 교회조직이 일상에서 수행된 방식을 함께 본다.",
+      "sourceUrls": [
+        "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/the-marburg-colloquy-the-marburg-articles-1529",
+        "https://www.cambridge.org/core/journals/church-history/article/abs/john-wyclif-and-hussite-theology-14151436/54C10C6F7EEFB5409E2291C9F4194ABF",
+        "https://www.oikoumene.org/item-3"
+      ],
+      "crossLinks": [
+        "VOL-03",
+        "VOL-04",
+        "VOL-05",
+        "VOL-06",
+        "VOL-07"
+      ],
+      "reviewCaution": "One index paragraph cannot give full denominational and Eucharistic primary text nuances; cross-verify with review G443-01.",
+      "reviewState": "EDITORIAL_DRAFT_UNREVIEWED",
+      "canShip": false,
+      "originalCopyrightedTextCopied": false
+    },
+    {
+      "id": "L448-08-03",
+      "title": "질문 5·6 — 국가·갈등·공존 / 번역과 지역 수용",
+      "period": "고대–현대 비교",
+      "bodyMarkdown": "**국가·갈등·공존**의 관점에서 보면 고대 악숨 왕실의 기독교 수용, 중세의 여러 통치 질서, 1555년 아우크스부르크 화의, 20세기 한국교회의 민주화와 분화는 비슷해 보이는 제목 아래 서로 다른 사건이다. 왕의 신앙이 주민 전체의 선택을 대신하지 않았고, 종교 간 합의가 모든 개인의 자유를 완성한 것도 아니다. 신앙공동체는 권력의 보호를 받기도 하고 권력을 비판하기도 했다. **어떤 사람들의 권리가 넓어졌으며 누가 여전히 배제되었는가**라는 질문이 시대마다 새로운 의미를 갖는다.\n\n**번역과 지역 수용**에서는 시리아어 문학과 중국 경교비, 남인도 타밀어 신약과 한국어 성서의 연대기를 비교한다. 781년 경교비가 회고하는 635년은 기록의 제작 연도와 사건의 연도를 구별하게 한다. 1715·1719년의 타밀어 출판 정보는 지금도 기관 기록 사이에서 설명되지 않은 부분이 있고, 한국어 성서의 1882·1887·1911년은 서로 다른 간행 범위를 가리킨다. 서로 다른 문헌을 동일한 확실성의 숫자로 정렬하는 것은 역사의 이해를 가로막는다. 주제 비교가 끝나면 원래의 시대권과 사료로 돌아가 **같은 질문이 왜 서로 다른 답을 낳았는지** 확인해야 한다.",
+      "thesis": "국가권력과 번역의 지역 수용을 비교하되 원문 종류와 확실성 수준을 지킨다.",
+      "sourceUrls": [
+        "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/the-religious-peace-of-augsburg-september-25-1555",
+        "https://www.mcgill.ca/religiousstudies/about/birks-building/jingiao-stele",
+        "https://www.cam.ac.uk/stories/korean-bibles",
+        "https://www.bsind.org/bsi-archives/"
+      ],
+      "crossLinks": [
+        "VOL-01",
+        "VOL-02",
+        "VOL-05",
+        "VOL-06",
+        "VOL-07"
+      ],
+      "reviewCaution": "Tamil 1719 dispute unresolved; thematic similarities do not assert documentary equivalence.",
+      "reviewState": "EDITORIAL_DRAFT_UNREVIEWED",
+      "canShip": false,
+      "originalCopyrightedTextCopied": false
+    }
+  ],
+  "release": {
+    "canShip": false,
+    "canImportAIStudio": false,
+    "canMergeMain": false
+  }
+}
