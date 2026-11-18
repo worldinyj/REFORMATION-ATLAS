@@ -26,6 +26,10 @@ test("React candidate exposes evidence and edition comparison from the original 
  assert.match(jsx,/role="tabpanel"/);
  assert.match(jsx,/onKeyDown=\{handleReadingKeyDown\}/);
  assert.match(jsx,/useId\(\)/);
+ assert.match(jsx,/function handleRestart\(\)/);
+ assert.match(jsx,/timelineYearsRef\.current\?\.scrollTo/);
+ assert.match(jsx,/연표를 좌우로 밀어 다른 사건을 보세요/);
+ assert.match(jsx,/atlas-fp-timeline-years/);
 });
 test("React candidate never bypasses host access and release holds",()=>{
  assert.match(jsx,/privatePreviewGranted=false/);
@@ -38,5 +42,7 @@ test("candidate CSS stays scoped, mobile and edition compare controls exist",()=
  assert.match(css,/\.atlas-fp-compare\{/);
  assert.match(css,/\.atlas-fp-tabs/);
  assert.match(css,/@media\(max-width:720px\)/);
+ assert.match(css,/\.atlas-fp-timeline-years\{display:flex/);
+ assert.match(css,/\.atlas-fp-mobile-hint\{display:block/);
  assert.doesNotMatch(css,/(^|\n)body\s*\{|(^|\n)button\s*\{/);
 });
