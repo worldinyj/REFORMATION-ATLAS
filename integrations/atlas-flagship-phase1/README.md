@@ -61,3 +61,27 @@ node --test integrations/atlas-flagship-phase1/preview.test.mjs
 - **확장:** 첫 화면에서 독자의 이동이 자연스러운지 확인한 뒤 제7권 한국 기독교·성서 번역 사례에 같은 구조 적용.
 
 현재 **실제 AI Studio 앱 변경 0건 / 검증된 외부 학자 0명 / 실제 독자 테스트 0건 / `can_ship=false`**.
+
+## V4.52 후속 — 실제 브라우저 검증 준비와 키보드 접근성 보강
+
+작업 브랜치: `integration/atlas-phase1-browser-qa-v452` (V4.51 첫 화면 브랜치에서 분기). 운영 앱과 `main`은 수정하지 않는다.
+
+- `preview-1529-1540.html`: 연도 선택 후 키보드 초점 복원, L0/L1 탭의 방향키·Home·End 조작, `tabpanel`과 선택 탭 연결, 화면 낭독의 범위 축소, 좁은 화면에서 가로 스크롤 연표 표시.
+- `browser-smoke.test.mjs`: Chromium과 WebKit 엔진, 320/375/768/1440px, 키보드 조작, 화면의 예기치 않은 가로 넘침, 증거 링크 보안 속성, 외부 자동 전송, 첫 화면 복귀 점검 및 스크린샷 저장.
+- `.github/workflows/atlas-phase1-browser-qa.yml`: *이 연구 브랜치에 push할 때만* Node 기존 테스트와 Playwright 브라우저 테스트를 시행하도록 정의. `contents: read` 이외 권한이나 배포 단계가 없다.
+- `research/data/ATLAS_V452_BROWSER_QA_AND_ACCESSIBILITY_AUDIT.json`: 4개 사건·2개 사료 카드, 인라인 JSON 내용 불변, V8 스크립트 구문 통과를 기록.
+
+**아직 확인되지 않은 것:** GitHub Actions 실행 로그, Chromium/WebKit 실제 테스트 PASS, 본래의 Chrome/Safari 앱 검증, 실제 AI Studio 통합, 역사학자·독자 승인. CI 워크플로를 *작성한 것*과 테스트가 *성공한 것*을 구별한다. 완료되지 않은 테스트를 PASS로 간주하거나 `can_ship`을 바꾸지 않는다.
+
+작업자 점검:
+
+```bash
+# 연구 브랜치로 checkout 후 저장소 루트에서
+cd integrations/atlas-flagship-phase1
+npm install --no-save --no-package-lock --ignore-scripts playwright@1.56.1
+npx playwright install chromium
+node --test preview.test.mjs
+ATLAS_BROWSER=chromium node --test browser-smoke.test.mjs
+```
+
+실제 엔진 테스트가 통과하면 다음 단계는 **스크린샷을 육안으로 비교하여 접근성·모바일 레이아웃을 조정하는 것**이며, AI Studio 이식은 실제 호스트 소스와 인증 방식을 확인하기 전에는 여전히 금지한다.
