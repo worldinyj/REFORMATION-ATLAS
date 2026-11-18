@@ -1,0 +1,268 @@
+{
+  "schema": "ATLAS_V449_FOCUSED_VOL07_CLAIM_TO_EVIDENCE_SCOPE_REGISTER",
+  "version": "V4.49",
+  "date": "2026-11-18",
+  "method": "Read publicly accessible original institutional pages, academic article texts and national historical encyclopedia entries. Source tiers reflect the examined text, and are not historian approvals or complete original manuscript/edition collation.",
+  "baseChapterPath": "research/data/V4_49_L1_VOL07_REVISED_THREE_CHAPTERS_KO.json",
+  "baseChapterBlobSha": "1dd6d4bb3883bc441a7c6cf7bdab1cea82dbaa1d",
+  "chapterIds": [
+    "L448-07-01",
+    "L448-07-02",
+    "L448-07-03"
+  ],
+  "claimRows": [
+    {
+      "id": "V449-01",
+      "chapter": "L448-07-01",
+      "anchor": "아프리카와 중동의 기독교사는 근대 유럽 선교사가 도착했을 때 시작된 역사가 아니다.",
+      "sources": [
+        "https://www.metmuseum.org/fr/essays/african-christianity-in-ethiopia"
+      ],
+      "tier": "MUSEUM_RESEARCH_SYNTHESIS",
+      "caution": "Ancient Ethiopian and other regional church traditions not a single unified history.",
+      "claimedContentPresentOnce": true,
+      "externalHumanHistorianReview": false,
+      "approvalStatus": "DESK_CHECKED_SOURCE_SCOPE_HUMAN_REVIEW_PENDING"
+    },
+    {
+      "id": "V449-02",
+      "chapter": "L448-07-01",
+      "anchor": "이 약칭조차 학자와 교회가 서로 다르게 풀이한다.",
+      "sources": [
+        "https://oikoumene.org/item-3",
+        "https://www.degruyterbrill.com/document/doi/10.1515/opth-2025-0039/html"
+      ],
+      "tier": "ECUMENICAL_EXPLANATION_AND_SCHOLARLY_STUDY",
+      "caution": "AIC terminology and inclusion differ; institutional summaries are not comprehensive.",
+      "claimedContentPresentOnce": true,
+      "externalHumanHistorianReview": false,
+      "approvalStatus": "DESK_CHECKED_SOURCE_SCOPE_HUMAN_REVIEW_PENDING"
+    },
+    {
+      "id": "V449-03",
+      "chapter": "L448-07-01",
+      "anchor": "중동교회협의회(MECC)는 1974년 복음주의·오리엔트 정교회·그리스 정교회라는 세 교회 계열로 창립됐고, 1990년에 가톨릭 계열이 합류",
+      "sources": [
+        "https://www.mecc.org/mission-and-history"
+      ],
+      "tier": "INSTITUTIONAL_DIRECT_CHRONOLOGY",
+      "caution": "Organizational membership must not be read as theological merger.",
+      "claimedContentPresentOnce": true,
+      "externalHumanHistorianReview": false,
+      "approvalStatus": "DESK_CHECKED_SOURCE_SCOPE_HUMAN_REVIEW_PENDING"
+    },
+    {
+      "id": "V449-04",
+      "chapter": "L448-07-01",
+      "anchor": "세계교회협의회(WCC)와 MECC는 서로 다른 기구",
+      "sources": [
+        "https://www.mecc.org/mission-and-history",
+        "https://oikoumene.org/about-the-wcc/faq"
+      ],
+      "tier": "TWO_INSTITUTIONAL_IDENTITY_PAGES",
+      "caution": "Institutional differences do not imply no cooperation.",
+      "claimedContentPresentOnce": true,
+      "externalHumanHistorianReview": false,
+      "approvalStatus": "DESK_CHECKED_SOURCE_SCOPE_HUMAN_REVIEW_PENDING"
+    },
+    {
+      "id": "V449-05",
+      "chapter": "L448-07-02",
+      "anchor": "1779년 기원설의 일부 근거 문헌은 성립 시기와 진위 자체가 학술적으로 논의",
+      "sources": [
+        "https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART001667406"
+      ],
+      "tier": "ACADEMIC_ARTICLE_FULL_PUBLIC_TEXT",
+      "caution": "This refers to some debated records, not a definitive verdict that all 1779 accounts are false.",
+      "claimedContentPresentOnce": true,
+      "externalHumanHistorianReview": false,
+      "approvalStatus": "DESK_CHECKED_SOURCE_SCOPE_HUMAN_REVIEW_PENDING"
+    },
+    {
+      "id": "V449-06",
+      "chapter": "L448-07-02",
+      "anchor": "1784년 이승훈의 북경 세례와 귀국",
+      "sources": [
+        "https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART001667406",
+        "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003153946"
+      ],
+      "tier": "ACADEMIC_HISTORY_AND_SCHOLARLY_ABSTRACT",
+      "caution": "The baptism, community origin and earlier book discussions are separate events.",
+      "claimedContentPresentOnce": true,
+      "externalHumanHistorianReview": false,
+      "approvalStatus": "DESK_CHECKED_SOURCE_SCOPE_HUMAN_REVIEW_PENDING"
+    },
+    {
+      "id": "V449-07",
+      "chapter": "L448-07-02",
+      "anchor": "1882년 로스와 한국인 협력자들이 번역한 누가복음·요한복음",
+      "sources": [
+        "https://www.cam.ac.uk/stories/korean-bibles",
+        "https://encykorea.aks.ac.kr/Article/E0033189"
+      ],
+      "tier": "LIBRARY_HOLDINGS_FEATURE_AND_NATIONAL_ENCYCLOPEDIA",
+      "caution": "Correct attribution needs local Korean collaborator research at L2.",
+      "claimedContentPresentOnce": true,
+      "externalHumanHistorianReview": false,
+      "approvalStatus": "DESK_CHECKED_SOURCE_SCOPE_HUMAN_REVIEW_PENDING"
+    },
+    {
+      "id": "V449-08",
+      "chapter": "L448-07-02",
+      "anchor": "1887년 신약 27권을 담은 『예수성교전서』",
+      "sources": [
+        "https://encykorea.aks.ac.kr/Article/E0033189"
+      ],
+      "tier": "ACADEMIC_NATIONAL_ENCYCLOPEDIA",
+      "caution": "Full 27-book NT not identical with later Korean NT translation societies' authorized editions.",
+      "claimedContentPresentOnce": true,
+      "externalHumanHistorianReview": false,
+      "approvalStatus": "DESK_CHECKED_SOURCE_SCOPE_HUMAN_REVIEW_PENDING"
+    },
+    {
+      "id": "V449-09",
+      "chapter": "L448-07-02",
+      "anchor": "1900년 국내에서 인쇄된 신약전서",
+      "sources": [
+        "https://encykorea.aks.ac.kr/Article/E0033189"
+      ],
+      "tier": "ACADEMIC_NATIONAL_ENCYCLOPEDIA",
+      "caution": "1900 domestic NT printing used a mixed tentative text; different from 1887 and 1906 revisions.",
+      "claimedContentPresentOnce": true,
+      "externalHumanHistorianReview": false,
+      "approvalStatus": "DESK_CHECKED_SOURCE_SCOPE_HUMAN_REVIEW_PENDING"
+    },
+    {
+      "id": "V449-10",
+      "chapter": "L448-07-02",
+      "anchor": "1911년 신·구약 합본 『성경전서』",
+      "sources": [
+        "https://encykorea.aks.ac.kr/Article/E0033189"
+      ],
+      "tier": "ACADEMIC_NATIONAL_ENCYCLOPEDIA",
+      "caution": "This is Bible translation society sequence, not all Korean-script Catholic Bible editions.",
+      "claimedContentPresentOnce": true,
+      "externalHumanHistorianReview": false,
+      "approvalStatus": "DESK_CHECKED_SOURCE_SCOPE_HUMAN_REVIEW_PENDING"
+    },
+    {
+      "id": "V449-11",
+      "chapter": "L448-07-02",
+      "anchor": "민중신학은 노동자와 사회적 약자의 고통, 독재에 대한 저항이라는 문제",
+      "sources": [
+        "https://www.saet.ac.uk/Christianity/MinjungTheology"
+      ],
+      "tier": "ACADEMIC_THEOLOGY_ENTRY",
+      "caution": "Minjung theological schools differ, and not all Korean Christians shared the position.",
+      "claimedContentPresentOnce": true,
+      "externalHumanHistorianReview": false,
+      "approvalStatus": "DESK_CHECKED_SOURCE_SCOPE_HUMAN_REVIEW_PENDING"
+    },
+    {
+      "id": "V449-12",
+      "chapter": "L448-07-03",
+      "anchor": "1,215명의 대표 중 선교 대상 지역에서 온 대표는 19명(아시아 18명, 아프리카 1명)",
+      "sources": [
+        "https://www.oikoumene.org/news/1920-3-a-new-beginning-of-international-missionary-cooperation"
+      ],
+      "tier": "WCC_HISTORICAL_RETROSPECTIVE_DIRECT_TEXT",
+      "caution": "The 19 is from 'missionary lands' under the conference's contemporary category, not all non-white or non-European delegates.",
+      "claimedContentPresentOnce": true,
+      "externalHumanHistorianReview": false,
+      "approvalStatus": "DESK_CHECKED_SOURCE_SCOPE_HUMAN_REVIEW_PENDING"
+    },
+    {
+      "id": "V449-13",
+      "chapter": "L448-07-03",
+      "anchor": "1948년 암스테르담에서 출범한 **세계교회협의회(WCC)**",
+      "sources": [
+        "https://www.oikoumene.org/news/1920-3-a-new-beginning-of-international-missionary-cooperation"
+      ],
+      "tier": "WCC_INSTITUTIONAL_HISTORICAL_TEXT",
+      "caution": "Ecumenical movement precursors differ from the council founded in 1948.",
+      "claimedContentPresentOnce": true,
+      "externalHumanHistorianReview": false,
+      "approvalStatus": "DESK_CHECKED_SOURCE_SCOPE_HUMAN_REVIEW_PENDING"
+    },
+    {
+      "id": "V449-14",
+      "chapter": "L448-07-03",
+      "anchor": "로마가톨릭교회는 WCC의 회원교회가 아니지만 다양한 협력 관계를 맺고 있다",
+      "sources": [
+        "https://oikoumene.org/about-the-wcc/faq"
+      ],
+      "tier": "WCC_DIRECT_SELF_DESCRIPTION",
+      "caution": "Distinct from the MECC Catholic family accession in 1990.",
+      "claimedContentPresentOnce": true,
+      "externalHumanHistorianReview": false,
+      "approvalStatus": "DESK_CHECKED_SOURCE_SCOPE_HUMAN_REVIEW_PENDING"
+    },
+    {
+      "id": "V449-15",
+      "chapter": "L448-07-03",
+      "anchor": "해방신학 내부에 서로 다른 신학적 흐름이 존재한다는 점",
+      "sources": [
+        "https://www.vatican.va/content/dam/wss/roman_curia/congregations/cfaith/documents/rc_con_cfaith_doc_19840806_theology-liberation_en.html"
+      ],
+      "tier": "CATHOLIC_CONFESSIONAL_PRIMARY_DOCUMENT",
+      "caution": "Vatican doctrinal evaluation is one position; does not adjudicate all academic liberation-theology histories.",
+      "claimedContentPresentOnce": true,
+      "externalHumanHistorianReview": false,
+      "approvalStatus": "DESK_CHECKED_SOURCE_SCOPE_HUMAN_REVIEW_PENDING"
+    },
+    {
+      "id": "V449-16",
+      "chapter": "L448-07-03",
+      "anchor": "달리트 신학은 1980년대에 뚜렷해진 흐름으로, 사회와 교회 내부의 카스트 차별을 비판",
+      "sources": [
+        "https://www.mdpi.com/2077-1444/12/3/180",
+        "https://www.saet.ac.uk/Christianity/TheologyinIndia"
+      ],
+      "tier": "SCHOLARLY_OPEN_ARTICLE_AND_ACADEMIC_ENTRY",
+      "caution": "Origins and concepts are not reducible to one founder; full MDPI page may rate-limit despite indexed academic text.",
+      "claimedContentPresentOnce": true,
+      "externalHumanHistorianReview": false,
+      "approvalStatus": "DESK_CHECKED_SOURCE_SCOPE_HUMAN_REVIEW_PENDING"
+    }
+  ],
+  "crossHistoricalDisambiguations": [
+    {
+      "distinction": "MECC_CATHOLIC_1990_vs_WCC_NOT_MEMBER",
+      "explanation": "The Catholic church family joined the MECC in 1990; the Roman Catholic Church remains a non-member of the separate World Council of Churches (WCC)."
+    },
+    {
+      "distinction": "KOREAN_1779_VS_1784",
+      "explanation": "Reading circle and source-authenticity historiography should be distinguished from Yi Seung-hun's baptism and early community formation."
+    },
+    {
+      "distinction": "KOREAN_1887_VS_1900_VS_1906_VS_1911",
+      "explanation": "1887 full NT in a first translation stream, 1900 domestically printed NT of a different translation process, a 1906 authorized revision and a 1911 complete Bible are distinct bibliographic milestones."
+    },
+    {
+      "distinction": "EDINBURGH_REPRESENTATION_CATEGORY",
+      "explanation": "WCC retrospective says 19 of 1215 were from missionary lands, not 'only 19 nonwhite people'. Avoid replacing its category by racial classification."
+    },
+    {
+      "distinction": "LATIN_AMERICA_1968_1979_VS_1984",
+      "explanation": "Regional episcopal conferences at Medellin/Puebla, plural liberation theologies and Vatican's 1984 doctrinal assessment are different classes of evidence."
+    },
+    {
+      "distinction": "AFRICAN_OLDER_TRADITIONS_VS_AIC",
+      "explanation": "Ancient African traditions and 19–20th century African Initiated/Independent Churches do not have a single origin or organization."
+    }
+  ],
+  "remainingReviewNeeds": [
+    "Regional church historian for African/Oriental/Eastern Orthodox nomenclature",
+    "Korean Catholic primary source authenticity around 1770s gatherings",
+    "Korean Bible collation of listed surviving editions and local translator credits",
+    "Latin-American theologian primary works beyond Catholic magisterial view",
+    "Detailed Chinese indigenous church social history currently not expanded"
+  ],
+  "state": {
+    "humanHistorianSignoffs": 0,
+    "realReaderEvaluations": 0,
+    "canShip": false,
+    "canImportAIStudio": false,
+    "canMergeMain": false
+  }
+}
