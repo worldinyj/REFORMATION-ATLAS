@@ -1,0 +1,185 @@
+{
+  "schema": "ATLAS_V460_SOURCE_PAGE_APPARATUS_AND_WITNESS_EDITIONS",
+  "created": "2026-11-18",
+  "phase": "primary-edition collation preparation",
+  "status": "HISTORICAL_CRITICAL_PRINTED_APPARATUS_READ_NOT_SIXTEENTH_CENTURY_COPY_AUTOPSY",
+  "existingRegisters": [
+    "research/data/ATLAS_V459_MANUSCRIPT_PRINT_WITNESS_VARIANT_GRAPH.json",
+    "research/data/ATLAS_V458_HIGH_RISK_TEXTUAL_BIBLIOGRAPHIC_EVIDENCE_MATRIX.json"
+  ],
+  "sources": {
+    "CR26_1858": {
+      "title": "Corpus Reformatorum vol.26, Confessio Augustana textual-critical edition (1858)",
+      "url": "https://www.augsburg1540.com/uploads/1/3/8/9/138903771/1540_latin_text_from_corpus_reformandum.pdf",
+      "host": "augsburg1540.com mirror of 1858 scholarly edition",
+      "kind": "NINETEENTH_CENTURY_EDITED_LATIN_PRINT_PAGE_AND_VARIANT_APPARATUS",
+      "printedPage": "357",
+      "pdfZeroIndexPage": 5,
+      "sourcePhotoDirectlyViewed": true,
+      "sourcePhotoRole": "1858 edited printed page and variant apparatus, not a 1540 original book copy",
+      "criticalIntro": "Printed page around 349–350, labels Ed1 1531 quarto princeps, Ed2 1531 octavo early modified, Ed3 1540 quarto, Ed4 1541–1542 octavo"
+    },
+    "ZH_ARCHIVE": {
+      "title": "Staatsarchiv Zürich, E I 3.1, Nr. 54",
+      "url": "https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=618165",
+      "kind": "OFFICIAL_MANUSCRIPT_CATALOGUE_WITH_EDITORIAL_BIBLIOGRAPHY",
+      "locator": "Description lines on manuscript Z versus K; 2014 Lutheran edition K; Reformed Confessions Z; MBW 3 item 825 K with Z variants; original facsimile Usteri 1883 pp 409–413",
+      "sourcePageRead": true,
+      "originalMSLeafRead": false
+    },
+    "GHDI_ARTICLES": {
+      "title": "GHDI edited Marburg Articles German",
+      "url": "https://germanhistorydocs.org/de/von-den-reformationen-bis-zum-dreissigjaehrigen-krieg-1500-1648/die-marburger-religionsgespraeche-die-marburger-artikel-1529",
+      "kind": "GERMAN_ORIGINAL_LANGUAGE_EDITION_NOT_PHYSICAL_SIGNED_MS",
+      "locator": "Article 15 section and WA 30/III source information",
+      "sourcePageRead": true
+    },
+    "SCHUBERT": {
+      "title": "V. Schubert historic textual criticism, printed page 361",
+      "url": "https://dlibra.bibliotekaelblaska.pl/Content/59249/03.pdf",
+      "kind": "OLDER_SCHOLARLY_HYPOTHESIS_NOT_ARCHIVAL_CERTIFICATION",
+      "locator": "Printed page 361; Zurich additions versus Hessian Kassel, relation to early Marburg prints",
+      "originalMSLeafRead": false
+    },
+    "MDZ_1531_LAT": {
+      "title": "BSB viewer 1531 Latin book VD16 C4734",
+      "url": "https://www.digitale-sammlungen.de/en/view/bsb11411960",
+      "kind": "ORIGINAL_BOOK_DIGITIZATION_LOCATION_ONLY",
+      "viewerAccess": "JavaScript-required; specific Article X leaf NOT inspected"
+    },
+    "PITTS_1540": {
+      "title": "Pitts 1540 Variata book VD16 C4713",
+      "url": "https://dia.pitts.emory.edu/exhibits/exhibitcatalogs/Kessler2017ExhibitionCatalogue.pdf",
+      "kind": "OTHER_INSTITUTION_PRINT_CATALOGUE",
+      "locator": "Printed page 34"
+    }
+  },
+  "crEditorialWitnesses": [
+    {
+      "editionKey": "Ed1",
+      "year": 1531,
+      "format": "quarto",
+      "editorialDescriptor": "editio Melanchthonis princeps",
+      "literalTextDirect16cRead": false
+    },
+    {
+      "editionKey": "Ed2",
+      "year": 1531,
+      "format": "octavo",
+      "editorialDescriptor": "edited text calls this prima variata (first altered edition) in apparatus chronology",
+      "literalTextDirect16cRead": false
+    },
+    {
+      "editionKey": "Ed3",
+      "year": 1540,
+      "format": "quarto",
+      "editorialDescriptor": "1540 Wittenberg variata, primary reading of 1858 scholarly collation",
+      "literalTextDirect16cRead": false
+    },
+    {
+      "editionKey": "Ed4",
+      "year": "1541–1542",
+      "format": "octavo",
+      "editorialDescriptor": "further altered edition",
+      "literalTextDirect16cRead": false
+    }
+  ],
+  "article10CriticalApparatus": {
+    "editionContext": "CR26 1858 printed p.357 (PDF page zero-index 5), article X and critical note 34",
+    "surface1540": {
+      "family": "Ed3 (and Ed4 as separately described by editor)",
+      "verbPhrase": "cum pane et vino vere exhibeantur",
+      "literalTextFromCriticalEdition": true,
+      "original1540LeafRead": false,
+      "interpretation": "literally truly presented with bread and wine; doctrinal intent not established from this phrase alone"
+    },
+    "earlier1531": {
+      "families": [
+        "Ed1",
+        "Ed2"
+      ],
+      "verbPhrase": "corpus et sanguis Christi vere adsint, et distribuantur",
+      "literalTextFromCriticalNote": true,
+      "original1531LeafRead": false,
+      "interpretation": "truly present and distributed; no automatic assertion all manuscripts and later language editions identical"
+    },
+    "condemnationClause": {
+      "earlier": "critical note 34 presents a condemnation of contrary teachers after the earlier sentence",
+      "later": "not present in Ed3 main Article X text shown p.357",
+      "readingRisk": "Exact original spelling and morphology of final clause need direct early-book page verification; standard later edited texts vary 'improbant secus docentes' forms."
+    },
+    "variantMarkers": [
+      "note 34 cross-references Ed1/Ed2 vs Ed3/Ed4",
+      "edited introductory statement distinguishes first modified 1531 octavo from 1540 quarto"
+    ],
+    "claimsLinked": [
+      "V457-C10",
+      "V457-C12",
+      "V457-C13"
+    ],
+    "interpretationHold": [
+      "The 1540 change does NOT itself prove complete eucharistic symbolism",
+      "Ed2 being earlier 'variata' in editor's usage does not mean modern '1540 Variata' proper was printed in 1531",
+      "Transcriptions from CR26 are not autopsied 16th century books"
+    ]
+  },
+  "marburgWitnessBase": {
+    "K": {
+      "shelfmark": "HStAM Best.3 Nr.245 fol.60r–64v",
+      "editionRecommended": "BSELK Quellen und Materialien 1 (2014) pp.43–46, after K",
+      "originalLeafArticle15Read": false
+    },
+    "Z": {
+      "shelfmark": "StAZH E I 3.1 Nr.54",
+      "editionRecommended": "Reformierte Bekenntnisschriften 1/1 no.11 pp.259–267, after Z",
+      "originalLeafArticle15Read": false
+    },
+    "parallelRecommended": [
+      "MBW Texte vol.3 no.825: based on K with deviations in Z",
+      "Gerhard May 1970 pp.67–70: K with Z deviations",
+      "Johann Martin Usteri 1883 pp.409–413 facsimile from Zurich Z"
+    ],
+    "officialSourceIdentifiesAdditionalArticles": [
+      7,
+      13,
+      15
+    ],
+    "additionalTextCollatedFromZAndK": false,
+    "historiographicFootnote": "V Schubert older academic paper p361 argues 'Z additions' present also in early prints; this is an interpretation to test, NOT independent printed witness collation",
+    "claimIds": [
+      "V457-C02",
+      "V457-C03",
+      "V457-C12"
+    ],
+    "specificSourceOfGHDIGermanFamily": "Not established solely from a GHDI transcription; do not label as definitely K or Z without edition apparatus."
+  },
+  "immediateReaderImplications": [
+    {
+      "id": "UI460-01",
+      "rule": "At Article 15, display editor/witness badge: 'German historical edited transcript; manuscript base unresolved' rather than implying one autograph."
+    },
+    {
+      "id": "UI460-02",
+      "rule": "Within source details distinguish K and Z and flag variations in Arts 7,13,15; do not quote unverified extra sentence as if directly transcribed."
+    },
+    {
+      "id": "UI460-03",
+      "rule": "For Article X, offer two short Latin verb phrases with CR26 page+note citation and status '1858 scholarly edited collation, 1531/1540 original leaf autopsy pending'."
+    },
+    {
+      "id": "UI460-04",
+      "rule": "Do not identify the unknown Gruber 1540 non-Variata with Pitts VD16 C4713."
+    }
+  ],
+  "requiredNextVerification": [
+    "Read facsimile pages of Usteri (1883) or the actual Z and K manuscripts at Art.15, record exact lemma and expansion.",
+    "Access actual 1531 Latin VD16 C4734 Art.X leaf and actual 1540 Variata C4713 Art.X leaf and compare with CR26 note34.",
+    "Determine which witness K or Z underlies each cited printed 1529 VD16 W2117/W2118/W2119/W2108 article 15 text.",
+    "Historian independent sign-off (two reviewers for high risk) and reader pilot; protect original manuscript rights."
+  ],
+  "humanHistoricalExpertApprovals": 0,
+  "realReaderPilotParticipants": 0,
+  "canShip": false,
+  "canMergeMain": false,
+  "canImportAIStudio": false
+}
