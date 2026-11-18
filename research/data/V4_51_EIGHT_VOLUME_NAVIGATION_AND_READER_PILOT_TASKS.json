@@ -1,0 +1,187 @@
+{
+  "schema": "ATLAS_V451_EIGHT_REAL_READER_ROUTE_TASKS_NOT_OBSERVATIONS",
+  "version": "V4.51",
+  "date": "2026-11-18",
+  "sourceHtmlPath": "research/prototypes/V451_L0_L1_OFFLINE_READER_PILOT.html",
+  "sourceHtmlBlobSha": "2b439819ba087d2c23bd808a9f78120312dfda42",
+  "goal": "Pilot first-time readers' actual ability to navigate L0 overview into historically meaningful L1 chapter and make a conceptual distinction, without claiming a psychometric survey.",
+  "conditions": {
+    "trialUsersRecruited": 0,
+    "actualPilotSessions": 0,
+    "actualObservations": 0,
+    "realResponsesCollected": 0,
+    "noNetworkOrAnalyticsCallsInPrototype": true,
+    "offlinePrototype": true,
+    "externalCitationLinksRequireInternet": true,
+    "consentAndDataHandlingResponsibility": "Actual researcher conducting pilot",
+    "noPersonallyIdentifyingData": true,
+    "manuallyExportedAnswersOnly": true
+  },
+  "suggestedPilotProcedure": [
+    "Provide standalone HTML to a consenting adult reader and clarify it is a research draft, not a reviewed educational product.",
+    "Ask them to select ONE assigned volume, read L0 and navigate to the specified L1 chapter.",
+    "Observe whether they can locate the chapter and explain the historical distinction in their own words; do not coach answers.",
+    "Ask the two existing volume-specific comprehension questions and record unknown terminology and confusing transitions.",
+    "Have participant explicitly choose whether to export deidentified notes; do not upload individual responses to public GitHub.",
+    "Keep optional timing notes separately, distinguish navigation failure from historical misunderstanding, and record only real human responses.",
+    "Only after reviewing actual feedback and expert historical evidence, decide whether the specific L1 sentence should be rewritten."
+  ],
+  "sampleRoutes": [
+    {
+      "id": "PILOT-451-01",
+      "volumeId": "VOL-01",
+      "chapterId": "L448-01-03",
+      "goal": "공의회에서 결정한 신앙 표현과 각 지역 교회의 수용이 왜 같은 사건이 아닌지 구별",
+      "success": "초기 문서 합의와 지역의 실제 역사·전통이 다를 수 있음을 설명",
+      "navigationSequence": [
+        "L0_VOL_1",
+        "L1_CHAPTER_L448-01-03",
+        "QUESTION_1_AND_2",
+        "IDENTIFY_CONFUSING_TERMS",
+        "OPTIONAL_LOCAL_JSON_EXPORT"
+      ],
+      "evaluationType": "UNOBSERVED_PILOT_TASK",
+      "completionRate": null,
+      "clarityScore": null,
+      "testedHumans": 0
+    },
+    {
+      "id": "PILOT-451-02",
+      "volumeId": "VOL-02",
+      "chapterId": "L448-02-02",
+      "goal": "635년 전래 기록과 781년 경교비 제작일을 구분",
+      "success": "635년은 비문이 회고하는 사건, 781년은 비석 자체의 제작연도라고 설명",
+      "navigationSequence": [
+        "L0_VOL_2",
+        "L1_CHAPTER_L448-02-02",
+        "QUESTION_1_AND_2",
+        "IDENTIFY_CONFUSING_TERMS",
+        "OPTIONAL_LOCAL_JSON_EXPORT"
+      ],
+      "evaluationType": "UNOBSERVED_PILOT_TASK",
+      "completionRate": null,
+      "clarityScore": null,
+      "testedHumans": 0
+    },
+    {
+      "id": "PILOT-451-03",
+      "volumeId": "VOL-03",
+      "chapterId": "L448-03-02",
+      "goal": "위클리프가 후스에게 영향을 주었어도 성찬론이 같지 않음을 찾기",
+      "success": "위클리프 잔존설과 후스 실체변화 수용을 구별하고 후스파 전체로 확장하지 않음",
+      "navigationSequence": [
+        "L0_VOL_3",
+        "L1_CHAPTER_L448-03-02",
+        "QUESTION_1_AND_2",
+        "IDENTIFY_CONFUSING_TERMS",
+        "OPTIONAL_LOCAL_JSON_EXPORT"
+      ],
+      "evaluationType": "UNOBSERVED_PILOT_TASK",
+      "completionRate": null,
+      "clarityScore": null,
+      "testedHumans": 0
+    },
+    {
+      "id": "PILOT-451-04",
+      "volumeId": "VOL-04",
+      "chapterId": "L448-04-02",
+      "goal": "1529년 마르부르크 합의의 범위와 1540년 Variata 문제 찾기",
+      "success": "제15조 미합의와 1540년판의 서로 다른 본문 가능성을 구별",
+      "navigationSequence": [
+        "L0_VOL_4",
+        "L1_CHAPTER_L448-04-02",
+        "QUESTION_1_AND_2",
+        "IDENTIFY_CONFUSING_TERMS",
+        "OPTIONAL_LOCAL_JSON_EXPORT"
+      ],
+      "evaluationType": "UNOBSERVED_PILOT_TASK",
+      "completionRate": null,
+      "clarityScore": null,
+      "testedHumans": 0
+    },
+    {
+      "id": "PILOT-451-05",
+      "volumeId": "VOL-05",
+      "chapterId": "L448-05-02",
+      "goal": "1555년 화의와 1648년 조약이 모든 사람에게 현대적 종교자유를 준 것은 아닌 이유 확인",
+      "success": "보호받는 제국 신분·교파와 1624년 기준연도 등의 제한을 하나 이상 짚음",
+      "navigationSequence": [
+        "L0_VOL_5",
+        "L1_CHAPTER_L448-05-02",
+        "QUESTION_1_AND_2",
+        "IDENTIFY_CONFUSING_TERMS",
+        "OPTIONAL_LOCAL_JSON_EXPORT"
+      ],
+      "evaluationType": "UNOBSERVED_PILOT_TASK",
+      "completionRate": null,
+      "clarityScore": null,
+      "testedHumans": 0
+    },
+    {
+      "id": "PILOT-451-06",
+      "volumeId": "VOL-06",
+      "chapterId": "L448-06-02",
+      "goal": "1715년·1719년 타밀어 신약의 출판 기록을 어떻게 보류하는지 찾기",
+      "success": "서로 다른 기관의 기록이 아직 조정되지 않았으며 확정 연도를 임의 선택하지 않음",
+      "navigationSequence": [
+        "L0_VOL_6",
+        "L1_CHAPTER_L448-06-02",
+        "QUESTION_1_AND_2",
+        "IDENTIFY_CONFUSING_TERMS",
+        "OPTIONAL_LOCAL_JSON_EXPORT"
+      ],
+      "evaluationType": "UNOBSERVED_PILOT_TASK",
+      "completionRate": null,
+      "clarityScore": null,
+      "testedHumans": 0
+    },
+    {
+      "id": "PILOT-451-07",
+      "volumeId": "VOL-07",
+      "chapterId": "L448-07-02",
+      "goal": "한국어 개신교 성서의 1882·1887·1900·1911년 간행 단계를 구분",
+      "success": "최소 두 연도의 문헌 범위 차이를 정확하게 설명하고 가톨릭 전체 역사로 확대하지 않음",
+      "navigationSequence": [
+        "L0_VOL_7",
+        "L1_CHAPTER_L448-07-02",
+        "QUESTION_1_AND_2",
+        "IDENTIFY_CONFUSING_TERMS",
+        "OPTIONAL_LOCAL_JSON_EXPORT"
+      ],
+      "evaluationType": "UNOBSERVED_PILOT_TASK",
+      "completionRate": null,
+      "clarityScore": null,
+      "testedHumans": 0
+    },
+    {
+      "id": "PILOT-451-08",
+      "volumeId": "VOL-08",
+      "chapterId": "L448-08-03",
+      "goal": "제8권이 새로운 역사 시대가 아닌 여섯 질문의 비교 지도임을 설명하고 다른 권으로 이동",
+      "success": "권의 비교 기능을 설명하고 관련 권 하나를 실제 탐색",
+      "navigationSequence": [
+        "L0_VOL_8",
+        "L1_CHAPTER_L448-08-03",
+        "QUESTION_1_AND_2",
+        "IDENTIFY_CONFUSING_TERMS",
+        "OPTIONAL_LOCAL_JSON_EXPORT"
+      ],
+      "evaluationType": "UNOBSERVED_PILOT_TASK",
+      "completionRate": null,
+      "clarityScore": null,
+      "testedHumans": 0
+    }
+  ],
+  "metrics": {
+    "plannedTaskRoutes": 8,
+    "existingQuestions": 16,
+    "expectedContentVolumes": 8,
+    "expectedL1Chapters": 24,
+    "noSimulatedScores": true
+  },
+  "publication": {
+    "canShip": false,
+    "canMergeMain": false,
+    "canImportAIStudio": false
+  }
+}
