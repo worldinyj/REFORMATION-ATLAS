@@ -310,3 +310,21 @@ V4.64에서 DOI 리다이렉트 오류로 **서지만 확인됐던 1529년 취�
 **회귀검사:** `v465-zurich-original-print-colophon-contract.test.mjs`
 
 **다음 작업:** 인쇄본 세 종을 더 늘리기보다는 W2118/W2119의 실제 활자 배열 대조 → 서명본 **Z·K의 제15조 직접 교감**으로 집중한다. 별도로 1531 C4734/1540 C4713의 라틴어 제10조 직접 인쇄면을 확보한다. 전문가 서명·독자 실측·AI Studio 반영 전까지 `can_ship=false`, `can_merge_main=false`, `can_import_ai_studio=false`. `main`, 실제 운영 앱과 기존 역사 원고는 변경하지 않았다.
+
+## V4.66 — W2118/W2119 인쇄 조판 **판정 보류** 및 학술판 저본 관계 정정
+
+1529년 취리히 인쇄판 2종의 **서지상 독립성, V4.65에서 확인한 말미 콜로폰 차이**, 후대 학술판의 **정확한 저본(copy-text)**을 분리하였다.
+
+- **새로 확정된 학술 자료 계통:** 취리히 주립문서보관소에 따르면 **『츠빙글리 저작집』 6/2권 제146번은 서명 필사본 Z가 아니라 인쇄판 `VD16 W2119`를 저본으로 사용**한다(`nach dem Druck VD16 W 2119`). 이에 비해 **2014년 루터교 자료집 43–46쪽은 K**, **개혁파 신앙고백집 1/1권 11번은 Z**, **MBW Texte 3, 825번은 K+Z 이문**을 사용한다. 앱용 저본 식별에서는 `EDITION_SOURCE`와 `AUTOGRAPH_MANUSCRIPT`를 자동 동일시하지 않는다.
+- **현재 실행의 직접 원본:** W2119의 1529년 PDF 0기준 **6쪽 제15조, 7쪽 서명자·인쇄자 표시**를 다시 눈으로 확인. W2118의 PDF `291747`과 IIIF 리소스는 이번 실행에서 접근 실패해 **V4.65 관찰 내용으로만 이어받았음**. 따라서 W2118 지면을 V4.66에서 재판독한 것처럼 표시하지 않는다.
+- **확인 수준 구별:** W2119에 프로샤우어 콜로폰이 있고 V4.65의 W2118 해당 지면에는 없는 **말미 인쇄 사항 차이**는 기록돼 있지만, 이를 **본문 전체가 별도로 조판됨 / 같은 활자판 사용 / 어느 인쇄가 먼저인지**의 증명으로 확장하지 않는다.
+- **실제 텍스트 교감의 필요조건:** 두 판본의 이미지 바이트·SHA256, 정확한 활자 배열, 행끝 글자, 특이 조판 오류, 장의 서명표, 인쇄자 사항을 함께 비교해야 한다. 현재 원문 **줄·철자 완전 교감 0건**.
+- **연구 방향 전환:** 이 단계 이후 1529 인쇄본 목록의 단순 확장을 중단하고, **서명 필사본 K/Z의 제15조 실제 이문 확보**를 우선한다. 이후 1531·1540년 아우크스부르크 신앙고백의 **제10조 실제 라틴어 인쇄 지면**을 대조한다.
+- **검증:** `v466-print-setting-provenance-contract.test.mjs` 신규 6건의 GitHub 소스 기반 V8 실행 **6/6 PASS**. 이는 역사적 조판 차이를 완전 확정했다는 뜻이 아니며 GitHub Actions 원격 실행 결과도 아니다. 연구용 CI 설정에 동일 테스트를 추가했다.
+
+**역사 연구보고서:** [V4.66 인쇄 조판 및 저본 판단](./V466_PRINT_SETTING_AND_CRITICAL_EDITIONS_COPYTEXT_KO.md)  
+**기계 판정·출처 연결:** `research/data/ATLAS_V466_ZURICH_1529_PRINT_SETTING_AND_EDITION_COPYTEXT_GATES.json`  
+**감사 기록:** `research/data/ATLAS_V466_PRINT_SETTING_AND_COPYTEXT_AUDIT.json`  
+**계통표 실제 개정:** `research/data/ATLAS_V459_MANUSCRIPT_PRINT_WITNESS_VARIANT_GRAPH.json`
+
+**릴리스:** `can_ship=false`, `can_merge_main=false`, `can_import_ai_studio=false`. 원고·main·실제 AI Studio 운영 앱 미변경. 역사학자 승인 및 실제 독자 파일럿 0건.
