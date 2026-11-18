@@ -1,0 +1,150 @@
+{
+  "schema": "ATLAS_V450_FOUR_DIRECT_SOURCE_SCREENED_CORE_REFORMATION_L1_REVISIONS",
+  "version": "V4.50",
+  "date": "2026-11-18",
+  "sourceMasterPath": "research/data/V4_49_L1_24_CHAPTER_INTEGRATED_REVISED_MASTER.json",
+  "sourceMasterBlobSha": "9c8fa2fd536270048990936ba34839748ffe31e9",
+  "description": "Four substantive L1 historical chapter rewrites linking Wyclif/Hus doctrinal differences, Marburg/Augsburg confession documentary distinctions, Trent three periods and the legally limited religious peace of 1555/1648; source checked in accessible public websites but not independently signed by historical specialists.",
+  "revisions": [
+    {
+      "id": "L448-03-02",
+      "volumeId": "VOL-03",
+      "theme": "위클리프/후스의 성찬론과 후대 후스파의 다양성",
+      "bodyMarkdown": "위클리프와 후스를 나란히 읽을 때는 사상적 영향과 교리의 일치를 구별해야 한다. 위클리프는 교회 권위와 성직자의 생활, 성경 해석뿐 아니라 성찬의 의미를 두고도 논쟁했다. 그의 견해 가운데 하나인 **잔존설(remanence)**은 성찬에서 축성된 빵의 실체가 그대로 남는다는 주장과 관련된다. 이 논의는 단순히 ‘그리스도는 성찬에 없다’는 선언으로 바꾸어서는 안 된다. 그리스도의 임재를 어떻게 설명할 것인지에 대한 중세의 철학적·신학적 논쟁 속에서 읽어야 한다.\n\n후스는 위클리프의 저작을 알고 그의 교회 개혁론 일부에서 영향을 받았지만 성찬론까지 동일하게 받아들이지는 않았다. 『Church History』에 게재된 연구는 후스 개인이 **실체변화(transubstantiation)**를 수용했다고 명시한다. 따라서 위클리프와 후스를 같은 성찬론의 두 대표자로 그리는 것은 부정확하다. 또한 ‘후스파’라는 후대 집합 명칭 안에서도 성찬에 관한 견해와 예배 질서는 달랐다. 대학에서 제기된 신학적 주장이 도시와 군사·정치적 공동체로 옮겨가면서 사람들은 서로 다른 선택을 했다.\n\n두 사람의 사상이 연결됐다는 역사적 사실은 특정 교리를 누가 언제 채택했는지를 검증하는 출발점이다. 하지만 **영향을 받았다는 사실은 그대로 복제했다는 뜻이 아니다.** 후스 개인의 문헌, 당대 논쟁 상대의 비판, 후대 후스파 집단의 입장을 같은 증거로 섞지 않는 것이 이 장의 핵심이다. 실제 라틴어 성찬 관련 문헌의 전면 교감은 아직 수행되지 않았다.",
+      "thesis": "위클리프 잔존설·후스의 실체변화 수용·후대 후스파의 다양한 성찬론을 분리한다.",
+      "sources": [
+        "https://www.cambridge.org/core/journals/church-history/article/abs/john-wyclif-and-hussite-theology-14151436/54C10C6F7EEFB5409E2291C9F4194ABF",
+        "https://www.cambridge.org/core/journals/church-history/article/abs/neglected-eucharistic-controversy-the-afterlife-of-john-wyclifs-eucharistic-thought-in-bohemia-in-the-early-fifteenth-century/75573F8B29830575C3DE4322D3FA07F3",
+        "https://www.cambridge.org/core/journals/church-history/article/abs/john-wyclif-and-the-eucharistic-words-of-institution-context-and-aftermath/7A3B350A2B409E97F900FC95F51D1AE6"
+      ],
+      "reviewCaution": "Historic Wyclif/Hus disagreement has academic abstract/fullpage discussion support; critical collation of Latin and later Hussite sources not completed. Review gate G443-01 remains open.",
+      "anchors": [
+        {
+          "text": "**잔존설(remanence)**은 성찬에서 축성된 빵의 실체가 그대로 남는다는 주장",
+          "source": "https://www.cambridge.org/core/journals/church-history/article/abs/john-wyclif-and-hussite-theology-14151436/54C10C6F7EEFB5409E2291C9F4194ABF"
+        },
+        {
+          "text": "후스 개인이 **실체변화(transubstantiation)**를 수용",
+          "source": "https://www.cambridge.org/core/journals/church-history/article/abs/john-wyclif-and-hussite-theology-14151436/54C10C6F7EEFB5409E2291C9F4194ABF"
+        }
+      ],
+      "reviewState": "PUBLIC_SOURCE_DESK_CHECKED_EXTERNAL_HISTORIAN_PENDING",
+      "humanReview": false,
+      "primaryOriginalEditionCollation": false,
+      "canShip": false
+    },
+    {
+      "id": "L448-04-02",
+      "volumeId": "VOL-04",
+      "theme": "1529년 마르부르크 합의문의 부분 합의와 1530·1531·1540년 인쇄 판본",
+      "bodyMarkdown": "1529년 마르부르크 회담은 개혁자들이 신학적으로 다른 말만 했던 자리가 아니었다. 10월 3일의 **마르부르크 15개 조항**에서 루터와 츠빙글리 등 서명자들은 앞선 열네 조항에 걸쳐 삼위일체·그리스도·죄와 믿음·세례 등에 관한 공통된 내용을 제시했다. 그러나 **마지막 제15조의 성찬**에서는 주님의 몸과 피의 임재를 구체적으로 어떻게 설명할지 완전한 합의에 이르지 못했다고 직접 기록했다. 제15조 안에도 서로 공유한 내용이 있었으므로 ‘14개는 같은 믿음, 15번째는 아무것도 동의하지 않았다’고 말하는 것도 지나친 단순화다.\n\n당시 합의문의 마지막 부분은 미합의 상태에서도 상호 기독교적 사랑과 더 나은 이해를 구하도록 권한다. 그러나 그 호소가 이후의 신학적 분열을 자동으로 해소한 것은 아니다. 회의 문서의 합의 범위와 신학자·교회들이 이후 수용한 입장은 따로 살펴야 한다. 독일사 사료집은 **1529년 문서의 서명자와 제15조의 미합의 부분**을 공개하고 있으므로, 당대 문서에 나타나지 않은 통일된 성찬 교리를 후대에서 거꾸로 부여하지 않는다.\n\n아우크스부르크 신앙고백에서도 **제출 연도·인쇄 연도·본문 이본**은 다른 판단 기준이다. 1530년 제국회의에 제출된 신앙고백과 1530년 인쇄본은 구분해야 하고, 멜란히톤의 감독 아래 1531년에 인쇄된 라틴어 신앙고백·변증서도 별도 서지적 단위다. 그루버 희귀본 소장목록은 1540년의 **Variata**와 **1540년 인쇄지만 Variata가 아닌 소장본**을 분명히 구별한다. 성찬론이 담긴 제10조의 문구가 판본 간에 달라졌다는 점은 중요하지만, 각 교파가 그 개정본을 어떻게 받아들였는지는 별도의 고백사 연구가 필요하다. **같은 해 인쇄됐다는 사실만으로 같은 본문이라고 판정하지 않는다.**",
+      "thesis": "마르부르크 15개 조항의 부분 합의와 아우크스부르크 1530·1531·1540년의 서로 다른 판본 층위를 정확히 구별한다.",
+      "sources": [
+        "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/the-marburg-colloquy-the-marburg-articles-1529",
+        "https://gruber.lstc.edu/confessions/augs_apol.php",
+        "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/the-marburg-colloquy-ulrich-zwinglis-report-october-20-1529"
+      ],
+      "reviewCaution": "German History Documents provides an edited/translated text of Marburg articles, while Gruber catalog gives object descriptions; no exhaustive 1530/1531/1540 original-copy collation and expert review of C417-11/12 yet.",
+      "anchors": [
+        {
+          "text": "**마르부르크 15개 조항**",
+          "source": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/the-marburg-colloquy-the-marburg-articles-1529"
+        },
+        {
+          "text": "**마지막 제15조의 성찬**에서는",
+          "source": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/the-marburg-colloquy-the-marburg-articles-1529"
+        },
+        {
+          "text": "**1540년 인쇄지만 Variata가 아닌 소장본**",
+          "source": "https://gruber.lstc.edu/confessions/augs_apol.php"
+        }
+      ],
+      "reviewState": "PUBLIC_SOURCE_DESK_CHECKED_EXTERNAL_HISTORIAN_PENDING",
+      "humanReview": false,
+      "primaryOriginalEditionCollation": false,
+      "canShip": false
+    },
+    {
+      "id": "L448-05-01",
+      "volumeId": "VOL-05",
+      "theme": "트리엔트 공의회의 세 회기와 실천 제도의 형성",
+      "bodyMarkdown": "16세기의 가톨릭 쇄신을 그저 개신교의 등장에 대한 ‘반격’으로만 소개하면 실제 역사를 절반만 보게 된다. 가톨릭 내부에서 성직자의 생활과 교육, 주교의 책임, 수도회와 평신도의 신앙 실천을 되돌아보려는 움직임도 있었기 때문이다. 그렇다고 다른 종교개혁 전통과 교리·교회권을 둘러싼 논쟁이 중요하지 않았다는 뜻도 아니다. 신학적 경계의 재확인과 공동체 내부의 제도 개선은 같은 시기에 함께 일어났다.\n\n트리엔트 공의회는 **1545~1547년, 1551~1552년, 1562~1563년**이라는 세 회기에 걸쳐 열렸으며 전체 **25차례 회기**를 거쳤다. 첫 시기의 성경과 전승, 의화(칭의)와 성사에 대한 결정, 둘째 시기의 성찬과 고해 등 성사 논의, 셋째 시기의 미사와 주교의 사목 책임 및 신학교 설립 문제는 강조점이 달랐다. 이것을 1545년 첫날에 이미 한꺼번에 결정된 개혁안처럼 쓰면 안 된다. 주교가 자신이 맡은 교구에 거주하고 성직자 교육을 개선하라는 요구는 공의회가 지역 교회의 실제 생활을 바꾸려 했다는 점을 드러낸다.\n\n그러나 공의회의 결정을 기록한 문헌과 그 결정이 지역별로 집행된 역사는 다르다. 세인트앤드루스 신학백과는 공의회 자체의 결정과 이후 교황청·지역 교회가 형성한 **트리엔트 이후의 실천과 해석(Tridentinism)**을 구별한다. 학교와 수도회, 도시와 농촌의 예배가 똑같은 속도로 바뀐 것도 아니다. **선포된 규범과 그것이 살아 있는 공동체에 적용된 과정 사이의 거리**를 읽는 것이 가톨릭 쇄신의 역사를 균형 있게 이해하는 길이다.",
+      "thesis": "트리엔트의 세 회기·25차례 회의와 결정 사항, 이후 지역별 실천·해석을 다른 역사적 층위로 본다.",
+      "sources": [
+        "https://www.saet.ac.uk/Christianity/CouncilofTrent",
+        "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/ghdi%3Adocument-4336",
+        "https://www.newadvent.org/cathen/15030c.htm"
+      ],
+      "reviewCaution": "St Andrews academic entry establishes historical chronology; Catholic encyclopedia is a confessional description and GHDI translates edited documents. Detailed regional implementation requires further histories.",
+      "anchors": [
+        {
+          "text": "**1545~1547년, 1551~1552년, 1562~1563년**",
+          "source": "https://www.saet.ac.uk/Christianity/CouncilofTrent"
+        },
+        {
+          "text": "**25차례 회기**",
+          "source": "https://www.saet.ac.uk/Christianity/CouncilofTrent"
+        },
+        {
+          "text": "**트리엔트 이후의 실천과 해석(Tridentinism)**",
+          "source": "https://www.saet.ac.uk/Christianity/CouncilofTrent"
+        }
+      ],
+      "reviewState": "PUBLIC_SOURCE_DESK_CHECKED_EXTERNAL_HISTORIAN_PENDING",
+      "humanReview": false,
+      "primaryOriginalEditionCollation": false,
+      "canShip": false
+    },
+    {
+      "id": "L448-05-02",
+      "volumeId": "VOL-05",
+      "theme": "1555년 아우크스부르크 화의와 1648년 베스트팔렌의 서로 다른 법적 공존",
+      "bodyMarkdown": "1555년 아우크스부르크 화의는 신성로마제국의 종교적 충돌을 완화하기 위한 합의였지만, 현대적 의미의 보편적인 개인 종교자유 선언은 아니었다. 그 직접적 보호 범위는 가톨릭과 아우크스부르크 신앙고백을 따르는 루터파의 **제국 신분·통치 단위**를 중심으로 구성됐다. 원문에는 제국의 제후·도시 등 권한을 가진 단위가 종교 때문에 서로 침해하지 말아야 한다는 규정이 나온다. 따라서 오늘날 시민의 자유와 당시 영주·제국도시가 갖는 권리를 같은 것으로 번역해서는 안 된다.\n\n당시 합의에도 예외와 논쟁이 있었다. 예를 들어 **성직 영지 유보(Ecclesiastical Reservation)**는 가톨릭 주교 등 성직 통치자가 종교를 바꿀 때 그 직위와 영지를 어떻게 처리할 것인지에 관한 쟁점이었다. 일부 제국도시에는 복수 교파의 공존 방식이 필요했고, 개인과 공동체의 실제 예배·이주 조건도 지역마다 달랐다. 그러므로 ‘영주의 종교가 주민의 종교가 된다’라는 유명한 요약 한 문장만으로 모든 조항을 설명할 수 없다. 이 화의는 모든 갈등을 한 번에 끝내지도 못했다.\n\n1648년 베스트팔렌의 조약은 30년 전쟁 이후 1555년의 법적 틀을 조정했다. 개혁파에 대한 인정이 넓어졌고, 교회 재산과 예배 권리에 관해서는 **1624년 1월 1일을 기준 연도**로 삼은 조항도 포함됐다. 가톨릭과 루터파 등 서로 다른 종교에 속한 신민의 사적 신앙 활동과 지역별 예배 조건도 문서의 제약 안에서 다뤄졌다. 그러나 그런 규정이 **모든 종교 집단과 개인에게 무제한의 동등한 권리**를 뜻하지는 않는다. 화의의 성공만 볼 것이 아니라 누가 법적 보호를 받았고 누가 빠져 있었는지를 물어야 한다.",
+      "thesis": "1555년의 제국 신분 중심 제한적 보호, 성직 영지 유보와 지역별 예외, 1648년의 개혁파 인정·1624년 기준연도를 구별한다.",
+      "sources": [
+        "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/ghdi%3Adocument-4386",
+        "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/peace-treaties-of-westphalia-october-14-24-1648",
+        "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/ghdi%3Aintroduction-1"
+      ],
+      "reviewCaution": "Sources are curated/translated imperial legal documents with interpretation; 1555 exceptions and 1648 confessional rights are jurisdiction-specific and require expert legal-history review before final publication.",
+      "anchors": [
+        {
+          "text": "**제국 신분·통치 단위**",
+          "source": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/ghdi%3Adocument-4386"
+        },
+        {
+          "text": "**성직 영지 유보(Ecclesiastical Reservation)**",
+          "source": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/ghdi%3Adocument-4386"
+        },
+        {
+          "text": "**1624년 1월 1일을 기준 연도**",
+          "source": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/peace-treaties-of-westphalia-october-14-24-1648"
+        }
+      ],
+      "reviewState": "PUBLIC_SOURCE_DESK_CHECKED_EXTERNAL_HISTORIAN_PENDING",
+      "humanReview": false,
+      "primaryOriginalEditionCollation": false,
+      "canShip": false
+    }
+  ],
+  "counts": {
+    "chapters": 4,
+    "affectedVolumes": 3,
+    "oldTotalChars": 1989,
+    "newTotalChars": 3235,
+    "newExplicitClaimAnchors": 11
+  },
+  "release": {
+    "canShip": false,
+    "canMergeMain": false,
+    "canImportAIStudio": false,
+    "expertSignoffs": 0,
+    "readerReviews": 0
+  },
+  "historicalHolds": [
+    "C417-11",
+    "C417-12",
+    "C417-18",
+    "TAMIL-1719"
+  ]
+}
