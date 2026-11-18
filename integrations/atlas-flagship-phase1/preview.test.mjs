@@ -78,7 +78,7 @@ test("source panel can collapse and restart resets all panels to first reading",
  assert.equal(node("sources").hidden,true);
  node("restart").click();
  assert.equal(node("eventTitle").textContent,content.events[0].title);
- assert.equal(node("reader").textContent,content.l0.text);
+ assert.equal(node("reader").textContent,expectedText(content.l0.text));
  assert.equal(node("comparison").hidden,true);
  assert.equal(node("sources").hidden,false);
 });
