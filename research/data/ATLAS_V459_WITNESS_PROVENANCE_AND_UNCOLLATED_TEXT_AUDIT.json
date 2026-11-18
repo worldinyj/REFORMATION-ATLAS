@@ -1,0 +1,83 @@
+{
+  "schema": "ATLAS_V459_SIGNED_MANUSCRIPT_AND_DIGITAL_PRINT_WITNESS_AUDIT",
+  "date": "2026-11-18",
+  "branch": "integration/atlas-phase1-browser-qa-v452",
+  "historicalTask": "Marburg Article 15 K/Z primary witness distinction and 1531 Augsburg Confession Latin/German digital objects",
+  "objectRegistryPath": "research/data/ATLAS_V459_MANUSCRIPT_PRINT_WITNESS_VARIANT_GRAPH.json",
+  "expertDossierPath": "integrations/atlas-flagship-phase1/V459_MANUSCRIPT_EDITION_STEMMA_RESEARCH_KO.md",
+  "testPath": "integrations/atlas-flagship-phase1/v459-witness-contract.test.mjs",
+  "count": {
+    "witnesses": 10,
+    "signedManuscripts": 2,
+    "marburg1529PrintEditions": 4,
+    "augsburg1531PrintRecords": 2,
+    "variata1540PrintRecord": 1,
+    "unknownNonVariata1540": 1,
+    "officialInstitutionalOrCatalogSources": 14,
+    "documentedZurichAdditions": 3
+  },
+  "principalFindings": [
+    "Zurich signed version Z (StAZH E I 3.1 Nr54) has additions to Marburg arts 7, 13, 15 absent Hessian signed version K (HStAM Best 3 Nr245). Source: official Zurich archival catalogue, confirmed.",
+    "Hessian 2017 archival journal p10 PDF index 9 displays selected original manuscript opening and signatures; this is not a direct reading of the entire Art15 handwritten passage.",
+    "Early Marburg print editions W2117, W2118, W2119 and W2108 have distinct bibliographic identifiers; archival and e-rara digitization links or printed catalogues located, but textual relationships to K/Z not verified.",
+    "Bavarian State Library digital-object record bsb11411960 identifies 1531 Latin Wittenberg Rhau Augsburg Confession VD16 C4734, 288 scans.",
+    "Bavarian State Library digital-object record bsb10160424 identifies 1531 German Wittenberg Rhau Augsburg Confession VD16 C4736, 506 scans.",
+    "1540 Latin Variata VD16 C4713 remains distinct from the Gruber unnumbered non-Variata item.",
+    "Word-by-word comparison of original 1531 Latin Art X and 1540 Latin Art X, and Zürich Z/K original Art15 leaves, has not been performed."
+  ],
+  "verifiedEvidence": [
+    {
+      "category": "INSTITUTIONAL_MANUSCRIPT_CATALOGUE",
+      "status": "VERIFIED",
+      "source": "https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=618165",
+      "item": "Z with 3 additions"
+    },
+    {
+      "category": "ARCHIVAL_PHOTO_SCREENSHOT",
+      "status": "SELECTED_LEAVES_ONLY",
+      "source": "https://landesarchiv.hessen.de/sites/landesarchiv.hessen.de/files/2022-12/archivnachrichten_1-2017.pdf",
+      "page": "Printed p10, PDF zero-index p9"
+    },
+    {
+      "category": "SCHOLARLY_DIGITIZED_1531_BOOK_METADATA",
+      "status": "VERIFIED_METADATA_NOT_PAGE_TEXT",
+      "source": "https://www.digitale-sammlungen.de/en/details/bsb11411960",
+      "vd16": "C4734"
+    },
+    {
+      "category": "SCHOLARLY_DIGITIZED_1531_BOOK_METADATA",
+      "status": "VERIFIED_METADATA_NOT_PAGE_TEXT",
+      "source": "https://www.digitale-sammlungen.de/en/view/bsb10160424",
+      "vd16": "C4736"
+    }
+  ],
+  "manualResearchGates": {
+    "zurichArticle15HandwrittenCollated": false,
+    "hessianArticle15HandwrittenCollated": false,
+    "printed1529ToOriginalStemmaticRelationshipEstablished": false,
+    "original1531Vs1540ArticleXCollated": false,
+    "gruber1540NonVariataItemNumberIdentified": false,
+    "qualifiedHistorianApprovals": 0,
+    "readerPilotParticipants": 0
+  },
+  "internalQA": {
+    "method": "V8 exact GitHub test body with adapted Node import/readFile, not actual node --test or GitHub Actions",
+    "testCases": 5,
+    "passed": 5,
+    "failed": 0,
+    "githubActionsActualRun": "NOT_VERIFIED"
+  },
+  "sourceTextChanged": false,
+  "productionAppChanged": false,
+  "nextPriority": [
+    "Find official diplomatic transcriptions or actually view K/Z article 15 leaves and annotate additions 7/13/15.",
+    "Open 1529 Zurich printed scans W2118 W2119 and classify their witness family without assuming identity.",
+    "Open 1531 Latin C4734 article X and 1540 Variata C4713 article X printed pages and compare diplomatic transcriptions.",
+    "Track Gruber unnumbered 1540 non-Variata object ID with curator/catalogue request."
+  ],
+  "release": {
+    "canShip": false,
+    "canMergeMain": false,
+    "canImportAIStudio": false
+  }
+}
