@@ -1,0 +1,77 @@
+{
+  "schema": "ATLAS_L1_VOLUME_READER_CHAPTER_DRAFT",
+  "version": "V4.48",
+  "date": "2026-11-18",
+  "volumeId": "VOL-04",
+  "title": "한 번이 아니라 여러 갈래로 일어난 16세기 개혁",
+  "readerLayer": "L1_INTERMEDIATE_HISTORICAL_NARRATIVE",
+  "notPublicationReady": true,
+  "historianReview": "NOT_STARTED",
+  "actualReaderTests": 0,
+  "description": "Three distinct educational mini-essays with macro cause, conflict, institutional difference, nonteleological framing and limited public source links; not a scholarly edition.",
+  "chapters": [
+    {
+      "id": "L448-04-01",
+      "title": "1517년 논쟁은 왜 예배·학교·도시 정부의 문제로 커졌나",
+      "period": "16세기 전반",
+      "bodyMarkdown": "1517년 루터의 면죄부 논쟁을 종교개혁 전체와 같은 크기로 놓아서는 안 된다. 회개와 구원에 관한 신학적 물음은 설교와 논쟁문, 인쇄물의 유통을 통해 많은 사람이 읽는 쟁점이 되었다. 그러나 글이 확산됐다는 사실만으로 도시의 교회법과 예배가 곧바로 바뀌지는 않았다. 누가 설교자를 임명하고 학교를 운영하며 가난한 사람을 돕는 제도를 책임질 것인지 결정해야 했다. 신학적 주장을 지역의 생활 질서로 옮기는 일은 의회·군주·교구·대학·가정이 개입하는 장기 과정이었다.\n\n그러므로 어떤 지역에서는 새로운 교회 제도가 정치권력의 보호 아래 자리 잡았고, 어떤 지역에서는 소수자의 신앙이 박해와 망명을 통해 이어졌다. 각 지역의 인쇄·정치·교육 환경은 개혁의 속도와 형태에 영향을 주었다. 가톨릭 지역에서도 그 이전부터 진행되던 성직자 교육과 수도회 개혁, 경건의 변화가 사라지지 않았다. **개혁이 일어났다는 사실과 모든 공동체가 같은 제도로 바뀌었다는 주장은 다르다.**",
+      "thesis": "신학적 논쟁의 확산과 지역 제도 개혁을 구별한다.",
+      "sourceUrls": [
+        "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/the-marburg-colloquy-the-marburg-articles-1529",
+        "https://www.saet.ac.uk/Christianity/CouncilofTrent"
+      ],
+      "crossLinks": [
+        "VOL-03",
+        "VOL-05"
+      ],
+      "reviewCaution": "Macro synthesis; regional denominational cases should be source-checked before detailed expansion.",
+      "reviewState": "EDITORIAL_DRAFT_UNREVIEWED",
+      "canShip": false,
+      "originalCopyrightedTextCopied": false
+    },
+    {
+      "id": "L448-04-02",
+      "title": "마르부르크의 합의와 아우크스부르크 판본: 신학과 서지의 차이",
+      "period": "1529–1540년",
+      "bodyMarkdown": "1529년 마르부르크 회담의 자료는 개혁자들이 다른 모든 문제에서 싸우기만 한 것이 아님을 보여 준다. 독일사 사료집에 수록된 합의 조항은 여러 교리에서의 공통점을 기록하면서도 성찬에서 그리스도의 임재를 어떻게 이해할 것인지에 남은 차이를 드러낸다. 한 전통의 성찬관을 ‘단순 상징’, 다른 전통을 ‘실제’라고 한 줄로 정리하면 당사자들의 언어를 지나치게 단순화하게 된다. 성찬 논쟁은 신학의 차이이면서 공동 예배와 교회 연합의 한계이기도 했다.\n\n1530년 아우크스부르크 신앙고백은 제국회의에 제출된 문서였지만, 그 뒤에 등장한 인쇄물들은 서로 다른 판본과 편집 상황을 지녔다. 1531년 인쇄본과 1540년 멜란히톤의 수정본인 Variata를 구별해야 한다. 더 세밀하게 보면 희귀본 소장목록에는 1540년판 가운데서도 Variata가 아닌 인쇄물이 확인된다. 따라서 **동일 인쇄 연도는 동일 본문을 보장하지 않으며**, 어떤 문장이 교파의 공식 입장이 되었는지는 별도로 확인해야 한다.",
+      "thesis": "마르부르크의 신학적 합의 범위와 아우크스부르크 신앙고백의 판본 범위가 각각 다르다.",
+      "sourceUrls": [
+        "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/the-marburg-colloquy-the-marburg-articles-1529",
+        "https://gruber.lstc.edu/confessions/augs_apol.php"
+      ],
+      "crossLinks": [
+        "VOL-03",
+        "VOL-05",
+        "VOL-08"
+      ],
+      "reviewCaution": "C417-11/12 still held; no complete editorial collation of 1530/1531/1540 specific copies.",
+      "reviewState": "EDITORIAL_DRAFT_UNREVIEWED",
+      "canShip": false,
+      "originalCopyrightedTextCopied": false
+    },
+    {
+      "id": "L448-04-03",
+      "title": "제네바·잉글랜드·재세례파: 똑같은 개혁을 다른 제도로 만들다",
+      "period": "16세기",
+      "bodyMarkdown": "같은 시대에 제네바와 잉글랜드, 스위스의 도시들과 재세례파 공동체는 교회와 정치권력이 어떤 관계를 맺어야 하는지에 서로 다른 답을 내놓았다. 제네바에서는 칼뱅과 도시의회가 교회 규율과 예배, 교육의 관계를 놓고 협력하고 충돌했다. 1541년 교회 규정의 변화는 신학책에서 주장한 내용을 실제 조직과 권한으로 옮기는 일이 얼마나 복잡한지를 보여 준다. 잉글랜드의 교회 변화는 군주와 의회의 권한, 국가 제도의 변화 속에서 전개됐다.\n\n반면 자발적 신앙 고백과 세례, 공동체 구성에 강조점을 둔 여러 재세례파 집단은 기존 국가·도시 교회와 다른 길을 찾았다. 하지만 재세례파 내부도 국가권력과 평화, 재산과 공동체 생활에 대한 입장이 하나로 통일돼 있지 않았다. 지역별 선택과 권력의 조건이 달랐다는 사실을 알아야 ‘종교개혁’이라는 단어가 한 지도자 또는 한 교단의 고유명사가 아님을 이해할 수 있다. **누가 결정했는가, 어떻게 예배했는가, 누가 보호받았는가**라는 세 질문이 이 복잡함을 비교하는 기준이다.",
+      "thesis": "16세기의 여러 개혁은 신학적 차이만 아니라 정치권력과 공동체 제도의 다양한 구성으로 갈라졌다.",
+      "sourceUrls": [
+        "https://www.cambridge.org/core/journals/harvard-theological-review/article/abs/calvins-programme-for-a-puritan-state-in-geneva-15361541/C5C7601D2F7F87BA7627A50436287A3E",
+        "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/the-marburg-colloquy-the-marburg-articles-1529"
+      ],
+      "crossLinks": [
+        "VOL-05",
+        "VOL-08"
+      ],
+      "reviewCaution": "Anabaptist and English Reformation plural traditions need additional representative sources at L2.",
+      "reviewState": "EDITORIAL_DRAFT_UNREVIEWED",
+      "canShip": false,
+      "originalCopyrightedTextCopied": false
+    }
+  ],
+  "release": {
+    "canShip": false,
+    "canImportAIStudio": false,
+    "canMergeMain": false
+  }
+}
