@@ -1,0 +1,81 @@
+{
+  "schema": "ATLAS_V447_HISTORY_CLARIFICATION_AND_FROZEN_APP_MACHINE_AUDIT",
+  "version": "V4.47",
+  "date": "2026-11-18",
+  "status": "PASS_TEXT_SOURCE_TRACE_AND_APP_INTEGRITY_NOT_HUMAN_HISTORICAL_SIGNOFF",
+  "provenance": [
+    {
+      "path": "research/data/V4_47_TWO_SOURCE_GROUNDED_L0_HISTORY_CORRECTIONS.json",
+      "sha": "9aebf094697d500930f58d894df16affc34a343c"
+    },
+    {
+      "path": "research/data/V4_47_53_CLAIM_SOURCE_AND_TEXT_POSITION_REGISTER.json",
+      "sha": "b195c3a6afe93c875c2090d5ffef445ad3922d8a"
+    },
+    {
+      "path": "docs/01_CONTENT/OVERVIEW/V447_EIGHT_VOLUME_L0_EDITION_WITH_SOURCE_CLARIFICATIONS_KO.md",
+      "sha": "d167bc5f0286748211447f5dfbd5c89365cb1ab2"
+    },
+    {
+      "path": "research/V447_TWO_HIGH_RISK_HISTORY_CORRECTIONS_AND_MAIL_CHECK_KO.md",
+      "sha": "393c38a7a87f5e2439d548f2acfa9f965c22f315"
+    },
+    {
+      "path": "research/data/V4_43_L0_EDITORIAL_REDLINE_EIGHT_VOLUME_CANDIDATE.json",
+      "sha": "10b73c919ec6cc889e3c64be6dc61e184f5a8e5c"
+    },
+    {
+      "path": "research/data/V4_43_POST_EDIT_51_CLAIM_CROSSWALK.json",
+      "sha": "e307b6b955246d42b708640b338dc1529cdfa518"
+    },
+    {
+      "path": "research/data/V4_46_ARCHIVAL_SEND_AND_FROZEN_APP_INTEGRITY_AUDIT.json",
+      "sha": "6b6692691ae7c1e29c6be508b2aee21672eccc65"
+    },
+    {
+      "path": "handoff/V429_AI_STUDIO_PRIVATE_L0_CONTENT_IMPORT.json",
+      "sha": "64c27c0dfe05394acbb049807e4c4384d58908b9"
+    }
+  ],
+  "metrics": {
+    "eightVolumeBodies": 8,
+    "priorL0BodyChars": 18492,
+    "newL0BodyChars": 18626,
+    "changedVolumes": 2,
+    "sourceCheckedEditorialEdits": 2,
+    "historicalClaimAnchorRefs": 53,
+    "legacyClaimRefsPreserved": 51,
+    "newClaimRefs": 2,
+    "visibleInL0": 51,
+    "sourceOnlyRefs": 2,
+    "actualHumanExpertJudgements": 0,
+    "actualReaderSessions": 0,
+    "verifiedMailReplies": 0,
+    "productionAppEdits": 0
+  },
+  "checks": [
+    "Exactly two prior text segments replaced with a unique match and six other volume bodies untouched",
+    "Rebuilt V4.47 bodies from V4.43 plus exactly two editorial edits",
+    "Both new date/edition claims have explicit external sources and unique source anchors",
+    "All 51 original claim IDs preserved, two added, display offsets recalculated",
+    "51 visible claim phrases uniquely found, two research-only claims retain provenance",
+    "Full 8-volume markdown manuscript contains the exact data bodies",
+    "Both archive emails sent in V4.46, no substantive institution replies yet",
+    "No app changes; V4.29 8/6/42/6 structure and exact SHA preserved",
+    "New historically interesting claims remain research-desk findings, not human scholarly certification"
+  ],
+  "remainingHolds": [
+    "C417-11",
+    "C417-12",
+    "C417-18",
+    "TAMIL-1719"
+  ],
+  "release": {
+    "canShip": false,
+    "canMergeMain": false,
+    "canImportAIStudio": false,
+    "canClaimHistorianApproved": false,
+    "canClaimReaderTested": false
+  },
+  "errors": []
+}
