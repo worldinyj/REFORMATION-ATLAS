@@ -1,0 +1,64 @@
+{
+  "schema": "ATLAS_V460_DIRECT_CRITICAL_APPARATUS_PRINT_PAGE_AND_MANUSCRIPT_EDITION_BASE_AUDIT",
+  "date": "2026-11-18",
+  "branch": "integration/atlas-phase1-browser-qa-v452",
+  "projectPriority": "Prefer direct original-language research and accurately scoped source records over further micro-UI versioning",
+  "deliverables": {
+    "researchJSON": "research/data/ATLAS_V460_CR26_ARTICLE_X_APPARATUS_AND_MARBURG_BASES.json",
+    "dossier": "integrations/atlas-flagship-phase1/V460_CR26_ARTICLE10_AND_MARBURG_KZ_CRITICAL_DOSSIER_KO.md",
+    "contractTest": "integrations/atlas-flagship-phase1/v460-critical-apparatus-contract.test.mjs"
+  },
+  "findings": [
+    "1858 Corpus Reformatorum vol.26, printed p357, PDF screenshot page 5, was opened and its Article X main text and variant note34 visually checked.",
+    "CR26 labels earlier 1531 quarto princeps as Ed1, a separate 1531 octavo first altered as Ed2, 1540 quarto as Ed3, 1541–42 octavo as Ed4.",
+    "1531 Ed1/Ed2 Article X verb group and 1540 Ed3/Ed4 verb group are differentiated in CR26 note34; this is an 1858 critical apparatus not original-book 16th-century leaf.",
+    "Zurich official archive lists K-based Lutheran source edition pp43–46, Z-based Reformed edition pp259–267, MBW Texte 3 no825 K + Z divergences and Usteri 1883 Z facsimile.",
+    "GHDI edited transcription and K/Z autograph witness do not yet have a completed diplomatic collation; the archive's 7/13/15 differences remain citation-worthy but not all letter-by-letter transcribed.",
+    "Unknown Gruber 1540 non-Variata is still held without catalogue item/VD16 number."
+  ],
+  "firstHand": {
+    "actual1858CriticalPrintPageViewed": true,
+    "actual1858VariantApparatusViewed": true,
+    "actual1531OriginalLeafArtXViewed": false,
+    "actual1540OriginalLeafArtXViewed": false,
+    "actual1529KAutographArticle15Viewed": false,
+    "actual1529ZAutographArticle15Viewed": false,
+    "pdfScreenshotInWebTool": true,
+    "exactReference": {
+      "year": 1858,
+      "printedPage": 357,
+      "pdfZeroIndexPage": 5,
+      "note": 34
+    }
+  },
+  "quality": {
+    "traceableCriticalEditionSigla": 4,
+    "anchoredKZScholarlySources": 5,
+    "v8AdaptedTestCases": 5,
+    "v8AdaptedTestPassed": 5,
+    "actualNodeTestRunnerExecuted": false,
+    "githubActionsRunObserved": false,
+    "expertSignOffs": 0,
+    "readerPilotParticipants": 0
+  },
+  "limitations": [
+    "CR26 page is a nineteenth-century edited scholarly source even though the image is an actual printed page; cannot claim 1531/1540 original book autopsy.",
+    "Do not overinterpret the Latin verb difference as evidence of one fully settled doctrinal position or universal confessional reception.",
+    "CR26 editorial earlier-edition condemnation morphology/spelling was not claimed letter-perfect against surviving early printed copy.",
+    "Current public GitHub repository does not provide private preview access controls for research JSON; production host auth remains unverified."
+  ],
+  "nextConcreteResearch": [
+    "Obtain text-differing K/Z Article15 original facsimile pages, using the precise 2014 K and Reformed 1/1 Z scholarly edition references.",
+    "Obtain specific digital folio page of bsb11411960 (1531 Latin C4734) and of VD16 C4713 1540, directly read the Latin article X in both.",
+    "Identify Gruber 1540 non-Variata shelfmark or print ID before adding it to edition graph as an identified object.",
+    "Once direct witness collation complete, form a historian-facing scored editorial approval decision instead of increasing unreviewed pages."
+  ],
+  "release": {
+    "canShip": false,
+    "canMergeMain": false,
+    "canImportAIStudio": false
+  },
+  "realAppFilesChanged": false,
+  "mainChanged": false,
+  "historicalProseChanged": false
+}
