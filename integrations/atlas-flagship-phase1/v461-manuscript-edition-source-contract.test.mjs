@@ -38,7 +38,7 @@ test("V4.61 Article X variants are editorial CR26 readings, extraction mismatch 
   assert.match(x.earlierEd1Ed2.reading,/vere adsint, et distribuantur/);
   assert.match(x.laterEd3Ed4.reading,/vere exhibeantur/);
   assert.match(x.laterEd3Ed4.pdfExtractVariant,/exhibeatur/);
-  assert.match(x.laterEd3Ed4.visualReview,/OCR/);
+  assert.match(x.laterEd3Ed4.visualReview,/requires 1540 physical original page/);
 });
 test("V4.61 research stays blocked even when sources are discoverable",()=>{
   assert.equal(d.verification.historianApprovals,0);
