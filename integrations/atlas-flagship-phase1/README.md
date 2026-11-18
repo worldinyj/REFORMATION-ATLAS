@@ -251,3 +251,23 @@ ATLAS_BROWSER=chromium node --test browser-smoke.test.mjs
 **감사:** `research/data/ATLAS_V462_FOUR_FOLIOS_EVIDENCE_GATE_AUDIT.json`
 
 **차기 우선:** 화면 기능 확장이 아니라 **해당 지면 4개를 대학/기록관 원본 뷰어에서 실제 확보·전사**하여 1529 K/Z와 1531/1540 라틴어를 병렬 교감. 전문가 승인·독자 파일럿 이전에는 `can_ship=false`, `can_merge_main=false`, `can_import_ai_studio=false`. `main`과 실제 Google AI Studio 앱·역사 원고는 변경하지 않음.
+
+## V4.63 — 최초로 당대 1529년 **인쇄 원본 본문** 제15조 직접 확인
+
+이전 버전의 서지 정보·후대 전사와 달리, **취리히 중앙도서관(Zentralbibliothek Zürich) 소장 1529년 프로샤우어 인쇄본 `VD16 W2119`의 실제 지면 사진**을 e-rara 원본 PDF에서 열어 확인했다.
+
+- **1529년 W2119 원간:** 제목 `Wie sich D. Martin Luter ... und Huldrich Zvingli ...`, Zürich, Christoffel Froschauer, 소장번호 `5.174,5`. 원본 PDF `https://www.e-rara.ch/zuz/download/pdf/170052`, DOI `https://doi.org/10.3931/e-rara-597`, e-rara 표제면에서 **Public Domain Mark** 확인.
+- **PDF 0부터 6쪽:** 제15조 제목 `Von Sacrament des lybs und blüts Christi` 아래 미사는 살아 있거나 죽은 다른 사람을 위해 은총을 획득하는 일이 아니라는 문장이 **실제 1529년 활자로 인쇄**되어 있음을 확인. 또한 성찬에 관한 공통 진술과 그리스도의 몸/피의 신체적 임재 방식 미합의가 함께 인쇄돼 있다.
+- **PDF 0부터 5쪽:** 제13조의 사제 혼인을 금지하는 가르침에 반대하는 문장을 당대 인쇄면에서 확인. 제7조 추가 문구는 이번에 정확하게 확인했다고 표시하지 않는다.
+- **학술적 의미:** 취리히 기록관이 서명본 **Z에 제7·13·15조 추가문장 존재**를 기록한 사실과, W2119 당대 인쇄본에서 제13·15조의 대응 문구를 직접 확인한 사실을 연결했다. 이것이 **W2119 전체가 Z 서명본과 글자 단위로 동일하다는 증명은 아니다**.
+- **실물 지면 증거 수준:** 웹 PDF 사진에 있는 인쇄 본문을 직접 읽었으며, 주석·인쇄 오탈자 포함 전체 외교적 전사, 원문 이미지 해시, K/Z 필사원본 대조, 역사학자 QC는 미완료. 원본 이미지 파일은 로컬에 직접 다운로드하지 못하여 GitHub에 재업로드하지 않았다.
+- **V4.62와의 엄격한 구분:** 네 목표 지면인 K와 Z 서명본 각각의 제15조 및 1531·1540 초기 라틴어 인쇄본 각각의 제10조 **완료 0/4 유지**. W2119은 **그와 별개의 1529년 실제 인쇄판 원전 증인**이다.
+- **정합성 회귀:** W2119 사료 ID·페이지 위치·직접 읽은 활자 대 ‘미확보 필사 원본’ 구분을 **5개 V8 적응 검증에서 PASS**. Node 실행 및 GitHub Actions 실동작 성공은 확인되지 않았고, CI 설정에 테스트 경로를 추가했다.
+
+**원전 직접 판독 보고서:** [V4.63 취리히 W2119 제13·15조 인쇄 본문 판독](./V463_ZURICH_W2119_1529_ART13_ART15_ACTUAL_PRINT_EVIDENCE_KO.md)
+
+**증거 기록:** `research/data/ATLAS_V463_W2119_1529_PRINT_ART13_ART15_DIRECT_SCAN_EVIDENCE.json`  
+**검증 기록:** `research/data/ATLAS_V463_1529_PRIMARY_PRINT_VISUAL_INSPECTION_AUDIT.json`  
+**회귀 코드:** `v463-original-print-witness-contract.test.mjs`.
+
+**이어갈 원전 작업:** W2118 제15조 인쇄면과 W2119을 먼저 직접 비교하고, 이어 서명본 Z/K 지면과 대조. 별도로 1531 C4734·1540 C4713 제10조 인쇄면 확보. `main`, 실제 AI Studio 운영 앱·기존 24장 원고 미변경. `can_ship=false`, `can_merge_main=false`, `can_import_ai_studio=false`.
