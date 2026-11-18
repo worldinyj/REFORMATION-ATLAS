@@ -1,0 +1,76 @@
+{
+  "schema": "ATLAS_L1_VOLUME_READER_CHAPTER_DRAFT",
+  "version": "V4.48",
+  "date": "2026-11-18",
+  "volumeId": "VOL-01",
+  "title": "여럿의 언어와 도시에서 자라난 고대교회",
+  "readerLayer": "L1_INTERMEDIATE_HISTORICAL_NARRATIVE",
+  "notPublicationReady": true,
+  "historianReview": "NOT_STARTED",
+  "actualReaderTests": 0,
+  "description": "Three coherent intermediate-level interpretive essays expanding but not replacing V4.47 overview L0. Research links are traceable context, not full critical editions.",
+  "chapters": [
+    {
+      "id": "L448-01-01",
+      "title": "도시와 언어가 바꾼 복음의 전달",
+      "period": "1–3세기",
+      "bodyMarkdown": "초기 기독교의 이야기를 한 수도에서 모든 지역으로 명령이 전달된 역사로 상상하면 그 시대 공동체의 실제 조건을 놓친다. 지중해의 도시들을 오가는 상인과 여행자, 가정집의 신앙 모임과 편지를 읽어 주는 사람들은 신앙이 공유되는 통로였다. 유대교적 배경에서 나온 신앙의 언어는 헬라어 문화권에서 새로운 질문을 만났다. 복음이 전해졌다는 사실과 각 도시의 공동체가 동일한 예배 형식과 지도 체계를 가졌다는 사실은 다르다.\n\n더 중요한 변화는 전달만이 아니라 **해석의 공동 참여**였다. 문헌을 읽을 수 있는 사람과 듣는 사람, 가르치는 사람과 돌봄을 받는 사람이 각자의 사회적 위치에서 신앙의 의미를 물었다. 같은 본문을 두고도 그리스도에 대한 설명, 재산과 가난, 지역 지도자의 권한은 서로 다르게 논의될 수 있었다. 성경의 책들과 전승이 수집되고 보존되는 과정도 한 번에 마감된 명령이 아니었다. 독자는 ‘누가 전달했는가’와 함께 ‘누가 들었으며 어떻게 받아들였는가’를 질문해야 한다.",
+      "thesis": "전파의 방향뿐 아니라 언어와 지역 공동체의 해석 주체가 고대 기독교를 형성했다.",
+      "sourceUrls": [
+        "https://www.oca.org/orthodoxy/the-orthodox-faith/church-history/fifth-century/the-fourth-ecumenical-council"
+      ],
+      "crossLinks": [
+        "VOL-02",
+        "VOL-08"
+      ],
+      "reviewCaution": "Early Christian city-level examples are synthesized broadly; specialist review of early source testimonies pending.",
+      "reviewState": "EDITORIAL_DRAFT_UNREVIEWED",
+      "canShip": false,
+      "originalCopyrightedTextCopied": false
+    },
+    {
+      "id": "L448-01-02",
+      "title": "박해와 황실 보호 이후에도 지역은 달랐다",
+      "period": "3–4세기",
+      "bodyMarkdown": "박해와 관용, 왕실의 후원은 신앙을 표현할 수 있는 공개 공간을 바꾸었다. 그러나 정치 권력이 교회를 인정했다는 기록을 사람들 전체가 같은 날 개종했다는 뜻으로 읽으면 안 된다. 국가의 보호는 예배 장소와 지도자의 활동, 공동체의 자원과 법적 지위에 영향을 주었지만, 지역 주민의 관습과 교육, 다양한 신앙 실천은 저마다의 시간표를 유지했다. 이 변화는 로마제국의 경계 안에만 국한되지 않았다.\n\n4세기 악숨 왕국의 에자나 왕을 살피면 이런 구분이 뚜렷해진다. 아프리카 북동부와 홍해의 교류망을 지닌 악숨에서 기독교의 왕실 수용은 중요한 전환이었다. 메트로폴리탄 미술관의 연구는 그 초기 수용이 먼저 왕실 엘리트에 집중되었다고 설명한다. 이것은 아프리카 기독교가 근대 유럽 선교의 부속물이 아니라 독자적인 고대 역사를 갖고 있음을 보여 준다. 동시에 왕의 신앙을 모든 백성의 신앙으로 확장하지 말라는 자료상의 경고이기도 하다.",
+      "thesis": "국가의 신앙 수용, 공동체의 성립, 주민의 개종은 서로 다른 변화다.",
+      "sourceUrls": [
+        "https://www.metmuseum.org/pt/essays/foundations-of-aksumite-civilization-and-its-christian-legacy-1st-7th-century",
+        "https://whc.unesco.org/en/list/15"
+      ],
+      "crossLinks": [
+        "VOL-02",
+        "VOL-07"
+      ],
+      "reviewCaution": "Aksum religion and chronology are inferred from museum and heritage syntheses rather than individual epigraphic collation.",
+      "reviewState": "EDITORIAL_DRAFT_UNREVIEWED",
+      "canShip": false,
+      "originalCopyrightedTextCopied": false
+    },
+    {
+      "id": "L448-01-03",
+      "title": "공의회는 질문을 정리했지만 모든 차이를 지우지 못했다",
+      "period": "4–5세기",
+      "bodyMarkdown": "니케아(325), 콘스탄티노폴리스(381), 에페소(431), 칼케돈(451)을 연대순으로 외우는 것만으로는 고대교회를 이해하기 어렵다. 각 회의는 그리스도의 신성과 인간성, 신앙을 표현하는 언어와 교회 지도권에 관한 서로 다른 논쟁에 답했다. 그 과정에서 신앙고백과 신학적 용어의 중요성이 커졌으나, 문서로 결론을 정리한 일과 모든 지역 교회가 그것을 동일하게 수용한 일은 같지 않았다.\n\n특히 칼케돈을 둘러싼 전통의 차이는 ‘동방교회’라는 하나의 이름 아래 여러 역사를 밀어 넣어서는 안 되는 이유를 보여 준다. 오늘날 비잔틴 전통의 동방 정교회, 콥트·시리아·아르메니아 계열의 오리엔트 정교회, 그 밖의 동방교회는 서로 구별해야 한다. 어느 전통의 신학적 자기 설명을 존중하면서도 교회의 조직·전승·정치적 환경이 달랐다는 역사적 사실을 설명할 수 있다. 이 권에서 배워야 할 것은 교리 합의의 이름뿐 아니라 **합의가 지역에 도달하는 과정의 복잡성**이다.",
+      "thesis": "공의회 문서와 지역 교회의 수용은 별개의 역사적 과정이다.",
+      "sourceUrls": [
+        "https://www.oca.org/orthodoxy/the-orthodox-faith/church-history/fifth-century/the-fourth-ecumenical-council",
+        "https://www.newadvent.org/cathen/03555a.htm"
+      ],
+      "crossLinks": [
+        "VOL-02",
+        "VOL-07",
+        "VOL-08"
+      ],
+      "reviewCaution": "Contrasting confessional self-descriptions require expert checking before public release.",
+      "reviewState": "EDITORIAL_DRAFT_UNREVIEWED",
+      "canShip": false,
+      "originalCopyrightedTextCopied": false
+    }
+  ],
+  "release": {
+    "canShip": false,
+    "canImportAIStudio": false,
+    "canMergeMain": false
+  }
+}
