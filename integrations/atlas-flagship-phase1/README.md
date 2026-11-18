@@ -178,3 +178,22 @@ ATLAS_BROWSER=chromium node --test browser-smoke.test.mjs
 **다음 우선순위:** Gruber 무번호 1540 비Variata 실물 식별 및 독일어/라틴어 실제 인쇄 지면 교감. 각 문장 원전 대조에 따라 전문가 2인의 독립 판정 후 역사 콘텐츠 승격 결정.
 
 **릴리스 제한:** `can_ship=false` / `can_merge_main=false` / `can_import_ai_studio=false`. `main`·Google AI Studio 운영 앱·원래 연구 원고 수정 없음.
+
+## V4.59 — 사본 계통의 중요한 발견: 취리히 Z와 헤센 K는 본문이 완전히 같지 않음
+
+이번 연구에서는 실제 Google AI Studio 운영 앱의 기능을 늘리지 않고 **사료의 '개체' 자체를 분리하는 정보구조**를 강화했다.
+
+- **필사 원본 2종:** `StAZH E I 3.1 Nr.54`(취리히 Z)와 `HStAM Best.3 Nr.245`(헤센 K). 취리히 공식 보관소 목록은 **Z의 제7·13·15조 추가 문장이 K에 없다는 사실**을 명시한다. 두 문서를 하나의 고정된 원본으로 합치지 않는다.
+- **원본 사진 실제 열람:** 헤센 주립문서보관소의 `archivnachrichten 17/1 (2017)` 인쇄 10쪽(PDF 0기준 9쪽)에서 **앞부분과 서명 사진을 화면으로 확인**. 제15조의 필사 원문 전체를 독해한 것은 아니다.
+- **1529년 인쇄판 4종:** Worms `VD16 W2117`, Zürich `W2118` 및 `W2119`, Basel `W2108`의 실물 서지/디지털화 경로를 서로 분리했다. 어느 인쇄본이 Z 또는 K의 제15조를 그대로 따르는지는 아직 **HOLD**.
+- **1531년 원문 비교 준비:** 바이에른 주립도서관의 1531년 **라틴어 `VD16 C4734`, `bsb11411960`(288스캔)**과 **독일어 `C4736`, `bsb10160424`(506스캔)** 디지털 개체를 분리해 식별했다. 각 제10조 인쇄 지면을 실제로 읽고 대조한 것은 아니다.
+- **1540년 판본 구분:** Pitts `VD16 C4713` Variata와 Gruber의 번호 미확정 1540 비Variata를 혼동하지 않는다. 1540년 Google Books 스캔 개체는 발견했으나 서지판 동일성을 단정하지 않았다.
+- **초안의 정확도 표시:** Z의 제15조 추가 문구가 '생자·사자 타인을 위한 미사의 은총 획득'과 관련 있다는 후대 영어 번역 단서는 있으나 **독일어 원본 문구로 직접 확인되지 않았다**. 이를 확정된 원어 인용으로 승격하지 않는다.
+- **검증:** 사본/인쇄본 10건, 이문 3건의 데이터 정합성 검사 **5/5 PASS**(V8에서 GitHub 원본 테스트를 Node 파일 읽기 방식만 대체해 실행; `node --test`와 실제 CI는 미확인). 연구 CI에도 추가.
+
+**한국어 논문형 대조 보고서:** [V4.59 필사·인쇄본 계통 연구](./V459_MANUSCRIPT_EDITION_STEMMA_RESEARCH_KO.md)  
+**서지 개체 데이터:** `research/data/ATLAS_V459_MANUSCRIPT_PRINT_WITNESS_VARIANT_GRAPH.json`  
+**검증 기록:** `research/data/ATLAS_V459_WITNESS_PROVENANCE_AND_UNCOLLATED_TEXT_AUDIT.json`  
+**검증 코드:** `v459-witness-contract.test.mjs`.
+
+**핵심 결론:** 제15조에 관한 앱 화면에는 '마르부르크 조항'이라는 단일 텍스트 레이블뿐 아니라 **사본(K/Z), 인쇄본(VD16), 후대 편집 전사(WA/GHDI)** 중 무엇을 근거로 해석하는지 밝혀야 한다. 실물 원전 문장 교감과 역사학자 승인까지 `can_ship=false`, `can_merge_main=false`, `can_import_ai_studio=false` 유지. `main`/AI Studio 운영 앱 미변경.
