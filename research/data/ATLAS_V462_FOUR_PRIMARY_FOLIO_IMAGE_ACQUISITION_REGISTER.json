@@ -236,5 +236,27 @@
   "readerPilotParticipants": 0,
   "canShip": false,
   "canMergeMain": false,
-  "canImportAIStudio": false
+  "canImportAIStudio": false,
+  "additionalIndependentOriginalEraPrintInspections": [
+    {
+      "id": "P1529-W2119",
+      "physicalPeriod": "1529_PRINT",
+      "medium": "Digitized scan of 1529 Zurich Froschauer printed edition, not signed manuscript K/Z",
+      "primaryPdf": "https://www.e-rara.ch/zuz/download/pdf/170052",
+      "pdfPagesViewed": [
+        5,
+        6
+      ],
+      "verifiedPrintedSections": [
+        "Art 13: clerical marriage teaching rejection",
+        "Art 15: Mass cannot procure another's grace; common statements; bodily presence disagreement"
+      ],
+      "firstHandPrintedMainTextViewed": true,
+      "exactGermanDiplomaticComplete": false,
+      "imageBinarySha256": null,
+      "countsTowardFourSignedAndLatinTargetFolios": false,
+      "study": "research/data/ATLAS_V463_W2119_1529_PRINT_ART13_ART15_DIRECT_SCAN_EVIDENCE.json"
+    }
+  ],
+  "v463Accounting": "V462 requires exact K and Z signed Art15 pages and exact 1531/1540 Latin ArtX pages, so W2119 direct printed Art15 examination advances primary-source evidence but the four target-pair readiness remains 0/4."
 }
