@@ -1,0 +1,97 @@
+{
+  "schema": "ATLAS_V445_INDEPENDENT_SOURCE_SCREENING_AND_HUMAN_HANDOFF_AUDIT",
+  "version": "V4.45",
+  "date": "2026-11-18",
+  "status": "PASS_SOURCE_SCREENING_WORKFLOW_AND_REPOSITORY_INTEGRITY_NOT_EXPERT_SIGNOFF",
+  "sourceBlobs": [
+    {
+      "path": "research/data/V4_45_INDEPENDENT_P0_SOURCE_DESK_TRIAGE.json",
+      "sha": "e4ea9bf9789d57477a3cf1537433fde6056f3704"
+    },
+    {
+      "path": "research/V445_INDEPENDENT_P0_SOURCE_ASSESSMENT_AND_REAL_HUMAN_REVIEW_HANDOFF_KO.md",
+      "sha": "90b5768526270af6a9ea11fcd2da46cdbb077c02"
+    },
+    {
+      "path": "research/review_packets/V445_TAMIL_1715_1719_TWO_ARCHIVE_ENQUIRY_DRAFTS_EN.md",
+      "sha": "183325cb00f1469fe1b7d8d7f817a150c0819657"
+    },
+    {
+      "path": "research/review_packets/V445_EIGHT_VOLUME_BLIND_READER_PILOT_HANDOUT_KO.md",
+      "sha": "8912793f9fbe7ed9bde42eab19ba6e0fbf262a64"
+    },
+    {
+      "path": "research/data/V4_44_P0_EIGHT_REVIEW_DOSSIERS.json",
+      "sha": "3801a0c7381bb1b8377214a8fc3991604e85253c"
+    },
+    {
+      "path": "research/data/V4_44_GO_NO_GO_MASTER_GATE_REGISTER.json",
+      "sha": "afdf0b2282bf2c1ecee01d0a0f376b1b393b66f5"
+    },
+    {
+      "path": "research/data/V4_43_L0_EDITORIAL_REDLINE_EIGHT_VOLUME_CANDIDATE.json",
+      "sha": "10b73c919ec6cc889e3c64be6dc61e184f5a8e5c"
+    },
+    {
+      "path": "research/data/V4_43_POST_EDIT_51_CLAIM_CROSSWALK.json",
+      "sha": "e307b6b955246d42b708640b338dc1529cdfa518"
+    },
+    {
+      "path": "handoff/V429_AI_STUDIO_PRIVATE_L0_CONTENT_IMPORT.json",
+      "sha": "64c27c0dfe05394acbb049807e4c4384d58908b9"
+    }
+  ],
+  "measurements": {
+    "expertPriorityCases": 8,
+    "independentlyRetrievedPublicSourceReferences": 16,
+    "actualSourceWitnessFullEditionsCollated": 0,
+    "institutionalDateConflictPairsConfirmed": 1,
+    "preparedInstitutionalEnquiryLetters": 2,
+    "actualLettersSent": 0,
+    "institutionalResponsesReceived": 0,
+    "readerAssignmentVolumes": 8,
+    "blindReaderQuestions": 16,
+    "actualPilotParticipants": 0,
+    "realPilotResults": 0,
+    "externalExpertSignoffs": 0,
+    "preservedHistoricalClaimReferences": 51,
+    "unchangedReaderVolumeCount": 8,
+    "productionAppModifications": 0,
+    "originalFrozenAppVolumes": 8,
+    "themes": 6,
+    "graphLinks": 42,
+    "introChapters": 6
+  },
+  "checks": [
+    "All eight P0 source review issues mapped back to V4.44 exact review dossier IDs",
+    "Sixteen external source references are linked to limited claims with provenance classes",
+    "WLB bibliographic list PDF page two visually checked; BSI archive 1719 text directly read; contradiction unreconciled",
+    "Waldensian 1532 debate separated from 1847 retrospective name and immediate organizational-succession claim",
+    "Two unsent institutional-source requests include precise questions and official contact addresses only",
+    "An eight-volume 16-question reader instrument exists; no reader responses have been created",
+    "Previous V4.43 8-volume draft and 51 tracked historical claims are unchanged",
+    "V4.29 app SHA and 8/6/42/6 structural baseline remain identical",
+    "Expert review and real reader validation remain pending; GO/NO-GO unchanged"
+  ],
+  "historicalHolds": [
+    "C417-11",
+    "C417-12",
+    "C417-18",
+    "TAMIL-1719"
+  ],
+  "remainingBarriers": [
+    "signed qualified human historian judgement for P0",
+    "P1 resolution or exclusion",
+    "actual reader feedback with permission",
+    "copyright clearance",
+    "separate nonproduction app UX testing"
+  ],
+  "release": {
+    "canShip": false,
+    "canMergeMain": false,
+    "canImportAIStudio": false,
+    "canClaimScholarApproved": false,
+    "canClaimRealUserTesting": false
+  },
+  "errors": []
+}
