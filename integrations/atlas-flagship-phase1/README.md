@@ -85,3 +85,15 @@ ATLAS_BROWSER=chromium node --test browser-smoke.test.mjs
 ```
 
 실제 엔진 테스트가 통과하면 다음 단계는 **스크린샷을 육안으로 비교하여 접근성·모바일 레이아웃을 조정하는 것**이며, AI Studio 이식은 실제 호스트 소스와 인증 방식을 확인하기 전에는 여전히 금지한다.
+
+## V4.53 — 검증 코드 보정과 React 후보의 기능 정합성 강화
+
+1. 실제 GitHub HTML 스크립트를 V8의 **모의 DOM**에서 실행한 21개 검사가 PASS. 실제 Chromium/WebKit 실행에 대한 증거는 아직 없다.
+2. `preview.test.mjs`에 키보드 포커스·탭 접근성 회귀 검사 2개를 추가. 총 6개 테스트 함수를 V8 호환 검증기로 실행해 PASS. `node --test` 결과는 아직 확인되지 않았다.
+3. `browser-smoke.test.mjs`의 1531년 검사를 **제목**이 아닌 `#time` 날짜 레이블 기준으로 교정.
+4. React 후보(`AtlasFlagship1529Panel.jsx`)에도 독립 HTML의 **1530/1531/1540 판본 비교**, 키보드 탭, 접근성 ID 연결을 반영. 기존 데이터 이외의 역사 주장 추가 없음.
+5. `react-contract.test.mjs`를 신설하고 CI에 TypeScript JSX 구문 검사를 포함. **React 실제 빌드 성공을 의미하지 않는다.**
+
+세 가지 독자 평가 여정 및 필수 승인 조건: [V4.53 검토 기준](./V453_READER_ACCEPTANCE_AND_RELEASE_GATES.md). 기계 검증 출처와 미확인 항목: `research/data/ATLAS_V453_FLAGSHIP_INTERACTION_PARITY_AUDIT.json`.
+
+**중요:** `main`·실제 Google AI Studio 앱·배포 작업은 건드리지 않았고, 역사 원고 변경 없이 연구 브랜치 후보만 보강했다. `can_ship=false` 유지.
