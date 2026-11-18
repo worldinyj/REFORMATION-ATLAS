@@ -7,6 +7,7 @@ on:
     paths:
       - 'integrations/atlas-flagship-phase1/**'
       - 'research/data/ATLAS_V457_*'
+      - 'research/data/ATLAS_V458_*'
       - '.github/workflows/atlas-phase1-browser-qa.yml'
 
 permissions:
@@ -25,7 +26,7 @@ jobs:
         with:
           node-version: '22'
       - name: Validate claim register, pilot instrument and offline scorer
-        run: node --test integrations/atlas-flagship-phase1/reader-pilot-contract.test.mjs
+        run: node --test integrations/atlas-flagship-phase1/reader-pilot-contract.test.mjs integrations/atlas-flagship-phase1/v458-evidence-contract.test.mjs
 
   browser-smoke:
     name: Browser smoke (${{ matrix.engine }})
