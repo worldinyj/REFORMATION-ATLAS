@@ -1,0 +1,191 @@
+{
+  "schema": "ATLAS_V440_NEW_MACRO_CLAIM_EVIDENCE_LEDGER",
+  "version": "V4.40",
+  "date": "2026-11-18",
+  "state": "EDITORIAL_SOURCE_SCREENING_ONLY",
+  "provenance": {
+    "candidatePath": "research/data/V4_40_MODERN_WORLD_CHRISTIANITY_MACRO_REVISED_CANDIDATE.json",
+    "gitBlobSha": "c9da870d4a22c57c379a672d972ce0c5270c24e8"
+  },
+  "sources": [
+    {
+      "id": "SRC440-01",
+      "title": "WCC 1910 Edinburgh retrospective",
+      "url": "https://www.oikoumene.org/news/1920-3-a-new-beginning-of-international-missionary-cooperation",
+      "scope": "1910, unequal representation among mission-field delegates",
+      "sourceClass": "OFFICIAL_CHURCH_HISTORY",
+      "fullPrimaryTextCollated": false,
+      "externalRightsCleared": false
+    },
+    {
+      "id": "SRC440-02",
+      "title": "WCC founding 1948 official assembly",
+      "url": "https://www.oikoumene.org/about-the-wcc/organizational-structure/assembly",
+      "scope": "1948 Amsterdam founding, ecumenical scope",
+      "sourceClass": "OFFICIAL_ORGANIZATION_HISTORY",
+      "fullPrimaryTextCollated": false,
+      "externalRightsCleared": false
+    },
+    {
+      "id": "SRC440-03",
+      "title": "USCCB Second Vatican Council 1962-1965",
+      "url": "https://www.usccb.org/second-vatican-council",
+      "scope": "1962-65 Catholic council: worship, ecclesiology, modern world",
+      "sourceClass": "CATHOLIC_INSTITUTIONAL_SOURCE",
+      "fullPrimaryTextCollated": false,
+      "externalRightsCleared": false
+    },
+    {
+      "id": "SRC440-04",
+      "title": "Oxford African Christianity/Pentecostalism",
+      "url": "https://academic.oup.com/book/34934/chapter-abstract/298540188",
+      "scope": "Diverse independent, Pentecostal, charismatic movements",
+      "sourceClass": "ACADEMIC_CHAPTER_ABSTRACT_ONLY",
+      "fullPrimaryTextCollated": false,
+      "externalRightsCleared": false
+    },
+    {
+      "id": "SRC440-05",
+      "title": "Annual Review African churches",
+      "url": "https://www.annualreviews.org/content/journals/10.1146/annurev.anthro.33.070203.143835",
+      "scope": "Independent churches and Pentecostal-charismatic overlap and divergence",
+      "sourceClass": "SCHOLARLY_REVIEW_SUMMARY",
+      "fullPrimaryTextCollated": false,
+      "externalRightsCleared": false
+    },
+    {
+      "id": "SRC440-06",
+      "title": "이덕주 2017 3·1운동과 기독교",
+      "url": "https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART002263214",
+      "scope": "1919 Protestant participation in broader interreligious independence movement",
+      "sourceClass": "KCI_ACADEMIC_ABSTRACT",
+      "fullPrimaryTextCollated": false,
+      "externalRightsCleared": false
+    },
+    {
+      "id": "SRC440-07",
+      "title": "World Christianity 2025 regional perspectives",
+      "url": "https://journals.sagepub.com/doi/10.1177/23969393241283291",
+      "scope": "Africa, Asia, Latin America, regional leadership and demographic differences",
+      "sourceClass": "SCIENTIFIC_REGIONAL_ESTIMATE",
+      "fullPrimaryTextCollated": false,
+      "externalRightsCleared": false
+    },
+    {
+      "id": "SRC440-08",
+      "title": "Pew Research Religious Landscape 2010-2020",
+      "url": "https://www.pewresearch.org/religion/2025/06/09/how-the-global-religious-landscape-changed-from-2010-to-2020/",
+      "scope": "Religious switching, regional composition with exact 2010-2020 bounds",
+      "sourceClass": "CENSUS_SURVEY_SYNTHESIS",
+      "fullPrimaryTextCollated": false,
+      "externalRightsCleared": false
+    }
+  ],
+  "cases": [
+    {
+      "id": "M440-01",
+      "volumeId": "VOL-07",
+      "anchor": "1910년 에든버러 세계선교대회",
+      "offset": 2166,
+      "status": "INSTITUTION_SOURCE_SCREENED",
+      "evidenceIds": [
+        "SRC440-01"
+      ],
+      "expertSignoff": false,
+      "appPromotionPermitted": false
+    },
+    {
+      "id": "M440-02",
+      "volumeId": "VOL-07",
+      "anchor": "1948년 암스테르담에서 창립된 세계교회협의회(WCC)",
+      "offset": 2275,
+      "status": "INSTITUTION_SOURCE_SCREENED",
+      "evidenceIds": [
+        "SRC440-02"
+      ],
+      "expertSignoff": false,
+      "appPromotionPermitted": false
+    },
+    {
+      "id": "M440-03",
+      "volumeId": "VOL-07",
+      "anchor": "1962~1965년 제2차 바티칸 공의회",
+      "offset": 2466,
+      "status": "INSTITUTION_SOURCE_SCREENED",
+      "evidenceIds": [
+        "SRC440-03"
+      ],
+      "expertSignoff": false,
+      "appPromotionPermitted": false
+    },
+    {
+      "id": "M440-04",
+      "volumeId": "VOL-07",
+      "anchor": "선교단체의 기존 통제를 벗어난 **독립교회**",
+      "offset": 2576,
+      "status": "ACADEMIC_OVERVIEW_SCREENED",
+      "evidenceIds": [
+        "SRC440-04",
+        "SRC440-05"
+      ],
+      "expertSignoff": false,
+      "appPromotionPermitted": false
+    },
+    {
+      "id": "M440-05",
+      "volumeId": "VOL-07",
+      "anchor": "1919년 3·1운동",
+      "offset": 2865,
+      "status": "ACADEMIC_ABSTRACT_SCREENED",
+      "evidenceIds": [
+        "SRC440-06"
+      ],
+      "expertSignoff": false,
+      "appPromotionPermitted": false
+    },
+    {
+      "id": "M440-06",
+      "volumeId": "VOL-07",
+      "anchor": "종교 이탈과 이주",
+      "offset": 3117,
+      "status": "REGIONAL_RESEARCH_CONTEXT_SCREENED",
+      "evidenceIds": [
+        "SRC440-07",
+        "SRC440-08"
+      ],
+      "expertSignoff": false,
+      "appPromotionPermitted": false
+    },
+    {
+      "id": "M440-07",
+      "volumeId": "VOL-07",
+      "anchor": "해방, 분단과 전쟁, 산업화와 도시화",
+      "offset": 2992,
+      "status": "HISTORIOGRAPHICAL_REVIEW_REQUIRED",
+      "evidenceIds": [],
+      "expertSignoff": false,
+      "appPromotionPermitted": false
+    }
+  ],
+  "summary": {
+    "trackedNewClaims": 7,
+    "sourceScreened": 6,
+    "needsSeparateKoreanPost1945Research": 1,
+    "originalClaimLinksUnchanged": 29
+  },
+  "cautions": [
+    "1910 Edinburgh participation unequal and not WCC founding",
+    "WCC is not a body governing every church",
+    "1962-65 Vatican II belongs to Roman Catholic Church",
+    "African independent and Pentecostal/charismatic movements not identical",
+    "1919 March First broader interreligious movement, not universal Christian participation",
+    "2025 research on global demographics does not validate every individual's belief"
+  ],
+  "release": {
+    "canShip": false,
+    "canMergeMain": false,
+    "canImportAIStudio": false,
+    "humanSignoffs": 0,
+    "actualReaderPilotSessions": 0
+  }
+}
