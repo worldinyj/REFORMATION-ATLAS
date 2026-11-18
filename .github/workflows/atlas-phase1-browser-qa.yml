@@ -1,0 +1,50 @@
+name: ATLAS Phase 1 research preview browser QA (V4.52)
+
+on:
+  push:
+    branches:
+      - integration/atlas-phase1-browser-qa-v452
+    paths:
+      - 'integrations/atlas-flagship-phase1/**'
+      - '.github/workflows/atlas-phase1-browser-qa.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  browser-smoke:
+    name: Browser smoke (${{ matrix.engine }})
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    strategy:
+      fail-fast: false
+      matrix:
+        engine: [chromium, webkit]
+    defaults:
+      run:
+        working-directory: integrations/atlas-flagship-phase1
+    steps:
+      - name: Checkout current research branch (not main)
+        uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install isolated browser test dependency
+        run: npm install --no-save --no-package-lock --ignore-scripts playwright@1.56.1
+      - name: Install test browser and runtime libraries
+        run: npx playwright install --with-deps ${{ matrix.engine }}
+      - name: Check already authored synthetic DOM tests
+        run: node --test preview.test.mjs
+      - name: Test real browser engine
+        run: node --test browser-smoke.test.mjs
+        env:
+          ATLAS_BROWSER: ${{ matrix.engine }}
+      - name: Upload viewport evidence (screenshots only)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: atlas-phase1-${{ matrix.engine }}-v452
+          path: integrations/atlas-flagship-phase1/qa-artifacts/*.png
+          if-no-files-found: ignore
+          retention-days: 14
