@@ -1,0 +1,97 @@
+{
+  "schema": "ATLAS_V446_ARCHIVAL_QUERY_ACTUAL_DISPATCH_AND_RESPONSE_GATE",
+  "version": "V4.46",
+  "date": "2026-11-18",
+  "status": "TWO_ENQUIRIES_SENT_AWAITING_INSTITUTIONAL_RESPONSES",
+  "evidenceFrom": "Authenticated Gmail sent-folder search after actual send returned 2 items marked SENT; reply search returned 0; do not publish private mailbox identifiers or emails.",
+  "inquiries": [
+    {
+      "caseId": "TAMIL-1719-WLB",
+      "claimId": "CL433-21",
+      "institution": "Württembergische Landesbibliothek",
+      "publicRecipient": "ad@wlb-stuttgart.de",
+      "officialContact": "https://www.wlb-stuttgart.de/ueber-uns/kontakt",
+      "requestedItem": "Ba Indien 1715 01",
+      "issue": "Does a 1715 Tamil New Testament holding contain all New Testament books and what dates appear in the surviving item?",
+      "sentDate": "2026-11-18",
+      "dispatchState": "SENT_CONFIRMED_GMAIL",
+      "repliesReceived": 0,
+      "replyState": "AWAITING_REPLY",
+      "requestedProof": [
+        "full physical/collation status of 1715 item",
+        "title/imprint/colophon date and catalogue record",
+        "potential separate 1719 edition or milestone"
+      ],
+      "unresolvedAfterSend": true
+    },
+    {
+      "caseId": "TAMIL-1719-BSI",
+      "claimId": "CL433-21",
+      "institution": "Bible Society of India",
+      "publicRecipient": "info@biblesociety.in",
+      "officialContact": "https://www.bsind.org/contact-us/",
+      "requestedItem": "BSI historical exhibition description: full Tamil NT 1719",
+      "issue": "What bibliographical object or source supports 1719, and is it distinct from a 1715 holding?",
+      "sentDate": "2026-11-18",
+      "dispatchState": "SENT_CONFIRMED_GMAIL",
+      "repliesReceived": 0,
+      "replyState": "AWAITING_REPLY",
+      "requestedProof": [
+        "specific 1719 citation or copy shelfmark",
+        "bibliographical meaning of year 1719",
+        "comparison of 1715 WLB holding with 1719 reference"
+      ],
+      "unresolvedAfterSend": true
+    }
+  ],
+  "previousKnowledge": {
+    "originalClaimReferences": 51,
+    "P0Reviews": 8,
+    "P1Reviews": 4,
+    "latestReaderVersion": "V4.43",
+    "originalAppVersion": "V4.29",
+    "frozenAppGitBlobSha": "64c27c0dfe05394acbb049807e4c4384d58908b9"
+  },
+  "responseDecisionRules": [
+    {
+      "case": "1715_PHYSICAL_COMPLETE_VERIFIED",
+      "effect": "Confirm 1715 whole-NT holding as described by object, but do NOT infer no distinct 1719 edition; cite object and shelfmark."
+    },
+    {
+      "case": "1719_DISTINCT_OBJECT_IDENTIFIED",
+      "effect": "Record institution, shelfmark, imprint, printing/issue status and their relationship; distinguish first full text from later printing."
+    },
+    {
+      "case": "1719_ONLY_SECONDARY_RETROSPECTIVE_DATE",
+      "effect": "Keep 1719 as institutional narrative with specified quality tier; evaluate conflict with primary object."
+    },
+    {
+      "case": "RESPONSES_NOT_CONCLUSIVE_OR_CONFLICT",
+      "effect": "Retain both dates with unresolved-source caution and claim hold."
+    },
+    {
+      "case": "NO_REPLY",
+      "effect": "No new historical conclusion and no increase in expert signoffs."
+    }
+  ],
+  "release": {
+    "claimCanBeReclassifiedOnlyAfterSourceReview": true,
+    "canShip": false,
+    "canMergeMain": false,
+    "canImportAIStudio": false,
+    "actualExpertSignoffs": 0,
+    "actualReaderTests": 0,
+    "actualAppEdits": 0
+  },
+  "privacy": {
+    "publicRepositoryContainsGmailMessageIds": false,
+    "publicRepositoryContainsPrivateSenderAccount": false,
+    "rawRepliesMustNotBePublishedWithoutPermission": true
+  },
+  "nextSteps": [
+    "Retrieve actual institutional response and documentary citation when available",
+    "Assign an expert to assess bibliographical evidence and other seven P0 history matters",
+    "Run a consenting deidentified adult reader pilot using V4.43 text",
+    "Retest all gates before any app staging or promotion"
+  ]
+}
