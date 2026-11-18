@@ -1,4 +1,4 @@
-import React, {useId, useMemo, useState} from "react";
+import React, {useId, useMemo, useRef, useState} from "react";
 import "./atlas-flagship.css";
 
 /**
@@ -39,6 +39,8 @@ export default function AtlasFlagship1529Panel({
   const readerPanelId=useId();
   const comparePanelId=useId();
   const evidencePanelId=useId();
+  const timelineRef=useRef(null);
+  const headingRef=useRef(null);
   const integrity=useMemo(()=>{
     if(!scene||!atlas||!atlas.meta)return null;
     const chapter=atlas.getChapter?.(scene.entry?.l1ChapterId);
@@ -58,6 +60,14 @@ export default function AtlasFlagship1529Panel({
   const selected=integrity.events.find(e=>e.id===eventId)||integrity.events[0];
   const docs=scene.documentCards.filter(d=>d.linkedEventIds.includes(selected.id));
   const {chapter,volume}=integrity;
+  function handleRestart() {
+    setEventId("EVENT-MARBURG-1529");
+    setLayer("L0");
+    setShowEvidence(true);
+    setShowEditionCompare(false);
+    timelineRef.current?.scrollTo?.({left:0,behavior:"instant"});
+    headingRef.current?.scrollIntoView?.({block:"start",behavior:"instant"});
+  }
   function handleReadingKeyDown(event) {
     if(!["ArrowLeft","ArrowRight","Home","End"].includes(event.key))return;
     event.preventDefault();
@@ -67,7 +77,7 @@ export default function AtlasFlagship1529Panel({
     event.currentTarget.parentElement?.querySelectorAll('[role="tab"]')[index]?.focus();
   }
   return <section className="atlas-fp" data-atlas-state="RESEARCH_PREVIEW" aria-label="마르부르크 아우크스부르크 역사 탐색">
-    <header className="atlas-fp-heading">
+    <header ref={headingRef} className="atlas-fp-heading">
       <div className="atlas-fp-kicker">REFORMATION ATLAS / 16TH CENTURY</div>
       <div className="atlas-fp-topline"><h1>{scene.title}</h1>
         <span className="atlas-fp-caveat">연구 초안 · 출판 보류</span></div>
@@ -76,7 +86,7 @@ export default function AtlasFlagship1529Panel({
     </header>
 
     <div className="atlas-fp-layout">
-      <nav className="atlas-fp-timeline" aria-label="역사 사건 연표">
+      <nav ref={timelineRef} className="atlas-fp-timeline" aria-label="역사 사건 연표">
         <h2>시간의 흐름</h2>
         <p className="atlas-fp-help">연도를 선택하면 해당 사건과 문헌 근거가 바뀝니다.</p>
         {integrity.events.map(e=><button type="button" key={e.id} className={"atlas-fp-year"+(selected.id===e.id?" selected":"")}
@@ -87,7 +97,7 @@ export default function AtlasFlagship1529Panel({
       </nav>
       <main className="atlas-fp-main">
         <div className="atlas-fp-section-kicker">SELECTED EVENT / {selected.dateLabel}</div>
-        <h2>{selected.title}</h2>
+        <h2 aria-live="polite">{selected.title}</h2>
         <div className="atlas-fp-place"><strong>관련 장소·주제</strong> {selected.placeLabel}</div>
         <p className="atlas-fp-lead">{selected.readersFinding}</p>
         <div className="atlas-fp-concern"><strong>왜 조심해야 할까?</strong><p>{selected.claimLimit}</p></div>
@@ -120,6 +130,7 @@ export default function AtlasFlagship1529Panel({
           <SafeResearchMarkdown source={layer==="L0"?volume.bodyMarkdown:chapter.bodyMarkdown}/>
         </div>
         <div className="atlas-fp-toolbar">
+          <button type="button" onClick={handleRestart}>1529년으로 돌아가기</button>
           <button type="button" onClick={()=>setShowEvidence(x=>!x)} aria-expanded={showEvidence} aria-controls={evidencePanelId}>
             {showEvidence?"사료 카드 접기":"사료 카드 펼치기"}
           </button>
