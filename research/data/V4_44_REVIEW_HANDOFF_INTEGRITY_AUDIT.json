@@ -1,0 +1,123 @@
+{
+  "schema": "ATLAS_V444_REVIEW_HANDOFF_STRUCTURAL_AND_SOURCE_INTEGRITY_AUDIT",
+  "version": "V4.44",
+  "date": "2026-11-18",
+  "status": "PASS_MACHINE_HANDOFF_INTEGRITY_NOT_HISTORIAN_APPROVAL",
+  "provenance": [
+    {
+      "path": "research/data/V4_44_P0_EIGHT_REVIEW_DOSSIERS.json",
+      "blobSha": "3801a0c7381bb1b8377214a8fc3991604e85253c"
+    },
+    {
+      "path": "research/data/V4_44_GO_NO_GO_MASTER_GATE_REGISTER.json",
+      "blobSha": "afdf0b2282bf2c1ecee01d0a0f376b1b393b66f5"
+    },
+    {
+      "path": "research/V444_EIGHT_EXPERT_REVIEW_HANDOFF_AND_RELEASE_DECISION_KO.md",
+      "blobSha": "ef1faa5f5d9de6a039eb4979b15cb2d14dd72781"
+    },
+    {
+      "path": "research/data/V4_43_L0_EDITORIAL_REDLINE_EIGHT_VOLUME_CANDIDATE.json",
+      "blobSha": "10b73c919ec6cc889e3c64be6dc61e184f5a8e5c"
+    },
+    {
+      "path": "research/data/V4_43_POST_EDIT_51_CLAIM_CROSSWALK.json",
+      "blobSha": "e307b6b955246d42b708640b338dc1529cdfa518"
+    },
+    {
+      "path": "research/data/V4_43_EXPERT_ISSUE_QUEUE_AND_READER_PILOT_PLAN.json",
+      "blobSha": "80afe3f49fa2486c8a928b60069e50f8f474f3d1"
+    },
+    {
+      "path": "handoff/V429_AI_STUDIO_PRIVATE_L0_CONTENT_IMPORT.json",
+      "blobSha": "64c27c0dfe05394acbb049807e4c4384d58908b9"
+    }
+  ],
+  "individualReviewerSheets": [
+    {
+      "path": "research/review_packets/V444_G443-01_P0_REVIEW_KO.md",
+      "blobSha": "43619423a521758a8523ba59bd1008f20eb8a195",
+      "reviewIssueId": "G443-01"
+    },
+    {
+      "path": "research/review_packets/V444_G443-02_P0_REVIEW_KO.md",
+      "blobSha": "d016e9ff11b717d3d594af7fbd85499f3adae117",
+      "reviewIssueId": "G443-02"
+    },
+    {
+      "path": "research/review_packets/V444_G443-03_P0_REVIEW_KO.md",
+      "blobSha": "fa39b60e5aab7bf6bcc2639905b6fd635e1237f6",
+      "reviewIssueId": "G443-03"
+    },
+    {
+      "path": "research/review_packets/V444_G443-04_P0_REVIEW_KO.md",
+      "blobSha": "b5685e6338e0f16824962d8d6dae85cc82833479",
+      "reviewIssueId": "G443-04"
+    },
+    {
+      "path": "research/review_packets/V444_G443-05_P0_REVIEW_KO.md",
+      "blobSha": "7d90842cbc6921c83d6bc461bf365a977dbb09c2",
+      "reviewIssueId": "G443-05"
+    },
+    {
+      "path": "research/review_packets/V444_G443-06_P0_REVIEW_KO.md",
+      "blobSha": "5de0ebd23ed31fecbc8f22aaa1cc669c3b85acc1",
+      "reviewIssueId": "G443-06"
+    },
+    {
+      "path": "research/review_packets/V444_G443-07_P0_REVIEW_KO.md",
+      "blobSha": "c7c0404352c28c0317523d52b947a8107585f1cf",
+      "reviewIssueId": "G443-07"
+    },
+    {
+      "path": "research/review_packets/V444_G443-08_P0_REVIEW_KO.md",
+      "blobSha": "b82889cfdacc567f6b0876fdec949ece61feb018",
+      "reviewIssueId": "G443-08"
+    }
+  ],
+  "metrics": {
+    "reviewIssuesP0": 8,
+    "reviewIssuesP1": 4,
+    "preparedP0OnePagers": 8,
+    "distinctSourceClaimIdsInP0": 15,
+    "priorClaimReferences": 51,
+    "visibleClaimAnchors": 49,
+    "sourceTextEditsV443": 15,
+    "logicalAppThemeLinks": 42,
+    "actualExpertReviewRequests": 0,
+    "actualExpertSignoffs": 0,
+    "actualReaderTests": 0,
+    "actualAppChanges": 0
+  },
+  "checks": [
+    "Each of 8 review sheets matches its exact V4.43 excerpt and P0 question",
+    "All eight review sheets, JSON packet, consolidated index and no-go register persisted on branch",
+    "Each of the 15 distinct P0 claim IDs resolves to the original 51-claim crosswalk",
+    "Actual dispatch and signoffs are zero, not fabricated",
+    "Four secondary P1 issues remain available but not approved",
+    "Frozen V4.29 app hash unchanged; 8 volumes, 6 themes, 42 links, 6 intro chapters",
+    "Machine PASS applies to structure only, not source authenticity, denominational fairness or reader understanding"
+  ],
+  "uncompletedGates": [
+    "GATE-B",
+    "GATE-C",
+    "GATE-D",
+    "GATE-E",
+    "GATE-F",
+    "GATE-G"
+  ],
+  "historicalHolds": [
+    "C417-11",
+    "C417-12",
+    "C417-18",
+    "TAMIL-1719"
+  ],
+  "issueCount": 0,
+  "release": {
+    "canShip": false,
+    "canMergeMain": false,
+    "canImportAIStudio": false,
+    "canClaimHumanReview": false
+  },
+  "errors": []
+}
