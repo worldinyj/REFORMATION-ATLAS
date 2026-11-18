@@ -1,0 +1,60 @@
+{
+  "schema": "ATLAS_V453_FLAGSHIP_INTERACTION_REGRESSION_AND_PARITY",
+  "date": "2026-11-18",
+  "branch": "integration/atlas-phase1-browser-qa-v452",
+  "source": {
+    "preview": "integrations/atlas-flagship-phase1/preview-1529-1540.html",
+    "previewBlob": "e2c2cb7c58b56f8d014c0b0cdb0dea6cac5bbc74",
+    "nodeRegression": "integrations/atlas-flagship-phase1/preview.test.mjs",
+    "nodeRegressionBlob": "1d49267703c27ca97fedcbe82d9ee97d3e6d7fb7",
+    "browserRegression": "integrations/atlas-flagship-phase1/browser-smoke.test.mjs",
+    "browserRegressionBlob": "4d35057c8564223b3ffef9c92d701683460aea63",
+    "reactCandidate": "integrations/atlas-flagship-phase1/AtlasFlagship1529Panel.jsx",
+    "reactCandidateBlob": "a9cae0d86cf83641bb3c373ea30639a347ebbf1f",
+    "css": "integrations/atlas-flagship-phase1/atlas-flagship.css",
+    "cssBlob": "15b17a8aa043433fa459067fa16855114052c3b5",
+    "jsxContract": "integrations/atlas-flagship-phase1/react-contract.test.mjs",
+    "jsxContractBlob": "139a0184d7d5c9515d68f0d397caa3f7c7c6d335"
+  },
+  "performed": {
+    "exactGitHubInlineScriptV8SyntheticDOM": {
+      "passed": 21,
+      "checked": 21,
+      "status": "PASS"
+    },
+    "committedNodeSuiteAdaptedToV8NoNodeImports": {
+      "passed": 6,
+      "checked": 6,
+      "status": "PASS_NOT_NODE_TEST_RUNNER"
+    },
+    "exactHistoricalEmbeddedPayloadModified": false,
+    "incorrectYearAssertionFixed": true,
+    "reactEditionComparisonCandidateAdded": true,
+    "reactKeyboardNavigationCandidateAdded": true,
+    "jsxParseCIConfigured": true,
+    "actualNodeTestRunner": "NOT_EXECUTED_VERIFIED",
+    "actualChromiumBrowser": "NOT_EXECUTED_VERIFIED",
+    "actualWebKitBrowser": "NOT_EXECUTED_VERIFIED",
+    "actualReactHostBuild": "NOT_EXECUTED_VERIFIED",
+    "actualAIStudioChanges": 0,
+    "historianApproved": 0,
+    "readerPilotCount": 0
+  },
+  "functionalDelta": [
+    "React candidate now offers comparison of 1530, 1531 and 1540 editions using the existing four-event source timeline.",
+    "React candidate reading tabs get arrow/Home/End keyboard behavior, roving tabindex, unique ARIA ID linking.",
+    "Synthetic V8 test execution exposed an incorrect browser assertion of '1531' in event title, fixed to check the year label.",
+    "Repository Node tests now contain focus and accessibility regressions; CI includes TypeScript JSX parsing contract."
+  ],
+  "risks": [
+    "Real-browser and JSX CI success cannot be asserted without run logs.",
+    "Preview is research-only, public GitHub files are not private, and source claims remain unapproved.",
+    "React component's parent application routes, dependencies, authentication and responsive integration remain unchecked."
+  ],
+  "release": {
+    "canShip": false,
+    "canMergeMain": false,
+    "canImportAIStudio": false
+  },
+  "nextPriority": "Obtain actual browser run logs/screenshots and React parse/build evidence, resolve any failures, then conduct structured reader and historian review."
+}
