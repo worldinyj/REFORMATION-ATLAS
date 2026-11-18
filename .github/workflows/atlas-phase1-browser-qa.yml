@@ -1,4 +1,4 @@
-name: ATLAS Phase 1 research preview browser QA (V4.52)
+name: ATLAS Phase 1 research preview and reader-contract QA
 
 on:
   push:
@@ -6,12 +6,27 @@ on:
       - integration/atlas-phase1-browser-qa-v452
     paths:
       - 'integrations/atlas-flagship-phase1/**'
+      - 'research/data/ATLAS_V457_*'
       - '.github/workflows/atlas-phase1-browser-qa.yml'
 
 permissions:
   contents: read
 
 jobs:
+  research-contract:
+    name: Research claim and pilot schema contract
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - name: Checkout research branch
+        uses: actions/checkout@v4
+      - name: Set up Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate claim register, pilot instrument and offline scorer
+        run: node --test integrations/atlas-flagship-phase1/reader-pilot-contract.test.mjs
+
   browser-smoke:
     name: Browser smoke (${{ matrix.engine }})
     runs-on: ubuntu-latest
