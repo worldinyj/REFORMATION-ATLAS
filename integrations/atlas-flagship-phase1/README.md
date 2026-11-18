@@ -271,3 +271,23 @@ ATLAS_BROWSER=chromium node --test browser-smoke.test.mjs
 **회귀 코드:** `v463-original-print-witness-contract.test.mjs`.
 
 **이어갈 원전 작업:** W2118 제15조 인쇄면과 W2119을 먼저 직접 비교하고, 이어 서명본 Z/K 지면과 대조. 별도로 1531 C4734·1540 C4713 제10조 인쇄면 확보. `main`, 실제 AI Studio 운영 앱·기존 24장 원고 미변경. `can_ship=false`, `can_merge_main=false`, `can_import_ai_studio=false`.
+
+## V4.64 — 1529년 취리히 W2119와 바젤 W2108 **인쇄 원본 두 판본 직접 대조**
+
+이번에는 사료를 하나 더 '목록에만 등록'하지 않고 **취리히와 바젤이라는 다른 지역에서 1529년에 인쇄된 두 실제 원본 PDF의 관련 페이지를 열어 비교**했다.
+
+- **취리히 W2119:** `ZB Zürich 5.174,5`, Froschauer, [1529]. [원본 PDF](https://www.e-rara.ch/zuz/download/pdf/170052) **0기준 p4(제7조), p5(제13조), p6(제15조)**를 실제 사진으로 확인.
+- **바젤 W2108:** `UB Basel Falk 2950:5`, Thomas Wolff, [1529]. [원본 PDF](https://www.e-rara.ch/bau_1/download/pdf/1643132) **0기준 p8(제7조), p10(제13조·제15조 시작), p11(제15조 끝 및 인쇄 서명자)**를 실제 사진으로 확인.
+- **역사적 성과:** 제7조의 수도원 생활과 서원을 의 획득 수단으로 보는 견해 거부, 제13조의 사제 결혼 금지 교리 비판, 제15조의 미사를 타인을 위한 은총 획득 행위로 보는 견해 거부라는 **세 문구의 내용이 서로 다른 두 지역의 1529년 인쇄본에서 모두 확인**된다. 제15조의 성찬 공통진술과 육체적 임재 방식 미합의도 두 인쇄본에 존재.
+- **전승 계통 주의:** 취리히 보관소의 'Z에만 있고 K에는 없다'는 **서명 필사본 두 부의 차이**를 가리킨다. **그 문장이 취리히시 인쇄본에서만 유통되었다는 뜻이 아니며**, 바젤 W2108에도 나타난다. 단, W2108이 Z를 직접 저본으로 삼았는지는 불명.
+- **W2118의 한계:** 공식 기록의 `VD16 W2118 / Vischer C162`, e-rara 검색목록의 `Zwingli MvK A 81,8` 소장본 확인. DOI `https://doi.org/10.3931/e-rara-1085` 리다이렉트가 현 환경에서 접근되지 않아 제15조 지면 **미확인**. 이를 W2119와 직접 교감했다고 표시하지 않는다.
+- **글자 단위 미완료:** 같은 의미를 확인한 것이지 2개 인쇄판의 **완전한 독일어 외교적 전사·철자/구두점 교감·사본 계통·PDF 파일 해시 확보**가 아니다. K/Z 실제 서명 원본 제15조와 1531/1540 라틴어 제10조 원본 지면도 여전히 미완료.
+- **검증:** V4.64 신규 5개 및 기존 V4.63 회귀 5개를 GitHub 소스 기반 **V8 Node 로더 적응 실행**으로 **10/10 PASS**. Native `node --test` 및 GitHub Actions 실동작 성공은 아직 검증하지 않았다.
+
+**원전 대조 보고서:** [V4.64 취리히·바젤 인쇄본 대조](./V464_ZURICH_BASEL_1529_PRINT_PARALLEL_REVIEW_KO.md)  
+**본문 지면별 연구 데이터:** `research/data/ATLAS_V464_W2119_W2108_EARLY_PRINT_PARALLEL_ARTICLES_7_13_15.json`  
+**감사 기록:** `research/data/ATLAS_V464_ZURICH_BASEL_DIRECT_ORIGINAL_PRINT_AUDIT.json`  
+**계통표 실제 개정:** `research/data/ATLAS_V459_MANUSCRIPT_PRINT_WITNESS_VARIANT_GRAPH.json`  
+**테스트:** `v464-early-print-parallel-contract.test.mjs`, 기존 `v463-original-print-witness-contract.test.mjs`.
+
+**다음 핵심 연구:** W2118 원본 열람 및 동일 조항 대조를 먼저 시도하고, K·Z 서명 필사본 원문 15조와 1529년 인쇄계통이 어떻게 연결되는지 확정한다. `main`, AI Studio 운영 앱, 기존 통합 역사 원고 미변경, `can_ship=false`, `can_merge_main=false`, `can_import_ai_studio=false` 유지.
