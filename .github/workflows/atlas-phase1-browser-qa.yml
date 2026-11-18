@@ -31,11 +31,11 @@ jobs:
         with:
           node-version: '22'
       - name: Install isolated browser test dependency
-        run: npm install --no-save --no-package-lock --ignore-scripts playwright@1.56.1
+        run: npm install --no-save --no-package-lock --ignore-scripts playwright@1.56.1 typescript@5.9.3
       - name: Install test browser and runtime libraries
         run: npx playwright install --with-deps ${{ matrix.engine }}
       - name: Check already authored synthetic DOM tests
-        run: node --test preview.test.mjs
+        run: node --test preview.test.mjs react-contract.test.mjs
       - name: Test real browser engine
         run: node --test browser-smoke.test.mjs
         env:
