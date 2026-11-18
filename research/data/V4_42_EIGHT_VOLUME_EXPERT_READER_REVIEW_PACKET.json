@@ -1,0 +1,376 @@
+{
+  "schema": "ATLAS_V442_BALANCED_L0_EXPERT_AND_READER_REVIEW_PACKET",
+  "version": "V4.42",
+  "date": "2026-11-18",
+  "status": "PROTOCOL_DRAFT_NO_HUMAN_RESULTS",
+  "origin": [
+    {
+      "path": "research/data/V4_42_BALANCED_L0_EIGHT_VOLUME_READER_CANDIDATE.json",
+      "blobSha": "b0b9f43e68526ae5c2219b15d3dd562d5253e4d8"
+    },
+    {
+      "path": "research/data/V4_42_SOURCE_TO_READER_51_CLAIM_DISPOSITION.json",
+      "blobSha": "ed602b335ee1a9e21d738515bd164b2326eabfda"
+    },
+    {
+      "path": "research/data/V4_37_EIGHT_VOLUME_EXPANDED_READER_REVIEW_PACKET.json",
+      "blobSha": "e759f9f593467deb943be4a7f4c417853df26d5d"
+    }
+  ],
+  "purpose": "Evaluate factual integrity, denominational fairness, chronological comprehension and reader navigation of the balanced L0 eight-volume reader. This is not an actual test result.",
+  "volumes": [
+    {
+      "volumeId": "VOL-01",
+      "volumeTitle": "여럿의 언어와 도시에서 자라난 고대교회",
+      "chars": 2057,
+      "kind": "CHRONOLOGICAL_VOLUME",
+      "expertCheck": {
+        "historicalQuestionA": "악숨 4세기 왕실 수용과 전체 주민 개종을 분리하는가?",
+        "historicalQuestionB": "고대 교회 분화에 후대 교파 명칭을 소급하지 않는가?",
+        "criticalMisreading": "Retrospective denominations and immediate royal-to-popular conversion must not be inferred",
+        "sourceEvidenceTypeRequired": true,
+        "proposedCorrectedSentenceRequiredIfRevision": true,
+        "denominationalSelfDescriptionRequired": true
+      },
+      "readerQuestions": [
+        {
+          "prompt": "초기 교회의 지역들이 모두 같은 언어와 조직을 가졌습니까? 본문을 근거로 설명해 주세요.",
+          "rubricKeywords": "multiple early centers"
+        },
+        {
+          "prompt": "공의회 결정과 한 지역교회의 실제 수용은 어떻게 다를 수 있습니까?",
+          "rubricKeywords": "decision differs from local adoption"
+        }
+      ],
+      "recordedHumanReviews": 0,
+      "recordedReaderResponses": 0,
+      "approved": false
+    },
+    {
+      "volumeId": "VOL-02",
+      "volumeTitle": "중세는 서유럽만의 시간이 아니었다",
+      "chars": 2112,
+      "kind": "CHRONOLOGICAL_VOLUME",
+      "expertCheck": {
+        "historicalQuestionA": "781년 경교비 제작과 635년 비문 속 회고를 구별하는가?",
+        "historicalQuestionB": "성 토마스 전승을 당대 확증으로 단정하지 않는가?",
+        "criticalMisreading": "A dated inscription's retrospective narration is not a contemporary record of 635",
+        "sourceEvidenceTypeRequired": true,
+        "proposedCorrectedSentenceRequiredIfRevision": true,
+        "denominationalSelfDescriptionRequired": true
+      },
+      "readerQuestions": [
+        {
+          "prompt": "781년 경교비와 635년 기록은 어떤 다른 연대를 가리킵니까?",
+          "rubricKeywords": "record-year vs event-year"
+        },
+        {
+          "prompt": "중세 기독교를 라틴 서유럽만으로 설명하기 어려운 이유는 무엇입니까?",
+          "rubricKeywords": "non-Western premodern communities"
+        }
+      ],
+      "recordedHumanReviews": 0,
+      "recordedReaderResponses": 0,
+      "approved": false
+    },
+    {
+      "volumeId": "VOL-03",
+      "volumeTitle": "개혁 이전의 개혁들은 한 길로 이어지지 않았다",
+      "chars": 2119,
+      "kind": "CHRONOLOGICAL_VOLUME",
+      "expertCheck": {
+        "historicalQuestionA": "위클리프 remanence와 후스 transubstantiation를 구별하는가?",
+        "historicalQuestionB": "왈도파와 후스파를 16세기 교파의 동일 조직으로 묶지 않는가?",
+        "criticalMisreading": "Wyclif remanence and Hus acceptance of transubstantiation are not interchangeable; Waldensian C417-18 hold",
+        "sourceEvidenceTypeRequired": true,
+        "proposedCorrectedSentenceRequiredIfRevision": true,
+        "denominationalSelfDescriptionRequired": true
+      },
+      "readerQuestions": [
+        {
+          "prompt": "위클리프에게 영향을 받은 후스의 성찬 이해까지 같았습니까?",
+          "rubricKeywords": "Wyclif/Hus theological difference"
+        },
+        {
+          "prompt": "개혁 이전 운동들을 동일 교파의 직선적인 계보로 묶기 어려운 이유는 무엇입니까?",
+          "rubricKeywords": "influence not doctrinal or organizational identity"
+        }
+      ],
+      "recordedHumanReviews": 0,
+      "recordedReaderResponses": 0,
+      "approved": false
+    },
+    {
+      "volumeId": "VOL-04",
+      "volumeTitle": "한 번이 아니라 여러 갈래로 일어난 16세기 개혁",
+      "chars": 2156,
+      "kind": "CHRONOLOGICAL_VOLUME",
+      "expertCheck": {
+        "historicalQuestionA": "1530 비공식 인쇄와 1531 저자 관여판을 구별하는가?",
+        "historicalQuestionB": "1540 인쇄본이 모두 Variata라는 추정을 하지 않는가?",
+        "criticalMisreading": "Official 1530 presentation, early unofficial prints, 1531 Melanchthon-associated version, 1540 Variata must not be conflated",
+        "sourceEvidenceTypeRequired": true,
+        "proposedCorrectedSentenceRequiredIfRevision": true,
+        "denominationalSelfDescriptionRequired": true
+      },
+      "readerQuestions": [
+        {
+          "prompt": "1517년 신학적 논쟁이 모든 지역에서 동일한 교회제도를 낳았습니까?",
+          "rubricKeywords": "regional institutional diversity"
+        },
+        {
+          "prompt": "1530년과 1531년, 1540년의 신앙고백 관련 기록을 왜 구분해야 합니까?",
+          "rubricKeywords": "presentation, prints and editions not interchangeable"
+        }
+      ],
+      "recordedHumanReviews": 0,
+      "recordedReaderResponses": 0,
+      "approved": false
+    },
+    {
+      "volumeId": "VOL-05",
+      "volumeTitle": "가톨릭 쇄신과 종교 갈등, 제한된 공존",
+      "chars": 2284,
+      "kind": "CHRONOLOGICAL_VOLUME",
+      "expertCheck": {
+        "historicalQuestionA": "트리엔트 공의회의 세 시기를 구분하는가?",
+        "historicalQuestionB": "1555년 화의와 1648년 체제를 현대적 개인 종교 자유와 동일시하지 않는가?",
+        "criticalMisreading": "Catholic reform as mere backlash and 1555/1648 as universal personal freedom are misleading",
+        "sourceEvidenceTypeRequired": true,
+        "proposedCorrectedSentenceRequiredIfRevision": true,
+        "denominationalSelfDescriptionRequired": true
+      },
+      "readerQuestions": [
+        {
+          "prompt": "1555년 아우크스부르크 화의가 누구에게나 보편적인 종교 자유를 보장했습니까?",
+          "rubricKeywords": "restricted estate-and-confession peace"
+        },
+        {
+          "prompt": "트리엔트 공의회 문서의 발표와 각 지역 현장에서의 실천은 어떤 차이가 있습니까?",
+          "rubricKeywords": "council statement vs local implementation"
+        }
+      ],
+      "recordedHumanReviews": 0,
+      "recordedReaderResponses": 0,
+      "approved": false
+    },
+    {
+      "volumeId": "VOL-06",
+      "volumeTitle": "경건주의와 부흥, 언어를 가로지른 세계 선교",
+      "chars": 2394,
+      "kind": "CHRONOLOGICAL_VOLUME",
+      "expertCheck": {
+        "historicalQuestionA": "타밀어 1714년 첫 부분과 1715년 신약 소장본을 구별하는가?",
+        "historicalQuestionB": "BSI 1719년 기록을 증명된 별도 초판으로 단정하지 않는가?",
+        "criticalMisreading": "1715 identifiable whole-content catalogue, conflicting 1719 institutional exhibit, not resolved by inference",
+        "sourceEvidenceTypeRequired": true,
+        "proposedCorrectedSentenceRequiredIfRevision": true,
+        "denominationalSelfDescriptionRequired": true
+      },
+      "readerQuestions": [
+        {
+          "prompt": "1714년 타밀어 출판물과 1715년 소장본은 어떤 범위를 가리킵니까?",
+          "rubricKeywords": "1714 gospels and Acts vs 1715 complete-content holding"
+        },
+        {
+          "prompt": "1719년의 기록을 이 원고가 확정적인 별도 신약 초판으로 설명합니까?",
+          "rubricKeywords": "1719 bibliographic dispute remains unresolved"
+        }
+      ],
+      "recordedHumanReviews": 0,
+      "recordedReaderResponses": 0,
+      "approved": false
+    },
+    {
+      "volumeId": "VOL-07",
+      "volumeTitle": "세계의 여러 중심과 한국교회의 형성",
+      "chars": 2415,
+      "kind": "CHRONOLOGICAL_VOLUME",
+      "expertCheck": {
+        "historicalQuestionA": "1779년 강학과 1784년 세례·공동체 형성 차이를 설명하는가?",
+        "historicalQuestionB": "1882 개별 복음서·1887 신약·1911 신구약 범위를 구별하는가?",
+        "criticalMisreading": "Catholic Medellin/Puebla vs Protestant/Pentecostal strands, MECC 1974/1990 families, Asia's local diversity, and Korean postwar complexity",
+        "sourceEvidenceTypeRequired": true,
+        "proposedCorrectedSentenceRequiredIfRevision": true,
+        "denominationalSelfDescriptionRequired": true
+      },
+      "readerQuestions": [
+        {
+          "prompt": "라틴아메리카·중동·아시아·한국 사례 중 두 지역을 선택해 각각 다른 역사적 질문을 설명해 주세요.",
+          "rubricKeywords": "two region-specific distinctions"
+        },
+        {
+          "prompt": "1910년 선교대회, 1948년 WCC, 제2차 바티칸 공의회가 모두 하나의 교단 결정이었습니까?",
+          "rubricKeywords": "ecumenical mission cooperation vs WCC vs Catholic council"
+        }
+      ],
+      "recordedHumanReviews": 0,
+      "recordedReaderResponses": 0,
+      "approved": false
+    },
+    {
+      "volumeId": "VOL-08",
+      "volumeTitle": "여섯 질문으로 다시 읽는 기독교사의 지도",
+      "chars": 3061,
+      "kind": "THEMATIC_INDEX",
+      "expertCheck": {
+        "historicalQuestionA": "여덟 번째 시대가 아닌 여섯 주제의 색인임을 알려주는가?",
+        "historicalQuestionB": "6주제×7시대=42개 연결이 실제 이해를 돕는가?",
+        "criticalMisreading": "Do not conflate same thematic keyword with identical doctrine or claim 42 app links are live routes",
+        "sourceEvidenceTypeRequired": true,
+        "proposedCorrectedSentenceRequiredIfRevision": true,
+        "denominationalSelfDescriptionRequired": true
+      },
+      "readerQuestions": [
+        {
+          "prompt": "제8권은 왜 새로운 시대를 뜻하지 않습니까?",
+          "rubricKeywords": "thematic index across seven eras"
+        },
+        {
+          "prompt": "성찬 또는 번역이라는 주제를 선택한 다음, 서로 다른 시대권 두 곳으로 이동해 무엇을 비교할지 설명해 주세요.",
+          "rubricKeywords": "navigation to two historical volumes with context"
+        }
+      ],
+      "recordedHumanReviews": 0,
+      "recordedReaderResponses": 0,
+      "approved": false
+    }
+  ],
+  "panel": {
+    "proposedExpertPerspectives": [
+      "early and medieval church historian",
+      "Reformation confessional-edition and Eucharist historian",
+      "Catholic global history reviewer",
+      "global missions, Asian and Korean church historian"
+    ],
+    "noRecruitmentsConfirmed": true,
+    "reviewTemplate": {
+      "volumeId": null,
+      "exactQuotedPassage": null,
+      "claimId": null,
+      "decision": null,
+      "evidenceClass": null,
+      "pageOrLocus": null,
+      "whyAndProposedCorrection": null,
+      "reviewerRole": null,
+      "reviewedDate": null,
+      "signature": null
+    },
+    "decisions": [
+      "ACCEPT_ONLY_AFTER_SOURCE_REVIEW",
+      "REVISE_WITH_SUGGESTED_WORDING",
+      "HOLD_FOR_ORIGINAL_WITNESS"
+    ],
+    "sourceEvidenceGuard": "Abstracts, institutional archives, full folios, and modern synthesis must retain different labels"
+  },
+  "readerPilot": {
+    "intendedVolunteers": 8,
+    "actualCompletedSessions": 0,
+    "representativeSample": false,
+    "assignmentProposal": [
+      {
+        "code": "R01",
+        "historyVolumeId": "VOL-01",
+        "additionalArchive": "VOL-08",
+        "assignedToActualHuman": false
+      },
+      {
+        "code": "R02",
+        "historyVolumeId": "VOL-02",
+        "additionalArchive": "VOL-08",
+        "assignedToActualHuman": false
+      },
+      {
+        "code": "R03",
+        "historyVolumeId": "VOL-03",
+        "additionalArchive": "VOL-08",
+        "assignedToActualHuman": false
+      },
+      {
+        "code": "R04",
+        "historyVolumeId": "VOL-04",
+        "additionalArchive": "VOL-08",
+        "assignedToActualHuman": false
+      },
+      {
+        "code": "R05",
+        "historyVolumeId": "VOL-05",
+        "additionalArchive": "VOL-08",
+        "assignedToActualHuman": false
+      },
+      {
+        "code": "R06",
+        "historyVolumeId": "VOL-06",
+        "additionalArchive": "VOL-08",
+        "assignedToActualHuman": false
+      },
+      {
+        "code": "R07",
+        "historyVolumeId": "VOL-07",
+        "additionalArchive": "VOL-08",
+        "assignedToActualHuman": false
+      },
+      {
+        "code": "R08",
+        "historyVolumeId": "VOL-07",
+        "additionalArchive": "VOL-08",
+        "assignedToActualHuman": false
+      }
+    ],
+    "instructions": "Read selected era volume then the VOL-08 overview. Do not show rubrics or historian questions until participant submits free-form responses.",
+    "recordFields": [
+      "consented anonymous code",
+      "completed assigned volume",
+      "actual start/end times",
+      "responses to two unseen questions",
+      "two-point rubric score per question",
+      "misunderstood chronology/denomination",
+      "unfamiliar words",
+      "failed navigation or inability to locate referenced volume"
+    ],
+    "scoring": {
+      "0": "material misunderstanding",
+      "1": "general idea with no accurate historical distinction",
+      "2": "accurate explanation with at least one text-grounded distinction"
+    },
+    "editorialTriggers": [
+      "Any material historical misconception -> investigate sentence",
+      "Two or more readers stumble on same expression -> rewrite candidate",
+      "If VOL08 read as eighth chronology -> revise navigation language"
+    ],
+    "caveat": "Proposed convenience-based editorial pilot, no validated psychometric scale, no recorded outcomes yet",
+    "privacy": "Do not store names, contact details, religion, recordings, raw identifying responses in the public repository"
+  },
+  "focusOfHighRiskReview": {
+    "legacyClaimHolds": [
+      "C417-11",
+      "C417-12",
+      "C417-18"
+    ],
+    "tamil1719": "1719 remains a conflicting exhibition statement; separate 1719 exemplar not authenticated",
+    "v442RewordedClaims": [
+      "CL433-23",
+      "M440-04",
+      "CL441-04",
+      "CL441-07",
+      "CL441-11"
+    ],
+    "v442ResearchOnlyClaims": [
+      "CL433-26",
+      "M440-06"
+    ]
+  },
+  "consentAndRights": {
+    "actualPermissionForParticipantsCollected": 0,
+    "originalExternalImagesRehosted": false,
+    "paidFullTextsCopied": false
+  },
+  "releaseGate": {
+    "canShip": false,
+    "canMergeMain": false,
+    "canImportAIStudio": false,
+    "actualExpertSignoffs": 0,
+    "actualReaderResults": 0
+  },
+  "nextRecommendedWork": "Human specialists review exact language, run a real anonymized reading pilot, then issue a claim-level go/no-go decision for private staging; no automatic promotion."
+}
