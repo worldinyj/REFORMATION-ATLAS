@@ -1,0 +1,65 @@
+{
+  "schema": "ATLAS_V456_SAFE_MARKDOWN_SEMANTIC_RENDERING_AND_PARITY_AUDIT",
+  "date": "2026-11-18",
+  "releasePolicy": {
+    "canShip": false,
+    "canMergeMain": false,
+    "canImportAIStudio": false
+  },
+  "sourceIntegrity": {
+    "baselineGitBlob": "c5906c70752089c218b9bdef8b9ed2fb452000cd",
+    "revisedHTMLGitBlob": "af0152ddc5fc1defa239889552786b8ad8e7ddd1",
+    "revisedReactCandidateBlob": "dddf6cc5e6fbfab002f6284fb8ee722f931f0ce7",
+    "markdownParserBlob": "51bf297e703c5635d3a4e6e7dea4662a3cb3bd00",
+    "researchJsonExactStringUnchanged": true,
+    "historicalClaimsModified": 0,
+    "events": 4,
+    "documents": 2,
+    "oldCanShipFalsePreserved": true
+  },
+  "implementation": {
+    "standaloneHTML": "Render Markdown as h1-h4/p/hr/strong/em/text nodes using document.createElement and document.createTextNode",
+    "reactCandidate": "Import the identical parseResearchMarkdown function from research-markdown.mjs and create React elements without dangerouslySetInnerHTML",
+    "parserParity": "Node test checks parser source embedded in standalone HTML is byte-identical to exported parser implementation apart from module export",
+    "allowedMarkup": "Paragraphs, headings # to ####, bold **...**, italic *...*, horizontal rule ---",
+    "unsupportedMarkup": "Tables, lists, nested inline markup, arbitrary links, full CommonMark and raw HTML",
+    "injectionDefense": "HTML-looking strings remain literal text nodes, not parsed HTML; no innerHTML"
+  },
+  "checks": {
+    "actualBrowserEngine": "Chromium 144.0.7559.96",
+    "actualBrowserViewports": [
+      320,
+      375,
+      768,
+      1440
+    ],
+    "actualBrowserFunctionalChecks": 92,
+    "actualBrowserPassed": 92,
+    "actualBrowserFailed": 0,
+    "executedNodeParserContractTests": 4,
+    "executedNodeParserContractPassed": 4,
+    "connectorSourcedV8FakeDOMRegressionTests": 7,
+    "connectorSourcedV8FakeDOMPassed": 7,
+    "typescriptTranspileVersion": "5.8.3",
+    "jsxSyntaxErrors": 0,
+    "githubActionsCIResults": "NOT_VERIFIED",
+    "playwrightWebkitTests": "NOT_EXECUTED",
+    "realReactRuntimeBuild": "NOT_EXECUTED",
+    "actualAIStudioAppIntegration": "NOT_EXECUTED"
+  },
+  "readerUsability": {
+    "before": "Raw Markdown symbols ### and ** displayed in historical prose",
+    "after": "Semantic heading/strong/emphasis/rule displayed with readable paragraphs",
+    "beforeAfterMobileScreenshot": "Created in local conversation artifact, not pushed to GitHub",
+    "userPilotParticipants": 0,
+    "historianSignOffs": 0
+  },
+  "limitations": [
+    "A safe minimal Markdown grammar is not a full Markdown renderer; unsupported syntax must remain literal instead of inventing markup.",
+    "Standalone HTML has an embedded parser for offline use; the React candidate imports the matching module; parity is tested by exact source extraction.",
+    "Browser QA used page.set_content of the complete source; production app and network deployment were not tested.",
+    "No WebKit, actual screen-reader human assessment, historical expert approval, real-reader pilot or authenticated AI Studio host deployment has been performed.",
+    "The research branch is public; canShip=false is a release flag and does not restrict access to published GitHub file bytes."
+  ],
+  "nextRecommendedWork": "Focus on a real-reader walkthrough of L0/L1 distinction and historical evidence comprehension before expanding to more events. Keep research gate false until historians and production host are verified."
+}
