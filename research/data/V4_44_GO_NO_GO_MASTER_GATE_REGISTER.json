@@ -1,0 +1,452 @@
+{
+  "schema": "ATLAS_V444_MACRO_CONTENT_RELEASE_GO_NO_GO_REGISTER",
+  "version": "V4.44",
+  "date": "2026-11-18",
+  "decision": "NO_GO_FOR_PUBLICATION_OR_APP_IMPORT",
+  "scope": "L0 eight-volume Korean history narrative and six-theme archive",
+  "basis": "Only machine integrity tests and draft editorial review packets are complete. Human historical, doctrinal, reader comprehension, rights, and app staging gates are unperformed.",
+  "source": [
+    {
+      "path": "research/data/V4_44_P0_EIGHT_REVIEW_DOSSIERS.json",
+      "blobSha": "3801a0c7381bb1b8377214a8fc3991604e85253c"
+    },
+    {
+      "path": "research/data/V4_43_EDITORIAL_REVIEW_INTEGRITY_AUDIT.json",
+      "blobSha": "ec9fc1466a79846a6e624e309cca5e6a5bf09a10"
+    },
+    {
+      "path": "research/data/V4_43_EXPERT_ISSUE_QUEUE_AND_READER_PILOT_PLAN.json",
+      "blobSha": "80afe3f49fa2486c8a928b60069e50f8f474f3d1"
+    },
+    {
+      "path": "research/data/V4_43_POST_EDIT_51_CLAIM_CROSSWALK.json",
+      "blobSha": "e307b6b955246d42b708640b338dc1529cdfa518"
+    },
+    {
+      "path": "handoff/V429_AI_STUDIO_PRIVATE_L0_CONTENT_IMPORT.json",
+      "blobSha": "64c27c0dfe05394acbb049807e4c4384d58908b9"
+    }
+  ],
+  "metrics": {
+    "manuscripts": 8,
+    "originalClaims": 51,
+    "visibleClaims": 49,
+    "priorRewordedPendingExpert": 5,
+    "sourceOnly": 2,
+    "highRiskP0": 8,
+    "lowerRiskP1": 4,
+    "preparedIndividualP0Sheets": 8,
+    "actualP0Reviews": 0,
+    "actualP1Reviews": 0,
+    "actualReaders": 0,
+    "appCodeChanges": 0,
+    "frozenAppThemeLinks": 42
+  },
+  "highRiskAndSecondaryReviews": [
+    {
+      "id": "G443-01",
+      "priority": "P0",
+      "targetVolumeIds": [
+        "VOL-03",
+        "VOL-08"
+      ],
+      "claimIds": [
+        "CL433-08",
+        "CL433-09"
+      ],
+      "dossierPath": "research/review_packets/V444_G443-01_P0_REVIEW_KO.md",
+      "requiredFieldTypes": [
+        "verifiedSourceCitationWithLocator",
+        "reviewerRelevantExpertise",
+        "originalKoreanPassage",
+        "writtenDecisionAndRationale",
+        "correctedTextOrDocumentedReasonToKeep"
+      ],
+      "currentStatus": "NOT_SUBMITTED",
+      "actualReviewerCount": 0,
+      "actualReviewerDecision": null,
+      "externalSourceWitnessCheckedByHuman": false,
+      "pass": false
+    },
+    {
+      "id": "G443-02",
+      "priority": "P0",
+      "targetVolumeIds": [
+        "VOL-04"
+      ],
+      "claimIds": [
+        "CL433-13",
+        "CL433-14"
+      ],
+      "dossierPath": "research/review_packets/V444_G443-02_P0_REVIEW_KO.md",
+      "requiredFieldTypes": [
+        "verifiedSourceCitationWithLocator",
+        "reviewerRelevantExpertise",
+        "originalKoreanPassage",
+        "writtenDecisionAndRationale",
+        "correctedTextOrDocumentedReasonToKeep"
+      ],
+      "currentStatus": "NOT_SUBMITTED",
+      "actualReviewerCount": 0,
+      "actualReviewerDecision": null,
+      "externalSourceWitnessCheckedByHuman": false,
+      "pass": false
+    },
+    {
+      "id": "G443-03",
+      "priority": "P0",
+      "targetVolumeIds": [
+        "VOL-06"
+      ],
+      "claimIds": [
+        "CL433-20",
+        "CL433-21"
+      ],
+      "dossierPath": "research/review_packets/V444_G443-03_P0_REVIEW_KO.md",
+      "requiredFieldTypes": [
+        "verifiedSourceCitationWithLocator",
+        "reviewerRelevantExpertise",
+        "originalKoreanPassage",
+        "writtenDecisionAndRationale",
+        "correctedTextOrDocumentedReasonToKeep"
+      ],
+      "currentStatus": "NOT_SUBMITTED",
+      "actualReviewerCount": 0,
+      "actualReviewerDecision": null,
+      "externalSourceWitnessCheckedByHuman": false,
+      "pass": false
+    },
+    {
+      "id": "G443-04",
+      "priority": "P0",
+      "targetVolumeIds": [
+        "VOL-07"
+      ],
+      "claimIds": [
+        "CL433-23",
+        "CL433-24"
+      ],
+      "dossierPath": "research/review_packets/V444_G443-04_P0_REVIEW_KO.md",
+      "requiredFieldTypes": [
+        "verifiedSourceCitationWithLocator",
+        "reviewerRelevantExpertise",
+        "originalKoreanPassage",
+        "writtenDecisionAndRationale",
+        "correctedTextOrDocumentedReasonToKeep"
+      ],
+      "currentStatus": "NOT_SUBMITTED",
+      "actualReviewerCount": 0,
+      "actualReviewerDecision": null,
+      "externalSourceWitnessCheckedByHuman": false,
+      "pass": false
+    },
+    {
+      "id": "G443-05",
+      "priority": "P0",
+      "targetVolumeIds": [
+        "VOL-07"
+      ],
+      "claimIds": [
+        "CL441-03"
+      ],
+      "dossierPath": "research/review_packets/V444_G443-05_P0_REVIEW_KO.md",
+      "requiredFieldTypes": [
+        "verifiedSourceCitationWithLocator",
+        "reviewerRelevantExpertise",
+        "originalKoreanPassage",
+        "writtenDecisionAndRationale",
+        "correctedTextOrDocumentedReasonToKeep"
+      ],
+      "currentStatus": "NOT_SUBMITTED",
+      "actualReviewerCount": 0,
+      "actualReviewerDecision": null,
+      "externalSourceWitnessCheckedByHuman": false,
+      "pass": false
+    },
+    {
+      "id": "G443-06",
+      "priority": "P0",
+      "targetVolumeIds": [
+        "VOL-07"
+      ],
+      "claimIds": [
+        "CL441-04",
+        "CL441-05",
+        "CL441-06"
+      ],
+      "dossierPath": "research/review_packets/V444_G443-06_P0_REVIEW_KO.md",
+      "requiredFieldTypes": [
+        "verifiedSourceCitationWithLocator",
+        "reviewerRelevantExpertise",
+        "originalKoreanPassage",
+        "writtenDecisionAndRationale",
+        "correctedTextOrDocumentedReasonToKeep"
+      ],
+      "currentStatus": "NOT_SUBMITTED",
+      "actualReviewerCount": 0,
+      "actualReviewerDecision": null,
+      "externalSourceWitnessCheckedByHuman": false,
+      "pass": false
+    },
+    {
+      "id": "G443-07",
+      "priority": "P0",
+      "targetVolumeIds": [
+        "VOL-07"
+      ],
+      "claimIds": [
+        "CL441-11",
+        "CL441-13"
+      ],
+      "dossierPath": "research/review_packets/V444_G443-07_P0_REVIEW_KO.md",
+      "requiredFieldTypes": [
+        "verifiedSourceCitationWithLocator",
+        "reviewerRelevantExpertise",
+        "originalKoreanPassage",
+        "writtenDecisionAndRationale",
+        "correctedTextOrDocumentedReasonToKeep"
+      ],
+      "currentStatus": "NOT_SUBMITTED",
+      "actualReviewerCount": 0,
+      "actualReviewerDecision": null,
+      "externalSourceWitnessCheckedByHuman": false,
+      "pass": false
+    },
+    {
+      "id": "G443-08",
+      "priority": "P0",
+      "targetVolumeIds": [
+        "VOL-03"
+      ],
+      "claimIds": [
+        "CL433-11"
+      ],
+      "dossierPath": "research/review_packets/V444_G443-08_P0_REVIEW_KO.md",
+      "requiredFieldTypes": [
+        "verifiedSourceCitationWithLocator",
+        "reviewerRelevantExpertise",
+        "originalKoreanPassage",
+        "writtenDecisionAndRationale",
+        "correctedTextOrDocumentedReasonToKeep"
+      ],
+      "currentStatus": "NOT_SUBMITTED",
+      "actualReviewerCount": 0,
+      "actualReviewerDecision": null,
+      "externalSourceWitnessCheckedByHuman": false,
+      "pass": false
+    },
+    {
+      "id": "G443-09",
+      "priority": "P1",
+      "targetVolumeIds": [
+        "VOL-02"
+      ],
+      "claimIds": [
+        "CL433-04",
+        "CL433-05",
+        "CL433-07"
+      ],
+      "dossierPath": null,
+      "requiredFieldTypes": [
+        "verifiedSourceCitationWithLocator",
+        "reviewerRelevantExpertise",
+        "originalKoreanPassage",
+        "writtenDecisionAndRationale",
+        "correctedTextOrDocumentedReasonToKeep"
+      ],
+      "currentStatus": "NOT_SUBMITTED",
+      "actualReviewerCount": 0,
+      "actualReviewerDecision": null,
+      "externalSourceWitnessCheckedByHuman": false,
+      "pass": false
+    },
+    {
+      "id": "G443-10",
+      "priority": "P1",
+      "targetVolumeIds": [
+        "VOL-05"
+      ],
+      "claimIds": [
+        "CL433-16",
+        "CL433-17",
+        "CL433-18"
+      ],
+      "dossierPath": null,
+      "requiredFieldTypes": [
+        "verifiedSourceCitationWithLocator",
+        "reviewerRelevantExpertise",
+        "originalKoreanPassage",
+        "writtenDecisionAndRationale",
+        "correctedTextOrDocumentedReasonToKeep"
+      ],
+      "currentStatus": "NOT_SUBMITTED",
+      "actualReviewerCount": 0,
+      "actualReviewerDecision": null,
+      "externalSourceWitnessCheckedByHuman": false,
+      "pass": false
+    },
+    {
+      "id": "G443-11",
+      "priority": "P1",
+      "targetVolumeIds": [
+        "VOL-07"
+      ],
+      "claimIds": [
+        "M440-04",
+        "CL441-07",
+        "CL441-08",
+        "CL441-09"
+      ],
+      "dossierPath": null,
+      "requiredFieldTypes": [
+        "verifiedSourceCitationWithLocator",
+        "reviewerRelevantExpertise",
+        "originalKoreanPassage",
+        "writtenDecisionAndRationale",
+        "correctedTextOrDocumentedReasonToKeep"
+      ],
+      "currentStatus": "NOT_SUBMITTED",
+      "actualReviewerCount": 0,
+      "actualReviewerDecision": null,
+      "externalSourceWitnessCheckedByHuman": false,
+      "pass": false
+    },
+    {
+      "id": "G443-12",
+      "priority": "P1",
+      "targetVolumeIds": [
+        "VOL-08"
+      ],
+      "claimIds": [
+        "CL433-27",
+        "CL433-28",
+        "CL433-29",
+        "CL441-14"
+      ],
+      "dossierPath": null,
+      "requiredFieldTypes": [
+        "verifiedSourceCitationWithLocator",
+        "reviewerRelevantExpertise",
+        "originalKoreanPassage",
+        "writtenDecisionAndRationale",
+        "correctedTextOrDocumentedReasonToKeep"
+      ],
+      "currentStatus": "NOT_SUBMITTED",
+      "actualReviewerCount": 0,
+      "actualReviewerDecision": null,
+      "externalSourceWitnessCheckedByHuman": false,
+      "pass": false
+    }
+  ],
+  "stages": [
+    {
+      "id": "GATE-A",
+      "name": "문장·앵커·권 구조 기계검증",
+      "result": "PASS_PRELIMINARY",
+      "proofPath": "research/data/V4_43_EDITORIAL_REVIEW_INTEGRITY_AUDIT.json",
+      "blocksRelease": false,
+      "doesNotProve": "historical accuracy"
+    },
+    {
+      "id": "GATE-B",
+      "name": "고위험 8건의 실제 전문가 근거 검토",
+      "result": "NOT_STARTED",
+      "proofPath": "research/data/V4_44_P0_EIGHT_REVIEW_DOSSIERS.json",
+      "blocksRelease": true,
+      "doesNotProve": "cannot infer human signoff from created forms"
+    },
+    {
+      "id": "GATE-C",
+      "name": "나머지 4건 및 51개 근거 이력의 출판 적합성",
+      "result": "NOT_STARTED",
+      "proofPath": "research/data/V4_43_POST_EDIT_51_CLAIM_CROSSWALK.json",
+      "blocksRelease": true,
+      "doesNotProve": "historical interpretation may remain contested after machine checks"
+    },
+    {
+      "id": "GATE-D",
+      "name": "실제 비전문 독자의 역사 이해·탐색 검토",
+      "result": "NOT_STARTED",
+      "proofPath": "research/data/V4_42_EIGHT_VOLUME_EXPERT_READER_REVIEW_PACKET.json",
+      "blocksRelease": true,
+      "doesNotProve": "there is no reader score or UX evidence yet"
+    },
+    {
+      "id": "GATE-E",
+      "name": "문헌·인물화·지도·이미지와 배포 권리",
+      "result": "NOT_STARTED",
+      "proofPath": null,
+      "blocksRelease": true,
+      "doesNotProve": "research-only links do not grant third-party use rights"
+    },
+    {
+      "id": "GATE-F",
+      "name": "비공개 앱 스테이징 및 실제 라우팅·접근제어 확인",
+      "result": "NOT_STARTED",
+      "proofPath": null,
+      "blocksRelease": true,
+      "doesNotProve": "logical 42 links are not tested web navigation"
+    },
+    {
+      "id": "GATE-G",
+      "name": "교열 수정·재검증 후 승인권자의 명시적 출시 결정",
+      "result": "NOT_STARTED",
+      "proofPath": null,
+      "blocksRelease": true,
+      "doesNotProve": "no authority assigned and no actual approval"
+    }
+  ],
+  "holdRules": [
+    {
+      "id": "C417-11",
+      "reason": "confessional edition-specific theological reading",
+      "mode": "EXCLUDE_UNTIL_PRIMARY_SOURCE_REVIEW"
+    },
+    {
+      "id": "C417-12",
+      "reason": "confessional edition-specific textual and version judgment",
+      "mode": "EXCLUDE_UNTIL_PRIMARY_SOURCE_REVIEW"
+    },
+    {
+      "id": "C417-18",
+      "reason": "Waldensian 1532 identification and later denomination projection",
+      "mode": "EXCLUDE_OR_QUALIFY_UNTIL_SOURCE_REVIEW"
+    },
+    {
+      "id": "TAMIL-1719",
+      "reason": "bibliographic contradiction: 1715 complete-content holding vs 1719 institutional exhibit narrative",
+      "mode": "DISPLAY_CONFLICT_WITH_CAVEAT_NEVER_DECLARE_RESOLVED"
+    }
+  ],
+  "decisionPolicy": {
+    "priorDraftCanBeReadForResearch": true,
+    "privateReviewerCirculationOfResearchTextWithCaveats": true,
+    "canMergeIntoMain": false,
+    "canApplyToProductionApp": false,
+    "canAssertScholarApproved": false,
+    "canAssertActualReaderTestPassed": false,
+    "allowedNextAction": "Collect authentic reviewer feedback outside public GitHub, then prepare verified edits and readback audits before considering nonproduction staging.",
+    "gateClosureRequires": [
+      "One verified, signed or otherwise attributable decision per P0 issue from a suitably qualified reviewer, with claim-specific citation or explicit hold",
+      "P1 issues resolved or intentionally excluded with written rationale",
+      "Reader sessions actually completed and deidentified, with confusion patterns and revisions",
+      "All third-party content rights explicitly cleared for the uses actually planned",
+      "V4.29 production baseline retained; private staging acceptance checked separately",
+      "Explicit owner go/no-go decision documented after the above"
+    ]
+  },
+  "approvals": {
+    "editorialOwner": null,
+    "expertReviewerDecisions": [],
+    "realReaderEvidence": [],
+    "copyrightClearanceRecords": [],
+    "appAcceptanceRecord": null,
+    "goNoGoOwnerDecision": null
+  },
+  "publication": {
+    "canShip": false,
+    "canMergeMain": false,
+    "canImportAIStudio": false,
+    "canReleaseImages": false
+  }
+}
