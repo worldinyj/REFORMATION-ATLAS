@@ -1,0 +1,78 @@
+{
+  "schema": "ATLAS_L1_VOLUME_READER_CHAPTER_DRAFT",
+  "version": "V4.48",
+  "date": "2026-11-18",
+  "volumeId": "VOL-02",
+  "title": "중세는 서유럽만의 시간이 아니었다",
+  "readerLayer": "L1_INTERMEDIATE_HISTORICAL_NARRATIVE",
+  "notPublicationReady": true,
+  "historianReview": "NOT_STARTED",
+  "actualReaderTests": 0,
+  "description": "Three coherent intermediate-level interpretive essays expanding but not replacing V4.47 overview L0. Research links are traceable context, not full critical editions.",
+  "chapters": [
+    {
+      "id": "L448-02-01",
+      "title": "비잔틴·서아시아·서유럽의 서로 다른 중세",
+      "period": "6–15세기",
+      "bodyMarkdown": "‘중세 교회’라는 말을 들으면 서유럽의 수도원과 교황, 대성당과 대학을 떠올리기 쉽다. 그러나 같은 시간에 비잔틴의 교회들은 황제권과 공의회의 유산을 다른 방식으로 경험했고, 페르시아와 이슬람권의 여러 그리스도인 공동체는 또 다른 통치 구조 아래 살아갔다. 예배와 신학교육에 사용한 언어, 공동체에 허용된 법적 지위, 외부 지역과 연락하는 통로는 서로 달랐다. 한 지역의 연대표로 다른 지역의 존속 여부를 결정할 수 없다.\n\n특히 시리아어 문학과 번역의 이동은 서유럽의 정치적 경계 밖에서도 신학과 예배가 이어졌다는 사실을 보여 준다. 반대로 서로 연결된 문헌이 있다고 모든 공동체가 하나의 행정 조직에 속했다는 뜻도 아니다. 도시·수도원·상업망·교역로는 사상의 이동을 설명하지만, 교리와 소속을 확인할 때는 개별 문헌과 전승을 따져야 한다. 이 권에서는 누가 중심이었는가보다 서로 다른 중심 사이의 **접촉과 거리**를 함께 읽는다.",
+      "thesis": "서유럽 중심의 단일 시간표로 중세 기독교사를 설명할 수 없다.",
+      "sourceUrls": [
+        "https://www.mcgill.ca/religiousstudies/about/birks-building/jingiao-stele",
+        "https://www.metmuseum.org/fr/essays/african-christianity-in-ethiopia"
+      ],
+      "crossLinks": [
+        "VOL-01",
+        "VOL-03",
+        "VOL-07"
+      ],
+      "reviewCaution": "Broad regional synthesis: local chronology and church authority distinctions need specialist verification.",
+      "reviewState": "EDITORIAL_DRAFT_UNREVIEWED",
+      "canShip": false,
+      "originalCopyrightedTextCopied": false
+    },
+    {
+      "id": "L448-02-02",
+      "title": "경교비에서 읽는 635년의 사건과 781년의 증언",
+      "period": "7–8세기",
+      "bodyMarkdown": "당나라 시대 기독교의 흔적을 설명하는 경교비는 중세 세계사의 좋은 독서 연습이다. 비석은 **781년에 세워진 자료**이고, 비문의 설명은 **635년에 중국에 전래되었다고 회고하는 사건**을 담고 있다. 후대에 만든 기록이 그보다 앞선 사건을 서술할 수는 있지만, 사건을 직접 목격한 사람의 즉시 기록과 같은 종류의 증거로 취급해서는 안 된다. 비문의 중국어와 시리아어 요소 역시 공동체가 자신들의 신앙을 중국의 언어와 개념으로 설명하려 했음을 알려 준다.\n\n맥길대학교의 경교비 해설은 이 연대 차이와 중국적 표현을 함께 강조한다. 스미스소니언 박물관의 탁본 소장 정보도 비석 원문 제작 시점과 훗날 만들어진 탁본의 시점을 구별하게 한다. 지역을 연결하는 길이 있었다는 사실만으로 특정 연도의 조직 규모나 모든 교인의 신학을 확정할 수 없다. 중요한 질문은 ‘중국에 기독교가 언제 등장했는가’뿐 아니라 **우리가 그 사실을 어떤 종류의 기록으로 아는가**이다.",
+      "thesis": "비문의 제작 연대·서술 대상 연대·현존 탁본의 연대를 구별한다.",
+      "sourceUrls": [
+        "https://www.mcgill.ca/religiousstudies/about/birks-building/jingiao-stele",
+        "https://asia-archive.si.edu/object/F1976.28.2a-d/"
+      ],
+      "crossLinks": [
+        "VOL-01",
+        "VOL-06",
+        "VOL-08"
+      ],
+      "reviewCaution": "No direct Chinese/Syriac epigraphic transcription collation is claimed.",
+      "reviewState": "EDITORIAL_DRAFT_UNREVIEWED",
+      "canShip": false,
+      "originalCopyrightedTextCopied": false
+    },
+    {
+      "id": "L448-02-03",
+      "title": "분열의 날짜보다 관계의 변화를 읽기",
+      "period": "11–15세기",
+      "bodyMarkdown": "서유럽과 동방 교회의 관계를 1054년 한 사건에서 완전히 끝난 것으로 설명하면 이후의 협상과 접촉을 설명하기 어렵다. 1054년은 오랜 갈등을 상징하는 사건이고, 1204년 제4차 십자군의 콘스탄티노폴리스 약탈은 다른 성격의 깊은 단절을 남겼다. 두 사건이 같은 원인과 결과를 가진 것도 아니고, 그 사이의 관계가 처음부터 완전히 끊어진 것도 아니다. 교황권·제국·교회 지도권의 변화와 예배 관습을 각각 살펴야 한다.\n\n서유럽 내부에서도 교회의 재산과 권력, 성직자의 생활, 평신도의 설교와 교육을 둘러싼 개혁의 요구가 쌓였다. 이 갈등을 16세기 개신교가 ‘미리 태어나려고’ 겪은 고통으로 읽을 필요는 없다. 중세의 사람들은 자기 시대의 질서와 신앙 문제에 응답하고 있었으며, 그중 일부가 후대 개혁자들에게 영향을 주었다. **영향 관계와 동일한 제도·교리의 계승을 구별하는 것**이 다음 권을 읽는 출발점이다.",
+      "thesis": "1054/1204는 분열이라는 한 줄 결말보다 관계의 복잡한 변화를 보여 준다.",
+      "sourceUrls": [
+        "https://www.oca.org/orthodoxy/the-orthodox-faith/church-history/fifth-century/the-fourth-ecumenical-council",
+        "https://www.mcgill.ca/religiousstudies/about/birks-building/jingiao-stele"
+      ],
+      "crossLinks": [
+        "VOL-03",
+        "VOL-05"
+      ],
+      "reviewCaution": "1054 and 1204 are established general history, but specific original chronicles were not re-read in this L1 task.",
+      "reviewState": "EDITORIAL_DRAFT_UNREVIEWED",
+      "canShip": false,
+      "originalCopyrightedTextCopied": false
+    }
+  ],
+  "release": {
+    "canShip": false,
+    "canImportAIStudio": false,
+    "canMergeMain": false
+  }
+}
