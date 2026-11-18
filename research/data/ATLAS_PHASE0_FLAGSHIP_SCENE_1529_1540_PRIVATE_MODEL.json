@@ -1,0 +1,136 @@
+{
+  "schema": "ATLAS_PHASE0_FLAGSHIP_RESEARCH_SCENE_V1",
+  "date": "2026-11-18",
+  "id": "SCENE-REFORMATION-1529-1540",
+  "title": "마르부르크에서 아우크스부르크까지 — 합의와 이본",
+  "status": "RESEARCH_DRAFT_NOT_APPROVED",
+  "intent": "A vertical slice joining chronology, place labels, theological disagreement and bibliographical editions, without pretending to be a historically verified GIS route or a deployed AI Studio screen.",
+  "entry": {
+    "volumeId": "VOL-04",
+    "l1ChapterId": "L448-04-02",
+    "themeIds": [
+      "T415-01",
+      "T415-03"
+    ],
+    "introRoute": {
+      "kind": "VOLUME",
+      "id": "VOL-04"
+    }
+  },
+  "era": "16세기 종교개혁",
+  "educationalQuestion": "종교개혁자들이 무엇에 합의했으며 성찬론과 신앙고백 인쇄본에서는 왜 계속 다른 입장이 존재했는가?",
+  "timeline": [
+    {
+      "id": "EVENT-MARBURG-1529",
+      "year": 1529,
+      "datePrecision": "YEAR",
+      "dateLabel": "1529년",
+      "title": "마르부르크 회담과 15개 조항",
+      "placeLabel": "마르부르크 (당시 헤센 지역)",
+      "eventKind": "COLLOQUY",
+      "evidenceType": "EDITED_PRIMARY_TEXT_IN_ENGLISH_TRANSLATION",
+      "readersFinding": "여러 신학적 공통점을 명시하면서도 제15조 성찬의 견해 차이를 모두 해결하지 못했다.",
+      "sourceUrls": [
+        "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/the-marburg-colloquy-the-marburg-articles-1529"
+      ],
+      "claimLimit": "제15조에 나타난 합의 부분도 설명해야 하며, 성찬론 전체가 한 문장으로 통일됐다고 말하지 않는다."
+    },
+    {
+      "id": "EVENT-AUGSBURG-1530",
+      "year": 1530,
+      "datePrecision": "YEAR",
+      "dateLabel": "1530년",
+      "title": "아우크스부르크 신앙고백 제출",
+      "placeLabel": "아우크스부르크 (제국회의)",
+      "eventKind": "CONFESSION_PRESENTATION",
+      "evidenceType": "INSTITUTIONAL_RARE_BOOKS_BIBLIOGRAPHY",
+      "readersFinding": "제국회의에 제출된 신앙고백과 그 뒤 인쇄·재편집된 판본을 구분해 읽어야 한다.",
+      "sourceUrls": [
+        "https://gruber.lstc.edu/confessions/augs_apol.php"
+      ],
+      "claimLimit": "1530년 제출 문서와 당해 인쇄본을 동일 물체로 취급하지 않는다."
+    },
+    {
+      "id": "EVENT-AUGSBURG-1531",
+      "year": 1531,
+      "datePrecision": "YEAR",
+      "dateLabel": "1531년",
+      "title": "신앙고백과 변증서의 인쇄",
+      "placeLabel": "아우크스부르크 신앙고백 관련 인쇄·출판",
+      "eventKind": "BIBLIOGRAPHIC_MILESTONE",
+      "evidenceType": "INSTITUTIONAL_RARE_BOOKS_BIBLIOGRAPHY",
+      "readersFinding": "제출·인쇄·변증서 작성·공간적 출판지는 개별 서지 기술로 확인한다.",
+      "sourceUrls": [
+        "https://gruber.lstc.edu/confessions/augs_apol.php"
+      ],
+      "claimLimit": "1531년의 모든 인쇄물을 한 교리적 이본으로 단정하지 않는다. 장소 표기는 사건의 주제이지 실물 인쇄 소재지 확정이 아니다."
+    },
+    {
+      "id": "EVENT-AUGSBURG-1540",
+      "year": 1540,
+      "datePrecision": "YEAR",
+      "dateLabel": "1540년",
+      "title": "Variata와 같은 해의 비Variata 인쇄본",
+      "placeLabel": "아우크스부르크 신앙고백 판본 비교",
+      "eventKind": "EDITION_VARIANT_COMPARISON",
+      "evidenceType": "TWO_RARE_BOOKS_CATALOGUE_DESCRIPTIONS",
+      "readersFinding": "1540년이라는 동일한 연도가 두 판본의 내용·이름이 같다는 뜻은 아니다.",
+      "sourceUrls": [
+        "https://gruber.lstc.edu/confessions/augs_apol.php"
+      ],
+      "claimLimit": "각 조항의 라틴어·독일어 직접 대조와 교파별 공식 수용은 아직 전문가 검토 전이다."
+    }
+  ],
+  "documentCards": [
+    {
+      "id": "DOC-MARBURG-ARTICLES-1529",
+      "linkedEventIds": [
+        "EVENT-MARBURG-1529"
+      ],
+      "title": "Marburg Articles (1529)",
+      "documentClass": "HISTORICAL_AGREEMENT_TEXT",
+      "sourceUrl": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/the-marburg-colloquy-the-marburg-articles-1529",
+      "displayMode": "OWN_SUMMARY_AND_EXTERNAL_REFERENCE_ONLY",
+      "copyrightClearance": "NOT_A_RIGHTS_APPROVAL"
+    },
+    {
+      "id": "DOC-AUGSBURG-PRINTS-1530-1540",
+      "linkedEventIds": [
+        "EVENT-AUGSBURG-1530",
+        "EVENT-AUGSBURG-1531",
+        "EVENT-AUGSBURG-1540"
+      ],
+      "title": "Augsburg Confession and Apology — collection bibliography",
+      "documentClass": "RARE_BOOKS_CATALOGUE",
+      "sourceUrl": "https://gruber.lstc.edu/confessions/augs_apol.php",
+      "displayMode": "OWN_SUMMARY_AND_EXTERNAL_REFERENCE_ONLY",
+      "copyrightClearance": "NOT_A_RIGHTS_APPROVAL"
+    }
+  ],
+  "visualLayer": {
+    "mapStatus": "PLACE_LABELS_ONLY_COORDINATES_UNVERIFIED",
+    "mapFile": null,
+    "routeGeometry": null,
+    "personPortraits": [],
+    "historicBorders": null,
+    "sourceImageLicencesVerified": false,
+    "doNotInventDateSpecificRoad": true
+  },
+  "interactionSequence": [
+    "OPEN_VOL04_L0",
+    "SELECT_L448_04_02",
+    "OPEN_1529_1540_TIMELINE",
+    "COMPARE_1529_TEXT_WITH_1540_CATALOGUE",
+    "READ_SOURCE_LEVEL_AND_UNRESOLVED_ISSUES",
+    "RETURN_TO_VOL04_L0"
+  ],
+  "contentGate": {
+    "humanHistorianApproved": false,
+    "readerPilotConfirmed": false,
+    "rightsApproved": false,
+    "hostAccessControlsVerified": false,
+    "canShip": false,
+    "canImportAIStudio": false
+  },
+  "nextVisualWork": "Map only verified present-day city anchors first; do not show invented 1529 travel paths, imperial borders or confirmed manuscript routes."
+}
