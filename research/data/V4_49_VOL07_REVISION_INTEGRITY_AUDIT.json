@@ -1,0 +1,74 @@
+{
+  "schema": "ATLAS_V449_WORLD_CHURCH_CONTENT_AND_PROVENANCE_AUDIT",
+  "version": "V4.49",
+  "date": "2026-11-18",
+  "status": "PASS_SOURCE_LINK_AND_MANUSCRIPT_INTEGRITY_NOT_HUMAN_APPROVAL",
+  "provenance": [
+    {
+      "path": "research/data/V4_48_L1_24_CHAPTER_INTEGRATED_MASTER.json",
+      "sha": "7a8b8023789e0fbc33cece58dcedfddbd3b5ac45"
+    },
+    {
+      "path": "research/data/V4_49_L1_VOL07_REVISED_THREE_CHAPTERS_KO.json",
+      "sha": "1dd6d4bb3883bc441a7c6cf7bdab1cea82dbaa1d"
+    },
+    {
+      "path": "research/data/V4_49_VOL07_SIXTEEN_FACT_TO_SOURCE_TIER_CHECKS.json",
+      "sha": "301e57e5656e1caf8ea1bca4502417984d899cbe"
+    },
+    {
+      "path": "research/data/V4_49_L1_24_CHAPTER_INTEGRATED_REVISED_MASTER.json",
+      "sha": "9c8fa2fd536270048990936ba34839748ffe31e9"
+    },
+    {
+      "path": "docs/01_CONTENT/L1/V449_EIGHT_VOLUME_24_CHAPTER_L1_WORLD_HISTORY_REVISED_KO.md",
+      "sha": "9fc862ceb456bdbaed5467e3e919260cb35c1e4e"
+    },
+    {
+      "path": "research/V449_VOL07_WORLD_CHURCH_HISTORICAL_REVIEW_AND_REWRITE_KO.md",
+      "sha": "549b37a6df6d8942651981de4b2576e91d251131"
+    },
+    {
+      "path": "research/data/V4_47_53_CLAIM_SOURCE_AND_TEXT_POSITION_REGISTER.json",
+      "sha": "b195c3a6afe93c875c2090d5ffef445ad3922d8a"
+    },
+    {
+      "path": "handoff/V429_AI_STUDIO_PRIVATE_L0_CONTENT_IMPORT.json",
+      "sha": "64c27c0dfe05394acbb049807e4c4384d58908b9"
+    }
+  ],
+  "counts": {
+    "historicalVolumes": 8,
+    "l1Chapters": 24,
+    "changedChapters": 3,
+    "otherChaptersBodyUnchanged": 21,
+    "vol07FactToSourceChecks": 16,
+    "vol07BodyChars": 3330,
+    "l1BodyChars": 13785,
+    "referenceUrls": 48,
+    "sourceLinks": 70,
+    "legacyL0Claims": 53,
+    "expertSignoffs": 0,
+    "readerSessions": 0,
+    "appEdits": 0
+  },
+  "checks": [
+    "All 16 specific new fact anchors occur uniquely within the revised VOL-07 chapter body",
+    "The rest of the 21 L1 chapter bodies are identical to V4.48",
+    "All 24 chapters present in compiled markdown with full body text",
+    "All evidence counts, volume IDs and source links are consistent",
+    "V4.29 frozen app remains byte-identical and L0 53 claim register unchanged"
+  ],
+  "holds": [
+    "C417-11",
+    "C417-12",
+    "C417-18",
+    "TAMIL-1719"
+  ],
+  "release": {
+    "canShip": false,
+    "canMergeMain": false,
+    "canImportAIStudio": false
+  },
+  "errors": []
+}
