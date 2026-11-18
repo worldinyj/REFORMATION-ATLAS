@@ -11,23 +11,26 @@ assert.ok(js,"inline application script present");
 assert.ok(payload,"embedded research data present");
 
 class FakeElement {
- constructor(tag){this.tag=tag;this.children=[];this.attrs={};this.handlers={};this.textContent="";this.hidden=false;}
+ constructor(tag,document){this.tag=tag;this.document=document;this.children=[];this.attrs={};this.handlers={};this.textContent="";this.hidden=false;}
  append(...elements){this.children.push(...elements)}
  appendChild(element){this.children.push(element);return element}
  replaceChildren(...elements){this.children=[...elements]}
  setAttribute(key,value){this.attrs[key]=value}
  addEventListener(key,fn){this.handlers[key]=fn}
  click(){this.handlers.click?.()}
+ focus(){this.document.activeElement=this}
+ keydown(key){let prevented=false;this.handlers.keydown?.({key,preventDefault(){prevented=true}});return prevented}
 }
 function runtime(){
  const nodes=new Map();
  const document={
-  getElementById(id){if(!nodes.has(id))nodes.set(id,new FakeElement(id));return nodes.get(id)},
-  createElement(tag){return new FakeElement(tag)}
+  activeElement:null,
+  getElementById(id){if(!nodes.has(id))nodes.set(id,new FakeElement(id,document));return nodes.get(id)},
+  createElement(tag){return new FakeElement(tag,document)}
  };
  document.getElementById("data").textContent=payload;
  new Function("document","URL",js)(document,URL);
- return {node:id=>document.getElementById(id),content:JSON.parse(payload)};
+ return {node:id=>document.getElementById(id),content:JSON.parse(payload),document};
 }
 
 test("offline research preview includes four sourced events and no automatic exfiltration",()=>{
@@ -73,4 +76,30 @@ test("source panel can collapse and restart resets all panels to first reading",
  assert.equal(node("reader").textContent,content.l0.text);
  assert.equal(node("comparison").hidden,true);
  assert.equal(node("sources").hidden,false);
+});
+
+test("V4.53 selecting an event with the keyboard preserves focus and updates year",()=>{
+ const {node,content,document}=runtime();
+ const target=node("steps").children[2];
+ target.focus();
+ target.click();
+ assert.equal(node("eventTitle").textContent,content.events[2].title);
+ assert.match(node("time").textContent,/1531/);
+ assert.equal(node("steps").children[2].attrs["aria-current"],"step");
+ assert.equal(document.activeElement,node("steps").children[2]);
+});
+test("V4.53 reading tabs support arrows, Home, End and accessibility bindings",()=>{
+ const {node}=runtime();
+ assert.equal(node("reader").attrs["aria-labelledby"],"l0");
+ node("l1").click();
+ assert.equal(node("reader").attrs["aria-labelledby"],"l1");
+ assert.equal(node("l1").attrs.tabindex,"0");
+ assert.equal(node("l1").keydown("ArrowLeft"),true);
+ assert.equal(node("reader").attrs["aria-labelledby"],"l0");
+ assert.equal(node("l0").attrs.tabindex,"0");
+ assert.equal(node("l0").keydown("End"),true);
+ assert.equal(node("reader").attrs["aria-labelledby"],"l1");
+ assert.equal(node("l1").keydown("Home"),true);
+ assert.equal(node("reader").attrs["aria-labelledby"],"l0");
+ assert.equal(node("l0").keydown("Tab"),false);
 });
