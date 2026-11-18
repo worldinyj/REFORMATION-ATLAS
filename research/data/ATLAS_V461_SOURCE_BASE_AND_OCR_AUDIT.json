@@ -1,0 +1,58 @@
+{
+  "schema": "ATLAS_V461_KZ_EDITORIAL_SOURCE_SCOPE_AND_ARTICLE_X_OCR_VERIFICATION_AUDIT",
+  "date": "2026-11-18",
+  "researchBranch": "integration/atlas-phase1-browser-qa-v452",
+  "artifacts": {
+    "comparisonData": "research/data/ATLAS_V461_KZ_ARTICLES_7_13_15_EDITORIAL_ALIGNMENT_AND_CR26_TEXT_DIFF.json",
+    "historianDossier": "integrations/atlas-flagship-phase1/V461_MARBURG_KZ_SOURCE_BASE_CONFLICT_AND_ARTICLE10_OCR_RESEARCH_KO.md",
+    "contractTest": "integrations/atlas-flagship-phase1/v461-manuscript-edition-source-contract.test.mjs"
+  },
+  "actualNewEvidence": [
+    "Three parallel edited text differences found in Art7 (monastic vows), Art13 (clerical marriage), Art15 (mass as work for others): HAPuls modern German includes content missing from GHDI edited 1910 WA transcription.",
+    "Zurich official archive asserts those three additions belong to Z and not K; HAPuls modern translation page displays Hessian original shelfmark but is sourced through modern editorial translations, so K identity of all its text is not warranted.",
+    "Hessian archival education portal has a full digital-original item page (https://www.hapuls.de/node/1472) though actual Art15 folio pixels were not independently inspected.",
+    "Tübingen University digitized the journal Theologische Studien und Kritiken 56 (1883), containing Usteri’s Zurich original facsimile pp409–413; current PDF download timed out.",
+    "CR26 vol26 1858 scanned print p357 was revisited; Article X automated text extract exhibeatur conflicts with independent transcription and visual appearance exhibeantur, so unresolved pixel/OCR transcription caution is recorded instead of invented 16th century variant."
+  ],
+  "sourceStatus": {
+    "zurichArchiveDescriptionConfirmed": true,
+    "ghdiGermanArticleTextRead": true,
+    "hapulsModernTranslationRead": true,
+    "hapulsOriginalDigitizationListed": true,
+    "hapulsOriginalArticle15LeafRead": false,
+    "usteri1883VolumeLocated": true,
+    "usteri1883FacsimilePagesRead": false,
+    "corpusReformatorum1858Page357ScreenshotRead": true,
+    "original1531ArticleXLeafRead": false,
+    "original1540ArticleXLeafRead": false
+  },
+  "validation": {
+    "originalGitHubSourceV8AdaptedTests": 5,
+    "passed": 5,
+    "failed": 0,
+    "realNodeTestRunner": "NOT_VERIFIED",
+    "realGitHubActions": "NOT_VERIFIED",
+    "sourceLinkedHistoricalClaimsHighRisk": 10,
+    "historianSignOffs": 0,
+    "readerPilotParticipants": 0
+  },
+  "safeguards": {
+    "doNotInferKBaseFromShelfmark": true,
+    "doNotTreatTranslationAsDiplomaticOriginal": true,
+    "doNotTreatOCRAsWitnessVariant": true,
+    "doNotTreatDigitizationLinkAsActualLeafInspection": true,
+    "historicalProseChanged": false,
+    "aiStudioChanged": false
+  },
+  "plannedNext": [
+    "Download original K Art15 folio from Hessen archive digital object and transcribe.",
+    "Retrieve Usteri1883 Zurich Z facsimile pp409–413 or the 2014/2002 K and Z scholarly editions.",
+    "Read original 1531 VD16 C4734 and 1540 C4713 Article X source pages to compare with CR26 1858.",
+    "Decide history text citations based on exactly inspected witness, then request independent historian review."
+  ],
+  "release": {
+    "canShip": false,
+    "canMergeMain": false,
+    "canImportAIStudio": false
+  }
+}
