@@ -1,0 +1,81 @@
+{
+  "schema": "ATLAS_V466_PRINT_SETTING_AND_EDITED_COPYTEXT_PROVENANCE_AUDIT",
+  "date": "2026-11-19",
+  "branch": "integration/atlas-phase1-browser-qa-v452",
+  "historicalTask": "Check 1529 Zurich VD16 W2118 vs W2119 typesetting and map later editions to historical manuscript or print copy-text.",
+  "verified": [
+    {
+      "type": "OFFICIAL_MANUSCRIPT_AND_PRINT_CATALOGUE",
+      "source": "https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=618165",
+      "finding": "Z and K differ in additions at 7/13/15, print W2118 and W2119 separately catalogued, Zwingli Werke 6/2 Nr146 explicitly edited after printed W2119 rather than signed Z."
+    },
+    {
+      "type": "DIRECT_PRIMARY_PRINT_PDF_SCREENSHOT",
+      "source": "https://www.e-rara.ch/zuz/download/pdf/170052",
+      "pdfPagesZeroIndexed": [
+        6,
+        7
+      ],
+      "finding": "W2119 original 1529 printed Article15 and Zürich Christoph Froschouer printer colophon visually read in current turn."
+    },
+    {
+      "type": "PREVIOUS_PRIMARY_PRINT_PDF_SCREENSHOT_PRESERVED",
+      "source": "https://www.e-rara.ch/zuz/download/pdf/291747",
+      "pdfPagesZeroIndexed": [
+        6,
+        7
+      ],
+      "finding": "V4.65 recorded W2118 original article15 and p7 signatory page, absent printed printer colophon there; source PDF could not be reopened in V4.66, so prior record carried, not independently repeated."
+    },
+    {
+      "type": "INSTITUTIONAL_SEARCH_RESULT",
+      "source": "https://www.e-rara.ch/search/quick?facets=printer-publisher%3D%22Froschauer%2C+Christoph%22&query=Martin+Luther",
+      "finding": "Separate institutional holdings Zwingli MvK A81,8 and 5.174,5 match two 1529 Zurich printed records."
+    }
+  ],
+  "conclusions": [
+    "V4.65 documented the difference of final printer-colophon between W2118 and W2119; V4.66 reopened W2119 but not W2118.",
+    "Distinct catalogue IDs and colophon status cannot alone establish whether the interior pages share typesetting or were re-set.",
+    "Edition copy-text is now explicitly mapped: Zwingli Werke 6/2 item146 uses W2119 print, Lutheran 2014 uses K, Reformed Confessions 1/1 item11 uses Z, and MBW Texte 3 item825 uses K plus Z variants.",
+    "1610s or modern edited text sources cannot be simply labeled direct Zurich signed manuscript without their independent text-base identity; GHDI WA witness base remains unproven in this research."
+  ],
+  "quality": {
+    "actualNewLineByLineProofRows": 0,
+    "sourceSpecificComparisonLociRecorded": 5,
+    "officialEditionCopyTextLinks": 4,
+    "primaryPrintScreenshotPagesFreshThisTurn": 2,
+    "W2118FreshPageScreenshot": false,
+    "fullImageFilesDownloaded": false,
+    "sourceImageSHA256Produced": false,
+    "comparisonSameTypesettingApproved": false,
+    "comparisonDifferentTypesettingApproved": false,
+    "historianApprovals": 0,
+    "readerPilots": 0,
+    "V466SourceCodeUnitAssertionsPassed": 6,
+    "V466SourceCodeUnitAssertionsMethod": "GitHub exact test functions executed under V8 with imports/readFile shim",
+    "nativeNodeTestRunnerStatus": "NOT_VERIFIED",
+    "githubActionsRunStatus": "NOT_VERIFIED"
+  },
+  "deliverables": {
+    "sourceAndTypesettingMatrix": "research/data/ATLAS_V466_ZURICH_1529_PRINT_SETTING_AND_EDITION_COPYTEXT_GATES.json",
+    "updatedResearchWitnessGraph": "research/data/ATLAS_V459_MANUSCRIPT_PRINT_WITNESS_VARIANT_GRAPH.json",
+    "KoreanDossier": "integrations/atlas-flagship-phase1/V466_PRINT_SETTING_AND_CRITICAL_EDITIONS_COPYTEXT_KO.md",
+    "newContractTest": "integrations/atlas-flagship-phase1/v466-print-setting-provenance-contract.test.mjs",
+    "CIWorkflow": ".github/workflows/atlas-phase1-browser-qa.yml"
+  },
+  "nextStepMilestone": {
+    "priority": "PRIMARY_SIGNED_MANUSCRIPT_KZ_ART15",
+    "goal": "Get actual Z signed and K signed Article 15 leaves, using archive facsimile or explicitly Z/K-based scholarly editions, and compare additions at 7/13/15.",
+    "printEditionFollowup": "When W2118 source PDF download is actually possible, obtain per-page image hash and full line endings for print-setting comparison; otherwise do not repeat inaccessible retrieval as substantive progress.",
+    "independentLatinTask": "1531 C4734 vs 1540 C4713 Article X original print page direct reading.",
+    "stopRule": "Do not start expanding another cluster of 1529 print titles before direct K/Z or Article X evidence is newly obtained."
+  },
+  "release": {
+    "canShip": false,
+    "canMergeMain": false,
+    "canImportAIStudio": false
+  },
+  "actualMainModified": false,
+  "AIStudioOperationalAppModified": false,
+  "existingHistoriographicDraftModified": false
+}
