@@ -41,7 +41,12 @@ test("V4.52 research preview real-engine browser and accessibility smoke",async 
       mobileSteps:window.getComputedStyle(document.getElementById("steps")).display
     }));
     assert.ok(overflow.scroll<=overflow.viewport+2,"unexpected page horizontal overflow "+JSON.stringify(overflow));
-    if(width<=375)assert.equal(overflow.mobileSteps,"flex","small-screen year buttons are horizontally scrollable");
+    if(width<=375) {
+      assert.equal(overflow.mobileSteps,"flex","small-screen year buttons are horizontally scrollable");
+      assert.equal(await page.locator(".mobile-hint").isVisible(),true,"mobile timeline swipe hint is visible");
+    } else {
+      assert.equal(await page.locator(".mobile-hint").isVisible(),false,"desktop timeline swipe hint is hidden");
+    }
 
     const year1531=page.locator("#steps button").nth(2);
     await year1531.focus();
@@ -74,6 +79,8 @@ test("V4.52 research preview real-engine browser and accessibility smoke",async 
     await page.locator("#compare").click();
     assert.equal(await page.locator("#compare").getAttribute("aria-expanded"),"true");
     assert.equal(await page.locator("#comparisonRows tr").count(),3);
+    assert.equal(await page.locator("#comparison thead th[scope=col]").count(),2,"comparison headers are labeled");
+    assert.equal(await page.locator("#comparisonRows th[scope=row]").count(),3,"year cells are labeled");
     await page.locator("#sourcesBtn").click();
     assert.equal(await page.locator("#sources").isHidden(),true);
     await page.locator("#restart").click();
