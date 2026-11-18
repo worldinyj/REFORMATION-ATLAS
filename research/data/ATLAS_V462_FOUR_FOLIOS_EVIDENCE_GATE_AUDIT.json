@@ -1,0 +1,45 @@
+{
+  "schema": "ATLAS_V462_FOUR_FOLIOS_EVIDENCE_GATE_AUDIT",
+  "date": "2026-11-19",
+  "status": "RESEARCH_ONLY",
+  "targets": 4,
+  "directlyInspectedOriginalFolioPages": 0,
+  "transcriptionsBasedOnActualOriginalPages": 0,
+  "findings": [
+    "Hessian K: archive original identifier HStAM 3 Nr245 and Arcinsys JPG viewer deep link were reached, but the Article 15 pixels were not accessible in this session.",
+    "Zurich Z: Usteri 1883 pp409–413 facsimile publication and digitized volume identified, direct PDF fetch timed out.",
+    "Latin 1531 VD16 C4734: MDZ 288-scan volume metadata identified; direct Article X image inaccessible in text browser.",
+    "Latin 1540 VD16 C4713: Pitts item and exhibition title page identified, but Article X leaf not read; Google Books 1540 Rhau volume is not yet proven same bibliographical edition.",
+    "K foliation HAPuls Bl60–63 and Zurich catalogue fol60r–64v differ in notation; reconciliation requires full archived leaves."
+  ],
+  "sources": {
+    "registry": "research/data/ATLAS_V462_FOUR_PRIMARY_FOLIO_IMAGE_ACQUISITION_REGISTER.json",
+    "report": "integrations/atlas-flagship-phase1/V462_FOUR_ORIGINAL_FOLIO_ACQUISITION_AND_QC_PROTOCOL_KO.md",
+    "validator": "integrations/atlas-flagship-phase1/primary-source-evidence-gate.mjs",
+    "tests": "integrations/atlas-flagship-phase1/v462-primary-source-evidence-contract.test.mjs"
+  },
+  "checks": {
+    "v8AdaptedAssertionGroups": 5,
+    "passed": 5,
+    "failed": 0,
+    "realNodeRunner": "NOT_EXECUTED",
+    "githubActions": "NOT_VERIFIED",
+    "sourceImagesSaved": 0,
+    "originalImageChecksumsRecorded": 0,
+    "readerPilotParticipants": 0,
+    "historianReviews": 0
+  },
+  "requiredBeforeDiplomaticQuote": [
+    "Direct original page visible",
+    "Exact original object and folio/canvas",
+    "SHA256 of research image",
+    "Diplomatic German/Latin transcription",
+    "Human transcription QC"
+  ],
+  "futureSteps": "Only after images are obtained: K/Z Article 15 and 1531/1540 Article X actual collation and specialist review.",
+  "release": {
+    "canShip": false,
+    "canMergeMain": false,
+    "canImportAIStudio": false
+  }
+}
