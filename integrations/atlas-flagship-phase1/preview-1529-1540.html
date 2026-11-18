@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="ko">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>종교개혁 ATLAS · 1529–1540 역사 탐색</title>
+<style>
+:root{--ink:#233831;--muted:#63766b;--accent:#27604f;--line:#dce5dd;--paper:#fff;--bg:#f6f8f5}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.75 system-ui,"Apple SD Gothic Neo","Malgun Gothic",sans-serif}
+button{font:inherit;cursor:pointer}a{color:var(--accent);overflow-wrap:anywhere}button:focus-visible,a:focus-visible{outline:3px solid #e9bd65;outline-offset:2px}
+.header{max-width:1300px;margin:auto;padding:32px 24px 20px}.kicker{color:var(--accent);font-size:.72rem;font-weight:750;letter-spacing:.16em;text-transform:uppercase}
+h1{font:500 clamp(2rem,4vw,3.15rem)/1.2 Georgia,serif;letter-spacing:-.045em;margin:8px 0 13px}.lede{max-width:790px;color:var(--muted);font-size:1.05rem}
+.tag{display:inline-block;background:#f7efdE;color:#795833;border:1px solid #dfd1b7;border-radius:100px;padding:5px 12px;font-size:.76rem}
+.frame{max-width:1300px;margin:auto;padding:0 22px 50px;display:grid;grid-template-columns:230px minmax(0,1fr) 265px;align-items:start;gap:14px}
+.panel{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:20px;min-width:0}.panel h2{margin:4px 0 10px;font-size:1.12rem}
+.help{font-size:.8rem;color:var(--muted)}.step{display:block;width:100%;background:#fff;color:var(--ink);border:1px solid var(--line);padding:13px;text-align:left;margin:10px 0;border-radius:10px}
+.step span{display:block;color:var(--accent);font-size:.82rem;font-weight:750}.step strong{display:block;margin-top:3px;font-size:.88rem;line-height:1.4}
+.step[aria-current=step]{background:#ebf4ed;border-color:#83b09b}.step:hover{border-color:#659681}
+.main{padding:29px 31px}.main h2{font:500 clamp(1.4rem,2.8vw,2rem)/1.35 Georgia,serif;margin:8px 0 14px}
+.meta{font-size:.82rem;color:var(--muted)}.finding{font-size:1.06rem;line-height:1.8;margin:22px 0}
+.caution{border-left:3px solid var(--accent);padding:12px 16px;background:#f0f5ef;margin:20px 0 24px}.caution p{margin:4px 0 0;font-size:.88rem}
+.actions{display:flex;flex-wrap:wrap;gap:8px;padding:13px 0}.actions button{background:#fff;border:1px solid var(--line);color:var(--accent);padding:8px 13px;border-radius:8px;font-size:.83rem}
+.actions button[aria-selected=true]{background:var(--accent);color:white;border-color:var(--accent)}
+.read-meta{font-size:.82rem;color:var(--muted);margin:12px 0}
+.prose{white-space:pre-wrap;overflow-wrap:anywhere;font:1rem/1.95 Georgia,"Noto Serif KR",serif}
+.source{border-top:1px solid var(--line);padding:13px 0}.source h3{margin:0;font-size:.94rem}.source p{color:var(--muted);font-size:.8rem;margin:5px 0}.source a{font-size:.82rem}
+.warn{padding:11px;background:#fbf5e8;color:#755b37;border-radius:9px;font-size:.79rem;margin-top:12px}
+.compare{background:#f1f5f0;padding:14px;border-radius:9px}.compare table{border-collapse:collapse;width:100%;font-size:.82rem}.compare th,.compare td{border-bottom:1px solid var(--line);padding:8px;text-align:left;vertical-align:top}
+[hidden]{display:none!important}footer{max-width:1300px;margin:auto;padding:0 24px 30px;color:var(--muted);font-size:.78rem}
+@media(max-width:1050px){.frame{grid-template-columns:210px 1fr}.side{grid-column:2}}
+@media(max-width:700px){.frame{display:block;padding:0 12px 30px}.nav{display:flex;overflow-x:auto;gap:7px;padding:10px;margin-bottom:12px}.nav h2,.nav .help{display:none}.step{margin:0;min-width:165px;max-width:190px}.main{padding:20px;margin-bottom:12px}.side{margin-bottom:12px}.header{padding:23px 16px}}
+@media print{.nav,.side,.actions,footer{display:none!important}.frame{display:block}.main{border:none}}
+</style></head>
+<body>
+<header class="header"><div class="kicker">REFORMATION ATLAS / Reader Experience 01</div>
+<h1>마르부르크에서 아우크스부르크까지</h1><p class="lede" id="question"></p>
+<span class="tag">1529–1540 · 연구 시범본 · 운영 앱 미반영</span></header>
+<div class="frame">
+<nav class="panel nav" aria-label="사건 연표"><h2>시간의 흐름</h2><p class="help">연도를 눌러 다른 사건을 보세요.</p><div id="steps"></div></nav>
+<main class="panel main" aria-live="polite"><div class="kicker" id="time"></div><h2 id="eventTitle"></h2><p class="meta" id="place"></p>
+<p class="finding" id="finding"></p>
+<div class="caution"><strong>역사적으로 조심할 점</strong><p id="caution"></p></div>
+<div class="actions"><button type="button" id="compare" aria-expanded="false">1530·1531·1540년 판본 비교</button></div>
+<div id="comparison" class="compare" hidden><h3>기록된 사건과 인쇄된 책을 구별하기</h3>
+<table><thead><tr><th>연도</th><th>핵심 구분</th></tr></thead><tbody id="comparisonRows"></tbody></table>
+<p class="help">연도만으로 실물 판본의 동일성을 판단하지 않습니다.</p></div>
+<div class="actions" role="tablist" aria-label="읽기 깊이">
+<button type="button" id="l0" role="tab" aria-selected="true">L0 · 개요</button>
+<button type="button" id="l1" role="tab" aria-selected="false">L1 · 중급 해설</button></div>
+<div class="read-meta" id="readingTitle"></div><article id="reader" class="prose"></article>
+<div class="actions"><button type="button" id="sourcesBtn" aria-expanded="true">사료 카드 접기</button>
+<button type="button" id="restart">1529년으로 돌아가기</button></div></main>
+<aside class="panel side" id="sources" aria-label="문헌과 자료"><div class="kicker">EVIDENCE</div>
+<h2>문헌 근거</h2><p class="help">관련 문서를 열면 외부 기관 사이트로 이동합니다.</p>
+<div id="docs"></div><p class="warn">편집 번역 자료와 희귀본 소장목록은 근거의 종류가 다릅니다. 원본 전체 교감과 역사학자 승인은 아직 없습니다.</p></aside></div>
+<footer>정적 HTML · 응답 수집·분석 없음 · 외부 링크 외 인터넷 불필요 · GitHub 공개 저장소 파일은 비공개 아님 · can_ship=false</footer>
+<script type="application/json" id="data">{"title":"마르부르크에서 아우크스부르크까지 — 합의와 이본","question":"종교개혁자들이 무엇에 합의했으며 성찬론과 신앙고백 인쇄본에서는 왜 계속 다른 입장이 존재했는가?","events":[{"id":"EVENT-MARBURG-1529","year":1529,"datePrecision":"YEAR","dateLabel":"1529년","title":"마르부르크 회담과 15개 조항","placeLabel":"마르부르크 (당시 헤센 지역)","eventKind":"COLLOQUY","evidenceType":"EDITED_PRIMARY_TEXT_IN_ENGLISH_TRANSLATION","readersFinding":"여러 신학적 공통점을 명시하면서도 제15조 성찬의 견해 차이를 모두 해결하지 못했다.","sourceUrls":["https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/the-marburg-colloquy-the-marburg-articles-1529"],"claimLimit":"제15조에 나타난 합의 부분도 설명해야 하며, 성찬론 전체가 한 문장으로 통일됐다고 말하지 않는다."},{"id":"EVENT-AUGSBURG-1530","year":1530,"datePrecision":"YEAR","dateLabel":"1530년","title":"아우크스부르크 신앙고백 제출","placeLabel":"아우크스부르크 (제국회의)","eventKind":"CONFESSION_PRESENTATION","evidenceType":"INSTITUTIONAL_RARE_BOOKS_BIBLIOGRAPHY","readersFinding":"제국회의에 제출된 신앙고백과 그 뒤 인쇄·재편집된 판본을 구분해 읽어야 한다.","sourceUrls":["https://gruber.lstc.edu/confessions/augs_apol.php"],"claimLimit":"1530년 제출 문서와 당해 인쇄본을 동일 물체로 취급하지 않는다."},{"id":"EVENT-AUGSBURG-1531","year":1531,"datePrecision":"YEAR","dateLabel":"1531년","title":"신앙고백과 변증서의 인쇄","placeLabel":"아우크스부르크 신앙고백 관련 인쇄·출판","eventKind":"BIBLIOGRAPHIC_MILESTONE","evidenceType":"INSTITUTIONAL_RARE_BOOKS_BIBLIOGRAPHY","readersFinding":"제출·인쇄·변증서 작성·공간적 출판지는 개별 서지 기술로 확인한다.","sourceUrls":["https://gruber.lstc.edu/confessions/augs_apol.php"],"claimLimit":"1531년의 모든 인쇄물을 한 교리적 이본으로 단정하지 않는다. 장소 표기는 사건의 주제이지 실물 인쇄 소재지 확정이 아니다."},{"id":"EVENT-AUGSBURG-1540","year":1540,"datePrecision":"YEAR","dateLabel":"1540년","title":"Variata와 같은 해의 비Variata 인쇄본","placeLabel":"아우크스부르크 신앙고백 판본 비교","eventKind":"EDITION_VARIANT_COMPARISON","evidenceType":"TWO_RARE_BOOKS_CATALOGUE_DESCRIPTIONS","readersFinding":"1540년이라는 동일한 연도가 두 판본의 내용·이름이 같다는 뜻은 아니다.","sourceUrls":["https://gruber.lstc.edu/confessions/augs_apol.php"],"claimLimit":"각 조항의 라틴어·독일어 직접 대조와 교파별 공식 수용은 아직 전문가 검토 전이다."}],"docs":[{"id":"DOC-MARBURG-ARTICLES-1529","linkedEventIds":["EVENT-MARBURG-1529"],"title":"Marburg Articles (1529)","documentClass":"HISTORICAL_AGREEMENT_TEXT","sourceUrl":"https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/the-marburg-colloquy-the-marburg-articles-1529","displayMode":"OWN_SUMMARY_AND_EXTERNAL_REFERENCE_ONLY","copyrightClearance":"NOT_A_RIGHTS_APPROVAL"},{"id":"DOC-AUGSBURG-PRINTS-1530-1540","linkedEventIds":["EVENT-AUGSBURG-1530","EVENT-AUGSBURG-1531","EVENT-AUGSBURG-1540"],"title":"Augsburg Confession and Apology — collection bibliography","documentClass":"RARE_BOOKS_CATALOGUE","sourceUrl":"https://gruber.lstc.edu/confessions/augs_apol.php","displayMode":"OWN_SUMMARY_AND_EXTERNAL_REFERENCE_ONLY","copyrightClearance":"NOT_A_RIGHTS_APPROVAL"}],"l0":{"title":"한 번이 아니라 여러 갈래로 일어난 16세기 개혁","text":"*범위: 16세기 | 핵심 질문: 같은 문제를 만난 지역들은 왜 서로 다른 제도를 선택했는가?*\n\n### 논쟁이 공동체의 제도가 되기까지\n\n16세기 종교개혁을 이해하려면 사상의 시작뿐 아니라 **사상이 제도로 바뀌는 과정**을 보아야 한다. 설교와 논쟁문, 성경 번역과 인쇄물은 새로운 주장을 더 넓은 독자에게 전달했다. 그러나 인쇄물이 읽혔다고 자동으로 교회법·예배·학교가 바뀐 것은 아니다. 도시 의회와 군주, 대학과 교구, 가정과 지역 공동체가 서로 다른 결정을 내리면서 개혁의 속도와 범위가 달라졌다.\n\n이 과정을 세 가지 질문으로 비교할 수 있다. **무엇을 믿는가**라는 질문은 성찬·은총·권위에 관한 신학적 불일치로 드러났다. **누가 결정하는가**라는 질문은 국왕·도시·교회 지도자의 권한을 둘러싼 갈등과 연결됐다. **어떻게 살아가는가**라는 질문은 예배 언어·혼인과 가정·교육·구제·규율의 변화로 이어졌다. 같은 신앙고백을 참조한 지역에서도 세 층위가 완전히 일치하지는 않았다.\n\n인쇄 연도가 같아도 본문이 같다는 뜻은 아니다. 그루버 희귀본 소장목록에는 **1540년의 Variata와 같은 해에 인쇄된 비(非)Variata 판본**이 구별되어 있다. 따라서 이 권에서는 **제출 문서, 당대 인쇄본, 후대 수정본**을 구별한다. 개별 판본의 교리적 이본 판정은 실물 대조 없이 확정하지 않는다.\n\n### 독일의 논쟁을 유럽 전체의 결과로 바꾸지 않기\n\n1517년 루터의 논쟁은 회개와 면죄부의 문제에서 출발해 성경의 권위, 은총과 구원, 교회의 직무와 제도를 두고 커졌다. 인쇄와 설교, 학교와 도시의 관계망이 논쟁을 확산시켰지만 각 지역이 같은 결론에 이르지는 않았다. 신성로마제국의 제후와 자치 도시, 스위스 연방의 여러 도시, 잉글랜드 왕권, 북유럽 왕국의 행정, 프랑스와 저지대의 지역 공동체는 서로 다른 정치적·사회적 조건에서 움직였다. 어떤 지역에서는 새 교회 질서가 국가의 제도와 결합했고, 어떤 지역에서는 박해와 망명, 소수파 공동체의 생존이 역사의 중심이었다.\n\n1529년 마르부르크에서는 루터와 울리히 츠빙글리를 비롯한 대표자들이 여러 문제에서 공통점을 확인했지만 **성찬에서 그리스도가 어떻게 임재하는지**에 관한 합의는 이루지 못했다. 따라서 모든 개신교인이 성찬을 단지 상징으로만 이해했다는 설명은 역사적으로 성립하지 않는다. 아우크스부르크 신앙고백은 **1530년 제국회의에서 제시되었고 당시 비공식 인쇄본도 유통되었다.** **1531년에는 멜란히톤이 관여한 『신앙고백』·『변증서』 판본**이 출판되었으며, **1540년 수정본(Variata)**은 별도로 구분한다. 판본 사이 세부 문장의 의미와 어떤 것이 정본인지에 대한 고위험 판단은 별도의 원전 교감 없이는 단정하지 않는다.\n\n### 종교개혁이 지역마다 달랐던 이유\n\n독일과 스위스의 도시, 제네바의 교회 규율, 잉글랜드의 국왕 중심 변화, 스코틀랜드의 교회 조직, 프랑스의 위그노 공동체, 저지대의 도시와 정치적 갈등은 한 가지 도식으로 묶이지 않는다. 북유럽과 발트해의 왕국, 보헤미아와 합스부르크 영토, 폴란드·리투아니아, 헝가리·트란실바니아의 다종교적 조건 역시 종교개혁의 결과에 영향을 주었다. 재세례파 안에서도 세례와 자발적 공동체, 국가권력의 관계에 관하여 동일한 방법을 택한 것은 아니었다. 종교개혁이란 이름이 같더라도 각 공동체는 설교·예배·교육·가정·구제의 새로운 질서를 서로 다르게 만들었다.\n\n또한 이탈리아와 이베리아처럼 가톨릭교회가 중심인 지역에서도 쇄신과 개혁의 문제는 사라지지 않았다. 가톨릭 내부에서 일어난 변화를 개신교의 외부 공격에 대한 반사 작용으로만 읽지 않는 것이 중요하다. 유럽의 11개 지역을 나란히 읽는 이유는 '누가 이겼는가'를 묻기보다 같은 종교적 논쟁이 서로 다른 법과 도시 제도, 정치 권력, 교육 언어와 만나 어떻게 다른 삶을 만들었는지 이해하기 위해서다.\n\n### 다음 권으로\n\n16세기의 개혁은 성찬·권위·은총을 둘러싼 논쟁인 동시에 설교·학교·도시 행정·국가권력의 변화였다. 그 결과는 갈등과 박해, 그리고 여러 수준의 법적 조정을 낳았다. 제5권에서는 가톨릭 내부의 기존 쇄신 노력과 개신교 등장에 대한 대응을 함께 읽는다. **1517년 논쟁과 제도의 형성**, **성찬관의 차이**, **신앙고백의 제출과 후대 판본**을 구별한다.\n\n---"},"l1":{"title":"마르부르크의 합의와 아우크스부르크 판본: 신학과 서지의 차이","text":"1529년 마르부르크 회담은 개혁자들이 신학적으로 다른 말만 했던 자리가 아니었다. 10월 3일의 **마르부르크 15개 조항**에서 루터와 츠빙글리 등 서명자들은 앞선 열네 조항에 걸쳐 삼위일체·그리스도·죄와 믿음·세례 등에 관한 공통된 내용을 제시했다. 그러나 **마지막 제15조의 성찬**에서는 주님의 몸과 피의 임재를 구체적으로 어떻게 설명할지 완전한 합의에 이르지 못했다고 직접 기록했다. 제15조 안에도 서로 공유한 내용이 있었으므로 ‘14개는 같은 믿음, 15번째는 아무것도 동의하지 않았다’고 말하는 것도 지나친 단순화다.\n\n당시 합의문의 마지막 부분은 미합의 상태에서도 상호 기독교적 사랑과 더 나은 이해를 구하도록 권한다. 그러나 그 호소가 이후의 신학적 분열을 자동으로 해소한 것은 아니다. 회의 문서의 합의 범위와 신학자·교회들이 이후 수용한 입장은 따로 살펴야 한다. 독일사 사료집은 **1529년 문서의 서명자와 제15조의 미합의 부분**을 공개하고 있으므로, 당대 문서에 나타나지 않은 통일된 성찬 교리를 후대에서 거꾸로 부여하지 않는다.\n\n아우크스부르크 신앙고백에서도 **제출 연도·인쇄 연도·본문 이본**은 다른 판단 기준이다. 1530년 제국회의에 제출된 신앙고백과 1530년 인쇄본은 구분해야 하고, 멜란히톤의 감독 아래 1531년에 인쇄된 라틴어 신앙고백·변증서도 별도 서지적 단위다. 그루버 희귀본 소장목록은 1540년의 **Variata**와 **1540년 인쇄지만 Variata가 아닌 소장본**을 분명히 구별한다. 성찬론이 담긴 제10조의 문구가 판본 간에 달라졌다는 점은 중요하지만, 각 교파가 그 개정본을 어떻게 받아들였는지는 별도의 고백사 연구가 필요하다. **같은 해 인쇄됐다는 사실만으로 같은 본문이라고 판정하지 않는다.**","caution":"German History Documents provides an edited/translated text of Marburg articles, while Gruber catalog gives object descriptions; no exhaustive 1530/1531/1540 original-copy collation and expert review of C417-11/12 yet."},"sourceSha":[{"path":"research/data/ATLAS_PHASE0_FLAGSHIP_SCENE_1529_1540_PRIVATE_MODEL.json","sha":"a3fda22ca5ec58c8bef5f7ff2efdf801772e2dc8"},{"path":"research/data/V4_47_TWO_SOURCE_GROUNDED_L0_HISTORY_CORRECTIONS.json","sha":"9aebf094697d500930f58d894df16affc34a343c"},{"path":"research/data/V4_50_L1_24_CHAPTER_INTEGRATED_REVISED_MASTER.json","sha":"79a362734aa963eb41ad0424515e8d21074349c5"}],"canShip":false}</script>
+<script>
+"use strict";
+const atlas=JSON.parse(document.getElementById("data").textContent);
+const byId=id=>document.getElementById(id);
+const state={eventId:atlas.events[0].id,layer:"L0",compare:false,sources:true};
+function renderEvent(){
+ const current=atlas.events.find(x=>x.id===state.eventId)||atlas.events[0];
+ byId("steps").replaceChildren();
+ for(const e of atlas.events){
+  const btn=document.createElement("button");btn.className="step";btn.type="button";
+  btn.setAttribute("aria-current",e.id===current.id?"step":"false");
+  const year=document.createElement("span");year.textContent=e.dateLabel;
+  const label=document.createElement("strong");label.textContent=e.title;btn.append(year,label);
+  btn.addEventListener("click",()=>{state.eventId=e.id;renderEvent();});
+  byId("steps").appendChild(btn);
+ }
+ byId("time").textContent="SELECTED EVENT / "+current.dateLabel;
+ byId("eventTitle").textContent=current.title;
+ byId("place").textContent=current.placeLabel;
+ byId("finding").textContent=current.readersFinding;
+ byId("caution").textContent=current.claimLimit;
+ byId("docs").replaceChildren();
+ for(const d of atlas.docs.filter(x=>x.linkedEventIds.includes(current.id))){
+  const article=document.createElement("article");article.className="source";
+  const h=document.createElement("h3");h.textContent=d.title;
+  const p=document.createElement("p");p.textContent=d.documentClass==="HISTORICAL_AGREEMENT_TEXT"?"편집·번역된 합의 문서":"희귀본 소장목록과 판본 기술";
+  const a=document.createElement("a");const u=new URL(d.sourceUrl);
+  if(u.protocol!=="https:")continue;
+  a.href=u.href;a.target="_blank";a.rel="noopener noreferrer";a.textContent="원자료 확인 (외부)";
+  article.append(h,p,a);byId("docs").appendChild(article);
+ }
+}
+function renderBook(){
+ const book=state.layer==="L0"?atlas.l0:atlas.l1;
+ byId("readingTitle").textContent=state.layer+" / "+book.title;
+ byId("reader").textContent=book.text;
+ byId("l0").setAttribute("aria-selected",String(state.layer==="L0"));
+ byId("l1").setAttribute("aria-selected",String(state.layer==="L1"));
+}
+function renderCompare(){
+ byId("comparison").hidden=!state.compare;byId("compare").setAttribute("aria-expanded",String(state.compare));
+ byId("comparisonRows").replaceChildren();
+ for(const e of atlas.events.filter(x=>x.year>1529)){
+  const tr=document.createElement("tr"),th=document.createElement("th"),td=document.createElement("td");
+  th.textContent=e.dateLabel;td.textContent=e.readersFinding;tr.append(th,td);byId("comparisonRows").appendChild(tr);
+ }
+}
+function renderSources(){byId("sources").hidden=!state.sources;
+ byId("sourcesBtn").setAttribute("aria-expanded",String(state.sources));
+ byId("sourcesBtn").textContent=state.sources?"사료 카드 접기":"사료 카드 펼치기";}
+byId("l0").addEventListener("click",()=>{state.layer="L0";renderBook();});
+byId("l1").addEventListener("click",()=>{state.layer="L1";renderBook();});
+byId("compare").addEventListener("click",()=>{state.compare=!state.compare;renderCompare();});
+byId("sourcesBtn").addEventListener("click",()=>{state.sources=!state.sources;renderSources();});
+byId("restart").addEventListener("click",()=>{state.eventId=atlas.events[0].id;state.layer="L0";state.compare=false;state.sources=true;renderAll();});
+function renderAll(){renderEvent();renderBook();renderCompare();renderSources();}
+byId("question").textContent=atlas.question;renderAll();
+</script></body></html>
