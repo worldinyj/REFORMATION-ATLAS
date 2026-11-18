@@ -10,7 +10,7 @@ button{font:inherit;cursor:pointer}a{color:var(--accent);overflow-wrap:anywhere}
 h1{font:500 clamp(2rem,4vw,3.15rem)/1.2 Georgia,serif;letter-spacing:-.045em;margin:8px 0 13px}.lede{max-width:790px;color:var(--muted);font-size:1.05rem}
 .tag{display:inline-block;background:#f7efdE;color:#795833;border:1px solid #dfd1b7;border-radius:100px;padding:5px 12px;font-size:.76rem}
 .frame{max-width:1300px;margin:auto;padding:0 22px 50px;display:grid;grid-template-columns:230px minmax(0,1fr) 265px;align-items:start;gap:14px}
-.panel{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:20px;min-width:0}.panel h2{margin:4px 0 10px;font-size:1.12rem}
+.panel{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:20px;min-width:0}.panel h2{margin:4px 0 10px;font-size:1.12rem}.mobile-hint{display:none;color:var(--muted);font-size:.78rem;margin:0 0 8px}
 .help{font-size:.8rem;color:var(--muted)}.step{display:block;width:100%;background:#fff;color:var(--ink);border:1px solid var(--line);padding:13px;text-align:left;margin:10px 0;border-radius:10px}
 .step span{display:block;color:var(--accent);font-size:.82rem;font-weight:750}.step strong{display:block;margin-top:3px;font-size:.88rem;line-height:1.4}
 .step[aria-current=step]{background:#ebf4ed;border-color:#83b09b}.step:hover{border-color:#659681}
@@ -26,7 +26,7 @@ h1{font:500 clamp(2rem,4vw,3.15rem)/1.2 Georgia,serif;letter-spacing:-.045em;mar
 .compare{background:#f1f5f0;padding:14px;border-radius:9px}.compare table{border-collapse:collapse;width:100%;font-size:.82rem}.compare th,.compare td{border-bottom:1px solid var(--line);padding:8px;text-align:left;vertical-align:top}
 [hidden]{display:none!important}footer{max-width:1300px;margin:auto;padding:0 24px 30px;color:var(--muted);font-size:.78rem}
 @media(max-width:1050px){.frame{grid-template-columns:210px 1fr}.side{grid-column:2}}
-@media(max-width:700px){.frame{display:block;padding:0 12px 30px}.nav{display:block;overflow-x:auto;padding:10px;margin-bottom:12px}.nav h2,.nav .help{display:none}.nav #steps{display:flex;gap:7px;width:max-content;min-width:100%}.step{margin:0;flex:0 0 165px;max-width:190px}.main{padding:20px;margin-bottom:12px}.side{margin-bottom:12px}.header{padding:23px 16px}}
+@media(max-width:700px){.frame{display:block;padding:0 12px 30px}.nav{display:block;overflow-x:auto;padding:10px;margin-bottom:12px}.nav h2,.nav .help{display:none}.nav .mobile-hint{display:block}.nav #steps{display:flex;gap:7px;width:max-content;min-width:100%}.step{margin:0;flex:0 0 165px;max-width:190px}.main{padding:20px;margin-bottom:12px}.side{margin-bottom:12px}.header{padding:23px 16px}}
 @media print{.nav,.side,.actions,footer{display:none!important}.frame{display:block}.main{border:none}}
 </style></head>
 <body>
@@ -34,13 +34,13 @@ h1{font:500 clamp(2rem,4vw,3.15rem)/1.2 Georgia,serif;letter-spacing:-.045em;mar
 <h1>마르부르크에서 아우크스부르크까지</h1><p class="lede" id="question"></p>
 <span class="tag">1529–1540 · 연구 시범본 · 운영 앱 미반영</span></header>
 <div class="frame">
-<nav class="panel nav" aria-label="사건 연표"><h2>시간의 흐름</h2><p class="help">연도를 눌러 다른 사건을 보세요.</p><div id="steps"></div></nav>
+<nav class="panel nav" aria-label="사건 연표"><h2>시간의 흐름</h2><p class="help">연도를 눌러 다른 사건을 보세요.</p><p class="mobile-hint">연표를 좌우로 밀어 다른 사건을 보세요.</p><div id="steps"></div></nav>
 <main class="panel main"><div class="kicker" id="time"></div><h2 id="eventTitle" aria-live="polite"></h2><p class="meta" id="place"></p>
 <p class="finding" id="finding"></p>
 <div class="caution"><strong>역사적으로 조심할 점</strong><p id="caution"></p></div>
 <div class="actions"><button type="button" id="compare" aria-expanded="false">1530·1531·1540년 판본 비교</button></div>
 <div id="comparison" class="compare" hidden><h3>기록된 사건과 인쇄된 책을 구별하기</h3>
-<table><thead><tr><th>연도</th><th>핵심 구분</th></tr></thead><tbody id="comparisonRows"></tbody></table>
+<table><thead><tr><th scope="col">연도</th><th scope="col">핵심 구분</th></tr></thead><tbody id="comparisonRows"></tbody></table>
 <p class="help">연도만으로 실물 판본의 동일성을 판단하지 않습니다.</p></div>
 <div class="actions" role="tablist" aria-label="읽기 깊이">
 <button type="button" id="l0" role="tab" aria-controls="reader" aria-selected="true" tabindex="0">L0 · 개요</button>
@@ -100,7 +100,7 @@ function renderCompare(){
  byId("comparisonRows").replaceChildren();
  for(const e of atlas.events.filter(x=>x.year>1529)){
   const tr=document.createElement("tr"),th=document.createElement("th"),td=document.createElement("td");
-  th.textContent=e.dateLabel;td.textContent=e.readersFinding;tr.append(th,td);byId("comparisonRows").appendChild(tr);
+  th.scope="row";th.textContent=e.dateLabel;td.textContent=e.readersFinding;tr.append(th,td);byId("comparisonRows").appendChild(tr);
  }
 }
 function renderSources(){byId("sources").hidden=!state.sources;
