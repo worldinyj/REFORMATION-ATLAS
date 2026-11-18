@@ -2,6 +2,7 @@ import test from "node:test";
 import assert from "node:assert/strict";
 import {readFile} from "node:fs/promises";
 import {fileURLToPath} from "node:url";
+import {parseResearchMarkdown} from "./research-markdown.mjs";
 
 const path=fileURLToPath(new URL("./preview-1529-1540.html",import.meta.url));
 const html=await readFile(path,"utf8");
@@ -11,7 +12,9 @@ assert.ok(js,"inline application script present");
 assert.ok(payload,"embedded research data present");
 
 class FakeElement {
- constructor(tag,document){this.tag=tag;this.document=document;this.children=[];this.attrs={};this.handlers={};this.textContent="";this.hidden=false;}
+ constructor(tag,document){this.tag=tag;this.document=document;this.children=[];this.attrs={};this.handlers={};this._text="";this.hidden=false;}
+ get textContent(){return this._text+this.children.map(x=>x.textContent??"").join("")}
+ set textContent(value){this._text=String(value);this.children=[];}
  append(...elements){this.children.push(...elements)}
  appendChild(element){this.children.push(element);return element}
  replaceChildren(...elements){this.children=[...elements]}
@@ -26,13 +29,15 @@ function runtime(){
  const document={
   activeElement:null,
   getElementById(id){if(!nodes.has(id))nodes.set(id,new FakeElement(id,document));return nodes.get(id)},
-  createElement(tag){return new FakeElement(tag,document)}
+  createElement(tag){return new FakeElement(tag,document)},
+  createTextNode(value){const node=new FakeElement("#text",document);node.textContent=value;return node}
  };
  document.getElementById("data").textContent=payload;
  new Function("document","URL",js)(document,URL);
  return {node:id=>document.getElementById(id),content:JSON.parse(payload),document};
 }
 
+const expectedText=markdown=>parseResearchMarkdown(markdown).map(block=>block.segments.map(t=>t.text).join("")).join("");
 test("offline research preview includes four sourced events and no automatic exfiltration",()=>{
  const d=JSON.parse(payload);
  assert.equal(d.events.length,4);
@@ -48,7 +53,7 @@ test("initial navigation shows 1529, complete L0 body and a linked source",()=>{
  assert.equal(node("steps").children.length,4);
  assert.equal(node("eventTitle").textContent,content.events[0].title);
  assert.equal(node("steps").children[0].attrs["aria-current"],"step");
- assert.equal(node("reader").textContent,content.l0.text);
+ assert.equal(node("reader").textContent,expectedText(content.l0.text));
  assert.equal(node("docs").children.length,1);
  assert.ok(node("docs").children[0].children[2].href.startsWith("https://"));
 });
@@ -58,7 +63,7 @@ test("event selection changes document cards, chapter text toggles and compare e
  assert.equal(node("eventTitle").textContent,content.events[3].title);
  assert.match(node("docs").children[0].children[2].href,/gruber/);
  node("l1").click();
- assert.equal(node("reader").textContent,content.l1.text);
+ assert.equal(node("reader").textContent,expectedText(content.l1.text));
  assert.equal(node("l1").attrs["aria-selected"],"true");
  node("compare").click();
  assert.equal(node("comparison").hidden,false);
@@ -102,4 +107,17 @@ test("V4.53 reading tabs support arrows, Home, End and accessibility bindings",(
  assert.equal(node("l1").keydown("Home"),true);
  assert.equal(node("reader").attrs["aria-labelledby"],"l0");
  assert.equal(node("l0").keydown("Tab"),false);
+});
+
+test("V4.56 safe Markdown renderer preserves headings, emphasis and original source",()=>{
+ const {node,content}=runtime();
+ const blocks=node("reader").children;
+ assert.equal(blocks.filter(x=>x.tag==="h3").length,4);
+ assert.equal(blocks.filter(x=>x.tag==="hr").length,1);
+ assert.ok(blocks.some(b=>b.children.some(x=>x.tag==="strong")));
+ assert.ok(blocks.some(b=>b.children.some(x=>x.tag==="em")));
+ assert.doesNotMatch(node("reader").textContent,/\*\*|### /);
+ assert.equal(JSON.parse(payload).l0.text,content.l0.text);
+ node("l1").click();
+ assert.equal(node("reader").textContent,expectedText(content.l1.text));
 });
