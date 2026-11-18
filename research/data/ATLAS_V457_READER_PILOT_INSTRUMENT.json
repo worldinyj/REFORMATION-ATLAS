@@ -1,0 +1,364 @@
+{
+  "schema": "ATLAS_V457_READER_PILOT_INSTRUMENT",
+  "version": "4.57",
+  "created": "2026-11-18",
+  "status": "PILOT_READY_NOT_ADMINISTERED",
+  "targetScene": "SCENE-REFORMATION-1529-1540",
+  "releaseGate": "RESEARCH_ONLY",
+  "design": {
+    "participantsTarget": 8,
+    "participantsMinimum": 6,
+    "voluntary": true,
+    "anonymousSessionIds": true,
+    "estimatedDurationMinutes": 12,
+    "moderatorNotesNoPersonalInfo": true,
+    "participantRecruitment": "Include unfamiliar and familiar readers without asking about beliefs or religious identity",
+    "instructions": "Read the research scene. Complete three tasks without being shown an answer key. Record task completion and answer choices. No tracking is embedded in the research app.",
+    "methods": [
+      "think-aloud notes",
+      "task observation",
+      "post-task quiz",
+      "one follow-up misunderstanding question"
+    ],
+    "answerKeyExposure": "The repository is public. Moderator must separately control access to this instrument; do not expose answerKey in test UI.",
+    "dataPolicy": "Record only anonymized session ID, task completion, timestamps rounded to minutes, selected A/B/C/D choices and accessibility observations. No name, e-mail, login, religious affiliation, or medical details."
+  },
+  "tasks": [
+    {
+      "id": "TASK-01",
+      "title": "합의와 미합의 읽기",
+      "timeLimitMinutes": 4,
+      "entryAction": "1529년 사건 선택 → L1 역사적 해설 → 제15조 내용 읽기",
+      "successCriterion": "제15조의 공통 사항과 남은 쟁점을 분리하여 말할 수 있다",
+      "questionIds": [
+        "Q01",
+        "Q02",
+        "Q03"
+      ]
+    },
+    {
+      "id": "TASK-02",
+      "title": "제출·출판·이본 구별",
+      "timeLimitMinutes": 4,
+      "entryAction": "1530·1531·1540년 연표 이동 → 판본 비교 열기",
+      "successCriterion": "연도와 물리적 인쇄본/이본을 일치시키지 않고 구별한다",
+      "questionIds": [
+        "Q04",
+        "Q05",
+        "Q06"
+      ]
+    },
+    {
+      "id": "TASK-03",
+      "title": "사료 종류와 증거 한계 확인",
+      "timeLimitMinutes": 4,
+      "entryAction": "1529년과 1540년의 문헌 카드 확인",
+      "successCriterion": "편집 번역 사료와 희귀본 목록의 증거 능력·한계를 구별한다",
+      "questionIds": [
+        "Q07",
+        "Q08",
+        "Q09"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "Q01",
+      "taskId": "TASK-01",
+      "type": "SINGLE_CHOICE",
+      "prompt": "마르부르크 회담에 관한 설명으로 가장 적절한 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "성찬론을 포함한 모든 사안에 완전 합의했다"
+        },
+        {
+          "id": "B",
+          "text": "여러 조항에 동의했지만 성찬의 현존 방식에는 미합의가 남았다"
+        },
+        {
+          "id": "C",
+          "text": "성찬 이외의 신학 문제는 하나도 논의하지 않았다"
+        },
+        {
+          "id": "D",
+          "text": "회담에서 아우크스부르크 신앙고백을 최종 확정했다"
+        }
+      ],
+      "answerKey": "B",
+      "points": 1,
+      "misconceptionCode": "TOTAL_AGREEMENT",
+      "linkedClaim": "V457-C02",
+      "critical": true
+    },
+    {
+      "id": "Q02",
+      "taskId": "TASK-01",
+      "type": "SINGLE_CHOICE",
+      "prompt": "마르부르크 제15조에 관한 설명으로 옳은 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "제15조는 성찬에 관한 모든 공통 진술을 부인했다"
+        },
+        {
+          "id": "B",
+          "text": "제15조는 이듬해 신앙고백의 인쇄 규격을 정했다"
+        },
+        {
+          "id": "C",
+          "text": "제15조 안에도 공통 진술이 있고, 신체적 임재 문제에는 이견을 기록했다"
+        },
+        {
+          "id": "D",
+          "text": "제15조는 1540년 Variata를 승인했다"
+        }
+      ],
+      "answerKey": "C",
+      "points": 1,
+      "misconceptionCode": "NO_SHARED_CONTENT_ARTICLE15",
+      "linkedClaim": "V457-C03",
+      "critical": true
+    },
+    {
+      "id": "Q03",
+      "taskId": "TASK-01",
+      "type": "SINGLE_CHOICE",
+      "prompt": "다음 중 자료가 허용하지 않는 과도한 해석은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "회담 후에도 이해 차이가 지속되었다"
+        },
+        {
+          "id": "B",
+          "text": "모든 개혁자가 성찬을 단순한 상징으로만 보았다고 단정한다"
+        },
+        {
+          "id": "C",
+          "text": "제15조에 상호 배려를 권하는 내용이 있다"
+        },
+        {
+          "id": "D",
+          "text": "공동 합의문에는 신학적 공통점이 기록됐다"
+        }
+      ],
+      "answerKey": "B",
+      "points": 1,
+      "misconceptionCode": "ALL_SYMBOLIC_EUCHARIST",
+      "linkedClaim": "V457-C04",
+      "critical": false
+    },
+    {
+      "id": "Q04",
+      "taskId": "TASK-02",
+      "type": "SINGLE_CHOICE",
+      "prompt": "1530년과 1531년을 구별하는 핵심은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1530년 제국회의에서 신앙고백을 제출했고 1531년에는 신앙고백·변증서의 인쇄가 이어졌다"
+        },
+        {
+          "id": "B",
+          "text": "1530년에 Variata가 먼저 인쇄됐고 1531년에 마르부르크 회담이 열렸다"
+        },
+        {
+          "id": "C",
+          "text": "두 연도는 동일한 책의 다른 표지 색을 가리킨다"
+        },
+        {
+          "id": "D",
+          "text": "1531년에는 어떤 신앙고백도 인쇄되지 않았다"
+        }
+      ],
+      "answerKey": "A",
+      "points": 1,
+      "misconceptionCode": "SUBMISSION_EQUALS_PRINT",
+      "linkedClaim": "V457-C08",
+      "critical": true
+    },
+    {
+      "id": "Q05",
+      "taskId": "TASK-02",
+      "type": "SINGLE_CHOICE",
+      "prompt": "1540년 Variata와 비Variata 인쇄본을 보고 올바르게 추론한 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "인쇄 연도가 같다면 내용이 완전히 동일하다"
+        },
+        {
+          "id": "B",
+          "text": "비Variata는 1530년 이전에만 나타난다"
+        },
+        {
+          "id": "C",
+          "text": "같은 1540년 인쇄물이라도 본문 계통이 다를 수 있다"
+        },
+        {
+          "id": "D",
+          "text": "Variata는 마르부르크 회담의 서명록이다"
+        }
+      ],
+      "answerKey": "C",
+      "points": 1,
+      "misconceptionCode": "SAME_YEAR_SAME_TEXT",
+      "linkedClaim": "V457-C11",
+      "critical": true
+    },
+    {
+      "id": "Q06",
+      "taskId": "TASK-02",
+      "type": "SINGLE_CHOICE",
+      "prompt": "1530년 제국회의 제출본과 인쇄본의 관계를 볼 때 피해야 할 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "제출·인쇄 시점을 각각 확인한다"
+        },
+        {
+          "id": "B",
+          "text": "제출 문서와 1530년의 모든 인쇄본을 동일한 물리적 실물로 취급한다"
+        },
+        {
+          "id": "C",
+          "text": "판본별 인쇄 사항을 대조한다"
+        },
+        {
+          "id": "D",
+          "text": "신앙고백과 변증서를 구분한다"
+        }
+      ],
+      "answerKey": "B",
+      "points": 1,
+      "misconceptionCode": "PHYSICAL_OBJECT_COLLAPSE",
+      "linkedClaim": "V457-C06",
+      "critical": false
+    },
+    {
+      "id": "Q07",
+      "taskId": "TASK-03",
+      "type": "SINGLE_CHOICE",
+      "prompt": "German History in Documents and Images에 수록된 마르부르크 자료의 유형은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "당대 문서를 후대에 편집·영어 번역하여 공개한 사료 자료"
+        },
+        {
+          "id": "B",
+          "text": "1540년 판본 실물의 완전한 과학적 교감"
+        },
+        {
+          "id": "C",
+          "text": "오늘날 교회들의 공동 공식 교리문"
+        },
+        {
+          "id": "D",
+          "text": "당시 회담장 녹음 파일"
+        }
+      ],
+      "answerKey": "A",
+      "points": 1,
+      "misconceptionCode": "TRANSLATION_AS_AUTOGRAPH",
+      "linkedClaim": "V457-C12",
+      "critical": true
+    },
+    {
+      "id": "Q08",
+      "taskId": "TASK-03",
+      "type": "SINGLE_CHOICE",
+      "prompt": "Gruber 희귀본 컬렉션 목록에서 직접 확인할 수 있는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "참여한 모든 교파의 16세기 공식 수용 입장"
+        },
+        {
+          "id": "B",
+          "text": "실물의 모든 문장에 대한 비판적 대조판"
+        },
+        {
+          "id": "C",
+          "text": "소장본의 인쇄 연도·서명·판본과 같은 서지 기술"
+        },
+        {
+          "id": "D",
+          "text": "1529년 회담의 발언 녹취"
+        }
+      ],
+      "answerKey": "C",
+      "points": 1,
+      "misconceptionCode": "CATALOGUE_AS_FULL_COLLATION",
+      "linkedClaim": "V457-C12",
+      "critical": true
+    },
+    {
+      "id": "Q09",
+      "taskId": "TASK-03",
+      "type": "SINGLE_CHOICE",
+      "prompt": "첫 화면에 표시된 두 자료만으로 할 수 없는 주장은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "마르부르크 회담에 공통점과 불일치가 함께 기록되어 있다는 설명"
+        },
+        {
+          "id": "B",
+          "text": "1530·1531·1540년 모든 전승본의 원문을 완전 대조했고 학계가 승인했다는 선언"
+        },
+        {
+          "id": "C",
+          "text": "일부 1540년 소장본이 Variata로 설명된다는 사실"
+        },
+        {
+          "id": "D",
+          "text": "그루버 목록이 희귀본의 소장 정보를 제공한다는 설명"
+        }
+      ],
+      "answerKey": "B",
+      "points": 1,
+      "misconceptionCode": "CANNOT_DISTINGUISH_EVIDENCE_LIMIT",
+      "linkedClaim": "V457-C12",
+      "critical": true
+    }
+  ],
+  "scoring": {
+    "totalQuestions": 9,
+    "pointsPerCorrect": 1,
+    "maxPoints": 9,
+    "criticalIds": [
+      "Q01",
+      "Q02",
+      "Q04",
+      "Q05",
+      "Q07",
+      "Q08",
+      "Q09"
+    ],
+    "individualPass": {
+      "correctAtLeast": 7,
+      "criticalCorrectAtLeast": 6,
+      "completedAllThreeTasks": true
+    },
+    "pilotReviewThreshold": {
+      "minimumParticipants": 6,
+      "individualPassRateAtLeast": 0.8,
+      "taskCompletionRateAtLeast": 0.8,
+      "repeatCriticalMisconceptionThreshold": 2
+    },
+    "interpretation": "Research go/no-go criterion only, not statistical validation. Any repeated high-stakes misconception triggers revision and new trial. Scores alone cannot waive historical signoff."
+  },
+  "evidenceMapping": "research/data/ATLAS_V457_CLAIM_SOURCE_CRITICAL_REGISTER.json",
+  "pilotObservations": {
+    "actualParticipants": 0,
+    "actualTaskRuns": 0,
+    "realScoresRecorded": 0
+  },
+  "release": {
+    "canShip": false,
+    "canMergeMain": false,
+    "canImportAIStudio": false
+  }
+}
