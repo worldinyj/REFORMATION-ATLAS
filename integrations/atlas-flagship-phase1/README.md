@@ -197,3 +197,23 @@ ATLAS_BROWSER=chromium node --test browser-smoke.test.mjs
 **검증 코드:** `v459-witness-contract.test.mjs`.
 
 **핵심 결론:** 제15조에 관한 앱 화면에는 '마르부르크 조항'이라는 단일 텍스트 레이블뿐 아니라 **사본(K/Z), 인쇄본(VD16), 후대 편집 전사(WA/GHDI)** 중 무엇을 근거로 해석하는지 밝혀야 한다. 실물 원전 문장 교감과 역사학자 승인까지 `can_ship=false`, `can_merge_main=false`, `can_import_ai_studio=false` 유지. `main`/AI Studio 운영 앱 미변경.
+
+## V4.60 — 라틴어 제10조의 실제 비판판 인쇄 지면·K/Z 원문 편집 근거 확보
+
+**이번 증거의 정확한 수준:** 1858년 `Corpus Reformatorum` 제26권 **실제 인쇄 357쪽(PDF 0기준 5쪽)·주석 34번을 화면에서 직접 확인**하여 1531년판 계통과 1540년판 계통의 제10조 라틴어 비교를 실제 비판 장치에 연결했다. 16세기 해당 인쇄본 2종의 지면을 각각 열었다고 주장하지 않는다.
+
+- **1531 Ed.1/2:** `vere adsint et distribuantur`.
+- **1540 Ed.3/4:** `cum pane et vino vere exhibeantur`.
+- **편집사 추가 확인:** `CR26`은 1531년 4절판(Ed1), 1531년 별도 수정 8절판(Ed2), 1540년 4절판(Ed3), 1541–42년 8절판(Ed4)을 구분한다. **1531 Ed2에 이미 수정의 역사가 있다는 편집사적 사실**과 오늘날 고유명사처럼 사용되는 `1540 Variata`를 동형으로 동일시하지 않는다.
+- **마르부르크 K/Z 검토 인용문헌 확보:** 취리히 공식 문서보관소 기록은 2014년 루터교 계열의 K 기반 판본, `Reformierte Bekenntnisschriften` Z 기반 판본, `MBW Texte 3 no.825`(K에 Z 이문 병기), Usteri 1883 취리히본 팩시밀리를 구체적 페이지까지 소개한다.
+- **실증 한계:** 1529년 K/Z 제15조의 직접 필사본 글자 대조 및 1531/1540 원본 제10조 지면은 아직 **HOLD**. Gruber 무번호 비Variata는 `VD16 C4713`으로 추정하지 않는다.
+- **기계적 정합성:** `v460-critical-apparatus-contract.test.mjs`의 **5개 검사 GitHub 소스 V8 검증 PASS**. Node test runner와 GitHub Actions 실행 로그의 성공은 확인하지 못했으며, 연구 CI에는 검사용 경로만 추가.
+
+**전문 검토 문서:** [V4.60 라틴어 제10조와 마르부르크 K/Z 본문 계통](./V460_CR26_ARTICLE10_AND_MARBURG_KZ_CRITICAL_DOSSIER_KO.md)
+
+**연구 JSON:** `research/data/ATLAS_V460_CR26_ARTICLE_X_APPARATUS_AND_MARBURG_BASES.json`  
+**검증 JSON:** `research/data/ATLAS_V460_CR26_PRINT_PAGE_REVIEW_AUDIT.json`
+
+**승격 제한:** `can_ship=false`, `can_merge_main=false`, `can_import_ai_studio=false`. 실제 독자 평가 0명 / 역사학자 승인 0명. `main`, 기존 역사 본문, AI Studio 앱 변경 없음.
+
+**V4.61 권장:** 추가 주장·버전보다 K/Z 15조 원문 잎과 VD16 C4734/C4713의 10조 원문 잎을 실제로 열고 비판판과 **텍스트 라인 단위 비교**를 완성한다.
