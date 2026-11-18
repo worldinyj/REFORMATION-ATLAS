@@ -48,8 +48,9 @@ V4.40에서 확인된 현대 세계교회사 공백을 해소하기 위해 기�
 | SRC441-12 | KOREA | [원문 연결](https://onlinelibrary.wiley.com/doi/10.1111/irom.12066) | ACADEMIC_REFLECTIVE_ANALYSIS · DIRECT_HTML_READ |
 | SRC441-13 | KOREA | [원문 연결](https://doi.org/10.5325/JWORLCHRI.12.1.0047) | ACADEMIC_ARTICLE_ABSTRACT · SEARCH_PREVIEW_ONLY |
 | SRC441-14 | KOREA | [원문 연결](https://academic.oup.com/edited-volume/63063/chapter-abstract/566819313) | ACADEMIC_CHAPTER_ABSTRACT · SEARCH_PREVIEW_ONLY |
+| SRC441-15 | LATAM | [원문 연결](https://www.pewresearch.org/religion/2014/11/13/religion-in-latin-america/) | MULTICOUNTRY_SURVEY_REPORT · DIRECT_WEB_SEARCH_INDEX_AND_REPORT_SUMMARY |
 
-새 역사·구조 주장 **14개 참조**를 개별 문장과 연결했다. 전 단계로부터 이어받은 기존 29건, 20세기 현대사 7건과 합해 **50개 참조 위치 모두 정확히 일치한다**. 이 50은 서로 다른 독립 역사 사건 50건이 아니라 연결·검토 ID의 개수다.
+새 역사·구조 주장 **15개 참조**를 개별 문장과 연결했다. 전 단계로부터 이어받은 기존 29건, 20세기 현대사 7건과 합해 **51개 참조 위치 모두 정확히 일치한다**. 이 51개 참조는 서로 다른 독립 역사 사건 50건이 아니라 연결·검토 ID의 개수다.
 
 특히 V4.40의 `M440-07`(1945년 이후 한국 근현대사)은 본문 개정으로 이전 앵커가 사라졌으므로 `**1945년 해방**`이라는 새 문구로 연결 위치를 갱신했다. 새 자료를 찾았더라도 역사 전문가 판단이 완료된 것으로 취급하지 않는다.
 
