@@ -217,3 +217,20 @@ ATLAS_BROWSER=chromium node --test browser-smoke.test.mjs
 **승격 제한:** `can_ship=false`, `can_merge_main=false`, `can_import_ai_studio=false`. 실제 독자 평가 0명 / 역사학자 승인 0명. `main`, 기존 역사 본문, AI Studio 앱 변경 없음.
 
 **V4.61 권장:** 추가 주장·버전보다 K/Z 15조 원문 잎과 VD16 C4734/C4713의 10조 원문 잎을 실제로 열고 비판판과 **텍스트 라인 단위 비교**를 완성한다.
+
+## V4.61 — 서명본 K/Z 차이의 현대 번역 혼입과 제10조 OCR 경고
+
+**역사적 실무 리스크 확인:** HAPuls 현대 독일어 번역 페이지의 하단에는 헤센본 `HStAM PA Nr.245`가 표기되지만 번역 내용은 **제7조 수도원 서원, 제13조 사제 혼인, 제15조 타인의 은총 획득을 위한 미사**에 관한 문장을 포함한다. 취리히 주립문서보관소의 공식 목록은 이 문장들이 속한 제7·13·15조의 추가 구절은 **Z에 존재하고 K에는 없다고 명시**한다. 따라서 `shelfmark=K`만 보고 화면의 편집 번역문을 K의 글자 그대로의 전사로 둔갑시킬 수 없다.
+
+- GHDI WA 기반 역사 독일어 전사와 HAPuls 현대 독일어 번역을 조항별로 나란히 읽어 **3개 추가 구절의 존재**를 확인. 다만 Z/K 서명본 실제 해당 잎은 **두 개 모두 읽지 못함**.
+- 헤센 교육 포털의 `/node/1472`에 원본 전체 디지털화 전용 페이지가 있다는 점을 확인. 현재 실제 제15조 이미지 직접 판독 **0건**.
+- 튀빙겐 대학 OpenDigi가 우스테리의 **1883년 취리히본 팩시밀리 409–413쪽**이 실린 권호를 디지털화하여 공개함을 발견. PDF 응답 시간 초과로 해당 지면 직접 대조 **미완료**.
+- 1858년 `Corpus Reformatorum` 26권 인쇄 357쪽 제10조는 PDF 추출과 이미지/독립 역사 전사 간 `exhibeatur` / `exhibeantur`의 **추출·판독 차이**가 존재. **16세기 원전 이문이 검증됐다는 주장으로 승격하지 않음**.
+- 실제 사용자 화면 개선 제안: `archivalShelfmark`, `editorialTextSource`, `selectedReadingFamily`, `sourceInspectionLevel`을 분리해 표기.
+
+**근거/검토 문서:** [V4.61 서명본-번역 저본 혼동 방지 보고서](./V461_MARBURG_KZ_SOURCE_BASE_CONFLICT_AND_ARTICLE10_OCR_RESEARCH_KO.md)  
+**대조 데이터:** `research/data/ATLAS_V461_KZ_ARTICLES_7_13_15_EDITORIAL_ALIGNMENT_AND_CR26_TEXT_DIFF.json`  
+**감사 기록:** `research/data/ATLAS_V461_SOURCE_BASE_AND_OCR_AUDIT.json`  
+**테스트:** `v461-manuscript-edition-source-contract.test.mjs` GitHub 원본 테스트 본문을 V8에서 Node 파일 로드만 적응하여 실행한 **5/5 PASS**. GitHub Actions 실제 성공은 미확인.
+
+**출시 차단:** `can_ship=false`, `can_merge_main=false`, `can_import_ai_studio=false`. 역사 원고, main 및 실제 AI Studio 운영 앱 변경하지 않음.
