@@ -36,6 +36,13 @@ test("V4.52 research preview real-engine browser and accessibility smoke",async 
     assert.equal(await page.locator("#reader").getAttribute("role"),"tabpanel");
     assert.equal(await page.locator("#reader").getAttribute("aria-labelledby"),"l0");
     assert.ok((await page.locator("#reader").textContent()).length>200);
+    assert.equal(await page.locator("#reader h3").count(),4,"L0 Markdown subheadings are semantic");
+    assert.ok(await page.locator("#reader strong").count()>=10);
+    assert.ok(await page.locator("#reader em").count()>=1);
+    assert.equal(await page.locator("#reader hr").count(),1);
+    assert.doesNotMatch(await page.locator("#reader").innerText(),/\*\*|### /);
+    assert.equal(JSON.parse(await page.locator("#data").textContent()).l0.text,data.l0.text,"historical payload remains unchanged");
+
     const overflow=await page.evaluate(()=>({
       viewport:window.innerWidth,scroll:document.documentElement.scrollWidth,
       mobileSteps:window.getComputedStyle(document.getElementById("steps")).display
@@ -67,6 +74,10 @@ test("V4.52 research preview real-engine browser and accessibility smoke",async 
     await page.locator("#l1").click();
     assert.equal(await page.locator("#l1").getAttribute("aria-selected"),"true");
     assert.equal(await page.locator("#reader").getAttribute("aria-labelledby"),"l1");
+    assert.ok(await page.locator("#reader strong").count()>=5);
+    assert.equal(await page.locator("#reader h3").count(),0,"L1 has no artificial headings");
+    assert.doesNotMatch(await page.locator("#reader").innerText(),/\*\*/);
+
     assert.ok((await page.locator("#reader").textContent()).length>200);
     await page.locator("#l1").press("ArrowLeft");
     assert.equal(await page.locator("#l0").getAttribute("aria-selected"),"true");
