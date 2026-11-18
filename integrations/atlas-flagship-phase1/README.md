@@ -234,3 +234,20 @@ ATLAS_BROWSER=chromium node --test browser-smoke.test.mjs
 **테스트:** `v461-manuscript-edition-source-contract.test.mjs` GitHub 원본 테스트 본문을 V8에서 Node 파일 로드만 적응하여 실행한 **5/5 PASS**. GitHub Actions 실제 성공은 미확인.
 
 **출시 차단:** `can_ship=false`, `can_merge_main=false`, `can_import_ai_studio=false`. 역사 원고, main 및 실제 AI Studio 운영 앱 변경하지 않음.
+
+## V4.62 — 원본 지면 4개 직접 판독 확보 게이트와 기록
+
+- **원본 대상 4개 정리:** 1529 마르부르크 K·Z 각각 제15조, 1531 라틴어 `VD16 C4734`과 1540 Variata `VD16 C4713` 각각 제10조. **정확한 16세기 원문 지면 직접 판독 성공 0/4**, 이미지 체크섬 0건, 외교적 전사 0건으로 정확히 기록한다.
+- **Hessen Arcinsys 뷰어 구체적 확인:** `HStAM 3 Nr.245` 공식 열람기에 진입하여 `digitalMediaViewer.action?archivalDescriptionId=5447099`를 확인했고, JPG 디지털 복본 정보의 `representationId=14439026`을 식별했다. 현재 텍스트 도구에서는 로딩 이미지뿐이어서 제15조 직접 판독 실패.
+- **취리히/1883년:** 튀빙겐 OpenDigi 제56권(1883) 및 Usteri 파크시밀리 409–413쪽의 출처는 확인됐으나 PDF 다운로드 **시간 초과**. Z 문서의 실제 제15조 사진은 미확인.
+- **1531/1540년:** 바이에른 주립도서관 C4734의 288개 스캔은 서지 메타데이터로 확인했지만 실제 제10조 잎은 뷰어 접근 제한. Pitts 2017 도록 34쪽 및 독립 1540년 Google Books 책은 **표제지·서지 단계**이며 **Google 책이 Pitts C4713과 동일 판본인지 확인하지 않았다.**
+- **잎 번호의 별도 확인 필요:** HAPuls의 K `Bl.60–63`와 취리히 목록에 나온 K `fol.60r–64v`는 표기가 다르며 실제 지면과 목록 관습 대조 없이 누락·오기라고 단정하지 않는다.
+- **새 fail-closed 검증 코드:** `primary-source-evidence-gate.mjs`는 원문 사진 실제 열람, 원본 SHA256, 정확한 스캔/잎 번호, 독일어·라틴어 외교적 전사, 사람 QC를 모두 요구한다. 하나라도 미충족이면 '원문 직접 검증됨'으로 승격하지 않는다. 연구용 합성 데이터로 준비 조건을 시험해도 **릴리스 게이트는 항상 false**.
+- **검증:** 원본 GitHub 소스를 이용한 V8 적응 실행에서 5개 검증 그룹 **5/5 PASS**; `node --test` 및 실제 GitHub Actions 성공은 미확인. 연구 CI에는 테스트 경로를 추가했다.
+
+**작업 프로토콜:** [V4.62 원본 지면 확보·증거 승인](./V462_FOUR_ORIGINAL_FOLIO_ACQUISITION_AND_QC_PROTOCOL_KO.md)  
+**지면 4개·기관 접근 기록:** `research/data/ATLAS_V462_FOUR_PRIMARY_FOLIO_IMAGE_ACQUISITION_REGISTER.json`  
+**증거 판정:** `primary-source-evidence-gate.mjs`  
+**감사:** `research/data/ATLAS_V462_FOUR_FOLIOS_EVIDENCE_GATE_AUDIT.json`
+
+**차기 우선:** 화면 기능 확장이 아니라 **해당 지면 4개를 대학/기록관 원본 뷰어에서 실제 확보·전사**하여 1529 K/Z와 1531/1540 라틴어를 병렬 교감. 전문가 승인·독자 파일럿 이전에는 `can_ship=false`, `can_merge_main=false`, `can_import_ai_studio=false`. `main`과 실제 Google AI Studio 앱·역사 원고는 변경하지 않음.
