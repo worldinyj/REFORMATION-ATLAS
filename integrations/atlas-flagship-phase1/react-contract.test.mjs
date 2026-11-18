@@ -24,6 +24,9 @@ test("React candidate exposes evidence and edition comparison from the original 
  assert.match(jsx,/showEditionCompare/);
  assert.match(jsx,/sourceUrl/);
  assert.match(jsx,/role="tabpanel"/);
+ assert.match(jsx,/import \{parseResearchMarkdown\} from "\.\/research-markdown\.mjs"/);
+ assert.match(jsx,/React\.createElement\(block\.tag/);
+ assert.doesNotMatch(jsx,/StrongSegments|dangerouslySetInnerHTML/);
  assert.match(jsx,/onKeyDown=\{handleReadingKeyDown\}/);
  assert.match(jsx,/useId\(\)/);
  assert.match(jsx,/function handleRestart\(\)/);
