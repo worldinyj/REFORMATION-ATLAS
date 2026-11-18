@@ -1,0 +1,243 @@
+{
+  "schema": "ATLAS_PHASE0_AS_BUILT_REPO_AND_APP_INTEGRATION_GAP_REGISTER",
+  "date": "2026-11-18",
+  "status": "GITHUB_SOURCE_REVIEW_ONLY_ACTUAL_AI_STUDIO_RUNTIME_NOT_INSPECTED",
+  "repository": {
+    "fullName": "worldinyj/REFORMATION-ATLAS",
+    "defaultBranch": "main",
+    "visibility": "public",
+    "mainFilesObserved": [
+      "README.md"
+    ],
+    "mainApplicationImplementationPresent": false,
+    "branchContentAccess": "GITHUB_PUBLIC_CAN_READ_RESEARCH_BRANCHES",
+    "doNotConflateReleaseFlagWithAccessControl": true
+  },
+  "existingCodeAssets": [
+    {
+      "path": "integrations/atlas-l0-v430/bridge.mjs",
+      "role": "Framework-neutral V4.29 content bridge, 8-6-42-6 contract, source SHA in repo",
+      "state": "EXISTING_SOURCE_NOT_REAL_APP_CONNECTED"
+    },
+    {
+      "path": "integrations/atlas-l0-v431/AtlasL0Panel.jsx",
+      "role": "React L0 exploratory UI with component-scoped CSS and safe Markdown",
+      "state": "LOCAL_REACT_CANDIDATE_NOT_REAL_AI_STUDIO_APP"
+    },
+    {
+      "path": "research/prototypes/V451_L0_L1_OFFLINE_READER_PILOT.html",
+      "role": "Self-contained L0 V4.47 + L1 V4.50 proof-of-concept, local form export",
+      "state": "STATIC_QA_ONLY_REAL_BROWSER_PILOT_NOT_PERFORMED"
+    },
+    {
+      "path": "assets/maps/",
+      "role": "Four source-attributed and editable SVG draft maps only for VOL-03",
+      "state": "DRAFT_COORDINATES_UNVERIFIED_FALSE"
+    },
+    {
+      "path": "handoff/V429_AI_STUDIO_PRIVATE_L0_CONTENT_IMPORT.json",
+      "role": "Frozen 8 volumes, 6 themes, 42 theme links, 6 intro chapters",
+      "state": "PUBLIC_GITHUB_FILE_PRIVATE_APP_STAGING_INTENT_NOT_APPLIED"
+    }
+  ],
+  "sourceVersionGap": {
+    "frozenStaging": "V4.29",
+    "researchOverview": "V4.47",
+    "researchIntermediate": "V4.50",
+    "volumeCount": 8,
+    "stagingToResearchL0ChangedVolumes": 8,
+    "l1Chapters": 24,
+    "chapterBodyChars": 15031,
+    "themeLinks": 42,
+    "compatibilityByVolume": [
+      {
+        "volumeId": "VOL-01",
+        "stagingL0Title": "초대교회·고대교회",
+        "stagingL0BodyCharacters": 599,
+        "researchL0Title": "여럿의 언어와 도시에서 자라난 고대교회",
+        "researchL0BodyCharacters": 2056,
+        "sameBody": false,
+        "l1ChapterIds": [
+          "L448-01-01",
+          "L448-01-02",
+          "L448-01-03"
+        ],
+        "targetMigration": "REVIEW_DIFF_BEFORE_STAGING_NOT_AUTO_SWAP"
+      },
+      {
+        "volumeId": "VOL-02",
+        "stagingL0Title": "중세교회와 개혁의 배경",
+        "stagingL0BodyCharacters": 618,
+        "researchL0Title": "중세는 서유럽만의 시간이 아니었다",
+        "researchL0BodyCharacters": 2121,
+        "sameBody": false,
+        "l1ChapterIds": [
+          "L448-02-01",
+          "L448-02-02",
+          "L448-02-03"
+        ],
+        "targetMigration": "REVIEW_DIFF_BEFORE_STAGING_NOT_AUTO_SWAP"
+      },
+      {
+        "volumeId": "VOL-03",
+        "stagingL0Title": "다양한 중세 개혁 운동",
+        "stagingL0BodyCharacters": 628,
+        "researchL0Title": "개혁 이전의 개혁들은 한 길로 이어지지 않았다",
+        "researchL0BodyCharacters": 2138,
+        "sameBody": false,
+        "l1ChapterIds": [
+          "L448-03-01",
+          "L448-03-02",
+          "L448-03-03"
+        ],
+        "targetMigration": "REVIEW_DIFF_BEFORE_STAGING_NOT_AUTO_SWAP"
+      },
+      {
+        "volumeId": "VOL-04",
+        "stagingL0Title": "16세기 여러 종교개혁",
+        "stagingL0BodyCharacters": 704,
+        "researchL0Title": "한 번이 아니라 여러 갈래로 일어난 16세기 개혁",
+        "researchL0BodyCharacters": 2132,
+        "sameBody": false,
+        "l1ChapterIds": [
+          "L448-04-01",
+          "L448-04-02",
+          "L448-04-03"
+        ],
+        "targetMigration": "REVIEW_DIFF_BEFORE_STAGING_NOT_AUTO_SWAP"
+      },
+      {
+        "volumeId": "VOL-05",
+        "stagingL0Title": "가톨릭 개혁·갈등·공존",
+        "stagingL0BodyCharacters": 674,
+        "researchL0Title": "가톨릭 쇄신과 종교 갈등, 제한된 공존",
+        "researchL0BodyCharacters": 2281,
+        "sameBody": false,
+        "l1ChapterIds": [
+          "L448-05-01",
+          "L448-05-02",
+          "L448-05-03"
+        ],
+        "targetMigration": "REVIEW_DIFF_BEFORE_STAGING_NOT_AUTO_SWAP"
+      },
+      {
+        "volumeId": "VOL-06",
+        "stagingL0Title": "경건주의·부흥·세계선교",
+        "stagingL0BodyCharacters": 640,
+        "researchL0Title": "경건주의와 부흥, 언어를 가로지른 세계 선교",
+        "researchL0BodyCharacters": 2390,
+        "sameBody": false,
+        "l1ChapterIds": [
+          "L448-06-01",
+          "L448-06-02",
+          "L448-06-03"
+        ],
+        "targetMigration": "REVIEW_DIFF_BEFORE_STAGING_NOT_AUTO_SWAP"
+      },
+      {
+        "volumeId": "VOL-07",
+        "stagingL0Title": "세계와 한국 교회사",
+        "stagingL0BodyCharacters": 745,
+        "researchL0Title": "세계의 여러 중심과 한국교회의 형성",
+        "researchL0BodyCharacters": 2427,
+        "sameBody": false,
+        "l1ChapterIds": [
+          "L448-07-01",
+          "L448-07-02",
+          "L448-07-03"
+        ],
+        "targetMigration": "REVIEW_DIFF_BEFORE_STAGING_NOT_AUTO_SWAP"
+      },
+      {
+        "volumeId": "VOL-08",
+        "stagingL0Title": "여섯 주제와 문헌 아카이브",
+        "stagingL0BodyCharacters": 632,
+        "researchL0Title": "여섯 질문으로 다시 읽는 기독교사의 지도",
+        "researchL0BodyCharacters": 3081,
+        "sameBody": false,
+        "l1ChapterIds": [
+          "L448-08-01",
+          "L448-08-02",
+          "L448-08-03"
+        ],
+        "targetMigration": "REVIEW_DIFF_BEFORE_STAGING_NOT_AUTO_SWAP"
+      }
+    ],
+    "conclusion": "ID-level compatibility exists, but all eight L0 body texts and titles differ. A silent V4.29-to-V4.47 content swap is not approved; versioned staging preview and editorial review are required."
+  },
+  "notActuallyVerified": [
+    "Current independent AI Studio Build app source folder, router and package versions",
+    "AI Studio project identity or actual deployed URL",
+    "Whether any V4.29 content was imported into that app",
+    "Host-level access restrictions and whether published JavaScript packages expose research text",
+    "Actual application visual layout, navigation, mobile accessibility or runtime errors",
+    "Expert historian review and actual adult reader experience"
+  ],
+  "priorityBlockers": [
+    {
+      "id": "G0-ACCESS",
+      "severity": "CRITICAL",
+      "finding": "GitHub public branches are readable even with release flags set to false.",
+      "nextAction": "Agree separate access policy or private repository and server-enforced staging before content with restricted rights moves into app."
+    },
+    {
+      "id": "G0-REAL-APP",
+      "severity": "HIGH",
+      "finding": "Actual AI Studio Build app repository/project is not present in this GitHub branch; existing React component is a standalone candidate.",
+      "nextAction": "Obtain connected actual app source/export or runbook of current app to map router/auth/components before integration."
+    },
+    {
+      "id": "G0-VERSION",
+      "severity": "HIGH",
+      "finding": "All eight V4.29 app staging L0 bodies differ from newer V4.47 research overview; L1 is V4.50.",
+      "nextAction": "Use a versioned mapping, provide editorial diff review; do not silently replace existing L0 pages."
+    },
+    {
+      "id": "G0-HISTORY",
+      "severity": "HIGH",
+      "finding": "No historian signoffs; four high-risk historical holds remain.",
+      "nextAction": "Use research-only preview; attach evidence tiers and never display claims as certified."
+    },
+    {
+      "id": "G0-MAPS",
+      "severity": "MEDIUM",
+      "finding": "VOL-03 has four draft SVG source maps with modern approximate coordinates; no map approved for general release.",
+      "nextAction": "Use draft maps as a design reference, develop dated historical geography evidence before public display."
+    }
+  ],
+  "provenance": [
+    {
+      "path": "handoff/V429_AI_STUDIO_PRIVATE_L0_CONTENT_IMPORT.json",
+      "gitBlobSha": "64c27c0dfe05394acbb049807e4c4384d58908b9"
+    },
+    {
+      "path": "research/data/V4_47_TWO_SOURCE_GROUNDED_L0_HISTORY_CORRECTIONS.json",
+      "gitBlobSha": "9aebf094697d500930f58d894df16affc34a343c"
+    },
+    {
+      "path": "research/data/V4_50_L1_24_CHAPTER_INTEGRATED_REVISED_MASTER.json",
+      "gitBlobSha": "79a362734aa963eb41ad0424515e8d21074349c5"
+    },
+    {
+      "path": "integrations/atlas-l0-v431/README.md",
+      "gitBlobSha": "42e0e84fd9108ba4df945cf08040da900dc9d2b9"
+    },
+    {
+      "path": "assets/maps/README.md",
+      "gitBlobSha": "11d8aec84cd3117f465debee04d69d749c9dac9b"
+    },
+    {
+      "path": "research/strategy/ATLAS_STRATEGIC_CONTENT_PRODUCT_ROADMAP_20261118_KO.md",
+      "gitBlobSha": "27fefafc9e2a2558328bd77155130169f0a16327"
+    }
+  ],
+  "release": {
+    "canShip": false,
+    "canMergeMain": false,
+    "canImportAIStudio": false,
+    "actualAppCodeRead": false,
+    "actualAppUpdated": false,
+    "humanSignoffCount": 0
+  },
+  "nextSubstance": "Deliver a version-aware L0/L1 read-only adapter and representative 1529-1540 scene contract on integration research branch; do not alter V4.29 or V4.31 originals."
+}
