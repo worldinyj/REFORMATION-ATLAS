@@ -1,0 +1,211 @@
+{
+  "schema": "ATLAS_V461_PARALLEL_TEXT_WITNESS_SCOPE_AND_OCR_VARIANCE",
+  "date": "2026-11-18",
+  "project": "REFORMATION_ATLAS",
+  "scope": "1529 Marburg K vs Z additional clauses; 1531 vs 1540 Augsburg Article X critical apparatus",
+  "phase": "SOURCE_TEXT_PARALLEL_READING_NOT_FULL_ORIGINAL_LEAF_COLLATION",
+  "prev": [
+    "research/data/ATLAS_V459_MANUSCRIPT_PRINT_WITNESS_VARIANT_GRAPH.json",
+    "research/data/ATLAS_V460_CR26_ARTICLE_X_APPARATUS_AND_MARBURG_BASES.json"
+  ],
+  "sources": {
+    "STAZH": {
+      "url": "https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=618165",
+      "class": "OFFICIAL_ARCHIVAL_MANUSCRIPT_DESCRIPTION",
+      "witness": "Z vs K",
+      "locator": "Überlieferung: Z contains additions at articles 7,13,15 absent K; editions list K-based and Z-based texts"
+    },
+    "GHDI_DE": {
+      "url": "https://germanhistorydocs.org/de/von-den-reformationen-bis-zum-dreissigjaehrigen-krieg-1500-1648/die-marburger-religionsgespraeche-die-marburger-artikel-1529",
+      "class": "WA_30_III_DERIVED_EDITED_GERMAN_SOURCE",
+      "witness": "WA-edited; specific K/Z base not independently established",
+      "locator": "Articles 7,13,15 and bibliography"
+    },
+    "HAPULS_TRANSLATION": {
+      "url": "https://www.hapuls.de/node/1473",
+      "class": "MODERN_GERMAN_TRANSLATION_COMPOSITE_SOURCE",
+      "witness": "Page gives HStAM PA 245 as shelfmark, but editorial text contains passages identified by Zürich official catalogue as Z-only additions",
+      "locator": "Modern German translation article 7 paragraph end, article 13 end, article 15 first sentence; references G May 1970, Stupperich 1966 and Oberman 1994"
+    },
+    "HAPULS_DIGITIZED_K": {
+      "url": "https://www.hapuls.de/node/1472",
+      "class": "INSTITUTIONAL_PAGE_WITH_COMPLETE_ORIGINAL_DIGITALIZATIONS_LISTED",
+      "witness": "K Hessian; original image display claimed complete but no individual Article15 leaf fetched or read",
+      "locator": "HStAM PA Nr245, Bl60-63; images shown by site but no fetched page pixels in this run"
+    },
+    "MBW825": {
+      "url": "https://melanchthon.hadw-bw.de/regest.html?reg_nr=825",
+      "class": "CRITICAL_EDITORIAL_REGEST",
+      "witness": "Bibliographic overview of Marburg Articles",
+      "locator": "MBW 825, 3[4] Oct 1529, CR26 pp121–128, WA30/III pp160–171, May 1970 pp67–70"
+    },
+    "TUEBINGEN_1883": {
+      "url": "https://opendigi.ub.uni-tuebingen.de/opendigi/thstkr_1883",
+      "class": "DIGITIZED_FACSIMILE_EDITION_VOLUME_INDEX_NOT_IMAGE_RETRIEVED",
+      "witness": "Usteri 1883 Zurich Z facsimile printed pp409–413",
+      "locator": "Theologische Studien und Kritiken volume56/1883 digitized catalogue; PDF endpoint timed out in current research runtime"
+    },
+    "CR26_P357": {
+      "url": "https://www.augsburg1540.com/uploads/1/3/8/9/138903771/1540_latin_text_from_corpus_reformandum.pdf",
+      "class": "1858_CRITICAL_LATIN_EDITED_PRINT_SCREENSHOT",
+      "witness": "Ed1 1531, Ed2 1531, Ed3 1540, Ed4 1541–42",
+      "locator": "Printed p357, PDF zero-index p5, Article X and footnote 34; web screenshot directly inspected"
+    },
+    "SCHAFF": {
+      "url": "https://www.ccel.org/ccel/schaff/creeds1/creeds1.viii.ii.html",
+      "class": "19TH_CENTURY_COMPARATIVE_TEXT_TRANSCRIPTION",
+      "witness": "1531 and 1540 Latin reading as later transcribed",
+      "locator": "Parallel readings of article X, vere exhibeantur"
+    },
+    "MDZ1531": {
+      "url": "https://www.digitale-sammlungen.de/en/details/bsb11411960",
+      "class": "ORIGINAL_PRINT_DIGITIZATION_METADATA_ONLY",
+      "witness": "1531 VD16 C4734 Latin",
+      "locator": "Digitized item record; actual article X image not fetched"
+    },
+    "PITTS1540": {
+      "url": "https://dia.pitts.emory.edu/exhibits/exhibitcatalogs/Kessler2017ExhibitionCatalogue.pdf",
+      "class": "EXHIBITION_CATALOGUE_WITNESS",
+      "witness": "1540 Variata VD16 C4713",
+      "locator": "Printed p34; actual article X image not fetched"
+    }
+  },
+  "passages": [
+    {
+      "id": "P461-KZ-07",
+      "article": 7,
+      "sourceIds": [
+        "STAZH",
+        "GHDI_DE",
+        "HAPULS_TRANSLATION"
+      ],
+      "archiveDifference": "Z addition / K omission certified",
+      "editedGermanSnippet": "GHDI Article 7 stops after faith/participation passage",
+      "modernGermanParaphrase": "Modern HAPuls translation includes a rejection of monastic life and vows as useful for achieving righteousness",
+      "alignment": "MODERN_TRANSLATION_CONTAINS_Z_ADDITION_WHILE_LISTING_K_SHELFMARK",
+      "exactZOriginalGerman": null,
+      "exactKOriginalGerman": null,
+      "zManuscriptLeafRead": false,
+      "kManuscriptLeafRead": false,
+      "level": "PARALLEL_EDITED_TEXT_WITH_ARCHIVE_GUIDANCE"
+    },
+    {
+      "id": "P461-KZ-13",
+      "article": 13,
+      "sourceIds": [
+        "STAZH",
+        "GHDI_DE",
+        "HAPULS_TRANSLATION"
+      ],
+      "archiveDifference": "Z addition / K omission certified",
+      "editedGermanSnippet": "GHDI Article 13 stops at avoiding offense and serving peace",
+      "modernGermanParaphrase": "Modern HAPuls translation adds rejection of a teaching forbidding priestly marriage",
+      "alignment": "MODERN_TRANSLATION_CONTAINS_Z_ADDITION_WHILE_LISTING_K_SHELFMARK",
+      "exactZOriginalGerman": null,
+      "exactKOriginalGerman": null,
+      "zManuscriptLeafRead": false,
+      "kManuscriptLeafRead": false,
+      "level": "PARALLEL_EDITED_TEXT_WITH_ARCHIVE_GUIDANCE"
+    },
+    {
+      "id": "P461-KZ-15",
+      "article": 15,
+      "sourceIds": [
+        "STAZH",
+        "GHDI_DE",
+        "HAPULS_TRANSLATION"
+      ],
+      "archiveDifference": "Z addition / K omission certified",
+      "editedGermanSnippet": "GHDI German Article 15: shared use in both forms, sacrament of true body/blood, spiritual reception, then bodily-presence disagreement; no mass-as-work clause shown",
+      "modernGermanParaphrase": "HAPuls inserts that the Mass is not a work procuring grace for another, alive or deceased",
+      "alignment": "MODERN_TRANSLATION_CONTAINS_Z_ADDITION_WHILE_LISTING_K_SHELFMARK",
+      "exactZOriginalGerman": null,
+      "exactKOriginalGerman": null,
+      "zManuscriptLeafRead": false,
+      "kManuscriptLeafRead": false,
+      "level": "PARALLEL_EDITED_TEXT_WITH_ARCHIVE_GUIDANCE"
+    }
+  ],
+  "materialTextualDiff": {
+    "locus": "Augsburg Confession Article X",
+    "base": "1858 Corpus Reformatorum 26 p357 critical edition, Ed3 central text vs Ed1/Ed2 note34",
+    "earlierEd1Ed2": {
+      "reading": "quod corpus et sanguis Christi vere adsint, et distribuantur vescentibus in coena Domini",
+      "from": "CR26 1858 printed footnote34 and later scholarly transcriptions",
+      "direct1531OriginalImageRead": false
+    },
+    "laterEd3Ed4": {
+      "reading": "quod cum pane et vino vere exhibeantur corpus et sanguis Christi, vescentibus in Coena Domini",
+      "from": "CR26 1858 central text page357 and independent historical parallel transcription",
+      "pdfExtractVariant": "web PDF text extraction dropped n and returns exhibeatur",
+      "visualReview": "Screenshot printed p357 appears exhibeantur, corroborated by independent Schaff transcription; requires 1540 physical original page to settle exact 16c spelling",
+      "direct1540OriginalImageRead": false
+    },
+    "earlierCondemnation": {
+      "status": "RETAINED_IN_1858_CRITICAL_NOTE_FOR_Ed1Ed2",
+      "laterStatus": "ABSENT_FROM_Ed3_CENTERED_TEXT",
+      "textWarning": "OCR extraction of the note has grammatically inconsistent ending; avoid verbatim reconstruction without original printed book leaf or manuscript collation"
+    },
+    "status": "NINETEENTH_CENTURY_EDITORIAL_TEXT_DIFF_NOT_EARLY_PRINT_AUTOPSY",
+    "direct16cPageDiffCompleted": false
+  },
+  "provenanceMisassignmentGuard": {
+    "id": "SCOPE461-01",
+    "severity": "HIGH",
+    "trigger": "modern translation appears under Hessian original shelfmark but includes Z-only clauses",
+    "violation": "treat HAPuls modern prose as a diplomatic K manuscript transcription",
+    "allowed": "identify translation source and specify it contains passages also described as Z additions; do not assert exact witness of the modern translation",
+    "remedy": "explicit fields archivalShelfmark, editorialTextSource, selectedReadingFamily and translatedComposite flag"
+  },
+  "documentDiscovery": [
+    {
+      "sourceId": "HAPULS_DIGITIZED_K",
+      "whatFound": "Dedicated full original digitalizations page for Hessian signed Marburg agreement, HStAM PA Nr245",
+      "status": "DIGITIZATION_LOCATED_ARTICLE15_IMAGE_NOT_READ"
+    },
+    {
+      "sourceId": "TUEBINGEN_1883",
+      "whatFound": "University of Tübingen open repository offers 1883 volume 56 carrying Usteri Zürich original facsimile at printed pp409–413",
+      "status": "FACSIMILE_ISSUE_LOCATED_PDF_ENDPOINT_TIMED_OUT"
+    },
+    {
+      "sourceId": "MDZ1531",
+      "whatFound": "MDZ IIIF endpoint documentation available but requested original Latin manifest inaccessible to current web tool",
+      "status": "DIGITAL_OBJECT_LOCATED_ARTICLE10_IMAGE_NOT_READ"
+    }
+  ],
+  "verification": {
+    "sourcePagesRead": [
+      "STAZH",
+      "GHDI_DE",
+      "HAPULS_TRANSLATION",
+      "HAPULS_DIGITIZED_K",
+      "MBW825",
+      "CR26_P357",
+      "TUEBINGEN_1883",
+      "SCHAFF",
+      "MDZ1531"
+    ],
+    "screenshot1858CriticalPageViewed": true,
+    "original1529ZArt15PixelViewed": false,
+    "original1529KArt15PixelViewed": false,
+    "original1531LatinArt10PixelViewed": false,
+    "original1540VariataArt10PixelViewed": false,
+    "editedSourceParallelArtDifferences": 3,
+    "historianApprovals": 0,
+    "realReaders": 0
+  },
+  "nextSteps": [
+    "Obtain downloaded Usteri 1883 pp409–413 or diplomatic Z reading to transcribe precise additional clauses; compare Hessian K Art15 full page.",
+    "Retrieve HAPuls Hessian K original digital scan leaves matching the Article15 section and validate which edited source HAPuls uses for translation.",
+    "Use MDZ IIIF or authorized archival downloads to read 1531 C4734 and Pitts 1540 C4713 Latin original images in Article X; do not infer from 1858.",
+    "Mark any user-facing historical prose citation with witness type and exact text base; do not promote historic interpretation absent human peer review."
+  ],
+  "release": {
+    "canShip": false,
+    "canMergeMain": false,
+    "canImportAIStudio": false
+  },
+  "sourceHistoricalProseModified": false,
+  "actualAIStudioModified": false
+}
