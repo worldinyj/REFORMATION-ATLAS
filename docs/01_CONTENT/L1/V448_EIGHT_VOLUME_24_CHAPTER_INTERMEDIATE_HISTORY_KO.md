@@ -1,12 +1,12 @@
 # 종교개혁 ATLAS — 8권 중급 역사 해설(L1) 24장 통합 원고
 
-> V4.48 · 2026-11-18 · **새로 작성된 역사 콘텐츠 연구 초안** · 역사학자 검토 없음 · 독자 테스트 없음 · 출판·AI Studio 반영 금지 (`can_ship=false`)
+> V4.48 · 2026-11-18 · **역사 콘텐츠 연구 초안** · 역사학자 검토 없음 · 실제 독자 테스트 없음 · 공개·AI Studio 반영 금지 (`can_ship=false`)
 
-## 이 원고를 읽는 방법
+## L0 개요에서 L1 심화로 넘어가는 방법
 
-기존 L0는 각 시대의 큰 지도를 보여 주고, **이번 L1은 그 지도 안에서 역사적 선택과 변화가 왜 서로 달랐는지** 설명한다. 한 권은 세 장으로 구성했다. 각 장은 원고 본문, 한 문장 핵심 논지, 확인 자료, 상세 연구로 넘어갈 때의 역사적 주의점으로 이루어져 있다. 제1~7권은 대략적인 시대·지역 흐름이며, 제8권은 또 하나의 시대가 아니라 여섯 주제를 앞의 역사권과 비교하는 안내서다.
+L0는 시대와 지역의 전체 흐름을 보여 주고, 이 원고의 L1은 그 안에서 어떤 변화가 왜 다른 결과를 낳았는지 설명한다. 각 권은 세 장이며, 각각 배경과 핵심 논지, 확인 가능한 공개 자료, 아직 해결하지 않은 검토 주의점을 연결했다. 제8권은 여덟 번째 시대가 아니라 앞선 역사권을 여섯 질문으로 비교하는 안내서다.
 
-특정 시대의 교파 문서와 오늘날의 신학적 평가를 동일한 종류의 근거로 취급하지 않는다. 아래 외부 링크는 각 주제의 공공 자료·학술 참고점이지, 해당 문헌의 모든 원본 판본을 직접 교감했다는 의미가 아니다. 출처의 전체 저작물을 복제하지 않고 독립적인 한국어 역사 해설을 작성했다.
+각 문단은 독립적으로 작성한 한국어 역사 해설이며 외부의 유료 학술서나 원전 전문을 복제하지 않는다. 연결한 출처는 역사적 맥락을 확인하는 참고자료이며, 특정 인쇄본·필사본·교리 해석의 모든 문장을 직접 대조했다는 뜻은 아니다. 신학적 평가가 다른 전통들에는 각자의 자기 설명과 사료 수준을 구분해 적용해야 한다.
 
 ---
 
@@ -16,17 +16,17 @@
 
 *시대: 1–3세기*
 
-초기 기독교의 이야기를 한 수도에서 모든 지역으로 명령이 전달된 역사로 상상하면 그 시대 공동체의 실제 조건을 놓친다. 지중해의 도시들을 오가는 상인과 여행자, 가정집의 신앙 모임과 편지를 읽어 주는 사람들은 신앙이 공유되는 통로였다. 유대교적 배경에서 나온 신앙의 언어는 헬라어 문화권에서 새로운 질문을 만났다. 복음이 전해졌다는 사실과 각 도시의 공동체가 동일한 예배 형식과 지도 체계를 가졌다는 사실은 다르다.
+초기 기독교의 이야기를 한 수도에서 모든 지역으로 명령이 전달된 역사로 상상하면 그 시대 공동체의 실제 조건을 놓친다. 지중해의 도시 교통망과 바울의 서신·동역자, 유대 디아스포라의 관계망은 초기 공동체를 이해하는 실마리다. 다만 상인이나 여행자가 실제 전파를 주도했다는 보편적 도식은 연구에서 논쟁 중이므로 그 역할을 일률적으로 확정하지 않는다. 유대교적 배경에서 나온 신앙의 언어는 헬라어 문화권에서 새로운 질문을 만났다. 복음이 전해졌다는 사실과 각 도시의 공동체가 동일한 예배 형식과 지도 체계를 가졌다는 사실은 다르다.
 
 더 중요한 변화는 전달만이 아니라 **해석의 공동 참여**였다. 문헌을 읽을 수 있는 사람과 듣는 사람, 가르치는 사람과 돌봄을 받는 사람이 각자의 사회적 위치에서 신앙의 의미를 물었다. 같은 본문을 두고도 그리스도에 대한 설명, 재산과 가난, 지역 지도자의 권한은 서로 다르게 논의될 수 있었다. 성경의 책들과 전승이 수집되고 보존되는 과정도 한 번에 마감된 명령이 아니었다. 독자는 ‘누가 전달했는가’와 함께 ‘누가 들었으며 어떻게 받아들였는가’를 질문해야 한다.
 
-**핵심:** 전파의 방향뿐 아니라 언어와 지역 공동체의 해석 주체가 고대 기독교를 형성했다.
+**한 문장 핵심:** 전파의 방향뿐 아니라 언어와 지역 공동체의 해석 주체가 고대 기독교를 형성했다.
 
-**문헌·자료 확인:** [참고 1](https://www.oca.org/orthodoxy/the-orthodox-faith/church-history/fifth-century/the-fourth-ecumenical-council)
+**근거·참고:** [자료 1](https://www.oca.org/orthodoxy/the-orthodox-faith/church-history/fifth-century/the-fourth-ecumenical-council) · [자료 2](https://www.cambridge.org/core/books/abs/cambridge-history-of-christianity/from-jerusalem-to-the-ends-of-the-earth/A0C7E7079C3BFBA0DCD2E41F30F02AF1) · [자료 3](https://www.cambridge.org/core/books/abs/empire-and-religion-in-the-roman-world/missionaries-pious-merchants-freelance-religious-experts-and-the-spread-of-christianity/5E3858F88372E2340C24E1D47EDA00C5)
 
-<편집 검토 주의> Early Christian city-level examples are synthesized broadly; specialist review of early source testimonies pending.
+**편집 검토 주의:** Early Christian city-level examples are synthesized broadly; specialist review of early source testimonies pending. Early diffusion agent assumptions remain contested in recent scholarship.
 
-*다른 권과 연결: VOL-02, VOL-08*
+*연결 권: VOL-02, VOL-08*
 
 ### 1.2 박해와 황실 보호 이후에도 지역은 달랐다
 
@@ -36,13 +36,13 @@
 
 4세기 악숨 왕국의 에자나 왕을 살피면 이런 구분이 뚜렷해진다. 아프리카 북동부와 홍해의 교류망을 지닌 악숨에서 기독교의 왕실 수용은 중요한 전환이었다. 메트로폴리탄 미술관의 연구는 그 초기 수용이 먼저 왕실 엘리트에 집중되었다고 설명한다. 이것은 아프리카 기독교가 근대 유럽 선교의 부속물이 아니라 독자적인 고대 역사를 갖고 있음을 보여 준다. 동시에 왕의 신앙을 모든 백성의 신앙으로 확장하지 말라는 자료상의 경고이기도 하다.
 
-**핵심:** 국가의 신앙 수용, 공동체의 성립, 주민의 개종은 서로 다른 변화다.
+**한 문장 핵심:** 국가의 신앙 수용, 공동체의 성립, 주민의 개종은 서로 다른 변화다.
 
-**문헌·자료 확인:** [참고 1](https://www.metmuseum.org/pt/essays/foundations-of-aksumite-civilization-and-its-christian-legacy-1st-7th-century) · [참고 2](https://whc.unesco.org/en/list/15)
+**근거·참고:** [자료 1](https://www.metmuseum.org/pt/essays/foundations-of-aksumite-civilization-and-its-christian-legacy-1st-7th-century) · [자료 2](https://whc.unesco.org/en/list/15)
 
-<편집 검토 주의> Aksum religion and chronology are inferred from museum and heritage syntheses rather than individual epigraphic collation.
+**편집 검토 주의:** Aksum religion and chronology are inferred from museum and heritage syntheses rather than individual epigraphic collation.
 
-*다른 권과 연결: VOL-02, VOL-07*
+*연결 권: VOL-02, VOL-07*
 
 ### 1.3 공의회는 질문을 정리했지만 모든 차이를 지우지 못했다
 
@@ -52,13 +52,13 @@
 
 특히 칼케돈을 둘러싼 전통의 차이는 ‘동방교회’라는 하나의 이름 아래 여러 역사를 밀어 넣어서는 안 되는 이유를 보여 준다. 오늘날 비잔틴 전통의 동방 정교회, 콥트·시리아·아르메니아 계열의 오리엔트 정교회, 그 밖의 동방교회는 서로 구별해야 한다. 어느 전통의 신학적 자기 설명을 존중하면서도 교회의 조직·전승·정치적 환경이 달랐다는 역사적 사실을 설명할 수 있다. 이 권에서 배워야 할 것은 교리 합의의 이름뿐 아니라 **합의가 지역에 도달하는 과정의 복잡성**이다.
 
-**핵심:** 공의회 문서와 지역 교회의 수용은 별개의 역사적 과정이다.
+**한 문장 핵심:** 공의회 문서와 지역 교회의 수용은 별개의 역사적 과정이다.
 
-**문헌·자료 확인:** [참고 1](https://www.oca.org/orthodoxy/the-orthodox-faith/church-history/fifth-century/the-fourth-ecumenical-council) · [참고 2](https://www.newadvent.org/cathen/03555a.htm)
+**근거·참고:** [자료 1](https://www.oca.org/orthodoxy/the-orthodox-faith/church-history/fifth-century/the-fourth-ecumenical-council) · [자료 2](https://www.newadvent.org/cathen/03555a.htm)
 
-<편집 검토 주의> Contrasting confessional self-descriptions require expert checking before public release.
+**편집 검토 주의:** Contrasting confessional self-descriptions require expert checking before public release.
 
-*다른 권과 연결: VOL-02, VOL-07, VOL-08*
+*연결 권: VOL-02, VOL-07, VOL-08*
 
 ---
 
@@ -72,13 +72,13 @@
 
 특히 시리아어 문학과 번역의 이동은 서유럽의 정치적 경계 밖에서도 신학과 예배가 이어졌다는 사실을 보여 준다. 반대로 서로 연결된 문헌이 있다고 모든 공동체가 하나의 행정 조직에 속했다는 뜻도 아니다. 도시·수도원·상업망·교역로는 사상의 이동을 설명하지만, 교리와 소속을 확인할 때는 개별 문헌과 전승을 따져야 한다. 이 권에서는 누가 중심이었는가보다 서로 다른 중심 사이의 **접촉과 거리**를 함께 읽는다.
 
-**핵심:** 서유럽 중심의 단일 시간표로 중세 기독교사를 설명할 수 없다.
+**한 문장 핵심:** 서유럽 중심의 단일 시간표로 중세 기독교사를 설명할 수 없다.
 
-**문헌·자료 확인:** [참고 1](https://www.mcgill.ca/religiousstudies/about/birks-building/jingiao-stele) · [참고 2](https://www.metmuseum.org/fr/essays/african-christianity-in-ethiopia)
+**근거·참고:** [자료 1](https://www.mcgill.ca/religiousstudies/about/birks-building/jingiao-stele) · [자료 2](https://www.metmuseum.org/fr/essays/african-christianity-in-ethiopia)
 
-<편집 검토 주의> Broad regional synthesis: local chronology and church authority distinctions need specialist verification.
+**편집 검토 주의:** Broad regional synthesis: local chronology and church authority distinctions need specialist verification.
 
-*다른 권과 연결: VOL-01, VOL-03, VOL-07*
+*연결 권: VOL-01, VOL-03, VOL-07*
 
 ### 2.2 경교비에서 읽는 635년의 사건과 781년의 증언
 
@@ -88,13 +88,13 @@
 
 맥길대학교의 경교비 해설은 이 연대 차이와 중국적 표현을 함께 강조한다. 스미스소니언 박물관의 탁본 소장 정보도 비석 원문 제작 시점과 훗날 만들어진 탁본의 시점을 구별하게 한다. 지역을 연결하는 길이 있었다는 사실만으로 특정 연도의 조직 규모나 모든 교인의 신학을 확정할 수 없다. 중요한 질문은 ‘중국에 기독교가 언제 등장했는가’뿐 아니라 **우리가 그 사실을 어떤 종류의 기록으로 아는가**이다.
 
-**핵심:** 비문의 제작 연대·서술 대상 연대·현존 탁본의 연대를 구별한다.
+**한 문장 핵심:** 비문의 제작 연대·서술 대상 연대·현존 탁본의 연대를 구별한다.
 
-**문헌·자료 확인:** [참고 1](https://www.mcgill.ca/religiousstudies/about/birks-building/jingiao-stele) · [참고 2](https://asia-archive.si.edu/object/F1976.28.2a-d/)
+**근거·참고:** [자료 1](https://www.mcgill.ca/religiousstudies/about/birks-building/jingiao-stele) · [자료 2](https://asia-archive.si.edu/object/F1976.28.2a-d/)
 
-<편집 검토 주의> No direct Chinese/Syriac epigraphic transcription collation is claimed.
+**편집 검토 주의:** No direct Chinese/Syriac epigraphic transcription collation is claimed.
 
-*다른 권과 연결: VOL-01, VOL-06, VOL-08*
+*연결 권: VOL-01, VOL-06, VOL-08*
 
 ### 2.3 분열의 날짜보다 관계의 변화를 읽기
 
@@ -104,13 +104,13 @@
 
 서유럽 내부에서도 교회의 재산과 권력, 성직자의 생활, 평신도의 설교와 교육을 둘러싼 개혁의 요구가 쌓였다. 이 갈등을 16세기 개신교가 ‘미리 태어나려고’ 겪은 고통으로 읽을 필요는 없다. 중세의 사람들은 자기 시대의 질서와 신앙 문제에 응답하고 있었으며, 그중 일부가 후대 개혁자들에게 영향을 주었다. **영향 관계와 동일한 제도·교리의 계승을 구별하는 것**이 다음 권을 읽는 출발점이다.
 
-**핵심:** 1054/1204는 분열이라는 한 줄 결말보다 관계의 복잡한 변화를 보여 준다.
+**한 문장 핵심:** 1054/1204는 분열이라는 한 줄 결말보다 관계의 복잡한 변화를 보여 준다.
 
-**문헌·자료 확인:** [참고 1](https://www.oca.org/orthodoxy/the-orthodox-faith/church-history/fifth-century/the-fourth-ecumenical-council) · [참고 2](https://www.mcgill.ca/religiousstudies/about/birks-building/jingiao-stele)
+**근거·참고:** [자료 1](https://www.oca.org/orthodoxy/the-orthodox-faith/church-history/fifth-century/the-fourth-ecumenical-council) · [자료 2](https://www.mcgill.ca/religiousstudies/about/birks-building/jingiao-stele) · [자료 3](https://academic.oup.com/book/5994) · [자료 4](https://www.tandfonline.com/doi/abs/10.1080/28327861.2014.12220388)
 
-<편집 검토 주의> 1054 and 1204 are established general history, but specific original chronicles were not re-read in this L1 task.
+**편집 검토 주의:** 1054 and 1204 are established general history, but specific original chronicles were not re-read in this L1 task. Additional specialized sources linked; exact passages have not been critically collated.
 
-*다른 권과 연결: VOL-03, VOL-05*
+*연결 권: VOL-03, VOL-05*
 
 ---
 
@@ -124,13 +124,13 @@
 
 16세기에 개혁파 사상과 접촉하면서 왈도파 공동체에도 변화가 일어났지만, 그 과정을 1532년 한 날에 조직 전체가 즉시 바뀐 사건으로 요약하면 곤란하다. 미국 왈도파협회의 역사 설명은 1532년 모임을 다루면서 ‘찬포란 시노드’라는 이름이 훗날 붙었다고 밝힌다. 여기서 모임의 당시 기록과 후대의 역사적 이름, 더 늦게 형성된 교단 정체성은 각각 다른 검증 대상이다. **이름이 비슷한 공동체들을 무조건 연결하지 않는 것**이 역사 해설의 출발점이다.
 
-**핵심:** 왈도파의 당대 청빈 운동과 개혁파 접촉, 후대 교파명·계보를 분리한다.
+**한 문장 핵심:** 왈도파의 당대 청빈 운동과 개혁파 접촉, 후대 교파명·계보를 분리한다.
 
-**문헌·자료 확인:** [참고 1](https://www.waldensian.org/history/encounters-with-the-reformation-in-the-1530s/) · [참고 2](https://www.mdpi.com/2077-1444/14/1/4)
+**근거·참고:** [자료 1](https://www.waldensian.org/history/encounters-with-the-reformation-in-the-1530s/) · [자료 2](https://www.mdpi.com/2077-1444/14/1/4)
 
-<편집 검토 주의> 1532 meeting's original manuscript and later naming remain unresolved C417-18; no automatic denominational succession.
+**편집 검토 주의:** 1532 meeting's original manuscript and later naming remain unresolved C417-18; no automatic denominational succession.
 
-*다른 권과 연결: VOL-04, VOL-08*
+*연결 권: VOL-04, VOL-08*
 
 ### 3.2 위클리프와 후스: 영향을 받았어도 똑같이 믿지는 않았다
 
@@ -140,13 +140,13 @@
 
 특히 성찬에서 위클리프는 축성 뒤에도 빵의 실체가 남는다는 견해를 주장했지만, 후스 개인의 입장을 그와 같은 성찬론으로 묶는 것은 적절하지 않다. 후스가 실체변화를 수용했다는 구별은 관련 교리사 연구를 통해 확인해야 한다. 그렇다고 후스파 내부의 모든 집단이 후스 개인과 완전히 같은 입장을 고수했다고 일반화해서도 안 된다. 한 사람의 사상이 어떤 대학·도시·후대 운동으로 전해졌는지를 살피는 일과 **그 운동 전체에 한 신학을 배정하는 일**은 다르다.
 
-**핵심:** 사상적 영향과 구체적 교리의 동일성을 분리한다.
+**한 문장 핵심:** 사상적 영향과 구체적 교리의 동일성을 분리한다.
 
-**문헌·자료 확인:** [참고 1](https://www.muni.cz/en/research/publications/1826257) · [참고 2](https://www.cambridge.org/core/journals/church-history/article/abs/john-wyclif-and-hussite-theology-14151436/54C10C6F7EEFB5409E2291C9F4194ABF)
+**근거·참고:** [자료 1](https://www.muni.cz/en/research/publications/1826257) · [자료 2](https://www.cambridge.org/core/journals/church-history/article/abs/john-wyclif-and-hussite-theology-14151436/54C10C6F7EEFB5409E2291C9F4194ABF)
 
-<편집 검토 주의> Wyclif/Hus eucharistic doctrines need specialist primary-text review; published abstracts screened, not full Latin collation.
+**편집 검토 주의:** Wyclif/Hus eucharistic doctrines need specialist primary-text review; published abstracts screened, not full Latin collation.
 
-*다른 권과 연결: VOL-04, VOL-08*
+*연결 권: VOL-04, VOL-08*
 
 ### 3.3 프라하 4개조에서 바젤 협상까지: 요구·전쟁·법의 시간표
 
@@ -156,13 +156,13 @@
 
 요구 조항이 정리된 때와 전쟁이 진행된 때, 공의회에서 협상한 때, 합의가 법적으로 공포된 때를 구분하는 것도 중요하다. 프라하 4개조는 1420년의 흐름 속에서 등장했고 문서의 공표와 수정 과정도 이어졌다. 1433년 바젤 협상과 1436년 이흘라바의 콤팍타타 공포는 같은 사건이 아니다. 성찬파와 타보르파, 폭력의 문제를 비판한 다른 개혁 전통은 각자의 선택을 했다. 여기서의 핵심은 **종교적 요구가 정치 제도가 되는 과정에서 합의와 갈등이 공존했다**는 사실이다.
 
-**핵심:** 개혁 요구, 정치·군사 갈등, 법적 합의의 단계를 구별한다.
+**한 문장 핵심:** 개혁 요구, 정치·군사 갈등, 법적 합의의 단계를 구별한다.
 
-**문헌·자료 확인:** [참고 1](https://nomos.is.cuni.cz/publication/606550) · [참고 2](https://www.muni.cz/en/research/publications/2437517)
+**근거·참고:** [자료 1](https://nomos.is.cuni.cz/publication/606550) · [자료 2](https://www.muni.cz/en/research/publications/2437517)
 
-<편집 검토 주의> 1420/1421 articulations and 1433/1436 diplomatic forms remain separate; specific manuscript reading pending.
+**편집 검토 주의:** 1420/1421 articulations and 1433/1436 diplomatic forms remain separate; specific manuscript reading pending.
 
-*다른 권과 연결: VOL-04, VOL-05, VOL-08*
+*연결 권: VOL-04, VOL-05, VOL-08*
 
 ---
 
@@ -176,13 +176,13 @@
 
 그러므로 어떤 지역에서는 새로운 교회 제도가 정치권력의 보호 아래 자리 잡았고, 어떤 지역에서는 소수자의 신앙이 박해와 망명을 통해 이어졌다. 각 지역의 인쇄·정치·교육 환경은 개혁의 속도와 형태에 영향을 주었다. 가톨릭 지역에서도 그 이전부터 진행되던 성직자 교육과 수도회 개혁, 경건의 변화가 사라지지 않았다. **개혁이 일어났다는 사실과 모든 공동체가 같은 제도로 바뀌었다는 주장은 다르다.**
 
-**핵심:** 신학적 논쟁의 확산과 지역 제도 개혁을 구별한다.
+**한 문장 핵심:** 신학적 논쟁의 확산과 지역 제도 개혁을 구별한다.
 
-**문헌·자료 확인:** [참고 1](https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/the-marburg-colloquy-the-marburg-articles-1529) · [참고 2](https://www.saet.ac.uk/Christianity/CouncilofTrent)
+**근거·참고:** [자료 1](https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/the-marburg-colloquy-the-marburg-articles-1529) · [자료 2](https://www.saet.ac.uk/Christianity/CouncilofTrent)
 
-<편집 검토 주의> Macro synthesis; regional denominational cases should be source-checked before detailed expansion.
+**편집 검토 주의:** Macro synthesis; regional denominational cases should be source-checked before detailed expansion.
 
-*다른 권과 연결: VOL-03, VOL-05*
+*연결 권: VOL-03, VOL-05*
 
 ### 4.2 마르부르크의 합의와 아우크스부르크 판본: 신학과 서지의 차이
 
@@ -192,13 +192,13 @@
 
 1530년 아우크스부르크 신앙고백은 제국회의에 제출된 문서였지만, 그 뒤에 등장한 인쇄물들은 서로 다른 판본과 편집 상황을 지녔다. 1531년 인쇄본과 1540년 멜란히톤의 수정본인 Variata를 구별해야 한다. 더 세밀하게 보면 희귀본 소장목록에는 1540년판 가운데서도 Variata가 아닌 인쇄물이 확인된다. 따라서 **동일 인쇄 연도는 동일 본문을 보장하지 않으며**, 어떤 문장이 교파의 공식 입장이 되었는지는 별도로 확인해야 한다.
 
-**핵심:** 마르부르크의 신학적 합의 범위와 아우크스부르크 신앙고백의 판본 범위가 각각 다르다.
+**한 문장 핵심:** 마르부르크의 신학적 합의 범위와 아우크스부르크 신앙고백의 판본 범위가 각각 다르다.
 
-**문헌·자료 확인:** [참고 1](https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/the-marburg-colloquy-the-marburg-articles-1529) · [참고 2](https://gruber.lstc.edu/confessions/augs_apol.php)
+**근거·참고:** [자료 1](https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/the-marburg-colloquy-the-marburg-articles-1529) · [자료 2](https://gruber.lstc.edu/confessions/augs_apol.php)
 
-<편집 검토 주의> C417-11/12 still held; no complete editorial collation of 1530/1531/1540 specific copies.
+**편집 검토 주의:** C417-11/12 still held; no complete editorial collation of 1530/1531/1540 specific copies.
 
-*다른 권과 연결: VOL-03, VOL-05, VOL-08*
+*연결 권: VOL-03, VOL-05, VOL-08*
 
 ### 4.3 제네바·잉글랜드·재세례파: 똑같은 개혁을 다른 제도로 만들다
 
@@ -208,13 +208,13 @@
 
 반면 자발적 신앙 고백과 세례, 공동체 구성에 강조점을 둔 여러 재세례파 집단은 기존 국가·도시 교회와 다른 길을 찾았다. 하지만 재세례파 내부도 국가권력과 평화, 재산과 공동체 생활에 대한 입장이 하나로 통일돼 있지 않았다. 지역별 선택과 권력의 조건이 달랐다는 사실을 알아야 ‘종교개혁’이라는 단어가 한 지도자 또는 한 교단의 고유명사가 아님을 이해할 수 있다. **누가 결정했는가, 어떻게 예배했는가, 누가 보호받았는가**라는 세 질문이 이 복잡함을 비교하는 기준이다.
 
-**핵심:** 16세기의 여러 개혁은 신학적 차이만 아니라 정치권력과 공동체 제도의 다양한 구성으로 갈라졌다.
+**한 문장 핵심:** 16세기의 여러 개혁은 신학적 차이만 아니라 정치권력과 공동체 제도의 다양한 구성으로 갈라졌다.
 
-**문헌·자료 확인:** [참고 1](https://www.cambridge.org/core/journals/harvard-theological-review/article/abs/calvins-programme-for-a-puritan-state-in-geneva-15361541/C5C7601D2F7F87BA7627A50436287A3E) · [참고 2](https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/the-marburg-colloquy-the-marburg-articles-1529)
+**근거·참고:** [자료 1](https://www.cambridge.org/core/journals/harvard-theological-review/article/abs/calvins-programme-for-a-puritan-state-in-geneva-15361541/C5C7601D2F7F87BA7627A50436287A3E) · [자료 2](https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/the-marburg-colloquy-the-marburg-articles-1529) · [자료 3](https://www.parliament.uk/about/living-heritage/evolutionofparliament/originsofparliament/birthofparliament/overview/reformation/) · [자료 4](https://www.saet.ac.uk/Christianity/AnabaptistTheology)
 
-<편집 검토 주의> Anabaptist and English Reformation plural traditions need additional representative sources at L2.
+**편집 검토 주의:** Anabaptist and English Reformation plural traditions need additional representative sources at L2. Additional specialized sources linked; exact passages have not been critically collated.
 
-*다른 권과 연결: VOL-05, VOL-08*
+*연결 권: VOL-05, VOL-08*
 
 ---
 
@@ -228,13 +228,13 @@
 
 트리엔트 공의회는 1545년부터 1563년까지 중단과 재개를 거치며 세 단계로 진행됐다. 교리적 기준과 성직자 교육, 교회 규율에 관한 논의는 장기간의 협상을 거쳐 문서화됐다. 하지만 공의회에서 정해진 기준이 지역 사제와 주교, 학교와 여성 공동체의 삶 속에 똑같은 속도로 적용된 것은 아니었다. **정해진 규범과 실제 변화 사이의 거리**를 살펴야 가톨릭교회의 내부 쇄신을 역사적으로 이해할 수 있다.
 
-**핵심:** 가톨릭 내부 쇄신의 독자적 흐름과 종교개혁에 대한 대응을 함께 읽는다.
+**한 문장 핵심:** 가톨릭 내부 쇄신의 독자적 흐름과 종교개혁에 대한 대응을 함께 읽는다.
 
-**문헌·자료 확인:** [참고 1](https://www.saet.ac.uk/Christianity/CouncilofTrent) · [참고 2](https://www.ewtn.com/catholicism/library/council-of-trent-1502)
+**근거·참고:** [자료 1](https://www.saet.ac.uk/Christianity/CouncilofTrent) · [자료 2](https://www.ewtn.com/catholicism/library/council-of-trent-1502)
 
-<편집 검토 주의> Catholic institutional source records doctrinal self-description; not interchangeable with neutral historical interpretation.
+**편집 검토 주의:** Catholic institutional source records doctrinal self-description; not interchangeable with neutral historical interpretation.
 
-*다른 권과 연결: VOL-04, VOL-06, VOL-08*
+*연결 권: VOL-04, VOL-06, VOL-08*
 
 ### 5.2 1555년과 1648년: 공존의 법적 범위와 배제
 
@@ -244,13 +244,13 @@
 
 1648년 베스트팔렌의 합의는 30년 전쟁의 경험과 정치적 재조정 속에서 다른 범위를 형성했고, 개혁파를 포함하는 방향으로 법적 인정 범위가 넓어졌다. 그렇다고 모든 이가 평등한 종교적 지위를 얻었다고 단정할 수도 없다. 실제 통치 지역과 시민의 신분, 예배 장소와 이주 조건에 따라 법의 효과가 달랐다. **법적 합의가 포함한 사람들과 그 밖에 남은 사람들**을 함께 기록해야 ‘관용이 승리했다’는 단순한 이야기에서 벗어날 수 있다.
 
-**핵심:** 1555년과 1648년의 합의는 현대 보편적 종교자유가 아니라 서로 다른 범위의 정치·법적 타협이다.
+**한 문장 핵심:** 1555년과 1648년의 합의는 현대 보편적 종교자유가 아니라 서로 다른 범위의 정치·법적 타협이다.
 
-**문헌·자료 확인:** [참고 1](https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/the-religious-peace-of-augsburg-september-25-1555) · [참고 2](https://publishing.cdlib.org/ucpressebooks/public/book/shaping-history-ordinary-people-in-european-politics-1500-1700.html)
+**근거·참고:** [자료 1](https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/the-religious-peace-of-augsburg-september-25-1555) · [자료 2](https://publishing.cdlib.org/ucpressebooks/public/book/shaping-history-ordinary-people-in-european-politics-1500-1700.html)
 
-<편집 검토 주의> Territorial exceptions, migration clauses, minorities and exact peace-text terms need legal-historical specialist review.
+**편집 검토 주의:** Territorial exceptions, migration clauses, minorities and exact peace-text terms need legal-historical specialist review.
 
-*다른 권과 연결: VOL-04, VOL-08*
+*연결 권: VOL-04, VOL-08*
 
 ### 5.3 교파의 경계가 만들어지며 일상의 규율도 달라졌다
 
@@ -260,13 +260,13 @@
 
 교파가 자신의 기준을 명확히 했다는 사실은 서로 다른 삶이 곧바로 서로를 완전히 이해하게 됐다는 뜻이 아니다. 종교적 소속은 법적 보호나 박해의 근거가 될 수 있었고, 신앙교육의 확장과 주민 통제는 때로 함께 진행됐다. 역사가는 한 편의 승패만을 적는 대신 **누가 새 제도에서 발언할 수 있었고 누구는 제한을 받았는가**를 물어야 한다. 이런 질문은 다음 권의 경건주의와 부흥운동을 기존 교파와의 관계 속에서 이해하도록 이끈다.
 
-**핵심:** 교파 고백과 사회생활의 변화는 연결돼 있지만 동일한 속도로 진행되지 않는다.
+**한 문장 핵심:** 교파 고백과 사회생활의 변화는 연결돼 있지만 동일한 속도로 진행되지 않는다.
 
-**문헌·자료 확인:** [참고 1](https://www.saet.ac.uk/Christianity/CouncilofTrent) · [참고 2](https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/the-religious-peace-of-augsburg-september-25-1555)
+**근거·참고:** [자료 1](https://www.saet.ac.uk/Christianity/CouncilofTrent) · [자료 2](https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/the-religious-peace-of-augsburg-september-25-1555) · [자료 3](https://www.cambridge.org/core/books/abs/cambridge-history-of-christianity/imposing-church-and-social-discipline/58F41A40C6F08ED7BE0E801558384189) · [자료 4](https://www.cambridge.org/core/journals/church-history/article/abs/women-and-consistorial-discipline-the-case-of-courthezon-in-the-early-seventeenth-century/5EA9F44231AE027345D722743A434BF8)
 
-<편집 검토 주의> Macro history narrative; regional archival evidence and gender-history examples deferred to L2.
+**편집 검토 주의:** Macro history narrative; regional archival evidence and gender-history examples deferred to L2. Additional specialized sources linked; exact passages have not been critically collated.
 
-*다른 권과 연결: VOL-06, VOL-08*
+*연결 권: VOL-06, VOL-08*
 
 ---
 
@@ -280,13 +280,13 @@
 
 실제 역사에서는 가까운 운동끼리도 지도자 양성, 전도 방식, 누가 교회와 선교를 통제하는지를 두고 다투었다. 최근 역사학 연구는 1727~1737년 할레와 헤른후트 사이의 선교·조직 갈등을 중요한 사례로 분석한다. 이것은 부흥이 단순히 정서적 열정의 역사가 아니라 **교육·행정·지역 공동체의 권한을 다시 편성한 역사**였음을 보여 준다. 신앙의 실천을 중시한 운동이라도 사회 전체의 권리를 자동으로 평등하게 만든 것은 아니었다.
 
-**핵심:** 경건주의·모라비아·웨슬리·여러 부흥운동은 영향을 공유해도 교리와 조직은 다르다.
+**한 문장 핵심:** 경건주의·모라비아·웨슬리·여러 부흥운동은 영향을 공유해도 교리와 조직은 다르다.
 
-**문헌·자료 확인:** [참고 1](https://www.rep.routledge.com/articles/thematic/pietism) · [참고 2](https://www.cambridge.org/core/journals/church-history/article/moravian-missions-believers-and-the-halleherrnhut-controversy-17271737/99AFD71F6E4A4BEF3D2DA29E6013FDFB)
+**근거·참고:** [자료 1](https://www.rep.routledge.com/articles/thematic/pietism) · [자료 2](https://www.cambridge.org/core/journals/church-history/article/moravian-missions-believers-and-the-halleherrnhut-controversy-17271737/99AFD71F6E4A4BEF3D2DA29E6013FDFB)
 
-<편집 검토 주의> New 2026 scholarship contextualizes conflicts; does not replace full Moravian and Methodist institutional history.
+**편집 검토 주의:** New 2026 scholarship contextualizes conflicts; does not replace full Moravian and Methodist institutional history.
 
-*다른 권과 연결: VOL-05, VOL-07, VOL-08*
+*연결 권: VOL-05, VOL-07, VOL-08*
 
 ### 6.2 남인도 타밀어 성경: 인쇄 기계보다 중요한 사람과 판본
 
@@ -296,13 +296,13 @@
 
 이 사건을 설명하는 자료에는 출판 연도 자체의 문제가 남아 있다. 일부 성서의 1714년 인쇄, 1715년 전체 신약 수록 소장본, 인도성서공회의 1719년 전권 간행 설명을 한 사건으로 합치면 안 된다. 독일 뷔르템베르크 주립도서관의 목록과 인도성서공회의 전시 문구는 서로 다르게 기록하고 있으며, 이를 해소하기 위한 서지 문의가 발송됐다. 아직 기관 답변이나 실물 표제지·권말 전면 교감으로 차이가 설명되지 않았으므로 **1719년의 의미는 미확정**으로 남긴다.
 
-**핵심:** 번역·인쇄·읽기 참여자를 함께 보되 1715/1719 서지 차이는 해결되지 않은 것으로 남긴다.
+**한 문장 핵심:** 번역·인쇄·읽기 참여자를 함께 보되 1715/1719 서지 차이는 해결되지 않은 것으로 남긴다.
 
-**문헌·자료 확인:** [참고 1](https://www.bsind.org/bsi-archives/) · [참고 2](https://www.wlb-stuttgart.de/fileadmin/user_upload/sammlungen/bibeln/Missionsbibeln/Missionsbibel_Stationen.pdf)
+**근거·참고:** [자료 1](https://www.bsind.org/bsi-archives/) · [자료 2](https://www.wlb-stuttgart.de/fileadmin/user_upload/sammlungen/bibeln/Missionsbibeln/Missionsbibel_Stationen.pdf)
 
-<편집 검토 주의> TAMIL-1719 unresolved; 1715 object and alleged 1719 edition not physically collated.
+**편집 검토 주의:** TAMIL-1719 unresolved; 1715 object and alleged 1719 edition not physically collated.
 
-*다른 권과 연결: VOL-07, VOL-08*
+*연결 권: VOL-07, VOL-08*
 
 ### 6.3 선교와 제국의 접촉: 외부의 확장만이 세계사의 주인공은 아니다
 
@@ -312,13 +312,13 @@
 
 한 지역에서는 기존 언어의 책을 읽기 위한 교육이, 다른 지역에서는 새로운 예배와 조직을 둘러싼 협상이 더 중요했다. 어떤 공동체는 외부의 통제를 비판하며 독자적 교회로 발전했고, 어떤 공동체는 기존 교파와 협력하면서 자체적인 제도를 형성했다. 역사가 다르게 움직인 이유를 이해하려면 ‘누가 선교했는가’에 더해 **누가 번역했고 누가 거부했고 누가 교회의 결정을 내렸는가**를 물어야 한다. 이 질문은 아프리카·아시아·한국의 다음 권으로 이어진다.
 
-**핵심:** 선교사만 아니라 현지 협력자·반대자·지도자를 역사적 행위자로 포함한다.
+**한 문장 핵심:** 선교사만 아니라 현지 협력자·반대자·지도자를 역사적 행위자로 포함한다.
 
-**문헌·자료 확인:** [참고 1](https://www.cambridge.org/core/books/abs/cambridge-history-of-christianity/independency-in-africa-and-asia/3A1D548B8F0B936195D7AFE737A6DE20) · [참고 2](https://www.mdpi.com/2077-1444/12/3/180)
+**근거·참고:** [자료 1](https://www.cambridge.org/core/books/abs/cambridge-history-of-christianity/independency-in-africa-and-asia/3A1D548B8F0B936195D7AFE737A6DE20) · [자료 2](https://www.mdpi.com/2077-1444/12/3/180)
 
-<편집 검토 주의> Specific colonial/mission relationship cannot be uniformly generalized across regions; regional archival studies needed.
+**편집 검토 주의:** Specific colonial/mission relationship cannot be uniformly generalized across regions; regional archival studies needed.
 
-*다른 권과 연결: VOL-07, VOL-08*
+*연결 권: VOL-07, VOL-08*
 
 ---
 
@@ -332,13 +332,13 @@
 
 아프리카에서 형성된 여러 독립교회와 지역 지도력 역시 하나의 신앙운동으로 묶을 수 없다. 교회의 자율성과 예배의 언어, 식민지 구조와 지역 공동체의 필요를 서로 다른 방식으로 다뤘기 때문이다. 중동에서는 오리엔트 정교회·동방 정교회·가톨릭·개신교의 구별이 협력의 조건이기도 했다. 중동교회협의회는 1974년 세 교회 계열이 참여하며 형성되고 1990년 가톨릭 계열이 합류했다. 그러나 이 협력이 모든 교파가 하나의 신학과 조직으로 합쳐졌다는 뜻은 아니다. **오래된 지역 유산과 현대의 협력·분화**를 함께 읽어야 한다.
 
-**핵심:** 아프리카·중동의 장구한 지역교회 역사와 근대 선교·교파 협력의 층위를 구별한다.
+**한 문장 핵심:** 아프리카·중동의 장구한 지역교회 역사와 근대 선교·교파 협력의 층위를 구별한다.
 
-**문헌·자료 확인:** [참고 1](https://www.mecc.org/mission-and-history) · [참고 2](https://www.oikoumene.org/item-3) · [참고 3](https://www.metmuseum.org/fr/essays/african-christianity-in-ethiopia)
+**근거·참고:** [자료 1](https://www.mecc.org/mission-and-history) · [자료 2](https://www.oikoumene.org/item-3) · [자료 3](https://www.metmuseum.org/fr/essays/african-christianity-in-ethiopia)
 
-<편집 검토 주의> AIC definitions vary across institutions; MECC membership information is an institutional self-history not a universal church roster.
+**편집 검토 주의:** AIC definitions vary across institutions; MECC membership information is an institutional self-history not a universal church roster.
 
-*다른 권과 연결: VOL-01, VOL-02, VOL-06, VOL-08*
+*연결 권: VOL-01, VOL-02, VOL-06, VOL-08*
 
 ### 7.2 한국교회의 서로 다른 시작: 독서·세례·번역·사회참여
 
@@ -348,13 +348,13 @@
 
 개신교 성서 번역의 경우 1882년 낱권 복음서, 1887년 신약전서, 1911년 신·구약 전서의 간행 범위를 구별하는 것이 중요하다. 중국 만주 지역에서 활동한 로스와 한국인 협력자들이 만든 번역·인쇄가 국내 선교사 도착 이전부터 진행되었다는 점도 이 역사의 특징이다. 1919년 3·1운동은 일부 그리스도인과 다른 종교·사회 세력의 연대였고, 1945년 해방과 1950~1953년 전쟁은 교회의 조직과 삶에 큰 영향을 주었다. 이후 장로교 분화, 교회 성장, 민주화 운동과 1970년대 민중신학은 **같은 시대에 나타났지만 모든 교회의 동일한 선택은 아니었다**.
 
-**핵심:** 한국 천주교 형성, 개신교 출판, 근현대 사회참여를 서로 다른 사건으로 서술한다.
+**한 문장 핵심:** 한국 천주교 형성, 개신교 출판, 근현대 사회참여를 서로 다른 사건으로 서술한다.
 
-**문헌·자료 확인:** [참고 1](https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART001667406) · [참고 2](https://www.cam.ac.uk/stories/korean-bibles) · [참고 3](https://encykorea.aks.ac.kr/Article/E0033189) · [참고 4](https://www.saet.ac.uk/Christianity/MinjungTheology)
+**근거·참고:** [자료 1](https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART001667406) · [자료 2](https://www.cam.ac.uk/stories/korean-bibles) · [자료 3](https://encykorea.aks.ac.kr/Article/E0033189) · [자료 4](https://www.saet.ac.uk/Christianity/MinjungTheology)
 
-<편집 검토 주의> 1779 study group founding interpretation contested; 1882/1887/1911 refer to Protestant Scripture publications not total Korean Catholic book history.
+**편집 검토 주의:** 1779 study group founding interpretation contested; 1882/1887/1911 refer to Protestant Scripture publications not total Korean Catholic book history.
 
-*다른 권과 연결: VOL-06, VOL-08*
+*연결 권: VOL-06, VOL-08*
 
 ### 7.3 라틴아메리카·아시아와 세계교회의 새로운 질문
 
@@ -364,13 +364,13 @@
 
 라틴아메리카의 메데인(1968)과 푸에블라(1979) 주교회의는 가난과 사회적 책임을 중요한 문제로 다뤘다. 이 과정에서 등장하거나 전개된 다양한 해방신학을 전부 동일한 정치적·신학적 결론으로 취급할 수는 없다. 중국의 토착 교회운동, 인도의 달리트 신학, 아프리카의 독립교회는 각각 외부 권위와 지역사회 문제에 다른 답을 내놓았다. 특히 달리트 신학은 기독교 공동체 내부에서도 카스트 차별이 남을 수 있음을 질문한다. **세계 기독교의 중심이 여러 지역에 있다는 말은 지역 간 불평등이 사라졌다는 뜻이 아니다.**
 
-**핵심:** 현대 세계교회의 협력 기구와 각 지역의 사회·신학 문제를 함께 다루되 자기 전통과 지역 차이를 지킨다.
+**한 문장 핵심:** 현대 세계교회의 협력 기구와 각 지역의 사회·신학 문제를 함께 다루되 자기 전통과 지역 차이를 지킨다.
 
-**문헌·자료 확인:** [참고 1](https://www.oikoumene.org/about-the-wcc/faq) · [참고 2](https://www.vaticannews.va/en/vatican-city/news/2022-10/vatican-ii-council-60th-anniversary-video-history-background.html) · [참고 3](https://academic.oup.com/edited-volume/61800/chapter-abstract/546354491) · [참고 4](https://www.mdpi.com/2077-1444/12/3/180)
+**근거·참고:** [자료 1](https://www.oikoumene.org/about-the-wcc/faq) · [자료 2](https://www.vaticannews.va/en/vatican-city/news/2022-10/vatican-ii-council-60th-anniversary-video-history-background.html) · [자료 3](https://academic.oup.com/edited-volume/61800/chapter-abstract/546354491) · [자료 4](https://www.mdpi.com/2077-1444/12/3/180) · [자료 5](https://academic.oup.com/book/32113/chapter-abstract/268045530) · [자료 6](https://www.mdpi.com/2077-1444/14/12/1525)
 
-<편집 검토 주의> Global church overview contains many confessional perspectives; each regional historical claim requires regional reviewer before publication.
+**편집 검토 주의:** Global church overview contains many confessional perspectives; each regional historical claim requires regional reviewer before publication. Additional specialized sources linked; exact passages have not been critically collated.
 
-*다른 권과 연결: VOL-06, VOL-08*
+*연결 권: VOL-06, VOL-08*
 
 ---
 
@@ -384,13 +384,13 @@
 
 **은총과 구원**이라는 질문을 던질 때에는 루터파와 가톨릭, 개혁파와 다른 전통이 서로 같은 성경 언어를 사용하면서도 무엇을 쟁점으로 삼았는지를 이해해야 한다. 특정 교파의 자기 설명을 상대방이 붙인 비판적 별명으로 대체하면 안 된다. 아우크스부르크 신앙고백과 트리엔트 공의회를 같은 문서처럼 비교할 수도 없다. 독자는 한 질문이 여러 시대를 관통한다는 사실을 보되, 그 질문에 답하는 **신학적 언어와 법적 상황은 달랐다**는 원칙을 유지해야 한다.
 
-**핵심:** 권위와 구원을 비교하되 시대·교파별 문서 형식과 권력 구조를 섞지 않는다.
+**한 문장 핵심:** 권위와 구원을 비교하되 시대·교파별 문서 형식과 권력 구조를 섞지 않는다.
 
-**문헌·자료 확인:** [참고 1](https://gruber.lstc.edu/confessions/augs_apol.php) · [참고 2](https://www.saet.ac.uk/Christianity/CouncilofTrent) · [참고 3](https://www.mcgill.ca/religiousstudies/about/birks-building/jingiao-stele)
+**근거·참고:** [자료 1](https://gruber.lstc.edu/confessions/augs_apol.php) · [자료 2](https://www.saet.ac.uk/Christianity/CouncilofTrent) · [자료 3](https://www.mcgill.ca/religiousstudies/about/birks-building/jingiao-stele)
 
-<편집 검토 주의> Thematic comparison is an editorial reading aid, not a substitute for doctrinal historical critical study.
+**편집 검토 주의:** Thematic comparison is an editorial reading aid, not a substitute for doctrinal historical critical study.
 
-*다른 권과 연결: VOL-01, VOL-03, VOL-04, VOL-05, VOL-06*
+*연결 권: VOL-01, VOL-03, VOL-04, VOL-05, VOL-06*
 
 ### 8.2 질문 3·4 — 성찬과 예배 / 교회조직과 생활
 
@@ -400,13 +400,13 @@
 
 **교회조직과 생활**로 옮겨가면 공의회와 도시의회, 제네바의 교회 규율, 가톨릭 성직자 교육, 모라비아 공동체의 지도권 논쟁, 아프리카의 독립교회가 새로운 비교 대상이 된다. 하나의 교파 이름이 모든 지역에 동일한 학교·예배·가정생활의 형태를 보장하지 않았다. 역사 속 신앙은 문서의 조항과 예배당의 질서, 가난한 이웃을 돌보는 관습과 지역 사회의 권한이 함께 만들어 낸 경험이다. 그러므로 **신앙의 정의와 공동체가 실제로 살아간 방법**을 나란히 살펴야 한다.
 
-**핵심:** 성찬의 신학적 견해와 예배 실천을 구별하고 교회조직이 일상에서 수행된 방식을 함께 본다.
+**한 문장 핵심:** 성찬의 신학적 견해와 예배 실천을 구별하고 교회조직이 일상에서 수행된 방식을 함께 본다.
 
-**문헌·자료 확인:** [참고 1](https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/the-marburg-colloquy-the-marburg-articles-1529) · [참고 2](https://www.cambridge.org/core/journals/church-history/article/abs/john-wyclif-and-hussite-theology-14151436/54C10C6F7EEFB5409E2291C9F4194ABF) · [참고 3](https://www.oikoumene.org/item-3)
+**근거·참고:** [자료 1](https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/the-marburg-colloquy-the-marburg-articles-1529) · [자료 2](https://www.cambridge.org/core/journals/church-history/article/abs/john-wyclif-and-hussite-theology-14151436/54C10C6F7EEFB5409E2291C9F4194ABF) · [자료 3](https://www.oikoumene.org/item-3)
 
-<편집 검토 주의> One index paragraph cannot give full denominational and Eucharistic primary text nuances; cross-verify with review G443-01.
+**편집 검토 주의:** One index paragraph cannot give full denominational and Eucharistic primary text nuances; cross-verify with review G443-01.
 
-*다른 권과 연결: VOL-03, VOL-04, VOL-05, VOL-06, VOL-07*
+*연결 권: VOL-03, VOL-04, VOL-05, VOL-06, VOL-07*
 
 ### 8.3 질문 5·6 — 국가·갈등·공존 / 번역과 지역 수용
 
@@ -416,30 +416,33 @@
 
 **번역과 지역 수용**에서는 시리아어 문학과 중국 경교비, 남인도 타밀어 신약과 한국어 성서의 연대기를 비교한다. 781년 경교비가 회고하는 635년은 기록의 제작 연도와 사건의 연도를 구별하게 한다. 1715·1719년의 타밀어 출판 정보는 지금도 기관 기록 사이에서 설명되지 않은 부분이 있고, 한국어 성서의 1882·1887·1911년은 서로 다른 간행 범위를 가리킨다. 서로 다른 문헌을 동일한 확실성의 숫자로 정렬하는 것은 역사의 이해를 가로막는다. 주제 비교가 끝나면 원래의 시대권과 사료로 돌아가 **같은 질문이 왜 서로 다른 답을 낳았는지** 확인해야 한다.
 
-**핵심:** 국가권력과 번역의 지역 수용을 비교하되 원문 종류와 확실성 수준을 지킨다.
+**한 문장 핵심:** 국가권력과 번역의 지역 수용을 비교하되 원문 종류와 확실성 수준을 지킨다.
 
-**문헌·자료 확인:** [참고 1](https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/the-religious-peace-of-augsburg-september-25-1555) · [참고 2](https://www.mcgill.ca/religiousstudies/about/birks-building/jingiao-stele) · [참고 3](https://www.cam.ac.uk/stories/korean-bibles) · [참고 4](https://www.bsind.org/bsi-archives/)
+**근거·참고:** [자료 1](https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/the-religious-peace-of-augsburg-september-25-1555) · [자료 2](https://www.mcgill.ca/religiousstudies/about/birks-building/jingiao-stele) · [자료 3](https://www.cam.ac.uk/stories/korean-bibles) · [자료 4](https://www.bsind.org/bsi-archives/)
 
-<편집 검토 주의> Tamil 1719 dispute unresolved; thematic similarities do not assert documentary equivalence.
+**편집 검토 주의:** Tamil 1719 dispute unresolved; thematic similarities do not assert documentary equivalence.
 
-*다른 권과 연결: VOL-01, VOL-02, VOL-05, VOL-06, VOL-07*
+*연결 권: VOL-01, VOL-02, VOL-05, VOL-06, VOL-07*
 
 ---
 
-## 역사적 오류 방지와 L0 연계
+## 여덟 권 연속 독서를 위한 핵심 주의
 
-- **제3권 왈도파 1532년:** 당시 사건·후대 명칭·조직의 직접 계승을 동일시하지 않으며 기존 고위험 보류 `C417-18`을 유지한다.
-- **제3~4권 성찬 및 아우크스부르크 판본:** 인물의 영향과 교리 동일성을 분리하고 1530/1531/1540 판본의 상세 교리를 원문 대조 없이 확정하지 않는다. `C417-11`·`C417-12` 유지.
-- **제6권 타밀어 신약 1715/1719:** WLB·BSI에 실제 문의를 발송했지만 서지 차이를 설명하는 확인 회신은 아직 없다. `TAMIL-1719`은 해제하지 않는다.
-- **제7권 지역·교파:** 아프리카·아시아·라틴아메리카·중동의 교회와 한국의 천주교·개신교 역사를 하나의 교파 역사로 합치지 않는다.
-- **제8권 비교 주제:** 성경과 권위 / 은총과 구원 / 성찬과 예배 / 교회조직과 생활 / 국가·갈등·공존 / 번역과 지역 수용이라는 여섯 질문을 서로 다른 시대의 사건에 적용하는 자료일 뿐 새 시대권이 아니다.
+- 제1권: 왕실·국가의 수용과 주민 개종을 동일한 사건으로 취급하지 않는다. 초기 도시 네트워크의 전파 주체도 학술 논쟁이 있다.
+- 제2권: 중국 경교비 781년 제작과 635년 회고를 구별하고, 1054년·1204년의 교회 관계를 하루의 완결된 분열로 읽지 않는다.
+- 제3권: 위클리프와 후스의 사상적 영향과 성찬론의 동일성을 구분한다. 왈도파 1532년의 직접 조직 계승을 확정하지 않는다.
+- 제4권: 1529년 마르부르크의 합의 범위와 1530·1531·1540년 아우크스부르크 신앙고백 판본을 구별한다.
+- 제5권: 가톨릭 쇄신의 자체 역사를 유지하면서 1555년·1648년 법적 합의를 오늘의 보편적 종교 자유로 오독하지 않는다.
+- 제6권: 경건주의·부흥운동·선교를 동일한 단체로 묶지 않는다. 1715년과 1719년 타밀어 신약 전권 출판 기록의 관계는 미확정이다.
+- 제7권: 아프리카·중동·아시아·라틴아메리카·한국의 교회가 같은 방식으로 형성되었다는 주장을 하지 않는다.
+- 제8권: 여섯 주제를 서로 다른 시대의 사건과 비교하되 교파 문서와 지역사회 기록의 증거 수준을 구별한다.
 
-## 실제 검토·배포 현황
+## 검토 및 앱 연결 상태
 
-- L1 신설 본문: 8권 × 3장 = **24개 장**.
-- L1 본문 분량: **12,045자**(자바스크립트 문자열 기준, 제목·서지 목록 제외).
-- 검토 자료 연결: **35개 고유 출처**, **56회 장별 연결**.
-- 이전 L0 V4.47의 8권 본문과 53개 역사 주장 위치, V4.29 AI Studio 입력 파일은 수정하지 않았다.
-- 이 연구 원고는 외부 역사 전문가·독자 평가를 아직 거치지 않았으며, 출판하거나 운영 앱에 추가할 수 없다.
+- 8권 24장 · L1 본문 12,108자(본문 문자열 합계).
+- 출처 URL 45종 · 장별 출처 연결 66회. 출처 목록은 내용의 역사적 승인 횟수를 의미하지 않는다.
+- 제1권 초기 선교 네트워크, 제2권 1054/1204년, 제4권 잉글랜드·재세례파, 제5권 사회·여성사, 제7권 중국 토착 교회에 대한 자료 범위를 재보강했다.
+- 기존 V4.47 L0 본문과 53개 주장 참조, V4.29 앱 원본 및 `main`은 변경하지 않았다.
+- 역사학자 검증 0건 · 실제 독자 평가 0건 · 운영 앱 반영 0건. `can_ship=false`.
 
-**작업 판단:** 8권 중급 해설의 첫 전 범위 초안은 집필 완료. 다음 작업은 새로운 문서 구조를 반복하는 것보다, 제7권의 지역별 범위 검토·전문가 의견·독자 평가를 통한 내용의 역사적 정확성과 이해도 개선이다.
+**편집 판단:** 8권에 대한 중급 수준의 전 범위 초안이 마련되었지만, 가장 중요한 다음 단계는 실물 근거·신학적 공정성·지역별 역사 대표성에 대한 전문 검토다.
