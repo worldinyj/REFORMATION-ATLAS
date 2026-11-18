@@ -140,3 +140,19 @@ ATLAS_BROWSER=chromium node --test browser-smoke.test.mjs
 연구 증거: `research/data/ATLAS_V456_SAFE_MARKDOWN_RENDERER_PARITY_AUDIT.json`. 브라우저 스크린샷·전후 비교 그림·로컬 실행 스크립트는 이번 대화의 산출물로 제공한다.
 
 **중요:** 원전 교감·역사학자 승인·실제 독자 평가·정식 React 빌드·AI Studio 호스트 인증 검증 전까지 `can_ship=false`, `can_merge_main=false`, `can_import_ai_studio=false`를 유지하며 `main` 및 기존 운영 앱은 변경하지 않는다.
+
+## V4.57 — 역사적 주장 14건과 실제 독자 평가 도구의 사전 설계
+
+- **역사 사료 대조:** GHDI 마르부르크 15개 조항, 그루버 희귀본 아우크스부르크 자료 페이지를 다시 읽어 첫 대표 화면의 역사 주장 **14건**을 주장·근거·확인 한계별로 등록했다. 그중 **HIGH 10건**은 전문가 미승인 상태로 분리한다. 1540년 비Variata 설명의 소장번호 불명확, 그루버 문구의 ‘Calvinists’ 후대 서술 가능성도 위험으로 기록했다.
+- **독자 여정:** ① 1529년 합의와 불일치, ② 1530·1531·1540년 제출·인쇄·판본, ③ 번역 문서와 소장목록의 근거 차이. 총 3개 과제와 **9개 이해도 문항**을 준비했다.
+- **평가 기준 사전 등록:** 최소 6명(목표 8명), 개인 9문항 중 7개 이상 및 핵심 7문항 중 6개 이상·세 과제 완료, 전체 개인 합격률 80% 이상, 과제 완료율 80% 이상, 같은 고위험 오해가 2명 이상 반복 시 설계 보류.
+- **오프라인 채점기:** `score-reader-session.mjs` 및 `reader-pilot-contract.test.mjs` 신설. 주장/사료/문항의 일치성과 임계값 판정을 검증하는 **5개 함수가 V8 모의 Node 적응 실행에서 PASS**. **실제 `node --test`·GitHub Actions 완료는 확인하지 못했으므로 혼동하지 않는다**. CI에는 별도 Node-only 연구 데이터 검증 job을 추가.
+- **인간 평가 0:** 실제 참여자, 역사 전문가, 독립 서지 검토자, 운영 앱 빌드/인증은 아직 검증하지 않았다. 파일럿 답안은 공개 연구 저장소에 있으므로 참가자에게 정답을 사전 공개하지 않도록 진행 절차에 명시했다.
+
+**검토 실행 문서:** [V4.57 역사학자·독자 프로토콜](./V457_HISTORIAN_READER_PILOT_PROTOCOL.md)
+
+**데이터:** `research/data/ATLAS_V457_CLAIM_SOURCE_CRITICAL_REGISTER.json`, `research/data/ATLAS_V457_READER_PILOT_INSTRUMENT.json`, `research/data/ATLAS_V457_REVIEW_AND_PILOT_GATE_AUDIT.json`.
+
+**출시 차단:** 원고·장면·실제 AI Studio 운영 앱·`main`을 변경하지 않았고 `can_ship=false`, `can_merge_main=false`, `can_import_ai_studio=false` 유지.
+
+**다음 단계:** 새 연표 이벤트 추가보다 먼저 고위험 10건 원전·서지 전문가 검토와 실제 독자 6–8명 파일럿을 수행하고, 발견된 오해를 원고/정보 구조에 반영할지 판단한다.
