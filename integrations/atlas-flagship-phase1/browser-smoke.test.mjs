@@ -46,7 +46,8 @@ test("V4.52 research preview real-engine browser and accessibility smoke",async 
     const year1531=page.locator("#steps button").nth(2);
     await year1531.focus();
     await page.keyboard.press("Enter");
-    assert.match(await page.locator("#eventTitle").textContent(),/1531/);
+    assert.match(await page.locator("#time").textContent(),/1531/);
+    assert.match(await page.locator("#eventTitle").textContent(),/신앙고백과 변증서의 인쇄/);
     assert.equal(await page.locator("#steps button").nth(2).getAttribute("aria-current"),"step");
     assert.equal(await page.evaluate(()=>document.activeElement?.closest("#steps")===document.getElementById("steps")),true,"timeline selection keeps keyboard focus");
 
