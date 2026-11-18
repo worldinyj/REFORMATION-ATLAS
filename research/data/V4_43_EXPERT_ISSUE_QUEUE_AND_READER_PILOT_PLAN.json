@@ -1,0 +1,526 @@
+{
+  "schema": "ATLAS_V443_EXPERT_EDITORIAL_ISSUE_QUEUE_AND_PILOT_PLAN",
+  "version": "V4.43",
+  "date": "2026-11-18",
+  "status": "AWAITING_HUMAN_REVIEW_NOT_AN_APPROVAL",
+  "provenance": [
+    {
+      "path": "research/data/V4_43_L0_EDITORIAL_REDLINE_EIGHT_VOLUME_CANDIDATE.json",
+      "gitBlobSha": "10b73c919ec6cc889e3c64be6dc61e184f5a8e5c"
+    },
+    {
+      "path": "research/data/V4_43_POST_EDIT_51_CLAIM_CROSSWALK.json",
+      "gitBlobSha": "e307b6b955246d42b708640b338dc1529cdfa518"
+    },
+    {
+      "path": "research/data/V4_42_EIGHT_VOLUME_EXPERT_READER_REVIEW_PACKET.json",
+      "gitBlobSha": "02c5a0877a1dd88c7d7f18a06da2417d315379e2"
+    },
+    {
+      "path": "research/data/V4_41_FOUR_REGION_SOURCE_AND_CLAIM_REGISTER.json",
+      "gitBlobSha": "c77d52a9d3b543d0dbae47ec5c8874e3bfedcaac"
+    }
+  ],
+  "riskQueue": [
+    {
+      "id": "G443-01",
+      "priority": "P0",
+      "volumeIds": [
+        "VOL-03",
+        "VOL-08"
+      ],
+      "claimIds": [
+        "CL433-08",
+        "CL433-09"
+      ],
+      "question": "위클리프 remanence와 후스의 transubstantiation 구별이 후스파 내부의 다양한 실제 성찬관을 과잉 단순화하지 않는가?",
+      "requiredPerspective": "Late medieval Hussite theologian/historian",
+      "verification": "Crosscheck William R. Cook 1973 abstract with later study; original doctrinal evidence only if full historian available.",
+      "evidence": [
+        "https://www.cambridge.org/core/journals/church-history/article/abs/john-wyclif-and-hussite-theology-14151436/54C10C6F7EEFB5409E2291C9F4194ABF"
+      ],
+      "acceptance": "Do not claim all Hussites agreed; qualified comparison of two persons only"
+    },
+    {
+      "id": "G443-02",
+      "priority": "P0",
+      "volumeIds": [
+        "VOL-04"
+      ],
+      "claimIds": [
+        "CL433-13",
+        "CL433-14"
+      ],
+      "question": "1530 제출·비공식 인쇄와 1531 Melanchthon 관여판·1540 Variata가 서로 다른 문헌 상태로 설명되는가?",
+      "requiredPerspective": "Reformation confessional edition specialist",
+      "verification": "Compare Gruber item catalog; distinguish 1531 Latin/German editio princeps and 1540 variants.",
+      "evidence": [
+        "https://gruber.lstc.edu/confessions/augs_apol.php"
+      ],
+      "acceptance": "Retain first print vs official presentation; no 1540 generalized edition claim"
+    },
+    {
+      "id": "G443-03",
+      "priority": "P0",
+      "volumeIds": [
+        "VOL-06"
+      ],
+      "claimIds": [
+        "CL433-20",
+        "CL433-21"
+      ],
+      "question": "1715 신약 전체 소장본과 인도성서공회 1719 소개 사이의 충돌을 확정 해소된 사실처럼 표현하지 않는가?",
+      "requiredPerspective": "Bibliographic rare-book specialist / South Asian mission historian",
+      "verification": "WLB holding + BSI Archives at the identifier level; full title/colophon images not directly compared.",
+      "evidence": [
+        "https://www.bsind.org/bsi-archives/",
+        "https://www.wlb-stuttgart.de/fileadmin/user_upload/sammlungen/bibeln/Missionsbibeln/Missionsbibel_Stationen.pdf"
+      ],
+      "acceptance": "Keep 1719 source discrepancy unverified; no invented reissue"
+    },
+    {
+      "id": "G443-04",
+      "priority": "P0",
+      "volumeIds": [
+        "VOL-07"
+      ],
+      "claimIds": [
+        "CL433-23",
+        "CL433-24"
+      ],
+      "question": "1779년 강학 모임과 1784년 이승훈 세례·공동체의 각 사건 성격을 정교하게 구별하는가?",
+      "requiredPerspective": "Korean Catholic Church historian",
+      "verification": "Distinguish founding debates from dated baptism and early community formation.",
+      "evidence": [],
+      "acceptance": "No single contested founding year forced; human reviewer signs off on wording"
+    },
+    {
+      "id": "G443-05",
+      "priority": "P0",
+      "volumeIds": [
+        "VOL-07"
+      ],
+      "claimIds": [
+        "CL441-03"
+      ],
+      "question": "메데인·푸에블라와 해방신학의 관계를 교회 당국의 평가만으로 단정하지 않고 당사자의 신학적 관점과 분리해 서술했는가?",
+      "requiredPerspective": "Catholic and Latin American theology/history reviewer",
+      "verification": "Catholic doctrinal position vs historical accounts; consider evangelical regional history.",
+      "evidence": [
+        "https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_con_cfaith_doc_19840806_theology-liberation_en.html"
+      ],
+      "acceptance": "Confessional positions clearly attributed, no all-Latin-America collapse"
+    },
+    {
+      "id": "G443-06",
+      "priority": "P0",
+      "volumeIds": [
+        "VOL-07"
+      ],
+      "claimIds": [
+        "CL441-04",
+        "CL441-05",
+        "CL441-06"
+      ],
+      "question": "오리엔트 정교회와 동방 정교회, 가톨릭과 복음주의의 구별 및 MECC 1974/1990 역사 정확성을 확보했는가?",
+      "requiredPerspective": "Eastern Christianity and ecumenism historian",
+      "verification": "MECC original about history and families checked against different church family descriptions.",
+      "evidence": [
+        "https://www.mecc.org/mission-and-history",
+        "https://www.mecc.org/churches"
+      ],
+      "acceptance": "A council is not denominational merger or doctrinal identity"
+    },
+    {
+      "id": "G443-07",
+      "priority": "P0",
+      "volumeIds": [
+        "VOL-07"
+      ],
+      "claimIds": [
+        "CL441-11",
+        "CL441-13"
+      ],
+      "question": "1945년 이후 한국 장로교의 분화를 모든 기독교의 분열로 일반화하거나 민중신학을 전체 한국교회의 입장으로 처리하지 않는가?",
+      "requiredPerspective": "Post-1945 Korean Presbyterian and ecumenical church historian",
+      "verification": "Compare published Korean church history and KCI denominational studies; avoid one-tradition bias.",
+      "evidence": [
+        "https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART002090478"
+      ],
+      "acceptance": "Precise scope of churches, eras and theological voices"
+    },
+    {
+      "id": "G443-08",
+      "priority": "P0",
+      "volumeIds": [
+        "VOL-03"
+      ],
+      "claimIds": [
+        "CL433-11"
+      ],
+      "question": "1532년 왈도파 관련 보류 내용을 실제 종교개혁 교단의 직접 조직 계보로 승격하지 않았는가?",
+      "requiredPerspective": "Medieval Waldensian historian",
+      "verification": "Original historical terminology and contemporary witness must be distinguished.",
+      "evidence": [],
+      "acceptance": "C417-18 remains held until independent source review"
+    },
+    {
+      "id": "G443-09",
+      "priority": "P1",
+      "volumeIds": [
+        "VOL-02"
+      ],
+      "claimIds": [
+        "CL433-04",
+        "CL433-05",
+        "CL433-07"
+      ],
+      "question": "781년 비석 건립과 635년 회고, 인도의 토마스 전승과 동시대 사료를 구별하는가?",
+      "requiredPerspective": "East Asian and Indian Christianity historian",
+      "verification": "Inscription date vs described event, contemporary evidence category.",
+      "evidence": [],
+      "acceptance": "Narrative does not turn retrospective account into direct eyewitness testimony"
+    },
+    {
+      "id": "G443-10",
+      "priority": "P1",
+      "volumeIds": [
+        "VOL-05"
+      ],
+      "claimIds": [
+        "CL433-16",
+        "CL433-17",
+        "CL433-18"
+      ],
+      "question": "트리엔트 공의회·1555년 화의·1648년 조정의 연대·적용 대상·한계를 표현하는가?",
+      "requiredPerspective": "Catholic / early modern legal church historian",
+      "verification": "Confessional peace and local enforcement are distinct.",
+      "evidence": [],
+      "acceptance": "No claim of universal modern personal religious freedom"
+    },
+    {
+      "id": "G443-11",
+      "priority": "P1",
+      "volumeIds": [
+        "VOL-07"
+      ],
+      "claimIds": [
+        "M440-04",
+        "CL441-07",
+        "CL441-08",
+        "CL441-09"
+      ],
+      "question": "아프리카 독립교회·중국 토착 운동·달리트 신학과 중동 이주의 차이를 일관된 지역 고유의 사례로 읽을 수 있는가?",
+      "requiredPerspective": "Global Christianity historian with regional competence",
+      "verification": "Avoid multiplying broad claims where only abstracts have been reviewed.",
+      "evidence": [
+        "https://www.mdpi.com/2077-1444/12/3/180"
+      ],
+      "acceptance": "Explicitly identify source class; no all-regions-are-the-same framing"
+    },
+    {
+      "id": "G443-12",
+      "priority": "P1",
+      "volumeIds": [
+        "VOL-08"
+      ],
+      "claimIds": [
+        "CL433-27",
+        "CL433-28",
+        "CL433-29",
+        "CL441-14"
+      ],
+      "question": "제8권이 새 시대가 아니라 여섯 주제 비교라는 점이 오해 없이 드러나는가?",
+      "requiredPerspective": "Church-history editor and non-specialist reader",
+      "verification": "Review text-only navigational claims against V429 42 logical links; no live UI conclusion.",
+      "evidence": [],
+      "acceptance": "Readers describe 7 chronological volumes plus 1 thematic archive accurately"
+    }
+  ],
+  "reviewVolumes": [
+    {
+      "volumeId": "VOL-01",
+      "manuscriptTitle": "여럿의 언어와 도시에서 자라난 고대교회",
+      "chars": 2056,
+      "deliberateEdits": [
+        "E443-01",
+        "E443-02"
+      ],
+      "historianQuestions": [
+        "악숨 4세기 왕실 수용과 전체 주민 개종을 분리하는가?",
+        "고대 교회 분화에 후대 교파 명칭을 소급하지 않는가?"
+      ],
+      "readerQuestions": [
+        "초기 교회의 지역들이 모두 같은 언어와 조직을 가졌습니까? 본문을 근거로 설명해 주세요.",
+        "공의회 결정과 한 지역교회의 실제 수용은 어떻게 다를 수 있습니까?"
+      ],
+      "risk": "Retrospective denominations and immediate royal-to-popular conversion must not be inferred",
+      "newDraftActuallyReadByHuman": false,
+      "expertReviewResult": null,
+      "readerComprehensionResult": null,
+      "prerequisites": [
+        "Document exact passage and period/region",
+        "Source class and location reference",
+        "Alternative denominational self-description as needed",
+        "Suggested revised wording"
+      ],
+      "releaseStatus": "AWAITING_HUMAN_TEST"
+    },
+    {
+      "volumeId": "VOL-02",
+      "manuscriptTitle": "중세는 서유럽만의 시간이 아니었다",
+      "chars": 2121,
+      "deliberateEdits": [
+        "E443-03",
+        "E443-04"
+      ],
+      "historianQuestions": [
+        "781년 경교비 제작과 635년 비문 속 회고를 구별하는가?",
+        "성 토마스 전승을 당대 확증으로 단정하지 않는가?"
+      ],
+      "readerQuestions": [
+        "781년 경교비와 635년 기록은 어떤 다른 연대를 가리킵니까?",
+        "중세 기독교를 라틴 서유럽만으로 설명하기 어려운 이유는 무엇입니까?"
+      ],
+      "risk": "A dated inscription's retrospective narration is not a contemporary record of 635",
+      "newDraftActuallyReadByHuman": false,
+      "expertReviewResult": null,
+      "readerComprehensionResult": null,
+      "prerequisites": [
+        "Document exact passage and period/region",
+        "Source class and location reference",
+        "Alternative denominational self-description as needed",
+        "Suggested revised wording"
+      ],
+      "releaseStatus": "AWAITING_HUMAN_TEST"
+    },
+    {
+      "volumeId": "VOL-03",
+      "manuscriptTitle": "개혁 이전의 개혁들은 한 길로 이어지지 않았다",
+      "chars": 2070,
+      "deliberateEdits": [
+        "E443-05"
+      ],
+      "historianQuestions": [
+        "위클리프 remanence와 후스 transubstantiation를 구별하는가?",
+        "왈도파와 후스파를 16세기 교파의 동일 조직으로 묶지 않는가?"
+      ],
+      "readerQuestions": [
+        "위클리프에게 영향을 받은 후스의 성찬 이해까지 같았습니까?",
+        "개혁 이전 운동들을 동일 교파의 직선적인 계보로 묶기 어려운 이유는 무엇입니까?"
+      ],
+      "risk": "Wyclif remanence and Hus acceptance of transubstantiation are not interchangeable; Waldensian C417-18 hold",
+      "newDraftActuallyReadByHuman": false,
+      "expertReviewResult": null,
+      "readerComprehensionResult": null,
+      "prerequisites": [
+        "Document exact passage and period/region",
+        "Source class and location reference",
+        "Alternative denominational self-description as needed",
+        "Suggested revised wording"
+      ],
+      "releaseStatus": "AWAITING_HUMAN_TEST"
+    },
+    {
+      "volumeId": "VOL-04",
+      "manuscriptTitle": "한 번이 아니라 여러 갈래로 일어난 16세기 개혁",
+      "chars": 2066,
+      "deliberateEdits": [
+        "E443-06"
+      ],
+      "historianQuestions": [
+        "1530 비공식 인쇄와 1531 저자 관여판을 구별하는가?",
+        "1540 인쇄본이 모두 Variata라는 추정을 하지 않는가?"
+      ],
+      "readerQuestions": [
+        "1517년 신학적 논쟁이 모든 지역에서 동일한 교회제도를 낳았습니까?",
+        "1530년과 1531년, 1540년의 신앙고백 관련 기록을 왜 구분해야 합니까?"
+      ],
+      "risk": "Official 1530 presentation, early unofficial prints, 1531 Melanchthon-associated version, 1540 Variata must not be conflated",
+      "newDraftActuallyReadByHuman": false,
+      "expertReviewResult": null,
+      "readerComprehensionResult": null,
+      "prerequisites": [
+        "Document exact passage and period/region",
+        "Source class and location reference",
+        "Alternative denominational self-description as needed",
+        "Suggested revised wording"
+      ],
+      "releaseStatus": "AWAITING_HUMAN_TEST"
+    },
+    {
+      "volumeId": "VOL-05",
+      "manuscriptTitle": "가톨릭 쇄신과 종교 갈등, 제한된 공존",
+      "chars": 2281,
+      "deliberateEdits": [
+        "E443-07",
+        "E443-08"
+      ],
+      "historianQuestions": [
+        "트리엔트 공의회의 세 시기를 구분하는가?",
+        "1555년 화의와 1648년 체제를 현대적 개인 종교 자유와 동일시하지 않는가?"
+      ],
+      "readerQuestions": [
+        "1555년 아우크스부르크 화의가 누구에게나 보편적인 종교 자유를 보장했습니까?",
+        "트리엔트 공의회 문서의 발표와 각 지역 현장에서의 실천은 어떤 차이가 있습니까?"
+      ],
+      "risk": "Catholic reform as mere backlash and 1555/1648 as universal personal freedom are misleading",
+      "newDraftActuallyReadByHuman": false,
+      "expertReviewResult": null,
+      "readerComprehensionResult": null,
+      "prerequisites": [
+        "Document exact passage and period/region",
+        "Source class and location reference",
+        "Alternative denominational self-description as needed",
+        "Suggested revised wording"
+      ],
+      "releaseStatus": "AWAITING_HUMAN_TEST"
+    },
+    {
+      "volumeId": "VOL-06",
+      "manuscriptTitle": "경건주의와 부흥, 언어를 가로지른 세계 선교",
+      "chars": 2390,
+      "deliberateEdits": [
+        "E443-09",
+        "E443-10"
+      ],
+      "historianQuestions": [
+        "타밀어 1714년 첫 부분과 1715년 신약 소장본을 구별하는가?",
+        "BSI 1719년 기록을 증명된 별도 초판으로 단정하지 않는가?"
+      ],
+      "readerQuestions": [
+        "1714년 타밀어 출판물과 1715년 소장본은 어떤 범위를 가리킵니까?",
+        "1719년의 기록을 이 원고가 확정적인 별도 신약 초판으로 설명합니까?"
+      ],
+      "risk": "1715 identifiable whole-content catalogue, conflicting 1719 institutional exhibit, not resolved by inference",
+      "newDraftActuallyReadByHuman": false,
+      "expertReviewResult": null,
+      "readerComprehensionResult": null,
+      "prerequisites": [
+        "Document exact passage and period/region",
+        "Source class and location reference",
+        "Alternative denominational self-description as needed",
+        "Suggested revised wording"
+      ],
+      "releaseStatus": "AWAITING_HUMAN_TEST"
+    },
+    {
+      "volumeId": "VOL-07",
+      "manuscriptTitle": "세계의 여러 중심과 한국교회의 형성",
+      "chars": 2427,
+      "deliberateEdits": [
+        "E443-11",
+        "E443-12",
+        "E443-13"
+      ],
+      "historianQuestions": [
+        "1779년 강학과 1784년 세례·공동체 형성 차이를 설명하는가?",
+        "1882 개별 복음서·1887 신약·1911 신구약 범위를 구별하는가?"
+      ],
+      "readerQuestions": [
+        "라틴아메리카·중동·아시아·한국 사례 중 두 지역을 선택해 각각 다른 역사적 질문을 설명해 주세요.",
+        "1910년 선교대회, 1948년 WCC, 제2차 바티칸 공의회가 모두 하나의 교단 결정이었습니까?"
+      ],
+      "risk": "Catholic Medellin/Puebla vs Protestant/Pentecostal strands, MECC 1974/1990 families, Asia's local diversity, and Korean postwar complexity",
+      "newDraftActuallyReadByHuman": false,
+      "expertReviewResult": null,
+      "readerComprehensionResult": null,
+      "prerequisites": [
+        "Document exact passage and period/region",
+        "Source class and location reference",
+        "Alternative denominational self-description as needed",
+        "Suggested revised wording"
+      ],
+      "releaseStatus": "AWAITING_HUMAN_TEST"
+    },
+    {
+      "volumeId": "VOL-08",
+      "manuscriptTitle": "여섯 질문으로 다시 읽는 기독교사의 지도",
+      "chars": 3081,
+      "deliberateEdits": [
+        "E443-14",
+        "E443-15"
+      ],
+      "historianQuestions": [
+        "여덟 번째 시대가 아닌 여섯 주제의 색인임을 알려주는가?",
+        "6주제×7시대=42개 연결이 실제 이해를 돕는가?"
+      ],
+      "readerQuestions": [
+        "제8권은 왜 새로운 시대를 뜻하지 않습니까?",
+        "성찬 또는 번역이라는 주제를 선택한 다음, 서로 다른 시대권 두 곳으로 이동해 무엇을 비교할지 설명해 주세요."
+      ],
+      "risk": "Do not conflate same thematic keyword with identical doctrine or claim 42 app links are live routes",
+      "newDraftActuallyReadByHuman": false,
+      "expertReviewResult": null,
+      "readerComprehensionResult": null,
+      "prerequisites": [
+        "Document exact passage and period/region",
+        "Source class and location reference",
+        "Alternative denominational self-description as needed",
+        "Suggested revised wording"
+      ],
+      "releaseStatus": "AWAITING_HUMAN_TEST"
+    }
+  ],
+  "workflow": {
+    "historianApprovalState": "NONE_RECEIVED",
+    "actualHistorianReviewCount": 0,
+    "adultReaderPilotState": "NOT_STARTED",
+    "actualReaderSessionCount": 0,
+    "pilotProposal": "8 anonymous adult readers; each studies one assigned era, with VOL08 thematic navigation in a second, distinct task. No user or reviewer data to public GitHub.",
+    "phases": [
+      {
+        "phase": "A",
+        "kind": "Editorial preflight",
+        "condition": "Machine validation of editorial text and 51 claim links",
+        "state": "COMPLETED_PRELIMINARY"
+      },
+      {
+        "phase": "B",
+        "kind": "Expert review",
+        "condition": "Signed decisions for priority P0 sources, additional P1 as required",
+        "state": "NOT_STARTED"
+      },
+      {
+        "phase": "C",
+        "kind": "Reader comprehension",
+        "condition": "Actual anonymized reader sessions with unseen comprehension prompts and documented confusions",
+        "state": "NOT_STARTED"
+      },
+      {
+        "phase": "D",
+        "kind": "Legal and private app staging",
+        "condition": "Content licensing, frozen baseline preservation, separately approved nonproduction staging and UI checks",
+        "state": "NOT_STARTED"
+      },
+      {
+        "phase": "E",
+        "kind": "Release go/no-go",
+        "condition": "Written and evidence-based go decision; unresolved holds excluded",
+        "state": "NOT_STARTED"
+      }
+    ]
+  },
+  "decisionTemplate": {
+    "claimId": null,
+    "volumeId": null,
+    "selectedPassage": null,
+    "decision": null,
+    "sourceClass": null,
+    "sourceUri": null,
+    "pageOrArchiveLocator": null,
+    "proposedCorrection": null,
+    "reviewerExpertise": null,
+    "reviewDate": null,
+    "signoff": null
+  },
+  "publicRepositoryDataRestriction": "Do not publish participant names, contacts, religious affiliation, identifiable free-text responses, reviewer credentials without consent.",
+  "noPromotionWithoutHumanSignoff": true,
+  "release": {
+    "canShip": false,
+    "canMergeMain": false,
+    "canImportAIStudio": false,
+    "actualHumanSignoffs": 0,
+    "actualReaderPilots": 0
+  }
+}
