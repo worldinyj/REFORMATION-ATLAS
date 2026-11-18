@@ -1,0 +1,372 @@
+{
+  "schema": "ATLAS_V458_HIGH_RISK_SOURCE_AND_VARIANT_EVIDENCE_MATRIX",
+  "date": "2026-11-18",
+  "reviewStatus": "RESEARCH_SOURCE_CHECKED_NOT_EXPERT_SIGNED",
+  "scope": "Marburg Art.15, Augsburg 1531 prints, 1540 Variata and non-Variata witnesses",
+  "priorRegister": "research/data/ATLAS_V457_CLAIM_SOURCE_CRITICAL_REGISTER.json",
+  "sourceRegistry": {
+    "GHDI_DE": {
+      "title": "GHDI: Die Marburger Artikel (1529), German edited transcription",
+      "url": "https://germanhistorydocs.org/de/von-den-reformationen-bis-zum-dreissigjaehrigen-krieg-1500-1648/die-marburger-religionsgespraeche-die-marburger-artikel-1529",
+      "type": "EDITED_GERMAN_TRANSCRIPTION",
+      "locator": "German art. 15 under Vom Sacrament des leibs vnd Bluts Christj; GHDI cites WA 30/III, Weimar 1910, pp.160–171",
+      "checked": "2026-11-18"
+    },
+    "GHDI_EN": {
+      "title": "GHDI: The Marburg Articles (1529), Ellen Yutzy Glebe translation",
+      "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/the-marburg-colloquy-the-marburg-articles-1529",
+      "type": "EDITED_ENGLISH_TRANSLATION",
+      "locator": "Article 15 and source/translation colophon",
+      "checked": "2026-11-18"
+    },
+    "GRUBER": {
+      "title": "Gruber Rare Books Collection: Augsburg Confession and Apology",
+      "url": "https://gruber.lstc.edu/confessions/augs_apol.php",
+      "type": "INSTITUTIONAL_COLLECTION_CATALOGUE",
+      "locator": "Gruber 162/176/163/175; 43/62/46/7/14/26; 28; paragraph after Gruber 28",
+      "checked": "2026-11-18"
+    },
+    "PITTS": {
+      "title": "Emory Pitts Digital Image Archive: Historiated Title Page, 1540 Variata",
+      "url": "https://dia.pitts.emory.edu/image_details.cfm?ID=6759",
+      "type": "UNIVERSITY_DIGITAL_OBJECT_DESCRIPTION",
+      "locator": "Book Title, Image Title, Description, Rights Statement",
+      "checked": "2026-11-18"
+    },
+    "SCHAFF": {
+      "title": "Philip Schaff: History of the Christian Church VII, Article X parallel readings",
+      "url": "https://ccel.org/ccel/schaff/hcc7/hcc7.ii.vii.xi.html",
+      "type": "LATER_HISTORICAL_TEXT_CRITICISM",
+      "locator": "The Augsburg Confession of 1530, Article X, versus altered Augsburg Confession of 1540",
+      "checked": "2026-11-18"
+    },
+    "BENTE": {
+      "title": "Historical Introductions: Melanchthon's Alterations to the Augsburg Confession",
+      "url": "https://thebookofconcord.org/introductory-materials/historical-introductions/melanchthons-alterations-to-the-augsburg-confession/",
+      "type": "LATER_CONFESSIONAL_HISTORIOGRAPHY",
+      "locator": "Introductory paragraphs on diligenter recognita, Naumburg and Book of Concord; interpretive and confessional",
+      "checked": "2026-11-18"
+    }
+  },
+  "sourceCount": 6,
+  "evidenceCount": 14,
+  "highRiskClaimIds": [
+    "V457-C02",
+    "V457-C03",
+    "V457-C06",
+    "V457-C08",
+    "V457-C09",
+    "V457-C10",
+    "V457-C11",
+    "V457-C12",
+    "V457-C13",
+    "V457-C14"
+  ],
+  "claimCoverage": {
+    "totalHighRisk": 10,
+    "coveredHighRisk": 10,
+    "uncoveredHighRisk": []
+  },
+  "evidence": [
+    {
+      "id": "EV458-01",
+      "claimIds": [
+        "V457-C02",
+        "V457-C03"
+      ],
+      "sourceIds": [
+        "GHDI_DE",
+        "GHDI_EN"
+      ],
+      "locator": "German Art. 15 first sentence; English Art. 15 first paragraph",
+      "language": "EARLY_NEW_HIGH_GERMAN",
+      "anchorTokens": [
+        "gleuben vnd halten wir alle",
+        "gaistliche niessung"
+      ],
+      "verified": "The parties share statements about both kinds, the sacrament of Christ's true body and blood, and spiritual receiving; a summary of Article 15 as complete disagreement is wrong.",
+      "limit": "No witness collation or doctrinal adjudication; historical spelling is from the edited German source.",
+      "tier": "EDITED_ORIGINAL_LANGUAGE_TEXT",
+      "disposition": "SUPPORTED_WITH_EDITION_LIMITS"
+    },
+    {
+      "id": "EV458-02",
+      "claimIds": [
+        "V457-C03"
+      ],
+      "sourceIds": [
+        "GHDI_DE",
+        "GHDI_EN"
+      ],
+      "locator": "German Art. 15 closing paragraph, English corresponding final sentence",
+      "language": "EARLY_NEW_HIGH_GERMAN",
+      "anchorTokens": [
+        "leiblich im Brot und wein",
+        "dißer Zeit nit vergleicht"
+      ],
+      "verified": "The precisely recorded nonagreement concerns whether Christ's true body and blood are corporeally present in bread and wine, not whether any kind of communion is acknowledged.",
+      "limit": "Avoid back-projecting a fully settled later technical confessional vocabulary or the statement that all participants viewed the Supper as symbolic.",
+      "tier": "EDITED_ORIGINAL_LANGUAGE_TEXT",
+      "disposition": "SUPPORTED_WITH_EDITION_LIMITS"
+    },
+    {
+      "id": "EV458-03",
+      "claimIds": [
+        "V457-C06"
+      ],
+      "sourceIds": [
+        "GRUBER"
+      ],
+      "locator": "Presentation header and Gruber 162, 176, 163, 175",
+      "language": "GERMAN_AND_LATIN_PRINT_DESCRIPTIONS",
+      "anchorTokens": [
+        "June 25, 1530",
+        "Gruber 162",
+        "Gruber 163",
+        "Gruber 175"
+      ],
+      "verified": "The collection differentiates presentation on June 25 from itemized 1530 German and Latin printed editions and notes unreliable early unauthorized printed versions.",
+      "limit": "Do not infer manuscript identity, exact submitted copy, or complete exhaustive edition list from this webpage alone.",
+      "tier": "INSTITUTIONAL_CATALOGUE",
+      "disposition": "SUPPORTED_WITH_PHYSICAL_WITNESS_LIMITS"
+    },
+    {
+      "id": "EV458-04",
+      "claimIds": [
+        "V457-C08",
+        "V457-C09"
+      ],
+      "sourceIds": [
+        "GRUBER"
+      ],
+      "locator": "Gruber 46 title and imprint",
+      "language": "LATIN_TITLE_PAGE_AS_CATALOGUED",
+      "anchorTokens": [
+        "Witebergae",
+        "Georgium Rhau",
+        "MDXXXI"
+      ],
+      "verified": "Gruber 46 records a Latin Confession plus Apology printed at Wittenberg by Georg Rhau, dated 1531.",
+      "limit": "The catalogue says 'first Latin edition' according to a note inside the front cover; the note is evidence of catalogued attribution, not an independently verified first-edition census.",
+      "tier": "INSTITUTIONAL_CATALOGUE",
+      "disposition": "SPECIFIC_PRINT_IDENTIFIED"
+    },
+    {
+      "id": "EV458-05",
+      "claimIds": [
+        "V457-C08"
+      ],
+      "sourceIds": [
+        "GRUBER"
+      ],
+      "locator": "Gruber 26 explanatory paragraph",
+      "language": "LATIN_EDITION_CATALOGUE",
+      "anchorTokens": [
+        "Gruber 26",
+        "spring of 1531"
+      ],
+      "verified": "The catalogue identifies a spring 1531 Latin authorized text and Apology under Melanchthon's supervision; despite bilingual cover information, its described content is only Latin.",
+      "limit": "A title-page claim that an object contains German and Latin is not proof the specific described copy includes both.",
+      "tier": "INSTITUTIONAL_CATALOGUE",
+      "disposition": "SPECIFIC_PRINT_IDENTIFIED"
+    },
+    {
+      "id": "EV458-06",
+      "claimIds": [
+        "V457-C08",
+        "V457-C09"
+      ],
+      "sourceIds": [
+        "GRUBER"
+      ],
+      "locator": "Gruber 7 colophon and Gruber 43/62 description",
+      "language": "GERMAN_PRINT_CATALOGUE",
+      "anchorTokens": [
+        "Gruber 7",
+        "November 1531",
+        "Justus Jonas"
+      ],
+      "verified": "Gruber 7 is described as German Confession and Apology translated by Justus Jonas with a November 1531 colophon. Gruber 43 and 62 concern German versions, but 62 has an uncertain handwritten Luther provenance note.",
+      "limit": "Do not label Gruber 7 as printed in Augsburg based solely on its title's references to the 1530 Augsburg Diet; its described colophon confirms a date, not here the printing location.",
+      "tier": "INSTITUTIONAL_CATALOGUE",
+      "disposition": "DATE_CONFIRMED_PLACE_NOT_ESTABLISHED"
+    },
+    {
+      "id": "EV458-07",
+      "claimIds": [
+        "V457-C10"
+      ],
+      "sourceIds": [
+        "GRUBER"
+      ],
+      "locator": "Gruber 28 title and paragraph immediately below",
+      "language": "LATIN_PRINT_CATALOGUE",
+      "anchorTokens": [
+        "Gruber 28",
+        "MDXL",
+        "Georgium Rhau"
+      ],
+      "verified": "Gruber 28 is described as a 1540 Latin Augsburg Confession and Apology from Wittenberg, identified by the cataloguer as Variata.",
+      "limit": "This does not establish that every 1540 printing is Variata or constitute complete collation of Article X and all copies.",
+      "tier": "INSTITUTIONAL_CATALOGUE",
+      "disposition": "SPECIFIC_PRINT_IDENTIFIED"
+    },
+    {
+      "id": "EV458-08",
+      "claimIds": [
+        "V457-C10",
+        "V457-C12"
+      ],
+      "sourceIds": [
+        "GRUBER",
+        "PITTS"
+      ],
+      "locator": "Gruber 28 and Pitts image-details book title",
+      "language": "LATIN_TITLE_GRAMMAR",
+      "anchorTokens": [
+        "Addita est Apologia Confessionis diligenter recognita"
+      ],
+      "verified": "The title's feminine participle recognita grammatically modifies Apologia, not Confessio. The publisher's description separately labels the 1540 Confession as Variata.",
+      "limit": "Do not claim that recognita on the title page alone states the Augsburg Confession was revised; source descriptions and actual Article X readings must be kept separate.",
+      "tier": "TITLE_PAGE_METADATA_CROSS_CHECK",
+      "disposition": "CRITICAL_GRAMMAR_CLARIFICATION"
+    },
+    {
+      "id": "EV458-09",
+      "claimIds": [
+        "V457-C10"
+      ],
+      "sourceIds": [
+        "GRUBER",
+        "SCHAFF"
+      ],
+      "locator": "Gruber 28 Art. X paraphrase; Schaff 1530/1540 paired readings",
+      "language": "LATIN_TEXT_AS_LATER_TRANSCRIBED",
+      "anchorTokens": [
+        "vere adsint et distribuantur",
+        "cum pane et vino vere exhibeantur"
+      ],
+      "verified": "The cited historical comparison reports that Article X's 1530/1531 language of true presence and distribution is differently formulated in 1540 as true exhibition with bread and wine; the explicit disapproval clause is not retained.",
+      "limit": "This is a limited phrase comparison mediated by later editions, not an autopsy-based transcription of both unique surviving 16th-century exemplars. Theological intent and all version boundaries remain expert questions.",
+      "tier": "HISTORICAL_CRITICAL_COMPARISON",
+      "disposition": "TEXT_VARIANT_REPORTED_NOT_FULLY_COLLATED"
+    },
+    {
+      "id": "EV458-10",
+      "claimIds": [
+        "V457-C11"
+      ],
+      "sourceIds": [
+        "GRUBER"
+      ],
+      "locator": "Unnumbered paragraph between Gruber 28 and Saxon confession",
+      "language": "CATALOGUE_DESCRIPTION",
+      "anchorTokens": [
+        "not the Variata edition",
+        "Nils Forsander"
+      ],
+      "verified": "The catalogue describes an Augsburg Confession plus Apology copy dated 1540 which it explicitly says is not Variata, and gives Nils Forsander provenance.",
+      "limit": "An individual Gruber inventory number, imprint transcription, signatures and a demonstrable textual side-by-side comparison are absent from that paragraph; no identifier should be invented.",
+      "tier": "UNNUMBERED_COLLECTION_DESCRIPTION",
+      "disposition": "CATALOGUE_REPORT_CONFIRMED_OBJECT_ID_HOLD"
+    },
+    {
+      "id": "EV458-11",
+      "claimIds": [
+        "V457-C10",
+        "V457-C11"
+      ],
+      "sourceIds": [
+        "PITTS",
+        "GRUBER"
+      ],
+      "locator": "Emory Pitts digital object ID 6759 and Gruber 28 item",
+      "language": "LATIN_BOOK_TITLE_DESCRIPTION",
+      "anchorTokens": [
+        "Confessio fidei exhibita",
+        "diligenter recognita"
+      ],
+      "verified": "Pitts independently documents and identifies a 1540 altered edition image, supporting existence of another institutional 1540 Variata witness; two descriptions do not prove identity of their physical copies.",
+      "limit": "Pitts public-domain rights notice is institution-qualified; do not copy the archive image into the app without a separately recorded asset decision.",
+      "tier": "INDEPENDENT_INSTITUTIONAL_CATALOGUE",
+      "disposition": "INDEPENDENT_1540_VARIATA_WITNESS"
+    },
+    {
+      "id": "EV458-12",
+      "claimIds": [
+        "V457-C12"
+      ],
+      "sourceIds": [
+        "GHDI_DE",
+        "GHDI_EN",
+        "GRUBER",
+        "PITTS"
+      ],
+      "locator": "GHDI bibliography and English translator credit; Gruber object notes; Pitts digitized title-page description",
+      "language": "MULTISOURCE",
+      "anchorTokens": [
+        "WA 30/III 160–171",
+        "Translation: Ellen Yutzy Glebe",
+        "Gruber 28"
+      ],
+      "verified": "Distinct roles of original-language edited transcription, translation, object-catalogue descriptions and university digitized object description can be traced.",
+      "limit": "These sources are not interchangeable with a facsimile autopsy or critical original-copy stemma.",
+      "tier": "SOURCE_TYPE_CRITICISM",
+      "disposition": "DISTINCTION_REQUIRED_IN_UI"
+    },
+    {
+      "id": "EV458-13",
+      "claimIds": [
+        "V457-C13"
+      ],
+      "sourceIds": [
+        "BENTE",
+        "PITTS"
+      ],
+      "locator": "Bente's reception-history paragraphs; Pitts editorial statement on Lutheran Church confessional use",
+      "language": "LATER_HISTORIOGRAPHY",
+      "anchorTokens": [
+        "The first Unaltered Augsburg Confession",
+        "the other edition"
+      ],
+      "verified": "Later confessional historiography records eventual preference for the unaltered confession in Lutheran confession-making.",
+      "limit": "Neither source establishes universal reception across all churches, readers, dates, territories or actual Melanchthon intention. Bente's confessional judgments should not become neutral facts.",
+      "tier": "LATER_CONFESSIONAL_INTERPRETATION",
+      "disposition": "EXPERT_REVIEW_HOLD"
+    },
+    {
+      "id": "EV458-14",
+      "claimIds": [
+        "V457-C14"
+      ],
+      "sourceIds": [
+        "GRUBER",
+        "BENTE",
+        "SCHAFF"
+      ],
+      "locator": "Gruber 28 characterizes Melanchthon's motivations as compromise with Calvinists; older confessional and historical accounts differ",
+      "language": "RETROSPECTIVE_INTERPRETATION",
+      "anchorTokens": [
+        "Calvinists",
+        "compromise"
+      ],
+      "verified": "The 'compromise with Calvinists' phrasing is the cataloguer's modern interpretation, not a literal statement proven to occur in the 1540 title page or the Article X Latin quotation.",
+      "limit": "No conclusion about author's motivation, anachronism in all uses of the term, or 1540 actors' self-naming follows from this wording alone. Require modern neutral historiography and contemporary correspondence.",
+      "tier": "EDITORIAL_FRAMING_CRITICISM",
+      "disposition": "INTERPRETATION_HOLD"
+    }
+  ],
+  "sourceBoundary": {
+    "waGermanEditedText": "German GHDI cites Weimarer Ausgabe 30/III (1910), pages 160–171. Printed WA pages and manuscript witness were not opened here.",
+    "pittsObject": "Emory Pitts digitized object details, not a full collation or permission for app media",
+    "gruberUnnumberedNonVariata": "Object number and unique imprint remain unverified",
+    "benteSchaff": "Later confessional/historical interpretation is not contemporary evidence."
+  },
+  "independentExpertReviews": 0,
+  "readerPilots": 0,
+  "release": {
+    "canShip": false,
+    "canMergeMain": false,
+    "canImportAIStudio": false
+  }
+}
