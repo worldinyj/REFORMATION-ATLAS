@@ -1,0 +1,299 @@
+{
+  "schema": "ATLAS_V457_CLAIM_SOURCE_CRITICAL_REGISTER",
+  "version": "4.57",
+  "date": "2026-11-18",
+  "project": "REFORMATION_ATLAS",
+  "scope": "first flagship scene 1529–1540 only",
+  "basedOnScene": "research/data/ATLAS_PHASE0_FLAGSHIP_SCENE_1529_1540_PRIVATE_MODEL.json",
+  "verificationLegend": {
+    "SOURCE_PAGE_SUPPORTED": "Relevant published source explicitly supports the modest claim; not a scholarly signoff.",
+    "SOURCE_PAGE_SUPPORTED_WITH_LIMITS": "Source page supports part of claim but editorial and item-collation limits remain.",
+    "NEEDS_ADDITIONAL_SOURCES": "Not suitable for unrestricted public assertion pending stronger corroboration."
+  },
+  "sourceRegistry": {
+    "GHDI_MARBURG": {
+      "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/the-marburg-colloquy-the-marburg-articles-1529",
+      "kind": "edited primary text in English translation",
+      "anchor": "Marburg Articles, date header, arts. 1–15, source colophon",
+      "verification": "source-page-reviewed-2026-11-18"
+    },
+    "GRUBER_AUGSBURG": {
+      "url": "https://gruber.lstc.edu/confessions/augs_apol.php",
+      "kind": "institutional collection descriptions",
+      "anchor": "Gruber 162/163/175; 43/7/46/26; 28; unnamed 1540 non-Variata description",
+      "verification": "source-page-reviewed-2026-11-18"
+    },
+    "BOC_HISTORY": {
+      "url": "https://thebookofconcord.org/introductory-materials/historical-introductions/the-augsburg-confession/",
+      "kind": "later historical introduction; confessional perspective",
+      "anchor": "Augsburg Confession print history",
+      "verification": "secondary-context-only"
+    }
+  },
+  "claimCount": 14,
+  "claims": [
+    {
+      "id": "V457-C01",
+      "topic": "Marburg date",
+      "eventId": "EVENT-MARBURG-1529",
+      "claim": "The fifteen Marburg Articles are dated 3 October 1529 and bear signatories.",
+      "sources": [
+        "GHDI_MARBURG"
+      ],
+      "anchor": "Source header and signatories",
+      "evidence": "DIRECT_EDITED_PRIMARY_TRANSLATION",
+      "preliminary": "SOURCE_PAGE_SUPPORTED",
+      "risk": "LOW",
+      "expertQuestion": "Check original-date variants, signatories, and the wording of 'written and signed'.",
+      "researchDraftAllowed": true,
+      "expertApproved": false,
+      "canShip": false
+    },
+    {
+      "id": "V457-C02",
+      "topic": "Marburg agreement",
+      "eventId": "EVENT-MARBURG-1529",
+      "claim": "The first fourteen articles contain shared positions; Article 15 also records agreement on parts of the Lord's Supper.",
+      "sources": [
+        "GHDI_MARBURG"
+      ],
+      "anchor": "Articles 1–15, especially first two sentences of 15",
+      "evidence": "DIRECT_EDITED_PRIMARY_TRANSLATION",
+      "preliminary": "SOURCE_PAGE_SUPPORTED",
+      "risk": "HIGH",
+      "expertQuestion": "Verify how many distinct propositions in Article 15 were shared and avoid saying 'the fifteenth was entirely disputed'.",
+      "researchDraftAllowed": true,
+      "expertApproved": false,
+      "canShip": false
+    },
+    {
+      "id": "V457-C03",
+      "topic": "Marburg disagreement",
+      "eventId": "EVENT-MARBURG-1529",
+      "claim": "Article 15 explicitly leaves unresolved whether Christ's true body and blood are bodily present in bread and wine.",
+      "sources": [
+        "GHDI_MARBURG"
+      ],
+      "anchor": "Article 15 final section",
+      "evidence": "DIRECT_EDITED_PRIMARY_TRANSLATION",
+      "preliminary": "SOURCE_PAGE_SUPPORTED",
+      "risk": "HIGH",
+      "expertQuestion": "Compare German wording of bodily presence and subsequent historiographic interpretation.",
+      "researchDraftAllowed": true,
+      "expertApproved": false,
+      "canShip": false
+    },
+    {
+      "id": "V457-C04",
+      "topic": "Marburg charity not settlement",
+      "eventId": "EVENT-MARBURG-1529",
+      "claim": "Article 15 calls for mutual Christian love and prayer despite the unresolved difference.",
+      "sources": [
+        "GHDI_MARBURG"
+      ],
+      "anchor": "Article 15 closing statement",
+      "evidence": "DIRECT_EDITED_PRIMARY_TRANSLATION",
+      "preliminary": "SOURCE_PAGE_SUPPORTED",
+      "risk": "MEDIUM",
+      "expertQuestion": "Distinguish the text's exhortation from claims about historical reconciliation.",
+      "researchDraftAllowed": true,
+      "expertApproved": false,
+      "canShip": false
+    },
+    {
+      "id": "V457-C05",
+      "topic": "Augsburg presentation",
+      "eventId": "EVENT-AUGSBURG-1530",
+      "claim": "The Augsburg Confession was presented on 25 June 1530 at the Diet of Augsburg.",
+      "sources": [
+        "GRUBER_AUGSBURG"
+      ],
+      "anchor": "Introductory paragraph",
+      "evidence": "INSTITUTIONAL_CATALOGUE_CONTEXT",
+      "preliminary": "SOURCE_PAGE_SUPPORTED",
+      "risk": "MEDIUM",
+      "expertQuestion": "Cross-check German/Latin presentation procedures and submitted document identity.",
+      "researchDraftAllowed": true,
+      "expertApproved": false,
+      "canShip": false
+    },
+    {
+      "id": "V457-C06",
+      "topic": "1530 prints versus submission",
+      "eventId": "EVENT-AUGSBURG-1530",
+      "claim": "A confession submitted at the 1530 Diet should not be treated as an identical physical object to 1530 printed copies.",
+      "sources": [
+        "GRUBER_AUGSBURG"
+      ],
+      "anchor": "Introductory paragraph; Gruber 162, 163, 175",
+      "evidence": "BIBLIOGRAPHIC_INFERENCE",
+      "preliminary": "SOURCE_PAGE_SUPPORTED_WITH_LIMITS",
+      "risk": "HIGH",
+      "expertQuestion": "Check surviving presentation manuscripts versus known 1530 copies; discriminate physical exemplar from text.",
+      "researchDraftAllowed": true,
+      "expertApproved": false,
+      "canShip": false
+    },
+    {
+      "id": "V457-C07",
+      "topic": "1530 unofficial print counts",
+      "eventId": "EVENT-AUGSBURG-1530",
+      "claim": "The Gruber catalogue reports six German and one Latin unauthorized 1530 editions.",
+      "sources": [
+        "GRUBER_AUGSBURG"
+      ],
+      "anchor": "Introductory paragraph",
+      "evidence": "INSTITUTIONAL_CATALOGUE_CONTEXT",
+      "preliminary": "SOURCE_PAGE_SUPPORTED_WITH_LIMITS",
+      "risk": "MEDIUM",
+      "expertQuestion": "Verify edition count, what counts as an edition, and whether wording 'unofficial' is justified.",
+      "researchDraftAllowed": true,
+      "expertApproved": false,
+      "canShip": false
+    },
+    {
+      "id": "V457-C08",
+      "topic": "1531 publications",
+      "eventId": "EVENT-AUGSBURG-1531",
+      "claim": "The Gruber catalogue identifies 1531 printings containing the Augsburg Confession and its Apology, separately in Latin and German.",
+      "sources": [
+        "GRUBER_AUGSBURG"
+      ],
+      "anchor": "Gruber 43/7/46/26",
+      "evidence": "INSTITUTIONAL_ITEM_DESCRIPTION",
+      "preliminary": "SOURCE_PAGE_SUPPORTED",
+      "risk": "HIGH",
+      "expertQuestion": "Identify edition chronology and distinguish individual 1531 imprints and translations.",
+      "researchDraftAllowed": true,
+      "expertApproved": false,
+      "canShip": false
+    },
+    {
+      "id": "V457-C09",
+      "topic": "1531 places chronology",
+      "eventId": "EVENT-AUGSBURG-1531",
+      "claim": "The 1531 event's Augsburg place label is topical and must not be represented as the confirmed place of printing for all copies.",
+      "sources": [
+        "GRUBER_AUGSBURG"
+      ],
+      "anchor": "Gruber 46 Witebergae imprint; Gruber 7 November colophon",
+      "evidence": "BIBLIOGRAPHIC_INFERENCE",
+      "preliminary": "SOURCE_PAGE_SUPPORTED_WITH_LIMITS",
+      "risk": "HIGH",
+      "expertQuestion": "Verify original imprint places by physical-object catalogue and adjust UI label if misunderstood.",
+      "researchDraftAllowed": true,
+      "expertApproved": false,
+      "canShip": false
+    },
+    {
+      "id": "V457-C10",
+      "topic": "1540 Variata",
+      "eventId": "EVENT-AUGSBURG-1540",
+      "claim": "Gruber 28 is identified as a 1540 Variata edition with a changed formulation of Article X on the Lord's Supper.",
+      "sources": [
+        "GRUBER_AUGSBURG"
+      ],
+      "anchor": "Gruber 28 and Article X discussion",
+      "evidence": "INSTITUTIONAL_ITEM_DESCRIPTION",
+      "preliminary": "SOURCE_PAGE_SUPPORTED_WITH_LIMITS",
+      "risk": "HIGH",
+      "expertQuestion": "Collate Latin wording across 1531, 1540 and confession edition; document changes precisely.",
+      "researchDraftAllowed": true,
+      "expertApproved": false,
+      "canShip": false
+    },
+    {
+      "id": "V457-C11",
+      "topic": "1540 non-Variata",
+      "eventId": "EVENT-AUGSBURG-1540",
+      "claim": "The Gruber catalogue also describes a 1540 copy it explicitly says is not Variata.",
+      "sources": [
+        "GRUBER_AUGSBURG"
+      ],
+      "anchor": "Paragraph following the Gruber 28 entry; item number not identified there",
+      "evidence": "INSTITUTIONAL_ITEM_DESCRIPTION",
+      "preliminary": "SOURCE_PAGE_SUPPORTED_WITH_LIMITS",
+      "risk": "HIGH",
+      "expertQuestion": "Recover the specific item number/imprint and confirm whether the two 1540 works are separate physical items and which texts were compared.",
+      "researchDraftAllowed": true,
+      "expertApproved": false,
+      "canShip": false
+    },
+    {
+      "id": "V457-C12",
+      "topic": "Source type and certainty",
+      "eventId": null,
+      "claim": "An edited/translated Marburg document and a rare-book collection catalogue provide different types of evidence; neither alone completes a direct original-copy collation.",
+      "sources": [
+        "GHDI_MARBURG",
+        "GRUBER_AUGSBURG"
+      ],
+      "anchor": "GHDI source/translator colophon versus Gruber item descriptions",
+      "evidence": "SOURCE_CRITICISM",
+      "preliminary": "SOURCE_PAGE_SUPPORTED_WITH_LIMITS",
+      "risk": "HIGH",
+      "expertQuestion": "Ensure UI distinguishes manuscript witness, print, editorial translation, holdings description, and own summary.",
+      "researchDraftAllowed": true,
+      "expertApproved": false,
+      "canShip": false
+    },
+    {
+      "id": "V457-C13",
+      "topic": "Confessional reception",
+      "eventId": "EVENT-AUGSBURG-1540",
+      "claim": "Do not infer all Lutheran/Reformed confessional acceptance of the 1540 Variata solely from item descriptions.",
+      "sources": [
+        "GRUBER_AUGSBURG",
+        "BOC_HISTORY"
+      ],
+      "anchor": "Gruber 28 and later confession-history interpretation",
+      "evidence": "INTERPRETIVE_NEGATIVE_CLAIM",
+      "preliminary": "NEEDS_ADDITIONAL_SOURCES",
+      "risk": "HIGH",
+      "expertQuestion": "Review 1540/1580 reception with multiple modern scholarly sources and differentiate later confessional positions.",
+      "researchDraftAllowed": true,
+      "expertApproved": false,
+      "canShip": false
+    },
+    {
+      "id": "V457-C14",
+      "topic": "Anachronistic label",
+      "eventId": "EVENT-AUGSBURG-1540",
+      "claim": "The Gruber description's claim of compromise with 'Calvinists' is a retrospective interpretive label, not a 1540 self-description that can be copied verbatim into the UI.",
+      "sources": [
+        "GRUBER_AUGSBURG"
+      ],
+      "anchor": "Gruber 28 explanation",
+      "evidence": "EDITORIAL_LANGUAGE_CAUTION",
+      "preliminary": "NEEDS_ADDITIONAL_SOURCES",
+      "risk": "HIGH",
+      "expertQuestion": "Confirm chronology and historiographic appropriateness of labeling 1540 interlocutors 'Calvinists'.",
+      "researchDraftAllowed": true,
+      "expertApproved": false,
+      "canShip": false
+    }
+  ],
+  "reviewWorkflow": {
+    "expertStatus": "NOT_REVIEWED",
+    "reviewers": 0,
+    "signatures": 0,
+    "pendingHighRisk": 10,
+    "requiredReviewersForHighRisk": 2,
+    "reviewOutcomes": [
+      "APPROVE",
+      "REVISE",
+      "HOLD"
+    ],
+    "unresolvedLegacyReferences": [
+      "C417-11",
+      "C417-12"
+    ],
+    "note": "Legacy claim IDs are contextual holds; no unverified one-to-one claim mapping is asserted.",
+    "freezePolicy": "Do not modify original approved-looking historical prose or lift canShip until qualified historians review the high-risk claims."
+  },
+  "release": {
+    "canShip": false,
+    "canMergeMain": false,
+    "canImportAIStudio": false
+  }
+}
