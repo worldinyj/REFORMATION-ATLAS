@@ -81,6 +81,13 @@
       "institution": "Zentralbibliothek Zürich e-rara",
       "kind": "DIGITIZED_EARLY_PRINT_LINK",
       "locator": "VD16 W2119 Zürich Froschauer 1529, archive/Folger evidence"
+    },
+    "SECONDARY_ART15": {
+      "url": "https://www.academia.edu/344495/The_Marburg_Articles_of_3_October_1529",
+      "institution": "Unverified hosted English transcript citing Luther's Works vol.38 and WA 30/III",
+      "kind": "SECONDARY_WEB_HOSTED_TRANSCRIPTION_NOT_ORIGINAL_PAGE_COLLATION",
+      "locator": "Footnotes to Zurich-only sentences in Articles 7, 13, 15",
+      "usage": "ONLY_PARAPHRASE_LEAD_DO_NOT_MARK_GERMAN_ORIGINAL_VERIFIED"
     }
   },
   "witnessCount": 10,
@@ -303,9 +310,11 @@
       "paraphrase": "Zurich has a supplementary passage concerning monastic life and vows as aid to salvation (later textual witness; wording not independently verified).",
       "preciseOriginalGermanVerified": false,
       "sourceIds": [
-        "STAZH"
+        "STAZH",
+        "SECONDARY_ART15"
       ],
-      "status": "WITNESS_LEVEL_VARIANT_CONFIRMED_TEXT_NOT_COLLATED"
+      "status": "WITNESS_LEVEL_VARIANT_CONFIRMED_TEXT_NOT_COLLATED",
+      "paraphraseReliability": "SECONDARY_TRANSLATION_LEAD_NOT_DIPLOMATIC_TRANSCRIPTION"
     },
     {
       "id": "V-MAR-13",
@@ -331,9 +340,11 @@
       "paraphrase": "A secondary transcription reports a Zurich-only sentence rejecting the mass as a work procuring grace for other persons living or dead. This wording is unverified against the Zurich manuscript.",
       "preciseOriginalGermanVerified": false,
       "sourceIds": [
-        "STAZH"
+        "STAZH",
+        "SECONDARY_ART15"
       ],
-      "status": "WITNESS_LEVEL_VARIANT_CONFIRMED_TEXT_NOT_COLLATED"
+      "status": "WITNESS_LEVEL_VARIANT_CONFIRMED_TEXT_NOT_COLLATED",
+      "paraphraseReliability": "SECONDARY_TRANSLATION_LEAD_NOT_DIPLOMATIC_TRANSCRIPTION"
     }
   ],
   "reliability": {
@@ -347,7 +358,8 @@
     "twoSignedOriginals": "Zurich Z and Hessian K both exist, with additions in Z articles 7, 13 and 15.",
     "publishedPrintsNotEquated": "1529 VD16 W2117, W2118, W2119, W2108 are catalogued separate print editions. Their wording is not asserted equal to either signed manuscript.",
     "dateCaution": "Signed agreement is conventionally dated 3 Oct 1529 by Zurich archival entry and text heading, while a Reformation 3.0 presentation states fair copies dated 4 Oct; do not treat exact preparation/signing day as verified by these summaries alone.",
-    "laterEditions": "1531 Latin VD16 C4734 and German VD16 C4736 are separate language print records. 1540 Latin Variata C4713 is not the unidentified 1540 Gruber non-Variata copy."
+    "laterEditions": "1531 Latin VD16 C4734 and German VD16 C4736 are separate language print records. 1540 Latin Variata C4713 is not the unidentified 1540 Gruber non-Variata copy.",
+    "zurichAdditionsTextStatus": "Official archive certifies the existence of three additions; thematic paraphrases of Art7/Art15 came from an unverified secondary hosted English transcript and are not textual-original proof."
   },
   "unresolved": [
     "Read Article 15 in both Z and K handwritten witnesses, or scholarly facsimile/diplomatic transcriptions of each, to determine exact additional sentence and locations.",
