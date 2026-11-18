@@ -114,3 +114,17 @@ ATLAS_BROWSER=chromium node --test browser-smoke.test.mjs
 이 4/4 PASS는 **전체 원본 HTML의 실제 브라우저 검증, WebKit 실행, Node 테스트 러너의 CI 완료, React 앱 빌드·AI Studio 이식, 원전 검토, 실제 독자 평가를 대신하지 않는다.** 근거와 미검증 사항은 `research/data/ATLAS_V454_CHROMIUM_FIXTURE_BROWSER_AUDIT.json`에 기록.
 
 후속 우선순위는 실행 가능한 GitHub CI에서 **원본 그대로** Playwright 테스트 로그와 스크린샷을 확보한 뒤 오탐/실패를 해결하는 것이다. 출시 제한 `can_ship=false`, `can_merge_main=false`, `can_import_ai_studio=false` 유지.
+
+## V4.55 — 정확한 Git 원본의 실제 Chromium 검증 (2026-11-18)
+
+**원본 동일성:** `preview-1529-1540.html`을 GitHub 연결에서 읽은 후 파일 자체의 `git hash-object`를 계산하여 Git Blob SHA-1 `c5906c70752089c218b9bdef8b9ed2fb452000cd`와 정확히 일치함을 확인했다. 전체 UTF-8 파일은 22,498바이트이고 역사 L0/L1 원고는 축약되지 않았다.
+
+**실제 브라우저:** Chromium 144.0.7559.96 + Python Playwright 1.57.0에서 320·375·768·1440px × 각 32건 = **128/128 PASS**. 원본 HTML 전체를 `page.set_content`로 브라우저에 전달했다. 로컬 `file://` 탐색은 관리자 정책으로 차단되어 사용하지 않았다. 이 결과는 실제 렌더링 시험이지만 원격 배포 사이트 또는 WebKit/Safari 시험이 아니다.
+
+**React 후보:** `AtlasFlagship1529Panel.jsx`도 Git Blob SHA `2e5a1f73334ed3e807ace3a2556c78bf7c1511c6`와 일치하는 파일로 TypeScript 5.8.3 JSX transpile 구문 오류 **0건**. 가상 React 모의 런타임으로 9개 상태/구조 검사 PASS. **실제 React 라이브러리와 기존 AI Studio 앱으로 빌드한 결과는 아니다**.
+
+**새로운 가독성 개선 항목:** 독립 HTML은 본문을 `textContent`로 표시하므로 `###`, `**` 같은 Markdown 표시가 그대로 노출된다. React 후보에는 최소한의 Markdown 표현이 있지만 두 화면의 가독성 일치가 부족하다. 후속 V4.56에서 원본 내용을 수정하지 않고 안전한 Markdown DOM 구성으로 개선하되 `innerHTML`을 쓰지 않고 회귀검사를 반복하는 방안을 우선한다.
+
+자세한 구조화 감사 파일: `research/data/ATLAS_V455_EXACT_ORIGINAL_CHROMIUM_AND_JSX_AUDIT.json`. 실제 스크린샷과 실행 코드, 원본 파일이 포함된 증거 ZIP은 현재 대화의 로컬 산출물로 보존했으며 GitHub 저장소에 업로드하지 않았다.
+
+**출시 상태 유지:** `can_ship=false`, `can_merge_main=false`, `can_import_ai_studio=false`. 역사학자 승인, 실제 독자 시험, 실제 호스트 인증 및 WebKit 검증은 미완료다.
