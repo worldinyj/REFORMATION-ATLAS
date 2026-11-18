@@ -1,0 +1,134 @@
+{
+  "schema": "ATLAS_V458_ORIGINAL_LANGUAGE_AND_EDITION_CRITICAL_VALIDATION_AUDIT",
+  "date": "2026-11-18",
+  "branch": "integration/atlas-phase1-browser-qa-v452",
+  "scope": "First flagship 1529–1540 historical research, not production code",
+  "inputs": {
+    "highRiskRegister": "research/data/ATLAS_V457_CLAIM_SOURCE_CRITICAL_REGISTER.json",
+    "highRiskRegisterBlob": "0de50d7e98ca6ce7668428e66b044531bb38c747",
+    "scene": "research/data/ATLAS_PHASE0_FLAGSHIP_SCENE_1529_1540_PRIVATE_MODEL.json"
+  },
+  "outputs": {
+    "evidenceMatrix": "research/data/ATLAS_V458_HIGH_RISK_TEXTUAL_BIBLIOGRAPHIC_EVIDENCE_MATRIX.json",
+    "evidenceMatrixBlob": "905cd943b5219a7e76e42be78a0aae80d26eb493",
+    "expertDossier": "integrations/atlas-flagship-phase1/V458_SOURCE_CRITICAL_EXPERT_EVIDENCE_DOSSIER_KO.md",
+    "expertDossierBlob": "a88f18dd8fdc3da93b2a61729f3266d92d8b5782",
+    "contractTest": "integrations/atlas-flagship-phase1/v458-evidence-contract.test.mjs",
+    "contractTestBlob": "28ad3eeff895973e69fce901716be63829018f88"
+  },
+  "quantitative": {
+    "highRiskClaims": 10,
+    "claimsWithEvidence": 10,
+    "evidenceRows": 17,
+    "sourceRecords": 7,
+    "institutionalCatalogueSources": [
+      "Gruber Rare Books Collection",
+      "Emory Pitts Image Archive",
+      "Emory Pitts Kessler 2017 exhibition catalog"
+    ],
+    "newPreciselyLocatedVD16Ids": [
+      "W2117 (1529 Marburg printed articles)",
+      "C4736 (1531 Augsburg Confession German)",
+      "C4713 (1540 Augsburg Confession Variata Latin)"
+    ],
+    "websiteTextExamination": true,
+    "pdfPage34ScreenshotExamined": true,
+    "adaptedV8AssertionGroups": 5,
+    "adaptedV8AssertionGroupsPassed": 5,
+    "actualNodeTestCommand": "NOT_RUN_VERIFIED",
+    "actualActionsJobRuns": "NOT_VERIFIED",
+    "humanHistorianSignOffs": 0,
+    "actualReaderPilots": 0,
+    "originalPublishedHistoryTextChanges": 0,
+    "productionAppChanges": 0
+  },
+  "researchFindings": [
+    {
+      "id": "F01",
+      "status": "SUPPORTED_BY_EDITED_ORIGINAL_LANGUAGE_TEXT",
+      "claimIds": [
+        "V457-C02",
+        "V457-C03"
+      ],
+      "description": "German Article 15 has shared Eucharistic assertions (gaistliche niessung), records nonagreement concerning leiblich im Brot und wein, and exhorts charity. GHDI source is edited from WA 30/III, not manuscript autopsy."
+    },
+    {
+      "id": "F02",
+      "status": "INSTITUTIONAL_CATALOGUE_CORROBORATION",
+      "claimIds": [
+        "V457-C08",
+        "V457-C09"
+      ],
+      "description": "Gruber 46 records 1531 Latin Wittenberg Georg Rhau; Gruber 7 has November 1531 German colophon; Pitts 2017 independent German Wittenberg Georg Rhau object has VD16 C4736."
+    },
+    {
+      "id": "F03",
+      "status": "CATALOGUE_PLUS_LATER_TEXT_CRITICISM",
+      "claimIds": [
+        "V457-C10"
+      ],
+      "description": "Gruber 28 and Pitts independently identify 1540 Variata. Pitts catalogue identifies VD16 C4713. Article X change reported as vere adsint et distribuantur versus cum pane et vino vere exhibeantur in later scholarly transcriptions; no direct page-by-page collation."
+    },
+    {
+      "id": "F04",
+      "status": "UNRESOLVED_SPECIFIC_OBJECT",
+      "claimIds": [
+        "V457-C11"
+      ],
+      "description": "Gruber explicitly describes a different 1540 copy as not Variata but does not present an unambiguous standalone Gruber number in the paragraph. C4713 belongs to Pitts Variata and must not be assigned to Gruber non-Variata."
+    },
+    {
+      "id": "F05",
+      "status": "GRAMMAR_CLARIFICATION",
+      "claimIds": [
+        "V457-C10",
+        "V457-C12"
+      ],
+      "description": "1540 title Addita est Apologia Confessionis diligenter recognita grammatically marks the Apology revised, not the Augsburg Confession; the latter's Variata status requires independent evidence."
+    },
+    {
+      "id": "F06",
+      "status": "LATER_INTERPRETATION_HOLD",
+      "claimIds": [
+        "V457-C13",
+        "V457-C14"
+      ],
+      "description": "Calvinists compromise and broader confession reception are modern catalogue or confessional historical framing, not contemporary self-description or full doctrinal acceptance evidence."
+    }
+  ],
+  "physicalObjectWitnesses": {
+    "marburgPrint1529": {
+      "edition": "VD16 W2117",
+      "collection": "Pitts 1529 COLL",
+      "originalPrintPagesDirectlyCollated": false
+    },
+    "augsburgGerman1531": {
+      "edition": "VD16 C4736",
+      "collection": "Pitts 1531 CONF:2",
+      "originalPrintPagesDirectlyCollated": false
+    },
+    "variataLatin1540": {
+      "edition": "VD16 C4713",
+      "collection": "Pitts 1540 CONF",
+      "originalPrintPagesDirectlyCollated": false
+    },
+    "gruberNonVariata1540": {
+      "itemNumber": null,
+      "editionIdentifier": null,
+      "originalPrintPagesDirectlyCollated": false
+    }
+  },
+  "remainingGates": [
+    "Open scanned printed pages of WA 30/III 160–171 and compare German art. 15 line by line with 1529 print VD16 W2117.",
+    "Obtain 1531 Latin and German printing facsimiles and 1540 Variata Article X real pages to validate readings and variant boundaries.",
+    "Identify the Gruber 1540 non-Variata item number and physical imprint through an authoritative object catalogue; do not infer from another institution's VD16 C4713.",
+    "Obtain independent qualified historical experts to review all 10 high-risk claims, at least 2 reviewers for high-risk approval.",
+    "Run actual reader pilot and host/authentication validation before any app integration."
+  ],
+  "validationNotes": "All five assertions were executed using exact GitHub source inside V8 with a Node import/readFile shim, not actual node --test or a browser/Actions run. No historical claims were promoted from preliminary to expert approved.",
+  "release": {
+    "canShip": false,
+    "canMergeMain": false,
+    "canImportAIStudio": false
+  }
+}
