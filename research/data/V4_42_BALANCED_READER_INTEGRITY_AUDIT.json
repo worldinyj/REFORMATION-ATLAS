@@ -1,0 +1,96 @@
+{
+  "schema": "ATLAS_V442_BALANCED_READER_INTEGRITY_AUDIT",
+  "version": "V4.42",
+  "date": "2026-11-18",
+  "status": "PASS_STRUCTURAL_AND_PROVENANCE_ONLY",
+  "sourceBlobs": [
+    {
+      "path": "research/data/V4_41_FOUR_REGION_MACRO_REVISED_L0_CANDIDATE.json",
+      "gitBlobSha": "58a4d5c6ce4f32d3ef9417928e73a8eba01bda61"
+    },
+    {
+      "path": "research/data/V4_41_FOUR_REGION_CLAIM_AND_INTEGRITY_AUDIT.json",
+      "gitBlobSha": "1cb758fad2e86d21539a5a7bab5fcd5423bbcba0"
+    },
+    {
+      "path": "research/data/V4_42_BALANCED_L0_EIGHT_VOLUME_READER_CANDIDATE.json",
+      "gitBlobSha": "b0b9f43e68526ae5c2219b15d3dd562d5253e4d8"
+    },
+    {
+      "path": "research/data/V4_42_SOURCE_TO_READER_51_CLAIM_DISPOSITION.json",
+      "gitBlobSha": "ed602b335ee1a9e21d738515bd164b2326eabfda"
+    },
+    {
+      "path": "research/data/V4_42_EIGHT_VOLUME_EXPERT_READER_REVIEW_PACKET.json",
+      "gitBlobSha": "02c5a0877a1dd88c7d7f18a06da2417d315379e2"
+    },
+    {
+      "path": "docs/01_CONTENT/OVERVIEW/V442_EIGHT_VOLUME_BALANCED_L0_READER_MANUSCRIPT_KO.md",
+      "gitBlobSha": "49280b62dd7e7c9d3130d0ff4c44fffb2cf5b4b8"
+    },
+    {
+      "path": "research/V442_BALANCED_L0_READER_EDITORIAL_DECISION_KO.md",
+      "gitBlobSha": "1e3b6ccae31436767e459b972a0bef87d505b546"
+    },
+    {
+      "path": "handoff/V429_AI_STUDIO_PRIVATE_L0_CONTENT_IMPORT.json",
+      "gitBlobSha": "64c27c0dfe05394acbb049807e4c4384d58908b9"
+    }
+  ],
+  "auditedMetrics": {
+    "volumes": 8,
+    "chronologicalVolumes": 7,
+    "thematicIndexVolumes": 1,
+    "sourceVolume07Chars": 5466,
+    "readerVolume07Chars": 2415,
+    "readerVolume07ReductionPct": 56,
+    "sourceTotalChars": 21649,
+    "readerTotalChars": 18598,
+    "originalClaimRefs": 51,
+    "exactL0ClaimAnchors": 44,
+    "rewordedL0ClaimAnchors": 5,
+    "researchOnlyClaimAnchors": 2,
+    "displayClaimAnchors": 49,
+    "uniqueDisplayClaimAnchors": 49,
+    "preservedAppVolumes": 8,
+    "preservedAppThemes": 6,
+    "preservedAppThemeLinks": 42,
+    "preservedIntroReaderChapters": 6,
+    "realReaderSessions": 0,
+    "actualHistoricalSignoffs": 0,
+    "realAppEdits": 0
+  },
+  "integrityTests": [
+    "Other seven volumes byte-identical to V4.41 historical reader bodies",
+    "Full historical V4.41 source and its 51 claim references retained without file overwrite",
+    "44 exact / 5 renamed-but-pending / 2 research-only claim dispositions verified",
+    "49 display claim anchor strings unique and position-accurate",
+    "All original source claim anchor strings unique and position-accurate",
+    "Seven chronological and one thematic volume preserved",
+    "VOL07 four-region and Korean modern macro history still present",
+    "All seven exit links preserved and VOL08 still an index",
+    "Complete Markdown manuscript contains all eight exact candidate bodies",
+    "Frozen V4.29 SHA and app 8-6-42-6 count unchanged",
+    "No expert signoff or actual reader assessment falsely recorded"
+  ],
+  "blockingHumanGates": [
+    "independent historical/denominational review of V442 revised text",
+    "actual reader comprehension testing",
+    "original source witness requirements on held claims",
+    "third-party image/text rights",
+    "separate private app staging and UX acceptance"
+  ],
+  "knownOpenIssues": [
+    "Five reworded source-to-reader claims need renewed human assessment",
+    "Two source details moved out of introductory reader intentionally; visible detail remains in full V4.41 research",
+    "V4.42 L0 edition is not a new primary-witness collation",
+    "Chronology in region-based VOL07 restarts by area; reader note included"
+  ],
+  "errors": [],
+  "release": {
+    "canShip": false,
+    "canMergeMain": false,
+    "canImportAIStudio": false,
+    "canPublicLaunch": false
+  }
+}
