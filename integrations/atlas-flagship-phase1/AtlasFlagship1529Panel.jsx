@@ -40,6 +40,7 @@ export default function AtlasFlagship1529Panel({
   const comparePanelId=useId();
   const evidencePanelId=useId();
   const timelineRef=useRef(null);
+  const timelineYearsRef=useRef(null);
   const headingRef=useRef(null);
   const integrity=useMemo(()=>{
     if(!scene||!atlas||!atlas.meta)return null;
@@ -65,7 +66,7 @@ export default function AtlasFlagship1529Panel({
     setLayer("L0");
     setShowEvidence(true);
     setShowEditionCompare(false);
-    timelineRef.current?.scrollTo?.({left:0,behavior:"instant"});
+    timelineYearsRef.current?.scrollTo?.({left:0,behavior:"instant"});
     headingRef.current?.scrollIntoView?.({block:"start",behavior:"instant"});
   }
   function handleReadingKeyDown(event) {
@@ -90,10 +91,12 @@ export default function AtlasFlagship1529Panel({
         <h2>시간의 흐름</h2>
         <p className="atlas-fp-help">연도를 선택하면 해당 사건과 문헌 근거가 바뀝니다.</p>
         <p className="atlas-fp-mobile-hint">연표를 좌우로 밀어 다른 사건을 보세요.</p>
-        {integrity.events.map(e=><button type="button" key={e.id} className={"atlas-fp-year"+(selected.id===e.id?" selected":"")}
-          aria-current={selected.id===e.id?"step":undefined} onClick={()=>setEventId(e.id)}>
-          <span>{e.dateLabel}</span><strong>{e.title}</strong>
-        </button>)}
+        <div className="atlas-fp-timeline-years" ref={timelineYearsRef}>
+          {integrity.events.map(e=><button type="button" key={e.id} className={"atlas-fp-year"+(selected.id===e.id?" selected":"")}
+            aria-current={selected.id===e.id?"step":undefined} onClick={()=>setEventId(e.id)}>
+            <span>{e.dateLabel}</span><strong>{e.title}</strong>
+          </button>)}
+        </div>
         <div className="atlas-fp-timeline-footnote">연표는 사건의 연도 비교이며 실제 이동 경로를 표현하지 않습니다.</div>
       </nav>
       <main className="atlas-fp-main">
