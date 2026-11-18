@@ -43,6 +43,11 @@
       "url": "https://www.e-rara.ch/wiki/termsOfUse?lang=en",
       "kind": "PLATFORM_RIGHTS_GUIDANCE",
       "preciseLocator": "Credit precise original source and partner institution, check item rights"
+    },
+    "GHDI_GERMAN": {
+      "url": "https://germanhistorydocs.org/de/von-den-reformationen-bis-zum-dreissigjaehrigen-krieg-1500-1648/die-marburger-religionsgespraeche-die-marburger-artikel-1529",
+      "kind": "1910_WA_DERIVED_EDITED_GERMAN_TRANSCRIPTION",
+      "preciseLocator": "German printed transcription with bibliographic reference to WA 30/III (1910) pp 160–171; manuscript base not independently determined"
     }
   },
   "editionObjects": [
@@ -80,7 +85,7 @@
       "copyTextId": null,
       "copyTextStatus": "UNRESOLVED_FROM_AVAILABLE_EDITION_INFO",
       "sourceRefs": [
-        "ZURICH_ARCHIVE"
+        "GHDI_GERMAN"
       ],
       "mayBeCalledSignedZAutograph": false
     },
