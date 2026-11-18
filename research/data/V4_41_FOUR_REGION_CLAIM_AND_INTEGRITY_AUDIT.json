@@ -10,7 +10,7 @@
     },
     {
       "path": "research/data/V4_41_FOUR_REGION_SOURCE_AND_CLAIM_REGISTER.json",
-      "gitBlobSha": "aad984d0251b52c6d8121fbe7bf530551df3808e"
+      "gitBlobSha": "c77d52a9d3b543d0dbae47ec5c8874e3bfedcaac"
     },
     {
       "path": "research/data/V4_39_EXACT_CLAIM_ANCHOR_CROSSWALK.json",
@@ -529,6 +529,16 @@
       "editorialStatus": "STRUCTURAL_COMPARISON_HUMAN_REVIEW_REQUIRED",
       "occurrences": 1,
       "offset": 2332
+    },
+    {
+      "id": "CL441-15",
+      "fromVersion": "V441",
+      "volumeId": "VOL-07",
+      "sourceAnchor": "복음주의·오순절 계열",
+      "newAnchor": "복음주의·오순절 계열",
+      "editorialStatus": "SURVEY_SUPPORTED_HISTORICAL_CONTEXT",
+      "occurrences": 1,
+      "offset": 3311
     }
   ],
   "counts": {
@@ -537,11 +547,11 @@
     "thematicArchive": 1,
     "priorClaimReferences": 29,
     "modernClaimReferences": 7,
-    "newRegionClaimReferences": 14,
-    "totalClaimReferences": 50,
-    "uniqueAnchors": 50,
+    "newRegionClaimReferences": 15,
+    "totalClaimReferences": 51,
+    "uniqueAnchors": 51,
     "reanchoredModernClaims": 1,
-    "regionSourceRecords": 14,
+    "regionSourceRecords": 15,
     "appThemes": 6,
     "appLinks": 42,
     "introChapters": 6,
@@ -555,7 +565,8 @@
     "MECC institutional history 1974/1990, Catholic vs ecumenical theological lenses distinguished",
     "Latin American 1984 Vatican doctrinal position is a confessional source; not all liberation theologians agree",
     "Asian movements require contextual scholarship; no single Chinese/Indian church organization assumed",
-    "Old V4.29 app remains untouched"
+    "Old V4.29 app remains untouched",
+    "2014 Pew multicountry survey independently supports non-Catholic and Pentecostal/evangelical diversity in Latin America, time bounded."
   ],
   "issues": [],
   "release": {
