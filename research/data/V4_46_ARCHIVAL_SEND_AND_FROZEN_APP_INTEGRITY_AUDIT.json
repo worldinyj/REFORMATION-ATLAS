@@ -1,0 +1,64 @@
+{
+  "schema": "ATLAS_V446_REAL_ARCHIVE_DISPATCH_AUDIT",
+  "version": "V4.46",
+  "date": "2026-11-18",
+  "status": "PASS_REPOSITORY_AND_SENT_MAIL_EVIDENCE_NOT_A_HISTORICAL_VERIFICATION",
+  "provenance": [
+    {
+      "path": "research/data/V4_46_ACTUAL_INSTITUTIONAL_DISPATCH_AND_RESPONSE_GATE.json",
+      "blobSha": "3c0b1213473da5cb23a470638213ad96f71fafda"
+    },
+    {
+      "path": "research/V446_ACTUAL_ARCHIVAL_EMAIL_DISPATCH_AND_REVIEW_STATUS_KO.md",
+      "blobSha": "83b57e7066437752e3846b2a3378208f0f9e8f65"
+    },
+    {
+      "path": "research/data/V4_45_SOURCE_SCREENING_AND_REVIEW_READINESS_AUDIT.json",
+      "blobSha": "897d0967cb9372d68179c63576fb9bb982bce2bf"
+    },
+    {
+      "path": "research/data/V4_43_L0_EDITORIAL_REDLINE_EIGHT_VOLUME_CANDIDATE.json",
+      "blobSha": "10b73c919ec6cc889e3c64be6dc61e184f5a8e5c"
+    },
+    {
+      "path": "research/data/V4_43_POST_EDIT_51_CLAIM_CROSSWALK.json",
+      "blobSha": "e307b6b955246d42b708640b338dc1529cdfa518"
+    },
+    {
+      "path": "handoff/V429_AI_STUDIO_PRIVATE_L0_CONTENT_IMPORT.json",
+      "blobSha": "64c27c0dfe05394acbb049807e4c4384d58908b9"
+    }
+  ],
+  "factualMailEvidence": "Authenticated connected Gmail SENT search returned both recipient-and-subject matches, sent on 2026-11-18; personal Gmail message identifiers deliberately omitted from public GitHub.",
+  "counts": {
+    "confirmedInstitutionalEmailsSent": 2,
+    "receivedInstitutionalResponses": 0,
+    "existingHistoricalClaims": 51,
+    "sourceHistoricalVolumes": 8,
+    "p0HumanHistorianSignoffs": 0,
+    "actualReaderPilotResults": 0,
+    "frozenAppVolumes": 8,
+    "frozenAppThemes": 6,
+    "frozenThemeLinks": 42,
+    "frozenIntroChapters": 6,
+    "actualAppEdits": 0
+  },
+  "openIssues": [
+    "TAMIL-1719",
+    "C417-11",
+    "C417-12",
+    "C417-18"
+  ],
+  "release": {
+    "canShip": false,
+    "canMergeMain": false,
+    "canImportAIStudio": false
+  },
+  "limitations": [
+    "SENT label confirms provider accepted outgoing mail; it does not prove the recipient read it",
+    "An institutional reply has not been received",
+    "Original book printing history remains unresolved",
+    "History and reader test gates are still open"
+  ],
+  "errors": []
+}
