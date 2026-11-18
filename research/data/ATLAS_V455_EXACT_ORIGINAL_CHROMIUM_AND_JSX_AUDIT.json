@@ -1,0 +1,75 @@
+{
+  "schema": "ATLAS_V455_EXACT_GIT_BLOB_CHROMIUM_AND_REACT_JSX_QUALITY_AUDIT",
+  "date": "2026-11-18",
+  "branch": "integration/atlas-phase1-browser-qa-v452",
+  "exactSourceVerification": {
+    "file": "integrations/atlas-flagship-phase1/preview-1529-1540.html",
+    "gitBlobSha1": "c5906c70752089c218b9bdef8b9ed2fb452000cd",
+    "byteLength": 22498,
+    "checkedBy": "git hash-object of byte-identical original recovered from connected GitHub",
+    "equalToRepositoryBlob": true,
+    "fixtureOrShortenedText": false
+  },
+  "actualChromium": {
+    "engine": "Chromium 144.0.7559.96",
+    "browserAutomation": "Python Playwright 1.57.0",
+    "loadMethod": "page.set_content with identical full original source; local file:// disallowed by browser environment policy",
+    "widthsPx": [
+      320,
+      375,
+      768,
+      1440
+    ],
+    "checksPerViewport": 32,
+    "totalChecks": 128,
+    "passed": 128,
+    "failed": 0,
+    "checksIncluded": [
+      "full L0/L1 research prose exact content",
+      "four historical events/two documents",
+      "event selection and focus",
+      "edition comparison row/column semantics",
+      "source linkage and external link security attributes",
+      "tabs ArrowLeft/Home/End",
+      "source toggle",
+      "restart scroll restoration",
+      "mobile hint and page overflow",
+      "browser runtime/console errors and automatic external requests"
+    ],
+    "screenshots": "eight initial/compare view screenshots created locally; not committed to repository"
+  },
+  "reactCandidate": {
+    "file": "integrations/atlas-flagship-phase1/AtlasFlagship1529Panel.jsx",
+    "gitBlobSha1": "2e5a1f73334ed3e807ace3a2556c78bf7c1511c6",
+    "equalToRepositoryBlob": true,
+    "typescriptVersion": "5.8.3",
+    "jsxSyntaxErrors": 0,
+    "simulatedReactContractChecks": 9,
+    "simulatedReactContractPassed": 9,
+    "actualReactRuntimeBuild": false,
+    "actualHostIntegration": false
+  },
+  "visualFindings": [
+    {
+      "id": "V455-UX-01",
+      "severity": "USABILITY",
+      "scope": "standalone HTML reader article",
+      "finding": "Markdown syntax like ### and ** is visibly shown as literal text because the preview renders body via textContent",
+      "sourceTextModified": false,
+      "disposition": "track safe Markdown rendering with no innerHTML and source content preservation as follow-up work"
+    }
+  ],
+  "unverified": [
+    "WebKit and Safari actual engine tests",
+    "Node Playwright CI jobs and GitHub Actions execution logs",
+    "Full installed React runtime/build and Google AI Studio router integration",
+    "historian review and human-reader field study",
+    "security model of any deployed private host"
+  ],
+  "release": {
+    "canShip": false,
+    "canMergeMain": false,
+    "canImportAIStudio": false
+  },
+  "nextPriority": "Render historical Markdown safely without altering original research data, then obtain real React host/browser and WebKit evidence before promotion."
+}
