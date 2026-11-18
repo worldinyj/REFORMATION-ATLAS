@@ -46,10 +46,19 @@
       "type": "LATER_CONFESSIONAL_HISTORIOGRAPHY",
       "locator": "Introductory paragraphs on diligenter recognita, Naumburg and Book of Concord; interpretive and confessional",
       "checked": "2026-11-18"
+    },
+    "PITTS_CATALOG_2017": {
+      "title": "Pitts Theology Library, Kessler Reformation Collection 2017 exhibition catalogue",
+      "url": "https://dia.pitts.emory.edu/exhibits/exhibitcatalogs/Kessler2017ExhibitionCatalogue.pdf",
+      "type": "UNIVERSITY_EXHIBITION_OBJECT_BIBLIOGRAPHY_WITH_TITLE_PAGE_ILLUSTRATIONS",
+      "locator": "Printed page 34 (PDF zero-index page 33): Augsburg Confession 1531 German, Augsburg Confession 1540 Variata Latin, Marburg Articles 1529",
+      "checked": "2026-11-18",
+      "pageScreenshotVerified": true,
+      "rightsCaution": "Bibliographic text and titles used for research; no embedded catalogue images licensed for app reuse."
     }
   },
-  "sourceCount": 6,
-  "evidenceCount": 14,
+  "sourceCount": 7,
+  "evidenceCount": 17,
   "highRiskClaimIds": [
     "V457-C02",
     "V457-C03",
@@ -354,13 +363,84 @@
       "limit": "No conclusion about author's motivation, anachronism in all uses of the term, or 1540 actors' self-naming follows from this wording alone. Require modern neutral historiography and contemporary correspondence.",
       "tier": "EDITORIAL_FRAMING_CRITICISM",
       "disposition": "INTERPRETATION_HOLD"
+    },
+    {
+      "id": "EV458-15",
+      "claimIds": [
+        "V457-C08",
+        "V457-C09"
+      ],
+      "sourceIds": [
+        "PITTS_CATALOG_2017",
+        "GRUBER"
+      ],
+      "locator": "Pitts Kessler 2017 p.34 (PDF page 33), Augsburg Confession 1531 German",
+      "language": "GERMAN_TITLE_IMPRINT_AS_CATALOGUED",
+      "anchorTokens": [
+        "Gedruckt zu Wittemberg",
+        "Georgen Rhaw",
+        "M.D.XXXI",
+        "VD16 C4736"
+      ],
+      "verified": "An independent collection identifies a 1531 German Confession with Apology printed in Wittenberg by Georg Rhau, with VD16 C4736 and library call number 1531 CONF:2; it dates the German edition to fall and Latin to April 1531.",
+      "limit": "The Pitts catalogue is another catalogued physical item and interpretive descriptive entry, not proof Gruber 7 is the same physical book or exhaustive edition census.",
+      "tier": "INDEPENDENT_INSTITUTIONAL_CATALOGUE_AND_PICTURE",
+      "disposition": "SECOND_INSTITUTION_1531_WITTENBERG"
+    },
+    {
+      "id": "EV458-16",
+      "claimIds": [
+        "V457-C10",
+        "V457-C11"
+      ],
+      "sourceIds": [
+        "PITTS_CATALOG_2017",
+        "PITTS",
+        "GRUBER"
+      ],
+      "locator": "Pitts Kessler 2017 p.34 (PDF p33), Variata Latin 1540",
+      "language": "LATIN_TITLE_AND_INSTITUTIONAL_EDITION_IDENTIFIER",
+      "anchorTokens": [
+        "Viterbergae",
+        "Georgium Rhau",
+        "VD16 C4713",
+        "1540 CONF"
+      ],
+      "verified": "Pitts identifies a distinct 1540 Latin Variata copy with VD16 C4713 and Pitts call number 1540 CONF, agreeing with independent Gruber catalogued 1540 Variata existence.",
+      "limit": "VD16 C4713 identifies a 1540 Variata print edition, not Gruber's separately described 1540 non-Variata copy. Pitts call number is not Gruber inventory number.",
+      "tier": "INDEPENDENT_INSTITUTIONAL_BIBLIOGRAPHY",
+      "disposition": "VARIATA_VD16_IDENTIFIED_NONVARIATA_STILL_HOLD"
+    },
+    {
+      "id": "EV458-17",
+      "claimIds": [
+        "V457-C02",
+        "V457-C12"
+      ],
+      "sourceIds": [
+        "PITTS_CATALOG_2017",
+        "GHDI_DE"
+      ],
+      "locator": "Pitts Kessler 2017 p.34, The Marburg Articles (1529)",
+      "language": "1529_PRINTED_GERMAN_TITLE_AS_CATALOGUED",
+      "anchorTokens": [
+        "Worms",
+        "Peter Schöffer",
+        "VD16 W2117",
+        "1529 COLL"
+      ],
+      "verified": "The Pitts collection catalogues a 1529 printing of the Marburg Articles attributed to Worms/Peter Schoeffer with edition ID VD16 W2117, giving a distinct near-contemporary print witness beyond GHDI's edited WA transcription.",
+      "limit": "The catalogue title and image alone do not prove full textual identity with signed originals or the edited WA German text; full page collation remains outstanding.",
+      "tier": "EARLY_PRINT_OBJECT_DESCRIPTION_NOT_COLLATED",
+      "disposition": "ADDITIONAL_PRIMARY_ERA_PRINT_IDENTIFIED"
     }
   ],
   "sourceBoundary": {
     "waGermanEditedText": "German GHDI cites Weimarer Ausgabe 30/III (1910), pages 160–171. Printed WA pages and manuscript witness were not opened here.",
     "pittsObject": "Emory Pitts digitized object details, not a full collation or permission for app media",
     "gruberUnnumberedNonVariata": "Object number and unique imprint remain unverified",
-    "benteSchaff": "Later confessional/historical interpretation is not contemporary evidence."
+    "benteSchaff": "Later confessional/historical interpretation is not contemporary evidence.",
+    "pittsExhibitionPrintedPage34": "2017 Kessler exhibition catalogue printed p.34 (PDF screenshot page 33) records 1531 Wittenberg German VD16 C4736, 1540 Latin Variata VD16 C4713, and 1529 Marburg print VD16 W2117; not a source for Gruber's unnumbered non-Variata copy."
   },
   "independentExpertReviews": 0,
   "readerPilots": 0,
