@@ -1,0 +1,364 @@
+{
+  "schema": "ATLAS_V459_DOCUMENT_WITNESS_AND_VARIANT_GRAPH",
+  "created": "2026-11-18",
+  "parentStudy": "research/data/ATLAS_V458_HIGH_RISK_TEXTUAL_BIBLIOGRAPHIC_EVIDENCE_MATRIX.json",
+  "purpose": "Do not collapse manuscript exemplars, printed editions, and modern edited transcriptions into one historical object.",
+  "sources": {
+    "STAZH": {
+      "url": "https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=618165",
+      "institution": "Staatsarchiv des Kantons Zürich",
+      "kind": "OFFICIAL_ARCHIVAL_RECORD",
+      "locator": "E I 3.1 Nr.54; Überlieferung, Ausfertigung für Zürich (Z)"
+    },
+    "HSTAM": {
+      "url": "https://arcinsys.hessen.de/arcinsys/showArchivalDescriptionDetails?archivalDescriptionId=5447099",
+      "institution": "Hessisches Staatsarchiv Marburg",
+      "kind": "OFFICIAL_ARCHIVAL_RECORD",
+      "locator": "HStAM 3 Nr.245; signed protocol, digitized holdings"
+    },
+    "HESSEN2017": {
+      "url": "https://landesarchiv.hessen.de/sites/landesarchiv.hessen.de/files/2022-12/archivnachrichten_1-2017.pdf",
+      "institution": "Hessisches Landesarchiv",
+      "kind": "OFFICIAL_REPRODUCTION_OF_SELECTED_MANUSCRIPT_LEAVES",
+      "locator": "2017 17/1 journal, printed page 10 PDF page index 9, manuscript opening/signature illustrations; reference to 60r–64v"
+    },
+    "REFPORTAL": {
+      "url": "https://flugschriften.reformationsportal.de/recherche-im-gesamtbestand/listeneinstieg?cHash=b4cace5da9c214d4d23e5163b49d0c&tx_joreformation_pi1004listenuebersicht%5Baction%5D=detail&tx_joreformation_pi1004listenuebersicht%5Bcontroller%5D=Mapservice&tx_joreformation_pi1004listenuebersicht%5BjoDel%5D=1&tx_joreformation_pi1004listenuebersicht%5BjoDetailView%5D=stat_showcase_00000023",
+      "institution": "Reformation 3.0 / Flugschriften",
+      "kind": "SCHOLARLY_SOURCE_OBJECT_ENTRY",
+      "locator": "Signed Marburg copies and separate supplemental leaf, 1529 contemporaneous print history"
+    },
+    "GHDI_DE": {
+      "url": "https://germanhistorydocs.org/de/von-den-reformationen-bis-zum-dreissigjaehrigen-krieg-1500-1648/die-marburger-religionsgespraeche-die-marburger-artikel-1529",
+      "institution": "German Historical Institute",
+      "kind": "EDITED_GERMAN_TEXT_WA_30_III",
+      "locator": "Art. 7,13,15, source note WA 30/III pp.160–171"
+    },
+    "FOLGER": {
+      "url": "https://catalog.folger.edu/record/96603",
+      "institution": "Folger Shakespeare Library",
+      "kind": "PRINTED_BOOK_CATALOGUE",
+      "locator": "VD16 W2119; Zürich Froschauer 1529; 8pp signatures A4"
+    },
+    "PITTS2017": {
+      "url": "https://dia.pitts.emory.edu/exhibits/exhibitcatalogs/Kessler2017ExhibitionCatalogue.pdf",
+      "institution": "Pitts Theology Library Emory",
+      "kind": "EXHIBITION_CATALOGUE_WITH_PRINT_TITLE_PAGE_PHOTOS",
+      "locator": "2017 Kessler printed page 34 PDF page index 33; W2117 C4736 C4713"
+    },
+    "BSB_DE1531": {
+      "url": "https://www.digitale-sammlungen.de/en/view/bsb10160424",
+      "institution": "Bayerische Staatsbibliothek München",
+      "kind": "DIGITIZED_PRINT_OBJECT_METADATA",
+      "locator": "bsb10160424, VD16 C4736, 506 scans, German Wittenberg Rhau [1531]"
+    },
+    "BSB_LAT1531": {
+      "url": "https://www.digitale-sammlungen.de/en/details/bsb11411960",
+      "institution": "Bayerische Staatsbibliothek digitization of Bamberg Staatsbibliothek",
+      "kind": "DIGITIZED_PRINT_OBJECT_METADATA",
+      "locator": "bsb11411960, VD16 C4734, 288 scans, Wittenberg Rhau 1531 Latin"
+    },
+    "SWISSCOL_BAS": {
+      "url": "https://swisscollections.ub.k8s-001.unibas.ch/Record/991011661549705501?sid=262113149",
+      "institution": "Swisscollections Basel",
+      "kind": "PRINTED_BOOK_CATALOGUE",
+      "locator": "VD16 W2108 Basel 1529, e-rara DOI 10.3931/e-rara-5415"
+    },
+    "GRUBER": {
+      "url": "https://gruber.lstc.edu/confessions/augs_apol.php",
+      "institution": "Gruber Rare Books Collection Chicago",
+      "kind": "INSTITUTIONAL_COLLECTION_CATALOGUE",
+      "locator": "Gruber 28 1540 Variata; unnumbered 1540 non-Variata Nils Forsander"
+    },
+    "Z_PRINT_W2118": {
+      "url": "https://doi.org/10.3931/e-rara-1085",
+      "institution": "Zentralbibliothek Zürich e-rara",
+      "kind": "DIGITIZED_EARLY_PRINT_LINK",
+      "locator": "VD16 W2118; Zürich print 1529, source archived by StAZH"
+    },
+    "Z_PRINT_W2119": {
+      "url": "https://doi.org/10.3931/e-rara-597",
+      "institution": "Zentralbibliothek Zürich e-rara",
+      "kind": "DIGITIZED_EARLY_PRINT_LINK",
+      "locator": "VD16 W2119 Zürich Froschauer 1529, archive/Folger evidence"
+    }
+  },
+  "witnessCount": 10,
+  "witnesses": [
+    {
+      "id": "M1529-K",
+      "kind": "SIGNED_MANUSCRIPT",
+      "identity": "Hessische Ausfertigung K",
+      "institution": "Hessisches Staatsarchiv Marburg",
+      "shelfmark": "HStAM Best.3 Nr.245 fol.60r–64v",
+      "year": 1529,
+      "language": "German",
+      "vd16": null,
+      "sourceIds": [
+        "HSTAM",
+        "HESSEN2017",
+        "REFPORTAL"
+      ],
+      "scanOnline": "YES_CATALOGUE_JPG_DIGITAL_HOLDINGS",
+      "actualVisualInspection": "SELECTED_LEAVES_FROM_2017_JOURNAL",
+      "textLeafInspected": [
+        "opening-page",
+        "signatory-panel"
+      ],
+      "article15FullPageRead": false,
+      "contentRelationship": "K omits three Z-only additional passages at articles 7,13,15 according to Zurich official archive",
+      "fullWitnessCollated": false
+    },
+    {
+      "id": "M1529-Z",
+      "kind": "SIGNED_MANUSCRIPT",
+      "identity": "Zürcher Ausfertigung Z",
+      "institution": "Staatsarchiv Zürich",
+      "shelfmark": "StAZH E I 3.1 Nr.54",
+      "year": 1529,
+      "language": "German",
+      "vd16": null,
+      "sourceIds": [
+        "STAZH",
+        "REFPORTAL"
+      ],
+      "scanOnline": "REPRODUCTION_MENTIONED_MICROFILM",
+      "actualVisualInspection": "NOT_SEEN",
+      "textLeafInspected": [],
+      "article15FullPageRead": false,
+      "contentRelationship": "Contains three additions at arts 7,13,15 absent K and an additional leaf; exact readings not independently collated",
+      "fullWitnessCollated": false
+    },
+    {
+      "id": "P1529-W2117",
+      "kind": "CONTEMPORARY_PRINT",
+      "identity": "Marburg Articles Worms Schöffer",
+      "institution": "Pitts Kessler Reformation Collection",
+      "shelfmark": "Pitts 1529 COLL",
+      "year": 1529,
+      "language": "German",
+      "vd16": "W2117",
+      "sourceIds": [
+        "PITTS2017"
+      ],
+      "scanOnline": "CATALOGUE_TITLE_IMAGE",
+      "actualVisualInspection": "CATALOGUE_TITLE_PAGE",
+      "textLeafInspected": [
+        "title-page"
+      ],
+      "article15FullPageRead": false,
+      "fullWitnessCollated": false
+    },
+    {
+      "id": "P1529-W2118",
+      "kind": "CONTEMPORARY_PRINT",
+      "identity": "Marburg Articles Zurich 1529 print, e-rara-1085",
+      "institution": "Zentralbibliothek Zürich",
+      "shelfmark": null,
+      "year": 1529,
+      "language": "German",
+      "vd16": "W2118",
+      "sourceIds": [
+        "STAZH",
+        "Z_PRINT_W2118"
+      ],
+      "scanOnline": "DIGITIZED_E_RARA_LINK",
+      "actualVisualInspection": "LINK_ONLY_ACCESS_RESTRICTED",
+      "textLeafInspected": [],
+      "article15FullPageRead": false,
+      "fullWitnessCollated": false
+    },
+    {
+      "id": "P1529-W2119",
+      "kind": "CONTEMPORARY_PRINT",
+      "identity": "Marburg Articles Zurich Froschauer 1529",
+      "institution": "Zentralbibliothek Zürich / Folger independent holdings",
+      "shelfmark": "Folger 218- 840q; ZB Zürich print e-rara-597",
+      "year": 1529,
+      "language": "German",
+      "vd16": "W2119",
+      "sourceIds": [
+        "STAZH",
+        "Z_PRINT_W2119",
+        "FOLGER"
+      ],
+      "scanOnline": "DIGITIZED_E_RARA_LINK",
+      "actualVisualInspection": "CATALOGUE_ONLY",
+      "textLeafInspected": [],
+      "article15FullPageRead": false,
+      "fullWitnessCollated": false
+    },
+    {
+      "id": "P1529-W2108",
+      "kind": "CONTEMPORARY_PRINT",
+      "identity": "Marburg Articles Basel 1529",
+      "institution": "Swisscollections Basel",
+      "shelfmark": null,
+      "year": 1529,
+      "language": "German",
+      "vd16": "W2108",
+      "sourceIds": [
+        "SWISSCOL_BAS"
+      ],
+      "scanOnline": "DIGITIZED_E_RARA_DOI_5415",
+      "actualVisualInspection": "CATALOGUE_ONLY",
+      "textLeafInspected": [],
+      "article15FullPageRead": false,
+      "fullWitnessCollated": false
+    },
+    {
+      "id": "P1531-C4734",
+      "kind": "CONTEMPORARY_PRINT",
+      "identity": "Augsburg Confession and Apology Latin Wittenberg Rhau",
+      "institution": "Staatsbibliothek Bamberg, digitized by BSB",
+      "shelfmark": ".64 B 9#3a",
+      "year": 1531,
+      "language": "Latin",
+      "vd16": "C4734",
+      "sourceIds": [
+        "BSB_LAT1531"
+      ],
+      "scanOnline": "BSB_288_SCANS",
+      "digitalObjectId": "bsb11411960",
+      "actualVisualInspection": "CATALOGUE_METADATA_ONLY",
+      "textLeafInspected": [],
+      "article10FullPageRead": false,
+      "fullWitnessCollated": false
+    },
+    {
+      "id": "P1531-C4736",
+      "kind": "CONTEMPORARY_PRINT",
+      "identity": "Augsburg Confession and Apology German Wittenberg Rhau Justus Jonas",
+      "institution": "Bayerische Staatsbibliothek / independent Pitts copy",
+      "shelfmark": "BSB 4 H.ref.188; Pitts 1531 CONF:2",
+      "year": 1531,
+      "language": "German",
+      "vd16": "C4736",
+      "sourceIds": [
+        "BSB_DE1531",
+        "PITTS2017"
+      ],
+      "scanOnline": "BSB_506_SCANS",
+      "digitalObjectId": "bsb10160424",
+      "actualVisualInspection": "CATALOGUE_TITLE_PAGE_PLUS_METADATA",
+      "textLeafInspected": [
+        "Pitts exhibition catalogue title page"
+      ],
+      "article10FullPageRead": false,
+      "fullWitnessCollated": false
+    },
+    {
+      "id": "P1540-C4713",
+      "kind": "CONTEMPORARY_PRINT",
+      "identity": "Augsburg Confession Variata Latin Wittenberg Rhau",
+      "institution": "Pitts Theology Library",
+      "shelfmark": "Pitts 1540 CONF",
+      "year": 1540,
+      "language": "Latin",
+      "vd16": "C4713",
+      "sourceIds": [
+        "PITTS2017",
+        "GRUBER"
+      ],
+      "scanOnline": "CATALOGUE_TITLE_IMAGE",
+      "actualVisualInspection": "CATALOGUE_TITLE_PAGE_ONLY",
+      "textLeafInspected": [
+        "Pitts title page"
+      ],
+      "article10FullPageRead": false,
+      "fullWitnessCollated": false,
+      "note": "Gruber 28 also a 1540 Variata copy; not assumed identical physical object."
+    },
+    {
+      "id": "P1540-GRUBER-NV-UNKNOWN",
+      "kind": "CONTEMPORARY_PRINT_CATALOGUED_UNRESOLVED",
+      "identity": "1540 Augsburg Confession and Apology non-Variata reported by Gruber",
+      "institution": "Gruber Rare Books Collection",
+      "shelfmark": null,
+      "year": 1540,
+      "language": null,
+      "vd16": null,
+      "sourceIds": [
+        "GRUBER"
+      ],
+      "scanOnline": "CATALOGUE_PROSE_ONLY",
+      "actualVisualInspection": "ITEM_NOT_VERIFIED",
+      "textLeafInspected": [],
+      "article10FullPageRead": false,
+      "fullWitnessCollated": false,
+      "objectNumber": null,
+      "imprint": null,
+      "note": "Nils Forsander provenance; no Gruber number/VD16 ID inferred. Do not map to Variata C4713."
+    }
+  ],
+  "variantCount": 3,
+  "manuscriptVariations": [
+    {
+      "id": "V-MAR-07",
+      "from": "M1529-K",
+      "to": "M1529-Z",
+      "section": "Article 7",
+      "variationType": "ADDED_SENTENCE_Z_ONLY",
+      "fromArchive": true,
+      "paraphrase": "Zurich has a supplementary passage concerning monastic life and vows as aid to salvation (later textual witness; wording not independently verified).",
+      "preciseOriginalGermanVerified": false,
+      "sourceIds": [
+        "STAZH"
+      ],
+      "status": "WITNESS_LEVEL_VARIANT_CONFIRMED_TEXT_NOT_COLLATED"
+    },
+    {
+      "id": "V-MAR-13",
+      "from": "M1529-K",
+      "to": "M1529-Z",
+      "section": "Article 13",
+      "variationType": "ADDED_SENTENCE_Z_ONLY",
+      "fromArchive": true,
+      "paraphrase": null,
+      "preciseOriginalGermanVerified": false,
+      "sourceIds": [
+        "STAZH"
+      ],
+      "status": "WITNESS_LEVEL_VARIANT_CONFIRMED_TEXT_NOT_COLLATED"
+    },
+    {
+      "id": "V-MAR-15",
+      "from": "M1529-K",
+      "to": "M1529-Z",
+      "section": "Article 15",
+      "variationType": "ADDED_SENTENCE_Z_ONLY",
+      "fromArchive": true,
+      "paraphrase": "A secondary transcription reports a Zurich-only sentence rejecting the mass as a work procuring grace for other persons living or dead. This wording is unverified against the Zurich manuscript.",
+      "preciseOriginalGermanVerified": false,
+      "sourceIds": [
+        "STAZH"
+      ],
+      "status": "WITNESS_LEVEL_VARIANT_CONFIRMED_TEXT_NOT_COLLATED"
+    }
+  ],
+  "reliability": {
+    "CATALOGUE_METADATA_ONLY": "Metadata was seen, the entire document page images were not individually read.",
+    "CATALOGUE_TITLE_PAGE_PLUS_METADATA": "Title page in a published catalogue was seen; article paragraphs not yet read.",
+    "SELECTED_LEAVES_FROM_2017_JOURNAL": "Official journal original-manuscript photos show opening and signatories, not Article 15 lines.",
+    "DIGITIZED_E_RARA_LINK": "The responsible archive links a digitized print; platform document or specific leaf not viewed.",
+    "FULL_WITNESS_COLLATED": "Would require direct page-by-page original language and physical/digital leaf collation, none achieved here."
+  },
+  "historicalNuances": {
+    "twoSignedOriginals": "Zurich Z and Hessian K both exist, with additions in Z articles 7, 13 and 15.",
+    "publishedPrintsNotEquated": "1529 VD16 W2117, W2118, W2119, W2108 are catalogued separate print editions. Their wording is not asserted equal to either signed manuscript.",
+    "dateCaution": "Signed agreement is conventionally dated 3 Oct 1529 by Zurich archival entry and text heading, while a Reformation 3.0 presentation states fair copies dated 4 Oct; do not treat exact preparation/signing day as verified by these summaries alone.",
+    "laterEditions": "1531 Latin VD16 C4734 and German VD16 C4736 are separate language print records. 1540 Latin Variata C4713 is not the unidentified 1540 Gruber non-Variata copy."
+  },
+  "unresolved": [
+    "Read Article 15 in both Z and K handwritten witnesses, or scholarly facsimile/diplomatic transcriptions of each, to determine exact additional sentence and locations.",
+    "Inspect Zurich printed witnesses W2118/W2119 in e-rara and Worms W2117 to learn which reading(s) of Article 15 they reproduce.",
+    "Read physical/digital Article X leaf in 1531 Latin VD16 C4734 and 1540 Latin Variata VD16 C4713; compare character-by-character in a future textual apparatus.",
+    "Identify Gruber 1540 non-Variata by stable item number and print identifier."
+  ],
+  "editorialGate": {
+    "historianApproved": false,
+    "canShip": false,
+    "canMergeMain": false,
+    "canImportAIStudio": false
+  }
+}
