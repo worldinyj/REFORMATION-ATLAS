@@ -128,3 +128,15 @@ ATLAS_BROWSER=chromium node --test browser-smoke.test.mjs
 자세한 구조화 감사 파일: `research/data/ATLAS_V455_EXACT_ORIGINAL_CHROMIUM_AND_JSX_AUDIT.json`. 실제 스크린샷과 실행 코드, 원본 파일이 포함된 증거 ZIP은 현재 대화의 로컬 산출물로 보존했으며 GitHub 저장소에 업로드하지 않았다.
 
 **출시 상태 유지:** `can_ship=false`, `can_merge_main=false`, `can_import_ai_studio=false`. 역사학자 승인, 실제 독자 시험, 실제 호스트 인증 및 WebKit 검증은 미완료다.
+
+## V4.56 — 역사 원고 표시 개선, 안전한 Markdown AST 공유
+
+- `preview-1529-1540.html`은 역사 연구용 `l0.text` / `l1.text`의 기존 **JSON 문자열을 한 글자도 바꾸지 않고** `document.createElement`와 `document.createTextNode`만으로 제목·굵은 글씨·기울임 글씨·문단·구분선을 렌더링한다. `innerHTML` 사용 금지.
+- `research-markdown.mjs`의 `parseResearchMarkdown`를 React 후보 `AtlasFlagship1529Panel.jsx`에서 직접 가져다 쓴다. 독립 HTML은 오프라인 사용을 위해 동일한 파서 함수를 코드에 내장한다. `markdown-contract.test.mjs`가 내장 함수와 외부 모듈의 일치성을 검사한다.
+- **허용된 표현 범위만 지원:** 제목 `#`–`####`, `**bold**`, `*italic*`, 빈 줄로 구분한 문단, `---`. 표·목록·중첩 표현·원시 HTML을 완전히 지원하는 CommonMark 파서가 아니며, 지원하지 않는 부분을 자동으로 과해석하지 않는다.
+- Chromium 144.0.7559.96에서 **320·375·768·1440px × 23건 = 92/92 PASS**, 로컬 `node --test markdown-contract.test.mjs` **4/4 PASS**, GitHub 원본을 읽은 모의 DOM 회귀 **7/7 PASS**, TypeScript 5.8.3 JSX 구문검사 오류 **0건**. 실제 Google AI Studio 앱 빌드 및 WebKit 실측으로 오해하지 않는다.
+- `preview.test.mjs`, `browser-smoke.test.mjs`, `react-contract.test.mjs`는 새 의미론적 DOM 기준으로 보강했고 CI에 Markdown 계약 테스트를 추가했다.
+
+연구 증거: `research/data/ATLAS_V456_SAFE_MARKDOWN_RENDERER_PARITY_AUDIT.json`. 브라우저 스크린샷·전후 비교 그림·로컬 실행 스크립트는 이번 대화의 산출물로 제공한다.
+
+**중요:** 원전 교감·역사학자 승인·실제 독자 평가·정식 React 빌드·AI Studio 호스트 인증 검증 전까지 `can_ship=false`, `can_merge_main=false`, `can_import_ai_studio=false`를 유지하며 `main` 및 기존 운영 앱은 변경하지 않는다.
