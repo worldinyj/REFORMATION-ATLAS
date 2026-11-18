@@ -1,0 +1,128 @@
+{
+  "schema": "ATLAS_V463_FIRST_EARLY_PRINT_ARTICLE15_DIRECT_VISUAL_WITNESS",
+  "date": "2026-11-19",
+  "status": "ACTUAL_1529_PRINT_PAGE_VIEWED_NOT_SIGNED_MANUSCRIPT_COLLATION",
+  "centralAchievement": "1529 Zurich Froschauer VD16 W2119, a contemporaneous print of Marburg Articles, directly viewed its printed Article 15 and its Article 13 text through institution PDF page screenshots.",
+  "bibliography": {
+    "witnessId": "P1529-W2119",
+    "editionId": "VD16 W2119",
+    "year": 1529,
+    "printer": "Christoffel Froschauer",
+    "place": "Zürich",
+    "holdingInstitution": "Zentralbibliothek Zürich",
+    "shelfmark": "5.174,5",
+    "permalink": "https://doi.org/10.3931/e-rara-597",
+    "catalogue": "https://www.e-rara.ch/zuz/content/titleinfo/170052",
+    "primaryScanPdf": "https://www.e-rara.ch/zuz/download/pdf/170052",
+    "pdfPageCount": 17,
+    "originalPrintedLeavesDescription": "[4] Bl. [8 printed pages]",
+    "rightsFromCatalog": "Public Domain Mark, acknowledge institution/source/persistent identifier",
+    "researchImageLocallySaved": false,
+    "pdfBinarySha256": null,
+    "note": "Pages 5 and 6 are visual screenshots of a digital scan of the 1529 printed physical item, not original signed K or Z handwritten versions."
+  },
+  "observations": [
+    {
+      "id": "V463-PRINT-A13",
+      "article": "13",
+      "pdfPageIndex0": 5,
+      "pageType": "PHOTOGRAPH_OF_1529_PRINTED_PAGE",
+      "directPhotoViewed": true,
+      "observedMainPrint": "The last lines of Article 13 contain an assertion that a teaching forbidding priests' marriages is a devilish teaching.",
+      "minimumAnchor": "pfaffen Ehe verbüet / Tüfels leer sye",
+      "status": "DIRECT_EARLY_PRINT_PAGE_PHRASING_VISUALLY_CONFIRMED",
+      "unread": "No complete diplomatic character-by-character transcription of all Article 13 words or marginal handwritten notes.",
+      "archivalRelation": "Zürich official catalogue records article 13 addition in signed Z absent signed K; resemblance does not alone establish derivation of W2119 from Z.",
+      "claimScope": "Article 13 specific printed text only"
+    },
+    {
+      "id": "V463-PRINT-A15",
+      "article": "15",
+      "pdfPageIndex0": 6,
+      "pageType": "PHOTOGRAPH_OF_1529_PRINTED_PAGE",
+      "directPhotoViewed": true,
+      "observedPrintedSegments": [
+        {
+          "role": "MASS_CLAUSE",
+          "shortAnchor": "Das auch die Mässe nit ein werck ist",
+          "translation": "The mass is not a work by which one person obtains grace for another, living or deceased."
+        },
+        {
+          "role": "BODILY_PRESENCE_NONAGREEMENT",
+          "shortAnchor": "lyplich im brot und wyn",
+          "translation": "The parties had not at that time reached agreement on whether Christ's body and blood were bodily present in the bread and wine."
+        },
+        {
+          "role": "SHARED_COMMUNION_AND_CHARITY",
+          "summary": "The printed article also affirms shared eucharistic statements, spiritual reception, and mutual Christian love despite unresolved disagreement."
+        }
+      ],
+      "status": "DIRECT_EARLY_PRINT_MAIN_TEXT_VISUALLY_CONFIRMED",
+      "handwrittenMarginaliaVisible": true,
+      "handwrittenAnnotationsFullyTranscribed": false,
+      "printedTextDiplomaticTranscriptionCompleted": false,
+      "archivalRelation": "The printed mass clause corresponds in theme to Z-only article 15 addition described in the Zürich official archival catalogue; cannot equate print with Z signed autograph without collating both.",
+      "claimScope": "1529 W2119 Article15 printed reading, not exact original K/Z autograph reading"
+    }
+  ],
+  "sourceRelationship": {
+    "zurichSignedManuscriptZ": {
+      "shelfmark": "StAZH E I 3.1 Nr54",
+      "directArticle15HandwritingRead": false,
+      "source": "https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=618165"
+    },
+    "hessianSignedManuscriptK": {
+      "shelfmark": "HStAM Best3 Nr245",
+      "directArticle15HandwritingRead": false
+    },
+    "knownAdditionLoci": [
+      7,
+      13,
+      15
+    ],
+    "article13AddedTextVisibleInW2119": true,
+    "article15AddedTextVisibleInW2119": true,
+    "article7AddedTextVisibleInW2119": "NOT_YET_VERIFIED",
+    "directionOfDependenceBetweenZAndW2119": "UNRESOLVED",
+    "claimAboutWhichWitnessWasUsedByGHDI": "UNRESOLVED"
+  },
+  "inspection": {
+    "method": "Web PDF screenshot tool, visual reading of printed page pixels",
+    "pagesActuallyRead": [
+      5,
+      6
+    ],
+    "bibliographicCatalogChecked": true,
+    "sourceImageBytesDownloadedToResearchContainer": false,
+    "checksumComputed": false,
+    "ocrUsed": false,
+    "remainingWork": "Acquire PDF bytes or image exports to calculate checksums; complete article-specific diplomatic German transcript and critical comparison with signed Z/K and other 1529 print editions.",
+    "notYetVerified": [
+      "K autograph article 15",
+      "Z autograph article 15",
+      "W2118 print article 15",
+      "W2117 Worms print article 15",
+      "1531 Latin C4734 Article X",
+      "1540 Variata Latin C4713 Article X"
+    ]
+  },
+  "counts": {
+    "directOriginalEraPrintedWitnessPageRead": 2,
+    "direct1529Article15PrintedWitnessPagesRead": 1,
+    "direct1529SignedManuscriptArticle15PagesRead": 0,
+    "requiredFourOriginalFolioTargetsOfV462Read": 0,
+    "independentHistorianReviewers": 0
+  },
+  "studyImpact": [
+    "Raises V459 W2119 print witness evidence tier from catalogue-only to actual photographed 1529 page main text reading.",
+    "Supports presence of mass-grace wording within a 1529 Zurich print, instead of solely later modern translation/official manuscript catalogue.",
+    "Supports article 13 priest marriage sentence in the same 1529 print.",
+    "Does not imply the Z signed manuscript page was directly seen or that all W2119 text is identical to Z.",
+    "Requires user-facing historical source labels to explicitly say 1529 Zürich W2119 print and exact photographed page instead of conflating K and Z."
+  ],
+  "release": {
+    "canShip": false,
+    "canMergeMain": false,
+    "canImportAIStudio": false
+  }
+}
