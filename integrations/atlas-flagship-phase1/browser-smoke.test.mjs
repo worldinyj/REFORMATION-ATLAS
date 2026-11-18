@@ -81,6 +81,8 @@ test("V4.52 research preview real-engine browser and accessibility smoke",async 
     assert.equal(await page.locator("#l0").getAttribute("aria-selected"),"true");
     assert.equal(await page.locator("#comparison").isHidden(),true);
     assert.equal(await page.locator("#sources").isVisible(),true);
+    assert.equal(await page.evaluate(()=>document.querySelector(".nav").scrollLeft),0,"timeline returns to first year");
+    assert.ok(await page.evaluate(()=>window.scrollY)<=2,"restart returns reader to top");
 
     await page.screenshot({path:join(outDir,engineName+"-"+width+".png"),fullPage:false});
     assert.deepEqual(errors,[],"browser console/page errors");
