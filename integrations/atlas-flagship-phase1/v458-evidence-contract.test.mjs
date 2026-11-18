@@ -12,7 +12,7 @@ test("V4.58 all ten historical HIGH claims receive traceable edition-level evide
  const highIds=new Set(high.map(c=>c.id));
  assert.equal(matrix.claimCoverage.totalHighRisk,10);
  const covered=new Set(matrix.evidence.flatMap(e=>e.claimIds));
- assert.equal(matrix.evidenceCount,14);
+ assert.equal(matrix.evidenceCount,17);
  for(const id of highIds)assert.ok(covered.has(id),"Missing: "+id);
  for(const id of covered)assert.ok(highIds.has(id),"Unrecognized HIGH claim: "+id);
  assert.equal(matrix.claimCoverage.uncoveredHighRisk.length,0);
@@ -58,6 +58,13 @@ test("V4.58 1531 catalogues and 1540 variants remain distinguishable",()=>{
  assert.ok(originalArticle10.anchorTokens.includes("vere adsint et distribuantur"));
  assert.ok(originalArticle10.anchorTokens.includes("cum pane et vino vere exhibeantur"));
  assert.ok(matrix.evidence.find(e=>e.id==="EV458-11").sourceIds.includes("PITTS"));
+ const catalog=matrix.sourceRegistry.PITTS_CATALOG_2017;
+ assert.match(catalog.url,/Kessler2017ExhibitionCatalogue\.pdf/);
+ assert.equal(catalog.pageScreenshotVerified,true);
+ assert.ok(matrix.evidence.find(e=>e.id==="EV458-15").anchorTokens.includes("VD16 C4736"));
+ assert.ok(matrix.evidence.find(e=>e.id==="EV458-16").anchorTokens.includes("VD16 C4713"));
+ assert.ok(matrix.evidence.find(e=>e.id==="EV458-17").anchorTokens.includes("VD16 W2117"));
+ assert.ok(matrix.evidence.find(e=>e.id==="EV458-16").limit.includes("not Gruber inventory number"));
 });
 
 test("V4.58 later confessional framing stays on hold, never auto-promotes",()=>{
