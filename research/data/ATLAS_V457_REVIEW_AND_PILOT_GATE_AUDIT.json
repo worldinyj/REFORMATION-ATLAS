@@ -1,0 +1,110 @@
+{
+  "schema": "ATLAS_V457_HISTORICAL_CLAIM_AND_READER_ACCEPTANCE_GATE_AUDIT",
+  "date": "2026-11-18",
+  "project": "REFORMATION_ATLAS",
+  "phase": "FIRST_FLAGSHIP_READER_SCENE_RESEARCH_ONLY",
+  "branch": "integration/atlas-phase1-browser-qa-v452",
+  "inputs": {
+    "scene": {
+      "path": "research/data/ATLAS_PHASE0_FLAGSHIP_SCENE_1529_1540_PRIVATE_MODEL.json",
+      "blobSha": "a3fda22ca5ec58c8bef5f7ff2efdf801772e2dc8"
+    },
+    "previousQA": {
+      "path": "research/data/ATLAS_V456_SAFE_MARKDOWN_RENDERER_PARITY_AUDIT.json",
+      "blobSha": "e0a741d786c53f609d6f6ae802fcf9208c7d0c7"
+    },
+    "sourcePages": [
+      {
+        "id": "GHDI_MARBURG",
+        "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/the-marburg-colloquy-the-marburg-articles-1529",
+        "reviewed": true
+      },
+      {
+        "id": "GRUBER_AUGSBURG",
+        "url": "https://gruber.lstc.edu/confessions/augs_apol.php",
+        "reviewed": true
+      }
+    ]
+  },
+  "deliverables": {
+    "claimRegister": {
+      "path": "research/data/ATLAS_V457_CLAIM_SOURCE_CRITICAL_REGISTER.json",
+      "blobSha": "0de50d7e98ca6ce7668428e66b044531bb38c747",
+      "claims": 14,
+      "highRisk": 10
+    },
+    "readerInstrument": {
+      "path": "research/data/ATLAS_V457_READER_PILOT_INSTRUMENT.json",
+      "blobSha": "0c59778b554e06e945144522d7036e9966d68c92",
+      "tasks": 3,
+      "questions": 9,
+      "criticalQuestions": 7,
+      "participantsObserved": 0
+    },
+    "scorer": {
+      "path": "integrations/atlas-flagship-phase1/score-reader-session.mjs",
+      "blobSha": "54d4d3782b9e9cf6f968141eefd033d84e6c2fca"
+    },
+    "contractTests": {
+      "path": "integrations/atlas-flagship-phase1/reader-pilot-contract.test.mjs",
+      "blobSha": "cfe3cf36ab8993ac4261d41847cada01c8d1b567",
+      "testCases": 5
+    },
+    "reviewProtocol": {
+      "path": "integrations/atlas-flagship-phase1/V457_HISTORIAN_READER_PILOT_PROTOCOL.md"
+    }
+  },
+  "verification": {
+    "publishedSourcePagesRead": 2,
+    "claimsTraceableToSourcedReferences": 14,
+    "noAutoPromotion": true,
+    "sourceRunEngine": "V8 exact source eval with Node import/test harness adapted",
+    "adaptedContractTestCases": 5,
+    "adaptedContractTestPassed": 5,
+    "adaptedContractTestFailed": 0,
+    "actualNodeTestRunner": "NOT_VERIFIED",
+    "actualCI": "NOT_VERIFIED",
+    "historianReviews": 0,
+    "reviewerSecondOpinions": 0,
+    "realReaders": 0,
+    "realScores": 0,
+    "actualAIStudioChanges": 0,
+    "researchHistoricalTextChanged": 0
+  },
+  "criticalWarnings": [
+    "GHDI is an edited and English-translated presentation, not an original manuscript autographic transcription.",
+    "Gruber catalogue includes one 1540 non-Variata description without a clear item number in that paragraph.",
+    "Gruber's Calvinists language is retrospective editorial framing; not authenticated as 1540 contemporary self-designation.",
+    "The answer key is in a public repository, so moderators must prevent answer-key exposure during actual pilot.",
+    "Pilot scoring and threshold tests are simulated fixtures, not observed readers or statistical claims.",
+    "Qualitative historian verification and actual host authentication remain required regardless of pilot score."
+  ],
+  "expertGate": {
+    "requiredIndependentExpertsForHighRisk": 2,
+    "highRiskClaims": 10,
+    "highRiskClaimsSignedOff": 0,
+    "unresolvedCount": 10,
+    "pass": false
+  },
+  "readerGate": {
+    "requiredMinimumParticipants": 6,
+    "observedParticipants": 0,
+    "requiredTaskCount": 3,
+    "pass": false
+  },
+  "integrationGate": {
+    "realReactHostBuild": false,
+    "hostAuthenticationReview": false,
+    "pass": false
+  },
+  "release": {
+    "canShip": false,
+    "canMergeMain": false,
+    "canImportAIStudio": false
+  },
+  "priorityNext": [
+    "Independent expert source review focused on 1529 Article 15 and bibliographic 1530/1531/1540 claims",
+    "Pilot actual 6–8 reader sessions; record aggregate errors, no personal data",
+    "Rework ambiguous claims and repeat reader test before copying pattern to other volumes"
+  ]
+}
