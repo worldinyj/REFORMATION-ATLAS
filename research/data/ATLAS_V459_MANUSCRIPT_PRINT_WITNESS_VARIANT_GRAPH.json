@@ -161,7 +161,7 @@
       "kind": "CONTEMPORARY_PRINT",
       "identity": "Marburg Articles Zurich 1529 print, e-rara-1085",
       "institution": "Zentralbibliothek Zürich",
-      "shelfmark": null,
+      "shelfmark": "Zwingli MvK A 81,8",
       "year": 1529,
       "language": "German",
       "vd16": "W2118",
@@ -173,7 +173,9 @@
       "actualVisualInspection": "LINK_ONLY_ACCESS_RESTRICTED",
       "textLeafInspected": [],
       "article15FullPageRead": false,
-      "fullWitnessCollated": false
+      "fullWitnessCollated": false,
+      "onlineCatalogueIndexedInERaraSearch": true,
+      "sourceRestriction": "Official archive recognizes W2118 as Vischer C162; e-rara institutional search shows shelfmark; DOI redirects to inaccessible page, no original article page read."
     },
     {
       "id": "P1529-W2119",
@@ -190,40 +192,59 @@
         "FOLGER"
       ],
       "scanOnline": "FULL_1529_PRINT_PDF_E_RARA_DIRECT_VIEW",
-      "actualVisualInspection": "DIRECT_WEB_SCREENSHOT_OF_1529_PRINT_MAIN_TEXT_PDF_PAGES_5_AND_6",
+      "actualVisualInspection": "DIRECT_WEB_SCREENSHOT_OF_1529_PRINT_MAIN_TEXT_PDF_PAGES_4_5_6",
       "textLeafInspected": [
-        "Printed Article 13 (PDF page index 5)",
-        "Printed Article 15 (PDF page index 6)"
+        "Article7 ending PDF p4",
+        "Article13 ending PDF p5",
+        "Article15 PDF p6"
       ],
       "article15FullPageRead": false,
       "fullWitnessCollated": false,
       "printedMainArticle13DirectlyRead": true,
       "printedMainArticle15DirectlyRead": true,
       "originalPDFPageIndicesInspected": [
+        4,
         5,
         6
       ],
       "pdfPageUrl": "https://www.e-rara.ch/zuz/download/pdf/170052",
       "mainReadingEvidence": "research/data/ATLAS_V463_W2119_1529_PRINT_ART13_ART15_DIRECT_SCAN_EVIDENCE.json",
-      "printedReadLimit": "Main 1529 typeface reading confirmed; no character-by-character diplomatic transcription, no 1529 marginal handwriting transcription and no print-to-K/Z collation"
+      "printedReadLimit": "Main 1529 typeface reading confirmed; no character-by-character diplomatic transcription, no 1529 marginal handwriting transcription and no print-to-K/Z collation",
+      "printedMainArticle7DirectlyRead": true,
+      "V464Evidence": "research/data/ATLAS_V464_W2119_W2108_EARLY_PRINT_PARALLEL_ARTICLES_7_13_15.json"
     },
     {
       "id": "P1529-W2108",
       "kind": "CONTEMPORARY_PRINT",
       "identity": "Marburg Articles Basel 1529",
-      "institution": "Swisscollections Basel",
-      "shelfmark": null,
+      "institution": "Universitätsbibliothek Basel",
+      "shelfmark": "UBH Falk 2950:5",
       "year": 1529,
       "language": "German",
       "vd16": "W2108",
       "sourceIds": [
         "SWISSCOL_BAS"
       ],
-      "scanOnline": "DIGITIZED_E_RARA_DOI_5415",
-      "actualVisualInspection": "CATALOGUE_ONLY",
-      "textLeafInspected": [],
+      "scanOnline": "FULL_1529_PRINT_PDF_E_RARA_DIRECT_VIEW",
+      "actualVisualInspection": "DIRECT_WEB_SCREENSHOT_OF_1529_PRINT_MAIN_TEXT_PDF_PAGES_8_10_11",
+      "textLeafInspected": [
+        "Article7 ending PDF p8",
+        "Article13 ending & Article15 beginning PDF p10",
+        "Article15 ending and printed signatories PDF p11"
+      ],
       "article15FullPageRead": false,
-      "fullWitnessCollated": false
+      "fullWitnessCollated": false,
+      "printedMainArticle7DirectlyRead": true,
+      "printedMainArticle13DirectlyRead": true,
+      "printedMainArticle15DirectlyRead": true,
+      "originalPDFPageIndicesInspected": [
+        8,
+        10,
+        11
+      ],
+      "pdfPageUrl": "https://www.e-rara.ch/bau_1/download/pdf/1643132",
+      "mainReadingEvidence": "research/data/ATLAS_V464_W2119_W2108_EARLY_PRINT_PARALLEL_ARTICLES_7_13_15.json",
+      "printedReadLimit": "Art7/13/15 major statements actually inspected in 1529 printed page photos; whole witness not transcribed or collated; no image SHA256"
     },
     {
       "id": "P1531-C4734",
@@ -390,5 +411,13 @@
     "whatChanged": "W2119 now has actual printed Article 13 and Article 15 photos reviewed, rather than bibliography-only.",
     "whatDidNotChange": "No direct manuscript K or Z page read, no full print witness collation, no release approval.",
     "evidence": "research/data/ATLAS_V463_W2119_1529_PRINT_ART13_ART15_DIRECT_SCAN_EVIDENCE.json"
+  },
+  "researchUpdate_V464": {
+    "date": "2026-11-19",
+    "whatChanged": "W2119 directly verified Art7 as well as Art13/15; W2108 Basel moved from catalog-only to visual inspection of Art7/13/15 print; W2118 shelfmark registered but original page inaccessible.",
+    "textualClaimScope": "Cross-city semantically matching clauses in 1529 printed editions, not letter-perfect reading equivalence or printed stemma.",
+    "noOriginalSignedWitnessRead": true,
+    "noFullCollation": true,
+    "source": "research/data/ATLAS_V464_W2119_W2108_EARLY_PRINT_PARALLEL_ARTICLES_7_13_15.json"
   }
 }
