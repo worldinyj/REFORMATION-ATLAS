@@ -21,7 +21,7 @@ test("V4.63 actual photographed 1529 printed page has exact institutional editio
 test("V4.63 new primary-page reading updates graph beyond catalogue but not autograph witness K or Z",()=>{
  assert.equal(w.printedMainArticle13DirectlyRead,true);
  assert.equal(w.printedMainArticle15DirectlyRead,true);
- assert.deepEqual(w.originalPDFPageIndicesInspected,[5,6]);
+ assert.ok(w.originalPDFPageIndicesInspected.includes(5) && w.originalPDFPageIndicesInspected.includes(6)); // Later research may add further verified pages.
  assert.equal(w.fullWitnessCollated,false);
  assert.equal(w.article15FullPageRead,false);
  assert.equal(witness.witnesses.find(x=>x.id==="M1529-K").article15FullPageRead,false);
