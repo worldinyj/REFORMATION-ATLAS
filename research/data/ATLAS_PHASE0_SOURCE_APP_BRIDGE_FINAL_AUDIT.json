@@ -1,0 +1,86 @@
+{
+  "schema": "ATLAS_PHASE0_REPO_TO_APP_BRIDGE_INTEGRITY_AUDIT",
+  "date": "2026-11-18",
+  "status": "PASS_REPOSITORY_SOURCE_AND_V8_ADAPTER_SMOKE_REAL_APP_NOT_OBSERVED",
+  "provenance": [
+    {
+      "path": "integrations/atlas-l1-phase0/bridge.mjs",
+      "sha": "b4d1f4d087d5b37496606f7a2e42883afdbe95f9"
+    },
+    {
+      "path": "integrations/atlas-l1-phase0/bridge.test.mjs",
+      "sha": "b8033876b040fdfbdac2fb6a560f362ed3013f50"
+    },
+    {
+      "path": "research/data/ATLAS_PHASE0_APP_GITHUB_STATUS_AND_VERSION_GAP_20261118.json",
+      "sha": "1399b2264683577c0f95a0831bfc34a65f2a3cb8"
+    },
+    {
+      "path": "research/data/ATLAS_PHASE0_FLAGSHIP_SCENE_1529_1540_PRIVATE_MODEL.json",
+      "sha": "a3fda22ca5ec58c8bef5f7ff2efdf801772e2dc8"
+    },
+    {
+      "path": "research/strategy/ATLAS_PHASE0_ACTUAL_APP_REPO_GAP_AND_L0_L1_INTEGRATION_KO.md",
+      "sha": "74f380c9b69b2e8af9ed895ea237bcea5e4f05bd"
+    },
+    {
+      "path": "handoff/V429_AI_STUDIO_PRIVATE_L0_CONTENT_IMPORT.json",
+      "sha": "64c27c0dfe05394acbb049807e4c4384d58908b9"
+    },
+    {
+      "path": "research/data/V4_47_TWO_SOURCE_GROUNDED_L0_HISTORY_CORRECTIONS.json",
+      "sha": "9aebf094697d500930f58d894df16affc34a343c"
+    },
+    {
+      "path": "research/data/V4_50_L1_24_CHAPTER_INTEGRATED_REVISED_MASTER.json",
+      "sha": "79a362734aa963eb41ad0424515e8d21074349c5"
+    },
+    {
+      "path": "research/strategy/ATLAS_STRATEGIC_CONTENT_PRODUCT_ROADMAP_20261118_KO.md",
+      "sha": "27fefafc9e2a2558328bd77155130169f0a16327"
+    }
+  ],
+  "metric": {
+    "actualSourceFilesRead": 9,
+    "bridgeCatalogVolumes": 8,
+    "l1Chapters": 24,
+    "themeLinks": 42,
+    "versionDriftVolumes": 8,
+    "flagshipEvents": 4,
+    "flagshipSourceCards": 2,
+    "v8RuntimeAssertions": 25,
+    "externalAppTests": 0,
+    "humanTests": 0,
+    "externalHistorianSignoffs": 0
+  },
+  "checked": [
+    "Actual public main contains README only and actual independent AI Studio source not available here",
+    "Eight staging vs eight updated overview bodies differ; no silent textual promotion",
+    "Pure JS adapter produces immutable 8/24/6/42/6 read-only research projection",
+    "Adapter rejects public mode, released baseline, duplicate IDs, invalid HTTPS, malformed thematic archive and publishable source content",
+    "V8 runtime checks executed; Node test file authored but node:test runner not executed here",
+    "First Marburg/Augsburg representative scene routes to real volume/L1/theme IDs, has four year-precision events and two cited document cards",
+    "No simulated historically specific travel paths, ancient borders, map images or licence clearances",
+    "App deployed build, private authentication, real-browser UI, real participant observation and historian signoffs were not verified",
+    "V429 frozen blob SHA preserved unchanged"
+  ],
+  "knownRisks": [
+    "Public GitHub repository permits access to research branch materials; release flags do not impose privacy",
+    "Actual AI Studio app source/version/auth/production UI inaccessible from this context",
+    "Historical coordinates and images are not approved for display",
+    "No source full critical edition collation or external historic expert signoff"
+  ],
+  "release": {
+    "canShip": false,
+    "canMergeMain": false,
+    "canImportAIStudio": false
+  },
+  "originalAppFrozenBlobSha": "64c27c0dfe05394acbb049807e4c4384d58908b9",
+  "runner": {
+    "v8JSFunctionSmoke": "PASSED",
+    "nodeTestFile": "AUTHORED_NOT_RUN_IN_THIS_ENVIRONMENT",
+    "realBrowser": "NOT_RUN",
+    "realAIStudioApp": "NOT_ACCESSED"
+  },
+  "failures": []
+}
