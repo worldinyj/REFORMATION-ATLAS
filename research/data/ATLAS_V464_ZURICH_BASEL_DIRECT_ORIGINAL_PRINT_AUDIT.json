@@ -1,0 +1,97 @@
+{
+  "schema": "ATLAS_V464_DIRECT_1529_ZURICH_BASEL_PRINT_PAGE_COMPARISON_AUDIT",
+  "date": "2026-11-19",
+  "branch": "integration/atlas-phase1-browser-qa-v452",
+  "question": "Are additions at articles 7, 13, 15 observable in both 1529 Zurich and Basel printings, and is W2118 directly compared?",
+  "researchFindings": {
+    "firstPrint": {
+      "vd16": "W2119",
+      "city": "Zürich",
+      "printer": "Christoph Froschauer",
+      "holding": "Zentralbibliothek Zürich, 5.174,5",
+      "pdf": "https://www.e-rara.ch/zuz/download/pdf/170052",
+      "pagesActuallyVisuallyExamined": [
+        4,
+        5,
+        6
+      ]
+    },
+    "secondPrint": {
+      "vd16": "W2108",
+      "city": "Basel",
+      "printer": "Thomas Wolff",
+      "holding": "Universitätsbibliothek Basel, UBH Falk 2950:5",
+      "pdf": "https://www.e-rara.ch/bau_1/download/pdf/1643132",
+      "pagesActuallyVisuallyExamined": [
+        8,
+        10,
+        11
+      ]
+    },
+    "thirdPrint": {
+      "vd16": "W2118",
+      "city": "Zürich",
+      "shelfmark": "Zwingli MvK A 81,8",
+      "doi": "https://doi.org/10.3931/e-rara-1085",
+      "actualArticle15PageViewed": false,
+      "whyNot": "DOI redirects to e-rara endpoint inaccessible via web research tools; search catalogue metadata only"
+    },
+    "observedComparison": [
+      "7: rejection of treating monastery life and vows as useful for obtaining righteousness in both printed originals",
+      "13: rejection of doctrines forbidding priests' marriages in both printed originals",
+      "15: mass not a work procuring grace for the living or dead in both printed originals",
+      "15: coexistence of shared communion language and nonagreement on bodily presence in bread and wine in both printed originals"
+    ],
+    "status": "FOUR_PROPOSITIONS_CONFIRMED_IN_TWO_INDEPENDENT_1529_PRINT_EDITION_SCAN_PHOTOS_NOT_DIPLOMATIC_CHARACTER_LEVEL_EQUIVALENCE"
+  },
+  "sourceIntegrity": {
+    "fetchedPdfForScreenshots": true,
+    "webScreenshotPagesActuallyRead": 6,
+    "downloadedPdfFilesInRepository": false,
+    "downloadedPdfSHA256": null,
+    "fullOriginalLanguageDiplomaticTranscript": false,
+    "earlyPrintCompleteCollation": false,
+    "signedKOrZManuscriptArt15ImageRead": false,
+    "original1531ArtXLeafRead": false,
+    "original1540ArtXLeafRead": false,
+    "KZVariantRelationshipProven": false,
+    "imprintChronologyProven": false,
+    "independentHistoriansApproved": 0
+  },
+  "deliverables": {
+    "newCrossCityPrimarySourceMatrix": "research/data/ATLAS_V464_W2119_W2108_EARLY_PRINT_PARALLEL_ARTICLES_7_13_15.json",
+    "newKoreanDossier": "integrations/atlas-flagship-phase1/V464_ZURICH_BASEL_1529_PRINT_PARALLEL_REVIEW_KO.md",
+    "updatedWitnessRegister": "research/data/ATLAS_V459_MANUSCRIPT_PRINT_WITNESS_VARIANT_GRAPH.json",
+    "regressionContracts": [
+      "integrations/atlas-flagship-phase1/v464-early-print-parallel-contract.test.mjs",
+      "integrations/atlas-flagship-phase1/v463-original-print-witness-contract.test.mjs"
+    ],
+    "workflow": ".github/workflows/atlas-phase1-browser-qa.yml"
+  },
+  "verification": {
+    "newContractAssertionsV8Adapted": 5,
+    "allNewAssertionsPassed": 5,
+    "priorV463RegressionAssertionsV8Adapted": 5,
+    "allPriorAssertionsPassed": 5,
+    "nativeNodeTestRunnerExecuted": false,
+    "githubActionsActualRunVerified": false,
+    "humanHistorianApprovedClaims": 0,
+    "readerPilotParticipants": 0,
+    "CIResearchBranchContractAdded": true
+  },
+  "researchProductDecision": {
+    "updatedAppHistoryProse": false,
+    "changedGoogleAIStudioApp": false,
+    "changedMain": false,
+    "claimStatus": "RESEARCH_EVIDENCE_STRONGER_BUT_NOT_HISTORIAN_APPROVED",
+    "canShip": false,
+    "canMergeMain": false,
+    "canImportAIStudio": false
+  },
+  "nextResearch": [
+    "Open specific W2118 original e-rara pages and locate article7/13/15; retain clear witness identity.",
+    "Save verified original-page image bytes/sha and make full diplomatic line-by-line 1529 Zurich/Basel comparison.",
+    "Obtain K/Z signed handwritten originals to establish exact additions and stemmatic relationship.",
+    "Keep separate task for 1531 C4734 vs 1540 C4713 original Latin article X images."
+  ]
+}
