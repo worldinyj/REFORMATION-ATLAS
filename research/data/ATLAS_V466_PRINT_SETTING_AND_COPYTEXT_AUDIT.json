@@ -54,7 +54,11 @@
     "V466SourceCodeUnitAssertionsPassed": 6,
     "V466SourceCodeUnitAssertionsMethod": "GitHub exact test functions executed under V8 with imports/readFile shim",
     "nativeNodeTestRunnerStatus": "NOT_VERIFIED",
-    "githubActionsRunStatus": "NOT_VERIFIED"
+    "githubActionsRunStatus": "NOT_VERIFIED",
+    "existingV463V465RegressionTests": 15,
+    "totalV463ThroughV466V8AdaptedTestsPassed": 21,
+    "totalV463ThroughV466V8AdaptedTestsFailed": 0,
+    "validationNote": "Fetched GitHub V4.63-V4.66 JSON and exact JS test assertion sources; V8 executed 6+5+5+5 assertions with Node import/readFile adapter. Native Node runner and actual GitHub Actions success were not observed."
   },
   "deliverables": {
     "sourceAndTypesettingMatrix": "research/data/ATLAS_V466_ZURICH_1529_PRINT_SETTING_AND_EDITION_COPYTEXT_GATES.json",
