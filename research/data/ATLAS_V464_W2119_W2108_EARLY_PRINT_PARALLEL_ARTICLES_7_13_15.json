@@ -1,0 +1,274 @@
+{
+  "schema": "ATLAS_V464_1529_ZURICH_BASEL_PRINT_WITNESS_PARALLEL_SOURCE_SCAN",
+  "createdOn": "2026-11-19",
+  "scope": "Two actually viewed 1529 printed editions W2119 Zurich, W2108 Basel; W2118 Zurich held",
+  "researchOnly": true,
+  "context": "After V4.63 W2119 first original print inspection, examine Basel W2108 independent print while W2118 e-rara DOI remains unviewable.",
+  "archiveSource": {
+    "url": "https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=618165",
+    "officialClaims": [
+      "Z signed manuscript contains extra sentences at articles 7/13/15, Hessian K does not",
+      "Both W2119 and W2118 catalogued as Zürich 1529 prints, separately identified by VD16 / Vischer",
+      "Zwingli Werke 6/2 no146 is edited after W2119 print rather than necessarily signed Z"
+    ]
+  },
+  "witnessCount": 3,
+  "witnesses": [
+    {
+      "id": "P1529-W2119",
+      "vd16": "W2119",
+      "shortLabel": "Zürich 1529 Froschauer",
+      "city": "Zürich",
+      "printer": "Christoffel Froschouer",
+      "holding": "Zentralbibliothek Zürich",
+      "shelfmark": "5.174,5",
+      "bibliographicReference": "Vischer C 161",
+      "doi": "https://doi.org/10.3931/e-rara-597",
+      "metadata": "https://www.e-rara.ch/zuz/content/titleinfo/170052",
+      "digitalPDF": "https://www.e-rara.ch/zuz/download/pdf/170052",
+      "pdfPages": 17,
+      "inspectedPdfZeroIndexed": [
+        4,
+        5,
+        6
+      ],
+      "sourceKind": "DIGITIZED_CONTEMPORARY_PRINT",
+      "manuscript": false,
+      "sourcePixelsViewed": true,
+      "directPrintContentInspected": true,
+      "diplomaticFullTranscriptionDone": false,
+      "binaryDownloaded": false,
+      "imageSha256": null
+    },
+    {
+      "id": "P1529-W2108",
+      "vd16": "W2108",
+      "shortLabel": "Basel 1529 Wolff",
+      "city": "Basel",
+      "printer": "Thoman Wolff",
+      "holding": "Universitätsbibliothek Basel",
+      "shelfmark": "UBH Falk 2950:5",
+      "bibliographicReference": "Finsler 90d",
+      "doi": "https://doi.org/10.3931/e-rara-5415",
+      "metadata": "https://www.e-rara.ch/bau_1/content/titleinfo/1643132",
+      "digitalPDF": "https://www.e-rara.ch/bau_1/download/pdf/1643132",
+      "pdfPages": 17,
+      "inspectedPdfZeroIndexed": [
+        8,
+        10,
+        11
+      ],
+      "sourceKind": "DIGITIZED_CONTEMPORARY_PRINT",
+      "manuscript": false,
+      "sourcePixelsViewed": true,
+      "directPrintContentInspected": true,
+      "diplomaticFullTranscriptionDone": false,
+      "binaryDownloaded": false,
+      "imageSha256": null
+    },
+    {
+      "id": "P1529-W2118",
+      "vd16": "W2118",
+      "shortLabel": "Zürich 1529 second Froschauer print",
+      "city": "Zürich",
+      "printer": "Froschauer (archival attribution)",
+      "holding": "Zentralbibliothek Zürich",
+      "shelfmark": "Zwingli MvK A 81,8",
+      "bibliographicReference": "Vischer C 162",
+      "doi": "https://doi.org/10.3931/e-rara-1085",
+      "metadata": null,
+      "digitalPDF": null,
+      "pdfPages": null,
+      "inspectedPdfZeroIndexed": [],
+      "sourceKind": "CATALOGUED_CONTEMPORARY_PRINT_UNVIEWED",
+      "manuscript": false,
+      "sourcePixelsViewed": false,
+      "directPrintContentInspected": false,
+      "diplomaticFullTranscriptionDone": false,
+      "binaryDownloaded": false,
+      "imageSha256": null,
+      "accessFailure": "DOI resolver returned a redirect to an e-rara route unavailable to the research reader; no identified VLID or stable PDF URL retrieved"
+    }
+  ],
+  "pairedPrintedEditionsActuallyExamined": 2,
+  "lociCount": 4,
+  "comparisonLoci": [
+    {
+      "id": "CLAUSE-7",
+      "article": 7,
+      "subject": "monastic life/vows as cause of righteousness",
+      "evidence": [
+        {
+          "witnessId": "P1529-W2119",
+          "pageIndex0": 4,
+          "status": "DIRECT_PIXEL_EXAMINED",
+          "anchor": "Darumb alle Clöster leben unnd gelübde",
+          "position": "Printed text at top; Article 7 ends before Von dem üsserlichen wort",
+          "completeDiplomaticText": false
+        },
+        {
+          "witnessId": "P1529-W2108",
+          "pageIndex0": 8,
+          "status": "DIRECT_PIXEL_EXAMINED",
+          "anchor": "Darumb aller Clöster leben oder gelübde",
+          "position": "Page lower area, end of Zum sybenden",
+          "completeDiplomaticText": false
+        },
+        {
+          "witnessId": "P1529-W2118",
+          "pageIndex0": null,
+          "status": "UNVIEWED_NO_TEXT_CLAIM",
+          "anchor": null,
+          "completeDiplomaticText": false
+        }
+      ],
+      "readingJudgment": "SAME_PROPOSITION_IN_TWO_1529_PRINTS",
+      "exactReadingIdentical": "NOT_ESTABLISHED"
+    },
+    {
+      "id": "CLAUSE-13",
+      "article": 13,
+      "subject": "rejection of teachings forbidding priests' marriages",
+      "evidence": [
+        {
+          "witnessId": "P1529-W2119",
+          "pageIndex0": 5,
+          "status": "DIRECT_PIXEL_EXAMINED",
+          "anchor": "Das auch die leere so pfaffen Ehe verbüt",
+          "position": "Article 13 closing",
+          "completeDiplomaticText": false
+        },
+        {
+          "witnessId": "P1529-W2108",
+          "pageIndex0": 10,
+          "status": "DIRECT_PIXEL_EXAMINED",
+          "anchor": "Das auch die lere so pfaffen Ehe verbüt",
+          "position": "Article 13 closing; printed wording against bans",
+          "completeDiplomaticText": false
+        },
+        {
+          "witnessId": "P1529-W2118",
+          "pageIndex0": null,
+          "status": "UNVIEWED_NO_TEXT_CLAIM",
+          "anchor": null,
+          "completeDiplomaticText": false
+        }
+      ],
+      "readingJudgment": "SAME_PROPOSITION_IN_TWO_1529_PRINTS",
+      "exactReadingIdentical": "NOT_ESTABLISHED"
+    },
+    {
+      "id": "CLAUSE-15-MASS",
+      "article": 15,
+      "subject": "mass is not a work procuring grace for another living or dead",
+      "evidence": [
+        {
+          "witnessId": "P1529-W2119",
+          "pageIndex0": 6,
+          "status": "DIRECT_PIXEL_EXAMINED",
+          "anchor": "Das auch die Mässe nit ein werck ist",
+          "position": "Early part of Article 15",
+          "completeDiplomaticText": false
+        },
+        {
+          "witnessId": "P1529-W2108",
+          "pageIndex0": 10,
+          "status": "DIRECT_PIXEL_EXAMINED",
+          "anchor": "Das auch die Messe nicht ein werck ist",
+          "position": "Early part of Article 15",
+          "completeDiplomaticText": false
+        },
+        {
+          "witnessId": "P1529-W2118",
+          "pageIndex0": null,
+          "status": "UNVIEWED_NO_TEXT_CLAIM",
+          "anchor": null,
+          "completeDiplomaticText": false
+        }
+      ],
+      "readingJudgment": "SAME_PROPOSITION_IN_TWO_1529_PRINTS",
+      "exactReadingIdentical": "NOT_ESTABLISHED"
+    },
+    {
+      "id": "CLAUSE-15-DISAGREE",
+      "article": 15,
+      "subject": "lack of agreement on bodily presence of Christ's true body and blood in bread and wine",
+      "evidence": [
+        {
+          "witnessId": "P1529-W2119",
+          "pageIndex0": 6,
+          "status": "DIRECT_PIXEL_EXAMINED",
+          "anchor": "lyplich im brot vnnd wyn",
+          "position": "Article 15 last third; accompanied by Christian love and prayer",
+          "completeDiplomaticText": false
+        },
+        {
+          "witnessId": "P1529-W2108",
+          "pageIndex0": 11,
+          "status": "DIRECT_PIXEL_EXAMINED",
+          "anchor": "lyblich im Brot vnnd Win",
+          "position": "Article 15 closing paragraph before signatures",
+          "completeDiplomaticText": false
+        },
+        {
+          "witnessId": "P1529-W2118",
+          "pageIndex0": null,
+          "status": "UNVIEWED_NO_TEXT_CLAIM",
+          "anchor": null,
+          "completeDiplomaticText": false
+        }
+      ],
+      "readingJudgment": "SAME_PROPOSITION_IN_TWO_1529_PRINTS",
+      "exactReadingIdentical": "NOT_ESTABLISHED"
+    }
+  ],
+  "sourceScreenshotsInspected": [
+    {
+      "witnessId": "P1529-W2119",
+      "pdfPages": [
+        4,
+        5,
+        6
+      ],
+      "note": "Page4 Article 7 last lines, page5 Article13 last lines, page6 Article15 entire printed text"
+    },
+    {
+      "witnessId": "P1529-W2108",
+      "pdfPages": [
+        8,
+        10,
+        11
+      ],
+      "note": "Page8 Article7, page10 Article13 and Article15 opening, page11 Article15 conclusion and printed signatories"
+    }
+  ],
+  "conclusions": [
+    "At least two 1529 printed editions from different cities contain the three clauses archivists describe as Z additions relative to signed K.",
+    "Art15 in both prints also contains shared Eucharistic statements and preserved bodily-presence disagreement; source descriptions cannot collapse the agreement into total settlement or total conflict.",
+    "Similar readings across Zürich and Basel prove circulation across different printed editions in 1529 but do not establish a direct copy-text path from signed Z, nor timing of additions.",
+    "W2118 is a distinct, institutional catalogued Zürich print (VD16 W2118 / Vischer C162, Zwingli MvK A81,8), but its actual Article15 page remains unread due link access issues.",
+    "All original era printed page reading is separate from 16th-century signed manuscript K and Z folio collations, which remain uncompleted."
+  ],
+  "negativeClaims": [
+    "NO_FULL_DIPLOMATIC_TEXTUAL_COLLATION",
+    "NO_PRINT_STEMMA_PARENT_CHILD_DIRECTION",
+    "NO_W2118_ARTICLE15_DIRECT_CONTENT_VERIFICATION",
+    "NO_SIGNED_K_OR_Z_ARTICLE15_PAGE_READ",
+    "NO_1531_OR_1540_LATIN_ARTICLE_X_PAGE_READ",
+    "NO_IMAGE_SHA256_AVAILABLE"
+  ],
+  "nextRecommendedReview": [
+    "Acquire direct W2118 original scan from e-rara using its archive DOI and official library record; align Article7/13/15 on same specific loci.",
+    "Capture full page image bytes from W2119/W2108 and calculate SHA256, so exact original-era print comparison is reproducible.",
+    "Transcribe marked passages diplomatically, compare orthography and text beyond equivalent meaning; independent human QC.",
+    "Read signed Z and K Article15 images, then decide whether these printed shared clauses preserve the text of Z manuscript or a common ancestor.",
+    "Continue 1531 vs 1540 Latin Article X early print acquisition in parallel, but don't treat 1858 critical edition as primary print."
+  ],
+  "expertApprovals": 0,
+  "actualReaderPilotParticipants": 0,
+  "release": {
+    "canShip": false,
+    "canMergeMain": false,
+    "canImportAIStudio": false
+  }
+}
