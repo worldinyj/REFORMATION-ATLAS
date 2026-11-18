@@ -1,0 +1,56 @@
+{
+  "schema": "ATLAS_V452_BROWSER_QA_AND_ACCESSIBILITY_CHANGE_CONTROL",
+  "date": "2026-11-18",
+  "basedOn": {
+    "branch": "integration/atlas-phase1-first-flagship-reader-scene",
+    "commit": "da9876abca40aa337f3849fff839ea92f3ca6f37",
+    "previewBlob": "3dec771bfbf2c3f06597988615211e1184a6754d"
+  },
+  "reviewBranch": "integration/atlas-phase1-browser-qa-v452",
+  "changes": [
+    "Preserve selected event button focus when timeline DOM is rebuilt",
+    "Implement arrow/Home/End tab keyboard selection for L0/L1",
+    "Connect reading tabs to a labelled accessible tab panel",
+    "Limit live announcement to selected event title",
+    "Fix horizontal timeline layout at 320–375px widths",
+    "Add Chromium/WebKit browser smoke at 320,375,768,1440 with screenshots and CI recipe"
+  ],
+  "localStaticAudit": {
+    "embeddedResearchPayloadIdentical": true,
+    "htmlInlineScriptParse": "PASS_V8_SYNTAX_ONLY",
+    "eventCount": 4,
+    "sourceCards": 2,
+    "canShip": false,
+    "previewBlobAfter": "e2c2cb7c58b56f8d014c0b0cdb0dea6cac5bbc74",
+    "checks": [
+      "focus guard present",
+      "role tabpanel + aria-labelledby present",
+      "mobile steps flex present",
+      "no fetch/XHR/local/session storage/beacon in inline JS"
+    ]
+  },
+  "execution": {
+    "githubWorkflowFile": ".github/workflows/atlas-phase1-browser-qa.yml",
+    "testFile": "integrations/atlas-flagship-phase1/browser-smoke.test.mjs",
+    "workflowCommitted": true,
+    "workflowRunVerified": false,
+    "chromiumRealEngineResult": "UNVERIFIED",
+    "webkitRealEngineResult": "UNVERIFIED",
+    "chromeBrandedDesktopResult": "NOT_TESTED",
+    "safariBrandedDesktopResult": "NOT_TESTED",
+    "actualAiStudioHostResult": "NOT_TESTED",
+    "externalHistorianReview": "NOT_DONE",
+    "actualReaderPilot": "NOT_DONE"
+  },
+  "release": {
+    "canShip": false,
+    "canMergeMain": false,
+    "canImportAIStudio": false
+  },
+  "notes": [
+    "A committed workflow and test specification are not evidence that any CI browser job has passed.",
+    "The GitHub repository and research branch are public; canShip=false does not provide access control.",
+    "The historical text JSON embedded in the standalone HTML was retained byte-for-byte.",
+    "No actual Google AI Studio source or production route was touched."
+  ]
+}
