@@ -1,0 +1,144 @@
+{
+  "schema": "ATLAS_PHASE1_FLAGSHIP_1529_1540_INTERACTION_AND_SOURCE_INTEGRITY",
+  "date": "2026-11-18",
+  "status": "PASS_RESEARCH_SOURCE_UI_SCRIPT_AND_SYNTHETIC_DOM_NOT_REAL_BROWSER",
+  "provenance": [
+    {
+      "path": "integrations/atlas-flagship-phase1/preview-1529-1540.html",
+      "gitBlobSha": "3dec771bfbf2c3f06597988615211e1184a6754d"
+    },
+    {
+      "path": "integrations/atlas-flagship-phase1/AtlasFlagship1529Panel.jsx",
+      "gitBlobSha": "e8409d4ac9320d4225be89cd1a4f079057571ae2"
+    },
+    {
+      "path": "integrations/atlas-flagship-phase1/atlas-flagship.css",
+      "gitBlobSha": "7898fece18b1984420f59771dd2c4a30467213bd"
+    },
+    {
+      "path": "integrations/atlas-flagship-phase1/preview.test.mjs",
+      "gitBlobSha": "eb4147565c7865fb237310c3ed7c56894556d542"
+    },
+    {
+      "path": "integrations/atlas-flagship-phase1/README.md",
+      "gitBlobSha": "356828ce6c0052c8c63053d6f5d64713bd65063a"
+    },
+    {
+      "path": "research/data/ATLAS_PHASE0_FLAGSHIP_SCENE_1529_1540_PRIVATE_MODEL.json",
+      "gitBlobSha": "a3fda22ca5ec58c8bef5f7ff2efdf801772e2dc8"
+    },
+    {
+      "path": "research/data/V4_47_TWO_SOURCE_GROUNDED_L0_HISTORY_CORRECTIONS.json",
+      "gitBlobSha": "9aebf094697d500930f58d894df16affc34a343c"
+    },
+    {
+      "path": "research/data/V4_50_L1_24_CHAPTER_INTEGRATED_REVISED_MASTER.json",
+      "gitBlobSha": "79a362734aa963eb41ad0424515e8d21074349c5"
+    },
+    {
+      "path": "handoff/V429_AI_STUDIO_PRIVATE_L0_CONTENT_IMPORT.json",
+      "gitBlobSha": "64c27c0dfe05394acbb049807e4c4384d58908b9"
+    },
+    {
+      "path": "integrations/atlas-l1-phase0/bridge.mjs",
+      "gitBlobSha": "b4d1f4d087d5b37496606f7a2e42883afdbe95f9"
+    }
+  ],
+  "measurements": {
+    "structuralChecks": 15,
+    "structuralPassed": 15,
+    "syntheticDomChecks": 16,
+    "syntheticDomPassed": 16,
+    "events": 4,
+    "sourceCards": 2,
+    "uiPlatformsDeployed": 0,
+    "actualAiStudioEdits": 0,
+    "realBrowserTests": 0,
+    "historianSignoffs": 0,
+    "actualReaders": 0,
+    "frozenAppVolumeCount": 8,
+    "frozenThemeCount": 6,
+    "frozenThemeLinks": 42,
+    "frozenIntroChapters": 6
+  },
+  "limitations": [
+    "React candidate has not been built within the actual Google AI Studio project",
+    "UI interactions were evaluated in JavaScript against a synthetic DOM; actual browser screenshots and accessibility testing are still open",
+    "Node test file is authored; node --test has not been executed by CI",
+    "Repository and research draft HTML are on publicly readable GitHub branches; canShip=false is not an access control",
+    "Original historical editions, maps and portraits are not approved"
+  ],
+  "historicalHolds": [
+    "C417-11",
+    "C417-12",
+    "C417-18",
+    "TAMIL-1719"
+  ],
+  "release": {
+    "canShip": false,
+    "canMergeMain": false,
+    "canImportAIStudio": false
+  },
+  "checks": [
+    {
+      "name": "html executable syntax",
+      "pass": true
+    },
+    {
+      "name": "4 events 2 docs exact",
+      "pass": true
+    },
+    {
+      "name": "L0 source body identical",
+      "pass": true
+    },
+    {
+      "name": "L1 source body identical",
+      "pass": true
+    },
+    {
+      "name": "source SHAs match",
+      "pass": true
+    },
+    {
+      "name": "self-contained no CDN",
+      "pass": true
+    },
+    {
+      "name": "no automatic network or persistence",
+      "pass": true
+    },
+    {
+      "name": "React UI guard",
+      "pass": true
+    },
+    {
+      "name": "CSS namespace/mobile",
+      "pass": true
+    },
+    {
+      "name": "node tests supplied",
+      "pass": true
+    },
+    {
+      "name": "accurate instructions",
+      "pass": true
+    },
+    {
+      "name": "frozen exact SHA",
+      "pass": true
+    },
+    {
+      "name": "8-6-42-6 original contract",
+      "pass": true
+    },
+    {
+      "name": "phase0 bridge immutable",
+      "pass": true
+    },
+    {
+      "name": "no release state",
+      "pass": true
+    }
+  ]
+}
