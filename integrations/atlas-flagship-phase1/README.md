@@ -156,3 +156,25 @@ ATLAS_BROWSER=chromium node --test browser-smoke.test.mjs
 **출시 차단:** 원고·장면·실제 AI Studio 운영 앱·`main`을 변경하지 않았고 `can_ship=false`, `can_merge_main=false`, `can_import_ai_studio=false` 유지.
 
 **다음 단계:** 새 연표 이벤트 추가보다 먼저 고위험 10건 원전·서지 전문가 검토와 실제 독자 6–8명 파일럿을 수행하고, 발견된 오해를 원고/정보 구조에 반영할지 판단한다.
+
+## V4.58 — 마르부르크 원어·1531/1540 판본 증거표 (고위험 10건)
+
+역사학자에게 전달할 **원어·실물 서지 증거표**를 구성했다. GHDI 독일어/영어 전사, Gruber 희귀본 목록, 에모리 Pitts 1540 Variata 디지털 소장 기록, 에모리 Kessler 2017 전시 도록 34쪽, 후대 학술·고백사 해설을 **7개 출처 기록 / 17개 증거 단위**로 연결하였다.
+
+- **1529년 마르부르크:** GHDI 독일어 전사 제15조에서 `gaistliche niessung`(영적 참여), `leiblich im Brot und wein`(빵과 포도주 안의 육체적 임재 문제), `dißer Zeit nit vergleicht`(당시 미합의)를 구별했다. 제15조는 공통 선언과 미합의 양쪽을 모두 담고 있다. GHDI는 WA 30/III(1910), 160–171쪽 전사에 근거하며 원물 지면과 필사본을 직접 대조한 것은 아니다.
+- **1531년:** Gruber 46 라틴어 신앙고백·변증서(`Witebergae: Georgium Rhau, MDXXXI`), Gruber 7 독일어본 1531년 11월 종결기록을 분리했다. 독립적인 에모리 Pitts 도록은 비텐베르크의 1531년 독일어판 **VD16 C4736**을 식별한다.
+- **1540년:** Gruber 28 및 Pitts Variata는 1540년 라틴어 수정판으로 기록된다. Pitts 도록에서 **VD16 C4713**을 확인했다. 이는 **Gruber의 무번호 1540년 비Variata** 항목을 식별하는 번호가 아니다.
+- **새로운 문법 경고:** 표제 `Addita est Apologia Confessionis diligenter recognita`의 `recognita`는 `Apologia`(변증서)를 수식한다. 표제 자체를 신앙고백 수정 판정의 유일한 근거로 사용하면 안 된다.
+- **제10조 한정 대조:** 후대 연구의 라틴어 병렬 전사는 `vere adsint et distribuantur` 대 `cum pane et vino vere exhibeantur`를 보여준다. 하지만 16세기 실물 인쇄본의 완전 교감이나 저작자 의도 확정은 아니다.
+- **마르부르크 당대 인쇄본:** 같은 에모리 도록에서 1529년 마르부르크 조항의 **VD16 W2117**을 별도 식별했다. 본문 원문·GHDI 편집판 사이의 인쇄 지면 교감은 미실시.
+- **상태 유지:** 고위험 주장 **10건 중 10건에 1개 이상 근거 연결**, 그러나 **역사학자 승인 0명, 독자 실측 0명, 실제 AI Studio 통합 0건**. 근거를 붙였다고 논쟁적인 학술 해석이 확정된 것은 아니다.
+
+**전문 검토 문서:** [V4.58 한국어 증거 대조 보고서](./V458_SOURCE_CRITICAL_EXPERT_EVIDENCE_DOSSIER_KO.md)
+
+**연구 데이터:** `research/data/ATLAS_V458_HIGH_RISK_TEXTUAL_BIBLIOGRAPHIC_EVIDENCE_MATRIX.json`  
+**감사 기록:** `research/data/ATLAS_V458_ORIGINAL_TEXT_AND_EDITION_AUDIT.json`  
+**자동검증:** `v458-evidence-contract.test.mjs` (V8에 Node 파일 읽기/테스트 호출만 대체한 5개 검사 PASS; GitHub Actions 실제 실행 성공은 확인되지 않음). CI 연구 계약 작업에 추가함.
+
+**다음 우선순위:** Gruber 무번호 1540 비Variata 실물 식별 및 독일어/라틴어 실제 인쇄 지면 교감. 각 문장 원전 대조에 따라 전문가 2인의 독립 판정 후 역사 콘텐츠 승격 결정.
+
+**릴리스 제한:** `can_ship=false` / `can_merge_main=false` / `can_import_ai_studio=false`. `main`·Google AI Studio 운영 앱·원래 연구 원고 수정 없음.
