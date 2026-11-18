@@ -1,0 +1,582 @@
+{
+  "schema": "ATLAS_V444_EIGHT_P0_HISTORICAL_REVIEW_DOSSIERS",
+  "version": "V4.44",
+  "date": "2026-11-18",
+  "documentStatus": "READY_TO_SEND_BUT_NOT_SENT_TO_HUMAN",
+  "purpose": "Package eight P0 scientific/historiographical and denominational questions with exact V4.43 Korean draft evidence contexts, prior source quality and neutral decision choices, as a reproducible handoff.",
+  "provenance": [
+    {
+      "path": "research/data/V4_43_L0_EDITORIAL_REDLINE_EIGHT_VOLUME_CANDIDATE.json",
+      "gitBlobSha": "10b73c919ec6cc889e3c64be6dc61e184f5a8e5c"
+    },
+    {
+      "path": "research/data/V4_43_POST_EDIT_51_CLAIM_CROSSWALK.json",
+      "gitBlobSha": "e307b6b955246d42b708640b338dc1529cdfa518"
+    },
+    {
+      "path": "research/data/V4_43_EXPERT_ISSUE_QUEUE_AND_READER_PILOT_PLAN.json",
+      "gitBlobSha": "80afe3f49fa2486c8a928b60069e50f8f474f3d1"
+    },
+    {
+      "path": "research/data/V4_43_EDITORIAL_REVIEW_INTEGRITY_AUDIT.json",
+      "gitBlobSha": "ec9fc1466a79846a6e624e309cca5e6a5bf09a10"
+    },
+    {
+      "path": "research/data/V4_42_EIGHT_VOLUME_EXPERT_READER_REVIEW_PACKET.json",
+      "gitBlobSha": "02c5a0877a1dd88c7d7f18a06da2417d315379e2"
+    },
+    {
+      "path": "handoff/V429_AI_STUDIO_PRIVATE_L0_CONTENT_IMPORT.json",
+      "gitBlobSha": "64c27c0dfe05394acbb049807e4c4384d58908b9"
+    }
+  ],
+  "items": [
+    {
+      "id": "V444-01",
+      "gateId": "G443-01",
+      "title": "1. Late medieval Hussite theologian/historian",
+      "priority": "P0",
+      "targetVolumes": [
+        "VOL-03",
+        "VOL-08"
+      ],
+      "claimIds": [
+        "CL433-08",
+        "CL433-09"
+      ],
+      "caseQuestion": "위클리프 remanence와 후스의 transubstantiation 구별이 후스파 내부의 다양한 실제 성찬관을 과잉 단순화하지 않는가?",
+      "reviewExpertise": "Late medieval Hussite theologian/historian",
+      "currentExactContext": [
+        {
+          "volumeId": "VOL-03",
+          "text": "14세기의 존 위클리프는 성경과 교회 권위, 성직자의 정당성과 성찬에 관해 논했다. 그의 사상은 프라하의 얀 후스에게 영향을 미쳤지만, 영향받았다는 사실이 모든 교리를 받아들였다는 뜻은 아니다. 특히 **위클리프는 성찬 후에도 빵의 실체가 남는다는 견해(remanence)를 주장한 반면**, **후스는 실체변화(transubstantiation)를 수용했다.** 두 인물을 동일한 성찬론자로 묶거나 위클리프의 입장을 단순한 상징설로 환원해서는 안 된다.  영어 성경 필사본과 롤라드의 역사를 위클리프 한 사람의 작품으로 돌리는 것도 적절하지 않다."
+        }
+      ],
+      "claimStatus": [
+        {
+          "claimId": "CL433-08",
+          "sourceEvidenceStatus": "SOURCE_SUPPORTED",
+          "priorDisposition": "IN_L0_EXACT",
+          "readerAnchor": "위클리프는 성찬 후에도 빵의 실체가 남는다는 견해(remanence)를 주장한 반면",
+          "reviewAnchorOffset": 1052
+        },
+        {
+          "claimId": "CL433-09",
+          "sourceEvidenceStatus": "SOURCE_SUPPORTED",
+          "priorDisposition": "IN_L0_EXACT",
+          "readerAnchor": "후스는 실체변화(transubstantiation)를 수용했다.",
+          "reviewAnchorOffset": 1104
+        }
+      ],
+      "predecessorEvidenceUrls": [
+        {
+          "url": "https://www.cambridge.org/core/journals/church-history/article/abs/john-wyclif-and-hussite-theology-14151436/54C10C6F7EEFB5409E2291C9F4194ABF",
+          "verificationLevel": "INHERITED_FROM_V443_PRIOR_RESEARCH_MUST_BE_INDEPENDENTLY_CHECKED",
+          "sourceTextProvided": false
+        }
+      ],
+      "originalEvidenceWorkNeeded": "Crosscheck William R. Cook 1973 abstract with later study; original doctrinal evidence only if full historian available.",
+      "requiredJudgment": "Do not claim all Hussites agreed; qualified comparison of two persons only",
+      "editorialFallbackIllustrativeNotApproved": "위클리프와 후스는 교회의 권위를 비판하며 논쟁했지만, 성찬을 설명하는 방식에는 중요한 차이가 있었다. 이를 후스파 전체의 한 가지 입장으로 확장하지 않는다.",
+      "decisionOptions": [
+        "ACCEPT_AS_WRITTEN_WITH_SOURCE",
+        "REVISE_WITH_QUOTED_EVIDENCE_AND_TEXT",
+        "HOLD_CLAIM_AND_USE_SAFE_FALLBACK",
+        "REJECT_FOR_INCLUSION"
+      ],
+      "submission": {
+        "selectedDecision": null,
+        "verifiedSourceType": null,
+        "sourceLocatorPageOrShelfmark": null,
+        "commentOnConfessionalFairness": null,
+        "correctedExactKoreanSentence": null,
+        "reviewerQualification": null,
+        "reviewDate": null,
+        "signatureOrAttestation": null
+      },
+      "state": "PENDING_EXTERNAL_HUMAN_REVIEW",
+      "receivedResponses": 0,
+      "signoffs": 0,
+      "canShip": false
+    },
+    {
+      "id": "V444-02",
+      "gateId": "G443-02",
+      "title": "2. Reformation confessional edition specialist",
+      "priority": "P0",
+      "targetVolumes": [
+        "VOL-04"
+      ],
+      "claimIds": [
+        "CL433-13",
+        "CL433-14"
+      ],
+      "caseQuestion": "1530 제출·비공식 인쇄와 1531 Melanchthon 관여판·1540 Variata가 서로 다른 문헌 상태로 설명되는가?",
+      "reviewExpertise": "Reformation confessional edition specialist",
+      "currentExactContext": [
+        {
+          "volumeId": "VOL-04",
+          "text": "1529년 마르부르크에서는 루터와 울리히 츠빙글리를 비롯한 대표자들이 여러 문제에서 공통점을 확인했지만 **성찬에서 그리스도가 어떻게 임재하는지**에 관한 합의는 이루지 못했다. 따라서 모든 개신교인이 성찬을 단지 상징으로만 이해했다는 설명은 역사적으로 성립하지 않는다. 아우크스부르크 신앙고백은 **1530년 제국회의에서 제시되었고 당시 비공식 인쇄본도 유통되었다.** **1531년에는 멜란히톤이 관여한 『신앙고백』·『변증서』 판본**이 출판되었으며, **1540년 수정본(Variata)**은 별도로 구분한다. 판본 사이 세부 문장의 의미와 어떤 것이 정본인지에 대한 고위험 판단은 별도의 원전 교감 없이는 단정하지 않는다."
+        }
+      ],
+      "claimStatus": [
+        {
+          "claimId": "CL433-13",
+          "sourceEvidenceStatus": "REVIEW_REQUIRED",
+          "priorDisposition": "IN_L0_EXACT",
+          "readerAnchor": "1530년 제국회의에서 제시되었고 당시 비공식 인쇄본도 유통되었다.",
+          "reviewAnchorOffset": 1110
+        },
+        {
+          "claimId": "CL433-14",
+          "sourceEvidenceStatus": "HOLD",
+          "priorDisposition": "IN_L0_EXACT",
+          "readerAnchor": "판본 사이 세부 문장의 의미와 어떤 것이 정본인지",
+          "reviewAnchorOffset": 1231
+        }
+      ],
+      "predecessorEvidenceUrls": [
+        {
+          "url": "https://gruber.lstc.edu/confessions/augs_apol.php",
+          "verificationLevel": "INHERITED_FROM_V443_PRIOR_RESEARCH_MUST_BE_INDEPENDENTLY_CHECKED",
+          "sourceTextProvided": false
+        }
+      ],
+      "originalEvidenceWorkNeeded": "Compare Gruber item catalog; distinguish 1531 Latin/German editio princeps and 1540 variants.",
+      "requiredJudgment": "Retain first print vs official presentation; no 1540 generalized edition claim",
+      "editorialFallbackIllustrativeNotApproved": "아우크스부르크 신앙고백의 1530년 제국회의 제출, 당시 인쇄물과 1531년 출판물, 1540년 수정본은 구별해야 한다. 세부 판본 간 교리 해석은 원전 교감 뒤 판단한다.",
+      "decisionOptions": [
+        "ACCEPT_AS_WRITTEN_WITH_SOURCE",
+        "REVISE_WITH_QUOTED_EVIDENCE_AND_TEXT",
+        "HOLD_CLAIM_AND_USE_SAFE_FALLBACK",
+        "REJECT_FOR_INCLUSION"
+      ],
+      "submission": {
+        "selectedDecision": null,
+        "verifiedSourceType": null,
+        "sourceLocatorPageOrShelfmark": null,
+        "commentOnConfessionalFairness": null,
+        "correctedExactKoreanSentence": null,
+        "reviewerQualification": null,
+        "reviewDate": null,
+        "signatureOrAttestation": null
+      },
+      "state": "PENDING_EXTERNAL_HUMAN_REVIEW",
+      "receivedResponses": 0,
+      "signoffs": 0,
+      "canShip": false
+    },
+    {
+      "id": "V444-03",
+      "gateId": "G443-03",
+      "title": "3. Bibliographic rare-book specialist / South Asian mission historian",
+      "priority": "P0",
+      "targetVolumes": [
+        "VOL-06"
+      ],
+      "claimIds": [
+        "CL433-20",
+        "CL433-21"
+      ],
+      "caseQuestion": "1715 신약 전체 소장본과 인도성서공회 1719 소개 사이의 충돌을 확정 해소된 사실처럼 표현하지 않는가?",
+      "reviewExpertise": "Bibliographic rare-book specialist / South Asian mission historian",
+      "currentExactContext": [
+        {
+          "volumeId": "VOL-06",
+          "text": "1706년 남인도 트랑케바르에 도착한 바르톨로메우스 치겐발크와 동료들의 이야기는 유럽의 인쇄 기술이 해외로 옮겨진 이야기이면서 현지의 언어와 지식이 만난 이야기이기도 하다. 타밀어를 배우고 문헌을 연구한 과정에는 현지인들의 참여가 있었다. **1714년 타밀어 네 복음서와 사도행전의 부분 인쇄**는 소장 자료로 확인되며, **1715년 신약전서 간행**도 뷔르템베르크 주립도서관의 전체 수록 소장본과 학술연구가 뒷받침한다. 다만 인도성서공회의 전시 설명에는 **1719년 전권 간행**이 기재되어 있어 두 기록의 관계를 아직 확정할 수 없다. 번역 완료·부분 인쇄·전권의 간행·후속 판본은 각각 구별해야 한다. 번역을 마친 시기와 인쇄된 책의 범위는 다른 문제다. 소장본의 표제지·권말 등 실제 인쇄 지면의 직접 대조가 남아 있으므로, 현재의 서지 판정을 최종 교감 결과로 소개하지 않는다."
+        }
+      ],
+      "claimStatus": [
+        {
+          "claimId": "CL433-20",
+          "sourceEvidenceStatus": "SOURCE_SUPPORTED",
+          "priorDisposition": "IN_L0_EXACT",
+          "readerAnchor": "1714년 타밀어 네 복음서와 사도행전의 부분 인쇄",
+          "reviewAnchorOffset": 1227
+        },
+        {
+          "claimId": "CL433-21",
+          "sourceEvidenceStatus": "CONFLICT_HOLD_COMPLETION_YEAR_1719_UNRECONCILED",
+          "priorDisposition": "IN_L0_EXACT",
+          "readerAnchor": "1715년 신약전서 간행",
+          "reviewAnchorOffset": 1274
+        }
+      ],
+      "predecessorEvidenceUrls": [
+        {
+          "url": "https://www.bsind.org/bsi-archives/",
+          "verificationLevel": "INHERITED_FROM_V443_PRIOR_RESEARCH_MUST_BE_INDEPENDENTLY_CHECKED",
+          "sourceTextProvided": false
+        },
+        {
+          "url": "https://www.wlb-stuttgart.de/fileadmin/user_upload/sammlungen/bibeln/Missionsbibeln/Missionsbibel_Stationen.pdf",
+          "verificationLevel": "INHERITED_FROM_V443_PRIOR_RESEARCH_MUST_BE_INDEPENDENTLY_CHECKED",
+          "sourceTextProvided": false
+        }
+      ],
+      "originalEvidenceWorkNeeded": "WLB holding + BSI Archives at the identifier level; full title/colophon images not directly compared.",
+      "requiredJudgment": "Keep 1719 source discrepancy unverified; no invented reissue",
+      "editorialFallbackIllustrativeNotApproved": "1714년 일부 타밀어 성서와 1715년 전체 신약 내용을 수록한 소장본이 확인되지만, 1719년 전권 간행이라는 별도 기관 설명과의 관계는 아직 해결되지 않았다.",
+      "decisionOptions": [
+        "ACCEPT_AS_WRITTEN_WITH_SOURCE",
+        "REVISE_WITH_QUOTED_EVIDENCE_AND_TEXT",
+        "HOLD_CLAIM_AND_USE_SAFE_FALLBACK",
+        "REJECT_FOR_INCLUSION"
+      ],
+      "submission": {
+        "selectedDecision": null,
+        "verifiedSourceType": null,
+        "sourceLocatorPageOrShelfmark": null,
+        "commentOnConfessionalFairness": null,
+        "correctedExactKoreanSentence": null,
+        "reviewerQualification": null,
+        "reviewDate": null,
+        "signatureOrAttestation": null
+      },
+      "state": "PENDING_EXTERNAL_HUMAN_REVIEW",
+      "receivedResponses": 0,
+      "signoffs": 0,
+      "canShip": false
+    },
+    {
+      "id": "V444-04",
+      "gateId": "G443-04",
+      "title": "4. Korean Catholic Church historian",
+      "priority": "P0",
+      "targetVolumes": [
+        "VOL-07"
+      ],
+      "claimIds": [
+        "CL433-23",
+        "CL433-24"
+      ],
+      "caseQuestion": "1779년 강학 모임과 1784년 이승훈 세례·공동체의 각 사건 성격을 정교하게 구별하는가?",
+      "reviewExpertise": "Korean Catholic Church historian",
+      "currentExactContext": [
+        {
+          "volumeId": "VOL-07",
+          "text": "조선의 학자들은 서학 문헌을 읽고 논의했다. **1779년 전후의 서학 강학 모임**이 한국 천주교 공동체의 기원과 어떻게 연결되는지는 해석에 차이가 있다. **1784년 이승훈의 북경 세례 및 귀국 후 신앙공동체 형성**은 중요한 별개 사건이다. 독서 모임과 교회 공동체의 제도적 출범을 동일한 날짜로 확정하지 않는다."
+        }
+      ],
+      "claimStatus": [
+        {
+          "claimId": "CL433-23",
+          "sourceEvidenceStatus": "SOURCE_SUPPORTED",
+          "priorDisposition": "IN_L0_REWORDED_PENDING_REVIEW",
+          "readerAnchor": "1784년 이승훈의 북경 세례 및 귀국 후 신앙공동체 형성",
+          "reviewAnchorOffset": 555
+        },
+        {
+          "claimId": "CL433-24",
+          "sourceEvidenceStatus": "REVIEW_REQUIRED",
+          "priorDisposition": "IN_L0_EXACT",
+          "readerAnchor": "1779년 전후의 서학 강학 모임",
+          "reviewAnchorOffset": 492
+        }
+      ],
+      "predecessorEvidenceUrls": [],
+      "originalEvidenceWorkNeeded": "Distinguish founding debates from dated baptism and early community formation.",
+      "requiredJudgment": "No single contested founding year forced; human reviewer signs off on wording",
+      "editorialFallbackIllustrativeNotApproved": "1779년 전후 서학 강학의 성격과 1784년 이승훈의 세례 및 이후 공동체 형성은 별개의 사건이다. 한국 천주교의 '시작'이라는 역사학적 해석은 검토 대상이다.",
+      "decisionOptions": [
+        "ACCEPT_AS_WRITTEN_WITH_SOURCE",
+        "REVISE_WITH_QUOTED_EVIDENCE_AND_TEXT",
+        "HOLD_CLAIM_AND_USE_SAFE_FALLBACK",
+        "REJECT_FOR_INCLUSION"
+      ],
+      "submission": {
+        "selectedDecision": null,
+        "verifiedSourceType": null,
+        "sourceLocatorPageOrShelfmark": null,
+        "commentOnConfessionalFairness": null,
+        "correctedExactKoreanSentence": null,
+        "reviewerQualification": null,
+        "reviewDate": null,
+        "signatureOrAttestation": null
+      },
+      "state": "PENDING_EXTERNAL_HUMAN_REVIEW",
+      "receivedResponses": 0,
+      "signoffs": 0,
+      "canShip": false
+    },
+    {
+      "id": "V444-05",
+      "gateId": "G443-05",
+      "title": "5. Catholic and Latin American theology/history reviewer",
+      "priority": "P0",
+      "targetVolumes": [
+        "VOL-07"
+      ],
+      "claimIds": [
+        "CL441-03"
+      ],
+      "caseQuestion": "메데인·푸에블라와 해방신학의 관계를 교회 당국의 평가만으로 단정하지 않고 당사자의 신학적 관점과 분리해 서술했는가?",
+      "reviewExpertise": "Catholic and Latin American theology/history reviewer",
+      "currentExactContext": [
+        {
+          "volumeId": "VOL-07",
+          "text": "라틴아메리카에서는 **1968년 콜롬비아 메데인**과 **1979년 멕시코 푸에블라**의 주교회의가 가난과 사회적 책임을 중요한 의제로 다루었다. 여러 **해방신학**의 주장과 실천을 둘러싸고 가톨릭교회 안팎에서 서로 다른 평가가 있었다. 그렇다고 그 지역의 기독교를 가톨릭 한 교파로 환원할 수는 없다. 복음주의·오순절 계열에도 다양한 공동체가 있다."
+        }
+      ],
+      "claimStatus": [
+        {
+          "claimId": "CL441-03",
+          "sourceEvidenceStatus": "CONFESSIONAL_INTERPRETATION_REVIEW_REQUIRED",
+          "priorDisposition": "IN_L0_EXACT",
+          "readerAnchor": "여러 **해방신학**의 주장",
+          "reviewAnchorOffset": 1246
+        }
+      ],
+      "predecessorEvidenceUrls": [
+        {
+          "url": "https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_con_cfaith_doc_19840806_theology-liberation_en.html",
+          "verificationLevel": "INHERITED_FROM_V443_PRIOR_RESEARCH_MUST_BE_INDEPENDENTLY_CHECKED",
+          "sourceTextProvided": false
+        }
+      ],
+      "originalEvidenceWorkNeeded": "Catholic doctrinal position vs historical accounts; consider evangelical regional history.",
+      "requiredJudgment": "Confessional positions clearly attributed, no all-Latin-America collapse",
+      "editorialFallbackIllustrativeNotApproved": "1968년 메데인과 1979년 푸에블라의 논의에는 가난과 사회적 책임이 중요한 의제였다. 해방신학의 구체적 입장에 대한 신학적 평가는 전통과 저자에 따라 다르다.",
+      "decisionOptions": [
+        "ACCEPT_AS_WRITTEN_WITH_SOURCE",
+        "REVISE_WITH_QUOTED_EVIDENCE_AND_TEXT",
+        "HOLD_CLAIM_AND_USE_SAFE_FALLBACK",
+        "REJECT_FOR_INCLUSION"
+      ],
+      "submission": {
+        "selectedDecision": null,
+        "verifiedSourceType": null,
+        "sourceLocatorPageOrShelfmark": null,
+        "commentOnConfessionalFairness": null,
+        "correctedExactKoreanSentence": null,
+        "reviewerQualification": null,
+        "reviewDate": null,
+        "signatureOrAttestation": null
+      },
+      "state": "PENDING_EXTERNAL_HUMAN_REVIEW",
+      "receivedResponses": 0,
+      "signoffs": 0,
+      "canShip": false
+    },
+    {
+      "id": "V444-06",
+      "gateId": "G443-06",
+      "title": "6. Eastern Christianity and ecumenism historian",
+      "priority": "P0",
+      "targetVolumes": [
+        "VOL-07"
+      ],
+      "claimIds": [
+        "CL441-04",
+        "CL441-05",
+        "CL441-06"
+      ],
+      "caseQuestion": "오리엔트 정교회와 동방 정교회, 가톨릭과 복음주의의 구별 및 MECC 1974/1990 역사 정확성을 확보했는가?",
+      "reviewExpertise": "Eastern Christianity and ecumenism historian",
+      "currentExactContext": [
+        {
+          "volumeId": "VOL-07",
+          "text": "중동에는 콥트·시리아·아르메니아 전통과 비잔틴 정교회, 여러 가톨릭·개신교 공동체가 이어져 왔다. 동방 정교회와 오리엔트 정교회를 하나의 교파로 합치지 않는다. **1974년 중동교회협의회**는 서로 다른 교회 계열의 협력을 위해 설립되었고, **1990년에 가톨릭 계열이 합류**했다. 협력은 교리와 조직의 차이가 사라졌다는 뜻이 아니며, 전쟁과 이주의 영향도 지역별로 달랐다."
+        }
+      ],
+      "claimStatus": [
+        {
+          "claimId": "CL441-04",
+          "sourceEvidenceStatus": "INSTITUTIONAL_FAMILY_LIST_SUPPORTED",
+          "priorDisposition": "IN_L0_REWORDED_PENDING_REVIEW",
+          "readerAnchor": "콥트·시리아·아르메니아 전통",
+          "reviewAnchorOffset": 1368
+        },
+        {
+          "claimId": "CL441-05",
+          "sourceEvidenceStatus": "ORGANIZATIONAL_HISTORY_SUPPORTED",
+          "priorDisposition": "IN_L0_EXACT",
+          "readerAnchor": "1974년 중동교회협의회",
+          "reviewAnchorOffset": 1455
+        },
+        {
+          "claimId": "CL441-06",
+          "sourceEvidenceStatus": "ORGANIZATIONAL_HISTORY_SUPPORTED",
+          "priorDisposition": "IN_L0_EXACT",
+          "readerAnchor": "1990년에 가톨릭 계열이 합류",
+          "reviewAnchorOffset": 1501
+        }
+      ],
+      "predecessorEvidenceUrls": [
+        {
+          "url": "https://www.mecc.org/mission-and-history",
+          "verificationLevel": "INHERITED_FROM_V443_PRIOR_RESEARCH_MUST_BE_INDEPENDENTLY_CHECKED",
+          "sourceTextProvided": false
+        },
+        {
+          "url": "https://www.mecc.org/churches",
+          "verificationLevel": "INHERITED_FROM_V443_PRIOR_RESEARCH_MUST_BE_INDEPENDENTLY_CHECKED",
+          "sourceTextProvided": false
+        }
+      ],
+      "originalEvidenceWorkNeeded": "MECC original about history and families checked against different church family descriptions.",
+      "requiredJudgment": "A council is not denominational merger or doctrinal identity",
+      "editorialFallbackIllustrativeNotApproved": "중동의 오리엔트 정교회·동방 정교회·가톨릭·복음주의는 서로 다른 전통을 지닌다. 중동교회협의회의 1974년 설립과 1990년 가톨릭 참여는 교리적 통합이 아니다.",
+      "decisionOptions": [
+        "ACCEPT_AS_WRITTEN_WITH_SOURCE",
+        "REVISE_WITH_QUOTED_EVIDENCE_AND_TEXT",
+        "HOLD_CLAIM_AND_USE_SAFE_FALLBACK",
+        "REJECT_FOR_INCLUSION"
+      ],
+      "submission": {
+        "selectedDecision": null,
+        "verifiedSourceType": null,
+        "sourceLocatorPageOrShelfmark": null,
+        "commentOnConfessionalFairness": null,
+        "correctedExactKoreanSentence": null,
+        "reviewerQualification": null,
+        "reviewDate": null,
+        "signatureOrAttestation": null
+      },
+      "state": "PENDING_EXTERNAL_HUMAN_REVIEW",
+      "receivedResponses": 0,
+      "signoffs": 0,
+      "canShip": false
+    },
+    {
+      "id": "V444-07",
+      "gateId": "G443-07",
+      "title": "7. Post-1945 Korean Presbyterian and ecumenical church historian",
+      "priority": "P0",
+      "targetVolumes": [
+        "VOL-07"
+      ],
+      "claimIds": [
+        "CL441-11",
+        "CL441-13"
+      ],
+      "caseQuestion": "1945년 이후 한국 장로교의 분화를 모든 기독교의 분열로 일반화하거나 민중신학을 전체 한국교회의 입장으로 처리하지 않는가?",
+      "reviewExpertise": "Post-1945 Korean Presbyterian and ecumenical church historian",
+      "currentExactContext": [
+        {
+          "volumeId": "VOL-07",
+          "text": "**1919년 3·1운동**에는 일부 개신교 지도자와 신자들이 천도교를 비롯한 다른 종교·사회 세력과 함께 참여했다. 모든 교인이 같은 정치적 선택을 했다는 뜻은 아니다. **1945년 해방** 이후 분단과 **1950~1953년 한국전쟁**은 교회의 생활과 조직을 바꾸었다. 특히 장로교의 교단 분화에는 신학과 조직 운영의 갈등이 얽혔으므로 이를 한국의 모든 교단에 똑같이 적용할 수 없다."
+        },
+        {
+          "volumeId": "VOL-07",
+          "text": "**1960년대 이후 산업화·도시화** 속에서 여러 공동체가 성장했지만 그와 동시에 도시 노동자와 약자의 경험을 묻는 **1970년대 민중신학** 및 일부 교회의 민주화·인권 활동도 등장했다. 다른 교회들은 상이한 입장을 택했다. 성장·교리·사회참여는 같은 지표가 아니다."
+        }
+      ],
+      "claimStatus": [
+        {
+          "claimId": "CL441-11",
+          "sourceEvidenceStatus": "KCI_ABSTRACT_SUPPORTED_CONTEXT",
+          "priorDisposition": "IN_L0_REWORDED_PENDING_REVIEW",
+          "readerAnchor": "장로교의 교단 분화에는 신학과 조직 운영의 갈등",
+          "reviewAnchorOffset": 2060
+        },
+        {
+          "claimId": "CL441-13",
+          "sourceEvidenceStatus": "SCHOLARLY_ABSTRACT_SCREENED_NOT_CONFESSIONALLY_ADJUDICATED",
+          "priorDisposition": "IN_L0_EXACT",
+          "readerAnchor": "1970년대 민중신학",
+          "reviewAnchorOffset": 2191
+        }
+      ],
+      "predecessorEvidenceUrls": [
+        {
+          "url": "https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART002090478",
+          "verificationLevel": "INHERITED_FROM_V443_PRIOR_RESEARCH_MUST_BE_INDEPENDENTLY_CHECKED",
+          "sourceTextProvided": false
+        }
+      ],
+      "originalEvidenceWorkNeeded": "Compare published Korean church history and KCI denominational studies; avoid one-tradition bias.",
+      "requiredJudgment": "Precise scope of churches, eras and theological voices",
+      "editorialFallbackIllustrativeNotApproved": "1945년 이후 한국의 일부 장로교 분화에는 교리·교육·조직의 갈등이 관련됐다. 1970년대 민중신학과 일부 교회의 민주화·인권 활동도 있었으나 한국교회의 일치된 입장을 대표하지 않는다.",
+      "decisionOptions": [
+        "ACCEPT_AS_WRITTEN_WITH_SOURCE",
+        "REVISE_WITH_QUOTED_EVIDENCE_AND_TEXT",
+        "HOLD_CLAIM_AND_USE_SAFE_FALLBACK",
+        "REJECT_FOR_INCLUSION"
+      ],
+      "submission": {
+        "selectedDecision": null,
+        "verifiedSourceType": null,
+        "sourceLocatorPageOrShelfmark": null,
+        "commentOnConfessionalFairness": null,
+        "correctedExactKoreanSentence": null,
+        "reviewerQualification": null,
+        "reviewDate": null,
+        "signatureOrAttestation": null
+      },
+      "state": "PENDING_EXTERNAL_HUMAN_REVIEW",
+      "receivedResponses": 0,
+      "signoffs": 0,
+      "canShip": false
+    },
+    {
+      "id": "V444-08",
+      "gateId": "G443-08",
+      "title": "8. Medieval Waldensian historian",
+      "priority": "P0",
+      "targetVolumes": [
+        "VOL-03"
+      ],
+      "claimIds": [
+        "CL433-11"
+      ],
+      "caseQuestion": "1532년 왈도파 관련 보류 내용을 실제 종교개혁 교단의 직접 조직 계보로 승격하지 않았는가?",
+      "reviewExpertise": "Medieval Waldensian historian",
+      "currentExactContext": [
+        {
+          "volumeId": "VOL-03",
+          "text": "온건한 성찬파와 급진적인 타보르파, 폭력과 지배의 문제를 다른 방식으로 비판한 첼치츠키의 길도 구분해야 한다. 후스파와 후대 형제단의 관계는 단순한 기관 승계라기보다 사상과 삶의 재구성으로 읽어야 한다. 같은 이름의 '개혁' 안에서 서로 반대되는 교회 질서와 공동체 윤리가 나타날 수 있기 때문이다. 왈도파의 1532년 변화를 설명할 때에는 **특정 모임의 당대 실상과 후대에 붙은 조직·교파 명칭을 바로 동일시하는 세부 주장**을 아직 확정하지 않는다. 이 프로젝트에서는 그 부분을 교감 보류로 유지한다."
+        }
+      ],
+      "claimStatus": [
+        {
+          "claimId": "CL433-11",
+          "sourceEvidenceStatus": "HOLD",
+          "priorDisposition": "IN_L0_EXACT",
+          "readerAnchor": "왈도파의 1532년 변화를 설명할 때에는",
+          "reviewAnchorOffset": 1750
+        }
+      ],
+      "predecessorEvidenceUrls": [],
+      "originalEvidenceWorkNeeded": "Original historical terminology and contemporary witness must be distinguished.",
+      "requiredJudgment": "C417-18 remains held until independent source review",
+      "editorialFallbackIllustrativeNotApproved": "왈도파의 청빈·설교 전통과 16세기 개혁과의 관계는 단일한 조직의 중단 없는 계보로 단정하지 않는다. 구체적 1532년의 의미는 관련 당대 사료 확인 뒤 서술한다.",
+      "decisionOptions": [
+        "ACCEPT_AS_WRITTEN_WITH_SOURCE",
+        "REVISE_WITH_QUOTED_EVIDENCE_AND_TEXT",
+        "HOLD_CLAIM_AND_USE_SAFE_FALLBACK",
+        "REJECT_FOR_INCLUSION"
+      ],
+      "submission": {
+        "selectedDecision": null,
+        "verifiedSourceType": null,
+        "sourceLocatorPageOrShelfmark": null,
+        "commentOnConfessionalFairness": null,
+        "correctedExactKoreanSentence": null,
+        "reviewerQualification": null,
+        "reviewDate": null,
+        "signatureOrAttestation": null
+      },
+      "state": "PENDING_EXTERNAL_HUMAN_REVIEW",
+      "receivedResponses": 0,
+      "signoffs": 0,
+      "canShip": false
+    }
+  ],
+  "summary": {
+    "dossiers": 8,
+    "distinctClaimIds": 15,
+    "externalReviewRequestsSent": 0,
+    "actualHistorianResponses": 0,
+    "actualHumanSignoffs": 0,
+    "productionAppEdits": 0
+  },
+  "evidenceIntegrity": "Prior sources and quoted passages are traceable to the authored corpus. Candidate alternative wording is editorial, not expert adjudication. Unverified folios remain unverified.",
+  "privacy": "Do not commit actual reviewers’ contact information, names, credentials or identifiable feedback to public GitHub without express permission.",
+  "release": {
+    "canShip": false,
+    "canMergeMain": false,
+    "canImportAIStudio": false,
+    "canMarkAnyItemApproved": false
+  }
+}
