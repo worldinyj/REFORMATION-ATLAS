@@ -1,0 +1,240 @@
+{
+  "schema": "ATLAS_V462_FOUR_PRIMARY_FOLIO_TARGETS_AND_ACCESS_EVIDENCE",
+  "date": "2026-11-19",
+  "phase": "AUTHORITATIVE_SCAN_ACQUISITION_AND_DIRECT_TEXT_COLLATION",
+  "goal": "Four original folio loci, not bibliographic catalogue descriptions or 1858 edited critical text",
+  "previousRegisters": [
+    "research/data/ATLAS_V459_MANUSCRIPT_PRINT_WITNESS_VARIANT_GRAPH.json",
+    "research/data/ATLAS_V460_CR26_ARTICLE_X_APPARATUS_AND_MARBURG_BASES.json",
+    "research/data/ATLAS_V461_KZ_ARTICLES_7_13_15_EDITORIAL_ALIGNMENT_AND_CR26_TEXT_DIFF.json"
+  ],
+  "assertedCurrentStatus": "ZERO_OUT_OF_FOUR_ORIGINAL_TARGET_LEAVES_VISUALLY_READ",
+  "targets": [
+    {
+      "id": "T462-K-ART15",
+      "priority": 1,
+      "subject": "1529 Marburg Articles article 15 Hessian signed K",
+      "witnessId": "M1529-K",
+      "witnessKind": "SIGNED_MANUSCRIPT",
+      "physicalIdentifier": "HStAM, 3, Nr.245",
+      "article": "15",
+      "expectedSource": "Hessisches Staatsarchiv Marburg",
+      "sourceLinks": [
+        {
+          "kind": "ARCHIVE_CATALOGUE",
+          "url": "https://arcinsys.hessen.de/arcinsys/showArchivalDescriptionDetails?archivalDescriptionId=5447099",
+          "observed": "SHOW_DIGITAL_COPIES_LINK_AND_JPG_REPRESENTATION"
+        },
+        {
+          "kind": "DIGITAL_VIEWER",
+          "url": "https://arcinsys.hessen.de/arcinsys/digitalMediaViewer.action?archivalDescriptionId=5447099",
+          "observed": "VIEWER_URL_LOADED_BUT_SPINNER_IMAGE_LINK_IS_AJAX_LOADER"
+        },
+        {
+          "kind": "EDUCATIONAL_DIGITIZATION",
+          "url": "https://www.hapuls.de/node/1472",
+          "observed": "CLAIMS_COMPLETE_ORIGINAL_DIGITIZATION_BUT_IMAGE_PIXELS_NOT_EXPOSED_TO_READER"
+        }
+      ],
+      "digitalObjectRepresentationId": "14439026",
+      "foliationCatalogues": [
+        {
+          "issuer": "HAPuls",
+          "string": "PA Nr.245, Bl.60–63"
+        },
+        {
+          "issuer": "Staatsarchiv Zürich linking K",
+          "string": "Best.3 Nr.245 fol.60r–64v"
+        }
+      ],
+      "foliationReconciliation": "PENDING; do not infer physical loss or missing leaf from differing range notation",
+      "articleSpecificLeaf": null,
+      "viewerReachability": "VIEWER_URL_OPENED_IMAGE_LEAF_UNAVAILABLE",
+      "lastBlockingCondition": "Image handling is script-driven; text browsing only exposed ajax-loader.gif; no actual digitized article 15 pixels",
+      "requiredEvidence": [
+        "original scan image of exact article15 leaf",
+        "institutional leaf/canvas identifier",
+        "K diplomatic transcription",
+        "independent scholarly transcript if possible"
+      ],
+      "directOriginalLeafViewed": false,
+      "originalImageSha256": null,
+      "diplomaticGermanText": null,
+      "transcriptionReview": null,
+      "canQuoteAsOriginal": false,
+      "claims": [
+        "V457-C02",
+        "V457-C03",
+        "V457-C12"
+      ]
+    },
+    {
+      "id": "T462-Z-ART15",
+      "priority": 2,
+      "subject": "1529 Marburg Articles article 15 Zurich signed Z",
+      "witnessId": "M1529-Z",
+      "witnessKind": "SIGNED_MANUSCRIPT",
+      "physicalIdentifier": "StAZH E I 3.1, Nr.54",
+      "article": "15",
+      "expectedSource": "Staatsarchiv des Kantons Zürich / UB Tübingen 1883 reproduction",
+      "sourceLinks": [
+        {
+          "kind": "ARCHIVE_CATALOGUE",
+          "url": "https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=618165",
+          "observed": "OFFICIAL_Z_ONLY_ADDITIONS_ARTICLES_7_13_15"
+        },
+        {
+          "kind": "FACSIMILE_VOLUME_INDEX",
+          "url": "https://opendigi.ub.uni-tuebingen.de/opendigi/thstkr",
+          "observed": "VOLUME_56_1883_LINK_LISTED"
+        },
+        {
+          "kind": "FACSIMILE_1883_PDF",
+          "url": "https://opendigi.ub.uni-tuebingen.de/opendigi/thstkr_1883/pdf",
+          "observed": "TIMEOUT_ON_DIRECT_PDF_FETCH"
+        }
+      ],
+      "specificPublishedFacsimile": "Johann Martin Usteri, Theologische Studien und Kritiken 56 (1883), pp.409–413",
+      "articleSpecificFacsimilePage": null,
+      "viewerReachability": "VOLUME_LOCATED_TARGET_PAGES_TIMEOUT",
+      "lastBlockingCondition": "1883 PDF endpoint timed out; archive catalogue links only microfilm; no Z article15 pixels accessed",
+      "requiredEvidence": [
+        "1883 p409–413 facsimile of original Z or archive scan",
+        "Z addition exact original German",
+        "K parallel lemma for comparison"
+      ],
+      "directOriginalLeafViewed": false,
+      "originalImageSha256": null,
+      "diplomaticGermanText": null,
+      "transcriptionReview": null,
+      "canQuoteAsOriginal": false,
+      "claims": [
+        "V457-C02",
+        "V457-C03",
+        "V457-C12"
+      ]
+    },
+    {
+      "id": "T462-L1531-ARTX",
+      "priority": 3,
+      "subject": "1531 Augsburg Confession Latin Article X printed book",
+      "witnessId": "P1531-C4734",
+      "witnessKind": "EARLY_PRINTED_LATIN_BOOK",
+      "physicalIdentifier": "VD16 C4734; BSB digitization bsb11411960",
+      "article": "X",
+      "expectedSource": "Bayerische Staatsbibliothek digital scans of original Staatsbibliothek Bamberg copy",
+      "sourceLinks": [
+        {
+          "kind": "ORIGINAL_DIGITIZATION_METADATA",
+          "url": "https://www.digitale-sammlungen.de/en/details/bsb11411960",
+          "observed": "DIGITIZED_VOLUME_288_SCANS_METADATA"
+        },
+        {
+          "kind": "ORIGINAL_DIGITIZATION_VIEWER",
+          "url": "https://www.digitale-sammlungen.de/en/view/bsb11411960",
+          "observed": "SCRIPT_REQUIRED_OR_UNAVAILABLE_IN_TEXT_EXTRACTION"
+        }
+      ],
+      "scanCountInCatalogue": 288,
+      "articleSpecificScanNumber": null,
+      "viewerReachability": "METADATA_ONLY_NO_ARTICLE_LEAF",
+      "lastBlockingCondition": "Viewer needs JavaScript and API manifest retrieval not accessible to current research tools",
+      "requiredEvidence": [
+        "original C4734 exact Latin Article X leaf image",
+        "visible scan/leaf number",
+        "diplomatic Latin transcription",
+        "comparison to CR26 1858 p357 note34"
+      ],
+      "directOriginalLeafViewed": false,
+      "originalImageSha256": null,
+      "diplomaticLatinText": null,
+      "transcriptionReview": null,
+      "canQuoteAsOriginal": false,
+      "claims": [
+        "V457-C08",
+        "V457-C10",
+        "V457-C12"
+      ]
+    },
+    {
+      "id": "T462-L1540-ARTX",
+      "priority": 4,
+      "subject": "1540 Augsburg Confession Variata Latin Article X printed book",
+      "witnessId": "P1540-C4713",
+      "witnessKind": "EARLY_PRINTED_LATIN_BOOK",
+      "physicalIdentifier": "VD16 C4713, Pitts 1540 CONF",
+      "article": "X",
+      "expectedSource": "Pitts Theology Library Emory",
+      "sourceLinks": [
+        {
+          "kind": "PITTS_INSTITUTIONAL_1540_TITLE_PAGE_RECORD",
+          "url": "https://dia.pitts.emory.edu/image_details.cfm?ID=6759",
+          "observed": "TITLE_PAGE_METADATA_NOT_ARTICLE_X"
+        },
+        {
+          "kind": "PITTS_2017_EXHIBITION_CATALOGUE",
+          "url": "https://dia.pitts.emory.edu/exhibits/exhibitcatalogs/Kessler2017ExhibitionCatalogue.pdf",
+          "observed": "VD16_C4713_PRINTED_PAGE_34_NOT_FULL_ARTICLE_TEXT"
+        },
+        {
+          "kind": "GOOGLE_BOOKS_INDEPENDENT_POTENTIAL_1540_COPY",
+          "url": "https://books.google.com/books?id=HmpoAAAAcAAJ",
+          "observed": "1540_RHAU_274_PAGE_BAVARIAN_AUGSBURG_COPY_AND_VIEWER_PAGE_LINKS_BUT_NO_VD16_IDENTITY_CONFIRMED"
+        }
+      ],
+      "articleSpecificScanNumber": null,
+      "copyIdentityGoogleVsPitts": "UNVERIFIED; never equate Google copy to VD16 C4713 before its catalog identity is checked",
+      "viewerReachability": "TITLE_PAGE_ONLY_GOOGLE_ALTERNATE_IDENTITY_UNVERIFIED",
+      "lastBlockingCondition": "No direct printed Article X page viewed from securely identified 1540 VD16 C4713; search hit for another 1540 volume is not identity proof",
+      "requiredEvidence": [
+        "primary-source image of VD16 C4713 Article X exact page",
+        "catalogue-supported independent copy ID",
+        "diplomatic Latin transcription",
+        "comparison with 1531 C4734 and CR26 critical text"
+      ],
+      "directOriginalLeafViewed": false,
+      "originalImageSha256": null,
+      "diplomaticLatinText": null,
+      "transcriptionReview": null,
+      "canQuoteAsOriginal": false,
+      "claims": [
+        "V457-C10",
+        "V457-C11",
+        "V457-C12"
+      ]
+    }
+  ],
+  "knownReferenceOnly": {
+    "editorialGerman": "GHDI edited WA30/III Marburg article15",
+    "editorialLatin": "Corpus Reformatorum 26 (1858) p357 main text and note34 for 1531 vs1540 readings",
+    "manuscriptsComparedByOfficialCatalogue": "StAZH states Z extra clauses arts7,13,15 absent K",
+    "whyNotCompletion": "Edited transcription and institutional catalogue descriptions do not count as direct 16th century source leaf collation."
+  },
+  "contentArchitectureRecommendation": {
+    "sourceEntityKinds": [
+      "EVENT",
+      "MANUSCRIPT_WITNESS",
+      "EARLY_PRINT_EDITION",
+      "PHYSICAL_COPY",
+      "EDITORIAL_TRANSCRIPTION",
+      "SOURCE_PAGE_IMAGE"
+    ],
+    "provenanceRequiredForDirectQuote": [
+      "witnessId",
+      "physicalIdentifier",
+      "sourceImageUrlOrArtifact",
+      "sha256",
+      "leafOrCanvas",
+      "literalTranscription",
+      "reviewStatus"
+    ],
+    "stableClaimRule": "No publication of page-level words as direct witness readings if sha256, leafOrCanvas or transcription review is absent.",
+    "releaseRule": "Human historian, rights, reader comprehension and real-host auth remain independent holds even after acquiring all four leaves."
+  },
+  "nextAction": "Retrieve four exact page images from institution viewers or human-held licensed exports; create checksum-addressed source artifacts, then do aligned K/Z and 1531/1540 transcriptions.",
+  "historianApprovals": 0,
+  "readerPilotParticipants": 0,
+  "canShip": false,
+  "canMergeMain": false,
+  "canImportAIStudio": false
+}
