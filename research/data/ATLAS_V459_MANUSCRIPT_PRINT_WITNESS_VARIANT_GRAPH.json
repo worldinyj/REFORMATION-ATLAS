@@ -169,13 +169,34 @@
         "STAZH",
         "Z_PRINT_W2118"
       ],
-      "scanOnline": "DIGITIZED_E_RARA_LINK",
-      "actualVisualInspection": "LINK_ONLY_ACCESS_RESTRICTED",
-      "textLeafInspected": [],
+      "scanOnline": "FULL_E_RARA_ORIGINAL_1529_PRINT_PDF_RESOLVED",
+      "actualVisualInspection": "DIRECT_WEB_PDF_SCREENSHOT_PRINTED_ARTICLES_7_13_15_AND_SIGNATORIES",
+      "textLeafInspected": [
+        "Art 7, PDF index 3–4",
+        "Art 13, PDF index 5",
+        "Art 15, PDF index 6",
+        "Printed signatory list, PDF index 7"
+      ],
       "article15FullPageRead": false,
       "fullWitnessCollated": false,
       "onlineCatalogueIndexedInERaraSearch": true,
-      "sourceRestriction": "Official archive recognizes W2118 as Vischer C162; e-rara institutional search shows shelfmark; DOI redirects to inaccessible page, no original article page read."
+      "sourceRestriction": "Official archive recognizes W2118 as Vischer C162; e-rara institutional search shows shelfmark; DOI redirects to inaccessible page, no original article page read.",
+      "printedMainArticle7DirectlyRead": true,
+      "printedMainArticle13DirectlyRead": true,
+      "printedMainArticle15DirectlyRead": true,
+      "originalPDFPageIndicesInspected": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "pdfPageUrl": "https://www.e-rara.ch/zuz/download/pdf/291747",
+      "catalogRecordId": "291747",
+      "iiifManifestUrl": "https://www.e-rara.ch/i3f/v20/291747/manifest",
+      "mainReadingEvidence": "research/data/ATLAS_V465_ZURICH_W2118_W2119_DIRECT_ARTICLES_AND_COLOPHON_COMPARISON.json",
+      "printedSignatoryColophonPresent": false,
+      "printedReadLimit": "Corresponding last page lacks printed colophon beneath names, unlike W2119; exact German diplomatic collations incomplete; signed K/Z autographs not read."
     },
     {
       "id": "P1529-W2119",
@@ -211,7 +232,12 @@
       "mainReadingEvidence": "research/data/ATLAS_V463_W2119_1529_PRINT_ART13_ART15_DIRECT_SCAN_EVIDENCE.json",
       "printedReadLimit": "Main 1529 typeface reading confirmed; no character-by-character diplomatic transcription, no 1529 marginal handwriting transcription and no print-to-K/Z collation",
       "printedMainArticle7DirectlyRead": true,
-      "V464Evidence": "research/data/ATLAS_V464_W2119_W2108_EARLY_PRINT_PARALLEL_ARTICLES_7_13_15.json"
+      "V464Evidence": "research/data/ATLAS_V464_W2119_W2108_EARLY_PRINT_PARALLEL_ARTICLES_7_13_15.json",
+      "printedSignatoryPageRead": true,
+      "printedSignatoryPageIndex0": 7,
+      "printedSignatoryColophonPresent": true,
+      "printedSignatoryColophonReading": "Getruckt zů Zürich durch Christoffel Froschouer",
+      "newCrossEditionEvidence": "research/data/ATLAS_V465_ZURICH_W2118_W2119_DIRECT_ARTICLES_AND_COLOPHON_COMPARISON.json"
     },
     {
       "id": "P1529-W2108",
@@ -419,5 +445,12 @@
     "noOriginalSignedWitnessRead": true,
     "noFullCollation": true,
     "source": "research/data/ATLAS_V464_W2119_W2108_EARLY_PRINT_PARALLEL_ARTICLES_7_13_15.json"
+  },
+  "researchUpdate_V465": {
+    "date": "2026-11-19",
+    "status": "W2118 main Articles 7/13/15 and signatory page visually read; Zurich W2118 vs W2119 colophon difference confirmed",
+    "originalKandZLeavesRead": false,
+    "artX1531and1540EarlyPrintLeavesRead": false,
+    "source": "research/data/ATLAS_V465_ZURICH_W2118_W2119_DIRECT_ARTICLES_AND_COLOPHON_COMPARISON.json"
   }
 }
