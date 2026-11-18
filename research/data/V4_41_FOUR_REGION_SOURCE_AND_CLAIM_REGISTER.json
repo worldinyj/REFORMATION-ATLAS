@@ -1,0 +1,383 @@
+{
+  "schema": "ATLAS_V441_REGIONAL_MACRO_CLAIM_EVIDENCE_REGISTER",
+  "version": "V4.41",
+  "date": "2026-11-18",
+  "status": "INTERNAL_RESEARCH_SOURCE_SCREENING_NOT_HUMAN_APPROVED",
+  "candidate": {
+    "path": "research/data/V4_41_FOUR_REGION_MACRO_REVISED_L0_CANDIDATE.json",
+    "gitBlobSha": "58a4d5c6ce4f32d3ef9417928e73a8eba01bda61"
+  },
+  "sources": [
+    {
+      "id": "SRC441-01",
+      "region": "LATAM",
+      "title": "Vatican 1979 account of Medellin 1968 / Puebla 1979 conferences",
+      "url": "https://www.vatican.va/content/john-paul-ii/en/audiences/1979/documents/hf_jp-ii_aud_19790207.html",
+      "type": "CATHOLIC_CONTEMPORARY_INSTITUTIONAL_ACCOUNT",
+      "verification": "DIRECT_HTML_READ",
+      "claimScope": "distinct conferences, institutional setting, local pastoral questions",
+      "limit": "Catholic institutional viewpoint; not entire Latin America Christianity"
+    },
+    {
+      "id": "SRC441-02",
+      "region": "LATAM",
+      "title": "Congregation for the Doctrine of the Faith, Libertatis Nuntius (1984)",
+      "url": "https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_con_cfaith_doc_19840806_theology-liberation_en.html",
+      "type": "DENOMINATIONAL_PRIMARY_DOCTRINAL_POSITION",
+      "verification": "DIRECT_HTML_READ",
+      "claimScope": "Medellin 1968, Puebla 1979 and different liberation theological positions",
+      "limit": "One institution's theological evaluation, not neutral consensus among all historians"
+    },
+    {
+      "id": "SRC441-03",
+      "region": "LATAM",
+      "title": "Vatican 2007 overview of Latin American bishops conferences",
+      "url": "https://www.vatican.va/roman_curia/pontifical_councils/laity/documents/rc_pc_laity_doc_20070724_notiziario-14-2007_en.html",
+      "type": "DENOMINATIONAL_HISTORICAL_OVERVIEW",
+      "verification": "SEARCH_PREVIEW",
+      "claimScope": "Medellin, Puebla, base communities and social action",
+      "limit": "Not a direct examination of all Latin American evangelical movements"
+    },
+    {
+      "id": "SRC441-04",
+      "region": "MIDDLE_EAST",
+      "title": "Middle East Council of Churches – mission and history",
+      "url": "https://www.mecc.org/mission-and-history",
+      "type": "DIRECT_ORGANIZATION_HISTORY",
+      "verification": "DIRECT_HTML_READ",
+      "claimScope": "1974 establishment, three founding families, Catholic family joining 1990",
+      "limit": "Council's self-description not substitute for separate doctrinal family histories"
+    },
+    {
+      "id": "SRC441-05",
+      "region": "MIDDLE_EAST",
+      "title": "Middle East Council of Churches – churches by family",
+      "url": "https://www.mecc.org/churches",
+      "type": "DIRECT_ORGANIZATION_DIRECTORY",
+      "verification": "DIRECT_HTML_READ",
+      "claimScope": "Oriental, Eastern Orthodox, Catholic and Evangelical churches listed separately",
+      "limit": "Present listing not evidence of universal council membership in all periods"
+    },
+    {
+      "id": "SRC441-06",
+      "region": "MIDDLE_EAST",
+      "title": "World Council of Churches – Oriental Orthodox Church family",
+      "url": "https://www.oikoumene.org/church-families/orthodox-churches-oriental",
+      "type": "ECUMENICAL_INSTITUTIONAL_EXPLANATION",
+      "verification": "SEARCH_PREVIEW",
+      "claimScope": "historical/dogmatic differences and global diaspora",
+      "limit": "Not definitive neutral doctrinal judgment or quantitative country-level migration"
+    },
+    {
+      "id": "SRC441-07",
+      "region": "MIDDLE_EAST",
+      "title": "Pew 2025 MENA 2010–2020 regional religious change",
+      "url": "https://www.pewresearch.org/religion/2025/06/09/religion-in-the-middle-east-and-north-africa/",
+      "type": "DEMOGRAPHIC_ANALYSIS",
+      "verification": "SEARCH_PREVIEW",
+      "claimScope": "regional heterogeneity, Lebanon example, disaffiliation or migration context",
+      "limit": "2010–2020 data; cannot infer all communities declining or current live 2026 counts"
+    },
+    {
+      "id": "SRC441-08",
+      "region": "ASIA",
+      "title": "Oxford Academic – Dissenting Traditions and Indigenous Christianity: The Case in China",
+      "url": "https://academic.oup.com/book/34934/chapter-abstract/298540920",
+      "type": "ACADEMIC_CHAPTER_ABSTRACT",
+      "verification": "PUBLISHER_SEARCH_PREVIEW_ONLY",
+      "claimScope": "20th century Chinese Christian indigenous and independent church variety",
+      "limit": "Full chapter not fetched; no precise organization genealogy verified"
+    },
+    {
+      "id": "SRC441-09",
+      "region": "ASIA",
+      "title": "Religions 2021 – Dalit Theology and Indian Christian History in Dialogue",
+      "url": "https://www.mdpi.com/2077-1444/12/3/180",
+      "type": "PEER_REVIEWED_OPEN_ACCESS_ARTICLE",
+      "verification": "DIRECT_HTML_READ",
+      "claimScope": "Dalit Christian agency, caste discrimination within Indian church history, diversity of traditions",
+      "limit": "Author's situated interpretation; not every Dalit community or Indian denomination represented"
+    },
+    {
+      "id": "SRC441-10",
+      "region": "KOREA",
+      "title": "Kim and Kim, A History of Korean Christianity, Chapter 5 Liberation, Service and Divisions 1945–1961",
+      "url": "https://www.cambridge.org/core/books/abs/history-of-korean-christianity/liberation-service-and-divisions-19451961/13555BD20D0981D2173A1EE78161B93E",
+      "type": "ACADEMIC_BOOK_CHAPTER_ABSTRACT",
+      "verification": "DIRECT_PUBLISHER_ABSTRACT_READ",
+      "claimScope": "1945 liberation, post-1945 service, division and war-era complexity",
+      "limit": "Full paid chapter not collated"
+    },
+    {
+      "id": "SRC441-11",
+      "region": "KOREA",
+      "title": "이덕주 (2016), 신학이 정치를 만날 때 — 해방 후 신학갈등과 교회분열",
+      "url": "https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART002090478",
+      "type": "KCI_RESEARCH_ARTICLE_ABSTRACT",
+      "verification": "DIRECT_HTML_READ",
+      "claimScope": "Korean Presbyterian denominational division and theological conflicts, 1945–1959",
+      "limit": "Presbyterian case not representative of all Korean Catholics and Protestants"
+    },
+    {
+      "id": "SRC441-12",
+      "region": "KOREA",
+      "title": "Chung (2014), A Reflection on the Growth and Decline of the Korean Protestant Church",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1111/irom.12066",
+      "type": "ACADEMIC_REFLECTIVE_ANALYSIS",
+      "verification": "DIRECT_HTML_READ",
+      "claimScope": "Postwar growth and urbanization; NCCK, urban mission and social engagement",
+      "limit": "Periodization is author's framework and mostly Protestant; not full Korean church quantitative time series"
+    },
+    {
+      "id": "SRC441-13",
+      "region": "KOREA",
+      "title": "Minjung in the Mission House (2022), Journal of World Christianity",
+      "url": "https://doi.org/10.5325/JWORLCHRI.12.1.0047",
+      "type": "ACADEMIC_ARTICLE_ABSTRACT",
+      "verification": "SEARCH_PREVIEW_ONLY",
+      "claimScope": "minjung theology, democracy movement and cross-border theological influence",
+      "limit": "Journal article paywalled / redirected; abstract only"
+    },
+    {
+      "id": "SRC441-14",
+      "region": "KOREA",
+      "title": "Oxford Academic (2026), Minjung Theology overview",
+      "url": "https://academic.oup.com/edited-volume/63063/chapter-abstract/566819313",
+      "type": "ACADEMIC_CHAPTER_ABSTRACT",
+      "verification": "SEARCH_PREVIEW_ONLY",
+      "claimScope": "contemporary scholarly survey of historical democracy/liberation connections",
+      "limit": "No full text; scholarly interpretation not a universal church consensus"
+    }
+  ],
+  "claims": [
+    {
+      "id": "CL441-01",
+      "region": "LATAM",
+      "volumeId": "VOL-07",
+      "exactAnchor": "1968년 콜롬비아 메데인",
+      "offset": 3004,
+      "sourceIds": [
+        "SRC441-01",
+        "SRC441-02"
+      ],
+      "status": "INSTITUTIONAL_HISTORICAL_SOURCE_SUPPORTED",
+      "humanSignoff": false,
+      "appPromotion": false
+    },
+    {
+      "id": "CL441-02",
+      "region": "LATAM",
+      "volumeId": "VOL-07",
+      "exactAnchor": "1979년 멕시코 푸에블라",
+      "offset": 3024,
+      "sourceIds": [
+        "SRC441-01",
+        "SRC441-02"
+      ],
+      "status": "INSTITUTIONAL_HISTORICAL_SOURCE_SUPPORTED",
+      "humanSignoff": false,
+      "appPromotion": false
+    },
+    {
+      "id": "CL441-03",
+      "region": "LATAM",
+      "volumeId": "VOL-07",
+      "exactAnchor": "여러 **해방신학**의 주장",
+      "offset": 3150,
+      "sourceIds": [
+        "SRC441-02",
+        "SRC441-03"
+      ],
+      "status": "CONFESSIONAL_INTERPRETATION_REVIEW_REQUIRED",
+      "humanSignoff": false,
+      "appPromotion": false
+    },
+    {
+      "id": "CL441-04",
+      "region": "MIDDLE_EAST",
+      "volumeId": "VOL-07",
+      "exactAnchor": "콥트 정교회",
+      "offset": 3457,
+      "sourceIds": [
+        "SRC441-05",
+        "SRC441-06"
+      ],
+      "status": "INSTITUTIONAL_FAMILY_LIST_SUPPORTED",
+      "humanSignoff": false,
+      "appPromotion": false
+    },
+    {
+      "id": "CL441-05",
+      "region": "MIDDLE_EAST",
+      "volumeId": "VOL-07",
+      "exactAnchor": "1974년 중동교회협의회",
+      "offset": 3635,
+      "sourceIds": [
+        "SRC441-04"
+      ],
+      "status": "ORGANIZATIONAL_HISTORY_SUPPORTED",
+      "humanSignoff": false,
+      "appPromotion": false
+    },
+    {
+      "id": "CL441-06",
+      "region": "MIDDLE_EAST",
+      "volumeId": "VOL-07",
+      "exactAnchor": "1990년에 가톨릭 계열이 합류",
+      "offset": 3685,
+      "sourceIds": [
+        "SRC441-04"
+      ],
+      "status": "ORGANIZATIONAL_HISTORY_SUPPORTED",
+      "humanSignoff": false,
+      "appPromotion": false
+    },
+    {
+      "id": "CL441-07",
+      "region": "MIDDLE_EAST",
+      "volumeId": "VOL-07",
+      "exactAnchor": "전쟁·이주와 경제적 압박",
+      "offset": 3759,
+      "sourceIds": [
+        "SRC441-06",
+        "SRC441-07"
+      ],
+      "status": "REGIONAL_CONTEXT_REVIEW_REQUIRED",
+      "humanSignoff": false,
+      "appPromotion": false
+    },
+    {
+      "id": "CL441-08",
+      "region": "ASIA",
+      "volumeId": "VOL-07",
+      "exactAnchor": "20세기 중국의 여러 토착 기독교 운동",
+      "offset": 3936,
+      "sourceIds": [
+        "SRC441-08"
+      ],
+      "status": "ACADEMIC_ABSTRACT_SCREENED",
+      "humanSignoff": false,
+      "appPromotion": false
+    },
+    {
+      "id": "CL441-09",
+      "region": "ASIA",
+      "volumeId": "VOL-07",
+      "exactAnchor": "인도의 달리트 그리스도인과 달리트 신학",
+      "offset": 4088,
+      "sourceIds": [
+        "SRC441-09"
+      ],
+      "status": "OPEN_ACCESS_SCHOLARLY_SUPPORTED_CONTEXT",
+      "humanSignoff": false,
+      "appPromotion": false
+    },
+    {
+      "id": "CL441-10",
+      "region": "KOREA",
+      "volumeId": "VOL-07",
+      "exactAnchor": "1945년 해방",
+      "offset": 4695,
+      "sourceIds": [
+        "SRC441-10",
+        "SRC441-11"
+      ],
+      "status": "HISTORICAL_OVERVIEW_SUPPORTED",
+      "humanSignoff": false,
+      "appPromotion": false
+    },
+    {
+      "id": "CL441-11",
+      "region": "KOREA",
+      "volumeId": "VOL-07",
+      "exactAnchor": "장로교회 안에서는 신학적 입장",
+      "offset": 4825,
+      "sourceIds": [
+        "SRC441-11"
+      ],
+      "status": "KCI_ABSTRACT_SUPPORTED_CONTEXT",
+      "humanSignoff": false,
+      "appPromotion": false
+    },
+    {
+      "id": "CL441-12",
+      "region": "KOREA",
+      "volumeId": "VOL-07",
+      "exactAnchor": "1960년대 이후 산업화·도시화",
+      "offset": 4957,
+      "sourceIds": [
+        "SRC441-12"
+      ],
+      "status": "ACADEMIC_PERIODIZATION_SCREENED",
+      "humanSignoff": false,
+      "appPromotion": false
+    },
+    {
+      "id": "CL441-13",
+      "region": "KOREA",
+      "volumeId": "VOL-07",
+      "exactAnchor": "1970년대 민중신학",
+      "offset": 5058,
+      "sourceIds": [
+        "SRC441-13",
+        "SRC441-14"
+      ],
+      "status": "SCHOLARLY_ABSTRACT_SCREENED_NOT_CONFESSIONALLY_ADJUDICATED",
+      "humanSignoff": false,
+      "appPromotion": false
+    },
+    {
+      "id": "CL441-14",
+      "region": "THEMATIC",
+      "volumeId": "VOL-08",
+      "exactAnchor": "라틴아메리카 메데인·푸에블라의 사회적 책임 논의",
+      "offset": 2332,
+      "sourceIds": [
+        "SRC441-01",
+        "SRC441-02",
+        "SRC441-04",
+        "SRC441-09",
+        "SRC441-11"
+      ],
+      "status": "STRUCTURAL_COMPARISON_HUMAN_REVIEW_REQUIRED",
+      "humanSignoff": false,
+      "appPromotion": false
+    }
+  ],
+  "counts": {
+    "regionsWithClaims": 4,
+    "sourceRecords": 14,
+    "newClaimRefs": 14,
+    "modernVolumeClaimRefs": 13,
+    "thematicComparativeRefs": 1,
+    "interpreterHumanSignoffs": 0,
+    "readerPilotParticipants": 0
+  },
+  "gatePolicy": {
+    "sourceTierOrder": [
+      "original contemporary publication or institutional record",
+      "dated object-level archive inventory",
+      "peer-reviewed full paper",
+      "publisher scholarly abstract",
+      "institutional retrospective narrative",
+      "unverified search snippet"
+    ],
+    "caution": "A scholarly abstract may justify limited L0 framing, not direct textual primary-source claims, confessional acceptance, or publication rights.",
+    "LatinAmericanConfessionalCompetingPerspectives": true,
+    "EasternVsOrientalOrthodoxNotConflated": true,
+    "IndianDalitHistoriographyDistinguishedFromUniversalIndianExperience": true,
+    "KoreanConservativeAndEcumenicalTheologicalPositionsNotEquated": true,
+    "originalV440M440_07Status": "PARTIALLY_SOURCE_SCREENED_BUT_NOT_EXPERT_SIGNED"
+  },
+  "holds": {
+    "historicalIds": [
+      "C417-11",
+      "C417-12",
+      "C417-18"
+    ],
+    "tamil1719Unreconciled": true,
+    "canShip": false,
+    "canMergeMain": false,
+    "canImportAIStudio": false
+  }
+}
