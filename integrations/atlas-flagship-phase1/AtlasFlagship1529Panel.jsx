@@ -1,5 +1,6 @@
 import React, {useId, useMemo, useRef, useState} from "react";
 import "./atlas-flagship.css";
+import {parseResearchMarkdown} from "./research-markdown.mjs";
 
 /**
  * First research-only vertical slice for the existing REFORMATION ATLAS app.
@@ -12,20 +13,17 @@ const KIND = {
   INSTITUTIONAL_RARE_BOOKS_BIBLIOGRAPHY:"희귀본 소장목록",
   TWO_RARE_BOOKS_CATALOGUE_DESCRIPTIONS:"희귀본 판본 구분"
 };
-function StrongSegments({value}) {
-  return String(value).split(/(\*\*[^*]+\*\*)/g).filter(Boolean).map((segment,index)=>
-    segment.startsWith("**")&&segment.endsWith("**")
-    ? <strong key={index}>{segment.slice(2,-2)}</strong>
-    : <React.Fragment key={index}>{segment}</React.Fragment>);
+function InlineTokens({tokens}) {
+  return tokens.map((token,index)=>token.kind==="strong"
+    ? <strong key={index}>{token.text}</strong>
+    : token.kind==="em" ? <em key={index}>{token.text}</em>
+    : <React.Fragment key={index}>{token.text}</React.Fragment>);
 }
 function SafeResearchMarkdown({source}) {
   return <div className="atlas-fp-prose">
-    {String(source??"").trim().split(/\n\s*\n/g).filter(Boolean).map((part,i)=>{
-      const txt=part.trim();
-      const heading=txt.match(/^#{1,4} +(.+)$/);
-      if(heading)return <h3 key={i}><StrongSegments value={heading[1]}/></h3>;
-      return <p key={i}><StrongSegments value={txt.replace(/\n/g," ")}/></p>;
-    })}
+    {parseResearchMarkdown(source).map((block,index)=>block.kind==="rule"
+      ? <hr key={index}/>
+      : React.createElement(block.tag,{key:index},<InlineTokens tokens={block.segments}/>))}
   </div>;
 }
 const safeExternal=url=>typeof url==="string"&&/^https:\/\/[^\s]+$/.test(url);
