@@ -1,0 +1,259 @@
+{
+  "schema": "ATLAS_V465_ZURICH_1529_W2118_W2119_DIRECT_PRINT_COMPARISON",
+  "version": "4.65",
+  "researchedOn": "2026-11-19",
+  "project": "REFORMATION_ATLAS",
+  "researchStage": "1529 early print original-page inspection, not manuscript transcription",
+  "breakthrough": "Recovered inaccessible W2118 directly through e-rara catalogue record ID 291747; viewed printed Articles 7, 13 and 15, and compared signatory/colophon page to W2119.",
+  "sources": {
+    "ZURICH_ARCHIVE": {
+      "url": "https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=618165",
+      "type": "OFFICIAL_ARCHIVE_CATALOGUE",
+      "description": "Distinguishes autograph Z/K and prints VD16 W2118/W2119"
+    },
+    "W2118_CATALOG": {
+      "url": "https://www.e-rara.ch/zuz/content/titleinfo/291747",
+      "type": "HOLDING_INSTITUTION_BIBLIOGRAPHIC_RECORD",
+      "description": "Zentralbibliothek Zürich, Zwingli MvK A 81,8, VD16 W2118, Vischer C162; public domain mark"
+    },
+    "W2118_SCAN": {
+      "url": "https://www.e-rara.ch/zuz/download/pdf/291747",
+      "type": "DIGITIZED_ORIGINAL_1529_PRINT",
+      "description": "Nine-page PDF of physical 1529 quarto"
+    },
+    "W2118_IIIF": {
+      "url": "https://www.e-rara.ch/i3f/v20/291747/manifest",
+      "type": "OFFICIAL_MANIFEST_LINK",
+      "description": "IIIF manifest advertised by original institution; resource images not downloaded"
+    },
+    "W2119_CATALOG": {
+      "url": "https://www.e-rara.ch/zuz/content/titleinfo/170052",
+      "type": "HOLDING_INSTITUTION_BIBLIOGRAPHIC_RECORD",
+      "description": "Zentralbibliothek Zürich, 5.174,5, VD16 W2119, Vischer C161"
+    },
+    "W2119_SCAN": {
+      "url": "https://www.e-rara.ch/zuz/download/pdf/170052",
+      "type": "DIGITIZED_ORIGINAL_1529_PRINT",
+      "description": "17-page PDF, same topic; actual period print with extensive handwritten Latin annotations"
+    },
+    "BASEL_W2108": {
+      "url": "https://www.e-rara.ch/bau_1/download/pdf/1643132",
+      "type": "DIGITIZED_ORIGINAL_1529_PRINT",
+      "description": "Basel printed witness; independent cross-city Article 7/13/15 support from V4.64"
+    }
+  },
+  "editionWitnesses": [
+    {
+      "id": "P1529-W2118",
+      "catalogueRecordId": "291747",
+      "vd16": "W2118",
+      "vischer": "C162",
+      "year": 1529,
+      "city": "Zürich",
+      "printer": "Christoph Froschauer attribution in institution record (no explicit colophon on inspected p7)",
+      "shelfmark": "Zwingli MvK A 81,8",
+      "printedQuarto": "[4] Bl.; 21cm (4°)",
+      "pdfPagesTotal": 9,
+      "visualPagesZeroIndexed": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "imageBinaryDownloaded": false,
+      "imageChecksumSha256": null,
+      "article15Page6Read": true,
+      "article13Page5Read": true,
+      "article7Pages3and4Read": true,
+      "lastPage7PrintedNames": true,
+      "lastPage7PrintedPrinterColophon": false,
+      "lastPage7PrintedColophonLimit": "Absence on this photographed page only; don't infer full publication sequence",
+      "fullDiplomaticTranscription": false
+    },
+    {
+      "id": "P1529-W2119",
+      "catalogueRecordId": "170052",
+      "vd16": "W2119",
+      "vischer": "C161",
+      "year": 1529,
+      "city": "Zürich",
+      "printer": "Christoffel Froschouer named in printed colophon",
+      "shelfmark": "5.174,5",
+      "printedQuarto": "[4] Bl.; source PDF has surrounding images/pages",
+      "pdfPagesTotal": 17,
+      "visualPagesZeroIndexed": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "imageBinaryDownloaded": false,
+      "imageChecksumSha256": null,
+      "article15Page6Read": true,
+      "article13Page5Read": true,
+      "article7Page4Read": true,
+      "lastPage7PrintedNames": true,
+      "lastPage7PrintedPrinterColophon": true,
+      "printedColophonSnippet": "Getruckt zů Zürich durch Christoffel Froschouer",
+      "manuscriptMarginaliaPresent": true,
+      "marginaliaTranscribed": false,
+      "fullDiplomaticTranscription": false
+    },
+    {
+      "id": "P1529-W2108",
+      "vd16": "W2108",
+      "year": 1529,
+      "city": "Basel",
+      "printer": "Thoman Wolff",
+      "visualPagesZeroIndexed": [
+        8,
+        10,
+        11
+      ],
+      "sourceData": "research/data/ATLAS_V464_W2119_W2108_EARLY_PRINT_PARALLEL_ARTICLES_7_13_15.json",
+      "signaturesComparedHere": false,
+      "fullDiplomaticTranscription": false
+    }
+  ],
+  "observedLoci": [
+    {
+      "id": "A7",
+      "article": 7,
+      "subject": "Monastic life and vows cannot confer righteousness",
+      "w2118": {
+        "pdfPageZeroIndexed": [
+          3,
+          4
+        ],
+        "visualStatus": "PRINTED_ARTICLE_END_DIRECTLY_VIEWED",
+        "shortAnchor": "Darumb alle Clöster leben vnnd gelübde"
+      },
+      "w2119": {
+        "pdfPageZeroIndexed": [
+          4
+        ],
+        "visualStatus": "ALREADY_VIEWED_V464"
+      },
+      "agreement": "SAME_THEOLOGICAL_PROPOSITION",
+      "literalEquivalence": "NOT_ESTABLISHED_CHARACTER_BY_CHARACTER"
+    },
+    {
+      "id": "A13",
+      "article": 13,
+      "subject": "Teaching which forbids priestly marriage is condemned",
+      "w2118": {
+        "pdfPageZeroIndexed": [
+          5
+        ],
+        "visualStatus": "PRINTED_ARTICLE_END_DIRECTLY_VIEWED",
+        "shortAnchor": "die leere so pfaffen Ee verbüet"
+      },
+      "w2119": {
+        "pdfPageZeroIndexed": [
+          5
+        ],
+        "visualStatus": "ALREADY_VIEWED_V464"
+      },
+      "agreement": "SAME_THEOLOGICAL_PROPOSITION",
+      "literalEquivalence": "NOT_ESTABLISHED_CHARACTER_BY_CHARACTER"
+    },
+    {
+      "id": "A15-MASS",
+      "article": 15,
+      "subject": "Mass is not work obtaining another's grace for living or dead",
+      "w2118": {
+        "pdfPageZeroIndexed": [
+          6
+        ],
+        "visualStatus": "PRINTED_ARTICLE_DIRECTLY_VIEWED",
+        "shortAnchor": "die Messe nit ein werck ist"
+      },
+      "w2119": {
+        "pdfPageZeroIndexed": [
+          6
+        ],
+        "visualStatus": "PRINTED_ARTICLE_DIRECTLY_VIEWED",
+        "shortAnchor": "die Mässe nit ein werck ist"
+      },
+      "agreement": "SAME_THEOLOGICAL_PROPOSITION",
+      "literalEquivalence": "NOT_ESTABLISHED_CHARACTER_BY_CHARACTER"
+    },
+    {
+      "id": "A15-BODILY",
+      "article": 15,
+      "subject": "Communion shared declarations and unresolved bodily presence",
+      "w2118": {
+        "pdfPageZeroIndexed": [
+          6
+        ],
+        "visualStatus": "PRINTED_ARTICLE_DIRECTLY_VIEWED",
+        "shortAnchor": "lyplich im brot vnnd wyn"
+      },
+      "w2119": {
+        "pdfPageZeroIndexed": [
+          6
+        ],
+        "visualStatus": "PRINTED_ARTICLE_DIRECTLY_VIEWED",
+        "shortAnchor": "lyplich im brot vnnd wyn"
+      },
+      "agreement": "SAME_THEOLOGICAL_PROPOSITION",
+      "literalEquivalence": "NOT_ESTABLISHED_CHARACTER_BY_CHARACTER"
+    },
+    {
+      "id": "COLOPHON",
+      "article": "PRINT_SIGNATURES",
+      "subject": "Printed names followed by a printer statement in W2119 only",
+      "w2118": {
+        "pdfPageZeroIndexed": [
+          7
+        ],
+        "visualStatus": "SIGNATORY_PAGE_DIRECTLY_VIEWED",
+        "printsPrinterNameBeneathSignatories": false
+      },
+      "w2119": {
+        "pdfPageZeroIndexed": [
+          7
+        ],
+        "visualStatus": "SIGNATORY_PAGE_DIRECTLY_VIEWED",
+        "printsPrinterNameBeneathSignatories": true
+      },
+      "agreement": "PRINTED_IMPRINT_DIFFERENCE",
+      "literalEquivalence": "COLATION_OF_FULL_SETTINGS_REQUIRED"
+    }
+  ],
+  "conclusions": [
+    "Both separately catalogued 1529 Zürich prints W2118 and W2119 visibly contain the key shared Eucharistic statements, the Mass-as-not-meritorious-work clause, and nonagreement concerning bodily presence in Article 15.",
+    "The three additions described by Zürich archivists at Arts 7, 13, 15 are present as propositions in both these prints (without proving original Z autograph identity).",
+    "W2119 photographed signatory page includes the Zürich / Christoph Froschauer printer colophon; W2118 corresponding page lists signatories but does not include that printer statement beneath them.",
+    "A difference in printed colophon is a bibliographical difference, NOT in itself evidence of a separately typeset body, priority of issue, direct copying, or which manuscript underlies each edition.",
+    "W2119 physical copy has extensive handwritten Latin annotations; these are later/owner marginal notes of undetermined author/date and not a variant in 1529 printed text.",
+    "W2118 institutional PDF now accessible via stable catalog ID 291747, resolving V4.64 access limitation. Original 1529 print is seen; original signed Z and K manuscript pages remain unread."
+  ],
+  "originalWitnessScope": {
+    "signedZArticle15PageRead": false,
+    "signedKArticle15PageRead": false,
+    "printedW2118Article15PageRead": true,
+    "printedW2119Article15PageRead": true,
+    "printedW2108Article15PageRead": true,
+    "fullPrintPagesOCRUsed": false,
+    "earlyPrintDiplomaticTextualCollationComplete": false,
+    "original1531LatinC4734ArticleXPageRead": false,
+    "original1540LatinC4713ArticleXPageRead": false,
+    "preservedHistoricalSourceImagesUploaded": false,
+    "sourceImageHashesCreated": false
+  },
+  "nextHighValueAction": [
+    "Check Art15 line-level typography and short phrases across W2118/W2119 to distinguish separate setting vs colophon state, using saved PDF binaries/facsimiles.",
+    "Read actual Zurich autograph Z Art15 and Hessian autograph K Art15; establish printed-to-signed stemma from shared omissions/additions.",
+    "Continue 1531 C4734 and 1540 C4713 actual Article X Latin page inspection.",
+    "Submit qualified historian review; do not infer confessional consensus from agreement on printed excerpts."
+  ],
+  "release": {
+    "canShip": false,
+    "canMergeMain": false,
+    "canImportAIStudio": false
+  },
+  "expertApprovals": 0,
+  "actualReaderPilotParticipants": 0
+}
