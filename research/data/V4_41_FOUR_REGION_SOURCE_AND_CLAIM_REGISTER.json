@@ -147,6 +147,16 @@
       "verification": "SEARCH_PREVIEW_ONLY",
       "claimScope": "contemporary scholarly survey of historical democracy/liberation connections",
       "limit": "No full text; scholarly interpretation not a universal church consensus"
+    },
+    {
+      "id": "SRC441-15",
+      "region": "LATAM",
+      "title": "Pew Research Center (2014), Religion in Latin America — religious affiliation and Protestant/Pentecostal diversity",
+      "url": "https://www.pewresearch.org/religion/2014/11/13/religion-in-latin-america/",
+      "type": "MULTICOUNTRY_SURVEY_REPORT",
+      "verification": "DIRECT_WEB_SEARCH_INDEX_AND_REPORT_SUMMARY",
+      "claimScope": "Catholic, Protestant and unaffiliated groups and Pentecostal variants in 18 countries and Puerto Rico at 2014 time point",
+      "limit": "Not every Latin American country or present-day population; distinguish self-identification and theological classification"
     }
   ],
   "claims": [
@@ -342,13 +352,26 @@
       "status": "STRUCTURAL_COMPARISON_HUMAN_REVIEW_REQUIRED",
       "humanSignoff": false,
       "appPromotion": false
+    },
+    {
+      "id": "CL441-15",
+      "region": "LATAM",
+      "volumeId": "VOL-07",
+      "exactAnchor": "복음주의·오순절 계열",
+      "offset": 3311,
+      "sourceIds": [
+        "SRC441-15"
+      ],
+      "status": "SURVEY_SUPPORTED_HISTORICAL_CONTEXT",
+      "humanSignoff": false,
+      "appPromotion": false
     }
   ],
   "counts": {
     "regionsWithClaims": 4,
-    "sourceRecords": 14,
-    "newClaimRefs": 14,
-    "modernVolumeClaimRefs": 13,
+    "sourceRecords": 15,
+    "newClaimRefs": 15,
+    "modernVolumeClaimRefs": 14,
     "thematicComparativeRefs": 1,
     "interpreterHumanSignoffs": 0,
     "readerPilotParticipants": 0
