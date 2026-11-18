@@ -1,0 +1,87 @@
+{
+  "schema": "ATLAS_V451_OFFLINE_L0_L1_READER_PROTOTYPE_STATIC_INTEGRITY_AUDIT",
+  "version": "V4.51",
+  "date": "2026-11-18",
+  "status": "PASS_STATIC_CONTENT_AND_SCRIPT_SYNTAX_NOT_LIVE_BROWSER_OR_HUMAN_TEST",
+  "sourceFiles": [
+    {
+      "path": "research/prototypes/V451_L0_L1_OFFLINE_READER_PILOT.html",
+      "sha": "2b439819ba087d2c23bd808a9f78120312dfda42"
+    },
+    {
+      "path": "research/data/V4_51_EIGHT_VOLUME_NAVIGATION_AND_READER_PILOT_TASKS.json",
+      "sha": "a66e4bed47cdecc8b8096ae495c107c98e931c84"
+    },
+    {
+      "path": "research/V451_L0_L1_READER_PILOT_EXECUTION_GUIDE_KO.md",
+      "sha": "d600af77d877380018db2c7dd6bfcafaf0bae26f"
+    },
+    {
+      "path": "research/data/V4_47_TWO_SOURCE_GROUNDED_L0_HISTORY_CORRECTIONS.json",
+      "sha": "9aebf094697d500930f58d894df16affc34a343c"
+    },
+    {
+      "path": "research/data/V4_50_L1_24_CHAPTER_INTEGRATED_REVISED_MASTER.json",
+      "sha": "79a362734aa963eb41ad0424515e8d21074349c5"
+    },
+    {
+      "path": "research/data/V4_42_EIGHT_VOLUME_EXPERT_READER_REVIEW_PACKET.json",
+      "sha": "02c5a0877a1dd88c7d7f18a06da2417d315379e2"
+    },
+    {
+      "path": "research/data/V4_50_CORE_HISTORY_L1_FINAL_INTEGRITY_AUDIT.json",
+      "sha": "cb76faf04ddd775ddb68482a87459854dd558225"
+    },
+    {
+      "path": "handoff/V429_AI_STUDIO_PRIVATE_L0_CONTENT_IMPORT.json",
+      "sha": "64c27c0dfe05394acbb049807e4c4384d58908b9"
+    }
+  ],
+  "measurements": {
+    "l0VolumeCount": 8,
+    "l1ChapterCount": 24,
+    "originalReaderQuestions": 16,
+    "prototypeChapterSourceLinks": 74,
+    "distinctChapterSourceUrls": 53,
+    "actualPilotTaskRoutes": 8,
+    "actualParticipantCount": 0,
+    "actualUserResponseCount": 0,
+    "actualBrowserInteractiveTests": 0,
+    "actualHumanHistorianSignoffs": 0,
+    "appFilesModified": 0,
+    "htmlCharacters": 69327,
+    "frozenAppVolumes": 8,
+    "frozenAppThemes": 6,
+    "frozenAppGraphLinks": 42,
+    "frozenIntroChapters": 6
+  },
+  "checks": [
+    "Full 8 L0 bodyMarkdown texts exactly match V4.47 research source",
+    "All 24 L1 chapter bodies and unique IDs exactly match V4.50 source",
+    "All 16 comprehension question prompt strings exactly match V4.42 reader packet",
+    "All 8 planned navigation tasks target chapters present in their respective volumes",
+    "53 distinct source strings occur 74 times across 24 L1 chapters",
+    "Standalone HTML has no remote script/style library and no network submission, persistent browser storage or analytics",
+    "Inline JavaScript syntax compiled successfully under V8; browser DOM behavior not empirically tested",
+    "Feedback export is direct in-browser JSON download, not a sent or collected test response",
+    "V4.29 operational app exact blob hash retained and 8/6/42/6 architecture verified",
+    "No public approval, source hold lift, historic expert signoff or app integration occurred"
+  ],
+  "knownLimitations": [
+    "HTML downloaded from GitHub must be opened as local .html file; GitHub code viewer does not run embedded prototype",
+    "Browser/mobile accessibility, cross-browser interaction, generated feedback file correctness have not been hands-on tested",
+    "Source URLs may require web access and may not all resolve; this is not a full external citation audit",
+    "Typing any identifying information into feedback can make export non-anonymous; reader and researcher must check before sharing",
+    "Human participant consent, actual testing and external historian verification are still required"
+  ],
+  "historicalHolds": [
+    "C417-11",
+    "C417-12",
+    "C417-18",
+    "TAMIL-1719"
+  ],
+  "canShip": false,
+  "canMergeMain": false,
+  "canImportAIStudio": false,
+  "errors": []
+}
