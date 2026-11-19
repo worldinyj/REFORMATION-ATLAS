@@ -1,0 +1,307 @@
+{
+  "schema": "ATLAS_V467_SIGNED_MANUSCRIPT_KZ_DIRECT_SOURCE_ACQUISITION_AND_REVIEW_GATE",
+  "date": "2026-11-19",
+  "status": "ARCHIVAL_ACQUISITION_PREPARATION_ONLY",
+  "targetWitnesses": [
+    {
+      "id": "K",
+      "witnessId": "M1529-K",
+      "type": "SIGNED_MANUSCRIPT",
+      "archive": "Hessisches Staatsarchiv Marburg",
+      "sourceId": "HSTAM_CATALOGUE",
+      "shelfmark": "HStAM Best. 3 Nr. 245",
+      "bibliographicFoliationAlternates": [
+        "Bl.60–63 per HAPuls",
+        "fol.60r–64v in Zurich archive cross-reference"
+      ],
+      "folioDifferenceResolved": false,
+      "contact": {
+        "address": "marburg@hla.hessen.de",
+        "verifiedBySource": "HSTAM_CONTACT",
+        "orderProcedure": "INQUIRY_FIRST_CHECK_PRESERVED_DIGITAL_REPRODUCTION",
+        "userActionRequired": "User review/send; not contacted"
+      },
+      "directDigital": {
+        "url": "https://arcinsys.hessen.de/arcinsys/digitalMediaViewer.action?archivalDescriptionId=5447099",
+        "imageRepresentationId": "14439026",
+        "status": "VIEWER_FOUND_ARTICLE15_PIXEL_NOT_READ"
+      },
+      "facsimiles": [
+        {
+          "reference": "Heinrich Heppe, Die fünfzehn Marburger Artikel ..., Kassel, 1854 (2. Aufl.)",
+          "sourceIds": [
+            "HEPPE1854"
+          ],
+          "onlineCatalogueFound": true,
+          "article15SpecificFolioImageRead": false,
+          "editionVsAutographCaveat": "Nineteenth-century facsimile of K autograph, not independently certified pixel match in this task"
+        },
+        {
+          "reference": "Die Bekenntnisschriften der Evangelisch-Lutherischen Kirche: Quellen und Materialien 1, 2014, pp43–46 (nach K)",
+          "sourceIds": [
+            "STAZH_CATALOGUE"
+          ],
+          "onlineCatalogueFound": true,
+          "article15SpecificFolioImageRead": false,
+          "editionVsAutographCaveat": "K-based critical scholarly text; not the physical original"
+        }
+      ],
+      "requestFields": {
+        "document": "Die Marburger Artikel, signierte hessische Ausfertigung K",
+        "focus": "Art. 15 inklusive Übergang/Anfang, Volltext der Schlussstelle und ggf. Unterschriften",
+        "images": "idealerweise farbige, hochauflösende Originalscans der betreffenden Recto-/Verso-Seiten",
+        "cataloguing": "exakte Blatt-/Seitenangaben und Zuordnung von Best.3 Nr245 zum Digitalisat; Klärung Bl.60–63 vs fol.60r–64v",
+        "usage": "wissenschaftliche Transkription, Vergleich mit der Zürcher Ausfertigung; eventuelle Web-App-Abbildungsrechte bitte separat erläutern"
+      },
+      "targetEvidence": {
+        "art15PixelRead": false,
+        "originalImageUrlOrReceipt": null,
+        "originalImageSha256": null,
+        "folioOrCanvas": null,
+        "diplomaticGermanArt15": null,
+        "independentHumanTranscriptionReview": false
+      },
+      "archiveRequest": {
+        "status": "DRAFT_NOT_SENT",
+        "sentAt": null,
+        "replyReceivedAt": null,
+        "objectDelivered": false,
+        "consentToCosts": false
+      }
+    },
+    {
+      "id": "Z",
+      "witnessId": "M1529-Z",
+      "type": "SIGNED_MANUSCRIPT",
+      "archive": "Staatsarchiv des Kantons Zürich",
+      "sourceId": "STAZH_CATALOGUE",
+      "shelfmark": "StAZH E I 3.1, Nr. 54",
+      "folioDifferenceResolved": null,
+      "contact": {
+        "address": "staatsarchivzh@ji.zh.ch",
+        "verifiedBySource": "STAZH_REPRO_RULES",
+        "orderProcedure": "FORMAL_SIGNED_REPRODUCTION_ORDER_REQUIRED",
+        "officialFormUrl": "https://www.zh.ch/content/dam/zhweb/bilder-dokumente/organisation/direktion-der-justiz-und-des-innern/staatsarchiv/intern/stazh_reproformular_2025_05_01.pdf",
+        "userActionRequired": "Signed form, user details, costs and delivery acceptance; not sent"
+      },
+      "directDigital": {
+        "url": "https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=618165",
+        "status": "CATALOGUE_OFFICIAL_MICROFILM_NOT_ORIGINAL_ART15_PIXEL"
+      },
+      "facsimiles": [
+        {
+          "reference": "Johann Martin Usteri, Das ... Original der Marburger Artikel im Faksimile, Theologische Studien und Kritiken 56 (1883), pp409–413",
+          "sourceIds": [
+            "USTERI1883",
+            "STAZH_CATALOGUE"
+          ],
+          "onlineCatalogueFound": true,
+          "article15SpecificFolioImageRead": false,
+          "editionVsAutographCaveat": "1883 facsimile printing, not an original manuscript photo directly read this turn"
+        },
+        {
+          "reference": "Reformierte Bekenntnisschriften Bd1/1 Nr11 pp259–267 (nach Z)",
+          "sourceIds": [
+            "STAZH_CATALOGUE"
+          ],
+          "onlineCatalogueFound": true,
+          "article15SpecificFolioImageRead": false,
+          "editionVsAutographCaveat": "Z-based critical edition"
+        },
+        {
+          "reference": "MBW Texte Bd3 Nr825 (nach K mit Abweichungen in Z)",
+          "sourceIds": [
+            "MBW825",
+            "STAZH_CATALOGUE"
+          ],
+          "onlineCatalogueFound": true,
+          "article15SpecificFolioImageRead": false,
+          "editionVsAutographCaveat": "Critical edition K baseline with Z textual variants"
+        }
+      ],
+      "requestFields": {
+        "document": "Marburger Artikel, Zürcher Ausfertigung Z vom 3. Oktober 1529",
+        "focus": "Vollständiger Art. 15 mit dem in Z vorhandenen Zusatz sowie die Zusätze zu Art. 7 und 13; Beiblatt, Einfügungen und ggf. Unterschriften",
+        "images": "farbige digitale Originalaufnahmen sämtlicher unmittelbar betroffenen Recto-/Verso-Seiten und des ergänzenden Einzelblatts",
+        "cataloguing": "Blatt-/Seitenkennung für Art.15 und genaue Position der drei Nachträge, Provenienz/Mikrofilm- bzw. Bild-IDs",
+        "usage": "wissenschaftliche Transkription und Gegenüberstellung; bitte Publikationsbedingungen und Belegexemplarpflicht nennen"
+      },
+      "targetEvidence": {
+        "art15PixelRead": false,
+        "originalImageUrlOrReceipt": null,
+        "originalImageSha256": null,
+        "folioOrCanvas": null,
+        "diplomaticGermanArt15": null,
+        "independentHumanTranscriptionReview": false
+      },
+      "archiveRequest": {
+        "status": "DRAFT_NOT_SENT",
+        "sentAt": null,
+        "replyReceivedAt": null,
+        "objectDelivered": false,
+        "consentToCosts": false
+      }
+    }
+  ],
+  "sourceRegistry": {
+    "STAZH_CATALOGUE": {
+      "institution": "Staatsarchiv des Kantons Zürich",
+      "url": "https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=618165",
+      "classification": "PRIMARY_ARCHIVE_INVENTORY",
+      "locator": "E I 3.1 Nr.54; signed Z with additions Art7/13/15 absent K; publications: K edition, Z edition, MBW K+Z"
+    },
+    "STAZH_REPRO_RULES": {
+      "institution": "Kanton Zürich",
+      "url": "https://www.zh.ch/de/politik-staat/recherche-im-staatsarchiv/reproduktionen-bestellen.html",
+      "classification": "OFFICIAL_REPRODUCTION_REQUEST_PROCEDURE",
+      "locator": "2025 order form, exact shelfmark, signed form, email staatsarchivzh@ji.zh.ch, potential charges and rights"
+    },
+    "HSTAM_CATALOGUE": {
+      "institution": "Hessisches Staatsarchiv Marburg",
+      "url": "https://arcinsys.hessen.de/arcinsys/showArchivalDescriptionDetails?archivalDescriptionId=5447099",
+      "classification": "PRIMARY_ARCHIVE_INVENTORY",
+      "locator": "Best.3 Nr245 signed Marburg Articles K"
+    },
+    "HSTAM_CONTACT": {
+      "institution": "Hessen Landesarchiv",
+      "url": "https://landesarchiv.hessen.de/ueber-uns/hessisches-staatsarchiv-marburg",
+      "classification": "OFFICIAL_CURRENT_CONTACT",
+      "locator": "marburg@hla.hessen.de, inquiry office; updated site crawled 2026-11-19"
+    },
+    "HESSEN_REPRO_RULES": {
+      "institution": "Hessen Landesarchiv",
+      "url": "https://landesarchiv.hessen.de/nutzen-forschen/fotografieren-reproduktionen",
+      "classification": "OFFICIAL_REPRODUCTION_AND_REUSE_PROCEDURE",
+      "locator": "Photo-workshop can produce reproductions against fee as permitted by conservation/usage conditions"
+    },
+    "HEPPE1854": {
+      "institution": "Google Play Books listing; scholarly references via Reformation 3.0",
+      "url": "https://play.google.com/store/books/details/Heinrich_Heppe_Die_f%C3%BCnfzehn_Marburger_Artikel_vom?id=L2b7YTiIyLwC",
+      "classification": "NINETEENTH_CENTURY_FACSIMILE_PUBLICATION_CATALOGUED",
+      "locator": "Heinrich Heppe, Die fünfzehn Marburger Artikel ... Facsimile, Kassel 1854, Google Play lists 23pp free ebook; requested autograph leaf not opened"
+    },
+    "USTERI1883": {
+      "institution": "UB Tübingen OpenDigi catalogue; Zurich archive bibliography",
+      "url": "https://opendigi.ub.uni-tuebingen.de/opendigi/thstkr",
+      "classification": "NINETEENTH_CENTURY_FACSIMILE_PUBLICATION_CATALOGUED",
+      "locator": "Johann Martin Usteri, Theologische Studien und Kritiken 56 (1883) pp400–413, Zurich Z facsimile pp409–413; PDF specific leaves not opened"
+    },
+    "SCHAEUFELE2012": {
+      "institution": "ETH Zürich Library title/contents preview",
+      "url": "https://toc.library.ethz.ch/objects/pdf/z01_978-3-374-03080-4_01.pdf",
+      "classification": "PUBLISHED_MODERN_FACSIMILE_TRANSCRIPTION_TRANSLATION_BIBLIOGRAPHY_ONLY",
+      "locator": "Wolf-Friedrich Schäufele, Der Text der Marburger Artikel: Faksimile – Transkription – Übertragung, in Die Marburger Artikel als Zeugnis der Einheit (Leipzig 2012), pp13–29; contents page only"
+    },
+    "MBW825": {
+      "institution": "Heidelberg Academy Melanchthon Letters digital regesta",
+      "url": "https://melanchthon.hadw-bw.de/regest.html?reg_nr=825",
+      "classification": "SCHOLARLY_REGEST_AND_TEXT_LOCATOR",
+      "locator": "MBW Texte 3 no825, K base with Z readings as independently specified by Zurich official archive"
+    },
+    "GHDI_WA": {
+      "institution": "German History in Documents and Images",
+      "url": "https://germanhistorydocs.org/de/von-den-reformationen-bis-zum-dreissigjaehrigen-krieg-1500-1648/die-marburger-religionsgespraeche-die-marburger-artikel-1529",
+      "classification": "EDITED_GERMAN_TEXT_NOT_DIPLOMATIC_K_OR_Z",
+      "locator": "German transcription from WA30/III (1910), pp160–171; not independently assigned to Z or K base in this study"
+    }
+  },
+  "scholarlySourceAccess": {
+    "sources": [
+      {
+        "editionId": "ED-REFORMED-Z",
+        "baseWitness": "Z",
+        "citation": "Reformierte Bekenntnisschriften 1/1 Nr11 pp259–267",
+        "role": "Z-based text, not the original photograph"
+      },
+      {
+        "editionId": "ED-LUTHERAN-K",
+        "baseWitness": "K",
+        "citation": "Die Bekenntnisschriften ... Quellen und Materialien Bd1 (2014) pp43–46",
+        "role": "K-based text"
+      },
+      {
+        "editionId": "ED-MBW-K+Z",
+        "baseWitness": "K",
+        "variantWitness": "Z",
+        "citation": "Melanchthons Briefwechsel, Texte Bd3 Nr825",
+        "role": "K baseline with Z variants"
+      },
+      {
+        "editionId": "ED-HEPPE-K-FACSIMILE",
+        "baseWitness": "K",
+        "citation": "Heppe 1854, facsimile publication",
+        "role": "Indirect reproduction of K manuscript, full Article15 page not read"
+      },
+      {
+        "editionId": "ED-USTERI-Z-FACSIMILE",
+        "baseWitness": "Z",
+        "citation": "Usteri 1883 pp409–413",
+        "role": "Indirect reproduction of Z manuscript, full Article15 page not read"
+      },
+      {
+        "editionId": "ED-SCHAEUFELE-2012",
+        "baseWitness": null,
+        "citation": "Schäufele 2012 pp13–29",
+        "role": "Facsimile/transcription/translation chapter existence known from TOC; specific base not independently confirmed here"
+      }
+    ],
+    "caveat": "Editorial texts, catalogue descriptions, 1529 printed books, and two surviving signed manuscripts have different evidentiary roles. No source listed above has been misclassified as a directly examined K or Z Article 15 autograph."
+  },
+  "manuscriptVariantLoci": [
+    {
+      "locus": "A07-Z-ADD",
+      "article": 7,
+      "catalogueStatesZAddition": true,
+      "KoriginalText": null,
+      "ZoriginalText": null,
+      "fullOriginalGermanCollated": false
+    },
+    {
+      "locus": "A13-Z-ADD",
+      "article": 13,
+      "catalogueStatesZAddition": true,
+      "KoriginalText": null,
+      "ZoriginalText": null,
+      "fullOriginalGermanCollated": false
+    },
+    {
+      "locus": "A15-Z-ADD",
+      "article": 15,
+      "catalogueStatesZAddition": true,
+      "KoriginalText": null,
+      "ZoriginalText": null,
+      "fullOriginalGermanCollated": false
+    }
+  ],
+  "archiveRequestCount": 2,
+  "requestsActuallySent": 0,
+  "sourceOriginalManuscriptPagesActuallyRead": 0,
+  "collateralPrimaryPrintsAlreadyRead": [
+    "VD16 W2118 Zürich",
+    "VD16 W2119 Zürich",
+    "VD16 W2108 Basel"
+  ],
+  "primaryPrintsAreNotSignedAutographs": true,
+  "sourceLevelPolicy": {
+    "publicationCatalogued": "An edition/facsimile is identified in catalogue or table of contents; no permission to quote original handwriting.",
+    "manuscriptPhotographActuallySeen": "Original/autograph pixel page identified with archival locus and preserved source URL or checksum.",
+    "diplomaticTextVerified": "Original-page diplomatic transcription is reviewed by qualified humans and line-locus is referenced.",
+    "interpretationApproved": "Qualified historian source-critical review has approved the historical inference; separate from OCR/transcription quality.",
+    "renderAndReuseApproved": "Archive confirms image reuse, credit and fees where applicable; not implied by document date."
+  },
+  "sourcePageGate": "K and Z each require independently inspectable image, exact folio/canvas, SHA256 and reviewed literal article15 transcription before strong claims of letter-specific variants.",
+  "openScholarshipTasks": [
+    "Obtain actual signed K full Article 15 leaf and separately a high-quality Z autograph/1883 facsimile.",
+    "Locate the Z extra leaf and record which of articles 7/13/15 appears there, without inferring the physical position from catalogue text.",
+    "Verify whether printed Zurich W2118/W2119 and Basel W2108 clauses reproduce precise Z readings or a common printed ancestor.",
+    "Verify German palaeographic transcription against two editors, provenance and reproduction rights."
+  ],
+  "filesPlannedForDigitalReceipts": "research/private-archive-sources/ (do not publish archive images or personal correspondence to public GitHub without permission)",
+  "expertsApproved": 0,
+  "actualReaderParticipants": 0,
+  "release": {
+    "canShip": false,
+    "canMergeMain": false,
+    "canImportAIStudio": false
+  }
+}
