@@ -1,0 +1,122 @@
+{
+  "schema": "ATLAS_V468_KZ_ARCHIVE_CONTACT_DRAFTS_AND_FACSIMILE_ACCESS_AUDIT",
+  "date": "2026-11-19",
+  "branch": "integration/atlas-phase1-browser-qa-v452",
+  "parent": "research/data/ATLAS_V467_KZ_AUTOGRAPH_ARCHIVE_ACQUISITION_AND_SOURCE_GATES.json",
+  "task": "Progress from official manuscript inquiry documents to verified but unsent Gmail drafts; attempt publicly readable facsimile sources without treating catalogues as image transcription",
+  "scope": "K and Z signed manuscripts of 1529 Marburg Articles, Article 15 plus Zurich-only additions in Articles 7, 13 and 15",
+  "institutionalEnquiries": [
+    {
+      "requestId": "REQ467-K",
+      "targetWitnessId": "M1529-K",
+      "archive": "Hessisches Staatsarchiv Marburg",
+      "archivalShelfmark": "HStAM Best. 3 Nr. 245",
+      "intendedInstitutionalRecipient": "marburg@hla.hessen.de",
+      "subject": "Forschungsanfrage: Marburger Artikel (1529), HStAM Best. 3 Nr. 245 – Art. 15 / Digitalisat",
+      "status": "DRAFT_PRESENT_IN_CONNECTED_GMAIL_VERIFIED",
+      "draftConfirmedByListing": true,
+      "sent": false,
+      "submittedAsOrder": false,
+      "actualArchiveReplyReceived": false,
+      "reproductionFeeApproved": false,
+      "requiredBeforeSending": "User review and explicit authorization",
+      "requiredFromArchive": [
+        "exact folio/canvas showing Article15",
+        "existing high resolution digital facsimile link or permitted reproduction costs",
+        "reconciliation of Bl60–63 versus fol60r–64v",
+        "image publication and provenance conditions"
+      ]
+    },
+    {
+      "requestId": "REQ467-Z",
+      "targetWitnessId": "M1529-Z",
+      "archive": "Staatsarchiv des Kantons Zürich",
+      "archivalShelfmark": "StAZH E I 3.1 Nr.54",
+      "intendedInstitutionalRecipient": "staatsarchivzh@ji.zh.ch",
+      "subject": "Voranfrage zu den Marburger Artikeln 1529 – StAZH E I 3.1 Nr. 54, Zusätze Art. 7/13/15",
+      "status": "DRAFT_PRESENT_IN_CONNECTED_GMAIL_VERIFIED",
+      "draftConfirmedByListing": true,
+      "sent": false,
+      "submittedAsOrder": false,
+      "actualArchiveReplyReceived": false,
+      "reproductionFeeApproved": false,
+      "requiredBeforeSending": "User review and explicit authorization",
+      "requiredFromArchive": [
+        "Z signed Article15 all sides including Z-only addition",
+        "supplemental leaf and Article7/13 locations",
+        "high-resolution original image availability",
+        "formal signed form prerequisites and quotation/reuse terms"
+      ]
+    }
+  ],
+  "verifiedDraftCount": 2,
+  "outgoingMessagesSent": 0,
+  "paidArchiveOrders": 0,
+  "originalManuscriptImagesReceived": 0,
+  "directlyReadKZArticle15AutographImages": 0,
+  "externalSearch": {
+    "K_Heppe1854": {
+      "leadURL": "https://play.google.com/store/books/details/Heinrich_Heppe_Die_f%C3%BCnfzehn_Marburger_Artikel_vom?id=L2b7YTiIyLwC",
+      "evidenceTier": "BOOK_CATALOGUE_AND_FREE_EBOOK_LISTING",
+      "reportedDate": "1854",
+      "pagesListed": 23,
+      "fullSpecificManuscriptArticle15PageViewed": false,
+      "pixelFromPdfRead": false,
+      "accessIssue": "Google Play book listing is visible but book content is behind reader flow; books.google.com direct ID load returned inaccessible."
+    },
+    "K_Heppe1847Variant": {
+      "historicalCitationLead": "1847 original publication cited by later bibliography and 1847 contemporary reviews",
+      "supportingURLs": [
+        "https://de.wikisource.org/wiki/MKL1888:Heppe",
+        "https://sbc.org.pl/Content/635767/PDF/iv352191-1847-293-0001.pdf"
+      ],
+      "evidenceTier": "HISTORICAL_BIBLIOGRAPHIC_ATTRIBUTION_NOT_PHYSICAL_TITLE_PAGE",
+      "issue": "1847 and 1854 references coexist. Confirm edition/imprint/issue on title pages before deducing same scan or reissue.",
+      "identityResolved": false,
+      "manuscriptArticle15Read": false
+    },
+    "Z_Usteri1883": {
+      "journalVolumeURL": "https://opendigi.ub.uni-tuebingen.de/opendigi/thstkr_1883",
+      "bibliographicLocator": "Theologische Studien und Kritiken 56 (1883), pp409–413 Usteri facsimile",
+      "specificFolioImageViewed": false,
+      "browserResult": "Original journal page timed out/inaccessible; no authenticated manuscript image."
+    },
+    "archivalK": {
+      "url": "https://arcinsys.hessen.de/arcinsys/digitalMediaViewer.action?archivalDescriptionId=5447099",
+      "evidenceTier": "OFFICIAL_ARCHIVE_VIEWER_LINK_ONLY",
+      "article15LeafImageViewed": false
+    },
+    "archivalZ": {
+      "url": "https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=618165",
+      "evidenceTier": "OFFICIAL_ARCHIVE_CATALOGUE",
+      "additionsCertifiedAtArticles": [
+        7,
+        13,
+        15
+      ],
+      "article15LeafImageViewed": false
+    }
+  },
+  "openIssues": [
+    "Heppe's 1847 vs 1854 bibliographic year discrepancy: physical title pages not viewed. Do not assert both identical copies.",
+    "Get actual K Article15 leaf scan from official archive viewer or facsimile and exact archival folio identity.",
+    "Get actual Z Article15 signed original or qualified facsimile (Usteri 1883, pp409–413).",
+    "Only after original-image receipt, compute hash, diplomatic transcription and human paleographic QC; then pairwise contrast printed witnesses.",
+    "Separately obtain 1531 Latin C4734 and 1540 Latin C4713 Article X original page scans."
+  ],
+  "safeguards": {
+    "privateGmailDraftIdsStoredInPublicGithub": false,
+    "privateSenderNameOrAccountSavedInPublicGithub": false,
+    "originalsOrAttachmentsUploadedToPublicGithub": false,
+    "correspondenceActuallySent": false,
+    "publicationRightsAssumed": false,
+    "historicalProseModified": false,
+    "operatingAIStudioModified": false,
+    "canShip": false,
+    "canMergeMain": false,
+    "canImportAIStudio": false
+  },
+  "nextDecision": "User may inspect and authorize sending these two Gmail drafts; there is no automatic order or follow-up until archived manuscripts or official replies are actually obtained.",
+  "realHistorianReviews": 0,
+  "realReaderPilots": 0
+}
