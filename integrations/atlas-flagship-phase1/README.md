@@ -346,3 +346,19 @@ V4.64에서 DOI 리다이렉트 오류로 **서지만 확인됐던 1529년 취�
 **감사:** `research/data/ATLAS_V467_KZ_ARCHIVE_SOURCE_ACQUISITION_QA_AUDIT.json`
 
 **다음 실질 단계:** K와 Z 각각의 **제15조 원본 사진 또는 신뢰할 만한 파크시밀리 원문 지면을 직접 확보**, 실제 필사 문장을 독립적으로 전사·교감한 뒤 전문가 검토. 별도 1531·1540 라틴어 제10조 인쇄면 연구도 미완료. `can_ship=false`, `can_merge_main=false`, `can_import_ai_studio=false`; `main`, 기존 역사 원고 및 AI Studio 운영 앱 미변경.
+
+## V4.68 — K/Z 원본 연구 문의 **Gmail 저장 확인** 및 헤페 출판연도 검증 보류
+
+- **실제 Gmail 작업 완료:** 헤센 `HStAM 3 Nr245`와 취리히 `StAZH E I 3.1 Nr54`의 **1529년 서명본 K/Z 제15조** 촬영·디지털 열람·복제비·재사용 조건을 묻는 독일어 메일 2건을 연결된 Gmail **임시보관함에 저장**했고, 목록 조회로 **두 건 모두 존재함을 확인**했다. **메일 발송 0건, 유료 복제 주문 0건, 기관 회신 0건**.
+- **개인정보 제한:** 공개 GitHub에는 공식 기관 수신 주소와 요청 상태만 기록하며 Gmail 개인 계정, 임시보관 메일 ID, 발신인 이름, 메시지 내부 개인 연락처는 저장하지 않는다. **사용자가 검토·승인하기 전에는 발송하지 않음**.
+- **공개 파크시밀리 재조사:** 헤페의 `Die fünfzehn Marburger Artikel` Google Play 무료 전자책은 **1854년, 23쪽**으로 표시된다. 그런데 **1847년 당시 `Leipziger Repertorium`의 목록 198번은 Kassel Fischer, 20쪽+석판 4장**의 헤페 파크시밀리를 기록한다. 이 두 연도의 서지 연결은 표제지/실물을 직접 열지 않았으므로 **동일 판본·재판·오기 어느 것도 확정하지 않는다**. 1847년 PDF 이미지 캡처는 대용량·응답 시간 초과로 실패했으며 문헌목록의 검색 가능한 텍스트를 단서로만 사용한다.
+- **실제 필사본 판독 상태:** K/Z **원본 제15조 0/2건**, Usteri 1883 취리히 파크시밀리 409–413쪽 실제 지면 미열람. 헤센 Arcinsys 뷰어의 제15조 이미지도 미판독. 기존 당대 인쇄본 W2118/W2119/W2108의 본문 확인과 구별.
+- **검증과 상태:** 신규 `v468-kz-gmail-draft-and-early-facsimile-contract.test.mjs`의 GitHub 원본 자바스크립트 검증 조건 **5/5 PASS**(V8의 Node 로더 적응 실행). 실제 `node --test` 또는 GitHub Actions 성공은 아직 확인하지 못했다. 연구 CI에 V4.68 JSON/검사 경로 연결.
+
+**한국어 실행보고서:** [V4.68 기관 문의 초안 저장·파크시밀리 서지 점검](./V468_KZ_ARCHIVAL_GMAIL_DRAFTS_AND_FACSIMILE_EDITION_YEAR_AUDIT_KO.md)  
+**구조화 작업 감사:** `research/data/ATLAS_V468_KZ_GMAIL_DRAFTS_AND_ORIGINAL_FACSIMILE_ACCESS_AUDIT.json`  
+**회귀 검사:** `v468-kz-gmail-draft-and-early-facsimile-contract.test.mjs`.
+
+**다음 필수 절차:** 사용자가 Gmail의 두 독일어 초안을 검토하고 명시적으로 발송 승인하면 기관에 문의할 수 있다. 또는 제공받은 **K·Z 제15조 실제 필사 스캔/허가된 팩시밀리**가 있다면 먼저 직접 판독한다. 받은 적 없는 원본 이미지는 만들어 내지 않고, 승인받지 않은 유료 복제는 주문하지 않는다.
+
+**릴리스 차단:** `can_ship=false`, `can_merge_main=false`, `can_import_ai_studio=false`; `main`, 기존 역사 통합 원고, 실제 AI Studio 운영 앱 미변경.
