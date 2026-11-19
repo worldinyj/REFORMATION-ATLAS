@@ -328,3 +328,21 @@ V4.64에서 DOI 리다이렉트 오류로 **서지만 확인됐던 1529년 취�
 **계통표 실제 개정:** `research/data/ATLAS_V459_MANUSCRIPT_PRINT_WITNESS_VARIANT_GRAPH.json`
 
 **릴리스:** `can_ship=false`, `can_merge_main=false`, `can_import_ai_studio=false`. 원고·main·실제 AI Studio 운영 앱 미변경. 역사학자 승인 및 실제 독자 파일럿 0건.
+
+## V4.67 — 서명 원본 K/Z **공식 복제 확보 준비**와 실제 전사 승격 규칙
+
+이 단계에서는 동일 시대 인쇄판을 계속 더 수집하는 대신, **1529년 두 서명 필사본 K·Z의 제15조 실물 확보를 위한 공식 연구 절차**를 문서화했다. 소장목록에 따른 Z 추가 문구 3건은 역사적으로 중요한 증거이나, 서명 필사본의 정확한 문자를 직접 읽은 것으로 기록하지 않는다.
+
+- **원본 K:** `HStAM Best. 3 Nr. 245`, 헤센 주립문서보관소. [공식 연락처](https://landesarchiv.hessen.de/ueber-uns/hessisches-staatsarchiv-marburg) **marburg@hla.hessen.de**를 현재 안내에서 확인. HAPuls의 `Bl.60–63`와 취리히 서지의 `fol.60r–64v` 표기가 다른 문제를 보관소에 묻도록 했다. **Heinrich Heppe 1854**의 원본 파크시밀리 간행이 [Google Play](https://play.google.com/store/books/details/Heinrich_Heppe_Die_f%C3%BCnfzehn_Marburger_Artikel_vom?id=L2b7YTiIyLwC)에 무료 23쪽으로 등재된 사실도 확인했지만 해당 제15조 이미지를 직접 열지는 못했다.
+- **원본 Z:** `StAZH E I 3.1 Nr.54`, 취리히 주립문서보관소. [공식 복제 신청](https://www.zh.ch/de/politik-staat/recherche-im-staatsarchiv/reproduktionen-bestellen.html)은 **서명된 신청서, 정확한 소장번호, 이용/비용 확인**을 요구하며, **staatsarchivzh@ji.zh.ch**를 안내한다. 우스테리 **1883년 파크시밀리 409–413쪽** 및 Z 저본의 개혁파 신앙고백 비판판 정보를 재연결했다.
+- **새로 확인한 교감 참고서:** Wolf-Friedrich Schäufele 편, `Die Marburger Artikel als Zeugnis der Einheit`(Leipzig, 2012), **13–29쪽**에 'Faksimile–Transkription–Übertragung' 장이 존재함을 ETH 도서관 [목차](https://toc.library.ethz.ch/objects/pdf/z01_978-3-374-03080-4_01.pdf)에서 확인했다. **해당 장 전문을 판독한 것은 아님**.
+- **실제 실행 가능한 산출물:** 원본 K/Z 보존소에 보내는 **독일어 연구 문의서 초안 2건**, 신청·비용·저작권·지면 요구사항을 갖춘 구조화 소장·확보 데이터, 기존 V4.62의 4개 원본 확보 게이트와 연동.
+- **검증:** 신규 `v467-kz-autograph-acquisition-contract.test.mjs` 6개 + 기존 `v462-primary-source-evidence-contract.test.mjs` 5개를 GitHub 원본의 V8 적응 실행으로 **11/11 PASS**. 네 원본 직접 판독 지면 0/4, 그중 K/Z 서명본 0/2, 기관 메일 발송 0건. Native `node --test`/실제 GitHub Actions 성공은 별도 확인되지 않음.
+- **안전 경계:** 서명받은 신청서·개인 연락처·기관 제공 이미지/회신을 **공개 GitHub에 자동 업로드하지 않음**. 이미지 재사용 조건과 비용은 기관 협의, 유료 복제 주문은 명시적 승인 후만 진행.
+
+**독일어 공식문의 초안 및 한국어 연구 프로토콜:** [V4.67 K·Z 원본 확보 실행 패키지](./V467_KZ_AUTOGRAPH_SOURCE_ACQUISITION_AND_GERMAN_REQUESTS_KO.md)  
+**자료·문의 구조화 데이터:** `research/data/ATLAS_V467_KZ_AUTOGRAPH_ARCHIVE_ACQUISITION_AND_SOURCE_GATES.json`  
+**기존 원본 확보 게이트 연결:** `research/data/ATLAS_V462_FOUR_PRIMARY_FOLIO_IMAGE_ACQUISITION_REGISTER.json`  
+**감사:** `research/data/ATLAS_V467_KZ_ARCHIVE_SOURCE_ACQUISITION_QA_AUDIT.json`
+
+**다음 실질 단계:** K와 Z 각각의 **제15조 원본 사진 또는 신뢰할 만한 파크시밀리 원문 지면을 직접 확보**, 실제 필사 문장을 독립적으로 전사·교감한 뒤 전문가 검토. 별도 1531·1540 라틴어 제10조 인쇄면 연구도 미완료. `can_ship=false`, `can_merge_main=false`, `can_import_ai_studio=false`; `main`, 기존 역사 원고 및 AI Studio 운영 앱 미변경.
