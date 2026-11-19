@@ -19,6 +19,7 @@ on:
       - 'research/data/ATLAS_V467_*'
       - 'research/data/ATLAS_V468_*'
       - 'research/data/ATLAS_V469_*'
+      - 'research/data/ATLAS_V470_*'
       - '.github/workflows/atlas-phase1-browser-qa.yml'
 
 permissions:
@@ -37,7 +38,7 @@ jobs:
         with:
           node-version: '22'
       - name: Validate claim register, pilot instrument and offline scorer
-        run: node --test integrations/atlas-flagship-phase1/reader-pilot-contract.test.mjs integrations/atlas-flagship-phase1/v458-evidence-contract.test.mjs integrations/atlas-flagship-phase1/v459-witness-contract.test.mjs integrations/atlas-flagship-phase1/v460-critical-apparatus-contract.test.mjs integrations/atlas-flagship-phase1/v461-manuscript-edition-source-contract.test.mjs integrations/atlas-flagship-phase1/v462-primary-source-evidence-contract.test.mjs integrations/atlas-flagship-phase1/v463-original-print-witness-contract.test.mjs integrations/atlas-flagship-phase1/v464-early-print-parallel-contract.test.mjs integrations/atlas-flagship-phase1/v465-zurich-original-print-colophon-contract.test.mjs integrations/atlas-flagship-phase1/v466-print-setting-provenance-contract.test.mjs integrations/atlas-flagship-phase1/v467-kz-autograph-acquisition-contract.test.mjs integrations/atlas-flagship-phase1/v468-kz-gmail-draft-and-early-facsimile-contract.test.mjs integrations/atlas-flagship-phase1/v469-heppe-bibliography-and-textual-history-contract.test.mjs
+        run: node --test integrations/atlas-flagship-phase1/reader-pilot-contract.test.mjs integrations/atlas-flagship-phase1/v458-evidence-contract.test.mjs integrations/atlas-flagship-phase1/v459-witness-contract.test.mjs integrations/atlas-flagship-phase1/v460-critical-apparatus-contract.test.mjs integrations/atlas-flagship-phase1/v461-manuscript-edition-source-contract.test.mjs integrations/atlas-flagship-phase1/v462-primary-source-evidence-contract.test.mjs integrations/atlas-flagship-phase1/v463-original-print-witness-contract.test.mjs integrations/atlas-flagship-phase1/v464-early-print-parallel-contract.test.mjs integrations/atlas-flagship-phase1/v465-zurich-original-print-colophon-contract.test.mjs integrations/atlas-flagship-phase1/v466-print-setting-provenance-contract.test.mjs integrations/atlas-flagship-phase1/v467-kz-autograph-acquisition-contract.test.mjs integrations/atlas-flagship-phase1/v468-kz-gmail-draft-and-early-facsimile-contract.test.mjs integrations/atlas-flagship-phase1/v469-heppe-bibliography-and-textual-history-contract.test.mjs integrations/atlas-flagship-phase1/v470-reader-copytext-and-bibliographic-contract.test.mjs
 
   browser-smoke:
     name: Browser smoke (${{ matrix.engine }})
