@@ -1,0 +1,116 @@
+{
+  "schema": "ATLAS_V469_HEPPE_1847_1854_COLLATION_AND_MARBURG_VARIANTS_RESEARCH",
+  "date": "2026-11-19",
+  "branch": "integration/atlas-phase1-browser-qa-v452",
+  "parent": "research/data/ATLAS_V468_KZ_GMAIL_DRAFTS_AND_ORIGINAL_FACSIMILE_ACCESS_AUDIT.json",
+  "focus": "1830s–1900s bibliographic and historiographic evidence only, not original 1529 manuscript transcription",
+  "sources": [
+    {
+      "id": "H47-R",
+      "dateOfPublication": "1847",
+      "kind": "CONTEMPORARY_BIBLIOGRAPHY_OCR",
+      "locator": "Leipziger Repertorium item 198",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Leipziger_Repertorium_der_deutschen_und_ausl%C3%A4ndischen_Literatur_%28IA_leipzigerrepert17unkngoog%29.pdf",
+      "searchableTextRead": true,
+      "pdfPixelsRead": false,
+      "bibliographicClaim": "Kassel Fischer 1847; 20 pages plus 4 lithographic sheets",
+      "directHeppeTitlePageRead": false
+    },
+    {
+      "id": "H47-A",
+      "dateOfPublication": "1847",
+      "kind": "CONTEMPORARY_BOOK_ADVERTISEMENT_OCR",
+      "locator": "1847 advertising notice headed Die fünfzehn Marburger Artikel",
+      "url": "https://sbc.org.pl/Content/635767/PDF/iv352191-1847-293-0001.pdf",
+      "searchableTextRead": true,
+      "pdfPixelsRead": false,
+      "bibliographicClaim": "Heinrich Heppe facsimile advertised as published",
+      "directHeppeTitlePageRead": false
+    },
+    {
+      "id": "H47-S",
+      "dateOfPublication": "1847",
+      "kind": "CONTEMPORARY_JOURNAL_CONTENTS_OCR",
+      "locator": "Serapeum Jahrgang 8 item 81 p.359",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Serapeum_%28IA_serapeum8184unse%29.pdf",
+      "searchableTextRead": true,
+      "pdfPixelsRead": false,
+      "bibliographicClaim": "Review of Heppe book listed Kassel 1847",
+      "possibleContentsTypo": "3 October 1829 appears in item title; historical 1529 is not to be silently replaced in quotation",
+      "reviewBodyRead": false
+    },
+    {
+      "id": "H54-G",
+      "dateOfPublication": "undetermined",
+      "kind": "MODERN_DIGITAL_BOOK_CATALOGUE",
+      "locator": "Google Play entry",
+      "url": "https://play.google.com/store/books/details/Heinrich_Heppe_Die_f%C3%BCnfzehn_Marburger_Artikel_vom?id=L2b7YTiIyLwC",
+      "catalogueYear": "1854",
+      "cataloguePageCount": 23,
+      "actualPrintedImprintViewed": false,
+      "samePhysicalEditionAs1847": null
+    },
+    {
+      "id": "HS09",
+      "dateOfPublication": "1909",
+      "kind": "HISTORIOGRAPHIC_STUDY_EXTRACT",
+      "locator": "H. von Schubert, Beiträge zur Geschichte der evangelischen Bekenntnis- und Bündnisbildung 1529/30, p.361",
+      "url": "https://dlibra.bibliotekaelblaska.pl/Content/59249/03.pdf",
+      "searchableTextRead": true,
+      "pdfPixelsRead": false,
+      "claims": "Schubert counters Heppe's inauthentic-additions argument by adducing Zurich signed witness and additions after body before signatures",
+      "statementIsAuthorInterpretation": true,
+      "originalKZManuscriptsRead": false
+    },
+    {
+      "id": "ZCAT",
+      "dateOfPublication": "not_used_as_issue_date",
+      "kind": "OFFICIAL_ARCHIVE_CATALOGUE",
+      "locator": "StAZH E I 3.1 Nr.54",
+      "url": "https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=618165",
+      "additionArticles": [
+        7,
+        13,
+        15
+      ],
+      "actualAutographLeavesRead": false
+    }
+  ],
+  "decision": {
+    "existenceAttestedNoLaterThan1847": true,
+    "modernCatalogueYear1854IsNotFirstPublicationProof": true,
+    "resolveImprintEditionIdentity": false,
+    "needPhysicalTitlePages": true,
+    "scholarlyArgumentNeedsAttribution": true,
+    "KZExactGermanCollationComplete": false,
+    "originalHeppeFacsimileArticle15Read": false
+  },
+  "sourceSeparation": {
+    "archivalShelfmarkIsNotEditorialCopyText": true,
+    "printedWitnesses1529AreNotSignedAutographs": true,
+    "currentWorkAutographArticle15ImagesRead": 0,
+    "originalLatinPrintArticle10ImagesRead": 0,
+    "historiansApproved": 0,
+    "readerParticipants": 0
+  },
+  "correspondence": {
+    "draftsAlreadyVerifiedInV468": 2,
+    "newMessagesSentThisVersion": 0,
+    "newOrdersPlacedThisVersion": 0,
+    "explicitSendApprovalFromUser": false
+  },
+  "quality": {
+    "searchableTextAndCatalogueOnly": true,
+    "originalPdfPageScreenshotFailed": true,
+    "testsNeedNativeNodeExecution": true
+  },
+  "safeguard": {
+    "canShip": false,
+    "canMergeMain": false,
+    "canImportAIStudio": false,
+    "mainModified": false,
+    "operatingAppModified": false,
+    "previousHistoricalProseModified": false,
+    "privateGmailDataPublished": false
+  }
+}

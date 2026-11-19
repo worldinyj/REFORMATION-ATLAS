@@ -362,3 +362,17 @@ V4.64에서 DOI 리다이렉트 오류로 **서지만 확인됐던 1529년 취�
 **다음 필수 절차:** 사용자가 Gmail의 두 독일어 초안을 검토하고 명시적으로 발송 승인하면 기관에 문의할 수 있다. 또는 제공받은 **K·Z 제15조 실제 필사 스캔/허가된 팩시밀리**가 있다면 먼저 직접 판독한다. 받은 적 없는 원본 이미지는 만들어 내지 않고, 승인받지 않은 유료 복제는 주문하지 않는다.
 
 **릴리스 차단:** `can_ship=false`, `can_merge_main=false`, `can_import_ai_studio=false`; `main`, 기존 역사 통합 원고, 실제 AI Studio 운영 앱 미변경.
+
+## V4.69 — 헤페 1847/1854 출판연도 충돌·1909년 교감 논쟁 연구사 보강
+
+- 1847년 *Leipziger Repertorium* No.198, 당대 출판 광고, *Serapeum* 8(1847) 제81항의 **문헌 텍스트를 추가 대조**하여 헤페 마르부르크 조항 파크시밀리의 **1847년 존재 기록**을 여러 출처로 보강했다. 그러나 원본 책 표제면은 미확인, 대용량·시간 초과로 PDF **이미지 직접 판독 실패**.
+- Google Play 1854년·23쪽 기록은 **별도 카탈로그 정보**로 보존. 1847 Kassel/Fischer의 20쪽·석판 4면 기술과 **동일판·재판·목록오류 여부 미확정**.
+- Hans von Schubert의 1909년 연구(361쪽)는 K 결락을 근거로 추가 구절을 비진정하게 본 헤페 해석에 대해 Z 원본의 추기 사실로 반박한다. 이 주장은 **후대 역사학자의 해석**이지 연구자의 K/Z 서명본 직접 판독이 아니다.
+- 헤센·취리히 Gmail 문의 2건은 **계속 미발송**. 사용자 명시 승인, 원본 사진, 역사학자 승인, 독자 실증 없음.
+- 신규 연구 JSON·본문·5개 회귀 테스트 추가. **테스트 코드 신규 실행 결과는 별도 확인 전까지 미확인**. `main`, 역사 원고, 실제 AI Studio 앱 변경 없음.
+
+**연구 보고서:** [V4.69 헤페 서지 충돌과 마르부르크 교감 연구사](./V469_HEPPE_1847_1854_BIBLIOGRAPHY_AND_KZ_INTERPRETATION_KO.md)  
+**JSON:** `research/data/ATLAS_V469_HEPPE_BIBLIOGRAPHY_AND_MARBURG_VARIANT_HISTORIOGRAPHY.json`  
+**회귀 코드:** `v469-heppe-bibliography-and-textual-history-contract.test.mjs`
+
+**다음 우선:** 검토된 K·Z 문서보관소 초안에 대해 명시적 발송 승인 여부 결정 또는 합법적으로 이용 가능한 원본 스캔/파크시밀리 확보 후 실제 제15조 전사. `can_ship=false`, `can_merge_main=false`, `can_import_ai_studio=false`.
