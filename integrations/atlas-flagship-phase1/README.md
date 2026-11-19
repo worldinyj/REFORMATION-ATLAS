@@ -376,3 +376,17 @@ V4.64에서 DOI 리다이렉트 오류로 **서지만 확인됐던 1529년 취�
 **회귀 코드:** `v469-heppe-bibliography-and-textual-history-contract.test.mjs`
 
 **다음 우선:** 검토된 K·Z 문서보관소 초안에 대해 명시적 발송 승인 여부 결정 또는 합법적으로 이용 가능한 원본 스캔/파크시밀리 확보 후 실제 제15조 전사. `can_ship=false`, `can_merge_main=false`, `can_import_ai_studio=false`.
+
+## V4.70 — 1529년 W2119 실물 인쇄 제15조와 GHDI 영어 번역의 저본 차이를 활용한 L0/L1 연구 원고
+
+- W2119 **1529년 취리히 인쇄 원본 PDF p6·p7을 이번 세션에서 직접 화면으로 재확인**했다. 제15조의 **미사-타인 은총 관련 문장**, 성찬에 관한 공동진술·현존 방식 미합의와 p7 **프로샤우어 콜로폰**을 구별해 기록했다.
+- GHDI 편집 영어 번역 **제15조에는 해당 미사 구절이 나타나지 않음**을 원문 영어 본문과 비교했다. GHDI는 **WA 30 III (1910), pp160–171**을 저본으로 명시. 이것만으로 K/Z의 필사본 계통이나 추가문구 작성 시기를 **확정하지 않는다**.
+- Philip Schaff의 역사 문헌목록은 헤페 파크시밀리의 **1847년 출판 + 1854년 제2판**을 명시. 그러나 두 책의 **실제 표제지/판권면 미검증**이라는 제한을 남긴다.
+- 연구용 **L0 독자 개요 + L1 심화 해설 + 사료 카드 6종 + 검토 주장 6건 + 독자 질문 3건**을 새 문서와 JSON으로 작성했다. 실제 역사 본문이나 Google AI Studio에 승격하지 않았다.
+- 사용자가 승인하지 않은 Gmail 발송 **0건**. K/Z 원본 직접 교감 미완료, 역사학자 승인 0, 실제 독자 평가 0. **추가 검증 코드 5개**를 연구 CI에 연결한다.
+
+**[V4.70 실질적 독자용 L0/L1 역사 원고 후보](./V470_MARBURG_1529_READER_COPYTEXT_DIFFERENCES_KO.md)**  
+데이터: `research/data/ATLAS_V470_W2119_ART15_TRANSLATION_GAP_AND_HEPPE_EDITION_CANDIDATE.json`  
+검사: `v470-reader-copytext-and-bibliographic-contract.test.mjs`.  
+**계속 보류:** `can_ship=false`, `can_merge_main=false`, `can_import_ai_studio=false`.  
+**다음:** V4.71의 주장별 근거-문장 검토 및 실제 전문가/독자 평가 준비. K/Z 두 기관 메일은 사용자 검토·승인 없이는 발송하지 않는다.

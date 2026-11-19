@@ -1,0 +1,177 @@
+{
+  "schema": "ATLAS_V470_W2119_ART15_TRANSLATION_GAP_AND_HEPPE_EDITION_CANDIDATE",
+  "date": "2026-11-19",
+  "repository": "worldinyj/REFORMATION-ATLAS",
+  "branch": "integration/atlas-phase1-browser-qa-v452",
+  "previousAudit": "research/data/ATLAS_V469_HEPPE_BIBLIOGRAPHY_AND_MARBURG_VARIANT_HISTORIOGRAPHY.json",
+  "scope": "research-only flagship reader candidate not actual AI Studio deployment",
+  "eventId": "EVENT-MARBURG-1529",
+  "documentPath": "integrations/atlas-flagship-phase1/V470_MARBURG_1529_READER_COPYTEXT_DIFFERENCES_KO.md",
+  "sourceRegistry": [
+    {
+      "id": "P-W2119-ART15",
+      "kind": "DIRECT_1529_PRINT_IMAGE",
+      "url": "https://www.e-rara.ch/zuz/download/pdf/170052",
+      "pageIndexZeroBased": 6,
+      "holdingInstitution": "Zentralbibliothek Zürich",
+      "shelfmark": "5.174,5",
+      "bibliography": "VD16 W2119",
+      "directlyViewedThisSession": true,
+      "notes": "Mass intercessory grace clause in 1529 printed text; distinct from handwritten marginalia"
+    },
+    {
+      "id": "P-W2119-COLOPHON",
+      "kind": "DIRECT_1529_PRINT_IMAGE",
+      "url": "https://www.e-rara.ch/zuz/download/pdf/170052",
+      "pageIndexZeroBased": 7,
+      "holdingInstitution": "Zentralbibliothek Zürich",
+      "shelfmark": "5.174,5",
+      "directlyViewedThisSession": true,
+      "notes": "Printed list of signatories and Christoffel Froschouer printing colophon, NOT autograph signatures"
+    },
+    {
+      "id": "E-GHDI-ART15",
+      "kind": "EDITED_ENGLISH_TRANSLATION",
+      "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/the-marburg-colloquy-the-marburg-articles-1529",
+      "editorialCopyText": "WA 30 III (1910) pp160-171",
+      "article15Reviewed": true,
+      "massClauseVisibleInThisTranslation": false,
+      "directlyViewedThisSession": true
+    },
+    {
+      "id": "A-Z-K",
+      "kind": "OFFICIAL_ARCHIVAL_CATALOGUE",
+      "url": "https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=618165",
+      "record": "StAZH E I 3.1 Nr.54",
+      "catalogueReportsZAdditionsArticles": [
+        7,
+        13,
+        15
+      ],
+      "autographLeavesDirectlyRead": false
+    },
+    {
+      "id": "B-SCHAFF-1847-1854",
+      "kind": "HISTORICAL_BIBLIOGRAPHER_ASSERTION",
+      "url": "https://ccel.org/ccel/schaff/hcc7/hcc7.ii.vii.vii.html",
+      "locator": "Volume VII, section 107, bibliography II",
+      "claims": [
+        "Heppe Kassel 1847",
+        "2d ed. 1854"
+      ],
+      "heppeTitlePagesDirectlyViewed": false,
+      "directlyViewedThisSession": true,
+      "editionRelationStatus": "HISTORICAL_SECOND_EDITION_ATTESTATION_NOT_PHYSICAL_VERIFICATION"
+    },
+    {
+      "id": "B-GPLAY-1854",
+      "kind": "MODERN_BOOK_CATALOGUE",
+      "url": "https://play.google.com/store/books/details/Heinrich_Heppe_Die_f%C3%BCnfzehn_Marburger_Artikel_vom?id=L2b7YTiIyLwC",
+      "reportedYear": 1854,
+      "pageCount": 23,
+      "editionStatementOnPhysicalTitlePageVerified": false,
+      "directlyViewedThisSession": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "C470-01",
+      "text": "1529 W2119 article15 contains a mass intercession grace clause",
+      "support": [
+        "P-W2119-ART15"
+      ],
+      "level": "DIRECT_PRINT_IMAGE_VIEWED",
+      "humanExpertApproved": false
+    },
+    {
+      "id": "C470-02",
+      "text": "GHDI article15 translation lacks the additional mass clause present in W2119",
+      "support": [
+        "P-W2119-ART15",
+        "E-GHDI-ART15"
+      ],
+      "level": "DIRECT_PRINT_VS_EDITED_TRANSLATION_COMPARISON",
+      "humanExpertApproved": false,
+      "entailsKZAutographGenealogy": false
+    },
+    {
+      "id": "C470-03",
+      "text": "Article15 combines shared statements and disagreement concerning bodily presence",
+      "support": [
+        "P-W2119-ART15",
+        "E-GHDI-ART15"
+      ],
+      "level": "CROSS_SOURCE_SEMANTIC_ALIGNMENT",
+      "humanExpertApproved": false
+    },
+    {
+      "id": "C470-04",
+      "text": "W2119 printed page bears Froschouer colophon",
+      "support": [
+        "P-W2119-COLOPHON"
+      ],
+      "level": "DIRECT_PRINT_IMAGE_VIEWED",
+      "humanExpertApproved": false
+    },
+    {
+      "id": "C470-05",
+      "text": "Schaff labels 1847 Heppe edition and 1854 2nd edition",
+      "support": [
+        "B-SCHAFF-1847-1854",
+        "B-GPLAY-1854"
+      ],
+      "level": "HISTORICAL_SECONDARY_BIBLIOGRAPHY",
+      "heppeTitlePagesVerified": false,
+      "humanExpertApproved": false
+    },
+    {
+      "id": "C470-06",
+      "text": "Zurich archival catalogue reports added loci 7,13,15 in signed Z versus K",
+      "support": [
+        "A-Z-K"
+      ],
+      "level": "OFFICIAL_CATALOGUE_NOT_DIRECT_AUTOGRAPH_IMAGE",
+      "humanExpertApproved": false
+    }
+  ],
+  "readerDraft": {
+    "l0Present": true,
+    "l1Present": true,
+    "expertAndReaderEvaluationNotStarted": true,
+    "readerQuestionsCount": 3
+  },
+  "sourceBoundaries": {
+    "signedAutographKArticle15Read": false,
+    "signedAutographZArticle15Read": false,
+    "originalLatin1531Article10Read": false,
+    "originalLatin1540Article10Read": false,
+    "heppe1847OriginalTitlePageRead": false,
+    "heppe1854OriginalTitlePageRead": false,
+    "modernEditedTranslationIsNotPrint": true,
+    "printedSignatureNamesAreNotAutographInk": true,
+    "w2118W2108FreshlyReadThisSession": false,
+    "schaff2ndEditionClaimIsNotPhysicalInspection": true
+  },
+  "rights": {
+    "w2119InstitutionalPublicDomainMark": true,
+    "repositoryUploadsHistoricalImage": false,
+    "sourceAttributionRequired": true,
+    "unlicensedPrivateScansPublished": false
+  },
+  "privacy": {
+    "emailsSentThisVersion": 0,
+    "archiveOrdersPlacedThisVersion": 0,
+    "personalMailIdsPubliclyRecorded": false
+  },
+  "reviewGates": {
+    "historianApprovals": 0,
+    "readerParticipants": 0,
+    "canShip": false,
+    "canMergeMain": false,
+    "canImportAIStudio": false,
+    "mainModified": false,
+    "realAIStudioModified": false,
+    "productionHistoricalProseModified": false
+  },
+  "next": "V4.71 source-tag candidate L0/L1 claims, obtain historian approvals and actual reader evaluation; request K/Z only after user approval"
+}
