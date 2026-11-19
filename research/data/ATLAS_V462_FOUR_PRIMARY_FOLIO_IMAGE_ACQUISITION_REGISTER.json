@@ -66,7 +66,15 @@
         "V457-C02",
         "V457-C03",
         "V457-C12"
-      ]
+      ],
+      "archiveAcquisitionRequestV467": {
+        "requestId": "REQ467-K",
+        "linkedRegister": "research/data/ATLAS_V467_KZ_AUTOGRAPH_ARCHIVE_ACQUISITION_AND_SOURCE_GATES.json",
+        "requestStatus": "DRAFT_NOT_SENT",
+        "orderStatus": "NOT_ORDERED",
+        "imageReceived": false,
+        "financialApproval": false
+      }
     },
     {
       "id": "T462-Z-ART15",
@@ -112,7 +120,15 @@
         "V457-C02",
         "V457-C03",
         "V457-C12"
-      ]
+      ],
+      "archiveAcquisitionRequestV467": {
+        "requestId": "REQ467-Z",
+        "linkedRegister": "research/data/ATLAS_V467_KZ_AUTOGRAPH_ARCHIVE_ACQUISITION_AND_SOURCE_GATES.json",
+        "requestStatus": "DRAFT_NOT_SENT",
+        "orderStatus": "NOT_ORDERED",
+        "imageReceived": false,
+        "financialApproval": false
+      }
     },
     {
       "id": "T462-L1531-ARTX",
@@ -258,5 +274,12 @@
       "study": "research/data/ATLAS_V463_W2119_1529_PRINT_ART13_ART15_DIRECT_SCAN_EVIDENCE.json"
     }
   ],
-  "v463Accounting": "V462 requires exact K and Z signed Art15 pages and exact 1531/1540 Latin ArtX pages, so W2119 direct printed Art15 examination advances primary-source evidence but the four target-pair readiness remains 0/4."
+  "v463Accounting": "V462 requires exact K and Z signed Art15 pages and exact 1531/1540 Latin ArtX pages, so W2119 direct printed Art15 examination advances primary-source evidence but the four target-pair readiness remains 0/4.",
+  "v467ActualAdvance": {
+    "source": "research/data/ATLAS_V467_KZ_AUTOGRAPH_ARCHIVE_ACQUISITION_AND_SOURCE_GATES.json",
+    "changed": "Verified official archive addresses and signed request procedures, drafted exact-shelfmark research inquiries for autograph K and Z",
+    "requestsSent": 0,
+    "manuscriptOriginalPagesActuallyRead": 0,
+    "technicalReadiness": "NOT_READY_FOR_SOURCE_TEXT_PROMOTION"
+  }
 }
