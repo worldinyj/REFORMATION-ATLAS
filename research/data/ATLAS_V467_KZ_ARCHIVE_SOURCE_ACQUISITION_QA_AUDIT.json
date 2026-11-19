@@ -1,0 +1,84 @@
+{
+  "schema": "ATLAS_V467_SIGNED_KZ_ARCHIVAL_SOURCE_ACQUISITION_QA_AUDIT",
+  "date": "2026-11-19",
+  "task": "Secure actual K and Z signed manuscript Article 15 leaves via official archives or facsimiles; do not invent direct reads",
+  "institutionalSourceStatus": {
+    "HESSIAN_K": {
+      "sourceInstitution": "Hessisches Staatsarchiv Marburg",
+      "archivalID": "HStAM Best. 3 Nr. 245",
+      "officialEmail": "marburg@hla.hessen.de",
+      "contactVerifiedOnCurrentOfficialPage": true,
+      "reproductionPossibleSubjectToFeesAndConservation": true,
+      "existingKDigitizationViewerKnown": true,
+      "actualArt15ScanViewed": false,
+      "datedFacsimilePublication": "Heinrich Heppe 1854",
+      "facsimileSpecificPageActuallyRead": false,
+      "folioNotationDisagreementUnresolved": "Bl60-63 vs fol60r-64v"
+    },
+    "ZURICH_Z": {
+      "sourceInstitution": "Staatsarchiv des Kantons Zürich",
+      "archivalID": "StAZH E I 3.1 Nr.54",
+      "officialEmail": "staatsarchivzh@ji.zh.ch",
+      "contactVerifiedOnCurrentOfficialPage": true,
+      "formalSignedReproductionFormRequired": true,
+      "facsimilePublication": "Johann Martin Usteri 1883 pp409-413",
+      "facsimileSpecificPageActuallyRead": false,
+      "actualArt15ScanViewed": false,
+      "archivalExtraClausesAtArticles": [
+        7,
+        13,
+        15
+      ]
+    }
+  },
+  "newResearchSource": {
+    "scholarlyEdition2012": "Wolf-Friedrich Schäufele (ed.), Die Marburger Artikel als Zeugnis der Einheit (Leipzig, 2012), pp13–29 includes facsimile-transcription-translation chapter, identified via ETH table of contents, not read",
+    "internetFacsimile1854": "Google Play listing Heppe 1854 free 23-page ebook, full image not directly fetched",
+    "volume1883": "Tübingen digital journal volume 56 (1883) identified, actual pp409–413 not readable via tool",
+    "context": "Official Zürich archive distinguishes K/Z and critical edition text bases; direct original-page reading still needed"
+  },
+  "newWrittenDeliverables": [
+    "research/data/ATLAS_V467_KZ_AUTOGRAPH_ARCHIVE_ACQUISITION_AND_SOURCE_GATES.json",
+    "integrations/atlas-flagship-phase1/V467_KZ_AUTOGRAPH_SOURCE_ACQUISITION_AND_GERMAN_REQUESTS_KO.md",
+    "integrations/atlas-flagship-phase1/v467-kz-autograph-acquisition-contract.test.mjs",
+    "research/data/ATLAS_V462_FOUR_PRIMARY_FOLIO_IMAGE_ACQUISITION_REGISTER.json"
+  ],
+  "externalActions": {
+    "emailsDrafted": 2,
+    "emailsActuallySent": 0,
+    "reproductionOrdersSubmitted": 0,
+    "reproductionOrdersPaid": 0,
+    "expectedArchiveReplies": 0,
+    "receivedOriginalImageFiles": 0,
+    "personalDetailsUploadedToPublicRepo": false,
+    "publicationRightsGranted": false
+  },
+  "quality": {
+    "newContractAssertions": 6,
+    "priorFolioGateAssertions": 5,
+    "totalAdaptedV8AssertionsPassed": 11,
+    "totalFailed": 0,
+    "method": "Fetched GitHub JavaScript tests and JSON sources; executed test bodies in V8 with Node imports/readFile shim, not native node --test or verified Actions run",
+    "githubActionsRunVerified": false,
+    "historianQualifiedReviews": 0,
+    "readerPilotParticipants": 0,
+    "directKOriginalArticle15PagesRead": 0,
+    "directZOriginalArticle15PagesRead": 0,
+    "directKZDiplomaticParallelTextRows": 0,
+    "archiveInferredOriginalTextFabricated": 0
+  },
+  "nextMilestone": {
+    "startCondition": "Official archival leaf or rights-compliant facsimile of K and Z Article15 is actually acquired and directly viewed.",
+    "procedure": "Record scanned source image SHA256, archive item/folio and rights, transcribe separately, compare the additional sentence(s), obtain human specialist verification.",
+    "alternatePath": "Use published K-based 2014 and Z-based Reformed Confessions 1/1 scholarly editions to prepare reading aids only; do not call them autograph images.",
+    "releaseGate": "Only after complete source-critical and reader validation, separate main/app promotion decision."
+  },
+  "release": {
+    "canShip": false,
+    "canMergeMain": false,
+    "canImportAIStudio": false
+  },
+  "mainUpdated": false,
+  "productionAIStudioUpdated": false,
+  "historicalIntegratedProseUpdated": false
+}
