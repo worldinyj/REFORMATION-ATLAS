@@ -1,0 +1,641 @@
+{
+  "schema": "ATLAS_V471_SENTENCE_PROVENANCE_AND_REVIEW_KIT",
+  "version": "4.71",
+  "date": "2026-11-20",
+  "branch": "integration/atlas-phase1-browser-qa-v452",
+  "sourceDocument": "integrations/atlas-flagship-phase1/V470_MARBURG_1529_READER_COPYTEXT_DIFFERENCES_KO.md",
+  "sourceDocumentBlobSha": "23beab92199ac7aae5ddc0ddd0e894078d8c5068",
+  "sourceData": "research/data/ATLAS_V470_W2119_ART15_TRANSLATION_GAP_AND_HEPPE_EDITION_CANDIDATE.json",
+  "existingExpertRegister": "research/data/ATLAS_V457_CLAIM_SOURCE_CRITICAL_REGISTER.json",
+  "existingPilot": "research/data/ATLAS_V457_READER_PILOT_INSTRUMENT.json",
+  "sourceRegistry": [
+    {
+      "id": "P-W2119-ART15",
+      "url": "https://www.e-rara.ch/zuz/download/pdf/170052",
+      "sourceKind": "DIRECT_1529_PRINT_IMAGE"
+    },
+    {
+      "id": "P-W2119-COLOPHON",
+      "url": "https://www.e-rara.ch/zuz/download/pdf/170052",
+      "sourceKind": "DIRECT_1529_PRINT_IMAGE"
+    },
+    {
+      "id": "E-GHDI-ART15",
+      "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/the-marburg-colloquy-the-marburg-articles-1529",
+      "sourceKind": "EDITED_ENGLISH_TRANSLATION"
+    },
+    {
+      "id": "A-Z-K",
+      "url": "https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=618165",
+      "sourceKind": "OFFICIAL_ARCHIVAL_CATALOGUE"
+    },
+    {
+      "id": "B-SCHAFF-1847-1854",
+      "url": "https://ccel.org/ccel/schaff/hcc7/hcc7.ii.vii.vii.html",
+      "sourceKind": "HISTORICAL_BIBLIOGRAPHER_ASSERTION"
+    },
+    {
+      "id": "B-GPLAY-1854",
+      "url": "https://play.google.com/store/books/details/Heinrich_Heppe_Die_f%C3%BCnfzehn_Marburger_Artikel_vom?id=L2b7YTiIyLwC",
+      "sourceKind": "MODERN_BOOK_CATALOGUE"
+    },
+    {
+      "id": "GHDI_MARBURG",
+      "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/the-marburg-colloquy-the-marburg-articles-1529",
+      "sourceKind": "edited primary text in English translation"
+    },
+    {
+      "id": "GRUBER_AUGSBURG",
+      "url": "https://gruber.lstc.edu/confessions/augs_apol.php",
+      "sourceKind": "institutional collection descriptions"
+    }
+  ],
+  "sentenceAnnotations": [
+    {
+      "id": "V471-S01",
+      "layer": "L0",
+      "subsection": "",
+      "originalSentence": "1529년 10월, 독일 마르부르크에서 루터와 츠빙글리를 비롯한 개혁자들은 서로의 신앙을 확인하기 위해 만났다.",
+      "sourceIds": [
+        "GHDI_MARBURG"
+      ],
+      "claimIds": [
+        "V457-C01"
+      ],
+      "risk": "MEDIUM",
+      "disposition": "EXPERT_REVIEW",
+      "editorialNote": "Purpose claim 'confirm each other's faith' interpretive; check meeting context",
+      "reviewer1": null,
+      "reviewer2": null,
+      "decision": "PENDING"
+    },
+    {
+      "id": "V471-S02",
+      "layer": "L0",
+      "subsection": "",
+      "originalSentence": "이들은 하나님, 그리스도, 믿음과 같은 많은 주제를 함께 고백했고, 10월 3일 15개 조항의 문서를 남겼다.",
+      "sourceIds": [
+        "GHDI_MARBURG"
+      ],
+      "claimIds": [
+        "V457-C01"
+      ],
+      "risk": "LOW",
+      "disposition": "REVIEW_CANDIDATE",
+      "editorialNote": "3 October and fifteen articles, distinguish document heading from autographs",
+      "reviewer1": null,
+      "reviewer2": null,
+      "decision": "PENDING"
+    },
+    {
+      "id": "V471-S03",
+      "layer": "L0",
+      "subsection": "",
+      "originalSentence": "가장 어려운 부분은 마지막 제15조, 곧 성찬이었다.",
+      "sourceIds": [
+        "E-GHDI-ART15"
+      ],
+      "claimIds": [
+        "C470-03"
+      ],
+      "risk": "MEDIUM",
+      "disposition": "REVISE_BEFORE_REVIEW",
+      "editorialNote": "Subjective '가장 어려운'",
+      "proposedRewrite": "핵심 쟁점 가운데 하나는 마지막 제15조, 곧 성찬이었다.",
+      "reviewer1": null,
+      "reviewer2": null,
+      "decision": "PENDING"
+    },
+    {
+      "id": "V471-S04",
+      "layer": "L0",
+      "subsection": "",
+      "originalSentence": "이 조항에는 함께 받아들이는 내용도 있었지만, 빵과 포도주 안에서 그리스도의 몸과 피가 어떤 방식으로 현존하는지를 둘러싼 이견도 남았다.",
+      "sourceIds": [
+        "P-W2119-ART15",
+        "E-GHDI-ART15"
+      ],
+      "claimIds": [
+        "C470-03"
+      ],
+      "risk": "HIGH",
+      "disposition": "EXPERT_REVIEW",
+      "editorialNote": "Avoid attributing a shared doctrinal settlement of mode of presence",
+      "reviewer1": null,
+      "reviewer2": null,
+      "decision": "PENDING"
+    },
+    {
+      "id": "V471-S05",
+      "layer": "L0",
+      "subsection": "",
+      "originalSentence": "문서 말미에는 서로를 향한 그리스도인의 사랑과 기도를 요청한다.",
+      "sourceIds": [
+        "E-GHDI-ART15"
+      ],
+      "claimIds": [
+        "V457-C04"
+      ],
+      "risk": "MEDIUM",
+      "disposition": "REVIEW_CANDIDATE",
+      "editorialNote": "Final exhortation is not proof of later reconciliation",
+      "reviewer1": null,
+      "reviewer2": null,
+      "decision": "PENDING"
+    },
+    {
+      "id": "V471-S06",
+      "layer": "L0",
+      "subsection": "",
+      "originalSentence": "이 이야기를 깊이 읽으려면 한 단계 더 살펴야 한다.",
+      "sourceIds": [],
+      "claimIds": [],
+      "risk": "LOW",
+      "disposition": "EDITORIAL_NO_HISTORICAL_ASSERTION",
+      "editorialNote": "Reader prompt; no historical evidence required",
+      "reviewer1": null,
+      "reviewer2": null,
+      "decision": "PENDING"
+    },
+    {
+      "id": "V471-S07",
+      "layer": "L0",
+      "subsection": "",
+      "originalSentence": "**1529년에 인쇄된 취리히본에는 어떤 문장이 있는데, 오늘날 널리 읽히는 편집 번역에는 나타나지 않는다.**",
+      "sourceIds": [
+        "P-W2119-ART15",
+        "E-GHDI-ART15"
+      ],
+      "claimIds": [
+        "C470-02"
+      ],
+      "risk": "HIGH",
+      "disposition": "REVISE_BEFORE_REVIEW",
+      "editorialNote": "'widely read translation' lacks reach evidence; confine claim to checked GHDI text",
+      "proposedRewrite": "1529년 취리히 인쇄본 W2119에는 한 문장이 보이지만, 여기서 대조한 GHDI 영어 번역 제15조에서는 대응 문장이 보이지 않는다.",
+      "reviewer1": null,
+      "reviewer2": null,
+      "decision": "PENDING"
+    },
+    {
+      "id": "V471-S08",
+      "layer": "L0",
+      "subsection": "",
+      "originalSentence": "마르부르크의 역사는 ‘누가 이겼는가’만큼이나 **어떤 문서를 근거로 말하는가**라는 질문을 던진다.",
+      "sourceIds": [],
+      "claimIds": [],
+      "risk": "LOW",
+      "disposition": "EDITORIAL_NO_HISTORICAL_ASSERTION",
+      "editorialNote": "Interpretive rhetorical invitation, not asserted primary text fact",
+      "reviewer1": null,
+      "reviewer2": null,
+      "decision": "PENDING"
+    },
+    {
+      "id": "V471-S09",
+      "layer": "L1",
+      "subsection": "3.1. 만남의 역사적 자리",
+      "originalSentence": "헤센의 영주 필리프가 주선한 이 만남은 서로 다른 개혁 운동의 신학적 대화이면서 정치적 연대를 모색한 사건이었다.",
+      "sourceIds": [
+        "GHDI_MARBURG"
+      ],
+      "claimIds": [
+        "V457-C01"
+      ],
+      "risk": "HIGH",
+      "disposition": "EXPERT_REVIEW",
+      "editorialNote": "Philip’s sponsorship and political alliance motivation need separate scholarly cross-check",
+      "reviewer1": null,
+      "reviewer2": null,
+      "decision": "PENDING"
+    },
+    {
+      "id": "V471-S10",
+      "layer": "L1",
+      "subsection": "3.1. 만남의 역사적 자리",
+      "originalSentence": "그러나 정치적 필요만으로 신학적 차이를 지울 수 없었다.",
+      "sourceIds": [
+        "E-GHDI-ART15"
+      ],
+      "claimIds": [
+        "C470-03"
+      ],
+      "risk": "MEDIUM",
+      "disposition": "EXPERT_REVIEW",
+      "editorialNote": "Political and theological causal reading, not a direct quotation",
+      "reviewer1": null,
+      "reviewer2": null,
+      "decision": "PENDING"
+    },
+    {
+      "id": "V471-S11",
+      "layer": "L1",
+      "subsection": "3.1. 만남의 역사적 자리",
+      "originalSentence": "1529년의 합의 문서는 공동으로 말할 수 있는 신앙 내용을 적는 동시에, 완전히 해소되지 않은 문제를 숨기지 않았다.",
+      "sourceIds": [
+        "E-GHDI-ART15"
+      ],
+      "claimIds": [
+        "C470-03"
+      ],
+      "risk": "MEDIUM",
+      "disposition": "REVIEW_CANDIDATE",
+      "editorialNote": "General characterization of 15 articles, no exact original alignment",
+      "reviewer1": null,
+      "reviewer2": null,
+      "decision": "PENDING"
+    },
+    {
+      "id": "V471-S12",
+      "layer": "L1",
+      "subsection": "3.1. 만남의 역사적 자리",
+      "originalSentence": "**정치적 동기와 각 개혁자의 내적 의도를 특정 인물의 단일한 목적이라고 단정하지 않는다.**",
+      "sourceIds": [],
+      "claimIds": [],
+      "risk": "LOW",
+      "disposition": "EDITORIAL_NO_HISTORICAL_ASSERTION",
+      "editorialNote": "Cautionary guideline rather than archival claim",
+      "reviewer1": null,
+      "reviewer2": null,
+      "decision": "PENDING"
+    },
+    {
+      "id": "V471-S13",
+      "layer": "L1",
+      "subsection": "3.2. 제15조를 ‘완전 합의’ 또는 ‘완전 불합의’로 축약하지 않는다",
+      "originalSentence": "GHDI 편집 문서와 이번에 다시 확인한 W2119 실물 활자는 제15조가 성찬에 관한 **공동 진술**, 그리스도의 몸과 피가 빵과 포도주 안에 *육체적으로* 현존하는지에 대한 **남은 이견**, 그리고 **상호 사랑과 기도**의 요청을 포함한다는 점에서 만난다.",
+      "sourceIds": [
+        "P-W2119-ART15",
+        "E-GHDI-ART15"
+      ],
+      "claimIds": [
+        "C470-03"
+      ],
+      "risk": "HIGH",
+      "disposition": "EXPERT_REVIEW",
+      "editorialNote": "Three-part semantic assessment; preserve 'bodily' nuance",
+      "reviewer1": null,
+      "reviewer2": null,
+      "decision": "PENDING"
+    },
+    {
+      "id": "V471-S14",
+      "layer": "L1",
+      "subsection": "3.2. 제15조를 ‘완전 합의’ 또는 ‘완전 불합의’로 축약하지 않는다",
+      "originalSentence": "이 셋은 동시 존재한다.",
+      "sourceIds": [
+        "P-W2119-ART15",
+        "E-GHDI-ART15"
+      ],
+      "claimIds": [
+        "C470-03"
+      ],
+      "risk": "MEDIUM",
+      "disposition": "REVIEW_CANDIDATE",
+      "editorialNote": "Depends on previous sentence",
+      "reviewer1": null,
+      "reviewer2": null,
+      "decision": "PENDING"
+    },
+    {
+      "id": "V471-S15",
+      "layer": "L1",
+      "subsection": "3.2. 제15조를 ‘완전 합의’ 또는 ‘완전 불합의’로 축약하지 않는다",
+      "originalSentence": "제15조 전체에 아무런 합의가 없었다거나 성찬 문제 전체가 해결됐다고 서술하는 것은 두 문헌의 어느 쪽과도 부합하지 않는다.",
+      "sourceIds": [
+        "P-W2119-ART15",
+        "E-GHDI-ART15"
+      ],
+      "claimIds": [
+        "C470-03"
+      ],
+      "risk": "HIGH",
+      "disposition": "REVIEW_CANDIDATE",
+      "editorialNote": "No full agreement/no full disagreement overstatement guard",
+      "reviewer1": null,
+      "reviewer2": null,
+      "decision": "PENDING"
+    },
+    {
+      "id": "V471-S16",
+      "layer": "L1",
+      "subsection": "3.3. 단일 영어 번역에는 나타나지 않는 1529년 인쇄 문장",
+      "originalSentence": "Zürich W2119 원본 PDF p6의 인쇄문에는 미사를 다른 사람을 위해 은총을 얻어 주는 행위로 보는 관점에 반대하는 대목이 있다.",
+      "sourceIds": [
+        "P-W2119-ART15"
+      ],
+      "claimIds": [
+        "C470-01"
+      ],
+      "risk": "HIGH",
+      "disposition": "EXPERT_REVIEW",
+      "editorialNote": "Make sure original print clause not misidentified as K/Z autograph",
+      "reviewer1": null,
+      "reviewer2": null,
+      "decision": "PENDING"
+    },
+    {
+      "id": "V471-S17",
+      "layer": "L1",
+      "subsection": "3.3. 단일 영어 번역에는 나타나지 않는 1529년 인쇄 문장",
+      "originalSentence": "반면 GHDI의 영어 편집 번역 제15조에는 대응 문장이 없다.",
+      "sourceIds": [
+        "E-GHDI-ART15",
+        "P-W2119-ART15"
+      ],
+      "claimIds": [
+        "C470-02"
+      ],
+      "risk": "HIGH",
+      "disposition": "EXPERT_REVIEW",
+      "editorialNote": "Absence limited to this English translation, not all copies",
+      "reviewer1": null,
+      "reviewer2": null,
+      "decision": "PENDING"
+    },
+    {
+      "id": "V471-S18",
+      "layer": "L1",
+      "subsection": "3.3. 단일 영어 번역에는 나타나지 않는 1529년 인쇄 문장",
+      "originalSentence": "이 차이를 **편집·번역 저본에 따라 독자에게 보이는 문장이 달라지는 사례**로 보여 준다.",
+      "sourceIds": [
+        "E-GHDI-ART15",
+        "P-W2119-ART15"
+      ],
+      "claimIds": [
+        "C470-02"
+      ],
+      "risk": "HIGH",
+      "disposition": "REVISE_BEFORE_REVIEW",
+      "editorialNote": "Cannot prove editorial ancestry from one visible difference",
+      "proposedRewrite": "두 자료를 나란히 읽으면 독자가 확인할 수 있는 문장이 다르지만, 그 차이만으로 각 저본의 전승 관계를 확정할 수는 없다.",
+      "reviewer1": null,
+      "reviewer2": null,
+      "decision": "PENDING"
+    },
+    {
+      "id": "V471-S19",
+      "layer": "L1",
+      "subsection": "3.3. 단일 영어 번역에는 나타나지 않는 1529년 인쇄 문장",
+      "originalSentence": "단, 현재까지 K/Z의 자필 문구와 삽입 위치를 직접 확인하지 못했으므로, 이 문장 하나만을 근거로 특정 개혁자가 언제 어떻게 조항을 ‘추가했다’고 단정하지 않는다.",
+      "sourceIds": [
+        "A-Z-K"
+      ],
+      "claimIds": [
+        "C470-06"
+      ],
+      "risk": "HIGH",
+      "disposition": "REVIEW_CANDIDATE",
+      "editorialNote": "Do not impute palaeographical attribution to any reformer",
+      "reviewer1": null,
+      "reviewer2": null,
+      "decision": "PENDING"
+    },
+    {
+      "id": "V471-S20",
+      "layer": "L1",
+      "subsection": "3.4. 서명 필사본, 인쇄본, 학술판, 번역문은 서로 다른 사료다",
+      "originalSentence": "현재 아카이브가 구분하는 서명 필사본은 헤센 K와 취리히 Z이다.",
+      "sourceIds": [
+        "A-Z-K"
+      ],
+      "claimIds": [
+        "C470-06"
+      ],
+      "risk": "MEDIUM",
+      "disposition": "REVIEW_CANDIDATE",
+      "editorialNote": "Archive record identifies two signed exemplars",
+      "reviewer1": null,
+      "reviewer2": null,
+      "decision": "PENDING"
+    },
+    {
+      "id": "V471-S21",
+      "layer": "L1",
+      "subsection": "3.4. 서명 필사본, 인쇄본, 학술판, 번역문은 서로 다른 사료다",
+      "originalSentence": "1529년의 취리히 인쇄본 W2119는 그중 어느 문서를 그대로 사진 복사한 것이 아니라 **별도로 조판되어 배포된 인쇄 증인**이다.",
+      "sourceIds": [
+        "P-W2119-ART15",
+        "A-Z-K"
+      ],
+      "claimIds": [
+        "C470-04"
+      ],
+      "risk": "HIGH",
+      "disposition": "REVISE_BEFORE_REVIEW",
+      "editorialNote": "Photocopy metaphor anachronistic; immediate copy-text relation unresolved",
+      "proposedRewrite": "1529년 취리히 인쇄본 W2119는 서명 필사본 K·Z와 별개의 인쇄 증인이며, 어느 필사본을 조판 저본으로 삼았는지는 아직 확정되지 않았다.",
+      "reviewer1": null,
+      "reviewer2": null,
+      "decision": "PENDING"
+    },
+    {
+      "id": "V471-S22",
+      "layer": "L1",
+      "subsection": "3.4. 서명 필사본, 인쇄본, 학술판, 번역문은 서로 다른 사료다",
+      "originalSentence": "1910년 WA 비판판 및 그에 기초한 GHDI 영어 번역은 다시 **현대 독자가 이용하는 편집·번역 단계의 자료**다.",
+      "sourceIds": [
+        "E-GHDI-ART15",
+        "GHDI_MARBURG"
+      ],
+      "claimIds": [
+        "V457-C12"
+      ],
+      "risk": "MEDIUM",
+      "disposition": "REVIEW_CANDIDATE",
+      "editorialNote": "Confirm editorial source details; avoid claiming GHDI is a verbatim original",
+      "reviewer1": null,
+      "reviewer2": null,
+      "decision": "PENDING"
+    },
+    {
+      "id": "V471-S23",
+      "layer": "L1",
+      "subsection": "3.4. 서명 필사본, 인쇄본, 학술판, 번역문은 서로 다른 사료다",
+      "originalSentence": "그래서 각 사료 카드는 `물리적 문헌 증인 → 페이지 → 본문·편집 저본 → 현대 해석`이라는 계층으로 보아야 한다.",
+      "sourceIds": [
+        "P-W2119-ART15",
+        "E-GHDI-ART15"
+      ],
+      "claimIds": [
+        "V457-C12"
+      ],
+      "risk": "MEDIUM",
+      "disposition": "EDITORIAL_NO_HISTORICAL_ASSERTION",
+      "editorialNote": "Design guideline / provenance layering",
+      "reviewer1": null,
+      "reviewer2": null,
+      "decision": "PENDING"
+    },
+    {
+      "id": "V471-S24",
+      "layer": "L1",
+      "subsection": "3.5. 19세기 복제 연구조차 판차 확인이 필요하다",
+      "originalSentence": "K 서명본의 파크시밀리와 관련하여 1847년 당대 서지·광고와 1854년 디지털 목록이 공존한다.",
+      "sourceIds": [
+        "B-SCHAFF-1847-1854",
+        "B-GPLAY-1854"
+      ],
+      "claimIds": [
+        "C470-05"
+      ],
+      "risk": "HIGH",
+      "disposition": "REVIEW_CANDIDATE",
+      "editorialNote": "Historic bibliography attested; individual title pages unviewed",
+      "reviewer1": null,
+      "reviewer2": null,
+      "decision": "PENDING"
+    },
+    {
+      "id": "V471-S25",
+      "layer": "L1",
+      "subsection": "3.5. 19세기 복제 연구조차 판차 확인이 필요하다",
+      "originalSentence": "샤프는 1854년을 헤페 책의 제2판으로 명시했지만, 이것은 **샤프의 서지 진술**이라는 출처 한계를 함께 표시한다.",
+      "sourceIds": [
+        "B-SCHAFF-1847-1854"
+      ],
+      "claimIds": [
+        "C470-05"
+      ],
+      "risk": "MEDIUM",
+      "disposition": "REVIEW_CANDIDATE",
+      "editorialNote": "Schaff is bibliographer; not original title-page inspection",
+      "reviewer1": null,
+      "reviewer2": null,
+      "decision": "PENDING"
+    },
+    {
+      "id": "V471-S26",
+      "layer": "L1",
+      "subsection": "3.5. 19세기 복제 연구조차 판차 확인이 필요하다",
+      "originalSentence": "역사 설명 화면에서 ‘헤페가 1854년에 처음 발견·출판했다’고 쓰지 않는다.",
+      "sourceIds": [
+        "B-SCHAFF-1847-1854"
+      ],
+      "claimIds": [
+        "C470-05"
+      ],
+      "risk": "MEDIUM",
+      "disposition": "EDITORIAL_NO_HISTORICAL_ASSERTION",
+      "editorialNote": "Negative publishing rule",
+      "reviewer1": null,
+      "reviewer2": null,
+      "decision": "PENDING"
+    },
+    {
+      "id": "V471-S27",
+      "layer": "L1",
+      "subsection": "3.6. 1530년 아우크스부르크와의 연결",
+      "originalSentence": "마르부르크의 성찬 이견은 이후 종교개혁 진영의 고백과 연합 문제를 읽는 중요한 배경이다.",
+      "sourceIds": [
+        "E-GHDI-ART15",
+        "GRUBER_AUGSBURG"
+      ],
+      "claimIds": [
+        "C470-03"
+      ],
+      "risk": "MEDIUM",
+      "disposition": "EXPERT_REVIEW",
+      "editorialNote": "The connection to later confessions is historiographic not proof of linear causation",
+      "reviewer1": null,
+      "reviewer2": null,
+      "decision": "PENDING"
+    },
+    {
+      "id": "V471-S28",
+      "layer": "L1",
+      "subsection": "3.6. 1530년 아우크스부르크와의 연결",
+      "originalSentence": "그러나 **1529년 문서가 1530년 아우크스부르크 신앙고백이나 1540년 Variata의 모든 표현을 직접 결정했다**고 단선적으로 인과를 연결해서는 안 된다.",
+      "sourceIds": [
+        "GRUBER_AUGSBURG"
+      ],
+      "claimIds": [
+        "V457-C10"
+      ],
+      "risk": "HIGH",
+      "disposition": "REVIEW_CANDIDATE",
+      "editorialNote": "Explicitly bars simplistic causal claim, separate textual witnesses needed",
+      "reviewer1": null,
+      "reviewer2": null,
+      "decision": "PENDING"
+    },
+    {
+      "id": "V471-S29",
+      "layer": "L1",
+      "subsection": "3.6. 1530년 아우크스부르크와의 연결",
+      "originalSentence": "1530년 제출 문서·1531년 인쇄판·1540년 판본 및 각 제10조는 별도의 문헌 계보에 의해 설명해야 한다.",
+      "sourceIds": [
+        "GRUBER_AUGSBURG"
+      ],
+      "claimIds": [
+        "V457-C06"
+      ],
+      "risk": "HIGH",
+      "disposition": "REVIEW_CANDIDATE",
+      "editorialNote": "1530 submitted text vs 1531/1540 print edition paths need separate evidence",
+      "reviewer1": null,
+      "reviewer2": null,
+      "decision": "PENDING"
+    }
+  ],
+  "counts": {
+    "total": 29,
+    "l0": 8,
+    "l1": 21,
+    "needsRewrite": 4,
+    "expertsNeeded": 8,
+    "reviewCandidate": 12,
+    "editorial": 5
+  },
+  "gate": {
+    "expertInvitationsSent": 0,
+    "expertReviewsReceived": 0,
+    "readerSessionsCollected": 0,
+    "participantRecruitmentStarted": false,
+    "archiveRequestsSent": 0,
+    "newPaidOrders": 0,
+    "autographKZImagesReviewed": 0,
+    "canShip": false,
+    "canMergeMain": false,
+    "canImportAIStudio": false,
+    "originalContentModified": false,
+    "productionAppModified": false
+  },
+  "readerProtocol": {
+    "existingTasks": [
+      "TASK-01",
+      "TASK-02",
+      "TASK-03"
+    ],
+    "existingQuestions": [
+      "Q01",
+      "Q02",
+      "Q03",
+      "Q04",
+      "Q05",
+      "Q06",
+      "Q07",
+      "Q08",
+      "Q09"
+    ],
+    "existingThresholdsUnchanged": true,
+    "additionalUnscoredCalibrationQuestions": 3,
+    "answerKeyIsPublicInExistingRepo": true,
+    "noSurveyDataCollected": true,
+    "notScientificallyValidated": true
+  },
+  "expertProtocol": {
+    "roundOne": "1 independent qualified historian for all factual/high-risk sentences",
+    "roundTwo": "Second independent historian for HIGH risk claims",
+    "outcomes": [
+      "APPROVE",
+      "REVISE",
+      "HOLD"
+    ],
+    "noSilentApproval": true,
+    "formalNamesAndEmailsInPublicRepo": false,
+    "allActualReviewsPending": true
+  },
+  "sourceThreshold": "Official archive catalogue and edited translation are not equivalent to original signed manuscript; print-image direct reading limited to W2119.",
+  "recommendedNext": "V4.72 revise flagged lines in separate candidate draft (do not overwrite V4.70); seek actual human expert/reader feedback only with explicit review coordination and no unauthorized outreach"
+}

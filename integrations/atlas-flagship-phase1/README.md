@@ -390,3 +390,18 @@ V4.64에서 DOI 리다이렉트 오류로 **서지만 확인됐던 1529년 취�
 검사: `v470-reader-copytext-and-bibliographic-contract.test.mjs`.  
 **계속 보류:** `can_ship=false`, `can_merge_main=false`, `can_import_ai_studio=false`.  
 **다음:** V4.71의 주장별 근거-문장 검토 및 실제 전문가/독자 평가 준비. K/Z 두 기관 메일은 사용자 검토·승인 없이는 발송하지 않는다.
+
+## V4.71 — V4.70 L0/L1 29문장 출처·전문가 검토 연결, 독자 파일럿 자료 정비
+
+- V4.70 **L0 8문장 + L1 21문장 = 29문장**을 원문 그대로 분리해 각 문장에 실제 선행 사료 카드 및 V4.57/V4.70 주장 ID를 연결했다. 연구용 JSON에서 사료별 증거 수준과 전문가 판단 미완료 상태를 보존한다.
+- 즉시 수정 제안은 **4문장**(주관적 난도, '널리 읽히는' 근거 과잉, 번역 저본 인과 추론, 인쇄/필사 구별의 시대착오적 비유). V4.70 자체와 역사 원고는 **수정하지 않고** 후보만 생성했다.
+- 기존 **3과제·9문항**과 오프라인 채점 기준을 그대로 유지하고, 정답 없는 참가자용 안내지 및 **비채점 추가 확인 질문 3건**을 준비했다. 공개 저장소의 기존 평가 JSON에 정답이 있다는 점을 명시하여 실제 블라인드 평가로 과장하지 않는다.
+- 역사학자 0명, 독자 0명, 문의 발송 0건; **전문가 검토 요청과 독자 모집은 실행하지 않았다.**
+
+**[V4.71 연구·전문가 검토 패키지](./V471_HISTORIAN_SENTENCE_LEVEL_REVIEW_PACKAGE_KO.md)**  
+**[독자 참여 안내지(정답 제외)](./V471_READER_PARTICIPANT_HANDOUT_KO.md)**  
+데이터: `research/data/ATLAS_V471_SENTENCE_PROVENANCE_AND_REVIEW_KIT.json`  
+테스트: `v471-sentence-provenance-and-review-contract.test.mjs`.  
+**출시 상태:** `can_ship=false`, `can_merge_main=false`, `can_import_ai_studio=false`.
+
+**V4.72 권장:** 검토대상 4문장을 포함한 **별도 역사 해설 개정 후보**를 편집하고, 출처 대조와 전문 검토 기록이 축적되기 전에는 공개 앱으로 승격하지 않는다.
