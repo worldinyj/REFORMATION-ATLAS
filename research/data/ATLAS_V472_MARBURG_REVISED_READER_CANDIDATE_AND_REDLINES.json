@@ -1,0 +1,203 @@
+{
+  "schema": "ATLAS_V472_REVISED_MARBURG_L0_L1_EDITORIAL_AUDIT",
+  "date": "2026-11-20",
+  "project": "REFORMATION_ATLAS",
+  "branch": "integration/atlas-phase1-browser-qa-v452",
+  "source": "V4.70 original and V4.71 annotated sentence register",
+  "parentDocument": "integrations/atlas-flagship-phase1/V470_MARBURG_1529_READER_COPYTEXT_DIFFERENCES_KO.md",
+  "parentBlobSha": "23beab92199ac7aae5ddc0ddd0e894078d8c5068",
+  "previousSentenceAudit": "research/data/ATLAS_V471_SENTENCE_PROVENANCE_AND_REVIEW_KIT.json",
+  "revisedDocument": "integrations/atlas-flagship-phase1/V472_MARBURG_1529_L0_L1_REVISED_READER_CANDIDATE_KO.md",
+  "reviewDocument": "integrations/atlas-flagship-phase1/V472_EDITORIAL_REDLINES_AND_EVIDENCE_DECISION_KO.md",
+  "contentBlocks": [
+    {
+      "id": "V472-L0",
+      "heading": "합의했지만 같은 결론에 도달하지는 않았다",
+      "paragraphs": 3,
+      "sourceIds": [
+        "GHDI_ARTICLES",
+        "GHDI_EYEWITNESS",
+        "W2119_PRINT",
+        "Z_ARCHIVE"
+      ]
+    },
+    {
+      "id": "V472-L1-1",
+      "heading": "대화의 신학·정치 배경",
+      "sourceIds": [
+        "GHDI_EYEWITNESS",
+        "SCHAFF"
+      ]
+    },
+    {
+      "id": "V472-L1-2",
+      "heading": "제15조의 세 요소",
+      "sourceIds": [
+        "GHDI_ARTICLES"
+      ]
+    },
+    {
+      "id": "V472-L1-3",
+      "heading": "취리히 인쇄본과 영어 번역의 차이",
+      "sourceIds": [
+        "W2119_PRINT",
+        "GHDI_ARTICLES",
+        "Z_ARCHIVE"
+      ]
+    },
+    {
+      "id": "V472-L1-4",
+      "heading": "필사본/인쇄본/편집번역 구분",
+      "sourceIds": [
+        "Z_ARCHIVE",
+        "W2119_PRINT",
+        "GHDI_ARTICLES"
+      ]
+    },
+    {
+      "id": "V472-L1-5",
+      "heading": "1847과 1854의 서지",
+      "sourceIds": [
+        "SCHAFF"
+      ]
+    },
+    {
+      "id": "V472-L1-6",
+      "heading": "1530–1540 아우크스부르크로의 연결",
+      "sourceIds": [
+        "SCHAFF",
+        "GRUBER"
+      ]
+    }
+  ],
+  "sourceRegistry": [
+    {
+      "id": "GHDI_ARTICLES",
+      "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/the-marburg-colloquy-the-marburg-articles-1529"
+    },
+    {
+      "id": "GHDI_EYEWITNESS",
+      "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/the-marburg-colloquy-report-by-a-lutheran-eyewitness-1529"
+    },
+    {
+      "id": "W2119_PRINT",
+      "url": "https://www.e-rara.ch/zuz/download/pdf/170052"
+    },
+    {
+      "id": "Z_ARCHIVE",
+      "url": "https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=618165"
+    },
+    {
+      "id": "SCHAFF",
+      "url": "https://www.ccel.org/ccel/schaff/hcc7.ii.vii.vii.html"
+    },
+    {
+      "id": "GRUBER",
+      "url": "https://gruber.lstc.edu/confessions/augs_apol.php"
+    }
+  ],
+  "targetedRedlines": [
+    {
+      "sentenceId": "V471-S03",
+      "original": "가장 어려운 부분은 마지막 제15조, 곧 성찬이었다.",
+      "accept": "핵심 쟁점 가운데 하나는 마지막 제15조, 곧 성찬이었다.",
+      "status": "ADOPTED_IN_V472",
+      "reason": "주관적 최상급 제거"
+    },
+    {
+      "sentenceId": "V471-S07",
+      "original": "**1529년에 인쇄된 취리히본에는 어떤 문장이 있는데, 오늘날 널리 읽히는 편집 번역에는 나타나지 않는다.**",
+      "accept": "1529년 취리히 인쇄본 W2119에는 미사를 다른 사람을 위한 은총 획득 수단으로 보는 관점에 반대하는 구절이 있는데, 여기서 대조한 GHDI 영어 번역 제15조에는 대응 구절이 나타나지 않는다.",
+      "status": "ADOPTED_WITH_EXPLICIT_CLAUSE",
+      "reason": "사용 범위 한정 + 구절 내용 명확화"
+    },
+    {
+      "sentenceId": "V471-S18",
+      "original": "이 차이를 **편집·번역 저본에 따라 독자에게 보이는 문장이 달라지는 사례**로 보여 준다.",
+      "accept": "두 자료를 나란히 읽으면 독자가 확인할 수 있는 문장이 다르지만, 그 차이만으로 각 저본의 전승 관계를 확정할 수는 없다.",
+      "status": "ADOPTED_IN_V472",
+      "reason": "근거를 넘어선 계통 추론 금지"
+    },
+    {
+      "sentenceId": "V471-S21",
+      "original": "1529년의 취리히 인쇄본 W2119는 그중 어느 문서를 그대로 사진 복사한 것이 아니라 **별도로 조판되어 배포된 인쇄 증인**이다.",
+      "accept": "1529년 취리히 인쇄본 W2119는 서명 필사본 K·Z와 별개의 인쇄 증인이며, 어느 필사본을 조판 저본으로 삼았는지는 아직 확정되지 않았다.",
+      "status": "ADOPTED_IN_V472",
+      "reason": "역사적으로 적절한 문헌 증인 구분"
+    },
+    {
+      "sentenceId": "V471-S09",
+      "status": "EXPANDED_WITH_EYEWITNESS_PROVENANCE",
+      "reason": "필리프 정치적 동기는 GHDI의 루터교 목격자 보고와 샤프 후대 역사 서술로 분리",
+      "sourceIds": [
+        "GHDI_EYEWITNESS",
+        "SCHAFF"
+      ]
+    },
+    {
+      "sentenceId": "V471-S13",
+      "status": "EXPANDED_IN_L1_2",
+      "reason": "공통 고백·미해결 논점·사랑의 권고를 세 요소로 분리",
+      "sourceIds": [
+        "GHDI_ARTICLES",
+        "W2119_PRINT"
+      ]
+    },
+    {
+      "sentenceId": "V471-S17",
+      "status": "NARROWED_IN_L1_3",
+      "reason": "GHDI의 특정 번역 본문에서의 부재로만 기술",
+      "sourceIds": [
+        "GHDI_ARTICLES",
+        "W2119_PRINT"
+      ]
+    },
+    {
+      "sentenceId": "V471-S25",
+      "status": "NUANCED_WITH_SECOND_EDITION_CLAIM",
+      "reason": "1847·1854 연도의 판차 설명은 샤프의 후대 문헌 기술로 한정",
+      "sourceIds": [
+        "SCHAFF"
+      ]
+    },
+    {
+      "sentenceId": "V471-S27",
+      "status": "CONTEXT_NOT_STEMMA",
+      "reason": "1529와 1530·1540 사이 역사적 관련성 및 문헌 저본 동일성을 분리",
+      "sourceIds": [
+        "SCHAFF",
+        "GRUBER"
+      ]
+    }
+  ],
+  "issuesToHold": [
+    "K autograph exact article15 original leaf still unread",
+    "Z autograph exact article15 original leaf still unread",
+    "1531 Latin printed article10 and 1540 Latin printed article10 still unread",
+    "W2119 and WA/GHDI textual variance is not a proven manuscript genealogy",
+    "Heppe 1847/1854 physical imprint and title pages not directly cross-inspected",
+    "Historical expert approval not obtained",
+    "Real reader pilot not administered"
+  ],
+  "qa": {
+    "originalV470TextPreserved": true,
+    "newStudyRevisionCreated": true,
+    "originalImagesUploaded": false,
+    "actualNativeNodeTestObserved": false,
+    "ciResultsNotYetObserved": true
+  },
+  "gates": {
+    "canShip": false,
+    "canMergeMain": false,
+    "canImportAIStudio": false,
+    "historianApprovals": 0,
+    "readerParticipants": 0,
+    "autographKZOriginalsReviewed": 0,
+    "latinOriginalPrintsReviewed": 0,
+    "emailsSent": 0,
+    "paidOrders": 0,
+    "mainModified": false,
+    "operatingAppModified": false
+  },
+  "next": "V4.73 connect revised L0/L1 reader draft to source-aware research preview, validate actual test runner CI and compare against historical and reader human reviews without premature release"
+}

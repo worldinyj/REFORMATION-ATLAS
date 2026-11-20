@@ -405,3 +405,16 @@ V4.64에서 DOI 리다이렉트 오류로 **서지만 확인됐던 1529년 취�
 **출시 상태:** `can_ship=false`, `can_merge_main=false`, `can_import_ai_studio=false`.
 
 **V4.72 권장:** 검토대상 4문장을 포함한 **별도 역사 해설 개정 후보**를 편집하고, 출처 대조와 전문 검토 기록이 축적되기 전에는 공개 앱으로 승격하지 않는다.
+
+## V4.72 — 제4권 마르부르크 독자용 L0/L1 역사 해설 개정본(연구 초안)
+
+- 이전 V4.70 원고·V4.71 문장별 검토 원장을 **그대로 보존**하고, 새 L0 3문단과 L1 6절을 실질적으로 편집하였다. V4.71에서 우선 표시한 4개 과잉표현은 수정하고 정치·신학·문헌 저본·서지·후속 연관성 등 **5개 해설 구조 보강**을 수행했다.
+- GHDI 합의문과 루터교 측 오시안더 목격담, W2119 인쇄 원본 제15조, Z/K 보관소 목록, Schaff의 서지 진술, Gruber 소장목록을 각기 다른 사료 유형으로 연결했다. **원전 미검증 지면을 직접 판독했다고 승격시키지 않는다**.
+- 검토용 L0/L1 연구 본문에 명확한 사료 ID[GA/GE/WP/ZA/SC/GR]를 부착했다. 구판의 판본 연도·본문 차이 등은 증거 한계를 포함한 새 문장으로 통합.
+- **새 연구 JSON**: `research/data/ATLAS_V472_MARBURG_REVISED_READER_CANDIDATE_AND_REDLINES.json`; **5개 Native Node 시험 정의**: `integrations/atlas-flagship-phase1/v472-editorial-revision-evidence-contract.test.mjs` (실제 실행 결과는 별도 확인 필요).
+- 역사학자 0명·독자 0명·K/Z 직접 대조 미완료·메일 발송 0건·운영 AI Studio 앱 변경 없음. `can_ship=false`, `can_merge_main=false`, `can_import_ai_studio=false`.
+
+**[V4.72 L0·L1 전체 수정 원고](./V472_MARBURG_1529_L0_L1_REVISED_READER_CANDIDATE_KO.md)**  
+**[V4.72 수정 대조 및 전문가 검토 의제](./V472_EDITORIAL_REDLINES_AND_EVIDENCE_DECISION_KO.md)**
+
+**다음 V4.73:** 별도의 연구용 미리보기에서 이 개정본과 사료 카드 연결을 평가하고, 실제 역사학자·독자 검토의 결과를 수집하기 전에는 배포하지 않는다.
