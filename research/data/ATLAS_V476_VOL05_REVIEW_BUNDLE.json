@@ -576,11 +576,11 @@
         "choices": [
           {
             "id": "A",
-            "text": "예수회 인준이 더 앞섰다"
+            "text": "공의회가 예수회를 설립했다"
           },
           {
             "id": "B",
-            "text": "공의회가 예수회를 설립했다"
+            "text": "예수회 인준이 더 앞섰다"
           },
           {
             "id": "C",
@@ -600,15 +600,15 @@
         "choices": [
           {
             "id": "A",
-            "text": "중단과 재개를 거친 세 시기"
-          },
-          {
-            "id": "B",
             "text": "18년간 쉬지 않고 매일 회의"
           },
           {
-            "id": "C",
+            "id": "B",
             "text": "1540년 한 차례 회기"
+          },
+          {
+            "id": "C",
+            "text": "중단과 재개를 거친 세 시기"
           },
           {
             "id": "D",
@@ -624,19 +624,19 @@
         "choices": [
           {
             "id": "A",
-            "text": "내부 쇄신과 외부 도전에 대한 응답이 함께 있었다"
-          },
-          {
-            "id": "B",
             "text": "개신교 대립만 있었다"
           },
           {
-            "id": "C",
+            "id": "B",
             "text": "여성은 개혁 역사에 없었다"
           },
           {
-            "id": "D",
+            "id": "C",
             "text": "수도회는 완전히 폐지됐다"
+          },
+          {
+            "id": "D",
+            "text": "내부 쇄신과 외부 도전에 대한 응답이 함께 있었다"
           }
         ]
       },
@@ -648,11 +648,11 @@
         "choices": [
           {
             "id": "A",
-            "text": "은총·믿음·내적 갱신"
+            "text": "오직 공로만"
           },
           {
             "id": "B",
-            "text": "오직 공로만"
+            "text": "은총·믿음·내적 갱신"
           },
           {
             "id": "C",
@@ -672,19 +672,19 @@
         "choices": [
           {
             "id": "A",
-            "text": "1562년 제22회기 미사 제사 교령"
-          },
-          {
-            "id": "B",
             "text": "제13회기 제4장"
           },
           {
-            "id": "C",
+            "id": "B",
             "text": "제13회기 제1장"
           },
           {
-            "id": "D",
+            "id": "C",
             "text": "1551년의 성찬 교령"
+          },
+          {
+            "id": "D",
+            "text": "1562년 제22회기 미사 제사 교령"
           }
         ]
       },
@@ -720,15 +720,15 @@
         "choices": [
           {
             "id": "A",
-            "text": "두 문헌은 서로 다른 역사적 증거이다"
-          },
-          {
-            "id": "B",
             "text": "동일한 자필 문서이다"
           },
           {
-            "id": "C",
+            "id": "B",
             "text": "1564년에는 인쇄물이 없었다"
+          },
+          {
+            "id": "C",
+            "text": "두 문헌은 서로 다른 역사적 증거이다"
           },
           {
             "id": "D",
@@ -744,11 +744,11 @@
         "choices": [
           {
             "id": "A",
-            "text": "연구자가 교정 필적을 직접 모두 판독했다"
+            "text": "기관이 관련 소장본을 설명한다"
           },
           {
             "id": "B",
-            "text": "기관이 관련 소장본을 설명한다"
+            "text": "연구자가 교정 필적을 직접 모두 판독했다"
           },
           {
             "id": "C",
@@ -768,19 +768,19 @@
         "choices": [
           {
             "id": "A",
-            "text": "모든 교구가 같은 날 학교를 개설했다"
-          },
-          {
-            "id": "B",
             "text": "성직자 교육이 중요했다"
           },
           {
-            "id": "C",
+            "id": "B",
             "text": "지역적 시행 차이 연구가 필요하다"
           },
           {
-            "id": "D",
+            "id": "C",
             "text": "교육 규정을 제정했다"
+          },
+          {
+            "id": "D",
+            "text": "모든 교구가 같은 날 학교를 개설했다"
           }
         ]
       }
@@ -789,7 +789,7 @@
     "actualSessions": 0,
     "responseCollectionEnabled": false,
     "assessmentKeysIncluded": false,
-    "provenanceWarning": "Unreviewed draft questions; no validated educational score, and public GitHub contains legacy V4.57 keys."
+    "provenanceWarning": "Unreviewed draft questions; no validated educational score, and public GitHub contains legacy V4.57 keys. Multiple-choice order randomized for the research draft; still requires expert review, no answer keys published."
   },
   "unresolved": [
     {
