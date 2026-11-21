@@ -487,3 +487,10 @@ V4.64에서 DOI 리다이렉트 오류로 **서지만 확인됐던 1529년 취�
 - [**역사적 증거와 보류 판정**](./V481_VOL07_HISTORICAL_EVIDENCE_DECISION_KO.md): 정약용 묘지명에 대한 후대 해석과 강학 종교적 성격의 논쟁, 로스역의 한국인 조력자·식자공 김청송, 1900 개인역/시험역과 1906 공인역 차이를 명시. 소장 원본 행별 직접 교감은 미완료.
 - [**연구 원고·역사 주장 20건·사료 12종 데이터**](../../research/data/ATLAS_V481_VOL07_KOREAN_CHURCH_READER_CANDIDATE.json), 연대별 증거 8건, 보류 7건. 기존 제7권 **P0 4건 / P1 1건** 심사 상태는 모두 `NOT_SUBMITTED`.
 - Node 신규 계약 7건을 GitHub CI에 추가했으며, 인간 역사학자 승인 0명·독자 실증 0명. V4.50 통합 마스터, `main`, 실제 AI Studio 앱 변경 없음. `can_ship=false`, `can_merge_main=false`, `can_import_ai_studio=false`.
+
+## V4.82 — 제8권 T6 '번역과 지역 수용'의 실제 역사 비교 원고
+
+- [**제8권 T6 L0/L1 심화 원고**](./V482_VOL08_THEME06_TRANSLATION_LOCAL_RECEPTION_KO.md): V4.50 `L448-08-03`의 **국가·갈등·공존/T6 두 주제**를 덮어쓰지 않고, **T6 한 주제에 한해 L0 4문단·L1 10절/5836자**로 집필했다.
+- [**제8권 원고 증거·비교 판정 보고서**](./V482_VOL08_T6_EDITION_WITNESS_AND_COMPARISON_DECISION_KO.md): 당나라 781년 경교비(성경 번역본이 아닌 기념비), 타밀어 1714/1715/1719 미해결/1722년판, 한국어 1882/1887/1900/1906/1911판을 서로 다른 문헌·연대로 분리해 독자에게 안내한다.
+- [**기계판독 연구 데이터**](../../research/data/ATLAS_V482_TRANSLATION_LOCAL_RECEPTION_READER_CANDIDATE.json): 앞선 제2·6·7권의 자료를 재사용한 **근거 15종·검토 주장 18건·역사 보류 9건·연대 15건**, 4개 권/장 실제 독서 경로. 비교 가능한 질문을 직접 문헌 계보·인과관계로 확정하지 않는다.
+- 역사학자 승인 0명·실제 독자 평가 0명·원본 3지역 사료 전체 교감 0건. 기존 G443 전문 심사 9건 전부 미제출. V4.50 마스터·`main`·실제 AI Studio 앱은 **변경하지 않았다**. `can_ship=false`, `can_merge_main=false`, `can_import_ai_studio=false`.
