@@ -78,7 +78,7 @@ export default function AtlasFlagship1529Panel({
   const docs=(integrity.pack?.sources??scene.documentCards).filter(d=>d.linkedEventIds.includes(selected.id));
   const {chapter,volume}=integrity;
   const activeText=layer==="L0"?(integrity.pack?.l0.text??volume.bodyMarkdown):(integrity.pack?.l1.text??chapter.bodyMarkdown);
-  const sourceIds=[...new Set((activeText.match(/\\[(?:GA|GE|WP|ZA|SC|GR)\\]/g)||[]).map(x=>x.slice(1,-1)))];
+  const sourceIds=[...new Set((activeText.match(/\[(?:GA|GE|WP|ZA|SC|GR)\]/g)||[]).map(x=>x.slice(1,-1)))];
   const allSources=integrity.pack?.sources??[];
 
   function handleRestart() {
