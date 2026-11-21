@@ -1,0 +1,440 @@
+{
+  "schema": "ATLAS_V479_VOL06_TAMIL_READER_CANDIDATE_V1",
+  "version": "4.79",
+  "created": "2026-11-21",
+  "state": "RESEARCH_ONLY_NOT_APPROVED",
+  "volumeId": "VOL-06",
+  "chapterId": "L448-06-02",
+  "layer": "L1",
+  "title": "타밀어 성경: 판본의 날짜와 현지 사람들의 역사",
+  "legacy": {
+    "sourcePath": "research/data/V4_50_L1_24_CHAPTER_INTEGRATED_REVISED_MASTER.json",
+    "sourceGitBlobSha": "79a362734aa963eb41ad0424515e8d21074349c5",
+    "originalTitle": "남인도 타밀어 성경: 인쇄 기계보다 중요한 사람과 판본",
+    "originalPeriod": "1706–1719년",
+    "originalBodyChars": 514,
+    "originalBodyMarkdown": "1706년 남인도 트랑케바르에 도착한 치겐발크 일행의 이야기는 유럽인의 해외선교만으로 설명할 수 없다. 어떤 말을 사용해 성경의 개념을 전달하고 어떤 문자를 활자로 만들며 누가 교정과 교육에 참여했는가가 중요했다. 타밀어 문헌을 익히고 번역어를 결정하는 데는 현지 언어 지식이 필요했고, 인쇄된 책이 지역 공동체에서 읽히는 데도 현지인의 선택이 작용했다. 전해진 책을 누가 읽었는가를 묻지 않으면 번역과 인쇄를 외부인의 업적 목록으로 축소하게 된다.\n\n이 사건을 설명하는 자료에는 출판 연도 자체의 문제가 남아 있다. 일부 성서의 1714년 인쇄, 1715년 전체 신약 수록 소장본, 인도성서공회의 1719년 전권 간행 설명을 한 사건으로 합치면 안 된다. 독일 뷔르템베르크 주립도서관의 목록과 인도성서공회의 전시 문구는 서로 다르게 기록하고 있으며, 이를 해소하기 위한 서지 문의가 발송됐다. 아직 기관 답변이나 실물 표제지·권말 전면 교감으로 차이가 설명되지 않았으므로 **1719년의 의미는 미확정**으로 남긴다.",
+    "sourceUrls": [
+      "https://www.bsind.org/bsi-archives/",
+      "https://www.wlb-stuttgart.de/fileadmin/user_upload/sammlungen/bibeln/Missionsbibeln/Missionsbibel_Stationen.pdf"
+    ],
+    "crossLinks": [
+      "VOL-07",
+      "VOL-08"
+    ]
+  },
+  "newContent": {
+    "l0Markdown": "1715년 타밀어 신약성경을 떠올리면 인쇄기 앞에 선 유럽인 선교사가 먼저 생각날 수 있다. 그러나 그 책이 나오기까지는 남인도 타랑감바디(당시 유럽식 지명 트랑케바르)에서 여러 언어를 듣고 가르치던 사람들, 타밀어 교사와 문헌을 베끼던 이들, 책을 배우고 읽을 현지 공동체가 필요했다. 1706년 도착한 지겐발크와 플뤼차우는 덴마크의 식민 거점과 독일 할레의 경건주의 네트워크에 연결되어 있었지만, 언어와 지식의 주인은 유럽인만이 아니었다. [S479-BU-HISTORY][S479-SPRINGER-LINGUISTICS]\n\n타밀어 신약은 단번에 출판된 책이 아니었다. 할레 프랑케 재단이 목록화한 1714년 인쇄물에는 네 복음서와 사도행전이 들어 있고, 뷔르템베르크 주립도서관(WLB)은 1715년 신약과 1722년 별도판을 구별한다. 앞부분 494쪽과 뒤에 붙는 176쪽이라는 WLB 소장본의 서지 기록은 출판을 한 번의 날짜가 아니라 여러 단계의 작업으로 살펴보게 한다. [S479-HALLE-1714][S479-WLB-1715][S479-LEOBW-1715]\n\n하지만 인도성서공회의 전시 해설은 신약전서 간행을 **1719년**으로 설명한다. 지금까지 확인한 그 전시 문구에는 1719년판의 별도 소장번호나 표제지 등 이를 물리적 인쇄본으로 특정할 근거가 없다. 따라서 '1719년판이 있었음이 증명됐다'거나 '1719는 틀린 연도다'라는 단정 둘 다 보류한다. [S479-BSI-1719][S479-LEOBW-1715]\n\n이 이야기는 어느 선교사가 처음 인쇄했느냐만의 문제가 아니다. **번역하는 사람, 배우고 읽는 사람, 목판이나 활자보다 오래 남는 서지 기록**을 함께 읽어야 한다. 지역의 기독교 역사를 1706년에 처음 시작된 역사로 설명할 수 없는 이유도 여기에 있다. 먼저 존재하던 남인도의 여러 그리스도교 전통과 새로운 루터교 선교 네트워크는 서로 구분해야 한다. [S479-BU-HISTORY][S479-RUBIES-2015]",
+    "l1Markdown": "### 1. 1706년, 책보다 먼저 만난 것은 사람과 언어였다\n\n1706년 7월 9일, 바르톨로메우스 지겐발크(Bartholomäus Ziegenbalg)와 하인리히 플뤼차우(Heinrich Plütschau)가 덴마크가 운영하던 남인도 해안 거점 트랑케바르(오늘날 타랑감바디)에 도착했다. 그곳은 빈 땅이 아니라 다양한 언어와 신앙, 상업적 이해관계와 사회적 위계가 공존하던 지역이었다. 덴마크 왕실의 후원과 독일 할레 경건주의 네트워크는 선교사들의 이동·교육·후원을 설명하지만, 현지 주민들의 언어와 종교생활이 어떤 모습이었는지는 그 자체로 조사할 역사다. 남인도에 이미 존재했던 오래된 그리스도교 전통까지 지워 '1706년에 인도 기독교가 시작됐다'고 말하면 여러 지역의 역사를 한 유럽인의 도착으로 바꿔 놓는 셈이다. [S479-BU-HISTORY][S479-SPRINGER-LINGUISTICS]\n\n두 사람이 먼저 마주한 문제는 타밀어만이 아니었다. 포르투갈어로 소통하던 집단이 있었고, 타밀어를 쓰는 사람과 두 언어를 함께 아는 통역자가 있었으며, 읽고 쓰는 문체도 일상에서 쓰는 말과 달랐다. 기록된 성경 이야기를 의미 있는 현지 언어로 옮기려면 명사 몇 개를 바꾸는 것보다 훨씬 큰 학습이 필요했다. 기독교 용어를 설명할 때 어떤 문법을 선택할지, 새로 접하는 사람들이 어떤 뜻으로 이해할지는 유럽에서 완성된 번역표만으로 해결할 수 없었다. [S479-SPRINGER-LINGUISTICS]\n\n### 2. 타밀어 교사와 원고를 베낀 사람을 기록 속으로 되돌리기\n\n지겐발크가 타밀어를 빠르게 익혔다는 일화에는 현지 교사·통역자와의 만남이 있다. 학술 연구는 트랑케바르의 연로한 교사와 그의 아들이 타밀어 문헌을 구하고 읽는 일에 중요한 매개가 됐다고 설명한다. 또 현지 필사자들이 야자잎 문서를 베끼고, 학자들이 지역 종교에 관한 질문에 응답했다는 자료가 전해진다. 이 도움은 '선교사가 타밀어를 연구했다'는 한 문장의 보이지 않는 조건이었다. 현지 지식인들은 단지 외국인에게 단어 뜻을 알려 준 익명의 배경이 아니라, 자신들의 문헌과 지식을 가진 행위자였다. [S479-RUBIES-2015]\n\n후대의 역사 소개에서는 여러 유럽 언어를 알던 알레파(Aleppa/Alakappan)를 언어 조력자 또는 통역자로 지목한다. 다만 이 이름의 표기가 자료마다 다르고, 현재 접근한 2차 기사는 그가 신약성경의 어느 절을 직접 번역하거나 교정했는지까지 입증하지 않는다. 따라서 '알레파가 신약 번역을 공동 집필했다'는 문장은 쓰지 않는다. 더 중요한 것은 기록에 이름이 남지 않은 교사·서기·학생들 또한 언어 지식과 자료 전승에 실질적으로 참여했다는 사실을 사료의 한계와 함께 드러내는 일이다. [S479-SCROLL-ALEPPA][S479-RUBIES-2015]\n\n### 3. 번역은 종교 문헌을 읽는 일과 분리되지 않았다\n\n타밀어로 신약의 개념을 말하려는 과정은 유럽에서 가져온 그리스어·라틴어·독일어 문헌을 기계적으로 대응시키는 번역표가 아니었다. 지겐발크는 그리스어 신약을 기준으로 삼되 다른 유럽어 성서들을 함께 참고했고, 타밀어 문법과 어휘 목록을 정리하며 해당 언어의 저작을 수집했다. 이는 언어를 말하기 위한 훈련이면서 그 언어 공동체가 이미 어떤 지적 전통을 갖고 있었는지 배우는 과정이었다. [S479-SPRINGER-LINGUISTICS]\n\n1712~1714년 지역 학자들과 주고받은 타밀어 편지는 이 과정의 또 다른 측면을 보여 준다. 교류의 내용이 유럽으로 전해질 때 일부 답변은 독일어로 번역되고 선교 보고의 목적에 맞춰 편집됐다. 따라서 후대 독자가 읽는 '타밀인의 목소리'는 실제 지역인들이 남긴 말과 선교사가 번역·선택한 표현 사이의 거리를 고려해야 한다. 이 편지의 진정성과 상호성이 어느 정도였는지는 학자들 사이의 검토 대상이며, 우리가 1712년 원본 편지들을 직접 모두 대조한 것은 아니다. [S479-RUBIES-2015]\n\n### 4. 1714년, 책의 첫 부분은 무엇을 담았나\n\n할레 프랑케 재단의 디지털 소장목록에는 `Quatuor Evangelia Et Acta Apostolorum...`라는 라틴어 표제의 1714년 인쇄물이 있다. 표제와 서지는 이 책을 **네 복음서와 사도행전**으로 구분하고, 번역자로 지겐발크와 요한 에른스트 그륀들러(Johann Ernst Gründler)를 함께 기재한다. 장소는 트랑케바르, 인쇄자는 G. 아들러로 소개되며, 분량은 앞쪽 다섯 장과 494쪽으로 기록된다. 이는 신약 27권 전체와 동일한 수록범위가 아니다. [S479-HALLE-1714]\n\n이 자료가 말해 주는 것은 '1714년 이전에 아무 번역도 없었다'가 아니라, **전해지는 특정 인쇄물의 수록 범위와 서지 연도**다. 번역 원고 작성 시점, 조판과 인쇄, 제본과 도서관의 목록화는 한날한시에 끝나는 작업이 아니다. 인쇄 문화의 역사에서 발행 연도를 말할 때도 이 과정들을 구분해야 한다. 목록이 공개돼 있다는 사실은 귀한 출발점이지만 영인본의 지면마다 판심·서명·교정 상태를 직접 대조했다는 뜻은 아니다. [S479-HALLE-1714]\n\n### 5. 1715년, 소장번호가 있는 신약과 '494+176쪽'\n\n뷔르템베르크 주립도서관의 초기 선교성서 목록은 **1715년 타밀어 신약**, 소장번호 `Ba Indien 1715 01`을 명시한다. 별도의 LEO-BW 연계 목록에는 첫 부분 494쪽에 추가되는 176쪽과 신약 전권의 수록을 기술한 연구 기록이 있다. 이미 할레에 존재하는 1714년 494쪽 첫 부분을 떠올리면, 같은 책의 앞·뒤 인쇄가 서로 다른 시기에 이루어졌을 가능성을 탐색할 수 있다. 그러나 두 기관의 목록상 쪽수 일치를 근거로 **동일한 판쇄·서명 조합을 실제 교감했다**고 말할 수는 없다. [S479-WLB-1715][S479-LEOBW-1715][S479-HALLE-1714]\n\n여기서 중요한 판단은 둘이다. 첫째, **1715년이라는 표기가 실제 소장본 수준의 서지 증거와 연결되어 있다는 것**이다. 둘째, 해당 소장본의 모든 지면을 직접 판독하여 각 권의 끝부분 인쇄·날짜·합본의 이력을 확정한 단계는 아니라는 것이다. '1715년 신약전서를 뒷받침하는 강한 도서관 증거가 있다'는 주장과 '1715년 인쇄과정의 전모가 확정됐다'는 주장을 동일하게 취급하지 않는다. [S479-LEOBW-1715][S479-WLB-1715]\n\n### 6. 왜 1719년을 지워 버릴 수도 확정할 수도 없을까\n\n인도성서공회(Bible Society of India)의 공식 전시 해설은 1714년에 신약 첫 부분을 출판했다고 기록하면서, 완성된 타밀어 신약의 출판 연도로 **1719년**을 적고 있다. 이 기관의 설명이 실제로 존재한다는 점은 분명히 확인할 수 있다. 그러나 현재 조사한 그 전시 페이지에는 **1719년판이라고 식별할 수 있는 독립 소장번호·표제지·권말 인쇄문·서명 위치**가 제시되어 있지 않다. 전시 문구를 1719년에 별도 완결판이 실제 인쇄됐다는 사물 증거와 같다고 볼 수 없는 이유다. [S479-BSI-1719]\n\n이 상충을 이해하려고 1719년을 '1722년판의 오기' 혹은 '지겐발크의 사망연도를 헷갈린 것'이라고 추측할 수는 있지만, 그 가설들은 현재 직접 사료로 입증되지 않았다. 이번 독자 원고에서는 그러한 가능성을 결론으로 적지 않는다. 아직 필요한 것은 관련 기관의 구체적인 도서관 번호 또는 당시 표제지·권말·서지 인용이 들어간 확인 가능한 응답이다. 불확실하다는 말을 무조건 '아무것도 모른다'로 해석할 필요는 없다. **1714년 첫 부분과 1715년 소장본은 각각 증거가 있다. 1719년이라는 별도 증언의 뜻만 해소되지 않았다.** [S479-BSI-1719][S479-WLB-1715][S479-LEOBW-1715]\n\n### 7. 1722년판과 이후의 수용, 또 다른 질문\n\nWLB는 1715년 신약과 구별되는 **1722년 타밀어 신약**을 별도로 목록화한다. 이 기록은 번역문이 시간이 지나며 수정·재간행될 수 있음을 알려 주지만, 1722년판의 존재가 1719년 기록의 기원을 자동으로 설명해 주지는 않는다. 공통 언어를 사용하는 공동체라도 모든 사람이 동일한 판본·동일한 교육을 경험했다고 추정해서는 안 된다. [S479-WLB-1722]\n\n신약이 출판됐다는 사실과 공동체에서 실제로 읽혔다는 사실도 다르다. 지겐발크의 활동과 관련된 후대 전기에는 소년·소녀 학교와 현지 조력자를 준비하는 교육 활동이 기록되어 있다. 이는 책의 보급을 설명할 맥락이지만, 특정 학교의 학생들이 1715년판의 어느 장을 언제 읽었는지까지 입증하는 독서 기록은 아니다. Peter Malaippan 같은 현지 인물의 이동과 발언도 제국·교회 네트워크의 인적 교류를 보여 줄 수 있지만, 그가 1715년 신약의 조판·교정에 관여했다고 현재 자료만으로 단정하지 않는다. [S479-BU-HISTORY][S479-SCROLL-ALEPPA]\n\n### 8. 한 권의 인쇄사가 아니라 번역과 판단의 역사를 읽기\n\n유럽 경건주의자가 원고를 쓰고 인쇄소가 활자를 만들었다는 설명으로 이 역사를 마무리하면 세 가지가 사라진다. 첫째는 언어를 가르치고 텍스트를 전해 준 타밀어 사용자들의 역사다. 둘째는 번역어의 의미를 둘러싼 서로 다른 종교인들의 대화와 비대칭적 권력이다. 셋째는 어떤 사료를 근거로 무엇을 '확인했다'고 말할 수 있는지 분리하는 서지학의 판단이다. [S479-SPRINGER-LINGUISTICS][S479-RUBIES-2015]\n\n제6권의 다음 장에서 다루는 식민지 시대 선교와 제7권의 한국어 성서 간행사는 서로 같은 사건이 아니다. 다만 독자가 되풀이할 질문은 같다. **누가 말을 가르쳤고, 누가 문장을 선택했으며, 누가 책을 읽었고, 어떤 소장 기록이 실제 인쇄물의 존재를 말해 주는가?** 번역은 유럽에서 세계로 일방적으로 건너간 문장이 아니라 지역 언어 공동체와의 접촉 속에 형성된 텍스트였다. 그 사실을 설명할 때에도 한 개의 도서관 서지를 모든 지역 주민의 경험으로 일반화하지 않는 태도가 필요하다. [S479-LEOBW-1715][S479-BU-HISTORY]",
+    "l1SectionCount": 8,
+    "l0ParagraphCount": 4,
+    "readingPath": "integrations/atlas-flagship-phase1/V479_VOL06_TAMIL_L0_L1_SOURCE_GROUNDED_KO.md",
+    "sourceIds": [
+      "S479-HALLE-1714",
+      "S479-WLB-1715",
+      "S479-LEOBW-1715",
+      "S479-BSI-1719",
+      "S479-WLB-1722",
+      "S479-SPRINGER-LINGUISTICS",
+      "S479-BU-HISTORY",
+      "S479-RUBIES-2015",
+      "S479-SCROLL-ALEPPA",
+      "S479-KCL-1715"
+    ]
+  },
+  "sourceRegistry": [
+    {
+      "id": "S479-HALLE-1714",
+      "title": "Francke Foundations original-item bibliographic record for 1714 Gospels and Acts",
+      "kind": "ORIGINAL_PRINT_CATALOGUE",
+      "url": "https://digital.francke-halle.de/fsaad/content/titleinfo/162120",
+      "specificEvidence": "1714; Tranquebar, G. Adler; Gospel and Acts; [5] leaves, 494 pages; translators B. Ziegenbalg and J. E. Gründler",
+      "directItemPagesCompared": false,
+      "verification": "CATALOGUE_PAGE_READ",
+      "readingLimit": "서지·수록범위까지 확인. 책 전체 영인본을 행별 교감한 것이 아님"
+    },
+    {
+      "id": "S479-WLB-1715",
+      "title": "Württembergische Landesbibliothek 1715 Tamil New Testament listing",
+      "kind": "RARE_PRINT_COLLECTION_INVENTORY",
+      "url": "https://www.wlb-stuttgart.de/fileadmin/user_upload/sammlungen/bibeln/Missionsbibeln/Missionsbibel_Stationen.pdf",
+      "specificEvidence": "1715 Tamil New Testament (Ba Indien 1715 01); distinct 1722 Tamil New Testament (B Indien 1722 01)",
+      "directItemPagesCompared": false,
+      "verification": "PDF_PAGE2_VISUALLY_INSPECTED",
+      "readingLimit": "기관 목록의 서지 표제와 소장번호 확인; 표제지·권말 낱장 직접 판독 아님"
+    },
+    {
+      "id": "S479-LEOBW-1715",
+      "title": "LEO-BW catalogue linked to WLB Ba Indien 1715 01",
+      "kind": "ITEM_LEVEL_DIGITAL_CATALOGUE",
+      "url": "https://www.leo-bw.de/en/detail/-/Detail/details/DOKUMENT/wlb_digitalisate/digibib-bsz4072371006/Cutan%C4%81kiya%20carvecuran%C4%81yirukki%E1%B9%9Fa%20ecukki%E1%B9%9Fi%E1%B9%A3ttu%20n%C4%81tar%C4%81%E1%B9%89avar%20%20putu%20erp%C4%81tti%E1%B9%89u%E1%B9%ADaiya%20mutal%C4%81m%20vakupp%C4%81ki%E1%B9%9Fa%20a%C3%B1cuvetapo%E1%B9%A3ttakam",
+      "specificEvidence": "WLB-linked copy documented as 1714 [actual publication 1715], 494 +176 pages, content description extends to NT books (prior V4.36 audit)",
+      "directItemPagesCompared": false,
+      "verification": "ONLINE_ITEM_CATALOGUE_AND_PRIOR_AUDIT",
+      "readingLimit": "494+176쪽의 한 권 구성은 서지 메타데이터; 낱장 서명·책임표기·권말 대조 미완료"
+    },
+    {
+      "id": "S479-BSI-1719",
+      "title": "Bible Society of India archival exhibition explanation",
+      "kind": "INSTITUTIONAL_EXHIBITION_NARRATIVE",
+      "url": "https://www.bsind.org/bsi-archives/",
+      "specificEvidence": "1714 first-part title page described; text says full Tamil New Testament published in 1719",
+      "directItemPagesCompared": false,
+      "verification": "OFFICIAL_EXHIBITION_TEXT_READ",
+      "readingLimit": "1719년 **별도 소장본 번호, 표제지, 판심, 권말** 확인 정보 없음; 기관 설명 존재만 확인"
+    },
+    {
+      "id": "S479-WLB-1722",
+      "title": "WLB 1722 Tamil New Testament separate entry",
+      "kind": "RARE_PRINT_COLLECTION_INVENTORY",
+      "url": "https://www.wlb-stuttgart.de/fileadmin/user_upload/sammlungen/bibeln/Missionsbibeln/Missionsbibel_Stationen.pdf",
+      "specificEvidence": "1722 revision listed with Ziegenbalg/Gründler, summaries and parallel references, Latin introduction",
+      "directItemPagesCompared": false,
+      "verification": "PDF_PAGE2_VISUALLY_INSPECTED",
+      "readingLimit": "1722 별도판 기록은 1719 인쇄본의 존재나 부재를 직접 증명하지 않음"
+    },
+    {
+      "id": "S479-SPRINGER-LINGUISTICS",
+      "title": "The Translation Policies of Protestant Reformers in the Early Eighteenth Century",
+      "kind": "SCHOLARLY_SYNTHESIS",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-662-67339-3_13",
+      "specificEvidence": "Portuguese/Tamil learning and recruitment of indigenous assistants, copying Tamil texts, Greek-language New Testament translated with other versions as comparanda",
+      "directItemPagesCompared": false,
+      "verification": "PUBLISHER_CHAPTER_TEXT_READ",
+      "readingLimit": "이 학술 절은 인쇄를 1714라고 서술하기도 하므로 완결판 날짜 판정은 소장본 목록을 우선함"
+    },
+    {
+      "id": "S479-BU-HISTORY",
+      "title": "Boston University History of Missiology biography",
+      "kind": "REFERENCE_BIOGRAPHY",
+      "url": "https://www.bu.edu/missiology/missionary-biography/w-x-y-z/ziegenbalg-bartholomaus-1682-1719/",
+      "specificEvidence": "1706 July 9 arrival; indigenous help in Tamil learning; printing and education; schools for boys and girls; seminary for local assistants",
+      "directItemPagesCompared": false,
+      "verification": "ACADEMIC_BIOGRAPHICAL_REFERENCE",
+      "readingLimit": "후대 전기, 학교 운영일지·학생 등록대장 직접 교감 아님"
+    },
+    {
+      "id": "S479-RUBIES-2015",
+      "title": "Joan-Pau Rubiés (2015), Tamil Voices in the Lutheran Mission of South India, JEMH",
+      "kind": "ACADEMIC_REVIEW_WITH_METHODOLOGICAL_CAUTION",
+      "url": "https://www.academia.edu/11419363/Tamil_voices_in_the_Lutheran_Mission_to_South_India_1705_1714_",
+      "specificEvidence": "Tamil schoolmaster and his son mediated manuscript gathering; Tamil scholars' correspondence 1712–14; translation into German and missionary editorial influence",
+      "directItemPagesCompared": false,
+      "verification": "SCHOLARLY_REVIEW_TEXT_AVAILABLE",
+      "readingLimit": "서평은 원본 편지에 대한 직접 대조 결과를 대신하지 않음. 원래 타밀어 편지의 진정성·대화의 상호성 문제 남음"
+    },
+    {
+      "id": "S479-SCROLL-ALEPPA",
+      "title": "Scroll.in historical feature on Ziegenbalg and Tamil interlocutors",
+      "kind": "HISTORICAL_JOURNALISM_SECONDARY",
+      "url": "https://scroll.in/magazine/1034920/how-a-lutheran-missionary-became-the-first-cultural-bridge-between-tamil-nadu-and-germany",
+      "specificEvidence": "Aleppo/Alakappan described as multilingual Tamil helper; Peter Malaippan as pupil and public representative in Europe; details depend on secondary sources",
+      "directItemPagesCompared": false,
+      "verification": "SECONDARY_JOURNALISTIC_SUMMARY",
+      "readingLimit": "Aleppo/Alakappan의 성경 본문 직접 번역·교정 기여를 증명하는 원장·편지는 이 자료로 확인하지 못함"
+    },
+    {
+      "id": "S479-KCL-1715",
+      "title": "King's College London Foyle Special Collections 1715 historical description",
+      "kind": "UNIVERSITY_COLLECTION_HISTORY",
+      "url": "https://blogs.kcl.ac.uk/kingscollections/2016/02/10/new-acquisitions-from-the-foyle-special-collections-library/",
+      "specificEvidence": "KCL describes the printed Tamil New Testament completed in 1715 at Tranquebar and translation involving Ziegenbalg and Gründler",
+      "directItemPagesCompared": false,
+      "verification": "SEARCH_INDEX_CONTENT_AVAILABLE_PAGE_403",
+      "readingLimit": "기관 블로그 본문 직접 접근 403; 인덱스 검색결과에 대한 보조 근거, 1차 소장 항목으로 취급 금지"
+    }
+  ],
+  "claimAudit": [
+    {
+      "id": "C479-01",
+      "statement": "1706-07-09 Ziegenbalg and Plütschau arrived at Danish Tranquebar",
+      "evidenceCategory": "BIOGRAPHICAL_REFERENCE",
+      "sourceIds": [
+        "S479-BU-HISTORY"
+      ],
+      "status": "RESEARCH_SUPPORTED_NEEDS_EXPERT",
+      "highRisk": false,
+      "sourceEvidenceStatus": "EDITORIAL_NOT_HUMAN_APPROVED",
+      "historianReviewer": null,
+      "reviewDecision": "PENDING",
+      "originalObjectFolioCollated": false
+    },
+    {
+      "id": "C479-02",
+      "statement": "Tamil language learning required indigenous helpers, scribes and local written tradition",
+      "evidenceCategory": "ACADEMIC_SYNTHESIS",
+      "sourceIds": [
+        "S479-SPRINGER-LINGUISTICS",
+        "S479-RUBIES-2015"
+      ],
+      "status": "RESEARCH_SUPPORTED_NEEDS_EXPERT",
+      "highRisk": false,
+      "sourceEvidenceStatus": "EDITORIAL_NOT_HUMAN_APPROVED",
+      "historianReviewer": null,
+      "reviewDecision": "PENDING",
+      "originalObjectFolioCollated": false
+    },
+    {
+      "id": "C479-03",
+      "statement": "Alakappan/Aleppa is named as multilingual language helper, but direct NT verse authorship is unproven",
+      "evidenceCategory": "SECONDARY_ACCOUNT",
+      "sourceIds": [
+        "S479-SCROLL-ALEPPA"
+      ],
+      "status": "ATTRIBUTION_HELD",
+      "highRisk": true,
+      "sourceEvidenceStatus": "EDITORIAL_NOT_HUMAN_APPROVED",
+      "historianReviewer": null,
+      "reviewDecision": "PENDING",
+      "originalObjectFolioCollated": false
+    },
+    {
+      "id": "C479-04",
+      "statement": "1712–1714 Tamil scholar correspondence and German mediation complicate historical testimony",
+      "evidenceCategory": "SCHOLARLY_REVIEW",
+      "sourceIds": [
+        "S479-RUBIES-2015"
+      ],
+      "status": "RESEARCH_SUPPORTED_NEEDS_EXPERT",
+      "highRisk": false,
+      "sourceEvidenceStatus": "EDITORIAL_NOT_HUMAN_APPROVED",
+      "historianReviewer": null,
+      "reviewDecision": "PENDING",
+      "originalObjectFolioCollated": false
+    },
+    {
+      "id": "C479-05",
+      "statement": "1714 Halle copy includes four Gospels and Acts in 494 pages",
+      "evidenceCategory": "EXEMPLAR_CATALOGUE",
+      "sourceIds": [
+        "S479-HALLE-1714"
+      ],
+      "status": "STRONG_BIBLIOGRAPHIC",
+      "highRisk": false,
+      "sourceEvidenceStatus": "EDITORIAL_NOT_HUMAN_APPROVED",
+      "historianReviewer": null,
+      "reviewDecision": "PENDING",
+      "originalObjectFolioCollated": false
+    },
+    {
+      "id": "C479-06",
+      "statement": "1714 Halle catalogue credits Ziegenbalg and Gründler",
+      "evidenceCategory": "EXEMPLAR_CATALOGUE",
+      "sourceIds": [
+        "S479-HALLE-1714"
+      ],
+      "status": "STRONG_BIBLIOGRAPHIC",
+      "highRisk": false,
+      "sourceEvidenceStatus": "EDITORIAL_NOT_HUMAN_APPROVED",
+      "historianReviewer": null,
+      "reviewDecision": "PENDING",
+      "originalObjectFolioCollated": false
+    },
+    {
+      "id": "C479-07",
+      "statement": "1715 WLB Ba Indien 1715 01 is identified as Tamil New Testament",
+      "evidenceCategory": "HOLDING_INVENTORY",
+      "sourceIds": [
+        "S479-WLB-1715",
+        "S479-LEOBW-1715"
+      ],
+      "status": "STRONG_BIBLIOGRAPHIC",
+      "highRisk": false,
+      "sourceEvidenceStatus": "EDITORIAL_NOT_HUMAN_APPROVED",
+      "historianReviewer": null,
+      "reviewDecision": "PENDING",
+      "originalObjectFolioCollated": false
+    },
+    {
+      "id": "C479-08",
+      "statement": "1715 WLB linked record indicates 494+176 and full NT contents, but leaves not directly collated",
+      "evidenceCategory": "CATALOGUE_READING",
+      "sourceIds": [
+        "S479-LEOBW-1715",
+        "S479-HALLE-1714"
+      ],
+      "status": "STRONG_METADATA_NOT_FOLIO_COLLATION",
+      "highRisk": true,
+      "sourceEvidenceStatus": "EDITORIAL_NOT_HUMAN_APPROVED",
+      "historianReviewer": null,
+      "reviewDecision": "PENDING",
+      "originalObjectFolioCollated": false
+    },
+    {
+      "id": "C479-09",
+      "statement": "BSI text states 1719 complete Tamil NT",
+      "evidenceCategory": "INSTITUTIONAL_EXHIBITION_TEXT",
+      "sourceIds": [
+        "S479-BSI-1719"
+      ],
+      "status": "EXHIBIT_WORDING_CONFIRMED_NOT_OBJECT",
+      "highRisk": false,
+      "sourceEvidenceStatus": "EDITORIAL_NOT_HUMAN_APPROVED",
+      "historianReviewer": null,
+      "reviewDecision": "PENDING",
+      "originalObjectFolioCollated": false
+    },
+    {
+      "id": "C479-10",
+      "statement": "Distinct 1719 NT issue not yet bibliographically identified; no typo hypothesis adopted",
+      "evidenceCategory": "RESEARCH_NEGATIVE_GATE",
+      "sourceIds": [
+        "S479-BSI-1719",
+        "S479-WLB-1715"
+      ],
+      "status": "UNRESOLVED_HIGH",
+      "highRisk": true,
+      "sourceEvidenceStatus": "EDITORIAL_NOT_HUMAN_APPROVED",
+      "historianReviewer": null,
+      "reviewDecision": "PENDING",
+      "originalObjectFolioCollated": false
+    },
+    {
+      "id": "C479-11",
+      "statement": "WLB separately lists 1722 Tamil New Testament as a different entry",
+      "evidenceCategory": "HOLDING_INVENTORY",
+      "sourceIds": [
+        "S479-WLB-1722"
+      ],
+      "status": "STRONG_BIBLIOGRAPHIC",
+      "highRisk": false,
+      "sourceEvidenceStatus": "EDITORIAL_NOT_HUMAN_APPROVED",
+      "historianReviewer": null,
+      "reviewDecision": "PENDING",
+      "originalObjectFolioCollated": false
+    },
+    {
+      "id": "C479-12",
+      "statement": "Schools for children and indigenous assistant training appear in retrospective reference",
+      "evidenceCategory": "BIOGRAPHICAL_REFERENCE",
+      "sourceIds": [
+        "S479-BU-HISTORY"
+      ],
+      "status": "RESEARCH_SUPPORTED_NOT_DIARY_COLLATION",
+      "highRisk": false,
+      "sourceEvidenceStatus": "EDITORIAL_NOT_HUMAN_APPROVED",
+      "historianReviewer": null,
+      "reviewDecision": "PENDING",
+      "originalObjectFolioCollated": false
+    },
+    {
+      "id": "C479-13",
+      "statement": "Tamil teacher/schoolmaster and son mediated local manuscript collecting; not equivalent to direct Greek/Tamil NT editorial role",
+      "evidenceCategory": "ACADEMIC_REVIEW",
+      "sourceIds": [
+        "S479-RUBIES-2015"
+      ],
+      "status": "RESEARCH_SUPPORTED_WITH_ATTRIBUTION_CAVEAT",
+      "highRisk": true,
+      "sourceEvidenceStatus": "EDITORIAL_NOT_HUMAN_APPROVED",
+      "historianReviewer": null,
+      "reviewDecision": "PENDING",
+      "originalObjectFolioCollated": false
+    },
+    {
+      "id": "C479-14",
+      "statement": "South Indian preexisting Christianity cannot be reduced to 1706 Danish Lutheran mission start",
+      "evidenceCategory": "HISTORIOGRAPHIC_DISTINCTION",
+      "sourceIds": [
+        "S479-BU-HISTORY",
+        "S479-SPRINGER-LINGUISTICS"
+      ],
+      "status": "EDITORIAL_REVIEW_REQUIRED",
+      "highRisk": true,
+      "sourceEvidenceStatus": "EDITORIAL_NOT_HUMAN_APPROVED",
+      "historianReviewer": null,
+      "reviewDecision": "PENDING",
+      "originalObjectFolioCollated": false
+    },
+    {
+      "id": "C479-15",
+      "statement": "1715 print existence is distinct from documented reading reception and print-run size",
+      "evidenceCategory": "METHODOLOGICAL_NEGATIVE_GATE",
+      "sourceIds": [
+        "S479-LEOBW-1715",
+        "S479-BU-HISTORY"
+      ],
+      "status": "RECEPTION_EVIDENCE_NOT_COLLECTED",
+      "highRisk": true,
+      "sourceEvidenceStatus": "EDITORIAL_NOT_HUMAN_APPROVED",
+      "historianReviewer": null,
+      "reviewDecision": "PENDING",
+      "originalObjectFolioCollated": false
+    }
+  ],
+  "comparisons": [
+    {
+      "year": "1706",
+      "object": "현지 선교 거점과 언어 학습",
+      "sourceId": "S479-BU-HISTORY",
+      "known": "1706 도착/타밀어 학습에서 현지 협력 필요",
+      "notProved": "신약전서 출판이나 특정 타밀인 직접 번역 저자"
+    },
+    {
+      "year": "1714",
+      "object": "할레 프랑케 재단 1714 첫 부분",
+      "sourceId": "S479-HALLE-1714",
+      "known": "네 복음서·사도행전, [5]잎 + 494쪽, 지겐발크/그륀들러 명시",
+      "notProved": "신약 27권 전체가 그 책에 포함됐다는 판단"
+    },
+    {
+      "year": "1715",
+      "object": "WLB Ba Indien 1715 01",
+      "sourceId": "S479-WLB-1715",
+      "known": "1715 타밀어 신약 실물 소장 목록, LEO-BW 494+176 및 신약 수록 기록",
+      "notProved": "낱장 서명·판심·권말의 직접 전면 교감 완료"
+    },
+    {
+      "year": "1719",
+      "object": "인도성서공회 전시 설명",
+      "sourceId": "S479-BSI-1719",
+      "known": "1719 신약전서 발행이라고 기술한 기관 문구 존재",
+      "notProved": "별도 1719년 인쇄본이 실제로 존재한다는 사물 증거"
+    },
+    {
+      "year": "1722",
+      "object": "WLB 타밀어 신약 별도 목록",
+      "sourceId": "S479-WLB-1722",
+      "known": "1722년판 별도 소장 항목 존재",
+      "notProved": "1719 기록이 오기 또는 1722 개정과 동일하다는 가정"
+    }
+  ],
+  "holds": [
+    {
+      "id": "H479-1715-FOLIO",
+      "description": "WLB 1715 494+176 quire/collation/title and end leaves not directly inspected"
+    },
+    {
+      "id": "H479-1719-WITNESS",
+      "description": "BSI 1719 statement has no separately identified 1719 physical object, cannot assert definite issue or definite typo"
+    },
+    {
+      "id": "H479-LOCAL-ROLE",
+      "description": "Native advisers/scribes are historically grounded, exact verse-level translation and printing responsibilities lack original-role evidence"
+    },
+    {
+      "id": "H479-RECEPTION",
+      "description": "1715 copy existence does not prove classroom use, print run or all local community reception"
+    },
+    {
+      "id": "H479-EXPERT-PILOT",
+      "description": "G443-03 P0 historian review and actual reader assessment unperformed"
+    }
+  ],
+  "expertReviewsCompleted": 0,
+  "actualReaderSessions": 0,
+  "externalContactRepliesReviewed": 0,
+  "independent1719ExemplarIdentified": false,
+  "originalObjectFolioCollationCount": 0,
+  "webAppChanges": 0,
+  "releaseGate": {
+    "canShip": false,
+    "canMergeMain": false,
+    "canImportAIStudio": false,
+    "expertApproved": false,
+    "readerValidated": false,
+    "rightsApproved": false,
+    "hostAccessVerified": false
+  },
+  "next": "V4.80 integrate verified contextual reader treatment with VOL06 L1 without overwriting baseline, align source localization and get actual browser display if appropriate."
+}
