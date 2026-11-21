@@ -1,0 +1,867 @@
+{
+  "schema": "ATLAS_V482_VOL08_T6_SOURCE_BOUNDED_READER_V1",
+  "version": "4.82",
+  "date": "2026-11-21",
+  "state": "RESEARCH_ONLY_NOT_APPROVED",
+  "volumeId": "VOL-08",
+  "chapterId": "L448-08-03",
+  "themeId": "T6",
+  "themeTitle": "번역과 지역 수용",
+  "focus": "ONE_OF_SIX_THEMES_ONLY",
+  "legacy": {
+    "sourcePath": "research/data/V4_50_L1_24_CHAPTER_INTEGRATED_REVISED_MASTER.json",
+    "sourceGitBlobSha": "79a362734aa963eb41ad0424515e8d21074349c5",
+    "originalTitle": "질문 5·6 — 국가·갈등·공존 / 번역과 지역 수용",
+    "originalBodyMarkdown": "**국가·갈등·공존**의 관점에서 보면 고대 악숨 왕실의 기독교 수용, 중세의 여러 통치 질서, 1555년 아우크스부르크 화의, 20세기 한국교회의 민주화와 분화는 비슷해 보이는 제목 아래 서로 다른 사건이다. 왕의 신앙이 주민 전체의 선택을 대신하지 않았고, 종교 간 합의가 모든 개인의 자유를 완성한 것도 아니다. 신앙공동체는 권력의 보호를 받기도 하고 권력을 비판하기도 했다. **어떤 사람들의 권리가 넓어졌으며 누가 여전히 배제되었는가**라는 질문이 시대마다 새로운 의미를 갖는다.\n\n**번역과 지역 수용**에서는 시리아어 문학과 중국 경교비, 남인도 타밀어 신약과 한국어 성서의 연대기를 비교한다. 781년 경교비가 회고하는 635년은 기록의 제작 연도와 사건의 연도를 구별하게 한다. 1715·1719년의 타밀어 출판 정보는 지금도 기관 기록 사이에서 설명되지 않은 부분이 있고, 한국어 성서의 1882·1887·1911년은 서로 다른 간행 범위를 가리킨다. 서로 다른 문헌을 동일한 확실성의 숫자로 정렬하는 것은 역사의 이해를 가로막는다. 주제 비교가 끝나면 원래의 시대권과 사료로 돌아가 **같은 질문이 왜 서로 다른 답을 낳았는지** 확인해야 한다.",
+    "originalBodyChars": 596,
+    "originalCrossLinks": [
+      "VOL-01",
+      "VOL-02",
+      "VOL-05",
+      "VOL-06",
+      "VOL-07"
+    ],
+    "originalSourceUrls": [
+      "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/the-religious-peace-of-augsburg-september-25-1555",
+      "https://www.mcgill.ca/religiousstudies/about/birks-building/jingiao-stele",
+      "https://www.cam.ac.uk/stories/korean-bibles",
+      "https://www.bsind.org/bsi-archives/"
+    ]
+  },
+  "sourceCandidateProvenance": [
+    {
+      "sourcePath": "research/data/ATLAS_V480_VOL02_JINGJIAO_READER_CANDIDATE.json",
+      "gitBlobSha": "1a7401e091bc9ef6463341fab76db7991a5d261d",
+      "volumeId": "VOL-02",
+      "chapterId": "L448-02-02",
+      "historianSignoff": false,
+      "releaseGate": {
+        "canShip": false,
+        "canMergeMain": false,
+        "canImportAIStudio": false,
+        "expertApproved": false,
+        "readerValidated": false,
+        "rightsApproved": false,
+        "hostAccessVerified": false
+      }
+    },
+    {
+      "sourcePath": "research/data/ATLAS_V479_VOL06_TAMIL_READER_CANDIDATE.json",
+      "gitBlobSha": "8c11ea16c85d76706ed3ce9e96518f2d4e91ffa7",
+      "volumeId": "VOL-06",
+      "chapterId": "L448-06-02",
+      "historianSignoff": false,
+      "releaseGate": {
+        "canShip": false,
+        "canMergeMain": false,
+        "canImportAIStudio": false,
+        "expertApproved": false,
+        "readerValidated": false,
+        "rightsApproved": false,
+        "hostAccessVerified": false
+      }
+    },
+    {
+      "sourcePath": "research/data/ATLAS_V481_VOL07_KOREAN_CHURCH_READER_CANDIDATE.json",
+      "gitBlobSha": "1cf686912c6ff063eaa45978b43a41610ac8e22e",
+      "volumeId": "VOL-07",
+      "chapterId": "L448-07-02",
+      "historianSignoff": false,
+      "releaseGate": {
+        "canShip": false,
+        "canMergeMain": false,
+        "canImportAIStudio": false,
+        "expertApproved": false,
+        "readerValidated": false,
+        "rightsApproved": false,
+        "hostAccessVerified": false
+      }
+    }
+  ],
+  "reader": {
+    "l0Markdown": "기독교가 다른 언어와 지역에서 전해졌다는 사실은 단순히 성경 한 권이 다른 언어로 옮겨졌다는 이야기만은 아니다. 781년 당나라 경교비는 성경의 중국어 번역본이 아니라, 중국어와 시리아어로 자기 공동체의 역사와 신앙을 새긴 비석이다. 비문이 전하는 635년의 사건과 781년 비석 제작을 구분해야 비로소 그 기록의 의미가 보인다. [S480-MCGILL][S480-FORDHAM1917]\n\n남인도 타랑감바디에서는 1706년 이후 타밀어의 문법과 표현을 배우는 과정에 현지 교사·필사자·독자들이 참여했다. 1714년의 네 복음서·사도행전 인쇄와 1715년 신약 소장기록은 출판 과정의 서로 다른 단계를 보여 준다. 인도성서공회가 1719년을 기록한 이유는 여전히 풀리지 않았으므로 그 해의 별도 인쇄본을 확인했다고 단정할 수 없다. [S479-SPRINGER-LINGUISTICS][S479-HALLE-1714][S479-WLB-1715][S479-BSI-1719]\n\n19세기 한국어 성서 역시 사람과 판본의 역사다. 로스만이 아니라 이응찬·백홍준·이성하·서상륜 등 한국어 사용자들이 번역에 참여했고 김청송 같은 식자공도 출판 과정에서 역할을 했다. 1882년 누가·요한복음 낱권과 1887년 신약 27권, 1900년 국내 인쇄 신약, 1906년 공인역, 1911년 신구약 합본은 서로 다른 물건과 편찬 단계를 뜻한다. [S481-AKS-ROSS][S481-AKS-NT]\n\n세 사례를 비교하는 목적은 중국 경교가 타밀어 신약을 낳고, 그 책이 한국어 신약으로 직접 이어졌다는 계보를 그리기 위해서가 아니다. 무엇을 현지 언어로 설명했는지, 누가 지식과 문장을 만들었는지, 어떤 문헌이나 물건이 오늘 남아 있는지를 묻기 위해서다. 돌비석·인쇄본·후대 목록·현대 연구는 서로 다른 증인이다. 언어로 옮겨진 신앙의 역사는 사람을 중심으로 읽되, 증거가 허락하지 않는 이름과 인과는 만들어 내지 않는다. [S480-SMITH][S479-RUBIES-2015][S481-BSK-HISTORY]",
+    "l1Markdown": "### 1. 세 지역을 비교하기 전에: '번역'이 가리키는 것\n\n세계 기독교사를 공부할 때 ‘번역’은 단어를 다른 언어로 바꾸는 작업으로만 이해되기 쉽다. 그러나 돌에 새긴 신앙고백과 공동체의 기억, 타밀어로 옮긴 신약성경, 한국어로 인쇄한 복음서는 저마다 다른 텍스트다. 중국 경교비는 **성경 전권의 중국어 판본**이 아니며, 남인도와 한국 사례의 중심은 **성경의 번역과 책의 간행 과정**이다. 이 구분을 지우고 모두 같은 유형의 ‘최초 번역 성경’으로 나열하면 자료의 본질부터 잘못 비교하게 된다. [S480-MCGILL][S479-HALLE-1714][S481-AKS-NT]\n\n우리가 공통으로 물을 수 있는 것은 출판물의 형태가 아니라 문화적 접촉의 조건이다. 어떤 언어로 그리스도교를 설명했는가, 그 언어를 쓰던 사람들이 어떤 지식을 제공했는가, 어느 권력과 기관이 활동을 지원하거나 제한했는가, 그리고 그 사실을 지금 확인하는 유물은 무엇인가. 같은 질문을 던질 수 있다고 해서 세 지역 사이에 직접적인 조직 계보·책의 계통이 증명되는 것은 아니다. **비교할 수 있음과 직접 연결되어 있음은 다르다.** [S480-CAM2017][S479-SPRINGER-LINGUISTICS]\n\n### 2. 당나라의 언어: 635년 사건을 781년 비석이 전하다\n\n경교비의 중국어·시리아어 문장은 당나라의 사람들이 자신들의 종교적 정체성을 여러 언어로 보여 주던 방법을 살펴보게 한다. 비문은 아라본이 635년에 장안에 도착했다고 회고하고, 638년에는 황제가 종교 활동을 허용했다고 기술한다. 그러나 오늘 확인하는 **기념비 자체는 781년에 세워졌다**. 635년의 동시대 일기나 638년 황제의 친필 조서를 직접 판독한 것으로 처리해서는 안 된다. [S480-MCGILL][S480-FORDHAM1917]\n\n중국어의 **대진(大秦)**과 **경교(景教)**라는 이름은 당나라 독자가 서방에서 온 가르침을 인식하도록 하는 표현이었다. 시리아어의 사람 이름과 교회 관련 기록은 중국 내부의 설명과 서아시아 교회의 연결을 동시에 드러낸다. 이 언어적 선택은 중요하지만, 한두 용어의 현대 번역만으로 당시 모든 교인이 같은 신학을 가졌다고 결론 내릴 수 없다. 중국어 본문·시리아어 측면 글자의 행별 직접 교감이 아직 이루어지지 않았기 때문이다. [S480-CAM2017]\n\n### 3. 돌과 탁본: '같은 문장'도 서로 다른 물건에 남는다\n\n경교비는 돌에 새겨졌다. 뒤 시대 사람들은 그 표면을 종이와 먹으로 떠서 **탁본**을 만들었다. 스미스소니언의 소장번호 F1976.28.2a-d가 가리키는 것은 **781년 당대 원석이 아니라 20세기 제작된 종이 탁본**이다. 이 차이를 밝히지 않으면 비문이 만들어진 시기와 지금 보고 있는 복제물의 제작 시기를 하나로 합치게 된다. [S480-SMITH]\n\n탁본과 번역은 두 번의 매개다. 탁본은 새김의 자획과 마모를 특정 시점에 재현하고, 후대 영어 번역은 그 문장을 다른 독자에게 의미로 전달한다. 포드햄이 제공하는 영어판은 1917년 편집 번역에 기초하므로 중국어·시리아어 원문과 후대 편집자의 도입·어휘를 구별해 인용해야 한다. 비문이 635년을 적었다는 관찰, 현존 원석의 상태, 20세기 탁본의 자획, 1917년 영어 문장이라는 **네 층의 증언**을 하나로 섞지 않는 것이 이번 비교의 첫 번째 훈련이다. [S480-FORDHAM1917][S480-SMITH]\n\n### 4. 타랑감바디: 선교사가 새 언어를 배울 수 있게 한 사람들\n\n1706년 독일계 루터교 선교사 지겐발크와 플뤼차우가 남인도 해안의 덴마크 거점에 도착했다. 이 장소에는 이미 언어와 신앙, 지식과 사회적 위계가 있었다. 유럽인이 도착한 날을 인도 전체 기독교의 최초 시작일로 쓰지 않는 이유다. 타밀어의 문법과 표현을 익히는 일에는 현지 교사, 통역자, 문헌을 베껴 전해 주는 사람과 타밀어 독자들의 지식이 필요했다. [S479-SPRINGER-LINGUISTICS]\n\n관련 학술연구에는 타밀어 교사와 그 아들, 현지 필사자, 질문에 답한 학자들의 역할이 등장한다. 누군가가 언어를 가르치고 책을 구해 주었다는 사실은 단순한 배경이 아니다. 어떤 종교 용어를 타밀어로 설명해야 하는지 고민할 때 현지 지식의 역할이 문장에 영향을 미쳤을 가능성을 생각하게 한다. 다만 이 근거만으로 익명의 교사에게 특정 성경 구절의 번역 저자권을 부여하거나, 학자들과의 모든 대화가 동등한 조건이었다고 주장할 수는 없다. [S479-RUBIES-2015][S479-SPRINGER-LINGUISTICS]\n\n### 5. 1714·1715·1719·1722: 연대는 판본의 동일성을 보장하지 않는다\n\n할레 프랑케 재단의 목록은 1714년에 인쇄한 **네 복음서와 사도행전**을 특정한다. 1715년에는 뷔르템베르크 주립도서관 소장목록이 타밀어 **신약전서**를 기재한다. 1722년 역시 WLB의 별도 소장 항목으로 확인된다. 이는 텍스트의 준비·부분 인쇄·합본·후대 수정이 하나의 발표 연도에 모두 끝나지 않을 수 있음을 보여 준다. 그러나 도서관 서지의 쪽수가 비슷하다는 사실만으로 실제 활자 판쇄와 낱장의 배열까지 동일함을 입증하는 것은 아니다. [S479-HALLE-1714][S479-WLB-1715][S479-WLB-1722]\n\n인도성서공회는 다른 공식 전시 설명에서 **1719년 신약전서 완간**을 이야기한다. 이는 기관이 그렇게 기술한다는 사실의 증거이지, 해당 연도로 표제·권말·소장번호가 확인된 **별도 인쇄본의 존재 증명**은 아직 아니다. 반대로 1719가 단순 오기라는 가설도 확정된 것이 아니다. 제6권 시범 원고는 이 충돌을 감추지 않고 열어 둔다. 이번 비교 원고 역시 독자가 **기록된 주장, 현존 소장본, 직접 확인한 물리적 지면**을 분리하도록 안내한다. [S479-BSI-1719][S479-WLB-1715]\n\n### 6. 조선의 독서와 세례: 1779·1784년을 성경 번역 연표에 넣지 않는 이유\n\n조선에서 1779년 무렵의 강학과 1784년 이승훈의 북경 세례는 **신앙 지식의 수용과 평신도 공동체의 형성**을 설명하는 사건이다. 정약용의 묘지명이 전하는 1779년 강학에 천주교 신앙의 교육이 어느 정도 있었는지에 대해서는 연구자들의 의견이 다르다. 1784년 세례·귀국을 이 강학과 같은 날의 한 창립식으로 그릴 수도 없다. 두 사건은 조선 사람이 외부의 종교문헌을 읽고 자기 신앙의 길을 찾았다는 질문을 제기하지만, 곧바로 1882년 개신교 한글 성서의 번역 저본을 확정하는 자료는 아니다. [S481-AKS-GANGHAK][S481-AKS-YISEUNGHUN]\n\n이 절을 함께 읽는 이유는 가톨릭·개신교의 간행 사업을 하나의 조직 계보로 만들기 위해서가 아니다. 사람들은 **이미 문헌을 읽고 토론하던 공동체**였으며, 뒤 시대에는 서로 다른 교파·장소·제도 아래 한글로 신앙의 언어를 기록하는 일이 전개됐다. 1779 강학에서 번역문 몇 절이 확정됐다고 임의로 기록하지 않으면서도, 문헌을 읽은 지역 주체를 서술에서 지우지 않는 것이 중요하다. [S481-AKS-GANGHAK][S481-AKS-ROSS]\n\n### 7. 심양의 한국어 문장: 1882 복음서와 1887 신약전서\n\n19세기 후반 로스와 매킨타이어가 한국어 성서를 준비할 때 이응찬·백홍준·이성하·서상륜 등 한국어 사용자들의 언어 지식이 필요했다. 이 과정은 외국 선교사가 완성한 문장을 한국인이 받아 적었다는 단선적 그림으로 설명되지 않는다. 번역 초고, 다른 성서와의 비교, 교정, 인쇄 활자 조판이 구별되어야 한다. 기록에 식자공 김청송의 이름이 남는 것도 책의 역사가 언어 노동과 출판 노동의 결합이었음을 보여 준다. [S481-AKS-ROSS]\n\n**1882년** 심양의 누가·요한복음은 개별 복음서 출판이며, **1887년** 『예수성교전서』는 신약 27권을 담은 한글 신약전서다. 두 인쇄물을 모두 한 문장으로 ‘최초 성경’이라고 부르면 수록 범위와 변화가 사라진다. 또한 그 문장들이 한반도 어느 공동체에서 실제로 얼마나 읽혔는지는 소장본의 존재만으로 알 수 없다. 독자의 생활, 배포의 경로, 여러 지역의 말투가 서로 어떻게 만났는지 따로 조사해야 한다. [S481-AKS-NT][S481-AKS-ROSS]\n\n### 8. 1900·1906·1911: 번역의 끝은 한 번에 오지 않는다\n\n1882년·1887년 출판 이후 한국어 신약 번역은 다른 사람들과 인쇄 체계 속에서 계속 검토됐다. 1900년 국내에서 간행된 신약전서는 개인역과 시험역이 함께 사용된 단계였고, **1906년 공인역본**과 구별된다. 1911년에는 구약과 신구약 합본 『성경전서』가 나오면서 인쇄된 책의 **수록 범위**가 다시 달라졌다. 같은 ‘성경’이라는 이름을 썼더라도 책의 제작·수록·교정 과정은 같지 않았다. [S481-AKS-NT][S481-BSK-HISTORY]\n\n이 과정에서 한국어 문장이 어떻게 바뀌었는지를 구체적으로 밝히려면 1900년과 1906년 각 판본의 지면을 직접 비교해야 한다. 우리는 현재 학술백과와 대한성서공회의 연혁 등 **후대 설명을 읽은 단계**다. 어떤 문장이 누구에게서 다른 누구에게 그대로 전해졌는지를 아직 확정하지 않는다. 또 한국어 개신교 성서 인쇄의 주요 연대는 조선 천주교의 성서·교리·전례 출판 전체를 대변하지 않는다. [S481-AKS-NT][S481-BSK-HISTORY]\n\n### 9. '지역 수용'을 어떻게 증명할 것인가\n\n당나라 비문의 글자, 타밀어 신약의 표제지, 한국어 복음서의 인쇄연도는 역사에서 서로 다른 질문에 답한다. **비문은 공동체가 자신을 어떻게 설명했는지**, **인쇄물은 어느 시기에 어떤 본문을 책으로 만들었는지** 알려 줄 수 있다. 그러나 비문 하나로 당나라 전역의 모든 예배 방식을 알아낼 수 없고, 인쇄본의 존재만으로 남인도의 특정 학생이나 조선의 어느 마을 주민이 그 책을 어떻게 읽었는지도 알 수 없다. [S480-FORDHAM1917][S479-HALLE-1714][S481-AKS-ROSS]\n\n지역 수용의 역사는 책이나 비석 이후에 생기는 물음이다. 그 언어를 쓰는 사람이 그것을 읽거나 들었다는 기록, 어떤 표현을 이해하거나 거부했다는 반응, 지역 공동체의 결정이 있는지 살펴야 한다. 현지 교사와 번역 협력자의 이름이 남아 있다는 사실은 중요하지만, 그 사람이 바로 전 공동체의 신학을 대표했다고 간주할 수는 없다. 교회사에서 **문헌 증거와 생활 증거**를 구분하는 일이야말로 번역과 지역 수용을 연결하는 방법이다. [S479-RUBIES-2015][S481-AKS-ROSS]\n\n### 10. 하나의 질문, 세 개의 다른 답: 원래 권으로 돌아가기\n\n독자는 세 장면을 나란히 놓아 보자. **781년 석비**에서 확인해야 할 것은 635년·638년을 회고하는 공동체의 언어와 작성 시점이다. **1714·1715년 타밀어 인쇄물**에서는 수록 범위와 현지의 번역 조력이 중요하고, **1882·1887·1900·1906·1911년 한국어 성서**에서는 인쇄 시기·번역팀·교정 단계와 독자 범위가 서로 다르다. [S480-MCGILL][S479-WLB-1715][S481-AKS-NT]\n\n이 세 역사는 서로 이어지는 하나의 선교기관 조직도나 직접 텍스트 계보가 아니라, **자기 언어로 신앙을 설명하려는 지역 공동체와 기록이 남는 방식에 대한 비교**다. 누가 말을 선택할 권한을 가졌는가 하는 질문은 제8권의 **성경과 권위**라는 다른 주제로 이어지고, 통치와 후원이 누구의 활동을 가능하게 했는지는 **국가·갈등·공존**의 문제로 이어진다. 하지만 지금 내릴 수 있는 결론은 단순하다. 먼저 제2권의 비문, 제6권의 인쇄본, 제7권의 한국인 번역자와 출판사를 **각각 그 시대의 사료로 돌아가 확인하자.** [S480-CAM2017][S479-SPRINGER-LINGUISTICS][S481-AKS-ROSS]",
+    "l0ParagraphCount": 4,
+    "l1SectionCount": 10,
+    "markdownPath": "integrations/atlas-flagship-phase1/V482_VOL08_THEME06_TRANSLATION_LOCAL_RECEPTION_KO.md"
+  },
+  "readerStops": [
+    {
+      "position": 1,
+      "volumeId": "VOL-02",
+      "chapterId": "L448-02-02",
+      "candidateDataPath": "research/data/ATLAS_V480_VOL02_JINGJIAO_READER_CANDIDATE.json",
+      "period": "635/638(781년에 회고)·781(제작)·20세기 탁본",
+      "kind": "STELE_RETROSPECTIVE_TESTIMONY",
+      "coreQuestion": "이 공동체는 자신의 신앙을 왜 중국어·시리아어로 기록했는가?",
+      "sourceIds": [
+        "S480-MCGILL",
+        "S480-FORDHAM1917",
+        "S480-SMITH"
+      ],
+      "holds": [
+        "H480-CHINESE-SYRIAC",
+        "H480-638-EDICT",
+        "H480-RUBBINGS"
+      ]
+    },
+    {
+      "position": 2,
+      "volumeId": "VOL-06",
+      "chapterId": "L448-06-02",
+      "candidateDataPath": "research/data/ATLAS_V479_VOL06_TAMIL_READER_CANDIDATE.json",
+      "period": "1706·1714·1715·1719 미확정·1722",
+      "kind": "VERNACULAR_NT_TRANSLATION_AND_PRINT",
+      "coreQuestion": "언어를 가르친 사람과 실제 인쇄된 판본은 어떻게 구별되는가?",
+      "sourceIds": [
+        "S479-SPRINGER-LINGUISTICS",
+        "S479-RUBIES-2015",
+        "S479-HALLE-1714",
+        "S479-WLB-1715",
+        "S479-BSI-1719"
+      ],
+      "holds": [
+        "H479-1715-FOLIO",
+        "H479-1719-WITNESS",
+        "H479-LOCAL-ROLE"
+      ]
+    },
+    {
+      "position": 3,
+      "volumeId": "VOL-07",
+      "chapterId": "L448-07-02",
+      "candidateDataPath": "research/data/ATLAS_V481_VOL07_KOREAN_CHURCH_READER_CANDIDATE.json",
+      "period": "1779·1784·1882·1887·1900·1906·1911",
+      "kind": "LOCAL_RECEPTION_AND_VERNACULAR_BIBLE_EDITIONS",
+      "coreQuestion": "평신도 신앙 수용과 번역·인쇄의 다른 종류의 출발점을 어떻게 구별하는가?",
+      "sourceIds": [
+        "S481-AKS-GANGHAK",
+        "S481-AKS-ROSS",
+        "S481-AKS-NT",
+        "S481-BSK-HISTORY"
+      ],
+      "holds": [
+        "H481-1779-EARLY-CHURCH",
+        "H481-PRINT-WITNESSES",
+        "H481-ROSS-TRANSLATORS"
+      ]
+    },
+    {
+      "position": 4,
+      "volumeId": "VOL-08",
+      "chapterId": "L448-08-03",
+      "candidateDataPath": "research/data/ATLAS_V482_TRANSLATION_LOCAL_RECEPTION_READER_CANDIDATE.json",
+      "period": "세 지역의 비교(비연대적)",
+      "kind": "CROSS_VOLUME_COMPARATIVE_EDITORIAL_SYNTHESIS",
+      "coreQuestion": "같은 역사 질문이 비석·인쇄본·공동체 경험에서 왜 서로 다르게 확인되는가?",
+      "sourceIds": [
+        "S480-CAM2017",
+        "S479-BSI-1719",
+        "S481-AKS-NT"
+      ],
+      "holds": [
+        "H482-CAUSE",
+        "H482-SOURCE-GENRE"
+      ]
+    }
+  ],
+  "chapterIdCoverage": [
+    "L448-02-02",
+    "L448-06-02",
+    "L448-07-02",
+    "L448-08-03"
+  ],
+  "sources": [
+    {
+      "id": "S480-MCGILL",
+      "originVolumeId": "VOL-02",
+      "title": "McGill University, Jingjiao Stele",
+      "kind": "UNIVERSITY_PUBLIC_HISTORY",
+      "url": "https://www.mcgill.ca/religiousstudies/about/birks-building/jingiao-stele",
+      "limitation": "대학 해설, 비석 자체 지면 직접 판독 아님",
+      "originSourceItemId": "S480-MCGILL",
+      "sourceAlreadyReviewedByHistorian": false
+    },
+    {
+      "id": "S480-FORDHAM1917",
+      "originVolumeId": "VOL-02",
+      "title": "Fordham East Asian History Sourcebook, 1917 Horne English edited translation",
+      "kind": "EDITED_HISTORIC_TRANSLATION",
+      "url": "https://sourcebooks.fordham.edu/eastasia/781nestorian.asp",
+      "limitation": "1917년 번역·편집본. 빅토리아/근대 종교적 관점과 문헌 교열을 포함; 중국어/시리아어 원문을 직접 완전 대조하지 않음",
+      "originSourceItemId": "S480-FORDHAM1917",
+      "sourceAlreadyReviewedByHistorian": false
+    },
+    {
+      "id": "S480-SMITH",
+      "originVolumeId": "VOL-02",
+      "title": "Smithsonian NMAA The Nestorian Stele, in standard script, F1976.28.2a-d",
+      "kind": "RUBBING_OBJECT_CATALOGUE",
+      "url": "https://asia-archive.si.edu/object/F1976.28.2a-d/",
+      "limitation": "비석 본체가 아닌 20세기 종이 탁본. 전면 전사·서명 확인을 위한 실물 교감은 별도",
+      "originSourceItemId": "S480-SMITH",
+      "sourceAlreadyReviewedByHistorian": false
+    },
+    {
+      "id": "S480-CAM2017",
+      "originVolumeId": "VOL-02",
+      "title": "Scott Fitzgerald Johnson 2017, Silk Road Christians and the Translation of Culture in Tang China",
+      "kind": "PEER_REVIEWED_ACADEMIC_ABSTRACT",
+      "url": "https://www.cambridge.org/core/journals/studies-in-church-history/article/abs/silk-road-christians-and-the-translation-of-culture-in-tang-china/D8E48283153EA2E3C38AF5D36E238A0D",
+      "limitation": "초록과 서지 메타데이터 확인, 논문 유료 본문 전수 검토 아님",
+      "originSourceItemId": "S480-CAM2017",
+      "sourceAlreadyReviewedByHistorian": false
+    },
+    {
+      "id": "S479-SPRINGER-LINGUISTICS",
+      "originVolumeId": "VOL-06",
+      "title": "The Translation Policies of Protestant Reformers in the Early Eighteenth Century",
+      "kind": "SCHOLARLY_SYNTHESIS",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-662-67339-3_13",
+      "limitation": "이 학술 절은 인쇄를 1714라고 서술하기도 하므로 완결판 날짜 판정은 소장본 목록을 우선함",
+      "originSourceItemId": "S479-SPRINGER-LINGUISTICS",
+      "sourceAlreadyReviewedByHistorian": false
+    },
+    {
+      "id": "S479-RUBIES-2015",
+      "originVolumeId": "VOL-06",
+      "title": "Joan-Pau Rubiés (2015), Tamil Voices in the Lutheran Mission of South India, JEMH",
+      "kind": "ACADEMIC_REVIEW_WITH_METHODOLOGICAL_CAUTION",
+      "url": "https://www.academia.edu/11419363/Tamil_voices_in_the_Lutheran_Mission_to_South_India_1705_1714_",
+      "limitation": "서평은 원본 편지에 대한 직접 대조 결과를 대신하지 않음. 원래 타밀어 편지의 진정성·대화의 상호성 문제 남음",
+      "originSourceItemId": "S479-RUBIES-2015",
+      "sourceAlreadyReviewedByHistorian": false
+    },
+    {
+      "id": "S479-HALLE-1714",
+      "originVolumeId": "VOL-06",
+      "title": "Francke Foundations original-item bibliographic record for 1714 Gospels and Acts",
+      "kind": "ORIGINAL_PRINT_CATALOGUE",
+      "url": "https://digital.francke-halle.de/fsaad/content/titleinfo/162120",
+      "limitation": "서지·수록범위까지 확인. 책 전체 영인본을 행별 교감한 것이 아님",
+      "originSourceItemId": "S479-HALLE-1714",
+      "sourceAlreadyReviewedByHistorian": false
+    },
+    {
+      "id": "S479-WLB-1715",
+      "originVolumeId": "VOL-06",
+      "title": "Württembergische Landesbibliothek 1715 Tamil New Testament listing",
+      "kind": "RARE_PRINT_COLLECTION_INVENTORY",
+      "url": "https://www.wlb-stuttgart.de/fileadmin/user_upload/sammlungen/bibeln/Missionsbibeln/Missionsbibel_Stationen.pdf",
+      "limitation": "기관 목록의 서지 표제와 소장번호 확인; 표제지·권말 낱장 직접 판독 아님",
+      "originSourceItemId": "S479-WLB-1715",
+      "sourceAlreadyReviewedByHistorian": false
+    },
+    {
+      "id": "S479-BSI-1719",
+      "originVolumeId": "VOL-06",
+      "title": "Bible Society of India archival exhibition explanation",
+      "kind": "INSTITUTIONAL_EXHIBITION_NARRATIVE",
+      "url": "https://www.bsind.org/bsi-archives/",
+      "limitation": "1719년 **별도 소장본 번호, 표제지, 판심, 권말** 확인 정보 없음; 기관 설명 존재만 확인",
+      "originSourceItemId": "S479-BSI-1719",
+      "sourceAlreadyReviewedByHistorian": false
+    },
+    {
+      "id": "S479-WLB-1722",
+      "originVolumeId": "VOL-06",
+      "title": "WLB 1722 Tamil New Testament separate entry",
+      "kind": "RARE_PRINT_COLLECTION_INVENTORY",
+      "url": "https://www.wlb-stuttgart.de/fileadmin/user_upload/sammlungen/bibeln/Missionsbibeln/Missionsbibel_Stationen.pdf",
+      "limitation": "1722 별도판 기록은 1719 인쇄본의 존재나 부재를 직접 증명하지 않음",
+      "originSourceItemId": "S479-WLB-1722",
+      "sourceAlreadyReviewedByHistorian": false
+    },
+    {
+      "id": "S481-AKS-GANGHAK",
+      "originVolumeId": "VOL-07",
+      "title": "한국민족문화대백과사전, 한국 천주교 강학지",
+      "kind": "ACADEMIC_ENCYCLOPEDIA_HISTORIOGRAPHY",
+      "url": "https://encykorea.aks.ac.kr/Article/E0081603",
+      "limitation": "묘지명 원본을 직접 판독한 것이 아니라 이를 분석한 2024년 집필·2025년 수정 백과사전 항목",
+      "originSourceItemId": "S481-AKS-GANGHAK",
+      "sourceAlreadyReviewedByHistorian": false
+    },
+    {
+      "id": "S481-AKS-YISEUNGHUN",
+      "originVolumeId": "VOL-07",
+      "title": "한국민족문화대백과사전, 이승훈",
+      "kind": "ACADEMIC_BIOGRAPHICAL_OVERVIEW",
+      "url": "https://encykorea.aks.ac.kr/Article/E0044963",
+      "limitation": "북경 세례대장·이승훈 친필 일기 직접 교감 아님; 다른 기록의 집단 세례 장소·연도 세부 판정 추가 필요",
+      "originSourceItemId": "S481-AKS-YISEUNGHUN",
+      "sourceAlreadyReviewedByHistorian": false
+    },
+    {
+      "id": "S481-AKS-ROSS",
+      "originVolumeId": "VOL-07",
+      "title": "한국민족문화대백과사전, 예수성교전서",
+      "kind": "DOCUMENT_CATALOGUE_AND_HISTORY",
+      "url": "https://encykorea.aks.ac.kr/Article/E0037972",
+      "limitation": "학술 해설과 소장 소개로서 모든 희귀본 지면을 직접 비교하지 않음; 백홍준/백홍진 등 표기 차이는 별도 인명 검토 대상",
+      "originSourceItemId": "S481-AKS-ROSS",
+      "sourceAlreadyReviewedByHistorian": false
+    },
+    {
+      "id": "S481-AKS-NT",
+      "originVolumeId": "VOL-07",
+      "title": "한국민족문화대백과사전, 신약전서",
+      "kind": "SCHOLARLY_TRANSLATION_HISTORY",
+      "url": "https://encykorea.aks.ac.kr/Article/E0033189",
+      "limitation": "저본·판차·조판 수정의 실제 물리적 대조는 미완료; 모든 한국어 가톨릭 문헌을 포함하는 일괄 연표 아님",
+      "originSourceItemId": "S481-AKS-NT",
+      "sourceAlreadyReviewedByHistorian": false
+    },
+    {
+      "id": "S481-BSK-HISTORY",
+      "originVolumeId": "VOL-07",
+      "title": "대한성서공회, 성서가 우리에게 오기까지",
+      "kind": "BIBLE_SOCIETY_INSTITUTIONAL_HISTORY",
+      "url": "https://bskorea.or.kr/biblecom/bibcome05_08.php",
+      "limitation": "발행 기관의 후대 연혁이며 1900·1911 각 소장본의 표제지·판심 직접 교감과 구분",
+      "originSourceItemId": "S481-BSK-HISTORY",
+      "sourceAlreadyReviewedByHistorian": false
+    }
+  ],
+  "claimAudit": [
+    {
+      "id": "C482-01",
+      "statement": "Jingjiao 781 stele is not a complete Chinese Bible",
+      "sourceIds": [
+        "S480-MCGILL",
+        "S480-FORDHAM1917"
+      ],
+      "evidenceStatus": "CROSS_GENRE_NEGATIVE_SCOPE",
+      "highRisk": false,
+      "reviewDecision": "PENDING",
+      "historianReviewer": null,
+      "originalPhysicalTextCollated": false
+    },
+    {
+      "id": "C482-02",
+      "statement": "Stele 781 retrospectively reports arrival 635 and imperial permission 638",
+      "sourceIds": [
+        "S480-MCGILL",
+        "S480-FORDHAM1917"
+      ],
+      "evidenceStatus": "RETROSPECTIVE_TEXT",
+      "highRisk": true,
+      "reviewDecision": "PENDING",
+      "historianReviewer": null,
+      "originalPhysicalTextCollated": false
+    },
+    {
+      "id": "C482-03",
+      "statement": "Chinese/Syriac dimensions of Tang stele inform cultural translation",
+      "sourceIds": [
+        "S480-CAM2017"
+      ],
+      "evidenceStatus": "SCHOLARLY_INTERPRETATION_ABSTRACT",
+      "highRisk": true,
+      "reviewDecision": "PENDING",
+      "historianReviewer": null,
+      "originalPhysicalTextCollated": false
+    },
+    {
+      "id": "C482-04",
+      "statement": "Smithsonian rubbing is twentieth century, not original Tang stone",
+      "sourceIds": [
+        "S480-SMITH"
+      ],
+      "evidenceStatus": "MUSEUM_OBJECT_CATALOGUE",
+      "highRisk": false,
+      "reviewDecision": "PENDING",
+      "historianReviewer": null,
+      "originalPhysicalTextCollated": false
+    },
+    {
+      "id": "C482-05",
+      "statement": "1706 Tranquebar missionaries depended on local Tamil language work",
+      "sourceIds": [
+        "S479-SPRINGER-LINGUISTICS",
+        "S479-RUBIES-2015"
+      ],
+      "evidenceStatus": "SCHOLARLY_SYNTHESIS",
+      "highRisk": true,
+      "reviewDecision": "PENDING",
+      "historianReviewer": null,
+      "originalPhysicalTextCollated": false
+    },
+    {
+      "id": "C482-06",
+      "statement": "Tamil indigenous actors were participants but verse-level authorship is not proven",
+      "sourceIds": [
+        "S479-RUBIES-2015"
+      ],
+      "evidenceStatus": "ATTRIBUTION_BOUNDARY",
+      "highRisk": true,
+      "reviewDecision": "PENDING",
+      "historianReviewer": null,
+      "originalPhysicalTextCollated": false
+    },
+    {
+      "id": "C482-07",
+      "statement": "Halle 1714 object contains Four Gospels and Acts not full NT",
+      "sourceIds": [
+        "S479-HALLE-1714"
+      ],
+      "evidenceStatus": "PRINT_CATALOGUE",
+      "highRisk": false,
+      "reviewDecision": "PENDING",
+      "historianReviewer": null,
+      "originalPhysicalTextCollated": false
+    },
+    {
+      "id": "C482-08",
+      "statement": "WLB item-level inventory identifies 1715 Tamil NT and distinct 1722 issue",
+      "sourceIds": [
+        "S479-WLB-1715",
+        "S479-WLB-1722"
+      ],
+      "evidenceStatus": "RARE_ITEM_CATALOGUE",
+      "highRisk": false,
+      "reviewDecision": "PENDING",
+      "historianReviewer": null,
+      "originalPhysicalTextCollated": false
+    },
+    {
+      "id": "C482-09",
+      "statement": "Bible Society of India exhibition text says 1719 complete NT but separate exemplar unresolved",
+      "sourceIds": [
+        "S479-BSI-1719",
+        "S479-WLB-1715"
+      ],
+      "evidenceStatus": "INSTITUTIONAL_CLAIM_UNRESOLVED",
+      "highRisk": true,
+      "reviewDecision": "PENDING",
+      "historianReviewer": null,
+      "originalPhysicalTextCollated": false
+    },
+    {
+      "id": "C482-10",
+      "statement": "1779 study and 1784 baptism are different Korean religious acts",
+      "sourceIds": [
+        "S481-AKS-GANGHAK",
+        "S481-AKS-YISEUNGHUN"
+      ],
+      "evidenceStatus": "HISTORIOGRAPHIC_SCOPE",
+      "highRisk": true,
+      "reviewDecision": "PENDING",
+      "historianReviewer": null,
+      "originalPhysicalTextCollated": false
+    },
+    {
+      "id": "C482-11",
+      "statement": "Ross-era Bible translation depended on identifiable Korean translators and printers",
+      "sourceIds": [
+        "S481-AKS-ROSS"
+      ],
+      "evidenceStatus": "ACADEMIC_RESEARCH_SUMMARY",
+      "highRisk": true,
+      "reviewDecision": "PENDING",
+      "historianReviewer": null,
+      "originalPhysicalTextCollated": false
+    },
+    {
+      "id": "C482-12",
+      "statement": "1882 Gospels are not full 1887 NT of 27 books",
+      "sourceIds": [
+        "S481-AKS-ROSS",
+        "S481-AKS-NT"
+      ],
+      "evidenceStatus": "PRINT_SCOPE_DISTINCTION",
+      "highRisk": false,
+      "reviewDecision": "PENDING",
+      "historianReviewer": null,
+      "originalPhysicalTextCollated": false
+    },
+    {
+      "id": "C482-13",
+      "statement": "1900 domestic NT and 1906 authorized edition are separate editorial stages",
+      "sourceIds": [
+        "S481-AKS-NT",
+        "S481-BSK-HISTORY"
+      ],
+      "evidenceStatus": "BIBLIOGRAPHIC_DISTINCTION",
+      "highRisk": false,
+      "reviewDecision": "PENDING",
+      "historianReviewer": null,
+      "originalPhysicalTextCollated": false
+    },
+    {
+      "id": "C482-14",
+      "statement": "1911 full Protestant Bible is distinct from earlier NT editions",
+      "sourceIds": [
+        "S481-AKS-NT"
+      ],
+      "evidenceStatus": "BIBLIOGRAPHIC_DISTINCTION",
+      "highRisk": false,
+      "reviewDecision": "PENDING",
+      "historianReviewer": null,
+      "originalPhysicalTextCollated": false
+    },
+    {
+      "id": "C482-15",
+      "statement": "Text existence, copies, distribution, and individual reader uptake must not be equated",
+      "sourceIds": [
+        "S479-RUBIES-2015",
+        "S481-AKS-ROSS"
+      ],
+      "evidenceStatus": "RECEPTION_METHOD_HOLD",
+      "highRisk": true,
+      "reviewDecision": "PENDING",
+      "historianReviewer": null,
+      "originalPhysicalTextCollated": false
+    },
+    {
+      "id": "C482-16",
+      "statement": "Tang stele, Tamil New Testament, and Korean Bible editions are not a proven direct textual lineage",
+      "sourceIds": [
+        "S480-CAM2017",
+        "S479-SPRINGER-LINGUISTICS",
+        "S481-AKS-NT"
+      ],
+      "evidenceStatus": "NO_DIRECT_STEMMA_HOLD",
+      "highRisk": true,
+      "reviewDecision": "PENDING",
+      "historianReviewer": null,
+      "originalPhysicalTextCollated": false
+    },
+    {
+      "id": "C482-17",
+      "statement": "Catholic 1779/1784 religious uptake must not be written as direct Protestant Korean NT translation workflow",
+      "sourceIds": [
+        "S481-AKS-GANGHAK",
+        "S481-AKS-ROSS"
+      ],
+      "evidenceStatus": "CONFESSIONAL_SCOPE_HOLD",
+      "highRisk": true,
+      "reviewDecision": "PENDING",
+      "historianReviewer": null,
+      "originalPhysicalTextCollated": false
+    },
+    {
+      "id": "C482-18",
+      "statement": "Thematic similarity in authority and state relations does not establish uniform legal and ecclesial authority",
+      "sourceIds": [
+        "S480-FORDHAM1917",
+        "S479-SPRINGER-LINGUISTICS",
+        "S481-AKS-NT"
+      ],
+      "evidenceStatus": "COMPARATIVE_INTERPRETIVE_HOLD",
+      "highRisk": true,
+      "reviewDecision": "PENDING",
+      "historianReviewer": null,
+      "originalPhysicalTextCollated": false
+    }
+  ],
+  "holds": [
+    {
+      "id": "H482-CAUSE",
+      "level": "CRITICAL",
+      "statement": "No unbroken direct institutional/textual transmission Jingjiao → Tamil NT → Korean Bible is evidenced"
+    },
+    {
+      "id": "H482-SOURCE-GENRE",
+      "level": "CRITICAL",
+      "statement": "Chinese-Syriac stele, printed vernacular scripture, and retrospective institutional catalogues are not equivalent source types"
+    },
+    {
+      "id": "H482-CHINESE-SYRIAC",
+      "level": "HIGH",
+      "statement": "Chinese/Syriac original inscription not collated across stone, rubbing, and independent critical edition"
+    },
+    {
+      "id": "H482-TAMIL-1719",
+      "level": "HIGH",
+      "statement": "1719 Tamil separate physical print not identified; a catalogue's 1715 exemplar does not settle BSI exhibition chronology"
+    },
+    {
+      "id": "H482-LOCAL-AUTHORSHIP",
+      "level": "HIGH",
+      "statement": "Tamil teachers and Korean collaborators cannot be assigned specific verse-level authorship without independent source"
+    },
+    {
+      "id": "H482-KOREAN-EDITION",
+      "level": "HIGH",
+      "statement": "1882/1887/1900/1906/1911 editions and variant readings not collated against each physical exemplar"
+    },
+    {
+      "id": "H482-RELIGIOUS-GENRE",
+      "level": "HIGH",
+      "statement": "1779 and 1784 Catholic formation cannot be equated to Protestant 1882 Bible print origins"
+    },
+    {
+      "id": "H482-RECEPTION",
+      "level": "HIGH",
+      "statement": "Existence of stele/print not a direct record of every community's reading or belief"
+    },
+    {
+      "id": "H482-EXPERT",
+      "level": "HIGH",
+      "statement": "All preexisting V4.44 specialist review dockets remain NOT_SUBMITTED, no actual reader evaluation"
+    }
+  ],
+  "comparisonRows": [
+    {
+      "region": "당나라 중국",
+      "historicalEvent": "635·638(781년 비문이 회고)",
+      "materialWitness": "781년 석각",
+      "textKind": "중국어·시리아어 신앙·역사 설명",
+      "evidenceType": "기념비·후대 탁본·1917 편집 번역",
+      "citation": "[S480-MCGILL][S480-SMITH]",
+      "limit": "원본 비문 직접 교감과 635/638 독립 사료 미완료"
+    },
+    {
+      "region": "남인도 타랑감바디",
+      "historicalEvent": "1706년 이후 언어 학습·번역",
+      "materialWitness": "1714 부분 인쇄·1715 목록·1719 기술·1722 별도판",
+      "textKind": "타밀어 신약 번역과 인쇄",
+      "evidenceType": "도서관 실물목록·기관 전시·학술 연구",
+      "citation": "[S479-HALLE-1714][S479-WLB-1715][S479-BSI-1719]",
+      "limit": "1719 독립 물건 및 현지인 특정 절 번역 귀속 미해결"
+    },
+    {
+      "region": "조선·만주·한국",
+      "historicalEvent": "1779 강학 해석·1784 북경 세례",
+      "materialWitness": "1882 낱권·1887 NT·1900/1906 신약·1911 합본",
+      "textKind": "신앙 수용과 한국어 성경 번역·편집",
+      "evidenceType": "학술백과·성서공회 연혁·희귀본 연구",
+      "citation": "[S481-AKS-GANGHAK][S481-AKS-ROSS][S481-AKS-NT]",
+      "limit": "강학의 교회 설립 해석 및 판본 행별 교감 미완료"
+    }
+  ],
+  "chronology": [
+    {
+      "volumeId": "VOL-02",
+      "time": "635",
+      "classification": "EVENT_REPORTED_LATER",
+      "statement": "781년 경교비가 장안의 아라본 도착을 회고"
+    },
+    {
+      "volumeId": "VOL-02",
+      "time": "638",
+      "classification": "EVENT_REPORTED_LATER",
+      "statement": "781년 비문이 황제의 허가를 기술"
+    },
+    {
+      "volumeId": "VOL-02",
+      "time": "781",
+      "classification": "MONUMENT_PRODUCTION",
+      "statement": "경교비 제작"
+    },
+    {
+      "volumeId": "VOL-06",
+      "time": "1706",
+      "classification": "MISSION_LANGUAGE_ENCOUNTER",
+      "statement": "타랑감바디 언어 접촉·번역 환경"
+    },
+    {
+      "volumeId": "VOL-06",
+      "time": "1714",
+      "classification": "PARTIAL_NT_PRINT",
+      "statement": "네 복음서와 사도행전"
+    },
+    {
+      "volumeId": "VOL-06",
+      "time": "1715",
+      "classification": "CATALOGUED_NT_COPY",
+      "statement": "WLB 신약 소장기록"
+    },
+    {
+      "volumeId": "VOL-06",
+      "time": "1719",
+      "classification": "UNRESOLVED_INSTITUTIONAL_CLAIM",
+      "statement": "BSI 전시의 전권 발행 문구, 별도 인쇄본 미확인"
+    },
+    {
+      "volumeId": "VOL-06",
+      "time": "1722",
+      "classification": "CATALOGUED_SEPARATE_EDITION",
+      "statement": "WLB 별도 타밀어 신약 판본"
+    },
+    {
+      "volumeId": "VOL-07",
+      "time": "1779",
+      "classification": "CONTESTED_CATHOLIC_STUDY_INTERPRETATION",
+      "statement": "후대 문헌이 전하는 강학; 교리 교육 범위 논쟁"
+    },
+    {
+      "volumeId": "VOL-07",
+      "time": "1784",
+      "classification": "BAPTISM_AND_COMMUNITY",
+      "statement": "북경 세례와 조선 평신도 모임 형성"
+    },
+    {
+      "volumeId": "VOL-07",
+      "time": "1882",
+      "classification": "GOSPEL_PRINTING",
+      "statement": "한국어 누가·요한복음 낱권"
+    },
+    {
+      "volumeId": "VOL-07",
+      "time": "1887",
+      "classification": "COMPLETE_NT_PRINTING",
+      "statement": "한국어 신약 27권"
+    },
+    {
+      "volumeId": "VOL-07",
+      "time": "1900",
+      "classification": "DOMESTIC_NT_PRINTING",
+      "statement": "국내 인쇄 신약전서"
+    },
+    {
+      "volumeId": "VOL-07",
+      "time": "1906",
+      "classification": "AUTHORIZED_NT_REVISION",
+      "statement": "공인역본 완성"
+    },
+    {
+      "volumeId": "VOL-07",
+      "time": "1911",
+      "classification": "FULL_BIBLE_PRINTING",
+      "statement": "한국어 신구약 합본"
+    }
+  ],
+  "editorialBridges": [
+    {
+      "from": "VOL-02",
+      "to": "VOL-06",
+      "type": "COMPARATIVE_QUESTION_NOT_CAUSATION",
+      "question": "물질적 증인이 비석인 경우와 인쇄 성경인 경우에는 무엇을 다르게 확인해야 하는가?"
+    },
+    {
+      "from": "VOL-06",
+      "to": "VOL-07",
+      "type": "COMPARATIVE_QUESTION_NOT_CAUSATION",
+      "question": "현지 언어 조력과 번역을 담당한 사람의 역할을 어떤 종류의 문서가 입증하는가?"
+    },
+    {
+      "from": "VOL-07",
+      "to": "VOL-08",
+      "type": "THEMATIC_RETURN_NOT_CAUSATION",
+      "question": "한 언어의 성경이 존재한다는 증거와 공동체가 그 책을 읽었다는 증거는 어떻게 구별하는가?"
+    }
+  ],
+  "reviewDockets": [
+    {
+      "id": "G443-01",
+      "priority": "P0",
+      "status": "NOT_SUBMITTED",
+      "claimIds": [
+        "CL433-08",
+        "CL433-09"
+      ],
+      "actualReviewerCount": 0
+    },
+    {
+      "id": "G443-03",
+      "priority": "P0",
+      "status": "NOT_SUBMITTED",
+      "claimIds": [
+        "CL433-20",
+        "CL433-21"
+      ],
+      "actualReviewerCount": 0
+    },
+    {
+      "id": "G443-04",
+      "priority": "P0",
+      "status": "NOT_SUBMITTED",
+      "claimIds": [
+        "CL433-23",
+        "CL433-24"
+      ],
+      "actualReviewerCount": 0
+    },
+    {
+      "id": "G443-05",
+      "priority": "P0",
+      "status": "NOT_SUBMITTED",
+      "claimIds": [
+        "CL441-03"
+      ],
+      "actualReviewerCount": 0
+    },
+    {
+      "id": "G443-06",
+      "priority": "P0",
+      "status": "NOT_SUBMITTED",
+      "claimIds": [
+        "CL441-04",
+        "CL441-05",
+        "CL441-06"
+      ],
+      "actualReviewerCount": 0
+    },
+    {
+      "id": "G443-07",
+      "priority": "P0",
+      "status": "NOT_SUBMITTED",
+      "claimIds": [
+        "CL441-11",
+        "CL441-13"
+      ],
+      "actualReviewerCount": 0
+    },
+    {
+      "id": "G443-09",
+      "priority": "P1",
+      "status": "NOT_SUBMITTED",
+      "claimIds": [
+        "CL433-04",
+        "CL433-05",
+        "CL433-07"
+      ],
+      "actualReviewerCount": 0
+    },
+    {
+      "id": "G443-11",
+      "priority": "P1",
+      "status": "NOT_SUBMITTED",
+      "claimIds": [
+        "M440-04",
+        "CL441-07",
+        "CL441-08",
+        "CL441-09"
+      ],
+      "actualReviewerCount": 0
+    },
+    {
+      "id": "G443-12",
+      "priority": "P1",
+      "status": "NOT_SUBMITTED",
+      "claimIds": [
+        "CL433-27",
+        "CL433-28",
+        "CL433-29",
+        "CL441-14"
+      ],
+      "actualReviewerCount": 0
+    }
+  ],
+  "knowledgeLimitations": [
+    "No primary Korean/Chinese/Tamil historical object fully collated",
+    "1719 Tamil full NT separate copy remains unresolved",
+    "All cross regional edges are editorial comparisons only; no direct text stemma",
+    "Actual original reviewers 0, actual readers 0, production changes 0"
+  ],
+  "empiricalReview": {
+    "historianApprovals": 0,
+    "actualReaderSessions": 0,
+    "physicalSourceCollations": 0,
+    "licenseApprovals": 0,
+    "emailsSent": 0,
+    "appDeployments": 0,
+    "mainChanged": false
+  },
+  "releaseGate": {
+    "canShip": false,
+    "canMergeMain": false,
+    "canImportAIStudio": false,
+    "expertApproved": false,
+    "readerValidated": false,
+    "rightsApproved": false,
+    "hostAccessVerified": false
+  }
+}
