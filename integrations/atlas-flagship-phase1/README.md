@@ -473,3 +473,10 @@ V4.64에서 DOI 리다이렉트 오류로 **서지만 확인됐던 1529년 취�
 - [**1714/1715/1719/1722 서지 판단과 새 원고 편집 보고서**](./V479_TAMIL_EDITORIAL_HISTORICAL_DECISION_KO.md): 할레 1714 첫 부분, WLB 1715 소장본, BSI 1719 전시 설명, WLB 1722 별도판의 증거 수준을 각각 구분. 1719년 별도 원본이 확인됐거나 오기라고 확정하지 않음.
 - 기계판독 데이터 `research/data/ATLAS_V479_VOL06_TAMIL_READER_CANDIDATE.json`: 사료 10종, 역사 검토 주장 15건, 시대별 증거표 5행, 보류 5개. 1차 지면·필적 직접 교감 0, 역사학자 승인 0, 독자 평가 0.
 - V4.79는 **제6권 기존 마스터·다른 7권·main·AI Studio 운영 앱을 일절 변경하지 않음**. 재현 가능한 연구 원고에 그쳤으며 `can_ship=false`, `can_import_ai_studio=false`.
+
+## V4.80 — 제2권 635/638/781 경교비 원고 심화 및 유물·탁본·번역 증거 구분
+
+- [**제2권 경교비 심화 L0/L1 연구 원고**](./V480_VOL02_JINGJIAO_635_781_L0_L1_KO.md): 기존 V4.50 `L448-02-02` **482자**를 직접 변경하지 않고, **L0 4문단·L1 8절/4578자**의 실제 역사 해설로 확장했다. 635 아라본·638 비문 속 황제 허가·781 석각·1620년대 후대 발견·20세기 탁본을 서로 다른 증거로 서술.
+- [**원석·탁본·후대 번역 연구 판정서**](./V480_VOL02_STELE_RUBBING_TRANSLATION_EDITORIAL_DECISION_KO.md): 맥길대·포드햄 1917 영어 편집 번역·스미스소니언 F1976.28.2a-d·호주박물관·Cambridge 학술연구를 문헌·물건의 종류별로 표시. 실제 원석이나 탁본의 정밀 중국어·시리아어 전사·교감·이미지 권리 확인은 **미완료**.
+- [**V4.80 연구 원고·16건 검토 주장 데이터**](../../research/data/ATLAS_V480_VOL02_JINGJIAO_READER_CANDIDATE.json): 사료 8종, 시대별 비교 5건, 판단 보류 7건. 기존 `G443-09` P1·`CL433-04/05/07`의 실제 검토는 `NOT_SUBMITTED`.
+- 독자 실증·역사학자 승인·본문의 운영 Google AI Studio 반영 **각 0건**. 마스터·main 변경 없음. `can_ship=false`, `can_merge_main=false`, `can_import_ai_studio=false`.
