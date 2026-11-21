@@ -1,0 +1,188 @@
+{
+  "version": "V4.89",
+  "status": "L1_READER_CONNECTOR_RESEARCH_DRAFT",
+  "date": "2026-11-21",
+  "can_ship": false,
+  "source_master": {
+    "repository": "worldinyj/REFORMATION-ATLAS",
+    "branch": "research/atlas-v450-core-reformation-l1-eucharist-confessions-peace",
+    "path": "research/data/V4_50_L1_24_CHAPTER_INTEGRATED_REVISED_MASTER.json",
+    "blob_sha": "79a362734aa963eb41ad0424515e8d21074349c5",
+    "total_volumes": 8,
+    "total_chapters": 24
+  },
+  "reader_markdown": "docs/01_CONTENT/L1/V489_FOUR_CROSS_VOLUME_READING_PATHS_KO.md",
+  "paths": [
+    {
+      "id": "PATH489-01",
+      "title": "누가 신앙을 가르칠 권한을 갖는가?",
+      "chapter_ids": [
+        "L448-01-03",
+        "L448-03-02",
+        "L448-04-02",
+        "L448-05-01"
+      ],
+      "relation": "HISTORICAL_THEMATIC_COMPARISON",
+      "reading_minutes_target": null,
+      "chapters": [
+        {
+          "id": "L448-01-03",
+          "volume": "VOL-01",
+          "title": "공의회는 질문을 정리했지만 모든 차이를 지우지 못했다"
+        },
+        {
+          "id": "L448-03-02",
+          "volume": "VOL-03",
+          "title": "위클리프와 후스: 영향을 받았어도 똑같이 믿지는 않았다"
+        },
+        {
+          "id": "L448-04-02",
+          "volume": "VOL-04",
+          "title": "마르부르크의 합의와 아우크스부르크 판본: 신학과 서지의 차이"
+        },
+        {
+          "id": "L448-05-01",
+          "volume": "VOL-05",
+          "title": "가톨릭의 개혁을 오직 개신교에 대한 반응으로 읽지 않기"
+        }
+      ],
+      "validation": "CHAPTER_ID_EXISTS_IN_V450",
+      "routing": "INTERNAL_ID_ONLY_NOT_PUBLIC_APP_URL",
+      "link_evidence": "INTERPRETIVE_COMPARISON_NOT_CAUSAL_CHAIN"
+    },
+    {
+      "id": "PATH489-02",
+      "title": "성찬에서 무엇이 달랐는가?",
+      "chapter_ids": [
+        "L448-03-02",
+        "L448-04-02",
+        "L448-05-01"
+      ],
+      "relation": "DOCTRINAL_CONTRAST",
+      "chapters": [
+        {
+          "id": "L448-03-02",
+          "volume": "VOL-03",
+          "title": "위클리프와 후스: 영향을 받았어도 똑같이 믿지는 않았다"
+        },
+        {
+          "id": "L448-04-02",
+          "volume": "VOL-04",
+          "title": "마르부르크의 합의와 아우크스부르크 판본: 신학과 서지의 차이"
+        },
+        {
+          "id": "L448-05-01",
+          "volume": "VOL-05",
+          "title": "가톨릭의 개혁을 오직 개신교에 대한 반응으로 읽지 않기"
+        }
+      ],
+      "validation": "CHAPTER_ID_EXISTS_IN_V450",
+      "routing": "INTERNAL_ID_ONLY_NOT_PUBLIC_APP_URL",
+      "link_evidence": "INTERPRETIVE_COMPARISON_NOT_CAUSAL_CHAIN"
+    },
+    {
+      "id": "PATH489-03",
+      "title": "법이 종교적 공존을 결정할 수 있었는가?",
+      "chapter_ids": [
+        "L448-03-03",
+        "L448-04-03",
+        "L448-05-02"
+      ],
+      "relation": "POLITICAL_LEGAL_COMPARISON",
+      "chapters": [
+        {
+          "id": "L448-03-03",
+          "volume": "VOL-03",
+          "title": "프라하 4개조에서 바젤 협상까지: 요구·전쟁·법의 시간표"
+        },
+        {
+          "id": "L448-04-03",
+          "volume": "VOL-04",
+          "title": "제네바·잉글랜드·재세례파: 똑같은 개혁을 다른 제도로 만들다"
+        },
+        {
+          "id": "L448-05-02",
+          "volume": "VOL-05",
+          "title": "1555년과 1648년: 공존의 법적 범위와 배제"
+        }
+      ],
+      "validation": "CHAPTER_ID_EXISTS_IN_V450",
+      "routing": "INTERNAL_ID_ONLY_NOT_PUBLIC_APP_URL",
+      "link_evidence": "INTERPRETIVE_COMPARISON_NOT_CAUSAL_CHAIN"
+    },
+    {
+      "id": "PATH489-04",
+      "title": "누구의 언어가 신앙의 언어가 되었는가?",
+      "chapter_ids": [
+        "L448-02-02",
+        "L448-03-02",
+        "L448-04-01",
+        "L448-06-02",
+        "L448-07-02"
+      ],
+      "additional_L0_anchors": [
+        "A414-04",
+        "E408-21"
+      ],
+      "relation": "TRANSLATION_AND_LOCAL_AGENCY_COMPARISON",
+      "chapters": [
+        {
+          "id": "L448-02-02",
+          "volume": "VOL-02",
+          "title": "경교비에서 읽는 635년의 사건과 781년의 증언"
+        },
+        {
+          "id": "L448-03-02",
+          "volume": "VOL-03",
+          "title": "위클리프와 후스: 영향을 받았어도 똑같이 믿지는 않았다"
+        },
+        {
+          "id": "L448-04-01",
+          "volume": "VOL-04",
+          "title": "1517년 논쟁은 왜 예배·학교·도시 정부의 문제로 커졌나"
+        },
+        {
+          "id": "L448-06-02",
+          "volume": "VOL-06",
+          "title": "남인도 타밀어 성경: 인쇄 기계보다 중요한 사람과 판본"
+        },
+        {
+          "id": "L448-07-02",
+          "volume": "VOL-07",
+          "title": "한국교회의 서로 다른 시작: 독서·세례·번역·사회참여"
+        }
+      ],
+      "validation": "CHAPTER_ID_EXISTS_IN_V450",
+      "routing": "INTERNAL_ID_ONLY_NOT_PUBLIC_APP_URL",
+      "link_evidence": "INTERPRETIVE_COMPARISON_NOT_CAUSAL_CHAIN"
+    }
+  ],
+  "gaps": [
+    {
+      "id": "GAP489-01",
+      "theme": "T02",
+      "volume": "VOL-03",
+      "state": "GAP_NEEDS_TARGET",
+      "current_context_anchor": "A414-01",
+      "issue": "L1 source does not give a specific prior Reformation justification/soteriology doctrine"
+    },
+    {
+      "id": "GAP489-02",
+      "theme": "T02",
+      "volume": "VOL-07",
+      "state": "GAP_NEEDS_TARGET",
+      "current_context_anchor": "A410-09",
+      "issue": "Global regional plurality is not an adequate direct soteriological witness"
+    }
+  ],
+  "checks": {
+    "paths": 4,
+    "total_chapter_placements": 15,
+    "unique_chapter_ids": 11,
+    "missing_L1_ids": 0,
+    "app_E2E_completed": false,
+    "human_historian_signoff": false,
+    "reader_testing_completed": false,
+    "V482_fulltext_recovered": false
+  }
+}
