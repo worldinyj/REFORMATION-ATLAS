@@ -23,6 +23,7 @@ on:
       - 'research/data/ATLAS_V471_*'
       - 'research/data/ATLAS_V472_*'
       - 'research/data/ATLAS_V473_*'
+      - 'research/data/ATLAS_V474_*'
       - '.github/workflows/atlas-phase1-browser-qa.yml'
 
 permissions:
@@ -41,7 +42,7 @@ jobs:
         with:
           node-version: '22'
       - name: Validate claim register, pilot instrument and offline scorer
-        run: node --test integrations/atlas-flagship-phase1/reader-pilot-contract.test.mjs integrations/atlas-flagship-phase1/v458-evidence-contract.test.mjs integrations/atlas-flagship-phase1/v459-witness-contract.test.mjs integrations/atlas-flagship-phase1/v460-critical-apparatus-contract.test.mjs integrations/atlas-flagship-phase1/v461-manuscript-edition-source-contract.test.mjs integrations/atlas-flagship-phase1/v462-primary-source-evidence-contract.test.mjs integrations/atlas-flagship-phase1/v463-original-print-witness-contract.test.mjs integrations/atlas-flagship-phase1/v464-early-print-parallel-contract.test.mjs integrations/atlas-flagship-phase1/v465-zurich-original-print-colophon-contract.test.mjs integrations/atlas-flagship-phase1/v466-print-setting-provenance-contract.test.mjs integrations/atlas-flagship-phase1/v467-kz-autograph-acquisition-contract.test.mjs integrations/atlas-flagship-phase1/v468-kz-gmail-draft-and-early-facsimile-contract.test.mjs integrations/atlas-flagship-phase1/v469-heppe-bibliography-and-textual-history-contract.test.mjs integrations/atlas-flagship-phase1/v470-reader-copytext-and-bibliographic-contract.test.mjs integrations/atlas-flagship-phase1/v471-sentence-provenance-and-review-contract.test.mjs integrations/atlas-flagship-phase1/v472-editorial-revision-evidence-contract.test.mjs integrations/atlas-flagship-phase1/v473-preview-bridge-contract.test.mjs
+        run: node --test integrations/atlas-flagship-phase1/reader-pilot-contract.test.mjs integrations/atlas-flagship-phase1/v458-evidence-contract.test.mjs integrations/atlas-flagship-phase1/v459-witness-contract.test.mjs integrations/atlas-flagship-phase1/v460-critical-apparatus-contract.test.mjs integrations/atlas-flagship-phase1/v461-manuscript-edition-source-contract.test.mjs integrations/atlas-flagship-phase1/v462-primary-source-evidence-contract.test.mjs integrations/atlas-flagship-phase1/v463-original-print-witness-contract.test.mjs integrations/atlas-flagship-phase1/v464-early-print-parallel-contract.test.mjs integrations/atlas-flagship-phase1/v465-zurich-original-print-colophon-contract.test.mjs integrations/atlas-flagship-phase1/v466-print-setting-provenance-contract.test.mjs integrations/atlas-flagship-phase1/v467-kz-autograph-acquisition-contract.test.mjs integrations/atlas-flagship-phase1/v468-kz-gmail-draft-and-early-facsimile-contract.test.mjs integrations/atlas-flagship-phase1/v469-heppe-bibliography-and-textual-history-contract.test.mjs integrations/atlas-flagship-phase1/v470-reader-copytext-and-bibliographic-contract.test.mjs integrations/atlas-flagship-phase1/v471-sentence-provenance-and-review-contract.test.mjs integrations/atlas-flagship-phase1/v472-editorial-revision-evidence-contract.test.mjs integrations/atlas-flagship-phase1/v473-preview-bridge-contract.test.mjs integrations/atlas-flagship-phase1/v474-react-reader-pack-contract.test.mjs
 
   browser-smoke:
     name: Browser smoke (${{ matrix.engine }})
@@ -62,20 +63,20 @@ jobs:
         with:
           node-version: '22'
       - name: Install isolated browser test dependency
-        run: npm install --no-save --no-package-lock --ignore-scripts playwright@1.56.1 typescript@5.9.3
+        run: npm install --no-save --no-package-lock --ignore-scripts playwright@1.56.1 typescript@5.9.3 esbuild@0.25.12 react@19.2.0 react-dom@19.2.0
       - name: Install test browser and runtime libraries
         run: npx playwright install --with-deps ${{ matrix.engine }}
       - name: Check already authored synthetic DOM tests
         run: node --test preview.test.mjs react-contract.test.mjs markdown-contract.test.mjs
       - name: Test real browser engine
-        run: node --test browser-smoke.test.mjs browser-v473.test.mjs
+        run: node --test browser-smoke.test.mjs browser-v473.test.mjs browser-react-v474.test.mjs
         env:
           ATLAS_BROWSER: ${{ matrix.engine }}
       - name: Upload viewport evidence (screenshots only)
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: atlas-phase1-${{ matrix.engine }}-v473
+          name: atlas-phase1-${{ matrix.engine }}-v474
           path: integrations/atlas-flagship-phase1/qa-artifacts/*.png
           if-no-files-found: ignore
           retention-days: 14

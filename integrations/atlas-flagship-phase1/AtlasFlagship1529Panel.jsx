@@ -28,14 +28,16 @@ function SafeResearchMarkdown({source}) {
 }
 const safeExternal=url=>typeof url==="string"&&/^https:\/\/[^\s]+$/.test(url);
 export default function AtlasFlagship1529Panel({
-  scene, atlas, privatePreviewGranted=false, onReturnToAtlas
+  scene, atlas, readerPack=null, privatePreviewGranted=false, onReturnToAtlas
 }) {
   const [eventId,setEventId]=useState("EVENT-MARBURG-1529");
   const [layer,setLayer]=useState("L0");
   const [showEvidence,setShowEvidence]=useState(true);
   const [showEditionCompare,setShowEditionCompare]=useState(false);
+  const [showWitnessCompare,setShowWitnessCompare]=useState(false);
   const readerPanelId=useId();
   const comparePanelId=useId();
+  const witnessPanelId=useId();
   const evidencePanelId=useId();
   const timelineRef=useRef(null);
   const timelineYearsRef=useRef(null);
@@ -48,8 +50,24 @@ export default function AtlasFlagship1529Panel({
     if(!chapter||!volume||!Array.isArray(events)||events.length!==4 ||
       atlas.meta.canShip!==false || scene.contentGate?.canShip!==false ||
       !Array.isArray(scene.documentCards)||scene.documentCards.length!==2)return null;
-    return {chapter,volume,events};
-  },[scene,atlas]);
+    if(readerPack!==null&&(
+      readerPack?.schema!=="ATLAS_V474_RESEARCH_READER_PACK" ||
+      readerPack.canShip!==false ||
+      readerPack.releaseGate?.canShip!==false ||
+      readerPack.releaseGate?.canMergeMain!==false ||
+      readerPack.releaseGate?.canImportAIStudio!==false ||
+      readerPack.releaseGate?.hostAccessControlsVerified!==false ||
+      readerPack.historianApproved!==false ||
+      readerPack.readerPilotConfirmed!==false ||
+      readerPack.archiveKZOriginalLeavesVerified!==false ||
+      !readerPack.l0?.text?.includes("핵심 쟁점 가운데 하나") ||
+      !readerPack.l1?.text?.includes("저본의 전승 관계를 확정할 수는 없다") ||
+      !Array.isArray(readerPack.sources)||readerPack.sources.length!==6||
+      !Array.isArray(readerPack.witnessComparison)||readerPack.witnessComparison.length!==3 ||
+      !readerPack.sources.every(s=>safeExternal(s.sourceUrl)&&Array.isArray(s.linkedEventIds))
+    ))return null;
+    return {chapter,volume,events,pack:readerPack};
+  },[scene,atlas,readerPack]);
   if(!privatePreviewGranted||!integrity) {
     return <section className="atlas-fp" data-atlas-state="BLOCKED" role="status">
       <h2>연구 원고 접근 제한</h2>
@@ -57,13 +75,18 @@ export default function AtlasFlagship1529Panel({
     </section>;
   }
   const selected=integrity.events.find(e=>e.id===eventId)||integrity.events[0];
-  const docs=scene.documentCards.filter(d=>d.linkedEventIds.includes(selected.id));
+  const docs=(integrity.pack?.sources??scene.documentCards).filter(d=>d.linkedEventIds.includes(selected.id));
   const {chapter,volume}=integrity;
+  const activeText=layer==="L0"?(integrity.pack?.l0.text??volume.bodyMarkdown):(integrity.pack?.l1.text??chapter.bodyMarkdown);
+  const sourceIds=[...new Set((activeText.match(/\\[(?:GA|GE|WP|ZA|SC|GR)\\]/g)||[]).map(x=>x.slice(1,-1)))];
+  const allSources=integrity.pack?.sources??[];
+
   function handleRestart() {
     setEventId("EVENT-MARBURG-1529");
     setLayer("L0");
     setShowEvidence(true);
     setShowEditionCompare(false);
+    setShowWitnessCompare(false);
     timelineYearsRef.current?.scrollTo?.({left:0,behavior:"instant"});
     headingRef.current?.scrollIntoView?.({block:"start",behavior:"instant"});
   }
@@ -81,7 +104,7 @@ export default function AtlasFlagship1529Panel({
       <div className="atlas-fp-topline"><h1>{scene.title}</h1>
         <span className="atlas-fp-caveat">연구 초안 · 출판 보류</span></div>
       <p>{scene.educationalQuestion}</p>
-      <div className="atlas-fp-meta">제4권 · L0 개요 / L1 중급 · 1529–1540 · 사료 2종</div>
+      <div className="atlas-fp-meta">제4권 · L0 개요 / L1 중급 · 1529–1540 · 사료 {integrity.pack?"6종":"2종"} · {integrity.pack?"V4.72 연구 원고":"구형 연구 원고"}</div>
     </header>
 
     <div className="atlas-fp-layout">
@@ -118,6 +141,21 @@ export default function AtlasFlagship1529Panel({
           <p>제출 문서와 판본의 실제 동일성은 연도만으로 확정하지 않습니다.</p>
         </section>
 
+        {integrity.pack&&<div className="atlas-fp-witness-control">
+          <button type="button" aria-expanded={showWitnessCompare} aria-controls={witnessPanelId}
+            onClick={()=>setShowWitnessCompare(x=>!x)}>
+            1529년 인쇄본·번역문·서명본 비교 {showWitnessCompare?"접기":"열기"}
+          </button>
+        </div>}
+        {integrity.pack&&<section id={witnessPanelId} className="atlas-fp-compare atlas-fp-witness" hidden={!showWitnessCompare}
+            aria-label="1529년 문헌 증거 비교">
+          <h3>서로 다른 문헌 증인과 확인되지 않은 사실</h3>
+          <table><thead><tr><th scope="col">사료</th><th scope="col">자료에서 확인한 내용</th><th scope="col">현재의 한계</th></tr></thead>
+            <tbody>{integrity.pack.witnessComparison.map(w=><tr key={w.id}>
+              <th scope="row">{w.label} [{w.sourceId}]</th><td>{w.finding}</td><td>{w.limit}</td>
+            </tr>)}</tbody></table>
+          <p>인쇄본·편집 번역·보관소 목록의 차이만으로 필사본 계보를 확정하지 않습니다.</p>
+        </section>}
         <div className="atlas-fp-tabs" role="tablist" aria-label="역사 원고의 깊이">
           <button role="tab" id={readerPanelId+"-l0"} aria-controls={readerPanelId}
             aria-selected={layer==="L0"} tabIndex={layer==="L0"?0:-1}
@@ -128,8 +166,16 @@ export default function AtlasFlagship1529Panel({
         </div>
         <div className="atlas-fp-reading" id={readerPanelId} role="tabpanel"
           aria-labelledby={readerPanelId+(layer==="L0"?"-l0":"-l1")} tabIndex={0}>
-          <div className="atlas-fp-reading-meta">{layer==="L0"?"V4.47 연구용 개요":"V4.50 연구용 중급 해설"} · {layer==="L0"?volume.title:chapter.title}</div>
-          <SafeResearchMarkdown source={layer==="L0"?volume.bodyMarkdown:chapter.bodyMarkdown}/>
+          <div className="atlas-fp-reading-meta">{integrity.pack?"V4.72 연구용 개정본":layer==="L0"?"V4.47 연구용 개요":"V4.50 연구용 중급 해설"} · {integrity.pack?(layer==="L0"?integrity.pack.l0.title:integrity.pack.l1.title):(layer==="L0"?volume.title:chapter.title)}</div>
+          <SafeResearchMarkdown source={activeText}/>
+          {integrity.pack&&<div className="atlas-fp-provenance" aria-label="본문에 표시된 출처">
+            <strong>이 원고의 출처</strong>{" "}
+            {sourceIds.map(id=>{
+              const src=allSources.find(s=>s.id===id);
+              return src&&safeExternal(src.sourceUrl)?<a href={src.sourceUrl} key={id} target="_blank" rel="noopener noreferrer">[{id}]</a>:null;
+            })}
+            <p>링크는 선택할 때만 외부 기관으로 이동합니다. 원전 확인 수준은 사료 카드에서 확인하세요.</p>
+          </div>}
         </div>
         <div className="atlas-fp-toolbar">
           <button type="button" onClick={handleRestart}>1529년으로 돌아가기</button>
@@ -145,11 +191,12 @@ export default function AtlasFlagship1529Panel({
         <p className="atlas-fp-help">당대 문헌의 편집 번역과 희귀본 소장목록은 근거 성격이 서로 다릅니다.</p>
         {docs.map(d=><article className="atlas-fp-source" key={d.id}>
           <h3>{d.title}</h3>
-          <p>{d.documentClass==="HISTORICAL_AGREEMENT_TEXT"?"회담 문서의 후대 편집·번역 자료":"원본 판본을 구별하는 도서관 소장목록"}</p>
+          {integrity.pack&&<span className="atlas-fp-source-id">[{d.id}] · {d.sourceKind}</span>}
+          <p>{integrity.pack?d.note:d.documentClass==="HISTORICAL_AGREEMENT_TEXT"?"회담 문서의 후대 편집·번역 자료":"원본 판본을 구별하는 도서관 소장목록"}</p>
           {safeExternal(d.sourceUrl)?<a href={d.sourceUrl} target="_blank" rel="noopener noreferrer">기관 자료 열기 (외부 사이트)</a>:<span>출처 주소 확인 필요</span>}
         </article>)}
         <div className="atlas-fp-source"><strong>근거 유형</strong><p>{KIND[selected.evidenceType]||selected.evidenceType}</p></div>
-        <div className="atlas-fp-source-warning">당대 인쇄본 전문 교감·역사학자 검토가 완료된 자료가 아닙니다. 이미지·지도의 고증 및 권리 확인도 아직 없습니다.</div>
+        <div className="atlas-fp-source-warning">당대 인쇄본 전체 교감·K/Z 필사 원본 제15조 판독·역사학자 검토가 완료되지 않았습니다. 공개 GitHub 자료는 인증된 비공개 열람을 의미하지 않습니다.</div>
       </aside>
     </div>
     <footer className="atlas-fp-footer">연구 검토용 · 역사 전문가 승인 없음 · 실제 Google AI Studio 앱 미설치 · can_ship=false</footer>

@@ -426,3 +426,11 @@ V4.64에서 DOI 리다이렉트 오류로 **서지만 확인됐던 1529년 취�
 - V459 회귀검사에 공식 e-rara **291747 서지 URL + DOI permalink + 실제 PDF**를 분리 검증, Actions 러너 **ubuntu-24.04** 고정.
 - 신규 **V473 Node 계약 5건 + Chromium/WebKit 각 320/375/768/1440px 브라우저 시나리오** 연결. 실제 CI 성공 여부는 실행 결과 확인 전에는 미확인.
 - **[검증·진단 보고서](./V473_REVISED_READER_PREVIEW_AND_CI_RECOVERY_KO.md)**, JSON `research/data/ATLAS_V473_PREVIEW_SOURCE_BRIDGE_AND_CI_TRIAGE.json`; 출시 관련 모든 게이트는 닫힘.
+
+## V4.74 — 기존 React 연구 컴포넌트에 V4.72 전체 L0/L1 + 사료 증거 카드 연결
+
+- [**V4.74 React 연구 화면 통합 보고서**](./V474_REACT_READER_AND_BROWSER_INTEGRATION_KO.md): V4.73 정적 HTML에서 이미 표시했던 **V4.72의 L0 전체·L1 6절과 사료 6종**을 이제 `AtlasFlagship1529Panel.jsx`에서도 전달받아 실제 화면에 표시할 수 있다.
+- 기존 `readerPack=null` 호환을 유지하면서, 유효한 `readerPack`을 받은 경우에만 **3행 W2119/GHDI/K·Z 비교표, 각 사료 카드의 유형·한계·공식 링크, 근거 ID 링크**를 보인다. 공개 저장소 파일은 비공개 서버 접근제어가 아님을 명시.
+- 데이터: `research/data/ATLAS_V474_REACT_READER_PACK.json`. 기존 판본/역사 원문 수정 없이 V4.73 원고 정확성 연결을 검증하는 **5개 계약 테스트** 추가.
+- **실제 React DOM**은 `esbuild`+ `react-dom`으로 구축한 검사용 fixture와 Playwright Chromium/WebKit·320/375/768/1440px로 검증하고, 접근 미승인/연구패키지 변조 시 차단하는 음성 테스트를 수행한다.
+- 실제 CI 성공 여부는 신규 커밋 후 확인. `can_ship=false`, `can_merge_main=false`, `can_import_ai_studio=false`. 인간 전문가 승인 0, 독자 0, 실제 운영 앱 미반영.
