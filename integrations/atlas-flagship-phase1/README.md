@@ -466,3 +466,10 @@ V4.64에서 DOI 리다이렉트 오류로 **서지만 확인됐던 1529년 취�
 - [**역사 콘텐츠 실집필 작업지시서**](./V478_PRIORITIZED_REAL_CONTENT_AUTHORING_PLAN_KO.md): VOL06 타밀어 1715/1719 사료와 현지 공동체, VOL02 635/781 경교비, VOL07 보류 주장, VOL08 여섯 비교 질문을 실질 보강.
 - [**근거·원고 감사 JSON**](../../research/data/ATLAS_V478_EIGHT_VOLUME_BASELINE_AND_PRIORITIES.json)과 원본 대조 Node 테스트 6개 추가. **사료 URL 개수는 원전 직접 교감·학술 승인과 구별**, 역사학자 승인 0·독자 실증 0·운영 앱 배포 0.
 - `can_ship=false`, `can_merge_main=false`, `can_import_ai_studio=false`. main 불변.
+
+## V4.79 — 제6권 1714–1722 타밀어 성서 실제 심화 원고
+
+- [**제6권 타밀어 성서 역사 L0/L1 원고**](./V479_VOL06_TAMIL_L0_L1_SOURCE_GROUNDED_KO.md): 기존 V4.50의 `L448-06-02` 514자 분량의 원고를 직접 덮어쓰지 않고, L0 4문단·L1 8절 **4,983자**의 연구용 독자 본문으로 확장. 번역·인쇄·학교·지역 교사 및 필사자의 역할과 역사적 한계를 동시에 설명.
+- [**1714/1715/1719/1722 서지 판단과 새 원고 편집 보고서**](./V479_TAMIL_EDITORIAL_HISTORICAL_DECISION_KO.md): 할레 1714 첫 부분, WLB 1715 소장본, BSI 1719 전시 설명, WLB 1722 별도판의 증거 수준을 각각 구분. 1719년 별도 원본이 확인됐거나 오기라고 확정하지 않음.
+- 기계판독 데이터 `research/data/ATLAS_V479_VOL06_TAMIL_READER_CANDIDATE.json`: 사료 10종, 역사 검토 주장 15건, 시대별 증거표 5행, 보류 5개. 1차 지면·필적 직접 교감 0, 역사학자 승인 0, 독자 평가 0.
+- V4.79는 **제6권 기존 마스터·다른 7권·main·AI Studio 운영 앱을 일절 변경하지 않음**. 재현 가능한 연구 원고에 그쳤으며 `can_ship=false`, `can_import_ai_studio=false`.
