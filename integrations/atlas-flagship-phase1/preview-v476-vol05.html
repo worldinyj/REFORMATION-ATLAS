@@ -1,0 +1,73 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ATLAS 제5권 | 가톨릭 쇄신의 사람과 교령</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f6f8f5;color:#203a35;font:16px/1.65 system-ui,"Noto Sans KR",sans-serif}
+header{background:#fff;padding:24px max(12px,calc((100% - 1280px)/2));border-bottom:1px solid #dce6df}
+h1{margin:4px 0;font-size:clamp(1.45rem,3vw,2.2rem);line-height:1.35}h2{font-size:1.14rem}h3{font-size:1.03rem}
+.kicker{font-size:.74rem;color:#2b6150;font-weight:700;letter-spacing:.1em}.small{font-size:.79rem;color:#64796e}
+.layout{display:grid;grid-template-columns:200px minmax(0,1fr) 265px;gap:14px;align-items:start;max-width:1320px;margin:auto;padding:14px}
+nav,main,aside{border:1px solid #dce6df;border-radius:12px;background:white;min-width:0;padding:17px}
+button{cursor:pointer;font:inherit;background:#fff;color:#265946;border:1px solid #dce6df;border-radius:8px;padding:7px 10px}
+button:focus-visible,a:focus-visible{outline:3px solid #c5a04e;outline-offset:2px}
+.years{display:grid;gap:7px}.years button{font-size:.8rem;text-align:left}.years button[aria-current=step],.tabs button[aria-selected=true]{background:#265946;color:white}
+.tabs,.toolbar{display:flex;gap:8px;flex-wrap:wrap;margin:13px 0}.reader{padding-top:8px}.reader p{margin:0 0 1.3em}.reader h3{margin:19px 0 9px}
+.warn{padding:10px;border-radius:7px;background:#faf5e8;font-size:.8rem}.sources article{border-top:1px solid #dce6df;padding:12px 0}
+.sources h3{font-size:.87rem;margin:0}.sources p{font-size:.78rem;color:#64796e;margin:5px 0}
+.sources a,.trace a{font-size:.79rem;color:#255c48;overflow-wrap:anywhere}
+.trace{border-top:1px solid #dce6df;padding:12px 0;font-size:.82rem}.trace a{margin:0 8px 0 0}
+.compare{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:.81rem}td,th{border-bottom:1px solid #dce6df;padding:9px;text-align:left;vertical-align:top}
+footer{padding:10px 18px 28px;max-width:1320px;margin:auto;font-size:.75rem;color:#64796e}
+@media(max-width:1050px){.layout{grid-template-columns:175px minmax(0,1fr)}aside{grid-column:2}}
+@media(max-width:720px){.layout{display:block;padding:9px}nav,main,aside{margin-bottom:12px;padding:13px}.years{display:flex;overflow-x:auto}.years button{flex:0 0 157px}}
+</style></head><body>
+<header><div class="kicker">REFORMATION ATLAS · VOL-05 · RESEARCH ONLY · V4.76</div>
+<h1>가톨릭 내부 쇄신과 트리엔트 공의회</h1><p class="small">1540~1564 시범 구간 · 제5권의 종교 갈등과 공존 서사(1555~1648)는 별도 유지 · can_ship=false</p></header>
+<div class="layout"><nav><h2>역사 사건</h2><div id="years" class="years"></div></nav>
+<main><div class="kicker" id="date"></div><h2 id="event"></h2><p id="summary"></p><p id="caution" class="warn"></p>
+<div class="toolbar"><button id="compareBtn" type="button" aria-controls="compare" aria-expanded="false">서로 다른 증거 비교 열기</button><button id="reset" type="button">처음부터 읽기</button></div>
+<section id="compare" class="compare" hidden><h3>교리·개혁·인쇄 증거</h3><table><thead><tr><th>자료</th><th>관찰</th><th>미확인</th></tr></thead><tbody id="compareRows"></tbody></table></section>
+<div role="tablist" class="tabs" aria-label="읽기 수준"><button id="l0" type="button" role="tab" aria-controls="reader" aria-selected="true">L0 개요</button><button id="l1" type="button" role="tab" aria-controls="reader" aria-selected="false">L1 심화</button></div>
+<div id="reader" class="reader" role="tabpanel" aria-labelledby="l0"></div><div id="trace" class="trace"></div>
+</main><aside><h2>출처와 한계</h2><p class="small">사료 유형과 증거 수준을 구별합니다. 외부 링크는 사용자가 누를 때만 열립니다.</p><div id="sourceCards" class="sources"></div></aside></div>
+<footer>연구용 오프라인 파일 · 실제 역사학자 승인 0명 · 독자 평가 0건 · 응답 수집·추적 없음 · 운영 AI Studio 앱 미설치</footer>
+<script type="application/json" id="data">{"timeline":[{"id":"V5-1540","year":1540,"dateLabel":"1540년 9월 27일","title":"예수회 교황 인준","summary":"공의회 개막보다 앞선 가톨릭 쇄신의 한 갈래","claimLimit":"수도회 인준과 이후 활동 성과는 구분","sourceRefs":["TC","TJ"]},{"id":"V5-1547","year":1547,"dateLabel":"1547년 1월 13일","title":"제6회기 칭의 교령","summary":"제7장과 제8장에서 은총·믿음·내적 갱신을 함께 설명","claimLimit":"영어 번역과 라틴 자필 원본은 동일한 사료가 아님","sourceRefs":["TC","TG"]},{"id":"V5-1551","year":1551,"dateLabel":"1551년 10월 11일","title":"제13회기 성찬 교령","summary":"제1장의 현존과 제4장의 화체 설명","claimLimit":"1562년 미사 제사 교령과 구분","sourceRefs":["TC","TE"]},{"id":"V5-1562","year":1562,"dateLabel":"1562년 8월 24일","title":"테레사의 산호세 공동체","summary":"공의회 회의실 밖의 여성 수도 공동체 개혁","claimLimit":"후대 전기에 근거; 설립 허가서 직접 교감 미완료","sourceRefs":["TC","TA"]},{"id":"V5-1563","year":1563,"dateLabel":"1563년 7월 15일","title":"제23회기 신학교 규정","summary":"성품 교리와 구분되는 개혁 교령 제18장","claimLimit":"제정일과 모든 교구 실제 설립일 동일시 금지","sourceRefs":["TC","TS"]},{"id":"V5-1564","year":1564,"dateLabel":"1564년","title":"로마판 공의회 교령집","summary":"모건·트렌토 소장기관이 1564년 인쇄본을 기술","claimLimit":"인쇄본 간 전수 교감·필적 직접 판독은 미완료","sourceRefs":["TC","TM","TD"]}],"layers":[{"level":"L0","title":"제5권: 선언문만으로 바뀌지 않는 교회","markdown":"16세기 가톨릭의 쇄신은 개신교에 대한 대응인 동시에, 이미 교회 내부에서 자라나던 신앙생활·교육·목회 개혁의 연장이었다. ‘가톨릭 개혁’과 ‘반종교개혁’은 어느 한쪽만 골라야 하는 두 상표가 아니라 서로 다른 역사적 초점을 드러내는 표현이다. [TC]\n\n1540년 예수회는 교황의 인준을 받았다. 1545년에 시작한 트리엔트 공의회보다 먼저 일어난 사건이다. 공의회는 1545~1547년, 1551~1552년, 1562~1563년의 세 시기에 걸쳐 재개와 중단을 반복했다. 그러므로 예수회를 공의회가 설립했다고 하거나 18년 동안 쉬지 않고 회의가 계속됐다고 말할 수 없다. [TJ][TC]\n\n1547년의 칭의 교령은 은총과 믿음, 의롭게 됨과 내적 갱신을 설명했고, 1551년 공의회는 성찬의 현존과 화체를 다뤘다. 1563년 제23회기에서는 성직자 교육을 위한 신학교 운영 규정도 다뤘다. 그 사이 1562년 아빌라의 테레사가 새 수도 공동체를 세운 사건은 여성과 수도회도 쇄신의 역사에 참여했음을 보여 준다. [TG][TE][TS][TA]\n\n1563년 공의회가 결정을 마친 것과 1564년에 그 결정들을 담은 특정 **인쇄본**이 출판된 것은 서로 다른 사건이다. 교회 개혁을 이해하려면 **교리를 정한 회의**, **문서를 전하는 인쇄물**, **각 지역이 실제로 시행한 변화**를 구분해야 한다. [TC][TM][TD]","sourceRefs":["TC","TG","TE","TS","TJ","TA","TM","TD"]},{"level":"L1","title":"제5권: 가톨릭 쇄신의 사람과 교령","markdown":"### 1. 내부 쇄신과 교파적 대립을 함께 보기\n\n가톨릭 개혁은 성직자의 자질, 목회와 교육, 수도회 생활, 신앙의 실천을 바꾸려는 역사이다. 개신교의 도전에 대한 대응은 이를 더욱 긴급하게 만들었지만 내부 쇄신의 모든 원인을 설명하지는 못한다. ‘반종교개혁’이 강조하는 교리적 경계와 ‘가톨릭 개혁’이 강조하는 제도·영성은 서로 배타적인 사건으로 나누어질 수 없다. [TC]\n\n### 2. 1540년 — 예수회는 트리엔트 공의회보다 먼저 시작했다\n\n1540년 9월 27일 교황 바오로 3세는 *Regimini militantis Ecclesiae*를 통해 예수회를 인준했다. 이냐시오 데 로욜라와 동료들의 삶, 교황의 인준, 이후 예수회의 교육·선교 활동은 이어져 있지만 동일한 한 사건은 아니다. 특히 1545년에 시작한 트리엔트 공의회가 이 수도회를 직접 설립했다는 설명은 역사적 선후관계에 맞지 않는다. [TJ][TC]\n\n### 3. 1547년 — ‘칭의’ 교령 제7장과 제8장을 함께 읽기\n\n1547년 1월 13일 제6회기의 칭의 교령 제7장은 죄의 사함과 내적 갱신, 하나님의 은총과 그리스도의 공로를 논한다. 제8장은 믿음을 구원의 시작과 기초로 설명하면서, 칭의 이전의 믿음이나 행위가 은총을 벌어들였다는 해석을 경계한다. 이를 ‘인간의 공로만으로 구원을 산다’는 문장으로 바꾸면 실제 문헌의 구성과 뜻이 훼손된다. 그러나 이것이 곧 루터파의 모든 칭의 이해와 일치한다는 의미도 아니다. 제7·8장의 논증과 뒤이은 정죄 조항도 구분해서 읽어야 한다. [TG][TC]\n\n### 4. 1551년 — 성찬의 현존과 그 설명 방식\n\n1551년 10월 11일 제13회기 성찬 교령의 제1장은 그리스도의 현존을 다루고, 제4장은 빵과 포도주의 실체 변화와 ‘화체’라는 명칭을 설명한다. 현존을 믿는가, 현존의 방식을 어떻게 말하는가, 미사의 제사적 성격을 어떻게 이해하는가는 서로 다른 질문이다. 특히 1562년 제22회기의 미사 제사 교령을 1551년 제13회기의 문장과 하나의 문서로 합쳐선 안 된다. 1529년 마르부르크 논쟁과의 비교도 신학적 비교이지 직접 필사 계보의 증명은 아니다. [TE][TC]\n\n### 5. 1562년 — 테레사의 수도원에서 일어난 변화\n\n아빌라의 테레사는 1562년 8월 24일 산호세 수녀원의 설립에 참여했다. 이것은 1563년 신학교 규정을 따른 결과가 아니라 여성 공동체와 수도생활의 쇄신을 보여 주는 별도 역사이다. 기도와 생활규칙의 변화는 공의회 회의실 밖에서도 시작됐다. 다만 여성 수도자들이 실제로 행사할 수 있는 권한과 받았던 제도적 통제도 함께 다뤄야 한다. [TA][TC]\n\n### 6. 1563년 — 신학교는 별도의 ‘개혁 교령’ 제18장에 있다\n\n1563년 7월 15일 제23회기에는 성품성사의 교리에 관한 문서와 교구 운영을 다루는 개혁 교령이 함께 있다. **신학교 설치는 개혁 교령 제18장**에 있으며 성품 교리의 제18장인 것처럼 소개하면 문서가 바뀐다. 규정은 교육 대상과 재원, 감독과 교구의 책임을 다루지만, 모든 교구가 그해 동일한 학교를 즉시 설치했다는 뜻은 아니다. [TS][TC]\n\n### 7. 1564년 — 공의회 결정과 인쇄물은 같은 물건이 아니다\n\n1563년 공의회가 종결된 다음 해, 로마의 파올로 마누치오가 공의회 교령집을 인쇄했다. 모건 도서관의 PML 1214는 1564년판 특정 소장본이고, 트렌토 교구박물관은 안젤로 마사렐리 등의 대조·교정 흔적을 지닌 다른 소장본을 설명한다. 기관의 소장 기록과 교정 흔적에 대한 기술이 중요한 증거이지만, 연구자가 그 책의 모든 지면이나 필적을 직접 교감했다는 뜻은 아니다. 또한 결정의 시점, 교황의 확인, 출판, 교구 시행을 구별해야 한다. [TM][TD][TC]\n\n### 8. 신학적 선언에서 생활의 실천까지\n\n칭의·성찬에 관한 교리문서와 성직자 양성 규정은 가톨릭 내부 쇄신의 다른 측면을 보여 준다. 예수회의 인준과 테레사의 공동체 활동은 공식 공의회 의결과 나란히 진행된 별도 주체들의 개혁이다. 어떤 교령이 발표된 사실만으로 모든 도시와 교구의 실제 생활이 바뀌었다고 판단할 수는 없다. 종교적 대립과 제한된 공존이라는 제5권 전체 이야기는 1555년 이후 별도 지역·법·전쟁 사료와 연결해 읽어야 한다. [TC][TJ][TA][TS]","sourceRefs":["TC","TG","TE","TS","TJ","TA","TM","TD"]}],"sources":[{"id":"TC","title":"트리엔트 공의회 역사 연구","sourceKind":"ACADEMIC_SYNTHESIS","url":"https://www.saet.ac.uk/Christianity/CouncilofTrent","sourceLimit":"후대 연구; 16세기 원본이나 서명본의 영인 아님","eventIds":["V5-1540","V5-1547","V5-1551","V5-1562","V5-1563","V5-1564"],"verification":"ONLINE_AND_LEGACY_RESEARCH_NOT_AUTOGRAPH_COLLATION","rights":"EXTERNAL_LINK_ONLY"},{"id":"TG","title":"1547년 칭의 교령 제6회기","sourceKind":"EDITED_PRIMARY_ENGLISH_TRANSLATION","url":"https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/ghdi%3Adocument-4336","sourceLimit":"후대 편집 영어 번역; 라틴어 원본 전수 교감 아님","eventIds":["V5-1547"],"verification":"ONLINE_AND_LEGACY_RESEARCH_NOT_AUTOGRAPH_COLLATION","rights":"EXTERNAL_LINK_ONLY"},{"id":"TE","title":"1551년 성찬 제13회기","sourceKind":"HISTORIC_TEXT_TRANSLATION","url":"https://adfonteslibrary.org/work-council-trent-session-13","sourceLimit":"후대 영어 번역; 제22회기 미사 교령과 별개","eventIds":["V5-1551"],"verification":"ONLINE_AND_LEGACY_RESEARCH_NOT_AUTOGRAPH_COLLATION","rights":"EXTERNAL_LINK_ONLY"},{"id":"TS","title":"1563년 신학교 제23회기","sourceKind":"HISTORIC_TEXT_TRANSLATION","url":"https://adfonteslibrary.org/work-council-trent-session-23","sourceLimit":"신학교는 개혁 교령 제18장; 실물 라틴어 직접 교감 전","eventIds":["V5-1563"],"verification":"ONLINE_AND_LEGACY_RESEARCH_NOT_AUTOGRAPH_COLLATION","rights":"EXTERNAL_LINK_ONLY"},{"id":"TJ","title":"1540년 예수회 교황 인준","sourceKind":"INSTITUTIONAL_HISTORY","url":"https://www.jesuits.global/2021/09/26/on-27-september-1540-the-society-of-jesus-received-papal-approval/","sourceLimit":"공식 예수회 역사 해설; 교황 칙서 원본 직접 판독 아님","eventIds":["V5-1540"],"verification":"ONLINE_AND_LEGACY_RESEARCH_NOT_AUTOGRAPH_COLLATION","rights":"EXTERNAL_LINK_ONLY"},{"id":"TA","title":"1562년 테레사 산호세 수녀원","sourceKind":"HISTORICAL_BIOGRAPHY","url":"https://www.newadvent.org/cathen/14515b.htm","sourceLimit":"후대 전기; 설립 허가서 원본 직접 교감 아님","eventIds":["V5-1562"],"verification":"ONLINE_AND_LEGACY_RESEARCH_NOT_AUTOGRAPH_COLLATION","rights":"EXTERNAL_LINK_ONLY"},{"id":"TM","title":"1564년 모건 소장 트리엔트 인쇄본","sourceKind":"RARE_BOOK_CATALOGUE","url":"https://www.themorgan.org/printed-books/112519","sourceLimit":"모건 PML1214 1564 로마판 서지; 본문 전수 대조 아님","eventIds":["V5-1564"],"verification":"ONLINE_AND_LEGACY_RESEARCH_NOT_AUTOGRAPH_COLLATION","rights":"EXTERNAL_LINK_ONLY"},{"id":"TD","title":"1564년 트렌토 교구박물관 소장본","sourceKind":"MUSEUM_DESCRIPTION","url":"https://www.museodiocesanotridentino.it/articoli/edizione-dei-canoni-e-dei-decreti-conciliari","sourceLimit":"박물관의 마사렐리 대조·교정 흔적 서술; 필적 직접 판독 아님","eventIds":["V5-1564"],"verification":"ONLINE_AND_LEGACY_RESEARCH_NOT_AUTOGRAPH_COLLATION","rights":"EXTERNAL_LINK_ONLY"}],"comparisons":[{"id":"V5-COMP-J","sourceId":"TG","label":"1547년 칭의 교령","observation":"제7장과 제8장을 함께 검토","limitation":"후대 번역·원문 필사본 미대조","originalAutographChecked":false},{"id":"V5-COMP-S","sourceId":"TS","label":"1563년 제23회기 신학교","observation":"개혁 교령 제18장","limitation":"각 교구 실제 설립 자료는 별도","originalAutographChecked":false},{"id":"V5-COMP-P","sourceId":"TD","label":"1564년 인쇄 증인","observation":"트렌토 소장본의 교정 흔적 기술","limitation":"마사렐리의 실제 필적·인쇄 이문 미교감","originalAutographChecked":false}],"releaseGate":{"canShip":false,"canMergeMain":false,"canImportAIStudio":false,"expertApproved":false,"readerValidated":false,"rightsApproved":false,"hostAccessVerified":false}}</script>
+<script>
+"use strict";
+const data=JSON.parse(document.getElementById("data").textContent);
+const state={event:data.timeline[0].id,layer:"L0",compare:false};
+const byId=id=>document.getElementById(id);
+function add(tag,text,parent){const el=document.createElement(tag);el.textContent=text;parent.appendChild(el);return el}
+function show(){
+ if(data.releaseGate?.canShip!==false||data.releaseGate?.canImportAIStudio!==false){byId("reader").textContent="연구 자료 검증 실패";return}
+ const selected=data.timeline.find(x=>x.id===state.event)||data.timeline[0];
+ byId("date").textContent=selected.dateLabel;byId("event").textContent=selected.title;
+ byId("summary").textContent=selected.summary;byId("caution").textContent="주의: "+selected.claimLimit;
+ byId("years").replaceChildren();
+ for(const e of data.timeline){const b=add("button",e.dateLabel+" · "+e.title,byId("years"));b.type="button";if(e.id===selected.id)b.setAttribute("aria-current","step");b.addEventListener("click",()=>{state.event=e.id;show()})}
+ const layer=data.layers.find(x=>x.level===state.layer);
+ byId("reader").replaceChildren();
+ for(const text of layer.markdown.trim().split(/\n\s*\n/)){if(text.startsWith("### "))add("h3",text.slice(4),byId("reader"));else add("p",text,byId("reader"))}
+ byId("l0").setAttribute("aria-selected",String(state.layer==="L0"));
+ byId("l1").setAttribute("aria-selected",String(state.layer==="L1"));
+ byId("reader").setAttribute("aria-labelledby",state.layer==="L0"?"l0":"l1");
+ byId("trace").replaceChildren();add("strong","본문 사료: ",byId("trace"));
+ for(const id of new Set(Array.from(layer.markdown.matchAll(/\[([A-Z]{2,10})\]/g),m=>m[1]))){
+  const s=data.sources.find(x=>x.id===id);if(!s)continue;
+  const a=add("a","["+id+"]",byId("trace"));a.href=s.url;a.target="_blank";a.rel="noopener noreferrer";
+ }
+ byId("sourceCards").replaceChildren();
+ for(const s of data.sources.filter(x=>x.eventIds.includes(selected.id))){
+  const card=add("article","",byId("sourceCards"));add("h3","["+s.id+"] "+s.title,card);
+  add("p",s.sourceKind+" · "+s.sourceLimit,card);
+  const a=add("a","기관 자료 열기",card);a.href=s.url;a.target="_blank";a.rel="noopener noreferrer";
+ }
+ byId("compare").hidden=!state.compare;byId("compareBtn").setAttribute("aria-expanded",String(state.compare));
+ byId("compareRows").replaceChildren();
+ for(const c of data.comparisons){const tr=add("tr","",byId("compareRows"));for(const v of [c.label,c.observation,c.limitation])add("td",v,tr)}
+}
+byId("l0").addEventListener("click",()=>{state.layer="L0";show()});
+byId("l1").addEventListener("click",()=>{state.layer="L1";show()});
+byId("compareBtn").addEventListener("click",()=>{state.compare=!state.compare;show()});
+byId("reset").addEventListener("click",()=>{state.event=data.timeline[0].id;state.layer="L0";state.compare=false;show()});
+show();
+</script></body></html>
