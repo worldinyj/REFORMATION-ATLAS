@@ -36,7 +36,7 @@ test("The 1714 fragment, 1715 catalogue copy, 1719 exhibition and 1722 revised r
  assert.equal(prior.determinations.find(x=>x.id==="C437-C").status,"EXHIBIT_ASSERTION_VERIFIED_PHYSICAL_ITEM_UNTRACED");
  assert.equal(prior.determinations.find(x=>x.id==="C437-D").status,"HYPOTHESES_NOT_ESTABLISHED");
  assert.match(p.newContent.l1Markdown,/(?:별도|독립) 소장번호/);
- assert.match(p.newContent.l1Markdown,/지울 수도 확정할 수도/);
+ assert.match(p.newContent.l1Markdown,/지워 버릴 수도 확정할 수도/);
 });
 test("All 10 source records distinguish item-level catalogue, exhibition, scholarship and interpretation",()=>{
  assert.equal(p.sourceRegistry.length,10);
