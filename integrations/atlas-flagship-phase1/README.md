@@ -458,3 +458,11 @@ V4.64에서 DOI 리다이렉트 오류로 **서지만 확인됐던 1529년 취�
 - [**독자 경로 3건**](../../research/data/ATLAS_V477_CROSS_VOLUME_READING_LINKS.json): 1529 ↔ 1551 성찬, 1530 ↔ 1547 칭의, 1540 ↔ 1540 서로 다른 개혁. **출처 ID·사료 한계·인과관계 보류**까지 포함.
 - [**제4·5권 통합 개발·역사 해석 보고서**](./V477_CROSS_VOLUME_REACT_READER_AND_HISTORICAL_PATHS_KO.md). 검증 모듈 `atlas-cross-volume-research.mjs`, React 스코프 CSS, 실제 Chromium/WebKit 4개 화면폭 테스트 및 접근 미승인/변조 차단 테스트 추가.
 - 이번 개발은 제4권과 제5권의 **연구용 프리뷰를 통합**한 것이지 실제 운영 Google AI Studio 배포가 아님. 전문 역사학자 검토·독자 실증 0건, 원본 필사 지면 교감 미완료. 출시 게이트 모두 `false`.
+
+## V4.78 — 전체 8권 서사·사료 균형 감사 및 실제 원고 중심 계획
+
+- [**8권의 실제 분량·근거 밀도·미승인 상태 보고서**](./V478_EIGHT_VOLUME_EDITORIAL_GAP_AND_ROADMAP_KO.md): V4.47 L0 **18,626자**, V4.50 L1 **24장/15,031자**, 참고 URL 74회·고유 53개, 원래 53개 주장과 66개 탐색용 권간 링크의 실측. 제4·5권 연구 시범은 여기에 중복 합산하지 않는다.
+- [**8권 독자 상위 탐색 설계**](./V478_EIGHT_VOLUME_READER_NAV_ARCHITECTURE_KO.md): 시대순 7권, 제8권의 여섯 횡단 질문, 문헌 근거별 탐색의 세 입구. 이미 존재하는 V4.51 오프라인 프로토타입을 재사용하고 UI를 복제하지 않는다.
+- [**역사 콘텐츠 실집필 작업지시서**](./V478_PRIORITIZED_REAL_CONTENT_AUTHORING_PLAN_KO.md): VOL06 타밀어 1715/1719 사료와 현지 공동체, VOL02 635/781 경교비, VOL07 보류 주장, VOL08 여섯 비교 질문을 실질 보강.
+- [**근거·원고 감사 JSON**](../../research/data/ATLAS_V478_EIGHT_VOLUME_BASELINE_AND_PRIORITIES.json)과 원본 대조 Node 테스트 6개 추가. **사료 URL 개수는 원전 직접 교감·학술 승인과 구별**, 역사학자 승인 0·독자 실증 0·운영 앱 배포 0.
+- `can_ship=false`, `can_merge_main=false`, `can_import_ai_studio=false`. main 불변.
