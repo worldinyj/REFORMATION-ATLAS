@@ -1,0 +1,1215 @@
+{
+  "version": "V4.88",
+  "date": "2026-11-21",
+  "status": "SEMANTIC_TRIAGE_RESEARCH_ONLY",
+  "can_ship": false,
+  "source_contract": {
+    "branch": "research/atlas-v487-real-anchor-id-verification",
+    "path": "research/v487/volume08_cross_volume_anchor_audit.json",
+    "blob_sha": "535c4b2a083f12fae9a0c84b18ad55c8c061bd87"
+  },
+  "counts": {
+    "THEMATIC_SOURCE_ID_VERIFIED": 34,
+    "CONTEXT_ONLY": 5,
+    "GAP_NEEDS_TARGET": 2,
+    "DIRECT_TOPIC": 1
+  },
+  "verified_structural_links": 42,
+  "verified_source_references": 67,
+  "editorial_method": "Interpretive triage by reading original cited source arc/event summaries and titles. Not expert peer review or original witness collation.",
+  "mappings": [
+    {
+      "id": "V488-V01-T01",
+      "volume": "VOL-01",
+      "theme": "T01",
+      "targets": [
+        {
+          "id": "ARC413-04",
+          "title": "공의회 결의와 다양한 지역의 수용",
+          "source_branch": "research/atlas-v413-ancient-medieval-multiregional-l0",
+          "source_path": "research/data/V4_13_ANCIENT_MEDIEVAL_MULTIREGIONAL_L0_DRAFT.json",
+          "source_blob_sha": "e6a5105fd5d0a71ee0a0f832ac03a4165b8cc4c5"
+        }
+      ],
+      "relationship": "PARALLEL_THEME_OR_CONTEXT_NOT_AUTOMATIC_CAUSALITY",
+      "confidence": "ID_VERIFIED_EDITORIAL_LINK_PENDING",
+      "app_link_ready": false,
+      "legacy_id": "V487-V01-T01",
+      "semantic_status": "THEMATIC_SOURCE_ID_VERIFIED",
+      "editorial_note": "The source arc/event title aligns with the theme at L0; specific doctrinal propositions, transmission, and causation remain unverified",
+      "action": "KEEP_REVIEWABLE",
+      "theme_label": "AUTHORITY_AND_INTERPRETATION",
+      "relation_scope": "EDITORIAL_TOPICAL_CONTEXT_NOT_CAUSAL_PROOF"
+    },
+    {
+      "id": "V488-V01-T02",
+      "volume": "VOL-01",
+      "theme": "T02",
+      "targets": [
+        {
+          "id": "ARC413-02",
+          "title": "이집트·북아프리카의 신학과 수도생활",
+          "source_branch": "research/atlas-v413-ancient-medieval-multiregional-l0",
+          "source_path": "research/data/V4_13_ANCIENT_MEDIEVAL_MULTIREGIONAL_L0_DRAFT.json",
+          "source_blob_sha": "e6a5105fd5d0a71ee0a0f832ac03a4165b8cc4c5"
+        }
+      ],
+      "relationship": "PARALLEL_THEME_OR_CONTEXT_NOT_AUTOMATIC_CAUSALITY",
+      "confidence": "THEMATIC_ANCHOR_PROVISIONAL",
+      "app_link_ready": false,
+      "legacy_id": "V487-V01-T02",
+      "semantic_status": "CONTEXT_ONLY",
+      "editorial_note": "ARC413-02 discusses regional theology; Augustine/grace requires dedicated passage anchor",
+      "action": "KEEP_WITH_QUALIFICATION",
+      "theme_label": "GRACE_SALVATION",
+      "relation_scope": "EDITORIAL_TOPICAL_CONTEXT_NOT_CAUSAL_PROOF"
+    },
+    {
+      "id": "V488-V01-T03",
+      "volume": "VOL-01",
+      "theme": "T03",
+      "targets": [
+        {
+          "id": "ARC413-01",
+          "title": "지중해와 시리아의 여러 지역 공동체",
+          "source_branch": "research/atlas-v413-ancient-medieval-multiregional-l0",
+          "source_path": "research/data/V4_13_ANCIENT_MEDIEVAL_MULTIREGIONAL_L0_DRAFT.json",
+          "source_blob_sha": "e6a5105fd5d0a71ee0a0f832ac03a4165b8cc4c5"
+        }
+      ],
+      "relationship": "PARALLEL_THEME_OR_CONTEXT_NOT_AUTOMATIC_CAUSALITY",
+      "confidence": "THEMATIC_ANCHOR_PROVISIONAL",
+      "app_link_ready": false,
+      "legacy_id": "V487-V01-T03",
+      "semantic_status": "CONTEXT_ONLY",
+      "editorial_note": "ARC413-01 records communities; Eucharistic doctrine is not evidenced by this macro-arc title",
+      "action": "DO_NOT_LABEL_DIRECT",
+      "theme_label": "EUCHARIST_WORSHIP",
+      "relation_scope": "EDITORIAL_TOPICAL_CONTEXT_NOT_CAUSAL_PROOF"
+    },
+    {
+      "id": "V488-V01-T04",
+      "volume": "VOL-01",
+      "theme": "T04",
+      "targets": [
+        {
+          "id": "ARC413-01",
+          "title": "지중해와 시리아의 여러 지역 공동체",
+          "source_branch": "research/atlas-v413-ancient-medieval-multiregional-l0",
+          "source_path": "research/data/V4_13_ANCIENT_MEDIEVAL_MULTIREGIONAL_L0_DRAFT.json",
+          "source_blob_sha": "e6a5105fd5d0a71ee0a0f832ac03a4165b8cc4c5"
+        }
+      ],
+      "relationship": "PARALLEL_THEME_OR_CONTEXT_NOT_AUTOMATIC_CAUSALITY",
+      "confidence": "ID_VERIFIED_EDITORIAL_LINK_PENDING",
+      "app_link_ready": false,
+      "legacy_id": "V487-V01-T04",
+      "semantic_status": "THEMATIC_SOURCE_ID_VERIFIED",
+      "editorial_note": "The source arc/event title aligns with the theme at L0; specific doctrinal propositions, transmission, and causation remain unverified",
+      "action": "KEEP_REVIEWABLE",
+      "theme_label": "CHURCH_ORGANIZATION",
+      "relation_scope": "EDITORIAL_TOPICAL_CONTEXT_NOT_CAUSAL_PROOF"
+    },
+    {
+      "id": "V488-V01-T05",
+      "volume": "VOL-01",
+      "theme": "T05",
+      "targets": [
+        {
+          "id": "ARC413-05",
+          "title": "제국 정치와 지역 교회 삶의 다른 시간표",
+          "source_branch": "research/atlas-v413-ancient-medieval-multiregional-l0",
+          "source_path": "research/data/V4_13_ANCIENT_MEDIEVAL_MULTIREGIONAL_L0_DRAFT.json",
+          "source_blob_sha": "e6a5105fd5d0a71ee0a0f832ac03a4165b8cc4c5"
+        },
+        {
+          "id": "ARC413-03",
+          "title": "아르메니아·악숨의 왕실 수용과 주민 공동체",
+          "source_branch": "research/atlas-v413-ancient-medieval-multiregional-l0",
+          "source_path": "research/data/V4_13_ANCIENT_MEDIEVAL_MULTIREGIONAL_L0_DRAFT.json",
+          "source_blob_sha": "e6a5105fd5d0a71ee0a0f832ac03a4165b8cc4c5"
+        }
+      ],
+      "relationship": "PARALLEL_THEME_OR_CONTEXT_NOT_AUTOMATIC_CAUSALITY",
+      "confidence": "ID_VERIFIED_EDITORIAL_LINK_PENDING",
+      "app_link_ready": false,
+      "legacy_id": "V487-V01-T05",
+      "semantic_status": "THEMATIC_SOURCE_ID_VERIFIED",
+      "editorial_note": "The source arc/event title aligns with the theme at L0; specific doctrinal propositions, transmission, and causation remain unverified",
+      "action": "KEEP_REVIEWABLE",
+      "theme_label": "STATE_CONFLICT_COEXISTENCE",
+      "relation_scope": "EDITORIAL_TOPICAL_CONTEXT_NOT_CAUSAL_PROOF"
+    },
+    {
+      "id": "V488-V01-T06",
+      "volume": "VOL-01",
+      "theme": "T06",
+      "targets": [
+        {
+          "id": "ARC413-01",
+          "title": "지중해와 시리아의 여러 지역 공동체",
+          "source_branch": "research/atlas-v413-ancient-medieval-multiregional-l0",
+          "source_path": "research/data/V4_13_ANCIENT_MEDIEVAL_MULTIREGIONAL_L0_DRAFT.json",
+          "source_blob_sha": "e6a5105fd5d0a71ee0a0f832ac03a4165b8cc4c5"
+        },
+        {
+          "id": "ARC413-03",
+          "title": "아르메니아·악숨의 왕실 수용과 주민 공동체",
+          "source_branch": "research/atlas-v413-ancient-medieval-multiregional-l0",
+          "source_path": "research/data/V4_13_ANCIENT_MEDIEVAL_MULTIREGIONAL_L0_DRAFT.json",
+          "source_blob_sha": "e6a5105fd5d0a71ee0a0f832ac03a4165b8cc4c5"
+        }
+      ],
+      "relationship": "PARALLEL_THEME_OR_CONTEXT_NOT_AUTOMATIC_CAUSALITY",
+      "confidence": "ID_VERIFIED_EDITORIAL_LINK_PENDING",
+      "app_link_ready": false,
+      "legacy_id": "V487-V01-T06",
+      "semantic_status": "THEMATIC_SOURCE_ID_VERIFIED",
+      "editorial_note": "The source arc/event title aligns with the theme at L0; specific doctrinal propositions, transmission, and causation remain unverified",
+      "action": "KEEP_REVIEWABLE",
+      "theme_label": "TRANSLATION_LOCAL_RECEPTION",
+      "relation_scope": "EDITORIAL_TOPICAL_CONTEXT_NOT_CAUSAL_PROOF"
+    },
+    {
+      "id": "V488-V02-T01",
+      "volume": "VOL-02",
+      "theme": "T01",
+      "targets": [
+        {
+          "id": "ARC413-13",
+          "title": "서방 수도원·대학·교황권·개혁 요구",
+          "source_branch": "research/atlas-v413-ancient-medieval-multiregional-l0",
+          "source_path": "research/data/V4_13_ANCIENT_MEDIEVAL_MULTIREGIONAL_L0_DRAFT.json",
+          "source_blob_sha": "e6a5105fd5d0a71ee0a0f832ac03a4165b8cc4c5"
+        },
+        {
+          "id": "ARC413-12",
+          "title": "1054년과 1204년을 통한 동서 관계",
+          "source_branch": "research/atlas-v413-ancient-medieval-multiregional-l0",
+          "source_path": "research/data/V4_13_ANCIENT_MEDIEVAL_MULTIREGIONAL_L0_DRAFT.json",
+          "source_blob_sha": "e6a5105fd5d0a71ee0a0f832ac03a4165b8cc4c5"
+        }
+      ],
+      "relationship": "PARALLEL_THEME_OR_CONTEXT_NOT_AUTOMATIC_CAUSALITY",
+      "confidence": "ID_VERIFIED_EDITORIAL_LINK_PENDING",
+      "app_link_ready": false,
+      "legacy_id": "V487-V02-T01",
+      "semantic_status": "THEMATIC_SOURCE_ID_VERIFIED",
+      "editorial_note": "The source arc/event title aligns with the theme at L0; specific doctrinal propositions, transmission, and causation remain unverified",
+      "action": "KEEP_REVIEWABLE",
+      "theme_label": "AUTHORITY_AND_INTERPRETATION",
+      "relation_scope": "EDITORIAL_TOPICAL_CONTEXT_NOT_CAUSAL_PROOF"
+    },
+    {
+      "id": "V488-V02-T02",
+      "volume": "VOL-02",
+      "theme": "T02",
+      "targets": [
+        {
+          "id": "ARC413-13",
+          "title": "서방 수도원·대학·교황권·개혁 요구",
+          "source_branch": "research/atlas-v413-ancient-medieval-multiregional-l0",
+          "source_path": "research/data/V4_13_ANCIENT_MEDIEVAL_MULTIREGIONAL_L0_DRAFT.json",
+          "source_blob_sha": "e6a5105fd5d0a71ee0a0f832ac03a4165b8cc4c5"
+        }
+      ],
+      "relationship": "PARALLEL_THEME_OR_CONTEXT_NOT_AUTOMATIC_CAUSALITY",
+      "confidence": "THEMATIC_ANCHOR_PROVISIONAL",
+      "app_link_ready": false,
+      "legacy_id": "V487-V02-T02",
+      "semantic_status": "CONTEXT_ONLY",
+      "editorial_note": "ARC413-13 includes universities; does not directly establish a specific grace doctrine",
+      "action": "DO_NOT_LABEL_DIRECT",
+      "theme_label": "GRACE_SALVATION",
+      "relation_scope": "EDITORIAL_TOPICAL_CONTEXT_NOT_CAUSAL_PROOF"
+    },
+    {
+      "id": "V488-V02-T03",
+      "volume": "VOL-02",
+      "theme": "T03",
+      "targets": [
+        {
+          "id": "ARC413-07",
+          "title": "비잔틴·페르시아·이슬람권의 교회",
+          "source_branch": "research/atlas-v413-ancient-medieval-multiregional-l0",
+          "source_path": "research/data/V4_13_ANCIENT_MEDIEVAL_MULTIREGIONAL_L0_DRAFT.json",
+          "source_blob_sha": "e6a5105fd5d0a71ee0a0f832ac03a4165b8cc4c5"
+        },
+        {
+          "id": "ARC413-08",
+          "title": "지역 문자·수도원·필사본 문화",
+          "source_branch": "research/atlas-v413-ancient-medieval-multiregional-l0",
+          "source_path": "research/data/V4_13_ANCIENT_MEDIEVAL_MULTIREGIONAL_L0_DRAFT.json",
+          "source_blob_sha": "e6a5105fd5d0a71ee0a0f832ac03a4165b8cc4c5"
+        }
+      ],
+      "relationship": "PARALLEL_THEME_OR_CONTEXT_NOT_AUTOMATIC_CAUSALITY",
+      "confidence": "THEMATIC_ANCHOR_PROVISIONAL",
+      "app_link_ready": false,
+      "legacy_id": "V487-V02-T03",
+      "semantic_status": "CONTEXT_ONLY",
+      "editorial_note": "ARC413-07/08 contextualize regional liturgy and manuscript culture, without specific sacramental claim",
+      "action": "KEEP_WITH_QUALIFICATION",
+      "theme_label": "EUCHARIST_WORSHIP",
+      "relation_scope": "EDITORIAL_TOPICAL_CONTEXT_NOT_CAUSAL_PROOF"
+    },
+    {
+      "id": "V488-V02-T04",
+      "volume": "VOL-02",
+      "theme": "T04",
+      "targets": [
+        {
+          "id": "ARC413-08",
+          "title": "지역 문자·수도원·필사본 문화",
+          "source_branch": "research/atlas-v413-ancient-medieval-multiregional-l0",
+          "source_path": "research/data/V4_13_ANCIENT_MEDIEVAL_MULTIREGIONAL_L0_DRAFT.json",
+          "source_blob_sha": "e6a5105fd5d0a71ee0a0f832ac03a4165b8cc4c5"
+        },
+        {
+          "id": "ARC413-13",
+          "title": "서방 수도원·대학·교황권·개혁 요구",
+          "source_branch": "research/atlas-v413-ancient-medieval-multiregional-l0",
+          "source_path": "research/data/V4_13_ANCIENT_MEDIEVAL_MULTIREGIONAL_L0_DRAFT.json",
+          "source_blob_sha": "e6a5105fd5d0a71ee0a0f832ac03a4165b8cc4c5"
+        }
+      ],
+      "relationship": "PARALLEL_THEME_OR_CONTEXT_NOT_AUTOMATIC_CAUSALITY",
+      "confidence": "ID_VERIFIED_EDITORIAL_LINK_PENDING",
+      "app_link_ready": false,
+      "legacy_id": "V487-V02-T04",
+      "semantic_status": "THEMATIC_SOURCE_ID_VERIFIED",
+      "editorial_note": "The source arc/event title aligns with the theme at L0; specific doctrinal propositions, transmission, and causation remain unverified",
+      "action": "KEEP_REVIEWABLE",
+      "theme_label": "CHURCH_ORGANIZATION",
+      "relation_scope": "EDITORIAL_TOPICAL_CONTEXT_NOT_CAUSAL_PROOF"
+    },
+    {
+      "id": "V488-V02-T05",
+      "volume": "VOL-02",
+      "theme": "T05",
+      "targets": [
+        {
+          "id": "ARC413-12",
+          "title": "1054년과 1204년을 통한 동서 관계",
+          "source_branch": "research/atlas-v413-ancient-medieval-multiregional-l0",
+          "source_path": "research/data/V4_13_ANCIENT_MEDIEVAL_MULTIREGIONAL_L0_DRAFT.json",
+          "source_blob_sha": "e6a5105fd5d0a71ee0a0f832ac03a4165b8cc4c5"
+        }
+      ],
+      "relationship": "PARALLEL_THEME_OR_CONTEXT_NOT_AUTOMATIC_CAUSALITY",
+      "confidence": "ID_VERIFIED_EDITORIAL_LINK_PENDING",
+      "app_link_ready": false,
+      "legacy_id": "V487-V02-T05",
+      "semantic_status": "THEMATIC_SOURCE_ID_VERIFIED",
+      "editorial_note": "The source arc/event title aligns with the theme at L0; specific doctrinal propositions, transmission, and causation remain unverified",
+      "action": "KEEP_REVIEWABLE",
+      "theme_label": "STATE_CONFLICT_COEXISTENCE",
+      "relation_scope": "EDITORIAL_TOPICAL_CONTEXT_NOT_CAUSAL_PROOF"
+    },
+    {
+      "id": "V488-V02-T06",
+      "volume": "VOL-02",
+      "theme": "T06",
+      "targets": [
+        {
+          "id": "ARC413-08",
+          "title": "지역 문자·수도원·필사본 문화",
+          "source_branch": "research/atlas-v413-ancient-medieval-multiregional-l0",
+          "source_path": "research/data/V4_13_ANCIENT_MEDIEVAL_MULTIREGIONAL_L0_DRAFT.json",
+          "source_blob_sha": "e6a5105fd5d0a71ee0a0f832ac03a4165b8cc4c5"
+        },
+        {
+          "id": "ARC413-09",
+          "title": "781년 경교비와 635년의 후대 회고",
+          "source_branch": "research/atlas-v413-ancient-medieval-multiregional-l0",
+          "source_path": "research/data/V4_13_ANCIENT_MEDIEVAL_MULTIREGIONAL_L0_DRAFT.json",
+          "source_blob_sha": "e6a5105fd5d0a71ee0a0f832ac03a4165b8cc4c5"
+        },
+        {
+          "id": "ARC413-10",
+          "title": "말라바르·인도양의 시리아어 교회",
+          "source_branch": "research/atlas-v413-ancient-medieval-multiregional-l0",
+          "source_path": "research/data/V4_13_ANCIENT_MEDIEVAL_MULTIREGIONAL_L0_DRAFT.json",
+          "source_blob_sha": "e6a5105fd5d0a71ee0a0f832ac03a4165b8cc4c5"
+        }
+      ],
+      "relationship": "PARALLEL_THEME_OR_CONTEXT_NOT_AUTOMATIC_CAUSALITY",
+      "confidence": "ID_VERIFIED_EDITORIAL_LINK_PENDING",
+      "app_link_ready": false,
+      "legacy_id": "V487-V02-T06",
+      "semantic_status": "THEMATIC_SOURCE_ID_VERIFIED",
+      "editorial_note": "The source arc/event title aligns with the theme at L0; specific doctrinal propositions, transmission, and causation remain unverified",
+      "action": "KEEP_REVIEWABLE",
+      "theme_label": "TRANSLATION_LOCAL_RECEPTION",
+      "relation_scope": "EDITORIAL_TOPICAL_CONTEXT_NOT_CAUSAL_PROOF"
+    },
+    {
+      "id": "V488-V03-T01",
+      "volume": "VOL-03",
+      "theme": "T01",
+      "targets": [
+        {
+          "id": "A414-03",
+          "title": "위클리프: 성경·교회 권위·성찬",
+          "source_branch": "research/atlas-v414-pre-reformation-diverse-movements-l0",
+          "source_path": "research/data/V4_14_PRE_REFORMATION_DIVERSE_MOVEMENTS_L0_DRAFT.json",
+          "source_blob_sha": "90c60686feacb95a5060d8f6a61750c7729473c6"
+        },
+        {
+          "id": "A414-05",
+          "title": "후스: 보헤미아의 개혁과 위클리프 비판적 수용",
+          "source_branch": "research/atlas-v414-pre-reformation-diverse-movements-l0",
+          "source_path": "research/data/V4_14_PRE_REFORMATION_DIVERSE_MOVEMENTS_L0_DRAFT.json",
+          "source_blob_sha": "90c60686feacb95a5060d8f6a61750c7729473c6"
+        }
+      ],
+      "relationship": "PARALLEL_THEME_OR_CONTEXT_NOT_AUTOMATIC_CAUSALITY",
+      "confidence": "ID_VERIFIED_EDITORIAL_LINK_PENDING",
+      "app_link_ready": false,
+      "legacy_id": "V487-V03-T01",
+      "semantic_status": "THEMATIC_SOURCE_ID_VERIFIED",
+      "editorial_note": "The source arc/event title aligns with the theme at L0; specific doctrinal propositions, transmission, and causation remain unverified",
+      "action": "KEEP_REVIEWABLE",
+      "theme_label": "AUTHORITY_AND_INTERPRETATION",
+      "relation_scope": "EDITORIAL_TOPICAL_CONTEXT_NOT_CAUSAL_PROOF"
+    },
+    {
+      "id": "V488-V03-T02",
+      "volume": "VOL-03",
+      "theme": "T02",
+      "targets": [
+        {
+          "id": "A414-01",
+          "title": "다수의 중세 쇄신: 데보티오 모데르나와 교회 내부 개혁",
+          "source_branch": "research/atlas-v414-pre-reformation-diverse-movements-l0",
+          "source_path": "research/data/V4_14_PRE_REFORMATION_DIVERSE_MOVEMENTS_L0_DRAFT.json",
+          "source_blob_sha": "90c60686feacb95a5060d8f6a61750c7729473c6"
+        }
+      ],
+      "relationship": "PARALLEL_THEME_OR_CONTEXT_NOT_AUTOMATIC_CAUSALITY",
+      "confidence": "THEMATIC_ANCHOR_PROVISIONAL",
+      "app_link_ready": false,
+      "legacy_id": "V487-V03-T02",
+      "semantic_status": "GAP_NEEDS_TARGET",
+      "editorial_note": "A414-01 covers renewal/devotion, not a claim that pre-Reform movements held later justification doctrine",
+      "action": "DO_NOT_IMPLY_DIRECT_CONTINUITY",
+      "theme_label": "GRACE_SALVATION",
+      "relation_scope": "EDITORIAL_TOPICAL_CONTEXT_NOT_CAUSAL_PROOF"
+    },
+    {
+      "id": "V488-V03-T03",
+      "volume": "VOL-03",
+      "theme": "T03",
+      "targets": [
+        {
+          "id": "A414-03",
+          "title": "위클리프: 성경·교회 권위·성찬",
+          "source_branch": "research/atlas-v414-pre-reformation-diverse-movements-l0",
+          "source_path": "research/data/V4_14_PRE_REFORMATION_DIVERSE_MOVEMENTS_L0_DRAFT.json",
+          "source_blob_sha": "90c60686feacb95a5060d8f6a61750c7729473c6"
+        },
+        {
+          "id": "A414-06",
+          "title": "프라하 4개조와 양형 영성체",
+          "source_branch": "research/atlas-v414-pre-reformation-diverse-movements-l0",
+          "source_path": "research/data/V4_14_PRE_REFORMATION_DIVERSE_MOVEMENTS_L0_DRAFT.json",
+          "source_blob_sha": "90c60686feacb95a5060d8f6a61750c7729473c6"
+        }
+      ],
+      "relationship": "PARALLEL_THEME_OR_CONTEXT_NOT_AUTOMATIC_CAUSALITY",
+      "confidence": "ID_VERIFIED_EDITORIAL_LINK_PENDING",
+      "app_link_ready": false,
+      "legacy_id": "V487-V03-T03",
+      "semantic_status": "THEMATIC_SOURCE_ID_VERIFIED",
+      "editorial_note": "The source arc/event title aligns with the theme at L0; specific doctrinal propositions, transmission, and causation remain unverified",
+      "action": "KEEP_REVIEWABLE",
+      "theme_label": "EUCHARIST_WORSHIP",
+      "relation_scope": "EDITORIAL_TOPICAL_CONTEXT_NOT_CAUSAL_PROOF"
+    },
+    {
+      "id": "V488-V03-T04",
+      "volume": "VOL-03",
+      "theme": "T04",
+      "targets": [
+        {
+          "id": "A414-02",
+          "title": "발도·왈도파: 청빈과 설교 권한",
+          "source_branch": "research/atlas-v414-pre-reformation-diverse-movements-l0",
+          "source_path": "research/data/V4_14_PRE_REFORMATION_DIVERSE_MOVEMENTS_L0_DRAFT.json",
+          "source_blob_sha": "90c60686feacb95a5060d8f6a61750c7729473c6"
+        },
+        {
+          "id": "A414-09",
+          "title": "형제단과 16세기 재해석·교류",
+          "source_branch": "research/atlas-v414-pre-reformation-diverse-movements-l0",
+          "source_path": "research/data/V4_14_PRE_REFORMATION_DIVERSE_MOVEMENTS_L0_DRAFT.json",
+          "source_blob_sha": "90c60686feacb95a5060d8f6a61750c7729473c6"
+        }
+      ],
+      "relationship": "PARALLEL_THEME_OR_CONTEXT_NOT_AUTOMATIC_CAUSALITY",
+      "confidence": "ID_VERIFIED_EDITORIAL_LINK_PENDING",
+      "app_link_ready": false,
+      "legacy_id": "V487-V03-T04",
+      "semantic_status": "THEMATIC_SOURCE_ID_VERIFIED",
+      "editorial_note": "The source arc/event title aligns with the theme at L0; specific doctrinal propositions, transmission, and causation remain unverified",
+      "action": "KEEP_REVIEWABLE",
+      "theme_label": "CHURCH_ORGANIZATION",
+      "relation_scope": "EDITORIAL_TOPICAL_CONTEXT_NOT_CAUSAL_PROOF"
+    },
+    {
+      "id": "V488-V03-T05",
+      "volume": "VOL-03",
+      "theme": "T05",
+      "targets": [
+        {
+          "id": "A414-05",
+          "title": "후스: 보헤미아의 개혁과 위클리프 비판적 수용",
+          "source_branch": "research/atlas-v414-pre-reformation-diverse-movements-l0",
+          "source_path": "research/data/V4_14_PRE_REFORMATION_DIVERSE_MOVEMENTS_L0_DRAFT.json",
+          "source_blob_sha": "90c60686feacb95a5060d8f6a61750c7729473c6"
+        },
+        {
+          "id": "A414-08",
+          "title": "바젤 콤팍타타: 협상·전투·공포",
+          "source_branch": "research/atlas-v414-pre-reformation-diverse-movements-l0",
+          "source_path": "research/data/V4_14_PRE_REFORMATION_DIVERSE_MOVEMENTS_L0_DRAFT.json",
+          "source_blob_sha": "90c60686feacb95a5060d8f6a61750c7729473c6"
+        }
+      ],
+      "relationship": "PARALLEL_THEME_OR_CONTEXT_NOT_AUTOMATIC_CAUSALITY",
+      "confidence": "ID_VERIFIED_EDITORIAL_LINK_PENDING",
+      "app_link_ready": false,
+      "legacy_id": "V487-V03-T05",
+      "semantic_status": "THEMATIC_SOURCE_ID_VERIFIED",
+      "editorial_note": "The source arc/event title aligns with the theme at L0; specific doctrinal propositions, transmission, and causation remain unverified",
+      "action": "KEEP_REVIEWABLE",
+      "theme_label": "STATE_CONFLICT_COEXISTENCE",
+      "relation_scope": "EDITORIAL_TOPICAL_CONTEXT_NOT_CAUSAL_PROOF"
+    },
+    {
+      "id": "V488-V03-T06",
+      "volume": "VOL-03",
+      "theme": "T06",
+      "targets": [
+        {
+          "id": "A414-04",
+          "title": "롤라드와 중세 영어 성경 필사본",
+          "source_branch": "research/atlas-v414-pre-reformation-diverse-movements-l0",
+          "source_path": "research/data/V4_14_PRE_REFORMATION_DIVERSE_MOVEMENTS_L0_DRAFT.json",
+          "source_blob_sha": "90c60686feacb95a5060d8f6a61750c7729473c6"
+        }
+      ],
+      "relationship": "PARALLEL_THEME_OR_CONTEXT_NOT_AUTOMATIC_CAUSALITY",
+      "confidence": "ID_VERIFIED_EDITORIAL_LINK_PENDING",
+      "app_link_ready": false,
+      "legacy_id": "V487-V03-T06",
+      "semantic_status": "THEMATIC_SOURCE_ID_VERIFIED",
+      "editorial_note": "The source arc/event title aligns with the theme at L0; specific doctrinal propositions, transmission, and causation remain unverified",
+      "action": "KEEP_REVIEWABLE",
+      "theme_label": "TRANSLATION_LOCAL_RECEPTION",
+      "relation_scope": "EDITORIAL_TOPICAL_CONTEXT_NOT_CAUSAL_PROOF"
+    },
+    {
+      "id": "V488-V04-T01",
+      "volume": "VOL-04",
+      "theme": "T01",
+      "targets": [
+        {
+          "id": "E408-12",
+          "title": "아우크스부르크 신앙고백 제출",
+          "source_branch": "research/atlas-v408-europe-synchronous-timeline-relationship-atlas",
+          "source_path": "research/data/V4_08_EUROPE_SYNCHRONOUS_EVENTS_PEOPLE_RELATIONSHIPS_L0_DRAFT.json",
+          "source_blob_sha": "755bda113a2dfdc9d2e959eea5450d317ed595c4"
+        },
+        {
+          "id": "E408-14",
+          "title": "잉글랜드 수장령과 로마와의 법적 결별",
+          "source_branch": "research/atlas-v408-europe-synchronous-timeline-relationship-atlas",
+          "source_path": "research/data/V4_08_EUROPE_SYNCHRONOUS_EVENTS_PEOPLE_RELATIONSHIPS_L0_DRAFT.json",
+          "source_blob_sha": "755bda113a2dfdc9d2e959eea5450d317ed595c4"
+        }
+      ],
+      "relationship": "PARALLEL_THEME_OR_CONTEXT_NOT_AUTOMATIC_CAUSALITY",
+      "confidence": "ID_VERIFIED_EDITORIAL_LINK_PENDING",
+      "app_link_ready": false,
+      "legacy_id": "V487-V04-T01",
+      "semantic_status": "THEMATIC_SOURCE_ID_VERIFIED",
+      "editorial_note": "The source arc/event title aligns with the theme at L0; specific doctrinal propositions, transmission, and causation remain unverified",
+      "action": "KEEP_REVIEWABLE",
+      "theme_label": "AUTHORITY_AND_INTERPRETATION",
+      "relation_scope": "EDITORIAL_TOPICAL_CONTEXT_NOT_CAUSAL_PROOF"
+    },
+    {
+      "id": "V488-V04-T02",
+      "volume": "VOL-04",
+      "theme": "T02",
+      "targets": [
+        {
+          "id": "E408-12",
+          "title": "아우크스부르크 신앙고백 제출",
+          "source_branch": "research/atlas-v408-europe-synchronous-timeline-relationship-atlas",
+          "source_path": "research/data/V4_08_EUROPE_SYNCHRONOUS_EVENTS_PEOPLE_RELATIONSHIPS_L0_DRAFT.json",
+          "source_blob_sha": "755bda113a2dfdc9d2e959eea5450d317ed595c4"
+        },
+        {
+          "id": "E408-17",
+          "title": "칼뱅 『기독교강요』 초판",
+          "source_branch": "research/atlas-v408-europe-synchronous-timeline-relationship-atlas",
+          "source_path": "research/data/V4_08_EUROPE_SYNCHRONOUS_EVENTS_PEOPLE_RELATIONSHIPS_L0_DRAFT.json",
+          "source_blob_sha": "755bda113a2dfdc9d2e959eea5450d317ed595c4"
+        }
+      ],
+      "relationship": "PARALLEL_THEME_OR_CONTEXT_NOT_AUTOMATIC_CAUSALITY",
+      "confidence": "ID_VERIFIED_EDITORIAL_LINK_PENDING",
+      "app_link_ready": false,
+      "legacy_id": "V487-V04-T02",
+      "semantic_status": "THEMATIC_SOURCE_ID_VERIFIED",
+      "editorial_note": "The source arc/event title aligns with the theme at L0; specific doctrinal propositions, transmission, and causation remain unverified",
+      "action": "KEEP_REVIEWABLE",
+      "theme_label": "GRACE_SALVATION",
+      "relation_scope": "EDITORIAL_TOPICAL_CONTEXT_NOT_CAUSAL_PROOF"
+    },
+    {
+      "id": "V488-V04-T03",
+      "volume": "VOL-04",
+      "theme": "T03",
+      "targets": [
+        {
+          "id": "E408-11",
+          "title": "마르부르크 회담과 성찬 이해의 차이",
+          "source_branch": "research/atlas-v408-europe-synchronous-timeline-relationship-atlas",
+          "source_path": "research/data/V4_08_EUROPE_SYNCHRONOUS_EVENTS_PEOPLE_RELATIONSHIPS_L0_DRAFT.json",
+          "source_blob_sha": "755bda113a2dfdc9d2e959eea5450d317ed595c4"
+        },
+        {
+          "id": "E408-23",
+          "title": "트리엔트 공의회와 가톨릭 교리·규율 정비",
+          "source_branch": "research/atlas-v408-europe-synchronous-timeline-relationship-atlas",
+          "source_path": "research/data/V4_08_EUROPE_SYNCHRONOUS_EVENTS_PEOPLE_RELATIONSHIPS_L0_DRAFT.json",
+          "source_blob_sha": "755bda113a2dfdc9d2e959eea5450d317ed595c4"
+        }
+      ],
+      "relationship": "PARALLEL_THEME_OR_CONTEXT_NOT_AUTOMATIC_CAUSALITY",
+      "confidence": "ID_VERIFIED_EDITORIAL_LINK_PENDING",
+      "app_link_ready": false,
+      "legacy_id": "V487-V04-T03",
+      "semantic_status": "THEMATIC_SOURCE_ID_VERIFIED",
+      "editorial_note": "The source arc/event title aligns with the theme at L0; specific doctrinal propositions, transmission, and causation remain unverified",
+      "action": "KEEP_REVIEWABLE",
+      "theme_label": "EUCHARIST_WORSHIP",
+      "relation_scope": "EDITORIAL_TOPICAL_CONTEXT_NOT_CAUSAL_PROOF"
+    },
+    {
+      "id": "V488-V04-T04",
+      "volume": "VOL-04",
+      "theme": "T04",
+      "targets": [
+        {
+          "id": "E408-05",
+          "title": "취리히 공개 신학논쟁과 시의회 개혁",
+          "source_branch": "research/atlas-v408-europe-synchronous-timeline-relationship-atlas",
+          "source_path": "research/data/V4_08_EUROPE_SYNCHRONOUS_EVENTS_PEOPLE_RELATIONSHIPS_L0_DRAFT.json",
+          "source_blob_sha": "755bda113a2dfdc9d2e959eea5450d317ed595c4"
+        },
+        {
+          "id": "E408-14",
+          "title": "잉글랜드 수장령과 로마와의 법적 결별",
+          "source_branch": "research/atlas-v408-europe-synchronous-timeline-relationship-atlas",
+          "source_path": "research/data/V4_08_EUROPE_SYNCHRONOUS_EVENTS_PEOPLE_RELATIONSHIPS_L0_DRAFT.json",
+          "source_blob_sha": "755bda113a2dfdc9d2e959eea5450d317ed595c4"
+        }
+      ],
+      "relationship": "PARALLEL_THEME_OR_CONTEXT_NOT_AUTOMATIC_CAUSALITY",
+      "confidence": "ID_VERIFIED_EDITORIAL_LINK_PENDING",
+      "app_link_ready": false,
+      "legacy_id": "V487-V04-T04",
+      "semantic_status": "THEMATIC_SOURCE_ID_VERIFIED",
+      "editorial_note": "The source arc/event title aligns with the theme at L0; specific doctrinal propositions, transmission, and causation remain unverified",
+      "action": "KEEP_REVIEWABLE",
+      "theme_label": "CHURCH_ORGANIZATION",
+      "relation_scope": "EDITORIAL_TOPICAL_CONTEXT_NOT_CAUSAL_PROOF"
+    },
+    {
+      "id": "V488-V04-T05",
+      "volume": "VOL-04",
+      "theme": "T05",
+      "targets": [
+        {
+          "id": "E408-26",
+          "title": "아우크스부르크 화의",
+          "source_branch": "research/atlas-v408-europe-synchronous-timeline-relationship-atlas",
+          "source_path": "research/data/V4_08_EUROPE_SYNCHRONOUS_EVENTS_PEOPLE_RELATIONSHIPS_L0_DRAFT.json",
+          "source_blob_sha": "755bda113a2dfdc9d2e959eea5450d317ed595c4"
+        },
+        {
+          "id": "E408-45",
+          "title": "베스트팔렌 조약들과 제국 종교관계 재구성",
+          "source_branch": "research/atlas-v408-europe-synchronous-timeline-relationship-atlas",
+          "source_path": "research/data/V4_08_EUROPE_SYNCHRONOUS_EVENTS_PEOPLE_RELATIONSHIPS_L0_DRAFT.json",
+          "source_blob_sha": "755bda113a2dfdc9d2e959eea5450d317ed595c4"
+        }
+      ],
+      "relationship": "PARALLEL_THEME_OR_CONTEXT_NOT_AUTOMATIC_CAUSALITY",
+      "confidence": "ID_VERIFIED_EDITORIAL_LINK_PENDING",
+      "app_link_ready": false,
+      "legacy_id": "V487-V04-T05",
+      "semantic_status": "THEMATIC_SOURCE_ID_VERIFIED",
+      "editorial_note": "The source arc/event title aligns with the theme at L0; specific doctrinal propositions, transmission, and causation remain unverified",
+      "action": "KEEP_REVIEWABLE",
+      "theme_label": "STATE_CONFLICT_COEXISTENCE",
+      "relation_scope": "EDITORIAL_TOPICAL_CONTEXT_NOT_CAUSAL_PROOF"
+    },
+    {
+      "id": "V488-V04-T06",
+      "volume": "VOL-04",
+      "theme": "T06",
+      "targets": [
+        {
+          "id": "E408-21",
+          "title": "스웨덴어 성경 전역 출판",
+          "source_branch": "research/atlas-v408-europe-synchronous-timeline-relationship-atlas",
+          "source_path": "research/data/V4_08_EUROPE_SYNCHRONOUS_EVENTS_PEOPLE_RELATIONSHIPS_L0_DRAFT.json",
+          "source_blob_sha": "755bda113a2dfdc9d2e959eea5450d317ed595c4"
+        }
+      ],
+      "relationship": "PARALLEL_THEME_OR_CONTEXT_NOT_AUTOMATIC_CAUSALITY",
+      "confidence": "THEMATIC_ANCHOR_PROVISIONAL",
+      "app_link_ready": false,
+      "legacy_id": "V487-V04-T06",
+      "semantic_status": "DIRECT_TOPIC",
+      "editorial_note": "E408-21 directly records complete Swedish Bible publication, but local uptake must be separately evidenced",
+      "action": "PROMOTE_TOPIC_ONLY",
+      "theme_label": "TRANSLATION_LOCAL_RECEPTION",
+      "relation_scope": "EDITORIAL_TOPICAL_CONTEXT_NOT_CAUSAL_PROOF"
+    },
+    {
+      "id": "V488-V05-T01",
+      "volume": "VOL-05",
+      "theme": "T01",
+      "targets": [
+        {
+          "id": "A409-02",
+          "title": "트리엔트 공의회: 신학적 정의와 제도 개혁",
+          "source_branch": "research/atlas-v409-catholic-reform-conflict-coexistence-l0",
+          "source_path": "research/data/V4_09_VOL05_CATHOLIC_REFORM_CONFLICT_COEXISTENCE_L0_DRAFT.json",
+          "source_blob_sha": "46ebca7015eadfdc83c1d5d0c02881c2ba306c3a"
+        }
+      ],
+      "relationship": "PARALLEL_THEME_OR_CONTEXT_NOT_AUTOMATIC_CAUSALITY",
+      "confidence": "ID_VERIFIED_EDITORIAL_LINK_PENDING",
+      "app_link_ready": false,
+      "legacy_id": "V487-V05-T01",
+      "semantic_status": "THEMATIC_SOURCE_ID_VERIFIED",
+      "editorial_note": "The source arc/event title aligns with the theme at L0; specific doctrinal propositions, transmission, and causation remain unverified",
+      "action": "KEEP_REVIEWABLE",
+      "theme_label": "AUTHORITY_AND_INTERPRETATION",
+      "relation_scope": "EDITORIAL_TOPICAL_CONTEXT_NOT_CAUSAL_PROOF"
+    },
+    {
+      "id": "V488-V05-T02",
+      "volume": "VOL-05",
+      "theme": "T02",
+      "targets": [
+        {
+          "id": "A409-02",
+          "title": "트리엔트 공의회: 신학적 정의와 제도 개혁",
+          "source_branch": "research/atlas-v409-catholic-reform-conflict-coexistence-l0",
+          "source_path": "research/data/V4_09_VOL05_CATHOLIC_REFORM_CONFLICT_COEXISTENCE_L0_DRAFT.json",
+          "source_blob_sha": "46ebca7015eadfdc83c1d5d0c02881c2ba306c3a"
+        }
+      ],
+      "relationship": "PARALLEL_THEME_OR_CONTEXT_NOT_AUTOMATIC_CAUSALITY",
+      "confidence": "ID_VERIFIED_EDITORIAL_LINK_PENDING",
+      "app_link_ready": false,
+      "legacy_id": "V487-V05-T02",
+      "semantic_status": "THEMATIC_SOURCE_ID_VERIFIED",
+      "editorial_note": "The source arc/event title aligns with the theme at L0; specific doctrinal propositions, transmission, and causation remain unverified",
+      "action": "KEEP_REVIEWABLE",
+      "theme_label": "GRACE_SALVATION",
+      "relation_scope": "EDITORIAL_TOPICAL_CONTEXT_NOT_CAUSAL_PROOF"
+    },
+    {
+      "id": "V488-V05-T03",
+      "volume": "VOL-05",
+      "theme": "T03",
+      "targets": [
+        {
+          "id": "A409-02",
+          "title": "트리엔트 공의회: 신학적 정의와 제도 개혁",
+          "source_branch": "research/atlas-v409-catholic-reform-conflict-coexistence-l0",
+          "source_path": "research/data/V4_09_VOL05_CATHOLIC_REFORM_CONFLICT_COEXISTENCE_L0_DRAFT.json",
+          "source_blob_sha": "46ebca7015eadfdc83c1d5d0c02881c2ba306c3a"
+        }
+      ],
+      "relationship": "PARALLEL_THEME_OR_CONTEXT_NOT_AUTOMATIC_CAUSALITY",
+      "confidence": "ID_VERIFIED_EDITORIAL_LINK_PENDING",
+      "app_link_ready": false,
+      "legacy_id": "V487-V05-T03",
+      "semantic_status": "THEMATIC_SOURCE_ID_VERIFIED",
+      "editorial_note": "The source arc/event title aligns with the theme at L0; specific doctrinal propositions, transmission, and causation remain unverified",
+      "action": "KEEP_REVIEWABLE",
+      "theme_label": "EUCHARIST_WORSHIP",
+      "relation_scope": "EDITORIAL_TOPICAL_CONTEXT_NOT_CAUSAL_PROOF"
+    },
+    {
+      "id": "V488-V05-T04",
+      "volume": "VOL-05",
+      "theme": "T04",
+      "targets": [
+        {
+          "id": "A409-03",
+          "title": "수도회·영성·교육과 여성의 행위성",
+          "source_branch": "research/atlas-v409-catholic-reform-conflict-coexistence-l0",
+          "source_path": "research/data/V4_09_VOL05_CATHOLIC_REFORM_CONFLICT_COEXISTENCE_L0_DRAFT.json",
+          "source_blob_sha": "46ebca7015eadfdc83c1d5d0c02881c2ba306c3a"
+        }
+      ],
+      "relationship": "PARALLEL_THEME_OR_CONTEXT_NOT_AUTOMATIC_CAUSALITY",
+      "confidence": "ID_VERIFIED_EDITORIAL_LINK_PENDING",
+      "app_link_ready": false,
+      "legacy_id": "V487-V05-T04",
+      "semantic_status": "THEMATIC_SOURCE_ID_VERIFIED",
+      "editorial_note": "The source arc/event title aligns with the theme at L0; specific doctrinal propositions, transmission, and causation remain unverified",
+      "action": "KEEP_REVIEWABLE",
+      "theme_label": "CHURCH_ORGANIZATION",
+      "relation_scope": "EDITORIAL_TOPICAL_CONTEXT_NOT_CAUSAL_PROOF"
+    },
+    {
+      "id": "V488-V05-T05",
+      "volume": "VOL-05",
+      "theme": "T05",
+      "targets": [
+        {
+          "id": "A409-04",
+          "title": "교파의 경계와 유럽의 종교·왕권 갈등",
+          "source_branch": "research/atlas-v409-catholic-reform-conflict-coexistence-l0",
+          "source_path": "research/data/V4_09_VOL05_CATHOLIC_REFORM_CONFLICT_COEXISTENCE_L0_DRAFT.json",
+          "source_blob_sha": "46ebca7015eadfdc83c1d5d0c02881c2ba306c3a"
+        },
+        {
+          "id": "A409-05",
+          "title": "화의와 관용의 한계",
+          "source_branch": "research/atlas-v409-catholic-reform-conflict-coexistence-l0",
+          "source_path": "research/data/V4_09_VOL05_CATHOLIC_REFORM_CONFLICT_COEXISTENCE_L0_DRAFT.json",
+          "source_blob_sha": "46ebca7015eadfdc83c1d5d0c02881c2ba306c3a"
+        }
+      ],
+      "relationship": "PARALLEL_THEME_OR_CONTEXT_NOT_AUTOMATIC_CAUSALITY",
+      "confidence": "ID_VERIFIED_EDITORIAL_LINK_PENDING",
+      "app_link_ready": false,
+      "legacy_id": "V487-V05-T05",
+      "semantic_status": "THEMATIC_SOURCE_ID_VERIFIED",
+      "editorial_note": "The source arc/event title aligns with the theme at L0; specific doctrinal propositions, transmission, and causation remain unverified",
+      "action": "KEEP_REVIEWABLE",
+      "theme_label": "STATE_CONFLICT_COEXISTENCE",
+      "relation_scope": "EDITORIAL_TOPICAL_CONTEXT_NOT_CAUSAL_PROOF"
+    },
+    {
+      "id": "V488-V05-T06",
+      "volume": "VOL-05",
+      "theme": "T06",
+      "targets": [
+        {
+          "id": "A409-06",
+          "title": "유럽 너머의 연결: 선교와 현지 공동체",
+          "source_branch": "research/atlas-v409-catholic-reform-conflict-coexistence-l0",
+          "source_path": "research/data/V4_09_VOL05_CATHOLIC_REFORM_CONFLICT_COEXISTENCE_L0_DRAFT.json",
+          "source_blob_sha": "46ebca7015eadfdc83c1d5d0c02881c2ba306c3a"
+        }
+      ],
+      "relationship": "PARALLEL_THEME_OR_CONTEXT_NOT_AUTOMATIC_CAUSALITY",
+      "confidence": "ID_VERIFIED_EDITORIAL_LINK_PENDING",
+      "app_link_ready": false,
+      "legacy_id": "V487-V05-T06",
+      "semantic_status": "THEMATIC_SOURCE_ID_VERIFIED",
+      "editorial_note": "The source arc/event title aligns with the theme at L0; specific doctrinal propositions, transmission, and causation remain unverified",
+      "action": "KEEP_REVIEWABLE",
+      "theme_label": "TRANSLATION_LOCAL_RECEPTION",
+      "relation_scope": "EDITORIAL_TOPICAL_CONTEXT_NOT_CAUSAL_PROOF"
+    },
+    {
+      "id": "V488-V06-T01",
+      "volume": "VOL-06",
+      "theme": "T01",
+      "targets": [
+        {
+          "id": "ARC412-01",
+          "title": "신앙고백 이후의 질문: 경건주의는 무엇을 바꾸려 했나",
+          "source_branch": "research/atlas-v412-pietism-revivals-global-missions-l0",
+          "source_path": "research/data/V4_12_VOL06_PIETISM_REVIVAL_WORLD_MISSIONS_L0_DRAFT.json",
+          "source_blob_sha": "683a691705f7c89bf0d5b60257ad4f317ceefb38"
+        }
+      ],
+      "relationship": "PARALLEL_THEME_OR_CONTEXT_NOT_AUTOMATIC_CAUSALITY",
+      "confidence": "ID_VERIFIED_EDITORIAL_LINK_PENDING",
+      "app_link_ready": false,
+      "legacy_id": "V487-V06-T01",
+      "semantic_status": "THEMATIC_SOURCE_ID_VERIFIED",
+      "editorial_note": "The source arc/event title aligns with the theme at L0; specific doctrinal propositions, transmission, and causation remain unverified",
+      "action": "KEEP_REVIEWABLE",
+      "theme_label": "AUTHORITY_AND_INTERPRETATION",
+      "relation_scope": "EDITORIAL_TOPICAL_CONTEXT_NOT_CAUSAL_PROOF"
+    },
+    {
+      "id": "V488-V06-T02",
+      "volume": "VOL-06",
+      "theme": "T02",
+      "targets": [
+        {
+          "id": "ARC412-04",
+          "title": "웨일스·잉글랜드·북미: 하나가 아니었던 여러 부흥",
+          "source_branch": "research/atlas-v412-pietism-revivals-global-missions-l0",
+          "source_path": "research/data/V4_12_VOL06_PIETISM_REVIVAL_WORLD_MISSIONS_L0_DRAFT.json",
+          "source_blob_sha": "683a691705f7c89bf0d5b60257ad4f317ceefb38"
+        },
+        {
+          "id": "ARC412-05",
+          "title": "부흥은 누구의 사회를 바꾸었나: 감리교·흑인교회·여성",
+          "source_branch": "research/atlas-v412-pietism-revivals-global-missions-l0",
+          "source_path": "research/data/V4_12_VOL06_PIETISM_REVIVAL_WORLD_MISSIONS_L0_DRAFT.json",
+          "source_blob_sha": "683a691705f7c89bf0d5b60257ad4f317ceefb38"
+        }
+      ],
+      "relationship": "PARALLEL_THEME_OR_CONTEXT_NOT_AUTOMATIC_CAUSALITY",
+      "confidence": "ID_VERIFIED_EDITORIAL_LINK_PENDING",
+      "app_link_ready": false,
+      "legacy_id": "V487-V06-T02",
+      "semantic_status": "THEMATIC_SOURCE_ID_VERIFIED",
+      "editorial_note": "The source arc/event title aligns with the theme at L0; specific doctrinal propositions, transmission, and causation remain unverified",
+      "action": "KEEP_REVIEWABLE",
+      "theme_label": "GRACE_SALVATION",
+      "relation_scope": "EDITORIAL_TOPICAL_CONTEXT_NOT_CAUSAL_PROOF"
+    },
+    {
+      "id": "V488-V06-T03",
+      "volume": "VOL-06",
+      "theme": "T03",
+      "targets": [
+        {
+          "id": "ARC412-04",
+          "title": "웨일스·잉글랜드·북미: 하나가 아니었던 여러 부흥",
+          "source_branch": "research/atlas-v412-pietism-revivals-global-missions-l0",
+          "source_path": "research/data/V4_12_VOL06_PIETISM_REVIVAL_WORLD_MISSIONS_L0_DRAFT.json",
+          "source_blob_sha": "683a691705f7c89bf0d5b60257ad4f317ceefb38"
+        }
+      ],
+      "relationship": "PARALLEL_THEME_OR_CONTEXT_NOT_AUTOMATIC_CAUSALITY",
+      "confidence": "THEMATIC_ANCHOR_PROVISIONAL",
+      "app_link_ready": false,
+      "legacy_id": "V487-V06-T03",
+      "semantic_status": "CONTEXT_ONLY",
+      "editorial_note": "ARC412-04 is about diverse revivals; sung worship/communion requires a narrower text anchor",
+      "action": "KEEP_WITH_QUALIFICATION",
+      "theme_label": "EUCHARIST_WORSHIP",
+      "relation_scope": "EDITORIAL_TOPICAL_CONTEXT_NOT_CAUSAL_PROOF"
+    },
+    {
+      "id": "V488-V06-T04",
+      "volume": "VOL-06",
+      "theme": "T04",
+      "targets": [
+        {
+          "id": "ARC412-05",
+          "title": "부흥은 누구의 사회를 바꾸었나: 감리교·흑인교회·여성",
+          "source_branch": "research/atlas-v412-pietism-revivals-global-missions-l0",
+          "source_path": "research/data/V4_12_VOL06_PIETISM_REVIVAL_WORLD_MISSIONS_L0_DRAFT.json",
+          "source_blob_sha": "683a691705f7c89bf0d5b60257ad4f317ceefb38"
+        },
+        {
+          "id": "ARC412-03",
+          "title": "모라비아 공동체: 피난·연대·해외 선교의 다른 길",
+          "source_branch": "research/atlas-v412-pietism-revivals-global-missions-l0",
+          "source_path": "research/data/V4_12_VOL06_PIETISM_REVIVAL_WORLD_MISSIONS_L0_DRAFT.json",
+          "source_blob_sha": "683a691705f7c89bf0d5b60257ad4f317ceefb38"
+        }
+      ],
+      "relationship": "PARALLEL_THEME_OR_CONTEXT_NOT_AUTOMATIC_CAUSALITY",
+      "confidence": "ID_VERIFIED_EDITORIAL_LINK_PENDING",
+      "app_link_ready": false,
+      "legacy_id": "V487-V06-T04",
+      "semantic_status": "THEMATIC_SOURCE_ID_VERIFIED",
+      "editorial_note": "The source arc/event title aligns with the theme at L0; specific doctrinal propositions, transmission, and causation remain unverified",
+      "action": "KEEP_REVIEWABLE",
+      "theme_label": "CHURCH_ORGANIZATION",
+      "relation_scope": "EDITORIAL_TOPICAL_CONTEXT_NOT_CAUSAL_PROOF"
+    },
+    {
+      "id": "V488-V06-T05",
+      "volume": "VOL-06",
+      "theme": "T05",
+      "targets": [
+        {
+          "id": "ARC412-03",
+          "title": "모라비아 공동체: 피난·연대·해외 선교의 다른 길",
+          "source_branch": "research/atlas-v412-pietism-revivals-global-missions-l0",
+          "source_path": "research/data/V4_12_VOL06_PIETISM_REVIVAL_WORLD_MISSIONS_L0_DRAFT.json",
+          "source_blob_sha": "683a691705f7c89bf0d5b60257ad4f317ceefb38"
+        },
+        {
+          "id": "ARC412-08",
+          "title": "19세기 현지인 지도자와 제국: 아프리카·태평양·한국의 다리",
+          "source_branch": "research/atlas-v412-pietism-revivals-global-missions-l0",
+          "source_path": "research/data/V4_12_VOL06_PIETISM_REVIVAL_WORLD_MISSIONS_L0_DRAFT.json",
+          "source_blob_sha": "683a691705f7c89bf0d5b60257ad4f317ceefb38"
+        }
+      ],
+      "relationship": "PARALLEL_THEME_OR_CONTEXT_NOT_AUTOMATIC_CAUSALITY",
+      "confidence": "ID_VERIFIED_EDITORIAL_LINK_PENDING",
+      "app_link_ready": false,
+      "legacy_id": "V487-V06-T05",
+      "semantic_status": "THEMATIC_SOURCE_ID_VERIFIED",
+      "editorial_note": "The source arc/event title aligns with the theme at L0; specific doctrinal propositions, transmission, and causation remain unverified",
+      "action": "KEEP_REVIEWABLE",
+      "theme_label": "STATE_CONFLICT_COEXISTENCE",
+      "relation_scope": "EDITORIAL_TOPICAL_CONTEXT_NOT_CAUSAL_PROOF"
+    },
+    {
+      "id": "V488-V06-T06",
+      "volume": "VOL-06",
+      "theme": "T06",
+      "targets": [
+        {
+          "id": "ARC412-02",
+          "title": "경건을 교육과 번역으로: 할레와 남인도의 연결",
+          "source_branch": "research/atlas-v412-pietism-revivals-global-missions-l0",
+          "source_path": "research/data/V4_12_VOL06_PIETISM_REVIVAL_WORLD_MISSIONS_L0_DRAFT.json",
+          "source_blob_sha": "683a691705f7c89bf0d5b60257ad4f317ceefb38"
+        },
+        {
+          "id": "ARC412-06",
+          "title": "근대 선교단체와 세람포르: 인쇄·학교·현지 언어",
+          "source_branch": "research/atlas-v412-pietism-revivals-global-missions-l0",
+          "source_path": "research/data/V4_12_VOL06_PIETISM_REVIVAL_WORLD_MISSIONS_L0_DRAFT.json",
+          "source_blob_sha": "683a691705f7c89bf0d5b60257ad4f317ceefb38"
+        }
+      ],
+      "relationship": "PARALLEL_THEME_OR_CONTEXT_NOT_AUTOMATIC_CAUSALITY",
+      "confidence": "ID_VERIFIED_EDITORIAL_LINK_PENDING",
+      "app_link_ready": false,
+      "legacy_id": "V487-V06-T06",
+      "semantic_status": "THEMATIC_SOURCE_ID_VERIFIED",
+      "editorial_note": "The source arc/event title aligns with the theme at L0; specific doctrinal propositions, transmission, and causation remain unverified",
+      "action": "KEEP_REVIEWABLE",
+      "theme_label": "TRANSLATION_LOCAL_RECEPTION",
+      "relation_scope": "EDITORIAL_TOPICAL_CONTEXT_NOT_CAUSAL_PROOF"
+    },
+    {
+      "id": "V488-V07-T01",
+      "volume": "VOL-07",
+      "theme": "T01",
+      "targets": [
+        {
+          "id": "A410-07",
+          "title": "한국 천주교: 먼저 읽고 토론한 한국인들",
+          "source_branch": "research/atlas-v410-world-christianity-korea-local-agency-l0",
+          "source_path": "research/data/V4_10_WORLD_CHRISTIANITY_KOREA_REGIONAL_AGENCY_L0_DRAFT.json",
+          "source_blob_sha": "32c4dfb559f3e8c04b90f23f2bb7c5b96a6ceab5"
+        },
+        {
+          "id": "A410-08",
+          "title": "한국 개신교: 번역·회중·교육·부흥과 사회",
+          "source_branch": "research/atlas-v410-world-christianity-korea-local-agency-l0",
+          "source_path": "research/data/V4_10_WORLD_CHRISTIANITY_KOREA_REGIONAL_AGENCY_L0_DRAFT.json",
+          "source_blob_sha": "32c4dfb559f3e8c04b90f23f2bb7c5b96a6ceab5"
+        }
+      ],
+      "relationship": "PARALLEL_THEME_OR_CONTEXT_NOT_AUTOMATIC_CAUSALITY",
+      "confidence": "ID_VERIFIED_EDITORIAL_LINK_PENDING",
+      "app_link_ready": false,
+      "legacy_id": "V487-V07-T01",
+      "semantic_status": "THEMATIC_SOURCE_ID_VERIFIED",
+      "editorial_note": "The source arc/event title aligns with the theme at L0; specific doctrinal propositions, transmission, and causation remain unverified",
+      "action": "KEEP_REVIEWABLE",
+      "theme_label": "AUTHORITY_AND_INTERPRETATION",
+      "relation_scope": "EDITORIAL_TOPICAL_CONTEXT_NOT_CAUSAL_PROOF"
+    },
+    {
+      "id": "V488-V07-T02",
+      "volume": "VOL-07",
+      "theme": "T02",
+      "targets": [
+        {
+          "id": "A410-09",
+          "title": "세계 기독교는 여러 중심으로 다시 연결된다",
+          "source_branch": "research/atlas-v410-world-christianity-korea-local-agency-l0",
+          "source_path": "research/data/V4_10_WORLD_CHRISTIANITY_KOREA_REGIONAL_AGENCY_L0_DRAFT.json",
+          "source_blob_sha": "32c4dfb559f3e8c04b90f23f2bb7c5b96a6ceab5"
+        }
+      ],
+      "relationship": "PARALLEL_THEME_OR_CONTEXT_NOT_AUTOMATIC_CAUSALITY",
+      "confidence": "THEMATIC_ANCHOR_PROVISIONAL",
+      "app_link_ready": false,
+      "legacy_id": "V487-V07-T02",
+      "semantic_status": "GAP_NEEDS_TARGET",
+      "editorial_note": "A410-09 is global plurality overview, not a specific salvation theology witness",
+      "action": "DO_NOT_LABEL_DIRECT",
+      "theme_label": "GRACE_SALVATION",
+      "relation_scope": "EDITORIAL_TOPICAL_CONTEXT_NOT_CAUSAL_PROOF"
+    },
+    {
+      "id": "V488-V07-T03",
+      "volume": "VOL-07",
+      "theme": "T03",
+      "targets": [
+        {
+          "id": "A410-08",
+          "title": "한국 개신교: 번역·회중·교육·부흥과 사회",
+          "source_branch": "research/atlas-v410-world-christianity-korea-local-agency-l0",
+          "source_path": "research/data/V4_10_WORLD_CHRISTIANITY_KOREA_REGIONAL_AGENCY_L0_DRAFT.json",
+          "source_blob_sha": "32c4dfb559f3e8c04b90f23f2bb7c5b96a6ceab5"
+        }
+      ],
+      "relationship": "PARALLEL_THEME_OR_CONTEXT_NOT_AUTOMATIC_CAUSALITY",
+      "confidence": "ID_VERIFIED_EDITORIAL_LINK_PENDING",
+      "app_link_ready": false,
+      "legacy_id": "V487-V07-T03",
+      "semantic_status": "THEMATIC_SOURCE_ID_VERIFIED",
+      "editorial_note": "The source arc/event title aligns with the theme at L0; specific doctrinal propositions, transmission, and causation remain unverified",
+      "action": "KEEP_REVIEWABLE",
+      "theme_label": "EUCHARIST_WORSHIP",
+      "relation_scope": "EDITORIAL_TOPICAL_CONTEXT_NOT_CAUSAL_PROOF"
+    },
+    {
+      "id": "V488-V07-T04",
+      "volume": "VOL-07",
+      "theme": "T04",
+      "targets": [
+        {
+          "id": "A410-03",
+          "title": "콩고의 수용과 아프리카 교회의 자립",
+          "source_branch": "research/atlas-v410-world-christianity-korea-local-agency-l0",
+          "source_path": "research/data/V4_10_WORLD_CHRISTIANITY_KOREA_REGIONAL_AGENCY_L0_DRAFT.json",
+          "source_blob_sha": "32c4dfb559f3e8c04b90f23f2bb7c5b96a6ceab5"
+        },
+        {
+          "id": "A410-08",
+          "title": "한국 개신교: 번역·회중·교육·부흥과 사회",
+          "source_branch": "research/atlas-v410-world-christianity-korea-local-agency-l0",
+          "source_path": "research/data/V4_10_WORLD_CHRISTIANITY_KOREA_REGIONAL_AGENCY_L0_DRAFT.json",
+          "source_blob_sha": "32c4dfb559f3e8c04b90f23f2bb7c5b96a6ceab5"
+        }
+      ],
+      "relationship": "PARALLEL_THEME_OR_CONTEXT_NOT_AUTOMATIC_CAUSALITY",
+      "confidence": "ID_VERIFIED_EDITORIAL_LINK_PENDING",
+      "app_link_ready": false,
+      "legacy_id": "V487-V07-T04",
+      "semantic_status": "THEMATIC_SOURCE_ID_VERIFIED",
+      "editorial_note": "The source arc/event title aligns with the theme at L0; specific doctrinal propositions, transmission, and causation remain unverified",
+      "action": "KEEP_REVIEWABLE",
+      "theme_label": "CHURCH_ORGANIZATION",
+      "relation_scope": "EDITORIAL_TOPICAL_CONTEXT_NOT_CAUSAL_PROOF"
+    },
+    {
+      "id": "V488-V07-T05",
+      "volume": "VOL-07",
+      "theme": "T05",
+      "targets": [
+        {
+          "id": "A410-04",
+          "title": "아메리카의 식민주의와 현지인의 새로운 기독교",
+          "source_branch": "research/atlas-v410-world-christianity-korea-local-agency-l0",
+          "source_path": "research/data/V4_10_WORLD_CHRISTIANITY_KOREA_REGIONAL_AGENCY_L0_DRAFT.json",
+          "source_blob_sha": "32c4dfb559f3e8c04b90f23f2bb7c5b96a6ceab5"
+        },
+        {
+          "id": "A410-07",
+          "title": "한국 천주교: 먼저 읽고 토론한 한국인들",
+          "source_branch": "research/atlas-v410-world-christianity-korea-local-agency-l0",
+          "source_path": "research/data/V4_10_WORLD_CHRISTIANITY_KOREA_REGIONAL_AGENCY_L0_DRAFT.json",
+          "source_blob_sha": "32c4dfb559f3e8c04b90f23f2bb7c5b96a6ceab5"
+        }
+      ],
+      "relationship": "PARALLEL_THEME_OR_CONTEXT_NOT_AUTOMATIC_CAUSALITY",
+      "confidence": "ID_VERIFIED_EDITORIAL_LINK_PENDING",
+      "app_link_ready": false,
+      "legacy_id": "V487-V07-T05",
+      "semantic_status": "THEMATIC_SOURCE_ID_VERIFIED",
+      "editorial_note": "The source arc/event title aligns with the theme at L0; specific doctrinal propositions, transmission, and causation remain unverified",
+      "action": "KEEP_REVIEWABLE",
+      "theme_label": "STATE_CONFLICT_COEXISTENCE",
+      "relation_scope": "EDITORIAL_TOPICAL_CONTEXT_NOT_CAUSAL_PROOF"
+    },
+    {
+      "id": "V488-V07-T06",
+      "volume": "VOL-07",
+      "theme": "T06",
+      "targets": [
+        {
+          "id": "A410-02",
+          "title": "서아시아에서 인도양·당나라 중국으로",
+          "source_branch": "research/atlas-v410-world-christianity-korea-local-agency-l0",
+          "source_path": "research/data/V4_10_WORLD_CHRISTIANITY_KOREA_REGIONAL_AGENCY_L0_DRAFT.json",
+          "source_blob_sha": "32c4dfb559f3e8c04b90f23f2bb7c5b96a6ceab5"
+        },
+        {
+          "id": "A410-08",
+          "title": "한국 개신교: 번역·회중·교육·부흥과 사회",
+          "source_branch": "research/atlas-v410-world-christianity-korea-local-agency-l0",
+          "source_path": "research/data/V4_10_WORLD_CHRISTIANITY_KOREA_REGIONAL_AGENCY_L0_DRAFT.json",
+          "source_blob_sha": "32c4dfb559f3e8c04b90f23f2bb7c5b96a6ceab5"
+        }
+      ],
+      "relationship": "PARALLEL_THEME_OR_CONTEXT_NOT_AUTOMATIC_CAUSALITY",
+      "confidence": "ID_VERIFIED_EDITORIAL_LINK_PENDING",
+      "app_link_ready": false,
+      "legacy_id": "V487-V07-T06",
+      "semantic_status": "THEMATIC_SOURCE_ID_VERIFIED",
+      "editorial_note": "The source arc/event title aligns with the theme at L0; specific doctrinal propositions, transmission, and causation remain unverified",
+      "action": "KEEP_REVIEWABLE",
+      "theme_label": "TRANSLATION_LOCAL_RECEPTION",
+      "relation_scope": "EDITORIAL_TOPICAL_CONTEXT_NOT_CAUSAL_PROOF"
+    }
+  ],
+  "reading_paths": [
+    {
+      "id": "RP488-01",
+      "title": "권위의 서로 다른 형태",
+      "steps": [
+        "V488-V01-T01",
+        "V488-V03-T01",
+        "V488-V04-T01",
+        "V488-V05-T01"
+      ],
+      "caution": "Similar authority debates across centuries do not establish direct causal transmission"
+    },
+    {
+      "id": "RP488-02",
+      "title": "성찬과 교리적 차이",
+      "steps": [
+        "V488-V03-T03",
+        "V488-V04-T03",
+        "V488-V05-T03"
+      ],
+      "caution": "Wyclif, Hus, Luther and Reformed positions must not be simplified into one Protestant doctrine"
+    },
+    {
+      "id": "RP488-03",
+      "title": "제도와 제한적 공존",
+      "steps": [
+        "V488-V03-T05",
+        "V488-V04-T05",
+        "V488-V05-T05"
+      ],
+      "caution": "Do not equate 1436, 1555 and 1648 settlements with modern individual freedom"
+    },
+    {
+      "id": "RP488-04",
+      "title": "언어와 지역 주체성",
+      "steps": [
+        "V488-V02-T06",
+        "V488-V03-T06",
+        "V488-V04-T06",
+        "V488-V06-T06",
+        "V488-V07-T06"
+      ],
+      "caution": "These are comparisons across eras and regions, not a single one-way diffusion route"
+    }
+  ],
+  "unresolved": [
+    "V4.82 full file and SHA",
+    "Content-specific anchors for T02/T03 gaps",
+    "L1/L2 latest paragraph identifiers",
+    "Human historian and reader reviews",
+    "App route and navigation E2E"
+  ]
+}
