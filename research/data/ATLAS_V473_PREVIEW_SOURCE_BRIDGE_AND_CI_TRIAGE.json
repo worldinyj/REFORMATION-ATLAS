@@ -1,0 +1,41 @@
+{
+  "schema": "ATLAS_V473_PREVIEW_SOURCE_BRIDGE_AND_CI_TRIAGE",
+  "date": "2026-11-21",
+  "branch": "integration/atlas-phase1-browser-qa-v452",
+  "preview": "integrations/atlas-flagship-phase1/preview-v473-1529-1540.html",
+  "sourceDocument": "integrations/atlas-flagship-phase1/V472_MARBURG_1529_L0_L1_REVISED_READER_CANDIDATE_KO.md",
+  "sourceDocumentBlobSha": "bb036c4c6e0ab1593743334775a001f1f588fc2d",
+  "originPreview": "integrations/atlas-flagship-phase1/preview-1529-1540.html",
+  "originPreviewModified": false,
+  "originalV472Modified": false,
+  "eventCount": 4,
+  "cardCount": 6,
+  "deepSections": 6,
+  "l0Paragraphs": 3,
+  "comparisonRows": 3,
+  "sourceIds": [
+    "GA",
+    "GE",
+    "WP",
+    "ZA",
+    "SC",
+    "GR"
+  ],
+  "observedCI": {
+    "runId": 44724441589,
+    "contractTestsPassed": 81,
+    "contractTestsTotal": 82,
+    "failedContract": "v459 W2118 official e-rara URL mismatch",
+    "browserInstallationFailure": "Playwright 1.56.1 does not support ubuntu26.04-x64",
+    "ciFixRequires": "update V459 expected URL/permalink and pin ubuntu-24.04"
+  },
+  "release": {
+    "canShip": false,
+    "canMergeMain": false,
+    "canImportAIStudio": false,
+    "originalKZPhotosRead": 0,
+    "historianApprovals": 0,
+    "readerParticipants": 0,
+    "emailsSent": 0
+  }
+}

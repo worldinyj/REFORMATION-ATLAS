@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="ko">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>종교개혁 ATLAS · 1529–1540 역사 탐색</title>
+<style>
+:root{--ink:#233831;--muted:#63766b;--accent:#27604f;--line:#dce5dd;--paper:#fff;--bg:#f6f8f5}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.75 system-ui,"Apple SD Gothic Neo","Malgun Gothic",sans-serif}
+button{font:inherit;cursor:pointer}a{color:var(--accent);overflow-wrap:anywhere}button:focus-visible,a:focus-visible{outline:3px solid #e9bd65;outline-offset:2px}
+.header{max-width:1300px;margin:auto;padding:32px 24px 20px}.kicker{color:var(--accent);font-size:.72rem;font-weight:750;letter-spacing:.16em;text-transform:uppercase}
+h1{font:500 clamp(2rem,4vw,3.15rem)/1.2 Georgia,serif;letter-spacing:-.045em;margin:8px 0 13px}.lede{max-width:790px;color:var(--muted);font-size:1.05rem}
+.tag{display:inline-block;background:#f7efdE;color:#795833;border:1px solid #dfd1b7;border-radius:100px;padding:5px 12px;font-size:.76rem}
+.frame{max-width:1300px;margin:auto;padding:0 22px 50px;display:grid;grid-template-columns:230px minmax(0,1fr) 265px;align-items:start;gap:14px}
+.panel{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:20px;min-width:0}.panel h2{margin:4px 0 10px;font-size:1.12rem}.mobile-hint{display:none;color:var(--muted);font-size:.78rem;margin:0 0 8px}
+.help{font-size:.8rem;color:var(--muted)}.step{display:block;width:100%;background:#fff;color:var(--ink);border:1px solid var(--line);padding:13px;text-align:left;margin:10px 0;border-radius:10px}
+.step span{display:block;color:var(--accent);font-size:.82rem;font-weight:750}.step strong{display:block;margin-top:3px;font-size:.88rem;line-height:1.4}
+.step[aria-current=step]{background:#ebf4ed;border-color:#83b09b}.step:hover{border-color:#659681}
+.main{padding:29px 31px}.main h2{font:500 clamp(1.4rem,2.8vw,2rem)/1.35 Georgia,serif;margin:8px 0 14px}
+.meta{font-size:.82rem;color:var(--muted)}.finding{font-size:1.06rem;line-height:1.8;margin:22px 0}
+.caution{border-left:3px solid var(--accent);padding:12px 16px;background:#f0f5ef;margin:20px 0 24px}.caution p{margin:4px 0 0;font-size:.88rem}
+.actions{display:flex;flex-wrap:wrap;gap:8px;padding:13px 0}.actions button{background:#fff;border:1px solid var(--line);color:var(--accent);padding:8px 13px;border-radius:8px;font-size:.83rem}
+.actions button[aria-selected=true]{background:var(--accent);color:white;border-color:var(--accent)}
+.read-meta{font-size:.82rem;color:var(--muted);margin:12px 0}
+.prose{white-space:normal;overflow-wrap:anywhere;font:1rem/1.95 Georgia,"Noto Serif KR",serif}.prose p{margin:0 0 1.2em}.prose h1,.prose h2,.prose h3,.prose h4{font:600 1.14rem/1.55 Georgia,"Noto Serif KR",serif;margin:1.6em 0 .6em}.prose hr{border:0;border-top:1px solid var(--line);margin:1.7em 0}.prose strong{font-weight:750}.prose em{font-style:italic}
+.source{border-top:1px solid var(--line);padding:13px 0}.source h3{margin:0;font-size:.94rem}.source p{color:var(--muted);font-size:.8rem;margin:5px 0}.source a{font-size:.82rem}
+.warn{padding:11px;background:#fbf5e8;color:#755b37;border-radius:9px;font-size:.79rem;margin-top:12px}
+.compare{background:#f1f5f0;padding:14px;border-radius:9px}.compare table{border-collapse:collapse;width:100%;font-size:.82rem}.compare th,.compare td{border-bottom:1px solid var(--line);padding:8px;text-align:left;vertical-align:top}
+[hidden]{display:none!important}footer{max-width:1300px;margin:auto;padding:0 24px 30px;color:var(--muted);font-size:.78rem}
+@media(max-width:1050px){.frame{grid-template-columns:210px 1fr}.side{grid-column:2}}
+@media(max-width:700px){.frame{display:block;padding:0 12px 30px}.nav{display:block;overflow-x:auto;padding:10px;margin-bottom:12px}.nav h2,.nav .help{display:none}.nav .mobile-hint{display:block}.nav #steps{display:flex;gap:7px;width:max-content;min-width:100%}.step{margin:0;flex:0 0 165px;max-width:190px}.main{padding:20px;margin-bottom:12px}.side{margin-bottom:12px}.header{padding:23px 16px}}
+.compare{overflow-x:auto}#evidenceTrace{margin-top:1rem;border-top:1px solid var(--line);padding-top:.5rem;overflow-wrap:anywhere}@media print{.nav,.side,.actions,footer{display:none!important}.frame{display:block}.main{border:none}}
+</style></head>
+<body>
+<header class="header"><div class="kicker">REFORMATION ATLAS / Reader Experience 01</div>
+<h1>마르부르크에서 아우크스부르크까지</h1><p class="lede" id="question"></p>
+<span class="tag">V4.73 연구 시범 · V4.72 전체 개정 원고 · 운영 앱 미반영</span></header>
+<div class="frame">
+<nav class="panel nav" aria-label="사건 연표"><h2>시간의 흐름</h2><p class="help">연도를 눌러 다른 사건을 보세요.</p><p class="mobile-hint">연표를 좌우로 밀어 다른 사건을 보세요.</p><div id="steps"></div></nav>
+<main class="panel main"><div class="kicker" id="time"></div><h2 id="eventTitle" aria-live="polite"></h2><p class="meta" id="place"></p>
+<p class="finding" id="finding"></p>
+<div class="caution"><strong>역사적으로 조심할 점</strong><p id="caution"></p></div>
+<div class="actions"><button type="button" id="compare" aria-expanded="false">1530·1531·1540년 판본 비교</button></div>
+<div id="comparison" class="compare" hidden><h3>기록된 사건과 인쇄된 책을 구별하기</h3>
+<table><thead><tr><th scope="col">연도</th><th scope="col">핵심 구분</th></tr></thead><tbody id="comparisonRows"></tbody></table>
+<p class="help">연도만으로 실물 판본의 동일성을 판단하지 않습니다.</p></div>
+<div class="actions"><button type="button" id="witnessBtn" aria-controls="witnessEvidence" aria-expanded="false">1529년 인쇄본 ↔ 번역문 ↔ 서명본 비교</button></div>
+<section id="witnessEvidence" class="compare" hidden aria-label="본문의 차이와 증거의 한계"><h3>동일 사건의 서로 다른 기록</h3>
+<table><thead><tr><th>자료</th><th>해당 문장의 모습</th><th>한계</th></tr></thead><tbody id="witnessRows"></tbody></table>
+<p class="help">문구 차이만으로 필사본의 작성 순서나 전승 계보를 확정하지 않습니다.</p></section>
+<div class="actions" role="tablist" aria-label="읽기 깊이">
+<button type="button" id="l0" role="tab" aria-controls="reader" aria-selected="true" tabindex="0">L0 · 개요</button>
+<button type="button" id="l1" role="tab" aria-controls="reader" aria-selected="false" tabindex="-1">L1 · 중급 해설</button></div>
+<div class="read-meta" id="readingTitle"></div><article id="reader" class="prose" role="tabpanel" aria-labelledby="l0" tabindex="0"></article><div class="read-meta" id="evidenceTrace" role="status" aria-live="polite"></div>
+<div class="actions"><button type="button" id="sourcesBtn" aria-expanded="true">사료 카드 접기</button>
+<button type="button" id="restart">1529년으로 돌아가기</button></div></main>
+<aside class="panel side" id="sources" aria-label="문헌과 자료"><div class="kicker">EVIDENCE</div>
+<h2>근거와 한계</h2><p class="help">자료의 유형과 한계를 확인하세요. 외부 사이트는 링크 클릭 때만 열립니다.</p>
+<div id="docs"></div><p class="warn">편집 번역 자료와 희귀본 소장목록은 근거의 종류가 다릅니다. 원본 전체 교감과 역사학자 승인은 아직 없습니다.</p></aside></div>
+<footer>정적 HTML · 응답 수집·분석 없음 · 외부 링크 외 인터넷 불필요 · GitHub의 연구 파일은 비공개 접근 통제를 제공하지 않음 · can_ship=false</footer>
+<script type="application/json" id="data">{"title":"마르부르크 1529년 — V4.72 독자용 개정 원고","question":"종교개혁자들이 무엇에 합의했으며 성찬론과 신앙고백 인쇄본에서는 왜 계속 다른 입장이 존재했는가?","events":[{"id":"EVENT-MARBURG-1529","year":1529,"datePrecision":"YEAR","dateLabel":"1529년","title":"마르부르크 회담과 15개 조항","placeLabel":"마르부르크 (당시 헤센 지역)","eventKind":"COLLOQUY","evidenceType":"EDITED_PRIMARY_TEXT_IN_ENGLISH_TRANSLATION","readersFinding":"여러 신학적 공통점을 명시하면서도 제15조 성찬의 견해 차이를 모두 해결하지 못했다.","sourceUrls":["https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/the-marburg-colloquy-the-marburg-articles-1529"],"claimLimit":"제15조에 나타난 합의 부분도 설명해야 하며, 성찬론 전체가 한 문장으로 통일됐다고 말하지 않는다."},{"id":"EVENT-AUGSBURG-1530","year":1530,"datePrecision":"YEAR","dateLabel":"1530년","title":"아우크스부르크 신앙고백 제출","placeLabel":"아우크스부르크 (제국회의)","eventKind":"CONFESSION_PRESENTATION","evidenceType":"INSTITUTIONAL_RARE_BOOKS_BIBLIOGRAPHY","readersFinding":"제국회의에 제출된 신앙고백과 그 뒤 인쇄·재편집된 판본을 구분해 읽어야 한다.","sourceUrls":["https://gruber.lstc.edu/confessions/augs_apol.php"],"claimLimit":"1530년 제출 문서와 당해 인쇄본을 동일 물체로 취급하지 않는다."},{"id":"EVENT-AUGSBURG-1531","year":1531,"datePrecision":"YEAR","dateLabel":"1531년","title":"신앙고백과 변증서의 인쇄","placeLabel":"아우크스부르크 신앙고백 관련 인쇄·출판","eventKind":"BIBLIOGRAPHIC_MILESTONE","evidenceType":"INSTITUTIONAL_RARE_BOOKS_BIBLIOGRAPHY","readersFinding":"제출·인쇄·변증서 작성·공간적 출판지는 개별 서지 기술로 확인한다.","sourceUrls":["https://gruber.lstc.edu/confessions/augs_apol.php"],"claimLimit":"1531년의 모든 인쇄물을 한 교리적 이본으로 단정하지 않는다. 장소 표기는 사건의 주제이지 실물 인쇄 소재지 확정이 아니다."},{"id":"EVENT-AUGSBURG-1540","year":1540,"datePrecision":"YEAR","dateLabel":"1540년","title":"Variata와 같은 해의 비Variata 인쇄본","placeLabel":"아우크스부르크 신앙고백 판본 비교","eventKind":"EDITION_VARIANT_COMPARISON","evidenceType":"TWO_RARE_BOOKS_CATALOGUE_DESCRIPTIONS","readersFinding":"1540년이라는 동일한 연도가 두 판본의 내용·이름이 같다는 뜻은 아니다.","sourceUrls":["https://gruber.lstc.edu/confessions/augs_apol.php"],"claimLimit":"각 조항의 라틴어·독일어 직접 대조와 교파별 공식 수용은 아직 전문가 검토 전이다."}],"docs":[{"id":"GA","title":"마르부르크 15개 조항 — 영어 편집 번역","documentClass":"EDITED_TRANSLATION","sourceUrl":"https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/the-marburg-colloquy-the-marburg-articles-1529","linkedEventIds":["EVENT-MARBURG-1529"],"note":"1910 WA 저본 영어 번역. 1529 서명 필사 원본 아님.","displayMode":"OWN_SUMMARY_EXTERNAL_LINK_ONLY","copyrightClearance":"NOT_A_RIGHTS_APPROVAL"},{"id":"GE","title":"오시안더의 동시대 보고","documentClass":"LUTHERAN_EYEWITNESS_EDITED","sourceUrl":"https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/the-marburg-colloquy-report-by-a-lutheran-eyewitness-1529","linkedEventIds":["EVENT-MARBURG-1529"],"note":"루터교 참가자의 관점. 모든 사람의 내적 의도를 대변하지 않음.","displayMode":"OWN_SUMMARY_EXTERNAL_LINK_ONLY","copyrightClearance":"NOT_A_RIGHTS_APPROVAL"},{"id":"WP","title":"취리히 1529년 인쇄본 W2119","documentClass":"ORIGINAL_PRINT_SCAN","sourceUrl":"https://www.e-rara.ch/zuz/download/pdf/170052","linkedEventIds":["EVENT-MARBURG-1529"],"note":"e-rara PDF 0기준 p6 제15조, p7 콜로폰. K/Z 자필 아님.","displayMode":"OWN_SUMMARY_EXTERNAL_LINK_ONLY","copyrightClearance":"NOT_A_RIGHTS_APPROVAL"},{"id":"ZA","title":"취리히 Z 서명본 공식 목록","documentClass":"ARCHIVAL_CATALOGUE","sourceUrl":"https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=618165","linkedEventIds":["EVENT-MARBURG-1529"],"note":"K/Z 추가문구에 대한 기관 기록. 제15조 친필 원본 미판독.","displayMode":"OWN_SUMMARY_EXTERNAL_LINK_ONLY","copyrightClearance":"NOT_A_RIGHTS_APPROVAL"},{"id":"SC","title":"필립 샤프의 역사·서지 연구","documentClass":"HISTORICAL_BIBLIOGRAPHY","sourceUrl":"https://www.ccel.org/ccel/schaff/hcc7.ii.vii.vii.html","linkedEventIds":["EVENT-MARBURG-1529","EVENT-AUGSBURG-1530","EVENT-AUGSBURG-1531","EVENT-AUGSBURG-1540"],"note":"1847 초판·1854 제2판 기술은 후대 학자의 주장. 실물 판권면 미검증.","displayMode":"OWN_SUMMARY_EXTERNAL_LINK_ONLY","copyrightClearance":"NOT_A_RIGHTS_APPROVAL"},{"id":"GR","title":"그루버 아우크스부르크 희귀본 목록","documentClass":"RARE_BOOKS_CATALOGUE","sourceUrl":"https://gruber.lstc.edu/confessions/augs_apol.php","linkedEventIds":["EVENT-AUGSBURG-1530","EVENT-AUGSBURG-1531","EVENT-AUGSBURG-1540"],"note":"1530·1531·1540 판본의 소장 기술. 라틴어 제10조 실물 교감 아님.","displayMode":"OWN_SUMMARY_EXTERNAL_LINK_ONLY","copyrightClearance":"NOT_A_RIGHTS_APPROVAL"}],"l0":{"title":"V4.72 역사 개요","text":"1529년 가을, 독일 마르부르크에 마르틴 루터와 훌드리히 츠빙글리를 비롯한 개혁자들이 모였다. 헤센의 영주 필리프가 마련한 이 만남에는 신학적 갈등을 줄이려는 목적과 개혁 세력의 협력을 모색하는 정치적 배경이 함께 있었다. 참석자들은 10월 3일, 여러 신앙 문제에 관해 동의한 내용을 15개 조항으로 정리했다. [GA][GE]\n\n핵심 쟁점 가운데 하나는 마지막 제15조, 곧 성찬이었다. 그 조항에는 성찬에 관한 **공통 진술**도 포함되지만, 그리스도의 몸과 피가 빵과 포도주 가운데 **육체적으로 현존하는가**라는 문제에는 이견이 남았다. 문서는 차이가 사라졌다고 선언하는 대신, 서로 그리스도인의 사랑을 보이고 하나님께 이해를 구하자고 권한다. [GA]\n\n더 깊이 읽으면 문서 자체에 관한 질문도 생긴다. **1529년 취리히 인쇄본 W2119에는 미사를 다른 사람을 위한 은총 획득 수단으로 보는 관점에 반대하는 구절이 있는데, 여기서 대조한 GHDI 영어 번역 제15조에는 대응 구절이 나타나지 않는다.** 서로 다른 자료를 본 뒤 곧바로 누가 언제 문장을 추가했는지 결정할 수는 없다. 역사를 읽는 일은 ‘누가 옳았는가’를 묻는 동시에 ‘우리는 지금 어느 문서를 보고 있는가’를 묻는 일이기도 하다. [WP][GA][ZA]"},"l1":{"title":"V4.72 역사 심화","text":"### 1. 대화는 신학적이었고 정치적이기도 했다\n\n헤센의 영주 필리프가 회담을 마련했다. 당시 루터와 츠빙글리 사이에는 성찬에 관한 신학적 이견이 있었고, 필리프에게는 개혁 세력의 연대를 강화하려는 정치적 관심도 있었다. 동시대 참가자 오시안더의 보고는 회담에서 오간 논쟁과 제후의 개입을 보여 주지만, **루터교 측 목격자의 관점**이라는 한계를 지닌다. 그의 설명이나 후대 역사가의 요약을 모든 참석자가 공유한 의도의 직접 기록으로 취급하지 않는다. [GE][SC]\n\n### 2. 제15조: 공통 고백·남은 이견·사랑의 권고\n\nGHDI가 제공하는 마르부르크 합의문 영어 번역에는 성찬을 그리스도의 참된 몸과 피의 성례로 받아들이는 공통 진술이 있다. 그러나 그 몸과 피가 빵과 포도주 안에 육체적으로 현존하는지에 대해서는 일치하지 못했다고 명시한다. 끝에서는 서로 그리스도인의 사랑을 보여 주고 하나님께 바른 이해를 간구하도록 권한다. **공통 진술, 남은 이견, 관계를 유지하려는 요청**은 제15조 안에 함께 존재한다. [GA]\n\n이 장면을 ‘제15조까지 완전히 합의했다’고 말하면 남은 교리 차이가 사라지고, ‘성찬에 대해서는 하나도 합의하지 못했다’고 말하면 이미 적힌 공통 고백이 사라진다. **이견의 지속과 문서상의 사랑의 권고를 곧바로 이후 교회 간의 실질적 화해 성립으로 동일시하지도 않는다.** [GA]\n\n### 3. 사료를 바꾸면 보이는 문장도 달라진다\n\n1529년 취리히에서 인쇄된 **VD16 W2119**의 제15조 활자본문(PDF 0기준 6쪽)에는 미사를 타인을 위한 은총 획득의 행위로 보는 견해를 거부하는 내용이 보인다. 그러나 GHDI 영어 번역의 제15조에는 그에 대응하는 문장이 없다. GHDI가 명시한 편집 저본은 1910년 바이마르판 *D. Martin Luthers Werke* 제30권 제3부(160–171쪽)다. **이 차이는 비교한 두 문헌에 나타나는 본문의 차이이지, 그 자체로 원본 필사본의 계통도를 완성하는 증거는 아니다.** [WP][GA]\n\n두 자료를 나란히 읽으면 독자가 확인할 수 있는 문장이 다르지만, 그 차이만으로 각 저본의 전승 관계를 확정할 수는 없다. 해당 문구가 정확히 누구의 손으로 어느 잎에 들어갔는지 판단하려면 **헤센 K와 취리히 Z의 서명 필사본 원본 지면을 별도로 확인**해야 한다. 현재 이 두 원본의 해당 글자는 직접 판독하지 않았다. [WP][GA][ZA]\n\n### 4. 같은 사건, 서로 다른 문헌 증인\n\n현재 기록관 목록으로 확인하는 서명 필사본은 **헤센 K**와 **취리히 Z**다. 취리히 기록관은 제7·13·15조의 추가 구절에 관해 두 필사본의 차이를 기술하고 있다. 이 기술은 공식 **서지·보존기록에서의 진술**이며, 이번 연구자가 서명 필사본의 필적·행갈이·문장 위치를 직접 교감했다는 뜻은 아니다. [ZA]\n\n1529년 취리히 인쇄본 W2119는 서명 필사본 K·Z와 별개의 인쇄 증인이며, 어느 필사본을 조판 저본으로 삼았는지는 아직 확정되지 않았다. 같은 인쇄본의 말미에 보이는 인쇄된 서명자 이름과 출판자의 콜로폰도 실제 자필 서명이 아니다. **필사 원본 → 당대 인쇄본 → 후대 학술편집본 → 현대 번역문**은 서로 다른 증거 유형이며, 각 연결고리는 따로 확인해야 한다. [WP][ZA][GA]\n\n### 5. 헤페 1847년과 1854년을 어떻게 설명할까\n\n19세기의 연구자 하인리히 헤페가 마르부르크 조항의 필사본 파크시밀리를 출판한 사실을 연구할 때도 판차를 분리해야 한다. **필립 샤프는 1847년 카셀 간행과 1854년 제2판을 구분해 서술했다.** 이 진술은 이전의 두 출판연도 불일치를 설명하는 중요한 후대 서지 근거다. 다만 지금까지 헤페의 **1847년·1854년 실물 표제지와 판권면을 나란히 대조하지 않았으므로**, ‘샤프의 제2판 기록을 확인했다’와 ‘실물의 제2판 표시를 직접 판독했다’는 다른 주장이다. [SC]\n\n### 6. 1530년 아우크스부르크로 이어 읽기\n\n마르부르크에서의 공통점과 남은 성찬 이견은 이후 개혁자들의 신학적 관계와 정치적 협력을 이해하는 한 배경이다. 그러나 1529년 제15조에서 1530년 아우크스부르크 신앙고백, 1531년 관련 인쇄본, 1540년 Variata의 제10조가 **하나의 직선적 필사 계보로 이어진다**고 서술할 수는 없다. 사건의 상호 연관성을 설명하되, 각 시점의 제출 문서·인쇄판·수정판의 물리적 동일성, 원문 표현과 인쇄 역사는 독립적으로 확인해야 한다. [SC][GR]"},"sourceSha":[{"path":"research/data/ATLAS_PHASE0_FLAGSHIP_SCENE_1529_1540_PRIVATE_MODEL.json","sha":"a3fda22ca5ec58c8bef5f7ff2efdf801772e2dc8"},{"path":"research/data/V4_47_TWO_SOURCE_GROUNDED_L0_HISTORY_CORRECTIONS.json","sha":"9aebf094697d500930f58d894df16affc34a343c"},{"path":"research/data/V4_50_L1_24_CHAPTER_INTEGRATED_REVISED_MASTER.json","sha":"79a362734aa963eb41ad0424515e8d21074349c5"}],"canShip":false,"previewVersion":"V4.73","witnessComparison":[{"id":"W2119","sourceId":"WP","label":"1529 취리히 W2119 인쇄본","finding":"미사와 타인 은총에 관한 구절이 인쇄됨","limit":"서명 필사본 K/Z의 직접 판독 아님"},{"id":"GHDI","sourceId":"GA","label":"GHDI 영어 번역 (WA 저본)","finding":"제15조에 해당 미사 구절이 보이지 않음","limit":"1910년 학술 편집본에서 번역, 원본 자필 아님"},{"id":"KZ","sourceId":"ZA","label":"1529 서명 필사본 K와 Z","finding":"기관 목록은 제7·13·15조의 문구 차이를 기록","limit":"제15조 친필 원본 직접 판독 0/2, 필사 계보 HOLD"}],"contentOrigin":{"sourceDocument":"integrations/atlas-flagship-phase1/V472_MARBURG_1529_L0_L1_REVISED_READER_CANDIDATE_KO.md","sourceDocumentBlobSha":"bb036c4c6e0ab1593743334775a001f1f588fc2d","sourceAudit":"research/data/ATLAS_V472_MARBURG_REVISED_READER_CANDIDATE_AND_REDLINES.json"},"releaseGate":{"canShip":false,"canMergeMain":false,"canImportAIStudio":false,"historianApproved":false,"readerTested":false,"hostAccessControlsVerified":false},"previewOnly":true}</script>
+<script>
+"use strict";
+const atlas=JSON.parse(document.getElementById("data").textContent);
+const byId=id=>document.getElementById(id);
+function tokenizeInline(value) {
+  const tokens=[];const pattern=/\*\*([^*\n]+)\*\*|\*([^*\n]+)\*/g;
+  let last=0;let match;
+  while((match=pattern.exec(value))!==null){
+    if(match.index>last)tokens.push({kind:"text",text:value.slice(last,match.index)});
+    tokens.push({kind:match[1]!==undefined?"strong":"em",text:match[1]??match[2]});
+    last=pattern.lastIndex;
+  }
+  if(last<value.length)tokens.push({kind:"text",text:value.slice(last)});
+  return tokens;
+}
+function parseResearchMarkdown(source) {
+  return String(source??"").replace(/\r\n?/g,"\n").trim().split(/\n\s*\n/g).filter(Boolean).map(raw=>{
+    const part=raw.trim();
+    if(part==="---")return {kind:"rule",tag:"hr",segments:[]};
+    const heading=part.match(/^(#{1,4})[ \t]+([^\n]+)$/);
+    const text=heading?heading[2]:part.replace(/\n/g," ");
+    return {kind:"block",tag:heading?"h"+heading[1].length:"p",segments:tokenizeInline(text)};
+  });
+}
+
+function renderResearchMarkdown(container,source){
+  container.replaceChildren();
+  for(const block of parseResearchMarkdown(source)){
+    const node=document.createElement(block.tag);
+    for(const token of block.segments){
+      if(token.kind==="text")node.appendChild(document.createTextNode(token.text));
+      else {const inline=document.createElement(token.kind==="strong"?"strong":"em");inline.textContent=token.text;node.appendChild(inline);}
+    }
+    container.appendChild(node);
+  }
+}
+
+const state={eventId:atlas.events[0].id,layer:"L0",compare:false,witness:false,sources:true};
+function renderEvent(){
+ const current=atlas.events.find(x=>x.id===state.eventId)||atlas.events[0];
+ byId("steps").replaceChildren();
+ for(const e of atlas.events){
+  const btn=document.createElement("button");btn.className="step";btn.type="button";
+  btn.setAttribute("aria-current",e.id===current.id?"step":"false");
+  const year=document.createElement("span");year.textContent=e.dateLabel;
+  const label=document.createElement("strong");label.textContent=e.title;btn.append(year,label);
+  btn.addEventListener("click",()=>{const wasFocused=document.activeElement===btn;state.eventId=e.id;renderEvent();if(wasFocused){const fresh=byId("steps").children[atlas.events.findIndex(x=>x.id===e.id)];if(typeof fresh?.focus==="function")fresh.focus({preventScroll:true});}});
+  byId("steps").appendChild(btn);
+ }
+ byId("time").textContent="SELECTED EVENT / "+current.dateLabel;
+ byId("eventTitle").textContent=current.title;
+ byId("place").textContent=current.placeLabel;
+ byId("finding").textContent=current.readersFinding;
+ byId("caution").textContent=current.claimLimit;
+ byId("docs").replaceChildren();
+ for(const d of atlas.docs.filter(x=>x.linkedEventIds.includes(current.id))){
+  const article=document.createElement("article");article.className="source";
+  const h=document.createElement("h3");h.textContent=d.title;
+  const p=document.createElement("p");p.textContent=d.note||"사료 유형 구분 필요";
+  const a=document.createElement("a");const u=new URL(d.sourceUrl);
+  if(u.protocol!=="https:")continue;
+  a.href=u.href;a.target="_blank";a.rel="noopener noreferrer";a.textContent="원자료 확인 (외부)";
+  article.append(h,p,a);byId("docs").appendChild(article);
+ }
+}
+function renderBook(){
+ const book=state.layer==="L0"?atlas.l0:atlas.l1;
+ byId("readingTitle").textContent=state.layer+" / "+book.title;
+ renderResearchMarkdown(byId("reader"),book.text);
+ const refs=[...new Set((book.text.match(/\[(?:GA|GE|WP|ZA|SC|GR)\]/g)||[]).map(x=>x.slice(1,-1)))];
+ byId("evidenceTrace").textContent=state.layer+" 근거: "+refs.map(x=>"["+x+"]").join(" · ")+" (사료 카드는 오른쪽/모바일 아래)";
+ byId("l0").setAttribute("aria-selected",String(state.layer==="L0"));
+ byId("l1").setAttribute("aria-selected",String(state.layer==="L1"));
+ byId("l0").setAttribute("tabindex",state.layer==="L0"?"0":"-1");
+ byId("l1").setAttribute("tabindex",state.layer==="L1"?"0":"-1");
+ byId("reader").setAttribute("aria-labelledby",state.layer==="L0"?"l0":"l1");
+}
+function renderCompare(){
+ byId("comparison").hidden=!state.compare;byId("compare").setAttribute("aria-expanded",String(state.compare));
+ byId("comparisonRows").replaceChildren();
+ for(const e of atlas.events.filter(x=>x.year>1529)){
+  const tr=document.createElement("tr"),th=document.createElement("th"),td=document.createElement("td");
+  th.scope="row";th.textContent=e.dateLabel;td.textContent=e.readersFinding;tr.append(th,td);byId("comparisonRows").appendChild(tr);
+ }
+}
+function renderWitness(){
+ byId("witnessEvidence").hidden=!state.witness;
+ byId("witnessBtn").setAttribute("aria-expanded",String(state.witness));
+ byId("witnessRows").replaceChildren();
+ for(const item of atlas.witnessComparison){
+  const tr=document.createElement("tr"),th=document.createElement("th"),td=document.createElement("td"),note=document.createElement("td");
+  th.scope="row";th.textContent=item.label+" ["+item.sourceId+"]";td.textContent=item.finding;note.textContent=item.limit;tr.append(th,td,note);byId("witnessRows").appendChild(tr);
+ }
+}
+function renderSources(){byId("sources").hidden=!state.sources;
+ byId("sourcesBtn").setAttribute("aria-expanded",String(state.sources));
+ byId("sourcesBtn").textContent=state.sources?"사료 카드 접기":"사료 카드 펼치기";}
+byId("l0").addEventListener("click",()=>{state.layer="L0";renderBook();});
+byId("l1").addEventListener("click",()=>{state.layer="L1";renderBook();});
+for(const [index,id] of ["l0","l1"].entries()){
+ byId(id).addEventListener("keydown",event=>{
+  if(!["ArrowLeft","ArrowRight","Home","End"].includes(event.key))return;
+  event.preventDefault();
+  const next=event.key==="Home"?0:event.key==="End"?1:(index+1)%2;
+  const target=byId(["l0","l1"][next]);target.click();target.focus();
+ });
+}
+byId("compare").addEventListener("click",()=>{state.compare=!state.compare;renderCompare();});
+byId("witnessBtn").addEventListener("click",()=>{state.witness=!state.witness;renderWitness();});
+byId("sourcesBtn").addEventListener("click",()=>{state.sources=!state.sources;renderSources();});
+byId("restart").addEventListener("click",()=>{state.eventId=atlas.events[0].id;state.layer="L0";state.compare=false;state.witness=false;state.sources=true;renderAll();document.querySelector?.(".nav")?.scrollTo?.({left:0,behavior:"instant"});document.querySelector?.(".header")?.scrollIntoView?.({block:"start",behavior:"instant"});});
+function renderAll(){renderEvent();renderBook();renderCompare();renderWitness();renderSources();}
+byId("question").textContent=atlas.question;renderAll();
+</script></body></html>
