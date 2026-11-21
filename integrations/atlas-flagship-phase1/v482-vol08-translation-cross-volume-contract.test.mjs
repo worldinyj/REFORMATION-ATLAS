@@ -75,7 +75,7 @@ test("China's retrospectively reported 635, stele built 781 and later rubbing ar
  assert.equal(p.chronology[0].classification,"EVENT_REPORTED_LATER");
  assert.equal(p.chronology[2].classification,"MONUMENT_PRODUCTION");
  assert.equal(p.comparisonRows[0].region,"당나라 중국");
- assert.match(p.comparisonRows[0].textKind,/기념비/);
+ assert.match(p.comparisonRows[0].evidenceType,/기념비/);
  assert.match(p.reader.l1Markdown,/성경 전권의 중국어 판본/);
  assert.ok(p.sources.some(x=>x.id==="S480-SMITH"&&x.kind==="RUBBING_OBJECT_CATALOGUE"));
 });
