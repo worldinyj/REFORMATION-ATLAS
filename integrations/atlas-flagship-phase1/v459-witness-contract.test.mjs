@@ -38,7 +38,9 @@ test("V4.59 four 1529 prints are not equated with signed manuscripts",()=>{
  assert.deepEqual(new Set(prints.map(w=>w.vd16)),new Set(printIds));
  assert.ok(prints.every(w=>w.article15FullPageRead===false));
  assert.ok(get("M1529-Z").vd16===null&&get("M1529-K").vd16===null);
- assert.equal(data.sources.Z_PRINT_W2118.url,"https://doi.org/10.3931/e-rara-1085");
+ assert.equal(data.sources.Z_PRINT_W2118.url,"https://www.e-rara.ch/zuz/content/titleinfo/291747");
+ assert.equal(data.sources.Z_PRINT_W2118.permalink,"https://doi.org/10.3931/e-rara-1085");
+ assert.equal(data.sources.Z_PRINT_W2118.originalScanPdf,"https://www.e-rara.ch/zuz/download/pdf/291747");
  assert.equal(data.sources.Z_PRINT_W2119.url,"https://doi.org/10.3931/e-rara-597");
 });
 

@@ -418,3 +418,11 @@ V4.64에서 DOI 리다이렉트 오류로 **서지만 확인됐던 1529년 취�
 **[V4.72 수정 대조 및 전문가 검토 의제](./V472_EDITORIAL_REDLINES_AND_EVIDENCE_DECISION_KO.md)**
 
 **다음 V4.73:** 별도의 연구용 미리보기에서 이 개정본과 사료 카드 연결을 평가하고, 실제 역사학자·독자 검토의 결과를 수집하기 전에는 배포하지 않는다.
+
+## V4.73 — V4.72 실제 읽기 화면 연결 및 CI 실패 원인 진단·복구
+
+- [**V4.73 독립형 연구 HTML**](./preview-v473-1529-1540.html): V4.72 **L0 3문단 / L1 6절 전체를 실제 표시**, 연표 4개, 사료 6개, **W2119-GHDI-K/Z 3행 증거 비교** 제공. 기존 원고·구형 시범 HTML 및 운영 AI Studio 앱은 불변.
+- 기존 [Actions #44724441589](https://github.com/worldinyj/REFORMATION-ATLAS/actions/runs/44724441589) 실제 로그에서 **81/82 연구 계약 테스트 통과(오래된 W2118 URL assertion 1개 실패)**, 두 브라우저는 **Ubuntu 26.04/Playwright 비호환으로 실행 전 실패** 확인.
+- V459 회귀검사에 공식 e-rara **291747 서지 URL + DOI permalink + 실제 PDF**를 분리 검증, Actions 러너 **ubuntu-24.04** 고정.
+- 신규 **V473 Node 계약 5건 + Chromium/WebKit 각 320/375/768/1440px 브라우저 시나리오** 연결. 실제 CI 성공 여부는 실행 결과 확인 전에는 미확인.
+- **[검증·진단 보고서](./V473_REVISED_READER_PREVIEW_AND_CI_RECOVERY_KO.md)**, JSON `research/data/ATLAS_V473_PREVIEW_SOURCE_BRIDGE_AND_CI_TRIAGE.json`; 출시 관련 모든 게이트는 닫힘.
