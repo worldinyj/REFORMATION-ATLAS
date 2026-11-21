@@ -480,3 +480,10 @@ V4.64에서 DOI 리다이렉트 오류로 **서지만 확인됐던 1529년 취�
 - [**원석·탁본·후대 번역 연구 판정서**](./V480_VOL02_STELE_RUBBING_TRANSLATION_EDITORIAL_DECISION_KO.md): 맥길대·포드햄 1917 영어 편집 번역·스미스소니언 F1976.28.2a-d·호주박물관·Cambridge 학술연구를 문헌·물건의 종류별로 표시. 실제 원석이나 탁본의 정밀 중국어·시리아어 전사·교감·이미지 권리 확인은 **미완료**.
 - [**V4.80 연구 원고·16건 검토 주장 데이터**](../../research/data/ATLAS_V480_VOL02_JINGJIAO_READER_CANDIDATE.json): 사료 8종, 시대별 비교 5건, 판단 보류 7건. 기존 `G443-09` P1·`CL433-04/05/07`의 실제 검토는 `NOT_SUBMITTED`.
 - 독자 실증·역사학자 승인·본문의 운영 Google AI Studio 반영 **각 0건**. 마스터·main 변경 없음. `can_ship=false`, `can_merge_main=false`, `can_import_ai_studio=false`.
+
+## V4.81 — 제7권 한국 천주교 초기 강학·세례와 1882–1911 한국어 성서 출판 역사
+
+- [**제7권 한국교회사 심화 L0/L1 원고**](./V481_VOL07_KOREAN_CHURCH_ORIGINS_AND_BIBLE_EDITIONS_KO.md): 기존 V4.50 `L448-07-02` **1,164자**를 덮어쓰지 않고, L0 4문단·L1 10절 **6062자** 연구 후보 본문 추가. 1779 강학의 성격과 1784 세례·공동체 결성, 1882·1885·1887·1900·1906·1911년 한국어 개신교 성서의 서로 다른 간행 범위·장소·원전 상태 구분.
+- [**역사적 증거와 보류 판정**](./V481_VOL07_HISTORICAL_EVIDENCE_DECISION_KO.md): 정약용 묘지명에 대한 후대 해석과 강학 종교적 성격의 논쟁, 로스역의 한국인 조력자·식자공 김청송, 1900 개인역/시험역과 1906 공인역 차이를 명시. 소장 원본 행별 직접 교감은 미완료.
+- [**연구 원고·역사 주장 20건·사료 12종 데이터**](../../research/data/ATLAS_V481_VOL07_KOREAN_CHURCH_READER_CANDIDATE.json), 연대별 증거 8건, 보류 7건. 기존 제7권 **P0 4건 / P1 1건** 심사 상태는 모두 `NOT_SUBMITTED`.
+- Node 신규 계약 7건을 GitHub CI에 추가했으며, 인간 역사학자 승인 0명·독자 실증 0명. V4.50 통합 마스터, `main`, 실제 AI Studio 앱 변경 없음. `can_ship=false`, `can_merge_main=false`, `can_import_ai_studio=false`.
