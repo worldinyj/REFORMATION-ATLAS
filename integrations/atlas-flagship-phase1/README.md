@@ -434,3 +434,11 @@ V4.64에서 DOI 리다이렉트 오류로 **서지만 확인됐던 1529년 취�
 - 데이터: `research/data/ATLAS_V474_REACT_READER_PACK.json`. 기존 판본/역사 원문 수정 없이 V4.73 원고 정확성 연결을 검증하는 **5개 계약 테스트** 추가.
 - **실제 React DOM**은 `esbuild`+ `react-dom`으로 구축한 검사용 fixture와 Playwright Chromium/WebKit·320/375/768/1440px로 검증하고, 접근 미승인/연구패키지 변조 시 차단하는 음성 테스트를 수행한다.
 - 실제 CI 성공 여부는 신규 커밋 후 확인. `can_ship=false`, `can_merge_main=false`, `can_import_ai_studio=false`. 인간 전문가 승인 0, 독자 0, 실제 운영 앱 미반영.
+
+## V4.75 — 전문가·독자 검토 패키지 및 8권 공통 콘텐츠 계약
+
+- V4.74의 기술 검증된 제4권 화면을 기반으로 **L0/L1 전체·4사건·6사료·3문헌 증거 비교·14 역사 주장·3과제·9문항**을 하나의 [공통 검토 데이터셋](../../research/data/ATLAS_V475_CROSS_VOLUME_REVIEW_BUNDLE.json)으로 통합했다. HIGH 역사 주장 10건은 독립 2인 검토를 요구하며 현재는 모두 미승인.
+- [**역사학자 검토 자료집**](./V475_HISTORIAN_SOURCE_REVIEW_DOSSIER_KO.md)에는 출처 유형·한계, 14개 주장 목록, HIGH 10건, 필사본 K/Z 미확정, 판본/서지 쟁점, 실제 전문가 검토용 빈 판정 기록을 담았다.
+- [**독자용 A4 인쇄 HTML (정답 없음)**](./V475_READER_PILOT_WORKSHEET.html)에는 기존 3과제·9문항 전체와 비채점 질문 3건, 자발적 참여 안내를 포함. 사료 카드 2개를 전제로 했던 Q09를 현재 6종에 맞게 수정했다. **키/응답/스크립트/전송/추적 없음**. 구형 공개 V4.57 파일에 정답이 있어 진정한 블라인드 평가가 보장되지 않는 위험을 표시했다.
+- [**다른 권 재사용 표준**](./V475_CROSS_VOLUME_CONTENT_REVIEW_STANDARD_KO.md)에서 ID, L0/L1, 사료, 이본, 주장, 전문가/독자 평가, 출시 게이트를 정의. `atlas-review-bundle-contract.mjs` 검증 모듈 및 Node 계약 10개+ 실제 브라우저 새 시나리오 추가(테스트 성패는 Actions 결과 참조).
+- [**V4.75 종합 보고서**](./V475_EXPERT_READER_REVIEW_READY_REPORT_KO.md). 인간 역사학자 검토/독자 평가/기관 이메일 발송/운영 앱 배포 **0건**. `can_ship=false` · `can_merge_main=false` · `can_import_ai_studio=false`.
