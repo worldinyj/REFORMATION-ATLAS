@@ -53,3 +53,5 @@
 @media(max-width:1090px){.atlas-cv-layout{grid-template-columns:180px minmax(0,1fr)}.atlas-cv-sources{grid-column:2}}
 @media(max-width:810px){.atlas-cv-route-grid{grid-template-columns:1fr}.atlas-cv-layout{grid-template-columns:minmax(0,1fr)}.atlas-cv-sources{grid-column:auto}}
 @media(max-width:520px){.atlas-cv{padding:8px}.atlas-cv-heading,.atlas-cv-paths,.atlas-cv-layout>nav,.atlas-cv-layout>main,.atlas-cv-layout>aside{padding:13px}.atlas-cv-years{display:flex;overflow-x:auto}.atlas-cv-event{flex:0 0 158px}.atlas-cv-volumes{display:grid;grid-template-columns:1fr}.atlas-cv-volume{max-width:none}.atlas-cv h1{font-size:1.63rem}}
+
+.atlas-cv-route p.atlas-cv-route-sources{font-family:ui-monospace,SFMono-Regular,monospace;font-size:.72rem;overflow-wrap:anywhere;color:var(--cv-accent)}

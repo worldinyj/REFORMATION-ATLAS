@@ -451,3 +451,10 @@ V4.64에서 DOI 리다이렉트 오류로 **서지만 확인됐던 1529년 취�
 - [**V4.76 역사 검토·범위 보고서**](./V476_VOL05_HISTORICAL_REVIEW_AND_GAPS_KO.md). 공통 스키마 계약 5건을 CI에 추가. 전문가 검토 0명·독자 0명·운영 앱 배포 0건, `can_ship=false`.
 
 **V4.76 제5권 연구 화면:** [6개 사건 · L0/L1 독립 HTML](./preview-v476-vol05.html) · [근거/테스트 설명](./V476_VOL05_BROWSER_REVIEW_AND_TRANSFER_KO.md). 제4권과는 별도의 실제 제5권 자료를 보여 주는 연구용 화면이며 8개 사료, 3행 증거 비교, Chromium/WebKit 테스트를 추가했다. 운영 앱에 설치하지 않았다.
+
+## V4.77 — 제4·5권 공통 React 독자 화면 및 양방향 역사 경로
+
+- [**V4.77 공통 React 연구 화면**](./AtlasCrossVolumeResearchPanel.jsx)은 제4권/제5권을 동일한 `ATLAS_REVIEW_BUNDLE_V1` 구조로 렌더링한다. 제4권 **사건 4·사료 6·L1 6절**, 제5권 **사건 6·사료 8·L1 8절**의 각 원고·자료는 모두 원상 유지.
+- [**독자 경로 3건**](../../research/data/ATLAS_V477_CROSS_VOLUME_READING_LINKS.json): 1529 ↔ 1551 성찬, 1530 ↔ 1547 칭의, 1540 ↔ 1540 서로 다른 개혁. **출처 ID·사료 한계·인과관계 보류**까지 포함.
+- [**제4·5권 통합 개발·역사 해석 보고서**](./V477_CROSS_VOLUME_REACT_READER_AND_HISTORICAL_PATHS_KO.md). 검증 모듈 `atlas-cross-volume-research.mjs`, React 스코프 CSS, 실제 Chromium/WebKit 4개 화면폭 테스트 및 접근 미승인/변조 차단 테스트 추가.
+- 이번 개발은 제4권과 제5권의 **연구용 프리뷰를 통합**한 것이지 실제 운영 Google AI Studio 배포가 아님. 전문 역사학자 검토·독자 실증 0건, 원본 필사 지면 교감 미완료. 출시 게이트 모두 `false`.

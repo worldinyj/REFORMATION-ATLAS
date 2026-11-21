@@ -78,6 +78,7 @@ export default function AtlasCrossVolumeResearchPanel({
       {path.to.volumeId==="VOL-04"?"제4권":"제5권"}에서 읽기
      </button>
     </div>
+    <p className="atlas-cv-route-sources">연결 사료: {path.from.sourceIds.map(id=>"["+id+"]").join(" ")} ↔ {path.to.sourceIds.map(id=>"["+id+"]").join(" ")}</p>
     <p className="atlas-cv-caveat"><strong>해석상 주의:</strong> {path.caution}</p>
    </article>)}</div>
   </section>
