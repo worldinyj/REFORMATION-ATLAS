@@ -47,7 +47,7 @@ test("Research-only React renders real complete texts, provenance and witness ro
  assert.doesNotMatch(jsx,/dangerouslySetInnerHTML|innerHTML|\bfetch\s*\(/);
  assert.match(fixture,/privatePreviewGranted=\{granted\}/);
 });
-test("Browser test compiles actual React with local source pack and tests fail closed",()=>{
+test("Browser test compiles actual React with local source pack and tests fail closed",async()=>{
  const code=await read("./browser-react-v474.test.mjs");
  assert.match(code,/import \{build\} from "esbuild"/);
  assert.match(code,/import \{chromium,webkit\} from "playwright"/);
