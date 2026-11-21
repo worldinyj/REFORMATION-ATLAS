@@ -1,0 +1,1515 @@
+{
+  "schema": "ATLAS_V478_EIGHT_VOLUME_PORTFOLIO_BASELINE_V1",
+  "version": "4.78",
+  "created": "2026-11-21",
+  "state": "RESEARCH_ONLY",
+  "executiveDecision": "SHIFT_FROM_MICRO_CI_TO_SOURCE_GROUNDED_L1_DEPTH_AND_EIGHT_VOLUME_NAVIGATION",
+  "source": {
+    "sourcePaths": {
+      "l0": {
+        "path": "research/data/V4_47_TWO_SOURCE_GROUNDED_L0_HISTORY_CORRECTIONS.json",
+        "gitBlobSha": "9aebf094697d500930f58d894df16affc34a343c"
+      },
+      "l1": {
+        "path": "research/data/V4_50_L1_24_CHAPTER_INTEGRATED_REVISED_MASTER.json",
+        "gitBlobSha": "79a362734aa963eb41ad0424515e8d21074349c5"
+      },
+      "claims": {
+        "path": "research/data/V4_47_53_CLAIM_SOURCE_AND_TEXT_POSITION_REGISTER.json",
+        "gitBlobSha": "b195c3a6afe93c875c2090d5ffef445ad3922d8a"
+      },
+      "risk": {
+        "path": "research/data/V4_44_GO_NO_GO_MASTER_GATE_REGISTER.json",
+        "gitBlobSha": "afdf0b2282bf2c1ecee01d0a0f376b1b393b66f5"
+      },
+      "routes": {
+        "path": "research/data/V4_51_EIGHT_VOLUME_NAVIGATION_AND_READER_PILOT_TASKS.json",
+        "gitBlobSha": "a66e4bed47cdecc8b8096ae495c107c98e931c84"
+      }
+    },
+    "volumeCount": 8,
+    "chronologicalVolumeCount": 7,
+    "thematicVolumeCount": 1,
+    "l1ChapterCount": 24,
+    "l0TotalChars": 18626,
+    "l1TotalChars": 15031,
+    "l1SourceOccurrences": 74,
+    "l1DistinctSourceUrls": 53,
+    "claimRegisterCount": 53,
+    "chapterCrossLinks": 66,
+    "distinctCrossVolumePairs": 32,
+    "actualReviewerSignoffs": 0,
+    "actualReaderSessions": 0,
+    "productionAppChanged": false
+  },
+  "metricsDefinitions": {
+    "l0Chars": "Raw JavaScript string length of bodyMarkdown in V4.47 baseline; includes whitespace and markdown notation.",
+    "l1Chars": "Sum of raw bodyMarkdown string lengths for three chapters per volume in V4.50 baseline.",
+    "sourceLinkOccurrences": "Total external URL entries in V4.50 L1 chapter.sourceUrls; this is NOT textual criticism, primary-source proof or approval.",
+    "claimCount": "Number of entries mapped to each volume in V4.47 53-claim register; claim statuses mix different evidence and reviewer categories.",
+    "crossLinks": "V4.50 chapter.crossLinks edges count, a proposed navigation structure not a proven historical causal relationship.",
+    "p0Review": "V4.44 human review docket status; NOT_SUBMITTED is not completed approval."
+  },
+  "volumes": [
+    {
+      "id": "VOL-01",
+      "order": 1,
+      "kind": "CHRONOLOGICAL_HISTORY",
+      "title": "여럿의 언어와 도시에서 자라난 고대교회",
+      "overviewLabel": "고대교회의 언어·지역적 다양성",
+      "baseline": {
+        "l0Chars": 2056,
+        "l0NonWhitespace": 1581,
+        "l0HeadingCount": 4,
+        "l1Chars": 1502,
+        "l1NonWhitespace": 1151,
+        "l1Chapters": 3,
+        "l1SourceLinkOccurrences": 7,
+        "l1DistinctSourceUrls": 6,
+        "l0MappedClaimCount": 3,
+        "l0ReviewOrHoldStatusCount": 2,
+        "l0ClaimSourceStatusDistribution": {
+          "REVIEW_REQUIRED": 2,
+          "SOURCE_SUPPORTED": 1
+        },
+        "queuedHumanReviewItems": []
+      },
+      "chapters": [
+        {
+          "id": "L448-01-01",
+          "title": "도시와 언어가 바꾼 복음의 전달",
+          "period": "1–3세기",
+          "bodyChars": 558,
+          "sourceLinkOccurrences": 3,
+          "crossLinks": [
+            "VOL-02",
+            "VOL-08"
+          ],
+          "reviewCaution": "Early Christian city-level examples are synthesized broadly; specialist review of early source testimonies pending. Early diffusion agent assumptions remain contested in recent scholarship.",
+          "hasSourceLocatorInText": false
+        },
+        {
+          "id": "L448-01-02",
+          "title": "박해와 황실 보호 이후에도 지역은 달랐다",
+          "period": "3–4세기",
+          "bodyChars": 462,
+          "sourceLinkOccurrences": 2,
+          "crossLinks": [
+            "VOL-02",
+            "VOL-07"
+          ],
+          "reviewCaution": "Aksum religion and chronology are inferred from museum and heritage syntheses rather than individual epigraphic collation.",
+          "hasSourceLocatorInText": false
+        },
+        {
+          "id": "L448-01-03",
+          "title": "공의회는 질문을 정리했지만 모든 차이를 지우지 못했다",
+          "period": "4–5세기",
+          "bodyChars": 482,
+          "sourceLinkOccurrences": 2,
+          "crossLinks": [
+            "VOL-02",
+            "VOL-07",
+            "VOL-08"
+          ],
+          "reviewCaution": "Contrasting confessional self-descriptions require expert checking before public release.",
+          "hasSourceLocatorInText": false
+        }
+      ],
+      "note": "참고 URL의 숫자는 사료의 직접성·정확성·고유 원전 교감·역사학자 승인을 측정하지 않는다.",
+      "assessment": {
+        "sourceRisk": "MEDIUM",
+        "narrativeGap": "HIGH",
+        "researchArea": "고대 다언어·다지역 네트워크와 악숨 왕실 수용의 증언 구분",
+        "action": "고대교회 왕실 수용/주민 신앙·니케아 이후 지역 수용의 대표 1차 증언 두 장면을 장 단위로 확대",
+        "criterion": "황실 결정·지역 수용·개별 공동체 관행이 다른 사료로 증명되는지 구분"
+      },
+      "nextReadPath": "L448-01-03",
+      "expertApproved": false,
+      "realReadersObserved": 0
+    },
+    {
+      "id": "VOL-02",
+      "order": 2,
+      "kind": "CHRONOLOGICAL_HISTORY",
+      "title": "중세는 서유럽만의 시간이 아니었다",
+      "overviewLabel": "동방과 서방, 복수의 중세 기독교",
+      "baseline": {
+        "l0Chars": 2121,
+        "l0NonWhitespace": 1623,
+        "l0HeadingCount": 4,
+        "l1Chars": 1405,
+        "l1NonWhitespace": 1075,
+        "l1Chapters": 3,
+        "l1SourceLinkOccurrences": 8,
+        "l1DistinctSourceUrls": 6,
+        "l0MappedClaimCount": 4,
+        "l0ReviewOrHoldStatusCount": 2,
+        "l0ClaimSourceStatusDistribution": {
+          "HOLD": 1,
+          "REVIEW_REQUIRED": 1,
+          "SOURCE_SUPPORTED": 2
+        },
+        "queuedHumanReviewItems": [
+          {
+            "reviewId": "G443-09",
+            "priority": "P1",
+            "status": "NOT_SUBMITTED"
+          }
+        ]
+      },
+      "chapters": [
+        {
+          "id": "L448-02-01",
+          "title": "비잔틴·서아시아·서유럽의 서로 다른 중세",
+          "period": "6–15세기",
+          "bodyChars": 467,
+          "sourceLinkOccurrences": 2,
+          "crossLinks": [
+            "VOL-01",
+            "VOL-03",
+            "VOL-07"
+          ],
+          "reviewCaution": "Broad regional synthesis: local chronology and church authority distinctions need specialist verification.",
+          "hasSourceLocatorInText": false
+        },
+        {
+          "id": "L448-02-02",
+          "title": "경교비에서 읽는 635년의 사건과 781년의 증언",
+          "period": "7–8세기",
+          "bodyChars": 482,
+          "sourceLinkOccurrences": 2,
+          "crossLinks": [
+            "VOL-01",
+            "VOL-06",
+            "VOL-08"
+          ],
+          "reviewCaution": "No direct Chinese/Syriac epigraphic transcription collation is claimed.",
+          "hasSourceLocatorInText": false
+        },
+        {
+          "id": "L448-02-03",
+          "title": "분열의 날짜보다 관계의 변화를 읽기",
+          "period": "11–15세기",
+          "bodyChars": 456,
+          "sourceLinkOccurrences": 4,
+          "crossLinks": [
+            "VOL-03",
+            "VOL-05"
+          ],
+          "reviewCaution": "1054 and 1204 are established general history, but specific original chronicles were not re-read in this L1 task. Additional specialized sources linked; exact passages have not been critically collated.",
+          "hasSourceLocatorInText": false
+        }
+      ],
+      "note": "참고 URL의 숫자는 사료의 직접성·정확성·고유 원전 교감·역사학자 승인을 측정하지 않는다.",
+      "assessment": {
+        "sourceRisk": "HIGH",
+        "narrativeGap": "HIGH",
+        "researchArea": "635년 사건, 781년 경교비 제작, 사본·탁본 증거 분리; 1054/1204 사건 구별",
+        "action": "경교비 사건·비문·탁본의 시기 차이와 비잔틴·서아시아 분파 자료를 2개 대조 장면으로 확장",
+        "criterion": "경교비 본문과 후대 해설을 구분하고 635/781·1054/1204를 서로 다른 층위로 표시"
+      },
+      "nextReadPath": "L448-02-02",
+      "expertApproved": false,
+      "realReadersObserved": 0
+    },
+    {
+      "id": "VOL-03",
+      "order": 3,
+      "kind": "CHRONOLOGICAL_HISTORY",
+      "title": "개혁 이전의 개혁들은 한 길로 이어지지 않았다",
+      "overviewLabel": "종교개혁 이전 여러 쇄신운동",
+      "baseline": {
+        "l0Chars": 2138,
+        "l0NonWhitespace": 1635,
+        "l0HeadingCount": 4,
+        "l1Chars": 1733,
+        "l1NonWhitespace": 1331,
+        "l1Chapters": 3,
+        "l1SourceLinkOccurrences": 7,
+        "l1DistinctSourceUrls": 7,
+        "l0MappedClaimCount": 5,
+        "l0ReviewOrHoldStatusCount": 3,
+        "l0ClaimSourceStatusDistribution": {
+          "HOLD": 1,
+          "MISSING_SOURCE_STATUS": 1,
+          "REVIEW_REQUIRED": 1,
+          "SOURCE_SUPPORTED": 2
+        },
+        "queuedHumanReviewItems": [
+          {
+            "reviewId": "G443-01",
+            "priority": "P0",
+            "status": "NOT_SUBMITTED"
+          },
+          {
+            "reviewId": "G443-08",
+            "priority": "P0",
+            "status": "NOT_SUBMITTED"
+          }
+        ]
+      },
+      "chapters": [
+        {
+          "id": "L448-03-01",
+          "title": "왈도파의 청빈과 설교: 후대의 교파명으로 미리 이름 붙이지 않기",
+          "period": "12–16세기",
+          "bodyChars": 498,
+          "sourceLinkOccurrences": 2,
+          "crossLinks": [
+            "VOL-04",
+            "VOL-08"
+          ],
+          "reviewCaution": "1532 meeting's original manuscript and later naming remain unresolved C417-18; no automatic denominational succession.",
+          "hasSourceLocatorInText": false
+        },
+        {
+          "id": "L448-03-02",
+          "title": "위클리프와 후스: 영향을 받았어도 똑같이 믿지는 않았다",
+          "period": "14–15세기",
+          "bodyChars": 749,
+          "sourceLinkOccurrences": 3,
+          "crossLinks": [
+            "VOL-04",
+            "VOL-08"
+          ],
+          "reviewCaution": "Historic Wyclif/Hus disagreement has academic abstract/fullpage discussion support; critical collation of Latin and later Hussite sources not completed. Review gate G443-01 remains open.",
+          "hasSourceLocatorInText": false
+        },
+        {
+          "id": "L448-03-03",
+          "title": "프라하 4개조에서 바젤 협상까지: 요구·전쟁·법의 시간표",
+          "period": "1415–1436년",
+          "bodyChars": 486,
+          "sourceLinkOccurrences": 2,
+          "crossLinks": [
+            "VOL-04",
+            "VOL-05",
+            "VOL-08"
+          ],
+          "reviewCaution": "1420/1421 articulations and 1433/1436 diplomatic forms remain separate; specific manuscript reading pending.",
+          "hasSourceLocatorInText": false
+        }
+      ],
+      "note": "참고 URL의 숫자는 사료의 직접성·정확성·고유 원전 교감·역사학자 승인을 측정하지 않는다.",
+      "assessment": {
+        "sourceRisk": "HIGH",
+        "narrativeGap": "MEDIUM",
+        "researchArea": "위클리프·후스 성찬론, 왈도파 1532와 1847 후대 명칭, 프라하 조항·콤팍타타",
+        "action": "기존 위클리프/후스 원전 대조 성과를 L1 사료 카드·독자 대조 장면으로 승격하기 전 P0 근거 판독",
+        "criterion": "동일 신학 주장·동일 조직 계보로 단정하는 문장이 없음; G443-01/G443-08 보류 유지"
+      },
+      "nextReadPath": "L448-03-02",
+      "expertApproved": false,
+      "realReadersObserved": 0
+    },
+    {
+      "id": "VOL-04",
+      "order": 4,
+      "kind": "CHRONOLOGICAL_HISTORY",
+      "title": "한 번이 아니라 여러 갈래로 일어난 16세기 개혁",
+      "overviewLabel": "16세기의 복수 개혁과 신앙고백",
+      "baseline": {
+        "l0Chars": 2132,
+        "l0NonWhitespace": 1663,
+        "l0HeadingCount": 4,
+        "l1Chars": 1873,
+        "l1NonWhitespace": 1456,
+        "l1Chapters": 3,
+        "l1SourceLinkOccurrences": 9,
+        "l1DistinctSourceUrls": 7,
+        "l0MappedClaimCount": 5,
+        "l0ReviewOrHoldStatusCount": 4,
+        "l0ClaimSourceStatusDistribution": {
+          "HOLD": 1,
+          "MISSING_SOURCE_STATUS": 1,
+          "REVIEW_REQUIRED": 2,
+          "SOURCE_SUPPORTED": 1
+        },
+        "queuedHumanReviewItems": [
+          {
+            "reviewId": "G443-02",
+            "priority": "P0",
+            "status": "NOT_SUBMITTED"
+          }
+        ]
+      },
+      "chapters": [
+        {
+          "id": "L448-04-01",
+          "title": "1517년 논쟁은 왜 예배·학교·도시 정부의 문제로 커졌나",
+          "period": "16세기 전반",
+          "bodyChars": 485,
+          "sourceLinkOccurrences": 2,
+          "crossLinks": [
+            "VOL-03",
+            "VOL-05"
+          ],
+          "reviewCaution": "Macro synthesis; regional denominational cases should be source-checked before detailed expansion.",
+          "hasSourceLocatorInText": false
+        },
+        {
+          "id": "L448-04-02",
+          "title": "마르부르크의 합의와 아우크스부르크 판본: 신학과 서지의 차이",
+          "period": "1529–1540년",
+          "bodyChars": 881,
+          "sourceLinkOccurrences": 3,
+          "crossLinks": [
+            "VOL-03",
+            "VOL-05",
+            "VOL-08"
+          ],
+          "reviewCaution": "German History Documents provides an edited/translated text of Marburg articles, while Gruber catalog gives object descriptions; no exhaustive 1530/1531/1540 original-copy collation and expert review of C417-11/12 yet.",
+          "hasSourceLocatorInText": false
+        },
+        {
+          "id": "L448-04-03",
+          "title": "제네바·잉글랜드·재세례파: 똑같은 개혁을 다른 제도로 만들다",
+          "period": "16세기",
+          "bodyChars": 507,
+          "sourceLinkOccurrences": 4,
+          "crossLinks": [
+            "VOL-05",
+            "VOL-08"
+          ],
+          "reviewCaution": "Anabaptist and English Reformation plural traditions need additional representative sources at L2. Additional specialized sources linked; exact passages have not been critically collated.",
+          "hasSourceLocatorInText": false
+        }
+      ],
+      "note": "참고 URL의 숫자는 사료의 직접성·정확성·고유 원전 교감·역사학자 승인을 측정하지 않는다.",
+      "assessment": {
+        "sourceRisk": "HIGH",
+        "narrativeGap": "MEDIUM",
+        "researchArea": "마르부르크 K/Z 자필 제15조, 아우크스부르크 1530/1531/1540, 비주류 개혁의 지역 차이",
+        "action": "V4.72–77 시범은 보존하고 다른 두 장(1517와 제네바/잉글랜드/재세례파)의 사료 밀도를 순차 보강",
+        "criterion": "Marburg/W2119/GHDI/KZ, Augsburg Variata, 개혁 전통의 차이를 한 판본처럼 합치지 않음"
+      },
+      "nextReadPath": "L448-04-02",
+      "expertApproved": false,
+      "realReadersObserved": 0
+    },
+    {
+      "id": "VOL-05",
+      "order": 5,
+      "kind": "CHRONOLOGICAL_HISTORY",
+      "title": "가톨릭 쇄신과 종교 갈등, 제한된 공존",
+      "overviewLabel": "가톨릭 쇄신·갈등·제한적 공존",
+      "baseline": {
+        "l0Chars": 2281,
+        "l0NonWhitespace": 1746,
+        "l0HeadingCount": 4,
+        "l1Chars": 2079,
+        "l1NonWhitespace": 1595,
+        "l1Chapters": 3,
+        "l1SourceLinkOccurrences": 10,
+        "l1DistinctSourceUrls": 9,
+        "l0MappedClaimCount": 3,
+        "l0ReviewOrHoldStatusCount": 0,
+        "l0ClaimSourceStatusDistribution": {
+          "SOURCE_SUPPORTED": 3
+        },
+        "queuedHumanReviewItems": [
+          {
+            "reviewId": "G443-10",
+            "priority": "P1",
+            "status": "NOT_SUBMITTED"
+          }
+        ]
+      },
+      "chapters": [
+        {
+          "id": "L448-05-01",
+          "title": "가톨릭의 개혁을 오직 개신교에 대한 반응으로 읽지 않기",
+          "period": "16–17세기",
+          "bodyChars": 773,
+          "sourceLinkOccurrences": 3,
+          "crossLinks": [
+            "VOL-04",
+            "VOL-06",
+            "VOL-08"
+          ],
+          "reviewCaution": "St Andrews academic entry establishes historical chronology; Catholic encyclopedia is a confessional description and GHDI translates edited documents. Detailed regional implementation requires further histories.",
+          "hasSourceLocatorInText": false
+        },
+        {
+          "id": "L448-05-02",
+          "title": "1555년과 1648년: 공존의 법적 범위와 배제",
+          "period": "1555–1648년",
+          "bodyChars": 832,
+          "sourceLinkOccurrences": 3,
+          "crossLinks": [
+            "VOL-04",
+            "VOL-08"
+          ],
+          "reviewCaution": "Sources are curated/translated imperial legal documents with interpretation; 1555 exceptions and 1648 confessional rights are jurisdiction-specific and require expert legal-history review before final publication.",
+          "hasSourceLocatorInText": false
+        },
+        {
+          "id": "L448-05-03",
+          "title": "교파의 경계가 만들어지며 일상의 규율도 달라졌다",
+          "period": "16–17세기",
+          "bodyChars": 474,
+          "sourceLinkOccurrences": 4,
+          "crossLinks": [
+            "VOL-06",
+            "VOL-08"
+          ],
+          "reviewCaution": "Macro history narrative; regional archival evidence and gender-history examples deferred to L2. Additional specialized sources linked; exact passages have not been critically collated.",
+          "hasSourceLocatorInText": false
+        }
+      ],
+      "note": "참고 URL의 숫자는 사료의 직접성·정확성·고유 원전 교감·역사학자 승인을 측정하지 않는다.",
+      "assessment": {
+        "sourceRisk": "MEDIUM",
+        "narrativeGap": "MEDIUM",
+        "researchArea": "1555 제국법 예외와 1648 개혁파 인정·1624 기준연도·지역별 시행",
+        "action": "V4.76의 1540–64 가톨릭 쇄신과 1555–1648 갈등·공존을 다시 연결하되 법적 보호·일상 현실의 차이를 문서로 확인",
+        "criterion": "제국 신분에 적용된 제한적 보호를 현대의 보편적 종교자유라고 표현하지 않음"
+      },
+      "nextReadPath": "L448-05-02",
+      "expertApproved": false,
+      "realReadersObserved": 0
+    },
+    {
+      "id": "VOL-06",
+      "order": 6,
+      "kind": "CHRONOLOGICAL_HISTORY",
+      "title": "경건주의와 부흥, 언어를 가로지른 세계 선교",
+      "overviewLabel": "경건주의·부흥·세계 선교",
+      "baseline": {
+        "l0Chars": 2390,
+        "l0NonWhitespace": 1839,
+        "l0HeadingCount": 5,
+        "l1Chars": 1505,
+        "l1NonWhitespace": 1160,
+        "l1Chapters": 3,
+        "l1SourceLinkOccurrences": 6,
+        "l1DistinctSourceUrls": 6,
+        "l0MappedClaimCount": 4,
+        "l0ReviewOrHoldStatusCount": 3,
+        "l0ClaimSourceStatusDistribution": {
+          "CONFLICT_HOLD_COMPLETION_YEAR_1719_UNRECONCILED": 1,
+          "REVIEW_REQUIRED": 2,
+          "SOURCE_SUPPORTED": 1
+        },
+        "queuedHumanReviewItems": [
+          {
+            "reviewId": "G443-03",
+            "priority": "P0",
+            "status": "NOT_SUBMITTED"
+          }
+        ]
+      },
+      "chapters": [
+        {
+          "id": "L448-06-01",
+          "title": "경건주의와 부흥운동은 같은 단체가 아니었다",
+          "period": "17–19세기",
+          "bodyChars": 488,
+          "sourceLinkOccurrences": 2,
+          "crossLinks": [
+            "VOL-05",
+            "VOL-07",
+            "VOL-08"
+          ],
+          "reviewCaution": "New 2026 scholarship contextualizes conflicts; does not replace full Moravian and Methodist institutional history.",
+          "hasSourceLocatorInText": false
+        },
+        {
+          "id": "L448-06-02",
+          "title": "남인도 타밀어 성경: 인쇄 기계보다 중요한 사람과 판본",
+          "period": "1706–1719년",
+          "bodyChars": 514,
+          "sourceLinkOccurrences": 2,
+          "crossLinks": [
+            "VOL-07",
+            "VOL-08"
+          ],
+          "reviewCaution": "TAMIL-1719 unresolved; 1715 object and alleged 1719 edition not physically collated.",
+          "hasSourceLocatorInText": false
+        },
+        {
+          "id": "L448-06-03",
+          "title": "선교와 제국의 접촉: 외부의 확장만이 세계사의 주인공은 아니다",
+          "period": "18–19세기",
+          "bodyChars": 503,
+          "sourceLinkOccurrences": 2,
+          "crossLinks": [
+            "VOL-07",
+            "VOL-08"
+          ],
+          "reviewCaution": "Specific colonial/mission relationship cannot be uniformly generalized across regions; regional archival studies needed.",
+          "hasSourceLocatorInText": false
+        }
+      ],
+      "note": "참고 URL의 숫자는 사료의 직접성·정확성·고유 원전 교감·역사학자 승인을 측정하지 않는다.",
+      "assessment": {
+        "sourceRisk": "CRITICAL",
+        "narrativeGap": "HIGH",
+        "researchArea": "1715/1719 타밀어 신약 판본·서지, 현지 언어 공동체 참여, 경건주의·부흥·식민 제국의 맥락",
+        "action": "타밀어 신약 1715/1719의 확정되지 않은 출판 이력을 명시한 L1 정밀 장면을 집필하고 번역·독자·서지 증거를 구분",
+        "criterion": "1719 미확인 판본을 실존하는 확정 초판으로 표현하지 않고 원전·기관 회신의 증거 수준 명시"
+      },
+      "nextReadPath": "L448-06-02",
+      "expertApproved": false,
+      "realReadersObserved": 0
+    },
+    {
+      "id": "VOL-07",
+      "order": 7,
+      "kind": "CHRONOLOGICAL_HISTORY",
+      "title": "세계의 여러 중심과 한국교회의 형성",
+      "overviewLabel": "아프리카·아시아·한국교회",
+      "baseline": {
+        "l0Chars": 2427,
+        "l0NonWhitespace": 1896,
+        "l0HeadingCount": 7,
+        "l1Chars": 3330,
+        "l1NonWhitespace": 2604,
+        "l1Chapters": 3,
+        "l1SourceLinkOccurrences": 17,
+        "l1DistinctSourceUrls": 15,
+        "l0MappedClaimCount": 25,
+        "l0ReviewOrHoldStatusCount": 9,
+        "l0ClaimSourceStatusDistribution": {
+          "ACADEMIC_ABSTRACT_SCREENED": 2,
+          "ACADEMIC_OVERVIEW_SCREENED": 1,
+          "ACADEMIC_PERIODIZATION_SCREENED": 1,
+          "CONFESSIONAL_INTERPRETATION_REVIEW_REQUIRED": 1,
+          "HISTORICAL_OVERVIEW_SUPPORTED": 1,
+          "INSTITUTIONAL_FAMILY_LIST_SUPPORTED": 1,
+          "INSTITUTIONAL_HISTORICAL_SOURCE_SUPPORTED": 2,
+          "INSTITUTION_SOURCE_SCREENED": 3,
+          "KCI_ABSTRACT_SUPPORTED_CONTEXT": 1,
+          "OPEN_ACCESS_SCHOLARLY_SUPPORTED_CONTEXT": 1,
+          "ORGANIZATIONAL_HISTORY_SUPPORTED": 2,
+          "PARTIAL_SOURCE_SCREENING_REVIEW_REQUIRED": 1,
+          "REGIONAL_CONTEXT_REVIEW_REQUIRED": 1,
+          "REGIONAL_RESEARCH_CONTEXT_SCREENED": 1,
+          "REVIEW_REQUIRED": 2,
+          "SCHOLARLY_ABSTRACT_SCREENED_NOT_CONFESSIONALLY_ADJUDICATED": 1,
+          "SOURCE_SUPPORTED": 2,
+          "SURVEY_SUPPORTED_HISTORICAL_CONTEXT": 1
+        },
+        "queuedHumanReviewItems": [
+          {
+            "reviewId": "G443-04",
+            "priority": "P0",
+            "status": "NOT_SUBMITTED"
+          },
+          {
+            "reviewId": "G443-05",
+            "priority": "P0",
+            "status": "NOT_SUBMITTED"
+          },
+          {
+            "reviewId": "G443-06",
+            "priority": "P0",
+            "status": "NOT_SUBMITTED"
+          },
+          {
+            "reviewId": "G443-07",
+            "priority": "P0",
+            "status": "NOT_SUBMITTED"
+          },
+          {
+            "reviewId": "G443-11",
+            "priority": "P1",
+            "status": "NOT_SUBMITTED"
+          }
+        ]
+      },
+      "chapters": [
+        {
+          "id": "L448-07-01",
+          "title": "아프리카와 중동에는 근대 선교 이전부터 교회가 있었다",
+          "period": "고대 전통–20세기",
+          "bodyChars": 965,
+          "sourceLinkOccurrences": 4,
+          "crossLinks": [
+            "VOL-01",
+            "VOL-02",
+            "VOL-06",
+            "VOL-08"
+          ],
+          "reviewCaution": "AIC classification is broad; MECC founding families are confirmed from MECC self-history. Membership implies dialogue not doctrinal unity. A thorough local source examination has not been completed.",
+          "hasSourceLocatorInText": false
+        },
+        {
+          "id": "L448-07-02",
+          "title": "한국교회의 서로 다른 시작: 독서·세례·번역·사회참여",
+          "period": "1779–20세기 후반",
+          "bodyChars": 1164,
+          "sourceLinkOccurrences": 6,
+          "crossLinks": [
+            "VOL-06",
+            "VOL-08"
+          ],
+          "reviewCaution": "1779 starting-date claims depend partly on disputed later records and should not be flattened into one founding assertion. Protestant 1882,1887,1900,1911 book stages are not a complete history of Catholic vernacular texts. 1919 and denominational divisions require additional focused primary records.",
+          "hasSourceLocatorInText": false
+        },
+        {
+          "id": "L448-07-03",
+          "title": "라틴아메리카·아시아와 세계교회의 새로운 질문",
+          "period": "1910–20세기 후반",
+          "bodyChars": 1201,
+          "sourceLinkOccurrences": 7,
+          "crossLinks": [
+            "VOL-06",
+            "VOL-08"
+          ],
+          "reviewCaution": "1910 participant numbers reflect the WCC retrospective institutional historical source. The 1984 Vatican document is a confessional doctrinal appraisal, not a neutral representation of all liberation theology. Dalit theology's multiple origins and agency are not reducible to one founder.",
+          "hasSourceLocatorInText": false
+        }
+      ],
+      "note": "참고 URL의 숫자는 사료의 직접성·정확성·고유 원전 교감·역사학자 승인을 측정하지 않는다.",
+      "assessment": {
+        "sourceRisk": "HIGH",
+        "narrativeGap": "MEDIUM",
+        "researchArea": "한국 1779/1784 천주교 기원, 성경 1882/1887/1900/1911, AIC·MECC·WCC·남반구 주체",
+        "action": "25개 주장과 4개 P0 심사를 먼저 분류하고 지역별 직접 원문·기관 증언을 분리한 독자 경로 보강",
+        "criterion": "기관 소속·대표성·수치와 신학적 일치·직접 사료가 다름을 표시"
+      },
+      "nextReadPath": "L448-07-02",
+      "expertApproved": false,
+      "realReadersObserved": 0
+    },
+    {
+      "id": "VOL-08",
+      "order": 8,
+      "kind": "THEMATIC_COMPARISON",
+      "title": "여섯 질문으로 다시 읽는 기독교사의 지도",
+      "overviewLabel": "여섯 주제로 읽는 교회사 비교",
+      "baseline": {
+        "l0Chars": 3081,
+        "l0NonWhitespace": 2361,
+        "l0HeadingCount": 7,
+        "l1Chars": 1604,
+        "l1NonWhitespace": 1234,
+        "l1Chapters": 3,
+        "l1SourceLinkOccurrences": 10,
+        "l1DistinctSourceUrls": 9,
+        "l0MappedClaimCount": 4,
+        "l0ReviewOrHoldStatusCount": 1,
+        "l0ClaimSourceStatusDistribution": {
+          "STRUCTURAL_COMPARISON_HUMAN_REVIEW_REQUIRED": 1,
+          "STRUCTURE": 3
+        },
+        "queuedHumanReviewItems": [
+          {
+            "reviewId": "G443-01",
+            "priority": "P0",
+            "status": "NOT_SUBMITTED"
+          },
+          {
+            "reviewId": "G443-12",
+            "priority": "P1",
+            "status": "NOT_SUBMITTED"
+          }
+        ]
+      },
+      "chapters": [
+        {
+          "id": "L448-08-01",
+          "title": "질문 1·2 — 성경과 권위 / 은총과 구원",
+          "period": "전 시대 비교",
+          "bodyChars": 502,
+          "sourceLinkOccurrences": 3,
+          "crossLinks": [
+            "VOL-01",
+            "VOL-03",
+            "VOL-04",
+            "VOL-05",
+            "VOL-06"
+          ],
+          "reviewCaution": "Thematic comparison is an editorial reading aid, not a substitute for doctrinal historical critical study.",
+          "hasSourceLocatorInText": false
+        },
+        {
+          "id": "L448-08-02",
+          "title": "질문 3·4 — 성찬과 예배 / 교회조직과 생활",
+          "period": "중세–근현대 비교",
+          "bodyChars": 506,
+          "sourceLinkOccurrences": 3,
+          "crossLinks": [
+            "VOL-03",
+            "VOL-04",
+            "VOL-05",
+            "VOL-06",
+            "VOL-07"
+          ],
+          "reviewCaution": "One index paragraph cannot give full denominational and Eucharistic primary text nuances; cross-verify with review G443-01.",
+          "hasSourceLocatorInText": false
+        },
+        {
+          "id": "L448-08-03",
+          "title": "질문 5·6 — 국가·갈등·공존 / 번역과 지역 수용",
+          "period": "고대–현대 비교",
+          "bodyChars": 596,
+          "sourceLinkOccurrences": 4,
+          "crossLinks": [
+            "VOL-01",
+            "VOL-02",
+            "VOL-05",
+            "VOL-06",
+            "VOL-07"
+          ],
+          "reviewCaution": "Tamil 1719 dispute unresolved; thematic similarities do not assert documentary equivalence.",
+          "hasSourceLocatorInText": false
+        }
+      ],
+      "note": "참고 URL의 숫자는 사료의 직접성·정확성·고유 원전 교감·역사학자 승인을 측정하지 않는다.",
+      "assessment": {
+        "sourceRisk": "HIGH",
+        "narrativeGap": "HIGH",
+        "researchArea": "6개 횡단 주제의 출발점·도착점·사료의 층위, 특히 성찬·번역·국가권력",
+        "action": "모든 여섯 주제의 최소 3개 관련 장으로 돌아가는 실제 링크와 공통 질문을 마련",
+        "criterion": "시대별 교리·법률·판본이 유사하다고 직접 인과·문헌 계보를 주장하지 않음"
+      },
+      "nextReadPath": "L448-08-03",
+      "expertApproved": false,
+      "realReadersObserved": 0
+    }
+  ],
+  "canonicalNavigation": {
+    "modes": [
+      {
+        "id": "MODE-01",
+        "name": "시대를 따라 읽기",
+        "sequence": [
+          "VOL-01",
+          "VOL-02",
+          "VOL-03",
+          "VOL-04",
+          "VOL-05",
+          "VOL-06",
+          "VOL-07"
+        ],
+        "note": "제1~7권 시간 축. 근현대·지역 역사는 같은 시대에도 서로 다른 곳에서 전개되므로 단선적 인과로 해석하지 않는다."
+      },
+      {
+        "id": "MODE-02",
+        "name": "여섯 질문으로 비교하기",
+        "sequence": [
+          "VOL-08"
+        ],
+        "themeIds": [
+          "T1",
+          "T2",
+          "T3",
+          "T4",
+          "T5",
+          "T6"
+        ],
+        "note": "제8권은 마지막 시대가 아니라 모든 권으로 되돌아가는 횡단 주제의 지도다."
+      },
+      {
+        "id": "MODE-03",
+        "name": "문헌과 근거로 확인하기",
+        "sequence": [
+          "VOL-01",
+          "VOL-02",
+          "VOL-03",
+          "VOL-04",
+          "VOL-05",
+          "VOL-06",
+          "VOL-07",
+          "VOL-08"
+        ],
+        "note": "권/장/주장 연결 후 원전·번역·기관 목록·학술 해설의 유형 및 확인되지 않은 사안을 보여 주는 모드다. 실제 개별 원문 전수 교감은 별도 작업."
+      }
+    ],
+    "chapterEdges": [
+      {
+        "sourceVolumeId": "VOL-01",
+        "sourceChapterId": "L448-01-01",
+        "targetVolumeId": "VOL-02",
+        "kind": "AUTHOR_DEFINED_CROSSLINK_NOT_HISTORICAL_CAUSATION"
+      },
+      {
+        "sourceVolumeId": "VOL-01",
+        "sourceChapterId": "L448-01-01",
+        "targetVolumeId": "VOL-08",
+        "kind": "AUTHOR_DEFINED_CROSSLINK_NOT_HISTORICAL_CAUSATION"
+      },
+      {
+        "sourceVolumeId": "VOL-01",
+        "sourceChapterId": "L448-01-02",
+        "targetVolumeId": "VOL-02",
+        "kind": "AUTHOR_DEFINED_CROSSLINK_NOT_HISTORICAL_CAUSATION"
+      },
+      {
+        "sourceVolumeId": "VOL-01",
+        "sourceChapterId": "L448-01-02",
+        "targetVolumeId": "VOL-07",
+        "kind": "AUTHOR_DEFINED_CROSSLINK_NOT_HISTORICAL_CAUSATION"
+      },
+      {
+        "sourceVolumeId": "VOL-01",
+        "sourceChapterId": "L448-01-03",
+        "targetVolumeId": "VOL-02",
+        "kind": "AUTHOR_DEFINED_CROSSLINK_NOT_HISTORICAL_CAUSATION"
+      },
+      {
+        "sourceVolumeId": "VOL-01",
+        "sourceChapterId": "L448-01-03",
+        "targetVolumeId": "VOL-07",
+        "kind": "AUTHOR_DEFINED_CROSSLINK_NOT_HISTORICAL_CAUSATION"
+      },
+      {
+        "sourceVolumeId": "VOL-01",
+        "sourceChapterId": "L448-01-03",
+        "targetVolumeId": "VOL-08",
+        "kind": "AUTHOR_DEFINED_CROSSLINK_NOT_HISTORICAL_CAUSATION"
+      },
+      {
+        "sourceVolumeId": "VOL-02",
+        "sourceChapterId": "L448-02-01",
+        "targetVolumeId": "VOL-01",
+        "kind": "AUTHOR_DEFINED_CROSSLINK_NOT_HISTORICAL_CAUSATION"
+      },
+      {
+        "sourceVolumeId": "VOL-02",
+        "sourceChapterId": "L448-02-01",
+        "targetVolumeId": "VOL-03",
+        "kind": "AUTHOR_DEFINED_CROSSLINK_NOT_HISTORICAL_CAUSATION"
+      },
+      {
+        "sourceVolumeId": "VOL-02",
+        "sourceChapterId": "L448-02-01",
+        "targetVolumeId": "VOL-07",
+        "kind": "AUTHOR_DEFINED_CROSSLINK_NOT_HISTORICAL_CAUSATION"
+      },
+      {
+        "sourceVolumeId": "VOL-02",
+        "sourceChapterId": "L448-02-02",
+        "targetVolumeId": "VOL-01",
+        "kind": "AUTHOR_DEFINED_CROSSLINK_NOT_HISTORICAL_CAUSATION"
+      },
+      {
+        "sourceVolumeId": "VOL-02",
+        "sourceChapterId": "L448-02-02",
+        "targetVolumeId": "VOL-06",
+        "kind": "AUTHOR_DEFINED_CROSSLINK_NOT_HISTORICAL_CAUSATION"
+      },
+      {
+        "sourceVolumeId": "VOL-02",
+        "sourceChapterId": "L448-02-02",
+        "targetVolumeId": "VOL-08",
+        "kind": "AUTHOR_DEFINED_CROSSLINK_NOT_HISTORICAL_CAUSATION"
+      },
+      {
+        "sourceVolumeId": "VOL-02",
+        "sourceChapterId": "L448-02-03",
+        "targetVolumeId": "VOL-03",
+        "kind": "AUTHOR_DEFINED_CROSSLINK_NOT_HISTORICAL_CAUSATION"
+      },
+      {
+        "sourceVolumeId": "VOL-02",
+        "sourceChapterId": "L448-02-03",
+        "targetVolumeId": "VOL-05",
+        "kind": "AUTHOR_DEFINED_CROSSLINK_NOT_HISTORICAL_CAUSATION"
+      },
+      {
+        "sourceVolumeId": "VOL-03",
+        "sourceChapterId": "L448-03-01",
+        "targetVolumeId": "VOL-04",
+        "kind": "AUTHOR_DEFINED_CROSSLINK_NOT_HISTORICAL_CAUSATION"
+      },
+      {
+        "sourceVolumeId": "VOL-03",
+        "sourceChapterId": "L448-03-01",
+        "targetVolumeId": "VOL-08",
+        "kind": "AUTHOR_DEFINED_CROSSLINK_NOT_HISTORICAL_CAUSATION"
+      },
+      {
+        "sourceVolumeId": "VOL-03",
+        "sourceChapterId": "L448-03-02",
+        "targetVolumeId": "VOL-04",
+        "kind": "AUTHOR_DEFINED_CROSSLINK_NOT_HISTORICAL_CAUSATION"
+      },
+      {
+        "sourceVolumeId": "VOL-03",
+        "sourceChapterId": "L448-03-02",
+        "targetVolumeId": "VOL-08",
+        "kind": "AUTHOR_DEFINED_CROSSLINK_NOT_HISTORICAL_CAUSATION"
+      },
+      {
+        "sourceVolumeId": "VOL-03",
+        "sourceChapterId": "L448-03-03",
+        "targetVolumeId": "VOL-04",
+        "kind": "AUTHOR_DEFINED_CROSSLINK_NOT_HISTORICAL_CAUSATION"
+      },
+      {
+        "sourceVolumeId": "VOL-03",
+        "sourceChapterId": "L448-03-03",
+        "targetVolumeId": "VOL-05",
+        "kind": "AUTHOR_DEFINED_CROSSLINK_NOT_HISTORICAL_CAUSATION"
+      },
+      {
+        "sourceVolumeId": "VOL-03",
+        "sourceChapterId": "L448-03-03",
+        "targetVolumeId": "VOL-08",
+        "kind": "AUTHOR_DEFINED_CROSSLINK_NOT_HISTORICAL_CAUSATION"
+      },
+      {
+        "sourceVolumeId": "VOL-04",
+        "sourceChapterId": "L448-04-01",
+        "targetVolumeId": "VOL-03",
+        "kind": "AUTHOR_DEFINED_CROSSLINK_NOT_HISTORICAL_CAUSATION"
+      },
+      {
+        "sourceVolumeId": "VOL-04",
+        "sourceChapterId": "L448-04-01",
+        "targetVolumeId": "VOL-05",
+        "kind": "AUTHOR_DEFINED_CROSSLINK_NOT_HISTORICAL_CAUSATION"
+      },
+      {
+        "sourceVolumeId": "VOL-04",
+        "sourceChapterId": "L448-04-02",
+        "targetVolumeId": "VOL-03",
+        "kind": "AUTHOR_DEFINED_CROSSLINK_NOT_HISTORICAL_CAUSATION"
+      },
+      {
+        "sourceVolumeId": "VOL-04",
+        "sourceChapterId": "L448-04-02",
+        "targetVolumeId": "VOL-05",
+        "kind": "AUTHOR_DEFINED_CROSSLINK_NOT_HISTORICAL_CAUSATION"
+      },
+      {
+        "sourceVolumeId": "VOL-04",
+        "sourceChapterId": "L448-04-02",
+        "targetVolumeId": "VOL-08",
+        "kind": "AUTHOR_DEFINED_CROSSLINK_NOT_HISTORICAL_CAUSATION"
+      },
+      {
+        "sourceVolumeId": "VOL-04",
+        "sourceChapterId": "L448-04-03",
+        "targetVolumeId": "VOL-05",
+        "kind": "AUTHOR_DEFINED_CROSSLINK_NOT_HISTORICAL_CAUSATION"
+      },
+      {
+        "sourceVolumeId": "VOL-04",
+        "sourceChapterId": "L448-04-03",
+        "targetVolumeId": "VOL-08",
+        "kind": "AUTHOR_DEFINED_CROSSLINK_NOT_HISTORICAL_CAUSATION"
+      },
+      {
+        "sourceVolumeId": "VOL-05",
+        "sourceChapterId": "L448-05-01",
+        "targetVolumeId": "VOL-04",
+        "kind": "AUTHOR_DEFINED_CROSSLINK_NOT_HISTORICAL_CAUSATION"
+      },
+      {
+        "sourceVolumeId": "VOL-05",
+        "sourceChapterId": "L448-05-01",
+        "targetVolumeId": "VOL-06",
+        "kind": "AUTHOR_DEFINED_CROSSLINK_NOT_HISTORICAL_CAUSATION"
+      },
+      {
+        "sourceVolumeId": "VOL-05",
+        "sourceChapterId": "L448-05-01",
+        "targetVolumeId": "VOL-08",
+        "kind": "AUTHOR_DEFINED_CROSSLINK_NOT_HISTORICAL_CAUSATION"
+      },
+      {
+        "sourceVolumeId": "VOL-05",
+        "sourceChapterId": "L448-05-02",
+        "targetVolumeId": "VOL-04",
+        "kind": "AUTHOR_DEFINED_CROSSLINK_NOT_HISTORICAL_CAUSATION"
+      },
+      {
+        "sourceVolumeId": "VOL-05",
+        "sourceChapterId": "L448-05-02",
+        "targetVolumeId": "VOL-08",
+        "kind": "AUTHOR_DEFINED_CROSSLINK_NOT_HISTORICAL_CAUSATION"
+      },
+      {
+        "sourceVolumeId": "VOL-05",
+        "sourceChapterId": "L448-05-03",
+        "targetVolumeId": "VOL-06",
+        "kind": "AUTHOR_DEFINED_CROSSLINK_NOT_HISTORICAL_CAUSATION"
+      },
+      {
+        "sourceVolumeId": "VOL-05",
+        "sourceChapterId": "L448-05-03",
+        "targetVolumeId": "VOL-08",
+        "kind": "AUTHOR_DEFINED_CROSSLINK_NOT_HISTORICAL_CAUSATION"
+      },
+      {
+        "sourceVolumeId": "VOL-06",
+        "sourceChapterId": "L448-06-01",
+        "targetVolumeId": "VOL-05",
+        "kind": "AUTHOR_DEFINED_CROSSLINK_NOT_HISTORICAL_CAUSATION"
+      },
+      {
+        "sourceVolumeId": "VOL-06",
+        "sourceChapterId": "L448-06-01",
+        "targetVolumeId": "VOL-07",
+        "kind": "AUTHOR_DEFINED_CROSSLINK_NOT_HISTORICAL_CAUSATION"
+      },
+      {
+        "sourceVolumeId": "VOL-06",
+        "sourceChapterId": "L448-06-01",
+        "targetVolumeId": "VOL-08",
+        "kind": "AUTHOR_DEFINED_CROSSLINK_NOT_HISTORICAL_CAUSATION"
+      },
+      {
+        "sourceVolumeId": "VOL-06",
+        "sourceChapterId": "L448-06-02",
+        "targetVolumeId": "VOL-07",
+        "kind": "AUTHOR_DEFINED_CROSSLINK_NOT_HISTORICAL_CAUSATION"
+      },
+      {
+        "sourceVolumeId": "VOL-06",
+        "sourceChapterId": "L448-06-02",
+        "targetVolumeId": "VOL-08",
+        "kind": "AUTHOR_DEFINED_CROSSLINK_NOT_HISTORICAL_CAUSATION"
+      },
+      {
+        "sourceVolumeId": "VOL-06",
+        "sourceChapterId": "L448-06-03",
+        "targetVolumeId": "VOL-07",
+        "kind": "AUTHOR_DEFINED_CROSSLINK_NOT_HISTORICAL_CAUSATION"
+      },
+      {
+        "sourceVolumeId": "VOL-06",
+        "sourceChapterId": "L448-06-03",
+        "targetVolumeId": "VOL-08",
+        "kind": "AUTHOR_DEFINED_CROSSLINK_NOT_HISTORICAL_CAUSATION"
+      },
+      {
+        "sourceVolumeId": "VOL-07",
+        "sourceChapterId": "L448-07-01",
+        "targetVolumeId": "VOL-01",
+        "kind": "AUTHOR_DEFINED_CROSSLINK_NOT_HISTORICAL_CAUSATION"
+      },
+      {
+        "sourceVolumeId": "VOL-07",
+        "sourceChapterId": "L448-07-01",
+        "targetVolumeId": "VOL-02",
+        "kind": "AUTHOR_DEFINED_CROSSLINK_NOT_HISTORICAL_CAUSATION"
+      },
+      {
+        "sourceVolumeId": "VOL-07",
+        "sourceChapterId": "L448-07-01",
+        "targetVolumeId": "VOL-06",
+        "kind": "AUTHOR_DEFINED_CROSSLINK_NOT_HISTORICAL_CAUSATION"
+      },
+      {
+        "sourceVolumeId": "VOL-07",
+        "sourceChapterId": "L448-07-01",
+        "targetVolumeId": "VOL-08",
+        "kind": "AUTHOR_DEFINED_CROSSLINK_NOT_HISTORICAL_CAUSATION"
+      },
+      {
+        "sourceVolumeId": "VOL-07",
+        "sourceChapterId": "L448-07-02",
+        "targetVolumeId": "VOL-06",
+        "kind": "AUTHOR_DEFINED_CROSSLINK_NOT_HISTORICAL_CAUSATION"
+      },
+      {
+        "sourceVolumeId": "VOL-07",
+        "sourceChapterId": "L448-07-02",
+        "targetVolumeId": "VOL-08",
+        "kind": "AUTHOR_DEFINED_CROSSLINK_NOT_HISTORICAL_CAUSATION"
+      },
+      {
+        "sourceVolumeId": "VOL-07",
+        "sourceChapterId": "L448-07-03",
+        "targetVolumeId": "VOL-06",
+        "kind": "AUTHOR_DEFINED_CROSSLINK_NOT_HISTORICAL_CAUSATION"
+      },
+      {
+        "sourceVolumeId": "VOL-07",
+        "sourceChapterId": "L448-07-03",
+        "targetVolumeId": "VOL-08",
+        "kind": "AUTHOR_DEFINED_CROSSLINK_NOT_HISTORICAL_CAUSATION"
+      },
+      {
+        "sourceVolumeId": "VOL-08",
+        "sourceChapterId": "L448-08-01",
+        "targetVolumeId": "VOL-01",
+        "kind": "AUTHOR_DEFINED_CROSSLINK_NOT_HISTORICAL_CAUSATION"
+      },
+      {
+        "sourceVolumeId": "VOL-08",
+        "sourceChapterId": "L448-08-01",
+        "targetVolumeId": "VOL-03",
+        "kind": "AUTHOR_DEFINED_CROSSLINK_NOT_HISTORICAL_CAUSATION"
+      },
+      {
+        "sourceVolumeId": "VOL-08",
+        "sourceChapterId": "L448-08-01",
+        "targetVolumeId": "VOL-04",
+        "kind": "AUTHOR_DEFINED_CROSSLINK_NOT_HISTORICAL_CAUSATION"
+      },
+      {
+        "sourceVolumeId": "VOL-08",
+        "sourceChapterId": "L448-08-01",
+        "targetVolumeId": "VOL-05",
+        "kind": "AUTHOR_DEFINED_CROSSLINK_NOT_HISTORICAL_CAUSATION"
+      },
+      {
+        "sourceVolumeId": "VOL-08",
+        "sourceChapterId": "L448-08-01",
+        "targetVolumeId": "VOL-06",
+        "kind": "AUTHOR_DEFINED_CROSSLINK_NOT_HISTORICAL_CAUSATION"
+      },
+      {
+        "sourceVolumeId": "VOL-08",
+        "sourceChapterId": "L448-08-02",
+        "targetVolumeId": "VOL-03",
+        "kind": "AUTHOR_DEFINED_CROSSLINK_NOT_HISTORICAL_CAUSATION"
+      },
+      {
+        "sourceVolumeId": "VOL-08",
+        "sourceChapterId": "L448-08-02",
+        "targetVolumeId": "VOL-04",
+        "kind": "AUTHOR_DEFINED_CROSSLINK_NOT_HISTORICAL_CAUSATION"
+      },
+      {
+        "sourceVolumeId": "VOL-08",
+        "sourceChapterId": "L448-08-02",
+        "targetVolumeId": "VOL-05",
+        "kind": "AUTHOR_DEFINED_CROSSLINK_NOT_HISTORICAL_CAUSATION"
+      },
+      {
+        "sourceVolumeId": "VOL-08",
+        "sourceChapterId": "L448-08-02",
+        "targetVolumeId": "VOL-06",
+        "kind": "AUTHOR_DEFINED_CROSSLINK_NOT_HISTORICAL_CAUSATION"
+      },
+      {
+        "sourceVolumeId": "VOL-08",
+        "sourceChapterId": "L448-08-02",
+        "targetVolumeId": "VOL-07",
+        "kind": "AUTHOR_DEFINED_CROSSLINK_NOT_HISTORICAL_CAUSATION"
+      },
+      {
+        "sourceVolumeId": "VOL-08",
+        "sourceChapterId": "L448-08-03",
+        "targetVolumeId": "VOL-01",
+        "kind": "AUTHOR_DEFINED_CROSSLINK_NOT_HISTORICAL_CAUSATION"
+      },
+      {
+        "sourceVolumeId": "VOL-08",
+        "sourceChapterId": "L448-08-03",
+        "targetVolumeId": "VOL-02",
+        "kind": "AUTHOR_DEFINED_CROSSLINK_NOT_HISTORICAL_CAUSATION"
+      },
+      {
+        "sourceVolumeId": "VOL-08",
+        "sourceChapterId": "L448-08-03",
+        "targetVolumeId": "VOL-05",
+        "kind": "AUTHOR_DEFINED_CROSSLINK_NOT_HISTORICAL_CAUSATION"
+      },
+      {
+        "sourceVolumeId": "VOL-08",
+        "sourceChapterId": "L448-08-03",
+        "targetVolumeId": "VOL-06",
+        "kind": "AUTHOR_DEFINED_CROSSLINK_NOT_HISTORICAL_CAUSATION"
+      },
+      {
+        "sourceVolumeId": "VOL-08",
+        "sourceChapterId": "L448-08-03",
+        "targetVolumeId": "VOL-07",
+        "kind": "AUTHOR_DEFINED_CROSSLINK_NOT_HISTORICAL_CAUSATION"
+      }
+    ],
+    "themes": [
+      {
+        "id": "T1",
+        "name": "성경과 권위",
+        "chapterIds": [
+          "L448-03-02",
+          "L448-04-01",
+          "L448-07-02",
+          "L448-08-01"
+        ],
+        "question": "성경 해석과 기관의 권위는 누구의 언어·제도에서 작용했는가?",
+        "linkStatus": "RESEARCH_EDITORIAL_PROPOSAL_NOT_VALIDATED_BY_READERS",
+        "requiresHumanExpertReview": true
+      },
+      {
+        "id": "T2",
+        "name": "은총과 구원",
+        "chapterIds": [
+          "L448-04-02",
+          "L448-05-01",
+          "L448-08-01"
+        ],
+        "question": "칭의를 설명한 문서의 종류와 정의는 시대마다 어떻게 다른가?",
+        "linkStatus": "RESEARCH_EDITORIAL_PROPOSAL_NOT_VALIDATED_BY_READERS",
+        "requiresHumanExpertReview": true
+      },
+      {
+        "id": "T3",
+        "name": "성찬과 예배",
+        "chapterIds": [
+          "L448-03-02",
+          "L448-04-02",
+          "L448-05-01",
+          "L448-08-02"
+        ],
+        "question": "성찬의 견해와 이를 기록한 합의문·교령은 어떻게 구분되는가?",
+        "linkStatus": "RESEARCH_EDITORIAL_PROPOSAL_NOT_VALIDATED_BY_READERS",
+        "requiresHumanExpertReview": true
+      },
+      {
+        "id": "T4",
+        "name": "교회조직과 생활",
+        "chapterIds": [
+          "L448-01-03",
+          "L448-05-03",
+          "L448-06-01",
+          "L448-08-02"
+        ],
+        "question": "교회 결정과 지역의 교육·예배·실생활은 같은 속도로 변하는가?",
+        "linkStatus": "RESEARCH_EDITORIAL_PROPOSAL_NOT_VALIDATED_BY_READERS",
+        "requiresHumanExpertReview": true
+      },
+      {
+        "id": "T5",
+        "name": "국가·갈등·공존",
+        "chapterIds": [
+          "L448-01-02",
+          "L448-05-02",
+          "L448-07-03",
+          "L448-08-03"
+        ],
+        "question": "정치권력·법적 보호·개인의 신앙 실천은 누구에게 어떤 범위로 허용됐는가?",
+        "linkStatus": "RESEARCH_EDITORIAL_PROPOSAL_NOT_VALIDATED_BY_READERS",
+        "requiresHumanExpertReview": true
+      },
+      {
+        "id": "T6",
+        "name": "번역과 지역 수용",
+        "chapterIds": [
+          "L448-02-02",
+          "L448-06-02",
+          "L448-07-02",
+          "L448-08-03"
+        ],
+        "question": "번역·인쇄·전래의 날짜와 지역 주민의 해석·수용을 어떻게 구별할 것인가?",
+        "linkStatus": "RESEARCH_EDITORIAL_PROPOSAL_NOT_VALIDATED_BY_READERS",
+        "requiresHumanExpertReview": true
+      }
+    ],
+    "chapterIdCoverage": [
+      "L448-01-01",
+      "L448-01-02",
+      "L448-01-03",
+      "L448-02-01",
+      "L448-02-02",
+      "L448-02-03",
+      "L448-03-01",
+      "L448-03-02",
+      "L448-03-03",
+      "L448-04-01",
+      "L448-04-02",
+      "L448-04-03",
+      "L448-05-01",
+      "L448-05-02",
+      "L448-05-03",
+      "L448-06-01",
+      "L448-06-02",
+      "L448-06-03",
+      "L448-07-01",
+      "L448-07-02",
+      "L448-07-03",
+      "L448-08-01",
+      "L448-08-02",
+      "L448-08-03"
+    ]
+  },
+  "qualitativePriorities": [
+    {
+      "tier": "P0-REVIEW",
+      "name": "검증 위험 선해소",
+      "volumeIds": [
+        "VOL-06",
+        "VOL-07",
+        "VOL-03",
+        "VOL-04"
+      ],
+      "why": "기존 G443의 P0 전문 검토 항목이 이 네 권에 집중되어 있고, 인쇄·교파·기관자료의 판단이 역사 서술에 영향을 미친다.",
+      "outputs": [
+        "원본/편집본/후대 번역 구분 검토",
+        "보류 문장을 원고에서 적절히 한정",
+        "전문가 미승인 원문 보존"
+      ],
+      "humanApprovalsReceived": 0
+    },
+    {
+      "tier": "P1-DEPTH",
+      "name": "원전 연결이 있는 실제 L1 심화",
+      "volumeIds": [
+        "VOL-06",
+        "VOL-02",
+        "VOL-01",
+        "VOL-08"
+      ],
+      "why": "제2/1/6/8권의 통합 L1 본문은 1,405~1,604자로 짧고 핵심 주제의 자료 유형·독자 이해 연결을 더 설명해야 한다.",
+      "outputs": [
+        "원고 실제 보강",
+        "시기·원전과 수용 분리",
+        "각 장 하나의 확인 가능한 사료 대조장면"
+      ],
+      "humanApprovalsReceived": 0
+    },
+    {
+      "tier": "P2-CONNECT",
+      "name": "여덟 권의 독자 탐색 균형",
+      "volumeIds": [
+        "VOL-01",
+        "VOL-02",
+        "VOL-03",
+        "VOL-04",
+        "VOL-05",
+        "VOL-06",
+        "VOL-07",
+        "VOL-08"
+      ],
+      "why": "V4.50에 66개의 구조적 crossLinks가 있지만 독자가 사료와 함께 역사적 비교를 이해하는지는 검증되지 않았다.",
+      "outputs": [
+        "여섯 주제의 실제 장 경로 연결",
+        "L0→L1→근거로 돌아가기",
+        "정답 비공개·동의형 실제 독자 평가"
+      ],
+      "humanApprovalsReceived": 0
+    },
+    {
+      "tier": "P3-RELEASE-HOLD",
+      "name": "역사학자·권리·실제 독자 검증",
+      "volumeIds": [
+        "VOL-01",
+        "VOL-02",
+        "VOL-03",
+        "VOL-04",
+        "VOL-05",
+        "VOL-06",
+        "VOL-07",
+        "VOL-08"
+      ],
+      "why": "V4.44 B~G 게이트에 실제 승인 기록이 없으며 브라우저 테스트로 해제할 수 없다.",
+      "outputs": [
+        "고위험 주장 독립 역사 전문가 검토",
+        "권리 확인·실제 접근통제 확인",
+        "실제 독자의 검토 기록과 수정"
+      ],
+      "humanApprovalsReceived": 0
+    }
+  ],
+  "baselineCaveats": [
+    "No head-to-head scholarly peer review has occurred. Missing/heterogeneous source status must not be numerically treated as a verified claim.",
+    "L1 links are contextual URLs, not page-specific critical edition citations; URL count is a discovery metric only.",
+    "VOL04 and VOL05 V4.72–V4.77 special pilots are not automatically merged into this authoritative V4.47/V4.50 all-volume baseline.",
+    "The eight volumes include seven chronological volumes and one thematic comparative volume; VOL08 must not be plotted after VOL07 as a historical date.",
+    "Thematic paths and proposed priorities are editorial candidates, not historical claims signed off by specialists.",
+    "Source rights, actual reader study, historian approval, production authentication and app deployment are all unverified."
+  ],
+  "releaseGate": {
+    "canShip": false,
+    "canMergeMain": false,
+    "canImportAIStudio": false,
+    "canReleaseImages": false,
+    "expertApproved": false,
+    "readerValidated": false,
+    "rightsApproved": false,
+    "hostAccessVerified": false
+  },
+  "expertStatus": {
+    "pendingP0": [
+      {
+        "id": "G443-01",
+        "status": "NOT_SUBMITTED",
+        "volumes": [
+          "VOL-03",
+          "VOL-08"
+        ]
+      },
+      {
+        "id": "G443-02",
+        "status": "NOT_SUBMITTED",
+        "volumes": [
+          "VOL-04"
+        ]
+      },
+      {
+        "id": "G443-03",
+        "status": "NOT_SUBMITTED",
+        "volumes": [
+          "VOL-06"
+        ]
+      },
+      {
+        "id": "G443-04",
+        "status": "NOT_SUBMITTED",
+        "volumes": [
+          "VOL-07"
+        ]
+      },
+      {
+        "id": "G443-05",
+        "status": "NOT_SUBMITTED",
+        "volumes": [
+          "VOL-07"
+        ]
+      },
+      {
+        "id": "G443-06",
+        "status": "NOT_SUBMITTED",
+        "volumes": [
+          "VOL-07"
+        ]
+      },
+      {
+        "id": "G443-07",
+        "status": "NOT_SUBMITTED",
+        "volumes": [
+          "VOL-07"
+        ]
+      },
+      {
+        "id": "G443-08",
+        "status": "NOT_SUBMITTED",
+        "volumes": [
+          "VOL-03"
+        ]
+      }
+    ],
+    "pendingP1": [
+      {
+        "id": "G443-09",
+        "status": "NOT_SUBMITTED",
+        "volumes": [
+          "VOL-02"
+        ]
+      },
+      {
+        "id": "G443-10",
+        "status": "NOT_SUBMITTED",
+        "volumes": [
+          "VOL-05"
+        ]
+      },
+      {
+        "id": "G443-11",
+        "status": "NOT_SUBMITTED",
+        "volumes": [
+          "VOL-07"
+        ]
+      },
+      {
+        "id": "G443-12",
+        "status": "NOT_SUBMITTED",
+        "volumes": [
+          "VOL-08"
+        ]
+      }
+    ],
+    "actualExpertReviews": 0,
+    "actualReaderSessions": 0
+  }
+}
