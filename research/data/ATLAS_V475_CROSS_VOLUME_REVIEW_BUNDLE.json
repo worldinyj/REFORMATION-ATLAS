@@ -1,0 +1,865 @@
+{
+  "schema": "ATLAS_REVIEW_BUNDLE_V1",
+  "version": "4.75",
+  "created": "2026-11-21",
+  "stage": "RESEARCH_ONLY",
+  "identity": {
+    "project": "REFORMATION-ATLAS",
+    "volumeId": "VOL-04",
+    "chapterId": "L448-04-02",
+    "sceneId": "SCENE-REFORMATION-1529-1540",
+    "language": "ko",
+    "themeIds": [
+      "T415-01",
+      "T415-03"
+    ]
+  },
+  "provenance": {
+    "previousReaderPack": "research/data/ATLAS_V474_REACT_READER_PACK.json",
+    "readerPackGitBlobSha": "5aa03895785b74b0d941fb9985050135a78236cf",
+    "readerPilotOriginal": "research/data/ATLAS_V457_READER_PILOT_INSTRUMENT.json",
+    "readerPilotGitBlobSha": "0c59778b554e06e945144522d7036e9966d68c92",
+    "expertRegister": "research/data/ATLAS_V457_CLAIM_SOURCE_CRITICAL_REGISTER.json",
+    "expertRegisterGitBlobSha": "0de50d7e98ca6ce7668428e66b044531bb38c747"
+  },
+  "layers": [
+    {
+      "level": "L0",
+      "title": "V4.72 역사 개요",
+      "markdown": "1529년 가을, 독일 마르부르크에 마르틴 루터와 훌드리히 츠빙글리를 비롯한 개혁자들이 모였다. 헤센의 영주 필리프가 마련한 이 만남에는 신학적 갈등을 줄이려는 목적과 개혁 세력의 협력을 모색하는 정치적 배경이 함께 있었다. 참석자들은 10월 3일, 여러 신앙 문제에 관해 동의한 내용을 15개 조항으로 정리했다. [GA][GE]\n\n핵심 쟁점 가운데 하나는 마지막 제15조, 곧 성찬이었다. 그 조항에는 성찬에 관한 **공통 진술**도 포함되지만, 그리스도의 몸과 피가 빵과 포도주 가운데 **육체적으로 현존하는가**라는 문제에는 이견이 남았다. 문서는 차이가 사라졌다고 선언하는 대신, 서로 그리스도인의 사랑을 보이고 하나님께 이해를 구하자고 권한다. [GA]\n\n더 깊이 읽으면 문서 자체에 관한 질문도 생긴다. **1529년 취리히 인쇄본 W2119에는 미사를 다른 사람을 위한 은총 획득 수단으로 보는 관점에 반대하는 구절이 있는데, 여기서 대조한 GHDI 영어 번역 제15조에는 대응 구절이 나타나지 않는다.** 서로 다른 자료를 본 뒤 곧바로 누가 언제 문장을 추가했는지 결정할 수는 없다. 역사를 읽는 일은 ‘누가 옳았는가’를 묻는 동시에 ‘우리는 지금 어느 문서를 보고 있는가’를 묻는 일이기도 하다. [WP][GA][ZA]",
+      "sourceRefs": [
+        "GA",
+        "GE",
+        "WP",
+        "ZA"
+      ]
+    },
+    {
+      "level": "L1",
+      "title": "V4.72 역사 심화",
+      "markdown": "### 1. 대화는 신학적이었고 정치적이기도 했다\n\n헤센의 영주 필리프가 회담을 마련했다. 당시 루터와 츠빙글리 사이에는 성찬에 관한 신학적 이견이 있었고, 필리프에게는 개혁 세력의 연대를 강화하려는 정치적 관심도 있었다. 동시대 참가자 오시안더의 보고는 회담에서 오간 논쟁과 제후의 개입을 보여 주지만, **루터교 측 목격자의 관점**이라는 한계를 지닌다. 그의 설명이나 후대 역사가의 요약을 모든 참석자가 공유한 의도의 직접 기록으로 취급하지 않는다. [GE][SC]\n\n### 2. 제15조: 공통 고백·남은 이견·사랑의 권고\n\nGHDI가 제공하는 마르부르크 합의문 영어 번역에는 성찬을 그리스도의 참된 몸과 피의 성례로 받아들이는 공통 진술이 있다. 그러나 그 몸과 피가 빵과 포도주 안에 육체적으로 현존하는지에 대해서는 일치하지 못했다고 명시한다. 끝에서는 서로 그리스도인의 사랑을 보여 주고 하나님께 바른 이해를 간구하도록 권한다. **공통 진술, 남은 이견, 관계를 유지하려는 요청**은 제15조 안에 함께 존재한다. [GA]\n\n이 장면을 ‘제15조까지 완전히 합의했다’고 말하면 남은 교리 차이가 사라지고, ‘성찬에 대해서는 하나도 합의하지 못했다’고 말하면 이미 적힌 공통 고백이 사라진다. **이견의 지속과 문서상의 사랑의 권고를 곧바로 이후 교회 간의 실질적 화해 성립으로 동일시하지도 않는다.** [GA]\n\n### 3. 사료를 바꾸면 보이는 문장도 달라진다\n\n1529년 취리히에서 인쇄된 **VD16 W2119**의 제15조 활자본문(PDF 0기준 6쪽)에는 미사를 타인을 위한 은총 획득의 행위로 보는 견해를 거부하는 내용이 보인다. 그러나 GHDI 영어 번역의 제15조에는 그에 대응하는 문장이 없다. GHDI가 명시한 편집 저본은 1910년 바이마르판 *D. Martin Luthers Werke* 제30권 제3부(160–171쪽)다. **이 차이는 비교한 두 문헌에 나타나는 본문의 차이이지, 그 자체로 원본 필사본의 계통도를 완성하는 증거는 아니다.** [WP][GA]\n\n두 자료를 나란히 읽으면 독자가 확인할 수 있는 문장이 다르지만, 그 차이만으로 각 저본의 전승 관계를 확정할 수는 없다. 해당 문구가 정확히 누구의 손으로 어느 잎에 들어갔는지 판단하려면 **헤센 K와 취리히 Z의 서명 필사본 원본 지면을 별도로 확인**해야 한다. 현재 이 두 원본의 해당 글자는 직접 판독하지 않았다. [WP][GA][ZA]\n\n### 4. 같은 사건, 서로 다른 문헌 증인\n\n현재 기록관 목록으로 확인하는 서명 필사본은 **헤센 K**와 **취리히 Z**다. 취리히 기록관은 제7·13·15조의 추가 구절에 관해 두 필사본의 차이를 기술하고 있다. 이 기술은 공식 **서지·보존기록에서의 진술**이며, 이번 연구자가 서명 필사본의 필적·행갈이·문장 위치를 직접 교감했다는 뜻은 아니다. [ZA]\n\n1529년 취리히 인쇄본 W2119는 서명 필사본 K·Z와 별개의 인쇄 증인이며, 어느 필사본을 조판 저본으로 삼았는지는 아직 확정되지 않았다. 같은 인쇄본의 말미에 보이는 인쇄된 서명자 이름과 출판자의 콜로폰도 실제 자필 서명이 아니다. **필사 원본 → 당대 인쇄본 → 후대 학술편집본 → 현대 번역문**은 서로 다른 증거 유형이며, 각 연결고리는 따로 확인해야 한다. [WP][ZA][GA]\n\n### 5. 헤페 1847년과 1854년을 어떻게 설명할까\n\n19세기의 연구자 하인리히 헤페가 마르부르크 조항의 필사본 파크시밀리를 출판한 사실을 연구할 때도 판차를 분리해야 한다. **필립 샤프는 1847년 카셀 간행과 1854년 제2판을 구분해 서술했다.** 이 진술은 이전의 두 출판연도 불일치를 설명하는 중요한 후대 서지 근거다. 다만 지금까지 헤페의 **1847년·1854년 실물 표제지와 판권면을 나란히 대조하지 않았으므로**, ‘샤프의 제2판 기록을 확인했다’와 ‘실물의 제2판 표시를 직접 판독했다’는 다른 주장이다. [SC]\n\n### 6. 1530년 아우크스부르크로 이어 읽기\n\n마르부르크에서의 공통점과 남은 성찬 이견은 이후 개혁자들의 신학적 관계와 정치적 협력을 이해하는 한 배경이다. 그러나 1529년 제15조에서 1530년 아우크스부르크 신앙고백, 1531년 관련 인쇄본, 1540년 Variata의 제10조가 **하나의 직선적 필사 계보로 이어진다**고 서술할 수는 없다. 사건의 상호 연관성을 설명하되, 각 시점의 제출 문서·인쇄판·수정판의 물리적 동일성, 원문 표현과 인쇄 역사는 독립적으로 확인해야 한다. [SC][GR]",
+      "sourceRefs": [
+        "GA",
+        "GE",
+        "WP",
+        "ZA",
+        "SC",
+        "GR"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "id": "EVENT-MARBURG-1529",
+      "year": 1529,
+      "dateLabel": "1529년",
+      "title": "마르부르크 회담과 15개 조항",
+      "summary": "여러 신학적 공통점을 명시하면서도 제15조 성찬의 견해 차이를 모두 해결하지 못했다.",
+      "claimLimit": "제15조에 나타난 합의 부분도 설명해야 하며, 성찬론 전체가 한 문장으로 통일됐다고 말하지 않는다.",
+      "sourceRefs": [
+        "GA",
+        "GE",
+        "WP",
+        "ZA",
+        "SC"
+      ]
+    },
+    {
+      "id": "EVENT-AUGSBURG-1530",
+      "year": 1530,
+      "dateLabel": "1530년",
+      "title": "아우크스부르크 신앙고백 제출",
+      "summary": "제국회의에 제출된 신앙고백과 그 뒤 인쇄·재편집된 판본을 구분해 읽어야 한다.",
+      "claimLimit": "1530년 제출 문서와 당해 인쇄본을 동일 물체로 취급하지 않는다.",
+      "sourceRefs": [
+        "SC",
+        "GR"
+      ]
+    },
+    {
+      "id": "EVENT-AUGSBURG-1531",
+      "year": 1531,
+      "dateLabel": "1531년",
+      "title": "신앙고백과 변증서의 인쇄",
+      "summary": "제출·인쇄·변증서 작성·공간적 출판지는 개별 서지 기술로 확인한다.",
+      "claimLimit": "1531년의 모든 인쇄물을 한 교리적 이본으로 단정하지 않는다. 장소 표기는 사건의 주제이지 실물 인쇄 소재지 확정이 아니다.",
+      "sourceRefs": [
+        "SC",
+        "GR"
+      ]
+    },
+    {
+      "id": "EVENT-AUGSBURG-1540",
+      "year": 1540,
+      "dateLabel": "1540년",
+      "title": "Variata와 같은 해의 비Variata 인쇄본",
+      "summary": "1540년이라는 동일한 연도가 두 판본의 내용·이름이 같다는 뜻은 아니다.",
+      "claimLimit": "각 조항의 라틴어·독일어 직접 대조와 교파별 공식 수용은 아직 전문가 검토 전이다.",
+      "sourceRefs": [
+        "SC",
+        "GR"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "GA",
+      "title": "마르부르크 15개 조항 — 영어 편집 번역",
+      "sourceKind": "EDITED_TRANSLATION",
+      "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/the-marburg-colloquy-the-marburg-articles-1529",
+      "sourceLimit": "1910 WA 저본 영어 번역. 1529 서명 필사 원본 아님.",
+      "eventIds": [
+        "EVENT-MARBURG-1529"
+      ],
+      "verification": "PRELIMINARY_RESEARCH",
+      "rights": "LINK_ONLY_NO_IMAGE_REDISTRIBUTION"
+    },
+    {
+      "id": "GE",
+      "title": "오시안더의 동시대 보고",
+      "sourceKind": "LUTHERAN_EYEWITNESS_EDITED",
+      "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/the-marburg-colloquy-report-by-a-lutheran-eyewitness-1529",
+      "sourceLimit": "루터교 참가자의 관점. 모든 사람의 내적 의도를 대변하지 않음.",
+      "eventIds": [
+        "EVENT-MARBURG-1529"
+      ],
+      "verification": "PRELIMINARY_RESEARCH",
+      "rights": "LINK_ONLY_NO_IMAGE_REDISTRIBUTION"
+    },
+    {
+      "id": "WP",
+      "title": "취리히 1529년 인쇄본 W2119",
+      "sourceKind": "ORIGINAL_PRINT_SCAN",
+      "url": "https://www.e-rara.ch/zuz/download/pdf/170052",
+      "sourceLimit": "e-rara PDF 0기준 p6 제15조, p7 콜로폰. K/Z 자필 아님.",
+      "eventIds": [
+        "EVENT-MARBURG-1529"
+      ],
+      "verification": "PRELIMINARY_RESEARCH",
+      "rights": "LINK_ONLY_NO_IMAGE_REDISTRIBUTION"
+    },
+    {
+      "id": "ZA",
+      "title": "취리히 Z 서명본 공식 목록",
+      "sourceKind": "ARCHIVAL_CATALOGUE",
+      "url": "https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=618165",
+      "sourceLimit": "K/Z 추가문구에 대한 기관 기록. 제15조 친필 원본 미판독.",
+      "eventIds": [
+        "EVENT-MARBURG-1529"
+      ],
+      "verification": "PRELIMINARY_RESEARCH",
+      "rights": "LINK_ONLY_NO_IMAGE_REDISTRIBUTION"
+    },
+    {
+      "id": "SC",
+      "title": "필립 샤프의 역사·서지 연구",
+      "sourceKind": "HISTORICAL_BIBLIOGRAPHY",
+      "url": "https://www.ccel.org/ccel/schaff/hcc7.ii.vii.vii.html",
+      "sourceLimit": "1847 초판·1854 제2판 기술은 후대 학자의 주장. 실물 판권면 미검증.",
+      "eventIds": [
+        "EVENT-MARBURG-1529",
+        "EVENT-AUGSBURG-1530",
+        "EVENT-AUGSBURG-1531",
+        "EVENT-AUGSBURG-1540"
+      ],
+      "verification": "PRELIMINARY_RESEARCH",
+      "rights": "LINK_ONLY_NO_IMAGE_REDISTRIBUTION"
+    },
+    {
+      "id": "GR",
+      "title": "그루버 아우크스부르크 희귀본 목록",
+      "sourceKind": "RARE_BOOKS_CATALOGUE",
+      "url": "https://gruber.lstc.edu/confessions/augs_apol.php",
+      "sourceLimit": "1530·1531·1540 판본의 소장 기술. 라틴어 제10조 실물 교감 아님.",
+      "eventIds": [
+        "EVENT-AUGSBURG-1530",
+        "EVENT-AUGSBURG-1531",
+        "EVENT-AUGSBURG-1540"
+      ],
+      "verification": "PRELIMINARY_RESEARCH",
+      "rights": "LINK_ONLY_NO_IMAGE_REDISTRIBUTION"
+    }
+  ],
+  "comparisons": [
+    {
+      "id": "W2119",
+      "sourceId": "WP",
+      "label": "1529 취리히 W2119 인쇄본",
+      "observation": "미사와 타인 은총에 관한 구절이 인쇄됨",
+      "limitation": "서명 필사본 K/Z의 직접 판독 아님",
+      "originalAutographChecked": false
+    },
+    {
+      "id": "GHDI",
+      "sourceId": "GA",
+      "label": "GHDI 영어 번역 (WA 저본)",
+      "observation": "제15조에 해당 미사 구절이 보이지 않음",
+      "limitation": "1910년 학술 편집본에서 번역, 원본 자필 아님",
+      "originalAutographChecked": false
+    },
+    {
+      "id": "KZ",
+      "sourceId": "ZA",
+      "label": "1529 서명 필사본 K와 Z",
+      "observation": "기관 목록은 제7·13·15조의 문구 차이를 기록",
+      "limitation": "제15조 친필 원본 직접 판독 0/2, 필사 계보 HOLD",
+      "originalAutographChecked": false
+    }
+  ],
+  "expertReview": {
+    "claimCount": 14,
+    "highRiskCount": 10,
+    "reviewersEngaged": 0,
+    "actualDecisionsRecorded": 0,
+    "claims": [
+      {
+        "id": "V457-C01",
+        "eventId": "EVENT-MARBURG-1529",
+        "statement": "The fifteen Marburg Articles are dated 3 October 1529 and bear signatories.",
+        "risk": "LOW",
+        "sourceRegistryIds": [
+          "GHDI_MARBURG"
+        ],
+        "previewSourceIds": [
+          "GA"
+        ],
+        "externalContextIds": [],
+        "anchor": "Source header and signatories",
+        "expertQuestion": "Check original-date variants, signatories, and the wording of 'written and signed'.",
+        "evidenceLevel": "DIRECT_EDITED_PRIMARY_TRANSLATION",
+        "reviewer1": null,
+        "reviewer2": null,
+        "decision": "PENDING",
+        "expertApproved": false,
+        "requiredIndependentReviewers": 1
+      },
+      {
+        "id": "V457-C02",
+        "eventId": "EVENT-MARBURG-1529",
+        "statement": "The first fourteen articles contain shared positions; Article 15 also records agreement on parts of the Lord's Supper.",
+        "risk": "HIGH",
+        "sourceRegistryIds": [
+          "GHDI_MARBURG"
+        ],
+        "previewSourceIds": [
+          "GA"
+        ],
+        "externalContextIds": [],
+        "anchor": "Articles 1–15, especially first two sentences of 15",
+        "expertQuestion": "Verify how many distinct propositions in Article 15 were shared and avoid saying 'the fifteenth was entirely disputed'.",
+        "evidenceLevel": "DIRECT_EDITED_PRIMARY_TRANSLATION",
+        "reviewer1": null,
+        "reviewer2": null,
+        "decision": "PENDING",
+        "expertApproved": false,
+        "requiredIndependentReviewers": 2
+      },
+      {
+        "id": "V457-C03",
+        "eventId": "EVENT-MARBURG-1529",
+        "statement": "Article 15 explicitly leaves unresolved whether Christ's true body and blood are bodily present in bread and wine.",
+        "risk": "HIGH",
+        "sourceRegistryIds": [
+          "GHDI_MARBURG"
+        ],
+        "previewSourceIds": [
+          "GA"
+        ],
+        "externalContextIds": [],
+        "anchor": "Article 15 final section",
+        "expertQuestion": "Compare German wording of bodily presence and subsequent historiographic interpretation.",
+        "evidenceLevel": "DIRECT_EDITED_PRIMARY_TRANSLATION",
+        "reviewer1": null,
+        "reviewer2": null,
+        "decision": "PENDING",
+        "expertApproved": false,
+        "requiredIndependentReviewers": 2
+      },
+      {
+        "id": "V457-C04",
+        "eventId": "EVENT-MARBURG-1529",
+        "statement": "Article 15 calls for mutual Christian love and prayer despite the unresolved difference.",
+        "risk": "MEDIUM",
+        "sourceRegistryIds": [
+          "GHDI_MARBURG"
+        ],
+        "previewSourceIds": [
+          "GA"
+        ],
+        "externalContextIds": [],
+        "anchor": "Article 15 closing statement",
+        "expertQuestion": "Distinguish the text's exhortation from claims about historical reconciliation.",
+        "evidenceLevel": "DIRECT_EDITED_PRIMARY_TRANSLATION",
+        "reviewer1": null,
+        "reviewer2": null,
+        "decision": "PENDING",
+        "expertApproved": false,
+        "requiredIndependentReviewers": 1
+      },
+      {
+        "id": "V457-C05",
+        "eventId": "EVENT-AUGSBURG-1530",
+        "statement": "The Augsburg Confession was presented on 25 June 1530 at the Diet of Augsburg.",
+        "risk": "MEDIUM",
+        "sourceRegistryIds": [
+          "GRUBER_AUGSBURG"
+        ],
+        "previewSourceIds": [
+          "GR"
+        ],
+        "externalContextIds": [],
+        "anchor": "Introductory paragraph",
+        "expertQuestion": "Cross-check German/Latin presentation procedures and submitted document identity.",
+        "evidenceLevel": "INSTITUTIONAL_CATALOGUE_CONTEXT",
+        "reviewer1": null,
+        "reviewer2": null,
+        "decision": "PENDING",
+        "expertApproved": false,
+        "requiredIndependentReviewers": 1
+      },
+      {
+        "id": "V457-C06",
+        "eventId": "EVENT-AUGSBURG-1530",
+        "statement": "A confession submitted at the 1530 Diet should not be treated as an identical physical object to 1530 printed copies.",
+        "risk": "HIGH",
+        "sourceRegistryIds": [
+          "GRUBER_AUGSBURG"
+        ],
+        "previewSourceIds": [
+          "GR"
+        ],
+        "externalContextIds": [],
+        "anchor": "Introductory paragraph; Gruber 162, 163, 175",
+        "expertQuestion": "Check surviving presentation manuscripts versus known 1530 copies; discriminate physical exemplar from text.",
+        "evidenceLevel": "BIBLIOGRAPHIC_INFERENCE",
+        "reviewer1": null,
+        "reviewer2": null,
+        "decision": "PENDING",
+        "expertApproved": false,
+        "requiredIndependentReviewers": 2
+      },
+      {
+        "id": "V457-C07",
+        "eventId": "EVENT-AUGSBURG-1530",
+        "statement": "The Gruber catalogue reports six German and one Latin unauthorized 1530 editions.",
+        "risk": "MEDIUM",
+        "sourceRegistryIds": [
+          "GRUBER_AUGSBURG"
+        ],
+        "previewSourceIds": [
+          "GR"
+        ],
+        "externalContextIds": [],
+        "anchor": "Introductory paragraph",
+        "expertQuestion": "Verify edition count, what counts as an edition, and whether wording 'unofficial' is justified.",
+        "evidenceLevel": "INSTITUTIONAL_CATALOGUE_CONTEXT",
+        "reviewer1": null,
+        "reviewer2": null,
+        "decision": "PENDING",
+        "expertApproved": false,
+        "requiredIndependentReviewers": 1
+      },
+      {
+        "id": "V457-C08",
+        "eventId": "EVENT-AUGSBURG-1531",
+        "statement": "The Gruber catalogue identifies 1531 printings containing the Augsburg Confession and its Apology, separately in Latin and German.",
+        "risk": "HIGH",
+        "sourceRegistryIds": [
+          "GRUBER_AUGSBURG"
+        ],
+        "previewSourceIds": [
+          "GR"
+        ],
+        "externalContextIds": [],
+        "anchor": "Gruber 43/7/46/26",
+        "expertQuestion": "Identify edition chronology and distinguish individual 1531 imprints and translations.",
+        "evidenceLevel": "INSTITUTIONAL_ITEM_DESCRIPTION",
+        "reviewer1": null,
+        "reviewer2": null,
+        "decision": "PENDING",
+        "expertApproved": false,
+        "requiredIndependentReviewers": 2
+      },
+      {
+        "id": "V457-C09",
+        "eventId": "EVENT-AUGSBURG-1531",
+        "statement": "The 1531 event's Augsburg place label is topical and must not be represented as the confirmed place of printing for all copies.",
+        "risk": "HIGH",
+        "sourceRegistryIds": [
+          "GRUBER_AUGSBURG"
+        ],
+        "previewSourceIds": [
+          "GR"
+        ],
+        "externalContextIds": [],
+        "anchor": "Gruber 46 Witebergae imprint; Gruber 7 November colophon",
+        "expertQuestion": "Verify original imprint places by physical-object catalogue and adjust UI label if misunderstood.",
+        "evidenceLevel": "BIBLIOGRAPHIC_INFERENCE",
+        "reviewer1": null,
+        "reviewer2": null,
+        "decision": "PENDING",
+        "expertApproved": false,
+        "requiredIndependentReviewers": 2
+      },
+      {
+        "id": "V457-C10",
+        "eventId": "EVENT-AUGSBURG-1540",
+        "statement": "Gruber 28 is identified as a 1540 Variata edition with a changed formulation of Article X on the Lord's Supper.",
+        "risk": "HIGH",
+        "sourceRegistryIds": [
+          "GRUBER_AUGSBURG"
+        ],
+        "previewSourceIds": [
+          "GR"
+        ],
+        "externalContextIds": [],
+        "anchor": "Gruber 28 and Article X discussion",
+        "expertQuestion": "Collate Latin wording across 1531, 1540 and confession edition; document changes precisely.",
+        "evidenceLevel": "INSTITUTIONAL_ITEM_DESCRIPTION",
+        "reviewer1": null,
+        "reviewer2": null,
+        "decision": "PENDING",
+        "expertApproved": false,
+        "requiredIndependentReviewers": 2
+      },
+      {
+        "id": "V457-C11",
+        "eventId": "EVENT-AUGSBURG-1540",
+        "statement": "The Gruber catalogue also describes a 1540 copy it explicitly says is not Variata.",
+        "risk": "HIGH",
+        "sourceRegistryIds": [
+          "GRUBER_AUGSBURG"
+        ],
+        "previewSourceIds": [
+          "GR"
+        ],
+        "externalContextIds": [],
+        "anchor": "Paragraph following the Gruber 28 entry; item number not identified there",
+        "expertQuestion": "Recover the specific item number/imprint and confirm whether the two 1540 works are separate physical items and which texts were compared.",
+        "evidenceLevel": "INSTITUTIONAL_ITEM_DESCRIPTION",
+        "reviewer1": null,
+        "reviewer2": null,
+        "decision": "PENDING",
+        "expertApproved": false,
+        "requiredIndependentReviewers": 2
+      },
+      {
+        "id": "V457-C12",
+        "eventId": null,
+        "statement": "An edited/translated Marburg document and a rare-book collection catalogue provide different types of evidence; neither alone completes a direct original-copy collation.",
+        "risk": "HIGH",
+        "sourceRegistryIds": [
+          "GHDI_MARBURG",
+          "GRUBER_AUGSBURG"
+        ],
+        "previewSourceIds": [
+          "GA",
+          "GR"
+        ],
+        "externalContextIds": [],
+        "anchor": "GHDI source/translator colophon versus Gruber item descriptions",
+        "expertQuestion": "Ensure UI distinguishes manuscript witness, print, editorial translation, holdings description, and own summary.",
+        "evidenceLevel": "SOURCE_CRITICISM",
+        "reviewer1": null,
+        "reviewer2": null,
+        "decision": "PENDING",
+        "expertApproved": false,
+        "requiredIndependentReviewers": 2
+      },
+      {
+        "id": "V457-C13",
+        "eventId": "EVENT-AUGSBURG-1540",
+        "statement": "Do not infer all Lutheran/Reformed confessional acceptance of the 1540 Variata solely from item descriptions.",
+        "risk": "HIGH",
+        "sourceRegistryIds": [
+          "GRUBER_AUGSBURG",
+          "BOC_HISTORY"
+        ],
+        "previewSourceIds": [
+          "GR"
+        ],
+        "externalContextIds": [
+          "BOC_HISTORY"
+        ],
+        "anchor": "Gruber 28 and later confession-history interpretation",
+        "expertQuestion": "Review 1540/1580 reception with multiple modern scholarly sources and differentiate later confessional positions.",
+        "evidenceLevel": "INTERPRETIVE_NEGATIVE_CLAIM",
+        "reviewer1": null,
+        "reviewer2": null,
+        "decision": "PENDING",
+        "expertApproved": false,
+        "requiredIndependentReviewers": 2
+      },
+      {
+        "id": "V457-C14",
+        "eventId": "EVENT-AUGSBURG-1540",
+        "statement": "The Gruber description's claim of compromise with 'Calvinists' is a retrospective interpretive label, not a 1540 self-description that can be copied verbatim into the UI.",
+        "risk": "HIGH",
+        "sourceRegistryIds": [
+          "GRUBER_AUGSBURG"
+        ],
+        "previewSourceIds": [
+          "GR"
+        ],
+        "externalContextIds": [],
+        "anchor": "Gruber 28 explanation",
+        "expertQuestion": "Confirm chronology and historiographic appropriateness of labeling 1540 interlocutors 'Calvinists'.",
+        "evidenceLevel": "EDITORIAL_LANGUAGE_CAUTION",
+        "reviewer1": null,
+        "reviewer2": null,
+        "decision": "PENDING",
+        "expertApproved": false,
+        "requiredIndependentReviewers": 2
+      }
+    ],
+    "reviewForm": "integrations/atlas-flagship-phase1/V475_HISTORIAN_SOURCE_REVIEW_DOSSIER_KO.md"
+  },
+  "participant": {
+    "state": "NOT_RECRUITED_NOT_ADMINISTERED",
+    "estimatedDurationMinutes": 12,
+    "minimumParticipants": 6,
+    "targetParticipants": 8,
+    "tasks": [
+      {
+        "id": "TASK-01",
+        "title": "합의와 미합의 읽기",
+        "timeLimitMinutes": 4,
+        "entryAction": "1529년 사건 선택 → L1 역사적 해설 → 제15조 내용 읽기",
+        "goal": "제15조의 공통 사항과 남은 쟁점을 분리하여 말할 수 있다",
+        "questionIds": [
+          "Q01",
+          "Q02",
+          "Q03"
+        ]
+      },
+      {
+        "id": "TASK-02",
+        "title": "제출·출판·이본 구별",
+        "timeLimitMinutes": 4,
+        "entryAction": "1530·1531·1540년 연표 이동 → 판본 비교 열기",
+        "goal": "연도와 물리적 인쇄본/이본을 일치시키지 않고 구별한다",
+        "questionIds": [
+          "Q04",
+          "Q05",
+          "Q06"
+        ]
+      },
+      {
+        "id": "TASK-03",
+        "title": "사료 종류와 증거 한계 확인",
+        "timeLimitMinutes": 4,
+        "entryAction": "1529년 사건 → [GA][WP][ZA] 카드와 1540년 사건 → [GR] 카드 비교",
+        "goal": "편집 번역 사료와 희귀본 목록의 증거 능력·한계를 구별한다",
+        "questionIds": [
+          "Q07",
+          "Q08",
+          "Q09"
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "id": "Q01",
+        "taskId": "TASK-01",
+        "type": "SINGLE_CHOICE",
+        "prompt": "마르부르크 회담에 관한 설명으로 가장 적절한 것은?",
+        "choices": [
+          {
+            "id": "A",
+            "text": "성찬론을 포함한 모든 사안에 완전 합의했다"
+          },
+          {
+            "id": "B",
+            "text": "여러 조항에 동의했지만 성찬의 현존 방식에는 미합의가 남았다"
+          },
+          {
+            "id": "C",
+            "text": "성찬 이외의 신학 문제는 하나도 논의하지 않았다"
+          },
+          {
+            "id": "D",
+            "text": "회담에서 아우크스부르크 신앙고백을 최종 확정했다"
+          }
+        ]
+      },
+      {
+        "id": "Q02",
+        "taskId": "TASK-01",
+        "type": "SINGLE_CHOICE",
+        "prompt": "마르부르크 제15조에 관한 설명으로 옳은 것은?",
+        "choices": [
+          {
+            "id": "A",
+            "text": "제15조는 성찬에 관한 모든 공통 진술을 부인했다"
+          },
+          {
+            "id": "B",
+            "text": "제15조는 이듬해 신앙고백의 인쇄 규격을 정했다"
+          },
+          {
+            "id": "C",
+            "text": "제15조 안에도 공통 진술이 있고, 신체적 임재 문제에는 이견을 기록했다"
+          },
+          {
+            "id": "D",
+            "text": "제15조는 1540년 Variata를 승인했다"
+          }
+        ]
+      },
+      {
+        "id": "Q03",
+        "taskId": "TASK-01",
+        "type": "SINGLE_CHOICE",
+        "prompt": "다음 중 자료가 허용하지 않는 과도한 해석은?",
+        "choices": [
+          {
+            "id": "A",
+            "text": "회담 후에도 이해 차이가 지속되었다"
+          },
+          {
+            "id": "B",
+            "text": "모든 개혁자가 성찬을 단순한 상징으로만 보았다고 단정한다"
+          },
+          {
+            "id": "C",
+            "text": "제15조에 상호 배려를 권하는 내용이 있다"
+          },
+          {
+            "id": "D",
+            "text": "공동 합의문에는 신학적 공통점이 기록됐다"
+          }
+        ]
+      },
+      {
+        "id": "Q04",
+        "taskId": "TASK-02",
+        "type": "SINGLE_CHOICE",
+        "prompt": "1530년과 1531년을 구별하는 핵심은?",
+        "choices": [
+          {
+            "id": "A",
+            "text": "1530년 제국회의에서 신앙고백을 제출했고 1531년에는 신앙고백·변증서의 인쇄가 이어졌다"
+          },
+          {
+            "id": "B",
+            "text": "1530년에 Variata가 먼저 인쇄됐고 1531년에 마르부르크 회담이 열렸다"
+          },
+          {
+            "id": "C",
+            "text": "두 연도는 동일한 책의 다른 표지 색을 가리킨다"
+          },
+          {
+            "id": "D",
+            "text": "1531년에는 어떤 신앙고백도 인쇄되지 않았다"
+          }
+        ]
+      },
+      {
+        "id": "Q05",
+        "taskId": "TASK-02",
+        "type": "SINGLE_CHOICE",
+        "prompt": "1540년 Variata와 비Variata 인쇄본을 보고 올바르게 추론한 것은?",
+        "choices": [
+          {
+            "id": "A",
+            "text": "인쇄 연도가 같다면 내용이 완전히 동일하다"
+          },
+          {
+            "id": "B",
+            "text": "비Variata는 1530년 이전에만 나타난다"
+          },
+          {
+            "id": "C",
+            "text": "같은 1540년 인쇄물이라도 본문 계통이 다를 수 있다"
+          },
+          {
+            "id": "D",
+            "text": "Variata는 마르부르크 회담의 서명록이다"
+          }
+        ]
+      },
+      {
+        "id": "Q06",
+        "taskId": "TASK-02",
+        "type": "SINGLE_CHOICE",
+        "prompt": "1530년 제국회의 제출본과 인쇄본의 관계를 볼 때 피해야 할 것은?",
+        "choices": [
+          {
+            "id": "A",
+            "text": "제출·인쇄 시점을 각각 확인한다"
+          },
+          {
+            "id": "B",
+            "text": "제출 문서와 1530년의 모든 인쇄본을 동일한 물리적 실물로 취급한다"
+          },
+          {
+            "id": "C",
+            "text": "판본별 인쇄 사항을 대조한다"
+          },
+          {
+            "id": "D",
+            "text": "신앙고백과 변증서를 구분한다"
+          }
+        ]
+      },
+      {
+        "id": "Q07",
+        "taskId": "TASK-03",
+        "type": "SINGLE_CHOICE",
+        "prompt": "German History in Documents and Images에 수록된 마르부르크 자료의 유형은?",
+        "choices": [
+          {
+            "id": "A",
+            "text": "당대 문서를 후대에 편집·영어 번역하여 공개한 사료 자료"
+          },
+          {
+            "id": "B",
+            "text": "1540년 판본 실물의 완전한 과학적 교감"
+          },
+          {
+            "id": "C",
+            "text": "오늘날 교회들의 공동 공식 교리문"
+          },
+          {
+            "id": "D",
+            "text": "당시 회담장 녹음 파일"
+          }
+        ]
+      },
+      {
+        "id": "Q08",
+        "taskId": "TASK-03",
+        "type": "SINGLE_CHOICE",
+        "prompt": "Gruber 희귀본 컬렉션 목록에서 직접 확인할 수 있는 것은?",
+        "choices": [
+          {
+            "id": "A",
+            "text": "참여한 모든 교파의 16세기 공식 수용 입장"
+          },
+          {
+            "id": "B",
+            "text": "실물의 모든 문장에 대한 비판적 대조판"
+          },
+          {
+            "id": "C",
+            "text": "소장본의 인쇄 연도·서명·판본과 같은 서지 기술"
+          },
+          {
+            "id": "D",
+            "text": "1529년 회담의 발언 녹취"
+          }
+        ]
+      },
+      {
+        "id": "Q09",
+        "taskId": "TASK-03",
+        "type": "SINGLE_CHOICE",
+        "prompt": "현재 시범 화면의 여러 사료 카드만으로 확정할 수 없는 주장은?",
+        "choices": [
+          {
+            "id": "A",
+            "text": "마르부르크 회담에 공통점과 불일치가 함께 기록되어 있다는 설명"
+          },
+          {
+            "id": "B",
+            "text": "1530·1531·1540년 모든 전승본의 원문을 완전 대조했고 학계가 승인했다는 선언"
+          },
+          {
+            "id": "C",
+            "text": "일부 1540년 소장본이 Variata로 설명된다는 사실"
+          },
+          {
+            "id": "D",
+            "text": "그루버 목록이 희귀본의 소장 정보를 제공한다는 설명"
+          }
+        ]
+      }
+    ],
+    "participantSheet": "integrations/atlas-flagship-phase1/V475_READER_PILOT_WORKSHEET.html",
+    "scoringThresholds": {
+      "correctAtLeast": 7,
+      "criticalCorrectAtLeast": 6,
+      "completedAllThreeTasks": true,
+      "minParticipants": 6,
+      "passRate": 0.8,
+      "taskCompletionRate": 0.8,
+      "repeatCriticalMisconceptionThreshold": 2
+    },
+    "actualParticipants": 0,
+    "actualSessions": 0,
+    "responseCollectionEnabled": false,
+    "assessmentKeysIncluded": false,
+    "provenanceWarning": "Legacy V4.57 JSON in public GitHub contains answer keys; sheet omits keys but assessment cannot be claimed blind without controlled distribution."
+  },
+  "unresolved": [
+    {
+      "id": "HOLD-KZ",
+      "severity": "HIGH",
+      "description": "K/Z signed Article 15 manuscript leaves have not been directly read",
+      "sourceIds": [
+        "ZA"
+      ],
+      "clearance": "ORIGINAL_IMAGE_AND_EXPERT_REVIEW"
+    },
+    {
+      "id": "HOLD-1531-1540",
+      "severity": "HIGH",
+      "description": "1531/1540 Latin Article X original pages not yet directly collated",
+      "sourceIds": [
+        "GR"
+      ],
+      "clearance": "DIRECT_WITNESS_COLLATION"
+    },
+    {
+      "id": "HOLD-W2119-WA",
+      "severity": "HIGH",
+      "description": "Printed W2119 vs later WA/GHDI text gap not enough to prove autograph stemma",
+      "sourceIds": [
+        "WP",
+        "GA"
+      ],
+      "clearance": "TEXTUAL_HISTORY_REVIEW"
+    },
+    {
+      "id": "HOLD-HEPPE",
+      "severity": "MEDIUM",
+      "description": "Heppe 1847/1854 real imprint pages have not been compared",
+      "sourceIds": [
+        "SC"
+      ],
+      "clearance": "TITLE_PAGE_AND_IMPRINT_CHECK"
+    },
+    {
+      "id": "HOLD-HUMAN",
+      "severity": "HIGH",
+      "description": "Independent historian and reader studies unperformed",
+      "sourceIds": [
+        "GA",
+        "GR"
+      ],
+      "clearance": "HUMAN_REVIEW"
+    }
+  ],
+  "privacy": {
+    "publicRepo": true,
+    "answersCollected": false,
+    "externalEmailsSent": 0,
+    "actualExpertReviews": 0,
+    "actualReaderSessions": 0,
+    "containsIdentifiableParticipants": false,
+    "containsLicensedImages": false,
+    "requiresSeparateVoluntaryConsent": true,
+    "legacyAnswerKeyInPublicRepo": true,
+    "blindPilotClaimPermitted": false
+  },
+  "releaseGate": {
+    "canShip": false,
+    "canMergeMain": false,
+    "canImportAIStudio": false,
+    "expertApproved": false,
+    "readerValidated": false,
+    "rightsApproved": false,
+    "hostAccessVerified": false
+  },
+  "next": "Conduct qualified expert historical review, separate participant and moderator answer keys, collect voluntary actual reader results, audit access/rights; keep research-only until then."
+}
