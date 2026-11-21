@@ -1,0 +1,107 @@
+{
+  "schema": "ATLAS_V477_CROSS_VOLUME_READING_LINKS_V1",
+  "version": "4.77",
+  "created": "2026-11-21",
+  "project": "REFORMATION-ATLAS",
+  "state": "RESEARCH_ONLY",
+  "bundlePaths": [
+    "research/data/ATLAS_V475_CROSS_VOLUME_REVIEW_BUNDLE.json",
+    "research/data/ATLAS_V476_VOL05_REVIEW_BUNDLE.json"
+  ],
+  "visualOrder": [
+    "VOL-04",
+    "VOL-05"
+  ],
+  "releaseGate": {
+    "canShip": false,
+    "canMergeMain": false,
+    "canImportAIStudio": false,
+    "expertApproved": false,
+    "readerValidated": false,
+    "rightsApproved": false,
+    "hostAccessVerified": false
+  },
+  "editorialComparisons": [
+    {
+      "id": "CV-PATH-EUCHARIST",
+      "title": "성찬의 질문: 1529년 마르부르크와 1551년 트리엔트",
+      "theme": "EUCHARISTIC_THEOLOGY",
+      "from": {
+        "volumeId": "VOL-04",
+        "eventId": "EVENT-MARBURG-1529",
+        "sourceIds": [
+          "GA",
+          "WP"
+        ]
+      },
+      "to": {
+        "volumeId": "VOL-05",
+        "eventId": "V5-1551",
+        "sourceIds": [
+          "TE",
+          "TC"
+        ]
+      },
+      "invitation": "1529년 마르부르크에서는 성찬에 관해 공통 고백과 남은 이견을 기록했다. 1551년 트리엔트는 가톨릭의 성찬 현존 및 화체 교리를 정리했다.",
+      "caution": "신학적 질문을 비교할 수 있지만 두 문서는 서로 다른 시기·교파적 권위·문헌 전승에 속한다. 제13회기가 1529년 제15조를 직접 수정했다고 주장하지 않는다.",
+      "interpretationStatus": "UNREVIEWED_COMPARATIVE_EDITORIAL_LINK",
+      "expertApproved": false
+    },
+    {
+      "id": "CV-PATH-JUSTIFICATION",
+      "title": "칭의의 언어: 1530년 신앙고백과 1547년 공의회",
+      "theme": "JUSTIFICATION_AND_CONFESSION",
+      "from": {
+        "volumeId": "VOL-04",
+        "eventId": "EVENT-AUGSBURG-1530",
+        "sourceIds": [
+          "GR",
+          "SC"
+        ]
+      },
+      "to": {
+        "volumeId": "VOL-05",
+        "eventId": "V5-1547",
+        "sourceIds": [
+          "TG",
+          "TC"
+        ]
+      },
+      "invitation": "1530년 아우크스부르크 신앙고백의 제출 맥락에서 1547년 트리엔트 제6회기 칭의 교령으로 이동하며 서로 다른 신앙고백·공의회 문서의 목적을 비교한다.",
+      "caution": "두 권의 사료는 서지 목록과 후대 번역·학술 해설에 의존하는 범위가 있다. 각 교리의 원어 문구를 대조·승인하거나 직접적인 문헌 계보를 입증한 경로가 아니다.",
+      "interpretationStatus": "UNREVIEWED_COMPARATIVE_EDITORIAL_LINK",
+      "expertApproved": false
+    },
+    {
+      "id": "CV-PATH-1540",
+      "title": "같은 1540년, 서로 다른 개혁의 시간",
+      "theme": "PARALLEL_REFORM_CHRONOLOGY",
+      "from": {
+        "volumeId": "VOL-04",
+        "eventId": "EVENT-AUGSBURG-1540",
+        "sourceIds": [
+          "GR",
+          "SC"
+        ]
+      },
+      "to": {
+        "volumeId": "VOL-05",
+        "eventId": "V5-1540",
+        "sourceIds": [
+          "TJ",
+          "TC"
+        ]
+      },
+      "invitation": "1540년 아우크스부르크 신앙고백 Variata 인쇄의 역사를 살피고, 같은 해 예수회의 교황 인준이 가톨릭 개혁에서 차지한 별도의 역할을 비교한다.",
+      "caution": "같은 연도라는 사실만으로 두 문서·단체가 직접 서로를 원인으로 만들었다는 인과를 추론하지 않는다. 1530·1540 판본의 원문 비교와 1540년 교황 칙서 직접 교감도 미완료다.",
+      "interpretationStatus": "UNREVIEWED_COMPARATIVE_EDITORIAL_LINK",
+      "expertApproved": false
+    }
+  ],
+  "actualReaderParticipants": 0,
+  "actualExpertApprovals": 0,
+  "emailsSent": 0,
+  "operatingAppModified": false,
+  "mainModified": false,
+  "caveat": "Curated navigation demonstrates research literacy, not historian approval, document stemma or actual human evaluation."
+}
