@@ -1,0 +1,199 @@
+{
+  "schema": "ATLAS_V502_INDIGENOUS_WITNESSES_EVIDENCE_AND_REVISION",
+  "version": "V5.02",
+  "date": "2026-11-22",
+  "branch": "research/atlas-v502-indigenous-witness-critical-review",
+  "status": "THREE_REVISED_FIVE_TOTAL_NO_CANONICAL_PROMOTION",
+  "can_ship": false,
+  "can_merge_main": false,
+  "can_import_ai_studio": false,
+  "source_objects": {
+    "prior": {
+      "path": "research/data/V501_FIVE_LOCAL_VOICES_EDITORIAL_STAGING.json",
+      "branch": "research/atlas-v502-indigenous-witness-critical-review",
+      "sha": "6023000218a263c1670722f6ee70e0aa6beea172"
+    },
+    "original": {
+      "path": "docs/01_CONTENT/L1/V501_LATIN_AMERICA_PACIFIC_LOCAL_VOICES_DRAFT_KO.md",
+      "branch": "research/atlas-v502-indigenous-witness-critical-review",
+      "sha": "c2470b08d5c33afc3f42b6608df0a5777618511f"
+    },
+    "revised": {
+      "path": "docs/01_CONTENT/L1/V502_FIVE_LOCAL_VOICES_WITNESS_CORRECTED_EDITION_KO.md",
+      "branch": "research/atlas-v502-indigenous-witness-critical-review",
+      "sha": "e77c5cff5f1e2c110803455f957adcc3c10bc2ee"
+    },
+    "study": {
+      "path": "docs/01_CONTENT/L1/V502_INDIGENOUS_PRIMARY_WITNESS_THREE_CASES_KO.md",
+      "branch": "research/atlas-v502-indigenous-witness-critical-review",
+      "sha": "43c1539fd94e7cf7f2e7c61eff5fad817e6cf96b"
+    },
+    "master": {
+      "path": "research/data/V500_EIGHT_VOLUME_24_CHAPTER_EDITORIAL_REVIEW_CANDIDATE.json",
+      "branch": "research/atlas-v502-indigenous-witness-critical-review",
+      "sha": "5e3db4f82511ca57b971b1f5811cbca35a33476c"
+    }
+  },
+  "counts": {
+    "five_cases": 5,
+    "changed": 3,
+    "unmodified": 2,
+    "base_chapters": 24,
+    "changed_original_chapters": 0,
+    "source_refs_added": 6,
+    "historian_signoff": 0,
+    "actual_reader_tests": 0,
+    "app_end_to_end_tests": 0
+  },
+  "cases": [
+    {
+      "case_id": "V501-LA-01",
+      "title": "안데스의 한 기독교인이 식민 통치를 비판하다 — 과만 포마와 '나쁜 고해'",
+      "primary_chapter_id": "L448-07-03",
+      "context_chapter_ids": [
+        "L448-05-03"
+      ],
+      "changed": true,
+      "original_section_characters": 3019,
+      "new_section_characters": 3652,
+      "added_evidence": [
+        {
+          "key": "INDIANA-576-590",
+          "url": "https://dspace.stir.ac.uk/retrieve/64076d8d-ac13-440d-a2a6-7b5b4c930a34/Ind_35-2_009-027_Dedenbach%20Intro%202018%20%28published%20IP%2011-12-18%29.pdf",
+          "locator": "Indiana 35.2 (2018), print p.13, PDF page index 4, Figure 1, folio 576 [590]",
+          "evidenceLevel": "FACSIMILE_REPRODUCTION_VISIBLE_IN_PEER_REVIEWED_PDF"
+        }
+      ],
+      "review_status": "SOURCE_CRITICAL_RESEARCH_DRAFT",
+      "can_ship": false
+    },
+    {
+      "case_id": "V501-LA-02",
+      "title": "1691년 멕시코의 여성 저술가 소르 후아나 — 학문, 교회 권위와 자기 변론",
+      "primary_chapter_id": "L448-05-03",
+      "context_chapter_ids": [
+        "L448-07-03"
+      ],
+      "changed": true,
+      "original_section_characters": 2795,
+      "new_section_characters": 3670,
+      "added_evidence": [
+        {
+          "key": "FENL-1700",
+          "url": "https://fondoeditorialnl.gob.mx/prensa/sor-juana-llega-a-la-fil-guadalajara/",
+          "locator": "Fondo Editorial Nuevo León 2025, composition 1691, Madrid first printing 1700, later 1701 exemplar",
+          "evidenceLevel": "INSTITUTIONAL_RARE_BOOK_BIBLIOGRAPHY"
+        },
+        {
+          "key": "SORJUANA-COLUMBIA",
+          "url": "https://www.columbia.edu/cu/spanish/courses/spanish3349/07crisisimperio/sorjuanarespuesta.html",
+          "locator": "Columbia modern Spanish excerpts, childhood reading and convent education",
+          "evidenceLevel": "MODERN_ORIGINAL_LANGUAGE_EXCERPT"
+        }
+      ],
+      "review_status": "SOURCE_CRITICAL_RESEARCH_DRAFT",
+      "can_ship": false
+    },
+    {
+      "case_id": "V501-PA-01",
+      "title": "태평양 섬 사이의 기독교 전파 — 파페이하와 타웅아가 기록한 현지 선교",
+      "primary_chapter_id": "L448-06-03",
+      "context_chapter_ids": [
+        "L448-07-03"
+      ],
+      "changed": true,
+      "original_section_characters": 3291,
+      "new_section_characters": 4258,
+      "added_evidence": [
+        {
+          "key": "TURNBULL-111",
+          "url": "https://natlib.govt.nz/records/22366966",
+          "locator": "MS-Papers-1187-111; catalogue 1889/undated; Gill annotation 1889-07-25",
+          "evidenceLevel": "NATIONAL_LIBRARY_MANUSCRIPT_CATALOG"
+        },
+        {
+          "key": "TURNBULL-111A",
+          "url": "https://natlib.govt.nz/records/22767855",
+          "locator": "MS-Papers-1187-111A translation catalog",
+          "evidenceLevel": "NATIONAL_LIBRARY_TRANSLATION_CATALOG"
+        },
+        {
+          "key": "TURNBULL-QMS1622",
+          "url": "https://natlib.govt.nz/records/22320547",
+          "locator": "qMS-1622 approximately 1880 later copy",
+          "evidenceLevel": "NATIONAL_LIBRARY_COPY_CATALOG"
+        }
+      ],
+      "review_status": "SOURCE_CRITICAL_RESEARCH_DRAFT",
+      "can_ship": false
+    },
+    {
+      "case_id": "V501-PA-02",
+      "title": "태평양의 여성과 보이지 않는 기록 — 왕비의 선택, 돌봄, 현지 간호 교육",
+      "primary_chapter_id": "L448-05-03",
+      "context_chapter_ids": [
+        "L448-06-03",
+        "L448-07-03"
+      ],
+      "changed": false,
+      "original_section_characters": 2898,
+      "new_section_characters": 2898,
+      "added_evidence": [],
+      "review_status": "SOURCE_CRITICAL_RESEARCH_DRAFT",
+      "can_ship": false
+    },
+    {
+      "case_id": "V501-LA-03",
+      "title": "메데인 1968 — 주교회의의 문서와 평신도 공동체의 경험을 구분하기",
+      "primary_chapter_id": "L448-07-03",
+      "context_chapter_ids": [
+        "L448-05-03"
+      ],
+      "changed": false,
+      "original_section_characters": 2447,
+      "new_section_characters": 2447,
+      "added_evidence": [],
+      "review_status": "SOURCE_CRITICAL_RESEARCH_DRAFT",
+      "can_ship": false
+    }
+  ],
+  "claims": [
+    {
+      "case_id": "V501-LA-01",
+      "claim": "Guaman Poma 'Mala conficion' is numbered 576 on manuscript, 590 in modern citation",
+      "source_key": "INDIANA-576-590",
+      "evidence_level": "REPRODUCED_MANUSCRIPT_IMAGE_VISUALLY_REVIEWED",
+      "direct_royal_library_scan_collation": false
+    },
+    {
+      "case_id": "V501-LA-02",
+      "claim": "Sor Juana Respuesta authored 1691, first published Madrid 1700, Barcelona 1701 later edition",
+      "source_key": "FENL-1700",
+      "evidence_level": "INSTITUTIONAL_BIBLIOGRAPHIC_DESCRIPTION",
+      "first_print_direct_collation": false
+    },
+    {
+      "case_id": "V501-PA-01",
+      "claim": "Papeiha mission associated with 1823; narrative assigned around 1830; archival manuscripts include later ca1880 and 1889 annotation",
+      "source_key": "TURNBULL-111",
+      "evidence_level": "ARCHIVAL_HOLDINGS_CATALOG",
+      "early_autograph_authenticity_confirmed": false
+    }
+  ],
+  "verification": {
+    "exactly_first_three_changed": true,
+    "last_two_sections_byte_identical": true,
+    "all_case_anchors_exist": true,
+    "manuscript_source_sha_recorded": "e77c5cff5f1e2c110803455f957adcc3c10bc2ee",
+    "old_original_has_not_been_modified": true,
+    "primary_manuscript_full_critical_collation": false,
+    "can_ship": false
+  },
+  "unresolved": [
+    "Guaman Poma Royal Danish Library original digital page not independently collated against 2018 article reproduction",
+    "Sor Juana autograph and 1700/1701 printings not leaf-to-leaf compared",
+    "Papeiha Rarotongan manuscript and copies MS-Papers-1187-111/111A/qMS-1622 not read line by line",
+    "V4.82 exact source, Tamil 1715/1719, Korean Bible 1900 variants remain unresolved",
+    "No historian, rights or reader signoffs, or operational AI Studio app tests"
+  ]
+}
