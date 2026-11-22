@@ -1,0 +1,77 @@
+{
+  "schema": "ATLAS_V505_READER_LINK_INTEGRITY_AUDIT",
+  "version": "V5.05",
+  "date": "2026-11-23",
+  "branch": "research/atlas-v505-six-theme-local-voices-reader-integration",
+  "status": "RESEARCH_NAVIGATION_QA_COMPLETE_NOT_PUBLISHED",
+  "can_ship": false,
+  "artifacts": {
+    "reader": {
+      "branch": "research/atlas-v505-six-theme-local-voices-reader-integration",
+      "path": "docs/01_CONTENT/L1/V505_SIX_THEME_FIVE_LOCAL_VOICES_READER_EDITION_KO.md",
+      "blob_sha": "7e52c514722d2731f1cd7a4acf821a83683c932c"
+    },
+    "contract": {
+      "branch": "research/atlas-v505-six-theme-local-voices-reader-integration",
+      "path": "research/v505/six_theme_five_voices_navigation_contract.json",
+      "blob_sha": "e90fe3dde2188e29f9a9daadc81ff9d44efa4a1a"
+    },
+    "master": {
+      "branch": "research/atlas-v505-six-theme-local-voices-reader-integration",
+      "path": "research/data/V500_EIGHT_VOLUME_24_CHAPTER_EDITORIAL_REVIEW_CANDIDATE.json",
+      "blob_sha": "5e3db4f82511ca57b971b1f5811cbca35a33476c"
+    },
+    "source": {
+      "branch": "research/atlas-v505-six-theme-local-voices-reader-integration",
+      "path": "docs/01_CONTENT/L1/V504_FIVE_LOCAL_VOICES_PRINT_VARIANT_REVISED_EDITION_KO.md",
+      "blob_sha": "646c3f0586c332707c0655fbdec2c2cfd1076628"
+    },
+    "oldnav": {
+      "branch": "research/atlas-v505-six-theme-local-voices-reader-integration",
+      "path": "research/v493/reader_first_navigation_contract.json",
+      "blob_sha": "eb2f18b0634728014a0a4d7893ab6c9983b656eb"
+    }
+  },
+  "count": {
+    "volumes": 8,
+    "chapters": 24,
+    "topics": 6,
+    "case_ids": 5,
+    "curated_reader_journeys": 3,
+    "theme_case_placements": 16,
+    "unique_chapter_ids_in_reader": 16,
+    "unique_case_ids_in_reader": 5,
+    "reader_korean_characters": 9793,
+    "reader_long_paragraphs": 34,
+    "broken_links_to_chapters": 0,
+    "broken_case_ids": 0,
+    "source_original_chapters_modified": 0,
+    "historian_signoffs": 0,
+    "real_reader_sessions": 0,
+    "app_E2E_tests": 0
+  },
+  "validation": {
+    "zero_errors": true,
+    "errors": [],
+    "themes_match_sections": true,
+    "trips_match_sections": true,
+    "V493_original_paths_unchanged": true,
+    "source_shas_match": true,
+    "all_case_primary_chapter_ids_valid": true,
+    "no_case_released": true,
+    "existing_V500_master_not_modified": true,
+    "operational_AI_Studio_not_modified": true
+  },
+  "preserved_uncertainty": [
+    "T02 salvation doctrine needs primary scholarly anchors, contextual voices not sufficient",
+    "T03 Eucharistic doctrine needs relevant primary sources; penance image not direct Eucharist evidence",
+    "Medellin CELAM document only metadata accessed",
+    "Sor Juana 1700/1701 original Respuesta text not line-by-line collated",
+    "Papeiha indigenous-language manuscript and copies not line-by-line read",
+    "Guaman Poma Royal Library original images p.590/p.629 not directly pixel-collated",
+    "Tamil 1715/1719 and Korean 1900 print witnesses unresolved",
+    "V4.82 exact source and SHA unrecovered",
+    "Image rights and historian/reader/AI Studio E2E signoffs outstanding"
+  ],
+  "next_priority": "Pilot actual reader tasks for six thematic questions after source-level human review; keep app staged until approval."
+}
