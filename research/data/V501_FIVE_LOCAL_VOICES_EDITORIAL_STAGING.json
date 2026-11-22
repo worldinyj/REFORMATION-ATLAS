@@ -1,0 +1,305 @@
+{
+  "schema": "ATLAS_V501_LOCAL_VOICES_RESEARCH_STAGING",
+  "version": "V5.01",
+  "date": "2026-11-22",
+  "status": "RESEARCH_ONLY",
+  "can_ship": false,
+  "can_merge_main": false,
+  "can_import_ai_studio": false,
+  "base": {
+    "branch": "research/atlas-v501-latin-america-pacific-local-voices",
+    "path": "research/data/V500_EIGHT_VOLUME_24_CHAPTER_EDITORIAL_REVIEW_CANDIDATE.json",
+    "sha": "5e3db4f82511ca57b971b1f5811cbca35a33476c",
+    "chapters": 24
+  },
+  "manuscript": {
+    "branch": "research/atlas-v501-latin-america-pacific-local-voices",
+    "path": "docs/01_CONTENT/L1/V501_LATIN_AMERICA_PACIFIC_LOCAL_VOICES_DRAFT_KO.md",
+    "sha": "c2470b08d5c33afc3f42b6608df0a5777618511f"
+  },
+  "case_count": 5,
+  "approved_edits_to_original": 0,
+  "cases": [
+    {
+      "case_id": "V501-LA-01",
+      "title": "안데스의 한 기독교인이 식민 통치를 비판하다 — 과만 포마와 '나쁜 고해'",
+      "period": "c. 1615–1616",
+      "primary_chapter_id": "L448-07-03",
+      "context_chapter_ids": [
+        "L448-05-03"
+      ],
+      "agency_kind": "ANDEAN_INDIGENOUS_AUTHOR",
+      "evidence_kind": "INDIGENOUS_MANUSCRIPT_WITH_SECONDARY_VISUAL_STUDY",
+      "source_references": [
+        {
+          "key": "RDL-GKS2232",
+          "evidence_level": "ROYAL_LIBRARY_PRIMARY_MANUSCRIPT_CATALOG",
+          "description": "GKS 2232 4º; c. 1615 manuscript description, Spanish/Quechua, original digitization and provenance; collection overview read, target folio not independently checked as a facsimile",
+          "url": "https://www.kb.dk/en/find-materials/collections/manuscript-collection/chronicle-guaman-poma"
+        },
+        {
+          "key": "RDL-DIGITAL",
+          "evidence_level": "DIGITAL_PRIMARY_MANUSCRIPT_ACCESS_AND_SCHOLARLY_METADATA",
+          "description": "Guaman Poma digital research centre, critical transcription and original facsimile distinguished; editor Rolena Adorno",
+          "url": "https://permalink.kb.dk/permalink/2006/manus/253/eng/Indice%2B1-34/"
+        },
+        {
+          "key": "SMARTHISTORY-P590",
+          "evidence_level": "SCHOLARLY_VISUAL_INTERPRETATION",
+          "description": "'Bad Confession', manuscript p.590, Andean woman and priest scene; interpretive secondary analysis; not a first-person female testimony",
+          "url": "https://smarthistory.org/bad-confession-poma-chronicle/"
+        }
+      ],
+      "evidence_holds": [
+        "GKS 2232 4º folio p.590 was located via scholarly page but actual target manuscript image was not manually pixel-collated",
+        "Author's claim, depicted event, and independent judicial records not cross-verified",
+        "Personal voice of unnamed woman in illustration cannot be recovered as direct written testimony"
+      ],
+      "editorial_caution": "A female in a drawn scene is not first-person testimony; manuscript p.590 not directly visually collated",
+      "manuscript": {
+        "branch": "research/atlas-v501-latin-america-pacific-local-voices",
+        "path": "docs/01_CONTENT/L1/V501_LATIN_AMERICA_PACIFIC_LOCAL_VOICES_DRAFT_KO.md",
+        "sha": "c2470b08d5c33afc3f42b6608df0a5777618511f",
+        "section_heading": "## 1. 안데스의 한 기독교인이 식민 통치를 비판하다 — 과만 포마와 '나쁜 고해'",
+        "body_characters": 1669
+      },
+      "review": {
+        "historian_signoff": false,
+        "first_hand_text_wholly_collated": false,
+        "reader_tested": false,
+        "app_link_ready": false,
+        "can_ship": false
+      }
+    },
+    {
+      "case_id": "V501-LA-02",
+      "title": "1691년 멕시코의 여성 저술가 소르 후아나 — 학문, 교회 권위와 자기 변론",
+      "period": "1690–1691, New Spain",
+      "primary_chapter_id": "L448-05-03",
+      "context_chapter_ids": [
+        "L448-07-03"
+      ],
+      "agency_kind": "COLONIAL_MEXICAN_WOMAN_AUTHOR",
+      "evidence_kind": "SPANISH_AUTHOR_TEXT_TRANSCRIPTION_EDITION_HISTORY",
+      "source_references": [
+        {
+          "key": "SORJUANA-MEXENC",
+          "evidence_level": "SCHOLARLY_LITERARY_HISTORY",
+          "description": "Mexican literary encyclopedia detailed study of Respuesta, 1690 Carta Atenagórica and 1691 response, women learning argument",
+          "url": "https://www.elem.mx/obra/datos/2588"
+        },
+        {
+          "key": "SORJUANA-1691",
+          "evidence_level": "MODERN_SPANISH_TEXT_TRANSCRIPTION",
+          "description": "Respuesta a Sor Filotea (1691), available full Spanish edited transcription; original 1691 handwritten witness not collated",
+          "url": "https://www.columbia.edu/cu/spanish/courses/spanish3349/07crisisimperio/sorjuanarespuesta.html"
+        },
+        {
+          "key": "SORJUANA-1701",
+          "evidence_level": "GOVERNMENT_FACSIMILE_BIBLIOGRAPHIC_ANNOUNCEMENT",
+          "description": "2026 Mexican cultural authority announcement describes 1701 Barcelona printing reproduced in facsimile",
+          "url": "https://www.gob.mx/cultura/prensa/presentaran-la-edicion-facsimilar-de-texto-emblematico-de-sor-juana-ines-de-la-cruz?idiom=es"
+        }
+      ],
+      "evidence_holds": [
+        "1691 composition and 1701 printing are not treated as the same object",
+        "Full facsimile/handwriting variants not independently collated",
+        "Sor Juana's writings cannot represent all women or indigenous women of colonial Mexico"
+      ],
+      "editorial_caution": "1691 author text distinct from 1701 publication; not representative of all colonial women",
+      "manuscript": {
+        "branch": "research/atlas-v501-latin-america-pacific-local-voices",
+        "path": "docs/01_CONTENT/L1/V501_LATIN_AMERICA_PACIFIC_LOCAL_VOICES_DRAFT_KO.md",
+        "sha": "c2470b08d5c33afc3f42b6608df0a5777618511f",
+        "section_heading": "## 2. 1691년 멕시코의 여성 저술가 소르 후아나 — 학문, 교회 권위와 자기 변론",
+        "body_characters": 1577
+      },
+      "review": {
+        "historian_signoff": false,
+        "first_hand_text_wholly_collated": false,
+        "reader_tested": false,
+        "app_link_ready": false,
+        "can_ship": false
+      }
+    },
+    {
+      "case_id": "V501-PA-01",
+      "title": "태평양 섬 사이의 기독교 전파 — 파페이하와 타웅아가 기록한 현지 선교",
+      "period": "c. 1830; 1833–1896 documentary span",
+      "primary_chapter_id": "L448-06-03",
+      "context_chapter_ids": [
+        "L448-07-03"
+      ],
+      "agency_kind": "PACIFIC_ISLANDER_TRAVELLING_TEACHERS",
+      "evidence_kind": "INDIGENOUS_MANUSCRIPT_IN_ACADEMIC_PUBLICATION",
+      "source_references": [
+        {
+          "key": "PAPEIHA-1830",
+          "evidence_level": "PEER_REVIEWED_MANUSCRIPT_PUBLICATION_METADATA_AND_ABSTRACT",
+          "description": "Maidment & Tumu-Makara (2022), Journal of Pacific History 57(2–3), pp.337–371, DOI 10.1080/00223344.2022.2085547; published translation not fully read",
+          "url": "https://researchportalplus.anu.edu.au/en/publications/manuscript-xli-papeiha-e-tuatua-no-te-taeanga-mai-o-te-tuatua-na-/"
+        },
+        {
+          "key": "TAUNGA-1968",
+          "evidence_level": "NATIONAL_LIBRARY_BOOK_CATALOG",
+          "description": "The Works of Ta'unga, edited Crocombe & Crocombe, ANU Press 1968; documentary range 1833–1896",
+          "url": "https://natlib.govt.nz/records/21149675"
+        },
+        {
+          "key": "TAUNGA-ANU",
+          "evidence_level": "UNIVERSITY_PRESS_BOOK_DESCRIPTION",
+          "description": "ANU Press publication description, indigenous traveller and New Caledonia observations; chapter original not fully compared",
+          "url": "https://press.anu.edu.au/publications/textbooks/about-us?p=267"
+        },
+        {
+          "key": "ISLAND-MINISTERS",
+          "evidence_level": "SCHOLARLY_MONOGRAPH_PUBLISHER_DESCRIPTION",
+          "description": "Raeburn Lange, indigenous ministry, men/women in nineteenth-century Pacific; original full book not critically read",
+          "url": "https://unsw.press/books/island-ministers/"
+        }
+      ],
+      "evidence_holds": [
+        "Papeiha's early manuscript itself was not transcribed/translated directly in this session; use scholarly publication metadata only",
+        "Ta'unga 1833–1896 is documentary span in book title, not biographical lifespan",
+        "Avoid replacing Fijian, Kanak or Māori voices by a Rarotongan traveller's interpretation"
+      ],
+      "editorial_caution": "Papeiha and Taunga originals not independently collated",
+      "manuscript": {
+        "branch": "research/atlas-v501-latin-america-pacific-local-voices",
+        "path": "docs/01_CONTENT/L1/V501_LATIN_AMERICA_PACIFIC_LOCAL_VOICES_DRAFT_KO.md",
+        "sha": "c2470b08d5c33afc3f42b6608df0a5777618511f",
+        "section_heading": "## 3. 태평양 섬 사이의 기독교 전파 — 파페이하와 타웅아가 기록한 현지 선교",
+        "body_characters": 1766
+      },
+      "review": {
+        "historian_signoff": false,
+        "first_hand_text_wholly_collated": false,
+        "reader_tested": false,
+        "app_link_ready": false,
+        "can_ship": false
+      }
+    },
+    {
+      "case_id": "V501-PA-02",
+      "title": "태평양의 여성과 보이지 않는 기록 — 왕비의 선택, 돌봄, 현지 간호 교육",
+      "period": "1810s–1890s",
+      "primary_chapter_id": "L448-05-03",
+      "context_chapter_ids": [
+        "L448-06-03",
+        "L448-07-03"
+      ],
+      "agency_kind": "PACIFIC_WOMEN_AND_MISSION_NETWORK",
+      "evidence_kind": "MISSIONARY_LETTERS_DESCRIBED_IN_SCHOLARSHIP",
+      "source_references": [
+        {
+          "key": "CAMBRIDGE-CHILDBIRTH",
+          "evidence_level": "PEER_REVIEWED_ARCHIVAL_STUDY",
+          "description": "Queen Teriʻitoʻoterai Tere-moe-moe and Hannah Crook around 1820, footnote 81; original letter not independently read",
+          "url": "https://www.cambridge.org/core/journals/journal-of-ecclesiastical-history/article/childbirth-and-emerging-missionary-information-networks-in-britain-and-the-south-pacific/019854B3D03C94DFAB5E6DA1692BDC3C"
+        },
+        {
+          "key": "NSW-WOMEN",
+          "evidence_level": "STATE_LIBRARY_ARCHIVAL_GUIDE",
+          "description": "Mary Ann Lyth (1811–1890) identified as missionary, nurse, translator, teacher, taught local women nursing; underlying letters not read",
+          "url": "https://guides.sl.nsw.gov.au/british_missionary_societies/MMS_missionary_papers"
+        },
+        {
+          "key": "ISLAND-MINISTERS",
+          "evidence_level": "SCHOLARLY_MONOGRAPH_DESCRIPTION",
+          "description": "Pacific women often appear alongside men in missionary histories; evidence gaps remain",
+          "url": "https://unsw.press/books/island-ministers/"
+        }
+      ],
+      "evidence_holds": [
+        "Tahitian queen's action documented through archival scholarship not her own letter",
+        "Mary Ann Lyth European missionary and unnamed local trainees are distinct actors; avoid confusing their identities",
+        "No claim about proportion of women ordained or trained without province- and denomination-specific primary records"
+      ],
+      "editorial_caution": "Tahitian queen, European nurse and unnamed trainees are distinct actors",
+      "manuscript": {
+        "branch": "research/atlas-v501-latin-america-pacific-local-voices",
+        "path": "docs/01_CONTENT/L1/V501_LATIN_AMERICA_PACIFIC_LOCAL_VOICES_DRAFT_KO.md",
+        "sha": "c2470b08d5c33afc3f42b6608df0a5777618511f",
+        "section_heading": "## 4. 태평양의 여성과 보이지 않는 기록 — 왕비의 선택, 돌봄, 현지 간호 교육",
+        "body_characters": 1542
+      },
+      "review": {
+        "historian_signoff": false,
+        "first_hand_text_wholly_collated": false,
+        "reader_tested": false,
+        "app_link_ready": false,
+        "can_ship": false
+      }
+    },
+    {
+      "case_id": "V501-LA-03",
+      "title": "메데인 1968 — 주교회의의 문서와 평신도 공동체의 경험을 구분하기",
+      "period": "1968, Medellín, Colombia",
+      "primary_chapter_id": "L448-07-03",
+      "context_chapter_ids": [
+        "L448-05-03"
+      ],
+      "agency_kind": "LATIN_AMERICAN_BISHOPS_AND_LAITY",
+      "evidence_kind": "CHURCH_OFFICIAL_ARCHIVE_METADATA_ONLY",
+      "source_references": [
+        {
+          "key": "CELAM-MEDELLIN",
+          "evidence_level": "OFFICIAL_CHURCH_ARCHIVE_METADATA_ONLY",
+          "description": "Final committee document metadata, 1968 Aug 26–Sep 7, includes social justice, education and laity; RIGHTS: Access only to metadata, require institutional permission",
+          "url": "https://repositorio.celam.org/s/repositorio/item/3171"
+        },
+        {
+          "key": "NOTREDAME-MEDELLIN",
+          "evidence_level": "UNIVERSITY_ARCHIVE_FINDING_AID",
+          "description": "15 volumes of typescript proceedings, separate 1990 Medellín conclusions volume; archive inventory, not direct original text",
+          "url": "https://archivesspace.library.nd.edu/repositories/2/resources/2515/collection_organization"
+        }
+      ],
+      "evidence_holds": [
+        "CELAM item rights say access only to metadata; do not reproduce or claim direct full original text access",
+        "1968 conference proceedings and 1990 published conclusions should be separately tagged",
+        "Women's lay-led local community case requires actual locality-specific oral histories or parish records before generalizing"
+      ],
+      "editorial_caution": "CELAM archive full text restricted; do not claim its contents read",
+      "manuscript": {
+        "branch": "research/atlas-v501-latin-america-pacific-local-voices",
+        "path": "docs/01_CONTENT/L1/V501_LATIN_AMERICA_PACIFIC_LOCAL_VOICES_DRAFT_KO.md",
+        "sha": "c2470b08d5c33afc3f42b6608df0a5777618511f",
+        "section_heading": "## 5. 메데인 1968 — 주교회의의 문서와 평신도 공동체의 경험을 구분하기",
+        "body_characters": 1367
+      },
+      "review": {
+        "historian_signoff": false,
+        "first_hand_text_wholly_collated": false,
+        "reader_tested": false,
+        "app_link_ready": false,
+        "can_ship": false
+      }
+    }
+  ],
+  "policy": {
+    "canonical_history": "One primary L1 chapter for a case; other chapters contextual only",
+    "provenance": "Distinguish primary author narrative, later academic interpretation, missionary third-person report, and archival metadata",
+    "release": "Human history, rights, readers and app E2E review before publish"
+  },
+  "validation": {
+    "all_five_sections": true,
+    "all_case_ids_unique": true,
+    "all_chapter_refs_exist": true,
+    "source_link_occurrences": 15,
+    "unique_source_urls": 14,
+    "all_url_access_verified": false,
+    "primary_originals_fully_collated": 0,
+    "expert_reviews": 0,
+    "reader_sessions": 0,
+    "app_tests": 0
+  },
+  "holds": [
+    "Guaman Poma original page p590 not directly collated",
+    "Sor Juana 1691 and 1701 editions not cross-collated",
+    "Papeiha and Taunga original manuscripts not fully read",
+    "Third-person women accounts not direct first-person testimony",
+    "CELAM archive metadata only, full text access restricted",
+    "V4.82 full source and Tamil/Korean bibliographic issues still outstanding"
+  ]
+}
