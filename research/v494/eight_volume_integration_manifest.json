@@ -1,0 +1,447 @@
+{
+  "schema": "ATLAS_V494_INTEGRATED_RESEARCH_MANIFEST",
+  "version": "V4.94",
+  "created": "2026-11-22",
+  "status": "RESEARCH_INTEGRATION_VERIFIED_STRUCTURE_NOT_RELEASED",
+  "can_ship": false,
+  "version_source": "V4.50 actual full L1 master + V4.93 full six-theme reader narrative",
+  "integration_provenance": {
+    "src_master": {
+      "branch": "research/atlas-v450-core-reformation-l1-eucharist-confessions-peace",
+      "path": "research/data/V4_50_L1_24_CHAPTER_INTEGRATED_REVISED_MASTER.json",
+      "blob_sha": "79a362734aa963eb41ad0424515e8d21074349c5"
+    },
+    "src_reader": {
+      "branch": "research/atlas-v493-reader-first-six-theme-edition",
+      "path": "docs/01_CONTENT/L1/V493_READER_FIRST_SIX_THEME_INTEGRATED_EDITION_KO.md",
+      "blob_sha": "0c2fccd05d492bccaa527c0a58e6e1181c2ddb62"
+    },
+    "reader_nav": {
+      "branch": "research/atlas-v493-reader-first-six-theme-edition",
+      "path": "research/v493/reader_first_navigation_contract.json",
+      "blob_sha": "eb2f18b0634728014a0a4d7893ab6c9983b656eb"
+    },
+    "integrated": {
+      "branch": "research/atlas-v494-eight-volume-integrated-research-master",
+      "path": "docs/01_CONTENT/INTEGRATED/V494_EIGHT_VOLUME_24_CHAPTER_SIX_THEME_RESEARCH_MASTER_KO.md",
+      "blob_sha": "aec223caf007316256a6fb02a3c8540d18ba7066",
+      "characters": 49275
+    }
+  },
+  "structure_checks": {
+    "expected_volumes": 8,
+    "chapters": 24,
+    "all_chapter_ids_unique": true,
+    "full_body_exact_match": true,
+    "chapter_body_exact_matches": 24,
+    "reader_essay_embedded_with_headings_shifted": true,
+    "source_urls_registered": 53,
+    "source_url_references": 74,
+    "dangling_source_id_refs": 0,
+    "dangling_source_urls": 0,
+    "dangling_source_urls_examples": [],
+    "dangling_volume_links": 0,
+    "exact_repeated_paragraphs_across_24_source_bodies": 0,
+    "unknown_integrated_L1_chapter_ids": 0,
+    "chapter_body_total_chars": 15031,
+    "source_register_total": 53,
+    "all_source_chapters_nonshippable": true,
+    "distinct_era_L1_chapters_reachable_from_readers": 21,
+    "core_theme_reading_paths": 6,
+    "core_theme_chapter_placements": 27
+  },
+  "review_status": {
+    "by_source_chapter": {
+      "EDITORIAL_DRAFT_UNREVIEWED": 17,
+      "PUBLIC_SOURCE_DESK_REVISED_UNREVIEWED_BY_HISTORIAN": 4,
+      "RESEARCH_DESK_REVISION_UNREVIEWED_BY_HUMAN": 3
+    },
+    "specialist_historian_review_count": 0,
+    "real_reader_sessions": 0,
+    "operational_app_modified": false,
+    "main_modified": false,
+    "can_ship": false
+  },
+  "risk_triage": [
+    {
+      "id": "AUD494-01",
+      "category": "PERIOD_CROSSOVER",
+      "relation": [
+        "VOL-01",
+        "VOL-07"
+      ],
+      "source_anchors": [
+        "L448-01-02",
+        "L448-07-01"
+      ],
+      "finding": "Ancient Africa and modern Africa can appear repetitive",
+      "decision": "RETAIN_DISTINCT_PERIODS_AND_CONTEXTUAL_LINK",
+      "impact": "Do not recast African Christianity as beginning with European modern missions"
+    },
+    {
+      "id": "AUD494-02",
+      "category": "DATES_AND_WITNESSES",
+      "relation": [
+        "VOL-02",
+        "VOL-07"
+      ],
+      "source_anchors": [
+        "L448-02-02",
+        "L448-07-01"
+      ],
+      "finding": "Stele 781 vs memorialized 635 may be confused in world-church history",
+      "decision": "KEEP_DOCUMENT_DATE_DIFFERENT_FROM_RECORDED_EVENT",
+      "impact": "Prevent false contemporary witness claim"
+    },
+    {
+      "id": "AUD494-03",
+      "category": "REFORM_LINEAGE",
+      "relation": [
+        "VOL-03",
+        "VOL-04"
+      ],
+      "source_anchors": [
+        "L448-03-02",
+        "L448-04-02"
+      ],
+      "finding": "Wyclif/Hus influence can be mistaken for identical Eucharist teachings and later Reformation succession",
+      "decision": "DISTINGUISH_INTELLECTUAL_INFLUENCE_FROM_DOCTRINAL_IDENTITY",
+      "impact": "Avoid single-line teleology"
+    },
+    {
+      "id": "AUD494-04",
+      "category": "CONFESSION_EDITION",
+      "relation": [
+        "VOL-04",
+        "VOL-08"
+      ],
+      "source_anchors": [
+        "L448-04-02",
+        "L448-08-01",
+        "L448-08-02"
+      ],
+      "finding": "Marburg and Augsburg appear in several thematic paths",
+      "decision": "FACT_IN_VOL04_COMPARATIVE_QUESTION_IN_VOL08",
+      "impact": "Do not flatten 1530/1531/1540 texts"
+    },
+    {
+      "id": "AUD494-05",
+      "category": "COUNCIL_IMPLEMENTATION",
+      "relation": [
+        "VOL-04",
+        "VOL-05"
+      ],
+      "source_anchors": [
+        "L448-04-02",
+        "L448-05-01"
+      ],
+      "finding": "Trent may be framed only as Protestant reaction",
+      "decision": "KEEP_PREEXISTING_CATHOLIC_RENEWAL_AND_LOCAL_IMPLEMENTATION_DISTINCT",
+      "impact": "Avoid one-sided causality"
+    },
+    {
+      "id": "AUD494-06",
+      "category": "RELIGIOUS_LAW",
+      "relation": [
+        "VOL-05",
+        "VOL-08"
+      ],
+      "source_anchors": [
+        "L448-05-02",
+        "L448-08-03"
+      ],
+      "finding": "1555 and 1648 legal settlements are easily redescribed as modern religious freedom",
+      "decision": "QUALIFY_SUBJECTS_RIGHTS_EXCEPTIONS_AND_1624_REFERENCE_YEAR",
+      "impact": "Preserve legal-historical context"
+    },
+    {
+      "id": "AUD494-07",
+      "category": "TEXTUAL_BIBLIOGRAPHY",
+      "relation": [
+        "VOL-06",
+        "VOL-08"
+      ],
+      "source_anchors": [
+        "L448-06-02",
+        "L448-08-03"
+      ],
+      "finding": "Tamil 1715/1719 dating remains unresolved",
+      "decision": "HOLD_EXACT_EDITION_RELATION_NO_AUTO_PROMOTION",
+      "impact": "Bibliographic uncertainty explicit"
+    },
+    {
+      "id": "AUD494-08",
+      "category": "LOCAL_AGENCY",
+      "relation": [
+        "VOL-06",
+        "VOL-07"
+      ],
+      "source_anchors": [
+        "L448-06-03",
+        "L448-07-02"
+      ],
+      "finding": "Missions narrative can duplicate Korean Bible story while masking local translators",
+      "decision": "SEPARATE_TRANSREGIONAL_MISSIONS_FROM_KOREAN_READER_TRANSLATOR_AGENCY",
+      "impact": "Respect local agency"
+    }
+  ],
+  "holds": {
+    "V482_FULL_SOURCE": "BLOCKED_FULL_SOURCE_AND_SHA_NOT_RECOVERED",
+    "TAMIL_1715_1719": "UNRESOLVED_BIBLIOGRAPHY",
+    "VOL03_T02_SOTERIOLOGY": "MISSING_DIRECT_SPECIFIC_DOCTRINE_ANCHOR",
+    "VOL07_T02_SOTERIOLOGY": "MISSING_DIRECT_SPECIFIC_DOCTRINE_ANCHOR",
+    "EXPERT_EDITOR_READER": "NOT_PERFORMED",
+    "PUBLIC_APP": "NOT_INTEGRATED_OR_E2E_TESTED"
+  },
+  "source_chapter_ledger": [
+    {
+      "id": "L448-01-01",
+      "volume": "VOL-01",
+      "body_exact_match": true,
+      "length_characters": 558,
+      "source_url_count": 3,
+      "source_ids_count": 3,
+      "review_state": "EDITORIAL_DRAFT_UNREVIEWED",
+      "can_ship": false
+    },
+    {
+      "id": "L448-01-02",
+      "volume": "VOL-01",
+      "body_exact_match": true,
+      "length_characters": 462,
+      "source_url_count": 2,
+      "source_ids_count": 2,
+      "review_state": "EDITORIAL_DRAFT_UNREVIEWED",
+      "can_ship": false
+    },
+    {
+      "id": "L448-01-03",
+      "volume": "VOL-01",
+      "body_exact_match": true,
+      "length_characters": 482,
+      "source_url_count": 2,
+      "source_ids_count": 2,
+      "review_state": "EDITORIAL_DRAFT_UNREVIEWED",
+      "can_ship": false
+    },
+    {
+      "id": "L448-02-01",
+      "volume": "VOL-02",
+      "body_exact_match": true,
+      "length_characters": 467,
+      "source_url_count": 2,
+      "source_ids_count": 2,
+      "review_state": "EDITORIAL_DRAFT_UNREVIEWED",
+      "can_ship": false
+    },
+    {
+      "id": "L448-02-02",
+      "volume": "VOL-02",
+      "body_exact_match": true,
+      "length_characters": 482,
+      "source_url_count": 2,
+      "source_ids_count": 2,
+      "review_state": "EDITORIAL_DRAFT_UNREVIEWED",
+      "can_ship": false
+    },
+    {
+      "id": "L448-02-03",
+      "volume": "VOL-02",
+      "body_exact_match": true,
+      "length_characters": 456,
+      "source_url_count": 4,
+      "source_ids_count": 4,
+      "review_state": "EDITORIAL_DRAFT_UNREVIEWED",
+      "can_ship": false
+    },
+    {
+      "id": "L448-03-01",
+      "volume": "VOL-03",
+      "body_exact_match": true,
+      "length_characters": 498,
+      "source_url_count": 2,
+      "source_ids_count": 2,
+      "review_state": "EDITORIAL_DRAFT_UNREVIEWED",
+      "can_ship": false
+    },
+    {
+      "id": "L448-03-02",
+      "volume": "VOL-03",
+      "body_exact_match": true,
+      "length_characters": 749,
+      "source_url_count": 3,
+      "source_ids_count": 3,
+      "review_state": "PUBLIC_SOURCE_DESK_REVISED_UNREVIEWED_BY_HISTORIAN",
+      "can_ship": false
+    },
+    {
+      "id": "L448-03-03",
+      "volume": "VOL-03",
+      "body_exact_match": true,
+      "length_characters": 486,
+      "source_url_count": 2,
+      "source_ids_count": 2,
+      "review_state": "EDITORIAL_DRAFT_UNREVIEWED",
+      "can_ship": false
+    },
+    {
+      "id": "L448-04-01",
+      "volume": "VOL-04",
+      "body_exact_match": true,
+      "length_characters": 485,
+      "source_url_count": 2,
+      "source_ids_count": 2,
+      "review_state": "EDITORIAL_DRAFT_UNREVIEWED",
+      "can_ship": false
+    },
+    {
+      "id": "L448-04-02",
+      "volume": "VOL-04",
+      "body_exact_match": true,
+      "length_characters": 881,
+      "source_url_count": 3,
+      "source_ids_count": 3,
+      "review_state": "PUBLIC_SOURCE_DESK_REVISED_UNREVIEWED_BY_HISTORIAN",
+      "can_ship": false
+    },
+    {
+      "id": "L448-04-03",
+      "volume": "VOL-04",
+      "body_exact_match": true,
+      "length_characters": 507,
+      "source_url_count": 4,
+      "source_ids_count": 4,
+      "review_state": "EDITORIAL_DRAFT_UNREVIEWED",
+      "can_ship": false
+    },
+    {
+      "id": "L448-05-01",
+      "volume": "VOL-05",
+      "body_exact_match": true,
+      "length_characters": 773,
+      "source_url_count": 3,
+      "source_ids_count": 3,
+      "review_state": "PUBLIC_SOURCE_DESK_REVISED_UNREVIEWED_BY_HISTORIAN",
+      "can_ship": false
+    },
+    {
+      "id": "L448-05-02",
+      "volume": "VOL-05",
+      "body_exact_match": true,
+      "length_characters": 832,
+      "source_url_count": 3,
+      "source_ids_count": 3,
+      "review_state": "PUBLIC_SOURCE_DESK_REVISED_UNREVIEWED_BY_HISTORIAN",
+      "can_ship": false
+    },
+    {
+      "id": "L448-05-03",
+      "volume": "VOL-05",
+      "body_exact_match": true,
+      "length_characters": 474,
+      "source_url_count": 4,
+      "source_ids_count": 4,
+      "review_state": "EDITORIAL_DRAFT_UNREVIEWED",
+      "can_ship": false
+    },
+    {
+      "id": "L448-06-01",
+      "volume": "VOL-06",
+      "body_exact_match": true,
+      "length_characters": 488,
+      "source_url_count": 2,
+      "source_ids_count": 2,
+      "review_state": "EDITORIAL_DRAFT_UNREVIEWED",
+      "can_ship": false
+    },
+    {
+      "id": "L448-06-02",
+      "volume": "VOL-06",
+      "body_exact_match": true,
+      "length_characters": 514,
+      "source_url_count": 2,
+      "source_ids_count": 2,
+      "review_state": "EDITORIAL_DRAFT_UNREVIEWED",
+      "can_ship": false
+    },
+    {
+      "id": "L448-06-03",
+      "volume": "VOL-06",
+      "body_exact_match": true,
+      "length_characters": 503,
+      "source_url_count": 2,
+      "source_ids_count": 2,
+      "review_state": "EDITORIAL_DRAFT_UNREVIEWED",
+      "can_ship": false
+    },
+    {
+      "id": "L448-07-01",
+      "volume": "VOL-07",
+      "body_exact_match": true,
+      "length_characters": 965,
+      "source_url_count": 4,
+      "source_ids_count": 4,
+      "review_state": "RESEARCH_DESK_REVISION_UNREVIEWED_BY_HUMAN",
+      "can_ship": false
+    },
+    {
+      "id": "L448-07-02",
+      "volume": "VOL-07",
+      "body_exact_match": true,
+      "length_characters": 1164,
+      "source_url_count": 6,
+      "source_ids_count": 6,
+      "review_state": "RESEARCH_DESK_REVISION_UNREVIEWED_BY_HUMAN",
+      "can_ship": false
+    },
+    {
+      "id": "L448-07-03",
+      "volume": "VOL-07",
+      "body_exact_match": true,
+      "length_characters": 1201,
+      "source_url_count": 7,
+      "source_ids_count": 7,
+      "review_state": "RESEARCH_DESK_REVISION_UNREVIEWED_BY_HUMAN",
+      "can_ship": false
+    },
+    {
+      "id": "L448-08-01",
+      "volume": "VOL-08",
+      "body_exact_match": true,
+      "length_characters": 502,
+      "source_url_count": 3,
+      "source_ids_count": 3,
+      "review_state": "EDITORIAL_DRAFT_UNREVIEWED",
+      "can_ship": false
+    },
+    {
+      "id": "L448-08-02",
+      "volume": "VOL-08",
+      "body_exact_match": true,
+      "length_characters": 506,
+      "source_url_count": 3,
+      "source_ids_count": 3,
+      "review_state": "EDITORIAL_DRAFT_UNREVIEWED",
+      "can_ship": false
+    },
+    {
+      "id": "L448-08-03",
+      "volume": "VOL-08",
+      "body_exact_match": true,
+      "length_characters": 596,
+      "source_url_count": 4,
+      "source_ids_count": 4,
+      "review_state": "EDITORIAL_DRAFT_UNREVIEWED",
+      "can_ship": false
+    }
+  ],
+  "release_gates": [
+    "Historian source scrutiny by disputed claim, not just inherited bibliography",
+    "Recover V4.82 exact manuscript and source SHA before considering merge of theme six",
+    "Resolve Tamil 1715/1719 bibliographic relationship with actual holding/title/colophon checks",
+    "Find evidence-grade source for VOL-03/VOL-07 salvation comparisons",
+    "Recruit actual readers and evaluate with V4.92 response-free baseline",
+    "Check web app actual route IDs, user journeys, copyright and editorial signoff"
+  ],
+  "next": "V4.95 integrate action-oriented editorial decisions, consolidate duplicated 6-theme nodes into true canonical content pointers; hold app publication"
+}
