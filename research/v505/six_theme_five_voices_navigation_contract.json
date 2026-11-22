@@ -1,0 +1,445 @@
+{
+  "schema": "ATLAS_V505_SIX_THEME_FIVE_VOICES_READER_NAVIGATION",
+  "version": "V5.05",
+  "date": "2026-11-23",
+  "status": "RESEARCH_READER_EDITION_WITH_ROUTING_PLAN_NOT_LIVE",
+  "can_ship": false,
+  "can_merge_main": false,
+  "can_import_ai_studio": false,
+  "provenance": {
+    "base": {
+      "branch": "research/atlas-v505-six-theme-local-voices-reader-integration",
+      "path": "research/data/V500_EIGHT_VOLUME_24_CHAPTER_EDITORIAL_REVIEW_CANDIDATE.json",
+      "blob_sha": "5e3db4f82511ca57b971b1f5811cbca35a33476c"
+    },
+    "nav": {
+      "branch": "research/atlas-v505-six-theme-local-voices-reader-integration",
+      "path": "research/v493/reader_first_navigation_contract.json",
+      "blob_sha": "eb2f18b0634728014a0a4d7893ab6c9983b656eb"
+    },
+    "casebase": {
+      "branch": "research/atlas-v505-six-theme-local-voices-reader-integration",
+      "path": "research/data/V501_FIVE_LOCAL_VOICES_EDITORIAL_STAGING.json",
+      "blob_sha": "6023000218a263c1670722f6ee70e0aa6beea172"
+    },
+    "caseupdated": {
+      "branch": "research/atlas-v505-six-theme-local-voices-reader-integration",
+      "path": "docs/01_CONTENT/L1/V504_FIVE_LOCAL_VOICES_PRINT_VARIANT_REVISED_EDITION_KO.md",
+      "blob_sha": "646c3f0586c332707c0655fbdec2c2cfd1076628"
+    },
+    "reader": {
+      "branch": "research/atlas-v505-six-theme-local-voices-reader-integration",
+      "path": "docs/01_CONTENT/L1/V505_SIX_THEME_FIVE_LOCAL_VOICES_READER_EDITION_KO.md",
+      "blob_sha": "7e52c514722d2731f1cd7a4acf821a83683c932c"
+    }
+  },
+  "counts": {
+    "historical_volumes": 8,
+    "historical_chapters": 24,
+    "era_chapters": 21,
+    "topic_hub_chapters": 3,
+    "six_theme_routes": 6,
+    "local_voice_cases": 5,
+    "curated_journeys": 3,
+    "theme_case_placements": 16,
+    "new_chapter_bodies_copied": 0,
+    "existing_master_chapters_modified": 0,
+    "approved_human_reviews": 0,
+    "real_reader_sessions": 0,
+    "app_e2e_tests": 0
+  },
+  "themes": [
+    {
+      "theme_id": "T01",
+      "title": "성경과 권위",
+      "existing_core_chapter_ids": [
+        "L448-01-03",
+        "L448-03-02",
+        "L448-04-02",
+        "L448-05-01"
+      ],
+      "existing_context_chapter_ids": [
+        "L448-02-03"
+      ],
+      "existing_hub_chapter_id": "L448-08-01",
+      "local_voice_case_links": [
+        {
+          "case_id": "V501-LA-02",
+          "role": "DIRECT_HISTORICAL_COMPARISON",
+          "reason": "수도자 여성의 1691년 직접 저술과 1700년 편집·출판에서 권위를 비교"
+        },
+        {
+          "case_id": "V501-LA-01",
+          "role": "DIRECT_HISTORICAL_COMPARISON",
+          "reason": "현지 저술가가 교회 규범과 성직자 남용을 대비한 기록"
+        },
+        {
+          "case_id": "V501-LA-03",
+          "role": "METADATA_CONTEXT_ONLY",
+          "reason": "1968년 회의의 기관 권한과 지역 수용 문제; 공식 결론 전문 미열람"
+        }
+      ],
+      "case_evidence_policy": "THEMATIC_HISTORICAL_COMPARISON_EVIDENCE_SCOPED",
+      "reader_edition_section_heading": "## T01.",
+      "can_ship": false
+    },
+    {
+      "theme_id": "T02",
+      "title": "은총과 구원",
+      "existing_core_chapter_ids": [
+        "L448-04-01",
+        "L448-04-02",
+        "L448-05-01",
+        "L448-06-01"
+      ],
+      "existing_context_chapter_ids": [],
+      "existing_hub_chapter_id": "L448-08-01",
+      "local_voice_case_links": [
+        {
+          "case_id": "V501-LA-01",
+          "role": "COMPARATIVE_CONTEXT_NOT_SOTERIOLOGICAL_PROOF",
+          "reason": "종교 언어로 권력 남용을 비판했지만 은총·칭의 교리 원전 아님"
+        },
+        {
+          "case_id": "V501-LA-03",
+          "role": "COMPARATIVE_CONTEXT_NOT_SOTERIOLOGICAL_PROOF",
+          "reason": "가난·정의의 사목 문제를 생각하게 하지만 구원론 조항 원전 미열람"
+        }
+      ],
+      "case_evidence_policy": "NEW_CASES_ARE_NOT_DOCTRINAL_PRIMARY_EVIDENCE",
+      "reader_edition_section_heading": "## T02.",
+      "can_ship": false
+    },
+    {
+      "theme_id": "T03",
+      "title": "성찬과 예배",
+      "existing_core_chapter_ids": [
+        "L448-03-02",
+        "L448-04-02",
+        "L448-05-01"
+      ],
+      "existing_context_chapter_ids": [],
+      "existing_hub_chapter_id": "L448-08-02",
+      "local_voice_case_links": [
+        {
+          "case_id": "V501-LA-01",
+          "role": "METHODOLOGICAL_CONTRAST_NOT_EUCHARISTIC_EVIDENCE",
+          "reason": "고해(성찬과 다른 성례)를 다룬 그림, 성찬 신학의 직접 근거 아님"
+        }
+      ],
+      "case_evidence_policy": "NEW_CASES_ARE_NOT_DOCTRINAL_PRIMARY_EVIDENCE",
+      "reader_edition_section_heading": "## T03.",
+      "can_ship": false
+    },
+    {
+      "theme_id": "T04",
+      "title": "교회조직과 일상생활",
+      "existing_core_chapter_ids": [
+        "L448-01-01",
+        "L448-01-03",
+        "L448-02-01",
+        "L448-03-01",
+        "L448-04-01",
+        "L448-04-03",
+        "L448-05-03",
+        "L448-06-01",
+        "L448-07-01",
+        "L448-07-02"
+      ],
+      "existing_context_chapter_ids": [
+        "L448-07-03"
+      ],
+      "existing_hub_chapter_id": "L448-08-02",
+      "local_voice_case_links": [
+        {
+          "case_id": "V501-LA-02",
+          "role": "DIRECT_HISTORICAL_COMPARISON",
+          "reason": "수도원·여성의 학문 활동과 발언권"
+        },
+        {
+          "case_id": "V501-LA-01",
+          "role": "DIRECT_HISTORICAL_COMPARISON",
+          "reason": "고해 규범과 성직자 남용, 그림 속 여성은 저자 자신의 1인칭 화자 아님"
+        },
+        {
+          "case_id": "V501-PA-02",
+          "role": "SECONDARY_MEDIATED_WOMENS_HISTORY",
+          "reason": "타히티 왕비의 선택과 여성 간호 교육, 제삼자 선교 기록 기반"
+        },
+        {
+          "case_id": "V501-PA-01",
+          "role": "CONTEXT_INDIGENOUS_AGENCY",
+          "reason": "섬 주민이 교회 활동과 이동을 조직했지만 원어 전문 미교감"
+        },
+        {
+          "case_id": "V501-LA-03",
+          "role": "METADATA_CONTEXT_ONLY",
+          "reason": "회의와 평신도 실천의 간극, 공식 기록의 메타데이터만 확인"
+        }
+      ],
+      "case_evidence_policy": "THEMATIC_HISTORICAL_COMPARISON_EVIDENCE_SCOPED",
+      "reader_edition_section_heading": "## T04.",
+      "can_ship": false
+    },
+    {
+      "theme_id": "T05",
+      "title": "국가·갈등·공존",
+      "existing_core_chapter_ids": [
+        "L448-03-03",
+        "L448-04-03",
+        "L448-05-02"
+      ],
+      "existing_context_chapter_ids": [
+        "L448-01-02",
+        "L448-06-03"
+      ],
+      "existing_hub_chapter_id": "L448-08-03",
+      "local_voice_case_links": [
+        {
+          "case_id": "V501-LA-01",
+          "role": "HISTORICAL_COMPARISON_NO_CAUSAL_CHAIN",
+          "reason": "안데스 통치·교회권 남용의 비판을 독일 제국법의 시행 결과와 혼동하지 않음"
+        },
+        {
+          "case_id": "V501-LA-03",
+          "role": "METADATA_CONTEXT_ONLY",
+          "reason": "1968년 사회적 정의·교회 역할 관련 기관 기록의 목록, 지역 시행 근거 아님"
+        }
+      ],
+      "case_evidence_policy": "THEMATIC_HISTORICAL_COMPARISON_EVIDENCE_SCOPED",
+      "reader_edition_section_heading": "## T05.",
+      "can_ship": false
+    },
+    {
+      "theme_id": "T06",
+      "title": "번역과 지역 수용",
+      "existing_core_chapter_ids": [
+        "L448-02-02",
+        "L448-06-02",
+        "L448-07-02"
+      ],
+      "existing_context_chapter_ids": [
+        "L448-03-02",
+        "L448-04-01"
+      ],
+      "existing_hub_chapter_id": "L448-08-03",
+      "local_voice_case_links": [
+        {
+          "case_id": "V501-PA-01",
+          "role": "DOCUMENT_TRANSMISSION_ARCHIVE_EVIDENCE",
+          "reason": "라로통가의 현지 전파, 1830년경 서술과 후대 사본·번역 시기 구별"
+        },
+        {
+          "case_id": "V501-LA-02",
+          "role": "PRINT_TRANSMISSION_BIBLIOGRAPHIC_EVIDENCE",
+          "reason": "1691 저술·1700 초판·1701 두 도시 인쇄의 차이, 45개는 저작집 전체 표본"
+        },
+        {
+          "case_id": "V501-LA-01",
+          "role": "MANUSCRIPT_PAGINATION_COMPARISON",
+          "reason": "안데스 필사본 원쪽수 576/615와 현대 번호 590/629 구별"
+        }
+      ],
+      "case_evidence_policy": "THEMATIC_HISTORICAL_COMPARISON_EVIDENCE_SCOPED",
+      "reader_edition_section_heading": "## T06.",
+      "can_ship": false
+    }
+  ],
+  "cases": [
+    {
+      "case_id": "V501-LA-01",
+      "title": "안데스의 한 기독교인이 식민 통치를 비판하다 — 과만 포마와 '나쁜 고해'",
+      "primary_chapter_id": "L448-07-03",
+      "context_chapter_ids": [
+        "L448-05-03"
+      ],
+      "latest_manuscript": {
+        "path": "docs/01_CONTENT/L1/V504_FIVE_LOCAL_VOICES_PRINT_VARIANT_REVISED_EDITION_KO.md",
+        "sha": "646c3f0586c332707c0655fbdec2c2cfd1076628"
+      },
+      "reused_as_reference": true,
+      "body_duplicated_in_navigation": false,
+      "can_ship": false
+    },
+    {
+      "case_id": "V501-LA-02",
+      "title": "1691년 멕시코의 여성 저술가 소르 후아나 — 학문, 교회 권위와 자기 변론",
+      "primary_chapter_id": "L448-05-03",
+      "context_chapter_ids": [
+        "L448-07-03"
+      ],
+      "latest_manuscript": {
+        "path": "docs/01_CONTENT/L1/V504_FIVE_LOCAL_VOICES_PRINT_VARIANT_REVISED_EDITION_KO.md",
+        "sha": "646c3f0586c332707c0655fbdec2c2cfd1076628"
+      },
+      "reused_as_reference": true,
+      "body_duplicated_in_navigation": false,
+      "can_ship": false
+    },
+    {
+      "case_id": "V501-PA-01",
+      "title": "태평양 섬 사이의 기독교 전파 — 파페이하와 타웅아가 기록한 현지 선교",
+      "primary_chapter_id": "L448-06-03",
+      "context_chapter_ids": [
+        "L448-07-03"
+      ],
+      "latest_manuscript": {
+        "path": "docs/01_CONTENT/L1/V504_FIVE_LOCAL_VOICES_PRINT_VARIANT_REVISED_EDITION_KO.md",
+        "sha": "646c3f0586c332707c0655fbdec2c2cfd1076628"
+      },
+      "reused_as_reference": true,
+      "body_duplicated_in_navigation": false,
+      "can_ship": false
+    },
+    {
+      "case_id": "V501-PA-02",
+      "title": "태평양의 여성과 보이지 않는 기록 — 왕비의 선택, 돌봄, 현지 간호 교육",
+      "primary_chapter_id": "L448-05-03",
+      "context_chapter_ids": [
+        "L448-06-03",
+        "L448-07-03"
+      ],
+      "latest_manuscript": {
+        "path": "docs/01_CONTENT/L1/V504_FIVE_LOCAL_VOICES_PRINT_VARIANT_REVISED_EDITION_KO.md",
+        "sha": "646c3f0586c332707c0655fbdec2c2cfd1076628"
+      },
+      "reused_as_reference": true,
+      "body_duplicated_in_navigation": false,
+      "can_ship": false
+    },
+    {
+      "case_id": "V501-LA-03",
+      "title": "메데인 1968 — 주교회의의 문서와 평신도 공동체의 경험을 구분하기",
+      "primary_chapter_id": "L448-07-03",
+      "context_chapter_ids": [
+        "L448-05-03"
+      ],
+      "latest_manuscript": {
+        "path": "docs/01_CONTENT/L1/V504_FIVE_LOCAL_VOICES_PRINT_VARIANT_REVISED_EDITION_KO.md",
+        "sha": "646c3f0586c332707c0655fbdec2c2cfd1076628"
+      },
+      "reused_as_reference": true,
+      "body_duplicated_in_navigation": false,
+      "can_ship": false
+    }
+  ],
+  "journeys": [
+    {
+      "id": "J505-A",
+      "title": "누가 가르치고 글을 남길 수 있는가?",
+      "theme_ids": [
+        "T01",
+        "T04"
+      ],
+      "steps": [
+        {
+          "type": "chapter",
+          "id": "L448-01-03"
+        },
+        {
+          "type": "chapter",
+          "id": "L448-05-03"
+        },
+        {
+          "type": "case",
+          "id": "V501-LA-02"
+        },
+        {
+          "type": "case",
+          "id": "V501-LA-01"
+        },
+        {
+          "type": "chapter",
+          "id": "L448-07-03"
+        }
+      ],
+      "return_chapter_id": "L448-08-01",
+      "caveat": "원전 수용과 수도자/안데스의 직접 인과 계보 주장 금지"
+    },
+    {
+      "id": "J505-B",
+      "title": "유럽만이 복음을 전한 것이었는가?",
+      "theme_ids": [
+        "T06",
+        "T04"
+      ],
+      "steps": [
+        {
+          "type": "chapter",
+          "id": "L448-02-02"
+        },
+        {
+          "type": "chapter",
+          "id": "L448-06-02"
+        },
+        {
+          "type": "chapter",
+          "id": "L448-06-03"
+        },
+        {
+          "type": "case",
+          "id": "V501-PA-01"
+        },
+        {
+          "type": "chapter",
+          "id": "L448-07-02"
+        }
+      ],
+      "return_chapter_id": "L448-08-03",
+      "caveat": "중국·남인도·라로통가·한국의 기록은 동일 선교망 직접 계보로 묶지 않는다"
+    },
+    {
+      "id": "J505-C",
+      "title": "교회가 가르친 것과 사람들이 경험한 것은 같았는가?",
+      "theme_ids": [
+        "T05",
+        "T04",
+        "T01"
+      ],
+      "steps": [
+        {
+          "type": "chapter",
+          "id": "L448-05-02"
+        },
+        {
+          "type": "chapter",
+          "id": "L448-05-03"
+        },
+        {
+          "type": "case",
+          "id": "V501-LA-01"
+        },
+        {
+          "type": "case",
+          "id": "V501-PA-02"
+        },
+        {
+          "type": "case",
+          "id": "V501-LA-03"
+        }
+      ],
+      "return_chapter_id": "L448-08-03",
+      "caveat": "서로 다른 시대 법률·그림·선교 편지·기관 메타데이터를 동등한 원전으로 취급 금지"
+    }
+  ],
+  "guardrails": [
+    "비교 연결은 역사적 직접 영향/인과를 뜻하지 않는다",
+    "V4.93의 여섯 주제 경로 core/context 원본을 수정하지 않는다",
+    "T02 및 T03 지역 사례는 핵심 신학 원전으로 승격하지 않는다",
+    "개별 원전 이미지/사본 원문 전체 교감 완료를 주장하지 않는다",
+    "성례 중 고해와 성찬을 같은 근거로 사용하지 않는다",
+    "메데인 CELAM 공개 원본은 메타데이터만 확인, 본문 접근 미완료",
+    "신규 사례는 연구 원고 참조일 뿐 앱 URL 또는 렌더링이 확인된 연결이 아니다"
+  ],
+  "validation": {
+    "known_history_chapters": true,
+    "unknown_ids": [],
+    "one_source_for_each_case": true,
+    "v493_core_context_preserved": true,
+    "no_case_primary_evidence_for_T02_T03": true,
+    "case_details_not_duplicated": true,
+    "main_unchanged": true,
+    "operational_ai_studio_unchanged": true,
+    "can_ship": false
+  }
+}
