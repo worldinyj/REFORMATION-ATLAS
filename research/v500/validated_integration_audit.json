@@ -1,0 +1,492 @@
+{
+  "schema": "ATLAS_V500_EIGHT_VOLUME_EXACT_INTEGRITY_AND_RELEASE_AUDIT",
+  "version": "V5.00",
+  "date": "2026-11-22",
+  "status": "INTEGRATED_RESEARCH_DRAFT_CHECKED_NON_SHIPPING",
+  "can_ship": false,
+  "source_objects": {
+    "v500": {
+      "path": "research/data/V500_EIGHT_VOLUME_24_CHAPTER_EDITORIAL_REVIEW_CANDIDATE.json",
+      "ref": "research/atlas-v500-eight-volume-reviewed-candidate",
+      "blob_sha": "5e3db4f82511ca57b971b1f5811cbca35a33476c"
+    },
+    "v497": {
+      "path": "research/data/V497_21_CHAPTER_7VOLUME_EXPANDED_RESEARCH_CANDIDATE.json",
+      "ref": "research/atlas-v500-eight-volume-reviewed-candidate",
+      "blob_sha": "daf58a2e4a6a9faf669ea3702b3882ab703945e2"
+    },
+    "v450": {
+      "path": "research/data/V4_50_L1_24_CHAPTER_INTEGRATED_REVISED_MASTER.json",
+      "ref": "research/atlas-v450-core-reformation-l1-eucharist-confessions-peace",
+      "blob_sha": "79a362734aa963eb41ad0424515e8d21074349c5"
+    },
+    "integrated": {
+      "path": "docs/01_CONTENT/INTEGRATED/V500_EIGHT_VOLUME_SOURCE_REVIEW_EDITION_KO.md",
+      "ref": "research/atlas-v500-eight-volume-reviewed-candidate",
+      "blob_sha": "39836573f568a9959d1fae8f8c3a00159738d445"
+    },
+    "reader": {
+      "path": "docs/01_CONTENT/L1/V493_READER_FIRST_SIX_THEME_INTEGRATED_EDITION_KO.md",
+      "ref": "research/atlas-v500-eight-volume-reviewed-candidate",
+      "blob_sha": "0c2fccd05d492bccaa527c0a58e6e1181c2ddb62"
+    },
+    "nav": {
+      "path": "research/v493/reader_first_navigation_contract.json",
+      "ref": "research/atlas-v500-eight-volume-reviewed-candidate",
+      "blob_sha": "eb2f18b0634728014a0a4d7893ab6c9983b656eb"
+    },
+    "witness": {
+      "path": "research/v499/primary_language_witness_contract.json",
+      "ref": "research/atlas-v500-eight-volume-reviewed-candidate",
+      "blob_sha": "f9a844d1f644d3a66dd56fdf4d2e3079480240e5"
+    }
+  },
+  "totals": {
+    "volumes": 8,
+    "chapters": 24,
+    "era_chapters": 21,
+    "source_era_chars": 28425,
+    "current_era_chars": 29669,
+    "source_hub_chars": 1604,
+    "current_hub_chars": 1604,
+    "affected_chapters": [
+      "L448-04-02",
+      "L448-05-02"
+    ],
+    "inserted_paragraphs": 4,
+    "chapters_exact_in_integrated": 24,
+    "all_source_paragraphs_preserved": true,
+    "duplicate_long_paragraphs": 0,
+    "unique_source_urls": 77,
+    "url_references": 92,
+    "themes": 6,
+    "invalid_theme_ids": 0,
+    "original_16th_century_facsimile_pages_verified": 0,
+    "expert_reviews": 0,
+    "actual_reader_sessions": 0,
+    "app_e2e_sessions": 0
+  },
+  "chapter_checks": [
+    {
+      "id": "L448-01-01",
+      "volume": "VOL-01",
+      "exact_in_integrated": true,
+      "unchanged_source_paragraphs_preserved": true,
+      "changed": false,
+      "edit_count": 0,
+      "source_chars": 1295,
+      "current_chars": 1295,
+      "source_links": 3,
+      "can_ship": false
+    },
+    {
+      "id": "L448-01-02",
+      "volume": "VOL-01",
+      "exact_in_integrated": true,
+      "unchanged_source_paragraphs_preserved": true,
+      "changed": false,
+      "edit_count": 0,
+      "source_chars": 1157,
+      "current_chars": 1157,
+      "source_links": 4,
+      "can_ship": false
+    },
+    {
+      "id": "L448-01-03",
+      "volume": "VOL-01",
+      "exact_in_integrated": true,
+      "unchanged_source_paragraphs_preserved": true,
+      "changed": false,
+      "edit_count": 0,
+      "source_chars": 1273,
+      "current_chars": 1273,
+      "source_links": 2,
+      "can_ship": false
+    },
+    {
+      "id": "L448-02-01",
+      "volume": "VOL-02",
+      "exact_in_integrated": true,
+      "unchanged_source_paragraphs_preserved": true,
+      "changed": false,
+      "edit_count": 0,
+      "source_chars": 1411,
+      "current_chars": 1411,
+      "source_links": 4,
+      "can_ship": false
+    },
+    {
+      "id": "L448-02-02",
+      "volume": "VOL-02",
+      "exact_in_integrated": true,
+      "unchanged_source_paragraphs_preserved": true,
+      "changed": false,
+      "edit_count": 0,
+      "source_chars": 1546,
+      "current_chars": 1546,
+      "source_links": 4,
+      "can_ship": false
+    },
+    {
+      "id": "L448-02-03",
+      "volume": "VOL-02",
+      "exact_in_integrated": true,
+      "unchanged_source_paragraphs_preserved": true,
+      "changed": false,
+      "edit_count": 0,
+      "source_chars": 1420,
+      "current_chars": 1420,
+      "source_links": 4,
+      "can_ship": false
+    },
+    {
+      "id": "L448-03-01",
+      "volume": "VOL-03",
+      "exact_in_integrated": true,
+      "unchanged_source_paragraphs_preserved": true,
+      "changed": false,
+      "edit_count": 0,
+      "source_chars": 1084,
+      "current_chars": 1084,
+      "source_links": 2,
+      "can_ship": false
+    },
+    {
+      "id": "L448-03-02",
+      "volume": "VOL-03",
+      "exact_in_integrated": true,
+      "unchanged_source_paragraphs_preserved": true,
+      "changed": false,
+      "edit_count": 0,
+      "source_chars": 1369,
+      "current_chars": 1369,
+      "source_links": 4,
+      "can_ship": false
+    },
+    {
+      "id": "L448-03-03",
+      "volume": "VOL-03",
+      "exact_in_integrated": true,
+      "unchanged_source_paragraphs_preserved": true,
+      "changed": false,
+      "edit_count": 0,
+      "source_chars": 1270,
+      "current_chars": 1270,
+      "source_links": 2,
+      "can_ship": false
+    },
+    {
+      "id": "L448-04-01",
+      "volume": "VOL-04",
+      "exact_in_integrated": true,
+      "unchanged_source_paragraphs_preserved": true,
+      "changed": false,
+      "edit_count": 0,
+      "source_chars": 997,
+      "current_chars": 997,
+      "source_links": 3,
+      "can_ship": false
+    },
+    {
+      "id": "L448-04-02",
+      "volume": "VOL-04",
+      "exact_in_integrated": true,
+      "unchanged_source_paragraphs_preserved": true,
+      "changed": true,
+      "edit_count": 2,
+      "source_chars": 1358,
+      "current_chars": 1971,
+      "source_links": 5,
+      "can_ship": false
+    },
+    {
+      "id": "L448-04-03",
+      "volume": "VOL-04",
+      "exact_in_integrated": true,
+      "unchanged_source_paragraphs_preserved": true,
+      "changed": false,
+      "edit_count": 0,
+      "source_chars": 1315,
+      "current_chars": 1315,
+      "source_links": 4,
+      "can_ship": false
+    },
+    {
+      "id": "L448-05-01",
+      "volume": "VOL-05",
+      "exact_in_integrated": true,
+      "unchanged_source_paragraphs_preserved": true,
+      "changed": false,
+      "edit_count": 0,
+      "source_chars": 1224,
+      "current_chars": 1224,
+      "source_links": 3,
+      "can_ship": false
+    },
+    {
+      "id": "L448-05-02",
+      "volume": "VOL-05",
+      "exact_in_integrated": true,
+      "unchanged_source_paragraphs_preserved": true,
+      "changed": true,
+      "edit_count": 2,
+      "source_chars": 1285,
+      "current_chars": 1916,
+      "source_links": 5,
+      "can_ship": false
+    },
+    {
+      "id": "L448-05-03",
+      "volume": "VOL-05",
+      "exact_in_integrated": true,
+      "unchanged_source_paragraphs_preserved": true,
+      "changed": false,
+      "edit_count": 0,
+      "source_chars": 1300,
+      "current_chars": 1300,
+      "source_links": 3,
+      "can_ship": false
+    },
+    {
+      "id": "L448-06-01",
+      "volume": "VOL-06",
+      "exact_in_integrated": true,
+      "unchanged_source_paragraphs_preserved": true,
+      "changed": false,
+      "edit_count": 0,
+      "source_chars": 1559,
+      "current_chars": 1559,
+      "source_links": 6,
+      "can_ship": false
+    },
+    {
+      "id": "L448-06-02",
+      "volume": "VOL-06",
+      "exact_in_integrated": true,
+      "unchanged_source_paragraphs_preserved": true,
+      "changed": false,
+      "edit_count": 0,
+      "source_chars": 1556,
+      "current_chars": 1556,
+      "source_links": 4,
+      "can_ship": false
+    },
+    {
+      "id": "L448-06-03",
+      "volume": "VOL-06",
+      "exact_in_integrated": true,
+      "unchanged_source_paragraphs_preserved": true,
+      "changed": false,
+      "edit_count": 0,
+      "source_chars": 1629,
+      "current_chars": 1629,
+      "source_links": 4,
+      "can_ship": false
+    },
+    {
+      "id": "L448-07-01",
+      "volume": "VOL-07",
+      "exact_in_integrated": true,
+      "unchanged_source_paragraphs_preserved": true,
+      "changed": false,
+      "edit_count": 0,
+      "source_chars": 1364,
+      "current_chars": 1364,
+      "source_links": 4,
+      "can_ship": false
+    },
+    {
+      "id": "L448-07-02",
+      "volume": "VOL-07",
+      "exact_in_integrated": true,
+      "unchanged_source_paragraphs_preserved": true,
+      "changed": false,
+      "edit_count": 0,
+      "source_chars": 1499,
+      "current_chars": 1499,
+      "source_links": 6,
+      "can_ship": false
+    },
+    {
+      "id": "L448-07-03",
+      "volume": "VOL-07",
+      "exact_in_integrated": true,
+      "unchanged_source_paragraphs_preserved": true,
+      "changed": false,
+      "edit_count": 0,
+      "source_chars": 1514,
+      "current_chars": 1514,
+      "source_links": 6,
+      "can_ship": false
+    },
+    {
+      "id": "L448-08-01",
+      "volume": "VOL-08",
+      "exact_in_integrated": true,
+      "unchanged_source_paragraphs_preserved": true,
+      "changed": false,
+      "edit_count": 0,
+      "source_chars": 502,
+      "current_chars": 502,
+      "source_links": 3,
+      "can_ship": false
+    },
+    {
+      "id": "L448-08-02",
+      "volume": "VOL-08",
+      "exact_in_integrated": true,
+      "unchanged_source_paragraphs_preserved": true,
+      "changed": false,
+      "edit_count": 0,
+      "source_chars": 506,
+      "current_chars": 506,
+      "source_links": 3,
+      "can_ship": false
+    },
+    {
+      "id": "L448-08-03",
+      "volume": "VOL-08",
+      "exact_in_integrated": true,
+      "unchanged_source_paragraphs_preserved": true,
+      "changed": false,
+      "edit_count": 0,
+      "source_chars": 596,
+      "current_chars": 596,
+      "source_links": 4,
+      "can_ship": false
+    }
+  ],
+  "theme_paths": [
+    {
+      "theme": "T01",
+      "core": [
+        "L448-01-03",
+        "L448-03-02",
+        "L448-04-02",
+        "L448-05-01"
+      ],
+      "context": [
+        "L448-02-03"
+      ]
+    },
+    {
+      "theme": "T02",
+      "core": [
+        "L448-04-01",
+        "L448-04-02",
+        "L448-05-01",
+        "L448-06-01"
+      ],
+      "context": []
+    },
+    {
+      "theme": "T03",
+      "core": [
+        "L448-03-02",
+        "L448-04-02",
+        "L448-05-01"
+      ],
+      "context": []
+    },
+    {
+      "theme": "T04",
+      "core": [
+        "L448-01-01",
+        "L448-01-03",
+        "L448-02-01",
+        "L448-03-01",
+        "L448-04-01",
+        "L448-04-03",
+        "L448-05-03",
+        "L448-06-01",
+        "L448-07-01",
+        "L448-07-02"
+      ],
+      "context": [
+        "L448-07-03"
+      ]
+    },
+    {
+      "theme": "T05",
+      "core": [
+        "L448-03-03",
+        "L448-04-03",
+        "L448-05-02"
+      ],
+      "context": [
+        "L448-01-02",
+        "L448-06-03"
+      ]
+    },
+    {
+      "theme": "T06",
+      "core": [
+        "L448-02-02",
+        "L448-06-02",
+        "L448-07-02"
+      ],
+      "context": [
+        "L448-03-02",
+        "L448-04-01"
+      ]
+    }
+  ],
+  "edit_log": [
+    {
+      "chapter_id": "L448-04-02",
+      "method": "INSERT_AFTER_UNIQUE_ORIGINAL_PARAGRAPH",
+      "evidence_claim_ids": [
+        "V499-01",
+        "V499-02"
+      ]
+    },
+    {
+      "chapter_id": "L448-04-02",
+      "method": "INSERT_AFTER_UNIQUE_ORIGINAL_PARAGRAPH",
+      "evidence_claim_ids": [
+        "V499-03",
+        "V499-04"
+      ]
+    },
+    {
+      "chapter_id": "L448-05-02",
+      "method": "INSERT_AFTER_UNIQUE_ORIGINAL_PARAGRAPH",
+      "evidence_claim_ids": [
+        "V499-05",
+        "V499-07"
+      ]
+    },
+    {
+      "chapter_id": "L448-05-02",
+      "method": "INSERT_AFTER_UNIQUE_ORIGINAL_PARAGRAPH",
+      "evidence_claim_ids": [
+        "V499-08",
+        "V499-09"
+      ]
+    }
+  ],
+  "review_gates": {
+    "period_original_print_full_collation": false,
+    "witness_full_critical_collation": false,
+    "wyclif_hus_primary_latin_collation": false,
+    "tamil_1715_1719_resolved": false,
+    "korean_1900_two_prints_collated": false,
+    "V482_exact_source_recovered": false,
+    "historian_review": false,
+    "human_reader_test": false,
+    "app_end_to_end_test": false,
+    "rights_review": false,
+    "can_ship": false
+  },
+  "verification": {
+    "zero_errors": true,
+    "errors": [],
+    "all_original_source_paragraphs_preserved": true,
+    "all_integrated_bodies_equal_structured_source": true,
+    "full_reader_essay_copied_exactly": true,
+    "only_two_chapters_affected": true,
+    "all_theme_ids_existing": true,
+    "main_unchanged": true,
+    "AI_studio_unchanged": true
+  }
+}
