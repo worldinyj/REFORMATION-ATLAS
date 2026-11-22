@@ -1,0 +1,217 @@
+{
+  "schema": "ATLAS_V499_WITNESS_LEVEL_GERMAN_LATIN_SOURCE_AUDIT",
+  "version": "V4.99",
+  "date": "2026-11-22",
+  "branch": "research/atlas-v499-german-latin-primary-text-comparison",
+  "status": "HISTORICAL_TEXT_TRANSCRIPTION_AND_CRITICAL_EDITION_REVIEW",
+  "can_ship": false,
+  "app_publish": false,
+  "claims_count": 10,
+  "source_count": 7,
+  "sources": {
+    "MAR": {
+      "uri": "https://germanhistorydocs.org/de/von-den-reformationen-bis-zum-dreissigjaehrigen-krieg-1500-1648/ghdi:document-4311",
+      "label": "German Historical Institute, edited 1529 German transcription, source WA 30/3 (1910) 160-171",
+      "evidence_class": "HISTORICAL_GERMAN_TEXT_IN_LATER_TRANSCRIPTION",
+      "original_1529_facsimile_seen": false
+    },
+    "CA1540": {
+      "uri": "https://www.augsburg1540.com/uploads/1/3/8/9/138903771/1540_latin_text_from_corpus_reformandum.pdf",
+      "label": "Corpus Reformatorum XXVI (1858), pages 357-358, article X plus variant footnote 34, PDF page index 5 visually checked",
+      "evidence_class": "LATIN_CRITICAL_EDITION_VISUAL_PAGE_CHECK",
+      "original_1540_print_seen": false
+    },
+    "DDE1555": {
+      "uri": "https://tueditions.ulb.tu-darmstadt.de/v/pa000008-0116",
+      "label": "Europäische Religionsfrieden Digital edition based on printed 1555 Mainz Behem VD16 R801, BSB call no. 2 J. publ.g. 10 Beibd.1",
+      "evidence_class": "ORIGINAL_1555_PRINT_BASED_SCHOLARLY_TRANSCRIPTION",
+      "original_1555_facsimile_seen": false
+    },
+    "DDEEDITION": {
+      "uri": "https://exist.ulb.tu-darmstadt.de/2/v/pa000008-0101",
+      "label": "Printed witness provenance, Mainz Behem 1555 VD16 R801 and variant witnesses",
+      "evidence_class": "EDITORIAL_PROVENANCE"
+    },
+    "IPO": {
+      "uri": "https://peaceofwestphalia.org/everything-peace-of-westphalia/documents-and-sources/osnabruck-peace-instrument/",
+      "label": "Latin text and historical English translation of Instrumentum Pacis Osnabrugensis 1648",
+      "evidence_class": "LATIN_TREATY_TRANSCRIPTION",
+      "original_1648_facsimile_seen": false
+    },
+    "MDZ1648": {
+      "uri": "https://www.digitale-sammlungen.de/en/details/bsb10512065",
+      "label": "1648 printed Latin Instrumentum Pacis Osnabrugensis, VD17 14:053107V, copy digitized by BSB/MDZ",
+      "evidence_class": "1648_PRINT_CATALOG_ONLY",
+      "original_1648_facsimile_seen": false
+    },
+    "GRUBER": {
+      "uri": "https://gruber.lstc.edu/confessions/augs_apol.php",
+      "label": "Gruber rare-book Augsburg Confession descriptions, 1540 Variata and separate 1540 non-Variata copies",
+      "evidence_class": "RARE_BOOK_OBJECT_DESCRIPTION"
+    }
+  },
+  "claims": [
+    {
+      "id": "V499-01",
+      "chapter_id": "L448-04-02",
+      "source_key": "MAR",
+      "locator": "Article VII 'Zum Siebenden'",
+      "meaning": "shared faith/justification position",
+      "verification_status": "TRANSCRIPTION_GERMAN_CONFIRMED",
+      "claim_scope_verified": true,
+      "original_period_print_or_manuscript_fully_collated": false,
+      "historian_approval": false,
+      "can_ship": false
+    },
+    {
+      "id": "V499-02",
+      "chapter_id": "L448-04-02",
+      "source_key": "MAR",
+      "locator": "Article XV 'Zum funfzehendten'",
+      "meaning": "shared sacramental claims alongside unresolved corporal presence",
+      "verification_status": "TRANSCRIPTION_GERMAN_CONFIRMED",
+      "claim_scope_verified": true,
+      "original_period_print_or_manuscript_fully_collated": false,
+      "historian_approval": false,
+      "can_ship": false
+    },
+    {
+      "id": "V499-03",
+      "chapter_id": "L448-04-02",
+      "source_key": "CA1540",
+      "locator": "CR XXVI printed pp. 357-358, article X, footnote 34; PDF page index 5",
+      "meaning": "1531 first two editions: vere adsint et distribuantur; 1540 third/fourth editions: cum pane et vino vere exhibeatur",
+      "verification_status": "CRITICAL_EDITION_LATIN_VISUAL_CONFIRMED",
+      "claim_scope_verified": true,
+      "original_period_print_or_manuscript_fully_collated": false,
+      "historian_approval": false,
+      "can_ship": false
+    },
+    {
+      "id": "V499-04",
+      "chapter_id": "L448-04-02",
+      "source_key": "GRUBER",
+      "locator": "1540 Variata versus separate 1540 non-Variata item in catalog",
+      "meaning": "publication year alone does not identify Variata",
+      "verification_status": "CATALOG_OBJECT_DISTINCTION",
+      "claim_scope_verified": true,
+      "original_period_print_or_manuscript_fully_collated": false,
+      "historian_approval": false,
+      "can_ship": false
+    },
+    {
+      "id": "V499-05",
+      "chapter_id": "L448-05-02",
+      "source_key": "DDE1555",
+      "locator": "Art.17, transcription lines 437-439, Blatt 7r",
+      "meaning": "confessions other than the two named excluded from peace",
+      "verification_status": "1555_PRINT_BASED_TRANSCRIPTION_CONFIRMED",
+      "claim_scope_verified": true,
+      "original_period_print_or_manuscript_fully_collated": false,
+      "historian_approval": false,
+      "can_ship": false
+    },
+    {
+      "id": "V499-06",
+      "chapter_id": "L448-05-02",
+      "source_key": "DDE1555",
+      "locator": "Art.18, lines 440-467, Blatt 7r-7v",
+      "meaning": "office and revenues of clergy who leave old religion governed by reservation",
+      "verification_status": "1555_PRINT_BASED_TRANSCRIPTION_CONFIRMED",
+      "claim_scope_verified": true,
+      "original_period_print_or_manuscript_fully_collated": false,
+      "historian_approval": false,
+      "can_ship": false
+    },
+    {
+      "id": "V499-07",
+      "chapter_id": "L448-05-02",
+      "source_key": "DDE1555",
+      "locator": "Art.24, lines 563-579, Blatt 9r-9v",
+      "meaning": "emigration with family and property disposal subject to serfdom and customary obligations",
+      "verification_status": "1555_PRINT_BASED_TRANSCRIPTION_CONFIRMED",
+      "claim_scope_verified": true,
+      "original_period_print_or_manuscript_fully_collated": false,
+      "historian_approval": false,
+      "can_ship": false
+    },
+    {
+      "id": "V499-08",
+      "chapter_id": "L448-05-02",
+      "source_key": "IPO",
+      "locator": "Osnabrück Art. V §34; patienter tolerentur / conscientia libera domi",
+      "meaning": "limited private devotion and neighbouring worship plus education with continued obligations",
+      "verification_status": "LATIN_TREATY_TRANSCRIPTION_CONFIRMED",
+      "claim_scope_verified": true,
+      "original_period_print_or_manuscript_fully_collated": false,
+      "historian_approval": false,
+      "can_ship": false
+    },
+    {
+      "id": "V499-09",
+      "chapter_id": "L448-05-02",
+      "source_key": "IPO",
+      "locator": "Osnabrück Art. VII §1; qui inter illos reformati vocantur",
+      "meaning": "reformed confession included in imperial peace rights while local arrangements retained",
+      "verification_status": "LATIN_TREATY_TRANSCRIPTION_CONFIRMED",
+      "claim_scope_verified": true,
+      "original_period_print_or_manuscript_fully_collated": false,
+      "historian_approval": false,
+      "can_ship": false
+    },
+    {
+      "id": "V499-10",
+      "chapter_id": "L448-05-02",
+      "source_key": "MDZ1648",
+      "locator": "VD17 14:053107V BSB MDZ catalog bsb10512065",
+      "meaning": "1648 Latin print copy identified but not visually collated at target clauses",
+      "verification_status": "ORIGINAL_PRINT_CATALOG_ONLY",
+      "claim_scope_verified": true,
+      "original_period_print_or_manuscript_fully_collated": false,
+      "historian_approval": false,
+      "can_ship": false
+    }
+  ],
+  "source_lineage": {
+    "era_l1": {
+      "repository": "worldinyj/REFORMATION-ATLAS",
+      "branch": "research/atlas-v497-vol03040507-substantive-l1-expansion",
+      "path": "research/data/V497_21_CHAPTER_7VOLUME_EXPANDED_RESEARCH_CANDIDATE.json",
+      "sha": "daf58a2e4a6a9faf669ea3702b3882ab703945e2"
+    },
+    "prior": {
+      "branch": "research/atlas-v498-primary-text-locator-audit",
+      "path": "research/v498/source_claim_locator_contract.json",
+      "sha": "d7df183f7877501071c0151ba122b88ce73bb9e1"
+    },
+    "manuscript": "research/v499/german_latin_original_text_comparison_ko.md"
+  },
+  "verification_summary": {
+    "primary_period_original_pages_visually_collated": 0,
+    "latin_1858_critical_edition_pages_visually_checked": 1,
+    "historical_1555_print_based_transcription_paragraphs_checked": 3,
+    "marburg_historical_german_articles_checked": 2,
+    "ipo_latin_original_text_transcriptions_checked": 2,
+    "known_object_only_without_target_page_check": 1,
+    "unknown_chapter_ids": 0,
+    "actual_reader_sessions": 0,
+    "expert_review_count": 0,
+    "app_end_to_end_tests": 0
+  },
+  "holds": [
+    "1529 Marburg signed document and WA30/3 page facsimile not directly checked",
+    "1531 and 1540 original print leaf-to-leaf comparison not performed",
+    "1555 1555-era print facsimile and alternative manuscript readings not manually collated",
+    "1648 printed original facsimile clause pages not manually collated",
+    "Wyclif and Hus Latin primary text not collated",
+    "1715 vs 1719 Tamil bibliographic discrepancy remains unresolved",
+    "1900 Seoul and Yokohama NT prints uncollated",
+    "V4.82 full text and SHA not recovered",
+    "Human review, image rights and app E2E still blocked"
+  ],
+  "release": {
+    "can_ship": false,
+    "can_merge_main": false,
+    "can_update_operational_ai_studio": false
+  }
+}
