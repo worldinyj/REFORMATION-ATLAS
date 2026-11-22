@@ -1,0 +1,309 @@
+{
+  "version": "V4.97",
+  "date": "2026-11-22",
+  "status": "EXPANDED_FULL_RESEARCH_EDITION_VERIFIED_NOT_PUBLISHED",
+  "can_ship": false,
+  "provenance": {
+    "master": {
+      "branch": "research/atlas-v450-core-reformation-l1-eucharist-confessions-peace",
+      "path": "research/data/V4_50_L1_24_CHAPTER_INTEGRATED_REVISED_MASTER.json",
+      "blob_sha": "79a362734aa963eb41ad0424515e8d21074349c5"
+    },
+    "candidate": {
+      "branch": "research/atlas-v497-vol03040507-substantive-l1-expansion",
+      "path": "research/data/V497_21_CHAPTER_7VOLUME_EXPANDED_RESEARCH_CANDIDATE.json",
+      "blob_sha": "daf58a2e4a6a9faf669ea3702b3882ab703945e2"
+    },
+    "integrated": {
+      "branch": "research/atlas-v497-vol03040507-substantive-l1-expansion",
+      "path": "docs/01_CONTENT/INTEGRATED/V497_EIGHT_VOLUME_EXPANDED_RESEARCH_MASTER_KO.md",
+      "blob_sha": "e5d1eaa8ac7c9136a80d2a3c896324a3dccf5e1d"
+    },
+    "reader": {
+      "branch": "research/atlas-v493-reader-first-six-theme-edition",
+      "path": "docs/01_CONTENT/L1/V493_READER_FIRST_SIX_THEME_INTEGRATED_EDITION_KO.md",
+      "blob_sha": "0c2fccd05d492bccaa527c0a58e6e1181c2ddb62"
+    }
+  },
+  "counts": {
+    "volume_count": 8,
+    "chapter_count": 24,
+    "expected_chapters": 24,
+    "chapters_exactly_compared": 24,
+    "chapter_mismatches": [],
+    "expanded_chapters": 21,
+    "hub_unchanged_count": 3,
+    "original_total_chapter_body_characters": 15031,
+    "research_total_chapter_body_characters": 30029,
+    "exact_duplicate_paragraphs": 0,
+    "reader_full_essay_embedded": true,
+    "unknown_l1_ids": [],
+    "registered_candidate_source_links": 78,
+    "registered_candidate_unique_urls": 71,
+    "historian_reviews": 0,
+    "actual_reader_sessions": 0,
+    "operational_app_tests": 0
+  },
+  "volumes": [
+    {
+      "volume": "VOL-01",
+      "original": 1502,
+      "revised": 3725
+    },
+    {
+      "volume": "VOL-02",
+      "original": 1405,
+      "revised": 4377
+    },
+    {
+      "volume": "VOL-03",
+      "original": 1733,
+      "revised": 3723
+    },
+    {
+      "volume": "VOL-04",
+      "original": 1873,
+      "revised": 3670
+    },
+    {
+      "volume": "VOL-05",
+      "original": 2079,
+      "revised": 3809
+    },
+    {
+      "volume": "VOL-06",
+      "original": 1505,
+      "revised": 4744
+    },
+    {
+      "volume": "VOL-07",
+      "original": 3330,
+      "revised": 4377
+    },
+    {
+      "volume": "VOL-08",
+      "original": 1604,
+      "revised": 1604
+    }
+  ],
+  "ledger": [
+    {
+      "id": "L448-01-01",
+      "volume": "VOL-01",
+      "exact": true,
+      "chars": 1295,
+      "kind": "EXPANDED"
+    },
+    {
+      "id": "L448-01-02",
+      "volume": "VOL-01",
+      "exact": true,
+      "chars": 1157,
+      "kind": "EXPANDED"
+    },
+    {
+      "id": "L448-01-03",
+      "volume": "VOL-01",
+      "exact": true,
+      "chars": 1273,
+      "kind": "EXPANDED"
+    },
+    {
+      "id": "L448-02-01",
+      "volume": "VOL-02",
+      "exact": true,
+      "chars": 1411,
+      "kind": "EXPANDED"
+    },
+    {
+      "id": "L448-02-02",
+      "volume": "VOL-02",
+      "exact": true,
+      "chars": 1546,
+      "kind": "EXPANDED"
+    },
+    {
+      "id": "L448-02-03",
+      "volume": "VOL-02",
+      "exact": true,
+      "chars": 1420,
+      "kind": "EXPANDED"
+    },
+    {
+      "id": "L448-03-01",
+      "volume": "VOL-03",
+      "exact": true,
+      "chars": 1084,
+      "kind": "EXPANDED"
+    },
+    {
+      "id": "L448-03-02",
+      "volume": "VOL-03",
+      "exact": true,
+      "chars": 1369,
+      "kind": "EXPANDED"
+    },
+    {
+      "id": "L448-03-03",
+      "volume": "VOL-03",
+      "exact": true,
+      "chars": 1270,
+      "kind": "EXPANDED"
+    },
+    {
+      "id": "L448-04-01",
+      "volume": "VOL-04",
+      "exact": true,
+      "chars": 997,
+      "kind": "EXPANDED"
+    },
+    {
+      "id": "L448-04-02",
+      "volume": "VOL-04",
+      "exact": true,
+      "chars": 1358,
+      "kind": "EXPANDED"
+    },
+    {
+      "id": "L448-04-03",
+      "volume": "VOL-04",
+      "exact": true,
+      "chars": 1315,
+      "kind": "EXPANDED"
+    },
+    {
+      "id": "L448-05-01",
+      "volume": "VOL-05",
+      "exact": true,
+      "chars": 1224,
+      "kind": "EXPANDED"
+    },
+    {
+      "id": "L448-05-02",
+      "volume": "VOL-05",
+      "exact": true,
+      "chars": 1285,
+      "kind": "EXPANDED"
+    },
+    {
+      "id": "L448-05-03",
+      "volume": "VOL-05",
+      "exact": true,
+      "chars": 1300,
+      "kind": "EXPANDED"
+    },
+    {
+      "id": "L448-06-01",
+      "volume": "VOL-06",
+      "exact": true,
+      "chars": 1559,
+      "kind": "EXPANDED"
+    },
+    {
+      "id": "L448-06-02",
+      "volume": "VOL-06",
+      "exact": true,
+      "chars": 1556,
+      "kind": "EXPANDED"
+    },
+    {
+      "id": "L448-06-03",
+      "volume": "VOL-06",
+      "exact": true,
+      "chars": 1629,
+      "kind": "EXPANDED"
+    },
+    {
+      "id": "L448-07-01",
+      "volume": "VOL-07",
+      "exact": true,
+      "chars": 1364,
+      "kind": "EXPANDED"
+    },
+    {
+      "id": "L448-07-02",
+      "volume": "VOL-07",
+      "exact": true,
+      "chars": 1499,
+      "kind": "EXPANDED"
+    },
+    {
+      "id": "L448-07-03",
+      "volume": "VOL-07",
+      "exact": true,
+      "chars": 1514,
+      "kind": "EXPANDED"
+    },
+    {
+      "id": "L448-08-01",
+      "volume": "VOL-08",
+      "exact": true,
+      "chars": 502,
+      "kind": "ORIGINAL_V450_HUB"
+    },
+    {
+      "id": "L448-08-02",
+      "volume": "VOL-08",
+      "exact": true,
+      "chars": 506,
+      "kind": "ORIGINAL_V450_HUB"
+    },
+    {
+      "id": "L448-08-03",
+      "volume": "VOL-08",
+      "exact": true,
+      "chars": 596,
+      "kind": "ORIGINAL_V450_HUB"
+    }
+  ],
+  "review_risks": [
+    {
+      "severity": "BLOCK",
+      "id": "SOURCE-PRIMARY",
+      "reason": "Academic/institutional secondary sources used; critical original manuscript or artifact collation pending"
+    },
+    {
+      "severity": "BLOCK",
+      "id": "V482",
+      "reason": "Thematic translation V4.82 exact source and SHA unavailable"
+    },
+    {
+      "severity": "BLOCK",
+      "id": "TAMIL-BIB",
+      "reason": "1715 vs 1719 bibliographic relationship unresolved"
+    },
+    {
+      "severity": "BLOCK",
+      "id": "REFORM-EDITION",
+      "reason": "1529 Marburg Article XV and Augsburg 1530/1531/1540 editions need primary witness review"
+    },
+    {
+      "severity": "BLOCK",
+      "id": "LEGAL",
+      "reason": "1555/1648 legal protections require specialist nuance"
+    },
+    {
+      "severity": "BLOCK",
+      "id": "GLOBAL",
+      "reason": "Korean 1779 origins debate, AIC regional diversity and global liberation theology need specialist review"
+    },
+    {
+      "severity": "BLOCK",
+      "id": "HUMAN",
+      "reason": "Expert historian, actual reader and rights reviewers absent"
+    },
+    {
+      "severity": "BLOCK",
+      "id": "APP",
+      "reason": "No AI Studio route, rendering or E2E validation"
+    }
+  ],
+  "release_gate": {
+    "can_ship": false,
+    "can_import_ai_studio": false,
+    "can_merge_main": false,
+    "main_modified": false,
+    "existing_V450_master_modified": false,
+    "operational_ai_studio_modified": false
+  }
+}
