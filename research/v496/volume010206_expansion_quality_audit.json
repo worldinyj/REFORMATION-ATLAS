@@ -1,0 +1,292 @@
+{
+  "schema": "ATLAS_V496_VOL010206_L1_EXPANSION_RESEARCH_AUDIT",
+  "version": "V4.96",
+  "date": "2026-11-22",
+  "status": "RESEARCH_EXPANDED_DRAFT_NOT_SHIPPABLE",
+  "can_ship": false,
+  "source_master": {
+    "branch": "research/atlas-v450-core-reformation-l1-eucharist-confessions-peace",
+    "path": "research/data/V4_50_L1_24_CHAPTER_INTEGRATED_REVISED_MASTER.json",
+    "blob_sha": "79a362734aa963eb41ad0424515e8d21074349c5"
+  },
+  "independent_drafts": [
+    {
+      "volume": "VOL-01",
+      "path": "docs/01_CONTENT/L1/V496_VOL01_EARLY_CHURCH_EXPANDED_DRAFT_KO.md",
+      "sha": "6eb0ed99009caf78598e325ae6b74ec91fbf9d8d"
+    },
+    {
+      "volume": "VOL-02",
+      "path": "docs/01_CONTENT/L1/V496_VOL02_MEDIEVAL_MULTIREGIONAL_EXPANDED_DRAFT_KO.md",
+      "sha": "7c784cf6a3455360d103427b71d7af16acbb5211"
+    },
+    {
+      "volume": "VOL-06",
+      "path": "docs/01_CONTENT/L1/V496_VOL06_PIETISM_MISSIONS_EXPANDED_DRAFT_KO.md",
+      "sha": "2dba34bd3fadab149b9ec1666653f6f6e953b9ad"
+    }
+  ],
+  "chapter_ledger": [
+    {
+      "id": "L448-01-01",
+      "volume": "VOL-01",
+      "source_path": "docs/01_CONTENT/L1/V496_VOL01_EARLY_CHURCH_EXPANDED_DRAFT_KO.md",
+      "source_blob_sha": "6eb0ed99009caf78598e325ae6b74ec91fbf9d8d",
+      "old_length": 558,
+      "new_body_length": 1295,
+      "old_review_state": "EDITORIAL_DRAFT_UNREVIEWED",
+      "source_urls": [
+        "https://ajaonline.org/article/4806/",
+        "https://news.yale.edu/2024/08/12/house-call-new-study-rethinks-early-christian-landmark",
+        "https://www.cambridge.org/core/journals/journal-of-roman-archaeology/article/debating-the-domus-ecclesiae-at-duraeuropos-the-christian-building-in-context/E76ED3AD86D09A74893368840DEDFA6A"
+      ],
+      "url_count": 3,
+      "contains_reader_question": true,
+      "source_reference_block": true,
+      "unresolved_note": true,
+      "research_only": true,
+      "can_ship": false
+    },
+    {
+      "id": "L448-01-02",
+      "volume": "VOL-01",
+      "source_path": "docs/01_CONTENT/L1/V496_VOL01_EARLY_CHURCH_EXPANDED_DRAFT_KO.md",
+      "source_blob_sha": "6eb0ed99009caf78598e325ae6b74ec91fbf9d8d",
+      "old_length": 462,
+      "new_body_length": 1157,
+      "old_review_state": "EDITORIAL_DRAFT_UNREVIEWED",
+      "source_urls": [
+        "https://www.metmuseum.org/ja/essays/foundations-of-aksumite-civilization-and-its-christian-legacy-1st-7th-century",
+        "https://www.metmuseum.org/ko/essays/african-christianity-in-ethiopia",
+        "https://journals.sub.uni-hamburg.de/aethiopica/article/view/2433",
+        "https://link.springer.com/article/10.1007/s10437-014-9172-5"
+      ],
+      "url_count": 4,
+      "contains_reader_question": true,
+      "source_reference_block": true,
+      "unresolved_note": true,
+      "research_only": true,
+      "can_ship": false
+    },
+    {
+      "id": "L448-01-03",
+      "volume": "VOL-01",
+      "source_path": "docs/01_CONTENT/L1/V496_VOL01_EARLY_CHURCH_EXPANDED_DRAFT_KO.md",
+      "source_blob_sha": "6eb0ed99009caf78598e325ae6b74ec91fbf9d8d",
+      "old_length": 482,
+      "new_body_length": 1273,
+      "old_review_state": "EDITORIAL_DRAFT_UNREVIEWED",
+      "source_urls": [
+        "https://www.oca.org/orthodoxy/the-orthodox-faith/church-history/fifth-century/the-fourth-ecumenical-council",
+        "https://www.newadvent.org/cathen/03555a.htm"
+      ],
+      "url_count": 2,
+      "contains_reader_question": true,
+      "source_reference_block": true,
+      "unresolved_note": true,
+      "research_only": true,
+      "can_ship": false
+    },
+    {
+      "id": "L448-02-01",
+      "volume": "VOL-02",
+      "source_path": "docs/01_CONTENT/L1/V496_VOL02_MEDIEVAL_MULTIREGIONAL_EXPANDED_DRAFT_KO.md",
+      "source_blob_sha": "7c784cf6a3455360d103427b71d7af16acbb5211",
+      "old_length": 467,
+      "new_body_length": 1411,
+      "old_review_state": "EDITORIAL_DRAFT_UNREVIEWED",
+      "source_urls": [
+        "https://academic.oup.com/book/41527/chapter-abstract/352967425",
+        "https://www.cambridge.org/core/journals/journal-of-the-royal-asiatic-society/article/abs/sogdian-christianity-evidence-from-architecture-and-material-culture/EF7F89297BC07F73A3FDB839E3860284",
+        "https://www.iranicaonline.org/articles/christianity-iii/",
+        "https://en.unesco.org/silkroad/"
+      ],
+      "url_count": 4,
+      "contains_reader_question": true,
+      "source_reference_block": true,
+      "unresolved_note": true,
+      "research_only": true,
+      "can_ship": false
+    },
+    {
+      "id": "L448-02-02",
+      "volume": "VOL-02",
+      "source_path": "docs/01_CONTENT/L1/V496_VOL02_MEDIEVAL_MULTIREGIONAL_EXPANDED_DRAFT_KO.md",
+      "source_blob_sha": "7c784cf6a3455360d103427b71d7af16acbb5211",
+      "old_length": 482,
+      "new_body_length": 1546,
+      "old_review_state": "EDITORIAL_DRAFT_UNREVIEWED",
+      "source_urls": [
+        "https://www.mcgill.ca/religiousstudies/about/birks-building/jingiao-stele",
+        "https://www.cambridge.org/core/journals/studies-in-church-history/article/abs/silk-road-christians-and-the-translation-of-culture-in-tang-china/D8E48283153EA2E3C38AF5D36E238A0D",
+        "https://en.chnmuseum.cn/collections_577/collection_highlights_608/ancient_rare_books_and_stele_rubbings_615/202002/t20200219_199299.html",
+        "https://australian.museum/learn/cultures/international-collection/chinese/stone-rubbing-from-nestorian-stele-1900s/"
+      ],
+      "url_count": 4,
+      "contains_reader_question": true,
+      "source_reference_block": true,
+      "unresolved_note": true,
+      "research_only": true,
+      "can_ship": false
+    },
+    {
+      "id": "L448-02-03",
+      "volume": "VOL-02",
+      "source_path": "docs/01_CONTENT/L1/V496_VOL02_MEDIEVAL_MULTIREGIONAL_EXPANDED_DRAFT_KO.md",
+      "source_blob_sha": "7c784cf6a3455360d103427b71d7af16acbb5211",
+      "old_length": 456,
+      "new_body_length": 1420,
+      "old_review_state": "EDITORIAL_DRAFT_UNREVIEWED",
+      "source_urls": [
+        "https://www.tandfonline.com/doi/full/10.1080/28327861.2014.12220388",
+        "https://academic.oup.com/book/26922/chapter/196033476",
+        "https://academic.oup.com/edited-volume/29470/chapter-abstract/247164438",
+        "https://ora.ox.ac.uk/objects/uuid%3Ad3a226a7-7720-4a29-80d4-aaff8f00ddbd"
+      ],
+      "url_count": 4,
+      "contains_reader_question": true,
+      "source_reference_block": true,
+      "unresolved_note": true,
+      "research_only": true,
+      "can_ship": false
+    },
+    {
+      "id": "L448-06-01",
+      "volume": "VOL-06",
+      "source_path": "docs/01_CONTENT/L1/V496_VOL06_PIETISM_MISSIONS_EXPANDED_DRAFT_KO.md",
+      "source_blob_sha": "2dba34bd3fadab149b9ec1666653f6f6e953b9ad",
+      "old_length": 488,
+      "new_body_length": 1559,
+      "old_review_state": "EDITORIAL_DRAFT_UNREVIEWED",
+      "source_urls": [
+        "https://www.francke-halle.de/en/company/history-of-the-francke-foundations",
+        "https://whc.unesco.org/en/tentativelists/1368/",
+        "https://www.cambridge.org/core/journals/church-history/article/moravian-missions-believers-and-the-halleherrnhut-controversy-17271737/99AFD71F6E4A4BEF3D2DA29E6013FDFB",
+        "https://academic.oup.com/edited-volume/51640/chapter/422293164",
+        "https://www.cambridge.org/core/journals/studies-in-church-history/article/blessed-and-glorious-work-of-god-attended-with-some-irregularity-managing-methodist-revivals-c17401800/BE3EF8FCEAA4272E73A351BEFD3EAADA",
+        "https://academic.oup.com/liverpool-scholarship-online/book/43414/chapter/363237818"
+      ],
+      "url_count": 6,
+      "contains_reader_question": true,
+      "source_reference_block": true,
+      "unresolved_note": true,
+      "research_only": true,
+      "can_ship": false
+    },
+    {
+      "id": "L448-06-02",
+      "volume": "VOL-06",
+      "source_path": "docs/01_CONTENT/L1/V496_VOL06_PIETISM_MISSIONS_EXPANDED_DRAFT_KO.md",
+      "source_blob_sha": "2dba34bd3fadab149b9ec1666653f6f6e953b9ad",
+      "old_length": 514,
+      "new_body_length": 1556,
+      "old_review_state": "EDITORIAL_DRAFT_UNREVIEWED",
+      "source_urls": [
+        "https://www.wlb-stuttgart.de/fileadmin/user_upload/sammlungen/bibeln/Missionsbibeln/Missionsbibel_Stationen.pdf",
+        "https://www.bsind.org/bsi-archives/",
+        "https://arc.dbs.org/data/scripture/TAMZTB/index.html",
+        "https://ignca.gov.in/Asi_data/17446.pdf"
+      ],
+      "url_count": 4,
+      "contains_reader_question": true,
+      "source_reference_block": true,
+      "unresolved_note": true,
+      "research_only": true,
+      "can_ship": false
+    },
+    {
+      "id": "L448-06-03",
+      "volume": "VOL-06",
+      "source_path": "docs/01_CONTENT/L1/V496_VOL06_PIETISM_MISSIONS_EXPANDED_DRAFT_KO.md",
+      "source_blob_sha": "2dba34bd3fadab149b9ec1666653f6f6e953b9ad",
+      "old_length": 503,
+      "new_body_length": 1629,
+      "old_review_state": "EDITORIAL_DRAFT_UNREVIEWED",
+      "source_urls": [
+        "https://academic.oup.com/edited-volume/51640/chapter/422293164",
+        "https://www.cambridge.org/core/journals/comparative-studies-in-society-and-history/article/from-enslavement-to-emancipation-naming-practices-in-the-danish-west-indies/AA20B5B0CF67C8804CE1DAD3F203A1BA",
+        "https://www.cambridge.org/core/books/abs/cambridge-history-of-christianity/independency-in-africa-and-asia/3A1D548B8F0B936195D7AFE737A6DE20",
+        "https://www.francke-halle.de/en/company/history-of-the-francke-foundations"
+      ],
+      "url_count": 4,
+      "contains_reader_question": true,
+      "source_reference_block": true,
+      "unresolved_note": true,
+      "research_only": true,
+      "can_ship": false
+    }
+  ],
+  "summary": {
+    "original_chars": 4412,
+    "new_chars": 12846,
+    "added_chars": 8434,
+    "growth_ratio": 2.91,
+    "source_link_occurrences": 35,
+    "unique_links": 33
+  },
+  "verification": {
+    "all_9_expected_ids_present": true,
+    "chapter_id_preserved": true,
+    "all_expanded": true,
+    "all_have_question": true,
+    "all_have_source_links": true,
+    "all_have_unresolved_caveat": true,
+    "old_l1_master_unchanged": true,
+    "old_8vol_integrated_master_unchanged": true,
+    "main_unchanged": true,
+    "ai_studio_unchanged": true,
+    "expert_signoff": false,
+    "original_manuscripts_fully_collated": false,
+    "real_reader_sessions": 0,
+    "actual_app_e2e": false,
+    "can_ship": false
+  },
+  "priority_open_issues": [
+    {
+      "scope": "VOL-01",
+      "issue": "Dura-Europos domestic versus dedicated meeting-building classification",
+      "gate": "HISTORIAN_ARCHAEOLOGY_REVIEW"
+    },
+    {
+      "scope": "VOL-01",
+      "issue": "Ezana royal conversion vs wider population religion; coin and ecclesiastical witness difference",
+      "gate": "EPIGRAPHIC_NUMISMATIC_COLLATION"
+    },
+    {
+      "scope": "VOL-01",
+      "issue": "Chalcedon and confessional terminology",
+      "gate": "COMPARE_COPTO_SYRIAC_AND_CHALCEDONIAN_SELF_DESCRIPTIONS"
+    },
+    {
+      "scope": "VOL-02",
+      "issue": "Jingjiao 635 retrospective vs 781 stele and rubbings",
+      "gate": "CHINESE_SYRIAC_EPIGRAPHY_REVIEW"
+    },
+    {
+      "scope": "VOL-02",
+      "issue": "1054/1204/1439 chronology and different forms of union/separation",
+      "gate": "SPECIALIST_PRIMARY_CHRONICLE_VALIDATION"
+    },
+    {
+      "scope": "VOL-06",
+      "issue": "Halle/Herrnhut tension and Methodist women's roles over time",
+      "gate": "PERIOD_SPECIFIC_TEXT_REVIEW"
+    },
+    {
+      "scope": "VOL-06",
+      "issue": "Tamil printed material 1714 / 1715 / 1719 not reconciled",
+      "gate": "ORIGINAL_COPY_AND_LIBRARY_REPLY"
+    },
+    {
+      "scope": "VOL-06",
+      "issue": "Moravian mission, slavery and local African/Caribbean agency",
+      "gate": "ARCHIVAL_AND_SOCIAL_HISTORY_REVIEW"
+    },
+    {
+      "scope": "GLOBAL",
+      "issue": "V4.82 full text not recovered and no human review/app linking",
+      "gate": "REMAIN_NOT_SHIPPABLE"
+    }
+  ],
+  "next": "Widen V4.96 textual draft review against individual scholarly sources; then expand VOL-03/04/05/07 with source-specific evidence rather than only version trackers."
+}
