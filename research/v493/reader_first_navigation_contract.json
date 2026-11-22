@@ -26,8 +26,8 @@
   ],
   "manuscript": {
     "path": "docs/01_CONTENT/L1/V493_READER_FIRST_SIX_THEME_INTEGRATED_EDITION_KO.md",
-    "git_blob_sha": "6b09d7e21155869275da0b41e6fadcc1a082f8bf",
-    "length_chars": 8793,
+    "git_blob_sha": "0c2fccd05d492bccaa527c0a58e6e1181c2ddb62",
+    "length_chars": 8956,
     "description": "Standalone Korean reader-first synthesis; retains original L1 chapters without copying their text"
   },
   "paths": [
@@ -64,7 +64,13 @@
           "validation": "EXISTS_IN_SOURCE_L1_MASTER"
         }
       ],
-      "context_L1": [],
+      "context_L1": [
+        {
+          "id": "L448-02-03",
+          "volume": "VOL-02",
+          "description": "OPTIONAL_BACKGROUND_ON_EAST_WEST_RELATIONS_NOT_DIRECT_SUCCESSION_OR_DOCTRINAL_IDENTITY"
+        }
+      ],
       "support_L0": [],
       "reader_takeaway": "무엇을 누가 가르치고 누가 수용했는가"
     },
@@ -359,6 +365,13 @@
       "from": "V4.91 4 cards",
       "to": "cards continue as optional and all 21 era chapters remain discoverable",
       "type": "COVERAGE_PRESERVED"
+    },
+    {
+      "id": "C493-06",
+      "risk": "UNLINKED_OPTIONAL_CHAPTER",
+      "from": "V4.91 L448-02-03 listed as optional but omitted from the new narrative",
+      "to": "T01 explicitly links it as an optional East-West authority comparison with clear non-causality caution",
+      "type": "COVERAGE_COMPLETENESS_CORRECTION"
     }
   ],
   "reuse_policy": "References to same L1 chapter across themes are intentionally distinct reading questions, not copying the full body text",
