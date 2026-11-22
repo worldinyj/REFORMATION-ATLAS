@@ -1,0 +1,561 @@
+{
+  "schema": "ATLAS_V491_READER_FLOW_EDITORIAL_LAYER_V1",
+  "version": "V4.91",
+  "date": "2026-11-22",
+  "status": "EDITORIAL_RESEARCH_DRAFT",
+  "can_ship": false,
+  "source_contract": {
+    "branch": "research/atlas-v490-six-theme-reading-integration",
+    "path": "research/v490/six_theme_l1_navigation_contract.json",
+    "blob_sha": "2ca36f571f2d83a0036938006f7c5260be0320fa"
+  },
+  "source_master": {
+    "branch": "research/atlas-v450-core-reformation-l1-eucharist-confessions-peace",
+    "path": "research/data/V4_50_L1_24_CHAPTER_INTEGRATED_REVISED_MASTER.json",
+    "blob_sha": "79a362734aa963eb41ad0424515e8d21074349c5"
+  },
+  "editorial_notes": "Roles, bridges and optional detours describe reading priorities, not original-witness verification or tested web navigation.",
+  "paths": [
+    {
+      "id": "PATH489-01",
+      "theme": "T01",
+      "theme_title": "성경과 권위",
+      "intro": "성경을 누가 해석하는가라는 질문은 시대를 건너지만, 공의회의 결정·개혁자의 논쟁·신앙고백의 제출은 같은 종류의 행위가 아닙니다.",
+      "exit": "네 시대의 사례에서 ‘결정한 사람’, ‘문서를 읽은 사람’, ‘실제로 수용한 공동체’를 따로 찾아보세요.",
+      "stages": [
+        {
+          "step": 1,
+          "chapter_id": "L448-01-03",
+          "volume": "VOL-01",
+          "source_title": "공의회는 질문을 정리했지만 모든 차이를 지우지 못했다",
+          "reading_lens": "문서와 수용",
+          "editorial_prompt": "공의회가 정한 표현과 각 지역이 받아들인 과정을 나누어 읽는다.",
+          "bridge_to_next": "이제 권위 자체를 비판한 중세의 목소리는 무엇을 달리 물었을까?",
+          "role_id": "V491-T01-01"
+        },
+        {
+          "step": 2,
+          "chapter_id": "L448-03-02",
+          "volume": "VOL-03",
+          "source_title": "위클리프와 후스: 영향을 받았어도 똑같이 믿지는 않았다",
+          "reading_lens": "비판과 선택적 수용",
+          "editorial_prompt": "위클리프와 후스의 접점을 찾되, 영향과 교리적 동일성을 분리한다.",
+          "bridge_to_next": "개인의 논쟁이 공적 신앙고백 문서로 나타나면 무엇이 바뀔까?",
+          "role_id": "V491-T01-02"
+        },
+        {
+          "step": 3,
+          "chapter_id": "L448-04-02",
+          "volume": "VOL-04",
+          "source_title": "마르부르크의 합의와 아우크스부르크 판본: 신학과 서지의 차이",
+          "reading_lens": "공개된 신앙고백과 판본",
+          "editorial_prompt": "1530년 공적 제출과 1531·1540년 판본의 층위를 구별한다.",
+          "bridge_to_next": "다른 전통 내부에서도 교회가 자체적으로 쇄신할 수 있었을까?",
+          "role_id": "V491-T01-03"
+        },
+        {
+          "step": 4,
+          "chapter_id": "L448-05-01",
+          "volume": "VOL-05",
+          "source_title": "가톨릭의 개혁을 오직 개신교에 대한 반응으로 읽지 않기",
+          "reading_lens": "교리·제도·실천의 시간차",
+          "editorial_prompt": "트리엔트의 교리 논의와 주교·교육 개혁의 시행을 다르게 읽는다.",
+          "bridge_to_next": "동일한 ‘권위’라는 이름 아래 서로 다른 법적·신학적 권한이 있었다는 사실을 정리한다.",
+          "role_id": "V491-T01-04"
+        }
+      ]
+    },
+    {
+      "id": "PATH490-05",
+      "theme": "T02",
+      "theme_title": "은총과 구원",
+      "intro": "구원에 관한 신학 문장과 그 문장이 일상생활에 적용된 모습은 같은 자료로 증명되지 않습니다. 이 경로는 칭의·은총·회심·성화를 함부로 동의어로 만들지 않는 비교 독서입니다.",
+      "exit": "제3권·제7권의 구원론 직접 앵커는 아직 확보되지 않았습니다. 이 경로를 모든 시대의 구원론 완결 비교로 제시하지 않습니다.",
+      "stages": [
+        {
+          "step": 1,
+          "chapter_id": "L448-04-01",
+          "volume": "VOL-04",
+          "source_title": "1517년 논쟁은 왜 예배·학교·도시 정부의 문제로 커졌나",
+          "reading_lens": "회개·구원 질문의 공론화",
+          "editorial_prompt": "면죄부 논쟁을 구원과 회개의 문제로 읽되 도시의 제도 개혁과 분리한다.",
+          "bridge_to_next": "이 물음은 어떤 형태의 공적 교리 문서로 정리되었을까?",
+          "role_id": "V491-T02-01"
+        },
+        {
+          "step": 2,
+          "chapter_id": "L448-04-02",
+          "volume": "VOL-04",
+          "source_title": "마르부르크의 합의와 아우크스부르크 판본: 신학과 서지의 차이",
+          "reading_lens": "교리 문서의 층위",
+          "editorial_prompt": "아우크스부르크의 여러 판본을 구별한다. 마르부르크의 성찬 이견을 곧 전체 구원론 불일치로 환원하지 않는다.",
+          "bridge_to_next": "서로 다른 전통은 같은 시기에 어떤 교리·사목 문제를 설명했을까?",
+          "role_id": "V491-T02-02"
+        },
+        {
+          "step": 3,
+          "chapter_id": "L448-05-01",
+          "volume": "VOL-05",
+          "source_title": "가톨릭의 개혁을 오직 개신교에 대한 반응으로 읽지 않기",
+          "reading_lens": "가톨릭의 교리와 실천",
+          "editorial_prompt": "트리엔트를 단순한 반응으로 축소하지 않으면서 은총 교리를 직접 조항별로 대조한 것처럼 서술하지 않는다.",
+          "bridge_to_next": "문서의 교리 정의 이후 사람들은 무엇을 실천하려 했을까?",
+          "role_id": "V491-T02-03"
+        },
+        {
+          "step": 4,
+          "chapter_id": "L448-06-01",
+          "volume": "VOL-06",
+          "source_title": "경건주의와 부흥운동은 같은 단체가 아니었다",
+          "reading_lens": "경건·회심·성화의 다양성",
+          "editorial_prompt": "경건주의·모라비아·웨슬리 계열과 여러 부흥을 별개의 운동으로 읽는다.",
+          "bridge_to_next": "용어가 닮았다는 이유로 동일한 신학 계보라고 추정하지 않는다.",
+          "role_id": "V491-T02-04"
+        }
+      ]
+    },
+    {
+      "id": "PATH489-02",
+      "theme": "T03",
+      "theme_title": "성찬과 예배",
+      "intro": "성찬이라는 하나의 실천을 둘러싸고 같은 운동 내부에서도 의견이 달랐습니다. 독자는 누구의 견해인지, 어떤 문서의 논의인지, 예전의 시행은 어땠는지를 나누어 읽습니다.",
+      "exit": "‘가톨릭은 실제 임재, 개신교는 상징’이라는 이분법으로 결론짓지 않습니다.",
+      "stages": [
+        {
+          "step": 1,
+          "chapter_id": "L448-03-02",
+          "volume": "VOL-03",
+          "source_title": "위클리프와 후스: 영향을 받았어도 똑같이 믿지는 않았다",
+          "reading_lens": "중세 후기 성찬 논쟁의 분기",
+          "editorial_prompt": "위클리프의 잔존설과 후스 개인의 입장을 구별하고 후스파 전체에 하나의 견해를 부여하지 않는다.",
+          "bridge_to_next": "그 후 16세기의 개혁자들은 서로 어느 부분까지 동의했을까?",
+          "role_id": "V491-T03-01"
+        },
+        {
+          "step": 2,
+          "chapter_id": "L448-04-02",
+          "volume": "VOL-04",
+          "source_title": "마르부르크의 합의와 아우크스부르크 판본: 신학과 서지의 차이",
+          "reading_lens": "마르부르크의 합의와 한계",
+          "editorial_prompt": "1529년 열네 조항의 공통점과 제15조 성찬 이견을 함께 읽는다. 아우크스부르크 판본 문제와도 구별한다.",
+          "bridge_to_next": "가톨릭의 성례 논의는 어떤 문서와 제도에 담겼을까?",
+          "role_id": "V491-T03-02"
+        },
+        {
+          "step": 3,
+          "chapter_id": "L448-05-01",
+          "volume": "VOL-05",
+          "source_title": "가톨릭의 개혁을 오직 개신교에 대한 반응으로 읽지 않기",
+          "reading_lens": "공의회 교리와 지역 예전",
+          "editorial_prompt": "트리엔트에서 논의한 성례·사목 문제와 그 시행 사이의 시간차를 살핀다.",
+          "bridge_to_next": "이론·예식·공동체 실천을 같은 증거로 판단하지 않는다.",
+          "role_id": "V491-T03-03"
+        }
+      ]
+    },
+    {
+      "id": "PATH490-06",
+      "theme": "T04",
+      "theme_title": "교회조직과 일상생활",
+      "intro": "신앙의 주장이 공동체 운영으로 바뀌는 과정에는 평신도, 성직자, 여성, 지역 지도자, 학교와 법령이 관여했습니다. 교단 조직을 하나의 진보 단계로 그리지 않는 읽기입니다.",
+      "exit": "조직의 유사성은 직접적인 제도 계승의 증거가 아닙니다. 실제 구성원과 권한의 분배를 질문합니다.",
+      "stages": [
+        {
+          "step": 1,
+          "chapter_id": "L448-01-01",
+          "volume": "VOL-01",
+          "source_title": "도시와 언어가 바꾼 복음의 전달",
+          "reading_lens": "초기 공동체의 실제 행위자",
+          "editorial_prompt": "도시·언어·청중과 지도력의 형성에 주목한다.",
+          "bridge_to_next": "이 공동체들의 다양성은 공식 교리 결정에 어떻게 반응했을까?",
+          "role_id": "V491-T04-01"
+        },
+        {
+          "step": 2,
+          "chapter_id": "L448-01-03",
+          "volume": "VOL-01",
+          "source_title": "공의회는 질문을 정리했지만 모든 차이를 지우지 못했다",
+          "reading_lens": "공의회와 지역교회의 거리",
+          "editorial_prompt": "문서 작성과 각 지역의 수용을 나누고 제도가 곧바로 통일되었다고 쓰지 않는다.",
+          "bridge_to_next": "서유럽 이외의 중세 교회조직도 같은 방식이었을까?",
+          "role_id": "V491-T04-02"
+        },
+        {
+          "step": 3,
+          "chapter_id": "L448-02-01",
+          "volume": "VOL-02",
+          "source_title": "비잔틴·서아시아·서유럽의 서로 다른 중세",
+          "reading_lens": "다양한 중세의 지역 제도",
+          "editorial_prompt": "비잔틴·서아시아·서유럽의 통치·언어·예배 맥락을 비교한다.",
+          "bridge_to_next": "제도적 경계에 도전한 평신도 집단은 누구였을까?",
+          "role_id": "V491-T04-03"
+        },
+        {
+          "step": 4,
+          "chapter_id": "L448-03-01",
+          "volume": "VOL-03",
+          "source_title": "왈도파의 청빈과 설교: 후대의 교파명으로 미리 이름 붙이지 않기",
+          "reading_lens": "설교할 권한과 공동체 유지",
+          "editorial_prompt": "왈도파의 청빈·설교 및 후대 교파명 사이의 거리를 확인한다.",
+          "bridge_to_next": "16세기에는 이 질문이 도시 행정과 어떻게 만났을까?",
+          "role_id": "V491-T04-04"
+        },
+        {
+          "step": 5,
+          "chapter_id": "L448-04-01",
+          "volume": "VOL-04",
+          "source_title": "1517년 논쟁은 왜 예배·학교·도시 정부의 문제로 커졌나",
+          "reading_lens": "도시와 학교의 운영",
+          "editorial_prompt": "개혁 사상의 전파와 예배·학교·구제 제도를 실제 변경한 결정은 다름을 살핀다.",
+          "bridge_to_next": "동시대의 여러 정치 질서는 같은 해결책을 택했을까?",
+          "role_id": "V491-T04-05"
+        },
+        {
+          "step": 6,
+          "chapter_id": "L448-04-03",
+          "volume": "VOL-04",
+          "source_title": "제네바·잉글랜드·재세례파: 똑같은 개혁을 다른 제도로 만들다",
+          "reading_lens": "비교되는 교회제도",
+          "editorial_prompt": "제네바, 잉글랜드, 재세례파의 조직·권한을 비교하고 하나의 개신교 모형으로 통합하지 않는다.",
+          "bridge_to_next": "규정이 정해진 뒤 일반 신자의 일상은 언제 변했을까?",
+          "role_id": "V491-T04-06"
+        },
+        {
+          "step": 7,
+          "chapter_id": "L448-05-03",
+          "volume": "VOL-05",
+          "source_title": "교파의 경계가 만들어지며 일상의 규율도 달라졌다",
+          "reading_lens": "신앙고백과 일상 규율의 간격",
+          "editorial_prompt": "교육·가정·구제 및 여성·평신도 활동을 교리적 경계와 별도로 본다.",
+          "bridge_to_next": "후대 부흥과 소모임은 이 일상을 어떻게 변화시켰을까?",
+          "role_id": "V491-T04-07"
+        },
+        {
+          "step": 8,
+          "chapter_id": "L448-06-01",
+          "volume": "VOL-06",
+          "source_title": "경건주의와 부흥운동은 같은 단체가 아니었다",
+          "reading_lens": "소모임과 부흥의 복수 전통",
+          "editorial_prompt": "경건주의·모라비아·감리교와 부흥을 조직적으로 동일시하지 않는다.",
+          "bridge_to_next": "제국 밖의 교회는 누가 스스로 조직했을까?",
+          "role_id": "V491-T04-08"
+        },
+        {
+          "step": 9,
+          "chapter_id": "L448-07-01",
+          "volume": "VOL-07",
+          "source_title": "아프리카와 중동에는 근대 선교 이전부터 교회가 있었다",
+          "reading_lens": "아프리카 지역교회의 독자성",
+          "editorial_prompt": "고대 교회와 근현대 자생 교회, 중동 교회 협의체를 구분한다.",
+          "bridge_to_next": "이제 한국의 서로 다른 교회 형성 과정을 보자.",
+          "role_id": "V491-T04-09"
+        },
+        {
+          "step": 10,
+          "chapter_id": "L448-07-02",
+          "volume": "VOL-07",
+          "source_title": "한국교회의 서로 다른 시작: 독서·세례·번역·사회참여",
+          "reading_lens": "한국인의 독서·번역·조직",
+          "editorial_prompt": "독서·세례·번역·사회참여의 날짜와 주체가 다름을 이해한다.",
+          "bridge_to_next": "지역 교회 형성을 외국인 선교사만의 결과로 만들지 않는다.",
+          "role_id": "V491-T04-10"
+        }
+      ]
+    },
+    {
+      "id": "PATH489-03",
+      "theme": "T05",
+      "theme_title": "국가·갈등·공존",
+      "intro": "종교적 합의는 갈등을 완화하기도 했지만 누가 보호받는지를 제한하기도 했습니다. 이 경로는 ‘평화’라는 제목보다 문서의 법적 적용 범위를 먼저 확인합니다.",
+      "exit": "1430년대의 협상, 1555년 화의, 1648년 합의는 동일 문서가 아니며 현대적 보편 종교자유를 즉시 수립한 단계도 아닙니다.",
+      "stages": [
+        {
+          "step": 1,
+          "chapter_id": "L448-03-03",
+          "volume": "VOL-03",
+          "source_title": "프라하 4개조에서 바젤 협상까지: 요구·전쟁·법의 시간표",
+          "reading_lens": "요구·협상·공포의 서로 다른 시점",
+          "editorial_prompt": "프라하 4개조, 1433년 바젤 협상, 1436년 공포를 하나의 사건으로 압축하지 않는다.",
+          "bridge_to_next": "종교적 개혁과 정치 통치는 16세기에 어떤 방식으로 얽혔을까?",
+          "role_id": "V491-T05-01"
+        },
+        {
+          "step": 2,
+          "chapter_id": "L448-04-03",
+          "volume": "VOL-04",
+          "source_title": "제네바·잉글랜드·재세례파: 똑같은 개혁을 다른 제도로 만들다",
+          "reading_lens": "여러 통치·교회 질서",
+          "editorial_prompt": "제네바·잉글랜드·재세례파의 정치·교회 관계 차이를 살펴 단일한 국가교회 개념을 경계한다.",
+          "bridge_to_next": "제국 전체의 합의에서는 누구의 신앙과 권리가 규율되었을까?",
+          "role_id": "V491-T05-02"
+        },
+        {
+          "step": 3,
+          "chapter_id": "L448-05-02",
+          "volume": "VOL-05",
+          "source_title": "1555년과 1648년: 공존의 법적 범위와 배제",
+          "reading_lens": "법적 보호의 범위와 예외",
+          "editorial_prompt": "1555년의 제국 신분 중심 질서와 1648년 개혁파 인정·1624년 기준연도를 구별한다.",
+          "bridge_to_next": "보호받지 못한 집단과 각 합의의 예외를 기억한다.",
+          "role_id": "V491-T05-03"
+        }
+      ]
+    },
+    {
+      "id": "PATH489-04",
+      "theme": "T06",
+      "theme_title": "번역과 지역 수용",
+      "intro": "같은 신앙의 흔적도 비문·필사본·인쇄본·번역본에서는 서로 다른 증거 형태로 나타납니다. ‘누가 번역했나’와 ‘누가 읽고 고쳐 사용했나’를 함께 묻습니다.",
+      "exit": "아시아와 한국의 교회사를 근대 유럽 선교의 단순한 뒤편에 배치하지 않습니다. 번역의 직접 계보를 자료 없이 화살표로 표현하지 않습니다.",
+      "stages": [
+        {
+          "step": 1,
+          "chapter_id": "L448-02-02",
+          "volume": "VOL-02",
+          "source_title": "경교비에서 읽는 635년의 사건과 781년의 증언",
+          "reading_lens": "비문 작성 시점과 회고된 사건",
+          "editorial_prompt": "781년 비문과 그 안의 635년 회고, 후대 탁본·전사를 구분한다.",
+          "bridge_to_next": "다른 시대의 번역 전통에서도 기록 생산자는 누구였을까?",
+          "role_id": "V491-T06-01"
+        },
+        {
+          "step": 2,
+          "chapter_id": "L448-03-02",
+          "volume": "VOL-03",
+          "source_title": "위클리프와 후스: 영향을 받았어도 똑같이 믿지는 않았다",
+          "reading_lens": "중세 영어 성경의 맥락 자료",
+          "editorial_prompt": "위클리프를 영어 성경 단독 번역자로 단정하지 않는다. 본 L1 장은 신학 비교 중심이며 필사·사용은 L0 A414-04의 보강이 필요하다.",
+          "bridge_to_next": "인쇄 시대에 국가·도시의 제도는 번역의 유통에 어떻게 관여했을까?",
+          "role_id": "V491-T06-02"
+        },
+        {
+          "step": 3,
+          "chapter_id": "L448-04-01",
+          "volume": "VOL-04",
+          "source_title": "1517년 논쟁은 왜 예배·학교·도시 정부의 문제로 커졌나",
+          "reading_lens": "제도·인쇄·유통의 분리",
+          "editorial_prompt": "1517년 논쟁과 인쇄 확산이 읽기·교육 현장에 즉각 일률적 변화를 만든 것은 아님을 확인한다. 스웨덴 성경의 구체 사건은 L0 E408-21을 참조한다.",
+          "bridge_to_next": "다른 언어권의 인쇄와 독서에는 누가 참여했을까?",
+          "role_id": "V491-T06-03"
+        },
+        {
+          "step": 4,
+          "chapter_id": "L448-06-02",
+          "volume": "VOL-06",
+          "source_title": "남인도 타밀어 성경: 인쇄 기계보다 중요한 사람과 판본",
+          "reading_lens": "타밀어 번역의 공동 작업",
+          "editorial_prompt": "현지 언어 협력자와 출판·인쇄·교육을 함께 읽는다. 1715/1719 서지 관계는 미확정으로 남긴다.",
+          "bridge_to_next": "한국어 성경의 ‘최초’ 또한 하나의 출판 연도로 설명할 수 있을까?",
+          "role_id": "V491-T06-04"
+        },
+        {
+          "step": 5,
+          "chapter_id": "L448-07-02",
+          "volume": "VOL-07",
+          "source_title": "한국교회의 서로 다른 시작: 독서·세례·번역·사회참여",
+          "reading_lens": "한글 성경의 여러 출판 층위",
+          "editorial_prompt": "1882·1887·1900·1911년의 서지 범위와 한국인 협력자의 역할을 구분한다.",
+          "bridge_to_next": "유럽에서 세계로 향하는 일방적 전파 도식으로 정리하지 않는다.",
+          "role_id": "V491-T06-05"
+        }
+      ]
+    }
+  ],
+  "optional_detours": [
+    {
+      "theme": "T05",
+      "id": "L448-01-02",
+      "reason": "고대 왕실 수용과 주민 개종을 분리하는 비교 사례",
+      "caution": "313년 관용·4세기 악숨의 맥락은 1555년의 법적 평화와 동일하지 않음",
+      "volume": "VOL-01",
+      "source_title": "박해와 황실 보호 이후에도 지역은 달랐다",
+      "status": "OPTIONAL_CONTEXTUAL_NOT_CORE"
+    },
+    {
+      "theme": "T01",
+      "id": "L448-02-03",
+      "reason": "교회 권위와 동서 관계의 장기적 조정이라는 보충 맥락",
+      "caution": "1054년과 1204년을 하나의 완성된 분열 사건으로 묶지 않음",
+      "volume": "VOL-02",
+      "source_title": "분열의 날짜보다 관계의 변화를 읽기",
+      "status": "OPTIONAL_CONTEXTUAL_NOT_CORE"
+    },
+    {
+      "theme": "T05",
+      "id": "L448-06-03",
+      "reason": "근대 선교와 제국 권력이 교차한 사례로 법·권력 문제를 넓혀 읽기",
+      "caution": "제국과 선교의 관계가 모든 시기·지역에서 동일하거나 완전히 일치하는 것은 아님",
+      "volume": "VOL-06",
+      "source_title": "선교와 제국의 접촉: 외부의 확장만이 세계사의 주인공은 아니다",
+      "status": "OPTIONAL_CONTEXTUAL_NOT_CORE"
+    },
+    {
+      "theme": "T04",
+      "id": "L448-07-03",
+      "reason": "20세기 세계교회 협력기구의 대표성과 지역 신학의 질문을 살피기",
+      "caution": "교회협의체 참여가 교파의 교리적 통일을 뜻하지 않음",
+      "volume": "VOL-07",
+      "source_title": "라틴아메리카·아시아와 세계교회의 새로운 질문",
+      "status": "OPTIONAL_CONTEXTUAL_NOT_CORE"
+    }
+  ],
+  "repeated_chapter_roles": [
+    {
+      "chapter_id": "L448-01-03",
+      "roles": [
+        {
+          "theme": "T01",
+          "lens": "문서와 수용"
+        },
+        {
+          "theme": "T04",
+          "lens": "공의회와 지역교회의 거리"
+        }
+      ],
+      "placements": 2
+    },
+    {
+      "chapter_id": "L448-03-02",
+      "roles": [
+        {
+          "theme": "T01",
+          "lens": "비판과 선택적 수용"
+        },
+        {
+          "theme": "T03",
+          "lens": "중세 후기 성찬 논쟁의 분기"
+        },
+        {
+          "theme": "T06",
+          "lens": "중세 영어 성경의 맥락 자료"
+        }
+      ],
+      "placements": 3
+    },
+    {
+      "chapter_id": "L448-04-02",
+      "roles": [
+        {
+          "theme": "T01",
+          "lens": "공개된 신앙고백과 판본"
+        },
+        {
+          "theme": "T02",
+          "lens": "교리 문서의 층위"
+        },
+        {
+          "theme": "T03",
+          "lens": "마르부르크의 합의와 한계"
+        }
+      ],
+      "placements": 3
+    },
+    {
+      "chapter_id": "L448-05-01",
+      "roles": [
+        {
+          "theme": "T01",
+          "lens": "교리·제도·실천의 시간차"
+        },
+        {
+          "theme": "T02",
+          "lens": "가톨릭의 교리와 실천"
+        },
+        {
+          "theme": "T03",
+          "lens": "공의회 교리와 지역 예전"
+        }
+      ],
+      "placements": 3
+    },
+    {
+      "chapter_id": "L448-04-01",
+      "roles": [
+        {
+          "theme": "T02",
+          "lens": "회개·구원 질문의 공론화"
+        },
+        {
+          "theme": "T04",
+          "lens": "도시와 학교의 운영"
+        },
+        {
+          "theme": "T06",
+          "lens": "제도·인쇄·유통의 분리"
+        }
+      ],
+      "placements": 3
+    },
+    {
+      "chapter_id": "L448-06-01",
+      "roles": [
+        {
+          "theme": "T02",
+          "lens": "경건·회심·성화의 다양성"
+        },
+        {
+          "theme": "T04",
+          "lens": "소모임과 부흥의 복수 전통"
+        }
+      ],
+      "placements": 2
+    },
+    {
+      "chapter_id": "L448-04-03",
+      "roles": [
+        {
+          "theme": "T04",
+          "lens": "비교되는 교회제도"
+        },
+        {
+          "theme": "T05",
+          "lens": "여러 통치·교회 질서"
+        }
+      ],
+      "placements": 2
+    },
+    {
+      "chapter_id": "L448-07-02",
+      "roles": [
+        {
+          "theme": "T04",
+          "lens": "한국인의 독서·번역·조직"
+        },
+        {
+          "theme": "T06",
+          "lens": "한글 성경의 여러 출판 층위"
+        }
+      ],
+      "placements": 2
+    }
+  ],
+  "quality_checks": {
+    "themes": 6,
+    "core_placements": 29,
+    "unique_core_chapters": 17,
+    "core_repeated_placements": 12,
+    "overlap_chapters": 8,
+    "overlap_roles_are_distinct": true,
+    "optional_detours": 4,
+    "available_source_chapters_nonhub": 21,
+    "source_chapters_accounted_for": 21,
+    "source_chapters_unaccounted": [],
+    "hub_volume_chapters": 3,
+    "invalid_chapter_id_count": 0,
+    "exact_paragraph_deeplinks_verified": false,
+    "app_E2E_tested": false,
+    "human_review_complete": false
+  },
+  "holds": [
+    "V4.82 primary full text and SHA unavailable",
+    "T02 VOL-03 and VOL-07 need direct specific doctrinal evidence",
+    "1515/1719 Tamil bibliographic relationship unresolved: refer to 1715/1719 not verified",
+    "AI Studio integration and real reader evaluation not done"
+  ],
+  "release": {
+    "can_ship": false,
+    "main_modified": false,
+    "AI_Studio_modified": false,
+    "canonical_L1_24_modified": false
+  }
+}
