@@ -1,0 +1,256 @@
+{
+  "version": "V4.98",
+  "date": "2026-11-22",
+  "status": "EXACT_LOCATOR_VERIFIED_IN_MODERN_EDITIONS_NOT_CRITICAL_ORIGINAL_COLLATION",
+  "can_ship": false,
+  "claims_count": 13,
+  "verified_source_urls": 9,
+  "source_registry": {
+    "MAR": {
+      "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/the-marburg-colloquy-the-marburg-articles-1529",
+      "type": "GHDI edited translation"
+    },
+    "GRU": {
+      "url": "https://gruber.lstc.edu/confessions/augs_apol.php",
+      "type": "Rare-books object catalog"
+    },
+    "AUG": {
+      "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/ghdi:document-4386",
+      "type": "GHDI edited legal translation"
+    },
+    "WES": {
+      "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/peace-treaties-of-westphalia-october-14-24-1648",
+      "type": "GHDI edited legal translation"
+    },
+    "HUS": {
+      "url": "https://www.cambridge.org/core/journals/church-history/article/abs/john-wyclif-and-hussite-theology-14151436/54C10C6F7EEFB5409E2291C9F4194ABF",
+      "type": "Cambridge 1973 scholarly abstract"
+    },
+    "WYC": {
+      "url": "https://www.cambridge.org/core/journals/church-history/article/abs/john-wyclif-and-the-eucharistic-words-of-institution-context-and-aftermath/7A3B350A2B409E97F900FC95F51D1AE6",
+      "type": "Cambridge 2021 academic abstract and scholarly footnotes"
+    },
+    "WLB": {
+      "url": "https://www.wlb-stuttgart.de/fileadmin/user_upload/sammlungen/bibeln/Missionsbibeln/Missionsbibel_Stationen.pdf",
+      "type": "Stuttgart library PDF p.2 inspected by screenshot"
+    },
+    "BSI": {
+      "url": "https://www.bsind.org/bsi-archives/",
+      "type": "Bible Society of India exhibition"
+    },
+    "AKS": {
+      "url": "https://encykorea.aks.ac.kr/Article/E0078698",
+      "type": "한국민족문화대백과사전 specialist encyclopedia"
+    }
+  },
+  "claims": [
+    {
+      "id": "C498-01",
+      "chapter_id": "L448-03-02",
+      "claim": "Wyclif remanence differs from Hus transubstantiation",
+      "evidence_level": "SECONDARY_ACADEMIC",
+      "sources": [
+        {
+          "source_key": "HUS",
+          "locator": "1973 Church History 42(3) abstract"
+        },
+        {
+          "source_key": "WYC",
+          "locator": "2021 Church History footnote 82"
+        }
+      ],
+      "primary_witness_fully_collated": false,
+      "can_ship": false
+    },
+    {
+      "id": "C498-02",
+      "chapter_id": "L448-03-02",
+      "claim": "Wyclif critique of transubstantiation does not deny all Christ presence",
+      "evidence_level": "SECONDARY_WITH_PRIMARY_EDITION_LOCATOR",
+      "sources": [
+        {
+          "source_key": "WYC",
+          "locator": "2021 abstract; Wyclif De eucharistia ed. Loserth 1892 pp.78-79 chap.3 cited in footnote 11"
+        }
+      ],
+      "primary_witness_fully_collated": false,
+      "can_ship": false
+    },
+    {
+      "id": "C498-03",
+      "chapter_id": "L448-04-02",
+      "claim": "Marburg Article VII has shared salvation language",
+      "evidence_level": "EDITED_TRANSLATED_PRIMARY",
+      "sources": [
+        {
+          "source_key": "MAR",
+          "locator": "1529-10-03 Article VII; edition WA 30 III (1910), pp.160-171"
+        }
+      ],
+      "primary_witness_fully_collated": false,
+      "can_ship": false
+    },
+    {
+      "id": "C498-04",
+      "chapter_id": "L448-04-02",
+      "claim": "Marburg Article XV includes shared communion claims and corporal presence disagreement",
+      "evidence_level": "EDITED_TRANSLATED_PRIMARY",
+      "sources": [
+        {
+          "source_key": "MAR",
+          "locator": "1529-10-03 Article XV; edition WA 30 III (1910), pp.160-171"
+        }
+      ],
+      "primary_witness_fully_collated": false,
+      "can_ship": false
+    },
+    {
+      "id": "C498-05",
+      "chapter_id": "L448-04-02",
+      "claim": "1530 presentation and 1530/1531 prints are different bibliographic objects",
+      "evidence_level": "RARE_BOOK_CATALOG",
+      "sources": [
+        {
+          "source_key": "GRU",
+          "locator": "June 25 1530 presentation; Gruber nos.162,163,175 (1530); 46,7,26 (1531)"
+        }
+      ],
+      "primary_witness_fully_collated": false,
+      "can_ship": false
+    },
+    {
+      "id": "C498-06",
+      "chapter_id": "L448-04-02",
+      "claim": "1540 Variata and 1540 non-Variata copies coexist",
+      "evidence_level": "RARE_BOOK_CATALOG",
+      "sources": [
+        {
+          "source_key": "GRU",
+          "locator": "Gruber 28 and subsequent separate 1540 object description; Variata Article X"
+        }
+      ],
+      "primary_witness_fully_collated": false,
+      "can_ship": false
+    },
+    {
+      "id": "C498-07",
+      "chapter_id": "L448-05-02",
+      "claim": "1555 exclusion of other confessions",
+      "evidence_level": "EDITED_TRANSLATED_LEGAL",
+      "sources": [
+        {
+          "source_key": "AUG",
+          "locator": "1555 Peace §17"
+        }
+      ],
+      "primary_witness_fully_collated": false,
+      "can_ship": false
+    },
+    {
+      "id": "C498-08",
+      "chapter_id": "L448-05-02",
+      "claim": "1555 ecclesiastical reservation and conditional emigration",
+      "evidence_level": "EDITED_TRANSLATED_LEGAL",
+      "sources": [
+        {
+          "source_key": "AUG",
+          "locator": "1555 Peace §§18,24"
+        }
+      ],
+      "primary_witness_fully_collated": false,
+      "can_ship": false
+    },
+    {
+      "id": "C498-09",
+      "chapter_id": "L448-05-02",
+      "claim": "1648 reference date Jan 1 1624 and protection of nonconforming subjects",
+      "evidence_level": "EDITED_TRANSLATED_LEGAL",
+      "sources": [
+        {
+          "source_key": "WES",
+          "locator": "Osnabrück Art V §§14,25-26,31,34-35"
+        }
+      ],
+      "primary_witness_fully_collated": false,
+      "can_ship": false
+    },
+    {
+      "id": "C498-10",
+      "chapter_id": "L448-05-02",
+      "claim": "1648 recognition of Reformed as third imperial confession",
+      "evidence_level": "EDITED_TRANSLATED_LEGAL",
+      "sources": [
+        {
+          "source_key": "WES",
+          "locator": "Osnabrück Art VII §§1-2; three confessions limit"
+        }
+      ],
+      "primary_witness_fully_collated": false,
+      "can_ship": false
+    },
+    {
+      "id": "C498-11",
+      "chapter_id": "L448-06-02",
+      "claim": "1715 Tamil New Testament cataloged and BSI claims 1719 full edition",
+      "evidence_level": "CONFLICTING_INSTITUTIONAL_BIBLIOGRAPHY",
+      "sources": [
+        {
+          "source_key": "WLB",
+          "locator": "PDF p.2 zero-index1, Ba Indien 1715 01"
+        },
+        {
+          "source_key": "BSI",
+          "locator": "Archives 1714 partial, 1719 full Tamil NT"
+        }
+      ],
+      "primary_witness_fully_collated": false,
+      "can_ship": false
+    },
+    {
+      "id": "C498-12",
+      "chapter_id": "L448-07-02",
+      "claim": "1900 Seoul and Yokohama Korean NT test editions differ",
+      "evidence_level": "SCHOLARLY_BIBLIOGRAPHIC",
+      "sources": [
+        {
+          "source_key": "AKS",
+          "locator": "1900년 위원회역 신약젼셔, 내용 and 의의; revised 2026-06-04"
+        }
+      ],
+      "primary_witness_fully_collated": false,
+      "can_ship": false
+    },
+    {
+      "id": "C498-13",
+      "chapter_id": "L448-07-02",
+      "claim": "1900 trial, 1904 provisional, 1906 official Korean NT separate stages",
+      "evidence_level": "SCHOLARLY_BIBLIOGRAPHIC",
+      "sources": [
+        {
+          "source_key": "AKS",
+          "locator": "1900년 위원회역 신약젼셔, opening description"
+        }
+      ],
+      "primary_witness_fully_collated": false,
+      "can_ship": false
+    }
+  ],
+  "base": {
+    "branch": "research/atlas-v497-vol03040507-substantive-l1-expansion",
+    "master_path": "research/data/V497_21_CHAPTER_7VOLUME_EXPANDED_RESEARCH_CANDIDATE.json",
+    "blob_sha": "daf58a2e4a6a9faf669ea3702b3882ab703945e2"
+  },
+  "narrative": "research/v498/critical_historical_source_locator_audit_ko.md",
+  "correction_insert": "docs/01_CONTENT/L1/V498_TARGETED_HISTORICAL_CORRECTION_INSERTS_KO.md",
+  "holds": [
+    "Wyclif/Hus Latin primary paragraphs",
+    "WA 30 III facsimile comparison",
+    "1530/1531/1540 original imprints collation",
+    "German and Latin legal originals and applied imperial law",
+    "Tamil 1715 and 1719 copy relationship and institutional response",
+    "1900 Seoul/Yokohama copies and 1906 official NT text",
+    "V4.82 full research source",
+    "Historian review, reader testing and AI Studio E2E"
+  ],
+  "app_release_allowed": false
+}
