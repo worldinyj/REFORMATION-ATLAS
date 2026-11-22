@@ -1,0 +1,259 @@
+{
+  "schema": "ATLAS_V504_THREE_IMPRINT_SOURCE_AND_VARIANT_STUDY",
+  "version": "V5.04",
+  "date": "2026-11-23",
+  "status": "SCHOLARLY_TEXTUAL_VARIANTS_IDENTIFIED_NOT_ORIGINAL_PRINT_DIRECTLY_COLLATED",
+  "can_ship": false,
+  "can_merge_main": false,
+  "can_import_ai_studio": false,
+  "provenance": {
+    "original": {
+      "path": "docs/01_CONTENT/L1/V503_FIVE_LOCAL_VOICES_COMPARATIVE_EDITION_KO.md",
+      "blob_sha": "08216d16b06dc0ed7789dba65be616d76398d3c5",
+      "branch": "research/atlas-v504-sor-juana-three-imprint-variant-study"
+    },
+    "revised": {
+      "path": "docs/01_CONTENT/L1/V504_FIVE_LOCAL_VOICES_PRINT_VARIANT_REVISED_EDITION_KO.md",
+      "blob_sha": "646c3f0586c332707c0655fbdec2c2cfd1076628",
+      "branch": "research/atlas-v504-sor-juana-three-imprint-variant-study"
+    },
+    "study": {
+      "path": "docs/01_CONTENT/L1/V504_SOR_JUANA_1700_1701_THREE_IMPRINT_HISTORICAL_STUDY_KO.md",
+      "blob_sha": "1dbc79a662c5ffdaf1e8aeb2db480df26ef48f1a",
+      "branch": "research/atlas-v504-sor-juana-three-imprint-variant-study"
+    },
+    "master": {
+      "path": "research/data/V500_EIGHT_VOLUME_24_CHAPTER_EDITORIAL_REVIEW_CANDIDATE.json",
+      "blob_sha": "5e3db4f82511ca57b971b1f5811cbca35a33476c",
+      "branch": "research/atlas-v504-sor-juana-three-imprint-variant-study"
+    }
+  },
+  "edition_witnesses": [
+    {
+      "place": "Madrid",
+      "year": 1700,
+      "printer": "Manuel Ruiz de Murga",
+      "editor": "Juan Ignacio de Castorena y Ursúa",
+      "scholarly_sample_copy": "BNE R-23486",
+      "access_type": "CATALOG_PLUS_SCHOLARLY_NOTES",
+      "original_selected_passage_visually_compared": false
+    },
+    {
+      "place": "Lisboa",
+      "year": 1701,
+      "printer": "Miguel Deslandes",
+      "scholarly_sample_copy": "BNE R-19235",
+      "other_holding": "Universidad de Valladolid b1588111 / U/Bc 09095",
+      "access_type": "CATALOG_PLUS_SCHOLARLY_NOTES",
+      "original_selected_passage_visually_compared": false
+    },
+    {
+      "place": "Barcelona",
+      "year": 1701,
+      "printer": "Rafael Figueró",
+      "scholarly_sample_copy": "BNE R-17569",
+      "other_holding": "BYU/Internet Archive famayobrasposthu1701juan",
+      "access_type": "METADATA_OF_352_PAGE_PDF_PLUS_SCHOLARLY_NOTES",
+      "original_selected_passage_visually_compared": false
+    }
+  ],
+  "source_registry": {
+    "SABAT-LIT": {
+      "url": "https://www.cervantesvirtual.com/obra-visor/bibliografia-y-otras-cuestiunculas-sorjuaninas--0/html/5381a1f0-e18d-402b-9bcf-0049b36e3010_20.html",
+      "locator": "Sabat de Rivers, Bibliografía y otras cuestiúnculas sorjuaninas, printed pp.66–75, 45 selected example loci",
+      "evidence_class": "SCHOLARLY_3_COPY_TRANSCRIPTION_AND_INTERPRETATION"
+    },
+    "SABAT-NOTES": {
+      "url": "https://www.cervantesvirtual.com/portales/mario_benedetti/obra-visor/bibliografia-y-otras-cuestiunculas-sorjuaninas--0/html/5381a1f0-e18d-402b-9bcf-0049b36e3010_4.html",
+      "locator": "Sabat de Rivers, notes 32,33; BNE R-23486 Madrid 1700; R-19235 Lisbon 1701; R-17569 Barcelona 1701",
+      "evidence_class": "SCHOLARLY_PHYSICAL_COPY_STATE_DESCRIPTION"
+    },
+    "ALATORRE": {
+      "url": "https://scispace.com/pdf/para-leer-la-fama-y-obras-posthumas-de-sor-juana-ines-de-la-3z9ocsljge.pdf",
+      "locator": "Antonio Alatorre, NRFH 29(2), 1980, pp.428–508, signature placement and print history, PDF screenshots checked",
+      "evidence_class": "PDF_OF_SCHOLARLY_BIBLIOGRAPHY_VISUALLY_INSPECTED"
+    },
+    "POOT": {
+      "url": "https://www.imex-revista.com/wp-content/uploads/XV_Sor-Juana-Ines-de-la-Cruz_iMex.pdf",
+      "locator": "Sara Poot Herrera, iMex 2019, interpretive discussion of moving acrostic and patron identity",
+      "evidence_class": "PDF_OF_SCHOLARLY_INTERPRETATION_TEXT_AND_SAMPLE_PAGES_REVIEWED"
+    },
+    "UNAM": {
+      "url": "https://sibila.iib.unam.mx/index.php/Detail/Object/Show/object_id/1958",
+      "locator": "UNAM SIBILA Madrid 1700 bibliographic contents: pp.1–7 Sor Filotea, 8–60 Respuesta",
+      "evidence_class": "LIBRARY_OBJECT_CATALOG_AND_CONTENTS"
+    },
+    "LISBON-CATALOG": {
+      "url": "https://www.cervantesvirtual.com/obra/fama-y-obras-posthumas-tomo-tercero-del-fenix-de-mexico-sor-juana-ines-de-la-cruz-religiosa-en-el-convento-de-san-geronimo-recogidas-y-dadas-a-luz-por-juan-ignacio-de-castorena-929183/",
+      "locator": "Universidad de Valladolid b1588111/U/Bc 09095 digitized Lisbon 1701 Miguel Deslandes exemplar",
+      "evidence_class": "LIBRARY_OBJECT_CATALOG_REPRODUCTION_NOT_VIEWED"
+    },
+    "BARCELONA-CATALOG": {
+      "url": "https://commons.wikimedia.org/wiki/File:Fama,_y_obras_posthumas,_tomo_tercero,_del_fenix_de_M%C3%A9xico,_y_dezima_musa,_poetisa_de_la_America,_Sor_Juana_Ines_de_la_Cruz,_religiosa_professa_en_el_Convento_de_San_Geronimo_(IA_famayobrasposthu1701juan).pdf",
+      "locator": "BYU/Internet Archive digitized Barcelona 1701 Rafael Figueró copy, 352 scanned PDF pages, 35.82MB",
+      "evidence_class": "DIGITIZED_ORIGINAL_SCAN_METADATA_NO_INDIVIDUAL_TEXT_PAGE_CHECK"
+    }
+  },
+  "claims": [
+    {
+      "id": "V504-01",
+      "claim": "Madrid 1700 itself has differing printed copy states",
+      "source_key": "SABAT-NOTES",
+      "evidence_level": "SCHOLARLY_INSPECTION_OF_SPECIFIC_BNE_COPIES",
+      "boundary": "Do not say missing portrait necessarily never printed"
+    },
+    {
+      "id": "V504-02",
+      "claim": "Lisbon 1701 and Barcelona 1701 are independently composed impressions, not shared plates with changed title page",
+      "source_key": "SABAT-LIT",
+      "evidence_level": "SCHOLARLY_BIBLIOGRAPHICAL_COMPARISON",
+      "boundary": "Identical broad contents do not imply exact leaf- and letter-match"
+    },
+    {
+      "id": "V504-03",
+      "claim": "Acrostic and editorial advertisement shift to immediately after title page in 1701 copies",
+      "source_key": "SABAT-LIT",
+      "evidence_level": "SCHOLARLY_COLLATION_OF_PRELIMINARIES",
+      "boundary": "Unknown female donor and reader influence not independently proven"
+    },
+    {
+      "id": "V504-04",
+      "claim": "45 scholarly example loci distinguish Madrid 1700 Lisbon 1701 Barcelona 1701",
+      "source_key": "SABAT-LIT",
+      "evidence_level": "SECONDARY_EDITED_TRANSCRIPTION_OF_45_SELECTED_LOCI",
+      "boundary": "Mostly prelims, devotional writings, poems and indexes; NOT 45 doctrinal variants in Respuesta"
+    },
+    {
+      "id": "V504-05",
+      "claim": "Scholarly sample suggests Madrid 1700 -> Lisbon 1701 -> Barcelona 1701 print transmission",
+      "source_key": "SABAT-LIT",
+      "evidence_level": "SCHOLARLY_STEMMATIC_INFERENCE",
+      "boundary": "Not an author-signed proof; selected sample not all copies and all text"
+    },
+    {
+      "id": "V504-06",
+      "claim": "Sor Filotea pp.1-7 and Respuesta pp.8-60 in Madrid 1700",
+      "source_key": "UNAM",
+      "evidence_level": "RARITY_CATALOG_INDEXED_CONTENTS",
+      "boundary": "Not direct same-paragraph collation against 1701 printed witnesses"
+    },
+    {
+      "id": "V504-07",
+      "claim": "Lisbon 1701 actual historical imprint record survives in Valladolid repository",
+      "source_key": "LISBON-CATALOG",
+      "evidence_level": "HOLDING_AND_DIGITAL_REPRODUCTION_CATALOG_ONLY",
+      "boundary": "Original page image access denied at source host"
+    },
+    {
+      "id": "V504-08",
+      "claim": "Barcelona 1701 historical printed witness scanned as 352-page PDF",
+      "source_key": "BARCELONA-CATALOG",
+      "evidence_level": "DIGITAL_SCAN_HOST_METADATA_ONLY",
+      "boundary": "PDF too large for web rendering; pages not visually cross-collated"
+    },
+    {
+      "id": "V504-09",
+      "claim": "Alatorre (1980) analyzed 1700 composition and 1701 transmission; some PDF pages visually inspected",
+      "source_key": "ALATORRE",
+      "evidence_level": "ACADEMIC_PDF_REAL_PRINTED_PAGES_VISUALLY_SEEN",
+      "boundary": "Scholarly PDF pages, not 1700 historical original"
+    },
+    {
+      "id": "V504-10",
+      "claim": "Modern scholarly interpretation of moved preface connects women patrons and editorial politics",
+      "source_key": "POOT",
+      "evidence_level": "SECONDARY_HISTORIOGRAPHICAL_HYPOTHESIS",
+      "boundary": "Do not identify anonymous patron with certainty"
+    }
+  ],
+  "selected_sample_loci": [
+    {
+      "id": "SABAT-07",
+      "section": "preliminary_sonnet_heading",
+      "locus": "prelims f.h",
+      "difference_kind": "SPELLING_OF_NAME",
+      "historical_impact": "Barcelona copy shows B/V variation; cannot infer Respuesta doctrinal alteration",
+      "direct_early_print_comparison": false
+    },
+    {
+      "id": "SABAT-16",
+      "section": "Ejercicios de la Encarnación",
+      "locus": "printed main text p.68",
+      "difference_kind": "VERB_SPELLING",
+      "historical_impact": "Devotional work, not Respuesta; Barcelona's verb spelling differs",
+      "direct_early_print_comparison": false
+    },
+    {
+      "id": "SABAT-42",
+      "section": "elegy_preliminary_stanza",
+      "locus": "printed main text p.205",
+      "difference_kind": "WORD_AND_ORTHOGRAPHY",
+      "historical_impact": "A copy-typographical difference described in scholarly article, not Respuesta",
+      "direct_early_print_comparison": false
+    },
+    {
+      "id": "SABAT-45",
+      "section": "table/index",
+      "locus": "first index leaf, catchword",
+      "difference_kind": "LAYOUT_AND_CATCHWORD",
+      "historical_impact": "Barcelona breaks the page differently; same total title content is not identical impression",
+      "direct_early_print_comparison": false
+    }
+  ],
+  "reported_scholarship_summary": {
+    "comparison_sample_size": 45,
+    "barcelona_differs_from_madrid_in_samples": 41,
+    "lisbon_matches_madrid_in_samples": 20,
+    "lineage_hypothesis": "Madrid_1700 -> Lisboa_1701 -> Barcelona_1701",
+    "source_key": "SABAT-LIT",
+    "not_a_total_count_of_variants_in_respuesta": true,
+    "source_loci_mainly_other_pieces": true
+  },
+  "case_revisions": [
+    {
+      "case_id": "V501-LA-01",
+      "changed": false,
+      "source_section_chapter": null
+    },
+    {
+      "case_id": "V501-LA-02",
+      "changed": true,
+      "source_section_chapter": "L448-05-03"
+    },
+    {
+      "case_id": "V501-PA-01",
+      "changed": false,
+      "source_section_chapter": null
+    },
+    {
+      "case_id": "V501-PA-02",
+      "changed": false,
+      "source_section_chapter": null
+    },
+    {
+      "case_id": "V501-LA-03",
+      "changed": false,
+      "source_section_chapter": null
+    }
+  ],
+  "verification": {
+    "five_case_sections": true,
+    "only_sor_juana_section_changed": true,
+    "previous_other_four_byte_identical": true,
+    "prior_canonical_master_chapters": 24,
+    "prior_canonical_24_chapters_modified": 0,
+    "all_source_keys_grounded": true,
+    "historical_imprint_same_page_screenshots_success": 0,
+    "academic_pdf_images_checked": true,
+    "historian_approval": false,
+    "actual_reader_test": false,
+    "app_e2e": false
+  },
+  "holds": [
+    "1700/1701 original printed Respuesta paragraphs p.8-60 not compared line by line",
+    "45 exemplars are selected scholarly transcription across composite volume not 45 Respuesta variants",
+    "1700 print copies show intra-edition states; original printing/physical alteration distinctions unresolved case-by-case",
+    "Anonymous female patron and editorial motive uncertain",
+    "No historical scholar/editor review, human reader E2E or image rights review"
+  ]
+}
