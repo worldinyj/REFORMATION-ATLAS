@@ -1,0 +1,390 @@
+{
+  "schema": "ATLAS_V506_OPENENDED_READER_EVALUATION_RUBRIC",
+  "version": "V5.06",
+  "date": "2026-11-23",
+  "branch": "research/atlas-v506-reader-comprehension-revision-and-pilot",
+  "status": "PILOT_PREPARATION_NO_HUMAN_RESPONSES",
+  "can_ship": false,
+  "can_merge_main": false,
+  "sources": {
+    "reader": {
+      "path": "docs/01_CONTENT/L1/V506_SIX_THEME_PLAIN_LANGUAGE_READER_EDITION_KO.md",
+      "sha": "4f637e2b32af07c62c7b6a3f57531ce7133dd55b",
+      "branch": "research/atlas-v506-reader-comprehension-revision-and-pilot"
+    },
+    "questionnaire": {
+      "path": "research/v506/participant_reader_comprehension_questionnaire_ko.md",
+      "sha": "807d82838f1e41d793ac12bb9bbe42ddb5e0547d",
+      "branch": "research/atlas-v506-reader-comprehension-revision-and-pilot"
+    },
+    "navigation": {
+      "path": "research/v505/six_theme_five_voices_navigation_contract.json",
+      "sha": "e90fe3dde2188e29f9a9daadc81ff9d44efa4a1a",
+      "branch": "research/atlas-v506-reader-comprehension-revision-and-pilot"
+    },
+    "master": {
+      "path": "research/data/V500_EIGHT_VOLUME_24_CHAPTER_EDITORIAL_REVIEW_CANDIDATE.json",
+      "sha": "5e3db4f82511ca57b971b1f5811cbca35a33476c",
+      "branch": "research/atlas-v506-reader-comprehension-revision-and-pilot"
+    }
+  },
+  "instruments": {
+    "open_ended_questions": 12,
+    "document_navigation_exercises": 3,
+    "qualitative_feedback_prompts": 4
+  },
+  "cohort_plan": {
+    "general_readers": "비전공 일반 독자",
+    "church_education_readers": "교회사·성경 공부에 익숙한 독자",
+    "academic_readers": "역사·신학 전공자 또는 관련 분야 검토자",
+    "sample_size": "각 집단 약 3~5명 편의표집을 검토; 실제 모집·조사·응답 0명",
+    "personal_data_policy": "이름, 이메일, 종교 신념, 정치 성향 등 민감 정보 수집 금지; 무작위 참가자 코드만"
+  },
+  "score_rule": {
+    "question_max": 2,
+    "questions": 12,
+    "content_subtotal_max": 24,
+    "navigation_max_each": 2,
+    "navigation_subtotal_max": 6,
+    "potential_total_max": 30,
+    "unanswered": "NA, 0점으로 자동 취급하지 않음",
+    "status": "PROVISIONAL_NOT_PSYCHOMETRICALLY_VALIDATED",
+    "do_not_compute_until_real_responses": true
+  },
+  "tasks": [
+    {
+      "id": "Q01",
+      "theme": "T01",
+      "construct": "SOURCE_VOICE",
+      "requirements_for_full_credit": [
+        "소르 후아나가 직접 답장을 저술함",
+        "과만 포마의 그림 속 여성은 그림의 화자가 아니며 자신의 기록 미확인"
+      ],
+      "common_misconception": "두 여성을 모두 직접 쓴 저술가로 취급",
+      "source_chapter_ids": [
+        "L448-05-03",
+        "L448-07-03"
+      ],
+      "case_ids": [
+        "V501-LA-02",
+        "V501-LA-01"
+      ],
+      "revision_if_failed": "화자와 그림 속 등장인물 구분 문장 강화",
+      "scoring": {
+        "0": "반대 내용 또는 핵심 오해; 무응답은 별도 NA로 보관",
+        "1": "한 가지 요소만 정확하거나 근거 범위 설명이 불완전",
+        "2": "두 가지 핵심 요소를 정확하게 자신의 말로 설명"
+      },
+      "public_questionnaire_has_model_answer": false
+    },
+    {
+      "id": "Q02",
+      "theme": "T01",
+      "construct": "AUTHORSHIP_VS_PUBLICATION",
+      "requirements_for_full_credit": [
+        "1691은 저술 시점",
+        "1700은 저자 사망 뒤 편집·첫 인쇄, 1701은 후속 판본"
+      ],
+      "common_misconception": "1691 책을 곧바로 출판했다거나 1700이 저자 직접 편집이라고 주장",
+      "source_chapter_ids": [
+        "L448-05-03"
+      ],
+      "case_ids": [
+        "V501-LA-02"
+      ],
+      "revision_if_failed": "집필·사후 편집·간행 연표 가시화",
+      "scoring": {
+        "0": "반대 내용 또는 핵심 오해; 무응답은 별도 NA로 보관",
+        "1": "한 가지 요소만 정확하거나 근거 범위 설명이 불완전",
+        "2": "두 가지 핵심 요소를 정확하게 자신의 말로 설명"
+      },
+      "public_questionnaire_has_model_answer": false
+    },
+    {
+      "id": "Q03",
+      "theme": "T02",
+      "construct": "SCOPE_LIMIT",
+      "requirements_for_full_credit": [
+        "과만 포마의 성직자 권력 비판은 확인",
+        "폭력 비판만으로 그의 칭의·구원론 전체를 알 수 없으며 교리 원전 필요"
+      ],
+      "common_misconception": "기독교적 비판 자체를 상세한 구원론으로 추론",
+      "source_chapter_ids": [
+        "L448-04-01",
+        "L448-05-01"
+      ],
+      "case_ids": [
+        "V501-LA-01"
+      ],
+      "revision_if_failed": "교리적 증거와 사회사 증거를 분리하는 비교 예문 추가",
+      "scoring": {
+        "0": "반대 내용 또는 핵심 오해; 무응답은 별도 NA로 보관",
+        "1": "한 가지 요소만 정확하거나 근거 범위 설명이 불완전",
+        "2": "두 가지 핵심 요소를 정확하게 자신의 말로 설명"
+      },
+      "public_questionnaire_has_model_answer": false
+    },
+    {
+      "id": "Q04",
+      "theme": "T02",
+      "construct": "METADATA_LIMIT",
+      "requirements_for_full_credit": [
+        "CELAM 회의 관련 목록·주제 정보와 원문은 별개",
+        "구원론의 정확한 조항을 말하려면 회의 문서 실제 본문을 열람해야 함"
+      ],
+      "common_misconception": "기록 목록의 키워드를 원문 조항으로 인용",
+      "source_chapter_ids": [
+        "L448-07-03"
+      ],
+      "case_ids": [
+        "V501-LA-03"
+      ],
+      "revision_if_failed": "접근 가능 범위 표시 확대",
+      "scoring": {
+        "0": "반대 내용 또는 핵심 오해; 무응답은 별도 NA로 보관",
+        "1": "한 가지 요소만 정확하거나 근거 범위 설명이 불완전",
+        "2": "두 가지 핵심 요소를 정확하게 자신의 말로 설명"
+      },
+      "public_questionnaire_has_model_answer": false
+    },
+    {
+      "id": "Q05",
+      "theme": "T03",
+      "construct": "SACRAMENT_DISTINCTION",
+      "requirements_for_full_credit": [
+        "과만 포마의 그림은 고해와 성직 권한을 다룸",
+        "성찬은 다른 예식·신학 논점이며 마르부르크의 직접 증거가 아님"
+      ],
+      "common_misconception": "고해 그림을 성찬론의 동시대 증거로 사용",
+      "source_chapter_ids": [
+        "L448-04-02",
+        "L448-08-02"
+      ],
+      "case_ids": [
+        "V501-LA-01"
+      ],
+      "revision_if_failed": "고해 vs 성찬 한 문장 비교 삽입",
+      "scoring": {
+        "0": "반대 내용 또는 핵심 오해; 무응답은 별도 NA로 보관",
+        "1": "한 가지 요소만 정확하거나 근거 범위 설명이 불완전",
+        "2": "두 가지 핵심 요소를 정확하게 자신의 말로 설명"
+      },
+      "public_questionnaire_has_model_answer": false
+    },
+    {
+      "id": "Q06",
+      "theme": "T03",
+      "construct": "PARTIAL_AGREEMENT",
+      "requirements_for_full_credit": [
+        "마르부르크는 여러 조항에서 공동 진술 있음",
+        "성찬 제15조 안에도 공통 내용과 특정 임재 방식에 대한 미합의가 함께 존재"
+      ],
+      "common_misconception": "15개 조항 전부 불합의 또는 성찬 쟁점만으로 모든 교리 분열 추론",
+      "source_chapter_ids": [
+        "L448-04-02"
+      ],
+      "case_ids": [],
+      "revision_if_failed": "VII·XV 합의 범위의 비교표",
+      "scoring": {
+        "0": "반대 내용 또는 핵심 오해; 무응답은 별도 NA로 보관",
+        "1": "한 가지 요소만 정확하거나 근거 범위 설명이 불완전",
+        "2": "두 가지 핵심 요소를 정확하게 자신의 말로 설명"
+      },
+      "public_questionnaire_has_model_answer": false
+    },
+    {
+      "id": "Q07",
+      "theme": "T04",
+      "construct": "MEDIATED_HISTORY",
+      "requirements_for_full_credit": [
+        "타히티·간호 사례는 타인이 남긴 선교 기록·학술 해석을 통해 확인",
+        "당사자 여성의 1인칭 서술과 제삼자 서술은 다른 증거"
+      ],
+      "common_misconception": "왕비나 현지 교육생의 자필이라고 주장",
+      "source_chapter_ids": [
+        "L448-05-03",
+        "L448-06-03"
+      ],
+      "case_ids": [
+        "V501-PA-02"
+      ],
+      "revision_if_failed": "누가 썼나/누가 등장하나 구분 머리말",
+      "scoring": {
+        "0": "반대 내용 또는 핵심 오해; 무응답은 별도 NA로 보관",
+        "1": "한 가지 요소만 정확하거나 근거 범위 설명이 불완전",
+        "2": "두 가지 핵심 요소를 정확하게 자신의 말로 설명"
+      },
+      "public_questionnaire_has_model_answer": false
+    },
+    {
+      "id": "Q08",
+      "theme": "T04",
+      "construct": "REPRESENTATIVENESS",
+      "requirements_for_full_credit": [
+        "소르 후아나의 개인 저술·학습 경험 인정",
+        "한 사람의 수도원 교육이 모든 식민지 멕시코 여성의 접근권을 대표하지 않음"
+      ],
+      "common_misconception": "개별 사례에서 전체 여성의 동등한 기회 일반화",
+      "source_chapter_ids": [
+        "L448-05-03"
+      ],
+      "case_ids": [
+        "V501-LA-02"
+      ],
+      "revision_if_failed": "개인 사례와 사회 전체를 구별하는 주석",
+      "scoring": {
+        "0": "반대 내용 또는 핵심 오해; 무응답은 별도 NA로 보관",
+        "1": "한 가지 요소만 정확하거나 근거 범위 설명이 불완전",
+        "2": "두 가지 핵심 요소를 정확하게 자신의 말로 설명"
+      },
+      "public_questionnaire_has_model_answer": false
+    },
+    {
+      "id": "Q09",
+      "theme": "T05",
+      "construct": "LEGAL_SCOPE",
+      "requirements_for_full_credit": [
+        "1555년은 인정된 고백의 제한적 법적 보호·조건부 이동/성직영지유보",
+        "1648년은 일부 신민의 제한적 관용과 개혁파 추가 보호, 현대의 보편적 자유 아님"
+      ],
+      "common_misconception": "1555·1648년 모든 거주자의 무제한 종교자유 선포라고 주장",
+      "source_chapter_ids": [
+        "L448-05-02"
+      ],
+      "case_ids": [],
+      "revision_if_failed": "권리 주체와 제외 대상 표를 추가",
+      "scoring": {
+        "0": "반대 내용 또는 핵심 오해; 무응답은 별도 NA로 보관",
+        "1": "한 가지 요소만 정확하거나 근거 범위 설명이 불완전",
+        "2": "두 가지 핵심 요소를 정확하게 자신의 말로 설명"
+      },
+      "public_questionnaire_has_model_answer": false
+    },
+    {
+      "id": "Q10",
+      "theme": "T05",
+      "construct": "COMPARISON_VS_CAUSALITY",
+      "requirements_for_full_credit": [
+        "제국법, 안데스 저술, 1968 메데인은 다른 역사적 배경",
+        "직접 인과 계보가 아니라 권력·법률·생활의 증거 유형을 비교"
+      ],
+      "common_misconception": "메데인 회의가 1555년 제국법에서 직접 파생됐다고 주장",
+      "source_chapter_ids": [
+        "L448-05-02",
+        "L448-07-03"
+      ],
+      "case_ids": [
+        "V501-LA-01",
+        "V501-LA-03"
+      ],
+      "revision_if_failed": "비교 화살표가 영향 관계가 아님을 표기",
+      "scoring": {
+        "0": "반대 내용 또는 핵심 오해; 무응답은 별도 NA로 보관",
+        "1": "한 가지 요소만 정확하거나 근거 범위 설명이 불완전",
+        "2": "두 가지 핵심 요소를 정확하게 자신의 말로 설명"
+      },
+      "public_questionnaire_has_model_answer": false
+    },
+    {
+      "id": "Q11",
+      "theme": "T06",
+      "construct": "DOCUMENT_CHRONOLOGY",
+      "requirements_for_full_credit": [
+        "1823년은 파페이하의 라로통가 활동",
+        "약 1830은 원 이야기의 서술 추정, 1880년경 사본 및 1889년 길의 주석은 후대 기록"
+      ],
+      "common_misconception": "1889년에 선교 활동이 시작됐거나 1830년 원고가 현존 친필로 확정됐다고 주장",
+      "source_chapter_ids": [
+        "L448-06-03"
+      ],
+      "case_ids": [
+        "V501-PA-01"
+      ],
+      "revision_if_failed": "활동/구술/필사/번역 네 시점 요약",
+      "scoring": {
+        "0": "반대 내용 또는 핵심 오해; 무응답은 별도 NA로 보관",
+        "1": "한 가지 요소만 정확하거나 근거 범위 설명이 불완전",
+        "2": "두 가지 핵심 요소를 정확하게 자신의 말로 설명"
+      },
+      "public_questionnaire_has_model_answer": false
+    },
+    {
+      "id": "Q12",
+      "theme": "T06",
+      "construct": "CONFLICTING_BIBLIOGRAPHY",
+      "requirements_for_full_credit": [
+        "WLB 1715 소장 기록과 BSI 1719 완역 설명의 존재는 확인",
+        "원판 표제지·권말·본문 검증 없이 어느 기관이 오기인지, 동일본/재판인지 단정 불가"
+      ],
+      "common_misconception": "1715=오류 또는 1719=재판이라고 무근거 확정",
+      "source_chapter_ids": [
+        "L448-06-02"
+      ],
+      "case_ids": [],
+      "revision_if_failed": "기관별 정보와 미해결 판본 관계를 나란히 제시",
+      "scoring": {
+        "0": "반대 내용 또는 핵심 오해; 무응답은 별도 NA로 보관",
+        "1": "한 가지 요소만 정확하거나 근거 범위 설명이 불완전",
+        "2": "두 가지 핵심 요소를 정확하게 자신의 말로 설명"
+      },
+      "public_questionnaire_has_model_answer": false
+    }
+  ],
+  "navigation": [
+    {
+      "id": "N01",
+      "expected_case_id": "V501-LA-02",
+      "expected_chapter_id": "L448-05-03",
+      "route": "T01 or journey A",
+      "success": "사례와 장 ID를 모두 정확히 찾고 돌아옴",
+      "partial": "둘 중 하나 정확 또는 길 찾기 성공하지만 ID 일부 오류",
+      "failure": "둘 다 탐색하지 못함",
+      "app_route_not_tested": true
+    },
+    {
+      "id": "N02",
+      "expected_case_id": "V501-PA-01",
+      "expected_chapter_id": "L448-06-03",
+      "route": "T06 or journey B",
+      "success": "두 ID를 찾고 약 1830년 문서가 친필 원본으로 확인되지 않았음을 구별",
+      "partial": "두 ID 또는 근거 한계 중 하나가 불완전",
+      "failure": "탐색 실패 또는 1830 친필 확정이라고 오판",
+      "app_route_not_tested": true
+    },
+    {
+      "id": "N03",
+      "expected_case_id_options": [
+        "V501-LA-01",
+        "V501-LA-03"
+      ],
+      "expected_chapter_id": "L448-05-02",
+      "route": "T05 or journey C",
+      "success": "법률장과 사례를 정확히 연결하면서 순서가 역사 인과관계가 아님을 명시",
+      "partial": "장 또는 사례는 찾았지만 연관성 설명이 불충분",
+      "failure": "서로 다른 사건을 직접 인과로 오해하거나 탐색 실패",
+      "app_route_not_tested": true
+    }
+  ],
+  "feedback_ids": [
+    "F01",
+    "F02",
+    "F03",
+    "F04"
+  ],
+  "revision_triage": {
+    "P0": "사료의 직접성, 성찬과 고해 혼동, 전체 여성 대표성, 문헌 메타데이터를 전문으로 인용하는 오류",
+    "P1": "인쇄/사본 시점 혼동 또는 역사적 인과를 독서 순서로 혼동",
+    "P2": "길 찾기·전문 용어·장 구성의 가독성 문제"
+  },
+  "real_responses": [],
+  "scores": [],
+  "metrics": null,
+  "validation": {
+    "all_ids_exist": true,
+    "questionnaire_mentions_all_items": true,
+    "actual_human_sample_count": 0,
+    "expert_signoffs": 0,
+    "app_e2e_tests": 0,
+    "can_ship": false
+  }
+}
