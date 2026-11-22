@@ -39,7 +39,7 @@
 - 실제 집필: 사회적 차별·고통·해방과 구원 이해가 어떻게 연결되는지 설명하면서, 한국·인도 전체에 동일한 신학을 귀속하지 않는 **추가 절 원고 후보** 작성.
 - 검증 수준: **학술 종합 개관 근거 있음 / 각 지역의 신학자 원저·교단 문헌 직접 대조 미완료**. 최종 정본으로 자동 승격하지 않음.
 
-두 신규 원고는 [V4.95 실제 역사 보강 원고](../../docs/01_CONTENT/L1/V495_T02_VOL03_VOL07_SUBSTANTIVE_RESEARCH_INSERTS_KO.md)에서 읽을 수 있다. 상대 경로가 부정확할 수 있으므로 실제 위치는 `docs/01_CONTENT/L1/V495_T02_VOL03_VOL07_SUBSTANTIVE_RESEARCH_INSERTS_KO.md`이며, 이 문서를 연구 정본에 병합하지 않는다.
+두 신규 원고는 [V4.95 실제 역사 보강 원고](../docs/01_CONTENT/L1/V495_T02_VOL03_VOL07_SUBSTANTIVE_RESEARCH_INSERTS_KO.md)에서 읽을 수 있다. 저장소 내 실제 위치는 `docs/01_CONTENT/L1/V495_T02_VOL03_VOL07_SUBSTANTIVE_RESEARCH_INSERTS_KO.md`이며, 이 문서를 연구 정본에 병합하지 않는다.
 
 ## 3. 시대권과 주제권의 역할을 명확히 나눈다
 
