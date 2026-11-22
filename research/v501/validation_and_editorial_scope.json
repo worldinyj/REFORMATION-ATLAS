@@ -1,0 +1,68 @@
+{
+  "schema": "ATLAS_V501_FIVE_HISTORICAL_VOICES_EDITORIAL_AUDIT",
+  "version": "V5.01",
+  "date": "2026-11-22",
+  "status": "RESEARCH_DRAFT_INTEGRITY_CHECKED",
+  "can_ship": false,
+  "source_objects": {
+    "cases": {
+      "path": "docs/01_CONTENT/L1/V501_LATIN_AMERICA_PACIFIC_LOCAL_VOICES_DRAFT_KO.md",
+      "blob_sha": "c2470b08d5c33afc3f42b6608df0a5777618511f",
+      "branch": "research/atlas-v501-latin-america-pacific-local-voices"
+    },
+    "contract": {
+      "path": "research/data/V501_FIVE_LOCAL_VOICES_EDITORIAL_STAGING.json",
+      "blob_sha": "6023000218a263c1670722f6ee70e0aa6beea172",
+      "branch": "research/atlas-v501-latin-america-pacific-local-voices"
+    },
+    "reader": {
+      "path": "docs/01_CONTENT/L1/V501_LOCAL_VOICES_READER_JOURNEY_KO.md",
+      "blob_sha": "18f6ddf889328c49546a6a86ca3db8d868b364ae",
+      "branch": "research/atlas-v501-latin-america-pacific-local-voices"
+    },
+    "base": {
+      "path": "research/data/V500_EIGHT_VOLUME_24_CHAPTER_EDITORIAL_REVIEW_CANDIDATE.json",
+      "blob_sha": "5e3db4f82511ca57b971b1f5811cbca35a33476c",
+      "branch": "research/atlas-v501-latin-america-pacific-local-voices"
+    }
+  },
+  "counts": {
+    "new_case_count": 5,
+    "local_america_cases": 3,
+    "pacific_cases": 2,
+    "manuscript_chars": 15395,
+    "reader_chars": 3851,
+    "source_reference_occurrences": 15,
+    "unique_reference_urls": 14,
+    "source_chapter_links": 11,
+    "existing_chapters": 24,
+    "existing_chapters_modified": 0,
+    "historian_signoffs": 0,
+    "actual_reader_sessions": 0,
+    "original_manuscripts_fully_collated": 0,
+    "app_e2e_tests": 0
+  },
+  "evidence_gates": {
+    "indigenous_manuscript_original_pages_rechecked": false,
+    "sor_juana_edition_full_collation": false,
+    "papeiha_language_original_fully_read": false,
+    "taunga_travel_manuscript_fully_read": false,
+    "missionary_letters_unmediated_female_testimony": false,
+    "CELAM_full_text_read": false,
+    "CELAM_access_type": "METADATA_AND_REQUEST_ONLY",
+    "image_rights_reviewed": false,
+    "app_links_verified": false
+  },
+  "checks": {
+    "all_case_ids_unique": true,
+    "all_case_sections_present": true,
+    "all_anchors_valid": true,
+    "provenance_exact_sha": true,
+    "reader_five_stops": true,
+    "source_urls_present_in_original_manuscript": true,
+    "base_24_chapters_unmodified": true,
+    "zero_errors": true,
+    "errors": []
+  },
+  "next": "V5.02: pursue source-critical verification of selected 1615 Andean p.590 and 1830 Pacific indigenous-language witnesses, while enhancing weaker world-region treatment; do not release without signoff"
+}
