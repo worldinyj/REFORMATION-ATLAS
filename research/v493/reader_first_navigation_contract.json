@@ -1,0 +1,411 @@
+{
+  "schema": "ATLAS_V493_READER_FIRST_SIX_THEME_NAVIGATION_RESEARCH",
+  "version": "V4.93",
+  "date": "2026-11-22",
+  "status": "SUBSTANTIVE_EDITORIAL_REVISION_NOT_HUMAN_READER_TESTED",
+  "can_ship": false,
+  "sources": [
+    {
+      "kind": "L1_MASTER",
+      "ref": "research/atlas-v450-core-reformation-l1-eucharist-confessions-peace",
+      "path": "research/data/V4_50_L1_24_CHAPTER_INTEGRATED_REVISED_MASTER.json",
+      "git_blob_sha": "79a362734aa963eb41ad0424515e8d21074349c5"
+    },
+    {
+      "kind": "V491_LINK_CONTRACT",
+      "ref": "research/atlas-v493-reader-first-six-theme-edition",
+      "path": "research/v491/editorial_reader_flow_contract.json",
+      "git_blob_sha": "e05edc4e5c3e1d8496f090883318b0425e74fa37"
+    },
+    {
+      "kind": "V492_QUESTIONS",
+      "ref": "research/atlas-v493-reader-first-six-theme-edition",
+      "path": "research/v492/reader_clarity_evaluation_contract.json",
+      "git_blob_sha": "305cd1209bcdda8b1b26f7e0afcf52286e8dfda4"
+    }
+  ],
+  "manuscript": {
+    "path": "docs/01_CONTENT/L1/V493_READER_FIRST_SIX_THEME_INTEGRATED_EDITION_KO.md",
+    "git_blob_sha": "6b09d7e21155869275da0b41e6fadcc1a082f8bf",
+    "length_chars": 8793,
+    "description": "Standalone Korean reader-first synthesis; retains original L1 chapters without copying their text"
+  },
+  "paths": [
+    {
+      "theme": "T01",
+      "title": "성경과 권위",
+      "core": [
+        {
+          "id": "L448-01-03",
+          "title": "공의회는 질문을 정리했지만 모든 차이를 지우지 못했다",
+          "volume": "VOL-01",
+          "reading_role": "TEXT_RECEPTION",
+          "validation": "EXISTS_IN_SOURCE_L1_MASTER"
+        },
+        {
+          "id": "L448-03-02",
+          "title": "위클리프와 후스: 영향을 받았어도 똑같이 믿지는 않았다",
+          "volume": "VOL-03",
+          "reading_role": "INTELLECTUAL_COMPARISON",
+          "validation": "EXISTS_IN_SOURCE_L1_MASTER"
+        },
+        {
+          "id": "L448-04-02",
+          "title": "마르부르크의 합의와 아우크스부르크 판본: 신학과 서지의 차이",
+          "volume": "VOL-04",
+          "reading_role": "CONFESSION_EDITION",
+          "validation": "EXISTS_IN_SOURCE_L1_MASTER"
+        },
+        {
+          "id": "L448-05-01",
+          "title": "가톨릭의 개혁을 오직 개신교에 대한 반응으로 읽지 않기",
+          "volume": "VOL-05",
+          "reading_role": "COUNCIL_LOCAL_IMPLEMENTATION",
+          "validation": "EXISTS_IN_SOURCE_L1_MASTER"
+        }
+      ],
+      "context_L1": [],
+      "support_L0": [],
+      "reader_takeaway": "무엇을 누가 가르치고 누가 수용했는가"
+    },
+    {
+      "theme": "T02",
+      "title": "은총과 구원",
+      "core": [
+        {
+          "id": "L448-04-01",
+          "title": "1517년 논쟁은 왜 예배·학교·도시 정부의 문제로 커졌나",
+          "volume": "VOL-04",
+          "reading_role": "JUSTIFICATION_CONTEXT",
+          "validation": "EXISTS_IN_SOURCE_L1_MASTER"
+        },
+        {
+          "id": "L448-04-02",
+          "title": "마르부르크의 합의와 아우크스부르크 판본: 신학과 서지의 차이",
+          "volume": "VOL-04",
+          "reading_role": "CONFESSION_EDITION",
+          "validation": "EXISTS_IN_SOURCE_L1_MASTER"
+        },
+        {
+          "id": "L448-05-01",
+          "title": "가톨릭의 개혁을 오직 개신교에 대한 반응으로 읽지 않기",
+          "volume": "VOL-05",
+          "reading_role": "CATHOLIC_REFORM_CONTEXT",
+          "validation": "EXISTS_IN_SOURCE_L1_MASTER"
+        },
+        {
+          "id": "L448-06-01",
+          "title": "경건주의와 부흥운동은 같은 단체가 아니었다",
+          "volume": "VOL-06",
+          "reading_role": "PIETY_DIFFERENTIATION",
+          "validation": "EXISTS_IN_SOURCE_L1_MASTER"
+        }
+      ],
+      "context_L1": [],
+      "support_L0": [],
+      "reader_takeaway": "교리 설명과 생활 변화는 어떻게 다른가"
+    },
+    {
+      "theme": "T03",
+      "title": "성찬과 예배",
+      "core": [
+        {
+          "id": "L448-03-02",
+          "title": "위클리프와 후스: 영향을 받았어도 똑같이 믿지는 않았다",
+          "volume": "VOL-03",
+          "reading_role": "EUCHARISTIC_CONTRAST",
+          "validation": "EXISTS_IN_SOURCE_L1_MASTER"
+        },
+        {
+          "id": "L448-04-02",
+          "title": "마르부르크의 합의와 아우크스부르크 판본: 신학과 서지의 차이",
+          "volume": "VOL-04",
+          "reading_role": "MARBURG_ARTICLE_COMPARISON",
+          "validation": "EXISTS_IN_SOURCE_L1_MASTER"
+        },
+        {
+          "id": "L448-05-01",
+          "title": "가톨릭의 개혁을 오직 개신교에 대한 반응으로 읽지 않기",
+          "volume": "VOL-05",
+          "reading_role": "CATHOLIC_SACRAMENTAL_CONTEXT",
+          "validation": "EXISTS_IN_SOURCE_L1_MASTER"
+        }
+      ],
+      "context_L1": [],
+      "support_L0": [],
+      "reader_takeaway": "합의한 항목과 이견이 남은 항목은 무엇인가"
+    },
+    {
+      "theme": "T04",
+      "title": "교회조직과 일상생활",
+      "core": [
+        {
+          "id": "L448-01-01",
+          "title": "도시와 언어가 바꾼 복음의 전달",
+          "volume": "VOL-01",
+          "reading_role": "COMMUNITY_FORMATION",
+          "validation": "EXISTS_IN_SOURCE_L1_MASTER"
+        },
+        {
+          "id": "L448-01-03",
+          "title": "공의회는 질문을 정리했지만 모든 차이를 지우지 못했다",
+          "volume": "VOL-01",
+          "reading_role": "POST_COUNCIL_RECEPTION",
+          "validation": "EXISTS_IN_SOURCE_L1_MASTER"
+        },
+        {
+          "id": "L448-02-01",
+          "title": "비잔틴·서아시아·서유럽의 서로 다른 중세",
+          "volume": "VOL-02",
+          "reading_role": "MEDIEVAL_PLURALITY",
+          "validation": "EXISTS_IN_SOURCE_L1_MASTER"
+        },
+        {
+          "id": "L448-03-01",
+          "title": "왈도파의 청빈과 설교: 후대의 교파명으로 미리 이름 붙이지 않기",
+          "volume": "VOL-03",
+          "reading_role": "LAY_PREACHING",
+          "validation": "EXISTS_IN_SOURCE_L1_MASTER"
+        },
+        {
+          "id": "L448-04-01",
+          "title": "1517년 논쟁은 왜 예배·학교·도시 정부의 문제로 커졌나",
+          "volume": "VOL-04",
+          "reading_role": "CITY_SCHOOL",
+          "validation": "EXISTS_IN_SOURCE_L1_MASTER"
+        },
+        {
+          "id": "L448-04-03",
+          "title": "제네바·잉글랜드·재세례파: 똑같은 개혁을 다른 제도로 만들다",
+          "volume": "VOL-04",
+          "reading_role": "MULTIPLE_POLITIES",
+          "validation": "EXISTS_IN_SOURCE_L1_MASTER"
+        },
+        {
+          "id": "L448-05-03",
+          "title": "교파의 경계가 만들어지며 일상의 규율도 달라졌다",
+          "volume": "VOL-05",
+          "reading_role": "DISCIPLINE_DAILY_LIFE",
+          "validation": "EXISTS_IN_SOURCE_L1_MASTER"
+        },
+        {
+          "id": "L448-06-01",
+          "title": "경건주의와 부흥운동은 같은 단체가 아니었다",
+          "volume": "VOL-06",
+          "reading_role": "REVIVAL_ORGANIZATION",
+          "validation": "EXISTS_IN_SOURCE_L1_MASTER"
+        },
+        {
+          "id": "L448-07-01",
+          "title": "아프리카와 중동에는 근대 선교 이전부터 교회가 있었다",
+          "volume": "VOL-07",
+          "reading_role": "AFRICAN_CHURCH_AGENCY",
+          "validation": "EXISTS_IN_SOURCE_L1_MASTER"
+        },
+        {
+          "id": "L448-07-02",
+          "title": "한국교회의 서로 다른 시작: 독서·세례·번역·사회참여",
+          "volume": "VOL-07",
+          "reading_role": "KOREAN_LOCAL_AGENCY",
+          "validation": "EXISTS_IN_SOURCE_L1_MASTER"
+        }
+      ],
+      "context_L1": [
+        {
+          "id": "L448-07-03",
+          "volume": "VOL-07",
+          "description": "BACKGROUND_OR_OPTIONAL_NOT_DIRECT_TOPIC_EVIDENCE"
+        }
+      ],
+      "support_L0": [],
+      "acts": [
+        [
+          "L448-01-01",
+          "L448-01-03",
+          "L448-02-01",
+          "L448-03-01"
+        ],
+        [
+          "L448-04-01",
+          "L448-04-03",
+          "L448-05-03"
+        ],
+        [
+          "L448-06-01",
+          "L448-07-01",
+          "L448-07-02"
+        ]
+      ],
+      "reader_takeaway": "누가 결정하고 가르치고 돌보았는가"
+    },
+    {
+      "theme": "T05",
+      "title": "국가·갈등·공존",
+      "core": [
+        {
+          "id": "L448-03-03",
+          "title": "프라하 4개조에서 바젤 협상까지: 요구·전쟁·법의 시간표",
+          "volume": "VOL-03",
+          "reading_role": "HUSSITE_DIPLOMACY",
+          "validation": "EXISTS_IN_SOURCE_L1_MASTER"
+        },
+        {
+          "id": "L448-04-03",
+          "title": "제네바·잉글랜드·재세례파: 똑같은 개혁을 다른 제도로 만들다",
+          "volume": "VOL-04",
+          "reading_role": "CONFESSIONAL_POLITIES",
+          "validation": "EXISTS_IN_SOURCE_L1_MASTER"
+        },
+        {
+          "id": "L448-05-02",
+          "title": "1555년과 1648년: 공존의 법적 범위와 배제",
+          "volume": "VOL-05",
+          "reading_role": "AUGSBURG_WESTPHALIA_LEGAL_SCOPE",
+          "validation": "EXISTS_IN_SOURCE_L1_MASTER"
+        }
+      ],
+      "context_L1": [
+        {
+          "id": "L448-01-02",
+          "volume": "VOL-01",
+          "description": "BACKGROUND_OR_OPTIONAL_NOT_DIRECT_TOPIC_EVIDENCE"
+        },
+        {
+          "id": "L448-06-03",
+          "volume": "VOL-06",
+          "description": "BACKGROUND_OR_OPTIONAL_NOT_DIRECT_TOPIC_EVIDENCE"
+        }
+      ],
+      "support_L0": [],
+      "reader_takeaway": "언제 어떤 집단이 법의 보호를 받았는가"
+    },
+    {
+      "theme": "T06",
+      "title": "번역과 지역 수용",
+      "core": [
+        {
+          "id": "L448-02-02",
+          "title": "경교비에서 읽는 635년의 사건과 781년의 증언",
+          "volume": "VOL-02",
+          "reading_role": "STELE_DATE_AND_MEMORY",
+          "validation": "EXISTS_IN_SOURCE_L1_MASTER"
+        },
+        {
+          "id": "L448-06-02",
+          "title": "남인도 타밀어 성경: 인쇄 기계보다 중요한 사람과 판본",
+          "volume": "VOL-06",
+          "reading_role": "TAMIL_TRANSLATION_AGENCY",
+          "validation": "EXISTS_IN_SOURCE_L1_MASTER"
+        },
+        {
+          "id": "L448-07-02",
+          "title": "한국교회의 서로 다른 시작: 독서·세례·번역·사회참여",
+          "volume": "VOL-07",
+          "reading_role": "KOREAN_BIBLE_EDITION_HISTORY",
+          "validation": "EXISTS_IN_SOURCE_L1_MASTER"
+        }
+      ],
+      "context_L1": [
+        {
+          "id": "L448-03-02",
+          "volume": "VOL-03",
+          "description": "BACKGROUND_OR_OPTIONAL_NOT_DIRECT_TOPIC_EVIDENCE"
+        },
+        {
+          "id": "L448-04-01",
+          "volume": "VOL-04",
+          "description": "BACKGROUND_OR_OPTIONAL_NOT_DIRECT_TOPIC_EVIDENCE"
+        }
+      ],
+      "support_L0": [
+        "A414-04",
+        "E408-21"
+      ],
+      "reader_takeaway": "누가 책을 만들고 읽었으며 어떤 기록으로 아는가"
+    }
+  ],
+  "change_log": [
+    {
+      "id": "C493-01",
+      "risk": "SPLIT_READER_CONTENT",
+      "from": "V4.89-V4.92 separate route markdown/card/questionnaire",
+      "to": "one self-contained six-route reader prose",
+      "type": "SUBSTANTIVE_REWRITE"
+    },
+    {
+      "id": "C493-02",
+      "risk": "T04_EXCESSIVE_SEQUENTIAL_LENGTH",
+      "from": "ten consecutive stages",
+      "to": "three acts (4+3+3) retaining all ten source anchors",
+      "type": "STRUCTURAL_REWRITE"
+    },
+    {
+      "id": "C493-03",
+      "risk": "T06_SOURCE_TO_TOPIC_MISMATCH",
+      "from": "L448-03-02 and L448-04-01 treated as 2 of 5 main L1 steps",
+      "to": "two contextual/background steps; three source-direct chapters in core; L0 A414-04/E408-21 named as support",
+      "type": "EVIDENCE_SCOPE_CORRECTION"
+    },
+    {
+      "id": "C493-04",
+      "risk": "T02_DIRECT_SOURCE_GAP",
+      "from": "two incomplete soteriology links",
+      "to": "same unresolved status, not promoted",
+      "type": "HONEST_HOLD"
+    },
+    {
+      "id": "C493-05",
+      "risk": "FOUR_OPTIONAL_CHAPTERS",
+      "from": "V4.91 4 cards",
+      "to": "cards continue as optional and all 21 era chapters remain discoverable",
+      "type": "COVERAGE_PRESERVED"
+    }
+  ],
+  "reuse_policy": "References to same L1 chapter across themes are intentionally distinct reading questions, not copying the full body text",
+  "validation": {
+    "source_master_volumes": 8,
+    "source_master_chapters": 24,
+    "era_volume_chapters": 21,
+    "theme_count": 6,
+    "core_total": 27,
+    "unique_core_chapters": 17,
+    "distinct_era_chapters_accessible": 21,
+    "optional_or_context_era_chapters": 4,
+    "T04_acts": 3,
+    "T04_acts_chapters": [
+      4,
+      3,
+      3
+    ],
+    "T06_before_after_core": [
+      5,
+      3
+    ],
+    "T06_reclassified_as_context": 2,
+    "overlap_core_chapters": 8,
+    "source_chapter_ID_errors": 0,
+    "actual_human_reader_results": 0,
+    "real_user_timing_data": false,
+    "app_navigation_E2E": false
+  },
+  "review_gates": {
+    "historian_signoff": false,
+    "human_readability_testing": false,
+    "actual_reader_responses": 0,
+    "source_specific_claim_level_verified": false,
+    "L1_anchor_ids_verified": true,
+    "L2_primary_witness_completed": false,
+    "exact_app_deep_links_verified": false,
+    "rights_reviewed": false,
+    "V482_full_source_recovered": false,
+    "tamil_1715_1719_resolved": false,
+    "vol03_T02_direct_source": false,
+    "vol07_T02_direct_source": false,
+    "can_ship": false
+  },
+  "next": [
+    "Independent editorial pass across the complete V4.93 narrative rather than adding another standalone checklist",
+    "Recover V4.82 source before replacing any canonical Volume VIII manuscript",
+    "Only after human reader test and historical review assess app integration; never auto-promote"
+  ]
+}
