@@ -1,0 +1,202 @@
+{
+  "schema": "ATLAS_V503_INDIGENOUS_VISUAL_PRINT_PRIMARY_WITNESS_AUDIT",
+  "version": "V5.03",
+  "date": "2026-11-22",
+  "branch": "research/atlas-v503-visual-print-witness-crosscheck",
+  "status": "SOURCE_BOUNDED_EDITORIAL_RESEARCH_NOT_RELEASED",
+  "can_ship": false,
+  "can_merge_main": false,
+  "can_import_ai_studio": false,
+  "source_files": {
+    "prior": {
+      "path": "docs/01_CONTENT/L1/V502_FIVE_LOCAL_VOICES_WITNESS_CORRECTED_EDITION_KO.md",
+      "sha": "e77c5cff5f1e2c110803455f957adcc3c10bc2ee",
+      "branch": "research/atlas-v503-visual-print-witness-crosscheck"
+    },
+    "revised": {
+      "path": "docs/01_CONTENT/L1/V503_FIVE_LOCAL_VOICES_COMPARATIVE_EDITION_KO.md",
+      "sha": "08216d16b06dc0ed7789dba65be616d76398d3c5",
+      "branch": "research/atlas-v503-visual-print-witness-crosscheck"
+    },
+    "study": {
+      "path": "docs/01_CONTENT/L1/V503_PAIRED_IMAGES_AND_PRINT_WITNESS_HISTORICAL_READING_KO.md",
+      "sha": "44f728e21ece6780483cf44b8c7682eae88dde90",
+      "branch": "research/atlas-v503-visual-print-witness-crosscheck"
+    },
+    "master": {
+      "path": "research/data/V500_EIGHT_VOLUME_24_CHAPTER_EDITORIAL_REVIEW_CANDIDATE.json",
+      "sha": "5e3db4f82511ca57b971b1f5811cbca35a33476c",
+      "branch": "research/atlas-v503-visual-print-witness-crosscheck"
+    }
+  },
+  "counts": {
+    "cases": 5,
+    "changed_cases": 3,
+    "unchanged_cases": 2,
+    "original_canonical_24_chapters": 24,
+    "canonical_chapters_modified": 0,
+    "evidence_items": 8,
+    "unique_source_urls": 8,
+    "paper_pages_visually_inspected": 1,
+    "royal_library_individual_page_entries_confirmed": 2,
+    "royal_library_original_page_images_independently_compared": 0,
+    "sor_juana_original_1700_1701_page_collations": 0,
+    "papeiha_original_language_passages_read": 0,
+    "historian_reviews": 0,
+    "reader_sessions": 0,
+    "app_E2E_tests": 0
+  },
+  "changed_case_log": [
+    {
+      "case_id": "V501-LA-01",
+      "changed": true,
+      "prior_chars": 3652,
+      "revised_chars": 4855,
+      "evidence_entries": [
+        "V503-POMA-PAIR",
+        "V503-POMA-RDL629",
+        "V503-POMA-RDL590"
+      ],
+      "approval": false
+    },
+    {
+      "case_id": "V501-LA-02",
+      "changed": true,
+      "prior_chars": 3670,
+      "revised_chars": 4994,
+      "evidence_entries": [
+        "V503-SOR-MADRID",
+        "V503-SOR-LISBON",
+        "V503-SOR-BARCELONA"
+      ],
+      "approval": false
+    },
+    {
+      "case_id": "V501-PA-01",
+      "changed": true,
+      "prior_chars": 4258,
+      "revised_chars": 5278,
+      "evidence_entries": [
+        "V503-PAPEIHA-NZ",
+        "V503-PAPEIHA-ANU"
+      ],
+      "approval": false
+    },
+    {
+      "case_id": "V501-PA-02",
+      "changed": false,
+      "prior_chars": 2898,
+      "revised_chars": 2898,
+      "evidence_entries": [],
+      "approval": false
+    },
+    {
+      "case_id": "V501-LA-03",
+      "changed": false,
+      "prior_chars": 2447,
+      "revised_chars": 2447,
+      "evidence_entries": [],
+      "approval": false
+    }
+  ],
+  "claim_level_evidence": [
+    {
+      "id": "V503-POMA-PAIR",
+      "case_id": "V501-LA-01",
+      "claim": "Guaman Poma's two confession illustrations are 615 [629] normative sacrament vs 576 [590] mala confession",
+      "level": "TWO_MANUSCRIPT_IMAGES_REPRODUCED_ON_ONE_ACADEMIC_PDF_PAGE_VISUALLY_READ",
+      "source_url": "https://dspace.stir.ac.uk/retrieve/64076d8d-ac13-440d-a2a6-7b5b4c930a34/Ind_35-2_009-027_Dedenbach%20Intro%202018%20%28published%20IP%2011-12-18%29.pdf",
+      "locator": "Indiana 35.2 (2018), p.13, PDF page index 4, Fig.1",
+      "rights": "LINK_ONLY_NO_IMAGE_REUPLOAD",
+      "primary_image_independently_extracted": false
+    },
+    {
+      "id": "V503-POMA-RDL629",
+      "case_id": "V501-LA-01",
+      "claim": "Royal Danish Library digital page entry for 629 exists",
+      "level": "ORIGINAL_HOLDING_DIGITAL_ENTRY_PAGE_ACCESSIBLE_NO_DIRECT_IMAGE_PIXEL_COMPARISON",
+      "source_url": "https://permalink.kb.dk/permalink/2006/manus/253/eng/629/",
+      "locator": "RDL GKS 2232 4º digital page 629 / autograph 615",
+      "rights": "LINK_ONLY_NO_IMAGE_REUPLOAD",
+      "primary_image_independently_extracted": false
+    },
+    {
+      "id": "V503-POMA-RDL590",
+      "case_id": "V501-LA-01",
+      "claim": "Royal Danish Library digital page entry for 590 exists",
+      "level": "ORIGINAL_HOLDING_DIGITAL_ENTRY_PAGE_ACCESSIBLE_NO_DIRECT_IMAGE_PIXEL_COMPARISON",
+      "source_url": "https://permalink.kb.dk/permalink/2006/manus/253/eng/590/",
+      "locator": "RDL GKS 2232 4º digital page 590 / autograph 576",
+      "rights": "LINK_ONLY_NO_IMAGE_REUPLOAD",
+      "primary_image_independently_extracted": false
+    },
+    {
+      "id": "V503-SOR-MADRID",
+      "case_id": "V501-LA-02",
+      "claim": "Madrid 1700 first print contains Sor Filotea letter pp.1–7 and Sor Juana reply pp.8–60, edited by Castorena",
+      "level": "INSTITUTIONAL_OBJECT_BIBLIOGRAPHY_WITH_CONTENTS_AND_IMPRINT",
+      "source_url": "https://sibila.iib.unam.mx/index.php/Detail/Object/Show/object_id/1958",
+      "locator": "UNAM SIBILA No.1940, publication Madrid Manuel Ruiz de Murga 1700, numbered contents pp.1-7/8-60",
+      "rights": "LINK_ONLY",
+      "original_1700_pages_visually_read": false
+    },
+    {
+      "id": "V503-SOR-LISBON",
+      "case_id": "V501-LA-02",
+      "claim": "Bibliographical study distinguishes Lisbon and Barcelona 1701 copies as separate imprints",
+      "level": "SPECIALIST_BIBLIOGRAPHIC_COMPARISON_NOT_ORIGINAL_LEAF_COLLATION",
+      "source_url": "https://www.letrasmexicanas.mx/portales/sor_juana_ines_de_la_cruz/obra-visor/bibliografia-y-otras-cuestiunculas-sorjuaninas--0/html/5381a1f0-e18d-402b-9bcf-0049b36e3010_15.html",
+      "locator": "Bibliografía y otras cuestiúnculas sorjuaninas, discussion beginning 'En cuanto a las dos ediciones'",
+      "rights": "LINK_ONLY",
+      "original_1701_pages_visually_read": false
+    },
+    {
+      "id": "V503-SOR-BARCELONA",
+      "case_id": "V501-LA-02",
+      "claim": "IBERO rare books hold Barcelona Rafael Figueró 1701 copy",
+      "level": "UNIVERSITY_RARE_BOOK_HOLDING",
+      "source_url": "https://aldia.ibero.mx/content.php?Division=BibliotecaFXC&pageId=3344",
+      "locator": "PQ 7296.J6 F36.1701",
+      "rights": "LINK_ONLY",
+      "original_1701_pages_visually_read": false
+    },
+    {
+      "id": "V503-PAPEIHA-NZ",
+      "case_id": "V501-PA-01",
+      "claim": "2022 Papeiha article is indexed 57(2-3) pp.337-371 and requires source journal access for full text",
+      "level": "NATIONAL_LIBRARY_JOURNAL_RECORD_AND_ACCESS_NOTICE",
+      "source_url": "https://natlib.govt.nz/records/49798915",
+      "locator": "2022 Journal of Pacific History, index record, librarian request notice",
+      "rights": "NO_ARTICLE_COPYING",
+      "full_text_read": false
+    },
+    {
+      "id": "V503-PAPEIHA-ANU",
+      "case_id": "V501-PA-01",
+      "claim": "Research portal exposes peer reviewed abstract and DOI for 2022 Tumu-Makara and Maidment study",
+      "level": "ACADEMIC_PUBLIC_METADATA_AND_ABSTRACT_ONLY",
+      "source_url": "https://researchportalplus.anu.edu.au/en/publications/manuscript-xli-papeiha-e-tuatua-no-te-taeanga-mai-o-te-tuatua-na-/",
+      "locator": "DOI 10.1080/00223344.2022.2085547; abstract, JPH 57(2-3), pp.337-371",
+      "rights": "NO_ARTICLE_COPYING",
+      "full_text_read": false
+    }
+  ],
+  "validation": {
+    "all_correct_case_ids": true,
+    "exactly_three_changed": true,
+    "last_two_sections_identical": true,
+    "original_canonical_24_chapters_unchanged": true,
+    "all_evidence_source_urls_referenced_in_revised_manuscript": true,
+    "all_reference_source_urls_unique": true,
+    "pass": true,
+    "issues": []
+  },
+  "source_holds": [
+    "Royal Danish Library original image pixels p.590 and p.629 not directly downloaded/re-collated; 2018 peer-reviewed reproduction used",
+    "1700 Madrid and 1701 Lisbon/Barcelona early print folios not compared side by side; object catalog confirmed only",
+    "Papeiha 2022 article full text inaccessible; manuscript language collation not performed",
+    "No historian/editor, reader, rights or app operation signoff",
+    "V4.82 and Tamil/Korean early Bible bibliographic open issues remain"
+  ],
+  "next_step": "Use existing source location records to secure original-language passages and parallel imprint images; prioritize historically material differences over another small administrative audit."
+}
