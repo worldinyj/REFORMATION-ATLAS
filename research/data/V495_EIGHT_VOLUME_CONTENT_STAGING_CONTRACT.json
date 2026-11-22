@@ -1,0 +1,1489 @@
+{
+  "schema": "ATLAS_V495_RESEARCH_CONTENT_STAGING_CONTRACT",
+  "version": "V4.95",
+  "date": "2026-11-22",
+  "purpose": "Future app staging only; no production routing or import is implemented",
+  "can_ship": false,
+  "can_import_ai_studio": false,
+  "can_merge_main": false,
+  "base_source": {
+    "branch": "research/atlas-v450-core-reformation-l1-eucharist-confessions-peace",
+    "path": "research/data/V4_50_L1_24_CHAPTER_INTEGRATED_REVISED_MASTER.json",
+    "git_blob_sha": "79a362734aa963eb41ad0424515e8d21074349c5",
+    "master_version": "V4.50"
+  },
+  "integrated_source": {
+    "branch": "research/atlas-v495-substantive-gap-repair-and-app-staging",
+    "path": "docs/01_CONTENT/INTEGRATED/V494_EIGHT_VOLUME_24_CHAPTER_SIX_THEME_RESEARCH_MASTER_KO.md",
+    "git_blob_sha": "aec223caf007316256a6fb02a3c8540d18ba7066"
+  },
+  "navigation_source": {
+    "branch": "research/atlas-v495-substantive-gap-repair-and-app-staging",
+    "path": "research/v493/reader_first_navigation_contract.json",
+    "git_blob_sha": "eb2f18b0634728014a0a4d7893ab6c9983b656eb"
+  },
+  "manuscript_candidates_source": {
+    "branch": "research/atlas-v495-substantive-gap-repair-and-app-staging",
+    "path": "docs/01_CONTENT/L1/V495_T02_VOL03_VOL07_SUBSTANTIVE_RESEARCH_INSERTS_KO.md",
+    "git_blob_sha": "8926d9805cc1539806e810c4929bbe528f5bad49"
+  },
+  "volumes": [
+    {
+      "id": "VOL-01",
+      "title": "여럿의 언어와 도시에서 자라난 고대교회",
+      "chapter_ids": [
+        "L448-01-01",
+        "L448-01-02",
+        "L448-01-03"
+      ],
+      "chapter_count": 3
+    },
+    {
+      "id": "VOL-02",
+      "title": "중세는 서유럽만의 시간이 아니었다",
+      "chapter_ids": [
+        "L448-02-01",
+        "L448-02-02",
+        "L448-02-03"
+      ],
+      "chapter_count": 3
+    },
+    {
+      "id": "VOL-03",
+      "title": "개혁 이전의 개혁들은 한 길로 이어지지 않았다",
+      "chapter_ids": [
+        "L448-03-01",
+        "L448-03-02",
+        "L448-03-03"
+      ],
+      "chapter_count": 3
+    },
+    {
+      "id": "VOL-04",
+      "title": "한 번이 아니라 여러 갈래로 일어난 16세기 개혁",
+      "chapter_ids": [
+        "L448-04-01",
+        "L448-04-02",
+        "L448-04-03"
+      ],
+      "chapter_count": 3
+    },
+    {
+      "id": "VOL-05",
+      "title": "가톨릭 쇄신과 종교 갈등, 제한된 공존",
+      "chapter_ids": [
+        "L448-05-01",
+        "L448-05-02",
+        "L448-05-03"
+      ],
+      "chapter_count": 3
+    },
+    {
+      "id": "VOL-06",
+      "title": "경건주의와 부흥, 언어를 가로지른 세계 선교",
+      "chapter_ids": [
+        "L448-06-01",
+        "L448-06-02",
+        "L448-06-03"
+      ],
+      "chapter_count": 3
+    },
+    {
+      "id": "VOL-07",
+      "title": "세계의 여러 중심과 한국교회의 형성",
+      "chapter_ids": [
+        "L448-07-01",
+        "L448-07-02",
+        "L448-07-03"
+      ],
+      "chapter_count": 3
+    },
+    {
+      "id": "VOL-08",
+      "title": "여섯 질문으로 다시 읽는 기독교사의 지도",
+      "chapter_ids": [
+        "L448-08-01",
+        "L448-08-02",
+        "L448-08-03"
+      ],
+      "chapter_count": 3
+    }
+  ],
+  "canonical_chapters": [
+    {
+      "id": "L448-01-01",
+      "volume_id": "VOL-01",
+      "title": "도시와 언어가 바꾼 복음의 전달",
+      "period": "1–3세기",
+      "content_kind": "canonical_research_l1",
+      "canonical_source": {
+        "branch": "research/atlas-v450-core-reformation-l1-eucharist-confessions-peace",
+        "path": "research/data/V4_50_L1_24_CHAPTER_INTEGRATED_REVISED_MASTER.json",
+        "blob_sha": "79a362734aa963eb41ad0424515e8d21074349c5",
+        "document_selector": {
+          "volume_id": "VOL-01",
+          "chapter_id": "L448-01-01",
+          "field": "bodyMarkdown"
+        }
+      },
+      "body_character_count": 558,
+      "bibliography": {
+        "source_urls": [
+          "https://www.oca.org/orthodoxy/the-orthodox-faith/church-history/fifth-century/the-fourth-ecumenical-council",
+          "https://www.cambridge.org/core/books/abs/cambridge-history-of-christianity/from-jerusalem-to-the-ends-of-the-earth/A0C7E7079C3BFBA0DCD2E41F30F02AF1",
+          "https://www.cambridge.org/core/books/abs/empire-and-religion-in-the-roman-world/missionaries-pious-merchants-freelance-religious-experts-and-the-spread-of-christianity/5E3858F88372E2340C24E1D47EDA00C5"
+        ],
+        "source_ids": [
+          "SRC-L450-40",
+          "SRC-L450-18",
+          "SRC-L450-21"
+        ],
+        "source_link_count": 3
+      },
+      "review_state": "EDITORIAL_DRAFT_UNREVIEWED",
+      "legal_state": {
+        "copy_full_copyrighted_text": false,
+        "publication_reviewed": false
+      },
+      "can_ship": false,
+      "route_url": null
+    },
+    {
+      "id": "L448-01-02",
+      "volume_id": "VOL-01",
+      "title": "박해와 황실 보호 이후에도 지역은 달랐다",
+      "period": "3–4세기",
+      "content_kind": "canonical_research_l1",
+      "canonical_source": {
+        "branch": "research/atlas-v450-core-reformation-l1-eucharist-confessions-peace",
+        "path": "research/data/V4_50_L1_24_CHAPTER_INTEGRATED_REVISED_MASTER.json",
+        "blob_sha": "79a362734aa963eb41ad0424515e8d21074349c5",
+        "document_selector": {
+          "volume_id": "VOL-01",
+          "chapter_id": "L448-01-02",
+          "field": "bodyMarkdown"
+        }
+      },
+      "body_character_count": 462,
+      "bibliography": {
+        "source_urls": [
+          "https://www.metmuseum.org/pt/essays/foundations-of-aksumite-civilization-and-its-christian-legacy-1st-7th-century",
+          "https://whc.unesco.org/en/list/15"
+        ],
+        "source_ids": [
+          "SRC-L450-36",
+          "SRC-L450-15"
+        ],
+        "source_link_count": 2
+      },
+      "review_state": "EDITORIAL_DRAFT_UNREVIEWED",
+      "legal_state": {
+        "copy_full_copyrighted_text": false,
+        "publication_reviewed": false
+      },
+      "can_ship": false,
+      "route_url": null
+    },
+    {
+      "id": "L448-01-03",
+      "volume_id": "VOL-01",
+      "title": "공의회는 질문을 정리했지만 모든 차이를 지우지 못했다",
+      "period": "4–5세기",
+      "content_kind": "canonical_research_l1",
+      "canonical_source": {
+        "branch": "research/atlas-v450-core-reformation-l1-eucharist-confessions-peace",
+        "path": "research/data/V4_50_L1_24_CHAPTER_INTEGRATED_REVISED_MASTER.json",
+        "blob_sha": "79a362734aa963eb41ad0424515e8d21074349c5",
+        "document_selector": {
+          "volume_id": "VOL-01",
+          "chapter_id": "L448-01-03",
+          "field": "bodyMarkdown"
+        }
+      },
+      "body_character_count": 482,
+      "bibliography": {
+        "source_urls": [
+          "https://www.oca.org/orthodoxy/the-orthodox-faith/church-history/fifth-century/the-fourth-ecumenical-council",
+          "https://www.newadvent.org/cathen/03555a.htm"
+        ],
+        "source_ids": [
+          "SRC-L450-40",
+          "SRC-L450-38"
+        ],
+        "source_link_count": 2
+      },
+      "review_state": "EDITORIAL_DRAFT_UNREVIEWED",
+      "legal_state": {
+        "copy_full_copyrighted_text": false,
+        "publication_reviewed": false
+      },
+      "can_ship": false,
+      "route_url": null
+    },
+    {
+      "id": "L448-02-01",
+      "volume_id": "VOL-02",
+      "title": "비잔틴·서아시아·서유럽의 서로 다른 중세",
+      "period": "6–15세기",
+      "content_kind": "canonical_research_l1",
+      "canonical_source": {
+        "branch": "research/atlas-v450-core-reformation-l1-eucharist-confessions-peace",
+        "path": "research/data/V4_50_L1_24_CHAPTER_INTEGRATED_REVISED_MASTER.json",
+        "blob_sha": "79a362734aa963eb41ad0424515e8d21074349c5",
+        "document_selector": {
+          "volume_id": "VOL-02",
+          "chapter_id": "L448-02-01",
+          "field": "bodyMarkdown"
+        }
+      },
+      "body_character_count": 467,
+      "bibliography": {
+        "source_urls": [
+          "https://www.mcgill.ca/religiousstudies/about/birks-building/jingiao-stele",
+          "https://www.metmuseum.org/fr/essays/african-christianity-in-ethiopia"
+        ],
+        "source_ids": [
+          "SRC-L450-31",
+          "SRC-L450-35"
+        ],
+        "source_link_count": 2
+      },
+      "review_state": "EDITORIAL_DRAFT_UNREVIEWED",
+      "legal_state": {
+        "copy_full_copyrighted_text": false,
+        "publication_reviewed": false
+      },
+      "can_ship": false,
+      "route_url": null
+    },
+    {
+      "id": "L448-02-02",
+      "volume_id": "VOL-02",
+      "title": "경교비에서 읽는 635년의 사건과 781년의 증언",
+      "period": "7–8세기",
+      "content_kind": "canonical_research_l1",
+      "canonical_source": {
+        "branch": "research/atlas-v450-core-reformation-l1-eucharist-confessions-peace",
+        "path": "research/data/V4_50_L1_24_CHAPTER_INTEGRATED_REVISED_MASTER.json",
+        "blob_sha": "79a362734aa963eb41ad0424515e8d21074349c5",
+        "document_selector": {
+          "volume_id": "VOL-02",
+          "chapter_id": "L448-02-02",
+          "field": "bodyMarkdown"
+        }
+      },
+      "body_character_count": 482,
+      "bibliography": {
+        "source_urls": [
+          "https://www.mcgill.ca/religiousstudies/about/birks-building/jingiao-stele",
+          "https://asia-archive.si.edu/object/F1976.28.2a-d/"
+        ],
+        "source_ids": [
+          "SRC-L450-31",
+          "SRC-L450-02"
+        ],
+        "source_link_count": 2
+      },
+      "review_state": "EDITORIAL_DRAFT_UNREVIEWED",
+      "legal_state": {
+        "copy_full_copyrighted_text": false,
+        "publication_reviewed": false
+      },
+      "can_ship": false,
+      "route_url": null
+    },
+    {
+      "id": "L448-02-03",
+      "volume_id": "VOL-02",
+      "title": "분열의 날짜보다 관계의 변화를 읽기",
+      "period": "11–15세기",
+      "content_kind": "canonical_research_l1",
+      "canonical_source": {
+        "branch": "research/atlas-v450-core-reformation-l1-eucharist-confessions-peace",
+        "path": "research/data/V4_50_L1_24_CHAPTER_INTEGRATED_REVISED_MASTER.json",
+        "blob_sha": "79a362734aa963eb41ad0424515e8d21074349c5",
+        "document_selector": {
+          "volume_id": "VOL-02",
+          "chapter_id": "L448-02-03",
+          "field": "bodyMarkdown"
+        }
+      },
+      "body_character_count": 456,
+      "bibliography": {
+        "source_urls": [
+          "https://www.oca.org/orthodoxy/the-orthodox-faith/church-history/fifth-century/the-fourth-ecumenical-council",
+          "https://www.mcgill.ca/religiousstudies/about/birks-building/jingiao-stele",
+          "https://academic.oup.com/book/5994",
+          "https://www.tandfonline.com/doi/abs/10.1080/28327861.2014.12220388"
+        ],
+        "source_ids": [
+          "SRC-L450-40",
+          "SRC-L450-31",
+          "SRC-L450-01",
+          "SRC-L450-50"
+        ],
+        "source_link_count": 4
+      },
+      "review_state": "EDITORIAL_DRAFT_UNREVIEWED",
+      "legal_state": {
+        "copy_full_copyrighted_text": false,
+        "publication_reviewed": false
+      },
+      "can_ship": false,
+      "route_url": null
+    },
+    {
+      "id": "L448-03-01",
+      "volume_id": "VOL-03",
+      "title": "왈도파의 청빈과 설교: 후대의 교파명으로 미리 이름 붙이지 않기",
+      "period": "12–16세기",
+      "content_kind": "canonical_research_l1",
+      "canonical_source": {
+        "branch": "research/atlas-v450-core-reformation-l1-eucharist-confessions-peace",
+        "path": "research/data/V4_50_L1_24_CHAPTER_INTEGRATED_REVISED_MASTER.json",
+        "blob_sha": "79a362734aa963eb41ad0424515e8d21074349c5",
+        "document_selector": {
+          "volume_id": "VOL-03",
+          "chapter_id": "L448-03-01",
+          "field": "bodyMarkdown"
+        }
+      },
+      "body_character_count": 498,
+      "bibliography": {
+        "source_urls": [
+          "https://www.waldensian.org/history/encounters-with-the-reformation-in-the-1530s/",
+          "https://www.mdpi.com/2077-1444/14/1/4"
+        ],
+        "source_ids": [
+          "SRC-L450-52",
+          "SRC-L450-33"
+        ],
+        "source_link_count": 2
+      },
+      "review_state": "EDITORIAL_DRAFT_UNREVIEWED",
+      "legal_state": {
+        "copy_full_copyrighted_text": false,
+        "publication_reviewed": false
+      },
+      "can_ship": false,
+      "route_url": null
+    },
+    {
+      "id": "L448-03-02",
+      "volume_id": "VOL-03",
+      "title": "위클리프와 후스: 영향을 받았어도 똑같이 믿지는 않았다",
+      "period": "14–15세기",
+      "content_kind": "canonical_research_l1",
+      "canonical_source": {
+        "branch": "research/atlas-v450-core-reformation-l1-eucharist-confessions-peace",
+        "path": "research/data/V4_50_L1_24_CHAPTER_INTEGRATED_REVISED_MASTER.json",
+        "blob_sha": "79a362734aa963eb41ad0424515e8d21074349c5",
+        "document_selector": {
+          "volume_id": "VOL-03",
+          "chapter_id": "L448-03-02",
+          "field": "bodyMarkdown"
+        }
+      },
+      "body_character_count": 749,
+      "bibliography": {
+        "source_urls": [
+          "https://www.cambridge.org/core/journals/church-history/article/abs/john-wyclif-and-hussite-theology-14151436/54C10C6F7EEFB5409E2291C9F4194ABF",
+          "https://www.cambridge.org/core/journals/church-history/article/abs/neglected-eucharistic-controversy-the-afterlife-of-john-wyclifs-eucharistic-thought-in-bohemia-in-the-early-fifteenth-century/75573F8B29830575C3DE4322D3FA07F3",
+          "https://www.cambridge.org/core/journals/church-history/article/abs/john-wyclif-and-the-eucharistic-words-of-institution-context-and-aftermath/7A3B350A2B409E97F900FC95F51D1AE6"
+        ],
+        "source_ids": [
+          "SRC-L450-22",
+          "SRC-L450-24",
+          "SRC-L450-23"
+        ],
+        "source_link_count": 3
+      },
+      "review_state": "PUBLIC_SOURCE_DESK_REVISED_UNREVIEWED_BY_HISTORIAN",
+      "legal_state": {
+        "copy_full_copyrighted_text": false,
+        "publication_reviewed": false
+      },
+      "can_ship": false,
+      "route_url": null
+    },
+    {
+      "id": "L448-03-03",
+      "volume_id": "VOL-03",
+      "title": "프라하 4개조에서 바젤 협상까지: 요구·전쟁·법의 시간표",
+      "period": "1415–1436년",
+      "content_kind": "canonical_research_l1",
+      "canonical_source": {
+        "branch": "research/atlas-v450-core-reformation-l1-eucharist-confessions-peace",
+        "path": "research/data/V4_50_L1_24_CHAPTER_INTEGRATED_REVISED_MASTER.json",
+        "blob_sha": "79a362734aa963eb41ad0424515e8d21074349c5",
+        "document_selector": {
+          "volume_id": "VOL-03",
+          "chapter_id": "L448-03-03",
+          "field": "bodyMarkdown"
+        }
+      },
+      "body_character_count": 486,
+      "bibliography": {
+        "source_urls": [
+          "https://nomos.is.cuni.cz/publication/606550",
+          "https://www.muni.cz/en/research/publications/2437517"
+        ],
+        "source_ids": [
+          "SRC-L450-12",
+          "SRC-L450-37"
+        ],
+        "source_link_count": 2
+      },
+      "review_state": "EDITORIAL_DRAFT_UNREVIEWED",
+      "legal_state": {
+        "copy_full_copyrighted_text": false,
+        "publication_reviewed": false
+      },
+      "can_ship": false,
+      "route_url": null
+    },
+    {
+      "id": "L448-04-01",
+      "volume_id": "VOL-04",
+      "title": "1517년 논쟁은 왜 예배·학교·도시 정부의 문제로 커졌나",
+      "period": "16세기 전반",
+      "content_kind": "canonical_research_l1",
+      "canonical_source": {
+        "branch": "research/atlas-v450-core-reformation-l1-eucharist-confessions-peace",
+        "path": "research/data/V4_50_L1_24_CHAPTER_INTEGRATED_REVISED_MASTER.json",
+        "blob_sha": "79a362734aa963eb41ad0424515e8d21074349c5",
+        "document_selector": {
+          "volume_id": "VOL-04",
+          "chapter_id": "L448-04-01",
+          "field": "bodyMarkdown"
+        }
+      },
+      "body_character_count": 485,
+      "bibliography": {
+        "source_urls": [
+          "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/the-marburg-colloquy-the-marburg-articles-1529",
+          "https://www.saet.ac.uk/Christianity/CouncilofTrent"
+        ],
+        "source_ids": [
+          "SRC-L450-08",
+          "SRC-L450-46"
+        ],
+        "source_link_count": 2
+      },
+      "review_state": "EDITORIAL_DRAFT_UNREVIEWED",
+      "legal_state": {
+        "copy_full_copyrighted_text": false,
+        "publication_reviewed": false
+      },
+      "can_ship": false,
+      "route_url": null
+    },
+    {
+      "id": "L448-04-02",
+      "volume_id": "VOL-04",
+      "title": "마르부르크의 합의와 아우크스부르크 판본: 신학과 서지의 차이",
+      "period": "1529–1540년",
+      "content_kind": "canonical_research_l1",
+      "canonical_source": {
+        "branch": "research/atlas-v450-core-reformation-l1-eucharist-confessions-peace",
+        "path": "research/data/V4_50_L1_24_CHAPTER_INTEGRATED_REVISED_MASTER.json",
+        "blob_sha": "79a362734aa963eb41ad0424515e8d21074349c5",
+        "document_selector": {
+          "volume_id": "VOL-04",
+          "chapter_id": "L448-04-02",
+          "field": "bodyMarkdown"
+        }
+      },
+      "body_character_count": 881,
+      "bibliography": {
+        "source_urls": [
+          "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/the-marburg-colloquy-the-marburg-articles-1529",
+          "https://gruber.lstc.edu/confessions/augs_apol.php",
+          "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/the-marburg-colloquy-ulrich-zwinglis-report-october-20-1529"
+        ],
+        "source_ids": [
+          "SRC-L450-08",
+          "SRC-L450-11",
+          "SRC-L450-09"
+        ],
+        "source_link_count": 3
+      },
+      "review_state": "PUBLIC_SOURCE_DESK_REVISED_UNREVIEWED_BY_HISTORIAN",
+      "legal_state": {
+        "copy_full_copyrighted_text": false,
+        "publication_reviewed": false
+      },
+      "can_ship": false,
+      "route_url": null
+    },
+    {
+      "id": "L448-04-03",
+      "volume_id": "VOL-04",
+      "title": "제네바·잉글랜드·재세례파: 똑같은 개혁을 다른 제도로 만들다",
+      "period": "16세기",
+      "content_kind": "canonical_research_l1",
+      "canonical_source": {
+        "branch": "research/atlas-v450-core-reformation-l1-eucharist-confessions-peace",
+        "path": "research/data/V4_50_L1_24_CHAPTER_INTEGRATED_REVISED_MASTER.json",
+        "blob_sha": "79a362734aa963eb41ad0424515e8d21074349c5",
+        "document_selector": {
+          "volume_id": "VOL-04",
+          "chapter_id": "L448-04-03",
+          "field": "bodyMarkdown"
+        }
+      },
+      "body_character_count": 507,
+      "bibliography": {
+        "source_urls": [
+          "https://www.cambridge.org/core/journals/harvard-theological-review/article/abs/calvins-programme-for-a-puritan-state-in-geneva-15361541/C5C7601D2F7F87BA7627A50436287A3E",
+          "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/the-marburg-colloquy-the-marburg-articles-1529",
+          "https://www.parliament.uk/about/living-heritage/evolutionofparliament/originsofparliament/birthofparliament/overview/reformation/",
+          "https://www.saet.ac.uk/Christianity/AnabaptistTheology"
+        ],
+        "source_ids": [
+          "SRC-L450-27",
+          "SRC-L450-08",
+          "SRC-L450-43",
+          "SRC-L450-45"
+        ],
+        "source_link_count": 4
+      },
+      "review_state": "EDITORIAL_DRAFT_UNREVIEWED",
+      "legal_state": {
+        "copy_full_copyrighted_text": false,
+        "publication_reviewed": false
+      },
+      "can_ship": false,
+      "route_url": null
+    },
+    {
+      "id": "L448-05-01",
+      "volume_id": "VOL-05",
+      "title": "가톨릭의 개혁을 오직 개신교에 대한 반응으로 읽지 않기",
+      "period": "16–17세기",
+      "content_kind": "canonical_research_l1",
+      "canonical_source": {
+        "branch": "research/atlas-v450-core-reformation-l1-eucharist-confessions-peace",
+        "path": "research/data/V4_50_L1_24_CHAPTER_INTEGRATED_REVISED_MASTER.json",
+        "blob_sha": "79a362734aa963eb41ad0424515e8d21074349c5",
+        "document_selector": {
+          "volume_id": "VOL-05",
+          "chapter_id": "L448-05-01",
+          "field": "bodyMarkdown"
+        }
+      },
+      "body_character_count": 773,
+      "bibliography": {
+        "source_urls": [
+          "https://www.saet.ac.uk/Christianity/CouncilofTrent",
+          "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/ghdi%3Adocument-4336",
+          "https://www.newadvent.org/cathen/15030c.htm"
+        ],
+        "source_ids": [
+          "SRC-L450-46",
+          "SRC-L450-04",
+          "SRC-L450-39"
+        ],
+        "source_link_count": 3
+      },
+      "review_state": "PUBLIC_SOURCE_DESK_REVISED_UNREVIEWED_BY_HISTORIAN",
+      "legal_state": {
+        "copy_full_copyrighted_text": false,
+        "publication_reviewed": false
+      },
+      "can_ship": false,
+      "route_url": null
+    },
+    {
+      "id": "L448-05-02",
+      "volume_id": "VOL-05",
+      "title": "1555년과 1648년: 공존의 법적 범위와 배제",
+      "period": "1555–1648년",
+      "content_kind": "canonical_research_l1",
+      "canonical_source": {
+        "branch": "research/atlas-v450-core-reformation-l1-eucharist-confessions-peace",
+        "path": "research/data/V4_50_L1_24_CHAPTER_INTEGRATED_REVISED_MASTER.json",
+        "blob_sha": "79a362734aa963eb41ad0424515e8d21074349c5",
+        "document_selector": {
+          "volume_id": "VOL-05",
+          "chapter_id": "L448-05-02",
+          "field": "bodyMarkdown"
+        }
+      },
+      "body_character_count": 832,
+      "bibliography": {
+        "source_urls": [
+          "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/ghdi%3Adocument-4386",
+          "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/peace-treaties-of-westphalia-october-14-24-1648",
+          "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/ghdi%3Aintroduction-1"
+        ],
+        "source_ids": [
+          "SRC-L450-05",
+          "SRC-L450-07",
+          "SRC-L450-06"
+        ],
+        "source_link_count": 3
+      },
+      "review_state": "PUBLIC_SOURCE_DESK_REVISED_UNREVIEWED_BY_HISTORIAN",
+      "legal_state": {
+        "copy_full_copyrighted_text": false,
+        "publication_reviewed": false
+      },
+      "can_ship": false,
+      "route_url": null
+    },
+    {
+      "id": "L448-05-03",
+      "volume_id": "VOL-05",
+      "title": "교파의 경계가 만들어지며 일상의 규율도 달라졌다",
+      "period": "16–17세기",
+      "content_kind": "canonical_research_l1",
+      "canonical_source": {
+        "branch": "research/atlas-v450-core-reformation-l1-eucharist-confessions-peace",
+        "path": "research/data/V4_50_L1_24_CHAPTER_INTEGRATED_REVISED_MASTER.json",
+        "blob_sha": "79a362734aa963eb41ad0424515e8d21074349c5",
+        "document_selector": {
+          "volume_id": "VOL-05",
+          "chapter_id": "L448-05-03",
+          "field": "bodyMarkdown"
+        }
+      },
+      "body_character_count": 474,
+      "bibliography": {
+        "source_urls": [
+          "https://www.saet.ac.uk/Christianity/CouncilofTrent",
+          "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/the-religious-peace-of-augsburg-september-25-1555",
+          "https://www.cambridge.org/core/books/abs/cambridge-history-of-christianity/imposing-church-and-social-discipline/58F41A40C6F08ED7BE0E801558384189",
+          "https://www.cambridge.org/core/journals/church-history/article/abs/women-and-consistorial-discipline-the-case-of-courthezon-in-the-early-seventeenth-century/5EA9F44231AE027345D722743A434BF8"
+        ],
+        "source_ids": [
+          "SRC-L450-46",
+          "SRC-L450-10",
+          "SRC-L450-19",
+          "SRC-L450-25"
+        ],
+        "source_link_count": 4
+      },
+      "review_state": "EDITORIAL_DRAFT_UNREVIEWED",
+      "legal_state": {
+        "copy_full_copyrighted_text": false,
+        "publication_reviewed": false
+      },
+      "can_ship": false,
+      "route_url": null
+    },
+    {
+      "id": "L448-06-01",
+      "volume_id": "VOL-06",
+      "title": "경건주의와 부흥운동은 같은 단체가 아니었다",
+      "period": "17–19세기",
+      "content_kind": "canonical_research_l1",
+      "canonical_source": {
+        "branch": "research/atlas-v450-core-reformation-l1-eucharist-confessions-peace",
+        "path": "research/data/V4_50_L1_24_CHAPTER_INTEGRATED_REVISED_MASTER.json",
+        "blob_sha": "79a362734aa963eb41ad0424515e8d21074349c5",
+        "document_selector": {
+          "volume_id": "VOL-06",
+          "chapter_id": "L448-06-01",
+          "field": "bodyMarkdown"
+        }
+      },
+      "body_character_count": 488,
+      "bibliography": {
+        "source_urls": [
+          "https://www.rep.routledge.com/articles/thematic/pietism",
+          "https://www.cambridge.org/core/journals/church-history/article/moravian-missions-believers-and-the-halleherrnhut-controversy-17271737/99AFD71F6E4A4BEF3D2DA29E6013FDFB"
+        ],
+        "source_ids": [
+          "SRC-L450-44",
+          "SRC-L450-26"
+        ],
+        "source_link_count": 2
+      },
+      "review_state": "EDITORIAL_DRAFT_UNREVIEWED",
+      "legal_state": {
+        "copy_full_copyrighted_text": false,
+        "publication_reviewed": false
+      },
+      "can_ship": false,
+      "route_url": null
+    },
+    {
+      "id": "L448-06-02",
+      "volume_id": "VOL-06",
+      "title": "남인도 타밀어 성경: 인쇄 기계보다 중요한 사람과 판본",
+      "period": "1706–1719년",
+      "content_kind": "canonical_research_l1",
+      "canonical_source": {
+        "branch": "research/atlas-v450-core-reformation-l1-eucharist-confessions-peace",
+        "path": "research/data/V4_50_L1_24_CHAPTER_INTEGRATED_REVISED_MASTER.json",
+        "blob_sha": "79a362734aa963eb41ad0424515e8d21074349c5",
+        "document_selector": {
+          "volume_id": "VOL-06",
+          "chapter_id": "L448-06-02",
+          "field": "bodyMarkdown"
+        }
+      },
+      "body_character_count": 514,
+      "bibliography": {
+        "source_urls": [
+          "https://www.bsind.org/bsi-archives/",
+          "https://www.wlb-stuttgart.de/fileadmin/user_upload/sammlungen/bibeln/Missionsbibeln/Missionsbibel_Stationen.pdf"
+        ],
+        "source_ids": [
+          "SRC-L450-16",
+          "SRC-L450-53"
+        ],
+        "source_link_count": 2
+      },
+      "review_state": "EDITORIAL_DRAFT_UNREVIEWED",
+      "legal_state": {
+        "copy_full_copyrighted_text": false,
+        "publication_reviewed": false
+      },
+      "can_ship": false,
+      "route_url": null
+    },
+    {
+      "id": "L448-06-03",
+      "volume_id": "VOL-06",
+      "title": "선교와 제국의 접촉: 외부의 확장만이 세계사의 주인공은 아니다",
+      "period": "18–19세기",
+      "content_kind": "canonical_research_l1",
+      "canonical_source": {
+        "branch": "research/atlas-v450-core-reformation-l1-eucharist-confessions-peace",
+        "path": "research/data/V4_50_L1_24_CHAPTER_INTEGRATED_REVISED_MASTER.json",
+        "blob_sha": "79a362734aa963eb41ad0424515e8d21074349c5",
+        "document_selector": {
+          "volume_id": "VOL-06",
+          "chapter_id": "L448-06-03",
+          "field": "bodyMarkdown"
+        }
+      },
+      "body_character_count": 503,
+      "bibliography": {
+        "source_urls": [
+          "https://www.cambridge.org/core/books/abs/cambridge-history-of-christianity/independency-in-africa-and-asia/3A1D548B8F0B936195D7AFE737A6DE20",
+          "https://www.mdpi.com/2077-1444/12/3/180"
+        ],
+        "source_ids": [
+          "SRC-L450-20",
+          "SRC-L450-32"
+        ],
+        "source_link_count": 2
+      },
+      "review_state": "EDITORIAL_DRAFT_UNREVIEWED",
+      "legal_state": {
+        "copy_full_copyrighted_text": false,
+        "publication_reviewed": false
+      },
+      "can_ship": false,
+      "route_url": null
+    },
+    {
+      "id": "L448-07-01",
+      "volume_id": "VOL-07",
+      "title": "아프리카와 중동에는 근대 선교 이전부터 교회가 있었다",
+      "period": "고대 전통–20세기",
+      "content_kind": "canonical_research_l1",
+      "canonical_source": {
+        "branch": "research/atlas-v450-core-reformation-l1-eucharist-confessions-peace",
+        "path": "research/data/V4_50_L1_24_CHAPTER_INTEGRATED_REVISED_MASTER.json",
+        "blob_sha": "79a362734aa963eb41ad0424515e8d21074349c5",
+        "document_selector": {
+          "volume_id": "VOL-07",
+          "chapter_id": "L448-07-01",
+          "field": "bodyMarkdown"
+        }
+      },
+      "body_character_count": 965,
+      "bibliography": {
+        "source_urls": [
+          "https://www.mecc.org/mission-and-history",
+          "https://oikoumene.org/item-3",
+          "https://www.degruyterbrill.com/document/doi/10.1515/opth-2025-0039/html",
+          "https://www.metmuseum.org/fr/essays/african-christianity-in-ethiopia"
+        ],
+        "source_ids": [
+          "SRC-L450-34",
+          "SRC-L450-14",
+          "SRC-L450-28",
+          "SRC-L450-35"
+        ],
+        "source_link_count": 4
+      },
+      "review_state": "RESEARCH_DESK_REVISION_UNREVIEWED_BY_HUMAN",
+      "legal_state": {
+        "copy_full_copyrighted_text": false,
+        "publication_reviewed": false
+      },
+      "can_ship": false,
+      "route_url": null
+    },
+    {
+      "id": "L448-07-02",
+      "volume_id": "VOL-07",
+      "title": "한국교회의 서로 다른 시작: 독서·세례·번역·사회참여",
+      "period": "1779–20세기 후반",
+      "content_kind": "canonical_research_l1",
+      "canonical_source": {
+        "branch": "research/atlas-v450-core-reformation-l1-eucharist-confessions-peace",
+        "path": "research/data/V4_50_L1_24_CHAPTER_INTEGRATED_REVISED_MASTER.json",
+        "blob_sha": "79a362734aa963eb41ad0424515e8d21074349c5",
+        "document_selector": {
+          "volume_id": "VOL-07",
+          "chapter_id": "L448-07-02",
+          "field": "bodyMarkdown"
+        }
+      },
+      "body_character_count": 1164,
+      "bibliography": {
+        "source_urls": [
+          "https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART001667406",
+          "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003153946",
+          "https://encykorea.aks.ac.kr/Article/E0033189",
+          "https://www.cam.ac.uk/stories/korean-bibles",
+          "https://www.saet.ac.uk/Christianity/MinjungTheology",
+          "https://www.saet.ac.uk/Christianity/ProtestantTheologyinKorea"
+        ],
+        "source_ids": [
+          "SRC-L450-30",
+          "SRC-L450-29",
+          "SRC-L450-03",
+          "SRC-L450-17",
+          "SRC-L450-47",
+          "SRC-L450-48"
+        ],
+        "source_link_count": 6
+      },
+      "review_state": "RESEARCH_DESK_REVISION_UNREVIEWED_BY_HUMAN",
+      "legal_state": {
+        "copy_full_copyrighted_text": false,
+        "publication_reviewed": false
+      },
+      "can_ship": false,
+      "route_url": null
+    },
+    {
+      "id": "L448-07-03",
+      "volume_id": "VOL-07",
+      "title": "라틴아메리카·아시아와 세계교회의 새로운 질문",
+      "period": "1910–20세기 후반",
+      "content_kind": "canonical_research_l1",
+      "canonical_source": {
+        "branch": "research/atlas-v450-core-reformation-l1-eucharist-confessions-peace",
+        "path": "research/data/V4_50_L1_24_CHAPTER_INTEGRATED_REVISED_MASTER.json",
+        "blob_sha": "79a362734aa963eb41ad0424515e8d21074349c5",
+        "document_selector": {
+          "volume_id": "VOL-07",
+          "chapter_id": "L448-07-03",
+          "field": "bodyMarkdown"
+        }
+      },
+      "body_character_count": 1201,
+      "bibliography": {
+        "source_urls": [
+          "https://www.oikoumene.org/news/1920-3-a-new-beginning-of-international-missionary-cooperation",
+          "https://oikoumene.org/about-the-wcc/faq",
+          "https://www.mecc.org/mission-and-history",
+          "https://www.vatican.va/content/dam/wss/roman_curia/congregations/cfaith/documents/rc_con_cfaith_doc_19840806_theology-liberation_en.html",
+          "https://www.saet.ac.uk/Christianity/TheologyinIndia",
+          "https://www.mdpi.com/2077-1444/12/3/180",
+          "https://www.saet.ac.uk/Christianity/MinjungTheology"
+        ],
+        "source_ids": [
+          "SRC-L450-42",
+          "SRC-L450-13",
+          "SRC-L450-34",
+          "SRC-L450-51",
+          "SRC-L450-49",
+          "SRC-L450-32",
+          "SRC-L450-47"
+        ],
+        "source_link_count": 7
+      },
+      "review_state": "RESEARCH_DESK_REVISION_UNREVIEWED_BY_HUMAN",
+      "legal_state": {
+        "copy_full_copyrighted_text": false,
+        "publication_reviewed": false
+      },
+      "can_ship": false,
+      "route_url": null
+    },
+    {
+      "id": "L448-08-01",
+      "volume_id": "VOL-08",
+      "title": "질문 1·2 — 성경과 권위 / 은총과 구원",
+      "period": "전 시대 비교",
+      "content_kind": "canonical_research_l1",
+      "canonical_source": {
+        "branch": "research/atlas-v450-core-reformation-l1-eucharist-confessions-peace",
+        "path": "research/data/V4_50_L1_24_CHAPTER_INTEGRATED_REVISED_MASTER.json",
+        "blob_sha": "79a362734aa963eb41ad0424515e8d21074349c5",
+        "document_selector": {
+          "volume_id": "VOL-08",
+          "chapter_id": "L448-08-01",
+          "field": "bodyMarkdown"
+        }
+      },
+      "body_character_count": 502,
+      "bibliography": {
+        "source_urls": [
+          "https://gruber.lstc.edu/confessions/augs_apol.php",
+          "https://www.saet.ac.uk/Christianity/CouncilofTrent",
+          "https://www.mcgill.ca/religiousstudies/about/birks-building/jingiao-stele"
+        ],
+        "source_ids": [
+          "SRC-L450-11",
+          "SRC-L450-46",
+          "SRC-L450-31"
+        ],
+        "source_link_count": 3
+      },
+      "review_state": "EDITORIAL_DRAFT_UNREVIEWED",
+      "legal_state": {
+        "copy_full_copyrighted_text": false,
+        "publication_reviewed": false
+      },
+      "can_ship": false,
+      "route_url": null
+    },
+    {
+      "id": "L448-08-02",
+      "volume_id": "VOL-08",
+      "title": "질문 3·4 — 성찬과 예배 / 교회조직과 생활",
+      "period": "중세–근현대 비교",
+      "content_kind": "canonical_research_l1",
+      "canonical_source": {
+        "branch": "research/atlas-v450-core-reformation-l1-eucharist-confessions-peace",
+        "path": "research/data/V4_50_L1_24_CHAPTER_INTEGRATED_REVISED_MASTER.json",
+        "blob_sha": "79a362734aa963eb41ad0424515e8d21074349c5",
+        "document_selector": {
+          "volume_id": "VOL-08",
+          "chapter_id": "L448-08-02",
+          "field": "bodyMarkdown"
+        }
+      },
+      "body_character_count": 506,
+      "bibliography": {
+        "source_urls": [
+          "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/the-marburg-colloquy-the-marburg-articles-1529",
+          "https://www.cambridge.org/core/journals/church-history/article/abs/john-wyclif-and-hussite-theology-14151436/54C10C6F7EEFB5409E2291C9F4194ABF",
+          "https://www.oikoumene.org/item-3"
+        ],
+        "source_ids": [
+          "SRC-L450-08",
+          "SRC-L450-22",
+          "SRC-L450-41"
+        ],
+        "source_link_count": 3
+      },
+      "review_state": "EDITORIAL_DRAFT_UNREVIEWED",
+      "legal_state": {
+        "copy_full_copyrighted_text": false,
+        "publication_reviewed": false
+      },
+      "can_ship": false,
+      "route_url": null
+    },
+    {
+      "id": "L448-08-03",
+      "volume_id": "VOL-08",
+      "title": "질문 5·6 — 국가·갈등·공존 / 번역과 지역 수용",
+      "period": "고대–현대 비교",
+      "content_kind": "canonical_research_l1",
+      "canonical_source": {
+        "branch": "research/atlas-v450-core-reformation-l1-eucharist-confessions-peace",
+        "path": "research/data/V4_50_L1_24_CHAPTER_INTEGRATED_REVISED_MASTER.json",
+        "blob_sha": "79a362734aa963eb41ad0424515e8d21074349c5",
+        "document_selector": {
+          "volume_id": "VOL-08",
+          "chapter_id": "L448-08-03",
+          "field": "bodyMarkdown"
+        }
+      },
+      "body_character_count": 596,
+      "bibliography": {
+        "source_urls": [
+          "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/the-religious-peace-of-augsburg-september-25-1555",
+          "https://www.mcgill.ca/religiousstudies/about/birks-building/jingiao-stele",
+          "https://www.cam.ac.uk/stories/korean-bibles",
+          "https://www.bsind.org/bsi-archives/"
+        ],
+        "source_ids": [
+          "SRC-L450-10",
+          "SRC-L450-31",
+          "SRC-L450-17",
+          "SRC-L450-16"
+        ],
+        "source_link_count": 4
+      },
+      "review_state": "EDITORIAL_DRAFT_UNREVIEWED",
+      "legal_state": {
+        "copy_full_copyrighted_text": false,
+        "publication_reviewed": false
+      },
+      "can_ship": false,
+      "route_url": null
+    }
+  ],
+  "thematic_reader_routes": [
+    {
+      "id": "READ495-T01",
+      "theme_id": "T01",
+      "title": "성경과 권위",
+      "reader_script": {
+        "branch": "research/atlas-v495-substantive-gap-repair-and-app-staging",
+        "path": "docs/01_CONTENT/INTEGRATED/V494_EIGHT_VOLUME_24_CHAPTER_SIX_THEME_RESEARCH_MASTER_KO.md",
+        "section": "제II부 / T01",
+        "deep_link_verified": false
+      },
+      "canonical_core_refs": [
+        {
+          "id": "L448-01-03",
+          "volume_id": "VOL-01",
+          "relation": "TEXT_RECEPTION",
+          "ui_role": "core_source_link",
+          "verified_id": true
+        },
+        {
+          "id": "L448-03-02",
+          "volume_id": "VOL-03",
+          "relation": "INTELLECTUAL_COMPARISON",
+          "ui_role": "core_source_link",
+          "verified_id": true
+        },
+        {
+          "id": "L448-04-02",
+          "volume_id": "VOL-04",
+          "relation": "CONFESSION_EDITION",
+          "ui_role": "core_source_link",
+          "verified_id": true
+        },
+        {
+          "id": "L448-05-01",
+          "volume_id": "VOL-05",
+          "relation": "COUNCIL_LOCAL_IMPLEMENTATION",
+          "ui_role": "core_source_link",
+          "verified_id": true
+        }
+      ],
+      "supporting_context_refs": [
+        {
+          "id": "L448-02-03",
+          "volume_id": "VOL-02",
+          "ui_role": "context_only",
+          "verified_id": true
+        }
+      ],
+      "L0_support_refs": [],
+      "app_route": null,
+      "can_ship": false
+    },
+    {
+      "id": "READ495-T02",
+      "theme_id": "T02",
+      "title": "은총과 구원",
+      "reader_script": {
+        "branch": "research/atlas-v495-substantive-gap-repair-and-app-staging",
+        "path": "docs/01_CONTENT/INTEGRATED/V494_EIGHT_VOLUME_24_CHAPTER_SIX_THEME_RESEARCH_MASTER_KO.md",
+        "section": "제II부 / T02",
+        "deep_link_verified": false
+      },
+      "canonical_core_refs": [
+        {
+          "id": "L448-04-01",
+          "volume_id": "VOL-04",
+          "relation": "JUSTIFICATION_CONTEXT",
+          "ui_role": "core_source_link",
+          "verified_id": true
+        },
+        {
+          "id": "L448-04-02",
+          "volume_id": "VOL-04",
+          "relation": "CONFESSION_EDITION",
+          "ui_role": "core_source_link",
+          "verified_id": true
+        },
+        {
+          "id": "L448-05-01",
+          "volume_id": "VOL-05",
+          "relation": "CATHOLIC_REFORM_CONTEXT",
+          "ui_role": "core_source_link",
+          "verified_id": true
+        },
+        {
+          "id": "L448-06-01",
+          "volume_id": "VOL-06",
+          "relation": "PIETY_DIFFERENTIATION",
+          "ui_role": "core_source_link",
+          "verified_id": true
+        }
+      ],
+      "supporting_context_refs": [],
+      "L0_support_refs": [],
+      "app_route": null,
+      "can_ship": false
+    },
+    {
+      "id": "READ495-T03",
+      "theme_id": "T03",
+      "title": "성찬과 예배",
+      "reader_script": {
+        "branch": "research/atlas-v495-substantive-gap-repair-and-app-staging",
+        "path": "docs/01_CONTENT/INTEGRATED/V494_EIGHT_VOLUME_24_CHAPTER_SIX_THEME_RESEARCH_MASTER_KO.md",
+        "section": "제II부 / T03",
+        "deep_link_verified": false
+      },
+      "canonical_core_refs": [
+        {
+          "id": "L448-03-02",
+          "volume_id": "VOL-03",
+          "relation": "EUCHARISTIC_CONTRAST",
+          "ui_role": "core_source_link",
+          "verified_id": true
+        },
+        {
+          "id": "L448-04-02",
+          "volume_id": "VOL-04",
+          "relation": "MARBURG_ARTICLE_COMPARISON",
+          "ui_role": "core_source_link",
+          "verified_id": true
+        },
+        {
+          "id": "L448-05-01",
+          "volume_id": "VOL-05",
+          "relation": "CATHOLIC_SACRAMENTAL_CONTEXT",
+          "ui_role": "core_source_link",
+          "verified_id": true
+        }
+      ],
+      "supporting_context_refs": [],
+      "L0_support_refs": [],
+      "app_route": null,
+      "can_ship": false
+    },
+    {
+      "id": "READ495-T04",
+      "theme_id": "T04",
+      "title": "교회조직과 일상생활",
+      "reader_script": {
+        "branch": "research/atlas-v495-substantive-gap-repair-and-app-staging",
+        "path": "docs/01_CONTENT/INTEGRATED/V494_EIGHT_VOLUME_24_CHAPTER_SIX_THEME_RESEARCH_MASTER_KO.md",
+        "section": "제II부 / T04",
+        "deep_link_verified": false
+      },
+      "canonical_core_refs": [
+        {
+          "id": "L448-01-01",
+          "volume_id": "VOL-01",
+          "relation": "COMMUNITY_FORMATION",
+          "ui_role": "core_source_link",
+          "verified_id": true
+        },
+        {
+          "id": "L448-01-03",
+          "volume_id": "VOL-01",
+          "relation": "POST_COUNCIL_RECEPTION",
+          "ui_role": "core_source_link",
+          "verified_id": true
+        },
+        {
+          "id": "L448-02-01",
+          "volume_id": "VOL-02",
+          "relation": "MEDIEVAL_PLURALITY",
+          "ui_role": "core_source_link",
+          "verified_id": true
+        },
+        {
+          "id": "L448-03-01",
+          "volume_id": "VOL-03",
+          "relation": "LAY_PREACHING",
+          "ui_role": "core_source_link",
+          "verified_id": true
+        },
+        {
+          "id": "L448-04-01",
+          "volume_id": "VOL-04",
+          "relation": "CITY_SCHOOL",
+          "ui_role": "core_source_link",
+          "verified_id": true
+        },
+        {
+          "id": "L448-04-03",
+          "volume_id": "VOL-04",
+          "relation": "MULTIPLE_POLITIES",
+          "ui_role": "core_source_link",
+          "verified_id": true
+        },
+        {
+          "id": "L448-05-03",
+          "volume_id": "VOL-05",
+          "relation": "DISCIPLINE_DAILY_LIFE",
+          "ui_role": "core_source_link",
+          "verified_id": true
+        },
+        {
+          "id": "L448-06-01",
+          "volume_id": "VOL-06",
+          "relation": "REVIVAL_ORGANIZATION",
+          "ui_role": "core_source_link",
+          "verified_id": true
+        },
+        {
+          "id": "L448-07-01",
+          "volume_id": "VOL-07",
+          "relation": "AFRICAN_CHURCH_AGENCY",
+          "ui_role": "core_source_link",
+          "verified_id": true
+        },
+        {
+          "id": "L448-07-02",
+          "volume_id": "VOL-07",
+          "relation": "KOREAN_LOCAL_AGENCY",
+          "ui_role": "core_source_link",
+          "verified_id": true
+        }
+      ],
+      "supporting_context_refs": [
+        {
+          "id": "L448-07-03",
+          "volume_id": "VOL-07",
+          "ui_role": "context_only",
+          "verified_id": true
+        }
+      ],
+      "L0_support_refs": [],
+      "app_route": null,
+      "can_ship": false
+    },
+    {
+      "id": "READ495-T05",
+      "theme_id": "T05",
+      "title": "국가·갈등·공존",
+      "reader_script": {
+        "branch": "research/atlas-v495-substantive-gap-repair-and-app-staging",
+        "path": "docs/01_CONTENT/INTEGRATED/V494_EIGHT_VOLUME_24_CHAPTER_SIX_THEME_RESEARCH_MASTER_KO.md",
+        "section": "제II부 / T05",
+        "deep_link_verified": false
+      },
+      "canonical_core_refs": [
+        {
+          "id": "L448-03-03",
+          "volume_id": "VOL-03",
+          "relation": "HUSSITE_DIPLOMACY",
+          "ui_role": "core_source_link",
+          "verified_id": true
+        },
+        {
+          "id": "L448-04-03",
+          "volume_id": "VOL-04",
+          "relation": "CONFESSIONAL_POLITIES",
+          "ui_role": "core_source_link",
+          "verified_id": true
+        },
+        {
+          "id": "L448-05-02",
+          "volume_id": "VOL-05",
+          "relation": "AUGSBURG_WESTPHALIA_LEGAL_SCOPE",
+          "ui_role": "core_source_link",
+          "verified_id": true
+        }
+      ],
+      "supporting_context_refs": [
+        {
+          "id": "L448-01-02",
+          "volume_id": "VOL-01",
+          "ui_role": "context_only",
+          "verified_id": true
+        },
+        {
+          "id": "L448-06-03",
+          "volume_id": "VOL-06",
+          "ui_role": "context_only",
+          "verified_id": true
+        }
+      ],
+      "L0_support_refs": [],
+      "app_route": null,
+      "can_ship": false
+    },
+    {
+      "id": "READ495-T06",
+      "theme_id": "T06",
+      "title": "번역과 지역 수용",
+      "reader_script": {
+        "branch": "research/atlas-v495-substantive-gap-repair-and-app-staging",
+        "path": "docs/01_CONTENT/INTEGRATED/V494_EIGHT_VOLUME_24_CHAPTER_SIX_THEME_RESEARCH_MASTER_KO.md",
+        "section": "제II부 / T06",
+        "deep_link_verified": false
+      },
+      "canonical_core_refs": [
+        {
+          "id": "L448-02-02",
+          "volume_id": "VOL-02",
+          "relation": "STELE_DATE_AND_MEMORY",
+          "ui_role": "core_source_link",
+          "verified_id": true
+        },
+        {
+          "id": "L448-06-02",
+          "volume_id": "VOL-06",
+          "relation": "TAMIL_TRANSLATION_AGENCY",
+          "ui_role": "core_source_link",
+          "verified_id": true
+        },
+        {
+          "id": "L448-07-02",
+          "volume_id": "VOL-07",
+          "relation": "KOREAN_BIBLE_EDITION_HISTORY",
+          "ui_role": "core_source_link",
+          "verified_id": true
+        }
+      ],
+      "supporting_context_refs": [
+        {
+          "id": "L448-03-02",
+          "volume_id": "VOL-03",
+          "ui_role": "context_only",
+          "verified_id": true
+        },
+        {
+          "id": "L448-04-01",
+          "volume_id": "VOL-04",
+          "ui_role": "context_only",
+          "verified_id": true
+        }
+      ],
+      "L0_support_refs": [
+        "A414-04",
+        "E408-21"
+      ],
+      "app_route": null,
+      "can_ship": false
+    }
+  ],
+  "proposed_research_insertions": [
+    {
+      "id": "ADD495-03-T02",
+      "volume_id": "VOL-03",
+      "theme_id": "T02",
+      "candidate_title": "위클리프의 은총·공로·예정·자유의지",
+      "source": {
+        "branch": "research/atlas-v495-substantive-gap-repair-and-app-staging",
+        "path": "docs/01_CONTENT/L1/V495_T02_VOL03_VOL07_SUBSTANTIVE_RESEARCH_INSERTS_KO.md",
+        "blob_sha": "8926d9805cc1539806e810c4929bbe528f5bad49",
+        "section_selector": "## 1."
+      },
+      "sources": [
+        {
+          "id": "SRC495-W01",
+          "url": "https://www.cambridge.org/core/journals/traditio/article/abs/grace-and-freedom-in-the-soteriology-of-john-wyclif/B779FD57AAD07A0A84B360AE634FD4ED",
+          "level": "ACADEMIC_ARTICLE_ABSTRACT_SCREENED",
+          "published": "2005"
+        },
+        {
+          "id": "SRC495-W02",
+          "url": "https://lexicon.cnr.it/ojs/index.php/LP/article/view/914",
+          "level": "ACADEMIC_ARTICLE_ABSTRACT_SCREENED",
+          "published": "2025"
+        },
+        {
+          "id": "SRC495-W03",
+          "url": "https://plato.stanford.edu/archives/fall2025/entries/wyclif/",
+          "level": "ACADEMIC_REFERENCE_BACKGROUND",
+          "published": "2025 archival edition"
+        }
+      ],
+      "evidence_status": "SECONDARY_SOURCES_LOCATED_PRIMARY_TEXT_PENDING",
+      "promotion_gate": "PROHIBIT_REPLACE_CANONICAL_NO_HUMAN_REVIEW",
+      "can_ship": false
+    },
+    {
+      "id": "ADD495-07-T02",
+      "volume_id": "VOL-07",
+      "theme_id": "T02",
+      "candidate_title": "인도 달리트 신학·한국 민중신학의 구원과 해방 문제",
+      "source": {
+        "branch": "research/atlas-v495-substantive-gap-repair-and-app-staging",
+        "path": "docs/01_CONTENT/L1/V495_T02_VOL03_VOL07_SUBSTANTIVE_RESEARCH_INSERTS_KO.md",
+        "blob_sha": "8926d9805cc1539806e810c4929bbe528f5bad49",
+        "section_selector": "## 2."
+      },
+      "sources": [
+        {
+          "id": "SRC495-G01",
+          "url": "https://www.saet.ac.uk/Christianity/TheologyinIndia",
+          "level": "ACADEMIC_OVERVIEW_SCREENED"
+        },
+        {
+          "id": "SRC495-G02",
+          "url": "https://www.saet.ac.uk/Christianity/MinjungTheology",
+          "level": "ACADEMIC_OVERVIEW_SCREENED"
+        },
+        {
+          "id": "SRC495-G03",
+          "url": "https://www.saet.ac.uk/Christianity/ProtestantTheologyinKorea",
+          "level": "ACADEMIC_OVERVIEW_SCREENED"
+        }
+      ],
+      "evidence_status": "SECONDARY_OVERVIEWS_LOCATED_LOCAL_PRIMARY_AUTHORS_PENDING",
+      "promotion_gate": "PROHIBIT_REPLACE_CANONICAL_NO_HUMAN_REVIEW",
+      "can_ship": false
+    }
+  ],
+  "editorial_policy": {
+    "keep_single_source_of_truth": "Canonical chapter body is referenced by ID and exact original Git blob; do not duplicate body in each theme.",
+    "thematic_pointers": "Six reader routes reference chapter IDs; context references must not be treated as direct historical evidence.",
+    "proposed_insertions": "Do not auto-import into L1 master, Volume VIII, app routes or merged branches.",
+    "source_evidence": "Registered source URLs and research summaries are not primary manuscript collation. Citation scope follows each claim.",
+    "public_release": "Require expert history review, actual reader test, rights checks and app E2E first.",
+    "fallback": "If exact chapter ID or source hash mismatch, fail closed rather than falling back to similarly titled material."
+  },
+  "unresolved": [
+    {
+      "id": "V4.82",
+      "status": "FULL_SOURCE_NOT_RECOVERED",
+      "impact": "No authoritative thematic volume merge"
+    },
+    {
+      "id": "TAMIL-1715-1719",
+      "status": "BIBLIOGRAPHIC_RELATION_UNCONFIRMED",
+      "impact": "Keep edition/year distinctions"
+    },
+    {
+      "id": "VOL03-T02",
+      "status": "SECONDARY_SOURCE_CANDIDATE",
+      "impact": "Primary witness/source-specific verification still pending"
+    },
+    {
+      "id": "VOL07-T02",
+      "status": "SECONDARY_SOURCE_CANDIDATE",
+      "impact": "Regional author-specific primary witness still pending"
+    },
+    {
+      "id": "V4.50-24",
+      "status": "HUMAN_AND_APP_NOT_TESTED",
+      "impact": "No publication"
+    }
+  ],
+  "verification": {
+    "volume_count": 8,
+    "canonical_chapter_count": 24,
+    "source_registry_count": 53,
+    "source_url_references": 74,
+    "source_id_references": 74,
+    "canonical_body_chars": 15031,
+    "canonical_body_source_unmodified": true,
+    "six_theme_routes": 6,
+    "theme_chapter_id_refs": 33,
+    "unknown_chapter_ref_count": 0,
+    "unknown_source_ref_count": 0,
+    "duplicate_chapter_ids": 0,
+    "new_L1_candidate_insertions": 2,
+    "new_L1_insertions_promoted": 0,
+    "live_app_routes_verified": 0,
+    "scholar_signoff_count": 0,
+    "human_reader_test_count": 0
+  }
+}
