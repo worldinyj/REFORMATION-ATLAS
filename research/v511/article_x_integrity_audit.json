@@ -1,0 +1,36 @@
+{
+  "schema": "ATLAS_V511_INTEGRITY_AUDIT",
+  "version": "V5.11",
+  "branch": "research/atlas-v511-augsburg-article-x-witness-critical-review",
+  "date": "2026-11-23",
+  "previous_characters": 50166,
+  "now_characters": 51302,
+  "net_added": 1136,
+  "chapters": 24,
+  "volumes": 8,
+  "changed_chapter_ids": [
+    "L448-04-02"
+  ],
+  "unchanged_chapter_count": 23,
+  "source_urls_added": 4,
+  "checks": {
+    "old_chapter_order_preserved": true,
+    "unchanged_23_bodies_exact": true,
+    "all_older_reference_urls_preserved": true,
+    "all_24_integrated_markdown_bodies_identical_to_json": true,
+    "source_counts_and_links_match": true,
+    "five_V508_case_bodies_preserved": true,
+    "V510_ethiopian_case_preserved": true,
+    "article_X_apology_separate_work_documented": true
+  },
+  "evidence_limitations": [
+    "1531 1540 first edition Article X page images not directly compared",
+    "1930 BSLK-derived edited PDF, 1858 CR scanned critical edition pages examined",
+    "Pitts original early books title-page bibliography inspected, not original Article X text",
+    "Expert validation, human reader test, live AI Studio E2E all unperformed"
+  ],
+  "witness_registry_path": "research/v511/article_x_witness_registry.json",
+  "can_ship": false,
+  "can_merge_main": false,
+  "can_import_ai_studio": false
+}
