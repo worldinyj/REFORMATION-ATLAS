@@ -1,0 +1,53 @@
+{
+  "schema": "ATLAS_V515_TWO_LAYER_COMPREHENSIBILITY_AND_PROVENANCE_INTEGRITY_AUDIT",
+  "version": "V5.15",
+  "date": "2026-11-23",
+  "branch": "research/atlas-v515-24-chapter-two-layer-reader-edition",
+  "base": "research/atlas-v514-chronological-case-rehoming-reader-architecture",
+  "layout": {
+    "volumes": 8,
+    "chapters": 24,
+    "summary_characters_min": 183,
+    "summary_characters_max": 229,
+    "reader_summary_total_chars": 4953,
+    "research_body_chars": 53081,
+    "source_evidence_notes": 24,
+    "full_original_body_preserved_unchanged_count": 24,
+    "reader_summaries_new": 24,
+    "new_history_claims_researched_in_this_turn": 0
+  },
+  "checks": {
+    "eight_volumes": true,
+    "twenty_four_chapters": true,
+    "all_chapter_ids_in_order": true,
+    "all_24_historical_bodies_exact": true,
+    "all_24_source_url_arrays_exact": true,
+    "all_8_volume_intros_and_outros_exact": true,
+    "all_24_previews_150_250": true,
+    "all_24_previews_identical_registry": true,
+    "all_24_research_boundary_identical_source": true,
+    "every_reader_preview_in_standalone": true,
+    "every_reader_preview_in_master": true,
+    "every_source_caution_in_expert_doc": true,
+    "every_reference_url_in_expert_doc": true,
+    "all_links_to_stable_anchors_present": true,
+    "research_app_gates_disabled": true,
+    "master_canonical_24_exact": true,
+    "master_24_source_counts_exact": true,
+    "master_24_reference_links_present": true,
+    "source_links_unchanged_for_past_relocated_cases": true
+  },
+  "human_expert_reviews": 0,
+  "human_reader_trial_results": 0,
+  "live_ai_studio_implemented": false,
+  "live_app_e2e_tests": 0,
+  "limitations": [
+    "Readability and accuracy of 24 previews are only editorially checked, not empirically evaluated by readers.",
+    "Full original historical texts and all source links are preserved but any prior uncertain primary editions remain uncertain.",
+    "Stable Markdown anchors are authored, but live GitHub clicking and operating AI Studio in-app navigation are not tested.",
+    "Research evidence notes are extracted from V5.14, not a new independent full-text collation."
+  ],
+  "can_ship": false,
+  "can_merge_main": false,
+  "can_import_ai_studio": false
+}
