@@ -1,0 +1,181 @@
+{
+  "schema": "ATLAS_V506_READER_REVISION_AND_HUMAN_PILOT_PREFLIGHT_AUDIT",
+  "version": "V5.06",
+  "date": "2026-11-23",
+  "branch": "research/atlas-v506-reader-comprehension-revision-and-pilot",
+  "status": "READER_TEXT_REVISED_AND_QUESTIONNAIRE_PREPARED_NOT_HUMAN_TESTED",
+  "can_ship": false,
+  "can_merge_main": false,
+  "can_import_ai_studio": false,
+  "source_files": {
+    "old": {
+      "path": "docs/01_CONTENT/L1/V505_SIX_THEME_FIVE_LOCAL_VOICES_READER_EDITION_KO.md",
+      "blob_sha": "7e52c514722d2731f1cd7a4acf821a83683c932c",
+      "branch": "research/atlas-v506-reader-comprehension-revision-and-pilot"
+    },
+    "reader": {
+      "path": "docs/01_CONTENT/L1/V506_SIX_THEME_PLAIN_LANGUAGE_READER_EDITION_KO.md",
+      "blob_sha": "4f637e2b32af07c62c7b6a3f57531ce7133dd55b",
+      "branch": "research/atlas-v506-reader-comprehension-revision-and-pilot"
+    },
+    "questionnaire": {
+      "path": "research/v506/participant_reader_comprehension_questionnaire_ko.md",
+      "blob_sha": "807d82838f1e41d793ac12bb9bbe42ddb5e0547d",
+      "branch": "research/atlas-v506-reader-comprehension-revision-and-pilot"
+    },
+    "rubric": {
+      "path": "research/v506/reader_pilot_scoring_contract.json",
+      "blob_sha": "775046c22b8761bf401714079a35e03d75949860",
+      "branch": "research/atlas-v506-reader-comprehension-revision-and-pilot"
+    },
+    "manual": {
+      "path": "research/v506/facilitator_scoring_and_editorial_revision_manual_ko.md",
+      "blob_sha": "34139db7613577a8bdef1ececa9892dacda0ac9f",
+      "branch": "research/atlas-v506-reader-comprehension-revision-and-pilot"
+    },
+    "master": {
+      "path": "research/data/V500_EIGHT_VOLUME_24_CHAPTER_EDITORIAL_REVIEW_CANDIDATE.json",
+      "blob_sha": "5e3db4f82511ca57b971b1f5811cbca35a33476c",
+      "branch": "research/atlas-v506-reader-comprehension-revision-and-pilot"
+    },
+    "nav": {
+      "path": "research/v505/six_theme_five_voices_navigation_contract.json",
+      "blob_sha": "e90fe3dde2188e29f9a9daadc81ff9d44efa4a1a",
+      "branch": "research/atlas-v506-reader-comprehension-revision-and-pilot"
+    }
+  },
+  "numbers": {
+    "chapters": 24,
+    "themes": 6,
+    "entry_guides": 6,
+    "glossary_terms": 16,
+    "previous_reader_chars": 9793,
+    "revised_reader_chars": 13688,
+    "added_reader_chars": 3895,
+    "comprehension_items": 12,
+    "navigation_items": 3,
+    "feedback_items": 4,
+    "unique_chapter_ids_in_reader": 16,
+    "unique_case_ids_in_reader": 5,
+    "original_theme_bodies_preserved": 6,
+    "changed_canonical_chapters": 0,
+    "changed_case_essays": 0,
+    "recruited_participants": 0,
+    "actual_reader_answers": 0,
+    "expert_reviews": 0,
+    "app_E2E_tests": 0
+  },
+  "per_theme_preservation": [
+    {
+      "id": "T01",
+      "original_body_chars": 1510,
+      "original_body_contained_in_revised": true,
+      "new_guide_present": true
+    },
+    {
+      "id": "T02",
+      "original_body_chars": 874,
+      "original_body_contained_in_revised": true,
+      "new_guide_present": true
+    },
+    {
+      "id": "T03",
+      "original_body_chars": 741,
+      "original_body_contained_in_revised": true,
+      "new_guide_present": true
+    },
+    {
+      "id": "T04",
+      "original_body_chars": 1130,
+      "original_body_contained_in_revised": true,
+      "new_guide_present": true
+    },
+    {
+      "id": "T05",
+      "original_body_chars": 929,
+      "original_body_contained_in_revised": true,
+      "new_guide_present": true
+    },
+    {
+      "id": "T06",
+      "original_body_chars": 1288,
+      "original_body_contained_in_revised": true,
+      "new_guide_present": true
+    }
+  ],
+  "glossary_terms": [
+    "공의회",
+    "신앙고백",
+    "칭의",
+    "은총",
+    "성찬",
+    "고해",
+    "성직영지유보",
+    "신민",
+    "필사본",
+    "초판·후속 판본",
+    "이문",
+    "교감",
+    "전사",
+    "메타데이터",
+    "수용",
+    "역사적 비교"
+  ],
+  "pilot": {
+    "questionnaire_ids": [
+      "Q01",
+      "Q02",
+      "Q03",
+      "Q04",
+      "Q05",
+      "Q06",
+      "Q07",
+      "Q08",
+      "Q09",
+      "Q10",
+      "Q11",
+      "Q12"
+    ],
+    "navigation_ids": [
+      "N01",
+      "N02",
+      "N03"
+    ],
+    "feedback_ids": [
+      "F01",
+      "F02",
+      "F03",
+      "F04"
+    ],
+    "cohorts_planned": [
+      "general_readers",
+      "church_education_readers",
+      "academic_readers"
+    ],
+    "target_sample": "3–5 individuals per group proposed for nonrepresentative pilot, not recruited",
+    "content_rubric_max": 24,
+    "navigation_rubric_max": 6,
+    "unanswered_code": "NA",
+    "hypothetical_scores_prohibited": true,
+    "actual_scores_present": false
+  },
+  "validation": {
+    "zero_errors": true,
+    "errors": [],
+    "glossary_exact16": true,
+    "six_source_readings_preserved": true,
+    "source_sha_cross_refs_correct": true,
+    "all_reader_chapter_ids_valid": true,
+    "all_case_ids_valid": true,
+    "questionnaire_and_rubric_item_ids_match": true,
+    "previous_master_and_local_cases_untouched": true,
+    "app_routing_not_claimed": true
+  },
+  "holds": [
+    "No live volunteers or human expert sessions completed",
+    "No statistical validity, score interpretation thresholds, or empirical comprehension improvement estimates established",
+    "Not a UI, route, accessibility, or browser E2E test",
+    "Source gaps: Sor Juana early print collation; Papeiha manuscript language; Guaman Poma original images; CELAM full text; Tamil 1715/1719 and Korean NT 1900; V4.82 missing",
+    "History expert review and image permissions pending"
+  ]
+}
