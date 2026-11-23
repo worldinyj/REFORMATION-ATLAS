@@ -1,0 +1,151 @@
+{
+  "schema": "ATLAS_V508_HISTORICAL_FIVE_VOICES_ACTUAL_INTEGRATION_AUDIT",
+  "version": "V5.08",
+  "date": "2026-11-23",
+  "status": "RESEARCH_SOURCE_AND_SUBSTANTIVE_BODY_INTEGRITY_CONFIRMED_NOT_PUBLICATION_APPROVED",
+  "branch": "research/atlas-v508-five-local-voices-substantive-era-integration",
+  "can_ship": false,
+  "can_merge_main": false,
+  "can_import_ai_studio": false,
+  "files": {
+    "prev": {
+      "branch": "research/atlas-v508-five-local-voices-substantive-era-integration",
+      "path": "research/data/V507_EIGHT_VOLUME_24_CHAPTER_READABLE_EDITORIAL_CANDIDATE.json",
+      "sha": "64d58154dacf599fb2645297eedfd81fdeaab838"
+    },
+    "now": {
+      "branch": "research/atlas-v508-five-local-voices-substantive-era-integration",
+      "path": "research/data/V508_EIGHT_VOLUME_FIVE_LOCAL_VOICES_SUBSTANTIVE_CANDIDATE.json",
+      "sha": "88a2c245816e3805a842a4dbdbf022c5cb44b46e"
+    },
+    "inserts": {
+      "branch": "research/atlas-v508-five-local-voices-substantive-era-integration",
+      "path": "docs/01_CONTENT/L1/V508_FIVE_VOICES_SELECTIVE_SUBSTANTIVE_INSERTS_KO.md",
+      "sha": "0836004cda0b51381cc72c12c104cd0079390e1e"
+    },
+    "integrated": {
+      "branch": "research/atlas-v508-five-local-voices-substantive-era-integration",
+      "path": "docs/01_CONTENT/INTEGRATED/V508_EIGHT_VOLUME_FIVE_VOICES_INTEGRATED_RESEARCH_MASTER_KO.md",
+      "sha": "5498cbaf826c80a2e005345107a38e38a76bf392"
+    },
+    "caseReg": {
+      "branch": "research/atlas-v508-five-local-voices-substantive-era-integration",
+      "path": "research/data/V501_FIVE_LOCAL_VOICES_EDITORIAL_STAGING.json",
+      "sha": "6023000218a263c1670722f6ee70e0aa6beea172"
+    },
+    "older": {
+      "branch": "research/atlas-v508-five-local-voices-substantive-era-integration",
+      "path": "docs/01_CONTENT/L1/V504_FIVE_LOCAL_VOICES_PRINT_VARIANT_REVISED_EDITION_KO.md",
+      "sha": "646c3f0586c332707c0655fbdec2c2cfd1076628"
+    }
+  },
+  "counts": {
+    "chapters": 24,
+    "volumes": 8,
+    "caseSections": 5,
+    "changedChapters": 3,
+    "unchangedChapters": 21,
+    "exactIntegratedBodies": 24,
+    "allNewSourceRefsPresent": 15,
+    "oldChapterURLsStillPresent": 24,
+    "originalBodyReconstructable": 24,
+    "allInsertBodiesFound": 5,
+    "caseToCanonicalMatches": 5,
+    "extraRefOccurrences": 0
+  },
+  "versions": {
+    "prior_chapter_chars": 38821,
+    "integrated_chapter_chars": 46209,
+    "net_new_chapter_chars": 7388,
+    "new_canonical_historical_chapters": 0,
+    "expert_approvals": 0,
+    "human_reader_tests": 0,
+    "operational_app_e2e_tests": 0
+  },
+  "cases": [
+    {
+      "case_id": "V501-LA-02",
+      "primary_chapter_id": "L448-05-03",
+      "period_scope": "17세기, 제5권 본문과 동시대",
+      "source_urls": [
+        "https://www.columbia.edu/cu/spanish/courses/spanish3349/07crisisimperio/sorjuanarespuesta.html",
+        "https://sibila.iib.unam.mx/index.php/Detail/Object/Show/object_id/1958",
+        "https://www.letrasmexicanas.mx/portales/sor_juana_ines_de_la_cruz/obra-visor/bibliografia-y-otras-cuestiunculas-sorjuaninas--0/html/5381a1f0-e18d-402b-9bcf-0049b36e3010_15.html"
+      ],
+      "source_body_characters": 1217,
+      "identical_source_text_in_canonical_insert": true,
+      "can_ship": false
+    },
+    {
+      "case_id": "V501-PA-02",
+      "primary_chapter_id": "L448-05-03",
+      "period_scope": "19세기 비교 — 제5권의 16~17세기 역사와 동시대 아님",
+      "source_urls": [
+        "https://www.cambridge.org/core/journals/journal-of-ecclesiastical-history/article/childbirth-and-emerging-missionary-information-networks-in-britain-and-the-south-pacific/019854B3D03C94DFAB5E6DA1692BDC3C",
+        "https://guides.sl.nsw.gov.au/british_missionary_societies/MMS_missionary_papers"
+      ],
+      "source_body_characters": 967,
+      "identical_source_text_in_canonical_insert": true,
+      "can_ship": false
+    },
+    {
+      "case_id": "V501-PA-01",
+      "primary_chapter_id": "L448-06-03",
+      "period_scope": "19세기 — 제6권 선교·제국의 직접 시대 사례",
+      "source_urls": [
+        "https://researchportalplus.anu.edu.au/en/publications/manuscript-xli-papeiha-e-tuatua-no-te-taeanga-mai-o-te-tuatua-na-/",
+        "https://natlib.govt.nz/records/22366966",
+        "https://natlib.govt.nz/records/22320547",
+        "https://natlib.govt.nz/records/21149675"
+      ],
+      "source_body_characters": 1241,
+      "identical_source_text_in_canonical_insert": true,
+      "can_ship": false
+    },
+    {
+      "case_id": "V501-LA-01",
+      "primary_chapter_id": "L448-07-03",
+      "period_scope": "약 1615년의 비교 선례 — 제7권 20세기 사건과 직접 인과 없음",
+      "source_urls": [
+        "https://smarthistory.org/bad-confession-poma-chronicle/",
+        "https://permalink.kb.dk/permalink/2006/manus/253/eng/590/",
+        "https://permalink.kb.dk/permalink/2006/manus/253/eng/629/"
+      ],
+      "source_body_characters": 1057,
+      "identical_source_text_in_canonical_insert": true,
+      "can_ship": false
+    },
+    {
+      "case_id": "V501-LA-03",
+      "primary_chapter_id": "L448-07-03",
+      "period_scope": "1968년 — 제7권의 직접 20세기 사례",
+      "source_urls": [
+        "https://repositorio.celam.org/s/repositorio/item/3171",
+        "https://repositorio.celam.org/s/repositorio/item/3164",
+        "https://archivesspace.library.nd.edu/repositories/2/resources/2515/collection_organization"
+      ],
+      "source_body_characters": 927,
+      "identical_source_text_in_canonical_insert": true,
+      "can_ship": false
+    }
+  ],
+  "validation": {
+    "zero_errors": true,
+    "errors": [],
+    "all_24_contents_reconstructable_from_original_plus_exact_case_inserts": true,
+    "all_24_integrated_markdown_body_matches_json": true,
+    "all_24_previous_source_links_preserved": true,
+    "canonical_case_primary_mappings_kept": true,
+    "source_shas_match": true,
+    "historical_temporal_bridges_explicit": true,
+    "main_not_edited": true,
+    "app_not_edited": true
+  },
+  "research_holds": [
+    "Manuscript and edition images not directly re-collated: Guaman Poma RDL p590/629, Sor Juana 1700/1701, Papeiha original language and copies",
+    "Pacific women material mediated by missionary documentation; historical women first-person sources not established",
+    "CELAM Medellin final text public metadata restricted, exact original clauses not claimed",
+    "V4.82 source and Tamil 1715/1719 and Korean Bible 1900 edition collation unresolved",
+    "Expert, lay reader, image rights and live app E2E unperformed"
+  ]
+}
