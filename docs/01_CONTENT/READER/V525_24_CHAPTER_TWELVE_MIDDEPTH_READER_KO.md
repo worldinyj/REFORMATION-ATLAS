@@ -72,7 +72,7 @@ _1–3세기 · 222자_
 
 **시대·지역 사례 카드:** [바울 서신과 초기 도시 교회](../../../research/v518/CASE_ATLAS_52_KO.md#atlas518-0101-01) · [초기 교회의 모임 공간](../../../research/v518/CASE_ATLAS_52_KO.md#atlas518-0101-02)
 
-[같은 장의 전체 역사 해설·출처 보기](../INTEGRATED/V523_EIGHT_VOLUME_SOURCE_LAYERS_MASTER_KO.md#atlas-l448-01-01)
+[같은 장의 전체 역사 해설·출처 보기](../INTEGRATED/V525_EIGHT_VOLUME_TWELVE_MIDDEPTH_MASTER_KO.md#atlas-l448-01-01)
 
 ---
 
@@ -109,7 +109,7 @@ _3–4세기 · 196자_
 **상세 원고:** 아래 2단계의 역사·사료 해설과 참고 자료를 이어서 읽을 수 있습니다.
 
 
-[같은 장의 전체 역사 해설·출처 보기](../INTEGRATED/V523_EIGHT_VOLUME_SOURCE_LAYERS_MASTER_KO.md#atlas-l448-01-02)
+[같은 장의 전체 역사 해설·출처 보기](../INTEGRATED/V525_EIGHT_VOLUME_TWELVE_MIDDEPTH_MASTER_KO.md#atlas-l448-01-02)
 
 ---
 
@@ -135,7 +135,7 @@ _4–5세기 · 224자_
 
 **시대·지역 사례 카드:** [니케아에서 칼케돈까지의 신앙 논쟁](../../../research/v518/CASE_ATLAS_52_KO.md#atlas518-0103-01) · [에게리아의 예배 현장 기록](../../../research/v518/CASE_ATLAS_52_KO.md#atlas518-0103-02)
 
-[같은 장의 전체 역사 해설·출처 보기](../INTEGRATED/V523_EIGHT_VOLUME_SOURCE_LAYERS_MASTER_KO.md#atlas-l448-01-03)
+[같은 장의 전체 역사 해설·출처 보기](../INTEGRATED/V525_EIGHT_VOLUME_TWELVE_MIDDEPTH_MASTER_KO.md#atlas-l448-01-03)
 
 ---
 
@@ -157,7 +157,7 @@ _6–15세기 · 218자_
 
 **시대·지역 사례 카드:** [동시리아어 기독교 문헌의 전승](../../../research/v518/CASE_ATLAS_52_KO.md#atlas518-0201-01) · [비잔틴과 인접 지역 교회의 관계](../../../research/v518/CASE_ATLAS_52_KO.md#atlas518-0201-02)
 
-[같은 장의 전체 역사 해설·출처 보기](../INTEGRATED/V523_EIGHT_VOLUME_SOURCE_LAYERS_MASTER_KO.md#atlas-l448-02-01)
+[같은 장의 전체 역사 해설·출처 보기](../INTEGRATED/V525_EIGHT_VOLUME_TWELVE_MIDDEPTH_MASTER_KO.md#atlas-l448-02-01)
 
 ---
 
@@ -196,7 +196,7 @@ _7–8세기 · 224자_
 
 **V5.23 사건·저술·인쇄·영인의 차이:** [경교비: 635년 사건, 781년 비문, 현대 탁본](../../../research/v523/SIX_SOURCE_TIMEPATHS_READER_GUIDE_KO.md#v523-e01)
 
-[같은 장의 전체 역사 해설·출처 보기](../INTEGRATED/V523_EIGHT_VOLUME_SOURCE_LAYERS_MASTER_KO.md#atlas-l448-02-02)
+[같은 장의 전체 역사 해설·출처 보기](../INTEGRATED/V525_EIGHT_VOLUME_TWELVE_MIDDEPTH_MASTER_KO.md#atlas-l448-02-02)
 
 ---
 
@@ -212,7 +212,7 @@ _11–15세기 · 204자_
 
 **시대·지역 사례 카드:** [동서 교회의 갈등](../../../research/v518/CASE_ATLAS_52_KO.md#atlas518-0203-01) · [십자군의 도시 약탈](../../../research/v518/CASE_ATLAS_52_KO.md#atlas518-0203-02) · [동서 교회 일치 협상](../../../research/v518/CASE_ATLAS_52_KO.md#atlas518-0203-03)
 
-[같은 장의 전체 역사 해설·출처 보기](../INTEGRATED/V523_EIGHT_VOLUME_SOURCE_LAYERS_MASTER_KO.md#atlas-l448-02-03)
+[같은 장의 전체 역사 해설·출처 보기](../INTEGRATED/V525_EIGHT_VOLUME_TWELVE_MIDDEPTH_MASTER_KO.md#atlas-l448-02-03)
 
 ---
 
@@ -234,7 +234,7 @@ _12–16세기 · 234자_
 
 **시대·지역 사례 카드:** [왈도파의 청빈·설교 운동](../../../research/v518/CASE_ATLAS_52_KO.md#atlas518-0301-01) · [카타리나의 교황에게 보낸 서신](../../../research/v518/CASE_ATLAS_52_KO.md#atlas518-0301-02)
 
-[같은 장의 전체 역사 해설·출처 보기](../INTEGRATED/V523_EIGHT_VOLUME_SOURCE_LAYERS_MASTER_KO.md#atlas-l448-03-01)
+[같은 장의 전체 역사 해설·출처 보기](../INTEGRATED/V525_EIGHT_VOLUME_TWELVE_MIDDEPTH_MASTER_KO.md#atlas-l448-03-01)
 
 ---
 
@@ -260,7 +260,7 @@ _14–15세기 · 233자_
 
 **시대·지역 사례 카드:** [위클리프의 성찬·은총·권위 논쟁](../../../research/v518/CASE_ATLAS_52_KO.md#atlas518-0302-01) · [후스의 신학과 처형](../../../research/v518/CASE_ATLAS_52_KO.md#atlas518-0302-02)
 
-[같은 장의 전체 역사 해설·출처 보기](../INTEGRATED/V523_EIGHT_VOLUME_SOURCE_LAYERS_MASTER_KO.md#atlas-l448-03-02)
+[같은 장의 전체 역사 해설·출처 보기](../INTEGRATED/V525_EIGHT_VOLUME_TWELVE_MIDDEPTH_MASTER_KO.md#atlas-l448-03-02)
 
 ---
 
@@ -297,7 +297,7 @@ _1415–1436년 · 203자_
 **상세 원고:** 아래 2단계의 역사·사료 해설과 참고 자료를 이어서 읽을 수 있습니다.
 
 
-[같은 장의 전체 역사 해설·출처 보기](../INTEGRATED/V523_EIGHT_VOLUME_SOURCE_LAYERS_MASTER_KO.md#atlas-l448-03-03)
+[같은 장의 전체 역사 해설·출처 보기](../INTEGRATED/V525_EIGHT_VOLUME_TWELVE_MIDDEPTH_MASTER_KO.md#atlas-l448-03-03)
 
 ---
 
@@ -342,7 +342,7 @@ _16세기 전반 · 232자_
 
 **시대·지역 사례 카드:** [루터의 면죄부 논쟁과 인쇄](../../../research/v518/CASE_ATLAS_52_KO.md#atlas518-0401-01) · [아르굴라의 공개 항의문](../../../research/v518/CASE_ATLAS_52_KO.md#atlas518-0401-02) · [테스파 시온의 게에즈어 신약 인쇄](../../../research/v518/CASE_ATLAS_52_KO.md#atlas518-0401-03)
 
-[같은 장의 전체 역사 해설·출처 보기](../INTEGRATED/V523_EIGHT_VOLUME_SOURCE_LAYERS_MASTER_KO.md#atlas-l448-04-01)
+[같은 장의 전체 역사 해설·출처 보기](../INTEGRATED/V525_EIGHT_VOLUME_TWELVE_MIDDEPTH_MASTER_KO.md#atlas-l448-04-01)
 
 ---
 
@@ -372,7 +372,7 @@ _1529–1540년 · 237자_
 
 **V5.23 사건·저술·인쇄·영인의 차이:** [아우크스부르크: 제출문·인쇄본·후대 교감판](../../../research/v523/SIX_SOURCE_TIMEPATHS_READER_GUIDE_KO.md#v523-e02)
 
-[같은 장의 전체 역사 해설·출처 보기](../INTEGRATED/V523_EIGHT_VOLUME_SOURCE_LAYERS_MASTER_KO.md#atlas-l448-04-02)
+[같은 장의 전체 역사 해설·출처 보기](../INTEGRATED/V525_EIGHT_VOLUME_TWELVE_MIDDEPTH_MASTER_KO.md#atlas-l448-04-02)
 
 ---
 
@@ -388,7 +388,7 @@ _16세기 · 228자_
 
 **시대·지역 사례 카드:** [도시의 교회 규정과 종교개혁](../../../research/v518/CASE_ATLAS_52_KO.md#atlas518-0403-01) · [왕권·의회의 교회 제도 변화](../../../research/v518/CASE_ATLAS_52_KO.md#atlas518-0403-02) · [재세례파 공동체와 제약](../../../research/v518/CASE_ATLAS_52_KO.md#atlas518-0403-03)
 
-[같은 장의 전체 역사 해설·출처 보기](../INTEGRATED/V523_EIGHT_VOLUME_SOURCE_LAYERS_MASTER_KO.md#atlas-l448-04-03)
+[같은 장의 전체 역사 해설·출처 보기](../INTEGRATED/V525_EIGHT_VOLUME_TWELVE_MIDDEPTH_MASTER_KO.md#atlas-l448-04-03)
 
 ---
 
@@ -410,7 +410,7 @@ _16–17세기 · 204자_
 
 **시대·지역 사례 카드:** [가톨릭 공의회와 교리·규율의 개정](../../../research/v518/CASE_ATLAS_52_KO.md#atlas518-0501-01) · [성직자 교육과 교구 운영 변화](../../../research/v518/CASE_ATLAS_52_KO.md#atlas518-0501-02)
 
-[같은 장의 전체 역사 해설·출처 보기](../INTEGRATED/V523_EIGHT_VOLUME_SOURCE_LAYERS_MASTER_KO.md#atlas-l448-05-01)
+[같은 장의 전체 역사 해설·출처 보기](../INTEGRATED/V525_EIGHT_VOLUME_TWELVE_MIDDEPTH_MASTER_KO.md#atlas-l448-05-01)
 
 ---
 
@@ -426,7 +426,7 @@ _1555–1648년 · 243자_
 
 **시대·지역 사례 카드:** [종교화의의 법적 공존](../../../research/v518/CASE_ATLAS_52_KO.md#atlas518-0502-01) · [30년 전쟁 이후 평화 질서](../../../research/v518/CASE_ATLAS_52_KO.md#atlas518-0502-02)
 
-[같은 장의 전체 역사 해설·출처 보기](../INTEGRATED/V523_EIGHT_VOLUME_SOURCE_LAYERS_MASTER_KO.md#atlas-l448-05-02)
+[같은 장의 전체 역사 해설·출처 보기](../INTEGRATED/V525_EIGHT_VOLUME_TWELVE_MIDDEPTH_MASTER_KO.md#atlas-l448-05-02)
 
 ---
 
@@ -469,7 +469,7 @@ _16–17세기 · 246자_
 
 **V5.23 사건·저술·인쇄·영인의 차이:** [과만 포마: 저술가의 그림·자필 원고·현대 디지털 해설](../../../research/v523/SIX_SOURCE_TIMEPATHS_READER_GUIDE_KO.md#v523-e03) · [소르 후아나: 1691년 답장·1700년 초판·1701년판·2026년 영인](../../../research/v523/SIX_SOURCE_TIMEPATHS_READER_GUIDE_KO.md#v523-e04)
 
-[같은 장의 전체 역사 해설·출처 보기](../INTEGRATED/V523_EIGHT_VOLUME_SOURCE_LAYERS_MASTER_KO.md#atlas-l448-05-03)
+[같은 장의 전체 역사 해설·출처 보기](../INTEGRATED/V525_EIGHT_VOLUME_TWELVE_MIDDEPTH_MASTER_KO.md#atlas-l448-05-03)
 
 ---
 
@@ -491,7 +491,7 @@ _17–19세기 · 219자_
 
 **시대·지역 사례 카드:** [경건주의의 교육·구제 활동](../../../research/v518/CASE_ATLAS_52_KO.md#atlas518-0601-01) · [모라비아 공동체의 형성과 선교](../../../research/v518/CASE_ATLAS_52_KO.md#atlas518-0601-02) · [감리교 부흥과 지역 사회활동](../../../research/v518/CASE_ATLAS_52_KO.md#atlas518-0601-03)
 
-[같은 장의 전체 역사 해설·출처 보기](../INTEGRATED/V523_EIGHT_VOLUME_SOURCE_LAYERS_MASTER_KO.md#atlas-l448-06-01)
+[같은 장의 전체 역사 해설·출처 보기](../INTEGRATED/V525_EIGHT_VOLUME_TWELVE_MIDDEPTH_MASTER_KO.md#atlas-l448-06-01)
 
 ---
 
@@ -519,7 +519,7 @@ _1706–1719년 · 206자_
 
 **V5.23 사건·저술·인쇄·영인의 차이:** [타밀어 신약: 부분본·표제지·상충하는 기관 설명](../../../research/v523/SIX_SOURCE_TIMEPATHS_READER_GUIDE_KO.md#v523-e05)
 
-[같은 장의 전체 역사 해설·출처 보기](../INTEGRATED/V523_EIGHT_VOLUME_SOURCE_LAYERS_MASTER_KO.md#atlas-l448-06-02)
+[같은 장의 전체 역사 해설·출처 보기](../INTEGRATED/V525_EIGHT_VOLUME_TWELVE_MIDDEPTH_MASTER_KO.md#atlas-l448-06-02)
 
 ---
 
@@ -535,7 +535,7 @@ _18–19세기 · 239자_
 
 **시대·지역 사례 카드:** [노예제 사회와 선교·세례](../../../research/v518/CASE_ATLAS_52_KO.md#atlas518-0603-01) · [파페이하·타웅아의 현지 전도](../../../research/v518/CASE_ATLAS_52_KO.md#atlas518-0603-02) · [태평양 여성의 돌봄·교육과 기록](../../../research/v518/CASE_ATLAS_52_KO.md#atlas518-0603-03)
 
-[같은 장의 전체 역사 해설·출처 보기](../INTEGRATED/V523_EIGHT_VOLUME_SOURCE_LAYERS_MASTER_KO.md#atlas-l448-06-03)
+[같은 장의 전체 역사 해설·출처 보기](../INTEGRATED/V525_EIGHT_VOLUME_TWELVE_MIDDEPTH_MASTER_KO.md#atlas-l448-06-03)
 
 ---
 
@@ -557,7 +557,7 @@ _고대 전통–20세기 · 220자_
 
 **시대·지역 사례 카드:** [근대 선교 이전의 오래된 지역 교회](../../../research/v518/CASE_ATLAS_52_KO.md#atlas518-0701-01) · [지역 독립교회와 공동체의 형성](../../../research/v518/CASE_ATLAS_52_KO.md#atlas518-0701-02) · [지역 교회협의체의 여러 교파 관계](../../../research/v518/CASE_ATLAS_52_KO.md#atlas518-0701-03)
 
-[같은 장의 전체 역사 해설·출처 보기](../INTEGRATED/V523_EIGHT_VOLUME_SOURCE_LAYERS_MASTER_KO.md#atlas-l448-07-01)
+[같은 장의 전체 역사 해설·출처 보기](../INTEGRATED/V525_EIGHT_VOLUME_TWELVE_MIDDEPTH_MASTER_KO.md#atlas-l448-07-01)
 
 ---
 
@@ -597,7 +597,7 @@ _1779–20세기 후반 · 214자_
 
 **V5.23 사건·저술·인쇄·영인의 차이:** [한국어 성서: 부분 번역·신약·합본의 서로 다른 시작](../../../research/v523/SIX_SOURCE_TIMEPATHS_READER_GUIDE_KO.md#v523-e06)
 
-[같은 장의 전체 역사 해설·출처 보기](../INTEGRATED/V523_EIGHT_VOLUME_SOURCE_LAYERS_MASTER_KO.md#atlas-l448-07-02)
+[같은 장의 전체 역사 해설·출처 보기](../INTEGRATED/V525_EIGHT_VOLUME_TWELVE_MIDDEPTH_MASTER_KO.md#atlas-l448-07-02)
 
 ---
 
@@ -623,7 +623,7 @@ _1910–20세기 후반 · 236자_
 
 **시대·지역 사례 카드:** [세계선교대회의 대표 구성](../../../research/v518/CASE_ATLAS_52_KO.md#atlas518-0703-01) · [세계교회협의회의 조직](../../../research/v518/CASE_ATLAS_52_KO.md#atlas518-0703-02) · [주교회의의 빈곤·사회 책임 논의](../../../research/v518/CASE_ATLAS_52_KO.md#atlas518-0703-03) · [달리트 신학과 민중신학의 지역 질문](../../../research/v518/CASE_ATLAS_52_KO.md#atlas518-0703-04)
 
-[같은 장의 전체 역사 해설·출처 보기](../INTEGRATED/V523_EIGHT_VOLUME_SOURCE_LAYERS_MASTER_KO.md#atlas-l448-07-03)
+[같은 장의 전체 역사 해설·출처 보기](../INTEGRATED/V525_EIGHT_VOLUME_TWELVE_MIDDEPTH_MASTER_KO.md#atlas-l448-07-03)
 
 ---
 
@@ -668,7 +668,7 @@ _전 시대 비교 · 225자_
 
 **여섯 질문의 주제 경로:** [성경과 권위](../../../research/v518/SIX_THEME_CROSS_VOLUME_ROUTE_KO.md#v518-theme-authority) · [은총과 구원](../../../research/v518/SIX_THEME_CROSS_VOLUME_ROUTE_KO.md#v518-theme-grace)
 
-[같은 장의 전체 역사 해설·출처 보기](../INTEGRATED/V523_EIGHT_VOLUME_SOURCE_LAYERS_MASTER_KO.md#atlas-l448-08-01)
+[같은 장의 전체 역사 해설·출처 보기](../INTEGRATED/V525_EIGHT_VOLUME_TWELVE_MIDDEPTH_MASTER_KO.md#atlas-l448-08-01)
 
 ---
 
@@ -684,7 +684,7 @@ _중세–근현대 비교 · 236자_
 
 **여섯 질문의 주제 경로:** [성찬과 예배](../../../research/v518/SIX_THEME_CROSS_VOLUME_ROUTE_KO.md#v518-theme-worship) · [교회조직과 생활](../../../research/v518/SIX_THEME_CROSS_VOLUME_ROUTE_KO.md#v518-theme-community)
 
-[같은 장의 전체 역사 해설·출처 보기](../INTEGRATED/V523_EIGHT_VOLUME_SOURCE_LAYERS_MASTER_KO.md#atlas-l448-08-02)
+[같은 장의 전체 역사 해설·출처 보기](../INTEGRATED/V525_EIGHT_VOLUME_TWELVE_MIDDEPTH_MASTER_KO.md#atlas-l448-08-02)
 
 ---
 
@@ -700,7 +700,7 @@ _고대–현대 비교 · 212자_
 
 **여섯 질문의 주제 경로:** [국가·갈등·공존](../../../research/v518/SIX_THEME_CROSS_VOLUME_ROUTE_KO.md#v518-theme-state) · [번역과 지역 수용](../../../research/v518/SIX_THEME_CROSS_VOLUME_ROUTE_KO.md#v518-theme-translation)
 
-[같은 장의 전체 역사 해설·출처 보기](../INTEGRATED/V523_EIGHT_VOLUME_SOURCE_LAYERS_MASTER_KO.md#atlas-l448-08-03)
+[같은 장의 전체 역사 해설·출처 보기](../INTEGRATED/V525_EIGHT_VOLUME_TWELVE_MIDDEPTH_MASTER_KO.md#atlas-l448-08-03)
 
 ---
 
