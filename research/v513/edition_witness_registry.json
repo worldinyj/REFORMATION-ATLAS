@@ -1,0 +1,137 @@
+{
+  "schema": "ATLAS_V513_CR_FOUR_GROUPS_AND_HOLDING_LOCATORS",
+  "version": "V5.13",
+  "date": "2026-11-23",
+  "branch": "research/atlas-v513-four-witness-edition-genealogy",
+  "groups": [
+    {
+      "key": "Ed. 1",
+      "year": "1531",
+      "format": "4°",
+      "label": "Editio princeps",
+      "body_verified_only_via_editorial_collation": true
+    },
+    {
+      "key": "Ed. 2",
+      "year": "1531",
+      "format": "8°",
+      "label": "Prima variata; 1858 editor's term",
+      "body_verified_only_via_editorial_collation": true
+    },
+    {
+      "key": "Ed. 3",
+      "year": "1535–1540",
+      "format": "4°",
+      "label": "Secunda variata; 1858 editor's term",
+      "body_verified_only_via_editorial_collation": true
+    },
+    {
+      "key": "Ed. 4",
+      "year": "1541–1542",
+      "format": "8°",
+      "label": "Tertia variata; 1858 editor's term",
+      "body_verified_only_via_editorial_collation": true
+    }
+  ],
+  "holdings": [
+    {
+      "id": "BSB1531LAT",
+      "year": 1531,
+      "language": "Latin",
+      "vd16": "C4734",
+      "institution": "Staatsbibliothek Bamberg",
+      "digitizer": "Bayerische Staatsbibliothek",
+      "object": "bsb11411960",
+      "scans": 288,
+      "url": "https://www.digitale-sammlungen.de/en/details/bsb11411960",
+      "source_state": "METADATA_ONLY",
+      "original_article_10_page_seen": false
+    },
+    {
+      "id": "BSB1531GER",
+      "year": 1531,
+      "language": "German",
+      "vd16": "C4736",
+      "object": "bsb10160424",
+      "scans": 506,
+      "url": "https://www.digitale-sammlungen.de/en/view/bsb10160424",
+      "source_state": "METADATA_ONLY_IIIF_ADVERTISED",
+      "original_article_10_page_seen": false
+    },
+    {
+      "id": "FOLGER1531LAT",
+      "year": 1531,
+      "language": "Latin",
+      "institution": "Folger Shakespeare Library",
+      "shelfmark": "BX8069 .A2 1531a Cage",
+      "url": "https://catalog.folger.edu/record/368895",
+      "source_state": "CATALOG_ONLY",
+      "original_article_10_page_seen": false
+    },
+    {
+      "id": "EMORY1540LAT",
+      "year": 1540,
+      "language": "Latin",
+      "vd16": "C4713",
+      "institution": "Pitts Theology Library Emory",
+      "url": "https://dia.pitts.emory.edu/exhibits/exhibitcatalogs/Kessler2017ExhibitionCatalogue.pdf",
+      "source_state": "TITLE_PAGE_IMAGE_AND_CATALOG_PAGE34",
+      "original_article_10_page_seen": false
+    },
+    {
+      "id": "GOOGLE1540LAT",
+      "year": 1540,
+      "language": "Latin",
+      "institution": "Staats- und Stadtbibliothek Augsburg",
+      "record": "HmpoAAAAcAAJ",
+      "pages": 274,
+      "url": "https://books.google.com/books/about/Confessio_fidei_exhibita_invictiss_imp_C.html?id=HmpoAAAAcAAJ",
+      "source_state": "FULL_VIEW_CATALOG_ONLY",
+      "original_article_10_page_seen": false
+    },
+    {
+      "id": "HALLE1540LAT",
+      "year": 1540,
+      "language": "Latin",
+      "institution": "ULB Halle bibliographic path",
+      "record": "65504602X",
+      "url": "https://doi.org/10.25673/opendata2-970",
+      "source_state": "INDEX_FOUND_DOI_UNREACHABLE",
+      "original_article_10_page_seen": false
+    },
+    {
+      "id": "CR1858",
+      "year": 1858,
+      "language": "Latin",
+      "institution": "Corpus Reformatorum edited witness",
+      "url": "https://www.augsburg1540.com/uploads/1/3/8/9/138903771/1540_latin_text_from_corpus_reformandum.pdf",
+      "source_state": "FACSIMILE_PAGES_349_350_357_358_VIEWED",
+      "edited_reading": "exhibeatur",
+      "original_article_10_page_seen": false,
+      "edited_article_10_page_seen": true
+    }
+  ],
+  "source_examination": {
+    "critical_editor_preface_1858_pages_349_350_viewed": true,
+    "critical_edition_1858_article_X_page_357_viewed": true,
+    "early_1531_1540_original_article_X_pages_viewed": false,
+    "bsb_latin_manifest_retrieved": false,
+    "bsb_german_manifest_retrieved": false,
+    "google_books_1540_article_X_page_rendered": false
+  },
+  "alternate_access": [
+    {
+      "object": "1531 German",
+      "url": "https://api.digitale-sammlungen.de/iiif/presentation/v3/bsb10160424/manifest",
+      "status": "PUBLIC_API_URL_ADVERTISED_BUT_FETCH_FAILED"
+    },
+    {
+      "object": "1531 Latin",
+      "url": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11411960/manifest",
+      "status": "DOCUMENTED_ENDPOINT_PATTERN_BUT_FETCH_FAILED"
+    }
+  ],
+  "can_ship": false,
+  "can_merge_main": false,
+  "can_import_ai_studio": false
+}
