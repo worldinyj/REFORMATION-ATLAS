@@ -140,7 +140,7 @@ _역사 장 ID `L448-01-03` · 시기 4–5세기 · 편집 연구 단계_
 제2권에서는 이러한 여러 전통이 서유럽의 연대기 밖에서 어떻게 이어졌는지 살펴봅니다.
 <!-- V509_CHAPTER_END L448-01-03 -->
 
-**장별 참고 자료 (2건):** 링크는 출처 위치를 확인하기 위한 것이며 모든 원문 페이지를 직접 교감한 것으로 볼 수 없습니다.
+**장별 참고 자료 (5건):** 링크는 출처 위치를 확인하기 위한 것이며 모든 원문 페이지를 직접 교감한 것으로 볼 수 없습니다.
 
 - https://www.oca.org/orthodoxy/the-orthodox-faith/church-history/fifth-century/the-fourth-ecumenical-council
 - https://www.newadvent.org/cathen/03555a.htm
@@ -334,7 +334,7 @@ _역사 장 ID `L448-03-01` · 시기 12–16세기 · 편집 연구 단계_
 다음 장에서는 다른 시대와 지역에서 교회의 권위를 비판한 위클리프와 후스를 각자의 주장으로 읽습니다.
 <!-- V509_CHAPTER_END L448-03-01 -->
 
-**장별 참고 자료 (2건):** 링크는 출처 위치를 확인하기 위한 것이며 모든 원문 페이지를 직접 교감한 것으로 볼 수 없습니다.
+**장별 참고 자료 (5건):** 링크는 출처 위치를 확인하기 위한 것이며 모든 원문 페이지를 직접 교감한 것으로 볼 수 없습니다.
 
 - https://www.waldensian.org/history/encounters-with-the-reformation-in-the-1530s/
 - https://www.mdpi.com/2077-1444/14/1/4
@@ -475,7 +475,7 @@ _역사 장 ID `L448-04-01` · 시기 16세기 전반 · 편집 연구 단계_
 다음 장에서는 1529년의 신학 대화와 1530~1540년의 신앙고백 판본을 다른 종류의 역사 사건으로 읽습니다.
 <!-- V509_CHAPTER_END L448-04-01 -->
 
-**장별 참고 자료 (3건):** 링크는 출처 위치를 확인하기 위한 것이며 모든 원문 페이지를 직접 교감한 것으로 볼 수 없습니다.
+**장별 참고 자료 (6건):** 링크는 출처 위치를 확인하기 위한 것이며 모든 원문 페이지를 직접 교감한 것으로 볼 수 없습니다.
 
 - https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/the-marburg-colloquy-the-marburg-articles-1529
 - https://www.saet.ac.uk/Christianity/CouncilofTrent
