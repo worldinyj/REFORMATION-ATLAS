@@ -1,0 +1,191 @@
+{
+  "schema": "ATLAS_V518_CASE_INDEX_ROUTE_SOURCE_PRESERVATION_AUDIT",
+  "date": "2026-11-23",
+  "version": "V5.18",
+  "branch": "research/atlas-v518-evidence-case-atlas-and-crossvolume-coherence",
+  "base_ref": "research/atlas-v517-six-themes-five-medium-reader-bridges",
+  "metrics": {
+    "volumes": 8,
+    "chapters": 24,
+    "historical_chapters": 21,
+    "topic_hubs": 3,
+    "case_index_cards": 52,
+    "six_reader_routes": 6,
+    "case_route_edges": 39,
+    "unchanged_history_bodies": 24,
+    "unchanged_history_body_characters": 56709,
+    "source_url_occurrences": 138,
+    "unique_source_urls": 118,
+    "volumes_with_case_index": 7,
+    "volume8_thematic_hubs": 3,
+    "case_card_genre_warnings": 52,
+    "independent_primary_originals_newly_collated": 0,
+    "human_expert_signoffs": 0,
+    "human_reader_tests": 0,
+    "ai_studio_live_e2e": 0
+  },
+  "volume_statistics": [
+    {
+      "volume_id": "VOL-01",
+      "chapter_count": 3,
+      "body_chars": 5577,
+      "source_url_occurrences": 12,
+      "unique_urls": 12,
+      "case_cards": 6,
+      "chapter_ids": [
+        "L448-01-01",
+        "L448-01-02",
+        "L448-01-03"
+      ],
+      "hub_role": "HISTORICAL_VOLUME"
+    },
+    {
+      "volume_id": "VOL-02",
+      "chapter_count": 3,
+      "body_chars": 5255,
+      "source_url_occurrences": 12,
+      "unique_urls": 12,
+      "case_cards": 7,
+      "chapter_ids": [
+        "L448-02-01",
+        "L448-02-02",
+        "L448-02-03"
+      ],
+      "hub_role": "HISTORICAL_VOLUME"
+    },
+    {
+      "volume_id": "VOL-03",
+      "chapter_count": 3,
+      "body_chars": 5664,
+      "source_url_occurrences": 11,
+      "unique_urls": 11,
+      "case_cards": 6,
+      "chapter_ids": [
+        "L448-03-01",
+        "L448-03-02",
+        "L448-03-03"
+      ],
+      "hub_role": "HISTORICAL_VOLUME"
+    },
+    {
+      "volume_id": "VOL-04",
+      "chapter_count": 3,
+      "body_chars": 9603,
+      "source_url_occurrences": 32,
+      "unique_urls": 31,
+      "case_cards": 9,
+      "chapter_ids": [
+        "L448-04-01",
+        "L448-04-02",
+        "L448-04-03"
+      ],
+      "hub_role": "HISTORICAL_VOLUME"
+    },
+    {
+      "volume_id": "VOL-05",
+      "chapter_count": 3,
+      "body_chars": 8630,
+      "source_url_occurrences": 19,
+      "unique_urls": 18,
+      "case_cards": 7,
+      "chapter_ids": [
+        "L448-05-01",
+        "L448-05-02",
+        "L448-05-03"
+      ],
+      "hub_role": "HISTORICAL_VOLUME"
+    },
+    {
+      "volume_id": "VOL-06",
+      "chapter_count": 3,
+      "body_chars": 8837,
+      "source_url_occurrences": 20,
+      "unique_urls": 18,
+      "case_cards": 8,
+      "chapter_ids": [
+        "L448-06-01",
+        "L448-06-02",
+        "L448-06-03"
+      ],
+      "hub_role": "HISTORICAL_VOLUME"
+    },
+    {
+      "volume_id": "VOL-07",
+      "chapter_count": 3,
+      "body_chars": 6980,
+      "source_url_occurrences": 22,
+      "unique_urls": 20,
+      "case_cards": 9,
+      "chapter_ids": [
+        "L448-07-01",
+        "L448-07-02",
+        "L448-07-03"
+      ],
+      "hub_role": "HISTORICAL_VOLUME"
+    },
+    {
+      "volume_id": "VOL-08",
+      "chapter_count": 3,
+      "body_chars": 6163,
+      "source_url_occurrences": 10,
+      "unique_urls": 9,
+      "case_cards": 0,
+      "chapter_ids": [
+        "L448-08-01",
+        "L448-08-02",
+        "L448-08-03"
+      ],
+      "hub_role": "THEMATIC_NOT_EIGHTH_CHRONOLOGICAL_ERA"
+    }
+  ],
+  "checks": {
+    "volumes_8": true,
+    "chapters_24": true,
+    "chapter_ids_and_order_exact": true,
+    "all_24_historical_bodies_exact": true,
+    "all_8_volume_intro_outro_exact": true,
+    "all_24_reference_arrays_exact": true,
+    "all_24_original_reader_layers_exact": true,
+    "all_24_original_evidence_notes_exact": true,
+    "all_5_medium_readers_preserved": true,
+    "all_3_volume8_synthesis_preserved": true,
+    "case_cards_52": true,
+    "unique_case_ids": true,
+    "case_card_sources_explicitly_not_individually_verified": true,
+    "case_card_historical_chapter_coverage_21": true,
+    "all_cases_refer_to_real_historical_chapter": true,
+    "all_historical_chapters_have_two_to_four_cases": true,
+    "volume8_hub_has_no_assigned_new_events": true,
+    "volume8_three_hubs_each_two_topic_routes": true,
+    "routes_six": true,
+    "route_case_links_39": true,
+    "all_39_route_case_ids_resolve": true,
+    "all_6_route_hubs_exist": true,
+    "all_6_route_anchors_present": true,
+    "all_52_case_anchors_present": true,
+    "all_52_case_cards_titles_present": true,
+    "all_52_case_cards_limitations_present": true,
+    "all_21_historical_chapter_links_integrated": true,
+    "all_3_theme_hub_links_integrated": true,
+    "master_24_bodies_exact": true,
+    "master_24_reference_blocks_exact": true,
+    "reader_24_chapter_anchors": true,
+    "research_boundaries_historical_24_preserved": true,
+    "volume7_ancient_continuity_marked_retrospective": true,
+    "volume8_not_mislabelled_eighth_era": true,
+    "source_total_occurrences_138": true,
+    "unique_source_urls_118": true,
+    "source_metadata_report_counts_match": true,
+    "no_human_review_or_app_implementation": true,
+    "all_volume_report_headings": true
+  },
+  "review_limits": [
+    "Case-to-chapter references valid structurally but individual URL-to-claim attribution not independently audited.",
+    "Same year can include different editions and the old events may be recalled in later sources; case labels alone do not establish original printing or date.",
+    "GitHub Markdown and anchor text presence checked, no visual click-through or AI Studio deployed UI E2E.",
+    "Volume 7 begins with retrospective ancient church traditions and volume 8 is comparative, not a contiguous additional chronological era."
+  ],
+  "can_ship": false,
+  "can_merge_main": false,
+  "can_import_ai_studio": false
+}
