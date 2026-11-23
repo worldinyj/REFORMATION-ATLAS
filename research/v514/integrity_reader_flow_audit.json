@@ -1,0 +1,168 @@
+{
+  "schema": "ATLAS_V514_CHRONOLOGICAL_INTEGRATION_AND_READER_FLOW_AUDIT",
+  "version": "V5.14",
+  "date": "2026-11-23",
+  "branch": "research/atlas-v514-chronological-case-rehoming-reader-architecture",
+  "base_ref": "research/atlas-v513-four-witness-edition-genealogy",
+  "summary": {
+    "historical_volumes": 7,
+    "topic_hub_volumes": 1,
+    "chapters": 24,
+    "case_sections_relocated": 2,
+    "volume_intros_rewritten": 8,
+    "volume_outros_rewritten": 8,
+    "chapters_with_changed_body": 3,
+    "chapters_exact_preserved": 21,
+    "first_party_source_url_deletions": 0,
+    "new_external_source_urls": 0,
+    "existing_source_url_links_reassociated": 5
+  },
+  "character_metrics": {
+    "chapter_bodies_before": 52812,
+    "chapter_bodies_after": 53081,
+    "chapter_body_net": 269,
+    "volume_intros_outros_before": 999,
+    "volume_intros_outros_after": 4242,
+    "volume_editorial_net": 3243,
+    "reader_roadmap_chars": 1262,
+    "integrated_master_total_chars": 80216
+  },
+  "volume_stats": [
+    {
+      "id": "VOL-01",
+      "chapters": [
+        "L448-01-01",
+        "L448-01-02",
+        "L448-01-03"
+      ],
+      "before_body_chars": 5577,
+      "after_body_chars": 5577,
+      "delta": 0,
+      "old_prefaces_chars": 122,
+      "new_prefaces_chars": 533,
+      "representative_question": "도시에서 발견된 편지와 건물, 악숨의 주화와 예루살렘의 여행 기록은 모두 교회가 존재했다는 사실을 말하지만 같은 질문에 대답하지는 않는다. 제1권은 지중해와 홍해를 건너 이동한 사람과 문헌에서 출발"
+    },
+    {
+      "id": "VOL-02",
+      "chapters": [
+        "L448-02-01",
+        "L448-02-02",
+        "L448-02-03"
+      ],
+      "before_body_chars": 5255,
+      "after_body_chars": 5255,
+      "delta": 0,
+      "old_prefaces_chars": 120,
+      "new_prefaces_chars": 515,
+      "representative_question": "제2권의 지도에는 콘스탄티노폴리스뿐 아니라 메소포타미아, 중앙아시아, 당나라의 도시도 있다. 서유럽 중세의 교황·수도원 이야기만으로는 이곳 그리스도인들이 남긴 문서와 언어의 이동을 설명할 수 없다."
+    },
+    {
+      "id": "VOL-03",
+      "chapters": [
+        "L448-03-01",
+        "L448-03-02",
+        "L448-03-03"
+      ],
+      "before_body_chars": 5664,
+      "after_body_chars": 5664,
+      "delta": 0,
+      "old_prefaces_chars": 127,
+      "new_prefaces_chars": 475,
+      "representative_question": "1517년보다 앞선 시대에도 사람들은 가난한 이들의 설교, 성직자의 삶, 성경 해석, 교회가 갖는 권한을 둘러싸고 논쟁했다. 그러나 이들이 후대 개신교의 교리를 미리 모두 주장했던 것은 아니다. 제"
+    },
+    {
+      "id": "VOL-04",
+      "chapters": [
+        "L448-04-01",
+        "L448-04-02",
+        "L448-04-03"
+      ],
+      "before_body_chars": 9603,
+      "after_body_chars": 9603,
+      "delta": 0,
+      "old_prefaces_chars": 123,
+      "new_prefaces_chars": 570,
+      "representative_question": "제4권은 1517년의 설교와 면죄부 논쟁이 언제, 누구의 결정으로 예배·교육·도시 행정의 제도가 되었는지를 묻는다. 루터 한 사람의 사상을 따라가는 대신, 1523년 아르굴라의 공개 항의와 대학의 "
+    },
+    {
+      "id": "VOL-05",
+      "chapters": [
+        "L448-05-01",
+        "L448-05-02",
+        "L448-05-03"
+      ],
+      "before_body_chars": 8627,
+      "after_body_chars": 8630,
+      "delta": 3,
+      "old_prefaces_chars": 117,
+      "new_prefaces_chars": 567,
+      "representative_question": "제5권은 개신교와 가톨릭이 서로 다른 신앙고백·제도·교육과 규율을 갖추어 간 16~17세기를 보여 준다. 트리엔트 공의회의 결정과 지역 교구의 변화, 1555·1648년 제국 법률의 적용 범위, 일"
+    },
+    {
+      "id": "VOL-06",
+      "chapters": [
+        "L448-06-01",
+        "L448-06-02",
+        "L448-06-03"
+      ],
+      "before_body_chars": 7417,
+      "after_body_chars": 8837,
+      "delta": 1420,
+      "old_prefaces_chars": 127,
+      "new_prefaces_chars": 535,
+      "representative_question": "17~19세기의 기독교사를 독일 경건주의나 영국 부흥 하나로 설명할 수 없다. 할레의 교육과 구제, 남인도 트랑케바르의 타밀어 성경 번역과 인쇄, 카리브해의 선교·노예제 사회, 태평양 제도의 현지 "
+    },
+    {
+      "id": "VOL-07",
+      "chapters": [
+        "L448-07-01",
+        "L448-07-02",
+        "L448-07-03"
+      ],
+      "before_body_chars": 8134,
+      "after_body_chars": 6980,
+      "delta": -1154,
+      "old_prefaces_chars": 120,
+      "new_prefaces_chars": 530,
+      "representative_question": "제7권은 오늘의 세계 기독교를 유럽에서 각 대륙으로 이동한 화살표로 설명하지 않는다. 이집트·에티오피아와 서아시아에는 근대 선교 이전부터 이어진 교회가 있고, 조선과 한국의 신앙 형성에는 독서·세례"
+    },
+    {
+      "id": "VOL-08",
+      "chapters": [
+        "L448-08-01",
+        "L448-08-02",
+        "L448-08-03"
+      ],
+      "before_body_chars": 2535,
+      "after_body_chars": 2535,
+      "delta": 0,
+      "old_prefaces_chars": 143,
+      "new_prefaces_chars": 517,
+      "representative_question": "마지막 권은 여덟 번째 시대가 아니다. 앞선 일곱 권의 사건을 독자가 다시 찾아갈 수 있도록 여섯 질문으로 정리한 **비교와 탐색의 길잡이**다. 성경과 권위, 은총과 구원, 성찬과 예배, 교회와 "
+    }
+  ],
+  "tests": {
+    "chapter_order_24_retained": true,
+    "unchanged_21_bodies_exact": true,
+    "all_24_json_markdown_chapters_equal": true,
+    "all_24_source_count_url_blocks_equal": true,
+    "all_existing_chapter_urls_retained": true,
+    "transferred_source_urls_attached_to_new_home": true,
+    "both_case_sections_unique_at_chronological_home": true,
+    "all_8_volume_intros_outros_represented": true,
+    "reader_roadmap_embedded": true,
+    "main_and_live_app_unmodified_by_this_branch": true,
+    "human_expert_signoffs_zero": true,
+    "reader_comprehension_tests_zero": true,
+    "app_e2e_tests_zero": true
+  },
+  "limitations": [
+    "The location of a historical case changed, but no new primary leaf or original edition was independently collated.",
+    "Previous case-history source descriptions and bibliographic uncertainties remain unresolved.",
+    "Retained source links in former home chapters for traceability; the new home chapters now also include them.",
+    "Editorial reader routes are draft guidance, not tested navigation paths in operating AI Studio."
+  ],
+  "can_ship": false,
+  "can_merge_main": false,
+  "can_import_ai_studio": false
+}
