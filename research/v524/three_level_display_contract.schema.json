@@ -1,0 +1,386 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/worldinyj/REFORMATION-ATLAS/blob/research/atlas-v524-three-level-24-chapter-readiness-contract/research/v524/three_level_display_contract.schema.json",
+  "title": "ATLAS V5.24 research-only three-level content display contract",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema",
+    "version",
+    "date",
+    "status",
+    "source_snapshot",
+    "display_rules",
+    "metrics",
+    "approval",
+    "chapters"
+  ],
+  "properties": {
+    "schema": {
+      "const": "ATLAS_V524_THREE_LEVEL_READING_DISPLAY_CONTRACT"
+    },
+    "version": {
+      "const": "V5.24"
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "status": {
+      "const": "RESEARCH_METADATA_DRAFT_UNAPPROVED"
+    },
+    "source_snapshot": {
+      "type": "object",
+      "required": [
+        "repository",
+        "base_branch",
+        "base_commit",
+        "candidate_path",
+        "reader_path",
+        "research_master_path",
+        "boundaries_path"
+      ],
+      "properties": {
+        "repository": {
+          "type": "string"
+        },
+        "base_branch": {
+          "type": "string"
+        },
+        "base_commit": {
+          "type": "string"
+        },
+        "candidate_path": {
+          "type": "string"
+        },
+        "reader_path": {
+          "type": "string"
+        },
+        "research_master_path": {
+          "type": "string"
+        },
+        "boundaries_path": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "display_rules": {
+      "type": "object",
+      "required": [
+        "levels_order",
+        "missing_medium",
+        "do_not_infer_evidence_grade_from_url_count",
+        "display_uncertainty_label_for_each_chapter",
+        "distinguish_original_print_from_modern_facsimile",
+        "do_not_claim_per_claim_primary_verification",
+        "no_image_republication_without_rights",
+        "research_only_not_deployed",
+        "warning_for_unreviewed_data"
+      ],
+      "properties": {
+        "levels_order": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "missing_medium": {
+          "type": "string"
+        },
+        "do_not_infer_evidence_grade_from_url_count": {
+          "type": "boolean"
+        },
+        "display_uncertainty_label_for_each_chapter": {
+          "type": "boolean"
+        },
+        "distinguish_original_print_from_modern_facsimile": {
+          "type": "boolean"
+        },
+        "do_not_claim_per_claim_primary_verification": {
+          "type": "boolean"
+        },
+        "no_image_republication_without_rights": {
+          "type": "boolean"
+        },
+        "research_only_not_deployed": {
+          "type": "boolean"
+        },
+        "warning_for_unreviewed_data": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "metrics": {
+      "type": "object",
+      "required": [
+        "volumes",
+        "chapters",
+        "short_available",
+        "medium_available",
+        "medium_missing",
+        "research_available",
+        "history_body_chars",
+        "reference_url_occurrences",
+        "case_cards",
+        "timepaths"
+      ],
+      "properties": {
+        "volumes": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "chapters": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "short_available": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "medium_available": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "medium_missing": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "research_available": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "history_body_chars": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "reference_url_occurrences": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "case_cards": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "timepaths": {
+          "type": "integer",
+          "minimum": 0
+        }
+      },
+      "additionalProperties": false
+    },
+    "approval": {
+      "type": "object",
+      "required": [
+        "historian_signed_off",
+        "human_reader_trials",
+        "ai_studio_e2e_tests",
+        "rights_review_completed",
+        "can_ship",
+        "can_merge_main",
+        "can_import_ai_studio"
+      ],
+      "properties": {
+        "historian_signed_off": {
+          "type": "boolean"
+        },
+        "human_reader_trials": {
+          "type": "number"
+        },
+        "ai_studio_e2e_tests": {
+          "type": "number"
+        },
+        "rights_review_completed": {
+          "type": "boolean"
+        },
+        "can_ship": {
+          "type": "boolean"
+        },
+        "can_merge_main": {
+          "type": "boolean"
+        },
+        "can_import_ai_studio": {
+          "type": "boolean"
+        }
+      },
+      "additionalProperties": false
+    },
+    "chapters": {
+      "type": "array",
+      "minItems": 24,
+      "maxItems": 24,
+      "items": {
+        "$ref": "#/$defs/chapter"
+      }
+    }
+  },
+  "$defs": {
+    "readingLevel": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "available",
+        "state",
+        "source_field",
+        "characters"
+      ],
+      "properties": {
+        "available": {
+          "type": "boolean"
+        },
+        "state": {
+          "enum": [
+            "EDITORIAL_DRAFT_UNTESTED",
+            "NOT_YET_WRITTEN",
+            "RESEARCH_DRAFT_NOT_EXPERT_APPROVED"
+          ]
+        },
+        "source_field": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "characters": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "source_url_count",
+        "source_links_preserved",
+        "claim_to_source_audit",
+        "evidence_boundary",
+        "case_ids",
+        "timepath_ids",
+        "special_caution",
+        "primary_research_records"
+      ],
+      "properties": {
+        "source_url_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "source_links_preserved": {
+          "type": "boolean"
+        },
+        "claim_to_source_audit": {
+          "const": "NOT_COMPLETED_FOR_ALL_CLAIMS"
+        },
+        "evidence_boundary": {
+          "type": "string"
+        },
+        "case_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "timepath_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "special_caution": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "primary_research_records": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "chapter": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "chapter_id",
+        "volume_id",
+        "title",
+        "period",
+        "reading_levels",
+        "evidence",
+        "review_queue",
+        "approved"
+      ],
+      "properties": {
+        "chapter_id": {
+          "type": "string",
+          "pattern": "^L448-[0-9]{2}-[0-9]{2}$"
+        },
+        "volume_id": {
+          "type": "string",
+          "pattern": "^VOL-0[1-8]$"
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "period": {
+          "type": "string"
+        },
+        "reading_levels": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "short",
+            "medium",
+            "research"
+          ],
+          "properties": {
+            "short": {
+              "$ref": "#/$defs/readingLevel"
+            },
+            "medium": {
+              "$ref": "#/$defs/readingLevel"
+            },
+            "research": {
+              "$ref": "#/$defs/readingLevel"
+            }
+          }
+        },
+        "evidence": {
+          "$ref": "#/$defs/evidence"
+        },
+        "review_queue": {
+          "enum": [
+            "HISTORICAL_VERIFICATION_FIRST",
+            "STRUCTURAL_AND_READER_REVIEW",
+            "MID_LAYER_DRAFT_NEEDED"
+          ]
+        },
+        "approved": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "historian",
+            "human_reader",
+            "ai_studio_e2e"
+          ],
+          "properties": {
+            "historian": {
+              "const": false
+            },
+            "human_reader": {
+              "const": false
+            },
+            "ai_studio_e2e": {
+              "const": false
+            }
+          }
+        }
+      }
+    }
+  }
+}
