@@ -1,0 +1,96 @@
+{
+  "schema": "ATLAS_V521_SORJUANA_AND_AUGSBURG_EDITION_WITNESS_GENEALOGY",
+  "version": "V5.21",
+  "date": "2026-11-23",
+  "branch": "research/atlas-v521-sorjuana-1700-1701-editions-and-1540-variant-caution",
+  "sor_juana": {
+    "composed": "1691-03-01",
+    "first_print": "Madrid 1700",
+    "reprints": [
+      "Barcelona 1701",
+      "Lisboa 1701"
+    ],
+    "first_print_section": "Sor Filotea letter pp 1–7; Respuesta pp 8–60",
+    "editor": "Juan Ignacio de Castorena y Ursúa",
+    "imprint_1700_digitized": "famayobrasposthu00juan",
+    "imprint_1701_digitized": "famayobrasposthu1701juan",
+    "actual_1700_1701_textual_variants_corroborated": 0,
+    "reason": "PDF files are openly catalogued but their specific pages could not be accessed for direct side-by-side collation (web PDF over size limit and Internet Archive redirect).",
+    "third_party_transcription": "https://forage.com/sor-juana/reply-to-sor-filotea/ : based on 1700 original scans, supplements unreadable spots from 1701; AI-assisted English not subject-expert validated.",
+    "edition_facsimile_2026": "https://inba.gob.mx/prensa/23700/presentaran-la-edicion-facsimilar-de-texto-emblematico-de-sor-juana-ines-de-la-cruz : 2026 facsimile of Barcelona 1701, not original 1691 autograph"
+  },
+  "augsburg": {
+    "original_1531_leaf_examined": false,
+    "original_1540_leaf_examined": false,
+    "years_are_not_textual_identifiers": true,
+    "gruber28_1540_variata": true,
+    "gruber_other_1540_confession_non_variata": true,
+    "cr_1858_exhibeatur_not_mistaken_as_1540_original": true
+  },
+  "witnesses": [
+    {
+      "id": "SJ-1700-MADRID",
+      "author": "Sor Juana",
+      "imprint": "Madrid, Manuel Ruiz de Murga, 1700, Fama vol. 3",
+      "holding": "John Carter Brown Library, digitized Internet Archive",
+      "id_code": "famayobrasposthu00juan",
+      "url": "https://archive.org/details/famayobrasposthu00juan",
+      "section": "Sor Filotea letter pp. 1–7, Respuesta pp. 8–60",
+      "access": "ORIGINAL_SCAN_CATALOGUED_NOT_INDEPENDENTLY_LEAF_COLLATED"
+    },
+    {
+      "id": "SJ-1700-LOC",
+      "author": "Sor Juana",
+      "imprint": "Madrid, Manuel Ruiz de Murga, 1700, Fama vol. 3",
+      "holding": "Library of Congress",
+      "id_code": "2023552290",
+      "url": "https://www.loc.gov/item/2023552290/",
+      "section": "Respuesta pp. 8–60; edition and format registered",
+      "access": "INSTITUTIONAL_CATALOGUE_READ_IMAGE_PAGE_403"
+    },
+    {
+      "id": "SJ-1701-BARCELONA",
+      "author": "Sor Juana",
+      "imprint": "Barcelona, Rafael Figueró, 1701, Fama vol. 3",
+      "holding": "Brigham Young University Harold B. Lee Library",
+      "id_code": "famayobrasposthu1701juan",
+      "url": "https://archive.org/details/famayobrasposthu1701juan",
+      "section": "reprinted work; printed-page pairing with 1700 remains uncollated",
+      "access": "ORIGINAL_SCAN_CATALOGUED_NOT_INDEPENDENTLY_LEAF_COLLATED"
+    },
+    {
+      "id": "SJ-1701-LISBOA",
+      "author": "Sor Juana",
+      "imprint": "Lisboa 1701, distinct Fama printing",
+      "holding": "Biblioteca Nacional de España",
+      "id_code": "R-19235 as identified in scholarly bibliography",
+      "url": "https://www.cervantesvirtual.com/obra-visor/bibliografia-y-otras-cuestiunculas-sorjuaninas--0/html/5381a1f0-e18d-402b-9bcf-0049b36e3010_16.html",
+      "section": "distinct 1701 printing, specific Respuesta leaves not read",
+      "access": "SCHOLARLY_BIBLIOGRAPHY_ONLY"
+    },
+    {
+      "id": "AC-1531-LATIN",
+      "author": "Philipp Melanchthon",
+      "imprint": "Wittenberg, Georg Rhau 1531, authorized Latin Augsburg Confession and Apology",
+      "holding": "Staatsbibliothek Bamberg; digitized BSB MDZ",
+      "id_code": "VD16 C4734 bsb11411960",
+      "url": "https://www.digitale-sammlungen.de/en/details/bsb11411960",
+      "section": "Article X direct print leaf remains unread",
+      "access": "CATALOGUE_ONLY_FOR_ORIGINAL_ARTICLE_X"
+    },
+    {
+      "id": "AC-1540-MIXED",
+      "author": "Philipp Melanchthon",
+      "imprint": "1540 Variata and separate 1540 printing containing unaltered Augsburg Confession",
+      "holding": "Gruber Rare Books Collection",
+      "id_code": "Gruber 28 Variata; separate 1540 non-Variata noted",
+      "url": "https://gruber.lstc.edu/confessions/augs_apol.php",
+      "section": "year alone is not an Article X textual classifier",
+      "access": "COLLECTION_DESCRIPTIONS_NO_ORIGINAL_LEAF_COLLATION"
+    }
+  ],
+  "scope": "Edition/holdings and historical print context; no direct line-level primary text collation this version",
+  "can_ship": false,
+  "can_merge_main": false,
+  "can_import_ai_studio": false
+}
