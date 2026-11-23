@@ -1,0 +1,58 @@
+{
+  "schema": "ATLAS_V514_CASE_REHOME_MANIFEST",
+  "version": "V5.14",
+  "date": "2026-11-23",
+  "branch": "research/atlas-v514-chronological-case-rehoming-reader-architecture",
+  "base_ref": "research/atlas-v513-four-witness-edition-genealogy",
+  "cases": [
+    {
+      "case_id": "V501-LA-01",
+      "name": "Guamán Poma de Ayala",
+      "year": "ca. 1615",
+      "region": "Andes, Peru",
+      "old_home": "L448-07-03",
+      "new_home": "L448-05-03",
+      "original_volume": "VOL-07",
+      "new_volume": "VOL-05",
+      "rationale": "A 17th-century contemporary text belongs beside colonial Spanish America in volume 5 rather than embedded inside 20th-century World Church history.",
+      "urls": [
+        "https://smarthistory.org/bad-confession-poma-chronicle/",
+        "https://permalink.kb.dk/permalink/2006/manus/253/eng/590/",
+        "https://permalink.kb.dk/permalink/2006/manus/253/eng/629/"
+      ],
+      "direct_original_folio_compared": false,
+      "case_relocated_only": true,
+      "prior_chapter_cross_reference_retained": true
+    },
+    {
+      "case_id": "V501-PA-02",
+      "name": "Tahiti queen and Pacific women; Mary Ann Lyth",
+      "year": "1820 and 19th century",
+      "region": "Tahiti, Tonga, Fiji",
+      "old_home": "L448-05-03",
+      "new_home": "L448-06-03",
+      "original_volume": "VOL-05",
+      "new_volume": "VOL-06",
+      "rationale": "An 1820 and 19th-century mission and caregiving record belongs with 18th–19th-century Pacific mission history, not 16th–17th-century confessionalisation.",
+      "urls": [
+        "https://www.cambridge.org/core/journals/journal-of-ecclesiastical-history/article/childbirth-and-emerging-missionary-information-networks-in-britain-and-the-south-pacific/019854B3D03C94DFAB5E6DA1692BDC3C",
+        "https://guides.sl.nsw.gov.au/british_missionary_societies/MMS_missionary_papers"
+      ],
+      "direct_indigenous_first_person_testimony_found": false,
+      "case_relocated_only": true,
+      "prior_chapter_cross_reference_retained": true
+    }
+  ],
+  "deleted_historical_cases": 0,
+  "duplicate_case_primary_sections": 0,
+  "source_links_reused_in_new_chapter": 5,
+  "source_links_deleted_from_old_chapter": 0,
+  "source_provenance_narrative": "Preserved original links in old chapter as audit history, added case-specific links to new chronological home; original case text moved and contextual opening revised, not replicated.",
+  "case_id_to_canonical_chapter": {
+    "V501-LA-01": "L448-05-03",
+    "V501-PA-02": "L448-06-03"
+  },
+  "can_ship": false,
+  "can_merge_main": false,
+  "can_import_ai_studio": false
+}
