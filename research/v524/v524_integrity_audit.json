@@ -1,0 +1,131 @@
+{
+  "schema": "ATLAS_V524_THREE_LEVEL_READINESS_INTEGRITY",
+  "version": "V5.24",
+  "date": "2026-11-24",
+  "branch": "research/atlas-v524-three-level-24-chapter-readiness-contract",
+  "base_branch": "research/atlas-v523-authorship-print-facsimile-evidence-pathways",
+  "base_commit": "74e6d0e953cfd14591dce979d2dfc262d7a31c7f",
+  "metrics": {
+    "volumes": 8,
+    "chapters": 24,
+    "short_preview_present": 24,
+    "medium_present": 9,
+    "medium_missing": 15,
+    "research_body_present": 24,
+    "research_body_chars": 60076,
+    "reference_url_occurrences": 152,
+    "unique_case_cards": 52,
+    "evidence_timepaths": 6,
+    "known_source_caution_chapters": 5,
+    "reviewer_approvals": 0,
+    "human_reader_trials": 0,
+    "ai_studio_e2e_tests": 0
+  },
+  "volume_summary": [
+    {
+      "volume_id": "VOL-01",
+      "short": 3,
+      "medium": 2,
+      "research": 3,
+      "medium_missing": 1,
+      "historical_chars": 5577,
+      "source_url_occurrences": 12
+    },
+    {
+      "volume_id": "VOL-02",
+      "short": 3,
+      "medium": 1,
+      "research": 3,
+      "medium_missing": 2,
+      "historical_chars": 5255,
+      "source_url_occurrences": 12
+    },
+    {
+      "volume_id": "VOL-03",
+      "short": 3,
+      "medium": 2,
+      "research": 3,
+      "medium_missing": 1,
+      "historical_chars": 5664,
+      "source_url_occurrences": 11
+    },
+    {
+      "volume_id": "VOL-04",
+      "short": 3,
+      "medium": 1,
+      "research": 3,
+      "medium_missing": 2,
+      "historical_chars": 10000,
+      "source_url_occurrences": 32
+    },
+    {
+      "volume_id": "VOL-05",
+      "short": 3,
+      "medium": 0,
+      "research": 3,
+      "medium_missing": 3,
+      "historical_chars": 11166,
+      "source_url_occurrences": 30
+    },
+    {
+      "volume_id": "VOL-06",
+      "short": 3,
+      "medium": 1,
+      "research": 3,
+      "medium_missing": 2,
+      "historical_chars": 9271,
+      "source_url_occurrences": 23
+    },
+    {
+      "volume_id": "VOL-07",
+      "short": 3,
+      "medium": 2,
+      "research": 3,
+      "medium_missing": 1,
+      "historical_chars": 6980,
+      "source_url_occurrences": 22
+    },
+    {
+      "volume_id": "VOL-08",
+      "short": 3,
+      "medium": 0,
+      "research": 3,
+      "medium_missing": 3,
+      "historical_chars": 6163,
+      "source_url_occurrences": 10
+    }
+  ],
+  "checks": {
+    "source_V523_candidate_unchanged_on_V524_branch": true,
+    "source_V523_audit_45_checks_all_true": true,
+    "source_V523_baseline_24_and_8": true,
+    "contract_24_chapters": true,
+    "contract_id_order_matches_source": true,
+    "all_short_previews_present": true,
+    "exactly_nine_medium_stories": true,
+    "fifteen_missing_medium_stories_exposed": true,
+    "all_24_research_bodies_referenced": true,
+    "historical_body_60076_chars": true,
+    "reference_url_occurrences_152": true,
+    "existing_52_case_cards_exact_unique": true,
+    "existing_six_timepaths_exact_unique": true,
+    "five_known_source_cautions_retained": true,
+    "every_chapter_has_evidence_limit": true,
+    "all_chapter_claim_audits_pending": true,
+    "zero_expert_reader_app_approval": true,
+    "no_release_or_ai_studio_import": true
+  },
+  "structural_checks_passed": 18,
+  "structural_checks_total": 18,
+  "pending_human_gates": [
+    "SOURCE_TO_CLAIM_VERIFICATION",
+    "HISTORIAN_EXPERT_REVIEW",
+    "HUMAN_READABILITY_STUDY",
+    "RIGHTS_REVIEW",
+    "LIVE_AI_STUDIO_E2E"
+  ],
+  "scope_note": "Structure and source snapshot preservation were checked, not newly audited historical facts. No new original leaf collation, reader trial or app test performed.",
+  "can_ship": false,
+  "can_merge_main": false,
+  "can_import_ai_studio": false
+}
