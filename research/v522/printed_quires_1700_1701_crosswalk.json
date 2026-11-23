@@ -1,0 +1,145 @@
+{
+  "schema": "ATLAS_V522_ALATORRE_PRINTED_GATHERING_CROSSWALK_AND_ORIGINAL_ACCESS_STATUS",
+  "version": "V5.22",
+  "date": "2026-11-23",
+  "branch": "research/atlas-v522-sorjuana-1700-1701-collation-table-and-original-page-access",
+  "edition_1701_column_scope": "Alatorre p450 uses one 1701 comparison column in a study discussing both Lisboa and Barcelona; cannot assert every quire match is independently verified on each 1701 surviving copy.",
+  "source_basis": "Direct visual reading of Alatorre NRFH XXIX pp449–450 facsimile of scholarly article, NOT direct text-collation of Madrid1700 versus Barcelona1701 primary print images.",
+  "pagination_rule": "Hash # marks Alatorre's editorially assigned fictitious page numbers for unnumbered preliminary gathering; pp marks actual numbered text section.",
+  "printed_gathering_crosswalk": [
+    {
+      "printed_signature": "¶ before main preliminary gatherings",
+      "madrid1700": "# i–viii",
+      "edition1701": "not printed as separate corresponding leaf series",
+      "level": "PRELIMINARY_FICTITIOUS_PAGINATION"
+    },
+    {
+      "printed_signature": "¶×2 through ¶×4",
+      "madrid1700": "# 1–24",
+      "edition1701": "# 1–24",
+      "level": "PRELIMINARY_FICTITIOUS_PAGINATION"
+    },
+    {
+      "printed_signature": "¶×5 through ¶×6",
+      "madrid1700": "# 25–40",
+      "edition1701": "# 25–40",
+      "level": "PRELIMINARY_FICTITIOUS_PAGINATION"
+    },
+    {
+      "printed_signature": "a, b, c",
+      "madrid1700": "# 41–64",
+      "edition1701": "# 81–104",
+      "level": "PRELIMINARY_FICTITIOUS_PAGINATION"
+    },
+    {
+      "printed_signature": "¶×7 through ¶×10",
+      "madrid1700": "# 65–96",
+      "edition1701": "# 41–72",
+      "level": "PRELIMINARY_FICTITIOUS_PAGINATION"
+    },
+    {
+      "printed_signature": "*",
+      "madrid1700": "# 97–104",
+      "edition1701": "# 73–80",
+      "level": "PRELIMINARY_FICTITIOUS_PAGINATION"
+    },
+    {
+      "printed_signature": "** through *** 1–2",
+      "madrid1700": "# 105–116",
+      "edition1701": "# 117–128",
+      "level": "PRELIMINARY_FICTITIOUS_PAGINATION"
+    },
+    {
+      "printed_signature": "*** 3–4 and ****",
+      "madrid1700": "# 117–128",
+      "edition1701": "# 105–116",
+      "level": "PRELIMINARY_FICTITIOUS_PAGINATION"
+    },
+    {
+      "printed_signature": "A–Z",
+      "madrid1700": "pp. 1–184",
+      "edition1701": "pp. 1–184",
+      "level": "ACTUAL_PRINTED_BODY_PAGINATION"
+    },
+    {
+      "printed_signature": "Aa–Dd",
+      "madrid1700": "pp. 185–[216]",
+      "edition1701": "pp. 185–[216]",
+      "level": "ACTUAL_PRINTED_BODY_PAGINATION"
+    }
+  ],
+  "original_1700_1701_main_body_page_spans_equal": true,
+  "main_body_identical_wording_verified": false,
+  "original_first_1700_respuesta_photographed_leaf_read_this_turn": false,
+  "original_1701_respuesta_photographed_leaf_read_this_turn": false,
+  "documented_access": [
+    {
+      "source_id": "ALATORRE_450",
+      "reference": "Antonio Alatorre, Para leer la Fama y obras pósthumas, NRFH XXIX printed page 450",
+      "url": "https://scispace.com/pdf/para-leer-la-fama-y-obras-posthumas-de-sor-juana-ines-de-la-3z9ocsljge.pdf",
+      "physical_page": "450",
+      "pdf_page_zero_index": 22,
+      "observed": "SCHOLARLY_ARTICLE_PDF_IMAGE_DIRECTLY_SCREENSHOT_AND_READ",
+      "type": "SECONDARY_CRITICAL_BIBLIOGRAPHY",
+      "allow_print_comparison_claim": true,
+      "allow_primary_1700_leaf_claim": false
+    },
+    {
+      "source_id": "ALATORRE_449",
+      "reference": "Antonio Alatorre, NRFH XXIX printed page 449",
+      "url": "https://scispace.com/pdf/para-leer-la-fama-y-obras-posthumas-de-sor-juana-ines-de-la-3z9ocsljge.pdf",
+      "physical_page": "449",
+      "pdf_page_zero_index": 21,
+      "observed": "SCHOLARLY_ARTICLE_PDF_IMAGE_DIRECTLY_SCREENSHOT_AND_READ",
+      "type": "SECONDARY_CRITICAL_BIBLIOGRAPHY",
+      "allow_print_comparison_claim": true,
+      "allow_primary_1700_leaf_claim": false
+    },
+    {
+      "source_id": "JCB_1700_WIKIMEDIA_PDF",
+      "reference": "JCB copy of Fama 1700, original facsimile 372-page PDF",
+      "url": "https://commons.wikimedia.org/wiki/File:Fama,_y_obras_posthumas_del_fenix_de_Mexico,_decima_musa,_poetisa_americana,_Sor_Juana_Ines_de_la_Cruz,_religiosa_professa_en_el_convento_de_San_Geronimo_de_la_imperial_ciudad_de_Mexico_(IA_famayobrasposthu00juan).pdf",
+      "physical_page": "Respuesta 8–60",
+      "observed": "WIKIMEDIA_DIGITAL_OBJECT_372_PAGES_AND_URL_VERIFIED; PDF_TOO_LARGE_FOR_WEB_OPEN_59038921_BYTES",
+      "type": "PRIMARY_DIGITAL_FACSIMILE_CATALOG_ONLY",
+      "allow_print_comparison_claim": false,
+      "allow_primary_1700_leaf_claim": false
+    },
+    {
+      "source_id": "BYU_1701_WIKIMEDIA_PDF",
+      "reference": "BYU copy of Fama 1701 Barcelona, original facsimile 352-page PDF",
+      "url": "https://commons.wikimedia.org/wiki/File:Fama,_y_obras_posthumas,_tomo_tercero,_del_fenix_de_M%C3%A9xico,_y_dezima_musa,_poetisa_de_la_America,_Sor_Juana_Ines_de_la_Cruz,_religiosa_professa_en_el_Convento_de_San_Geronimo_(IA_famayobrasposthu1701juan).pdf",
+      "physical_page": "printed book, specific corresponding Respuesta leaves not checked",
+      "observed": "WIKIMEDIA_DIGITAL_OBJECT_352_PAGES_AND_URL_VERIFIED; PDF_TOO_LARGE_FOR_WEB_OPEN_37556266_BYTES",
+      "type": "PRIMARY_DIGITAL_FACSIMILE_CATALOG_ONLY",
+      "allow_print_comparison_claim": false,
+      "allow_primary_1700_leaf_claim": false
+    },
+    {
+      "source_id": "GRUBER_1531_1540",
+      "reference": "Gruber Rare Books Collection on authorized 1531 original and 1540 Variata vs unaltered",
+      "url": "https://gruber.lstc.edu/confessions/augs_apol.php",
+      "observed": "INSTITUTIONAL_PAGE_AND_EDITION_DESCRIPTIONS_READ; ARTICLE_X_FIRST_PRINT_IMAGE_NOT_READ",
+      "type": "HOLDING_AND_TEXTUAL_GENRE_GUIDANCE",
+      "allow_print_comparison_claim": false,
+      "allow_primary_1700_leaf_claim": false
+    },
+    {
+      "source_id": "MDZ_1531",
+      "reference": "MDZ first Latin 1531 (bsb11411960)",
+      "url": "https://www.digitale-sammlungen.de/en/details/bsb11411960",
+      "observed": "DIGITAL_CATALOG_LINK_KNOWN; ARTICLE_X_ORIGINAL_PRINT_PHOTOGRAPH_UNREAD",
+      "type": "PRIMARY_DIGITAL_FACSIMILE_UNREAD",
+      "allow_print_comparison_claim": false,
+      "allow_primary_1700_leaf_claim": false
+    }
+  ],
+  "gates": {
+    "can_ship": false,
+    "can_merge_main": false,
+    "can_import_ai_studio": false,
+    "historian_signoffs": 0,
+    "reader_tests": 0,
+    "app_e2e": 0
+  }
+}
