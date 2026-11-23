@@ -1,0 +1,469 @@
+{
+  "schema": "ATLAS_V510_24_CHAPTER_EVIDENCE_GAP_REGISTER",
+  "version": "V5.10",
+  "branch": "research/atlas-v510-global-evidence-gap-map",
+  "date": "2026-11-23",
+  "counts": {
+    "chapters": 24,
+    "volumes": 8,
+    "priorities": {
+      "P0": 5,
+      "P1": 9,
+      "P2": 7,
+      "P3": 3
+    },
+    "changed_chapters": 1,
+    "unchanged_chapters": 23,
+    "new_integrated_case_sections": 1,
+    "new_source_urls": 5
+  },
+  "priorities": {
+    "P0": "문헌 판본·연대의 오류 위험이 높아 원전 대조 선행",
+    "P1": "일부 원전 소장본 미확인: 다음 조사 선별",
+    "P2": "대표성·출처 다변화 개선 가능",
+    "P3": "독자 탐색 허브: 추가 사건 양산 금지"
+  },
+  "rows": [
+    {
+      "id": "L448-01-01",
+      "volume": "VOL-01",
+      "title": "도시와 언어가 바꾼 복음의 전달",
+      "period": "1–3세기",
+      "chars": 1596,
+      "source_url_count": 3,
+      "priority": "P2",
+      "covered_region": "지중해/시리아",
+      "evidence_gap": "초기 도시별 평신도·여성 자기 서술 부족",
+      "next_verification": "편지와 유적을 동일한 교리의 증거로 보지 않기",
+      "primary_original_full_collation": false,
+      "expert_signoff": false
+    },
+    {
+      "id": "L448-01-02",
+      "volume": "VOL-01",
+      "title": "박해와 황실 보호 이후에도 지역은 달랐다",
+      "period": "3–4세기",
+      "chars": 1442,
+      "source_url_count": 4,
+      "priority": "P2",
+      "covered_region": "에티오피아/홍해",
+      "evidence_gap": "왕실 주화와 지역 주민의 종교생활 사이 자료 공백",
+      "next_verification": "악숨 주화·비문·후대 교회사 분리",
+      "primary_original_full_collation": false,
+      "expert_signoff": false
+    },
+    {
+      "id": "L448-01-03",
+      "volume": "VOL-01",
+      "title": "공의회는 질문을 정리했지만 모든 차이를 지우지 못했다",
+      "period": "4–5세기",
+      "chars": 2539,
+      "source_url_count": 5,
+      "priority": "P1",
+      "covered_region": "예루살렘/지중해",
+      "evidence_gap": "에게리아 여행기 원본 필사계보·지역별 예배 차이",
+      "next_verification": "지역 예배 기록의 원문 계보 확인",
+      "primary_original_full_collation": false,
+      "expert_signoff": false
+    },
+    {
+      "id": "L448-02-01",
+      "volume": "VOL-02",
+      "title": "비잔틴·서아시아·서유럽의 서로 다른 중세",
+      "period": "6–15세기",
+      "chars": 1692,
+      "source_url_count": 4,
+      "priority": "P1",
+      "covered_region": "서아시아/중앙아시아/유럽",
+      "evidence_gap": "동시리아어·소그드어 사료를 학술 요약에 의존",
+      "next_verification": "지역별 원어 소장본 선정",
+      "primary_original_full_collation": false,
+      "expert_signoff": false
+    },
+    {
+      "id": "L448-02-02",
+      "volume": "VOL-02",
+      "title": "경교비에서 읽는 635년의 사건과 781년의 증언",
+      "period": "7–8세기",
+      "chars": 1820,
+      "source_url_count": 4,
+      "priority": "P1",
+      "covered_region": "중국/당",
+      "evidence_gap": "635년 사건과 781년 경교비 비문을 소급하는 위험",
+      "next_verification": "한문·시리아어 비문 실제 지면 교감",
+      "primary_original_full_collation": false,
+      "expert_signoff": false
+    },
+    {
+      "id": "L448-02-03",
+      "volume": "VOL-02",
+      "title": "분열의 날짜보다 관계의 변화를 읽기",
+      "period": "11–15세기",
+      "chars": 1743,
+      "source_url_count": 4,
+      "priority": "P2",
+      "covered_region": "비잔틴/서유럽",
+      "evidence_gap": "1054·1204·1439 상이한 사건을 한 분열로 묶는 위험",
+      "next_verification": "동방·서방 당사자 기록 병렬 대조",
+      "primary_original_full_collation": false,
+      "expert_signoff": false
+    },
+    {
+      "id": "L448-03-01",
+      "volume": "VOL-03",
+      "title": "왈도파의 청빈과 설교: 후대의 교파명으로 미리 이름 붙이지 않기",
+      "period": "12–16세기",
+      "chars": 2424,
+      "source_url_count": 5,
+      "priority": "P1",
+      "covered_region": "이탈리아/프랑스",
+      "evidence_gap": "왈도파 후대 명칭 및 카타리나 서신 필사 전승 문제",
+      "next_verification": "Harley 3480 원문·번역 구분",
+      "primary_original_full_collation": false,
+      "expert_signoff": false
+    },
+    {
+      "id": "L448-03-02",
+      "volume": "VOL-03",
+      "title": "위클리프와 후스: 영향을 받았어도 똑같이 믿지는 않았다",
+      "period": "14–15세기",
+      "chars": 1669,
+      "source_url_count": 4,
+      "priority": "P1",
+      "covered_region": "영국/보헤미아",
+      "evidence_gap": "위클리프와 후스 신학의 실제 원문 조항 부족",
+      "next_verification": "성찬 관련 원전 표본과 논문 비교",
+      "primary_original_full_collation": false,
+      "expert_signoff": false
+    },
+    {
+      "id": "L448-03-03",
+      "volume": "VOL-03",
+      "title": "프라하 4개조에서 바젤 협상까지: 요구·전쟁·법의 시간표",
+      "period": "1415–1436년",
+      "chars": 1571,
+      "source_url_count": 2,
+      "priority": "P1",
+      "covered_region": "보헤미아/바젤",
+      "evidence_gap": "1420 개혁 요구와 1436 협약의 판본 분리",
+      "next_verification": "프라하 4개조·바젤 협상 문서 대조",
+      "primary_original_full_collation": false,
+      "expert_signoff": false
+    },
+    {
+      "id": "L448-04-01",
+      "volume": "VOL-04",
+      "title": "1517년 논쟁은 왜 예배·학교·도시 정부의 문제로 커졌나",
+      "period": "16세기 전반",
+      "chars": 3204,
+      "source_url_count": 11,
+      "priority": "P1",
+      "covered_region": "독일/에티오피아/로마",
+      "evidence_gap": "1523 전단과 1548~49 게에즈 판면 전문 미교감",
+      "next_verification": "아르굴라 인쇄본·테스파 시온 소장본 지면 확인",
+      "primary_original_full_collation": false,
+      "expert_signoff": false
+    },
+    {
+      "id": "L448-04-02",
+      "volume": "VOL-04",
+      "title": "마르부르크의 합의와 아우크스부르크 판본: 신학과 서지의 차이",
+      "period": "1529–1540년",
+      "chars": 2165,
+      "source_url_count": 5,
+      "priority": "P0",
+      "covered_region": "신성로마제국",
+      "evidence_gap": "1530·1531·1540 신앙고백 판본 구별 고위험",
+      "next_verification": "세 판본 동일 문단과 서지 판면 대조",
+      "primary_original_full_collation": false,
+      "expert_signoff": false
+    },
+    {
+      "id": "L448-04-03",
+      "volume": "VOL-04",
+      "title": "제네바·잉글랜드·재세례파: 똑같은 개혁을 다른 제도로 만들다",
+      "period": "16세기",
+      "chars": 1588,
+      "source_url_count": 4,
+      "priority": "P2",
+      "covered_region": "스위스/잉글랜드/독일권",
+      "evidence_gap": "교회규정·의회법·재세례파 문헌 혼합 가능성",
+      "next_verification": "원문 문서의 제도적 성격 분류",
+      "primary_original_full_collation": false,
+      "expert_signoff": false
+    },
+    {
+      "id": "L448-05-01",
+      "volume": "VOL-05",
+      "title": "가톨릭의 개혁을 오직 개신교에 대한 반응으로 읽지 않기",
+      "period": "16–17세기",
+      "chars": 1546,
+      "source_url_count": 3,
+      "priority": "P1",
+      "covered_region": "유럽·말라바르 접촉",
+      "evidence_gap": "1599 디암페르 시노드 조문과 전승 차이 미반영",
+      "next_verification": "1606 포르투갈어·1694 영어·후기 말라얄람어 대응표",
+      "primary_original_full_collation": false,
+      "expert_signoff": false
+    },
+    {
+      "id": "L448-05-02",
+      "volume": "VOL-05",
+      "title": "1555년과 1648년: 공존의 법적 범위와 배제",
+      "period": "1555–1648년",
+      "chars": 2236,
+      "source_url_count": 5,
+      "priority": "P2",
+      "covered_region": "중앙유럽",
+      "evidence_gap": "1555·1648 조약과 개인의 신앙자유를 동일시할 위험",
+      "next_verification": "적용대상·예외 조항 원문 검토",
+      "primary_original_full_collation": false,
+      "expert_signoff": false
+    },
+    {
+      "id": "L448-05-03",
+      "volume": "VOL-05",
+      "title": "교파의 경계가 만들어지며 일상의 규율도 달라졌다",
+      "period": "16–17세기",
+      "chars": 4845,
+      "source_url_count": 8,
+      "priority": "P0",
+      "covered_region": "멕시코/태평양 비교",
+      "evidence_gap": "소르 후아나 사후인쇄 1700/1701 및 1820 직접 증언 부재",
+      "next_verification": "1691 저술·인쇄 이본과 19세기 비교 사례 분리",
+      "primary_original_full_collation": false,
+      "expert_signoff": false
+    },
+    {
+      "id": "L448-06-01",
+      "volume": "VOL-06",
+      "title": "경건주의와 부흥운동은 같은 단체가 아니었다",
+      "period": "17–19세기",
+      "chars": 1871,
+      "source_url_count": 6,
+      "priority": "P2",
+      "covered_region": "독일/영국/대서양",
+      "evidence_gap": "경건주의 조직 기록과 평신도 일상간 차이",
+      "next_verification": "교육·구제 자료와 개인 서신 조사",
+      "primary_original_full_collation": false,
+      "expert_signoff": false
+    },
+    {
+      "id": "L448-06-02",
+      "volume": "VOL-06",
+      "title": "남인도 타밀어 성경: 인쇄 기계보다 중요한 사람과 판본",
+      "period": "1706–1719년",
+      "chars": 1856,
+      "source_url_count": 4,
+      "priority": "P0",
+      "covered_region": "남인도 트랑케바르",
+      "evidence_gap": "1715/1719 타밀어 신약 인쇄·재판 서지 미확정",
+      "next_verification": "실물 판면·발행기관 서지 회신 대조",
+      "primary_original_full_collation": false,
+      "expert_signoff": false
+    },
+    {
+      "id": "L448-06-03",
+      "volume": "VOL-06",
+      "title": "선교와 제국의 접촉: 외부의 확장만이 세계사의 주인공은 아니다",
+      "period": "18–19세기",
+      "chars": 3690,
+      "source_url_count": 8,
+      "priority": "P0",
+      "covered_region": "태평양 제도",
+      "evidence_gap": "파페이하·타웅아의 원어 필사본과 후대 주석 구분",
+      "next_verification": "1880 사본·1889 주석·원어 전승 비교",
+      "primary_original_full_collation": false,
+      "expert_signoff": false
+    },
+    {
+      "id": "L448-07-01",
+      "volume": "VOL-07",
+      "title": "아프리카와 중동에는 근대 선교 이전부터 교회가 있었다",
+      "period": "고대 전통–20세기",
+      "chars": 1680,
+      "source_url_count": 4,
+      "priority": "P2",
+      "covered_region": "이집트/에티오피아/중동",
+      "evidence_gap": "고대 지역 교회가 근대 선교 결과처럼 오인될 위험",
+      "next_verification": "현지 전통의 연대기·자기 서술 확충",
+      "primary_original_full_collation": false,
+      "expert_signoff": false
+    },
+    {
+      "id": "L448-07-02",
+      "volume": "VOL-07",
+      "title": "한국교회의 서로 다른 시작: 독서·세례·번역·사회참여",
+      "period": "1779–20세기 후반",
+      "chars": 1810,
+      "source_url_count": 6,
+      "priority": "P1",
+      "covered_region": "한국",
+      "evidence_gap": "한국어 성경 1900년판 출처 판본 문제",
+      "next_verification": "소장기관 판면과 기존 연구 대조",
+      "primary_original_full_collation": false,
+      "expert_signoff": false
+    },
+    {
+      "id": "L448-07-03",
+      "volume": "VOL-07",
+      "title": "라틴아메리카·아시아와 세계교회의 새로운 질문",
+      "period": "1910–20세기 후반",
+      "chars": 4644,
+      "source_url_count": 12,
+      "priority": "P0",
+      "covered_region": "라틴아메리카/세계교회",
+      "evidence_gap": "1615 과만 포마 원도판과 1968 메데인 최종 결의문 제한",
+      "next_verification": "왕립도서관 그림·CELAM 본문 확보",
+      "primary_original_full_collation": false,
+      "expert_signoff": false
+    },
+    {
+      "id": "L448-08-01",
+      "volume": "VOL-08",
+      "title": "질문 1·2 — 성경과 권위 / 은총과 구원",
+      "period": "전 시대 비교",
+      "chars": 812,
+      "source_url_count": 3,
+      "priority": "P3",
+      "covered_region": "시대 비교 허브",
+      "evidence_gap": "서로 다른 시대의 성경·권위 질문을 직접 영향 관계로 오인",
+      "next_verification": "비교와 인과 없음 라벨 유지",
+      "primary_original_full_collation": false,
+      "expert_signoff": false
+    },
+    {
+      "id": "L448-08-02",
+      "volume": "VOL-08",
+      "title": "질문 3·4 — 성찬과 예배 / 교회조직과 생활",
+      "period": "중세–근현대 비교",
+      "chars": 815,
+      "source_url_count": 3,
+      "priority": "P3",
+      "covered_region": "시대 비교 허브",
+      "evidence_gap": "서로 다른 성찬·예배 관념을 통일 문장으로 단순화",
+      "next_verification": "당사자 신학 용어 병렬 유지",
+      "primary_original_full_collation": false,
+      "expert_signoff": false
+    },
+    {
+      "id": "L448-08-03",
+      "volume": "VOL-08",
+      "title": "질문 5·6 — 국가·갈등·공존 / 번역과 지역 수용",
+      "period": "고대–현대 비교",
+      "chars": 908,
+      "source_url_count": 4,
+      "priority": "P3",
+      "covered_region": "시대 비교 허브",
+      "evidence_gap": "국가·공존·번역 사례의 연대 차이 무시",
+      "next_verification": "사건별 시기·행위자 링크 점검",
+      "primary_original_full_collation": false,
+      "expert_signoff": false
+    }
+  ],
+  "top_case_register": [
+    {
+      "id": "G-01",
+      "rank": "P0",
+      "topic": "1530·1531·1540 아우크스부르크 신앙고백",
+      "target": "L448-04-02",
+      "gate": "동일 조문/조판/원문 판본 대조"
+    },
+    {
+      "id": "G-02",
+      "rank": "P0",
+      "topic": "1715·1719 타밀어 신약성경",
+      "target": "L448-06-02",
+      "gate": "서지 기관 확인·실물 판면"
+    },
+    {
+      "id": "G-03",
+      "rank": "P0",
+      "topic": "소르 후아나 1691·1700·1701",
+      "target": "L448-05-03",
+      "gate": "동일 문단 초판·후속 판본 교감"
+    },
+    {
+      "id": "G-04",
+      "rank": "P0",
+      "topic": "파페이하·타웅아 원어 기록",
+      "target": "L448-06-03",
+      "gate": "원문·1880 사본·1889 주석 비교"
+    },
+    {
+      "id": "G-05",
+      "rank": "P0",
+      "topic": "과만 포마 그림과 메데인 공식 결의문",
+      "target": "L448-07-03",
+      "gate": "원본 그림·CELAM 확정문 판면 대조"
+    },
+    {
+      "id": "G-06",
+      "rank": "P1",
+      "topic": "1599년 인도 디암페르 시노드",
+      "target": "L448-05-01",
+      "gate": "1606 포르투갈어/1694 영어/18세기 말라얄람어 전승 조문 대응"
+    },
+    {
+      "id": "G-07",
+      "rank": "P1",
+      "topic": "1548~1549년 에티오피아 게에즈어 인쇄본",
+      "target": "L448-04-01",
+      "gate": "서문·예식문서 게에즈어 지면 교감"
+    },
+    {
+      "id": "G-08",
+      "rank": "P1",
+      "topic": "1376년 카타리나와 1523년 아르굴라 문헌",
+      "target": "L448-03-01;L448-04-01",
+      "gate": "원어 판면·현대 번역 분리"
+    }
+  ],
+  "directly_read_evidence": [
+    {
+      "item": "Library of Congress curator note about 1548 Ge'ez New Testament",
+      "url": "https://blogs.loc.gov/international-collections/2020/06/the-1548-ethiopic-gospel-in-print/",
+      "scope": "Institutional description and displayed images; original book not collated completely"
+    },
+    {
+      "item": "De Lorenzi and Salvadore article on Täsfa Ṣeyon",
+      "url": "https://www.cambridge.org/core/journals/itinerario/article/an-ethiopian-scholar-in-tridentine-rome-tasfa-seyon-and-the-birth-of-orientalism/905FECD0B24DA673550273B8CAF22D90",
+      "scope": "Scholarly reconstruction citing Ge'ez preface and Vatican records; secondhand for unconsulted archival leaves"
+    },
+    {
+      "item": "GEDSH article on Synod of Diamper",
+      "url": "https://gedsh.bethmardutho.org/entry/Diamper-Synod-of",
+      "scope": "Academic encyclopedia confirms textual differences and the chronologically late Malayalam copies"
+    },
+    {
+      "item": "British Library Harley MS 3480",
+      "url": "https://searcharchives.bl.uk/catalog/040-002049311",
+      "scope": "86 letters bibliographic metadata; direct Italian manuscripts not compared"
+    },
+    {
+      "item": "UC Davis Catherine Letter 74",
+      "url": "https://medieval.ucdavis.edu/20C/Catherine.html",
+      "scope": "Modern English translation of letter to Gregory XI viewed; Italian original not collated"
+    },
+    {
+      "item": "Fordham Xavier letter 1543",
+      "url": "https://sourcebooks.fordham.edu/Mod/1543xavier1.asp",
+      "scope": "Historical primary letter in later English edition; testimony of missionary, not independent local voices"
+    }
+  ],
+  "legacy_source_watch": [
+    {
+      "url": "https://learninglink.oup.com/access/history-in-practice-western-civ",
+      "issue": "General learning portal, not verified 1523 imprint",
+      "remediation": "1523 printed copy ZVDD and digitized Google Books added; old link retained as historical record"
+    },
+    {
+      "url": "https://academic.oup.com/edited-volume/61673/chapter-abstract/549652852",
+      "issue": "OUP redirect cannot be fetched here",
+      "remediation": "Neither delete nor label source as invalid; must recheck accessibility later"
+    }
+  ],
+  "can_ship": false,
+  "can_merge_main": false,
+  "can_import_ai_studio": false
+}
