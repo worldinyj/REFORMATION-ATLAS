@@ -1,0 +1,122 @@
+{
+  "schema": "ATLAS_V509_VOLUME_BALANCE_AND_TEXT_INTEGRITY_AUDIT",
+  "version": "V5.09",
+  "date": "2026-11-23",
+  "branch": "research/atlas-v509-three-source-voices-era-balance",
+  "base_ref": "research/atlas-v508-five-local-voices-substantive-era-integration",
+  "can_ship": false,
+  "can_merge_main": false,
+  "can_import_ai_studio": false,
+  "summary": {
+    "volumes": 8,
+    "chapters": 24,
+    "changed_chapters": 3,
+    "unmodified_chapters": 21,
+    "previous_chars": 46209,
+    "new_chars": 49242,
+    "added_chars": 3033,
+    "new_case_sections": 3,
+    "existing_v508_case_sections_retained": 5,
+    "new_source_urls": 9,
+    "source_url_removals": 0,
+    "missing_original_chapters": 0,
+    "expert_reviews": 0,
+    "actual_reader_tests": 0,
+    "live_app_e2e": 0
+  },
+  "volume_chars_before": {
+    "VOL-01": 4590,
+    "VOL-02": 5255,
+    "VOL-03": 4618,
+    "VOL-04": 5033,
+    "VOL-05": 8627,
+    "VOL-06": 7417,
+    "VOL-07": 8134,
+    "VOL-08": 2535
+  },
+  "volume_chars_after": {
+    "VOL-01": 5577,
+    "VOL-02": 5255,
+    "VOL-03": 5664,
+    "VOL-04": 6033,
+    "VOL-05": 8627,
+    "VOL-06": 7417,
+    "VOL-07": 8134,
+    "VOL-08": 2535
+  },
+  "historical_volume_1_to_7_max_min_ratio_before": 1.88,
+  "historical_volume_1_to_7_max_min_ratio_after": 1.642,
+  "notes": [
+    "문자 수의 균형은 역사적 대표성 또는 사료의 신뢰성을 대신하지 않는다.",
+    "제8권은 역사 시대권이 아니라 여섯 질문을 가진 탐색 허브이므로 분량 비교 대상에서 제외한다.",
+    "제3~4권은 유럽 중심의 종교개혁 역사에 집중되어 지역 대표성 과제가 남는다.",
+    "추가 세 사례 모두 16세기 종교개혁으로 이어지는 직접 인과를 주장하지 않는다.",
+    "출처 링크는 조사 경로이지 원전의 전문 대조 인증서가 아니다."
+  ],
+  "cases": [
+    {
+      "id": "V509-WA-01",
+      "primary_chapter_id": "L448-01-03",
+      "title": "에게리아의 예루살렘 방문 기록 — 회의의 문서와 예배의 현장을 구별하다",
+      "period": "약 381–384년",
+      "region": "서아시아·예루살렘",
+      "evidence_level": "SURVIVING_LATE_COPY_INTERPRETED_BY_SCHOLARSHIP",
+      "source_urls": [
+        "https://academic.oup.com/edited-volume/61673/chapter-abstract/549652852",
+        "https://www.cambridge.org/core/elements/abs/egeria/894D2E6B99B70BD4B696C804A32D100F",
+        "https://www.cambridge.org/core/books/senses-cognition-and-ritual-experience-in-the-roman-world/objects-and-ritual-in-egerias-fourthcentury-pilgrimage-the-props-of-my-faith/290C5E647A96B32675263F1514FC1A78"
+      ],
+      "inserted_chars": 987,
+      "full_manuscript_or_print_collation_completed": false,
+      "expert_approval": false
+    },
+    {
+      "id": "V509-EU-02",
+      "primary_chapter_id": "L448-03-01",
+      "title": "시에나의 카타리나 — 1376년 교회 개혁 청원과 편지의 권위",
+      "period": "1376년을 중심으로 한 14세기",
+      "region": "이탈리아·아비뇽",
+      "evidence_level": "MANUSCRIPT_HOLDINGS_METADATA_PLUS_SCHOLARLY_REVIEW",
+      "source_urls": [
+        "https://searcharchives.bl.uk/catalog/040-002049311",
+        "https://www.cambridge.org/core/journals/church-history/article/abs/st-catherine-of-siena-apostola/217AD2D7EE8EA0BC83C75B26C54DB60F",
+        "https://medieval.ucdavis.edu/20C/Catherine.html"
+      ],
+      "inserted_chars": 1046,
+      "full_manuscript_or_print_collation_completed": false,
+      "expert_approval": false
+    },
+    {
+      "id": "V509-EU-03",
+      "primary_chapter_id": "L448-04-01",
+      "title": "아르굴라 폰 그룸바흐 — 1523년 대학과 성경 해석 권위의 충돌",
+      "period": "1523년",
+      "region": "바이에른·잉골슈타트",
+      "evidence_level": "EARLY_PRINT_CATALOG_AND_MODERN_TRANSLATION_NOT_FULL_COLLATION",
+      "source_urls": [
+        "https://bridwell.omeka.net/exhibits/show/fiftywomen/reformation/vongrumbach",
+        "https://learninglink.oup.com/access/history-in-practice-western-civ",
+        "https://www2.erzbistum-muenchen.de/archiv-und-bibliothek/ausstellung-bistumsgeschichte-original/von-der-reformation-zur-saekularisation/eine-standhafte-frau-und-die-reformation"
+      ],
+      "inserted_chars": 1000,
+      "full_manuscript_or_print_collation_completed": false,
+      "expert_approval": false
+    }
+  ],
+  "checks": {
+    "chapter_id_order_identical": true,
+    "unchanged_body_exact": true,
+    "old_links_all_preserved": true,
+    "changed_bodies_reconstructable": true,
+    "all_24_json_md_exact": true,
+    "new_sources_all_present": true,
+    "existing_five_v508_history_cases_retained": true
+  },
+  "can_publish": false,
+  "review_holds": [
+    "원전 완전 대조 미완료",
+    "전문 역사학자 검토 미완료",
+    "실제 독자 이해도 검증 미완료",
+    "운영 AI Studio 앱 E2E 미실시"
+  ]
+}
