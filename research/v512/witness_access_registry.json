@@ -1,0 +1,104 @@
+{
+  "schema": "ATLAS_V512_AUGSBURG_ARTICLE_X_PRIMARY_PRINT_ACCESS_AND_LATER_READING",
+  "date": "2026-11-23",
+  "version": "V5.12",
+  "branch": "research/atlas-v512-article-x-original-print-access-audit",
+  "case_id": "V512-CA-X-VERB-01",
+  "claim_under_review": "1540 Variata Article X singular/plural of exhibeatur/exhibeantur",
+  "status": "ORIGINAL_1540_FIRST_PRINT_LEAF_UNREAD_LATER_WITNESS_VARIANCE_DOCUMENTED",
+  "witnesses": [
+    {
+      "id": "W1531-BSB",
+      "edition_year": 1531,
+      "library": "Bayerische Staatsbibliothek",
+      "record_id": "bsb11411960",
+      "vd16": "C4734",
+      "url": "https://www.digitale-sammlungen.de/en/details/bsb11411960",
+      "kind": "EARLY_PRINT_DIGITAL_HOLDING",
+      "status": "CATALOG_AND_DIGITIZATION_IDENTIFIED",
+      "viewed_article_x_print_page": false,
+      "blocking_issue": "MDZ viewer JS/remote image API unavailable in this research session",
+      "claim_limit": "cannot assert any original page spelling"
+    },
+    {
+      "id": "W1540-GBOOKS",
+      "edition_year": 1540,
+      "library": "Bavarian State Library, Augsburg Staats- und Stadtbibliothek holding",
+      "record_id": "HmpoAAAAcAAJ",
+      "publisher": "Georg Rhau",
+      "length_pages": 274,
+      "url": "https://books.google.com/books?id=HmpoAAAAcAAJ&printsec=frontcover",
+      "kind": "EARLY_PRINT_DIGITAL_HOLDING",
+      "status": "CATALOG_AND_FULL_VIEW_METADATA_IDENTIFIED",
+      "viewed_article_x_print_page": false,
+      "blocking_issue": "interactive book pages not accessible in current web reader; PDF returned HTTP 403",
+      "claim_limit": "no 1540 first print spelling assigned"
+    },
+    {
+      "id": "W1540-EMORY",
+      "edition_year": 1540,
+      "library": "Pitts Theology Library, Emory",
+      "vd16": "C4713",
+      "url": "https://dia.pitts.emory.edu/exhibits/exhibitcatalogs/Kessler2017ExhibitionCatalogue.pdf",
+      "kind": "EARLY_PRINT_BIBLIOGRAPHY_TITLE_IMAGE",
+      "status": "ORIGINAL_TITLE_PAGE_IN_EXHIBITION_CATALOG_P34_VIEWED",
+      "viewed_article_x_print_page": false,
+      "claim_limit": "title-page image not equivalent to inner doctrinal chapter"
+    },
+    {
+      "id": "W1858-CR",
+      "edition_year": 1858,
+      "book": "Corpus Reformatorum vol 26",
+      "page": 357,
+      "url": "https://www.augsburg1540.com/uploads/1/3/8/9/138903771/1540_latin_text_from_corpus_reformandum.pdf",
+      "kind": "LATER_CRITICAL_EDITION_SCANNED_PRINT",
+      "status": "BODY_AND_NOTE_34_PAGE_IMAGE_VIEWED",
+      "readable_token": "exhibeatur",
+      "viewed_article_x_print_page": true,
+      "claim_limit": "this is an 1858 edited witness, not original 1540 print"
+    },
+    {
+      "id": "W1877-SCHAFF",
+      "edition_year": 1877,
+      "book": "Philip Schaff, Creeds of Christendom v3 / Historical interpretation",
+      "url": "https://www.gutenberg.org/cache/epub/26909/pg26909-images.html",
+      "additional_url": "https://sermonindex.net/books/creeds-of-christendom-with-a-history-and-critical-notes-volume/1",
+      "kind": "LATER_HISTORICAL_QUOTATION",
+      "status": "ONLINE_TEXT_QUOTE_VERIFIED",
+      "readable_token": "exhibeantur",
+      "viewed_article_x_print_page": false,
+      "claim_limit": "citation cannot settle spelling of 1540 original"
+    }
+  ],
+  "reading_comparison": [
+    {
+      "witness": "W1858-CR",
+      "text": "quod cum pane et vino vere exhibeatur corpus et sanguis Christi",
+      "verb": "exhibeatur",
+      "number": "singular",
+      "image_of_print_read": true
+    },
+    {
+      "witness": "W1877-SCHAFF",
+      "text": "De coena Domini docent, quod cum pane et vino vere exhibeantur corpus et sanguis Christi vescentibus in Coena Domini",
+      "verb": "exhibeantur",
+      "number": "plural",
+      "image_of_print_read": false
+    },
+    {
+      "witness": "W1540-GBOOKS",
+      "text": null,
+      "verb": null,
+      "number": "UNKNOWN",
+      "image_of_print_read": false
+    }
+  ],
+  "independent_first_print_collation_complete": false,
+  "insufficient_evidence_for_original_variation_cause": true,
+  "expert_signoff": false,
+  "reader_trial": false,
+  "app_e2e": false,
+  "can_ship": false,
+  "can_merge_main": false,
+  "can_import_ai_studio": false
+}
