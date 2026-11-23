@@ -1,0 +1,111 @@
+{
+  "schema": "ATLAS_V511_AUGSBURG_ARTICLE_X_WITNESS_REGISTRY",
+  "version": "V5.11",
+  "date": "2026-11-23",
+  "branch": "research/atlas-v511-augsburg-article-x-witness-critical-review",
+  "scope": "Compare original 1530 submission, 1531 authorized printing, 1531 separate Apology, 1540 revised print with textual readings via 1930/1858 edited copies",
+  "witnesses": [
+    {
+      "id": "CA-1530-OFFICIAL",
+      "year": "1530-06-25",
+      "kind": "political_diet_submitted_original_manuscript",
+      "source_url": "https://dia.pitts.emory.edu/exhibits/exhibitcatalogs/Kessler2017ExhibitionCatalogue.pdf",
+      "source_page": "Emory Pitts catalogue p34",
+      "checked": "contemporary submission history in institutional catalogue",
+      "not_checked": "1530 submitted autograph or imperial manuscript page",
+      "is_1531_variation": false
+    },
+    {
+      "id": "CA-1530-UNOFFICIAL",
+      "year": "1530",
+      "kind": "unofficial_print",
+      "source_url": "https://dia.pitts.emory.edu/exhibits/exhibitcatalogs/Kessler2017ExhibitionCatalogue.pdf",
+      "bibliography": "Pitts 1530 AUGS; VD16 C4744; Zurich Froschauer",
+      "checked": "catalogued bibliographic identity and title-page reproduction",
+      "not_checked": "Article X letter-by-letter early-print image"
+    },
+    {
+      "id": "CA-1531-EDITIO-PRINCEPS",
+      "year": "1531",
+      "kind": "first_authorized_print_confession",
+      "source_url": "https://dia.pitts.emory.edu/exhibits/exhibitcatalogs/Kessler2017ExhibitionCatalogue.pdf",
+      "additional_url": "https://www.irt-ggmbh.de/downloads/calatdt.pdf",
+      "bibliography": "1531 German VD16 C4736; Gruber collection separately catalogues 1531 Latin edition",
+      "checked": "title and bibliographic metadata; Article X via 1930 BSLK Latin-German edited-page PDF p6",
+      "not_checked": "1531 original print Article X folio"
+    },
+    {
+      "id": "APOLOGY-1531",
+      "year": "1531",
+      "kind": "separate_edited_apology_of_confession",
+      "source_url": "https://bookofconcord.cph.org/en/apology-augsburg-confession/article_x/",
+      "additional_url": "https://dia.pitts.emory.edu/exhibits/exhibitcatalogs/Kessler2017ExhibitionCatalogue.pdf",
+      "checked": "modern published English text Article X paragraphs 54–57; catalogued 1531 publication alongside Confession",
+      "not_checked": "1531 Apology first edition original wording folio",
+      "warning": "not a 1531 variant edition of Augsburg Confession"
+    },
+    {
+      "id": "CA-1540-VARIATA",
+      "year": "1540",
+      "kind": "revised_latin_print",
+      "source_url": "https://dia.pitts.emory.edu/exhibits/exhibitcatalogs/Kessler2017ExhibitionCatalogue.pdf",
+      "additional_url": "https://www.augsburg1540.com/uploads/1/3/8/9/138903771/1540_latin_text_from_corpus_reformandum.pdf",
+      "bibliography": "Emory Pitts 1540 CONF; VD16 C4713; 44 + 137 leaves",
+      "checked": "catalogue title image; Article X via 1858 Corpus Reformatorum vol26 p357 and editorial note34",
+      "not_checked": "1540 first print Article X folio itself"
+    },
+    {
+      "id": "CORPUS-REFORMATORUM-1858",
+      "year": "1858",
+      "kind": "later_critical_edition_not_original_1540_print",
+      "source_url": "https://www.augsburg1540.com/uploads/1/3/8/9/138903771/1540_latin_text_from_corpus_reformandum.pdf",
+      "checked": "scan of printed pages 357–358; Article X and note34; XI-XII reordering note",
+      "not_checked": "1540 original print typesetting"
+    }
+  ],
+  "parallel": [
+    {
+      "feature": "presence",
+      "early": "vere adsint",
+      "later": "cum pane et vino ... vere exhibeantur",
+      "assessment": "wording and syntactic construction differ; later still states true exhibition",
+      "evidence": "1930 BSLK PDF page6 vs 1858 CR p357 scan"
+    },
+    {
+      "feature": "distribution",
+      "early": "et distribuantur vescentibus",
+      "later": "exhibeantur ... vescentibus",
+      "assessment": "distribution and exhibition verbal choice differs",
+      "evidence": "later critical text printed page"
+    },
+    {
+      "feature": "rejection_clause",
+      "early": "et improbant secus docentes",
+      "later": "not printed in Variata Article X",
+      "assessment": "explicit condemnation deleted from article",
+      "evidence": "1858 CR p357 note34, 1930 BSLK p6"
+    },
+    {
+      "feature": "chapter_number",
+      "early": "XI Confession; XII Repentance",
+      "later": "XI Repentance; XII Confession",
+      "assessment": "ordinal identity not same subject; use subject keyed matching",
+      "evidence": "1858 CR pp357–360 and explanatory apparatus"
+    },
+    {
+      "feature": "different_work",
+      "early": "Confessio Augustana",
+      "later": "1531 Apologia separately authored",
+      "assessment": "publication together does not make them different editions of the same text",
+      "evidence": "Emory Pitts catalogue and modern Apology Article X"
+    }
+  ],
+  "source_level": "LATER_CRITICAL_EDITIONS_PAGE_IMAGES_PLUS_EARLY_PRINT_BIBLIOGRAPHY",
+  "facsimile_1531_1540_early_print_article_x_colla_completed": false,
+  "reader_tests": 0,
+  "expert_review": 0,
+  "operational_app_e2e": 0,
+  "can_ship": false,
+  "can_merge_main": false,
+  "can_import_ai_studio": false
+}
