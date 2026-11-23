@@ -1,0 +1,39 @@
+{
+  "schema": "ATLAS_V512_WITNESS_CORRECTION_AND_24_CHAPTER_INTEGRITY",
+  "date": "2026-11-23",
+  "version": "V5.12",
+  "branch": "research/atlas-v512-article-x-original-print-access-audit",
+  "volumes": 8,
+  "chapters": 24,
+  "previous_body_chars": 51302,
+  "current_body_chars": 51654,
+  "delta_body_chars": 352,
+  "modified_chapters": [
+    "L448-04-02"
+  ],
+  "unchanged_chapters": 23,
+  "new_reference_urls": 4,
+  "checks": {
+    "chapters_exact_order": true,
+    "other_23_bodies_exact": true,
+    "all_old_reference_urls_present": true,
+    "corrected_1858_reading_present": true,
+    "old_1858_wrong_attribution_not_present": true,
+    "first_print_unread_honestly_declared": true,
+    "V508_local_cases_unchanged": true
+  },
+  "expert_approvals": 0,
+  "actual_reader_trials": 0,
+  "live_ai_studio_e2e": 0,
+  "original_1531_Article_X_print_page_viewed": false,
+  "original_1540_Article_X_print_page_viewed": false,
+  "later_1858_page_image_viewed": true,
+  "limits": [
+    "New bibliographic location is not a direct primary body collation",
+    "1858 image exhibeatur, Schaff later text exhibeantur; origin of difference unresolved",
+    "Research audit guarantees JSON content consistency only, not historical truth"
+  ],
+  "can_ship": false,
+  "can_merge_main": false,
+  "can_import_ai_studio": false
+}
