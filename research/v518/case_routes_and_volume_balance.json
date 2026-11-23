@@ -1,0 +1,290 @@
+{
+  "schema": "ATLAS_V518_SIX_THEME_CASE_ROUTES",
+  "date": "2026-11-23",
+  "version": "V5.18",
+  "branch": "research/atlas-v518-evidence-case-atlas-and-crossvolume-coherence",
+  "routes": [
+    {
+      "route_id": "V518-THEME-1",
+      "theme": "성경과 권위",
+      "key": "authority",
+      "hub_chapter_id": "L448-08-01",
+      "question": "누가 신앙을 설명하고, 그 목소리는 어느 문헌에 남았는가?",
+      "case_ids": [
+        "ATLAS518-0103-01",
+        "ATLAS518-0202-02",
+        "ATLAS518-0301-02",
+        "ATLAS518-0401-02",
+        "ATLAS518-0402-02",
+        "ATLAS518-0503-02",
+        "ATLAS518-0703-01"
+      ],
+      "historical_era_sequence": true,
+      "comparison_only_not_genealogical_causation": true,
+      "source_limits": "공의회 결의, 비문, 서한, 신앙고백, 원주민 저술, 국제회의 대표 기록의 권위는 서로 같은 종류가 아니다."
+    },
+    {
+      "route_id": "V518-THEME-2",
+      "theme": "은총과 구원",
+      "key": "grace",
+      "hub_chapter_id": "L448-08-01",
+      "question": "시대마다 은총과 구원을 논할 때 무엇을 실제로 문제 삼았는가?",
+      "case_ids": [
+        "ATLAS518-0302-01",
+        "ATLAS518-0401-01",
+        "ATLAS518-0402-02",
+        "ATLAS518-0501-01",
+        "ATLAS518-0601-03",
+        "ATLAS518-0703-04"
+      ],
+      "historical_era_sequence": true,
+      "comparison_only_not_genealogical_causation": true,
+      "source_limits": "여기서는 주제의 접점을 제시할 뿐 각 인물·교파의 교리가 동일하다고 증명하지 않는다."
+    },
+    {
+      "route_id": "V518-THEME-3",
+      "theme": "성찬과 예배",
+      "key": "worship",
+      "hub_chapter_id": "L448-08-02",
+      "question": "교리적 설명과 실제 예배 현장은 어떤 자료에서 보이는가?",
+      "case_ids": [
+        "ATLAS518-0103-02",
+        "ATLAS518-0302-01",
+        "ATLAS518-0302-02",
+        "ATLAS518-0402-01",
+        "ATLAS518-0402-03"
+      ],
+      "historical_era_sequence": true,
+      "comparison_only_not_genealogical_causation": true,
+      "source_limits": "예배 여행기는 성찬 교리문서가 아니며 1531·1540년 초기 인쇄본의 제10조 문자 교감도 미완료다."
+    },
+    {
+      "route_id": "V518-THEME-4",
+      "theme": "교회조직과 생활",
+      "key": "community",
+      "hub_chapter_id": "L448-08-02",
+      "question": "결정권을 가진 사람과 실제 공동체 생활을 수행한 사람은 같았는가?",
+      "case_ids": [
+        "ATLAS518-0101-02",
+        "ATLAS518-0201-02",
+        "ATLAS518-0301-01",
+        "ATLAS518-0403-01",
+        "ATLAS518-0503-01",
+        "ATLAS518-0601-01",
+        "ATLAS518-0701-02"
+      ],
+      "historical_era_sequence": true,
+      "comparison_only_not_genealogical_causation": true,
+      "source_limits": "문서가 규정한 교회 질서와 지역 사람들이 실천한 삶을 자료 유형별로 분리한다."
+    },
+    {
+      "route_id": "V518-THEME-5",
+      "theme": "국가·갈등·공존",
+      "key": "state",
+      "hub_chapter_id": "L448-08-03",
+      "question": "누가 권리를 얻었고 누가 여전히 배제되었는가?",
+      "case_ids": [
+        "ATLAS518-0102-02",
+        "ATLAS518-0203-01",
+        "ATLAS518-0303-02",
+        "ATLAS518-0403-02",
+        "ATLAS518-0502-01",
+        "ATLAS518-0502-02",
+        "ATLAS518-0603-01",
+        "ATLAS518-0703-03"
+      ],
+      "historical_era_sequence": true,
+      "comparison_only_not_genealogical_causation": true,
+      "source_limits": "황실 후원·전쟁·제국법·노예제·현대 회의를 동일한 제도나 한 줄의 인과관계로 취급하지 않는다."
+    },
+    {
+      "route_id": "V518-THEME-6",
+      "theme": "번역과 지역 수용",
+      "key": "translation",
+      "hub_chapter_id": "L448-08-03",
+      "question": "누가 언어를 선택하고, 책을 만들고, 읽을 수 있었는가?",
+      "case_ids": [
+        "ATLAS518-0101-01",
+        "ATLAS518-0201-01",
+        "ATLAS518-0202-02",
+        "ATLAS518-0401-03",
+        "ATLAS518-0602-02",
+        "ATLAS518-0702-02"
+      ],
+      "historical_era_sequence": true,
+      "comparison_only_not_genealogical_causation": true,
+      "source_limits": "781년 비문은 곧 성경 번역본이 아니며 타밀어 연대와 한국어 부분·합본 연대를 같은 종류의 서지로 정규화하지 않는다."
+    }
+  ],
+  "volumeRoles": [
+    {
+      "id": "VOL-01",
+      "role": "고대 자료의 서로 다른 성격 확인",
+      "note": "서신·건물·주화·공의회·여행기 — 초기 교회의 증거를 단일 자료로 합치지 않는다",
+      "handoff": "이 기록들을 들고 서아시아·중앙아시아·당나라의 중세로 이동"
+    },
+    {
+      "id": "VOL-02",
+      "role": "언어·공동체 이동과 분열의 긴 경로",
+      "note": "781년 비문은 635년 사건을 회고한다. 1054·1204·1439년을 한 분열 사건으로 묶지 않는다",
+      "handoff": "중세 내의 청빈·설교·성경 해석 논쟁으로 이동"
+    },
+    {
+      "id": "VOL-03",
+      "role": "후대 교리의 선구자가 아닌 중세의 실제 개혁자",
+      "note": "왈도파·카타리나·위클리프·후스·프라하의 요구와 협정을 각 시대 자료로 구분",
+      "handoff": "1517년 이후 논쟁과 인쇄·도시·제국 문서의 연결로 이동"
+    },
+    {
+      "id": "VOL-04",
+      "role": "신앙 논쟁에서 문서·제도로",
+      "note": "마르부르크·아우크스부르크의 문헌 층위를 구별하고 동시대 게에즈어 인쇄의 주체성을 보존",
+      "handoff": "16~17세기 법·학교·교구·가정의 실제 생활로 이동"
+    },
+    {
+      "id": "VOL-05",
+      "role": "법과 규율, 대서양을 건넌 기록 주체",
+      "note": "1555·1648년의 법적 공존과 약 1615년 과만 포마·1691년 소르 후아나의 자기 서술을 병행",
+      "handoff": "번역·경건·선교·태평양 지역 생활이 있는 17~19세기로 이동"
+    },
+    {
+      "id": "VOL-06",
+      "role": "유럽 운동뿐 아니라 남인도·카리브해·태평양 현지 경험",
+      "note": "1714·1715·1719년 타밀어 인쇄 범위와 1820년 태평양 여성 관련 선교 보고서의 증거 수준 구별",
+      "handoff": "한국과 오래된 아프리카·중동 교회를 포함한 근현대 세계 기독교로 이동"
+    },
+    {
+      "id": "VOL-07",
+      "role": "오래된 지역 교회의 시간과 현대의 발언권",
+      "note": "첫 장의 고대–중세 교회 소개는 근현대 시기 사건이 아니라 오래된 지속성에 대한 회고적 비교임",
+      "handoff": "여섯 질문을 들고 제1~7권을 다시 읽는 주제 지도 이동"
+    },
+    {
+      "id": "VOL-08",
+      "role": "여섯 질문의 비교 탐색, 새 시대 아님",
+      "note": "각 주제는 다른 자료의 장점을 교차해 읽는 데 사용하고 사건의 직접 인과계보를 주장하지 않는다",
+      "handoff": "제1권으로 돌아가 전체 자료를 질문에 따라 재검토"
+    }
+  ],
+  "volumeStatistics": [
+    {
+      "volume_id": "VOL-01",
+      "chapter_count": 3,
+      "body_chars": 5577,
+      "source_url_occurrences": 12,
+      "unique_urls": 12,
+      "case_cards": 6,
+      "chapter_ids": [
+        "L448-01-01",
+        "L448-01-02",
+        "L448-01-03"
+      ],
+      "hub_role": "HISTORICAL_VOLUME"
+    },
+    {
+      "volume_id": "VOL-02",
+      "chapter_count": 3,
+      "body_chars": 5255,
+      "source_url_occurrences": 12,
+      "unique_urls": 12,
+      "case_cards": 7,
+      "chapter_ids": [
+        "L448-02-01",
+        "L448-02-02",
+        "L448-02-03"
+      ],
+      "hub_role": "HISTORICAL_VOLUME"
+    },
+    {
+      "volume_id": "VOL-03",
+      "chapter_count": 3,
+      "body_chars": 5664,
+      "source_url_occurrences": 11,
+      "unique_urls": 11,
+      "case_cards": 6,
+      "chapter_ids": [
+        "L448-03-01",
+        "L448-03-02",
+        "L448-03-03"
+      ],
+      "hub_role": "HISTORICAL_VOLUME"
+    },
+    {
+      "volume_id": "VOL-04",
+      "chapter_count": 3,
+      "body_chars": 9603,
+      "source_url_occurrences": 32,
+      "unique_urls": 31,
+      "case_cards": 9,
+      "chapter_ids": [
+        "L448-04-01",
+        "L448-04-02",
+        "L448-04-03"
+      ],
+      "hub_role": "HISTORICAL_VOLUME"
+    },
+    {
+      "volume_id": "VOL-05",
+      "chapter_count": 3,
+      "body_chars": 8630,
+      "source_url_occurrences": 19,
+      "unique_urls": 18,
+      "case_cards": 7,
+      "chapter_ids": [
+        "L448-05-01",
+        "L448-05-02",
+        "L448-05-03"
+      ],
+      "hub_role": "HISTORICAL_VOLUME"
+    },
+    {
+      "volume_id": "VOL-06",
+      "chapter_count": 3,
+      "body_chars": 8837,
+      "source_url_occurrences": 20,
+      "unique_urls": 18,
+      "case_cards": 8,
+      "chapter_ids": [
+        "L448-06-01",
+        "L448-06-02",
+        "L448-06-03"
+      ],
+      "hub_role": "HISTORICAL_VOLUME"
+    },
+    {
+      "volume_id": "VOL-07",
+      "chapter_count": 3,
+      "body_chars": 6980,
+      "source_url_occurrences": 22,
+      "unique_urls": 20,
+      "case_cards": 9,
+      "chapter_ids": [
+        "L448-07-01",
+        "L448-07-02",
+        "L448-07-03"
+      ],
+      "hub_role": "HISTORICAL_VOLUME"
+    },
+    {
+      "volume_id": "VOL-08",
+      "chapter_count": 3,
+      "body_chars": 6163,
+      "source_url_occurrences": 10,
+      "unique_urls": 9,
+      "case_cards": 0,
+      "chapter_ids": [
+        "L448-08-01",
+        "L448-08-02",
+        "L448-08-03"
+      ],
+      "hub_role": "THEMATIC_NOT_EIGHTH_CHRONOLOGICAL_ERA"
+    }
+  ],
+  "unique_source_url_count": 118,
+  "source_url_occurrences": 138,
+  "historical_body_chars_before": 56709,
+  "new_original_sources_verified": 0,
+  "can_ship": false,
+  "can_merge_main": false,
+  "can_import_ai_studio": false
+}
