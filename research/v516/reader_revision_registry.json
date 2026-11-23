@@ -1,0 +1,735 @@
+{
+  "schema": "ATLAS_V516_READER_FLOW_EDITORIAL_REVISIONS",
+  "version": "V5.16",
+  "date": "2026-11-23",
+  "branch": "research/atlas-v516-reader-flow-terminology-revision",
+  "base_ref": "research/atlas-v515-24-chapter-two-layer-reader-edition",
+  "structure": {
+    "volumes": 8,
+    "chapters": 24,
+    "reader_lead_min_chars": 150,
+    "reader_lead_max_chars": 250,
+    "detail_text_canonical": "V514 historical body retained exactly; split layers are presentation only",
+    "new_historical_cases": 0
+  },
+  "previews": [
+    {
+      "id": "L448-01-01",
+      "preview": "여러 도시의 사람들은 편지를 주고받고 여행자에게 소식을 들으며 모일 공간을 마련했습니다. 유프라테스 강가 두라에우로포스의 예배 건물은 3세기 그리스도인이 실제 어디서 만났는지 보여 줍니다. 바울의 편지 또한 각 도시 공동체의 고민을 전합니다. 문헌과 유적을 함께 읽으면 초기 기독교가 여러 지역에서 자라난 모습을 볼 수 있습니다. 다만 건물 한 채로 당시 모든 교회의 예배를 복원할 수는 없습니다.",
+      "question": "편지와 건물은 각각 무엇을 증명할까요?",
+      "volume_id": "VOL-01",
+      "period": "1–3세기",
+      "chapter_title": "도시와 언어가 바꾼 복음의 전달",
+      "source_boundary_from_original": "도시의 편지·교회 건축 유적·후대 복원은 서로 다른 자료입니다. 유적이 확인됐다고 주민 전체의 신앙이나 공통 교리를 복원할 수는 없습니다.",
+      "original_source_url_count": 3,
+      "verification": "EDITORIAL_PARAPHRASE_OF_V514_NOT_NEW_PRIMARY_SOURCE_REVIEW",
+      "reader_comprehension_test": false,
+      "human_expert_signoff": false,
+      "revision_v516": {
+        "type": "EDITORIAL_NARRATIVE_AND_ACCESSIBILITY_REWRITE",
+        "previous_chars": 184,
+        "new_chars": 222,
+        "reader_tested": false
+      },
+      "next_chapter_id_v516": "L448-01-02",
+      "bridge_to_next_v516": "도시의 공동체를 보았다면, 통치자의 정책이 그 삶에 어떤 영향을 주었는지 살펴봅니다.",
+      "glossary_terms_v516": [
+        "두라에우로포스"
+      ]
+    },
+    {
+      "id": "L448-01-02",
+      "preview": "3~4세기 기독교인은 어느 곳에서는 박해를, 다른 곳에서는 황실과 왕실의 후원을 경험했습니다. 로마의 정책 변화와 악숨 왕국의 십자가 주화는 통치자가 신앙에 부여한 공적 지위를 보여 줍니다. 하지만 법령이나 주화에 나타난 후원만으로 지역 주민 모두가 같은 믿음과 예배를 실천했다고 말할 수 없습니다. 권력의 선언과 공동체의 삶을 나누어 읽어야 합니다.",
+      "question": "통치자의 신앙은 주민 모두의 신앙일까요?",
+      "volume_id": "VOL-01",
+      "period": "3–4세기",
+      "chapter_title": "박해와 황실 보호 이후에도 지역은 달랐다",
+      "source_boundary_from_original": "주화·왕실 칭호·연대기 같은 기록으로 추론할 수 있는 것은 왕실의 변화입니다. 주민의 개종과 지역 예배는 추가 기록이 필요합니다.",
+      "original_source_url_count": 4,
+      "verification": "EDITORIAL_PARAPHRASE_OF_V514_NOT_NEW_PRIMARY_SOURCE_REVIEW",
+      "reader_comprehension_test": false,
+      "human_expert_signoff": false,
+      "next_chapter_id_v516": "L448-01-03",
+      "bridge_to_next_v516": "왕실의 후원과 주민의 삶이 달랐다면, 공의회 결정은 어떻게 받아들여졌을까요?",
+      "glossary_terms_v516": [
+        "악숨"
+      ]
+    },
+    {
+      "id": "L448-01-03",
+      "preview": "325년 니케아와 451년 칼케돈에서는 교회 지도자들이 모여 신앙의 논쟁을 다뤘습니다. 이런 모임을 공의회라고 합니다. 그러나 회의에서 문장을 결정한 순간 모든 지역 교회가 똑같은 예배를 드린 것은 아닙니다. 예루살렘을 여행한 에게리아의 기록은 사람들이 실제 예배 장소를 찾고 기도했던 모습을 전합니다. 공식 결정문과 여행자의 목격담을 함께 읽으면 고대 교회의 여러 모습을 더 가까이 볼 수 있습니다.",
+      "question": "공의회 문서와 여행 기록은 서로 무엇을 알려 줄까요?",
+      "volume_id": "VOL-01",
+      "period": "4–5세기",
+      "chapter_title": "공의회는 질문을 정리했지만 모든 차이를 지우지 못했다",
+      "source_boundary_from_original": "공의회 결정문은 공적 토론의 결과를 보여 줍니다. 콥트·시리아·아르메니아 전통의 지역별 수용은 해당 공동체의 자체 기록과 함께 검토해야 합니다.",
+      "original_source_url_count": 5,
+      "verification": "EDITORIAL_PARAPHRASE_OF_V514_NOT_NEW_PRIMARY_SOURCE_REVIEW",
+      "reader_comprehension_test": false,
+      "human_expert_signoff": false,
+      "revision_v516": {
+        "type": "EDITORIAL_NARRATIVE_AND_ACCESSIBILITY_REWRITE",
+        "previous_chars": 183,
+        "new_chars": 224,
+        "reader_tested": false
+      },
+      "next_chapter_id_v516": "L448-02-01",
+      "bridge_to_next_v516": "고대의 여러 지역 교회에서 출발해 중세 서아시아·중앙아시아·중국으로 이동합니다.",
+      "glossary_terms_v516": [
+        "공의회"
+      ]
+    },
+    {
+      "id": "L448-02-01",
+      "preview": "중세의 그리스도인은 서유럽에만 살지 않았습니다. 콘스탄티노폴리스의 교회, 메소포타미아의 시리아어 공동체, 중앙아시아의 교역로에서도 신앙과 문헌이 이어졌습니다. 그중 동시리아어는 서아시아 동부의 기독교 문헌과 예배에 사용된 언어 전통을 가리킵니다. 서로 다른 지역에서 비슷한 글이 발견되면 교류를 생각할 수 있지만 책을 공유했다는 사실만으로 모두 같은 지도자에게 속했다고 말하기는 어렵습니다.",
+      "question": "같은 문헌을 사용하면 같은 교회 조직일까요?",
+      "volume_id": "VOL-02",
+      "period": "6–15세기",
+      "chapter_title": "비잔틴·서아시아·서유럽의 서로 다른 중세",
+      "source_boundary_from_original": "동시리아어 문헌과 묘비·유물은 교류의 흔적을 남깁니다. 문헌이 비슷하다는 이유만으로 동일한 교회 조직을 증명할 수는 없습니다.",
+      "original_source_url_count": 4,
+      "verification": "EDITORIAL_PARAPHRASE_OF_V514_NOT_NEW_PRIMARY_SOURCE_REVIEW",
+      "reader_comprehension_test": false,
+      "human_expert_signoff": false,
+      "revision_v516": {
+        "type": "EDITORIAL_NARRATIVE_AND_ACCESSIBILITY_REWRITE",
+        "previous_chars": 201,
+        "new_chars": 218,
+        "reader_tested": false
+      },
+      "next_chapter_id_v516": "L448-02-02",
+      "bridge_to_next_v516": "지역별 문헌의 이동을 살핀 뒤 중국의 돌비석에 새겨진 기억을 읽습니다.",
+      "glossary_terms_v516": [
+        "동시리아어"
+      ]
+    },
+    {
+      "id": "L448-02-02",
+      "preview": "중국 서안에는 781년에 세운 돌비석이 남아 있습니다. 바로 경교비입니다. 비석에는 당나라에서 활동한 기독교 공동체가 635년의 일을 어떻게 기억했는지 중국어와 시리아어로 적혀 있습니다. 기록을 남긴 사람들의 언어와 자기 이해를 살펴볼 수 있는 자료입니다. 그러나 비석이 만들어진 때는 그 일이 일어났다고 전하는 때보다 훨씬 뒤입니다. 기억을 새긴 날짜와 기억 속 사건의 날짜를 나누어 읽어야 합니다.",
+      "question": "사건의 연도와 비석이 세워진 연도는 왜 다를까요?",
+      "volume_id": "VOL-02",
+      "period": "7–8세기",
+      "chapter_title": "경교비에서 읽는 635년의 사건과 781년의 증언",
+      "source_boundary_from_original": "781년의 비문은 해당 시기의 공동체가 앞선 역사를 어떻게 회고했는지 보여 줍니다. 회고된 635년 사건의 세부 사실은 그 자체로 전부 직접 확인된 것은 아닙니다.",
+      "original_source_url_count": 4,
+      "verification": "EDITORIAL_PARAPHRASE_OF_V514_NOT_NEW_PRIMARY_SOURCE_REVIEW",
+      "reader_comprehension_test": false,
+      "human_expert_signoff": false,
+      "revision_v516": {
+        "type": "EDITORIAL_NARRATIVE_AND_ACCESSIBILITY_REWRITE",
+        "previous_chars": 203,
+        "new_chars": 224,
+        "reader_tested": false
+      },
+      "next_chapter_id_v516": "L448-02-03",
+      "bridge_to_next_v516": "781년의 회고와 635년의 사건을 구별하고 동서 교회의 긴 관계를 살펴봅니다.",
+      "glossary_terms_v516": [
+        "경교비"
+      ]
+    },
+    {
+      "id": "L448-02-03",
+      "preview": "1054년 동서 교회의 충돌은 중요했지만 그날 모든 기독교인이 단번에 두 편으로 갈라진 것은 아닙니다. 1204년 콘스탄티노폴리스 약탈과 1439년 교회 일치 시도는 서로 다른 정치적·종교적 조건에서 일어났습니다. 세 날짜를 '하나의 영구 분열'로 합치면 교회 사이의 실제 관계 변화와 다시 대화하려 했던 사람들의 선택이 사라집니다. 사건의 종류를 먼저 구별합니다.",
+      "question": "갈등과 약탈, 일치 시도는 같은 역사적 사건일까요?",
+      "volume_id": "VOL-02",
+      "period": "11–15세기",
+      "chapter_title": "분열의 날짜보다 관계의 변화를 읽기",
+      "source_boundary_from_original": "교회 간 제재 문서, 군사적 사건 기록, 일치 시도 문서는 서로 다른 종류의 증거입니다. 어느 한 해의 공적 결정이 이후 모든 신자의 관계를 규정하지는 않습니다.",
+      "original_source_url_count": 4,
+      "verification": "EDITORIAL_PARAPHRASE_OF_V514_NOT_NEW_PRIMARY_SOURCE_REVIEW",
+      "reader_comprehension_test": false,
+      "human_expert_signoff": false,
+      "next_chapter_id_v516": "L448-03-01",
+      "bridge_to_next_v516": "교회 간 갈등을 지나 중세 내부에서 개혁을 요구했던 사람들을 만나 봅니다.",
+      "glossary_terms_v516": []
+    },
+    {
+      "id": "L448-03-01",
+      "preview": "12세기 프랑스 리옹에서는 청빈한 생활과 복음서 설교를 중시한 운동이 일어났습니다. 후대에 왈도파라 불린 사람들이 무엇을 믿고 실천했는지는 시대에 따라 달라졌습니다. 한편 14세기 시에나의 카타리나는 교황에게 편지를 보내 교회 지도자의 책임을 촉구했습니다. 두 사례는 서로 다른 방식으로 교회의 삶을 바꾸려 했다는 점에서 비교할 수 있습니다. 하지만 어느 쪽도 이미 완성된 16세기 개신교의 모습을 갖춘 것은 아닙니다.",
+      "question": "후대의 교파 이름으로 중세인을 설명해도 될까요?",
+      "volume_id": "VOL-03",
+      "period": "12–16세기",
+      "chapter_title": "왈도파의 청빈과 설교: 후대의 교파명으로 미리 이름 붙이지 않기",
+      "source_boundary_from_original": "초기 설교·청빈 운동에 관한 기록과 16세기 이후의 신앙고백·예배 규정은 시대가 다릅니다. 후대 집단 이름을 중세의 교리 전체에 소급하지 않습니다.",
+      "original_source_url_count": 5,
+      "verification": "EDITORIAL_PARAPHRASE_OF_V514_NOT_NEW_PRIMARY_SOURCE_REVIEW",
+      "reader_comprehension_test": false,
+      "human_expert_signoff": false,
+      "revision_v516": {
+        "type": "EDITORIAL_NARRATIVE_AND_ACCESSIBILITY_REWRITE",
+        "previous_chars": 206,
+        "new_chars": 234,
+        "reader_tested": false
+      },
+      "next_chapter_id_v516": "L448-03-02",
+      "bridge_to_next_v516": "청빈과 설교에서 성경 해석을 둘러싼 위클리프와 후스의 논쟁으로 이동합니다.",
+      "glossary_terms_v516": [
+        "왈도파"
+      ]
+    },
+    {
+      "id": "L448-03-02",
+      "preview": "영국의 위클리프와 보헤미아의 후스는 교회 지도자의 권위와 성경 해석을 둘러싼 논쟁에 참여했습니다. 후스가 위클리프에게 영향을 받은 면은 있지만 모든 교리를 똑같이 가르친 것은 아닙니다. 특히 빵과 포도주를 나누는 성찬의 의미를 설명하는 방식에 차이가 있었습니다. 이들의 글, 반대자가 붙인 주장, 후대 추종자들의 행동을 나누어 읽으면 두 사람을 단순한 종교개혁의 예고편이 아닌 자기 시대의 인물로 이해할 수 있습니다.",
+      "question": "영향을 받았다는 사실이 같은 교리를 믿었다는 뜻일까요?",
+      "volume_id": "VOL-03",
+      "period": "14–15세기",
+      "chapter_title": "위클리프와 후스: 영향을 받았어도 똑같이 믿지는 않았다",
+      "source_boundary_from_original": "위클리프의 은총·예정론에는 전문 학술 연구가 있으나 해당 라틴어 원전의 문장별 교감은 완료되지 않았습니다. 후스 개인과 후스파 집단도 동일한 증거 범주가 아닙니다.",
+      "original_source_url_count": 4,
+      "verification": "EDITORIAL_PARAPHRASE_OF_V514_NOT_NEW_PRIMARY_SOURCE_REVIEW",
+      "reader_comprehension_test": false,
+      "human_expert_signoff": false,
+      "revision_v516": {
+        "type": "EDITORIAL_NARRATIVE_AND_ACCESSIBILITY_REWRITE",
+        "previous_chars": 192,
+        "new_chars": 233,
+        "reader_tested": false
+      },
+      "next_chapter_id_v516": "L448-03-03",
+      "bridge_to_next_v516": "한 사람의 생각이 집단의 정치적 요구와 같았는지 보헤미아에서 확인합니다.",
+      "glossary_terms_v516": [
+        "성찬"
+      ]
+    },
+    {
+      "id": "L448-03-03",
+      "preview": "1415년 후스가 처형된 뒤 보헤미아에서는 여러 개혁 집단이 등장했습니다. 1420년 무렵의 프라하 4개조는 신앙과 권력에 관한 요구였고, 이후 전쟁과 교섭을 거쳐 1436년에는 다른 성격의 법적 합의가 나타났습니다. 처음 외친 요구와 나중에 시행된 규정이 모두 같았던 것은 아닙니다. 누가 요구했는지, 누가 협상했는지, 무엇이 제도로 남았는지 차례로 확인합니다.",
+      "question": "개혁 요구가 법적 합의로 바뀌면 무엇이 달라질까요?",
+      "volume_id": "VOL-03",
+      "period": "1415–1436년",
+      "chapter_title": "프라하 4개조에서 바젤 협상까지: 요구·전쟁·법의 시간표",
+      "source_boundary_from_original": "프라하 4개조의 요구, 바젤 교섭 기록과 이후의 공포는 서로 다른 자료 단계입니다. 한 집단의 초기 구호가 그대로 최종 제도가 된 것으로 단정하지 않습니다.",
+      "original_source_url_count": 2,
+      "verification": "EDITORIAL_PARAPHRASE_OF_V514_NOT_NEW_PRIMARY_SOURCE_REVIEW",
+      "reader_comprehension_test": false,
+      "human_expert_signoff": false,
+      "next_chapter_id_v516": "L448-04-01",
+      "bridge_to_next_v516": "요구·협상·법의 차이를 기억하며 1517년 이후의 인쇄와 도시를 살펴봅니다.",
+      "glossary_terms_v516": [
+        "후스파"
+      ]
+    },
+    {
+      "id": "L448-04-01",
+      "preview": "1517년 루터의 면죄부 논쟁은 설교와 인쇄물을 통해 여러 도시로 퍼졌습니다. 사람들은 무엇을 가르칠지, 학교와 구제기관을 어떻게 운영할지 논쟁했습니다. 1523년 아르굴라는 공개 글로 대학과 신앙의 권위에 도전했습니다. 한편 에티오피아 학자 테스파 시온은 1548~1549년 로마에서 에티오피아의 고전 예배·문헌 언어인 게에즈어 신약 인쇄에 참여했습니다. 이 활동을 독일 종교개혁의 결과로만 설명해서는 안 됩니다.",
+      "question": "글을 읽은 사람과 제도를 실제로 바꾼 사람은 같았을까요?",
+      "volume_id": "VOL-04",
+      "period": "16세기 전반",
+      "chapter_title": "1517년 논쟁은 왜 예배·학교·도시 정부의 문제로 커졌나",
+      "source_boundary_from_original": "설교·논쟁 문헌은 주장과 확산을 보여 주지만 학교·예배·구제의 실질 변화는 도시 규정과 시행 기록을 함께 살펴야 합니다.",
+      "original_source_url_count": 11,
+      "verification": "EDITORIAL_PARAPHRASE_OF_V514_NOT_NEW_PRIMARY_SOURCE_REVIEW",
+      "reader_comprehension_test": false,
+      "human_expert_signoff": false,
+      "revision_v516": {
+        "type": "EDITORIAL_NARRATIVE_AND_ACCESSIBILITY_REWRITE",
+        "previous_chars": 206,
+        "new_chars": 232,
+        "reader_tested": false
+      },
+      "next_chapter_id_v516": "L448-04-02",
+      "bridge_to_next_v516": "인쇄와 도시 제도를 본 뒤 신학적 합의와 공적 신앙고백의 차이를 읽습니다.",
+      "glossary_terms_v516": [
+        "게에즈어"
+      ]
+    },
+    {
+      "id": "L448-04-02",
+      "preview": "1529년 마르부르크 회담에서 개혁자들은 여러 교리에 동의했지만 성찬을 같은 말로 설명하지 못했습니다. 1530년 독일의 제후와 도시들은 아우크스부르크 제국회의에 신앙고백을 제출했습니다. 1531년 인쇄 신앙고백과 이를 옹호하는 별도 글인 변증서, 1540년 수정 신앙고백은 서로 구별해야 합니다. 이 문서의 차이는 신앙 논쟁이 공적 선언과 교리 설명으로 이어진 과정을 보여 줍니다. 원판의 글자 대조는 아직 연구 중입니다.",
+      "question": "회의에서 합의한 문서와 제국에 제출한 신앙고백은 무엇이 다를까요?",
+      "volume_id": "VOL-04",
+      "period": "1529–1540년",
+      "chapter_title": "마르부르크의 합의와 아우크스부르크 판본: 신학과 서지의 차이",
+      "source_boundary_from_original": "1529년의 독일어 문서는 현대 전사로, 1531/1540년 성찬 문구 차이는 1858년 『Corpus Reformatorum』의 인쇄 교감판으로 확인했습니다. 당대 1529·1531·1540년 실물 원문을 모두 직접 대조한 것은 아닙니다.",
+      "original_source_url_count": 17,
+      "verification": "EDITORIAL_PARAPHRASE_OF_V514_NOT_NEW_PRIMARY_SOURCE_REVIEW",
+      "reader_comprehension_test": false,
+      "human_expert_signoff": false,
+      "revision_v516": {
+        "type": "EDITORIAL_NARRATIVE_AND_ACCESSIBILITY_REWRITE",
+        "previous_chars": 223,
+        "new_chars": 237,
+        "reader_tested": false
+      },
+      "next_chapter_id_v516": "L448-04-03",
+      "bridge_to_next_v516": "한 신앙고백에도 여러 판본이 있다면 실제 교회조직은 얼마나 달랐을까요?",
+      "glossary_terms_v516": [
+        "성찬",
+        "신앙고백",
+        "변증서"
+      ]
+    },
+    {
+      "id": "L448-04-03",
+      "preview": "제네바에서는 도시의 교회 규정이 예배와 생활에 영향을 주었습니다. 잉글랜드에서는 의회와 왕권이 교회 제도를 바꾸는 데 중요한 역할을 했습니다. 성인 신자의 세례와 공동체의 선택을 강조한 재세례파는 또 다른 길을 택했고 여러 곳에서 제약을 받았습니다. 세 흐름을 모두 '개신교가 만들어졌다'는 한 문장으로 묶으면 누구에게 결정권이 있었고 누가 반대했는지가 사라집니다. 각 지역의 실제 제도를 비교하며 읽습니다.",
+      "question": "같은 개혁이라는 이름 아래 왜 서로 다른 교회 제도가 나타났을까요?",
+      "volume_id": "VOL-04",
+      "period": "16세기",
+      "chapter_title": "제네바·잉글랜드·재세례파: 똑같은 개혁을 다른 제도로 만들다",
+      "source_boundary_from_original": "도시 규정과 국가 법률은 공적 제도를 보여 줍니다. 소수 공동체의 신앙고백과 박해 경험은 다른 정치적 조건에서 읽어야 합니다.",
+      "original_source_url_count": 4,
+      "verification": "EDITORIAL_PARAPHRASE_OF_V514_NOT_NEW_PRIMARY_SOURCE_REVIEW",
+      "reader_comprehension_test": false,
+      "human_expert_signoff": false,
+      "revision_v516": {
+        "type": "EDITORIAL_NARRATIVE_AND_ACCESSIBILITY_REWRITE",
+        "previous_chars": 206,
+        "new_chars": 228,
+        "reader_tested": false
+      },
+      "next_chapter_id_v516": "L448-05-01",
+      "bridge_to_next_v516": "제네바·잉글랜드·재세례파에 이어 같은 시대의 가톨릭 쇄신을 살펴봅니다.",
+      "glossary_terms_v516": [
+        "재세례파"
+      ]
+    },
+    {
+      "id": "L448-05-01",
+      "preview": "가톨릭의 쇄신은 개신교가 등장한 뒤 갑자기 시작된 하나의 반격이 아니었습니다. 수도회와 성직자 교육, 주교의 책임을 돌아보는 시도는 이전부터 있었고, 종교개혁 논쟁 속에서 새로운 결정을 낳았습니다. 트리엔트 공의회의 교리와 규정도 각 교구에서 실제로 시행되기까지 시간이 필요했습니다. 회의 문서와 지역 교회의 생활을 구별하면 단순한 진영 대결을 넘어설 수 있습니다.",
+      "question": "공의회가 정한 규칙은 언제 주민의 생활이 되었을까요?",
+      "volume_id": "VOL-05",
+      "period": "16–17세기",
+      "chapter_title": "가톨릭의 개혁을 오직 개신교에 대한 반응으로 읽지 않기",
+      "source_boundary_from_original": "공의회 회기·결정은 공식 교리와 규정을 보여 주며, 실제 성직자 교육·교구 시행은 지역별 기록을 더 요구합니다. 교회의 내부 변화와 교파적 대립을 모두 살펴야 합니다.",
+      "original_source_url_count": 3,
+      "verification": "EDITORIAL_PARAPHRASE_OF_V514_NOT_NEW_PRIMARY_SOURCE_REVIEW",
+      "reader_comprehension_test": false,
+      "human_expert_signoff": false,
+      "next_chapter_id_v516": "L448-05-02",
+      "bridge_to_next_v516": "공의회의 결정을 본 뒤 제국의 법이 교파 사이의 관계를 어떻게 조정했는지 읽습니다.",
+      "glossary_terms_v516": [
+        "공의회"
+      ]
+    },
+    {
+      "id": "L448-05-02",
+      "preview": "1555년 아우크스부르크 종교화의는 제국 안의 신앙 갈등을 법으로 조정하려는 합의였습니다. 약 한 세기 뒤 1648년의 평화 협정은 다시 다른 조건에서 권리와 관계를 정리했습니다. 그러나 이 결정이 주민 모두에게 오늘날과 같은 종교의 자유를 준 것은 아닙니다. 어느 교파가 인정됐는지, 어떤 제후와 도시가 선택할 권한을 가졌는지, 누가 보호받지 못했는지 살펴야 합니다. '평화'라는 이름 뒤에 있는 사람들의 실제 조건을 묻는 장입니다.",
+      "question": "어떤 사람에게, 어느 범위까지 종교적 선택이 허용됐을까요?",
+      "volume_id": "VOL-05",
+      "period": "1555–1648년",
+      "chapter_title": "1555년과 1648년: 공존의 법적 범위와 배제",
+      "source_boundary_from_original": "1555년 제17·18·24조는 당시 인쇄본을 저본으로 한 독일어 학술 전사에서, 1648년 오스나브뤼크 제5·7조는 라틴어 현대 전사에서 확인했습니다. 당대 인쇄본 전체의 직접 교감과 지역별 집행 검증은 남아 있습니다.",
+      "original_source_url_count": 5,
+      "verification": "EDITORIAL_PARAPHRASE_OF_V514_NOT_NEW_PRIMARY_SOURCE_REVIEW",
+      "reader_comprehension_test": false,
+      "human_expert_signoff": false,
+      "revision_v516": {
+        "type": "EDITORIAL_NARRATIVE_AND_ACCESSIBILITY_REWRITE",
+        "previous_chars": 200,
+        "new_chars": 243,
+        "reader_tested": false
+      },
+      "next_chapter_id_v516": "L448-05-03",
+      "bridge_to_next_v516": "법에서 인정한 공존이 학교와 가정에서 어떤 삶이 되었는지 살펴봅니다.",
+      "glossary_terms_v516": [
+        "종교화의"
+      ]
+    },
+    {
+      "id": "L448-05-03",
+      "preview": "16~17세기 유럽의 교회 규정은 학교와 혼인, 구제와 예배에 영향을 주었습니다. 그러나 같은 시기에 아메리카의 그리스도인들은 다른 정치적 현실을 겪었습니다. 안데스의 원주민 저술가 과만 포마는 약 1615년 식민 통치와 일부 성직자의 잘못을 글과 그림으로 비판했습니다. 멕시코의 수도자 소르 후아나는 1691년 자신이 공부하고 글을 쓴 이유를 설명했습니다. 법을 만드는 사람뿐 아니라 그 아래에서 자기 목소리를 남긴 사람들도 만나 봅니다.",
+      "question": "공식 규정 밖에서 자기 말을 남긴 사람은 누구였을까요?",
+      "volume_id": "VOL-05",
+      "period": "16–17세기",
+      "chapter_title": "교파의 경계가 만들어지며 일상의 규율도 달라졌다",
+      "source_boundary_from_original": "교회 규정은 공식 기준의 증거입니다. 주민의 경험을 알려면 지역 재판·학교·결혼·구제 기록이 필요합니다. 여성·평신도의 삶을 제도의 글만으로 대신하지 않습니다.",
+      "original_source_url_count": 11,
+      "verification": "EDITORIAL_PARAPHRASE_OF_V514_NOT_NEW_PRIMARY_SOURCE_REVIEW",
+      "reader_comprehension_test": false,
+      "human_expert_signoff": false,
+      "revision_v516": {
+        "type": "EDITORIAL_NARRATIVE_AND_ACCESSIBILITY_REWRITE",
+        "previous_chars": 209,
+        "new_chars": 246,
+        "reader_tested": false
+      },
+      "next_chapter_id_v516": "L448-06-01",
+      "bridge_to_next_v516": "유럽과 아메리카의 생활을 본 뒤 경건과 부흥의 새로운 실천을 찾아갑니다.",
+      "glossary_terms_v516": [
+        "신앙고백"
+      ]
+    },
+    {
+      "id": "L448-06-01",
+      "preview": "종교개혁 이후에도 사람들은 믿음을 일상에서 어떻게 살아낼지 고민했습니다. 할레에서는 교육과 구제가, 헤른후트에서는 공동체 생활이 중요한 관심이었습니다. 감리교 부흥에서도 회심과 신앙의 실천을 강조했습니다. 이 흐름들은 경건주의나 부흥운동으로 함께 소개되지만 지도자와 조직, 시대가 모두 같지는 않습니다. 이름을 외우기보다 사람들이 무엇을 바꾸려 했고 어떤 공동체가 만들어졌는지 따라가 봅니다.",
+      "question": "경건한 삶을 강조했다는 공통점만으로 같은 운동일까요?",
+      "volume_id": "VOL-06",
+      "period": "17–19세기",
+      "chapter_title": "경건주의와 부흥운동은 같은 단체가 아니었다",
+      "source_boundary_from_original": "학교·고아원·공동체 기록과 후대 운동사의 설명은 근거 수준이 다릅니다. 한 부흥운동에서 다른 운동으로의 직접 영향은 문헌과 실제 인물의 연결을 확인해야 합니다.",
+      "original_source_url_count": 6,
+      "verification": "EDITORIAL_PARAPHRASE_OF_V514_NOT_NEW_PRIMARY_SOURCE_REVIEW",
+      "reader_comprehension_test": false,
+      "human_expert_signoff": false,
+      "revision_v516": {
+        "type": "EDITORIAL_NARRATIVE_AND_ACCESSIBILITY_REWRITE",
+        "previous_chars": 199,
+        "new_chars": 219,
+        "reader_tested": false
+      },
+      "next_chapter_id_v516": "L448-06-02",
+      "bridge_to_next_v516": "신앙생활의 관심이 번역과 출판을 통해 다른 언어와 만나는 과정을 살펴봅니다.",
+      "glossary_terms_v516": [
+        "경건주의"
+      ]
+    },
+    {
+      "id": "L448-06-02",
+      "preview": "18세기 초 남인도의 해안 도시 트랑케바르에서는 타밀어 신약을 번역하고 인쇄하는 일이 진행됐습니다. 유럽 선교사가 참여했지만 현지 언어를 가르치고 글을 이해하며 책을 읽은 사람들의 역할도 중요했습니다. 다만 1714년, 1715년, 1719년의 기록이 정확히 같은 책을 가리키는지는 아직 확인이 필요합니다. 책이 출판됐다고 말하기 전에 어느 부분이 언제 인쇄됐고 누가 읽을 수 있었는지 묻습니다.",
+      "question": "책이 인쇄됐다는 사실과 누가 그 언어를 선택했는지는 어떻게 다를까요?",
+      "volume_id": "VOL-06",
+      "period": "1706–1719년",
+      "chapter_title": "남인도 타밀어 성경: 인쇄 기계보다 중요한 사람과 판본",
+      "source_boundary_from_original": "1714·1715·1719년은 같은 한 권의 출판연도라고 확정할 수 없습니다. 기관별 소장 기록, 부분본·전권 여부와 표제지·권말 정보의 추가 대조가 필요합니다.",
+      "original_source_url_count": 4,
+      "verification": "EDITORIAL_PARAPHRASE_OF_V514_NOT_NEW_PRIMARY_SOURCE_REVIEW",
+      "reader_comprehension_test": false,
+      "human_expert_signoff": false,
+      "revision_v516": {
+        "type": "EDITORIAL_NARRATIVE_AND_ACCESSIBILITY_REWRITE",
+        "previous_chars": 214,
+        "new_chars": 221,
+        "reader_tested": false
+      },
+      "next_chapter_id_v516": "L448-06-03",
+      "bridge_to_next_v516": "책과 독자의 역사를 넘어 카리브해와 태평양 현지 신자들의 활동을 읽습니다.",
+      "glossary_terms_v516": [
+        "트랑케바르"
+      ]
+    },
+    {
+      "id": "L448-06-03",
+      "preview": "카리브해의 선교사들은 노예제가 존재하는 사회에서 활동했습니다. 세례를 받았다는 사실이 곧 법적으로 자유로운 사람이 됐다는 뜻은 아니었습니다. 태평양에서는 파페이하와 타웅아 같은 현지 전도자가 새로운 공동체를 만드는 일에 참여했습니다. 1820년 타히티 왕비가 여성에게 돌봄을 요청한 이야기와 여성들의 교육 활동도 남아 있습니다. 다만 그 선택을 전하는 기록 대부분은 당사자가 아닌 다른 사람이 썼다는 점을 함께 생각해야 합니다.",
+      "question": "선교 보고서에서 이름이 보인다는 것과 당사자가 직접 증언한 것은 같을까요?",
+      "volume_id": "VOL-06",
+      "period": "18–19세기",
+      "chapter_title": "선교와 제국의 접촉: 외부의 확장만이 세계사의 주인공은 아니다",
+      "source_boundary_from_original": "선교사 보고는 선교기관의 관점을, 식민지 법률·사회사 기록은 다른 조건을 보여 줍니다. 지역 신앙인의 주체성을 말할 때도 노예제와 제국의 제약을 지워서는 안 됩니다.",
+      "original_source_url_count": 10,
+      "verification": "EDITORIAL_PARAPHRASE_OF_V514_NOT_NEW_PRIMARY_SOURCE_REVIEW",
+      "reader_comprehension_test": false,
+      "human_expert_signoff": false,
+      "revision_v516": {
+        "type": "EDITORIAL_NARRATIVE_AND_ACCESSIBILITY_REWRITE",
+        "previous_chars": 222,
+        "new_chars": 239,
+        "reader_tested": false
+      },
+      "next_chapter_id_v516": "L448-07-01",
+      "bridge_to_next_v516": "18~19세기 선교를 지나 그 이전부터 아프리카·서아시아에 있던 교회로 돌아갑니다.",
+      "glossary_terms_v516": []
+    },
+    {
+      "id": "L448-07-01",
+      "preview": "이집트와 에티오피아에는 유럽의 근대 선교보다 훨씬 오래된 교회들이 있었습니다. 그곳의 그리스도인들은 자기 언어와 예배, 지역의 정치적 변화를 겪으며 살아왔습니다. 20세기 아프리카에서 형성된 여러 독립교회와 중동 지역의 교회협의체도 각각 다른 역사를 가집니다. 오늘날 세계 기독교를 그리려면 유럽 선교사의 항로만이 아니라 이미 존재하던 교회와 새로운 지역 공동체를 한 지도에서 구별해야 합니다.",
+      "question": "선교사의 도착 연도로 한 지역 교회의 역사를 시작해도 될까요?",
+      "volume_id": "VOL-07",
+      "period": "고대 전통–20세기",
+      "chapter_title": "아프리카와 중동에는 근대 선교 이전부터 교회가 있었다",
+      "source_boundary_from_original": "고대 교회 문헌과 근대 독립교회 조직·국제 협의체 기록은 다른 종류입니다. AIC·MECC 같은 약어를 동일 조직이나 같은 시기에 시작된 전통으로 묶지 않습니다.",
+      "original_source_url_count": 4,
+      "verification": "EDITORIAL_PARAPHRASE_OF_V514_NOT_NEW_PRIMARY_SOURCE_REVIEW",
+      "reader_comprehension_test": false,
+      "human_expert_signoff": false,
+      "revision_v516": {
+        "type": "EDITORIAL_NARRATIVE_AND_ACCESSIBILITY_REWRITE",
+        "previous_chars": 215,
+        "new_chars": 220,
+        "reader_tested": false
+      },
+      "next_chapter_id_v516": "L448-07-02",
+      "bridge_to_next_v516": "오래된 지역 교회의 시간 뒤에 한국 기독교의 여러 출발점을 살펴봅니다.",
+      "glossary_terms_v516": []
+    },
+    {
+      "id": "L448-07-02",
+      "preview": "한국 기독교의 역사는 어느 한 해 외국 선교사가 도착한 사건만으로 시작되지 않습니다. 조선의 지식인이 서학 문헌을 읽은 과정, 세례와 공동체의 형성, 한국어 성경의 번역·인쇄, 근현대 교회의 사회적 참여에는 각각 다른 출발점이 있습니다. 천주교와 개신교의 역사도 하나로 합쳐서는 안 됩니다. 여러 시작의 시간을 비교하면 신앙을 받아들이고 해석한 한국 사람들의 역할이 더 잘 보입니다.",
+      "question": "읽기와 세례, 번역과 교회 설립의 시작은 왜 서로 다를까요?",
+      "volume_id": "VOL-07",
+      "period": "1779–20세기 후반",
+      "chapter_title": "한국교회의 서로 다른 시작: 독서·세례·번역·사회참여",
+      "source_boundary_from_original": "초기 강학에 관한 전승과 출판된 한국어 성경의 소장본은 각각 확인할 근거가 다릅니다. 특히 1900년 여러 인쇄본의 본문 이문은 실물 대조가 끝나지 않았습니다.",
+      "original_source_url_count": 6,
+      "verification": "EDITORIAL_PARAPHRASE_OF_V514_NOT_NEW_PRIMARY_SOURCE_REVIEW",
+      "reader_comprehension_test": false,
+      "human_expert_signoff": false,
+      "next_chapter_id_v516": "L448-07-03",
+      "bridge_to_next_v516": "한국 사람들의 독서·번역·참여 뒤 국제회의에서 누가 발언했는지 비교합니다.",
+      "glossary_terms_v516": []
+    },
+    {
+      "id": "L448-07-03",
+      "preview": "1910년 에든버러에서 세계선교를 논의하는 회의가 열렸지만 대표 구성은 각 지역 기독교인의 경험을 고르게 대변하지 못했습니다. 이후 세계교회협의회 같은 국제 조직이 만들어졌고, 1968년 라틴아메리카 메데인에서는 빈곤과 교회의 책임을 논의했습니다. 인도에서 차별을 경험한 사람들의 해석인 달리트 신학과 한국의 민중신학도 다른 현장에서 나왔습니다. 중요한 질문은 회의 이름보다 누가 자기 지역의 삶을 말할 수 있었는가입니다.",
+      "question": "국제회의의 대표가 지역 교회의 목소리 전체를 대신할 수 있을까요?",
+      "volume_id": "VOL-07",
+      "period": "1910–20세기 후반",
+      "chapter_title": "라틴아메리카·아시아와 세계교회의 새로운 질문",
+      "source_boundary_from_original": "1910년 대표 수치는 후대 국제 기독교 기관의 정리 자료에 근거합니다. 메데인 회의의 공식 기록은 일부 메타데이터만 확인했고, 달리트·민중신학 전체를 대표 저술 직접 교감으로 확정하지 않았습니다.",
+      "original_source_url_count": 12,
+      "verification": "EDITORIAL_PARAPHRASE_OF_V514_NOT_NEW_PRIMARY_SOURCE_REVIEW",
+      "reader_comprehension_test": false,
+      "human_expert_signoff": false,
+      "revision_v516": {
+        "type": "EDITORIAL_NARRATIVE_AND_ACCESSIBILITY_REWRITE",
+        "previous_chars": 229,
+        "new_chars": 236,
+        "reader_tested": false
+      },
+      "next_chapter_id_v516": "L448-08-01",
+      "bridge_to_next_v516": "세계 여러 지역의 여정을 마친 뒤 제8권에서 권위와 구원이라는 질문으로 다시 읽습니다.",
+      "glossary_terms_v516": [
+        "세계교회협의회",
+        "달리트 신학",
+        "민중신학"
+      ]
+    },
+    {
+      "id": "L448-08-01",
+      "preview": "제8권은 새로운 시대가 아니라 앞선 일곱 권을 다시 여행하는 안내입니다. 먼저 '누가 성경과 교회의 가르침을 설명할 권한이 있는가'를 묻습니다. 이어 '은총과 구원은 무엇을 뜻하는가'라는 질문으로 각 시대의 글을 비교합니다. 공의회의 결정, 중세 저술가의 편지, 16세기 신앙고백, 남인도와 조선의 성경 번역은 서로 다른 장면입니다. 같은 질문이 반복돼도 각 지역 사람들이 실제로 내린 답은 달랐습니다.",
+      "question": "같은 질문을 하는 두 시대는 반드시 같은 답을 내렸을까요?",
+      "volume_id": "VOL-08",
+      "period": "전 시대 비교",
+      "chapter_title": "질문 1·2 — 성경과 권위 / 은총과 구원",
+      "source_boundary_from_original": "이 장은 새로운 시대의 1차 문헌이 아니라 제1~7권을 가로질러 읽는 주제 안내입니다. 특정 교리의 근거는 원래의 신앙고백·공의회와 해당 역사 장에서 확인합니다.",
+      "original_source_url_count": 3,
+      "verification": "EDITORIAL_PARAPHRASE_OF_V514_NOT_NEW_PRIMARY_SOURCE_REVIEW",
+      "reader_comprehension_test": false,
+      "human_expert_signoff": false,
+      "revision_v516": {
+        "type": "EDITORIAL_NARRATIVE_AND_ACCESSIBILITY_REWRITE",
+        "previous_chars": 211,
+        "new_chars": 225,
+        "reader_tested": false
+      },
+      "next_chapter_id_v516": "L448-08-02",
+      "bridge_to_next_v516": "권위와 구원을 묻고 나서 그 신앙이 예배와 생활에서 어떻게 드러났는지 살펴봅니다.",
+      "glossary_terms_v516": []
+    },
+    {
+      "id": "L448-08-02",
+      "preview": "어떤 공동체에서는 빵과 포도주를 나누는 성찬의 의미를 둘러싸고 논쟁했습니다. 다른 공동체에서는 예배 장소와 학교, 가난한 이웃을 돌보는 방식을 정했습니다. 두 주제는 연결되지만 같은 종류의 기록으로 모두 설명할 수는 없습니다. 위클리프와 후스, 1529년 마르부르크의 논쟁을 읽은 뒤 제네바의 규정과 지역 생활 기록으로 돌아가 봅니다. 믿는 내용을 적은 문서와 그 믿음대로 살았는지 보여 주는 기록을 구별하는 길잡이입니다.",
+      "question": "신앙고백의 문장만으로 교회생활 전부를 알 수 있을까요?",
+      "volume_id": "VOL-08",
+      "period": "중세–근현대 비교",
+      "chapter_title": "질문 3·4 — 성찬과 예배 / 교회조직과 생활",
+      "source_boundary_from_original": "성찬 신학의 주장은 교리 문헌에서, 학교와 생활의 변화는 지역 기록에서 확인해야 합니다. 과만 포마의 고해 그림은 성찬의 직접적인 1차 증거가 아닙니다.",
+      "original_source_url_count": 3,
+      "verification": "EDITORIAL_PARAPHRASE_OF_V514_NOT_NEW_PRIMARY_SOURCE_REVIEW",
+      "reader_comprehension_test": false,
+      "human_expert_signoff": false,
+      "revision_v516": {
+        "type": "EDITORIAL_NARRATIVE_AND_ACCESSIBILITY_REWRITE",
+        "previous_chars": 217,
+        "new_chars": 236,
+        "reader_tested": false
+      },
+      "next_chapter_id_v516": "L448-08-03",
+      "bridge_to_next_v516": "예배와 생활을 본 뒤 국가와 지역 언어의 문제를 마지막 질문으로 살펴봅니다.",
+      "glossary_terms_v516": [
+        "성찬"
+      ]
+    },
+    {
+      "id": "L448-08-03",
+      "preview": "마지막 두 질문은 '국가와 교회는 갈등 속에서 어떻게 공존했는가'와 '번역된 신앙은 지역에서 어떻게 받아들여졌는가'입니다. 악숨의 왕실 후원, 1555년의 법적 화의, 남인도의 타밀어 성경, 한국의 번역과 사회참여는 시대도 제도도 다릅니다. 한 이야기의 원인과 결과로 꿰기보다 누가 결정을 내리고 누가 책을 읽었는지 비교합니다. 질문을 마치면 각 시대의 문헌으로 다시 돌아갑니다.",
+      "question": "서로 다른 지역의 비슷한 사건을 곧바로 같은 계보로 묶어도 될까요?",
+      "volume_id": "VOL-08",
+      "period": "고대–현대 비교",
+      "chapter_title": "질문 5·6 — 국가·갈등·공존 / 번역과 지역 수용",
+      "source_boundary_from_original": "이 장 역시 연구용 주제 지도입니다. 타밀어 1715/1719년 서지나 한국어 성경 원판의 미확정 본문은 출판 사실과 혼동하지 않아야 합니다.",
+      "original_source_url_count": 4,
+      "verification": "EDITORIAL_PARAPHRASE_OF_V514_NOT_NEW_PRIMARY_SOURCE_REVIEW",
+      "reader_comprehension_test": false,
+      "human_expert_signoff": false,
+      "next_chapter_id_v516": "L448-01-01",
+      "bridge_to_next_v516": "여섯 질문을 마쳤다면 제1권으로 돌아가 도시와 언어의 역사를 다시 읽습니다.",
+      "glossary_terms_v516": [
+        "악숨"
+      ]
+    }
+  ],
+  "metrics": {
+    "preview_count": 24,
+    "summary_chars_total": 5370,
+    "summary_chars_min": 196,
+    "summary_chars_max": 246,
+    "each_150_250": true,
+    "all_questions_unique": true,
+    "rewritten": 18,
+    "bridges": 24,
+    "glossary_terms": 18
+  },
+  "gates": {
+    "can_ship": false,
+    "can_merge_main": false,
+    "can_import_ai_studio": false,
+    "expert_reviews": 0,
+    "human_readers": 0,
+    "live_app_e2e": 0
+  },
+  "glossary_v516": [
+    {
+      "term": "두라에우로포스",
+      "definition": "유프라테스 강변의 고대 도시. 초기 기독교 예배 공간 유적이 발견된 곳",
+      "chapters": [
+        "L448-01-01"
+      ]
+    },
+    {
+      "term": "악숨",
+      "definition": "고대 아프리카 북동부의 왕국. 주화와 기록으로 왕실의 신앙 후원을 살필 수 있음",
+      "chapters": [
+        "L448-01-02",
+        "L448-08-03"
+      ]
+    },
+    {
+      "term": "공의회",
+      "definition": "교회 지도자들이 모여 신앙과 교회의 문제를 논의하고 결정하는 회의",
+      "chapters": [
+        "L448-01-03",
+        "L448-05-01"
+      ]
+    },
+    {
+      "term": "동시리아어",
+      "definition": "서아시아 동부 교회 전통에 관련된 시리아어의 언어·문헌 계열",
+      "chapters": [
+        "L448-02-01"
+      ]
+    },
+    {
+      "term": "경교비",
+      "definition": "당나라 기독교 공동체가 781년에 자신들의 역사를 새긴 중국의 돌비석",
+      "chapters": [
+        "L448-02-02"
+      ]
+    },
+    {
+      "term": "성찬",
+      "definition": "그리스도인이 빵과 포도주를 나누며 그리스도를 기억하는 예식. 의미 해석은 전통마다 다름",
+      "chapters": [
+        "L448-03-02",
+        "L448-04-02",
+        "L448-08-02"
+      ]
+    },
+    {
+      "term": "왈도파",
+      "definition": "12세기 리옹의 청빈·설교 운동에서 이어져 여러 시대에 변화한 기독교 운동",
+      "chapters": [
+        "L448-03-01"
+      ]
+    },
+    {
+      "term": "후스파",
+      "definition": "보헤미아의 후스를 지지하면서도 서로 다른 정치·신학적 입장을 지닌 개혁 집단들",
+      "chapters": [
+        "L448-03-03"
+      ]
+    },
+    {
+      "term": "게에즈어",
+      "definition": "에티오피아의 고전 문헌과 예배에 쓰인 언어",
+      "chapters": [
+        "L448-04-01"
+      ]
+    },
+    {
+      "term": "신앙고백",
+      "definition": "공동체가 무엇을 믿고 가르치는지 공식적으로 설명한 문서",
+      "chapters": [
+        "L448-04-02",
+        "L448-05-03"
+      ]
+    },
+    {
+      "term": "변증서",
+      "definition": "신앙고백에 대한 반박에 답하며 그 내용을 옹호하는 별도의 논증문",
+      "chapters": [
+        "L448-04-02"
+      ]
+    },
+    {
+      "term": "재세례파",
+      "definition": "성인 신자의 신앙 고백과 세례를 강조한 16세기의 다양한 개혁 운동",
+      "chapters": [
+        "L448-04-03"
+      ]
+    },
+    {
+      "term": "종교화의",
+      "definition": "신성로마제국에서 신앙 갈등을 법과 합의로 조정하려는 결정",
+      "chapters": [
+        "L448-05-02"
+      ]
+    },
+    {
+      "term": "경건주의",
+      "definition": "교리 지식뿐 아니라 개인과 공동체의 실제 신앙생활을 강조한 여러 운동",
+      "chapters": [
+        "L448-06-01"
+      ]
+    },
+    {
+      "term": "트랑케바르",
+      "definition": "오늘날 인도 타랑감바디에 해당하는 해안 도시. 초기 타밀어 성경 출판과 관련",
+      "chapters": [
+        "L448-06-02"
+      ]
+    },
+    {
+      "term": "세계교회협의회",
+      "definition": "여러 교회가 대화하고 협력하는 국제 협의체로, 모든 교파의 상위 교회는 아님",
+      "chapters": [
+        "L448-07-03"
+      ]
+    },
+    {
+      "term": "달리트 신학",
+      "definition": "인도에서 카스트 차별을 경험한 이들의 삶과 성경 해석을 연결하는 흐름",
+      "chapters": [
+        "L448-07-03"
+      ]
+    },
+    {
+      "term": "민중신학",
+      "definition": "한국에서 사회적 고통과 당사자의 경험을 바탕으로 성경을 새롭게 읽는 흐름",
+      "chapters": [
+        "L448-07-03"
+      ]
+    }
+  ],
+  "editorial_review_v516": {
+    "changed_chapter_ids": [
+      "L448-01-01",
+      "L448-01-03",
+      "L448-02-01",
+      "L448-02-02",
+      "L448-03-01",
+      "L448-03-02",
+      "L448-04-01",
+      "L448-04-02",
+      "L448-04-03",
+      "L448-05-02",
+      "L448-05-03",
+      "L448-06-01",
+      "L448-06-02",
+      "L448-06-03",
+      "L448-07-01",
+      "L448-07-03",
+      "L448-08-01",
+      "L448-08-02"
+    ],
+    "changed_previews": 18,
+    "other_previews_unchanged": 6,
+    "transition_bridges": 24,
+    "glossary_terms": 18,
+    "preview_chars_min": 196,
+    "preview_chars_max": 246,
+    "previous_preview_chars": 4953,
+    "current_preview_chars": 5370,
+    "new_primary_sources_visited": 0,
+    "reader_trials": 0
+  }
+}
