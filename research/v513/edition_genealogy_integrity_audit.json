@@ -1,0 +1,30 @@
+{
+  "schema": "ATLAS_V513_FOUR_GROUP_HISTORY_INTEGRITY_AUDIT",
+  "version": "V5.13",
+  "date": "2026-11-23",
+  "branch": "research/atlas-v513-four-witness-edition-genealogy",
+  "body_chars_before": 51654,
+  "body_chars_after": 52812,
+  "net_added": 1158,
+  "volumes": 8,
+  "chapters": 24,
+  "changed_chapters": [
+    "L448-04-02"
+  ],
+  "unchanged_chapters": 23,
+  "tests": {
+    "chapters_24": true,
+    "all_ids_same": true,
+    "unmodified_23_exact": true,
+    "old_source_urls_retained": true,
+    "added_genealogy_4_groups": true,
+    "holding_correction_present": true,
+    "first_print_not_claimed": true
+  },
+  "expert_reviews": 0,
+  "actual_reader_tests": 0,
+  "live_app_e2e": 0,
+  "can_ship": false,
+  "can_merge_main": false,
+  "can_import_ai_studio": false
+}
