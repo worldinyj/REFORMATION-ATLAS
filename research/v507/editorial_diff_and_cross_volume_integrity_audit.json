@@ -1,0 +1,87 @@
+{
+  "schema": "ATLAS_V507_EIGHT_VOLUME_HISTORICAL_FLOW_PRECISE_DIFF_AUDIT",
+  "version": "V5.07",
+  "date": "2026-11-23",
+  "branch": "research/atlas-v507-eight-volume-historical-flow-edit",
+  "status": "EDITORIAL_TEXT_REVISED_NOT_HISTORIAN_VALIDATED",
+  "can_ship": false,
+  "can_merge_main": false,
+  "can_import_ai_studio": false,
+  "objects": {
+    "prior": {
+      "path": "research/data/V500_EIGHT_VOLUME_24_CHAPTER_EDITORIAL_REVIEW_CANDIDATE.json",
+      "sha": "5e3db4f82511ca57b971b1f5811cbca35a33476c",
+      "branch": "research/atlas-v507-eight-volume-historical-flow-edit"
+    },
+    "revised": {
+      "path": "research/data/V507_EIGHT_VOLUME_24_CHAPTER_READABLE_EDITORIAL_CANDIDATE.json",
+      "sha": "64d58154dacf599fb2645297eedfd81fdeaab838",
+      "branch": "research/atlas-v507-eight-volume-historical-flow-edit"
+    },
+    "integrated": {
+      "path": "docs/01_CONTENT/INTEGRATED/V507_EIGHT_VOLUME_HISTORICAL_READER_FLOW_REVISED_MASTER_KO.md",
+      "sha": "e8cc06055f91ac6933ebbd25ae3b5fff3b928a5c",
+      "branch": "research/atlas-v507-eight-volume-historical-flow-edit"
+    },
+    "sourceV506": {
+      "path": "docs/01_CONTENT/L1/V506_SIX_THEME_PLAIN_LANGUAGE_READER_EDITION_KO.md",
+      "sha": "4f637e2b32af07c62c7b6a3f57531ce7133dd55b",
+      "branch": "research/atlas-v507-eight-volume-historical-flow-edit"
+    },
+    "navigation": {
+      "path": "research/v505/six_theme_five_voices_navigation_contract.json",
+      "sha": "e90fe3dde2188e29f9a9daadc81ff9d44efa4a1a",
+      "branch": "research/atlas-v507-eight-volume-historical-flow-edit"
+    }
+  },
+  "count": {
+    "volumes": 8,
+    "chapters": 24,
+    "oldChars": 31273,
+    "newChars": 38821,
+    "preciseRewrites": 4,
+    "intros": 24,
+    "evidenceNotes": 24,
+    "nextLinks": 24,
+    "exactIntegratedBodies": 24,
+    "bodyWithoutNewGuidesExactlyBaseOrFourEdits": 24,
+    "priorSourceURLsPreserved": 24,
+    "caseIDs": [
+      "V501-LA-02",
+      "V501-PA-02",
+      "V501-PA-01",
+      "V501-LA-01",
+      "V501-LA-03"
+    ],
+    "casePlacements": 5,
+    "unknownCases": 0,
+    "missingNext": 0,
+    "oldSourceParagraphsRewrittenWithoutDeclaration": 0,
+    "uniqueSourceURLs": 77,
+    "expandedBodyChars": 38821,
+    "sourceBodyChars": 31273,
+    "netAddedChars": 7548,
+    "validationProblems": 0,
+    "expertReviews": 0,
+    "realReaderSessions": 0,
+    "appE2E": 0
+  },
+  "checks": {
+    "zero_errors": true,
+    "all_24_integrated_bodies_exact": true,
+    "all_24_source_bodies_reconstructable_except_four_declared_sentence_replacements": true,
+    "source_URLs_carried_forward": true,
+    "six_source_reader_file_unchanged": true,
+    "source_provenance_exact": true,
+    "original_24_chapter_master_untouched": true,
+    "live_app_untouched": true
+  },
+  "errors": [],
+  "holds": [
+    "Real reader tests and historian approval have not occurred",
+    "Current era bibliographical primary witness gaps from V5.06 remain",
+    "New prose is historical editorial guidance, not additional primary manuscript witness",
+    "Five local-history case IDs are research refs not verified application routes",
+    "Copyright and historic images still require permission review"
+  ]
+}
