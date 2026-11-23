@@ -1,0 +1,1154 @@
+{
+  "schema": "ATLAS_V524_THREE_LEVEL_READING_DISPLAY_CONTRACT",
+  "version": "V5.24",
+  "date": "2026-11-24",
+  "status": "RESEARCH_METADATA_DRAFT_UNAPPROVED",
+  "source_snapshot": {
+    "repository": "worldinyj/REFORMATION-ATLAS",
+    "base_branch": "research/atlas-v523-authorship-print-facsimile-evidence-pathways",
+    "base_commit": "74e6d0e953cfd14591dce979d2dfc262d7a31c7f",
+    "candidate_path": "research/data/V523_EIGHT_VOLUME_SOURCE_LAYERS_CANDIDATE.json",
+    "reader_path": "docs/01_CONTENT/READER/V523_24_CHAPTER_SOURCE_LAYERS_READER_KO.md",
+    "research_master_path": "docs/01_CONTENT/INTEGRATED/V523_EIGHT_VOLUME_SOURCE_LAYERS_MASTER_KO.md",
+    "boundaries_path": "research/v523/RESEARCH_BOUNDARIES_24_CHAPTERS_KO.md"
+  },
+  "display_rules": {
+    "levels_order": [
+      "short",
+      "medium",
+      "research"
+    ],
+    "missing_medium": "HIDE_TAB_SHOW_EDITORIAL_GAP_ONLY_IN_RESEARCH_QA",
+    "do_not_infer_evidence_grade_from_url_count": true,
+    "display_uncertainty_label_for_each_chapter": true,
+    "distinguish_original_print_from_modern_facsimile": true,
+    "do_not_claim_per_claim_primary_verification": true,
+    "no_image_republication_without_rights": true,
+    "research_only_not_deployed": true,
+    "warning_for_unreviewed_data": "연구·편집 초안입니다. 개별 주장과 원전 대조 및 전문가·독자 검토가 완료되지 않았습니다."
+  },
+  "metrics": {
+    "volumes": 8,
+    "chapters": 24,
+    "short_available": 24,
+    "medium_available": 9,
+    "medium_missing": 15,
+    "research_available": 24,
+    "history_body_chars": 60076,
+    "reference_url_occurrences": 152,
+    "case_cards": 52,
+    "timepaths": 6
+  },
+  "approval": {
+    "historian_signed_off": false,
+    "human_reader_trials": 0,
+    "ai_studio_e2e_tests": 0,
+    "rights_review_completed": false,
+    "can_ship": false,
+    "can_merge_main": false,
+    "can_import_ai_studio": false
+  },
+  "chapters": [
+    {
+      "chapter_id": "L448-01-01",
+      "volume_id": "VOL-01",
+      "title": "도시와 언어가 바꾼 복음의 전달",
+      "period": "1–3세기",
+      "reading_levels": {
+        "short": {
+          "available": true,
+          "state": "EDITORIAL_DRAFT_UNTESTED",
+          "source_field": "readerLayerV516.reader_summary",
+          "characters": 222
+        },
+        "medium": {
+          "available": false,
+          "state": "NOT_YET_WRITTEN",
+          "source_field": null,
+          "characters": 0
+        },
+        "research": {
+          "available": true,
+          "state": "RESEARCH_DRAFT_NOT_EXPERT_APPROVED",
+          "source_field": "bodyMarkdown",
+          "characters": 1596
+        }
+      },
+      "evidence": {
+        "source_url_count": 3,
+        "source_links_preserved": true,
+        "claim_to_source_audit": "NOT_COMPLETED_FOR_ALL_CLAIMS",
+        "evidence_boundary": "도시의 편지·교회 건축 유적·후대 복원은 서로 다른 자료입니다. 유적이 확인됐다고 주민 전체의 신앙이나 공통 교리를 복원할 수는 없습니다.",
+        "case_ids": [
+          "ATLAS518-0101-01",
+          "ATLAS518-0101-02"
+        ],
+        "timepath_ids": [],
+        "special_caution": null,
+        "primary_research_records": []
+      },
+      "review_queue": "MID_LAYER_DRAFT_NEEDED",
+      "approved": {
+        "historian": false,
+        "human_reader": false,
+        "ai_studio_e2e": false
+      }
+    },
+    {
+      "chapter_id": "L448-01-02",
+      "volume_id": "VOL-01",
+      "title": "박해와 황실 보호 이후에도 지역은 달랐다",
+      "period": "3–4세기",
+      "reading_levels": {
+        "short": {
+          "available": true,
+          "state": "EDITORIAL_DRAFT_UNTESTED",
+          "source_field": "readerLayerV516.reader_summary",
+          "characters": 196
+        },
+        "medium": {
+          "available": true,
+          "state": "EDITORIAL_DRAFT_UNTESTED",
+          "source_field": "intermediateLayerV519.narrative",
+          "characters": 716
+        },
+        "research": {
+          "available": true,
+          "state": "RESEARCH_DRAFT_NOT_EXPERT_APPROVED",
+          "source_field": "bodyMarkdown",
+          "characters": 1442
+        }
+      },
+      "evidence": {
+        "source_url_count": 4,
+        "source_links_preserved": true,
+        "claim_to_source_audit": "NOT_COMPLETED_FOR_ALL_CLAIMS",
+        "evidence_boundary": "주화·왕실 칭호·연대기 같은 기록으로 추론할 수 있는 것은 왕실의 변화입니다. 주민의 개종과 지역 예배는 추가 기록이 필요합니다.",
+        "case_ids": [
+          "ATLAS518-0102-01",
+          "ATLAS518-0102-02"
+        ],
+        "timepath_ids": [],
+        "special_caution": null,
+        "primary_research_records": []
+      },
+      "review_queue": "STRUCTURAL_AND_READER_REVIEW",
+      "approved": {
+        "historian": false,
+        "human_reader": false,
+        "ai_studio_e2e": false
+      }
+    },
+    {
+      "chapter_id": "L448-01-03",
+      "volume_id": "VOL-01",
+      "title": "공의회는 질문을 정리했지만 모든 차이를 지우지 못했다",
+      "period": "4–5세기",
+      "reading_levels": {
+        "short": {
+          "available": true,
+          "state": "EDITORIAL_DRAFT_UNTESTED",
+          "source_field": "readerLayerV516.reader_summary",
+          "characters": 224
+        },
+        "medium": {
+          "available": true,
+          "state": "EDITORIAL_DRAFT_UNTESTED",
+          "source_field": "intermediateLayerV517.text",
+          "characters": 441
+        },
+        "research": {
+          "available": true,
+          "state": "RESEARCH_DRAFT_NOT_EXPERT_APPROVED",
+          "source_field": "bodyMarkdown",
+          "characters": 2539
+        }
+      },
+      "evidence": {
+        "source_url_count": 5,
+        "source_links_preserved": true,
+        "claim_to_source_audit": "NOT_COMPLETED_FOR_ALL_CLAIMS",
+        "evidence_boundary": "공의회 결정문은 공적 토론의 결과를 보여 줍니다. 콥트·시리아·아르메니아 전통의 지역별 수용은 해당 공동체의 자체 기록과 함께 검토해야 합니다.",
+        "case_ids": [
+          "ATLAS518-0103-01",
+          "ATLAS518-0103-02"
+        ],
+        "timepath_ids": [],
+        "special_caution": null,
+        "primary_research_records": []
+      },
+      "review_queue": "STRUCTURAL_AND_READER_REVIEW",
+      "approved": {
+        "historian": false,
+        "human_reader": false,
+        "ai_studio_e2e": false
+      }
+    },
+    {
+      "chapter_id": "L448-02-01",
+      "volume_id": "VOL-02",
+      "title": "비잔틴·서아시아·서유럽의 서로 다른 중세",
+      "period": "6–15세기",
+      "reading_levels": {
+        "short": {
+          "available": true,
+          "state": "EDITORIAL_DRAFT_UNTESTED",
+          "source_field": "readerLayerV516.reader_summary",
+          "characters": 218
+        },
+        "medium": {
+          "available": false,
+          "state": "NOT_YET_WRITTEN",
+          "source_field": null,
+          "characters": 0
+        },
+        "research": {
+          "available": true,
+          "state": "RESEARCH_DRAFT_NOT_EXPERT_APPROVED",
+          "source_field": "bodyMarkdown",
+          "characters": 1692
+        }
+      },
+      "evidence": {
+        "source_url_count": 4,
+        "source_links_preserved": true,
+        "claim_to_source_audit": "NOT_COMPLETED_FOR_ALL_CLAIMS",
+        "evidence_boundary": "동시리아어 문헌과 묘비·유물은 교류의 흔적을 남깁니다. 문헌이 비슷하다는 이유만으로 동일한 교회 조직을 증명할 수는 없습니다.",
+        "case_ids": [
+          "ATLAS518-0201-01",
+          "ATLAS518-0201-02"
+        ],
+        "timepath_ids": [],
+        "special_caution": null,
+        "primary_research_records": []
+      },
+      "review_queue": "MID_LAYER_DRAFT_NEEDED",
+      "approved": {
+        "historian": false,
+        "human_reader": false,
+        "ai_studio_e2e": false
+      }
+    },
+    {
+      "chapter_id": "L448-02-02",
+      "volume_id": "VOL-02",
+      "title": "경교비에서 읽는 635년의 사건과 781년의 증언",
+      "period": "7–8세기",
+      "reading_levels": {
+        "short": {
+          "available": true,
+          "state": "EDITORIAL_DRAFT_UNTESTED",
+          "source_field": "readerLayerV516.reader_summary",
+          "characters": 224
+        },
+        "medium": {
+          "available": true,
+          "state": "EDITORIAL_DRAFT_UNTESTED",
+          "source_field": "intermediateLayerV519.narrative",
+          "characters": 775
+        },
+        "research": {
+          "available": true,
+          "state": "RESEARCH_DRAFT_NOT_EXPERT_APPROVED",
+          "source_field": "bodyMarkdown",
+          "characters": 1820
+        }
+      },
+      "evidence": {
+        "source_url_count": 4,
+        "source_links_preserved": true,
+        "claim_to_source_audit": "NOT_COMPLETED_FOR_ALL_CLAIMS",
+        "evidence_boundary": "781년의 비문은 해당 시기의 공동체가 앞선 역사를 어떻게 회고했는지 보여 줍니다. 회고된 635년 사건의 세부 사실은 그 자체로 전부 직접 확인된 것은 아닙니다.",
+        "case_ids": [
+          "ATLAS518-0202-01",
+          "ATLAS518-0202-02"
+        ],
+        "timepath_ids": [
+          "V523-E01"
+        ],
+        "special_caution": null,
+        "primary_research_records": []
+      },
+      "review_queue": "STRUCTURAL_AND_READER_REVIEW",
+      "approved": {
+        "historian": false,
+        "human_reader": false,
+        "ai_studio_e2e": false
+      }
+    },
+    {
+      "chapter_id": "L448-02-03",
+      "volume_id": "VOL-02",
+      "title": "분열의 날짜보다 관계의 변화를 읽기",
+      "period": "11–15세기",
+      "reading_levels": {
+        "short": {
+          "available": true,
+          "state": "EDITORIAL_DRAFT_UNTESTED",
+          "source_field": "readerLayerV516.reader_summary",
+          "characters": 204
+        },
+        "medium": {
+          "available": false,
+          "state": "NOT_YET_WRITTEN",
+          "source_field": null,
+          "characters": 0
+        },
+        "research": {
+          "available": true,
+          "state": "RESEARCH_DRAFT_NOT_EXPERT_APPROVED",
+          "source_field": "bodyMarkdown",
+          "characters": 1743
+        }
+      },
+      "evidence": {
+        "source_url_count": 4,
+        "source_links_preserved": true,
+        "claim_to_source_audit": "NOT_COMPLETED_FOR_ALL_CLAIMS",
+        "evidence_boundary": "교회 간 제재 문서, 군사적 사건 기록, 일치 시도 문서는 서로 다른 종류의 증거입니다. 어느 한 해의 공적 결정이 이후 모든 신자의 관계를 규정하지는 않습니다.",
+        "case_ids": [
+          "ATLAS518-0203-01",
+          "ATLAS518-0203-02",
+          "ATLAS518-0203-03"
+        ],
+        "timepath_ids": [],
+        "special_caution": null,
+        "primary_research_records": []
+      },
+      "review_queue": "MID_LAYER_DRAFT_NEEDED",
+      "approved": {
+        "historian": false,
+        "human_reader": false,
+        "ai_studio_e2e": false
+      }
+    },
+    {
+      "chapter_id": "L448-03-01",
+      "volume_id": "VOL-03",
+      "title": "왈도파의 청빈과 설교: 후대의 교파명으로 미리 이름 붙이지 않기",
+      "period": "12–16세기",
+      "reading_levels": {
+        "short": {
+          "available": true,
+          "state": "EDITORIAL_DRAFT_UNTESTED",
+          "source_field": "readerLayerV516.reader_summary",
+          "characters": 234
+        },
+        "medium": {
+          "available": false,
+          "state": "NOT_YET_WRITTEN",
+          "source_field": null,
+          "characters": 0
+        },
+        "research": {
+          "available": true,
+          "state": "RESEARCH_DRAFT_NOT_EXPERT_APPROVED",
+          "source_field": "bodyMarkdown",
+          "characters": 2424
+        }
+      },
+      "evidence": {
+        "source_url_count": 5,
+        "source_links_preserved": true,
+        "claim_to_source_audit": "NOT_COMPLETED_FOR_ALL_CLAIMS",
+        "evidence_boundary": "초기 설교·청빈 운동에 관한 기록과 16세기 이후의 신앙고백·예배 규정은 시대가 다릅니다. 후대 집단 이름을 중세의 교리 전체에 소급하지 않습니다.",
+        "case_ids": [
+          "ATLAS518-0301-01",
+          "ATLAS518-0301-02"
+        ],
+        "timepath_ids": [],
+        "special_caution": null,
+        "primary_research_records": []
+      },
+      "review_queue": "MID_LAYER_DRAFT_NEEDED",
+      "approved": {
+        "historian": false,
+        "human_reader": false,
+        "ai_studio_e2e": false
+      }
+    },
+    {
+      "chapter_id": "L448-03-02",
+      "volume_id": "VOL-03",
+      "title": "위클리프와 후스: 영향을 받았어도 똑같이 믿지는 않았다",
+      "period": "14–15세기",
+      "reading_levels": {
+        "short": {
+          "available": true,
+          "state": "EDITORIAL_DRAFT_UNTESTED",
+          "source_field": "readerLayerV516.reader_summary",
+          "characters": 233
+        },
+        "medium": {
+          "available": true,
+          "state": "EDITORIAL_DRAFT_UNTESTED",
+          "source_field": "intermediateLayerV517.text",
+          "characters": 436
+        },
+        "research": {
+          "available": true,
+          "state": "RESEARCH_DRAFT_NOT_EXPERT_APPROVED",
+          "source_field": "bodyMarkdown",
+          "characters": 1669
+        }
+      },
+      "evidence": {
+        "source_url_count": 4,
+        "source_links_preserved": true,
+        "claim_to_source_audit": "NOT_COMPLETED_FOR_ALL_CLAIMS",
+        "evidence_boundary": "위클리프의 은총·예정론에는 전문 학술 연구가 있으나 해당 라틴어 원전의 문장별 교감은 완료되지 않았습니다. 후스 개인과 후스파 집단도 동일한 증거 범주가 아닙니다.",
+        "case_ids": [
+          "ATLAS518-0302-01",
+          "ATLAS518-0302-02"
+        ],
+        "timepath_ids": [],
+        "special_caution": "위클리프·후스의 원어 문장별 교감 및 사상 동일성은 미확정. 수용·동의를 같은 것으로 표시하지 않음.",
+        "primary_research_records": []
+      },
+      "review_queue": "HISTORICAL_VERIFICATION_FIRST",
+      "approved": {
+        "historian": false,
+        "human_reader": false,
+        "ai_studio_e2e": false
+      }
+    },
+    {
+      "chapter_id": "L448-03-03",
+      "volume_id": "VOL-03",
+      "title": "프라하 4개조에서 바젤 협상까지: 요구·전쟁·법의 시간표",
+      "period": "1415–1436년",
+      "reading_levels": {
+        "short": {
+          "available": true,
+          "state": "EDITORIAL_DRAFT_UNTESTED",
+          "source_field": "readerLayerV516.reader_summary",
+          "characters": 203
+        },
+        "medium": {
+          "available": true,
+          "state": "EDITORIAL_DRAFT_UNTESTED",
+          "source_field": "intermediateLayerV519.narrative",
+          "characters": 778
+        },
+        "research": {
+          "available": true,
+          "state": "RESEARCH_DRAFT_NOT_EXPERT_APPROVED",
+          "source_field": "bodyMarkdown",
+          "characters": 1571
+        }
+      },
+      "evidence": {
+        "source_url_count": 2,
+        "source_links_preserved": true,
+        "claim_to_source_audit": "NOT_COMPLETED_FOR_ALL_CLAIMS",
+        "evidence_boundary": "프라하 4개조의 요구, 바젤 교섭 기록과 이후의 공포는 서로 다른 자료 단계입니다. 한 집단의 초기 구호가 그대로 최종 제도가 된 것으로 단정하지 않습니다.",
+        "case_ids": [
+          "ATLAS518-0303-01",
+          "ATLAS518-0303-02"
+        ],
+        "timepath_ids": [],
+        "special_caution": null,
+        "primary_research_records": []
+      },
+      "review_queue": "STRUCTURAL_AND_READER_REVIEW",
+      "approved": {
+        "historian": false,
+        "human_reader": false,
+        "ai_studio_e2e": false
+      }
+    },
+    {
+      "chapter_id": "L448-04-01",
+      "volume_id": "VOL-04",
+      "title": "1517년 논쟁은 왜 예배·학교·도시 정부의 문제로 커졌나",
+      "period": "16세기 전반",
+      "reading_levels": {
+        "short": {
+          "available": true,
+          "state": "EDITORIAL_DRAFT_UNTESTED",
+          "source_field": "readerLayerV516.reader_summary",
+          "characters": 232
+        },
+        "medium": {
+          "available": false,
+          "state": "NOT_YET_WRITTEN",
+          "source_field": null,
+          "characters": 0
+        },
+        "research": {
+          "available": true,
+          "state": "RESEARCH_DRAFT_NOT_EXPERT_APPROVED",
+          "source_field": "bodyMarkdown",
+          "characters": 3204
+        }
+      },
+      "evidence": {
+        "source_url_count": 11,
+        "source_links_preserved": true,
+        "claim_to_source_audit": "NOT_COMPLETED_FOR_ALL_CLAIMS",
+        "evidence_boundary": "설교·논쟁 문헌은 주장과 확산을 보여 주지만 학교·예배·구제의 실질 변화는 도시 규정과 시행 기록을 함께 살펴야 합니다.",
+        "case_ids": [
+          "ATLAS518-0401-01",
+          "ATLAS518-0401-02",
+          "ATLAS518-0401-03"
+        ],
+        "timepath_ids": [],
+        "special_caution": null,
+        "primary_research_records": []
+      },
+      "review_queue": "MID_LAYER_DRAFT_NEEDED",
+      "approved": {
+        "historian": false,
+        "human_reader": false,
+        "ai_studio_e2e": false
+      }
+    },
+    {
+      "chapter_id": "L448-04-02",
+      "volume_id": "VOL-04",
+      "title": "마르부르크의 합의와 아우크스부르크 판본: 신학과 서지의 차이",
+      "period": "1529–1540년",
+      "reading_levels": {
+        "short": {
+          "available": true,
+          "state": "EDITORIAL_DRAFT_UNTESTED",
+          "source_field": "readerLayerV516.reader_summary",
+          "characters": 237
+        },
+        "medium": {
+          "available": true,
+          "state": "EDITORIAL_DRAFT_UNTESTED",
+          "source_field": "intermediateLayerV517.text",
+          "characters": 461
+        },
+        "research": {
+          "available": true,
+          "state": "RESEARCH_DRAFT_NOT_EXPERT_APPROVED",
+          "source_field": "bodyMarkdown",
+          "characters": 5208
+        }
+      },
+      "evidence": {
+        "source_url_count": 17,
+        "source_links_preserved": true,
+        "claim_to_source_audit": "NOT_COMPLETED_FOR_ALL_CLAIMS",
+        "evidence_boundary": "1529년의 독일어 문서는 현대 전사로, 1531/1540년 성찬 문구 차이는 1858년 『Corpus Reformatorum』의 인쇄 교감판으로 확인했습니다. 당대 1529·1531·1540년 실물 원문을 모두 직접 대조한 것은 아닙니다.",
+        "case_ids": [
+          "ATLAS518-0402-01",
+          "ATLAS518-0402-02",
+          "ATLAS518-0402-03"
+        ],
+        "timepath_ids": [
+          "V523-E02"
+        ],
+        "special_caution": "아우크스부르크 신앙고백 1531·1540년 제10조 초기 인쇄본 직접 대조 0. 판본의 목적과 텍스트를 구별.",
+        "primary_research_records": [
+          "sourceReviewV521"
+        ]
+      },
+      "review_queue": "HISTORICAL_VERIFICATION_FIRST",
+      "approved": {
+        "historian": false,
+        "human_reader": false,
+        "ai_studio_e2e": false
+      }
+    },
+    {
+      "chapter_id": "L448-04-03",
+      "volume_id": "VOL-04",
+      "title": "제네바·잉글랜드·재세례파: 똑같은 개혁을 다른 제도로 만들다",
+      "period": "16세기",
+      "reading_levels": {
+        "short": {
+          "available": true,
+          "state": "EDITORIAL_DRAFT_UNTESTED",
+          "source_field": "readerLayerV516.reader_summary",
+          "characters": 228
+        },
+        "medium": {
+          "available": false,
+          "state": "NOT_YET_WRITTEN",
+          "source_field": null,
+          "characters": 0
+        },
+        "research": {
+          "available": true,
+          "state": "RESEARCH_DRAFT_NOT_EXPERT_APPROVED",
+          "source_field": "bodyMarkdown",
+          "characters": 1588
+        }
+      },
+      "evidence": {
+        "source_url_count": 4,
+        "source_links_preserved": true,
+        "claim_to_source_audit": "NOT_COMPLETED_FOR_ALL_CLAIMS",
+        "evidence_boundary": "도시 규정과 국가 법률은 공적 제도를 보여 줍니다. 소수 공동체의 신앙고백과 박해 경험은 다른 정치적 조건에서 읽어야 합니다.",
+        "case_ids": [
+          "ATLAS518-0403-01",
+          "ATLAS518-0403-02",
+          "ATLAS518-0403-03"
+        ],
+        "timepath_ids": [],
+        "special_caution": null,
+        "primary_research_records": []
+      },
+      "review_queue": "MID_LAYER_DRAFT_NEEDED",
+      "approved": {
+        "historian": false,
+        "human_reader": false,
+        "ai_studio_e2e": false
+      }
+    },
+    {
+      "chapter_id": "L448-05-01",
+      "volume_id": "VOL-05",
+      "title": "가톨릭의 개혁을 오직 개신교에 대한 반응으로 읽지 않기",
+      "period": "16–17세기",
+      "reading_levels": {
+        "short": {
+          "available": true,
+          "state": "EDITORIAL_DRAFT_UNTESTED",
+          "source_field": "readerLayerV516.reader_summary",
+          "characters": 204
+        },
+        "medium": {
+          "available": false,
+          "state": "NOT_YET_WRITTEN",
+          "source_field": null,
+          "characters": 0
+        },
+        "research": {
+          "available": true,
+          "state": "RESEARCH_DRAFT_NOT_EXPERT_APPROVED",
+          "source_field": "bodyMarkdown",
+          "characters": 1546
+        }
+      },
+      "evidence": {
+        "source_url_count": 3,
+        "source_links_preserved": true,
+        "claim_to_source_audit": "NOT_COMPLETED_FOR_ALL_CLAIMS",
+        "evidence_boundary": "공의회 회기·결정은 공식 교리와 규정을 보여 주며, 실제 성직자 교육·교구 시행은 지역별 기록을 더 요구합니다. 교회의 내부 변화와 교파적 대립을 모두 살펴야 합니다.",
+        "case_ids": [
+          "ATLAS518-0501-01",
+          "ATLAS518-0501-02"
+        ],
+        "timepath_ids": [],
+        "special_caution": null,
+        "primary_research_records": []
+      },
+      "review_queue": "MID_LAYER_DRAFT_NEEDED",
+      "approved": {
+        "historian": false,
+        "human_reader": false,
+        "ai_studio_e2e": false
+      }
+    },
+    {
+      "chapter_id": "L448-05-02",
+      "volume_id": "VOL-05",
+      "title": "1555년과 1648년: 공존의 법적 범위와 배제",
+      "period": "1555–1648년",
+      "reading_levels": {
+        "short": {
+          "available": true,
+          "state": "EDITORIAL_DRAFT_UNTESTED",
+          "source_field": "readerLayerV516.reader_summary",
+          "characters": 243
+        },
+        "medium": {
+          "available": false,
+          "state": "NOT_YET_WRITTEN",
+          "source_field": null,
+          "characters": 0
+        },
+        "research": {
+          "available": true,
+          "state": "RESEARCH_DRAFT_NOT_EXPERT_APPROVED",
+          "source_field": "bodyMarkdown",
+          "characters": 2236
+        }
+      },
+      "evidence": {
+        "source_url_count": 5,
+        "source_links_preserved": true,
+        "claim_to_source_audit": "NOT_COMPLETED_FOR_ALL_CLAIMS",
+        "evidence_boundary": "1555년 제17·18·24조는 당시 인쇄본을 저본으로 한 독일어 학술 전사에서, 1648년 오스나브뤼크 제5·7조는 라틴어 현대 전사에서 확인했습니다. 당대 인쇄본 전체의 직접 교감과 지역별 집행 검증은 남아 있습니다.",
+        "case_ids": [
+          "ATLAS518-0502-01",
+          "ATLAS518-0502-02"
+        ],
+        "timepath_ids": [],
+        "special_caution": null,
+        "primary_research_records": []
+      },
+      "review_queue": "MID_LAYER_DRAFT_NEEDED",
+      "approved": {
+        "historian": false,
+        "human_reader": false,
+        "ai_studio_e2e": false
+      }
+    },
+    {
+      "chapter_id": "L448-05-03",
+      "volume_id": "VOL-05",
+      "title": "교파의 경계가 만들어지며 일상의 규율도 달라졌다",
+      "period": "16–17세기",
+      "reading_levels": {
+        "short": {
+          "available": true,
+          "state": "EDITORIAL_DRAFT_UNTESTED",
+          "source_field": "readerLayerV516.reader_summary",
+          "characters": 246
+        },
+        "medium": {
+          "available": false,
+          "state": "NOT_YET_WRITTEN",
+          "source_field": null,
+          "characters": 0
+        },
+        "research": {
+          "available": true,
+          "state": "RESEARCH_DRAFT_NOT_EXPERT_APPROVED",
+          "source_field": "bodyMarkdown",
+          "characters": 7384
+        }
+      },
+      "evidence": {
+        "source_url_count": 22,
+        "source_links_preserved": true,
+        "claim_to_source_audit": "NOT_COMPLETED_FOR_ALL_CLAIMS",
+        "evidence_boundary": "교회 규정은 공식 기준의 증거입니다. 주민의 경험을 알려면 지역 재판·학교·결혼·구제 기록이 필요합니다. 여성·평신도의 삶을 제도의 글만으로 대신하지 않습니다.",
+        "case_ids": [
+          "ATLAS518-0503-01",
+          "ATLAS518-0503-02",
+          "ATLAS518-0503-03"
+        ],
+        "timepath_ids": [
+          "V523-E03",
+          "V523-E04"
+        ],
+        "special_caution": "과만 포마 590쪽 필사본 전체 전사 미완료. 소르 후아나 1700·1701년 같은 행의 원본 대조 0. 2026년 영인본 사진을 1701년 원판 관찰로 오인 금지.",
+        "primary_research_records": [
+          "sourceReviewV520",
+          "sourceReviewV521",
+          "sourceReviewV522",
+          "sourceReviewV523"
+        ]
+      },
+      "review_queue": "HISTORICAL_VERIFICATION_FIRST",
+      "approved": {
+        "historian": false,
+        "human_reader": false,
+        "ai_studio_e2e": false
+      }
+    },
+    {
+      "chapter_id": "L448-06-01",
+      "volume_id": "VOL-06",
+      "title": "경건주의와 부흥운동은 같은 단체가 아니었다",
+      "period": "17–19세기",
+      "reading_levels": {
+        "short": {
+          "available": true,
+          "state": "EDITORIAL_DRAFT_UNTESTED",
+          "source_field": "readerLayerV516.reader_summary",
+          "characters": 219
+        },
+        "medium": {
+          "available": false,
+          "state": "NOT_YET_WRITTEN",
+          "source_field": null,
+          "characters": 0
+        },
+        "research": {
+          "available": true,
+          "state": "RESEARCH_DRAFT_NOT_EXPERT_APPROVED",
+          "source_field": "bodyMarkdown",
+          "characters": 1871
+        }
+      },
+      "evidence": {
+        "source_url_count": 6,
+        "source_links_preserved": true,
+        "claim_to_source_audit": "NOT_COMPLETED_FOR_ALL_CLAIMS",
+        "evidence_boundary": "학교·고아원·공동체 기록과 후대 운동사의 설명은 근거 수준이 다릅니다. 한 부흥운동에서 다른 운동으로의 직접 영향은 문헌과 실제 인물의 연결을 확인해야 합니다.",
+        "case_ids": [
+          "ATLAS518-0601-01",
+          "ATLAS518-0601-02",
+          "ATLAS518-0601-03"
+        ],
+        "timepath_ids": [],
+        "special_caution": null,
+        "primary_research_records": []
+      },
+      "review_queue": "MID_LAYER_DRAFT_NEEDED",
+      "approved": {
+        "historian": false,
+        "human_reader": false,
+        "ai_studio_e2e": false
+      }
+    },
+    {
+      "chapter_id": "L448-06-02",
+      "volume_id": "VOL-06",
+      "title": "남인도 타밀어 성경: 인쇄 기계보다 중요한 사람과 판본",
+      "period": "1706–1719년",
+      "reading_levels": {
+        "short": {
+          "available": true,
+          "state": "EDITORIAL_DRAFT_UNTESTED",
+          "source_field": "readerLayerV520.reader_summary",
+          "characters": 206
+        },
+        "medium": {
+          "available": true,
+          "state": "EDITORIAL_DRAFT_UNTESTED",
+          "source_field": "intermediateLayerV520.text",
+          "characters": 548
+        },
+        "research": {
+          "available": true,
+          "state": "RESEARCH_DRAFT_NOT_EXPERT_APPROVED",
+          "source_field": "bodyMarkdown",
+          "characters": 2290
+        }
+      },
+      "evidence": {
+        "source_url_count": 7,
+        "source_links_preserved": true,
+        "claim_to_source_audit": "NOT_COMPLETED_FOR_ALL_CLAIMS",
+        "evidence_boundary": "1714·1715·1719년은 같은 한 권의 출판연도라고 확정할 수 없습니다. 기관별 소장 기록, 부분본·전권 여부와 표제지·권말 정보의 추가 대조가 필요합니다.",
+        "case_ids": [
+          "ATLAS518-0602-01",
+          "ATLAS518-0602-02"
+        ],
+        "timepath_ids": [
+          "V523-E05"
+        ],
+        "special_caution": "1715년 타밀어 신약 표제지 사진 및 소장 서지와 1719년 설명의 지시 대상 불일치가 해결되지 않음.",
+        "primary_research_records": [
+          "sourceReviewV520"
+        ]
+      },
+      "review_queue": "HISTORICAL_VERIFICATION_FIRST",
+      "approved": {
+        "historian": false,
+        "human_reader": false,
+        "ai_studio_e2e": false
+      }
+    },
+    {
+      "chapter_id": "L448-06-03",
+      "volume_id": "VOL-06",
+      "title": "선교와 제국의 접촉: 외부의 확장만이 세계사의 주인공은 아니다",
+      "period": "18–19세기",
+      "reading_levels": {
+        "short": {
+          "available": true,
+          "state": "EDITORIAL_DRAFT_UNTESTED",
+          "source_field": "readerLayerV516.reader_summary",
+          "characters": 239
+        },
+        "medium": {
+          "available": false,
+          "state": "NOT_YET_WRITTEN",
+          "source_field": null,
+          "characters": 0
+        },
+        "research": {
+          "available": true,
+          "state": "RESEARCH_DRAFT_NOT_EXPERT_APPROVED",
+          "source_field": "bodyMarkdown",
+          "characters": 5110
+        }
+      },
+      "evidence": {
+        "source_url_count": 10,
+        "source_links_preserved": true,
+        "claim_to_source_audit": "NOT_COMPLETED_FOR_ALL_CLAIMS",
+        "evidence_boundary": "선교사 보고는 선교기관의 관점을, 식민지 법률·사회사 기록은 다른 조건을 보여 줍니다. 지역 신앙인의 주체성을 말할 때도 노예제와 제국의 제약을 지워서는 안 됩니다.",
+        "case_ids": [
+          "ATLAS518-0603-01",
+          "ATLAS518-0603-02",
+          "ATLAS518-0603-03"
+        ],
+        "timepath_ids": [],
+        "special_caution": null,
+        "primary_research_records": []
+      },
+      "review_queue": "MID_LAYER_DRAFT_NEEDED",
+      "approved": {
+        "historian": false,
+        "human_reader": false,
+        "ai_studio_e2e": false
+      }
+    },
+    {
+      "chapter_id": "L448-07-01",
+      "volume_id": "VOL-07",
+      "title": "아프리카와 중동에는 근대 선교 이전부터 교회가 있었다",
+      "period": "고대 전통–20세기",
+      "reading_levels": {
+        "short": {
+          "available": true,
+          "state": "EDITORIAL_DRAFT_UNTESTED",
+          "source_field": "readerLayerV516.reader_summary",
+          "characters": 220
+        },
+        "medium": {
+          "available": false,
+          "state": "NOT_YET_WRITTEN",
+          "source_field": null,
+          "characters": 0
+        },
+        "research": {
+          "available": true,
+          "state": "RESEARCH_DRAFT_NOT_EXPERT_APPROVED",
+          "source_field": "bodyMarkdown",
+          "characters": 1680
+        }
+      },
+      "evidence": {
+        "source_url_count": 4,
+        "source_links_preserved": true,
+        "claim_to_source_audit": "NOT_COMPLETED_FOR_ALL_CLAIMS",
+        "evidence_boundary": "고대 교회 문헌과 근대 독립교회 조직·국제 협의체 기록은 다른 종류입니다. AIC·MECC 같은 약어를 동일 조직이나 같은 시기에 시작된 전통으로 묶지 않습니다.",
+        "case_ids": [
+          "ATLAS518-0701-01",
+          "ATLAS518-0701-02",
+          "ATLAS518-0701-03"
+        ],
+        "timepath_ids": [],
+        "special_caution": null,
+        "primary_research_records": []
+      },
+      "review_queue": "MID_LAYER_DRAFT_NEEDED",
+      "approved": {
+        "historian": false,
+        "human_reader": false,
+        "ai_studio_e2e": false
+      }
+    },
+    {
+      "chapter_id": "L448-07-02",
+      "volume_id": "VOL-07",
+      "title": "한국교회의 서로 다른 시작: 독서·세례·번역·사회참여",
+      "period": "1779–20세기 후반",
+      "reading_levels": {
+        "short": {
+          "available": true,
+          "state": "EDITORIAL_DRAFT_UNTESTED",
+          "source_field": "readerLayerV516.reader_summary",
+          "characters": 214
+        },
+        "medium": {
+          "available": true,
+          "state": "EDITORIAL_DRAFT_UNTESTED",
+          "source_field": "intermediateLayerV519.narrative",
+          "characters": 814
+        },
+        "research": {
+          "available": true,
+          "state": "RESEARCH_DRAFT_NOT_EXPERT_APPROVED",
+          "source_field": "bodyMarkdown",
+          "characters": 1810
+        }
+      },
+      "evidence": {
+        "source_url_count": 6,
+        "source_links_preserved": true,
+        "claim_to_source_audit": "NOT_COMPLETED_FOR_ALL_CLAIMS",
+        "evidence_boundary": "초기 강학에 관한 전승과 출판된 한국어 성경의 소장본은 각각 확인할 근거가 다릅니다. 특히 1900년 여러 인쇄본의 본문 이문은 실물 대조가 끝나지 않았습니다.",
+        "case_ids": [
+          "ATLAS518-0702-01",
+          "ATLAS518-0702-02"
+        ],
+        "timepath_ids": [
+          "V523-E06"
+        ],
+        "special_caution": "1779년 강학 기원설의 사료 쟁점 및 1900년 서울·요코하마 인쇄본 직접 대조 미완료.",
+        "primary_research_records": []
+      },
+      "review_queue": "HISTORICAL_VERIFICATION_FIRST",
+      "approved": {
+        "historian": false,
+        "human_reader": false,
+        "ai_studio_e2e": false
+      }
+    },
+    {
+      "chapter_id": "L448-07-03",
+      "volume_id": "VOL-07",
+      "title": "라틴아메리카·아시아와 세계교회의 새로운 질문",
+      "period": "1910–20세기 후반",
+      "reading_levels": {
+        "short": {
+          "available": true,
+          "state": "EDITORIAL_DRAFT_UNTESTED",
+          "source_field": "readerLayerV516.reader_summary",
+          "characters": 236
+        },
+        "medium": {
+          "available": true,
+          "state": "EDITORIAL_DRAFT_UNTESTED",
+          "source_field": "intermediateLayerV517.text",
+          "characters": 459
+        },
+        "research": {
+          "available": true,
+          "state": "RESEARCH_DRAFT_NOT_EXPERT_APPROVED",
+          "source_field": "bodyMarkdown",
+          "characters": 3490
+        }
+      },
+      "evidence": {
+        "source_url_count": 12,
+        "source_links_preserved": true,
+        "claim_to_source_audit": "NOT_COMPLETED_FOR_ALL_CLAIMS",
+        "evidence_boundary": "1910년 대표 수치는 후대 국제 기독교 기관의 정리 자료에 근거합니다. 메데인 회의의 공식 기록은 일부 메타데이터만 확인했고, 달리트·민중신학 전체를 대표 저술 직접 교감으로 확정하지 않았습니다.",
+        "case_ids": [
+          "ATLAS518-0703-01",
+          "ATLAS518-0703-02",
+          "ATLAS518-0703-03",
+          "ATLAS518-0703-04"
+        ],
+        "timepath_ids": [],
+        "special_caution": null,
+        "primary_research_records": []
+      },
+      "review_queue": "STRUCTURAL_AND_READER_REVIEW",
+      "approved": {
+        "historian": false,
+        "human_reader": false,
+        "ai_studio_e2e": false
+      }
+    },
+    {
+      "chapter_id": "L448-08-01",
+      "volume_id": "VOL-08",
+      "title": "질문 1·2 — 성경과 권위 / 은총과 구원",
+      "period": "전 시대 비교",
+      "reading_levels": {
+        "short": {
+          "available": true,
+          "state": "EDITORIAL_DRAFT_UNTESTED",
+          "source_field": "readerLayerV516.reader_summary",
+          "characters": 225
+        },
+        "medium": {
+          "available": false,
+          "state": "NOT_YET_WRITTEN",
+          "source_field": null,
+          "characters": 0
+        },
+        "research": {
+          "available": true,
+          "state": "RESEARCH_DRAFT_NOT_EXPERT_APPROVED",
+          "source_field": "bodyMarkdown",
+          "characters": 2055
+        }
+      },
+      "evidence": {
+        "source_url_count": 3,
+        "source_links_preserved": true,
+        "claim_to_source_audit": "NOT_COMPLETED_FOR_ALL_CLAIMS",
+        "evidence_boundary": "이 장은 새로운 시대의 1차 문헌이 아니라 제1~7권을 가로질러 읽는 주제 안내입니다. 특정 교리의 근거는 원래의 신앙고백·공의회와 해당 역사 장에서 확인합니다.",
+        "case_ids": [],
+        "timepath_ids": [],
+        "special_caution": null,
+        "primary_research_records": []
+      },
+      "review_queue": "MID_LAYER_DRAFT_NEEDED",
+      "approved": {
+        "historian": false,
+        "human_reader": false,
+        "ai_studio_e2e": false
+      }
+    },
+    {
+      "chapter_id": "L448-08-02",
+      "volume_id": "VOL-08",
+      "title": "질문 3·4 — 성찬과 예배 / 교회조직과 생활",
+      "period": "중세–근현대 비교",
+      "reading_levels": {
+        "short": {
+          "available": true,
+          "state": "EDITORIAL_DRAFT_UNTESTED",
+          "source_field": "readerLayerV516.reader_summary",
+          "characters": 236
+        },
+        "medium": {
+          "available": false,
+          "state": "NOT_YET_WRITTEN",
+          "source_field": null,
+          "characters": 0
+        },
+        "research": {
+          "available": true,
+          "state": "RESEARCH_DRAFT_NOT_EXPERT_APPROVED",
+          "source_field": "bodyMarkdown",
+          "characters": 1991
+        }
+      },
+      "evidence": {
+        "source_url_count": 3,
+        "source_links_preserved": true,
+        "claim_to_source_audit": "NOT_COMPLETED_FOR_ALL_CLAIMS",
+        "evidence_boundary": "성찬 신학의 주장은 교리 문헌에서, 학교와 생활의 변화는 지역 기록에서 확인해야 합니다. 과만 포마의 고해 그림은 성찬의 직접적인 1차 증거가 아닙니다.",
+        "case_ids": [],
+        "timepath_ids": [],
+        "special_caution": null,
+        "primary_research_records": []
+      },
+      "review_queue": "MID_LAYER_DRAFT_NEEDED",
+      "approved": {
+        "historian": false,
+        "human_reader": false,
+        "ai_studio_e2e": false
+      }
+    },
+    {
+      "chapter_id": "L448-08-03",
+      "volume_id": "VOL-08",
+      "title": "질문 5·6 — 국가·갈등·공존 / 번역과 지역 수용",
+      "period": "고대–현대 비교",
+      "reading_levels": {
+        "short": {
+          "available": true,
+          "state": "EDITORIAL_DRAFT_UNTESTED",
+          "source_field": "readerLayerV516.reader_summary",
+          "characters": 212
+        },
+        "medium": {
+          "available": false,
+          "state": "NOT_YET_WRITTEN",
+          "source_field": null,
+          "characters": 0
+        },
+        "research": {
+          "available": true,
+          "state": "RESEARCH_DRAFT_NOT_EXPERT_APPROVED",
+          "source_field": "bodyMarkdown",
+          "characters": 2117
+        }
+      },
+      "evidence": {
+        "source_url_count": 4,
+        "source_links_preserved": true,
+        "claim_to_source_audit": "NOT_COMPLETED_FOR_ALL_CLAIMS",
+        "evidence_boundary": "이 장 역시 연구용 주제 지도입니다. 타밀어 1715/1719년 서지나 한국어 성경 원판의 미확정 본문은 출판 사실과 혼동하지 않아야 합니다.",
+        "case_ids": [],
+        "timepath_ids": [],
+        "special_caution": null,
+        "primary_research_records": []
+      },
+      "review_queue": "MID_LAYER_DRAFT_NEEDED",
+      "approved": {
+        "historian": false,
+        "human_reader": false,
+        "ai_studio_e2e": false
+      }
+    }
+  ]
+}
