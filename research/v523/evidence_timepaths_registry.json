@@ -1,0 +1,236 @@
+{
+  "schema": "ATLAS_V523_SIX_READER_EVIDENCE_TIMEPATHS_WITH_FACSIMILE_PROVENANCE",
+  "date": "2026-11-23",
+  "version": "V5.23",
+  "branch": "research/atlas-v523-authorship-print-facsimile-evidence-pathways",
+  "tracks": [
+    {
+      "id": "V523-E01",
+      "chapter_id": "L448-02-02",
+      "title": "경교비: 635년 사건, 781년 비문, 현대 탁본",
+      "sequence": [
+        {
+          "when": "635년",
+          "role": "기억 속 사건",
+          "witness": "781년 경교비의 회고",
+          "certainty": "635년 당대 현장기록으로 취급 불가"
+        },
+        {
+          "when": "781년",
+          "role": "당대 비석의 제작",
+          "witness": "중국어·시리아어 비문",
+          "certainty": "781년 공동체가 어떻게 자신을 설명했는지에 대한 직접 자료"
+        },
+        {
+          "when": "현대",
+          "role": "연구자가 읽는 매개",
+          "witness": "비석 사진·탁본·전사",
+          "certainty": "비석 원물과 후대 제작된 복제를 구별"
+        }
+      ],
+      "reader_message": "비석이 오래된 사건을 기록했다고, 그 비석 자체가 사건 당시 만들어진 것은 아닙니다.",
+      "evidence_status": "PREVIOUS_RESEARCH_NO_NEW_ORIGINAL_LEAF_THIS_TURN",
+      "case_ids": [
+        "ATLAS518-0202-01",
+        "ATLAS518-0202-02"
+      ]
+    },
+    {
+      "id": "V523-E02",
+      "chapter_id": "L448-04-02",
+      "title": "아우크스부르크: 제출문·인쇄본·후대 교감판",
+      "sequence": [
+        {
+          "when": "1530년",
+          "role": "제국회의 공적 신앙고백",
+          "witness": "아우크스부르크에 제출된 문헌",
+          "certainty": "제출 사건과 후대 인쇄본의 글자 동일성은 별도 문제"
+        },
+        {
+          "when": "1531·1540년",
+          "role": "복수의 인쇄본과 Variata",
+          "witness": "서지 목록·희귀본 및 부분 대조",
+          "certainty": "1540년 발행 책이 모두 Variata는 아님; 제10조 원판 직접 대조 미완료"
+        },
+        {
+          "when": "1858년",
+          "role": "후대 연구자의 교감·편집",
+          "witness": "Corpus Reformatorum",
+          "certainty": "후대 교감판의 독법을 특정 1540년 인쇄본 활자로 귀속할 수 없음"
+        }
+      ],
+      "reader_message": "같은 제목과 연도가 있어도 문서의 기능과 실제 인쇄 문구까지 같지는 않습니다.",
+      "evidence_status": "RARE_BOOK_BIBLIOGRAPHY_AND_LATER_EDITORIAL_PRINT_VERIFIED_ORIGINAL_1531_1540_ARTICLE_X_NOT_VERIFIED",
+      "case_ids": [
+        "ATLAS518-0402-02",
+        "ATLAS518-0402-03"
+      ]
+    },
+    {
+      "id": "V523-E03",
+      "chapter_id": "L448-05-03",
+      "title": "과만 포마: 저술가의 그림·자필 원고·현대 디지털 해설",
+      "sequence": [
+        {
+          "when": "약 1615년",
+          "role": "저술가의 식민 권력 비판",
+          "witness": "GKS 2232 4° 필사본",
+          "certainty": "저자가 전하는 비판 서술; 특정 사건의 독립 법정 증거가 아님"
+        },
+        {
+          "when": "필사본 590쪽",
+          "role": "개별 도상의 확인",
+          "witness": "나쁜 고해 그림의 디지털 이미지와 소장기관 설명",
+          "certainty": "이 그림이 성직자 권력 남용을 고발한다는 표현을 확인; 자필 텍스트 전면 교감은 아님"
+        },
+        {
+          "when": "현대",
+          "role": "번역·도상 해설",
+          "witness": "덴마크 왕립도서관과 미술사 연구",
+          "certainty": "후대 해설과 그림 속 실제 인물의 직접 증언을 구별"
+        }
+      ],
+      "reader_message": "한 장의 그림으로 저술가의 비판을 읽을 수 있지만, 그림 속 인물이 직접 말한 기록으로 바꿀 수는 없습니다.",
+      "evidence_status": "FOLIO_590_IMAGE_AND_INSTITUTIONAL_CAPTION_SEEN_FULL_MANUSCRIPT_TEXT_NOT_COLLATED",
+      "case_ids": [
+        "ATLAS518-0503-02"
+      ]
+    },
+    {
+      "id": "V523-E04",
+      "chapter_id": "L448-05-03",
+      "title": "소르 후아나: 1691년 답장·1700년 초판·1701년판·2026년 영인",
+      "sequence": [
+        {
+          "when": "1691년 3월 1일",
+          "role": "저자의 답장 집필",
+          "witness": "『Respuesta』에 전하는 작성일과 역사 연구",
+          "certainty": "저자가 살아 있을 때 쓴 글과 사후 간행을 구별"
+        },
+        {
+          "when": "1700년 마드리드",
+          "role": "사후 첫 인쇄",
+          "witness": "『Fama y obras póstumas』 JCB·LOC 소장목록과 복제본",
+          "certainty": "공식 목록으로 초판과 수록 쪽 확인; 이 버전에서 첫 면 직접 대조 미완료"
+        },
+        {
+          "when": "1701년 바르셀로나·리스본",
+          "role": "별도의 인쇄판",
+          "witness": "BYU 소장본과 희귀본 서지·알라토레 인쇄지 대조표",
+          "certainty": "권두부의 지면 배열과 『답장』 본문의 글자별 이문은 다른 문제"
+        },
+        {
+          "when": "2026년 4월",
+          "role": "1701년판을 재현한 현대 영인본",
+          "witness": "몬테레이 공과대학교 공식 보도자료와 첫 면 사진",
+          "certainty": "사진은 복각·영인된 쪽의 모습을 보여 주지만 1701년 원본 지면 직접 열람은 아님"
+        }
+      ],
+      "reader_message": "1691년에 저자가 쓴 글이 1700년에 처음 인쇄되고, 후대 편집자와 현대 영인 작업을 거치면서 어떻게 읽히는지 구분합니다.",
+      "evidence_status": "OFFICIAL_2026_PHOTO_OF_1701_FACSIMILE_FIRST_PAGE_VISUALLY_READ_NO_1700_VS_1701_DIRECT_TEXT_COLLATION",
+      "case_ids": [
+        "ATLAS518-0503-03"
+      ]
+    },
+    {
+      "id": "V523-E05",
+      "chapter_id": "L448-06-02",
+      "title": "타밀어 신약: 부분본·표제지·상충하는 기관 설명",
+      "sequence": [
+        {
+          "when": "1714년",
+          "role": "사복음서와 사도행전 부분본",
+          "witness": "서지와 출판사 연구",
+          "certainty": "1715년 신약 전권과 같은 물건이라고 합치지 않음"
+        },
+        {
+          "when": "1715년",
+          "role": "당시 인쇄 신약의 표제지",
+          "witness": "Marsden Collection R4/7 표제지 사진·WLB 소장목록",
+          "certainty": "인쇄 실물 표제지 한 면을 확인한 것; 내지·권말 전면 교감 아님"
+        },
+        {
+          "when": "1719년",
+          "role": "상충하는 현대 기관 안내",
+          "witness": "인도성서공회 전시 안내",
+          "certainty": "다른 판본·권종·서지 착오 중 무엇인지 미해결"
+        }
+      ],
+      "reader_message": "연대가 다르다는 것만으로 출판물이 다르다고 결론 내릴 수도, 셋 중 하나를 임의로 오기라 지울 수도 없습니다.",
+      "evidence_status": "1715_TITLEPAGE_PHOTO_READ_1719_INSTITUTIONAL_CONTRADICTION_UNRESOLVED",
+      "case_ids": [
+        "ATLAS518-0602-02"
+      ]
+    },
+    {
+      "id": "V523-E06",
+      "chapter_id": "L448-07-02",
+      "title": "한국어 성서: 부분 번역·신약·합본의 서로 다른 시작",
+      "sequence": [
+        {
+          "when": "1882년",
+          "role": "누가·요한복음 번역·인쇄",
+          "witness": "역사 서지·소장기록",
+          "certainty": "1887년 완간 신약과 동일 판본이 아님"
+        },
+        {
+          "when": "1887년",
+          "role": "신약 27권 간행",
+          "witness": "출판·번역사",
+          "certainty": "1900년 위원회역의 특정 지면과 구별"
+        },
+        {
+          "when": "1900년",
+          "role": "후속 번역·인쇄 계열",
+          "witness": "서울·요코하마 간행물 목록",
+          "certainty": "두 인쇄본의 문언 직접 교감 미완료"
+        },
+        {
+          "when": "1911년",
+          "role": "신구약 합본",
+          "witness": "한국어 성서 출판사",
+          "certainty": "이전 부분본·신약이 존재하지 않았다는 뜻이 아님"
+        }
+      ],
+      "reader_message": "'최초의 성경'이라는 표현보다 어느 부분이 어떤 판본으로 나왔는지를 먼저 확인합니다.",
+      "evidence_status": "PRIOR_SOURCE_SYNTHESIS_NO_NEW_PRINT_COMPARISON_V523",
+      "case_ids": [
+        "ATLAS518-0702-02"
+      ]
+    }
+  ],
+  "source_new_this_version": {
+    "source_id": "TEC_2026_BARCELONA_1701_FACSIMILE_OPENING",
+    "date_of_report": "2026-04-27",
+    "publisher": "Tecnológico de Monterrey CONECTA",
+    "url": "https://conecta.tec.mx/es/noticias/nacional/arte-y-cultura/tec-edita-obra-patrimonial-de-sor-juana-para-acercarla-los-jovenes",
+    "photo_url": "https://conecta.tec.mx/sites/default/files/inline-images/horario%20semanal.webp",
+    "object_type": "Photograph of 2026 facsimile publication reproducing a 1701 printing held in Tec's Cervantina collections",
+    "visually_confirmed": "Opening reproduced Respuesta page with title and opening formal address visible",
+    "short_transcribed_heading": "RESPVESTA DE LA POETISA A LA MVY ILVSTRE SOR PHILOTEA DE LA CRVZ",
+    "short_transcribed_salutation": "MVY ILVSTRE SEÑORA, MI SEÑORA",
+    "image_type": "2026_PHOTOGRAPH_OF_MODERN_FACSIMILE_OF_1701_BOOK_NOT_PHOTOGRAPH_OF_1701_ORIGINAL_LEAF",
+    "permissions": "External photographic copyright not reassessed; link to institution, do not copy photos into repository.",
+    "not_proven": [
+      "1700 original first-page exact typesetting",
+      "any word-level difference between 1700 and 1701 Respuesta",
+      "1701 Barcelona and Lisboa copy-identical pages",
+      "the 1691 autograph survives as the photographed object"
+    ]
+  },
+  "source_urls_newly_referenced": [
+    "https://conecta.tec.mx/es/noticias/nacional/arte-y-cultura/tec-edita-obra-patrimonial-de-sor-juana-para-acercarla-los-jovenes"
+  ],
+  "risk_and_reading_note": "Reader tracks compare chronology, document genre, editorial mediation, and modern access; they are not source-to-every-claim independent audit.",
+  "verified_1701_original_leaf_directly_seen": false,
+  "modern_facsime_opening_photo_seen": true,
+  "verified_1700_original_Respuesta_opening_leaf_directly_seen": false,
+  "word_by_word_1700_1701_variant_collation_count": 0,
+  "new_primary_source_collations_count": 0,
+  "subject_matter_signoffs": 0,
+  "reader_trials": 0,
+  "app_e2e": 0,
+  "can_ship": false,
+  "can_merge_main": false,
+  "can_import_ai_studio": false
+}
