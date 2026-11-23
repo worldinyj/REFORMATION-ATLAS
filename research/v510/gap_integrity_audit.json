@@ -1,0 +1,62 @@
+{
+  "schema": "ATLAS_V510_INTEGRATED_MANUSCRIPT_GAP_AUDIT",
+  "date": "2026-11-23",
+  "version": "V5.10",
+  "branch": "research/atlas-v510-global-evidence-gap-map",
+  "base": "research/atlas-v509-three-source-voices-era-balance",
+  "summary": {
+    "volumes": 8,
+    "chapters": 24,
+    "before_chars": 49242,
+    "after_chars": 50166,
+    "net_added_chars": 924,
+    "updated_chapters": [
+      "L448-04-01"
+    ],
+    "preserved_chapters": 23,
+    "new_urls": 5,
+    "source_gap_profiles": 24
+  },
+  "volume_chars": {
+    "before": {
+      "VOL-01": 5577,
+      "VOL-02": 5255,
+      "VOL-03": 5664,
+      "VOL-04": 6033,
+      "VOL-05": 8627,
+      "VOL-06": 7417,
+      "VOL-07": 8134,
+      "VOL-08": 2535
+    },
+    "now": {
+      "VOL-01": 5577,
+      "VOL-02": 5255,
+      "VOL-03": 5664,
+      "VOL-04": 6957,
+      "VOL-05": 8627,
+      "VOL-06": 7417,
+      "VOL-07": 8134,
+      "VOL-08": 2535
+    }
+  },
+  "checks": {
+    "chapter_order_identical": true,
+    "untouched_23_body_identical": true,
+    "all_old_source_links_preserved": true,
+    "preserved_five_v508_case_chapter_bodies": true,
+    "new_ethiopian_case_present": true,
+    "original_part_of_modified_chapter_preserved": true,
+    "risk_profiles_cover_all_chapters": true,
+    "gate_unapproved": true
+  },
+  "limits": [
+    "JSON과 Markdown 24장 본문 및 참고 링크 일치는 저장 이전 생성 시 대조 완료; 이 파일에서 원전 전체 대조를 주장하지 않음",
+    "게에즈어 1548~1549 인쇄본은 소장 안내 및 후대 학술 연구를 검토, 원본 전체 판면 미교감",
+    "디암페르 1599는 문서 전승 문제로 미삽입",
+    "V509 일반 교육 URL은 특정 인쇄본 출처 아님",
+    "역사학자 검토, 일반 독자 평가 및 운영 앱 E2E 미수행"
+  ],
+  "can_ship": false,
+  "can_merge_main": false,
+  "can_import_ai_studio": false
+}
