@@ -1,0 +1,37 @@
+{
+  "version": "V5.32",
+  "base_blob": "52e2de3603ad6d16db40b5590c17ebdb1741ab86",
+  "checks": {
+    "volumes8": true,
+    "chapters24": true,
+    "allArcs": true,
+    "allTransitions": true,
+    "originalVolumesPreserved": true,
+    "originalBodies": true,
+    "originalSources": true,
+    "oldLayersPreserved": true,
+    "allReaderResolves": true,
+    "consistencyRulesPreserved": true,
+    "releaseBlocked": true
+  },
+  "renderChecks": {
+    "reader24": true,
+    "master24": true,
+    "allBodies": true,
+    "allSources": true,
+    "allActiveReader": true,
+    "allActiveMedium": true,
+    "allBridges": true,
+    "allArcs": true,
+    "heldSupplementsNotActive": true
+  },
+  "passed": 20,
+  "total": 20,
+  "edited_introductions": 8,
+  "edited_conclusions": 8,
+  "edited_transitions": 24,
+  "reader_chars": 45119,
+  "master_chars": 127826,
+  "source_scope": "editorial and structural only; no independent historical validation",
+  "can_ship": false
+}
