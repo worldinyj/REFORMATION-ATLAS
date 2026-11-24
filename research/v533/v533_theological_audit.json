@@ -1,0 +1,39 @@
+{
+  "version": "V5.33",
+  "checks": {
+    "fiveUnits": true,
+    "allTargets": true,
+    "allRefs": true,
+    "oldChapterFieldsPreserved": true,
+    "oldVolumeArcsPreserved": true,
+    "oldClaimRulesPreserved": true,
+    "all24Readers": true,
+    "releaseBlocked": true
+  },
+  "render": {
+    "all24Reader": true,
+    "all24Master": true,
+    "allBodies": true,
+    "allSourceUrls": true,
+    "allUnitsOnce": true,
+    "allUnitLinks": true,
+    "allActiveNarratives": true
+  },
+  "passed": 15,
+  "total": 15,
+  "units": 5,
+  "linked_chapters": 12,
+  "source_records": 9,
+  "body_chars": 3328,
+  "reader_chars": 53432,
+  "master_chars": 136088,
+  "open": [
+    "Zwingli and Calvin author-specific comparison",
+    "Eastern Orthodox theosis and Oriental Orthodox self-description",
+    "Trent Session IV full text",
+    "Anglican confessional texts",
+    "Wesley and Pietist primary texts",
+    "Augsburg original Article X witness collation"
+  ],
+  "can_ship": false
+}
