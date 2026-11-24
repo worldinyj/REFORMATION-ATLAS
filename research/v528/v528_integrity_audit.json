@@ -1,0 +1,29 @@
+{
+  "version": "V5.28",
+  "chapters": 24,
+  "previous_medium": 18,
+  "added_medium": 3,
+  "total_medium": 21,
+  "missing": 3,
+  "remaining_ids": [
+    "L448-05-02",
+    "L448-07-01",
+    "L448-08-03"
+  ],
+  "unchanged_history_bodies": true,
+  "unchanged_source_link_arrays": true,
+  "existing_case_cards": 52,
+  "original_direct_collation_new": 0,
+  "expert_approved": 0,
+  "human_reader_trials": 0,
+  "app_e2e": 0,
+  "can_ship": false,
+  "integrity_checks": {
+    "unique_chapter_ids": true,
+    "exact_target_story_count": true,
+    "story_injected_in_three_chapters": true,
+    "medium_total": true,
+    "historical_bodies_equal": true,
+    "source_link_counts_equal": true
+  }
+}
