@@ -1,0 +1,33 @@
+{
+  "version": "V5.34",
+  "checks": {
+    "sixUnits": true,
+    "targets": true,
+    "oldFields": true,
+    "volumePreserved": true,
+    "theologyPreserved": true,
+    "releaseBlocked": true
+  },
+  "render": {
+    "reader24": true,
+    "master24": true,
+    "allUnits": true,
+    "allHistory": true,
+    "allTheology": true,
+    "uniqueUnits": true
+  },
+  "units": 6,
+  "linked_chapters": 12,
+  "source_records": 13,
+  "body_chars": 2490,
+  "reader_chars": 58388,
+  "master_chars": 141164,
+  "can_ship": false,
+  "remaining": [
+    "North America and Indigenous communities",
+    "Southeast Asia",
+    "regional women and non-elite testimony",
+    "Oriental Orthodox self-description",
+    "modern African church diversity beyond one case"
+  ]
+}
