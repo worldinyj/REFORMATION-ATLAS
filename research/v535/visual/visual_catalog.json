@@ -1,0 +1,307 @@
+{
+  "version": "V5.35",
+  "base_registry_sha": "beb63cfcc44f329d044d84057dbe85cb4a82bd78",
+  "can_ship": false,
+  "case_count": 52,
+  "point_count": 26,
+  "unmapped": [
+    {
+      "case_id": "ATLAS518-0101-01",
+      "chapter_id": "L448-01-01",
+      "region": "지중해 도시",
+      "reason": "regional, multi-site or insufficiently localized for this first point layer"
+    },
+    {
+      "case_id": "ATLAS518-0102-01",
+      "chapter_id": "L448-01-02",
+      "region": "로마 제국",
+      "reason": "regional, multi-site or insufficiently localized for this first point layer"
+    },
+    {
+      "case_id": "ATLAS518-0103-01",
+      "chapter_id": "L448-01-03",
+      "region": "동지중해",
+      "reason": "regional, multi-site or insufficiently localized for this first point layer"
+    },
+    {
+      "case_id": "ATLAS518-0201-01",
+      "chapter_id": "L448-02-01",
+      "region": "서아시아·메소포타미아",
+      "reason": "regional, multi-site or insufficiently localized for this first point layer"
+    },
+    {
+      "case_id": "ATLAS518-0201-02",
+      "chapter_id": "L448-02-01",
+      "region": "비잔틴·동지중해",
+      "reason": "regional, multi-site or insufficiently localized for this first point layer"
+    },
+    {
+      "case_id": "ATLAS518-0301-02",
+      "chapter_id": "L448-03-01",
+      "region": "시에나·아비뇽·로마",
+      "reason": "regional, multi-site or insufficiently localized for this first point layer"
+    },
+    {
+      "case_id": "ATLAS518-0302-01",
+      "chapter_id": "L448-03-02",
+      "region": "잉글랜드",
+      "reason": "regional, multi-site or insufficiently localized for this first point layer"
+    },
+    {
+      "case_id": "ATLAS518-0303-02",
+      "chapter_id": "L448-03-03",
+      "region": "보헤미아·바젤 협상",
+      "reason": "regional, multi-site or insufficiently localized for this first point layer"
+    },
+    {
+      "case_id": "ATLAS518-0401-02",
+      "chapter_id": "L448-04-01",
+      "region": "바이에른·독일어권",
+      "reason": "regional, multi-site or insufficiently localized for this first point layer"
+    },
+    {
+      "case_id": "ATLAS518-0403-02",
+      "chapter_id": "L448-04-03",
+      "region": "잉글랜드",
+      "reason": "regional, multi-site or insufficiently localized for this first point layer"
+    },
+    {
+      "case_id": "ATLAS518-0403-03",
+      "chapter_id": "L448-04-03",
+      "region": "독일어권·유럽",
+      "reason": "regional, multi-site or insufficiently localized for this first point layer"
+    },
+    {
+      "case_id": "ATLAS518-0501-02",
+      "chapter_id": "L448-05-01",
+      "region": "가톨릭 지역 교회",
+      "reason": "regional, multi-site or insufficiently localized for this first point layer"
+    },
+    {
+      "case_id": "ATLAS518-0502-02",
+      "chapter_id": "L448-05-02",
+      "region": "유럽·베스트팔렌",
+      "reason": "regional, multi-site or insufficiently localized for this first point layer"
+    },
+    {
+      "case_id": "ATLAS518-0503-01",
+      "chapter_id": "L448-05-03",
+      "region": "유럽 교구·도시",
+      "reason": "regional, multi-site or insufficiently localized for this first point layer"
+    },
+    {
+      "case_id": "ATLAS518-0503-02",
+      "chapter_id": "L448-05-03",
+      "region": "안데스, 페루",
+      "reason": "regional, multi-site or insufficiently localized for this first point layer"
+    },
+    {
+      "case_id": "ATLAS518-0503-03",
+      "chapter_id": "L448-05-03",
+      "region": "멕시코",
+      "reason": "regional, multi-site or insufficiently localized for this first point layer"
+    },
+    {
+      "case_id": "ATLAS518-0601-03",
+      "chapter_id": "L448-06-01",
+      "region": "영국 및 관련 지역",
+      "reason": "regional, multi-site or insufficiently localized for this first point layer"
+    },
+    {
+      "case_id": "ATLAS518-0603-01",
+      "chapter_id": "L448-06-03",
+      "region": "카리브해",
+      "reason": "regional, multi-site or insufficiently localized for this first point layer"
+    },
+    {
+      "case_id": "ATLAS518-0603-02",
+      "chapter_id": "L448-06-03",
+      "region": "남태평양",
+      "reason": "regional, multi-site or insufficiently localized for this first point layer"
+    },
+    {
+      "case_id": "ATLAS518-0603-03",
+      "chapter_id": "L448-06-03",
+      "region": "타히티·통가·피지",
+      "reason": "regional, multi-site or insufficiently localized for this first point layer"
+    },
+    {
+      "case_id": "ATLAS518-0701-01",
+      "chapter_id": "L448-07-01",
+      "region": "이집트·에티오피아·서아시아",
+      "reason": "regional, multi-site or insufficiently localized for this first point layer"
+    },
+    {
+      "case_id": "ATLAS518-0701-02",
+      "chapter_id": "L448-07-01",
+      "region": "아프리카 여러 지역",
+      "reason": "regional, multi-site or insufficiently localized for this first point layer"
+    },
+    {
+      "case_id": "ATLAS518-0701-03",
+      "chapter_id": "L448-07-01",
+      "region": "중동",
+      "reason": "regional, multi-site or insufficiently localized for this first point layer"
+    },
+    {
+      "case_id": "ATLAS518-0702-01",
+      "chapter_id": "L448-07-02",
+      "region": "조선·한국",
+      "reason": "regional, multi-site or insufficiently localized for this first point layer"
+    },
+    {
+      "case_id": "ATLAS518-0702-02",
+      "chapter_id": "L448-07-02",
+      "region": "조선·한국",
+      "reason": "regional, multi-site or insufficiently localized for this first point layer"
+    },
+    {
+      "case_id": "ATLAS518-0703-04",
+      "chapter_id": "L448-07-03",
+      "region": "인도·한국",
+      "reason": "regional, multi-site or insufficiently localized for this first point layer"
+    }
+  ],
+  "volumes": [
+    {
+      "volume_id": "VOL-01",
+      "case_ids": [
+        "ATLAS518-0101-01",
+        "ATLAS518-0101-02",
+        "ATLAS518-0102-01",
+        "ATLAS518-0102-02",
+        "ATLAS518-0103-01",
+        "ATLAS518-0103-02"
+      ],
+      "point_ids": [
+        "ATLAS518-0101-02",
+        "ATLAS518-0102-02",
+        "ATLAS518-0103-02"
+      ],
+      "view": "historical point filter"
+    },
+    {
+      "volume_id": "VOL-02",
+      "case_ids": [
+        "ATLAS518-0201-01",
+        "ATLAS518-0201-02",
+        "ATLAS518-0202-01",
+        "ATLAS518-0202-02",
+        "ATLAS518-0203-01",
+        "ATLAS518-0203-02",
+        "ATLAS518-0203-03"
+      ],
+      "point_ids": [
+        "ATLAS518-0202-01",
+        "ATLAS518-0202-02",
+        "ATLAS518-0203-01",
+        "ATLAS518-0203-02",
+        "ATLAS518-0203-03"
+      ],
+      "view": "historical point filter"
+    },
+    {
+      "volume_id": "VOL-03",
+      "case_ids": [
+        "ATLAS518-0301-01",
+        "ATLAS518-0301-02",
+        "ATLAS518-0302-01",
+        "ATLAS518-0302-02",
+        "ATLAS518-0303-01",
+        "ATLAS518-0303-02"
+      ],
+      "point_ids": [
+        "ATLAS518-0301-01",
+        "ATLAS518-0302-02",
+        "ATLAS518-0303-01"
+      ],
+      "view": "historical point filter"
+    },
+    {
+      "volume_id": "VOL-04",
+      "case_ids": [
+        "ATLAS518-0401-01",
+        "ATLAS518-0401-02",
+        "ATLAS518-0401-03",
+        "ATLAS518-0402-01",
+        "ATLAS518-0402-02",
+        "ATLAS518-0402-03",
+        "ATLAS518-0403-01",
+        "ATLAS518-0403-02",
+        "ATLAS518-0403-03"
+      ],
+      "point_ids": [
+        "ATLAS518-0401-01",
+        "ATLAS518-0401-03",
+        "ATLAS518-0402-01",
+        "ATLAS518-0402-02",
+        "ATLAS518-0402-03",
+        "ATLAS518-0403-01"
+      ],
+      "view": "historical point filter"
+    },
+    {
+      "volume_id": "VOL-05",
+      "case_ids": [
+        "ATLAS518-0501-01",
+        "ATLAS518-0501-02",
+        "ATLAS518-0502-01",
+        "ATLAS518-0502-02",
+        "ATLAS518-0503-01",
+        "ATLAS518-0503-02",
+        "ATLAS518-0503-03"
+      ],
+      "point_ids": [
+        "ATLAS518-0501-01",
+        "ATLAS518-0502-01"
+      ],
+      "view": "historical point filter"
+    },
+    {
+      "volume_id": "VOL-06",
+      "case_ids": [
+        "ATLAS518-0601-01",
+        "ATLAS518-0601-02",
+        "ATLAS518-0601-03",
+        "ATLAS518-0602-01",
+        "ATLAS518-0602-02",
+        "ATLAS518-0603-01",
+        "ATLAS518-0603-02",
+        "ATLAS518-0603-03"
+      ],
+      "point_ids": [
+        "ATLAS518-0601-01",
+        "ATLAS518-0601-02",
+        "ATLAS518-0602-01",
+        "ATLAS518-0602-02"
+      ],
+      "view": "historical point filter"
+    },
+    {
+      "volume_id": "VOL-07",
+      "case_ids": [
+        "ATLAS518-0701-01",
+        "ATLAS518-0701-02",
+        "ATLAS518-0701-03",
+        "ATLAS518-0702-01",
+        "ATLAS518-0702-02",
+        "ATLAS518-0703-01",
+        "ATLAS518-0703-02",
+        "ATLAS518-0703-03",
+        "ATLAS518-0703-04"
+      ],
+      "point_ids": [
+        "ATLAS518-0703-01",
+        "ATLAS518-0703-02",
+        "ATLAS518-0703-03"
+      ],
+      "view": "historical point filter"
+    },
+    {
+      "volume_id": "VOL-08",
+      "case_ids": [],
+      "point_ids": [],
+      "view": "thematic comparison; reuse points from volumes 1–7"
+    }
+  ]
+}
