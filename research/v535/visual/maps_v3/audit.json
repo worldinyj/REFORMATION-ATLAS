@@ -1,0 +1,67 @@
+{
+  "checks": {
+    "land127": true,
+    "geo36": true,
+    "case52": true,
+    "eightMaps": true,
+    "allPointsByVolume": true,
+    "allWorldPoints": true,
+    "eachHasRealLand": true,
+    "allLegendRefs": true,
+    "noExternalImageOrScript": true,
+    "noHistoricalBoundaries": true
+  },
+  "passed": 10,
+  "total": 10,
+  "maps": [
+    {
+      "volume": "VOL-01",
+      "points": 7,
+      "clusters": 5,
+      "land_paths": 6
+    },
+    {
+      "volume": "VOL-02",
+      "points": 5,
+      "clusters": 3,
+      "land_paths": 15
+    },
+    {
+      "volume": "VOL-03",
+      "points": 7,
+      "clusters": 6,
+      "land_paths": 8
+    },
+    {
+      "volume": "VOL-04",
+      "points": 6,
+      "clusters": 5,
+      "land_paths": 8
+    },
+    {
+      "volume": "VOL-05",
+      "points": 2,
+      "clusters": 2,
+      "land_paths": 8
+    },
+    {
+      "volume": "VOL-06",
+      "points": 6,
+      "clusters": 4,
+      "land_paths": 105
+    },
+    {
+      "volume": "VOL-07",
+      "points": 3,
+      "clusters": 2,
+      "land_paths": 105
+    },
+    {
+      "volume": "VOL-08",
+      "points": 36,
+      "clusters": 10,
+      "land_paths": 105
+    }
+  ],
+  "can_ship": false
+}
