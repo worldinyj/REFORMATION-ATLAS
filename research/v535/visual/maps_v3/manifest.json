@@ -1,0 +1,747 @@
+{
+  "version": "V5.35-map3",
+  "source": {
+    "name": "Natural Earth 1:110m land",
+    "tag": "v5.1.2",
+    "url": "https://github.com/nvkelso/natural-earth-vector/blob/v5.1.2/geojson/ne_110m_land.geojson",
+    "terms": "https://www.naturalearthdata.com/about/terms-of-use/",
+    "license": "public domain",
+    "blob_sha": "04811d72fff2701ec67587e30ad8942675b511e3"
+  },
+  "inputs": {
+    "points_sha": "249b1e8b48487b6d671616411ca484c20140a5ba",
+    "spatial_registry_sha": "946ac0666afe81a0bb53a17b55962ea5129643cb"
+  },
+  "maps": [
+    {
+      "volume_id": "VOL-01",
+      "filename": "volume_1.svg",
+      "case_ids": [
+        "ATLAS518-0101-01",
+        "ATLAS518-0101-02",
+        "ATLAS518-0102-01",
+        "ATLAS518-0102-02",
+        "ATLAS518-0103-01",
+        "ATLAS518-0103-02"
+      ],
+      "point_ids": [
+        "ATLAS518-0101-02-1",
+        "ATLAS518-0102-02-1",
+        "ATLAS518-0103-01-1",
+        "ATLAS518-0103-01-2",
+        "ATLAS518-0103-01-3",
+        "ATLAS518-0103-01-4",
+        "ATLAS518-0103-02-1"
+      ],
+      "cluster_count": 5,
+      "land_paths": 6,
+      "legend": [
+        {
+          "n": 1,
+          "labels": [
+            "두라에우로포스"
+          ],
+          "point_ids": [
+            "ATLAS518-0101-02-1"
+          ]
+        },
+        {
+          "n": 2,
+          "labels": [
+            "악숨"
+          ],
+          "point_ids": [
+            "ATLAS518-0102-02-1"
+          ]
+        },
+        {
+          "n": 3,
+          "labels": [
+            "니케아",
+            "콘스탄티노폴리스",
+            "칼케돈"
+          ],
+          "point_ids": [
+            "ATLAS518-0103-01-1",
+            "ATLAS518-0103-01-2",
+            "ATLAS518-0103-01-4"
+          ]
+        },
+        {
+          "n": 4,
+          "labels": [
+            "에페소"
+          ],
+          "point_ids": [
+            "ATLAS518-0103-01-3"
+          ]
+        },
+        {
+          "n": 5,
+          "labels": [
+            "예루살렘"
+          ],
+          "point_ids": [
+            "ATLAS518-0103-02-1"
+          ]
+        }
+      ],
+      "projection": "equirectangular with standard parallel at midpoint latitude",
+      "extent": [
+        -2,
+        4,
+        52,
+        49
+      ]
+    },
+    {
+      "volume_id": "VOL-02",
+      "filename": "volume_2.svg",
+      "case_ids": [
+        "ATLAS518-0201-01",
+        "ATLAS518-0201-02",
+        "ATLAS518-0202-01",
+        "ATLAS518-0202-02",
+        "ATLAS518-0203-01",
+        "ATLAS518-0203-02",
+        "ATLAS518-0203-03"
+      ],
+      "point_ids": [
+        "ATLAS518-0202-01-1",
+        "ATLAS518-0202-02-1",
+        "ATLAS518-0203-01-1",
+        "ATLAS518-0203-02-1",
+        "ATLAS518-0203-03-1"
+      ],
+      "cluster_count": 3,
+      "land_paths": 15,
+      "legend": [
+        {
+          "n": 1,
+          "labels": [
+            "장안(시안)"
+          ],
+          "point_ids": [
+            "ATLAS518-0202-01-1",
+            "ATLAS518-0202-02-1"
+          ]
+        },
+        {
+          "n": 2,
+          "labels": [
+            "콘스탄티노폴리스"
+          ],
+          "point_ids": [
+            "ATLAS518-0203-01-1",
+            "ATLAS518-0203-02-1"
+          ]
+        },
+        {
+          "n": 3,
+          "labels": [
+            "피렌체"
+          ],
+          "point_ids": [
+            "ATLAS518-0203-03-1"
+          ]
+        }
+      ],
+      "projection": "equirectangular with standard parallel at midpoint latitude",
+      "extent": [
+        -5,
+        10,
+        123,
+        65
+      ]
+    },
+    {
+      "volume_id": "VOL-03",
+      "filename": "volume_3.svg",
+      "case_ids": [
+        "ATLAS518-0301-01",
+        "ATLAS518-0301-02",
+        "ATLAS518-0302-01",
+        "ATLAS518-0302-02",
+        "ATLAS518-0303-01",
+        "ATLAS518-0303-02"
+      ],
+      "point_ids": [
+        "ATLAS518-0301-01-1",
+        "ATLAS518-0301-02-1",
+        "ATLAS518-0301-02-2",
+        "ATLAS518-0301-02-3",
+        "ATLAS518-0302-02-1",
+        "ATLAS518-0303-01-1",
+        "ATLAS518-0303-02-1"
+      ],
+      "cluster_count": 6,
+      "land_paths": 8,
+      "legend": [
+        {
+          "n": 1,
+          "labels": [
+            "리옹"
+          ],
+          "point_ids": [
+            "ATLAS518-0301-01-1"
+          ]
+        },
+        {
+          "n": 2,
+          "labels": [
+            "시에나"
+          ],
+          "point_ids": [
+            "ATLAS518-0301-02-1"
+          ]
+        },
+        {
+          "n": 3,
+          "labels": [
+            "아비뇽"
+          ],
+          "point_ids": [
+            "ATLAS518-0301-02-2"
+          ]
+        },
+        {
+          "n": 4,
+          "labels": [
+            "로마"
+          ],
+          "point_ids": [
+            "ATLAS518-0301-02-3"
+          ]
+        },
+        {
+          "n": 5,
+          "labels": [
+            "콘스탄츠",
+            "바젤"
+          ],
+          "point_ids": [
+            "ATLAS518-0302-02-1",
+            "ATLAS518-0303-02-1"
+          ]
+        },
+        {
+          "n": 6,
+          "labels": [
+            "프라하"
+          ],
+          "point_ids": [
+            "ATLAS518-0303-01-1"
+          ]
+        }
+      ],
+      "projection": "equirectangular with standard parallel at midpoint latitude",
+      "extent": [
+        -8,
+        35,
+        25,
+        57
+      ]
+    },
+    {
+      "volume_id": "VOL-04",
+      "filename": "volume_4.svg",
+      "case_ids": [
+        "ATLAS518-0401-01",
+        "ATLAS518-0401-02",
+        "ATLAS518-0401-03",
+        "ATLAS518-0402-01",
+        "ATLAS518-0402-02",
+        "ATLAS518-0402-03",
+        "ATLAS518-0403-01",
+        "ATLAS518-0403-02",
+        "ATLAS518-0403-03"
+      ],
+      "point_ids": [
+        "ATLAS518-0401-01-1",
+        "ATLAS518-0401-03-1",
+        "ATLAS518-0402-01-1",
+        "ATLAS518-0402-02-1",
+        "ATLAS518-0402-03-1",
+        "ATLAS518-0403-01-1"
+      ],
+      "cluster_count": 5,
+      "land_paths": 8,
+      "legend": [
+        {
+          "n": 1,
+          "labels": [
+            "비텐베르크"
+          ],
+          "point_ids": [
+            "ATLAS518-0401-01-1",
+            "ATLAS518-0402-03-1"
+          ]
+        },
+        {
+          "n": 2,
+          "labels": [
+            "로마"
+          ],
+          "point_ids": [
+            "ATLAS518-0401-03-1"
+          ]
+        },
+        {
+          "n": 3,
+          "labels": [
+            "마르부르크"
+          ],
+          "point_ids": [
+            "ATLAS518-0402-01-1"
+          ]
+        },
+        {
+          "n": 4,
+          "labels": [
+            "아우크스부르크"
+          ],
+          "point_ids": [
+            "ATLAS518-0402-02-1"
+          ]
+        },
+        {
+          "n": 5,
+          "labels": [
+            "제네바"
+          ],
+          "point_ids": [
+            "ATLAS518-0403-01-1"
+          ]
+        }
+      ],
+      "projection": "equirectangular with standard parallel at midpoint latitude",
+      "extent": [
+        -7,
+        35,
+        25,
+        58
+      ]
+    },
+    {
+      "volume_id": "VOL-05",
+      "filename": "volume_5.svg",
+      "case_ids": [
+        "ATLAS518-0501-01",
+        "ATLAS518-0501-02",
+        "ATLAS518-0502-01",
+        "ATLAS518-0502-02",
+        "ATLAS518-0503-01",
+        "ATLAS518-0503-02",
+        "ATLAS518-0503-03"
+      ],
+      "point_ids": [
+        "ATLAS518-0501-01-1",
+        "ATLAS518-0502-01-1"
+      ],
+      "cluster_count": 2,
+      "land_paths": 8,
+      "legend": [
+        {
+          "n": 1,
+          "labels": [
+            "트리엔트"
+          ],
+          "point_ids": [
+            "ATLAS518-0501-01-1"
+          ]
+        },
+        {
+          "n": 2,
+          "labels": [
+            "아우크스부르크"
+          ],
+          "point_ids": [
+            "ATLAS518-0502-01-1"
+          ]
+        }
+      ],
+      "projection": "equirectangular with standard parallel at midpoint latitude",
+      "extent": [
+        -13,
+        29,
+        30,
+        60
+      ]
+    },
+    {
+      "volume_id": "VOL-06",
+      "filename": "volume_6.svg",
+      "case_ids": [
+        "ATLAS518-0601-01",
+        "ATLAS518-0601-02",
+        "ATLAS518-0601-03",
+        "ATLAS518-0602-01",
+        "ATLAS518-0602-02",
+        "ATLAS518-0603-01",
+        "ATLAS518-0603-02",
+        "ATLAS518-0603-03"
+      ],
+      "point_ids": [
+        "ATLAS518-0601-01-1",
+        "ATLAS518-0601-02-1",
+        "ATLAS518-0602-01-1",
+        "ATLAS518-0602-02-1",
+        "ATLAS518-0603-01-1",
+        "ATLAS518-0603-03-1"
+      ],
+      "cluster_count": 4,
+      "land_paths": 105,
+      "legend": [
+        {
+          "n": 1,
+          "labels": [
+            "할레",
+            "헤른후트"
+          ],
+          "point_ids": [
+            "ATLAS518-0601-01-1",
+            "ATLAS518-0601-02-1"
+          ]
+        },
+        {
+          "n": 2,
+          "labels": [
+            "트랑케바르"
+          ],
+          "point_ids": [
+            "ATLAS518-0602-01-1",
+            "ATLAS518-0602-02-1"
+          ]
+        },
+        {
+          "n": 3,
+          "labels": [
+            "세인트토머스"
+          ],
+          "point_ids": [
+            "ATLAS518-0603-01-1"
+          ]
+        },
+        {
+          "n": 4,
+          "labels": [
+            "타히티"
+          ],
+          "point_ids": [
+            "ATLAS518-0603-03-1"
+          ]
+        }
+      ],
+      "projection": "equirectangular with standard parallel at midpoint latitude",
+      "extent": [
+        -180,
+        -55,
+        180,
+        75
+      ]
+    },
+    {
+      "volume_id": "VOL-07",
+      "filename": "volume_7.svg",
+      "case_ids": [
+        "ATLAS518-0701-01",
+        "ATLAS518-0701-02",
+        "ATLAS518-0701-03",
+        "ATLAS518-0702-01",
+        "ATLAS518-0702-02",
+        "ATLAS518-0703-01",
+        "ATLAS518-0703-02",
+        "ATLAS518-0703-03",
+        "ATLAS518-0703-04"
+      ],
+      "point_ids": [
+        "ATLAS518-0703-01-1",
+        "ATLAS518-0703-02-1",
+        "ATLAS518-0703-03-1"
+      ],
+      "cluster_count": 2,
+      "land_paths": 105,
+      "legend": [
+        {
+          "n": 1,
+          "labels": [
+            "에든버러",
+            "암스테르담"
+          ],
+          "point_ids": [
+            "ATLAS518-0703-01-1",
+            "ATLAS518-0703-02-1"
+          ]
+        },
+        {
+          "n": 2,
+          "labels": [
+            "메데인"
+          ],
+          "point_ids": [
+            "ATLAS518-0703-03-1"
+          ]
+        }
+      ],
+      "projection": "equirectangular with standard parallel at midpoint latitude",
+      "extent": [
+        -180,
+        -55,
+        180,
+        75
+      ]
+    },
+    {
+      "volume_id": "VOL-08",
+      "filename": "volume_8.svg",
+      "case_ids": [
+        "ATLAS518-0101-01",
+        "ATLAS518-0101-02",
+        "ATLAS518-0102-01",
+        "ATLAS518-0102-02",
+        "ATLAS518-0103-01",
+        "ATLAS518-0103-02",
+        "ATLAS518-0201-01",
+        "ATLAS518-0201-02",
+        "ATLAS518-0202-01",
+        "ATLAS518-0202-02",
+        "ATLAS518-0203-01",
+        "ATLAS518-0203-02",
+        "ATLAS518-0203-03",
+        "ATLAS518-0301-01",
+        "ATLAS518-0301-02",
+        "ATLAS518-0302-01",
+        "ATLAS518-0302-02",
+        "ATLAS518-0303-01",
+        "ATLAS518-0303-02",
+        "ATLAS518-0401-01",
+        "ATLAS518-0401-02",
+        "ATLAS518-0401-03",
+        "ATLAS518-0402-01",
+        "ATLAS518-0402-02",
+        "ATLAS518-0402-03",
+        "ATLAS518-0403-01",
+        "ATLAS518-0403-02",
+        "ATLAS518-0403-03",
+        "ATLAS518-0501-01",
+        "ATLAS518-0501-02",
+        "ATLAS518-0502-01",
+        "ATLAS518-0502-02",
+        "ATLAS518-0503-01",
+        "ATLAS518-0503-02",
+        "ATLAS518-0503-03",
+        "ATLAS518-0601-01",
+        "ATLAS518-0601-02",
+        "ATLAS518-0601-03",
+        "ATLAS518-0602-01",
+        "ATLAS518-0602-02",
+        "ATLAS518-0603-01",
+        "ATLAS518-0603-02",
+        "ATLAS518-0603-03",
+        "ATLAS518-0701-01",
+        "ATLAS518-0701-02",
+        "ATLAS518-0701-03",
+        "ATLAS518-0702-01",
+        "ATLAS518-0702-02",
+        "ATLAS518-0703-01",
+        "ATLAS518-0703-02",
+        "ATLAS518-0703-03",
+        "ATLAS518-0703-04"
+      ],
+      "point_ids": [
+        "ATLAS518-0101-02-1",
+        "ATLAS518-0102-02-1",
+        "ATLAS518-0103-01-1",
+        "ATLAS518-0103-01-2",
+        "ATLAS518-0103-01-3",
+        "ATLAS518-0103-01-4",
+        "ATLAS518-0103-02-1",
+        "ATLAS518-0202-01-1",
+        "ATLAS518-0202-02-1",
+        "ATLAS518-0203-01-1",
+        "ATLAS518-0203-02-1",
+        "ATLAS518-0203-03-1",
+        "ATLAS518-0301-01-1",
+        "ATLAS518-0301-02-1",
+        "ATLAS518-0301-02-2",
+        "ATLAS518-0301-02-3",
+        "ATLAS518-0302-02-1",
+        "ATLAS518-0303-01-1",
+        "ATLAS518-0303-02-1",
+        "ATLAS518-0401-01-1",
+        "ATLAS518-0401-03-1",
+        "ATLAS518-0402-01-1",
+        "ATLAS518-0402-02-1",
+        "ATLAS518-0402-03-1",
+        "ATLAS518-0403-01-1",
+        "ATLAS518-0501-01-1",
+        "ATLAS518-0502-01-1",
+        "ATLAS518-0601-01-1",
+        "ATLAS518-0601-02-1",
+        "ATLAS518-0602-01-1",
+        "ATLAS518-0602-02-1",
+        "ATLAS518-0603-01-1",
+        "ATLAS518-0603-03-1",
+        "ATLAS518-0703-01-1",
+        "ATLAS518-0703-02-1",
+        "ATLAS518-0703-03-1"
+      ],
+      "cluster_count": 10,
+      "land_paths": 105,
+      "legend": [
+        {
+          "n": 1,
+          "labels": [
+            "두라에우로포스",
+            "예루살렘"
+          ],
+          "point_ids": [
+            "ATLAS518-0101-02-1",
+            "ATLAS518-0103-02-1"
+          ]
+        },
+        {
+          "n": 2,
+          "labels": [
+            "악숨"
+          ],
+          "point_ids": [
+            "ATLAS518-0102-02-1"
+          ]
+        },
+        {
+          "n": 3,
+          "labels": [
+            "니케아",
+            "콘스탄티노폴리스",
+            "에페소",
+            "칼케돈"
+          ],
+          "point_ids": [
+            "ATLAS518-0103-01-1",
+            "ATLAS518-0103-01-2",
+            "ATLAS518-0203-01-1",
+            "ATLAS518-0203-02-1",
+            "ATLAS518-0103-01-3",
+            "ATLAS518-0103-01-4"
+          ]
+        },
+        {
+          "n": 4,
+          "labels": [
+            "장안(시안)"
+          ],
+          "point_ids": [
+            "ATLAS518-0202-01-1",
+            "ATLAS518-0202-02-1"
+          ]
+        },
+        {
+          "n": 5,
+          "labels": [
+            "피렌체",
+            "리옹",
+            "시에나",
+            "아비뇽",
+            "로마",
+            "콘스탄츠",
+            "프라하",
+            "바젤",
+            "비텐베르크",
+            "마르부르크",
+            "아우크스부르크",
+            "제네바",
+            "트리엔트",
+            "할레",
+            "헤른후트"
+          ],
+          "point_ids": [
+            "ATLAS518-0203-03-1",
+            "ATLAS518-0301-01-1",
+            "ATLAS518-0301-02-1",
+            "ATLAS518-0301-02-2",
+            "ATLAS518-0301-02-3",
+            "ATLAS518-0401-03-1",
+            "ATLAS518-0302-02-1",
+            "ATLAS518-0303-01-1",
+            "ATLAS518-0303-02-1",
+            "ATLAS518-0401-01-1",
+            "ATLAS518-0402-03-1",
+            "ATLAS518-0402-01-1",
+            "ATLAS518-0402-02-1",
+            "ATLAS518-0502-01-1",
+            "ATLAS518-0403-01-1",
+            "ATLAS518-0501-01-1",
+            "ATLAS518-0601-01-1",
+            "ATLAS518-0601-02-1"
+          ]
+        },
+        {
+          "n": 6,
+          "labels": [
+            "트랑케바르"
+          ],
+          "point_ids": [
+            "ATLAS518-0602-01-1",
+            "ATLAS518-0602-02-1"
+          ]
+        },
+        {
+          "n": 7,
+          "labels": [
+            "세인트토머스"
+          ],
+          "point_ids": [
+            "ATLAS518-0603-01-1"
+          ]
+        },
+        {
+          "n": 8,
+          "labels": [
+            "타히티"
+          ],
+          "point_ids": [
+            "ATLAS518-0603-03-1"
+          ]
+        },
+        {
+          "n": 9,
+          "labels": [
+            "에든버러",
+            "암스테르담"
+          ],
+          "point_ids": [
+            "ATLAS518-0703-01-1",
+            "ATLAS518-0703-02-1"
+          ]
+        },
+        {
+          "n": 10,
+          "labels": [
+            "메데인"
+          ],
+          "point_ids": [
+            "ATLAS518-0703-03-1"
+          ]
+        }
+      ],
+      "projection": "equirectangular with standard parallel at midpoint latitude",
+      "extent": [
+        -180,
+        -55,
+        180,
+        75
+      ]
+    }
+  ],
+  "limitations": [
+    "modern generalized coastline not reconstructed historical coastline",
+    "approximate inherited coordinates; not independently geocoded",
+    "no historical political boundaries or routes",
+    "no elevation/terrain relief",
+    "small islands can be absent at 110m scale",
+    "marker clustering is visual only",
+    "browser render QA not performed"
+  ],
+  "can_ship": false
+}
