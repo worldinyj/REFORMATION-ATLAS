@@ -1,0 +1,70 @@
+{
+  "version": "V5.30",
+  "checks": {
+    "unique24": true,
+    "all24Active": true,
+    "unchangedHistorical": true,
+    "unchangedReferences": true,
+    "unchangedPriorMedium": true,
+    "unchangedSummaries": true,
+    "unchangedCases": true,
+    "unchangedTimepaths": true,
+    "fiveRevisions": true,
+    "all20EvidenceRows": true,
+    "noUnder700": true,
+    "releaseBlocked": true
+  },
+  "passed": 12,
+  "total": 12,
+  "changes": [
+    {
+      "id": "L448-01-03",
+      "before": 441,
+      "after": 1049
+    },
+    {
+      "id": "L448-03-02",
+      "before": 436,
+      "after": 969
+    },
+    {
+      "id": "L448-04-02",
+      "before": 461,
+      "after": 1062
+    },
+    {
+      "id": "L448-06-02",
+      "before": 548,
+      "after": 1031
+    },
+    {
+      "id": "L448-07-03",
+      "before": 459,
+      "after": 1069
+    }
+  ],
+  "before": {
+    "min": 436,
+    "max": 1332,
+    "mean": 925,
+    "under700": 5,
+    "total": 22188
+  },
+  "after": {
+    "min": 716,
+    "max": 1332,
+    "mean": 1043,
+    "under700": 0,
+    "total": 25023
+  },
+  "scope": "structural and editorial assessment; not comprehensive historical fact verification",
+  "known_open": [
+    "Augsburg Article X early impressions",
+    "Tamil 1715/1719 publication scope",
+    "Korean Bible 1900 witnesses",
+    "Sor Juana 1700/1701 leaf collation",
+    "Medellin final document and local reception",
+    "V528 supplemental context URLs not yet individually verified"
+  ],
+  "release": false
+}
