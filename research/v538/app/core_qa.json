@@ -1,0 +1,28 @@
+{
+  "version": "V5.38",
+  "checks": {
+    "valid": true,
+    "allChapterRoutes": true,
+    "allVolumeRoutes": true,
+    "unknownRoute": true,
+    "unknownDepth": true,
+    "searchLuther": true,
+    "searchTamil": true,
+    "searchKorea": true,
+    "searchNoMatch": true,
+    "emptySearch": true,
+    "allAssetPaths": true,
+    "unsafePathRejected": true,
+    "unsafeURLRejected": true,
+    "releaseGuard": true
+  },
+  "passed": 14,
+  "total": 14,
+  "search_examples": {
+    "루터": 4,
+    "타밀어": 3,
+    "서상륜": 3
+  },
+  "scope": "Actual core JS functions evaluated against V5.37 JSON in isolated JS runtime; not browser or DOM E2E",
+  "can_ship": false
+}
