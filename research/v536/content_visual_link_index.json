@@ -1,0 +1,530 @@
+{
+  "volumes": [
+    {
+      "volume_id": "VOL-01",
+      "map": "research/v535/visual/maps_v3/volume_1.svg",
+      "chapter_ids": [
+        "L448-01-01",
+        "L448-01-02",
+        "L448-01-03"
+      ]
+    },
+    {
+      "volume_id": "VOL-02",
+      "map": "research/v535/visual/maps_v3/volume_2.svg",
+      "chapter_ids": [
+        "L448-02-01",
+        "L448-02-02",
+        "L448-02-03"
+      ]
+    },
+    {
+      "volume_id": "VOL-03",
+      "map": "research/v535/visual/maps_v3/volume_3.svg",
+      "chapter_ids": [
+        "L448-03-01",
+        "L448-03-02",
+        "L448-03-03"
+      ]
+    },
+    {
+      "volume_id": "VOL-04",
+      "map": "research/v535/visual/maps_v3/volume_4.svg",
+      "chapter_ids": [
+        "L448-04-01",
+        "L448-04-02",
+        "L448-04-03"
+      ]
+    },
+    {
+      "volume_id": "VOL-05",
+      "map": "research/v535/visual/maps_v3/volume_5.svg",
+      "chapter_ids": [
+        "L448-05-01",
+        "L448-05-02",
+        "L448-05-03"
+      ]
+    },
+    {
+      "volume_id": "VOL-06",
+      "map": "research/v535/visual/maps_v3/volume_6.svg",
+      "chapter_ids": [
+        "L448-06-01",
+        "L448-06-02",
+        "L448-06-03"
+      ]
+    },
+    {
+      "volume_id": "VOL-07",
+      "map": "research/v535/visual/maps_v3/volume_7.svg",
+      "chapter_ids": [
+        "L448-07-01",
+        "L448-07-02",
+        "L448-07-03"
+      ]
+    },
+    {
+      "volume_id": "VOL-08",
+      "map": "research/v535/visual/maps_v3/volume_8.svg",
+      "chapter_ids": [
+        "L448-08-01",
+        "L448-08-02",
+        "L448-08-03"
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "chapter_id": "L448-01-01",
+      "volume_id": "VOL-01",
+      "case_ids": [
+        "ATLAS518-0101-01",
+        "ATLAS518-0101-02"
+      ],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "document_svgs": []
+    },
+    {
+      "chapter_id": "L448-01-02",
+      "volume_id": "VOL-01",
+      "case_ids": [
+        "ATLAS518-0102-01",
+        "ATLAS518-0102-02"
+      ],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [
+        "GL534-01"
+      ],
+      "document_svgs": []
+    },
+    {
+      "chapter_id": "L448-01-03",
+      "volume_id": "VOL-01",
+      "case_ids": [
+        "ATLAS518-0103-01",
+        "ATLAS518-0103-02"
+      ],
+      "person_ids": [],
+      "theology_ids": [
+        "TH533-01",
+        "TH533-03"
+      ],
+      "global_ids": [],
+      "document_svgs": []
+    },
+    {
+      "chapter_id": "L448-02-01",
+      "volume_id": "VOL-02",
+      "case_ids": [
+        "ATLAS518-0201-01",
+        "ATLAS518-0201-02"
+      ],
+      "person_ids": [
+        "PERSON535-02"
+      ],
+      "theology_ids": [
+        "TH533-01"
+      ],
+      "global_ids": [
+        "GL534-02",
+        "GL534-03"
+      ],
+      "document_svgs": []
+    },
+    {
+      "chapter_id": "L448-02-02",
+      "volume_id": "VOL-02",
+      "case_ids": [
+        "ATLAS518-0202-01",
+        "ATLAS518-0202-02"
+      ],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [
+        "GL534-02"
+      ],
+      "document_svgs": [
+        "research/v535/visual/stele.svg"
+      ]
+    },
+    {
+      "chapter_id": "L448-02-03",
+      "volume_id": "VOL-02",
+      "case_ids": [
+        "ATLAS518-0203-01",
+        "ATLAS518-0203-02",
+        "ATLAS518-0203-03"
+      ],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [
+        "GL534-02"
+      ],
+      "document_svgs": []
+    },
+    {
+      "chapter_id": "L448-03-01",
+      "volume_id": "VOL-03",
+      "case_ids": [
+        "ATLAS518-0301-01",
+        "ATLAS518-0301-02"
+      ],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "document_svgs": []
+    },
+    {
+      "chapter_id": "L448-03-02",
+      "volume_id": "VOL-03",
+      "case_ids": [
+        "ATLAS518-0302-01",
+        "ATLAS518-0302-02"
+      ],
+      "person_ids": [
+        "PERSON535-08"
+      ],
+      "theology_ids": [
+        "TH533-02",
+        "TH533-03"
+      ],
+      "global_ids": [],
+      "document_svgs": []
+    },
+    {
+      "chapter_id": "L448-03-03",
+      "volume_id": "VOL-03",
+      "case_ids": [
+        "ATLAS518-0303-01",
+        "ATLAS518-0303-02"
+      ],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "document_svgs": []
+    },
+    {
+      "chapter_id": "L448-04-01",
+      "volume_id": "VOL-04",
+      "case_ids": [
+        "ATLAS518-0401-01",
+        "ATLAS518-0401-02",
+        "ATLAS518-0401-03"
+      ],
+      "person_ids": [
+        "PERSON535-07",
+        "PERSON535-09"
+      ],
+      "theology_ids": [
+        "TH533-01"
+      ],
+      "global_ids": [],
+      "document_svgs": []
+    },
+    {
+      "chapter_id": "L448-04-02",
+      "volume_id": "VOL-04",
+      "case_ids": [
+        "ATLAS518-0402-01",
+        "ATLAS518-0402-02",
+        "ATLAS518-0402-03"
+      ],
+      "person_ids": [],
+      "theology_ids": [
+        "TH533-02",
+        "TH533-03",
+        "TH533-04"
+      ],
+      "global_ids": [],
+      "document_svgs": [
+        "research/v535/visual/augsburg.svg"
+      ]
+    },
+    {
+      "chapter_id": "L448-04-03",
+      "volume_id": "VOL-04",
+      "case_ids": [
+        "ATLAS518-0403-01",
+        "ATLAS518-0403-02",
+        "ATLAS518-0403-03"
+      ],
+      "person_ids": [],
+      "theology_ids": [
+        "TH533-03",
+        "TH533-04"
+      ],
+      "global_ids": [],
+      "document_svgs": []
+    },
+    {
+      "chapter_id": "L448-05-01",
+      "volume_id": "VOL-05",
+      "case_ids": [
+        "ATLAS518-0501-01",
+        "ATLAS518-0501-02"
+      ],
+      "person_ids": [],
+      "theology_ids": [
+        "TH533-01",
+        "TH533-02",
+        "TH533-03",
+        "TH533-04"
+      ],
+      "global_ids": [],
+      "document_svgs": []
+    },
+    {
+      "chapter_id": "L448-05-02",
+      "volume_id": "VOL-05",
+      "case_ids": [
+        "ATLAS518-0502-01",
+        "ATLAS518-0502-02"
+      ],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "document_svgs": []
+    },
+    {
+      "chapter_id": "L448-05-03",
+      "volume_id": "VOL-05",
+      "case_ids": [
+        "ATLAS518-0503-01",
+        "ATLAS518-0503-02",
+        "ATLAS518-0503-03"
+      ],
+      "person_ids": [
+        "PERSON535-03",
+        "PERSON535-10"
+      ],
+      "theology_ids": [
+        "TH533-05"
+      ],
+      "global_ids": [
+        "GL534-04"
+      ],
+      "document_svgs": []
+    },
+    {
+      "chapter_id": "L448-06-01",
+      "volume_id": "VOL-06",
+      "case_ids": [
+        "ATLAS518-0601-01",
+        "ATLAS518-0601-02",
+        "ATLAS518-0601-03"
+      ],
+      "person_ids": [],
+      "theology_ids": [
+        "TH533-05"
+      ],
+      "global_ids": [],
+      "document_svgs": []
+    },
+    {
+      "chapter_id": "L448-06-02",
+      "volume_id": "VOL-06",
+      "case_ids": [
+        "ATLAS518-0602-01",
+        "ATLAS518-0602-02"
+      ],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [
+        "GL534-03",
+        "GL534-05",
+        "GL534-06"
+      ],
+      "document_svgs": [
+        "research/v535/visual/tamil.svg"
+      ]
+    },
+    {
+      "chapter_id": "L448-06-03",
+      "volume_id": "VOL-06",
+      "case_ids": [
+        "ATLAS518-0603-01",
+        "ATLAS518-0603-02",
+        "ATLAS518-0603-03"
+      ],
+      "person_ids": [
+        "PERSON535-04"
+      ],
+      "theology_ids": [],
+      "global_ids": [
+        "GL534-05"
+      ],
+      "document_svgs": []
+    },
+    {
+      "chapter_id": "L448-07-01",
+      "volume_id": "VOL-07",
+      "case_ids": [
+        "ATLAS518-0701-01",
+        "ATLAS518-0701-02",
+        "ATLAS518-0701-03"
+      ],
+      "person_ids": [
+        "PERSON535-01"
+      ],
+      "theology_ids": [],
+      "global_ids": [
+        "GL534-01"
+      ],
+      "document_svgs": []
+    },
+    {
+      "chapter_id": "L448-07-02",
+      "volume_id": "VOL-07",
+      "case_ids": [
+        "ATLAS518-0702-01",
+        "ATLAS518-0702-02"
+      ],
+      "person_ids": [
+        "PERSON535-05",
+        "PERSON535-06"
+      ],
+      "theology_ids": [],
+      "global_ids": [
+        "GL534-06"
+      ],
+      "document_svgs": [
+        "research/v535/visual/korean.svg"
+      ]
+    },
+    {
+      "chapter_id": "L448-07-03",
+      "volume_id": "VOL-07",
+      "case_ids": [
+        "ATLAS518-0703-01",
+        "ATLAS518-0703-02",
+        "ATLAS518-0703-03",
+        "ATLAS518-0703-04"
+      ],
+      "person_ids": [],
+      "theology_ids": [
+        "TH533-05"
+      ],
+      "global_ids": [
+        "GL534-01",
+        "GL534-04"
+      ],
+      "document_svgs": []
+    },
+    {
+      "chapter_id": "L448-08-01",
+      "volume_id": "VOL-08",
+      "case_ids": [],
+      "person_ids": [],
+      "theology_ids": [
+        "TH533-01",
+        "TH533-02"
+      ],
+      "global_ids": [
+        "GL534-04"
+      ],
+      "document_svgs": []
+    },
+    {
+      "chapter_id": "L448-08-02",
+      "volume_id": "VOL-08",
+      "case_ids": [],
+      "person_ids": [],
+      "theology_ids": [
+        "TH533-03",
+        "TH533-04",
+        "TH533-05"
+      ],
+      "global_ids": [],
+      "document_svgs": []
+    },
+    {
+      "chapter_id": "L448-08-03",
+      "volume_id": "VOL-08",
+      "case_ids": [],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [
+        "GL534-03",
+        "GL534-05",
+        "GL534-06"
+      ],
+      "document_svgs": [
+        "research/v535/visual/tamil.svg",
+        "research/v535/visual/korean.svg"
+      ]
+    }
+  ],
+  "global_timeline": "research/v535/visual/parallel_timeline.svg",
+  "people": [
+    {
+      "person_id": "PERSON535-01",
+      "chapter_id": "L448-07-01",
+      "symbol_card": "research/v535/visual/people_v1/cards/person_01.svg",
+      "pilot": null
+    },
+    {
+      "person_id": "PERSON535-02",
+      "chapter_id": "L448-02-01",
+      "symbol_card": "research/v535/visual/people_v1/cards/person_02.svg",
+      "pilot": null
+    },
+    {
+      "person_id": "PERSON535-03",
+      "chapter_id": "L448-05-03",
+      "symbol_card": "research/v535/visual/people_v1/cards/person_03.svg",
+      "pilot": null
+    },
+    {
+      "person_id": "PERSON535-04",
+      "chapter_id": "L448-06-03",
+      "symbol_card": "research/v535/visual/people_v1/cards/person_04.svg",
+      "pilot": null
+    },
+    {
+      "person_id": "PERSON535-05",
+      "chapter_id": "L448-07-02",
+      "symbol_card": "research/v535/visual/people_v1/cards/person_05.svg",
+      "pilot": null
+    },
+    {
+      "person_id": "PERSON535-06",
+      "chapter_id": "L448-07-02",
+      "symbol_card": "research/v535/visual/people_v1/cards/person_06.svg",
+      "pilot": null
+    },
+    {
+      "person_id": "PERSON535-07",
+      "chapter_id": "L448-04-01",
+      "symbol_card": "research/v535/visual/people_v1/cards/person_07.svg",
+      "pilot": {
+        "status": "LOCAL_READY_REPOSITORY_PENDING",
+        "render": false
+      }
+    },
+    {
+      "person_id": "PERSON535-08",
+      "chapter_id": "L448-03-02",
+      "symbol_card": "research/v535/visual/people_v1/cards/person_08.svg",
+      "pilot": null
+    },
+    {
+      "person_id": "PERSON535-09",
+      "chapter_id": "L448-04-01",
+      "symbol_card": "research/v535/visual/people_v1/cards/person_09.svg",
+      "pilot": null
+    },
+    {
+      "person_id": "PERSON535-10",
+      "chapter_id": "L448-05-03",
+      "symbol_card": "research/v535/visual/people_v1/cards/person_10.svg",
+      "pilot": {
+        "status": "LOCAL_READY_REPOSITORY_PENDING",
+        "render": false
+      }
+    }
+  ],
+  "can_ship": false
+}
