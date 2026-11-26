@@ -1,0 +1,22 @@
+{
+  "checks": {
+    "all52Unique": true,
+    "allCaseChapterRefs": true,
+    "all36Unique": true,
+    "allPointCaseRefs": true,
+    "allMapRefs": true,
+    "allPeopleRefs": true,
+    "allPortraitRefs": true,
+    "noPendingPortraitRender": true,
+    "eachChapterMapped": true,
+    "allVolumesMap": true,
+    "releaseBlocked": true
+  },
+  "chapters": 24,
+  "cases": 52,
+  "points": 36,
+  "people": 10,
+  "pending_portraits": 2,
+  "scope": "data referential integrity, not rendered UX",
+  "can_ship": false
+}
