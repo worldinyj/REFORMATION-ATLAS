@@ -1,0 +1,45 @@
+{
+  "version": "V5.35-people2",
+  "branch": "research/atlas-v535-visual-atlas",
+  "assets": [
+    {
+      "person_id": "PERSON535-07",
+      "name": "루터",
+      "filename": "luther_pilot.webp",
+      "width": 887,
+      "height": 887,
+      "bytes": 328332,
+      "sha256": "5641941ac2826e02833df610612fea4e5a4a6f1176b62763f0f19efcf12dd963",
+      "repository_path": "research/v535/visual/people_v2/portraits/luther_pilot.webp",
+      "kind": "AI-generated historical reconstruction; not authentic portrait",
+      "status": "LOCAL_READY_REPOSITORY_PENDING"
+    },
+    {
+      "person_id": "PERSON535-10",
+      "name": "소르 후아나",
+      "filename": "sor_juana_pilot.webp",
+      "width": 887,
+      "height": 887,
+      "bytes": 329226,
+      "sha256": "20e1745aa4387f36a6ed38d8b5b921f0609efbba4df4683210c62c77c79fe181",
+      "repository_path": "research/v535/visual/people_v2/portraits/sor_juana_pilot.webp",
+      "kind": "AI-generated historical reconstruction; not authentic portrait",
+      "status": "LOCAL_READY_REPOSITORY_PENDING"
+    }
+  ],
+  "original": {
+    "dimensions": [
+      1774,
+      887
+    ],
+    "sha256": "d03239f016f0b07bdf18a62475bf2c81416a0f5f83ce2a91d7d1249ff1082a68",
+    "format": "PNG",
+    "processing": "split at x=887; WebP quality 92"
+  },
+  "package": {
+    "filename": "ATLAS_V535_portrait_pilots.zip",
+    "bytes": 658967,
+    "sha256": "df4e07d14ddc43f40d79ba62f5add48f7c5abc8da98be76a5f46fe514069b339"
+  },
+  "can_ship": false
+}
