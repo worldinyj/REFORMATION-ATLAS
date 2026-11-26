@@ -11,7 +11,8 @@
     "noMutation": true,
     "cloneIsolation": true,
     "unmergedPeople": true,
-    "brokenRef": true
+    "brokenRef": true,
+    "stableOutputFields": true
   },
   "records_tested": 127,
   "records_passed": 127,
@@ -19,5 +20,7 @@
   "unlinked": 44,
   "scope": "actual adapter function executed against repository preview and crosswalk; not installed in host app",
   "can_ship": false,
-  "can_import_ai_studio": false
+  "can_import_ai_studio": false,
+  "final_adapter_blob_sha": "f59420b388f632e599333dbfbee194aea0eb42f1",
+  "final_readback_contract_records": 127
 }
