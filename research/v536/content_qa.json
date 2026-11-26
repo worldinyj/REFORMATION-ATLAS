@@ -1,0 +1,40 @@
+{
+  "scope": "Structural checks only; no historical or theological expert review or source network verification",
+  "checks": {
+    "eightVolumes": true,
+    "uniqueChapters": true,
+    "threeLayers": true,
+    "allOriginalBodies": true,
+    "allSourceUrls": true,
+    "allTheology": true,
+    "allGlobal": true,
+    "readerAnchorUnique": true,
+    "masterAnchorUnique": true,
+    "readerLocalLinks": true,
+    "masterLocalLinks": true,
+    "readerDeepLinks": true,
+    "noReaderPlaceholder": true,
+    "noMasterPlaceholder": true,
+    "releaseBlocked": true
+  },
+  "reader": {
+    "path": "docs/01_CONTENT/READER/V534_24_CHAPTER_GLOBAL_READER_KO.md",
+    "sha": "d208079283e4b0f46a13ea883fbffa66ffbc7601",
+    "chars": 58388,
+    "anchors": 35,
+    "placeholders": []
+  },
+  "master": {
+    "path": "docs/01_CONTENT/INTEGRATED/V534_EIGHT_VOLUME_GLOBAL_MASTER_KO.md",
+    "sha": "b9e25c9c90438432635454966c9bff60318df2d0",
+    "chars": 141164,
+    "anchors": 35,
+    "placeholders": []
+  },
+  "base": {
+    "path": "research/data/V534_EIGHT_VOLUME_GLOBAL_BALANCE_CANDIDATE.json",
+    "sha": "7c2188b818d19729d30040e6fd6ac86afff27dda"
+  },
+  "chapter_count": 24,
+  "can_ship": false
+}
