@@ -12,7 +12,7 @@ const paragraph=(parent,text)=>{for(const line of String(text??'').split(/\n\s*\
 function inline(parent,text){
   // Deliberately limited Markdown: bold, code and explicit HTTP(S) link only.
   const re=/\*\*([^*\n]+)\*\*|`([^`\n]+)`|\[([^\]\n]+)\]\((https?:\/\/[^\s)]+)\)/g;
-  let last=0;for(const m of String(text).matchAll(re)){parent.append(document.createTextNode(text.slice(last,m.index)));if(m[1])add(parent,'strong','',m[1]);else if(m[2])add(parent,'code','',m[2]);else {const url=safeURL(m[4]);if(url){const a=href(parent,m[3],url);a.rel='noopener noreferrer';}else parent.append(document.createTextNode(m[0]));}last=m.index+m[0].length;}parent.append(document.createTextNode(text.slice(last)));
+  let last=0;for(const m of String(text).matchAll(re)){parent.append(document.createTextNode(text.slice(last,m.index)));if(m[1])inline(add(parent,'strong'),m[1]);else if(m[2])add(parent,'code','',m[2]);else {const url=safeURL(m[4]);if(url){const a=href(parent,m[3],url);a.rel='noopener noreferrer';}else parent.append(document.createTextNode(m[0]));}last=m.index+m[0].length;}parent.append(document.createTextNode(text.slice(last)));
 }
 function markdown(parent,raw){
   // Treat unsupported syntax as literal text; never use innerHTML.
