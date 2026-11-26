@@ -1,0 +1,117 @@
+{
+  "scope": "retrieved SVG string structural inspection, not XML parser or browser rendering",
+  "records": [
+    {
+      "path": "research/v535/visual/people_v1/cards/person_06.svg",
+      "sha": "2afe6e41e7012102d65a06f096302ae58ced8c1d",
+      "chars": 2109,
+      "viewBox": [
+        0,
+        0,
+        360,
+        480
+      ],
+      "checks": {
+        "root": true,
+        "balancedTags": true,
+        "positiveViewBox": true,
+        "uniqueIDs": true,
+        "noExternalImagesOrScript": true,
+        "accessibleTitle": true,
+        "noBareAmpersand": true,
+        "portraitDisclosure": true
+      },
+      "pass": true
+    },
+    {
+      "path": "research/v535/visual/people_v1/cards/person_07.svg",
+      "sha": "4bc2a42ee7c635000b6a423d69be1188158f1cd2",
+      "chars": 1227,
+      "viewBox": [
+        0,
+        0,
+        360,
+        480
+      ],
+      "checks": {
+        "root": true,
+        "balancedTags": true,
+        "positiveViewBox": true,
+        "uniqueIDs": true,
+        "noExternalImagesOrScript": true,
+        "accessibleTitle": true,
+        "noBareAmpersand": true,
+        "portraitDisclosure": true
+      },
+      "pass": true
+    },
+    {
+      "path": "research/v535/visual/people_v1/cards/person_08.svg",
+      "sha": "3e6aa4dad10d292928dccc28c0c7039e5903ae29",
+      "chars": 1218,
+      "viewBox": [
+        0,
+        0,
+        360,
+        480
+      ],
+      "checks": {
+        "root": true,
+        "balancedTags": true,
+        "positiveViewBox": true,
+        "uniqueIDs": true,
+        "noExternalImagesOrScript": true,
+        "accessibleTitle": true,
+        "noBareAmpersand": true,
+        "portraitDisclosure": true
+      },
+      "pass": true
+    },
+    {
+      "path": "research/v535/visual/people_v1/cards/person_09.svg",
+      "sha": "4d49f536e76460d0d58f4a60b74741f397e6583f",
+      "chars": 1249,
+      "viewBox": [
+        0,
+        0,
+        360,
+        480
+      ],
+      "checks": {
+        "root": true,
+        "balancedTags": true,
+        "positiveViewBox": true,
+        "uniqueIDs": true,
+        "noExternalImagesOrScript": true,
+        "accessibleTitle": true,
+        "noBareAmpersand": true,
+        "portraitDisclosure": true
+      },
+      "pass": true
+    },
+    {
+      "path": "research/v535/visual/people_v1/cards/person_10.svg",
+      "sha": "90caf00c72775e3bc545913f17afe7aa1c9a2461",
+      "chars": 1423,
+      "viewBox": [
+        0,
+        0,
+        360,
+        480
+      ],
+      "checks": {
+        "root": true,
+        "balancedTags": true,
+        "positiveViewBox": true,
+        "uniqueIDs": true,
+        "noExternalImagesOrScript": true,
+        "accessibleTitle": true,
+        "noBareAmpersand": true,
+        "portraitDisclosure": true
+      },
+      "pass": true
+    }
+  ],
+  "passed": 5,
+  "total": 5
+}
