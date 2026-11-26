@@ -1,0 +1,2225 @@
+{
+  "version": "V5.40",
+  "host_namespace": "ATLAS_OVERVIEW_V01",
+  "legacy_ref": "chore/ai-studio-github-readiness-v01",
+  "legacy_sources": [
+    {
+      "path": "data/overview/volumes_and_people_v01.json",
+      "blob_sha": "cffa65dbc497e1d117b94e8f0d22d867781f9521"
+    },
+    {
+      "path": "data/overview/events_documents_v01.json",
+      "blob_sha": "58bf6db31f7e3da91ecc422702c815fe7d98077d"
+    },
+    {
+      "path": "data/overview/relationships_and_themes_v01.json",
+      "blob_sha": "6503c0c9e54d620f2dc832c0726f95c4ba37483b"
+    },
+    {
+      "path": "data/overview/places_v01.json",
+      "blob_sha": "62e8b7550968f1b1110883e6f0a106e24f9711df"
+    }
+  ],
+  "preview_source": {
+    "path": "research/v539/site/atlas_preview.json",
+    "blob_sha": "79437376c52d8e286f3c9a4b618fdb55b8bb3e92"
+  },
+  "records": [
+    {
+      "legacy_id": "VOL-01",
+      "kind": "volume",
+      "legacy_label": "초대교회와 고대교회",
+      "relation": "same_volume_key",
+      "chapter_ids": [
+        "L448-01-01",
+        "L448-01-02",
+        "L448-01-03"
+      ],
+      "case_ids": [],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [
+        "asset:maps_v3/volume_1.svg"
+      ],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "VOL-02",
+      "kind": "volume",
+      "legacy_label": "중세교회와 개혁의 배경",
+      "relation": "same_volume_key",
+      "chapter_ids": [
+        "L448-02-01",
+        "L448-02-02",
+        "L448-02-03"
+      ],
+      "case_ids": [],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [
+        "asset:maps_v3/volume_2.svg"
+      ],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "VOL-03",
+      "kind": "volume",
+      "legacy_label": "종교개혁의 선구자",
+      "relation": "same_volume_key",
+      "chapter_ids": [
+        "L448-03-01",
+        "L448-03-02",
+        "L448-03-03"
+      ],
+      "case_ids": [],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [
+        "asset:maps_v3/volume_3.svg"
+      ],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "VOL-04",
+      "kind": "volume",
+      "legacy_label": "16세기 종교개혁",
+      "relation": "same_volume_key",
+      "chapter_ids": [
+        "L448-04-01",
+        "L448-04-02",
+        "L448-04-03"
+      ],
+      "case_ids": [],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [
+        "asset:maps_v3/volume_4.svg"
+      ],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "VOL-05",
+      "kind": "volume",
+      "legacy_label": "가톨릭 개혁과 종교적 갈등",
+      "relation": "same_volume_key",
+      "chapter_ids": [
+        "L448-05-01",
+        "L448-05-02",
+        "L448-05-03"
+      ],
+      "case_ids": [],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [
+        "asset:maps_v3/volume_5.svg"
+      ],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "VOL-06",
+      "kind": "volume",
+      "legacy_label": "부흥과 세계선교",
+      "relation": "same_volume_key",
+      "chapter_ids": [
+        "L448-06-01",
+        "L448-06-02",
+        "L448-06-03"
+      ],
+      "case_ids": [],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [
+        "asset:maps_v3/volume_6.svg"
+      ],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "VOL-07",
+      "kind": "volume",
+      "legacy_label": "세계와 한국 교회사",
+      "relation": "same_volume_key",
+      "chapter_ids": [
+        "L448-07-01",
+        "L448-07-02",
+        "L448-07-03"
+      ],
+      "case_ids": [],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [
+        "asset:maps_v3/volume_7.svg"
+      ],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "VOL-08",
+      "kind": "volume",
+      "legacy_label": "사상과 문헌 아카이브",
+      "relation": "same_volume_key",
+      "chapter_ids": [
+        "L448-08-01",
+        "L448-08-02",
+        "L448-08-03"
+      ],
+      "case_ids": [],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [
+        "asset:maps_v3/volume_8.svg"
+      ],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-P-001",
+      "kind": "person",
+      "legacy_label": "안디옥의 이그나티우스",
+      "relation": "no_curated_match",
+      "chapter_ids": [],
+      "case_ids": [],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-P-002",
+      "kind": "person",
+      "legacy_label": "아타나시우스",
+      "relation": "no_curated_match",
+      "chapter_ids": [],
+      "case_ids": [],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-P-003",
+      "kind": "person",
+      "legacy_label": "아우구스티누스",
+      "relation": "no_curated_match",
+      "chapter_ids": [],
+      "case_ids": [],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-P-004",
+      "kind": "person",
+      "legacy_label": "베네딕투스",
+      "relation": "no_curated_match",
+      "chapter_ids": [],
+      "case_ids": [],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-P-005",
+      "kind": "person",
+      "legacy_label": "안셀무스",
+      "relation": "no_curated_match",
+      "chapter_ids": [],
+      "case_ids": [],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-P-006",
+      "kind": "person",
+      "legacy_label": "토마스 아퀴나스",
+      "relation": "no_curated_match",
+      "chapter_ids": [],
+      "case_ids": [],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-P-007",
+      "kind": "person",
+      "legacy_label": "시에나의 카타리나",
+      "relation": "related_reading_not_identity",
+      "chapter_ids": [
+        "L448-03-01"
+      ],
+      "case_ids": [
+        "ATLAS518-0301-02"
+      ],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-P-008",
+      "kind": "person",
+      "legacy_label": "발도(발데스)",
+      "relation": "related_reading_not_identity",
+      "chapter_ids": [
+        "L448-03-01"
+      ],
+      "case_ids": [
+        "ATLAS518-0301-01"
+      ],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-P-009",
+      "kind": "person",
+      "legacy_label": "존 위클리프",
+      "relation": "related_reading_not_identity",
+      "chapter_ids": [
+        "L448-03-02"
+      ],
+      "case_ids": [
+        "ATLAS518-0302-01"
+      ],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-P-010",
+      "kind": "person",
+      "legacy_label": "얀 후스",
+      "relation": "same_person",
+      "chapter_ids": [
+        "L448-03-02"
+      ],
+      "case_ids": [],
+      "person_ids": [
+        "PERSON535-08"
+      ],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-P-011",
+      "kind": "person",
+      "legacy_label": "프라하의 예로니모",
+      "relation": "no_curated_match",
+      "chapter_ids": [],
+      "case_ids": [],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-P-012",
+      "kind": "person",
+      "legacy_label": "얀 지슈카",
+      "relation": "no_curated_match",
+      "chapter_ids": [],
+      "case_ids": [],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-P-013",
+      "kind": "person",
+      "legacy_label": "마르틴 루터",
+      "relation": "same_person",
+      "chapter_ids": [
+        "L448-04-01"
+      ],
+      "case_ids": [],
+      "person_ids": [
+        "PERSON535-07"
+      ],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-P-014",
+      "kind": "person",
+      "legacy_label": "필리프 멜란히톤",
+      "relation": "related_reading_not_identity",
+      "chapter_ids": [
+        "L448-04-02"
+      ],
+      "case_ids": [
+        "ATLAS518-0402-02",
+        "ATLAS518-0402-03"
+      ],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-P-015",
+      "kind": "person",
+      "legacy_label": "훌드리히 츠빙글리",
+      "relation": "related_reading_not_identity",
+      "chapter_ids": [
+        "L448-04-02"
+      ],
+      "case_ids": [
+        "ATLAS518-0402-01"
+      ],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-P-016",
+      "kind": "person",
+      "legacy_label": "장 칼뱅",
+      "relation": "related_reading_not_identity",
+      "chapter_ids": [
+        "L448-04-03"
+      ],
+      "case_ids": [
+        "ATLAS518-0403-01"
+      ],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-P-017",
+      "kind": "person",
+      "legacy_label": "메노 시몬스",
+      "relation": "no_curated_match",
+      "chapter_ids": [],
+      "case_ids": [],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-P-018",
+      "kind": "person",
+      "legacy_label": "윌리엄 틴들",
+      "relation": "no_curated_match",
+      "chapter_ids": [],
+      "case_ids": [],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-P-019",
+      "kind": "person",
+      "legacy_label": "토머스 크랜머",
+      "relation": "no_curated_match",
+      "chapter_ids": [],
+      "case_ids": [],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-P-020",
+      "kind": "person",
+      "legacy_label": "존 녹스",
+      "relation": "no_curated_match",
+      "chapter_ids": [],
+      "case_ids": [],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-P-021",
+      "kind": "person",
+      "legacy_label": "이냐시오 데 로욜라",
+      "relation": "no_curated_match",
+      "chapter_ids": [],
+      "case_ids": [],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-P-022",
+      "kind": "person",
+      "legacy_label": "아빌라의 테레사",
+      "relation": "no_curated_match",
+      "chapter_ids": [],
+      "case_ids": [],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-P-023",
+      "kind": "person",
+      "legacy_label": "필리프 야코프 슈페너",
+      "relation": "no_curated_match",
+      "chapter_ids": [],
+      "case_ids": [],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-P-024",
+      "kind": "person",
+      "legacy_label": "존 웨슬리",
+      "relation": "related_reading_not_identity",
+      "chapter_ids": [
+        "L448-06-01"
+      ],
+      "case_ids": [
+        "ATLAS518-0601-03"
+      ],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-P-025",
+      "kind": "person",
+      "legacy_label": "찰스 웨슬리",
+      "relation": "no_curated_match",
+      "chapter_ids": [],
+      "case_ids": [],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-P-026",
+      "kind": "person",
+      "legacy_label": "조지 휫필드",
+      "relation": "no_curated_match",
+      "chapter_ids": [],
+      "case_ids": [],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-P-027",
+      "kind": "person",
+      "legacy_label": "윌리엄 캐리",
+      "relation": "no_curated_match",
+      "chapter_ids": [],
+      "case_ids": [],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-P-028",
+      "kind": "person",
+      "legacy_label": "이승훈",
+      "relation": "related_reading_not_identity",
+      "chapter_ids": [
+        "L448-07-02"
+      ],
+      "case_ids": [
+        "ATLAS518-0702-01"
+      ],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-P-029",
+      "kind": "person",
+      "legacy_label": "이벽",
+      "relation": "related_reading_not_identity",
+      "chapter_ids": [
+        "L448-07-02"
+      ],
+      "case_ids": [
+        "ATLAS518-0702-01"
+      ],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-P-030",
+      "kind": "person",
+      "legacy_label": "서상륜",
+      "relation": "same_person",
+      "chapter_ids": [
+        "L448-07-02"
+      ],
+      "case_ids": [],
+      "person_ids": [
+        "PERSON535-05"
+      ],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-P-031",
+      "kind": "person",
+      "legacy_label": "호러스 알렌",
+      "relation": "no_curated_match",
+      "chapter_ids": [],
+      "case_ids": [],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-P-032",
+      "kind": "person",
+      "legacy_label": "호러스 언더우드",
+      "relation": "no_curated_match",
+      "chapter_ids": [],
+      "case_ids": [],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-P-033",
+      "kind": "person",
+      "legacy_label": "헨리 아펜젤러",
+      "relation": "no_curated_match",
+      "chapter_ids": [],
+      "case_ids": [],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-E-001",
+      "kind": "event",
+      "legacy_label": "초기 공동체·서신 전통의 확산",
+      "relation": "related_reading_not_identity",
+      "chapter_ids": [
+        "L448-01-01"
+      ],
+      "case_ids": [
+        "ATLAS518-0101-01"
+      ],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-E-002",
+      "kind": "event",
+      "legacy_label": "밀라노 관용 정책",
+      "relation": "related_reading_not_identity",
+      "chapter_ids": [
+        "L448-01-02"
+      ],
+      "case_ids": [
+        "ATLAS518-0102-01"
+      ],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-E-003",
+      "kind": "event",
+      "legacy_label": "제1차 니케아 공의회",
+      "relation": "related_reading_not_identity",
+      "chapter_ids": [
+        "L448-01-03"
+      ],
+      "case_ids": [
+        "ATLAS518-0103-01"
+      ],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-E-004",
+      "kind": "event",
+      "legacy_label": "콘스탄티노폴리스 공의회",
+      "relation": "related_reading_not_identity",
+      "chapter_ids": [
+        "L448-01-03"
+      ],
+      "case_ids": [
+        "ATLAS518-0103-01"
+      ],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-E-005",
+      "kind": "event",
+      "legacy_label": "칼케돈 공의회",
+      "relation": "related_reading_not_identity",
+      "chapter_ids": [
+        "L448-01-03"
+      ],
+      "case_ids": [
+        "ATLAS518-0103-01"
+      ],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-E-006",
+      "kind": "event",
+      "legacy_label": "서방 수도원 규칙의 확산",
+      "relation": "no_curated_match",
+      "chapter_ids": [],
+      "case_ids": [],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-E-007",
+      "kind": "event",
+      "legacy_label": "동서 교회 분열의 역사적 과정",
+      "relation": "related_reading_not_identity",
+      "chapter_ids": [
+        "L448-02-03"
+      ],
+      "case_ids": [
+        "ATLAS518-0203-01"
+      ],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-E-008",
+      "kind": "event",
+      "legacy_label": "대학과 스콜라 신학의 성장",
+      "relation": "no_curated_match",
+      "chapter_ids": [],
+      "case_ids": [],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-E-009",
+      "kind": "event",
+      "legacy_label": "서방 교회의 대분열",
+      "relation": "no_curated_match",
+      "chapter_ids": [],
+      "case_ids": [],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-E-010",
+      "kind": "event",
+      "legacy_label": "리옹의 발도와 왈도파 운동",
+      "relation": "related_reading_not_identity",
+      "chapter_ids": [
+        "L448-03-01"
+      ],
+      "case_ids": [
+        "ATLAS518-0301-01"
+      ],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-E-011",
+      "kind": "event",
+      "legacy_label": "위클리프와 영어 성경 번역 운동",
+      "relation": "related_reading_not_identity",
+      "chapter_ids": [
+        "L448-03-02"
+      ],
+      "case_ids": [
+        "ATLAS518-0302-01"
+      ],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-E-012",
+      "kind": "event",
+      "legacy_label": "얀 후스의 콘스탄츠 처형",
+      "relation": "related_reading_not_identity",
+      "chapter_ids": [
+        "L448-03-02"
+      ],
+      "case_ids": [
+        "ATLAS518-0302-02"
+      ],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-E-013",
+      "kind": "event",
+      "legacy_label": "프라하 4개조",
+      "relation": "related_reading_not_identity",
+      "chapter_ids": [
+        "L448-03-03"
+      ],
+      "case_ids": [
+        "ATLAS518-0303-01"
+      ],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-E-014",
+      "kind": "event",
+      "legacy_label": "바젤 콤팍타타 협상·선포",
+      "relation": "related_reading_not_identity",
+      "chapter_ids": [
+        "L448-03-03"
+      ],
+      "case_ids": [
+        "ATLAS518-0303-02"
+      ],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-E-015",
+      "kind": "event",
+      "legacy_label": "루터의 95개조 논제",
+      "relation": "related_reading_not_identity",
+      "chapter_ids": [
+        "L448-04-01"
+      ],
+      "case_ids": [
+        "ATLAS518-0401-01"
+      ],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-E-016",
+      "kind": "event",
+      "legacy_label": "보름스 제국의회",
+      "relation": "no_curated_match",
+      "chapter_ids": [],
+      "case_ids": [],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-E-017",
+      "kind": "event",
+      "legacy_label": "슐라이트하임 신앙고백",
+      "relation": "related_reading_not_identity",
+      "chapter_ids": [
+        "L448-04-03"
+      ],
+      "case_ids": [
+        "ATLAS518-0403-03"
+      ],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-E-018",
+      "kind": "event",
+      "legacy_label": "마르부르크 회담",
+      "relation": "related_reading_not_identity",
+      "chapter_ids": [
+        "L448-04-02"
+      ],
+      "case_ids": [
+        "ATLAS518-0402-01"
+      ],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-E-019",
+      "kind": "event",
+      "legacy_label": "아우크스부르크 신앙고백 제출",
+      "relation": "related_reading_not_identity",
+      "chapter_ids": [
+        "L448-04-02"
+      ],
+      "case_ids": [
+        "ATLAS518-0402-02"
+      ],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-E-020",
+      "kind": "event",
+      "legacy_label": "칼뱅 『기독교강요』 초판",
+      "relation": "related_reading_not_identity",
+      "chapter_ids": [
+        "L448-04-03"
+      ],
+      "case_ids": [],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-E-021",
+      "kind": "event",
+      "legacy_label": "트리엔트 공의회",
+      "relation": "related_reading_not_identity",
+      "chapter_ids": [
+        "L448-05-01"
+      ],
+      "case_ids": [
+        "ATLAS518-0501-01"
+      ],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-E-022",
+      "kind": "event",
+      "legacy_label": "아우크스부르크 화의",
+      "relation": "related_reading_not_identity",
+      "chapter_ids": [
+        "L448-05-02"
+      ],
+      "case_ids": [
+        "ATLAS518-0502-01"
+      ],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-E-023",
+      "kind": "event",
+      "legacy_label": "30년 전쟁",
+      "relation": "related_reading_not_identity",
+      "chapter_ids": [
+        "L448-05-02"
+      ],
+      "case_ids": [
+        "ATLAS518-0502-02"
+      ],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-E-024",
+      "kind": "event",
+      "legacy_label": "베스트팔렌 조약",
+      "relation": "related_reading_not_identity",
+      "chapter_ids": [
+        "L448-05-02"
+      ],
+      "case_ids": [
+        "ATLAS518-0502-02"
+      ],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-E-025",
+      "kind": "event",
+      "legacy_label": "『경건한 열망』 출간",
+      "relation": "related_reading_not_identity",
+      "chapter_ids": [
+        "L448-06-01"
+      ],
+      "case_ids": [
+        "ATLAS518-0601-01"
+      ],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-E-026",
+      "kind": "event",
+      "legacy_label": "영미 부흥 및 대각성",
+      "relation": "related_reading_not_identity",
+      "chapter_ids": [
+        "L448-06-01"
+      ],
+      "case_ids": [],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-E-027",
+      "kind": "event",
+      "legacy_label": "감리교 운동의 성장",
+      "relation": "related_reading_not_identity",
+      "chapter_ids": [
+        "L448-06-01"
+      ],
+      "case_ids": [
+        "ATLAS518-0601-03"
+      ],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-E-028",
+      "kind": "event",
+      "legacy_label": "침례교선교회 조직",
+      "relation": "no_curated_match",
+      "chapter_ids": [],
+      "case_ids": [],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-E-029",
+      "kind": "event",
+      "legacy_label": "이승훈의 세례와 조선 천주교 공동체 형성",
+      "relation": "related_reading_not_identity",
+      "chapter_ids": [
+        "L448-07-02"
+      ],
+      "case_ids": [
+        "ATLAS518-0702-01"
+      ],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-E-030",
+      "kind": "event",
+      "legacy_label": "한글 성경 번역과 한국인 초기 개신교 공동체",
+      "relation": "related_reading_not_identity",
+      "chapter_ids": [
+        "L448-07-02"
+      ],
+      "case_ids": [
+        "ATLAS518-0702-02"
+      ],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-E-031",
+      "kind": "event",
+      "legacy_label": "앨런의 조선 입국",
+      "relation": "no_curated_match",
+      "chapter_ids": [],
+      "case_ids": [],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-E-032",
+      "kind": "event",
+      "legacy_label": "언더우드·아펜젤러 등의 조선 입국",
+      "relation": "no_curated_match",
+      "chapter_ids": [],
+      "case_ids": [],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-E-033",
+      "kind": "event",
+      "legacy_label": "평양 대부흥",
+      "relation": "no_curated_match",
+      "chapter_ids": [],
+      "case_ids": [],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-E-034",
+      "kind": "event",
+      "legacy_label": "세계교회협의회(WCC) 창립",
+      "relation": "related_reading_not_identity",
+      "chapter_ids": [
+        "L448-07-03"
+      ],
+      "case_ids": [
+        "ATLAS518-0703-02"
+      ],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-D-001",
+      "kind": "document",
+      "legacy_label": "『디다케』",
+      "relation": "no_curated_match",
+      "chapter_ids": [],
+      "case_ids": [],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-D-002",
+      "kind": "document",
+      "legacy_label": "니케아 신앙고백",
+      "relation": "related_reading_not_identity",
+      "chapter_ids": [
+        "L448-01-03"
+      ],
+      "case_ids": [
+        "ATLAS518-0103-01"
+      ],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-D-003",
+      "kind": "document",
+      "legacy_label": "『베네딕투스 규칙』",
+      "relation": "no_curated_match",
+      "chapter_ids": [],
+      "case_ids": [],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-D-004",
+      "kind": "document",
+      "legacy_label": "『신학대전』",
+      "relation": "no_curated_match",
+      "chapter_ids": [],
+      "case_ids": [],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-D-005",
+      "kind": "document",
+      "legacy_label": "『교회론』",
+      "relation": "related_reading_not_identity",
+      "chapter_ids": [
+        "L448-03-02"
+      ],
+      "case_ids": [
+        "ATLAS518-0302-01",
+        "ATLAS518-0302-02"
+      ],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-D-006",
+      "kind": "document",
+      "legacy_label": "프라하 4개조",
+      "relation": "related_reading_not_identity",
+      "chapter_ids": [
+        "L448-03-03"
+      ],
+      "case_ids": [
+        "ATLAS518-0303-01"
+      ],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-D-007",
+      "kind": "document",
+      "legacy_label": "바젤 콤팍타타",
+      "relation": "related_reading_not_identity",
+      "chapter_ids": [
+        "L448-03-03"
+      ],
+      "case_ids": [
+        "ATLAS518-0303-02"
+      ],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-D-008",
+      "kind": "document",
+      "legacy_label": "95개조 논제",
+      "relation": "related_reading_not_identity",
+      "chapter_ids": [
+        "L448-04-01"
+      ],
+      "case_ids": [
+        "ATLAS518-0401-01"
+      ],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-D-009",
+      "kind": "document",
+      "legacy_label": "『그리스도인의 자유』",
+      "relation": "no_curated_match",
+      "chapter_ids": [],
+      "case_ids": [],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-D-010",
+      "kind": "document",
+      "legacy_label": "슐라이트하임 신앙고백",
+      "relation": "related_reading_not_identity",
+      "chapter_ids": [
+        "L448-04-03"
+      ],
+      "case_ids": [
+        "ATLAS518-0403-03"
+      ],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-D-011",
+      "kind": "document",
+      "legacy_label": "아우크스부르크 신앙고백",
+      "relation": "related_reading_not_identity",
+      "chapter_ids": [
+        "L448-04-02"
+      ],
+      "case_ids": [
+        "ATLAS518-0402-02",
+        "ATLAS518-0402-03"
+      ],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [
+        "asset:augsburg.svg"
+      ],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-D-012",
+      "kind": "document",
+      "legacy_label": "『기독교강요』",
+      "relation": "related_reading_not_identity",
+      "chapter_ids": [
+        "L448-04-03"
+      ],
+      "case_ids": [],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-D-013",
+      "kind": "document",
+      "legacy_label": "공동기도서",
+      "relation": "related_reading_not_identity",
+      "chapter_ids": [
+        "L448-04-03"
+      ],
+      "case_ids": [
+        "ATLAS518-0403-02"
+      ],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-D-014",
+      "kind": "document",
+      "legacy_label": "트리엔트 공의회 교령",
+      "relation": "related_reading_not_identity",
+      "chapter_ids": [
+        "L448-05-01"
+      ],
+      "case_ids": [
+        "ATLAS518-0501-01"
+      ],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-D-015",
+      "kind": "document",
+      "legacy_label": "베스트팔렌 평화 조약문",
+      "relation": "related_reading_not_identity",
+      "chapter_ids": [
+        "L448-05-02"
+      ],
+      "case_ids": [
+        "ATLAS518-0502-02"
+      ],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-D-016",
+      "kind": "document",
+      "legacy_label": "『경건한 열망』",
+      "relation": "related_reading_not_identity",
+      "chapter_ids": [
+        "L448-06-01"
+      ],
+      "case_ids": [
+        "ATLAS518-0601-01"
+      ],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-D-017",
+      "kind": "document",
+      "legacy_label": "웨슬리의 설교 및 공동체 규칙",
+      "relation": "related_reading_not_identity",
+      "chapter_ids": [
+        "L448-06-01"
+      ],
+      "case_ids": [
+        "ATLAS518-0601-03"
+      ],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-D-018",
+      "kind": "document",
+      "legacy_label": "한글 성경 초기 번역본",
+      "relation": "related_reading_not_identity",
+      "chapter_ids": [
+        "L448-07-02"
+      ],
+      "case_ids": [
+        "ATLAS518-0702-02"
+      ],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [
+        "asset:korean.svg"
+      ],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-D-019",
+      "kind": "document",
+      "legacy_label": "세계교회협의회 첫 총회 기록",
+      "relation": "related_reading_not_identity",
+      "chapter_ids": [
+        "L448-07-03"
+      ],
+      "case_ids": [
+        "ATLAS518-0703-02"
+      ],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-D-020",
+      "kind": "document",
+      "legacy_label": "성경번역·교회권위·성찬론 비교 문헌군",
+      "relation": "related_reading_not_identity",
+      "chapter_ids": [
+        "L448-08-01",
+        "L448-08-02",
+        "L448-08-03"
+      ],
+      "case_ids": [],
+      "person_ids": [],
+      "theology_ids": [
+        "TH533-01",
+        "TH533-02",
+        "TH533-03",
+        "TH533-04",
+        "TH533-05"
+      ],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "TOP-01",
+      "kind": "topic",
+      "legacy_label": "성경의 권위",
+      "relation": "related_reading_not_identity",
+      "chapter_ids": [
+        "L448-08-01"
+      ],
+      "case_ids": [],
+      "person_ids": [],
+      "theology_ids": [
+        "TH533-01"
+      ],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "TOP-02",
+      "kind": "topic",
+      "legacy_label": "교회론",
+      "relation": "related_reading_not_identity",
+      "chapter_ids": [
+        "L448-08-02"
+      ],
+      "case_ids": [],
+      "person_ids": [],
+      "theology_ids": [
+        "TH533-04"
+      ],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "TOP-03",
+      "kind": "topic",
+      "legacy_label": "성찬론",
+      "relation": "related_reading_not_identity",
+      "chapter_ids": [
+        "L448-08-02"
+      ],
+      "case_ids": [],
+      "person_ids": [],
+      "theology_ids": [
+        "TH533-03"
+      ],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "TOP-04",
+      "kind": "topic",
+      "legacy_label": "은총·칭의",
+      "relation": "related_reading_not_identity",
+      "chapter_ids": [
+        "L448-08-01"
+      ],
+      "case_ids": [],
+      "person_ids": [],
+      "theology_ids": [
+        "TH533-02"
+      ],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "TOP-05",
+      "kind": "topic",
+      "legacy_label": "교회 개혁과 권력",
+      "relation": "related_reading_not_identity",
+      "chapter_ids": [
+        "L448-08-03",
+        "L448-05-02"
+      ],
+      "case_ids": [],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "TOP-06",
+      "kind": "topic",
+      "legacy_label": "공의회와 신앙고백",
+      "relation": "related_reading_not_identity",
+      "chapter_ids": [
+        "L448-01-03",
+        "L448-04-02",
+        "L448-05-01"
+      ],
+      "case_ids": [],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "TOP-07",
+      "kind": "topic",
+      "legacy_label": "성경 번역과 전파",
+      "relation": "related_reading_not_identity",
+      "chapter_ids": [
+        "L448-06-02",
+        "L448-07-02",
+        "L448-08-03"
+      ],
+      "case_ids": [],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [
+        "GL534-03",
+        "GL534-05",
+        "GL534-06"
+      ],
+      "asset_ids": [
+        "asset:tamil.svg",
+        "asset:korean.svg"
+      ],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "TOP-08",
+      "kind": "topic",
+      "legacy_label": "경건·부흥·선교",
+      "relation": "related_reading_not_identity",
+      "chapter_ids": [
+        "L448-06-01",
+        "L448-06-03"
+      ],
+      "case_ids": [],
+      "person_ids": [],
+      "theology_ids": [
+        "TH533-05"
+      ],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "TOP-09",
+      "kind": "topic",
+      "legacy_label": "동서 교회의 차이",
+      "relation": "related_reading_not_identity",
+      "chapter_ids": [
+        "L448-02-01",
+        "L448-02-03"
+      ],
+      "case_ids": [],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [
+        "GL534-02"
+      ],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "TOP-10",
+      "kind": "topic",
+      "legacy_label": "한국 교회사 서술의 관점",
+      "relation": "related_reading_not_identity",
+      "chapter_ids": [
+        "L448-07-02"
+      ],
+      "case_ids": [],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [
+        "GL534-06"
+      ],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-L-001",
+      "kind": "place",
+      "legacy_label": "안디옥",
+      "relation": "no_curated_match",
+      "chapter_ids": [],
+      "case_ids": [],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-L-002",
+      "kind": "place",
+      "legacy_label": "알렉산드리아",
+      "relation": "no_curated_match",
+      "chapter_ids": [],
+      "case_ids": [],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-L-003",
+      "kind": "place",
+      "legacy_label": "니케아",
+      "relation": "related_reading_not_identity",
+      "chapter_ids": [
+        "L448-01-03"
+      ],
+      "case_ids": [
+        "ATLAS518-0103-01"
+      ],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-L-004",
+      "kind": "place",
+      "legacy_label": "히포 레기우스",
+      "relation": "no_curated_match",
+      "chapter_ids": [],
+      "case_ids": [],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-L-005",
+      "kind": "place",
+      "legacy_label": "로마",
+      "relation": "related_reading_not_identity",
+      "chapter_ids": [
+        "L448-02-03",
+        "L448-04-01"
+      ],
+      "case_ids": [
+        "ATLAS518-0203-01",
+        "ATLAS518-0401-03"
+      ],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-L-006",
+      "kind": "place",
+      "legacy_label": "몬테카시노",
+      "relation": "no_curated_match",
+      "chapter_ids": [],
+      "case_ids": [],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-L-007",
+      "kind": "place",
+      "legacy_label": "캔터베리",
+      "relation": "no_curated_match",
+      "chapter_ids": [],
+      "case_ids": [],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-L-008",
+      "kind": "place",
+      "legacy_label": "콘스탄티노폴리스",
+      "relation": "related_reading_not_identity",
+      "chapter_ids": [
+        "L448-02-03"
+      ],
+      "case_ids": [
+        "ATLAS518-0203-01",
+        "ATLAS518-0203-02"
+      ],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-L-009",
+      "kind": "place",
+      "legacy_label": "리옹",
+      "relation": "related_reading_not_identity",
+      "chapter_ids": [
+        "L448-03-01"
+      ],
+      "case_ids": [
+        "ATLAS518-0301-01"
+      ],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-L-010",
+      "kind": "place",
+      "legacy_label": "옥스퍼드",
+      "relation": "no_curated_match",
+      "chapter_ids": [],
+      "case_ids": [],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-L-011",
+      "kind": "place",
+      "legacy_label": "프라하",
+      "relation": "related_reading_not_identity",
+      "chapter_ids": [
+        "L448-03-03"
+      ],
+      "case_ids": [
+        "ATLAS518-0303-01"
+      ],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-L-012",
+      "kind": "place",
+      "legacy_label": "콘스탄츠",
+      "relation": "related_reading_not_identity",
+      "chapter_ids": [
+        "L448-03-02"
+      ],
+      "case_ids": [
+        "ATLAS518-0302-02"
+      ],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-L-013",
+      "kind": "place",
+      "legacy_label": "비텐베르크",
+      "relation": "related_reading_not_identity",
+      "chapter_ids": [
+        "L448-04-01",
+        "L448-04-02"
+      ],
+      "case_ids": [
+        "ATLAS518-0401-01",
+        "ATLAS518-0402-03"
+      ],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-L-014",
+      "kind": "place",
+      "legacy_label": "보름스",
+      "relation": "no_curated_match",
+      "chapter_ids": [],
+      "case_ids": [],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-L-015",
+      "kind": "place",
+      "legacy_label": "취리히",
+      "relation": "no_curated_match",
+      "chapter_ids": [],
+      "case_ids": [],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-L-016",
+      "kind": "place",
+      "legacy_label": "제네바",
+      "relation": "related_reading_not_identity",
+      "chapter_ids": [
+        "L448-04-03"
+      ],
+      "case_ids": [
+        "ATLAS518-0403-01"
+      ],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-L-017",
+      "kind": "place",
+      "legacy_label": "아우크스부르크",
+      "relation": "related_reading_not_identity",
+      "chapter_ids": [
+        "L448-04-02",
+        "L448-05-02"
+      ],
+      "case_ids": [
+        "ATLAS518-0402-02",
+        "ATLAS518-0502-01"
+      ],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-L-018",
+      "kind": "place",
+      "legacy_label": "트리엔트",
+      "relation": "related_reading_not_identity",
+      "chapter_ids": [
+        "L448-05-01"
+      ],
+      "case_ids": [
+        "ATLAS518-0501-01"
+      ],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-L-019",
+      "kind": "place",
+      "legacy_label": "런던",
+      "relation": "no_curated_match",
+      "chapter_ids": [],
+      "case_ids": [],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-L-020",
+      "kind": "place",
+      "legacy_label": "서울(한성)",
+      "relation": "no_curated_match",
+      "chapter_ids": [],
+      "case_ids": [],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-L-021",
+      "kind": "place",
+      "legacy_label": "평양",
+      "relation": "no_curated_match",
+      "chapter_ids": [],
+      "case_ids": [],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    },
+    {
+      "legacy_id": "OV-L-022",
+      "kind": "place",
+      "legacy_label": "암스테르담",
+      "relation": "related_reading_not_identity",
+      "chapter_ids": [
+        "L448-07-03"
+      ],
+      "case_ids": [
+        "ATLAS518-0703-02"
+      ],
+      "person_ids": [],
+      "theology_ids": [],
+      "global_ids": [],
+      "asset_ids": [],
+      "review_state": "EDITORIAL_CANDIDATE_NOT_APP_VERIFIED",
+      "can_ship": false
+    }
+  ],
+  "unmerged_people": [
+    {
+      "id": "PERSON535-01",
+      "name": "시몽 킴방구",
+      "chapter_id": "L448-07-01",
+      "status": "NEW_RESEARCH_PERSON_NOT_MERGED"
+    },
+    {
+      "id": "PERSON535-02",
+      "name": "라반 사우마",
+      "chapter_id": "L448-02-01",
+      "status": "NEW_RESEARCH_PERSON_NOT_MERGED"
+    },
+    {
+      "id": "PERSON535-03",
+      "name": "과만 포마",
+      "chapter_id": "L448-05-03",
+      "status": "NEW_RESEARCH_PERSON_NOT_MERGED"
+    },
+    {
+      "id": "PERSON535-04",
+      "name": "파페이하",
+      "chapter_id": "L448-06-03",
+      "status": "NEW_RESEARCH_PERSON_NOT_MERGED"
+    },
+    {
+      "id": "PERSON535-06",
+      "name": "김청송",
+      "chapter_id": "L448-07-02",
+      "status": "NEW_RESEARCH_PERSON_NOT_MERGED"
+    },
+    {
+      "id": "PERSON535-09",
+      "name": "테스파 시온",
+      "chapter_id": "L448-04-01",
+      "status": "NEW_RESEARCH_PERSON_NOT_MERGED"
+    },
+    {
+      "id": "PERSON535-10",
+      "name": "소르 후아나",
+      "chapter_id": "L448-05-03",
+      "status": "NEW_RESEARCH_PERSON_NOT_MERGED"
+    }
+  ],
+  "legacy_relationship_count": 32,
+  "relationship_policy": "preserve all legacy edges; no new identity or causal edges inferred",
+  "can_ship": false,
+  "can_import_ai_studio": false
+}
