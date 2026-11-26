@@ -1,0 +1,60 @@
+{
+  "version": "V5.38",
+  "checks": {
+    "all7Files": true,
+    "entryImports": true,
+    "dataLoads": true,
+    "allViews": true,
+    "safeDom": true,
+    "imageFallback": true,
+    "releaseGuard": true,
+    "builderListsAllAppFiles": true,
+    "priorCoreTests": true
+  },
+  "files": [
+    {
+      "name": "index.html",
+      "sha": "927a723c679b7c312f367b58ed01809c4d8af141",
+      "chars": 1072
+    },
+    {
+      "name": "style.css",
+      "sha": "97834e3963c78d7c6f51e30dede2466c0daa9c7f",
+      "chars": 3477
+    },
+    {
+      "name": "core.js",
+      "sha": "e05a8e77ec815354aa3947622f6b5e060d51054a",
+      "chars": 2751
+    },
+    {
+      "name": "app.js",
+      "sha": "2e82e0b7a8b208351440710ac8b52189a91bfa37",
+      "chars": 10222
+    },
+    {
+      "name": "build_standalone.py",
+      "sha": "de53233f61a24f14bf364de96b7b4600ab7cf942",
+      "chars": 1913
+    },
+    {
+      "name": "core_qa.json",
+      "sha": "c0a2db7760e779a3106a928e8e3b64af9522e1f1",
+      "chars": 651
+    },
+    {
+      "name": "README.md",
+      "sha": "a0b4a48d3093eb4fd13ebd98d76394f594a139c6",
+      "chars": 1038
+    }
+  ],
+  "scope": "repository readback and text-level wiring checks; not browser, syntax parser or executed ZIP builder",
+  "open": [
+    "execute actual local ZIP builder",
+    "browser desktop/mobile and keyboard acceptance",
+    "expert historical/theological review",
+    "AI Studio application approval"
+  ],
+  "can_ship": false,
+  "can_import_ai_studio": false
+}
