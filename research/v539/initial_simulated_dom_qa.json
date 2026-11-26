@@ -1,0 +1,505 @@
+{
+  "version": "V5.39",
+  "scope": "actual repository JS and full V5.37 input executed in a minimal simulated DOM; no browser layout, CSP enforcement, image decoding, HTTP or ZIP execution",
+  "source_shas": {
+    "app": "2e82e0b7a8b208351440710ac8b52189a91bfa37",
+    "core": "e05a8e77ec815354aa3947622f6b5e060d51054a",
+    "data": "79437376c52d8e286f3c9a4b618fdb55b8bb3e92",
+    "index": "41f590854795009d05d8b595dd49700b21d5508a"
+  },
+  "checks": [
+    {
+      "name": "home",
+      "pass": true,
+      "detail": 8
+    },
+    {
+      "name": "volume:VOL-01",
+      "pass": true,
+      "detail": 3
+    },
+    {
+      "name": "volume:VOL-02",
+      "pass": true,
+      "detail": 3
+    },
+    {
+      "name": "volume:VOL-03",
+      "pass": true,
+      "detail": 3
+    },
+    {
+      "name": "volume:VOL-04",
+      "pass": true,
+      "detail": 3
+    },
+    {
+      "name": "volume:VOL-05",
+      "pass": true,
+      "detail": 3
+    },
+    {
+      "name": "volume:VOL-06",
+      "pass": true,
+      "detail": 3
+    },
+    {
+      "name": "volume:VOL-07",
+      "pass": true,
+      "detail": 3
+    },
+    {
+      "name": "volume:VOL-08",
+      "pass": true,
+      "detail": 3
+    },
+    {
+      "name": "chapter:L448-01-01:overview",
+      "pass": true,
+      "detail": "text + next route"
+    },
+    {
+      "name": "chapter:L448-01-01:intermediate",
+      "pass": true,
+      "detail": "text + next route"
+    },
+    {
+      "name": "chapter:L448-01-01:deep",
+      "pass": false,
+      "detail": "text + next route"
+    },
+    {
+      "name": "chapter:L448-01-02:overview",
+      "pass": true,
+      "detail": "text + next route"
+    },
+    {
+      "name": "chapter:L448-01-02:intermediate",
+      "pass": true,
+      "detail": "text + next route"
+    },
+    {
+      "name": "chapter:L448-01-02:deep",
+      "pass": false,
+      "detail": "text + next route"
+    },
+    {
+      "name": "chapter:L448-01-03:overview",
+      "pass": true,
+      "detail": "text + next route"
+    },
+    {
+      "name": "chapter:L448-01-03:intermediate",
+      "pass": true,
+      "detail": "text + next route"
+    },
+    {
+      "name": "chapter:L448-01-03:deep",
+      "pass": false,
+      "detail": "text + next route"
+    },
+    {
+      "name": "chapter:L448-02-01:overview",
+      "pass": true,
+      "detail": "text + next route"
+    },
+    {
+      "name": "chapter:L448-02-01:intermediate",
+      "pass": true,
+      "detail": "text + next route"
+    },
+    {
+      "name": "chapter:L448-02-01:deep",
+      "pass": false,
+      "detail": "text + next route"
+    },
+    {
+      "name": "chapter:L448-02-02:overview",
+      "pass": true,
+      "detail": "text + next route"
+    },
+    {
+      "name": "chapter:L448-02-02:intermediate",
+      "pass": true,
+      "detail": "text + next route"
+    },
+    {
+      "name": "chapter:L448-02-02:deep",
+      "pass": false,
+      "detail": "text + next route"
+    },
+    {
+      "name": "chapter:L448-02-03:overview",
+      "pass": true,
+      "detail": "text + next route"
+    },
+    {
+      "name": "chapter:L448-02-03:intermediate",
+      "pass": true,
+      "detail": "text + next route"
+    },
+    {
+      "name": "chapter:L448-02-03:deep",
+      "pass": false,
+      "detail": "text + next route"
+    },
+    {
+      "name": "chapter:L448-03-01:overview",
+      "pass": true,
+      "detail": "text + next route"
+    },
+    {
+      "name": "chapter:L448-03-01:intermediate",
+      "pass": true,
+      "detail": "text + next route"
+    },
+    {
+      "name": "chapter:L448-03-01:deep",
+      "pass": false,
+      "detail": "text + next route"
+    },
+    {
+      "name": "chapter:L448-03-02:overview",
+      "pass": true,
+      "detail": "text + next route"
+    },
+    {
+      "name": "chapter:L448-03-02:intermediate",
+      "pass": true,
+      "detail": "text + next route"
+    },
+    {
+      "name": "chapter:L448-03-02:deep",
+      "pass": false,
+      "detail": "text + next route"
+    },
+    {
+      "name": "chapter:L448-03-03:overview",
+      "pass": true,
+      "detail": "text + next route"
+    },
+    {
+      "name": "chapter:L448-03-03:intermediate",
+      "pass": true,
+      "detail": "text + next route"
+    },
+    {
+      "name": "chapter:L448-03-03:deep",
+      "pass": false,
+      "detail": "text + next route"
+    },
+    {
+      "name": "chapter:L448-04-01:overview",
+      "pass": true,
+      "detail": "text + next route"
+    },
+    {
+      "name": "chapter:L448-04-01:intermediate",
+      "pass": true,
+      "detail": "text + next route"
+    },
+    {
+      "name": "chapter:L448-04-01:deep",
+      "pass": false,
+      "detail": "text + next route"
+    },
+    {
+      "name": "chapter:L448-04-02:overview",
+      "pass": true,
+      "detail": "text + next route"
+    },
+    {
+      "name": "chapter:L448-04-02:intermediate",
+      "pass": true,
+      "detail": "text + next route"
+    },
+    {
+      "name": "chapter:L448-04-02:deep",
+      "pass": false,
+      "detail": "text + next route"
+    },
+    {
+      "name": "chapter:L448-04-03:overview",
+      "pass": true,
+      "detail": "text + next route"
+    },
+    {
+      "name": "chapter:L448-04-03:intermediate",
+      "pass": true,
+      "detail": "text + next route"
+    },
+    {
+      "name": "chapter:L448-04-03:deep",
+      "pass": false,
+      "detail": "text + next route"
+    },
+    {
+      "name": "chapter:L448-05-01:overview",
+      "pass": true,
+      "detail": "text + next route"
+    },
+    {
+      "name": "chapter:L448-05-01:intermediate",
+      "pass": true,
+      "detail": "text + next route"
+    },
+    {
+      "name": "chapter:L448-05-01:deep",
+      "pass": false,
+      "detail": "text + next route"
+    },
+    {
+      "name": "chapter:L448-05-02:overview",
+      "pass": true,
+      "detail": "text + next route"
+    },
+    {
+      "name": "chapter:L448-05-02:intermediate",
+      "pass": true,
+      "detail": "text + next route"
+    },
+    {
+      "name": "chapter:L448-05-02:deep",
+      "pass": false,
+      "detail": "text + next route"
+    },
+    {
+      "name": "chapter:L448-05-03:overview",
+      "pass": true,
+      "detail": "text + next route"
+    },
+    {
+      "name": "chapter:L448-05-03:intermediate",
+      "pass": true,
+      "detail": "text + next route"
+    },
+    {
+      "name": "chapter:L448-05-03:deep",
+      "pass": false,
+      "detail": "text + next route"
+    },
+    {
+      "name": "chapter:L448-06-01:overview",
+      "pass": true,
+      "detail": "text + next route"
+    },
+    {
+      "name": "chapter:L448-06-01:intermediate",
+      "pass": true,
+      "detail": "text + next route"
+    },
+    {
+      "name": "chapter:L448-06-01:deep",
+      "pass": false,
+      "detail": "text + next route"
+    },
+    {
+      "name": "chapter:L448-06-02:overview",
+      "pass": true,
+      "detail": "text + next route"
+    },
+    {
+      "name": "chapter:L448-06-02:intermediate",
+      "pass": true,
+      "detail": "text + next route"
+    },
+    {
+      "name": "chapter:L448-06-02:deep",
+      "pass": false,
+      "detail": "text + next route"
+    },
+    {
+      "name": "chapter:L448-06-03:overview",
+      "pass": true,
+      "detail": "text + next route"
+    },
+    {
+      "name": "chapter:L448-06-03:intermediate",
+      "pass": true,
+      "detail": "text + next route"
+    },
+    {
+      "name": "chapter:L448-06-03:deep",
+      "pass": false,
+      "detail": "text + next route"
+    },
+    {
+      "name": "chapter:L448-07-01:overview",
+      "pass": true,
+      "detail": "text + next route"
+    },
+    {
+      "name": "chapter:L448-07-01:intermediate",
+      "pass": true,
+      "detail": "text + next route"
+    },
+    {
+      "name": "chapter:L448-07-01:deep",
+      "pass": false,
+      "detail": "text + next route"
+    },
+    {
+      "name": "chapter:L448-07-02:overview",
+      "pass": true,
+      "detail": "text + next route"
+    },
+    {
+      "name": "chapter:L448-07-02:intermediate",
+      "pass": true,
+      "detail": "text + next route"
+    },
+    {
+      "name": "chapter:L448-07-02:deep",
+      "pass": false,
+      "detail": "text + next route"
+    },
+    {
+      "name": "chapter:L448-07-03:overview",
+      "pass": true,
+      "detail": "text + next route"
+    },
+    {
+      "name": "chapter:L448-07-03:intermediate",
+      "pass": true,
+      "detail": "text + next route"
+    },
+    {
+      "name": "chapter:L448-07-03:deep",
+      "pass": false,
+      "detail": "text + next route"
+    },
+    {
+      "name": "chapter:L448-08-01:overview",
+      "pass": true,
+      "detail": "text + next route"
+    },
+    {
+      "name": "chapter:L448-08-01:intermediate",
+      "pass": true,
+      "detail": "text + next route"
+    },
+    {
+      "name": "chapter:L448-08-01:deep",
+      "pass": false,
+      "detail": "text + next route"
+    },
+    {
+      "name": "chapter:L448-08-02:overview",
+      "pass": true,
+      "detail": "text + next route"
+    },
+    {
+      "name": "chapter:L448-08-02:intermediate",
+      "pass": true,
+      "detail": "text + next route"
+    },
+    {
+      "name": "chapter:L448-08-02:deep",
+      "pass": false,
+      "detail": "text + next route"
+    },
+    {
+      "name": "chapter:L448-08-03:overview",
+      "pass": true,
+      "detail": "text + next route"
+    },
+    {
+      "name": "chapter:L448-08-03:intermediate",
+      "pass": true,
+      "detail": "text + next route"
+    },
+    {
+      "name": "chapter:L448-08-03:deep",
+      "pass": false,
+      "detail": "text + next route"
+    },
+    {
+      "name": "maps:VOL-01",
+      "pass": true,
+      "detail": 6
+    },
+    {
+      "name": "maps:VOL-02",
+      "pass": true,
+      "detail": 7
+    },
+    {
+      "name": "maps:VOL-03",
+      "pass": true,
+      "detail": 6
+    },
+    {
+      "name": "maps:VOL-04",
+      "pass": true,
+      "detail": 9
+    },
+    {
+      "name": "maps:VOL-05",
+      "pass": true,
+      "detail": 7
+    },
+    {
+      "name": "maps:VOL-06",
+      "pass": true,
+      "detail": 8
+    },
+    {
+      "name": "maps:VOL-07",
+      "pass": true,
+      "detail": 9
+    },
+    {
+      "name": "maps:VOL-08",
+      "pass": true,
+      "detail": 52
+    },
+    {
+      "name": "people",
+      "pass": true,
+      "detail": 10
+    },
+    {
+      "name": "imageFallback",
+      "pass": true,
+      "detail": 9
+    },
+    {
+      "name": "documents",
+      "pass": true,
+      "detail": 5
+    },
+    {
+      "name": "themes",
+      "pass": true,
+      "detail": 11
+    },
+    {
+      "name": "search:루터",
+      "pass": true,
+      "detail": 4
+    },
+    {
+      "name": "search:타밀어",
+      "pass": true,
+      "detail": 3
+    },
+    {
+      "name": "search:서상륜",
+      "pass": true,
+      "detail": 3
+    },
+    {
+      "name": "search:zzzz_nonexistent_zzzz",
+      "pass": true,
+      "detail": 0
+    },
+    {
+      "name": "invalidRoute",
+      "pass": true,
+      "detail": true
+    }
+  ],
+  "passed": 74,
+  "total": 98,
+  "can_ship": false
+}
