@@ -1,0 +1,50 @@
+{
+  "counts": {
+    "volume": {
+      "legacy": 8,
+      "linked": 8,
+      "unlinked": 0
+    },
+    "person": {
+      "legacy": 33,
+      "linked": 12,
+      "unlinked": 21
+    },
+    "event": {
+      "legacy": 34,
+      "linked": 26,
+      "unlinked": 8
+    },
+    "document": {
+      "legacy": 20,
+      "linked": 16,
+      "unlinked": 4
+    },
+    "topic": {
+      "legacy": 10,
+      "linked": 10,
+      "unlinked": 0
+    },
+    "place": {
+      "legacy": 22,
+      "linked": 11,
+      "unlinked": 11
+    }
+  },
+  "linked": 83,
+  "unlinked": 44,
+  "new_people": 7,
+  "checks": {
+    "all127": true,
+    "unique127": true,
+    "all8VolumeKeys": true,
+    "samePersonOnly3": true,
+    "unmerged7": true,
+    "noUnmappedRefs": true,
+    "noIdentityForEvents": true,
+    "allReferencesResolved": true,
+    "legacyRelationshipPreserved": true
+  },
+  "scope": "historical context crosswalk to original overview design data; not actual host application or expert validation",
+  "can_ship": false
+}
