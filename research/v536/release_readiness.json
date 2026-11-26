@@ -1,0 +1,69 @@
+{
+  "version": "V5.36",
+  "branch": "research/atlas-v536-integrated-quality",
+  "checks": [
+    {
+      "name": "content_qa.json",
+      "sha": "93c723e723d544e61f9d5fc70d61fd8463a725fb",
+      "passed": 15,
+      "total": 15
+    },
+    {
+      "name": "maps_qa.json",
+      "sha": "4e8eecad401e3096435883fd2b5d721f86c083d6",
+      "passed": 8,
+      "total": 8
+    },
+    {
+      "name": "diagrams_and_people_01_qa.json",
+      "sha": "6bd7fee0024c6293d2b2497b3225ad27214ce927",
+      "passed": 10,
+      "total": 10
+    },
+    {
+      "name": "people_02_qa.json",
+      "sha": "7fa7bba33117234ff8a9d1f0210c8bebbb9cbf0e",
+      "passed": 5,
+      "total": 5
+    },
+    {
+      "name": "link_qa.json",
+      "sha": "2b35b9c40b45dbd20507d5e5d6d5275a51709ed7",
+      "passed": 11,
+      "total": 11
+    }
+  ],
+  "all_structural_checks_pass": true,
+  "scope": "23 active SVG files, two manuscripts and integrated reference data; no browser or expert review",
+  "gates": {
+    "research_preview_package": "ELIGIBLE_FOR_PREPARATION",
+    "publish": "BLOCKED",
+    "main_merge": "BLOCKED",
+    "ai_studio_import": "BLOCKED"
+  },
+  "open": [
+    {
+      "id": "QA-01",
+      "item": "Browser and mobile visual QA: typography, marker overlaps, small islands, color contrast, accessibility",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "QA-02",
+      "item": "Two WebP pilot portraits not registered in repository; use SVG fallback",
+      "status": "PENDING"
+    },
+    {
+      "id": "QA-03",
+      "item": "Historical and theological specialist review, current source URL checks, independent geocoding",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "QA-04",
+      "item": "AI Studio data schema and end-to-end app acceptance",
+      "status": "NOT_RUN"
+    }
+  ],
+  "can_ship": false,
+  "can_merge_main": false,
+  "can_import_ai_studio": false
+}
