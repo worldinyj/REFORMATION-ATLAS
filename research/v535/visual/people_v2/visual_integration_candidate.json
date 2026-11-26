@@ -1,0 +1,48 @@
+{
+  "version": "V5.35-visual-integration-candidate",
+  "current_assets": {
+    "maps": [
+      "../maps_v3/volume_1.svg",
+      "../maps_v3/volume_2.svg",
+      "../maps_v3/volume_3.svg",
+      "../maps_v3/volume_4.svg",
+      "../maps_v3/volume_5.svg",
+      "../maps_v3/volume_6.svg",
+      "../maps_v3/volume_7.svg",
+      "../maps_v3/volume_8.svg"
+    ],
+    "timeline_and_documents": [
+      "../parallel_timeline.svg",
+      "../augsburg.svg",
+      "../tamil.svg",
+      "../korean.svg",
+      "../stele.svg"
+    ],
+    "symbol_cards": [
+      "../people_v1/cards/person_01.svg",
+      "../people_v1/cards/person_02.svg",
+      "../people_v1/cards/person_03.svg",
+      "../people_v1/cards/person_04.svg",
+      "../people_v1/cards/person_05.svg",
+      "../people_v1/cards/person_06.svg",
+      "../people_v1/cards/person_07.svg",
+      "../people_v1/cards/person_08.svg",
+      "../people_v1/cards/person_09.svg",
+      "../people_v1/cards/person_10.svg"
+    ]
+  },
+  "portrait_pilots": [
+    {
+      "person_id": "PERSON535-07",
+      "path": "research/v535/visual/people_v2/portraits/luther_pilot.webp",
+      "status": "LOCAL_READY_REPOSITORY_PENDING"
+    },
+    {
+      "person_id": "PERSON535-10",
+      "path": "research/v535/visual/people_v2/portraits/sor_juana_pilot.webp",
+      "status": "LOCAL_READY_REPOSITORY_PENDING"
+    }
+  ],
+  "scope": "Index from verified prior manifests and audit records; not all SVG files re-fetched; no browser QA or application integration",
+  "can_ship": false
+}
