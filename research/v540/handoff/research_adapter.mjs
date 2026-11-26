@@ -12,7 +12,7 @@ export function createResearchAdapter({preview,crosswalk,enabled=false,hostNames
    if(!hostRecord||typeof hostRecord.id!=="string")return null;
    const r=records.get(hostRecord.id),label=["person","place"].includes(kind)?hostRecord.name_ko:hostRecord.title;
    if(!r||r.kind!==kind||label!==r.legacy_label||r.relation==="no_curated_match")return null;
-   const resolved=Object.fromEntries(Object.entries(maps).map(([k,m])=>[k.replace(/_ids$/,"s"),r[k].map(id=>m.get(id))]));
+   const resolved=Object.fromEntries(Object.entries(maps).map(([k,m])=>[({chapter_ids:"chapters",case_ids:"cases",person_ids:"people",theology_ids:"theology_units",global_ids:"global_units",asset_ids:"assets"})[k],r[k].map(id=>m.get(id))]));
    return clone({host_id:r.legacy_id,relation:r.relation,notice:"연구 검토용 추가 읽기 · 기존 개요를 대체하지 않음 · 전문가 검토 미완료",...resolved,can_ship:false,can_import_ai_studio:false});
  }
  function listNewPeople(){return clone(crosswalk.unmerged_people);}
