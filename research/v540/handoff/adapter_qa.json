@@ -1,0 +1,23 @@
+{
+  "version": "V5.40",
+  "checks": {
+    "explicitOptIn": true,
+    "wrongNamespace": true,
+    "releaseFlag": true,
+    "allRecords": true,
+    "unknownID": true,
+    "wrongType": true,
+    "wrongLabel": true,
+    "noMutation": true,
+    "cloneIsolation": true,
+    "unmergedPeople": true,
+    "brokenRef": true
+  },
+  "records_tested": 127,
+  "records_passed": 127,
+  "linked": 83,
+  "unlinked": 44,
+  "scope": "actual adapter function executed against repository preview and crosswalk; not installed in host app",
+  "can_ship": false,
+  "can_import_ai_studio": false
+}
