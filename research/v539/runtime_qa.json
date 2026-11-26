@@ -1,8 +1,8 @@
 {
   "version": "V5.39",
-  "scope": "actual JS runtime with simulated DOM and full V5.37 data, not real browser or ZIP builder",
+  "scope": "Actual app/core JS with full V5.37 input in simulated DOM. Narrow HTTP(S) URL shim because isolated host lacks URL; native URL on local Node. Not browser, layout, HTTP, ZIP or CSP enforcement.",
   "source_shas": {
-    "app": "7e2cd4d6a3574972309bd75bb49d45a7fb0b2edd",
+    "app": "001a15ef7c5277509d00c046a104b1ebaf2404fa",
     "core": "e05a8e77ec815354aa3947622f6b5e060d51054a",
     "data": "79437376c52d8e286f3c9a4b618fdb55b8bb3e92",
     "index": "41f590854795009d05d8b595dd49700b21d5508a"
@@ -73,11 +73,11 @@
     },
     {
       "name": "chapter:L448-01-01:deep",
-      "pass": false,
+      "pass": true,
       "detail": {
         "lines": 11,
-        "missing": 1,
-        "source_urls": 0
+        "missing": 0,
+        "source_urls": 3
       }
     },
     {
@@ -100,11 +100,11 @@
     },
     {
       "name": "chapter:L448-01-02:deep",
-      "pass": false,
+      "pass": true,
       "detail": {
         "lines": 11,
-        "missing": 1,
-        "source_urls": 0
+        "missing": 0,
+        "source_urls": 4
       }
     },
     {
@@ -127,11 +127,11 @@
     },
     {
       "name": "chapter:L448-01-03:deep",
-      "pass": false,
+      "pass": true,
       "detail": {
         "lines": 17,
-        "missing": 1,
-        "source_urls": 0
+        "missing": 0,
+        "source_urls": 5
       }
     },
     {
@@ -154,11 +154,11 @@
     },
     {
       "name": "chapter:L448-02-01:deep",
-      "pass": false,
+      "pass": true,
       "detail": {
         "lines": 12,
-        "missing": 1,
-        "source_urls": 0
+        "missing": 0,
+        "source_urls": 4
       }
     },
     {
@@ -181,11 +181,11 @@
     },
     {
       "name": "chapter:L448-02-02:deep",
-      "pass": false,
+      "pass": true,
       "detail": {
         "lines": 12,
-        "missing": 1,
-        "source_urls": 0
+        "missing": 0,
+        "source_urls": 4
       }
     },
     {
@@ -208,11 +208,11 @@
     },
     {
       "name": "chapter:L448-02-03:deep",
-      "pass": false,
+      "pass": true,
       "detail": {
         "lines": 12,
-        "missing": 1,
-        "source_urls": 0
+        "missing": 0,
+        "source_urls": 4
       }
     },
     {
@@ -235,11 +235,11 @@
     },
     {
       "name": "chapter:L448-03-01:deep",
-      "pass": false,
+      "pass": true,
       "detail": {
         "lines": 16,
-        "missing": 1,
-        "source_urls": 0
+        "missing": 0,
+        "source_urls": 5
       }
     },
     {
@@ -262,11 +262,11 @@
     },
     {
       "name": "chapter:L448-03-02:deep",
-      "pass": false,
+      "pass": true,
       "detail": {
         "lines": 12,
-        "missing": 1,
-        "source_urls": 0
+        "missing": 0,
+        "source_urls": 4
       }
     },
     {
@@ -289,11 +289,11 @@
     },
     {
       "name": "chapter:L448-03-03:deep",
-      "pass": false,
+      "pass": true,
       "detail": {
         "lines": 12,
-        "missing": 1,
-        "source_urls": 0
+        "missing": 0,
+        "source_urls": 2
       }
     },
     {
@@ -316,11 +316,11 @@
     },
     {
       "name": "chapter:L448-04-01:deep",
-      "pass": false,
+      "pass": true,
       "detail": {
         "lines": 21,
-        "missing": 1,
-        "source_urls": 0
+        "missing": 0,
+        "source_urls": 11
       }
     },
     {
@@ -343,11 +343,11 @@
     },
     {
       "name": "chapter:L448-04-02:deep",
-      "pass": false,
+      "pass": true,
       "detail": {
         "lines": 27,
-        "missing": 1,
-        "source_urls": 0
+        "missing": 0,
+        "source_urls": 17
       }
     },
     {
@@ -370,11 +370,11 @@
     },
     {
       "name": "chapter:L448-04-03:deep",
-      "pass": false,
+      "pass": true,
       "detail": {
         "lines": 12,
-        "missing": 1,
-        "source_urls": 0
+        "missing": 0,
+        "source_urls": 4
       }
     },
     {
@@ -397,11 +397,11 @@
     },
     {
       "name": "chapter:L448-05-01:deep",
-      "pass": false,
+      "pass": true,
       "detail": {
         "lines": 12,
-        "missing": 1,
-        "source_urls": 0
+        "missing": 0,
+        "source_urls": 3
       }
     },
     {
@@ -424,11 +424,11 @@
     },
     {
       "name": "chapter:L448-05-02:deep",
-      "pass": false,
+      "pass": true,
       "detail": {
         "lines": 14,
-        "missing": 1,
-        "source_urls": 0
+        "missing": 0,
+        "source_urls": 5
       }
     },
     {
@@ -451,11 +451,11 @@
     },
     {
       "name": "chapter:L448-05-03:deep",
-      "pass": false,
+      "pass": true,
       "detail": {
         "lines": 36,
-        "missing": 4,
-        "source_urls": 0
+        "missing": 0,
+        "source_urls": 22
       }
     },
     {
@@ -478,11 +478,11 @@
     },
     {
       "name": "chapter:L448-06-01:deep",
-      "pass": false,
+      "pass": true,
       "detail": {
         "lines": 12,
-        "missing": 1,
-        "source_urls": 0
+        "missing": 0,
+        "source_urls": 6
       }
     },
     {
@@ -505,11 +505,11 @@
     },
     {
       "name": "chapter:L448-06-02:deep",
-      "pass": false,
+      "pass": true,
       "detail": {
         "lines": 13,
-        "missing": 1,
-        "source_urls": 0
+        "missing": 0,
+        "source_urls": 7
       }
     },
     {
@@ -532,11 +532,11 @@
     },
     {
       "name": "chapter:L448-06-03:deep",
-      "pass": false,
+      "pass": true,
       "detail": {
         "lines": 32,
-        "missing": 3,
-        "source_urls": 0
+        "missing": 0,
+        "source_urls": 10
       }
     },
     {
@@ -559,11 +559,11 @@
     },
     {
       "name": "chapter:L448-07-01:deep",
-      "pass": false,
+      "pass": true,
       "detail": {
         "lines": 12,
-        "missing": 1,
-        "source_urls": 0
+        "missing": 0,
+        "source_urls": 4
       }
     },
     {
@@ -586,11 +586,11 @@
     },
     {
       "name": "chapter:L448-07-02:deep",
-      "pass": false,
+      "pass": true,
       "detail": {
         "lines": 12,
-        "missing": 1,
-        "source_urls": 0
+        "missing": 0,
+        "source_urls": 6
       }
     },
     {
@@ -613,11 +613,11 @@
     },
     {
       "name": "chapter:L448-07-03:deep",
-      "pass": false,
+      "pass": true,
       "detail": {
         "lines": 23,
-        "missing": 2,
-        "source_urls": 0
+        "missing": 0,
+        "source_urls": 12
       }
     },
     {
@@ -640,11 +640,11 @@
     },
     {
       "name": "chapter:L448-08-01:deep",
-      "pass": false,
+      "pass": true,
       "detail": {
         "lines": 16,
-        "missing": 1,
-        "source_urls": 0
+        "missing": 0,
+        "source_urls": 3
       }
     },
     {
@@ -667,11 +667,11 @@
     },
     {
       "name": "chapter:L448-08-02:deep",
-      "pass": false,
+      "pass": true,
       "detail": {
         "lines": 16,
-        "missing": 1,
-        "source_urls": 0
+        "missing": 0,
+        "source_urls": 3
       }
     },
     {
@@ -694,11 +694,11 @@
     },
     {
       "name": "chapter:L448-08-03:deep",
-      "pass": false,
+      "pass": true,
       "detail": {
         "lines": 16,
-        "missing": 1,
-        "source_urls": 0
+        "missing": 0,
+        "source_urls": 4
       }
     },
     {
@@ -808,129 +808,8 @@
     }
   ],
   "totalLines": 527,
-  "missingLines": [
-    {
-      "chapter": "L448-01-01",
-      "level": "deep",
-      "sample": "**이어 읽기 · `L448-01-02`**"
-    },
-    {
-      "chapter": "L448-01-02",
-      "level": "deep",
-      "sample": "**이어 읽기 · `L448-01-03`**"
-    },
-    {
-      "chapter": "L448-01-03",
-      "level": "deep",
-      "sample": "**이어 읽기 · `L448-02-01`**"
-    },
-    {
-      "chapter": "L448-02-01",
-      "level": "deep",
-      "sample": "**이어 읽기 · `L448-02-02`**"
-    },
-    {
-      "chapter": "L448-02-02",
-      "level": "deep",
-      "sample": "**이어 읽기 · `L448-02-03`**"
-    },
-    {
-      "chapter": "L448-02-03",
-      "level": "deep",
-      "sample": "**이어 읽기 · `L448-03-01`**"
-    },
-    {
-      "chapter": "L448-03-01",
-      "level": "deep",
-      "sample": "**이어 읽기 · `L448-03-02`**"
-    },
-    {
-      "chapter": "L448-03-02",
-      "level": "deep",
-      "sample": "**이어 읽기 · `L448-03-03`**"
-    },
-    {
-      "chapter": "L448-03-03",
-      "level": "deep",
-      "sample": "**이어 읽기 · `L448-04-01`**"
-    },
-    {
-      "chapter": "L448-04-01",
-      "level": "deep",
-      "sample": "**이어 읽기 · `L448-04-02`**"
-    },
-    {
-      "chapter": "L448-04-02",
-      "level": "deep",
-      "sample": "**이어 읽기 · `L448-04-03`**"
-    },
-    {
-      "chapter": "L448-04-03",
-      "level": "deep",
-      "sample": "**이어 읽기 · `L448-05-01`**"
-    },
-    {
-      "chapter": "L448-05-01",
-      "level": "deep",
-      "sample": "**이어 읽기 · `L448-05-02`**"
-    },
-    {
-      "chapter": "L448-05-02",
-      "level": "deep",
-      "sample": "**이어 읽기 · `L448-05-03`**"
-    },
-    {
-      "chapter": "L448-05-03",
-      "level": "deep",
-      "sample": "**이 절의 참고 자료:** [근거 1](https://smarthistory.org/bad-confession-poma-chronicle/) · [근거 2](https://per"
-    },
-    {
-      "chapter": "L448-06-01",
-      "level": "deep",
-      "sample": "**이어 읽기 · `L448-06-02`**"
-    },
-    {
-      "chapter": "L448-06-02",
-      "level": "deep",
-      "sample": "**이어 읽기 · `L448-06-03`**"
-    },
-    {
-      "chapter": "L448-06-03",
-      "level": "deep",
-      "sample": "**이 절의 참고 자료:** [근거 1](https://researchportalplus.anu.edu.au/en/publications/manuscript-xli-papeiha-"
-    },
-    {
-      "chapter": "L448-07-01",
-      "level": "deep",
-      "sample": "**이어 읽기 · `L448-07-02`**"
-    },
-    {
-      "chapter": "L448-07-02",
-      "level": "deep",
-      "sample": "**이어 읽기 · `L448-07-03`**"
-    },
-    {
-      "chapter": "L448-07-03",
-      "level": "deep",
-      "sample": "**이 절의 참고 자료:** [근거 1](https://repositorio.celam.org/s/repositorio/item/3171) · [근거 2](https://repos"
-    },
-    {
-      "chapter": "L448-08-01",
-      "level": "deep",
-      "sample": "**이어 읽기 · `L448-08-02`**"
-    },
-    {
-      "chapter": "L448-08-02",
-      "level": "deep",
-      "sample": "**이어 읽기 · `L448-08-03`**"
-    },
-    {
-      "chapter": "L448-08-03",
-      "level": "deep",
-      "sample": "**이어 읽기 · `L448-01-01`**"
-    }
-  ],
-  "passed": 78,
+  "missingLines": [],
+  "passed": 102,
   "total": 102,
   "can_ship": false
 }
