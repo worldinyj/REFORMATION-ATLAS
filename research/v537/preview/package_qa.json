@@ -1,0 +1,32 @@
+{
+  "version": "V5.37",
+  "counts": {
+    "volumes": 8,
+    "chapters": 24,
+    "cases": 52,
+    "points": 36,
+    "people": 10,
+    "theology": 5,
+    "global": 6,
+    "assets": 23
+  },
+  "checks": {
+    "counts": true,
+    "uniqueIDs": true,
+    "activeText": true,
+    "originalBodies": true,
+    "originalSources": true,
+    "volumeRefs": true,
+    "chapterRefs": true,
+    "caseRefs": true,
+    "pointRefs": true,
+    "personRefs": true,
+    "allAssetsStructurallyChecked": true,
+    "timelineRef": true,
+    "noUnsafePreviewPaths": true,
+    "releaseBlocked": true
+  },
+  "serialized_chars": 231376,
+  "scope": "package data and reference validation only; assets referenced by Git blob SHA, not copied yet; no runtime tests",
+  "can_ship": false
+}
