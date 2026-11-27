@@ -1,0 +1,41 @@
+{
+  "version": "V5.41",
+  "scope": "single integration pilot",
+  "files": [
+    {
+      "name": "pilot_content.json",
+      "sha": "18ddad526dcf79cd07f1f00d0c7d47ee364ec362"
+    },
+    {
+      "name": "augsburg.svg",
+      "sha": "d4c869df275c36bfbee99a08e6a9d6563fca99af"
+    },
+    {
+      "name": "content_qa.json",
+      "sha": "0025957ae6cf67f64ba8082da72e37676dbd2dcd"
+    },
+    {
+      "name": "pilot_panel.mjs",
+      "sha": "a4f1bac10d6a65c218d773cd43072a4f084ea0c7"
+    },
+    {
+      "name": "pilot_panel.css",
+      "sha": "8ac6ecf1ac6c742db8f7206ab45ead8f7fdf029e"
+    },
+    {
+      "name": "test_pilot.mjs",
+      "sha": "1ab560e7fada9672b15b4cbe61a1ef9a0ebb7469"
+    },
+    {
+      "name": "panel_qa.json",
+      "sha": "6b96f84d36392382de3d08b95378fc95f8f5c86c"
+    }
+  ],
+  "content_checks": 9,
+  "panel_checks": 20,
+  "asset_sha_verified": true,
+  "host_app_verified": false,
+  "browser_verified": false,
+  "can_ship": false,
+  "can_import_ai_studio": false
+}
