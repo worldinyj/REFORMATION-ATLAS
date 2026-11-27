@@ -30,5 +30,47 @@
     "allLimits": true,
     "distinctLegacy": true
   },
-  "can_ship": false
+  "can_ship": false,
+  "integration_checks": {
+    "baseChaptersUnchanged": true,
+    "baseTheologyUnchanged": true,
+    "baseGlobalUnchanged": true,
+    "readerPreserved": true,
+    "masterPreserved": true,
+    "readerSeven": true,
+    "masterSeven": true,
+    "fullBodyPreserved": true,
+    "masterUniqueAnchors": true,
+    "allNewReaderLinks": true,
+    "relatedLinks": true,
+    "allFlagsBlocked": true
+  },
+  "reader_chars": 62221,
+  "master_chars": 154102,
+  "reader_prior_chars": 58388,
+  "master_prior_chars": 141164,
+  "related_links": 15,
+  "reader_path": "docs/01_CONTENT/READER/V542_24_CHAPTER_REFORMERS_READER_KO.md",
+  "master_path": "docs/01_CONTENT/INTEGRATED/V542_EIGHT_VOLUME_REFORMERS_MASTER_KO.md",
+  "prior_source_blobs": [
+    {
+      "path": "docs/01_CONTENT/READER/V534_24_CHAPTER_GLOBAL_READER_KO.md",
+      "sha": "d208079283e4b0f46a13ea883fbffa66ffbc7601"
+    },
+    {
+      "path": "docs/01_CONTENT/INTEGRATED/V534_EIGHT_VOLUME_GLOBAL_MASTER_KO.md",
+      "sha": "b9e25c9c90438432635454966c9bff60318df2d0"
+    },
+    {
+      "path": "research/data/V534_EIGHT_VOLUME_GLOBAL_BALANCE_CANDIDATE.json",
+      "sha": "7c2188b818d19729d30040e6fd6ac86afff27dda"
+    }
+  ],
+  "status": "RESEARCH_CANDIDATE_NOT_IMPORTED",
+  "limitations": [
+    "원판 직접 교감 미완료",
+    "외부 전문가 및 독자 검토 미완료",
+    "V5.39 미리보기와 기존 AI Studio 앱 미변경",
+    "기존 44개 미연결 객체에 대한 전체 재판정 미수행"
+  ]
 }
