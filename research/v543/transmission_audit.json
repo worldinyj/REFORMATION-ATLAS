@@ -1,0 +1,53 @@
+{
+  "checks": {
+    "five": true,
+    "fourBiographies": true,
+    "unique": true,
+    "allChapterRefs": true,
+    "allSourceRefs": true,
+    "allLimits": true,
+    "substantive": true
+  },
+  "units": 5,
+  "biographies": 4,
+  "body_chars": 6127,
+  "source_records": 19,
+  "chapter_ids": [
+    "L448-04-02",
+    "L448-04-03",
+    "L448-08-02",
+    "L448-05-02",
+    "L448-08-01",
+    "L448-08-03",
+    "L448-05-03"
+  ],
+  "open_bibliography": [
+    {
+      "id": "HOLD-543-01",
+      "issue": "제2스위스 신앙고백 작성 연도 1561/1562",
+      "status": "OPEN",
+      "refs": [
+        "H1",
+        "H4"
+      ]
+    },
+    {
+      "id": "HOLD-543-02",
+      "issue": "베자 사본 1556년 활용과 1562년 입수 설명 불일치",
+      "status": "OPEN",
+      "refs": [
+        "E3",
+        "E4"
+      ]
+    },
+    {
+      "id": "HOLD-543-03",
+      "issue": "1560년 스코틀랜드 신앙고백 원본 소실 및 후대 전승",
+      "status": "ORIGINAL_LOST_PER_RPS; WITNESS_COLLATION_PENDING",
+      "refs": [
+        "K2"
+      ]
+    }
+  ],
+  "can_ship": false
+}
