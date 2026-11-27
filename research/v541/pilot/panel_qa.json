@@ -1,0 +1,28 @@
+{
+  "checks": {
+    "all4Targets": true,
+    "defaultDisabled": true,
+    "wrongTitle": true,
+    "wrongKind": true,
+    "wrongNamespace": true,
+    "releaseBlocked": true,
+    "eventScope": true,
+    "mounted": true,
+    "overview": true,
+    "intermediate": true,
+    "deep": true,
+    "all17SourceLinks": true,
+    "theology": true,
+    "holds": true,
+    "asset": true,
+    "imageFallback": true,
+    "destroyPreservesHost": true,
+    "externalAssetRejected": true,
+    "noMutation": true,
+    "unsafeURL": true
+  },
+  "passed": 20,
+  "total": 20,
+  "scope": "Actual module functions with minimal simulated DOM, not browser or AI Studio host; deep Markdown deliberately literal text",
+  "can_ship": false
+}
