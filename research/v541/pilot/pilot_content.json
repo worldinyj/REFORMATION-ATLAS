@@ -1,0 +1,417 @@
+{
+  "schema_version": "1.0.0",
+  "version": "V5.41",
+  "mode": "research_preview_only",
+  "can_ship": false,
+  "can_import_ai_studio": false,
+  "can_merge_main": false,
+  "namespace": "ATLAS_OVERVIEW_V01",
+  "notice_ko": "연구 검토용 추가 읽기 · 기존 개요 대체 아님 · 전문가 검토 및 실제 앱 통합 미완료",
+  "chapter": {
+    "id": "L448-04-02",
+    "volume_id": "VOL-04",
+    "title": "마르부르크의 합의와 아우크스부르크 판본: 신학과 서지의 차이",
+    "period": "1529–1540년",
+    "overview": {
+      "text": "1529년 마르부르크 회담에서 개혁자들은 여러 교리에 동의했지만 성찬을 같은 말로 설명하지 못했습니다. 1530년 독일의 제후와 도시들은 아우크스부르크 제국회의에 신앙고백을 제출했습니다. 1531년 인쇄 신앙고백과 이를 옹호하는 별도 글인 변증서, 1540년 수정 신앙고백은 서로 구별해야 합니다. 이 문서의 차이는 신앙 논쟁이 공적 선언과 교리 설명으로 이어진 과정을 보여 줍니다. 원판의 글자 대조는 아직 연구 중입니다.",
+      "question": "회의에서 합의한 문서와 제국에 제출한 신앙고백은 무엇이 다를까요?",
+      "glossary": [
+        "성찬",
+        "신앙고백",
+        "변증서"
+      ]
+    },
+    "intermediate": {
+      "title": "마르부르크의 식탁에서 아우크스부르크의 문헌까지",
+      "text": "1529년 헤센의 필리프는 서로 다른 개혁운동이 협력할 가능성을 모색하며 루터와 츠빙글리 등을 마르부르크로 초청했습니다. 종교개혁이 이미 하나의 통일된 교회였다면 이런 만남은 필요하지 않았을 것입니다. 개혁자들에게는 신학적 공통점을 확인하는 일과 정치적 협력의 조건을 마련하는 일이 함께 놓여 있었습니다.\n\n회담의 열다섯 조항은 삼위일체와 그리스도, 신앙과 칭의 등에서 공통점을 표현했습니다. 마지막 제15조에서는 성찬에 관한 합의와 미합의가 함께 나타납니다. 그리스도의 몸과 피가 성찬에서 어떻게 임재하는지를 둘러싼 차이는 완전히 해결되지 않았지만, 문서는 남은 이견 속에서도 상호 사랑을 촉구했습니다. 따라서 회담을 아무 합의도 없었던 실패나 모든 문제가 해결된 성공으로 단순화하지 않는 편이 정확합니다.\n\n이듬해 1530년 아우크스부르크 제국회의에서 제출된 신앙고백은 새로운 종류의 공적 문헌이었습니다. 신앙에 관한 대화를 기록한 회담 조항과 정치적 자리에 제출한 신앙고백은 목적이 다릅니다. 이후 비공인 인쇄본과 1531년 공인 인쇄본이 등장했고, 반박에 답하는 별개의 문헌인 변증서도 출판됐습니다. 멜란히톤의 1540년 라틴어 개정본 Variata는 이러한 문헌 전승의 또 다른 단계입니다.\n\n여기에서 독자가 특히 주의할 문제는 같은 출판연도가 같은 본문을 보장하지 않는다는 사실입니다. 1858년 Corpus Reformatorum의 편집자들은 1531년의 두 라틴어 인쇄 형태를 포함해 네 증거군을 구별했습니다. 또한 1540년 간행물이라고 해서 모두 Variata인 것은 아닙니다. 제10조의 성찬 표현이 어떻게 달라졌는지를 판단하려면 책의 언어와 수록 문헌, 인쇄 형태, 실제 판면을 확인해야 합니다. 후대 교감본의 독법은 중요한 근거지만 1531년과 1540년 초기 인쇄면의 직접 대조를 대신하지는 않습니다.\n\n**마르부르크가 개혁자 사이의 공통점과 경계를 보여 준다면, 아우크스부르크 문헌사는 신앙이 공적으로 표현되고 인쇄되어 전승되는 과정을 보여 줍니다.** 다음 장에서는 이 신앙의 언어가 제네바와 잉글랜드, 재세례파의 교회 조직에서 어떻게 다른 제도로 나타났는지 읽습니다.",
+      "question": "회담에서 합의한 문서와 제국회의에 제출한 신앙고백, 반박에 답한 변증서는 어떻게 다를까요?",
+      "evidence_ladder": [
+        {
+          "level": "회담 조항",
+          "kind": "GHDI의 1529년 제15조 편집 자료",
+          "claim": "성찬의 부분 합의 및 남은 이견",
+          "limit": "후대 교파 전체의 합의로 확대하지 않음"
+        },
+        {
+          "level": "공적 제출",
+          "kind": "1530년 제출 및 인쇄본 연구",
+          "claim": "공적 고백과 인쇄 전승 구별",
+          "limit": "제출 원고의 글자를 목록으로 복원하지 않음"
+        },
+        {
+          "level": "변증서와 개정본",
+          "kind": "1531년 변증서·1540년 Variata 서지",
+          "claim": "문헌의 기능과 판본 구분",
+          "limit": "1540년 인쇄물을 모두 Variata로 분류하지 않음"
+        },
+        {
+          "level": "본문 대조",
+          "kind": "1858년 교감판 편집자 분류",
+          "claim": "네 증거군의 구분",
+          "limit": "초기 원판 제10조 직접 교감은 보류"
+        }
+      ],
+      "supplemental_urls": [],
+      "public_context_records": [
+        {
+          "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/the-marburg-colloquy-the-marburg-articles-1529",
+          "scope": "마르부르크 조항 공개 편집 자료",
+          "access": "PUBLIC_WEB_SEARCH_RESULT_OR_ABSTRACT",
+          "full_primary_collation": false
+        }
+      ],
+      "source_scope": "Existing historical chapter plus targeted public source descriptions; not full primary collation"
+    },
+    "deep": {
+      "markdown": "**이 장의 출발점**\n\n마르부르크의 개혁자들은 어떤 점에 합의했고 어떤 점에서 멈췄을까요? 그다음 아우크스부르크에서 신앙을 제국에 제출한 일은 또 다른 문서의 역사입니다.\n\n---\n\n1529년 헤센의 필리프가 초대한 마르부르크 회담은 개혁자들이 논쟁과 합의를 동시에 시도했다는 사실을 보여 준다. 루터·츠빙글리 등을 포함한 참가자들은 삼위일체·그리스도·죄와 신앙 같은 여러 항목에 관해 공통된 내용을 담은 문서에 서명했다. 그러나 마지막 제15조의 성찬 문제에서는 그리스도의 몸과 피가 임재한다는 표현을 어떻게 이해할지 완전한 일치에 이르지 못했다. 독일사 사료집(GHDI)이 제공하는 문서는 **합의한 부분과 합의하지 못한 부분을 하나의 자료 안에서** 확인하게 한다.\n\n마지막 제15조는 남은 이견을 인정하면서도 더 나은 이해와 상호 사랑을 촉구했다. 후대 루터파·개혁파의 실제 합의로 곧바로 확대하지 않도록 회담 기록과 후대의 해석을 구분한다.\n\n독일어 전사본의 **제7조**는 믿음과 칭의의 관계를 함께 고백하고, **제15조** 안에도 성찬에 관한 공동 진술과 구체적인 미합의가 공존한다. 이는 자료를 열다섯 조항의 단순한 '14 대 1' 표로 압축하지 말아야 할 이유다. 여기서 대조한 것은 GHDI가 전사한 독일어 본문이며, 출처로 제시된 WA 30/3(1910) 160–171쪽과 1529년 원문 실물까지 직접 교감한 것은 아니다.\n\n이듬해 1530년 제국회의에서 제후와 도시가 제출한 아우크스부르크 신앙고백은 한 신학자의 사적 메모가 아닌 공적 신앙 문서였다. 그러나 **1530년 6월 25일 제출·독일어 낭독된 문서**, **1530년의 비공인 인쇄본**, **1531년 비텐베르크의 공인 인쇄본**, **1540년 라틴어 개정판 Variata**는 각각 서지적으로 다른 증거다. 에모리대학교 피츠 신학도서관의 희귀본 목록은 1530년 취리히 인쇄본(VD16 C4744), 1531년 게오르크 라우가 비텐베르크에서 간행한 독일어판(VD16 C4736), 1540년 라틴어 Variata(VD16 C4713)를 구별한다. 1530년에 제출된 독일어·라틴어 원고의 글자 자체를 이 인쇄물 목록만으로 복원할 수는 없다.\n\n특히 1531년 출판물에 합본으로 실린 **『아우크스부르크 신앙고백 변증서』(Apologia Confessionis Augustanae)**는 신앙고백의 '1531년판' 자체가 아니다. 반박에 답하기 위해 멜란히톤이 쓴 **별개의 변호·논증 문헌**이며, 독일어판은 유스투스 요나스가 라틴어를 자유롭게 번역했다. 또한 공적으로 제출된 독일어 신앙고백과 라틴어 신앙고백도 기계적인 원본·직역 관계가 아니라 각각 문언의 차이를 가진 두 공식 언어판이다. 이 네 층위를 한 문헌의 연도별 판본으로 뭉뚱그리면 초기 종교개혁의 실제 문헌사를 이해하기 어렵다.\n\n희귀본을 확인할 때 특별히 주의할 사례가 있다. 그루버 희귀본 목록은 1540년에 인쇄된 어떤 소장본이 **Variata가 아님**을 명확히 표시한다. 그러므로 책의 출판연도 '1540'만으로 해당 인쇄본을 Variata라고 판정해서는 안 된다.\n\n**실제 희귀본 대조가 남긴 구분:** 시카고 그루버 희귀본 목록의 **Gruber 28**은 1540년 라틴어 Variata로 분류된다. 그런데 같은 목록은 1540년에 출판된 다른 합본의 아우크스부르크 신앙고백이 **Variata가 아닌** 경우를 명시한다. 이 두 설명은 한 책에 두 가지 판독이 있다는 뜻이 아니라, 서지상 개별 소장본과 수록 문헌을 분리해야 한다는 뜻이다. 소장본·표제·인쇄연도·수록된 신앙고백의 형태를 확인한 뒤에만 성찬에 관한 제10조를 한 특정 판본에 귀속할 수 있다. 이번 V5.21 단계에서는 1531년과 1540년의 제10조 원판 사진을 새로 직접 판독하지 않았으므로, 1858년 교감판에 적힌 `exhibeatur`를 1540년 특정 책의 실제 활자로 단정하지 않는다. 표제지·판권·본문의 실제 차이와 각 교파의 수용을 따로 확인하는 서지 연구가 필요하다. 성찬에 관한 제10조의 문구 차이는 중요한 비교 지점이지만, 그것이 왜 개정됐고 어떻게 받아들여졌는지 설명하려면 개별 텍스트 대조가 뒤따라야 한다.\n\n#### 하나의 연도가 하나의 본문은 아니다 — 네 증거군의 계보\n\n『아우크스부르크 신앙고백』의 판본을 '1531년 불변판 대 1540년 개정판' 두 가지로만 나누면 중요한 본문 역사가 사라진다. **1858년 『Corpus Reformatorum』 제26권 349~350쪽의 편집자 서문**은 비교 대상 라틴어 인쇄본을 네 그룹으로 구별한다. **Ed. 1: 1531년 4절판 초판**, **Ed. 2: 1531년 8절판(당시 편집자 표현으로 첫 번째 *variata*)**, **Ed. 3: 1535~1540년 4절판 계열(두 번째 *variata*)**, **Ed. 4: 1541~1542년 8절판 계열(세 번째 *variata*)**이다. 이 네 구분은 1858년 편집자의 교감 체계이지, 모든 역사학자가 사용하는 보편적 개정단계 명칭을 뜻하지 않는다.\n\n편집자는 Ed. 3을 본문 기준으로 삼고 나머지 세 판의 독법을 대조 주석으로 기록했다. 따라서 제10조 성찬 문장을 논할 때도 편집본의 본문과 각주가 어떤 인쇄본 그룹을 대표하는지 먼저 살펴야 한다. **1531년이라는 한 해 안에 서로 다른 라틴어 인쇄 형태가 있었다는 사실**과, 독일어 공인판이 별개의 인쇄·언어 증거라는 사실을 함께 기억해야 한다. '1531 대 1540'이라는 단순한 표는 독자용 출발점일 수 있어도 판본사 전체를 대표하지 못한다.\n\n아울러 같은 교감본 제357쪽에 실린 제10조에는 동사 `exhibeatur`가 보인다. 해당 지면을 확인했지만 1531년 원판과 1540년 원판의 성찬 조항을 직접 대조한 것은 아니다. 후대 인용 자료의 `exhibeantur`와의 차이는 여전히 원판 판독을 기다리는 검증 문제로 남긴다.\n\n#### 제10조 성찬론 문구의 실제 증거 대조\n\n라틴어·독일어를 함께 싣고 1930년 문헌편집본을 근거로 제시한 현대 PDF의 **6쪽(웹 PDF 0부터 세면 5쪽)**에서 1531년 초판 계열의 제10조는 *vere adsint et distribuantur*라는 표현을 사용한다. 이는 성찬에서 그리스도의 몸과 피가 '참으로 현존하며 분배된다'는 설명이다. 뒤에 *et improbant secus docentes*라는 반대 견해에 대한 규정도 있다. 그 옆의 독일어 표현에는 빵과 포도주의 형상 아래 현존한다는 문장이 명시되어 있다. 따라서 두 공식 언어판을 각기 다른 문구를 가진 자료로 읽어야 한다.\n\n1858년 『Corpus Reformatorum』 제26권 357쪽의 실제 인쇄 지면에는 제10조가 'quod cum pane et vino vere exhibeatur corpus et sanguis Christi'라고 인쇄되어 있다. 따라서 V5.11에서 이 지면에 복수형 'exhibeantur'가 보인다고 한 판독은 **잘못된 자료 귀속**이었다. 반면 19세기 후대 저술인 필리프 샤프의 대조 인용에는 'exhibeantur'가 나타난다. 이 둘을 같은 원문으로 정규화하지 않고 사료별 독법을 구분한다.\n\n1858년 교감판 주석 34에서는 초기판과 후기판 성찬 조항의 변화, 곧 진술 구조와 반대 견해 규정의 차이를 확인할 수 있다. 그러나 'exhibeatur'와 'exhibeantur' 가운데 어느 것이 1540년 원판의 실제 활자 독법인지는 원판 해당 지면을 보기 전에는 **미확정**이다. 이 차이가 초판의 이본인지, 후대 편집 또는 인용 과정의 형태 변화인지도 현재 자료만으로 결정할 수 없다.\n\n그러나 이러한 표현 변경을 1540년의 성찬론이 그리스도의 참된 현존을 부정하거나 '단지 상징'으로 바뀌었다는 단정으로 바꾸어서는 안 된다. 별개 저술인 1531년 『변증서』의 제10조 또한 참된 현존을 변호한다. 문장의 차이, 그에 대한 역사적 해석, 후대 교파적 수용이라는 세 층위를 분리하는 것이 필요하다.\n\n**검증 범위와 소장처 정정:** 1531년 라틴어 인쇄본(VD16 C4734, MDZ `bsb11411960`)의 실물 소장기관은 **밤베르크 주립도서관(Staatsbibliothek Bamberg)**이고, 디지털화 수행 기관은 **바이에른 주립도서관**이다. 1531년 독일어 공인 인쇄본은 별개의 디지털 자료 `bsb10160424`(VD16 C4736, 총 506스캔)로 등록되어 있다. 1540년 Georg Rhau판 274쪽(`HmpoAAAAcAAJ`)에 대한 Google Books 기록의 원본 소장처는 **아우크스부르크 시립·주립도서관(Staats- und Stadtbibliothek Augsburg)**으로, 이전 V5.12의 소장기관 표기를 정정한다.\n\n이번 환경에서 MDZ의 공개 IIIF 매니페스트 경로를 실제 열어보려 했으나 반환 오류가 발생했다. Google Books의 '전체보기' 소장정보와 목차 링크도 본문 사진을 분석할 수 있는 열람 결과로 전환되지 않았다. 따라서 **1531년 라틴어 및 독일어 원판과 1540년 라틴어 원판의 제10조 원 인쇄면은 여전히 직접 판독하지 못했다**. 소장·디지털화 확인과 특정 본문 지면의 교감을 구별한다.\n\n직접 시각 확인한 원문 지면은 1858년 Corpus Reformatorum 제357~358쪽의 **후대 교감판 스캔**이다. 소장본의 존재 확인과 초기 인쇄본의 본문 면 교감 완료를 혼동하지 않는다.\n\n마르부르크와 아우크스부르크를 같은 종류의 종교회의라고 부르지 않는 것도 중요하다. 전자는 개혁자 사이의 신학적 대화와 부분적 합의의 사례이고, 후자는 제국 정치 공간에 제출된 공적 신앙고백의 사례다. 두 사건 모두 사상의 역사를 보여 주지만 **문서의 법적·교리적 성격과 독자층이 달랐다**. 이 차이는 제5권의 1555년 종교화의와 연결해 읽을 때 더욱 중요하다.\n\n**독자의 비교 질문:** '1529년에 동의한 내용', '1530년에 제출한 고백', '1531년에 인쇄한 문헌', '1540년에 개정한 본문'은 서로 무엇이 다른가?\n\n**자료와 해석을 구별하기**\n\n1529년의 독일어 문서는 현대 전사로, 1531/1540년 성찬 문구 차이는 1858년 『Corpus Reformatorum』의 인쇄 교감판으로 확인했습니다. 당대 1529·1531·1540년 실물 원문을 모두 직접 대조한 것은 아닙니다.\n\n**이어 읽기 · `L448-04-03`**\n\n다음 장에서는 문서의 차이가 제네바·잉글랜드·재세례파 공동체에서 어떻게 서로 다른 운영 제도로 이어졌는지 살핍니다.",
+      "source_urls": [
+        "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/the-marburg-colloquy-the-marburg-articles-1529",
+        "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/the-marburg-colloquy-ulrich-zwinglis-report-october-20-1529",
+        "https://gruber.lstc.edu/confessions/augs_apol.php",
+        "https://germanhistorydocs.org/de/von-den-reformationen-bis-zum-dreissigjaehrigen-krieg-1500-1648/ghdi:document-4311",
+        "https://www.augsburg1540.com/uploads/1/3/8/9/138903771/1540_latin_text_from_corpus_reformandum.pdf",
+        "https://dia.pitts.emory.edu/exhibits/exhibitcatalogs/Kessler2017ExhibitionCatalogue.pdf",
+        "https://www.irt-ggmbh.de/downloads/calatdt.pdf",
+        "https://bookofconcord.cph.org/en/apology-augsburg-confession/article_x/",
+        "https://www.augsburg1540.com/1530-1540-comparison-text.html",
+        "https://www.digitale-sammlungen.de/en/details/bsb11411960",
+        "https://books.google.com/books?id=HmpoAAAAcAAJ&printsec=frontcover",
+        "https://www.gutenberg.org/cache/epub/26909/pg26909-images.html",
+        "https://www.bavarikon.de/object/bav:BSB-CMS-0000000000001353?lang=en",
+        "https://www.digitale-sammlungen.de/en/view/bsb10160424",
+        "https://catalog.folger.edu/record/368895",
+        "https://www.digitale-sammlungen.de/en/interfaces",
+        "https://iiif.io/guides/guides/digitale-sammlungen.de/"
+      ],
+      "source_state": "V499_HISTORICAL_TRANSCRIPTION_CRITICAL_EDITION",
+      "review_state": "V513_EDITED_EDITION_GENEALOGY_VERIFIED_ORIGINAL_ARTICLE_X_LEAF_PENDING",
+      "needs_expert_review": true
+    },
+    "transition": {
+      "text": "공동 신앙의 문헌과 남은 이견을 이해한 뒤, 교회 운영의 권한이 지역마다 어떻게 다르게 조직되었는지 읽는다.",
+      "next_chapter_id": "L448-04-03",
+      "transition_kind": "chapter_progression",
+      "direct_causal_claim": false
+    },
+    "case_ids": [
+      "ATLAS518-0402-01",
+      "ATLAS518-0402-02",
+      "ATLAS518-0402-03"
+    ],
+    "person_ids": [],
+    "theology_ids": [
+      "TH533-02",
+      "TH533-03",
+      "TH533-04"
+    ],
+    "global_ids": [],
+    "document_asset_ids": [
+      "asset:augsburg.svg"
+    ],
+    "can_ship": false
+  },
+  "cases": [
+    {
+      "case_id": "ATLAS518-0402-01",
+      "chapter_id": "L448-04-02",
+      "period": "1529년",
+      "region": "마르부르크",
+      "label": "개혁자들의 합의와 성찬 이견",
+      "primary_evidence_genre": "회담 조항의 편집 전사본",
+      "interpretation_limit": "몇 항목 합의와 성찬에 관한 완전한 일치를 혼동하지 않는다",
+      "primary_reader_theme": "성찬·예배",
+      "evidence_status": "SYNTHESIZED_FROM_V517_CHAPTER_NOT_NEW_PRIMARY_COLLATION",
+      "attribution_warning": "The chapter has reference URLs but each URL is not individually certified as supporting this case.",
+      "volume_id": "VOL-04",
+      "locations": [
+        {
+          "name": "마르부르크",
+          "coordinates": [
+            8.77,
+            50.81
+          ],
+          "kind": "approximate_related_locality"
+        }
+      ],
+      "spatial_scope": "existing_point",
+      "historical_boundary": null,
+      "route": null,
+      "coordinate_status": "editorial approximate; not independently checked"
+    },
+    {
+      "case_id": "ATLAS518-0402-02",
+      "chapter_id": "L448-04-02",
+      "period": "1530년",
+      "region": "아우크스부르크",
+      "label": "신앙고백의 공적 제출",
+      "primary_evidence_genre": "제국회의 관련 신앙고백·인쇄 전승",
+      "interpretation_limit": "제출 사건과 후대 인쇄본의 문장 형태를 곧바로 동일시하지 않는다",
+      "primary_reader_theme": "권위",
+      "evidence_status": "SYNTHESIZED_FROM_V517_CHAPTER_NOT_NEW_PRIMARY_COLLATION",
+      "attribution_warning": "The chapter has reference URLs but each URL is not individually certified as supporting this case.",
+      "volume_id": "VOL-04",
+      "locations": [
+        {
+          "name": "아우크스부르크",
+          "coordinates": [
+            10.9,
+            48.37
+          ],
+          "kind": "approximate_related_locality"
+        }
+      ],
+      "spatial_scope": "existing_point",
+      "historical_boundary": null,
+      "route": null,
+      "coordinate_status": "editorial approximate; not independently checked"
+    },
+    {
+      "case_id": "ATLAS518-0402-03",
+      "chapter_id": "L448-04-02",
+      "period": "1531·1540년",
+      "region": "비텐베르크",
+      "label": "신앙고백 초판·변증서·Variata 판본 차이",
+      "primary_evidence_genre": "인쇄 서지·1858년 교감판",
+      "interpretation_limit": "1531·1540 초기 인쇄본 제10조 원판 지면 직접 교감 미완료",
+      "primary_reader_theme": "성찬·예배",
+      "evidence_status": "SYNTHESIZED_FROM_V517_CHAPTER_NOT_NEW_PRIMARY_COLLATION",
+      "attribution_warning": "The chapter has reference URLs but each URL is not individually certified as supporting this case.",
+      "volume_id": "VOL-04",
+      "locations": [
+        {
+          "name": "비텐베르크",
+          "coordinates": [
+            12.65,
+            51.87
+          ],
+          "kind": "approximate_related_locality"
+        }
+      ],
+      "spatial_scope": "existing_point",
+      "historical_boundary": null,
+      "route": null,
+      "coordinate_status": "editorial approximate; not independently checked"
+    }
+  ],
+  "theology": {
+    "units": [
+      {
+        "id": "TH533-02",
+        "title": "은총과 칭의 — 선행은 어떤 위치에 있는가",
+        "home": "L448-08-01",
+        "related": [
+          "L448-03-02",
+          "L448-04-02",
+          "L448-05-01"
+        ],
+        "refs": [
+          [
+            "AC",
+            "제4·5·6조"
+          ],
+          [
+            "AP",
+            "제4조 변증"
+          ],
+          [
+            "TR",
+            "제6회기 칭의 교령"
+          ],
+          [
+            "HC",
+            "문답 60·65·86"
+          ]
+        ],
+        "body": "루터파 아우크스부르크 신앙고백 제4조는 인간이 자신의 공로가 아니라 그리스도 때문에 믿음을 통해 의롭다 함을 받는다고 고백한다. 제5조는 말씀과 성례를 통한 믿음의 전달을, 제6조는 믿음이 선한 열매를 맺어야 한다는 점을 다룬다. 따라서 선행이 칭의의 근거가 아니라는 말은 선행이 불필요하다는 말과 같지 않다.\n\n1547년 트리엔트 공의회 제6회기는 인간이 자신의 자연적 능력이나 율법으로 스스로 의롭게 될 수 없다고 전제한다. 그리스도의 은총이 선행하며, 칭의는 죄의 용서뿐 아니라 내적인 새로워짐을 포함한다는 설명을 제시한다. 은총에 의해 가능해진 인간의 응답과 의로움의 성장도 그 체계에 포함된다. 가톨릭의 견해를 인간의 독립적인 공로만으로 구원받는다는 주장으로 축소하면 실제 교령의 출발점을 잃는다.\n\n1563년 하이델베르크 요리문답 60문은 그리스도의 의를 믿음으로 받는다는 고백을, 65문은 성령이 복음과 성례를 통해 믿음을 일으키고 확증한다는 설명을, 86문은 구원받은 사람의 감사와 선행을 연결한다. 루터파와 개혁파의 공통점이 분명하지만 개별 신학 체계가 모든 점에서 동일하다는 뜻은 아니다.\n\n이 논쟁은 구원의 은혜를 부정하느냐 인정하느냐만으로 설명되지 않는다. 칭의의 의미, 믿음과 인간의 응답, 의로움의 전가와 내적 변화가 어떻게 연결되는지가 핵심이다. 위클리프의 중세 은총론에 이 구도를 그대로 소급하지 않는다.",
+        "boundary": "제6회기 전체 법규의 조항별 교감은 미수행. 동방 정교회의 신화(theosis) 및 현대 공동 칭의 선언은 다음 검토 대상으로 남긴다.",
+        "source_scope": "public search excerpts and online document descriptions consulted 2026-11-24; no original edition collation",
+        "can_ship": false
+      },
+      {
+        "id": "TH533-03",
+        "title": "성찬 — 같은 식탁을 둘러싼 서로 다른 고백",
+        "home": "L448-08-02",
+        "related": [
+          "L448-03-02",
+          "L448-04-02",
+          "L448-04-03",
+          "L448-05-01",
+          "L448-01-03"
+        ],
+        "refs": [
+          [
+            "AC",
+            "제10조"
+          ],
+          [
+            "HC",
+            "문답 75–79"
+          ],
+          [
+            "CC",
+            "1374–1376항"
+          ],
+          [
+            "OE",
+            "성찬의 실제성과 신비"
+          ],
+          [
+            "SC",
+            "떡을 떼는 일"
+          ]
+        ],
+        "body": "1529년 마르부르크 회담에서 성찬의 이견이 남았다는 사실은 개혁자들이 그리스도의 임재를 어떻게 이해했는지 질문하게 한다. 아우크스부르크 신앙고백 제10조는 그리스도의 몸과 피가 성찬 가운데 참으로 현존하며 분배된다고 고백한다. 이 설명을 가톨릭 실체변화 교리와 동일하게 부르거나 루터파의 자기 고백 대신 공재설이라는 외부 명칭만으로 설명하지 않는다.\n\n개혁파의 1563년 하이델베르크 요리문답 75–79문은 성찬을 통해 그리스도의 희생과 그 유익을 확신하며 성령으로 그리스도의 몸에 참여한다고 설명한다. 빵과 포도주 자체가 몸과 피의 실체로 변한다고 설명하지 않는다. 이는 성찬이 아무런 영적 참여 없이 단지 과거를 떠올리는 행위라는 주장과 다르다. 다만 이 문답을 1529년 츠빙글리의 발언이나 칼뱅의 모든 저술과 동일시하지 않는다.\n\n가톨릭의 현대 교리서는 축성으로 빵과 포도주의 실체가 그리스도의 몸과 피로 변화한다는 실체변화를 설명한다. 동방 정교회의 현대 교리 해설 역시 성찬을 그리스도의 참된 몸과 피에 참여하는 신비로 이해한다. 두 전통이 실제 임재를 고백한다고 해서 그 설명 방식과 예배 제도가 같아지는 것은 아니다. 1527년 슐라이트하임 조항은 기억과 떡을 떼는 공동체의 세례·일치를 연결한다. 이것도 모든 재세례파의 성찬론을 대표하지는 않는다.\n\n역사적 비교의 핵심은 임재 여부뿐 아니라 임재의 방식, 성령의 역할, 성찬에 참여할 공동체의 조건이다. 1531년과 1540년 아우크스부르크 제10조의 원판 글자 차이는 이전 연구의 미해결 사항으로 그대로 둔다.",
+        "boundary": "츠빙글리·칼뱅의 저자별 원문 비교는 별도 과제. 현대 교리서와 16세기 고백을 같은 시기 자료로 취급하지 않는다.",
+        "source_scope": "public search excerpts and online document descriptions consulted 2026-11-24; no original edition collation",
+        "can_ship": false
+      },
+      {
+        "id": "TH533-04",
+        "title": "교회는 무엇인가 — 말씀, 성례, 공동체와 직분",
+        "home": "L448-04-03",
+        "related": [
+          "L448-04-02",
+          "L448-05-01",
+          "L448-08-02"
+        ],
+        "refs": [
+          [
+            "AC",
+            "제5·7·14조"
+          ],
+          [
+            "SC",
+            "세례·권징·목회자 조항"
+          ],
+          [
+            "GO",
+            "교회와 전승의 현대 설명"
+          ]
+        ],
+        "body": "종교개혁의 교회론은 예배 방식을 바꾸는 문제에서 그치지 않았다. 무엇이 교회를 교회답게 만들며 누가 가르치고 성례를 시행할 수 있는지가 쟁점이었다. 아우크스부르크 신앙고백 제7조는 복음의 바른 가르침과 성례의 바른 시행을 교회의 표지로 제시하며, 모든 인간적 예식이 동일해야 교회의 일치가 가능하다고 요구하지 않는다. 제14조는 공적 가르침과 성례 시행에 정당한 소명이 필요하다고 설명한다.\n\n1527년 슐라이트하임 조항에서는 신앙의 고백에 따른 세례, 공동체 권징, 떡을 떼는 일과 목회자의 책임이 연결된다. 신앙을 고백한 사람들의 공동체라는 강조점은 당시 영토와 주민의 교회 소속이 밀접히 연결된 여러 제도와 긴장을 이룰 수 있었다. 다만 이를 모든 재세례파가 동일한 교회 행정 방식을 선택했다는 뜻으로 읽지 않는다.\n\n제네바의 교회 규정이나 잉글랜드의 수장령과 이 자료를 비교하면 신학적 교회 이해, 직분의 권한, 국가 법률상의 지위를 별도로 검토해야 한다는 점이 드러난다. 동방 정교회의 현대 자기 설명에서 성경과 전승, 성찬, 지역 교회 생활이 연결되는 모습도 교회가 단지 국가 행정 단위가 아니라는 비교점을 제공한다.\n\n교회론의 역사적 의미는 누구에게 설교할 권한을 주었는지, 어떻게 교인을 받아들였는지, 어떤 절차로 공동체의 책임을 다루었는지를 함께 읽을 때 보인다.",
+        "boundary": "제네바·잉글랜드의 법적 시행과 가톨릭·정교회 직분론 전체의 비교는 별도 연구가 필요하다.",
+        "source_scope": "public search excerpts and online document descriptions consulted 2026-11-24; no original edition collation",
+        "can_ship": false
+      }
+    ],
+    "sources": {
+      "AC": {
+        "title": "Augsburg Confession",
+        "url": "https://bookofconcord.org/augsburg-confession/",
+        "date": "1530 confession; modern online translation",
+        "type": "historical confessional text in translation"
+      },
+      "AP": {
+        "title": "Apology of the Augsburg Confession, Article IV",
+        "url": "https://bookofconcord.cph.org/en/apology-augsburg-confession/article_iv_ii/",
+        "date": "1531 apology; modern translation",
+        "type": "historical confessional defense"
+      },
+      "TR": {
+        "title": "Council of Trent, Session VI",
+        "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/ghdi%3Adocument-4336",
+        "date": "1547 decree; modern edited translation",
+        "type": "historical decree in translation"
+      },
+      "HC": {
+        "title": "Heidelberg Catechism",
+        "url": "https://www.crcna.org/welcome/beliefs/confessions/heidelberg-catechism",
+        "date": "1563 catechism; current denominational edition",
+        "type": "historical catechism in modern translation"
+      },
+      "CC": {
+        "title": "Catechism of the Catholic Church, 1356–1381",
+        "url": "https://www.vatican.va/content/catechism/en/part_two/section_two/chapter_one/article_3/v_the_sacramental_sacrifice_thanksgiving_memorial_presence.index.html",
+        "date": "modern catechism; cites Trent",
+        "type": "Roman Catholic self-description"
+      },
+      "OE": {
+        "title": "Holy Eucharist",
+        "url": "https://www.oca.org/orthodoxy/the-orthodox-faith/worship/the-sacraments/holy-eucharist",
+        "date": "modern catechetical explanation",
+        "type": "Eastern Orthodox self-description"
+      },
+      "SC": {
+        "title": "Schleitheim Articles",
+        "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/an-anabaptist-confession-of-faith-the-schleitheim-articles-1527",
+        "date": "1527; modern edited translation",
+        "type": "historical confession in translation"
+      },
+      "GO": {
+        "title": "Teachings of the Orthodox Church",
+        "url": "https://www.goarch.org/-/teachings-of-the-orthodox-church",
+        "date": "modern denominational explanation",
+        "type": "Eastern Orthodox self-description; not a sixteenth-century witness"
+      }
+    }
+  },
+  "targets": [
+    {
+      "id": "VOL-04",
+      "kind": "volume",
+      "label": "16세기 종교개혁",
+      "relation": "same_volume_key",
+      "case_ids": [
+        "ATLAS518-0402-01",
+        "ATLAS518-0402-02",
+        "ATLAS518-0402-03"
+      ]
+    },
+    {
+      "id": "OV-E-018",
+      "kind": "event",
+      "label": "마르부르크 회담",
+      "relation": "related_reading_not_identity",
+      "case_ids": [
+        "ATLAS518-0402-01"
+      ]
+    },
+    {
+      "id": "OV-E-019",
+      "kind": "event",
+      "label": "아우크스부르크 신앙고백 제출",
+      "relation": "related_reading_not_identity",
+      "case_ids": [
+        "ATLAS518-0402-02"
+      ]
+    },
+    {
+      "id": "OV-D-011",
+      "kind": "document",
+      "label": "아우크스부르크 신앙고백",
+      "relation": "related_reading_not_identity",
+      "case_ids": [
+        "ATLAS518-0402-02",
+        "ATLAS518-0402-03"
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "id": "asset:augsburg.svg",
+      "filename": "augsburg.svg",
+      "blob_sha": "d4c869df275c36bfbee99a08e6a9d6563fca99af",
+      "caption": "1530년 제출 · 1531년 인쇄 및 별도 변증서 · 1540년 개정 · 후대 교감판의 문헌 비교. 완전한 계통도 아님."
+    }
+  ],
+  "review_holds": [
+    "1531·1540 초기 인쇄본 제10조 원판 지면 직접 교감 미완료",
+    "츠빙글리·칼뱅 저자별 원문 비교 미완료",
+    "실제 호스트 앱 소스 및 인증·라우트 미확인",
+    "전문가 검토 및 브라우저 검수 미완료"
+  ],
+  "provenance": [
+    {
+      "path": "research/v539/site/atlas_preview.json",
+      "sha": "79437376c52d8e286f3c9a4b618fdb55b8bb3e92"
+    },
+    {
+      "path": "research/v540/handoff/legacy_crosswalk.json",
+      "sha": "050ce2b533dfec42e41572e651934e2aa2fa2e13"
+    },
+    {
+      "path": "research/v539/site/assets/augsburg.svg",
+      "sha": "d4c869df275c36bfbee99a08e6a9d6563fca99af"
+    }
+  ]
+}
