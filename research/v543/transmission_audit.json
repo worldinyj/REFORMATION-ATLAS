@@ -49,5 +49,29 @@
       ]
     }
   ],
-  "can_ship": false
+  "can_ship": false,
+  "integration_checks": {
+    "baseChapters": true,
+    "priorReformerUnits": true,
+    "priorTheology": true,
+    "priorGlobal": true,
+    "fiveReader": true,
+    "fiveMaster": true,
+    "fullBodies": true,
+    "uniqueAnchors": true,
+    "readerLinks": true,
+    "masterInternalLinks": true,
+    "relatedLinks": true,
+    "releaseBlocked": true
+  },
+  "reader_chars": 65925,
+  "master_chars": 166449,
+  "prior_reader_chars": 62221,
+  "prior_master_chars": 154102,
+  "related_links": 16,
+  "reader_path": "docs/01_CONTENT/READER/V543_24_CHAPTER_TRANSMISSION_READER_KO.md",
+  "master_path": "docs/01_CONTENT/INTEGRATED/V543_EIGHT_VOLUME_TRANSMISSION_MASTER_KO.md",
+  "base_preserved_exactly_after_removing_insertions": true,
+  "source_scope": "19 reference records, some directly opened edited texts or catalogues; some search excerpts; Campi full page 403; no physical original collation",
+  "can_import_ai_studio": false
 }
