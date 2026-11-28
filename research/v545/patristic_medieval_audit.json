@@ -44,5 +44,31 @@
       "status": "OPEN"
     }
   ],
-  "can_ship": false
+  "can_ship": false,
+  "integration_checks": {
+    "baseChapters": true,
+    "priorReformerUnits": true,
+    "priorTransmission": true,
+    "priorCatholic": true,
+    "priorTheology": true,
+    "priorGlobal": true,
+    "fiveReader": true,
+    "fiveMaster": true,
+    "fullBodies": true,
+    "uniqueAnchors": true,
+    "readerLinks": true,
+    "masterInternalLinks": true,
+    "relatedLinks": true,
+    "releaseBlocked": true
+  },
+  "reader_chars": 74200,
+  "master_chars": 191701,
+  "prior_reader_chars": 70246,
+  "prior_master_chars": 179575,
+  "related_links": 16,
+  "reader_path": "docs/01_CONTENT/READER/V545_24_CHAPTER_PATRISTIC_MEDIEVAL_READER_KO.md",
+  "master_path": "docs/01_CONTENT/INTEGRATED/V545_EIGHT_VOLUME_PATRISTIC_MEDIEVAL_MASTER_KO.md",
+  "base_preserved_exactly_after_removing_insertions": true,
+  "source_scope": "21 references; public English translation passages and scholarly search extracts; Greek/Latin critical edition and manuscript collation not done",
+  "can_import_ai_studio": false
 }
