@@ -1,0 +1,48 @@
+{
+  "checks": {
+    "five": true,
+    "fourPeople": true,
+    "unique": true,
+    "chapterRefs": true,
+    "sourceRefs": true,
+    "limits": true,
+    "substantive": true
+  },
+  "units": 5,
+  "biographies": 4,
+  "body_chars": 5880,
+  "source_records": 21,
+  "chapter_ids": [
+    "L448-01-03",
+    "L448-01-02",
+    "L448-02-01",
+    "L448-08-01",
+    "L448-04-01",
+    "L448-04-03",
+    "L448-05-01",
+    "L448-08-02"
+  ],
+  "open_research": [
+    {
+      "id": "HOLD-545-01",
+      "issue": "아타나시우스 제39서신의 그리스어·콥트어 등 전체 전승 및 성육신 저술 작성 연대",
+      "status": "OPEN"
+    },
+    {
+      "id": "HOLD-545-02",
+      "issue": "아우구스티누스 저술별 은총론 발전과 개혁자별 직접 인용",
+      "status": "OPEN"
+    },
+    {
+      "id": "HOLD-545-03",
+      "issue": "안셀무스 만족론에서 개혁기 속죄론으로의 구체적 수용",
+      "status": "OPEN"
+    },
+    {
+      "id": "HOLD-545-04",
+      "issue": "아퀴나스 라틴어 비평판과 후기 스콜라 전통의 구별",
+      "status": "OPEN"
+    }
+  ],
+  "can_ship": false
+}
