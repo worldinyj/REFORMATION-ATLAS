@@ -1,0 +1,67 @@
+{
+  "checks": {
+    "five": true,
+    "fourPeople": true,
+    "unique": true,
+    "chapterRefs": true,
+    "sourceRefs": true,
+    "allBoundaries": true,
+    "substantive": true
+  },
+  "units": 5,
+  "biographies": 4,
+  "body_chars": 6168,
+  "source_records": 19,
+  "chapter_ids": [
+    "L448-05-01",
+    "L448-05-03",
+    "L448-08-02",
+    "L448-06-01",
+    "L448-08-01",
+    "L448-04-03",
+    "L448-06-02",
+    "L448-06-03",
+    "L448-07-01",
+    "L448-08-03"
+  ],
+  "open_bibliography": [
+    {
+      "id": "HOLD-544-01",
+      "issue": "완덕의 길 에스코리알·바야돌리드 필사 전통, 1583년 누락 장 및 1588년 편집",
+      "refs": [
+        "T4"
+      ],
+      "status": "EDITORIAL_INTRODUCTION_CHECKED; ORIGINAL_COLLATION_PENDING"
+    },
+    {
+      "id": "HOLD-544-02",
+      "issue": "영적 찬가 A·B의 배열 및 작성 시점, 어두운 밤 친필 원고 최신 소장 상태",
+      "refs": [
+        "J1",
+        "J3"
+      ],
+      "status": "OPEN"
+    },
+    {
+      "id": "HOLD-544-03",
+      "issue": "밀라노 교회 기록집 1582년과 1582 또는 1583년 소장 목록 표기",
+      "refs": [
+        "B2",
+        "B3",
+        "B5"
+      ],
+      "status": "OPEN; NOT_SEPARATE_EDITION_PROOF"
+    },
+    {
+      "id": "HOLD-544-04",
+      "issue": "하비에르 1552년 서신의 발신지·원전 서지와 후대 번역 표제",
+      "refs": [
+        "X3",
+        "X5",
+        "X6"
+      ],
+      "status": "OPEN"
+    }
+  ],
+  "can_ship": false
+}
