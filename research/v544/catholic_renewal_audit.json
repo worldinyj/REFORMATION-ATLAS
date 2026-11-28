@@ -63,5 +63,30 @@
       "status": "OPEN"
     }
   ],
-  "can_ship": false
+  "can_ship": false,
+  "integration_checks": {
+    "baseChapters": true,
+    "priorReformerUnits": true,
+    "priorTransmission": true,
+    "priorTheology": true,
+    "priorGlobal": true,
+    "fiveReader": true,
+    "fiveMaster": true,
+    "fullBodies": true,
+    "uniqueAnchors": true,
+    "readerLinks": true,
+    "masterInternalLinks": true,
+    "relatedLinks": true,
+    "releaseBlocked": true
+  },
+  "reader_chars": 70246,
+  "master_chars": 179575,
+  "prior_reader_chars": 65925,
+  "prior_master_chars": 166449,
+  "related_links": 17,
+  "reader_path": "docs/01_CONTENT/READER/V544_24_CHAPTER_CATHOLIC_RENEWAL_READER_KO.md",
+  "master_path": "docs/01_CONTENT/INTEGRATED/V544_EIGHT_VOLUME_CATHOLIC_RENEWAL_MASTER_KO.md",
+  "base_preserved_exactly_after_removing_insertions": true,
+  "source_scope": "19 references; four HTML sources directly opened and readable, others search excerpts; Morgan 403, Granada 502; no original collation",
+  "can_import_ai_studio": false
 }
